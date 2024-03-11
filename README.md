@@ -5,9 +5,12 @@
 ![image](https://github.com/JevLOMCN/mir4-launcher/assets/68875342/cdb640b2-f390-461a-9ba4-eca75baf9f30)
 
 # Links:
+
+[Website](https://thelegendofmir.uk)
+
 [Mir 4 Source](https://github.com/JevLOMCN/mir4)
 
-[Discord](https://discord.gg/sNXHXY6EwP)
+[Discord](https://discord.gg/rrrzFM3W)
 
 [Topaz Mir 4 Development Section](https://www.lomcn.net/forum/forums/topaz-mir-4-files-open-source.846/)
 
