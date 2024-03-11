@@ -28,53 +28,14 @@
         /// </summary>
         private void InitializeComponent()
         {
-            RZImage = new PictureBox();
-            LOMCNImage = new PictureBox();
-            SponsoredLabel = new Label();
             InfoCloseImage = new PictureBox();
             SpecialThanksLabel = new Label();
             NyylLabel = new Label();
             Firev2Label = new Label();
             MentalLabel = new Label();
             GurgelLabel = new Label();
-            ((System.ComponentModel.ISupportInitialize)RZImage).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)LOMCNImage).BeginInit();
             ((System.ComponentModel.ISupportInitialize)InfoCloseImage).BeginInit();
             SuspendLayout();
-            // 
-            // RZImage
-            // 
-            RZImage.BackColor = Color.Transparent;
-            RZImage.Dock = DockStyle.Bottom;
-            RZImage.Image = Properties.Resources.RZ;
-            RZImage.Location = new Point(0, 411);
-            RZImage.Name = "RZImage";
-            RZImage.Size = new Size(607, 206);
-            RZImage.TabIndex = 0;
-            RZImage.TabStop = false;
-            RZImage.Click += RZImage_Click;
-            // 
-            // LOMCNImage
-            // 
-            LOMCNImage.BackColor = Color.Transparent;
-            LOMCNImage.Image = Properties.Resources.lomcn_logo;
-            LOMCNImage.Location = new Point(206, 311);
-            LOMCNImage.Name = "LOMCNImage";
-            LOMCNImage.Size = new Size(200, 100);
-            LOMCNImage.TabIndex = 1;
-            LOMCNImage.TabStop = false;
-            LOMCNImage.Click += LOMCNImage_Click;
-            // 
-            // SponsoredLabel
-            // 
-            SponsoredLabel.AutoSize = true;
-            SponsoredLabel.BackColor = Color.Transparent;
-            SponsoredLabel.Font = new Font("Segoe UI", 30F);
-            SponsoredLabel.Location = new Point(174, 254);
-            SponsoredLabel.Name = "SponsoredLabel";
-            SponsoredLabel.Size = new Size(267, 54);
-            SponsoredLabel.TabIndex = 3;
-            SponsoredLabel.Text = "Sponsored by";
             // 
             // InfoCloseImage
             // 
@@ -147,33 +108,24 @@
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.Black;
-            ClientSize = new Size(607, 617);
+            ClientSize = new Size(607, 262);
             Controls.Add(GurgelLabel);
             Controls.Add(MentalLabel);
             Controls.Add(Firev2Label);
             Controls.Add(NyylLabel);
             Controls.Add(SpecialThanksLabel);
             Controls.Add(InfoCloseImage);
-            Controls.Add(SponsoredLabel);
-            Controls.Add(LOMCNImage);
-            Controls.Add(RZImage);
             ForeColor = Color.Gray;
             FormBorderStyle = FormBorderStyle.None;
             Name = "InfoForm";
             StartPosition = FormStartPosition.CenterParent;
             Text = "InfoForm";
-            ((System.ComponentModel.ISupportInitialize)RZImage).EndInit();
-            ((System.ComponentModel.ISupportInitialize)LOMCNImage).EndInit();
             ((System.ComponentModel.ISupportInitialize)InfoCloseImage).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
 
         #endregion
-
-        private PictureBox RZImage;
-        private PictureBox LOMCNImage;
-        private Label SponsoredLabel;
         private PictureBox InfoCloseImage;
         private Label SpecialThanksLabel;
         private Label NyylLabel;

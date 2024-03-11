@@ -8,14 +8,17 @@
     <UseWindowsForms>true</UseWindowsForms>
     <ImplicitUsings>enable</ImplicitUsings>
     <ApplicationIcon>MIR4_LOMCN_Logo.ico</ApplicationIcon>
-    <PackageIcon>Mir 4.ico</PackageIcon>
-    <PackageProjectUrl>www.lomcn.net</PackageProjectUrl>
+    <PackageIcon>favicon.ico</PackageIcon>
+    <PackageProjectUrl>www.thelegendofmir.uk</PackageProjectUrl>
     <Description>Mir 4 Launcher</Description>
     <Copyright>Copyright © 2024</Copyright>
   </PropertyGroup>
 
   <ItemGroup>
-    <Content Include="MIR4_LOMCN_Logo.ico" />
+    <None Include="..\..\mir4\Code\Csharp\ServerConsole\favicon.ico">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
   </ItemGroup>
 
   <ItemGroup>

@@ -72,9 +72,9 @@
             LOMCNLABEL.ForeColor = Color.White;
             LOMCNLABEL.Location = new Point(12, 12);
             LOMCNLABEL.Name = "LOMCNLABEL";
-            LOMCNLABEL.Size = new Size(52, 15);
+            LOMCNLABEL.Size = new Size(70, 15);
             LOMCNLABEL.TabIndex = 1;
-            LOMCNLABEL.Text = "LOMCN";
+            LOMCNLABEL.Text = "AVA MIR 4";
             LOMCNLABEL.Click += LOMCNLABEL_Click;
             // 
             // BoxImage
@@ -94,9 +94,9 @@
             LOMCNCoLabel.ForeColor = Color.DimGray;
             LOMCNCoLabel.Location = new Point(416, 599);
             LOMCNCoLabel.Name = "LOMCNCoLabel";
-            LOMCNCoLabel.Size = new Size(219, 15);
+            LOMCNCoLabel.Size = new Size(199, 15);
             LOMCNCoLabel.TabIndex = 4;
-            LOMCNCoLabel.Text = "© LOMCN Co., LTD. All rights reserved.";
+            LOMCNCoLabel.Text = "© AVA Co., LTD. All rights reserved.";
             // 
             // CommunityImage
             // 
@@ -332,7 +332,7 @@
             FormBorderStyle = FormBorderStyle.None;
             Icon = (Icon)resources.GetObject("$this.Icon");
             Name = "Launcher";
-            Text = "WEGREED";
+            Text = "AVA";
             MouseDown += Form1_MouseDown;
             MouseMove += Form1_MouseMove;
             MouseUp += Form1_MouseUp;
