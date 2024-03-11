@@ -1,8 +1,8 @@
-# Legend of Mir 4 Awakening Client Launcher & Server Console
+# Legend of Mir 4 LOMCN Client Launcher & Server Console
 
-![image](https://github.com/JevLOMCN/mir4-launcher/assets/68875342/368d9d8a-e96e-4d7f-8fcb-c28016ea34d9)
+![image](https://github.com/JevLOMCN/mir4-launcher/assets/68875342/42eb3453-f414-4b89-a62e-7ce1ea459796)
 
-![image](https://github.com/JevLOMCN/mir4-launcher/assets/68875342/ee27b316-474f-4bcc-a0fb-114c0f7f7098)
+![image](https://github.com/JevLOMCN/mir4-launcher/assets/68875342/cdb640b2-f390-461a-9ba4-eca75baf9f30)
 
 # Links:
 [Mir 4 Source](https://github.com/JevLOMCN/mir4)
