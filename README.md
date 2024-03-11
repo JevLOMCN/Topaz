@@ -1,4 +1,4 @@
-# Legend of Mir 4 LOMCN Client Launcher & Server Console
+# Legend of Mir 4 Client Launcher & Server Console
 
 ![image](https://github.com/JevLOMCN/mir4-launcher/assets/68875342/42eb3453-f414-4b89-a62e-7ce1ea459796)
 
