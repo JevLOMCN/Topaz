@@ -117,6 +117,168 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <metadata name="ChattingLabel.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="GameLabel.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="label1.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="label2.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="ChattingLabel.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="ChattingLabel.Text" xml:space="preserve">
+    <value>
+Public IP:
+
+Public Port:
+
+World Server Connect IP:
+
+World Server Connect Port:
+
+Max Worldserver Connection Socket Count:
+
+Max Client Socket Count:
+
+Max Worker Count:
+
+IOCP Thread Count:
+
+Recv Buffer Size:
+
+Send Buffer Size:
+
+Log File Level:
+
+Log Console Level:
+
+Make Dump:
+
+Dump Server Path:
+
+Dump Path:
+
+Assert Messagebox:</value>
+  </data>
+  <metadata name="GameLabel.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="GameLabel.Text" xml:space="preserve">
+    <value>
+World Server Connect IP:
+
+World Server Connect Port:
+
+Max Gateway Socket Count:
+
+Max Worker Count:
+
+IOCP Thread Count:
+
+Recv Buffer Size:
+
+Send Buffer Size:
+
+Log File Level:
+
+Log Console Level:
+
+Make Dump:
+
+Dump Server Path:
+
+Dump Path:
+
+Assert Messagebox:</value>
+  </data>
+  <metadata name="label1.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="label1.Text" xml:space="preserve">
+    <value>
+Public IP:
+
+Public Port:
+
+World Server Connect IP:
+
+World Server Connect Port:
+
+Max Client Socket Count:
+
+Max Worker Count:
+
+IOCP Thread Count:
+
+Recv Buffer Size:
+
+Send Buffer Size:
+
+Log File Level:
+
+Log Console Level:
+
+Make Dump:
+
+Dump Server Path:
+
+Dump Path:
+
+Assert Messagebox:</value>
+  </data>
+  <metadata name="label2.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="label2.Text" xml:space="preserve">
+    <value>
+Server ID:
+
+GameServer Connect Port:
+
+Max GameServer Socket Count:
+
+GatewayServer Connect Port:
+
+Max GatewayServer Socket Count:
+
+ChattingServer Connect Port:
+
+Max Worker Count:
+
+IOCP Thread Count:
+
+Recv Buffer Size:
+
+Send Buffer Size:
+
+Log File Level:
+
+Log Console Level:
+
+Make Dump:
+
+Dump Server Path:
+
+Dump Path:
+
+Assert Messagebox:
+
+Front DB IP:
+
+Front FB Port:
+
+Front DB User:
+
+Front DB PW:
+
+Front DB Name: </value>
+  </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>

@@ -1,3 +1,4 @@
+using Server_Console.Config;
 using Server_Console.Database;
 using Server_Console.Logs;
 using System.Data;
@@ -203,7 +204,11 @@ namespace Server_Console
         }
         private void ConfigImage_Click(object sender, EventArgs e)
         {
+            // Create an instance of ConfigForm
+            ConfigForm configForm = new ConfigForm();
 
+            // Show the ConfigForm
+            configForm.Show();
         }
 
         #endregion

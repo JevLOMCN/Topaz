@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(JSONForm));
             FileList = new TreeView();
             JSONTextBox = new RichTextBox();
             SuspendLayout();
@@ -67,9 +68,8 @@
             Controls.Add(JSONTextBox);
             Controls.Add(FileList);
             ForeColor = SystemColors.WindowText;
-            FormBorderStyle = FormBorderStyle.None;
+            Icon = (Icon)resources.GetObject("$this.Icon");
             Name = "JSONForm";
-            ShowInTaskbar = false;
             StartPosition = FormStartPosition.CenterScreen;
             Text = "JSONForm";
             ResumeLayout(false);

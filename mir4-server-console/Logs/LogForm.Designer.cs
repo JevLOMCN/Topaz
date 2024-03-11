@@ -86,6 +86,7 @@
             WorldLogsList.Name = "WorldLogsList";
             WorldLogsList.Size = new Size(170, 392);
             WorldLogsList.TabIndex = 2;
+            WorldLogsList.MouseClick += WorldLogsList_MouseClick;
             // 
             // WorldBox
             // 
@@ -245,7 +246,6 @@
         private RichTextBox GameBox;
         private RichTextBox FrontBox;
         private RichTextBox ChattingBox;
-        private Label CloseButton;
         private TreeView WorldLogsList;
         private TreeView GatewayLogsList;
         private TreeView GameLogsList;

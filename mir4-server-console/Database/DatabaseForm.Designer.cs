@@ -30,7 +30,6 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(DatabaseForm));
             DBTree = new TreeView();
-            DBListView = new ListView();
             DatabaseTabs = new TabControl();
             ViewPage = new TabPage();
             SearchPage = new TabPage();
@@ -45,10 +44,12 @@
             AccountIDLabel = new Label();
             CharNameSearch = new TextBox();
             AccountIDSearch = new TextBox();
+            DBGridView = new DataGridView();
             DatabaseTabs.SuspendLayout();
             ViewPage.SuspendLayout();
             SearchPage.SuspendLayout();
             AccountsBox.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)DBGridView).BeginInit();
             SuspendLayout();
             // 
             // DBTree
@@ -59,15 +60,6 @@
             DBTree.Name = "DBTree";
             DBTree.Size = new Size(269, 642);
             DBTree.TabIndex = 0;
-            // 
-            // DBListView
-            // 
-            DBListView.Dock = DockStyle.Right;
-            DBListView.Location = new Point(271, 3);
-            DBListView.Name = "DBListView";
-            DBListView.Size = new Size(982, 642);
-            DBListView.TabIndex = 1;
-            DBListView.UseCompatibleStateImageBehavior = false;
             // 
             // DatabaseTabs
             // 
@@ -82,8 +74,8 @@
             // 
             // ViewPage
             // 
+            ViewPage.Controls.Add(DBGridView);
             ViewPage.Controls.Add(DBTree);
-            ViewPage.Controls.Add(DBListView);
             ViewPage.Location = new Point(4, 24);
             ViewPage.Name = "ViewPage";
             ViewPage.Padding = new Padding(3);
@@ -202,6 +194,17 @@
             AccountIDSearch.Size = new Size(100, 23);
             AccountIDSearch.TabIndex = 0;
             // 
+            // DBGridView
+            // 
+            DBGridView.BackgroundColor = SystemColors.Window;
+            DBGridView.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            DBGridView.Dock = DockStyle.Right;
+            DBGridView.GridColor = SystemColors.Window;
+            DBGridView.Location = new Point(278, 3);
+            DBGridView.Name = "DBGridView";
+            DBGridView.Size = new Size(975, 642);
+            DBGridView.TabIndex = 1;
+            // 
             // DatabaseForm
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
@@ -216,13 +219,13 @@
             SearchPage.ResumeLayout(false);
             AccountsBox.ResumeLayout(false);
             AccountsBox.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)DBGridView).EndInit();
             ResumeLayout(false);
         }
 
         #endregion
 
         private TreeView DBTree;
-        private ListView DBListView;
         private TabControl DatabaseTabs;
         private TabPage ViewPage;
         private TabPage SearchPage;
@@ -237,5 +240,6 @@
         private TextBox CharIDSearch;
         private Label EmailLabel;
         private TextBox EmailSearch;
+        private DataGridView DBGridView;
     }
 }
