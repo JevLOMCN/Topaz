@@ -18,7 +18,7 @@
 
 [Releases](https://www.lomcn.net/forum/forums/topaz-mir-4-releases.848/)
 
-[Bug Reports (Forum)](https://www.lomcn.net/forum/forums/topaz-mir-4-bug-reports.849/) // [Bug Reports (Gitub)](https://github.com/JevLOMCN/mir4-launcher/issues)
+[Bug Reports (Gitub)](https://github.com/JevLOMCN/mir4-launcher/issues)
 
 [Help Section](https://www.lomcn.net/forum/forums/topaz-mir-4-help.850/)
 
