@@ -29,8 +29,8 @@ namespace Mir_4_Launcher
         private SaveGameFile? gvasFile;
         private SaveGameFile? gvasFile1;
 
-        private string saveFilePath = Path.Combine("MirMobile", "MirMobile", "SaveData", "Saved", "SaveGames", "AccountLocalSave1.sav");
-        private string saveFilePath1 = Path.Combine("MirMobile", "MirMobile", "SaveData", "Saved", "SaveGames", "AccountLocalSave2.sav");
+        private string saveFilePath = Path.Combine("Client", "MirMobile", "SaveData", "Saved", "SaveGames", "AccountLocalSave1.sav");
+        private string saveFilePath1 = Path.Combine("Client", "MirMobile", "SaveData", "Saved", "SaveGames", "AccountLocalSave2.sav");
 
         public SettingsForm()
         {
@@ -145,7 +145,7 @@ namespace Mir_4_Launcher
 
         private void UpdatePictureBoxBasedOnDXValue()
         {
-            string dxBatchFilePath = Path.Combine("MirMobile", "MirMobile_DirectX.bat");
+            string dxBatchFilePath = Path.Combine("Client", "MirMobile_DirectX.bat");
 
             // Check if the batch file exists
             if (File.Exists(dxBatchFilePath))
@@ -428,8 +428,8 @@ namespace Mir_4_Launcher
         {
             string currentDirectory = Environment.CurrentDirectory;
             string[] batchFilePaths = {
-        Path.Combine(currentDirectory, "MirMobile", "MirMobile_DirectX.bat"),
-        Path.Combine(currentDirectory, "MirMobile", "MirMobile_DirectX2.bat")
+        Path.Combine(currentDirectory, "Client", "MirMobile_DirectX.bat"),
+        Path.Combine(currentDirectory, "Client", "MirMobile_DirectX2.bat")
     };
 
             foreach (string batchFilePath in batchFilePaths)
@@ -463,7 +463,7 @@ namespace Mir_4_Launcher
 
         private void UpdatePictureBoxBasedOnResolution()
         {
-            string dxBatchFilePath = Path.Combine("MirMobile", "MirMobile_DirectX.bat");
+            string dxBatchFilePath = Path.Combine("Client", "MirMobile_DirectX.bat");
 
             if (File.Exists(dxBatchFilePath))
             {
@@ -493,8 +493,8 @@ namespace Mir_4_Launcher
         {
             string currentDirectory = Environment.CurrentDirectory;
             string[] batchFilePaths = {
-        Path.Combine(currentDirectory, "MirMobile", "MirMobile_DirectX.bat"),
-        Path.Combine(currentDirectory, "MirMobile", "MirMobile_DirectX2.bat")
+        Path.Combine(currentDirectory, "Client", "MirMobile_DirectX.bat"),
+        Path.Combine(currentDirectory, "Client", "MirMobile_DirectX2.bat")
     };
 
             foreach (string dxBatchFilePath in batchFilePaths)

@@ -33,7 +33,7 @@ namespace Mir_4_Launcher
             if (WebView.CoreWebView2 != null)
             {
                 // Navigate to the GIF URL directly
-                WebView.CoreWebView2.Navigate("https://media.discordapp.net/attachments/1109157390407966720/1211434812158640179/Mir4Launcher.gif?ex=65ee2f96&is=65dbba96&hm=71cf5ed13046bc5ae0ffe16eb3b687e769248fcfa3883d94b612ac9b01df5379&=");
+                WebView.CoreWebView2.Navigate("https://thelegendofmir.uk");
             }
             else
             {
@@ -79,7 +79,7 @@ namespace Mir_4_Launcher
         private void GameStartButton1_Click(object sender, EventArgs e)
         {
             string currentDirectory = Environment.CurrentDirectory;
-            string mirMobileFolderPath = Path.Combine(currentDirectory, "MirMobile");
+            string mirMobileFolderPath = Path.Combine(currentDirectory, "Client");
             string batFilePath = Path.Combine(mirMobileFolderPath, "MirMobile_DirectX.bat");
 
             if (File.Exists(batFilePath))
@@ -100,7 +100,7 @@ namespace Mir_4_Launcher
         private void GameStartButton2_Click(object sender, EventArgs e)
         {
             string currentDirectory = Environment.CurrentDirectory;
-            string mirMobileFolderPath = Path.Combine(currentDirectory, "MirMobile");
+            string mirMobileFolderPath = Path.Combine(currentDirectory, "Client");
             string batFilePath = Path.Combine(mirMobileFolderPath, "MirMobile_DirectX2.bat");
 
             if (File.Exists(batFilePath))
@@ -173,7 +173,7 @@ namespace Mir_4_Launcher
 
         private void UpdateVersionLabel()
         {
-            string buildVersionFilePath = Path.Combine("MirMobile", "MirMobile", "Content", "additional", "buildversion.ini");
+            string buildVersionFilePath = Path.Combine("Client", "MirMobile", "Content", "additional", "buildversion.ini");
 
             // Check if the build version file exists
             if (File.Exists(buildVersionFilePath))
