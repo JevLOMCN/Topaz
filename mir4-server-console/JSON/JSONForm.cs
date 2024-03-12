@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Newtonsoft.Json;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -49,12 +50,68 @@ namespace Server_Console
         }
         private void FileList_AfterSelect(object sender, TreeViewEventArgs e)
         {
+            if (e.Node == null)
+                return;
 
+            string fileName = e.Node.Text;
+            string filePath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Data", fileName);
+
+            if (Path.GetExtension(filePath) == ".json")
+            {
+                LoadJsonData(filePath);
+            }
         }
-        #endregion
+        private void LoadJsonData(string filePath)
+        {
+            try
+            {
+                string json = File.ReadAllText(filePath);
 
-        #region FileList Menu (Right Click)
-        private void FileList_MouseClick(object sender, MouseEventArgs e)
+                List<Dictionary<string, object>> data = JsonConvert.DeserializeObject<List<Dictionary<string, object>>>(json);
+
+                // Clear existing columns
+                JsonDataGrid.Columns.Clear();
+
+                // Add columns dynamically based on keys in the JSON data
+                foreach (var item in data)
+                {
+                    foreach (var key in item.Keys)
+                    {
+                        if (!JsonDataGrid.Columns.Contains(key))
+                        {
+                            JsonDataGrid.Columns.Add(key, key);
+                        }
+                    }
+                }
+
+                // Populate rows
+                foreach (var item in data)
+                {
+                    List<string> row = new List<string>();
+                    foreach (var key in JsonDataGrid.Columns)
+                    {
+                        if (item.ContainsKey(key.ToString()))
+                        {
+                            row.Add(item[key.ToString()].ToString());
+                        }
+                        else
+                        {
+                            row.Add("");
+                        }
+                    }
+                    JsonDataGrid.Rows.Add(row.ToArray());
+                }
+            }
+            catch (Exception ex)
+            {
+                //MessageBox.Show("Error loading JSON file: " + ex.Message);
+            }
+        }
+        
+            #endregion
+
+            #region FileList Menu (Right Click)
+            private void FileList_MouseClick(object sender, MouseEventArgs e)
             {
                 if (e.Button == MouseButtons.Right)
                 {
