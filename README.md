@@ -4,7 +4,7 @@
 
 ![image](https://github.com/JevLOMCN/mir4-launcher/assets/68875342/cdb640b2-f390-461a-9ba4-eca75baf9f30)
 
-#Github
+# Github:
 [Mir 4 Source](https://github.com/JevLOMCN/mir4) // [Mir 4 Client Editor](https://github.com/JevLOMCN/Mir-4-Client-Editor)
 
 # Links:
