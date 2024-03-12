@@ -13,18 +13,6 @@
 
 [Discord](https://discord.gg/rrrzFM3W)
 
-[Topaz Mir 4 Development Section](https://www.lomcn.net/forum/forums/topaz-mir-4-files-open-source.846/)
-
-[Tutorials](https://www.lomcn.net/forum/forums/topaz-mir-4-tutorials.847/)
-
-[Releases](https://www.lomcn.net/forum/forums/topaz-mir-4-releases.848/)
-
-[Bug Reports (Gitub)](https://github.com/JevLOMCN/mir4-launcher/issues)
-
-[Help Section](https://www.lomcn.net/forum/forums/topaz-mir-4-help.850/)
-
-[Updates](https://www.lomcn.net/forum/forums/topaz-mir-4-updates.851/)
-
 # Downloads:
 [Client](https://mirfiles.com/resources/mir2/users/Jev/Mir%204/Mir%204%20Client.rar) // [Exported Clients](https://mirfiles.com/resources/mir2/users/Jev/Mir%204/Exports/) // [Other Clients](https://mirfiles.com/resources/mir2/users/Jev/Mir%204/Other%20Clients/)
 
