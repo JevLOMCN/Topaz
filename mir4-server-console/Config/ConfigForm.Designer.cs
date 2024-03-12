@@ -65,45 +65,45 @@
             GAMEWorldIPBox = new TextBox();
             GameLabel = new Label();
             GatewayPage = new TabPage();
-            textBox15 = new TextBox();
-            textBox1 = new TextBox();
-            textBox2 = new TextBox();
-            textBox3 = new TextBox();
-            textBox5 = new TextBox();
-            textBox6 = new TextBox();
-            textBox7 = new TextBox();
-            textBox8 = new TextBox();
-            textBox9 = new TextBox();
-            textBox10 = new TextBox();
-            textBox11 = new TextBox();
-            textBox12 = new TextBox();
-            textBox13 = new TextBox();
-            textBox14 = new TextBox();
-            textBox4 = new TextBox();
-            label1 = new Label();
+            GatewaySocket = new TextBox();
+            GatewayAMessageBox = new TextBox();
+            GatewayPath = new TextBox();
+            GatewayServerPath = new TextBox();
+            GatewayConsoleLevel = new TextBox();
+            GatewayFileLevel = new TextBox();
+            GatewaySend = new TextBox();
+            GatewayRec = new TextBox();
+            GatewayIOCP = new TextBox();
+            GatewayWorker = new TextBox();
+            GatewayConnectPort = new TextBox();
+            GatewayConnectIP = new TextBox();
+            GatewayPort = new TextBox();
+            GatewayIP = new TextBox();
+            GatewayMakeDump = new TextBox();
+            GatewayLabel = new Label();
             WorldPage = new TabPage();
-            textBox36 = new TextBox();
-            textBox35 = new TextBox();
-            textBox34 = new TextBox();
-            textBox33 = new TextBox();
-            textBox32 = new TextBox();
-            textBox31 = new TextBox();
-            textBox30 = new TextBox();
-            textBox29 = new TextBox();
-            textBox28 = new TextBox();
-            textBox27 = new TextBox();
-            textBox26 = new TextBox();
-            textBox25 = new TextBox();
-            textBox24 = new TextBox();
-            textBox23 = new TextBox();
-            textBox22 = new TextBox();
-            textBox21 = new TextBox();
-            textBox20 = new TextBox();
-            textBox19 = new TextBox();
-            textBox18 = new TextBox();
-            textBox17 = new TextBox();
-            textBox16 = new TextBox();
-            label2 = new Label();
+            WorldName = new TextBox();
+            WorldPW = new TextBox();
+            WorldUser = new TextBox();
+            WorldPort1 = new TextBox();
+            WorldIP = new TextBox();
+            WorldAMessagebox = new TextBox();
+            WorldDumpPath = new TextBox();
+            WorldServerPath = new TextBox();
+            WorldDump = new TextBox();
+            WorldConsoleLevel = new TextBox();
+            WorldFileLevel = new TextBox();
+            WorldSend = new TextBox();
+            WorldRec = new TextBox();
+            WorldIOCP = new TextBox();
+            WorldWorker = new TextBox();
+            WorldConnectPort1 = new TextBox();
+            WorldSocket = new TextBox();
+            WorldConnectPort = new TextBox();
+            WorldMaxCount = new TextBox();
+            WorldPort = new TextBox();
+            WorldID = new TextBox();
+            WorldLabel = new Label();
             ConfigTabs.SuspendLayout();
             ChattingPage.SuspendLayout();
             GamePage.SuspendLayout();
@@ -410,22 +410,22 @@
             // 
             // GatewayPage
             // 
-            GatewayPage.Controls.Add(textBox15);
-            GatewayPage.Controls.Add(textBox1);
-            GatewayPage.Controls.Add(textBox2);
-            GatewayPage.Controls.Add(textBox3);
-            GatewayPage.Controls.Add(textBox5);
-            GatewayPage.Controls.Add(textBox6);
-            GatewayPage.Controls.Add(textBox7);
-            GatewayPage.Controls.Add(textBox8);
-            GatewayPage.Controls.Add(textBox9);
-            GatewayPage.Controls.Add(textBox10);
-            GatewayPage.Controls.Add(textBox11);
-            GatewayPage.Controls.Add(textBox12);
-            GatewayPage.Controls.Add(textBox13);
-            GatewayPage.Controls.Add(textBox14);
-            GatewayPage.Controls.Add(textBox4);
-            GatewayPage.Controls.Add(label1);
+            GatewayPage.Controls.Add(GatewaySocket);
+            GatewayPage.Controls.Add(GatewayAMessageBox);
+            GatewayPage.Controls.Add(GatewayPath);
+            GatewayPage.Controls.Add(GatewayServerPath);
+            GatewayPage.Controls.Add(GatewayConsoleLevel);
+            GatewayPage.Controls.Add(GatewayFileLevel);
+            GatewayPage.Controls.Add(GatewaySend);
+            GatewayPage.Controls.Add(GatewayRec);
+            GatewayPage.Controls.Add(GatewayIOCP);
+            GatewayPage.Controls.Add(GatewayWorker);
+            GatewayPage.Controls.Add(GatewayConnectPort);
+            GatewayPage.Controls.Add(GatewayConnectIP);
+            GatewayPage.Controls.Add(GatewayPort);
+            GatewayPage.Controls.Add(GatewayIP);
+            GatewayPage.Controls.Add(GatewayMakeDump);
+            GatewayPage.Controls.Add(GatewayLabel);
             GatewayPage.Location = new Point(4, 24);
             GatewayPage.Name = "GatewayPage";
             GatewayPage.Size = new Size(531, 648);
@@ -433,145 +433,145 @@
             GatewayPage.Text = "Gateway";
             GatewayPage.UseVisualStyleBackColor = true;
             // 
-            // textBox15
+            // GatewaySocket
             // 
-            textBox15.Location = new Point(146, 132);
-            textBox15.Name = "textBox15";
-            textBox15.Size = new Size(43, 23);
-            textBox15.TabIndex = 34;
+            GatewaySocket.Location = new Point(146, 132);
+            GatewaySocket.Name = "GatewaySocket";
+            GatewaySocket.Size = new Size(43, 23);
+            GatewaySocket.TabIndex = 34;
             // 
-            // textBox1
+            // GatewayAMessageBox
             // 
-            textBox1.Location = new Point(114, 432);
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(43, 23);
-            textBox1.TabIndex = 33;
+            GatewayAMessageBox.Location = new Point(114, 432);
+            GatewayAMessageBox.Name = "GatewayAMessageBox";
+            GatewayAMessageBox.Size = new Size(43, 23);
+            GatewayAMessageBox.TabIndex = 33;
             // 
-            // textBox2
+            // GatewayPath
             // 
-            textBox2.Location = new Point(75, 402);
-            textBox2.Name = "textBox2";
-            textBox2.Size = new Size(177, 23);
-            textBox2.TabIndex = 32;
+            GatewayPath.Location = new Point(75, 402);
+            GatewayPath.Name = "GatewayPath";
+            GatewayPath.Size = new Size(177, 23);
+            GatewayPath.TabIndex = 32;
             // 
-            // textBox3
+            // GatewayServerPath
             // 
-            textBox3.Location = new Point(110, 372);
-            textBox3.Name = "textBox3";
-            textBox3.Size = new Size(177, 23);
-            textBox3.TabIndex = 31;
+            GatewayServerPath.Location = new Point(110, 372);
+            GatewayServerPath.Name = "GatewayServerPath";
+            GatewayServerPath.Size = new Size(177, 23);
+            GatewayServerPath.TabIndex = 31;
             // 
-            // textBox5
+            // GatewayConsoleLevel
             // 
-            textBox5.Location = new Point(110, 312);
-            textBox5.Name = "textBox5";
-            textBox5.Size = new Size(43, 23);
-            textBox5.TabIndex = 29;
+            GatewayConsoleLevel.Location = new Point(110, 312);
+            GatewayConsoleLevel.Name = "GatewayConsoleLevel";
+            GatewayConsoleLevel.Size = new Size(43, 23);
+            GatewayConsoleLevel.TabIndex = 29;
             // 
-            // textBox6
+            // GatewayFileLevel
             // 
-            textBox6.Location = new Point(84, 282);
-            textBox6.Name = "textBox6";
-            textBox6.Size = new Size(43, 23);
-            textBox6.TabIndex = 28;
+            GatewayFileLevel.Location = new Point(84, 282);
+            GatewayFileLevel.Name = "GatewayFileLevel";
+            GatewayFileLevel.Size = new Size(43, 23);
+            GatewayFileLevel.TabIndex = 28;
             // 
-            // textBox7
+            // GatewaySend
             // 
-            textBox7.Location = new Point(98, 256);
-            textBox7.Name = "textBox7";
-            textBox7.Size = new Size(69, 23);
-            textBox7.TabIndex = 27;
+            GatewaySend.Location = new Point(98, 256);
+            GatewaySend.Name = "GatewaySend";
+            GatewaySend.Size = new Size(69, 23);
+            GatewaySend.TabIndex = 27;
             // 
-            // textBox8
+            // GatewayRec
             // 
-            textBox8.Location = new Point(98, 227);
-            textBox8.Name = "textBox8";
-            textBox8.Size = new Size(69, 23);
-            textBox8.TabIndex = 26;
+            GatewayRec.Location = new Point(98, 227);
+            GatewayRec.Name = "GatewayRec";
+            GatewayRec.Size = new Size(69, 23);
+            GatewayRec.TabIndex = 26;
             // 
-            // textBox9
+            // GatewayIOCP
             // 
-            textBox9.Location = new Point(116, 197);
-            textBox9.Name = "textBox9";
-            textBox9.Size = new Size(43, 23);
-            textBox9.TabIndex = 25;
+            GatewayIOCP.Location = new Point(116, 197);
+            GatewayIOCP.Name = "GatewayIOCP";
+            GatewayIOCP.Size = new Size(43, 23);
+            GatewayIOCP.TabIndex = 25;
             // 
-            // textBox10
+            // GatewayWorker
             // 
-            textBox10.Location = new Point(116, 167);
-            textBox10.Name = "textBox10";
-            textBox10.Size = new Size(43, 23);
-            textBox10.TabIndex = 24;
+            GatewayWorker.Location = new Point(116, 167);
+            GatewayWorker.Name = "GatewayWorker";
+            GatewayWorker.Size = new Size(43, 23);
+            GatewayWorker.TabIndex = 24;
             // 
-            // textBox11
+            // GatewayConnectPort
             // 
-            textBox11.Location = new Point(156, 100);
-            textBox11.Name = "textBox11";
-            textBox11.Size = new Size(80, 23);
-            textBox11.TabIndex = 23;
+            GatewayConnectPort.Location = new Point(156, 100);
+            GatewayConnectPort.Name = "GatewayConnectPort";
+            GatewayConnectPort.Size = new Size(80, 23);
+            GatewayConnectPort.TabIndex = 23;
             // 
-            // textBox12
+            // GatewayConnectIP
             // 
-            textBox12.Location = new Point(140, 71);
-            textBox12.Name = "textBox12";
-            textBox12.Size = new Size(96, 23);
-            textBox12.TabIndex = 22;
+            GatewayConnectIP.Location = new Point(140, 71);
+            GatewayConnectIP.Name = "GatewayConnectIP";
+            GatewayConnectIP.Size = new Size(96, 23);
+            GatewayConnectIP.TabIndex = 22;
             // 
-            // textBox13
+            // GatewayPort
             // 
-            textBox13.Location = new Point(73, 43);
-            textBox13.Name = "textBox13";
-            textBox13.Size = new Size(76, 23);
-            textBox13.TabIndex = 21;
+            GatewayPort.Location = new Point(73, 43);
+            GatewayPort.Name = "GatewayPort";
+            GatewayPort.Size = new Size(76, 23);
+            GatewayPort.TabIndex = 21;
             // 
-            // textBox14
+            // GatewayIP
             // 
-            textBox14.Location = new Point(59, 13);
-            textBox14.Name = "textBox14";
-            textBox14.Size = new Size(100, 23);
-            textBox14.TabIndex = 20;
+            GatewayIP.Location = new Point(59, 13);
+            GatewayIP.Name = "GatewayIP";
+            GatewayIP.Size = new Size(100, 23);
+            GatewayIP.TabIndex = 20;
             // 
-            // textBox4
+            // GatewayMakeDump
             // 
-            textBox4.Location = new Point(78, 342);
-            textBox4.Name = "textBox4";
-            textBox4.Size = new Size(43, 23);
-            textBox4.TabIndex = 30;
+            GatewayMakeDump.Location = new Point(78, 342);
+            GatewayMakeDump.Name = "GatewayMakeDump";
+            GatewayMakeDump.Size = new Size(43, 23);
+            GatewayMakeDump.TabIndex = 30;
             // 
-            // label1
+            // GatewayLabel
             // 
-            label1.AutoSize = true;
-            label1.Dock = DockStyle.Left;
-            label1.Location = new Point(0, 0);
-            label1.Name = "label1";
-            label1.Size = new Size(150, 450);
-            label1.TabIndex = 17;
-            label1.Text = resources.GetString("label1.Text");
+            GatewayLabel.AutoSize = true;
+            GatewayLabel.Dock = DockStyle.Left;
+            GatewayLabel.Location = new Point(0, 0);
+            GatewayLabel.Name = "GatewayLabel";
+            GatewayLabel.Size = new Size(150, 450);
+            GatewayLabel.TabIndex = 17;
+            GatewayLabel.Text = resources.GetString("GatewayLabel.Text");
             // 
             // WorldPage
             // 
-            WorldPage.Controls.Add(textBox36);
-            WorldPage.Controls.Add(textBox35);
-            WorldPage.Controls.Add(textBox34);
-            WorldPage.Controls.Add(textBox33);
-            WorldPage.Controls.Add(textBox32);
-            WorldPage.Controls.Add(textBox31);
-            WorldPage.Controls.Add(textBox30);
-            WorldPage.Controls.Add(textBox29);
-            WorldPage.Controls.Add(textBox28);
-            WorldPage.Controls.Add(textBox27);
-            WorldPage.Controls.Add(textBox26);
-            WorldPage.Controls.Add(textBox25);
-            WorldPage.Controls.Add(textBox24);
-            WorldPage.Controls.Add(textBox23);
-            WorldPage.Controls.Add(textBox22);
-            WorldPage.Controls.Add(textBox21);
-            WorldPage.Controls.Add(textBox20);
-            WorldPage.Controls.Add(textBox19);
-            WorldPage.Controls.Add(textBox18);
-            WorldPage.Controls.Add(textBox17);
-            WorldPage.Controls.Add(textBox16);
-            WorldPage.Controls.Add(label2);
+            WorldPage.Controls.Add(WorldName);
+            WorldPage.Controls.Add(WorldPW);
+            WorldPage.Controls.Add(WorldUser);
+            WorldPage.Controls.Add(WorldPort1);
+            WorldPage.Controls.Add(WorldIP);
+            WorldPage.Controls.Add(WorldAMessagebox);
+            WorldPage.Controls.Add(WorldDumpPath);
+            WorldPage.Controls.Add(WorldServerPath);
+            WorldPage.Controls.Add(WorldDump);
+            WorldPage.Controls.Add(WorldConsoleLevel);
+            WorldPage.Controls.Add(WorldFileLevel);
+            WorldPage.Controls.Add(WorldSend);
+            WorldPage.Controls.Add(WorldRec);
+            WorldPage.Controls.Add(WorldIOCP);
+            WorldPage.Controls.Add(WorldWorker);
+            WorldPage.Controls.Add(WorldConnectPort1);
+            WorldPage.Controls.Add(WorldSocket);
+            WorldPage.Controls.Add(WorldConnectPort);
+            WorldPage.Controls.Add(WorldMaxCount);
+            WorldPage.Controls.Add(WorldPort);
+            WorldPage.Controls.Add(WorldID);
+            WorldPage.Controls.Add(WorldLabel);
             WorldPage.Location = new Point(4, 24);
             WorldPage.Name = "WorldPage";
             WorldPage.Size = new Size(531, 648);
@@ -579,162 +579,162 @@
             WorldPage.Text = "World";
             WorldPage.UseVisualStyleBackColor = true;
             // 
-            // textBox36
+            // WorldName
             // 
-            textBox36.Location = new Point(100, 612);
-            textBox36.Name = "textBox36";
-            textBox36.Size = new Size(116, 23);
-            textBox36.TabIndex = 39;
+            WorldName.Location = new Point(100, 612);
+            WorldName.Name = "WorldName";
+            WorldName.Size = new Size(116, 23);
+            WorldName.TabIndex = 39;
             // 
-            // textBox35
+            // WorldPW
             // 
-            textBox35.Location = new Point(86, 583);
-            textBox35.Name = "textBox35";
-            textBox35.Size = new Size(130, 23);
-            textBox35.TabIndex = 38;
+            WorldPW.Location = new Point(86, 583);
+            WorldPW.Name = "WorldPW";
+            WorldPW.Size = new Size(130, 23);
+            WorldPW.TabIndex = 38;
             // 
-            // textBox34
+            // WorldUser
             // 
-            textBox34.Location = new Point(90, 554);
-            textBox34.Name = "textBox34";
-            textBox34.Size = new Size(110, 23);
-            textBox34.TabIndex = 37;
+            WorldUser.Location = new Point(90, 554);
+            WorldUser.Name = "WorldUser";
+            WorldUser.Size = new Size(110, 23);
+            WorldUser.TabIndex = 37;
             // 
-            // textBox33
+            // WorldPort1
             // 
-            textBox33.Location = new Point(86, 524);
-            textBox33.Name = "textBox33";
-            textBox33.Size = new Size(88, 23);
-            textBox33.TabIndex = 36;
+            WorldPort1.Location = new Point(86, 524);
+            WorldPort1.Name = "WorldPort1";
+            WorldPort1.Size = new Size(88, 23);
+            WorldPort1.TabIndex = 36;
             // 
-            // textBox32
+            // WorldIP
             // 
-            textBox32.Location = new Point(74, 494);
-            textBox32.Name = "textBox32";
-            textBox32.Size = new Size(100, 23);
-            textBox32.TabIndex = 35;
+            WorldIP.Location = new Point(74, 494);
+            WorldIP.Name = "WorldIP";
+            WorldIP.Size = new Size(100, 23);
+            WorldIP.TabIndex = 35;
             // 
-            // textBox31
+            // WorldAMessagebox
             // 
-            textBox31.Location = new Point(116, 464);
-            textBox31.Name = "textBox31";
-            textBox31.Size = new Size(33, 23);
-            textBox31.TabIndex = 34;
+            WorldAMessagebox.Location = new Point(116, 464);
+            WorldAMessagebox.Name = "WorldAMessagebox";
+            WorldAMessagebox.Size = new Size(33, 23);
+            WorldAMessagebox.TabIndex = 34;
             // 
-            // textBox30
+            // WorldDumpPath
             // 
-            textBox30.Location = new Point(74, 430);
-            textBox30.Name = "textBox30";
-            textBox30.Size = new Size(142, 23);
-            textBox30.TabIndex = 33;
+            WorldDumpPath.Location = new Point(74, 430);
+            WorldDumpPath.Name = "WorldDumpPath";
+            WorldDumpPath.Size = new Size(142, 23);
+            WorldDumpPath.TabIndex = 33;
             // 
-            // textBox29
+            // WorldServerPath
             // 
-            textBox29.Location = new Point(114, 400);
-            textBox29.Name = "textBox29";
-            textBox29.Size = new Size(148, 23);
-            textBox29.TabIndex = 32;
+            WorldServerPath.Location = new Point(114, 400);
+            WorldServerPath.Name = "WorldServerPath";
+            WorldServerPath.Size = new Size(148, 23);
+            WorldServerPath.TabIndex = 32;
             // 
-            // textBox28
+            // WorldDump
             // 
-            textBox28.Location = new Point(77, 371);
-            textBox28.Name = "textBox28";
-            textBox28.Size = new Size(46, 23);
-            textBox28.TabIndex = 31;
+            WorldDump.Location = new Point(77, 371);
+            WorldDump.Name = "WorldDump";
+            WorldDump.Size = new Size(46, 23);
+            WorldDump.TabIndex = 31;
             // 
-            // textBox27
+            // WorldConsoleLevel
             // 
-            textBox27.Location = new Point(114, 342);
-            textBox27.Name = "textBox27";
-            textBox27.Size = new Size(35, 23);
-            textBox27.TabIndex = 30;
+            WorldConsoleLevel.Location = new Point(114, 342);
+            WorldConsoleLevel.Name = "WorldConsoleLevel";
+            WorldConsoleLevel.Size = new Size(35, 23);
+            WorldConsoleLevel.TabIndex = 30;
             // 
-            // textBox26
+            // WorldFileLevel
             // 
-            textBox26.Location = new Point(87, 313);
-            textBox26.Name = "textBox26";
-            textBox26.Size = new Size(36, 23);
-            textBox26.TabIndex = 29;
+            WorldFileLevel.Location = new Point(87, 313);
+            WorldFileLevel.Name = "WorldFileLevel";
+            WorldFileLevel.Size = new Size(36, 23);
+            WorldFileLevel.TabIndex = 29;
             // 
-            // textBox25
+            // WorldSend
             // 
-            textBox25.Location = new Point(100, 284);
-            textBox25.Name = "textBox25";
-            textBox25.Size = new Size(100, 23);
-            textBox25.TabIndex = 28;
+            WorldSend.Location = new Point(100, 284);
+            WorldSend.Name = "WorldSend";
+            WorldSend.Size = new Size(100, 23);
+            WorldSend.TabIndex = 28;
             // 
-            // textBox24
+            // WorldRec
             // 
-            textBox24.Location = new Point(100, 255);
-            textBox24.Name = "textBox24";
-            textBox24.Size = new Size(100, 23);
-            textBox24.TabIndex = 27;
+            WorldRec.Location = new Point(100, 255);
+            WorldRec.Name = "WorldRec";
+            WorldRec.Size = new Size(100, 23);
+            WorldRec.TabIndex = 27;
             // 
-            // textBox23
+            // WorldIOCP
             // 
-            textBox23.Location = new Point(114, 217);
-            textBox23.Name = "textBox23";
-            textBox23.Size = new Size(45, 23);
-            textBox23.TabIndex = 26;
+            WorldIOCP.Location = new Point(114, 217);
+            WorldIOCP.Name = "WorldIOCP";
+            WorldIOCP.Size = new Size(45, 23);
+            WorldIOCP.TabIndex = 26;
             // 
-            // textBox22
+            // WorldWorker
             // 
-            textBox22.Location = new Point(114, 188);
-            textBox22.Name = "textBox22";
-            textBox22.Size = new Size(45, 23);
-            textBox22.TabIndex = 25;
+            WorldWorker.Location = new Point(114, 188);
+            WorldWorker.Name = "WorldWorker";
+            WorldWorker.Size = new Size(45, 23);
+            WorldWorker.TabIndex = 25;
             // 
-            // textBox21
+            // WorldConnectPort1
             // 
-            textBox21.Location = new Point(162, 159);
-            textBox21.Name = "textBox21";
-            textBox21.Size = new Size(78, 23);
-            textBox21.TabIndex = 24;
+            WorldConnectPort1.Location = new Point(162, 159);
+            WorldConnectPort1.Name = "WorldConnectPort1";
+            WorldConnectPort1.Size = new Size(78, 23);
+            WorldConnectPort1.TabIndex = 24;
             // 
-            // textBox20
+            // WorldSocket
             // 
-            textBox20.Location = new Point(193, 130);
-            textBox20.Name = "textBox20";
-            textBox20.Size = new Size(47, 23);
-            textBox20.TabIndex = 23;
+            WorldSocket.Location = new Point(193, 130);
+            WorldSocket.Name = "WorldSocket";
+            WorldSocket.Size = new Size(47, 23);
+            WorldSocket.TabIndex = 23;
             // 
-            // textBox19
+            // WorldConnectPort
             // 
-            textBox19.Location = new Point(162, 101);
-            textBox19.Name = "textBox19";
-            textBox19.Size = new Size(78, 23);
-            textBox19.TabIndex = 22;
+            WorldConnectPort.Location = new Point(162, 101);
+            WorldConnectPort.Name = "WorldConnectPort";
+            WorldConnectPort.Size = new Size(78, 23);
+            WorldConnectPort.TabIndex = 22;
             // 
-            // textBox18
+            // WorldMaxCount
             // 
-            textBox18.Location = new Point(177, 72);
-            textBox18.Name = "textBox18";
-            textBox18.Size = new Size(39, 23);
-            textBox18.TabIndex = 21;
+            WorldMaxCount.Location = new Point(177, 72);
+            WorldMaxCount.Name = "WorldMaxCount";
+            WorldMaxCount.Size = new Size(39, 23);
+            WorldMaxCount.TabIndex = 21;
             // 
-            // textBox17
+            // WorldPort
             // 
-            textBox17.Location = new Point(148, 43);
-            textBox17.Name = "textBox17";
-            textBox17.Size = new Size(92, 23);
-            textBox17.TabIndex = 20;
+            WorldPort.Location = new Point(148, 43);
+            WorldPort.Name = "WorldPort";
+            WorldPort.Size = new Size(92, 23);
+            WorldPort.TabIndex = 20;
             // 
-            // textBox16
+            // WorldID
             // 
-            textBox16.Location = new Point(60, 14);
-            textBox16.Name = "textBox16";
-            textBox16.Size = new Size(38, 23);
-            textBox16.TabIndex = 19;
+            WorldID.Location = new Point(60, 14);
+            WorldID.Name = "WorldID";
+            WorldID.Size = new Size(38, 23);
+            WorldID.TabIndex = 19;
             // 
-            // label2
+            // WorldLabel
             // 
-            label2.AutoSize = true;
-            label2.Dock = DockStyle.Left;
-            label2.Location = new Point(0, 0);
-            label2.Name = "label2";
-            label2.Size = new Size(187, 630);
-            label2.TabIndex = 18;
-            label2.Text = resources.GetString("label2.Text");
+            WorldLabel.AutoSize = true;
+            WorldLabel.Dock = DockStyle.Left;
+            WorldLabel.Location = new Point(0, 0);
+            WorldLabel.Name = "WorldLabel";
+            WorldLabel.Size = new Size(187, 630);
+            WorldLabel.TabIndex = 18;
+            WorldLabel.Text = resources.GetString("WorldLabel.Text");
             // 
             // ConfigForm
             // 
@@ -799,43 +799,43 @@
         private TextBox GAMEWorldIPBox;
         private Label GameLabel;
         private TextBox GAMEMakeDumpBox;
-        private TextBox textBox1;
-        private TextBox textBox2;
-        private TextBox textBox3;
-        private TextBox textBox5;
-        private TextBox textBox6;
-        private TextBox textBox7;
-        private TextBox textBox8;
-        private TextBox textBox9;
-        private TextBox textBox10;
-        private TextBox textBox11;
-        private TextBox textBox12;
-        private TextBox textBox13;
-        private TextBox textBox14;
-        private TextBox textBox4;
-        private Label label1;
-        private TextBox textBox15;
-        private Label label2;
-        private TextBox textBox36;
-        private TextBox textBox35;
-        private TextBox textBox34;
-        private TextBox textBox33;
-        private TextBox textBox32;
-        private TextBox textBox31;
-        private TextBox textBox30;
-        private TextBox textBox29;
-        private TextBox textBox28;
-        private TextBox textBox27;
-        private TextBox textBox26;
-        private TextBox textBox25;
-        private TextBox textBox24;
-        private TextBox textBox23;
-        private TextBox textBox22;
-        private TextBox textBox21;
-        private TextBox textBox20;
-        private TextBox textBox19;
-        private TextBox textBox18;
-        private TextBox textBox17;
-        private TextBox textBox16;
+        private TextBox GatewayAMessageBox;
+        private TextBox GatewayPath;
+        private TextBox GatewayServerPath;
+        private TextBox GatewayConsoleLevel;
+        private TextBox GatewayFileLevel;
+        private TextBox GatewaySend;
+        private TextBox GatewayRec;
+        private TextBox GatewayIOCP;
+        private TextBox GatewayWorker;
+        private TextBox GatewayConnectPort;
+        private TextBox GatewayConnectIP;
+        private TextBox GatewayPort;
+        private TextBox GatewayIP;
+        private TextBox GatewayMakeDump;
+        private Label GatewayLabel;
+        private TextBox GatewaySocket;
+        private Label WorldLabel;
+        private TextBox WorldName;
+        private TextBox WorldPW;
+        private TextBox WorldUser;
+        private TextBox WorldPort1;
+        private TextBox WorldIP;
+        private TextBox WorldAMessagebox;
+        private TextBox WorldDumpPath;
+        private TextBox WorldServerPath;
+        private TextBox WorldDump;
+        private TextBox WorldConsoleLevel;
+        private TextBox WorldFileLevel;
+        private TextBox WorldSend;
+        private TextBox WorldRec;
+        private TextBox WorldIOCP;
+        private TextBox WorldWorker;
+        private TextBox WorldConnectPort1;
+        private TextBox WorldSocket;
+        private TextBox WorldConnectPort;
+        private TextBox WorldMaxCount;
+        private TextBox WorldPort;
+        private TextBox WorldID;
     }
 }

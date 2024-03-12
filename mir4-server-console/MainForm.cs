@@ -17,13 +17,13 @@ namespace Server_Console
             ExeCheckTimer.Tick += ExeCheckTimer_Tick;
             ExeCheckTimer.Start();
 
-            CheckServerStatus();
+            //CheckServerStatus();
         }
 
         #region Server Checking
         private void ExeCheckTimer_Tick(object sender, EventArgs e)
         {
-            CheckServerStatus();
+            //CheckServerStatus();
         }
         private void CheckServerStatus()
         {
@@ -57,7 +57,9 @@ namespace Server_Console
                 MessageBox.Show($"{serverExeName}.exe not found.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
+        #endregion
 
+        #region Launching
         private void LaunchServer(string serverExeName)
         {
             // Determine the server folder based on the serverExeName
@@ -155,6 +157,16 @@ namespace Server_Console
         #endregion
 
         #region Server Launch Buttons
+
+        private void StartAllButton_Click(object sender, EventArgs e)
+        {
+            LaunchServer("WorldServer");
+            LaunchServer("GatewayServer");
+            LaunchServer("GameServer");
+            LaunchServer("FrontServer");
+            LaunchServer("ChattingServer");
+        }
+
         private void WorldButton_Click(object sender, EventArgs e)
         {
             LaunchServer("WorldServer");
@@ -221,6 +233,18 @@ namespace Server_Console
 
             // Open the URL in the default web browser
             Process.Start(new ProcessStartInfo(url) { UseShellExecute = true });
+        }
+        #endregion
+
+        #region Cursour Hover
+        private void Logo_MouseHover(object sender, EventArgs e)
+        {
+            Cursor = Cursors.Hand;
+        }
+
+        private void Logo_MouseLeave(object sender, EventArgs e)
+        {
+            Cursor = Cursors.Default;
         }
         #endregion
     }

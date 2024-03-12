@@ -1,5 +1,9 @@
-﻿using System;
+﻿using MySql.Data.MySqlClient;
+using System;
 using System.Collections.Generic;
+using System.Data;
+using System.Data.SqlClient;
+using System.Diagnostics;
 using System.IO;
 using System.Text;
 using System.Windows.Forms;
@@ -13,60 +17,137 @@ namespace Server_Console.Database
         public DatabaseForm()
         {
             InitializeComponent();
-            this.Load += DatabaseForm_Load;
         }
-
         private void DatabaseForm_Load(object sender, EventArgs e)
         {
-            LoadSchemaNames();
+            LoadAdminData();
+            LoadDeviceData();
+            LoadFrontData();
+            LoadGameData();
+            LoadUserData();
         }
 
-        #region DB Load
-        private void LoadSchemaNames()
+        #region Main Load
+        private void LoadDatabaseData(string databaseName, TreeView treeView, string tabName)
         {
-            string baseDirectory = AppDomain.CurrentDomain.BaseDirectory;
-            string sqlFilePath = Path.Combine(baseDirectory, "DB", "DB.sql");
-
-            if (File.Exists(sqlFilePath))
+            if (DatabaseTabs.SelectedTab.Text == tabName)
             {
-                Console.WriteLine("SQL file found: " + sqlFilePath);
+                string connectionString = $"server=192.168.1.27;user=dev;password=1111;database={databaseName};";
 
-                using (StreamReader reader = new StreamReader(sqlFilePath, Encoding.UTF8))
+                using (var connection = new MySqlConnection(connectionString))
                 {
-                    string line;
-                    while ((line = reader.ReadLine()) != null)
+                    connection.Open();
+
+                    // Get the schema information for tables
+                    var schema = connection.GetSchema("Tables");
+
+                    // Filter and display only table names
+                    var tableNames = schema.AsEnumerable()
+                                            .Select(row => row["TABLE_NAME"].ToString())
+                                            .ToList();
+
+                    // Display the list of table names
+                    Debug.WriteLine($"Tables in the {databaseName} database:");
+                    foreach (var tableName in tableNames)
                     {
-                        string schemaName = ExtractSchemaName(line);
-                        if (schemaName != null && !schemaNames.Contains(schemaName))
-                        {
-                            schemaNames.Add(schemaName);
-                        }
+                        Debug.WriteLine(tableName);
+                        treeView.Nodes.Add(tableName);
                     }
                 }
+            }
+        }
 
-                // Load schema names into DBTree
-                foreach (string schemaName in schemaNames)
+        private void TreeView_NodeMouseClick(TreeView treeView, DataGridView dataGridView, string databaseName, TreeNodeMouseClickEventArgs e)
+        {
+            string tableName = e.Node.Text;
+            string connectionString = $"server=192.168.1.27;user=dev;password=1111;database={databaseName};";
+
+            string query = $"SELECT * FROM {tableName}";
+
+            using (var connection = new MySqlConnection(connectionString))
+            {
+                connection.Open();
+                MySqlCommand command = new MySqlCommand(query, connection);
+
+                try
                 {
-                    TreeNode node = new TreeNode(schemaName);
-                    DBTree.Nodes.Add(node);
+                    MySqlDataReader reader = command.ExecuteReader();
+                    DataTable dataTable = new DataTable();
+                    dataTable.Load(reader);
+                    reader.Close();
+                    dataGridView.DataSource = dataTable;
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show($"Error: {ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 }
             }
-            else
-            {
-                Console.WriteLine("SQL file not found: " + sqlFilePath);
-                MessageBox.Show("SQL file not found: " + sqlFilePath, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-            }
-        }
-
-        private string ExtractSchemaName(string line)
-        {
-            string[] parts = line.Split(new char[] { '.', ' ' }, StringSplitOptions.RemoveEmptyEntries);
-            if (parts.Length > 2 && parts[0].Equals("CREATE", StringComparison.OrdinalIgnoreCase) && parts[1].Equals("TABLE", StringComparison.OrdinalIgnoreCase))
-            {
-                return parts[2];
-            }
-            return null;
         }
         #endregion
+
+        #region Admin
+        private void LoadAdminData()
+        {
+            LoadDatabaseData("admin_db", AdminTree, "Admin");
+        }
+        private void AdminTree_NodeMouseClick(object sender, TreeNodeMouseClickEventArgs e)
+        {
+            TreeView_NodeMouseClick(AdminTree, AdminData, "admin_db", e);
+        }
+        #endregion
+
+        #region Device
+        private void LoadDeviceData()
+        {
+            LoadDatabaseData("mm_device_db", DeviceTree, "Device");
+        }
+        private void DeviceTree_NodeMouseClick(object sender, TreeNodeMouseClickEventArgs e)
+        {
+            TreeView_NodeMouseClick(DeviceTree, DeviceData, "mm_device_db", e);
+        }
+
+        #endregion
+
+        #region Front
+        private void LoadFrontData()
+        {
+            LoadDatabaseData("mm_front_db", FrontTree, "Front");
+        }
+        private void FrontTree_NodeMouseClick(object sender, TreeNodeMouseClickEventArgs e)
+        {
+            TreeView_NodeMouseClick(FrontTree, FrontData, "mm_front_db", e);
+        }
+        #endregion
+
+        #region Game
+        private void LoadGameData()
+        {
+            LoadDatabaseData("mm_game_db", GameTree, "Game");
+        }
+        private void GameTree_NodeMouseClick(object sender, TreeNodeMouseClickEventArgs e)
+        {
+            TreeView_NodeMouseClick(GameTree, GameData, "mm_game_db", e);
+        }
+        #endregion
+
+        #region User
+        private void LoadUserData()
+        {
+            LoadDatabaseData("mm_user_db", UserTree, "User");
+        }
+        private void UserTree_NodeMouseClick(object sender, TreeNodeMouseClickEventArgs e)
+        {
+            TreeView_NodeMouseClick(UserTree, UserData, "mm_user_db", e);
+        }
+        #endregion
+
+        private void DatabaseTabs_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            LoadAdminData();
+            LoadDeviceData();
+            LoadFrontData();
+            LoadGameData();
+            LoadUserData();
+        }
     }
 }

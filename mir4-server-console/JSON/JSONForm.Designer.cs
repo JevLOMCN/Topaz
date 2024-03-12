@@ -54,9 +54,9 @@
             JSONTextBox.BorderStyle = BorderStyle.None;
             JSONTextBox.Dock = DockStyle.Right;
             JSONTextBox.ForeColor = SystemColors.WindowText;
-            JSONTextBox.Location = new Point(310, 0);
+            JSONTextBox.Location = new Point(194, 0);
             JSONTextBox.Name = "JSONTextBox";
-            JSONTextBox.Size = new Size(490, 450);
+            JSONTextBox.Size = new Size(606, 450);
             JSONTextBox.TabIndex = 3;
             JSONTextBox.Text = "";
             // 

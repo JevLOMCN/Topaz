@@ -14,7 +14,8 @@ namespace Server_Console.Logs
 {
     public partial class LogSearch : Form
     {
-        private LogForm logForm;
+        private LogForm logForm = new LogForm();
+
         public LogSearch(LogForm logForm)
         {
             InitializeComponent();

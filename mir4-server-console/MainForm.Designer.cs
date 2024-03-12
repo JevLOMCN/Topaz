@@ -42,6 +42,7 @@
             JSONImage = new PictureBox();
             LogsImage = new PictureBox();
             ConfigImage = new PictureBox();
+            StartAllButton = new Label();
             ((System.ComponentModel.ISupportInitialize)Logo).BeginInit();
             ((System.ComponentModel.ISupportInitialize)WorldButton).BeginInit();
             ((System.ComponentModel.ISupportInitialize)GatewayButton).BeginInit();
@@ -64,6 +65,8 @@
             Logo.TabIndex = 0;
             Logo.TabStop = false;
             Logo.Click += Logo_Click;
+            Logo.MouseLeave += Logo_MouseLeave;
+            Logo.MouseHover += Logo_MouseHover;
             // 
             // CloseButton
             // 
@@ -183,6 +186,19 @@
             ConfigImage.TabStop = false;
             ConfigImage.Click += ConfigImage_Click;
             // 
+            // StartAllButton
+            // 
+            StartAllButton.AutoSize = true;
+            StartAllButton.BackColor = Color.Transparent;
+            StartAllButton.Font = new Font("Segoe UI", 24F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            StartAllButton.ForeColor = SystemColors.Window;
+            StartAllButton.Location = new Point(12, 299);
+            StartAllButton.Name = "StartAllButton";
+            StartAllButton.Size = new Size(142, 45);
+            StartAllButton.TabIndex = 11;
+            StartAllButton.Text = "Start All";
+            StartAllButton.Click += StartAllButton_Click;
+            // 
             // MainForm
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
@@ -192,6 +208,7 @@
             BackgroundImageLayout = ImageLayout.Stretch;
             ClientSize = new Size(1193, 628);
             ControlBox = false;
+            Controls.Add(StartAllButton);
             Controls.Add(ConfigImage);
             Controls.Add(LogsImage);
             Controls.Add(JSONImage);
@@ -240,5 +257,6 @@
         private PictureBox JSONImage;
         private PictureBox LogsImage;
         private PictureBox ConfigImage;
+        private Label StartAllButton;
     }
 }
