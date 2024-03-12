@@ -31,3 +31,4 @@
 [Treffy](https://www.mir4tools.com/) - Mir4Tools Collab
 
 [Community Contributors](https://github.com/JevLOMCN/mir4-launcher/graphs/contributors)
+test
