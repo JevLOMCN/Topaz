@@ -39,7 +39,7 @@ namespace Mir_4_Launcher
 
         private void LOMCNBox_Click(object sender, EventArgs e)
         {
-            string link = "https://www.lomcn.net";
+            string link = "";
 
             try
             {
@@ -57,7 +57,7 @@ namespace Mir_4_Launcher
 
         private void DiscordBox_Click(object sender, EventArgs e)
         {
-            string link = "https://discord.gg/nwNgzqmJXd";
+            string link = "https://discord.gg/rrrzFM3W ";
 
             try
             {
@@ -87,7 +87,7 @@ namespace Mir_4_Launcher
 
         private void GithubBox_Click(object sender, EventArgs e)
         {
-            string link = "https://github.com/JevLOMCN/mir4";
+            string link = "https://github.com/JevLOMCN/mir4-launcher";
 
             try
             {

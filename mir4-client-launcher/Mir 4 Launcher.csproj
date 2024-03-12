@@ -7,12 +7,16 @@
     <Nullable>enable</Nullable>
     <UseWindowsForms>true</UseWindowsForms>
     <ImplicitUsings>enable</ImplicitUsings>
-    <ApplicationIcon>MIR4_LOMCN_Logo.ico</ApplicationIcon>
+    <ApplicationIcon>favicon.ico</ApplicationIcon>
     <PackageIcon>favicon.ico</PackageIcon>
     <PackageProjectUrl>www.thelegendofmir.uk</PackageProjectUrl>
     <Description>Mir 4 Launcher</Description>
     <Copyright>Copyright © 2024</Copyright>
   </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="favicon.ico" />
+  </ItemGroup>
 
   <ItemGroup>
     <None Include="..\..\mir4\Code\Csharp\ServerConsole\favicon.ico">
