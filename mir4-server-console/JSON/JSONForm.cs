@@ -49,33 +49,7 @@ namespace Server_Console
         }
         private void FileList_AfterSelect(object sender, TreeViewEventArgs e)
         {
-            // Check if a node is selected
-            if (FileList.SelectedNode != null)
-            {
-                // Get the file name from the selected node
-                string fileName = FileList.SelectedNode.Text;
 
-                // Get the full path of the file
-                string filePath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Data", fileName);
-
-                // Check if the file exists
-                if (File.Exists(filePath))
-                {
-                    try
-                    {
-                        // Read the contents of the file and display it in the RichTextBox
-                        JSONTextBox.Text = File.ReadAllText(filePath);
-                    }
-                    catch (Exception ex)
-                    {
-                        MessageBox.Show($"Error reading file: {ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                    }
-                }
-                else
-                {
-                    MessageBox.Show($"File not found: {filePath}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                }
-            }
         }
         #endregion
 

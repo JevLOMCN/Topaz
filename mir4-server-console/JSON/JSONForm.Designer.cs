@@ -30,7 +30,8 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(JSONForm));
             FileList = new TreeView();
-            JSONTextBox = new RichTextBox();
+            JsonData = new DataGridView();
+            ((System.ComponentModel.ISupportInitialize)JsonData).BeginInit();
             SuspendLayout();
             // 
             // FileList
@@ -48,36 +49,36 @@
             FileList.AfterSelect += FileList_AfterSelect;
             FileList.MouseClick += FileList_MouseClick;
             // 
-            // JSONTextBox
+            // JsonData
             // 
-            JSONTextBox.BackColor = SystemColors.Window;
-            JSONTextBox.BorderStyle = BorderStyle.None;
-            JSONTextBox.Dock = DockStyle.Right;
-            JSONTextBox.ForeColor = SystemColors.WindowText;
-            JSONTextBox.Location = new Point(194, 0);
-            JSONTextBox.Name = "JSONTextBox";
-            JSONTextBox.Size = new Size(606, 450);
-            JSONTextBox.TabIndex = 3;
-            JSONTextBox.Text = "";
+            JsonData.BackgroundColor = SystemColors.Window;
+            JsonData.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            JsonData.Dock = DockStyle.Right;
+            JsonData.GridColor = Color.Black;
+            JsonData.Location = new Point(194, 0);
+            JsonData.Name = "JsonData";
+            JsonData.Size = new Size(798, 450);
+            JsonData.TabIndex = 1;
             // 
             // JSONForm
             // 
             AutoScaleMode = AutoScaleMode.None;
             BackColor = SystemColors.Window;
-            ClientSize = new Size(800, 450);
-            Controls.Add(JSONTextBox);
+            ClientSize = new Size(992, 450);
+            Controls.Add(JsonData);
             Controls.Add(FileList);
             ForeColor = SystemColors.WindowText;
             Icon = (Icon)resources.GetObject("$this.Icon");
             Name = "JSONForm";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "JSONForm";
+            ((System.ComponentModel.ISupportInitialize)JsonData).EndInit();
             ResumeLayout(false);
         }
 
         #endregion
 
         private TreeView FileList;
-        private RichTextBox JSONTextBox;
+        private DataGridView JsonData;
     }
 }
