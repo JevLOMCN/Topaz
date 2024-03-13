@@ -17,13 +17,13 @@ namespace Server_Console
             ExeCheckTimer.Tick += ExeCheckTimer_Tick;
             ExeCheckTimer.Start();
 
-            //CheckServerStatus();
+            CheckServerStatus();
         }
 
         #region Server Checking
         private void ExeCheckTimer_Tick(object sender, EventArgs e)
         {
-            //CheckServerStatus();
+            CheckServerStatus();
         }
         private void CheckServerStatus()
         {
@@ -246,6 +246,7 @@ namespace Server_Console
         {
             Cursor = Cursors.Default;
         }
+
         #endregion
     }
 }

@@ -50,18 +50,19 @@
             tableLayoutPanel8 = new TableLayoutPanel();
             UserTree = new TreeView();
             UserData = new DataGridView();
+            tabSearch = new TabPage();
             AccountsBox = new GroupBox();
+            AccountIDLabel = new Label();
             btnFilter = new Button();
-            EmailLabel = new Label();
-            EmailSearch = new TextBox();
-            CharIDLabel = new Label();
-            CharIDSearch = new TextBox();
             AccountNameLabel = new Label();
             AccountNameSearch = new TextBox();
-            CharNameLabel = new Label();
-            AccountIDLabel = new Label();
-            CharNameSearch = new TextBox();
+            EmailLabel = new Label();
+            CharIDSearch = new TextBox();
             AccountIDSearch = new TextBox();
+            CharNameLabel = new Label();
+            EmailSearch = new TextBox();
+            CharIDLabel = new Label();
+            CharNameSearch = new TextBox();
             tableLayoutPanel1 = new TableLayoutPanel();
             treeView1 = new TreeView();
             dataGridView1 = new DataGridView();
@@ -85,6 +86,7 @@
             tabUser.SuspendLayout();
             tableLayoutPanel8.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)UserData).BeginInit();
+            tabSearch.SuspendLayout();
             AccountsBox.SuspendLayout();
             tableLayoutPanel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
@@ -110,6 +112,7 @@
             DatabaseTabs.Controls.Add(tabFront);
             DatabaseTabs.Controls.Add(tabGame);
             DatabaseTabs.Controls.Add(tabUser);
+            DatabaseTabs.Controls.Add(tabSearch);
             DatabaseTabs.Dock = DockStyle.Fill;
             DatabaseTabs.Location = new Point(137, 3);
             DatabaseTabs.Name = "DatabaseTabs";
@@ -340,71 +343,58 @@
             UserData.Size = new Size(917, 636);
             UserData.TabIndex = 1;
             // 
+            // tabSearch
+            // 
+            tabSearch.Controls.Add(AccountsBox);
+            tabSearch.Location = new Point(4, 24);
+            tabSearch.Name = "tabSearch";
+            tabSearch.Size = new Size(1116, 642);
+            tabSearch.TabIndex = 6;
+            tabSearch.Text = "Search";
+            tabSearch.UseVisualStyleBackColor = true;
+            // 
             // AccountsBox
             // 
+            AccountsBox.Controls.Add(AccountIDLabel);
             AccountsBox.Controls.Add(btnFilter);
-            AccountsBox.Controls.Add(EmailLabel);
-            AccountsBox.Controls.Add(EmailSearch);
-            AccountsBox.Controls.Add(CharIDLabel);
-            AccountsBox.Controls.Add(CharIDSearch);
             AccountsBox.Controls.Add(AccountNameLabel);
             AccountsBox.Controls.Add(AccountNameSearch);
-            AccountsBox.Controls.Add(CharNameLabel);
-            AccountsBox.Controls.Add(AccountIDLabel);
-            AccountsBox.Controls.Add(CharNameSearch);
+            AccountsBox.Controls.Add(EmailLabel);
+            AccountsBox.Controls.Add(CharIDSearch);
             AccountsBox.Controls.Add(AccountIDSearch);
+            AccountsBox.Controls.Add(CharNameLabel);
+            AccountsBox.Controls.Add(EmailSearch);
+            AccountsBox.Controls.Add(CharIDLabel);
+            AccountsBox.Controls.Add(CharNameSearch);
             AccountsBox.Location = new Point(3, 3);
             AccountsBox.Name = "AccountsBox";
-            AccountsBox.Size = new Size(128, 273);
+            AccountsBox.Size = new Size(135, 273);
             AccountsBox.TabIndex = 0;
             AccountsBox.TabStop = false;
-            AccountsBox.Text = "Search / Filter";
+            AccountsBox.Text = "Accounts";
+            // 
+            // AccountIDLabel
+            // 
+            AccountIDLabel.AutoSize = true;
+            AccountIDLabel.Location = new Point(6, 19);
+            AccountIDLabel.Name = "AccountIDLabel";
+            AccountIDLabel.Size = new Size(66, 15);
+            AccountIDLabel.TabIndex = 2;
+            AccountIDLabel.Text = "Account ID";
             // 
             // btnFilter
             // 
-            btnFilter.Location = new Point(50, 242);
+            btnFilter.Location = new Point(53, 242);
             btnFilter.Name = "btnFilter";
             btnFilter.Size = new Size(75, 23);
             btnFilter.TabIndex = 10;
             btnFilter.Text = "Filter";
             btnFilter.UseVisualStyleBackColor = true;
             // 
-            // EmailLabel
-            // 
-            EmailLabel.AutoSize = true;
-            EmailLabel.Location = new Point(3, 195);
-            EmailLabel.Name = "EmailLabel";
-            EmailLabel.Size = new Size(36, 15);
-            EmailLabel.TabIndex = 9;
-            EmailLabel.Text = "Email";
-            // 
-            // EmailSearch
-            // 
-            EmailSearch.Location = new Point(3, 213);
-            EmailSearch.Name = "EmailSearch";
-            EmailSearch.Size = new Size(122, 23);
-            EmailSearch.TabIndex = 8;
-            // 
-            // CharIDLabel
-            // 
-            CharIDLabel.AutoSize = true;
-            CharIDLabel.Location = new Point(3, 151);
-            CharIDLabel.Name = "CharIDLabel";
-            CharIDLabel.Size = new Size(72, 15);
-            CharIDLabel.TabIndex = 7;
-            CharIDLabel.Text = "Character ID";
-            // 
-            // CharIDSearch
-            // 
-            CharIDSearch.Location = new Point(3, 169);
-            CharIDSearch.Name = "CharIDSearch";
-            CharIDSearch.Size = new Size(122, 23);
-            CharIDSearch.TabIndex = 6;
-            // 
             // AccountNameLabel
             // 
             AccountNameLabel.AutoSize = true;
-            AccountNameLabel.Location = new Point(3, 107);
+            AccountNameLabel.Location = new Point(6, 107);
             AccountNameLabel.Name = "AccountNameLabel";
             AccountNameLabel.Size = new Size(87, 15);
             AccountNameLabel.TabIndex = 5;
@@ -412,49 +402,71 @@
             // 
             // AccountNameSearch
             // 
-            AccountNameSearch.Location = new Point(3, 125);
+            AccountNameSearch.Location = new Point(6, 125);
             AccountNameSearch.Name = "AccountNameSearch";
             AccountNameSearch.Size = new Size(122, 23);
             AccountNameSearch.TabIndex = 4;
             // 
+            // EmailLabel
+            // 
+            EmailLabel.AutoSize = true;
+            EmailLabel.Location = new Point(6, 195);
+            EmailLabel.Name = "EmailLabel";
+            EmailLabel.Size = new Size(36, 15);
+            EmailLabel.TabIndex = 9;
+            EmailLabel.Text = "Email";
+            // 
+            // CharIDSearch
+            // 
+            CharIDSearch.Location = new Point(6, 169);
+            CharIDSearch.Name = "CharIDSearch";
+            CharIDSearch.Size = new Size(122, 23);
+            CharIDSearch.TabIndex = 6;
+            // 
+            // AccountIDSearch
+            // 
+            AccountIDSearch.Location = new Point(6, 37);
+            AccountIDSearch.Name = "AccountIDSearch";
+            AccountIDSearch.Size = new Size(122, 23);
+            AccountIDSearch.TabIndex = 0;
+            // 
             // CharNameLabel
             // 
             CharNameLabel.AutoSize = true;
-            CharNameLabel.Location = new Point(3, 63);
+            CharNameLabel.Location = new Point(6, 63);
             CharNameLabel.Name = "CharNameLabel";
             CharNameLabel.Size = new Size(93, 15);
             CharNameLabel.TabIndex = 3;
             CharNameLabel.Text = "Character Name";
             // 
-            // AccountIDLabel
+            // EmailSearch
             // 
-            AccountIDLabel.AutoSize = true;
-            AccountIDLabel.Location = new Point(3, 19);
-            AccountIDLabel.Name = "AccountIDLabel";
-            AccountIDLabel.Size = new Size(66, 15);
-            AccountIDLabel.TabIndex = 2;
-            AccountIDLabel.Text = "Account ID";
+            EmailSearch.Location = new Point(6, 213);
+            EmailSearch.Name = "EmailSearch";
+            EmailSearch.Size = new Size(122, 23);
+            EmailSearch.TabIndex = 8;
+            // 
+            // CharIDLabel
+            // 
+            CharIDLabel.AutoSize = true;
+            CharIDLabel.Location = new Point(6, 151);
+            CharIDLabel.Name = "CharIDLabel";
+            CharIDLabel.Size = new Size(72, 15);
+            CharIDLabel.TabIndex = 7;
+            CharIDLabel.Text = "Character ID";
             // 
             // CharNameSearch
             // 
-            CharNameSearch.Location = new Point(3, 81);
+            CharNameSearch.Location = new Point(6, 81);
             CharNameSearch.Name = "CharNameSearch";
             CharNameSearch.Size = new Size(122, 23);
             CharNameSearch.TabIndex = 1;
-            // 
-            // AccountIDSearch
-            // 
-            AccountIDSearch.Location = new Point(3, 37);
-            AccountIDSearch.Name = "AccountIDSearch";
-            AccountIDSearch.Size = new Size(122, 23);
-            AccountIDSearch.TabIndex = 0;
             // 
             // tableLayoutPanel1
             // 
             tableLayoutPanel1.ColumnCount = 2;
             tableLayoutPanel1.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 10.63049F));
             tableLayoutPanel1.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 89.3695145F));
-            tableLayoutPanel1.Controls.Add(AccountsBox, 0, 0);
             tableLayoutPanel1.Controls.Add(DatabaseTabs, 1, 0);
             tableLayoutPanel1.Dock = DockStyle.Fill;
             tableLayoutPanel1.Location = new Point(0, 0);
@@ -559,6 +571,7 @@
             tabUser.ResumeLayout(false);
             tableLayoutPanel8.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)UserData).EndInit();
+            tabSearch.ResumeLayout(false);
             AccountsBox.ResumeLayout(false);
             AccountsBox.PerformLayout();
             tableLayoutPanel1.ResumeLayout(false);
@@ -611,5 +624,6 @@
         private DataGridView dataGridView5;
         private TableLayoutPanel tableLayoutPanel7;
         private Button btnFilter;
+        private TabPage tabSearch;
     }
 }

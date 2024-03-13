@@ -42,7 +42,7 @@
             JSONImage = new PictureBox();
             LogsImage = new PictureBox();
             ConfigImage = new PictureBox();
-            StartAllButton = new Label();
+            StartAllButton = new PictureBox();
             ((System.ComponentModel.ISupportInitialize)Logo).BeginInit();
             ((System.ComponentModel.ISupportInitialize)WorldButton).BeginInit();
             ((System.ComponentModel.ISupportInitialize)GatewayButton).BeginInit();
@@ -53,6 +53,7 @@
             ((System.ComponentModel.ISupportInitialize)JSONImage).BeginInit();
             ((System.ComponentModel.ISupportInitialize)LogsImage).BeginInit();
             ((System.ComponentModel.ISupportInitialize)ConfigImage).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)StartAllButton).BeginInit();
             SuspendLayout();
             // 
             // Logo
@@ -188,15 +189,13 @@
             // 
             // StartAllButton
             // 
-            StartAllButton.AutoSize = true;
             StartAllButton.BackColor = Color.Transparent;
-            StartAllButton.Font = new Font("Segoe UI", 24F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            StartAllButton.ForeColor = SystemColors.Window;
-            StartAllButton.Location = new Point(12, 299);
+            StartAllButton.Image = Properties.Resources.Start_All;
+            StartAllButton.Location = new Point(12, 291);
             StartAllButton.Name = "StartAllButton";
-            StartAllButton.Size = new Size(142, 45);
+            StartAllButton.Size = new Size(149, 50);
             StartAllButton.TabIndex = 11;
-            StartAllButton.Text = "Start All";
+            StartAllButton.TabStop = false;
             StartAllButton.Click += StartAllButton_Click;
             // 
             // MainForm
@@ -239,6 +238,7 @@
             ((System.ComponentModel.ISupportInitialize)JSONImage).EndInit();
             ((System.ComponentModel.ISupportInitialize)LogsImage).EndInit();
             ((System.ComponentModel.ISupportInitialize)ConfigImage).EndInit();
+            ((System.ComponentModel.ISupportInitialize)StartAllButton).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -257,6 +257,6 @@
         private PictureBox JSONImage;
         private PictureBox LogsImage;
         private PictureBox ConfigImage;
-        private Label StartAllButton;
+        private PictureBox StartAllButton;
     }
 }

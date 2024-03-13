@@ -29,12 +29,12 @@ namespace Server_Console.Config
 
             //Set the size for each Page
             SetTabPageSize(ChattingPage, 555, 566);
-            SetTabPageSize(FrontPage, 555, 715);
+            SetTabPageSize(FrontPage, 625, 776);
             SetTabPageSize(GamePage, 555, 475);
             SetTabPageSize(GatewayPage, 555, 540);
             SetTabPageSize(WorldPage, 555, 715);
         }
-
+        
         private void SetTabPageSize(TabPage tabPage, int width, int height)
         {
             // Set size for each page
@@ -104,7 +104,28 @@ namespace Server_Console.Config
         #endregion
 
         #region Front
+        private void LoadFrontConfig()
+        {
+            {
+                try
+                {
+                    // Read the JSON file contents
+                    string jsonFilePath = Path.Combine(Application.StartupPath, "Servers", "Front", "config.json");
+                    string jsonText = File.ReadAllText(jsonFilePath);
 
+                    // Parse the JSON string
+                    JObject jsonObject = JObject.Parse(jsonText);
+
+                    // TODO
+
+                }
+                catch (Exception ex)
+                {
+                    // Handle any errors that may occur during reading or parsing the JSON file
+                    MessageBox.Show("Error loading config values: " + ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
+            }
+        }
         #endregion
 
         #region Game
