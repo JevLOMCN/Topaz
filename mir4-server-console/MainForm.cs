@@ -148,6 +148,8 @@ namespace Server_Console
         }
         private void CloseButton_MouseHover(object sender, EventArgs e)
         {
+            Cursor = Cursors.Hand;
+
             // Create a tooltip instance
             ToolTip toolTip = new ToolTip();
 
@@ -246,7 +248,110 @@ namespace Server_Console
         {
             Cursor = Cursors.Default;
         }
+        private void StartAllButton_MouseHover(object sender, EventArgs e)
+        {
+            Cursor = Cursors.Hand;
+        }
 
+        private void StartAllButton_MouseLeave(object sender, EventArgs e)
+        {
+            Cursor = Cursors.Default;
+        }
+
+        private void WorldButton_MouseHover(object sender, EventArgs e)
+        {
+            Cursor = Cursors.Hand;
+        }
+
+        private void WorldButton_MouseLeave(object sender, EventArgs e)
+        {
+            Cursor = Cursors.Default;
+        }
+
+        private void GatewayButton_MouseHover(object sender, EventArgs e)
+        {
+            Cursor = Cursors.Hand;
+        }
+
+        private void GatewayButton_MouseLeave(object sender, EventArgs e)
+        {
+            Cursor = Cursors.Default;
+        }
+
+        private void GameButton_MouseHover(object sender, EventArgs e)
+        {
+            Cursor = Cursors.Hand;
+        }
+
+        private void GameButton_MouseLeave(object sender, EventArgs e)
+        {
+            Cursor = Cursors.Default;
+        }
+
+        private void FrontButton_MouseHover(object sender, EventArgs e)
+        {
+            Cursor = Cursors.Hand;
+        }
+
+        private void FrontButton_MouseLeave(object sender, EventArgs e)
+        {
+            Cursor = Cursors.Default;
+        }
+
+        private void ChattingButton_MouseHover(object sender, EventArgs e)
+        {
+            Cursor = Cursors.Hand;
+        }
+
+        private void ChattingButton_MouseLeave(object sender, EventArgs e)
+        {
+            Cursor = Cursors.Default;
+        }
+
+        private void ConfigImage_MouseHover(object sender, EventArgs e)
+        {
+            Cursor = Cursors.Hand;
+        }
+
+        private void ConfigImage_MouseLeave(object sender, EventArgs e)
+        {
+            Cursor = Cursors.Default;
+        }
+
+        private void LogsImage_MouseHover(object sender, EventArgs e)
+        {
+            Cursor = Cursors.Hand;
+        }
+
+        private void LogsImage_MouseLeave(object sender, EventArgs e)
+        {
+            Cursor = Cursors.Default;
+        }
+
+        private void JSONImage_MouseHover(object sender, EventArgs e)
+        {
+            Cursor = Cursors.Hand;
+        }
+
+        private void JSONImage_MouseLeave(object sender, EventArgs e)
+        {
+            Cursor = Cursors.Default;
+        }
+
+        private void DatabaseImage_MouseHover(object sender, EventArgs e)
+        {
+            Cursor = Cursors.Hand;
+        }
+
+        private void DatabaseImage_MouseLeave(object sender, EventArgs e)
+        {
+            Cursor = Cursors.Default;
+        }
+
+        private void CloseButton_MouseLeave(object sender, EventArgs e)
+        {
+            Cursor = Cursors.Default;
+        }
         #endregion
     }
 }

@@ -82,6 +82,7 @@
             CloseButton.TabIndex = 1;
             CloseButton.Text = " ";
             CloseButton.Click += CloseButton_Click;
+            CloseButton.MouseLeave += CloseButton_MouseLeave;
             CloseButton.MouseHover += CloseButton_MouseHover;
             // 
             // WorldButton
@@ -94,6 +95,8 @@
             WorldButton.TabIndex = 2;
             WorldButton.TabStop = false;
             WorldButton.Click += WorldButton_Click;
+            WorldButton.MouseLeave += WorldButton_MouseLeave;
+            WorldButton.MouseHover += WorldButton_MouseHover;
             // 
             // GatewayButton
             // 
@@ -105,6 +108,8 @@
             GatewayButton.TabIndex = 3;
             GatewayButton.TabStop = false;
             GatewayButton.Click += GatewayButton_Click;
+            GatewayButton.MouseLeave += GatewayButton_MouseLeave;
+            GatewayButton.MouseHover += GatewayButton_MouseHover;
             // 
             // GameButton
             // 
@@ -116,6 +121,8 @@
             GameButton.TabIndex = 4;
             GameButton.TabStop = false;
             GameButton.Click += GameButton_Click;
+            GameButton.MouseLeave += GameButton_MouseLeave;
+            GameButton.MouseHover += GameButton_MouseHover;
             // 
             // FrontButton
             // 
@@ -127,6 +134,8 @@
             FrontButton.TabIndex = 5;
             FrontButton.TabStop = false;
             FrontButton.Click += FrontButton_Click;
+            FrontButton.MouseLeave += FrontButton_MouseLeave;
+            FrontButton.MouseHover += FrontButton_MouseHover;
             // 
             // ChattingButton
             // 
@@ -138,6 +147,8 @@
             ChattingButton.TabIndex = 6;
             ChattingButton.TabStop = false;
             ChattingButton.Click += ChattingButton_Click;
+            ChattingButton.MouseLeave += ChattingButton_MouseLeave;
+            ChattingButton.MouseHover += ChattingButton_MouseHover;
             // 
             // ExeCheckTimer
             // 
@@ -153,6 +164,8 @@
             DatabaseImage.TabIndex = 7;
             DatabaseImage.TabStop = false;
             DatabaseImage.Click += DatabaseImage_Click;
+            DatabaseImage.MouseLeave += DatabaseImage_MouseLeave;
+            DatabaseImage.MouseHover += DatabaseImage_MouseHover;
             // 
             // JSONImage
             // 
@@ -164,6 +177,8 @@
             JSONImage.TabIndex = 8;
             JSONImage.TabStop = false;
             JSONImage.Click += JSONImage_Click;
+            JSONImage.MouseLeave += JSONImage_MouseLeave;
+            JSONImage.MouseHover += JSONImage_MouseHover;
             // 
             // LogsImage
             // 
@@ -175,6 +190,8 @@
             LogsImage.TabIndex = 9;
             LogsImage.TabStop = false;
             LogsImage.Click += LogsImage_Click;
+            LogsImage.MouseLeave += LogsImage_MouseLeave;
+            LogsImage.MouseHover += LogsImage_MouseHover;
             // 
             // ConfigImage
             // 
@@ -186,6 +203,8 @@
             ConfigImage.TabIndex = 10;
             ConfigImage.TabStop = false;
             ConfigImage.Click += ConfigImage_Click;
+            ConfigImage.MouseLeave += ConfigImage_MouseLeave;
+            ConfigImage.MouseHover += ConfigImage_MouseHover;
             // 
             // StartAllButton
             // 
@@ -197,6 +216,8 @@
             StartAllButton.TabIndex = 11;
             StartAllButton.TabStop = false;
             StartAllButton.Click += StartAllButton_Click;
+            StartAllButton.MouseLeave += StartAllButton_MouseLeave;
+            StartAllButton.MouseHover += StartAllButton_MouseHover;
             // 
             // MainForm
             // 
