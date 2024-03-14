@@ -15,11 +15,6 @@ namespace Server_Console.Database
     {
 #nullable enable
         private List<string?> schemaNames = new List<string?>();
-
-        // Define the list of table names to ignore due to the lack of a primary key or multiple Primary Keys but no unique key or just unsure at present
-        List<string?> tablesToIgnore = new List<string?> { "_spschema_tb", "_tableschema_tb", "spschema_tb", "tableschema_tb", "achievement_clear_tb", "achievement_tb",
-            "character_delete_tb", "quest_daily_list_tb", "quest_daily_tb", "skill_active_tb", "skill_passive_tb"};
-
         public DatabaseForm()
         {
             InitializeComponent();
@@ -54,12 +49,6 @@ namespace Server_Console.Database
                 LoadGameData();
                 LoadUserData();
             }
-
-            //Add the tables to ignore to the list box
-            foreach(string s in tablesToIgnore)
-            {
-                lb_IgnoredList.Items.Add(s);
-            }
         }
 
         #region Main Load
@@ -83,8 +72,7 @@ namespace Server_Console.Database
                     // Filter and display only table names
                     var tableNames = schema.AsEnumerable()
                                             .Select(row => row["TABLE_NAME"].ToString())
-                                            .Where(tableName => !tablesToIgnore.Contains(tableName))
-                                            .ToList();
+                                            .Where(tableName => !Properties.Settings.Default.IgnoreList.Contains(tableName));
 
                     // Display the list of table names
                     Debug.WriteLine($"Tables in the {databaseName} database:");

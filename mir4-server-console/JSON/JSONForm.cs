@@ -50,6 +50,9 @@ namespace Server_Console
         }
         private void FileList_AfterSelect(object sender, TreeViewEventArgs e)
         {
+            // Clear existing columns
+            JsonDataGrid.Columns.Clear();
+
             if (e.Node == null)
                 return;
 

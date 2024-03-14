@@ -12,7 +12,7 @@ namespace Server_Console.Properties {
     
     
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
-    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.VisualStudio.Editors.SettingsDesigner.SettingsSingleFileGenerator", "17.9.0.0")]
+    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.VisualStudio.Editors.SettingsDesigner.SettingsSingleFileGenerator", "17.8.0.0")]
     internal sealed partial class Settings : global::System.Configuration.ApplicationSettingsBase {
         
         private static Settings defaultInstance = ((Settings)(global::System.Configuration.ApplicationSettingsBase.Synchronized(new Settings())));
@@ -68,6 +68,28 @@ namespace Server_Console.Properties {
             }
             set {
                 this["Configured"] = value;
+            }
+        }
+        
+        [global::System.Configuration.ApplicationScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute(@"<?xml version=""1.0"" encoding=""utf-16""?>
+<ArrayOfString xmlns:xsd=""http://www.w3.org/2001/XMLSchema"" xmlns:xsi=""http://www.w3.org/2001/XMLSchema-instance"">
+  <string>_spschema_tb</string>
+  <string>_tableschema_tb</string>
+  <string>spschema_tb</string>
+  <string>tableschema_tb</string>
+  <string>achievement_clear_tb</string>
+  <string>achievement_tb</string>
+  <string>character_delete_tb</string>
+  <string>quest_daily_list_tb</string>
+  <string>quest_daily_tb</string>
+  <string>skill_active_tb</string>
+  <string>skill_passive_tb</string>
+</ArrayOfString>")]
+        public global::System.Collections.Specialized.StringCollection IgnoreList {
+            get {
+                return ((global::System.Collections.Specialized.StringCollection)(this["IgnoreList"]));
             }
         }
     }

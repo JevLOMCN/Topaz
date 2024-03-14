@@ -14,5 +14,21 @@
     <Setting Name="Configured" Type="System.Boolean" Scope="User">
       <Value Profile="(Default)">False</Value>
     </Setting>
+    <Setting Name="IgnoreList" Type="System.Collections.Specialized.StringCollection" Scope="Application">
+      <Value Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;ArrayOfString xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"&gt;
+  &lt;string&gt;_spschema_tb&lt;/string&gt;
+  &lt;string&gt;_tableschema_tb&lt;/string&gt;
+  &lt;string&gt;spschema_tb&lt;/string&gt;
+  &lt;string&gt;tableschema_tb&lt;/string&gt;
+  &lt;string&gt;achievement_clear_tb&lt;/string&gt;
+  &lt;string&gt;achievement_tb&lt;/string&gt;
+  &lt;string&gt;character_delete_tb&lt;/string&gt;
+  &lt;string&gt;quest_daily_list_tb&lt;/string&gt;
+  &lt;string&gt;quest_daily_tb&lt;/string&gt;
+  &lt;string&gt;skill_active_tb&lt;/string&gt;
+  &lt;string&gt;skill_passive_tb&lt;/string&gt;
+&lt;/ArrayOfString&gt;</Value>
+    </Setting>
   </Settings>
 </SettingsFile>
