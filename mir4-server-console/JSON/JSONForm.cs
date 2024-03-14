@@ -110,7 +110,7 @@ namespace Server_Console
         
             #endregion
 
-            #region FileList Menu (Right Click)
+        #region FileList Menu (Right Click)
             private void FileList_MouseClick(object sender, MouseEventArgs e)
             {
                 if (e.Button == MouseButtons.Right)

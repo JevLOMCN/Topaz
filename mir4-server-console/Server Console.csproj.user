@@ -4,6 +4,9 @@
     <Compile Update="Config\ConfigForm.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="Database\DatabaseConfiguration.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="Database\DatabaseForm.cs">
       <SubType>Form</SubType>
     </Compile>
