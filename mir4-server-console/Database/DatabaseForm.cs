@@ -21,8 +21,9 @@ namespace Server_Console.Database
         }
         private void DatabaseForm_Load(object sender, EventArgs e)
         {
-            //Clear lbl_PrimaryKeyWarning
-            lbl_PrimaryKeyWarning.Text = string.Empty;
+            //Clear tsm_KeyWarning
+            tsm_KeyWarning.Text = string.Empty;
+            tsm_TableDescription.Text = string.Empty;
 
             //Check if the database is configured
             if (!Settings.Default.Configured)
@@ -121,17 +122,307 @@ namespace Server_Console.Database
             if (!DatabaseFunctions.PrimaryKeyCheck(connectionString, tableName))
             {
                 dataGridView.ReadOnly = true;
-                lbl_PrimaryKeyWarning.ForeColor = System.Drawing.Color.Red;
-                lbl_PrimaryKeyWarning.Text = "Table does not have a primary key. Data cannot be edited.";
+                tsm_KeyWarning.ForeColor = System.Drawing.Color.Red;
+                tsm_KeyWarning.Text = "Table does not have a primary key. Data cannot be edited.";
             }
             else
             {
-                lbl_PrimaryKeyWarning.ForeColor = System.Drawing.Color.Green;
-                lbl_PrimaryKeyWarning.Text = "Table can be edited";
+                tsm_KeyWarning.ForeColor = System.Drawing.Color.Green;
+                tsm_KeyWarning.Text = "Table can be edited";
                 dataGridView.ReadOnly = false;
             }
+            #endregion
+
+            #region Table Descriptions
+            if (Settings.Default.TableDescription.Count == Settings.Default.TableDescriptionCount)
+            {
+                if (e.Node != null && e.Node.Text == "_spschema_tb")
+                {
+                    tsm_TableDescription.Text = Settings.Default.TableDescription[1].ToString();
+                }
+                else if (e.Node != null && e.Node.Text == "_tableschema_tb")
+                {
+                    tsm_TableDescription.Text = Settings.Default.TableDescription[2].ToString();
+                }
+                else if (e.Node != null && e.Node.Text == "errortype_tb")
+                {
+                    tsm_TableDescription.Text = Settings.Default.TableDescription[3].ToString();
+                }
+                else if (e.Node != null && e.Node.Text == "gamedata_achievement_tb")
+                {
+                    tsm_TableDescription.Text = Settings.Default.TableDescription[4].ToString();
+                }
+                else if (e.Node != null && e.Node.Text == "gamedata_costume_tb")
+                {
+                    tsm_TableDescription.Text = Settings.Default.TableDescription[5].ToString();
+                }
+                else if (e.Node != null && e.Node.Text == "gamedata_item_option_tb")
+                {
+                    tsm_TableDescription.Text = Settings.Default.TableDescription[6].ToString();
+                }
+                else if (e.Node != null && e.Node.Text == "gamedata_item_tb")
+                {
+                    tsm_TableDescription.Text = Settings.Default.TableDescription[7].ToString();
+                }
+                else if (e.Node != null && e.Node.Text == "gamedata_quest_tb")
+                {
+                    tsm_TableDescription.Text = Settings.Default.TableDescription[8].ToString();
+                }
+                else if (e.Node != null && e.Node.Text == "gamedata_skill_tb")
+                {
+                    tsm_TableDescription.Text = Settings.Default.TableDescription[9].ToString();
+                }
+                else if (e.Node != null && e.Node.Text == "gamedata_stage_tb")
+                {
+                    tsm_TableDescription.Text = Settings.Default.TableDescription[10].ToString();
+                }
+                else if (e.Node != null && e.Node.Text == "spschema_tb")
+                {
+                    tsm_TableDescription.Text = Settings.Default.TableDescription[11].ToString();
+                }
+                else if (e.Node != null && e.Node.Text == "tableschema_tb")
+                {
+                    tsm_TableDescription.Text = Settings.Default.TableDescription[12].ToString();
+                }
+                else if (e.Node != null && e.Node.Text == "department_tb")
+                {
+                    tsm_TableDescription.Text = Settings.Default.TableDescription[13].ToString();
+                }
+                else if (e.Node != null && e.Node.Text == "device_tb")
+                {
+                    tsm_TableDescription.Text = Settings.Default.TableDescription[14].ToString();
+                }
+                else if (e.Node != null && e.Node.Text == "os_tb")
+                {
+                    tsm_TableDescription.Text = Settings.Default.TableDescription[15].ToString();
+                }
+                else if (e.Node != null && e.Node.Text == "account_block_tb")
+                {
+                    tsm_TableDescription.Text = Settings.Default.TableDescription[16].ToString();
+                }
+                else if (e.Node != null && e.Node.Text == "account_grade_tb")
+                {
+                    tsm_TableDescription.Text = Settings.Default.TableDescription[17].ToString();
+                }
+                else if (e.Node != null && e.Node.Text == "account_tb")
+                {
+                    tsm_TableDescription.Text = Settings.Default.TableDescription[18].ToString();
+                }
+                else if (e.Node != null && e.Node.Text == "db_tb")
+                {
+                    tsm_TableDescription.Text = Settings.Default.TableDescription[19].ToString();
+                }
+                else if (e.Node != null && e.Node.Text == "db_type_tb")
+                {
+                    tsm_TableDescription.Text = Settings.Default.TableDescription[20].ToString();
+                }
+                else if (e.Node != null && e.Node.Text == "db_user_tb")
+                {
+                    tsm_TableDescription.Text = Settings.Default.TableDescription[21].ToString();
+                }
+                else if (e.Node != null && e.Node.Text == "nation_tb")
+                {
+                    tsm_TableDescription.Text = Settings.Default.TableDescription[22].ToString();
+                }
+                else if (e.Node != null && e.Node.Text == "patch_url_tb")
+                {
+                    tsm_TableDescription.Text = Settings.Default.TableDescription[23].ToString();
+                }
+                else if (e.Node != null && e.Node.Text == "revision_tb")
+                {
+                    tsm_TableDescription.Text = Settings.Default.TableDescription[24].ToString();
+                }
+                else if (e.Node != null && e.Node.Text == "sdk_tb")
+                {
+                    tsm_TableDescription.Text = Settings.Default.TableDescription[25].ToString();
+                }
+                else if (e.Node != null && e.Node.Text == "server_db_tb")
+                {
+                    tsm_TableDescription.Text = Settings.Default.TableDescription[26].ToString();
+                }
+                else if (e.Node != null && e.Node.Text == "server_tb")
+                {
+                    tsm_TableDescription.Text = Settings.Default.TableDescription[27].ToString();
+                }
+                else if (e.Node != null && e.Node.Text == "server_type_tb")
+                {
+                    tsm_TableDescription.Text = Settings.Default.TableDescription[28].ToString();
+                }
+                else if (e.Node != null && e.Node.Text == "world_tb")
+                {
+                    tsm_TableDescription.Text = Settings.Default.TableDescription[29].ToString();
+                }
+                else if (e.Node != null && e.Node.Text == "_blackiron_tb")
+                {
+                    tsm_TableDescription.Text = Settings.Default.TableDescription[30].ToString();
+                }
+                else if (e.Node != null && e.Node.Text == "_reward_tb")
+                {
+                    tsm_TableDescription.Text = Settings.Default.TableDescription[31].ToString();
+                }
+                else if (e.Node != null && e.Node.Text == "account_tb")
+                {
+                    tsm_TableDescription.Text = Settings.Default.TableDescription[32].ToString();
+                }
+                else if (e.Node != null && e.Node.Text == "achievement_clear_tb")
+                {
+                    tsm_TableDescription.Text = Settings.Default.TableDescription[33].ToString();
+                }
+                else if (e.Node != null && e.Node.Text == "achievement_tb")
+                {
+                    tsm_TableDescription.Text = Settings.Default.TableDescription[34].ToString();
+                }
+                else if (e.Node != null && e.Node.Text == "character_delete_tb")
+                {
+                    tsm_TableDescription.Text = Settings.Default.TableDescription[35].ToString();
+                }
+                else if (e.Node != null && e.Node.Text == "character_tb")
+                {
+                    tsm_TableDescription.Text = Settings.Default.TableDescription[36].ToString();
+                }
+                else if (e.Node != null && e.Node.Text == "costume_tb")
+                {
+                    tsm_TableDescription.Text = Settings.Default.TableDescription[37].ToString();
+                }
+                else if (e.Node != null && e.Node.Text == "equip_item_tb")
+                {
+                    tsm_TableDescription.Text = Settings.Default.TableDescription[38].ToString();
+                }
+                else if (e.Node != null && e.Node.Text == "equip_jewel_tb")
+                {
+                    tsm_TableDescription.Text = Settings.Default.TableDescription[39].ToString();
+                }
+                else if (e.Node != null && e.Node.Text == "equip_mastery_tb")
+                {
+                    tsm_TableDescription.Text = Settings.Default.TableDescription[40].ToString();
+                }
+                else if (e.Node != null && e.Node.Text == "item_character_tb")
+                {
+                    tsm_TableDescription.Text = Settings.Default.TableDescription[41].ToString();
+                }
+                else if (e.Node != null && e.Node.Text == "item_delete_tb")
+                {
+                    tsm_TableDescription.Text = Settings.Default.TableDescription[42].ToString();
+                }
+                else if (e.Node != null && e.Node.Text == "item_option_tb")
+                {
+                    tsm_TableDescription.Text = Settings.Default.TableDescription[43].ToString();
+                }
+                else if (e.Node != null && e.Node.Text == "item_reinforce_tb")
+                {
+                    tsm_TableDescription.Text = Settings.Default.TableDescription[44].ToString();
+                }
+                else if (e.Node != null && e.Node.Text == "item_smelting_tb")
+                {
+                    tsm_TableDescription.Text = Settings.Default.TableDescription[45].ToString();
+                }
+                else if (e.Node != null && e.Node.Text == "item_stack_tb")
+                {
+                    tsm_TableDescription.Text = Settings.Default.TableDescription[46].ToString();
+                }
+                else if (e.Node != null && e.Node.Text == "item_tagbuff_tb")
+                {
+                    tsm_TableDescription.Text = Settings.Default.TableDescription[47].ToString();
+                }
+                else if (e.Node != null && e.Node.Text == "item_tb")
+                {
+                    tsm_TableDescription.Text = Settings.Default.TableDescription[48].ToString();
+                }
+                else if (e.Node != null && e.Node.Text == "item_transcendence_tb")
+                {
+                    tsm_TableDescription.Text = Settings.Default.TableDescription[49].ToString();
+                }
+                else if (e.Node != null && e.Node.Text == "mail_itemidx_tb")
+                {
+                    tsm_TableDescription.Text = Settings.Default.TableDescription[50].ToString();
+                }
+                else if (e.Node != null && e.Node.Text == "mail_itemuid_tb")
+                {
+                    tsm_TableDescription.Text = Settings.Default.TableDescription[51].ToString();
+                }
+                else if (e.Node != null && e.Node.Text == "mail_money_tb")
+                {
+                    tsm_TableDescription.Text = Settings.Default.TableDescription[52].ToString();
+                }
+                else if (e.Node != null && e.Node.Text == "mail_tb")
+                {
+                    tsm_TableDescription.Text = Settings.Default.TableDescription[53].ToString();
+                }
+                else if (e.Node != null && e.Node.Text == "pulse_blood_tb")
+                {
+                    tsm_TableDescription.Text = Settings.Default.TableDescription[54].ToString();
+                }
+                else if (e.Node != null && e.Node.Text == "pulse_tb")
+                {
+                    tsm_TableDescription.Text = Settings.Default.TableDescription[55].ToString();
+                }
+                else if (e.Node != null && e.Node.Text == "quest_daily_list_tb")
+                {
+                    tsm_TableDescription.Text = Settings.Default.TableDescription[56].ToString();
+                }
+                else if (e.Node != null && e.Node.Text == "quest_daily_tb")
+                {
+                    tsm_TableDescription.Text = Settings.Default.TableDescription[57].ToString();
+                }
+                else if (e.Node != null && e.Node.Text == "quest_main_tb")
+                {
+                    tsm_TableDescription.Text = Settings.Default.TableDescription[58].ToString();
+                }
+                else if (e.Node != null && e.Node.Text == "quest_sub_tb")
+                {
+                    tsm_TableDescription.Text = Settings.Default.TableDescription[59].ToString();
+                }
+                else if (e.Node != null && e.Node.Text == "quest_weekly_list_tb")
+                {
+                    tsm_TableDescription.Text = Settings.Default.TableDescription[60].ToString();
+                }
+                else if (e.Node != null && e.Node.Text == "quest_weekly_tb")
+                {
+                    tsm_TableDescription.Text = Settings.Default.TableDescription[61].ToString();
+                }
+                else if (e.Node != null && e.Node.Text == "skill_active_tb")
+                {
+                    tsm_TableDescription.Text = Settings.Default.TableDescription[62].ToString();
+                }
+                else if (e.Node != null && e.Node.Text == "skill_passive_tb")
+                {
+                    tsm_TableDescription.Text = Settings.Default.TableDescription[63].ToString();
+                }
+                else if (e.Node != null && e.Node.Text == "treasure_tb")
+                {
+                    tsm_TableDescription.Text = Settings.Default.TableDescription[64].ToString();
+                }
+                else if (e.Node != null && e.Node.Text == "tutorial_clear_tb")
+                {
+                    tsm_TableDescription.Text = Settings.Default.TableDescription[65].ToString();
+                }
+                else if (e.Node != null && e.Node.Text == "uid_tb")
+                {
+                    tsm_TableDescription.Text = Settings.Default.TableDescription[66].ToString();
+                }
+                else if (e.Node != null && e.Node.Text == "vehicle_tb")
+                {
+                    tsm_TableDescription.Text = Settings.Default.TableDescription[67].ToString();
+                }
+                else if (e.Node != null && e.Node.Text == "waypoint_tb")
+                {
+                    tsm_TableDescription.Text = Settings.Default.TableDescription[68].ToString();
+                }
+                else if (e.Node != null && e.Node.Text == "user_tb")
+                {
+                    tsm_TableDescription.Text = Settings.Default.TableDescription[69].ToString();
+                }
+                else
+                {
+                    tsm_TableDescription.Text = Settings.Default.TableDescription[0].ToString();
+                }
+            }
+            else
+            {
+                MessageBox.Show("No Table Description can be found!", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+            #endregion
         }
-        #endregion
 
         #region Admin
         private void LoadAdminData()
@@ -245,13 +536,13 @@ namespace Server_Console.Database
                             int rowsAffected = command.ExecuteNonQuery();
                             if (rowsAffected > 0)
                             {
-                                lbl_PrimaryKeyWarning.Text = lbl_PrimaryKeyWarning.Text + " | Data updated successfully!";
-                                lbl_PrimaryKeyWarning.ForeColor = System.Drawing.Color.Green;
+                                tsm_KeyWarning.Text = tsm_KeyWarning.Text + " | Data updated successfully!";
+                                tsm_KeyWarning.ForeColor = System.Drawing.Color.Green;
                             }
                             else
                             {
-                                lbl_PrimaryKeyWarning.Text = lbl_PrimaryKeyWarning.Text + " | No rows were updated!";
-                                lbl_PrimaryKeyWarning.ForeColor = System.Drawing.Color.Red;
+                                tsm_KeyWarning.Text = tsm_KeyWarning.Text + " | No rows were updated!";
+                                tsm_KeyWarning.ForeColor = System.Drawing.Color.Red;
                             }
                         }
                         catch (Exception ex)
@@ -311,13 +602,13 @@ namespace Server_Console.Database
                             int rowsAffected = command.ExecuteNonQuery();
                             if (rowsAffected > 0)
                             {
-                                lbl_PrimaryKeyWarning.Text = lbl_PrimaryKeyWarning.Text + " | Data updated successfully!";
-                                lbl_PrimaryKeyWarning.ForeColor = System.Drawing.Color.Green;
+                                tsm_KeyWarning.Text = tsm_KeyWarning.Text + " | Data updated successfully!";
+                                tsm_KeyWarning.ForeColor = System.Drawing.Color.Green;
                             }
                             else
                             {
-                                lbl_PrimaryKeyWarning.Text = lbl_PrimaryKeyWarning.Text + " | No rows were updated!";
-                                lbl_PrimaryKeyWarning.ForeColor = System.Drawing.Color.Red;
+                                tsm_KeyWarning.Text = tsm_KeyWarning.Text + " | No rows were updated!";
+                                tsm_KeyWarning.ForeColor = System.Drawing.Color.Red;
                             }
                         }
                         catch (Exception ex)
@@ -365,13 +656,13 @@ namespace Server_Console.Database
                             int rowsAffected = command.ExecuteNonQuery();
                             if (rowsAffected > 0)
                             {
-                                lbl_PrimaryKeyWarning.Text = lbl_PrimaryKeyWarning.Text + " | Data updated successfully!";
-                                lbl_PrimaryKeyWarning.ForeColor = System.Drawing.Color.Green;
+                                tsm_KeyWarning.Text = tsm_KeyWarning.Text + " | Data updated successfully!";
+                                tsm_KeyWarning.ForeColor = System.Drawing.Color.Green;
                             }
                             else
                             {
-                                lbl_PrimaryKeyWarning.Text = lbl_PrimaryKeyWarning.Text + " | No rows were updated!";
-                                lbl_PrimaryKeyWarning.ForeColor = System.Drawing.Color.Red;
+                                tsm_KeyWarning.Text = tsm_KeyWarning.Text + " | No rows were updated!";
+                                tsm_KeyWarning.ForeColor = System.Drawing.Color.Red;
                             }
                         }
                         catch (Exception ex)
@@ -432,13 +723,13 @@ namespace Server_Console.Database
                             int rowsAffected = command.ExecuteNonQuery();
                             if (rowsAffected > 0)
                             {
-                                lbl_PrimaryKeyWarning.Text = lbl_PrimaryKeyWarning.Text + $" | {rowsAffected.ToString()} Rows updated successfully!";
-                                lbl_PrimaryKeyWarning.ForeColor = System.Drawing.Color.Green;
+                                tsm_KeyWarning.Text = tsm_KeyWarning.Text + $" | {rowsAffected.ToString()} Rows updated successfully!";
+                                tsm_KeyWarning.ForeColor = System.Drawing.Color.Green;
                             }
                             else
                             {
-                                lbl_PrimaryKeyWarning.Text = lbl_PrimaryKeyWarning.Text + " | No rows were updated!";
-                                lbl_PrimaryKeyWarning.ForeColor = System.Drawing.Color.Red;
+                                tsm_KeyWarning.Text = tsm_KeyWarning.Text + " | No rows were updated!";
+                                tsm_KeyWarning.ForeColor = System.Drawing.Color.Red;
                             }
                         }
                         catch (Exception ex)
@@ -486,13 +777,13 @@ namespace Server_Console.Database
                             int rowsAffected = command.ExecuteNonQuery();
                             if (rowsAffected > 0)
                             {
-                                lbl_PrimaryKeyWarning.Text = lbl_PrimaryKeyWarning.Text + " | Data updated successfully!";
-                                lbl_PrimaryKeyWarning.ForeColor = System.Drawing.Color.Green;
+                                tsm_KeyWarning.Text = tsm_KeyWarning.Text + " | Data updated successfully!";
+                                tsm_KeyWarning.ForeColor = System.Drawing.Color.Green;
                             }
                             else
                             {
-                                lbl_PrimaryKeyWarning.Text = lbl_PrimaryKeyWarning.Text + " | No rows were updated!";
-                                lbl_PrimaryKeyWarning.ForeColor = System.Drawing.Color.Red;
+                                tsm_KeyWarning.Text = tsm_KeyWarning.Text + " | No rows were updated!";
+                                tsm_KeyWarning.ForeColor = System.Drawing.Color.Red;
                             }
                         }
                         catch (Exception ex)
@@ -506,35 +797,34 @@ namespace Server_Console.Database
 
         private void AdminData_CellLeave(object sender, DataGridViewCellEventArgs e)
         {
-            lbl_PrimaryKeyWarning.Text = "Table can be edited";
-            lbl_PrimaryKeyWarning.ForeColor = System.Drawing.Color.Green;
+            tsm_KeyWarning.Text = "Table can be edited";
+            tsm_KeyWarning.ForeColor = System.Drawing.Color.Green;
         }
 
         private void DeviceData_CellLeave(object sender, DataGridViewCellEventArgs e)
         {
-            lbl_PrimaryKeyWarning.Text = "Table can be edited";
-            lbl_PrimaryKeyWarning.ForeColor = System.Drawing.Color.Green;
+            tsm_KeyWarning.Text = "Table can be edited";
+            tsm_KeyWarning.ForeColor = System.Drawing.Color.Green;
         }
 
         private void FrontData_CellLeave(object sender, DataGridViewCellEventArgs e)
         {
-            lbl_PrimaryKeyWarning.Text = "Table can be edited";
-            lbl_PrimaryKeyWarning.ForeColor = System.Drawing.Color.Green;
+            tsm_KeyWarning.Text = "Table can be edited";
+            tsm_KeyWarning.ForeColor = System.Drawing.Color.Green;
         }
 
         private void GameData_CellLeave(object sender, DataGridViewCellEventArgs e)
         {
-            lbl_PrimaryKeyWarning.Text = "Table can be edited";
-            lbl_PrimaryKeyWarning.ForeColor = System.Drawing.Color.Green;
+            tsm_KeyWarning.Text = "Table can be edited";
+            tsm_KeyWarning.ForeColor = System.Drawing.Color.Green;
         }
 
         private void UserData_CellLeave(object sender, DataGridViewCellEventArgs e)
         {
-            lbl_PrimaryKeyWarning.Text = "Table can be edited";
-            lbl_PrimaryKeyWarning.ForeColor = System.Drawing.Color.Green;
+            tsm_KeyWarning.Text = "Table can be edited";
+            tsm_KeyWarning.ForeColor = System.Drawing.Color.Green;
         }
         #endregion
-
 
         #region ToolStripMenu
         private void tsmDB_Settings_Click(object sender, EventArgs e)
@@ -545,5 +835,5 @@ namespace Server_Console.Database
         }
         #endregion
 
+        }
     }
-}

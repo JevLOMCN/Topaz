@@ -92,5 +92,89 @@ namespace Server_Console.Properties {
                 return ((global::System.Collections.Specialized.StringCollection)(this["IgnoreList"]));
             }
         }
+        
+        [global::System.Configuration.ApplicationScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("<?xml version=\"1.0\" encoding=\"utf-16\"?>\r\n<ArrayOfString xmlns:xsd=\"http://www.w3." +
+            "org/2001/XMLSchema\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\">\r\n  <s" +
+            "tring>Table Description: No Description</string>\r\n  <string>Table Description: N" +
+            "o Description</string>\r\n  <string>Table Description: No Description</string>\r\n  " +
+            "<string>Table Description: List of Database error codes.</string>\r\n  <string>Tab" +
+            "le Description: List of Achievement IDs.</string>\r\n  <string>Table Description: " +
+            "List of Costume IDs.</string>\r\n  <string>Table Description: No Description</stri" +
+            "ng>\r\n  <string>Table Description: List of Item IDs.</string>\r\n  <string>Table De" +
+            "scription: List of Quest IDs.</string>\r\n  <string>Table Description: List of Ski" +
+            "ll IDs.</string>\r\n  <string>Table Description: List of Stage IDs. (Stage = Map)<" +
+            "/string>\r\n  <string>Table Description: No Description</string>\r\n  <string>Table " +
+            "Description: No Description</string>\r\n  <string>Table Description: List of Depar" +
+            "tments which can be used to quickly identify staff accounts.</string>\r\n  <string" +
+            ">Table Description: user_tb for Andriod/IOS accounts.</string>\r\n  <string>Table " +
+            "Description: Lists ID Number for Andriod/IOS, used in device_tb to identify acco" +
+            "unt platform.</string>\r\n  <string>Table Description: List of Banned accounts.</s" +
+            "tring>\r\n  <string>Table Description: Might be a list of AccountTypes for account" +
+            "_tb. Current admin accounts are ID 2</string>\r\n  <string>Table Description: List" +
+            " of Accounts sent from user_tb.</string>\r\n  <string>Table Description: List of s" +
+            "chemas/database.</string>\r\n  <string>Table Description: List of schemas/database" +
+            " types, used by db_tb.</string>\r\n  <string>Table Description: List of Database l" +
+            "ogin details.</string>\r\n  <string>Table Description: List of Nation UIDs, not su" +
+            "re where this is used yet but most likely in some account database.</string>\r\n  " +
+            "<string>Table Description: Patch URL used by Client, Maybe used to verify Client" +
+            " &amp; Server match.</string>\r\n  <string>Table Description: No Description</stri" +
+            "ng>\r\n  <string>Table Description: List of Device Types, used in account_tb to id" +
+            "entify the platform the account uses to play.</string>\r\n  <string>Table Descript" +
+            "ion: List of Server UIDs and there corresponding Database type.</string>\r\n  <str" +
+            "ing>Table Description: List of Servers.</string>\r\n  <string>Table Description: L" +
+            "ist of Server types, used by server_tb.</string>\r\n  <string>Table Description: L" +
+            "ist of World Servers.</string>\r\n  <string>Table Description: No Description</str" +
+            "ing>\r\n  <string>Table Description: No Description</string>\r\n  <string>Table Desc" +
+            "ription: List of Accounts sent from either user_tb or account_tb in Front Databa" +
+            "se.</string>\r\n  <string>Table Description: List of Achievement IDs to be removed" +
+            " from a Character.</string>\r\n  <string>Table Description: List of every Achievem" +
+            "ents obtained by players.</string>\r\n  <string>Table Description: List of deleted" +
+            " Characters.</string>\r\n  <string>Table Description: List of Characters.</string>" +
+            "\r\n  <string>Table Description: List of every Costume obtained by players.</strin" +
+            "g>\r\n  <string>Table Description: List of every Item in game and what character o" +
+            "wns said item and where it\'s being stored.</string>\r\n  <string>Table Description" +
+            ": List of every Jewel in game and what character owns said jewel item and where " +
+            "it\'s being stored.</string>\r\n  <string>Table Description: List of every Mastery " +
+            "in game and what character owns said mastery item and where it\'s being stored.</" +
+            "string>\r\n  <string>Table Description: List of every Item in game and what charac" +
+            "ter owns said item.</string>\r\n  <string>Table Description: List of every Item th" +
+            "at has been deleted.</string>\r\n  <string>Table Description: No Description</stri" +
+            "ng>\r\n  <string>Table Description: No Description</string>\r\n  <string>Table Descr" +
+            "iption: No Description</string>\r\n  <string>Table Description: List of each item " +
+            "that can be stacked and the amount said item can be stacked to.</string>\r\n  <str" +
+            "ing>Table Description: No Description</string>\r\n  <string>Table Description: Lis" +
+            "t of every Item in game.</string>\r\n  <string>Table Description: No Description</" +
+            "string>\r\n  <string>Table Description: No Description</string>\r\n  <string>Table D" +
+            "escription: No Description</string>\r\n  <string>Table Description: No Description" +
+            "</string>\r\n  <string>Table Description: List of every Mail sent to and from play" +
+            "ers.</string>\r\n  <string>Table Description: No Description</string>\r\n  <string>T" +
+            "able Description: No Description</string>\r\n  <string>Table Description: No Descr" +
+            "iption</string>\r\n  <string>Table Description: No Description</string>\r\n  <string" +
+            ">Table Description: No Description</string>\r\n  <string>Table Description: No Des" +
+            "cription</string>\r\n  <string>Table Description: No Description</string>\r\n  <stri" +
+            "ng>Table Description: No Description</string>\r\n  <string>Table Description: No D" +
+            "escription</string>\r\n  <string>Table Description: No Description</string>\r\n  <st" +
+            "ring>Table Description: No Description</string>\r\n  <string>Table Description: No" +
+            " Description</string>\r\n  <string>Table Description: No Description</string>\r\n  <" +
+            "string>Table Description: No Description</string>\r\n  <string>Table Description: " +
+            "No Description</string>\r\n  <string>Table Description: Raw list of accounts, used" +
+            " for registration and login/verification. Then sent to account_tb.</string>\r\n</A" +
+            "rrayOfString>")]
+        public global::System.Collections.Specialized.StringCollection TableDescription {
+            get {
+                return ((global::System.Collections.Specialized.StringCollection)(this["TableDescription"]));
+            }
+        }
+        
+        [global::System.Configuration.ApplicationScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("70")]
+        public int TableDescriptionCount {
+            get {
+                return ((int)(this["TableDescriptionCount"]));
+            }
+        }
     }
 }

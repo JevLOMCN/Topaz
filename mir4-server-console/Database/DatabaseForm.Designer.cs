@@ -50,8 +50,8 @@
             tableLayoutPanel8 = new TableLayoutPanel();
             UserTree = new TreeView();
             UserData = new DataGridView();
-            tabSearch = new TabPage();
-            AccountsBox = new GroupBox();
+            tabPlayerSearch = new TabPage();
+            PlayersBox = new GroupBox();
             label1 = new Label();
             lb_IgnoredList = new ListBox();
             AccountIDLabel = new Label();
@@ -66,6 +66,7 @@
             CharIDLabel = new Label();
             CharNameSearch = new TextBox();
             tableLayoutPanel1 = new TableLayoutPanel();
+            label2 = new Label();
             treeView1 = new TreeView();
             dataGridView1 = new DataGridView();
             tableLayoutPanel3 = new TableLayoutPanel();
@@ -74,7 +75,9 @@
             tableLayoutPanel7 = new TableLayoutPanel();
             menuStrip1 = new MenuStrip();
             tsmDB_Settings = new ToolStripMenuItem();
-            lbl_PrimaryKeyWarning = new Label();
+            tsm_KeyWarning = new ToolStripTextBox();
+            tsm_TableDescription = new ToolStripTextBox();
+            TableSearchBox = new TextBox();
             DatabaseTabs.SuspendLayout();
             tabAdmin.SuspendLayout();
             tableLayoutPanel2.SuspendLayout();
@@ -91,8 +94,8 @@
             tabUser.SuspendLayout();
             tableLayoutPanel8.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)UserData).BeginInit();
-            tabSearch.SuspendLayout();
-            AccountsBox.SuspendLayout();
+            tabPlayerSearch.SuspendLayout();
+            PlayersBox.SuspendLayout();
             tableLayoutPanel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
             tableLayoutPanel3.SuspendLayout();
@@ -118,7 +121,7 @@
             DatabaseTabs.Controls.Add(tabFront);
             DatabaseTabs.Controls.Add(tabGame);
             DatabaseTabs.Controls.Add(tabUser);
-            DatabaseTabs.Controls.Add(tabSearch);
+            DatabaseTabs.Controls.Add(tabPlayerSearch);
             DatabaseTabs.Dock = DockStyle.Fill;
             DatabaseTabs.Location = new Point(137, 3);
             DatabaseTabs.Name = "DatabaseTabs";
@@ -360,47 +363,37 @@
             UserData.CellEndEdit += UserData_CellEndEdit;
             UserData.CellLeave += UserData_CellLeave;
             // 
-            // tabSearch
+            // tabPlayerSearch
             // 
-            tabSearch.Controls.Add(AccountsBox);
-            tabSearch.Location = new Point(4, 24);
-            tabSearch.Name = "tabSearch";
-            tabSearch.Size = new Size(1116, 642);
-            tabSearch.TabIndex = 6;
-            tabSearch.Text = "Search";
-            tabSearch.UseVisualStyleBackColor = true;
+            tabPlayerSearch.Controls.Add(PlayersBox);
+            tabPlayerSearch.Location = new Point(4, 24);
+            tabPlayerSearch.Name = "tabPlayerSearch";
+            tabPlayerSearch.Size = new Size(1116, 618);
+            tabPlayerSearch.TabIndex = 6;
+            tabPlayerSearch.Text = "Player Search";
+            tabPlayerSearch.UseVisualStyleBackColor = true;
             // 
-            // AccountsBox
+            // PlayersBox
             // 
-            AccountsBox.Controls.Add(label1);
-            AccountsBox.Controls.Add(lb_IgnoredList);
-            AccountsBox.Controls.Add(AccountIDLabel);
-            AccountsBox.Controls.Add(btnFilter);
-            AccountsBox.Controls.Add(AccountNameLabel);
-            AccountsBox.Controls.Add(AccountNameSearch);
-            AccountsBox.Controls.Add(EmailLabel);
-            AccountsBox.Controls.Add(CharIDSearch);
-            AccountsBox.Controls.Add(AccountIDSearch);
-            AccountsBox.Controls.Add(CharNameLabel);
-            AccountsBox.Controls.Add(EmailSearch);
-            AccountsBox.Controls.Add(CharIDLabel);
-            AccountsBox.Controls.Add(CharNameSearch);
-            AccountsBox.Location = new Point(3, 3);
-            AccountsBox.Name = "AccountsBox";
-            AccountsBox.Size = new Size(128, 646);
-            AccountsBox.Size = new Size(135, 273);
-            AccountsBox.TabIndex = 0;
-            AccountsBox.TabStop = false;
-            AccountsBox.Text = "Accounts";
-            // 
-            // AccountIDLabel
-            // 
-            AccountIDLabel.AutoSize = true;
-            AccountIDLabel.Location = new Point(6, 19);
-            AccountIDLabel.Name = "AccountIDLabel";
-            AccountIDLabel.Size = new Size(66, 15);
-            AccountIDLabel.TabIndex = 2;
-            AccountIDLabel.Text = "Account ID";
+            PlayersBox.Controls.Add(label1);
+            PlayersBox.Controls.Add(lb_IgnoredList);
+            PlayersBox.Controls.Add(AccountIDLabel);
+            PlayersBox.Controls.Add(btnFilter);
+            PlayersBox.Controls.Add(AccountNameLabel);
+            PlayersBox.Controls.Add(AccountNameSearch);
+            PlayersBox.Controls.Add(EmailLabel);
+            PlayersBox.Controls.Add(CharIDSearch);
+            PlayersBox.Controls.Add(AccountIDSearch);
+            PlayersBox.Controls.Add(CharNameLabel);
+            PlayersBox.Controls.Add(EmailSearch);
+            PlayersBox.Controls.Add(CharIDLabel);
+            PlayersBox.Controls.Add(CharNameSearch);
+            PlayersBox.Location = new Point(3, 3);
+            PlayersBox.Name = "PlayersBox";
+            PlayersBox.Size = new Size(135, 273);
+            PlayersBox.TabIndex = 0;
+            PlayersBox.TabStop = false;
+            PlayersBox.Text = "Player Lookup";
             // 
             // label1
             // 
@@ -420,6 +413,15 @@
             lb_IgnoredList.SelectionMode = SelectionMode.None;
             lb_IgnoredList.Size = new Size(120, 274);
             lb_IgnoredList.TabIndex = 11;
+            // 
+            // AccountIDLabel
+            // 
+            AccountIDLabel.AutoSize = true;
+            AccountIDLabel.Location = new Point(6, 19);
+            AccountIDLabel.Name = "AccountIDLabel";
+            AccountIDLabel.Size = new Size(66, 15);
+            AccountIDLabel.TabIndex = 2;
+            AccountIDLabel.Text = "Account ID";
             // 
             // btnFilter
             // 
@@ -507,6 +509,7 @@
             tableLayoutPanel1.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 10.63049F));
             tableLayoutPanel1.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 89.3695145F));
             tableLayoutPanel1.Controls.Add(DatabaseTabs, 1, 0);
+            tableLayoutPanel1.Controls.Add(label2, 0, 0);
             tableLayoutPanel1.Dock = DockStyle.Fill;
             tableLayoutPanel1.Location = new Point(0, 24);
             tableLayoutPanel1.Name = "tableLayoutPanel1";
@@ -516,11 +519,21 @@
             tableLayoutPanel1.Size = new Size(1264, 652);
             tableLayoutPanel1.TabIndex = 3;
             // 
+            // label2
+            // 
+            label2.AutoSize = true;
+            label2.Dock = DockStyle.Top;
+            label2.Location = new Point(3, 0);
+            label2.Name = "label2";
+            label2.Size = new Size(128, 15);
+            label2.TabIndex = 3;
+            label2.Text = "Table Search";
+            label2.TextAlign = ContentAlignment.MiddleCenter;
+            // 
             // treeView1
             // 
             treeView1.Dock = DockStyle.Fill;
             treeView1.FullRowSelect = true;
-            treeView1.LineColor = Color.Empty;
             treeView1.Location = new Point(3, 3);
             treeView1.Name = "treeView1";
             treeView1.Size = new Size(28, 630);
@@ -554,7 +567,6 @@
             // 
             treeView5.Dock = DockStyle.Fill;
             treeView5.FullRowSelect = true;
-            treeView5.LineColor = Color.Empty;
             treeView5.Location = new Point(3, 3);
             treeView5.Name = "treeView5";
             treeView5.Size = new Size(28, 630);
@@ -586,7 +598,8 @@
             // 
             // menuStrip1
             // 
-            menuStrip1.Items.AddRange(new ToolStripItem[] { tsmDB_Settings });
+            menuStrip1.BackColor = Color.Transparent;
+            menuStrip1.Items.AddRange(new ToolStripItem[] { tsmDB_Settings, tsm_KeyWarning, tsm_TableDescription });
             menuStrip1.Location = new Point(0, 0);
             menuStrip1.Name = "menuStrip1";
             menuStrip1.Size = new Size(1264, 24);
@@ -600,21 +613,39 @@
             tsmDB_Settings.Text = "Database Settings";
             tsmDB_Settings.Click += tsmDB_Settings_Click;
             // 
-            // lbl_PrimaryKeyWarning
+            // tsm_KeyWarning
             // 
-            lbl_PrimaryKeyWarning.AutoSize = true;
-            lbl_PrimaryKeyWarning.Location = new Point(383, 32);
-            lbl_PrimaryKeyWarning.Name = "lbl_PrimaryKeyWarning";
-            lbl_PrimaryKeyWarning.Size = new Size(130, 15);
-            lbl_PrimaryKeyWarning.TabIndex = 5;
-            lbl_PrimaryKeyWarning.Text = "lbl_PrimaryKeyWarning";
+            tsm_KeyWarning.BackColor = SystemColors.Control;
+            tsm_KeyWarning.BorderStyle = BorderStyle.None;
+            tsm_KeyWarning.Name = "tsm_KeyWarning";
+            tsm_KeyWarning.ReadOnly = true;
+            tsm_KeyWarning.Size = new Size(320, 20);
+            tsm_KeyWarning.Text = "tsm_KeyWarning";
+            // 
+            // tsm_TableDescription
+            // 
+            tsm_TableDescription.Alignment = ToolStripItemAlignment.Right;
+            tsm_TableDescription.BackColor = SystemColors.Control;
+            tsm_TableDescription.BorderStyle = BorderStyle.None;
+            tsm_TableDescription.Name = "tsm_TableDescription";
+            tsm_TableDescription.ReadOnly = true;
+            tsm_TableDescription.Size = new Size(800, 20);
+            tsm_TableDescription.Text = "tsm_TableDescription";
+            tsm_TableDescription.TextBoxTextAlign = HorizontalAlignment.Right;
+            // 
+            // TableSearchBox
+            // 
+            TableSearchBox.Location = new Point(7, 50);
+            TableSearchBox.Name = "TableSearchBox";
+            TableSearchBox.Size = new Size(120, 23);
+            TableSearchBox.TabIndex = 5;
             // 
             // DatabaseForm
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(1264, 676);
-            Controls.Add(lbl_PrimaryKeyWarning);
+            Controls.Add(TableSearchBox);
             Controls.Add(tableLayoutPanel1);
             Controls.Add(menuStrip1);
             Icon = (Icon)resources.GetObject("$this.Icon");
@@ -639,10 +670,11 @@
             tabUser.ResumeLayout(false);
             tableLayoutPanel8.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)UserData).EndInit();
-            tabSearch.ResumeLayout(false);
-            AccountsBox.ResumeLayout(false);
-            AccountsBox.PerformLayout();
+            tabPlayerSearch.ResumeLayout(false);
+            PlayersBox.ResumeLayout(false);
+            PlayersBox.PerformLayout();
             tableLayoutPanel1.ResumeLayout(false);
+            tableLayoutPanel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();
             tableLayoutPanel3.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)dataGridView5).EndInit();
@@ -657,7 +689,7 @@
 
         private TreeView AdminTree;
         private TabControl DatabaseTabs;
-        private GroupBox AccountsBox;
+        private GroupBox PlayersBox;
         private Label AccountIDLabel;
         private TextBox CharNameSearch;
         private TextBox AccountIDSearch;
@@ -697,9 +729,12 @@
         private Button btnFilter;
         private MenuStrip menuStrip1;
         private ToolStripMenuItem tsmDB_Settings;
-        private Label lbl_PrimaryKeyWarning;
         private Label label1;
         private ListBox lb_IgnoredList;
-        private TabPage tabSearch;
+        private TabPage tabPlayerSearch;
+        private ToolStripTextBox tsm_KeyWarning;
+        private ToolStripTextBox tsm_TableDescription;
+        private Label label2;
+        private TextBox TableSearchBox;
     }
 }

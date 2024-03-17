@@ -30,5 +30,83 @@
   &lt;string&gt;skill_passive_tb&lt;/string&gt;
 &lt;/ArrayOfString&gt;</Value>
     </Setting>
+    <Setting Name="TableDescription" Type="System.Collections.Specialized.StringCollection" Scope="Application">
+      <Value Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;ArrayOfString xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"&gt;
+  &lt;string&gt;Table Description: No Description&lt;/string&gt;
+  &lt;string&gt;Table Description: No Description&lt;/string&gt;
+  &lt;string&gt;Table Description: No Description&lt;/string&gt;
+  &lt;string&gt;Table Description: List of Database error codes.&lt;/string&gt;
+  &lt;string&gt;Table Description: List of Achievement IDs.&lt;/string&gt;
+  &lt;string&gt;Table Description: List of Costume IDs.&lt;/string&gt;
+  &lt;string&gt;Table Description: No Description&lt;/string&gt;
+  &lt;string&gt;Table Description: List of Item IDs.&lt;/string&gt;
+  &lt;string&gt;Table Description: List of Quest IDs.&lt;/string&gt;
+  &lt;string&gt;Table Description: List of Skill IDs.&lt;/string&gt;
+  &lt;string&gt;Table Description: List of Stage IDs. (Stage = Map)&lt;/string&gt;
+  &lt;string&gt;Table Description: No Description&lt;/string&gt;
+  &lt;string&gt;Table Description: No Description&lt;/string&gt;
+  &lt;string&gt;Table Description: List of Departments which can be used to quickly identify staff accounts.&lt;/string&gt;
+  &lt;string&gt;Table Description: user_tb for Andriod/IOS accounts.&lt;/string&gt;
+  &lt;string&gt;Table Description: Lists ID Number for Andriod/IOS, used in device_tb to identify account platform.&lt;/string&gt;
+  &lt;string&gt;Table Description: List of Banned accounts.&lt;/string&gt;
+  &lt;string&gt;Table Description: Might be a list of AccountTypes for account_tb. Current admin accounts are ID 2&lt;/string&gt;
+  &lt;string&gt;Table Description: List of Accounts sent from user_tb.&lt;/string&gt;
+  &lt;string&gt;Table Description: List of schemas/database.&lt;/string&gt;
+  &lt;string&gt;Table Description: List of schemas/database types, used by db_tb.&lt;/string&gt;
+  &lt;string&gt;Table Description: List of Database login details.&lt;/string&gt;
+  &lt;string&gt;Table Description: List of Nation UIDs, not sure where this is used yet but most likely in some account database.&lt;/string&gt;
+  &lt;string&gt;Table Description: Patch URL used by Client, Maybe used to verify Client &amp;amp; Server match.&lt;/string&gt;
+  &lt;string&gt;Table Description: No Description&lt;/string&gt;
+  &lt;string&gt;Table Description: List of Device Types, used in account_tb to identify the platform the account uses to play.&lt;/string&gt;
+  &lt;string&gt;Table Description: List of Server UIDs and there corresponding Database type.&lt;/string&gt;
+  &lt;string&gt;Table Description: List of Servers.&lt;/string&gt;
+  &lt;string&gt;Table Description: List of Server types, used by server_tb.&lt;/string&gt;
+  &lt;string&gt;Table Description: List of World Servers.&lt;/string&gt;
+  &lt;string&gt;Table Description: No Description&lt;/string&gt;
+  &lt;string&gt;Table Description: No Description&lt;/string&gt;
+  &lt;string&gt;Table Description: List of Accounts sent from either user_tb or account_tb in Front Database.&lt;/string&gt;
+  &lt;string&gt;Table Description: List of Achievement IDs to be removed from a Character.&lt;/string&gt;
+  &lt;string&gt;Table Description: List of every Achievements obtained by players.&lt;/string&gt;
+  &lt;string&gt;Table Description: List of deleted Characters.&lt;/string&gt;
+  &lt;string&gt;Table Description: List of Characters.&lt;/string&gt;
+  &lt;string&gt;Table Description: List of every Costume obtained by players.&lt;/string&gt;
+  &lt;string&gt;Table Description: List of every Item in game and what character owns said item and where it's being stored.&lt;/string&gt;
+  &lt;string&gt;Table Description: List of every Jewel in game and what character owns said jewel item and where it's being stored.&lt;/string&gt;
+  &lt;string&gt;Table Description: List of every Mastery in game and what character owns said mastery item and where it's being stored.&lt;/string&gt;
+  &lt;string&gt;Table Description: List of every Item in game and what character owns said item.&lt;/string&gt;
+  &lt;string&gt;Table Description: List of every Item that has been deleted.&lt;/string&gt;
+  &lt;string&gt;Table Description: No Description&lt;/string&gt;
+  &lt;string&gt;Table Description: No Description&lt;/string&gt;
+  &lt;string&gt;Table Description: No Description&lt;/string&gt;
+  &lt;string&gt;Table Description: List of each item that can be stacked and the amount said item can be stacked to.&lt;/string&gt;
+  &lt;string&gt;Table Description: No Description&lt;/string&gt;
+  &lt;string&gt;Table Description: List of every Item in game.&lt;/string&gt;
+  &lt;string&gt;Table Description: No Description&lt;/string&gt;
+  &lt;string&gt;Table Description: No Description&lt;/string&gt;
+  &lt;string&gt;Table Description: No Description&lt;/string&gt;
+  &lt;string&gt;Table Description: No Description&lt;/string&gt;
+  &lt;string&gt;Table Description: List of every Mail sent to and from players.&lt;/string&gt;
+  &lt;string&gt;Table Description: No Description&lt;/string&gt;
+  &lt;string&gt;Table Description: No Description&lt;/string&gt;
+  &lt;string&gt;Table Description: No Description&lt;/string&gt;
+  &lt;string&gt;Table Description: No Description&lt;/string&gt;
+  &lt;string&gt;Table Description: No Description&lt;/string&gt;
+  &lt;string&gt;Table Description: No Description&lt;/string&gt;
+  &lt;string&gt;Table Description: No Description&lt;/string&gt;
+  &lt;string&gt;Table Description: No Description&lt;/string&gt;
+  &lt;string&gt;Table Description: No Description&lt;/string&gt;
+  &lt;string&gt;Table Description: No Description&lt;/string&gt;
+  &lt;string&gt;Table Description: No Description&lt;/string&gt;
+  &lt;string&gt;Table Description: No Description&lt;/string&gt;
+  &lt;string&gt;Table Description: No Description&lt;/string&gt;
+  &lt;string&gt;Table Description: No Description&lt;/string&gt;
+  &lt;string&gt;Table Description: No Description&lt;/string&gt;
+  &lt;string&gt;Table Description: Raw list of accounts, used for registration and login/verification. Then sent to account_tb.&lt;/string&gt;
+&lt;/ArrayOfString&gt;</Value>
+    </Setting>
+    <Setting Name="TableDescriptionCount" Type="System.Int32" Scope="Application">
+      <Value Profile="(Default)">70</Value>
+    </Setting>
   </Settings>
 </SettingsFile>
