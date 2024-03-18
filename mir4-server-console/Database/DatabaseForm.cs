@@ -13,12 +13,16 @@ namespace Server_Console.Database
 {
     public partial class DatabaseForm : Form
     {
+        private Dictionary<TabPage, Size> originalTabSizes;
 #nullable enable
         private List<string?> schemaNames = new List<string?>();
         public DatabaseForm()
         {
             InitializeComponent();
+            SetTabSize();
         }
+
+        #region Database Load
         private void DatabaseForm_Load(object sender, EventArgs e)
         {
             //Clear tsm_KeyWarning
@@ -28,7 +32,7 @@ namespace Server_Console.Database
             //Check if the database is configured
             if (!Settings.Default.Configured)
             {
-                //show message box with ok/cancel buttons and a warning icon, if the result is ok, open the database configuration form
+                //Show message box with ok/cancel buttons and a warning icon, if the result is ok, open the database configuration form
                 DialogResult result = MessageBox.Show("Database is not configured. Please configure the database settings.", "Database Configuration", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 if (result == DialogResult.OK)
                 {
@@ -37,13 +41,13 @@ namespace Server_Console.Database
                 }
                 else
                 {
-                    //close the form
+                    //Close the form
                     this.Close();
                 }
             }
             else
             {
-                //load the database data
+                //Load the database data
                 LoadAdminData();
                 LoadDeviceData();
                 LoadFrontData();
@@ -51,6 +55,30 @@ namespace Server_Console.Database
                 LoadUserData();
             }
         }
+        #endregion
+
+        #region Page Resize
+        private void SetTabSize()
+        {
+            originalTabSizes = new Dictionary<TabPage, Size>();
+
+            //Set the size for each Page
+            SetTabPageSize(tabAdmin, 1116, 618);
+            SetTabPageSize(tabDevice, 1116, 618);
+            SetTabPageSize(tabFront, 1116, 618);
+            SetTabPageSize(tabGame, 1116, 618);
+            SetTabPageSize(tabUser, 1116, 618);
+            SetTabPageSize(tabPlayerSearch, 1834, 1063);
+        }
+        private void SetTabPageSize(TabPage tabPage, int width, int height)
+        {
+            // Set size for each page
+            tabPage.Size = new Size(width, height);
+
+            // Add the tab page and its size to the dictionary
+            originalTabSizes.Add(tabPage, tabPage.Size);
+        }
+        #endregion
 
         #region Main Load
         private void LoadDatabaseData(string databaseName, TreeView treeView, string tabName)
@@ -133,7 +161,7 @@ namespace Server_Console.Database
             }
             #endregion
 
-            #region Table Descriptions
+        #region Table Descriptions
             if (Settings.Default.TableDescription.Count == Settings.Default.TableDescriptionCount)
             {
                 if (e.Node != null && e.Node.Text == "_spschema_tb")
@@ -421,8 +449,8 @@ namespace Server_Console.Database
             {
                 MessageBox.Show("No Table Description can be found!", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
-            #endregion
         }
+            #endregion   
 
         #region Admin
         private void LoadAdminData()
@@ -489,6 +517,7 @@ namespace Server_Console.Database
         }
         #endregion
 
+        #region DB Tabs Changed Index
         private void DatabaseTabs_SelectedIndexChanged(object sender, EventArgs e)
         {
             LoadAdminData();
@@ -496,7 +525,17 @@ namespace Server_Console.Database
             LoadFrontData();
             LoadGameData();
             LoadUserData();
+
+
+            // Get the selected tab page
+            TabPage selectedTabPage = DatabaseTabs.SelectedTab;
+
+            // Resize the form based on the size of the selected tab page
+            this.Size = new Size(originalTabSizes[selectedTabPage].Width + this.Padding.Horizontal,
+                                 originalTabSizes[selectedTabPage].Height + this.Padding.Vertical);
+
         }
+        #endregion
 
         #region Update Data
 
@@ -834,6 +873,5 @@ namespace Server_Console.Database
             dbConfig.ShowDialog();
         }
         #endregion
-
-        }
     }
+}
