@@ -112,6 +112,7 @@
             tsm_KeyWarning = new ToolStripTextBox();
             tsm_TableDescription = new ToolStripTextBox();
             TableSearchBox = new TextBox();
+            TableSearchButton = new Button();
             DatabaseTabs.SuspendLayout();
             tabAdmin.SuspendLayout();
             tableLayoutPanel2.SuspendLayout();
@@ -243,7 +244,7 @@
             tabDevice.Location = new Point(4, 24);
             tabDevice.Name = "tabDevice";
             tabDevice.Padding = new Padding(3);
-            tabDevice.Size = new Size(1611, 966);
+            tabDevice.Size = new Size(970, 521);
             tabDevice.TabIndex = 2;
             tabDevice.Text = "Device";
             tabDevice.UseVisualStyleBackColor = true;
@@ -260,7 +261,7 @@
             tableLayoutPanel4.Name = "tableLayoutPanel4";
             tableLayoutPanel4.RowCount = 1;
             tableLayoutPanel4.RowStyles.Add(new RowStyle(SizeType.Percent, 100F));
-            tableLayoutPanel4.Size = new Size(1605, 960);
+            tableLayoutPanel4.Size = new Size(964, 515);
             tableLayoutPanel4.TabIndex = 3;
             // 
             // DeviceTree
@@ -269,7 +270,7 @@
             DeviceTree.FullRowSelect = true;
             DeviceTree.Location = new Point(3, 3);
             DeviceTree.Name = "DeviceTree";
-            DeviceTree.Size = new Size(272, 954);
+            DeviceTree.Size = new Size(161, 509);
             DeviceTree.TabIndex = 0;
             DeviceTree.AfterSelect += DeviceTree_AfterSelect;
             DeviceTree.NodeMouseClick += DeviceTree_NodeMouseClick;
@@ -280,9 +281,9 @@
             DeviceData.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             DeviceData.Dock = DockStyle.Fill;
             DeviceData.GridColor = Color.Black;
-            DeviceData.Location = new Point(281, 3);
+            DeviceData.Location = new Point(170, 3);
             DeviceData.Name = "DeviceData";
-            DeviceData.Size = new Size(1321, 954);
+            DeviceData.Size = new Size(791, 509);
             DeviceData.TabIndex = 1;
             DeviceData.CellEndEdit += DeviceData_CellEndEdit;
             DeviceData.CellLeave += DeviceData_CellLeave;
@@ -292,7 +293,7 @@
             tabFront.Controls.Add(tableLayoutPanel5);
             tabFront.Location = new Point(4, 24);
             tabFront.Name = "tabFront";
-            tabFront.Size = new Size(1611, 966);
+            tabFront.Size = new Size(970, 521);
             tabFront.TabIndex = 3;
             tabFront.Text = "Front";
             tabFront.UseVisualStyleBackColor = true;
@@ -309,7 +310,7 @@
             tableLayoutPanel5.Name = "tableLayoutPanel5";
             tableLayoutPanel5.RowCount = 1;
             tableLayoutPanel5.RowStyles.Add(new RowStyle(SizeType.Percent, 100F));
-            tableLayoutPanel5.Size = new Size(1611, 966);
+            tableLayoutPanel5.Size = new Size(970, 521);
             tableLayoutPanel5.TabIndex = 3;
             // 
             // FrontTree
@@ -318,7 +319,7 @@
             FrontTree.FullRowSelect = true;
             FrontTree.Location = new Point(3, 3);
             FrontTree.Name = "FrontTree";
-            FrontTree.Size = new Size(273, 960);
+            FrontTree.Size = new Size(162, 515);
             FrontTree.TabIndex = 0;
             FrontTree.NodeMouseClick += FrontTree_NodeMouseClick;
             // 
@@ -328,9 +329,9 @@
             FrontData.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             FrontData.Dock = DockStyle.Fill;
             FrontData.GridColor = Color.Black;
-            FrontData.Location = new Point(282, 3);
+            FrontData.Location = new Point(171, 3);
             FrontData.Name = "FrontData";
-            FrontData.Size = new Size(1326, 960);
+            FrontData.Size = new Size(796, 515);
             FrontData.TabIndex = 1;
             FrontData.CellEndEdit += FrontData_CellEndEdit;
             FrontData.CellLeave += FrontData_CellLeave;
@@ -340,7 +341,7 @@
             tabGame.Controls.Add(tableLayoutPanel6);
             tabGame.Location = new Point(4, 24);
             tabGame.Name = "tabGame";
-            tabGame.Size = new Size(1611, 966);
+            tabGame.Size = new Size(970, 521);
             tabGame.TabIndex = 4;
             tabGame.Text = "Game";
             tabGame.UseVisualStyleBackColor = true;
@@ -357,7 +358,7 @@
             tableLayoutPanel6.Name = "tableLayoutPanel6";
             tableLayoutPanel6.RowCount = 1;
             tableLayoutPanel6.RowStyles.Add(new RowStyle(SizeType.Percent, 100F));
-            tableLayoutPanel6.Size = new Size(1611, 966);
+            tableLayoutPanel6.Size = new Size(970, 521);
             tableLayoutPanel6.TabIndex = 3;
             // 
             // GameTree
@@ -366,7 +367,7 @@
             GameTree.FullRowSelect = true;
             GameTree.Location = new Point(3, 3);
             GameTree.Name = "GameTree";
-            GameTree.Size = new Size(273, 960);
+            GameTree.Size = new Size(162, 515);
             GameTree.TabIndex = 0;
             GameTree.NodeMouseClick += GameTree_NodeMouseClick;
             // 
@@ -376,9 +377,9 @@
             GameData.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             GameData.Dock = DockStyle.Fill;
             GameData.GridColor = Color.Black;
-            GameData.Location = new Point(282, 3);
+            GameData.Location = new Point(171, 3);
             GameData.Name = "GameData";
-            GameData.Size = new Size(1326, 960);
+            GameData.Size = new Size(796, 515);
             GameData.TabIndex = 1;
             GameData.CellEndEdit += GameData_CellEndEdit;
             GameData.CellLeave += GameData_CellLeave;
@@ -388,7 +389,7 @@
             tabUser.Controls.Add(tableLayoutPanel8);
             tabUser.Location = new Point(4, 24);
             tabUser.Name = "tabUser";
-            tabUser.Size = new Size(1611, 966);
+            tabUser.Size = new Size(970, 521);
             tabUser.TabIndex = 5;
             tabUser.Text = "User";
             tabUser.UseVisualStyleBackColor = true;
@@ -405,7 +406,7 @@
             tableLayoutPanel8.Name = "tableLayoutPanel8";
             tableLayoutPanel8.RowCount = 1;
             tableLayoutPanel8.RowStyles.Add(new RowStyle(SizeType.Percent, 100F));
-            tableLayoutPanel8.Size = new Size(1611, 966);
+            tableLayoutPanel8.Size = new Size(970, 521);
             tableLayoutPanel8.TabIndex = 3;
             // 
             // UserTree
@@ -414,7 +415,7 @@
             UserTree.FullRowSelect = true;
             UserTree.Location = new Point(3, 3);
             UserTree.Name = "UserTree";
-            UserTree.Size = new Size(273, 960);
+            UserTree.Size = new Size(162, 515);
             UserTree.TabIndex = 0;
             UserTree.NodeMouseClick += UserTree_NodeMouseClick;
             // 
@@ -424,9 +425,9 @@
             UserData.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             UserData.Dock = DockStyle.Fill;
             UserData.GridColor = Color.Black;
-            UserData.Location = new Point(282, 3);
+            UserData.Location = new Point(171, 3);
             UserData.Name = "UserData";
-            UserData.Size = new Size(1326, 960);
+            UserData.Size = new Size(796, 515);
             UserData.TabIndex = 1;
             UserData.CellEndEdit += UserData_CellEndEdit;
             UserData.CellLeave += UserData_CellLeave;
@@ -446,7 +447,7 @@
             tabPlayerSearch.Controls.Add(PlayersBox);
             tabPlayerSearch.Location = new Point(4, 24);
             tabPlayerSearch.Name = "tabPlayerSearch";
-            tabPlayerSearch.Size = new Size(1611, 966);
+            tabPlayerSearch.Size = new Size(970, 521);
             tabPlayerSearch.TabIndex = 6;
             tabPlayerSearch.Text = "Player Search";
             tabPlayerSearch.UseVisualStyleBackColor = true;
@@ -942,7 +943,6 @@
             // 
             treeView1.Dock = DockStyle.Fill;
             treeView1.FullRowSelect = true;
-            treeView1.LineColor = Color.Empty;
             treeView1.Location = new Point(3, 3);
             treeView1.Name = "treeView1";
             treeView1.Size = new Size(28, 630);
@@ -976,7 +976,6 @@
             // 
             treeView5.Dock = DockStyle.Fill;
             treeView5.FullRowSelect = true;
-            treeView5.LineColor = Color.Empty;
             treeView5.Location = new Point(3, 3);
             treeView5.Name = "treeView5";
             treeView5.Size = new Size(28, 630);
@@ -1048,11 +1047,22 @@
             TableSearchBox.Size = new Size(102, 23);
             TableSearchBox.TabIndex = 5;
             // 
+            // TableSearchButton
+            // 
+            TableSearchButton.Location = new Point(25, 83);
+            TableSearchButton.Name = "TableSearchButton";
+            TableSearchButton.Size = new Size(72, 21);
+            TableSearchButton.TabIndex = 6;
+            TableSearchButton.Text = "Search";
+            TableSearchButton.UseVisualStyleBackColor = true;
+            TableSearchButton.Click += TableSearchButton_Click;
+            // 
             // DatabaseForm
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(1100, 579);
+            Controls.Add(TableSearchButton);
             Controls.Add(TableSearchBox);
             Controls.Add(tableLayoutPanel1);
             Controls.Add(menuStrip1);
@@ -1212,5 +1222,6 @@
         private GroupBox SkillBox;
         private DataGridView SkillPassiveTable;
         private DataGridView SkillActiveTable;
+        private Button TableSearchButton;
     }
 }

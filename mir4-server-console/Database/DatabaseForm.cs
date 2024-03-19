@@ -5,6 +5,7 @@ using System.Collections.Generic;
 using System.Data;
 using System.Data.SqlClient;
 using System.Diagnostics;
+using System.Diagnostics.Eventing.Reader;
 using System.IO;
 using System.Text;
 using System.Windows.Forms;
@@ -161,7 +162,7 @@ namespace Server_Console.Database
             }
             #endregion
 
-        #region Table Descriptions
+            #region Table Descriptions
             if (Settings.Default.TableDescription.Count == Settings.Default.TableDescriptionCount)
             {
                 if (e.Node != null && e.Node.Text == "_spschema_tb")
@@ -450,7 +451,7 @@ namespace Server_Console.Database
                 MessageBox.Show("No Table Description can be found!", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
-            #endregion   
+        #endregion
 
         #region Admin
         private void LoadAdminData()
@@ -872,6 +873,56 @@ namespace Server_Console.Database
             DatabaseConfiguration dbConfig = new DatabaseConfiguration();
             dbConfig.ShowDialog();
         }
+        #endregion
+
+        #region Table Search //Only admin tree for now. May need to branch the search function to use selected index changed.
+        private void TableSearchButton_Click(object sender, EventArgs e)
+        {
+        //    string searchText = TableSearchBox.Text.Trim();
+
+        //    if (!string.IsNullOrEmpty(searchText))
+        //    {
+        //        SearchInAdminTree(searchText);
+        //    }
+        //    else
+        //    {
+        //        MessageBox.Show("Please add a search term.", "Empty Search," , MessageBoxButtons.OK, MessageBoxIcon.Information);
+        //    }
+        }
+        //private void SearchInAdminTree(string searchText)
+        //{
+        //    TreeNode node = FindNodeByText(AdminTree.Nodes, searchText);
+
+        //    if (node != null)
+        //    {
+        //        AdminTree.SelectedNode = node;
+        //        AdminTree.Focus();
+        //        MessageBox.Show($"Found '{searchText}' in AdminTree.", "Search Result", MessageBoxButtons.OK, MessageBoxIcon.Information);
+        //    }
+        //    else
+        //    {
+        //        MessageBox.Show($"'{searchText}' not found in AdminTree.", "Search Result", MessageBoxButtons.OK, MessageBoxIcon.Information);
+        //    }
+        //}
+
+        //private TreeNode FindNodeByText(TreeNodeCollection nodes, string searchText)
+        //{
+        //    foreach (TreeNode node in nodes)
+        //    {
+        //        if (node.Text.Equals(searchText, StringComparison.OrdinalIgnoreCase))
+        //        {
+        //            return node;
+        //        }
+
+        //        TreeNode foundNode = FindNodeByText(node.Nodes, searchText);
+        //        if (foundNode != null)
+        //        {
+        //            return foundNode;
+        //        }
+        //    }
+        //        return null;
+        //    }
+        //}
         #endregion
     }
 }
