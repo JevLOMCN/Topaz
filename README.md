@@ -10,7 +10,7 @@
 
 # Links:
 
-[Website](https://thelegendofmir.uk) // [Discord](https://discord.gg/rrrzFM3W)
+[Website](https://thelegendofmir.uk) // [Discord](https://discord.gg/Mir4)
 
 # Downloads:
 [Client](https://mirfiles.com/resources/mir2/users/Jev/Mir%204/Mir%204%20Client.rar) // [Exported Clients](https://mirfiles.com/resources/mir2/users/Jev/Mir%204/Exports/) // [Other Clients](https://mirfiles.com/resources/mir2/users/Jev/Mir%204/Other%20Clients/)
