@@ -31,3 +31,13 @@
 [Treffy](https://www.mir4tools.com/) - Mir4Tools Collab
 
 [Community Contributors](https://github.com/JevLOMCN/mir4-launcher/graphs/contributors)
+
+# Other Projects:
+
+[Mir 1](https://github.com/JevLOMCN/mir1/) // [Database](https://github.com/Suprcode/Carbon.Database)
+
+[Mir 2](https://github.com/Suprcode/Crystal) // [Database](https://github.com/Suprcode/Crystal.Database) // [Map Editor](https://github.com/Suprcode/Crystal.MapEditor)
+
+[Mir 3](https://github.com/Suprcode/Zircon)
+
+[Mir 3D](https://github.com/mir-ethernity/mir-eternal)
