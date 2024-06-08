@@ -183,7 +183,7 @@
                       <div class="storyMain vc">
                         <div class="infoWrap">
                           <div class="mt no1">
-                            <div class="tit01">Alpha Teaser Trailer</div>
+                            <div class="tit01">Beta Teaser Trailer</div>
                             <div class="tit02">AVA</div>
                           </div>
                           <div class="mt no2">
@@ -195,7 +195,7 @@
                               <div class="btnPlay" onclick="mir.youtubeOpen('R2-5YpFn_vQ')">Video Pop-up</div>
                             </div>
                             <div class="tit03">
-                              <p><span><a href="https://thelegendofmir.uk/register" target="_blank">Alpha Pre-Registration Now Open!</a></span></p>
+                              <p><span><a href="https://thelegendofmir.uk/register" target="_blank">Beta Pre-Registration Now Open!</a></span></p>
                               <p>Power beyond <span>growth</span>. War beyond <span>battle</span>.<br><span>MIR4, the definitive MMORPG.</span></p>
                             </div>
                           </div>
