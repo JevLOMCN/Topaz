@@ -35,7 +35,7 @@
     <img src="static/image/windows.png" alt="Download Client Image">
     <p>Download the client:</p>
     <ul>
-        <li><a href="">Latest</a></li>
+        <li><a href="comingsoon">Latest</a></li>
     </ul>
 </div>
 

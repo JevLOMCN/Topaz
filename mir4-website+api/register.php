@@ -309,14 +309,14 @@ if (isset($_POST['h-captcha-response']) && !empty($_POST['h-captcha-response']))
                             </li>
 
                             <li data-menuanchor="story">
-                                <p><a href=""><span>Help Center</span></a></p>
+                                <p><a href="comingsoon"><span>Help Center</span></a></p>
                                 <ul class="subGnb">
-                                    <li><a href="faq" target="_blank">FAQ</a></li>
+                                    <li><a href="comingsoon" target="_blank">FAQ</a></li>
                                     <li><a href="install" target="_blank">How to Install</a></li>
                                 </ul>
                             </li>
                             <li>
-                                <p><a href="" target="_blank">MirTracks</a></p>
+                                <p><a href="comingsoon" target="_blank">MirTracks</a></p>
                             </li>
                             <li class="new active">
                                 <p><a href="login"><span>Login/Register<span></a></p>

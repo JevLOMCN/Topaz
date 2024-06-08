@@ -133,15 +133,15 @@
               <li data-menuanchor="story">
                 <p><a href=""><span>Help Center</span></a></p>
                 <ul class="subGnb">
-                  <li><a href="faq" target="_blank">FAQ</a></li>
+                  <li><a href="comingsoon" target="_blank">FAQ</a></li>
                   <li><a href="install" target="_blank">How to Install</a></li>
                 </ul>
               </li>
 			  <li>
                 <p><a href=""><span>Tools<span></a></p>
                 <ul class="subGnb">
-                  <li><a href="ranking" target="_blank">Rankings</a></li>
-                  <li><a href="ranking" target="_blank">MirTracks</a></li>
+                  <li><a href="comingsoon" target="_blank">Rankings</a></li>
+                  <li><a href="comingsoon" target="_blank">MirTracks</a></li>
               </li>
               </ul>
               <li>
