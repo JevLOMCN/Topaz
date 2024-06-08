@@ -1,4 +1,4 @@
-# Legend of Mir 4 Client Launcher & Server Console
+# Legend of Mir 4 Client Launcher / Server Console / Client Editor / Website+API
 
 ![image](https://github.com/JevLOMCN/mir4-launcher/assets/68875342/42eb3453-f414-4b89-a62e-7ce1ea459796)
 
@@ -6,7 +6,7 @@
 
 # Github:
 
-[Mir 4 Source](https://github.com/JevLOMCN/mir4) // [Mir 4 Client Editor](https://github.com/JevLOMCN/Mir-4-Client-Editor)
+[Mir 4 Source](https://github.com/JevLOMCN/mir4)
 
 # Links:
 
@@ -14,8 +14,6 @@
 
 # Downloads:
 [Client](https://mirfiles.com/resources/mir2/users/Jev/Mir%204/Mir%204%20Client.rar)
-
-# Team:
 
 # Contributors:
 [Nyyl](https://www.lomcn.net/forum/members/nyylxd.42262/) - Sourcing Clients/APIs/Tools
