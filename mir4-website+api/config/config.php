@@ -1,8 +1,8 @@
 <?php
 $host = '127.0.0.1'; // The host of your database
-$db = 'eqspifzk_mm_user_db'; // The name of your database
-$user = 'eqspifzk_localhost'; // The database user
-$pass = 'fc*SZb6QJ8mzfBSS#GG^'; // The password of the database user
+$db = 'mm_user_db'; // The name of your database
+$user = 'root'; // The database user
+$pass = ''; // The password of the database user
 $charset = 'utf8mb4'; // The charset you wish to use
 
 $dsn = "mysql:host=$host;dbname=$db;charset=$charset";

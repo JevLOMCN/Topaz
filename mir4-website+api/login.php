@@ -12,7 +12,7 @@
                         <img src="static/image/h1_logo_n.png" style="vertical-align:middle; border-style:none; box-sizing:border-box;" />
                     </a>
                     <div style="box-sizing:border-box;">
-                        <button type="button" style="font-size: 15px; font-weight: 400; color:rgb(255, 255, 255); background-color:rgb(93, 156, 236); border-color:rgb(93, 156, 236); display:inline-block; line-height:15px; white-space:nowrap; cursor:pointer; background:rgb(93, 156, 236) none repeat scroll 0% 0% / auto padding-box border-box; border:1px solid rgb(93, 156, 236); appearance:none; text-align:center; box-sizing:border-box; outline:rgb(255, 255, 255) none 0px; margin:0px; transition:all 0.1s ease 0s; user-select:none; padding:12px 20px; border-radius:4px; text-transform:none; overflow:visible; font-family:'Source Sans Pro', sans-serif;" onclick="location.href='register';">
+                        <button type="button" style="font-size: 15px; font-weight: 400; color:rgb(255, 255, 255); background-color:rgb(93, 156, 236); border-color:rgb(93, 156, 236); display:inline-block; line-height:15px; white-space:nowrap; cursor:pointer; background:rgb(93, 156, 236) none repeat scroll 0% 0% / auto padding-box border-box; border:1px solid rgb(93, 156, 236); appearance:none; text-align:center; box-sizing:border-box; outline:rgb(255, 255, 255) none 0px; margin:0px; transition:all 0.1s ease 0s; user-select:none; padding:12px 20px; border-radius:4px; text-transform:none; overflow:visible; font-family:'Source Sans Pro', sans-serif;" onclick="location.href='register.php';">
                             <!---->
                             <!----><span style="box-sizing:border-box;">Create Account</span>
                         </button>

@@ -58,7 +58,7 @@
     </div>
     <h2>An error has occurred!</h2>
     <p>Sorry, an error occurred during registration. Please try again later.</p>
-    <p><a href="index.php">Return to home page</a></p>
+    <p><a href="/">Return to home page</a></p>
 </div>
 </body>
 </html>

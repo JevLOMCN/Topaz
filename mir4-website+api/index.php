@@ -140,15 +140,15 @@
 			  <li>
                 <p><a href=""><span>Tools<span></a></p>
                 <ul class="subGnb">
-                  <li><a href="comingsoon" target="_blank">Rankings</a></li>
+                  <li><a href="ranking.php" target="_blank">Rankings</a></li>
                   <li><a href="comingsoon" target="_blank">MirTracks</a></li>
               </li>
               </ul>
               <li>
-                <p><a href="login"><span>Login/Register<span></a></p>
+                <p><a href="login.php"><span>Login/Register<span></a></p>
                 <ul class="subGnb">
-                  <li><a href="login" target="_blank">Login</a></li>
-                  <li><a href="register" target="_blank">Register</a></li>
+                  <li><a href="login.php" target="_blank">Login</a></li>
+                  <li><a href="register.php" target="_blank">Register</a></li>
               </li>
             </ul>
           </div>
@@ -1020,7 +1020,7 @@
   </div>
   <!-- //youtubePop -->
 
-  <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
+  <script data-cfasync="false" src="/static/js/email-decode.min.js"></script>
 </body>
 
 <script type="text/javascript" src="static/js/jquery-1.11.3.min.js"></script>

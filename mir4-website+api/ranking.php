@@ -138,7 +138,7 @@ $rankingData = getRanking($selectedRanking, $selectedLimit);
 <body>
 <div class="container">
     <div class="header">
-        <img src="https://cdn.discordapp.com/attachments/1211804391976472587/1227940641162530836/Logo_Nexus.png?ex=663224d6&is=6630d356&hm=e760ecf50ace4435b3bdf87322931e17836f1b5a44f41f97df481ff2d03170d5&" alt="Ava MIR4" class="logo">
+        <img src="/static/img/Logo.png" alt="Ava MIR4" class="logo">
     </div>
     <div class="language-selector">
         <a href="?lang=en">English</a> |

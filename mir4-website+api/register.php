@@ -319,10 +319,10 @@ if (isset($_POST['h-captcha-response']) && !empty($_POST['h-captcha-response']))
                                 <p><a href="comingsoon" target="_blank">MirTracks</a></p>
                             </li>
                             <li class="new active">
-                                <p><a href="login"><span>Login/Register<span></a></p>
+                                <p><a href="login.php"><span>Login/Register<span></a></p>
                                 <ul class="subGnb">
-                                    <li><a href="login" target="_blank">Login</a></li>
-                                    <li><a href="register" target="_blank">Register</a></li>
+                                    <li><a href="login.php" target="_blank">Login</a></li>
+                                    <li><a href="register.php" target="_blank">Register</a></li>
                             </li>
                         </ul>
                     </div>

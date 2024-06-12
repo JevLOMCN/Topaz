@@ -58,7 +58,7 @@
     </div>
     <h2>Registration Completed Successfully!</h2>
     <p>Your registration has been completed successfully.</p>
-    <p><a href="index.html">Return to home page</a></p>
+    <p><a href="/">Return to home page</a></p>
 </div>
 </body>
 </html>
