@@ -140,15 +140,15 @@
 			  <li>
                 <p><a href=""><span>Tools<span></a></p>
                 <ul class="subGnb">
-                  <li><a href="ranking.php" target="_blank">Rankings</a></li>
+                  <li><a href="ranking" target="_blank">Rankings</a></li>
                   <li><a href="comingsoon" target="_blank">MirTracks</a></li>
               </li>
               </ul>
               <li>
-                <p><a href="login.php"><span>Login/Register<span></a></p>
+                <p><a href="login"><span>Account<span></a></p>
                 <ul class="subGnb">
-                  <li><a href="login.php" target="_blank">Login</a></li>
-                  <li><a href="register.php" target="_blank">Register</a></li>
+                  <li><a href="login" target="_blank">Login</a></li>
+                  <li><a href="register" target="_blank">Register</a></li>
               </li>
             </ul>
           </div>
@@ -925,7 +925,7 @@
                       </ul>
                       <ul class="footer_info">
                         <li>E-mail: <span>admin@thelegendofmir.uk</span></li>
-                        <li><a href="tos.html" target="_blank">Terms of Use</a></li>
+                        <li><a href="tos" target="_blank">Terms of Use</a></li>
                       </ul>
                       <p class="copyright">ⓒ AVA. All rights reserved.</p>
                     </div>
