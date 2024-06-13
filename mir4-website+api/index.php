@@ -105,7 +105,7 @@
       <div class="in">
 
         <!-- h1 -->
-        <h1><a href="https://thelegendofmir.uk">From my battle, to our war. MIR4: AVA</a></h1>
+        <h1><a href="/">From my battle, to our war. MIR4: AVA</a></h1>
         <!-- //h1 -->
 
         <!-- @start Modified 1121  -->
