@@ -107,51 +107,44 @@
         <!-- h1 -->
         <h1><a href="/">From my battle, to our war. MIR4: AVA</a></h1>
         <!-- //h1 -->
-
-        <!-- @start Modified 1121  -->
-
         <!-- rightSide -->
         <div class="rightSide">
           <!-- navList -->
           <div class="navList">
             <ul class="clear gnb">
+              <li class="new" data-menuanchor="story">
+                  <p><a href="/"><span>Home</span></a></p>
+              </li>
+
               <li class="new" data-menuanchor="part2">
-                <p><a href="https://discord.gg/KCnHvwJJWN"><span>Community</span></a></p>
+                <p><a href="https://discord.gg/KCnHvwJJWN" target="_blank"><span>Community</span></a></p>
                 <ul class="subGnb">
-                  <li><a href="https://discord.gg/KCnHvwJJWN">News</a></li>
+                  <li><a href="https://discord.gg/KCnHvwJJWN" target="_blank">News</a></li>
                 </ul>
               </li>
 
-              <li data-menuanchor="story">
+              <li data-menuanchor="part2">
                 <p><a href=""><span>Help Center</span></a></p>
                 <ul class="subGnb">
-                  <li><a href="comingsoon" target="_blank">FAQ</a></li>
+                  <!-- <li><a href="comingsoon" target="_blank">FAQ</a></li> -->
                   <li><a href="install" target="_blank">How to Install</a></li>
                 </ul>
               </li>
-              <li class="new active">
+              <li class="new" data-menuanchor="part2">
                 <p><a href="rankings"><span>Ranking<span></a></p>
               </li>
-			        <li>
-                <p><a href=""><span>Tools<span></a></p>
-                <ul class="subGnb">
-                  <li><a href="comingsoon" target="_blank">MirTracks</a></li>
-              </li>
-              </ul>
               <li>
                 <p><a href="ucp"><span>Account<span></a></p>
                 <ul class="subGnb">
-                  <li><a href="login" target="_blank">Login</a></li>
-                  <li><a href="register" target="_blank">Register</a></li>
+                  <li><a href="login" target="_self">Login</a></li>
+                  <li><a href="register" target="_self">Register</a></li>
+                </ul>
               </li>
             </ul>
           </div>
           <!-- //navList -->
         </div>
         <!-- //rightSide -->
-
-        <!-- @end Modified 1121  -->
-
       </div>
     </div>
     <!-- //header -->

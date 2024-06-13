@@ -279,61 +279,48 @@ if (isset($_POST['h-captcha-response']) && !empty($_POST['h-captcha-response']))
 
         <!-- header -->
         <div class="head">
-
-            <div class="in">
-
-                <!-- h1 -->
-                <h1><a href="index.php">From my battle, to our war. MIR4: AVA</a></h1>
-                <p class="description" style="visibility: hidden;line-height: 0;font-size: 0;">
-                    The story of 500 million people around the world unraveling the mysteries of the East</p>
-                <!-- //h1 -->
-
-                <!-- @start Modified 1121  -->
-
-                <!-- rightSide -->
-                <div class="rightSide">
+        <div class="in">
+                    <!-- h1 -->
+                    <h1><a href="/">From my battle, to our war. MIR4: AVA</a></h1>
+                    <!-- //h1 -->
+                    <!-- rightSide -->
+                    <div class="rightSide">
                     <!-- navList -->
                     <div class="navList">
-                        <!-- <a href="./#part2" class="nav_aside">Arbalist Pre-registration</a> -->
                         <ul class="clear gnb">
-                            <!-- <li class="active"><p><a href="##">Current Menu</a></p></li> -->
-                            <!-- <li class="new"><p><a href="##">New Menu</a></p></li> -->
-                            <!-- <li data-menuanchor="part1"> -->
-                            <!-- <p><a href="./#part1">Main</a></p> -->
-                            <!-- </li> -->
-                            <li data-menuanchor="part2">
-                                <p><a href="https://discord.gg/KCnHvwJJWN"><span>Community</span></a></p>
-                                <ul class="subGnb">
-                                    <li><a href="https://discord.gg/KCnHvwJJWN">News</a></li>
-                                </ul>
-                            </li>
+                        <li class="new" data-menuanchor="story">
+                            <p><a href="/"><span>Home</span></a></p>
+                        </li>
 
-                            <li data-menuanchor="story">
-                                <p><a href="comingsoon"><span>Help Center</span></a></p>
-                                <ul class="subGnb">
-                                    <li><a href="comingsoon" target="_blank">FAQ</a></li>
-                                    <li><a href="install" target="_blank">How to Install</a></li>
-                                </ul>
-                            </li>
-                            <li>
-                                <p><a href="comingsoon" target="_blank">MirTracks</a></p>
-                            </li>
-                            <li class="new active">
-                                <p><a href="login.php"><span>Account<span></a></p>
-                                <ul class="subGnb">
-                                    <li><a href="login.php" target="_blank">Login</a></li>
-                            </li>
+                        <li class="new" data-menuanchor="part2">
+                            <p><a href="https://discord.gg/KCnHvwJJWN" target="_blank"><span>Community</span></a></p>
+                            <ul class="subGnb">
+                            <li><a href="https://discord.gg/KCnHvwJJWN" target="_blank">News</a></li>
+                            </ul>
+                        </li>
+
+                        <li data-menuanchor="part2">
+                            <p><a href=""><span>Help Center</span></a></p>
+                            <ul class="subGnb">
+                            <!-- <li><a href="comingsoon" target="_blank">FAQ</a></li> -->
+                            <li><a href="install" target="_blank">How to Install</a></li>
+                            </ul>
+                        </li>
+                        <li class="new" data-menuanchor="part2">
+                            <p><a href="rankings"><span>Ranking<span></a></p>
+                        </li>
+                        <li class="new active">
+                            <p><a href="ucp"><span>Account<span></a></p>
+                            <ul class="subGnb">
+                            <li><a href="login" target="_self">Login</a></li>
+                            </ul>
+                        </li>
                         </ul>
                     </div>
-
                     <!-- //navList -->
-
-                </div>
-                <!-- //rightSide -->
-
-                <!-- @end Modified 1121  -->
-
-            </div>
+                    </div>
+                    <!-- //rightSide -->
+                </div>   
         </div><!--<canvas id="noise"></canvas>-->
         <div class="background-image">
             <img src="static/image/mir4_background.png" alt="background">
