@@ -1,46 +1,33 @@
 <?php
-session_start(); // Deve ser a primeira linha
+include 'db.php';
+$translations = include 'translations.php';
 
-// Inclui o arquivo de configuração
-require_once 'config/config.php';
-
-// Check if the form is submitted
-if (isset($_POST['submit'])) {
-    // Assigning posted values to variables.
-    $username = $_POST['username'];
-    $password = $_POST['password'];
-
-    // Hash da senha usando SHA-256
-    $hashed_password = strtoupper(hash('sha256', $password));
-
-    try {
-        $stmt = $pdo->prepare("SELECT * FROM user_tb WHERE Username = :username and PasswordHash = :hashed_password");
-        $stmt->execute(['username' => $username, 'hashed_password' => $hashed_password]);
-        $user = $stmt->fetch();
-
-        if ($user) {
-            $_SESSION['loggedin'] = true;
-            $_SESSION['username'] = $username;
-
-            header("Location: ucp");
-            exit();
-        }else{
-            $error = 'Incorrect username or password.';
-        } 
-    } catch (Exception $e) {
-        // Armazena a mensagem de erro na sessão
-        $_SESSION['error'] = "There was an error signing. Please try again in a few moments.";
-        header("Location: login");
-        exit();
-    }
+if (isset($_GET['lang']) && array_key_exists($_GET['lang'], $translations)) {
+    $_SESSION['lang'] = $_GET['lang'];
 }
 
+$lang = $_SESSION['lang'] ?? substr($_SERVER['HTTP_ACCEPT_LANGUAGE'], 0, 2);
+$lang = array_key_exists($lang, $translations) ? $lang : 'en';
+$current_translations = $translations[$lang];
+
+function getRanking($column, $limit) {
+    global $pdo;
+    $stmt = $pdo->prepare("SELECT CharacterName, $column FROM character_tb ORDER BY $column DESC LIMIT :limit");
+    $stmt->bindValue(':limit', $limit, PDO::PARAM_INT);
+    $stmt->execute();
+    return $stmt->fetchAll(PDO::FETCH_ASSOC);
+}
+
+$selectedRanking = isset($_POST['rankingType']) ? $_POST['rankingType'] : 'Lev';
+$selectedLimit = isset($_POST['rankingLimit']) ? (int)$_POST['rankingLimit'] : 10;
+$rankingData = getRanking($selectedRanking, $selectedLimit);
 ?>
+
 <!DOCTYPE HTML>
-<html lang="en">
+<html lang="<?php echo $lang; ?>">
 
 <head>
-    <title>AVA MIR4</title>
+<title><?php echo $current_translations['title']; ?></title>
 
     <!-- Google Tag Manager -->
     <script>
@@ -306,47 +293,54 @@ if (isset($_POST['submit'])) {
             <div class="in">
 
                 <!-- h1 -->
-                <h1><a href="/">From my battle, to our war. MIR4: AVA</a></h1>
+                <h1><a href="index.php">From my battle, to our war. MIR4: AVA</a></h1>
                 <p class="description" style="visibility: hidden;line-height: 0;font-size: 0;">
                     The story of 500 million people around the world unraveling the mysteries of the East</p>
                 <!-- //h1 -->
 
                 <!-- @start Modified 1121  -->
 
-                <!-- rightSide -->
-                <div class="rightSide">
-                    <!-- navList -->
-                    <div class="navList">
-                        <ul class="clear gnb">
-                            <li data-menuanchor="part2">
-                                <p><a href="https://discord.gg/KCnHvwJJWN"><span>Community</span></a></p>
-                                <ul class="subGnb">
-                                    <li><a href="https://discord.gg/KCnHvwJJWN">News</a></li>
-                                </ul>
-                            </li>
+        <!-- rightSide -->
+        <div class="rightSide">
+          <!-- navList -->
+          <div class="navList">
+            <ul class="clear gnb">
+              <li class="new" data-menuanchor="part2">
+                <p><a href="https://discord.gg/KCnHvwJJWN"><span>Community</span></a></p>
+                <ul class="subGnb">
+                  <li><a href="https://discord.gg/KCnHvwJJWN">News</a></li>
+                </ul>
+              </li>
 
-                            <li data-menuanchor="story">
-                                <p><a href="comingsoon"><span>Help Center</span></a></p>
-                                <ul class="subGnb">
-                                    <li><a href="comingsoon" target="_blank">FAQ</a></li>
-                                    <li><a href="install" target="_blank">How to Install</a></li>
-                                </ul>
-                            </li>
-                            <li>
-                                <p><a href="comingsoon" target="_blank">MirTracks</a></p>
-                            </li>
-                            <li class="new active">
-                                <p><a href="ucp"><span>Account<span></a></p>
-                                <ul class="subGnb">
-                                    <li><a href="register" target="_blank">Register</a></li>
-                            </li>
-                        </ul>
-                    </div>
+              <li data-menuanchor="story">
+                <p><a href=""><span>Help Center</span></a></p>
+                <ul class="subGnb">
+                  <li><a href="comingsoon" target="_blank">FAQ</a></li>
+                  <li><a href="install" target="_blank">How to Install</a></li>
+                </ul>
+              </li>
+              <li class="new active">
+                <p><a href="rankings"><span>Ranking<span></a></p>
+              </li>
+			        <li>
+                <p><a href=""><span>Tools<span></a></p>
+                <ul class="subGnb">
+                  <li><a href="comingsoon" target="_blank">MirTracks</a></li>
+              </li>
+              </ul>
+              <li>
+                <p><a href="ucp"><span>Account<span></a></p>
+                <ul class="subGnb">
+                  <li><a href="login" target="_blank">Login</a></li>
+                  <li><a href="register" target="_blank">Register</a></li>
+              </li>
+            </ul>
+          </div>
+          <!-- //navList -->
+        </div>
+        <!-- //rightSide -->
 
-                    <!-- //navList -->
-
-                </div>
-                <!-- //rightSide -->
+                <!-- @end Modified 1121  -->
 
             </div>
         </div><!--<canvas id="noise"></canvas>-->
@@ -358,26 +352,40 @@ if (isset($_POST['submit'])) {
         </video>
         
         <div class="container">
-            <div id="logomir4"></div>
-            <h2>Login - AVA MIR4 Alpha</h2>
-            <!-- Formulário corrigido -->
-            <form  action="login" method="post">
-                <label for="username">Username:</label>
-                <input type="text" id="username" name="username" placeholder="Enter your username" required>
-                <label for="password">Password:</label>
-                <input type="password" id="password" name="password" placeholder="Enter your password" autocomplete="new-password" required>
-                <?php if(isset($error)): ?>
-                    <p style="color:rgb(245, 108, 108); font-size:12px;"><?php echo $error; ?></p>
-                    <?php endif; ?>
-                <br>
-                <br>
-                <br>
-                <input type="submit" name="submit" value="Sign In">
-
-                <br><br>
-                <div id="backhome"><a class="backhome" href="index">« Back to home</a></div>
-            </form>
-
+            <div id="logomir"></div>
+            <h2>Top Ranking</h2>
+            <div class="language-selector">
+                <a href="?lang=en">English</a> |
+                <a href="?lang=es">Español</a> |
+                <a href="?lang=pt">Português</a> |
+                <a href="?lang=tl">Tagalog</a>
+            </div>
+            <form action="" method="post">
+        <div class="form-group">
+            <label for="rankingType"><?php echo $current_translations['choose_ranking']; ?></label>
+            <select name="rankingType" id="rankingType">
+                <?php foreach ($current_translations['ranking_keys'] as $key => $translation): ?>
+                    <option value="<?php echo $key; ?>" <?php echo $selectedRanking === $key ? 'selected' : ''; ?>><?php echo $translation; ?></option>
+                <?php endforeach; ?>
+            </select>
+        </div>
+        <div class="form-group">
+            <label for="rankingLimit"><?php echo $current_translations['select_quantity']; ?></label>
+            <select name="rankingLimit" id="rankingLimit">
+                <option value="10" <?php echo $selectedLimit === 10 ? 'selected' : ''; ?>><?php echo $current_translations['ranking_limit_10']; ?></option>
+                <option value="50" <?php echo $selectedLimit === 50 ? 'selected' : ''; ?>><?php echo $current_translations['ranking_limit_50']; ?></option>
+            </select>
+        </div>
+        <button type="submit"><?php echo $current_translations['update']; ?></button>
+    </form>
+    <h1><?php echo $current_translations['ranking_keys'][$selectedRanking] . " - Top {$selectedLimit}"; ?></h1>
+            <table>
+            <tr><th><?php echo $current_translations['character_name']; ?></th><th><?php echo $current_translations['ranking_keys'][$selectedRanking]; ?></th></tr>                <?php
+            foreach ($rankingData as $char) {
+            echo "<tr><td>{$char['CharacterName']}</td><td>{$char[$selectedRanking]}</td></tr>";
+            }
+            ?>
+            </table>
         </div>
 </body>
 
@@ -394,5 +402,4 @@ if (isset($_POST['submit'])) {
 <script src="static/js/default.js"></script>
 <script src="static/js/share-booking.js"></script>
 <script src="static/js/md5.min.js"></script>
-
 </html>

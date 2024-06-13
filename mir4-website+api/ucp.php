@@ -1,38 +1,10 @@
 <?php
-session_start(); // Deve ser a primeira linha
-
-// Inclui o arquivo de configuração
-require_once 'config/config.php';
-
-// Check if the form is submitted
-if (isset($_POST['submit'])) {
-    // Assigning posted values to variables.
-    $username = $_POST['username'];
-    $password = $_POST['password'];
-
-    // Hash da senha usando SHA-256
-    $hashed_password = strtoupper(hash('sha256', $password));
-
-    try {
-        $stmt = $pdo->prepare("SELECT * FROM user_tb WHERE Username = :username and PasswordHash = :hashed_password");
-        $stmt->execute(['username' => $username, 'hashed_password' => $hashed_password]);
-        $user = $stmt->fetch();
-
-        if ($user) {
-            $_SESSION['loggedin'] = true;
-            $_SESSION['username'] = $username;
-
-            header("Location: ucp");
-            exit();
-        }else{
-            $error = 'Incorrect username or password.';
-        } 
-    } catch (Exception $e) {
-        // Armazena a mensagem de erro na sessão
-        $_SESSION['error'] = "There was an error signing. Please try again in a few moments.";
-        header("Location: login");
-        exit();
-    }
+session_start();
+if(isset($_SESSION['username'])) {
+    // The session variable exists, you can use it here
+    $Username = $_SESSION['username'];
+}else{
+    header('Location: /');
 }
 
 ?>
@@ -306,47 +278,53 @@ if (isset($_POST['submit'])) {
             <div class="in">
 
                 <!-- h1 -->
-                <h1><a href="/">From my battle, to our war. MIR4: AVA</a></h1>
+                <h1><a href="index.php">From my battle, to our war. MIR4: AVA</a></h1>
                 <p class="description" style="visibility: hidden;line-height: 0;font-size: 0;">
                     The story of 500 million people around the world unraveling the mysteries of the East</p>
                 <!-- //h1 -->
 
                 <!-- @start Modified 1121  -->
 
-                <!-- rightSide -->
-                <div class="rightSide">
-                    <!-- navList -->
-                    <div class="navList">
-                        <ul class="clear gnb">
-                            <li data-menuanchor="part2">
-                                <p><a href="https://discord.gg/KCnHvwJJWN"><span>Community</span></a></p>
-                                <ul class="subGnb">
-                                    <li><a href="https://discord.gg/KCnHvwJJWN">News</a></li>
-                                </ul>
-                            </li>
+        <!-- rightSide -->
+        <div class="rightSide">
+          <!-- navList -->
+          <div class="navList">
+            <ul class="clear gnb">
+              <li class="new" data-menuanchor="part2">
+                <p><a href="https://discord.gg/KCnHvwJJWN"><span>Community</span></a></p>
+                <ul class="subGnb">
+                  <li><a href="https://discord.gg/KCnHvwJJWN">News</a></li>
+                </ul>
+              </li>
 
-                            <li data-menuanchor="story">
-                                <p><a href="comingsoon"><span>Help Center</span></a></p>
-                                <ul class="subGnb">
-                                    <li><a href="comingsoon" target="_blank">FAQ</a></li>
-                                    <li><a href="install" target="_blank">How to Install</a></li>
-                                </ul>
-                            </li>
-                            <li>
-                                <p><a href="comingsoon" target="_blank">MirTracks</a></p>
-                            </li>
-                            <li class="new active">
-                                <p><a href="ucp"><span>Account<span></a></p>
-                                <ul class="subGnb">
-                                    <li><a href="register" target="_blank">Register</a></li>
-                            </li>
-                        </ul>
-                    </div>
+              <li data-menuanchor="story">
+                <p><a href=""><span>Help Center</span></a></p>
+                <ul class="subGnb">
+                  <li><a href="comingsoon" target="_blank">FAQ</a></li>
+                  <li><a href="install" target="_blank">How to Install</a></li>
+                </ul>
+              </li>
+              <li class="new">
+                <p><a href="rankings"><span>Ranking<span></a></p>
+              </li>
+			        <li>
+                <p><a href=""><span>Tools<span></a></p>
+                <ul class="subGnb">
+                  <li><a href="comingsoon" target="_blank">MirTracks</a></li>
+              </li>
+              </ul>
+              <li class="new active">
+                <p><a href="ucp"><span>Account<span></a></p>
+                <ul class="subGnb">
+                  <li><a href="logout" target="_blank">Logout</a></li>
+              </li>
+            </ul>
+          </div>
+          <!-- //navList -->
+        </div>
+        <!-- //rightSide -->
 
-                    <!-- //navList -->
-
-                </div>
-                <!-- //rightSide -->
+                <!-- @end Modified 1121  -->
 
             </div>
         </div><!--<canvas id="noise"></canvas>-->
@@ -359,25 +337,9 @@ if (isset($_POST['submit'])) {
         
         <div class="container">
             <div id="logomir4"></div>
-            <h2>Login - AVA MIR4 Alpha</h2>
-            <!-- Formulário corrigido -->
-            <form  action="login" method="post">
-                <label for="username">Username:</label>
-                <input type="text" id="username" name="username" placeholder="Enter your username" required>
-                <label for="password">Password:</label>
-                <input type="password" id="password" name="password" placeholder="Enter your password" autocomplete="new-password" required>
-                <?php if(isset($error)): ?>
-                    <p style="color:rgb(245, 108, 108); font-size:12px;"><?php echo $error; ?></p>
-                    <?php endif; ?>
-                <br>
-                <br>
-                <br>
-                <input type="submit" name="submit" value="Sign In">
-
-                <br><br>
-                <div id="backhome"><a class="backhome" href="index">« Back to home</a></div>
-            </form>
-
+            <h2>User Control Panel</h2>
+            <p>Welcome:</p>
+            <p style="color:rgb(245, 108, 108); font-size:12px;"><?php echo $Username; ?></p>
         </div>
 </body>
 
@@ -394,5 +356,4 @@ if (isset($_POST['submit'])) {
 <script src="static/js/default.js"></script>
 <script src="static/js/share-booking.js"></script>
 <script src="static/js/md5.min.js"></script>
-
 </html>

@@ -106,8 +106,6 @@
 
         <!-- h1 -->
         <h1><a href="https://thelegendofmir.uk">From my battle, to our war. MIR4: AVA</a></h1>
-        <p class="description" style="visibility: hidden;line-height: 0;font-size: 0;">
-          The story of 500 million people around the world unraveling the mysteries of the East</p>
         <!-- //h1 -->
 
         <!-- @start Modified 1121  -->
@@ -116,14 +114,8 @@
         <div class="rightSide">
           <!-- navList -->
           <div class="navList">
-            <!-- <a href="./#part2" class="nav_aside">Arbalist Pre-registration</a> -->
             <ul class="clear gnb">
-              <!-- <li class="active"><p><a href="##">Current Menu</a></p></li> -->
-              <!-- <li class="new"><p><a href="##">New Menu</a></p></li> -->
-              <!-- <li data-menuanchor="part1"> -->
-              <!-- <p><a href="./#part1">Main</a></p> -->
-              <!-- </li> -->
-              <li class="new active" data-menuanchor="part2">
+              <li class="new" data-menuanchor="part2">
                 <p><a href="https://discord.gg/KCnHvwJJWN"><span>Community</span></a></p>
                 <ul class="subGnb">
                   <li><a href="https://discord.gg/KCnHvwJJWN">News</a></li>
@@ -137,24 +129,24 @@
                   <li><a href="install" target="_blank">How to Install</a></li>
                 </ul>
               </li>
-			  <li>
+              <li class="new active">
+                <p><a href="rankings"><span>Ranking<span></a></p>
+              </li>
+			        <li>
                 <p><a href=""><span>Tools<span></a></p>
                 <ul class="subGnb">
-                  <li><a href="ranking" target="_blank">Rankings</a></li>
                   <li><a href="comingsoon" target="_blank">MirTracks</a></li>
               </li>
               </ul>
               <li>
-                <p><a href="login"><span>Account<span></a></p>
+                <p><a href="ucp"><span>Account<span></a></p>
                 <ul class="subGnb">
                   <li><a href="login" target="_blank">Login</a></li>
                   <li><a href="register" target="_blank">Register</a></li>
               </li>
             </ul>
           </div>
-
           <!-- //navList -->
-
         </div>
         <!-- //rightSide -->
 
