@@ -27,7 +27,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         if ($user) {
             // Nome de usuário ou email já existem, armazena a mensagem de erro na sessão
             $_SESSION['error'] = "Username or email already exists. Please try again.";
-            header("Location: register.php");
+            header("Location: register");
             exit();
         } else {
             // Nome de usuário e email não existem, insere os dados no banco de dados
@@ -46,12 +46,12 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
             if ($stmt->rowCount() > 0) {
                 // Registro concluído com sucesso, redireciona para a página de sucesso
-                header("Location: success.php");
+                header("Location: success");
                 exit();
             } else {
                 // Erro ao inserir dados, armazena a mensagem de erro na sessão
                 $_SESSION['error'] = "There was an error registering. Please try again in a few moments.";
-                header("Location: register.php");
+                header("Location: register");
                 exit();
             }
         }
@@ -60,11 +60,11 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $pdo->rollBack();
         // Armazena a mensagem de erro na sessão
         $_SESSION['error'] = "There was an error registering. Please try again in a few moments.";
-        header("Location: register.php");
+        header("Location: register");
         exit();
     }
 } else {
     // Redireciona para a página de erro se o formulário não foi enviado
-    header("Location: erro.php");
+    header("Location: erro");
     exit();
 }

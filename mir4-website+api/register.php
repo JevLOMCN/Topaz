@@ -333,7 +333,7 @@ if (isset($_POST['h-captcha-response']) && !empty($_POST['h-captcha-response']))
             <div id="logomir4"></div>
             <h2>Register - AVA MIR4 Alpha</h2>
             <!-- Formulário corrigido -->
-            <form id="registrationForm" action="formsend.php" method="post">
+            <form id="registrationForm" action="formsend" method="post">
                 <label for="username">Username (minimum 4 letters):</label>
                 <input type="text" id="username" name="username" placeholder="Enter your username" required>
                 <div id="usernameError"></div>
