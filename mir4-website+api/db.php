@@ -1,8 +1,8 @@
 <?php
 $host = 'localhost:3306';
-$dbname = 'eqspifzk_mm_user_db'; // Nome da base de dados existente
-$username = 'dev';
-$password = '1111';
+$dbname = 'mm_user_db'; // Nome da base de dados existente
+$username = 'root';
+$password = '';
 
 try {
     $pdo = new PDO("mysql:host=$host;dbname=$dbname", $username, $password);

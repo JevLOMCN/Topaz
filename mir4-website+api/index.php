@@ -105,61 +105,46 @@
       <div class="in">
 
         <!-- h1 -->
-        <h1><a href="https://thelegendofmir.uk">From my battle, to our war. MIR4: AVA</a></h1>
-        <p class="description" style="visibility: hidden;line-height: 0;font-size: 0;">
-          The story of 500 million people around the world unraveling the mysteries of the East</p>
+        <h1><a href="/">From my battle, to our war. MIR4: AVA</a></h1>
         <!-- //h1 -->
-
-        <!-- @start Modified 1121  -->
-
         <!-- rightSide -->
         <div class="rightSide">
           <!-- navList -->
           <div class="navList">
-            <!-- <a href="./#part2" class="nav_aside">Arbalist Pre-registration</a> -->
             <ul class="clear gnb">
-              <!-- <li class="active"><p><a href="##">Current Menu</a></p></li> -->
-              <!-- <li class="new"><p><a href="##">New Menu</a></p></li> -->
-              <!-- <li data-menuanchor="part1"> -->
-              <!-- <p><a href="./#part1">Main</a></p> -->
-              <!-- </li> -->
-              <li class="new active" data-menuanchor="part2">
-                <p><a href="https://discord.gg/KCnHvwJJWN"><span>Community</span></a></p>
+              <li class="new" data-menuanchor="story">
+                  <p><a href="/"><span>Home</span></a></p>
+              </li>
+
+              <li class="new" data-menuanchor="part2">
+                <p><a href="https://discord.gg/KCnHvwJJWN" target="_blank"><span>Community</span></a></p>
                 <ul class="subGnb">
-                  <li><a href="https://discord.gg/KCnHvwJJWN">News</a></li>
+                  <li><a href="https://discord.gg/KCnHvwJJWN" target="_blank">News</a></li>
                 </ul>
               </li>
 
-              <li data-menuanchor="story">
+              <li data-menuanchor="part2">
                 <p><a href=""><span>Help Center</span></a></p>
                 <ul class="subGnb">
-                  <li><a href="comingsoon" target="_blank">FAQ</a></li>
+                  <!-- <li><a href="comingsoon" target="_blank">FAQ</a></li> -->
                   <li><a href="install" target="_blank">How to Install</a></li>
                 </ul>
               </li>
-			  <li>
-                <p><a href=""><span>Tools<span></a></p>
-                <ul class="subGnb">
-                  <li><a href="comingsoon" target="_blank">Rankings</a></li>
-                  <li><a href="comingsoon" target="_blank">MirTracks</a></li>
+              <li class="new" data-menuanchor="part2">
+                <p><a href="rankings"><span>Ranking<span></a></p>
               </li>
-              </ul>
               <li>
-                <p><a href="login"><span>Login/Register<span></a></p>
+                <p><a href="ucp"><span>Account<span></a></p>
                 <ul class="subGnb">
-                  <li><a href="login" target="_blank">Login</a></li>
-                  <li><a href="register" target="_blank">Register</a></li>
+                  <li><a href="login" target="_self">Login</a></li>
+                  <li><a href="register" target="_self">Register</a></li>
+                </ul>
               </li>
             </ul>
           </div>
-
           <!-- //navList -->
-
         </div>
         <!-- //rightSide -->
-
-        <!-- @end Modified 1121  -->
-
       </div>
     </div>
     <!-- //header -->
@@ -925,7 +910,7 @@
                       </ul>
                       <ul class="footer_info">
                         <li>E-mail: <span>admin@thelegendofmir.uk</span></li>
-                        <li><a href="tos.html" target="_blank">Terms of Use</a></li>
+                        <li><a href="tos" target="_blank">Terms of Use</a></li>
                       </ul>
                       <p class="copyright">ⓒ AVA. All rights reserved.</p>
                     </div>
@@ -1020,7 +1005,7 @@
   </div>
   <!-- //youtubePop -->
 
-  <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
+  <script data-cfasync="false" src="/static/js/email-decode.min.js"></script>
 </body>
 
 <script type="text/javascript" src="static/js/jquery-1.11.3.min.js"></script>

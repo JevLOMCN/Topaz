@@ -23,10 +23,11 @@
             padding: 20px;
         }
         h1, h2 {
-            color: #333;
+            color: #fff;
         }
         p {
             margin-bottom: 20px;
+            color: #fff;
         }
         .section {
             margin-bottom: 40px;

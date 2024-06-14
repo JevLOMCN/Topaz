@@ -1,80 +1,393 @@
-<html>
+<?php
+session_start(); // Deve ser a primeira linha
 
-<head></head>
-<link rel="shortcut icon" href="static/image/favicon.ico">
+// Inclui o arquivo de configuração
+require_once 'config/config.php';
 
-<body style="cursor: auto; min-height:100%; font-family:'Source Sans Pro', sans-serif; color:rgb(101, 101, 101); font-size:14px; height:911px; margin:0px; font-weight:400; line-height:21.4px; text-align:left; background-color:rgb(245, 247, 250); box-sizing:border-box;">
-    <div style="background-image:url('mir4_background.png'); background-position:50% 50%; background-repeat:no-repeat; background-attachment:fixed; background-size:cover; min-height:1200px; box-sizing:border-box;">
-        <div style="background-color: rgb(0, 0, 0); box-sizing:border-box;">
-            <nav style="-webkit-box-orient:horizontal; -webkit-box-direction:normal; flex-flow:row nowrap; -webkit-box-pack:start; justify-content:flex-start; filter:none; box-shadow:rgba(0, 0, 0, 0.075) 0px 2px 4px 0px; display:flex; flex-wrap:nowrap; -webkit-box-align:center; align-items:center; position:relative; padding:8px 16px; box-sizing:border-box;">
-                <div style="justify-content: space-between; flex-wrap:nowrap; max-width:1140px; display:flex; -webkit-box-align:center; align-items:center; -webkit-box-pack:justify; width: 100%; padding-right:15px; padding-left:15px; margin-right: auto; margin-left: auto; box-sizing:border-box;">
-                    <a href="https://thelegendofmir.uk/" style="outline:rgba(0, 0, 0, 0.9) none 0px; color:rgba(0, 0, 0, 0.9); display:block; padding-top:4.94288px; padding-bottom:4.94288px; margin-right:16px; font-size:20px; line-height:30.5714px; white-space:nowrap; text-decoration:none solid rgba(0, 0, 0, 0.9); background-color:rgba(0, 0, 0, 0); box-sizing:border-box;">
-                        <img src="static/image/h1_logo_n.png" style="vertical-align:middle; border-style:none; box-sizing:border-box;" />
-                    </a>
-                    <div style="box-sizing:border-box;">
-                        <button type="button" style="font-size: 15px; font-weight: 400; color:rgb(255, 255, 255); background-color:rgb(93, 156, 236); border-color:rgb(93, 156, 236); display:inline-block; line-height:15px; white-space:nowrap; cursor:pointer; background:rgb(93, 156, 236) none repeat scroll 0% 0% / auto padding-box border-box; border:1px solid rgb(93, 156, 236); appearance:none; text-align:center; box-sizing:border-box; outline:rgb(255, 255, 255) none 0px; margin:0px; transition:all 0.1s ease 0s; user-select:none; padding:12px 20px; border-radius:4px; text-transform:none; overflow:visible; font-family:'Source Sans Pro', sans-serif;" onclick="location.href='register';">
-                            <!---->
-                            <!----><span style="box-sizing:border-box;">Create Account</span>
-                        </button>
-                    </div>
-                </div>
-            </nav>
-        </div>
-        <div style="width: 360px; margin: 0px auto; margin-top:48px; box-sizing:border-box;">
-            <div style="padding: 30px 0px; background-color:rgb(13, 14, 16); border:0px none rgb(101, 101, 101); margin:0px; margin-bottom:0px; border-color:rgb(101, 101, 101); box-shadow:rgba(0, 0, 0, 0.05) 0px 1px 1px 0px; position:relative; display:flex; -webkit-box-orient:vertical; -webkit-box-direction:normal; flex-direction:column; min-width:0px; overflow-wrap:break-word; -webkit-background-clip:border-box; border-radius:4px; box-sizing:border-box; -webkit-background-clip:border-box;">
-                <div style="width: 87%; margin: 0px auto; margin: 0px auto; padding:15px; -webkit-box-flex:1; flex: 1 1 auto; min-height:1px; box-sizing:border-box;">
-                    <form data-np-autofill-form-type="login" data-np-checked="1" data-np-watching="1" style="margin-bottom:16px; box-sizing:border-box;">
-                        <div style="margin-bottom:16px; box-sizing:border-box;">
-                            <div style="margin-bottom:22px; box-sizing:border-box;">
-                                <!---->
-                                <div style="margin-left: 0px; line-height:40px; position:relative; font-size:14px; box-sizing:border-box;">
-                                    <div style="position:relative; font-size:14px; display:inline-block; width: 100%; box-sizing:border-box;">
-                                        <!----><input type="text" autocomplete="off" placeholder="Username" autofocus="autofocus" data-np-autofill-field-type="username" data-np-uid="66e1df7a-71be-4382-951c-0dbcdcff8f52" style="padding-right:30px; appearance:none; background-color:rgb(255, 255, 255); background-image:none; border-radius:4px; border:1px solid rgb(245, 108, 108); box-sizing:border-box; color:rgb(96, 98, 102); display:inline-block; font-size:14px; height:40px; line-height:40px; outline:rgb(96, 98, 102) none 0px; transition:border-color 0.2s cubic-bezier(0.645, 0.045, 0.355, 1) 0s; width: 100%; border-color:rgb(245, 108, 108); overflow:visible; margin:0px; font-family:'Source Sans Pro', sans-serif;" />
-                                        <!---->
-                                        <!---->
-                                        <!---->
-                                        <!---->
-                                    </div>
-                                    <div style="color:rgb(245, 108, 108); font-size:12px; line-height:12px; padding-top:4px; position:absolute; top:40px; left:0px; box-sizing:border-box;">
-                                        Enter Username
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div style="margin-bottom:16px; box-sizing:border-box;">
-                            <div style="margin-bottom:22px; box-sizing:border-box;">
-                                <!---->
-                                <div style="margin-left: 0px; line-height:40px; position:relative; font-size:14px; box-sizing:border-box;">
-                                    <div style="position:relative; font-size:14px; display:inline-block; width: 100%; box-sizing:border-box;">
-                                        <!----><input type="password" autocomplete="off" placeholder="Password" data-np-autofill-field-type="password" data-np-uid="4f32bf07-20ca-4f96-a2d9-d0f1bb8364b6" style="padding-right:30px; appearance:none; background-color:rgb(255, 255, 255); background-image:none; border-radius:4px; border:1px solid rgb(220, 223, 230); box-sizing:border-box; color:rgb(96, 98, 102); display:inline-block; font-size:14px; height:40px; line-height:40px; outline:rgb(96, 98, 102) none 0px; transition:border-color 0.2s cubic-bezier(0.645, 0.045, 0.355, 1) 0s; width: 100%; overflow:visible; margin:0px; font-family:'Source Sans Pro', sans-serif;" />
-                                        <!----><span style="position:absolute; height:40px; right:5px; top:0px; text-align:center; color:rgb(192, 196, 204); transition:all 0.3s ease 0s; pointer-events:none; box-sizing:border-box;"><span style="pointer-events:all; box-sizing:border-box;">
-                                                <!---->
-                                                <!---->
-                                                <!---->
-                                                <!---->
-                                            </span>
-                                            <!---->
-                                        </span>
-                                        <!---->
-                                        <!---->
-                                    </div>
-                                    <!---->
-                                </div>
-                            </div>
-                        </div>
-                        <div style="-webkit-box-pack:justify; justify-content:space-between; display:flex; position:relative; box-sizing:border-box;">
-                            <div style="width: 45.8333%; float:middle; box-sizing:border-box;"><button type="button" style="border-radius:3px; font-size:13px; appearance:none; transition:all 0.1s ease 0s; outline:rgb(255, 255, 255) none 0px; margin-top:16px; display:block; width: 100%; color:rgb(255, 255, 255); background-color:rgb(93, 156, 236); border-color:rgb(93, 156, 236); font-weight:400; text-align:center; vertical-align:middle; cursor:pointer; user-select:none; padding:6px 16px; line-height:19.8714px; text-transform:none; overflow:visible; margin:16px 0px 0px; font-family:'Source Sans Pro', sans-serif; box-sizing:border-box;">Sign In
-                                </button></div>
-                        </div>
-                    </form>
-                    <div style="position:relative; box-sizing:border-box;">
-                        <div style="color: rgb(255, 255, 255); text-align: right; margin-top: 25px; cursor: pointer; text-align:right; margin-top:25px; cursor:pointer; width: 95.8333%; float:left; box-sizing:border-box;">
-    <a href="https://thelegendofmir.uk/faq" style="text-decoration: none; color: inherit;">Trouble Signing In?</a>
-</div>
-                    </div>
-                </div>
-            </div>
-        </div>
+// Check if the form is submitted
+if (isset($_POST['submit'])) {
+    // Assigning posted values to variables.
+    $username = $_POST['username'];
+    $password = $_POST['password'];
+
+    // Hash da senha usando SHA-256
+    $hashed_password = strtoupper(hash('sha256', $password));
+
+    try {
+        $stmt = $pdo->prepare("SELECT * FROM user_tb WHERE Username = :username and PasswordHash = :hashed_password");
+        $stmt->execute(['username' => $username, 'hashed_password' => $hashed_password]);
+        $user = $stmt->fetch();
+
+        if ($user) {
+            $_SESSION['loggedin'] = true;
+            $_SESSION['username'] = $username;
+
+            header("Location: ucp");
+            exit();
+        }else{
+            $error = 'Incorrect username or password.';
+        } 
+    } catch (Exception $e) {
+        // Armazena a mensagem de erro na sessão
+        $_SESSION['error'] = "There was an error signing. Please try again in a few moments.";
+        header("Location: login");
+        exit();
+    }
+}
+
+?>
+<!DOCTYPE HTML>
+<html lang="en">
+
+<head>
+    <title>AVA MIR4</title>
+
+    <!-- Google Tag Manager -->
+    <script>
+        (function(w, d, s, l, i) {
+            w[l] = w[l] || [];
+            w[l].push({
+                'gtm.start': new Date().getTime(),
+                event: 'gtm.js'
+            });
+            var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s),
+                dl = l != 'dataLayer' ? '&l=' + l : '';
+            j.async = true;
+            j.src =
+                'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+            f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-MHQG7GC');
+    </script>
+    <!-- End Google Tag Manager -->
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=EDGE">
+    <meta name="viewport">
+    <meta name="robots" content="index,follow">
+    <meta name="author" content="AVA">
+    <meta name="keywords" content="ava; warrior; sorcerer; taoist; lancer; arbalist; dragon flame; dragon tornado; ray of light; dragon spear; arrow rain; mir4; mir4 game; the legend of mir; mir4 video; pay to earn; p2e; nft; mir4 2021; mir4 download; mir4 android; mir4 ios; mir4 news; mir4 available; mir4 beta; mir4 code; mir4 bot; mir4 good; mir4 graphics; mir4 guide; mir4 iPhone; mir4 launch; mir4 story; mir4 mobile; mir4 official; mir4 open; mir4 PC; mir4 pre-register; mir4 pre-registration; mir4 preview; mir4 project; mir4 register; mir4 registration; mir4 release; mir4 review; mir4 test; mir4 hack; mir4 walkthrough; mir4 wiki; mira; play mir4; adventure story; open world game; KPRG; MMORPG; rpg games; mobile game; action RPG; cross platfrom game; great mobile game; best mobile game; sandbox adventure RPG; multiple platforms; multiplayer mobile game; Action role-playing game;">
+    <meta name="description" content="From my battle, to our war. In the vast world of MIR4, you participate in expeditions, meet diverse characters with unique personalities and abilities, and fight powerful enemies, all on your journey to becoming king. But no king rules forever, so several growth systems will assist you in the war to conquer the world.">
+
+    <!-- Meta for Twitter -->
+    <meta name="twitter:title" content="AVA MIR4">
+    <meta name="twitter:image" content="https://mirfiles.com/resources/mir2/users/Jev/Mir%204/1.png">
+    <meta name="twitter:description" content="From my battle, to our war. In the vast world of MIR4, you participate in expeditions, meet diverse characters with unique personalities and abilities, and fight powerful enemies, all on your journey to becoming king. But no king rules forever, so several growth systems will assist you in the war to conquer the world.">
+    <meta name="twitter:card" content="summary_large_image">
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="en_US">
+    <meta property="og:title" content="AVA MIR4">
+    <meta property="og:image" content="https://mirfiles.com/resources/mir2/users/Jev/Mir%204/1.png">
+    <meta property="og:description" content="From my battle, to our war. MIR4 is the successor of the traditional Legend of Mir series. In this vast world, you participate in expeditions, meet diverse characters with unique personalities and abilities, and fight powerful enemies together, all on your journey to becoming king. But no king rules forever, so several growth systems will assist you in the war to conquer the world.">
+
+    <link rel="shortcut icon" href="static/image/favicon.ico">
+
+    <link rel="stylesheet" type="text/css" href="static/css/nanumsquare.css" media="all"><!-- Revision 1107 -->
+    <link rel="stylesheet" href="static/css/common.css" media="all">
+    <link rel="stylesheet" href="static/css/azuremdiaplayer.min.css">
+
+    <script src="static/js/sdk.js"></script>
+    <script src="static/js/platform.js" async="" defer=""></script>
+    <script src="static/js/appleid.auth.js"></script>
+    <script src="static/js/kakao.min.js"></script>
+    <script src="https://js.hcaptcha.com/1/api.js" async defer></script>
+    <style>
+        /*body {
+            font-family: Arial, sans-serif;
+            margin: 0 !important;
+            padding: 0 !important;
+            background-image: url('static/image/mir4_background.png');
+            background-size: 100% 100% !important;
+            background-position: center !important;
+            background-repeat: no-repeat !important;
+
+        }*/
+
+        .background-image {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: -1;
+        }
+
+        .background-image img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        @media screen and (max-width: 600px) {
+            .background-image img {
+                display: none;
+            }
+
+            body {
+                background-color: black;
+            }
+        }
+
+        /* Adiciona o vídeo como um elemento fixo no topo da página */
+        video {
+            /* Posiciona o vídeo no topo da página */
+            position: fixed;
+            /* Define o tamanho do vídeo para cobrir toda a tela */
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            /* Define a transparência do vídeo */
+            opacity: 0.5;
+            /* Garante que o vídeo preencha toda a tela */
+            object-fit: cover;
+            z-index: -1;
+        }
+
+        .container {
+            max-width: 401px;
+            max-height: 100%;
+            /* Adicione esta linha para definir a altura máxima */
+            margin: 90px auto;
+            background-color: rgba(255, 255, 255, 0.8);
+            padding: 32px;
+            border-radius: 19px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+
+        #logomir4 {
+            background-image: url('static/image/h1_logo_n.png');
+            background-repeat: no-repeat;
+            background-position: center;
+            width: 100%;
+            /* Ajuste a largura conforme necessário */
+            height: 50px;
+            /* Reduzir a altura para que o logo fique mais próximo da borda */
+            margin: 0;
+            /* Remover margens */
+            padding: 0;
+            /* Remover preenchimento */
+        }
+
+
+        h2 {
+            text-align: center !important;
+            margin-bottom: 20px !important;
+            font-size: 16px !important;
+        }
+
+        label {
+            font-weight: bold;
+            font-size: 16px;
+        }
+
+        input[type="text"],
+        input[type="email"],
+        input[type="password"],
+        select {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            box-sizing: border-box;
+        }
+
+        input[type="text"]::placeholder,
+        input[type="email"]::placeholder,
+        input[type="password"]::placeholder {
+            font-size: 16px;
+        }
+
+        input[type="submit"] {
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            padding: 15px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            width: 100%;
+            font-size: 16px;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #0056b3;
+        }
+
+        .disabled-button {
+            background-color: grey;
+            cursor: not-allowed;
+        }
+
+        .password-strength {
+            font-size: 12px;
+            margin-top: 0.1vh;
+            text-align: right;
+        }
+
+        .weak {
+            color: red;
+        }
+
+        .medium {
+            color: orange;
+        }
+
+        .strong {
+            color: green;
+        }
+
+        .backhome {
+            font-size: 15px;
+            margin-top: 5px;
+            color: black;
+            /* Cor do link é preto */
+        }
+
+        .backhome:hover {
+            color: #808080;
+            /* Cor do link muda para cinza suave no hover */
+        }
+
+        #usernameError,
+        #serverError,
+        #passwordError,
+        #confirmPasswordError,
+        #ErrorCaptcha {
+            color: red;
+            font-weight: bold;
+            margin-bottom: 0.1vh;
+            text-align: left;
+            font-size: 12px;
+        }
+
+        #confirmMessage {
+            color: green;
+            font-weight: bold;
+            margin-bottom: -3vh;
+            font-size: 12px;
+            text-align: left;
+        }
+
+        .h-captcha {
+            width: 100%;
+            box-sizing: border-box;
+        }
+        #noise {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    pointer-events: none; /* Isso permite que os cliques passem pelo canvas para o vídeo abaixo */
+    opacity: 0.2; /* Isso torna o ruído semi-transparente */
+}
+
+    </style>
+</head>
+
+<body class="fp-viewing-story" style="overflow: hidden; height: 100%;" cz-shortcut-listen="true">
+    <!-- Skip Nav -->
+    <div id="skipnavigation">
+        <a href="#container">Skip</a>
     </div>
+    <!-- //Skip Nav -->
+
+    <!-- viewport -->
+    <div id="viewport" data-nosnippet="">
+
+        <!-- header -->
+        <div class="head">
+            <div class="in">
+                    <!-- h1 -->
+                    <h1><a href="/">From my battle, to our war. MIR4: AVA</a></h1>
+                    <!-- //h1 -->
+                    <!-- rightSide -->
+                    <div class="rightSide">
+                    <!-- navList -->
+                    <div class="navList">
+                        <ul class="clear gnb">
+                        <li class="new" data-menuanchor="story">
+                            <p><a href="/"><span>Home</span></a></p>
+                        </li>
+
+                        <li class="new" data-menuanchor="part2">
+                            <p><a href="https://discord.gg/KCnHvwJJWN" target="_blank"><span>Community</span></a></p>
+                            <ul class="subGnb">
+                            <li><a href="https://discord.gg/KCnHvwJJWN" target="_blank">News</a></li>
+                            </ul>
+                        </li>
+
+                        <li data-menuanchor="part2">
+                            <p><a href=""><span>Help Center</span></a></p>
+                            <ul class="subGnb">
+                            <!-- <li><a href="comingsoon" target="_blank">FAQ</a></li> -->
+                            <li><a href="install" target="_blank">How to Install</a></li>
+                            </ul>
+                        </li>
+                        <li class="new" data-menuanchor="part2">
+                            <p><a href="rankings"><span>Ranking<span></a></p>
+                        </li>
+                        <li class="new active">
+                            <p><a href="ucp"><span>Account<span></a></p>
+                            <ul class="subGnb">
+                            <li><a href="register" target="_self">Register</a></li>
+                            </ul>
+                        </li>
+                        </ul>
+                    </div>
+                    <!-- //navList -->
+                    </div>
+                    <!-- //rightSide -->
+                </div>
+        </div><!--<canvas id="noise"></canvas>-->
+        <div class="background-image">
+            <img src="static/image/mir4_background.png" alt="background">
+        </div>
+        <video autoplay loop muted>
+            <source src="static/file/background_growth.mp4" type="video/mp4">
+        </video>
+        
+        <div class="container">
+            <div id="logomir4"></div>
+            <h2>Login - AVA MIR4 Alpha</h2>
+            <!-- Formulário corrigido -->
+            <form  action="login" method="post">
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username" placeholder="Enter your username" required>
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" placeholder="Enter your password" autocomplete="new-password" required>
+                <?php if(isset($error)): ?>
+                    <p style="color:rgb(245, 108, 108); font-size:12px;"><?php echo $error; ?></p>
+                    <?php endif; ?>
+                <br>
+                <br>
+                <br>
+                <input type="submit" name="submit" value="Sign In">
+
+                <br><br>
+                <div id="backhome"><a class="backhome" href="index">« Back to home</a></div>
+            </form>
+
+        </div>
 </body>
+
+<script type="text/javascript" src="static/js/jquery-1.11.3.min.js"></script>
+<script type="text/javascript" src="static/js/clipboard.min.js"></script>
+<script type="text/javascript" src="static/js/jquery.validator.js"></script>
+<script type="text/javascript" src="static/js/jquery.fullPage.js"></script>
+<script type="text/javascript" src="static/js/slick.min.js"></script>
+<script type="text/javascript" src="static/js/common.js"></script>
+<script type="text/javascript" src="static/js/common_valid.js"></script>
+<script src="static/js/azuremediaplayer.min.js"></script>
+<script type="text/javascript" src="static/js/media.js"></script>
+<script src="static/js/ui.js"></script>
+<script src="static/js/default.js"></script>
+<script src="static/js/share-booking.js"></script>
+<script src="static/js/md5.min.js"></script>
+
 </html>
