@@ -1,0 +1,70 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    @apply text-lg font-bold text-white;
+  }
+
+  button {
+    @apply flex items-center justify-center;
+  }
+
+  input[type='number']::-webkit-outer-spin-button,
+  input[type='number']::-webkit-inner-spin-button,
+  input[type='number'] {
+    -webkit-appearance: none;
+    margin: 0;
+    -moz-appearance: textfield !important;
+  }
+}
+
+@layer utilities {
+  .custom-scroll::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+  }
+
+  .custom-scroll::-webkit-scrollbar-button {
+    width: 0px;
+    height: 0px;
+  }
+
+  .custom-scroll::-webkit-scrollbar-thumb {
+    background: #e4e4e4;
+    border: 5px solid #100c2000;
+    border-radius: 100px;
+  }
+
+  .custom-scroll::-webkit-scrollbar-thumb:hover {
+    background: #8383c6;
+  }
+
+  .custom-scroll::-webkit-scrollbar-thumb:active {
+    background: #8383c6;
+  }
+
+  .custom-scroll::-webkit-scrollbar-track {
+    background: #100c2000;
+    border: 0px solid #100c2000;
+    border-radius: 100px;
+  }
+
+  .custom-scroll::-webkit-scrollbar-track:hover {
+    background: #100c2000;
+  }
+
+  .custom-scroll::-webkit-scrollbar-track:active {
+    background: #100c2000;
+  }
+
+  .custom-scroll::-webkit-scrollbar-corner {
+    background: transparent;
+  }
+}
