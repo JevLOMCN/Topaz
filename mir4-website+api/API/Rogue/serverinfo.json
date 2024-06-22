@@ -1,0 +1,11 @@
+{
+  "BaseSetting": {
+    "1.53.1": {
+      "PatchRootUrl": "https://live-dl.mir4global.com/",
+      "PatchSubPath": "live/1.53.1/",
+      "WemadeServiceLogin": "True",
+      "WemadeServiceUrl": "https://api.roguemir4.com/version/check",
+      "WemadeServiceVersion": "1.53.1"
+    }
+  }
+}

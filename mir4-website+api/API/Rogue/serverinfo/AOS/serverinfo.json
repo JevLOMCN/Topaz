@@ -1,0 +1,11 @@
+{
+  "BaseSetting": {
+    "1.57.1": {
+      "PatchRootUrl": "http://localhost/rogue/",
+      "PatchSubPath": "live/1.57.1/",
+      "WemadeServiceLogin": "True",
+      "WemadeServiceUrl": "https://localhost/rogue/version/check",
+      "WemadeServiceVersion": "1.53.1"
+    }
+  }
+}
