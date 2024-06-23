@@ -27,34 +27,34 @@ namespace Server_Console
         }
         private void CheckServerStatus()
         {
-            CheckExecutableStatus("World", "WorldServer", WorldButton, Properties.Resources.WorldOn, Properties.Resources.WorldOff);
-            CheckExecutableStatus("Gateway", "GatewayServer", GatewayButton, Properties.Resources.GatewayOn, Properties.Resources.GatewayOff);
-            CheckExecutableStatus("Game", "GameServer", GameButton, Properties.Resources.GameOn, Properties.Resources.GameOff);
-            CheckExecutableStatus("Front", "FrontServer", FrontButton, Properties.Resources.FrontOn, Properties.Resources.FrontOff);
-            CheckExecutableStatus("Chatting", "ChattingServer", ChattingButton, Properties.Resources.ChatOn, Properties.Resources.ChatOff);
+            CheckExecutableStatus("Servers", "World", "WorldServer", WorldButton, Properties.Resources.WorldOn, Properties.Resources.WorldOff);
+            CheckExecutableStatus("Servers", "Gateway", "GatewayServer", GatewayButton, Properties.Resources.GatewayOn, Properties.Resources.GatewayOff);
+            CheckExecutableStatus("Servers", "Game", "GameServer", GameButton, Properties.Resources.GameOn, Properties.Resources.GameOff);
+            CheckExecutableStatus("Servers", "Front", "FrontServer", FrontButton, Properties.Resources.FrontOn, Properties.Resources.FrontOff);
+            CheckExecutableStatus("Servers", "Chatting", "ChattingServer", ChattingButton, Properties.Resources.ChatOn, Properties.Resources.ChatOff);
         }
 
-        private void CheckExecutableStatus(string serverFolder, string serverExeName, PictureBox pictureBox, Image onImage, Image offImage)
+        private void CheckExecutableStatus(string serversBasePath, string serverFolder, string executableName, PictureBox pictureBox, Image runningImage, Image stoppedImage)
         {
             string baseDirectory = AppDomain.CurrentDomain.BaseDirectory;
-            string serverPath = Path.Combine(baseDirectory, "Servers", serverFolder, $"{serverExeName}.exe");
+            string serverPath = Path.Combine(baseDirectory, serversBasePath, serverFolder, $"{executableName}.exe");
 
             if (File.Exists(serverPath))
             {
-                Process[] processes = Process.GetProcessesByName(serverExeName);
+                Process[] processes = Process.GetProcessesByName(executableName);
 
                 if (processes.Length > 0)
                 {
-                    pictureBox.Image = onImage;
+                    pictureBox.Image = runningImage;
                 }
                 else
                 {
-                    pictureBox.Image = offImage;
+                    pictureBox.Image = stoppedImage;
                 }
             }
             else
             {
-                MessageBox.Show($"{serverExeName}.exe not found.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show($"{executableName}.exe not found.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
         #endregion
@@ -164,12 +164,30 @@ namespace Server_Console
 
         private void StartAllButton_Click(object sender, EventArgs e)
         {
-            LaunchServer("WorldServer");
-            LaunchServer("GatewayServer");
-            LaunchServer("GameServer");
-            LaunchServer("FrontServer");
-            LaunchServer("ChattingServer");
-        }
+                string baseDirectory = AppDomain.CurrentDomain.BaseDirectory;
+                string batchFilePath = Path.Combine(baseDirectory, "Servers", "start_servers.bat");
+
+                if (File.Exists(batchFilePath))
+                {
+                    try
+                    {
+                        ProcessStartInfo startInfo = new ProcessStartInfo(batchFilePath)
+                        {
+                            UseShellExecute = true,
+                            WorkingDirectory = Path.GetDirectoryName(batchFilePath)
+                        };
+                        Process.Start(startInfo);
+                    }
+                    catch (Exception ex)
+                    {
+                        MessageBox.Show($"Failed to start batch file. Error: {ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    }
+                }
+                else
+                {
+                    MessageBox.Show($"Batch file not found at: {batchFilePath}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
+            }
 
         private void WorldButton_Click(object sender, EventArgs e)
         {
