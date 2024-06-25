@@ -3,7 +3,7 @@
     if(isset($_SESSION['username'])) {
         // The session variable exists, you can use it here
         $username = $_SESSION['username'];
-        $email = "hernannes@gmail.com"; // Substitua pelo email do usuário (que deve vir no session).
+        $email = ""; // Substitua pelo email do usuário (que deve vir no session).
     }else{
         header('Location: /');
     }
