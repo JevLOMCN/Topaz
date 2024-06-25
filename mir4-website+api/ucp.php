@@ -1,12 +1,12 @@
 <?php
-session_start();
-if(isset($_SESSION['username'])) {
-    // The session variable exists, you can use it here
-    $Username = $_SESSION['username'];
-}else{
-    header('Location: /');
-}
-
+    session_start();
+    if(isset($_SESSION['username'])) {
+        // The session variable exists, you can use it here
+        $username = $_SESSION['username'];
+        $email = "hernannes@gmail.com"; // Substitua pelo email do usuário (que deve vir no session).
+    }else{
+        header('Location: /');
+    }
 ?>
 <!DOCTYPE HTML>
 <html lang="en">
@@ -118,14 +118,11 @@ if(isset($_SESSION['username'])) {
             z-index: -1;
         }
 
-        .container {
-            max-width: 401px;
-            max-height: 100%;
-            /* Adicione esta linha para definir a altura máxima */
+        .loginBox {
+            max-width: 100%;
             margin: 90px auto;
-            background-color: rgba(255, 255, 255, 0.8);
-            padding: 32px;
-            border-radius: 19px;
+            background-color: rgba(255, 255, 255, 0.3);
+            padding: 10px 32px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         }
 
@@ -145,11 +142,7 @@ if(isset($_SESSION['username'])) {
         }
 
 
-        h2 {
-            text-align: center !important;
-            margin-bottom: 20px !important;
-            font-size: 16px !important;
-        }
+        .center { text-align: center !important; }
 
         label {
             font-weight: bold;
@@ -261,20 +254,146 @@ if(isset($_SESSION['username'])) {
             box-sizing: border-box;
         }
         #noise {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    z-index: 1;
-    pointer-events: none; /* Isso permite que os cliques passem pelo canvas para o vídeo abaixo */
-    opacity: 0.2; /* Isso torna o ruído semi-transparente */
-}
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: 1;
+            pointer-events: none; /* Isso permite que os cliques passem pelo canvas para o vídeo abaixo */
+            opacity: 0.2; /* Isso torna o ruído semi-transparente */
+        }
+
+
+        /* Css para os cards dos personagens */
+        .card-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+        }
+
+        .card {
+            background-image: linear-gradient(to bottom right, #5E81FF, #405266);
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            width: 250px;
+            overflow: hidden;
+            text-align: center;  
+            padding: 15px;    
+            border: solid 0.5px #fff;      
+        }
+
+        .card img {
+            width: 100%;
+            height: auto;
+        }
+
+        .card-content {
+            color: #fff;
+        }
+
+        .card-content h3 {
+            margin: 0;
+            font-size: 1.2em;
+            color: #333;
+        }
+
+        .card-content p {
+            margin: 10px 0;
+            font-size: 0.9em;
+            font-family: arial;
+        }
+
+        .content{ 
+            padding: 20px 50px;
+            background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.8), #405266);
+            overflow-y: auto; /* Adiciona rolagem ao conteúdo */
+        }
+        .chName{ 
+            background-color: rgb(255, 255, 255, 0.8);
+            padding: 5px;
+            border-radius: 8px;
+        }
+
+        .tabs {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 20px;
+        }
+
+        .tab-link {
+            background-color: #ddd;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+            margin: 0 5px;
+            transition: background-color 0.3s;
+        }
+
+        .tab-link.active, .tab-link:hover {
+            background-color: #bbb;
+        }
+
+        .tab-content {
+            display: none;
+            width: 100%;
+        }
+
+        .tab-content.active {
+            display: block;
+        }
+
+        form {
+            display: inline-block;
+            align-items: center;
+        }
+
+        form label {
+            width: 300px;
+            margin-bottom: 5px;
+            text-align: left;
+        }
+
+        form input {
+            width: 280px;
+            margin-bottom: 15px;
+            padding: 8px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+        form input[type="submit"] {
+            width: 150px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            cursor: pointer;
+            padding: 10px;
+        }
+
+        form input[type="submit"]:hover {
+            background-color: #45a049;
+        }
+
+        body {
+            align-items: flex-start; /* Alinha o conteúdo no topo */
+            overflow-y: auto;
+            max-height: 100px;
+        }
+
+        .boxInput{
+            display: inline-block;
+            max-width: 270px;
+            padding: 15px;
+            vertical-align: top;
+        }
 
     </style>
 </head>
 
-<body class="fp-viewing-story" style="overflow: hidden; height: 100%;" cz-shortcut-listen="true">
+
+<body class="fp-viewing-story" style="height: 100%;" cz-shortcut-listen="true">
     <!-- Skip Nav -->
     <div id="skipnavigation">
         <a href="#container">Skip</a>
@@ -339,15 +458,127 @@ if(isset($_SESSION['username'])) {
             <source src="static/file/background_growth.mp4" type="video/mp4">
         </video>
         
-        <div class="container">
-            <div id="logomir4"></div>
-            <h2>User Control Panel</h2>
-            <p>Welcome:</p>
-            <p style="color:rgb(245, 108, 108); font-size:12px;"><?php echo $Username; ?>
-            </p>
-            </br>
-            <div id="logout"><a class="logout" href="logout">« Logout</a></div>
+        <div class="loginBox">
+            <!-- <div id="logomir4"></div> -->
+            <h2 class="center">
+                Welcome, <?= $username; ?>!
+            </h2>
         </div>
+
+        <div class="content">
+            <div class="tabs">
+                <button class="tab-link active" onclick="openTab(event, 'characters')">See your characters</button>
+                <button class="tab-link" onclick="openTab(event, 'personal-data')">Personal data</button>
+            </div>
+            
+            <div id="characters" class="tab-content">
+                <div class="card-container">
+                    <?php
+                    // Array de dados fictícios (remover após inserir array com dados vindos do banco)
+                    $characters = [
+                        [
+                            "name" => "Warrior",
+                            "class" => "Atirador Fantasma",
+                            "level" => 79,
+                            "power" => 71.548,
+                            "server" => "SA054",
+                            "class_img" => "1.webp",
+                            "last_login" => "2024-06-25 15:48",
+                        ],
+                        [
+                            "name" => "xDREAMx",
+                            "class" => "Mage",
+                            "level" => 112,
+                            "power" => 145.659,
+                            "server" => "EU025",
+                            "class_img" => "2.webp",
+                            "last_login" => "2024-06-25 15:48",
+                        ],
+                        [
+                            "name" => "KeBab",
+                            "class" => "Taoist",
+                            "level" => 120,
+                            "power" => 197.500,
+                            "server" => "NA012",
+                            "class_img" => "3.webp",
+                            "last_login" => "2024-06-25 15:48",
+                        ],
+                        [
+                            "name" => "ZHYBROO",
+                            "class" => "Arbalist",
+                            "level" => 55,
+                            "power" => 56.847,
+                            "server" => "NA012",
+                            "class_img" => "4.webp",
+                            "last_login" => "2024-06-25 15:48",
+                        ],
+                        [
+                            "name" => "HERNANNES",
+                            "class" => "Lancer",
+                            "level" => 53,
+                            "power" => 33.000,
+                            "server" => "NA012",
+                            "class_img" => "5.webp",
+                            "last_login" => "2024-06-25 15:48",
+                        ],
+                        [
+                            "name" => "Jev",
+                            "class" => "Taoist",
+                            "level" => 100,
+                            "power" => 124.586,
+                            "server" => "SA082",
+                            "class_img" => "3.webp",
+                            "last_login" => "2024-06-25 15:48",
+                        ]
+                    ];
+
+                    // Loop através dos dados fictícios para criar os cards
+                    // Trocar $characters por array com dados da QUERY
+                    foreach ($characters as $character) {
+                        echo '<div class="card">';
+                            echo '<img src="static/characters/' . $character["class_img"] . '" alt="' . $character["name"] . '">';
+                            echo '<div class="card-content">';
+                                echo '<h3 class="chName">' . $character["name"] . '</h3>';
+                                echo '<p>Class: ' . $character["class"] . '</p>';
+                                echo '<p>Level: ' . $character["level"] . '</p>';
+                                echo '<p>Power: ' . $character["power"] . '</p>';
+                                echo '<p>Server: ' . $character["server"] . '</p>';
+                            echo '</div>';
+                            echo '<p>Last Login: ' . $character["last_login"] . '</p>';
+                        echo '</div>';
+                    }
+                    ?>
+                </div>
+            </div>
+
+            <div id="personal-data" class="tab-content" style="display:none">
+                <!-- Conteúdo para a aba "Personal data" -->
+                <form action="update_personal_data.php" method="post">
+                    <div class="boxInput">
+                        <label for="username">Username:</label><br>
+                        <input type="text" id="username" name="username" value="<?= $username; ?>"><br>
+                    </div>
+
+                    <div class="boxInput">
+                        <label for="email">Email:</label><br>
+                        <input type="email" id="email" name="email" value="<?= $email; ?>"><br>
+                    </div>
+
+                    <div class="boxInput">
+                        <label for="password">Password:</label><br>
+                        <input type="password" id="password" name="password" value="********"><br><br>
+                    </div>  
+                    
+                    <div class="boxInput">
+                        <br>
+                        <input type="submit" value="Update">
+                    </div>                       
+                    
+                </form>
+            </div>
+        </div>
+
+
 </body>
 
 <script type="text/javascript" src="static/js/jquery-1.11.3.min.js"></script>
@@ -363,4 +594,5 @@ if(isset($_SESSION['username'])) {
 <script src="static/js/default.js"></script>
 <script src="static/js/share-booking.js"></script>
 <script src="static/js/md5.min.js"></script>
+<script src="static/js/open-tab.js"></script>
 </html>
