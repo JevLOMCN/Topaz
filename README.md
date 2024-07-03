@@ -10,18 +10,18 @@
 
 # Dependencies:
 
-## Servers
-[Visual Studio Community 2022](https://visualstudio.microsoft.com/vs/community/)
+> ## Servers
+> [Visual Studio Community 2022](https://visualstudio.microsoft.com/vs/community/)
 
-[MySql Community 5.7.44.0](https://dev.mysql.com/downloads/file/?id=523570)
+> [MySql Community 5.7.44.0](https://dev.mysql.com/downloads/file/?id=523570)
 
-[Couchbase Community 7.2](https://packages.couchbase.com/releases/7.2.0/couchbase-server-enterprise_7.2.0-windows_amd64.msi)
+> [Couchbase Community 7.2](https://packages.couchbase.com/releases/7.2.0/couchbase-server-enterprise_7.2.0-windows_amd64.msi)
 
-[Redis 7.2(Latest)](https://github.com/redis/redis/archive/7.2.4.tar.gz)
+> [Redis 7.2(Latest)](https://github.com/redis/redis/archive/7.2.4.tar.gz)
 
-## Website
-[CPanel](https://cpanel.net/)
-[MediaWiki 1.42.1](https://www.mediawiki.org/wiki/MediaWiki_1.42)
+> ## Website
+> [CPanel](https://cpanel.net/)
+> [MediaWiki 1.42.1](https://www.mediawiki.org/wiki/MediaWiki_1.42)
 
 # Downloads:
 [Client](https://mirfiles.com/resources/mir2/users/Jev/Mir%204/Mir%204%20Client.rar) // [UE4 4.24.3](https://github.com/EpicGames) // [PAK Tools](https://mirfiles.com/resources/mir2/users/Jev/Mir%204/Pak%20Tools.rar)
