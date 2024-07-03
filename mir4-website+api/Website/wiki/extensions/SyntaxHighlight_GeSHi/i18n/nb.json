@@ -1,0 +1,24 @@
+{
+	"@metadata": {
+		"authors": [
+			"Jeblad",
+			"Jon Harald Søby"
+		]
+	},
+	"syntaxhighlight-desc": "Gir syntaksframheving <code>&lt;syntaxhighlight&gt;</code> ved hjelp av [http://pygments.org/ Pygments]",
+	"syntaxhighlight-error-category": "Sider med feil på syntaksfremheving",
+	"syntaxhighlight-error-category-desc": "Det oppstod en feil under forsøk på syntaksfremheving inne på siden.",
+	"syntaxhighlight-enclose-category": "Sider som bruker utgåtte enclose-attributter",
+	"syntaxhighlight-enclose-category-desc": "Syntaxhighlighting på siden bruker den utgåtte enclose-syntaksen.",
+	"syntaxhighlight-source-category": "Sider som bruker utgåtte source-tagger",
+	"syntaxhighlight-source-category-desc": "Syntaxhighlighting på siden bruker utgåtte source-tagger.",
+	"syntaxhighlight-visualeditor-mwsyntaxhighlightinspector-code": "Kode",
+	"syntaxhighlight-visualeditor-mwsyntaxhighlightinspector-language": "Språk",
+	"syntaxhighlight-visualeditor-mwsyntaxhighlightinspector-none": "(ingen)",
+	"syntaxhighlight-visualeditor-mwsyntaxhighlightinspector-showlines": "Vis linjenummer",
+	"syntaxhighlight-visualeditor-mwsyntaxhighlightinspector-startingline": "Første linjenummer",
+	"syntaxhighlight-visualeditor-mwsyntaxhighlightinspector-title": "Kodeblokk",
+	"syntaxhighlight-error-pygments-invocation-failure": "Kunne ikke kalle Pygments",
+	"syntaxhighlight-error-unknown-language": "Ukjent språk «$1»",
+	"syntaxhighlight-error-exceeds-size-limit": "Kodestørrelse $1 {{PLURAL:$1|bytes}} er over tillatt maksimum på $2 {{PLURAL:$2|bytes}}"
+}

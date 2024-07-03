@@ -1,0 +1,39 @@
+{
+	"@metadata": {
+		"authors": [
+			"Anakmalaysia",
+			"Aurora",
+			"Aviator",
+			"Jeluang Terluang",
+			"Kurniasan",
+			"Pizza1016",
+			"Hakimi97"
+		]
+	},
+	"thanks-desc": "Menambah pautan yang membolehkan pengguna mengirim ucapan terima kasih atas suntingan, ulasan, dan sebagainya.",
+	"thanks-thank": "{{GENDER:$1|{{GENDER:$2|hargai}}}}",
+	"thanks-thanked": "{{GENDER:$1|telah berterima kasih}}",
+	"thanks-button-thank": "Terima kasih",
+	"thanks-button-thanked": "Kasih diterima",
+	"thanks-error-undefined": "Tindakan terima kasih gagal. Sila cuba lagi.",
+	"thanks-error-invalidrevision": "ID semakan tidak sah.",
+	"thanks-error-ratelimited": "Anda telah melampaui had kadar anda. Sila tunggu seketika, kemudian cuba lagi.",
+	"thanks-thank-tooltip": "{{GENDER:$1|Hantar}} ucapan terima kasih kepada {{GENDER:$2|pengguna}} ini",
+	"thanks-confirmation2": "{{GENDER:$1|Ucapkan}} terima kasih atas suntingan ini?",
+	"thanks-thanked-notice": "$1 telah diberitahu bahawa anda menghargai suntingan {{GENDER:$2|beliau|beliau|beliau}}.",
+	"thanks": "Ucap terima kasih",
+	"thanks-submit": "Ucap terima kasih",
+	"echo-pref-subscription-edit-thank": "Berterima kasih pada saya atas suntingan saya",
+	"echo-pref-tooltip-edit-thank": "Beritahu saya apabila seseorang berterima kasih kepada saya atas suntingan saya.",
+	"echo-category-title-edit-thank": "Terima kasih",
+	"log-name-thanks": "Log ucapan terima kasih",
+	"log-description-thanks": "Yang berikut ialah senarai pengguna yang menerima ucapan terima kasih daripada pengguna lain.",
+	"logentry-thanks-thank": "$1 ucap terima kasih kepada $3",
+	"thanks-error-no-id-specified": "Anda hendaklah menyatakan ID semakan untuk mengirim ucapan terima kasih.",
+	"thanks-confirmation-special-log": "Adakah anda ingin berterima kasih secara terbuka untuk tindakan log ini?",
+	"thanks-confirmation-special-rev": "Adakah anda ingin berterima kasih secara terbuka untuk suntingan ini?",
+	"notification-link-text-view-post": "Lihat ulasan",
+	"thanks-error-invalidpostid": "ID kiriam tak sah.",
+	"flow-thanks-confirmation-special": "Adakah anda mahu mengirim ucapan terima kasih atas ulasan ini?",
+	"flow-thanks-thanked-notice": "$1 telah diberitahu bahawa anda menyukai ulasan beliau."
+}

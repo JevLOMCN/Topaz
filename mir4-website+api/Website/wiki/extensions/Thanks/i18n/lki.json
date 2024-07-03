@@ -1,0 +1,36 @@
+{
+	"@metadata": {
+		"authors": [
+			"Alp Er Tunqa",
+			"Hosseinblue",
+			"Macofe"
+		]
+	},
+	"thanks-desc": "پیوندی برای تشکر کاربران برای ویرایش‌ها، توضیحات و ... اضافه می‌کند.",
+	"thanks-thank": "{{GENDER:$1|{{GENDER:$2|thank}}}}",
+	"thanks-thanked": "{{GENDER:$1|{{GENDER:$2|سپاسگزاری بی}}}}",
+	"thanks-button-thank": "{{GENDER:$1|{{GENDER:$2|سپاسگزار}}}}",
+	"thanks-button-thanked": "{{GENDER:$1|{{GENDER:$2|سپاسگزاری بی}}}}",
+	"thanks-error-undefined": "سپاسگزاری نؤی. لطفاً دوباره سعی کنید.",
+	"thanks-error-invalidrevision": "شناسهٔ نسخه معتبر نیست.",
+	"thanks-error-ratelimited": "{{GENDER:$1|هؤمة}} از محدودهٔ سرعت مجاز فراتر رفته‌اید. لطفاً کمی صبر کنید و دوباره امتحان کنید.",
+	"thanks-thank-tooltip": "{{GENDER:$1|Send}} a thank you notification to this {{GENDER:$2|user}}",
+	"thanks-thank-tooltip-no": "آگاه‌سازی تشکر از شما را {{GENDER:$1|لغو کنید}}",
+	"thanks-thank-tooltip-yes": "آگاه‌سازی تشکر از شما را {{GENDER:$1|/کِل کةن * بفرستید}}",
+	"thanks-confirmation2": "{{GENDER:$1|فرستادن*کِل کردن}} تشکر علنی برای این ویرایش؟",
+	"thanks-thanked-notice": "$1 تشکر شما از ویرایش{{GENDER:$2|ش|ش|ش}} را دریافت کرد.",
+	"thanks": "کِل کردن سپاسگزاریةل",
+	"thanks-submit": "کِل کردن سپاسگزاری",
+	"echo-pref-subscription-edit-thank": "برای ویرایش‌هایم از من سپاسگزاری کن",
+	"echo-pref-tooltip-edit-thank": "وقتی کسی از ویرایش‌های من تشکر می‌کند مرا آگاه کن.",
+	"echo-category-title-edit-thank": " سپاسگزاریةل",
+	"notification-header-rev-thank": "$1 به خاطر ویرایشتان در $3 از {{GENDER:$4|شما}} {{GENDER:$2|تشکر کرد}}.",
+	"log-name-thanks": "سیاههٔ تشکرها",
+	"log-description-thanks": "این فهرستی است از کاربرانی که کاربران دیگر از آن‌ها تشکر کرده‌اند.",
+	"logentry-thanks-thank": "$1  {{GENDER:$4|$3}}دن {{GENDER:$2|تشکور ائتدی}}",
+	"thanks-error-no-id-specified": "شناسهٔ نسخه برای فرستادن تشکر را مشخص کنید.",
+	"notification-link-text-view-post": "نمایش گةپةل-قسةل",
+	"thanks-error-invalidpostid": "شناسهٔ پست معتبر نیست.",
+	"flow-thanks-confirmation-special": "می‌خواهید برای این نظر علناً تشکر بفرستید؟",
+	"flow-thanks-thanked-notice": "$1 تشکر شما را برای دیدگاه {{GENDER:$2|او|او|آنها}} دریافت کرد."
+}

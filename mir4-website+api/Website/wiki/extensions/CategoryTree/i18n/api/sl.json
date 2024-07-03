@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"Dbc334",
+			"Eleassar"
+		]
+	},
+	"apihelp-categorytree-summary": "Notranji modul za razširitev CategoryTree.",
+	"apihelp-categorytree-param-category": "Naslov v imenskem prostoru kategorij; če navedete predpono, jo bomo prezrli.",
+	"apihelp-categorytree-param-options": "Možnosti konstruktorja CategoryTree kot objekt JSON. Možnost <var>depth</var> je privzeto <kbd>1</kbd>.",
+	"apierror-categorytree-invalidjson": "Možnosti morajo biti veljaven objekt JSON.",
+	"apierror-categorytree-invalidjson-option": "Možnost »$1« vsebuje neveljavno vrednost."
+}

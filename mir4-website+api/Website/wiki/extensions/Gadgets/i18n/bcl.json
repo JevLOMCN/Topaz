@@ -1,0 +1,22 @@
+{
+	"@metadata": {
+		"authors": [
+			"Geopoet"
+		]
+	},
+	"gadgets-desc": "Minatugot sa mga paragamit na pumili nin kustombre [[Special:Gadgets|CSS and JavaScript gadgets]] sa saindang [[Special:Preferences#mw-prefsection-gadgets|preferences]]",
+	"prefs-gadgets": "Mga gadyet",
+	"gadgets-prefstext": "Sa ibaba yaon an sarong listahan kan espesyal na mga gadyet na saimong mapapagana para sa saimong panindog.\nIning mga gadyet haros nakabase sa JavaScript, kaya an JavaScript kaipong paganahon sa saimong kilyawan para an mga ini magagamit.\nTandai na ining mga gadyet mayo nin epekto kaining pahina nin mga kamuyahan.\n\nTandai man na ining mga espesyal na gadyet bakong parte kan panuklob nin MediaWiki, asin pirmehang pinagpauswag asin pinagmamantine nin mga paragamit sa saimong lokal na wiki.\n\nAn mga lokal na mga administrador makakaliwat kan  [[MediaWiki:Gadgets-definition|mga pakahulugan]] asin [[Special:Gadgets|mga deskripsyon]] kan yaon na mga gadyet.",
+	"special-gadgets": "Mga gadyet",
+	"gadgets-title": "Mga gadyet",
+	"gadgets-pagetext": "Sa ibaba yaon an sarong listahan kan espesyal na mga gadyet na an mga paragamit mapapagana sa saindang [[Special:Preferences#mw-prefsection-gadgets|pahina nin mga kamuyahan]], siring sa pinapakahulugan kan [[MediaWiki:Gadgets-definition|mga pakahulugan]]. Ining patanawon minatao nin yanong langkayan sa mga pahina kan mensahe sa sistema na minakahulugan sa lambang deskripsyon nin gadyet asin koda.",
+	"gadgets-uses": "Mga magagamitan",
+	"gadgets-required-rights": "Minahagad kan minasunod {{PLURAL:$2|katanosan|mga katanosan}}:\n\n\n$1",
+	"gadgets-required-skins": "Makukua sa {{PLURAL:$2|$1 kublit|minasunod na mga kublit: $1}}.",
+	"gadgets-default": "Tugmadong pinagpapagana para sa kagabsan.",
+	"gadgets-export": "Eksport",
+	"gadgets-export-title": "Gadyet eksport",
+	"gadgets-not-found": "Gadyet na \"$1\" dae nanagboan.",
+	"gadgets-export-text": "Tanganing ma-eksport an $1 na gadyet, paki-klik an \"{{int:gadgets-export-download}}\" pindutan, itagama an naikargang sagunson, magduman sa Espesyal:Importaron sa wiking destinasyon and ikarga ini. An sunod idugang an minasunod sa MediaWiki:Mga Gadyet-pakahulugang pahina: <pre>$2</pre> Ika dapat magkaigwa nin makanigong mga permiso sa wiking destination (kabali na an katanosan na magliwat nin pansistemang mga mensahe) asin an mag-importa gikan sa ikinakargang mga sagunson na dapat kaipong pinagpagana.",
+	"gadgets-export-download": "Kargahon"
+}

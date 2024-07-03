@@ -1,0 +1,299 @@
+!! Version 2
+#
+# This file will hold tests for table fixup dom handlers.
+# For now, we are only adding tests for unsupported scenarios here.
+# Eventually, once the monolithic parser test file is split up,
+# all table fixup tests will move here.
+
+!! article
+Template:1x
+!! text
+{{{1}}}
+!! endarticle
+
+!! article
+Template:td_class
+!! text
+class="foo"
+!! endarticle
+
+!! article
+Template:td_content
+!! text
+| foobar
+!! endarticle
+
+!! article
+Template:td_attrs_and_content
+!! text
+{{{1}}} | foobar
+!! endarticle
+
+!! article
+Template:td_attrs_and_content_with_newlines
+!! text
+class="foo" | foobar 
+  baz 
+!! endarticle
+
+!! article
+No Merging Here
+!! text
+Dummy article to suppress redlinks in tests
+!! end
+
+!! test
+Unsupported scenario: Cell combining with captions
+!! options
+parsoid=wt2html
+!! wikitext
+{|
+|+class="foo"{{1x|1={{!}}some caption}}
+|bar
+|}
+!! html/php
+<table>
+<caption class="foo">some caption
+</caption>
+<tbody><tr>
+<td>bar
+</td></tr></tbody></table>
+!! html/parsoid
+<table>
+<caption>class="foo"</caption><tbody about="#mwt1" typeof="mw:Transclusion" data-parsoid='{"pi":[[{"k":"1","named":true}]]}' data-mw='{"parts":[{"template":{"target":{"wt":"1x","href":"./Template:1x"},"params":{"1":{"wt":"{{!}}some caption"}},"i":0}},"\n|bar\n"]}'><tr><td>some caption</td>
+<td>bar</td></tr>
+</tbody></table>
+!! end
+
+!! test
+Unsupported scenario: Templated cell cannot merged with another templated cell
+!! options
+parsoid=wt2html
+!! wikitext
+{|
+|{{1x|1=class="foo"}}{{1x|1={{!}}foo}}
+|}
+!! html/php
+<table>
+<tbody><tr>
+<td class="foo">foo
+</td></tr></tbody></table>
+!! html/parsoid
+<table>
+<tbody><tr><td><span about="#mwt1" typeof="mw:Transclusion" data-parsoid='{"pi":[[{"k":"1","named":true}]]}' data-mw='{"parts":[{"template":{"target":{"wt":"1x","href":"./Template:1x"},"params":{"1":{"wt":"class=\"foo\""}},"i":0}}]}'>class="foo"</span></td><td about="#mwt2" typeof="mw:Transclusion" data-parsoid='{"pi":[[{"k":"1","named":true}]]}' data-mw='{"parts":[{"template":{"target":{"wt":"1x","href":"./Template:1x"},"params":{"1":{"wt":"{{!}}foo"}},"i":0}}]}'>foo</td></tr>
+</tbody></table>
+!! end
+
+!! test
+Unsupported scenario: Templated cell with attributes cannot combine with previous cell
+!! options
+parsoid=wt2html
+!! wikitext
+{|
+|class="foo"{{1x|1={{!}}title="foo"{{!}}foo}}
+|}
+!! html/php
+<table>
+<tbody><tr>
+<td class="foo">title="foo"|foo
+</td></tr></tbody></table>
+!! html/parsoid
+<table>
+<tbody><tr><td>class="foo"</td><td about="#mwt1" typeof="mw:Transclusion" data-parsoid='{"pi":[[{"k":"1","named":true}]]}' data-mw='{"parts":[{"template":{"target":{"wt":"1x","href":"./Template:1x"},"params":{"1":{"wt":"{{!}}title=\"foo\"{{!}}foo"}},"i":0}}]}'>title="foo"</td><td about="#mwt1">foo</td></tr>
+</tbody></table>
+!! end
+
+!! test
+Unsupported scenario: Templated cell cannot combine with previous cell with attributes
+!! options
+parsoid=wt2html
+!! wikitext
+{|
+|class="foo"|title="foo"{{1x|1={{!}}foo}}
+|}
+!! html/php
+<table>
+<tbody><tr>
+<td class="foo">title="foo"|foo
+</td></tr></tbody></table>
+!! html/parsoid
+<table>
+<tbody><tr><td class="foo">title="foo"</td><td about="#mwt1" typeof="mw:Transclusion" data-parsoid='{"pi":[[{"k":"1","named":true}]]}' data-mw='{"parts":[{"template":{"target":{"wt":"1x","href":"./Template:1x"},"params":{"1":{"wt":"{{!}}foo"}},"i":0}}]}'>foo</td></tr>
+</tbody></table>
+!! end
+
+!! test
+Table cell attributes and content from multiple templates
+!! wikitext
+{|
+|-
+| {{td_class}} {{td_attrs_and_content|1=style='border:1px solid blue'}} baz
+|}
+!! html/php
+<table>
+
+<tbody><tr>
+<td class="foo" style="border:1px solid blue">foobar baz
+</td></tr></tbody></table>
+!! html/parsoid
+<table>
+<tbody><tr data-parsoid='{"startTagSrc":"|-"}'>
+<td class="foo" style="border:1px solid blue" typeof="mw:Transclusion" about="#mwt2" data-parsoid='{"pi":[[],[{"k":"1","named":true}]]}' data-mw='{"parts":["| ",{"template":{"target":{"wt":"td_class","href":"./Template:Td_class"},"params":{},"i":0}}," ",{"template":{"target":{"wt":"td_attrs_and_content","href":"./Template:Td_attrs_and_content"},"params":{"1":{"wt":"style=&apos;border:1px solid blue&apos;"}},"i":1}}," baz"]}'>foobar baz</td></tr>
+</tbody></table>
+!! end
+
+!! test
+Table cell attribute merging edge cases
+!! config
+wgParserEnableLegacyMediaDOM=false
+!! wikitext
+{|
+| {{td_attrs_and_content|1=<div>foo</div> class="foo"}} baz
+|-
+|{{td_attrs_and_content|1=[[No Merging Here]] class="foo"}} baz
+|-
+|{{td_attrs_and_content|1=[[File:Foo.jpg]] class="foo"}} baz
+|}
+!! html/php
+<table>
+<tbody><tr>
+<td class="foo">foobar baz
+</td></tr>
+<tr>
+<td><a href="/wiki/No_Merging_Here" title="No Merging Here">No Merging Here</a> class="foo" | foobar baz
+</td></tr>
+<tr>
+<td><span class="mw-default-size" typeof="mw:Error mw:File"><a href="/index.php?title=Special:Upload&amp;wpDestFile=Foo.jpg" class="new" title="File:Foo.jpg"><span class="mw-file-element mw-broken-media">File:Foo.jpg</span></a></span> class="foo" | foobar baz
+</td></tr></tbody></table>
+!! html/parsoid
+<table>
+<tbody><tr data-parsoid='{"autoInsertedStart":true}'><td class="foo" typeof="mw:Transclusion" about="#mwt1" data-parsoid='{"pi":[[{"k":"1","named":true}]]}' data-mw='{"parts":["| ",{"template":{"target":{"wt":"td_attrs_and_content","href":"./Template:Td_attrs_and_content"},"params":{"1":{"wt":"&lt;div>foo&lt;/div> class=\"foo\""}},"i":0}}," baz"]}'>foobar baz</td></tr>
+<tr data-parsoid='{"startTagSrc":"|-"}'>
+<td><a rel="mw:WikiLink" href="./No_Merging_Here" title="No Merging Here" about="#mwt2" typeof="mw:Transclusion" data-parsoid='{"stx":"simple","a":{"href":"./No_Merging_Here"},"sa":{"href":"No Merging Here"},"pi":[[{"k":"1","named":true}]]}' data-mw='{"parts":[{"template":{"target":{"wt":"td_attrs_and_content","href":"./Template:Td_attrs_and_content"},"params":{"1":{"wt":"[[No Merging Here]] class=\"foo\""}},"i":0}}]}'>No Merging Here</a><span about="#mwt2"> class="foo" | foobar</span> baz</td></tr>
+<tr data-parsoid='{"startTagSrc":"|-"}'>
+<td><span class="mw-default-size" typeof="mw:Transclusion mw:Error mw:File" about="#mwt3" data-parsoid='{"optList":[],"pi":[[{"k":"1","named":true}]]}' data-mw='{"errors":[{"key":"apierror-filedoesnotexist","message":"This image does not exist."}],"parts":[{"template":{"target":{"wt":"td_attrs_and_content","href":"./Template:Td_attrs_and_content"},"params":{"1":{"wt":"[[File:Foo.jpg]] class=\"foo\""}},"i":0}}]}'><a href="./Special:FilePath/Foo.jpg"><span class="mw-file-element mw-broken-media" resource="./File:Foo.jpg">File:Foo.jpg</span></a></span><span about="#mwt3"> class="foo" | foobar</span> baz</td></tr>
+</tbody></table>
+!! end
+
+!! test
+Fixup of interrupted table-cell parsing because of multi-line transclusion
+!! wikitext
+{|
+! class="c1" |Col 1.1!! class="c2" |{{1x|
+1=Col 1.2}}!! class="c3" |Col 1.3!! class="c4" |Col 1.4
+! class="d1" |Col 2.1!! class="d2" |{{1x|
+1=Col 2.2}}!! class="d3" |Col 2.3! abcd!! class="d4" |Col 2.4
+| class="e1" |Col 3.1|| class="e2" |{{1x|
+1=Col 3.2}}|| class="e3" |Col 3.3| abcd|| class="e4" |Col 3.4
+|}
+!! html/php
+<table>
+<tbody><tr>
+<th class="c1">Col 1.1</th>
+<th class="c2">Col 1.2</th>
+<th class="c3">Col 1.3</th>
+<th class="c4">Col 1.4
+</th>
+<th class="d1">Col 2.1</th>
+<th class="d2">Col 2.2</th>
+<th class="d3">Col 2.3! abcd</th>
+<th class="d4">Col 2.4
+</th>
+<td class="e1">Col 3.1</td>
+<td class="e2">Col 3.2</td>
+<td class="e3">Col 3.3| abcd</td>
+<td class="e4">Col 3.4
+</td></tr></tbody></table>
+!! html/parsoid
+<table>
+<tbody><tr><th class="c1">Col 1.1</th><th class="c2" data-parsoid='{"stx":"row"}'><span about="#mwt1" typeof="mw:Transclusion" data-parsoid='{"pi":[[{"k":"1","named":true,"spc":["\n","","",""]}]]}' data-mw='{"parts":[{"template":{"target":{"wt":"1x","href":"./Template:1x"},"params":{"1":{"wt":"Col 1.2"}},"i":0}}]}'>Col 1.2</span></th><th class="c3" data-parsoid='{"stx":"row"}'>Col 1.3</th><th class="c4" data-parsoid='{"stx":"row"}'>Col 1.4</th>
+<th class="d1">Col 2.1</th><th class="d2" data-parsoid='{"stx":"row"}'><span about="#mwt2" typeof="mw:Transclusion" data-parsoid='{"pi":[[{"k":"1","named":true,"spc":["\n","","",""]}]]}' data-mw='{"parts":[{"template":{"target":{"wt":"1x","href":"./Template:1x"},"params":{"1":{"wt":"Col 2.2"}},"i":0}}]}'>Col 2.2</span></th><th class="d3" data-parsoid='{"stx":"row"}'>Col 2.3! abcd</th><th class="d4" data-parsoid='{"stx":"row"}'>Col 2.4</th>
+<td class="e1">Col 3.1</td><td class="e2" data-parsoid='{"stx":"row"}'><span about="#mwt3" typeof="mw:Transclusion" data-parsoid='{"pi":[[{"k":"1","named":true,"spc":["\n","","",""]}]]}' data-mw='{"parts":[{"template":{"target":{"wt":"1x","href":"./Template:1x"},"params":{"1":{"wt":"Col 3.2"}},"i":0}}]}'>Col 3.2</span></td><td class="e3" data-parsoid='{"stx":"row"}'>Col 3.3| abcd</td><td class="e4" data-parsoid='{"stx":"row"}'>Col 3.4</td></tr>
+</tbody></table>
+!! end
+
+!! test
+Ensure newlines in collected attribute doesn't trip up reparsing
+!! wikitext
+{|
+|rowspan="1" {{td_attrs_and_content_with_newlines}}
+|}
+!! html/php
+<table>
+<tbody><tr>
+<td rowspan="1" class="foo">foobar
+<pre> baz
+</pre>
+</td></tr></tbody></table>
+!! html/parsoid
+<table>
+<tbody><tr><td rowspan="1" class="foo" typeof="mw:Transclusion" about="#mwt1" data-parsoid='{"pi":[[]]}' data-mw='{"parts":["|rowspan=\"1\" ",{"template":{"target":{"wt":"td_attrs_and_content_with_newlines","href":"./Template:Td_attrs_and_content_with_newlines"},"params":{},"i":0}}]}'>foobar 
+<pre about="#mwt1"> baz </pre></td></tr>
+</tbody></table>
+!! end
+
+!! test
+Ensure a cell with newlines doesn't combine with following cell
+!! wikitext
+{|
+|-
+| combined-and-lost {{td_content|}}
+|-
+|not combined
+ {{td_content|}}
+|}
+!! html/php
+<table>
+
+<tbody><tr>
+<td>foobar
+</td></tr>
+<tr>
+<td>not combined
+</td>
+<td>foobar
+</td></tr></tbody></table>
+!! html/parsoid
+<table>
+<tbody><tr data-parsoid='{"startTagSrc":"|-"}'>
+<td about="#mwt1" typeof="mw:Transclusion" data-parsoid='{"pi":[[{"k":"1"}]]}' data-mw='{"parts":["| combined-and-lost ",{"template":{"target":{"wt":"td_content","href":"./Template:Td_content"},"params":{"1":{"wt":""}},"i":0}}]}'>foobar</td></tr>
+<tr data-parsoid='{"startTagSrc":"|-"}'>
+<td>not combined
+ </td><td about="#mwt2" typeof="mw:Transclusion" data-parsoid='{"pi":[[{"k":"1"}]]}' data-mw='{"parts":[{"template":{"target":{"wt":"td_content","href":"./Template:Td_content"},"params":{"1":{"wt":""}},"i":0}}]}'>foobar</td></tr>
+</tbody></table>
+!! end
+
+!! test
+Table cell attributes and nested transclusions
+!! wikitext
+{|
+| '''{{td_attrs_and_content|1=style='border:1px solid blue;'}}'''
+|}
+!! html/php
+<table>
+<tbody><tr>
+<td>foobar<b></b>
+</td></tr></tbody></table>
+!! html/parsoid
+<table>
+<tbody><tr><td style="border:1px solid blue;" typeof="mw:Transclusion" about="#mwt1" data-mw='{"parts":["| &apos;&apos;&apos;",{"template":{"target":{"wt":"td_attrs_and_content","href":"./Template:Td_attrs_and_content"},"params":{"1":{"wt":"style=&apos;border:1px solid blue;&apos;"}},"i":0}},"&apos;&apos;&apos;"]}'>foobar</td></tr>
+</tbody></table>
+!! end
+
+!! test
+T331486: Newline entities should be properly handled while fixing up table cells
+!! wikitext
+{|
+|{{td_attrs_and_content|1=title="a&#10;b" class="xyz"}}
+|}
+!! html/php
+<table>
+<tbody><tr>
+<td title="a&#10;b" class="xyz">foobar
+</td></tr></tbody></table>
+!! html/parsoid
+<table>
+<tbody><tr><td title="a
+b" class="xyz" typeof="mw:Transclusion" about="#mwt1" data-mw='{"parts":["|",{"template":{"target":{"wt":"td_attrs_and_content","href":"./Template:Td_attrs_and_content"},"params":{"1":{"wt":"title=\"a&amp;#10;b\" class=\"xyz\""}},"i":0}}]}'>foobar</td></tr>
+</tbody></table>
+!! end

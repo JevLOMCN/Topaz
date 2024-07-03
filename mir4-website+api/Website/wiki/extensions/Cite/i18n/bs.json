@@ -1,0 +1,40 @@
+{
+	"@metadata": {
+		"authors": [
+			"CERminator",
+			"KWiki",
+			"Reedy",
+			"Semso98",
+			"Srdjan m",
+			"Srđan"
+		]
+	},
+	"cite-desc": "Dodaje oznake <code>&lt;ref[ name=id]&gt;</code> i <code>&lt;references/&gt;</code> za citiranje",
+	"cite_error": "Greška kod citiranja: $1",
+	"cite_error_ref_numeric_key": "Nevaljana oznaka <code>&lt;ref&gt;</code>;\nnaslov ne može biti jednostavni cijeli broj. Koristite opisni naslov",
+	"cite_error_ref_no_key": "Početna oznaka <code>&lt;ref&gt;</code> nije ispravno oblikovana ili sadrži neispravan naziv",
+	"cite_error_ref_too_many_keys": "Nevaljana oznaka <code>&lt;ref&gt;</code>;\nnevaljani nazivi, npr. možda ih je previše",
+	"cite_error_ref_no_input": "Nevaljana oznaka <code>&lt;ref&gt;</code>;\nreference bez naziva moraju imati sadržaj",
+	"cite_error_references_duplicate_key": "Neispravna oznaka <code>&lt;ref&gt;</code>; naziv \"$1\" definiran je nekoliko puta s različitim sadržajem",
+	"cite_error_references_invalid_parameters": "Neispravan parametar u oznaci <code>&lt;references&gt;</code>",
+	"cite_error_references_no_backlink_label": "Ponestalo je prilagođenih naslova backlinkova. Definirajte ih još u [[MediaWiki:Cite references link many format backlink labels]] poruci",
+	"cite_error_no_link_label_group": "Nedovoljan broj proizvoljnih naslova linkova za grupu \"$1\". Definišite više putem poruke [[MediaWiki:$2]].",
+	"cite_error_references_no_text": "Nevaljana oznaka <code>&lt;ref&gt;</code>;\nnije naveden tekst za reference s imenom <code>$1</code>",
+	"cite_error_included_ref": "Nedostaje oznaka za zatvaranje <code>&lt;/ref&gt;</code> nakon <code>&lt;ref&gt;</code>",
+	"cite_error_group_refs_without_references": "<code>&lt;ref&gt;</code> oznake postoje za grupu pod imenom \"$1\", ali nije pronađena pripadajuća <code>&lt;references group=\"$1\"/&gt;</code> oznaka, ili zatvarajući <code>&lt;/ref&gt;</code> nedostaje",
+	"cite_error_references_group_mismatch": "<code>&lt;ref&gt;</code> oznaka u <code>&lt;references&gt;</code> ima atribut grupe konflikta \"$1\".",
+	"cite_error_references_missing_key": "<code>&lt;ref&gt;</code> oznaka s imenom \"$1\" definirana u <code>&lt;references&gt;</code> nije korištena u ranijem tekstu.",
+	"cite_error_references_no_key": "<code>&lt;ref&gt;</code> oznaka definisana u <code>&lt;references&gt;</code> nema imenski atribut.",
+	"cite_error_empty_references_define": "<code>&lt;ref&gt;</code> oznaka definirana u <code>&lt;references&gt;</code> s imenom \"$1\" nema nikakvog sadržaja.",
+	"cite-tracking-category-cite-error": "Stranice s greškama u referencama",
+	"cite_references_link_accessibility_label": "Vrati se na vrh",
+	"cite_references_link_many_accessibility_label": "Vrati se na:",
+	"cite_section_preview_references": "Pregled referenci",
+	"cite_warning_sectionpreview_no_text": "Oznaka <code>&lt;ref&gt;</code> s nazivom <code>$1</code> ne može se prikazati jer je definirana van trenutnog odlomka ili uopće nije definirana.",
+	"cite-wikieditor-tool-reference": "Referenca",
+	"cite-wikieditor-help-page-references": "Reference",
+	"cite-wikieditor-help-content-reference-description": "Reference",
+	"cite-wikieditor-help-content-named-reference-description": "Imenovana referenca",
+	"cite-wikieditor-help-content-rereference-description": "Dodatna upotreba istog izvora",
+	"cite-wikieditor-help-content-showreferences-description": "Prikaži izvore"
+}

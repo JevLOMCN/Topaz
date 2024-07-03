@@ -1,0 +1,36 @@
+{
+	"@metadata": {
+		"authors": [
+			"J budissin",
+			"Michawiki"
+		]
+	},
+	"categorytree": "Kategorijowy štom",
+	"categorytree-portlet": "Kategorije",
+	"categorytree-legend": "Kategorijowy štom pokazać",
+	"categorytree-desc": "Přisłušk (gadget) na zakładźe AJAX za [[Special:CategoryTree|zwobraznjenje struktury]] wikija",
+	"categorytree-header": "Zapodaj mjeno kategorije, zo by jeje wobsah jako štomowu strukturu pokazał. (Wužaduje sej JavaScript.)",
+	"categorytree-category": "Kategorija",
+	"categorytree-go": "Štom pokazać",
+	"categorytree-parents": "Nadkategorije",
+	"categorytree-mode-label": "Modus:",
+	"categorytree-mode-categories": "jenož kategorije",
+	"categorytree-mode-pages": "strony nimo wobrazow",
+	"categorytree-mode-all": "wšě strony",
+	"categorytree-collapse": "schować",
+	"categorytree-expand": "pokazać",
+	"categorytree-member-counts": "wobsahuje {{PLURAL:$1|1 podkategoriju|$1 podkategoriji|$1 podkategorije|$1 podkategorijow}}, {{PLURAL:$2|1 stronu|$2 stronje|$2 strony|$2 stronow}} a {{PLURAL:$3|1 dataju|$3 dataji|$3 dataje|$3 datajow}}",
+	"categorytree-num-categories": "$1 k",
+	"categorytree-num-pages": "$1 s",
+	"categorytree-num-files": "$1 d",
+	"categorytree-num-empty": "prózdna",
+	"categorytree-load": "začitać",
+	"categorytree-loading": "čita so…",
+	"categorytree-nothing-found": "ničo namakane",
+	"categorytree-no-subcategories": "žane podkategorije",
+	"categorytree-no-parent-categories": "žane nadrjadowane kategorije",
+	"categorytree-no-pages": "žane strony abo podkategorije",
+	"categorytree-not-found": "Kategorija ''$1'' njenamakana",
+	"categorytree-error": "Problem při čitanju datow.",
+	"categorytree-retry": "Prošu čakaj wokomik a spytaj potom hišće raz."
+}

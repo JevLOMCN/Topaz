@@ -1,0 +1,97 @@
+[
+	{
+		"placeholderHeading": false,
+		"type": "heading",
+		"range": [
+			"1/0/0",
+			"1/0/1"
+		],
+		"headingLevel": 2,
+		"level": 0,
+		"name": "h-Matma_Rex-20240207000100",
+		"id": "h-test-20240207000100",
+		"warnings": [],
+		"replies": [
+			{
+				"type": "comment",
+				"timestamp": "20240207000100",
+				"author": "Matma Rex",
+				"range": [
+					"1/2/0",
+					"1/2/2/29"
+				],
+				"signatureRanges": [
+					[
+						"1/2/1",
+						"1/2/2/29"
+					]
+				],
+				"timestampRanges": [
+					[
+						"1/2/2/1",
+						"1/2/2/29"
+					]
+				],
+				"level": 1,
+				"name": "c-Matma_Rex-20240207000100",
+				"id": "c-Matma_Rex-20240207000100-test",
+				"warnings": [],
+				"replies": [
+					{
+						"type": "comment",
+						"timestamp": "20240207000200",
+						"author": "Matma Rex",
+						"range": [
+							"1/4/0/0",
+							"1/4/0/1/1/29"
+						],
+						"signatureRanges": [
+							[
+								"1/4/0/1/0",
+								"1/4/0/1/1/29"
+							]
+						],
+						"timestampRanges": [
+							[
+								"1/4/0/1/1/1",
+								"1/4/0/1/1/29"
+							]
+						],
+						"level": 2,
+						"name": "c-Matma_Rex-20240207000200",
+						"id": "c-Matma_Rex-20240207000200-Matma_Rex-20240207000100",
+						"warnings": [],
+						"replies": [
+							{
+								"type": "comment",
+								"timestamp": "20240207000300",
+								"author": "Matma Rex",
+								"range": [
+									"1/4/0/1/2/0/0",
+									"1/4/0/1/2/0/2/30"
+								],
+								"signatureRanges": [
+									[
+										"1/4/0/1/2/0/1",
+										"1/4/0/1/2/0/2/30"
+									]
+								],
+								"timestampRanges": [
+									[
+										"1/4/0/1/2/0/2/2",
+										"1/4/0/1/2/0/2/30"
+									]
+								],
+								"level": 3,
+								"name": "c-Matma_Rex-20240207000300",
+								"id": "c-Matma_Rex-20240207000300-Matma_Rex-20240207000200",
+								"warnings": [],
+								"replies": []
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+]

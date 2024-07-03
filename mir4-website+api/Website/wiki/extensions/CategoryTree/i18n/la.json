@@ -1,0 +1,32 @@
+{
+	"@metadata": {
+		"authors": [
+			"Lesgles",
+			"UV"
+		]
+	},
+	"categorytree": "Categoriarum arbor",
+	"categorytree-portlet": "Categoriae",
+	"categorytree-legend": "Categoriarum arborem monstrare",
+	"categorytree-header": "Titulum categoriae inscribe ad categoriam hanc quasi arborem videndum. JavaScript et AJAX necesse sunt. Si navigatrum veterrimum habes vel si JavaScript potestatem non fecisti, hac pagina non uti poteris.",
+	"categorytree-category": "Categoria",
+	"categorytree-go": "Arborem monstrare",
+	"categorytree-parents": "Parentes",
+	"categorytree-mode-categories": "modo categoriae",
+	"categorytree-mode-pages": "paginae nisi fasciculi",
+	"categorytree-mode-all": "omnes paginae",
+	"categorytree-collapse": "collabi",
+	"categorytree-expand": "dilatare",
+	"categorytree-member-counts": "continet {{PLURAL:$1|1 subcategoriam|$1 subcategorias}}, {{PLURAL:$2|1 paginam|$2 paginas}} et {{PLURAL:$3|1 fasciculum|$3 fasciculos}}",
+	"categorytree-num-categories": "$1 cat.",
+	"categorytree-num-pages": "$1 {{PLURAL:$1|p.|pp.}}",
+	"categorytree-num-files": "$1 fasc.",
+	"categorytree-num-empty": "vacua",
+	"categorytree-load": "depromere",
+	"categorytree-loading": "depromens…",
+	"categorytree-nothing-found": "nullum inventum",
+	"categorytree-no-subcategories": "nullae subcategoriae",
+	"categorytree-no-parent-categories": "nullae supercategoriae",
+	"categorytree-no-pages": "nec paginae nec subcategoriae",
+	"categorytree-not-found": "Categoria <i>$1</i> non inventa"
+}

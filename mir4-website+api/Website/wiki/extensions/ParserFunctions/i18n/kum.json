@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Arsenekoumyk",
+			"ArslanX"
+		]
+	},
+	"pfunc_time_error": "Хата: терс заман",
+	"pfunc_expr_unrecognised_word": "Жумла хата: белгисиз сёз \"$1\".",
+	"pfunc_expr_unexpected_operator": "Жумла янгылыш:гёзленмейген оператор $1.",
+	"pfunc_expr_missing_operand": "Жумла янгылышы: $1 операнд етишмей",
+	"pfunc_expr_unrecognised_punctuation": "Жумла хата: белгисиз бюртюклев ишара \"$1\".",
+	"pfunc_expr_division_by_zero": "Сыфыргъа бёлюв"
+}

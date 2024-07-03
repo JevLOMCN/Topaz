@@ -1,0 +1,25 @@
+{
+	"@metadata": {
+		"authors": [
+			"ANDROBETA",
+			"Alesaru",
+			"NGC 54",
+			"Wintereu"
+		]
+	},
+	"apihelp-block-summary": "Blochează un utilizator.",
+	"apihelp-block-param-reason": "Motivul blocării.",
+	"apihelp-delete-summary": "Șterge o pagină.",
+	"apihelp-delete-param-title": "Titlul paginii de șters. Nu poate fi folosit împreună cu <var>$1pageid</var>.",
+	"apihelp-delete-param-pageid": "ID-ul paginii de șters. Nu poate fi folosit împreună cu <var>$1title</var>.",
+	"apihelp-delete-param-reason": "Motivul ștergerii. Dacă nu e specificat, va fi folosit un motiv generat automat.",
+	"apihelp-disabled-summary": "Acest modul a fost dezactivat.",
+	"apihelp-edit-summary": "Creează și modifică pagini.",
+	"apihelp-edit-example-edit": "Modifică o pagină.",
+	"apihelp-expandtemplates-param-title": "Titlul paginii.",
+	"apihelp-expandtemplates-param-text": "Wikitext de convertit.",
+	"apihelp-query+extlinks-param-protocol": "Protocolul URL-ului. Dacă este gol și <var>$1query</var> este setat, protocolul este <kbd>http</kbd> și <kbd>https</kbd>. Lăsați atât aceasta, cât și <var>$1query</var> goale pentru a lista toate legăturile externe.",
+	"apihelp-query+exturlusage-param-protocol": "\nProtocolul URL-ului. Dacă <var>interogarea este goală și $1</var> este setată, protocolul este <kbd>http</kbd> și <kbd>https</kbd> . Lăsați atât aceasta, cât și <var>interogarea $1</var> goale pentru a lista toate linkurile externe.",
+	"api-help-parameters-note": "Alți parametri generali sunt disponibili.",
+	"apierror-readonly": "Wiki-ul este în prezent în modul doar de citit."
+}

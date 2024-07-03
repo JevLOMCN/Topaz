@@ -1,0 +1,21 @@
+{
+	"@metadata": {
+		"authors": [
+			"McDutchie"
+		]
+	},
+	"codeeditor-desc": "Modification con coloration syntactic pro paginas con JavaScript e CSS usante le [https://ace.c9.io/ editor Ace]",
+	"codeeditor-next-annotation": "Annotation sequente",
+	"codeeditor-toolbar-toggle": "Activar o disactivar le editor de codice",
+	"codeeditor-save-with-errors": "Le documento contine errores. Es tu secur de voler publicar lo?",
+	"codeeditor-invisibleChars-toggle": "Commutar characteres invisibile",
+	"codeeditor-lineWrapping-toggle": "Commutar ruptura de lineas",
+	"codeeditor-searchReplace-toggle": "Commutar dialogo cercar e reimplaciar",
+	"codeeditor-gotoline": "Vader al linea numero...",
+	"codeeditor-gotoline-placeholder": "linea[:columna]",
+	"codeeditor-gotoline-prompt": "Entra un numero de linea",
+	"codeeditor-indent": "Indentar",
+	"codeeditor-outdent": "Disindentar",
+	"codeeditor-error-title": "Dependentia fallite",
+	"codeeditor-error-message": "CodeEditor require que WikiEditor es cargate."
+}

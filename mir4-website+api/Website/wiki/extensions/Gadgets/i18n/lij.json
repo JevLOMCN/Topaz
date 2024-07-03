@@ -1,0 +1,33 @@
+{
+	"@metadata": {
+		"authors": [
+			"Giromin Cangiaxo"
+		]
+	},
+	"gadgets-desc": "O consente a-i utenti de selessionâ [[Special:Gadgets|angæxi CSS e JavaScript]] inte proppie [[Special:Preferences#mw-prefsection-gadgets|preferense]]",
+	"prefs-gadgets": "Angæxi",
+	"gadgets-prefstext": "De sotta gh'è 'na lista di angæxi speciali (''gadget'') che ti poeu abilitâ pe-a to utensa.\nQuesti angæxi son pe-o ciu bazæ in sciô JavaScript, e quindi ti g'hæ da abilitâ JavaScript into to navegatô pe fâli fonsionâ.\nNotta che i angæxi no g'han effetto inte sta paggina de preferense.\n\nNotta ascì che sti angæxi speciali no son compreixi into software MediaWiki e son de sollito realizæ e mantegnui da-i utenti d'ogni scito wiki.\nI aministratoî de l'interfaccia do scito poeuan modificâ e [[MediaWiki:Gadgets-definition|definissioin]] di angæxi disponibbili, e i amministratoî do scito poeuan modificâ e so [[Special:Gadgets|descrissioin]], dovve ti poeu amiâ o coddexo vivagna d'ogni angæzo. O nummero di utenti pi ogni angæzo insce sto wiki o l'è elencou inte [[Special:GadgetUsage|statisteghe d'uzo di angæxi]].",
+	"special-gadgets": "Gadget",
+	"gadgetusage": "Statisteghe insce l'uso di gadget",
+	"gadgetusage-gadget": "Angæzo",
+	"gadgetusage-usercount": "Nummero d'utenti",
+	"gadgetusage-noresults": "Nisciun gadget trovou.",
+	"gadgetusage-intro": "Questa tabella a l'indica o nummero di utenti ch'han attivou un angæzo insce questa wiki. Un utente attivo o l'è conscidiou quarcun chi ha fæto 'na modiffica {{PLURAL:$1|inte l'urtimo giorno|inti urtimi $1 giorni}}. Questo elenco o l'escludde e statisteghe pe-i angæxi abilitæ pe tutti pe impostassion predefinia e o poriæ inciode ascì de angæxi che no son ciù disponibbili.",
+	"gadgetusage-intro-noactive": "Questa tabella a l'indica o nummero di utenti ch'han attivou un gadget insce sta wiki. St'elenco o l'escludde e statisteghe pe-i gadget abilitæ pe tutti pe impostaçion predefinia e o poriæ includde di gadget che no son ciù disponibbili.",
+	"gadgetusage-activeusers": "Uténti atîvi",
+	"gadgetusage-default": "Predefinïo",
+	"gadgets-title": "Angæxi",
+	"gadgets-pagetext": "Chì aprœuvo gh'è 'na lista di gadget (\"accessoi\") che i utenti pœuan abilitâ inta so paggina de [[Special:Preferences#mw-prefsection-gadgets|preferençe]], segondo e [[MediaWiki:Gadgets-definition|definiçioin]]. Questa panoramica a fornisce un commodo mezo pe accede a-i messaggi de scistema inti quæ l'è definio a descriçion e o coddiçe de ciascun gadget.",
+	"gadgets-uses": "O doeuvia",
+	"gadgets-required-rights": "Ghe voeu {{PLURAL:$2|o seguente drito|i seguenti driti}}:\n\n$1",
+	"gadgets-required-skins": "Disponibbile {{PLURAL:$2|pe-a pelle $1|pe-e seguente pelle: $1}}.",
+	"gadgets-default": "Attivou pe tutti pe impostassion predefinia.",
+	"gadgets-legacy": "Angæzo non caregou. Migra a ResourceLoader. ([https://www.mediawiki.org/wiki/Special:MyLanguage/ResourceLoader/Migration_guide_(users) Pe saveine de ciù])",
+	"gadgets-export": "Esporta",
+	"gadgets-export-title": "Esporta angæzo",
+	"gadgets-not-found": "Angæzo \"$1\" non trovou.",
+	"gadgets-export-text": "Pe esportâ l'angæzo $1, clicca in sciô pomello \"{{int:gadgets-export-download}}\", sarva o file descaregou,\nvanni a-a paggina Special:Import inta wiki de destinassion e carreghilo. Quindi azonzi quante segue a-a paggina MediaWiki:Gadgets-definition:\n<pre>$2</pre>\nTe ghe voeu e permiscioin apropiæ inta wiki de destinassion (incioso o drito de modificâ i messaggi de scistema) e l'importassion da file a dev'ese abilitâ.",
+	"gadgets-export-download": "Scarrega",
+	"gadgets-validate-notset": "A propietæ <code>$1</code> a no l'è impostâ.",
+	"gadgets-validate-wrongtype": "A propietæ <code>$1</code> a dev'ese de tipo <code>$2</code> ansiché <code>$3</code>."
+}

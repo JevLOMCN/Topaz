@@ -1,0 +1,34 @@
+{
+    "<nowiki> inside <pre> (T15238)": {
+        "html2html": "<pre data-parsoid='{\"dsr\":[0,15,1,0]}'><span typeof=\"mw:Entity\" data-parsoid='{\"src\":\"&amp;lt;\",\"srcContent\":\"&lt;\",\"dsr\":[1,5,null,null]}'>&lt;</span>nowiki<span typeof=\"mw:Entity\" data-parsoid='{\"src\":\"&amp;gt;\",\"srcContent\":\">\",\"dsr\":[11,15,null,null]}'>></span></pre>\n<p data-parsoid='{\"dsr\":[16,18,0,0]}'>\n <br data-parsoid='{\"dsr\":[18,18,0,0]}'/></p>\n\n<pre data-parsoid='{\"dsr\":[20,53,1,0]}'><span typeof=\"mw:Entity\" data-parsoid='{\"src\":\"&amp;lt;\",\"srcContent\":\"&lt;\",\"dsr\":[21,25,null,null]}'>&lt;</span>nowiki<span typeof=\"mw:Entity\" data-parsoid='{\"src\":\"&amp;gt;\",\"srcContent\":\">\",\"dsr\":[31,35,null,null]}'>></span>Foo<span typeof=\"mw:Entity\" data-parsoid='{\"src\":\"&amp;lt;\",\"srcContent\":\"&lt;\",\"dsr\":[38,42,null,null]}'>&lt;</span>/nowiki<span typeof=\"mw:Entity\" data-parsoid='{\"src\":\"&amp;gt;\",\"srcContent\":\">\",\"dsr\":[49,53,null,null]}'>></span></pre>\n",
+        "html2wt": " &lt;nowiki&gt;\n\n \n\n &lt;nowiki&gt;Foo&lt;/nowiki&gt;\n"
+    },
+    "<pre> with attributes (T5202)": {
+        "html2html": "<pre data-parsoid='{\"dsr\":[0,24,1,0]}'>Bluescreen of WikiDeath</pre>\n",
+        "html2wt": " Bluescreen of WikiDeath\n"
+    },
+    "<pre> with forbidden attribute (T5202)": {
+        "html2html": "<pre data-parsoid='{\"dsr\":[0,22,1,0]}'>Narrow screen goodies</pre>\n",
+        "html2wt": " Narrow screen goodies\n"
+    },
+    "<pre> with forbidden attribute values (T5202)": {
+        "html2html": "<pre data-parsoid='{\"dsr\":[0,22,1,0]}'>Narrow screen goodies</pre>\n",
+        "html2wt": " Narrow screen goodies\n"
+    },
+    "<pre> with width attribute (T5202)": {
+        "html2html": "<pre data-parsoid='{\"dsr\":[0,22,1,0]}'>Narrow screen goodies</pre>\n",
+        "html2wt": " Narrow screen goodies\n"
+    },
+    "Entities inside <pre>": {
+        "html2wt": " <\n"
+    },
+    "HTML pre followed by indent-pre": {
+        "html2wt": " foo\n\n bar\n"
+    },
+    "HTML-pre: 2: indented text": {
+        "html2wt": "  foo\n"
+    },
+    "Less than in attribute position": {
+        "selser [0,2,[2]]": "<pre <pre>123</pre>6njtnz\n\n\n\n<div <div>zghs00123</div>"
+    }
+}

@@ -1,0 +1,20 @@
+{
+	"@metadata": {
+		"authors": [
+			"Alan Mena",
+			"Fitoschido",
+			"Toniher",
+			"Vfc"
+		]
+	},
+	"apihelp-abusefilterchecksyntax-example-1": "Comprova la sintaxi d’un filtre vàlid",
+	"apihelp-abusefilterchecksyntax-example-2": "Comprova la sintaxi d'un filtre no vàlid",
+	"apihelp-abusefilterevalexpression-example-1": "Evalua una expressió simple",
+	"apihelp-abusefilterunblockautopromote-param-user": "Nom d'usuari de la persona que vols desbloquejar.",
+	"apihelp-query+abusefilters-param-limit": "El nombre màxim de filtres per llistar.",
+	"apihelp-query+abusefilters-param-prop": "Quines propietats obtenir.",
+	"apihelp-query+abusefilters-example-1": "Llista els filtres públics habilitats",
+	"apihelp-query+abusefilters-example-2": "Mostra alguns detalls dels filtres",
+	"apihelp-query+abuselog-example-1": "Mostra les entrades recents del registre",
+	"apierror-abusefilter-badsyntax": "La sintaxi del filtre no és vàlida."
+}

@@ -1,0 +1,72 @@
+/*!
+ * VisualEditor ContentEditable TableNode styles.
+ *
+ * @copyright See AUTHORS.txt
+ */
+
+.ve-ce-tableNode {
+	border-spacing: 0;
+	border-collapse: collapse;
+	cursor: default;
+}
+
+.ve-ce-tableCaptionNode {
+	cursor: text;
+}
+
+.ve-ce-tableNode-active .ve-ce-tableCaptionNode,
+.ve-ce-tableCaptionNode.ve-ce-activeNode-active {
+	border: 1px dotted #c8ccd1;
+	border-bottom: 0;
+	margin-top: -1px;
+}
+
+.ve-ce-tableNodeOverlay {
+	position: absolute;
+	pointer-events: none;
+
+	.ve-ui-tableLineContext {
+		pointer-events: auto;
+	}
+
+	&-selection-box {
+		position: absolute;
+		background: rgba( 109, 169, 247, 0.3 ); /* #6da9f7 */
+		box-sizing: border-box;
+		opacity: 0.6;
+
+		.ve-ce-tableNodeOverlay-deactivated & {
+			background: rgba( 0, 0, 0, 0.3 );
+			opacity: 0.3;
+		}
+
+		&-notEditable {
+			background-image: repeating-linear-gradient( -45deg, transparent 0, transparent 5px, #95d14f 5px, #95d14f 10px );
+		}
+
+		&-anchor {
+			position: absolute;
+			border: solid 1px #6da9f7;
+			box-sizing: border-box;
+
+			.ve-ce-tableNodeOverlay-deactivated & {
+				border: solid 1px rgba( 0, 0, 0, 0.3 );
+			}
+		}
+
+		.ve-ce-tableNodeOverlay-editing & {
+			background: transparent;
+		}
+	}
+}
+
+.ve-ce-tableNode-missingCell {
+	border: 0 !important; /* stylelint-disable-line declaration-no-important */
+	padding: 0 !important; /* stylelint-disable-line declaration-no-important */
+
+	> .oo-ui-buttonWidget > .oo-ui-buttonElement-button {
+		/* Remove minimal dimensions, as they are larger than empty table cells */
+		padding-top: 0;
+		padding-left: 0;
+	}
+}

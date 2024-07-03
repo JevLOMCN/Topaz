@@ -1,0 +1,896 @@
+@import 'mediawiki.skin.variables.less';
+
+/* stylelint-disable no-descending-specificity */
+span[ data-mw-comment-start ] {
+	// Give comment anchors a negative offset so we don't position
+	// them right at the edge of the page when jumping to them.
+	// Use margin rather than position to avoid Chrome bug (T317135).
+	position: absolute;
+	margin-top: -1em;
+}
+
+// stylelint-disable-next-line stylistic/selector-list-comma-newline-after
+h1, h2, h3, h4, h5, h6 {
+	span[ data-mw-comment-end ] {
+		// Support: Safari
+		// Markers at the end of a line and before an inline-block (e.g. edit icon)
+		// can cause text to stop wrapping properly. (T298371)
+		display: inline-block;
+	}
+}
+
+.ext-discussiontools-init-replylink-buttons {
+	user-select: none;
+	display: none;
+
+	// If a site has text-indent set on content, it would be inherited here and cause excessive padding
+	text-indent: 0;
+
+	// Add space before the buttons using actual spaces rather than margin, so that they may collapse
+	// when the buttons wrap to a new line (T325416).
+	&::before {
+		// Must use character escapes to avoid CSS minifier messing up the spaces
+		content: '\20\20';
+		white-space: pre-wrap;
+	}
+
+	.ext-discussiontools-replytool-enabled & {
+		display: inline;
+
+		.client-nojs & {
+			display: none;
+		}
+	}
+
+	// Archived talk section (T295553)
+	.ext-discussiontools-replytool-enabled .mw-archivedtalk & {
+		// stylelint-disable-next-line declaration-no-important
+		display: none !important;
+	}
+
+	.ext-discussiontools-init-replylink {
+		&-reply {
+			cursor: pointer;
+		}
+
+		// Similar to mw-editsection-bracket
+		&-bracket {
+			color: @color-subtle;
+
+			.mw-content-ltr &:not( :last-child ),
+			.mw-content-rtl .mw-content-ltr &:not( :last-child ),
+			.mw-content-rtl &:last-child,
+			.mw-content-ltr .mw-content-rtl &:last-child {
+				/* @noflip */
+				margin-right: 0.25em;
+			}
+
+			.mw-content-ltr &:last-child,
+			.mw-content-rtl .mw-content-ltr &:last-child,
+			.mw-content-rtl &:not( :last-child ),
+			.mw-content-ltr .mw-content-rtl &:not( :last-child ), {
+				/* @noflip */
+				margin-left: 0.25em;
+			}
+		}
+	}
+
+	.ext-discussiontools-init-replylink-open & > .ext-discussiontools-init-replylink-reply {
+		color: #72777d;
+		pointer-events: none;
+	}
+
+	&.ext-discussiontools-init-replylink-active > .ext-discussiontools-init-replylink-reply {
+		color: @color-base;
+		text-decoration: none;
+	}
+
+	.ext-discussiontools-init-section-overflowMenuButton.oo-ui-widget-enabled > .oo-ui-buttonElement-button > .oo-ui-iconElement-icon:not( .oo-ui-image-invert ) {
+		opacity: 0.5;
+	}
+
+	// Flip the icon in LTR interface languages. Un-flip it in RTL.
+	// TODO This should use a different icon, with the image itself flipped (T325664).
+	// stylelint-disable-next-line selector-class-pattern
+	body.ltr & .ext-discussiontools-init-replybutton .oo-ui-iconElement-icon.oo-ui-icon-share {
+		transform: scaleX( -1 );
+	}
+
+	@media print {
+		// stylelint-disable-next-line declaration-no-important
+		display: none !important;
+	}
+}
+
+// Don't re-color :visited links that act as buttons (T319019)
+.ext-discussiontools-init-replylink-reply,
+.ext-discussiontools-init-section-subscribe-link {
+	&:visited {
+		color: @color-link;
+	}
+}
+
+.ext-discussiontools-init-timestamplink {
+	&,
+	&:visited,
+	&:active {
+		color: #72777d;
+	}
+}
+
+.ext-discussiontools-init-noMarker {
+	list-style: none;
+}
+
+.ext-discussiontools-init-highlight {
+	position: absolute;
+	pointer-events: none;
+	opacity: 0;
+	mix-blend-mode: darken;
+	// Support: Safari
+	// Safari doesn't blend this overlay with the text unless GPU rendering is forced.
+	transform: translateZ( 0 );
+}
+
+.ext-discussiontools-init-highlight-fadein {
+	opacity: 1;
+}
+
+.ext-discussiontools-init-highlight-fadeout {
+	opacity: 0;
+	transition: opacity 250ms ease-out;
+}
+
+.ext-discussiontools-init-publishedcomment {
+	background-color: #ffe29e;
+}
+
+.ext-discussiontools-init-targetcomment {
+	// Same color as the :target selector for references (from Cite).
+	// Not sure if that's a good idea, but it should be different from -publishedcomment.
+	background-color: #eaf3ff;
+}
+
+// Topic subscriptions (both kinds)
+/* stylelint-disable selector-max-id, selector-class-pattern */
+#ca-dt-page-subscribe,
+.menu__item--page-actions-overflow-t-page-subscribe,
+.ext-discussiontools-init-section-subscribe,
+.ext-discussiontools-init-section-subscribeButton {
+	// If JS is enabled, disable the buttons until it's loaded, so that users don't accidentally
+	// navigate to the no-JS interface.
+	// TODO: These clicks will be ignored, but ideally we would process them once ready (T183720).
+	.client-js:not( .ext-discussiontools-init-ready ) & {
+		pointer-events: none;
+	}
+}
+/* stylelint-enable selector-max-id, selector-class-pattern */
+
+.ext-discussiontools-visualenhancements-enabled .ext-discussiontools-init-section {
+	// Introduce a block formatting context so that floated "subscribe" links/buttons
+	// aren't affected by other floats (T327469). Most skins already include this rule
+	// for headings, but we add the floating stuff outside of headings (since T314714).
+	// https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Block_formatting_context
+	overflow: hidden;
+	// Prevent squishing too much (T335823)
+	min-width: 20em;
+
+	.mw-mf& {
+		// Prevent the overflow menu's focus ring from being clipped.
+		// We have no floated links/buttons on mobile, so this is okay.
+		overflow: visible;
+	}
+}
+
+// Topic subscriptions (link)
+.ext-discussiontools-init-section-subscribe {
+	display: none;
+
+	.ext-discussiontools-topicsubscription-enabled & {
+		display: block;
+	}
+
+	// Directional properties must be based on content direction.
+	.mw-content-ltr &,
+	.mw-content-rtl .mw-content-ltr & {
+		/* @noflip */
+		float: right;
+	}
+
+	.mw-content-rtl &,
+	.mw-content-ltr .mw-content-rtl & {
+		/* @noflip */
+		float: left;
+	}
+
+	&.mw-editsection-like {
+		-moz-user-select: none;
+		-webkit-user-select: none;
+		-ms-user-select: none;
+		user-select: none;
+		margin-top: 0.6em;
+		// Restore line height after Ie2ef68f3d0d
+		line-height: inherit;
+	}
+
+	.mw-mf & {
+		// Subscribe button is used instead on mobile
+		display: none;
+	}
+
+	// Similar to mw-editsection-bracket
+	&-bracket {
+		color: @color-subtle;
+
+		.mw-content-ltr &:first-child,
+		.mw-content-rtl .mw-content-ltr &:first-child,
+		.mw-content-rtl &:last-child,
+		.mw-content-ltr .mw-content-rtl &:last-child {
+			/* @noflip */
+			margin-right: 0.25em;
+		}
+
+		.mw-content-ltr &:last-child,
+		.mw-content-rtl .mw-content-ltr &:last-child,
+		.mw-content-rtl &:first-child,
+		.mw-content-ltr .mw-content-rtl &:first-child {
+			/* @noflip */
+			margin-left: 0.25em;
+		}
+	}
+
+	&-link&-link-pending {
+		color: #72777d;
+		pointer-events: none;
+	}
+
+	@media print {
+		// stylelint-disable-next-line declaration-no-important
+		display: none !important;
+	}
+}
+
+// Topic subscriptions (button)
+// Boost specificity by adding .oo-ui-buttonElement
+.ext-discussiontools-init-section-subscribeButton.oo-ui-buttonElement {
+	display: none;
+
+	> .oo-ui-buttonElement-button {
+		font-weight: normal;
+	}
+
+	.ext-discussiontools-topicsubscription-enabled.ext-discussiontools-visualenhancements-enabled & {
+		display: inline-block;
+	}
+
+	// Directional properties must be based on content direction.
+	body:not( .mw-mf ) .mw-content-ltr &,
+	body:not( .mw-mf ) .mw-content-rtl .mw-content-ltr & {
+		/* @noflip */
+		float: right;
+		/* @noflip */
+		// stylelint-disable-next-line declaration-no-important
+		margin: -2px 0 0 1em !important;
+	}
+
+	body:not( .mw-mf ) .mw-content-rtl &,
+	body:not( .mw-mf ) .mw-content-ltr .mw-content-rtl & {
+		/* @noflip */
+		float: left;
+		/* @noflip */
+		// stylelint-disable-next-line declaration-no-important
+		margin: -2px 1em 0 0 !important;
+	}
+
+	@media print {
+		// stylelint-disable-next-line declaration-no-important
+		display: none !important;
+	}
+}
+
+// Visual enhancements disabled
+.ext-discussiontools-init-section-bar,
+.ext-discussiontools-init-replybutton.oo-ui-buttonElement,
+.ext-discussiontools-init-pageframe-latestcomment,
+.ext-discussiontools-init-sidebar-meta {
+	display: none;
+}
+
+.ext-discussiontools-init-pageframe-latestcomment {
+	color: @color-subtle;
+}
+
+// Visual enhancements enabled
+// Reply sub-feature
+.ext-discussiontools-visualenhancements_reply-enabled {
+	.ext-discussiontools-init-replylink-bracket,
+	.ext-discussiontools-init-replylink-reply {
+		display: none;
+	}
+
+	.ext-discussiontools-init-replybutton {
+		display: inline-block;
+		margin-right: 0;
+	}
+
+	&:not( .mw-mf ) .ext-discussiontools-init-replylink-buttons .oo-ui-buttonElement {
+		// Slim height for inline placement. Minerva uses block placement.
+		margin-top: -8px;
+		margin-bottom: -8px;
+
+		&:not( .oo-ui-iconElement ) > .oo-ui-buttonElement-button {
+			padding: 4px 6px;
+		}
+
+		&.oo-ui-iconElement > .oo-ui-buttonElement-button {
+			padding-top: 4px;
+			padding-bottom: 4px;
+		}
+
+		&.oo-ui-buttonElement-frameless.oo-ui-labelElement:first-child {
+			// Cancel out 6px padding (set above) and 1px border (set in OOUI)
+			// to align the button text with surrounding text
+			margin-left: -7px;
+		}
+	}
+
+	// Use block placement for the reply buttons on mobile, to make them easier to tap.
+	&.mw-mf .ext-discussiontools-init-replylink-buttons {
+		display: block;
+
+		&::before {
+			// Remove the spaces that are used for inline placement (T325416), added at the top of this file.
+			content: '';
+		}
+	}
+}
+
+// Page frame sub-feature
+.ext-discussiontools-visualenhancements_pageframe-enabled {
+	.mw-page-title-separator {
+		// Support IE: We could use :after { content: ' '; } but IE doesn't follow
+		// the spec and inserts the space into the clipboard when copied.
+		margin-right: 0.25em;
+	}
+
+	.ext-discussiontools-init-pageframe-latestcomment {
+		display: block;
+	}
+
+	.ext-discussiontools-init-sidebar-meta {
+		display: block;
+		padding-bottom: 6px;
+		color: @color-subtle;
+		white-space: nowrap;
+	}
+}
+
+// Main feature (topic containers)
+.mw-mf .ext-discussiontools-init-section {
+	// Need to fix some styles on mobile even when the feature is not enabled
+	display: flex;
+	align-items: center;
+
+	> h2 {
+		flex-grow: 1;
+	}
+}
+
+.ext-discussiontools-visualenhancements-enabled {
+	h2.ext-discussiontools-ui-newTopic-sectionTitle {
+		font-size: 1.5em;
+	}
+
+	// Boost specificity
+	.ext-discussiontools-init-section.mw-heading2,
+	.ext-discussiontools-init-section {
+		margin: 36px 0 12px 0;
+		padding: 10px 0 0 0;
+		font-weight: bold;
+		// stylelint-disable-next-line declaration-no-important
+		font-family: sans-serif !important;
+		// stylelint-disable-next-line declaration-no-important
+		font-size: inherit !important;
+		border: 0;
+		border-top: @border-width-base @border-style-base @border-color-base;
+
+		h2 {
+			margin: 0;
+			padding: 0;
+			font-weight: bold;
+			// stylelint-disable-next-line declaration-no-important
+			font-family: sans-serif !important;
+			font-size: 1.5em;
+			border: 0;
+		}
+
+		// Hide old subscribe link
+		&-subscribe {
+			display: none;
+		}
+
+		&-bar {
+			display: flex;
+			// Use interface language direction (auto-flipped for RTL)
+			direction: ltr;
+		}
+
+		&-metadata {
+			display: flex;
+			flex-wrap: wrap;
+		}
+
+		&-metaitem {
+			font-weight: normal;
+			color: @color-subtle;
+			// Make same height as "unsubscribe" button
+			margin: 7px 0;
+
+			& + .ext-discussiontools-init-section-metaitem {
+				margin-left: 12px;
+				padding-left: 12px;
+				border-left: @border-width-base @border-style-base @border-color-base;
+			}
+		}
+	}
+
+	// [Old Parser HTML] Hide the border-top (section divider) if:
+	/* Our section heading is the first element on the page */
+	.mw-parser-output > .ext-discussiontools-init-section:first-child,
+	/* Our section heading is the first element on the page, except for invisible TOC placeholder */
+	.mw-parser-output > meta:first-child + .ext-discussiontools-init-section,
+	/* Our section heading directly follows a <h1> heading (which has border-bottom on most skins) */
+	h1 + .ext-discussiontools-init-section {
+		border-top: 0;
+		margin-top: 0;
+	}
+
+	// [Parsoid HTML] Hide the border-top (section divider) if:
+	/* Our section heading is the first element on the page */
+	.mw-parser-output > section:first-child:empty + section > .ext-discussiontools-init-section,
+	/* Our section heading directly follows a <h1> heading (which has border-bottom on most skins) */
+	h1 + section > .ext-discussiontools-init-section {
+		border-top: 0;
+		margin-top: 0;
+	}
+
+	// This needs to be a separate rule, because the :has() selector is not yet supported by all browsers
+	// Support: Firefox <= 120, Chrome <= 105, Safari <= 15.3 (https://caniuse.com/css-has)
+	/* Our section heading is the first element on the page, except for invisible TOC placeholder */
+	.mw-parser-output > section:first-child:has( > meta:only-child ) + section > .ext-discussiontools-init-section {
+		border-top: 0;
+		margin-top: 0;
+	}
+
+	// Also re-style topic header input in new topic tool
+	h2.ext-discussiontools-ui-newTopic-sectionTitle .oo-ui-inputWidget-input {
+		font-weight: bold;
+		font-family: sans-serif;
+	}
+
+	&.mw-mf h2.ext-discussiontools-ui-newTopic-sectionTitle {
+		font-size: 1.125em;
+	}
+
+	// Mobile
+	&.mw-mf .ext-discussiontools-init-section {
+		flex-wrap: wrap;
+		// stylelint-disable-next-line declaration-no-important
+		align-items: flex-start !important;
+		// stylelint-disable-next-line declaration-no-important
+		border-bottom: 0 !important;
+		margin: 5px 0 0 0;
+		padding-bottom: 0;
+		// The tap-highlight is an odd shape and shows even for cancelled events on -actions,
+		// just hide it.
+		-webkit-tap-highlight-color: transparent;
+		border-top: @border-width-base @border-style-base #eaecf0;
+
+		h2 {
+			width: auto;
+			flex-grow: 1;
+			// Needed to display multi-line headings correctly (because of flex-wrap on the parent, they
+			// would be put on a line of their own otherwise)
+			flex-basis: 0;
+			/* T311612 */
+			font-size: 1.125em;
+		}
+
+		&-bar,
+		&-overflowMenuButton {
+			font-size: 0.875em;
+		}
+
+		&-overflowMenuButton {
+			// Adjust for smaller headings
+			margin-top: -4px;
+			margin-bottom: -6px;
+		}
+
+		// stylelint-disable-next-line selector-class-pattern
+		> .indicator {
+			margin-top: 4px;
+		}
+
+		&:first-child {
+			border-top: 0;
+		}
+
+		&-bar {
+			width: 100%;
+			flex-wrap: wrap;
+		}
+
+		&-actions,
+		&-metadata {
+			width: 100%;
+		}
+
+		.client-js & {
+			&-actions,
+			&-metadata {
+				padding-left: 24px;
+
+				@media print {
+					padding-left: 0;
+				}
+			}
+
+			&-overflowMenuButton {
+				font-weight: normal;
+				display: inline-block;
+				margin-right: -5px;
+				// Fix height so MenuWidget appears in the correct place with wrapped text (T311558)
+				height: 32px;
+
+				@media print {
+					// stylelint-disable-next-line declaration-no-important
+					display: none !important;
+				}
+			}
+
+			.mw-editsection {
+				// Replaced by the overflow menu
+				// stylelint-disable-next-line declaration-no-important
+				display: none !important;
+			}
+		}
+
+		&-authorCountLabel,
+		&-commentCountLabel {
+			display: none;
+		}
+
+		// stylelint-disable-next-line selector-class-pattern
+		&.section-heading .ext-discussiontools-init-section-actions {
+			// Hidden until expanded
+			display: none;
+		}
+
+		// stylelint-disable-next-line selector-class-pattern
+		&.open-block {
+			margin-bottom: 12px;
+
+			.ext-discussiontools-init-section-actions {
+				display: block;
+			}
+		}
+
+		.mw-ui-icon + span {
+			margin-left: 0;
+		}
+	}
+
+	&.mw-mf .ext-discussiontools-init-section-overflowMenu {
+		// Not sure if this should have custom styles like this…
+		// They were once accidentally inherited from the heading,
+		// before the menu was moved to an overlay.
+		font-weight: bold;
+		font-size: 0.875em;
+	}
+
+	&.mw-mf .mf-section-0 + .ext-discussiontools-init-section {
+		border-top: 0;
+		margin-top: 0;
+	}
+}
+
+.ext-discussiontools-emptystate {
+	display: flex;
+	justify-content: space-between;
+	// Add space between this and any existing page content above,
+	// or page-actions-menu in Minerva for non-existing pages
+	margin-top: 1em;
+	clear: both;
+
+	> img {
+		width: 250px;
+	}
+
+	&:not( :first-child ) {
+		// Separate from existing (non-discussion) content
+		margin-top: 2em;
+		padding-top: 1em;
+		border-top: @border-width-base @border-style-base @border-color-base;
+	}
+}
+
+// Mobile
+@media ( max-width: 719px ) {
+	.ext-discussiontools-emptystate {
+		display: block;
+
+		.oo-ui-buttonElement {
+			display: block;
+			text-align: center;
+
+			> a {
+				width: 80%;
+			}
+		}
+
+		> img {
+			display: none;
+		}
+	}
+}
+
+.ext-discussiontools-init-replylink-open {
+	.ext-discussiontools-emptystate,
+	.mw-body-content > .mw-message-box-warning {
+		// Top level warnings, such as "User account --- is not registered" will re-apppear
+		// in the new topic tool, so we can hide the original. (T289354#7312789)
+		display: none;
+	}
+}
+
+.mw-mf.ext-discussiontools-emptystate-shown {
+	// The mobile "Add topic" button is very eye-catching.
+	// No need to show it when the empty state banner is shown.
+	.ext-discussiontools-init-new-topic {
+		display: none;
+	}
+}
+
+// Styles inspired by the Popups extension
+// (and occasionally copypasted from there)
+.ext-discussiontools-autotopicsubpopup {
+	position: absolute;
+	left: 0;
+	right: 0;
+
+	// Increase specificity to override .oo-ui-popupWidget
+	.oo-ui-popupWidget& {
+		// Animations
+		opacity: 0;
+		// Support: Safari
+		// 3D transform is needed to work around a Safari bug, which causes shadows to remain when the
+		// popup is removed (T297266, T226872). Otherwise this should just use 2D translate().
+		transform: translate3d( 0, -20px, 0 );
+		transition: opacity 0.2s, transform 0.2s;
+
+		&-fadein {
+			opacity: 1;
+			// Support: Safari
+			// 3D transform is needed to work around a Safari bug, which causes shadows to remain when the
+			// popup is removed (T297266, T226872). Otherwise this should just use 2D translate().
+			transform: translate3d( 0, 0, 0 );
+		}
+	}
+
+	.oo-ui-popupWidget-popup {
+		padding: 1.5em;
+		box-sizing: border-box;
+		// Center horizontally
+		position: absolute;
+		left: 0;
+		right: 0;
+		margin: 0 auto;
+		// Position above the highlight
+		bottom: 3em;
+
+		&.ext-discussiontools-autotopicsubpopup-overlap {
+			// If there isn't enough space above, position on top of the highlight
+			top: -1em;
+			bottom: auto;
+		}
+	}
+
+	&-title {
+		font-weight: bold;
+		font-size: 1.2em;
+		display: block;
+	}
+
+	&-image {
+		/* @embed */
+		background: url( autotopicsubpopup-image.svg ) center center no-repeat;
+		width: 200px;
+		height: 200px;
+	}
+
+	// Desktop
+	@media ( min-width: 720px ) {
+		.oo-ui-popupWidget-popup {
+			width: 450px;
+			min-height: 200px;
+			padding-right: 0;
+		}
+
+		&-image {
+			position: absolute;
+			top: 0;
+			right: 0;
+			height: 100%;
+			z-index: 1;
+		}
+
+		&-body {
+			margin-bottom: 1em;
+			margin-top: 1em;
+			margin-right: 200px;
+		}
+
+		&-title,
+		&-actions {
+			margin-right: 150px;
+			position: relative;
+			z-index: 2;
+		}
+	}
+
+	// Mobile
+	@media ( max-width: 719px ) {
+		.oo-ui-popupWidget-popup {
+			width: 320px;
+		}
+
+		&-image {
+			width: 100%;
+		}
+
+		&-body {
+			margin-bottom: 1em;
+		}
+	}
+}
+
+// DiscussionTools automatically enables most features on mobile.
+// When we detect that it's enabled, hide the lede section.
+// stylelint-disable-next-line selector-class-pattern
+.mw-mf.ns-talk.ext-discussiontools-replytool-enabled {
+	&.ext-discussiontools-init-lede-hidden {
+		// .mw-body-content selector prevents this applying to content in the preview (T318758)
+		// On non-existent pages MobileFrontend wrapping isn't there
+		.mw-body-content > .mw-talkpageheader,
+		.mw-body-content > .mf-section-0,
+		.mw-body-content > .mw-parser-output > .mf-section-0 {
+			> *:not( .ext-discussiontools-emptystate ) {
+				display: none;
+			}
+
+			> .ext-discussiontools-emptystate {
+				border-top: 0;
+				margin-top: 0;
+			}
+		}
+	}
+
+	// Always hide the table of content. This is usually hidden by the mf-section-0 rules,
+	// but can sometimes appear elsewhere (e.g in the lede section overlay)
+	// stylelint-disable-next-line selector-class-pattern
+	.toc {
+		display: none;
+	}
+}
+
+.minerva-footer-button() {
+	width: 100%;
+	padding: 1em;
+	box-sizing: content-box;
+	color: @color-progressive;
+	background: @background-color-interactive-subtle;
+	border-top: @border-width-base @border-style-base #eaecf0;
+	text-align: center;
+
+	// Match Minerva styles
+	max-width: 993.3px;
+	// stylelint-disable-next-line declaration-no-important
+	margin-left: -16px !important;
+	// stylelint-disable-next-line declaration-no-important
+	margin-right: -16px !important;
+
+	// Avoid smooshing with content / empty state (T320755)
+	margin-top: 32px;
+	// (it's not redundant longhand, some margins are !important and some aren't)
+	// stylelint-disable-next-line declaration-block-no-redundant-longhand-properties
+	margin-bottom: -32px;
+
+	@media print {
+		// stylelint-disable-next-line declaration-no-important
+		display: none !important;
+	}
+}
+
+.ext-discussiontools-init-new-topic {
+	.minerva-footer-button();
+	position: sticky;
+	// Required for IntersectionObserver trick
+	bottom: -1px;
+	transition: transform 250ms, opacity 250ms;
+	transform: translateY( 100% );
+	opacity: 0;
+
+	.ext-discussiontools-init-new-topic-open &,
+	.ext-discussiontools-init-new-topic-opened &,
+	.client-nojs & {
+		transform: translateY( 0 );
+		opacity: 1;
+	}
+
+	.ext-discussiontools-init-new-topic-close & {
+		transform: translateY( 100% );
+		opacity: 0;
+	}
+
+	.ext-discussiontools-init-new-topic-closed &,
+	.ext-discussiontools-init-virtual-keyboard-open &,
+	&-pinned {
+		transform: translateY( 0 );
+		opacity: 1;
+		position: static;
+		transition: none;
+	}
+
+	.ext-discussiontools-init-replylink-open & {
+		.ext-discussiontools-fake-disabled();
+		transform: translateY( 0 );
+		opacity: 1;
+		position: static;
+	}
+}
+
+// Tweak to prevent our footer buttons from overlapping Minerva skin elements (T328452).
+.client-nojs .ext-discussiontools-init-new-topic,
+.ext-discussiontools-init-new-topic-pinned.ext-discussiontools-init-button-notFlush {
+	margin-bottom: 32px;
+}
+
+.ext-discussiontools-init-lede-button-container {
+	margin: 0.5em 0;
+
+	@media print {
+		// stylelint-disable-next-line declaration-no-important
+		display: none !important;
+	}
+}
+
+// Boost specificity by adding .oo-ui-buttonElement
+.ext-discussiontools-init-lede-button.oo-ui-buttonElement {
+	> .oo-ui-buttonElement-button {
+		font-weight: normal;
+
+		> .oo-ui-labelElement-label {
+			color: @color-subtle;
+		}
+
+		// Boost specificity
+		> .oo-ui-iconElement-icon.oo-ui-iconElement-icon.oo-ui-iconElement-icon {
+			// When this opacity is applied to black color, we end up with exactly @color-subtle (`#54595d`)
+			opacity: @opacity-icon-subtle;
+		}
+	}
+}
+
+// Avoid double margin/padding caused by combining .oo-ui-panelLayout-padded and .content
+// stylelint-disable-next-line selector-class-pattern
+.ext-discussiontools-ui-ledeSectionDialog-content.oo-ui-panelLayout-padded.content {
+	margin: 0 auto;
+}
+
+// HACK: Fake disabled styles for the .mw-ui-button in Vector sticky header (T307726)
+.ext-discussiontools-fake-disabled {
+	filter: saturate( 0 );
+	opacity: 0.8;
+	pointer-events: none;
+}

@@ -1,0 +1,36 @@
+{
+	"@metadata": {
+		"authors": [
+			"Abbas dhothar",
+			"Bgo eiu",
+			"Khalid Mahmood"
+		]
+	},
+	"categorytree": "گٹھ لین",
+	"categorytree-portlet": "گٹھاں",
+	"categorytree-legend": "گٹھ لین وکھاؤ",
+	"categorytree-desc": "ویکھ کے [[Special:CategoryTree|گٹھاں]] دی کھوج کرو",
+	"categorytree-header": "کسی گٹھ دا ناں لکھو تاکے ایہدا مال رکھ ورگی مورت وچ ویکھو۔\nNote that this requires advanced JavaScript functionality known as AJAX.\nIf you have a very old browser, or have JavaScript disabled, it will not work.",
+	"categorytree-category": "گٹھ:",
+	"categorytree-go": "لین وکھاؤ",
+	"categorytree-parents": "وڈوڈیرے",
+	"categorytree-mode-categories": "صرف گٹھاں",
+	"categorytree-mode-pages": "فائلاں توں چٹ صفحے",
+	"categorytree-mode-all": "سارے صفحے",
+	"categorytree-collapse": "لُکاؤ",
+	"categorytree-expand": "ودھاؤ",
+	"categorytree-member-counts": "اس وچ {{PLURAL:$1|1 ذیلی کیٹیگری|$1 ذیلی کیٹیگریاں}}، {{PLURAL:$2|1 صفحہ|$2 صفحے}} تے {{PLURAL:$3|1 فائل|$3 فائلاں}} موجود نیں/اے۔",
+	"categorytree-num-categories": "$1 کیٹیگریاں",
+	"categorytree-num-pages": "$1 صفحے",
+	"categorytree-num-files": "$1 ایف",
+	"categorytree-num-empty": "خالی",
+	"categorytree-load": "چڑھاؤ",
+	"categorytree-loading": "چڑھ رہی اے",
+	"categorytree-nothing-found": "کجھ نئیں لبھیا",
+	"categorytree-no-subcategories": "ذیلی گٹھاں نئیں",
+	"categorytree-no-parent-categories": "کوئی مڈھلیاں گٹھاں نئیں۔",
+	"categorytree-no-pages": "ناں صفحے یا ذیلی گٹھاں",
+	"categorytree-not-found": "<i>$1</i> گٹھ نئیں لبھی",
+	"categorytree-error": "ڈیٹا چڑھان چ رپھڑ۔",
+	"categorytree-retry": "مہربانی کرکے تھوڑا صبر کرو تے فیر کوشش کرو۔"
+}

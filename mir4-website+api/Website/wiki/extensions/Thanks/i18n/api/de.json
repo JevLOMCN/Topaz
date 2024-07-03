@@ -1,0 +1,17 @@
+{
+	"@metadata": {
+		"authors": [
+			"Geitost",
+			"Inkowik",
+			"Metalhead64"
+		]
+	},
+	"apihelp-flowthank-summary": "Sendet eine öffentliche Dankeschön-Benachrichtigung für einen Flow-Kommentar.",
+	"apihelp-flowthank-param-postid": "Die UUID des Beitrags, für den gedankt werden soll.",
+	"apihelp-flowthank-example-1": "Ein Dankeschön für den Kommentar mit der <kbd>UUID xyz789</kbd> senden",
+	"apihelp-thank-summary": "Sendet eine Dankeschön-Benachrichtigung an einen Bearbeiter.",
+	"apihelp-thank-param-rev": "Versionskennung, für die gedankt werden soll. Dies oder „log“ muss angegeben werden.",
+	"apihelp-thank-param-log": "Logbuchkennung, für die gedankt werden soll. Dies oder „rev“ muss angegeben werden.",
+	"apihelp-thank-param-source": "Eine kurze Zeichenfolge, die die Quelle der Anfrage beschreibt, zum Beispiel <kbd>diff</kbd> oder <kbd>history</kbd>.",
+	"apihelp-thank-example-1": "Sendet ein Dankeschön für die Version mit der <kbd>Kennung 456</kbd>, deren Quelle ein Bearbeitungsunterschied ist."
+}

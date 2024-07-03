@@ -1,0 +1,17 @@
+{
+	"External link containing double-single-quotes with no space separating the url from text in italics": {
+		"wt2wt": "[http://www.musee-picasso.fr/pages/page_id18528_u1l2.htm ''La muerte de Casagemas'' (1901) en el sitio de] [[Museo Picasso (París)|Museo Picasso]]."
+	},
+	"External links: multiple legal whitespace is fine, Magnus. Don't break it please. (T7081)": {
+		"wt2wt": "[http://www.example.com test]"
+	},
+	"T2289: \">\"-token in bracketed URL": {
+		"wt2wt": "[http://www.example.com/ <hello> stuff]"
+	},
+	"T2289: literal \">\"-token in bracketed URL": {
+		"wt2wt": "[http://www.example.com/ <b>html</b> stuff]"
+	},
+	"T2289: literal double quote in bracketed URL": {
+		"wt2wt": "[http://www.example.com/ \"hello\" stuff]"
+	}
+}

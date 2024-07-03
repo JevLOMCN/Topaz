@@ -1,0 +1,30 @@
+{
+	"@metadata": {
+		"authors": [
+			"PiefPafPier",
+			"Robin van der Vliet",
+			"Robin0van0der0vliet",
+			"Snakesteuben"
+		]
+	},
+	"captcha-edit-fail": "CAPTCHA ûntbrekt of doocht net.",
+	"captcha-help": "Oplossing fan 'e CAPTCHA.",
+	"captcha-info-help": "Beskriuwing fan 'e CAPTCHA.",
+	"captcha-id-label": "CAPTCHA-ID",
+	"captcha-id-help": "Dizze wearde moat ûnferoare weromstjoerd wurde.",
+	"captcha-addurl": "Jo hawwe keppelings om utens oanpast/taheakke. As ekstra beskerming tsjin automatysk oanmakke reklame (SPAM) wurdt jo frege it antwurd op de ûndersteande som te jaan ([[Special:Captcha/help|meer ynformaasje]]):",
+	"captcha-createaccount": "As beskerming tsjin it automatysk oanmeitsjen fan meidochnammen wurdt jo frege it antwurd op de ûndersteande som te jaan ([[Special:Captcha/help|meer ynformaasje]]):",
+	"captcha-createaccount-fail": "CAPTCHA ûntbrekt of doocht net.",
+	"captcha-create": "Om de side oan te meitsjen wurdt jo frege it antwurd op de ûndersteande som te jaan ([[Special:Captcha/help|meer ynformaasje]]).",
+	"captcha-sendemail-fail": "CAPTCHA ûntbrekt of doocht net.",
+	"captcha-error": "CAPTCHA-ferifikaasje mislearre troch in ynterne flater: $1",
+	"captchahelp-title": "CAPTCHA-help",
+	"captchahelp-cookies-needed": "Jo moatte 'koekjes' oanstean hawwe yn jo webblêder, oars wurket it net.",
+	"captchahelp-text": "Websteeën dêr't it publyk op skriuwe kin, lykas dizze {{SITENAME}}-wiki, kinne lêst hawwe fan lju dy't automatysk keppelings oan de websiden tafoegje. Op dizze wiki kinne sokke feroarings maklik weromset wurde, mar dat nimt al tiid dy't ek oars brûkt wurde kin.\n\nBy it oanmelden as meidogger, en fierders benammen at jo keppelings om utens oan in side tafoegje, kinne jo fan de wiki in lettertoets krije. De wiki lit dan kleurde of ferwrongen letters sjen, en jo wurdt frege dy oer te tikken. Om't dit net maklik automatisearre wurde kin, hâldt dit it automatysk tafoegjen tsjin. It spitegernôch ek in lytse lêst foar de meidoggers.\n\nIn probleem dêr't noch gjin oplossing foar is it dat it in tûkelteam is foar minsken dy't net goed sjen kinne of dy't in tekst-blêder of lûd-blêder brûke. Hjir soe in lûd-ferzje foar komme moatte, mar dy is der noch net. Oerlis mei in behearder at dit foar jo problemen jout.\n\nGean tebek mei de tebek-knop fan jo blêder.",
+	"captcha-addurl-whitelist": " #<!-- lit dizze rigel krekt sa stean --> <pre>\n# De syntaks is as folget:\n#   * Alles nei in '#'-teken oan 'e ein fan 'e rigel ta, is kommentaar\n#   * Alle net-blanko rigels binne 'reguliere ekspresjes' dy't inkeld oanslaan op it 'host'-part fan URL's\n #</pre> <!-- lit dizze rigel krekt sa stean -->",
+	"confirmedit-preview-line": "Rigelnûmer",
+	"confirmedit-preview-content": "Ynhâld",
+	"confirmedit-preview-validity": "Jildigens",
+	"confirmedit-preview-valid": "jildich",
+	"confirmedit-preview-invalid": "ûnjildich"
+}

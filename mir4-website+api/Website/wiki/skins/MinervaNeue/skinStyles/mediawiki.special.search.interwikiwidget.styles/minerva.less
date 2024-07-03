@@ -1,0 +1,21 @@
+@import '../../minerva.less/minerva.variables.less';
+
+.mw-searchresults-has-iw {
+	// stylelint-disable-next-line selector-max-id
+	#mw-interwiki-results {
+		margin-left: 0;
+		width: 100%;
+	}
+
+	.iw-results {
+		padding-left: 0;
+	}
+
+	.iw-resultset:nth-child( 1 ) {
+		.iw-result__header {
+			border-top: @border-subtle;
+			padding-top: 1.666em;
+			margin-top: 1.666em;
+		}
+	}
+}

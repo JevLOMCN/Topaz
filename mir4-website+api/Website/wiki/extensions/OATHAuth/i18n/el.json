@@ -1,0 +1,31 @@
+{
+	"@metadata": {
+		"authors": [
+			"Geraki",
+			"Giannaras99",
+			"NikosLikomitros",
+			"Nikosgranturismogt",
+			"Norhorn",
+			"Panos78",
+			"Protnet"
+		]
+	},
+	"disableoathforuser": "Απενεργοποίηση ελέγχου ταυτότητας δύο παραγόντων για ένα χρήστη",
+	"oathauth-account": "Όνομα λογαριασμού:",
+	"oathauth-secret": "Μυστικό κλειδί ταυτοποίησης δύο παραγόντων:",
+	"oathauth-enable": "Ενεργοποίηση ταυτοποίησης μέσω δύο παραγόντων",
+	"oathauth-disable": "Απενεργοποίηση ελέγχου ταυτότητας δύο παραγόντων",
+	"oathauth-prefs-label": "Ταυτοποίηση μέσω δύο παραγόντων:",
+	"oathauth-enteruser": "Όνομα χρήστη:",
+	"grant-oath": "Πρόσβαση σε πληροφορίες ταυτοποίησης δύο παραγόντων (OATH) για εαυτόν και άλλους",
+	"oathauth-ui-no-module": "Καμία ενεργοποιημένη",
+	"oathauth-ui-manage": "Διαχείριση",
+	"oathmanage": "Διαχείριση πιστοποίησης 2 βημάτων",
+	"oathauth-ui-not-enabled-modules": "Εναλλαγή σε εναλλακτική μέθοδο",
+	"oathauth-enable-generic": "Ενεργοποίηση",
+	"oathauth-disable-generic": "Απενεργοποίηση",
+	"oathauth-disable-page-title": "Απενεργοποίηση $1",
+	"oathauth-enable-page-title": "Ενεργοποίηση $1",
+	"oathauth-ui-available-modules": "Διαθέσιμες μέθοδοι",
+	"oathauth-notifications-enable-help": "Βοήθεια"
+}

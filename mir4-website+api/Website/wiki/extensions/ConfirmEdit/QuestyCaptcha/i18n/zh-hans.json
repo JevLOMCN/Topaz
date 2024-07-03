@@ -1,0 +1,19 @@
+{
+	"@metadata": {
+		"authors": [
+			"Cwek",
+			"Fantasticfears",
+			"Impersonator 1",
+			"Liuxinyu970226",
+			"Mywood"
+		]
+	},
+	"questycaptcha-desc": "用于确认编辑的问题验证码生成器",
+	"questycaptcha-addurl": "您的编辑包含新的外部链接。为保护本wiki免受自动垃圾程序的破坏，我们恳请您回答下面显示的问题（[[Special:Captcha/help|更多信息]]）：",
+	"questycaptcha-badlogin": "为保护本wiki免受自动密码破解的破坏，我们恳请你回答下面显示的问题（[[Special:Captcha/help|更多信息]]）：",
+	"questycaptcha-createaccount": "为保护本wiki免受自动账户创建的破坏，我们恳请您回答下面显示的问题（[[Special:Captcha/help|更多信息]]）：",
+	"questycaptcha-create": "要创建页面，请回答下面显示的问题（[[Special:Captcha/help|更多信息]]）：",
+	"questycaptcha-edit": "要编辑该页面，请回答下面显示的问题（[[Special:Captcha/help|更多信息]]）：",
+	"questycaptcha-sendemail": "为保护本wiki免受自动垃圾程序的破坏，我们恳请您回答下面显示的问题（[[Special:Captcha/help|更多信息]]）：",
+	"questycaptchahelp-text": "接受公众贡献者的网站，比如本wiki，经常受到使用自动工具添加垃圾网站链接的垃圾制造者的破坏。尽管这些链接可以被删除，它们仍然极其麻烦。\n\n有时，特别是给页面添加新的网络链接时，本wiki可能需要你回答问题。由于这是一项难以用自动工具完成的任务，它可以允许在大多数真人做出贡献的同时，阻止大多数垃圾制造者和其他自动攻击者。\n\n如果这项措施意外地阻止你进行正常的贡献，请与[[Special:ListAdmins|网站管理员]]联系获取帮助。\n\n点击浏览器的“后退”按钮返回页面编辑器。"
+}

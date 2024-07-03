@@ -1,0 +1,21 @@
+{
+	"@metadata": {
+		"authors": [
+			"Alma",
+			"Banjo",
+			"Elisardojm",
+			"Toliño"
+		]
+	},
+	"pdf-desc": "Manipulador para ver ficheiros PDF no modo de imaxe",
+	"pdf-file-page-warning": "PDF é un formato complexo que pode expoñer algunha información privada nalgúns casos. Asegúrese de configurar o seu lector de PDF dunha maneira segura.",
+	"pdf-file-page-warning-header": "Consideracións de privacidade",
+	"pdf-file-page-warning-footer": "Este problema non é específico deste ficheiro en particular, senón un problema xeral co formato PDF.",
+	"pdf-file-page-warning-info": "Máis informacións sobre este problema.",
+	"pdf_no_metadata": "Non se puideron obter os metadatos do PDF.",
+	"pdf_page_error": "O número da páxina non está no rango.",
+	"exif-pdf-producer": "Programa de conversión",
+	"exif-pdf-version": "Versión en formato PDF",
+	"exif-pdf-encrypted": "Cifrado",
+	"exif-pdf-pagesize": "Tamaño da páxina"
+}

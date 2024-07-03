@@ -1,0 +1,17 @@
+{
+	"@metadata": {
+		"authors": [
+			"McDutchie"
+		]
+	},
+	"apihelp-query+oath-summary": "Controleren of tweefactorauthenticatie (OATH) is ingeschakeld voor een gebruiker.",
+	"apihelp-query+oath-param-user": "De gebruiker om informatie over op te halen. Bij weglating wordt van de huidige gebruiker uitgegaan.",
+	"apihelp-query+oath-param-reason": "Reden voor het opvragen van de OATH-status.",
+	"apihelp-query+oath-example-1": "Informatie over de huidige gebruiker opvragen",
+	"apihelp-query+oath-example-2": "Informatie opvragen over de gebruiker <kbd>Example</kbd>",
+	"apihelp-oathvalidate-summary": "Een token voor tweefactorauthenticatie (OATH) valideren.",
+	"apihelp-oathvalidate-param-user": "Gebruiker voor wie het token moet worden gevalideerd. Bij weglating wordt van de huidige gebruiker uitgegaan.",
+	"apihelp-oathvalidate-example-1": "JSON-gegevens valideren voor de huidige gebruiker",
+	"apihelp-oathvalidate-example-3": "JSON-gegevens valideren voor de gebruiker <kbd>Example</kbd>",
+	"apihelp-oathvalidate-param-data": "In JSON gecodeerde gegevens die door de momenteel voor de te authenticeren gebruiker geactiveerde module worden verwacht"
+}

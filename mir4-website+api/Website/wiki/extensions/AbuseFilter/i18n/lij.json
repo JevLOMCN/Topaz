@@ -1,0 +1,25 @@
+{
+	"@metadata": {
+		"authors": [
+			"Giromin Cangiaxo",
+			"S4b1nuz E.656",
+			"Samuele2002"
+		]
+	},
+	"abusefilter-desc": "O l'apprica un'euiristega aotomattica a-e modiffiche.",
+	"abusefilter": "Manezzo do filtro anti abuxi",
+	"abuselog": "Registro do filtro anti abuxi",
+	"abusefilter-intro": "Benvegnui inte l'interfaccia de gestion do filtro anti abuxi.\nO filtro anti abuxi o l'è un scistema aotomatizou pe l'appricaçion di œüristeghe aotomattiche a tutte i açioin.\nL'interfaccia a mostra 'na lista di filtri definii e a ne consente a modiffica.",
+	"abusefilter-warning": "'''Attençion''': Quest'açion a l'è stæta aotomaticamente identificâ comme peigoza.\nE modifiche non costruttive saian fito annulæ; l'inseimento paleise o ripetuo di contribui non costruttivi daiâ loeugo a-o blocco de l'utença ò do to adresso IP.\nSe ti pensci che l'açion in question a segge costruttiva, ti devi inviâla torna pe confermâla.\nQuesta a l'è una breve descriçion da reggola anti abuso che t'hæ infranto: $1",
+	"abusefilter-disallowed": "Quest'açion a l'è stæta aotomaticamente identificâ comme dannoza e quindi impedia.\nSe ti creddi che a to açion a l'ea construtiva, informa un aministratô de quello che ti çercavi de fâ.\nQuesta a l'è una breve descriçion da reggola de segueça ch'a l'è stæta violâ: $1",
+	"abusefilter-blocked-display": "Quest'açion a l'è stæta aotomaticamente identificâ comme dannoza e t'è stæto impedio de compîla.\nDe ciu, pe proteze {{SITENAME}}, a to utença e tutti i adressi IP associæ son stæti bloccæ da-o fâ modiffiche.\nSe l'è stæto un errô, pe piaxei contatta un aministratô.\nQuesta a l'è una breve descriçion da reggola de segueça ch'a l'è stæta violâ: $1",
+	"abusefilter-blocker": "Fìltro anti abûxi",
+	"abusefilter-log-linkoncontribs": "fìltro anti abûxi",
+	"abusefilter-log-hide-reason": "Motîvo:",
+	"abusefilter-list-public": "Descriçion pubbrica",
+	"abusefilter-list-options-deleted-hide": "Ascondi i filtri scassæ",
+	"abusefilter-list-options-deleted-show": "Includdi i filtri scassæ",
+	"abusefilter-list-options-hidedisabled": "Ascondi i filtri disattivæ",
+	"abusefilter-status": "Fra i urtime $1 {{PLURAL:$1|açion|açioin}}, $2 ($3 %) {{PLURAL:$2|o l'ha|han}} razonto o limmite de $4 condiçioin e $5 ($6 %) {{PLURAL:$5|o l'ha|han}} attivou un di filtri attoalmente attivi.",
+	"abusefilter-log-name": "Fìltro anti abûxi"
+}

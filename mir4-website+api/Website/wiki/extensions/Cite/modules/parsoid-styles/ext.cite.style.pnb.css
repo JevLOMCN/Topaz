@@ -1,0 +1,23 @@
+/* @noflip */
+.mw-cite-dir-ltr {
+	direction: ltr;
+	text-align: left;
+}
+
+/* @noflip */
+.mw-cite-dir-rtl {
+	direction: rtl;
+	text-align: right;
+}
+
+.mw-ref > a::after {
+	content: '[' counter( mw-Ref, persian ) ']';
+}
+
+.mw-ref > a[ data-mw-group ]::after {
+	content: '[' attr( data-mw-group ) ' ' counter( mw-Ref, persian ) ']';
+}
+
+span[ rel='mw:referencedBy' ] > a::before {
+	content: counter( mw-references, persian ) '.' counter( mw-ref-linkback, persian );
+}

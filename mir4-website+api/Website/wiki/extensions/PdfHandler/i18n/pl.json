@@ -1,0 +1,22 @@
+{
+	"@metadata": {
+		"authors": [
+			"Holek",
+			"Matma Rex",
+			"Sp5uhe",
+			"VerMa",
+			"Woytecr"
+		]
+	},
+	"pdf-desc": "Konwerter graficznego podglądu plików PDF",
+	"pdf-file-page-warning": "PDF jest złożonym formatem, który może częściowo ujawnić Twoje informacje prywatne. Upewnij się, że skonfigurowałeś swoją przeglądarkę PDF w bezpieczny sposób.",
+	"pdf-file-page-warning-header": "Kwestia prywatności",
+	"pdf-file-page-warning-footer": "Ten problem nie dotyczy tylko tego pliku, lecz formatu PDF w ogóle.",
+	"pdf-file-page-warning-info": "Dowiedz się więcej o tym problemie.",
+	"pdf_no_metadata": "nie można pobrać metadanych z pliku PDF",
+	"pdf_page_error": "Numer strony poza zakresem",
+	"exif-pdf-producer": "Program użyty do konwersji",
+	"exif-pdf-version": "Wersja formatu PDF",
+	"exif-pdf-encrypted": "Zaszyfrowany",
+	"exif-pdf-pagesize": "Wymiary strony"
+}

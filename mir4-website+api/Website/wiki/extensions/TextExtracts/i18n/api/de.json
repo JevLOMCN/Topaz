@@ -1,0 +1,24 @@
+{
+	"@metadata": {
+		"authors": [
+			"Justman10000",
+			"Metalhead64"
+		]
+	},
+	"apihelp-query+extracts-summary": "Gibt den Klartext oder beschränkte HTML-Auszüge der angegebenen Seiten zurück.",
+	"apihelp-query+extracts-param-chars": "Wie viele Zeichen zurückgegeben werden sollen. Der tatsächlich zurückgegebene Text kann etwas länger sein.",
+	"apihelp-query+extracts-param-sentences": "Wie viele Sätze zurückgegeben werden sollen.",
+	"apihelp-query+extracts-param-limit": "Wie viele Auszüge zurückgegeben werden sollen (mehrere Auszüge können nur zurückgegeben werden, wenn exintro auf true gesetzt ist).",
+	"apihelp-query+extracts-param-intro": "Gibt nur den Inhalt vor dem ersten Abschnitt zurück.",
+	"apihelp-query+extracts-param-plaintext": "Gibt Auszüge als Klartext anstatt in beschränktem HTML zurück.",
+	"apihelp-query+extracts-param-sectionformat": "So formatierst du Abschnitte im Klartextmodus:",
+	"apihelp-query+extracts-paramvalue-sectionformat-plain": "Keine Formatierung.",
+	"apihelp-query+extracts-paramvalue-sectionformat-wiki": "Formatierung im Wikitext-Stil (== wie hier ==).",
+	"apihelp-query+extracts-paramvalue-sectionformat-raw": "Die interne Darstellung dieses Moduls (Abschnittstitel mit vorangestelltem &lt;ASCII 1&gt;&lt;ASCII 2&gt;&lt;Abschnittsebene&gt;&lt;ASCII 2&gt;&lt;ASCII 1&gt;).",
+	"apihelp-query+extracts-example-1": "Ruft einen 175-Zeichen-Auszug ab",
+	"apiwarn-textextracts-limit": "<var>exlimit</var> war zu groß für eine ganze Artikelauszugsabfrage, begrenzt auf $1.",
+	"apiwarn-textextracts-unsupportedmodel": "$1 hat das Inhaltsmodell $2, das nicht unterstützt wird. Es wird ein leerer Auszug zurückgegeben.",
+	"apiwarn-textextracts-title-in-file-namespace": "Es wurde ein Auszug für einen Titel im Dateinamensraum angefordert, jedoch wurde nichts zurückgegeben.",
+	"apiwarn-textextracts-sentences-and-html": "Der Parameter <var>$1sentences</var> könnte unerwartete Ergebnisse aufweisen, wenn er im HTML-Modus verwendet wird.",
+	"apiwarn-textextracts-malformed-html": "HTML könnte beschädigt und/oder unausgeglichen sein und Inline-Bilder weglassen. Verwendung auf eigene Gefahr. Bekannte Probleme sind unter https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:TextExtracts#Caveats aufgelistet."
+}

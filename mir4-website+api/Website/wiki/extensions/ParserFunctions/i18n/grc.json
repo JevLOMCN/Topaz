@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"Gts-tg",
+			"Omnipaedista",
+			"PastelKos"
+		]
+	},
+	"pfunc_time_error": "Σφάλμα: Ἄκυρη ὥρα",
+	"pfunc_expr_unrecognised_word": "Σφάλμα ἐκφράσεως: Μὴ άναγνωρισμένη λέξις \"$1\".",
+	"pfunc_expr_unexpected_operator": "Σφάλμα ἐκφράσεως: Μῆ ἀναμενόμενος τελεστής $1.",
+	"pfunc_expr_missing_operand": "Σφάλμα ἐκφράσεως: Ἐλλειπὼν τελεστὴς διὰ τὸ $1.",
+	"pfunc_expr_unrecognised_punctuation": "Σφάλμα ἐκφράσεως: Μή ἀναγνωρισμένος χαρακτήρας στίξεως \"$1\".",
+	"pfunc_expr_division_by_zero": "Διαίρεσις διὰ τοῦ μηδενός"
+}

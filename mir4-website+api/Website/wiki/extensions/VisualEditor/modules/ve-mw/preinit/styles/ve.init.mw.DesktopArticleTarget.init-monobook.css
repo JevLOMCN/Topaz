@@ -1,0 +1,22 @@
+/*!
+ * VisualEditor MediaWiki DesktopArticleTarget MonoBook skin init styles.
+ *
+ * @copyright See AUTHORS.txt
+ * @license The MIT License (MIT); see LICENSE.txt
+ */
+
+.ve-init-mw-desktopArticleTarget-loading-overlay {
+	/* Center progress bar within toolbar */
+	/* ( 44 - 14.688 ) / 2 */
+	top: 14.656px;
+}
+
+.ve-init-mw-desktopArticleTarget-toolbar,
+.ve-init-mw-desktopArticleTarget-toolbarPlaceholder {
+	/* Enforce different font-size for all UI elements of VisualEditor. The difference is tiny, but
+	   enough to make the icon containers 23.813px rather than 24px and thus the icons blurry */
+	font-size: 1.00787401575em; /* 0.8em / x-small / 127% */
+	/* 1/ ( 0.8em / x-small / 127% ) */
+	margin: -0.9921875em;
+	margin-bottom: 0.9921875em;
+}

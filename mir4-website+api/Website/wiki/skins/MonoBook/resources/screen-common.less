@@ -1,0 +1,355 @@
+/*
+** MediaWiki 'monobook' style sheet for CSS2-capable browsers.
+** Copyright Gabriel Wicke - http://wikidev.net/
+** License: GPL (http://www.gnu.org/copyleft/gpl.html)
+**
+** Loosely based on http://www.positioniseverything.net/ordered-floats.html by Big John
+** and the Plone 2.0 styles, see http://plone.org/ (Alexander Limi,Joe Geldart & Tom Croucher,
+** Michael Zeltner and Geir Bækholt)
+** All you guys rock :)
+*/
+
+@import 'variables.less';
+@import 'mediawiki.mixins.less';
+
+/*
+** Common styles across desktop and mobile
+*/
+
+#column-content {
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+.mw-body {
+	padding: 1em;
+	position: relative;
+	z-index: 2;
+	background: @content-background;
+	color: @color-base;
+	border: 1px solid @content-border;
+	line-height: 1.5em;
+}
+
+/* Hide, but keep accessible for screen-readers */
+#column-one h2 {
+	.mixin-screen-reader-text();
+}
+
+/* the left column width is specified in class .portlet */
+
+/* Font size:
+** We take advantage of keyword scaling- browsers won't go below 9px
+** See "Note 1" at https://www.w3.org/TR/CSS2/fonts.html#value-def-absolute-size
+** More at http://www.w3.org/2003/07/30-font-size
+** http://style.cleverchimp.com/font_size_intervals/altintervals.html
+** https://web.archive.org/web/20180201141931/http://style.cleverchimp.com/font_size_intervals/altintervals.html
+** This affects users whose browser font size setting is < 14.4px,
+** making #globalWrapper's font-size 11.43px at minimum.
+** Gadgets have their own monobook-specific css rule to set the font-size similar to #globalWrapper.
+*/
+body {
+	font-family: sans-serif;
+	font-size: x-small; // Typical: 16px * 0.625 == 10px.
+	/* stylelint-disable stylistic/value-list-comma-newline-after, stylistic/declaration-colon-newline-after */
+	/* @embed */
+	background: url( images/headbg.svg ) 0 0 no-repeat,
+		@background url( images/headbg-gradient.svg ) 0 0 repeat-x;
+	/* stylelint-enable stylistic/value-list-comma-newline-after, stylistic/declaration-colon-newline-after */
+	color: @color-base;
+	direction: ltr; /* Needed for RTL flipping */
+	unicode-bidi: embed;
+}
+
+/* scale back up to a sane default */
+#globalWrapper {
+	font-size: 127%; // Typical: x-small * 127% == 12.7px;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	position: relative;
+	z-index: 0;
+}
+
+/* general styles */
+ul {
+	list-style: square url( images/bullet.svg );
+}
+
+pre,
+.mw-code {
+	line-height: 1.1em;
+}
+
+.firstHeading {
+	margin-top: 0.4em;
+	margin-bottom: 0.1em;
+	padding-top: 0;
+	overflow: visible;
+}
+
+.mw-indicators {
+	line-height: 1.5em;
+	font-size: 95%;
+}
+
+.mw-indicator {
+	display: inline-block;
+}
+
+.mw-jump-link:not( :focus ) {
+	.mixin-screen-reader-text;
+	.user-select( none );
+}
+
+/*
+** the main content area
+*/
+
+#siteNotice {
+	font-size: 95%;
+	padding: 0 0.9em;
+
+	p {
+		margin: 0;
+		padding: 0;
+	}
+}
+
+#localNotice {
+	margin: 0;
+}
+
+/*
+** classes for special content elements like town boxes
+** intended to be referenced directly from the wiki src
+*/
+
+/*
+** User styles
+*/
+/* table standards */
+table.rimage {
+	float: right;
+	position: relative;
+	margin-left: 1em;
+	margin-bottom: 1em;
+	text-align: center;
+}
+
+/*
+** Structural Elements
+*/
+
+/*
+** general portlet styles (elements in the quickbar)
+*/
+.mw-portlet,
+.portlet {
+	overflow: hidden;
+
+	label,
+	h3 {
+		background: transparent;
+		display: inline;
+		height: 1em;
+		font-size: 91%;
+		white-space: nowrap;
+	}
+
+	ul {
+		line-height: 1.5em;
+		font-size: 95%;
+	}
+
+	li {
+		padding: 0;
+		margin: 0;
+	}
+}
+
+.mw-portlet > div,
+.pBody {
+	font-size: 95%;
+	color: @color-base;
+	border-collapse: collapse;
+
+	/* allows .pBody styles to wrap around content added via SkinAfterPortlet hook */
+	&::after {
+		content: '';
+		clear: both;
+		display: block;
+	}
+}
+
+/* Set `text-transform` only on languages where capitalization is not significant.
+** Translates to all, which don't carry `.monobook-capitalize-all-nouns` at `body`.
+*/
+body:not( .monobook-capitalize-all-nouns ) {
+	.portlet h3,
+	#p-personal ul,
+	#p-cactions ul li a {
+		text-transform: lowercase;
+	}
+}
+
+/* Don't lowercase username */
+li#pt-userpage,
+/* Sometimes people don't want personal tools to be lowercase! */
+.no-text-transform {
+	text-transform: none;
+}
+
+/*
+** Logo properties
+*/
+#p-logo {
+	position: absolute;
+	z-index: 3;
+	overflow: visible;
+
+	a,
+	a:hover {
+		display: block;
+		background-repeat: no-repeat;
+		text-decoration: none;
+	}
+}
+
+/*
+** the personal toolbar
+*/
+/* "Not logged in" text in gray */
+li#pt-anonuserpage {
+	color: @color-subtle;
+}
+
+/*
+** footer
+*/
+.mw-footer {
+	background-color: @content-background;
+	border-top: 1px solid @orange-border;
+	border-bottom: 1px solid @orange-border;
+	margin: 0.6em 0 1em 0;
+	overflow: hidden;
+	padding: 0.4em 0 0.3em 0;
+	text-align: center;
+	font-size: 90%;
+
+	li {
+		display: inline;
+		margin: 0 1.3em;
+	}
+}
+
+#userloginprompt,
+#languagelinks {
+	font-size: 85%;
+}
+
+/**
+ * This was originally added by Gabriel Wicke in r3681 (committed on 25 May 2004)
+ * with the commit message "tweaks to page history".
+ * Unlike the other IE/Mac fixes that used to be present here, this seems to get
+ * applied on more modern browsers, so let's keep it here until someone has the
+ * time to properly test it out.
+ */
+#pagehistory li.selected {
+	position: relative;
+}
+
+div.patrollink {
+	clear: both;
+}
+
+.toggle {
+	margin-left: 2em;
+	text-indent: -2em;
+}
+
+/* @bug 1714 */
+input#wpSave,
+input#wpDiff {
+	margin-right: 0.33em;
+}
+
+#wpSave {
+	font-weight: bold;
+}
+
+/* noarticletext */
+div.noarticletext {
+	border: 1px solid @content-border;
+	background: @content-background;
+	padding: 0.2em 1em;
+	color: @color-base;
+}
+
+#powersearch p {
+	margin-top: 0;
+}
+
+.templatesUsed {
+	margin-top: 1.5em;
+}
+
+.mw-summary-preview {
+	margin: 0.1em 0;
+}
+
+/* Friendlier slave lag warnings */
+div.mw-lag-warn-normal,
+div.mw-lag-warn-high {
+	padding: 3px;
+	text-align: center;
+	margin: 3px auto;
+}
+
+div.mw-lag-warn-normal {
+	border: 1px solid #fc6;
+	background-color: #ffc;
+}
+
+div.mw-lag-warn-high {
+	font-weight: bold;
+	border: 2px solid #f03;
+	background-color: #fcc;
+}
+
+.MediaTransformError {
+	background-color: @content-border;
+	padding: 0.1em;
+
+	td {
+		text-align: center;
+		vertical-align: middle;
+		font-size: 90%;
+	}
+}
+
+/* Tooltips are outside of the normal body code, so this helps make the size of the text sensible */
+.tipsy {
+	font-size: 127%;
+}
+
+// Directionality styles previously provided by the deprecated`legacy` feature (T287410)
+// for HTML elements which do not carry dir HTML attributes.
+// These have been copied across to MonoBook to minimize disruption caused by T287701.
+// If you are reading this comment in 2022, please consider checking usage in wikitext and
+// removing them both.
+.mw-content-ltr {
+	/* @noflip */
+	direction: ltr;
+}
+
+.mw-content-rtl {
+	/* @noflip */
+	direction: rtl;
+}
+
+// MonoBook makes use of Skin::getClear, must provide its own style following T287410.
+.visualClear {
+	clear: both;
+}

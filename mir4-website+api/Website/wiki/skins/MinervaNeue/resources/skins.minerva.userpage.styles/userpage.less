@@ -1,0 +1,20 @@
+@import '../../minerva.less/minerva.variables.less';
+@import '../../minerva.less/minerva.mixins.less';
+
+.user-links {
+	margin: 15px 0 0 0;
+
+	li {
+		display: inline-block;
+
+		& + li {
+			margin-left: 4px;
+
+			&::before {
+				content: '·';
+				right: 2px;
+				position: relative;
+			}
+		}
+	}
+}

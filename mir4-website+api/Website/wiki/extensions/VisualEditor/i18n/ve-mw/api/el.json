@@ -1,0 +1,31 @@
+{
+	"@metadata": {
+		"authors": [
+			"Geraki",
+			"Glavkos",
+			"Protnet",
+			"Stam.nikos"
+		]
+	},
+	"apihelp-visualeditor-param-basetimestamp": "Κατά την αποθήκευση, αυτό να οριστεί στη χρονοσφραγίδα της αναθεώρησης που δέχθηκε επεξεργασία. Χρησιμεύει στην ανίχνευση συγκρούσεων επεξεργασίας.",
+	"apihelp-visualeditor-param-cachekey": "Χρησιμοποιήστε το αποτέλεσμα προηγούμενου αιτήματος σειριοποίησης για κρυφή μνήμη με αυτό το κλειδί. Αντικαθιστά το $1html.",
+	"apihelp-visualeditor-param-html": "Ο κώδικας HTML που αποστέλλεται στο Parsoid για να επιστρέψει κώδικα wiki.",
+	"apihelp-visualeditor-param-oldid": "Ο αριθμός αναθεώρησης προς χρήση (προεπιλογή η τελευταία αναθεώρηση).",
+	"apihelp-visualeditor-param-paction": "Ενέργεια για εκτέλεση.",
+	"apihelp-visualeditor-param-page": "Η σελίδα στην οποία θα εκτελέσετε ενέργειες.",
+	"apihelp-visualeditor-param-pst": "Προ-αποθήκευση μετατροπής κώδικα wiki πριν από την αποστολή του στο Parsoid (paction=parsefragment).",
+	"apihelp-visualeditor-param-starttimestamp": "Κατά την αποθήκευση, αυτό να οριστεί στη χρονοσφραγίδα της στιγμής φόρτωσης της σελίδας. Χρησιμεύει στην ανίχνευση συγκρούσεων επεξεργασίας.",
+	"apihelp-visualeditor-param-wikitext": "Κώδικας wiki για να σταλεί στο Parsoid για να μετατραπεί σε HTML (paction=parsefragment).",
+	"apihelp-visualeditor-summary": "Επιστρέφει HTML5 για μια σελίδα από την υπηρεσία Parsoid.",
+	"apihelp-visualeditoredit-param-basetimestamp": "Κατά την αποθήκευση, αυτό να οριστεί στη χρονοσφραγίδα της αναθεώρησης που δέχθηκε επεξεργασία. Χρησιμεύει στην ανίχνευση συγκρούσεων επεξεργασίας.",
+	"apihelp-visualeditoredit-param-cachekey": "Χρησιμοποιήστε το αποτέλεσμα προηγούμενου αιτήματος σειριοποίησης για κρυφή μνήμη με αυτό το κλειδί. Αντικαθιστά το $1html.",
+	"apihelp-visualeditoredit-param-captchaid": "Αναγνωριστικό captcha (κατά την αποθήκευση με μία απάντηση captcha).",
+	"apihelp-visualeditoredit-param-captchaword": "Απάντηση στο captcha (κατά την αποθήκευση με μία απάντηση captcha).",
+	"apihelp-visualeditoredit-param-html": "Ο κώδικας HTML που αποστέλλεται στο Parsoid για να επιστρέψει κώδικα wiki.",
+	"apihelp-visualeditoredit-param-minor": "Σήμανση για μικροεπεξεργασία.",
+	"apihelp-visualeditoredit-param-needcheck": "Κατά την αποθήκευση, ορίστε αυτήν την παράμετρο εάν η αναθεώρηση μπορεί να έχει προβλήματα μεταφοράς. Αυτό θα έχει ως αποτέλεσμα να προστεθεί ετικέτα στην επεξεργασία.",
+	"apihelp-visualeditoredit-param-oldid": "Αριθμός αναθεώρησης που θα χρησιμοποιηθεί. Η προεπιλογή είναι η πιο πρόσφατη αναθεώρηση. Χρησιμοποιήστε το 0 για νέα σελίδα.",
+	"apihelp-visualeditoredit-param-page": "Η σελίδα στην οποία θα εκτελέσετε ενέργειες.",
+	"apihelp-visualeditoredit-param-starttimestamp": "Κατά την αποθήκευση, αυτό να οριστεί στη χρονοσφραγίδα της στιγμής φόρτωσης της σελίδας. Χρησιμεύει στην ανίχνευση συγκρούσεων επεξεργασίας.",
+	"apihelp-visualeditoredit-param-summary": "Σύνοψη επεξεργασίας"
+}

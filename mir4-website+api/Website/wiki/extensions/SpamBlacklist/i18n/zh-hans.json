@@ -1,0 +1,36 @@
+{
+	"@metadata": {
+		"authors": [
+			"Func",
+			"GuoPC",
+			"Hzy980512",
+			"Liangent",
+			"Linforest",
+			"Liuxinyu970226",
+			"Mys 721tx",
+			"PhiLiP",
+			"Supaiku",
+			"WhitePhosphorus",
+			"Yfdyh000",
+			"乌拉跨氪",
+			"列维劳德",
+			"Anterdc99"
+		]
+	},
+	"spam-blacklist": " #<!-- 请完整地保留此行 --> <pre>\n# 当加入的外部URL匹配该表时则会被禁止。\n# 该表只会影响本wiki项目；请同时参阅全域黑名单。\n# 文档参见https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:SpamBlacklist\n#\n# 语法如下：\n#  * 由“#”开头的每行均为注释\n#  * 非空白行为正则表达式片段，其只与内含该片段的URL匹配\n\n #</pre> <!-- 请完整地保留此行 -->",
+	"spam-whitelist": " #<!-- 请完整地保留此行 --> <pre>\n# 与该表匹配的URL，即使已被黑名单的规则禁止也*不会*被封禁。\n#\n# 语法如下：\n#   * 由“#”开头的每行均为注释\n#   * 非空白行为正则表达式片段，其只与内含该片段的URL匹配\n\n #</pre> <!-- 请完整地保留此行 -->",
+	"email-blacklist": " #<!-- 请完整地保留此行 --> <pre>\n# 与该表匹配的电子邮件地址将被禁止注册及发送邮件\n# 该表只会影响本wiki项目；请同时参阅全域黑名单。\n# 注解请见 https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:SpamBlacklist\n#\n# 语法如下：\n#   * 由“#”开头的每行均为注释\n#   * 非空白行为正则表达式片段，其只与内含该片段的电子邮件地址匹配\n\n #</pre> <!-- 请完整地保留此行 -->",
+	"email-whitelist": " #<!-- 请完整地保留此行 --> <pre>\n# 与该表匹配的电子邮件地址，即使已被黑名单的规则禁止也*不会*被封禁。\n#\n# 格式如下：\n#   * 由“#”开头的每行均为注释\n#   * 非空白行为正则表达式片段，其只与内含该片段的电子邮件地址匹配\n\n #</pre> <!-- 请完整地保留此行 -->",
+	"spam-blacklisted-email": "禁止的电子邮件地址",
+	"spam-blacklisted-email-text": "您的电子邮件地址目前已被禁止您给其他用户发送邮件。",
+	"spam-blacklisted-email-signup": "所给电邮地址已被禁止使用。",
+	"spam-invalid-lines": "下列垃圾链接阻止列表存在{{PLURAL:$1|一行|多行}}无效的正则{{PLURAL:$1|表达式}}，{{PLURAL:$1|需要}}在保存页面前修正：",
+	"spam-blacklist-desc": "基于正则表达式的反垃圾邮件工具允许将页面中的URL及注册用户的电子邮件地址列入阻止列表",
+	"log-name-spamblacklist": "垃圾链接阻止列表日志",
+	"log-description-spamblacklist": "这个列表跟踪垃圾链接阻止列表的触发。",
+	"logentry-spamblacklist-hit": "{{GENDER:$2|$1}}在$3上试图添加$4，触发了垃圾链接阻止列表。",
+	"right-spamblacklistlog": "查看垃圾链接阻止列表日志",
+	"action-spamblacklistlog": "查看垃圾链接阻止列表日志",
+	"right-sboverride": "绕过垃圾链接阻止列表",
+	"action-sboverride": "绕过垃圾链接阻止列表"
+}

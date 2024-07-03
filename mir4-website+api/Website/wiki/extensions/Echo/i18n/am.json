@@ -1,0 +1,42 @@
+{
+	"@metadata": {
+		"authors": [
+			"Amire80",
+			"Elfalem"
+		]
+	},
+	"prefs-echo": "ማስታወቂያዎች",
+	"prefs-emailsettings": "የኢ-ሜል ምርጫዎች",
+	"echo-pref-email": "ኢ-ሜል",
+	"echo-pref-email-frequency-never": "ማስታወቂያዎችን በኢ-ሜል አትላክልኝ",
+	"echo-pref-email-frequency-immediately": "ለእያንዳንዱ ማስታወቂያ",
+	"echo-pref-email-frequency-daily": "በየቀኑ አንድ ማጠቃለያ",
+	"echo-pref-email-frequency-weekly": "በሳምንቱ አንድ ማጠቃለያ",
+	"echo-pref-email-format-html": "ኤች.ቲ.ኤም.ኤል. (HTML)",
+	"echo-pref-email-format-plain-text": "ጥሬ ጽሁፍ",
+	"echo-learn-more": "የበለጠ ለመረዳት",
+	"echo-new-messages": "አዲስ መልዕክቶች አሉዎት",
+	"echo-category-title-edit-user-talk": "ውይይት ገጽ {{PLURAL:$1|መልዕክት|መልዕክቶች}}",
+	"echo-category-title-article-linked": "የገጽ {{PLURAL:$1|መያያዣ|መያያዣዎች}}",
+	"echo-category-title-reverted": "የ{{PLURAL:$1|ተገለበጠ ለውጥ|ተገለበጡ ለውጦች}}",
+	"echo-category-title-mention": "{{PLURAL:$1|ስም ማንሳት}}",
+	"echo-category-title-other": "{{PLURAL:$1|ሌላ|ሌሎች}}",
+	"echo-pref-tooltip-edit-user-talk": "ማንኛውም ሰው በውይይት ገጼ ላይ ሲጽፍ አስታውቀኝ።",
+	"echo-pref-tooltip-article-linked": "ማንኛው ሰው እኔ ወደ ፈጠርኩት መጣጥፍ በሌላ መጣጥፍ ውስጥ መያያዣ ሲያቀርብ አስታውቀኝ።",
+	"echo-pref-tooltip-reverted": "ማንኛው ሰው የእኔን ለውጦች ሲገለብጥ አስታውቀኝ።",
+	"echo-pref-tooltip-mention": "ማንኛውም ሰው ወደ እኔ ውይይት ገጽ በሌላ ውይይት ገጽ ላይ መያያዣ ሲያቀርብ አስታውቀኝ።",
+	"notifications": "ማስታወቂያዎች",
+	"echo-specialpage": "ማስታወቂያዎች",
+	"echo-none": "ምንም ማስታወቂያዎች የሎትም።",
+	"notification-link-text-view-message": "መልዕክት ለማየት",
+	"notification-link-text-view-mention": "ስምዎ የተነሳበትን ገጽ ለማየት",
+	"notification-link-text-view-changes": "ማነጻጸሪያ ለማየት",
+	"notification-link-text-view-page": "ገጽ ለማየት",
+	"notification-link-text-view-edit": "ማነጻጸሪያ ለማየት",
+	"echo-overlay-link": "ሁሉም ማስታወቂያዎች",
+	"echo-overlay-title": "<b>ማስታወቂያዎች</b>",
+	"echo-mark-all-as-read": "ሁሉንም ታይተዋል በል",
+	"echo-date-today": "ዛሬ",
+	"echo-date-yesterday": "ትላንትና",
+	"echo-email-batch-link-text-view-all-notifications": "ሁሉንም ማስታወቂያዎች ለማየት"
+}

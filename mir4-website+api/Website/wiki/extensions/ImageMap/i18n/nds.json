@@ -1,0 +1,19 @@
+{
+	"@metadata": {
+		"authors": [
+			"Slomox"
+		]
+	},
+	"imagemap_desc": "Verlöövt dat Instellen vun Lenken op Biller över den Tag <code>&lt;imagemap&gt;</code>",
+	"imagemap_no_image": "Error: in de eerste Reeg mutt en Bild angeven wesen",
+	"imagemap_invalid_image": "Error: Bild geiht nich oder dat gifft dat gor nich",
+	"imagemap_bad_image": "Fehler: Dat Bild steiht op de swarte List för disse Siet",
+	"imagemap_no_link": "Error: an dat Enn vun Reeg $1 weer keen Lenk",
+	"imagemap_invalid_title": "Error: in Reeg $1 is de Titel in’n Lenk nich bi de Reeg",
+	"imagemap_missing_coord": "Error: Form in Reeg $1 hett nich noog Koordinaten",
+	"imagemap_unrecognised_shape": "Error: Form in Reeg $1 nich kennt, jede Reeg mutt mit ''<code>default</code>'', ''<code>rect</code>'', ''<code>circle</code>'' oder ''<code>poly</code>'' anfangen",
+	"imagemap_invalid_coord": "Error: Koordinaat in Reeg $1 nich bi de Reeg, mutt en Tall wesen",
+	"imagemap_invalid_desc": "Error: Beschrieven nich bi de Reeg, mutt een vun disse wesen: <code>$1</code>",
+	"imagemap_description": "Över dit Bild",
+	"imagemap_poly_odd": "Fehler: Polygon mit unevene Tall Koordinaten in Reeg $1"
+}

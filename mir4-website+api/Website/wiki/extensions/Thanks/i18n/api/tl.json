@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"GinawaSaHapon"
+		]
+	},
+	"apihelp-flowthank-summary": "Magpadala ng pasasalamat para sa isang komento sa Flow.",
+	"apihelp-flowthank-param-postid": "Ang UUID ng post na pasasalamatan mo.",
+	"apihelp-flowthank-example-1": "Magpadala ng pasasalamat para sa komentong may <kbd>UUID xyz789</kbd>",
+	"apihelp-thank-summary": "Magpadala ng pasasalamat sa isang editor.",
+	"apihelp-thank-param-rev": "ID ng rev pasasalamatan mo. Kailangang maibigay ito o ang 'log'.",
+	"apihelp-thank-param-log": "ID ng log na pasasalamatan mo. Kailangang maibigay ito o ang 'rev'.",
+	"apihelp-thank-param-source": "Maiksing string na naglalarawan sa pinagmulan ng hiling, halimbawa, <kbd>diff</kbd> o <kbd>history</kbd>.",
+	"apihelp-thank-example-1": "Magpadala ng pasasalamat para sa pagbabagong <kbd>ID 456</kbd>, kung saan isang pahina ng pagbabago ang pinagmulan."
+}

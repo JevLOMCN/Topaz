@@ -1,0 +1,57 @@
+[
+	{
+		"name": "echo_unread_wikis",
+		"columns": [
+			{
+				"name": "euw_id",
+				"comment": "Primary key",
+				"type": "integer",
+				"options": { "autoincrement": true, "notnull": true, "unsigned": true }
+			},
+			{
+				"name": "euw_user",
+				"comment": "Global user id",
+				"type": "integer",
+				"options": { "notnull": true, "unsigned": true }
+			},
+			{
+				"name": "euw_wiki",
+				"comment": "Name of wiki",
+				"type": "string",
+				"options": { "notnull": true, "length": 64 }
+			},
+			{
+				"name": "euw_alerts",
+				"comment": "unread alerts count on that wiki",
+				"type": "integer",
+				"options": { "notnull": true, "unsigned": true }
+			},
+			{
+				"name": "euw_alerts_ts",
+				"comment": "Timestamp of the most recent unread alert",
+				"type": "mwtimestamp",
+				"options": { "notnull": true }
+			},
+			{
+				"name": "euw_messages",
+				"comment": "unread messages count on that wiki",
+				"type": "integer",
+				"options": { "notnull": true, "unsigned": true }
+			},
+			{
+				"name": "euw_messages_ts",
+				"comment": "Timestamp of the most recent unread message",
+				"type": "mwtimestamp",
+				"options": { "notnull": true }
+			}
+		],
+		"indexes": [
+			{
+				"name": "echo_unread_wikis_user_wiki",
+				"columns": [ "euw_user", "euw_wiki" ],
+				"unique": true
+			}
+		],
+		"pk": [ "euw_id" ]
+	}
+]

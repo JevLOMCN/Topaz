@@ -1,0 +1,24 @@
+{
+	"@metadata": {
+		"authors": [
+			"Matěj Suchánek",
+			"Mormegil",
+			"Patriccck",
+			"Patrik L."
+		]
+	},
+	"codeeditor-desc": "Editace stránek s JavaScriptem a CSS se zvýrazňováním syntaxe prostřednictvím [https://ace.c9.io/ editoru Ace]",
+	"codeeditor-next-annotation": "Přejít k další anotaci",
+	"codeeditor-toolbar-toggle": "Přepnout editor kódu",
+	"codeeditor-save-with-errors": "Tento dokument obsahuje chyby. Určitě ho chcete zveřejnit?",
+	"codeeditor-invisibleChars-toggle": "Přepnout neviditelné znaky",
+	"codeeditor-lineWrapping-toggle": "Přepnout zalamování řádků",
+	"codeeditor-searchReplace-toggle": "Přepnout okno pro hledání a náhrady",
+	"codeeditor-gotoline": "Jít na číslo řádku…",
+	"codeeditor-gotoline-placeholder": "řádek[:sloupec]",
+	"codeeditor-gotoline-prompt": "Zadejte číslo řádku",
+	"codeeditor-indent": "Odsadit",
+	"codeeditor-outdent": "Zmenšit odsazení",
+	"codeeditor-error-title": "Nevyplněná závislost",
+	"codeeditor-error-message": "Editor zdrojového kódu vyžaduje, aby byl načten wiki editor."
+}

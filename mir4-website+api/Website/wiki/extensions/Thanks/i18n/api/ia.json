@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"McDutchie"
+		]
+	},
+	"apihelp-flowthank-summary": "Inviar un notification public de regratiamento pro un commento de Flow.",
+	"apihelp-flowthank-param-postid": "Le UUID del message pro le qual regratiar.",
+	"apihelp-flowthank-example-1": "Inviar un regratiamento pro le commento <kbd>UUID xyz789</kbd>",
+	"apihelp-thank-summary": "Inviar un notification de regratiamento a un contributor.",
+	"apihelp-thank-param-rev": "Le ID del version pro le qual regratiar qualcuno. Es obligatori fornir isto o 'log'.",
+	"apihelp-thank-param-log": "Le ID de registro pro le qual regratiar qualcuno. Es obligatori fornir isto o 'rev'.",
+	"apihelp-thank-param-source": "Un catena curte que describe le origine del requesta, per exemplo <kbd>diff</kbd> o <kbd>history</kbd>.",
+	"apihelp-thank-example-1": "Inviar un regratiamento pro le version <kbd>ID 456</kbd>, le origine essente un pagina de diff"
+}

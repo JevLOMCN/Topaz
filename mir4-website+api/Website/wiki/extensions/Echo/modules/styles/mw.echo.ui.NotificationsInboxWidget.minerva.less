@@ -1,0 +1,31 @@
+// TODO: These should be mobile customizations done in JS
+
+.mw-echo-ui-notificationsInboxWidget {
+	&-sidebar {
+		// echo notificationsInboxWidget cell
+		// in the desktop version is hidden
+		// in the mobile version.
+		&.mw-echo-ui-notificationsInboxWidget-cell {
+			display: none;
+		}
+	}
+
+	&-main {
+		&-toolbar {
+			&-readState {
+				// echo notificationsInboxWidget cell for readState
+				// in the desktop version is hidden
+				// in the mobile version.
+				&.mw-echo-ui-notificationsInboxWidget-cell {
+					display: none;
+				}
+			}
+		}
+	}
+
+	& &-toolbarWrapper {
+		height: auto;
+		position: static;
+		padding-bottom: 0.5em;
+	}
+}

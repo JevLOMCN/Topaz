@@ -1,0 +1,23 @@
+{
+	"@metadata": {
+		"authors": [
+			"Cigaryno",
+			"FShbib",
+			"Meno25",
+			"Mr. Ibrahem",
+			"Shbib Al-Subaie",
+			"ديفيد",
+			"محمد أحمد عبد الفتاح"
+		]
+	},
+	"apihelp-query+linterrors-summary": "احصل على قائمة بأخطاء لنت",
+	"apihelp-query+linterrors-param-categories": "تصنيفات أخطاء لنت",
+	"apihelp-query+linterrors-param-limit": "عدد النتائج للاستعلام",
+	"apihelp-query+linterrors-param-from": "معرف Lint لبدء الاستعلام منه",
+	"apihelp-query+linterrors-param-namespace": "قم بتضمين أخطاء lint من النطاقات المحددة فقط",
+	"apihelp-query+linterrors-param-pageid": "قم بتضمين أخطاء lint من الصفحات المحددة فقط",
+	"apihelp-query+linterrors-param-title": "قم فقط بتضمين أخطاء النسالة من عنوان الصفحة المحدد",
+	"apihelp-query+linterrors-example-1": "الحصول على جميع أخطاء lint من تصنيف العلامة القديمة",
+	"apihelp-query+linterstats-summary": "الحصول على عدد من أخطاء lint في كل تصنيف",
+	"apihelp-query+linterstats-example-1": "الحصول على عدد من أخطاء lint في كل تصنيف"
+}

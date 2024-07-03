@@ -1,0 +1,38 @@
+{
+	"@metadata": {
+		"authors": [
+			"Bennylin",
+			"Meursault2004",
+			"NoiX180",
+			"Pras"
+		]
+	},
+	"categorytree": "Wit kategori",
+	"categorytree-portlet": "Katégori",
+	"categorytree-legend": "Tuduhaké wit kategori",
+	"categorytree-desc": "Gadget adhedhasar AJAX kanggo nuduhaké [[Special:CategoryTree|struktur kategori]] sawijining wiki",
+	"categorytree-header": "Lebokna sawijining jeneng kategori kanggo deleng isiné minangka sawijining wujud uwit.\nMangga diwigatèkaké yèn fitur iki merlokaké fungsionalitas JavaScript canggih sing diarani AJAX.\nMenawa panjenengan panjlajah wèbé kalebu vèrsi lawa, utawa fitur JavaScript dipatèni, fungsi iki ora bisa dilakokaké.",
+	"categorytree-category": "Kategori:",
+	"categorytree-go": "Tuduhaké wit",
+	"categorytree-parents": "Babon",
+	"categorytree-mode-label": "Cara:",
+	"categorytree-mode-categories": "mligi kategori",
+	"categorytree-mode-pages": "kaca kajaba barkas",
+	"categorytree-mode-all": "kabèh kaca",
+	"categorytree-collapse": "tutup",
+	"categorytree-expand": "bukak",
+	"categorytree-member-counts": "Ngandhut {{PLURAL:$1|1 subkategori|$1 subkategori}}, {{PLURAL:$2|1 kaca|$2 kaca}}, lan {{PLURAL:$3|1 barkas|$3 barkas}}",
+	"categorytree-num-categories": "$1 Kt",
+	"categorytree-num-pages": "$1 Kc",
+	"categorytree-num-files": "$1 B",
+	"categorytree-num-empty": "suwung",
+	"categorytree-load": "mot",
+	"categorytree-loading": "ngamot…",
+	"categorytree-nothing-found": "ora ana apa-apa",
+	"categorytree-no-subcategories": "anak kategori ora ana",
+	"categorytree-no-parent-categories": "kategori babon ora ana",
+	"categorytree-no-pages": "kaca utawa anak kategori ora ana",
+	"categorytree-not-found": "Kategori <i>$1</i> ora ana",
+	"categorytree-error": "Ana masalah nalika ngamot dhatah.",
+	"categorytree-retry": "Mangga nunggu sadhéla banjur njajal manèh."
+}

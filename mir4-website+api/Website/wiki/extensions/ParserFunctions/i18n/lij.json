@@ -1,0 +1,28 @@
+{
+	"@metadata": {
+		"authors": [
+			"Giromin Cangiaxo"
+		]
+	},
+	"pfunc_desc": "A l'avantaggia l'analizatô con de fonsioin loggiche",
+	"pfunc_time_error": "Errô: oa non vallida.",
+	"pfunc_time_too_long": "Errô: troppe ciamæ a #time.",
+	"pfunc_time_too_big": "Errô: #time o suporta solo fin a l'anno 9999.",
+	"pfunc_time_too_small": "Errô: #time o suporta solo da l'anno 0.",
+	"pfunc_rel2abs_invalid_depth": "Errö: profonditæ non vallida into percorso \"$1\" (s'è tentou d'acede a 'n groppo de d'ato a-a reixe).",
+	"pfunc_expr_stack_exhausted": "Errô inte l'esprescion: pilla ezaoria.",
+	"pfunc_expr_unexpected_number": "Errô inte l'esprescion: Nummero inatteizo.",
+	"pfunc_expr_preg_match_failure": "Errô inte l'esprescion: errô imprevisto in preg_match.",
+	"pfunc_expr_unrecognised_word": "Errô inte l'esprescion: parolla \"$1\" non riconosciua.",
+	"pfunc_expr_unexpected_operator": "Errô inte l'esprescion: operatô $1 inatteiso.",
+	"pfunc_expr_missing_operand": "Errô inte l'esprescion: operando mancante pe $1.",
+	"pfunc_expr_unexpected_closing_bracket": "Errô inte l'esprescion: parentexi serâ inatteiza.",
+	"pfunc_expr_unrecognised_punctuation": "Errô inte l'esprescion: carattere de puntezzatua \"$1\" non riconosciuo.",
+	"pfunc_expr_unclosed_bracket": "Errô inte l'esprescion: Parentexi non serâ.",
+	"pfunc_expr_division_by_zero": "Divixon pe zero.",
+	"pfunc_expr_invalid_argument": "Argomento non vallido pe $1: < -1 ò > 1.",
+	"pfunc_expr_invalid_argument_ln": "Argomento non vallido pe ln: <= 0.",
+	"pfunc_expr_unknown_error": "Errô inte l'esprescion: errô sconosciuo ($1).",
+	"pfunc_expr_not_a_number": "In $1: o rizultou o no l'è un nummero.",
+	"pfunc_string_too_long": "Errô: a stringa a passa o limmite de $1 {{PLURAL:$1|carattere|caratteri}}."
+}

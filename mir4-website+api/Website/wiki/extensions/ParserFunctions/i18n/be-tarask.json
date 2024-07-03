@@ -1,0 +1,32 @@
+{
+	"@metadata": {
+		"authors": [
+			"EugeneZelenko",
+			"Jim-by",
+			"Red Winged Duck",
+			"Wizardist",
+			"Renessaince"
+		]
+	},
+	"pfunc_desc": "Палепшаны парсэр зь лягічнымі функцыямі",
+	"pfunc_time_error": "Памылка: няслушны час.",
+	"pfunc_time_too_long": "Памылка: зашмат выклікаў функцыі #time",
+	"pfunc_time_too_big": "Памылка: #time падтрымлівае гады толькі ў дыяпазоне да 9999",
+	"pfunc_time_too_small": "Памылка: #time падтрымлівае толькі гады ад 0.",
+	"pfunc_rel2abs_invalid_depth": "Памылка: няслушная глыбіня шляху: «$1» (спроба доступу да вузла, які знаходзіцца вышэй карэннага)",
+	"pfunc_expr_stack_exhausted": "Памылка выразу: стэк перапоўнены",
+	"pfunc_expr_unexpected_number": "Памылка выразу: нечаканая лічба",
+	"pfunc_expr_preg_match_failure": "Памылка выразу: нечаканая памылка preg_match",
+	"pfunc_expr_unrecognised_word": "Памылка выразу: нераспазнанае слова «$1»",
+	"pfunc_expr_unexpected_operator": "Памылка выразу: нечаканы апэратар $1",
+	"pfunc_expr_missing_operand": "Памылка выразу: няма апэранду $1",
+	"pfunc_expr_unexpected_closing_bracket": "Памылка выразу: нечаканая закрываючая дужка",
+	"pfunc_expr_unrecognised_punctuation": "Памылка выразу: нераспазнаны сымбаль пунктуацыі «$1»",
+	"pfunc_expr_unclosed_bracket": "Памылка выразу: незакрытая дужка",
+	"pfunc_expr_division_by_zero": "Дзяленьне на нуль.",
+	"pfunc_expr_invalid_argument": "Памылковы аргумэнт для $1: меней за -1 ці болей за 1.",
+	"pfunc_expr_invalid_argument_ln": "Памылковы аргумэнт для ln: менш або роўны 0.",
+	"pfunc_expr_unknown_error": "Памылка выразу: невядомая памылка ($1)",
+	"pfunc_expr_not_a_number": "У $1: вынік не зьяўляецца лічбай",
+	"pfunc_string_too_long": "Памылка: у радку перавышаны ліміт $1 {{PLURAL:$1|сымбаль|сымбалі|сымбаляў}}"
+}

@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Kly"
+		]
+	},
+	"apihelp-query+mathwbextracts-example-1": "請求一個數學 Wikibase 項目摘要。",
+	"apihelp-query+mathwbextracts-summary": "請求一個在 HTML 的數學 Wikibase 項目摘要。",
+	"apihelp-query+mathwbextracts-param-qid": "Wikibase 項目的 QID 將被請求。",
+	"apihelp-query+mathwbextracts-param-uselang": "應請求於 Wikibase 項目的語言。預設值為英語。"
+}

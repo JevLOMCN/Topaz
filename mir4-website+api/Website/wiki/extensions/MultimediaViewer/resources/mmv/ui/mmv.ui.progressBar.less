@@ -1,0 +1,39 @@
+@import 'mediawiki.skin.variables.less';
+@import '../mmv.variables.less';
+
+@progress-height: @progress-bar-height;
+
+.mw-mmv-progress {
+	background-color: #c8ccd1;
+	background-color: rgba( 221, 221, 221, 0.5 );
+	width: 100%;
+	height: @progress-height;
+	position: absolute;
+	top: -@progress-height;
+}
+
+.mw-mmv-progress.empty {
+	display: none;
+}
+
+.mw-mmv-progress-percent {
+	width: 0;
+	height: @progress-height;
+	background: linear-gradient( -45deg, transparent 33%, rgba( 0, 0, 0, 0.1 ) 33%, rgba( 0, 0, 0, 0.1 ) 66%, transparent 66% ), #36c;
+	background-size: 35px 20px, 100% 100%, 100% 100%;
+	animation: mw-mmv-progress-percent-animation 1.5s linear infinite;
+}
+
+.mw-mmv-progress-percent-animation() {
+	0% {
+		background-position: 0 0;
+	}
+
+	100% {
+		background-position: -70px 0;
+	}
+}
+
+@keyframes mw-mmv-progress-percent-animation {
+	.mw-mmv-progress-percent-animation;
+}

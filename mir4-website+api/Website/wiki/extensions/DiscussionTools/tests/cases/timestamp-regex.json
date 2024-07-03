@@ -1,0 +1,52 @@
+[
+	{
+		"format": "H:i, j F Y",
+		"expected": "(\\d{2})[\\u200E\\u200F]?:[\\u200E\\u200F]?(\\d{2})[\\u200E\\u200F]?,[\\u200E\\u200F]? [\\u200E\\u200F]?(\\d{1,2})[\\u200E\\u200F]? [\\u200E\\u200F]?(January|February|March|April|May|June|July|August|September|October|November|December)[\\u200E\\u200F]? [\\u200E\\u200F]?(\\d{4})[\\u200E\\u200F]? [\\u200E\\u200F]?\\((UTC)\\)",
+		"message": "(en) Boring"
+	},
+	{
+		"format": "H:i، j xg Y",
+		"expected": "(\\d{2})[\\u200E\\u200F]?:[\\u200E\\u200F]?(\\d{2})[\\u200E\\u200F]?،[\\u200E\\u200F]? [\\u200E\\u200F]?(\\d{1,2})[\\u200E\\u200F]? [\\u200E\\u200F]?(January|February|March|April|May|June|July|August|September|October|November|December)[\\u200E\\u200F]? [\\u200E\\u200F]?(\\d{4})[\\u200E\\u200F]? [\\u200E\\u200F]?\\((UTC)\\)",
+		"message": "(ar) 'xg' specifier"
+	},
+	{
+		"format": "H:i, j F xkY",
+		"expected": "(\\d{2})[\\u200E\\u200F]?:[\\u200E\\u200F]?(\\d{2})[\\u200E\\u200F]?,[\\u200E\\u200F]? [\\u200E\\u200F]?(\\d{1,2})[\\u200E\\u200F]? [\\u200E\\u200F]?(January|February|March|April|May|June|July|August|September|October|November|December)[\\u200E\\u200F]? [\\u200E\\u200F]?(\\d{4})[\\u200E\\u200F]? [\\u200E\\u200F]?\\((UTC)\\)",
+		"message": "(th) 'xkY' specifier"
+	},
+	{
+		"format": "H\"h\"i\"min\" \"de\" j \"de\" F \"de\" Y",
+		"expected": "(\\d{2})[\\u200E\\u200F]?h[\\u200E\\u200F]?(\\d{2})[\\u200E\\u200F]?min[\\u200E\\u200F]? [\\u200E\\u200F]?de[\\u200E\\u200F]? [\\u200E\\u200F]?(\\d{1,2})[\\u200E\\u200F]? [\\u200E\\u200F]?de[\\u200E\\u200F]? [\\u200E\\u200F]?(January|February|March|April|May|June|July|August|September|October|November|December)[\\u200E\\u200F]? [\\u200E\\u200F]?de[\\u200E\\u200F]? [\\u200E\\u200F]?(\\d{4})[\\u200E\\u200F]? [\\u200E\\u200F]?\\((UTC)\\)",
+		"message": "(pt) Escaped text (quotes)"
+	},
+	{
+		"format": "H\\hi\\m\\i\\n \\d\\e j \\d\\e F \\d\\e Y",
+		"expected": "(\\d{2})[\\u200E\\u200F]?h[\\u200E\\u200F]?(\\d{2})[\\u200E\\u200F]?m[\\u200E\\u200F]?i[\\u200E\\u200F]?n[\\u200E\\u200F]? [\\u200E\\u200F]?d[\\u200E\\u200F]?e[\\u200E\\u200F]? [\\u200E\\u200F]?(\\d{1,2})[\\u200E\\u200F]? [\\u200E\\u200F]?d[\\u200E\\u200F]?e[\\u200E\\u200F]? [\\u200E\\u200F]?(January|February|March|April|May|June|July|August|September|October|November|December)[\\u200E\\u200F]? [\\u200E\\u200F]?d[\\u200E\\u200F]?e[\\u200E\\u200F]? [\\u200E\\u200F]?(\\d{4})[\\u200E\\u200F]? [\\u200E\\u200F]?\\((UTC)\\)",
+		"message": "(pt) Escaped text (backslashes)"
+	},
+	{
+		"format": "j F Y à H:i",
+		"expected": "(\\d{1,2})[\\u200E\\u200F]? [\\u200E\\u200F]?(January|February|March|April|May|June|July|August|September|October|November|December)[\\u200E\\u200F]? [\\u200E\\u200F]?(\\d{4})[\\u200E\\u200F]? [\\u200E\\u200F]?à[\\u200E\\u200F]? [\\u200E\\u200F]?(\\d{2})[\\u200E\\u200F]?:[\\u200E\\u200F]?(\\d{2})[\\u200E\\u200F]? [\\u200E\\u200F]?\\((UTC)\\)",
+		"message": "(fr) Unescaped text (non-ASCII)"
+	},
+	{
+		"format": "Y年n月j日 (D) H:i",
+		"expected": "(\\d{4})[\\u200E\\u200F]?年[\\u200E\\u200F]?(\\d{1,2})[\\u200E\\u200F]?月[\\u200E\\u200F]?(\\d{1,2})[\\u200E\\u200F]?日[\\u200E\\u200F]? [\\u200E\\u200F]?\\([\\u200E\\u200F]?(Sun|Mon|Tue|Wed|Thu|Fri|Sat)[\\u200E\\u200F]?\\)[\\u200E\\u200F]? [\\u200E\\u200F]?(\\d{2})[\\u200E\\u200F]?:[\\u200E\\u200F]?(\\d{2})[\\u200E\\u200F]? [\\u200E\\u200F]?\\((UTC)\\)",
+		"message": "(ja) Unescaped regexp special characters"
+	},
+	{
+		"format": "‏H:i، jی xg Y",
+		"expected": "‏[\\u200E\\u200F]?(\\d{2})[\\u200E\\u200F]?:[\\u200E\\u200F]?(\\d{2})[\\u200E\\u200F]?،[\\u200E\\u200F]? [\\u200E\\u200F]?(\\d{1,2})[\\u200E\\u200F]?ی[\\u200E\\u200F]? [\\u200E\\u200F]?(January|February|March|April|May|June|July|August|September|October|November|December)[\\u200E\\u200F]? [\\u200E\\u200F]?(\\d{4})[\\u200E\\u200F]? [\\u200E\\u200F]?\\((UTC)\\)",
+		"message": "(ckb) UTF-8 multibyte characters survive"
+	},
+	{
+		"format": "H:i💩 j F Y",
+		"expected": "(\\d{2})[\\u200E\\u200F]?:[\\u200E\\u200F]?(\\d{2})[\\u200E\\u200F]?💩[\\u200E\\u200F]? [\\u200E\\u200F]?(\\d{1,2})[\\u200E\\u200F]? [\\u200E\\u200F]?(January|February|March|April|May|June|July|August|September|October|November|December)[\\u200E\\u200F]? [\\u200E\\u200F]?(\\d{4})[\\u200E\\u200F]? [\\u200E\\u200F]?\\((UTC)\\)",
+		"message": "(en) UTF-16 multibyte characters survive"
+	},
+	{
+		"format": "xnY-xnm-xnd\"T\"xnH:xni:xns",
+		"expected": "[\\u200E\\u200F]?([0-9]{4})[\\u200E\\u200F]?\\-[\\u200E\\u200F]?[\\u200E\\u200F]?([0-9]{2})[\\u200E\\u200F]?\\-[\\u200E\\u200F]?[\\u200E\\u200F]?([0-9]{2})[\\u200E\\u200F]?T[\\u200E\\u200F]?[\\u200E\\u200F]?([0-9]{2})[\\u200E\\u200F]?:[\\u200E\\u200F]?[\\u200E\\u200F]?([0-9]{2})[\\u200E\\u200F]?:[\\u200E\\u200F]?[\\u200E\\u200F]?([0-9]{2})[\\u200E\\u200F]? [\\u200E\\u200F]?\\((UTC)\\)",
+		"message": "ISO 8601"
+	}
+]

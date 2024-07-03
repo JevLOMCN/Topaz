@@ -1,0 +1,16 @@
+{
+	"@metadata": {
+		"authors": [
+			"Iváns",
+			"Toliño"
+		]
+	},
+	"questycaptcha-desc": "Xerador de preguntas CAPTCHA para Confirm Edit",
+	"questycaptcha-addurl": "A súa edición inclúe novas ligazóns externas.\nPara protexer o wiki contra o spam automático, conteste a pregunta que aparece a continuación ([[Special:Captcha/help|máis información]]):",
+	"questycaptcha-badlogin": "Para protexer o wiki contra o roubo de contrasinais, conteste a pregunta que aparece a continuación ([[Special:Captcha/help|máis información]]):",
+	"questycaptcha-createaccount": "Para protexer o wiki contra a creación automática de contas, conteste a pregunta que aparece a continuación ([[Special:Captcha/help|máis información]]):",
+	"questycaptcha-create": "Para crear a páxina, conteste a pregunta que aparece a continuación ([[Special:Captcha/help|máis información]]):",
+	"questycaptcha-edit": "Para editar esta páxina, conteste a pregunta que aparece a continuación ([[Special:Captcha/help|máis información]]):",
+	"questycaptcha-sendemail": "Para protexer o wiki contra o spam automático, conteste a pregunta que aparece a continuación ([[Special:Captcha/help|máis información]]):",
+	"questycaptchahelp-text": "Os sitios web que aceptan publicar as contribucións dos usuarios, coma este wiki, sofren, con frecuencia, o abuso por parte de spammers que empregan ferramentas que automatizan a inclusión de lixo en forma de ligazóns publicitarias, nunha chea de páxinas, en pouco tempo.\nMentres as devanditas ligazóns non son eliminadas supoñen unha molestia e unha perda de tempo.\n\nEn ocasións, en particular cando engadas algunha nova ligazón externa, o wiki pode pedirche que contestes unha pregunta.\nComo esta tarefa é difícil de automatizar, permite distinguir entre persoas e robots e dificulta os ataques automatizados dos spammers.\n\nPor favor, ponte en contacto cun [[Special:ListAdmins|administrador do sitio]] para solicitar axuda se o sistema che impide rexistrarte para facer contribucións lexítimas.\n\nPreme no botón \"Atrás\" do teu navegador para volver á páxina de edición."
+}

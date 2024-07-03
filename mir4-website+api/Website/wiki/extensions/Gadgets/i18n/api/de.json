@@ -1,0 +1,30 @@
+{
+	"@metadata": {
+		"authors": [
+			"Metalhead64",
+			"Tiin"
+		]
+	},
+	"apihelp-query+gadgetcategories-summary": "Gibt eine Liste der Helferlein-Kategorien zurück.",
+	"apihelp-query+gadgetcategories-param-prop": "Welche Information der Helferleinkategorie abgerufen werden soll:",
+	"apihelp-query+gadgetcategories-paramvalue-prop-name": "Interner Name der Kategorie.",
+	"apihelp-query+gadgetcategories-paramvalue-prop-title": "Titel der Kategorie.",
+	"apihelp-query+gadgetcategories-paramvalue-prop-members": "Anzahl der Helferlein in der Kategorie.",
+	"apihelp-query+gadgetcategories-param-names": "Namen der abzurufenden Kategorien.",
+	"apihelp-query+gadgetcategories-example-1": "Ruft eine Liste vorhandener Helferleinkategorien ab",
+	"apihelp-query+gadgetcategories-example-2": "Ruft alle Informationen über Kategorien mit den Namen „foo“ und „bar“ ab",
+	"apihelp-query+gadgets-summary": "Gibt eine Liste der Helferlein zurück, die auf diesem Wiki verwendet werden.",
+	"apihelp-query+gadgets-param-prop": "Welche Information des Helferleins abgerufen werden soll:",
+	"apihelp-query+gadgets-paramvalue-prop-id": "Interne Kennung des Helferleins.",
+	"apihelp-query+gadgets-paramvalue-prop-metadata": "Die Metadaten des Helferleins.",
+	"apihelp-query+gadgets-paramvalue-prop-desc": "Die in HTML umgewandelte Beschreibung des Helferleins (kann langsam sein, nur verwenden, wenn wirklich benötigt).",
+	"apihelp-query+gadgets-param-categories": "Von welchen Kategorien die Helferlein abgerufen werden sollen.",
+	"apihelp-query+gadgets-param-ids": "Kennungen der abzurufenden Helferlein.",
+	"apihelp-query+gadgets-param-allowedonly": "Nur Helferlein auflisten, die für den aktuellen Benutzer erlaubt sind.",
+	"apihelp-query+gadgets-param-enabledonly": "Nur Helferlein auflisten, die vom aktuellen Benutzer aktiviert wurden.",
+	"apihelp-query+gadgets-example-1": "Ruft eine Liste der Helferlein zusammen mit ihren Beschreibungen ab",
+	"apihelp-query+gadgets-example-2": "Ruft eine Liste der Helferlein mit allen möglichen Eigenschaften ab",
+	"apihelp-query+gadgets-example-3": "Ruft eine Liste der Helferlein ab, die zur Kategorie „foo“ gehören",
+	"apihelp-query+gadgets-example-4": "Informationen über die Helferlein „foo“ und „bar“ abrufen",
+	"apihelp-query+gadgets-example-5": "Ruft eine Liste der Helferlein ab, die vom aktuellen Benutzer aktiviert wurden"
+}

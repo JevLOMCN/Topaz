@@ -1,0 +1,17 @@
+/*!
+ * VisualEditor MediaWiki DesktopArticleTarget WikimediaUI theme init styles.
+ *
+ * @copyright See AUTHORS.txt
+ * @license The MIT License (MIT); see LICENSE.txt
+ */
+
+.ve-init-mw-desktopArticleTarget-toolbarPlaceholder-bar {
+	height: 42px;
+	border-bottom: 1px solid #c8ccd1;
+	box-shadow: 0 1px 1px 0 rgba( 0, 0, 0, 0.1 );
+}
+
+.ve-init-mw-desktopArticleTarget-toolbarPlaceholder-floating,
+.ve-init-mw-desktopArticleTarget-toolbarPlaceholder-open {
+	height: 42px;
+}

@@ -1,0 +1,17 @@
+{
+	"@metadata": {
+		"authors": [
+			"Klein Muçi",
+			"Olsi"
+		]
+	},
+	"scribunto-line": "te rreshti $1",
+	"scribunto-module-line": "te $1 te rreshti $2",
+	"scribunto-doc-page-does-not-exist": "''Udhëzuesi për këtë modul mund të krijohet te [[$1]]''.",
+	"scribunto-doc-page-header": "'''Kjo është faqja udhëzuese për [[$1]].''''",
+	"scribunto-console-clear": "Pastro",
+	"scribunto-lua-error": "Gabim Lua: $2.",
+	"scribunto-module-with-errors-category-desc": "Moduli ka një gabim.",
+	"nstab-module": "Moduli",
+	"tooltip-ca-nstab-module": "Shiko faqen e modulit"
+}

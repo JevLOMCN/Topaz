@@ -1,0 +1,33 @@
+{
+	"@metadata": {
+		"authors": [
+			"Kizule",
+			"Milicevic01",
+			"Obsuser",
+			"Zoranzoki21"
+		]
+	},
+	"skinname-timeless": "Bezvremensko",
+	"timeless-desc": "Bezvremenska tema dizajnirana po prototipu Winter koji je napravio Brendon Haris, te drugim stilovima Fondacije Vikimedija",
+	"timeless-anonymous": "Anoniman",
+	"timeless-loggedinas": "Prijavljeni ste kao '''$1'''",
+	"timeless-notloggedin": "Niste prijavljeni",
+	"timeless-userpage": "Stranica {{GENDER:$1|korisnika|korisnice}}",
+	"timeless-talkpage": "Razgovor sa {{GENDER:$1|korisnikom|korisnicom}}",
+	"timeless-pagelog": "Dnevnici stranice",
+	"timeless-more": "Više",
+	"timeless-sitetools": "Viki alatke",
+	"timeless-pageactions": "Alatke za stranicu",
+	"timeless-userpagetools": "Alatke za korisničku stranicu",
+	"timeless-action-addsection": "Nova tema",
+	"timeless-view-view": "Čitaj",
+	"timeless-pagemisc": "Više",
+	"timeless-namespaces": "Imenski prostori",
+	"timeless-pagetools": "Radnje za stranicu",
+	"timeless-languages": "Jezici",
+	"timeless-projects": "Drugi projekti",
+	"timeless.css": "/* CSS postavljen ovde učitaće se svim korisnicima bezvremenske teme */",
+	"timeless.js": "/* JavaScript postavljen ovde učitaće se svim korisnicima bezvremenske teme */",
+	"timeless-view-history": "Istorija",
+	"timeless-action-undelete": "Vrati {{PLURAL:$1|izbrisanu izmenu|$1 izbrisane izmene|$1 izbrisanih izmena}}"
+}

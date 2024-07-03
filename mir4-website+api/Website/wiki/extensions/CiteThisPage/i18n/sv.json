@@ -1,0 +1,21 @@
+{
+	"@metadata": {
+		"authors": [
+			"Lejonel",
+			"LittleGun",
+			"Lokal Profil",
+			"Nirmos (Wikimedia)",
+			"Per",
+			"Sannab",
+			"WikiPhoenix"
+		]
+	},
+	"citethispage": "Använd den här artikeln som referens",
+	"citethispage-desc": "Lägger till en specialsida för [[Special:CiteThisPage|källhänvisning]] och en länk i verktygslådan",
+	"citethispage-link": "Använd som referens",
+	"tooltip-citethispage": "Information om hur den här artikeln kan användas som referens",
+	"citethispage-change-submit": "Använd som referens",
+	"citethispage-change-target": "Sida:",
+	"citethispage-badrevision": "Fel: Kunde inte hitta någon sidversion för sidan \"$1\" med sidversions-ID $2.",
+	"citethispage-content": "__NOTOC__\n<div class=\"mw-specialCiteThisPage-bibliographic\">\n\n== Bibliografiska detaljer för {{FULLPAGENAME}} ==\n\n* Sidans namn: {{FULLPAGENAME}}\n* Författare: {{SITENAME}}-medarbetare\n* Utgivare: ''{{SITENAME}}''.\n* Datum för senaste version: {{CURRENTDAY}} {{CURRENTMONTHNAME}} {{CURRENTYEAR}} {{CURRENTTIME}} UTC\n* Datum mottaget: <citation>{{CURRENTDAY}} {{CURRENTMONTHNAME}} {{CURRENTYEAR}} {{CURRENTTIME}} UTC</citation>\n* Permanent URL: {{canonicalurl:{{FULLPAGENAME}}|oldid={{REVISIONID}}}}\n* Sidans version-ID: {{REVISIONID}}\n\n</div>\n<div class=\"plainlinks mw-specialCiteThisPage-styles\">\n\n== Referensstilar för {{FULLPAGENAME}} ==\n\n=== [[APA style|APA-stil]] ===\n{{FULLPAGENAME}}. ({{CURRENTYEAR}}, {{CURRENTMONTHNAME}} {{CURRENTDAY}}). ''{{SITENAME}}''. Hämtat <citation>{{CURRENTTIME}}, {{CURRENTMONTHNAME}} {{CURRENTDAY}}, {{CURRENTYEAR}}</citation> från {{canonicalurl:{{FULLPAGENAME}}|oldid={{REVISIONID}}}}.\n\n=== [[The MLA style manual|MLA-stil]] ===\n\"{{FULLPAGENAME}}.\" ''{{SITENAME}}''. {{CURRENTDAY}} {{CURRENTMONTHABBREV}} {{CURRENTYEAR}}, {{CURRENTTIME}} UTC. <citation>{{CURRENTDAY}} {{CURRENTMONTHABBREV}} {{CURRENTYEAR}}, {{CURRENTTIME}}</citation> &lt;{{canonicalurl:{{FULLPAGENAME}}|oldid={{REVISIONID}}}}&gt;.\n\n=== [[MHRA Style Guide|MHRA-stil]] ===\n{{SITENAME}}-medarbetare, '{{FULLPAGENAME}}', ''{{SITENAME}},'' {{CURRENTDAY}} {{CURRENTMONTHNAME}} {{CURRENTYEAR}}, {{CURRENTTIME}} UTC, &lt;{{canonicalurl:{{FULLPAGENAME}}|oldid={{REVISIONID}}}}&gt; [hämtad <citation>{{CURRENTDAY}} {{CURRENTMONTHNAME}} {{CURRENTYEAR}}</citation>]\n\n=== [[The Chicago Manual of Style|Chicago-stil]] ===\n{{SITENAME}}-medarbetare, \"{{FULLPAGENAME}},\" ''{{SITENAME}},'' {{canonicalurl:{{FULLPAGENAME}}|oldid={{REVISIONID}}}} (hämtad <citation>{{CURRENTMONTHNAME}} {{CURRENTDAY}}, {{CURRENTYEAR}}</citation>).\n\n=== [[Council of Science Editors|CBE/CSE-stil]] ===\n{{SITENAME}}-medarbetare. {{FULLPAGENAME}} [Internet]. {{SITENAME}}; {{CURRENTYEAR}} {{CURRENTMONTHABBREV}} {{CURRENTDAY}}, {{CURRENTTIME}} UTC [citerad <citation>{{CURRENTYEAR}} {{CURRENTMONTHABBREV}} {{CURRENTDAY}}</citation>]. Tillgänglig från:\n{{canonicalurl:{{FULLPAGENAME}}|oldid={{REVISIONID}}}}.\n\n=== [[Bluebook|Bluebook-stil]] ===\n{{FULLPAGENAME}}, {{canonicalurl:{{FULLPAGENAME}}|oldid={{REVISIONID}}}} (senast besökt <citation>{{CURRENTMONTHNAME}} {{CURRENTDAY}}, {{CURRENTYEAR}}</citation>).\n\n=== [[BibTeX]]-uppslag ===\n\n  @misc{ wiki:xxx,\n    author = \"{{SITENAME}}\",\n    title = \"{{FULLPAGENAME}} --- {{SITENAME}}{,} {{int:sitesubtitle}}\",\n    year = \"{{CURRENTYEAR}}\",\n    url = \"{{canonicalurl:{{FULLPAGENAME}}|oldid={{REVISIONID}}}}\",\n    note = \"[Online; hämtad <citation>{{CURRENTDAY}}-{{CURRENTMONTHNAME}}-{{CURRENTYEAR}}</citation>]\"\n  }\n\nNär [[LaTeX]]-modulen \"url\" används (<code>\\usepackage{url}</code> någonstans i ingressen), vilken brukar ge mycket bättre formaterade webbadresser, kan följande vara att föredra:\n\n  @misc{ wiki:xxx,\n    author = \"{{SITENAME}}\",\n    title = \"{{FULLPAGENAME}} --- {{SITENAME}}{,} {{int:sitesubtitle}}\",\n    year = \"{{CURRENTYEAR}}\",\n    url = \"'''\\url{'''{{canonicalurl:{{FULLPAGENAME}}|oldid={{REVISIONID}}}}'''}'''\",\n    note = \"[Online; hämtad <citation>{{CURRENTDAY}}-{{CURRENTMONTHNAME}}-{{CURRENTYEAR}}</citation>]\"\n  }\n\n\n</div> <!--avslutande div för \"plainlinks\"-->"
+}

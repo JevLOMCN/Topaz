@@ -1,0 +1,37 @@
+{
+	"@metadata": {
+		"authors": [
+			"BrokenArrow",
+			"Dbc334",
+			"Eleassar"
+		]
+	},
+	"captcha-edit": "Če želite urejati stran, prosimo rešite spodnjo nalogo in odgovor vpišite v polje ([[Special:Captcha/help|več informacij]]):",
+	"captcha-edit-fail": "Napačen ali manjkajoč CAPTCHA",
+	"captcha-desc": "Zagotavlja tehnike CAPTCHA za zaščito pred smetjem in ugibanjem gesel",
+	"captcha-help": "Rešitev uganke CAPTCHA.",
+	"captcha-info-help": "Opis ugank CAPTCHA.",
+	"captcha-id-label": "ID uganke CAPTCHA",
+	"captcha-id-help": "To vrednost je treba poslati nazaj nespremenjeno.",
+	"captcha-addurl": "Vaše urejanje vključuje nove zunanje povezave.\nZa zaščito vikija pred samodejnim smetjem vas prijazno prosimo, da rešite spodnjo nalogo in odgovor vnesete v polje, če želite shraniti svoje urejanje ([[Special:Captcha/help|več o tem]]):",
+	"captcha-badlogin": "Da zaščitimo viki pred samodejnim ugotavljanjem gesel, vas vljudno prosimo, da rešite spodnjo nalogo in odgovor vnesete v polje ([[Special:Captcha/help|več informacij]]):",
+	"captcha-createaccount": "Za zaščito vikija pred samodejnim ustvarjanjem računov vas prijazno prosimo, da rešite spodnjo nalogo in odgovor vnesete v polje ([[Special:Captcha/help|več o tem]]):",
+	"captcha-createaccount-fail": "Napačna ali manjkajoča CAPTCHA.",
+	"captcha-create": "Če želite ustvariti stran, prosimo rešite spodnjo nalogo in odgovor vpišite v polje ([[Special:Captcha/help|več informacij]]):",
+	"captcha-sendemail": "Za zaščito vikija pred samodejnim smetenjem vas prijazno prosimo, da rešite spodnjo nalogo in odgovor vnesete v polje ([[Special:Captcha/help|več o tem]]):",
+	"captcha-sendemail-fail": "Napačna ali manjkajoča CAPTCHA.",
+	"captcha-disabledinapi": "To dejanje zahteva reševanje CAPTCHA, zato ga ni mogoče izvesti z API-jem.",
+	"captcha-error": "Preverjanje rešitve uganke CAPTCHA je spodletelo zaradi notranje napake: $1",
+	"captchahelp-title": "Pomoč za captcha",
+	"captchahelp-cookies-needed": "Če želite, da to deluje, boste morali v brskalniku omogočiti piškotke.",
+	"captchahelp-text": "Spletna mesta, ki omogočajo objavljanje širši javnosti, kot na primer ta viki, pogosto zlorabljajo smetilci, ki za objavo svojih povezav na številne strani uporabljajo avtomatizirana orodja.\nČeprav je neželene povezave mogoče odstraniti, so precejšnja nadloga.\n\nVčasih, zlasti pri dodajanju novih spletnih povezav na stran, vam bo viki morda prikazal sliko obarvanega ali popačenega besedila in zahteval vpis prikazanih besed.\nKer je to opravilo težko avtomatizirati, bo s tem večini ljudi objavljanje dovoljeno, smetilci in drugi robotski napadalci pa bodo ustavljeni.\n\nŽal lahko to povzroči nevšečnosti uporabnikom s slabim vidom in tistim, ki uporabljajo besedilne ali govorne brskalnike.\nGlasovna možnost trenutno še ni na voljo.\nČe vam to nepričakovano preprečuje legitimno objavo, prosimo, da se obrnete na [[Special:ListAdmins|administratorje projekta]].\n\nZa vrnitev v urejevalnik v brskalniku izberite gumb »nazaj«.",
+	"captcha-addurl-whitelist": " #<!-- pustite to vrstico točno takšno, kakršna je --> <pre>\n# Skladnja je naslednja:\n#   * Vse od znaka »#« do konca vrstice je komentar\n#   * Vsaka neprazna vrstica je delec regularnega izraza, ki se bo ujemal samo z gostitelji v URL-jih\n #</pre> <!-- pustite to vrstico točno takšno, kakršna je -->",
+	"right-skipcaptcha": "Izvajanje dejanj, ki sprožijo preverjanje CAPTCHA, ne da bi bilo treba opraviti preverjanje CAPTCHA",
+	"action-skipcaptcha": "izvajanje dejanj, ki sprožijo CAPTCHA, ne da bi bilo treba reševati CAPTCHA",
+	"confirmedit-preview-line": "Številka vrstice",
+	"confirmedit-preview-content": "Vsebina",
+	"confirmedit-preview-validity": "Veljavnost",
+	"confirmedit-preview-valid": "veljavno",
+	"confirmedit-preview-invalid": "neveljavno",
+	"confirmedit-preview-description": "Naslednja tabela prikazuje seznam vrstic na tej strani in ali gre za veljaven IP-naslov ali razpon IP-naslovov. Če je vrstica veljaven IP-naslov ali razpon IP-naslovov, bo izključena iz preverjanj CAPTCHA, neveljavne vrstice pa bodo prezrte. Primer veljavnega razpona IP-naslovov bi bil: 69.208.0.0/16, ki sega od 69.208.0.0 do 69.208.255.255. [https://www.mediawiki.org/wiki/Special:MyLanguage/Help:Range_blocks#Calculating_the_CIDR_suffix Več informacij] o izračunu razpona IP-naslovov."
+}

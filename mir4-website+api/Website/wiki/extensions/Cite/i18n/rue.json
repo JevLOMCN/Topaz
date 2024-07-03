@@ -1,0 +1,28 @@
+{
+	"@metadata": {
+		"authors": [
+			"Gazeb"
+		]
+	},
+	"cite-desc": "Придасть таґы <code>&lt;ref[ name=id]&gt;</code> і&nbsp;&lt;references /&gt; на означіня цітацій",
+	"cite_error": "Хыбна цітація: $1",
+	"cite_error_ref_numeric_key": "Хыба в таґу <code>&lt;ref&gt;</code>; назвов не сміє быти просте чісло, хоснуйте пописове означіня",
+	"cite_error_ref_no_key": "Хыба в таґу <code>&lt;ref&gt;</code>; порожнї едітації мусять обсяговати назву",
+	"cite_error_ref_too_many_keys": "Хыба в таґу <code>&lt;ref&gt;</code>; хыбны назвы, напр. є їх дуже много",
+	"cite_error_ref_no_input": "Хыба в таґу <code>&lt;ref&gt;</code>; цітації без назвы мусять мати властный обсяг",
+	"cite_error_references_invalid_parameters": "Хыба в таґу <code>&lt;references&gt;</code>;  ту не є доволеный параметер, хоснуйте <code>&lt;references /&gt;</code>",
+	"cite_error_references_no_backlink_label": "Дішли означіня зворотных одказів, придайте їх пару до повідомлїня [[MediaWiki:Cite references link many format backlink labels]]",
+	"cite_error_no_link_label_group": "Дішли дефінованы значкы про ґрупу „$1“. Звыште їх чісло у повідомлїню [[MediaWiki:$2]].",
+	"cite_error_references_no_text": "Хыба в таґу <code>&lt;ref&gt;</code>; цітації означеной <code>$1</code> не є доданый жаден текст",
+	"cite_error_included_ref": "Хыбить закінчіня <code>&lt;/ref&gt;</code> k&nbsp;таґу <code>&lt;ref&gt;</code>",
+	"cite_error_group_refs_without_references": "Найдена значка <code>&lt;ref&gt;</code> про ґрупу „$1“, але не існує приналежна значка <code>&lt;references group=\"$1\"/&gt;</code> або хыбить заперачій <code>&lt;/ref&gt;</code>.",
+	"cite_error_references_group_mismatch": "Значка <code>&lt;ref&gt;</code> внутрї <code>&lt;references&gt;</code> має дефіновану іншу ґрупу „$1“.",
+	"cite_error_references_missing_key": "На <code>&lt;ref&gt;</code> з іменом „$1“ дефінованый внутрї <code>&lt;references&gt;</code> не суть в попереднїм текстї жадны одказы.",
+	"cite_error_references_no_key": "У значкы <code>&lt;ref&gt;</code> дефінованой внутрї <code>&lt;references&gt;</code> хыбить атрібут <code>name</code>.",
+	"cite_error_empty_references_define": "У значкы <code>&lt;ref&gt;</code> з назвов „$1“ дефінованой внутрї <code>&lt;references&gt;</code> хыбить обсяг.",
+	"cite-wikieditor-tool-reference": "Позначкы",
+	"cite-wikieditor-help-page-references": "Референції",
+	"cite-wikieditor-help-content-reference-description": "Позначка",
+	"cite-wikieditor-help-content-rereference-description": "Далшый одказ на тоту саму позначку",
+	"cite-wikieditor-help-content-showreferences-description": "Вказати позначкы"
+}

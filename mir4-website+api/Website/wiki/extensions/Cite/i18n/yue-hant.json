@@ -1,0 +1,26 @@
+{
+	"@metadata": {
+		"authors": [
+			"Winston Sung"
+		]
+	},
+	"cite-desc": "加 <code>&lt;ref[ name=id]&gt;</code> 同 <code>&lt;references/&gt;</code> 標籤用響引用度",
+	"cite_error": "引用錯誤 $1",
+	"cite_error_ref_numeric_key": "無效嘅呼叫; 需要一個非整數嘅匙",
+	"cite_error_ref_no_key": "<code>&lt;ref&gt;</code>標籤開頭格式有錯或者個名唔啱",
+	"cite_error_ref_too_many_keys": "無效嘅呼叫; 無效嘅匙, 例如: 太多或者指定咗一個錯咗嘅匙",
+	"cite_error_ref_no_input": "無效嘅呼叫; 未指定輸入",
+	"cite_error_references_invalid_parameters": "<code>&lt;references&gt;</code>標籤度有無效嘅參數",
+	"cite_error_references_no_backlink_label": "用晒啲自定返回標籤, 響 [[MediaWiki:Cite references link many format backlink labels]] 信息再整多啲",
+	"cite_error_references_no_text": "無效嘅<code>&lt;ref&gt;</code>標籤；無文字提供畀叫做<code>$1</code>嘅參照",
+	"cite-tracking-category-cite-error": "有參考錯誤嘅版",
+	"cite_references_link_accessibility_label": "跳到",
+	"cite_references_link_many_accessibility_label": "跳到去：",
+	"cite_section_preview_references": "預覽參考資料",
+	"cite_warning": "引用警告：$1",
+	"cite-wikieditor-tool-reference": "參考",
+	"cite-wikieditor-help-page-references": "參考",
+	"cite-wikieditor-help-content-reference-description": "參考",
+	"cite-wikieditor-help-content-rereference-description": "同參考附加用途",
+	"cite-wikieditor-help-content-showreferences-description": "顯示喜好"
+}

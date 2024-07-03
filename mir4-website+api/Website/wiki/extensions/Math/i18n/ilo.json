@@ -1,0 +1,32 @@
+{
+	"@metadata": {
+		"authors": [
+			"Lam-ang",
+			"Saluyot"
+		]
+	},
+	"math-desc": "Agipaay kadagiti matematiko a pagannurotan a nagbaetan dagiti <code>&lt;math&gt;</code> ... <code>&lt;/math&gt;</code> nga etiketa",
+	"math-visualeditor-mwlatexdialog-card-formula": "Pormula",
+	"math-visualeditor-mwlatexinspector-display": "Iparang",
+	"math-visualeditor-mwlatexinspector-display-default": "Kasisigud",
+	"math-visualeditor-mwlatexinspector-display-inline": "Nailinia",
+	"math-visualeditor-mwlatexinspector-id": "ID ti silpo (pagpilian)",
+	"math-visualeditor-mwmathdialog-title": "Pormula ti math",
+	"math-visualeditor-symbol-group-math-logic": "Lohiko",
+	"math-visualeditor-symbol-group-math-special": "Espesial",
+	"math_failure": "Napaay a na-parse",
+	"math_invalidjson": "Ti sungbat ti server ti $1 ket imbalido a JSON.",
+	"math_invalidresponse": "$1: Imbalido a sungbat (\"$3\") manipud iti server ti \"$2\":",
+	"math_invalidxml": "Ti MathML wenno SVG ket imbalido nga XML.",
+	"math_syntax_error": "biddut ti gramatika",
+	"math-tracking-category-error": "Pampanid nga agraman kadagiti biddut ti math",
+	"math-tracking-category-error-desc": "Dagiti panid iti daytoy a kategoria ket addaan kadagiti biddut iti panagusar kadagiti etiketa ti math.",
+	"math-tracking-category-render-error": "Pampanid nga agraman kadagiti biddut ti pannakaipatarus ti math",
+	"math-tracking-category-render-error-desc": "Dagiti panid iti daytoy a kategoria ket addaan kadagiti biddut iti pannakaipatarus dagiti etiketa ti math.",
+	"math_unknown_error": "di ammmo a biddut",
+	"math_unknown_function": "di ammo a pamay-an ti \"$1\"",
+	"mw-math-latexml": "LaTeXML (eksperimental; agus-usar ti MathML)",
+	"mw-math-source": "Taudan ti LaTeX (para kadagiti pagbasabasa ti teksto)",
+	"prefs-math": "Math",
+	"mathstatus": "Kasasaad ti math."
+}

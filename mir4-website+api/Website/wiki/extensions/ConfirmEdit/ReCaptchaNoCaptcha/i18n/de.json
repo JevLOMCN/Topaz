@@ -1,0 +1,16 @@
+{
+	"@metadata": {
+		"authors": [
+			"Metalhead64"
+		]
+	},
+	"renocaptcha-desc": "reCAPTCHA-NoCAPTCHA-Modul für Confirm Edit",
+	"renocaptcha-edit": "Um das Wiki vor automatisiertem Bearbeitungsspam zu schützen, bitten wir dich, das folgende CAPTCHA zu lösen:",
+	"renocaptcha-addurl": "Deine Bearbeitung enthält neue Weblinks. Um das Wiki vor automatisiertem Spam zu schützen, bitten wir dich, das folgende CAPTCHA zu lösen:",
+	"renocaptcha-badlogin": "Um das Wiki vor automatisiertem Knacken des Passwortes zu schützen, bitten wir dich, das folgende CAPTCHA zu lösen:",
+	"renocaptcha-createaccount": "Um das Wiki vor automatisiertem Spam zu schützen, bitten wir dich, das folgende CAPTCHA zu lösen:",
+	"renocaptcha-createaccount-fail": "Es scheint, als ob du das CAPTCHA nicht gelöst hast.",
+	"renocaptcha-create": "Um das Wiki vor automatisierter Seitenerstellung zu schützen, bitten wir dich, das folgende CAPTCHA zu lösen:",
+	"renocaptcha-noscript": "Da du leider JavaScript deaktiviert hast, konnten wir nicht feststellen, ob du ein Mensch bist oder nicht. Bitte löse das obige CAPTCHA und kopiere den resultierenden Text in das folgende Textfeld:",
+	"renocaptcha-help": "Bitte löse eine ReCaptcha-NoCaptcha-Herausforderung und gib den Antwortwert als captchaWord zurück."
+}

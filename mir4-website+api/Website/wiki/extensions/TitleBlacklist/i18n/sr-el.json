@@ -1,0 +1,20 @@
+{
+	"@metadata": {
+		"authors": []
+	},
+	"action-titleblacklistlog": "pregledate dnevnik crne liste naslova",
+	"log-name-titleblacklist": "Dnevnik liste nedozvoljenih naslova",
+	"log-description-titleblacklist": "Ovi događaji prate pogotke u listi nedozvoljenih naslova.",
+	"titleblacklist-desc": "Dopušta zabranu stvaranja stranica s određenim naslovima: [[MediaWiki:Titleblacklist|crna lista]] i [[MediaWiki:Titlewhitelist|bela lista]].",
+	"titleblacklist": "# Ovo je naslov crnog spiska. Naslovi koji sadrže regularni izraz iz ovog spiska ne mogu biti napravljeni.\n# Koristi „#“ za komentare.\n# Podrazumevano je neosetljiv na veličinu slova",
+	"titlewhitelist": "# Ovo je beli spisak naslova. Koristi \"#\" za komentare.\n# Podrazumevano je neosetljiv na veličinu slova",
+	"titleblacklist-forbidden-edit": "Naslov „$2“ nalazi se na crnom spisku.\nPoklapa se sa sledećim unosom na crnom spisku: <code>$1</code>",
+	"titleblacklist-forbidden-move": "„$2“ se ne može premestiti na „$3“, zato što se naslov „$3“ nalazi u crnom spisku.\nPoklapa se sa sledećim unosom na crnom spisku: <code>$1</code>",
+	"titleblacklist-forbidden-upload": "Naziv datoteke „$2“ je na crnom spisku.\nPoklapa se sa sledećim unosom na crnom spisku: <code>$1</code>",
+	"titleblacklist-forbidden-new-account": "Korisničko ime „$2“ nalazi se na crnom spisku.\nPoklapa se sa sledećim unosom na crnom spisku: <code>$1</code>",
+	"titleblacklist-override": "Zanemari crni spisak naslova ako se podudara",
+	"titleblacklist-warning": "<strong>Upozorenje: ovu stranicu mogu samo da uređuju administratori i korisnici sa sledećim pravom <code>tboverride</code>, zato što se poklapa sa unosom u crnom spisku:</strong><br /><code>$1</code>",
+	"right-tboverride": "zaobilaženje crnog spiska naslova ili korisničkih imena",
+	"right-tboverride-account": "zaobilaženje crnog spiska korisničkih imena",
+	"right-titleblacklistlog": "pregledanje crnog spiska naslova"
+}

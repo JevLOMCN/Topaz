@@ -1,0 +1,18 @@
+{
+	"@metadata": {
+		"authors": [
+			"BadDog",
+			"Kizule",
+			"Milicevic01"
+		]
+	},
+	"apierror-discussiontools-commentid-notfound": "Коментар са ID-ом '$1' није пронађен.",
+	"apihelp-discussiontoolsedit-param-allownosectiontitle": "Дозвољава постављање новог одељка без наслова.",
+	"apihelp-discussiontoolsedit-param-wikitext": "Викитекст; не може се користити <var>html</var>",
+	"apihelp-discussiontoolsedit-summary": "Објављивање поруке на страници за дискусију.",
+	"apihelp-discussiontoolsfindcomment-param-idorname": "ID коментара или име",
+	"apihelp-discussiontoolspageinfo-param-oldid": "Број измене за употребу (подразумевано: последња измена)",
+	"apihelp-discussiontoolspageinfo-summary": "Приказује метаподатке потребне за покретање алатка за разговор.",
+	"apihelp-discussiontoolspreview-param-type": "Тип поруке за преглед",
+	"apihelp-discussiontoolspreview-param-wikitext": "Садржај за преглед, као викитекст."
+}

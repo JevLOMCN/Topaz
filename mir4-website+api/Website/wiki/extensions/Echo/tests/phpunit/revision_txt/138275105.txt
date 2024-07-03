@@ -1,0 +1,80 @@
+{{Autoarchiv
+|Alter=30
+|Mindestbeiträge=1
+|Klein=Ja
+|Ziel='Benutzer Diskussion:Schnark/Archiv4'
+|Übersicht=[[Spezial:Präfixindex/Benutzer Diskussion:Schnark/Archiv|Archiv]].</b> Das momentan verwendete Archiv ist <b>[[Benutzer Diskussion:Schnark/Archiv4|Archiv 4]]
+|Frequenz=sonntags
+}}
+
+== Code-Review (3. Versuch) ==
+
+Hallo Schnark, habe [[Benutzer Diskussion:Schnark/Archiv4#Code-Review|deine Einwände]] umgesetzt. Allerdings kann ich tatsächlich nicht sagen ob diese Bugfrei sind. Da diese Bananen-Methodik heutzutage jedoch gang und gebe ist, würde ich mich jedoch umgehend bzw. zeitnäher als bis jetzt um eine Bearbeitung kümmern.[http://de.wikipedia.beta.wmflabs.org/wiki/Benutzer:Perhelion Freundliche Grüße]<kbd style="white-space:nowrap;color:#567"> ↔ ''[[User: Perhelion]]''<small> 17:00, 16. Okt. 2014 (CEST)</small></kbd>
+
+:de.wikipedia.beta.wmflabs.org liefert mir seit Tagen nur Ladefehler, sodass ich deinen Code nicht sehen kann. --[[Benutzer:Schnark|Schnark]] 10:55, 17. Okt. 2014 (CEST)
+
+:: Schade, ich dachte das zwischen uns ist eine Win-win-Situation. (Leider bekomme ich langsam den Verdacht, dass du etwas gegen mich hast⁉) [[Datei:SMirC-bored.svg|18px|-.-]]<kbd style="white-space:nowrap;color:#567"> ↔ ''[[User: Perhelion]]''<small> 08:48, 31. Okt. 2014 (CET)</small></kbd>
+
+:::Labs hat etwas gegen mich und leitet mich noch immer stur auf HTTPS um, wo mir dann ein Serverfehler präsentiert wird. --[[Benutzer:Schnark|Schnark]] 09:35, 31. Okt. 2014 (CET)
+
+:::: Ach ok, das hatte ich auch. Ich musste erst meinen kompletten BrowserCache löschen (wie mir PeCh riet).<kbd style="white-space:nowrap;color:#567"> ↔ ''[[User: Perhelion]]''<small> 10:15, 31. Okt. 2014 (CET)</small></kbd>
+
+::::Irgendwo kam ein <code>forceHttps</code>-Cookie her, jetzt ist es weg. Es fallen immer noch viele Dinge beim reinen Überfliegen auf:
+::::http://de.wikipedia.beta.wmflabs.org/wiki/Benutzer:Perhelion/signing.js
+:::::<code>mw.loader.using('jquery.textSelection');</code> bringt in dieser Form nichts, du musst den Code, der auf die Funktionen aus <code>jquery.textSelection</code> angewiesen ist, als Callback-Funktion im zweiten Parameter übergeben oder alternativ dem zurückgegebenen Promise-Objekt anhängen.
+:::::<code>n.test(cfg.sigText[-1])</code> ist immer falsch
+:::::<code>pos = txt.indexOf('\n', pos);</code> schlägt fehl, wenn kein Zeilenumbruch mehr kommt (unwahrscheinlich, aber möglich)
+:::::<code>/de|als/.test(cfg.wgUserLanguage)</code>: Die Anzahl der Benutzer mit <code>ks-deva</code>, die keine deutsche Lokalisierung wollen oder der mit <code>pfl</code>, die Deutsch dem Englischen vorziehen, dürfte klein sein. Trotzdem solltest du <code>mw.language.getFallbackLanguageChain()</code> verwenden, dafür ist es da.
+:::::Den <code>wpAutoSummary</code>-Hack verstehe ich nicht, aber vermutlich führt er dazu, dass die Funktion „Warnen, wenn Zusammenfassung fehlt“ nicht mehr zuverlässig funktioniert.
+:::::Gibt es irgendeinen Grund <code>..updateTooltipAccessKeys()</code> nicht einfach für die eingefügten Elemente aufzurufen, statt irgendwelche komischen Hacks zu verwenden?
+::::http://de.wikipedia.beta.wmflabs.org/wiki/Benutzer:Perhelion/sectionSummary.js verwendet mit <code>$.unique</code> ''immer noch'' eine Funktion, die nur für DOM-Elemente funktioniert, für normale Arrays. --[[Benutzer:Schnark|Schnark]] 12:06, 6. Nov. 2014 (CET)
+:::::: Vielen Dank auch diesmal, ich denke morgen werde ich das signing-script updaten. Das sectionSummary habe ich soweit gefixt und auch gleich mit weiterer Funktion verbessert. Ein schönes Wochenende. VG<kbd style="white-space:nowrap;color:#567"> ↔ ''[[User: Perhelion]]''<small> 15:07, 15. Nov. 2014 (CET)</small></kbd>
+
+:::::::Was sollen die Änderungen von <code>foo !== -1</code> in <code>!~foo</code>? Ersteres ist deutlich verständlicher und gilt als performanter (in Firefox ist beides praktisch gleich schnell, aber im IE ist es wirklich ein Faktor 2 in der Laufzeit)? --[[Benutzer:Schnark|Schnark]] 09:20, 20. Nov. 2014 (CET)
+
+:::::::: Du siehst aber auch alles (wohl weil JSHint hier auch meckert). Ja hm* verständlicher ist relativ, also für mich ist es rein optisch schon verständlicher (hatte es einfach aus einem Code-Snippet, fand es einfach gut ohne einen Logical-Operator).[[Datei:SMirC-grin.svg|18px|X-)]] Vielen Dank für den Hinweis, ich werde es wieder rückgängig machen.
+:::::::: Bin jetzt auch mit dem autoSigning fertig (mit ebenfalls kleinen Verbesserungen). Mit dem <code>accessKey</code> hatte ich mich wirklich schwer getan (zudem der Tooltip in Chrome vorher auch nicht gestimmt hatte). Bis nachher VG<kbd style="white-space:nowrap;color:#567"> ↔ ''[[User: Perhelion]]''<small> 21:08, 20. Nov. 2014 (CET)</small></kbd>
+
+:::::::::Verständlich ist es nur dann, wenn man weiß, dass negative Integers intern als [[Zweierkomplement]] dargestellt werden, was in gewisser Hinsicht die natürlichste, aber keineswegs die offensichtlichste oder einzige Darstellung ist. Tatsächlich finde ich im ES5-Standard kein einziges Wort dazu, in ES6 auch nur eine sehr versteckte Erwähnung am Rande.
+:::::::::Warnungen von JSHint sind nicht dazu da Programmierer zu ärgern, sondern sollten von sehr wenigen Ausnahmefällen abgesehen immer beachtet werden.
+:::::::::In signing.js trifft mein Kommentar zum <code>wpAutoSummary</code>-Hack noch immer zu, das gilt natürlich auch für sectionSummary.js. <code>Array.prototype.filter</code> führt als ES5-Methode im IE8 zu Laufzeitfehlern. Wie gesagt, IE8 ist nicht das Maß aller Dinge, aber solange MW diesen Browser unterstützt, darf kein Skript Laufzeitfehler auslösen. Entweder lädst du den ES5-Shim oder schreibst die entsprechende Anweisung auf jQuery um. Gleiches gilt für ausgefallenere Methoden von <code>console</code>. --[[Benutzer:Schnark|Schnark]] 09:53, 21. Nov. 2014 (CET)
+┌{{padleft:┘|22|─}}<br />
+Ich kümmer mich die Woche drum (mir sind jetzt auch noch einige Kleinigkeiten bzw. Verbesserungen eingefallen, man muss sich ja immer wieder erst in den ganzen Code reindenken).
+@Hack: Ich finde auf Diskussionsseiten ist dieser Hack legitim, er kommt auch nur zur Anwendung wenn der Minor-Button aktiviert wurde, ansonsten wird der Wert wieder resettet.
+@sectionSummary kommt hinzu dass das Summary eh vom Script geändert wird und der Tocken hinfällig wird und tatsächlich wird der Tocken nur geändert wenn das Summary geändert wurde. Damit wollte ich auf die ganze Cookie-Komplikation (die sich ja auch dieses Jahr wieder geändert hat) umgehen. Daher würde ich dich bitten ein Zugeständnis zu machen und hier ein Auge zuzudrücken.[[Datei:SMirC-wink.svg|20px|;-)]]
+PS: Ich habe mal deinen alten Bugreport [[bugzilla:38829]] etwas Aufmerksamkeit zugeführt. [[Datei:SMirC-jealous.svg|20px|(°₀°)]] LG<kbd style="white-space:nowrap;color:#567"> ↔ ''[[User: Perhelion]]''<small> 13:26, 2. Dez. 2014 (CET)</small></kbd>
+
+:Ich verwende die Funktion „Warnen, wenn Zusammenfassung fehlt“ dazu, dass ich eine Bearbeitung wirklich erst dann speichere, wenn ich fertig bin, und fülle dazu die Zusammenfassungszeile erst ganz am Schluss aus. Sollte ich zwischendurch versehentlich auf „Speichern“ klicken, dann bekomme ich zuerst eine Warnung. Zudem kannst du dir nie sicher sein, was die Serverseite mit ungültigen MD5-Codes macht. Im Augenblick ignoriert sie diese Tatsache, es kann aber ohne Vorwarnung passieren, dass sich dieses Verhalten plötzlich ändert, und dann der Wert, den du dort speicherst, verworfen wird, oder der Benutzer ganz am Abspeichern gehindert wird. Darum: Ein Feld, dass den MD5-Hash einer Zusammenfassung enthalten soll, darf auch nur den MD5-Hash einer Zusammenfassung enthalten und sonst nichts.
+:happy5214 kümmert sich gerade sehr um meine Bugreports, [[phab:T39485]], den er auch behoben hat, war mir ehrlich gesagt wichtiger. --[[Benutzer:Schnark|Schnark]] 09:11, 3. Dez. 2014 (CET)
+:: Nun denn ein Frohes Neues! (Bevor der Thread wieder in der Versenkung verschwindet, ich habe deine Einwände betr. „Warnen“ dahingehend „gefixt“, dass das hidden Tocken-Feld vor dem Speichern gänzlich resetet wird.) Es scheint mir du würdest tatsächlich auf eine Cookielösung hinaus wollen (denn eine andere sehe ich jetzt nicht)⁉ OT: Mir scheint du hast dein [[Benutzer:Schnark/js/Wikisyntax-config.js|WSTM config]] gänzlich deaktiviert (oder ich habe deine Mühen zur Unterbindung fremder Einbindung nicht völlig erfasst, Z.151)!?<kbd style="white-space:nowrap;color:#567"> ↔ ''[[User: Perhelion]]'' <small> 14:59, 3. Jan. 2015 (CET)</small></kbd>
+:::Selbst wenn du beim Abspeichern den Inhalt von wpAutoSummary beim Speichern wiederherstellst, reicht das nicht, es muss bei jeglicher Serverinteraktion, also auch bei der Vorschau, ein korrekter Wert übergeben werden, andernfalls musst du mit undefiniertem Verhalten rechnen. --[[Benutzer:Schnark|Schnark]] 09:28, 5. Jan. 2015 (CET)
+
+== Danke ==
+
+Vielen Dank für Deine sehr ausführliche und hilfreiche Antwort auf meine [[Wikipedia:Auskunft#Hilberts_Axiomensystem_der_euklidischen_Geometrie|Frage auf der Wikipedia-Asukunft]]. Mir ist gleich ein ganzer Kronleuchter aufgegangen... {{unsigniert|79.245.165.238|17:49, 8. Jan. 2015 (CET)‎}}
+
+:Gern geschehen! --[[Benutzer:Schnark|Schnark]] 09:03, 9. Jan. 2015 (CET)
+
+== Bug erstellen ==
+
+Hi Schnark, könntest Du bitte mal schauen, ob es zu dem [[Wikipedia:Bots/Anfragen/Archiv/2014-2#Referenzierungsfehler_finden|hier beschriebenem Problem]] schon einen Bug gibt und ihn ggf. erstellen?--[[Benutzer:Mabschaaf|Mabschaaf]] 23:20, 15. Jan. 2015 (CET)
+
+:Ehrlich gesagt ist mir der Abschnitt viel zu lang um ihn mir durchzulesen. Du kannst unter https://phabricator.wikimedia.org/maniphest/query/advanced/ selbst suchen, mit deinem Wikipedia-Konto kannst du dich inzwischen auch direkt bei Phabricator anmelden und selbst eine Task anlegen, wenn du nichts findest. So schwer ist das nicht, und wenn man beim ersten Mal etwas falsch macht, ist das auch nicht schlimm. --[[Benutzer:Schnark|Schnark]] 10:15, 16. Jan. 2015 (CET)
+::Du musst gar nicht den kompletten Abschnitt lesen, das erste Posting reicht. Ich werde auf phab sicher nicht aktiv.--[[Benutzer:Mabschaaf|Mabschaaf]] 16:08, 16. Jan. 2015 (CET)
+:::[[Benutzer:Se4598]] wars: [[phab:T85386]]. Was spricht gegen phab? (Oder jeden anderen Bug-Tracker?) [[Benutzer:Umherirrender|Der Umherirrende]] 16:50, 16. Jan. 2015 (CET)
+:::: Also ich finde (den Abschnitt auch zu lang), dass Phab fast in jeder Hinsicht ein Fortschritt zum alten Bugzilla ist (ein paar wenige Schwächen wird es wohl geben, aber darum soll es ja hier jetzt nicht gehen).<kbd style="white-space:nowrap;color:#567"> ↔ ''[[User: Perhelion]]'' <small> 21:55, 16. Jan. 2015 (CET)</small></kbd>
+
+== Testwiki ==
+
+Hallo Schnark,
+ich bräuchte, um Dinge für [[WP:Meinungsbilder/Erweiterung der Sichterrechte|dieses MB]] eine Möglichkeit, in einem Wiki, in dem die Benutzerrechtskonfiguration mit einer Ausnahme genau wie hier sind, zu editiern und verschieben. Um genau zu sein geht es um eine zusätzliche Benutzergruppe mit move-subpages, suppressredirect und unwatchedpages. Was kann ich da machen? Eine eigene MediaWiki-Installattion habe ich noch nie gemacht. --[[Benutzer:MGChecker|MGChecker]] ([[Benutzer Diskussion:MGChecker|Disk.]] &#124; [[Spezial:Beiträge/MGChecker|Beitr.]] &#124; [[Benutzer:MGChecker/Bewertung|Bewert.]]) 12:44, 17. Jan. 2015 (CET)
+
+:Ich habe zwar ein privates Testwiki, aber dort funktioniert <code>$wgRateLimits</code> nicht (und den meisten anderen Testwiki-Besitzern wird das ähnlich gehen). Frag am besten mal unter [[mw:Project:Support desk]] nach, dort sollte es eigentlich jemand wissen. --[[Benutzer:Schnark|Schnark]] 10:37, 19. Jan. 2015 (CET)
+
+== Echo-Test ==
+
+[[Benutzer:X" onclick="alert('XSS');" title="y]] [[Benutzer Diskussion:Schnark]] 10:15, 29. Jan. 2015 (CET)
+
+[[Benutzer:X" onclick="alert('XSS');" title="y]] [[Benutzer:Schnark|<span>falsch]] verschachtelt</span> 10:20, 29. Jan. 2015 (CET)
+
+[[Benutzer:X" onclick="alert('XSS');" title="y]] --[[Benutzer:Schnark]] ([[Benutzer:Schnark/js|js]]) 10:26, 29. Jan. 2015 (CET)

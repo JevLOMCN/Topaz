@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Diman Russkov",
+			"Megakott"
+		]
+	},
+	"apihelp-query+mathwbextracts-example-1": "Запрашивает сводку математических элементов Wikibase.",
+	"apihelp-query+mathwbextracts-summary": "Возвращает сводку математического элемента Wikibase в HTML.",
+	"apihelp-query+mathwbextracts-param-qid": "QID элемента Wikibase, который будет запрошен.",
+	"apihelp-query+mathwbextracts-param-uselang": "Язык, который следует запрашивать для элемента Wikibase. Английский является значением по умолчанию."
+}

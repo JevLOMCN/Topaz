@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="16" height="16" viewBox="0 0 4.233 4.233">
+	<defs>
+		<radialGradient xlink:href="#a" id="c" cx="2.016" cy="2.35" r=".893" fx="2.016" fy="2.35" gradientTransform="matrix(.2963 .29626 -1.4815 1.4817 5 -1.961)" gradientUnits="userSpaceOnUse"/>
+		<radialGradient xlink:href="#b" id="d" cx="2.646" cy="2.646" r=".628" fx="2.646" fy="2.646" gradientTransform="rotate(-45 2.11 1.355)scale(.59545 1)" gradientUnits="userSpaceOnUse"/>
+		<linearGradient id="b">
+			<stop offset="0" stop-color="#d8eef8" stop-opacity=".996"/>
+			<stop offset="1" stop-color="#75badf"/>
+		</linearGradient>
+		<linearGradient id="a">
+			<stop offset="0" stop-color="#fef2d3"/>
+			<stop offset="1" stop-color="#fabd23"/>
+		</linearGradient>
+	</defs>
+	<path fill="#e6e6e6" fill-rule="evenodd" d="m1.72 1.984-.53-.529.265-.264.53.529z"/>
+	<path fill="url(#c)" fill-rule="evenodd" d="m1.852 1.852-.794.794c-.264.264-.264.264 0 .529.265.265.265.265.53 0l1.058-1.058-.53-.53z"/>
+	<path fill="#e6e6e6" fill-rule="evenodd" d="m2.117 1.587.529.53.529-.265.397-.397-.397-.397v.265H2.91v-.265h.265L2.778.661l-.397.397zM.661 1.19l.662-.66.53-.265-.266.529-.264.529-.265.264H.794z"/>
+	<path fill="url(#d)" fill-rule="evenodd" d="m2.117 2.646.529.529c.264.265.264.265.529 0s.265-.265 0-.53l-.53-.528z"/>
+	<path fill="#8b8b8b" d="M1.323.265v.264h.794V.265zm0 .264h-.265v.265h.265zm-.265.265H.794v.264h.264zm-.264.264H.529v.53h.265zM2.646.53v.265h.529V.529zm0 .265H2.38v.264h.265zm-.265.264h-.264v.53h.264zm-.264.53h-.265v.264h.265zm-.265.264h-.265v.265h.265zm-.265.265h-.264v.264h.264zm-.264.264h-.265v.265h.265zm-.265.265H.794v.529h.264zm2.117-1.588v.265h.53v-.265zm0 .265H2.91v.264h.265zm-.53.794v.264h.265v-.264zm.265.264v.265h.265V2.38z"/>
+	<path fill="#fff" d="M1.323.53v.264h.264V.529zm0 .264h-.265v.529h.265zm1.323 0v.264h.264V.794zm0 .264H2.38v.53h.265z"/>
+	<path fill="#4e4e4e" d="M1.587.53v.264h.265V.529zm0 .264h-.264v.529h.264zm0 .529v.264h.265v-.264zm0 .264h-.264v.265h.264zm-.264 0v-.264h-.265v.264zm-.265 0H.794v.265h.264zM2.91.794v.264h.265V.794zm0 .264h-.264v.265h.264zm.53.265v.264h.264v-.264zm0 .264h-.265v.265h.265zm-.265.265h-.53v-.265h-.528v.265h.264v.53h.265v-.265h.529zm-.794.53h-.264v.264h-.265v.264h.53zm0 .528v.265h.265V2.91zm.265.265v.265h.529v-.265zm.529 0h.265v-.53h-.265zM1.852 2.91h-.265v.265h.265zm-.265.265h-.529v.265h.53z"/>
+</svg>

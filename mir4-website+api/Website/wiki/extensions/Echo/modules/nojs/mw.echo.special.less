@@ -1,0 +1,163 @@
+/* Echo specific CSS */
+
+@import 'mediawiki.skin.variables.less';
+@import 'mediawiki.mixins.less';
+@import '../echo.variables.less';
+
+.mw-echo-special-container {
+	max-width: 600px;
+}
+
+.client-js .mw-echo-special-nojs {
+	min-height: 5em;
+	/* @embed */
+	background-image: url( ../../images/pending.gif );
+
+	.mw-echo-special-container {
+		display: none;
+	}
+}
+
+// Hide the preferences link
+// in the JS version, since it appear inside
+// the cog menu
+
+.client-js #mw-echo-pref-link,
+.client-js #contentSub {
+	display: none;
+}
+
+@media all and ( min-width: @specialpage-hd-width ) {
+	.client-js #mw-content-text {
+		margin-top: 2em;
+	}
+}
+
+.mw-echo-special-markAllReadButton {
+	float: right;
+}
+
+/* Special styles to use if we're converting subtitle links into header icons */
+#firstHeading {
+	.mw-echo-special-header-link {
+		display: block;
+		height: 19px;
+		width: 19px;
+	}
+}
+
+.mw-echo-date-section {
+	border-bottom: @border-width-base @border-style-base @border-color-subtle;
+	margin: 20px 0 5px 0;
+	color: @grey-light;
+	display: inline-block;
+	width: 100%;
+	padding-bottom: 0.5em;
+}
+
+.mw-echo-date-section-text {
+	text-transform: uppercase;
+	font-size: 1.1em;
+	font-weight: 800;
+	display: inline-block;
+}
+
+ul.mw-echo-special-notifications {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	width: 100%;
+
+	div.mw-htmlform-submit-buttons {
+		margin: 0;
+	}
+}
+
+.mw-echo-special-navbar-top {
+	margin-bottom: 10px;
+}
+
+.mw-echo-special-navbar-bottom {
+	margin-top: 20px;
+	padding-top: 10px;
+	border-top: @border-width-base @border-style-base @border-color-subtle;
+}
+
+.mw-echo-notification {
+	padding: 30px 40px 15px 10px;
+
+	.mw-echo-markAsReadButton {
+		display: none;
+
+		button {
+			padding: 0;
+		}
+	}
+}
+
+.mw-echo-markAsReadSectionButton {
+	float: right;
+	display: inline-block;
+
+	button.oo-ui-buttonElement-button {
+		padding: 2px 12px 2px 12px;
+	}
+
+	// HACK: temporary workaround for T136024
+	line-height: normal;
+
+	.oo-ui-buttonElement-button {
+		.oo-ui-labelElement-label {
+			font-weight: normal;
+		}
+	}
+}
+
+.mw-echo-special-notifications {
+	overflow-y: auto;
+
+	.mw-echo-notification {
+		background-color: #f8f9fa;
+
+		&:hover {
+			background-color: #eaecf0;
+		}
+
+		&-unread {
+			color: @color-base;
+			background-color: transparent;
+			padding-right: 0;
+
+			.mw-echo-title {
+				font-weight: bold;
+			}
+
+			.mw-echo-markAsReadButton {
+				float: right;
+				display: inline-block;
+				margin: 0;
+				opacity: 0.5;
+
+				&:hover {
+					opacity: 1;
+				}
+			}
+		}
+	}
+}
+
+div.mw-htmlform-ooui-wrapper {
+	margin: 0;
+}
+
+@media all and ( max-width: ( @specialpage-hd-width - 1 ) ) {
+	/* stylelint-disable-next-line selector-class-pattern */
+	.pre-content.heading-holder {
+		// Center 'preferences' in mobile special page
+		text-align: center;
+	}
+
+	.mw-echo-special-header-link {
+		display: none;
+	}
+}

@@ -308,10 +308,14 @@ if (isset($_POST['h-captcha-response']) && !empty($_POST['h-captcha-response']))
                         </li>
                         <li class="new" data-menuanchor="part2">
                             <p><a href="rankings"><span>Ranking<span></a></p>
-                        </li>
-                        <li class="new" data-menuanchor="part2">
+                                      </li>
+                          <li class="new" data-menuanchor="part2">
                             <p><a href="tools"><span>Tools<span></a></p>
-                        </li>
+                            <ul class="subGnb">
+                              <!-- <li><a href="comingsoon" target="_blank">FAQ</a></li> -->
+                              <li><a href="wiki" target="_blank">WIKI</a></li>
+                            </ul>
+                          </li>
                         <li class="new active">
                             <p><a href="ucp"><span>Account<span></a></p>
                             <ul class="subGnb">

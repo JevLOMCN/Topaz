@@ -1,0 +1,47 @@
+@import 'mediawiki.skin.variables.less';
+@import '../mmv.variables.less';
+@import '../mmv.mixins.less';
+
+@background-color: #fff;
+@dialog-width: 450px;
+@box-shadow-dialog: 0 2px 2px 0 darken( @background-color, 33.3% );
+
+.mw-mmv-dialog {
+	position: fixed;
+	right: 58px;
+	display: none;
+	width: @dialog-width;
+	height: @dialog-height;
+	background-color: @background-color;
+	box-shadow: @box-shadow-dialog;
+	border-radius: @border-radius-base;
+	z-index: 1004;
+
+	.mw-mmv-dialog-down-arrow {
+		right: 48px;
+		background-color: @background-color;
+		width: @arrow-size;
+		height: @arrow-size;
+		.rotate( -45deg );
+		position: fixed;
+	}
+
+	.mw-mmv-dialog-copy {
+		/* @embed */
+		background-image: url( img/pasting.svg );
+		background-size: contain;
+		background-position: right center;
+		background-repeat: no-repeat;
+		cursor: pointer;
+
+		&:hover {
+			/* @embed */
+			background-image: url( img/pasting-hover.svg );
+			text-decoration: none;
+		}
+	}
+
+	.mw-mmv-dialog-warning {
+		background-color: @dialog-warning-color;
+	}
+}

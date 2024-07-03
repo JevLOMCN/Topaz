@@ -1,0 +1,29 @@
+{
+	"@metadata": {
+		"authors": [
+			"Bjankuloski06"
+		]
+	},
+	"apihelp-query+gadgetcategories-summary": "Дава список на категории за алатки.",
+	"apihelp-query+gadgetcategories-param-prop": "Кои информации за категориите за алатки да се дадат:",
+	"apihelp-query+gadgetcategories-paramvalue-prop-name": "Внатрешно име на категоријата.",
+	"apihelp-query+gadgetcategories-paramvalue-prop-title": "Наслов на категоријата.",
+	"apihelp-query+gadgetcategories-paramvalue-prop-members": "Број на алатки во категорија.",
+	"apihelp-query+gadgetcategories-param-names": "Називи на категориите што треба да се дадат.",
+	"apihelp-query+gadgetcategories-example-1": "Дај список на постоечки категории за алатки",
+	"apihelp-query+gadgetcategories-example-2": "Дај ги сите информации за категориите наречени „foo“ и „bar“",
+	"apihelp-query+gadgets-summary": "Дава список на алатки што се користат на ова вики.",
+	"apihelp-query+gadgets-param-prop": "Кои информации за алатките да се дадат:",
+	"apihelp-query+gadgets-paramvalue-prop-id": "Внатрешна назнака на алатката.",
+	"apihelp-query+gadgets-paramvalue-prop-metadata": "Метаподатоци за алатката.",
+	"apihelp-query+gadgets-paramvalue-prop-desc": "Опис на алатката претворен во HTML (може да биде бавно, користете само ако е навистина потребно).",
+	"apihelp-query+gadgets-param-categories": "За кои категории да се дадат алатките.",
+	"apihelp-query+gadgets-param-ids": "Назнаки на алатките што треба да се дадат.",
+	"apihelp-query+gadgets-param-allowedonly": "Испиши ги само алатките што му се дозволени на тековниот корисник.",
+	"apihelp-query+gadgets-param-enabledonly": "Испиши ги само алатките што ги има вклучено тековниот корисник.",
+	"apihelp-query+gadgets-example-1": "Дај список на алатки заедно со нивните описи",
+	"apihelp-query+gadgets-example-2": "Дај список на алатки со сите можни својства",
+	"apihelp-query+gadgets-example-3": "Дај список на алатки што è припаѓаат на категоријата „foo“",
+	"apihelp-query+gadgets-example-4": "Дај информации за алатките „foo“ и „bar“",
+	"apihelp-query+gadgets-example-5": "Дај список на алатки што ги има вклучено тековниот корисник."
+}

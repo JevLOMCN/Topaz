@@ -1,0 +1,26 @@
+{
+	"@metadata": {
+		"authors": [
+			"Otogi"
+		]
+	},
+	"apihelp-abusefiltercheckmatch-param-filter": "ფილტრის სრული ტექსტი, რათა გადაისინჯოს გასწორება",
+	"apihelp-abusefiltercheckmatch-param-rcid": "ID ბოლო ცვლილება საწინააღმდეგო გადასინჯვისთვის",
+	"apihelp-abusefiltercheckmatch-param-logid": "ბოროტად გამოყენების ფილტრი არეგისტრირებს ID, რათა საწინააღმდეგოდ გადასინჯოს",
+	"apihelp-abusefilterchecksyntax-param-filter": "ფილტრის სრული ტექსტი, რათა სინტაქსი გადაისინჯოს",
+	"apihelp-abusefilterchecksyntax-example-1": "ნამდვილი ფილტრის სინტაქსის გადასინჯვა",
+	"apihelp-abusefilterchecksyntax-example-2": "გამოუსადეგარი ფილტრის სინტაქსის გადასინჯვა",
+	"apihelp-abusefilterevalexpression-param-expression": "გამოხატვა, რათა შეფასდეს",
+	"apihelp-abusefilterevalexpression-example-1": "უბრალო გამოხატვის შეფასება",
+	"apihelp-abusefilterunblockautopromote-param-user": "თქვენ გინთად გახსნათ მომხმარებლის მომხმარებლის სახელი",
+	"apihelp-query+abusefilters-param-startid": "ID ფილტრი, რათა დაიწყოს ჩამოთვლა",
+	"apihelp-query+abusefilters-param-endid": "ID ფილტრი, რათა შეჩერდეს ჩამოთვლა",
+	"apihelp-query+abusefilters-param-show": "აჩვენე მხოლოდ ფილტრები, რომლებიც შეესაბამება ამ კრიტერიუმებს",
+	"apihelp-query+abusefilters-param-limit": "ფილტრების სიის მაქსიმალური რაოდენობა",
+	"apihelp-query+abusefilters-param-prop": "თვისებების მიღება",
+	"apihelp-query+abusefilters-example-1": "საჯარო ფილტრების დასაშვები სია",
+	"apihelp-query+abusefilters-example-2": "ფილტრების ზოგიერთი დეტალის ჩვენება",
+	"apihelp-query+abuselog-param-prop": "თვისებების მიღება",
+	"apihelp-query+abuselog-example-1": "უკანასკნელი ჟურნალის ჩანაწერების ხილვა",
+	"apihelp-query+abuselog-example-2": "აჩვენე ჩანაწერების ბოლო ჟურნლი [[API]]-დან"
+}

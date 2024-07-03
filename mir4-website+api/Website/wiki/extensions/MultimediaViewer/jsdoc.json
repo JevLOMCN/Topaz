@@ -1,0 +1,46 @@
+{
+	"opts": {
+		"destination": "docs/js",
+		"package": "package.json",
+		"pedantic": true,
+		"readme": "README.md",
+		"recurse": true,
+		"template": "node_modules/jsdoc-wmf-theme"
+	},
+	"plugins": [
+		"plugins/markdown"
+	],
+	"source": {
+		"include": [ "resources" ]
+	},
+	"sourceType": "module",
+	"templates": {
+		"cleverLinks": true,
+		"default": {
+			"useLongnameInNav": true
+		},
+		"wmf": {
+			"linkMap": {
+				"Array": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array",
+				"Event": "https://developer.mozilla.org/en-US/docs/Web/API/Event",
+				"HTMLElement": "https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement",
+				"HTMLImageElement": "https://developer.mozilla.org/en-US/docs/Web/API/HTMLImageElement",
+				"Image": "https://developer.mozilla.org/en-US/docs/Web/API/HTMLImageElement/Image",
+				"jQuery": "https://api.jquery.com/Types/#jQuery",
+				"jQuery.Deferred": "https://api.jquery.com/category/deferred-object/",
+				"jQuery.Event": "https://api.jquery.com/category/events/event-object/",
+				"jQuery.Promise": "https://api.jquery.com/Types/#Promise",
+				"Map": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map",
+				"mw.Api": "https://doc.wikimedia.org/mediawiki-core/master/js/#!/api/mw.Api",
+				"mw.SafeStorage": "https://doc.wikimedia.org/mediawiki-core/master/js/#!/api/mw.SafeStorage",
+				"mw.Title": "https://doc.wikimedia.org/mediawiki-core/master/js/#!/api/mw.Title",
+				"mw.widgets.CopyTextLayout": "https://doc.wikimedia.org/mediawiki-core/master/js/#!/api/mw.widgets.CopyTextLayout",
+				"Object": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object",
+				"OO.Router": "https://doc.wikimedia.org/oojs-router/master/#!/api/OO.Router",
+				"OO.ui.DropdownWidget": "https://doc.wikimedia.org/oojs-ui/master/js/#!/api/OO.ui.DropdownWidget",
+				"OO.ui.MenuOptionWidget": "https://doc.wikimedia.org/oojs-ui/master/js/#!/api/OO.ui.MenuOptionWidget",
+				"OO.ui.MenuSelectWidget": "https://doc.wikimedia.org/oojs-ui/master/js/#!/api/OO.ui.MenuSelectWidget"
+			}
+		}
+	}
+}

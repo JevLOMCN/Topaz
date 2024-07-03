@@ -1,0 +1,72 @@
+<span data-mw-thread-id="h--2021-02-24T19:24:00.000Z"><span data-mw-comment-start="" id="h--2021-02-24T19:24:00.000Z"></span><span data-mw-comment-end="h--2021-02-24T19:24:00.000Z"></span></span><span data-mw-comment-start="" id="c-Matma_Rex-2021-02-24T19:24:00.000Z"></span><style data-mw-deduplicate="TemplateStyles:r3303">.mw-parser-output .color-purple{color:purple}</style><div class="color-purple">This page demonstrates some quirks of raw HTML generated in ParserOutput, which gets saved to the parser cache and which we operate on in the ParserAfterTidy hook. Most other test cases are using the final HTML returned by ParserOutput::getText(), which we operate on in the OutputPageBeforeHTML hook.</div>
+<p>TODO: This is out of date, we no longer use OutputPageBeforeHTML, so we should really update all of the other tests instead of just this one D:
+</p><p>Note:
+</p>
+<ul><li>No "mw-parser-output" wrapper div</li>
+<li>Funky mw:editsection tags</li>
+<li>'data-mw-anchor' attributes on headings</li></ul>
+<p><a href="/wiki/User:Matma_Rex" title="User:Matma Rex">Matma Rex</a> (<a href="/wiki/User_talk:Matma_Rex" title="User talk:Matma Rex"><font color="green"><i>talk</i></font></a>) <a href="https://example.org/wiki/Talk:For_parser_cache#c-Matma_Rex-2021-02-24T19:24:00.000Z" class="ext-discussiontools-init-timestamplink">19:24, 24 February 2021 (UTC)</a><span class="ext-discussiontools-init-replylink-buttons" data-mw-thread-id="c-Matma_Rex-2021-02-24T19:24:00.000Z"><span class="ext-discussiontools-init-replybutton oo-ui-widget oo-ui-widget-enabled oo-ui-buttonElement oo-ui-buttonElement-frameless oo-ui-labelElement oo-ui-flaggedElement-progressive oo-ui-buttonWidget" data-ooui='{"_":"OO.ui.ButtonWidget","rel":["nofollow"],"framed":false,"label":"(discussiontools-replybutton)","flags":["progressive"],"classes":["ext-discussiontools-init-replybutton"]}'><a role="button" tabindex="0" rel="nofollow" class="oo-ui-buttonElement-button"><span class="oo-ui-iconElement-icon oo-ui-iconElement-noIcon oo-ui-image-progressive"></span><span class="oo-ui-labelElement-label">(discussiontools-replybutton)</span><span class="oo-ui-indicatorElement-indicator oo-ui-indicatorElement-noIndicator oo-ui-image-progressive"></span></a></span></span><span data-mw-comment-end="c-Matma_Rex-2021-02-24T19:24:00.000Z"></span>
+</p>
+<div class="mw-heading mw-heading2 ext-discussiontools-init-section"><span class='ext-discussiontools-init-section-subscribeButton oo-ui-widget oo-ui-widget-enabled oo-ui-buttonElement oo-ui-buttonElement-frameless oo-ui-iconElement oo-ui-labelElement oo-ui-flaggedElement-progressive oo-ui-buttonWidget' data-ooui='{"_":"OO.ui.ButtonWidget","href":"\/w\/index.php?title=Talk:For_parser_cache&amp;action=dtsubscribe&amp;commentname=h-Matma_Rex-2021-02-24T19%3A24%3A00.000Z&amp;section=Heading+with+a+%22+quote","rel":["nofollow"],"framed":false,"icon":"bellOutline","label":"(discussiontools-topicsubscription-button-subscribe-label)","title":"(discussiontools-topicsubscription-button-subscribe-tooltip)","flags":["progressive"],"classes":["ext-discussiontools-init-section-subscribeButton"]}'><a role='button' title='(discussiontools-topicsubscription-button-subscribe-tooltip)' tabindex='0' href='/w/index.php?title=Talk:For_parser_cache&amp;action=dtsubscribe&amp;commentname=h-Matma_Rex-2021-02-24T19%3A24%3A00.000Z&amp;section=Heading+with+a+%22+quote' rel='nofollow' class='oo-ui-buttonElement-button'><span class='oo-ui-iconElement-icon oo-ui-icon-bellOutline oo-ui-image-progressive'></span><span class='oo-ui-labelElement-label'>(discussiontools-topicsubscription-button-subscribe-label)</span><span class='oo-ui-indicatorElement-indicator oo-ui-indicatorElement-noIndicator oo-ui-image-progressive'></span></a></span><h2 data-mw-anchor="Heading_with_a_&quot;_quote" data-mw-fallback-anchor="Heading_with_a_.22_quote" data-mw-thread-id="h-Heading_with_a_&quot;_quote-2021-02-24T19:24:00.000Z"><span data-mw-comment-start="" id="h-Heading_with_a_&quot;_quote-2021-02-24T19:24:00.000Z"></span>Heading with a " quote<mw:editsection page="Talk:For parser cache" section="1">Heading with a " quote</mw:editsection><span data-mw-comment-end="h-Heading_with_a_&quot;_quote-2021-02-24T19:24:00.000Z"></span></h2><div class="ext-discussiontools-init-section-bar"><div class="ext-discussiontools-init-section-metadata"><span class='ext-discussiontools-init-section-metaitem ext-discussiontools-init-section-timestampLabel'>(discussiontools-topicheader-latestcomment: <a href="#c-Matma_Rex-2021-02-24T19:24:00.000Z-Heading_with_a_&quot;_quote">1614194640</a>)</span><span class='ext-discussiontools-init-section-metaitem ext-discussiontools-init-section-commentCountLabel'>(discussiontools-topicheader-commentcount: 1)</span><span class='ext-discussiontools-init-section-metaitem ext-discussiontools-init-section-authorCountLabel'>(discussiontools-topicheader-authorcount: 1)</span></div><div class="ext-discussiontools-init-section-actions"></div></div></div>
+<p><span data-mw-comment-start="" id="c-Matma_Rex-2021-02-24T19:24:00.000Z-Heading_with_a_&quot;_quote"></span>Test. <a href="/wiki/User:Matma_Rex" title="User:Matma Rex">Matma Rex</a> (<a href="/wiki/User_talk:Matma_Rex" title="User talk:Matma Rex"><font color="green"><i>talk</i></font></a>) <a href="https://example.org/wiki/Talk:For_parser_cache#c-Matma_Rex-2021-02-24T19:24:00.000Z-Heading_with_a_&quot;_quote" class="ext-discussiontools-init-timestamplink">19:24, 24 February 2021 (UTC)</a><span class="ext-discussiontools-init-replylink-buttons" data-mw-thread-id="c-Matma_Rex-2021-02-24T19:24:00.000Z-Heading_with_a_&quot;_quote"><span class="ext-discussiontools-init-replybutton oo-ui-widget oo-ui-widget-enabled oo-ui-buttonElement oo-ui-buttonElement-frameless oo-ui-labelElement oo-ui-flaggedElement-progressive oo-ui-buttonWidget" data-ooui='{"_":"OO.ui.ButtonWidget","rel":["nofollow"],"framed":false,"label":"(discussiontools-replybutton)","flags":["progressive"],"classes":["ext-discussiontools-init-replybutton"]}'><a role="button" tabindex="0" rel="nofollow" class="oo-ui-buttonElement-button"><span class="oo-ui-iconElement-icon oo-ui-iconElement-noIcon oo-ui-image-progressive"></span><span class="oo-ui-labelElement-label">(discussiontools-replybutton)</span><span class="oo-ui-indicatorElement-indicator oo-ui-indicatorElement-noIndicator oo-ui-image-progressive"></span></a></span></span><span data-mw-comment-end="c-Matma_Rex-2021-02-24T19:24:00.000Z-Heading_with_a_&quot;_quote"></span>
+</p>
+
+<pre>
+newestComment: {
+	"id": "c-Matma_Rex-2021-02-24T19:24:00.000Z-Heading_with_a_\"_quote",
+	"timestamp": "2021-02-24T19:24:00.000Z",
+	"author": "Matma Rex",
+	"heading": {
+		"headingLevel": 2,
+		"name": "h-Matma_Rex-2021-02-24T19:24:00.000Z",
+		"type": "heading",
+		"level": 0,
+		"id": "h-Heading_with_a_\"_quote-2021-02-24T19:24:00.000Z",
+		"replies": [
+			"c-Matma_Rex-2021-02-24T19:24:00.000Z-Heading_with_a_\"_quote"
+		],
+		"text": "Heading with a \" quote",
+		"linkableTitle": "Heading with a \" quote"
+	}
+}
+hasLedeContent
+hasCommentsInLedeContent
+{
+	"wgDiscussionToolsPageThreads": [
+		{
+			"headingLevel": null,
+			"name": "h-Matma_Rex-2021-02-24T19:24:00.000Z",
+			"type": "heading",
+			"level": 0,
+			"id": "h--2021-02-24T19:24:00.000Z",
+			"replies": [
+				{
+					"timestamp": "2021-02-24T19:24:00.000Z",
+					"author": "Matma Rex",
+					"type": "comment",
+					"level": 1,
+					"id": "c-Matma_Rex-2021-02-24T19:24:00.000Z",
+					"replies": []
+				}
+			]
+		},
+		{
+			"headingLevel": 2,
+			"name": "h-Matma_Rex-2021-02-24T19:24:00.000Z",
+			"type": "heading",
+			"level": 0,
+			"id": "h-Heading_with_a_\"_quote-2021-02-24T19:24:00.000Z",
+			"replies": [
+				{
+					"timestamp": "2021-02-24T19:24:00.000Z",
+					"author": "Matma Rex",
+					"type": "comment",
+					"level": 1,
+					"id": "c-Matma_Rex-2021-02-24T19:24:00.000Z-Heading_with_a_\"_quote",
+					"replies": []
+				}
+			]
+		}
+	]
+}
+</pre>

@@ -1,0 +1,23 @@
+{
+	"@metadata": {
+		"authors": [
+			"BoBrandt",
+			"Christian List",
+			"Peter Alberti"
+		]
+	},
+	"codeeditor-desc": "Syntaks-fremhævet redigering for JavaScript- og CSS-sider ved hjælp af [https://ace.c9.io/ Ace editor]",
+	"codeeditor-next-annotation": "Gå til den næste anmærkning",
+	"codeeditor-toolbar-toggle": "Slå kodeeditoren til/fra",
+	"codeeditor-save-with-errors": "Dokumentet indeholder fejl. Er du sikker på, at du vil gemme?",
+	"codeeditor-invisibleChars-toggle": "Slå usynlige tegn til eller fra",
+	"codeeditor-lineWrapping-toggle": "Slå linjeombrydning til eller fra",
+	"codeeditor-searchReplace-toggle": "Slå dialogboksen søg og erstat til eller fra",
+	"codeeditor-gotoline": "Gå til linje nummer...",
+	"codeeditor-gotoline-placeholder": "linje[:kolonne]",
+	"codeeditor-gotoline-prompt": "Angiv et linjenummer",
+	"codeeditor-indent": "Ryk ind",
+	"codeeditor-outdent": "Ryk ud",
+	"codeeditor-error-title": "Afhængighed mislykkedes",
+	"codeeditor-error-message": "CodeEditor kræver at WikiEditor indlæses."
+}

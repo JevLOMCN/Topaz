@@ -1,0 +1,36 @@
+{
+	"@metadata": {
+		"authors": [
+			"Bishnu Saikia",
+			"Dibya Dutta",
+			"Gitartha.bordoloi",
+			"Reedy"
+		]
+	},
+	"cite-desc": "উদ্ধৃতিৰ বাবে <code>&lt;ref[ name=id]&gt;</code> আৰু <code>&lt;references/&gt;</code> টেগ্‌সমূহ যোগ কৰে",
+	"cite_error": "উদ্ধৃতি ত্ৰুটি: $1",
+	"cite_error_ref_numeric_key": "অবৈধ <code>&lt;ref&gt;</code> টেগ;\nনাম কোনো সৰল পূৰ্ণসংখ্যা হ'ব নোৱাৰে। এটা বৰ্ণনামূলক শিৰোনাম ব্যৱহাৰ কৰক।",
+	"cite_error_ref_no_key": "অবৈধ <code>&lt;ref&gt;</code> টেগ;\nসমলবিহীন refসমূহৰ অৱশ্যেই এটা নাম থাকিব লাগিব।",
+	"cite_error_ref_too_many_keys": "অবৈধ <code>&lt;ref&gt;</code> টেগ;\nঅবৈধ নাম, যেনে- বহুসংখ্যক",
+	"cite_error_ref_no_input": "অবৈধ <code>&lt;ref&gt;</code> টেগ;\nনামবিহীন refসমূহৰ অৱশ্যেই সমল থাকিব লাগিব।",
+	"cite_error_references_invalid_parameters": "অবৈধ <code>&lt;references&gt;</code> টেগ;\nকোনো পেৰামিটাৰ অনুমোদন কৰা হোৱা নাই।\n<code>&lt;references /&gt;</code> ব্যৱহাৰ কৰক।",
+	"cite_error_references_no_backlink_label": "কাষ্টম বেকলিংক লেবেল শেষ হৈছে।\n[[MediaWiki:Cite references link many format backlink labels]] বাৰ্তাত আৰু সংজ্ঞা দিয়ক।",
+	"cite_error_no_link_label_group": "\"$1\" গোটৰ বাবে কাষ্টম লিংক লেবেল উকলিছে।\n[[MediaWiki:$2]] বাৰ্তাত আৰু সংজ্ঞা দিয়ক।",
+	"cite_error_references_no_text": "অবৈধ <code>&lt;ref&gt;</code> টেগ;\n<code>$1</code> নামৰ refৰ বাবে কোনো পাঠ্য প্ৰদান কৰা হোৱা নাই",
+	"cite_error_included_ref": "<code>&lt;/ref&gt;</code> বন্ধ কৰা হৈছে; <code>&lt;ref&gt;</code> টেগৰ বাবে পোৱা নাই",
+	"cite_error_group_refs_without_references": "<code>&lt;ref&gt;</code> টেগ্‌সমূহ \"$1\" নামৰ এটা গোটৰ বাবে আছে, কিন্তু তাৰ <code>&lt;references group=\"$1\"/&gt;</code> টেগ্‌ পোৱা নগ'ল",
+	"cite_error_references_group_mismatch": "\"$1\" গোটৰ ক্ষেত্ৰত <code>&lt;references&gt;</code>ৰ <code>&lt;ref&gt;</code> টেগ্‌ ব্যৱহাৰত সমস্যা হৈছে।",
+	"cite_error_references_missing_key": "<code>&lt;references&gt;</code>ত দিয়া \"$1\" নামৰ <code>&lt;ref&gt;</code> টেগ্‌টো পূৰ্বৰ পাঠ্যত ব্যৱহাৰ কৰা নাই।",
+	"cite_error_references_no_key": "<code>&lt;references&gt;</code>ত দিয়া <code>&lt;ref&gt;</code> টেগৰ কোনো নাম আবণ্টন নাই।",
+	"cite_error_empty_references_define": "<code>&lt;references&gt;</code>ত দিয়া \"$1\" নামৰ <code>&lt;ref&gt;</code> টেগৰ কোনো সমল নাই।",
+	"cite-tracking-category-cite-error": "তথ্যসূত্ৰৰ ত্ৰুটি থকা পৃষ্ঠা",
+	"cite_references_link_accessibility_label": "যাওক",
+	"cite_references_link_many_accessibility_label": "ইয়ালৈ যাওক:",
+	"cite_section_preview_references": "তথ্যসূত্ৰৰ প্ৰাক্‌দৰ্শন",
+	"cite_warning": "তথ্যসূত্ৰ সতৰ্কবাণী: $1",
+	"cite-wikieditor-tool-reference": "তথ্যসূত্ৰ",
+	"cite-wikieditor-help-page-references": "তথ্যসংগ্ৰহ",
+	"cite-wikieditor-help-content-reference-description": "তথ্যসংগ্ৰহ",
+	"cite-wikieditor-help-content-rereference-description": "এটা তথ্য উত্সৰ একাধিক ব্যৱহাৰ",
+	"cite-wikieditor-help-content-showreferences-description": "তথ্যসংগ্ৰহ প্ৰদৰ্শন কৰক"
+}

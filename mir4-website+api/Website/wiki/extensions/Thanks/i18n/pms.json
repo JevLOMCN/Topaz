@@ -1,0 +1,25 @@
+{
+	"@metadata": {
+		"authors": [
+			"Borichèt",
+			"Dragonòt"
+		]
+	},
+	"thanks-desc": "A gionta dle liure d'aringrassiament a le viste dë stòria e ëd diferensa",
+	"thanks-thank": "{{GENDER:$1|{{GENDER:$2|ringrassié}}}}",
+	"thanks-thanked": "{{GENDER:$1|aringrassià}}",
+	"thanks-button-thank": "{{GENDER:$1|Mersì}}",
+	"thanks-button-thanked": "{{GENDER:$1|Aringrassià}}",
+	"thanks-error-undefined": "Falì a aringrassié. Për piasì, ch'a preuva torna.",
+	"thanks-error-invalidrevision": "L'ID ëd revision a l'é nen bon.",
+	"thanks-error-ratelimited": "{{GENDER:$1|A}} l'ha sorpassà sò lìmit ëd frequensa. Për piasì, ch'a speta un pòch e ch'a preuva torna.",
+	"thanks-thank-tooltip": "{{GENDER:$1|Mandé}} na notìfica d'aringrassiament a cost {{GENDER:$2|utent}}",
+	"thanks-thanked-notice": "A l'é stàit notificà a $1 che a chiel a l'é piasuje {{GENDER:$2|soa}} modìfica.",
+	"thanks": "mandé dj'aringrassiament",
+	"echo-pref-subscription-edit-thank": "Aringrassieme për mia modìfica",
+	"echo-pref-tooltip-edit-thank": "Aviseme cand cheidun a m'aringrassia për na modìfica ch'i l'hai fàit.",
+	"echo-category-title-edit-thank": "Mersì",
+	"log-name-thanks": "Argistr dj'aringrassiament",
+	"log-description-thanks": "Sì-sota a-i é na lista d'utent aringrassià da d'àutri utent.",
+	"logentry-thanks-thank": "$1 a l'ha {{GENDER:$2|aringrassià}} {{GENDER:$4|$3}}"
+}

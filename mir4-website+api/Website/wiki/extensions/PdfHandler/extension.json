@@ -1,0 +1,59 @@
+{
+	"name": "PDF Handler",
+	"author": [
+		"Martin Seidel",
+		"Mike Połtyn"
+	],
+	"url": "https://www.mediawiki.org/wiki/Extension:PdfHandler",
+	"descriptionmsg": "pdf-desc",
+	"license-name": "GPL-2.0-or-later",
+	"type": "media",
+	"requires": {
+		"MediaWiki": ">= 1.42"
+	},
+	"config": {
+		"PdfOutputExtension": {
+			"value": "jpg"
+		},
+		"PdfHandlerDpi": {
+			"value": 150
+		},
+		"PdfPostProcessor": {
+			"value": "/usr/bin/convert"
+		},
+		"PdfHandlerJpegQuality": {
+			"value": 95
+		},
+		"PdftoText": {
+			"value": "/usr/bin/pdftotext"
+		},
+		"PdfProcessor": {
+			"value": "/usr/bin/gs"
+		},
+		"PdfInfo": {
+			"value": "/usr/bin/pdfinfo"
+		}
+	},
+	"MessagesDirs": {
+		"PdfHandler": [
+			"i18n"
+		]
+	},
+	"ResourceModules": {
+		"pdfhandler.messages": {
+			"messages": [
+				"pdf-file-page-warning",
+				"pdf-file-page-warning-header",
+				"pdf-file-page-warning-info",
+				"pdf-file-page-warning-footer"
+			]
+		}
+	},
+	"MediaHandlers": {
+		"application/pdf": "MediaWiki\\Extension\\PdfHandler\\PdfHandler"
+	},
+	"AutoloadNamespaces": {
+		"MediaWiki\\Extension\\PdfHandler\\": "includes/"
+	},
+	"manifest_version": 2
+}

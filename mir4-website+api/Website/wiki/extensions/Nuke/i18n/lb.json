@@ -1,0 +1,33 @@
+{
+	"@metadata": {
+		"authors": [
+			"Les Meloures",
+			"Robby",
+			"Soued031"
+		]
+	},
+	"nuke": "Masseläschung",
+	"action-nuke": "Säiten 'en masse' ze läschen",
+	"nuke-desc": "Gëtt Administrateuren d'Méiglechkeet fir [[Special:Nuke|vill Säite mateneen ze läschen]]",
+	"nuke-nopages": "Et gëtt bei de rezenten Ännerunge keng nei Säite vum [[Special:Contributions/$1|{{GENDER:$1|$1}}]].",
+	"nuke-list": "Dës Säite goufe viru kuerzem vum [[Special:Contributions/$1|{{GENDER:$1|$1}}]] nei ugeluecht; gitt wgl. eng Bemierkung an, an dréckt op de Knäppche Läschen.",
+	"nuke-list-multiple": "Dës Säite goufe rezent gemaach;\nsetzt eng Bemierkung dobäi a klickt op de Knäppche fir se ze läschen.",
+	"nuke-defaultreason": "Masseläschung vu Säiten, déi vum [[Special:Contributions/$1|{{GENDER:$1|$1}}]] ugefaang goufen",
+	"nuke-multiplepeople": "Masse-Läschung vu Säiten déi rezent dobäigesat goufen",
+	"nuke-tools": "Dësen Tool erlaabt vill Säite mateneen ze läschen, déi vun engem Benotzer oder vun enger IP-Adress ugeluecht goufen.\nGitt wgl. d'IP-Adress respektiv de Benotzer u fir eng Lëscht vun de Säiten ze kréien déi geläscht solle ginn, oder loosst et eidel fir all Benotzer.",
+	"nuke-submit-user": "Säiten oplëschten",
+	"nuke-submit-delete": "Ugewielt läschen",
+	"right-nuke": "Vill Säite matenee läschen",
+	"nuke-userorip": "Benotzernumm, IP-Adress oder eidel:",
+	"nuke-maxpages": "Maximal Zuel vu Säiten:",
+	"nuke-editby": "Gemaach vum [[Special:Contributions/$1|{{GENDER:$1|$1}}]]",
+	"nuke-deleted": "D'Säit '''$1''' gouf geläscht.",
+	"nuke-not-deleted": "D'Säit [[:$1]] '''konnt net''' geläscht ginn.",
+	"nuke-delete-more": "[[Special:Nuke|Méi Säite läschen]]",
+	"nuke-pattern": "Muster fir de Säitennumm:",
+	"nuke-nopages-global": "Et gëtt keng Säitentitelen déi deem entsprieche wat Dir sicht.",
+	"nuke-viewchanges": "Ännerunge weisen",
+	"nuke-namespace": "Op dësen Nummraum limitéieren:",
+	"nuke-linkoncontribs": "Masseläschungen",
+	"nuke-linkoncontribs-text": "All Säiten zesummeläsche  wou {{GENDER:$1|dëse Benotzer}} den eenzegen Auteur ass"
+}

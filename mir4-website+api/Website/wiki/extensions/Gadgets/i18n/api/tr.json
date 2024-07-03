@@ -1,0 +1,25 @@
+{
+	"@metadata": {
+		"authors": [
+			"Arystanbek",
+			"BaRaN6161 TURK",
+			"MuratTheTurkish"
+		]
+	},
+	"apihelp-query+gadgetcategories-summary": "Küçük araç kategorilerinin bir listesini döndürür.",
+	"apihelp-query+gadgetcategories-param-prop": "Küçük aracı kategorisi bilgilerini alırsınız:\n;name:İç kategori adı.\n;title:Kategori başlığı.\n;members:Kategorideki küçük araçların sayısı.",
+	"apihelp-query+gadgetcategories-param-names": "Alınacak kategorilerin adları.",
+	"apihelp-query+gadgetcategories-example-1": "Mevcut küçük araç kategorilerinin bir listesini alın",
+	"apihelp-query+gadgetcategories-example-2": "\"foo\" ve \"bar\" adlı kategoriler hakkında tüm bilgileri alın",
+	"apihelp-query+gadgets-summary": "Bu vikide kullanılan küçük araçlarını bir listesini döndürür.",
+	"apihelp-query+gadgets-param-prop": "Küçük aracı bilgilerini alacaksınız:\n;id:İç küçük aracı kimliği.\n;meta:Küçük araç meta verisi.\n;desc:Küçük aracı açıklama HTML'si (yavaş olabilir, gerçekten gerekirse yalnızca kullanmak olabilir) dönüştü.",
+	"apihelp-query+gadgets-param-categories": "Kategorilerden alınacak küçük araçlar.",
+	"apihelp-query+gadgets-param-ids": "Alınacak küçük araçların kimlikleri.",
+	"apihelp-query+gadgets-param-allowedonly": "Yalnızca mevcut kullanıcıya izin verilen küçük araçları listeleyin.",
+	"apihelp-query+gadgets-param-enabledonly": "Yalnızca mevcut kullanıcıya izin verilen küçük araçları listeleyin.",
+	"apihelp-query+gadgets-example-1": "Açıklamalarıyla birlikte küçük araçların bir listesini alın",
+	"apihelp-query+gadgets-example-2": "Tüm olası özelliklere sahip küçük araçların bir listesini alın",
+	"apihelp-query+gadgets-example-3": "\"Foo\" kategorisine ait küçük araçların listesini alın",
+	"apihelp-query+gadgets-example-4": "\"foo\" ve \"bar\" küçük araçları hakkında bilgi alın",
+	"apihelp-query+gadgets-example-5": "Mevcut kullanıcı tarafından etkinleştirilen küçük araçların bir listesini alın"
+}

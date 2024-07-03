@@ -1,0 +1,18 @@
+{
+	"@metadata": {
+		"authors": [
+			"Doraemonluonbentoi",
+			"Flyplanevn27",
+			"Max20091",
+			"Minh Nguyen",
+			"Nguyễn Mạnh An"
+		]
+	},
+	"apihelp-echomarkread-param-list": "Danh sách các ID thông báo để đánh dấu là đã đọc.",
+	"apihelp-echomarkread-example-2": "Đánh dấu tất cả thông báo là đã đọc",
+	"apihelp-echomute-param-mute": "Trang hoặc thành viên để thêm vào danh sách không làm phiền",
+	"apihelp-query+notifications-param-prop": "Chi tiết để yêu cầu.",
+	"apihelp-query+notifications-paramvalue-format-model": "Dữ liệu thông báo thô",
+	"apihelp-query+notifications-example-1": "Danh sách thông báo",
+	"apierror-echo-push-topic-required": "Trường chủ đề là bắt buộc đối với nhà cung cấp này."
+}

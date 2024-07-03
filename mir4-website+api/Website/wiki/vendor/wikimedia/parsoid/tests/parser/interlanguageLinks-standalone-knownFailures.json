@@ -1,0 +1,33 @@
+{
+    "Escaping of interlanguage links (T129218, T156308)": {
+        "html2html": "<p data-parsoid='{\"dsr\":[0,49,0,0]}'>Blah blah blah\n<a rel=\"mw:WikiLink/Interwiki\" href=\"http://es.wikipedia.org/wiki/Spanish\" title=\"es:Spanish\" class=\"extiw\" data-parsoid='{\"stx\":\"simple\",\"a\":{\"href\":\"http://es.wikipedia.org/wiki/Spanish\"},\"sa\":{\"href\":\":es:Spanish\"},\"isIW\":true,\"dsr\":[15,30,2,2]}'>es:Spanish</a>\n<a rel=\"mw:WikiLink/Interwiki\" href=\"http://zh.wikipedia.org/wiki/Chinese\" title=\"zh:Chinese\" class=\"extiw\" data-parsoid='{\"stx\":\"simple\",\"a\":{\"href\":\"http://zh.wikipedia.org/wiki/Chinese\"},\"sa\":{\"href\":\": zh : Chinese\"},\"isIW\":true,\"dsr\":[31,49,2,2]}'> zh<span typeof=\"mw:DisplaySpace\" data-parsoid='{\"dsr\":[36,37,0,0]}'> </span>: Chinese</a></p>",
+        "html2wt": "Blah blah blah\n[[:es:Spanish]]\n[[: zh : Chinese]]",
+        "selser [[4,4,0,1]]": "1e95x3n1nj8xix\n[[: zh : Chinese]]",
+        "selser [[4,3,4,1]]": "rg2aoi7eel2y[[: zh : Chinese]]"
+    },
+    "Interlanguage link with spacing": {
+        "wt2html": "<p data-parsoid='{\"dsr\":[0,14,0,0]}'>Blah blah blah</p>\n<link rel=\"mw:PageProp/Language\" href=\"http://zh.wikipedia.org/wiki/%20%20%20%20Chinese%20%20%20%20%20\" data-parsoid='{\"stx\":\"simple\",\"a\":{\"href\":\"http://zh.wikipedia.org/wiki/%20%20%20%20Chinese%20%20%20%20%20\"},\"sa\":{\"href\":\"   zh  :    Chinese     \"},\"dsr\":[15,43,null,null]}'/>",
+        "wt2wt": "Blah blah blah\n[[   zh  :    Chinese     |   zh  :    Chinese     ]]",
+        "selser [4,0,0]": "n4e8qv\n[[   zh  :    Chinese     ]]",
+        "selser [[4],3,2]": "1vmb5kd\n\ng6dx29\n[[   zh  :    Chinese     ]]",
+        "selser [4,3,0]": "1h6g0ly\n[[   zh  :    Chinese     ]]",
+        "selser [[3],3,0]": "[[   zh  :    Chinese     ]]",
+        "selser [3,2,0]": "1nn3tw5\n[[   zh  :    Chinese     ]]",
+        "selser [0,4,0]": "Blah blah blah\n\na27k8x\n[[   zh  :    Chinese     ]]",
+        "selser [1,2,0]": "Blah blah blah\n\n109qmw8\n[[   zh  :    Chinese     ]]",
+        "selser [[4],2,0]": "168ye40\n\n1p4mde5\n[[   zh  :    Chinese     ]]",
+        "selser [4,0,2]": "1rvhrh5\n\nkayncs\n[[   zh  :    Chinese     ]]",
+        "selser [3,0,0]": "\n[[   zh  :    Chinese     ]]"
+    },
+    "Parsoid: recognize interlanguage links without a target page": {
+        "metadata": ""
+    },
+    "Parsoid: recognize interwiki links without a target page": {
+        "selser [2,2,1]": "y5402j\n\n[[:es:]]\n\nb54ct7\n\n[[ko:]]",
+        "selser [[2],2,1]": "13dr04g[[:es:]]\n\ni9nxnb\n\n[[ko:]]",
+        "selser [1,4,1]": "[[:es:]]\n\n1v5n13f\n\n[[ko:]]"
+    },
+    "Space and question mark encoding in interlanguage links (T95473)": {
+        "wt2html": "<p data-parsoid='{\"dsr\":[0,14,0,0]}'>Blah blah blah</p>\n<link rel=\"mw:PageProp/Language\" href=\"http://es.wikipedia.org/wiki/Foo%20bar%3F\" data-parsoid='{\"stx\":\"simple\",\"a\":{\"href\":\"http://es.wikipedia.org/wiki/Foo%20bar%3F\"},\"sa\":{\"href\":\"es:Foo bar?\"},\"dsr\":[15,30,null,null]}'/>"
+    }
+}

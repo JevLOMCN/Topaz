@@ -1,0 +1,32 @@
+{
+	"@metadata": {
+		"authors": [
+			"Ahmed-Najib-Biabani-Ibrahimkhel"
+		]
+	},
+	"thanks-desc": "د سمونونو، تبصرو او نور کړنو پخاطر له کارنانو څخه د مننې کولو تړنې ورگډوي.",
+	"thanks-thank": "{{GENDER:$1|{{GENDER:$2|مننه}}}}",
+	"thanks-thanked": "{{GENDER:$1|{{GENDER:$2|منندوی شو}}}}",
+	"thanks-button-thank": "{{GENDER:$1|{{GENDER:$2|مننه}}}}",
+	"thanks-button-thanked": "{{GENDER:$1|{{GENDER:$2|منندوی شو}}}}",
+	"thanks-error-undefined": "د مننې چاره پاتې راغله (د تېروتنې کوډ: $1). بيا مو هڅه وکړئ.",
+	"thanks-error-invalidrevision": "د کره کتنې پېژند سم نه دی.",
+	"thanks-error-ratelimited": "{{GENDER:$1|تاسې}} د خپل ټاکلي بريد نه واوښتلئ. مهرباني وکړۍ لږ څه تم شۍ او بيا يې وآزمويۍ.",
+	"thanks-thank-tooltip": "دې {{GENDER:$2|کارن}} ته د مننې يو پيغام {{GENDER:$1|ورلېږل}}",
+	"thanks-thank-tooltip-no": "د مننې يادگيرنه {{GENDER:$1|ناگارل}}",
+	"thanks-thank-tooltip-yes": "د مننې يادگيرنه {{GENDER:$1|لېږل}}",
+	"thanks-confirmation2": "دې سمون ته يوه عامه مننه {{GENDER:$1|ورلېږې}} ؟",
+	"thanks-thanked-notice": "$1 د {{GENDER:$2|هغه|هغې|هغوی}} سمونونو پخاطر ستاسې مننه ترلاسه کړه.",
+	"thanks": "مننه لېږل",
+	"thanks-submit": "مننه لېږل",
+	"echo-pref-subscription-edit-thank": "زه د سمون پخاطر زما منندوی شه",
+	"echo-pref-tooltip-edit-thank": "خبر مې کړه کله چې يو څوک زما د يو سمون په خاطر له ما څخه مننه کوي.",
+	"echo-category-title-edit-thank": "مننه",
+	"notification-header-rev-thank": "په '''$3''' باندې د سمون پخاطر، $1 له {{GENDER:$4|تاسې}} څخه {{GENDER:$2|مننه وکړه}}.",
+	"log-name-thanks": "د مننې يادښت",
+	"log-description-thanks": "دا لاندې د هغو کارنانو يو لړليک دی چې نور کارنان ترې منندوی دي.",
+	"logentry-thanks-thank": "$1 {{GENDER:$2|منندوی شو}} له {{GENDER:$4|$3}}",
+	"notification-link-text-view-post": "تبصره کتل",
+	"thanks-error-invalidpostid": "د پوست پېژند سم نه دی.",
+	"notification-compact-header-flow-thank": "$1 له {{GENDER:$3|تاسو}} څخه {{GENDER:$2|مننه وکړه}}."
+}

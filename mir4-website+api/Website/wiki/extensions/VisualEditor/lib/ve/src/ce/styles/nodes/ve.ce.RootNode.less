@@ -1,0 +1,32 @@
+/*!
+ * VisualEditor ContentEditable attached root node styles.
+ *
+ * @copyright See AUTHORS.txt
+ */
+
+.ve-ce-attachedRootNode {
+	cursor: text;
+	/* Prevent excess scrolling when surface padding is added */
+	box-sizing: border-box;
+
+	.ve-ce-surface-readOnly & {
+		/* Hide the caret (text cursor) when read-only */
+		caret-color: transparent;
+	}
+
+	&::selection,
+	& *::selection {
+		/*
+		 * Don't bother with -moz-selection becase Firefox 24 only
+		 * supports overriding text selection colour, not images
+		 * (i.e. any focusable nodes)
+		 */
+		background: rgba( 109, 169, 247, 0.5 ); /* #6da9f7 */
+	}
+
+	& [ contentEditable='false' ] {
+		/* Reset styles applied to ce=true by Chrome (T207426) */
+		overflow-wrap: initial;
+		-webkit-line-break: initial;
+	}
+}

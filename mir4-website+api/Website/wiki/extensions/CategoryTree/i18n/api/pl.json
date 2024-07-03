@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Chrumps",
+			"Rail",
+			"Railfail536",
+			"Woytecr"
+		]
+	},
+	"apihelp-categorytree-summary": "Wewnętrzny moduł rozszerzenia CategoryTree.",
+	"apihelp-categorytree-param-category": "Tytuł w przestrzeni nazw kategorii, prefiks będzie ignorowany jeżeli podany.",
+	"apihelp-categorytree-param-options": "Opcje dla konstruktora CategoryTree w postaci obiektu JSON. Opcja <var>depth</var> domyślnie wynosi <kbd>1</kbd>.",
+	"apierror-categorytree-invalidjson": "Opcje powinny być prawidłowymi obiektami JSON."
+}

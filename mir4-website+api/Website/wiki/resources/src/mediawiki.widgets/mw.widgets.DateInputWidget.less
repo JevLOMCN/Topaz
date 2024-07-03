@@ -1,0 +1,94 @@
+/*!
+ * MediaWiki Widgets – JS DateInputWidget styles.
+ *
+ * @copyright 2011-2015 MediaWiki Widgets Team and others; see AUTHORS.txt
+ * @license The MIT License (MIT); see LICENSE.txt
+ */
+
+@import 'mediawiki.skin.variables.less';
+
+.oo-ui-unselectable() {
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+@size-indicator: unit( 12 / 16 / 0.8, em );
+
+.mw-widget-dateInputWidget {
+	&-handle {
+		.oo-ui-unselectable();
+
+		> .oo-ui-indicatorElement-indicator {
+			display: none;
+		}
+	}
+
+	&.oo-ui-indicatorElement .mw-widget-dateInputWidget-handle > .oo-ui-indicatorElement-indicator {
+		display: block;
+		position: absolute;
+		top: 0;
+		right: 0;
+		width: @size-indicator;
+		height: 100%;
+		margin: 0 0.775em;
+	}
+
+	> .oo-ui-textInputWidget {
+		z-index: 2;
+	}
+
+	&-calendar {
+		background-color: @background-color-base;
+		position: absolute;
+		margin-top: -2px;
+		border-radius: @border-radius-base;
+		box-shadow: @box-shadow-drop-medium;
+		z-index: 1;
+
+		&:focus {
+			box-shadow: @box-shadow-inset-small @box-shadow-color-progressive--focus, @box-shadow-drop-medium;
+			z-index: 3;
+		}
+	}
+
+	&-empty {
+		.mw-widget-dateInputWidget-handle {
+			color: @color-subtle;
+			outline: 0;
+		}
+	}
+
+	&.oo-ui-flaggedElement-invalid {
+		.mw-widget-dateInputWidget-handle {
+			border-color: @border-color-error;
+			box-shadow: none;
+		}
+	}
+
+	&.oo-ui-widget-enabled {
+		.mw-widget-dateInputWidget-handle:hover {
+			border-color: @border-color-interactive;
+		}
+
+		.oo-ui-inputWidget-input[ readonly ]:not( .oo-ui-pendingElement-pending ) ~ .mw-widget-dateInputWidget-handle {
+			background-color: @background-color-interactive-subtle;
+		}
+	}
+
+	&.oo-ui-widget-disabled {
+		.mw-widget-dateInputWidget-handle {
+			background-color: @background-color-disabled-subtle;
+			color: @color-disabled;
+			border-color: @border-color-disabled;
+			text-shadow: 0 1px 1px #fff;
+			cursor: @cursor-base--disabled;
+
+			> .oo-ui-indicatorElement-indicator {
+				opacity: @opacity-icon-base--disabled;
+			}
+		}
+	}
+}

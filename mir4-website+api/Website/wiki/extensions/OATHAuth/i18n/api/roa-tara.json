@@ -1,0 +1,17 @@
+{
+	"@metadata": {
+		"authors": [
+			"Joetaras"
+		]
+	},
+	"apihelp-query+oath-summary": "Condrolle ce l'autendicazione a doje fatture (OATH) jè abbilitate pe 'n'utende.",
+	"apihelp-query+oath-param-user": "Utende sus a a'u quale pigghià le 'mbormaziune. Quidde predefinite jè quidde de mò.",
+	"apihelp-query+oath-param-reason": "Mutive pa 'nderrogazione d'u state OATH.",
+	"apihelp-query+oath-example-1": "Pigghie le 'mbormaziune sus a l'utende de mò",
+	"apihelp-query+oath-example-2": "Pigghie le 'mbormaziune sus a l'utende <kbd>Example</kbd>",
+	"apihelp-oathvalidate-summary": "Valide 'u gettone de l'autendicazione a doje fatture (OATH).",
+	"apihelp-oathvalidate-param-user": "Utende sus a a 'u quale convalidà 'u gettore. Valore predefinite jè l'utende de mò.",
+	"apihelp-oathvalidate-example-1": "Valide 'nu date JSON pe l'utende de mò",
+	"apihelp-oathvalidate-example-3": "Valide le date d'u JSON pe l'utende <kbd>Example</kbd>",
+	"apihelp-oathvalidate-param-data": "Date codificate d'u JSON attese da 'u module attivate pe mò pe l'utende ca adda essere autendicate"
+}

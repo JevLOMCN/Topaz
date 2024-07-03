@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"Luky001",
+			"Teslaton"
+		]
+	},
+	"loginnotify-desc": "Informuje používateľov o podozrivých prihláseniach z neznámych zariadení alebo IP adries",
+	"echo-category-title-login-fail": "neúspešné pokusy o prihlásenie",
+	"echo-pref-tooltip-login-fail": "Upozornite ma, keď dôjde k neúspešným pokusom o prihlásenie k môjmu účtu.",
+	"echo-category-title-login-success": "prihlásenie z neznámeho zariadenia",
+	"echo-pref-tooltip-login-success": "Upozornite ma, keď sa niekto k môjmu účtu prihlási z neznámeho zariadenia a IP adresy.",
+	"notification-loginnotify-login-success-email-subject": "Prihlásenie na {{grammar:akuzatív|{{SITENAME}}}} ako {{GENDER:$1|$1}} z bežne nepoužívaného zariadenia",
+	"notification-header-login-success": "Niekto (pravdepodobne Vy) sa nedávno prihlásil na Váš účet z nového zariadenia. Ak ste to {{GENDER:$1|bol|bola|bol/a/}} Vy, môžete túto správu ignorovať. Ak ste to {{GENDER:$1|nebol|nebola|nebol/a/}} Vy, odporúčame, aby ste si {{GENDER:$1|zmenil|zmenila|zmenil/a/}} heslo a {{GENDER:$1|skontroloval|skontrolovala|skontroloval/a/}} aktivitu na svojom účte."
+}

@@ -1,0 +1,20 @@
+{
+	"@metadata": {
+		"authors": [
+			"Alma",
+			"Banjo",
+			"Iváns",
+			"Toliño"
+		]
+	},
+	"inputbox-desc": "Permitir a inclusión de formularios predefinidos de HTML",
+	"inputbox-error-no-type": "Non especificou o tipo de caixa de entrada que quere crear.",
+	"inputbox-error-bad-type": "O tipo de caixa de entrada \"$1\" non foi recoñecido.\nPor favor, especifique \"create\", \"comment\", \"search\", \"search2\" ou \"fulltext\".",
+	"inputbox-tryexact": "Procurar coincidencias exactas",
+	"inputbox-searchfulltext": "Procurar o texto completo",
+	"inputbox-createarticle": "Crear a páxina",
+	"inputbox-movearticle": "Mover páxina",
+	"inputbox-postcomment": "Nova sección",
+	"inputbox-postcommenttitle": "Nova sección",
+	"inputbox-ns-main": "Principal"
+}

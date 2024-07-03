@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"XtexChooser"
+		]
+	},
+	"turnstile-desc": "为ConfirmEdit添加对Cloudflare Turnstile的支持",
+	"turnstile-edit": "为保护wiki免于自动化编辑破坏，我们恳请您解决以下验证码：",
+	"turnstile-addurl": "您的编辑包含新的外部链接。为保护wiki免于自动化破坏，我们恳请您解决以下验证码：",
+	"turnstile-badlogin": "为保护wiki免于自动化密码破解，我们恳请您解决以下验证码：",
+	"turnstile-createaccount": "为保护wiki免于自动化账户创建，我们恳请您解决以下验证码：",
+	"turnstile-createaccount-fail": "看起来您未输入正确的验证码。",
+	"turnstile-create": "为保护wiki免于自动化页面创建，我们恳请您解决以下验证码：",
+	"turnstile-help": "请解决Turnstile验证码，并将响应值作为captchaWord返回。"
+}

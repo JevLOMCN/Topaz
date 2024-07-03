@@ -1,0 +1,19 @@
+{
+	"@metadata": {
+		"authors": [
+			"Distel135",
+			"Metalhead64"
+		]
+	},
+	"apihelp-query+linterrors-summary": "Ruft eine Liste der Lint-Fehler ab",
+	"apihelp-query+linterrors-param-categories": "Kategorien der Lint-Fehler",
+	"apihelp-query+linterrors-param-invisible-categories": "Unsichtbare Kategorien von Lint-Fehlern",
+	"apihelp-query+linterrors-param-limit": "Anzahl der abzurufenden Ergebnisse",
+	"apihelp-query+linterrors-param-from": "Lint-Kennung, ab der die Abfrage beginnen soll.",
+	"apihelp-query+linterrors-param-namespace": "Schließt nur Lint-Fehler von den angegebenen Namensräumen ein",
+	"apihelp-query+linterrors-param-pageid": "Schließt nur Lint-Fehler von den angegebenen Seitenkennungen ein",
+	"apihelp-query+linterrors-param-title": "Nur Lint-Fehler aus dem angegebenen Seitentitel einbeziehen",
+	"apihelp-query+linterrors-example-1": "Ruft alle Lint-Fehler der Kategorie obsolete-tag ab",
+	"apihelp-query+linterstats-summary": "Ruft die Anzahl der Lint-Fehler in jeder Kategorie ab",
+	"apihelp-query+linterstats-example-1": "Ruft die Anzahl der Lint-Fehler in jeder Kategorie ab"
+}

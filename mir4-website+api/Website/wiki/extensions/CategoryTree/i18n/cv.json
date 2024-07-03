@@ -1,0 +1,37 @@
+{
+	"@metadata": {
+		"authors": [
+			"Astahar",
+			"Chavash",
+			"Chuvash2014"
+		]
+	},
+	"categorytree": "Категорисен йывӑҫҫи",
+	"categorytree-portlet": "Категорисем",
+	"categorytree-legend": "Категорисен йывӑҫҫине кӑтарт",
+	"categorytree-desc": "Викири [[Special:CategoryTree|категорисен структурине]] кӑтртма усӑ куракан AJAX-компонент",
+	"categorytree-header": "Шалти ӑшлӑхне туратласа кӑтартмалли категори ятне ҫырса кӗртӗр (JavaScript кирлӗ).",
+	"categorytree-category": "Категори:",
+	"categorytree-go": "Тие",
+	"categorytree-parents": "Ҫӳлти категорисем",
+	"categorytree-mode-label": "Режим:",
+	"categorytree-mode-categories": "категорисем ҫеҫ",
+	"categorytree-mode-pages": "файлсемсӗр",
+	"categorytree-mode-all": "мӗнпур страницӑсем",
+	"categorytree-collapse": "хуп",
+	"categorytree-expand": "сар",
+	"categorytree-member-counts": "$1 {{PLURAL:$1|аялти категори}}, $2 {{PLURAL:$2|страница}} тата $3 {{PLURAL:$3|файл}} пур",
+	"categorytree-num-categories": "$1 Э",
+	"categorytree-num-pages": "$1 Э",
+	"categorytree-num-files": "$1 Ф",
+	"categorytree-num-empty": "пушӑ",
+	"categorytree-load": "тие",
+	"categorytree-loading": "тиенет…",
+	"categorytree-nothing-found": "Ку категорин аялти категорисем ҫук",
+	"categorytree-no-subcategories": "аялти категорисемсӗр",
+	"categorytree-no-parent-categories": "ҫӳлти категорисем ҫук",
+	"categorytree-no-pages": "статьясемпе аялти категорисем ҫук",
+	"categorytree-not-found": "«$1» категори тупӑнмарӗ.",
+	"categorytree-error": "Даннӑйсене тиенӗ май йӑнӑш сиксе тухрӗ.",
+	"categorytree-retry": "Трахасшӑн, кӑшт кӗтӗр те тепӗр хут туса пӑхӑр."
+}

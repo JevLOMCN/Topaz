@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"BaRaN6161 TURK",
+			"Hedda",
+			"SaldırganSincap"
+		]
+	},
+	"apihelp-categorytree-summary": "CategoryTree uzantısı için iç modül.",
+	"apihelp-categorytree-param-category": "Kategori ad alanındaki başlık, verilen varsa önek dikkate alınmaz.",
+	"apihelp-categorytree-param-options": "JSON nesnesi olarak CategoryTree yapıcısı için seçenekler. <var>depth</var> seçeneği varsayılan <kbd>1</kbd>.",
+	"apierror-categorytree-invalidjson": "Seçenekler geçerli bir JSON nesnesi olmalıdır.",
+	"apierror-categorytree-invalidjson-option": "\"$1\" seçeneği geçersiz değer içeriyor."
+}

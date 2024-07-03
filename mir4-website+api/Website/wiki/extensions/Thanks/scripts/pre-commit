@@ -1,0 +1,13 @@
+#!/bin/bash
+# Code from https://gist.github.com/holysugar/1318698 , simpler than
+# http://stackoverflow.com/a/6262715/451712
+
+# Work out location of Thanks/scripts/ directory
+dir=$(dirname $(php -r "echo realpath('$0'), \"\\n\";"))
+# Move to the project root
+cd $(dirname $dir)
+
+find ./ -type f -iname '*.php' -print0 | xargs -0 -P 12 -L 1 php -l
+
+# Run npm test
+npm test

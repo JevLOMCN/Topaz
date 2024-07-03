@@ -1,0 +1,22 @@
+{
+	"@metadata": {
+		"authors": [
+			"Derbeth",
+			"Leinad",
+			"Matma Rex",
+			"Sp5uhe"
+		]
+	},
+	"imagemap_desc": "Umożliwia utworzenie obrazka zawierającego klikalną mapę, z użyciem znacznika <code>&lt;imagemap&gt;</code>",
+	"imagemap_no_image": "Błąd – należy wpisać grafikę w pierwszej linii",
+	"imagemap_invalid_image": "Błąd – grafika jest niepoprawna lub nie istnieje",
+	"imagemap_bad_image": "Błąd: Ta grafika nie może być użyta na tej stronie.",
+	"imagemap_no_link": "Błąd – nie znaleziono poprawnego linku na końcu linii $1",
+	"imagemap_invalid_title": "Błąd – niepoprawny tytuł linku w linii $1",
+	"imagemap_missing_coord": "Błąd – niewystarczająca liczba współrzędnych dla kształtu zdefiniowanego w linii $1",
+	"imagemap_unrecognised_shape": "Błąd – nierozpoznany kształt w linii $1; każda linia musi zawierać tekst: <code>default</code>, <code>rect</code>, <code>circle</code> lub <code>poly</code>",
+	"imagemap_invalid_coord": "Błąd – nieprawidłowa współrzędna w linii $1; należy podać liczbę",
+	"imagemap_invalid_desc": "Błąd – nieprawidłowa specyfikacja opisu; należy wpisać jeden z wariantów: <code>$1</code>",
+	"imagemap_description": "Informacje o tej grafice",
+	"imagemap_poly_odd": "Błąd – w linii $1 znaleziono wielokąt z nieparzystą liczbą współrzędnych"
+}

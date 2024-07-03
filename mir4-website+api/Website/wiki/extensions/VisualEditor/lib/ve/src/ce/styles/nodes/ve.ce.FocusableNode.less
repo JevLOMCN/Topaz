@@ -1,0 +1,84 @@
+/*!
+ * VisualEditor ContentEditable FocusableNode styles.
+ *
+ * @copyright See AUTHORS.txt
+ */
+
+.ve-ce-focusableNode {
+	cursor: default;
+
+	/* We previously applied -moz-user-select: none to all descendants of focuasbleNode
+	   to prevent them from ever taking a cursor (T70537) but that causes FF to create
+	   multi-range selections (T214976) which is worse */
+
+	&-highlight {
+		background: #6da9f7;
+		box-shadow: inset 0 0 0 1px #4c76ac;
+		position: absolute;
+		/* Clip extra span added for selectability */
+		overflow: hidden;
+
+		&-error {
+			background: #d73333;
+		}
+
+		&-selectable {
+			position: absolute;
+			top: -1000px;
+		}
+	}
+
+	&-invisible {
+		/* Ensure these are always visible, overriding things like "nomobile" in MediaWiki (T332626) */
+		/* stylelint-disable-next-line declaration-no-important */
+		display: inline-block !important;
+		vertical-align: middle;
+		/* Negative margins ensure button height doesn't exceed line height */
+		margin: -0.7em 0 -0.6em 0;
+		width: auto;
+	}
+
+	&-invisibleIcon {
+		opacity: 0.5;
+
+		> .oo-ui-buttonElement-button {
+			/* Button can sometimes be exposed (T198912), but it shouldn't interact like one */
+			cursor: default;
+		}
+
+		&.oo-ui-labelElement {
+			width: auto;
+
+			.oo-ui-labelElement-label {
+				max-width: 15em;
+				overflow: hidden;
+				text-overflow: ellipsis;
+				white-space: nowrap;
+				display: inline-block;
+			}
+		}
+
+		&.oo-ui-iconElement.oo-ui-buttonElement-frameless.oo-ui-iconElement:first-child {
+			/* Requires high specificity to override OOUI */
+			margin-left: 0;
+		}
+	}
+}
+
+/* Highlights group opacity */
+
+.ve-ce-surface-highlights-focused .ve-ce-focusableNode-highlights {
+	opacity: 0.5;
+}
+
+.ve-ce-surface-highlights-blurred .ve-ce-focusableNode-highlights {
+	opacity: 0.15;
+}
+
+.ve-ce-surface-highlights-focused .ve-ce-focusableNode-highlights-deactivated {
+	opacity: 0.15;
+}
+
+.ve-ce-focusableNode-highlights-deactivated .ve-ce-focusableNode-highlight {
+	background: #000;
+}

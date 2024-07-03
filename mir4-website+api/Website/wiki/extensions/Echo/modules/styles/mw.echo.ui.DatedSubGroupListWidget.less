@@ -1,0 +1,44 @@
+@import 'mediawiki.skin.variables.less';
+@import '../echo.variables.less';
+
+.mw-echo-ui-datedSubGroupListWidget {
+	.mw-body-content &-title {
+		// Since the title is <h2> we want to specifically
+		// change the styling to bring it back to mimic a
+		// content span. We also must override the h2 rules
+		// so specificity is important
+		font-weight: inherit;
+		font-size: inherit;
+		font-family: inherit;
+		border: 0;
+
+		&-primary {
+			font-size: 1.5em;
+			margin-right: 0.5em;
+			display: inline-block;
+
+			&::first-letter {
+				text-transform: uppercase;
+			}
+		}
+
+		&-secondary {
+			font-size: 1.5em;
+			color: @grey-light;
+		}
+	}
+
+	@media all and ( max-width: ( @specialpage-hd-width - 1 ) ) {
+		.mw-echo-ui-subGroupListWidget-header-row-markAllReadButton {
+			font-size: 0.8em;
+		}
+
+		&-title-primary {
+			font-size: 1.2em;
+		}
+
+		&-title-secondary {
+			display: none;
+		}
+	}
+}

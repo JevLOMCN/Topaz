@@ -1,0 +1,22 @@
+{
+	"@metadata": {
+		"authors": [
+			"BrokenArrow",
+			"Naudefj",
+			"පසිඳු කාවින්ද"
+		]
+	},
+	"captcha-edit": "U wysiging bevat nuwe webskakels. Neem kennis dat blote reklame van u werf, produk of besigheid as vandalisme beskou kan word. As beskerming teen outomatiese gemorsbydraes, sal u die woorde wat onder verskyn in die prentjie moet intik: <br />([[Special:Captcha/help|Wat is hierdie?]])",
+	"captcha-desc": "Implementeer CAPTCHA-tegnieke om beskerming teen spam en die raai van wagwoorde te bied",
+	"captcha-addurl": "U wysiging bevat nuwe webskakels.\nAs beskerming teen outomatiese gemorsbydraes, sal u die woorde wat onder verskyn in die prentjie moet intik ([[Special:Captcha/help|Wat is hierdie?]]):",
+	"captcha-badlogin": "Los asseblief die onderstaande eenvoudige som op en voer die antwoord in die blokkie in ter beskerming teen die outomatiese kraak van wagwoorde ([[Special:Captcha/help|meer inligting]]):",
+	"captcha-createaccount": "As 'n beskerming teen geoutomatiseerde gemors, tik asseblief die woorde wat in die beeld verskyn in om 'n rekening te skep: <br />([[Special:Captcha/help|Wat is hierdie?]])",
+	"captcha-createaccount-fail": "Verkeerde of geen bevestigingkode.",
+	"captcha-create": "U wysiging bevat nuwe webskakels. Neem kennis dat blote reklame van u werf, produk of besigheid as vandalisme beskou kan word. As beskerming teen outomatiese gemorsbydraes, sal u die woorde wat onder verskyn in die prentjie moet intik: <br />([[Special:Captcha/help|Wat is hierdie?]])",
+	"captcha-sendemail-fail": "Verkeerde of ontbrekende bevestigingskode.",
+	"captcha-disabledinapi": "Hierdie aksie vereis dat 'n captcha, so dit kan nie uitgevoer word deur die API nie.",
+	"captchahelp-title": "Captcha-hulp",
+	"captchahelp-cookies-needed": "U moet koekies in u webblaaier aanskakel hê om dit te laat werk.",
+	"captchahelp-text": "Webwerwe wat bydraes van die publiek aanvaar (soos hierdie wiki) word soms lastig geval deur kwaaddoeners met programme wat outomaties skakels in 'n klomp werwe plaas. Alhoewel hierdie gemors verwyder kan word, is dit lastig.\n\nIn party gevalle, veral as u skakels by 'n blad voeg, sal die wiki dalk 'n beeld met verwronge teks vertoon en vra dat u die woorde daarin intik. Omdat hierdie taak moeilik geoutomatiseer word, laat dit meeste regte mense toe om bydraes te maak terwyl dit meeste kwaaddoeners stop.\n\nHierdie kan ongelukkig lastig wees vir mense met beperkte sig, of diegene wat teks- of spraakgebaseerde blaaiers gebruik. Tans is daar nog nie 'n klankalternatief beskikbaar nie. Kontak asseblief die [[Special:ListAdmins|werfadministrateurs]] vir hulp as hierdie u onverwags belemmer om legitieme bydraes te maak.\n\nGebruik die \"terug\"-knoppie van u blaaier om na die vorige blad terug te keer.",
+	"right-skipcaptcha": "Captcha-handelinge uitvoer sonder om die captcha te hoef oplos"
+}

@@ -1,0 +1,32 @@
+{
+	"@metadata": {
+		"authors": [
+			"Amire80",
+			"Danny-w",
+			"Guycn2",
+			"Rotem Liss",
+			"Rotemliss",
+			"Yona b"
+		]
+	},
+	"action-tboverride": "לעקוף את רשימת הכותרות או שמות המשתמש האסורים",
+	"action-tboverride-account": "לעקוף את רשימת שמות המשתמש האסורים",
+	"action-titleblacklistlog": "לצפות ביומן רשימת הכותרות האסורות",
+	"log-name-titleblacklist": "יומן רשימת הכותרות האסורות",
+	"log-description-titleblacklist": "האירועים האלה עוקבים אחרי התאמות לרשימת הכותרות האסורות.",
+	"logentry-titleblacklist-hit-username": "$1 {{GENDER:$2|גרם|גרמה}} להתאמה ברשימת הכותרות האסורות בעת ניסיון ליצור את החשבון $3 שמתאים לפריט הרשימה $4.",
+	"titleblacklist-desc": "אפשרות למפעילי המערכת לאסור יצירת דפים וחשבונות משתמש לפי רשימת כותרות [[MediaWiki:Titleblacklist|אסורות]] ו[[MediaWiki:Titlewhitelist|מותרות]]",
+	"titleblacklist": "# זוהי רשימת הכותרות האסורות. לא ניתן ליצור כותרות וחשבונות משתמש שמתאימים לביטוי רגולרי שמופיע כאן.\n# השתמשו בסימן \"#\" להערות.\n# הרשימה אינה תלויה ברישיות כברירת מחדל.",
+	"titlewhitelist": "# זוהי רשימת הכותרות המותרות. השתמשו בסימן \"#\" להערות.\n# הרשימה אינה תלויה ברישיות כברירת מחדל.",
+	"titleblacklist-forbidden-edit": "הכותרת \"$2\" אסורה ליצירה.\nהיא מתאימה לערך הבא ברשימת הכותרות האסורות: <code>$1</code>",
+	"titleblacklist-forbidden-move": "לא ניתן להעביר את \"$2\" לשם \"$3\", כי כותרת \"$3\" אסורה ליצירה.\nהיא מתאימה לערך הבא ברשימת הכותרות האסורות: <code>$1</code>",
+	"titleblacklist-forbidden-upload": "שם הקובץ \"$2\" נאסר ליצירה.\nהוא מתאים לערך הבא ברשימת הכותרות האסורות: <code>$1</code>",
+	"titleblacklist-forbidden-new-account": "שם המשתמש \"$2\" נאסר ליצירה.\nהוא מתאים לערך הבא ברשימת הכותרות האסורות: <code>$1</code>",
+	"titleblacklist-invalid": "{{PLURAL:$1|השורה הבאה|השורות הבאות}} ברשימת הכותרות האסורות {{PLURAL:$1|אינה תקינה|אינם תקינים}};\nאנא תקנו {{PLURAL:$1|אותה|אותן}} לפני השמירה:",
+	"titleblacklist-override": "לעקוף את רשימת הכותרות האסורות אם זה מתאים",
+	"titleblacklist-override-help": "משתמשים עם הרשאות מספיקות יכולים לגרום להתעלמות מבדיקת הכותרות האסורות.",
+	"titleblacklist-warning": "<strong>אזהרה: רק מפעילים ומשתמשים אחרים בעלי הרשאת <code>tboverride</code> יכולים לערוך את הדף הזה כי הוא מתאים לשורה הבאה ברשימת הכותרות האסורות:</strong><br /><code>$1</code>",
+	"right-tboverride": "עקיפת רשימת הכותרות או שמות המשתמש האסורים",
+	"right-tboverride-account": "עקיפת רשימת שמות המשתמשים האסורים",
+	"right-titleblacklistlog": "צפייה ביומן רשימת הכותרות האסורות"
+}

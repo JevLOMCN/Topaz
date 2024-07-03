@@ -1,0 +1,34 @@
+{
+	"@metadata": {
+		"authors": [
+			"Gambollar",
+			"Gorizon",
+			"Gırd",
+			"Kumkumuk",
+			"Marmase",
+			"Mirzali",
+			"Orbot707"
+		]
+	},
+	"thanks-thank": "{{GENDER:$1|{{GENDER:$2|teşekur bıke}}}}",
+	"thanks-thanked": "{{GENDER:$1|{{GENDER:$2|teşekur kerd}}}}",
+	"thanks-button-thank": "{{GENDER:$1|{{GENDER:$2|Teşekur bıke}}}}",
+	"thanks-button-thanked": "{{GENDER:$1|{{GENDER:$2|Teşekur kerd}}}}",
+	"thanks-button-action-queued": "{{GENDER:$1|{{GENDER:$2|Teşekur}}}} $1…",
+	"thanks-button-action-cancel": "Bıtexelne",
+	"thanks-button-action-completed": "To $1 rê {{GENDER:$1|{{GENDER:$2|teşekur kerd}}}}",
+	"thanks-thank-tooltip": "{{GENDER:$2|Karberi}} rê teşekur {{GENDER:$1|bırışe}}",
+	"thanks-confirmation2": "Şari rê akerde teşekuri {{GENDER:$1|bırışê}}?",
+	"thanks-thanked-notice": "Karberê {{GENDER:$2|$1}} rê {{GENDER:$3|şıma}} teşekur kerd",
+	"thanks": "Teşekur bırışe",
+	"thanks-submit": "Teşekur bırışe",
+	"echo-pref-subscription-edit-thank": "Serva iştiraki mı rê teşekur biyo",
+	"echo-category-title-edit-thank": "Teşekur",
+	"notification-header-rev-thank": "$1, qandé vurnayışê pera  <strong>$3</strong>i {{GENDER:$4|şıma}} rê {{GENDER:$2|teşekur kerd}}.",
+	"notification-header-creation-thank": "$1, serva vıraştışê pela <strong>$3</strong> {{GENDER:$4|şıma}} rê {{GENDER:$2|teşekur kerd}}.",
+	"notification-bundle-header-rev-thank": "{{PLURAL:$1|Yew merdım|$1 merdımi|100=99+ merduman}} qandé <strong>$2</strong>  {{GENDER:$3|şıma }} rê   teşekur kerd.",
+	"log-name-thanks": "Qeydê teşekuran",
+	"logentry-thanks-thank": "$1  {{GENDER:$4|$3}} rê {{GENDER:$2|teşekur kerd}}",
+	"logeventslist-thanks-log": "Roceke teşekuri",
+	"notification-link-text-view-post": "Tefsiri bıvêne"
+}

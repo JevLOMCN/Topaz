@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Beta16",
+			"Gianfranco"
+		]
+	},
+	"apihelp-templatedata-example-1": "Mostra TemplateData per [[Template:Foobar]], con risultati se il template non esiste o esiste ma non ha TemplateData",
+	"apihelp-templatedata-param-includeMissingTitles": "Restituisce i dati riguardanti i titoli anche se perduti o mancano di TemplateData. Di default i titoli vengono restituiti solo se esistono e hanno TemplateData.",
+	"apihelp-templatedata-param-lang": "Mostra valori localizzati in questa lingua. Per impostazione predefinita, sono mostrate tutte le traduzioni disponibili."
+}

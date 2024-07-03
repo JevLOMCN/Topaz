@@ -1,0 +1,13 @@
+/**
+ * Less mixins shared between both legacy and Vector 2022.
+ */
+
+@import 'mediawiki.mixins.less';
+
+// Defines the arrow beside dropdown headings.
+.mixin-vector-legacy-menu-heading-arrow {
+	content: '';
+	background: url( ./images/arrow-down.svg ) 100% 50% no-repeat;
+	width: unit( 16 / @font-size-tabs / @font-size-browser, em );
+	height: unit( 16 / @font-size-tabs / @font-size-browser, em );
+}

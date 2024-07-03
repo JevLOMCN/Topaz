@@ -1,0 +1,38 @@
+{
+	"@metadata": {
+		"authors": [
+			"Benel",
+			"Bunukwiki",
+			"Matma Rex"
+		]
+	},
+	"apierror-visualeditor-badcachekey": "pisaungay kya mima-sabuhat caay katepa kalamkam-miala a pasalaylay lacul",
+	"apierror-visualeditor-difffailed": "sasutili’ay sasizuma mungangaw",
+	"apihelp-visualeditor-param-basetimestamp": "i misuped sa, pisetin kya kasabelih mikawaway-kalumyiti a nisulitan tu tuki. sapisedap mikawaway-kalumyiti sasula’cus.",
+	"apihelp-visualeditor-param-cachekey": "amipasalaylay saca baziyong sasutili’ay, pisaungay serializeforcache milunguc a heci atu tina sabuhat. mitahap $1html.",
+	"apihelp-visualeditor-param-editintro": "mikawaway-kalumyiti misiwkay tayni micunus patakus.",
+	"apihelp-visualeditor-param-etag": "apabahelay a ETag.",
+	"apihelp-visualeditor-param-html": "apabahel tayza Parsoid miliyaw tu WikiText a HTML.",
+	"apihelp-visualeditor-param-oldid": "amipisaungay sumad banggu (pataayaw tu kawaw u sabaluhayay a baziyong).",
+	"apihelp-visualeditor-param-paction": "kakawawen amisaungay.",
+	"apihelp-visualeditor-param-page": "amileku saungay a kasabelih.",
+	"apihelp-visualeditor-param-pst": "pabahel tayza Parsoid pataayawhen misuped amiliyaway a wikitext (paction=parsefragment).",
+	"apihelp-visualeditor-param-section": "izaw sapisadimel a ngatu.",
+	"apihelp-visualeditor-param-starttimestamp": "i suped sa, pisetin kya kasabelih mikawaway-kalumyiti a nisulitan tu tuki. sapisedap mikawaway-kalumyiti sasula’cus.",
+	"apihelp-visualeditor-param-wikitext": "apabahel ta Parsoid miliyaw tu HTML a WikiText (paction=parsefragment).",
+	"apihelp-visualeditoredit-param-basetimestamp": "i misuped sa, pisetin kya kasabelih mikawaway-kalumyiti a nisulitan tu tuki. sapisedap mikawaway-kalumyiti sasula’cus.",
+	"apihelp-visualeditoredit-param-cachekey": "pisaungay tu naayaway serializeforcache milungucan ku heciatu tina mima-sabuhat. mitahpu $1html.",
+	"apihelp-visualeditoredit-param-captchaid": "CAPTCHA ID (anu pisaungay CAPTCHA ID misuped saan)",
+	"apihelp-visualeditoredit-param-captchaword": "patubeli CAPTCHA ID (anu pisaungay CAPTCHA ID misuped)",
+	"apihelp-visualeditoredit-param-etag": "apabahelay a ETag.",
+	"apihelp-visualeditoredit-param-html": "apabahel tayza Parsoid miliyaw tu WikiText a HTML.",
+	"apihelp-visualeditoredit-param-minor": "silusi maselel mikawaway-kalumyiti.",
+	"apihelp-visualeditoredit-param-needcheck": "yu supedan sa, amahica masumad nu ayaway misaliyaliyaw tahkal ku munday, pisetin tina aazihen-sulyang, tina a setin amaala aazihen-paya silusi nu mikawaway-kalumyiti.",
+	"apihelp-visualeditoredit-param-oldid": "amisaungay sumadat a banggu. pataayaw tu kawaw u sabaluhayay a sumad, pisaungay 0 dayhiw baluhayay a kasabelih.",
+	"apihelp-visualeditoredit-param-paction": "kakawawen amisaungay.",
+	"apihelp-visualeditoredit-param-page": "amileku saungay a kasabelih.",
+	"apihelp-visualeditoredit-param-section": "izaw sapisadimel a ngatu.",
+	"apihelp-visualeditoredit-param-sectiontitle": "baluhay ngatu a satangahan.",
+	"apihelp-visualeditoredit-param-starttimestamp": "i suped sa, pisetin kya kasabelih mikawaway-kalumyiti a nisulitan tu tuki. sapisedap mikawaway-kalumyiti sasula’cus.",
+	"apihelp-visualeditoredit-param-summary": "pecu’ nu lacul mikawaway-kalumyiti."
+}

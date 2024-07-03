@@ -1,0 +1,29 @@
+{
+	"@metadata": {
+		"authors": [
+			"Les Meloures",
+			"Robby",
+			"Soued031",
+			"Volvox"
+		]
+	},
+	"pfunc_desc": "Erweidert Parser mat logesche Funktiounen",
+	"pfunc_time_error": "Feeler: ongëlteg Zäit",
+	"pfunc_time_too_long": "Feeler: ze dacks #time opgeruff",
+	"pfunc_time_too_big": "Feeler: #time ënnerstëtzt nëmme Jore bis 9999",
+	"pfunc_time_too_small": "Feeler: #time ënnerstëtzt nëmme Jore vun 0 un.",
+	"pfunc_expr_stack_exhausted": "Expressiouns-Feeler: Stack iwwergelaf",
+	"pfunc_expr_unexpected_number": "Expressiouns-Feeler: Onerwarten Zuel",
+	"pfunc_expr_unrecognised_word": "Expressiouns-Feeler: Onerkannt Wuert \"$1\"",
+	"pfunc_expr_unexpected_operator": "Expressiounsfeeler: Onerwarten Operateur: $1",
+	"pfunc_expr_missing_operand": "Expressiounsfeeler: Et feelt en Operand fir $1",
+	"pfunc_expr_unexpected_closing_bracket": "Expressiouns-Feeler: Onerwarte Klammer déi zougemaach gëtt",
+	"pfunc_expr_unrecognised_punctuation": "Expressiouns-Feeler: D'Sazzeechen \"$1\" gouf net erkannt",
+	"pfunc_expr_unclosed_bracket": "Expressiouns-Feeler: Eckeg Klammer net zougemaach",
+	"pfunc_expr_division_by_zero": "Divisioun duerch Null",
+	"pfunc_expr_invalid_argument": "Ongültege Wäert fir $1: méi kleng wéi -1 oder méi grouss wéi 1.",
+	"pfunc_expr_invalid_argument_ln": "Ongültege Wäert fir ln: méi kleng oder gläich 0.",
+	"pfunc_expr_unknown_error": "Expression-Feeler: Onbekannte Feeler ($1)",
+	"pfunc_expr_not_a_number": "An $1: D'Resultat ass keng Zuel",
+	"pfunc_string_too_long": "Feeler: D'Zeecheketten ass méi laang wéi d'Limit vu(n) $1 Zeechen"
+}

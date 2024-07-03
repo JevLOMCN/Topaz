@@ -1,0 +1,26 @@
+{
+	"@metadata": {
+		"authors": [
+			"Delim",
+			"Iwai.masaharu",
+			"Omotecho",
+			"Otokoume",
+			"Shirayuki",
+			"Suzukaze-c",
+			"Takot",
+			"Yusuke1109"
+		]
+	},
+	"loginnotify-desc": "身に覚えのない端末および IP アドレスからのログインがあったときに利用者に通知する",
+	"echo-category-title-login-fail": "ログインの失敗",
+	"echo-pref-tooltip-login-fail": "自分のアカウントへのログインが失敗したときに通知する。",
+	"echo-category-title-login-success": "身に覚えのない端末からのログイン",
+	"echo-pref-tooltip-login-success": "身に覚えのない端末およびIPアドレスからのログインがあったときに通知する。",
+	"loginnotify-primary-link": "ヘルプ",
+	"notification-loginnotify-login-fail-email-subject": "{{SITENAME}}におけるアカウント$1の{{PLURAL:$2|ログイン失敗|複数回のログイン失敗}}",
+	"notification-loginnotify-login-success-email-subject": "{{GENDER:$1|あなたが}}最近、使っていないデバイスから{{SITENAME}}に$1のアカウントでログインがありました",
+	"notification-header-login-success": "誰か（おそらく{{GENDER:$1|あなた}}）が最近新しいデバイスからあなたのアカウントにログインしました。もしそれがご自身であれば、このメッセージは無視して構いません。しかしもし、それがご自身のものでなければ、パスワードを変更し、あなたのアカウントのアクティビティを確認することをお勧めします。",
+	"notification-new-bundled-header-login-fail": "あなたが最後にログインしてから、新しいデバイスからあなたのアカウントに対して{{PLURAL:$1|'''1回のログイン失敗'''|'''$1回のログイン失敗'''}}がありました。もしご自身のものでなければ、アカウントのパスワードが十分に強いものかどうか確認してください。",
+	"notification-known-header-login-fail": "あなたが最後にログインしてから、あなたのアカウントに対して{{PLURAL:$1|'''1回のログイン失敗'''|'''$1回のログイン失敗'''}}がありました。もしご自身のものでなければ、アカウントのパスワードが十分に強いものかどうか確認してください。",
+	"notification-new-unbundled-header-login-fail": "新しいデバイスからあなたのアカウントに対して{{PLURAL:$1|'''1回のログイン失敗'''|'''複数回のログイン失敗'''}}がありました。もしご自身のものでなければ、アカウントのパスワードが十分に強いものかどうか確認してください。"
+}

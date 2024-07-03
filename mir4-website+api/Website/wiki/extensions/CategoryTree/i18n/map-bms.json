@@ -1,0 +1,35 @@
+{
+	"@metadata": {
+		"authors": [
+			"StefanusRA"
+		]
+	},
+	"categorytree": "Uwit kategori",
+	"categorytree-portlet": "Kategori",
+	"categorytree-legend": "Tidhokna uwit kategori",
+	"categorytree-desc": "Gadget sing dasare AJAX nggo nidhokna [[Special:CategoryTree|category structure]] salah siji wiki",
+	"categorytree-header": "Lebokna jeneng kategori kanggo deleng isiné minangka sawijining wujud uwit.\nMangga diwigatèkaké nek fitur kiye merlokna fungsionalitas JavaScript canggih sing diarani AJAX.\nAngger Rika panjlajah wèbé kalebu vèrsi lawas, utawa fitur JavaScript dipatèni, fungsi kiye ora teyeng dilakokna.",
+	"categorytree-category": "Kategori:",
+	"categorytree-go": "Tuduhna uwit",
+	"categorytree-parents": "Kategori sing luwih dhuwur",
+	"categorytree-mode-label": "Mode:",
+	"categorytree-mode-categories": "kategori thok",
+	"categorytree-mode-pages": "kaca kajaba gambar",
+	"categorytree-mode-all": "kabèh kaca",
+	"categorytree-collapse": "umpetna",
+	"categorytree-expand": "tidhokna",
+	"categorytree-member-counts": "ngandhut {{PLURAL:$1|1 subkategori|$1 subkategori}}, {{PLURAL:$2|1 kaca|$2 kaca}}, lan {{PLURAL:$3|1 gambar|$3 gambar}}",
+	"categorytree-num-categories": "$1 C",
+	"categorytree-num-pages": "$1 P",
+	"categorytree-num-files": "$1 F",
+	"categorytree-num-empty": "kosong",
+	"categorytree-load": "unggah",
+	"categorytree-loading": "lagi ngunggahna…",
+	"categorytree-nothing-found": "ora ketemu",
+	"categorytree-no-subcategories": "ora ana subkategori",
+	"categorytree-no-parent-categories": "ora ana kategori indhuk",
+	"categorytree-no-pages": "ora ana kaca utawa subkategori",
+	"categorytree-not-found": "Kategori <i>$1</i> ora ketemu",
+	"categorytree-error": "Ana masalah dong lagi ngunggahna data.",
+	"categorytree-retry": "Tulung dienteni sedela lan dijajal maning."
+}

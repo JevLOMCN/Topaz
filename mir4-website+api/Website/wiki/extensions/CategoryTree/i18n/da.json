@@ -1,0 +1,41 @@
+{
+	"@metadata": {
+		"authors": [
+			"Antonla",
+			"Barklund",
+			"Byrial",
+			"Christian List",
+			"Fredelige",
+			"Jon Harald Søby",
+			"Peter Alberti"
+		]
+	},
+	"categorytree": "Kategoritræ",
+	"categorytree-portlet": "Kategorier",
+	"categorytree-legend": "Vis kategoritræ",
+	"categorytree-desc": "Dynamisk navigation i [[Special:CategoryTree|kategoristrukturen]]",
+	"categorytree-header": "Indtast navnet på en kategori for at se indholdet som et træ. Bemærk at dette kræver avanceret JavaScript-funktionalitet kendt som AJAX, det virker ikke hvis du har en meget gammel browser eller hvis du har slået JavaScript fra.",
+	"categorytree-category": "Kategori:",
+	"categorytree-go": "Vis træ",
+	"categorytree-parents": "Overkategorier",
+	"categorytree-mode-label": "Tilstand:",
+	"categorytree-mode-categories": "kun kategorier",
+	"categorytree-mode-pages": "sider med undtagelse af filer",
+	"categorytree-mode-all": "alle sider",
+	"categorytree-collapse": "fold sammen",
+	"categorytree-expand": "udvid",
+	"categorytree-member-counts": "indeholder {{PLURAL:$1|én underkategori|$1 underkategorier}}, {{PLURAL:$2|én side|$2 sider}} og {{PLURAL:$3|én fil|$3 filer}}",
+	"categorytree-num-categories": "$1 K",
+	"categorytree-num-pages": "$1 S",
+	"categorytree-num-files": "$1 F",
+	"categorytree-num-empty": "tom",
+	"categorytree-load": "hent",
+	"categorytree-loading": "indlæser",
+	"categorytree-nothing-found": "intet fundet",
+	"categorytree-no-subcategories": "ingen underkategorier",
+	"categorytree-no-parent-categories": "ingen overkategorier",
+	"categorytree-no-pages": "ingen sider eller underkategorier",
+	"categorytree-not-found": "Kategorien ''$1'' blev ikke fundet",
+	"categorytree-error": "Der opstod et problem under indlæsning af data.",
+	"categorytree-retry": "Vent et øjeblik og prøv igen."
+}

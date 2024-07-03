@@ -1,0 +1,27 @@
+{
+	"@metadata": {
+		"authors": [
+			"HalanTul"
+		]
+	},
+	"pfunc_desc": "Логическай функциялаах тупсарыллыбыт синтаксическай анализатор",
+	"pfunc_time_error": "Алҕас: сыыһа кэм",
+	"pfunc_time_too_long": "Алҕас: #time функция наһаа элбэхтик хатыламмыт",
+	"pfunc_time_too_big": "Алҕас: #time  9999-у ааһыа суохтаах",
+	"pfunc_rel2abs_invalid_depth": "Алҕас: ошибочная глубина пути: «$1» (попытка доступа к узлу, находящемуся выше, чем корневой)",
+	"pfunc_expr_stack_exhausted": "Ошибка выражения: переполнение стека",
+	"pfunc_expr_unexpected_number": "Алҕас: кэтэһиллибэтэх чыыһыла",
+	"pfunc_expr_preg_match_failure": "Алҕас: preg_match моһуоктанна",
+	"pfunc_expr_unrecognised_word": "Алҕас: биллибэт тыл «$1»",
+	"pfunc_expr_unexpected_operator": "Алҕас: кэтэһиллибэтэх оператор $1",
+	"pfunc_expr_missing_operand": "Алҕас: $1 операнда тиийбэт",
+	"pfunc_expr_unexpected_closing_bracket": "Алҕас: кэтэһиллибэтэх сабар ускуопка",
+	"pfunc_expr_unrecognised_punctuation": "Алҕас: биллибэт пунктуация бэлиэтэ «$1»",
+	"pfunc_expr_unclosed_bracket": "Алҕас: сабыллыбатах ускуопка",
+	"pfunc_expr_division_by_zero": "Нуулга түҥэттии",
+	"pfunc_expr_invalid_argument": "$1 алҕас аргуменнаах: < -1 or > 1",
+	"pfunc_expr_invalid_argument_ln": "ln аргумена сыыһалаах: <= 0",
+	"pfunc_expr_unknown_error": "Expression error (ошибка выражения): Биллибэт алҕас ($1)",
+	"pfunc_expr_not_a_number": "$1 иһигэр: эппиэтэ чыыһыла буолбатах",
+	"pfunc_string_too_long": "Алҕас: Устуруока уһуна $1 бэлиэннэн хааччахха баппат"
+}

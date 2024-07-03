@@ -1,0 +1,27 @@
+{
+	"@metadata": {
+		"authors": [
+			"Danny B.",
+			"Dvorapa",
+			"Li-sung",
+			"Matěj Suchánek",
+			"Mormegil",
+			"Patriccck",
+			"Patrik L."
+		]
+	},
+	"skinname-monobook": "Kniha",
+	"monobook-desc": "Klasický vzhled MediaWiki od roku 2004, pojmenovaný po černobílé fotografii knihy v pozadí stránky",
+	"monobook.css": "/* Zde uvedené CSS bude ovlivňovat pouze vzhled „Kniha“ */",
+	"monobook.js": "/* Zde uvedený JavaScript bude použit pouze pro uživatele vzhledu „Kniha“ */",
+	"monobook-jumptotop": "zpět na začátek",
+	"monobook-jumptopersonal": "uživatelské nástroje",
+	"monobook-jumptonavigation": "Skočit na navigaci",
+	"monobook-jumptosearch": "Skočit na vyhledávání",
+	"monobook-more-actions": "Více",
+	"monobook-cactions-label": "Možnosti stránky",
+	"monobook-notifications-link": "Upozornění ($1)",
+	"monobook-notifications-link-none": "Upozornění",
+	"monobook-view-history": "Historie",
+	"monobook-action-undelete": "Obnovit $1 {{PLURAL:$1|verzi|verze|verzí}}"
+}

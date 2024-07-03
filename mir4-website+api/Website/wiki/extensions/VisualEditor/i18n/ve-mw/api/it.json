@@ -1,0 +1,35 @@
+{
+	"@metadata": {
+		"authors": [
+			"Beta16",
+			"Fringio",
+			"Mannivu"
+		]
+	},
+	"apihelp-visualeditor-param-basetimestamp": "Quando salvi, imposta il timestamp della revisione che è stata modificata. È utilizzato per rilevare i conflitti di edizione.",
+	"apihelp-visualeditor-param-cachekey": "Per serializzare o differenziare, utilizza il sirultato della precedente richiesta serializeforcache con questa chiave. Sovrascrive $1html.",
+	"apihelp-visualeditor-param-etag": "ETag da inviare.",
+	"apihelp-visualeditor-param-html": "HTML da inviare a Parsoid per essere convertito in wikitesto.",
+	"apihelp-visualeditor-param-oldid": "Il numero della versione da utilizzare (predefinita l'ultima versione).",
+	"apihelp-visualeditor-param-paction": "Azione da eseguire.",
+	"apihelp-visualeditor-param-page": "La pagina su cui eseguire l'azione.",
+	"apihelp-visualeditor-param-pst": "Salva il testo da trasformare in wikitesto prima di inviarlo al Parsoid (paction=parsefragment).",
+	"apihelp-visualeditor-param-section": "La sezione su cui agire.",
+	"apihelp-visualeditor-param-starttimestamp": "Quando salvi, imposta questo parametro al timestamp di quando la pagina è stata caricata. È utilizzato per rilevare i conflitti di edizione.",
+	"apihelp-visualeditor-param-wikitext": "Wikitesto da inviare al Parsoid per essere convertito in HTML (paction=parsefragment).",
+	"apihelp-visualeditoredit-param-basetimestamp": "Quando salvi, imposta questo parametro al timestamp della revisione che è stata modificata. È utilizzato per rilevare i conflitti di edizione.",
+	"apihelp-visualeditoredit-param-cachekey": "Utilizza il risultato di una richiesta serializeforcache precedente con questa chiave. Sovrascrive $1html.",
+	"apihelp-visualeditoredit-param-captchaid": "Captcha ID (quando stai salvando con una risposta captcha).",
+	"apihelp-visualeditoredit-param-captchaword": "Rispondi al captcha (quando salvi con una risposta captcha).",
+	"apihelp-visualeditoredit-param-etag": "ETag da inviare.",
+	"apihelp-visualeditoredit-param-html": "HTML da inviare al Parsoid per essere convertito in wikitesto.",
+	"apihelp-visualeditoredit-param-minor": "Identificazione come modifica minore.",
+	"apihelp-visualeditoredit-param-needcheck": "Quando salva, imposta questo parametro nel caso la revisione abbia problemi di invio. Questo risulterà nella revisione selezionata.",
+	"apihelp-visualeditoredit-param-oldid": "Il numero di versione da utilizzare. Il valore di default corrisponde all'ultima versione.",
+	"apihelp-visualeditoredit-param-paction": "Azione da eseguire.",
+	"apihelp-visualeditoredit-param-page": "La pagina su cui eseguire l'azione.",
+	"apihelp-visualeditoredit-param-section": "La sezione su cui agire.",
+	"apihelp-visualeditoredit-param-sectiontitle": "Titolo per la nuova sezione.",
+	"apihelp-visualeditoredit-param-starttimestamp": "Quando salvi, imposta questo parametro al timestamp di quando la pagina è stata caricata. È utilizzato per rilevare i conflitti di modifica.",
+	"apihelp-visualeditoredit-param-summary": "Oggetto della modifica."
+}

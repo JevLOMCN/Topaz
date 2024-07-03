@@ -1,0 +1,29 @@
+// MultimediaViewer specific global variables
+// Height of the area of the metadata bar which is visible without scrolling.
+@metadatabar-above-fold-height: 86px;
+
+// adjust for @metadatabar-below-fold-pushup-height wide bottom padding - that area will be overlapped
+// by the revealed part of the below-the-fold content
+@metadatabar-above-fold-inner-height: @metadatabar-above-fold-height - @metadatabar-below-fold-pushup-height;
+
+// Height of the top part of the "below-fold" content which is actually above the fold, as a scrolling affordance
+@metadatabar-below-fold-pushup-height: 30px;
+
+@panel-above-fold-background-color: #fff;
+
+// Height of the progress bar
+@progress-bar-height: 14px;
+
+// Height of dialogs
+@dialog-height: 350px;
+
+// Arrow size for dialogs
+@arrow-size: 20px;
+@arrow-border-size: 2px;
+
+@dialog-warning-color: #ffd36e;
+
+// Some button things that get included all over
+@navbutton-width: 18px;
+@buttons-offset-right: 5px;
+@buttons-offset-each-top: 37px;

@@ -1,0 +1,31 @@
+{
+	"name": "QuestyCaptcha",
+	"author": [
+		"..."
+	],
+	"url": "https://www.mediawiki.org/wiki/Extension:ConfirmEdit#QuestyCaptcha",
+	"descriptionmsg": "questycaptcha-desc",
+	"license-name": "GPL-2.0-or-later",
+	"type": "antispam",
+	"MessagesDirs": {
+		"QuestyCaptcha": [
+			"i18n"
+		]
+	},
+	"AutoloadClasses": {
+		"QuestyCaptcha": "includes/QuestyCaptcha.php",
+		"MediaWiki\\Extension\\ConfirmEdit\\QuestyCaptcha\\QuestyCaptcha": "includes/QuestyCaptcha.php"
+	},
+	"AutoloadNamespaces": {
+		"MediaWiki\\Extension\\ConfirmEdit\\QuestyCaptcha\\": "includes/"
+	},
+	"config": {
+		"CaptchaClass": {
+			"value": "MediaWiki\\Extension\\ConfirmEdit\\QuestyCaptcha\\QuestyCaptcha"
+		},
+		"CaptchaQuestions": {
+			"value": []
+		}
+	},
+	"manifest_version": 2
+}

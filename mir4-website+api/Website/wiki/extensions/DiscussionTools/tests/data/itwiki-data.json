@@ -1,0 +1,83 @@
+{
+	"dateFormat": {
+		"it": "H:i, j M Y"
+	},
+	"digits": {
+		"it": [
+			"0",
+			"1",
+			"2",
+			"3",
+			"4",
+			"5",
+			"6",
+			"7",
+			"8",
+			"9"
+		]
+	},
+	"localTimezone": "Europe/Berlin",
+	"specialContributionsName": "Contributi",
+	"timezones": {
+		"it": {
+			"LMT": "LMT",
+			"CET": "CET",
+			"CEST": "CEST",
+			"CEMT": "CEMT"
+		}
+	},
+	"contLangMessages": {
+		"it": {
+			"sunday": "domenica",
+			"monday": "lunedì",
+			"tuesday": "martedì",
+			"wednesday": "mercoledì",
+			"thursday": "giovedì",
+			"friday": "venerdì",
+			"saturday": "sabato",
+			"sun": "dom",
+			"mon": "lun",
+			"tue": "mar",
+			"wed": "mer",
+			"thu": "gio",
+			"fri": "ven",
+			"sat": "sab",
+			"january": "gennaio",
+			"february": "febbraio",
+			"march": "marzo",
+			"april": "aprile",
+			"may_long": "maggio",
+			"june": "giugno",
+			"july": "luglio",
+			"august": "agosto",
+			"september": "settembre",
+			"october": "ottobre",
+			"november": "novembre",
+			"december": "dicembre",
+			"january-gen": "gennaio",
+			"february-gen": "febbraio",
+			"march-gen": "marzo",
+			"april-gen": "aprile",
+			"may-gen": "maggio",
+			"june-gen": "giugno",
+			"july-gen": "luglio",
+			"august-gen": "agosto",
+			"september-gen": "settembre",
+			"october-gen": "ottobre",
+			"november-gen": "novembre",
+			"december-gen": "dicembre",
+			"jan": "gen",
+			"feb": "feb",
+			"mar": "mar",
+			"apr": "apr",
+			"may": "mag",
+			"jun": "giu",
+			"jul": "lug",
+			"aug": "ago",
+			"sep": "set",
+			"oct": "ott",
+			"nov": "nov",
+			"dec": "dic"
+		}
+	}
+}

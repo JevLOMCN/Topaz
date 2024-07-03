@@ -1,0 +1,160 @@
+@import 'mediawiki.skin.variables.less';
+@import '../mmv.variables.less';
+@import '../mmv.mixins.less';
+
+.mw-mmv-options-dialog {
+	@offset-top: ( @buttons-offset-right + ( 2 * @buttons-offset-each-top ) + 6px );
+	top: @offset-top;
+	height: auto;
+	z-index: 1004;
+	padding: 15px;
+
+	&.mw-mmv-enable-confirmation-shown {
+		background-color: #00af89;
+		box-shadow: 0 2px 0 #00634e;
+
+		.mw-mmv-dialog-down-arrow {
+			background-color: #00af89;
+		}
+	}
+
+	&.mw-mmv-disable-confirmation-shown,
+	&.mw-mmv-disable-confirmation-shown .mw-mmv-dialog-down-arrow,
+	&.mw-mmv-enable-div-shown .mw-mmv-dialog-down-arrow {
+		background-color: #eaecf0;
+	}
+
+	.mw-mmv-dialog-down-arrow {
+		@arrow-size: 20px;
+		top: ( @offset-top + ( @arrow-size / 2 ) );
+	}
+
+	.mw-mmv-enable-confirmation,
+	.mw-mmv-disable-confirmation,
+	.mw-mmv-options-enable,
+	.mw-mmv-options-disable {
+		position: relative;
+		display: none;
+
+		&.mw-mmv-shown {
+			display: block;
+		}
+	}
+
+	.mw-mmv-confirmation-close {
+		display: inline-block;
+		position: absolute;
+		right: 0;
+		top: 0;
+		width: 15px;
+		height: 15px;
+		cursor: pointer;
+		opacity: 0.75;
+		/* @embed */
+		background-image: url( img/x_white.svg );
+		background-size: 15px 15px;
+
+		&:hover {
+			opacity: 1;
+		}
+	}
+
+	.mw-mmv-disable-confirmation {
+		.mw-mmv-options-dialog-header {
+			color: @color-base;
+			padding: 0;
+		}
+
+		.mw-mmv-options-text-header {
+			color: @color-base;
+		}
+	}
+
+	.mw-mmv-enable-confirmation {
+		.mw-mmv-options-dialog-header {
+			color: #fff;
+			padding: 0;
+		}
+
+		.mw-mmv-options-text-header {
+			color: #fff;
+		}
+	}
+
+	.mw-mmv-disable-confirmation,
+	.mw-mmv-enable-confirmation {
+		padding: 0;
+
+		.mw-mmv-options-text {
+			left: 0;
+		}
+	}
+}
+
+.mw-mmv-options-text,
+.mw-mmv-options-icon {
+	.mw-mmv-options-enable & {
+		top: 70px;
+	}
+}
+
+.mw-mmv-options-submit {
+	margin-top: 10px;
+}
+
+.mw-mmv-options-text {
+	left: 68px;
+	right: 0;
+}
+
+.mw-mmv-options-subcontainer .mw-mmv-options-text {
+	margin-left: 68px;
+}
+
+.mw-mmv-options-icon {
+	/* @embed */
+	background-image: url( img/icon_mmv.svg );
+	float: left;
+	width: 58px;
+	height: 52px;
+}
+
+.mw-mmv-options-cancel-button,
+.mw-mmv-options-submit-button {
+	float: right;
+}
+
+.mw-mmv-options-dialog-header {
+	padding-top: 0;
+	font-weight: normal;
+	font-size: 1.25em;
+	color: @color-base;
+
+	.mw-mmv-options-enable & {
+		top: 35px;
+	}
+}
+
+.mw-mmv-options-text-header {
+	margin: 0;
+	font-size: 1em;
+	color: @color-subtle;
+}
+
+.mw-mmv-options-text-body {
+	font-size: 0.9em;
+	color: #72777d;
+}
+
+.mw-mmv-options-enable-alert {
+	background-color: #eaecf0;
+	color: @color-base;
+	position: absolute;
+	left: -15px;
+	right: -15px;
+	top: -15px;
+	border-top-right-radius: @border-radius-base;
+	border-top-left-radius: @border-radius-base;
+	padding: 10px 15px;
+	font-weight: 500;
+}

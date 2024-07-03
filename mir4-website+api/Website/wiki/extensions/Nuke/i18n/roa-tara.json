@@ -1,0 +1,33 @@
+{
+	"@metadata": {
+		"authors": [
+			"Joetaras"
+		]
+	},
+	"nuke": "Scangellazione de masse",
+	"action-nuke": "pàggene da accidere",
+	"nuke-desc": "Dà a l'amministrature l'abbilità de [[Special:Nuke|scangellà massivamende]] le pàggene",
+	"nuke-nopages": "Nisciuna pàgena nove da [[Special:Contributions/$1|{{GENDER:$1|$1}}]] jndr'à l'urteme cangiaminde.",
+	"nuke-list": "Le pàggene seguende onne state ccrejate recendemende da [[Special:Contributions/$1|{{GENDER:$1|$1}}]];\nmitte 'nu commende e cazze sus a 'u buttone pe scangellarle.",
+	"nuke-list-multiple": "Le pàggene seguende onne state ccrejate recendemende;\nmitte 'nu commende e cazze 'u buttone pe scangellarle.",
+	"nuke-defaultreason": "Scangellazzione de masse de le pàggene aggiunde da [[Special:Contributions/$1|{{GENDER:$1|$1}}]]",
+	"nuke-multiplepeople": "Scangellazione massive de le pàggene aggiunde de recende",
+	"nuke-tools": "Stu strumende permette le scangellazziune de masse de le pàggene aggiunde de recende da 'nu certe utende o IP.<br />\nMitte 'u nome de l'utende o l'indirizze IP pe avè 'n'elenghe de le pàggene de scangellà, o lasse vianghe pe tutte l'utinde.",
+	"nuke-submit-user": "Elenghe de le pàggene",
+	"nuke-submit-delete": "Scangelle 'a selezione",
+	"right-nuke": "Scangellazione de masse de le pàggene",
+	"nuke-userorip": "Nome de l'utende, indirizze IP o vianghe:",
+	"nuke-maxpages": "Numere massime de pàggene:",
+	"nuke-editby": "Ccrejate da [[Special:Contributions/$1|{{GENDER:$1|$1}}]]",
+	"nuke-deleted": "Pàgene '''$1''' ha state scangellate.",
+	"nuke-deletion-queued": "'A pàgene '''$1''' ha state accodate pa scangellazzione.",
+	"nuke-not-deleted": "Pàgene [[:$1]] '''non ge pò''' essere scangellate.",
+	"nuke-delete-more": "[[Special:Nuke|Scangille cchiù pàggene]]",
+	"nuke-pattern": "Segnaposte SQL LIKE (e.g. %) pu nome d'a pàgene:",
+	"nuke-nopages-global": "Non ge stonne titole de pàggene ca s'accocchiane cu 'a recerca toje.",
+	"nuke-viewchanges": "vide le cangiaminde",
+	"nuke-namespace": "Limite a namespace:",
+	"nuke-linkoncontribs": "scangellazione de masse",
+	"nuke-linkoncontribs-text": "Pàggene da scangellazzione massive addò {{GENDER:$1|stu utende}} jè 'u sole autore",
+	"nuke-confirm": "Ste pe scangellà {{PLURAL:$1|'na pàgene|$1 pàggene}}. Sì secure ca vue ccu scangille?"
+}

@@ -1,0 +1,5 @@
+<a role="button"
+    {{#array-attributes}}{{key}}="{{value}}"{{/array-attributes}}
+    class="cdx-button cdx-button--size-large cdx-button--fake-button cdx-button--fake-button--enabled{{#data-icon}} cdx-button--icon-only cdx-button--weight-quiet{{/data-icon}}{{#class}} {{.}}{{/class}}">
+    {{#data-icon}}{{>Icon}}{{/data-icon}}<span>{{ text }}</span>
+</a>

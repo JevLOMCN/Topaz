@@ -1,0 +1,27 @@
+{
+	"@metadata": {
+		"authors": [
+			"Cedric31",
+			"Jfblanc"
+		]
+	},
+	"pfunc_desc": "Aumenta lo parser amb de foncions logicas",
+	"pfunc_time_error": "Error: durada invalida",
+	"pfunc_time_too_long": "Error: parser #time apelat tròp de còps",
+	"pfunc_rel2abs_invalid_depth": "Error: nivèl de repertòri invalid dins lo camin : \"$1\" (a ensajat d’accedir a un nivèl al-dessús del repertòri raiç)",
+	"pfunc_expr_stack_exhausted": "Expression erronèa : pila agotada",
+	"pfunc_expr_unexpected_number": "Expression erronèa : nombre pas esperat",
+	"pfunc_expr_preg_match_failure": "Expression erronèa : una expression pas compresa a pas capitat",
+	"pfunc_expr_unrecognised_word": "Error d'expression : lo mot '''$1''' es pas reconegut",
+	"pfunc_expr_unexpected_operator": "Error d'expression : l'operador '''$1''' es pas reconegut",
+	"pfunc_expr_missing_operand": "Error d'expression : l'operand '''$1''' es pas reconegut",
+	"pfunc_expr_unexpected_closing_bracket": "Error d'expression : parentèsi tampanta pas prevista",
+	"pfunc_expr_unrecognised_punctuation": "Error d'expression : caractèr de ponctuacion « $1 » pas reconegut",
+	"pfunc_expr_unclosed_bracket": "Error d’expression : parentèsi pas tampada",
+	"pfunc_expr_division_by_zero": "Division per zèro",
+	"pfunc_expr_invalid_argument": "Valor incorrècta per $1 : < -1 o > 1",
+	"pfunc_expr_invalid_argument_ln": "Valor incorrècta per ln : ≤ 0",
+	"pfunc_expr_unknown_error": "Error d'expression : error desconeguda ($1)",
+	"pfunc_expr_not_a_number": "Dins $1 : lo resultat es pas un nombre",
+	"pfunc_string_too_long": "Error : La cadena depassa lo limit maximal de $1 caractèr{{PLURAL:$1||s}}"
+}

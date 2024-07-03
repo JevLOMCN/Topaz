@@ -1,0 +1,43 @@
+@import 'mediawiki.skin.variables.less';
+@import '../../minerva.less/minerva.variables.less';
+// stylelint-disable selector-max-id
+
+// The top level user account button in the upper right near the notifications button.
+.minerva-user-navigation {
+	display: flex;
+	min-width: auto;
+	// Support Firefox: Needs `min-height` to vertically align icons in menu. See T233517.
+	min-height: @height-site-header;
+	height: 100%;
+	width: auto;
+	// Center vertically.
+	align-items: center;
+	// Layout from right / end.
+	justify-content: flex-end;
+	// Show the list relative the button.
+	position: relative;
+	// align the last icon (i.e. notification or use menu) with the container edge.
+	& > *:last-child {
+		.cdx-mixin-button-layout-flush( 'end', true, 'large' );
+	}
+
+	.minerva-notifications {
+		ul {
+			list-style: none;
+			display: flex;
+			align-items: center;
+		}
+
+		/* Will be leveraged by future Echo version. */
+		li {
+			position: relative;
+		}
+
+		// Hide notices for Minerva mobile mode.
+		#pt-notifications-notice {
+			.mw-mf & {
+				display: none;
+			}
+		}
+	}
+}

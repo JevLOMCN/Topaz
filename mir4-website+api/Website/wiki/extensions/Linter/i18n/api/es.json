@@ -1,0 +1,21 @@
+{
+	"@metadata": {
+		"authors": [
+			"Dgstranz",
+			"Fitoschido",
+			"Macofe",
+			"MarcoAurelio"
+		]
+	},
+	"apihelp-query+linterrors-summary": "Obtener una lista de errores de sintaxis",
+	"apihelp-query+linterrors-param-categories": "Categorías de errores de sintaxis",
+	"apihelp-query+linterrors-param-invisible-categories": "Categorías invisibles de errores de sintaxis",
+	"apihelp-query+linterrors-param-limit": "Cantidad de resultados que consultar",
+	"apihelp-query+linterrors-param-from": "Identificador de sintaxis a partir del cual comenzar una consulta",
+	"apihelp-query+linterrors-param-namespace": "Incluir solo errores de sintaxis de los espacios de nombres especificados",
+	"apihelp-query+linterrors-param-pageid": "Incluir solo errores de sintaxis de los identificadores de páginas especificados",
+	"apihelp-query+linterrors-param-title": "Incluir solo errores de sintaxis para el título de página especificado",
+	"apihelp-query+linterrors-example-1": "Obtener todos los errores de sintaxis de la categoría «obsolete-tag»",
+	"apihelp-query+linterstats-summary": "Obtener el número de errores de sintaxis en cada categoría",
+	"apihelp-query+linterstats-example-1": "Obtener el número de errores de sintaxis en cada categoría"
+}

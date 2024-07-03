@@ -1,0 +1,17 @@
+<div id="mw-mf-page-left" class="menu view-border-box">
+	{{#groups}}
+	<ul id="{{id}}" class="toggle-list__list">
+		{{! "." means "current context", which allows us to iterate over Plain Old PHP Arrays™. }}
+		{{#entries}}
+			{{#.}}
+			{{> menuGroup}}
+			{{/.}}
+		{{/entries}}
+	</ul>
+	{{/groups}}
+	<ul class="hlist">
+		{{#sitelinks}}
+			{{> menuGroup}}
+		{{/sitelinks}}
+	</ul>
+</div>

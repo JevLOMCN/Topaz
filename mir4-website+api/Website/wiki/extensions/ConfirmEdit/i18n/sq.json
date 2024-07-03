@@ -1,0 +1,26 @@
+{
+	"@metadata": {
+		"authors": [
+			"BrokenArrow",
+			"Dori",
+			"Liridon",
+			"Mikullovci11",
+			"Olsi"
+		]
+	},
+	"captcha-edit": "Për të redaktuar këtë faqe ju lutem zgjidhni shumën e mëposhtme dhe vendosni përgjigjen në kuti ([[Special:Captcha/help|më shumë informacion]]):",
+	"captcha-desc": "Siguron teknika CAPTCHA për të mbrojtur kundër spam",
+	"captcha-addurl": "Redaktimi juaj ka lidhje URL të reja dhe si mbrojtje kundër abuzimeve automatike duhet të shtypni çfarë shfaqet tek figura e mëposhtme:<br /> ([[Special:Captcha|Çfarë është kjo?]])",
+	"captcha-badlogin": "Për tu mbrojtur nga metoda automatike të gjetjes së fjalëkalimeve ju kërkojmë të gjeni zgjidhni shumën e mëposhtme dhe të vendosni përgjigjen në kuti ([[Special:Captcha/help|më shumë informacion]]):",
+	"captcha-createaccount": "Për mbrojtje kundër regjistrimeve automatike duhet të zgjidhni ekuacionin e mëposhtëm para se të hapni llogarinë:<br />([[Special:Captcha|Çfarë është kjo?]])",
+	"captcha-createaccount-fail": "Mesazhi që duhej shtypur mungon ose nuk është shtypur siç duhet.",
+	"captcha-create": "Për të krijuar këtë faqe ju lutem zgjidhni shumën e mëposhtme dhe vendosni përgjigjen në kuti ([[Special:Captcha/help|më shumë informacion]]):",
+	"captcha-sendemail": "Për të ndihmuar në mbrojtjen kundër spamit të automatizuar, ju lutemi zgjidhni këtë më poshtë dhe shkruani përgjigjen në kuti\n([[Special:Captcha/help|më shumë informacion]]):",
+	"captcha-sendemail-fail": "Mungon kodi i konfirmimit ose është i pasaktë.",
+	"captcha-disabledinapi": "Ky veprim kërkon një captcha, kështu që nuk mund të kryhet nëpërmjet API.",
+	"captchahelp-title": "Ndihmë rreth sistemit \"Captcha\"",
+	"captchahelp-cookies-needed": "Duhet të pranoni \"biskota\" nga shfletuesi juaj për këtë veprim.",
+	"captchahelp-text": "Faqet e rrjetit që pranojnë shkrime nga publiku, siç është edhe kjo wiki, shpesh abuzohen nga njerëz që duan të përfitojnë duke reklamuar ose promovuar lidhjet e tyre. Këto lloj abuzimesh mund të hiqen kollaj por janë një bezdi dhe shpenzim kohe i papranueshëm.\n\nNdonjëherë, sidomos kur po hapni një llogari të re apo kur po shtoni lidhje të reja nëpërmjet redaktimit tuaj, sistemi mund t'ju shfaqi një figurë që përmban fjalë me gërma ose numra të shtrembruara ose me ngjyra të ndryshme të cilat ju duhet të shtypni para se të mund të kryeni veprimin në fjalë. Kjo bëhet pasi është shumë e vështirë për një robot ose mjet automatik të kryejë të njëjtën punë. Kështu mund të dallohet nëse jeni me të vërtetë një njeri apo një robot. Ky lloj sistemi s'mund të ndalojë tërë abuzimet por ndalon një pjesë të mirë të tyre, sidomos ato që janë automatike dhe të shumta në numër.\n\nFatkeqësisht ky lloj sistemi mund të bezdisi përdoruesit me pamje të kufizuar ose ata që përdorin mjete teksti ose shfletues leximi me zë. Tani për tani nuk kemi mundësi për të ofruar një sistem me zë në vend të figurave. Ju lutem lidhuni me [[Special:ListAdmins|administruesit]] nëse ky sistem po ju ndalon të jepni kontribute të vlefshme.\n\nShtypni butonin \"prapa\" (\"back\") të shfletuesit tuaj për tu kthyer tek faqja e mëparshme.",
+	"captcha-addurl-whitelist": " #<!-- lëreni këtë rresht siç është --> <pre>\n# Sintaksa është si më poshtë:\n#  * Çdo gjë nga simboli \"#\" deri në fund të rreshtit është koment\n#  * Çdo rresht jo-bosh është një pjesë regex që duhet t'i përputhet emrat të shërbyesve brenda një URL-i\n  #</pre> <!-- lëreni këtë rresht siç është -->",
+	"right-skipcaptcha": "Kryen veprime CAPTCHA-triggering pa pasur nevojë të shkojë nëpërmjet CAPTCHA"
+}

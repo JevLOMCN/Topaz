@@ -1,0 +1,23 @@
+{
+	"@metadata": {
+		"authors": [
+			"Derugon",
+			"Grondin",
+			"Urhixidur",
+			"Verdy p"
+		]
+	},
+	"imagemap_desc": "Permet le rendu d’images définies avec des zones actives et cliquables du côté client, au moyen de la balise <code>&lt;imagemap&gt;</code>.",
+	"imagemap_no_image": "Erreur : vous devez spécifier une image dans la première ligne.",
+	"imagemap_invalid_image": "Erreur : l’image n’est pas valide ou n’existe pas.",
+	"imagemap_bad_image": "Erreur : l’image n‘est pas autorisée sur cette page.",
+	"imagemap_no_link": "Erreur : aucun lien valide n’a été trouvé à la fin de la ligne $1.",
+	"imagemap_invalid_title": "Erreur : titre non valide dans le lien à la ligne $1.",
+	"imagemap_missing_coord": "Erreur : pas assez de coordonnées pour la forme à la ligne $1.",
+	"imagemap_unrecognised_shape": "Erreur : forme non reconnue à la ligne $1, chaque ligne doit débuter par un des mots-clés suivants : <code>default</code>, <code>rect</code>, <code>circle</code> ou <code>poly</code>.",
+	"imagemap_invalid_coord": "Erreur : coordonnée invalide à la ligne $1, ce doit être un nombre.",
+	"imagemap_invalid_desc": "Erreur : paramètre « desc » invalide, les paramètres possibles sont : $1.",
+	"imagemap_description": "À propos de cette image",
+	"imagemap_desc_types": "haut-droite, bas-droite, bas-gauche, haut-gauche, aucun",
+	"imagemap_poly_odd": "Erreur : polygone trouvé avec un nombre impair de coordonnées à la ligne $1."
+}

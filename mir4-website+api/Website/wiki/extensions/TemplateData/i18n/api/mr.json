@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Sureshkhole"
+		]
+	},
+	"apihelp-templatedata-summary": "टेंप्लेटडाटा विस्तारकाद्वारा साठवलेला डाटा घ्या",
+	"apihelp-templatedata-example-1": "[[Template:Stub]] व [[Template:Example]] साठीचा डाटा दाखवा. ज्या टेंप्लेटचा टेंप्लेटडाटा अस्तित्वात नाही किंवा टेंप्लेटच अस्तित्वात नाहीत त्यांच्या निकालासह सर्व निकाल दाखवा.",
+	"apihelp-templatedata-param-lang": "या भाषेतील स्थानिक मूल्ये दाखवा.अविचलरित्या, सर्व उपलब्ध भाषांतरे दाखवली जातात.",
+	"apierror-templatedata-corrupt": "पान $1 मध्ये टेंप्लेटडाटा अवैध आहे $2"
+}

@@ -1,0 +1,21 @@
+{
+	"@metadata": {
+		"authors": [
+			"01miki10",
+			"Nike"
+		]
+	},
+	"codeeditor-desc": "Lisää syntaksinkorostuksen JavaScript ja CSS-sivuille käyttäen [https://ace.c9.io/ Ace-muokkainta]",
+	"codeeditor-next-annotation": "Siirry seuraavaan huomautukseen",
+	"codeeditor-toolbar-toggle": "Koodimuokkain",
+	"codeeditor-save-with-errors": "Dokumentti sisältää virheitä. Haluatko varmasti tallentaa?",
+	"codeeditor-invisibleChars-toggle": "Näytä/piilota näkymättömät merkit",
+	"codeeditor-lineWrapping-toggle": "Automaattinen rivitys",
+	"codeeditor-searchReplace-toggle": "Näytä/piilota haku- ja korvausikkuna",
+	"codeeditor-gotoline": "Siirry riville numero...",
+	"codeeditor-gotoline-placeholder": "rivi[:sarake]",
+	"codeeditor-gotoline-prompt": "Syötä rivin numero",
+	"codeeditor-indent": "Sisennä",
+	"codeeditor-outdent": "Poista sisennys",
+	"codeeditor-error-message": "CodeEditor tarvitsee WikiEditorin lataamisen."
+}

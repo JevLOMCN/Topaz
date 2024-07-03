@@ -1,0 +1,14 @@
+<div id="p-lang">
+    <h4>{{msg-minerva-page-actions-language-switcher}}</h4>
+    <section>
+        {{#data-portlets.data-variants}}
+        <ul id="{{id}}" class="minerva-languages">{{{html-items}}}</ul>
+        {{/data-portlets.data-variants}}
+        {{#data-portlets.data-languages}}
+        <ul class="minerva-languages">{{{html-items}}}</ul>
+        {{/data-portlets.data-languages}}
+        {{^has-minerva-languages}}
+        <p>{{msg-mobile-frontend-languages-not-available}}</p>
+        {{/has-minerva-languages}}
+    </section>
+</div>

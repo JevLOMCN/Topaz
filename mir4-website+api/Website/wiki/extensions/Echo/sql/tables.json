@@ -1,0 +1,338 @@
+[
+	{
+		"name": "echo_event",
+		"comment": "An event is a thing that happened that caused one or more users to be notified. For every notified user, there is a corresponding row in the echo_notification table.",
+		"columns": [
+			{
+				"name": "event_id",
+				"comment": "Unique auto-increment ID",
+				"type": "integer",
+				"options": { "autoincrement": true, "notnull": true, "unsigned": true }
+			},
+			{
+				"name": "event_type",
+				"comment": "Event type; one of the keys in $wgEchoNotifications",
+				"type": "binary",
+				"options": { "notnull": true, "length": 64 }
+			},
+			{
+				"name": "event_variant",
+				"comment": "Unused, always null",
+				"type": "binary",
+				"options": { "notnull": false, "length": 64 }
+			},
+			{
+				"name": "event_agent_id",
+				"comment": "The agent (user who triggered the event), if any. If the agent is a logged-in user, event_agent_id contains their user ID and event_agent_ip is null. If the agent is an anonymous user, event_agent_ip contains their IP address and event_agent_id is null. If the event doesn't have an agent, both fields are null.",
+				"type": "integer",
+				"options": { "notnull": false, "unsigned": true }
+			},
+			{
+				"name": "event_agent_ip",
+				"comment": "The agent (user who triggered the event), if any. If the agent is a logged-in user, event_agent_id contains their user ID and event_agent_ip is null. If the agent is an anonymous user, event_agent_ip contains their IP address and event_agent_id is null. If the event doesn't have an agent, both fields are null.",
+				"type": "binary",
+				"options": { "notnull": false, "length": 39 }
+			},
+			{
+				"name": "event_extra",
+				"comment": "JSON blob with additional information about the event",
+				"type": "blob",
+				"options": { "notnull": false, "length": 65530 }
+			},
+			{
+				"name": "event_page_id",
+				"comment": "Page ID of the page the event happened on, if any (key to page_id)",
+				"type": "integer",
+				"options": { "notnull": false, "unsigned": true }
+			},
+			{
+				"name": "event_deleted",
+				"comment": "Whether the event pertains to a deleted page and should be hidden. Events are marked as deleted when the related page is deleted, and unmarked as deleted when the related page is undeleted",
+				"type": "mwtinyint",
+				"options": { "notnull": true, "unsigned": true, "default": 0 }
+			}
+		],
+		"indexes": [
+			{
+				"name": "echo_event_type",
+				"comment": "Index to get only 'alert' types or only 'message' types",
+				"columns": [ "event_type" ],
+				"unique": false
+			},
+			{
+				"name": "echo_event_page_id",
+				"comment": "Index to find events for a specific page",
+				"columns": [ "event_page_id" ],
+				"unique": false
+			}
+		],
+		"pk": [ "event_id" ]
+	},
+	{
+		"name": "echo_notification",
+		"comment": "A notification is a user being notified about a certain event. Multiple users can be notified about the same event.",
+		"columns": [
+			{
+				"name": "notification_event",
+				"comment": "Key to event_id",
+				"type": "integer",
+				"options": { "notnull": true, "unsigned": true }
+			},
+			{
+				"name": "notification_user",
+				"comment": "Key to user_id",
+				"type": "integer",
+				"options": { "notnull": true, "unsigned": true }
+			},
+			{
+				"name": "notification_timestamp",
+				"comment": "Timestamp when the notification was created",
+				"type": "mwtimestamp",
+				"options": { "notnull": true }
+			},
+			{
+				"name": "notification_read_timestamp",
+				"comment": "Timestamp when the user read the notification, or null if unread",
+				"type": "mwtimestamp",
+				"options": { "notnull": false }
+			},
+			{
+				"name": "notification_bundle_hash",
+				"comment": "Hash for bundling together similar notifications. Notifications that can be bundled together will have the same hash",
+				"type": "binary",
+				"options": { "notnull": true, "length": 32 }
+			}
+		],
+		"indexes": [
+			{
+				"name": "echo_user_timestamp",
+				"comment": "Index to get a user's notifications in chronological order",
+				"columns": [ "notification_user", "notification_timestamp" ],
+				"unique": false
+			},
+			{
+				"name": "echo_notification_event",
+				"comment": "Used to get all notifications for a given event",
+				"columns": [ "notification_event" ],
+				"unique": false
+			},
+			{
+				"name": "echo_notification_user_read_timestamp",
+				"comment": "Used to get read/unread notifications for a user",
+				"columns": [ "notification_user", "notification_read_timestamp" ],
+				"unique": false
+			}
+		],
+		"pk": [ "notification_user", "notification_event" ]
+	},
+	{
+		"name": "echo_email_batch",
+		"comment": "Table gathering events for batch emails. If a user asks to receive batch emails, events are gathered in this table until it's time to send an email. Once a user has been emailed about an event, it's deleted from this table.",
+		"columns": [
+			{
+				"name": "eeb_id",
+				"comment": "Unique auto-increment ID",
+				"type": "integer",
+				"options": { "autoincrement": true, "notnull": true, "unsigned": true }
+			},
+			{
+				"name": "eeb_user_id",
+				"comment": "Key to user_id",
+				"type": "integer",
+				"options": { "notnull": true, "unsigned": true }
+			},
+			{
+				"name": "eeb_event_priority",
+				"comment": "Priority of the event as defined in $wgEchoNotifications; events with lower numbers are listed first",
+				"type": "mwtinyint",
+				"options": { "notnull": true, "unsigned": true, "default": 10 }
+			},
+			{
+				"name": "eeb_event_id",
+				"comment": "Key to event_id",
+				"type": "integer",
+				"options": { "notnull": true, "unsigned": true }
+			},
+			{
+				"name": "eeb_event_hash",
+				"comment": "Same value as notification_bundle_hash, or a unique value if notification_bundle_hash is empty",
+				"type": "binary",
+				"options": { "notnull": true, "length": 32 }
+			}
+		],
+		"indexes": [
+			{
+				"name": "echo_email_batch_user_event",
+				"comment": "Used to delete events once they have been processed, and to identify users with events to process",
+				"columns": [ "eeb_user_id", "eeb_event_id" ],
+				"unique": true
+			},
+			{
+				"name": "echo_email_batch_user_hash_priority",
+				"comment": "Used to get a list of events for a user, grouping events with the same hash and ordering by priority",
+				"columns": [ "eeb_user_id", "eeb_event_hash", "eeb_event_priority" ],
+				"unique": false
+			}
+		],
+		"pk": [ "eeb_id" ]
+	},
+	{
+		"name": "echo_target_page",
+		"comment": "A \"target page\" of an event is a page that, when the user visits it, causes the event to be marked as read. Typically this is the same as the event's event_page_id, but some events have multiple target pages, and many events don't set a target page at all. An event's target pages are derived from the 'target-page' key in event_extra. This table is also used for moderating events when the related page is deleted, but this should use event_page_id instead (T217452).",
+		"columns": [
+			{
+				"name": "etp_id",
+				"comment": "Unique auto-increment ID",
+				"type": "integer",
+				"options": { "autoincrement": true, "notnull": true, "unsigned": true }
+			},
+			{
+				"name": "etp_page",
+				"comment": "Key to page_id",
+				"type": "integer",
+				"options": { "notnull": true, "unsigned": true, "default": 0 }
+			},
+			{
+				"name": "etp_event",
+				"comment": "Key to event_id",
+				"type": "integer",
+				"options": { "notnull": true, "unsigned": true, "default": 0 }
+			}
+		],
+		"indexes": [
+			{
+				"name": "echo_target_page_event",
+				"comment": "Not currently used",
+				"columns": [ "etp_event" ],
+				"unique": false
+			},
+			{
+				"name": "echo_target_page_page_event",
+				"comment": "Used to get the events associated with a given page",
+				"columns": [ "etp_page", "etp_event" ],
+				"unique": false
+			}
+		],
+		"pk": [ "etp_id" ]
+	},
+	{
+		"name": "echo_push_provider",
+		"comment": "Table for normalizing push providers; intended for use with the NameTableStore construct.",
+		"columns": [
+			{
+				"name": "epp_id",
+				"type": "mwtinyint",
+				"options": { "autoincrement": true, "notnull": true, "unsigned": true }
+			},
+			{
+				"name": "epp_name",
+				"comment": "push provider name; expected values are 'fcm' and 'apns'",
+				"type": "blob",
+				"options": { "notnull": true, "length": 255 }
+			}
+		],
+		"indexes": [],
+		"pk": [ "epp_id" ]
+	},
+	{
+		"name": "echo_push_subscription",
+		"comment": "Stores push subscriptions associated with wiki users.",
+		"columns": [
+			{
+				"name": "eps_id",
+				"type": "integer",
+				"options": { "autoincrement": true, "notnull": true, "unsigned": true }
+			},
+			{
+				"name": "eps_user",
+				"comment": "central user ID",
+				"type": "integer",
+				"options": { "notnull": true, "unsigned": true }
+			},
+			{
+				"name": "eps_token",
+				"comment": "platform-provided push subscription token",
+				"type": "blob",
+				"options": { "notnull": true, "length": 65530 }
+			},
+			{
+				"name": "eps_token_sha256",
+				"comment": "SHA256 digest of the push subscription token (to be used as a uniqueness constraint, since the tokens themselves may be large)",
+				"type": "string",
+				"options": { "notnull": true, "length": 64, "fixed": true }
+			},
+			{
+				"name": "eps_provider",
+				"comment": "push provider ID, expected to reference values 'fcm' or 'apns'",
+				"type": "mwtinyint",
+				"options": { "notnull": true, "unsigned": true }
+			},
+			{
+				"name": "eps_updated",
+				"comment": "last updated timestamp",
+				"type": "datetimetz",
+				"options": { "notnull": true, "PlatformOptions": { "version": true } }
+			},
+			{
+				"name": "eps_data",
+				"comment": "push subscription metadata (e.g APNS notification topic)",
+				"type": "blob",
+				"options": { "notnull": false, "length": 65530 }
+			},
+			{
+				"name": "eps_topic",
+				"comment": "APNS topic ID, references a row ID (ept_id) from echo_push_topic",
+				"type": "mwtinyint",
+				"options": { "notnull": false, "unsigned": true }
+			}
+		],
+		"indexes": [
+			{
+				"name": "eps_token_sha256",
+				"columns": [ "eps_token_sha256" ],
+				"unique": true
+			},
+			{
+				"name": "eps_provider",
+				"columns": [ "eps_provider" ],
+				"unique": false
+			},
+			{
+				"name": "eps_topic",
+				"columns": [ "eps_topic" ],
+				"unique": false
+			},
+			{
+				"name": "eps_user",
+				"columns": [ "eps_user" ],
+				"unique": false
+			},
+			{
+				"name": "eps_token",
+				"columns": [ "eps_token" ],
+				"options": { "lengths": [ 10 ] },
+				"unique": false
+			}
+		],
+		"pk": [ "eps_id" ]
+	},
+	{
+		"name": "echo_push_topic",
+		"comment": "Table for normalizing APNS push message topics, for use with the NameTableStore construct.",
+		"columns": [
+			{
+				"name": "ept_id",
+				"type": "mwtinyint",
+				"options": { "autoincrement": true, "notnull": true, "unsigned": true }
+			},
+			{
+				"name": "ept_text",
+				"comment": "full topic text",
+				"type": "blob",
+				"options": { "notnull": true, "length": 255 }
+			}
+		],
+		"indexes": [],
+		"pk": [ "ept_id" ]
+	}
+]

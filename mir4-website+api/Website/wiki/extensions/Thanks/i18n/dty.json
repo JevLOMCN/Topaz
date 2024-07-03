@@ -1,0 +1,18 @@
+{
+	"@metadata": {
+		"authors": [
+			"रमेश सिंह बोहरा",
+			"राम प्रसाद जोशी"
+		]
+	},
+	"thanks-thank": "{{GENDER:$1|{{GENDER:$2|धन्यवाद दिन्या}}}}",
+	"thanks-button-thank": "{{GENDER:$1|{{GENDER:$2|धन्यवाद}}}}",
+	"thanks-button-thanked": "{{GENDER:$1|{{GENDER:$2|धन्यवाद दिया}}}}",
+	"thanks-thank-tooltip": "यै {{GENDER:$2|प्रयोगकर्ता}}लाई धन्यवाद अधिसूचना {{GENDER:$1|पठाउन्या}}।",
+	"thanks-confirmation2": "यै सम्पादनका निउती {{GENDER:$1|पठाओ}}",
+	"thanks-thanked-notice": "तमलाई {{GENDER:$2|उइले|उनले|उनिहरूले}} गर्याको सम्पादन मन पर्याको छ भन्ने सूचना $1लाई पठायाको छ ।",
+	"thanks": "धन्यवाद पठाओ",
+	"thanks-submit": "धन्यवाद पठाओ",
+	"flow-thanks-confirmation-special": "क्या तमी यै प्रतिक्रियाका निउती धन्यवाद पठाउन चाहन्छौ ?",
+	"flow-thanks-thanked-notice": "तमलाई {{GENDER:$2|उइले|उनले|उनिहरूले}} दियाको प्रतिक्रिया मन पर्याको छ भन्ने सूचना $1लाई पठायाको छ ।"
+}

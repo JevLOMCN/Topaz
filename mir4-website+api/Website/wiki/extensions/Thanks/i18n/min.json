@@ -1,0 +1,29 @@
+{
+	"@metadata": {
+		"authors": [
+			"Ardzun",
+			"Iwan Novirion"
+		]
+	},
+	"thanks-desc": "Manambah pautan untuak batarimo kasih ka pangguno ateh suntiangan, komentar, dll.",
+	"thanks-thank": "{{GENDER:$1|{{GENDER:$2|mokasih}}}}",
+	"thanks-thanked": "{{GENDER:$1|{{GENDER:$2|ucapan lah takirim}}}}",
+	"thanks-button-thank": "{{GENDER:$1|{{GENDER:$2|Tarimo kasih}}}}",
+	"thanks-button-thanked": "{{GENDER:$1|{{GENDER:$2|Tarimo kasih}}}}",
+	"thanks-button-action-queued": "{{GENDER:$1|{{GENDER:$2|Tarimo kasih}}}}",
+	"thanks-button-action-cancel": "Batal",
+	"thanks-button-action-completed": "{{GENDER:$1|{{GENDER:$2|ucapan takirim}}}}",
+	"thanks-error-undefined": "Kiriman ucapan gagal (kode galat: $1). Cubo lai.",
+	"thanks-error-invalid-log-id": "Entri log indak basobok",
+	"thanks-error-invalid-log-type": "Log jinih '$1' indak ado dalam daftar putiah jinis log nan diizinkan.",
+	"thanks-error-log-deleted": "Entri log nan dimintak alah dihapuih dan indak dapek diagiah ucapan.",
+	"thanks-error-invalidrevision": "ID revisi indak sah.",
+	"thanks-thank-tooltip": "{{GENDER:$1|Kirim}} pambaritauan tarimo kasih pado {{GENDER:$2|pangguno}} ko",
+	"thanks-thank-tooltip-yes": "{{GENDER:$1|Kirim}} pambaritauan tarimo kasih",
+	"thanks-confirmation2": "{{GENDER:$1|Kiriman}} ucapan tarimo kasih?",
+	"thanks": "Kirim tarimo kasih",
+	"thanks-submit": "Kirim tarimo kasih",
+	"echo-category-title-edit-thank": "Tarimo kasih",
+	"thanks-confirmation-special-rev": "Apo Sanak ka mangirim tarimo kasih sacaro publik untuak suntiangan ko?",
+	"notification-link-text-view-post": "Caliak komentar"
+}

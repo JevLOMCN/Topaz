@@ -1,0 +1,34 @@
+{
+	"@metadata": {
+		"authors": [
+			"Amire80",
+			"Arystanbek"
+		]
+	},
+	"apihelp-echomarkread-param-list": "Ескертпе сәйкендіргіштерін оқылды деп белгілеу.",
+	"apihelp-echomarkread-param-unreadlist": "Ескертпе ID тізімін оқылды деп белгілеу.",
+	"apihelp-echomarkread-param-all": "Орнатсаңыз, қатысушының барлық хабарландырулары оқылған деп белгіленеді.",
+	"apihelp-echomarkread-param-sections": "Бөлімдер тізімін оқылды деп белгілеу.",
+	"apihelp-echomarkread-example-1": "8 ескертпені оқылды деп белгілеу",
+	"apihelp-echomarkread-example-2": "Барлық ескертпелерді оқылды деп белгілеу",
+	"apihelp-echomarkread-example-3": "1 ескертпені оқылмаған деп белгілеу",
+	"apihelp-echomarkseen-example-1": "Ескертпелердің барлық түрін көрдім деп белгілеу",
+	"apihelp-echomarkseen-param-type": "Қаралды деп белгіленетін хабарландыру түрі: 'ескертпе', 'хабарлама' немесе 'барлығы'.",
+	"apihelp-query+notifications-param-prop": "Сұраныс егжей-тегжейлері.",
+	"apihelp-query+notifications-param-sections": "Сұраныс үшін ескертпе бөлімдері ('alert' және 'message').",
+	"apihelp-query+notifications-param-groupbysection": "Бөлім бойынша нәтижені топтауы тиіс. Егер орнатса, әрбір бөлім бөлектей шығарылады.",
+	"apihelp-query+notifications-param-filter": "Оралған ескертпелерді сүзгілеу.",
+	"apihelp-query+notifications-param-format": "Егер көрсетсе, ескертпелер осылайша форматталады.",
+	"apihelp-query+notifications-paramvalue-format-model": "Өңделмеген ескертпе дерегі",
+	"apihelp-query+notifications-paramvalue-format-special": "Special:Notifications беті үшін форматталады (және тек бұл ғана!) Бұл HTML мәтінге жауап бермеңіз, өйткені оны кез келген уақытта өзгерте аласыз.",
+	"apihelp-query+notifications-paramvalue-format-flyout": "<span class=\"apihelp-deprecated\">Ескірген</span>. Қайнар дерегі үшін <kbd>$1format=model</kbd> қолданыңыз",
+	"apihelp-query+notifications-paramvalue-format-html": "<span class=\"apihelp-deprecated\">Ескірген</span>. Қайнар дерегі үшін <kbd>$1format=model</kbd> қолданыңыз",
+	"apihelp-query+notifications-param-limit": "Қайтару үшін ескертпелердің ең көп саны.",
+	"apihelp-query+notifications-param-alertcontinue": "Көбірек ескерту нәтижелері бар болған кезде, жалғастыру үшін осыны пайдаланыңыз.",
+	"apihelp-query+notifications-param-unreadfirst": "Бірінші оқылмаған дабыл ескертпелерін көрсету (тек егер groupbysection көрсетілмеген болса қолданылады).",
+	"apihelp-query+notifications-param-alertunreadfirst": "Бірінші оқылмаған хабарлама ескертпелерін көрсету (тек егер groupbysection көрсетілген болса қолданылады).",
+	"apihelp-query+notifications-param-messagecontinue": "Көбірек хабарлама нәтижелері бар болған кезде, жалғастыру үшін осыны пайдаланыңыз.",
+	"apihelp-query+notifications-param-messageunreadfirst": "Бірінші оқылмаған дабыл ескертпелерін көрсету (тек егер groupbysection көрсетілген болса қолданылады).",
+	"apihelp-query+notifications-example-1": "Ескертпелер тізімі",
+	"apihelp-query+notifications-example-2": "Санымен көрсетілген, бөлімі бойынша топталған ескертпелер сан"
+}

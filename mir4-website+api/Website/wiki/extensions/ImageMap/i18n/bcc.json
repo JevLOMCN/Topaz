@@ -1,0 +1,17 @@
+{
+	"@metadata": {
+		"authors": [
+			"Mostafadaneshvar"
+		]
+	},
+	"imagemap_desc": "اجازت دن استفاده چه برچسپ<code>&lt;imagemap&gt;</code>نقشه یان تصاویر کلیکی کاربر-جهت",
+	"imagemap_no_image": "&lt;imagemap&gt;: بایدن یک تصویری ته خط اول مشخص کنیت",
+	"imagemap_invalid_image": "&lt;imagemap&gt;: عکس نامعتبر یا موجود نهنت",
+	"imagemap_no_link": "&lt;imagemap&gt;: هچ معتبرین لینکی ته آهر خط$1پیداگ نه بوت",
+	"imagemap_invalid_title": "&lt;imagemap&gt;: نامعتبراین عنوان ته لینک ته خط $1",
+	"imagemap_missing_coord": "&lt;imagemap&gt;: کافی ان هماهنگی په شکل نیست ته خط $1",
+	"imagemap_unrecognised_shape": "&lt;imagemap&gt;: ناشناسین شکل ته خط $1، هر خط بایدن گون یکی چه شان شروه بیت:پیشفرض،مربع, گردیم یا باز",
+	"imagemap_invalid_coord": "&lt;imagemap&gt;: نامعتبراین هماهنگی ته خطا $1, بایدن یک شماره بیت",
+	"imagemap_invalid_desc": "&lt;imagemap&gt;: نامعتبراین مشخصه ای توضیح، بایدن یکی چه شان بیت: <code>$1</code>",
+	"imagemap_description": "ای عکسء باره"
+}

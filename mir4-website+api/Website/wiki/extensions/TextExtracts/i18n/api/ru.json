@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Okras"
+		]
+	},
+	"apihelp-query+extracts-param-chars": "Сколько символов возвращать. Возвращаемый в действительности текст может быть немного длиннее.",
+	"apihelp-query+extracts-param-sentences": "Сколько предложений возвращать.",
+	"apihelp-query+extracts-param-intro": "Возвращаться только содержимое, идущее до первого раздела.",
+	"apihelp-query+extracts-example-1": "Получить 175-символьный фрагмент"
+}

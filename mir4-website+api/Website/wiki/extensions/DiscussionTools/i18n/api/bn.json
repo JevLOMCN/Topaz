@@ -1,0 +1,16 @@
+{
+	"@metadata": {
+		"authors": [
+			"ZI Jony",
+			"আফতাবুজ্জামান"
+		]
+	},
+	"apierror-discussiontools-commentid-notfound": "'$1' আইডিযুক্ত মন্তব্যটি পাওয়া যায়নি।",
+	"apierror-discussiontools-commentname-ambiguous": "'$1' নামে একাধিক মন্তব্য পাওয়া গিয়েছে, <var>commentid</var> আবশ্যক।",
+	"apierror-discussiontools-commentname-notfound": "'$1' নামযুক্ত মন্তব্যটি পাওয়া যায়নি।",
+	"apierror-discussiontools-formtoken-used": "মন্তব্য ইতোমধ্যে পোস্ট করা হয়েছে। মন্তব্যটি দেখতে পাতাটি পুনরায় লোড করুন।",
+	"apierror-discussiontools-subscription-failed-add": "এই আলোচনা অনুসরণ যায়নি।",
+	"apierror-discussiontools-subscription-failed-remove": "এই আলোচনা অ-অনুসরণ করা যায়নি।",
+	"apihelp-discussiontoolsedit-param-wikitext": "উইকিপাঠ্য হিসেবে পোস্ট করার বিষয়বস্তু। <var>html</var> এর সাথে একত্রে ব্যবহার করা যাবে না।",
+	"apihelp-discussiontoolsfindcomment-param-idorname": "মন্তব্যের আইডি বা নাম"
+}

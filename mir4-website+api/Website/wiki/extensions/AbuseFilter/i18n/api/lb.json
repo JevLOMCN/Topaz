@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"Robby"
+		]
+	},
+	"apihelp-abusefilterchecksyntax-example-1": "Syntax vun engem valabele Filter nokucken",
+	"apihelp-abusefilterchecksyntax-example-2": "Syntax vun engem net-valabele Filter nokucken",
+	"apihelp-abusefilterunblockautopromote-param-user": "Benotzernumm vum Benotzer dem seng Spär dir ophiewe wëllt.",
+	"apihelp-query+abusefilters-summary": "Detailer vun de Mëssbrauchsfiltere weisen",
+	"apihelp-query+abusefilters-example-2": "E puer Detailer iwwer Filtere weisen",
+	"apierror-abusefilter-canttest": "Dir sidd net berechtegt fir Mëssbrauchsfilteren ze testen.",
+	"apierror-abusefilter-cantcheck": "Dir sidd net berechtegt fir d'Syntax vu Mëssbrauchsfilteren no ze kucken.",
+	"apierror-abusefilter-badsyntax": "De Filter huet eng net valabel Syntax."
+}

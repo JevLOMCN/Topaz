@@ -1,0 +1,18 @@
+{
+	"@metadata": {
+		"authors": [
+			"Meno25",
+			"ديفيد"
+		]
+	},
+	"apihelp-query+oath-summary": "تحقق لمعرفة ما إذا تم تمكين المصادقة الثنائية (OATH) للمستخدم.",
+	"apihelp-query+oath-param-user": "المستخدم للحصول على معلومات عنه، افتراضي للمستخدم الحالي.",
+	"apihelp-query+oath-param-reason": "سبب الاستعلام عن حالة OATH.",
+	"apihelp-query+oath-example-1": "الحصول على معلومات حول المستخدم الحالي",
+	"apihelp-query+oath-example-2": "الحصول على معلومات حول المستخدم <kbd>Example</kbd>",
+	"apihelp-oathvalidate-summary": "تحقق من صحة رمز المصادقة الثنائية (OATH).",
+	"apihelp-oathvalidate-param-user": "مستخدم للتحقق من صحة الرمز المميز له، افتراضي للمستخدم الحالي.",
+	"apihelp-oathvalidate-example-1": "تحقق من صحة بيانات JSON للمستخدم الحالي",
+	"apihelp-oathvalidate-example-3": "التحقق من صحة بيانات JSON للمستخدم <kbd>Example</kbd>",
+	"apihelp-oathvalidate-param-data": "بيانات JSON المشفرة المتوقعة من قبل وحدة مفعلة حاليا للمستخدم المصادق"
+}

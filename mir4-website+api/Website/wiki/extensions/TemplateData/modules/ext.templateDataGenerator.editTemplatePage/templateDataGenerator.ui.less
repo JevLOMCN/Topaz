@@ -1,0 +1,111 @@
+.tdg-editscreen-main {
+	margin-bottom: 1em;
+
+	.skin-vector-legacy .ve-init-mw-desktopArticleTarget-originalContent & {
+		font-size: 14/16em;
+	}
+}
+
+.tdg-editscreen-main-helplink {
+	margin-left: 1em;
+}
+
+.tdg-editscreen-edit-notice {
+	margin-top: 0.5em;
+}
+
+.tdg-templateDataDialog-panels .oo-ui-messageWidget p {
+	&:first-child {
+		margin-top: 0;
+	}
+
+	&:last-child {
+		margin-bottom: 0;
+	}
+}
+
+.tdg-editscreen-input-error .oo-ui-inputWidget-input {
+	background-color: #ffa3a3;
+}
+
+.tdg-templateDataParamWidget {
+	padding-right: 0.5em;
+
+	.oo-ui-iconElement-icon {
+		opacity: 0.2;
+	}
+
+	/* Hover events sometimes fire while dragging, so limit to highlighted widgets */
+	&.oo-ui-optionWidget-highlighted .oo-ui-iconElement-icon:hover {
+		opacity: 0.5;
+	}
+}
+
+.tdg-templateDataParamWidget-param {
+	&-name,
+	&-aliases,
+	&-description {
+		white-space: nowrap;
+		text-overflow: ellipsis;
+		overflow: hidden;
+	}
+
+	&-name {
+		font-weight: bold;
+	}
+
+	&-aliases {
+		float: right;
+		font-size: 0.9em;
+		padding: 1px;
+	}
+
+	&-description {
+		color: #666;
+	}
+
+	&-alias {
+		border-radius: 0.3em;
+		padding: 0.125em 0.25em;
+		margin-left: 0.5em;
+		color: #999;
+		background-color: #eee;
+		border: solid 1px #ddd;
+
+		&:first-child {
+			background-color: #fff;
+		}
+	}
+}
+
+.tdg-templateDataParamWidget-paramList-param-description {
+	clear: both;
+	color: #555;
+}
+
+.tdg-templateDataParamImportWidget {
+	display: block;
+	margin-top: 1em;
+
+	> .oo-ui-buttonElement-button {
+		display: block;
+		text-align: left;
+		font-weight: normal;
+	}
+}
+
+/* LanguageSearchWidget */
+
+.tdg-languageResultWidget-otherMatch {
+	float: right;
+	color: #777;
+}
+
+.tdg-languageResultWidget-highlight {
+	font-weight: bold;
+}
+
+.mw-templateData-template-add-map-button .oo-ui-buttonElement-button {
+	text-align: left;
+	white-space: normal;
+}

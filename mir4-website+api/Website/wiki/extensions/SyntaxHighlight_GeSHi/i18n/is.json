@@ -1,0 +1,22 @@
+{
+	"@metadata": {
+		"authors": [
+			"Snævar",
+			"Stefán Örvar Sigmundsson"
+		]
+	},
+	"syntaxhighlight-error-category": "Síður með ljómunarvillur málskipanar",
+	"syntaxhighlight-error-category-desc": "Villa kom upp þegar reynt var að ljóma kóða innifalinn á síðunni.",
+	"syntaxhighlight-enclose-category": "Síður sem nota úreld enclose-eigindi",
+	"syntaxhighlight-enclose-category-desc": "Ljómun málskipanar á síðunni notar úrelda enclose-málskipan.",
+	"syntaxhighlight-source-category": "Síður sem nota úreld source-merki",
+	"syntaxhighlight-source-category-desc": "Ljómun málskipanar á síðunni notar úrelt source-merki.",
+	"syntaxhighlight-visualeditor-mwsyntaxhighlightinspector-code": "Kóði",
+	"syntaxhighlight-visualeditor-mwsyntaxhighlightinspector-language": "Tungumál",
+	"syntaxhighlight-visualeditor-mwsyntaxhighlightinspector-none": "(ekkert)",
+	"syntaxhighlight-visualeditor-mwsyntaxhighlightinspector-showlines": "Sýna línu númer",
+	"syntaxhighlight-visualeditor-mwsyntaxhighlightinspector-title": "Kóða reitur",
+	"syntaxhighlight-error-pygments-invocation-failure": "Gat ekki kallað á Pygments",
+	"syntaxhighlight-error-unknown-language": "Óþekkt tungumál \"$1\"",
+	"syntaxhighlight-error-exceeds-size-limit": "Kóðinn er $1 {{PLURAL:$1|bæti}} sem er lengra en hámarslengdin, $2 {{PLURAL:$2|bæti}}, segir til um"
+}

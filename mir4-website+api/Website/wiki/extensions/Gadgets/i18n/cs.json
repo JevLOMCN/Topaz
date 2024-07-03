@@ -1,0 +1,42 @@
+{
+	"@metadata": {
+		"authors": [
+			"Danny B.",
+			"Li-sung",
+			"Matěj Suchánek",
+			"Mormegil"
+		]
+	},
+	"gadgets-desc": "Umožňuje uživatelům vybrat si v [[Special:Preferences#mw-prefsection-gadgets|nastavení]] [[Special:Gadgets|CSSová a JavaScriptová udělátka]].",
+	"prefs-gadgets": "Udělátka",
+	"prefs-description-gadgets": "Zapněte si na svém účtu doplňkové funkce.",
+	"gadgets-prefstext": "Níže je přehled speciálních udělátek, která si můžete ve svém účtu zapnout.\nTato udělátka jsou založena převážně na JavaScriptu, takže je pro jejich funkčnost nutné mít v prohlížeči JavaScript zapnutý.\nUdělátka nejsou aplikována na této stránce nastavení.\n\nUvědomte si také, že speciální udělátka nejsou součástí softwaru MediaWiki a&nbsp;jsou vytvářena a&nbsp;spravována uživateli této wiki.\nMístní správci rozhraní mohou upravovat [[MediaWiki:Gadgets-definition|definice]] dostupných udělátek a&nbsp;místní správci mohou upravovat jejich [[Special:Gadgets|popisy]], kde naleznete také jejich zdrojové kódy. Počty uživatelů každého udělátka na této wiki jsou zaznamenány ve [[Special:GadgetUsage|statistice užívání udělátek]].",
+	"special-gadgets": "Udělátka",
+	"gadgetusage": "Statistika využití udělátek",
+	"gadgetusage-gadget": "Udělátko",
+	"gadgetusage-usercount": "Počet uživatelů",
+	"gadgetusage-noresults": "Nenalezena žádná udělátka.",
+	"gadgetusage-intro": "Tato tabulka zobrazuje počet uživatelů, kteří si zapnuli jednotlivá udělátka na této wiki. Jako aktivní se počítají uživatelé, kteří za {{PLURAL:$1|poslední den|poslední $1 dny|posledních $1 dní}} provedli editaci. Seznam nezahrnuje statistiky udělátek, která jsou pro všechny implicitně zapnutá, a může zahrnovat i udělátka, která již nejsou dostupná.",
+	"gadgetusage-intro-noactive": "Tato tabulka zobrazuje počet uživatelů, kteří si zapnuli jednotlivá udělátka na této wiki. Seznam nezahrnuje statistiky udělátek, která jsou pro všechny implicitně zapnutá, a může zahrnovat i udělátka, která již nejsou dostupná.",
+	"gadgetusage-activeusers": "Aktivní uživatelé",
+	"gadgetusage-default": "Výchozí",
+	"gadgets-title": "Udělátka",
+	"gadgets-pagetext": "Níže je přehled speciálních udělátek, která si uživatelé mohou zapnout ve svém [[Special:Preferences#mw-prefsection-gadgets|nastavení]]. Jejich seznam lze upravovat na stránce [[MediaWiki:Gadgets-definition]].\nTento přehled poskytuje jednoduchý přístup k&nbsp;systémovým hlášením, která definují zdrojový kód a&nbsp;popis každého udělátka.",
+	"gadgets-editdescription": "Editovat popis",
+	"gadgets-viewdescription": "Zobrazit popis",
+	"gadgets-uses": "používá",
+	"gadgets-required-rights": "Vyžaduje následující {{PLURAL:$2|oprávnění}}: $1.",
+	"gadgets-required-skins": "Dostupné {{PLURAL:$2|pro vzhled $1|pro následující vzhledy: $1}}.",
+	"gadgets-required-actions": "Omezeno na {{PLURAL:$2|akci stránky „$1“|následující akce stránky: $1}}.",
+	"gadgets-default": "Implicitně zapnuto všem.",
+	"gadgets-legacy": "Udělátko se nenačítá. Převeďte ho prosím na ResourceLoader. ([https://www.mediawiki.org/wiki/Special:MyLanguage/ResourceLoader/Migration_guide_(users) Více informací])",
+	"gadgets-packaged": "Toto udělátko používá [https://www.mediawiki.org/wiki/ResourceLoader/Package_files balíčky], vstupním bodem je $1",
+	"gadgets-export": "Exportovat",
+	"gadgets-export-title": "Export udělátka",
+	"gadgets-not-found": "Udělátko „$1“ nebylo nalezeno.",
+	"gadgets-export-text": "Chcete-li exportovat udělátko $1, klikněte na tlačítko „{{int:gadgets-export-download}}“, uložte stažený soubor, na cílové wiki přejděte na stránku Special:Import a soubor načtěte. Poté na tamní stránku MediaWiki:Gadgets-definition přidejte následující:\n<pre>$2</pre>\nNa cílové wiki musíte mít příslušná oprávnění (včetně práva editovat systémová hlášení) a musí tam být povolen import načtením souboru.",
+	"gadgets-export-download": "Stáhnout",
+	"gadgets-validate-notset": "Není nastavena vlastnost <code>$1</code>.",
+	"gadgets-validate-wrongtype": "Vlastnost <code>$1</code> musí být typu <code>$2</code> namísto typu <code>$3</code>.",
+	"gadgets-supports-urlload": "Toto udělátko podporuje načítání prostřednictví URL pomocí parametru <code>?withgadget</code>."
+}

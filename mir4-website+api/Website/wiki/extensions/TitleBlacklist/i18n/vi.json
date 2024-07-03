@@ -1,0 +1,26 @@
+{
+	"@metadata": {
+		"authors": [
+			"Minh Nguyen",
+			"Vinhtantran"
+		]
+	},
+	"action-titleblacklistlog": "xem nhật trình chặn tiêu đề vì danh sách đen",
+	"log-name-titleblacklist": "Nhật trình chặn tiêu đề vì danh sách đen",
+	"log-description-titleblacklist": "Nhật trình này ghi các lần chặn tiêu đề vì nằm vào danh sách đen.",
+	"logentry-titleblacklist-hit-username": "$1 {{GENDER:$2}}bị danh sách đen tiêu đề ngăn không được mở tài khoản $3 vì mục $4.",
+	"titleblacklist-desc": "Cho phép các bảo quản viên cấm không được tạo ra trang có các tên, theo [[MediaWiki:Titleblacklist|danh sách đen]] và [[MediaWiki:Titlewhitelist|danh sách trắng]]",
+	"titleblacklist": "# Đây là danh sách đen tiêu đề. Tên bài và tên thành viên trùng với biểu thức chính quy tại đây sẽ không thể tạo được.\n# Hãy dùng “#” để chú thích.\n# Nội dung theo mặc định không phân biệt chữ hoa và chữ thường.",
+	"titlewhitelist": "# Đây là danh sách trắng tiêu đề. Hãy dùng “#” để chú thích.\n# Nội dung theo mặc định không phân biệt chữ hoa và chữ thường.",
+	"titleblacklist-forbidden-edit": "Không được tạo ra trang dưới tên “$2”.\nTên này trùng với mục sau trong danh sách đen: <code>$1</code>",
+	"titleblacklist-forbidden-move": "Không được di chuyển “$2” đến “$3” vì tiêu đề “$3” bị cấm không được tạo.\nTiêu đề trùng với mục sau trong danh sách đen: <code>$1</code>",
+	"titleblacklist-forbidden-upload": "Không được tải lên tập tin dưới tên “$2”.\nTên này trùng với khoản sau trong danh sách đen: <code>$1</code>",
+	"titleblacklist-forbidden-new-account": "Không được tạo ra tài khoản “$2”.\nNó trùng tên với một khoản mục trong danh sách đen: <code>$1</code>",
+	"titleblacklist-invalid": "{{PLURAL:$1|Dòng|Những dòng}} sau đây trong danh sách đen về tên trang không hợp lệ; xin hãy sửa chữa {{PLURAL:$1|nó|chúng}} để tuân theo cú pháp biểu thức chính quy trước khi lưu trang:",
+	"titleblacklist-override": "Bỏ qua danh sách đen",
+	"titleblacklist-override-help": "Những người dùng đủ quyền có thể đặt tùy chọn này để bỏ qua các kiểm tra danh sách đen khi đặt tên trang.",
+	"titleblacklist-warning": "<strong>Cảnh báo: Chỉ có các bảo quản viên và những người khác có quyền <code>tboverride</code> được phép sửa đổi trang này vì nó khớp với mục sau trong danh sách đen tiêu đề:</strong><br /><code>$1</code>",
+	"right-tboverride": "Bỏ qua các danh sách đen tiêu đề và tên người dùng",
+	"right-tboverride-account": "Ghi đè lên danh sách đen tên người dùng",
+	"right-titleblacklistlog": "Xem nhật trình chặn tiêu đề vì danh sách đen"
+}

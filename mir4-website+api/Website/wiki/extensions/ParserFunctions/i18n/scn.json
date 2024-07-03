@@ -1,0 +1,28 @@
+{
+	"@metadata": {
+		"authors": [
+			"Ajeje Brazorf",
+			"Melos",
+			"Santu"
+		]
+	},
+	"pfunc_desc": "C'agghiunci ô parser na sèrii di funzioni lòggichi",
+	"pfunc_time_error": "Sbàgghiu: uràriu nun vàlidu",
+	"pfunc_time_too_long": "Sbàgghiu: troppi chiamati a #time",
+	"pfunc_rel2abs_invalid_depth": "Sbàgghiu: prufunnità non vàlida ntô pircorsu \"$1\" (si tintau di tràsiri ôn nodu cchiù supra di la ràdica)",
+	"pfunc_expr_stack_exhausted": "Sbàgghiu nti la sprissioni: lu stack finìu",
+	"pfunc_expr_unexpected_number": "Sbàgghiu nti la sprissioni: nùmmiru non privistu",
+	"pfunc_expr_preg_match_failure": "Sbàgghiu nti la sprissioni: sbàgghiu non privistu 'n preg_match",
+	"pfunc_expr_unrecognised_word": "Sbàgghiu nti la sprissioni: palora \"$1\" non canusciuta",
+	"pfunc_expr_unexpected_operator": "Sbàgghiu nti la sprissioni: upiraturi $1 non privistu",
+	"pfunc_expr_missing_operand": "Sbàgghiu nti la sprissioni: upirandu mancanti pi $1",
+	"pfunc_expr_unexpected_closing_bracket": "Sbàgghiu nti la sprissioni: parèntisi chiusa non aspittata",
+	"pfunc_expr_unrecognised_punctuation": "Sbàgghiu nti la sprissioni: caràttiri di puntiggiatura \"$1\" non canusciutu",
+	"pfunc_expr_unclosed_bracket": "Sbàgghiu nti la sprissioni: parèntisi non chiuruta",
+	"pfunc_expr_division_by_zero": "Divisioni pi zeru",
+	"pfunc_expr_invalid_argument": "Argumentu non vàlidu pi $1: < -1 o > 1",
+	"pfunc_expr_invalid_argument_ln": "Argumentu non vàlidu pi ln: <= 0",
+	"pfunc_expr_unknown_error": "Sbàgghiu nti la sprissioni: sbàgghiu scanusciutu ($1)",
+	"pfunc_expr_not_a_number": "Nti $1: lu risurtatu nun è nu nùmmiru",
+	"pfunc_string_too_long": "Erruri: la stringa supira lu limiti di $1 carattiri"
+}

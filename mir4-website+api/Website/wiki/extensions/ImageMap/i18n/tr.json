@@ -1,0 +1,22 @@
+{
+	"@metadata": {
+		"authors": [
+			"BaRaN6161 TURK",
+			"Joseph",
+			"Karduelis",
+			"SaldırganSincap"
+		]
+	},
+	"imagemap_desc": "<code>&lt;imagemap&gt;</code> etiketini kullanarak, alıcı-tarafında tıklanabilir resim haritalarına izin verir",
+	"imagemap_no_image": "Hata: İlk satırda bir resim belirtilmelidir.",
+	"imagemap_invalid_image": "Hata: Resim geçersiz veya mevcut değil.",
+	"imagemap_bad_image": "Hata: Bu sayfada resme izin verilmiyor.",
+	"imagemap_no_link": "Hata: $1 satırının sonunda geçerli bir bağlantı bulunamadı.",
+	"imagemap_invalid_title": "Hata: $1 satırındaki bağlantıda geçersiz başlık.",
+	"imagemap_missing_coord": "Hata: $1 satırındaki şekil için yeterli koordinat yok.",
+	"imagemap_unrecognised_shape": "Hata: $1 satırında tanınmayan şekil, her satır şunlardan biriyle başlamalıdır: <code>default</code>, <code>rect</code>, <code>circle</code> veya <code>poly</code>.",
+	"imagemap_invalid_coord": "Hata: $1 satırındaki geçersiz koordinat, bir sayı olmalıdır.",
+	"imagemap_invalid_desc": "Hata: Geçersiz açıklama belirtimi, şunlardan biri olmalıdır: <code>$1</code>.",
+	"imagemap_description": "Bu resim hakkında",
+	"imagemap_poly_odd": "Hata: $1 satırındaki tek sayıda koordinat içeren poli bulundu"
+}

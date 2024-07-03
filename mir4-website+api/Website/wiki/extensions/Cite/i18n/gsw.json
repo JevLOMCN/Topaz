@@ -1,0 +1,29 @@
+{
+	"@metadata": {
+		"authors": [
+			"Als-Holder",
+			"The Evil IP address"
+		]
+	},
+	"cite-desc": "Ergänzt d <code>&lt;ref[ name=id]&gt;</code> un d &lt;references /&gt;-Tag fir Quällenochwyys",
+	"cite_error": "Referänz-Fähler: $1",
+	"cite_error_ref_numeric_key": "Uugiltigi <tt>&lt;ref&gt;</tt>-Verwändig: „name“ derf kei reine Zahlewärt syy, verwänd e Name wu bschrybt.",
+	"cite_error_ref_no_key": "Uugiltigi <tt>&lt;ref&gt;</tt>-Verwändig: „ref“ ohni Inhalt muess e Name haa.",
+	"cite_error_ref_too_many_keys": "Uugiltigi <tt>&lt;ref&gt;</tt>-Verwändig: „name“ isch uugiltig oder z lang.",
+	"cite_error_ref_no_input": "Uugiltigi <tt>&lt;ref&gt;</tt>-Verwändig: „ref“ ohni Name muess e Inhalt haa.",
+	"cite_error_references_invalid_parameters": "Uugiltigi <tt>&lt;references&gt;</tt>-Verwändig: S sin kei zuesätzligi Parameter erlaubt, verwänd usschließli <tt><nowiki><references /></nowiki></tt>.",
+	"cite_error_references_no_backlink_label": "E Referenz mit dr Form <tt>&lt;ref name=\"...\"/&gt;</tt> wird meh brucht as es Buechstabe git. E Ammann muess  [[MediaWiki:Cite references link many format backlink labels]] go wyteri Buechstabe/Zeiche ergänze.",
+	"cite_error_no_link_label_group": "Fir d Gruppe „$1“ sin kei benutzerdefinierti Linkbezeichnige me verfiegbar. Definier meh unter Systemnochricht [[MediaWiki:$2]].",
+	"cite_error_references_no_text": "Uugiltige <tt>&lt;ref&gt;</tt>-Tag; s isch kei Täxt fir s Ref mit em Name <tt>$1</tt> aagee wore.",
+	"cite_error_included_ref": "S fählt s schließend <code>&lt;/ref&gt;</code>",
+	"cite_error_group_refs_without_references": "<code>&lt;ref&gt;</code>-Tag git s fir d Grupp „$1“, aber s isch kei dezue gherig <code>&lt;references group=„$1“/&gt;</code>-Tag gfunde wore",
+	"cite_error_references_group_mismatch": "Im <code>&lt;ref&gt;</code>-Tag in <code>&lt;references&gt;</code> het s e problematischi Gruppe-Eigeschaft  „$1“.",
+	"cite_error_references_missing_key": "S <code>&lt;ref&gt;</code>-Tag mit em Name „$1“, wu definiert isch in <code>&lt;references&gt;</code> wird nit verwändet im obere Text.",
+	"cite_error_references_no_key": "S <code>&lt;ref&gt;</code>-Tag, wu definiert isch in <code>&lt;references&gt;</code>, het kei Name-Eigeschaft.",
+	"cite_error_empty_references_define": "Im <code>&lt;ref&gt;</code>-Tag, wu definiert isch in <code>&lt;references&gt;</code>, mit em Name „$1“ het s kei Inhalt.",
+	"cite-wikieditor-tool-reference": "Quälle",
+	"cite-wikieditor-help-page-references": "Quälle",
+	"cite-wikieditor-help-content-reference-description": "Quälle",
+	"cite-wikieditor-help-content-rereference-description": "Zuesätzlige Verwändig vu dr glyche Quälle",
+	"cite-wikieditor-help-content-showreferences-description": "Quälle aazeige"
+}

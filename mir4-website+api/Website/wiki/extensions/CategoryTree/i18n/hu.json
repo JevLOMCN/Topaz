@@ -1,0 +1,39 @@
+{
+	"@metadata": {
+		"authors": [
+			"Dani",
+			"Dj",
+			"Glanthor Reviol",
+			"KossuthRad",
+			"Tacsipacsi"
+		]
+	},
+	"categorytree": "Kategóriafa",
+	"categorytree-portlet": "Kategóriák",
+	"categorytree-legend": "Mutatsd faként",
+	"categorytree-desc": "AJAX alapú eszköz a wiki [[Special:CategoryTree|kategória-struktúrájának]] megjelenítéséhez",
+	"categorytree-header": "Add meg annak a kategóriának a nevét, amelynek meg szeretnéd tekinteni\na fastruktúráját. (JavaSript szükséges hozzá.)",
+	"categorytree-category": "Kategória:",
+	"categorytree-go": "Mehet",
+	"categorytree-parents": "Szülőkategóriák",
+	"categorytree-mode-label": "Mód:",
+	"categorytree-mode-categories": "csak kategóriák",
+	"categorytree-mode-pages": "lapok fájlok nélkül",
+	"categorytree-mode-all": "az összes oldal",
+	"categorytree-collapse": "becsuk",
+	"categorytree-expand": "kinyit",
+	"categorytree-member-counts": "$1 alkategóriát, $2 lapot és $3 fájlt tartalmaz",
+	"categorytree-num-categories": "$1 K",
+	"categorytree-num-pages": "$1 L",
+	"categorytree-num-files": "$1 F",
+	"categorytree-num-empty": "üres",
+	"categorytree-load": "betöltés",
+	"categorytree-loading": "betöltés…",
+	"categorytree-nothing-found": "nincs találat",
+	"categorytree-no-subcategories": "nincsenek alkategóriák",
+	"categorytree-no-parent-categories": "nincsenek szülőkategóriái",
+	"categorytree-no-pages": "nincsenek lapok és alkategóriák",
+	"categorytree-not-found": "A következő kategória nem található: <i>$1</i>",
+	"categorytree-error": "Hiba történt az adatok betöltése közben.",
+	"categorytree-retry": "Várj egy kicsit, majd próbáld újra!"
+}

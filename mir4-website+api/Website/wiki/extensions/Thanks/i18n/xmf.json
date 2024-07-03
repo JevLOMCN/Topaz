@@ -1,0 +1,37 @@
+{
+	"@metadata": {
+		"authors": [
+			"Silovan",
+			"Narazeni"
+		]
+	},
+	"thanks-desc": "რსხილეფიშ გეძინა მახვარებუეფიშო მარდიშ მაშინაფალო რედაქტირაფეფიშ, კომენტარეფიშ დო შხვ. გეშა",
+	"thanks-thank": "{{GENDER:$1|{{GENDER:$2| მარდი}}}}",
+	"thanks-thanked": "{{GENDER:$1|{{GENDER:$2|მარდი მოშინელი რე}}}}",
+	"thanks-button-thank": "{{GENDER:$1|{{GENDER:$2|მარდი}}}}",
+	"thanks-button-thanked": "{{GENDER:$1|{{GENDER:$2|მარდი მოშინელი რე}}}}",
+	"thanks-error-undefined": "მარდიშ მოშინაქ ვემიხუჯინჷ (ჩილათაშ კოდი: $1). ქორთხინთ ხოლო ქოცადით.",
+	"thanks-error-invalid-log-id": "ჟურნალიშ დინნაჭარაქ ვეგორჷ",
+	"thanks-error-invalidrecipient-self": "თქვა ვეშეილებჷნა თქვანი დუდშა მარდიშ მოშინა",
+	"thanks-error-notloggedin": "ანონიმურ მახვარებუეფს ვეშულებჷნა მარდიშ მოშინა",
+	"thanks-thank-tooltip": "{{GENDER:$2|თე მახვარებუშა}} ომარდე ნაჭარაშ {{GENDER:$1|ჯღონუა}}",
+	"thanks-thank-tooltip-no": "მარდიშ მოშინაშ გინაფაშ {{GENDER:$1|გოუქვაფა}}",
+	"thanks-thank-tooltip-yes": "მარდიშ მოშინაშ გინაფაშ {{GENDER:$1|ჯღონუა}}",
+	"thanks-confirmation2": "საჯარო მარდიშ {{GENDER:$1|ჯღონუა}}?",
+	"thanks-thanked-notice": "{{GENDER:$3|თქვა}} მარდი მუშინეთ მახვარებუს {{GENDER:$2|$1}}.",
+	"thanks": "მარდიშ მოშინა",
+	"thanks-submit": "მარდიშ მოშინა",
+	"echo-pref-subscription-edit-thank": "მარდი ჩქიმი რედაქტირაფაშო",
+	"echo-pref-tooltip-edit-thank": "ქუგმოგებაფეთ, მუჟანსჷთ მიდგაინი მარდიშ მომშინანს ჩქიმი რედაქტირაფაშენ",
+	"echo-category-title-edit-thank": "მარდი",
+	"notification-header-rev-thank": "$1-ქ {{GENDER:$2|მარდი მოიშინეს}} {{GENDER:$4|თქვანი}} რედაქტირაფაშო ხასჷლას '''$3'''.",
+	"notification-header-creation-thank": "$1-ქ {{GENDER:$2|მარდი მოიშინეს}} {{GENDER:$4|თქვანი}} გჷნაჭყა ხასჷლაშენ <strong>$3</strong>.",
+	"notification-compact-header-edit-thank": "$1-ქ {{GENDER:$3|თქვა}} {{GENDER:$2|მარდი მოიშინეს}} .",
+	"log-name-thanks": "„მარდიშ“ ჟურნალი",
+	"log-description-thanks": "გიმე მოჩამილი რე მახვარებუეფიშ ერკებული, ნამუეფსჷთ შხვა მახვარებუეფქ მარდი მუშინესჷნ.",
+	"logentry-thanks-thank": "$1-ქ {{GENDER:$2|მარდი მოუშინჷ}} {{GENDER:$4|$3}}-ს",
+	"logeventslist-thanks-log": "მარდეფიშ ჟურნალი",
+	"notification-link-text-view-post": "კომენტარიშ ძირაფა",
+	"notification-link-text-view-logentry": "ჟურნალიშ დინნაჭარაშ ძირაფა",
+	"ipb-action-thanks": "მარდიშ მოშინაშ ჯღონუა"
+}

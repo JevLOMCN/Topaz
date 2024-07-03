@@ -1,0 +1,25 @@
+{
+	"@metadata": {
+		"authors": [
+			"Chadyka",
+			"Mikalai Udodau",
+			"Vlad5250",
+			"Yury Tarasievich"
+		]
+	},
+	"skinname-monobook": "Манабук",
+	"monobook-desc": "Класічная вокладка MediaWiki з 2004 года, названая ў гонар чорна-белай фатаграфіі кнігі ў фоне старонкі",
+	"monobook.css": "/* CSS, упісаны сюды, будзе дзейнічаць на браўзер кожнага чытача з актыўнай світай Monobook */",
+	"monobook.js": "/* Any JavaScript here will be loaded for users using the MonoBook skin */",
+	"monobook-jumptotop": "вярнуцца ўверх",
+	"monobook-jumptopersonal": "інструменты ўдзельніка",
+	"monobook-jumptonavigation": "Перайсці да навігацыі",
+	"monobook-jumptosearch": "Перайсці да пошуку",
+	"monobook-more-actions": "Яшчэ",
+	"cactions-mobile": "Дзеянні на старонцы",
+	"monobook-cactions-label": "Дзеянні на старонцы",
+	"monobook-notifications-link": "Паведамленні ($1)",
+	"monobook-notifications-link-none": "Паведамленні",
+	"monobook-view-history": "Гісторыя",
+	"monobook-action-undelete": "Аднавіць {{PLURAL:$1|адну праўку|$1 правак}}"
+}

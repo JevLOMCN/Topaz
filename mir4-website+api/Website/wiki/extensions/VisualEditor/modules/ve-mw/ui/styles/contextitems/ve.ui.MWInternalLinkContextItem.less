@@ -1,0 +1,49 @@
+/*!
+ * VisualEditor MediaWiki UserInterface internal link context item styles.
+ *
+ * @copyright See AUTHORS.txt
+ * @license The MIT License (MIT); see LICENSE.txt
+ */
+
+.ve-ui-mwInternalLinkContextItem {
+	.ve-ui-linearContextItem-body {
+		overflow: auto;
+		white-space: normal;
+	}
+
+	&-withImage > .oo-ui-iconElement.oo-ui-iconElement-icon {
+		float: left;
+		font-size: 2em; /* double-size icon */
+		background-color: #c8ccd1;
+		border: 0.35714em solid #c8ccd1;
+		opacity: 0.4;
+		margin-bottom: 0.3em;
+	}
+
+	&-hasImage {
+		background-color: transparent;
+		background-size: cover;
+	}
+
+	&-withImage > &-hasImage.oo-ui-iconElement-icon {
+		border: 0;
+		background-size: cover;
+		opacity: 1;
+		padding: 0.35714em;
+	}
+
+	&-description {
+		display: block;
+		color: #72777d;
+		margin-top: 0.5em;
+	}
+
+	&-withImage .ve-ui-linkContextItem-link,
+	&-withImage &-description {
+		margin-left: 5em;
+	}
+
+	&-withDescription .ve-ui-linkContextItem-link {
+		font-weight: bold;
+	}
+}

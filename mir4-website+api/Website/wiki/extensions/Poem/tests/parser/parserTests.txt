@@ -1,0 +1,299 @@
+!! options
+version=2
+parsoid-compatible=wt2html,wt2wt,html2wt,html2html,selser
+!! end
+
+# Force the test runner to ensure the extension is loaded
+!! hooks
+poem
+!! endhooks
+
+!! article
+Template:1x
+!! text
+{{{1}}}
+!! endarticle
+
+#Regression tests for existing functionality, to ensure nothing was broken.
+!! test
+<poem>
+!! wikitext
+<poem>
+this
+is
+a
+test
+</poem>
+!! html/php
+<div class="poem">
+<p>this<br />
+is<br />
+a<br />
+test
+</p>
+</div>
+!! html/parsoid
+<div class="poem" typeof="mw:Extension/poem" about="#mwt3" data-mw='{"name":"poem","attrs":{},"body":{"extsrc":"\nthis\nis\na\ntest\n"}}'><p>this<br/>
+is<br/>
+a<br/>
+test</p></div>
+!! end
+
+!!test
+<poem> with recursive parsing
+!!wikitext
+<poem>
+this ''is'' a '''test'''
+</poem>
+!! html/php
+<div class="poem">
+<p>this <i>is</i> a <b>test</b>
+</p>
+</div>
+!! html/parsoid
+<div class="poem" typeof="mw:Extension/poem" about="#mwt3" data-mw='{"name":"poem","attrs":{},"body":{"extsrc":"\nthis &apos;&apos;is&apos;&apos; a &apos;&apos;&apos;test&apos;&apos;&apos;\n"}}'><p>this <i>is</i> a <b>test</b></p></div>
+!!end
+
+## FIXME: Is Parsoid output the right output wrt how it actually renders?
+!!test
+<poem> with leading whitespace
+!!wikitext
+<poem>
+
+   test
+
+</poem>
+!! html/php
+<div class="poem">
+<p><br />
+&#160;&#160;&#160;test<br />
+</p>
+</div>
+!! html/parsoid
+<div class="poem" typeof="mw:Extension/poem" about="#mwt3" data-mw='{"name":"poem","attrs":{},"body":{"extsrc":"\n\n   test\n\n"}}'><p><br/>
+<span typeof="mw:Entity"> </span>  test<br/></p>
+</div>
+!!end
+
+## FIXME: Parsoid adds  <p> wrapper around the THML <br/> tag
+!!test
+Horizontal rule
+!!wikitext
+<poem>
+some
+-----
+text
+</poem>
+!! html/php
+<div class="poem">
+<p>some<br />
+</p>
+<hr />
+<p>text
+</p>
+</div>
+!! html/parsoid
+<div class="poem" typeof="mw:Extension/poem" about="#mwt3" data-mw='{"name":"poem","attrs":{},"body":{"extsrc":"\nsome\n-----\ntext\n"}}'><p>some<br/></p>
+<hr/>
+<p>text</p></div>
+!!end
+
+!! test
+nested <poem><nowiki>
+!! wikitext
+<poem><nowiki>
+this
+is
+a
+test
+</nowiki></poem>
+!! html/php
+<div class="poem">
+<p><br />
+this<br />
+is<br />
+a<br />
+test<br />
+
+</p>
+</div>
+!! html/parsoid
+<div class="poem" typeof="mw:Extension/poem" about="#mwt4" data-mw='{"name":"poem","attrs":{},"body":{"extsrc":"&lt;nowiki>\nthis\nis\na\ntest\n&lt;/nowiki>"}}'><p><br/>
+this<br/>
+is<br/>
+a<br/>
+test<br/>
+</p></div>
+!!end
+
+!! test
+nested <poem><nowiki> with formatting
+!! wikitext
+<poem><nowiki>
+this
+'''is'''
+a
+test
+</nowiki></poem>
+!! html/php
+<div class="poem">
+<p><br />
+this<br />
+'''is'''<br />
+a<br />
+test<br />
+
+</p>
+</div>
+!! html/parsoid
+<div class="poem" typeof="mw:Extension/poem" about="#mwt4" data-mw='{"name":"poem","attrs":{},"body":{"extsrc":"&lt;nowiki>\nthis\n&apos;&apos;&apos;is&apos;&apos;&apos;\na\ntest\n&lt;/nowiki>"}}'><p><br/>
+this<br/>
+'''is'''<br/>
+a<br/>
+test<br/>
+</p></div>
+!! end
+
+!! test
+Basic <poem> usage with style
+!! wikitext
+<poem style="border: 2px solid #d6d2c5; background-color: #f9f4e6; padding: 1em;">
+A stately pleasure-dome decree:
+Where Alph, the sacred river, ran
+Through caverns measureless to man
+Down to a sunless sea.
+</poem>
+!! html/php
+<div style="border: 2px solid #d6d2c5; background-color: #f9f4e6; padding: 1em;" class="poem">
+<p>A stately pleasure-dome decree:<br />
+Where Alph, the sacred river, ran<br />
+Through caverns measureless to man<br />
+Down to a sunless sea.
+</p>
+</div>
+!! html/parsoid
+<div style="border: 2px solid #d6d2c5; background-color: #f9f4e6; padding: 1em;" class="poem" typeof="mw:Extension/poem" about="#mwt3" data-mw='{"name":"poem","attrs":{"style":"border: 2px solid #d6d2c5; background-color: #f9f4e6; padding: 1em;"},"body":{"extsrc":"\nA stately pleasure-dome decree:\nWhere Alph, the sacred river, ran\nThrough caverns measureless to man\nDown to a sunless sea.\n"}}'><p>A stately pleasure-dome decree:<br/>
+Where Alph, the sacred river, ran<br/>
+Through caverns measureless to man<br/>
+Down to a sunless sea.</p></div>
+!! end
+
+# FIXME: This test should be removed once we stop span-wrapping entities in nowikis
+!! test
+Verify Parsoid handles entities in nowikis in poem correctly
+!! wikitext
+<poem>
+L1
+L2
+<nowiki>
+<ref>Not a ref</ref>
+foo &amp; bar
+[[Not a link]]
+</nowiki>
+L3
+</poem>
+!! html/php
+<div class="poem">
+<p>L1<br />
+L2<br />
+<br />
+&lt;ref&gt;Not a ref&lt;/ref&gt;<br />
+foo &amp; bar<br />
+[[Not a link]]<br />
+<br />
+L3
+</p>
+</div>
+!! html/parsoid
+<div class="poem" typeof="mw:Extension/poem" about="#mwt4" data-mw='{"name":"poem","attrs":{},"body":{"extsrc":"\nL1\nL2\n&lt;nowiki>\n&lt;ref>Not a ref&lt;/ref>\nfoo &amp;amp; bar\n[[Not a link]]\n&lt;/nowiki>\nL3\n"}}'><p>L1<br/>
+L2<br/>
+<br/>
+&lt;ref>Not a ref&lt;/ref><br/>
+foo <span typeof="mw:Entity">&amp;</span> bar<br/>
+[[Not a link]]<br/>
+<br/>
+L3</p></div>
+!! end
+
+!! test
+UTF-8 sequences in extension tags (T231945)
+!! wikitext
+<poem>
+{{1x|ၶိူဝ်းႁဝ်ၶိူဝ်းရႃႇၸႃႇ}}
+</poem>
+!! html/php
+<div class="poem">
+<p>ၶိူဝ်းႁဝ်ၶိူဝ်းရႃႇၸႃႇ
+</p>
+</div>
+!! html/parsoid
+<div class="poem" typeof="mw:Extension/poem" about="#mwt4" data-mw='{"name":"poem","attrs":{},"body":{"extsrc":"\n{{1x|ၶိူဝ်းႁဝ်ၶိူဝ်းရႃႇၸႃႇ}}\n"}}'><p><span about="#mwt2" typeof="mw:Transclusion" data-parsoid='{"pi":[[{"k":"1"}]]}' data-mw='{"parts":[{"template":{"target":{"wt":"1x","href":"./Template:1x"},"params":{"1":{"wt":"ၶိူဝ်းႁဝ်ၶိူဝ်းရႃႇၸႃႇ"}},"i":0}}]}'>ၶိူဝ်းႁဝ်ၶိူဝ်းရႃႇၸႃႇ</span></p></div>
+!! end
+
+!! test
+Multi-line poems with indentation use spans and breaks correctly (T235709)
+!! wikitext
+<poem>
+''CONGREGATI''
+:'''EX TOTO ORBE'''
+::'''''MATHEMATICI'''''
+:<span>foo</span>
+</poem>
+!! html/php
+<div class="poem">
+<p><i>CONGREGATI</i><br />
+<span class="mw-poem-indented" style="display: inline-block; margin-inline-start: 1em;"><b>EX TOTO ORBE</b></span><br />
+<span class="mw-poem-indented" style="display: inline-block; margin-inline-start: 2em;"><i><b>MATHEMATICI</b></i></span><br />
+<span class="mw-poem-indented" style="display: inline-block; margin-inline-start: 1em;"><span>foo</span></span>
+</p>
+</div>
+!! html/parsoid
+<div class="poem" typeof="mw:Extension/poem" about="#mwt3" data-mw="{&quot;name&quot;:&quot;poem&quot;,&quot;attrs&quot;:{},&quot;body&quot;:{&quot;extsrc&quot;:&quot;\n''CONGREGATI''\n:'''EX TOTO ORBE'''\n::'''''MATHEMATICI'''''\n:&lt;span>foo&lt;/span>\n&quot;}}"><p data-parsoid="{}"><i data-parsoid="{}">CONGREGATI</i><br data-parsoid='{"stx":"html","selfClose":true}'/>
+<span class="mw-poem-indented" style="display: inline-block; margin-inline-start: 1em;" data-parsoid='{"stx":"html"}'><b data-parsoid="{}">EX TOTO ORBE</b></span><br data-parsoid='{"stx":"html","selfClose":true}'/>
+<span class="mw-poem-indented" style="display: inline-block; margin-inline-start: 2em;" data-parsoid='{"stx":"html"}'><i data-parsoid="{}"><b data-parsoid="{}">MATHEMATICI</b></i></span><br data-parsoid='{"stx":"html","selfClose":true}'/>
+<span class="mw-poem-indented" style="display: inline-block; margin-inline-start: 1em;" data-parsoid='{"stx":"html"}'><span data-parsoid='{"stx":"html"}'>foo</span></span></p></div>
+!! end
+
+!! test
+Indention syntax with no content
+!! wikitext
+<poem>
+::
+</poem>
+!! html/php
+<div class="poem">
+<dl><dd><dl><dd></dd></dl></dd></dl>
+</div>
+!! html/parsoid
+<div class="poem" typeof="mw:Extension/poem" about="#mwt3" data-mw='{"name":"poem","attrs":{},"body":{"extsrc":"\n::\n"}}'><dl><dd><dl><dd></dd></dl></dd></dl></div>
+!! end
+
+!! test
+Poem with class
+!! wikitext
+<poem class="hiho">
+hi ho
+</poem>
+!! html/php
+<div class="poem hiho">
+<p>hi ho
+</p>
+</div>
+!! html/parsoid
+<div class="poem hiho" typeof="mw:Extension/poem" about="#mwt3" data-mw='{"name":"poem","attrs":{"class":"hiho"},"body":{"extsrc":"\nhi ho\n"}}'><p>hi ho</p></div>
+!! end
+
+!! test
+Poem with empty class
+!! wikitext
+<poem class="">
+hi ho
+</poem>
+!! html/php
+<div class="poem">
+<p>hi ho
+</p>
+</div>
+!! html/parsoid
+<div class="poem" typeof="mw:Extension/poem" about="#mwt3" data-mw='{"name":"poem","attrs":{"class":""},"body":{"extsrc":"\nhi ho\n"}}'><p>hi ho</p></div>
+!! end

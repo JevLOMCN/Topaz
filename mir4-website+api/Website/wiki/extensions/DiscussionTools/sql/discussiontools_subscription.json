@@ -1,0 +1,108 @@
+[
+	{
+		"name": "discussiontools_subscription",
+		"columns": [
+			{
+				"name": "sub_id",
+				"type": "integer",
+				"options": {
+					"autoincrement": true,
+					"unsigned": true,
+					"notnull": true
+				}
+			},
+			{
+				"name": "sub_item",
+				"comment": "Internal name used to identify this item across all pages and revisions where it might appear, see CommentParser::computeName()",
+				"type": "binary",
+				"options": {
+					"notnull": true,
+					"length": 255
+				}
+			},
+			{
+				"name": "sub_namespace",
+				"comment": "Namespace of the page where this item appeared when the user subscribed to it",
+				"type": "integer",
+				"options": {
+					"notnull": true,
+					"default": 0
+				}
+			},
+			{
+				"name": "sub_title",
+				"comment": "Title of the page where this item appeared when the user subscribed to it",
+				"type": "binary",
+				"options": {
+					"notnull": true,
+					"length": 255
+				}
+			},
+			{
+				"name": "sub_section",
+				"comment": "Section of the page where this item appeared when the user subscribed to it",
+				"type": "binary",
+				"options": {
+					"notnull": true,
+					"length": 255
+				}
+			},
+			{
+				"name": "sub_state",
+				"comment": "0: unsubscribed; 1: subscribed, 2: auto-subscribed",
+				"type": "integer",
+				"options": {
+					"notnull": true,
+					"default": 1
+				}
+			},
+			{
+				"name": "sub_user",
+				"comment": "User who is subscribed, key to user.user_id",
+				"type": "integer",
+				"options": {
+					"unsigned": true,
+					"notnull": true
+				}
+			},
+			{
+				"name": "sub_created",
+				"comment": "Time when this subscription was created",
+				"type": "mwtimestamp",
+				"options": {
+					"notnull": true
+				}
+			},
+			{
+				"name": "sub_notified",
+				"comment": "Time when a notification about the item was last sent",
+				"type": "mwtimestamp",
+				"options": {
+					"notnull": false
+				}
+			}
+		],
+		"indexes": [
+			{
+				"name": "discussiontools_subscription_itemuser",
+				"comment": "Index for finding all users subscribed to an item, or a specific subscription",
+				"columns": [
+					"sub_item",
+					"sub_user"
+				],
+				"unique": true
+			},
+			{
+				"name": "discussiontools_subscription_user",
+				"comment": "Index for finding all subscriptions of the user",
+				"columns": [
+					"sub_user"
+				],
+				"unique": false
+			}
+		],
+		"pk": [
+			"sub_id"
+		]
+	}
+]

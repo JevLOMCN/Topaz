@@ -1,0 +1,71 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""
+  Create a standalone, executable 'pygmentize' bundle.
+  Author: Ori Livneh
+
+"""
+import hashlib
+import io
+import json
+import os
+import stat
+import textwrap
+import urllib.request
+import zipfile
+
+
+PYGMENTIZE_LAUNCHER = textwrap.dedent('''\
+  #!/usr/bin/env python3
+
+  import sys
+  import pygments.cmdline
+  try:
+      sys.exit(pygments.cmdline.main(sys.argv))
+  except KeyboardInterrupt:
+      sys.exit(1)
+''')
+
+
+print('Querying PyPI for the latest Pygments release...')
+req = urllib.request.urlopen('https://pypi.python.org/pypi/Pygments/json')
+data = json.loads(req.read().decode('utf-8'))
+latest_version = data['info']['version']
+url = None
+for release in data['releases'][latest_version]:
+    if (release['packagetype'] == 'bdist_wheel' and
+           'py3' in release['python_version']):
+        url = release['url']
+        digest = release['digests']['sha256']
+        break
+
+if not url:
+        raise RuntimeError('No suitable package found.')
+
+print('Retrieving version %s (%s)...' % (latest_version, url))
+req = urllib.request.urlopen(url)
+buf = io.BytesIO(req.read())
+
+print('Verifying...')
+if hashlib.sha256(buf.getvalue()).hexdigest() != digest:
+    raise RuntimeError('checksum mismatch!')
+
+print('Creating executable ZIP bundle...')
+with zipfile.ZipFile(buf, 'a') as zf:
+    zf.writestr('__main__.py', PYGMENTIZE_LAUNCHER)
+
+data = buf.getvalue()
+script_dir = os.path.dirname(os.path.abspath(__file__))
+file_path = os.path.join(script_dir, 'pygmentize')
+with open(file_path, 'wb') as f:
+    f.write(b'#!/usr/bin/env python3\n')
+    f.write(data)
+
+file_st = os.stat(file_path)
+os.chmod(file_path, file_st.st_mode | stat.S_IEXEC)
+
+with open(os.path.join(script_dir, 'VERSION'), 'w') as f:
+    f.write(latest_version + '\n')
+
+print('Done. Wrote %s bytes to %s' % (len(data), file_path))
+print("Don't forget to run updateCSS.php and updateLexerList.php (in ../maintenance).")

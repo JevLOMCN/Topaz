@@ -1,0 +1,32 @@
+{
+	"@metadata": {
+		"authors": [
+			"Amire80",
+			"Iñaki LL",
+			"Sator"
+		]
+	},
+	"apierror-visualeditor-difffailed": "Ezb akatsa",
+	"apihelp-visualeditor-param-basetimestamp": "Gordetzerakoan, berrikuspenaren data eta ordua ezartzen du. Hau edizio-gatazkak antzemateko erabiltzen da.",
+	"apihelp-visualeditor-param-cachekey": "\"serialize\" edo \"diff\"erako, erabili aurreko \"serializeforcache\" eskaerako emaitza. $1html gainidatzi.",
+	"apihelp-visualeditor-param-html": "HTML Parsoidera bidaltzeko eta wikitestura bihurtzeko.",
+	"apihelp-visualeditor-param-oldid": "Erabili beharreko berrikuspen zenbakia (lehenetsia, azken berrikuspena)",
+	"apihelp-visualeditor-param-paction": "Egin beharreko ekintza.",
+	"apihelp-visualeditor-param-page": "Ekintzak egin beharreko orria.",
+	"apihelp-visualeditor-param-pst": "Aurre-gordek wikitestua aldatzen du Parsoidera bidali aurretik (paction=parsefragment).",
+	"apihelp-visualeditor-param-starttimestamp": "Gordetzerakoan, data eta ordua finkatzen du orria kargatzerakoan . Hau edizio-gatazkak antzemateko erabiltzen da.",
+	"apihelp-visualeditor-param-wikitext": "Wikitestua Parsoidera bidaltzeko eta HTML bihurtzeko (paction=parsefragment).",
+	"apihelp-visualeditor-summary": "HTML5 itzultzen du orri baterako Parsoid zerbitzutik.",
+	"apihelp-visualeditoredit-param-basetimestamp": "Gordetzerakoan, berrikuspenaren data eta ordua ezartzen du. Hau edizio-gatazkak antzemateko erabiltzen da.",
+	"apihelp-visualeditoredit-param-cachekey": "Erabili \"serializeforcache\" aurreko eskaera baten emaitza kode honekin. $1html gainidazten du.",
+	"apihelp-visualeditoredit-param-captchaid": "Captcha IDa (captcha irudi kode bati erantzunez gordetzen denean).",
+	"apihelp-visualeditoredit-param-captchaword": "Captchari erantzuna (captcha irudi kodearen erantzun gordetzen denean)",
+	"apihelp-visualeditoredit-param-html": "HTML wikitestura beharrean Parsoidera bidaltzeko.",
+	"apihelp-visualeditoredit-param-minor": "Aldaketa txikiaren ikurra.",
+	"apihelp-visualeditoredit-param-needcheck": "Gordetzerakoan, parametro hau ezarri berrikuspenak \"roundtrip\" arazoak izan baditzake. Honek edizioa etiketatua izatea eragingo du.",
+	"apihelp-visualeditoredit-param-oldid": "Erabili behar den berrikuspen zenbakia. Lehenetsiak azken berrikuspena. Erabili 0 orri berri batera.",
+	"apihelp-visualeditoredit-param-page": "Ekintzak egin beharreko orria.",
+	"apihelp-visualeditoredit-param-sectiontitle": "Atal berrirako izenburua.",
+	"apihelp-visualeditoredit-param-starttimestamp": "Gordetzerakoan, berrikuspenaren data eta ordua finkatzen du. Hau edizio-gatazkak antzemateko erabiltzen da.",
+	"apihelp-visualeditoredit-param-summary": "Aldaketaren laburpena"
+}

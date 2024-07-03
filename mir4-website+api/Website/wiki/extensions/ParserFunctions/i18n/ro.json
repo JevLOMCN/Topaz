@@ -1,0 +1,32 @@
+{
+	"@metadata": {
+		"authors": [
+			"ImGelu",
+			"KlaudiuMihaila",
+			"Minisarm",
+			"Stelistcristi",
+			"Strainu"
+		]
+	},
+	"pfunc_desc": "Îmbunătățește parserul cu funcții logice",
+	"pfunc_time_error": "Eroare: timp incorect",
+	"pfunc_time_too_long": "Eroare: prea multe apeluri #time",
+	"pfunc_time_too_big": "Eroare: #time acceptă doar ani până la 9999",
+	"pfunc_time_too_small": "Eroare: #time acceptă doar ani de la 0.",
+	"pfunc_rel2abs_invalid_depth": "Eroare: adâncime incorectă în cale: „$1” (încercat accesarea unui nod deasupra nodului rădăcină)",
+	"pfunc_expr_stack_exhausted": "Eroare de expresie: stivă epuizată",
+	"pfunc_expr_unexpected_number": "Eroare de expresie: număr neașteptat",
+	"pfunc_expr_preg_match_failure": "Eroare de expresie: eșuare preg_match neașteptată",
+	"pfunc_expr_unrecognised_word": "Eroare de expresie: „$1” este un cuvânt nerecunoscut.",
+	"pfunc_expr_unexpected_operator": "Eroare de expresie: operator $1 neașteptat",
+	"pfunc_expr_missing_operand": "Eroare de expresie: operand lipsă pentru $1",
+	"pfunc_expr_unexpected_closing_bracket": "Eroare de expresie: paranteză închisă neașteptată",
+	"pfunc_expr_unrecognised_punctuation": "Eroare de expresie: caracter de punctuație „$1” necunoscut",
+	"pfunc_expr_unclosed_bracket": "Eroare de expresie: paranteză neînchisă",
+	"pfunc_expr_division_by_zero": "Împărțire la zero",
+	"pfunc_expr_invalid_argument": "Argument incorect pentru $1: < -1 sau > 1",
+	"pfunc_expr_invalid_argument_ln": "Argument incorect pentru ln: <= 0",
+	"pfunc_expr_unknown_error": "Eroare de expresie: eroare necunoscută ($1)",
+	"pfunc_expr_not_a_number": "În $1: rezultatul nu este un număr",
+	"pfunc_string_too_long": "Eroare: șirul depășește limita de caractere de $1"
+}

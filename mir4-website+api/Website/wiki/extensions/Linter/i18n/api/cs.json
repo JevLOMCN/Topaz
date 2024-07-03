@@ -1,0 +1,18 @@
+{
+	"@metadata": {
+		"authors": [
+			"Danny B.",
+			"Dvorapa",
+			"Matěj Suchánek"
+		]
+	},
+	"apihelp-query+linterrors-summary": "Získat seznam chyb nalezených Lintem",
+	"apihelp-query+linterrors-param-categories": "Kategorie chyb nalezených Lintem",
+	"apihelp-query+linterrors-param-limit": "Počet výsledků dotazu",
+	"apihelp-query+linterrors-param-from": "ID chyby od níž se má začít",
+	"apihelp-query+linterrors-param-namespace": "Zahrnout pouze chyby nalezené Lintem v zadaných jmenných prostorech",
+	"apihelp-query+linterrors-param-pageid": "Zobrazit chyby nalezené Lintem pouze pro specifická ID stránek",
+	"apihelp-query+linterrors-example-1": "Získat všechny zastaralé HTML značky nalezené Lintem",
+	"apihelp-query+linterstats-summary": "Získat počet chyb nalezených Lintem pro každou kategorii",
+	"apihelp-query+linterstats-example-1": "Získat počet chyb nalezených Lintem pro každou kategorii"
+}

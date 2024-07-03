@@ -1,0 +1,37 @@
+{
+	"@metadata": {
+		"authors": [
+			"Candalua",
+			"Fierodelveneto",
+			"GatoSelvadego"
+		]
+	},
+	"categorytree": "Strutura ad àlbaro de le categorie",
+	"categorytree-portlet": "Categorie",
+	"categorytree-legend": "Mostra l'àlbaro de le categorie",
+	"categorytree-desc": "Acessorio AJAX par visualizar la [[Special:CategoryTree|strutura de le categorie]] del sito",
+	"categorytree-header": "Inserissi el nome de la categoria de cui te vol védar el contenuto soto forma de strutura ad àlbaro. Nota che la pagina la richiede le funzionalità avanzade de JavaScript ciamà AJAX; se te stè doparando un browser vecio assè o le funzion JavaScript le xe disabilità, sta pagina no la funzionarà mìa.",
+	"categorytree-category": "Categoria",
+	"categorytree-go": "Mostra l'àlbaro",
+	"categorytree-parents": "Categorie superiori",
+	"categorytree-mode-label": "Modałità:",
+	"categorytree-mode-categories": "mostra solo le categorie",
+	"categorytree-mode-pages": "tute le pagine, via de i file",
+	"categorytree-mode-all": "tute le pagine",
+	"categorytree-collapse": "strenxi",
+	"categorytree-expand": "slarga",
+	"categorytree-member-counts": "la contien {{PLURAL:$1|1 sotocategoria|$1 sotocategorie}}, {{PLURAL:$2|1 pagina|$2 pagine}} e {{PLURAL:$3|1 file|$3 file}}",
+	"categorytree-num-categories": "$1 C",
+	"categorytree-num-pages": "$1 P",
+	"categorytree-num-files": "$1 F",
+	"categorytree-num-empty": "voda",
+	"categorytree-load": "carga",
+	"categorytree-loading": "so' drio cargar…",
+	"categorytree-nothing-found": "nissun risultato",
+	"categorytree-no-subcategories": "nissuna sotocategoria",
+	"categorytree-no-parent-categories": "nissuna categoria superior",
+	"categorytree-no-pages": "nissuna voçe né sotocategoria",
+	"categorytree-not-found": "Categoria <i>$1</i> mìa catada",
+	"categorytree-error": "Ghe xe un problema nel caricamento dei dati.",
+	"categorytree-retry": "Speta n'atimo e dopo próa de novo."
+}

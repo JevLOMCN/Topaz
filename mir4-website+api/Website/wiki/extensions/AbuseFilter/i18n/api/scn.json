@@ -1,0 +1,42 @@
+{
+	"@metadata": {
+		"authors": [
+			"Ajeje Brazorf",
+			"Pippinu",
+			"Sarvaturi"
+		]
+	},
+	"apihelp-abusefiltercheckmatch-summary": "Cuntrolla si nu filtru anti-abbusi veni attivatu d'unu nzemi di variàbbili, nu canciamentu o n'eventu dû riggistru abbusi.",
+	"apihelp-abusefiltercheckmatch-param-filter": "Lu testu cumpletu dûn filtru, pi cuntrullari si currispunni.",
+	"apihelp-abusefiltercheckmatch-param-vars": "Nu vitturi di variàbbili n furmatu JSON, pi cuntrullari si currispunni.",
+	"apihelp-abusefiltercheckmatch-param-rcid": "L'ID dûn canciamentu ricenti, pi cuntrullari si currispunni.",
+	"apihelp-abusefiltercheckmatch-param-logid": "L'ID di n'eventu dû riggistru dû filtru anti-abbusi, pi cuntrullari si currispunni.",
+	"apihelp-abusefiltercheckmatch-example-1": "Cuntrolla si lu canciamentu ricenti chi havi ID 15 currispunni ôn filtru sìmplici",
+	"apihelp-abusefilterchecksyntax-summary": "Cuntrolla la sintassi d'un filtru AbuseFilter.",
+	"apihelp-abusefilterchecksyntax-param-filter": "Lu testu cumpletu dû filtru dû quali si voli cuntrullari la sintassi.",
+	"apihelp-abusefilterchecksyntax-example-1": "Cuntrolla la sintassi di nu filtru bonu",
+	"apihelp-abusefilterchecksyntax-example-2": "Cuntrolla la sintassi di nu filtru malu",
+	"apihelp-abusefilterevalexpression-summary": "Vàluta na sprissioni dû filtru anti-abbusi",
+	"apihelp-abusefilterevalexpression-param-expression": "La sprissioni di valutari.",
+	"apihelp-abusefilterevalexpression-example-1": "Vàluta na sprissioni sìmplici",
+	"apihelp-abusefilterevalexpression-example-2": "Valutari na sprissioni sìmprici, furmattanu lu risurtatu",
+	"apihelp-abusefilterunblockautopromote-param-user": "Nomu di l'utenti chi si voli sbluccari.",
+	"apihelp-abusefilterunblockautopromote-example-1": "Leva lu bloccu di l'autu-cunferma a l'utenti [[User:Example]]",
+	"apihelp-query+abusefilters-summary": "Ammustra li dittagghî dî filtri anti-abbusi.",
+	"apihelp-query+abusefilters-param-startid": "L'ID dû primu filtru ca si voli pigghiari a cunziddirazzioni.",
+	"apihelp-query+abusefilters-param-endid": "L'ID di l'ùrtimu filtru ca si voli pigghiari a cunziddirazzioni.",
+	"apihelp-query+abusefilters-param-show": "Ammustra sulu li filtri ca currispùnnunu a sti criterî.",
+	"apihelp-query+abusefilters-param-limit": "Lu nùmmiru màssimu di filtri di elincari.",
+	"apihelp-query+abusefilters-param-prop": "Quali prupità pigghiari.",
+	"apihelp-query+abusefilters-example-1": "Elenca li filtri pùbblici ca sunnu attivati",
+	"apihelp-query+abusefilters-example-2": "Ammustra na para di dittagghî supra ê filtri",
+	"apihelp-query+abuselog-param-start": "La data e ura a pàrtiri dî quali l'eventi si vonnu pigghiari a cunziddirazzioni.",
+	"apihelp-query+abuselog-param-end": "La data e ura a finiri chî quali l'eventi si vonnu pigghiari a cunziddirazzioni.",
+	"apihelp-query+abuselog-param-user": "Ammustra sulu l'azzioni fatti di nu certu utenti o nnirizzu IP.",
+	"apihelp-query+abuselog-param-title": "Ammustra sulu l'azzioni fatti nta na certa pàggina.",
+	"apihelp-query+abuselog-param-filter": "Ammustra sulu l'azzioni ntircittati di nu filtru cu na certa ID.",
+	"apihelp-query+abuselog-param-limit": "Lu nùmmiru màssimu di vuci di elincari.",
+	"apihelp-query+abuselog-param-prop": "Quali prupità pigghiari.",
+	"apihelp-query+abuselog-example-1": "Ammustra li vuci di riggistru ricenti",
+	"apihelp-query+abuselog-example-2": "Ammustra li vuci di riggistru ricenti pi [[API]]"
+}

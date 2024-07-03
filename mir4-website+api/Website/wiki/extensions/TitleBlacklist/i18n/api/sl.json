@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Eleassar"
+		]
+	},
+	"apihelp-titleblacklist-summary": "Validiranje naslova strani, imena datoteke ali uporabniškega imena glede na TitleBlacklist.",
+	"apihelp-titleblacklist-param-title": "Niz a validiranje glede na črni seznam.",
+	"apihelp-titleblacklist-param-action": "Dejanje, ki ga je treba preveriti.",
+	"apihelp-titleblacklist-param-nooverride": "Ne poskušajte preglasiti črnega seznama naslovov.",
+	"apihelp-titleblacklist-example-1": "Preverite, ali je [[Foo]] na črnem seznamu",
+	"apihelp-titleblacklist-example-2": "Preverite, ali je [[Bar]] na črnem seznamu za urejanje",
+	"apihelp-createaccount-param-ignoretitleblacklist": "Prezri preverjanja ponarejanja (zahteva eno od naslednjih pravic: <code>tboverride</code>, <code>tboverride-account</code>)."
+}

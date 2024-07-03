@@ -1,0 +1,36 @@
+{
+	"@metadata": {
+		"authors": [
+			"Praveenp",
+			"Shijualex"
+		]
+	},
+	"categorytree": "വർഗ്ഗവൃക്ഷം",
+	"categorytree-portlet": "വർഗ്ഗങ്ങൾ",
+	"categorytree-legend": "വർഗ്ഗവൃക്ഷം പ്രദർശിപ്പിക്കുക",
+	"categorytree-desc": "വിക്കിയിലെ [[Special:CategoryTree|വർഗ്ഗങ്ങളുടെ ഘടന]] പ്രദർശിപ്പിക്കുവാനുള്ള അജാക്സ് സാങ്കേതികവിദ്യ ഉപയോഗിക്കുന്ന ഗാഡ്ജറ്റ്.",
+	"categorytree-header": "വർഗ്ഗങ്ങളുടെ ഘടന വ്യക്ഷരൂപത്തിൽ കാണുവാൻ ഒരു വർഗ്ഗത്തിന്റെ പേരു ചേർക്കുക. (ജാവാസ്ക്രിപ്റ്റ് ആവശ്യമാണ്)",
+	"categorytree-category": "വർഗ്ഗം:",
+	"categorytree-go": "വർഗ്ഗവൃക്ഷം പ്രദർശിപ്പിക്കുക",
+	"categorytree-parents": "താവഴി",
+	"categorytree-mode-label": "സമ്പ്രദായം:",
+	"categorytree-mode-categories": "വർഗ്ഗങ്ങൾ മാത്രം",
+	"categorytree-mode-pages": "പ്രമാണങ്ങൾ അല്ലാതെയുള്ള താളുകൾ",
+	"categorytree-mode-all": "എല്ലാ താളുകളും",
+	"categorytree-collapse": "ചുരുക്കുക",
+	"categorytree-expand": "വികസിപ്പിക്കുക",
+	"categorytree-member-counts": "{{PLURAL:$1|ഒരു ഉപവർഗ്ഗവും|$1 ഉപവർഗ്ഗങ്ങളും}}, {{PLURAL:$2|ഒരു താളും|$2 താളുകളും}}, {{PLURAL:$3|ഒരു പ്രമാണവും|$3 പ്രമാണങ്ങളും}} ഉൾക്കൊള്ളുന്നു",
+	"categorytree-num-categories": "$1 വ",
+	"categorytree-num-pages": "$1 താ",
+	"categorytree-num-files": "$1 പ്ര",
+	"categorytree-num-empty": "ശൂന്യം",
+	"categorytree-load": "ശേഖരിക്കുക",
+	"categorytree-loading": "ശേഖരിക്കുന്നു…",
+	"categorytree-nothing-found": "ഒന്നും കണ്ടെത്തിയില്ല",
+	"categorytree-no-subcategories": "ഉപവർഗ്ഗങ്ങളില്ല",
+	"categorytree-no-parent-categories": "മാതൃവർഗ്ഗങ്ങൾ ഇല്ല",
+	"categorytree-no-pages": "താളുകളോ ഉപവർഗ്ഗങ്ങളോ ഇല്ല",
+	"categorytree-not-found": "''$1'' എന്ന വർഗ്ഗം കണ്ടില്ല",
+	"categorytree-error": "വിവരം ശേഖരിക്കുന്നതിൽ പിഴവുണ്ടായി.",
+	"categorytree-retry": "ദയവായി അല്പസമയത്തിനു ശേഷം വീണ്ടും ശ്രമിക്കുക."
+}

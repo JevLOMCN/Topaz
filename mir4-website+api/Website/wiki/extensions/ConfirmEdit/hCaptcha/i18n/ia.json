@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"McDutchie"
+		]
+	},
+	"hcaptcha-desc": "Modulo [https://www.hcaptcha.com/ hCaptcha] pro Confirm Edit",
+	"hcaptcha-edit": "Pro proteger le wiki contra le modificationes de spam automatisate, per favor, resolve le hCaptcha sequente:",
+	"hcaptcha-addurl": "Iste modification include nove ligamines externe. Pro proteger le wiki contra le spam automatisate, per favor, resolve le CAPTCHA sequente:",
+	"hcaptcha-badlogin": "Pro proteger le wiki contra le furto automatisate de contrasignos, per favor, resolve le hCaptcha sequente:",
+	"hcaptcha-createaccount": "Pro proteger le wiki contra le creation automatisate de contos, per favor, resolve le hCaptcha sequente:",
+	"hcaptcha-createaccount-fail": "Pare que tu non ha resolvite le hCaptcha.",
+	"hcaptcha-create": "Pro proteger le wiki contra le creation automatisate de paginas, per favor, resolve le hCaptcha sequente:",
+	"hcaptcha-help": "Per favor, resolve un defia hCaptcha e retorna le valor del responsa como captchaWord."
+}

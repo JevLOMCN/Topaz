@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"NehalDaveND"
+		]
+	},
+	"pfunc_expr_unrecognised_word": "वाचनिकदोषः : अज्ञातशब्दः $1",
+	"pfunc_expr_unexpected_operator": "वाचनिकदोषः : $1 इत्येतत् अनपेक्षितं चिह्नम् ।",
+	"pfunc_expr_missing_operand": "वाचनिकदोषः : $1 इत्यस्य कृते समीकरणचिह्नं न प्राप्तम् ।",
+	"pfunc_expr_unrecognised_punctuation": "वाचनिकदोषः : अनपेक्षितम् उद्गारचिह्नम $1"
+}

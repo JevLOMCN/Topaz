@@ -1,0 +1,37 @@
+{
+	"@metadata": {
+		"authors": [
+			"Ezagren",
+			"J Subhi",
+			"Mnam23",
+			"Riemogerz"
+		]
+	},
+	"categorytree": "Puhun tumbung",
+	"categorytree-portlet": "Tutumbung",
+	"categorytree-legend": "Tampaiakan tumbung puhun",
+	"categorytree-desc": "Napigasi dinamis [[Special:CategoryTree|struktur tumbung]]",
+	"categorytree-header": "Masukakan sabuah ngaran tumbung gasan malihat isinya di bantuk puhun.\nTulung diitihi bahwa pitur naya mamarluakan dukungan JavaScript lanjutan nang dipinandui sabagai AJAX.\nAmun Pian mamakai panjalajah web lawas, atawa mamatiakan pungsi JavaScript Pian, pitur naya kada kawa dijalanakan.",
+	"categorytree-category": "Tumbung",
+	"categorytree-go": "Tampaiakan puhun",
+	"categorytree-parents": "Kuitan",
+	"categorytree-mode-categories": "Tutumbung haja",
+	"categorytree-mode-pages": "tutungkaran kacuali barakas",
+	"categorytree-mode-all": "samunyaan tutungkaran",
+	"categorytree-collapse": "tutup",
+	"categorytree-expand": "singkai",
+	"categorytree-member-counts": "baisi {{PLURAL:$1|1 subpilah|$1 subpilah}}, {{PLURAL:$2|1 tungkaran|$2 tungkaran}}, wan {{PLURAL:$3|1 barakas|$3 barakas}}",
+	"categorytree-num-categories": "$1 T",
+	"categorytree-num-pages": "$1 T",
+	"categorytree-num-files": "$1 B",
+	"categorytree-num-empty": "kusung",
+	"categorytree-load": "muatakan",
+	"categorytree-loading": "mamuat...",
+	"categorytree-nothing-found": "Kada taugai",
+	"categorytree-no-subcategories": "kada sub-tutumbung",
+	"categorytree-no-parent-categories": "kada kuitan tutumbung",
+	"categorytree-no-pages": "kadada tutungkaran atawa sub-tutumbung",
+	"categorytree-not-found": "Tumbung <i>$1</i> kada taugai",
+	"categorytree-error": "Masalah mamuat data.",
+	"categorytree-retry": "Muhun hadangi satumat wan cubai pulang."
+}

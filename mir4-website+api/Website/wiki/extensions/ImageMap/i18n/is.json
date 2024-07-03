@@ -1,0 +1,17 @@
+{
+	"@metadata": {
+		"authors": [
+			"Snævar",
+			"Sveinn í Felli"
+		]
+	},
+	"imagemap_no_image": "Villa: mynd verður að vera tilgreind í fyrstu línu",
+	"imagemap_invalid_image": "Villa: mynd er ógild eða ekki til",
+	"imagemap_bad_image": "Villa: Mynd er ekki leyfð á þessari síðu.",
+	"imagemap_no_link": "Villa: engin gildur tengill fannst við enda línu $1",
+	"imagemap_invalid_title": "Villa: Ógildur titill í tengli í línu $1",
+	"imagemap_missing_coord": "Villa: Ekki nógu mörg hnit fyrir þetta form í línu $1",
+	"imagemap_unrecognised_shape": "Villa: Óþekkt form í línu $1, hver lína verður að byrja á <code>default</code>, <code>rect</code>, <code>circle</code> eða <code>poly</code>",
+	"imagemap_invalid_coord": "Villa: Ógilt hnit í línu $1, verður að vera tala",
+	"imagemap_description": "Um þessa mynd"
+}

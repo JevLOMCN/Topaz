@@ -1,0 +1,37 @@
+{
+	"@metadata": {
+		"authors": [
+			"Sasan700",
+			"Исмаил Садуев",
+			"Умар"
+		]
+	},
+	"categorytree": "Категорийн дит",
+	"categorytree-portlet": "Категореш",
+	"categorytree-legend": "Гайта категорийн дит",
+	"categorytree-desc": "AJAX [[Special:CategoryTree|категори дӀахӀоттаран]] компонент йу",
+	"categorytree-header": "Йазйе категорин цӀе тӀакха иза гойтур йу диттан кепара.\nХӀара таро йу хьан браузеро AJAX ловш йелахь.\nХӀан браузер ширайела йелахь йа JavaScript дӀайайина йелахь, бухара категореш диттан кепара гойтур йац.",
+	"categorytree-category": "Категори:",
+	"categorytree-go": "Чуйаккха",
+	"categorytree-parents": "Кхолламан категореш",
+	"categorytree-mode-label": "Раж:",
+	"categorytree-mode-categories": "йекъ категореш",
+	"categorytree-mode-pages": "файлийн совнаха",
+	"categorytree-mode-all": "массо агӀонаш",
+	"categorytree-collapse": "дӀахьарчо",
+	"categorytree-expand": "схьайаста",
+	"categorytree-member-counts": "Чохь йу $1 {{PLURAL:$1|1=бухара категори|бухара категореш}}, $2 {{PLURAL:$2|агӀо}} а, $3 {{PLURAL:$3|файл}} а",
+	"categorytree-num-categories": "$1 К",
+	"categorytree-num-pages": "$1 А",
+	"categorytree-num-files": "$1 Ф",
+	"categorytree-num-empty": "йаьсса",
+	"categorytree-load": "чуйаккха",
+	"categorytree-loading": "дӀахӀуттуш йу…",
+	"categorytree-nothing-found": "ХӀокху категорин чохь бухара категореш йац.",
+	"categorytree-no-subcategories": "бухара категореш йац",
+	"categorytree-no-parent-categories": "доланиг дожаран категореш йац",
+	"categorytree-no-pages": "агӀонаш йа бухара категореш йац",
+	"categorytree-not-found": "Категори «$1» ца карийна.",
+	"categorytree-error": "Хаамаш чубахаран гӀалат.",
+	"categorytree-retry": "Дехар до, собар а дийна, йуха а гӀорта."
+}

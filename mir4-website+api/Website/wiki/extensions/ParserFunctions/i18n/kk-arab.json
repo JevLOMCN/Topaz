@@ -1,0 +1,20 @@
+{
+	"@metadata": {
+		"authors": []
+	},
+	"pfunc_time_error": "قاتە: جارامسىز ۋاقىت",
+	"pfunc_time_too_long": "قاتە: #time شاقىرۋى تىم كوپ",
+	"pfunc_rel2abs_invalid_depth": "قاتە: مىنا جولدىڭ جارامسىز تەرەندىگى «$1» (تامىر ٴتۇيىننىڭ ۇستىندەگى تۇيىنگە قاتىناۋ تالابى)",
+	"pfunc_expr_stack_exhausted": "ايتىلىم قاتەسى: ستەك سارقىلدى",
+	"pfunc_expr_unexpected_number": "ايتىلىم قاتەسى: كۇتىلمەگەن سان",
+	"pfunc_expr_preg_match_failure": "ايتىلىم قاتەسى: كۇتىلمەگەن preg_match ساتسىزدىگى",
+	"pfunc_expr_unrecognised_word": "ايتىلىم قاتەسى: تانىلماعان ٴسوز «$1»",
+	"pfunc_expr_unexpected_operator": "ايتىلىم قاتەسى: كۇتىلمەگەن وپەراتور $1",
+	"pfunc_expr_missing_operand": "ايتىلىم قاتەسى: $1 ٴۇشىن جوعالعان وپەراند",
+	"pfunc_expr_unexpected_closing_bracket": "ايتىلىم قاتەسى: كۇتىلمەگەن جاباتىن جاقشا",
+	"pfunc_expr_unrecognised_punctuation": "ايتىلىم قاتەسى: تانىلماعان تىنىس بەلگىسى «$1»",
+	"pfunc_expr_unclosed_bracket": "ايتىلىم قاتەسى: جابىلماعان جاقشا",
+	"pfunc_expr_division_by_zero": "نولگە ٴبولىنۋى",
+	"pfunc_expr_unknown_error": "ايتىلىم قاتەسى: بەلگىسىز قاتە ($1)",
+	"pfunc_expr_not_a_number": "$1 دەگەندە: ناتىيجە سان ەمەس"
+}

@@ -1,0 +1,19 @@
+{
+	"@metadata": {
+		"authors": [
+			"Papuass",
+			"Zuiks"
+		]
+	},
+	"apihelp-echomarkread-example-1": "Atzīmēt paziņojumu 8 kā izlasītu",
+	"apihelp-echomarkread-example-2": "Atzīmēt visus paziņojumus kā izlasītus",
+	"apihelp-echomarkread-example-3": "Atzīmēt paziņojumu 1 kā nelasītu",
+	"apihelp-echomarkseen-example-1": "Atzīmēt visu veidu paziņojumus kā redzētus",
+	"apihelp-echopushsubscriptions-param-command": "Veicamā darbība.",
+	"apihelp-query+notifications-param-alertcontinue": "Ja pieejami vēl paziņojumu rezultāti, izmanto šo, lai turpinātu.",
+	"apihelp-query+unreadnotificationpages-param-limit": "Maksimālais atgriežamo lapu skaits.",
+	"apihelp-echoarticlereminder-param-pageid": "Raksta ID, par ko dalībniekam atgādināt",
+	"apihelp-echoarticlereminder-param-title": "Raksta nosaukums, par ko dalībniekam atgādināt",
+	"apihelp-echoarticlereminder-param-comment": "Neobligāts lietotāja komentārs, ko iekļaut atgādinājumā",
+	"apierror-echo-event-creation-failed": "Neizdevās izveidot Echo notikumu"
+}

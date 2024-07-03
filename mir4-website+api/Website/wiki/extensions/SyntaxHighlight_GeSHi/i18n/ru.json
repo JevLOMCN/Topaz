@@ -1,0 +1,32 @@
+{
+	"@metadata": {
+		"authors": [
+			"Carn ru",
+			"Diman Russkov",
+			"Esukhovnina",
+			"Facenapalm",
+			"Kaganer",
+			"McDutchie",
+			"Okras",
+			"OlegVeliky",
+			"Pacha Tchernof",
+			"Александр Сигачёв"
+		]
+	},
+	"syntaxhighlight-desc": "Обеспечивает подсветки синтаксиса <code>&lt;syntaxhighlight&gt;</code> с помощью [http://pygments.org/ Pygments — средства подсветки синтаксиса для Python]",
+	"syntaxhighlight-error-category": "Страницы с ошибками в подсветке синтаксиса",
+	"syntaxhighlight-error-category-desc": "Произошла ошибка при попытке подсветки кода, включённого на страницу.",
+	"syntaxhighlight-enclose-category": "Страницы с устаревшим атрибутом подсветки синтаксиса «enclose»",
+	"syntaxhighlight-enclose-category-desc": "Подсветка синтаксиса на странице использует устаревший синтаксис.",
+	"syntaxhighlight-source-category": "Страницы, использующие устаревший тег source",
+	"syntaxhighlight-source-category-desc": "Подсветка синтаксиса на этой странице использует устаревшие теги источника.",
+	"syntaxhighlight-visualeditor-mwsyntaxhighlightinspector-code": "Код",
+	"syntaxhighlight-visualeditor-mwsyntaxhighlightinspector-language": "Язык",
+	"syntaxhighlight-visualeditor-mwsyntaxhighlightinspector-none": "(ничего)",
+	"syntaxhighlight-visualeditor-mwsyntaxhighlightinspector-showlines": "Показать номера строк",
+	"syntaxhighlight-visualeditor-mwsyntaxhighlightinspector-startingline": "начинающий номер линии",
+	"syntaxhighlight-visualeditor-mwsyntaxhighlightinspector-title": "Фрагмент кода",
+	"syntaxhighlight-error-pygments-invocation-failure": "Сбой при вызове Pygments",
+	"syntaxhighlight-error-unknown-language": "Неизвестный язык «$1»",
+	"syntaxhighlight-error-exceeds-size-limit": "Размер кода ($1 {{PLURAL:$1|байт|байта|байт}}) превышает разрешённый лимит в $2 {{PLURAL:$2|байт|байта|байт}}."
+}

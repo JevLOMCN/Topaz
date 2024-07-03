@@ -1,0 +1,23 @@
+{
+	"@metadata": {
+		"authors": [
+			"Carlos Cristia",
+			"Juanpabl"
+		]
+	},
+	"captcha-edit": "Ta editar ista pachina, faiga por favor a suma simpla que apareixe contino y escriba a solución en a caixa ([[Special:Captcha/help|más información]]):",
+	"captcha-desc": "Implementación de CAPTCHA ta protecher contra o spam y dovinanza de claus.",
+	"captcha-addurl": "A suya edición encluye vinclos esternos. Ta aduyar-nos en a proteción contra o spam automatizato, por favor, faiga a suma simpla que s'amuestra contino y escriba a respuesta en a caixa ([[Special:Captcha/help|más información]]):",
+	"captcha-badlogin": "Ta aduyar-nos en a protección contra a obtención automatizata de claus d'acceso, por favor faiga a suma simpla que amaneixe contino y escriba a respuesta en a caixa ([[Special:Captcha/help|más información]]):",
+	"captcha-createaccount": "Ta aduyar-nos en a proteción contra a creyación automatica de cuentas, por favor faiga a suma simpla que s'amuestra contino y escriba a respuesta en a caixa ([[Special:Captcha/help|más información]]):",
+	"captcha-createaccount-fail": "No ha escrito o codigo de confirmación, u iste ye incorreuto.",
+	"captcha-create": "Ta creyar a pachina, por favor faiga a suma simpla que s'amuestra contino y escriba a respuesta en a caixa ([[Special:Captcha/help|más información]]):",
+	"captcha-sendemail": "Ta protecher-nos contra o spam automatizau, resuelva a suma facil que se presienta contino y escriba a respuesta en o quadro de texto ([[Special:Captcha/help|mas información]]):",
+	"captcha-sendemail-fail": "O codigo de confirmación falta u ye incorrecto.",
+	"captcha-disabledinapi": "Ista acción requiere un captcha, asinas que no puede estar executada a traviés d'un API.",
+	"captchahelp-title": "Aduya sobre o \"captcha\"",
+	"captchahelp-cookies-needed": "Ta que o sistema funcione le cal tener as cookies activatas en o navegador.",
+	"captchahelp-text": "Os sitios web que acceptan mensaches d'o publico, como iste wiki, son a ormino obchecto d'abusos por spammers que fan servir ferramientas automatizatas ta encluyir-ie vinclos ta a-saber-los sitios. Encara que istos vinclos se pueden sacar, son un gran estorbo.\n\nBellas vegadas, especialment quan se mire de adhibir nuevos vinclos a una pachina, o wiki talment le amuestre una imachen con testo en color y distorsionato, y le pregunte quáls son as parolas amostratas. Como ista ye una fayena de mal automatizar, premitirá a os usuarios humanos fer as suyas edicions de vez que aturará a muitos spammers y atacants automaticos.\n\nManimenos, isto puede estar un barrache ta usuarios con visión limitata u que faigan ser navegadors basatos en texto u en a voz. Por l'inte no tenemos garra alternativa de audio. Por favor, contacte con os [[Special:ListAdmins|administradors]] d'o wiki ta demandar aduya si isto le ye privando de fer as suyas edicions lechitimas.\n\nPunche o botón 'enta zaga' d'o suyo navegador ta tornar ta l'editor de pachinas.",
+	"captcha-addurl-whitelist": " #<!-- leave this line exactly as it is --> <pre>\n# A sintaxi ye asinas:\n#  * Tot o que bi ha dende un carácter \"#\" dica a fin d'a linia ye un comentario\n#  * Qualsiquier linia con testo un troz d'expresión regular (regex) que sólo concordará con os hosts aintro d'URLs\n   #</pre> <!-- leave this line exactly as it is -->",
+	"right-skipcaptcha": "Fer accions que requieren o captcha sin fer servir o captcha"
+}

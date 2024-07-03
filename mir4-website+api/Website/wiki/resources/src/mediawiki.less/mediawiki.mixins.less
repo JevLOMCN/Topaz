@@ -1,0 +1,189 @@
+// Common LESS mixin library for MediaWiki
+//
+// By default the folder containing this file is included in the LESS import paths,
+// which makes this file importable by all less files via `@import 'mediawiki.mixins.less';`.
+//
+// The mixins included below are considered a public interface for MediaWiki extensions.
+// The signatures of parameterized mixins should be kept as stable as possible.
+//
+// See <http://lesscss.org/#-mixins> for more information about how to write mixins.
+
+/* stylelint-disable selector-class-pattern */
+
+// Deprecated in MW v1.38.0, use unprefixed `background-image:` now.
+.background-image( @url ) {
+	background-image: url( @url );
+}
+
+.horizontal-gradient( @startColor: #808080, @endColor: #fff, @startPos: 0, @endPos: 100% ) {
+	background-color: average( @startColor, @endColor );
+	background-image: linear-gradient( to right, @startColor @startPos, @endColor @endPos );
+}
+
+.vertical-gradient( @startColor: #808080, @endColor: #fff, @startPos: 0, @endPos: 100% ) {
+	background-color: average( @startColor, @endColor );
+	background-image: linear-gradient( to bottom, @startColor @startPos, @endColor @endPos );
+}
+
+// Deprecated in MW v1.38.0, use unprefixed `list-style-image:` now.
+.list-style-image( @url ) {
+	list-style-image: url( @url );
+}
+
+.hyphens( @value: auto ) {
+	& when ( @value = auto ) {
+		// Legacy `word-wrap`; IE 6-11, Edge 12+, Firefox 3.5+, Chrome 4+, Safari 3.1+,
+		//   Opera 11.5+, iOS 3.2+, Android 2.1+
+		// `overflow-wrap` is W3 standard, but it doesn't seem as if browser vendors
+		//   will abandon `word-wrap` (it has wider support), therefore no duplication.
+		word-wrap: break-word;
+	}
+	& when ( @value = none ) {
+		word-wrap: normal;
+	}
+
+	// CSS3 hyphenation
+	// Chrome < 55 and Android 4.0 Browser support "-webkit-hyphens: none",
+	// but not the "auto" property. It is advisable to set the @lang attribute
+	// on the HTML element to enable hyphenation support and improve accessibility.
+	// Chrome 55-87 only supports `auto` exclusively on Mac platform.
+	/* stylelint-disable plugin/no-unsupported-browser-features */
+	-webkit-hyphens: @value; // Safari 5.1+, iOS 4.2+
+	-moz-hyphens: @value;    // Firefox 6-42
+	-ms-hyphens: @value;     // IE 10-11, Edge 12-18
+	hyphens: @value;         // Firefox 43+, Chrome 55+, Android 62+, UC Browser 11.8+, Samsung 6.2+
+	/* stylelint-enable plugin/no-unsupported-browser-features */
+}
+
+// Use to truncate overflow text with value of `ellipsis` (mixin default)
+// a custom string (Firefox 9+ only).
+// Recommended usage: `text-overflow( @visible: false )` for best readability.
+.text-overflow( @visible: false, @value: ellipsis ) {
+	& when ( @visible = true ) {
+		overflow: visible;
+		text-overflow: clip;
+		white-space: normal;
+	}
+	& when ( @visible = false ) {
+		overflow: hidden;
+		text-overflow: @value;
+		white-space: nowrap;
+	}
+}
+
+// Enable (`text` or `element`) or prevent (`none`) text/element selection.
+// Since MW 1.38
+.user-select( @value ) {
+	-webkit-user-select: @value; // Chrome 4-53, Safari 3.1-, Opera 15-40, Android 2.1-4.4.4
+	-moz-user-select: @value; // Firefox 2-68
+	-ms-user-select: @value; // IE 10-11, Edge 12-18
+	user-select: @value;
+}
+
+// Not supported in IE11, Chrome <= 55, Opera < 42
+.position-sticky() {
+	/* stylelint-disable-next-line plugin/no-unsupported-browser-features */
+	-webkit-position: sticky; // Support: Safari < 13
+	/* stylelint-disable-next-line plugin/no-unsupported-browser-features */
+	position: sticky;
+}
+
+.column-count( @value ) {
+	-webkit-column-count: @value; // Chrome 4-49, Safari 3.1-8.4, iOS 3.2-8.4
+	-moz-column-count: @value; // Firefox 2-51
+	column-count: @value; // Chrome 50+, Firefox 52+, Edge, IE 10+, Opera 11.5+, Android 90+
+}
+
+.column-width( @value ) {
+	-webkit-column-width: @value; // Chrome 4-49, Safari 3.2-8.4
+	-moz-column-width: @value; // Firefox 1.5-49
+	column-width: @value; // IE 10+, Opera 11.5+
+}
+
+.column-break-inside-avoid() {
+	-webkit-column-break-inside: avoid; // Chrome 4-49, Safari 3-8.4, Opera 15-36
+	page-break-inside: avoid; // Firefox 1.5-51
+	break-inside: avoid-column; // IE 10+, Opera 11.1-12.1
+}
+
+.column-break-after-avoid() {
+	break-after: avoid-column; // IE 10+, Opera 11.1-12.1, Chrome 108+
+}
+
+.flex-display( @display: flex ) {
+	display: @display;
+}
+
+.flex-wrap( @wrap: wrap ) {
+	flex-wrap: @wrap;
+}
+
+.flex( @grow: 1, @shrink: 1, @width: auto, @order: 1 ) {
+	// Current spec
+	justify-content: space-between;
+	width: @width; // Fallback for flex-basis
+	flex: @grow @shrink @width;
+	order: @order;
+}
+
+// “Clearfix Reloaded” Mixin
+// The mixin is used on a container with floating children.
+// Margin collapsing is a feature, not a bug, hence relying on `display: block` as default.
+// With `.mixin-clearfix( @collapse: false; );` you call it to let `margin`s not collapse.
+// See https://www.cssmojo.com/the-very-latest-clearfix-reloaded/
+// In future we might replace the `&:after` pseudo-element with
+// `display: flow-root;` altogether.
+// Support: Firefox 3.5+, Safari 4+, Chrome, Opera 15+, IE 8+
+.mixin-clearfix( @collapse: true ) {
+	&::after {
+		clear: both;
+
+		// Margin collapsing as feature. Apply it.
+		& when ( @collapse ) {
+			content: '';
+			display: block;
+		}
+	}
+	// Margin collapsing as bug. Prevent it.
+	& when not ( @collapse ) {
+		&::before,
+		&::after {
+			content: '';
+			display: table;
+		}
+	}
+}
+
+/* stylelint-disable selector-no-vendor-prefix */
+.mixin-placeholder( @rules ) {
+	// Chrome 4-56, WebKit, Blink, Edge 12-18
+	&::-webkit-input-placeholder {
+		@rules();
+	}
+	// Internet Explorer 10-11
+	&:-ms-input-placeholder {
+		@rules();
+	}
+	// Firefox 19-50
+	&::-moz-placeholder {
+		@rules();
+	}
+	// W3C Standard Selectors Level 4
+	&::placeholder {
+		@rules();
+	}
+}
+/* stylelint-enable selector-no-vendor-prefix */
+
+// Screen Reader Helper Mixin
+.mixin-screen-reader-text() {
+	display: block;
+	position: absolute !important; /* stylelint-disable-line declaration-no-important */
+	clip: rect( 1px, 1px, 1px, 1px );
+	width: 1px;
+	height: 1px;
+	margin: -1px;
+	border: 0;
+	padding: 0;
+	overflow: hidden;
+}

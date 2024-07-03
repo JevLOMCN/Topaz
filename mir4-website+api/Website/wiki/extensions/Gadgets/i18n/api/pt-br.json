@@ -1,0 +1,24 @@
+{
+	"@metadata": {
+		"authors": [
+			"Almondega",
+			"Felipe L. Ewald"
+		]
+	},
+	"apihelp-query+gadgetcategories-summary": "Retorna uma lista de categorias de gadgets.",
+	"apihelp-query+gadgetcategories-param-prop": "Que informação de categoria obter:\n;name:Nome interno da categoria.\n;title:Título da categoria.\n;members:Número de gadgets na categoria.",
+	"apihelp-query+gadgetcategories-param-names": "Nomes de categorias a consultar.",
+	"apihelp-query+gadgetcategories-example-1": "Obter unha lista de categorías de gadgets existentes",
+	"apihelp-query+gadgetcategories-example-2": "Obter toda a informação sobre categorias nomeadas \"foo\" e \"bar\"",
+	"apihelp-query+gadgets-summary": "Retornar uma lista de gadgets usados nesta wiki.",
+	"apihelp-query+gadgets-param-prop": "Que informação obter do gadget:\n;id:Identificador interno de gadget.\n;metadata:Metadatos do gadget.\n;desc:Descrição do gadget transformada em HTML (pode ser lenta, usar só se for realmente necessária).",
+	"apihelp-query+gadgets-param-categories": "De que categorias consultar os gadgets.",
+	"apihelp-query+gadgets-param-ids": "Identificadores dos gadgets a consultar.",
+	"apihelp-query+gadgets-param-allowedonly": "Listar só os gadgets permitidos para o usuário atual.",
+	"apihelp-query+gadgets-param-enabledonly": "Listar só os gadgets habilitados pelo usuário atual.",
+	"apihelp-query+gadgets-example-1": "Obter uma lista de gadgets junto com suas descrições",
+	"apihelp-query+gadgets-example-2": "Obter uma lista de gadgets com todas as propriedades possíveis",
+	"apihelp-query+gadgets-example-3": "Obter uma lista de gadgets pertencentes a categoria \"foo\"",
+	"apihelp-query+gadgets-example-4": "Obter informação sobre gadgets \"foo\" e \"bar\"",
+	"apihelp-query+gadgets-example-5": "Obter uma lista de gadgets habilitados pelo usuário atual"
+}

@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Liuxinyu970226"
+		]
+	},
+	"apihelp-titleblacklist-summary": "验证一个页面的标题、文件名或用户名是否触发标题黑名单。",
+	"apihelp-titleblacklist-param-title": "验证是否触发黑名单的字符串。",
+	"apihelp-titleblacklist-param-action": "要检查的操作。",
+	"apihelp-titleblacklist-param-nooverride": "不要尝试绕开标题黑名单。",
+	"apihelp-titleblacklist-example-1": "检查[[Foo]]是否被列入黑名单",
+	"apihelp-titleblacklist-example-2": "检查[[Bar]]是否被列入禁止编辑的黑名单",
+	"apihelp-createaccount-param-ignoretitleblacklist": "忽略电子欺骗检查（需要以下权限之一：<code>tboverride</code>、<code>tboverride-account</code>）。"
+}

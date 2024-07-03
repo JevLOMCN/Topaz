@@ -1,0 +1,29 @@
+{
+	"@metadata": {
+		"authors": [
+			"Amire80",
+			"Gomoko",
+			"McDutchie",
+			"Thibaut120094",
+			"Urhixidur",
+			"Verdy p",
+			"Wladek92"
+		]
+	},
+	"apihelp-query+extracts-summary": "Renvoie des extraits en texte brut ou en HTML limité des pages données.",
+	"apihelp-query+extracts-param-chars": "Nombre de caractères à retourner. Le texte courant retourné peut être légèrement plus long.",
+	"apihelp-query+extracts-param-sentences": "Combien de phrases renvoyer.",
+	"apihelp-query+extracts-param-limit": "Combien d’extraits à retourner (des extraits multiples peuvent être retournés si « exintro » est mis à « true »).",
+	"apihelp-query+extracts-param-intro": "Retourner uniquement le contenu précédant la première section.",
+	"apihelp-query+extracts-param-plaintext": "Retourner les extraits au format texte brut au lieu de HTML limité.",
+	"apihelp-query+extracts-param-sectionformat": "Comment mettre en forme les sections en mode texte brut:",
+	"apihelp-query+extracts-paramvalue-sectionformat-plain": "Pas de formatage.",
+	"apihelp-query+extracts-paramvalue-sectionformat-wiki": "Formatage de style Wikitext (== comme ceci ==).",
+	"apihelp-query+extracts-paramvalue-sectionformat-raw": "La représentation de ce module (section titres préfixée avec &lt;ASCII 1&gt;&lt;ASCII 2&gt;&lt;section level&gt;&lt;ASCII 2&gt;&lt;ASCII 1&gt;).",
+	"apihelp-query+extracts-example-1": "Obtenir un extrait de 175 caractères",
+	"apiwarn-textextracts-limit": "<var>exlimit</var> était trop grand pour une requête d'extraction d'article complet, réduit à $1.",
+	"apiwarn-textextracts-unsupportedmodel": "$1 a le modèle de contenu $2, qui n’est pas pris en charge ; renvoi d’un extrait vide.",
+	"apiwarn-textextracts-title-in-file-namespace": "L’extraction pour un titre dans l’espace de noms Fichier a été demandée, rien n’a été renvoyé.",
+	"apiwarn-textextracts-sentences-and-html": "Le paramètre <var>$1sentences</var> peut avoir des résultats inattendus quand il est utilisé en mode HTML.",
+	"apiwarn-textextracts-malformed-html": "Le HTML peut être malformé ou non équilibré et peut omettre des images en ligne. À utiliser à vos risques et périls. Les problèmes connus sont listés sur https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:TextExtracts#Caveats."
+}

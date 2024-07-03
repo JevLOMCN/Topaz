@@ -1,0 +1,26 @@
+{
+	"@metadata": {
+		"authors": [
+			"Kghbln",
+			"Matěj Suchánek",
+			"Metalhead64",
+			"Raimond Spekking"
+		]
+	},
+	"syntaxhighlight-desc": "Ergänzt das Tag <code>&lt;syntaxhighlight&gt;</code> zur Syntaxhervorhebung mit Hilfe des [http://pygments.org/ Python-Syntax-Highlighters „Pygments“]",
+	"syntaxhighlight-error-category": "Seiten mit Syntaxhervorhebungsfehlern",
+	"syntaxhighlight-error-category-desc": "Es gab einen Fehler bei der Syntaxhervorhebung des auf der Seite eingebetteten Codes.",
+	"syntaxhighlight-enclose-category": "Seiten mit veraltetem enclose-Attribut",
+	"syntaxhighlight-enclose-category-desc": "Die Syntaxhervorhebung auf der Seite verwendet die veraltete enclose-Syntax.",
+	"syntaxhighlight-source-category": "Seiten mit dem veralteten source-Tag",
+	"syntaxhighlight-source-category-desc": "Die Syntaxhervorhebung auf der Seite verwendet das veraltete source-Tag.",
+	"syntaxhighlight-visualeditor-mwsyntaxhighlightinspector-code": "Code",
+	"syntaxhighlight-visualeditor-mwsyntaxhighlightinspector-language": "Sprache",
+	"syntaxhighlight-visualeditor-mwsyntaxhighlightinspector-none": "(Keine)",
+	"syntaxhighlight-visualeditor-mwsyntaxhighlightinspector-showlines": "Zeilennummern anzeigen",
+	"syntaxhighlight-visualeditor-mwsyntaxhighlightinspector-startingline": "Startzeilennummer",
+	"syntaxhighlight-visualeditor-mwsyntaxhighlightinspector-title": "Codeblock",
+	"syntaxhighlight-error-pygments-invocation-failure": "Fehler beim Aufrufen von Pygments",
+	"syntaxhighlight-error-unknown-language": "Unbekannte Sprache „$1“",
+	"syntaxhighlight-error-exceeds-size-limit": "Die Codegröße von {{PLURAL:$1|einem Byte|$1 Bytes}} überschreitet das erlaubte Maximum von {{PLURAL:$2|einem Byte|$2 Bytes}}"
+}

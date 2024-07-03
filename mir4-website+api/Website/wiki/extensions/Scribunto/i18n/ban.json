@@ -1,0 +1,35 @@
+{
+	"@metadata": {
+		"authors": [
+			"Carma citrawati",
+			"Chinamoonroll",
+			"NoiX180"
+		]
+	},
+	"scribunto-line": "ring baris $1",
+	"scribunto-module-line": "ring $1 baris $2",
+	"scribunto-parser-dialog-title": "Galat skrip",
+	"scribunto-error-short": "Galat skrip: $1",
+	"scribunto-error-long": "Galat skrip:\n\n$1",
+	"scribunto-doc-page-name": "Module:$1/doc",
+	"scribunto-doc-page-does-not-exist": "''Dokuméntasi antuk modul puniki prasida kakardi ring [[$1]]''",
+	"scribunto-doc-page-header": "'''Puniki kaca dokuméntasi antuk [[$1]]'''",
+	"scribunto-console-title": "Debug konsol",
+	"scribunto-console-too-large": "Sési konsol puniki kaagengan. Usap lelintihan konsol utawi kirangin ukuran modul.",
+	"scribunto-console-current-src": "konsol dagingan",
+	"scribunto-console-clear": "Resikin",
+	"scribunto-common-error-category": "Kaca antuk galat skrip",
+	"scribunto-lua-error": "Pikobet Lua :$2",
+	"scribunto-limitreport-timeusage": "Pawigunaan kala Lua",
+	"scribunto-limitreport-timeusage-value": "$1/$2 detik",
+	"scribunto-limitreport-virtmemusage": "Ukuran cingakan Lua",
+	"scribunto-limitreport-virtmemusage-value": "$1/$2 {{PLURAL:$2|bita}}",
+	"scribunto-limitreport-estmemusage-value": "$1 {{PLURAL:$1|bita}}",
+	"scribunto-limitreport-memusage-value": "$1/$2 {{PLURAL:$2|bita}}",
+	"scribunto-limitreport-profile": "Profil Lua",
+	"scribunto-limitreport-profile-ms": "$1 md",
+	"scribunto-limitreport-profile-percent": "$1%",
+	"scribunto-limitreport-logs": "Log Lua",
+	"nstab-module": "Modul",
+	"tooltip-ca-nstab-module": "Cingak kaca modul"
+}

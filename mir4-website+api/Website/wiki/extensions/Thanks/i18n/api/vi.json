@@ -1,0 +1,18 @@
+{
+	"@metadata": {
+		"authors": [
+			"Doraemonluonbentoi",
+			"Flyplanevn27",
+			"Minh Nguyen",
+			"Nghiemtrongdai VN"
+		]
+	},
+	"apihelp-flowthank-summary": "Gửi lời cảm ơn công khai vì một bình luận Flow.",
+	"apihelp-flowthank-param-postid": "UUID của bài viết để cảm ơn.",
+	"apihelp-flowthank-example-1": "Gửi lời cảm ơn về nhận xét với <kbd>UUID xyz789</kbd>",
+	"apihelp-thank-summary": "Gửi thông báo cảm ơn đến một biên tập viên.",
+	"apihelp-thank-param-rev": "Số thay đổi để cảm ơn ai đó. Cần cung cấp số này hoặc “log”.",
+	"apihelp-thank-param-log": "Đăng nhập ID để cảm ơn ai đó. Cái này hoặc 'vòng quay' phải được cung cấp.",
+	"apihelp-thank-param-source": "Ví dụ: một chuỗi ngắn mô tả nguồn của yêu cầu <kbd>khác</kbd> hay <kbd>lịch sử</kbd>.",
+	"apihelp-thank-example-1": "Gửi lời cảm ơn vì đã sửa đổi <kbd>ID 456</kbd>, với nguồn là một trang khác"
+}

@@ -1,0 +1,132 @@
+/*!
+ * VisualEditor Initialization Debug Bar styles.
+ *
+ * @copyright See AUTHORS.txt
+ */
+
+.ve-ui-debugBar {
+	clear: both;
+
+	&-commands {
+		margin-bottom: -0.5em;
+
+		.ve-ui-debugBar-commands-divider {
+			border-right: 1px solid #c8ccd1;
+			width: 0;
+		}
+
+		> .oo-ui-widget,
+		.ve-ui-debugBar-commands-divider {
+			display: inline-block;
+			vertical-align: middle;
+			margin-right: 1em;
+			margin-bottom: 0.5em;
+
+			&:last-child {
+				margin-right: 0;
+			}
+		}
+	}
+
+	&-selectionLabel {
+		min-width: 20em;
+		/* Support: Blink, Gecko, Webkit */
+		/* Specify a valid second value to fix size, see T176636 */
+		font-family: monospace, monospace;
+	}
+
+	&-dump {
+		margin-top: 2em;
+
+		> table {
+			background-color: #f8f9fa;
+			font-size: 0.85em;
+			width: 100%;
+			border: 1px solid #c8ccd1;
+			border-radius: 0;
+			border-top-right-radius: 0.25em;
+			border-top-left-radius: 0.25em;
+		}
+
+		> .oo-ui-toggleWidget {
+			margin-bottom: 0.25em;
+		}
+
+		td {
+			background-color: #fff;
+			padding: 0.25em 1em;
+			vertical-align: top;
+		}
+
+		&-linmod-data {
+			width: 50%;
+		}
+
+		th {
+			color: #54595d;
+			padding: 0.5em 1em;
+			text-shadow: 0 1px 1px #fff;
+		}
+
+		ol {
+			color: #72777d;
+			padding-left: 1.5em;
+		}
+
+		li {
+			.ve-ui-debugBar-dump-element,
+			.ve-ui-debugBar-dump-char,
+			.ve-ui-debugBar-dump-achar {
+				background-color: #f8f9fa;
+				color: #000;
+				display: inline-block;
+				border-radius: 2px;
+				margin: 0.25em 0.25em 0.25em 0;
+				padding: 0.125em 0.5em;
+				text-shadow: 0 1px 1px #fff;
+			}
+
+			.ve-ui-debugBar-dump-element {
+				background-color: #def;
+			}
+
+			.ve-ui-debugBar-dump-char {
+				background-color: #dfe;
+			}
+
+			.ve-ui-debugBar-dump-achar {
+				background-color: #fed;
+			}
+
+			.ve-ui-debugBar-dump-note {
+				color: #a2a9b1;
+			}
+		}
+	}
+
+	&-filibuster {
+		background-color: #f8f9fa;
+		font-size: 0.875em;
+		margin-top: 2em;
+		width: 100%;
+		border: 1px solid #c8ccd1;
+		border-radius: 0;
+		border-top-right-radius: 0.25em;
+		border-top-left-radius: 0.25em;
+	}
+
+	&-transactions {
+		> ol > li {
+			border-left: 2em solid #f8f9fa;
+		}
+
+		ol ol {
+			margin: 1em 0;
+			padding-left: 0;
+
+			li {
+				padding-left: 1ex;
+			}
+		}
+	}
+}

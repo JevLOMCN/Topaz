@@ -1,0 +1,30 @@
+{
+	"@metadata": {
+		"authors": [
+			"Macofe",
+			"Murma174",
+			"Pyt"
+		]
+	},
+	"math-desc": "Wiset matemaatisk formeln tesken <code>&lt;math&gt;</code> an <code>&lt;/math&gt;</code> uun.",
+	"math-visualeditor-mwlatexinspector-display": "Uunwisin",
+	"math-visualeditor-mwlatexinspector-display-block": "Sper",
+	"math-visualeditor-mwlatexinspector-display-default": "Fööriinstelang",
+	"math-visualeditor-mwlatexinspector-display-inline": "Inline",
+	"math-visualeditor-mwlatexinspector-id": "Link ID (freiwalag)",
+	"math_failure": "Bi't auersaaten as wat skiaf gingen.",
+	"math_invalidjson": "$1 Server oonswaar as ferkiard JSON.",
+	"math_invalidresponse": "$1: Ferkiard oonswaar („$3“) faan server „$2“:",
+	"math_invalidxml": "MathML of SVG as ferkiard XML.",
+	"math_mathoid_error": "Konwerjuunsfeeler. Di server („$1“) sait: „$2“",
+	"math_syntax_error": "Süntaksfeeler",
+	"math_timeout": "$1 tu leed för \"$2\"",
+	"math_unknown_error": "Ünbekäänd feeler",
+	"math_unknown_function": "Ünbekäänd funktjuun „$1“",
+	"mw-math-latexml": "LaTeXML (experimentel; werket mä MathML)",
+	"mw-math-mathml": "MathML mä SVG- of PNG-fallback (beeder för neier browsern an halperwerktjüügen)",
+	"mw-math-source": "LaTeX-kwel (för tekst-browsern)",
+	"prefs-math": "TeX",
+	"mathwikibase": "Informatsion tu matemaatisk formeln",
+	"math-wikibase-formula-information": "Informatsion tu matemaatisk formeln"
+}

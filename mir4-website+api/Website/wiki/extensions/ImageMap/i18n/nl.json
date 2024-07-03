@@ -1,0 +1,21 @@
+{
+	"@metadata": {
+		"authors": [
+			"McDutchie",
+			"SPQRobin",
+			"Siebrand"
+		]
+	},
+	"imagemap_desc": "Maakt aanklikbare imagemaps mogelijk met het label <code>&lt;imagemap&gt;</code>",
+	"imagemap_no_image": "Fout: geef een afbeelding op in de eerste regel",
+	"imagemap_invalid_image": "Fout: de afbeelding is beschadigd of bestaat niet",
+	"imagemap_bad_image": "Fout: de afbeelding is niet toegestaan op deze pagina.",
+	"imagemap_no_link": "Fout: er is geen geldige koppeling aangetroffen aan het einde van regel $1",
+	"imagemap_invalid_title": "Fout: er staat een ongeldige titel in de koppeling op regel $1",
+	"imagemap_missing_coord": "Fout: niet genoeg coördinaten voor vorm in regel $1",
+	"imagemap_unrecognised_shape": "Fout: niet herkende vorm in regel $1. Iedere regel moet beginnen met één van de commando's: <code>default</code>, <code>rect</code>, <code>circle</code> of <code>poly</code>.",
+	"imagemap_invalid_coord": "Fout: ongeldige coördinaten in regel $1, moet een getal zijn",
+	"imagemap_invalid_desc": "Fout: ongeldige beschrijvingsspecificatie, dit moet er één zijn uit de volgende lijst: $1",
+	"imagemap_description": "Over deze afbeelding",
+	"imagemap_poly_odd": "Fout: polygoon gevonden met een oneven aantal coördinaten op regel $1"
+}

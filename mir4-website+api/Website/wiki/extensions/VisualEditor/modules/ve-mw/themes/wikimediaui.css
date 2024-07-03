@@ -1,0 +1,24 @@
+/*!
+ * VisualEditor MediaWiki theme customizations.
+ *
+ * @copyright See AUTHORS.txt
+ */
+
+/* ve.ui.MWSaveDialog summary */
+
+.ve-ui-mwSaveDialog-withOptions .ve-ui-mwSaveDialog-summary .oo-ui-inputWidget-input {
+	border-bottom-right-radius: 0;
+	border-bottom-left-radius: 0;
+}
+
+.ve-ui-mwSaveDialog-options {
+	border-bottom-right-radius: 2px;
+	border-bottom-left-radius: 2px;
+}
+
+/* Ace editor widget */
+
+/* stylelint-disable-next-line selector-class-pattern */
+.ve-ui-mwAceEditorWidget-readOnly .ace_editor {
+	background: #f3f3f3;
+}

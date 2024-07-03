@@ -1,0 +1,17 @@
+{
+	"@metadata": {
+		"authors": [
+			"Imre",
+			"Kghbln",
+			"Raimond Spekking",
+			"The Evil IP address"
+		]
+	},
+	"captcha-edit": "Zur Bearbeitung der Seite lösen Sie die nachfolgende Rechenaufgabe und tragen Sie das Ergebnis in das Feld unten ein [[Special:Captcha/help|(Fragen oder Probleme?)]].",
+	"captcha-addurl": "Ihre Bearbeitung enthält neue externe Links.\nUm das Wiki vor automatisiertem Spam zu schützen, bitten wir Sie die untenstehende einfache Rechenaufgabe zu lösen und Ihre Antwort in das Feld einzugeben, damit Ihre Bearbeitung gespeichert werden kann ([[Special:Captcha/help|mehr Informationen …]]):",
+	"captcha-badlogin": "Um das Wiki vor der automatisierten Kompromittierung der Benutzerkonten zu schützen, bitten wir Sie die untenstehende einfache Rechenaufgabe zu lösen und Ihre Antwort in das Feld einzugeben ([[Special:Captcha/help|mehr Informationen …]]):",
+	"captcha-createaccount": "Um das Wiki vor der automatisierten Erstellung von Benutzerkonten zu schützen, bitten wir Sie die untenstehende einfache Rechenaufgabe zu lösen und Ihre Antwort in das Feld einzugeben ([[Special:Captcha/help|mehr Informationen …]]):",
+	"captcha-create": "Zur Erstellung der Seite lösen Sie die nachfolgende Rechenaufgabe und tragen Sie das Ergebnis in das Feld unten ein [[Special:Captcha/help|(Fragen oder Probleme?)]].",
+	"captcha-sendemail": "Um das Wiki vor automatisiertem Spam zu schützen, bitten wir Sie die untenstehende einfache Rechenaufgabe zu lösen und Ihre Antwort in das Feld einzugeben ([[Special:Captcha/help|mehr Informationen …]]):",
+	"captchahelp-text": "Internetangebote, die für Beiträge von praktisch jedem offen sind — so wie dieses Wiki — werden oft von Spammern missbraucht, die ihre Links automatisch auf vielen Webseiten platzieren. Diese Spam-Links können wieder entfernt werden, sie sind aber ein erhebliches Ärgernis.\n\nIn manchen Fällen, insbesondere beim Hinzufügen von neuen Weblinks zu einer Seite, kann es vorkommen, dass dieses Wiki ein Bild mit einem farbigen und verzerrten Text anzeigt und dazu auffordert, die angezeigten Wörter einzutippen.\nDa eine solche Aufgabe nur schwer automatisch erledigt werden kann, werden dadurch die meisten Spammer, die mit automatischen Werkzeugen arbeiten, gestoppt, wogegen menschliche Benutzer ihren Beitrag absenden können.\n\nLeider kann dies zu Schwierigkeiten für Personen führen, die über eine eingeschränkte Sehfähigkeit verfügen oder text- oder sprachbasierte Browser verwenden. Aktuell sind keine Audio-Captchas verfügbar.\n\nBitte kontaktieren Sie einen [[Special:ListAdmins|Administratoren]] für weitere Hilfe, wenn dies es unmöglich macht, erwünschte Bearbeitungen vorzunehmen.\n\nDer „Zurück“-Knopf des Browsers führt zurück zum Bearbeitungsfenster."
+}

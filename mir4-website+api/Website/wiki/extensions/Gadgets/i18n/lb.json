@@ -1,0 +1,36 @@
+{
+	"@metadata": {
+		"authors": [
+			"Les Meloures",
+			"Robby",
+			"Soued031",
+			"Volvox"
+		]
+	},
+	"gadgets-desc": "Erméiglecht de Benotzer et perséinlech [[Special:Gadgets|CSS a JavaScript Gadgeten]] an hiren [[Special:Preferences#mw-prefsection-gadgets|Astellunge]] festzeleeën.",
+	"prefs-gadgets": "Gadgeten",
+	"gadgets-prefstext": "Lëscht vu spezielle Gadgeten déi fir Äre Benotzerkont aktivéiert kënne ginn.\nD'Gadgete baséiere meeschtens op engem JavaScript, dofir muss JavaScript an Ärem Browser aktivéiert sinn, fir datt se funktionéieren.\nD'Gadgete funktionéieren awer net op dëser Säit mat de perséinlechen Astellungen.\n\nAusserdeem sollt Dir wëssen, datt dës Gadgete generell net Deel vu MediaWiki sinn, a meeschtens vu Benotzer vu lokale Wikien entwéckelt an ënnerhale ginn.\nLokal Wiki-Administrateure kënnen d'Lëscht vun den disponibele Gadgeten op de Säiten [[MediaWiki:Gadgets-definition|Definitioune vun Gadgeten]] a [[Special:Gadgets|Beschreiwunge vu Gadgeten]] änneren. D'Zuel vun de Benotzer vun all Gadget op dëser Wiki stinn op [[Special:GadgetUsage|Statistike vum Gebrauch vu Gadgeten]].",
+	"special-gadgets": "Gadgeten",
+	"gadgetusage": "Statistike vum Benotze vum Gadget",
+	"gadgetusage-gadget": "Gadget",
+	"gadgetusage-usercount": "Zuel vun de Benotzer",
+	"gadgetusage-noresults": "Keng Gadgete fonnt.",
+	"gadgetusage-activeusers": "Aktiv Benotzer",
+	"gadgetusage-default": "Standard",
+	"gadgets-title": "Gadgeten",
+	"gadgets-pagetext": "Ënnendrënner ass eng Lëscht vun de spezielle Gadgeten déi d'Benotzer op hire [[Special:Preferences#mw-prefsection-gadgets|Benotzer-Astellungen]] aschalte kënnen, sou wéi dat op [[MediaWiki:Gadgets-definition|definéiert]] ass.\nDës Iwwersiicht gëtt einfachen Zougang zu de Systemmessage-Säiten, déi all Gadget beschreiwen an zum Programméiercode vun dem Gadget.",
+	"gadgets-editdescription": "Beschreiwung änneren",
+	"gadgets-viewdescription": "Beschreiwung weisen",
+	"gadgets-uses": "Benotzt",
+	"gadgets-required-rights": "Erfuerdert {{PLURAL:$2|dat follgend Recht|déi follgend Rechter}}: $1.",
+	"gadgets-required-skins": "Disponibel fir {{PLURAL:$2|d'Ausgesinn $1|dës $2 Ausgesinn: $1}}.",
+	"gadgets-required-categories": "Limitéiert op {{PLURAL:$2|d'Kategorie $1|déi folgend Kategorien: $1}}.",
+	"gadgets-default": "Fir jiddwereen als Standard ageschalt.",
+	"gadgets-export": "Export",
+	"gadgets-export-title": "Export vu Gadgeten",
+	"gadgets-not-found": "Gadget \"$1\" net fonnt.",
+	"gadgets-export-text": "Fir de Gadget $1 z'exportéieren klickt wgl. op de(n) \"{{int:gadgets-export-download}}\"-Knäppchen, späichert den erofgelueden Fichier, gitt op Spezial:Import op der Zil-Wiki a luet en do erop. Duerno setzt der op d'MediaWiki:Gadgets-Definitiouns Säit dëst dobäi:<pre>$2</pre>\nDir musst déi erfuerdert Rechter(inklusiv d'Recht fir Systemmessagen z'änneren) op der Zil-Wiki hunn an den Import vun eropgelueden Fichiere muss ageschalt sinn.",
+	"gadgets-export-download": "Eroflueden",
+	"gadgets-validate-invalidtitle": "De Säitentitel \"$1\" ass net gülteg",
+	"gadgets-validate-nopage": "D'Säit „$1“ gëtt et net."
+}

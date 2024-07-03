@@ -1,0 +1,41 @@
+{
+	"@metadata": {
+		"authors": [
+			"Arystanbek",
+			"Macofe",
+			"СеніңШешең"
+		]
+	},
+	"thanks-desc": "Қатысушылардың өңдемелеріне, пікірлеріне және тағы басқаларға рахмет айту үшін сілтемелерді қосу",
+	"thanks-thank": "{{GENDER:$1|{{GENDER:$2|рақмет}}}}",
+	"thanks-thanked": "{{GENDER:$1|{{GENDER:$2|рахмет айттыңыз}}}}",
+	"thanks-button-thank": "{{GENDER:$1|{{GENDER:$2|Рахметіңізді білдіру}}}}",
+	"thanks-button-thanked": "{{GENDER:$1|{{GENDER:$2|Рахмет білдірілді}}}}",
+	"thanks-error-undefined": "Рахмет білдіру әрекеті орындалмады (қате код: $1). Тағы қайталап көріңіз.",
+	"thanks-error-invalidrevision": "Нұсқа ID-і жарамсыз.",
+	"thanks-error-ratelimited": "{{GENDER:$1|Сіз}} шекті жылдамдықтан асырдыңыз. Біраз уақыт күте тұрып қайталап көріңіз.",
+	"thanks-thank-tooltip": "Бұл {{GENDER:$2|қатысушыға}} рахмет айту ескертпесін {{GENDER:$1|жіберу}}",
+	"thanks-thank-tooltip-no": "Рахмет ескертпесін {{GENDER:$1|болдырмау}}",
+	"thanks-thank-tooltip-yes": "Рахмет ескертпесін {{GENDER:$1|жіберу}}",
+	"thanks-confirmation2": "Бұл өңдеме үшін жария түрде рахмет {{GENDER:$1|айтасыз ба?}}",
+	"thanks-thanked-notice": "$1 есімді қатысушыға {{GENDER:$2|оның|оның}} өңдемесіне рахметіңізді білдіруіңіз жіберілді.",
+	"thanks": "Рахметті жөнелту",
+	"thanks-submit": "Рахметті жөнелту",
+	"echo-pref-subscription-edit-thank": "Менің өңдемем үшін маған рахмет айту",
+	"echo-pref-tooltip-edit-thank": "Мен жасаған өңдеме үшін әлдебіреу рахмет айтқанда маған білдір.",
+	"echo-category-title-edit-thank": "Рахмет",
+	"notification-header-rev-thank": "$1 {{GENDER:$4|сізге}} <strong>$3</strong> бетіндегі өңдемеңізге {{GENDER:$2|рахметін}} білдірді.",
+	"notification-compact-header-edit-thank": "$1 {{GENDER:$3|сізге}} {{GENDER:$2|рахметін}} білдірді.",
+	"notification-bundle-header-rev-thank": "{{PLURAL:$1|Бір адам|$1 адам|100=99+ адам}} <strong>$2</strong> бетіндегі өңдемеңіз үшін {{GENDER:$3|сізге}} рахметін білдірді.",
+	"log-name-thanks": "Рахмет білдіру журналы",
+	"log-description-thanks": "Төменде басқа қатысушылардан рахмет айтылған қатысушылар тізімі берілген.",
+	"logentry-thanks-thank": "$1 {{GENDER:$4|$3}} есімді қатысушыға {{GENDER:$2|рахметін}} білдірді.",
+	"thanks-error-no-id-specified": "Рахметті жөнелту үшін нұсқа ID-ін көрсетуіңіз керек.",
+	"notification-link-text-view-post": "Пікірді көру",
+	"thanks-error-invalidpostid": "Жазба ID-і жарамсыз",
+	"flow-thanks-confirmation-special": "Бұл пікірге жария түрде рахмет айтқыңыз келе ме?",
+	"flow-thanks-thanked-notice": "$1 есімді қатысушыға {{GENDER:$2|оның|оның}} пікіріне рахметіңізді білдіруіңіз жіберілді.",
+	"notification-header-flow-thank": "$1 {{GENDER:$5|сізге}} \"<strong>$3</strong>\" бөліміндегі пікіріңізге {{GENDER:$2|рахметін}} білдірді.",
+	"notification-compact-header-flow-thank": "$1 {{GENDER:$3|сізге}} {{GENDER:$2|рахметін}} білдірді.",
+	"notification-bundle-header-flow-thank": "{{PLURAL:$1|Бір адам|$1 адам|100=99+ адам}} <strong>$2</strong> бетіндегі пікіріңіз үшін {{GENDER:$3|сізге}} рахметін білдірді."
+}

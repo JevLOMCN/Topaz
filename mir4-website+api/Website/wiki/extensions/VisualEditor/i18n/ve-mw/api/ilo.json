@@ -1,0 +1,30 @@
+{
+	"@metadata": {
+		"authors": [
+			"Amire80",
+			"Lam-ang"
+		]
+	},
+	"apihelp-visualeditor-param-basetimestamp": "No agidulin, isaad daytoy iti oras ken petsa iti rebision a naurnos. Mausar a mangduktal kadagiti agsinnungat a panagurnos.",
+	"apihelp-visualeditor-param-cachekey": "Para iti serialisado wenno dip, agusar iti resulta iti dati a kiddaw ti serializeforcache para iti daytoy a tekla. Tuonanna ti $1html.",
+	"apihelp-visualeditor-param-etag": "Ti ipatulod nga ETag.",
+	"apihelp-visualeditor-param-html": "Ti ipatulod nga HTML iti Parsoid a maipagbaliw iti wikitext.",
+	"apihelp-visualeditor-param-oldid": "Ti bilang ti rebision a mausar (kasisigud iti naudi a rebision).",
+	"apihelp-visualeditor-param-paction": "Aksion a maaramid.",
+	"apihelp-visualeditor-param-page": "Ti panid a pakaaramidan dagiti aksion.",
+	"apihelp-visualeditor-param-pst": "Kasakbayan nga idulin ti nabaliwan a teksto ti wiki sakbay nga ipatulod iti Parsoid (paction=parsefragment).",
+	"apihelp-visualeditor-param-starttimestamp": "No agidulin, isaad daytoy iti oras ken petsa idi naikarga ti panid. Mausar a mangduktal kadagiti agsinnungat a panagurnos.",
+	"apihelp-visualeditor-param-wikitext": "Ti teksto ti wiki a maipatulod iti Parsoid tapno maipagbaliw iti HTML (paction=parsefragment).",
+	"apihelp-visualeditoredit-param-basetimestamp": "No agidulin, isaad daytoy iti oras ken petsa iti rebision a naurnos. Mausar a mangduktal kadagiti agsinnungat a panagurnos.",
+	"apihelp-visualeditoredit-param-cachekey": "Usaren ti resulta ti dati a kiddaw ti serializeforcache iti daytoy a tekla. Tuonanna ti $1html.",
+	"apihelp-visualeditoredit-param-captchaid": "ID ti Captcha (no agidulin nga addaan iti sungbat ti captcha).",
+	"apihelp-visualeditoredit-param-captchaword": "Sungbat iti captcha (no agidulin nga addaan iti sungbat ti captcha).",
+	"apihelp-visualeditoredit-param-etag": "Ti ipatulod nga ETag.",
+	"apihelp-visualeditoredit-param-html": "Ti ipatulod nga HTML iti Parsoid iti pannakisinnukat para iti wikitext.",
+	"apihelp-visualeditoredit-param-minor": "Wagayway para iti bassit a panagurnos.",
+	"apihelp-visualeditoredit-param-needcheck": "No agidulin, isaad daytoy a parametro no ti rebision ket mabalin nga addaan kadagiti parikut a baniaga nga apan-agawid. Daytoy ket agresultanto iti maikkan iti etiketa a panagurnos.",
+	"apihelp-visualeditoredit-param-oldid": "Ti bilang ti rebision a mausar. Kasisigud iti kinaudi a rebision. Usaren ti 0 para iti maysa a baro a panid.",
+	"apihelp-visualeditoredit-param-page": "Ti panid a pakaaramidan dagiti aksion.",
+	"apihelp-visualeditoredit-param-starttimestamp": "No agidulin, isaad daytoy iti oras ken petsa idi naikarga ti panid. Mausar a mangduktal kadagiti agsinnungat a panagurnos.",
+	"apihelp-visualeditoredit-param-summary": "Pakabuklan ti inurnos."
+}

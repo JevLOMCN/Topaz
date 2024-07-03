@@ -1,0 +1,24 @@
+{
+	"@metadata": {
+		"authors": [
+			"Borichèt",
+			"Bèrto 'd Sèra",
+			"Dragonòt"
+		]
+	},
+	"captcha-edit": "Për fe-ie dle modìfiche ansima a st'artìcol-sì, për piasì ch'a fasa ël total ambelessì sota\ne ch'a buta l'arzulta ant ël quadrèt ([[Special:Captcha/help|për savejne dë pì]]):",
+	"captcha-desc": "A dà dle técniche CAPTCHA për protege contra la rumenta e ij tentativ d'andviné la ciav",
+	"captcha-addurl": "Soa modìfica a la gionta dj'anliure esterne. Për goerné la wiki da j'areclam aotomatisà, i-j ciamoma për piasì ch'a fasa ël total ambelessì-sota e ch'a buta l'arzultà ant ël quadrèt për salvé soa modìfica ([[Special:Captcha/help|për savejne dë pì]]):",
+	"captcha-badlogin": "Për goerné la wiki da ij programa ch'a fan ciav fàusse n'automàtich, i-j ciamoma për piasì ch'a fasa ël total ambelessì-sota e ch'a buta l'arzultà ant ël quadrèt ([[Special:Captcha/help|për savejne dë pì]]):",
+	"captcha-createaccount": "Për goerné la wiki da ij programa ch'a deurbo dij cont n'automàtich, i-j ciamoma për piasì ch'a fasa ël total ambelessì-sota\ne ch'a buta l'arzultà ant ël quadrèt ([[Special:Captcha/help|për savejne dë pì]]):",
+	"captcha-createaccount-fail": "Ël còde tërbol ò ch'a manca d'autut ò ch'a l'é pa bon.",
+	"captcha-create": "Për creé d'amblé sta pàgina-sì, për piasì ch'a fasa ël total ambelessì sota e ch'a buta l'arzultà<br />\nant ël quadrèt ([[Special:Captcha/help|për savejne dë pì]]):",
+	"captcha-sendemail": "Për protegi la wiki contra la rumenta automàtica, i-j ciamoma për piasì ch'a fasa l'adission sempia sì-sota e ch'a buta l'arspòsta ant la casela ([[Special:Captcha/help|për savèjne ëd pi]]):",
+	"captcha-sendemail-fail": "Ël còdes tërbol ò ch'a manca d'autut ò ch'a l'é pa bon.",
+	"captcha-disabledinapi": "St'assion-sì a ciama na captcha, parèj a peul pa esse fàita con na API.",
+	"captchahelp-title": "Còs é-lo mai ës captcha?",
+	"captchahelp-cookies-needed": "Për podej dovré sossì a l'ha da manca che sò navigator (browser) a pija ij cookies.",
+	"captchahelp-text": "Soèns a-i riva che ij sit dla Ragnà che la gent a peul dovré për ëscrive chèich-còs, coma sta wiki-sì, a resto ambërlifà d'areclam da 'd màchine che a cario soa ròba dadsà e dadlà n'aotomàtich. Për tant che sti areclam un a peula peuj gavela, a resta sempe un gran fastudi.\n\nDle vire, dzortut quand un a caria dj'anliure esterne neuve ansime a na pàgina, la wiki a peul ësmon-je na figurin-a con dël test colora ò pura tut ëstòrt e ciameje d'arbate lòn ch'a-i é scrit andrinta. Da già ch'a l'é grama scrive un programa ch'a lo fasa, a ven che la pì gran part dla gent a-i la fa a scrive, ma la pi part dle màchine a-i la fa pa.\n\nPër maleur sossì a peul fastudié j'utent ch'a s-ciàiro nen tant bin, coj ch'a deuvro dij navigator mach a test ò pura dij navigator vocaj. Për adess i l'oma nen n'alternativa disponìbil ch'a fasa lese ël test a vos. Për piasì, ch'a contata j'[[Special:ListAdmins|aministrator dël sit]] se sossì a dovèissa mai nen lasseje carié dël test ch'a sia legìtim (visadì, nen dj'areclam).\n\nCh'a-i bata ansima al boton «andré» ant sò navigator për torné andré a l'editor dla pàgina.",
+	"captcha-addurl-whitelist": " #<!-- leave this line exactly as it is --> <pre>\n# La sintassi a l'é costa:\n#  * tut lòn ch'a-i ven dapress a un caràter \"#\" (fin-a a la fin dla riga) a l'é mach ëd coment\n#  * minca riga nen veujda a l'é un frament d'espression regolar ch'as dòvra për identifiché j'adrësse dle màchine servente ant j'anliure\n  #</pre> <!-- leave this line exactly as it is -->",
+	"right-skipcaptcha": "A fà j'assion che a ativo la captcha sensa avèj da passé da la captcha"
+}

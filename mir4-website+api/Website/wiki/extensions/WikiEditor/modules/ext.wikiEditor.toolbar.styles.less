@@ -1,0 +1,41 @@
+/**
+ * CSS for WikiEditor
+ */
+
+/* Hide vanilla MediaWiki's "Editing help" link, as we provide it in the toolbar */
+.client-js .editButtons {
+	.editHelp {
+		display: none;
+	}
+}
+
+/* stylelint-disable selector-max-id */
+
+form#editform {
+	margin: 0;
+	padding: 0;
+}
+
+#wpTextbox1 {
+	line-height: 1.5em;
+	resize: vertical;
+}
+
+/* Hide the WikiEditor toolbar until its css has loaded */
+.wikiEditor-ui-toolbar {
+	display: none;
+}
+
+/* This disables margin collapse for the children */
+.client-js #editform::before,
+.client-js #editform::after {
+	content: ' ';
+	display: table;
+}
+/* Set a margin on the textarea while we load, matching the height,
+ * of the wikieditor toolbar to prevent reflow. After the wikieditor ui is loaded,
+ * the textarea is wrapped inside wikieditor-ui div and no longer matches */
+.client-js .mw-editform > #wpTextbox1 {
+	/* Toolbar height + padding + bottom border = 26 + 2*3 + 1 */
+	margin-top: 33px;
+}

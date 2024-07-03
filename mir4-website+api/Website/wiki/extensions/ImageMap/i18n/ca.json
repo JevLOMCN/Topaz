@@ -1,0 +1,21 @@
+{
+	"@metadata": {
+		"authors": [
+			"Jmarchn",
+			"SMP",
+			"Toniher"
+		]
+	},
+	"imagemap_desc": "Permet mapes d'imatges clicables des del costat del client fent servir l'etiqueta <code>&lt;imagemap&gt;</code>",
+	"imagemap_no_image": "Error: cal especificar una imatge en la primera línia",
+	"imagemap_invalid_image": "Error: la imatge no es vàlida o no existeix",
+	"imagemap_bad_image": "Error: la imatge no està permesa en aquesta pàgina.",
+	"imagemap_no_link": "Error: no s'ha trobat cap enllaç vàlid al final de la línia $1",
+	"imagemap_invalid_title": "Error: el títol no és vàlid a l'enllaç de la línia $1",
+	"imagemap_missing_coord": "Error: no hi ha coordenades suficients per a la forma de la línia $1",
+	"imagemap_unrecognised_shape": "Error: la forma de la línia $1 no és reconeixible, cada línia ha de començar amb una de les opcions següents: <code>default</code>, <code>rect</code>, <code>circle</code> or <code>poly</code>",
+	"imagemap_invalid_coord": "Error: la coordenada a la línia $1 no és vàlida, ha de ser un nombre",
+	"imagemap_invalid_desc": "Error: l'especificació de descripció no és vàlida, ha de ser una de: <code>$1</code>",
+	"imagemap_description": "Quant a la imatge",
+	"imagemap_poly_odd": "Error: poly amb un nombre senar de coordenades a la línia $1"
+}

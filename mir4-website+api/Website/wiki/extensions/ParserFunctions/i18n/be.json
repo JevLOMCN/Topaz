@@ -1,0 +1,31 @@
+{
+	"@metadata": {
+		"authors": [
+			"Artsiom91",
+			"Mikalai Udodau",
+			"Tomato Cream",
+			"Чаховіч Уладзіслаў"
+		]
+	},
+	"pfunc_desc": "Палепшанне парсеру лагічнымі функцыямі",
+	"pfunc_time_error": "Памылка: Недапушчальны час.",
+	"pfunc_time_too_long": "Памылка: зашмат выклікаў функцыі #time.",
+	"pfunc_time_too_big": "Памылка: #time падтрымлівае гады толькі ў дыяпазоне да 9999.",
+	"pfunc_time_too_small": "Памылка: #time падтрымлівае толькі гады ад 0.",
+	"pfunc_rel2abs_invalid_depth": "Памылка: няслушная глыбіня шляху: «$1» (спроба доступу да вузла, які знаходзіцца вышэй карэннага).",
+	"pfunc_expr_stack_exhausted": "Памылка выразу: стэк перапоўнены.",
+	"pfunc_expr_unexpected_number": "Памылка выразу: нечаканая лічба.",
+	"pfunc_expr_preg_match_failure": "Памылка выразу: нечаканы збой preg_match.",
+	"pfunc_expr_unrecognised_word": "Памылка выразу: незразумелае слова «$1».",
+	"pfunc_expr_unexpected_operator": "Памылка выраза: нечаканы аператар $1",
+	"pfunc_expr_missing_operand": "Памылка выраза: няма аперанда $1",
+	"pfunc_expr_unexpected_closing_bracket": "Памылка выразу: нечаканая закрываючая дужка.",
+	"pfunc_expr_unrecognised_punctuation": "Памылка ў шаблоне: незразумелы сімвал «$1».",
+	"pfunc_expr_unclosed_bracket": "Памылка выразу: незакрытая дужка.",
+	"pfunc_expr_division_by_zero": "Дзяленне на нуль.",
+	"pfunc_expr_invalid_argument": "Памылковы аргумент для $1: < -1 ці > 1.",
+	"pfunc_expr_invalid_argument_ln": "Памылковы аргумент для ln: <= 0.",
+	"pfunc_expr_unknown_error": "Памылка выразу: невядомая памылка ($1).",
+	"pfunc_expr_not_a_number": "У $1: вынік не з’яўляецца лічбай.",
+	"pfunc_string_too_long": "Памылка: у радку перавышаны ліміт у $1 {{PLURAL:$1|сімвал|сімвалы|сімвалаў}}."
+}

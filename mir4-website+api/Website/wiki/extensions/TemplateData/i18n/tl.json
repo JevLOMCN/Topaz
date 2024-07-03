@@ -1,0 +1,22 @@
+{
+	"@metadata": {
+		"authors": [
+			"AnakngAraw",
+			"Leeheonjin"
+		]
+	},
+	"templatedata-desc": "Isakatuparan ang pag-iimbak ng dato para sa mga parametro ng padron (na ginagamit ang JSON)",
+	"templatedata-doc-param-default": "Likas na katakdaan",
+	"templatedata-doc-param-desc": "Paglalarawan",
+	"templatedata-doc-param-name": "Pangalan",
+	"templatedata-doc-param-status": "Katayuan",
+	"templatedata-doc-params": "Mga parametro ng padron",
+	"templatedata-invalid-missing": "Hindi natagpuan ang kailangang pag-aari na \"$1\".",
+	"templatedata-invalid-parse": "Kamalian ng palaugnayan sa JSON.",
+	"templatedata-invalid-type": "Ang pag-aaring \"$1\" ay inaasahan na maging ng uring \"$2\".",
+	"templatedata-invalid-unknown": "Hindi inaasahang pag-aari na \"$1\".",
+	"templatedata-invalid-value": "Hindi katanggap-tanggap na halaga para sa pag-aaring \"$1\".",
+	"templatedata-modal-button-restoreparam": "Isabalik ang parametro",
+	"templatedata-modal-format-block": "Isanggalan (block)",
+	"templatedata-modal-title-templateformat": "Piniling pagkakaayos ng padron/suleras"
+}

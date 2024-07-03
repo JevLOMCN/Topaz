@@ -1,0 +1,28 @@
+{
+	"@metadata": {
+		"authors": [
+			"Arnaugir",
+			"El libre",
+			"Mguix",
+			"Paucabot",
+			"SMP",
+			"Ssola",
+			"Toniher"
+		]
+	},
+	"captcha-edit": "Per a poder modificar aquesta pàgina cal que resolgueu la següent tasca i introduïu el resultat en el quadre ([[Special:Captcha/help|més informació]]):",
+	"captcha-desc": "Proporciona tècniques CAPTCHA per a protegir contra la publicitat no desitjada i l'obtenció de contrasenyes",
+	"captcha-addurl": "La vostra modificació conté enllaços externs nous.\nCom a protecció contra la brossa de propaganda automàtica, cal que resolgueu la següent tasca i introduïu el resultat en el quadre a continuació ([[Special:Captcha/help|més informació]]):",
+	"captcha-badlogin": "Com a protecció contra l'obtenció automatitzada de contrasenyes, cal que resolgueu la següent tasca i introduïu el resultat en el quadre a continuació ([[Special:Captcha/help|més informació]]):",
+	"captcha-createaccount": "Com a protecció contra la creació automàtica de comptes d'usuari, cal que resolgueula següent tasca i introduïu el resultat en el quadre a continuació ([[Special:Captcha/help|més informació]]):",
+	"captcha-createaccount-fail": "Hi manca el CAPTCHA o bé eś incorrecte.",
+	"captcha-create": "La vostra modificació conté enllaços externs nous. Com a protecció contra la brossa de propaganda automàtica, cal que resolgueu la següent tasca i introduïu el resultat en el quadre a continuació ([[Special:Captcha/help|més informació]]):",
+	"captcha-sendemail": "Com a protecció contra la brossa de propaganda automàtica, cal que resolgueu la següent tasca i introduïu el resultat en el quadre a continuació ([[Special:Captcha/help|més informació]]):",
+	"captcha-sendemail-fail": "Hi manca el CAPTCHA o bé és incorrecte.",
+	"captcha-disabledinapi": "Aquesta acció requereix un captcha (codi d'imatge), per la qual cosa no es pot realitzar a través de l'API.",
+	"captchahelp-title": "Ajuda amb el sistema captcha",
+	"captchahelp-cookies-needed": "Heu d'activar les galetes al vostre navegador per a que funcioni.",
+	"captchahelp-text": "Els webs que accepten la publicació de missatges per part del seu públic, com aquest wiki, són sovint víctimes de spam per part de robots automàtics que hi posen enllaços cap als seus webs. Aquests enllaços es poden anar eliminant, però suposen un important destorb.\n\nQuan creeu nous comptes d'usuari o afegiu enllaços a una pàgina se us demanarà que respongueu una pregunta fàcil, una suma o que teclegeu el text que apareix en una imatge distorsionada. És difícil programar un robot per aquest tipus de tasques, i gràcies a açò, es poden aturar la majoria d'atacants robots.\n\nMalauradament, aquest sistema pot suposar un inconvenient per a usuaris amb problemes de visió o que utilitzin navegadors de text simple o de veu. Actualment no disposem de cap alternativa auditiva disponible. Contacteu els [[Special:ListAdmins|administradors del web]] si aquest sistema us impedeix de fer edicions legítimes.\n\nNecessitareu tenir les galetes (''cookies'') activades al vostre navegador per a realitzar aquestes accions.\n\nCliqueu el botó de retrocedir del vostre navegador per a tornar al formulari.",
+	"captcha-addurl-whitelist": " #<!-- deixeu aquesta línia tal com està --> <pre>\n# La sintaxi és la següent:\n#  * Totes les línies que comencen amb un # son considerades comentaris\n#  * Tota línia no buida és un fragment d'expressió regular (regexp) que enllaçarà amb els hosts de les URL\n  #</pre> <!-- deixeu aquesta línia tal com està -->",
+	"right-skipcaptcha": "Fer les accions que requereixen de captcha sense haver de passar pel CAPTCHA"
+}

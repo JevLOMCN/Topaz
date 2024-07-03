@@ -1,0 +1,19 @@
+{
+	"@metadata": {
+		"authors": [
+			"Moshtank",
+			"Mostafadaneshvar"
+		]
+	},
+	"cite-desc": "اضفافه کنت<code>&lt;ref[ name=id]&gt;</code> و <code>&lt;references/&gt;</code> تگ, په ارجاع دهگ",
+	"cite_error": "یادکِردءِ مِشتِک: $1",
+	"cite_error_ref_numeric_key": "نامعتبر <code>&lt;ref&gt;</code>تگ;\nنام یک سادگین هوری نه نه بیت. یک توضیحی عنوانی استفاده کنیت",
+	"cite_error_ref_no_key": "نامعتبر<code>&lt;ref&gt;</code>تگ;\nمراجع بی محتوا بایدن نامی داشته بنت",
+	"cite_error_ref_too_many_keys": "نامعتبر<code>&lt;ref&gt;</code>تگ;\nنامعتبر نامان, په داب بازین",
+	"cite_error_ref_no_input": "نامعتبر <code>&lt;ref&gt;</code> تگ;\nمراجع بی نام بایدن محتوا داشته بنت",
+	"cite_error_references_invalid_parameters": "نامعتبر <code>&lt;references&gt;</code>تگ;\nهچ پارامتری مجاز نهنت.\nاستفاده کن چه <code>&lt;references /&gt;</code>",
+	"cite_error_references_no_backlink_label": "هلگ برجسپان لینک عقب رسمی. گیشتر تعریف کن ته [[MediaWiki:Cite references link many format backlink labels]] کوله",
+	"cite_error_references_no_text": "نامعتبر<code>&lt;ref&gt;</code>تگ;\nپه نام ارجاع هچ متنی دهگ نه بیته <code>$1</code>",
+	"cite_references_link_many_format_backlink_labels": "ا ب پ ت ج چ خ د ر ز س ش غ ف ک ل م ن و ه ی",
+	"cite_references_link_many_and": "و"
+}

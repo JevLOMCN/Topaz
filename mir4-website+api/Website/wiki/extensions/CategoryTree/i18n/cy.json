@@ -1,0 +1,36 @@
+{
+	"@metadata": {
+		"authors": [
+			"Afalau",
+			"Lloffiwr"
+		]
+	},
+	"categorytree": "Coeden gategori",
+	"categorytree-portlet": "Categorïau",
+	"categorytree-legend": "Dangos y goeden gategori",
+	"categorytree-desc": "Teclyn AJAX yn arddangos [[Special:CategoryTree|adeiledd categorïau]]'r wici",
+	"categorytree-header": "Rhowch enw categori i weld ei gynnwys fel strwythur coeden. (JavaScript yn ofynnol.)",
+	"categorytree-category": "Categori:",
+	"categorytree-go": "Dangos y Goeden",
+	"categorytree-parents": "Rhieni",
+	"categorytree-mode-label": "Modd:",
+	"categorytree-mode-categories": "categorïau yn unig",
+	"categorytree-mode-pages": "tudalennau ag eithrio ffeiliau",
+	"categorytree-mode-all": "pob tudalen",
+	"categorytree-collapse": "crebachu",
+	"categorytree-expand": "ehangu",
+	"categorytree-member-counts": "yn cynnwys y canlynol: {{PLURAL:$1|$1 is-gategori}}, $2 {{PLURAL:$2|tudalen|dudalen|dudalen|tudalen|thudalen|tudalen}}, {{PLURAL:$3|$3 ffeil}}",
+	"categorytree-num-categories": "$1 Cat",
+	"categorytree-num-pages": "$1 Tud",
+	"categorytree-num-files": "$1 Ff",
+	"categorytree-num-empty": "gwag",
+	"categorytree-load": "llwytho",
+	"categorytree-loading": "wrthi'n llwytho...",
+	"categorytree-nothing-found": "dim i'w gael",
+	"categorytree-no-subcategories": "dim is-gategorïau",
+	"categorytree-no-parent-categories": "dim uwch-gategorïau",
+	"categorytree-no-pages": "dim tudalennau nag is-gategorïau",
+	"categorytree-not-found": "Heb ddod o hyd i'r categori <i>$1</i>",
+	"categorytree-error": "Cafwyd problem wrth lwytho'r data.",
+	"categorytree-retry": "Arhoswch ennyd, yna ceisiwch eto."
+}

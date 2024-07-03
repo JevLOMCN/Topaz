@@ -1,0 +1,23 @@
+{
+	"@metadata": {
+		"authors": [
+			"Albertas",
+			"Homo",
+			"Tomasdd"
+		]
+	},
+	"spam-blacklist": " #<!-- palikite šią eilutę tiksliai tokią, kokia ji yra --> <pre>\n# Išorinės URL nuorodos patenkančios į šį sąrašą bus blokuojamos, įterpus jas į puslapį.\n# Šis sąrašas paveiks tik šią viki; taip pat galite remtis bendru juoduoju sąrašu.\n# Dokumentacijai žiūrėkite https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:SpamBlacklist\n#\n# Sintaksė tokia:\n#   * Viskas nuo \"#\" simbolio iki eilutės pabaigos yra komentaras\n#   * Kiekviena ne tuščia eilutė yra reguliariosios išraiškos fragmentas, kuris atitinka tik URL nuorodose esančius serverių pavadinimus\n\n #</pre> <!-- palikite šią eilutę tiksliai tokią, kokia ji yra -->",
+	"spam-whitelist": " #<!-- palikite šią eilutę tiksliai tokią, kokia ji yra --> <pre>\n# Išorinės URL nuorodos, patenkančios į šį sąrašą, *nebus* užklokuojamos, net jeigu būtų užblokuotos juodojo sąrašo įrašais.\n#\n# Sintaksė tokia:\n#   * Viskas po \"#\" simbolio iki eilutės pabaigos yra komentaras\n#   * Kiekvienas netuščia eilutė yra reguliariosios išraiškos fragmentas, kuris atitinka URL nuorodose esančius serverių vardus\n\n #</pre> <!-- palikite šią eilutę tiksliai tokią, kokia ji yra -->",
+	"email-blacklist": " #<!-- palikite šią eilutę tiksliai tokią, kokia ji yra --> <pre>\n# El. pašto adresai patenkantys į šį sąrašą bus užblokuoti, kad su jais nebūtų galima susikurti paskyros ir siųsti el. laiškų.\n# Šis sąrašas paveiks tik šią viki; taip pat galite remtis ir bendru juoduoju sąrašu.\n# Dokumentaciją galite rasti čia https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:SpamBlacklist\n#\n# Sintaksė tokia:\n#   * Viskas nuo \"#\" simbolio iki eilutės pabaigos yra komentaras\n#   * Kiekviena netuščia eilutė yra reguliariosios išraiškos fragmentas, kuris žymį el. pašto serverio pavadinimą\n\n #</pre> <!-- palikite šią eilutę tiksliai tokią, kokia ji yra -->",
+	"email-whitelist": " #<!-- palikite šią eilutę tiksliai tokią, kokia ji yra --> <pre>\n# El. pašto adresai, patenkantys į šį sąrašą, *nebus* blokuojami, net jeigu būtų blokuojami juodojo sąrašo įrašais.\n#\n# Sintaksė tokia:\n#   * Viskas nuo \"#\" simbolio iki eilutės pabaigos yra komentaras\n#   * Kiekviena netuščia eilutė yra reguliariosios išraiškos fragmentas, kuris žymi tik el. pašto serverio vardą\n\n #</pre> <!-- palikite šią eilutę tiksliai tokią, kokia ji yra -->",
+	"spam-blacklisted-email": "Draudžiamas el. pašto adresas",
+	"spam-blacklisted-email-text": "Jūsų el. pašto adresas dabar yra įtrauktas į draudžiamųjų sąrašą, kad negalėtumėte siųsti el. laiškų kitiems naudotojams.",
+	"spam-blacklisted-email-signup": "Nurodytasis el. pašto adresas dabar yra draudžiamas naudoti.",
+	"spam-invalid-lines": "{{PLURAL:$1|Ši brukalo juodojo sąrašo eilutė yra|Šios brukalo juodojo sąrašo eilutės yra}} {{PLURAL:$1|netinkama reguliarioji išraiška|netinkamos reguliariosios išraiškos}} ir {{PLURAL:$1|ją reikia|jas reikia}} pataisyti prieš išsaugant puslapį:",
+	"spam-blacklist-desc": "Reguliariomis išraiškomis grįstas anti brukalinis įrankis, leidžiantis puslapiuose esančias URL nuorodas ir prisiregistravusių naudotojų el. pašto adresus uždrausti",
+	"log-name-spamblacklist": "Brukalo juodojo sąrašo žurnalas",
+	"log-description-spamblacklist": "Čia pateikiami bandymai pridėti nuorodas, nukreipiančias į juodajame sąraše esančias svetaines.",
+	"logentry-spamblacklist-hit": "{{GENDER:$2|$1}} bandymas $3 puslapyje pridėti $4 buvo aptiktas brukalo filtro.",
+	"right-spamblacklistlog": "Peržiūrėti brukalo juodojo sąrašo žurnalą",
+	"action-spamblacklistlog": "peržiūrėti brukalo juodojo sąrašo žurnalą"
+}

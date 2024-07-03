@@ -1,0 +1,17 @@
+{
+	"@metadata": {
+		"authors": [
+			"Huji",
+			"Reza1615"
+		]
+	},
+	"apihelp-query+linterrors-summary": "دریافت فهرست خطاهای نحوی پنهان",
+	"apihelp-query+linterrors-param-categories": "رده‌های خطاهای نحوی پنهان",
+	"apihelp-query+linterrors-param-limit": "تعداد نتایج برای پرسمان گرفتن",
+	"apihelp-query+linterrors-param-from": "شناسهٔ خطاهای نحوی پنهان برای شروع به کوئری‌گرفتن از آنها",
+	"apihelp-query+linterrors-param-namespace": "فقط شامل خطاهای نحوی پنهان یک فضای نام خاص",
+	"apihelp-query+linterrors-param-pageid": "فقط شامل خطاهای نحوی پنهان یک شناسهٔ خاص صفحه",
+	"apihelp-query+linterrors-example-1": "دریافت همهٔ خطاهای نحوی پنهان رده برچسب‌های منسوخ",
+	"apihelp-query+linterstats-summary": "دریافت تعداد خطای موجود در هر رده",
+	"apihelp-query+linterstats-example-1": "دریافت تعداد خطای موجود در هر رده"
+}

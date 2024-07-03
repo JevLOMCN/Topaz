@@ -1,0 +1,37 @@
+{
+	"@metadata": {
+		"authors": [
+			"Bosogo",
+			"Chorobek",
+			"Janatkg"
+		]
+	},
+	"categorytree": "Категориялар бутагы",
+	"categorytree-portlet": "Категориялар",
+	"categorytree-legend": "Категориялардын бутагын көргөз",
+	"categorytree-desc": "[[Special:CategoryTree|category structure]]динамикада көрсөт",
+	"categorytree-header": "Анын мазмунун дарак түзүмү катары көрүү үчүн категория аталышын киргизиңиз. (JavaScript талап кылынат.)",
+	"categorytree-category": "Категория:",
+	"categorytree-go": "Бутакты көргөз",
+	"categorytree-parents": "Башкы категория",
+	"categorytree-mode-label": "Режим:",
+	"categorytree-mode-categories": "Категориялар гана",
+	"categorytree-mode-pages": "файлдардан тышкары",
+	"categorytree-mode-all": "бардык барактар",
+	"categorytree-collapse": "түрүү",
+	"categorytree-expand": "жаюу",
+	"categorytree-member-counts": "{{PLURAL:$1|1 ички категорияны|$1 ички категорияларды}}, {{PLURAL:$2|1 баракты|$2 баракты }}, жана {{PLURAL:$3|1 файлды|$3 файлды}} камтыйт",
+	"categorytree-num-categories": "$1 К",
+	"categorytree-num-pages": "$1 Б",
+	"categorytree-num-files": "$1 Ф",
+	"categorytree-num-empty": "бош",
+	"categorytree-load": "жүктөө",
+	"categorytree-loading": "жүктөлүүдө...",
+	"categorytree-nothing-found": "эч нерсе табылган жок",
+	"categorytree-no-subcategories": "ички категориялар табылган жок",
+	"categorytree-no-parent-categories": "Башкы категориялар табылган жок",
+	"categorytree-no-pages": "макалалар же баш ийген категориялар жок",
+	"categorytree-not-found": "<i>$1</i> Категориясы табылган жок",
+	"categorytree-error": "Маалымат жүктөөдө ката кетти",
+	"categorytree-retry": "Кичине күтүп туруп, жаңы аракет кылыңыз"
+}

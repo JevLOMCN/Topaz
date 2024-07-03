@@ -1,0 +1,28 @@
+{
+	"@metadata": {
+		"authors": [
+			"Salvemm el lombard"
+		]
+	},
+	"pfunc_desc": "El sgionta al parser una serie de fonzion logiche",
+	"pfunc_time_error": "Eror: ora minga giusta",
+	"pfunc_time_too_long": "Eror: trope ciamade a #time.",
+	"pfunc_time_too_big": "Eror: #time el suporta doma fina a l'ann 9999.",
+	"pfunc_time_too_small": "Eror: #time el suporta doma a partì de l'ann 0.",
+	"pfunc_rel2abs_invalid_depth": "Eror: profondità minga valida in del percorsː \"$1\" (a s'è tentà de andà dent in d'un grop sora la radis).",
+	"pfunc_expr_stack_exhausted": "Eror in l'espression: stack esaurid.",
+	"pfunc_expr_unexpected_number": "Eror in l'espressionː Numer che 'l se spetava no",
+	"pfunc_expr_preg_match_failure": "Eror ni l'espression: eror che se spetava minga in preg_match.",
+	"pfunc_expr_unrecognised_word": "Eror de espression: Parola\"$1\" minga reconossuda.",
+	"pfunc_expr_unexpected_operator": "Eror in l'espression: operador $1 minga spetad.",
+	"pfunc_expr_missing_operand": "Eror in l'espression: a gh'è nò l'operand per $1.",
+	"pfunc_expr_unexpected_closing_bracket": "Eror in l'espressione: parentesi sarada che se spetava minga.",
+	"pfunc_expr_unrecognised_punctuation": "Eror in l'espression: carater de pontesgiadura \"$1\" minga reconossud.",
+	"pfunc_expr_unclosed_bracket": "Eror in l'espressione: parentesi minga sarada.",
+	"pfunc_expr_division_by_zero": "Division per zero",
+	"pfunc_expr_invalid_argument": "Argoment minga valid per $1: < -1 o > 1.",
+	"pfunc_expr_invalid_argument_ln": "Argoment minga valid per ln: <= 0.",
+	"pfunc_expr_unknown_error": "Eror in l'espression: eror conossud de nissun ($1).",
+	"pfunc_expr_not_a_number": "In $1: el risultad a l'è minga un numer.",
+	"pfunc_string_too_long": "Eror: la stringa la sorpassa el limet de  $1 {{PLURAL:$1|caratter}}."
+}

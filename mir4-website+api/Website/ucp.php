@@ -1,12 +1,21 @@
 <?php
     session_start();
-    if(isset($_SESSION['username'])) {
-        // The session variable exists, you can use it here
-        $username = $_SESSION['username'];
-        $email = ""; // Substitua pelo email do usuário (que deve vir no session).
+    $translations = include 'config/i18n/translations.php';
+    if (isset($_GET['lang']) && array_key_exists($_GET['lang'], $translations)) {
+        $_SESSION['lang'] = $_GET['lang'];
+    }
+    
+    $lang = $_SESSION['lang'] ?? substr($_SERVER['HTTP_ACCEPT_LANGUAGE'], 0, 2);
+    $lang = array_key_exists($lang, $translations) ? $lang : 'en';
+    $current_translations = $translations[$lang];
+
+    if(isset($_SESSION['user'])) {
+        $user = $_SESSION['user'];
+        $characters = $_SESSION['characters'];
     }else{
         header('Location: /');
     }
+
 ?>
 <!DOCTYPE HTML>
 <html lang="en">
@@ -461,7 +470,7 @@
         <div class="loginBox">
             <!-- <div id="logomir4"></div> -->
             <h2 class="center">
-                Welcome, <?= $username; ?>!
+                Welcome, <?= $user['Username']; ?>!
             </h2>
         </div>
 
@@ -474,77 +483,18 @@
             <div id="characters" class="tab-content">
                 <div class="card-container">
                     <?php
-                    // Array de dados fictícios (remover após inserir array com dados vindos do banco)
-                    $characters = [
-                        [
-                            "name" => "Warrior",
-                            "class" => "Atirador Fantasma",
-                            "level" => 79,
-                            "power" => 71.548,
-                            "server" => "SA054",
-                            "class_img" => "1.webp",
-                            "last_login" => "2024-06-25 15:48",
-                        ],
-                        [
-                            "name" => "xDREAMx",
-                            "class" => "Mage",
-                            "level" => 112,
-                            "power" => 145.659,
-                            "server" => "EU025",
-                            "class_img" => "2.webp",
-                            "last_login" => "2024-06-25 15:48",
-                        ],
-                        [
-                            "name" => "KeBab",
-                            "class" => "Taoist",
-                            "level" => 120,
-                            "power" => 197.500,
-                            "server" => "NA012",
-                            "class_img" => "3.webp",
-                            "last_login" => "2024-06-25 15:48",
-                        ],
-                        [
-                            "name" => "ZHYBROO",
-                            "class" => "Arbalist",
-                            "level" => 55,
-                            "power" => 56.847,
-                            "server" => "NA012",
-                            "class_img" => "4.webp",
-                            "last_login" => "2024-06-25 15:48",
-                        ],
-                        [
-                            "name" => "HERNANNES",
-                            "class" => "Lancer",
-                            "level" => 53,
-                            "power" => 33.000,
-                            "server" => "NA012",
-                            "class_img" => "5.webp",
-                            "last_login" => "2024-06-25 15:48",
-                        ],
-                        [
-                            "name" => "Jev",
-                            "class" => "Taoist",
-                            "level" => 100,
-                            "power" => 124.586,
-                            "server" => "SA082",
-                            "class_img" => "3.webp",
-                            "last_login" => "2024-06-25 15:48",
-                        ]
-                    ];
 
-                    // Loop através dos dados fictícios para criar os cards
-                    // Trocar $characters por array com dados da QUERY
                     foreach ($characters as $character) {
                         echo '<div class="card">';
-                            echo '<img src="static/characters/' . $character["class_img"] . '" alt="' . $character["name"] . '">';
+                            echo '<img src="static/characters/' . $character["Class"] . '.webp" alt="' . $character["name"] . '">';
                             echo '<div class="card-content">';
-                                echo '<h3 class="chName">' . $character["name"] . '</h3>';
-                                echo '<p>Class: ' . $character["class"] . '</p>';
-                                echo '<p>Level: ' . $character["level"] . '</p>';
-                                echo '<p>Power: ' . $character["power"] . '</p>';
+                                echo '<h3 class="chName">' . $character["CharacterName"] . '</h3>';
+                               echo '<p>Class: ' . $current_translations['Classes'][$character["Class"]] . '</p>';
+                                echo '<p>Level: ' . $character["Lev"] . '</p>';
+                                echo '<p>Power: ' . $character["CombatPoint"] . '</p>';
                                 echo '<p>Server: ' . $character["server"] . '</p>';
                             echo '</div>';
-                            echo '<p>Last Login: ' . $character["last_login"] . '</p>';
+                            echo '<p>Last Login: ' . $character["LogoutTime"] . '</p>';
                         echo '</div>';
                     }
                     ?>
@@ -556,17 +506,17 @@
                 <form action="update_personal_data.php" method="post">
                     <div class="boxInput">
                         <label for="username">Username:</label><br>
-                        <input type="text" id="username" name="username" value="<?= $username; ?>"><br>
+                        <input type="text" id="username" name="username" value="<?= $user['Username']; ?>"><br>
                     </div>
 
                     <div class="boxInput">
                         <label for="email">Email:</label><br>
-                        <input type="email" id="email" name="email" value="<?= $email; ?>"><br>
+                        <input type="email" id="email" name="email" value="<?= $user['Email']; ?>"><br>
                     </div>
 
                     <div class="boxInput">
                         <label for="password">Password:</label><br>
-                        <input type="password" id="password" name="password" value="********"><br><br>
+                        <input type="password" id="password" name="password"  value=""><br><br>
                     </div>  
                     
                     <div class="boxInput">

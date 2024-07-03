@@ -1,0 +1,25 @@
+{
+	"@metadata": {
+		"authors": [
+			"Cwlin0416",
+			"Kly",
+			"LNDDYL",
+			"Liuxinyu970226",
+			"Winston Sung"
+		]
+	},
+	"codeeditor-desc": "透過使用 [https://ace.c9.io/ Ace 編輯器]支援 JavaScript 與 CSS 語法醒目標示編輯",
+	"codeeditor-next-annotation": "前往下一個註解",
+	"codeeditor-toolbar-toggle": "切換原始碼編輯器",
+	"codeeditor-save-with-errors": "該文件內有錯誤，您是否確定要發布？",
+	"codeeditor-invisibleChars-toggle": "切換隱藏字元",
+	"codeeditor-lineWrapping-toggle": "切換自動換行",
+	"codeeditor-searchReplace-toggle": "切換搜尋與取代對話框",
+	"codeeditor-gotoline": "前往行號...",
+	"codeeditor-gotoline-placeholder": "行[:欄]",
+	"codeeditor-gotoline-prompt": "輸入行數",
+	"codeeditor-indent": "增加縮排",
+	"codeeditor-outdent": "減少縮排",
+	"codeeditor-error-title": "相依失敗",
+	"codeeditor-error-message": "代碼編輯器需要有載入 WikiEditor。"
+}

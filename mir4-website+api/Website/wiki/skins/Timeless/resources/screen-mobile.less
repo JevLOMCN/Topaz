@@ -1,0 +1,300 @@
+@import 'variables.less';
+
+// Override default here because mobile narrow
+@content-padding: 0.45em;
+
+/* Layout */
+
+#mw-data-after-content,
+.mw-footer {
+	padding: 0 @content-padding;
+}
+
+#mw-footer .footer-icons {
+	clear: both;
+	margin-bottom: 0.5em;
+}
+
+.color-middle {
+	margin: auto;
+	width: 34%;
+}
+
+.categories-bottom();
+
+#p-variants-desktop,
+#mw-page-header-links #ca-view,
+#mw-header-nav-hack,
+#page-tools h2,
+#other-languages h2,
+#p-logo {
+	display: none;
+}
+
+#mw-header-container {
+	background: @background;
+	padding: 3.75em @content-padding 0.35em;
+}
+
+#mw-header-hack {
+	position: relative;
+	z-index: @z-index-stacking-1;
+	box-shadow: 0 3px 3px 2px rgba( 0, 0, 0, 0.075 ), 0 0 2px rgba( 0, 0, 0, 0.2 );
+}
+
+.color-right,
+.color-middle,
+.color-left {
+	background: @red-dark;
+}
+
+/* Dropdowns */
+.sidebar-inner,
+.dropdown {
+	display: none;
+	.nav-block();
+	background: @background;
+	box-shadow: 0 2px 3px 1px rgba( 0, 0, 0, 0.05 );
+	position: absolute;
+	padding: 2em 2.5em 1em;
+	margin: 0;
+	min-width: 9.153em;
+	max-width: 80%;
+	top: 3.25em;
+	right: 0;
+	overflow: visible;
+	z-index: @z-index-off-canvas;
+
+	h3 {
+		margin: 0.5em 0 1.5em;
+	}
+
+	ul {
+		margin: 1em 0 2em;
+	}
+
+	li {
+		margin: 0 0 0.75em;
+	}
+}
+
+#menus-cover {
+	display: none;
+	position: fixed;
+	top: 0;
+	left: 0;
+	// More an overlay than an offcanvas menu.
+	z-index: @z-index-off-canvas-backdrop;
+	width: 100%;
+	height: 100%;
+	background: @base80;
+	opacity: 0.8;
+	overflow: hidden;
+}
+
+/* Dropdown toggles */
+
+#user-tools h2,
+.sidebar-chunk h2 {
+	.dropdown-header();
+	margin: 0;
+	width: 30px;
+	height: 30px;
+	position: absolute;
+	top: 1em;
+	padding-bottom: 0;
+	font-size: 1em;
+	background-repeat: no-repeat;
+	background-position: center center;
+
+	span {
+		display: inline-block;
+		.icon();
+	}
+
+	&::after {
+		position: absolute;
+		top: 0.65em;
+		left: 23px;
+	}
+}
+
+#user-tools h2 {
+	right: @content-padding + 0.75em;
+	background-image: url( images/user-large-grey.svg );
+}
+
+#site-navigation {
+	h2 {
+		left: @content-padding;
+		background-image: url( images/menu-large-grey.svg );
+	}
+
+	.sidebar-inner {
+		left: 0;
+		right: auto;
+	}
+}
+
+#site-tools h2 {
+	right: @content-padding + 4.5em;
+	background-image: url( images/gear-large-grey.svg );
+}
+
+/* Logo */
+
+#p-logo-text {
+	position: absolute;
+	top: 0.75em;
+	left: @content-padding + 4em;
+	text-align: left;
+
+	a {
+		padding-left: 0;
+	}
+}
+
+/* Page actions */
+
+#p-namespaces li {
+	margin-right: 1.5em;
+}
+
+.tools-inline li a {
+	.ca-icon-only();
+}
+
+#ca-more,
+#ca-languages {
+	&::after {
+		margin-left: -0.35em;
+	}
+
+	span {
+		.ca-icon-only();
+		display: inline-block;
+		overflow: visible;
+	}
+}
+
+#ca-more span {
+	background-image: url( images/gear-grey.svg );
+	background-repeat: no-repeat;
+}
+
+#ca-languages span {
+	background-image: url( images/languages-grey.svg );
+	background-repeat: no-repeat;
+}
+
+/* Full-width thumbnails */
+
+div.thumb {
+	float: none;
+}
+
+.thumb {
+	margin: 1em auto;
+}
+
+.floatright,
+.tright {
+	margin-left: 0;
+	padding-left: 0;
+}
+
+.floatleft,
+.tleft {
+	margin-right: 0;
+	padding-right: 0;
+}
+
+.thumbinner {
+	padding: 1em 1.5em;
+	width: 100% !important;
+	box-sizing: border-box;
+}
+
+.thumbimage {
+	display: block;
+	margin: 0 auto 0.5em;
+}
+
+figure[ typeof~='mw:File/Thumb' ],
+figure[ typeof~='mw:File/Frame' ] {
+	width: 100% !important;
+	float: none !important;
+	margin: 1em 0 !important;
+	box-sizing: border-box;
+
+	> :not( figcaption ) .mw-file-element {
+		max-width: calc( 100% - 3em ) !important;
+		margin: 1em auto;
+		box-sizing: border-box;
+	}
+
+	> figcaption {
+		padding: 0 1.5em 1em 1.5em;
+	}
+}
+
+figure[ typeof~='mw:File/Thumb' ] {
+	> .mw-file-description::after,
+	> .mw-file-magnify::after {
+
+		// Default where page content language is not set
+		// Allow to flip
+		right: 1.5em;
+
+		// Defaults for page content language
+
+		.mw-content-ltr & {
+			/* @noflip */
+			right: 1.5em;
+		}
+
+		.mw-content-rtl & {
+			/* @noflip */
+			left: 1.5em;
+		}
+	}
+}
+
+.mw-body {
+	border: 0;
+
+	table {
+		width: 100%;
+		margin-left: 0;
+		margin-right: 0;
+
+		table {
+			// HOLD ON WHAT ABORT ABORT
+			width: unset;
+			margin-left: unset;
+			margin-right: unset;
+		}
+	}
+}
+
+#mw-content {
+	padding: @content-padding;
+	border-width: 0;
+}
+
+#mw-content-block {
+	background: @background;
+}
+
+/* Table of contents */
+.toc,
+.mw-warning {
+	width: 100%;
+	box-sizing: border-box;
+}
+
+/* Misc */
+
+.nomobile {
+	display: none;
+}

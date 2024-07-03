@@ -1,0 +1,39 @@
+{
+	"@metadata": {
+		"authors": [
+			"Ankit",
+			"Arbhatt",
+			"Ashok modhvadia",
+			"Dsvyas",
+			"KartikMistry"
+		]
+	},
+	"categorytree": "શ્રેણીવૃક્ષ",
+	"categorytree-portlet": "શ્રેણીઓ",
+	"categorytree-legend": "શ્રેણીવૃક્ષ બતાવો",
+	"categorytree-desc": "[[Special:CategoryTree|શ્રેણી રચના]]નું ગતિશીલ સંચાલન",
+	"categorytree-header": "શ્રેણીની વિષયસૂચી ને વૃક્ષસંરચનામાં જોવા માટે શ્રેણીનું નામ દાખલ કરો.\nએ વાતની નોંધ લેશો કે, આ માટે AJAX તરીકે ઓળખાતી સુધરેલી જાવાસ્ક્રિપ્ટ કાર્યક્ષમતા જરૂરી છે.\nજો તમારૂં બ્રાઉઝર અતિ જુનું હશે કે જાવાસ્ક્રિપ્ટ અક્રિય કરેલી હશે તો આ કાર્ય કરશે નહીં.",
+	"categorytree-category": "શ્રેણી:",
+	"categorytree-go": "વૃક્ષ બતાવો",
+	"categorytree-parents": "પિતૃ",
+	"categorytree-mode-label": "સ્થિતિ:",
+	"categorytree-mode-categories": "ફક્ત શ્રેણીઓ",
+	"categorytree-mode-pages": "ફાઇલો સિવાયનાં પાનાઓ",
+	"categorytree-mode-all": "બધા પાનાં",
+	"categorytree-collapse": "સંકેલો",
+	"categorytree-expand": "વિસ્તારો",
+	"categorytree-member-counts": "સમાવિષ્ટ {{PLURAL:$1|૧ ઉપશ્રેણી|$1 ઉપશ્રેણીઓ}}, {{PLURAL:$2|૧ પાનું|$2 પાનાંઓ}}, અને {{PLURAL:$3|૧ ફાઇલ|$3 ફાઇલો}}",
+	"categorytree-num-categories": "$1 શ્રેણી",
+	"categorytree-num-pages": "$1 પાના",
+	"categorytree-num-files": "$1 F",
+	"categorytree-num-empty": "ખાલી",
+	"categorytree-load": "લાવો",
+	"categorytree-loading": "લાવે છે...",
+	"categorytree-nothing-found": "કંઈ ન મળ્યું",
+	"categorytree-no-subcategories": "ઉપશ્રેણીઓ નથી",
+	"categorytree-no-parent-categories": "પૈતૃકશ્રેણીઓ નથી",
+	"categorytree-no-pages": "પાનાઓ કે ઉપશ્રેણીઓ નથી",
+	"categorytree-not-found": "શ્રેણી <i>$1</i> મળેલ નથી",
+	"categorytree-error": "ડેટા ભારાક્રાંતરણમાં સમસ્યા.",
+	"categorytree-retry": "કૃપયા એક ક્ષણ પ્રતીક્ષા કરી ફરી પ્રયત્ન કરો"
+}

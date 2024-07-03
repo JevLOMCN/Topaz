@@ -1,0 +1,25 @@
+/* stylelint-disable selector-class-pattern */
+
+/* Make sure the links are not underlined or colored, ever. */
+/* There is already a :focus / :hover indication on the <div>. */
+.suggestions a.mw-searchSuggest-link,
+.suggestions a.mw-searchSuggest-link:hover,
+.suggestions a.mw-searchSuggest-link:active,
+.suggestions a.mw-searchSuggest-link:focus {
+	color: #000;
+	text-decoration: none;
+}
+
+.suggestions-result-current a.mw-searchSuggest-link,
+.suggestions-result-current a.mw-searchSuggest-link:hover,
+.suggestions-result-current a.mw-searchSuggest-link:active,
+.suggestions-result-current a.mw-searchSuggest-link:focus {
+	color: #fff;
+}
+
+.suggestions a.mw-searchSuggest-link .special-query {
+	/* Apply ellipsis to suggestions */
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}

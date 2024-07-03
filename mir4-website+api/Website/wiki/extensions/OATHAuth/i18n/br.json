@@ -1,0 +1,35 @@
+{
+	"@metadata": {
+		"authors": [
+			"Fohanno",
+			"Fulup",
+			"Huñvreüs"
+		]
+	},
+	"disableoathforuser": "Diweradekaat an dilesadur div-elfenn evit an implijer",
+	"oathauth-secret": "Alc’hwez kuzh an dilesadur div-elfenn:",
+	"oathauth-disable": "Diweradekaat an dilesadur div-elfenn",
+	"oathauth-validatedoath": "Alc’hwezioù div-elfenn kadarnaet. Dileset e vioc’h gant div elfenn dre ret adalek bremañ.",
+	"oathauth-disabledoath": "Diweradekaet an dilesadur div-elfenn.",
+	"oathauth-prefs-label": "Dilesadur div-elfenn :",
+	"oathauth-step1": "Pazenn 1: Pellkargit ur meziant dilesañ div-elfenn.",
+	"oathauth-disable-for-user": "Diweradekaat an dilesadur div-elfenn evit un implijer",
+	"action-oathauth-disable-for-user": "diweradekaat an dilesadur div-elfenn evit un implijer",
+	"action-oathauth-view-log": "gwelout marilh ar c’hemmoù an dilesadur div-elfenn",
+	"oathauth-enterverifyreason": "Abeg evit gwiriañ :",
+	"oathauth-user-not-does-not-have-oath-enabled": "Implijer n’en deus ket gweredekaet an dilesadur div-elfenn, neuze netra da vezañ diweradekaet.",
+	"action-oathauth-enable": "gweradekaat an dilesadur div-elfenn",
+	"oathauth-auth-token-label": "Jetouer",
+	"oathauth-auth-token-help": "Ar ger-tremen a dalv ur wech hepken implijet evel eil elfenn an dilesadur div-elfenn.",
+	"oathauth-auth-ui": "Roit ur c’hod gwiriañ eus hoc’h ardivink dilesañ mar plij.",
+	"oathauth-login-failed": "Gwiriañ c’hwitet",
+	"oathauth-describe-provider": "Dilesadur div-elfenn (OATH).",
+	"grant-oath": "Gwelout titouroù an dilesadur div-elfenn (OATH) evit an holl",
+	"oath-log-name": "Marilh an dilesadur div-elfenn",
+	"oath-log-header": "An darvoudoù-mañ a ziskouez kemmoù da statud dilesadur div-elfenn an implijerien.",
+	"oathauth-module-totp-label": "TOTP (jetouer a dalv ur wech hepken)",
+	"oathauth-ui-manage": "Merañ",
+	"oathmanage": "Merañ an dilesadur div-elfenn",
+	"oathauth-ui-enabled-module": "Doare dilesadur gwiriedekaet",
+	"oathauth-disable-generic": "Diwiriekaat"
+}

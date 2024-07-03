@@ -1,0 +1,23 @@
+{
+	"@metadata": {
+		"authors": [
+			"Cekli829",
+			"Dağlı95",
+			"NMW03"
+		]
+	},
+	"pfunc_time_error": "Xəta: Yanlış zaman.",
+	"pfunc_expr_stack_exhausted": "İfadə xətası: Stek doludur.",
+	"pfunc_expr_unexpected_number": "İfadə xətası: gözlənilməz ədəd",
+	"pfunc_expr_preg_match_failure": "İfadə xətası: Gözlənilməz preg_match nasazlığı",
+	"pfunc_expr_unrecognised_word": "İfadə xətası: tanınmayan ifadə \"$1\".",
+	"pfunc_expr_unexpected_operator": "İfadə xətası: Gözlənilməz \"$1\" operatoru.",
+	"pfunc_expr_missing_operand": "İfadə xətası: $1 operantı çatışmır.",
+	"pfunc_expr_unexpected_closing_bracket": "İfadə xətası: Gözlənilməz bağlanmış mötərizə",
+	"pfunc_expr_unrecognised_punctuation": "İfadə xətası: \"$1\" punktuasiyasının tanınmayan simvolu.",
+	"pfunc_expr_unclosed_bracket": "İfadə xətası: Mötərizə bağlanılmamışdır.",
+	"pfunc_expr_division_by_zero": "Sıfıra bölmə",
+	"pfunc_expr_invalid_argument_ln": "ln üçün xətalı arqument: <= 0",
+	"pfunc_expr_unknown_error": "İfadə xətası: naməlum xəta ($1)",
+	"pfunc_expr_not_a_number": "$1-də: nəticə ədəd deyildir."
+}

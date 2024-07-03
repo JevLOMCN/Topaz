@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"Waki285"
+		]
+	},
+	"turnstile-desc": "ConfirmEdit に Cloudflare Turnstile のサポートを追加",
+	"turnstile-edit": "ウィキを自動編集スパムから保護するために、下のCAPTCHAを解決してください。",
+	"turnstile-addurl": "あなたの編集には新しい外部リンクが含まれています。\nウィキを自動投稿スパムから保護するために、以下のCAPTCHAを解決してください。",
+	"turnstile-badlogin": "ウィキを自動パスワードクラックから保護するために、下のCAPTCHAを解決してください。",
+	"turnstile-createaccount": "ウィキをアカウント自動作成から保護するために、下のCAPTCHAを解決してください。",
+	"turnstile-createaccount-fail": "CAPTCHAをまだ解決していないようです。",
+	"turnstile-create": "ウィキを自動ページ作成から保護するために、下のCAPTCHAを解決してください。",
+	"turnstile-help": "Turnstile チャレンジを解決し、応答値をcaptchaWordとして返してください。"
+}

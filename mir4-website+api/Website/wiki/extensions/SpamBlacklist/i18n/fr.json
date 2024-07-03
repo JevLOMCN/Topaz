@@ -1,0 +1,29 @@
+{
+	"@metadata": {
+		"authors": [
+			"Gomoko",
+			"Pols12",
+			"Sherbrooke",
+			"Thibaut120094",
+			"Urhixidur",
+			"Verdy p",
+			"Wladek92"
+		]
+	},
+	"spam-blacklist": " #<!-- Laissez cette ligne telle quelle --><pre>\n# Les liens externes faisant partie de cette liste seront bloqués lors de leur insertion dans une page.\n# Cette liste n’affecte que ce wiki ; référez-vous également à la liste globale de blocage.\n# Pour la documentation, voir : https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:SpamBlacklist/fr\n#\n# La syntaxe est la suivante :\n#  * tout texte qui suit un « # » est considéré comme un commentaire ;\n#  * toute ligne non vide est un fragment d’expression rationnelle qui n’analysera que les hôtes dans les liens hypertextes.\n\n #</pre><!-- Laissez cette ligne telle quelle -->",
+	"spam-whitelist": " #<!-- Laissez cette ligne telle quelle --><pre>\n# Les liens hypertextes externes correspondant à cette liste ne seront *pas* bloqués,\n# même s’ils l’auraient été par les entrées de la liste de blocage.\n#\n# La syntaxe est la suivante :\n#  * tout texte qui suit un « # » est considéré comme un commentaire ;\n#  * toute ligne non vide est un fragment d’expression rationnelle qui n’analysera que les hôtes dans les liens hypertextes.\n\n #</pre><!-- Laissez cette ligne telle quelle -->",
+	"email-blacklist": " #<!-- Laissez cette ligne telle quelle --><pre>\n# Les adresses électroniques correspondant à cette liste seront bloquées lors l’enregistrement ou de l’envoi d’un courriel.\n# Cette liste n’affecte que ce wiki ; référez-vous également à la liste globale de blocage.\n# Pour la documentation, voir : https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:SpamBlacklist\n#\n# La syntaxe est la suivante :\n#  * tout texte qui suit un « # » est considéré comme un commentaire ;\n#  * toute ligne non vide est un fragment d’expression rationnelle qui ne fait correspondre que la partie hôte des adresses de courriel.\n\n #</pre><!-- Laissez cette ligne telle quelle -->",
+	"email-whitelist": " #<!-- laissez cette ligne telle quelle --><pre>\n# Les adresses de courriels correspondant à cette liste ne seront *pas* bloquées,\n# même si elles auraient dû l’être par les entrées de la liste de blocage.\n#\n# La syntaxe est comme suit :\n#  * Tout texte à partir du caractère « # » jusqu’à la fin de la ligne est un commentaire ;\n#  * Chaque ligne non vide est un fragment d’expression rationnelle qui ne cherchera à faire correspondre que la partie hôte des adresses de courriel.\n\n #</pre><!-- laissez cette ligne telle quelle -->",
+	"spam-blacklisted-email": "Adresses de courriel interdites",
+	"spam-blacklisted-email-text": "Votre adresse de courriel est actuellement interdite pour envoyer des courriels aux autres utilisateurs.",
+	"spam-blacklisted-email-signup": "L’adresse de courriel fournie est actuellement interdite à l’utilisation.",
+	"spam-invalid-lines": "L{{PLURAL:$1|a|es}} ligne{{PLURAL:$1||s}} suivante{{PLURAL:$1||s}} de la liste de blocage du pollupostage {{PLURAL:$1|est une|sont des}} expression{{PLURAL:$1||s}} rationnelle{{PLURAL:$1||s}} non valide{{PLURAL:$1||s}} et doi{{PLURAL:$1||ven}}t être corrigée{{PLURAL:$1||s}} avant d’enregistrer la page :",
+	"spam-blacklist-desc": "Outil anti-pollupostage basé sur une liste d’expressions rationnelles permettant de bloquer les URL dans les pages et les adresses courriel pour les utilisateurs enregistrés",
+	"log-name-spamblacklist": "Journal de la liste de blocage du pollupostage",
+	"log-description-spamblacklist": "Ces événements tracent les correspondances avec la liste de blocage du pollupostage.",
+	"logentry-spamblacklist-hit": "{{GENDER:$2|}}$1 a déclenché une correspondance avec la liste de blocage du pollupostage sur $3 en tentant d’ajouter $4.",
+	"right-spamblacklistlog": "Afficher le journal de la liste de blocage du pollupostage",
+	"action-spamblacklistlog": "afficher le journal de la liste de blocage du pollupostage",
+	"right-sboverride": "Contourner la liste de blocage du pollupostage",
+	"action-sboverride": "Contourner la liste de blocage du pollupostage"
+}

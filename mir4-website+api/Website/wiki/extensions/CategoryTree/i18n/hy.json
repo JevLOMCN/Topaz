@@ -1,0 +1,37 @@
+{
+	"@metadata": {
+		"authors": [
+			"Chaojoker",
+			"Teak",
+			"Xelgen",
+			"Աշոտ1997"
+		]
+	},
+	"categorytree": "Կատեգորիաների ծառ",
+	"categorytree-portlet": "Կատեգորիաներ",
+	"categorytree-legend": "Ցույց տալ կատեգորիաների ծառը",
+	"categorytree-desc": "[[Special:CategoryTree|Կատեգորիայի կառուցվծքի]] դինամիկ արտապատկերում",
+	"categorytree-header": "Մուտքագրեք կատեգորիայի անունը՝ ծառի համակարգը տեսնելու համար։\nԻ նկատի ունեցեք, որ սա հնարավոր է միայն ձեր զննարկիչի կողմից AJAX-ի ֆունկցիանալության դեպքում։\nԵթե դուք աշխատում եք շատ հին զննարկիչով, կամ ձեր JavaScript-ը անջատված է՝ այն չի գործի։",
+	"categorytree-category": "Կատեգորիա:",
+	"categorytree-go": "Ցույց տալ ծառը",
+	"categorytree-parents": "Ծնող-կատեգորիաներ",
+	"categorytree-mode-categories": "միայն կատեգորիաները",
+	"categorytree-mode-pages": "նիշքերից բացի",
+	"categorytree-mode-all": "բոլոր էջերը",
+	"categorytree-collapse": "փակել",
+	"categorytree-expand": "բացել",
+	"categorytree-member-counts": "պարունակում է {{PLURAL:$1|1 ենթակատեգորիա|$1 ենթակատեգորիա}}, {{PLURAL:$2|1 էջ|$2 էջ}} և {{PLURAL:$3|1 նիշք|$3 նիշք}}",
+	"categorytree-num-categories": "$1 Կ",
+	"categorytree-num-pages": "$1 Է",
+	"categorytree-num-files": "$1 Ն",
+	"categorytree-num-empty": "դատարկ",
+	"categorytree-load": "բեռնել",
+	"categorytree-loading": "բեռնվում է",
+	"categorytree-nothing-found": "ոչինչ չի գտնվել",
+	"categorytree-no-subcategories": "ենթակատեգորիաներ չկան",
+	"categorytree-no-parent-categories": "ծնող-կատեգորիաներ չկան",
+	"categorytree-no-pages": "ենթակատեգորիաներ և էջեր չկան",
+	"categorytree-not-found": "«<i>$1</i>» կատեգորիան չի գտնվել",
+	"categorytree-error": "Տվյալների բեռնումը չհաջողվեց",
+	"categorytree-retry": "Խնդրում ենք սպասել մեկ ակնթարթ և փորձել կրկին։"
+}

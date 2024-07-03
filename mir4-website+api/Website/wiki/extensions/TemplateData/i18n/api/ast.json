@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"Xuacu"
+		]
+	},
+	"apihelp-templatedata-summary": "Traer los datos almacenaos pola estensión TemplateData.",
+	"apihelp-templatedata-example-1": "Devolver TemplateData pa [[Template:Stub]] y [[Template:Example]], con resultaos si les plantíes nun existen o existen pero nun tienen TemplateData",
+	"apihelp-templatedata-example-2": "Devolver TemplateData pa [[Template:Stub]] y [[Template:Example]], sin resultaos si les plantíes nun existen o existen pero nun tienen TemplateData",
+	"apihelp-templatedata-param-includeMissingTitles": "Devolver los datos de los títulos anque falten o nun tengan TemplateData. De mou predetermináu los títulos devuélvense sólo si esisten y tienen TemplateData.",
+	"apihelp-templatedata-param-doNotIgnoreMissingTitles": "Devolver los datos de los títulos anque falten o nun tengan TemplateData. De mou predetermináu (por compatibilidá colo anterior) los títulos devuélvense sólo si esisten y tienen TemplateData.",
+	"apihelp-templatedata-param-lang": "Devolver los valores llocalizaos nesta llingua. De mou predetermináu, devuélvense toles traducciones disponibles.",
+	"apierror-templatedata-corrupt": "Los datos de plantía de la páxina #$1 contienen datos inválidos: $2",
+	"apiwarn-templatedata-deprecation-format": "El formatu de salida predetermináu cambiará a <kbd>jsonfm</kbd> nel futuru. Por favor especifica <kbd>format=json</kbd> de mou esplícitu."
+}

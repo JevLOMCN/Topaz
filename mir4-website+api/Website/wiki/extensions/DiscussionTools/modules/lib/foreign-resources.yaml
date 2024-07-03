@@ -1,0 +1,13 @@
+moment-timezone:
+  license: MIT
+  homepage: https://momentjs.com/timezone/
+  version: 0.5.27
+  type: tar
+  src: https://registry.npmjs.org/moment-timezone/-/moment-timezone-0.5.27.tgz
+  integrity: sha512-EIKQs7h5sAsjhPCqN6ggx6cEbs94GK050254TIJySD1bzoM5JTYDwAU1IoVOeTOL6Gm27kYJ51/uuvq1kIlrbw==
+
+  dest:
+    package/builds/moment-timezone-with-data-1970-2030.js:
+    package/changelog.md:
+    package/LICENSE:
+    package/README.md:

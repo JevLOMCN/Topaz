@@ -1,0 +1,38 @@
+{
+	"@metadata": {
+		"authors": [
+			"FakeGreenHand",
+			"GuoPC",
+			"Hydra",
+			"Hzy980512",
+			"Liangent",
+			"LittlePaw365",
+			"Liuxinyu970226",
+			"PhiLiP",
+			"Philip",
+			"Shinjiman",
+			"阿pp"
+		]
+	},
+	"pfunc_desc": "用逻辑函数增强解析器",
+	"pfunc_time_error": "错误：时间无效。",
+	"pfunc_time_too_long": "错误：#time调用过多。",
+	"pfunc_time_too_big": "错误：#time只支持9999年及以下的年份。",
+	"pfunc_time_too_small": "错误：#time只支持0年及以上的年份。",
+	"pfunc_rel2abs_invalid_depth": "错误：路径深度无效：“$1”（试图访问根节点之上的节点）。",
+	"pfunc_expr_stack_exhausted": "表达式错误：堆栈耗尽。",
+	"pfunc_expr_unexpected_number": "表达式错误：预期外的数字。",
+	"pfunc_expr_preg_match_failure": "表达式错误：预期外的preg_match失败。",
+	"pfunc_expr_unrecognised_word": "表达式错误：无法识别词语“$1”。",
+	"pfunc_expr_unexpected_operator": "表达式错误：预期外的$1运算符。",
+	"pfunc_expr_missing_operand": "表达式错误：缺少$1的操作数。",
+	"pfunc_expr_unexpected_closing_bracket": "表达式错误：预期外的反括号。",
+	"pfunc_expr_unrecognised_punctuation": "表达式错误：无法识别标点符号“$1”。",
+	"pfunc_expr_unclosed_bracket": "表达式错误：未封闭的括号。",
+	"pfunc_expr_division_by_zero": "除以零。",
+	"pfunc_expr_invalid_argument": "$1的参数无效：小于-1或大于1。",
+	"pfunc_expr_invalid_argument_ln": "ln的参数无效：小于或等于0。",
+	"pfunc_expr_unknown_error": "表达式错误：未知错误（$1）。",
+	"pfunc_expr_not_a_number": "$1内：结果不是数字。",
+	"pfunc_string_too_long": "错误：字符串超过$1个字符的限制。"
+}

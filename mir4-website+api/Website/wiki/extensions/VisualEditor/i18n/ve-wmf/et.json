@@ -1,0 +1,32 @@
+{
+	"@metadata": {
+		"authors": [
+			"Avjoska",
+			"Cumbril",
+			"Oop",
+			"Pikne"
+		]
+	},
+	"tag-editcheck-newcontent-description": "EditCheck arvab, et leheküljele lisati uut sisu",
+	"tag-editcheck-newreference-description": "Leheküljele lisati viide",
+	"tag-editcheck-references-description": "EditCheck arvab, et vaja võis olla viidet",
+	"tag-editcheck-references-activated": "[[{{MediaWiki:editcheck-falsepositives-link}}|Muudatuse kontroll (viited) aktiveeritud]]",
+	"tag-editcheck-references-activated-description": "EditCheck arvab, et vaja võis olla viidet ning näidati selle kasutajaliidest.",
+	"tag-visualeditor": "[[{{MediaWiki:visualeditor-descriptionpagelink}}|Visuaalmuudatus]]",
+	"tag-visualeditor-description": "Muudatus tehtud [[{{MediaWiki:visualeditor-descriptionpagelink}}|visuaaltoimetiga]]",
+	"tag-visualeditor-needcheck": "[[{{MediaWiki:visualeditor-descriptionpagelink}}|Visuaalmuudatus: kontrollida]]",
+	"tag-visualeditor-needcheck-description": "[[{{MediaWiki:visualeditor-descriptionpagelink}}|Visuaaltoimetiga]] tehtud muudatus, mille tõttu võis vikitekst muutuda ettekavatsemata viisil.",
+	"tag-visualeditor-wikitext": "Lähteteksti muudatus (2017)",
+	"tag-visualeditor-wikitext-description": "Muudatus tehti lähteteksti toimeti 2017. aasta versiooniga.",
+	"tag-visualeditor-switched": "[[{{MediaWiki:visualeditor-descriptionpagelink}}|Visuaalmuudatus: ümberlülitus]]",
+	"tag-visualeditor-switched-description": "Kasutaja alustas redigeerimist visuaaltoimetiga, aga läks seejärel üle vikiteksti toimetile.",
+	"visualeditor-feedback-link": "Project:VisualEditor/Tagasiside",
+	"visualeditor-feedback-tool": "Anna selle tarkvara kohta tagasisidet",
+	"visualeditor-help-label": "Loe kasutusjuhendit",
+	"visualeditor-welcomedialog-action": "Alusta redigeerimist",
+	"visualeditor-welcomedialog-content": "Redigeerida saab igaüks. Iga täiendus on tänuväärne.",
+	"visualeditor-welcomedialog-content-thanks": "Aitäh, et aitad teistel uusi asju avastada!",
+	"visualeditor-welcomedialog-switch": "Lülita ümber lähteteksti režiimi",
+	"visualeditor-welcomedialog-switch-ve": "Lülita ümber visuaaltoimeti režiimi",
+	"visualeditor-welcomedialog-title": "{{GENDER:$1|Tere tulemast}} saidile $2"
+}

@@ -1,0 +1,22 @@
+{
+	"@metadata": {
+		"authors": [
+			"Pyt"
+		]
+	},
+	"cite-desc": "Föiget foar Wällenätterwiese do <code>&lt;ref[ name=id]&gt;</code> un <code>&lt;references/&gt;</code> Tags tou",
+	"cite_error": "Referenz-Failer $1",
+	"cite_error_ref_numeric_key": "Uungultige <code><nowiki><ref></nowiki></code>-Ferweendenge: „name“ duur naan skeenen Taalenwäid weese, benutsje n beskrieuwenden Noome.",
+	"cite_error_ref_no_key": "Uungultige <code><nowiki><ref></nowiki></code>-Ferweendenge: „ref“ sunner Inhoold mout n Noome hääbe.",
+	"cite_error_ref_too_many_keys": "Uungultige <code><nowiki><ref></nowiki></code>-Ferweendenge: „name“ is uungultich of tou loang.",
+	"cite_error_ref_no_input": "Uungultige <code><nowiki><ref></nowiki></code>-Ferweendenge: „ref“ sunner Noome mout n Inhoold hääbe.",
+	"cite_error_references_invalid_parameters": "Uungultige <code><nowiki><reference></nowiki></code>-Ferweendenge: Der sunt neen bietoukuumende Parametere ferlööwed, ferweend bloot <code><nowiki><reference /></nowiki></code>.",
+	"cite_error_references_no_backlink_label": "Ne Referenz fon ju Foarm <code><nowiki><ref name=\"...\"/></nowiki></code> wäd oafter benutsed as Bouksteeuwen deer sunt. N Administrator mout [[MediaWiki:Cite references link many format backlink labels]] uum wiedere Bouksteeuwen/Teekene ferfulständigje.",
+	"cite_error_references_no_text": "Uungultigen <code>&lt;ref&gt;</code>-Tag; der wuude naan Text foar dät Ref mäd dän Noome <code>$1</code> anroat.",
+	"cite_error_included_ref": "Der failt n sluutend <code>&lt;/ref&gt;</code>",
+	"cite_error_group_refs_without_references": "<code>&lt;ref&gt;</code>-Tags existierje foar ju Gruppe „$1“, man neen deertou heerend <code>&lt;references group=„$1“/&gt;</code>-Tag wuud fuunen",
+	"cite_error_references_group_mismatch": "Dät <code>&lt;ref&gt;</code>-Tag in <code>&lt;references&gt;</code> häd dät Konfliktgruppenattribut „$1“.",
+	"cite_error_references_missing_key": "Dät in <code>&lt;references&gt;</code> definierde <code>&lt;ref&gt;</code>-Tag mäd dän Noome „$1“ wäd in dän foaruutgungende Text nit ferwoand.",
+	"cite_error_references_no_key": "Dät in <code>&lt;references&gt;</code> definierde <code>&lt;ref&gt;</code>-Tag häd neen Noomensattribut.",
+	"cite_error_empty_references_define": "Dät in <code>&lt;references&gt;</code> definierde <code>&lt;ref&gt;</code>-Tag mäd dän Noome „$1“ wiest naan Inhoold ap."
+}

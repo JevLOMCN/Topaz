@@ -1,0 +1,33 @@
+{
+	"@metadata": {
+		"authors": [
+			"Brijlal",
+			"Girmitya",
+			"Thakurji"
+		]
+	},
+	"categorytree-portlet": "Vibhag",
+	"categorytree-legend": "Category tree ke dekhao",
+	"categorytree-category": "Vibhag:",
+	"categorytree-go": "Perr dekhao",
+	"categorytree-parents": "\nParents",
+	"categorytree-mode-categories": "Khaali category",
+	"categorytree-mode-pages": "file ke chhorr ke panna",
+	"categorytree-mode-all": "Sab panna",
+	"categorytree-collapse": "Chhota karo",
+	"categorytree-expand": "Barraa karo",
+	"categorytree-member-counts": "Isme {{PLURAL:$1|1 subcategory|$1 subcategories}}, {{PLURAL:$2|1 panna|$2 panna}}, and {{PLURAL:$3|1 file|$3 files}} hae.",
+	"categorytree-num-categories": "$1 V",
+	"categorytree-num-pages": "$1 P",
+	"categorytree-num-files": "$1 F",
+	"categorytree-num-empty": "khaali",
+	"categorytree-load": "load karo",
+	"categorytree-loading": "load hoe hae ...",
+	"categorytree-nothing-found": "kuchh bhi nai mila",
+	"categorytree-no-subcategories": "subcategory nai hae",
+	"categorytree-no-parent-categories": "koi parent category nai hae",
+	"categorytree-no-pages": "koi panna nai to subcategory nai hae",
+	"categorytree-not-found": "Category <i>$1</i> ke nai pawa gais hae",
+	"categorytree-error": "Data load kare me problem hae.",
+	"categorytree-retry": "Meharbani kar ke kuchh deri wait kar ke fir se try karo."
+}

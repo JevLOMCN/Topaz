@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"Delim"
+		]
+	},
+	"pfunc_time_error": "오유: 시간이 잘못되였습니다.",
+	"pfunc_expr_unrecognised_word": "표현식 오유: \"$1\" 낱말을 알수 없습니다.",
+	"pfunc_expr_unexpected_operator": "수식 오유: 예상치 못한 $1 연산자입니다.",
+	"pfunc_expr_missing_operand": "수식 오류: $1의 피연산자가 없습니다.",
+	"pfunc_expr_unrecognised_punctuation": "수식 오유: 알수 없는 \"$1\" 구두점 문자입니다.",
+	"pfunc_expr_division_by_zero": "0으로 나눴습니다."
+}

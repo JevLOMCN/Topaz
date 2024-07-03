@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"Դավիթ Սարոյան"
+		]
+	},
+	"pfunc_time_error": "Սխալ՝ անվավեր ժամանակ",
+	"pfunc_expr_unrecognised_word": "Արտահայտության սխալ․ չճանաչված բառ՝ «$1»։",
+	"pfunc_expr_unexpected_operator": "Արտահայտության սխալ․ $1 անսպասելի օպերատոր։",
+	"pfunc_expr_missing_operand": "Արտահայտության սխալ․ $1-ը չունի օպերանդ։",
+	"pfunc_expr_unrecognised_punctuation": "Արտահայտության սխալ․ չճանաչված կետադրական նշան՝ «$1»։",
+	"pfunc_expr_division_by_zero": "Զրոյի վրա բաժանում"
+}

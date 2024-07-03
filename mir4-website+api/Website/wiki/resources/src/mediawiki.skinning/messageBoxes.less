@@ -1,0 +1,48 @@
+@import 'mediawiki.skin.variables.less';
+
+.mw-message-box {
+	background-color: @background-color-notice-subtle;
+	color: @color-emphasized;
+	box-sizing: border-box;
+	margin-bottom: 16px;
+	border: @border-width-base @border-style-base @border-color-notice;
+	padding: 12px 24px;
+	word-wrap: break-word;
+	/* Standard property is `overflow-wrap` */
+	overflow-wrap: break-word;
+	overflow: hidden;
+
+	/* Ensure box inner spacing is not all over the place no matter what element is only child. */
+	> :only-child {
+		margin: 0;
+	}
+
+	// Used in MobileFrontend/Nearby extensions
+	h2 {
+		color: inherit;
+		display: block;
+		border: 0;
+		font-size: 1em;
+		font-weight: bold;
+	}
+
+	// Formerly provided by mw-warning-with-logexcerpt, now available for all messageboxes.
+	.mw-logevent-loglines li {
+		font-size: 90%;
+	}
+}
+
+.mw-message-box-error {
+	background-color: @background-color-error-subtle;
+	border-color: @border-color-error;
+}
+
+.mw-message-box-warning {
+	background-color: @background-color-warning-subtle;
+	border-color: @border-color-warning;
+}
+
+.mw-message-box-success {
+	background-color: @background-color-success-subtle;
+	border-color: @border-color-success;
+}

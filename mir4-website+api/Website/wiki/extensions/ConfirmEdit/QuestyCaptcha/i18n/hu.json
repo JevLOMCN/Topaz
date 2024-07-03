@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"Glanthor Reviol",
+			"Tacsipacsi"
+		]
+	},
+	"questycaptcha-addurl": "A szerkesztésed új külső hivatkozásokat tartalmaz.\nAz automatizált spamek megelőzése miatt kérjük, válaszolj az alábbi kérdésre ([[Special:Captcha/help|további segítség]]):",
+	"questycaptcha-badlogin": "Hogy az automatizált jelszófeltörési kísérleteket megelőzzük, kérjük, válaszolj az alábbi kérdésre ([[Special:Captcha/help|további segítség]]):",
+	"questycaptcha-createaccount": "A felhasználói fiókok automatizált létrehozásának elkerülésére kérjük, válaszolj az alábbi kérdésre ([[Special:Captcha/help|segítség]]):",
+	"questycaptcha-create": "Kérlek válaszolj az alábbi kérdésre a lap létrehozásához ([[Special:Captcha/help|további információk]]):",
+	"questycaptcha-edit": "A lap szerkesztéséhez kérlek válaszolj az alábbi kérdésre ([[Special:Captcha/help|további információk]]):",
+	"questycaptcha-sendemail": "Az automatizált spamek megelőzése miatt kérjük, válaszolj az alábbi kérdésre ([[Special:Captcha/help|további segítség]]):",
+	"questycaptchahelp-text": "Az olyan weboldalakat, amelyekre bárki írhat, gyakran támadják meg spammerek olyan eszközök felhasználásával, amelyek képesek automatikusan, emberi felügyelet nélkül elhelyezni hivatkozásokat sok különböző oldalon. \n\nNéha, különösen ha egy új külső hivatkozást teszel egy szócikkbe, a wiki egy egy kérdés megválaszolására kérhet.\nMivel ezt nehéz automatizálni, a valódi szerkesztőknek lehetőségük lesz szerkeszteni, miközben kiszűri a legtöbb spammert és más automatizált kártevőket.\n\nHa ez nem várt módon akadályoz a hasznos közreműködéseidben, segítségért kérlek vedd fel a kapcsolatot [[Special:ListAdmins|az oldal adminisztrátoraival]].\n\nHasználd a böngésződ „vissza” gombját a szöveg szerkesztéséhez való visszalépéshez."
+}

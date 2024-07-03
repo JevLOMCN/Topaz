@@ -1,0 +1,19 @@
+{
+	"@metadata": {
+		"authors": [
+			"Salvemm el lombard"
+		]
+	},
+	"loginnotify-desc": "Avisa i utent sora i entrade de minga fidass efetuade de dispositiv e adree IP minga conossud",
+	"echo-category-title-login-fail": "Tantativ de andà dent fallid",
+	"echo-pref-tooltip-login-fail": "Avisom quand che a inn capitad di tentativ fallid de andà dent in del me cunt.",
+	"echo-category-title-login-success": "Entrada per mezz d'un dispositiv minga conossud",
+	"echo-pref-tooltip-login-success": "Avisom ogni quai volta che un quajvun el va dent in del me cunt d'un dispositiv e d'un adress IP minga conossud.",
+	"loginnotify-primary-link": "Ajut",
+	"notification-loginnotify-login-fail-email-subject": "{{PLURAL:$2|Tentativ fallid|Diversi tentativ fallid}} de andà dent in {{SITENAME}} come $1",
+	"notification-loginnotify-login-success-email-subject": "Entrada in {{SITENAME}} come $1 per mezz d'un dispositiv che {{GENDER:$1|t'hee}} minga drovad de recent",
+	"notification-header-login-success": "Un quajvun (magara {{GENDER:$1|ti}}) de recent l'è andà dent in del to cunt d'un dispositiv noeuv. Se te  {{GENDER:$1|seret}} ti, te podet ignorà quell messagg chì. Se te see stad minga {{GENDER:$1|ti}}, alora a l'è de consilià de cambià la toa parola ciav e verificà l'atività de la toa utenza.",
+	"notification-new-bundled-header-login-fail": "{{PLURAL:$1|A gh'è stad '''un tentativ fallid'''|A gh'è stad '''$1 tentativ fallid'''}} de andà dent in del to cunt d'un dispositiv noeuv dopo de l'ultima volta che ti te seet andad dent. Se te seret minga ti, sicuress che 'l to cunt el gh'habia una parola ciav complessa.",
+	"notification-known-header-login-fail": "{{PLURAL:$1|A gh'è stad '''un tentativ fallid'''|A gh'è stad '''$1 tentativ fallid'''}} de andà dent in del to cunt d'un dispositiv noeuv dopo de l'ultima volta che ti te seet andà dent. Se te seret minga ti, sicuress che 'l to cunt el gh'habia una parola ciav complessa.",
+	"notification-new-unbundled-header-login-fail": "{{PLURAL:$1|A gh'è stad '''un tentativ fallid'''|A gh'è stad '''$1 tentativ fallid'''}} de andà dent in del to cunt d'un dispositiv noeuv.  Sicuress che 'l to cunt el gh'habia una parola ciav complessa."
+}

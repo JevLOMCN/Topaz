@@ -1,0 +1,19 @@
+!! Version 2
+
+!! test
+This is a test test
+!! wikitext
+Hello
+!! html/php
+<p>Hello legacy</p>
+!! html/parsoid
+<p>Hello parsoid</p>
+!! end
+
+!! test
+This is a second test test
+!! wikitext
+Hello 2
+!! html
+<p>Hello 2</p>
+!! end

@@ -1,0 +1,30 @@
+{
+	"@metadata": {
+		"authors": [
+			"Eleassar",
+			"Janezdrilc"
+		]
+	},
+	"apihelp-query+gadgetcategories-summary": "Vrne seznam kategorij pripomočkov.",
+	"apihelp-query+gadgetcategories-param-prop": "Kateri podatki o kategoriji pripomočkov naj se pridobijo:",
+	"apihelp-query+gadgetcategories-paramvalue-prop-name": "Interno ime kategorije.",
+	"apihelp-query+gadgetcategories-paramvalue-prop-title": "Naslov kategorije.",
+	"apihelp-query+gadgetcategories-paramvalue-prop-members": "Število pripomočkov v kategoriji.",
+	"apihelp-query+gadgetcategories-param-names": "Imena kategorij za pridobitev.",
+	"apihelp-query+gadgetcategories-example-1": "Pridobi seznam obstoječih kategorij pripomočkov",
+	"apihelp-query+gadgetcategories-example-2": "Pridobite vse informacije o kategorijah z imenom »foo« in »bar«",
+	"apihelp-query+gadgets-summary": "Vrne seznam pripomočkov, ki se uporabljajo v tem vikiju.",
+	"apihelp-query+gadgets-param-prop": "Kateri podatkeli o pripomočku naj se pridobijo:",
+	"apihelp-query+gadgets-paramvalue-prop-id": "Interna oznaka pripomočka.",
+	"apihelp-query+gadgets-paramvalue-prop-metadata": "Metapodatki pripomočka.",
+	"apihelp-query+gadgets-paramvalue-prop-desc": "Opis pripomočka, pretvorjen v HTML (lahko je počasno; uporabite samo, če je to res potrebno).",
+	"apihelp-query+gadgets-param-categories": "Iz katerih kategorij naj se pridobijo pripomočki.",
+	"apihelp-query+gadgets-param-ids": "ID-ji pripomočkov za pridobitev.",
+	"apihelp-query+gadgets-param-allowedonly": "Navedi samo pripomočke, ki so na voljo trenutnemu uporabniku.",
+	"apihelp-query+gadgets-param-enabledonly": "Navedi samo pripomočke, ki jih ima vključene trenutni uporabnik.",
+	"apihelp-query+gadgets-example-1": "Pridobi seznam pripomočkov skupaj z njihovimi opisi",
+	"apihelp-query+gadgets-example-2": "Pridobj seznam prioomočkov z vsemi možnimi lastnostmi",
+	"apihelp-query+gadgets-example-3": "Pridobi seznam pripomočkov, ki spadajo v kategorijo »foo«",
+	"apihelp-query+gadgets-example-4": "Pridobi informacije o pripomočkih »foo« in »bar«",
+	"apihelp-query+gadgets-example-5": "Pridobi seznam pripomočkov, ki jih ima vključene trenutni uporabnik."
+}

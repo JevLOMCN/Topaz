@@ -1,0 +1,114 @@
+{
+	"name": "SpamBlacklist",
+	"author": [
+		"Tim Starling",
+		"John Du Hart",
+		"Daniel Kinzler"
+	],
+	"url": "https://www.mediawiki.org/wiki/Extension:SpamBlacklist",
+	"descriptionmsg": "spam-blacklist-desc",
+	"type": "antispam",
+	"license-name": "GPL-2.0-or-later",
+	"requires": {
+		"MediaWiki": ">= 1.42"
+	},
+	"GroupPermissions": {
+		"user": {
+			"spamblacklistlog": true
+		},
+		"bot": {
+			"sboverride": true
+		}
+	},
+	"AvailableRights": [
+		"spamblacklistlog",
+		"sboverride"
+	],
+	"LogTypes": [
+		"spamblacklist"
+	],
+	"LogRestrictions": {
+		"spamblacklist": "spamblacklistlog"
+	},
+	"LogActionsHandlers": {
+		"spamblacklist/*": "MediaWiki\\Extension\\SpamBlacklist\\SpamBlacklistLogFormatter"
+	},
+	"GrantPermissions": {
+		"viewrestrictedlogs": {
+			"spamblacklistlog": true
+		},
+		"editprotected": {
+			"sboverride": true
+		}
+	},
+	"APIModules": {
+		"spamblacklist": "MediaWiki\\Extension\\SpamBlacklist\\ApiSpamBlacklist"
+	},
+	"MessagesDirs": {
+		"SpamBlackList": [
+			"i18n",
+			"i18n/api"
+		]
+	},
+	"AutoloadNamespaces": {
+		"MediaWiki\\Extension\\SpamBlacklist\\": "includes/"
+	},
+	"ResourceModules": {
+		"ext.spamBlacklist.visualEditor": {
+			"scripts": "ve-spamblacklist/ve.init.mw.SpamBlacklistSaveErrorHandler.js"
+		}
+	},
+	"attributes": {
+		"VisualEditor": {
+			"PluginModules": [
+				"ext.spamBlacklist.visualEditor"
+			]
+		}
+	},
+	"ResourceFileModulePaths": {
+		"localBasePath": "modules",
+		"remoteExtPath": "SpamBlacklist/modules"
+	},
+	"Hooks": {
+		"EditFilterMergedContent": "SpamBlacklistHookHandler",
+		"EditFilter": "SpamBlacklistHookHandler",
+		"PageSaveComplete": "SpamBlacklistHookHandler",
+		"UserCanSendEmail": "SpamBlacklistHookHandler",
+		"ParserOutputStashForEdit": "SpamBlacklistHookHandler",
+		"UploadVerifyUpload": "SpamBlacklistHookHandler"
+	},
+	"HookHandlers": {
+		"SpamBlacklistHookHandler": {
+			"class": "MediaWiki\\Extension\\SpamBlacklist\\Hooks",
+			"services": [
+				"PermissionManager",
+				"PageEditStash",
+				"ContentRenderer",
+				"ContentHandlerFactory"
+			]
+		}
+	},
+	"config": {
+		"BlacklistSettings": {
+			"value": {
+				"spam": {
+					"files": [
+						"https://meta.wikimedia.org/w/index.php?title=Spam_blacklist&action=raw&sb_ver=1"
+					]
+				}
+			},
+			"merge_strategy": "array_plus_2d"
+		},
+		"LogSpamBlacklistHits": {
+			"value": false
+		}
+	},
+	"AuthManagerAutoConfig": {
+		"preauth": {
+			"SpamBlacklistPreAuthenticationProvider": {
+				"class": "MediaWiki\\Extension\\SpamBlacklist\\SpamBlacklistPreAuthenticationProvider"
+			}
+		}
+	},
+	"manifest_version": 2
+}

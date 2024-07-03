@@ -1,0 +1,27 @@
+{
+	"@metadata": {
+		"authors": [
+			"Iflaq",
+			"Uzume"
+		]
+	},
+	"scribunto-parser-dialog-title": "سِکرپٹ نُقُص",
+	"scribunto-error-short": "سِکرپٹ نُقُص: $1",
+	"scribunto-error-long": "سِکرپٹ نُقُص:\n\n$1",
+	"scribunto-doc-page-name": "Module:$1/دَستاویز",
+	"scribunto-doc-page-does-not-exist": "\"یَمہٕ ماڈیوٗلُک دَستاویز ییٚہِ [[$1]] جاے بَناونہٕ\"",
+	"scribunto-doc-page-header": "'''یہِ چھُ [[$1]] صَفُک دَستاویز صَفہٕ'''",
+	"scribunto-console-title": "ڈی بگ کنسول",
+	"scribunto-console-current-src": "کنسول اِن پُٹ",
+	"scribunto-console-clear": "خٲلی کٔرِو",
+	"scribunto-common-error-category": "صَفہٕ یِمَن مَنٛز سِکرپٹ نُقُص چھُ",
+	"scribunto-common-nosuchmodule": "سِکرپٹ نُقُص: \"$2\" ناو سٟتؠ چھُنہٕ کانٛہہ ماڈیوٗل موجوٗد.",
+	"scribunto-lua-error-location": "لُوا غَلطی $1: $2.",
+	"scribunto-lua-error": "لُوا غَلطی: $2۔",
+	"scribunto-lua-warning": "سِکرپٹ خَبردٲری: $1",
+	"scribunto-limitreport-timeusage": "لُوا مَنٛز اِستِمال گَژھَن وول وَقٕت",
+	"scribunto-limitreport-timeusage-value": "$1/ $2  سؠکَنٛڈ",
+	"scribunto-limitreport-logs": "لُوا لاگ",
+	"nstab-module": "ماڈیوٗل",
+	"tooltip-ca-nstab-module": "ماڈیوٗل صَفہٕ وُچھِو"
+}

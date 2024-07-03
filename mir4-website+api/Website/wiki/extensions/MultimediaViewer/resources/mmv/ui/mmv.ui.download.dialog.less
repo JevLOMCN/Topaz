@@ -1,0 +1,35 @@
+@import 'mediawiki.skin.variables.less';
+@import '../mmv.variables.less';
+@import '../mmv.mixins.less';
+
+.mw-mmv-download-dialog {
+	// resetting height (to overwrite .mw-mmv-dialog's bigger height), since the
+	// height may have to change for warnings being added
+	height: initial;
+	// positioned relative to the download button
+	position: fixed;
+	bottom: @metadatabar-above-fold-height + @progress-bar-height + 35px;
+
+	.mw-mmv-download-size .oo-ui-optionWidget {
+		display: inline-block;
+		padding: 10px 25px;
+		font-size: 16px;
+
+		&.oo-ui-optionWidget-selected {
+			border: 0;
+		}
+
+		&:first-child {
+			border-radius: @border-radius-base 0 0 0;
+		}
+	}
+
+	.mw-mmv-dialog-down-arrow {
+		bottom: @metadatabar-above-fold-height + @progress-bar-height + 45px;
+		background-color: #f8f9fa;
+	}
+
+	.mw-mmv-dialog-warning {
+		padding: 10px 30px;
+	}
+}

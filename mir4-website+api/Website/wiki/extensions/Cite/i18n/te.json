@@ -1,0 +1,43 @@
+{
+	"@metadata": {
+		"authors": [
+			"Chaduvari",
+			"Pavan santhosh.s",
+			"Ravichandra",
+			"Veeven"
+		]
+	},
+	"cite-desc": "ఉల్లేఖనలకు <code>&lt;ref&gt;</code> and <code>&lt;references&gt;</code> టాగులను చేరుస్తుంది",
+	"cite_error": "ఉల్లేఖన లోపం: $1",
+	"cite_error_ref_invalid_dir": "చెల్లని <code>dir=\"$1\"</code>. <code>ltr</code> గానీ, <code>rtl</code> గానీ ఉండాలి",
+	"cite_error_ref_numeric_key": "చెల్లని <code>&lt;ref&gt;</code> టాగు; పేరు కేవలం ఒక సంఖ్య అయితే కుదరదు. వివరమైన శీర్షిక వాడండి",
+	"cite_error_ref_no_key": "తెరిచే <code>&lt;ref&gt;</code> ట్యాగు సరిగ్గా లేదు, లేదా దాని పేరు సరైనది కాదు",
+	"cite_error_ref_too_many_keys": "చెల్లని <code>&lt;ref&gt;</code> ట్యాగు; తప్పు పేర్లు, ఉదాహరణకు మరీ ఎక్కువ",
+	"cite_error_ref_nested_extends": "<code>&lt;ref&gt;</code> ట్యాగులను ఒక స్థాయి కంటే లోతుగా విస్తరించే వీలు లేదు",
+	"cite_error_ref_no_input": "చెల్లని <code>&lt;ref&gt;</code> ట్యాగు; పేరు లేని ref లలో తప్పనిసరిగా కంటెంటు ఉండాలి",
+	"cite_error_references_duplicate_key": "చెల్లని <code>&lt;ref&gt;</code> ట్యాగు; \"$1\" అనే పేరును విభిన్న కంటెంటుతో అనేక సార్లు నిర్వచించారు",
+	"cite_error_references_invalid_parameters": "<code>&lt;references&gt;</code> ట్యాగులో చెల్లని పరామితి ఉంది",
+	"cite_error_references_no_backlink_label": "మీ స్వంత బ్యాక్‌లింకు లేబుళ్ళు అయిపోయాయి. [[MediaWiki:Cite references link many format backlink labels]] సందేశంలో మరిన్ని లేబుళ్ళను నిర్వచించుకోండి.",
+	"cite_error_no_link_label_group": "\"$1\"గుంపుకు కస్టమ్ లింకు లేబుళ్ళు అయిపోయాయి. [[MediaWiki:$2]] సందేశంలో ఇంకొన్నిటిని నిర్వచించండి.",
+	"cite_error_references_no_text": "చెల్లని <code>&lt;ref&gt;</code> ట్యాగు; <code>$1</code> అనే పేరుగల ref లలో పాఠ్యమేమీ ఇవ్వలేదు",
+	"cite_error_included_ref": "<code>&lt;ref&gt;</code> ట్యాగుకు, మూసే <code>&lt;/ref&gt;</code> లేదు.",
+	"cite_error_included_references": "<code>&lt;references&gt;</code> కు మూసివేత ట్యాగు లేదు",
+	"cite_error_group_refs_without_references": "\"$1\" అనే గ్రూపులో <code>&lt;ref&gt;</code> ట్యాగులు ఉన్నాయి గానీ, దానికి సంబంధించిన <code>&lt;references group=\"$1\"/&gt;</code> ట్యాగు కనబడలేదు",
+	"cite_error_references_group_mismatch": "<code>&lt;references&gt;</code> లోని <code>&lt;ref&gt;</code> ట్యాగుకు చెందిన \"$1\" అనే గుణంలో వైరుద్ధ్యం ఉంది.",
+	"cite_error_references_missing_key": "<code>&lt;references&gt;</code> లో \"$1\" అనే పేరుతో నిర్వచించిన <code>&lt;ref&gt;</code> ట్యాగును ముందరి పాఠ్యంలో వాడలేదు.",
+	"cite_error_references_no_key": "<code>&lt;references&gt;</code> లో నిర్వచించిన <code>&lt;ref&gt;</code> ట్యాగుకు పేరు గుణం లేదు.",
+	"cite_error_empty_references_define": "<code>&lt;references&gt;</code> లో \"$1\" పేరుతో నిర్వచించిన <code>&lt;ref&gt;</code> ట్యాగులో పాఠ్యమేమీ లేదు.",
+	"cite-tracking-category-cite-error": "మూలాల లోపాలున్న పేజీలు",
+	"cite-tracking-category-cite-error-desc": "ఈ వర్గం లోని పేజీల్లో మూలాల ట్యాగుల వాడకంలో లోపాలున్నాయి.",
+	"cite_reference_backlink_symbol": "↑",
+	"cite_references_link_many_and": "&#32;",
+	"cite_references_link_accessibility_label": "పైకి దూకు",
+	"cite_references_link_many_accessibility_label": "ఇక్కడికి దుముకు:",
+	"cite_references_link_accessibility_back_label": "వెనక్కి గెంతు",
+	"cite_section_preview_references": "మూలాల మునుజూపు",
+	"cite_warning": "ఉల్లేఖన హెచ్చరిక: $1",
+	"cite_warning_sectionpreview_no_text": "<code>$1</code> పేరుతో ఉన్న <code>&lt;ref&gt;</code> ట్యాగును మునుజూపులో చూపలేం. ఎందుకంటే అది ప్రస్తుత విభాగానికి బయటైనా ఉండి ఉండాలి, లేదా అసలు దాన్ని నిర్వచించకపోయి అయినా ఉండాలి.",
+	"cite-wikieditor-tool-reference": "మూలాలు",
+	"cite-wikieditor-help-page-references": "మూలాలు",
+	"cite-wikieditor-help-content-reference-description": "సాక్ష్యాలు"
+}

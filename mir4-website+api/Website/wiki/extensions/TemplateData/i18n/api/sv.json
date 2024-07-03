@@ -1,0 +1,16 @@
+{
+	"@metadata": {
+		"authors": [
+			"Lokal Profil",
+			"WikiPhoenix"
+		]
+	},
+	"apihelp-templatedata-summary": "Hämta data som lagras av TemplateData-tillägget.",
+	"apihelp-templatedata-example-1": "Returnera malldata för [[Template:Foobar]], med resultat om mallen inte finns eller finns men saknar malldata",
+	"apihelp-templatedata-example-2": "Returnera malldata för [[Template:Phabricator]], men utan resultat om mallen inte finns eller finns men saknar malldata",
+	"apihelp-templatedata-param-includeMissingTitles": "Returnerar data om titlar även om de saknar TemplateData. Som standard returneras endast titlar om de finns och har TemplateData.",
+	"apihelp-templatedata-param-doNotIgnoreMissingTitles": "Returnerar data om titlar även om de inte finns eller saknar TemplateData. Som standard (för bakåtkompatiblitet) returneras endast titlar om de finns och har TemplateData.",
+	"apihelp-templatedata-param-lang": "Returnera lokaliserade värden på detta språk. Som standard returneras alla tillgängliga översättningar.",
+	"apierror-templatedata-corrupt": "Malldata på sida nr $1 innehåller ogiltig data: $2",
+	"apiwarn-templatedata-deprecation-format": "Formatet på standardutmatningen kommer ändras till <kbd>jsonfm</kbd> i framtiden. Ange <kbd>format=json</kbd> uttryckligen."
+}

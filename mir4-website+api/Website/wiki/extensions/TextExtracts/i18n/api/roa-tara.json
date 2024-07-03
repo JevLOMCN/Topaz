@@ -1,0 +1,23 @@
+{
+	"@metadata": {
+		"authors": [
+			"Joetaras"
+		]
+	},
+	"apihelp-query+extracts-summary": "Dèje stuèzze jndr'à 'u teste semblice o HTML limitate da le pàggene specificate.",
+	"apihelp-query+extracts-param-chars": "Quanda carattere adda restituì. 'U teste de mò turnate pò essere 'nu picche cchiù luènghe.",
+	"apihelp-query+extracts-param-sentences": "Quanda frase adda turnà.",
+	"apihelp-query+extracts-param-limit": "Quanda stuèzze adda restituì. (Cchiù stuèzze ponne sulamende essere date ce exintro jè 'msotate a true.)",
+	"apihelp-query+extracts-param-intro": "Tuèrne sulamende 'u condenute apprime d'a prima selezione.",
+	"apihelp-query+extracts-param-plaintext": "Torne le stuèzze cumme teste semblice invece ca cumme HTML limitate.",
+	"apihelp-query+extracts-param-sectionformat": "Accume formattà le seziune jndr'à 'nu mode de teste semblice:",
+	"apihelp-query+extracts-paramvalue-sectionformat-plain": "Nisicuna formattazzione.",
+	"apihelp-query+extracts-paramvalue-sectionformat-wiki": "Formattazzione stile Uicchiteste (== cumme a quiste ==).",
+	"apihelp-query+extracts-paramvalue-sectionformat-raw": "Sta rappresendazione d'u module 'nderne (titole d'a sezione cu prefisse &lt;ASCII 1&gt;&lt;ASCII 2&gt;&lt;section level&gt;&lt;ASCII 2&gt;&lt;ASCII 1&gt;).",
+	"apihelp-query+extracts-example-1": "Pigghie 'nu stuèzze da 175 carattere",
+	"apiwarn-textextracts-limit": "<var>exlimit</var> jè troppe granne pa richieste de le stuèzze d'a vôsce, avasciate a $1.",
+	"apiwarn-textextracts-unsupportedmodel": "$1 ave 'nu modelle de condenute $2, 'u quale non g'è supportate; e dèje 'nu stuèzze vacande.",
+	"apiwarn-textextracts-title-in-file-namespace": "Ha state cercate 'n'estrazione pe 'nu titole jndr'à 'u namespace, no amme acchiate ninde.",
+	"apiwarn-textextracts-sentences-and-html": "'U parametre <var>$1sentences</var> pò avè resultate inaspettate quanne avène ausate cu 'u mode HTML.",
+	"apiwarn-textextracts-malformed-html": "HTML pò essere malformate e/o sbilangiate e pò zumbà le immaggine inline. Ce l'ause jè a rischie tune. Le probbleme canusciute so elengate sus a https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:TextExtracts#Caveats."
+}

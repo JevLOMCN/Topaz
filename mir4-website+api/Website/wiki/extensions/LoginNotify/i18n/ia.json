@@ -1,0 +1,19 @@
+{
+	"@metadata": {
+		"authors": [
+			"McDutchie"
+		]
+	},
+	"loginnotify-desc": "Notificar le usatores de sessiones suspecte proveniente de apparatos e/o IP adresses non familiar",
+	"echo-category-title-login-fail": "Tentativas fallite de apertura de session",
+	"echo-pref-tooltip-login-fail": "Notificar me quando ha occurrite tentativas fallite de aperir session in mi conto.",
+	"echo-category-title-login-success": "Session proveniente de un apparato non familiar",
+	"echo-pref-tooltip-login-success": "Notificar me quando alcuno aperi session in mi conto a partir de un apparato e adresse IP non familiar.",
+	"loginnotify-primary-link": "Adjuta",
+	"notification-loginnotify-login-fail-email-subject": "{{PLURAL:$2|Tentativa|Plure tentativas}} fallite de aperir session in {{SITENAME}} como $1",
+	"notification-loginnotify-login-success-email-subject": "Session {{SITENAME}} como $1 ab un dispositivo que {{GENDER:$1|tu}} non ha usate recentemente",
+	"notification-header-login-success": "Alcuno (probabilemente {{GENDER:$1|tu}}) ha recentemente aperire session in tu conto a partir de un nove apparato. Si es tu, alora tu pote ignorar iste message. Si non es tu, alora es recommendate cambiar tu contrasigno e verificar le activitate de tu conto.",
+	"notification-new-bundled-header-login-fail": "Ha occurrite '''{{PLURAL:$1|un tentativa|$1 tentativas}} fallite''' de aperir session in tu conto a partir de un nove apparato depost le ultime vice que tu ha aperite session. Si tu non initiava isto, per favor assecura te que tu conto ha un contrasigno forte.",
+	"notification-known-header-login-fail": "Ha occurrite '''{{PLURAL:$1|un tentativa|$1 tentativas}} fallite''' de aperir session in tu conto depost le ultime vice que tu ha aperite session. Si tu non initiava isto, per favor assecura te que tu conto ha un contrasigno forte.",
+	"notification-new-unbundled-header-login-fail": "Ha occurrite '''{{PLURAL:$1|un tentativa|$1 tentativas}} fallite''' de aperir session in tu conto a partir de un nove apparato. Per favor assecura te que tu conto ha un contrasigno forte."
+}

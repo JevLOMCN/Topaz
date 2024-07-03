@@ -1,0 +1,40 @@
+{
+	"@metadata": {
+		"authors": [
+			"Crochet.david",
+			"Elfix",
+			"Gomoko",
+			"Grondin",
+			"IAlex",
+			"JackPotte",
+			"Meithal",
+			"Orlodrim",
+			"PieRRoMaN",
+			"Urhixidur",
+			"Verdy p",
+			"Wladek92",
+			"Yasten",
+			"Zetud"
+		]
+	},
+	"action-tboverride": "écraser la liste des titres ou noms d’utilisateur interdits",
+	"action-tboverride-account": "écraser la liste des noms d’utilisateur interdits",
+	"action-titleblacklistlog": "afficher le journal de la liste des titres interdits",
+	"log-name-titleblacklist": "Journal de la liste des titres interdits",
+	"log-description-titleblacklist": "Ces événements tracent les occurrences avec la liste des titres interdits.",
+	"logentry-titleblacklist-hit-username": "$1{{GENDER:$2|}} a produit une occurrence dans la liste des titres interdits en essayant de créer le compte $3 qui correspond à $4.",
+	"titleblacklist-desc": "Permet aux administrateurs d’interdire la création de pages et de comptes utilisateur en fonction d’une [[MediaWiki:Titleblacklist|liste de titres interdits]] et d’une [[MediaWiki:Titlewhitelist|liste de titres autorisés]].",
+	"titleblacklist": "# Ceci est la liste des titres interdits. Les titres et les noms d’utilisateurs qui correspondent à une expression rationnelle présente sur cette page ne peuvent pas être créés.\n# Utilisez « # » pour insérer des commentaires.\n# Par défaut, les entrées ne sont pas sensibles à la casse.",
+	"titlewhitelist": "# Ceci est la liste des titres autorisés. Utilisez « # » pour insérer des commentaires.\n# Par défaut, les entrées ne sont pas sensibles à la casse.",
+	"titleblacklist-forbidden-edit": "Le titre « $2 » est interdit à la création.\nIl correspond à l’entrée suivante de la liste des titres interdits : <code>$1</code>",
+	"titleblacklist-forbidden-move": "La page intitulée « $2 » ne peut être déplacée vers « $3 » parce que ce titre a été interdit à la création. Il correspond à l’entrée suivante de la liste des titres interdits : <code>$1</code>",
+	"titleblacklist-forbidden-upload": "Le fichier intitulé « $2 » est interdit à la création.\nIl correspond à l’entrée suivante de la liste des titres interdits : <code>$1</code>",
+	"titleblacklist-forbidden-new-account": "Le nom d’utilisateur « $2 » a été banni à la création.\nIl correspond à l’entrée suivante de la liste des titres interdits : <code>$1</code>",
+	"titleblacklist-invalid": "L{{PLURAL:$1|a|es}} ligne{{PLURAL:$1||s}} suivante{{PLURAL:$1||s}} dans la liste des titres interdits n{{PLURAL:$1|’es|e son}}t pas valide{{PLURAL:$1||s}} ; veuillez l{{PLURAL:$1|l|ls}} corriger avant de publier :",
+	"titleblacklist-override": "Passer outre la liste des titres interdits si cela correspond",
+	"titleblacklist-override-help": "Les utilisateurs avec des privilèges suffisants peuvent choisir d’ignorer les vérifications de la liste des titres interdits.",
+	"titleblacklist-warning": "<strong>Attention : cette page ne peut être modifiée que par des administrateurs et autres utilisateurs avec le droit <code>tboverride</code>, parce qu’elle correspond à l’entrée suivante de la liste des titres interdits :</strong><br /><code>$1</code>",
+	"right-tboverride": "Passer outre la liste des titres ou noms d’utilisateur interdits",
+	"right-tboverride-account": "Passer outre la liste des noms d’utilisateur interdits",
+	"right-titleblacklistlog": "Afficher le journal de la liste des titres interdits"
+}

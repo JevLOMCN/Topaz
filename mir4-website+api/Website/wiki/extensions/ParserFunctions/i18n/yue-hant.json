@@ -1,0 +1,28 @@
+{
+	"@metadata": {
+		"authors": [
+			"Winston Sung"
+		]
+	},
+	"pfunc_desc": "用邏輯功能去加強處理器",
+	"pfunc_time_error": "錯: 唔啱嘅時間",
+	"pfunc_time_too_long": "錯: 太多 #time 呼叫",
+	"pfunc_time_too_big": "出錯：#time 只係支援最多 9999 年。",
+	"pfunc_time_too_small": "出錯：#time 只係支援最少 0 年。",
+	"pfunc_rel2abs_invalid_depth": "錯: 唔啱路徑嘅深度: \"$1\" (已經試過由頭點落個點度)",
+	"pfunc_expr_stack_exhausted": "表達錯: 堆叠耗盡",
+	"pfunc_expr_unexpected_number": "表達錯: 未預料嘅數字",
+	"pfunc_expr_preg_match_failure": "表達錯: 未預料嘅 preg_match失敗",
+	"pfunc_expr_unrecognised_word": "表達錯: 未預料嘅字 \"$1\"",
+	"pfunc_expr_unexpected_operator": "表達錯: 未預料嘅 $1 運算符",
+	"pfunc_expr_missing_operand": "表達錯: 缺少 $1 嘅運算符",
+	"pfunc_expr_unexpected_closing_bracket": "表達錯: 未預料嘅閂括號",
+	"pfunc_expr_unrecognised_punctuation": "表達錯: 未能認得到嘅標點 \"$1\"",
+	"pfunc_expr_unclosed_bracket": "表達錯: 未閂好嘅括號",
+	"pfunc_expr_division_by_zero": "除以零",
+	"pfunc_expr_invalid_argument": "$1嘅無效參數: < -1 or > 1",
+	"pfunc_expr_invalid_argument_ln": "ln嘅無效參數: <= 0",
+	"pfunc_expr_unknown_error": "表達錯: 未知嘅錯 ($1)",
+	"pfunc_expr_not_a_number": "響 $1: 結果唔係數字",
+	"pfunc_string_too_long": "出錯：字串超過 $1 個字元嘅限制。"
+}

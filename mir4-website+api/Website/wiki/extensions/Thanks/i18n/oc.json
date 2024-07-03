@@ -1,0 +1,28 @@
+{
+	"@metadata": {
+		"authors": [
+			"Cedric31",
+			"Guilhelma"
+		]
+	},
+	"thanks-desc": "Apond de ligams per mercejar los utilizaires per de modificacions, de comentaris, etc.",
+	"thanks-thank": "{{GENDER:$1|{{GENDER:$2|mercejar}}}}",
+	"thanks-thanked": "{{GENDER:$1|{{GENDER:$2|mercejat|mercejada}}}}",
+	"thanks-button-thank": "{{GENDER:$1|{{GENDER:$2|mercejar}}}}",
+	"thanks-button-thanked": "{{GENDER:$1|{{GENDER:$2|Mercejat|Mercejada}}}}",
+	"thanks-error-undefined": "Fracàs de l’accion de mercejament (còdi d'error : $1). Tornatz ensajar.",
+	"thanks-error-invalidrevision": "L’ID de revision es invalid.",
+	"thanks-error-ratelimited": "{{GENDER:$1|Avètz}} depassat vòstre limit de debit. Esperatz un pauc e tornatz ensajar.",
+	"thanks-thank-tooltip": "{{GENDER:$1|Mandar}} una notificacion de mercejament a {{GENDER:$2|aqueste utilizaire|aquesta utilizaira}}",
+	"thanks-confirmation2": "{{GENDER:$1|Mandar}} de mercejaments publics per aquesta modificacion ?",
+	"thanks-thanked-notice": "{{GENDER:$3|Vous}} mercegètz {{GENDER:$2|$1}}.",
+	"echo-pref-subscription-edit-thank": "Me mercejar per ma modificacion",
+	"echo-pref-tooltip-edit-thank": "M'avisar quand qualqu’un me merceja per una modificacion qu’ai faita.",
+	"echo-category-title-edit-thank": "Mercé",
+	"notification-header-rev-thank": "$1 vos {{GENDER:$2|a}} {{GENDER:$4|mercejat|mercejada|remercejat(ejada)}} per vòstra modificacion sus <strong>$3</strong>.",
+	"notification-bundle-header-rev-thank": "{{PLURAL:$1|Una persona|$1 personas|100=Al mens 100 personas}} vos {{PLURAL:$1|a|an}} {{GENDER:$3|mercejat|mercejada}} per vòstra modificacion sus <strong>$2</strong>.",
+	"log-name-thanks": "Entrada mercejaments",
+	"log-description-thanks": "Trobaretz çaijós una lista d'utilizaires que son estats mercejats per d'autres.",
+	"logentry-thanks-thank": "$1 {{GENDER:$2|a mercejat}} {{GENDER:$4|$3}}",
+	"notification-header-flow-thank": "{{GENDER:$2|$1}} {{GENDER:$5|vos a mercejat|vos a mercejada|vos a mercejat(-ada)}} per vòstre comentari dins « <strong>$3</strong> »."
+}

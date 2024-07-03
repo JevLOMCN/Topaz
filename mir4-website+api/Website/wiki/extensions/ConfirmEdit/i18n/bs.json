@@ -1,0 +1,31 @@
+{
+	"@metadata": {
+		"authors": [
+			"BrokenArrow",
+			"CERminator",
+			"OC Ripper",
+			"Obsuser",
+			"Palapa",
+			"Semso98",
+			"Srdjan m",
+			"Srđan"
+		]
+	},
+	"captcha-edit": "Da biste izmijenili ovu stranicu, riješite sljedeći zadatak ispod i upišite odgovor u kutiju  ([[Special:Captcha/help|detaljnije]]):",
+	"captcha-desc": "Omogućava CAPTCHA tehnike za zaštitu protiv spama i probijanja šifre",
+	"captcha-addurl": "Vaša izmjena sadrži nove vanjske linkove.\nU cilju zaštite wikija od automatiziranog neželjenog sadržaja, molimo Vas da riješite naredni zadatak ispod i upišete rezultat u kutiju da biste sačuvali izmjenu ([[Special:Captcha/help|detaljnije]]):",
+	"captcha-badlogin": "U cilju zaštite wikija od automatiziranog probijanja lozinki, molimo naredni zadatak ispod i upišite rezultat u kutiju ([[Special:Captcha/help|detaljnije]]):",
+	"captcha-createaccount": "U cilju zaštite wikija od automatiziranog pravljenja računa, ljubazno Vas molimo da riješite naredni zadatak ispod i upišite odgovor u donju kutiju ([[Special:Captcha/help|detaljnije]]):",
+	"captcha-createaccount-fail": "Netačna ili nepotpuna CAPTCHA.",
+	"captcha-create": "Da biste napravili stranicu, riješite naredni zadatak ispod i upišite odgovor u donju kutiju ([[Special:Captcha/help|detaljnije]]):",
+	"captcha-sendemail": "U cilju zaštite wikija od automatiziranog postavljanja neželjenog sadržaja, ljubazno Vas molimo da riješite naredni zadatak ispod i upišete rezultat u kutiju ([[Special:Captcha/help|detaljnije]]):",
+	"captcha-sendemail-fail": "Netačan unos ili nedostajući CAPTCHA.",
+	"captcha-disabledinapi": "Ova akcija zahtjeva captchu, tako da se ne može izvršiti preko API.",
+	"captchahelp-title": "Pomoć u vezi s CAPTCHA-om",
+	"captchahelp-cookies-needed": "Da bi ste ovo mogli raditi potrebno je da omogućite kolačiće (cookies) u Vašem pregledniku.",
+	"captchahelp-text": "Websajtovi koji podržavaju slanje sadržaja iz javnosti, kao što je ovaj viki, često zloupotrebljavaju vandali koji koriste automatizovane alate da šalju svoje linkove ka mnogim sajtovima.\nIako se ovi neželjeni linkovi mogu ukloniti, one ipak zadaju veliku muku.\n\nPonekad, pogotovo kad se dodaju novi internet linkovi na stranicu, wiki softver Vam može pokazati sliku obojenog i izvrnutog teksta i tražiti da ukucate traženu riječ.\nPošto je teško automatizovati ovakav zadatak, on omogućuje svim pravim ljudima da vrše svoje izmjene, ali će zato spriječiti vandale i ostale robotske napadače.\n\nNažalost, ovo može da bude nepovoljno za korisnike sa ograničenim vidom i za one koji koriste preglednike bazirane na tekstu ili govoru.\nU ovom trenutku, audio alternativa nije dostupna.\nMolimo Vas da kontaktirate [[Special:ListAdmins|administratore sajta]] radi pomoći ako Vas ovo neočekivano ometa u pravljenju dobrih izmjena.\n\nKliknite 'nazad' ('back') dugme vašeg preglednika da se vratite na polje za unos teksta.",
+	"captcha-addurl-whitelist": " #<!-- ostavite ovaj red onakav kakav je --> <pre>\n# Sintaksa je sljedeća:\n#  * Sve od znaka \"#\" do kraja reda je komentar\n#  * Svaki neprazni red je regex fragment koji će odgovarati samo domaćinima unutar URLova\n  #</pre> <!-- ostavite ovaj red onakav kakav je -->",
+	"right-skipcaptcha": "Izvođenje radnji koje zahtijevaju unos CAPTCHA kôda bez unošenja CAPTCHA kôda",
+	"confirmedit-preview-line": "Broj reda",
+	"confirmedit-preview-content": "Sadržaj"
+}

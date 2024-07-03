@@ -1,0 +1,17 @@
+/**
+ * Per http://developer.yahoo.com/blogs/ydn/clip-hidden-content-better-accessibility-53456.html
+ * and https://en.wikipedia.org/w/index.php?oldid=572888139#Scrolling_past_the_bottom_of_the_page...
+ */
+.cite-accessibility-label {
+	/* Workaround a Webkit/Blink bug about positioning within columns as many wikis format references with several columns */
+	top: -99999px;
+	clip: rect( 1px, 1px, 1px, 1px );
+	/* stylelint-disable declaration-no-important */
+	position: absolute !important;
+	padding: 0 !important;
+	border: 0 !important;
+	height: 1px !important;
+	width: 1px !important;
+	/* stylelint-enable declaration-no-important */
+	overflow: hidden;
+}

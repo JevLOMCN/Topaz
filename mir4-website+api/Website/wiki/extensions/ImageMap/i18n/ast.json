@@ -1,0 +1,20 @@
+{
+	"@metadata": {
+		"authors": [
+			"Esbardu",
+			"Xuacu"
+		]
+	},
+	"imagemap_desc": "Permite nel llau del cliente los mapes d'imaxe que se puen calcar usando la etiqueta <code>&lt;imagemap&gt;</code>",
+	"imagemap_no_image": "Error: ha especificase una imaxe na primer llinia",
+	"imagemap_invalid_image": "Error: la imaxe nun ye válida o nun esiste",
+	"imagemap_bad_image": "Error: La imaxe ta na llista prieta d'esta páxina",
+	"imagemap_no_link": "Error: atopóse un enllaz non válidu a lo cabero la llinia $1",
+	"imagemap_invalid_title": "Error: títulu non válidu nel enllaz de la llinia $1",
+	"imagemap_missing_coord": "Error: nun hai abondes coordenaes pa formar la figura de la llinia $1",
+	"imagemap_unrecognised_shape": "Error: figura non reconocida na llinia $1, cada llinia ha empecipiar con dalguna d'estes: <code>default</code>, <code>rect</code>, <code>circle</code> o <code>poly</code>.",
+	"imagemap_invalid_coord": "Error: coordenada non válida en llinia $1, ha ser un númberu",
+	"imagemap_invalid_desc": "Error: parámetru 'desc' non válidu, ha ser ún d'estos: <code>$1</code>",
+	"imagemap_description": "Tocante a esta imaxe",
+	"imagemap_poly_odd": "Error: atopóse un polígonu con un númberu impar de coordenaes na llinia $1"
+}

@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"Dvorapa",
+			"Mormegil"
+		]
+	},
+	"apihelp-titleblacklist-param-title": "Řetězec, který se má vůči černé listině zkontrolovat.",
+	"apihelp-titleblacklist-param-action": "Akce, která se má zkontrolovat.",
+	"apihelp-titleblacklist-param-nooverride": "Nepokoušet se o překonání černé listiny názvů.",
+	"apihelp-titleblacklist-example-1": "Zkontrolovat, jestli je [[Foo]] na černé listině.",
+	"apihelp-titleblacklist-example-2": "Zkontrolovat, zda je černou listinou zakázána editace [[Bar]]."
+}

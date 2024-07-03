@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"McDutchie"
+		]
+	},
+	"apihelp-categorytree-summary": "Modulo interne pro le extension CategoryTree.",
+	"apihelp-categorytree-param-category": "Titulo in le spatio de nomines Categoria. Le prefixo essera ignorate si fornite.",
+	"apihelp-categorytree-param-options": "Optiones pro le constructor CategoryTree como objecto JSON. Le option <var>depth</var> predefinite es <kbd>1</kbd>.",
+	"apierror-categorytree-invalidjson": "Le optiones debe esser un objecto JSON valide.",
+	"apierror-categorytree-invalidjson-option": "Le option \"$1\" contine un valor non valide."
+}

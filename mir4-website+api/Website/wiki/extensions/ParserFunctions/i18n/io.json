@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"Joao Xavier",
+			"Malafaya"
+		]
+	},
+	"pfunc_time_error": "Eroro: ne-valida tempo",
+	"pfunc_expr_unrecognised_word": "Skriptal eroro: vorto \"$1\" nekonocita.",
+	"pfunc_expr_unexpected_operator": "Eroro en la frazo: Neexpektata $1 operacero.",
+	"pfunc_expr_missing_operand": "Eroro en la frazo: Mankas operando por $1.",
+	"pfunc_expr_unrecognised_punctuation": "Frazala eroro: Nekonocita puntizosigno “$1”.",
+	"pfunc_expr_unclosed_bracket": "Eroro en expresado: Krampono apertita.",
+	"pfunc_expr_division_by_zero": "Divido per zero"
+}

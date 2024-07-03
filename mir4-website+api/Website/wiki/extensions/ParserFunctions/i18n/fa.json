@@ -1,0 +1,32 @@
+{
+	"@metadata": {
+		"authors": [
+			"Amire80",
+			"Ebraminio",
+			"Huji",
+			"Reza1615",
+			"Wayiran"
+		]
+	},
+	"pfunc_desc": "به تجزیه‌گر، دستورهای منطقی می‌افزاید",
+	"pfunc_time_error": "خطا: زمان نامعتبر",
+	"pfunc_time_too_long": "خطا: فراخوانی بیش از حد #time",
+	"pfunc_time_too_big": "خطا: #زمان تا سال ۹۹۹۹ را فقط حمایت می‌کند.",
+	"pfunc_time_too_small": "خطا: #time تنها  از سال  0 به بعد را پشتیبانی می‌کند.",
+	"pfunc_rel2abs_invalid_depth": "خطا: عمق نامجاز در نشانی «$1» (تلاش برای دسترسی به یک نشانی فراتر از نشانی ریشه)",
+	"pfunc_expr_stack_exhausted": "خطای عبارت: پشته از دست رفته",
+	"pfunc_expr_unexpected_number": "خطای عبارت: عدد دور از انتظار",
+	"pfunc_expr_preg_match_failure": "خطای عبارت: خطای preg_match دور از انتظار",
+	"pfunc_expr_unrecognised_word": "خطای عبارت: کلمه ناشناخته «$1»",
+	"pfunc_expr_unexpected_operator": "خطای عبارت: عملگر $1 دور از انتظار",
+	"pfunc_expr_missing_operand": "خطای عبارت: عملگر گمشده برای $1",
+	"pfunc_expr_unexpected_closing_bracket": "خطای عبارت: پرانتز بسته اضافی",
+	"pfunc_expr_unrecognised_punctuation": "خطای عبارت: نویسه نقطه‌گذاری شناخته نشده «$1»",
+	"pfunc_expr_unclosed_bracket": "خطای عبارت: پرانتز بسته‌نشده",
+	"pfunc_expr_division_by_zero": "تقسیم بر صفر",
+	"pfunc_expr_invalid_argument": "پارامتر نامجاز برای $1: < -۱ یا > ۱",
+	"pfunc_expr_invalid_argument_ln": "پارامتر نامجاز برای لگاریتم طبیعی: <= صفر",
+	"pfunc_expr_unknown_error": "خطای عبارت: خطای ناشناخته ($1)",
+	"pfunc_expr_not_a_number": "در $1: نتیجه عدد نیست",
+	"pfunc_string_too_long": "خطا: رشته از محدودیت نویسه‌ای $1 تجاوز می‌کند"
+}

@@ -1,0 +1,23 @@
+{
+	"@metadata": {
+		"authors": [
+			"Eitvys200",
+			"Hugo.arg",
+			"Manvydasz",
+			"Nokeoo",
+			"Tomasdd"
+		]
+	},
+	"loginnotify-desc": "Praneškite naudotojams apie įtartinus prisijungimus iš nežinomų įrenginių ir (ar) IP adresų",
+	"echo-category-title-login-fail": "Nepavykę prisijungimai",
+	"echo-pref-tooltip-login-fail": "Pranešti man, kai kelis kartus nepavyko prisijungti prie mano paskyros.",
+	"echo-category-title-login-success": "Prisijungimas iš nepažįstamo įrenginio",
+	"echo-pref-tooltip-login-success": "Pranešti man, kai kas nors prisijungia prie mano paskyros iš nepažįstamo įrenginio ir IP adreso.",
+	"loginnotify-primary-link": "Pagalba",
+	"notification-loginnotify-login-fail-email-subject": "{{PLURAL:$2|Nesėkmingas bandymas|Keletas nesėkmingų bandymų}} prisijungti prie {{SITENAME}} $1 vardu",
+	"notification-loginnotify-login-success-email-subject": "Prisijungimas prie {{SITENAME}} kaip $1 iš įrenginio, kurio {{GENDER:$1|jūs}} neseniai nenaudojote",
+	"notification-header-login-success": "Kažkas (tikriausiai {{GENDER:$1|jūs}}) neseniai prisijungė prie jūsų paskyros iš naujo įrenginio. Jei tai jūs, galite šią žinutę ignoruoti. Jei tai ne jūs, rekomenduojama pasikeisti savo slaptažodį ir patikrinti savo paskyros naujausią veiklą.",
+	"notification-new-bundled-header-login-fail": "{{PLURAL:$1|Užfiksuotas '''nepavykęs bandymas'''|Užfiksuoti '''$1 nepavykę bandymai'''}} prisijungti prie jūsų paskyros iš naujo įrenginio nuo jūsų praeito prisijungimo. Jei tai ne jūs, įsitikinkite, kad jūsų paskyra turi stiprų slaptažodį.",
+	"notification-known-header-login-fail": "Nuo to karto, kai prisijungėte paskutinį sykį {{PLURAL:$1|būta '''nesėkmingo bandymo'''|būta '''$1 nesėkmingų bandymų'''}} prisijungti prie jūsų paskyros. Jei tai ne jūsų bandymai, prašome susikurti neįspėjamą slaptažodį.",
+	"notification-new-unbundled-header-login-fail": "{{PLURAL:$1|Užfiksuotas '''nepavykęs bandymas'''|Užfiksuoti '''$1 nepavykę bandymai'''}} prisijungti prie jūsų paskyros iš naujo įrenginio. Įsitikinkite, kad jūsų paskyra turi stiprų slaptažodį."
+}

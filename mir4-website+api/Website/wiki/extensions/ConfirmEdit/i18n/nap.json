@@ -1,0 +1,34 @@
+{
+	"@metadata": {
+		"authors": [
+			"C.R.",
+			"Ruthven"
+		]
+	},
+	"captcha-edit": "Pe' putè cagnà sta paggena, pe' piacere facite sta somma semprice semprice ccà abbascio e mettite 'a risposta int' 'a casciulella 'e testo ([[Special:Captcha/help|cchiù nfurmaziune]]):",
+	"captcha-edit-fail": "Codece 'e cunferma CAPTCHA errato o mancante.",
+	"captcha-desc": "Dàje 'e tecniche CAPTCHA pe' putè pruteggere annanz' 'o spam e 'o futtimento r' 'a password",
+	"captcha-help": "Soluzione d' 'o CAPTCHA.",
+	"captcha-info-help": "Descriziona d' 'o CAPTCHA",
+	"captcha-id-label": "ID d' 'o CAPTCHA",
+	"captcha-id-help": "Stu valore s'adda mannà arreto senza cagnà.",
+	"captcha-addurl": "'O cagnamiento tujo azzecca cullegamiente 'a fore.\nPe putè aiutà a pruteggere annanz' 'o spam automateco, pe piacere rispunnitte 'e dumanne ca cumpareno abbascio 'a casciulella ([[Special:Captcha/help|cchiù nfurmaziune]]):",
+	"captcha-badlogin": "Pe' pruteggere sta wiki 'a coccheruno ca se futtesse 'e password automaticamente, ve cercammo gentilmente 'e ve ffà sta somma facile facile ccà abbascio e nce miettere 'a risposta int' 'a casciulella ([[Special:Captcha/help|cchiù nfurmaziune]]):",
+	"captcha-createaccount": "Pe' pruteggere sta wiki 'a coccheruno ca se criase nu melione 'e cunte, ve cercammo gentilmente 'e ve ffà sta somma facile facile ccà abbascio e nce miettere 'a risposta int' 'a casciulella ([[Special:Captcha/help|cchiù nfurmaziune]]):",
+	"captcha-createaccount-fail": "Codece 'e cunferma CAPTCHA errato o mancante.",
+	"captcha-create": "Pe' putè crià sta paggena, pe' piacere facite sta somma semprice semprice ccà abascio e mettite 'a risposta int' 'a casciulella 'e testo ([[Special:Captcha/help|cchiù nfurmaziune]]):",
+	"captcha-sendemail": "Pe' pruteggere sta wiki 'a coccheruno ca mannasse spam automaticamente, ve cercammo gentilmente 'e ve ffà sta somma facile facile ccà abbascio e nce miettere 'a risposta int' 'a casciulella ([[Special:Captcha/help|cchiù nfurmaziune]]):",
+	"captcha-sendemail-fail": "CAPTCHA abbacante o sbagliato.",
+	"captcha-disabledinapi": "Pe' putè fà st'azione ce buò 'o CAPTCHA, sinò nun se può ffà pe' bbìa 'e ll'API.",
+	"captcha-error": "'O cuntrollo 'e verifica 'e CAPTCHA guastaje a causa 'e n'errore interno: $1",
+	"captchahelp-title": "Ajuto p' 'o CAPTCHA",
+	"captchahelp-cookies-needed": "Pe' ffà chesto tenite bbesogno 'e v'appiccià 'e cookies dint' 'o navigatore.",
+	"captchahelp-text": "'E site web c'accettano mmasciata 'a 'o pubbleco, comm'a stu wiki, songo spisso abbusate 'a 'e spammer c'auseno strumiente automatece e computer pe' putè mannà 'e link lloro a nu cuofeno 'e site. Pe' tramente ca sti mmasciate se ponno levà, songo però nu scasso.\n\nCerti vote, spicialmente quanno s'azzeccano cullegamiente nuove ncopp'a na paggena, 'a wiki ve putesse fà vedé n'immaggene 'e testo culurato o sciummato ca te cercasse e te fà scrivere 'e parole ca verite. Pure si sta fatica è difficultosa pe' ne putè fà ll'automazione, permettesse ll'utente umane a ffà 'e fatiche suoje pe' tramente ca se fermassero tutt' 'e spammer e ati robbot.\n\n'A malasciorta stu fatto putesse dà n'inconveniente a ll'utente cu visione lemmetata o c'ausano 'o browser surtanto cu nu testo o parlanno. Int'a stu mumento nun ce tenimmo n'alternativa audio. Pe' piacere, cuntattate cu ll'[[Special:ListAdmins|amministrature d' o sito]] pe' ce putè aiutà 'e chiste annanz' 'e leggittime aziune voste.\n\nFacite click 'o buttòne \"arreto\" ncopp' 'o navigatore pe' ffà 'e turnà 'o cagnamiento d' 'a paggena.",
+	"captcha-addurl-whitelist": " #<!-- leave this line exactly as it is --> <pre>\n# 'A sintasse è comme segue:\n#   * Ogneccosa 'a 'nu carattere \"#\" 'mponta a fine d' 'a linea è 'nu cummanno\n#   * Ogne linea chiena è 'nu piezzo 'e regex 'o quale s'addà sulamente cunfruntà ch' 'e host int'a l'URL\n #</pre> <!-- leave this line exactly as it is -->",
+	"right-skipcaptcha": "Facite appiccià tutto comme fosse c'avite miso 'o CAPTCHA senza avé 'e ghì pe' bbìa d' 'o CAPTCHA",
+	"confirmedit-preview-line": "Nummero 'e riga",
+	"confirmedit-preview-content": "Cuntenute",
+	"confirmedit-preview-validity": "Validità",
+	"confirmedit-preview-valid": "valido",
+	"confirmedit-preview-invalid": "nun valido"
+}

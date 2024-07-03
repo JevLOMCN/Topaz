@@ -1,0 +1,24 @@
+/*!
+ * VisualEditor UserInterface CommentContextItem styles.
+ *
+ * @copyright See AUTHORS.txt
+ */
+
+.ve-ui-commentContextItem .ve-ui-linearContextItem-body {
+	overflow: auto;
+	max-height: 10em;
+	/* Support: Blink, Gecko, Webkit */
+	/* Specify a valid second value to fix size, see T176636 */
+	font-family: monospace, monospace;
+	/* Support: Chrome<76, Firefox<69 */
+	/* Fallback for browsers which don't support break-spaces */
+	white-space: pre-wrap;
+	/* T348006 */
+	white-space: break-spaces;
+	line-height: 1.25em;
+
+	.ve-ui-desktopContext & {
+		padding: 0.5em 0.5em 0 0.5em;
+		margin: 0 0.5em 1em 0.5em;
+	}
+}

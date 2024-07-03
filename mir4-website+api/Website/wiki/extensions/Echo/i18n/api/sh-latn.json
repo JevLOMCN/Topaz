@@ -1,0 +1,28 @@
+{
+	"@metadata": {
+		"authors": [
+			"Winston Sung"
+		]
+	},
+	"apihelp-echomarkread-summary": "Označi sva obavještenja kao pročitana za trenutni korisnik.",
+	"apihelp-echomarkread-param-list": "Spisak naznaka obavještenja što treba da se označe kao pročitana.",
+	"apihelp-echomarkread-param-unreadlist": "Spisak naznaka obavještenja što treba da se označe kao nepročitana.",
+	"apihelp-echomarkread-param-all": "Ako je zadano, označava sva obavještenja jednog korisnika kao pročitana.",
+	"apihelp-echomarkread-param-sections": "Spisak podnaslova što treba da se označe kao pročitani.",
+	"apihelp-echomarkread-param-wikis": "Popis wikija čije obavijesti treba označavati kao pročitane (zadano: samo trenutni wiki).",
+	"apihelp-echomarkread-example-1": "Označi obavještenje 8 kao pročitano",
+	"apihelp-echomarkread-example-2": "Označiu sva obaveštenja pročitanim",
+	"apihelp-echomarkread-example-3": "Označi obavještenje 1 kao pročitano",
+	"apihelp-echomarkseen-summary": "Označi obavještenja kao pročitana za trenutni korisnik.",
+	"apihelp-echomarkseen-example-1": "Označi obavještenja svih vrsta kao pročitana",
+	"apihelp-echomarkseen-param-type": "Vrste obavještenja što treba da se označe kao viđena: „alert“, „message“ ili „all“.",
+	"apihelp-echopushsubscriptions-param-command": "Akcija za izvesti.",
+	"apihelp-query+notifications-summary": "Daj obavještenja što isčekavaju trenutnoga korisnika.",
+	"apihelp-query+notifications-param-prop": "Pojedinosti što treba da se potraže.",
+	"apihelp-query+notifications-param-sections": "Obavjestiteljne podnaslove što treba da se potraže (tj. neka kombinacija „alert“ i „message“).",
+	"apihelp-query+notifications-param-groupbysection": "Da li grupira se ishod po podnaslovima. Ako je zadano, svaki podnaslov daje se zasebno.",
+	"apihelp-query+notifications-param-filter": "Filtriraj obavještenja u ishodu.",
+	"apihelp-query+notifications-param-format": "Ako je zadano, obavještenja će se dati kao formatirana ovim načinom.",
+	"apihelp-query+notifications-paramvalue-format-model": "Sirovo obavještenje",
+	"apihelp-query+notifications-example-1": "Ispiši web obavještenja"
+}

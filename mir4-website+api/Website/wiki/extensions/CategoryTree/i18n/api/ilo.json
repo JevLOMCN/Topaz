@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Lam-ang"
+		]
+	},
+	"apihelp-categorytree-summary": "Akin-uneg a modulo para iti pagpaatiddog ti CategoryTree.",
+	"apihelp-categorytree-param-category": "Titulo iti nagan ti espasio ti kategoria, saanto a maikaskaso ti pasakbay no maited.",
+	"apihelp-categorytree-param-options": "Dagiti pagpilian ti konstruktor ti CategoryTree a kas maysa a banag ti JSON. Ti pagpilian ti <var>depth</var> ket kasisigud iti <kbd>1</kbd>.",
+	"apierror-categorytree-invalidjson": "Dagiti pagpilian ket nasken nga umiso a banag ti JSON."
+}

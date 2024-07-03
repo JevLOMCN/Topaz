@@ -1,0 +1,29 @@
+{
+	"@metadata": {
+		"authors": [
+			"Pikne"
+		]
+	},
+	"apihelp-query+gadgetcategories-summary": "Tagastab tööriistakategooriate loetelu.",
+	"apihelp-query+gadgetcategories-param-prop": "Millist teavet tööriistakategooriate kohta hankida:",
+	"apihelp-query+gadgetcategories-paramvalue-prop-name": "Sisemine kategoorianimi.",
+	"apihelp-query+gadgetcategories-paramvalue-prop-title": "Kategooria pealkiri.",
+	"apihelp-query+gadgetcategories-paramvalue-prop-members": "Tööriistade arv kategoorias.",
+	"apihelp-query+gadgetcategories-param-names": "Välja võetavate kategooriate nimed.",
+	"apihelp-query+gadgetcategories-example-1": "Hangi olemasolevate tööriistakategooriate loetelu",
+	"apihelp-query+gadgetcategories-example-2": "Hangi kogu teave kategooriate \"foo\" ja \"bar\" kohta",
+	"apihelp-query+gadgets-summary": "Tagastab kõigi selles vikis kasutusel olevate tööriistade loetelu.",
+	"apihelp-query+gadgets-param-prop": "Millist teavet tööriistade kohta hankida:",
+	"apihelp-query+gadgets-paramvalue-prop-id": "Tööriista sisemine identifikaator.",
+	"apihelp-query+gadgets-paramvalue-prop-metadata": "Tööriista metaandmed.",
+	"apihelp-query+gadgets-paramvalue-prop-desc": "Tööriista kirjeldus teisendatuna HTML-iks (võib olla aeglane, kasuta ainult vajadusel).",
+	"apihelp-query+gadgets-param-categories": "Milliste kategooriate tööriistad loetleda.",
+	"apihelp-query+gadgets-param-ids": "Välja võetavate tööriistade identifikaatorid.",
+	"apihelp-query+gadgets-param-allowedonly": "Loetle ainult tööriistad, mille antud kasutaja on lubanud.",
+	"apihelp-query+gadgets-param-enabledonly": "Loetle ainult tööriistad, mille antud kasutaja on lubanud.",
+	"apihelp-query+gadgets-example-1": "Hangi tööriistade loetelu kirjeldustega",
+	"apihelp-query+gadgets-example-2": "Hangi tööriistade loetelu kõigi võimalike atribuutidega",
+	"apihelp-query+gadgets-example-3": "Hangi loetelu tööriistadest, mis kuuluvad kategooriasse \"foo\"",
+	"apihelp-query+gadgets-example-4": "Hangi teave tööriistade \"foo\" ja \"bar\" kohta",
+	"apihelp-query+gadgets-example-5": "Hangi loetelu tööriistadest, mille antud kasutaja on lubanud"
+}

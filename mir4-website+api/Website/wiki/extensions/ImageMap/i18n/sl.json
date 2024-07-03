@@ -1,0 +1,21 @@
+{
+	"@metadata": {
+		"authors": [
+			"Dbc334",
+			"Eleassar"
+		]
+	},
+	"imagemap_desc": "Z uporabo značke <code>&lt;imagemap&gt;</code> omogoča klikljive zemljevide slik na odjemalski strani",
+	"imagemap_no_image": "Napaka: V prvi vrstici morate navesti sliko.",
+	"imagemap_invalid_image": "Napaka: Slika je neveljavna ali ne obstaja.",
+	"imagemap_bad_image": "Napaka: Slika ni dovoljena na tej strani.",
+	"imagemap_no_link": "Napaka: Na koncu vrstice $1 ni bila najdena veljavna povezava.",
+	"imagemap_invalid_title": "Napaka: Neveljaven naslov v povezavi v vrstici $1.",
+	"imagemap_missing_coord": "Napaka: Ni dovolj koordinat za obliko v vrstici $1.",
+	"imagemap_unrecognised_shape": "Napaka: Nerazpoznavna oblika v vrsici $1; vsaka vrstica se mora začeti z enim od: <code>default</code>, <code>rect</code>, <code>circle</code> ali <code>poly</code>.",
+	"imagemap_invalid_coord": "Napaka: Neveljavna koordinata v vrstici $1, biti mora število.",
+	"imagemap_invalid_desc": "Napaka: Neveljavno določilo desc, biti mora eno izmed: <code>$1</code>.",
+	"imagemap_description": "O tej sliki",
+	"imagemap_desc_types": "zgoraj desno, spodaj desno, spodaj levo, zgoraj levo, brez",
+	"imagemap_poly_odd": "Napaka: Najden večkotnik z lihim številom koordinat v vrstici $1."
+}

@@ -1,0 +1,21 @@
+{
+	"@metadata": {
+		"authors": [
+			"Christian List",
+			"Huslåke",
+			"Jyllanj",
+			"Ælsån"
+		]
+	},
+	"captcha-edit": "For å redigiir siden, skal du djie sware på rejnestøkke nierfor, å åndjie resultate i feltje unje dä. ([[Special:Captcha/help|mier informasjon]]):",
+	"captcha-desc": "Semple captcha implementåsje",
+	"captcha-addurl": "Din redigering tilføjer nye eksterne henvisninger til artiklen. Som beskyttelse mod automatiseret spam, skal du give svaret på regnestyket nedenfor, og angive resultatet i feltet under det. ([[Special:Captcha/help|mere information]]):",
+	"captcha-badlogin": "For å beskøtt wikien mod automatisiirtje adgångskodedjietneng, skal du lös dä enkel rejnestøkke nierfor å skriiw resultate i boksi ([[Special:Captcha/help|flier opløsnenge]]):",
+	"captcha-createaccount": "For at beskytte mod automatisk oprettelse af brugernavne, skal du give svaret på regnestyket nedenfor, og angive resultatet i feltet under det. ([[Special:Captcha/help|mere information]]):",
+	"captcha-createaccount-fail": "Forkert eller manglende bekræftelseskode.",
+	"captcha-create": "For å oprett en ny siid, skal du djie sware på rejnestøkke nierfor, å åndjie resultate i feltje unje dä. ([[Special:Captcha/help|mier informasjon]]):",
+	"captchahelp-title": "Captcha-hjälp",
+	"captchahelp-cookies-needed": "Dej browser skal ha cookies slotj til, føj detj kan wirk.",
+	"captchahelp-text": "Websites der accepterer indhold fra offentligheden, bliver ofte udsat for angreb fra spammere. Disse angreb sker med automatiske værktøjer, der anbringer de samme links på et stort antal websites på kort tid. Selvom disse links kan fjernes, er de en vedligeholdelsesmæssig byrde.\n\nI visse tilfælde, specielt når der tilføjes nye links til denne wiki, vil softwaren vise dig et billede af et stykke forvredet og sløret tekst. Du skal indtaste det ord, der vises, før du kan gennemføre handlingen. Formålet er at skelne mellem mennesker og automatiserede værktøjer, da de sidste har meget svært ved at genkende ordene.\n\nDesværre kan dette medføre problemer for svagtseende brugere, og brugere der bruger software der oplæser indholdet af siden. For øjeblikket findes der ikke et lydbaseret alternativ. Kontakt venligst en administrator med henblik på at få hjælp, hvis dette forhindrer tilføjelsen af godartet materiale.\n\nTryk på 'tilbage'-knappen i din browser for at returnere til redigeringssiden.",
+	"captcha-addurl-whitelist": " #<!-- Unlad å rett denn linie --> <pre>\n# Wejliedneng:\n#   * Ållt fra e \"#\"-tejn te slutnengen å en linie ä i kommentar\n#   * Åll intj-blank linie benøtts som regulær uttrykk, där anwenjs på hostnaun i URLe\n #</pre> <!-- Unlad å rett denn linie -->"
+}

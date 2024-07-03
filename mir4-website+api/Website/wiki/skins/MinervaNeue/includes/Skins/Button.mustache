@@ -1,0 +1,6 @@
+<{{^tag-name}}button{{/tag-name}}{{#tag-name}}{{.}}{{/tag-name}}
+	{{#tag-name}}role="button"{{/tag-name}}
+    {{#array-attributes}}{{key}}="{{value}}"{{/array-attributes}}
+    class="cdx-button cdx-button--size-large{{#tag-name}} cdx-button--fake-button cdx-button--fake-button--enabled{{/tag-name}}{{#data-icon}} cdx-button--icon-only cdx-button--weight-quiet{{/data-icon}}{{#classes}} {{.}}{{/classes}}">
+    {{#data-icon}}{{>Icon}}{{/data-icon}}<span>{{ label }}</span>
+</{{^tag-name}}button{{/tag-name}}{{#tag-name}}{{.}}{{/tag-name}}>

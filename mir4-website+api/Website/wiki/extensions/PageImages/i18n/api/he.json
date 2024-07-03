@@ -1,0 +1,20 @@
+{
+	"@metadata": {
+		"authors": [
+			"Amire80",
+			"Guycn2"
+		]
+	},
+	"apihelp-query+pageimages-summary": "החזרת מידע על תמונות בדפים, כגון תמונות ממוזערות ונוכחות של תמונות.",
+	"apihelp-query+pageimages-example-1": "קבלת שם ותמונה ממוזערת בגודל <kbd>100</kbd> פיקסלים של התמונה בדף <kbd>Albert Einstein</kbd>.",
+	"apihelp-query+pageimages-param-prop": "איזה מידע להחזיר:",
+	"apihelp-query+pageimages-paramvalue-prop-thumbnail": "כתובת URL ומידות של תמונה ממוזערת שמשויכת לדף, אם יש כזאת.",
+	"apihelp-query+pageimages-paramvalue-prop-original": "כתובות URL ומידות של תמונה שמשויכת לדף, אם יש כזאת.",
+	"apihelp-query+pageimages-paramvalue-prop-name": "כותרת התמונה.",
+	"apihelp-query+pageimages-param-thumbsize": "רוחב מרבי בפיקסלים עבור תמונות ממוזערות.",
+	"apihelp-query+pageimages-param-langcode": "קוד השפה שהתמונה תתוצג בה אם נתמכות שפות מרובות",
+	"apihelp-query+pageimages-param-limit": "מאפיינים של כמה דפים להחזיר.",
+	"apihelp-query+pageimages-param-license": "להגביל את תמונות הדף לסוג רישיון מסוים:",
+	"apihelp-query+pageimages-paramvalue-license-free": "רק תמונות חופשיות.",
+	"apihelp-query+pageimages-paramvalue-license-any": "התמונה הטובה ביותר, חופשית או לא."
+}

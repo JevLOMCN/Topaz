@@ -1,0 +1,181 @@
+/*!
+ * VisualEditor standalone demo
+ *
+ * @copyright See AUTHORS.txt
+ */
+
+body {
+	margin: 0;
+	padding: 0;
+	overflow-y: scroll;
+	background: #fff;
+}
+
+/* Demo */
+
+.ve-pad-logo,
+.ve-demo-logo {
+	float: right;
+	margin: 0.5em 0 0 0;
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+
+.ve-pad-menu {
+	float: right;
+	margin-top: 1em;
+}
+
+.ve-pad-logo {
+	background-image: url( VisualEditor-collabpad-logo.svg );
+	width: 14em;
+	height: 3.75em;
+}
+
+.ve-demo-logo {
+	width: 10.75em;
+	height: 3.75em;
+	background-image: url( VisualEditor-logo.svg );
+}
+
+.ve-demo-surfaceToolbar-read {
+	line-height: 4.25em;
+}
+
+/* Hack: should generate demo.rtl.css */
+.ve-demo-dir-rtl .ve-demo-logo {
+	float: left;
+}
+
+.ve-demo-toolbar {
+	padding: 0.75em 1.5em;
+
+	.oo-ui-dropdownWidget {
+		min-width: 10em;
+	}
+
+	.oo-ui-dropdownWidget .oo-ui-labelElement-label {
+		/* stylelint-disable-next-line declaration-property-value-disallowed-list */
+		text-transform: capitalize;
+	}
+
+	.ve-ui-languageInputWidget-languageInput,
+	.ve-ui-languageInputWidget-directionSelect {
+		margin: 0;
+		display: inline-block;
+	}
+
+	.ve-ui-languageInputWidget-directionLabel {
+		display: none;
+	}
+
+	.ve-ui-languageInputWidget-languageInput {
+		margin-right: 0.5em;
+	}
+
+	&-commands {
+		margin-bottom: -0.5em;
+	}
+
+	&-divider,
+	&-commands > .oo-ui-widget {
+		margin-bottom: 0.5em;
+	}
+
+	&-commands > .oo-ui-widget > .oo-ui-fieldLayout {
+		display: inline-block;
+		margin: 0;
+	}
+
+	&-commands > .oo-ui-widget,
+	&-commands > .oo-ui-widget > .oo-ui-fieldLayout > .oo-ui-fieldLayout-body > .oo-ui-fieldLayout-field,
+	&-divider {
+		width: auto;
+		float: none;
+		display: inline-block;
+		vertical-align: middle;
+
+		.ve-demo-dir-ltr & {
+			margin-right: 1em;
+		}
+
+		.ve-demo-dir-rtl & {
+			margin-left: 1em;
+		}
+	}
+
+	&-commands > .oo-ui-widget:last-child,
+	&-commands > .oo-ui-widget > .oo-ui-fieldLayout:last-child > .oo-ui-fieldLayout-body > .oo-ui-fieldLayout-field {
+		.ve-demo-dir-ltr & {
+			margin-right: 0;
+		}
+
+		.ve-demo-dir-rtl & {
+			margin-left: 0;
+		}
+	}
+
+	.oo-ui-textInputWidget {
+		width: 4em;
+	}
+
+	.oo-ui-dropdownWidget .oo-ui-menuSelectWidget {
+		z-index: 3;
+	}
+}
+
+.ve-demo-dir-ltr .ve-demo-toolbar-divider {
+	border-right: 1px solid #ddd;
+	width: 0;
+}
+
+.ve-demo-dir-rtl .ve-demo-toolbar-divider {
+	border-left: 1px solid #ddd;
+}
+
+.ve-demo-read {
+	/* Match document padding and surface font size */
+	padding: 0.75em 1.5em;
+	clear: right;
+}
+
+/* Editor */
+
+.ve-ui-surface-placeholder,
+.ve-ui-surface .ve-ce-attachedRootNode {
+	padding: 0.5em 1.5em;
+
+	.ve-ui-surface-source {
+		padding: 1.5em;
+	}
+}
+
+.ve-ui-debugBar {
+	padding: 1.5em;
+	border-top: 1px solid #ccc;
+}
+
+.ve-ui-debugBar-filibuster {
+	padding: 1.5em;
+}
+
+.ve-filibuster-changes {
+	border: 1px solid #f00;
+}
+
+.ve-filibuster-frame {
+	list-style: none;
+}
+
+.ve-filibuster-frame-expandable::before,
+.ve-filibuster-frame-collapsed::before {
+	content: '+';
+}
+
+.ve-filibuster-frame-expanded::before {
+	content: '-';
+}
+
+.ve-filibuster-frame-collapsed ul {
+	display: none;
+}

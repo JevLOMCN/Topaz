@@ -1,0 +1,218 @@
+/*!
+ * Styles shared across various special pages.
+ */
+@import 'mediawiki.skin.variables.less';
+@import 'mediawiki.mixins.less';
+
+/* Special:AllMessages & Special:ListFiles */
+/* Visually hide repeating text, but leave in for better form navigation on screen readers */
+.mw-special-Allmessages .mw-htmlform-ooui .oo-ui-fieldsetLayout:first-child .oo-ui-fieldsetLayout-header,
+.mw-special-Listfiles .mw-htmlform-ooui .oo-ui-fieldsetLayout:first-child .oo-ui-fieldsetLayout-header {
+	.mixin-screen-reader-text();
+}
+
+#mw-allmessagestable {
+	tbody:hover td {
+		/* Duplicate of `.mw-datatable tr:hover td` from shared.css,
+		 * so that it also applies when hovering a lower cell
+		 * within the same rowspan */
+		background-color: #eaf3ff;
+	}
+
+	/* stylelint-disable-next-line selector-class-pattern */
+	.am_default {
+		background-color: #fcffc4;
+	}
+
+	/* stylelint-disable-next-line selector-class-pattern */
+	tbody:hover .am_default {
+		background-color: #faff90;
+	}
+
+	/* stylelint-disable-next-line selector-class-pattern */
+	.am_actual {
+		background-color: #e2ffe2;
+	}
+
+	/* stylelint-disable-next-line selector-class-pattern */
+	tbody:hover .am_actual {
+		background-color: #b1ffb1;
+	}
+}
+
+/* Common for Special:Allpages and Special:PrefixIndex */
+.mw-allpages-body,
+.mw-prefixindex-body {
+	columns: 22em 3;
+	-moz-columns: 22em 3;
+	-webkit-columns: 22em 3;
+	break-inside: avoid-column;
+	page-break-inside: avoid;
+	-webkit-column-break-inside: avoid;
+
+	li {
+		break-inside: avoid;
+	}
+}
+
+.mw-allpages-chunk,
+.mw-prefixindex-list {
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+/* stylelint-disable-next-line selector-class-pattern */
+.allpagesredirect {
+	font-style: italic;
+}
+
+/* Special:BlockList */
+.mw-blocklist .mw-usertoollinks,
+.mw-blocklist-actions {
+	white-space: nowrap;
+	font-size: 90%;
+}
+
+/* Special:Contributions */
+.mw-uctop {
+	font-weight: bold;
+}
+
+/* Special:EditWatchlist */
+/* stylelint-disable-next-line selector-class-pattern */
+.watchlistredir {
+	font-style: italic;
+}
+
+/* Special:EditWatchlist */
+.mw-watchlistexpiry-msg {
+	color: @color-subtle;
+	margin-left: 0.3em;
+}
+
+/* Special:EmailUser */
+#mw-emailuser-sender,
+#mw-emailuser-recipient {
+	font-weight: bold;
+}
+
+/* Special:FileDuplicateSearch */
+#mw-fileduplicatesearch-icon {
+	float: right;
+}
+
+/* Special:ListGroupRights */
+.mw-listgrouprights-table tr {
+	vertical-align: top;
+}
+
+/* stylelint-disable-next-line selector-class-pattern */
+.listgrouprights-revoked {
+	text-decoration: line-through;
+}
+
+/* Special:MergeHistory */
+.mw-special-MergeHistory .mw-mergehistory-explanation {
+	margin-top: 0;
+}
+
+/* Special:Undelete */
+.mw-undelete-editcomments,
+/* Special:MovePage */
+.mw-movepage-editreasons,
+/* Special:RevisionDelete */
+.mw-revdel-editreasons {
+	font-size: 90%;
+	text-align: right;
+}
+
+td.mw-revdel-checkbox,
+th.mw-revdel-checkbox {
+	padding-right: 10px;
+	text-align: center;
+}
+
+/* Special:Specialpages */
+.mw-specialpagerestricted {
+	font-weight: bold;
+}
+
+.mw-specialpagesgroup {
+	clear: both;
+}
+
+.mw-specialpages-list {
+	-webkit-columns: 16em 2;
+	-moz-columns: 16em 2;
+	columns: 16em 2;
+
+	ul {
+		margin-top: 0;
+		margin-bottom: 0;
+	}
+}
+
+/* Special:Statistics */
+.mw-statistics-numbers {
+	text-align: right;
+}
+
+/* Special:ProtectedPages */
+.mw-protectedpages .mw-usertoollinks,
+.mw-protectedpages-length,
+.mw-protectedpages-actions {
+	white-space: nowrap;
+	font-size: 90%;
+}
+
+.mw-protectedpages-unknown {
+	color: #72777d;
+	font-size: 90%;
+}
+
+/* Special:PasswordPolicies */
+.mw-passwordpolicies-table tr {
+	vertical-align: top;
+}
+
+/* stylelint-disable-next-line selector-class-pattern */
+.passwordpolicies-policy-flags {
+	font-size: 90%;
+}
+
+.mw-listgrouprights-table,
+.mw-passwordpolicies-table {
+	& tr:target,
+	& tr:target code {
+		background-color: @background-color-progressive-subtle;
+	}
+}
+
+.mw-grantriskgroup- {
+	&vandalism {
+		.cdx-mixin-css-icon( @cdx-icon-alert, @color-warning );
+	}
+
+	&security {
+		.cdx-mixin-css-icon( @cdx-icon-alert, @color-error );
+	}
+
+	&internal {
+		.cdx-mixin-css-icon( @cdx-icon-error, @color-error );
+	}
+
+	&vandalism,
+	&security,
+	&internal {
+		// Hide text, replaced with the icon
+		text-indent: -10000px;
+	}
+
+	.mw-htmlform-field-HTMLCheckMatrix & {
+		&vandalism,
+		&security,
+		&internal {
+			vertical-align: middle;
+		}
+	}
+}

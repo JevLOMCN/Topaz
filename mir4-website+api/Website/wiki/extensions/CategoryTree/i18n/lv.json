@@ -1,0 +1,39 @@
+{
+	"@metadata": {
+		"authors": [
+			"GreenZeb",
+			"Marozols",
+			"Papuass",
+			"Xil",
+			"Yyy"
+		]
+	},
+	"categorytree": "Kategoriju koks",
+	"categorytree-portlet": "Kategorijas",
+	"categorytree-legend": "Rādīt kategoriju koku",
+	"categorytree-desc": "AJAX bāzēts ''gadget'', kuru lieto lai attēlotu wiki [[Special:CategoryTree|kategoriju struktūru]]",
+	"categorytree-header": "Ievadi kategorijas nosaukumu, lai apskatītu tās saturu kā kokveida struktūru (nepieciešams JavaScript).",
+	"categorytree-category": "Kategorija:",
+	"categorytree-go": "Parādīt koku",
+	"categorytree-parents": "Augšējā līmeņa kategorijas",
+	"categorytree-mode-label": "Režīms:",
+	"categorytree-mode-categories": "tikai kategorijas",
+	"categorytree-mode-pages": "lapas (bez attēlu lapām)",
+	"categorytree-mode-all": "visas lapas",
+	"categorytree-collapse": "sakļaut",
+	"categorytree-expand": "izvērst",
+	"categorytree-member-counts": "satur {{PLURAL:$1|$1 apakškategorijas|1 apakškategoriju|$1 apakškategorijas}}, {{PLURAL:$2|$2 lapas|1 lapu|$2 lapas}}, un {{PLURAL:$3|$3 failus|1 failu|$3 failus}}",
+	"categorytree-num-categories": "$1 K",
+	"categorytree-num-pages": "$1 L",
+	"categorytree-num-files": "$1 F",
+	"categorytree-num-empty": "tukšs",
+	"categorytree-load": "ielādēt",
+	"categorytree-loading": "ielādējas...",
+	"categorytree-nothing-found": "neko neatrada",
+	"categorytree-no-subcategories": "nav apakškategoriju",
+	"categorytree-no-parent-categories": "nav augšējā līmeņa kategoriju",
+	"categorytree-no-pages": "nav ne lapu, ne apakškategoriju",
+	"categorytree-not-found": "Kategorija <i>$1</i> netika atrasta",
+	"categorytree-error": "Problēma ar datu ielādi.",
+	"categorytree-retry": "Pagaidi mazliet un mēģini vēlreiz."
+}

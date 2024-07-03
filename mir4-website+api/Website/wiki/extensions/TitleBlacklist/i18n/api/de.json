@@ -1,0 +1,17 @@
+{
+	"@metadata": {
+		"authors": [
+			"Debenben",
+			"Justman10000",
+			"Kghbln",
+			"Metalhead64"
+		]
+	},
+	"apihelp-titleblacklist-summary": "Überprüft einen Seiten-, Datei- oder Benutzernamen gegen die Titel-Negativliste.",
+	"apihelp-titleblacklist-param-title": "Die Zeichenfolge, die gegen die Negativliste geprüft werden soll.",
+	"apihelp-titleblacklist-param-action": "Die zu überprüfende Aktion.",
+	"apihelp-titleblacklist-param-nooverride": "Nicht versuchen, die Titel-Negativliste zu überschreiben.",
+	"apihelp-titleblacklist-example-1": "Überprüft, ob [[Foo]] auf der Negativliste steht",
+	"apihelp-titleblacklist-example-2": "Überprüft, ob [[Bar]] für das Bearbeiten gesperrt ist",
+	"apihelp-createaccount-param-ignoretitleblacklist": "Spoofing-Prüfungen ignorieren (erfordert eines der folgenden Rechte: <code>tboverride</code>, <code>tboverride-account</code>)."
+}

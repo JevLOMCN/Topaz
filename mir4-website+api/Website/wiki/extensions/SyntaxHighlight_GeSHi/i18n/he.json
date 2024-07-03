@@ -1,0 +1,25 @@
+{
+	"@metadata": {
+		"authors": [
+			"Amire80",
+			"Guycn2",
+			"Rotem Liss"
+		]
+	},
+	"syntaxhighlight-desc": "אפשרות לסימון קוד מקור בצבעים עם התגית <code>&lt;syntaxhighlight&gt;</code> באמצעות [http://pygments.org/ Pygments – צובע קוד בשפת Python]",
+	"syntaxhighlight-error-category": "דפים עם שגיאות בצביעת קוד",
+	"syntaxhighlight-error-category-desc": "אירעה שגיאה בעת ניסיון לצבוע קוד שכלול בדף.",
+	"syntaxhighlight-enclose-category": "דפים שמשתמשים בתכונות enclose מיושנות",
+	"syntaxhighlight-enclose-category-desc": "צביעת קוד בדף משתמשת בתחביר enclose מיושן.",
+	"syntaxhighlight-source-category": "דפים שמשתמשים בתג source",
+	"syntaxhighlight-source-category-desc": "צביעת הקוד בדף משתמשת בתגי source מיושנים.",
+	"syntaxhighlight-visualeditor-mwsyntaxhighlightinspector-code": "קוד",
+	"syntaxhighlight-visualeditor-mwsyntaxhighlightinspector-language": "שפה",
+	"syntaxhighlight-visualeditor-mwsyntaxhighlightinspector-none": "(אין)",
+	"syntaxhighlight-visualeditor-mwsyntaxhighlightinspector-showlines": "להציג מספרי שורות",
+	"syntaxhighlight-visualeditor-mwsyntaxhighlightinspector-startingline": "מספר שורה ראשונה",
+	"syntaxhighlight-visualeditor-mwsyntaxhighlightinspector-title": "גוש קוד",
+	"syntaxhighlight-error-pygments-invocation-failure": "הרצת Pygments לא עבדה",
+	"syntaxhighlight-error-unknown-language": "השפה \"$1\" אינה ידועה",
+	"syntaxhighlight-error-exceeds-size-limit": "גודל קוד של {{PLURAL:$1|בית אחד|$1 בתים}} עובר את המגבלה של {{PLURAL:$2|בית אחד|$2 בתים}}"
+}

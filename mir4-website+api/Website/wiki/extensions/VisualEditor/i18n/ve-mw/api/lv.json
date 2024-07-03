@@ -1,0 +1,35 @@
+{
+	"@metadata": {
+		"authors": [
+			"Papuass"
+		]
+	},
+	"apierror-visualeditor-badcachekey": "Ar šo atslēgu netika atrasta kešota serializācija",
+	"apierror-visualeditor-difffailed": "Diff neizdevās",
+	"apihelp-visualeditor-param-basetimestamp": "Saglabājot uzstādi šo uz labotās versijas laika zīmogu. Tiek izmantots, lai noteiktu labošanas konfliktus.",
+	"apihelp-visualeditor-param-etag": "Nosūtāmais ETag.",
+	"apihelp-visualeditor-param-format": "Izvades formāts.",
+	"apihelp-visualeditor-param-html": "Parsoid nosūtāmais HTML pārveidošanai uz vikitekstu",
+	"apihelp-visualeditor-param-oldid": "Izmantojamās versijas numurs (pēc noklusējuma jaunākais).",
+	"apihelp-visualeditor-param-paction": "Veicamā darbība",
+	"apihelp-visualeditor-param-page": "Lapa, kurā veikt darbības.",
+	"apihelp-visualeditor-param-section": "Sadaļa, kurā darboties.",
+	"apihelp-visualeditor-param-wikitext": "Vikiteksts, ko nosūtīt Parsoid konvertācijai uz HTML (paction=parsefragment).",
+	"apihelp-visualeditor-summary": "Atgriež HTML5 kodu lapai no Parsoid servisa.",
+	"apihelp-visualeditoredit-param-cachekey": "Izmantojiet iepriekšējā serializeforcache pieprasījuma rezultātu ar šo atslēgu. Ignorē $1html.",
+	"apihelp-visualeditoredit-param-captchaid": "Captcha ID (saglabājot ar captcha atbildi).",
+	"apihelp-visualeditoredit-param-captchaword": "Atbilde uz captcha (saglabājot ar captcha atbildi).",
+	"apihelp-visualeditoredit-param-plugins": "Ar šo API pieprasījumu saistītie spraudņi",
+	"apihelp-visualeditoredit-param-etag": "Nosūtāmais ETag.",
+	"apihelp-visualeditoredit-param-minor": "Atzīmēt kā maznozīmīgu labojumu.",
+	"apihelp-visualeditoredit-param-oldid": "Izmantojamais versijas numurs. Pēc noklusējuma tik izmantota jaunākā versija. Jaunām lapām jāizmanto 0.",
+	"apihelp-visualeditoredit-param-paction": "Veicamā darbība.",
+	"apihelp-visualeditoredit-param-page": "Lapa, kurā veikt darbības.",
+	"apihelp-visualeditoredit-param-section": "Sadaļa, kurā darboties.",
+	"apihelp-visualeditoredit-param-sectiontitle": "Jaunās sadaļas nosaukums.",
+	"apihelp-visualeditoredit-param-starttimestamp": "Saglabājot uzstādi šo uz lapas ielādes brīža laika zīmogu. Tiek izmantots, lai noteiktu labošanas konfliktus.",
+	"apihelp-visualeditoredit-param-summary": "Izmaiņu kopsavilkums.",
+	"apihelp-visualeditoredit-param-tags": "Izmaini iezīmes, ko pievienot labojumam.",
+	"apihelp-visualeditoredit-param-wikitext": "Vikiteksts, ar ko strādāt.",
+	"apihelp-visualeditoredit-summary": "Saglabā HTML5 lapu MediaWiki (pārveidotu vikitekstā ar Parsoid servisu)."
+}

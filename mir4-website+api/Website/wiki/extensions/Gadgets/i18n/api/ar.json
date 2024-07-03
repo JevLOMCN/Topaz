@@ -1,0 +1,26 @@
+{
+	"@metadata": {
+		"authors": [
+			"Abanima",
+			"Amire80",
+			"Maroen1990",
+			"Meno25"
+		]
+	},
+	"apihelp-query+gadgetcategories-summary": "يرجع قائمة بتصنيفات الإضافات.",
+	"apihelp-query+gadgetcategories-param-prop": "ما هي معلومات تصنيف الإضافة للحصول عليها:\n;name:اسم التصنيف الداخلي.\n;title:عنوان التصنيف.\n;members:عدد الإضافات في التصنيف.",
+	"apihelp-query+gadgetcategories-param-names": "أسماء التصنيفات للاسترداد.",
+	"apihelp-query+gadgetcategories-example-1": "الحصول على قائمة بتصنيفات الإضافات الموجودة",
+	"apihelp-query+gadgetcategories-example-2": "الحصول على كل المعلومات حول التصنيفات المسماة \"foo\" و \"bar\"",
+	"apihelp-query+gadgets-summary": "يرجع قائمة بالإضافات المستخدمة في هذة الويكي.",
+	"apihelp-query+gadgets-param-prop": "ما هي معلومات الإضافة للحصول عليها:\n;id:رقم الإضافة الداخلي.\n;metadata:بيانات الميتا الخاصة بالإضافة.\n;desc:وصف الإضافة محول إلى HTML (يمكن أن يكون بطيئا، استخدم فقط لو هناك حاجة ماسة له).",
+	"apihelp-query+gadgets-param-categories": "الإضافات من أي تصنيفات للاسترجاع.",
+	"apihelp-query+gadgets-param-ids": "معرفات الإضافات للاسترداد.",
+	"apihelp-query+gadgets-param-allowedonly": "اسرد فقط الإضافات المسموحة للمستخدم الحالي.",
+	"apihelp-query+gadgets-param-enabledonly": "اسرد فقط الإضافات المفعَّلة من قبل المستخدم الحالي.",
+	"apihelp-query+gadgets-example-1": "اعط قائمة بالإضافات مع وصفها.",
+	"apihelp-query+gadgets-example-2": "اعط قائمة بالإضافات مع كامل خصائصها الممكنة",
+	"apihelp-query+gadgets-example-3": "الحصول على قائمة من الأدوات التي تنتمي إلى فئة \"فو\"",
+	"apihelp-query+gadgets-example-4": "الحصول على معلومات حول الأدوات \"فو\" و \"بار\"",
+	"apihelp-query+gadgets-example-5": "أعط قائمة الإضافات المفعَّلة من قبل المستخدم الحالي"
+}

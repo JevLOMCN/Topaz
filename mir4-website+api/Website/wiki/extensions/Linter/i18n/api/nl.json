@@ -1,0 +1,21 @@
+{
+	"@metadata": {
+		"authors": [
+			"Mainframe98",
+			"Mar(c)",
+			"McDutchie",
+			"Romaine"
+		]
+	},
+	"apihelp-query+linterrors-summary": "Een lijst van lintfouten opvragen.",
+	"apihelp-query+linterrors-param-categories": "Lintfoutcategorieën.",
+	"apihelp-query+linterrors-param-invisible-categories": "Onzichtbare categorieën met lintfouten",
+	"apihelp-query+linterrors-param-limit": "Aantal resultaten om te tonen",
+	"apihelp-query+linterrors-param-from": "Lint-ID van waaruit de aanvraag moet worden gestart",
+	"apihelp-query+linterrors-param-namespace": "Alleen lintfouten in de opgegeven naamruimten opnemen.",
+	"apihelp-query+linterrors-param-pageid": "Alleen lintfouten van de opgegeven paginatitel opnemen",
+	"apihelp-query+linterrors-param-title": "Alleen lintfouten van de opgegeven paginatitel opnemen",
+	"apihelp-query+linterrors-example-1": "Alle lintfouten in de categorie \"obsolete-tag\" ophalen.",
+	"apihelp-query+linterstats-summary": "Het aantal lintfouten in elke categorie verkrijgen",
+	"apihelp-query+linterstats-example-1": "Het aantal lintfouten in elke categorie verkrijgen"
+}

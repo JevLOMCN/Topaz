@@ -1,0 +1,36 @@
+{
+	"@metadata": {
+		"authors": [
+			"Hosseinblue",
+			"Lakzon"
+		]
+	},
+	"categorytree": "دار ڕِزگ",
+	"categorytree-portlet": "ڕزگەل",
+	"categorytree-legend": "دار ڕزگ نیشۆن دە",
+	"categorytree-desc": "ابزار مبتنی بر AJAX برای نمایش [[Special:CategoryTree|ساختار رده‌های]] یک ویکی",
+	"categorytree-header": "نام رده‌ای را وارد کنید تا محتویات آن به صورت درختی نمایش یابد. توجه کنید که این کار نیاز به قابلیت‌های پیشرفتهٔ جاوااسکریپت موسوم به ای‌جکس دارد. اگر از مرورگری خیلی قدیمی استفاده می‌کنید یا جاوااسکریپت را غیرفعال کرده‌اید، کار نمی‌کند.",
+	"categorytree-category": "ڕِزگ:",
+	"categorytree-go": "نمایش درخت",
+	"categorytree-parents": "ریشه",
+	"categorytree-mode-label": "حالت:",
+	"categorytree-mode-categories": "فقط رده‌ها/ڕِزگةل",
+	"categorytree-mode-pages": "صفحات به جز تصاویر",
+	"categorytree-mode-all": "کؤل(گشت)وەڵگەل",
+	"categorytree-collapse": "آشاردِن",
+	"categorytree-expand": "کلنگاکردن/گسترش",
+	"categorytree-member-counts": " شامل {{PLURAL:$1|1 ژئر رده$1 |ژئر رده}}, {{PLURAL:$2|1وۀلگۀ$2|وۀلگۀ}},\n وۀ {{PLURAL:$3|1 فایل $3| فایل}}",
+	"categorytree-num-categories": "$1 ر",
+	"categorytree-num-pages": "$1 ص",
+	"categorytree-num-files": "$1 پ",
+	"categorytree-num-empty": "خالی/پةتی",
+	"categorytree-load": "بارگیری",
+	"categorytree-loading": "در حال بارگیری...",
+	"categorytree-nothing-found": "هیچ‌چیز یافت نشد.",
+	"categorytree-no-subcategories": "هیچ زیررده‌ای ندارد.",
+	"categorytree-no-parent-categories": "فاقد ردهٔ بالاتر",
+	"categorytree-no-pages": "هیچ صفحه یا زیررده‌ای ندارد.",
+	"categorytree-not-found": "ردهٔ <i>$1</i> یافت نشد",
+	"categorytree-error": "اشکال در دریافت اطلاعات.",
+	"categorytree-retry": "لطفاً کمی صبر کنید و دوباره امتحان کنید."
+}

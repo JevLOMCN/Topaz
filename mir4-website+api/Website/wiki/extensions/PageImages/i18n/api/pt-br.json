@@ -1,0 +1,18 @@
+{
+	"@metadata": {
+		"authors": [
+			"Eduardo Addad de Oliveira",
+			"Eduardoaddad",
+			"Felipe L. Ewald"
+		]
+	},
+	"apihelp-query+pageimages-summary": "Retorna informações sobre imagens na página, como miniaturas e presença de fotos.",
+	"apihelp-query+pageimages-example-1": "Obtenha o nome e <kbd>100</kbd>-pixeis de uma imagem na página <kbd>Albert Einstein</kbd>.",
+	"apihelp-query+pageimages-param-prop": "Qual informação para retornar:\n;miniatura:URL e dimensões da imagem em miniatura associada à página, se houver.\n;original:URL e dimensões originais da imagem associada à página, se houver.\n;nome: título da imagem.",
+	"apihelp-query+pageimages-param-thumbsize": "Largura máxima em píxeis das imagens das miniaturas.",
+	"apihelp-query+pageimages-param-langcode": "Código para o idioma em que a imagem será renderizada se vários idiomas forem suportados",
+	"apihelp-query+pageimages-param-limit": "Quantas propriedades de página a serem retornadas.",
+	"apihelp-query+pageimages-param-license": "Limite as imagens da página a um determinado tipo de licença",
+	"apihelp-query+pageimages-paramvalue-license-free": "apenas imagens gratuitas",
+	"apihelp-query+pageimages-paramvalue-license-any": "melhor imagem, seja gratuita ou não gratuita."
+}

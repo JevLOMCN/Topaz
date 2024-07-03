@@ -1,0 +1,20 @@
+{
+	"@metadata": {
+		"authors": [
+			"ديفيد"
+		]
+	},
+	"apihelp-query+extracts-summary": "يعرض نصا عاديا أو مقتطفات HTML محدودة من الصفحات المعينة.",
+	"apihelp-query+extracts-param-chars": "كم عدد شخصيات للعودة؟ قد يكون النص الفعلي المرتجع أطول قليلا.",
+	"apihelp-query+extracts-param-sentences": "كم عدد الجمل للعودة.",
+	"apihelp-query+extracts-param-limit": "كم عدد المقتطفات للعودة. (يمكن فقط إرجاع المقتطفات المتعددة إذا تم تعيين exintro إلى true.)",
+	"apihelp-query+extracts-param-intro": "إرجاع المحتوى فقط قبل القسم الأول.",
+	"apihelp-query+extracts-param-plaintext": "عودة ال مقتطفات كنص عادي بدلا من HTML محدود.",
+	"apihelp-query+extracts-param-sectionformat": "كيفية تنسيق المقاطع في وضع النص العادي: \n;عادي: لا تنسيق.\n;ويكي:تنسيق على غرار نص الويكي (== مثل هذا ==).\n;خام:التمثيل الداخلي لهذه الوحدة (عناوين الأقسام مسبوقة بـ&lt;ASCII 1&gt;&lt;ASCII 2&gt;&lt;مستوى القسم&gt;&lt;ASCII 2&gt;&lt;ASCII 1&gt;).",
+	"apihelp-query+extracts-example-1": "الحصول على استخراج 175 حرفا",
+	"apiwarn-textextracts-limit": "كان <var>exlimit</var> كبيرا جدا للحصول على طلب مقتطفات لمقالة بأكملها; انخفض إلى $1.",
+	"apiwarn-textextracts-unsupportedmodel": "يحتوي $1 على نموذج محتوى $2، وهو غير مدعوم; إرجاع مستخلص فارغ.",
+	"apiwarn-textextracts-title-in-file-namespace": "تم طلب استخراج عنوان في نطاق الملف، ولم يتم إرجاع أي شيء.",
+	"apiwarn-textextracts-sentences-and-html": "قد يحتوي الوسيط <var>$1sentences</var> على نتائج غير متوقعة عند استخدامها في وضع HTML.",
+	"apiwarn-textextracts-malformed-html": "قد يكون HTML غير صحيح و/أو غير متوازن وقد يحذف الصور المضمنة، استخدم على مسؤوليتك الخاصة. يتم سرد المشاكل المعروفة في https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:TextExtracts#Caveats."
+}

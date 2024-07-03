@@ -1,0 +1,24 @@
+{
+	"@metadata": {
+		"authors": [
+			"Iwan Novirion"
+		]
+	},
+	"gadgets-desc": "Mamungkinkan pangguno mamiliah [[Special:Gadgets|pakakeh CSS jo JavaScript]] malalui [[Special:Preferences#mw-prefsection-gadgets|pangaturan]]-nyo",
+	"prefs-gadgets": "Pakakeh",
+	"gadgets-prefstext": "Di bawah ko daftar pakakeh istimewa nan dapek Sanak aktipan untuak akun Sanak. Kasado pakakeh ko sabagian babasis JavaScript dek itu Sanak musti mangaktipan JavaScript pado paramban Sanak untuak dapek manjalankannyo. Paratikan kalau babagai pakakek ko indak ado pangaruahnyo pado laman pangaturan ko.\n\nSalain tu paratikan juo kalau pakakeh ko bukanlah bagian dari parangkaik lunak MediaWiki dan biasonyo dikambangkan dan dijago dek pangguno di Wikipedia. Panguruih lokal dapek manyuntiang pakakeh nan ado malalui [[MediaWiki:Gadgets-definition|laman definisinyo]] ataupun pado [[Special:Gadgets|laman katarangannyo]].",
+	"special-gadgets": "Pakakeh",
+	"gadgetusage": "Statistik panggunoan pakakeh",
+	"gadgetusage-intro": "Tabel iko manunjuakkan jumlah pangguno nan alah mangaktipkan pakakeh pado wiki ko. Iko mungkin tamasuak jou pakakeh nan alah indak ado.",
+	"gadgets-title": "Pakakeh",
+	"gadgets-pagetext": "Di bawah ko daftar pakakeh istimewa nan dapek diaktipan pangguno malalui [[Special:Preferences#mw-prefsection-gadgets|laman pangaturan]] saroman nan didefinisikan dek [[MediaWiki:Gadgets-definition|laman definisinyo]]. Tinjauan nan ko mangagiah akses ka laman pasan sistem nan mandefinisikan deskripsi jo kode masiang-masiang pakakeh.",
+	"gadgets-uses": "Panggunoan",
+	"gadgets-required-rights": "Mambutuahkan {{PLURAL:$2|hak-hak}} barikuik:\n\n$1",
+	"gadgets-required-skins": "Tasadio pado {{PLURAL:$2|kulik barikuik: $1}}.",
+	"gadgets-default": "Diaktifkan untuak kasado urang sacaro bawaan.",
+	"gadgets-export": "Ekspor",
+	"gadgets-export-title": "Ekspor pakakeh",
+	"gadgets-not-found": "Pakakeh \"$1\" indak basobok.",
+	"gadgets-export-text": "Untuak mangekspor pakakeh $1, klik tombol \"{{int:gadgets-export-download}}\", simpan berkas nan didownload tu,\npai ka Special:Import pado wiki nan di tuju dan muek berkas tu. Sudah tu tambahkan berkas tasabuik ka laman MediaWiki:Gadgets-definition:\n<pre>$2</pre>\nSanak musti punyo izin pado wiki nan di tuju (tamasuak hak manyuntiang pasan sistem) dan impor berkas haruslah aktif.",
+	"gadgets-export-download": "Unduah"
+}

@@ -1,0 +1,28 @@
+{
+	"@metadata": {
+		"authors": [
+			"Joetaras"
+		]
+	},
+	"apierror-discussiontools-commentid-notfound": "Commende cu l'ID '$1' non acchiate.",
+	"apierror-discussiontools-commentname-ambiguous": "Commende multiple cu 'u nome '$1' acchiate, ause l'ID.",
+	"apierror-discussiontools-commentname-notfound": "Commende cu 'u nome '$1' non acchiate.",
+	"apierror-discussiontools-subscription-failed-add": "Non ge te puè scrivere a stu argomende.",
+	"apierror-discussiontools-subscription-failed-remove": "Non ge te puè scangellà da stu argomende.",
+	"apihelp-discussiontoolsedit-param-commentid": "ID d'u commende da responnere. Ausate sulamende quanne <var>paction</var> jè <var>addcomment</var>. Sovrascrive cu <var>commentname</var>.",
+	"apihelp-discussiontoolsedit-param-commentname": "Nome d'u commende da responnere. Ausate sulamende quanne <var>paction</var> jè <var>addcomment</var>.",
+	"apihelp-discussiontoolsedit-param-html": "Condenute da pubblecà, cumme HTML. Non ge pò essere ausate 'nzieme a <var>wikitext</var>.",
+	"apihelp-discussiontoolsedit-param-sectiontitle": "{{int:apihelp-edit-param-sectiontitle}} Ausate sulamende quanne <var>paction</var> jè <var>addtopic</var>.",
+	"apihelp-discussiontoolsedit-param-wikitext": "Condenute da pubblecà, cumme uicchiteste. Non ge pò essere ausate 'nzieme a <var>html</var>.",
+	"apihelp-discussiontoolsedit-paramvalue-paction-addcomment": "Aggiunge 'nu commende nuève cumme 'na resposte a 'nu commende esistende.",
+	"apihelp-discussiontoolsedit-paramvalue-paction-addtopic": "Aggiunge 'na seziona nove de 'ngazzamende e 'u prime commende adda jndre.",
+	"apihelp-discussiontoolsedit-summary": "Manne 'nu messàgge sus a 'na pàgene de le 'ngazzaminde.",
+	"apihelp-discussiontoolsgetsubscriptions-param-commentname": "Nome de le arguminde da condrollà",
+	"apihelp-discussiontoolsgetsubscriptions-summary": "Pigghie le state de abbonamende de le arguminde cercate.",
+	"apihelp-discussiontoolspageinfo-param-oldid": "'U numere de revisione da ausà (predefinite jè 'urtema revisione).",
+	"apihelp-discussiontoolspageinfo-summary": "Tuèrne le metadate cercate pe inizializzà le struminde de le 'ngazzaminde.",
+	"apihelp-discussiontoolssubscribe-param-commentname": "Nome de l'argomende da abbonarse (o luarse)",
+	"apihelp-discussiontoolssubscribe-param-page": "'Na pàgene addò iessene le arguminde",
+	"apihelp-discussiontoolssubscribe-param-subscribe": "Vere te abbone, fause te lìve",
+	"apihelp-discussiontoolssubscribe-summary": "Abbonate (o livete) pe avè le notifeche sus a stu argomende."
+}

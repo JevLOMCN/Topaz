@@ -1,0 +1,635 @@
+{
+  "Init": [
+    {
+      "tex": "m_{\\ce{H2O}} = \\pu{1.2kg}",
+      "texNew": "m_{{\\mathrm{H}{\\vphantom{A}}_{\\smash[t]{2}}\\mathrm{O}}} = {1.2~\\mathrm{kg}}",
+      "type": "tex"
+    }
+  ],
+  "Chemical Equations": [
+    {
+      "tex": "CO2 + C -> 2 CO",
+      "texNew": "{\\mathrm{CO}{\\vphantom{A}}_{\\smash[t]{2}} {}+{} \\mathrm{C} {}\\mathrel{\\longrightarrow}{} 2\\,\\mathrm{CO}}",
+      "type": "ce"
+    },
+    {
+      "tex": "Hg^2+ ->[I-] HgI2 ->[I-] [Hg^{II}I4]^2-",
+      "texNew": "{\\mathrm{Hg}{\\vphantom{A}}^{2+} {}\\mathrel{\\xrightarrow{\\mathrm{I}{\\vphantom{A}}^{-}}}{} \\mathrm{HgI}{\\vphantom{A}}_{\\smash[t]{2}} {}\\mathrel{\\xrightarrow{\\mathrm{I}{\\vphantom{A}}^{-}}}{} [\\mathrm{Hg}{\\vphantom{A}}^{\\mathrm{II}}\\mathrm{I}{\\vphantom{A}}_{\\smash[t]{4}}]{\\vphantom{A}}^{2-}}",
+      "type": "ce"
+    }
+  ],
+  "Chemical Formulae": [
+    {
+      "tex": "H2O",
+      "texNew": "{\\mathrm{H}{\\vphantom{A}}_{\\smash[t]{2}}\\mathrm{O}}",
+      "type": "ce"
+    },
+    {
+      "tex": "Sb2O3",
+      "texNew": "{\\mathrm{Sb}{\\vphantom{A}}_{\\smash[t]{2}}\\mathrm{O}{\\vphantom{A}}_{\\smash[t]{3}}}",
+      "type": "ce"
+    }
+  ],
+  "Charges": [
+      {
+        "tex": "H+",
+        "texNew": "{\\mathrm{H}{\\vphantom{A}}^{+}}",
+        "type": "ce"
+      },
+      {
+        "tex": "CrO4^2-",
+        "texNew": "{\\mathrm{CrO}{\\vphantom{A}}_{\\smash[t]{4}}{\\vphantom{A}}^{2-}}",
+        "type": "ce"
+      },
+      {
+        "tex": "[AgCl2]-",
+        "texNew": "{[\\mathrm{AgCl}{\\vphantom{A}}_{\\smash[t]{2}}]{\\vphantom{A}}^{-}}",
+        "type": "ce"
+      },
+      {
+        "tex": "Y^99+",
+        "texNew": "{\\mathrm{Y}{\\vphantom{A}}^{99+}}",
+        "type": "ce"
+      },
+      {
+        "tex": "Y^{99+}",
+        "texNew": "{\\mathrm{Y}{\\vphantom{A}}^{99+}}",
+        "type": "ce"
+      }
+  ],
+  "Stoichiometric Numbers": [
+      {
+        "tex": "2 H2O",
+        "texNew": "{2\\,\\mathrm{H}{\\vphantom{A}}_{\\smash[t]{2}}\\mathrm{O}}",
+        "type": "ce"
+      },
+      {
+        "tex": "2H2O",
+        "texNew": "{2\\,\\mathrm{H}{\\vphantom{A}}_{\\smash[t]{2}}\\mathrm{O}}",
+        "type": "ce"
+      },
+      {
+        "tex": "0.5 H2O",
+        "texNew": "{0.5\\,\\mathrm{H}{\\vphantom{A}}_{\\smash[t]{2}}\\mathrm{O}}",
+        "type": "ce"
+      },
+      {
+        "tex": "1/2 H2O",
+        "texNew": "{\\mathchoice{\\textstyle\\frac{1}{2}}{\\frac{1}{2}}{\\frac{1}{2}}{\\frac{1}{2}}\\,\\mathrm{H}{\\vphantom{A}}_{\\smash[t]{2}}\\mathrm{O}}",
+        "type": "ce"
+      },
+      {
+        "tex": "(1/2) H2O",
+        "texNew": "{(1/2)\\,\\mathrm{H}{\\vphantom{A}}_{\\smash[t]{2}}\\mathrm{O}}",
+        "type": "ce"
+      },
+      {
+        "tex": "$n$ H2O",
+        "texNew": "{n \\,\\mathrm{H}{\\vphantom{A}}_{\\smash[t]{2}}\\mathrm{O}}",
+        "type": "ce"
+      },
+      {
+        "tex": "n H2O",
+        "texNew": "{n\\,\\mathrm{H}{\\vphantom{A}}_{\\smash[t]{2}}\\mathrm{O}}",
+        "type": "ce"
+      },
+      {
+        "tex": "nH2O",
+        "texNew": "{n\\,\\mathrm{H}{\\vphantom{A}}_{\\smash[t]{2}}\\mathrm{O}}",
+        "type": "ce"
+      },
+      {
+        "tex": "n/2 H2O",
+        "texNew": "{\\mathchoice{\\textstyle\\frac{n}{2}}{\\frac{n}{2}}{\\frac{n}{2}}{\\frac{n}{2}}\\,\\mathrm{H}{\\vphantom{A}}_{\\smash[t]{2}}\\mathrm{O}}",
+        "type": "ce"
+      }
+  ],
+  "Nuclides, Isotopes": [
+      {
+        "tex": "^{227}_{90}Th+",
+        "texNew":  "{{\\vphantom{A}}^{\\hphantom{227}}_{\\hphantom{90}}\\mkern{-1.5mu}{\\vphantom{A}}^{\\smash[t]{\\vphantom{2}}\\llap{227}}_{\\vphantom{2}\\llap{\\smash[t]{90}}}\\mathrm{Th}{\\vphantom{A}}^{+}}",
+        "type":"ce"
+      },
+      {
+        "tex": "^{0}_{-1}n^{-}",
+        "texNew":  "{{\\vphantom{A}}^{\\hphantom{0}}_{\\hphantom{-1}}\\mkern{-1.5mu}{\\vphantom{A}}^{\\smash[t]{\\vphantom{2}}\\llap{0}}_{\\vphantom{2}\\llap{\\smash[t]{-1}}}\\mathrm{n}{\\vphantom{A}}^{-}}",
+        "type":"ce"
+      },
+      {
+        "tex": "^0_-1n-",
+        "texNew":  "{{\\vphantom{A}}^{\\hphantom{0}}_{\\hphantom{-1}}\\mkern{-1.5mu}{\\vphantom{A}}^{\\smash[t]{\\vphantom{2}}\\llap{0}}_{\\vphantom{2}\\llap{\\smash[t]{-1}}}\\mathrm{n}{\\vphantom{A}}^{-}}",
+        "type":"ce"
+      },
+      {
+        "tex": "H{}^3HO",
+        "texNew":  "{\\mathrm{H}\\mkern{2mu}{\\vphantom{A}}^{\\hphantom{3}}_{\\hphantom{}}\\mkern{-1.5mu}{\\vphantom{A}}^{\\smash[t]{\\vphantom{2}}\\llap{3}}_{\\vphantom{2}\\llap{\\smash[t]{}}}\\mathrm{HO}}",
+        "type":"ce"
+      },
+      {
+        "tex": "H^3HO",
+        "texNew": "{\\mathrm{H}\\mkern{2mu}{\\vphantom{A}}^{\\hphantom{3}}_{\\hphantom{}}\\mkern{-1.5mu}{\\vphantom{A}}^{\\smash[t]{\\vphantom{2}}\\llap{3}}_{\\vphantom{2}\\llap{\\smash[t]{}}}\\mathrm{HO}}",
+        "type": "ce"
+      }
+    ],
+    "Reaction Arrows": [
+      {
+        "tex": "A -> B",
+        "texNew":  "{\\mathrm{A} {}\\mathrel{\\longrightarrow}{} \\mathrm{B}}",
+        "type":"ce"
+      },
+      {
+        "tex": "A <- B",
+        "texNew":  "{\\mathrm{A} {}\\mathrel{\\longleftarrow}{} \\mathrm{B}}",
+        "type":"ce"
+      },
+      {
+        "tex": "A <-> B",
+        "texNew":  "{\\mathrm{A} {}\\mathrel{\\longleftrightarrow}{} \\mathrm{B}}",
+        "type":"ce"
+      },
+      {
+        "tex": "A <--> B",
+        "texNew":  "{\\mathrm{A} {}\\mathrel{\\longleftrightarrows}{} \\mathrm{B}}",
+        "type":"ce"
+      },
+      {
+        "tex": "A <=> B",
+        "texNew":  "{\\mathrm{A} {}\\mathrel{\\longrightleftharpoons}{} \\mathrm{B}}",
+        "type":"ce"
+      },
+      {
+        "tex": "A <=>> B",
+        "texNew":  "{\\mathrm{A} {}\\mathrel{\\longRightleftharpoons}{} \\mathrm{B}}",
+        "type":"ce"
+      },
+      {
+        "tex": "A <<=> B",
+        "texNew":  "{\\mathrm{A} {}\\mathrel{\\longLeftrightharpoons}{} \\mathrm{B}}",
+        "type":"ce"
+      },
+      {
+        "tex": "A ->[H2O] B",
+        "texNew":  "{\\mathrm{A} {}\\mathrel{\\xrightarrow{\\mathrm{H}{\\vphantom{A}}_{\\smash[t]{2}}\\mathrm{O}}}{} \\mathrm{B}}",
+        "type":"ce"
+      },
+      {
+        "tex": "A ->[{text above}][{text below}] B",
+        "texNew":  "{\\mathrm{A} {}\\mathrel{\\xrightarrow[{{\\text{text below}}}]{{\\text{text above}}}}{} \\mathrm{B}}",
+        "type":"ce"
+      },
+      {
+        "tex": "A ->[$x$][$x_i$] B",
+        "texNew": "{\\mathrm{A} {}\\mathrel{\\xrightarrow[{x_i }]{x }}{} \\mathrm{B}}",
+        "type": "ce"
+      }
+    ],
+    "Parentheses, Brackets, Braces": [
+      {
+        "tex": "(NH4)2S",
+        "texNew":  "{(\\mathrm{NH}{\\vphantom{A}}_{\\smash[t]{4}}){\\vphantom{A}}_{\\smash[t]{2}}\\mathrm{S}}",
+        "type":"ce"
+      },
+      {
+        "tex": "[\\{(X2)3\\}2]^3+",
+        "texNew":  "{[\\{(\\mathrm{X}{\\vphantom{A}}_{\\smash[t]{2}}){\\vphantom{A}}_{\\smash[t]{3}}\\}{\\vphantom{A}}_{\\smash[t]{2}}]{\\vphantom{A}}^{3+}}",
+        "type":"ce"
+      },
+      {
+        "tex": "CH4 + 2  \\begin{math} \\left( \\ce{O2 + 79/21 N2} \\right) \\end{math}",
+        "texNew": "{\\mathrm{CH}{\\vphantom{A}}_{\\smash[t]{4}} {}+{} 2\\,\\left(  \\mathrm{O}{\\vphantom{A}}_{\\smash[t]{2}} {}+{} \\mathchoice{\\textstyle\\frac{79}{21}}{\\frac{79}{21}}{\\frac{79}{21}}{\\frac{79}{21}}\\,\\mathrm{N}{\\vphantom{A}}_{\\smash[t]{2}} \\right) }",
+        "type": "ce"
+      }
+    ],
+    "States of Aggregation": [
+      {
+        "tex": "H2(aq)",
+        "texNew":  "{\\mathrm{H}{\\vphantom{A}}_{\\smash[t]{2}}\\mskip{2mu} (\\mathrm{aq})}",
+        "type":"ce"
+      },
+      {
+        "tex": "CO3^2-_{(aq)}",
+        "texNew":  "{\\mathrm{CO}{\\vphantom{A}}_{\\smash[t]{3}}{\\vphantom{A}}^{2-}{\\vphantom{A}}_{\\smash[t]{\\mskip{1mu} (\\mathrm{aq})}}}",
+        "type":"ce"
+      },
+      {
+        "tex": "CO3^2-{}_{(aq)}",
+        "texNew":  "{\\mathrm{CO}{\\vphantom{A}}_{\\smash[t]{3}}{\\vphantom{A}}^{2-}{\\vphantom{A}}_{\\smash[t]{\\mskip{1mu} (\\mathrm{aq})}}}",
+        "type":"ce"
+      },
+      {
+        "tex": "NaOH(aq,  \\begin{math} \\infty \\end{math})",
+        "texNew": "{\\mathrm{NaOH}\\mskip{2mu} (\\mathrm{aq},\\infty )}",
+        "type": "ce"
+      }
+    ],
+    "Crystal Systems": [
+      {
+        "tex": "ZnS ($c$)",
+        "texNew":  "{\\mathrm{ZnS}\\mskip{2mu} (c )}",
+        "type":"ce"
+      },
+      {
+        "tex": "ZnS (\\ca$c$)",
+        "texNew": "{\\mathrm{ZnS}\\mskip{2mu} ({\\sim}c )}",
+        "type": "ce"
+      }
+    ],
+    "Variables like __*x*, *n*, 2*n*+1__": [
+      {
+        "tex": "NO_x",
+        "texNew":  "{\\mathrm{NO}{\\vphantom{A}}_{\\smash[t]{x }}}",
+        "type":"ce"
+      },
+      {
+        "tex": "Fe^n+",
+        "texNew":  "{\\mathrm{Fe}{\\vphantom{A}}^{n +}}",
+        "type":"ce"
+      },
+      {
+        "tex": "x Na(NH4)HPO4 ->[Delta] (NaPO3)_x + x NH3 ^ + x H2O",
+        "texNew": "{x\\,\\mathrm{Na}(\\mathrm{NH}{\\vphantom{A}}_{\\smash[t]{4}})\\mathrm{HPO}{\\vphantom{A}}_{\\smash[t]{4}} {}\\mathrel{\\xrightarrow{\\mathrm{Delta}}}{} (\\mathrm{NaPO}{\\vphantom{A}}_{\\smash[t]{3}}){\\vphantom{A}}_{\\smash[t]{x }} {}+{} x\\,\\mathrm{NH}{\\vphantom{A}}_{\\smash[t]{3}} \\uparrow{}  {}+{} x\\,\\mathrm{H}{\\vphantom{A}}_{\\smash[t]{2}}\\mathrm{O}}",
+        "type": "ce"
+      }
+    ],
+    "Greek Characters": [
+      {
+        "tex": "mu-Cl",
+        "texNew":  "{\\mathrm{mu}{-}\\mathrm{Cl}}",
+        "type":"ce"
+      },
+      {
+        "tex": "[Pt(\\eta^2-C2H4)Cl3]-",
+        "texNew":  "{[\\mathrm{Pt}(\\mathrm{\\eta}{\\vphantom{A}}^{2}\\text{-}\\mathrm{C}{\\vphantom{A}}_{\\smash[t]{2}}\\mathrm{H}{\\vphantom{A}}_{\\smash[t]{4}})\\mathrm{Cl}{\\vphantom{A}}_{\\smash[t]{3}}]{\\vphantom{A}}^{-}}",
+        "type":"ce"
+      },
+      {
+        "tex": "\\beta +",
+        "texNew":  "{\\mathrm{\\beta }{\\vphantom{A}}^{+}}",
+        "type":"ce"
+      },
+      {
+        "tex": "^40_18Ar + \\gamma{} + \\nu_e",
+        "texNew":  "{{\\vphantom{A}}^{\\hphantom{40}}_{\\hphantom{18}}\\mkern{-1.5mu}{\\vphantom{A}}^{\\smash[t]{\\vphantom{2}}\\llap{40}}_{\\vphantom{2}\\llap{\\smash[t]{18}}}\\mathrm{Ar} {}+{} \\mathrm{\\gamma{}} {}+{} \\mathrm{\\nu}{\\vphantom{A}}_{\\smash[t]{e }}}",
+        "type": "ce"
+      }
+    ],
+  "(Italic) Math": [
+    {
+      "tex": "NaOH(aq,  \\begin{math} \\infty$)",
+      "texNew":  "{\\mathrm{NaOH}\\mskip{2mu} (\\mathrm{aq},\\infty )}",
+      "type":"ce"
+    },
+    {
+      "tex": "Fe(CN)_{  \\begin{math} \\frac{6}{2} \\end{math}}",
+      "texNew":  "{\\mathrm{Fe}(\\mathrm{CN}){\\vphantom{A}}_{\\smash[t]{\\frac{6}{2} }}}",
+      "type":"ce"
+    },
+    {
+      "tex": "X_{$i$}^{$x$}",
+      "texNew":  "{\\mathrm{X}{\\vphantom{A}}_{\\smash[t]{i }}{\\vphantom{A}}^{x }}",
+      "type":"ce"
+    },
+    {
+      "tex": "X_$i$^$x$",
+      "texNew": "{\\mathrm{X}{\\vphantom{A}}_{\\smash[t]{i }}{\\vphantom{A}}^{x }}",
+      "type": "ce"
+    }
+  ],
+  "Italic Text": [
+    {
+      "tex": "$cis${-}[PtCl2(NH3)2]",
+      "texNew":  "{cis {\\text{-}}[\\mathrm{PtCl}{\\vphantom{A}}_{\\smash[t]{2}}(\\mathrm{NH}{\\vphantom{A}}_{\\smash[t]{3}}){\\vphantom{A}}_{\\smash[t]{2}}]}",
+      "type":"ce"
+    },
+    {
+      "tex": "CuS($hP12$)",
+      "texNew":  "{\\mathrm{CuS}(hP12 )}",
+      "type": "ce"
+    }
+  ],
+  "Upright Text, Escape Parsing": [
+    {
+      "tex": "{Gluconic Acid} + H2O2",
+      "texNew":  "{{\\text{Gluconic Acid}} {}+{} \\mathrm{H}{\\vphantom{A}}_{\\smash[t]{2}}\\mathrm{O}{\\vphantom{A}}_{\\smash[t]{2}}}",
+      "type":"ce"
+    },
+    {
+      "tex": "X_{{red}}",
+      "texNew":  "{\\mathrm{X}{\\vphantom{A}}_{\\smash[t]{\\text{red}}}}",
+      "type":"ce"
+    },
+    {
+      "tex": "{(+)}_589{-}[Co(en)3]Cl3",
+      "texNew":  "{{\\text{(+)}}{\\vphantom{A}}_{\\smash[t]{589}}{\\text{-}}[\\mathrm{Co}(\\mathrm{en}){\\vphantom{A}}_{\\smash[t]{3}}]\\mathrm{Cl}{\\vphantom{A}}_{\\smash[t]{3}}}",
+      "type": "ce"
+    }
+  ],
+  "Bonds": [
+    {
+      "tex": "C6H5-CHO",
+      "texNew":  "{\\mathrm{C}{\\vphantom{A}}_{\\smash[t]{6}}\\mathrm{H}{\\vphantom{A}}_{\\smash[t]{5}}{-}\\mathrm{CHO}}",
+      "type":"ce"
+    },
+    {
+      "tex": "A-B=C#D",
+      "texNew":  "{\\mathrm{A}{-}\\mathrm{B}{=}\\mathrm{C}{\\equiv}\\mathrm{D}}",
+      "type":"ce"
+    },
+    {
+      "tex": "A\\bond{-}B\\bond{=}C\\bond{#}D",
+      "texNew":  "{\\mathrm{A}{-}\\mathrm{B}{=}\\mathrm{C}{\\equiv}\\mathrm{D}}",
+      "type":"ce"
+    },
+    {
+      "tex": "A\\bond{1}B\\bond{2}C\\bond{3}D",
+      "texNew":  "{\\mathrm{A}{-}\\mathrm{B}{=}\\mathrm{C}{\\equiv}\\mathrm{D}}",
+      "type":"ce"
+    },
+    {
+      "tex": "A\\bond{~}B\\bond{~-}C",
+      "texNew":  "{\\mathrm{A}{\\tripledash}\\mathrm{B}{\\rlap{\\lower{.1em}{-}}\\raise{.1em}{\\tripledash}}\\mathrm{C}}",
+      "type":"ce"
+    },
+    {
+      "tex": "A\\bond{~--}B\\bond{~=}C\\bond{-~-}D",
+      "texNew":  "{\\mathrm{A}{\\rlap{\\lower{.2em}{-}}\\rlap{\\raise{.2em}{\\tripledash}}-}\\mathrm{B}{\\rlap{\\lower{.2em}{-}}\\rlap{\\raise{.2em}{\\tripledash}}-}\\mathrm{C}{\\rlap{\\lower{.2em}{-}}\\rlap{\\raise{.2em}{-}}\\tripledash}\\mathrm{D}}",
+      "type":"ce"
+    },
+    {
+      "tex": "A\\bond{...}B\\bond{....}C",
+      "texNew":  "{\\mathrm{A}{{\\cdot}{\\cdot}{\\cdot}}\\mathrm{B}{{\\cdot}{\\cdot}{\\cdot}{\\cdot}}\\mathrm{C}}",
+      "type":"ce"
+    },
+    {
+      "tex": "A\\bond{->}B\\bond{<-}C",
+      "texNew":  "{\\mathrm{A}{\\rightarrow}\\mathrm{B}{\\leftarrow}\\mathrm{C}}",
+      "type": "ce"
+    }
+  ],
+  "Addition Compounds": [
+    {
+      "tex": "KCr(SO4)2*12H2O",
+      "texNew":  "{\\mathrm{KCr}(\\mathrm{SO}{\\vphantom{A}}_{\\smash[t]{4}}){\\vphantom{A}}_{\\smash[t]{2}}\\,{\\cdot}\\,12\\,\\mathrm{H}{\\vphantom{A}}_{\\smash[t]{2}}\\mathrm{O}}",
+      "type":"ce"
+    },
+    {
+      "tex": "KCr(SO4)2.12H2O",
+      "texNew":  "{\\mathrm{KCr}(\\mathrm{SO}{\\vphantom{A}}_{\\smash[t]{4}}){\\vphantom{A}}_{\\smash[t]{2}}\\,{\\cdot}\\,12\\,\\mathrm{H}{\\vphantom{A}}_{\\smash[t]{2}}\\mathrm{O}}",
+      "type":"ce"
+    },
+    {
+      "tex": "KCr(SO4)2 * 12 H2O",
+      "texNew": "{\\mathrm{KCr}(\\mathrm{SO}{\\vphantom{A}}_{\\smash[t]{4}}){\\vphantom{A}}_{\\smash[t]{2}}\\,{\\cdot}\\,12\\,\\mathrm{H}{\\vphantom{A}}_{\\smash[t]{2}}\\mathrm{O}}",
+      "type": "ce"
+    }
+  ],
+  "Oxidation States": [
+    {
+      "tex": "Fe^{II}Fe^{III}2O4",
+      "texNew":  "{\\mathrm{Fe}{\\vphantom{A}}^{\\mathrm{II}}\\mathrm{Fe}{\\vphantom{A}}^{\\mathrm{III}}{\\vphantom{A}}_{\\smash[t]{2}}\\mathrm{O}{\\vphantom{A}}_{\\smash[t]{4}}}",
+      "type": "ce"
+    }
+  ],
+  "Unpaired Electrons, Radical Dots": [
+    {
+      "tex": "OCO^{.-}",
+      "texNew":  "{\\mathrm{OCO}{\\vphantom{A}}^{\\mkern{1mu} \\bullet\\mkern{1mu} -}}",
+      "type":"ce"
+    },
+    {
+      "tex": "NO^{(2.)-}",
+      "texNew":  "{\\mathrm{NO}{\\vphantom{A}}^{(2\\mkern{1mu} \\bullet\\mkern{1mu} )-}}",
+      "type": "ce"
+    }
+  ],
+  "Kröger-Vink Notation": [
+    {
+      "tex": "Li^x_{Li,1-2x}Mg^._{Li,x}$V$'_{Li,x}Cl^x_{Cl}",
+      "texNew":  "{\\mathrm{Li}{\\vphantom{A}}^{{\\times}}_{\\smash[t]{\\mathrm{Li}{,}\\mkern{1mu} 1-2x }}\\mathrm{Mg}{\\vphantom{A}}^{\\mkern{1mu} \\bullet\\mkern{1mu} }_{\\smash[t]{\\mathrm{Li}{,}\\mkern{1mu} x }}V {\\vphantom{A}}^{\\prime }_{\\smash[t]{\\mathrm{Li}{,}\\mkern{1mu} x }}\\mathrm{Cl}{\\vphantom{A}}^{{\\times}}_{\\smash[t]{\\mathrm{Cl}}}}",
+      "type":"ce"
+    },
+    {
+      "tex": "O''_{i,x}",
+      "texNew":  "{\\mathrm{O}{\\vphantom{A}}^{\\prime \\prime }_{\\smash[t]{\\mathrm{i}{,}\\mkern{1mu} x }}}",
+      "type":"ce"
+    },
+    {
+      "tex": "M^{..}_i",
+      "texNew":  "{\\mathrm{M}{\\vphantom{A}}^{\\mkern{1mu} \\bullet\\mkern{1mu} \\mkern{1mu} \\bullet\\mkern{1mu} }_{\\smash[t]{\\mathrm{i}}}}",
+      "type":"ce"
+    },
+    {
+      "tex": "$V$^{4'}_{Ti}",
+      "texNew":  "{V {\\vphantom{A}}^{4\\prime }_{\\smash[t]{\\mathrm{Ti}}}}",
+      "type":"ce"
+    },
+    {
+      "tex": "V_{V,1}C_{C,0.8}$V$_{C,0.2}",
+      "texNew":  "{\\mathrm{V}{\\vphantom{A}}_{\\smash[t]{\\mathrm{V}{,}\\mkern{1mu} 1}}\\mathrm{C}{\\vphantom{A}}_{\\smash[t]{\\mathrm{C}{,}\\mkern{1mu} 0.8}}V {\\vphantom{A}}_{\\smash[t]{\\mathrm{C}{,}\\mkern{1mu} 0.2}}}",
+      "type":"ce"
+    }
+  ],
+  "Equation Operators": [
+    {
+      "tex": "A + B",
+      "texNew":  "{\\mathrm{A} {}+{} \\mathrm{B}}",
+      "type":"ce"
+    },
+    {
+      "tex": "A - B",
+      "texNew":  "{\\mathrm{A} {}-{} \\mathrm{B}}",
+      "type":"ce"
+    },
+    {
+      "tex": "A = B",
+      "texNew":  "{\\mathrm{A} {}={} \\mathrm{B}}",
+      "type":"ce"
+    },
+    {
+      "tex": "A \\pm B",
+      "texNew": "{\\mathrm{A} {}\\pm{} \\mathrm{B}}",
+      "type": "ce"
+    }
+  ],
+  "Precipitate and Gas": [
+    {
+      "tex": "SO4^2- + Ba^2+ -> BaSO4 v",
+      "texNew":  "{\\mathrm{SO}{\\vphantom{A}}_{\\smash[t]{4}}{\\vphantom{A}}^{2-} {}+{} \\mathrm{Ba}{\\vphantom{A}}^{2+} {}\\mathrel{\\longrightarrow}{} \\mathrm{BaSO}{\\vphantom{A}}_{\\smash[t]{4}} \\downarrow{} }",
+      "type":"ce"
+    },
+    {
+      "tex": "A v B (v) -> B ^ B (^)",
+      "texNew": "{\\mathrm{A} \\downarrow{} ~\\mathrm{B} \\downarrow{}  {}\\mathrel{\\longrightarrow}{} \\mathrm{B} \\uparrow{} ~\\mathrm{B} \\uparrow{} }",
+      "type": "ce"
+    }
+  ],
+  "Other Symbols and Shortcuts": [
+    {
+      "tex": "NO^*",
+      "texNew":  "{\\mathrm{NO}{\\vphantom{A}}^{*}}",
+      "type":"ce"
+    },
+    {
+      "tex": "1s^2-N",
+      "texNew":  "{1\\mathrm{s}{\\vphantom{A}}^{2}\\text{-}\\mathrm{N}}",
+      "type":"ce"
+    },
+    {
+      "tex": "n-Pr",
+      "texNew":  "{n \\text{-}\\mathrm{Pr}}",
+      "type":"ce"
+    },
+    {
+      "tex": "iPr",
+      "texNew":  "{\\mathrm{iPr}}",
+      "type":"ce"
+    },
+    {
+      "tex": "\\ca Fe",
+      "texNew":  "{{\\sim}\\mathrm{Fe}}",
+      "type":"ce"
+    },
+    {
+      "tex": "A, B, C; F",
+      "texNew":  "{\\mathrm{A}{,}\\mkern{6mu} \\mathrm{B}{,}\\mkern{6mu} \\mathrm{C}{;}\\mkern{6mu} \\mathrm{F}}",
+      "type":"ce"
+    },
+    {
+      "tex": "{and others}",
+      "texNew": "{{\\text{and others}}}",
+      "type": "ce"
+    }
+  ],
+  "Complex Examples": [
+    {
+      "tex": "Zn^2+  <=>[+ 2OH-][+ 2H+]   \\begin{math} \\underset{\\text{amphoteres Hydroxid}}{\\ce{Zn(OH)2 v}}\\end{math}  <=>[+ 2OH-][+ 2H+]   \\begin{math} \\underset{\\text{Hydroxozikat}}{\\ce{[Zn(OH)4]^2-}}\\end{math}",
+      "texNew":  "{\\mathrm{Zn}{\\vphantom{A}}^{2+} {}\\mathrel{\\underset{\\lower{6mu}{ {}+{} 2\\,\\mathrm{H}{\\vphantom{A}}^{+}}}{\\overset{ {}+{} 2\\,\\mathrm{OH}{\\vphantom{A}}^{-}}{\\longrightleftharpoons}}}{} \\underset{\\text{amphoteres Hydroxid}}{\\ce{Zn(OH)2 v}}  {}\\mathrel{\\underset{\\lower{6mu}{ {}+{} 2\\,\\mathrm{H}{\\vphantom{A}}^{+}}}{\\overset{ {}+{} 2\\,\\mathrm{OH}{\\vphantom{A}}^{-}}{\\longrightleftharpoons}}}{} \\underset{\\text{Hydroxozikat}}{\\ce{[Zn(OH)4]^2-}} }",
+      "type":"ce"
+    },
+    {
+      "tex": " \\begin{math} K = \\frac{[\\ce{Hg^2+}][\\ce{Hg}]}{[\\ce{Hg2^2+}]}\\end{math}",
+      "texNew":  "{K = \\frac{[\\ce{Hg^2+}][\\ce{Hg}]}{[\\ce{Hg2^2+}]} }",
+      "type":"ce"
+    },
+    {
+      "tex": " \\begin{math} K = \\ce{\\frac{[Hg^2+][Hg]}{[Hg2^2+]}}\\end{math}",
+      "texNew":  "{K =  \\frac{[\\mathrm{Hg}{\\vphantom{A}}^{2+}][\\mathrm{Hg}]}{[\\mathrm{Hg}{\\vphantom{A}}_{\\smash[t]{2}}{\\vphantom{A}}^{2+}]}}",
+      "type":"ce"
+    },
+    {
+      "tex": "Hg^2+ ->[I-]   \\begin{math} \\underset{\\mathrm{red}}{\\ce{HgI2}}\\end{math}  ->[I-]   \\begin{math} \\underset{\\mathrm{red}}{\\ce{[Hg^{II}I4]^2-}}\\end{math}",
+      "texNew": "{\\mathrm{Hg}{\\vphantom{A}}^{2+} {}\\mathrel{\\xrightarrow{\\mathrm{I}{\\vphantom{A}}^{-}}}{} \\underset{\\mathrm{red}}{\\ce{HgI2}}  {}\\mathrel{\\xrightarrow{\\mathrm{I}{\\vphantom{A}}^{-}}}{} \\underset{\\mathrm{red}}{\\ce{[Hg^{II}I4]^2-}} }",
+      "type":"ce"
+    }
+  ],
+  "pu": [
+    {
+      "tex":  "123 kJ",
+      "texNew": "{123~\\mathrm{kJ}}",
+      "type":"pu"
+    },
+    {
+      "tex":  "123 mm2",
+      "texNew": "{123~\\mathrm{mm^{2}}}",
+      "type":"pu"
+    },
+    {
+      "tex":  "123 J s",
+      "texNew": "{123~\\mathrm{J}\\mkern{3mu} \\mathrm{s}}",
+      "type":"pu"
+    },
+    {
+      "tex":  "123 J*s",
+      "texNew": "{123~\\mathrm{J}\\mkern{1mu}{\\cdot}\\mkern{1mu} \\mathrm{s}}",
+      "type":"pu"
+    },
+    {
+      "tex":  "123 kJ/mol",
+      "texNew": "{123~\\mathrm{kJ}/\\mathrm{mol}}",
+      "type":"pu"
+    },
+    {
+      "tex":  "123 kJ//mol",
+      "texNew": "{123~\\mathchoice{\\textstyle\\frac{\\mathrm{kJ}}{\\mathrm{mol}}}{\\frac{\\mathrm{kJ}}{\\mathrm{mol}}}{\\frac{\\mathrm{kJ}}{\\mathrm{mol}}}{\\frac{\\mathrm{kJ}}{\\mathrm{mol}}}}",
+      "type":"pu"
+    },
+    {
+      "tex":  "123 kJ mol^-1",
+      "texNew": "{123~\\mathrm{kJ}\\mkern{3mu} \\mathrm{mol^{-1}}}",
+      "type":"pu"
+    },
+    {
+      "tex":  "123 kJ*mol-1",
+      "texNew": "{123~\\mathrm{kJ}\\mkern{1mu}{\\cdot}\\mkern{1mu} \\mathrm{mol^{-1}}}",
+      "type":"pu"
+    },
+    {
+      "tex":  "123 kJ.mol-1",
+      "texNew": "{123~\\mathrm{kJ}\\mkern{1mu}{\\cdot}\\mkern{1mu} \\mathrm{mol^{-1}}}",
+      "type":"pu"
+    },
+    {
+      "tex":  "1.2e3 kJ",
+      "texNew": "{1.2\\cdot 10^{3}~\\mathrm{kJ}}",
+      "type":"pu"
+    },
+    {
+      "tex":  "1,2e3 kJ",
+      "texNew": "{1{,}2\\cdot 10^{3}~\\mathrm{kJ}}",
+      "type":"pu"
+    },
+    {
+      "tex":  "1.2E3 kJ",
+      "texNew": "{1.2\\times 10^{3}~\\mathrm{kJ}}",
+      "type":"pu"
+    },
+    {
+      "tex":  "1,2E3 kJ",
+      "texNew": "{1{,}2\\times 10^{3}~\\mathrm{kJ}}",
+      "type":"pu"
+    },
+    {
+      "tex":  "1234",
+      "texNew": "{1234}",
+      "type":"pu"
+    },
+    {
+      "tex":  "12345",
+      "texNew": "{12\\mkern{2mu} 345}",
+      "type":"pu"
+    },
+    {
+      "tex":  "1\u00B0C",
+      "texNew": "{1~\\mathrm{{}^{\\circ}C}}",
+      "type":"pu"
+    },
+    {
+      "tex":  "23.4782(32) m",
+      "texNew": "{23.4782(32)~\\mathrm{m}}",
+      "type":"pu"
+    },
+    {
+      "tex":  "8.00001 \\pm 0.00005 nm",
+      "texNew": "{8.000\\mkern{2mu} 01 {}\\pm{} 0.000\\mkern{2mu} 05~\\mathrm{nm}}",
+      "type":"pu"
+    },
+    {
+      "tex":  ".25",
+      "texNew": "{.25}",
+      "type":"pu"
+    },
+    {
+      "tex":  "1 mol ",
+      "texNew": "{1~\\mathrm{mol}~}",
+      "type":"pu"
+    },
+    {
+      "tex":  "123 l//100km",
+      "texNew": "{123~\\mathchoice{\\textstyle\\frac{\\mathrm{l}}{100~\\mathrm{km}}}{\\frac{\\mathrm{l}}{100~\\mathrm{km}}}{\\frac{\\mathrm{l}}{100~\\mathrm{km}}}{\\frac{\\mathrm{l}}{100~\\mathrm{km}}}}",
+      "type":"pu"
+    }
+  ]
+
+
+}
+

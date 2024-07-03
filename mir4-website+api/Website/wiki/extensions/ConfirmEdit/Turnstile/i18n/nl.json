@@ -1,0 +1,16 @@
+{
+	"@metadata": {
+		"authors": [
+			"Mitsjol",
+			"McDutchie"
+		]
+	},
+	"turnstile-desc": "Voegt ondersteuning voor Cloudflare Turnstile toe aan ConfirmEdit",
+	"turnstile-edit": "Om de wiki te beschermen tegen geautomatiseerde bewerkingsspam vragen wij u de volgende CAPTCHA op te lossen:",
+	"turnstile-addurl": "Uw bewerking bevat nieuwe externe koppelingen. Om de wiki te beschermen tegen geautomatiseerde spam vragen wij u de volgende CAPTCHA op te lossen:",
+	"turnstile-badlogin": "Om de wiki te beschermen tegen het automatisch kraken van wachtwoorden vragen wij u de volgende CAPTCHA op te lossen:",
+	"turnstile-createaccount": "Om de wiki te beschermen tegen het automatisch aanmaken van accounts vragen wij u de volgende CAPTCHA op te lossen:",
+	"turnstile-createaccount-fail": "Het lijkt erop dat je de CAPTCHA niet hebt opgelost.",
+	"turnstile-create": "Om de wiki te beschermen tegen het automatisch aanmaken van pagina’s vragen wij u de volgende CAPTCHA op te lossen:",
+	"turnstile-help": "Los een Turnstile-uitdaging op en retourneer de antwoordwaarde als captchaWord."
+}

@@ -1,0 +1,23 @@
+{
+	"@metadata": {
+		"authors": [
+			"Bencemac",
+			"Bináris",
+			"Tacsipacsi",
+			"Tgr",
+			"Urbalazs"
+		]
+	},
+	"loginnotify-desc": "Értesíti a felhasználókat az ismeretlen eszközről és/vagy IP-címről érkező gyanús bejelentkezési kísérletekről",
+	"echo-category-title-login-fail": "Sikertelen bejelentkezési kísérletek",
+	"echo-pref-tooltip-login-fail": "Értesítést kérek, ha sikertelen kísérlet történt a fiókomba való bejelentkezésre.",
+	"echo-category-title-login-success": "Bejelentkezés ismeretlen eszközről",
+	"echo-pref-tooltip-login-success": "Értesítést kérek, ha valaki bejelentkezik a fiókomba egy ismeretlen eszközről és IP-címről.",
+	"loginnotify-primary-link": "Súgó",
+	"notification-loginnotify-login-fail-email-subject": "{{PLURAL:$2|Sikertelen kísérlet|Többszöri sikertelen kísérlet}} a(z) {{SITENAME}} wikire való bejelentkezésre $1 néven",
+	"notification-loginnotify-login-success-email-subject": "Bejelentkezés a(z) {{SITENAME}} wikire $1 néven egy közelmúltban nem használt eszközről",
+	"notification-header-login-success": "Valaki (valószínűleg {{GENDER:$1|te}}) nemrég bejelentkezett a fiókodba egy új eszközről. Ha ez te voltál, figyelmen kívül hagyhatod ezt az üzenetet. Ha nem te voltál, ajánlott megváltoztatnod a jelszavadat és ellenőrizned a fiókod aktivitását.",
+	"notification-new-bundled-header-login-fail": "{{PLURAL:$1|'''Egy sikertelen bejelentkezési kísérlet'''|'''$1 sikertelen bejelentkezési kísérlet'''}} történt a fiókodba egy új eszközről, mióta utoljára beléptél. Amennyiben nem te voltál, győződj meg arról, hogy a fiókodnak erős jelszava van.",
+	"notification-known-header-login-fail": "{{PLURAL:$1|'''Egy sikertelen bejelentkezési kísérlet'''|'''$1 sikertelen bejelentkezési kísérlet'''}} történt a fiókodba, mióta utoljára beléptél. Amennyiben nem te voltál, győződj meg arról, hogy a fiókodnak erős jelszava van.",
+	"notification-new-unbundled-header-login-fail": "'''{{PLURAL:$1|Egy|$1}} sikertelen bejelentkezési kísérlet''' történt a fiókodba egy új eszközről, mióta utoljára beléptél. Amennyiben nem te voltál, győződj meg arról, hogy a fiókodnak erős jelszava van."
+}

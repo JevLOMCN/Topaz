@@ -1,0 +1,30 @@
+{
+	"@metadata": {
+		"authors": [
+			"Candalua",
+			"Fierodelveneto",
+			"GatoSelvadego"
+		]
+	},
+	"pfunc_desc": "Zonta al parser na serie de funsion logiche",
+	"pfunc_time_error": "Eror: orario mìja bon",
+	"pfunc_time_too_long": "Eror: massa chiamate a #time",
+	"pfunc_time_too_big": "Eror: #time suporta soło che fin al ano 9999",
+	"pfunc_time_too_small": "Eror: #time suporta soło che da l'ano 0.",
+	"pfunc_rel2abs_invalid_depth": "Eror: profondità mìa valida nel percorso \"$1\" (se gà proà a accédar a un nodo piassè sora de la raìsa)",
+	"pfunc_expr_stack_exhausted": "Eror ne l'espression: stack esaurìo",
+	"pfunc_expr_unexpected_number": "Eror ne l'espression: xe vegnù fora un nùmaro che no se se spetava",
+	"pfunc_expr_preg_match_failure": "Eror ne l'espression: eror inateso in preg_match",
+	"pfunc_expr_unrecognised_word": "Eror d'espresion: \"$1\" no reconosesto.",
+	"pfunc_expr_unexpected_operator": "Eror d'espresion: \"$1\" no reconosesto.",
+	"pfunc_expr_missing_operand": "Eror in te ła espresion: manca on operando in $1",
+	"pfunc_expr_unexpected_closing_bracket": "Eror ne l'espression: parentesi chiusa inatesa",
+	"pfunc_expr_unrecognised_punctuation": "Eror d'espresion: \"$1\" no reconosesto.",
+	"pfunc_expr_unclosed_bracket": "Eror ne l'espression: parentesi verta e mìa sarà",
+	"pfunc_expr_division_by_zero": "Divixion par xèro",
+	"pfunc_expr_invalid_argument": "Argomento mìa valido par $1: < -1 or > 1",
+	"pfunc_expr_invalid_argument_ln": "Argomento mìa valido par ln: <= 0",
+	"pfunc_expr_unknown_error": "Eror ne l'espression: eror sconossiùo ($1)",
+	"pfunc_expr_not_a_number": "In $1: el risultato no'l xe mìa un nùmaro",
+	"pfunc_string_too_long": "Eròr: la stringa la va fora dal limite de {{PLURAL:$1|1 caràtere|$1 caràteri}}"
+}

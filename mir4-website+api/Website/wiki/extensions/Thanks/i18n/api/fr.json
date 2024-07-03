@@ -1,0 +1,20 @@
+{
+	"@metadata": {
+		"authors": [
+			"Djiboun",
+			"Ltrlg",
+			"Macofe",
+			"Urhixidur",
+			"Verdy p",
+			"Wladek92"
+		]
+	},
+	"apihelp-flowthank-summary": "Envoyer une notification publique de remerciement pour un commentaire Flow.",
+	"apihelp-flowthank-param-postid": "L’UUID du message pour lequel remercier.",
+	"apihelp-flowthank-example-1": "Remercier pour le commentaire ayant l’<kbd>UUID xyz789</kbd>",
+	"apihelp-thank-summary": "Envoyer une notification de remerciement à un rédacteur.",
+	"apihelp-thank-param-rev": "Identifiant de révision pour laquelle remercier quelqu’un. Celui-ci ou « log » doit être fourni.",
+	"apihelp-thank-param-log": "Identifiant de journal pour remercier quelqu’un. Cet identifiant ou « rev » doit être fourni.",
+	"apihelp-thank-param-source": "Une chaîne courte décrivant la source de la requête. Par exemple, <kbd>diff</kbd> ou <kbd>history</kbd>.",
+	"apihelp-thank-example-1": "Envoyer des remerciements pour l’ID de révision <kbd>ID 456</kbd, avec la source étant une page de différence"
+}

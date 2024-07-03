@@ -1,0 +1,78 @@
+{
+	"name": "Nuke",
+	"author": [
+		"Brion Vibber",
+		"Jeroen De Dauw"
+	],
+	"url": "https://www.mediawiki.org/wiki/Extension:Nuke",
+	"descriptionmsg": "nuke-desc",
+	"license-name": "GPL-2.0-or-later",
+	"requires": {
+		"MediaWiki": ">= 1.42"
+	},
+	"type": "specialpage",
+	"ExtensionMessagesFiles": {
+		"NukeAlias": "Nuke.alias.php"
+	},
+	"MessagesDirs": {
+		"Nuke": [
+			"i18n"
+		]
+	},
+	"HookHandlers": {
+		"main": {
+			"class": "MediaWiki\\Extension\\Nuke\\Hooks"
+		}
+	},
+	"Hooks": {
+		"ContributionsToolLinks": "main"
+	},
+	"ResourceModules": {
+		"ext.nuke.confirm": {
+			"scripts": [
+				"ext.nuke.confirm.js"
+			],
+			"dependencies": [
+				"mediawiki.jqueryMsg"
+			],
+			"messages": [
+				"nuke-confirm"
+			]
+		}
+	},
+	"ResourceFileModulePaths": {
+		"localBasePath": "modules",
+		"remoteExtPath": "Nuke/modules"
+	},
+	"GroupPermissions": {
+		"sysop": {
+			"nuke": true
+		}
+	},
+	"AvailableRights": [
+		"nuke"
+	],
+	"GrantPermissions": {
+		"delete": {
+			"nuke": true
+		}
+	},
+	"SpecialPages": {
+		"Nuke": {
+			"class": "MediaWiki\\Extension\\Nuke\\SpecialNuke",
+			"services": [
+				"JobQueueGroup",
+				"DBLoadBalancerFactory",
+				"PermissionManager",
+				"RepoGroup",
+				"UserFactory",
+				"UserNamePrefixSearch",
+				"UserNameUtils"
+			]
+		}
+	},
+	"AutoloadNamespaces": {
+		"MediaWiki\\Extension\\Nuke\\": "includes/"
+	},
+	"manifest_version": 2
+}

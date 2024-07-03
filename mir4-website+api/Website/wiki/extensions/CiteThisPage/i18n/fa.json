@@ -1,0 +1,21 @@
+{
+	"@metadata": {
+		"authors": [
+			"Beginneruser",
+			"Ebraminio",
+			"Huji",
+			"Jeeputer",
+			"Reza1615",
+			"Wayiran",
+			"ZxxZxxZ"
+		]
+	},
+	"citethispage": "یادکرد این صفحه",
+	"citethispage-desc": "یک صفحۀ ویژه [[Special:CiteThisPage|یادکرد به این صفحه]] و پیوند جعبه‌ابزار افزوده می‌شود",
+	"citethispage-link": "یادکرد این صفحه",
+	"tooltip-citethispage": "اطلاعات در خصوص چگونگی یادکرد این صفحه",
+	"citethispage-change-submit": "یادکرد",
+	"citethispage-change-target": "صفحه:",
+	"citethispage-badrevision": "خطا: هیچ نسخه‌ای برای صفحۀ \"$1\" با شناسۀ نسخه $2 نمی‌توان یافت.",
+	"citethispage-content": "__NOTOC__\n<div class=\"mw-specialCiteThisPage-bibliographic\">\n\n== اطلاعات کتاب‌شناسی برای {{FULLPAGENAME}} ==\n\n* نام صفحه: {{FULLPAGENAME}}\n* نویسنده: مشارکت‌کنندگان {{SITENAME}}\n* ناشر: ''{{SITENAME}}، {{int:sitesubtitle}}''.\n* تاریخ آخرین نسخه: {{CURRENTDAY}} {{CURRENTMONTHNAME}} {{CURRENTYEAR}} {{CURRENTTIME}} UTC\n* تاریخ بازبینی: <citation>{{CURRENTDAY}} {{CURRENTMONTHNAME}} {{CURRENTYEAR}} {{CURRENTTIME}} UTC</citation>\n* نشانی پایدار: {{canonicalurl:{{FULLPAGENAME}}|oldid={{REVISIONID}}}}\n* شناسهٔ نسخهٔ صفحه: {{REVISIONID}}\n\n</div>\n<div class=\"plainlinks mw-specialCiteThisPage-styles\">\n\n== شیوه‌های یادکرد برای {{FULLPAGENAME}} ==\n\n=== [[شیوه APA|شیوهٔ APA]] ===\n{{FULLPAGENAME}}. ({{CURRENTYEAR}}، {{CURRENTMONTHNAME}} {{CURRENTDAY}}). ''{{SITENAME}}، {{int:sitesubtitle}}''. Retrieved <citation>{{CURRENTTIME}}، {{CURRENTMONTHNAME}} {{CURRENTDAY}}، {{CURRENTYEAR}}</citation> از {{canonicalurl:{{FULLPAGENAME}}|oldid={{REVISIONID}}}}.\n\n=== [[شیوه ام‌ال‌آ|شیوهٔ MLA]] ===\n«{{FULLPAGENAME}}». ''{{SITENAME}}، {{int:sitesubtitle}}''. {{CURRENTDAY}} {{CURRENTMONTHABBREV}} {{CURRENTYEAR}}، {{CURRENTTIME}} UTC. <citation>{{CURRENTDAY}} {{CURRENTMONTHABBREV}} {{CURRENTYEAR}}، {{CURRENTTIME}}</citation> &lt;{{canonicalurl:{{FULLPAGENAME}}|oldid={{REVISIONID}}}}&gt؛.\n\n=== [[شیوه MHRA|شیوهٔ MHRA]] ===\nمشارکت‌کنندگان {{SITENAME}}، «{{FULLPAGENAME}}»، ''{{SITENAME}}، {{int:sitesubtitle}}،'' {{CURRENTDAY}} {{CURRENTMONTHNAME}} {{CURRENTYEAR}}، {{CURRENTTIME}} UTC، &lt;{{canonicalurl:{{FULLPAGENAME}}|oldid={{REVISIONID}}}}&gt; [accessed <citation>{{CURRENTDAY}} {{CURRENTMONTHNAME}} {{CURRENTYEAR}}</citation>]\n\n=== [[شیوه‌نامه شیکاگو|شیوهٔ شیکاگو]] ===\nمشارکت‌کنندگان {{SITENAME}}، «{{FULLPAGENAME}}»، ''{{SITENAME}}، {{int:sitesubtitle}}،'' {{canonicalurl:{{FULLPAGENAME}}|oldid={{REVISIONID}}}} (بازیابی‌شده در <citation>{{CURRENTDAY}} {{CURRENTMONTHNAME}} {{CURRENTYEAR}}</citation>).\n\n=== [[Council of Science Editors|شیوهٔ CBE/CSE]] ===\nمشارکت‌کنندگان {{SITENAME}}. {{FULLPAGENAME}} [اینترنت]. {{SITENAME}}، {{int:sitesubtitle}}؛ {{CURRENTYEAR}} {{CURRENTMONTHABBREV}} {{CURRENTDAY}}، {{CURRENTTIME}} UTC [یادکردشده در <citation>{{CURRENTYEAR}} {{CURRENTMONTHABBREV}} {{CURRENTDAY}}</citation>]. قابل دسترسی از:\n{{canonicalurl:{{FULLPAGENAME}}|oldid={{REVISIONID}}}}.\n\n=== [[w:en:Bluebook|شیوهٔ Bluebook]] ===\n{{FULLPAGENAME}}، {{canonicalurl:{{FULLPAGENAME}}|oldid={{REVISIONID}}}} (آخرین بازدید در <citation>{{CURRENTDAY}} {{CURRENTMONTHNAME}} {{CURRENTYEAR}}</citation>).\n\n=== [[BibTeX]] ===\n\n  @misc{ wiki:xxx,\n   author = \"{{SITENAME}}\",\n   title = \"{{FULLPAGENAME}} --- {{SITENAME}}{,} {{int:sitesubtitle}}\",\n   year = \"{{CURRENTYEAR}}\",\n   url = \"{{canonicalurl:{{FULLPAGENAME}}|oldid={{REVISIONID}}}}\",\n   note = \"[برخط؛ بازبینی‌شده در <citation>{{CURRENTDAY}}-{{CURRENTMONTHNAME}}-{{CURRENTYEAR}}</citation>]\"\n  }\n\nدر زمان استفاده از بستهٔ  [[LaTeX]]  نشانی (<code>\\usepackage{url}</code> جایی در پیوند پایدار) که برای ارائه فرمت‌های وبی طراحی شده است، شاید به صورت زیر مطلوب باشد:\n\n  @misc{ wiki:xxx,\n   author = \"{{SITENAME}}\",\n   title = \"{{FULLPAGENAME}} --- {{SITENAME}}{,} {{int:sitesubtitle}}\",\n   year = \"{{CURRENTYEAR}}\",\n   url = \"'''\\url{'''{{canonicalurl:{{FULLPAGENAME}}|oldid={{REVISIONID}}}}'''}'''\",\n   note = \"[برخط؛ بازبینی‌شده در <citation>{{CURRENTDAY}}-{{CURRENTMONTHNAME}}-{{CURRENTYEAR}}</citation>]\"\n  }\n\n\n</div> <!--closing div for \"plainlinks\"-->"
+}

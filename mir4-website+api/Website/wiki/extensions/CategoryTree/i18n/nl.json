@@ -1,0 +1,40 @@
+{
+	"@metadata": {
+		"authors": [
+			"Huhbakker",
+			"Kippenvlees1",
+			"Mainframe98",
+			"Nickthijssen1994",
+			"SPQRobin",
+			"Siebrand"
+		]
+	},
+	"categorytree": "Categorieboom",
+	"categorytree-portlet": "Categorieën",
+	"categorytree-legend": "Categorieboom weergeven",
+	"categorytree-desc": "AJAX-gebaseerde uitbreiding om de [[Special:CategoryTree|categoriestructuur]] van een wiki te bekijken",
+	"categorytree-header": "Geef een categorienaam in om de inhoud als een boomstructuur te bekijken. (Vereist JavaScript.)",
+	"categorytree-category": "Categorie:",
+	"categorytree-go": "Structuur weergeven",
+	"categorytree-parents": "Bovenliggende categorieën",
+	"categorytree-mode-label": "Modus:",
+	"categorytree-mode-categories": "alleen categorieën",
+	"categorytree-mode-pages": "geen afbeeldingen",
+	"categorytree-mode-all": "alle pagina's",
+	"categorytree-collapse": "samenvouwen",
+	"categorytree-expand": "uitvouwen",
+	"categorytree-member-counts": "Bevat {{PLURAL:$1|één subcategorie|$1 subcategorieën}}, {{PLURAL:$2|één pagina|$2 pagina's}} en {{PLURAL:$3|één bestand|$3 bestanden}}",
+	"categorytree-num-categories": "$1 C",
+	"categorytree-num-pages": "$1 P",
+	"categorytree-num-files": "$1 B",
+	"categorytree-num-empty": "leeg",
+	"categorytree-load": "laden",
+	"categorytree-loading": "aan het laden…",
+	"categorytree-nothing-found": "niets gevonden",
+	"categorytree-no-subcategories": "Geen ondercategorieën.",
+	"categorytree-no-parent-categories": "geen bovencategorieën",
+	"categorytree-no-pages": "Geen pagina's of ondercategorieën.",
+	"categorytree-not-found": "Categorie <i>$1</i> is niet gevonden",
+	"categorytree-error": "Probleem bij het laden van de gegevens.",
+	"categorytree-retry": "Wacht even en probeer het dan opnieuw."
+}

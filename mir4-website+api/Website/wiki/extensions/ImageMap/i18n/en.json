@@ -1,0 +1,20 @@
+{
+	"@metadata": {
+		"authors": [
+			"Tim Starling"
+		]
+	},
+	"imagemap_desc": "Allows client-side clickable image maps using <code>&lt;imagemap&gt;</code> tag",
+	"imagemap_no_image": "Error: Must specify an image in the first line.",
+	"imagemap_invalid_image": "Error: Image is invalid or non-existent.",
+	"imagemap_bad_image": "Error: Image is not allowed on this page.",
+	"imagemap_no_link": "Error: No valid link was found at the end of line $1.",
+	"imagemap_invalid_title": "Error: Invalid title in link at line $1.",
+	"imagemap_missing_coord": "Error: Not enough coordinates for shape at line $1.",
+	"imagemap_unrecognised_shape": "Error: Unrecognized shape at line $1, each line must start with one of: <code>default</code>, <code>rect</code>, <code>circle</code> or <code>poly</code>.",
+	"imagemap_invalid_coord": "Error: Invalid coordinate at line $1, must be a number.",
+	"imagemap_invalid_desc": "Error: Invalid desc specification, must be one of: <code>$1</code>.",
+	"imagemap_description": "About this image",
+	"imagemap_desc_types": "top-right, bottom-right, bottom-left, top-left, none",
+	"imagemap_poly_odd": "Error: Found poly with odd number of coordinates on line $1"
+}

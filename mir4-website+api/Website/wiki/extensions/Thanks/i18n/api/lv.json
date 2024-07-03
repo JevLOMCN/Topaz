@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"Papuass"
+		]
+	},
+	"apihelp-flowthank-summary": "Nosūtīt publisku pateicību par Flow komentāru.",
+	"apihelp-flowthank-param-postid": "Ieraksta UUID, par ko pateikties.",
+	"apihelp-flowthank-example-1": "Nosūtīt pateicību par komentāru ar <kbd>UUID xyz789</kbd>",
+	"apihelp-thank-summary": "Nosūtīt pateicības paziņojumu redaktoram.",
+	"apihelp-thank-param-rev": "Versijas ID, par ko kādam pateikties. Jānorāda tas vai 'log' vērtība.",
+	"apihelp-thank-param-log": "Žurnāla ID par ko kādam pateikties. Jānorāda tas vai 'rev' vērtība.",
+	"apihelp-thank-param-source": "Īss teksts, kas apraksta pieprasījuma avotu, piemēram <kbd>diff</kbd> vai <kbd>history</kbd>.",
+	"apihelp-thank-example-1": "Nosūtīt pateicību par versiju <kbd>ID 456</kbd>, kā avotu norādot diff lapu"
+}

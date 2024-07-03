@@ -1,0 +1,38 @@
+{
+	"@metadata": {
+		"authors": [
+			"Amire80",
+			"Guycn1",
+			"Guycn2",
+			"Rotem Liss",
+			"YaronSh",
+			"Yona b"
+		]
+	},
+	"nuke": "מחיקה המונית",
+	"action-nuke": "למחוק המון דפים",
+	"nuke-desc": "אפשרות למפעילי המערכת לבצע [[Special:Nuke|מחיקה המונית]] של דפים",
+	"nuke-nopages": "אין דפים חדשים שנוצרו על־ידי [[Special:Contributions/$1|$1]] בשינויים האחרונים.",
+	"nuke-list": "הדפים הבאים נוצרו לאחרונה על־ידי [[Special:Contributions/$1|$1]];\nיש לכתוב הסבר למחיקה ולאחר מכן ללחוץ על הכפתור כדי למחוק אותם.",
+	"nuke-list-multiple": "הדפים הבאים נוצרו לאחרונה;\nנא לכתוב הסבר למחיקה וללחוץ על הכפתור כדי למחוק אותם.",
+	"nuke-defaultreason": "מחיקה המונית של דפים שנוצרו על־ידי [[Special:Contributions/$1|$1]]",
+	"nuke-multiplepeople": "מחיקה המונית של דפים שנוספו לאחרונה",
+	"nuke-tools": "הכלי הזה מאפשר מחיקות המוניות של דפים שנוספו לאחרונה על־ידי משתמש או כתובת IP מסוימים.\nיש לכתוב את שם המשתמש או את כתובת ה־IP כדי לקבל את רשימת הדפים למחיקה, או להשאיר את השדה ריק עבור כל המשתמשים.",
+	"nuke-submit-user": "קבלת רשימת דפים",
+	"nuke-submit-delete": "מחיקת הדפים שנבחרו",
+	"right-nuke": "מחיקה המונית של דפים",
+	"nuke-userorip": "שם משתמש, כתובת IP או ריק:",
+	"nuke-maxpages": "מספר דפים מרבי:",
+	"nuke-editby": "נוצר על־ידי [[Special:Contributions/$1|{{GENDER:$1|$1}}]]",
+	"nuke-deleted": "הדף '''$1''' נמחק.",
+	"nuke-deletion-queued": "הדף '''$1''' הוכנס לתור מחיקה.",
+	"nuke-not-deleted": "'''לא ניתן''' למחוק את הדף [[:$1]].",
+	"nuke-delete-more": "[[Special:Nuke|למחוק עוד דפים]]",
+	"nuke-pattern": "תבנית SQL LIKE (למשל %) עבור שם הדף:",
+	"nuke-nopages-global": "אין כותרות דפים שמתאימים לחיפוש שלך.",
+	"nuke-viewchanges": "הצגת שינויים",
+	"nuke-namespace": "להגביל למרחב השמות הבא:",
+	"nuke-linkoncontribs": "מחיקה המונית",
+	"nuke-linkoncontribs-text": "מחיקת המונית של דפים {{GENDER:$1|שהמשתמש הזה הוא הכותב היחיד|שהמשתמשת הזאת היא הכותבת היחידה}} שלהם",
+	"nuke-confirm": "{{PLURAL:$1|דף אחד יימחק|$1 דפים יימחקו}}. האם ברצונך להמשיך?"
+}

@@ -1,0 +1,21 @@
+{
+	"@metadata": {
+		"authors": [
+			"2nd-player",
+			"MirukuPC",
+			"Omotecho",
+			"Otokoume",
+			"Yusuke1109"
+		]
+	},
+	"apihelp-query+linterrors-summary": "カテゴリ別のlintエラー件数を表示",
+	"apihelp-query+linterrors-param-categories": "lintエラーのカテゴリ",
+	"apihelp-query+linterrors-param-limit": "返す結果の数",
+	"apihelp-query+linterrors-param-from": "クエリ開始のLint ID",
+	"apihelp-query+linterrors-param-namespace": "指定した名前空間のlintエラーのみ集計",
+	"apihelp-query+linterrors-param-pageid": "指定したページのlintエラーのみ集計",
+	"apihelp-query+linterrors-param-title": "指定されたページタイトルからのlintエラーのみを含む",
+	"apihelp-query+linterrors-example-1": "廃止されたタグカテゴリのすべてのlintエラーを取得します",
+	"apihelp-query+linterstats-summary": "カテゴリ別のlintエラー件数を表示",
+	"apihelp-query+linterstats-example-1": "カテゴリ別のlintエラー件数を表示"
+}

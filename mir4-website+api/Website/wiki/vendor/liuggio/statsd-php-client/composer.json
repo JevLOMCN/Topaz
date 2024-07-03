@@ -1,0 +1,30 @@
+{
+    "name": "liuggio/statsd-php-client",
+    "description": "Statsd (Object Oriented) client library for PHP",
+    "keywords": ["statsd", "monitoring", "etsy", "php"],
+    "homepage": "https://github.com/liuggio/statsd-php-client/",
+    "type": "library",
+    "license": "MIT",
+    "require": {
+        "php": ">=5.3.2"
+    },
+    "authors": [
+        {
+            "name": "Giulio De Donato",
+            "email": "liuggio@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-0": {"Liuggio": "src/"}
+    },
+    "autoload-dev": {
+      "psr-0": {"Liuggio": "tests/"}
+    },
+    "require-dev": {
+        "monolog/monolog": ">=1.2.0",
+        "phpunit/phpunit": "^4.7"
+    },
+    "suggest": {
+        "monolog/monolog": "Monolog, in order to do generate statistic from log >=1.2.0)"
+    }
+}

@@ -1,0 +1,25 @@
+{
+	"@metadata": {
+		"authors": [
+			"Andriykopanytsia",
+			"Base",
+			"Piramidion",
+			"Sodmy",
+			"Ата"
+		]
+	},
+	"codeeditor-desc": "Редагування із підсвіткою синтаксису для JavaScript та CSS сторінок за допомогою [https://ace.c9.io/ редактора Ace]",
+	"codeeditor-next-annotation": "Перейти до наступної анотації",
+	"codeeditor-toolbar-toggle": "Перемкнути редактор коду",
+	"codeeditor-save-with-errors": "Документ містить помилки. Ви впевнені, що хочете опублікувати?",
+	"codeeditor-invisibleChars-toggle": "Перемкнути невидимі символи",
+	"codeeditor-lineWrapping-toggle": "Перемкнути перенесення рядка",
+	"codeeditor-searchReplace-toggle": "Перемкнути діалог пошуку і заміни",
+	"codeeditor-gotoline": "Перейти до рядка номер…",
+	"codeeditor-gotoline-placeholder": "рядок[:стовпець]",
+	"codeeditor-gotoline-prompt": "Введіть номер рядка",
+	"codeeditor-indent": "Відступ",
+	"codeeditor-outdent": "Зменшити відступ",
+	"codeeditor-error-title": "Залежність невдала",
+	"codeeditor-error-message": "CodeEditor потребує, щоб було завантажено WikiEditor."
+}

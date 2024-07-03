@@ -1,0 +1,43 @@
+{
+	"@metadata": {
+		"authors": [
+			"Esbardu",
+			"Fitoschido",
+			"Xuacu"
+		]
+	},
+	"cite-desc": "Añade les etiquetes <code>&lt;ref&gt;</code> y <code>&lt;references&gt;</code> pa les cites",
+	"cite_error": "Error de cita: $1",
+	"cite_error_ref_invalid_dir": "La etiqueta <code>dir=\"$1\"</code> nun ye válida, tien de ser <code>ltr</code> o <code>rtl</code>",
+	"cite_error_ref_numeric_key": "Etiqueta <code>&lt;ref&gt;</code> non válida; el nome nun pue ser un enteru simple. Usa un títulu descriptivu",
+	"cite_error_ref_no_key": "La etiqueta d'apertura <code>&lt;ref&gt;</code> ta mal formada o tien un mal nome",
+	"cite_error_ref_too_many_keys": "Etiqueta <code>&lt;ref&gt;</code> non válida; nomes non válidos, p.ex. demasiaos",
+	"cite_error_ref_nested_extends": "Nun se permite estender les etiquetes <code>&lt;ref&gt;</code> más d'un nivel de fondura",
+	"cite_error_ref_no_input": "La etiqueta <code>&lt;ref&gt;</code> nun ye válida; les referencies ensin nome han tener conteníu",
+	"cite_error_references_duplicate_key": "La etiqueta <code>&lt;ref&gt;</code> ye inválida; el nome «$1» ta definíu delles vegaes con distintu conteníu",
+	"cite_error_references_invalid_parameters": "Parámetru inválidu na etiqueta <code>&lt;references&gt;</code>",
+	"cite_error_references_no_backlink_label": "Etiquetes personalizaes agotaes. Defini más nel mensaxe [[MediaWiki:Cite references link many format backlink labels]]",
+	"cite_error_no_link_label_group": "Nun queden más etiquetes d'enllaz personalizáu pal grupu \"$1\". Define más nel mensaxe [[MediaWiki:$2]].",
+	"cite_error_references_no_text": "La etiqueta <code>&lt;ref&gt;</code> nun ye válida; nun se conseñó testu pa les referencies nomaes <code>$1</code>",
+	"cite_error_included_ref": "Falta <code>&lt;/ref&gt;</code> pa la etiqueta <code>&lt;ref&gt;</code>",
+	"cite_error_included_references": "Falta la etiqueta final de <code>&lt;references&gt;</code>",
+	"cite_error_group_refs_without_references": "Esisten etiquetes <code>&lt;ref&gt;</code> pa un grupu llamáu \"$1\", pero nun s'alcontró la etiqueta <code>&lt;references group=\"$1\"/&gt;</code> correspondiente",
+	"cite_error_references_group_mismatch": "La etiqueta <code>&lt;ref&gt;</code> en <code>&lt;references&gt;</code> tien un conflictu col atributu de grupu \"$1\".",
+	"cite_error_references_missing_key": "La etiqueta <code>&lt;ref&gt;</code> col nome \"$1\" definida en <code>&lt;references&gt;</code> nun s'utiliza nel testu anterior.",
+	"cite_error_references_no_key": "La etiqueta <code>&lt;ref&gt;</code> definida en <code>&lt;references&gt;</code> nun tien dengún atributu de nome.",
+	"cite_error_empty_references_define": "La etiqueta <code>&lt;ref&gt;</code> definida en <code>&lt;references&gt;</code> col nome \"$1\" nun tien conteníu.",
+	"cite-tracking-category-cite-error": "Páxines con errores de referencies",
+	"cite-tracking-category-cite-error-desc": "Les páxines d'esta categoría tienen errores nel usu de les etiquetes de referencies.",
+	"cite_references_link_accessibility_label": "Saltar arriba",
+	"cite_references_link_many_accessibility_label": "Saltar a:",
+	"cite_references_link_accessibility_back_label": "Volver al principiu",
+	"cite_section_preview_references": "Vista previa de les referencies",
+	"cite_warning": "Alvertencia de cita: $1",
+	"cite_warning_sectionpreview_no_text": "La etiqueta <code>&lt;ref&gt;</code> con nome <code>$1</code> nun puede entevese porque ta definida fora de la sección actual o nun ta definida n'absoluto.",
+	"cite-wikieditor-tool-reference": "Referencia",
+	"cite-wikieditor-help-page-references": "Referencies",
+	"cite-wikieditor-help-content-reference-description": "Referencia",
+	"cite-wikieditor-help-content-named-reference-description": "Referencia con nome",
+	"cite-wikieditor-help-content-rereference-description": "Otros usos de la mesma referencia",
+	"cite-wikieditor-help-content-showreferences-description": "Amosar les referencies"
+}

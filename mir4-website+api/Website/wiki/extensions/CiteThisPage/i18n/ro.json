@@ -1,0 +1,22 @@
+{
+	"@metadata": {
+		"authors": [
+			"Danutz",
+			"Emily",
+			"Firilacroco",
+			"KlaudiuMihaila",
+			"Mihai",
+			"Minisarm",
+			"NGC 54",
+			"Stelistcristi",
+			"Wintereu"
+		]
+	},
+	"citethispage": "Citare",
+	"citethispage-desc": "Adaugă o pagină specială de [[Special:CiteThisPage|citare]] și o legătură în trusa de unelte",
+	"citethispage-link": "Citează această pagină",
+	"tooltip-citethispage": "Informații cu privire la modul de citare a acestei pagini",
+	"citethispage-change-submit": "Citează",
+	"citethispage-change-target": "Pagină:",
+	"citethispage-content": "__NOTOC__ \n<div class=\"mw-specialCiteThisPage-bibliographic\">\n\n== Detalii bibliografice pentru {{FULLPAGENAME}} == \n\n* Numele paginii: {{FULLPAGENAME}} \n* Autor: contribuitorii de la {{SITENAME}} \n* Editor: ''{{SITENAME}}''. \n* Data ultimei revizuiri: {{CURRENTDAY}} {{CURRENTMONTHNAME}} {{CURRENTYEAR}} {{CURRENTTIME}} UTC\n* Data preluării: <citation>{{CURRENTDAY}} {{CURRENTMONTHNAME}} {{CURRENTYEAR}} {{CURRENTTIME}} UTC</citation> \n* Legătură permanentă: {{canonicalurl:{{FULLPAGENAME}}|oldid={{REVISIONID}}}}\n* ID-ul versiunii paginii: {{REVISIONID}}\n\n</div>\n<div class=\"plainlinks mw-specialCiteThisPage-styles\">\n\n== Stiluri de citare pentru {{FULLPAGENAME}} == \n\n=== Stilul APA === \n{{FULLPAGENAME}}. ({{CURRENTYEAR}}, {{CURRENTMONTHNAME}} {{CURRENTDAY}}). ''{{SITENAME}}''. Preluat la <citation>{{CURRENTTIME}} EET, {{CURRENTMONTHNAME}} {{CURRENTDAY}} {{CURRENTYEAR}}</citation> de la {{canonicalurl:{{FULLPAGENAME}}|oldid={{REVISIONID}}}}.\n\n=== Stilul MLA === \n„{{FULLPAGENAME}}.” ''{{SITENAME}}''. {{CURRENTDAY}} {{CURRENTMONTHABBREV}} {{CURRENTYEAR}}, {{CURRENTTIME}} UTC. <citation>{{CURRENTDAY}} {{CURRENTMONTHABBREV}} {{CURRENTYEAR}}, {{CURRENTTIME}}</citation> &lt;{{canonicalurl:{{FULLPAGENAME}}|oldid={{REVISIONID}}}}&gt;. \n\n=== Stilul MHRA === \nContribuitorii {{SITENAME}}, „{{FULLPAGENAME}}”, ''{{SITENAME}},'' {{CURRENTDAY}} {{CURRENTMONTHNAME}} {{CURRENTYEAR}}, {{CURRENTTIME}} UTC, &lt;{{canonicalurl:{{FULLPAGENAME}}|oldid={{REVISIONID}}}}&gt; [accesat la <citation>{{CURRENTDAY}} {{CURRENTMONTHNAME}} {{CURRENTYEAR}}</citation>]\n\n=== Stilul Chicago === \nContribuitorii {{SITENAME}}, „{{FULLPAGENAME}},” ''{{SITENAME}},'' {{canonicalurl:{{FULLPAGENAME}}|oldid={{REVISIONID}}}} (accesat la <citation>{{CURRENTMONTHNAME}} {{CURRENTDAY}}, {{CURRENTYEAR}}</citation>). \n\n=== Stilul CBE/CSE === \nContribuitorii {{SITENAME}}. {{FULLPAGENAME}} [Internet]. {{SITENAME}}; {{CURRENTYEAR}} {{CURRENTMONTHABBREV}} {{CURRENTDAY}}, {{CURRENTTIME}} UTC [citat în <citation>{{CURRENTYEAR}} {{CURRENTMONTHABBREV}} {{CURRENTDAY}}</citation>]. Disponibil la: {{canonicalurl:{{FULLPAGENAME}}|oldid={{REVISIONID}}}}. \n\n=== Stilul Bluebook === \n{{FULLPAGENAME}}, {{canonicalurl:{{FULLPAGENAME}}|oldid={{REVISIONID}}}} (ultima vizită la <citation>{{CURRENTMONTHNAME}} {{CURRENTDAY}}, {{CURRENTYEAR}}</citation>). \n\n=== Intrare [[BibTeX]] === \n  @misc{ wiki:xxx,\n    author = \"{{SITENAME}}\",\n    title = \"{{FULLPAGENAME}} --- {{SITENAME}}{,} {{int:sitesubtitle}}\",\n    year = \"{{CURRENTYEAR}}\",\n    url = \"{{canonicalurl:{{FULLPAGENAME}}|oldid={{REVISIONID}}}}\",\n    note = \"[Online; accesat la <citation>{{CURRENTDAY}}-{{CURRENTMONTHNAME}}-{{CURRENTYEAR}}</citation>]\"\n  }\n\nCând se folosește în pachetul [[LaTeX]] expresia url (<code>\\usepackage{url}</code> undeva în preambul) care trebuie să afișeze adrese mai frumos aranjate, următoarea variantă poate fi preferată: \n\n  @misc{ wiki:xxx,\n    author = \"{{SITENAME}}\",\n    title = \"{{FULLPAGENAME}} --- {{SITENAME}}{,} {{int:sitesubtitle}}\",\n    year = \"{{CURRENTYEAR}}\",\n    url = \"'''\\url{'''{{canonicalurl:{{FULLPAGENAME}}|oldid={{REVISIONID}}}}'''}'''\",\n    note = \"[Online; accesat la <citation>{{CURRENTDAY}}-{{CURRENTMONTHNAME}}-{{CURRENTYEAR}}</citation>]\"\n  }\n\n\n</div> <!--closing \"Citation styles\" div-->"
+}

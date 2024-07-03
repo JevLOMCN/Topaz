@@ -1,0 +1,89 @@
+@import 'mediawiki.skin.variables.less';
+
+// Should be in sync with Popups/src/ui/variables.less
+@popupPadding: 16px;
+@lineHeight: 20px;
+
+/* stylelint-disable selector-class-pattern */
+.popups-icon--reference-generic {
+	.cdx-mixin-css-icon( @cdx-icon-reference );
+}
+
+.popups-icon--reference-book {
+	.cdx-mixin-css-icon( @cdx-icon-book );
+}
+
+.popups-icon--reference-journal {
+	.cdx-mixin-css-icon( @cdx-icon-journal );
+}
+
+.popups-icon--reference-news {
+	.cdx-mixin-css-icon( @cdx-icon-newspaper );
+}
+
+.popups-icon--reference-web {
+	.cdx-mixin-css-icon( @cdx-icon-browser );
+}
+
+.popups-icon--preview-disambiguation {
+	.cdx-mixin-css-icon( @cdx-icon-articles );
+}
+
+// Don't do any event bubbling on childs like <a><span>[</span>2]</a>
+// see https://phabricator.wikimedia.org/T214693
+/* stylelint-disable-next-line selector-max-id */
+#mw-content-text .reference a[ href*='#' ] * {
+	pointer-events: none;
+}
+
+.mwe-popups.mwe-popups-type-reference .mwe-popups-container {
+	.mwe-popups-title .popups-icon--reference-note {
+		// There is currently no "reference-note" icon specified in extension.json
+		display: none;
+	}
+
+	.mwe-popups-extract {
+		margin-right: 0;
+		max-height: inherit;
+
+		.mwe-popups-scroll {
+			// This is how the @previewFooterHeight in popup.less is calculated
+			@marginBottom: @popupPadding + 34px;
+			// Same as @previewPointerHeight in popup.less
+			@pointerHeight: 8px;
+			max-height: 401px - @popupPadding - @marginBottom + @pointerHeight;
+			overflow: auto;
+			padding-right: @popupPadding;
+		}
+
+		.mw-parser-output {
+			overflow-wrap: break-word;
+		}
+
+		// Remove the default fade-out effect set by popup.less
+		&::after {
+			display: none;
+		}
+
+		.mwe-popups-fade {
+			position: absolute;
+			width: 100%;
+			height: @lineHeight;
+			background-color: transparent;
+			background-image: linear-gradient( rgba( 255, 255, 255, 0 ), rgba( 255, 255, 255, 1 ) );
+			opacity: 0;
+			pointer-events: none; // Allows clicking "through" the element
+			transition: opacity 250ms ease;
+		}
+
+		&.mwe-popups-fade-out .mwe-popups-fade {
+			opacity: 1;
+		}
+	}
+
+	.mwe-collapsible-placeholder {
+		font-weight: bold;
+		margin: 1em 0;
+		position: relative;
+	}
+}

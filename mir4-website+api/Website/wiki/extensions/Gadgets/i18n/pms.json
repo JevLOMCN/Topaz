@@ -1,0 +1,24 @@
+{
+	"@metadata": {
+		"authors": [
+			"Borichèt",
+			"Bèrto 'd Sèra",
+			"Dragonòt"
+		]
+	},
+	"gadgets-desc": "A lassa che j'utent a selession-o dij [[Special:Gadgets|component CSS e JavaScript]]  ant ij [[Special:Preferences#mw-prefsection-gadgets|sò gust]]",
+	"prefs-gadgets": "Component",
+	"gadgets-prefstext": "Ambelessì sota a-i é na lista ëd component ch'a peul vischesse ant sò cont personal.\nSti component-sì a son dzortut basà ansima a JavaScript, donca a venta anans tut che JavaScript a sia avisch ant sò navigator, s'a veul che ij component a travajo.\nCh'a ten-a present che sti component a l'han gnun efet ansima a la pàgina dij \"sò gust\".\n\nCh'a nòta ëdcò che a son nen part dël programa MediaWiki e che për sòlit a resto dësvlupà e mantnù da dj'utent dla wiki andova chiel/chila as treuva adess.\nJ'aministrator locaj a peulo regolé ij component disponibij ën dovrand le pàgine [[MediaWiki:Gadgets-definition|definission dij component]] e [[Special:Gadgets|component]].",
+	"special-gadgets": "Component",
+	"gadgets-title": "Component",
+	"gadgets-pagetext": "Ambelessì-sota a-i é na lista ëd component speciaj che j'utent a peulo butesse avisch ant ij [[Special:Preferences#mw-prefsection-gadgets|sò gust]], conforma a la [[MediaWiki:Gadgets-definition|definission dij component]].\nSta lista complessiva a smon na stra còmoda për rivé a le pàgine ëd messagi ëd sistema ch'a definisso descrission e còdes ëd minca component.",
+	"gadgets-uses": "a dòvra",
+	"gadgets-required-rights": "A ciama {{PLURAL:$1|ël drit|ij drit}} sì-dapress:\n\n$2",
+	"gadgets-required-skins": "Disponìbil an {{PLURAL:$2|$1 sla pel|sle pej sì-dapress: $1}}.",
+	"gadgets-default": "Abilità për tuti coma stàndard",
+	"gadgets-export": "Esporté",
+	"gadgets-export-title": "Esportassion d'acessòri",
+	"gadgets-not-found": "Acessòri \"$1\" pa trovà.",
+	"gadgets-export-text": "Për esporté l'acessòri $1, sgnaché an sël boton \"{{int:gadgets-export-download}}\", salvé l'archivi dëscarià, andé a Special:Import an sla wiki ëd destinassion e carielo. Peui gionté lòn ch'a-i é sì-sota a la pàgina MediaWiki:Gadgets-definition:\n<pre>$2</pre>\nA-i é da manca d'avèj ij përmess aproprià an sla wiki ëd destinassion (comprèis ij drit për modifiché ij mëssagi ëd sistema) e l'amportassion da archivi carià a dev esse abilità.",
+	"gadgets-export-download": "Dëscaria"
+}

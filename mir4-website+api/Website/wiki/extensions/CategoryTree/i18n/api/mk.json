@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Bjankuloski06"
+		]
+	},
+	"apihelp-categorytree-summary": "Внатрешен модул на додатокот „Дрво на категории“.",
+	"apihelp-categorytree-param-category": "Наслов во категорискиот именски простор. Ако се внесе претставка, истата ќе биде занемарена.",
+	"apihelp-categorytree-param-options": "Можности за конструкторот на „Дрво на категории“ како JSON-објект. Продорноста (<var>depth</var>) по основно е <kbd>1</kbd>.",
+	"apierror-categorytree-invalidjson": "Можностите мора да бидат важечки JSON-објект.",
+	"apierror-categorytree-invalidjson-option": "Можноста „$1“ содржи неважечка вредност."
+}

@@ -1,0 +1,37 @@
+{
+	"@metadata": {
+		"authors": [
+			"Castelobranco",
+			"KuboF",
+			"NMaia",
+			"Petrus Adamus",
+			"Robin van der Vliet",
+			"Yekrats"
+		]
+	},
+	"captcha-edit": "Por redakti ĉi tiun paĝon, bonvolu solvi la jenan tasketon kaj enigi la respondon en la skatolo ([[Special:Captcha/help|plua informo]]):",
+	"captcha-edit-fail": "Neĝusta aŭ mankata CAPTCHA.",
+	"captcha-desc": "Disponigas ilojn de Captcha por kontraŭigi spamaĵojn kaj pasvorto-divenadon",
+	"captcha-help": "Solvo de la CAPTCHA.",
+	"captcha-info-help": "Priskribo de la CAPTCHA.",
+	"captcha-id-label": "CAPTCHA-identigilo",
+	"captcha-id-help": "Ĉi tiu valoro estu sendita reen senŝanĝe.",
+	"captcha-addurl": "Via redakto entenas novajn eksterajn ligilojn.\nPor protekti la vikion kontraux aŭtomata spamado, bonvolu solvi la jenan taskon sube kaj entajpu la respondon en la kesto por konservi vian redakton ([[Special:Captcha/help|pli da informo]]):",
+	"captcha-badlogin": "Por protekti kontraŭ aŭtomata divenado de pasvortoj, bonvolu solvi la jenan taskon kaj enigi la respondon en la skatolo ([[Special:Captcha/help|plua informo]]):",
+	"captcha-createaccount": "Por protekti kontraŭ aŭtomata konto-kreado, bonvolu solvi la jenan taskon suben kaj enigi la respondon en la skatolo ([[Special:Captcha/help|plua informo]]):",
+	"captcha-createaccount-fail": "Malĝusta aŭ mankanta CAPTCHA.",
+	"captcha-create": "Por krei la paĝon, bonvolu solvi la jenan taskon sube kaj enigi la respondon en la keston ([[Special:Captcha/help|pliaj informoj]]):",
+	"captcha-sendemail": "Por helpi protekti kontraŭ aŭtomata spamado, bonvolu solvi la jenan taskon kaj enigi la respondon en la keston ([[Special:Captcha/help|pliaj informoj]]):",
+	"captcha-sendemail-fail": "Malĝusta aŭ mankanta CAPTCHA.",
+	"captcha-disabledinapi": "Ĉi tiu ago bezonas captcha, tial ĝi ne estas farebla per API.",
+	"captchahelp-title": "Helpo pri CAPTCHA",
+	"captchahelp-cookies-needed": "Vi devas permesi kuketojn en via retumilo por funkciigi ĉi tion.",
+	"captchahelp-text": "Retejoj kiuj akcepti informon de publiko, kiel ĉi tiu vikio, estas ofte misuzitaj de spamistoj kiu uzas aŭtomatajn ilojn por afiŝi ligilojn al multaj retejoj.\nKvankam ĉi tiu spam-ligiloj estas forigeblaj, ili estas granda ĝeno.\n\nIufoje, ja kiam aldonante novajn retligilojn al paĝo, la vikio eble montros al vi bildon de bunta aŭ misformita teksto, kaj petos al vi tajpi la vortojn montratajn.\nTial ĉi tiu tasko estas malfacila por fari aŭtomate, ebligos al realaj homoj fari aldonaĵojn, kaj malebligos spamistojn kaj aliajn robotajn atakilojn.\n\nBedaŭrinde, ĉi tio eble ĝenetos uzantojn kun malbona vidkapablo kiu utiligas tekstajn aŭ voĉajn retumilojn.\nĈi-momente, neniu aŭda alternativo estas havebla.\nBonvolu kontakti la [[Special:ListAdmins|administrantojn de la retejo]] por helpo se ĉi tio malebligas al vi fari bonan aldonon.\n\nKlaku la 'reiru' butonon en via retumilo por reiri al la paĝo-redaktilo.",
+	"captcha-addurl-whitelist": " #<!-- ne ŝanĝu ĉi tiun linion iel ajn --> <pre>\n# Sintakso estas jen:\n#  * Ĉio ekde \"#\" signo al la fino de linio estas komento\n#  * Ĉiu linio ne malplena estas ero de regex kiu kongruos retnodojn nur ene de ttt-adresoj\n  #</pre> <!-- ne ŝanĝu ĉi tiun linion iel ajn -->",
+	"right-skipcaptcha": "Plenumi CAPTCHA-ekigajn agojn sen solvi la CAPTCHA-n",
+	"confirmedit-preview-line": "Linia nombro",
+	"confirmedit-preview-content": "Enhavo",
+	"confirmedit-preview-validity": "Valideco",
+	"confirmedit-preview-valid": "valida",
+	"confirmedit-preview-invalid": "nevalida"
+}

@@ -1,0 +1,73 @@
+@import 'mediawiki.skin.variables.less';
+@import 'mediawiki.mixins.less';
+@import '../echo.variables.less';
+
+.mw-echo-ui-notificationBadgeButtonPopupWidget {
+	position: relative;
+
+	&-popup {
+		> .oo-ui-popupWidget-popup {
+			> .oo-ui-popupWidget-head {
+				box-sizing: border-box;
+				height: 3.1428571em; // = 44px as result of 44 / 16 (font-size browser) / 0.875 (OOUI WikimediaUI theme font-size)
+				border-bottom: @border-width-base @border-style-base @border-color-subtle;
+				margin: 0;
+
+				> .oo-ui-iconWidget {
+					float: left;
+					height: 100%;
+					margin: 0 0 0 1.1428571em; // = 16px as result of 16 / 16 / 0.875
+					opacity: @opacity-mid;
+				}
+
+				> .oo-ui-labelElement-label {
+					margin: 0 0 0 0.4761905em; // = 8px as result of ≈0.5714286 / 1.2 (element's font-size)
+					font-size: 1.2em;
+					font-weight: bold;
+					line-height: 2.5595238em; // = 43px as result of 43 (44 - 1 because of the border-box) / 16 / 0.875 / 1.2 (element's font-size)
+				}
+
+				.mw-echo-ui-notificationsWidget-markAllReadButton {
+					margin-top: 0.4285714em; // = 6px as result of 6 / 16 / 0.875
+					margin-right: 0.5714286em; // = 8px as result of 8 / 16 / 0.875
+				}
+			}
+
+			> .oo-ui-popupWidget-footer {
+				width: 100%;
+				margin: 0; // Override OOUI's popup footer margins (T171302)
+				border-top: @border-width-base @border-style-base @border-color-subtle;
+
+				> .oo-ui-buttonGroupWidget {
+					display: block;
+				}
+
+				.mw-echo-ui-notificationBadgeButtonPopupWidget-footer-buttons {
+					display: flex;
+					padding-bottom: 0;
+
+					.oo-ui-buttonElement {
+						flex: 1;
+
+						&:last-child {
+							border-left: @border-width-base @border-style-base @border-color-subtle;
+						}
+
+						> .oo-ui-buttonElement-button {
+							display: block;
+							line-height: 3.1428571em;
+							margin: 0;
+							border: 0;
+							padding: 0 0.5em;
+
+							// Compensate for hidden borders
+							&:focus {
+								box-shadow: @box-shadow-inset-medium @box-shadow-color-progressive--focus;
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}

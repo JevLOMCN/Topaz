@@ -1,0 +1,123 @@
+@import 'variables.less';
+@import 'mediawiki.mixins.less';
+
+// remove duplicates we're not using here
+#p-search-mobilejs,
+#p-tb-mobilejs,
+#p-lang-mobilejs,
+#t-contributions {
+	display: none;
+}
+
+#sidebar #p-tb,
+#sidebar #p-lang,
+#sidebar #p-search {
+	display: block;
+}
+
+// popouts
+#p-cactions,
+#p-personal,
+#p-tb,
+#p-lang,
+#sidebar-mobilejs {
+	// keep present for screen readers
+	&:not( .mobile-menu-active ) {
+		.mixin-screen-reader-text();
+	}
+}
+
+.mobile-menu-active {
+	position: absolute;
+	top: 2em;
+	left: 0;
+	z-index: 10000;
+	background: @content-background;
+	border: solid 1px @orange-border;
+	border-left: 0;
+	padding: 2em 2em 0 1.5em;
+	font-size: 125%;
+
+	// hide originals but don't remove, as their duplicates don't have access keys on them
+	*[ id^='ca-nstab-' ],
+	#ca-talk,
+	#ca-edit {
+		.mixin-screen-reader-text();
+	}
+
+	ul {
+		padding-top: 1em;
+	}
+
+	li {
+		white-space: nowrap;
+	}
+
+	a {
+		display: block;
+		padding: 0.65em 0;
+	}
+
+	a.feedlink {
+		padding-left: 16px; // T291274
+	}
+
+	h3:first-child {
+		margin-right: 2em;
+	}
+
+	.mw-portlet > div,
+	.pBody {
+		margin-bottom: 2em;
+	}
+
+	.mobile-close-button {
+		width: 20px;
+		height: 20px;
+		background-image: url( images/icon-close.svg );
+		background-position: 0 0;
+		background-repeat: no-repeat;
+		position: absolute;
+		top: 1em;
+		right: 0.75em;
+		cursor: pointer;
+	}
+}
+
+.menus-cover {
+	display: none;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 9999;
+
+	&.visible {
+		display: block;
+	}
+}
+
+#menus-cover {
+	position: fixed;
+	opacity: 0.45;
+	background-color: @content-background;
+}
+
+#menus-cover-background {
+	position: absolute;
+	background-color: @background;
+	background-image: url( images/headbg.svg );
+	background-position: 0 0;
+	background-repeat: no-repeat;
+	opacity: 0.55;
+}
+
+#p-cactions-mobile li {
+	&#ca-edit-mobile a {
+		background-image: url( images/icon-edit.svg );
+	}
+
+	&#t-contributions-mobile a {
+		background-image: url( images/icon-user.svg );
+	}
+}

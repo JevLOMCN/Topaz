@@ -1,0 +1,42 @@
+{
+	"@metadata": {
+		"authors": [
+			"Winston Sung"
+		]
+	},
+	"linterrors": "Pročišćivač grešaka",
+	"linter-category-bogus-image-options": "Prividne datotečne opcije",
+	"linter-category-bogus-image-options-desc": "Ove stranice imaju datoteke s prividnim opcijama.",
+	"linter-category-deletable-table-tag": "Tabelnata oznaka koja treba da se obriše",
+	"linter-category-deletable-table-tag-desc": "Ove stranice imaju tabelne oznake koje treba da se obriše.",
+	"linter-category-fostered": "Pogrešno namenski sadržaj",
+	"linter-category-fostered-desc": "Ove stranice imaju pogrešno namenski sadržaj.",
+	"linter-category-misnested-tag": "Pogrešno ugniježđene oznake",
+	"linter-category-misnested-tag-desc": "Ove stranice imaju pogrešno ugnežđene oznake što je moguće popraviti.",
+	"linter-category-missing-end-tag": "Nedostaje zatvarajuća oznaka",
+	"linter-category-missing-end-tag-desc": "Ove stranice imaju nedostajuće zatvarajuće oznake.",
+	"linter-category-multi-colon-escape-desc": "Ove stranice imaju veze pred kojima je pridodano više dvotački.",
+	"linter-category-obsolete-tag": "Zastarjele HTML oznake",
+	"linter-category-obsolete-tag-desc": "Ove stranice koriste zastarjele HTML oznake",
+	"linter-category-self-closed-tag": "Samozatvarajuće oznake",
+	"linter-category-self-closed-tag-desc": "Ove stranice imaju samozatvarajuće oznake.",
+	"linter-category-stripped-tag": "Ogoljene oznake",
+	"linter-category-stripped-tag-desc": "Ove stranice imaju ogoljene oznake.",
+	"linter-form-namespace": "Imenski prostor:",
+	"linter-heading-high-priority": "Iznimna važnost",
+	"linter-heading-low-priority": "Mala važnost",
+	"linter-heading-medium-priority": "Srednja važnost",
+	"linter-numerrors": "($1 {{PLURAL:$1|pogrješka|pogrješke|pogrješaka}})",
+	"linter-page-edit": "uredi",
+	"linter-page-history": "historija",
+	"linter-page-viewsource": "pogl. izvor",
+	"linter-pager-bogus-image-options-details": "Prividna datotečna opcija",
+	"linter-pager-missing-end-tag-details": "Nedostaje zatvarajuća oznaka",
+	"linter-pager-obsolete-tag-details": "Zastarjela HTML oznaka",
+	"linter-pager-self-closed-tag-details": "Samozatvarajuća oznaka",
+	"linter-pager-template-header": "Preko šablona?",
+	"linter-pager-title-header": "Naslov stranice",
+	"linterrors-subpage": "Pročišćivač grešaka: $1",
+	"multi-part-template-block": "Proizlazi iz više od jednog šablona",
+	"pageinfo-linter": "Pročišćivač grešaka"
+}

@@ -1,0 +1,22 @@
+{
+	"@metadata": {
+		"authors": [
+			"D41D8CD98F",
+			"Liangent",
+			"Liuxinyu970226",
+			"PhiLiP",
+			"Wmr89502270",
+			"Xiaomingyan"
+		]
+	},
+	"inputbox-desc": "允许包含预先设置的HTML表单",
+	"inputbox-error-no-type": "您没有指定所创建输入框的类型。",
+	"inputbox-error-bad-type": "输入框类型“$1”无法识别。\n请指定“create”、“comment”、“search”、“search2”或“fulltext”。",
+	"inputbox-tryexact": "尝试精确匹配",
+	"inputbox-searchfulltext": "搜索全文",
+	"inputbox-createarticle": "创建页面",
+	"inputbox-movearticle": "移动页面",
+	"inputbox-postcomment": "新段落",
+	"inputbox-postcommenttitle": "新段落",
+	"inputbox-ns-main": "主"
+}

@@ -1,0 +1,33 @@
+{
+	"@metadata": {
+		"authors": [
+			"Matrafox",
+			"NGC 54",
+			"Narlotep1",
+			"Strainu",
+			"WebSourceContentRO"
+		]
+	},
+	"linter-category-self-closed-tag": "Tag-uri auto-inchise.",
+	"linter-category-self-closed-tag-desc": "Aceste pagini contin tag-uri auto-inchise.",
+	"linter-heading-high-priority": "Prioritate ridicată",
+	"linter-heading-low-priority": "Prioritate scăzută",
+	"linter-heading-medium-priority": "Prioritate medie",
+	"linter-pager-bogus-image-options-details": "Parametru de fișier invalid",
+	"linter-pager-deletable-table-tag-details": "Tabelul de etichete care ar trebui șters",
+	"linter-pager-html5-misnesting-details": "Cuibărire greșită (acum stricată)",
+	"linter-pager-misc-tidy-replacement-issues-details": "Diverse erori de markup",
+	"linter-pager-misnested-tag-details": "Etichetă cuibărită greșit care ar trebui cuibărită cum trebuie",
+	"linter-pager-missing-end-tag-details": "Tag de încheiere lipsă",
+	"linter-pager-multi-colon-escape-details": "Scăpare de două puncte",
+	"linter-pager-multiline-html-table-in-list-details": "Tabel HTML5 multilinie într-o listă",
+	"linter-pager-multiple-unclosed-formatting-tags-details": "Multiple etichete de formatare neînchise pe pagină",
+	"linter-pager-obsolete-tag-details": "Tag HTML învechit",
+	"linter-pager-pwrap-bug-workaround-details": "Rezolvați o eroare de împachetare a paragrafelor",
+	"linter-pager-self-closed-tag-details": "Tag auto-inchis",
+	"linter-pager-stripped-tag-details": "Etichetă divizată",
+	"linter-pager-tidy-font-bug-details": "Tagul font încearcă să schimbe culoarea legăturii",
+	"linter-pager-tidy-whitespace-bug-details": "Bug de parsare a spațiilor goale",
+	"linter-pager-unclosed-quotes-in-heading-details": "Apostrof neînchis care iese din cuprins",
+	"multi-part-template-block": "Rezultat din mai multe formate"
+}

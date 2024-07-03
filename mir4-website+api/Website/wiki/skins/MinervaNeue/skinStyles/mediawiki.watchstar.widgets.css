@@ -1,0 +1,7 @@
+.mw-watchstar-WatchlistExpiryWidget .oo-ui-dropdownInputWidget {
+	text-align: left;
+}
+
+.mw-watchstar-WatchlistExpiryWidget .oo-ui-dropdownInputWidget:last-child {
+	margin: auto;
+}

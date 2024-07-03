@@ -1,0 +1,339 @@
+/**
+ * PEG.js grammar for reading MediaWiki parser tests files
+ * 2011-07-20 Brion Vibber <brion@pobox.com>
+ */
+{
+/* File-scope initializer */
+namespace Wikimedia\Parsoid\ParserTests;
+
+use Wikimedia\Parsoid\Utils\PHPUtils;
+}
+{
+	/** @var string */
+	private $filename = '';
+	/** @var int */
+	private $lineNum = 1;
+
+	/**
+	 * @param string $filename
+	 * @return array
+	 */
+	public static function load( string $filename ) {
+		$g = new Grammar();
+		$g->filename = $filename;
+		$contents = file_get_contents( $filename ) ?: '';
+		if ( substr( $contents, -1 ) !== "\n" ) {
+			# ensure that the file is terminated with a newline
+			# to match `end_section` rule (and other uses of `eol`)
+			$contents .= "\n";
+		}
+		return $g->parse( $contents );
+	}
+
+	private function addLines( int $lineStart, array $item ) {
+		$item['filename'] = $this->filename;
+		$item['lineNumStart'] = $lineStart;
+		$item['lineNumEnd'] = $this->lineNum;
+		return $item;
+	}
+}
+
+testfile =
+	comment_or_blank_line*
+	format?
+	comment_or_blank_line*
+	testfile_options?
+	lined_chunk+
+
+testfile_options =
+	l:("" { return $this->lineNum; })
+	sec:option_section end_section {
+	return $this->addLines( $l, $sec );
+}
+
+/* Line number bookkeeping.
+ * Be careful about backtracking after you successfully match this production.
+ */
+eol = nl:"\n" { $this->lineNum++; return $nl; }
+
+lined_chunk = l:("" { return $this->lineNum; }) c:chunk {
+	return $this->addLines($l, $c);
+}
+
+whitespace = [ \t]+
+
+ws = whitespace
+
+rest_of_line = c:([^\n]*) eol
+{
+	return implode($c);
+}
+
+line = (!"!!") line:rest_of_line
+{
+	return $line;
+}
+
+text = lines:line*
+{
+	return implode("\n", $lines);
+}
+
+chunk =
+	comment_or_blank_line
+	/ article
+	/ test
+	/ hooks
+	/ functionhooks
+
+	/* Final fallback production is a catch-all, since some ancient
+	 * parserTest files have garbage text between tests and in the old
+	 * hand-coded parser test parser this was just ignored as a comment.
+	 * We'll go ahead and parse it, then emit a warning in TestFileReader.
+	 */
+	/ l: line { return [ 'type' => 'line', 'text' => $l ]; }
+
+format =
+	l:("" { return $this->lineNum; })
+	"!!" ws? version_keyword ws+ v:$([0-9]+) rest_of_line {
+		return $this->addLines( $l, [ 'type' => 'version', 'text' => $v ] );
+	}
+
+version_keyword = 'version'i
+
+comment =
+	"#" text:rest_of_line { return [ 'type' => 'comment', 'text' => $text ]; }
+
+comment_or_blank_line =
+	comment
+	/ ws? nl:eol { return [ 'type' => 'line', 'text' => $nl ]; }
+
+article =
+	start_article title:line start_text text:text ( end_article / end_section )
+{
+	return [
+		'type' => 'article',
+		'title' => $title,
+		'text' => $text
+	];
+}
+
+start_article =
+	"!!" ws? "article" ws? eol
+
+start_text =
+	"!!" ws? "text" ws? eol
+
+end_article =
+	"!!" ws? "endarticle" ws? eol
+
+// function hooks
+
+functionhooks = start_functionhooks text:text ( end_functionhooks / end_section )
+{
+	return [ 'type' => 'functionhooks', 'text' => $text ];
+}
+
+start_functionhooks =
+	"!!" ws? "functionhooks" ":"? ws? eol
+
+end_functionhooks =
+	"!!" ws? "endfunctionhooks" ":"? ws? eol
+
+test =
+	start_test
+	testName:text
+	sections:(section / config_section / option_section)*
+	end_section
+{
+	$test = [
+		'type' => 'test',
+		'testName' => $testName
+	];
+
+	foreach ( $sections as $section ) {
+		$test[$section['name']] = $section['text'];
+	}
+	// pegjs parser handles item options as follows:
+	//   item option             value of item.options.parsoid
+	//    <none>                          undefined
+	//    parsoid                             ""
+	//    parsoid=wt2html                  "wt2html"
+	//    parsoid=wt2html,wt2wt        ["wt2html","wt2wt"]
+	//    parsoid={"modes":["wt2wt"]}    {modes:['wt2wt']}
+
+	// treat 'parsoid=xxx,yyy' in options section as shorthand for
+	// 'parsoid={modes:["xxx","yyy"]}'
+	if ( isset($test['options']['parsoid'] ) ) {
+		if ($test['options']['parsoid'] === '') {
+			$test['options']['parsoid'] = [];
+		}
+		if ( is_string( $test['options']['parsoid'] ) ) {
+			$test['options']['parsoid'] = [ $test['options']['parsoid'] ];
+		}
+		if ( is_array( $test['options']['parsoid'] ) &&
+			isset( $test['options']['parsoid'][0] ) &&
+			!isset( $test['options']['parsoid']['modes'] )
+		) {
+			$test['options']['parsoid'] = [ 'modes' => $test['options']['parsoid'] ];
+		}
+	}
+	return $test;
+}
+
+section =
+	"!!" ws? (!"test") (!"end") (!"options") (!"config") name:(c:[^ \t\r\n]+ { return implode( $c ); }) rest_of_line
+	text:text
+{
+	return [ 'name' => $name, 'text' => $text ];
+}
+
+config_section =
+	"!!" ws? "config" ws? eol
+        items:config_list?
+{
+	$c = [];
+	if ( $items && count($items) > 0 ) {
+		foreach ( $items as $item ) {
+			$c[$item['k']] = $item['v'];
+		}
+	}
+
+	return [ 'type' => 'section', 'name' => 'config', 'text' => $c ];
+}
+
+option_section =
+	"!!" ws? "options" ws? eol
+	opts:option_list?
+{
+	$o = [];
+	if ( $opts && count($opts) > 0 ) {
+		foreach ( $opts as $opt ) {
+			$o[$opt['k']] = $opt['v'];
+		}
+	}
+
+	return [ 'type' => 'section', 'name' => 'options', 'text' => $o ];
+}
+
+config_list = c:a_config_line eol+ rest:config_list?
+{
+	$result = [ $c ];
+	if ( $rest && count( $rest ) > 0 ) {
+		$result = array_merge( $result, $rest );
+	}
+	return $result;
+}
+
+option_list = o:an_option ([ \t] / eol)+ rest:option_list?
+{
+	$result = [ $o ];
+	if ( $rest && count( $rest ) > 0 ) {
+		$result = array_merge( $result, $rest );
+	}
+	return $result;
+}
+
+a_config_line = k:option_name v:config_value
+{
+	return [ 'k' => $k, 'v' => $v ];
+}
+
+config_value = ws? "=" ws? v:valid_json_value { return $v; }
+
+valid_json_value = v:$(quoted_value / plain_value / array_value / json_value) &{
+  // validate this as acceptable JSON
+  // (this ensures that wikipeg throws a syntax error if
+  // the JSON is invalid; note that PHP 7.3 would allow us
+  // to use JSON_THROW_ON_ERROR instead of json_last_error()...)
+  $ignore = json_decode($v, true, 100);
+  return (json_last_error() === JSON_ERROR_NONE);
+} {
+  // The value is valid JSON; return the decoded value.
+  return json_decode($v, true);
+}
+
+// from PHP parser in tests/parser/parserTest.inc:parseOptions()
+//   foo
+//   foo=bar
+//   foo="bar baz"
+//   foo=[[bar baz]]
+//   foo={...json...}
+//   foo=bar,"baz quux",[[bat]]
+an_option = k:option_name v:option_value?
+{
+	return [ 'k' => strtolower( $k ), 'v' => $v ?? '' ];
+}
+
+option_name = c:[^ \t\n=!]+
+{
+	return implode($c);
+}
+
+option_value = ws? "=" ws? ovl:option_value_list
+{
+	return count( $ovl ) === 1 ? $ovl[0] : $ovl;
+}
+
+option_value_list = v:an_option_value
+					rest:( ws? "," ws? ovl:option_value_list { return $ovl; })?
+{
+	$result = [ $v ];
+	if ( $rest && count( $rest ) > 0 ) {
+		$result = array_merge( $result, $rest );
+	}
+	return $result;
+}
+
+an_option_value = v:(link_target_value / quoted_value / plain_value / json_value)
+{
+	if ( $v[0] === '"' || $v[0] === '{' ) { // } is needed to make pegjs happy
+		return PHPUtils::jsonDecode( $v );
+	}
+	return $v;
+}
+
+link_target_value = "[[" v:[^\]\n]* "]]"
+{
+	// Perhaps we should canonicalize the title?
+	// Protect with JSON.stringify just in case the link target starts with
+	// double-quote or open-brace.
+	return PHPUtils::jsonEncode( implode( $v ) );
+}
+
+quoted_value = [\"] v:( [^\\\"\n] / ("\\" c:[^\n] { return "\\" . $c; } ) )* [\"]
+{
+	return '"' . implode( $v ) . '"';
+}
+
+plain_value = v:[^ \t\n\"\'\[\]=,!\{]+
+{
+	return implode( $v );
+}
+
+array_value = "[" v:( [^\"\[\]\n] / quoted_value / array_value / eol )* "]"
+{
+	return "[" . implode( $v ) . "]";
+}
+
+json_value = "{" v:( [^\"\{\}\n] / quoted_value / json_value / eol )* "}"
+{
+	return "{" . implode( $v ) . "}";
+}
+
+start_test =
+	"!!" ws? "test" ws? eol
+
+end_section =
+	"!!" ws? "end" ws? eol
+
+hooks = start_hooks text:text ( end_hooks / end_section )
+{
+	return [ 'type' => 'hooks', 'text' => $text ];
+}
+
+start_hooks =
+	"!!" ws? "hooks" ":"? ws? eol
+
+end_hooks =
+	"!!" ws? "endhooks" ws? eol

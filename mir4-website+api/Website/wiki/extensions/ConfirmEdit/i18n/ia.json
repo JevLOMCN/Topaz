@@ -1,0 +1,35 @@
+{
+	"@metadata": {
+		"authors": [
+			"McDutchie"
+		]
+	},
+	"captcha-edit": "Pro modificar iste pagina, resolve le carga hic infra e scribe le responsa in le quadro ([[Special:Captcha/help|plus info]]):",
+	"captcha-edit-fail": "Codice de confirmation (CAPTCHA) incorrecte o mancante.",
+	"captcha-desc": "Forni technicas CAPTCHA de protection contra spam e discoperta de contrasignos",
+	"captcha-help": "Solution del CAPTCHA.",
+	"captcha-info-help": "Description del CAPTCHA.",
+	"captcha-id-label": "ID del CAPTCHA",
+	"captcha-id-help": "Iste valor debe esser retornate sin modification.",
+	"captcha-addurl": "Tu modification include nove ligamines externe.\nPro proteger le wiki contra le spam automatisate, per favor, resolve le carga hic infra e scribe le responsa in le quadro a fin de salveguardar tu modification ([[Special:Captcha/help|plus info]]):",
+	"captcha-badlogin": "Pro proteger le wiki contra le furto automatisate de contrasignos, per favor, resolve le carga hic infra e scribe le responsa in le quadro ([[Special:Captcha/help|plus info]]):",
+	"captcha-createaccount": "Pro proteger le wiki contra le creation automatisate de contos, per favor, resolve le carga hic infra e scribe le responsa in le quadro ([[Special:Captcha/help|plus info]]):",
+	"captcha-createaccount-fail": "Codice de confirmation (CAPTCHA) incorrecte o mancante.",
+	"captcha-create": "Pro crear le pagina, resolve le carga hic infra e scribe le responsa in le quadro ([[Special:Captcha/help|plus info]]):",
+	"captcha-sendemail": "Pro proteger le wiki contra le spam automatisate, per favor, resolve le carga hic infra e scribe le responsa in le quadro ([[Special:Captcha/help|plus info]]):",
+	"captcha-sendemail-fail": "Codice de confirmation (CAPTCHA) incorrecte o mancante.",
+	"captcha-disabledinapi": "Iste action require un captcha, dunque illo non pote esser exequite per medio del API.",
+	"captcha-error": "Le verification del CAPTCHA ha fallite a causa de un error interne: $1",
+	"captchahelp-title": "Adjuta sur le CAPTCHA",
+	"captchahelp-cookies-needed": "Tu debe haber le cookies activate in tu navigator a fin que isto pote functionar.",
+	"captchahelp-text": "Le sitos web que accepta contributiones del publico, como iste wiki, es frequentemente abusate per spammatores que usa instrumentos automatic pro publicar lor ligamines in multe sitos.\nBen que iste ligamines spam pote esser eliminate, illos constitue un considerabile molestia.\n\nAlcun vices, specialmente quando tu adde nove ligamines web a un pagina, le wiki pote monstrar te un imagine de texto colorate o distorquite e demandar que tu entra le parolas monstrate.\nPost que isto es un carga difficile de automatisar, isto permittera al major parte del humanos real de facer lor contributiones, durante que le major parte del spammatores e altere attaccatores robotic es stoppate.\n\nInfelicemente isto pote incommodar le usatores con vision limitate o usante navigatores a base de texto o synthese vocal.\nAl momento nos non dispone de un alternativa audio.\nPer favor contacta le [[Special:ListAdmins|administratores del sito]] pro assistentia si isto insperatemente te impedi de facer contributiones legitime.\n\nClicca le button 'retro' in tu navigator pro retornar al pagina de modification.",
+	"captcha-addurl-whitelist": " #<!-- non modificar in alcun modo iste linea --> <pre>\n# Le syntaxe es lo sequente:\n#  * Toto a partir de un character \"#\" usque al fin del linea es un commento\n#  * Omne linea non vacue es un fragmento regex applicabile solmente a nomines de host intra adresses URL\n  #</pre> <!-- non modificar in alcun modo iste linea -->",
+	"right-skipcaptcha": "Executar le actiones que activarea le CAPTCHA sin deber passar per le CAPTCHA",
+	"action-skipcaptcha": "executar le actiones que activarea le CAPTCHA sin deber passar per le CAPTCHA",
+	"confirmedit-preview-line": "Numero de linea",
+	"confirmedit-preview-content": "Contento",
+	"confirmedit-preview-validity": "Validitate",
+	"confirmedit-preview-valid": "valide",
+	"confirmedit-preview-invalid": "invalide",
+	"confirmedit-preview-description": "Le tabella sequente monstra un lista de lineas sur iste pagina e si se tracta de un adresse o intervallo IP valide. Si le linea es un adresse o intervallo IP valide, illo essera dispensate del verification CAPTCHA, ma le lineas invalide essera ignorate. Un exemplo de un intervallo IP valide es: 69.208.0.0/16 le qual coperi le adresses de 69.208.0.0 a 69.208.255.255. [https://www.mediawiki.org/wiki/Special:MyLanguage/Help:Range_blocks#Calculating_the_CIDR_suffix Lege plus] sur le calculation de un intervallo de adresses IP."
+}

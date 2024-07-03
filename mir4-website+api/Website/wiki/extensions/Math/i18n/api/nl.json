@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"McDutchie"
+		]
+	},
+	"apihelp-query+mathwbextracts-example-1": "Vraagt een samenvatting van wiskundige Wikibase-items op.",
+	"apihelp-query+mathwbextracts-summary": "Retourneert een samenvatting van een wiskundig Wikibase-item in HTML.",
+	"apihelp-query+mathwbextracts-param-qid": "De QID van het Wikibase-item dat wordt opgevraagd.",
+	"apihelp-query+mathwbextracts-param-uselang": "De taal die moet worden aangevraagd voor het Wikibase-item. Engels is de standaardwaarde."
+}

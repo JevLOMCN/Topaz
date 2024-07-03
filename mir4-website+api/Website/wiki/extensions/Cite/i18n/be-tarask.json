@@ -1,0 +1,43 @@
+{
+	"@metadata": {
+		"authors": [
+			"EugeneZelenko",
+			"Jim-by",
+			"Red Winged Duck",
+			"Renessaince",
+			"Wizardist"
+		]
+	},
+	"cite-desc": "Дадае тэгі <code>&lt;ref&gt;</code> і <code>&lt;references/&gt;</code> для зносак",
+	"cite_error": "Памылка цытаваньня: $1",
+	"cite_error_ref_invalid_dir": "Няслушны <code>dir=\"$1\"</code>, мусіць быць <code>ltr</code> ці <code>rtl</code>",
+	"cite_error_ref_numeric_key": "Няслушны тэг <code>&lt;ref&gt;</code>; назва ня можа быць проста лікам. Ужывайце апісальную назву",
+	"cite_error_ref_no_key": "Пачатковы тэг <code>&lt;ref&gt;</code> зьяўляецца няслушным або мае кепскую назву",
+	"cite_error_ref_too_many_keys": "Няслушны парамэтар у цэтліку <code>&lt;ref&gt;</code>",
+	"cite_error_ref_no_input": "Няслушны тэг <code>&lt;ref&gt;</code>; крыніцы бяз назваў мусяць мець зьмест",
+	"cite_error_references_duplicate_key": "Няслушны тэг <code>&lt;ref&gt;</code>; назва «$1» вызначаная некалькі разоў з розным зьместам",
+	"cite_error_references_invalid_parameters": "Няслушны парамэтар у тэгу <code>&lt;references&gt;</code>",
+	"cite_error_references_no_backlink_label": "Скончыліся нестандартныя меткі для адваротных спасылак. Неабходна пашырыць сыстэмнае паведамленьне [[MediaWiki:Cite references link many format backlink labels]]",
+	"cite_error_no_link_label_group": "Скончыліся нестандартныя меткі спасылак для групы «$1». Вызначце болей у паведамленьні [[MediaWiki:$2]].",
+	"cite_error_references_no_text": "Няслушны тэг <code>&lt;ref&gt;</code>; няма тэксту ў назьве зносак <code>$1</code>",
+	"cite_error_included_ref": "Няма закрываючага тэга  <code>&lt;/ref&gt;</code> пасьля адкрытага тэга <code>&lt;ref&gt;</code>",
+	"cite_error_included_references": "Адсутнічае закрываючы тэг для <code>&lt;references&gt;</code>",
+	"cite_error_group_refs_without_references": "Тэгі <code>&lt;ref&gt;</code> існуюць для групы «$1», але адпаведнага тэга <code>&lt;references group=\"$1\"/&gt;</code> ня знойдзена",
+	"cite_error_references_group_mismatch": "Тэг <code>&lt;ref&gt;</code> у <code>&lt;references&gt;</code> утрымлівае канфліктуючы атрыбут групы «$1».",
+	"cite_error_references_missing_key": "Тэг <code>&lt;ref&gt;</code> з назвай «$1» вызначаны ў <code>&lt;references&gt;</code> не выкарыстоўваўся ў папярэднім тэксьце.",
+	"cite_error_references_no_key": "Тэг <code>&lt;ref&gt;</code> вызначаны ў <code>&lt;references&gt;</code> ня мае атрыбуту назвы.",
+	"cite_error_empty_references_define": "Тэг <code>&lt;ref&gt;</code> з назвай „$1“, вызначаны ў <code>&lt;references&gt;</code> групы „$2“, ня мае зьместу.",
+	"cite-tracking-category-cite-error": "Старонкі з памылкамі ў крыніцах",
+	"cite-tracking-category-cite-error-desc": "Старонкі ў гэтай катэгорыі маюць памылкі ў спасылках на крыніцы.",
+	"cite_references_link_accessibility_label": "Угару",
+	"cite_references_link_many_accessibility_label": "Угару да:",
+	"cite_references_link_accessibility_back_label": "Вярнуцца назад",
+	"cite_section_preview_references": "Папярэдні прагляд спасылак на крыніцы",
+	"cite_warning": "Папярэджаньне ў крыніцах: $1",
+	"cite_warning_sectionpreview_no_text": "Тэг <code>&lt;ref&gt;</code> з назвай <code>$1</code> ня можа быць паказаны ў папярэднім праглядзе, бо ён вызначаны па-за межамі гэтага разьдзелу або ня вызначаны наогул.",
+	"cite-wikieditor-tool-reference": "Зноска",
+	"cite-wikieditor-help-page-references": "Зноскі",
+	"cite-wikieditor-help-content-reference-description": "Зноска",
+	"cite-wikieditor-help-content-rereference-description": "Паўторнае выкарыстаньне той жа зноскі",
+	"cite-wikieditor-help-content-showreferences-description": "Паказваць зноскі"
+}

@@ -1,0 +1,20 @@
+{
+	"@metadata": {
+		"authors": [
+			"CERminator",
+			"Srdjan m",
+			"Srđan"
+		]
+	},
+	"pdf-desc": "Uređivač za pregled PDF datoteka u modu za slike",
+	"pdf-file-page-warning": "PDF je složen format koji, u nekim slučajevima, može otkriti vaše lične podatke. Molimo da podesite svoj PDF preglednik tako da koristi siguran način pregledanja.",
+	"pdf-file-page-warning-header": "Napomena o privatnosti",
+	"pdf-file-page-warning-footer": "Ovaj problem nije specifičan za ovu datoteku, već je uopćeno problem s PDF formatom.",
+	"pdf-file-page-warning-info": "Saznajte više o ovom problemu.",
+	"pdf_no_metadata": "Ne mogu se naći metapodaci u PDFu",
+	"pdf_page_error": "Broj stranice nije u rasponu",
+	"exif-pdf-producer": "Softver za pretvaranje",
+	"exif-pdf-version": "Verzija PDF formata",
+	"exif-pdf-encrypted": "Šifrirano",
+	"exif-pdf-pagesize": "Veličina stranice"
+}

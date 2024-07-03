@@ -1,0 +1,17 @@
+{
+	"@metadata": {
+		"authors": [
+			"Facenapalm",
+			"Okras",
+			"Stjn"
+		]
+	},
+	"apihelp-flowthank-summary": "Отправить публичную благодарность за комментарий Flow.",
+	"apihelp-flowthank-param-postid": "UUID сообщения, за который необходимо поблагодарить.",
+	"apihelp-flowthank-example-1": "Отправить благодарность за комментарий с <kbd>UUID xyz789</kbd>",
+	"apihelp-thank-summary": "Отправка редактору уведомления о благодарности.",
+	"apihelp-thank-param-rev": "ID версии, за которую требуется поблагодарить автора. Должно быть дано это или «log».",
+	"apihelp-thank-param-log": "ID журнала, за которую требуется поблагодарить автора. Должно быть дано это или «rev».",
+	"apihelp-thank-param-source": "Короткая строка, описывающая источник запроса, например, <kbd>diff</kbd> или <kbd>history</kbd>.",
+	"apihelp-thank-example-1": "Отправить благодарность за версию с <kbd>ID 456</kbd>, в качестве источника указав страницу различий между версиями."
+}

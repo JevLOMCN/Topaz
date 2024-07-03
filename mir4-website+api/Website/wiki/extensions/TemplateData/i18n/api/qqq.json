@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"Zoranzoki21"
+		]
+	},
+	"apihelp-templatedata-summary": "{{doc-apihelp-summary|templatedata}}",
+	"apihelp-templatedata-example-1": "{{doc-apihelp-example|templatedata}}",
+	"apihelp-templatedata-example-2": "{{doc-apihelp-example|templatedata}}",
+	"apihelp-templatedata-param-includeMissingTitles": "{{doc-apihelp-param|templatedata|includeMissingTitles}}",
+	"apihelp-templatedata-param-doNotIgnoreMissingTitles": "{{doc-apihelp-param|templatedata|doNotIgnoreMissingTitles}}",
+	"apihelp-templatedata-param-lang": "{{doc-apihelp-param|templatedata|lang}}",
+	"apierror-templatedata-corrupt": "{{doc-apierror}}\n\nParameters:\n* $1 - Page ID number\n* $2 - Localized message with further information.",
+	"apiwarn-templatedata-deprecation-format": "{{doc-apierror}}"
+}

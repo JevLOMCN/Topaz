@@ -1,0 +1,23 @@
+{
+	"@metadata": {
+		"authors": [
+			"Xuacu"
+		]
+	},
+	"apihelp-query+gadgetcategories-summary": "Devuelve una llista de categoríes d'accesorios.",
+	"apihelp-query+gadgetcategories-param-prop": "Qué información de categoría d'accesorios llograr:\n;name:Nome internu de la categoría.\n;title:Títulu de la categoría.\n;members:Númberu d'accesorios na categoría.",
+	"apihelp-query+gadgetcategories-param-names": "Nomes de les categoríes a recuperar.",
+	"apihelp-query+gadgetcategories-example-1": "Algamar la llista de categoríes d'accesorios esistentes",
+	"apihelp-query+gadgetcategories-example-2": "Algamar tola información sobro les categoríes llamaes «foo» y «bar»",
+	"apihelp-query+gadgets-summary": "Devuelve la llista d'accesorios que s'usen nesta wiki.",
+	"apihelp-query+gadgets-param-prop": "Qué información d'accesoriu llograr:\n;id:Identificador internu del accesoriu.\n;metadata:Metadatos del accesoriu.\n;desc:Descripción del accesoriu tresformada en HTML (puede ser lento, usar sólo si realmente se necesita).",
+	"apihelp-query+gadgets-param-categories": "De que categoríes recuperar los accesorios.",
+	"apihelp-query+gadgets-param-ids": "Identificadores de los accesorios a recuperar.",
+	"apihelp-query+gadgets-param-allowedonly": "Ver la llista sólo de los accesorios permitíos pal usuariu actual.",
+	"apihelp-query+gadgets-param-enabledonly": "Ver la llista sólo de los accesorios activaos pol usuariu actual.",
+	"apihelp-query+gadgets-example-1": "Amosar la llista d'accesorios xunto coles sos descripciones",
+	"apihelp-query+gadgets-example-2": "Amosar la llista d'accesorios con toles propiedaes posibles",
+	"apihelp-query+gadgets-example-3": "Amosar la llista d'accesorios que pertenezan a la categoría «foo»",
+	"apihelp-query+gadgets-example-4": "Amosar información sobro los accesorios «foo» y «bar»",
+	"apihelp-query+gadgets-example-5": "Ver la llista de los accesorios activaos pol usuariu actual."
+}

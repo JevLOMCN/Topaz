@@ -1,0 +1,189 @@
+@import 'mediawiki.widgets.datetime.definitions';
+
+.mw-widgets-datetime-dateTimeInputWidget {
+	display: inline-block;
+	position: relative;
+	width: 100%;
+	// Hack: Set maximum width equivalent to DateInputWidgets calendar popup
+	max-width: 24.275em;
+	.oo-ui-inline-spacing( 0.5em );
+	vertical-align: middle;
+
+	&-fields {
+		position: relative;
+		display: table;
+		z-index: 2;
+		.oo-ui-unselectable();
+
+		> .mw-widgets-datetime-dateTimeInputWidget-field {
+			display: table-cell;
+			white-space: pre;
+		}
+	}
+
+	&-handle {
+		background-color: @background-color-base;
+		color: @color-base;
+		display: inline-block;
+		box-sizing: border-box;
+		width: 100%;
+		height: @size-base;
+		border: @border-base;
+		border-radius: @border-radius-base;
+		padding: 0 @padding-horizontal-input-text;
+		box-shadow: inset 0 0 0 0 @box-shadow-color-progressive--focus;
+		// Needed for proper behavior with `overflow: hidden`.
+		vertical-align: bottom;
+		overflow: hidden;
+		.oo-ui-unselectable();
+		transition: box-shadow @transition-duration-base;
+
+		> .oo-ui-iconElement-icon,
+		> .oo-ui-indicatorElement-indicator {
+			background-position: center center;
+			background-repeat: no-repeat;
+			position: absolute;
+			top: 0;
+			z-index: 1;
+		}
+
+		> .oo-ui-iconElement-icon {
+			left: @padding-start-input-text-icon;
+			width: @size-icon;
+			height: @size-icon;
+		}
+
+		> .oo-ui-indicatorElement-indicator {
+			right: @padding-horizontal-base;
+		}
+	}
+
+	&.oo-ui-iconElement .mw-widgets-datetime-dateTimeInputWidget-handle {
+		padding-left: @padding-start-input-text-icon-label;
+	}
+
+	&.oo-ui-indicatorElement .mw-widgets-datetime-dateTimeInputWidget-handle {
+		padding-right: @min-size-indicator + 2 * @padding-horizontal-input-text;
+	}
+
+	&-field {
+		background-color: transparent;
+		color: inherit;
+		box-sizing: content-box;
+		border: 0;
+		border-radius: @border-radius-base;
+		padding-top: @padding-vertical-base;
+		padding-bottom: @padding-vertical-base;
+		box-shadow: none;
+		font-size: inherit;
+		font-family: inherit;
+		line-height: @line-height-widget-base;
+		text-align: center;
+		vertical-align: top;
+
+		// Day field, f.e. “Sat”
+		&:first-child {
+			cursor: pointer;
+		}
+
+		// Day field & time zome field, f.e. “Sat” & “Z”
+		&[ tabindex='-1' ] {
+			// Support: Firefox, Chrome
+			outline: 0;
+		}
+	}
+
+	&-editField {
+		.mw-widgets-datetime-dateTimeInputWidget-invalid {
+			border: @border-width-base @border-style-base @border-color-error;
+			box-shadow: @box-shadow-inset-small @box-shadow-color-transparent;
+
+			&:focus {
+				border: @border-width-base @border-style-base @border-color-error;
+				box-shadow: @box-shadow-inset-small @color-error;
+			}
+		}
+	}
+
+	&-clearButton {
+		// Override `&-field` from above
+		padding-top: 0;
+		padding-bottom: 0;
+		padding-left: @padding-start-button-clear;
+
+		// `&.oo-ui-iconElement` needed for specificity
+		&.oo-ui-iconElement > .oo-ui-buttonElement-button {
+			padding-top: @padding-top-button-clear;
+		}
+
+		.oo-ui-iconElement-icon {
+			background-size: @size-indicator @size-indicator;
+		}
+	}
+
+	&-empty {
+		.mw-widgets-datetime-dateTimeInputWidget-handle {
+			color: @color-subtle;
+		}
+
+		.mw-widgets-datetime-dateTimeInputWidget-clearButton {
+			display: none;
+		}
+	}
+
+	&.oo-ui-widget-enabled {
+		.mw-widgets-datetime-dateTimeInputWidget-handle {
+			transition-property: border-color;
+			transition-duration: @transition-duration-medium;
+
+			&:hover {
+				border-color: @border-color-input--hover;
+			}
+		}
+
+		// Set on widget parent to also enable `:hover` on child elements
+		&:hover {
+			input,
+			textarea {
+				border-color: @border-color-input--hover;
+			}
+		}
+
+		.mw-widgets-datetime-dateTimeInputWidget-editField:hover {
+			background-color: @background-color-interactive;
+		}
+
+		.mw-widgets-datetime-dateTimeInputWidget-editField:focus {
+			outline: @outline-base--focus;
+			box-shadow: @box-shadow-inset-small @box-shadow-color-progressive--focus, @box-shadow-outset-small @box-shadow-color-progressive--focus;
+		}
+
+		&.oo-ui-flaggedElement-invalid {
+			.mw-widgets-datetime-dateTimeInputWidget-handle {
+				border-color: @border-color-error;
+				box-shadow: @box-shadow-inset-small @box-shadow-color-transparent;
+
+				&:focus {
+					border-color: @border-color-error;
+					box-shadow: @box-shadow-inset-small @color-error;
+				}
+			}
+		}
+	}
+
+	&.oo-ui-widget-disabled {
+		.mw-widgets-datetime-dateTimeInputWidget-handle {
+			background-color: @background-color-disabled-subtle;
+			// Support: Safari
+			-webkit-text-fill-color: @color-disabled;
+			color: @color-disabled;
+			border-color: @border-color-disabled;
+			text-shadow: @text-shadow-base--disabled;
+		}
+
+		> .oo-ui-iconElement-icon,
+		> .oo-ui-indicatorElement-indicator {
+			opacity: @opacity-icon-base--disabled;
+		}
+	}
+}

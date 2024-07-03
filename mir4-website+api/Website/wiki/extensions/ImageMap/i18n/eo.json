@@ -1,0 +1,22 @@
+{
+	"@metadata": {
+		"authors": [
+			"KuboF",
+			"Michawiki",
+			"Robin van der Vliet",
+			"Yekrats"
+		]
+	},
+	"imagemap_desc": "Permesas klientflankajn klakeblajn bildmapojn uzante etikedon <code>&lt;imagemap&gt;</code>",
+	"imagemap_no_image": "Eraro: devas specifi bildon en la unua linio",
+	"imagemap_invalid_image": "Eraro: bildo estas aŭ nevalida aŭ neekzistanta",
+	"imagemap_bad_image": "Eraro: Bildo ne estas permesita en ĉi tiu paĝo",
+	"imagemap_no_link": "Eraro: neniu valida ligilo estis trovita ĉe fino de linio $1",
+	"imagemap_invalid_title": "Eraro: nevalida titolo en ligilo ĉe linio $1",
+	"imagemap_missing_coord": "Eraro: mankas sufiĉaj koordinatoj por formo ĉe linio $1",
+	"imagemap_unrecognised_shape": "Eraro: nekonata formo ĉe linio $1; ĉiu linio devas komenci kun unu el: <code>default</code>, <code>rect</code>, <code>circle</code> aŭ <code>poly</code>",
+	"imagemap_invalid_coord": "Eraro: Nevalida koordinato ĉe linio $1; ĝi nepre estu nombro",
+	"imagemap_invalid_desc": "Eraro: nevalida deklarado de desc, devas esti unu el: <code>$1</code>",
+	"imagemap_description": "Pri ĉi tiu bildo",
+	"imagemap_poly_odd": "Eraro: troviĝis poligono kun malpara nombro de koordinatoj en linio $1"
+}

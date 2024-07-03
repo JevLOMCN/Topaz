@@ -1,0 +1,36 @@
+{
+	"@metadata": {
+		"authors": [
+			"Bernardom",
+			"Crazymadlover",
+			"Fitoschido",
+			"Jelou",
+			"Macofe",
+			"Muro de Aguas",
+			"Remember the dot",
+			"Ryo567",
+			"Sanbec"
+		]
+	},
+	"pfunc_desc": "Mejora el analizador con funciones lógicas.",
+	"pfunc_time_error": "Error: fecha y hora no válidas.",
+	"pfunc_time_too_long": "Error: demasiados \"#time\".",
+	"pfunc_time_too_big": "Error: #time solo admite años hasta 9999.",
+	"pfunc_time_too_small": "Error: #time solo admite años desde 0.",
+	"pfunc_rel2abs_invalid_depth": "Error: profundidad no válida en la ruta «$1» (trataste de acceder a un nodo por encima de la raíz).",
+	"pfunc_expr_stack_exhausted": "Error en la expresión: pila agotada.",
+	"pfunc_expr_unexpected_number": "Error en la expresión: número no esperado.",
+	"pfunc_expr_preg_match_failure": "Error en la expresión: fallo no esperado de \"preg_match\".",
+	"pfunc_expr_unrecognised_word": "Error en la expresión: no se reconoce la palabra «$1».",
+	"pfunc_expr_unexpected_operator": "Error en la expresión: operador $1 no esperado.",
+	"pfunc_expr_missing_operand": "Error en la expresión: falta un operando en $1.",
+	"pfunc_expr_unexpected_closing_bracket": "Error en la expresión: paréntesis de cierre no esperado.",
+	"pfunc_expr_unrecognised_punctuation": "Error en la expresión: no se reconoce el carácter de puntuación «$1».",
+	"pfunc_expr_unclosed_bracket": "Error en la expresión: paréntesis sin cerrar.",
+	"pfunc_expr_division_by_zero": "División por cero.",
+	"pfunc_expr_invalid_argument": "Argumento no válido para $1: < -1 o > 1.",
+	"pfunc_expr_invalid_argument_ln": "Argumento incorrecto para ln: <= 0.",
+	"pfunc_expr_unknown_error": "Error en la expresión: error desconocido ($1).",
+	"pfunc_expr_not_a_number": "En $1: el resultado no es un número.",
+	"pfunc_string_too_long": "Error: la cadena excede el límite de $1 caracteres."
+}

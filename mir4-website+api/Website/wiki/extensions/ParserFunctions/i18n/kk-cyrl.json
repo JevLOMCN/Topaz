@@ -1,0 +1,27 @@
+{
+	"@metadata": {
+		"authors": [
+			"Arystanbek",
+			"Casserium"
+		]
+	},
+	"pfunc_time_error": "Қате: жарамсыз уақыт",
+	"pfunc_time_too_long": "Қате: #time шақыруы тым көп",
+	"pfunc_time_too_big": "Қате: #time 9999 дейінгі жылды қолдайды.",
+	"pfunc_time_too_small": "Қате: #time 0 кейінгі жылды қолдайды.",
+	"pfunc_rel2abs_invalid_depth": "Қате: Мына жолдың жарамсыз терендігі «$1» (тамыр түйіннің үстіндегі түйінге қатынау талабы)",
+	"pfunc_expr_stack_exhausted": "Айтылым қатесі: Стек сарқылды",
+	"pfunc_expr_unexpected_number": "Айтылым қатесі: Күтілмеген сан",
+	"pfunc_expr_preg_match_failure": "Айтылым қатесі: Күтілмеген preg_match сәтсіздігі",
+	"pfunc_expr_unrecognised_word": "Қате өрнек: Таныс емес сөз «$1»",
+	"pfunc_expr_unexpected_operator": "Айтылым қатесі: Күтілмеген оператор $1",
+	"pfunc_expr_missing_operand": "Айтылым қатесі: $1 үшін жоғалған операнд",
+	"pfunc_expr_unexpected_closing_bracket": "Айтылым қатесі: Күтілмеген жабатын жақша",
+	"pfunc_expr_unrecognised_punctuation": "Қате өрнек: Таныс емес тыныс белгісі «$1»",
+	"pfunc_expr_unclosed_bracket": "Айтылым қатесі: Жабылмаған жақша",
+	"pfunc_expr_division_by_zero": "Нөлге бөлінуі",
+	"pfunc_expr_invalid_argument": "$1 үшін жарамсыз аргумент: < -1 немесе > 1.",
+	"pfunc_expr_invalid_argument_ln": "ln үшін жарамсыз аргумент: <= 0.",
+	"pfunc_expr_unknown_error": "Айтылым қатесі: Белгісіз қате ($1)",
+	"pfunc_expr_not_a_number": "$1 дегенде: нәтиже сан емес"
+}

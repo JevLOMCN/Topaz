@@ -1,0 +1,18 @@
+{
+	"@metadata": {
+		"authors": [
+			"Jon Harald Søby",
+			"Telaneo"
+		]
+	},
+	"apihelp-query+oath-summary": "Sjekk om tofaktorautentisering (OATH) er slått på for en bruker.",
+	"apihelp-query+oath-param-user": "Brukeren det skal hentes informasjon om. Standard er den gjeldende brukeren.",
+	"apihelp-query+oath-param-reason": "Årsak for å spørre om OATH-status.",
+	"apihelp-query+oath-example-1": "Få informasjon om den aktuelle brukeren",
+	"apihelp-query+oath-example-2": "Få informasjon om brukeren <kbd>Example</kbd>",
+	"apihelp-oathvalidate-summary": "Valider en nøkkel for tofaktorautentisering (OATH).",
+	"apihelp-oathvalidate-param-user": "Brukeren tegnet skal valideres for. Standard er den aktuelle brukeren.",
+	"apihelp-oathvalidate-example-1": "Valider JSON-data for den aktuelle brukeren",
+	"apihelp-oathvalidate-example-3": "Valider JSON-data for brukeren <kbd>Example</kbd>",
+	"apihelp-oathvalidate-param-data": "JSON-kodet data forventes av modulen som er aktivert for brukeren som autentiseres"
+}

@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"Servien"
+		]
+	},
+	"pfunc_time_error": "Faut: ungeldige tyd.",
+	"pfunc_expr_unrecognised_word": "Fout in uutdrükking: woord \"$1\" neet herkend.",
+	"pfunc_expr_unexpected_operator": "Faut in uutdrükking: neet verwachtede operator $1.",
+	"pfunc_expr_missing_operand": "Faut in uutdrükking: operand vöär $1 untbrikt.",
+	"pfunc_expr_unrecognised_punctuation": "Faut in uutdrükking: neet herkend leasteyken \"$1\".",
+	"pfunc_expr_division_by_zero": "Deyling döär nul"
+}

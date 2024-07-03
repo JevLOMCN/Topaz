@@ -1,0 +1,25 @@
+{
+	"@metadata": {
+		"authors": [
+			"Fitoschido",
+			"Jakeukalane",
+			"Macofe"
+		]
+	},
+	"apihelp-query+gadgetcategories-summary": "Devuelve una lista de categorías de accesorios.",
+	"apihelp-query+gadgetcategories-param-prop": "Qué información de categoría de accesorios se obtendrá:\n;name:Nombre interno de la categoría.\n;title:Título de la categoría.\n;members:Número de accesorios en la categoría.",
+	"apihelp-query+gadgetcategories-param-names": "Nombres de las categorías que se obtendrán.",
+	"apihelp-query+gadgetcategories-example-1": "Obtener una lista de las categorías de accesorios existentes",
+	"apihelp-query+gadgetcategories-example-2": "Obtener toda la información acerca de las categorías llamadas \"foo\" y \"bar\"",
+	"apihelp-query+gadgets-summary": "Devuelve una lista de los accesorios empleados en esta wiki.",
+	"apihelp-query+gadgets-param-prop": "Qué información de accesorios se obtendrá:\n;id:Identificador interno del accesorio.\n;metadata:Los metadatos del accesorio.\n;desc:Descripción del accesorio transformada en HTML (puede ser lento, úsalo solo si es realmente necesario).",
+	"apihelp-query+gadgets-param-categories": "De qué categorías se obtendrán los accesorios.",
+	"apihelp-query+gadgets-param-ids": "Identificadores de los accesorios que se obtendrán.",
+	"apihelp-query+gadgets-param-allowedonly": "Listar solo los accesorios permitidos al usuario actual.",
+	"apihelp-query+gadgets-param-enabledonly": "Listar solo los accesorios activados por el usuario actual.",
+	"apihelp-query+gadgets-example-1": "Obtener una lista de accesorios junto con sus descripciones",
+	"apihelp-query+gadgets-example-2": "Obtener una lista de accesorios con todas las propiedades posibles",
+	"apihelp-query+gadgets-example-3": "Obtener una lista de accesorios que pertenezcan a la categoría \"foo\"",
+	"apihelp-query+gadgets-example-4": "Obtener información acerca de los accesorios \"foo\" y \"bar\"",
+	"apihelp-query+gadgets-example-5": "Obtener una lista de los accesorios activados por el usuario actual"
+}

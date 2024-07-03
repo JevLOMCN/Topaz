@@ -1,0 +1,19 @@
+{
+	"@metadata": {
+		"authors": [
+			"Byrial",
+			"Christian List",
+			"Peter Alberti"
+		]
+	},
+	"inputbox-desc": "Muliggør inkludering af forhåndsdefinerede HTML-formularer",
+	"inputbox-error-no-type": "Du har ikke angivet type i inputboksen som skal laves.",
+	"inputbox-error-bad-type": "Inputboks-type \"$1\" kendes ikke.\nVælg venligst \"create\", \"comment\", \"search\", \"search2\" eller \"fulltext\".",
+	"inputbox-tryexact": "Prøv præcis match",
+	"inputbox-searchfulltext": "Fuldtekstsøgning",
+	"inputbox-createarticle": "Opret side",
+	"inputbox-movearticle": "Flyt side",
+	"inputbox-postcomment": "Nyt afsnit",
+	"inputbox-postcommenttitle": "Nyt afsnit",
+	"inputbox-ns-main": "Hoved"
+}

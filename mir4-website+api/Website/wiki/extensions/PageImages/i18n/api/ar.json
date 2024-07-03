@@ -1,0 +1,17 @@
+{
+	"@metadata": {
+		"authors": [
+			"SaldırganSincap",
+			"ديفيد"
+		]
+	},
+	"apihelp-query+pageimages-summary": "يعرض معلومات حول الصور على الصفحة، مثل الصورة المصغرة ووجود الصور.",
+	"apihelp-query+pageimages-example-1": "احصل على اسم وصورة مصغرة <kbd>100</kbd> بكسل لصورة في صفحة <kbd>Albert Einstein</kbd>.",
+	"apihelp-query+pageimages-param-prop": "أي المعلومات يجب إرجاعها: \n;الصورة المصغرة:مسار وأبعاد الصورة المصغرة المرتبطة بالصفحة، إن وُجِدت.\n;الأصلية:مسار والأبعاد الأصلية للصورة المرتبطة بالصفحة، إن وُجِدت.\n;الاسم: اسم الصورة.",
+	"apihelp-query+pageimages-param-thumbsize": "الحد الأقصى للعرض بالبكسل للصور المصغرة.",
+	"apihelp-query+pageimages-param-langcode": "رمز اللغة التي سيتم عرض الصورة بها إذا تم دعم لغات متعددة",
+	"apihelp-query+pageimages-param-limit": "خصائص عدد الصفحات للإرجاع.",
+	"apihelp-query+pageimages-param-license": "حدد صور الصفحة لنوع ترخيص معين",
+	"apihelp-query+pageimages-paramvalue-license-free": "الصور الحرة فقط",
+	"apihelp-query+pageimages-paramvalue-license-any": "أفضل صورة، سواء كانت حرة أو غير حرة."
+}

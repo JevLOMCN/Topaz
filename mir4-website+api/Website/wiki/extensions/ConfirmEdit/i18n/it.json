@@ -1,0 +1,40 @@
+{
+	"@metadata": {
+		"authors": [
+			"Beta16",
+			"BrokenArrow",
+			"Darth Kule",
+			"Lucas2",
+			"Matteocng",
+			"Nemo bis",
+			"Selven"
+		]
+	},
+	"captcha-edit": "Per modificare la pagina è necessario risolvere l'attività presentata di seguito e inserire la risposta nella casella\n([[Special:Captcha/help|maggiori informazioni]]):",
+	"captcha-edit-fail": "Codice di verifica errato o mancante.",
+	"captcha-desc": "Fornisce tecniche CAPTCHA per la protezione contro lo spam e l'individuazione delle password",
+	"captcha-help": "Soluzione del CAPTCHA.",
+	"captcha-info-help": "Descrizione del CAPTCHA.",
+	"captcha-id-label": "ID CAPTCHA",
+	"captcha-id-help": "Questo valore dovrebbe essere restituito invariato.",
+	"captcha-addurl": "La modifica richiesta aggiunge dei nuovi collegamenti esterni alla pagina; come misura precauzionale contro l'inserimento automatico di spam, si prega di risolvere l'attività presentata di seguito e inserire la risposta nella casella ([[Special:Captcha/help|maggiori informazioni]]):",
+	"captcha-badlogin": "Come misura precauzionale contro i tentativi di forzatura automatica della password, si prega di risolvere l'attività presentata di seguito e inserire la risposta nella casella ([[Special:Captcha/help|maggiori informazioni]]):",
+	"captcha-createaccount": "Come misura precauzionale contro i tentativi di registrazione automatica, si prega di risolvere l'attività presentata di seguito e inserire la risposta nella casella ([[Special:Captcha/help|maggiori informazioni]]):",
+	"captcha-createaccount-fail": "Codice di verifica errato o mancante.",
+	"captcha-create": "Per creare la pagina è necessario risolvere l'attività presentata di seguito e inserire la risposta nella casella:<br />\n([[Special:Captcha/help|maggiori informazioni]]):",
+	"captcha-sendemail": "Come misura precauzionale nei confronti dei messaggi di spam automatici, si prega di risolvere l'attività presentata di seguito e inserire la risposta nella casella ([[Special:Captcha/help|maggiori informazioni]]):",
+	"captcha-sendemail-fail": "Codice di verifica errato o mancante.",
+	"captcha-disabledinapi": "Questa azione richiede un captcha, quindi non può essere eseguita tramite API.",
+	"captcha-error": "Verifica CAPTCHA fallita a causa di un errore interno: $1",
+	"captchahelp-title": "Cos'è il captcha?",
+	"captchahelp-cookies-needed": "È necessario abilitare i cookie sul proprio browser per proseguire",
+	"captchahelp-text": "Capita spesso che i siti web che accettano contributi pubblici, come questo wiki, siano presi di mira da spammer che usano strumenti automatici per inserire collegamenti pubblicitari verso un gran numero di siti. Per quanto i collegamenti indesiderati si possano rimuovere, si tratta comunque di una seccatura non indifferente.\n\nIn alcuni casi, specie quando si tenta di aggiungere nuovi collegamenti web in una pagina, il software wiki può mostrare una immagine con un breve testo colorato e/o distorto chiedendo di riscriverlo in un'apposita casella. Poiché l'interpretazione dell'immagine è un'azione difficile da far eseguire a un programma, tale sistema permette agli utenti reali di completare l'inserimento desiderato, impedendo l'accesso alla maggior parte degli spammer e degli altri attacchi automatizzati.\n\nSfortunatamente, queste misure di sicurezza possono mettere in difficoltà gli utenti con problemi visivi o coloro che utilizzano browser testuali o basati sulla sintesi vocale. Purtroppo al momento non è disponibile un meccanismo alternativo basato su messaggi audio; se queste procedure impediscono l'inserimento di informazioni appropriate, si prega di contattare gli [[Special:ListAdmins|amministratori del sito]] e chiedere loro assistenza.\n\nFare clic sul pulsante \"indietro\" del browser per tornare alla pagina di modifica.",
+	"captcha-addurl-whitelist": " #<!-- non modificare in alcun modo questa riga --> <pre>\n# La sintassi è la seguente:\n#  * Tutto ciò che segue un carattere \"#\" è un commento, fino al termine della riga\n#  * Tutte le righe non vuote sono frammenti di espressioni regolari che si applicano al solo nome dell'host nelle URL\n  #</pre> <!-- non modificare in alcun modo questa riga -->",
+	"right-skipcaptcha": "Compie le azioni che attiverebbero il captcha senza dover passare per il captcha",
+	"confirmedit-preview-line": "Numero di riga",
+	"confirmedit-preview-content": "Contenuto",
+	"confirmedit-preview-validity": "Validità",
+	"confirmedit-preview-valid": "valido",
+	"confirmedit-preview-invalid": "non valido",
+	"confirmedit-preview-description": "La seguente tabella mostra la lista delle linee su questa pagina e se è un indirizzo IP o un intervallo di indirizzi IP. Se la linea è un indirizzo IP valido o un intervallo di indirizzi IP, sarà escluso dal controllo del CAPTCHA, ma le linee non valide saranno ignorate. Un esempio di intervallo di indirizzi IP valido potrebbe essere: 69.208.0.0/16 che va da 69.208.0.0 a 69.208.255.255. [https://www.mediawiki.org/wiki/Special:MyLanguage/Help:Range_blocks#Calculating_the_CIDR_suffix Ulteriori informazioni]  sul calcolo di un intervallo di indirizzi IP."
+}

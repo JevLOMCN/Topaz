@@ -1,0 +1,41 @@
+{
+	"@metadata": {
+		"authors": [
+			"Borislav",
+			"DCLXVI",
+			"Spiritia",
+			"StanProg",
+			"Stanqo",
+			"V111P",
+			"Vodnokon4e"
+		]
+	},
+	"categorytree": "Дърво на категориите",
+	"categorytree-portlet": "Категории",
+	"categorytree-legend": "Показване на дървото с категориите",
+	"categorytree-desc": "Инструмент на AJAX, който показва [[Special:CategoryTree|структурата на категориите]] в уикито",
+	"categorytree-header": "Въведете категория, за да видите съдържанието ѝ в дървовиден вид от категории. (Изисква JavaScript.)",
+	"categorytree-category": "Категория:",
+	"categorytree-go": "Показване",
+	"categorytree-parents": "Родителски категории",
+	"categorytree-mode-label": "Режим:",
+	"categorytree-mode-categories": "само категории",
+	"categorytree-mode-pages": "страници, без файлове",
+	"categorytree-mode-all": "всички страници",
+	"categorytree-collapse": "свиване",
+	"categorytree-expand": "разгръщане",
+	"categorytree-member-counts": "Съдържа {{PLURAL:$1|една подкатегория|$1 подкатегории}}, {{PLURAL:$2|една страница|$2 страници}} и {{PLURAL:$3|един файл|$3 файла}}",
+	"categorytree-num-categories": "$1 К",
+	"categorytree-num-pages": "$1 Стр",
+	"categorytree-num-files": "$1 Ф",
+	"categorytree-num-empty": "празна",
+	"categorytree-load": "зареждане",
+	"categorytree-loading": "зареждане",
+	"categorytree-nothing-found": "няма открити подкатегории",
+	"categorytree-no-subcategories": "няма подкатегории",
+	"categorytree-no-parent-categories": "няма родителски категории",
+	"categorytree-no-pages": "няма страници или подкатегории",
+	"categorytree-not-found": "Категория <i>$1</i> не беше намерена",
+	"categorytree-error": "Възникна проблем при зареждане на данните.",
+	"categorytree-retry": "Изчакайте малко и опитайте отново."
+}

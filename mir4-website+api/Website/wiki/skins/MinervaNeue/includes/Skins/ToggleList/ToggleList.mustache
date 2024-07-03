@@ -1,0 +1,25 @@
+{{!
+	A list with visibility toggled by a checkbox.
+	string|null class Optional CSS class for the root element.
+	string checkboxID CSS identifier unique to the page needed to connect label and input.
+	string|null toggleID Optional toggle button CSS identifier to connect label and toggle aria.
+	string|null listClass Optional list CSS class.
+	object data-btn optional button information for Button template
+	array|null items Optional array of drop down list items for the unordered list.
+}}
+<div class="toggle-list {{class}}">
+	<input
+		type="checkbox"
+		id="{{checkboxID}}"
+		class="toggle-list__checkbox"
+		role="button"
+		aria-labelledby="{{toggleID}}"
+		aria-expanded="false"
+		aria-haspopup="true">
+	{{#data-btn}}{{>Button}}{{/data-btn}}
+	<ul class="toggle-list__list new {{listClass}}" id="{{listID}}">
+		{{#items}}
+			{{> ToggleList/ToggleListItem}}
+		{{/items}}
+	</ul>
+</div>

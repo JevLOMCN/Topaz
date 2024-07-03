@@ -1,0 +1,31 @@
+{
+	"@metadata": {
+		"authors": [
+			"Lucas",
+			"Mirin",
+			"Robin van der Vliet",
+			"Yekrats"
+		]
+	},
+	"pfunc_desc": "Etendi sintaksan analizilon kun logikaj funkcioj",
+	"pfunc_time_error": "Eraro: nevalida tempo",
+	"pfunc_time_too_long": "Eraro: tro da vokoj ''#time''",
+	"pfunc_time_too_big": "Eraro: #time nur subtenas jaroj ĝis 9999.",
+	"pfunc_time_too_small": "Eraro: #time nur subtenas jarojn ekde 0.",
+	"pfunc_rel2abs_invalid_depth": "Eraro: Nevalida profundo en vojo: \"$1\" (provis atingi nodon super la radika nodo)",
+	"pfunc_expr_stack_exhausted": "Esprima eraro: Stako estis malplenigita",
+	"pfunc_expr_unexpected_number": "Esprima eraro: Neatendita numeralo",
+	"pfunc_expr_preg_match_failure": "Esprima eraro: Neatendita preg_match malsukceso",
+	"pfunc_expr_unrecognised_word": "Esprima eraro: Nekonata vorto “$1”.",
+	"pfunc_expr_unexpected_operator": "Esprima eraro: Neatendita operacisimbolo $1",
+	"pfunc_expr_missing_operand": "Esprima eraro: Mankas operando por $1",
+	"pfunc_expr_unexpected_closing_bracket": "Esprima eraro: Neatendita ferma krampo",
+	"pfunc_expr_unrecognised_punctuation": "Esprima eraro: Nekonata interpunkcia simbolo “$1”.",
+	"pfunc_expr_unclosed_bracket": "Esprima eraro: Malferma krampo",
+	"pfunc_expr_division_by_zero": "Divido per nulo",
+	"pfunc_expr_invalid_argument": "Nevalida argumento por $1: < -1 or > 1",
+	"pfunc_expr_invalid_argument_ln": "Nevalida argumento por ln: <= 0",
+	"pfunc_expr_unknown_error": "Esprima eraro: Nekonata eraro ($1)",
+	"pfunc_expr_not_a_number": "En $1: rezulto ne estas nombro",
+	"pfunc_string_too_long": "Eraro: Ĉeno preterpasas signo-limon $1"
+}

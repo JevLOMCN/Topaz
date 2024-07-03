@@ -1,0 +1,38 @@
+{
+	"@metadata": {
+		"authors": [
+			"Kokage si",
+			"Object＊tofu",
+			"Omotecho",
+			"Shirayuki",
+			"TAKAHASHI Shuuji",
+			"しぃ",
+			"ネイ"
+		]
+	},
+	"apierror-discussiontools-commentid-notfound": "ID「$1」のコメントが見つかりませんでした。",
+	"apierror-discussiontools-commentname-ambiguous": "「$1」という名前のコメントが複数見つかりました。<var>commentid</var>が必要です。",
+	"apierror-discussiontools-commentname-notfound": "「$1」という名前のコメントが見つかりません。",
+	"apierror-discussiontools-formtoken-used": "コメントはすでに投稿されています。表示するにはページを再読み込みしてください。",
+	"apierror-discussiontools-subscription-failed-add": "このトピックを購読できませんでした。",
+	"apierror-discussiontools-subscription-failed-remove": "このトピックの購読を解除できませんでした。",
+	"apihelp-discussiontoolsedit-param-commentid": "返信するコメントのID。<var>paction</var> が <var>addcomment</var> の場合にのみ使用されます。<var>commentname</var>よりも優先されます。",
+	"apihelp-discussiontoolsedit-param-formtoken": "オプションのユニークID。二重投稿を防ぐためにクライアントで生成されます。",
+	"apihelp-discussiontoolsedit-param-sectiontitle": "{{int:apihelp-edit-param-sectiontitle}} <var>paction</var>が<var>addtopic</var>のときのみ使用されます。",
+	"apihelp-discussiontoolsedit-param-wikitext": "ウィキテキストとして投稿するコンテンツ。<var>html</var>と同時に使用することはできません。",
+	"apihelp-discussiontoolsedit-paramvalue-paction-addcomment": "既存のコメントへの返信として新しいコメントを追加します。",
+	"apihelp-discussiontoolsedit-paramvalue-paction-addtopic": "新しい議論のセクションを追加し、そのセクションに最初のコメントを追加します。",
+	"apihelp-discussiontoolsedit-summary": "議論ページにメッセージを投稿する。",
+	"apihelp-discussiontoolsgetsubscriptions-param-commentname": "確認する話題の名称",
+	"apihelp-discussiontoolsgetsubscriptions-summary": "指定されたトピックの購読状態を取得します。",
+	"apihelp-discussiontoolspageinfo-param-oldid": "使用する版番号 (既定では最新版)。",
+	"apihelp-discussiontoolspageinfo-param-prop": "取得するプロパティ：",
+	"apihelp-discussiontoolspageinfo-summary": "議論用ツールの初期化に必要なメタデータを返します。",
+	"apihelp-discussiontoolspreview-param-type": "プレビューするメッセージの種類",
+	"apihelp-discussiontoolspreview-param-wikitext": "ウィキテキストとしてプレビューするコンテンツ。",
+	"apihelp-discussiontoolspreview-summary": "議論ページのメッセージをプレビューします。",
+	"apihelp-discussiontoolssubscribe-param-commentname": "購読する（または購読を解除する）トピックの名前",
+	"apihelp-discussiontoolssubscribe-param-page": "トピックが表示されるページ",
+	"apihelp-discussiontoolssubscribe-param-subscribe": "購読する場合はtrue、購読を取り消す場合はfalse",
+	"apihelp-discussiontoolssubscribe-summary": "トピックに関する通知を受け取るために、購読（または購読解除）します。"
+}

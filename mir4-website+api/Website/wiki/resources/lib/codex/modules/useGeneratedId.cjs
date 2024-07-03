@@ -1,0 +1,1 @@
+"use strict";const u=require("vue"),e=require("./constants.js");let t=0;function c(n){var i;const r=u.getCurrentInstance(),s=(i=r==null?void 0:r.props.id)!=null?i:r==null?void 0:r.attrs.id;return n?"".concat(e.LibraryPrefix,"-").concat(n,"-").concat(t++):s?"".concat(e.LibraryPrefix,"-").concat(s,"-").concat(t++):"".concat(e.LibraryPrefix,"-").concat(t++)}module.exports=c;

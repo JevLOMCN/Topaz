@@ -1,0 +1,38 @@
+{
+	"@metadata": {
+		"authors": [
+			"Armando-Martin",
+			"Ciencia Al Poder",
+			"Crazymadlover",
+			"Dgstranz",
+			"Jelou",
+			"Lemondoge",
+			"Locos epraix",
+			"Macofe",
+			"MarcoAurelio",
+			"Remember the dot",
+			"Sanbec",
+			"Tiberius1701"
+		]
+	},
+	"action-tboverride": "ignorar la lista negra de títulos o de nombres de usuario",
+	"action-tboverride-account": "ignorar la lista negra de nombres de usuario",
+	"action-titleblacklistlog": "ver el registro de la lista negra de títulos",
+	"log-name-titleblacklist": "Registro de la lista negra de títulos",
+	"log-description-titleblacklist": "Estos eventos registran las coincidencias con la lista negra de títulos.",
+	"logentry-titleblacklist-hit-username": "$1 {{GENDER:$2|generó}} un disparo de la lista negra de títulos al tratar de crear la cuenta $3 al coincidir con $4.",
+	"titleblacklist-desc": "Permite que los administradores prohíban la creación de páginas y cuentas de usuario mediante una [[MediaWiki:Titleblacklist|lista negra]] y una [[MediaWiki:Titlewhitelist|lista blanca]]",
+	"titleblacklist": "# Esta es una lista negra de títulos. No se pueden crear títulos o usuarios que coincidan con una de estas expresiones regulares.\n# Usa «#» para comentarios.\n# Esta lista, por defecto, no distingue entre mayúsculas y minúsculas",
+	"titlewhitelist": "# Esta es una lista blanca de títulos. Usa «#» para comentarios.\n# Por omisión, no distingue mayúsculas de minúsculas",
+	"titleblacklist-forbidden-edit": "Se ha bloqueado la creación del título «$2».\nCoincide con la siguiente entrada de lista negra: <code>$1</code>",
+	"titleblacklist-forbidden-move": "«$2» no puede ser trasladado a «$3», porque se ha bloqueado la creación del título «$3».\nCoincide con la siguiente entrada de lista negra: <code>$1</code>",
+	"titleblacklist-forbidden-upload": "No se puede crear el archivo «$2».\nCoincide con la entrada de lista negra <code>$1</code>.",
+	"titleblacklist-forbidden-new-account": "Se prohíbe crear el nombre de usuario «$2».\nCoincide con la siguiente entrada de la lista negra: <code>$1</code>",
+	"titleblacklist-invalid": "{{PLURAL:$1|La siguiente línea|Las siguientes líneas}} de la lista negra no {{PLURAL:$1|es válida|son válidas}};\npor favor corríge{{PLURAL:$1|la|las}} antes de grabar:",
+	"titleblacklist-override": "Ignorar la lista negra si coincide",
+	"titleblacklist-override-help": "Los usuarios con suficientes privilegios pueden configurar esto para ignorar las comprobaciones de títulos en la lista negra.",
+	"titleblacklist-warning": "<strong>Advertencia: solo los administradores y los usuarios con el permiso <code>tboverride</code> pueden editar esta página porque esta aparece en la siguiente entrada de la lista negra de títulos:</strong><br /><code>$1</code>",
+	"right-tboverride": "Ignorar la lista negra de títulos o de nombres de usuario",
+	"right-tboverride-account": "Ignorar la lista negra de los nombres de usuario",
+	"right-titleblacklistlog": "Ver el registro de la lista negra de títulos"
+}

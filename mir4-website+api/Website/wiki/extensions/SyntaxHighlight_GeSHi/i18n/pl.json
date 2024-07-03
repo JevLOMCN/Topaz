@@ -1,0 +1,28 @@
+{
+	"@metadata": {
+		"authors": [
+			"Chrumps",
+			"Derbeth",
+			"PiotrAntosz",
+			"Rail",
+			"Sp5uhe",
+			"Woytecr"
+		]
+	},
+	"syntaxhighlight-desc": "Zapewnia kolorowanie składni ze znacznikiem <code>&lt;syntaxhighlight&gt;</code>, wykorzystując [http://pygments.org/ Pygments – Pythonowe kolorowanie składni]",
+	"syntaxhighlight-error-category": "Strony z błędami podświetlania składni",
+	"syntaxhighlight-error-category-desc": "Wystąpił błąd podczas próby podświetlenia kodu zawartego na stronie.",
+	"syntaxhighlight-enclose-category": "Strony używające przestarzałych atrybutów enclose",
+	"syntaxhighlight-enclose-category-desc": "Kolorowanie składni na tej stronie używa przestarzałej składni enclose.",
+	"syntaxhighlight-source-category": "Strony używające przestarzałych znaczników source",
+	"syntaxhighlight-source-category-desc": "Kolorowanie składni na tej stronie używa przestarzałych znaczników source.",
+	"syntaxhighlight-visualeditor-mwsyntaxhighlightinspector-code": "Kod",
+	"syntaxhighlight-visualeditor-mwsyntaxhighlightinspector-language": "Język",
+	"syntaxhighlight-visualeditor-mwsyntaxhighlightinspector-none": "(Brak)",
+	"syntaxhighlight-visualeditor-mwsyntaxhighlightinspector-showlines": "Pokaż numery linii",
+	"syntaxhighlight-visualeditor-mwsyntaxhighlightinspector-startingline": "Rozpocznij numerowanie linii od",
+	"syntaxhighlight-visualeditor-mwsyntaxhighlightinspector-title": "Blok kodu",
+	"syntaxhighlight-error-pygments-invocation-failure": "Nie udało się wywołać Pygments",
+	"syntaxhighlight-error-unknown-language": "Nierozpoznany język „$1”",
+	"syntaxhighlight-error-exceeds-size-limit": "Rozmiar kodu równy $1 {{PLURAL:$1|bajt|bajtów}} przekracza dozwolone maksimum $2 {{PLURAL:$2|bajt|bajtów}}"
+}

@@ -1,0 +1,108 @@
+<!--
+/*!
+ * VisualEditor trigger demo
+ *
+ * @copyright See AUTHORS.txt
+ */
+-->
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>VisualEditor Trigger Demo</title>
+		<style>
+			body {
+				font-size: 1em;
+				font-family: sans-serif;
+				cursor: default;
+			}
+			ul {
+				margin: 0;
+				padding: 0;
+				list-style: none;
+			}
+			.flow li {
+				display: inline-block;
+			}
+			.stack li {
+				display: inline-block;
+				white-space: nowrap;
+				padding: 0.75em;
+				margin: 0.125em;
+				border: 1px solid #ccc;
+				background-color: #eee;
+				border-radius: 3px;
+			}
+			.key {
+				display: inline-block;
+				cursor: pointer;
+				color: #fff;
+				background-color: #555;
+				margin: 0.125em;
+				padding: 0.75em;
+				border-radius: 0.25em;
+				border: 2px outset #555;
+				-moz-user-select: none;
+				-webkit-user-select: none;
+				-ms-user-select: none;
+				user-select: none;
+			}
+			.alias {
+				color: #bbb;
+			}
+			.active {
+				border: inset 2px #444;
+				background-color: #333;
+				text-shadow: 0 0 0.5em #fff
+			}
+			table {
+				width: 100%;
+			}
+			td {
+				padding: 3em;
+				vertical-align: top;
+			}
+			h1 {
+				padding: 1.5em;
+				padding-bottom: 0;
+				margin: 0;
+			}
+			h2 {
+				font-weight: normal;
+			}
+			.title {
+				color: #777;
+			}
+		</style>
+	</head>
+	<body>
+		<h1><span class="title">Key sequence: </span><span id="trigger"></span></h1>
+		<table>
+			<tr>
+				<td>
+					<h2 class="title">Modifiers</h2>
+					<ul id="modifiers" class="flow"></ul>
+				</td>
+				<td>
+					<h2 class="title">Primary</h2>
+					<ul id="primary" class="flow"></ul>
+				</td>
+			</tr>
+			<tr>
+				<td colspan="2">
+					<h2 class="title">Aliases</h2>
+					<ul id="aliases" class="stack"></ul>
+				</td>
+			</tr>
+		</table>
+		<script src="../../lib/jquery/jquery.js"></script>
+		<script src="../../lib/oojs/oojs.js"></script>
+		<script src="../../lib/oojs-ui/oojs-ui-core.js"></script>
+		<script src="../../lib/oojs-ui/oojs-ui-windows.js"></script>
+		<script src="../../lib/unicodejs/unicodejs.js"></script>
+		<script src="../../src/ve.js"></script>
+		<script src="../../src/ui/ve.ui.js"></script>
+		<script src="../../src/ui/ve.ui.Trigger.js"></script>
+		<script src="trigger.js"></script>
+	</body>
+</html>

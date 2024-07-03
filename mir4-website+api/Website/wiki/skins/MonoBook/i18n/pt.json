@@ -1,0 +1,25 @@
+{
+	"@metadata": {
+		"authors": [
+			"Athena in Wonderland",
+			"Fúlvio",
+			"Hamilton Abreu",
+			"Vitorvicentevalente"
+		]
+	},
+	"skinname-monobook": "MonoBook",
+	"monobook-desc": "O tema clássico do MediaWiki desde 2004, tendo este nome sido atribuído devido a uma fotografia a preto e branco de um livro no plano de fundo da página",
+	"monobook.css": "/* Todo o código CSS colocado aqui será carregado para os utilizadores do tema Monobook */",
+	"monobook.js": "/* Todo o código Javascript colocado aqui será carregado para os utilizadores do tema Monobook */",
+	"monobook-jumptotop": "voltar ao topo",
+	"monobook-jumptopersonal": "ferramentas de utilizador",
+	"monobook-jumptonavigation": "Saltar para a navegação",
+	"monobook-jumptosearch": "Saltar para a pesquisa",
+	"monobook-more-actions": "Mais",
+	"cactions-mobile": "Operações da página",
+	"monobook-cactions-label": "Ações da página",
+	"monobook-notifications-link": "Notificações ($1)",
+	"monobook-notifications-link-none": "Notificações",
+	"monobook-view-history": "Histórico",
+	"monobook-action-undelete": "Restaurar {{PLURAL:$1|uma edição|$1 edições}}"
+}

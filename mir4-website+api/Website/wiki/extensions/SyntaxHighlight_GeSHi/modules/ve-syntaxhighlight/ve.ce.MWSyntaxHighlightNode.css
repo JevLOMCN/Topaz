@@ -1,0 +1,11 @@
+/*!
+ * VisualEditor ContentEditable MWSyntaxHighlightNode styles.
+ *
+ * @copyright VisualEditor Team and others
+ * @license The MIT License (MIT); see LICENSE.txt
+ */
+
+.ve-ce-mwSyntaxHighlightNode pre {
+	/* Prevent silly wrapping on Safari and Chrome (https://bugs.webkit.org/show_bug.cgi?id=35935) */
+	word-wrap: normal;
+}

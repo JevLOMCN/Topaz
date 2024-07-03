@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"Huhbakker",
+			"Mainframe98",
+			"McDutchie",
+			"Siebrand"
+		]
+	},
+	"apihelp-categorytree-summary": "Interne module voor de uitbreiding CategoryTree.",
+	"apihelp-categorytree-param-category": "Naam in te categorienaamruimte, voorvoegsel wordt genegeerd als opgegeven.",
+	"apihelp-categorytree-param-options": "Opties voor de constructor van CategoryTree als een JSON-object. De optie \"depth\" is standaard ingesteld op <kbd>1</kbd>.",
+	"apierror-categorytree-invalidjson": "Opties moeten een geldig JSON-object zijn.",
+	"apierror-categorytree-invalidjson-option": "Optie \"$1\" bevat ongeldige waarde."
+}

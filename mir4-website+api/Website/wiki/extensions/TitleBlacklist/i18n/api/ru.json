@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"Mouse21",
+			"Okras"
+		]
+	},
+	"apihelp-titleblacklist-summary": "Подтвердите заголовок страницы, имя файла или имя пользователя в списке TitleBlacklist.",
+	"apihelp-titleblacklist-param-title": "Строка для проверки против черного списка.",
+	"apihelp-titleblacklist-param-action": "Действие, которое должно быть проверено.",
+	"apihelp-titleblacklist-param-nooverride": "Не пытайтесь переопределить список запрещённыx названий.",
+	"apihelp-titleblacklist-example-1": "Проверить, занесена ли статья [[Foo]] в чёрный список",
+	"apihelp-titleblacklist-example-2": "Проверить, занесена ли статья [[Bar]] в чёрный список для редактирования",
+	"apihelp-createaccount-param-ignoretitleblacklist": "Игнорировать проверки подмены (требует одного из следующих прав: <code>tboverride</code>, <code>tboverride-account</code>)."
+}

@@ -1,0 +1,19 @@
+{
+	"@metadata": {
+		"authors": [
+			"Michawiki"
+		]
+	},
+	"imagemap_desc": "Zmóžnja klikajobne wobraze wót boka klienta z pomocu toflicki <code>&lt;imagemap&gt;</code>",
+	"imagemap_no_image": "Zmólka: musyš wobraz w prědnej zmužce pódaś",
+	"imagemap_invalid_image": "Zmólka: wobraz jo njepłaśiwy abo njeeksistěrujo",
+	"imagemap_bad_image": "Zmólka: wobraz stoj na cornej lisćinje",
+	"imagemap_no_link": "Zmólka: žeden płaśiwy wótkaz na kóńcu smužki $1 namakany",
+	"imagemap_invalid_title": "Zmólka: njepłaśiwy titel we wótkazu w smužce $1",
+	"imagemap_missing_coord": "Zmólka: nic dosć koordinatow za formu w smužce $1",
+	"imagemap_unrecognised_shape": "Zmólka: njespóznata forma w smužce $1, kužda smužka musy se z jadnym z toś tych parametrow zachopiś: <code>default</code>, <code>rect</code>, <code>circle</code> abo <code>poly</code>",
+	"imagemap_invalid_coord": "Zmólka: njepłaśiwa koordinata w smužce $1, musy to licba byś",
+	"imagemap_invalid_desc": "Zmólka: njepłaśiwy parameter \"desc\", móžno su: <code>$1</code>",
+	"imagemap_description": "Wó toś tom wobrazu",
+	"imagemap_poly_odd": "Zmólka: polygon z njerowneju licbu koordinatow w smužce $1"
+}

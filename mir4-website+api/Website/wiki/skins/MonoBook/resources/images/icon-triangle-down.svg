@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="16" height="16" viewBox="0 0 4.233 4.233">
+	<defs>
+		<radialGradient xlink:href="#a" id="b" cx="6.879" cy="6.813" r="1.455" fx="6.879" fy="6.813" gradientTransform="matrix(1 0 0 .72727 -5.292 -3.103)" gradientUnits="userSpaceOnUse"/>
+		<linearGradient id="a">
+			<stop offset="0" stop-color="#8ed3e0"/>
+			<stop offset="1" stop-color="#3771c8"/>
+		</linearGradient>
+	</defs>
+	<path fill="url(#b)" fill-rule="evenodd" d="M3.572 1.455 2.382 2.91h-.53L.794 1.852.66 1.455z"/>
+	<path fill="#4e4e4e" d="M3.44 1.587v.265h.264v-.265zm0 .265h-.265v.265h.265zm-.265.265H2.91v.264h.265zm-.265.264h-.264v.265h.264zm-.264.265H2.38v.264h.265zm-.265.264h-.264v.265h.264z"/>
+	<path fill="#a3a3a3" d="M.53 1.323v.53h.264v-.266h2.91v-.264zm.264.53v.264h.264v-.265zm.264.264v.264h.265v-.264zm.265.264v.265h.264V2.38zm.264.265v.264h.265v-.264zm.265.264v.265h.265V2.91z"/>
+	<path fill="#5f5fd3" d="M3.175 1.587v.265h.265v-.265zm0 .265H2.91v.265h.265zm-.265.265h-.264v.264h.264zm-.264.264H2.38v.265h.265zm-.265.265h-.529v.264h.53z"/>
+</svg>

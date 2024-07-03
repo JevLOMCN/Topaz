@@ -1,0 +1,21 @@
+{
+	"@metadata": {
+		"authors": [
+			"Kly",
+			"SunAfterRain",
+			"Winston Sung"
+		]
+	},
+	"apihelp-query+pageimages-summary": "回傳有關在頁面上圖片的資訊，例如縮圖和照片展示內容。",
+	"apihelp-query+pageimages-example-1": "取得在 <kbd>Albert Einstein</kbd> 頁面上圖片的名稱以及 <kbd>100</kbd> 像素縮圖。",
+	"apihelp-query+pageimages-param-prop": "返回的資訊：",
+	"apihelp-query+pageimages-paramvalue-prop-thumbnail": "與頁面關聯的縮圖圖像URL及尺寸（如果有）。",
+	"apihelp-query+pageimages-paramvalue-prop-original": "與頁面關聯的圖像URL及原始尺寸（如果有）。",
+	"apihelp-query+pageimages-paramvalue-prop-name": "圖片標題。",
+	"apihelp-query+pageimages-param-thumbsize": "縮圖的像素最大寬度。",
+	"apihelp-query+pageimages-param-langcode": "若支援多個語言，會彩現圖片語言代碼",
+	"apihelp-query+pageimages-param-limit": "回傳頁面數量的屬性。",
+	"apihelp-query+pageimages-param-license": "限制頁面圖像為特定的許可協定類型：",
+	"apihelp-query+pageimages-paramvalue-license-free": "僅自由授權圖片。",
+	"apihelp-query+pageimages-paramvalue-license-any": "最佳圖片，無論是否為自由授權。"
+}

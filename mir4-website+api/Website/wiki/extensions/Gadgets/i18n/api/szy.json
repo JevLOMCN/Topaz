@@ -1,0 +1,22 @@
+{
+	"@metadata": {
+		"authors": [
+			"Benel",
+			"Bunukwiki"
+		]
+	},
+	"apihelp-query+gadgetcategories-param-prop": "amiala u canan adidi’ay sakaluk kakuniza cesyun:\n;name: labuay liyad malecaday a kalungangan\n;title: kakuniza satangahan\n;members: ibalu’ nu kakuniza nikayadah nu adidi’ay a sakaluk.",
+	"apihelp-query+gadgetcategories-param-names": "amaala kakuniza kalungangan.",
+	"apihelp-query+gadgetcategories-example-1": "maala izaway a adidi’ay sakaluk kakuniza piazihan-tu-sulit",
+	"apihelp-query+gadgetcategories-example-2": "maala sacahamin mahizaay kakuniza kalungangan ku \"foo\" atu \"bar\" a cesyun",
+	"apihelp-query+gadgets-param-prop": "amiala canan adidi’ay sakaluk cesyun:\n;id: labu adidi’ay sakaluk ID.\n;metadata: adidi’ay sakaluk metadata.\n;desc: adidi’ay sakaluk sapuelac miliyaw ta HTML kese (hakay sasutili’ay haymaw, i maydih a dada’ misaungay).",
+	"apihelp-query+gadgets-param-categories": "nay tina kakuniza maala adidi’ay sakaluk.",
+	"apihelp-query+gadgets-param-ids": "amiala adidi’ay sakaluk a ID.",
+	"apihelp-query+gadgets-param-allowedonly": "pasilsil a cacay nuayzaay a misaungayay taneng pisaungay a adidi’ay sakaluk.",
+	"apihelp-query+gadgets-param-enabledonly": "pasilsil a cacaynay ayzaay misaungayay miwawah a adidi’ay sakaluk.",
+	"apihelp-query+gadgets-example-1": "maala adidi’ay sakaluk atu kya sapuelac piazihan-tu-sulit",
+	"apihelp-query+gadgets-example-2": "maala adidi’ay sakaluk aut kya sacahamin susin piazihan-tu-sulit",
+	"apihelp-query+gadgets-example-3": "maala tungusay nu kakuniza \"foo\" a adidi’ay sakaluk piazihan-tu-sulit",
+	"apihelp-query+gadgets-example-4": "miala mahizaay adidi’ay sakaluk \"foo\" atu \"bar\" a cesyun",
+	"apihelp-query+gadgets-example-5": "maala ayzaay a misaungayay mitekaay a piazihan-tu-sulit nu adidi’ay sakaluk-silsil"
+}

@@ -1,0 +1,16 @@
+{
+	"@metadata": {
+		"authors": [
+			"Eleassar"
+		]
+	},
+	"renocaptcha-desc": "Modul reCAPTCHA NoCAPTCHA za potrditev urejanja",
+	"renocaptcha-edit": "Za zaščito vikija pred samodejnim dodajanjem smetja z urejanjem vas prijazno prosimo, da rešite naslednjo CAPTCHA:",
+	"renocaptcha-addurl": "Vaše urejanje vključuje nove zunanje povezave. Za zaščito vikija pred samodejnim smetjem vas prijazno prosimo, da rešite naslednjo CAPTCHA:",
+	"renocaptcha-badlogin": "Za zaščito vikija pred samodejnim razbijanjem gesel vas prijazno prosimo, da rešite naslednjo CAPTCHA:",
+	"renocaptcha-createaccount": "Za zaščito vikija pred samodejnim ustvarjanjem računov vas prijazno prosimo, da rešite naslednjo CAPTCHA:",
+	"renocaptcha-createaccount-fail": "Zdi se, da niste rešili CAPTCHA.",
+	"renocaptcha-create": "Za zaščito vikija pred samodejnim ustvarjanjem strani vas prijazno prosimo, da rešite naslednjo CAPTCHA:",
+	"renocaptcha-noscript": "Žal ste onemogočili JavaScript, zato ne moremo samodejno prepoznati, ali ste človek ali ne. Prosimo, rešite zgornjo CAPTCHA in kopirajte pridobljeno besedilo v naslednje besedilno polje:",
+	"renocaptcha-help": "Rešite izziv reCaptcha NoCaptcha in vrnite vrednost odgovora kot captchaWord."
+}

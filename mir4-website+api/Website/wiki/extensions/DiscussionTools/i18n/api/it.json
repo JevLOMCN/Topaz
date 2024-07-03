@@ -1,0 +1,18 @@
+{
+	"@metadata": {
+		"authors": [
+			"Beta16"
+		]
+	},
+	"apierror-discussiontools-commentid-notfound": "Commento con ID '$1' non trovato.",
+	"apierror-discussiontools-commentname-notfound": "Commento con il nome '$1' non trovato.",
+	"apihelp-discussiontoolsedit-param-html": "Contenuto da pubblicare, come HTML. Non può essere utilizzato insieme a <var>wikitext</var>.",
+	"apihelp-discussiontoolsedit-param-allownosectiontitle": "Consenti la pubblicazione di una nuova sezione senza titolo.",
+	"apihelp-discussiontoolsedit-param-wikitext": "Contenuto da pubblicare, come wikitesto. Non può essere utilizzato insieme a <var>html</var>.",
+	"apihelp-discussiontoolsedit-paramvalue-paction-addcomment": "Aggiungi un nuovo commento come risposta ad un commento esistente.",
+	"apihelp-discussiontoolsedit-paramvalue-paction-addtopic": "Aggiungi una nuova sessione di discussione ed il suo primo commento.",
+	"apihelp-discussiontoolsedit-summary": "Pubblica un messaggio su una pagina di discussione.",
+	"apihelp-discussiontoolsfindcomment-summary": "Trova un commento tramite il suo ID o nome.",
+	"apihelp-discussiontoolsfindcomment-param-idorname": "ID commento o nome",
+	"apihelp-discussiontoolspageinfo-param-prop": "Quali proprietà ottenere:"
+}

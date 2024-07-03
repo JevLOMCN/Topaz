@@ -1,0 +1,42 @@
+{
+	"@metadata": {
+		"authors": [
+			"Andrei Stroe",
+			"Cin",
+			"Firilacroco",
+			"KlaudiuMihaila",
+			"Mihai",
+			"Minisarm",
+			"Stelistcristi",
+			"XXN"
+		]
+	},
+	"categorytree": "Arborele categoriilor",
+	"categorytree-portlet": "Categorii",
+	"categorytree-legend": "Arată arborele categoriilor",
+	"categorytree-desc": "Navighează dinamic în [[Special:CategoryTree|stuctura categoriilor]]",
+	"categorytree-header": "Introduceți un nume de categorie pentru vizualizarea conținutului în structură arborescentă. (Necesită JavaScript.)",
+	"categorytree-category": "Categorie:",
+	"categorytree-go": "Arată arborele",
+	"categorytree-parents": "Părinți",
+	"categorytree-mode-label": "Mod:",
+	"categorytree-mode-categories": "doar categorii",
+	"categorytree-mode-pages": "pagini fără imagini",
+	"categorytree-mode-all": "toate paginile",
+	"categorytree-collapse": "restrânge",
+	"categorytree-expand": "extinde",
+	"categorytree-member-counts": "conține {{PLURAL:$1|1 subcategorie|$1 subcategorii}}, {{PLURAL:$2|1 pagină|$2 pagini}} și {{PLURAL:$3|1 fișier|$3 fișiere}}",
+	"categorytree-num-categories": "$1 C",
+	"categorytree-num-pages": "$1 P",
+	"categorytree-num-files": "$1 F",
+	"categorytree-num-empty": "fără conținut",
+	"categorytree-load": "încarcă",
+	"categorytree-loading": "încărcare…",
+	"categorytree-nothing-found": "fără rezultat",
+	"categorytree-no-subcategories": "nici o subcategorie",
+	"categorytree-no-parent-categories": "nici o categorie părinte",
+	"categorytree-no-pages": "nicio pagină sau subcategorie",
+	"categorytree-not-found": "Categoria <i>$1</i> nu a fost găsită",
+	"categorytree-error": "Problemă la încărcarea datelor",
+	"categorytree-retry": "Vă rugăm să așteptați câteva momente și să încercați din nou."
+}

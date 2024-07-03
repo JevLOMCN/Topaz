@@ -1,0 +1,110 @@
+/* User login and signup forms */
+@import 'mediawiki.skin.variables.less';
+@import 'mediawiki.mixins.less';
+
+@defaultFormWidth: 290px;
+
+.mw-htmlform {
+	box-sizing: border-box;
+
+	@media ( min-width: @min-width-breakpoint-tablet ) {
+		width: @defaultFormWidth;
+	}
+}
+
+#mw-createaccount-join,
+.mw-htmlform-submit {
+	width: 100%;
+	justify-content: center;
+}
+
+/* TODO: Remove this and allow Codex's default field spacing of 24px to take effect */
+.mw-htmlform-codex .cdx-field {
+	margin: 0 0 15px;
+}
+
+.mw-htmlform .mw-secure {
+	background: url( images/icon-lock.png ) no-repeat left center;
+	margin: 0 0 0 1px;
+	padding: 0 0 0 11px;
+}
+
+/*
+ * When inside the VForm style, disable the border that Vector and other skins
+ * put on the div surrounding the login/create account form.
+ * Also disable the margin and padding that Vector puts around the form.
+ */
+.mw-ui-container #userloginForm,
+.mw-ui-container #userlogin {
+	border: 0;
+	margin: 0;
+	padding: 0;
+}
+
+/* Reposition and resize language links, which appear on a per-wiki basis */
+.mw-ui-container #languagelinks {
+	margin-bottom: 2em;
+	font-size: 0.8em;
+}
+
+/* Put some space under template's header, which may contain CAPTCHA HTML. */
+section.mw-form-header {
+	margin-bottom: 10px;
+}
+
+/* shuffled CAPTCHA */
+#wpCaptchaWord {
+	margin-top: 6px;
+}
+
+/* FIXME: These should be namespaced to mw-ext-confirmedit-fancycaptcha-, and really shouldn't be in core at all */
+/* stylelint-disable-next-line selector-class-pattern */
+.fancycaptcha-captcha-container {
+	background-color: @background-color-neutral-subtle;
+	margin-bottom: 15px;
+	border: @border-subtle;
+	border-radius: @border-radius-base;
+	padding: 8px;
+	text-align: center;
+}
+
+.mw-createacct-captcha-assisted {
+	display: block;
+	margin-top: 0.5em;
+}
+
+/* Put a border around the fancycaptcha-image-container. */
+/* stylelint-disable-next-line selector-class-pattern */
+.fancycaptcha-captcha-and-reload {
+	border: @border-subtle;
+	border-radius: @border-radius-base @border-radius-base 0 0;
+	/* Other display formats end up too wide */
+	display: table-cell;
+	width: 270px;
+	background-color: @background-color-base;
+}
+
+/* stylelint-disable-next-line selector-class-pattern */
+.fancycaptcha-captcha-container .mw-ui-input {
+	margin-top: @position-offset-border-width-base;
+	border-color: @border-color-subtle;
+	border-radius: 0 0 @border-radius-base @border-radius-base;
+}
+
+/* Make the fancycaptcha-image-container full-width within its parent. */
+/* stylelint-disable-next-line selector-class-pattern */
+.fancycaptcha-image-container {
+	width: 100%;
+}
+
+.cdx-message .mw-userLogin-icon {
+	&--user-temporary {
+		.cdx-mixin-css-icon(@cdx-icon-user-temporary);
+	}
+}
+
+.mw-login-flush-right {
+	float: right;
+	padding-right: 0;
+	margin-right: 0;
+}

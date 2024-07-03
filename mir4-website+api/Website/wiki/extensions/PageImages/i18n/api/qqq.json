@@ -1,0 +1,20 @@
+{
+	"@metadata": {
+		"authors": [
+			"Shirayuki",
+			"Umherirrender"
+		]
+	},
+	"apihelp-query+pageimages-summary": "{{doc-apihelp-summary|query+pageimages}}",
+	"apihelp-query+pageimages-example-1": "{{doc-apihelp-example|query+pageimages}}",
+	"apihelp-query+pageimages-param-prop": "{{doc-apihelp-param|query+pageimages|prop}}",
+	"apihelp-query+pageimages-paramvalue-prop-thumbnail": "{{doc-apihelp-paramvalue|query+pageimages|prop|thumbnail}}",
+	"apihelp-query+pageimages-paramvalue-prop-original": "{{doc-apihelp-paramvalue|query+pageimages|prop|original}}",
+	"apihelp-query+pageimages-paramvalue-prop-name": "{{doc-apihelp-paramvalue|query+pageimages|prop|name}}",
+	"apihelp-query+pageimages-param-thumbsize": "{{doc-apihelp-param|query+pageimages|thumbsize}}",
+	"apihelp-query+pageimages-param-langcode": "{{doc-apihelp-param|query+pageimages|langcode}}",
+	"apihelp-query+pageimages-param-limit": "{{doc-apihelp-param|query+pageimages|limit}}",
+	"apihelp-query+pageimages-param-license": "{{doc-apihelp-param|query+pageimages|license}}",
+	"apihelp-query+pageimages-paramvalue-license-free": "{{doc-apihelp-paramvalue|query+pageimages|license|free}}",
+	"apihelp-query+pageimages-paramvalue-license-any": "{{doc-apihelp-paramvalue|query+pageimages|license|any}}"
+}

@@ -1,0 +1,70 @@
+{
+	"name": "FancyCaptcha",
+	"author": [
+		"Brion Vibber",
+		"..."
+	],
+	"url": "https://www.mediawiki.org/wiki/Extension:ConfirmEdit#FancyCaptcha",
+	"descriptionmsg": "fancycaptcha-desc",
+	"license-name": "GPL-2.0-or-later",
+	"type": "antispam",
+	"APIModules": {
+		"fancycaptchareload": "MediaWiki\\Extension\\ConfirmEdit\\FancyCaptcha\\ApiFancyCaptchaReload"
+	},
+	"MessagesDirs": {
+		"FancyCaptcha": [
+			"i18n",
+			"i18n/api"
+		]
+	},
+	"AutoloadClasses": {
+		"FancyCaptcha": "includes/FancyCaptcha.php",
+		"MediaWiki\\Extension\\ConfirmEdit\\FancyCaptcha\\FancyCaptcha": "includes/FancyCaptcha.php"
+	},
+	"AutoloadNamespaces": {
+		"MediaWiki\\Extension\\ConfirmEdit\\FancyCaptcha\\": "includes/"
+	},
+	"ResourceModules": {
+		"ext.confirmEdit.fancyCaptcha.styles": {
+			"styles": "ext.confirmEdit.fancyCaptcha.less"
+		},
+		"ext.confirmEdit.fancyCaptcha": {
+			"scripts": "ext.confirmEdit.fancyCaptcha.js",
+			"dependencies": "mediawiki.api"
+		},
+		"ext.confirmEdit.fancyCaptchaMobile": {
+			"scripts": "ext.confirmEdit.fancyCaptcha.js",
+			"dependencies": "mobile.startup"
+		}
+	},
+	"ResourceFileModulePaths": {
+		"localBasePath": "resources",
+		"remoteExtPath": "ConfirmEdit/FancyCaptcha/resources"
+	},
+	"callback": "MediaWiki\\Extension\\ConfirmEdit\\Hooks::onFancyCaptchaSetup",
+	"config": {
+		"CaptchaClass": {
+			"value": "MediaWiki\\Extension\\ConfirmEdit\\FancyCaptcha\\FancyCaptcha"
+		},
+		"CaptchaFileBackend": {
+			"value": ""
+		},
+		"CaptchaDirectory": {
+			"value": false
+		},
+		"CaptchaDirectoryLevels": {
+			"value": 0
+		},
+		"CaptchaSecret": {
+			"value": "CHANGE_THIS_SECRET!"
+		},
+		"CaptchaDeleteOnSolve": {
+			"value": false
+		},
+		"CaptchaStorageDirectory": {
+			"description": "The directory that captchas will be stored in on the CaptchaFileBackend. You probably don't need to change this!",
+			"value": "captcha-render"
+		}
+	},
+	"manifest_version": 2
+}

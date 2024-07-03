@@ -1,0 +1,327 @@
+@import 'mediawiki.skin.variables.less';
+@import 'mediawiki.mixins.less';
+@import 'mediawiki.ui/mixins.buttons.less';
+
+/* stylelint-disable selector-class-pattern */
+
+// All buttons start with `.mw-ui-button` class, modified by other classes.
+// It can be any element.  Due to a lack of a CSS reset, the exact styling of
+// the button depends on what type of element is used.
+// There are two kinds of buttons, the default is a "Call to Action" with an obvious border
+// and there is a quiet kind without a border.
+
+// Neutral button styling
+//
+// These are the main actions on the page/workflow. The page should have only one of progressive and destructive buttons, the rest being quiet.
+//
+// Markup:
+// <div>
+//   <button class="mw-ui-button">.mw-ui-button</button>
+// </div>
+// <div>
+//   <button class="mw-ui-button" disabled>.mw-ui-button</button>
+// </div>
+.mw-ui-button {
+	background-color: @background-color-interactive-subtle;
+	border-color: @border-color-base;
+	color: @color-base;
+	.mw-ui-button();
+	.mw-ui-button-states();
+
+	// If a sibling element is a checklist, the state should also apply to the button.
+	input[ type='checkbox' ]:hover + &,
+	&:hover {
+		background-color: @background-color-base;
+		color: @color-base--hover;
+	}
+
+	input[ type='checkbox' ]:focus + &,
+	&:focus {
+		// Make sure that `color` isn't inheriting from user-agent styles
+		color: @color-base;
+		border-color: @border-color-progressive--focus;
+		box-shadow: @box-shadow-inset-small @box-shadow-color-progressive--focus;
+		// Set the standard focus `outline` transparent. A `border` and `box-shadow` visual
+		// focus is added above for common rendering.
+		// In Windows high contrast mode the transparent outline becomes visible.
+		// As vendor stylesheets set the outline on `:focus`, we need to follow here too and
+		// can't rely on the next selector to override it.
+		outline: @outline-base--focus;
+	}
+
+	input[ type='checkbox' ]:active + &,
+	&:active {
+		background-color: @background-color-interactive;
+		color: @color-emphasized;
+		border-color: @border-color-interactive;
+		box-shadow: none;
+	}
+
+	&.mw-ui-icon-element {
+		&:not( .mw-ui-icon-with-label-desktop ) {
+			// stylelint-disable-next-line declaration-no-important
+			color: transparent !important;
+
+			span:not( .mw-ui-icon ) {
+				.mixin-screen-reader-text();
+			}
+		}
+
+		@media all and ( max-width: @width-breakpoint-desktop ) {
+			&.mw-ui-icon-with-label-desktop {
+				// stylelint-disable-next-line declaration-no-important
+				color: transparent !important;
+			}
+
+			span:not( .mw-ui-icon ) {
+				.mixin-screen-reader-text();
+			}
+		}
+	}
+
+	// Styling for specific button types
+	// -----------------------------------------
+
+	// Quiet buttons
+	//
+	// Use quiet buttons when they are less important and alongside other progressive or destructive buttons. It should be used for an action that exits the user from the current view/workflow.
+	// Its use is  not recommended on mobile/tablet due to lack of hover state.
+	//
+	// Markup:
+	// <div>
+	//   <button class="mw-ui-button mw-ui-quiet">.mw-ui-button</button>
+	// </div>
+	// <div>
+	//   <button class="mw-ui-button mw-ui-destructive mw-ui-quiet">.mw-ui-destructive</button>
+	// </div>
+	// <div>
+	//   <button class="mw-ui-button mw-ui-destructive mw-ui-quiet" disabled>.mw-ui-destructive</button>
+	// </div>
+	// <div>
+	//   <button class="mw-ui-button mw-ui-progressive mw-ui-quiet">.mw-ui-progressive</button>
+	// </div>
+	// <div>
+	//   <button class="mw-ui-button mw-ui-progressive mw-ui-quiet" disabled>.mw-ui-progressive</button>
+	// </div>
+	&.mw-ui-quiet,
+	&.mw-ui-quiet.mw-ui-progressive,
+	&.mw-ui-quiet.mw-ui-destructive {
+		background-color: transparent;
+		// Quiet buttons all start gray, and reveal
+		// progressive/destructive color on hover and active.
+		color: @color-base;
+		border-color: @border-color-transparent;
+		font-weight: bold;
+
+		&:not( .mw-ui-icon-element ) {
+			min-height: 32px;
+		}
+
+		// If a sibling element is a checklist, the state should also apply to the button.
+		input[ type='checkbox' ]:hover + &,
+		&:hover {
+			background-color: @background-color-button-quiet--hover;
+			color: @color-base;
+		}
+
+		input[ type='checkbox' ]:focus + &,
+		&:focus {
+			color: @color-base;
+			border-color: @border-color-progressive--focus;
+			box-shadow: @box-shadow-inset-small @box-shadow-color-progressive--focus;
+		}
+
+		input[ type='checkbox' ]:active + &,
+		&:active {
+			background-color: @background-color-button-quiet--active;
+			color: @color-emphasized;
+			border-color: @border-color-interactive;
+			box-shadow: none;
+		}
+
+		&:disabled,
+		&:disabled:hover,
+		&:disabled:active {
+			background-color: @background-color-transparent;
+			color: @color-disabled;
+			border-color: @border-color-transparent;
+		}
+	}
+
+	// Progressive buttons
+	//
+	// Use progressive buttons for actions which lead to a next step in the process.
+	//
+	// Markup:
+	// <div>
+	//   <button class="mw-ui-button mw-ui-progressive">.mw-ui-progressive</button>
+	// </div>
+	// <div>
+	//   <button class="mw-ui-button mw-ui-progressive" disabled>.mw-ui-progressive</button>
+	// </div>
+	&.mw-ui-progressive {
+		.mw-ui-button-colors-primary( @color-progressive, @color-progressive--hover, @color-progressive--active );
+
+		&.mw-ui-quiet {
+			background-color: @background-color-transparent;
+			color: @color-progressive;
+			border-color: @border-color-transparent;
+
+			input[ type='checkbox' ]:hover + &,
+			&:hover {
+				// TODO: Should be a token.
+				// This came out of `background-color-primary` by mediawiki.ui.
+				// Value was `fade( #347bff, 20% )`, which results in `rgba( 52, 123, 255, 0.2 )`.
+				// WikimediaUI Base was featuring
+				// `@background-color-primary--hover: rgba( 41, 98, 204, 0.1 )` in contrast.
+				// Let's keep this static for the time being and revisit with a new Codex token.
+				background-color: rgba( 52, 123, 255, 0.2 );
+				color: @color-progressive--hover;
+				border-color: @border-color-transparent;
+			}
+
+			input[ type='checkbox' ]:focus + &,
+			&:focus {
+				color: @color-progressive--focus;
+				border-color: @color-progressive--focus;
+			}
+
+			input[ type='checkbox' ]:active + &,
+			&:active {
+				color: @color-inverted;
+				background-color: @color-progressive--active;
+				border-color: @color-progressive--active;
+			}
+		}
+	}
+
+	// Destructive buttons
+	//
+	// Use destructive buttons for actions that remove or limit, such as deleting a page or blocking a user.
+	// This should not be used for cancel buttons.
+	//
+	// Markup:
+	// <div>
+	//   <button class="mw-ui-button mw-ui-destructive">.mw-ui-destructive</button>
+	// </div>
+	// <div>
+	//   <button class="mw-ui-button mw-ui-destructive" disabled>.mw-ui-destructive</button>
+	// </div>
+	&.mw-ui-destructive {
+		.mw-ui-button-colors-primary( @color-destructive, @color-destructive--hover, @color-destructive--active );
+
+		&.mw-ui-quiet {
+			color: @color-destructive;
+			background-color: @background-color-transparent;
+			border-color: @border-color-transparent;
+
+			input[ type='checkbox' ]:hover + &,
+			&:hover {
+				background-color: @background-color-destructive--hover;
+				border-color: @border-color-transparent;
+				color: @color-destructive--hover;
+			}
+
+			input[ type='checkbox' ]:focus + &,
+			&:focus {
+				color: @color-destructive;
+				border-color: @color-destructive--focus;
+			}
+
+			input[ type='checkbox' ]:active + &,
+			&:active {
+				color: @color-inverted;
+				background-color: @color-destructive--active;
+				border-color: @color-destructive--active;
+			}
+		}
+	}
+
+	// Big buttons
+	//
+	// Not all buttons are equal. You can emphasise certain actions over others
+	// using the mw-ui-big class.
+	//
+	// Markup:
+	// <div>
+	//   <button class="mw-ui-button mw-ui-big">.mw-ui-button</button>
+	// </div>
+	// <div>
+	//   <button class="mw-ui-button mw-ui-progressive mw-ui-big">.mw-ui-progressive</button>
+	// </div>
+	// <div>
+	//   <button class="mw-ui-button mw-ui-destructive mw-ui-big">.mw-ui-destructive</button>
+	// </div>
+	&.mw-ui-big {
+		font-size: 1.3em;
+	}
+
+	// Block buttons
+	//
+	// Some buttons might need to be stacked.
+	//
+	// Markup:
+	// <div>
+	//   <button class="mw-ui-button mw-ui-block">.mw-ui-button</button>
+	// </div>
+	// <div>
+	//   <button class="mw-ui-button mw-ui-progressive mw-ui-block">.mw-ui-progressive</button>
+	// </div>
+	// <div>
+	//   <button class="mw-ui-button mw-ui-destructive mw-ui-block">.mw-ui-destructive</button>
+	// </div>
+	&.mw-ui-block {
+		display: block;
+		width: 100%;
+		margin-left: auto;
+		margin-right: auto;
+	}
+}
+
+a.mw-ui-button {
+	text-decoration: none;
+
+	// This overrides an underline declaration on a:hover and a:focus in
+	// commonElements.css, which the class alone isn't specific enough to do.
+	&:hover,
+	&:focus {
+		text-decoration: none;
+	}
+}
+
+// Button groups
+//
+// Group of buttons. Make sure you clear the floating after using a mw-ui-button-group.
+//
+// Markup:
+// <div class="mw-ui-button-group">
+//   <div class="mw-ui-button is-on">A</div>
+//   <div class="mw-ui-button">B</div>
+//   <div class="mw-ui-button">C</div>
+//   <div class="mw-ui-button">D</div>
+// </div><div style="clear:both"></div>
+.mw-ui-button-group {
+	& > * {
+		min-width: 48px;
+		border-radius: 0;
+		float: left;
+
+		&:first-child {
+			border-top-left-radius: @border-radius-base;
+			border-bottom-left-radius: @border-radius-base;
+		}
+
+		&:not( :first-child ) {
+			border-left: 0;
+		}
+
+		&:last-child {
+			border-top-right-radius: @border-radius-base;
+			border-bottom-right-radius: @border-radius-base;
+		}
+	}
+
+	& .is-on .button {
+		cursor: @cursor-base;
+	}
+}

@@ -1,0 +1,40 @@
+{
+	"@metadata": {
+		"authors": [
+			"Ajeje Brazorf"
+		]
+	},
+	"templatedata-doc-desc-empty": "Nuḍḍa discrizzioni.",
+	"templatedata-doc-param-default": "Pridifinutu",
+	"templatedata-doc-param-desc": "Discrizzioni",
+	"templatedata-doc-param-status": "Statu",
+	"templatedata-doc-param-type": "Tipu",
+	"templatedata-doc-param-type-boolean": "Booleanu",
+	"templatedata-doc-param-type-content": "Cuntinutu",
+	"templatedata-doc-param-type-line": "Lìnia",
+	"templatedata-doc-param-type-number": "Nùmmiru",
+	"templatedata-doc-param-type-string": "Stringa",
+	"templatedata-doc-param-type-unknown": "Scanusciutu",
+	"templatedata-doc-param-type-url": "URL",
+	"templatedata-doc-param-type-wiki-file-name": "File",
+	"templatedata-doc-param-type-wiki-page-name": "Nomu dâ pàggina",
+	"templatedata-doc-param-type-wiki-template-name": "Template",
+	"templatedata-doc-param-type-wiki-user-name": "Utenti",
+	"templatedata-modal-button-add-language": "Agghiunci lingua",
+	"templatedata-modal-button-apply": "Applica",
+	"templatedata-modal-button-cancel": "Annulla",
+	"templatedata-modal-button-changelang": "Cancia lingua",
+	"templatedata-modal-button-done": "Fattu",
+	"templatedata-modal-button-saveparam": "Sarva",
+	"templatedata-modal-current-language": "Lingua attuali: $1",
+	"templatedata-modal-format-custom": "Pirsunalizzatu",
+	"templatedata-modal-table-param-default": "Pridifinutu ($1)",
+	"templatedata-modal-table-param-description": "Discrizzioni ($1)",
+	"templatedata-modal-table-param-example": "Asempiu ($1)",
+	"templatedata-modal-table-param-label": "Etichetta ($1)",
+	"templatedata-modal-table-param-name": "Nomu",
+	"templatedata-modal-table-param-type": "Tipu",
+	"templatedata-modal-title-choose-language": "Scegghi la lingua",
+	"templatedata-modal-title-language": "Lingua",
+	"templatedata-modal-title-templatedesc": "Discrizzioni dû template ($1)"
+}

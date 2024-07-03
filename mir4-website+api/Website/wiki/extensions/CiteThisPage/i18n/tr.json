@@ -1,0 +1,23 @@
+{
+	"@metadata": {
+		"authors": [
+			"BaRaN6161 TURK",
+			"Erkan Yilmaz",
+			"Hedda",
+			"Incelemeelemani",
+			"Joseph",
+			"MuratTheTurkish",
+			"Srhat",
+			"Stultiwikia",
+			"Uğur Başak"
+		]
+	},
+	"citethispage": "Bu Sayfayı Kaynak Göster",
+	"citethispage-desc": "[[Special:CiteThisPage|Kaynak]] özel sayfası ve araç kutusu bağlantısı ekler",
+	"citethispage-link": "Bu sayfayı kaynak göster",
+	"tooltip-citethispage": "Bu sayfadan nasıl kaynak göstereceği hakkında bilgi",
+	"citethispage-change-submit": "Belirt",
+	"citethispage-change-target": "Sayfa:",
+	"citethispage-badrevision": "Hata: $2 revizyon kimliğiyle \"$1\" sayfası için herhangi bir revizyon bulunamadı.",
+	"citethispage-content": "__NOTOC__\n<div class=\"mw-specialCiteThisPage-bibliographic\">\n\n== {{FULLPAGENAME}} için bibliyografik ayrıntılar ==\n\n* Sayfa adı: {{FULLPAGENAME}}\n* Yazar: {{SITENAME}} katkıları\n* Yayımcı: ''{{SITENAME}}''.\n*  Son revizyon tarihi: {{CURRENTDAY}} {{CURRENTMONTHNAME}} {{CURRENTYEAR}} {{CURRENTTIME}} UTC\n* Alınan tarih: <citation>{{CURRENTDAY}} {{CURRENTMONTHNAME}} {{CURRENTYEAR}} {{CURRENTTIME}} UTC</citation>\n* Kalıcı URL: {{canonicalurl:{{FULLPAGENAME}}|oldid={{REVISIONID}}}}\n* Sayfa Sürüm Kimliği: {{REVISIONID}}\n\n</div>\n<div class=\"plainlinks mw-specialCiteThisPage-styles\">\n\n== {{FULLPAGENAME}} için alıntı biçemleri ==\n\n=== [[APA style|APA biçemi]] ===\n{{FULLPAGENAME}}. ({{CURRENTYEAR}}, {{CURRENTMONTHNAME}} {{CURRENTDAY}}). ''{{SITENAME}}''. <citation>{{CURRENTTIME}}, {{CURRENTMONTHNAME}} {{CURRENTDAY}}, {{CURRENTYEAR}}</citation> tarihinde {{canonicalurl:{{FULLPAGENAME}}|oldid={{REVISIONID}}}} revizyonundan alındı.\n\n=== [[The MLA style manual|MLA biçemi]] ===\n\"{{FULLPAGENAME}}.\" ''{{SITENAME}}''. {{CURRENTDAY}} {{CURRENTMONTHABBREV}} {{CURRENTYEAR}}, {{CURRENTTIME}} UTC. <citation>{{CURRENTDAY}} {{CURRENTMONTHABBREV}} {{CURRENTYEAR}}, {{CURRENTTIME}}</citation> &lt;{{canonicalurl:{{FULLPAGENAME}}|oldid={{REVISIONID}}}}&gt;.\n\n=== [[MHRA Style Guide|MHRA biçemi]] ===\n{{SITENAME}} yazarları, '{{FULLPAGENAME}}', ''{{SITENAME}},'' {{CURRENTDAY}} {{CURRENTMONTHNAME}} {{CURRENTYEAR}}, {{CURRENTTIME}} UTC, &lt;{{canonicalurl:{{FULLPAGENAME}}|oldid={{REVISIONID}}}}&gt; [<citation>{{CURRENTDAY}} {{CURRENTMONTHNAME}} {{CURRENTYEAR}}</citation> tarihinde erişildi]\n\n=== [[The Chicago Manual of Style|Chicago biçemi]] ===\n{{SITENAME}} yazarları, \"{{FULLPAGENAME}},\" ''{{SITENAME}},'' {{canonicalurl:{{FULLPAGENAME}}|oldid={{REVISIONID}}}} (<citation>{{CURRENTMONTHNAME}} {{CURRENTDAY}}, {{CURRENTYEAR}}</citation> tarihinde erişildi).\n\n=== [[Council of Science Editors|CBE/CSE biçemi]] ===\n{{SITENAME}} yazarları. {{FULLPAGENAME}} [İnternet]. {{SITENAME}}; {{CURRENTYEAR}} {{CURRENTMONTHABBREV}} {{CURRENTDAY}}, {{CURRENTTIME}} UTC [<citation>{{CURRENTYEAR}} {{CURRENTMONTHABBREV}} {{CURRENTDAY}}</citation> tarihinde alıntılandı]. Şurada mevcut:\n{{canonicalurl:{{FULLPAGENAME}}|oldid={{REVISIONID}}}}.\n\n=== [[Bluebook|Bluebook biçemi]] ===\n{{FULLPAGENAME}}, {{canonicalurl:{{FULLPAGENAME}}|oldid={{REVISIONID}}}} (son ziyaret tarihi <citation>{{CURRENTMONTHNAME}} {{CURRENTDAY}}, {{CURRENTYEAR}}</citation>).\n\n=== [[BibTeX]] girdisi ===\n\n  @misc{ wiki:xxx,\n    author = \"{{SITENAME}}\",\n    title = \"{{FULLPAGENAME}} --- {{SITENAME}}{,} {{int:sitesubtitle}}\",\n    year = \"{{CURRENTYEAR}}\",\n    url = \"{{canonicalurl:{{FULLPAGENAME}}|oldid={{REVISIONID}}}}\",\n    note = \"[Çevrimiçi; <citation>{{CURRENTDAY}}-{{CURRENTMONTHNAME}}-{{CURRENTYEAR}}</citation> tarihinde erişildi]\"\n  }\n\nÇok daha güzel biçimlendirilmiş web adresleri verme eğiliminde olan [[LaTeX]] paket url'sini (<code>\\usepackage{url}</code> önsözde bir yerde) kullanırken, aşağıdakiler tercih edilebilir:\n\n  @misc{ wiki:xxx,\n    author = \"{{SITENAME}}\",\n    title = \"{{FULLPAGENAME}} --- {{SITENAME}}{,} {{int:sitesubtitle}}\",\n    year = \"{{CURRENTYEAR}}\",\n    url = \"'''\\url{'''{{canonicalurl:{{FULLPAGENAME}}|oldid={{REVISIONID}}}}'''}'''\",\n    note = \"[Çevrimiçi; <citation>{{CURRENTDAY}}-{{CURRENTMONTHNAME}}-{{CURRENTYEAR}}</citation> tarihinde erişildi]\"\n  }\n\n\n</div> <!--\"plainlinks\" için div etiketinin kapanması-->"
+}

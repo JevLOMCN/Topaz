@@ -1,0 +1,20 @@
+{
+	"opts": {
+		"destination": "docs",
+		"package": "package.json",
+		"pedantic": true,
+		"recurse": true
+	},
+	"plugins": [
+		"plugins/markdown"
+	],
+	"source": {
+		"include": [ "modules" ]
+	},
+	"templates": {
+		"cleverLinks": true,
+		"default": {
+			"useLongnameInNav": true
+		}
+	}
+}

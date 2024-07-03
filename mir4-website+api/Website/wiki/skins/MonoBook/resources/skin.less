@@ -1,0 +1,17 @@
+@import 'variables.less';
+@import 'mediawiki.mixins.less';
+
+@media screen {
+	@import 'screen-common.less';
+
+	// When responsive mode is not enabled, apply desktop styles at lower resolutions unconditionally.
+	// When responsive mode is enabled, this class will be present and these rules will not apply
+	// and instead the rules in skin-responsive.less will apply.
+	body:not( .skin--responsive ) {
+		@import 'screen-desktop.less';
+	}
+}
+
+@media print {
+	@import 'print-common.less';
+}

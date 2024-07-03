@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"Winston Sung"
+		]
+	},
+	"pfunc_time_error": "出错：无效个辰光。",
+	"pfunc_expr_unrecognised_word": "表达式出错：弗能识别个词“$1”",
+	"pfunc_expr_unexpected_operator": "表达式出错：朆预料着个$1操作符",
+	"pfunc_expr_missing_operand": "表达式出错：缺少$1个操作数",
+	"pfunc_expr_unrecognised_punctuation": "表达式出错：弗能识别个标点“$1”",
+	"pfunc_expr_division_by_zero": "畀零除。"
+}

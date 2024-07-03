@@ -1,0 +1,34 @@
+{
+	"@metadata": {
+		"authors": [
+			"BaRaN6161 TURK",
+			"Joseba",
+			"Macofe",
+			"Mikel Ibaiba",
+			"Sator",
+			"Subi",
+			"Xabier Armendaritz"
+		]
+	},
+	"thanks-thank": "{{GENDER:$1|{{GENDER:$2|eskertu}}}}",
+	"thanks-thanked": "{{GENDER:$1|{{GENDER:$2|eskertuta}}}}",
+	"thanks-button-thank": "{{GENDER:$1|{{GENDER:$2|Eskertu}}}}",
+	"thanks-button-thanked": "{{GENDER:$1|{{GENDER:$2|Eskertuta}}}}",
+	"thanks-error-undefined": "Ekertzeko ekintzak huts egin du (errorearen kodea: $1). Saiatu berriro mesedez.",
+	"thanks-thank-tooltip": "{{GENDER:$1|Bidali}} eskertze mezua {{GENDER:$2|lankide}} honi",
+	"thanks-confirmation2": "Publikoki {{GENDER:$1|eskertu}}?",
+	"thanks-thanked-notice": "$1 {{GENDER:$2|wikilariari}} eskerrak eman {{GENDER:$3|dizkiozu}}.",
+	"thanks": "Eman eskerrak",
+	"thanks-submit": "Bidali eskerrak",
+	"echo-pref-subscription-edit-thank": "Eskertu nire aldaketa",
+	"echo-pref-tooltip-edit-thank": "Abisatu norbaitek egin dudan aldaketa bat eskertzen duenean.",
+	"echo-category-title-edit-thank": "Eskerrak",
+	"notification-header-rev-thank": "$1 lankideak '''$3''' orrian egin {{GENDER:$4|duzun}} aldaketa eskertu {{GENDER:$2|dizu}}.",
+	"log-name-thanks": "Eskertza erregistroa",
+	"logentry-thanks-thank": "$1 {{GENDER:$2|wikilariak}} eskerrak eman dizkio {{GENDER:$4|$3}} wikilariari",
+	"thanks-confirmation-special-log": "Publikoki eskertu nahi duzu egunkari ekintza hau?",
+	"thanks-confirmation-special-rev": "Publikoki eskertu nahi duzu edizio hau?",
+	"notification-link-text-view-post": "Erakutsi iruzkina",
+	"flow-thanks-confirmation-special": "Iruzkin hau eskertu nahi duzu?",
+	"flow-thanks-thanked-notice": "{{GENDER:$3|Zu}} eskerrak $1 {{GENDER:$2|mutilarena|neskarena|haiena}}agatik oharra."
+}

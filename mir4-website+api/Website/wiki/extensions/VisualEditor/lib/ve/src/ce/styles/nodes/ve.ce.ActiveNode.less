@@ -1,0 +1,17 @@
+/*!
+ * VisualEditor ContentEditable SectionNode styles.
+ *
+ * @copyright See AUTHORS.txt
+ */
+
+.ve-ce-focusableNode .ve-ce-activeNode {
+	cursor: text;
+
+	&,
+	& * {
+		/* T174774: We're using the vendor prefixed form of `text` here since it
+		   has the semantics that it won't be overridden by ancestors having the
+		   value `all` */
+		-moz-user-select: -moz-text;
+	}
+}

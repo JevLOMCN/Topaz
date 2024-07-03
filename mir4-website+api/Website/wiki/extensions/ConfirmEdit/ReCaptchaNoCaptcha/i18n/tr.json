@@ -1,0 +1,17 @@
+{
+	"@metadata": {
+		"authors": [
+			"BaRaN6161 TURK",
+			"MuratTheTurkish"
+		]
+	},
+	"renocaptcha-desc": "reCAPTCHA NoCAPTCHA Düzenleme Onayı için modül",
+	"renocaptcha-edit": "Vikiyi otomatik düzenleme spam'larına karşı korumak için, aşağıdaki CAPTCHA kodunu çözmenizi rica ederiz:",
+	"renocaptcha-addurl": "Düzenlemeniz yeni harici bağlantılar içeriyor. Vikiyi otomatik spam'den korumak için, aşağıdaki CAPTCHA'yı çözmenizi rica ederiz:",
+	"renocaptcha-badlogin": "Vikiyi otomatik parola kırmaya karşı korumak için, aşağıdaki CAPTCHA kodunu çözmenizi rica ederiz:",
+	"renocaptcha-createaccount": "Vikiyi otomatik hesap oluşturmaya karşı korumak için, sizden aşağıdaki CAPTCHA'yı çözmenizi rica ederiz:",
+	"renocaptcha-createaccount-fail": "Görünüşe göre CAPTCHA'yı çözmediniz.",
+	"renocaptcha-create": "Vikiyi otomatik sayfa oluşturmaya karşı korumak için, sizden aşağıdaki CAPTCHA'yı çözmenizi rica ederiz:",
+	"renocaptcha-noscript": "Ne yazık ki JavaScript'i devre dışı bıraktınız, bu yüzden bir insansanız veya olmasanız da otomatik olarak tanıyamıyoruz. Lütfen yukarıdaki CAPTCHA'yı çözün ve elde edilen metni aşağıdaki metin alanına kopyalayın:",
+	"renocaptcha-help": "Lütfen bir ReCaptcha NoCaptcha meydan okumasını çözün ve yanıt değerini captchaWord olarak döndürün."
+}

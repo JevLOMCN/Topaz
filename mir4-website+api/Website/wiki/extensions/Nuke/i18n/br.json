@@ -1,0 +1,32 @@
+{
+	"@metadata": {
+		"authors": [
+			"Fohanno",
+			"Fulup",
+			"Huñvreüs",
+			"Y-M D"
+		]
+	},
+	"nuke": "Diverkañ a-vloc'h",
+	"action-nuke": "pajennoù nukleel",
+	"nuke-desc": "Reiñ a ra an tu d'ar verourien da [[Special:Nuke|ziverkañ pajennoù a-vras]]",
+	"nuke-nopages": "Pajenn nevez ebet gant [[Special:Contributions/$1|{{GENDER:$1|$1}}]] er c'hemmoù diwezhañ.",
+	"nuke-list": "Nevez zo eo bet krouet ar pajennoù da-heul gant [[Special:Contributions/$1|{{GENDER:$1|$1}}]];\nmerkit un tamm notenn ha klikit war ar bouton d'o diverkañ.",
+	"nuke-list-multiple": "Krouet e oa bet ar pajennoù da-heul nevez zo ;\nLakait un notenn ha klikit war ar bouton evit o diverkañ.",
+	"nuke-defaultreason": "Diverkañ a-vras ar pajennoù bet ouzhpennet gant [[Special:Contributions/$1|{{GENDER:$1|$1}}]]",
+	"nuke-multiplepeople": "Diverkañ a-vras ar pajennoù nevez-ouzhpennet",
+	"nuke-tools": "Talvezout a ra an ostilh-mañ da ziverkañ a-vras pajennoù bet ouzhpennet nevez zo gant un implijer enrollet pe gant ur chomlec'h IP.\nMerkañ ar c'homlec'h IP pe anv an implijer evit kaout roll ar pajennoù da ziverkañ, pe lezel gwenn evit an holl implijerien.",
+	"nuke-submit-user": "Rollañ ar pajennoù",
+	"nuke-submit-delete": "Dilemel ar re diuzet",
+	"right-nuke": "Diverkañ pajennoù a-vras",
+	"nuke-userorip": "Anv implijer, chomlec'h IP pe gwenn :",
+	"nuke-maxpages": "Niver brasañ a bajennoù :",
+	"nuke-editby": "Savet gant [[Special:Contributions/$1|{{GENDER:$1|$1}}]]",
+	"nuke-deleted": "Diverket eo bet ar bajenn '''$1'''.",
+	"nuke-not-deleted": "'''N'eus ket bet gallet''' diverkañ ar bajenn [[:$1]].",
+	"nuke-delete-more": "[[Special:Nuke|Diverkañ pajennoù all]]",
+	"nuke-pattern": "Patrom SQL LIKE (d.s. %) evit anv ar bajenn :",
+	"nuke-nopages-global": "N'eus titl pajenn ebet a glotfe gant ho klask.",
+	"nuke-viewchanges": "diskouez ar c'hemmoù",
+	"nuke-linkoncontribs": "dilemel a-vras"
+}

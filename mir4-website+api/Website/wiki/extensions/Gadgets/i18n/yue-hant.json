@@ -1,0 +1,17 @@
+{
+	"@metadata": {
+		"authors": [
+			"Winston Sung"
+		]
+	},
+	"gadgets-desc": "畀用戶響佢哋嘅[[Special:Preferences#mw-prefsection-gadgets|喜好設定]]度設定自定嘅[[Special:Gadgets|CSS同埋JavaScript小工具]]",
+	"prefs-gadgets": "架撐仔",
+	"gadgets-prefstext": "下面係一個特別小工具，你可以響你個戶口度啟用。\n呢啲小工具多數都係基於JavaScript建造，如果要開佢哋，噉個瀏覽器嘅JavaScript就需要啟用咗先至用得到。\n要留意嘅就係呢啲小工具響呢個喜好設定版度係無效果嘅。\n\n亦都同時留意呢啲小工具嘅特別頁唔係MediaWiki軟件嘅一部份，通常都係由你本地嘅wiki度開發同維護。本地管理員可以響[[MediaWiki:Gadgets-definition]]同埋[[Special:Gadgets]]編輯可以用到嘅小工具。",
+	"special-gadgets": "架撐仔",
+	"gadgets-title": "架撐仔",
+	"gadgets-pagetext": "下面係一個按照[[MediaWiki:Gadgets-definition]]嘅定義特別小工具清單，用戶可以響佢哋嘅喜好設定頁度開佢哋。\n呢個概覽提供嘅系統信息頁嘅簡易存取，可以定義每個小工具嘅描述同埋碼。",
+	"gadgets-uses": "用",
+	"gadgets-required-rights": "需要下列{{PLURAL:$2|權限}}：\n\n$1",
+	"gadgets-legacy": "無載入到呢個架生仔。請改用ResourceLoader。（[https://www.mediawiki.org/wiki/Special:MyLanguage/ResourceLoader/Migration_guide_(users) 知多啲]）",
+	"gadgets-export": "匯出"
+}

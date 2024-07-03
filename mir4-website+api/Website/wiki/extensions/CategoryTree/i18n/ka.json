@@ -1,0 +1,38 @@
+{
+	"@metadata": {
+		"authors": [
+			"BRUTE",
+			"David1010",
+			"ITshnik",
+			"Malafaya"
+		]
+	},
+	"categorytree": "კატეგორიების სქემა",
+	"categorytree-portlet": "კატეგორიები",
+	"categorytree-legend": "კატეგორიების სქემის ჩვენება",
+	"categorytree-desc": "[[Special:CategoryTree|კატეგორიის სტრუქტურის]] დინამიური ნავიგაცია",
+	"categorytree-header": "შეიყვანეთ კატეგორიის სახელი, რომ დაინახოთ მისი შიგთავსი ხის სტრუქტურის მსგავსად. (საჭიროა ჯავასკრიპტი.)",
+	"categorytree-category": "კატეგორია:",
+	"categorytree-go": "სქემის ჩვენება",
+	"categorytree-parents": "მშობლები",
+	"categorytree-mode-label": "რეჟიმი:",
+	"categorytree-mode-categories": "მხოლოდ კატეგორიები",
+	"categorytree-mode-pages": "გვერდები ფაილების გარდა",
+	"categorytree-mode-all": "ყველა გვერდი",
+	"categorytree-collapse": "ჩაკეცვა",
+	"categorytree-expand": "გაშლა",
+	"categorytree-member-counts": "შეიცავს {{PLURAL:$1|1 ქვეკატეგორიას|$1 ქვეკატეგორიას}},  {{PLURAL:$2|1 გვერდს|$2 გვერდს}},  და {{PLURAL:$3|1 ფაილს|$3 ფაილს}}",
+	"categorytree-num-categories": "$1 კ",
+	"categorytree-num-pages": "$1 გ",
+	"categorytree-num-files": "$1 ფ",
+	"categorytree-num-empty": "ცარიელი",
+	"categorytree-load": "ჩატვირთვა",
+	"categorytree-loading": "იტვირთება…",
+	"categorytree-nothing-found": "ვერაფერი მოიძებნა",
+	"categorytree-no-subcategories": "ქვეკატეგორიები არაა",
+	"categorytree-no-parent-categories": "მშობელი კატეგორიები არაა",
+	"categorytree-no-pages": "არაა გვერდები ან ქვეკატეგორიები",
+	"categorytree-not-found": "კატეგორია <i>$1</i> ვერ მოიძებნა",
+	"categorytree-error": "ხარვეზი მონაცემთა ჩატვირთვაში.",
+	"categorytree-retry": "გთხოვთ, დაიცადეთ ცოტა ხნით და კვლავ სცადეთ."
+}

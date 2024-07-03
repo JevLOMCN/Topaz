@@ -1,0 +1,21 @@
+{
+	"@metadata": {
+		"authors": [
+			"Diafol",
+			"Lloffiwr"
+		]
+	},
+	"pfunc_time_error": "Gwall: Amser annilys",
+	"pfunc_time_too_long": "Gwall: Gormod o alwadau #time.",
+	"pfunc_time_too_big": "Gwall: nid yw #time yn cynnal blynyddoedd wedi 9999.",
+	"pfunc_time_too_small": "Gwall: nid yw #time yn cynnal blynyddoedd cyn 0.",
+	"pfunc_expr_unexpected_number": "Gwall yn y mynegiad: Rhif annisgwyl.",
+	"pfunc_expr_unrecognised_word": "Gwall mynegiad: Heb adnabod y gair \"$1\".",
+	"pfunc_expr_unexpected_operator": "Gweithredydd $1 annisgwyl",
+	"pfunc_expr_missing_operand": "Gwall mynegiad: Operand ar gyfer $1 ar goll.",
+	"pfunc_expr_unrecognised_punctuation": "Gwall mynegiad: Heb adnabod y nod atalnodi \"$1\".",
+	"pfunc_expr_unclosed_bracket": "Gwall yn y mynegiad: Cromfach heb ei gau.",
+	"pfunc_expr_division_by_zero": "Yn rhannu gyda sero.",
+	"pfunc_expr_unknown_error": "Gwall yn y mynegiad: Gwall anhysbys ($1).",
+	"pfunc_expr_not_a_number": "Yn $1: Nid yw'r canlyniad yn rhif."
+}

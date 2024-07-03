@@ -1,0 +1,8 @@
+{
+	"Quote balancing context should be restricted to td/th cells on the same wikitext line": {
+		"wt2wt": "{|\n!''a''!!''b''\n|''a''||''b''\n|}"
+	},
+	"Unclosed and unmatched quotes": {
+		"wt2wt": "'''''Bold italic text '''with bold deactivated''' in between.'''''\n\n'''''Bold italic text ''with italic deactivated'' in between.'''''\n\n'''Bold text..'''\n\n..spanning two paragraphs (should not work).\n\n'''Bold tag left open'''\n\n''Italic tag left open''\n\nNormal text.\n\n<!-- Unmatching number of opening, closing tags: -->\n'''This year'<nowiki/>'''s election ''should'' beat '''last year''''s.\n\n''Tom'''s car is bigger than '''''<nowiki/>'''Susan'''s.\n\nPlain ''italic'''s plain"
+	}
+}

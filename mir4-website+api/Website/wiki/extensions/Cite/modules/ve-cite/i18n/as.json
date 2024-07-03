@@ -1,0 +1,40 @@
+{
+	"@metadata": {
+		"authors": [
+			"Dibya Dutta",
+			"Gitartha.bordoloi",
+			"IKHazarika",
+			"Simbu123"
+		]
+	},
+	"visualeditor-cite-tool-name-book": "কিতাপ",
+	"visualeditor-cite-tool-name-journal": "জাৰ্নাল",
+	"visualeditor-cite-tool-name-news": "বাতৰি",
+	"visualeditor-cite-tool-name-web": "ৱেবছাইট",
+	"cite-ve-changedesc-ref-group-both": "তথ্যসূত্ৰ গোট \"$1\" ৰ পৰা \"$2\" লৈ সলনি হ'ল",
+	"cite-ve-changedesc-ref-group-from": "তথ্যসূত্ৰ গোট \"$1\"-ৰ পৰা সাধাৰণ গোটলৈ সলনি হ'ল",
+	"cite-ve-changedesc-ref-group-to": "তথ্যসূত্ৰ গোট সাধাৰণ গোটৰ পৰা \"$1\"লৈ সলনি হ'ল",
+	"cite-ve-changedesc-reflist-group-both": "তথ্যসূত্ৰ তালিকা গোট $1-ৰ পৰা $2লৈ সলনি হ'ল",
+	"cite-ve-dialog-reference-editing-reused": "এই তথ্যসূত্ৰটো এই পৃষ্ঠাত $1 {{PLURAL:$1|বাৰ}} ব্যবহৃত হৈছে।",
+	"cite-ve-dialog-reference-options-group-label": "এই গোট ব্যৱহাৰ কৰক",
+	"cite-ve-dialog-reference-options-group-placeholder": "সাধাৰণ তথ্যসূত্ৰ",
+	"cite-ve-dialog-reference-options-name-label": "এই নামৰে পুনঃব্যৱহাৰ কৰক",
+	"cite-ve-dialog-reference-options-section": "বিকল্পসমূহ",
+	"cite-ve-dialog-reference-title": "তথ্যসূত্ৰ",
+	"cite-ve-dialog-reference-useexisting-tool": "পুনৰ্ব্যৱহাৰ কৰক",
+	"cite-ve-dialog-referenceslist-contextitem-description-general": "সাধাৰণ তথ্যসূত্ৰসমূহৰ তালিকা",
+	"cite-ve-dialog-referenceslist-contextitem-description-named": "\"$1\" গোটৰ বাবে তথ্যসূত্ৰৰ তালিকা",
+	"cite-ve-dialog-referenceslist-title": "তথ্যসূত্ৰৰ তালিকা",
+	"cite-ve-dialogbutton-citation-educationpopup-text": "তথ্যৰ উৎস যোগ দি আপোনাৰ সমল উন্নত কৰে। আপুনি কিতাপ, বাতৰি কাকত আৰু ৱেবছাইটৰ উদ্ধৃতি দিব পাৰে।",
+	"cite-ve-dialogbutton-citation-educationpopup-title": "উদ্ধৃতিসমূহ",
+	"cite-ve-dialogbutton-reference-full-label": "সাধাৰণ",
+	"cite-ve-dialogbutton-reference-title": "তথ্যসংগ্ৰহ",
+	"cite-ve-dialogbutton-reference-tooltip": "সাধাৰণ",
+	"cite-ve-dialogbutton-referenceslist-tooltip": "তথ্যসূত্ৰৰ তালিকা",
+	"cite-ve-reference-input-placeholder": "বৰ্তমান তথ্যসূত্ৰৰ মাজত অনুসন্ধান কৰক",
+	"cite-ve-referenceslist-isempty": "এই তালিকাত অন্তৰ্ভুক্ত কৰিবলৈ এইটো পৃষ্ঠাত \"$1\" গোটৰ কোনো তথ্যসূত্ৰ নাই।",
+	"cite-ve-referenceslist-isempty-default": "এই তালিকাত অন্তৰ্ভুক্ত কৰিবলৈ এইটো পৃষ্ঠাত কোনো তথ্যসূত্ৰ নাই।",
+	"cite-ve-referenceslist-missingref": "এই তথ্যসূত্ৰটো এটা সাঁচ বা আন উৎপন্ন ব্লক হিচাপে সংজ্ঞায়িত কৰা হৈছে আৰু ইয়াক কেৱল উৎস ৰূপতহে সম্পাদনা কৰিব পাৰি।",
+	"cite-ve-toolbar-group-label": "উদ্ধৃতি দিয়ক",
+	"cite-ve-othergroup-item": "$1টা তথ্যসূত্ৰ"
+}

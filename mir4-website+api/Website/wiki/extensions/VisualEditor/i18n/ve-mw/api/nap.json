@@ -1,0 +1,30 @@
+{
+	"@metadata": {
+		"authors": [
+			"C.R.",
+			"Ruthven"
+		]
+	},
+	"apihelp-visualeditor-param-basetimestamp": "Quanno se stesse a sarvà, mpustate stu parametro a 'o timestamp d' 'a verziona ca se steva a cagnà. Ausato pe' putè scummiglià cunflitte 'e cagnamiento.",
+	"apihelp-visualeditor-param-cachekey": "Pe' putè serializzà o ffà 'o diff, ausate 'o risultato d' 'a serializeforcache 'e primma cu sta chiave. Sovrascrive $1html.",
+	"apihelp-visualeditor-param-etag": "ETag a mannà.",
+	"apihelp-visualeditor-param-html": "HTML 'a mannà a 'o Parsoid pe s' 'o putè cagnà dint'a nu wikitesto.",
+	"apihelp-visualeditor-param-oldid": "'O nummero 'e virziona ca s'avess'ausà (predefinito a ll'urdema verziona).",
+	"apihelp-visualeditor-param-paction": "Azione 'a ffà.",
+	"apihelp-visualeditor-param-page": "'A paggena ncopp' 'a quale s'avesser'apprecà l'aziune.",
+	"apihelp-visualeditor-param-pst": "Sarva primma 'e mannà 'o wikitesto a 'o Parsoid (paction=parsefragment).",
+	"apihelp-visualeditor-param-starttimestamp": "Quanno se stesse a sarvà, mpustate stu parametro a 'o timestamp 'e quann' 'a paggena è stata carrecata. Chest'è ausato pe' putè scummiglià cunflitte 'e cagnamiento.",
+	"apihelp-visualeditor-param-wikitext": "Wikitesto 'a mannà a 'o Parsoid p' 'o ffà addeventà HTML (paction=parsefragment).",
+	"apihelp-visualeditoredit-param-basetimestamp": "Quanno se stesse a sarvà, mpustate stu parametro a 'o timestamp d' 'a verziona ca se steva a cagnà. Ausato pe' putè scummiglià cunflitte 'e cagnamiento.",
+	"apihelp-visualeditoredit-param-cachekey": "Ausà 'o risultato d' 'e serializeforcache 'e primma cu sta chiave. Sovrascrive $1html.",
+	"apihelp-visualeditoredit-param-captchaid": "Captcha ID (quanno se stesse a sarvà cu na risposta captcha).",
+	"apihelp-visualeditoredit-param-captchaword": "Risponne a 'o captcha (quanno se stesse a sarvà cu na risposta captcha).",
+	"apihelp-visualeditoredit-param-etag": "ETag a mannà.",
+	"apihelp-visualeditoredit-param-html": "HTML 'a mannà 'o Parsoid scagnato p' 'o wikitext.",
+	"apihelp-visualeditoredit-param-minor": "Flag pe nu cagnamiénto piccerillo.",
+	"apihelp-visualeditoredit-param-needcheck": "Quanno se sarva, mpusta stu parametro si 'a verziona avesse prubbleme r' 'o mannà. Stu fatto risultarrà dint' 'a verziona scigliuta.",
+	"apihelp-visualeditoredit-param-oldid": "'O nummero 'e verziona 'ausà. 'A default currispunnesse ll'urdema virziona. Ausate 0 pe' ne ffà na paggena nova nova.",
+	"apihelp-visualeditoredit-param-page": "'A paggena ncopp' 'a quale s'avesser'apprecà l'aziune.",
+	"apihelp-visualeditoredit-param-starttimestamp": "Quanno se stesse a sarvà, mpustate stu parametro a 'o timestamp 'e quann' 'a paggena è stata carrecata. Chest'è ausato pe' putè scummiglià cunflitte 'e cagnamiento.",
+	"apihelp-visualeditoredit-param-summary": "Oggetto d' 'o cagnamiento."
+}

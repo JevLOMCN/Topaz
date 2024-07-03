@@ -1,0 +1,30 @@
+{
+	"@metadata": {
+		"authors": [
+			"Nickthijssen1994",
+			"SPQRobin",
+			"Siebrand"
+		]
+	},
+	"pfunc_desc": "Verrijkt de parser met logische functies",
+	"pfunc_time_error": "Fout: ongeldige tijd.",
+	"pfunc_time_too_long": "Fout: #time te vaak aangeroepen.",
+	"pfunc_time_too_big": "Fout: #time ondersteunt jaren tot maximaal 9999",
+	"pfunc_time_too_small": "Fout: #time ondersteunt alleen jaren vanaf 0.",
+	"pfunc_rel2abs_invalid_depth": "Fout: ongeldige diepte in pad: \"$1\" (probeerde een node boven de stamnode aan te roepen).",
+	"pfunc_expr_stack_exhausted": "Fout in uitdrukking: stack uitgeput.",
+	"pfunc_expr_unexpected_number": "Fout in uitdrukking: onverwacht getal.",
+	"pfunc_expr_preg_match_failure": "Fout in uitdrukking: onverwacht falen van preg_match.",
+	"pfunc_expr_unrecognised_word": "Fout in uitdrukking: Onbekend woord \"$1\".",
+	"pfunc_expr_unexpected_operator": "Fout in uitdrukking: niet verwachte operator $1.",
+	"pfunc_expr_missing_operand": "Fout in uitdrukking: operand voor $1 ontbreekt.",
+	"pfunc_expr_unexpected_closing_bracket": "Fout in uitdrukking: haakje sluiten op onverwachte plaats.",
+	"pfunc_expr_unrecognised_punctuation": "Fout in uitdrukking: Onbekend leesteken \"$1\".",
+	"pfunc_expr_unclosed_bracket": "Fout in uitdrukking: niet gesloten haakje openen.",
+	"pfunc_expr_division_by_zero": "Deling door nul",
+	"pfunc_expr_invalid_argument": "Ongeldige parameter voor $1: kleiner dan -1 of groter dan 1",
+	"pfunc_expr_invalid_argument_ln": "Ongeldige parameter voor ln: kleiner of  gelijk aan 0",
+	"pfunc_expr_unknown_error": "Fout in uitdrukking: onbekende fout ($1).",
+	"pfunc_expr_not_a_number": "In $1: resultaat is geen getal",
+	"pfunc_string_too_long": "Fout: De tekst is langer dan de limiet van $1 {{PLURAL:$1|teken|tekens}}"
+}

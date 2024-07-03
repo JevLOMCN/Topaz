@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"Ladsgroup"
+		]
+	},
+	"apihelp-query+pageimages-summary": "اطلاعات تصاویر موجود در صفحات منجمله نسخه بندانگشتی و حضور تصاویر را بر می‌گرداند.",
+	"apihelp-query+pageimages-param-thumbsize": "حداکثر عرض (به پیکسل) برای تصاویر بندانگشتی",
+	"apihelp-query+pageimages-param-limit": "اطلاعات چه تعداد صفحه‌ای برگردانده شود.",
+	"apihelp-query+pageimages-param-license": "تصاویر صفحه را به یک نوع از مجوز محدود می‌کند",
+	"apihelp-query+pageimages-paramvalue-license-free": "فقط تصاویر آزاد",
+	"apihelp-query+pageimages-paramvalue-license-any": "بهترین تصویر، آزاد یا غیرآزاد فرقی ندارد."
+}

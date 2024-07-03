@@ -1,0 +1,38 @@
+{
+	"@metadata": {
+		"authors": [
+			"Dani",
+			"Dj",
+			"Dorgan",
+			"KossuthRad",
+			"Misibacsi",
+			"Tacsipacsi",
+			"Urbalazs"
+		]
+	},
+	"nuke": "Tömeges törlés",
+	"action-nuke": "oldalak tömeges törlése",
+	"nuke-desc": "Lehetővé teszi az adminisztrátorok számára a lapok [[Special:Nuke|tömeges törlését]].",
+	"nuke-nopages": "Nincsenek új oldalak [[Special:Contributions/$1|$1]] felhasználótól a friss változtatások között.",
+	"nuke-list": "Az alábbi lapokat nem rég készítette [[Special:Contributions/$1|{{GENDER:$1|$1}}]]; adj meg egy indoklást, és kattints a gombra a törlésükhöz.",
+	"nuke-list-multiple": "Az alábbi lapok találhatók a friss változtatásokban;\nadjál hozzá megjegyzést, és a törléshez nyomd meg a gombot.",
+	"nuke-defaultreason": "[[Special:Contributions/$1|$1]] által készített lapok tömeges törlése",
+	"nuke-multiplepeople": "Frissen hozzáadott oldalak tömeges törlése",
+	"nuke-tools": "Ez az eszköz lehetővé teszi egy adott felhasználó vagy IP-cím által nemrég készített lapok tömeges törlését.\nAdd meg a felhasználónevet vagy az IP-címet a törölhető lapok listájának lekéréséhez, vagy hagyd üresen a mezőt az összes felhasználó listázásához.",
+	"nuke-submit-user": "Lapok listázása",
+	"nuke-submit-delete": "Kijelöltek törlése",
+	"right-nuke": "oldalak tömeges törlése",
+	"nuke-userorip": "Felhasználónév, IP-cím vagy üres:",
+	"nuke-maxpages": "Lapok maximális száma:",
+	"nuke-editby": "Készítette [[Special:Contributions/$1|$1]]",
+	"nuke-deleted": "A(z) '''$1''' oldal törölve.",
+	"nuke-not-deleted": "A(z) [[:$1]] oldalt '''nem sikerült''' törölni.",
+	"nuke-delete-more": "[[Special:Nuke|További oldalak törlése]]",
+	"nuke-pattern": "SQL LIKE-minta (pl. %) a lapnévhez:",
+	"nuke-nopages-global": "Nincsenek a keresésre illeszkedő oldalcímek.",
+	"nuke-viewchanges": "változtatások megtekintése",
+	"nuke-namespace": "Csak az alábbi névtérben:",
+	"nuke-linkoncontribs": "tömeges törlés",
+	"nuke-linkoncontribs-text": "Olyan lapok tömeges törlése, amiknek {{GENDER:$1|ez a felhasználó}} az egyetlen szerzője",
+	"nuke-confirm": "$1 lap törlésére készülsz. Biztos, hogy ezt akarod tenni?"
+}

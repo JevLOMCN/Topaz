@@ -1,0 +1,29 @@
+{
+	"@metadata": {
+		"authors": [
+			"Muotâ",
+			"Seipinne",
+			"Trondtr"
+		]
+	},
+	"scribunto-line": "raddalâsâst $1",
+	"scribunto-module-line": "saajeest $1 raddalâsâst $2",
+	"scribunto-doc-page-name": "Module:$1/raavâ",
+	"scribunto-doc-page-does-not-exist": "''Taan mooduul ravvuu puáhtá rähtiđ siijđon [[$1]]''",
+	"scribunto-doc-page-header": "'''Taat lii raavâsijđo modulân [[$1]]'''",
+	"scribunto-common-error-category-desc": "Siijđost leijee modulij kieđâvuššâm ääigi tábáhtui feilâ.",
+	"scribunto-common-no-details": "Lasetiäđuh iä lah finnimnáál.",
+	"scribunto-lua-in-function": "funktiost ”$1”",
+	"scribunto-lua-in-function-at": "funktiost saajeest $1:$2",
+	"scribunto-lua-error-location": "Lua-feilâ $1: $2.",
+	"scribunto-lua-error": "Lua-feilâ: $2",
+	"scribunto-module-with-errors-category": "Scribunto-moduleh, main láá feeilah",
+	"scribunto-module-with-errors-category-desc": "Modulist lii feilâ.",
+	"scribunto-limitreport-timeusage-value": "$1/$2 seekunt",
+	"scribunto-limitreport-virtmemusage": "Lua-virtuaalstuárudâh",
+	"scribunto-limitreport-profile": "Lua-proofiil",
+	"scribunto-limitreport-profile-ms": "$1 ms",
+	"scribunto-limitreport-logs": "Lua-lokih",
+	"nstab-module": "Mooduul",
+	"tooltip-ca-nstab-module": "Čääiti moduulsiijđo"
+}

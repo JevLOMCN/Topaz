@@ -1,0 +1,23 @@
+{
+	"@metadata": {
+		"authors": [
+			"Joetaras"
+		]
+	},
+	"spam-blacklist": "#<!-- leave this line exactly as it is --> <pre>\n # Le URL esterne ca se iacchiane jndr'à st'elenghe avènene bloccate quanne avènene aggiunde jndr'à 'na pàgene.\n  # St'elenghe tène effette sulamende sus a sta Uicchi; se pò refèrì pure a 'a lista de blocche globbale.\n  # Pe documendazione vide https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:SpamBlacklist\n  #<!-- leave this line exactly as it is --> <pre>\n#\n# 'A sindasse jè a cumme segue:\n#  * Ognecose ca tène 'u carattere \"#\" 'mbonde a fine d'a linèe jè 'nu commende\n#  * Ogne linèe ca non g'è vacande jè 'nu frammende de regex ca vè face le combronde cu le host jndr'à l'URL\n\n  #</pre> <!-- leave this line exactly as it is -->",
+	"spam-whitelist": "  #<!-- leave this line exactly as it is --> <pre>\n # Le URL esterne ca se iacchiane jndr'à st'elenghe *non* g'avènene bloccate pure ca lore sonde mise \n # jndr'à l'elenghe d'a lista gnore.\n #\n\n#\n# 'A sindasse jè a cumme segue:\n#  * Ognecose ca tène 'u carattere \"#\" 'mbonde a fine d'a linèe jè 'nu commende\n#  * Ogne linèe ca non g'è vacande jè 'nu frammende de regex ca vè face le combronde cu le host jndr'à l'URL\n\n  #</pre> <!-- leave this line exactly as it is -->",
+	"email-blacklist": " #<!-- leave this line exactly as it is --> <pre>\n# Le indirizze email ca iessene jndr'à ste elenghe onna essere bloccate da 'a reggistrazzione e da mannà le email\n# Ste elenghe tène cunde sole de sta uicchi; referite pure a 'a lista de blocche globbale.\n# Pe documendazione 'ndruche https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:SpamBlacklist\n#\n# 'A sindasse jè 'a seguende:\n#   * Ognecose ca tène 'u carattere \"#\" 'mbonde a fine d'a linèe jè 'nu commende\n#   * Ogne linèe ca non g'è vacande jè 'nu frammende de regex ca vè face le combronde cu le host jndr'à le indirizze email\n\n #</pre> <!-- leave this line exactly as it is -->",
+	"email-whitelist": " #<!-- leave this line exactly as it is --> <pre>\n# Le indirizze email ca iessene jndr'à ste elenghe *NON* ge onna essere bloccate pure ce lore ponne sta jndr'à le vôsce d'a lista de blocche.\n#\n# 'A sindasse jè 'a seguende:\n#   * Ognecose ca tène 'u carattere \"#\" 'mbonde a fine d'a linèe jè 'nu commende\n#   * Ogne linèe ca non g'è vacande jè 'nu frammende de regex ca vè face le combronde cu le host jndr'à le indirizze email\n\n #</pre> <!-- leave this line exactly as it is -->",
+	"spam-blacklisted-email": "Indirizze email vietate",
+	"spam-blacklisted-email-text": "L'indirizze email tune jè mo vietate pe mannà email a otre utinde.",
+	"spam-blacklisted-email-signup": "L'indirizze email ca è date pe mò jè vietate.",
+	"spam-invalid-lines": "{{PLURAL:$1|'A seguende linèe d'a blacklist de spam jè|Le seguende linèe d'a blacklist de spam sonde}} {{PLURAL:$1|espressione|espressiune}} regolare invalide e {{PLURAL:$1|abbesogne|abbesognane}} de avenè corrette apprime de reggistrà 'a pàgene:",
+	"spam-blacklist-desc": "'U strumende andi-spam basate sus a le regex ca dèje le URL de le pàggene da bloccà e le indirizze email de le utinde reggistrate",
+	"log-name-spamblacklist": "Archivije de l'elenghe de blocche de le rummate",
+	"log-description-spamblacklist": "Ste evende tracciane le trasute jndr'à l'elenghe de blocche de le rummate.",
+	"logentry-spamblacklist-hit": "{{GENDER:$2|$1}} ave fatte 'na trasute jndr'à l'elenghe de blocche de le rummate sus a $3 pruvanne a aggiungere $4.",
+	"right-spamblacklistlog": "'Ndruche l'archivije de l'elenghe de blocche de le rummate",
+	"action-spamblacklistlog": "'ndruche l'archivije de l'elenghe de blocche d'u rummate",
+	"right-sboverride": "Zumbe l'elenghe de blocche d'u rummate",
+	"action-sboverride": "zumbe l'elenghe de blocche d'u rummate"
+}

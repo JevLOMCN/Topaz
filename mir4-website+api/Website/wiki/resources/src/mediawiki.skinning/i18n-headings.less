@@ -1,0 +1,61 @@
+/* Language specific height correction for titles. Ref T31405 and T32809 */
+/* Languages like hi or ml require slightly more vertical space to show diacritics properly */
+:lang( anp ),
+:lang( as ),
+:lang( bh ), /* Macrolanguage, used on bh.wikipedia.org, should be removed one day */
+:lang( bho ),
+:lang( blk ),
+:lang( bn ),
+:lang( gu ),
+:lang( hi ),
+:lang( kjp ),
+:lang( kn ),
+:lang( ks ),
+:lang( ksw ),
+:lang( mag ),
+:lang( ml ),
+:lang( mr ),
+:lang( my ),
+:lang( mai ),
+:lang( mnw ),
+:lang( nit ),
+:lang( new ),
+:lang( or ),
+:lang( pa ),
+:lang( pi ),
+:lang( rki ),
+:lang( sa ),
+:lang( shn ),
+:lang( syl ),
+:lang( ta ),
+:lang( te ) {
+	.mw-heading1&,
+	h1& {
+		line-height: 1.6em !important; /* stylelint-disable-line declaration-no-important */
+	}
+
+	.mw-heading&,
+	h2&,
+	h3&,
+	h4&,
+	h5&,
+	h6& {
+		line-height: 1.4em;
+	}
+}
+
+// Increase for Nepalese on `h1`, See T333938.
+.mw-heading1:lang( ne ),
+h1:lang( ne ) {
+	line-height: 1.9;
+}
+
+// Increase `line-height` for Thai top vowel + top tone combination on `h2`,
+// for example on `ตั้`. See T285972.
+// Increase for Nepalese on `h2`, for example on `ि`. See T333938.
+.mw-heading2:lang( th ),
+.mw-heading2:lang( ne ),
+h2:lang( th ),
+h2:lang( ne ) {
+	line-height: 1.6;
+}

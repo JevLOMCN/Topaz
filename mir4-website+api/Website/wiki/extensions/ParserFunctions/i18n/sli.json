@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"Äberlausitzer"
+		]
+	},
+	"pfunc_time_error": "Fehler: Ungiltige Zeitoagabe",
+	"pfunc_expr_unrecognised_word": "Fehler eim Ausdruck: Unerkonntes Wurt „$1“",
+	"pfunc_expr_unexpected_operator": "Fehler eim Ausdruck: Unerwarteter Operator $1",
+	"pfunc_expr_missing_operand": "Fehler eim Ausdruck: Fehlender Operand fer $1",
+	"pfunc_expr_unrecognised_punctuation": "Fehler eim Ausdruck: Nee erkanntes Satzzeecha „$1“",
+	"pfunc_expr_division_by_zero": "Division durch Null"
+}

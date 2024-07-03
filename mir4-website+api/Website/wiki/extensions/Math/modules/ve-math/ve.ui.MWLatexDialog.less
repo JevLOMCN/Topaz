@@ -1,0 +1,105 @@
+/*!
+ * VisualEditor UserInterface MWLatexDialog styles.
+ *
+ * @copyright See AUTHORS.txt
+ * @license MIT
+ */
+
+.ve-ui-mwLatexDialog {
+	&-content {
+		.oo-ui-bookletLayout-stackLayout {
+			padding: 0.5em;
+
+			h3 {
+				margin: 0 0 0.5em 0;
+				color: #888;
+				font-weight: normal;
+				font-size: 1em;
+			}
+		}
+
+		.oo-ui-textInputWidget {
+			max-width: none;
+		}
+	}
+
+	&-menuLayout {
+		> .oo-ui-menuLayout-content {
+			border-bottom: 1px solid #e6e6e6;
+			box-shadow: 0 1px 0 0 rgba( 0, 0, 0, 0.05 );
+			overflow: auto;
+		}
+
+		&-short {
+			.oo-ui-menuLayout-menu {
+				height: 10em;
+			}
+
+			.oo-ui-menuLayout-content {
+				bottom: 10em;
+			}
+		}
+	}
+
+	&-preview {
+		text-align: center;
+		line-height: 8em;
+		height: 8em;
+
+		.ve-ui-mwLatexDialog-menuLayout-short & {
+			line-height: 5em;
+			height: 5em;
+		}
+
+		> p {
+			/* Reset line height for error messages */
+			line-height: 1.6;
+		}
+
+		.mwe-math-fallback-image-display {
+			/* Ensures the preview image is vertically centred */
+			display: inline-block;
+		}
+	}
+
+	&-symbol {
+		background-position: center;
+		background-repeat: no-repeat;
+
+		@symbolSize: 1.8em;
+		@symbolMargin: 5px; // 3px margin, 1px border each side
+
+		&-wide {
+			// 2x width, 2 symbols + 1 margins
+			width: calc( ( 2 * @symbolSize ) + @symbolMargin );
+		}
+
+		&-wider {
+			// 2.5x width
+			// 2 "widers" + 1 margin = 5 symbols + 4 margins
+			// => 1 "wider" = 2.5 symbols + 1.5 margins
+			width: calc( ( 2.5 * @symbolSize ) + ( 1.5 * @symbolMargin ) );
+		}
+
+		&-widest {
+			// 3x width, 3 symbols + 2 margins
+			width: calc( ( 3 * @symbolSize ) + ( 2 * @symbolMargin ) );
+		}
+
+		&-contain {
+			background-size: contain;
+		}
+
+		&-largeLayout {
+			// 2.5x width
+			width: calc( ( 2.5 * @symbolSize ) + ( 1.5 * @symbolMargin ) );
+			// 2x height
+			height: calc( ( 2 * @symbolSize ) + @symbolMargin );
+
+			&.ve-ui-mwLatexDialog-symbol-wide {
+				// 5x width
+				width: calc( ( 5 * @symbolSize ) + ( 4 * @symbolMargin ) );
+			}
+		}
+	}
+}

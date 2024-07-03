@@ -1,0 +1,21 @@
+{
+	"@metadata": {
+		"authors": [
+			"Asoxor",
+			"Lost Whispers",
+			"Muhammed taha",
+			"Épine"
+		]
+	},
+	"pfunc_time_error": "ھەڵە: کات نادروستە.",
+	"pfunc_time_too_long": "ھەڵە: بانگکردنی #timeی زۆر.",
+	"pfunc_expr_unrecognised_word": "ھەڵەی Expression: وشەی نەناسراو \"$1\".",
+	"pfunc_expr_unexpected_operator": "ھەڵەی دەربڕین: کرداری $1 پێشبینی نەکراوە.",
+	"pfunc_expr_missing_operand": "ھەڵەى دەربڕین: کارلەسەکراوی $1 ونبووە.",
+	"pfunc_expr_unexpected_closing_bracket": "ھەڵەی دەربڕین: کەوانەی داخستنی پێشبینی نەکراو.",
+	"pfunc_expr_unrecognised_punctuation": "ھەڵەی دەربڕین: پیتێکی نەناسراو ھەیە \"$1\"",
+	"pfunc_expr_unclosed_bracket": "ھەڵەی دەربڕین: کەوانەی دانەخراو.",
+	"pfunc_expr_division_by_zero": "دابەشکردن بەسەر سفردا.",
+	"pfunc_expr_unknown_error": "ھەڵەی دەربڕین: کێشەی نەناسراو ($1).",
+	"pfunc_expr_not_a_number": "لە $1: ئەنجام ژمارە نییە."
+}

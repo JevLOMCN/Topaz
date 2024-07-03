@@ -1,0 +1,41 @@
+{
+	"@metadata": {
+		"authors": [
+			"Amire80",
+			"Muhammad Shuaib",
+			"TheAafi"
+		]
+	},
+	"apierror-discussiontools-commentid-notfound": "آئی ڈی '$1' کے ساتھ تبصرہ نہیں ملا۔",
+	"apierror-discussiontools-commentname-ambiguous": "'$1' نام کے ساتھ متعدد تبصرے پائے گئے۔ <var>commentid</var> کی ضرورت ہے۔",
+	"apierror-discussiontools-commentname-notfound": "'$1' نام کے ساتھ تبصرہ نہیں ملا۔",
+	"apierror-discussiontools-formtoken-used": "تبصرہ پہلے ہی پوسٹ کیا گیا ہے۔ اسے دیکھنے کے لیے صفحہ کو دوبارہ لوڈ کریں۔",
+	"apierror-discussiontools-subscription-failed-add": "اس موضوع کو سبسکرائب نہیں کیا جا سکا۔",
+	"apierror-discussiontools-subscription-failed-remove": "اس موضوع سے رکنیت ختم نہیں کی جا سکی۔",
+	"apihelp-discussiontoolscompare-summary": "صفحے کے دو نسخوں کے ما بین تبصروں کی تبدیلی کے متعلق معلومات حاصل کرتا ہے۔",
+	"apihelp-discussiontoolsedit-param-commentid": "جواب دیے جانے والے تبصرے کی آئی ڈی۔ یہ صرف اس صورت استعمال ہوتا ہے جب <var>paction</var> <var>addcomment</var> ہو۔ اس سے <var>commentname</var> اور۔رائڈ ہوتا ہے۔",
+	"apihelp-discussiontoolsedit-param-commentname": "جواب دیے جانے والے تبصرے کا نام۔ یہ صرف اس صورت استعمال ہوتا ہے جب <var>paction</var> <var>addcomment</var> ہو۔",
+	"apihelp-discussiontoolsedit-param-formtoken": "دوہری پوسٹنگ کو روکنے کے لیے کلائنٹ میں ایک آپشنل منفرد آئی ڈی تیار کی جاتی ہے۔",
+	"apihelp-discussiontoolsedit-param-html": "بطور ایچ۔ٹی۔ایم۔ال، ہوسٹ کرنے کے لیے مواد <var>ikitext\n</var> کے ساتھ ساتھ استعمال نہیں کیا جاسکتا۔",
+	"apihelp-discussiontoolsedit-param-sectiontitle": "{{int:apihelp-edit-param-sectiontitle}} صرف اسی صورت استعمال ہوتا ہے جب <var>paction</var> <var>addtopic</var> ہو۔",
+	"apihelp-discussiontoolsedit-param-allownosectiontitle": "عنوان کے بغیر نیا موضوع شروع کرنے کی اجازت۔",
+	"apihelp-discussiontoolsedit-param-wikitext": "بطور ویکی ٹیکسٹ، ہوسٹ کرنے کے لیے مواد <var>html</var> کے ساتھ ساتھ استعمال نہیں کیا جاسکتا۔",
+	"apihelp-discussiontoolsedit-paramvalue-paction-addcomment": "موجود تبصرے کے جواب میں ایک نیا تبصرہ شامل کریں۔",
+	"apihelp-discussiontoolsedit-paramvalue-paction-addtopic": "ایک نئی بحث کا خانہ اور اس میں پہلا تبصرہ شامل کریں۔",
+	"apihelp-discussiontoolsedit-summary": "تبادلۂ خیال صفحہ پر پیغام بھیجتا ہے۔",
+	"apihelp-discussiontoolsfindcomment-summary": "شناختی نمبر یا نام کی مدد سے تبصرہ تلاش کرتا ہے۔",
+	"apihelp-discussiontoolsgetsubscriptions-param-commentname": "پرکھنے کے لیے عنوانات کے نام",
+	"apihelp-discussiontoolsgetsubscriptions-summary": "دیے گئے موضوعات میں شرکت کی کیفیت معلوم کرتا ہے۔",
+	"apihelp-discussiontoolspageinfo-param-oldid": "استعمال کرنے کے لیے فرق کا نمبر (خودکار طور پر حالیہ فرق)",
+	"apihelp-discussiontoolspageinfo-param-prop": "کونسی خصوصیات حاصل کرنی ہیں:",
+	"apihelp-discussiontoolspageinfo-paramvalue-prop-threaditemshtml": "صفحہ سے تجزیہ کردہ تبصرے کے حصوں کی نمائندگی",
+	"apihelp-discussiontoolspageinfo-paramvalue-prop-transcludedfrom": "کن دوسرے صفحات سے تبصرے ٹرانسکلیوڈ کیے گئے ہیں",
+	"apihelp-discussiontoolspageinfo-summary": "جواب میں آلات گفتگو کو شروع کرنے کے لیے درکار میٹا ڈیٹا بھیجتا ہے۔",
+	"apihelp-discussiontoolspreview-param-type": "نمائش کے لیے پیغام کی قسم",
+	"apihelp-discussiontoolspreview-param-wikitext": "بطور ویکی ٹیکسٹ، نمائش کے لیے مواد",
+	"apihelp-discussiontoolspreview-summary": "تبادلۂ خیال صفحہ پر پیغام کی نمائش دکھاتا ہے۔",
+	"apihelp-discussiontoolssubscribe-param-commentname": "سبسکرائب (یا انسبسکرائب) کرنے کے لیے عنوان کا نام",
+	"apihelp-discussiontoolssubscribe-param-page": "وہ صفحہ جس پر موضوع ظاہر ہوتا ہے۔",
+	"apihelp-discussiontoolssubscribe-param-subscribe": "سبسکرائب کرنے کے لیے ہاں، رکنیت ختم کرنے کے لیے نہیں",
+	"apihelp-discussiontoolssubscribe-summary": "موضوع سے متعلق اطلاع نامے وصول کرنے کے لیے سبسکرائب (یا اَن سبسکرائب) کرتا ہے۔"
+}

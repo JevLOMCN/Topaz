@@ -1,0 +1,17 @@
+{
+	"@metadata": {
+		"authors": [
+			"KWiki",
+			"Obsuser",
+			"Srđan"
+		]
+	},
+	"spam-blacklist": "# Vanjski URLovi koji odgovaraju ovom spisku će biti blokirani ako se dodaju na stranicu.\n # Ovaj spisak će biti aktivan samo na ovoj wiki; a poziva se i na globalni zabranjeni spisak.\n # Za objašenjenja i dokumentaciju pogledajte https://www.mediawiki.org/wiki/Extension:SpamBlacklist\n #<!-- ostavite ovaj red tačno onako kakav je --> <pre>\n#\n# Sintaksa je sljedeća:\n#  * Sve od znaka \"#\" do kraja reda je komentar\n#  * Svi neprazni redovi su fragmenti regexa koji će odgovarati samo domaćinima unutar URLova\n\n #</pre> <!-- ostavite ovaj red tačno onako kakav je -->",
+	"spam-whitelist": "#<!-- ostavite ovaj red onakav kakav je --> <pre>\n# Vanjski URLovi koji odgovaraju nekoj od stavki na ovom spisku *neće* biti blokirani čak iako\n# budu blokirani preko spisak nepoželjnih stavki.\n#\n# Sintaksa je sljedeća:\n#  * Sve od znaka \"#\" do kraja reda je komentar\n#  * Svaki neprazni red je fragment regexa koji će odgovarati samo domaćinima unutar URLa\n\n #</pre> <!-- ostavite ovaj red onakav kakav je -->",
+	"spam-invalid-lines": "Sljedeći {{PLURAL:$1|red|redovi}} u spisku nepoželjnih spam-stavki {{PLURAL:$1|je nevalidan izraz|su nevalidni izrazi}} i {{PLURAL:$1|treba|trebaju}} se ispraviti prije spašavanja stranice:",
+	"spam-blacklist-desc": "Alat protiv neželjenog sadržaja zasnovan na regularnim izrazima omogućava zabranu URL-ova na stranicama i adresa e-pošte registriranim korisnicima",
+	"log-name-spamblacklist": "Zapisnik spiska neželjenog sadržaja",
+	"logentry-spamblacklist-hit": "$1 {{GENDER:$2|aktivirao|aktivirala}} je unos na spisku na stranici $3 pokušavajući dodati $4.",
+	"right-spamblacklistlog": "Pregledanje zapisnika spiska neželjenog sadržaja",
+	"action-spamblacklistlog": "pregledate zapisnik spiska neželjenog sadržaja"
+}

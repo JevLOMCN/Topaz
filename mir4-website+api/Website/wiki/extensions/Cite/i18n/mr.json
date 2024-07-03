@@ -1,0 +1,42 @@
+{
+	"@metadata": {
+		"authors": [
+			"Kaajawa",
+			"Kaustubh",
+			"Mahitgar",
+			"Rahuldeshmukh101",
+			"Sureshkhole",
+			"V.narsikar"
+		]
+	},
+	"cite-desc": "<code>&lt;ref[ name=id]&gt;</code> व <code>&lt;references/&gt;</code> येथे संदर्भ देण्यासाठी वापरण्यात येणाऱ्या टॅग्ज जोडल्या जातील.",
+	"cite_error": "चुका उधृत करा: $1",
+	"cite_error_ref_numeric_key": "<code>&lt;ref&gt;</code> चुकीचा कोड; नाव हे पूर्णांकी संख्या असू शकत नाही, कृपया वर्णनात्मक शीर्षक द्या",
+	"cite_error_ref_no_key": "<code>&lt;ref&gt;</code> चुकीचा कोड; रिकाम्या संदर्भांना नाव असणे गरजेचे आहे",
+	"cite_error_ref_too_many_keys": "<code>&lt;ref&gt;</code> चुकीचा कोड; चुकीची नावे, उदा. खूप सारी",
+	"cite_error_ref_no_input": "<code>&lt;ref&gt;</code> चुकीचा कोड; निनावी संदर्भांमध्ये माहिती असणे गरजेचे आहे",
+	"cite_error_references_duplicate_key": "अवैध <code>&lt;ref&gt;</code> tag; नाव \"$1\" वेगवेगळ्या मजकूराशी अनेकदा जोडलेले आहे",
+	"cite_error_references_invalid_parameters": "<code>&lt;references&gt;</code> हा चुकीचा वापर आहे; यामधे पॅरामीटर्स देणे निषिद्ध आहे,\n<code>&lt;references /&gt;</code> असा कोड वापरा",
+	"cite_error_references_no_backlink_label": "तयार केलेली मागीलदुवे देणारी नावे संपलेली आहेत, अधिक नावे [[MediaWiki:Cite references link many format backlink labels]] या प्रणाली संदेशात लिहा",
+	"cite_error_no_link_label_group": "\"$1\" करिता नमूदकेलेल्या कस्टम लिंक खूणा संपल्या . [[MediaWiki:$2]] संदेशात अधिक खूणा नमूद करा",
+	"cite_error_references_no_text": "<code>&lt;ref&gt;</code> चुकीचा कोड; <code>$1</code> नावाने दिलेल्या संदर्भांमध्ये काहीही माहिती नाही",
+	"cite_error_included_ref": "<code>&lt;ref&gt;</code> ला बंद करणारी <code>&lt;/ref&gt;</code> ही खूणपताका गायब आहे.",
+	"cite_error_group_refs_without_references": "\"$1\" नावाच्या गटाकरिता <code>&lt;ref&gt;</code>खूणपताका उपलब्ध आहेत, पण संबंधीत <code>&lt;references group=\"$1\"/&gt;</code>  खूण मिळाली नाही.",
+	"cite_error_references_group_mismatch": "<code>&lt;references&gt;</code>मधील खूणपताकेस<code>&lt;ref&gt;</code> खूणांशी विसंवाद असणारे  group attribute \"$1\" आहे.",
+	"cite_error_references_missing_key": "<code>&lt;references&gt;</code> ह्या मध्ये टाकलेला <code>&lt;ref&gt;</code>  \"$1\" ह्या नावाची खूणपताका  ह्या पूर्वी वापरण्यात आलेली नाही.",
+	"cite_error_references_no_key": "<code>&lt;ref&gt;</code>खूणपताकेत नमूद गोष्टींना <code>&lt;references&gt;</code> ला नाम-गुणधर्म नाहीत.",
+	"cite_error_empty_references_define": "<code>&lt;ref&gt;</code>खूणपताकेत नमूद गोष्टींना, <code>&lt;references&gt;</code> ज्या  \"$1\" ह्या नावाने संबोधल्या आहेत, त्यात माहिती नाही.",
+	"cite-tracking-category-cite-error": "संदर्भ चुका असणारी पाने",
+	"cite-tracking-category-cite-error-desc": "या वर्गात असणाऱ्या पानांत संदर्भ खूणपताकासंबंधी चुका आहेत.",
+	"cite_references_link_accessibility_label": "वर जा",
+	"cite_references_link_many_accessibility_label": "यावर जा",
+	"cite_section_preview_references": "संदर्भांची झलक दाखवा",
+	"cite_warning": "अवतरणाची ताकीद : $1",
+	"cite_warning_sectionpreview_no_text": "हा <code>&lt;ref&gt;</code> ह्या <code>$1</code> नावाने टॅग केला गेलेला आहे आणि त्याची झलक दाखवली जाऊ शकत नाही कारण तो ठरवलेल्या चौकटी बाहेरचा आहे किंवा त्याची चौकट ठरवली गेलेली नाहीये.",
+	"cite-wikieditor-tool-reference": "संदर्भ",
+	"cite-wikieditor-help-page-references": "संदर्भ",
+	"cite-wikieditor-help-content-reference-description": "संदर्भ",
+	"cite-wikieditor-help-content-named-reference-description": "नामित संदर्भ",
+	"cite-wikieditor-help-content-rereference-description": "याच संदर्भाचा अतिरिक्त वापर",
+	"cite-wikieditor-help-content-showreferences-description": "संदर्भ दर्शवा"
+}

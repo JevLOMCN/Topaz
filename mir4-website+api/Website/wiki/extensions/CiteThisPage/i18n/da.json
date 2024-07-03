@@ -1,0 +1,21 @@
+{
+	"@metadata": {
+		"authors": [
+			"Antonla",
+			"Byrial",
+			"Christian List",
+			"Jhertel",
+			"Morten LJ",
+			"Peter Alberti",
+			"Weblars"
+		]
+	},
+	"citethispage": "Referér",
+	"citethispage-desc": "Tilføjer en [[Special:Cite|specialside til reference]] og en henvisning i værktøjsmenuen",
+	"citethispage-link": "Referer til denne side",
+	"tooltip-citethispage": "Information om, hvordan man kan citere denne side",
+	"citethispage-change-submit": "Anvend som reference",
+	"citethispage-change-target": "Side:",
+	"citethispage-badrevision": "Fejl: Kunne ikke finde nogen sideversion for siden \"$1\" med sideversions-ID $2.",
+	"citethispage-content": "__NOTOC__\n<div class=\"mw-specialCiteThisPage-bibliographic\">\n\n == Bibliografiske oplysninger for {{FULLPAGENAME}} ==\n\n * Sidenavn: {{FULLPAGENAME}}\n * Forfatter: {{SITENAME}} bidragydere\n * Udgiver: ''{{SITENAME}}''.\n * Dato for seneste revision: {{CURRENTDAY}} {{CURRENTMONTHNAME}} {{CURRENTYEAR}} {{CURRENTTIME}} UTC\n * Datoen hentet: <citation>{{CURRENTDAY}} {{CURRENTMONTHNAME}} {{CURRENTYEAR}} {{CURRENTTIME}} UTC</citation>\n * Permanent URL: {{canonicalurl:{{FULLPAGENAME}}|oldid={{REVISIONID}}}}\n * Side versions-ID: {{REVISIONID}}\n\n</div>\n<div class=\"plainlinks mw-specialCiteThisPage-styles\">\n\n == Typografier til citat af {{FULLPAGENAME}} ==\n\n === [[APA typografi]] ===\n{{FULLPAGENAME}}. ({{CURRENTYEAR}}, {{CURRENTMONTHNAME}} {{CURRENTDAY}}). ''{{SITENAME}}''. Hentet <citation>{{CURRENTTIME}}, {{CURRENTMONTHNAME}} {{CURRENTDAY}}, {{CURRENTYEAR}}</citation> fra {{canonicalurl:{{FULLPAGENAME}}|oldid={{REVISIONID}}}}.\n\n === [[The MLA stil manual|MLA typografi]] ===\n\"{{FULLPAGENAME}}.\" ''{{SITENAME}}''. {{CURRENTDAY}} {{CURRENTMONTHABBREV}} {{CURRENTYEAR}}, {{CURRENTTIME}} UTC. <citation>{{CURRENTDAY}} {{CURRENTMONTHABBREV}} {{CURRENTYEAR}}, {{CURRENTTIME}}</citation> &lt; {{canonicalurl: {{FULLPAGENAME}}|oldid={{REVISIONID}}}}&gt;.\n\n === [[MHRA stil Guide|MHRA typografi]] ===\n{{SITENAME}} bidragydere, '{{FULLPAGENAME}}', ''{{SITENAME}},'' {{CURRENTDAY}} {{CURRENTMONTHNAME}} {{CURRENTYEAR}}, {{CURRENTTIME}} UTC, &lt; {{canonicalurl: {{FULLPAGENAME}}|oldid={{REVISIONID}}}}&gt; [hentet <citation>{{CURRENTDAY}} {{CURRENTMONTHNAME}} {{CURRENTYEAR}}</citation>]\n\n === [[Chicago manualen om Style|Chicago typografi]] ===\n{{SITENAME}} bidragydere, \"{{FULLPAGENAME}},\" ''{{SITENAME}},'' {{canonicalurl:{{FULLPAGENAME}}|oldid={{REVISIONID}}}} (hentet <citation>{{CURRENTMONTHNAME}} {{CURRENTDAY}}, {{CURRENTYEAR}}</citation>).\n\n === [[Rådet for videnskabsredaktører|CBE/CSE typografi]] ===\n{{SITENAME}} bidragydere. {{FULLPAGENAME}} [Internet]. {{SITENAME}}; {{CURRENTYEAR}} {{CURRENTMONTHABBREV}} {{CURRENTDAY}}, {{CURRENTTIME}} UTC [citeret <citation>{{CURRENTYEAR}} {{CURRENTMONTHABBREV}} {{CURRENTDAY}}</citation>]. Tilgængelig fra:\n{{canonicalurl:{{FULLPAGENAME}}|oldid={{REVISIONID}}}}.\n\n === [[Bluebook|Bluebook typografi]] ===\n{{FULLPAGENAME}}, {{canonicalurl: {{FULLPAGENAME}}|oldid={{REVISIONID}}}} (senest besøgt <citation>{{CURRENTMONTHNAME}} {{CURRENTDAY}}, {{CURRENTYEAR}}</citation>).\n\n === [[BibTeX]] indlæg ===\n\n  @misc{ wiki:xxx,\n   author = \"{{SITENAME}}\",\n   title = \"{{FULLPAGENAME}} --- {{SITENAME}}{,} {{int:sitesubtitle}}\",\n   year = \"{{CURRENTYEAR}}\",\n   url = \"{{canonicalurl:{{FULLPAGENAME}}|oldid={{REVISIONID}}}}\",\n   note = \"[Online; hentet <citation>{{CURRENTDAY}}-{{CURRENTMONTHNAME}}-{{CURRENTYEAR}}</citation>]\"\n  }\n\nNår du bruger [[LaTeX]] pakkens URL-adressen (<code>\\usepackage{url}</code> et sted i præamblen) som har tendens til at give meget mere pænt formaterede webadresser, kan følgende være at foretrække:\n\n  @misc{ wiki:xxx,\n   author = \"{{SITENAME}}\",\n   title = \"{{FULLPAGENAME}} --- {{SITENAME}}{,} {{int:sitesubtitle}}\",\n   year = \"{{CURRENTYEAR}}\",\n   url = \"'''\\url{'''{{canonicalurl:{{FULLPAGENAME}}|oldid={{REVISIONID}}}}'''}'''\",\n   note = \"[Online; hentet <citation>{{CURRENTDAY}}-{{CURRENTMONTHNAME}}-{{CURRENTYEAR}}</citation>]\"\n  }\n\n\n</div> <!--closing div for \"plainlinks\"-->"
+}

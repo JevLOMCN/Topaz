@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Macofe",
+			"Pxos",
+			"Stryn"
+		]
+	},
+	"apihelp-flowthank-param-postid": "Viestin UUID, josta kiitetään.",
+	"apihelp-flowthank-example-1": "Lähetä kiitokset kommentista, jonka <kbd>UUID xyz789</kbd>",
+	"apihelp-thank-param-rev": "Sivuversion tunnistenumero, josta kiitetään. Sinun on annettava tämä tai 'loki'.",
+	"apihelp-thank-param-source": "Lyhyt merkkijono, joka kertoo pyynnön lähteestä. Esimerkiksi <kbd>diff</kbd>i tai <kbd>history</kbd>.",
+	"apihelp-thank-example-1": "Lähetä kiitoksesi sivuversiosta <kbd>ID 456</kbd> niin, että lähteenä on vertailusivu"
+}

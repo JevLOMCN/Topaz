@@ -1,0 +1,21 @@
+{
+	"@metadata": {
+		"authors": [
+			"NMW03",
+			"Neriman2003",
+			"Toghrul Rahimli",
+			"Wertuose"
+		]
+	},
+	"loginnotify-desc": "Tanınmayan cihazlardan və/və ya IP ünvanlarından şübhəli girişlər barədə istifadəçiləri xəbərdar edin",
+	"echo-category-title-login-fail": "Uğursuz daxilolma cəhdləri",
+	"echo-pref-tooltip-login-fail": "İstifadəçi hesabıma daxilolma uğursuz olduqda mənə bildiriş göndər.",
+	"echo-category-title-login-success": "Fərqli cihazdan daxil olma",
+	"echo-pref-tooltip-login-success": "Kimsə hesabıma əvvəllər istifadə etmədiyim cihaz və ya IP-ünvanından daxil olduqda mənə bildiriş göndər.",
+	"loginnotify-primary-link": "Kömək",
+	"notification-loginnotify-login-fail-email-subject": "{{SITENAME}} saytına $1 olaraq daxil olmaq üçün {{PLURAL:$2|uğursuz giriş cəhdi|uğursuz giriş cəhdləri}}",
+	"notification-loginnotify-login-success-email-subject": "Əvvəllər istifadə {{GENDER:$1|etmədiyiniz}} cihazdan {{SITENAME}} layihəsinə $1 istifadəçi adı ilə daxilolma",
+	"notification-header-login-success": "Kimsə (ehtimal ki, {{GENDER:$1|siz}} özünüz), sizin istifadəçi hesabınıza yeni kompüterdən daxil olub. Əgər bu siz özünüz idinizsə, o halda bu bildirişə məhəl qoymayın. Əgər bu siz deyildinizsə, o zaman parolunuzu dəyişməyi və hesabınızdan edilmiş redaktələri nəzərdən keçirməyi məsləhət görürük.",
+	"notification-known-header-login-fail": "Hesabınıza son daxil olmanızdan bəri '''$1 dəfə uğursuz''' daxil olmaq cəhdi olmuşdur. Əgər bu siz deyildinizsə, xahiş olunur, hesabınızın güclü şifrəsi olduğundan əmin olun.",
+	"notification-new-unbundled-header-login-fail": "Hesabınıza yeni bir cihazdan daxil olmaq üçün {{PLURAL:$1|'''uğursuz giriş cəhdi'''|'''çoxsaylı uğursuz giriş cəhdləri'''}} edilmişdir. Hesabınızın güclü bir şifrəsi olduğundan əmin olun."
+}

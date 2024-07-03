@@ -1,0 +1,32 @@
+{
+	"@metadata": {
+		"authors": [
+			"Mainframe98",
+			"Mar(c)",
+			"McDutchie",
+			"Siebrand"
+		]
+	},
+	"apihelp-query+gadgetcategories-summary": "Geeft een lijst met gadget-categorieën terug.",
+	"apihelp-query+gadgetcategories-param-prop": "Voor welke gadget-categorie gegevens opvragen:",
+	"apihelp-query+gadgetcategories-paramvalue-prop-name": "Interne categorienaam.",
+	"apihelp-query+gadgetcategories-paramvalue-prop-title": "Categorietitel.",
+	"apihelp-query+gadgetcategories-paramvalue-prop-members": "Aantal gadgets in categorie.",
+	"apihelp-query+gadgetcategories-param-names": "Namen van op te halen categorieën.",
+	"apihelp-query+gadgetcategories-example-1": "Een lijst van bestaande gadget-categorieën opvragen.",
+	"apihelp-query+gadgetcategories-example-2": "Alle informatie over categorieën met de naam \"foo\" en \"bar\" opvragen.",
+	"apihelp-query+gadgets-summary": "Geeft een lijst terug met de op deze wiki gebruikte gadgets.",
+	"apihelp-query+gadgets-param-prop": "Voor welke gadget gegevens opvragen:",
+	"apihelp-query+gadgets-paramvalue-prop-id": "Interne gadget-ID.",
+	"apihelp-query+gadgets-paramvalue-prop-metadata": "De metagegevens van de gadget.",
+	"apihelp-query+gadgets-paramvalue-prop-desc": "Gadgetbeschrijving, omgezet in HTML (kan langzaam zijn, gebruik alleen als het echt nodig is).",
+	"apihelp-query+gadgets-param-categories": "Uit welke categorieën gadgets opvragen.",
+	"apihelp-query+gadgets-param-ids": "ID’s van de op te vragen gadgets.",
+	"apihelp-query+gadgets-param-allowedonly": "Alleen gadgets vermelden die voor de huidige gebruiker zijn toegestaan.",
+	"apihelp-query+gadgets-param-enabledonly": "Alleen gadgets vermelden die door de huidige gebruiker zijn ingeschakeld.",
+	"apihelp-query+gadgets-example-1": "Een lijst met gadgets en hun beschrijvingen opvragen",
+	"apihelp-query+gadgets-example-2": "Een lijst opvragen met gadgets en alle mogelijke eigenschappen ervan",
+	"apihelp-query+gadgets-example-3": "Een lijst met gadgets uit de categorie “foo” opvragen",
+	"apihelp-query+gadgets-example-4": "Gegevens over de gadgets “foo” en “bar” opvragen",
+	"apihelp-query+gadgets-example-5": "Een lijst met de door de huidige gebruiker ingeschakelde gadgets opvragen"
+}

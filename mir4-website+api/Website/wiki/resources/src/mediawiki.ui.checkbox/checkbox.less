@@ -1,0 +1,150 @@
+@import 'mediawiki.skin.variables.less';
+@import 'mediawiki.mixins.less';
+
+// Form input sizes, equal to OOUI at 14px base font-size
+@size-input-binary: 1.5625em;
+
+// Checkbox
+//
+// Styling checkboxes in a way that works cross browser is a tricky problem to solve.
+// In MediaWiki UI put a checkbox and label inside a mw-ui-checkbox div.
+// You should give the checkbox and label matching `id` and `for` attributes, respectively.
+//
+// Markup:
+// <div class="mw-ui-checkbox">
+//   <input type="checkbox" id="component-example-3">
+//   <label for="component-example-3">Standard checkbox</label>
+// </div>
+// <div class="mw-ui-checkbox">
+//   <input type="checkbox" id="component-example-3-checked" checked>
+//   <label for="component-example-3-checked">Standard checked checkbox</label>
+// </div>
+// <div class="mw-ui-checkbox">
+//   <input type="checkbox" id="component-example-3-disabled" disabled>
+//   <label for="component-example-3-disabled">Disabled checkbox</label>
+// </div>
+// <div class="mw-ui-checkbox">
+//   <input type="checkbox" id="component-example-3-disabled-checked" disabled checked>
+//   <label for="component-example-3-disabled-checked">Disabled checked checkbox</label>
+// </div>
+.mw-ui-checkbox {
+	display: table;
+	// Position relatively so we can make use of absolute pseudo elements
+	position: relative;
+	line-height: @size-input-binary;
+	vertical-align: middle;
+
+	* {
+		// Reset font sizes, see T74727
+		font-size: inherit;
+		vertical-align: middle;
+	}
+
+	[ type='checkbox' ] {
+		display: table-cell;
+		position: relative;
+		// Ensure the invisible input takes up the required `width` & `height`
+		width: @size-input-binary;
+		height: @size-input-binary;
+		// Support: Firefox mobile to override user-agent stylesheet, see T73750
+		max-width: none;
+		// Hide `input[type=checkbox]` and instead style the label that follows
+		// Support: VoiceOver. Use `opacity` so that VoiceOver can still identify the checkbox
+		opacity: 0;
+		// Render *on top of* the label, so that it's still clickable, see T98905
+		z-index: 1;
+
+		& + label {
+			display: table-cell;
+			padding-left: 0.4em;
+		}
+
+		// Pseudo `:before` element of the label after the checkbox now looks like a checkbox
+		& + label::before {
+			content: '';
+			background-color: #fff;
+			background-origin: border-box;
+			background-position: center center;
+			background-repeat: no-repeat;
+			background-size: 0 0;
+			box-sizing: border-box;
+			position: absolute;
+			// Ensure alignment of checkbox to middle of the text in long labels, see T85241
+			top: 50%;
+			left: 0;
+			width: @size-input-binary;
+			height: @size-input-binary;
+			margin-top: -( @size-input-binary / 2 );
+			border-width: @border-width-base;
+			border-style: @border-style-base;
+			border-radius: @border-radius-base;
+		}
+
+		// Apply a checkmark on the pseudo `:before` element when the input is checked.
+		&:checked + label::before {
+			background-image: url( images/checkbox-checked.svg );
+			background-size: 90% 90%;
+		}
+
+		&:enabled {
+			cursor: pointer;
+
+			& + label {
+				cursor: pointer;
+			}
+
+			& + label::before {
+				border-color: @border-color-input-binary;
+				transition-property: @transition-property-base;
+				transition-duration: @transition-duration-base;
+			}
+
+			// `:focus` has to come first, otherwise a specificity race with `:hover:focus` etc is necessary
+			&:focus + label::before {
+				border-color: @border-color-input-binary--focus;
+				box-shadow: @box-shadow-inset-small @box-shadow-color-progressive--focus;
+				// In Windows high contrast mode the outline becomes visible.
+				outline: @outline-base--focus;
+			}
+
+			&:hover + label::before {
+				border-color: @border-color-input-binary--hover;
+				cursor: @cursor-base--hover;
+			}
+
+			&:active + label::before {
+				background-color: @background-color-progressive--active;
+				border-color: @border-color-progressive--active;
+				box-shadow: @box-shadow-inset-small @box-shadow-color-progressive--active;
+			}
+
+			&:checked {
+				& + label::before {
+					background-color: @background-color-input-binary--checked;
+					border-color: @border-color-input-binary--checked;
+				}
+
+				&:focus + label::before {
+					background-color: @background-color-input-binary--checked;
+					border-color: @border-color-input-binary--checked;
+				}
+
+				&:hover + label::before {
+					background-color: @background-color-progressive--hover;
+					border-color: @border-color-input-binary--hover;
+				}
+
+				&:active + label::before {
+					background-color: @background-color-progressive--active;
+					border-color: @border-color-progressive--active;
+				}
+			}
+		}
+
+		// Disabled checkboxes have a gray background.
+		&:disabled + label::before {
+			background-color: @background-color-disabled;
+			border-color: @border-color-disabled;
+		}
+	}
+}

@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Cwlin0416",
+			"Kly",
+			"Wehwei"
+		]
+	},
+	"apihelp-categorytree-summary": "用於 CategoryTree 擴充套件的內部模組。",
+	"apihelp-categorytree-param-category": "在分類命名空間中的標題，若有字首則會忽略。",
+	"apihelp-categorytree-param-options": "供 CategoryTree 建構子的 JSON 物件參數。<var>depth</var> 項目預設為 <kbd>1</kbd>。",
+	"apierror-categorytree-invalidjson": "選項必須為有效的 JSON 物件。",
+	"apierror-categorytree-invalidjson-option": "選項「$1」包含無效值。"
+}

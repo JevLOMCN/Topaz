@@ -1,0 +1,63 @@
+{
+	"opts": {
+		"destination": "docs/js",
+		"pedantic": true,
+		"recurse": true,
+		"template": "node_modules/jsdoc-wmf-theme"
+	},
+	"plugins": [
+		"plugins/markdown"
+	],
+	"source": {
+		"include": [ "modules", "package.json", "README.md" ]
+	},
+	"templates": {
+		"cleverLinks": true,
+		"default": {
+			"useLongnameInNav": true
+		},
+		"wmf": {
+			"linkMap": {
+				"ext.popups.Preview": "https://doc.wikimedia.org/Popups/master/js/js/Popups/module-preview.html",
+				"ext.popups.PreviewModel": "https://doc.wikimedia.org/Popups/master/js/js/Popups/module-preview_model.html",
+				"Gateway": "https://doc.wikimedia.org/Popups/master/js/js/Popups/module-gateway.html",
+				"HTMLAnchorElement": "https://developer.mozilla.org/en-US/docs/Web/API/HTMLAnchorElement",
+				"HTMLElement": "https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement",
+				"jQuery": "https://api.jquery.com/Types/#jQuery",
+				"jQuery.Event": "https://api.jquery.com/category/events/event-object/",
+				"mw.Map": "https://doc.wikimedia.org/mediawiki-core/master/js/mw.Map.html",
+				"mw.Title": "https://doc.wikimedia.org/mediawiki-core/master/js/mw.Title.html",
+				"mw.user": "https://doc.wikimedia.org/mediawiki-core/master/js/mw.user.html",
+				"OO.EventEmitter": "https://doc.wikimedia.org/oojs/master/OO.EventEmitter.html",
+				"OO.ui.ComboBoxInputWidget": "https://doc.wikimedia.org/oojs-ui/master/js/OO.ui.ComboBoxInputWidget.html",
+				"OO.ui.OptionWidget": "https://doc.wikimedia.org/oojs-ui/master/js/OO.ui.OptionWidget.html",
+				"OO.ui.SearchWidget": "https://doc.wikimedia.org/oojs-ui/master/js/OO.ui.SearchWidget.html",
+				"OO.ui.Toolbar": "https://doc.wikimedia.org/oojs-ui/master/js/OO.ui.Toolbar.html",
+				"OO.ui.ToolGroup": "https://doc.wikimedia.org/oojs-ui/master/js/OO.ui.ToolGroup.html",
+				"ve.ce.FocusableNode": "https://doc.wikimedia.org/VisualEditor/master/js/#!/api/ve.ce.FocusableNode",
+				"ve.ce.LeafNode": "https://doc.wikimedia.org/VisualEditor/master/js/#!/api/ve.ce.LeafNode",
+				"ve.dm.BranchNode": "https://doc.wikimedia.org/VisualEditor/master/js/#!/api/ve.dm.BranchNode",
+				"ve.dm.Document": "https://doc.wikimedia.org/VisualEditor/master/js/#!/api/ve.dm.Document",
+				"ve.dm.DocumentNode": "https://doc.wikimedia.org/VisualEditor/master/js/#!/api/ve.dm.DocumentNode",
+				"ve.dm.FocusableNode": "https://doc.wikimedia.org/VisualEditor/master/js/#!/api/ve.dm.FocusableNode",
+				"ve.dm.InternalItemNode": "https://doc.wikimedia.org/VisualEditor/master/js/#!/api/ve.dm.InternalItemNode",
+				"ve.dm.InternalList": "https://doc.wikimedia.org/VisualEditor/master/js/#!/api/ve.dm.InternalList",
+				"ve.dm.LeafNode": "https://doc.wikimedia.org/VisualEditor/master/js/#!/api/ve.dm.LeafNode",
+				"ve.dm.Model": "https://doc.wikimedia.org/VisualEditor/master/js/#!/api/ve.dm.Model",
+				"ve.dm.Node": "https://doc.wikimedia.org/VisualEditor/master/js/#!/api/ve.dm.Node",
+				"ve.dm.Surface": "https://doc.wikimedia.org/VisualEditor/master/js/#!/api/ve.dm.Surface",
+				"ve.dm.SurfaceFragment": "https://doc.wikimedia.org/VisualEditor/master/js/#!/api/ve.dm.SurfaceFragment",
+				"ve.ui.Action": "https://doc.wikimedia.org/VisualEditor/master/js/#!/api/ve.ui.Action",
+				"ve.ui.Command": "https://doc.wikimedia.org/VisualEditor/master/js/#!/api/ve.ui.Command",
+				"ve.ui.FragmentWindowTool": "https://doc.wikimedia.org/VisualEditor/master/js/#!/api/ve.ui.FragmentWindowTool",
+				"ve.ui.LinearContext": "https://doc.wikimedia.org/VisualEditor/master/js/#!/api/ve.ui.LinearContext",
+				"ve.ui.LinearContextItem": "https://doc.wikimedia.org/VisualEditor/master/js/#!/api/ve.ui.LinearContextItem",
+				"ve.ui.MWDefinedTransclusionContextItem": "https://doc.wikimedia.org/VisualEditor/master/js/#!/api/ve.ui.MWDefinedTransclusionContextItem",
+				"ve.ui.MWTemplateDialog": "https://doc.wikimedia.org/VisualEditor/master/js/#!/api/ve.ui.MWTemplateDialog",
+				"ve.ui.NodeDialog": "https://doc.wikimedia.org/VisualEditor/master/js/#!/api/ve.ui.NodeDialog",
+				"ve.ui.Surface": "https://doc.wikimedia.org/VisualEditor/master/js/#!/api/ve.ui.Surface",
+				"ve.ui.WindowTool": "https://doc.wikimedia.org/VisualEditor/master/js/#!/api/ve.ui.WindowTool"
+			}
+		}
+	}
+}

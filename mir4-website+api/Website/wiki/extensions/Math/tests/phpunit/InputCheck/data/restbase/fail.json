@@ -1,0 +1,33 @@
+{
+	"type": "https://mediawiki.org/wiki/HyperSwitch/errors/bad_request",
+	"title": "Bad Request",
+	"method": "POST",
+	"detail": {
+		"error": {
+			"message": "Illegal TeX function",
+			"expected": [],
+			"found": "\\newcommand",
+			"location": {
+				"start": {
+					"offset": 4,
+					"line": 1,
+					"column": 5
+				},
+				"end": {
+					"offset": 15,
+					"line": 1,
+					"column": 16
+				}
+			},
+			"name": "SyntaxError"
+		},
+		"success": false,
+		"warnings": [],
+		"status": "F",
+		"details": "\\newcommand",
+		"offset": 4,
+		"line": 1,
+		"column": 5
+	},
+	"uri": "/texvcinfo"
+}

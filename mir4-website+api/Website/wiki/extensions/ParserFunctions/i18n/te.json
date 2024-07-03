@@ -1,0 +1,24 @@
+{
+	"@metadata": {
+		"authors": [
+			"Chaduvari",
+			"Mpradeep",
+			"Veeven"
+		]
+	},
+	"pfunc_time_error": "లోపం: సమయం సరిగ్గా లేదు",
+	"pfunc_time_too_long": "లోపం: #timeను చాలా సార్లు ఉపయోగించారు",
+	"pfunc_rel2abs_invalid_depth": "లోపం: పాత్ యొక్క డెప్తు సరిగ్గాలేదు: \"$1\" (రూట్ నోడు కంటే పైన ఉన్న నోడు ఉపయోగించటానికి ప్రయత్నం జరిగింది)",
+	"pfunc_expr_stack_exhausted": "సమాసంలో(Expression) లోపం: స్టాకు మొత్తం అయిపోయింది",
+	"pfunc_expr_unexpected_number": "సమాసంలో(Expression) లోపం: ఊహించని సంఖ్య వచ్చింది",
+	"pfunc_expr_preg_match_failure": "సమాసంలో(Expression) లోపం: preg_matchలో ఊహించని విఫలం",
+	"pfunc_expr_unrecognised_word": "సమాసంలో(Expression) లోపం: గుర్తించలేని పదం \"$1\"",
+	"pfunc_expr_unexpected_operator": "సమాసంలో (Expression) లోపం: $1 పరికర్తను (operator) ఊహించలేదు",
+	"pfunc_expr_missing_operand": "సమాసంలో (Expression) లోపం: $1కు ఒక ఆపరాండును ఇవ్వలేదు",
+	"pfunc_expr_unexpected_closing_bracket": "సమాసంలో(Expression) లోపం: ఊహించని బ్రాకెట్టు ముగింపు",
+	"pfunc_expr_unrecognised_punctuation": "సమాసంలో (Expression) లోపం: \"$1\" అనే విరామ చిహ్నాన్ని గుర్తించలేకపోతున్నాను.",
+	"pfunc_expr_unclosed_bracket": "సమాసంలో(Expression) లోపం: బ్రాకెట్టును మూయలేదు",
+	"pfunc_expr_division_by_zero": "సున్నాతో భాగించారు.",
+	"pfunc_expr_unknown_error": "సమాసంలో(Expression) లోపం: తెలియని లోపం ($1)",
+	"pfunc_expr_not_a_number": "$1లో: వచ్చిన ఫలితం సంఖ్య కాదు"
+}

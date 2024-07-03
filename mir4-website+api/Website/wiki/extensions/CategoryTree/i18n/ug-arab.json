@@ -1,0 +1,35 @@
+{
+	"@metadata": {
+		"authors": [
+			"Sahran",
+			"Uzdil"
+		]
+	},
+	"categorytree": "تۈرلەر شېخى",
+	"categorytree-portlet": "تۈرلەر",
+	"categorytree-legend": "تۈرلەر شېخىنى كۆرسەت",
+	"categorytree-desc": "[[Special:CategoryTree|تۈرلەر قۇرۇلمىسى]] ھەرىكەتچان يولباشچى",
+	"categorytree-category": "تۈرى:",
+	"categorytree-go": "شاخنى كۆرسەت",
+	"categorytree-parents": "ئاتا تۈرلەر",
+	"categorytree-mode-label": "ئۇسۇلى:",
+	"categorytree-mode-categories": "تۈرلەرلا",
+	"categorytree-mode-pages": "بەتلەردىن باشقا ھۆججەتلەر",
+	"categorytree-mode-all": "ھەممە بەتلەر",
+	"categorytree-collapse": "قاتلا",
+	"categorytree-expand": "ياي",
+	"categorytree-member-counts": "{{PLURAL:$1|1 تارماق تۈر|$1 تارماق تۈر}}, {{PLURAL:$2|1 بەت|$2 بەت}} ۋە {{PLURAL:$3|1 ھۆججەت|$3 ھۆججەت}} نى ئۆز ئىچىگە ئالىدۇ",
+	"categorytree-num-categories": "$1 تۈر",
+	"categorytree-num-pages": "$1 بەت",
+	"categorytree-num-files": "$1 ھۆججەت",
+	"categorytree-num-empty": "بوش",
+	"categorytree-load": "يۈكلە",
+	"categorytree-loading": "يۈكلەۋاتىدۇ…",
+	"categorytree-nothing-found": "ھېچنېمە تېپىلمىدى",
+	"categorytree-no-subcategories": "تارماق تۈر يوق",
+	"categorytree-no-parent-categories": "ئاتا تۈر يوق",
+	"categorytree-no-pages": "بەت ياكى تارماق تۈر يوق",
+	"categorytree-not-found": "<i>$1</i> تۈر تېپىلمىدى",
+	"categorytree-error": "سانلىق مەلۇمات يۈكلەش مەسىلىسى.",
+	"categorytree-retry": "سەل كۈتۈپ ئاندىن قايتا سىناڭ."
+}

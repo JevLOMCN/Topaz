@@ -1,0 +1,30 @@
+{
+	"@metadata": {
+		"authors": [
+			"Purodha"
+		]
+	},
+	"apihelp-echomarkread-param-list": "En leß met dä Kännonge för di Meddeijlonge, di op „jelässe“ jesaz wähde sulle.",
+	"apihelp-echomarkread-param-all": "Wann aanjekleck, dunn all däm Metmaacher singe Meddeijlonge op „jelässe“ säze.",
+	"apihelp-echomarkread-param-sections": "En Leß met Affschnedde, di op „jelässe“ jesaz wähde sulle.",
+	"apihelp-echomarkread-example-1": "Säz de Meddeijlong aach op „jelässe“.",
+	"apihelp-echomarkread-example-2": "Säz alle Meddeijlonge op „jelässe“.",
+	"apihelp-echomarkread-example-3": "Säz de eezde Meddeijlong op „nit jelässe“.",
+	"apihelp-echomarkseen-example-1": "Makehr alle Zoote Meddeijlong als „jesinn“",
+	"apihelp-echomarkseen-param-type": "De Zoot Metdeijlong zom als jesinn Makkehre: „<kbd lang=\"en\" xml:lang=\"en\" dir=\"ltr\">alert</kbd>“, „<kbd lang=\"en\" xml:lang=\"en\" dir=\"ltr\">message</kbd>“ udder „<kbd lang=\"en\" xml:lang=\"en\" dir=\"ltr\">all</kbd>“,",
+	"apihelp-query+notifications-param-prop": "De Einzelheijte för dernoh ze frohre.",
+	"apihelp-query+notifications-param-sections": "De Afschnedde met de oot Nohreeschte zom holle, allsu esu jät wi „<kbd lang=\"en\" xml:lang=\"en\" dir=\"ltr\">alert</kbd>“ un \n„<kbd lang=\"en\" xml:lang=\"en\" dir=\"ltr\">message</kbd>“ udder beeds.",
+	"apihelp-query+notifications-param-groupbysection": "Of de Leß en Jroppe vun Afschnedde sin sull.\nJehde Affschnedd es för sesch, wann dat aanjeklegg es.",
+	"apihelp-query+notifications-param-format": "Wann aanjejovve, wähde de Nohreeschte en dä Manier daajeschtällt.",
+	"apihelp-query+notifications-paramvalue-format-model": "Rüh Dahte vun de Medeijlonge",
+	"apihelp-query+notifications-param-limit": "Nit mih, wi esu vill Meddeijlonge ußjävve.",
+	"apihelp-query+notifications-param-alertcontinue": "Wann mih Meddeijlonge ze holle sin, nemm dat för wigger ze maache.",
+	"apihelp-query+notifications-param-unreadfirst": "Ov de unjelässe Meddeijlonge am Aanfang schtonn sulle. Bedügg nix, wann et Jroppehre aanjeschalld es.",
+	"apihelp-query+notifications-param-alertunreadfirst": "Ov de unjelässe Meddeijlonge övver Nohreeschte am Aanfang schtonn sulle. Bedügg nix, wann et Jroppehre ußjeschalld es.",
+	"apihelp-query+notifications-param-messagecontinue": "Wann mih Nohreeschte ze holle sin, nemm dat för wigger ze maache.",
+	"apihelp-query+notifications-param-messageunreadfirst": "Ov de unjelässe Nohreeschte övver Meddeijlonge am Aanfang schtonn sulle. Bedügg nix, wann et Jroppehre aanjeschalld es.",
+	"apihelp-query+notifications-param-titles": "Jiff blohß de Benohreeschtejonge för di Sigge uß. Öm Benohreeschtejonge ze krijje, di met keijne beschtemmpte Sigg zesammehange donn, jiv [] als Övverschreff en.",
+	"apihelp-query+notifications-example-1": "Meddeijlonge opleßte",
+	"apihelp-query+notifications-example-2": "Meddeijlonge opleßte, noh Affschnedde, met der Aanzahl",
+	"apihelp-query+unreadnotificationpages-param-limit": "De jrüüßte Zahl Sigge för ußzejävve."
+}

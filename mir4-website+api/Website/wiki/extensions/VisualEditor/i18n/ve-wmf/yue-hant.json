@@ -1,0 +1,24 @@
+{
+	"@metadata": {
+		"authors": [
+			"Winston Sung"
+		]
+	},
+	"tag-visualeditor": "[[{{MediaWiki:visualeditor-descriptionpagelink}}|可見修改]]",
+	"tag-visualeditor-description": "用[[{{MediaWiki:visualeditor-descriptionpagelink}}|VisualEditor]]改嘅",
+	"tag-visualeditor-needcheck": "[[{{MediaWiki:visualeditor-descriptionpagelink}}|VisualEditor: 請檢查]]",
+	"tag-visualeditor-needcheck-description": "[[{{MediaWiki:visualeditor-descriptionpagelink}}|VisualEditor]] 處理呢次修改嗰陣，可能喐咗啲意料之外嘅嘢。",
+	"tag-visualeditor-wikitext": "2017年版原始碼編輯",
+	"tag-visualeditor-wikitext-description": "用咗2017年版文字編輯器嘅編輯",
+	"tag-visualeditor-switched": "[[{{MediaWiki:visualeditor-descriptionpagelink}}|即見編輯：轉咗]]",
+	"tag-visualeditor-switched-description": "用家本來用緊 VisualEditor 嚟編輯，然後轉咗去改源碼。",
+	"visualeditor-feedback-link": "Project:VisualEditor/Feedback",
+	"visualeditor-feedback-tool": "畀意見",
+	"visualeditor-help-label": "睇用家指南",
+	"visualeditor-welcomedialog-action": "開始改",
+	"visualeditor-welcomedialog-content": "人人都改得，每個改動都有用。",
+	"visualeditor-welcomedialog-content-thanks": "多謝你幫世界各地嘅人增加知識！",
+	"visualeditor-welcomedialog-switch": "轉去原始碼編輯器",
+	"visualeditor-welcomedialog-switch-ve": "轉去即見編輯器",
+	"visualeditor-welcomedialog-title": "{{GENDER:$1|歡迎}}嚟到 $2"
+}

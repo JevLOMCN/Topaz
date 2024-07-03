@@ -1,0 +1,38 @@
+{
+	"@metadata": {
+		"authors": [
+			"Amire80",
+			"Isarra",
+			"Liuxinyu970226",
+			"Pamputt",
+			"Robby",
+			"Shirayuki",
+			"Umherirrender"
+		]
+	},
+	"timeless-prefs-talkpage": "{{optional}}\nLink to the skin's talk page on MediaWiki.org; it is shown before the preview link in skin preferences on Special:Preferences. Inspired by [https://phabricator.wikimedia.org/T307113 T307113].",
+	"skinname-timeless": "{{name}}",
+	"timeless-desc": "{{desc|what=skin|name=Timeless|url=https://www.mediawiki.org/wiki/Skin:Timeless}}",
+	"timeless-anonymous": "Label for anonymous (not logged in) user menu\n{{Identical|Anonymous}}",
+	"timeless-loggedinas": "Note for personal menu for logged in users noting their current username\n\nParameters:\n* $1 - username",
+	"timeless-notloggedin": "Note for personal menu for anonymous users clarifying that they are not logged in\n{{Identical|Not logged in}}",
+	"timeless-userpage": "User page/profile link label in the personal menu\n{{Identical|User page}}\nParameters:\n* $1 - username, used for GENDER",
+	"timeless-talkpage": "Talk page link label in the personal menu.\nParameters:\n* $1 - username, used for GENDER",
+	"timeless-pagelog": "Label for Special:Log link for the page. The page is singular.",
+	"timeless-more": "Label for the more tools dropdown menu in the page actions toolbar\n{{Identical|More}}",
+	"timeless-sitetools": "Label for general site tools menu in sidebar",
+	"timeless-pageactions": "Label for some page actions",
+	"timeless-userpagetools": "Label for actions associated with a user page.",
+	"timeless-action-addsection": "Label for newsection link on talkpages",
+	"timeless-view-view": "Label for the 'view' link action tab\n{{Identical|Read}}",
+	"timeless-pagemisc": "Label for more tools\n{{Identical|More}}",
+	"timeless-namespaces": "Label for page namespaces and watch tools\n{{Identical|Namespace}}",
+	"timeless-pagetools": "Label for other page tools",
+	"timeless-languages": "Label for the other languages dropdown\n{{Identical|Language}}",
+	"timeless-projects": "Label for the other projects dropdown",
+	"timeless-sitetitle": "{{ignore}}\nSite title for site banner",
+	"timeless.css": "{{optional}}\nCSS applied to users using Timeless skin.\n{{related/css}}",
+	"timeless.js": "{{optional}}\nJS for users using Timeless skin.\n{{related/js}}",
+	"timeless-view-history": "Text used on the history tab.\n\n{{Identical|History}}",
+	"timeless-action-undelete": "It is tab label. It's really can be named ''nstab-undelete''. Parameters:\n* $1 - number of edits"
+}

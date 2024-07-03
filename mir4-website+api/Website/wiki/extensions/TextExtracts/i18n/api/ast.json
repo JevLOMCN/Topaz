@@ -1,0 +1,20 @@
+{
+	"@metadata": {
+		"authors": [
+			"Xuacu"
+		]
+	},
+	"apihelp-query+extracts-summary": "Devuelve testu planu o estractos en HTML parciales de les páxines indicaes.",
+	"apihelp-query+extracts-param-chars": "Cuántos caráuteres hai que devolver. El testu real devueltu puede ser un poco más llargu.",
+	"apihelp-query+extracts-param-sentences": "Cuántes frases hai que devolver.",
+	"apihelp-query+extracts-param-limit": "Cuántos estractos van devolvese. (Sólo pueden devolvese estractos múltiples s'establez «exintro» como verdadero.)",
+	"apihelp-query+extracts-param-intro": "Devolver sólo el conteníu anterior a la primera seición.",
+	"apihelp-query+extracts-param-plaintext": "Devolver estractos como testu planu en llugar de HTML parcial.",
+	"apihelp-query+extracts-param-sectionformat": "Como dar formatu a les seiciones en mou testu planu:\n;plain:Sin formatu.\n;wiki:Formatu d'estilu testu wiki (== como esto ==).\n;raw:Representación interna d'esti módulu (títulos de sección prefixaos con &lt;ASCII 1&gt;&lt;ASCII 2&gt;&lt;nivel de seición&gt;&lt;ASCII 2&gt;&lt;ASCII 1&gt;).",
+	"apihelp-query+extracts-example-1": "Recibir un estractu de 175 caráuteres",
+	"apiwarn-textextracts-limit": "<var>exlimit</var> yera grande enforma pa una solicitú completa d'estractos del artículu, baxóse a $1.",
+	"apiwarn-textextracts-unsupportedmodel": "$1 tien el modelu de conteníu $2, que nun ye compatible; devolveráse un estractu vacíu.",
+	"apiwarn-textextracts-title-in-file-namespace": "Pidióse l'estractu d'un títulu del espaciu de nomes Ficheru, nun se devolvió nada.",
+	"apiwarn-textextracts-sentences-and-html": "El parámetru <var>$1sentences</var> puede tener resultaos inesperaos cuando s'usa en mou HTML.",
+	"apiwarn-textextracts-malformed-html": "El HTML puede tar mal escritu y/o nun tar equilibráu y puede omitir les imáxenes en llinia. Úsalu so la to responsabilidá. Los problemes conocíos recuéyense'n https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:TextExtracts#Caveats."
+}

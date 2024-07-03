@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"Amire80",
+			"Macofe",
+			"Praveenp"
+		]
+	},
+	"apihelp-flowthank-param-postid": "നന്ദി രേഖപ്പെടുത്തുന്ന പോസ്റ്റിന്റെ യു.യു.ഐ.ഡി.",
+	"apihelp-flowthank-example-1": "<kbd>UUID കചട789</kbd> ആയുള്ള കുറിപ്പിന് നന്ദിയറിയിക്കുക",
+	"apihelp-thank-summary": "ഒരു ലേഖകന് നന്ദി അറിയിപ്പ് അയയ്ക്കുക.",
+	"apihelp-thank-param-rev": "നന്ദി രേഖപ്പെടുത്താനുള്ള നാൾപ്പതിപ്പ് ഐ.ഡി. ഇതോ 'രേഖ'യോ നൽകിയിരിക്കണം.",
+	"apihelp-thank-param-source": "അഭ്യർത്ഥനയുടെ സ്രോതസ്സ് അടയാളപ്പെടുത്താനുള്ള ഒരു ചെറുപദം, ഉദാഹരണത്തിന് <kbd>diff</kbd> അല്ലെങ്കിൽ <kbd>history</kbd>.",
+	"apihelp-thank-example-1": "നാൾപ്പതിപ്പ് <kbd>ഐ.ഡി. 456</kbd>-ന് നന്ദി രേഖപ്പെടുത്തുക, അഭ്യർത്ഥനാ സ്രോതസ്സ് വ്യത്യാസം താളാണ്"
+}

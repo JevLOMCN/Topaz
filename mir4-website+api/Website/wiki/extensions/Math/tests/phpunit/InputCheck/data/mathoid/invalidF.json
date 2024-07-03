@@ -1,0 +1,63 @@
+{
+	"status": 400,
+	"type": "bad_request",
+	"title": "Bad Request",
+	"detail": {
+		"error": {
+			"message": "Illegal TeX function",
+			"expected": [],
+			"found": "\\invalid",
+			"location": {
+				"start": {
+					"offset": 2,
+					"line": 1,
+					"column": 3
+				},
+				"end": {
+					"offset": 10,
+					"line": 1,
+					"column": 11
+				}
+			},
+			"name": "SyntaxError"
+		},
+		"success": false,
+		"warnings": [],
+		"status": "F",
+		"details": "\\invalid",
+		"offset": 2,
+		"line": 1,
+		"column": 3
+	},
+	"method": "POST",
+	"uri": "/texvcinfo",
+	"success": false,
+	"log": {
+		"error": {
+			"message": "Illegal TeX function",
+			"expected": [],
+			"found": "\\invalid",
+			"location": {
+				"start": {
+					"offset": 2,
+					"line": 1,
+					"column": 3
+				},
+				"end": {
+					"offset": 10,
+					"line": 1,
+					"column": 11
+				}
+			},
+			"name": "SyntaxError"
+		},
+		"success": false,
+		"warnings": [],
+		"status": "F",
+		"details": "\\invalid",
+		"offset": 2,
+		"line": 1,
+		"column": 3
+	},
+	"error": "SyntaxError: Illegal TeX function"
+}

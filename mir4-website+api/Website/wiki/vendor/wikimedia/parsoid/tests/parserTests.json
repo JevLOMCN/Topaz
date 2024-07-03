@@ -1,0 +1,122 @@
+{
+	"parsoid": {
+		"project": "mediawiki/services/parsoid",
+		"targets": {
+			"annotationParserTests.txt": {},
+			"attributeExpanderTests.txt": {},
+			"domNormalizerTests.txt": {},
+			"encapParserTests.txt": {},
+			"i18nParserTests.txt": {},
+			"langParserTests.txt": {},
+			"sectionWrappingParserTests.txt": {},
+			"regressions.txt": {},
+			"selserWrappingParserTests.txt": {},
+			"separatorTests.txt": {},
+			"tableFixupsParserTests.txt": {}
+		}
+	},
+	"core": {
+		"project": "mediawiki/core",
+		"latestCommit": "bed8afbe9e806d646e9fb7d7669d6e38b4b04d02",
+		"targets": {
+			"comments.txt": {
+				"path": "tests/parser/comments.txt",
+				"expectedSHA1": "38288b6baa071579b9cbb410175c07ad92d6c56a"
+			},
+			"badCharacters.txt": {
+				"path": "tests/parser/badCharacters.txt",
+				"expectedSHA1": "e2f899e0190e8cc2bece52e543b183dc5b0ab0a2"
+			},
+			"definitionLists.txt": {
+				"path": "tests/parser/definitionLists.txt",
+				"expectedSHA1": "8d5e29541a7ff2a2af26059133b44204f445da39"
+			},
+			"extLinks.txt": {
+				"path": "tests/parser/extLinks.txt",
+				"expectedSHA1": "57143e301d5eb097e2b24b098f082d6e4a7d2d63"
+			},
+			"indentPre.txt": {
+				"path": "tests/parser/indentPre.txt",
+				"expectedSHA1": "319114cd7afc669fc180c8bc77ecbaec04fc6878"
+			},
+			"indicators.txt": {
+				"path": "tests/parser/indicators.txt",
+				"expectedSHA1": "96e7fd7f92690eaeb902b030ea9fa1958e7d045e"
+			},
+			"interlanguageLinks.txt": {
+				"path": "tests/parser/interlanguageLinks.txt",
+				"expectedSHA1": "87fad95423a2d997aadac1c8c6b81d917ac709a3"
+			},
+			"interwikiLinks.txt": {
+				"path": "tests/parser/interwikiLinks.txt",
+				"expectedSHA1": "6f801656d18924c9dd507d01aa40561a62210238"
+			},
+			"legacyMedia.txt": {
+				"path": "tests/parser/legacyMedia.txt",
+				"expectedSHA1": "d29e177e1a5b391b0ca949fa3498a08097554853"
+			},
+			"magicLinks.txt": {
+				"path": "tests/parser/magicLinks.txt",
+				"expectedSHA1": "a4d86f08c77f8e364ab5469dc8d17c4a11b1a11d"
+			},
+			"magicWords.txt": {
+				"path": "tests/parser/magicWords.txt",
+				"expectedSHA1": "cd6033c581aa0fa8586c0a92d2f7886af83f2fd5"
+			},
+			"media.txt": {
+				"path": "tests/parser/media.txt",
+				"expectedSHA1": "0503fcf13e4b17a958d9929f23084f0027ff88cd"
+			},
+			"parserTests.txt": {
+				"path": "tests/parser/parserTests.txt",
+				"expectedSHA1": "d8045f24ef10d06227005c32a31a689fcca828ba"
+			},
+			"preTags.txt": {
+				"path": "tests/parser/preTags.txt",
+				"expectedSHA1": "0d59819b43876d6f72b10626f96910e945cc44fd"
+			},
+			"pst.txt": {
+				"path": "tests/parser/pst.txt",
+				"expectedSHA1": "1f112b32b59b8792c4d23c968452a3b3eaad2d68"
+			},
+			"pWrapping.txt": {
+				"path": "tests/parser/pWrapping.txt",
+				"expectedSHA1": "9f4f9812521ba7498ba32ea12fb41e8ff193a862"
+			},
+			"preprocessor.txt": {
+				"path": "tests/parser/preprocessor.txt",
+				"expectedSHA1": "7b46926f80485cabd1aa44b0677788c748572337"
+			},
+			"quotes.txt": {
+				"path": "tests/parser/quotes.txt",
+				"expectedSHA1": "1d6681c2fc8570dd136072b40fdaf45d6d96b950"
+			},
+			"redirects.txt": {
+				"path": "tests/parser/redirects.txt",
+				"expectedSHA1": "0bdeb1119ff7043550752e9cca49ade2e5698b72"
+			},
+			"tables.txt": {
+				"path": "tests/parser/tables.txt",
+				"expectedSHA1": "ed4511b3f6aa190dc3b3968427e05fbfa48edf24"
+			},
+			"toc.txt": {
+				"path": "tests/parser/toc.txt",
+				"expectedSHA1": "6150b7819e1da988c29fa936f73d8a1d81d827e8"
+			},
+			"wtEscaping.txt": {
+				"path": "tests/parser/wtEscaping.txt",
+				"expectedSHA1": "7124df50b60baea1979089ac34d627808b6e6416"
+			}
+		}
+	},
+	"TMH": {
+		"project": "mediawiki/extensions/TimedMediaHandler",
+		"latestCommit": "e50f39981656378fb0f4aa6909747facb13b2b4c",
+		"targets": {
+			"timedMediaHandlerParserTests.txt": {
+				"path": "tests/parser/parserTests.txt",
+				"expectedSHA1": "0c297b9d9cea97ed491e11a8cfcbbed2b525f0da"
+			}
+		}
+	}
+}

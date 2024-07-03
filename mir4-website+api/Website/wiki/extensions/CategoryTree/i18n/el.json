@@ -1,0 +1,43 @@
+{
+	"@metadata": {
+		"authors": [
+			"AK",
+			"Badseed",
+			"Consta",
+			"Dead3y3",
+			"NikosLikomitros",
+			"Nikosgranturismogt",
+			"Protnet",
+			"SucreRouge",
+			"ZaDiak"
+		]
+	},
+	"categorytree": "Δέντρο κατηγορίας",
+	"categorytree-portlet": "Κατηγορίες",
+	"categorytree-legend": "Εμφάνιση δέντρου κατηγορίας",
+	"categorytree-desc": "Πλοηγηθείτε δυναμικά στη [[Special:CategoryTree|δομή της κατηγορίας]]",
+	"categorytree-header": "Εισαγάγετε όνομα κατηγορίας για να δείτε τα περιεχόμενά της ως δεντρική δομή. (απαιτεί JavaScript).",
+	"categorytree-category": "Κατηγορία:",
+	"categorytree-go": "Εμφάνιση δέντρου",
+	"categorytree-parents": "Γονείς",
+	"categorytree-mode-label": "Λειτουργία:",
+	"categorytree-mode-categories": "μόνο κατηγορίες",
+	"categorytree-mode-pages": "Σελίδες εξαιρουμένων αρχείων",
+	"categorytree-mode-all": "όλες οι σελίδες",
+	"categorytree-collapse": "σύμπτυξη",
+	"categorytree-expand": "επέκτεινε",
+	"categorytree-member-counts": "Περιέχει {{PLURAL:$1|1 υποκατηγορία|$1 υποκατηγορίες}}, {{PLURAL:$2|1 σελίδα|$2 σελίδες}} και {{PLURAL:$3|1 αρχείο|$3 αρχεία}}",
+	"categorytree-num-categories": "$1 Κ",
+	"categorytree-num-pages": "$1 Σ",
+	"categorytree-num-files": "$1 Α",
+	"categorytree-num-empty": "κενή",
+	"categorytree-load": "φορτώστε",
+	"categorytree-loading": "φόρτωση",
+	"categorytree-nothing-found": "δεν βρέθηκε τίποτα",
+	"categorytree-no-subcategories": "καμία υποκατηγορία",
+	"categorytree-no-parent-categories": "δεν υπάρχουν πατρικές κατηγορίες",
+	"categorytree-no-pages": "καμία σελίδα ή υποκατηγορία",
+	"categorytree-not-found": "Η κατηγορία <i>$1</i> δεν βρέθηκε",
+	"categorytree-error": "Πρόβλημα φόρτωσης δεδομένων.",
+	"categorytree-retry": "Παρακαλούμε περιμένετε μια στιγμή και προσπαθήστε ξανά."
+}

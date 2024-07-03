@@ -1,0 +1,29 @@
+{
+	"@metadata": {
+		"authors": [
+			"Ant176",
+			"JNakayama-WMF",
+			"Omotecho"
+		]
+	},
+	"editcheck-dialog-action-no": "いいえ",
+	"editcheck-dialog-action-yes": "はい",
+	"editcheck-dialog-addref-description": "出典を追加することで、読者がこの情報の典拠を理解できるようにします。",
+	"editcheck-dialog-addref-reject-question": "出典を追加しない理由はなんですか。",
+	"editcheck-dialog-addref-reject-description": "「出典は不要」というあなたの判断について、他の編集者は「もっと知りたい」と思うはずです。",
+	"editcheck-dialog-addref-reject-irrelevant": "私が加えている変更と、出典とは、関係がないと思います",
+	"editcheck-dialog-addref-reject-common-knowledge": "私が付け加える情報は、広く知られています",
+	"editcheck-dialog-addref-reject-uncertain": "どの出典をつければよいか、わかりません",
+	"editcheck-dialog-addref-reject-other": "その他",
+	"editcheck-dialog-addref-success-notify": "出典を追加していただき、ありがとうございます！",
+	"editcheck-dialog-addref-title": "出典を追加する",
+	"editcheck-dialog-title": "公開前",
+	"tag-editcheck-reference-decline-common-knowledge": "編集チェック（出典）を却下（一般的な知識）",
+	"tag-editcheck-reference-decline-common-knowledge-description": "編集チェックによる出典は、一般知識であるため、却下されました",
+	"tag-editcheck-reference-decline-irrelevant": "編集チェック(出典) を却下（不適切）",
+	"tag-editcheck-reference-decline-irrelevant-description": "編集チェックによる出典は、不適切として却下されました",
+	"tag-editcheck-reference-decline-other": "編集チェック（出典）を却下（その他）",
+	"tag-editcheck-reference-decline-other-description": "編集チェックによる出典は却下され、理由の記載はありません",
+	"tag-editcheck-reference-decline-uncertain": "編集チェック（出典）を却下（不確実）",
+	"tag-editcheck-reference-decline-uncertain-description": "編集チェックによる出典は、確実ではないとして却下されました"
+}

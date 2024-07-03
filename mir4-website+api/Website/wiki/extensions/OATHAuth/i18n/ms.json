@@ -1,0 +1,20 @@
+{
+	"@metadata": {
+		"authors": [
+			"Anakmalaysia",
+			"Hakimi97"
+		]
+	},
+	"oathauth-desc": "Menyediakan sokongan penentusahan dengan menggunakan kata laluan kegunaan sekali berasaskan HMAC",
+	"oathauth-account": "Nama Akaun Dwifaktor:",
+	"oathauth-secret": "Kunci Rahsia Dwifaktor:",
+	"oathauth-enable": "Hidupkan Penentusahan Dwifaktor",
+	"oathauth-recoverycodes": "Yang berikut ialah senarai token kegunaan sekali. Token-token ini hanya boleh digunakan sekali, malah adalah untuk kegunaan kecemasan. Sila catatkan dalam kertas dan simpan dalam tempat yang selamat. Sekiranya anda kehilangan telefon anda, token-token ini sahajalah caranya untuk menyelamatkan akaun anda. Token-token ini tidak akan dipaparkan lagi.",
+	"oathauth-disable": "Matikan Penentusahan Dwifaktor",
+	"oathauth-validatedoath": "Watikah dwifaktor disahkan. Penentusahan dwifaktor kini akan berkuatkuasa.",
+	"oathauth-failedtovalidateoath": "Watikah dwifaktor gagal disahkan",
+	"oathauth-disabledoath": "Penentusahan dwifaktor dimatikan.",
+	"oathauth-prefs-label": "Penentusahan dwifaktor:",
+	"right-oathauth-view-log": "Mengakses log perubahan penyahihan dua-faktor",
+	"action-oathauth-view-log": "mengakses log perubahan penyahihan dua-faktor"
+}

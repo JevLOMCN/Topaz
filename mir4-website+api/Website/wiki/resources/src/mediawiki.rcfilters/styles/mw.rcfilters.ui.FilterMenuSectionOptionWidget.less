@@ -1,0 +1,48 @@
+@import 'mediawiki.skin.variables.less';
+@import 'mw.rcfilters.variables.less';
+@import 'mediawiki.mixins.less';
+
+.mw-rcfilters-ui-filterMenuSectionOptionWidget {
+	background-color: @background-color-interactive;
+	padding-top: 0;
+	padding-bottom: 0;
+
+	&-header {
+		height: 2.5em;
+		display: flex;
+		align-items: center;
+	}
+
+	&-header-title.oo-ui-labelElement-label {
+		color: @color-subtle;
+	}
+
+	&-whatsThisButton {
+		margin-left: 1.5em;
+
+		&.oo-ui-buttonElement > .oo-ui-buttonElement-button {
+			font-weight: normal;
+		}
+
+		&-popup-content {
+			padding: 1em;
+
+			&-header {
+				margin-bottom: 1em;
+				font-weight: bold;
+			}
+
+			&-link {
+				margin: 1em 0;
+			}
+
+			.oo-ui-buttonElement-frameless.oo-ui-labelElement > .oo-ui-buttonElement-button > .oo-ui-labelElement-label {
+				margin-left: 0;
+			}
+		}
+	}
+
+	&-active .mw-rcfilters-ui-filterMenuSectionOptionWidget-header-title {
+		font-weight: bold;
+	}
+}

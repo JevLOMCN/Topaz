@@ -1,0 +1,31 @@
+{
+	"@metadata": {
+		"authors": [
+			"Silovan"
+		]
+	},
+	"apihelp-visualeditor-param-basetimestamp": "მუჟამსჷთ დოჩუანთჷნ, ქიგიორინეთ თე დორედაქტირაფილი გინომორსებაშ ნიშანო. გჷმირინუაფუ რედაქტირაფაშ კონფლიქტიშ გიოგორაფალო.",
+	"apihelp-visualeditor-param-cachekey": "დოფორმატირაფაშ ვარდა გიშაკერძაფეფშო, გიმირინეთ ქეშიშ წიმოხიანი დოფორმატაფაშ მოთხირიშ მოღალი თე კილაწკმა ართო. $1html-იშ მიოჯინშა ვემეღებათ.",
+	"apihelp-visualeditor-param-etag": "გეუნჭირით ETag-ის ოჯღონალო.",
+	"apihelp-visualeditor-param-html": "HTML Parsoid-შა ოჯღონალო დო ვიკიტექსტიშ კონვერტირაფა.",
+	"apihelp-visualeditor-param-oldid": "გინოჯინაშ ნომერიშ გიმორონაფა (დუდმაართაშე ბოლო გინოჯინა)",
+	"apihelp-visualeditor-param-paction": "ქიმინჯუა ოქიმინალო.",
+	"apihelp-visualeditor-param-page": "ხასჷლა, ნამუსჷთ გენხორცილეჷ ქიმინჯეფქ.",
+	"apihelp-visualeditor-param-pst": "ვიკიტექსტიშ გიწოთოლორაფა Parsoid-შა ჯღონუაშახ (აპიჯალა=სხუნუაშ ფრაგმენტი)",
+	"apihelp-visualeditor-param-starttimestamp": "ჩუალაშ ბორჯის, ქიგიორინეთ ხასჷლაშ დინოხარგუაშ მალობას. გჷმირინუაფუ რედაქტირაფაშ კონფლიქტიშ გიოგორაფალო.",
+	"apihelp-visualeditor-param-wikitext": "Parsoid-შა ოჯღონალი ვიკიტექსტიშ HTML-შა გინაჸონაფალო (paction=parsefragment).",
+	"apihelp-visualeditoredit-param-basetimestamp": "ჩუალაშ ბორჯის, ქიგიორინეთ ხასჷლაშ დინოხარგუაშ მალობას. გჷმირინუაფუ რედაქტირაფაშ კონფლიქტიშ გიოგორაფალო.",
+	"apihelp-visualeditoredit-param-cachekey": "დოფორმატირაფაშ ვარდა გიშაკერძაფეფშო, გიმირინეთ ქეშიშ წიმოხიანი დოფორმატაფაშ მოთხირიშ მოღალი თე კილაწკმა ართო. $1html-იშ მიოჯინშა ვემეღებათ.",
+	"apihelp-visualeditoredit-param-captchaid": "Captcha ID (captcha-შ გჷმოხონარაფაშ ჩუალაშ ბორჯის).",
+	"apihelp-visualeditoredit-param-captchaword": "გამა captcha-ს (captcha-შ ძირაფაშ ჩუალაშახ).",
+	"apihelp-visualeditoredit-param-etag": "გეუნჭირით ETag-ის ოჯღონალო.",
+	"apihelp-visualeditoredit-param-html": "HTML Parsoid-ზე გასაგზავნად და ვიკიტექსტის კონვერტირება.",
+	"apihelp-visualeditoredit-param-minor": "ციქა რედაქტირაფაშ შილა.",
+	"apihelp-visualeditoredit-param-needcheck": "ჩუალაშ ბორჯის, თუ რედაქციაშ ჟირჸურე პრობლემა იყუაფუ-და ქიგიორინეთ თე პარამეტრი. თენა ტეგეფით რედაქტირაფას გიმიჭანუანს.",
+	"apihelp-visualeditoredit-param-oldid": "გიმორინაფილი გინოჯინეფიშ ნომერი. დუდმაართათ ბოლო გინოჯინა. ახალი ხასჷლაშო გიმირინეთ 0.",
+	"apihelp-visualeditoredit-param-paction": "ქიმინჯუა ოქიმინალო.",
+	"apihelp-visualeditoredit-param-page": "ხასჷლა, ნამუსჷთ გენხორცილეჷ ქიმინჯეფქ.",
+	"apihelp-visualeditoredit-param-sectiontitle": "დუდჯოხო ახალი სექციაშო",
+	"apihelp-visualeditoredit-param-starttimestamp": "ჩუალაშ ბორჯის, ქიგიორინეთ ხასჷლაშ დინოხარგუაშ მალობას. გჷმირინუაფუ რედაქტირაფაშ კონფლიქტიშ გიოგორაფალო.",
+	"apihelp-visualeditoredit-param-summary": "რედაქტირაფაშ რეზიუმე"
+}

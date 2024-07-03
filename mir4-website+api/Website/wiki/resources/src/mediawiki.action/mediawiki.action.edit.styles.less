@@ -1,0 +1,108 @@
+/*!
+ * Styles for elements of the editing form.
+ */
+@import 'mediawiki.skin.variables.less';
+
+/* stylelint-disable selector-class-pattern */
+
+#mw-sitecsspreview,
+#mw-sitejspreview,
+#mw-usercsspreview,
+#mw-userjspreview {
+	direction: ltr;
+	unicode-bidi: embed;
+}
+
+/* Prevent editing textarea from jumping when toolbar is loaded */
+#toolbar {
+	height: 22px;
+}
+
+/* Stop floats from intruding into edit area in previews */
+#editform,
+#toolbar,
+#wpTextbox1 {
+	clear: both;
+}
+
+/*
+ * Add a bit of margin space between the preview and the toolbar.
+ * This replaces the ugly <p><br /></p> we used to insert into the page source
+ */
+.previewnote,
+#wikiPreview.ontop {
+	margin-bottom: 1em;
+}
+
+.mw-editform {
+	/* General layout */
+	#wpTextbox1 {
+		margin: 0;
+		display: block;
+		/* Ensure the textarea is not higher than browser's viewport on small screens */
+		max-height: 100vh;
+		/* But don't let it collapse into nothingness on really tiny screens */
+		min-height: 5em;
+	}
+
+	/* Adjustments to edit form elements */
+	#editpage-copywarn {
+		font-size: 0.9em;
+		line-height: 1.26;
+	}
+
+	#wpSummaryWidget {
+		display: block;
+		margin-bottom: 1em;
+	}
+
+	#wpSummaryLabel {
+		margin: 0;
+	}
+
+	#wpSummaryWidget,
+	#wpSummaryLabel .oo-ui-fieldLayout-header {
+		max-width: none;
+	}
+
+	.editCheckboxes .oo-ui-fieldLayout {
+		margin-right: 1em;
+	}
+
+	.editHelp {
+		margin-left: 0.5em;
+		vertical-align: middle;
+
+		a {
+			font-weight: bold;
+		}
+	}
+
+	.editOptions {
+		border-radius: 0 0 @border-radius-base @border-radius-base;
+	}
+
+	.editButtons {
+		margin-top: 0.5em;
+	}
+
+	.cancelLink,
+	.editHelp {
+		display: inline-block;
+		vertical-align: middle;
+	}
+
+	/* T188737 */
+	.templatesUsed .mw-redirect {
+		font-style: italic;
+	}
+}
+
+.editOptions {
+	background-color: #eaecf0;
+	color: #202122;
+	border: 1px solid #c8ccd1;
+	border-top: 0;
+	padding: 1em 1em 1.5em 1em;
+	margin-bottom: 2em;
+}

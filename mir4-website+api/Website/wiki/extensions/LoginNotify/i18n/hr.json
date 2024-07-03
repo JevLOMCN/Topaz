@@ -1,0 +1,19 @@
+{
+	"@metadata": {
+		"authors": [
+			"Bugoslav",
+			"MaGa"
+		]
+	},
+	"echo-category-title-login-fail": "Neuspješni pokušaji prijave",
+	"echo-pref-tooltip-login-fail": "Obavijesti me o neuspješnim pokušajima prijavljivanja na moj račun.",
+	"echo-category-title-login-success": "Prijava s nepoznatog uređaja",
+	"echo-pref-tooltip-login-success": "Obavijesti me kad se netko prijavi na moj račun s nepoznatog uređaja ili IP adrese.",
+	"loginnotify-primary-link": "Pomoć",
+	"notification-loginnotify-login-fail-email-subject": "{{PLURAL:$2|Neuspješan pokušaj|Višestruki neuspješni pokušaji}} prijave na projekt {{SITENAME}} kao $1",
+	"notification-loginnotify-login-success-email-subject": "Prijava na projekt {{SITENAME}} kao $1 s računala koje niste rabili u zadnje vrijeme",
+	"notification-header-login-success": "Netko (vjerojatno {{GENDER:$1|Vi}}) se nedavno prijavio na Vaš suradnički račun s novog uređaja. Ako ste to bili Vi, zanemarite ovu poruku. Ako to niste bili Vi, preporučujemo Vam da promijenite zaporku i provjerite aktivnost suradničkog računa.",
+	"notification-new-bundled-header-login-fail": "Od Vaše zadnje prijave {{PLURAL:$1|dogodio se '''neuspješan pokušaj'''|dogodila su se '''$1 neuspješna pokušaja'''|dogodilo se '''$1 neuspješnih pokušaja'''}} prijave na Vaš suradnički račun s novog uređaja. Ako to niste bili Vi, vodite računa o jačini zaporke Vašeg suradničkog računa.",
+	"notification-known-header-login-fail": "Od Vaše zadnje prijave {{PLURAL:$1|dogodio se '''neuspješan pokušaj'''|dogodila su se '''$1 neuspješna pokušaja'''|dogodilo se '''$1 neuspješnih pokušaja'''}} prijave na Vaš suradnički račun. Ako to niste bili Vi, vodite računa o jačini zaporke Vašeg suradničkog računa.",
+	"notification-new-unbundled-header-login-fail": "{{PLURAL:$1|Dogodio se '''neuspješan pokušaj'''|Dogodili su se '''višekratni neuspješni pokušaji'''}} prijave na vaš suradnički račun s novog uređaja. Vodite računa o jačini zaporke Vašeg suradničkog računa."
+}

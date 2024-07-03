@@ -1,0 +1,39 @@
+{
+	"@metadata": {
+		"authors": [
+			"Ilimanaq29",
+			"Matěj Suchánek",
+			"Mormegil",
+			"Patriccck",
+			"Patrik L.",
+			"Vojtěch Dostál"
+		]
+	},
+	"apierror-visualeditor-difffailed": "Nepodařilo se zobrazit rozdíl",
+	"apihelp-visualeditor-param-basetimestamp": "Při ukládání toto nastavte na časové razítko revize, která se editovala. Slouží k detekci editačních konfliktů.",
+	"apihelp-visualeditor-param-cachekey": "Při serializaci nebo porovnání použít výsledek předchozího požadavku serializeforcache s tímto klíčem. Přepíše $1html.",
+	"apihelp-visualeditor-param-editintro": "Editační upozornění, které chcete přidat do oznámení.",
+	"apihelp-visualeditor-param-etag": "ETag, který se má poslat.",
+	"apihelp-visualeditor-param-html": "HTML, které bude posláno do Parsoidu ke konverzi na wikitext.",
+	"apihelp-visualeditor-param-oldid": "Číslo revize, které má být použito (výchozí je poslední revize stránky).",
+	"apihelp-visualeditor-param-paction": "Akce, která se má provést.",
+	"apihelp-visualeditor-param-page": "Stránka, na které se má akce provést.",
+	"apihelp-visualeditor-param-pst": "Před tím, než se pošle do Parsoidu, na wikitextu provést transformace před uložením (paction=parsefragment).",
+	"apihelp-visualeditor-param-starttimestamp": "Při ukládání toto nastavte na čas, kdy byla stránka načtena. Slouží k detekci editačních konfliktů.",
+	"apihelp-visualeditor-param-wikitext": "Wikitext, který bude poslán do Parsoidu ke konverzi na HTML (paction=parsefragment).",
+	"apihelp-visualeditoredit-param-basetimestamp": "Při ukládání toto nastavte na časové razítko revize, která se editovala. Slouží k detekci editačních konfliktů.",
+	"apihelp-visualeditoredit-param-cachekey": "Použít výsledek předchozího požadavku serializeforcache s tímto klíčem. Přepíše $1html.",
+	"apihelp-visualeditoredit-param-captchaid": "Identifikátor Captcha (při ukládání s Captcha reakcí).",
+	"apihelp-visualeditoredit-param-captchaword": "Odpověď na Captcha (při ukládání s Captcha reakcí).",
+	"apihelp-visualeditoredit-param-etag": "ETag, který se má poslat.",
+	"apihelp-visualeditoredit-param-html": "HTML, které bude posláno do Parsoidu namísto wikitextu.",
+	"apihelp-visualeditoredit-param-minor": "Označit jako malou editaci.",
+	"apihelp-visualeditoredit-param-needcheck": "Nastavte tento parametr při ukládání, pokud by revize mohla mít problémy s konverzí tam a zpět. Editace tak bude označena.",
+	"apihelp-visualeditoredit-param-oldid": "Číslo revize, které se má použít (výchozí: poslední revize). Pro novou stránku použijte „0“.",
+	"apihelp-visualeditoredit-param-paction": "Akce, která se má provést.",
+	"apihelp-visualeditoredit-param-page": "Stránka, na níž budou provedeny změny.",
+	"apihelp-visualeditoredit-param-sectiontitle": "Název nové sekce.",
+	"apihelp-visualeditoredit-param-starttimestamp": "Při ukládání toto nastavte na čas, kdy byla stránka načtena. Slouží k detekci editačních konfliktů.",
+	"apihelp-visualeditoredit-param-summary": "Shrnutí editace.",
+	"apihelp-visualeditoredit-param-tags": "Značky, které chcete použít pro tuto editaci."
+}

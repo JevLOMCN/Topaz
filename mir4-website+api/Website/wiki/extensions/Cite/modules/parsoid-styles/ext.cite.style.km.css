@@ -1,0 +1,11 @@
+.mw-ref > a::after {
+	content: '[' counter( mw-Ref, khmer ) ']';
+}
+
+.mw-ref > a[ data-mw-group ]::after {
+	content: '[' attr( data-mw-group ) ' ' counter( mw-Ref, khmer ) ']';
+}
+
+span[ rel='mw:referencedBy' ] > a::before {
+	content: counter( mw-references, khmer ) ',' counter( mw-ref-linkback, khmer );
+}

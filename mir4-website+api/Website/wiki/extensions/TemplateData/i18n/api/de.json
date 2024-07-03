@@ -1,0 +1,16 @@
+{
+	"@metadata": {
+		"authors": [
+			"Amire80",
+			"Metalhead64"
+		]
+	},
+	"apihelp-templatedata-summary": "Ruft Daten ab, die durch die Erweiterung „TemplateData“ gespeichert werden.",
+	"apihelp-templatedata-example-1": "Gibt Vorlagendaten für [[Template:Foobar]] mit Ergebnissen zurück, falls die Vorlage nicht vorhanden ist oder zwar vorhanden ist, jedoch keine Vorlagendaten hat.",
+	"apihelp-templatedata-example-2": "Gibt Vorlagendaten für [[Template:Phabricator]] ohne Ergebnisse zurück, falls die Vorlage nicht vorhanden ist oder zwar vorhanden ist, jedoch keine Vorlagendaten hat.",
+	"apihelp-templatedata-param-includeMissingTitles": "Gibt Daten über Titel aus, auch wenn sie oder Vorlagendaten fehlen. Standardmäßig werden Titel nur zurückgegeben, wenn sie vorhanden sind und Vorlagendaten haben.",
+	"apihelp-templatedata-param-doNotIgnoreMissingTitles": "Gibt Daten über Titel zurück, auch wenn sie oder Vorlagendaten fehlen. Standardmäßig (zur Abwärtskompatibilität) werden nur Titel zurückgegeben, wenn sie vorhanden sind und Vorlagendaten haben.",
+	"apihelp-templatedata-param-lang": "Gibt lokalisierte Werte in dieser Sprache zurück. Standardmäßig werden alle verfügbaren Übersetzungen zurückgegeben.",
+	"apierror-templatedata-corrupt": "Die Vorlagendaten der Seite $1 enthalten ungültige Daten: $2",
+	"apiwarn-templatedata-deprecation-format": "Das Standard-Ausgabeformat wird in Zukunft in <kbd>jsonfm</kbd> geändert. Bitte <kbd>format=json</kbd> ausdrücklich angeben."
+}

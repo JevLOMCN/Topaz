@@ -1,0 +1,20 @@
+{
+	"@metadata": {
+		"authors": [
+			"Alan ffm",
+			"Derbeth",
+			"Michał Sobkowski",
+			"Sp5uhe"
+		]
+	},
+	"inputbox-desc": "Umożliwia włączenie w treść strony wcześniej zdefiniowanych formularzy HTML",
+	"inputbox-error-no-type": "Typ pola wejściowego nie został określony",
+	"inputbox-error-bad-type": "Typ „$1” pola wejściowego nie został rozpoznany.\nNależy wybrać „create”, „comment”, „search”, „search2” or „fulltext”.",
+	"inputbox-tryexact": "Szukaj artykułu",
+	"inputbox-searchfulltext": "Szukaj w tekstach stron",
+	"inputbox-createarticle": "Utwórz artykuł",
+	"inputbox-movearticle": "Przenieś stronę",
+	"inputbox-postcomment": "Nowa sekcja",
+	"inputbox-postcommenttitle": "Nowa sekcja",
+	"inputbox-ns-main": "Główna"
+}

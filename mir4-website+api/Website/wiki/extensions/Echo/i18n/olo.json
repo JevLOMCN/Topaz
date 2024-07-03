@@ -1,0 +1,38 @@
+{
+	"@metadata": {
+		"authors": [
+			"Ilja.mos",
+			"Macofe",
+			"Mashoi7"
+		]
+	},
+	"echo-pref-send-me": "Työnnä minule:",
+	"echo-pref-send-to": "Työnnä adressah:",
+	"echo-pref-email-format": "Sähköpoštan formuattu:",
+	"echo-pref-web": "Verko",
+	"echo-pref-email": "Sähköpoštu",
+	"echo-pref-email-frequency-never": "Älä työnnä minule sähköpoštuilmoituksii",
+	"echo-pref-email-format-html": "HTML",
+	"echo-pref-email-format-plain-text": "Perustekstu",
+	"echo-new-messages": "Sinul on uuzii viestilöi",
+	"echo-category-title-article-linked": "{{PLURAL:$1|Sivun linku|Sivuloin linkat}}",
+	"echo-category-title-other": "{{PLURAL:$1|Muu|Muut}}",
+	"echo-category-title-system": "{{PLURAL:$1|Sistiemu}}",
+	"tooltip-pt-notifications-alert": "{{GENDER:|Sinun}} hälytykset",
+	"notification-link-text-view-message": "Ozuta viesti",
+	"notification-link-text-view-changes": "{{GENDER:$1|Ozuta}} muutokset",
+	"notification-link-text-view-page": "Ozuta sivu",
+	"notification-link-text-view-edit": "Ozuta kohendus",
+	"notification-header-reverted": "{{PLURAL:$4|Sinun kohendus|Sinun kohendukset}} sivul <strong>$3</strong> {{GENDER:$2|{{PLURAL:$4|on kumottu|oldih kumottu}}}}",
+	"notification-header-emailuser": "$1 {{GENDER:$2|työndi}} sinule sähköpoštan.",
+	"notification-edit-talk-page-email-subject2": "$1 {{GENDER:$2|kirjutti}} sinule viestin sivul {{SITENAME}}",
+	"notification-page-linked-email-subject": "Sinun luajittu sivu linkitettih saital {{SITENAME}}",
+	"notification-reverted-email-subject2": "Sinun {{PLURAL:$4|luajittu kohendus|luajitut kohendukset}} saital {{SITENAME}} on {{GENDER:$2|kumattu}}.",
+	"notification-mention-email-subject": "$1 {{GENDER:$2|mainičči}} {{GENDER:$3|sinuu}} saital {{SITENAME}}",
+	"notification-user-rights-email-subject": "Sinun käyttöoigevuot ollah muutunnuot saital {{SITENAME}}",
+	"echo-mark-all-as-read": "Merkiče kai luvettuloikse",
+	"echo-date-today": "Tänäpäi",
+	"echo-date-yesterday": "Egläi",
+	"echo-email-batch-body-intro-daily": "Terveh $1.\nTäs on sinule yhtehvedo tämän päivän tapahtumis saital {{SITENAME}}.",
+	"echo-email-batch-body-intro-weekly": "Terveh $1.\nTäs on sinule yhtehvedo tämän nedälin tapahtumis saital {{SITENAME}}."
+}

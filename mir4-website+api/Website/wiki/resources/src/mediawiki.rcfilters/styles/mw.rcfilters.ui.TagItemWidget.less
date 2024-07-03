@@ -1,0 +1,88 @@
+@import 'mediawiki.skin.variables.less';
+@import 'mw.rcfilters.variables.less';
+@import 'mw.rcfilters.mixins.less';
+
+@size-circle: 20 / @font-size-system-ui / @font-size-vector;
+@margin-circle: 5 / @font-size-system-ui / @font-size-vector;
+
+.mw-rcfilters-ui-tagItemWidget {
+	// Background and color of the capsule widget need a bit
+	// more specificity to override OOUI internals
+	&.oo-ui-flaggedElement-muted.oo-ui-tagItemWidget.oo-ui-widget-enabled {
+		// Muted state
+		background-color: @background-color-interactive;
+		border-color: @border-color-subtle;
+
+		.oo-ui-labelElement-label {
+			color: @color-subtle;
+		}
+
+		.oo-ui-buttonWidget {
+			opacity: 0.5;
+		}
+	}
+
+	&.oo-ui-flaggedElement-invalid.oo-ui-tagItemWidget.oo-ui-widget-enabled {
+		.oo-ui-labelElement-label {
+			// Use `@color-destructive--active` due to TagitemWidget's grey background
+			// in order to stay iin WCAG 2.0 level AA contrast ratio requirement.
+			color: @color-destructive--active;
+		}
+	}
+
+	// OOUI classes require super-specificity in order to override
+	// the white background
+	// The specificity is fixed in the patch: https://gerrit.wikimedia.org/r/#/c/349525/
+	// and will be available in the next OOUI release.
+	.oo-ui-tagMultiselectWidget.oo-ui-widget-enabled.oo-ui-tagMultiselectWidget-outlined &-selected.oo-ui-tagItemWidget.oo-ui-widget-enabled {
+		background-color: @background-color-progressive-subtle;
+		border-color: @border-color-progressive--focus;
+	}
+
+	&-popup-content {
+		padding: 0.5em;
+		color: @color-subtle;
+	}
+
+	&.oo-ui-labelElement:not( .oo-ui-tagItemWidget-fixed ) .oo-ui-labelElement-label {
+		cursor: pointer;
+	}
+
+	&-highlight {
+		display: none;
+		width: 10px;
+		margin-right: @margin-circle;
+
+		&-highlighted {
+			display: inline-block;
+		}
+
+		&::before {
+			content: '';
+			display: block;
+			position: absolute;
+			top: 50%;
+			.mw-rcfilters-circle( 10px, 10px, ~'-5px 0.5em 0 0' );
+		}
+
+		&[ data-color='c1' ]::before {
+			.mw-rcfilters-circle-color( @highlight-c1 );
+		}
+
+		&[ data-color='c2' ]::before {
+			.mw-rcfilters-circle-color( @highlight-c2 );
+		}
+
+		&[ data-color='c3' ]::before {
+			.mw-rcfilters-circle-color( @highlight-c3 );
+		}
+
+		&[ data-color='c4' ]::before {
+			.mw-rcfilters-circle-color( @highlight-c4 );
+		}
+
+		&[ data-color='c5' ]::before {
+			.mw-rcfilters-circle-color( @highlight-c5 );
+		}
+	}
+}

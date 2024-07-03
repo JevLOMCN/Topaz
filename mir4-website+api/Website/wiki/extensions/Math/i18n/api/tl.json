@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"GinawaSaHapon"
+		]
+	},
+	"apihelp-query+mathwbextracts-example-1": "Humihiling ng buod ng mga matematikal na item ng Wikibase.",
+	"apihelp-query+mathwbextracts-summary": "Ibinabalik ang buod ng isang matematikal na item sa Wikibase sa HTML.",
+	"apihelp-query+mathwbextracts-param-qid": "Ang QID ng Wikibase item na hihilingin.",
+	"apihelp-query+mathwbextracts-param-uselang": "Ang wikang hihilingin para sa Wikibase item. Kung ipagpapaubaya, Ingles ito."
+}

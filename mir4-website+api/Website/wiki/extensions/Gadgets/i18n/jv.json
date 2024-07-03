@@ -1,0 +1,33 @@
+{
+	"@metadata": {
+		"authors": [
+			"Bennylin",
+			"Diki Ananta",
+			"Meursault2004",
+			"NoiX180",
+			"Pras",
+			"Sumbukompor"
+		]
+	},
+	"gadgets-desc": "Marengaké para nganggo sakarepé milih [[Special:Gadgets|géjet CSS lan JavaScript]] ing [[Special:Preferences#mw-prefsection-gadgets|pilalan]].",
+	"prefs-gadgets": "Géjet",
+	"gadgets-prefstext": "Ing ngisor iki daftar gadget astaméwa sing bisa panjenangan aktifaké kanggo rékening panjenengan. Gadget-gadget iki sabagéyan gedhé adhedhasar JavaScript dadi panjenengan kudu ngaktifaké JavaScript ing panjlajah wèb panjenengan supaya bisa nglakokaké.\nMangga diwigatèkaké yèn gadget-gadget iki ora ndarbèni pangaruh marang kaca prèferènsi iki.\n\nUga mangga diwigatèkaké yèn gadget astaméwa iki dudu bagéyan saka piranti empuk MediaWiki lan biasané dikembangaké lan diopèni déning panganggo-panganggo ing wiki lokal panjenengan. Pangurus lokal bisa nyunting gadget sing kasedyakaké nganggo [[MediaWiki:Gadgets-definition|dhéfinisi]] lan [[Special:Gadgets|uraian]].",
+	"special-gadgets": "Géjet",
+	"gadgetusage": "Setatistik panganggoné géjet",
+	"gadgetusage-gadget": "Géjet",
+	"gadgetusage-usercount": "Cacah sing nganggo",
+	"gadgetusage-noresults": "Ora ana géjeté.",
+	"gadgetusage-activeusers": "Para nganggo sing giyat",
+	"gadgetusage-default": "Baku",
+	"gadgets-title": "Géjet",
+	"gadgets-pagetext": "Ing ngisor iki kapacak pratélaning géjet mirunggan sing bisa diurubaké déning saben naraguna saka [[Special:Preferences#mw-prefsection-gadgets|kaca pilalané]], kaya sing diandharaké ing [[MediaWiki:Gadgets-definition|kaca dhéfinisiné]].\nKaterangan iki migunani murih gampangé panjenengan mangerti kaca layang sistem sing ngandharaké dhèskripsi lan kodhe géjet.",
+	"gadgets-uses": "Guna",
+	"gadgets-required-rights": "Mbutuhaké {{PLURAL:$2|hak}} ing ngisor iki:\n\n$1",
+	"gadgets-required-skins": "Ana ing {{PLURAL:$2|ules $1|ules iki: $1}}.",
+	"gadgets-default": "Diurubaké kanggo kabèh wong kanthi baku.",
+	"gadgets-export": "Èkspor",
+	"gadgets-export-title": "Èkspor perkakas",
+	"gadgets-not-found": "Gèjet \"$1\" ora ana.",
+	"gadgets-export-text": "Untuk mengekspor perkakas $1, klik tombol \"{{int:gadgets-export-download}}\", simpan berkas yang diunduh,\ntuju ke Special:Import pada wiki tujuan dan unggah berkas itu. Kemudian tambahkan berkas tersebut ke halaman MediaWiki:Gadgets-definition:\n<pre>$2</pre>\nAnda harus memeroleh izin pada wiki tujuan (termasuk hak menyunting pesan sistem) dan mengimpor dari unggahan berkas yang harus diaktifkan.",
+	"gadgets-export-download": "Undhuh"
+}

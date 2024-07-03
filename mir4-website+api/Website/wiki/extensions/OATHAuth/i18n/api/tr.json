@@ -1,0 +1,18 @@
+{
+	"@metadata": {
+		"authors": [
+			"BaRaN6161 TURK",
+			"MuratTheTurkish"
+		]
+	},
+	"apihelp-query+oath-summary": "Bir kullanıcı için iki faktörlü kimlik doğrulamanın (OATH) etkin olup olmadığını kontrol edin.",
+	"apihelp-query+oath-param-user": "Kullanıcı hakkında bilgi almak için. Geçerli kullanıcıya varsayılanlar.",
+	"apihelp-query+oath-param-reason": "OATH durumunu sorgulamanın nedeni.",
+	"apihelp-query+oath-example-1": "Mevcut kullanıcı hakkında bilgi edinin",
+	"apihelp-query+oath-example-2": "<kbd>Example</kbd> kullanıcısı hakkında bilgi edinin.",
+	"apihelp-oathvalidate-summary": "İki faktörlü kimlik doğrulama (OATH) anahtarını doğrulayın.",
+	"apihelp-oathvalidate-param-user": "Kullanıcı için belirteci doğrulamak için. Geçerli kullanıcıya varsayılanlar.",
+	"apihelp-oathvalidate-example-1": "Geçerli kullanıcı için bir belirteç doğrula",
+	"apihelp-oathvalidate-example-3": "<kbd>Example</kbd> kullanıcısı için JSON verilerini doğrulayın",
+	"apihelp-oathvalidate-param-data": "JSON, kimliği doğrulanmış kullanıcı için şu anda etkin olan modül tarafından beklenen verileri kodladı"
+}

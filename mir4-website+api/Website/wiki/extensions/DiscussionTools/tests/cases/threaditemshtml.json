@@ -1,0 +1,42 @@
+[
+	{
+		"name": "enwiki parsoid",
+		"title": "Wikipedia:Village pump (technical)/Archive 175",
+		"dom": "cases/en-big-parsoid/en-big-parsoid.html",
+		"expected": "../cases/en-big-parsoid/en-big-parsoid-threadItemsHtml.json",
+		"config": "../data/enwiki-config.json",
+		"data": "../data/enwiki-data.json"
+	},
+	{
+		"name": "enwiki parsoid AFD",
+		"title": "Wikipedia:Articles for deletion/Log/2020 March 7",
+		"dom": "cases/en-bigafd-parsoid/en-bigafd-parsoid.html",
+		"expected": "../cases/en-bigafd-parsoid/en-bigafd-parsoid-threadItemsHtml.json",
+		"config": "../data/enwiki-config.json",
+		"data": "../data/enwiki-data.json"
+	},
+	{
+		"name": "frwiki unsigned",
+		"title": "Discussion:Le Monde",
+		"dom": "cases/fr-unsigned-parsoid/fr-unsigned-parsoid.html",
+		"expected": "../cases/fr-unsigned-parsoid/fr-unsigned-parsoid-threadItemsHtml.json",
+		"config": "../data/frwiki-config.json",
+		"data": "../data/frwiki-data.json"
+	},
+	{
+		"name": "itwiki unsigned",
+		"title": "Aiuto:Sportello informazioni",
+		"dom": "cases/it-unsigned-parsoid/it-unsigned-parsoid.html",
+		"expected": "../cases/it-unsigned-parsoid/it-unsigned-parsoid-threadItemsHtml.json",
+		"config": "../data/itwiki-config.json",
+		"data": "../data/itwiki-data.json"
+	},
+	{
+		"name": "parsoid-sections",
+		"title": "Overleg gebruiker:Romaine",
+		"dom": "cases/parsoid-sections/parsoid-sections.html",
+		"expected": "../cases/parsoid-sections/parsoid-sections-threadItemsHtml.json",
+		"config": "../data/nlwiki-config.json",
+		"data": "../data/nlwiki-data.json"
+	}
+]

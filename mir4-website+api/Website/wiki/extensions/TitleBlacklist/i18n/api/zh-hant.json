@@ -1,0 +1,17 @@
+{
+	"@metadata": {
+		"authors": [
+			"A2093064",
+			"Cwlin0416",
+			"Waihorace",
+			"Xiplus"
+		]
+	},
+	"apihelp-titleblacklist-summary": "檢驗一個頁面的標題、檔案名稱或使用者名稱是否觸發標題黑名單。",
+	"apihelp-titleblacklist-param-title": "要用來檢驗黑名單的字串。",
+	"apihelp-titleblacklist-param-action": "要檢查的操作。",
+	"apihelp-titleblacklist-param-nooverride": "不要嘗試覆蓋標題黑名單。",
+	"apihelp-titleblacklist-example-1": "檢查[[Foo]]是否已被列入黑名單",
+	"apihelp-titleblacklist-example-2": "檢查[[Bar]]是否已被列入禁止編輯的黑名單",
+	"apihelp-createaccount-param-ignoretitleblacklist": "略過欺騙檢查（需要下列權限之一：<code>tboverride</code>、<code>tboverride-account</code>）"
+}

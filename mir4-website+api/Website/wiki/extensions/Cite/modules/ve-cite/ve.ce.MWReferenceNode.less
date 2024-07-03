@@ -1,0 +1,27 @@
+/*!
+ * VisualEditor ContentEditable MediaWiki MWReferenceNode styles.
+ *
+ * @copyright 2011-2018 VisualEditor Team's Cite sub-team and others; see AUTHORS.txt
+ * @license MIT
+ */
+
+.ve-ce-mwReferenceNode {
+	/* Use transparency to hide the default rendering, rather than display:none.
+	 * This allows the browser to paint the native selection background over it.
+	 *
+	 * The real content is displayed using the :after pseudo-element, but browsers
+	 * do not allow them to be selected, which makes for a poor editing experience.
+	 *
+	 * Previously this was also required to work around a cursoring bug in Chromium
+	 * (T123608), but as of 2020 that bug seems to be fixed in the browser.
+	 */
+	span.mw-reflink-text {
+		color: transparent;
+		position: absolute;
+		display: inline;
+	}
+
+	&-placeholder a::after {
+		content: '[…]';
+	}
+}

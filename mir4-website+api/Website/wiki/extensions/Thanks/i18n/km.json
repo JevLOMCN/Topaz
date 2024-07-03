@@ -1,0 +1,30 @@
+{
+	"@metadata": {
+		"authors": [
+			"គីមស៊្រុន"
+		]
+	},
+	"thanks-thank": "{{GENDER:$1|{{GENDER:$2|សូមថ្លែងអំណរគុណ}}}}",
+	"thanks-thanked": "{{GENDER:$1|{{GENDER:$2|បានថ្លែងអំណរគុណ}}}}",
+	"thanks-button-thank": "{{GENDER:$1|{{GENDER:$2|សូមថ្លែងអំណរគុណ}}}}",
+	"thanks-button-thanked": "{{GENDER:$1|{{GENDER:$2|បានថ្លែងអំណរគុណ}}}}",
+	"thanks-thank-tooltip": "{{GENDER:$1|ផ្ញើ}}សារថ្លែងអំណរគុណទៅកាន់{{GENDER:$2|អ្នកប្រើប្រាស់}}នេះ",
+	"thanks-thank-tooltip-no": "{{GENDER:$1|បោះបង់}}សារថ្លែងអំណរគុណ",
+	"thanks-thank-tooltip-yes": "{{GENDER:$1|ផ្ញើ}}សារថ្លែងអំណរគុណ",
+	"thanks-confirmation2": "ការថ្លែងអំណរគុណទាំងអស់នឹងត្រូវបង្ហាញជាសាធារណៈ។ {{GENDER:$1|ផ្ញើ}}ការថ្លែងអំណរគុណទេ?",
+	"thanks-thanked-notice": "{{GENDER:$3|អ្នក}}បានថ្លែងអំណរគុណ{{GENDER:$2|$1}}។",
+	"thanks": "ផ្ញើការថ្លែងអំណរគុណ",
+	"thanks-submit": "ផ្ញើការថ្លែងអំណរគុណ",
+	"echo-pref-subscription-edit-thank": "ការថ្លែងអំណរគុណចំពោះការកែប្រែរបស់ខ្ញុំ",
+	"echo-pref-tooltip-edit-thank": "ជូនដំណឹងដល់ខ្ញុំពេលនរណាម្នាក់ថ្លែងអំណរគុណចំពោះការកែប្រែរបស់ខ្ញុំ",
+	"echo-category-title-edit-thank": "ការថ្លែងអំណរគុណ",
+	"notification-header-rev-thank": "$1 {{GENDER:$2|បានថ្លែងអំណរគុណ}}{{GENDER:$4|អ្នក}}សម្រាប់ការកែប្រែរបស់អ្នកនៅ<strong>$3</strong>។",
+	"notification-header-log-thank": "$1 {{GENDER:$2|បានថ្លែងអំណរគុណ}}{{GENDER:$4|អ្នក}}សម្រាប់សកម្មភាពនានារបស់អ្នកនៅ<strong>$3</strong>។",
+	"notification-compact-header-edit-thank": "$1 {{GENDER:$2|បានថ្លែងអំណរគុណ}}{{GENDER:$4|អ្នក}}។",
+	"notification-bundle-header-rev-thank": "{{PLURAL:$1|មនុស្សម្នាក់|មនុស្ស$1នាក់|100=មនុស្សជាង១០០នាក់}}បានថ្លែងអំណរគុណ{{GENDER:$3|អ្នក}}សម្រាប់ការកែប្រែរបស់អ្នកនៅ<strong>$2</strong>។",
+	"notification-bundle-header-log-thank": "{{PLURAL:$1|មនុស្សម្នាក់|មនុស្ស$1នាក់|100=មនុស្សជាង១០០នាក់}}បានថ្លែងអំណរគុណ{{GENDER:$3|អ្នក}}សម្រាប់សកម្មភាពនានារបស់អ្នកនៅ<strong>$2</strong>។",
+	"log-name-thanks": "កំណត់ត្រាការថ្លែងអំណរគុណ",
+	"log-description-thanks": "ខាងក្រោយនេះជាបញ្ជីអ្នកប្រើប្រាស់ដែលទទួលការថ្លែងអំណរគុណពីអ្នកប្រើប្រាស់ដទៃ។",
+	"logentry-thanks-thank": "$1 {{GENDER:$2|បានថ្លែងអំណរគុណ}} {{GENDER:$4|$3}}",
+	"logeventslist-thanks-log": "កំណត់ត្រាការថ្លែងអំណរគុណ"
+}

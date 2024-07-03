@@ -1,0 +1,41 @@
+{
+	"@metadata": {
+		"authors": [
+			"Cekli829",
+			"Dağlı95",
+			"NMW03",
+			"PPerviz",
+			"Toghrul Rahimli",
+			"Vugar 1981",
+			"Wertuose",
+			"Nemoralis"
+		]
+	},
+	"categorytree": "Kateqoriya ağacı",
+	"categorytree-portlet": "Kateqoriyalar",
+	"categorytree-legend": "Kateqoriya ağacını göstər.",
+	"categorytree-desc": "[[Special:CategoryTree|Kategori sistemini]] dinamik idarə et",
+	"categorytree-header": "Məzmununu ağac strukturunda görmək üçün kateqoriyanın adını daxil edin. (JavaScript tələb edir.)",
+	"categorytree-category": "Kateqoriya:",
+	"categorytree-go": "Ağacı göstər",
+	"categorytree-parents": "Üst kateqoriyalar",
+	"categorytree-mode-categories": "sadəcə kateqoriyalar",
+	"categorytree-mode-pages": "səhifələr (fayllar xaric)",
+	"categorytree-mode-all": "bütün səhifələr",
+	"categorytree-collapse": "gizlə",
+	"categorytree-expand": "genişləndir",
+	"categorytree-member-counts": "Bu kateqoriya, {{PLURAL:$1|1 altkateqoriya|$1 altkateqoriya}}, {{PLURAL:$2|1 səhifə|$2 səhifə}} və {{PLURAL:$3|1 fayl|$3 fayl}}dan ibarətdir.",
+	"categorytree-num-categories": "$1 kat.",
+	"categorytree-num-pages": "$1 səh.",
+	"categorytree-num-files": "$1 fayl",
+	"categorytree-num-empty": "boş",
+	"categorytree-load": "yüklə",
+	"categorytree-loading": "yüklənir…",
+	"categorytree-nothing-found": "heç nə tapılmadı",
+	"categorytree-no-subcategories": "alt kateqoriya yoxdur",
+	"categorytree-no-parent-categories": "ana kateqoriya yoxdur",
+	"categorytree-no-pages": "səhifə və ya alt kateqoriya yoxdur",
+	"categorytree-not-found": "<i>$1</i> adlı kateqoriya tapılmadı.",
+	"categorytree-error": "Məlumat bazasında problem var.",
+	"categorytree-retry": "Xahiş edirik, bir az gözləyin və yenidən yoxlayın."
+}

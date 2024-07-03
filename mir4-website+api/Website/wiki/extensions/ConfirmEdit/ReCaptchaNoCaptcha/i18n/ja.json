@@ -1,0 +1,19 @@
+{
+	"@metadata": {
+		"authors": [
+			"Ant176",
+			"Ayame",
+			"Kkairri",
+			"Waki285"
+		]
+	},
+	"renocaptcha-desc": "Confirm Edit 用の reCAPTCHA NoCAPTCHA モジュール",
+	"renocaptcha-edit": "Wikiを自動編集スパムから保護するために、下のチェックボックスをクリックしてください。",
+	"renocaptcha-addurl": "あなたの編集には新しい外部リンクが含まれています。Wikiを自動投稿スパムから保護するために、以下のCAPTCHAを解いてください。",
+	"renocaptcha-badlogin": "あなたのアカウントを攻撃から保護するために、下のチェックボックスをクリックしてください。",
+	"renocaptcha-createaccount": "Wikiをアカウント自動作成から保護するために、下のチェックボックスをクリックしてください。",
+	"renocaptcha-createaccount-fail": "CAPTCHAをまだ解決していないようです。",
+	"renocaptcha-create": "Wikiを記事の自動作成から保護するために、下のチェックボックスをクリックしてください。",
+	"renocaptcha-noscript": "残念ながら、JavaScriptを無効にしているため、人間であるかどうかに関係なく、自動的に認識できません。上記のCAPTCHAを解決し、結果のテキストを次のテキスト領域にコピーしてください。",
+	"renocaptcha-help": "ReCaptcha NoCaptcha チャレンジを解いて、応答値をcaptchaWordとして返してください。"
+}

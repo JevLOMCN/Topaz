@@ -1,0 +1,20 @@
+{
+	"@metadata": {
+		"authors": [
+			"Athena in Wonderland",
+			"MokaAkashiyaPT"
+		]
+	},
+	"thanks-thank": "{{GENDER:$1|{{GENDER:$2|agradecer}}}}",
+	"thanks-thanked": "{{GENDER:$1|{{GENDER:$2|agradecimiento ambiado}}}}",
+	"thanks-button-thank": "{{GENDER:$1|{{GENDER:$2|Agradecer}}}}",
+	"thanks-button-thanked": "{{GENDER:$1|{{GENDER:$2|Agradecimiento ambiado}}}}",
+	"thanks-error-undefined": "La açon de agradecimiento falhou (código de erro: $1). Por fabor, tente outra beç.",
+	"thanks-thank-tooltip": "{{GENDER:$1|Ambiar}} ua notificaçon de agradecimiento pa {{GENDER:$2|este outelizador|esta outelizadora}}",
+	"thanks-thank-tooltip-yes": "{{GENDER:$1|Ambiar}} la notificaçon de agradecimiento",
+	"thanks-confirmation2": "{{GENDER:$1|Ambiar}} un agradecimiento público por esta eidiçon?",
+	"thanks": "Ambiar agradecimiento",
+	"thanks-submit": "Ambiar agradecimiento",
+	"echo-pref-tooltip-edit-thank": "Abisar-me quando alguien me agradecer por ua eidiçon que fiç.",
+	"echo-category-title-edit-thank": "Agradecimiento"
+}

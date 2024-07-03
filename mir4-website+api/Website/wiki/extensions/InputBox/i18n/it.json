@@ -1,0 +1,20 @@
+{
+	"@metadata": {
+		"authors": [
+			"Beta16",
+			"BrokenArrow",
+			"Darth Kule",
+			"Karika"
+		]
+	},
+	"inputbox-desc": "Consente l'inserimento di moduli HTML predefiniti",
+	"inputbox-error-no-type": "Non è stato specificato il tipo di inputbox da creare.",
+	"inputbox-error-bad-type": "\"$1\" non è un tipo di inputbox riconosciuto. Scegliere il tipo tra \"create\", \"comment\", \"search\", \"search2\" e \"fulltext\".",
+	"inputbox-tryexact": "Cerca corrispondenza esatta",
+	"inputbox-searchfulltext": "Ricerca nel testo",
+	"inputbox-createarticle": "Crea pagina",
+	"inputbox-movearticle": "Sposta la pagina",
+	"inputbox-postcomment": "Nuova sezione",
+	"inputbox-postcommenttitle": "Nuova sezione",
+	"inputbox-ns-main": "Principale"
+}

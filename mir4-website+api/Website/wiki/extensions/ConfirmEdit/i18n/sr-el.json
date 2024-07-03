@@ -1,0 +1,30 @@
+{
+	"@metadata": {
+		"authors": [
+			"Michaello",
+			"Milicevic01",
+			"Srdjan m",
+			"Сербијана"
+		]
+	},
+	"captcha-edit": "Za izmenu ove strane, rešite sledeći zadatak ispod i unesite odgovor u kutiju ([[Special:Captcha/help|detaljnije]]):",
+	"captcha-edit-fail": "Pogrešan ili nepostojeći kod za potvrdu.",
+	"captcha-desc": "Pruža zaštitu protiv nepoželjnih poruka u vidu potvrdnog koda",
+	"captcha-label": "CAPTCHA",
+	"captcha-addurl": "Vaša izmena sadrži nove spoljašnje veze.\nU cilju zaštite od nepoželjnih poruka, rešite sledeći zadatak ispod i unesite odgovor u polje ([[Special:Captcha/help|više informacija]]):",
+	"captcha-badlogin": "U cilju zaštite od probijanja lozinki, rešite sledeći zadatak ispod i unesite odgovor u polje ([[Special:Captcha/help|više informacija]]):",
+	"captcha-createaccount": "U cilju zaštite od automatizovanog vandalizma, rešite sledeći zadatak ispod i unesite odgovor u polje ([[Special:Captcha/help|više informacija]]):",
+	"captcha-createaccount-fail": "Pogrešan ili nepostojeći kod za potvrdu.",
+	"captcha-create": "Da biste napravili stranicu, rešite sledeći zadatak ispod i unesite odgovor u polje ([[Special:Captcha/help|više informacija]]):",
+	"captcha-sendemail": "U cilju zaštite od slanja nepoželjnih poruka, rešite sledeći zadatak ispod i unesite odgovor u polje ([[Special:Captcha/help|više informacija]]):",
+	"captcha-sendemail-fail": "Nepravilan ili nepostojeći kod za potvrdu.",
+	"captchahelp-title": "Pomoć oko potvrdnog koda",
+	"captchahelp-cookies-needed": "Potrebno je da omogućite kolačiće da bi ovo radilo.",
+	"captchahelp-text": "Veb-sajtove koji podržavaju slanje sadržaja iz javnosti, kao što je ovaj viki, često zloupotrebljavaju vandali koji koriste automatizovane alate da šalju svoje veze ka mnogim sajtovima.\nIako se ove neželjene veze mogu ukloniti, one zadaju veliku muku.\n\nPonekad, pogotovo kada se dodaju nove internet veze na stranu, viki softver vam može pokazati sliku obojenog i izvrnutog teksta i tražiti da ukucate traženu reč.\nPošto je teško automatizovati ovakav zadatak, on omogućuje svim pravim ljudima da vrše svoje izmene, ali će zato sprečiti vandale i ostale robotske napadače.\n\nNažalost, ovo može da bude nepovoljno za korisnike sa ograničenim vidom i za one koji koriste pregledače bazirane na tekstu ili govoru.\nU ovom trenutku, zvučna alternativa nije dostupna.\nObratite se [[Special:ListAdmins|administratoru sajta]] radi pomoći ako vas ovo neočekivano ometa u pravljenju dobrih izmena.\n\nKliknite na dugme „nazad“ vašeg pregledača da se vratite na polje za unos teksta.",
+	"captcha-addurl-whitelist": " #<!-- ovu liniju ne dirajte--> <pre>\n# Sintaksa je sledeća:\n#  * Sve od znaka „#“ do kraja linije je komentar\n#  * Svaka linija koja nije prazna je deo regularnog izraza (regex fragment) koja odgovara imenu hosta u URL-u\n\n #</pre> <!-- ovu liniju ne dirajte -->",
+	"right-skipcaptcha": "izvođenje radnji koje pokreću CAPTCHA sliku bez potrebe prolaza kroz nju",
+	"action-skipcaptcha": "preskočite CAPTCHA sigurnosnu proveru",
+	"confirmedit-preview-line": "Broj linije",
+	"confirmedit-preview-content": "Sadržaj",
+	"confirmedit-preview-invalid": "nevažeće"
+}

@@ -1,0 +1,33 @@
+{
+	"@metadata": {
+		"authors": [
+			"Aotake",
+			"Fryed-peach",
+			"JtFuruhata",
+			"Ohgi",
+			"Shirayuki",
+			"青子守歌"
+		]
+	},
+	"pfunc_desc": "パーサーに論理関数を追加して拡張する",
+	"pfunc_time_error": "エラー: 日時が無効です。",
+	"pfunc_time_too_long": "エラー: #time の呼び出しが多すぎます。",
+	"pfunc_time_too_big": "エラー: #time が対応しているのは 9999 年までです。",
+	"pfunc_time_too_small": "エラー: #time が対応しているのは 0 年以降です。",
+	"pfunc_rel2abs_invalid_depth": "エラー: パス「$1」の階層が無効です (ルート階層からのアクセスをお試しください)。",
+	"pfunc_expr_stack_exhausted": "構文エラー: スタックを使い果たしました。",
+	"pfunc_expr_unexpected_number": "構文エラー: 予期しない数字です。",
+	"pfunc_expr_preg_match_failure": "構文エラー: preg_match で予期しない失敗をしました。",
+	"pfunc_expr_unrecognised_word": "構文エラー:「$1」を認識できません。",
+	"pfunc_expr_unexpected_operator": "構文エラー: 予期しない演算子 $1 です。",
+	"pfunc_expr_missing_operand": "構文エラー: $1 の演算対象がありません。",
+	"pfunc_expr_unexpected_closing_bracket": "構文エラー: 予期しない閉じ括弧です。",
+	"pfunc_expr_unrecognised_punctuation": "構文エラー: 認識できない区切り文字「$1」です。",
+	"pfunc_expr_unclosed_bracket": "構文エラー: 括弧が閉じられていません。",
+	"pfunc_expr_division_by_zero": "0 で除算しました。",
+	"pfunc_expr_invalid_argument": "$1 の引数が無効です: < -1 または > 1",
+	"pfunc_expr_invalid_argument_ln": "ln の引数が無効です: <= 0",
+	"pfunc_expr_unknown_error": "構文エラー: 不明なエラー ($1) です。",
+	"pfunc_expr_not_a_number": "$1: 結果が数値ではありません。",
+	"pfunc_string_too_long": "エラー: 文字列の長さが上限の $1 文字を超えています。"
+}

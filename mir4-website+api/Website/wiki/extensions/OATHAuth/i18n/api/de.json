@@ -1,0 +1,20 @@
+{
+	"@metadata": {
+		"authors": [
+			"Hwboehm",
+			"Inkowik",
+			"Metalhead64",
+			"Umherirrender"
+		]
+	},
+	"apihelp-query+oath-summary": "Überprüft, ob für einen Benutzer die Zwei-Faktor-Authentifizierung (OATH) aktiviert ist.",
+	"apihelp-query+oath-param-user": "Benutzer, über den Informationen erhalten werden soll. Standardmäßig ist der aktuelle Benutzer voreingestellt.",
+	"apihelp-query+oath-param-reason": "Grund für die Abfrage des OATH-Status.",
+	"apihelp-query+oath-example-1": "Ruft Informationen über den aktuellen Benutzer ab",
+	"apihelp-query+oath-example-2": "Ruft Informationen über den Benutzer <kbd>Beispiel</kbd> ab",
+	"apihelp-oathvalidate-summary": "Überprüft einen Token zur Zwei-Faktor-Authentifizierung (OATH).",
+	"apihelp-oathvalidate-param-user": "Benutzer, für den der Token validiert werden soll. Standard ist der aktuelle Benutzer.",
+	"apihelp-oathvalidate-example-1": "Validiert JSON-Daten für den aktuellen Benutzer",
+	"apihelp-oathvalidate-example-3": "JSON-Daten für Benutzer <kbd>Example</kbd> validieren",
+	"apihelp-oathvalidate-param-data": "JSON-kodierte Daten, die von dem Modul erwartet werden, das derzeit für den zu authentifizierenden Benutzer aktiviert ist"
+}

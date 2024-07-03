@@ -1,0 +1,37 @@
+/*!
+ * VisualEditor MediaWiki UserInterface MWParameterPage styles.
+ *
+ * @copyright See AUTHORS.txt
+ * @license The MIT License (MIT); see LICENSE.txt
+ */
+
+.ve-ui-mwParameterPage {
+	&-label {
+		display: inline;
+		vertical-align: middle;
+		font-weight: bold;
+		overflow-wrap: break-word;
+	}
+
+	&-statusIndicator {
+		opacity: 0.5;
+	}
+
+	&-inlineDescription {
+		position: relative;
+
+		> .ve-ui-expandableContent-container {
+			right: 0;
+		}
+	}
+
+	&-undocumentedLabel {
+		margin-left: 0.4em;
+		/* TODO: Use ems? */
+		/* stylelint-disable-next-line declaration-property-unit-disallowed-list */
+		font-size: 13px;
+		font-style: italic;
+		font-weight: normal;
+		color: #72777d;
+	}
+}

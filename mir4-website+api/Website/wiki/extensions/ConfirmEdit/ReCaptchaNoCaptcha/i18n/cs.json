@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"Mormegil"
+		]
+	},
+	"renocaptcha-edit": "V zájmu ochrany této wiki před automatickým spamováním vás prosíme o vyřešení následujícího testu CAPTCHA:",
+	"renocaptcha-addurl": "Vaše editace obsahuje nové externí odkazy. V zájmu ochrany této wiki před automatickým spamováním vás prosíme o vyřešení následujícího testu CAPTCHA:",
+	"renocaptcha-badlogin": "V zájmu ochrany této wiki proti automatickým pokusům uhodnout heslo vás prosíme o vyřešení následujícího testu CAPTCHA:",
+	"renocaptcha-createaccount": "V zájmu ochrany této wiki před automatickým vytvářením účtů vás prosíme o vyřešení následujícího testu CAPTCHA:",
+	"renocaptcha-createaccount-fail": "Vypadá to, že jste nevyřešili test CAPTCHA.",
+	"renocaptcha-create": "V zájmu ochrany před automatickým zakládáním stránek vás prosíme o vyřešení následujícího testu CAPTCHA:",
+	"renocaptcha-noscript": "Bohužel máte vypnutý JavaScript, takže nedokážeme automaticky rozpoznat, jestli jste člověk nebo ne. Vyřešte prosím výše zobrazený test CAPTCHA a výsledný text zkopírujte do následujícího pole:",
+	"renocaptcha-help": "Vyřešte výzvu ReCaptcha NoCaptcha a vraťte hodnotu odpovědi jako captchaWord."
+}

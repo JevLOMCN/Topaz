@@ -1,0 +1,23 @@
+{
+	"@metadata": {
+		"authors": [
+			"McDutchie"
+		]
+	},
+	"syntaxhighlight-desc": "Forni le coloration syntactic in <code>&lt;syntaxhighlight&gt;</code> per medio de [http://pygments.org/ Pygments - colorator syntactic pro Python]",
+	"syntaxhighlight-error-category": "Paginas con errores de coloration syntactic",
+	"syntaxhighlight-error-category-desc": "Un error occurreva durante le coloration del codice includite in le pagina.",
+	"syntaxhighlight-enclose-category": "Paginas que usa attributos \"enclose\" obsolescente",
+	"syntaxhighlight-enclose-category-desc": "Le coloration syntactic sur le pagina usa un syntaxe \"enclose\" obsolete.",
+	"syntaxhighlight-source-category": "Paginas que usa etiquettas \"source\" obsolete",
+	"syntaxhighlight-source-category-desc": "Le coloration syntactic sur le pagina usa etiquettas \"source\" obsolete.",
+	"syntaxhighlight-visualeditor-mwsyntaxhighlightinspector-code": "Codice",
+	"syntaxhighlight-visualeditor-mwsyntaxhighlightinspector-language": "Lingua",
+	"syntaxhighlight-visualeditor-mwsyntaxhighlightinspector-none": "(Necun)",
+	"syntaxhighlight-visualeditor-mwsyntaxhighlightinspector-showlines": "Monstrar numeros de linea",
+	"syntaxhighlight-visualeditor-mwsyntaxhighlightinspector-startingline": "Numero de linea initial",
+	"syntaxhighlight-visualeditor-mwsyntaxhighlightinspector-title": "Bloco de codice",
+	"syntaxhighlight-error-pygments-invocation-failure": "Error al invocar Pygments",
+	"syntaxhighlight-error-unknown-language": "Lingua \"$1\" incognite",
+	"syntaxhighlight-error-exceeds-size-limit": "Le grandor del codice de $1 byte{{PLURAL:$1||s}} excede le maximo permittite de $2 byte{{PLURAL:$2||s}}"
+}

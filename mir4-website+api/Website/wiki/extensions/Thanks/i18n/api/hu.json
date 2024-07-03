@@ -1,0 +1,18 @@
+{
+	"@metadata": {
+		"authors": [
+			"Dj",
+			"Macofe",
+			"Tacsipacsi",
+			"Tgr"
+		]
+	},
+	"apihelp-flowthank-summary": "Nyilvános köszönet küldése egy Flow-hozzászólásért.",
+	"apihelp-flowthank-param-postid": "A megköszönendő hozzászólás UUID-je.",
+	"apihelp-flowthank-example-1": "Az <kbd>xyz789<kbd> UUID-jű komment megköszönése",
+	"apihelp-thank-summary": "Köszönet küldése egy szerkesztőnek.",
+	"apihelp-thank-param-rev": "A megköszönendő lapváltozat-azonosító. Ezt vagy a <var>log</var> paramétert kötelező megadni.",
+	"apihelp-thank-param-log": "A megköszönendő naplóbejegyzés-azonosító. Ezt vagy a <var>rev</var> paramétert kötelező megadni.",
+	"apihelp-thank-param-source": "A forrás rövid megnevezése, pl. <kbd>diff</kbd> vagy <kbd>history</kbd>.",
+	"apihelp-thank-example-1": "A <kbd>456</kbd>-os ID-jű lapváltozat megköszönése, ahol a köszönet forrása egy diff (változtatás) oldal"
+}

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="264" height="162" version="1.1" viewBox="0 0 264 162" xmlns="http://www.w3.org/2000/svg">
+ <defs>
+  <clipPath id="jagged-edge">
+   <path d="M0 0v152l12 10 12-10 12 10 12-10 12 10 12-10 12 10 12-10 12 10 12-10 12 10 12-10 12 10 12-10 12 10 12-10 12 10 12-10 12 10 12-10 12 10 12-10V0z"/>
+  </clipPath>
+ </defs>
+ <g clip-path="url(#jagged-edge)" fill="#eaecf0">
+  <path id="background" d="M0 0h264v162H0" fill="#fff"/>
+  <path id="logo" d="M11 22c0-8 6-14 14-14s14 6 14 14-6 14-14 14-14-6-14-14M38 45v-5H13v5h25"/>
+  <path id="sidebar" d="M38 163V58H13v106h25"/>
+  <path id="personal-tools" d="M233 5h26v6h-26V5zm-24 0h22v6h-22zm-24 0h22v6h-22zm-23 0h13v6h-13zm15 0h6v6h-6zm-23 0h6v6h-6z"/>
+  <path id="search-input" d="m258 16v4h-92v-4h92m1-1h-94v6h94v-6z"/>
+  <path id="search-icon" d="m168 17h2v2h-2z"/>
+  <path id="article" d="M252 162V29H48v133z"/>
+  <path id="border" d="M0 0v162h264V0zm1 1h262v150.533l-11 9.166-12-10-12 10-12-10-12 10-12-10-12 10-12-10-12 10-12-10-12 10-12-10-12 10-12-10-12 10-12-10-12 10-12-10-12 10-12-10-12 10-11-9.167z"/>
+  <path d="m48.083 29h204.08v20.75h-204.08z" fill="#cdd1d6"/>
+  <path d="m59 58.333h54v6h-54z" fill="#c8ccd1"/>
+  <path d="M240 70.334h-39v30h39zm-26.348 13.043h1.403l8.7 8.604 4.725-2.833 7.117 5.943v.025H204.45z" fill="#a2a9b1" opacity=".412"/>
+  <path d="M59 34.333h25v10H59v-10zm33.5 0h10v10h-10zm17 0h10v10h-10z" fill="#fff"/>
+ </g>
+ <g transform="translate(0 -3.9153)" stroke-linecap="round" stroke-width="4.0828">
+  <g stroke="#ccc">
+   <path d="m61.006 76.662h31.982"/>
+   <path d="m101.83 76.662h29.941"/>
+   <path d="m140.62 76.662h49.674"/>
+  </g>
+  <path d="m61.006 86.272h93.905" stroke="#ffcb33"/>
+  <path d="m163.08 86.272h27.219" stroke="#ccc"/>
+  <path d="m61.006 95.881h57.84" stroke="#e857c8"/>
+  <g stroke="#ccc">
+   <path d="m127.69 95.881h62.603"/>
+   <path d="m61.006 105.49h11.568"/>
+   <path d="m81.42 105.49h53.077"/>
+  </g>
+  <path d="m143.34 105.49h46.952" stroke="#00af89"/>
+  <g stroke="#ccc">
+   <path d="m61.006 115.1h177.16"/>
+   <path d="m61.006 124.71h46.272"/>
+   <path d="m116.12 124.71h121.48"/>
+  </g>
+ </g>
+</svg>

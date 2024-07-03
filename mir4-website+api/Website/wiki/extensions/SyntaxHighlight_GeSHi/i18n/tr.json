@@ -1,0 +1,29 @@
+{
+	"@metadata": {
+		"authors": [
+			"BaRaN6161 TURK",
+			"Erkan Yilmaz",
+			"Joseph",
+			"McAang",
+			"McDutchie",
+			"SaldırganSincap",
+			"Vito Genovese"
+		]
+	},
+	"syntaxhighlight-desc": "[https://pygments.org/ Pygments - Python sözdizimi vurgulayıcısı] kullanarak <code>&lt;syntaxhighlight&gt;</code> öğesini vurgulayarak sözdizimi sağlar",
+	"syntaxhighlight-error-category": "Hataları vurgulayan sözdizimi olan sayfalar",
+	"syntaxhighlight-error-category-desc": "Sayfada yer alan kodu vurgulamaya çalışırken bir hata oluştu.",
+	"syntaxhighlight-enclose-category": "Kullanımdan kaldırılmış enclose özniteliği kullanan sayfalar",
+	"syntaxhighlight-enclose-category-desc": "Sayfadaki sözdizim vurgulama, kullanımdan kaldırılmış enclose sözdizimi kullanıyor.",
+	"syntaxhighlight-source-category": "Kullanımdan kaldırılmış source etiketleri kullanan sayfalar",
+	"syntaxhighlight-source-category-desc": "Sayfadaki sözdizimi vurgulama, kullanımdan kaldırılmış source etiketleri kullanıyor.",
+	"syntaxhighlight-visualeditor-mwsyntaxhighlightinspector-code": "Kod",
+	"syntaxhighlight-visualeditor-mwsyntaxhighlightinspector-language": "Dil",
+	"syntaxhighlight-visualeditor-mwsyntaxhighlightinspector-none": "(Hiçbiri)",
+	"syntaxhighlight-visualeditor-mwsyntaxhighlightinspector-showlines": "Satır numaralarını göster",
+	"syntaxhighlight-visualeditor-mwsyntaxhighlightinspector-startingline": "Başlangıç satır numarası",
+	"syntaxhighlight-visualeditor-mwsyntaxhighlightinspector-title": "Kod bloğu",
+	"syntaxhighlight-error-pygments-invocation-failure": "Pygments çağrılaması başarısız oldu",
+	"syntaxhighlight-error-unknown-language": "Bilinmeyen \"$1\" dili",
+	"syntaxhighlight-error-exceeds-size-limit": "$1 baytın kod büyüklüğü izin verilen maksimum $2 {{PLURAL:$2|baytı}} aşıyor"
+}

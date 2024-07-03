@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"SemanticPioneer"
+		]
+	},
+	"apihelp-query+mathwbextracts-example-1": "Żąda podsumowania matematycznych elementów Wikibase.",
+	"apihelp-query+mathwbextracts-summary": "Zwraca podsumowanie matematycznego elementu Wikibase w HTML.",
+	"apihelp-query+mathwbextracts-param-qid": "QID elementu Wikibase, który będzie żądany.",
+	"apihelp-query+mathwbextracts-param-uselang": "Język, który powinien być wymagany dla elementu Wikibase. Angielski jest wartością domyślną."
+}

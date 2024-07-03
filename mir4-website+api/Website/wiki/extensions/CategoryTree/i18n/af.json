@@ -1,0 +1,37 @@
+{
+	"@metadata": {
+		"authors": [
+			"Arnobarnard",
+			"Fwolff",
+			"Naudefj",
+			"SPQRobin"
+		]
+	},
+	"categorytree": "Kategorieboom",
+	"categorytree-portlet": "Kategorieë",
+	"categorytree-legend": "Wys kategorieboom",
+	"categorytree-desc": "Bekyk en navigeer deur die [[Special:CategoryTree|kategoriestruktuur]] van 'n wiki",
+	"categorytree-header": "Tik 'n kategorienaam om die inhoud as 'n boomstruktuur te sien. Hierdie benodig gevorderde JavaScript-funksionaliteit, bekend as AJAX. Dit sal egter nie werk as u 'n baie ou blaaier gebruik of as JavaScript gedeaktiveer is nie.",
+	"categorytree-category": "Kategorie:",
+	"categorytree-go": "Wys boom",
+	"categorytree-parents": "ouers",
+	"categorytree-mode-categories": "slegs kategorieë",
+	"categorytree-mode-pages": "bladsye met prentbladsye uitgesluit",
+	"categorytree-mode-all": "alle bladsye",
+	"categorytree-collapse": "vou toe",
+	"categorytree-expand": "vou oop",
+	"categorytree-member-counts": "bevat {{PLURAL:$1|een subkategorie|$1 subkategorieë}}, {{PLURAL:$2|een bladsy|$2 bladsye}} en {{PLURAL:$3|een lêer|$3 lêers}}",
+	"categorytree-num-categories": "$1 K",
+	"categorytree-num-pages": "$1 B",
+	"categorytree-num-files": "$1 L",
+	"categorytree-num-empty": "leeg",
+	"categorytree-load": "laai",
+	"categorytree-loading": "laai tans…",
+	"categorytree-nothing-found": "niks gevind nie",
+	"categorytree-no-subcategories": "geen subkategorieë nie",
+	"categorytree-no-parent-categories": "geen kategorieë boontoe",
+	"categorytree-no-pages": "geen bladsye of subkategorieë nie",
+	"categorytree-not-found": "Kategorie <i>$1</i> nie gevind nie",
+	"categorytree-error": "Probleem met die laai van die data.",
+	"categorytree-retry": "Wag asseblief 'n rukkie en probeer weer."
+}

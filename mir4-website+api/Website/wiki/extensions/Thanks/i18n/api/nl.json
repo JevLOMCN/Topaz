@@ -1,0 +1,17 @@
+{
+	"@metadata": {
+		"authors": [
+			"HanV",
+			"Mainframe98",
+			"Mar(c)"
+		]
+	},
+	"apihelp-flowthank-summary": "Stuur een openbaar bedankje voor een Flow-reactie.",
+	"apihelp-flowthank-param-postid": "De UUID van het bericht waarvoor u wilt bedanken.",
+	"apihelp-flowthank-example-1": "Stuur een bedankje voor de reactie met <kbd>UUID xyz789</kbd>",
+	"apihelp-thank-summary": "Stuur een bedankje naar een bewerker.",
+	"apihelp-thank-param-rev": "Versie-ID waarvoor u iemand wilt bedanken. Dit of 'log' moet worden meegegeven.",
+	"apihelp-thank-param-log": "Log-ID waar iemand voor moet worden bedankt. Dit of 'rev' moet worden opgegeven.",
+	"apihelp-thank-param-source": "Een korte tekenreeks die de bron van het verzoek beschrijft, bijvoorbeeld <kbd>diff</kbd> of <kbd>history</kbd>.",
+	"apihelp-thank-example-1": "Stuur een bedankje voor versie-<kbd>ID 456</kbd>, waarbij de bron een diff-pagina is"
+}

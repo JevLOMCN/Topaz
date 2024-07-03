@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Eleassar"
+		]
+	},
+	"apihelp-query+mathwbextracts-example-1": "Zahteva povzetek matematičnih predmetov Wikibase.",
+	"apihelp-query+mathwbextracts-summary": "Vrne povzetek matematičnega predmeta Wikibase v formatu HTML.",
+	"apihelp-query+mathwbextracts-param-qid": "QID elementa Wikibase, ki bo zahtevan.",
+	"apihelp-query+mathwbextracts-param-uselang": "Jezik, ki ga je treba zahtevati za predmet Wikibase. Privzeta vrednost je angleščina."
+}

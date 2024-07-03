@@ -1,0 +1,33 @@
+{
+	"@metadata": {
+		"authors": [
+			"Ant176",
+			"Aotake",
+			"Fryed-peach",
+			"JtFuruhata",
+			"Kkairri",
+			"Otokoume",
+			"Runequest77",
+			"Rxy",
+			"Shirayuki",
+			"Sujiniku",
+			"Yuukin0248"
+		]
+	},
+	"syntaxhighlight-desc": "[http://pygments.org/ Pygments - Python 構文ハイライト機能] を利用したタグ <code>&lt;syntaxhighlight&gt;</code> を提供する",
+	"syntaxhighlight-error-category": "構文ハイライトエラーがあるページ",
+	"syntaxhighlight-error-category-desc": "コードのハイライト表示をする際にエラーが発生しているページ。",
+	"syntaxhighlight-enclose-category": "非推奨のenclose引数を使用しているページ",
+	"syntaxhighlight-enclose-category-desc": "構文ハイライトで非推奨のenclose引数を使用しているページ。",
+	"syntaxhighlight-source-category": "非推奨のsourceタグを使用しているページ",
+	"syntaxhighlight-source-category-desc": "構文ハイライトで非推奨のsourceタグを使用しているページ。",
+	"syntaxhighlight-visualeditor-mwsyntaxhighlightinspector-code": "コード",
+	"syntaxhighlight-visualeditor-mwsyntaxhighlightinspector-language": "言語",
+	"syntaxhighlight-visualeditor-mwsyntaxhighlightinspector-none": "(なし)",
+	"syntaxhighlight-visualeditor-mwsyntaxhighlightinspector-showlines": "行番号を表示",
+	"syntaxhighlight-visualeditor-mwsyntaxhighlightinspector-startingline": "行番号の始まりを変更",
+	"syntaxhighlight-visualeditor-mwsyntaxhighlightinspector-title": "コード",
+	"syntaxhighlight-error-pygments-invocation-failure": "Pygmentsの呼び出しに失敗しました",
+	"syntaxhighlight-error-unknown-language": "「$1」は不明な言語です",
+	"syntaxhighlight-error-exceeds-size-limit": "記述された$1{{PLURAL:$1|バイト}}の構文は、ハイライトの最大許容サイズである$2{{PLURAL:$2|バイト}}を超えています"
+}

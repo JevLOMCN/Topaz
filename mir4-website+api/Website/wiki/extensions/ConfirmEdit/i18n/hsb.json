@@ -1,0 +1,22 @@
+{
+	"@metadata": {
+		"authors": [
+			"Michawiki"
+		]
+	},
+	"captcha-edit": "Zo by stronu wobdźěłał, rozrisaj prošu slědowacy ličenski nadawk a zapodaj wuslědk do kašćika ([[Special:Captcha/help|Dalše informacije]]):",
+	"captcha-desc": "Staja CAPTCHA-techniki za škit přećiwo spamej a zhódowanju hesłow k dispoziciji",
+	"captcha-addurl": "W twojej změnje su nowe eksterne wotkazy. Zo by wiki přećiwo awtomatizowanemu spamej škitał, prosymy će slědowacy nadawk wuličić a wuslědk do kašćika zapisować, zo by so twoja změna składowała ([[Special:Captcha/help|dalše informacije]]).",
+	"captcha-badlogin": "Zo by wiki přećiwo  awtomatiskemu zadobywanju do hesłow škitał, prosymy će slědowacy nadawk wuličeć a wuslědk do kašćika zapisować ([[Special:Captcha/help|dalše informacije]]):",
+	"captcha-createaccount": "Zo by wiki přećiwo awtomatiskemu wutworjenju wužiwarskich kontow škitał, prosymy će slědowacy nadawk nadawk rozrisać a wuslědk do kašćika zapisować  ([[Special:Captcha/help|dalše informacije]]):",
+	"captcha-createaccount-fail": "Wopačny abo falowacy wobkrućenski kod CAPTCHA.",
+	"captcha-create": "Zo by stronu wutworił, rozrisaj prošu slědowacy ličenski nadawk a zapodaj wuslědk do kašćika ([[Special:Captcha/help|Dalše informacije]]):",
+	"captcha-sendemail": "Za škit přećiwo awtomatiskemu spamowanju, rozrisaj prošu slědowacy jednory ličenski nadawk a zapodaj wotmołwu do kašćika ([[Special:Captcha/help|dalše informacije]]):",
+	"captcha-sendemail-fail": "Wopačny abo falowacy wobkrućenski kod CAPTCHA.",
+	"captcha-disabledinapi": "Tuta akcija wužaduje sej captcha, tohodla njeda so přez API wuwjesć.",
+	"captchahelp-title": "Pomoc za CAPTCHA",
+	"captchahelp-cookies-needed": "Dyrbiš placki (cookies) w swojim wobhladowaku zmóžnić.",
+	"captchahelp-text": "Websydła, kotrež powěsće wot kóždeho akceptuja, so často wot spamarjow znjewužiwaja, kotřiž swoje wotkazy awtomatisce na wjele sydłach rozdźěleja. Hačrunjež so tute spamwotkazy hodźa wotstronić, su wone njesnadne mjerzanje.\n\nDruhdy, wosebje, hdyž so nowe webwotkazy stronje přidawaja, móže so stać, zo pokazuje tutón wiki wobraz z barbnym abo skomolenym tekstom a će prosy, zo by pokazane słowa zapodał.\nDokelž to je nadawk, kotryž hodźi so jenož ćežko awtomatizować, dowoluje to woprawdźitym wosobam swoje powěsći wotpósłać, mjeztym zo so najwjace spamarjow a druhich nadpadowacych botow blokuje.\n\nBohužel móže to k wobćežnosćam za tutych wužiwarjow wjesć, kotrychž kmanosć widźenja je wobmjezowana abo kotřiž wobhladowaki wužiwaja, kotrež na tekst abo rěčne wudawanje bazěruja.\nTuchwilu njedisponujemy wo awdioalternatiwje.\nProšu staj so z [[Special:ListAdmins|administratorami sydła]] z prostwu wo pomoc do zwiska, jeli to će haći legitimne powěsće pósłać.\n\nKlikń na tłócatko \"Wróćo\" w swojim wobhladowaku, zo by so k editorej wróćił.",
+	"captcha-addurl-whitelist": " #<!-- leave this line exactly as it is --> <pre>\n# Syntaksa je slědowaca:\n# * Wšo wot znamješka \"#\" hač do kónca linky je komentar\n# * Kóžda popisana linka je fragment regex (regularneho wuraza) kotryž so z mjenom hosta wěsteje URL přirunuje\n #</pre> <!-- leave this line exactly as it is -->",
+	"right-skipcaptcha": "Captcha přeskočić"
+}

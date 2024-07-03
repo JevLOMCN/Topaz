@@ -1,0 +1,34 @@
+{
+	"@metadata": {
+		"authors": [
+			"Arlin",
+			"Sahran",
+			"Tel'et",
+			"Uzdil"
+		]
+	},
+	"skinname-vector": "Vector",
+	"vector.css": "/* CSS placed here will affect users of the Vector skin */",
+	"vector.js": "/* Any JavaScript here will be loaded for users using the Vector skin */",
+	"vector-languages": "تىللار",
+	"vector-language-button-label": "{{PLURAL:$1|$1 تىل}}",
+	"vector-no-language-button-label": "تىل قوش",
+	"vector-action-addsection": "يېڭى تېما قوش",
+	"vector-action-delete": "ئۆچۈر",
+	"vector-action-move": "يۆتكە",
+	"vector-action-protect": "قوغدا",
+	"vector-action-undelete": "ئەسلىگە قايتۇر",
+	"vector-action-unprotect": "قوغداش ئۆزگەرت",
+	"vector-view-create": "قۇر",
+	"vector-view-edit": "تەھرىرلەش",
+	"vector-view-history": "تارىخ كۆرسەت",
+	"vector-view-view": "ئوقۇ",
+	"vector-view-viewsource": "مەنبەنى كۆرسەت",
+	"vector-more-actions": "تېخىمۇ كۆپ",
+	"vector-searchsuggest-containing": "<strong class=\"cdx-typeahead-search__search-footer__query\">$1</strong> نى ئۆز ئىچىگە ئالغان بەتلەرنى ئىزدە",
+	"vector-toc-label": "مەزمۇنلار",
+	"vector-toc-beginning": "كىرىش سۆز",
+	"vector-page-tools-label": "قوراللار",
+	"vector-page-tools-general-label": "ئادەتتىكى",
+	"vector-unpin-element-label": "يوشۇر"
+}

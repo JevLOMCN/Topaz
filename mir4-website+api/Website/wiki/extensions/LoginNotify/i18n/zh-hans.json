@@ -1,0 +1,22 @@
+{
+	"@metadata": {
+		"authors": [
+			"A2093064",
+			"LittlePaw365",
+			"Liuxinyu970226",
+			"Xiplus"
+		]
+	},
+	"loginnotify-desc": "通知用户来自陌生设备和/或IP地址的可疑登录",
+	"echo-category-title-login-fail": "失败的登录尝试",
+	"echo-pref-tooltip-login-fail": "当我的账号有失败的登录尝试时通知我。",
+	"echo-category-title-login-success": "从陌生设备登录",
+	"echo-pref-tooltip-login-success": "当有人从陌生设备和IP地址登录我的账号时通知我。",
+	"loginnotify-primary-link": "帮助",
+	"notification-loginnotify-login-fail-email-subject": "账号$1在{{SITENAME}}有{{PLURAL:$2|失败|多次失败}}登录尝试",
+	"notification-loginnotify-login-success-email-subject": "账号$1从{{GENDER:$1|您}}最近未使用过的设备登录{{SITENAME}}成功",
+	"notification-header-login-success": "最近有人（可能是{{GENDER:$1|您}}）从新设备登录了您的账号。如果确实是您，您可以忽略这封邮件。如果不是您，我们建议您更改密码并检查账号活动。",
+	"notification-new-bundled-header-login-fail": "自从您上次登录以来，在新设备上{{PLURAL:$1|有'''$1次'''}}失败的登录您账户的尝试。如果这不是您的话，请确保您的账户拥有强密码。",
+	"notification-known-header-login-fail": "自从您上次登录以来，{{PLURAL:$1|有'''$1次'''}}失败的登录您账户的尝试。如果这不是您的话，请确保您的账户拥有强密码。",
+	"notification-new-unbundled-header-login-fail": "目前在新设备上已经有{{PLURAL:$1|'''一次'''|'''多次'''}}失败的登录您账户的尝试。请确保您的账户拥有强密码。"
+}

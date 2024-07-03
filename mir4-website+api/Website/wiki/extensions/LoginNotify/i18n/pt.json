@@ -1,0 +1,21 @@
+{
+	"@metadata": {
+		"authors": [
+			"Fúlvio",
+			"Hamilton Abreu",
+			"Vitorvicentevalente"
+		]
+	},
+	"loginnotify-desc": "Notificar os utilizadores sobre tentativas suspeitas de entrar na wiki a partir de dispositivos ou de endereços IP desconhecidos",
+	"echo-category-title-login-fail": "Tentativas falhadas de iniciar sessão",
+	"echo-pref-tooltip-login-fail": "Notificar-me quando existirem tentativas falhadas de iniciar sessão com a minha conta.",
+	"echo-category-title-login-success": "Início de sessão a partir de um dispositivo desconhecido",
+	"echo-pref-tooltip-login-success": "Notificar-me sempre que alguém inicie sessão com a minha conta a partir de um dispositivo ou endereço IP desconhecido.",
+	"loginnotify-primary-link": "Ajuda",
+	"notification-loginnotify-login-fail-email-subject": "{{PLURAL:$2|Tentativa falhada|Várias tentativas falhadas}} de iniciar sessão na wiki {{SITENAME}} como $1",
+	"notification-loginnotify-login-success-email-subject": "Início de sessão na wiki {{SITENAME}} como $1 a partir de um dispositivo não usado por {{GENDER:$1|si}} recentemente",
+	"notification-header-login-success": "Alguém (provavelmente {{GENDER:$1|você}}) entrou recentemente na wiki com a sua conta a partir de um dispositivo novo. Se foi você, pode ignorar esta mensagem. Se não foi você, é recomendado que altere a sua palavra-passe e verifique a atividade da sua conta.",
+	"notification-new-bundled-header-login-fail": "{{PLURAL:$1|Ocorreu '''uma tentativa falhada'''|Ocorreram '''$1 tentativas falhadas'''}} de entrar na sua conta a partir de um dispositivo novo desde a última vez que iniciou uma sessão. Se estas tentativas não foram feitas por si, certifique-se de que a sua conta tem uma palavra-passe segura.",
+	"notification-known-header-login-fail": "{{PLURAL:$1|Ocorreu '''uma tentativa falhada'''|Ocorreram '''$1 tentativas falhadas'''}} de entrar na sua conta desde a última vez que iniciou uma sessão. Se estas tentativas não foram feitas por si, certifique-se de que a sua conta tem uma palavra-passe segura.",
+	"notification-new-unbundled-header-login-fail": "{{PLURAL:$1|Ocorreu '''uma tentativa falhada'''|Ocorreram '''$1 tentativas falhadas'''}} de entrar na sua conta a partir de um dispositivo novo. Certifique-se de que a sua conta tem uma palavra-passe segura, por favor."
+}

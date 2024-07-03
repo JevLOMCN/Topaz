@@ -1,0 +1,33 @@
+The version for MediaWiki 1.31+ has some changes since previous versions:
+
+By default the math rendering service from the Wikimedia Foundation located at
+https://wikimedia.org/api/rest_v1/
+will be used for math rendering.
+Therefore php-curl is required.
+cf. https://www.mediawiki.org/wiki/Manual:CURL
+
+Consult https://www.mediawiki.org/wiki/Extension:Math for further information and advanced settings.
+
+Attributes of the <math /> element:
+attribute "display":
+possible values: "inline", "block" or "inline-displaystyle" (default)
+
+"display" reproduces the old texvc behavior:
+The equation is rendered with large height operands (texvc used $$ $tex $$ to render)
+but the equation printed to the current line of the output and not centered in a new line.
+In Wikipedia users use :<math>$tex</math> to move the math element closer to the center.
+
+"inline" renders the equation in with small height operands by adding {\textstyle $tex } to the
+users input ($tex). The equation is displayed in the current text line.
+
+"inline-displaystyle" renders the equation in with large height operands centered in a new line by adding
+{\displaystyle $tex } to the user input ($tex).
+
+For testing your installation run
+composer phpunit:entrypoint -- extensions/Math/tests/phpunit/
+from your MediaWiki home path.
+
+== Logging ==
+The math extension supports PSR-3 logging:
+Configuration can be dona via
+$wgDebugLogGroups['Math'] = [ 'level' => 'info', 'destination' => '/path/to/file.log' ];

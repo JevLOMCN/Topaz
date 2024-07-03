@@ -1,0 +1,18 @@
+{
+	"@metadata": {
+		"authors": [
+			"Fulup",
+			"Huñvreüs"
+		]
+	},
+	"spam-blacklist": "  #<!-- leave this line exactly as it is --> <pre>\n# Stanket e vo an URLoù diavaez a glot gant ar roll-mañ ma vezont ouzhpennet en ur bajenn.\n# Ne sell ar roll-mañ nemet ouzh ar wiki-mañ ; sellit ivez ouzh al listenn zu hollek.\n# Aze emañ an teuliadur: https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:SpamBlacklist\n#\n# Setu doare an ereadur :\n#  * Pep tra adalek un arouezenn \"#\" betek dibenn al linenn zo un evezhiadenn\n#  * Kement linenn anc'houllo zo un darnad eztaol reoliek na gloto nemet gant an ostizien el liammoù gourskrid\n\n #</pre> <!-- leave this line exactly as it is -->",
+	"spam-whitelist": "  #<!-- lezel al linenn-mañ tre evel m'emañ --> <pre>\n# *Ne vo ket* stanket al liammoù gourskrid a glot gant al listenn-mañ\n# ha pa vijent bet stanket gant monedoù ar listenn zu.\n#\n# Setu an eredur :\n#  * Pep tra adalek un arouezenn \"#\" betek dibenn al linenn zo un ev evezhiadenn\n#  * Kement linenn anc'houllo zo un darnad skrid poellek na zielfennno nemet an ostizien el liammoù gourskrid\n\n  #</pre> <!-- lezel al linenn-mañ tre evel m'emañ -->",
+	"email-blacklist": "  # Miret e vo ouzh ar chomlec'hioù postel a glot gant ar roll-mañ da enrollañ pe da gas posteloù\n  # Ne sell ar roll-mañ nemet ouzh ar wiki-mañ ; sellit ivez ouzh al listenn zu hollek.\n  # Aze emañ an titouroù https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:SpamBlacklist\n  #<!-- lezel al linenn-mañ tre evel m'emañ  --> <pre>\n#\n# Setu doare an ereadur :\n#  * Kement testenn zo war-lerc'h un arouezenn \"#\" betek dibenn al linenn a vez sellet outi evel un evezhiadenn\n#  * Kement linenn n'eo ket goullo zo un tamm eus ul lavarenn reoliek na gloto nemet gant an ostizien el liammoù gourskrid\n\n  #</pre> <!-- lezel al linenn-mañ tre evel m'emañ -->",
+	"email-whitelist": " #<!-- lezel al linenn-mañ tre evel m'emañ --> <pre>\n# *Ne vo ket* stanket ar chomlec'hioù postel zo er roll-mañ ha pa oant da vezañ\n# diouzh enmontoù al listenn zu.\n#\n #</pre> <!-- lezel al linenn-mañ tre evel m'emañ -->\n# Setu an ereadur :\n#   * Kement tra zo war-lerc'h un arouezenn \"#\" betek dibenn al linenn zo un evezhiadenn\n#   * Kement linenn n'eo ket goullo zo un tamm regex (lavarenn reoliek) a vo lakaet a-geñver gant al lodenn \"ostiz\" e diabarzh ar chomlec'hioù postel",
+	"spam-blacklisted-email": "Chomlec'h postel berzet",
+	"spam-blacklisted-email-text": "Evit ar mare eo ho chomlec'h postel berzet da gas posteloù da implijerien all.",
+	"spam-blacklisted-email-signup": "N'hall ket ar chomlec'h postel pourchaset bezañ implijet evit ar mare.",
+	"spam-invalid-lines": "{{PLURAL:$1|Ul lavarenn|Lavarennoù}} reoliek direizh eo {{PLURAL:$1|al linenn|al linennoù}} da-heul eus roll du ar stroboù ha ret eo {{PLURAL:$1|he reizhañ|o reizhañ}} a-raok enrollañ ar bajenn :",
+	"spam-blacklist-desc": "Ostilh enep-strob diazezet war lavarennoù reoliek (Regex) : [[MediaWiki:Spam-blacklist]] ha [[MediaWiki:Spam-whitelist]]",
+	"log-name-spamblacklist": "Marilh ar roll stankañ strob"
+}

@@ -1,0 +1,37 @@
+{
+	"@metadata": {
+		"authors": [
+			"Ansumang",
+			"NehalDaveND",
+			"Shubha",
+			"Vibhijain"
+		]
+	},
+	"categorytree": "वर्गवृक्षः",
+	"categorytree-portlet": "वर्गाः",
+	"categorytree-legend": "वर्गवृक्षः दर्श्यताम्",
+	"categorytree-desc": "[[Special:CategoryTree|category structure]] एतत् सक्रियं सञ्चालयतु",
+	"categorytree-header": "आधेयं वृक्षरूपेण द्रष्टुं वर्गस्य नाम योजयतु ।\nएतन्निमित्तं AJAX इति निर्दिष्टा सक्रिया परिष्कृता जावालिपिः अपेक्षिता ।\nयदि जालदर्शिका प्राचीना, जावालिपिः निष्क्रिया तर्हि एतत् कार्यं न करोति ।",
+	"categorytree-category": "वर्गः :",
+	"categorytree-go": "वृक्षं दर्शयतु",
+	"categorytree-parents": "पोषकाः",
+	"categorytree-mode-categories": "वर्गमात्रम्",
+	"categorytree-mode-pages": "सञ्चिकारहितानि पृष्ठानि",
+	"categorytree-mode-all": "सर्वाणि पृष्ठानि",
+	"categorytree-collapse": "सङ्कुच्यताम्",
+	"categorytree-expand": "विस्तीर्यताम्",
+	"categorytree-member-counts": "अस्मिन् {{PLURAL:$1| 1 उपवर्गः | $1  उपवर्गाः}},  {{PLURAL:$2| 1 पृष्ठम्| $2  पृष्ठानि}}, {{PLURAL:$3| 1 सञ्चिका | $3  सञ्चिकाः}} च विद्यन्ते ।",
+	"categorytree-num-categories": "$1 व",
+	"categorytree-num-pages": "$1 पृ",
+	"categorytree-num-files": "$1 F",
+	"categorytree-num-empty": "रिक्तम्",
+	"categorytree-load": "आरोपणम्",
+	"categorytree-loading": "आरोपयति...",
+	"categorytree-nothing-found": "न किञ्चित् प्राप्तम्",
+	"categorytree-no-subcategories": "उपवर्गाः न विद्यन्ते",
+	"categorytree-no-parent-categories": "पितृवर्गाः न विद्यन्ते",
+	"categorytree-no-pages": "पृष्ठानि उपवर्गाः वा न विद्यन्ते",
+	"categorytree-not-found": "<i>$1</i> वर्गः न प्राप्तः",
+	"categorytree-error": "विषयावतारणे समस्या ।",
+	"categorytree-retry": "कृपया क्षणानन्तरं पुनः प्रयतताम् ।"
+}

@@ -1,0 +1,43 @@
+{
+	"@metadata": {
+		"authors": [
+			"BadDog",
+			"Milicevic01",
+			"Millosh",
+			"Obsuser",
+			"Rancher",
+			"Sasa Stefanovic",
+			"Slaven Kosanovic",
+			"Михајло Анђелковић",
+			"Сербијана"
+		]
+	},
+	"categorytree": "Стабло категорија",
+	"categorytree-portlet": "Категорије",
+	"categorytree-legend": "Приказ стабла категорија",
+	"categorytree-desc": "Динамичка навигација кроз [[Special:CategoryTree|структуру категорија]]",
+	"categorytree-header": "Унесите назив категорије чији садржај желите да видите у стабластој структури (захтева Јаваскрипту).",
+	"categorytree-category": "Категорија:",
+	"categorytree-go": "Прикажи стабло",
+	"categorytree-parents": "Наткатегорије",
+	"categorytree-mode-label": "Режим:",
+	"categorytree-mode-categories": "само категорије",
+	"categorytree-mode-pages": "странице изузевши датотеке",
+	"categorytree-mode-all": "све странице",
+	"categorytree-collapse": "сакриј",
+	"categorytree-expand": "проширите",
+	"categorytree-member-counts": "Садржи {{PLURAL:$1|једну поткатегорију|$1 поткатегорије|$1 поткатегорија}}, {{PLURAL:$2|једну страницу|$2 странице|$2 страница}} и {{PLURAL:$3|једну датотеку|$3 датотеке|$3 датотека}}",
+	"categorytree-num-categories": "$1 К",
+	"categorytree-num-pages": "$1 С",
+	"categorytree-num-files": "$1 Д",
+	"categorytree-num-empty": "празна",
+	"categorytree-load": "учитај",
+	"categorytree-loading": "учитавам…",
+	"categorytree-nothing-found": "ништа није пронађено",
+	"categorytree-no-subcategories": "нема поткатегорија",
+	"categorytree-no-parent-categories": "нема наткатегорија",
+	"categorytree-no-pages": "нема страница или поткатегорија",
+	"categorytree-not-found": "Категорија <i>$1</i> није пронађена",
+	"categorytree-error": "Проблем при учитавању података.",
+	"categorytree-retry": "Сачекајте неколико тренутака и покушајте поново."
+}

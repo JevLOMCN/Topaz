@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Amire80"
+		]
+	},
+	"apihelp-titleblacklist-summary": "בדיקת תקינות של כותרת דף, שם קובץ, או שם משתמש אל מול TitleBlacklist.",
+	"apihelp-titleblacklist-param-title": "המחרוזת שצריך לבדוק אל מול הרשימה השחורה.",
+	"apihelp-titleblacklist-param-action": "הפעולה שצריך לבדוק.",
+	"apihelp-titleblacklist-param-nooverride": "לא לנסות לעקוף את הרשימה השחורה.",
+	"apihelp-titleblacklist-example-1": "לבדוק אם [[Foo]] ברשימה השחורה",
+	"apihelp-titleblacklist-example-2": "לבדוק עם [[Bar]] ברשימה השחורה לעריכה",
+	"apihelp-createaccount-param-ignoretitleblacklist": "להתעלם מבדיקות התחזות (דורש אחת מההרשאות הבאות: <code>tboverride</code>‏, <code>tboverride-account</code>)."
+}

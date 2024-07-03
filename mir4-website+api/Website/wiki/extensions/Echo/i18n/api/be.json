@@ -1,0 +1,19 @@
+{
+	"@metadata": {
+		"authors": [
+			"Chadyka",
+			"Plaga med"
+		]
+	},
+	"apihelp-echomarkread-summary": "Пазначыць апавяшчэнні для бягучага ўдзельніка як прачытаныя.",
+	"apihelp-echomarkread-param-list": "Спіс ідэнтыфікатараў апавяшчэнняў, якія трэба пазначыць як прачытаныя.",
+	"apihelp-echomarkread-param-unreadlist": "Спіс ідэнтыфікатараў апавяшчэнняў, якія трэба пазначыць як прачытаныя.",
+	"apihelp-echomarkread-param-all": "Калі зададзена, пазначае ўсе апавяшчэнні ўдзельніка як прачытаныя.",
+	"apihelp-echomarkread-param-sections": "Спіс раздзелаў, якія трэба пазначыць як прачытаныя.",
+	"apihelp-echomarkread-param-wikis": "Спіс вікі для адзначэння паведамлення як прачытанага (прадвызначана толькі бягучая вікі).",
+	"apihelp-echomarkread-example-1": "Пазначыць апавяшчэнне 8 як прачытанае",
+	"apihelp-echomarkread-example-2": "Пазначыць усе апавяшчэнні як прачытаныя",
+	"apihelp-echomarkread-example-3": "Пазначыць апавяшчэнне 1 як непрачытанае",
+	"apihelp-echomarkseen-summary": "Пазначыць апавяшчэнні як прагледжаныя для бягучага ўдзельніка.",
+	"apihelp-echomarkseen-example-1": "Пазначаць апавяшчэнні ўсіх тыпаў як прагледжаныя"
+}

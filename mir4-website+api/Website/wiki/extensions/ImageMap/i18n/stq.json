@@ -1,0 +1,19 @@
+{
+	"@metadata": {
+		"authors": [
+			"Pyt"
+		]
+	},
+	"imagemap_desc": "Moaket dät muugelk ferwies-sensitive Grafike ''(image maps)'' tou moakjen mäd Hälpe fon ju <code>&lt;imagemap&gt;</code>-Syntax",
+	"imagemap_no_image": "Failer: In ju eerste Riege mout ne Bielde ounroat wäide",
+	"imagemap_invalid_image": "Failer: Bielde is uungultich of is nit deer",
+	"imagemap_bad_image": "Failer: Ju Bielde stoant ap ju Lieste fon nit wonskede Bielden",
+	"imagemap_no_link": "Failer: Ap Eende fon Riege $1 wuude neen gultige Link fuunen",
+	"imagemap_invalid_title": "Failer: uungultigen Tittel in dän Link in Riege $1",
+	"imagemap_missing_coord": "Failer: Tou min Koordinate in Riege $1 foar dän Uumriet",
+	"imagemap_unrecognised_shape": "Failer: Uunbekoande Uumrietfoarm in Riege $1. Älke Riege mout mäd aan fon disse Parametere ounfange: <tt><code>default</code>, <code>rect</code>, <code>circle</code></tt> of <tt><code>poly</code></tt>",
+	"imagemap_invalid_coord": "Failer: Uungultige Koordinate in Riege $1: der sunt bloot Taale toulät",
+	"imagemap_invalid_desc": "Failer: Uungultigen „desc“-Parameter, muugelk sunt: <code>$1</code>",
+	"imagemap_description": "Uur disse Bielde",
+	"imagemap_poly_odd": "Failer: Polygon mäd uunpooren Antaal an Koordinoaten in Riege $1"
+}

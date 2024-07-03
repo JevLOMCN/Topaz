@@ -1,0 +1,107 @@
+{
+	"name": "Replace Text",
+	"version": "1.8",
+	"author": [
+		"Yaron Koren",
+		"Niklas Laxström",
+		"..."
+	],
+	"url": "https://www.mediawiki.org/wiki/Extension:Replace_Text",
+	"descriptionmsg": "replacetext-desc",
+	"license-name": "GPL-2.0-or-later",
+	"requires": {
+		"MediaWiki": ">= 1.42"
+	},
+	"type": "specialpage",
+	"GroupPermissions": {
+		"sysop": {
+			"replacetext": true
+		}
+	},
+	"AvailableRights": [
+		"replacetext"
+	],
+	"SpecialPages": {
+		"ReplaceText": {
+			"class": "MediaWiki\\Extension\\ReplaceText\\SpecialReplaceText",
+			"services": [
+				"HookContainer",
+				"DBLoadBalancerFactory",
+				"ContentLanguage",
+				"JobQueueGroup",
+				"LinkRenderer",
+				"MovePageFactory",
+				"NamespaceInfo",
+				"PermissionManager",
+				"ReadOnlyMode",
+				"SearchEngineConfig",
+				"SlotRoleStore",
+				"UserFactory",
+				"UserOptionsLookup",
+				"WatchlistManager",
+				"WikiPageFactory"
+			]
+		}
+	},
+	"JobClasses": {
+		"replaceText": {
+			"class": "MediaWiki\\Extension\\ReplaceText\\Job",
+			"services": [
+				"MovePageFactory",
+				"PermissionManager",
+				"UserFactory",
+				"WatchlistManager",
+				"WikiPageFactory"
+			]
+		}
+	},
+	"MessagesDirs": {
+		"ReplaceText": [
+			"i18n"
+		]
+	},
+	"ResourceModules": {
+		"ext.ReplaceText": {
+			"scripts": [
+				"ext.ReplaceText.js"
+			]
+		},
+		"ext.ReplaceTextStyles": {
+			"styles": [
+				"ext.ReplaceTextStyles.less"
+			]
+		}
+	},
+	"ResourceFileModulePaths": {
+		"localBasePath": "resources",
+		"remoteExtPath": "ReplaceText/resources"
+	},
+	"ExtensionMessagesFiles": {
+		"ReplaceTextAlias": "ReplaceText.i18n.alias.php"
+	},
+	"AutoloadNamespaces": {
+		"MediaWiki\\Extension\\ReplaceText\\": "src/"
+	},
+	"Hooks": {
+		"AdminLinks": "adminlinks",
+		"SpecialMovepageAfterMove": "main",
+		"UserGetReservedNames": "main"
+	},
+	"HookHandlers": {
+		"main": {
+			"class": "MediaWiki\\Extension\\ReplaceText\\Hooks",
+			"services": [
+				"MainConfig",
+				"SpecialPageFactory"
+			]
+		},
+		"adminlinks": {
+			"class": "MediaWiki\\Extension\\ReplaceText\\AdminLinksHooks"
+		}
+	},
+	"config": {
+		"ReplaceTextResultsLimit": 250,
+		"ReplaceTextUser": null
+	},
+	"manifest_version": 1
+}

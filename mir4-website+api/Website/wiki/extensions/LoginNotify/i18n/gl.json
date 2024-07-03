@@ -1,0 +1,21 @@
+{
+	"@metadata": {
+		"authors": [
+			"ArenaL5",
+			"Banjo",
+			"Elisardojm"
+		]
+	},
+	"loginnotify-desc": "Notificar usuarios sobre conexións sospeitosas dende dispositivos descoñecidos e/ou enderezos IP.",
+	"echo-category-title-login-fail": "Intentos fallidos de conexión",
+	"echo-pref-tooltip-login-fail": "Avisarme cando haxa múltiples intentos fallidos de iniciar sesión coa miña conta.",
+	"echo-category-title-login-success": "Conexión desde un dispositivo descoñecido",
+	"echo-pref-tooltip-login-success": "Avisarme cando alguén inicie sesión coa miña conta desde un dispositivo ou un enderezo IP descoñecido.",
+	"loginnotify-primary-link": "Axuda",
+	"notification-loginnotify-login-fail-email-subject": "{{PLURAL:$2|Intento fallido|Múltiples intentos faillidos}} de conectarse a {{SITENAME}} como $1",
+	"notification-loginnotify-login-success-email-subject": "Conexión a {{SITENAME}} como $1 desde un dispositivo que {{GENDER:$1|non usou}} recentemente",
+	"notification-header-login-success": "Alguén (probablemente {{GENDER:$1|vostede}}) conectouse recentemente na súa conta desde un novo dispositivo. Se foi vostede, pode descartar esta mensaxe. Se non foi vostede, é recomendable que cambie o seu contrasinal, e revise a actividade da súa conta.",
+	"notification-new-bundled-header-login-fail": "{{PLURAL:$1|Houbo '''un intento errado'''|Houbo '''$1 intentos errados'''}} de acceder á súa conta desde un dispositivo novo dende a última vez que a utilizou. Se non foi vostede, asegúrese de que a súa  conta posúe un contrasinal forte.",
+	"notification-known-header-login-fail": "Houbo '''{{PLURAL:$1|un intento errado|$1 intentos errados}}''' de acceder á súa conta dende a última vez que a utilizou. Se non foi vostede, asegúrese de que a súa conta posúe un contrasinal forte.",
+	"notification-new-unbundled-header-login-fail": "Houbo '''{{PLURAL:$1|un intento errado|múltiples intentos errados}}''' de acceder á túa conta dende un novo dispositido. Por favor, asegúrate de que a túa conta ten un contrasinal forte."
+}

@@ -1,0 +1,29 @@
+{
+	"@metadata": {
+		"authors": [
+			"Anakmalaysia",
+			"Aurora",
+			"Aviator",
+			"Pizza1016",
+			"Tofeiku"
+		]
+	},
+	"captcha-edit": "Untuk menyunting laman ini, sila selesaikan kira-kira di bawah dan masukkan jawapannya dalam kotak yang disediakan ([[Special:Captcha/help|maklumat lanjut]]):",
+	"captcha-desc": "Menyediakan teknik CAPTCHA untuk melindungi daripada spam dan teka kata laluan",
+	"captcha-addurl": "Suntingan anda mengandungi pautan luar baru.\nUntuk melindungi wiki daripada spam automatik, anda diminta supaya menyelesaikan kira-kira di bawah dan memasukkan jawapannya dalam kotak yang disediakan untuk menyimpan suntingan anda ([[Special:Captcha/help|maklumat lanjut]]):",
+	"captcha-badlogin": "Untuk melindungi wiki daripada kegiatan meneka kata laluan secara automatik, anda diminta supaya menyelesaikan kira-kira di bawah dan masukkan jawapannya dalam kotak yang disediakan ([[Special:Captcha/help|maklumat lanjut]]):",
+	"captcha-createaccount": "Untuk melindungi wiki daripada pembukaan akaun secara automatik, anda diminta supaya menyelesaikan kira-kira di bawah dan masukkan jawapannya dalam kotak yang disediakan ([[Special:Captcha/help|maklumat lanjut]]):",
+	"captcha-createaccount-fail": "Kod CAPTCHA tidak betul atau tidak ada.",
+	"captcha-create": "Untuk mencipta laman tersebut, sila selesaikan kira-kira di bawah dan masukkan jawapannya dalam kotak yang disediakan ([[Special:Captcha/help|maklumat lanjut]]):",
+	"captcha-sendemail": "Untuk melindungi wiki daripada spam automatik, anda diminta supaya menyelesaikan kira-kira di bawah dan masukkan jawapannya dalam kotak yang disediakan ([[Special:Captcha/help|maklumat lanjut]]):",
+	"captcha-sendemail-fail": "Kod CAPTCHA tidak betul atau tidak ada.",
+	"captcha-disabledinapi": "Tindakan ini memerlukan captcha, maka ia tidak boleh dilakukan melalui API.",
+	"captchahelp-title": "Bantuan CAPTCHA",
+	"captchahelp-cookies-needed": "Sila aktifkan ''cookies'' pada pelayar web anda.",
+	"captchahelp-text": "Tapak web yang menerima pos-pos dari orang awam, misalnya wiki ini, sering disalahgunakan oleh penghantar spam yang menggunakan peralatan berautomasi untuk mengepos pautan-pautan mereka ke banyak tapak.\nWalaupun pautan-pautan spam ini boleh dipadamkan, namun ia amat menyusahkan.\n\nAdakalanya, terutamanya apabila menambah pautan web baharu kepada sesebuah laman, wiki ini mungkin akan memaparkan suatu imej yang mengandungi teks yang berwarna atau samar-samar dan meminta anda untuk menaip perkataan-perkataan yang ditunjukkan.\nOleh sebab tugas ini sukar dilakukan secara automatik, ia akan membolehkan kebanyakan manusia sebenar untuk membuat pos-pos mereka sambil menghalang penghantar spam dan serangan robotik yang seumpamanya.\n\nMalangnya ini boleh menyukarkan pengguna yang mengalami masalah penglihatan atau sedang menggunakan pelayar web teks atau tuturan.\nPada masa ini kami tidak mempunyai alternatif audio.\nSila hubungi [[Special:ListAdmins|penyelia-penyelia tapak]] untuk mendapat bantuan jika ia menghalang anda daripada membuat sumbangan yang munasabah tanpa dijangka.\n\nSila tekan butang 'balik' dalam pelayar web anda untuk kembali ke penyunting laman.",
+	"captcha-addurl-whitelist": " #<!-- jangan ubah baris ini --> <pre>\n# Sintaks:\n#  * Aksara \"#\" sampai akhir baris diabaikan\n#  * Ungkapan nalar dibaca daripada setiap baris dan dipadankan dengan nama hos sahaja\n  #</pre> <!-- jangan ubah baris ini -->",
+	"right-skipcaptcha": "Melepasi pemeriksaan CAPTCHA",
+	"confirmedit-preview-content": "Kandungan",
+	"confirmedit-preview-valid": "sah",
+	"confirmedit-preview-invalid": "tidak sah"
+}

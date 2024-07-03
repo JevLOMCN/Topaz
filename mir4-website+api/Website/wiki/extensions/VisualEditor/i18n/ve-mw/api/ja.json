@@ -1,0 +1,42 @@
+{
+	"@metadata": {
+		"authors": [
+			"2nd-player",
+			"Delim",
+			"Foomin10",
+			"Fryed-peach",
+			"Los688",
+			"Omotecho",
+			"Shirayuki",
+			"SkyDaisy9",
+			"Takot"
+		]
+	},
+	"apierror-visualeditor-difffailed": "差分の取得ができませんでした",
+	"apihelp-visualeditor-param-basetimestamp": "保存する際に、編集した版のタイムスタンプとしてこれがセットされます。編集競合を検出するのに利用されます。",
+	"apihelp-visualeditor-param-badetag": "RESTBase が返した ETag が間違っている場合と感じたは、ログを残すためここに転記してください。",
+	"apihelp-visualeditor-param-cachekey": "serializeまたはdiffについては、このキーで以前に serializeforcache リクエストをした際の結果を使用する。$1html を上書きします。",
+	"apihelp-visualeditor-param-editintro": "イントロを編集してお知らせに追加します。",
+	"apihelp-visualeditor-param-format": "出力のフォーマット。",
+	"apihelp-visualeditor-param-html": "Parsoid 経由でウィキテキストに変換したいHTML",
+	"apihelp-visualeditor-param-oldid": "使用する版番号 (既定では最新版)",
+	"apihelp-visualeditor-param-paction": "実行したい操作",
+	"apihelp-visualeditor-param-page": "操作を実行したいページ",
+	"apihelp-visualeditor-param-pst": "Parsoid に送る前にwikitextをあらかじめ変換して保存する (paction=parsefragment)",
+	"apihelp-visualeditor-param-starttimestamp": "保存する際に、ページが読み込まれた時のタイムスタンプとしてこれがセットされます。編集競合を検出するのに利用されます。",
+	"apihelp-visualeditor-param-wikitext": "HTMLに変換するため、Parsoidに送るウィキテキスト (paction=parsefragment)",
+	"apihelp-visualeditoredit-param-basetimestamp": "保存する際に、編集した版のタイムスタンプとしてこれがセットされます。編集競合を検出するのに利用されます。",
+	"apihelp-visualeditoredit-param-cachekey": "以前にこのキーで serializeforcache リクエストを送った結果を利用する。$1html を上書きします。",
+	"apihelp-visualeditoredit-param-captchaid": "Captcha ID (captcha response で保存する場合)。",
+	"apihelp-visualeditoredit-param-captchaword": "(captchaで保存するときの) captchaに対する回答",
+	"apihelp-visualeditoredit-param-html": "ウィキテキストを出力として得るために、Parsoidに送るHTML",
+	"apihelp-visualeditoredit-param-minor": "細部の編集のしるし。",
+	"apihelp-visualeditoredit-param-needcheck": "保存する際に、この版にroundtrip問題がある場合はこのパラメーターを使用する。その場合、編集はタグ付けされます。",
+	"apihelp-visualeditoredit-param-oldid": "使用する版番号。既定では最新版です。",
+	"apihelp-visualeditoredit-param-page": "操作を実行したいページ",
+	"apihelp-visualeditoredit-param-sectiontitle": "新しい節の名前です。",
+	"apihelp-visualeditoredit-param-starttimestamp": "保存する際に、ページが読み込まれた時のタイムスタンプとしてこれがセットされます。編集競合を検出するのに利用されます。",
+	"apihelp-visualeditoredit-param-summary": "編集の要約",
+	"apihelp-visualeditoredit-param-wikitext": "動作を適用するウィキテキストです。",
+	"apihelp-visualeditoredit-summary": "HTML5ページを MediaWiki として保存する (Parsoidサービスを利用してウィキテキストに変換されます)"
+}

@@ -1,0 +1,19 @@
+/* mediawiki.notification */
+
+@import '../variables.less';
+@import 'mediawiki.mixins.less';
+
+.mw-notification-area {
+	// To match #globalWrapper (see screen-common.less).
+	font-size: 127%;
+}
+
+.mw-notification-area-layout {
+	top: @top-area-height + 0.1em;
+}
+
+.mw-notification {
+	border: 1px solid #ccc;
+	border-radius: 3px;
+	box-shadow: 0 0.2em 1em rgba( 0, 0, 0, 0.3 );
+}

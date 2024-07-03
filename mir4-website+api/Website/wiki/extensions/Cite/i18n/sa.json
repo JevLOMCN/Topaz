@@ -1,0 +1,29 @@
+{
+	"@metadata": {
+		"authors": [
+			"NehalDaveND",
+			"Shubha"
+		]
+	},
+	"cite-desc": "\nAdds<code>&lt;ref[ name=id]&gt;</code> तथा<code>&lt;references/&gt;</code> उद्धरणानां कृते सम्पर्कतन्तवः",
+	"cite_error": "उद्धरणे दोषः : $1",
+	"cite_error_ref_numeric_key": "<code>&lt;ref&gt;</code> अमान्यशृङ्खला;\nनाम पूर्णाङ्कसङ्ख्या भवितुं नार्हति । विविरणयुक्तं शिरोनाम उपयुज्यताम् ।",
+	"cite_error_ref_no_key": "<code>&lt;ref&gt;</code> दोषपूर्णा शृङ्खला; \nरिक्ताधाराः अपि सनामकः भवेत् ।",
+	"cite_error_ref_too_many_keys": "<code>&lt;ref&gt;</code> दोषपूर्णा शृङ्खला; \nअमान्यं नाम, उदा. अत्यधिकम्",
+	"cite_error_ref_no_input": "<code>&lt;ref&gt;</code> दोषपूर्णा शृङ्खला; \nरिक्ताधाराः अपि सनामकः भवेयुः ।",
+	"cite_error_references_invalid_parameters": "<code>&lt;references&gt;</code> असिद्धाङ्कनम्; परिमितिः निर्देष्टुम् अशक्या, <code>&lt;references /&gt;</code> उपयुज्यताम्",
+	"cite_error_references_no_backlink_label": "सिद्धानि पूर्वतनसम्पर्कशीर्षकाणि नष्टानि ।\n[[MediaWiki:Cite references link many format backlink labels]] इत्यस्मिन् सन्देशे अधिकविवरणं योज्यताम् ।",
+	"cite_error_no_link_label_group": "\"$1\" आधारसमूहस्य कस्टं-सम्पर्क-लेबेल् न्यूनानि जातानि ।\n[[MediaWiki:$2]] सन्देशे अधिकं निर्वचनं दीयताम् ।",
+	"cite_error_references_no_text": "अमान्या <code>&lt;ref&gt;</code> शृङ्खला;\n<code>$1</code> इत्यस्य आधारः अज्ञातः",
+	"cite_error_included_ref": "समाप्तिः <code>&lt;/ref&gt;</code> <code>&lt;ref&gt;</code> शृङ्खला लुप्ता",
+	"cite_error_group_refs_without_references": "<code>&lt;ref&gt;</code> \"$1\" नामकस्य गणस्य अङ्कनं विद्यते, कीन्तु किमपि अनुरूपं <code>&lt;references group=\"$1\"/&gt;</code> अङ्कनं न प्राप्तम्",
+	"cite_error_references_group_mismatch": "<code>&lt;ref&gt;</code> टैग इन <code>&lt;references&gt;</code>सङ्घर्षगणलक्षणं \"$1\" विद्यते ।",
+	"cite_error_references_missing_key": "<code>&lt;ref&gt;</code> अङ्कनं \"$1\" नाम्ना सह परिभाषितम् <code>&lt;references&gt;</code> पूर्वलेखे उपयोगाय न जातम् ।",
+	"cite_error_references_no_key": "<code>&lt;ref&gt;</code>अङ्कने परिभाषितं <code>&lt;references&gt;</code> किमपि नामलक्षणं न विद्यते ।",
+	"cite_error_empty_references_define": "<code>&lt;ref&gt;</code> अङ्कने परिभाषितं <code>&lt;references&gt;</code>  \"$1\" नामकः कोऽपि अन्तर्विषयः न विद्यते ।",
+	"cite-wikieditor-tool-reference": "सन्दर्भः",
+	"cite-wikieditor-help-page-references": "सन्दर्भः",
+	"cite-wikieditor-help-content-reference-description": "सन्दर्भः",
+	"cite-wikieditor-help-content-rereference-description": "तस्यैव आधारस्य अतिरिक्तः उपयोगः",
+	"cite-wikieditor-help-content-showreferences-description": "सन्दर्भः दर्श्यताम्"
+}

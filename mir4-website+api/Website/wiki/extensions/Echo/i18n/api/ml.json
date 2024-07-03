@@ -1,0 +1,27 @@
+{
+	"@metadata": {
+		"authors": [
+			"Praveenp"
+		]
+	},
+	"apihelp-echomarkread-summary": "ഇപ്പോഴത്തെ ഉപയോക്താവിന്റെ അറിയിപ്പുകൾ വായിച്ചതായി അടയാളപ്പെടുത്തുക.",
+	"apihelp-echomarkread-param-list": "വായിച്ചതായി അടയാളപ്പെടുത്തേണ്ട അറിയിപ്പ് ഐ.ഡി.കളുടെ പട്ടിക.",
+	"apihelp-echomarkread-param-all": "സജ്ജമെങ്കിൽ ഉപയോക്താവിനുള്ള അറിയിപ്പുകളെല്ലാം വായിച്ചതായി അടയാളപ്പെടുത്തുക.",
+	"apihelp-echomarkread-param-sections": "വായിച്ചതായി അടയാളപ്പെടുത്തേണ്ട ഭാഗങ്ങളുടെ പട്ടിക.",
+	"apihelp-echomarkread-example-1": "അറിയിപ്പ് 8 വായിച്ചതായി അടയാളപ്പെടുത്തുക",
+	"apihelp-echomarkread-example-2": "എല്ലാ അറിയിപ്പുകളും വായിച്ചതായി അടയാളപ്പെടുത്തുക",
+	"apihelp-echomarkseen-example-1": "എല്ലാ തരത്തിലുമുള്ള അറിയിപ്പുകളും കണ്ടെന്ന് അടയാളപ്പെടുത്തുക",
+	"apihelp-echomarkseen-param-type": "കണ്ടതായി അടയാളപ്പെടുത്തേണ്ട അറിയിപ്പുകളുടെ തരം: 'അറിയിപ്പ്', 'സന്ദേശം', 'എല്ലാം'.",
+	"apihelp-query+notifications-param-prop": "അഭ്യർത്ഥനയുടെ വിശദാംശങ്ങൾ.",
+	"apihelp-query+notifications-param-sections": "ചോദിക്കേണ്ട അറിയിപ്പ് ഭാഗങ്ങൾ (അതായത് 'അറിയിപ്പ്', 'സന്ദേശം' എന്നിവയുടെ മിശ്രണം).",
+	"apihelp-query+notifications-param-groupbysection": "ഫലങ്ങൾ വിഭാഗമനുസരിച്ച് വർഗ്ഗീകരിക്കണോ. സജ്ജമെങ്കിൽ ഓരോ ഭാഗവും വ്യത്യസ്തമായിട്ടാവും എടുക്കുക.",
+	"apihelp-query+notifications-param-filter": "അരിപ്പയുടെ അറിയിപ്പുകൾ തിരിച്ചയച്ചിരിക്കുന്നു.",
+	"apihelp-query+notifications-param-format": "വ്യക്തമാക്കിയിട്ടുണ്ടെങ്കിൽ, അറിയിപ്പുകൾ ഇതുവഴിയായിരിക്കും വിന്യസികുക.",
+	"apihelp-query+notifications-param-limit": "എടുക്കേണ്ട അറിയിപ്പുകളുടെ പരമാവധി എണ്ണം.",
+	"apihelp-query+notifications-param-alertcontinue": "അധികം അറിയിപ്പ് ഫലങ്ങൾ ലഭ്യമായിരിക്കുമ്പോൾ, തുടരാൻ ഇതുപയോഗിക്കുക.",
+	"apihelp-query+notifications-param-alertunreadfirst": "വായിക്കാത്ത സന്ദേശ അറിയിപ്പുകൾ ആദ്യം പ്രദർശിപ്പിക്കണോ.",
+	"apihelp-query+notifications-param-messagecontinue": "അധികം സന്ദേശ ഫലങ്ങൾ ലഭ്യമായിരിക്കുമ്പോൾ, തുടരാൻ ഇതുപയോഗിക്കുക.",
+	"apihelp-query+notifications-param-messageunreadfirst": "വായിക്കാത്ത വിവരദായക അറിയിപ്പുകൾ ആദ്യം പ്രദർശിപ്പിക്കണോ.",
+	"apihelp-query+notifications-example-1": "അറിയിപ്പുകൾ പട്ടികയാക്കുക",
+	"apihelp-query+notifications-example-2": "അറിയിപ്പുകൾ വിഭാഗമനുസരിച്ച് എണ്ണം നൽകി വർഗ്ഗീകരിച്ച് പട്ടികയാക്കുക"
+}

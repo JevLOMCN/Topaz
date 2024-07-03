@@ -1,0 +1,23 @@
+{
+	"@metadata": {
+		"authors": [
+			"McDutchie"
+		]
+	},
+	"apihelp-query+extracts-summary": "Restitue extractos del paginas date in forma de texto simple o HTML limitate.",
+	"apihelp-query+extracts-param-chars": "Quante characteres restituer. Le texto effectivemente restituite pote esser un poco plus longe.",
+	"apihelp-query+extracts-param-sentences": "Quante phrases restituer.",
+	"apihelp-query+extracts-param-limit": "Quante extractos restituer. (Plure extractos pote esser restituite solmente si <var>exintro</var> es mittite a <code>true</code> (ver).)",
+	"apihelp-query+extracts-param-intro": "Restituer solmente le contento ante le prime section.",
+	"apihelp-query+extracts-param-plaintext": "Restituer extractos in forma de texto simple in loco de HTML limitate.",
+	"apihelp-query+extracts-param-sectionformat": "Como formatar sectiones in modo de texto simple:",
+	"apihelp-query+extracts-paramvalue-sectionformat-plain": "Non formatar.",
+	"apihelp-query+extracts-paramvalue-sectionformat-wiki": "Formatar in stilo de wikitexto (== como isto ==).",
+	"apihelp-query+extracts-paramvalue-sectionformat-raw": "Usar le representation interne de iste modulo (titulos de section con prefixos &lt;ASCII 1&gt;&lt;ASCII 2&gt;&lt;nivello de section&gt;&lt;ASCII 2&gt;&lt;ASCII 1&gt;).",
+	"apihelp-query+extracts-example-1": "Obtener un extracto de 175 characteres",
+	"apiwarn-textextracts-limit": "<var>exlimit</var> esseva troppo grande pro un requesta de extractos de un articulo complete; reducite a $1.",
+	"apiwarn-textextracts-unsupportedmodel": "$1 ha le modello de contento $2, que non es supportate; se restitue un extracto vacue.",
+	"apiwarn-textextracts-title-in-file-namespace": "Un extracto pro un titulo in le spatio de nomines File ha essite requestate, nihil restituite.",
+	"apiwarn-textextracts-sentences-and-html": "Le parametro <var>$1sentences</var> pote producer resultatos inexpectate quando es usate in modo HTML.",
+	"apiwarn-textextracts-malformed-html": "Le codice HTML pote esser mal formate e/o non equilibrate e pote omitter imagines in linea. Usar a proprie risco. Le problemas cognoscite es listate sur https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:TextExtracts#Caveats."
+}

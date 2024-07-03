@@ -1,0 +1,94 @@
+/*!
+ * VisualEditor UserInterface LinkContextItem styles.
+ *
+ * @copyright See AUTHORS.txt
+ */
+
+.ve-ui-linkContextItem {
+	.ve-ui-linkContextItem-link {
+		overflow: hidden;
+		text-overflow: ellipsis;
+		white-space: nowrap;
+		display: block;
+	}
+
+	.ve-ui-mobileContext & {
+		.ve-ui-linearContextItem-body {
+			overflow: hidden;
+			/* Break long links */
+			word-wrap: break-word;
+		}
+
+		.ve-ui-linkContextItem-label {
+			display: flex;
+			width: 100%;
+			margin-bottom: 0.5em;
+		}
+
+		.ve-ui-linkContextItem-label-label,
+		.ve-ui-linkContextItem-link-label {
+			display: block;
+			font-size: 0.8125em;
+		}
+
+		.ve-ui-linkContextItem-label-preview {
+			overflow: hidden;
+			text-overflow: ellipsis;
+			white-space: nowrap;
+			font-weight: bold;
+		}
+
+		.ve-ui-linkContextItem-label-body {
+			min-width: 0;
+		}
+
+		.ve-ui-linkContextItem-label-action {
+			padding: 0.25em 0.5em;
+		}
+	}
+
+	.ve-ui-desktopContext & {
+		.ve-ui-linearContextItem-body {
+			padding-bottom: 0.8em;
+		}
+
+		.ve-ui-linkContextItem-label {
+			margin: 0.7em -1em 0;
+			padding: 0.7em 1em 0;
+			border-top: 1px solid #eaecf0;
+			display: flex;
+			width: 100%;
+
+			> div {
+				white-space: nowrap;
+			}
+
+			.oo-ui-labelElement-label {
+				display: inline-block;
+				vertical-align: middle;
+			}
+
+			.ve-ui-linkContextItem-label-preview {
+				flex: 1;
+				min-width: 0;
+				color: #72777d;
+				padding-left: 0.6em;
+
+				.oo-ui-labelElement-label {
+					overflow: hidden;
+					text-overflow: ellipsis;
+					white-space: nowrap;
+					width: 100%;
+				}
+			}
+
+			.ve-ui-linkContextItem-label-label .oo-ui-labelElement-label {
+				padding-left: 0.3em;
+			}
+
+			.ve-ui-linkContextItem-label-action .oo-ui-buttonWidget {
+				margin: -7px -7px -7px 0;
+			}
+		}
+	}
+}

@@ -1,0 +1,109 @@
+{
+	"name": "Gadgets",
+	"author": [
+		"Daniel Kinzler",
+		"Max Semenik"
+	],
+	"url": "https://www.mediawiki.org/wiki/Extension:Gadgets",
+	"descriptionmsg": "gadgets-desc",
+	"license-name": "GPL-2.0-or-later",
+	"requires": {
+		"MediaWiki": ">= 1.42"
+	},
+	"type": "other",
+	"ContentHandlers": {
+		"GadgetDefinition": {
+			"class": "MediaWiki\\Extension\\Gadgets\\Content\\GadgetDefinitionContentHandler",
+			"services": [
+				"GadgetsRepo"
+			]
+		}
+	},
+	"SpecialPages": {
+		"Gadgets": {
+			"class": "MediaWiki\\Extension\\Gadgets\\Special\\SpecialGadgets",
+			"services": [
+				"GadgetsRepo"
+			]
+		},
+		"GadgetUsage": {
+			"class": "MediaWiki\\Extension\\Gadgets\\Special\\SpecialGadgetUsage",
+			"services": [
+				"GadgetsRepo",
+				"ConnectionProvider"
+			]
+		}
+	},
+	"APIListModules": {
+		"gadgetcategories": {
+			"class": "MediaWiki\\Extension\\Gadgets\\Api\\ApiQueryGadgetCategories",
+			"services": [
+				"GadgetsRepo"
+			]
+		},
+		"gadgets": {
+			"class": "MediaWiki\\Extension\\Gadgets\\Api\\ApiQueryGadgets",
+			"services": [
+				"GadgetsRepo"
+			]
+		}
+	},
+	"MessagesDirs": {
+		"Gadgets": [
+			"i18n",
+			"i18n/api"
+		]
+	},
+	"ExtensionMessagesFiles": {
+		"GadgetsAlias": "Gadgets.alias.php"
+	},
+	"RawHtmlMessages": [
+		"gadgets-definition"
+	],
+	"AutoloadNamespaces": {
+		"MediaWiki\\Extension\\Gadgets\\": "includes/"
+	},
+	"TestAutoloadClasses": {
+		"GadgetTestTrait": "tests/phpunit/GadgetTestTrait.php"
+	},
+	"HookHandlers": {
+		"GadgetHooks": {
+			"class": "MediaWiki\\Extension\\Gadgets\\Hooks",
+			"services": [
+				"GadgetsRepo",
+				"UserOptionsLookup"
+			]
+		},
+		"GadgetCodeEditorHooks": {
+			"class": "MediaWiki\\Extension\\Gadgets\\CodeEditorHooks"
+		}
+	},
+	"Hooks": {
+		"PageDeleteComplete": "GadgetHooks",
+		"PageSaveComplete": "GadgetHooks",
+		"BeforePageDisplay": "GadgetHooks",
+		"CodeEditorGetPageLanguage": "GadgetCodeEditorHooks",
+		"ContentHandlerDefaultModelFor": "GadgetHooks",
+		"EditFilterMergedContent": "GadgetHooks",
+		"UserGetDefaultOptions": "GadgetHooks",
+		"GetPreferences": "GadgetHooks",
+		"PreferencesGetLegend": "GadgetHooks",
+		"ResourceLoaderRegisterModules": "GadgetHooks",
+		"wgQueryPages": "GadgetHooks",
+		"DeleteUnknownPreferences": "GadgetHooks",
+		"PreferencesGetIcon": "GadgetHooks",
+		"getUserPermissionsErrors": "GadgetHooks"
+	},
+	"ServiceWiringFiles": [
+		"includes/ServiceWiring.php"
+	],
+	"config": {
+		"GadgetsRepo": {
+			"value": "definition"
+		},
+		"SpecialGadgetUsageActiveUsers": {
+			"value": true
+		}
+	},
+	"manifest_version": 2
+}

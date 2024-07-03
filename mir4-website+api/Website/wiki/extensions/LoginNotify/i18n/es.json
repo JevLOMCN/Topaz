@@ -1,0 +1,24 @@
+{
+	"@metadata": {
+		"authors": [
+			"DannyS712",
+			"Dgstranz",
+			"Edslov",
+			"Fitoschido",
+			"Macofe",
+			"PoLuX124"
+		]
+	},
+	"loginnotify-desc": "Notifica a los usuarios sobre accesos sospechosos provenientes de dispositivos o direcciones IP inusuales.",
+	"echo-category-title-login-fail": "Intentos de acceso fallidos",
+	"echo-pref-tooltip-login-fail": "Notificarme cuando se produzcan intentos fallidos de acceder a mi cuenta.",
+	"echo-category-title-login-success": "Acceso a la cuenta desde un dispositivo inusual",
+	"echo-pref-tooltip-login-success": "Notificarme cada vez que alguien acceda a mi cuenta desde un dispositivo o una dirección IP inusual.",
+	"loginnotify-primary-link": "Ayuda",
+	"notification-loginnotify-login-fail-email-subject": "{{PLURAL:$2|Intento fallido|Varios intentos fallidos}} de acceso a {{SITENAME}} como $1",
+	"notification-loginnotify-login-success-email-subject": "Acceso a {{SITENAME}} como $1 desde un dispositivo que {{GENDER:$1|tu}} no has utilizado recientemente",
+	"notification-header-login-success": "Alguien, probablemente {{GENDER:$1|tú}}, ha accedido con éxito a tu cuenta desde un dispositivo nuevo. Si fuiste tú, puedes ignorar este mensaje. Si no fuiste tú, se recomienda que cambies tu contraseña y revises la actividad de la cuenta.",
+	"notification-new-bundled-header-login-fail": "{{PLURAL:$1|Hubo '''un intento fallido'''|Hubo '''$1 intentos fallidos'''}} de acceder a tu cuenta desde un dispositivo nuevo desde la última vez que la utilizaste. Si no has sido tú, asegúrate de que tu cuenta posea una contraseña fuerte.",
+	"notification-known-header-login-fail": "Hubo '''{{PLURAL:$1|un intento fallido|$1 intentos fallidos}}''' de acceder a tu cuenta desde la última vez que la utilizaste. Si no has sido tú, asegúrate de que tu cuenta posea una contraseña segura.",
+	"notification-new-unbundled-header-login-fail": "Hubo '''{{PLURAL:$1|un intento fallido|$1 intentos fallidos}}''' de acceder a tu cuenta desde un dispositivo nuevo. Asegúrate de que tu cuenta posea una contraseña segura."
+}

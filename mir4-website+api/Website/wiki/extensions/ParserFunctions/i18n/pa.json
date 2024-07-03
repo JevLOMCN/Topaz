@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"Satdeep gill",
+			"Tow",
+			"Cabal"
+		]
+	},
+	"pfunc_time_error": "ਗ਼ਲਤੀ: ਗ਼ਲਤ ਸਮਾਂ",
+	"pfunc_expr_unrecognised_word": "ਗ਼ਲਤੀ:ਅਣਪਛਾਤਾ ਸ਼ਬਦ \"$1\"।",
+	"pfunc_expr_unexpected_operator": "ਗ਼ਲਤੀ: ਅਕਲਪਿਤ $1 ਚਾਲਕ।",
+	"pfunc_expr_missing_operand": "ਗ਼ਲਤੀ: $1 ਲਈ ਕਾਰਜ ਸੰਖਿਆ ਮੌਜੂਦ ਨਹੀਂ।",
+	"pfunc_expr_unrecognised_punctuation": "ਗ਼ਲਤੀ:ਅਣਪਛਾਤਾ ਚਿੰਨ੍ਹ \"$1\"।",
+	"pfunc_expr_division_by_zero": "ਸਿਫਰ ਨਾਲ ਵਿਭਾਜਨ।"
+}

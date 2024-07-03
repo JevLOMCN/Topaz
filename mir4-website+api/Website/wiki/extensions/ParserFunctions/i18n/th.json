@@ -1,0 +1,31 @@
+{
+	"@metadata": {
+		"authors": [
+			"Aefgh39622",
+			"Ans",
+			"Horus",
+			"Patsagorn Y."
+		]
+	},
+	"pfunc_desc": "เพิ่มประสิทธิภาพให้กับตัวแยกวิเคราะห์ด้วยฟังก์ชันเชิงตรรกศาสตร์",
+	"pfunc_time_error": "ข้อผิดพลาด: เวลาไม่ถูกต้อง",
+	"pfunc_time_too_long": "ข้อผิดพลาด: มีการเรียกใช้ #time มากเกินไป",
+	"pfunc_time_too_big": "ข้อผิดพลาด: #time รองรับถึงปี 9999 เท่านั้น",
+	"pfunc_time_too_small": "ข้อผิดพลาด: #time รองรับปีนับจาก 0 เท่านั้น",
+	"pfunc_rel2abs_invalid_depth": "ข้อผิดพลาด: ความลึกพาธไม่ถูกต้อง: \"$1\" (พยายามที่จะเข้าถึงตำแหน่งที่อยู่เหนือขึ้นไปจาก)",
+	"pfunc_expr_stack_exhausted": "ข้อผิดพลาดนิพจน์: มีสแต็กไม่เพียงพอในการคำนวณ",
+	"pfunc_expr_unexpected_number": "ข้อผิดพลาดนิพจน์: ตัวเลขอยู่ผิดที่",
+	"pfunc_expr_preg_match_failure": "ข้อผิดพลาดนิพจน์: เกิดความล้มเหลวในการสั่ง preg_match ที่ไม่คาดคิด",
+	"pfunc_expr_unrecognised_word": "ข้อผิดพลาดนิพจน์: \"$1\" เป็นคำที่ไม่รู้จัก",
+	"pfunc_expr_unexpected_operator": "ข้อผิดพลาดนิพจน์: มีตัวดำเนินการ $1 ซึ่งไม่ควรมี",
+	"pfunc_expr_missing_operand": "ข้อผิดพลาดนิพจน์: ขาดตัวถูกดำเนินการสำหรับ $1",
+	"pfunc_expr_unexpected_closing_bracket": "ข้อผิดพลาดนิพจน์: มีวงเล็บปิดซึ่งไม่ควรมี",
+	"pfunc_expr_unrecognised_punctuation": "ข้อผิดพลาดนิพจน์: \"$1\" เป็นอักขระเครื่องหมายวรรคตอนที่ไม่รู้จัก",
+	"pfunc_expr_unclosed_bracket": "ข้อผิดพลาดนิพจน์: ไม่ได้ปิดวงเล็บ",
+	"pfunc_expr_division_by_zero": "หารด้วยศูนย์",
+	"pfunc_expr_invalid_argument": "อาร์กิวเมนต์ไม่ถูกต้องสำหรับ $1: < -1 หรือ > 1",
+	"pfunc_expr_invalid_argument_ln": "อาร์กิวเมนต์ไม่ถูกต้องสำหรับ ln: <= 0",
+	"pfunc_expr_unknown_error": "ข้อผิดพลาด: เกิดข้อผิดพลาดที่ไม่ทราบสาเหตุ ($1)",
+	"pfunc_expr_not_a_number": "ใน $1: ผลลัพธ์ไม่ใช่จำนวน",
+	"pfunc_string_too_long": "ข้อผิดพลาด: สตริงมีความยาวเกินขีดจำกัดอักขระ $1 ตัว"
+}

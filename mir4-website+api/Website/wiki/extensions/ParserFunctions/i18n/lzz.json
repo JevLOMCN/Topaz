@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"Cem Rize"
+		]
+	},
+	"pfunc_time_error": "Hata: Geçersiz saat.",
+	"pfunc_expr_unrecognised_word": "İfade hatası: Tanınmayan \"$1\" kelimesi",
+	"pfunc_expr_unexpected_operator": "İfade hatası: Beklenmedik $1 operatörü",
+	"pfunc_expr_missing_operand": "İfade hatası: $1 için eksik terim",
+	"pfunc_expr_unrecognised_punctuation": "İfade hatası: Tanınmayan noktalama karakteri \"$1\"",
+	"pfunc_expr_division_by_zero": "Sıfır ile bölme"
+}

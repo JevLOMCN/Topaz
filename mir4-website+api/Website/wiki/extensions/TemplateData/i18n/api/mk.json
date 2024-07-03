@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"Bjankuloski06"
+		]
+	},
+	"apihelp-templatedata-summary": "Преземање на податоци складирани од додатокот „Предложни податоци“ (TemplateData).",
+	"apihelp-templatedata-example-1": "Дај податоци за [[Template:Foobar]], со исходот ако предлошката не постои или постои без да има предложни податоци",
+	"apihelp-templatedata-example-2": "Дај податоци за [[Template:Phabricator]], со исходот ако предлошката не постои или постои без да има предложни податоци",
+	"apihelp-templatedata-param-includeMissingTitles": "Давај податоци за наслови дури и ако ги нема или немаат предложни податоци. По основно, се даваат само насловите што постојат и имаат предложни податоци.",
+	"apihelp-templatedata-param-doNotIgnoreMissingTitles": "Давај податоци за наслови дури и ако ги нема или немаат предложни податоци. По основно (за назадна складност) се даваат само насловите што постојат и имаат предложни податоци.",
+	"apihelp-templatedata-param-lang": "Дај ги вредностите преведени на овој јазик. По основно се даваат сите расположливи преводи.",
+	"apierror-templatedata-corrupt": "Страницата бр. $1 содржи неважечки предложни податоци: $2",
+	"apiwarn-templatedata-deprecation-format": "Стандардниот изводен формат во иднина ќе се смени на <kbd>jsonfm</kbd>. Изречно укажувајте <kbd>format=json</kbd>."
+}

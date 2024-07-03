@@ -1,0 +1,26 @@
+{
+	"@metadata": {
+		"authors": [
+			"Daramlagon",
+			"Geopoet"
+		]
+	},
+	"cite-desc": "Minadugang nin <code>&lt;ref[ name=id]&gt;</code> asin <code>&lt;references/&gt;</code> na mga tatak, para sa mga toltolan",
+	"cite_error": "Error sa pag-cite: $1",
+	"cite_error_ref_numeric_key": "Imbalido an <code>&lt;ref&gt;</code> tatak; an pangaran dae puwede na magin sarong simplehon na bilog na numero. Maggamit nin sarong deskriptibong titulo",
+	"cite_error_ref_no_key": "Imbalido an <code>&lt;ref&gt;</code> tatak; an mga toltolan na mayong kalamnan dapat magkaigwa nin pangaran",
+	"cite_error_ref_too_many_keys": "Imbalido an <code>&lt;ref&gt;</code> tatak; imbalidong mga pangaran, e.g. grabe kadakol",
+	"cite_error_ref_no_input": "Imbalido an <code>&lt;ref&gt;</code> tatak; an mga toltolan na mayong pangaran dapat magkaigwa nin kalamnan",
+	"cite_error_references_invalid_parameters": "Imbalido an <code>&lt;references&gt;</code> tatak; mayong mga parametro an pinagtutugot. Maggamit nin <code>&lt;mga toltolan /&gt;</code>",
+	"cite_error_references_no_backlink_label": "Naubusan nin pankostumbreng sugpon-panlikod na kamarkahan. Pakahulugan nin dagdag tabi an [[MediaWiki:Cite references link many format backlink labels]] mensahe.",
+	"cite_error_no_link_label_group": "Naubusan nin pankostumbreng sugpon nin mga kamarkahan para sa grupo \"$1\". Pakahulugan nin dagdag tabi an [[MediaWiki:$2]] mensahe.",
+	"cite_error_references_no_text": "Imbalidong <code>&lt;ref&gt;</code> tatak; mayong teksto na ipinagtao para sa reperensiya na pinagngaranan na <code>$1</code>",
+	"cite_error_included_ref": "Ipinagsasara <code>&lt;/ref&gt;</code> nawawara para sa <code>&lt;ref&gt;</code> na tatak",
+	"cite_error_group_refs_without_references": "<code>&lt;ref&gt;</code> mga tatak na eksistido para sa sarong grupo na pinagngaranan na \"$1\", alagad mayong kinasungkoan na <code>&lt;mga pinapanungdanan na grupo=\"$1\"/&gt;</code>na tatak an nanagboan, o sarong panarado <code>&lt;/ref&gt;</code> an nawawara",
+	"cite_error_references_group_mismatch": "<code>&lt;ref&gt;</code> tatak sa laog na <code>&lt;references&gt;</code> igwa nin pangrupong kumplikto sa hitsurahon na \"$1\".",
+	"cite_error_references_missing_key": "<code>&lt;ref&gt;</code> tatak na igwang pangaran na \"$1\" na pinagkahulugan sa <code>&lt;references&gt;</code> na dae pinaggagamit sa nakaaging teksto.",
+	"cite_error_references_no_key": "<code>&lt;ref&gt;</code> tatak na pinagkahulugan sa <code>&lt;references&gt;</code> na mayo nin hitsurahon sa pangaran.",
+	"cite_error_empty_references_define": "<code>&lt;ref&gt;</code> tatak na pinagkahulugan sa <code>&lt;references&gt;</code> na igwang pangaran na \"$1\" na mayo tabing kalamnan.",
+	"cite_references_link_accessibility_label": "Lukso paitaas",
+	"cite_references_link_many_accessibility_label": "Lukso paitaas paduman sa:"
+}

@@ -1,0 +1,32 @@
+{
+	"@metadata": {
+		"authors": [
+			"Afalau",
+			"Lloffiwr",
+			"Robin Owain"
+		]
+	},
+	"gadgets-desc": "Yn galluogi defnyddwyr i ddewis [[Special:Gadgets|teclynnau CSS a JavaScript]] yn eu [[Special:Preferences#mw-prefsection-gadgets|dewisiadau]]",
+	"prefs-gadgets": "Teclynnau",
+	"gadgets-prefstext": "Ceir rhestr isod o'r teclynnau y gallwch eu galluogi.\nMae'r rhan fwyaf o'r teclynnau yn defnyddio JavaScript, felly mae'n rhaid galluogi JavaScript ar eich porwr er mwyn iddynt weithio.\nSylwer na gaiff y teclynnau hyn unrhyw effaith ar y dudalen hon o ddewisiadau.\n\nSylwer hefyd nad yw'r teclynnau hyn yn ran o feddalwedd MediaWiki; fel arfer defnyddwyr y wici hwn sydd wedi datblygu'r teclynnau ac sydd yn eu cynnal.\nMae gweinyddwyr y wici hwn yn gallu golygu [[MediaWiki:Gadgets-definition|diffiniadau]] a [[Special:Gadgets|disgrifiadau]]'r teclynnau sydd ar gael.",
+	"special-gadgets": "Teclynnau",
+	"gadgetusage": "Ystadegau defnyddio teclynnau",
+	"gadgetusage-gadget": "Teclynnau",
+	"gadgetusage-usercount": "Nifer y defnyddwyr",
+	"gadgetusage-noresults": "Heb ganfod teclynnau.",
+	"gadgetusage-activeusers": "Defnyddwyr gweithgar",
+	"gadgetusage-default": "Rhagosodedig",
+	"gadgets-title": "Teclynnau",
+	"gadgets-pagetext": "Isod mae rhestr o declynnau arbennig y gall defnyddwyr eu galluogi ar eu [[Special:Preferences#mw-prefsection-gadgets|tudalennau dewisiadau]], sef rhestr a bennir yn y dudalen [[MediaWiki:Gadgets-definition|diffiniadau]].\nMae'r trosolwg hwn yn cynnig mynediad rhwydd at y tudalennau negeseuon sustem sy'n diffinio disgrifiad a chod pob teclyn.",
+	"gadgets-editdescription": "Golygu disgrifiad",
+	"gadgets-viewdescription": "Gweld disgrifiad",
+	"gadgets-uses": "Yn defnyddio",
+	"gadgets-required-rights": "Mae angen y cael y {{PLURAL:$2|gallu|galluoedd}} canlynol:\n\n\n$1",
+	"gadgets-required-skins": "Ar gael ar y {{PLURAL:$2|wedd $1|gweddau hyn: $1}}:",
+	"gadgets-default": "Wedi ei alluogi i bawb yn ddiofyn.",
+	"gadgets-export": "Allforio",
+	"gadgets-export-title": "Allforio teclyn",
+	"gadgets-not-found": "Heb ganfod teclyn \"$1\".",
+	"gadgets-export-text": "I allforio'r teclyn $1, pwyswch ar y botwm \"{{int:gadgets-export-download}}\", rhowch y ffeil a islwythir ar gadw, ewch i Special:Import ar wici'r pendraw a'i huwchlwytho. Yna ychwanegwch y canlynol at y dudalen MediaWiki:Gadgets-definition:\n<pre>$2</pre>\nMae'n rhaid bod y galluoedd pwrpasol gennych ar wici'r pendraw (gan gynnwys y gallu i olygu negeseuon y sustem), a rhaid bod mewnforio drwy uwchlwytho ffeiliau wedi ei alluogi.",
+	"gadgets-export-download": "Lawrlwytho"
+}

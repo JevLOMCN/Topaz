@@ -1,0 +1,33 @@
+{
+	"@metadata": {
+		"authors": [
+			"Lancine.kounfantoh.fofana",
+			"Reedy"
+		]
+	},
+	"prefs-gadgets": "ߛߙߋߓߍ",
+	"special-gadgets": "ߛߙߋߓߍ",
+	"gadgetusage-gadget": "ߛߙߋߓߍ",
+	"gadgetusage-usercount": "ߟߊ߬ߓߊ߰ߙߊ߬ߟߊ ߟߎ߬ ߦߙߌߞߊ",
+	"gadgetusage-noresults": "ߛߙߋߓߍ߫ ߡߊ߫ ߛߐ߬ߘߐ߲߫.",
+	"gadgetusage-activeusers": "ߟߊ߬ߓߊ߰ߙߊ߬ߟߊ ߞߎ߲߬ߞߍ߲ߘߍ",
+	"gadgetusage-default": "ߓߐߛߎ߲",
+	"gadgets-title": "ߛߙߋߓߍ",
+	"gadgets-editdescription": "ߞߊ߲߬ߛߓߍߟߌ ߡߊߦߟߍ߬ߡߊ߲߫",
+	"gadgets-viewdescription": "ߞߊ߲߬ߛߓߍߟߌ ߦߌ߬ߘߊ߬",
+	"gadgets-uses": "ߟߊ߬ߓߊ߰ߙߊ߬ߟߊ ߟߎ߬",
+	"gadgets-required-rights": "{{PLURAL:|ߤߊߞߍ ߣߌ߲߬|ߤߊߞߍ $2 ߢߌ߲߬ ߠߎ߫}} ߡߊߢߌߣߌ߲ߣߍ߲߫: \n\n$1",
+	"gadgets-required-skins": "ߊ߬ ߘߌ߫ ߛߋ߫ ߛߐ߬ߘߐ߲߬ ߠߊ߫ {{PLURAL:$2|ߝߊߘߌߦߊߓߐ߫ $1|ߝߊߘߌߦߊߓߐ ߢߌ߲߬ ߠߎ߬ ߘߐ߫: $1}}.",
+	"gadgets-required-actions": "ߊ߬ ߦߋ߫ ߓߊ߯ߙߊ߫ ߟߊ߫ {{PLURAL:$2|ߞߐߜߍ ߞߍߟߌ $1|ߞߐߜߍ ߢߌ߲߬ ߠߎ߬ ߞߍߟߌ ߘߐ߫: $1}}.",
+	"gadgets-default": "ߊ߬ ߟߊߞߎ߲ߣߎ߲߫ ߓߍ߯ ߟߊߘߍ߬ߣߍ߲ ߢߍ߫ ߓߐߛߎ߲ ߓߟߏ߫.",
+	"gadgets-legacy": "ߛߙߋߓߍ ߡߊ߫ ߟߊߢߎ߲߫. ߝߎ߲ߘߌ߫ ߞߊ߬ ߥߊ߫ Resourceleader ߞߊ߲߬ ߖߊ߰ߣߌ߲߫. ([https://www.mediawiki.org/wiki/Special:MyLanguage/ResourceLoader/Migration_guide_(users) ߘߏ߫ ߜߘߍ߫ ߘߐߞߊ߬ߙߊ߲߬])",
+	"gadgets-packaged": "ߛߙߋߓߍ ߣߌ߲߬ ߦߋ߫ [https://www.mediawiki.org/wiki/ResourceLoader/Package_files packaged], ߞߵߊ߬ ߞߍ߫ ߦߏ߫ ߘߏ߲߬ߠߌ߲߫ ߘߊߞߎ߲߫ $1",
+	"gadgets-export": "ߟߊ߬ߝߏ߬ߦߌ߬ߟߌ",
+	"gadgets-export-title": "ߛߙߋߓߍ ߟߊߝߏ߬ߦߌ߬",
+	"gadgets-not-found": "ߛߙߋߓߍ \"$1\" ߡߊ߫ ߛߐ߬ߘߐ߲߫.",
+	"gadgets-export-text": "ߖߐ߲߬ߛߊ߫ ߞߊ߬ ߛߙߋߓߍ $1 ߟߊߝߏ߬ߦߌ߫߸ ߞߎ߬ߘߎ «\"{{int:gadgets-export-download}}\"» ߛߐ߲߬ߞߌ߲߫߸ ߞߊ߬ ߞߐߕߐ߯ ߟߊߖߌ߰ߒ߬ߞߎ߲߬ߣߍ߲ ߠߎ߬ ߟߊߡߊ߲߬ߘߌ߫߸ \nߥߊ߫ ߛߋ߫ Special:Import ߞߊ߲߬ ߕߊ߯ߦߙߐ߫ ߥߞߌ ߞߊ߲߬ ߞߵߊ߬ ߟߊߦߍ߬ߟߍ߫ ߦߋ߲߬. ߒ߬ߓߊ߬ ߌ ߦߋ߫ ߛߓߍߟߌ ߣߊ߬ߕߐ ߝߙߊ߬ MediaWiki:Gadgets définition ߞߐߜߍ: <pre>$2</pre> ߟߊ߫. \nߒ߬ߓߊ߬ ߛߙߋߓߍ߫ ߓߍ߲߬ߡߊ߬ߕߊ ߦߋ߫ ߞߴߌ ߓߟߏ߫ ߕߊ߯ߦߙߐ߫ ߥߞߌ ߞߊ߲߬ (ߞߊߕߘߍ߬ߕߍ߫ ߞߊ߲ߞߋ ߗߋߛߓߍ ߟߎ߬ ߡߊߦߟߍ߬ߡߊ߲߬ߠߌ߲ ߤߊߞߍ ߞߍߟߌ ߡߴߌ ߓߟߏ߫) ߊ߬ ߣߌ߫ ߞߐߕߐ߯ ߟߊߦߟߍ߬ߣߍ߲ ߠߎ߬ ߟߊߛߣߍߟߌ ߟߊߘߤߊ߬ߣߍ߲߫ ߦߋ߫ ߞߍ߫.",
+	"gadgets-export-download": "ߟߊ߬ߖߌ߰ߒ߬ߞߎ߲߬ߠߌ߲",
+	"gadgets-validate-notset": "<code>$1</code> ߕߦߊ ߘߊ߲߬ߠߊߕߍ߰ߣߍ߲߫ ߕߍ߫.",
+	"gadgets-validate-wrongtype": "ߕߦߊ <code>$1</code> ߦߋ߫ ߞߍ߫ <code>$2</code> ߛߎ߯ߦߊ ߘߌ߫ ߦߊ߬ߣߴߊ߬ ߦߋ߫ ߞߍ߫ <code>$3</code> ߘߌ߫.",
+	"gadgets-supports-urlload": "ߛߙߋߓߍ ߣߌ߲߬ ߡߊ߬ߞߏ ߦߴߊ߬ ߟߊߦߍ߬ߟߍ ߟߊ߫ URL ߛߌߟߊ ߟߋ߬ ߡߍ߲ ߡߊߢߌ߬ߣߌ߲߬ߞߊ߬ߟߌ ߟߊ߬ߓߍ߲߬ߢߐ߲߰ߡߦߊ߬ߘߊ ߦߋ߫ <code>؟withgadget</code> ߘߌ߫."
+}

@@ -1,0 +1,41 @@
+{
+	"@metadata": {
+		"authors": [
+			"Danny B.",
+			"Dvorapa",
+			"Ilimanaq29",
+			"Li-sung",
+			"Matěj Grabovský",
+			"Matěj Suchánek",
+			"Mormegil"
+		]
+	},
+	"captcha-edit": "Abyste mohli editovat tuto stránku, musíte vyřešit následující úkol níže a napsat výsledek do políčka ([[Special:Captcha/help|Co tohle znamená?]]):",
+	"captcha-edit-fail": "Chybějící či neplatný potvrzovací kód.",
+	"captcha-desc": "Poskytuje techniky CAPTCHA pro ochranu před spamem a hádáním hesel",
+	"captcha-help": "Řešení CAPTCHA.",
+	"captcha-info-help": "Popis CAPTCHA.",
+	"captcha-id-label": "ID CAPTCHA",
+	"captcha-id-help": "Tato hodnota by měla být beze změny poslána zpět.",
+	"captcha-addurl": "Vaše editace obsahuje nové externí odkazy.\nV zájmu ochrany této wiki před automatickým spamováním vás prosíme o vyřešení následujícího úkolu a napsání výsledku, abychom mohli vaši editaci uložit. ([[Special:Captcha/help|Co tohle znamená?]])",
+	"captcha-badlogin": "V zájmu ochrany této wiki proti automatickým pokusům uhodnout heslo vás prosíme o vyřešení následujícího úkolu a napsání výsledku. ([[Special:Captcha/help|Co tohle znamená?]])",
+	"captcha-createaccount": "V zájmu ochrany této wiki před automatickým vytvářením účtů vás prosíme o vyřešení následujícího úkolu a napsání výsledku. ([[Special:Captcha/help|Co tohle znamená?]])",
+	"captcha-createaccount-fail": "Chybějící či neplatný potvrzovací kód.",
+	"captcha-create": "Abyste mohli založit stránku, musíte vyřešit následující úkol níže a napsat výsledek do políčka ([[Special:Captcha/help|Co tohle znamená?]]):",
+	"captcha-sendemail": "V zájmu ochrany této wiki před automatickým spamováním vás prosíme o vyřešení následujícího úkolu a napsání výsledku. ([[Special:Captcha/help|Co tohle znamená?]])",
+	"captcha-sendemail-fail": "Chybějící či neplatný potvrzovací kód.",
+	"captcha-disabledinapi": "Tato operace vyžaduje splnění CAPTCHA, takže ji nelze provést prostřednictvím API.",
+	"captcha-error": "Ověření CAPTCHA se nezdařilo kvůli vnitřní chybě: $1",
+	"captchahelp-title": "Nápověda ke captcha",
+	"captchahelp-cookies-needed": "Aby to fungovalo, musíte mít ve svém prohlížeči zapnuty cookies.",
+	"captchahelp-text": "Webové stránky, do kterých mohou přispívat jejich návštěvníci (jako například tato wiki), jsou často terčem spammerů, kteří pomocí automatických nástrojů vkládají své odkazy na velké množství stránek. Přestože lze tento spam odstranit, představuje nepříjemné obtěžování.\n\nNěkdy, zvláště při přidávání nových webových odkazů, vám může wiki ukázat obrázek barevného či pokrouceného textu a požádat vás o opsání zobrazených znaků. Jelikož takovou úlohu lze jen těžko automatizovat, skuteční lidé mohou dále přispívat, zatímco většinu spammerů a jiných robotických útočníků to zastaví.\n\nBohužel to však může představovat nepříjemný problém pro uživatele se zrakovým postižením či uživatele používající textové prohlížeče či hlasové čtečky. V současné době nemáme alternativní zvukovou verzi. Kontaktujte prosím [[Special:ListAdmins|správce serveru]], pokud vám to brání v užitečných příspěvcích a potřebujete pomoc.\n\nPro návrat na předchozí stránku stiskněte ve svém prohlížeči tlačítko „zpět“.",
+	"captcha-addurl-whitelist": " #<!-- Nechte tento řádek přesně tak jak je --> <pre>\n# Syntaxe je následující:\n#  * Všechno od znaku „#“ do konce řádku je komentář\n#  * Každý neprázdný řádek je fragment regulárního výrazu, který se aplikuje pouze na název stroje v URL\n #</pre> <!-- Nechte tento řádek přesně tak jak je -->",
+	"right-skipcaptcha": "Vykonávání akcí spojených s CAPTCHA bez nutnosti jejího řešení",
+	"action-skipcaptcha": "vykonávat akce spojené s CAPTCHA bez nutnosti jejího řešení",
+	"confirmedit-preview-line": "Číslo řádku",
+	"confirmedit-preview-content": "Obsah",
+	"confirmedit-preview-validity": "Platnost",
+	"confirmedit-preview-valid": "platný",
+	"confirmedit-preview-invalid": "neplatný",
+	"confirmedit-preview-description": "Následující tabulka zobrazuje seznam řádků na této stránce a zda se jedná o platné IP adresy či rozsahy adres. Pokud je řádka platná IP adresa nebo rozsah, bude osvobozena od CAPTCHA, ale neplatné řádky budou ignorovány. Příkladem platného rozsahu IP adres by bylo 69.208.0.0/16, což pokrývá adresy od 69.208.0.0 do 69.208.255.255. [https://www.mediawiki.org/wiki/Special:MyLanguage/Help:Range_blocks#Calculating_the_CIDR_suffix Více informací] k počítání rozsahů IP adres."
+}

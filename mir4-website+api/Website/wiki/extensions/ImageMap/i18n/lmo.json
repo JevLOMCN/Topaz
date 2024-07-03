@@ -1,0 +1,19 @@
+{
+	"@metadata": {
+		"authors": [
+			"Salvemm el lombard"
+		]
+	},
+	"imagemap_desc": "El permet de realizzà di ''image map'' cliccabil in de la part de client cont el drovà l'eticheta <code>&lt;imagemap&gt;</code>",
+	"imagemap_no_image": "Erorː a gh'è besogn de specificà una imagin in la prima riga.",
+	"imagemap_invalid_image": "Erorː l'imagin l'è minga valida o minga esistenta.",
+	"imagemap_bad_image": "Erorː l'imagin l'è minga permetuda in questa pagina chì.",
+	"imagemap_no_link": "Eror: a l'è stad trovad nissun conligament valid a la fenitiva de la riga $1",
+	"imagemap_invalid_title": "Eror: titol del conligament minga valid in la riga $1",
+	"imagemap_missing_coord": "Eror: a gh'è n'è minga assee de coordinad per la forma specificada a la riga $1",
+	"imagemap_unrecognised_shape": "Eror: forma specificada minga reconossuda a la riga $1, ogni riga la gh'hà de comenzà con vun de sti valor chì: <code>default</code>, <code>rect</code>, <code>circle</code> o <code>poly</code>",
+	"imagemap_invalid_coord": "Eror: coordinada minga valida a la riga $1, la gh'hà de vesser un numer",
+	"imagemap_invalid_desc": "Eror: valor minga valid per el parameter desc, el gh'hà de vesser vun de 'sti chì: $1",
+	"imagemap_description": "Informazzion sora l'imagin",
+	"imagemap_poly_odd": "Erorː trovad poligon cont un numer disper de coordinade a la riga $1"
+}

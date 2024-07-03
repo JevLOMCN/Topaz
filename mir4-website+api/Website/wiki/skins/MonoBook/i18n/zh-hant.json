@@ -1,0 +1,24 @@
+{
+	"@metadata": {
+		"authors": [
+			"Cwlin0416",
+			"Kly",
+			"Winston Sung"
+		]
+	},
+	"skinname-monobook": "MonoBook",
+	"monobook-desc": "自 2004 年以來的經典 MediaWiki 外觀，以頁面背景中的一張黑白書籍照片為名",
+	"monobook.css": "/* 此 CSS 會影響使用 Monobook 介面外觀的使用者 */",
+	"monobook.js": "/* 此 JavaScript 會用於使用 Monobook 介面外觀的使用者 */",
+	"monobook-jumptotop": "返回頂端",
+	"monobook-jumptopersonal": "使用者工具",
+	"monobook-jumptonavigation": "跳至導覽",
+	"monobook-jumptosearch": "跳至搜尋",
+	"monobook-more-actions": "更多",
+	"cactions-mobile": "頁面操作",
+	"monobook-cactions-label": "頁面操作",
+	"monobook-notifications-link": "通知（$1）",
+	"monobook-notifications-link-none": "通知",
+	"monobook-view-history": "歷史",
+	"monobook-action-undelete": "取消刪除 {{PLURAL:$1|1|$1}} 個編輯"
+}

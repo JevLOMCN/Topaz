@@ -1,0 +1,20 @@
+{
+	"@metadata": {
+		"authors": [
+			"Chrisportelli"
+		]
+	},
+	"gadgets-desc": "Tħalli lill-utenti jagħżlu [[Special:Gadgets|aċċessorji CSS u JavaScript]] fil-[[Special:Preferences#mw-prefsection-gadgets|preferenzi]] tagħhom",
+	"prefs-gadgets": "Aċċessorji",
+	"gadgets-prefstext": "Hawn taħt hawn lista ta' aġġeġġi speċjali li inti tista' tippermetti għall-kont tiegħek.\nDawn l-aġġeġġi huma l-aktar ibbażati fuq JavaScript, u għalhekk il-JavaScript trid tkun awtorizzata fil-browżer tiegħek sabiex ikunu jistgħu jaħdmu.\nKun af li dawn l-aġġeġġi mhu se jħallu ebda effett fuq din il-paġna tal-preferenzi.\n\nGħandek tkun taf ukoll li dawn l-aġġeġġi spe1jali mhumiex parti mis-softwer tal-MediaWiki, u huma ħafna drabi żviluppati u mantenuti minn utenti fuq il-wiki lokali tiegħek.\nL-amministraturi lokali jistgħu jimmodifikaw id-[[MediaWiki:Gadgets-definition|definizzjonijiet]] u d-[[Special:Gadgets|deskrizzjonijiet]] tal-aġġeġġi disponibbli.",
+	"special-gadgets": "Aċċessorji",
+	"gadgets-title": "Aċċessorji",
+	"gadgets-pagetext": "Hawn taħt hawn lista ta' aġġeġġi speċjali li l-utenti jistgħu jippermettu fil-[[Special:Preferences#mw-prefsection-gadgets|paġna tal-preferenzi]], kif definit fid-[[MediaWiki:Gadgets-definition|definizzjonijiet]].\nDin il-ħarsa tipprovdi aċċess faċli għall-messaġġi tas-sistema li fihom hemm deskrizzjoni u s-sors ta' kull aġġeġġ.",
+	"gadgets-uses": "Juża",
+	"gadgets-required-rights": "Għandu bżonn id-{{PLURAL:$2|dritt|drittijiet}} segwenti:\n\n$1",
+	"gadgets-required-skins": "Disponibbli fuq {{PLURAL:$2|l-iskema $1|l-iskemi segwenti: $1}}.",
+	"gadgets-export": "Esporta",
+	"gadgets-export-title": "Esporta aċċessorju",
+	"gadgets-not-found": "L-aċċessorju \"$1\" ma nstabx.",
+	"gadgets-export-download": "Niżżel"
+}

@@ -1,0 +1,54 @@
+/*!
+ * Styling for Special:Contributions
+ */
+@import 'mediawiki.skin.variables.less';
+
+.mw-special-Contributions {
+	.oo-ui-fieldsetLayout-group {
+		max-width: 50em;
+
+		.oo-ui-panelLayout-padded.oo-ui-panelLayout-framed {
+			border: 0;
+			padding: 0;
+		}
+
+		// Hide extra `legend`s when grouping form in sections.
+		.oo-ui-fieldsetLayout.oo-ui-labelElement > .oo-ui-fieldsetLayout-header {
+			display: none;
+		}
+	}
+
+	.mw-autocomplete-user.oo-ui-fieldLayout {
+		margin-top: @spacing-50;
+	}
+
+	// Higher specificity needed to override OOUIHTMLForm styles.
+	.mw-htmlform-field-HTMLMultiSelectField.mw-htmlform-flatlist.oo-ui-fieldLayout {
+		margin-top: @spacing-50;
+	}
+
+	.mw-htmlform-field-HTMLTagFilter ~ .mw-htmlform-field-HTMLCheckField.oo-ui-fieldLayout {
+		display: inline-block;
+		padding-right: @spacing-100;
+	}
+
+	// Clearfix for floated `.mw-htmlform-field-HTMLDateTimeField` below.
+	#mw-htmlform-contribs-date::after {
+		content: '';
+		clear: both;
+		display: block;
+	}
+
+	.oo-ui-fieldLayout.oo-ui-labelElement.mw-htmlform-field-HTMLDateTimeField {
+		margin: 0;
+		margin-right: @spacing-100;
+	}
+
+	@media all and ( min-width: @width-breakpoint-tablet ) {
+		.mw-htmlform-field-HTMLDateTimeField {
+			float: left;
+			// Same `width` as DateInputWidget.
+			width: 21em;
+		}
+	}
+}

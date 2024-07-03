@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Gomoko",
+			"Wladek92"
+		]
+	},
+	"apihelp-query+mathwbextracts-example-1": "Nécessite un résumé des éléments mathématiques Wikibase.",
+	"apihelp-query+mathwbextracts-summary": "Renvoie un résumé de l’élément mathématique Wikibase en HTML.",
+	"apihelp-query+mathwbextracts-param-qid": "QID de l’élément Wikibase qui sera interrogé.",
+	"apihelp-query+mathwbextracts-param-uselang": "La langue qui doit être demandée pour l’élément Wikibase. L’anglais est la valeur par défaut."
+}

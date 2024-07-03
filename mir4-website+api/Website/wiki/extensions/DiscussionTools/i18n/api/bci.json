@@ -1,0 +1,17 @@
+{
+	"@metadata": {
+		"authors": [
+			"Kjeanclaude"
+		]
+	},
+	"apierror-discussiontools-commentid-notfound": "Ba wounman yalè kokolè nga bé fa '$1' ID yéli.",
+	"apierror-discussiontools-commentname-ambiguous": "Be wounni yalè kokolè pkangban ôni '$1' douman, ô fata kè bé gnan <var>commentid</var>.",
+	"apierror-discussiontools-commentname-notfound": "Ba wounman yalè kokolè nga i douman yô lé '$1'.",
+	"apierror-discussiontools-formtoken-used": "Ba doumoua fa yalè kokolè nga fa wôli. Nian tin floua boué nga sou ékoun klouaa ka nan a woun i.",
+	"apierror-discussiontools-subscription-failed-add": "Bé kloua klèman bé douman ndè nga sou.",
+	"apierror-discussiontools-subscription-failed-remove": "Bé kloua nounnounman bé douman ndè nga sou.",
+	"apihelp-discussiontoolscompare-summary": "Gnan yalè kokolè i sou liké nga bé katchili bé floua boué version ngnon bé afiein, bé sou ndè.",
+	"apihelp-discussiontoolsedit-param-commentid": "Yalè kokolè nga ô fata kè bé tè sou, i ID. San kè <var>paction</var> ô ti <var>addcomment</var> i gounmin, yè bé fa i ô. Ô ti tchindji tra <var>commentname</var>.",
+	"apihelp-discussiontoolsedit-param-commentname": "Yalè kokolè nga ô fata kè bé tè sou, i douman. San kè <var>paction</var> ô ti <var>addcomment</var> i gounmin, yè bé fa i ô.",
+	"apihelp-discussiontoolsedit-param-formtoken": "Kounglo ID koun mô bé yili fa goua sou conti léfouè i sa sou lô, kô ko yé nan ba faman floua boué noun ndè ba wôman kpê ngnon'n."
+}

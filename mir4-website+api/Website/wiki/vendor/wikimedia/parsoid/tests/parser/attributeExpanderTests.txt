@@ -1,0 +1,22 @@
+!! Version 2
+
+!! article
+Template:1x
+!! text
+{{{1}}}
+!! endarticle
+
+# Bug: T322557
+!! test
+Multiple transclusions in discarded table attribute position should be handled properly
+!! options
+parsoid=wt2html
+!! wikitext
+{| <span>{{1x|a}}</span> {{1x|1=k=
+v}}
+|}
+!! html/parsoid
+<p about="#mwt2" typeof="mw:Transclusion" data-parsoid='{"pi":[[{"k":"1","named":true}]],"firstWikitextNode":"TABLE"}' data-mw='{"parts":["{| &lt;span>{{1x|a}}&lt;/span> ",{"template":{"target":{"wt":"1x","href":"./Template:1x"},"params":{"1":{"wt":"k=\nv"}},"i":0}},"\n|}"]}'>
+v</p><table about="#mwt2" typeof="mw:ExpandedAttrs" data-mw='{"attribs":[[{"txt":"a","html":"&lt;span data-parsoid=&apos;{\"stx\":\"html\",\"dsr\":[3,24,6,7]}&apos;>&lt;span about=\"#mwt1\" typeof=\"mw:Transclusion\" data-parsoid=&apos;{\"pi\":[[{\"k\":\"1\"}]],\"dsr\":[9,17,null,null]}&apos; data-mw=&apos;{\"parts\":[{\"template\":{\"target\":{\"wt\":\"1x\",\"href\":\"./Template:1x\"},\"params\":{\"1\":{\"wt\":\"a\"}},\"i\":0}}]}&apos;>a&lt;/span>&lt;/span> k=","uneditable":true},{"html":""}]]}'>
+</table>
+!! end

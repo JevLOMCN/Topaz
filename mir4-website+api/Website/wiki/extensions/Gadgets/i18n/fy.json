@@ -1,0 +1,36 @@
+{
+	"@metadata": {
+		"authors": [
+			"PiefPafPier"
+		]
+	},
+	"gadgets-desc": "Lit meidoggers spesjalisearre [[Special:Gadgets|CSS- en JavaScript-lytsark]] selektearje yn harren [[Special:Preferences#mw-prefsection-gadgets|foarkarren]]",
+	"prefs-gadgets": "Lytsark",
+	"prefs-description-gadgets": "Skeakelje oanfoljende funksjes yn foar jo akkount.",
+	"gadgets-prefstext": "It ûndersteande is in list fan spesjalisearre lytsark dat jo ynskeakelje kinne foar jo akkount.\nDit lytsark is meastal basearre op JavaScript, dat JavaScript moat oanstean yn jo webblêder om it wurkje te litten.\nTink derom dat it lytsark gjin effekt hawwe sil op dizze foarkarreside.\n\nTink der ek om dat dit spesjalisearre lytsark gjin part fan 'e MediaWiki-programmatuer is, en ornaris ûntwikkele en ûnderholden wurdt troch meidoggers op jo lokale wiki.\nDêr wêr't jo de boarnekoade fan al it lytsark sjen kinne, kinne lokale omjouwingsbehearders de [[MediaWiki:Gadgets-definition|definysjes]] fan it beskikber lytsark bewurkje, en lokale behearders harren [[Special:Gadgets|beskriuwings]]. It tal brûkers fan alle lytsark op dizze wiki stiet yn in list op [[Special:GadgetUsage|Brûkmestatistiken Lytsark]].",
+	"special-gadgets": "Lytsark",
+	"gadgetusage": "Brûkmestatistiken Lytsark",
+	"gadgetusage-gadget": "Lytsark",
+	"gadgetusage-usercount": "Meidoggertal",
+	"gadgetusage-noresults": "Gjin lytsark fûn.",
+	"gadgetusage-activeusers": "Warbere meidoggers",
+	"gadgetusage-default": "Standert",
+	"gadgets-title": "Lytsark",
+	"gadgets-editdescription": "Beskriuwing bewurkje",
+	"gadgets-viewdescription": "Beskriuwing besjen",
+	"gadgets-uses": "Brûkt",
+	"gadgets-required-rights": "Freget {{PLURAL:$2|it neikommende rjocht|de neikommende rjochten}}:\n\n$1",
+	"gadgets-required-skins": "Beskikber by de {{PLURAL:$2|foarmjouwing $1|neikommende foarmjouwings: $1}}.",
+	"gadgets-required-actions": "Wurket by de {{PLURAL:$2|side-aksje \"$1\"|neikommende side-aksjes: $1}}.",
+	"gadgets-default": "Standert foar eltsenien ynskeakele.",
+	"gadgets-legacy": "It lytsark is net laden. Gean oer op ResourceLoader. ([https://www.mediawiki.org/wiki/Special:MyLanguage/ResourceLoader/Migration_guide_(users) Mear witte])",
+	"gadgets-packaged": "Dit lytsark is [https://www.mediawiki.org/wiki/ResourceLoader/Package_files ferpakt], mei as yngong $1",
+	"gadgets-export": "Eksportearje",
+	"gadgets-export-title": "Lytsark eksportearje",
+	"gadgets-not-found": "Lytsark \"$1\" net fûn.",
+	"gadgets-export-download": "Ophelje",
+	"gadgets-requires-es6": "Dit lytsark wurket inkeld mei webblêders dy't ES6 stypje.",
+	"gadgets-validate-notset": "De eigenskip <code>$1</code> is net ynsteld.",
+	"gadgets-validate-wrongtype": "De eigenskip <code>$1</code> moat fan it type <code>$2</code> wêze ynstee fan <code>$3</code>.",
+	"gadgets-supports-urlload": "Dit lytsark stipet it laden fia URL mei de oanfraachparameter <code>?withgadget</code>."
+}

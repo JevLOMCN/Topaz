@@ -1,0 +1,104 @@
+{
+	"$schema": "http://json-schema.org/schema#",
+	"description": "Gadget definition schema",
+	"type": "object",
+	"additionalProperties": false,
+	"properties": {
+		"settings": {
+			"type": "object",
+			"additionalProperties": false,
+			"properties": {
+				"rights": {
+					"description": "The rights required to be able to enable/load this gadget",
+					"type": "array",
+					"items": {
+						"type": "string"
+					}
+				},
+				"default": {
+					"description": "Whether this gadget is enabled by default",
+					"type": "boolean",
+					"default": false
+				},
+				"package": {
+					"description": "Whether this is gadget a packaged ResourceLoader module",
+					"type": "boolean",
+					"default": false
+				},
+				"hidden": {
+					"description": "Whether this gadget is hidden from preferences",
+					"type": "boolean",
+					"default": false
+				},
+				"skins": {
+					"description": "Skins supported by this gadget; empty if all skins are supported",
+					"type": "array",
+					"items": {
+						"type": "string"
+					}
+				},
+				"actions": {
+					"description": "Page actions on which to load the gadget",
+					"type": "array",
+					"items": {
+						"type": "string"
+					}
+				},
+				"namespaces": {
+					"description": "Page namespaces in which to load the gadget",
+					"type": "array",
+					"items": {
+						"type": "number"
+					}
+				},
+				"categories": {
+					"description": "Categories in which to load the gadget",
+					"type": "array",
+					"items": {
+						"type": "string"
+					}
+				},
+				"contentModels": {
+					"description": "Content models on which the gadget is supported",
+					"type": "array",
+					"items": {
+						"type": "string"
+					}
+				},
+				"category": {
+					"description": "Key of the category this gadget belongs to",
+					"type": "string",
+					"default": ""
+				},
+				"supportsUrlLoad": {
+					"description": "Whether this gadget supports ?withgadget query parameter",
+					"type": "boolean",
+					"default": false
+				},
+				"requiresES6": {
+					"description": "Whether this gadget requires ES6",
+					"type": "boolean",
+					"default": false
+				}
+			}
+		},
+		"module": {
+			"type": "object",
+			"additionalProperties": false,
+			"properties": {
+				"pages": {
+					"type": "array",
+					"description": "List of JS/CSS/JSON pages included in this gadget"
+				},
+				"dependencies": {
+					"type": "array",
+					"description": "ResourceLoader modules this gadget depends upon"
+				},
+				"messages": {
+					"type": "array",
+					"description": "Messages this gadget depends upon"
+				}
+			}
+		}
+	}
+}

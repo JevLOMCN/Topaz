@@ -1,0 +1,26 @@
+{
+	"@metadata": {
+		"authors": [
+			"Derbeth",
+			"Michawiki",
+			"Vlad5250"
+		]
+	},
+	"thanks-desc": "Pśidawa źěkowe wótkaze historiji a wersijowym rozdźělam",
+	"thanks-thank": "{{GENDER:$1|{{GENDER:$2|źěkowaś se}}}}",
+	"thanks-thanked": "{{GENDER:$1|jo se źěkował|jo se źěkowała}}",
+	"thanks-button-thank": "{{GENDER:$1|Źěkowaś se}}",
+	"thanks-button-thanked": "{{GENDER:$1|Jo se źěkował|Jo se źěkowała}}",
+	"thanks-error-undefined": "Źěkowanje njejo se raźiło. Pšosym wopytaj hyšći raz.",
+	"thanks-error-invalidrevision": "Wersijowy ID njejo płaśiwy.",
+	"thanks-error-ratelimited": "{{GENDER:$1|Ty}} sy swój akciski limit {{GENDER:$1|pśekšocył|pśekšocyła}}. Pšosym cakaj chylku a wopytaj hyšći raz.",
+	"thanks-thank-tooltip": "Źěkowu powěźeńku toś {{GENDER:$2|wužywarjeju|wužywarce}} {{GENDER:$1|pósłaś}}",
+	"thanks-thanked-notice": "$1 jo se {{GENDER:$1|informěrował|informěrowała}}, až {{GENDER:$2|jogo|jeje}} změna jo śi spódobała.",
+	"thanks": "Źěk pósłaś",
+	"echo-pref-subscription-edit-thank": "Źěkujo se mě za móju změnu.",
+	"echo-pref-tooltip-edit-thank": "Informěruj mě, gaž něchten źěkujo se mě za změnu, kótaruž som cynił.",
+	"echo-category-title-edit-thank": "Wjeliki źěk",
+	"log-name-thanks": "Źěkowy protokol",
+	"log-description-thanks": "Dołojce jo lisćina wužywarjow, kótarymž druge wužywarje su se źěkowali.",
+	"logentry-thanks-thank": "$1 jo {{GENDER:$4|$3}} {{GENDER:$2|źěkował|źěkowała}}"
+}

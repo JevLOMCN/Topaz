@@ -1,0 +1,21 @@
+{
+	"@metadata": {
+		"authors": [
+			"Brian Wolff",
+			"MusikAnimal",
+			"Niharika"
+		]
+	},
+	"loginnotify-desc": "Notify users about suspicious logins from unfamiliar devices and/or IP addresses",
+	"echo-category-title-login-fail": "Failed login attempts",
+	"echo-pref-tooltip-login-fail": "Notify me when there have been failed attempts to log in to my account.",
+	"echo-category-title-login-success": "Login from an unfamiliar device",
+	"echo-pref-tooltip-login-success": "Notify me whenever somebody logs into my account from an unfamiliar device and IP address.",
+	"loginnotify-primary-link": "Help",
+	"notification-loginnotify-login-fail-email-subject": "{{PLURAL:$2|Failed attempt|Multiple failed attempts}} to log in to {{SITENAME}} as $1",
+	"notification-loginnotify-login-success-email-subject": "Login to {{SITENAME}} as $1 from a device {{GENDER:$1|you}} have not recently used",
+	"notification-header-login-success": "Someone (probably {{GENDER:$1|you}}) recently logged in to your account from a new device. If this was you, then you can disregard this message. If it wasn't you, then it's recommended that you change your password, and check your account activity.",
+	"notification-new-bundled-header-login-fail": "There {{PLURAL:$1|has been '''a failed attempt'''|have been '''$1 failed attempts'''}} to log in to your account from a new device since the last time you logged in. If it wasn't you, please make sure your account has a strong password.",
+	"notification-known-header-login-fail": "There {{PLURAL:$1|has been '''a failed attempt'''|have been '''$1 failed attempts'''}} to log in to your account since the last time you logged in. If it wasn't you, please make sure your account has a strong password.",
+	"notification-new-unbundled-header-login-fail": "There {{PLURAL:$1|has been '''a failed attempt'''|have been '''multiple failed attempts'''}} to log in to your account from a new device. Please make sure your account has a strong password."
+}

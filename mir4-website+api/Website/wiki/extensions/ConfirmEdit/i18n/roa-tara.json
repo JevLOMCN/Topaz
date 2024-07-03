@@ -1,0 +1,36 @@
+{
+	"@metadata": {
+		"authors": [
+			"Joetaras",
+			"Reder"
+		]
+	},
+	"captcha-edit": "Pe cangià sta pàgene, pe piacere fa sta combite facile facile aqquà sotte e mitte 'a resposte jndr'à sckatele ([[Special:Captcha/help|maggiore 'mbormaziune]]):",
+	"captcha-edit-fail": "Codece de conferme CAPTCHA non corrette o mangande.",
+	"captcha-desc": "Dèje le tecniche d'u CAPTCHA pe proteggere condre a 'u spam e 'u futtimende d'a passuord",
+	"captcha-help": "Soluzione d'u CAPTCHA.",
+	"captcha-info-help": "Descrizione d'u CAPTCHA.",
+	"captcha-id-label": "ID CAPTCHA",
+	"captcha-id-help": "Stu valore adda essere date senze ca cange.",
+	"captcha-addurl": "'U cangiamende tune 'nglude de le collegaminde de fore.\nPe aiutà a proteggere condre a 'u spam automateche, pe piacere respunne a 'a domande ca combare sotte jndr'à sckatole ([[Special:Captcha/help|cchiù 'mbormaziune]]):",
+	"captcha-badlogin": "Pe proteggere sta uicchi da le futteminde de passuord automateche, nuje te cercame gendilmende de fa stu combite facile facile aqquà sotte e mitte 'a resposte jndr'à sckatele ([[Special:Captcha/help|maggiore 'mbormaziune]]):",
+	"captcha-createaccount": "Pe proteggere sta uicchi da 'a ccrejazione automateche de le cunde, nuje te cercame gendilmende de fa stu combite facile facile aqquà sotte e mitte 'a resposte jndr'à sckatele ([[Special:Captcha/help|maggiore 'mbormaziune]]):",
+	"captcha-createaccount-fail": "Codece de conferme CAPTCHA non corrette o mangande.",
+	"captcha-create": "Pe ccrejà sta pàgene, pe piacere fa stu combite facile facile aqquà sotte e mitte 'a resposte jndr'à sckatele ([[Special:Captcha/help|maggiore 'mbormaziune]]):",
+	"captcha-sendemail": "Pe proteggere sta uicchi da 'a munnezze automateche, nuje te cercame gendilmende de fa stu combite facile facile aqquà sotte e mitte 'a resposte jndr'à sckatele ([[Special:Captcha/help|maggiore 'mbormaziune]]):",
+	"captcha-sendemail-fail": "Codece de conferme CAPTCHA non corrette o mangande.",
+	"captcha-disabledinapi": "St'azione ave abbesogne de 'nu captcha, accussì non g'è possibbele eseguirle cu le API.",
+	"captcha-error": "Verifiche CAPTCHA fallite pe colpe de 'n'errore 'nderne: $1",
+	"captchahelp-title": "Aijute pu captcha",
+	"captchahelp-cookies-needed": "Tu è abbesogne de avè le cookie abbilitate jndr'à 'u browser tune pe sta fatìe.",
+	"captchahelp-text": "Le site web ca accettane messàgge da 'u pubbleche, le piace sta uicchi, assaije vote purcé abbusane de spam a ce ause struminde automatece pe mannà le lore collegaminde a 'nu sacche de site.\nMendre ca ste collegaminde de spam se ponne luà, lore comungue sò 'nu sckassamende de palle.\n\nCerte vote, specialmende quanne aggiunge collegaminde nuève sus a a'na pàgene, 'a uicchi te pò fà vedè 'n'immaggine de teste colorate o sciummate e te cerche de scrivere le parole ca vedite.\nQuiste jè 'nu combite difficile da automatizzà, ce sò le umane a scettà merde invece de le attacche robbot riuscime a bloccà cchiù facilmende.\n\nSfortunatamende stu fatte pò da inconveniende a le utinde cu visiune limitate o ca ausane le browser de sole teste o ca parlane. Jndr'à stu mumende non ge tenime 'n'alternative audie.\nPe piacere condatte le [[Special:ListAdmins|amministrature d'u site]] pe assistenze ce quiste jè condre a le leggittime aziune tune.\n\nCazze 'u buttonne \"rrete\" (back) sus a 'u browser tune pe turnà a 'u cangiamende d'a pàgene.",
+	"captcha-addurl-whitelist": " #<!-- leave this line exactly as it is --> <pre>\n# 'A sindasse jè a cumme segue:\n#   * Ogneccose da 'nu carattere \"#\" 'mbonde a fine d'a linèe jè 'nu commende\n#   * Ogne linèe chiene jè 'nu frammende de regex 'u quale addà sulamende combrondarse cu le host jndr'à l'URL\n #</pre> <!-- leave this line exactly as it is -->",
+	"right-skipcaptcha": "Comblete le aziune CAPTCHA senze ca a scè ausanne 'u CAPTCHA",
+	"action-skipcaptcha": "fà le aziune de attivazione d'u CAPTCHA senze ca a scè sus a 'u CAPTCHA",
+	"confirmedit-preview-line": "Numere d'a linée",
+	"confirmedit-preview-content": "Condenute",
+	"confirmedit-preview-validity": "Validità",
+	"confirmedit-preview-valid": "valide",
+	"confirmedit-preview-invalid": "invalide",
+	"confirmedit-preview-description": "'A tabbelle ca avéne face 'ndrucà l'elenghe de le linée sus a sta pàgene e ce jè 'n'indirizze IP o 'n'indervalle de indirizze IP. Ce 'a linée jè 'n'indirizze IP valide o 'n'indervalle de indirizze IP, avène escluse da 'u condrolle d'u CAPTCHA, ma le linée ca no sò valide avènene cacate. 'N'esembie de indervalle de indirizze IP valide pò essere: 69.208.0.0/16 ca vèje da 69.208.0.0 'nzigne a  69.208.255.255. [https://www.mediawiki.org/wiki/Special:MyLanguage/Help:Range_blocks#Calculating_the_CIDR_suffix Cchiù 'mbormaziune] sus a 'u calcole de 'n'indervalle de indirizze IP."
+}

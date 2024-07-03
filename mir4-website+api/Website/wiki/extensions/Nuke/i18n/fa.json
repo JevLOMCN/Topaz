@@ -1,0 +1,42 @@
+{
+	"@metadata": {
+		"authors": [
+			"Alirezaaa",
+			"Armin1392",
+			"Beginneruser",
+			"Ebraminio",
+			"Huji",
+			"Jeeputer",
+			"Ladsgroup",
+			"Mjbmr",
+			"Reza1615",
+			"ZxxZxxZ"
+		]
+	},
+	"nuke": "حذف دسته‌جمعی",
+	"action-nuke": "حذف دسته‌جمعی صفحه‌ها",
+	"nuke-desc": "به مدیران امکان [[Special:Nuke|حذف دسته‌جمعی]] صفحه‌ها را می‌دهد",
+	"nuke-nopages": "صفحهٔ جدیدی از [[Special:Contributions/$1|{{GENDER:$1|$1}}]] در تغییرات اخیر وجود ندارد.",
+	"nuke-list": "صفحه‌های زیر به تازگی توسط [[Special:Contributions/$1|{{GENDER:$1|$1}}]] ایجاد شده‌اند؛\nتوضیحی ارائه کنید و دکمه را بزنید تا این صفحه‌ها حذف شوند.",
+	"nuke-list-multiple": "صفحه‌های مقابل اخیراً ایجاد شده‌اند؛\nیک توضیح قرار دهید و برای حذف کلید را فشار دهید.",
+	"nuke-defaultreason": "حذف دسته‌جمعی صفحه‌هایی که توسط [[Special:Contributions/$1|{{GENDER:$1|$1}}]] ایجاد شده‌اند",
+	"nuke-multiplepeople": "حذف توده‌ای صفحه‌های به‌تازگی افزوده‌شده",
+	"nuke-tools": "این ابزار امکان حذف دسته‌جمعی صفحه‌هایی که به تازگی توسط یک کاربر یا نشانی آی‌پی اضافه شده‌اند را فراهم می‌کند.\nنام کاربری یا نشانی آی‌پی موردنظر را وارد کنید، یا جعبه را خالی بگذارید تا تمام کاربرها در نظر گرفته شوند.",
+	"nuke-submit-user": "فهرست صفحه‌ها",
+	"nuke-submit-delete": "حذف موارد انتخاب شده",
+	"right-nuke": "حذف دسته‌جمعی صفحات",
+	"nuke-userorip": "نام کاربری، نشانی آی‌پی یا خالی:",
+	"nuke-maxpages": "حداکثر تعداد صفحه‌ها:",
+	"nuke-editby": "ایجاد شده توسط [[Special:Contributions/$1|{{GENDER:$1|$1}}]]",
+	"nuke-deleted": "صفحهٔ '''$1''' حذف شده است.",
+	"nuke-deletion-queued": "صفحهٔ «$1» در نوبت حذف قرار گرفت.",
+	"nuke-not-deleted": "صفحهٔ [[:$1]] را '''نمی‌توان''' حذف کرد.",
+	"nuke-delete-more": "[[Special:Nuke|حذف صفحه‌های بیشتر]]",
+	"nuke-pattern": "الگوی SQL LIKE (مثلاً %) برای نام صفحه:",
+	"nuke-nopages-global": "هیچ صفحهٔ جدیدی در جستجوی شما نیست.",
+	"nuke-viewchanges": "نمایش تغییرات",
+	"nuke-namespace": "محدودیت به فضای نام:",
+	"nuke-linkoncontribs": "حذف گروهی",
+	"nuke-linkoncontribs-text": "حذف دستهٔ صفحات جایی که {{GENDER:$1|این کاربر}} تنها نویسنده است",
+	"nuke-confirm": "شما در حال حذف کردن {{PLURAL:$1|یک صفحه|$1 صفحه}} هستید. آیا مطمئنید؟"
+}

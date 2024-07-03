@@ -1,0 +1,24 @@
+{
+	"@metadata": {
+		"authors": [
+			"Gomoko",
+			"Seb35",
+			"Thibaut120094",
+			"Urhixidur",
+			"Verdy p",
+			"Wladek92"
+		]
+	},
+	"loginnotify-desc": "Notifier les utilisateurs des connexions suspectes à partir d’appareils ou d’adresses IP inhabituels.",
+	"echo-category-title-login-fail": "Tentatives de connexion échouées",
+	"echo-pref-tooltip-login-fail": "Me notifier quand il y a eu des tentatives de connexion échouées sur mon compte.",
+	"echo-category-title-login-success": "Connexion depuis un appareil inhabituel",
+	"echo-pref-tooltip-login-success": "Me notifier quand quelqu’un se connecte sur mon compte depuis un appareil ou une adresse IP inhabituel.",
+	"loginnotify-primary-link": "Aide",
+	"notification-loginnotify-login-fail-email-subject": "{{PLURAL:$2|Tentative échouée|Plusieurs tentatives échouées}} de connexion à {{SITENAME}} en tant que $1",
+	"notification-loginnotify-login-success-email-subject": "Connexion à {{SITENAME}} en tant que $1 depuis un appareil que {{GENDER:$1|}}vous n’avez pas utilisé récemment",
+	"notification-header-login-success": "Quelqu’un (probablement {{GENDER:$1|}}vous) s’est connecté récemment avec votre compte depuis un nouvel appareil. Si c’était vous, alors vous pouvez ignorer ce message. Sinon, il est alors recommandé de modifier votre mot de passe, et de vérifier l’activité de votre compte.",
+	"notification-new-bundled-header-login-fail": "Il y a eu '''{{PLURAL:$1|une tentative échouée|$1 tentatives échouées}}''' de connexion sur votre compte depuis un nouvel appareil depuis votre dernière connexion. Si ce n’était pas vous, assurez-vous que votre compte a un mot de passe suffisamment sécurisé.",
+	"notification-known-header-login-fail": "Il y a eu '''{{PLURAL:$1|une tentative échouée|$1 tentatives échouées}}''' de connexion à votre compte depuis votre dernière connexion. Si ce n’était pas vous, assurez-vous que votre compte a un mot de passe suffisamment sécurisé.",
+	"notification-new-unbundled-header-login-fail": "Il y a eu '''{{PLURAL:$1|une tentative échouée|plusieurs tentatives échouées}}''' de connexion à votre compte depuis un nouvel appareil. Assurez-vous que votre compte a un mot de passe suffisamment robuste."
+}

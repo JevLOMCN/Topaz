@@ -1,0 +1,19 @@
+// from https://stackoverflow.com/a/12178019/323407
+.fade-out-vertical( @backgroundColor: white ) {
+	@invisible: fadeout( @backgroundColor, 100% );
+	background-image: linear-gradient( to bottom, @invisible 0%, @backgroundColor 100% ); // W3C
+}
+
+.fade-out-horizontal( @backgroundColor: white ) {
+	@invisible: fadeout( @backgroundColor, 100% );
+	background-image: linear-gradient( to right, @invisible 0%, @backgroundColor 100% ); // W3C
+}
+
+.rotate( @degrees: 45deg ) {
+	transform: rotate( @degrees );
+}
+
+.grayscale() {
+	-webkit-filter: grayscale( 100% );
+	filter: grayscale( 100% );
+}

@@ -1,0 +1,37 @@
+{
+	"@metadata": {
+		"authors": [
+			"Aram1985",
+			"Arman musikyan",
+			"Kareyac",
+			"Vacio",
+			"Xelgen",
+			"Աշոտ1997",
+			"Դավիթ Սարոյան"
+		]
+	},
+	"thanks-desc": "Ավելացնում է «Շնորհակալ եմ» հղումը էջի պատմության և խմբագրումների տարբերությունների մեջ",
+	"thanks-thank": "{{GENDER:$1|{{GENDER:$2|շնորհակալ եմ}}}}",
+	"thanks-thanked": "{{GENDER:$1|մասնակցին շնորհակալություն է հայտնված}}",
+	"thanks-button-thank": "{{GENDER:$1|Շնորհակալություն հայտնել}}",
+	"thanks-button-thanked": "{{GENDER:$1|մասնակցին շնորհակալություն  է հայտնված:}}",
+	"thanks-button-action-cancel": "Չեղարկել",
+	"thanks-error-undefined": "Չստացվեց շնորհակալություն հայտնել։ Փորձեք կրկին։",
+	"thanks-error-invalidrevision": "Խմբագրման համարանիշը վավեր չէ։",
+	"thanks-error-ratelimited": "{{GENDER:$1|Դուք}} շատ եք շնորհակալություն հայտնել։ Սպասեք որոշ ժամանակ և նորից փորձեք։",
+	"thanks-thank-tooltip": "{{GENDER:$1|Ուղարկեք}} շնորհակալական ուղերձ այս {{GENDER:$2|մասնակցին}}",
+	"thanks-confirmation2": "{{GENDER:$1|Շնորհակալություն հայտնե՞լ}} այս խմբագրման համար:",
+	"thanks-thanked-notice": "$1 մասնակիցը ծանուցում է ստացել, որ դուք հավանել եք {{GENDER:$2|իր}} խմբագրումը։",
+	"thanks": "Շնորհակալություն հայտնել:",
+	"echo-pref-subscription-edit-thank": "Շնորհակալություն ինձ իմ խմբագրման համար",
+	"echo-pref-tooltip-edit-thank": "Տեղեկացնել, երբ ինչ–որ մեկը շնորհակալ է իմ կատարած խմբագրման համար։",
+	"echo-category-title-edit-thank": "Շնորհակալ է",
+	"notification-header-rev-thank": "$1 մասնակիցը շնորհակալ է Ձեզ $3 էջում Ձեր խմբագրման համար։",
+	"log-name-thanks": "Շնորհակալությունների գրանցամատյան",
+	"log-description-thanks": "Ստորև «շնորհակալություներ» ստացած մասնակիցների ցանկն է։",
+	"logentry-thanks-thank": "$1 մասնակիցը {{GENDER:$2|շնորհակալություն է}} հայտնել {{GENDER:$4|$3}} մասնակցին",
+	"thanks-confirmation-special-rev": "Ուզո՞ւմ եք շնորհակալություն հայտնել այս խմբագրման համար:",
+	"notification-link-text-view-post": "Դիտել մեկնաբանությունը",
+	"flow-thanks-confirmation-special": "Ուզո՞ւմ եք շնորհակալություն հայտնել այս մեկնաբանման համար:",
+	"notification-compact-header-flow-thank": "$1 մասնակիցը {{GENDER:$2|շնորհակալություն է}} հայտնել {{GENDER:$3|ձեզ}}"
+}

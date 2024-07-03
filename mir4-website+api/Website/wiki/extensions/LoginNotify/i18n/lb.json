@@ -1,0 +1,22 @@
+{
+	"@metadata": {
+		"authors": [
+			"Les Meloures",
+			"Robby",
+			"Soued031",
+			"Volvox"
+		]
+	},
+	"loginnotify-desc": "Benotzer iwwer verdächteg Umeldunge vun onbekannten Apparaten an/oder IP-Adressen informéieren",
+	"echo-category-title-login-fail": "Feelgeschloe Versich fir sech anzeloggen",
+	"echo-pref-tooltip-login-fail": "Mech informéiere wann ouni Succès probéiert gouf sech a mäi Benotzerkont anzeloggen.",
+	"echo-category-title-login-success": "Alogge vun engem onbekannten Apparat",
+	"echo-pref-tooltip-login-success": "Mech all Kéier informéiere wann ee sech a mäi Benotzerkont  vun engem onbekannten Apparat an enger onbekannter IP-Adress aloggt.",
+	"loginnotify-primary-link": "Hëllef",
+	"notification-loginnotify-login-fail-email-subject": "{{PLURAL:$2|Net gelongene Versuch|Net gelonge Versich}} fir sech op {{SITENAME}} als $1 anzeloggen",
+	"notification-loginnotify-login-success-email-subject": "Ageloggt op {{SITENAME}} als $1 op engem Apparat, deen {{GENDER:$1|Dir}} net rezent benotzt hutt",
+	"notification-header-login-success": "Iergendeen (warscheinlech {{GENDER:$1|Dir}}) huet sech rezent vun engem neien Apparat mat Ärem Benotzerkont ageloggt. Wann Dir dat waart, da kënnt Dir dëse Message ignoréieren. Wann Dir dat net waart, dann ass et ugeroden, datt Dir Äert Passwuert ännert an d'Aktivitéit vun Ärem Benotzerkont nokuckt.",
+	"notification-new-bundled-header-login-fail": "Zanter Dir iech fir d'lescht ageloggt hutt gouf et {{PLURAL:$1|'''een net gelongene Versuch'''|'''$1 net gelonge Versich'''}} fir sech mat Ärem Benotzerkont vun engem neien Apparat aus anzeloggen. Wann Dir dat net waart da vergewëssert Iech wgl. datt Äre Benotzerkont e staarkt Passwuert huet.",
+	"notification-known-header-login-fail": "Et {{PLURAL:$1|gouf '''ee feelgeschloene Versuch'''|goufe(n) '''$1 feelgeschloe Versich'''}} fir sech an Äre Benotzerkont anzeloggen. Wann Dir dat net waart, da vergewëssert Iech wgl. datt Äre Benotzerkont e staarkt Passwuert huet.",
+	"notification-new-unbundled-header-login-fail": "Et gouf '''{{PLURAL:$1|eemol|e puermol}} ouni Succès probéiert''' fir sech mat Ärem Benotzerkont vun engem neien Apparat anzeloggen. Vergewëssert Iech wgl. datt Äre Benotzerkont e staarkt Passwuert huet."
+}

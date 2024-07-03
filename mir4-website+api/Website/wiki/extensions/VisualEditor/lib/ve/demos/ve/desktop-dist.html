@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+	<!--
+	/*!
+	 * VisualEditor standalone demo
+	 *
+	 * @copyright See AUTHORS.txt
+	 */
+	-->
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
+		<title>VisualEditor Standalone Demo</title>
+
+		<!-- oojs-ui-apex -->
+		<link rel="stylesheet" href="../../lib/oojs-ui/oojs-ui-apex.css" class="stylesheet-ltr stylesheet-read">
+		<link rel="stylesheet" href="../../lib/oojs-ui/oojs-ui-apex.rtl.css" class="stylesheet-rtl stylesheet-read">
+		<link rel="stylesheet" href="../../lib/oojs-ui/oojs-ui-apex-icons-alerts.css" class="stylesheet-ltr stylesheet-read">
+		<link rel="stylesheet" href="../../lib/oojs-ui/oojs-ui-apex-icons-alerts.rtl.css" class="stylesheet-rtl stylesheet-read">
+		<link rel="stylesheet" href="../../lib/oojs-ui/oojs-ui-apex-icons-content.css" class="stylesheet-ltr stylesheet-read">
+		<link rel="stylesheet" href="../../lib/oojs-ui/oojs-ui-apex-icons-content.rtl.css" class="stylesheet-rtl stylesheet-read">
+		<link rel="stylesheet" href="../../lib/oojs-ui/oojs-ui-apex-icons-interactions.css" class="stylesheet-ltr stylesheet-read">
+		<link rel="stylesheet" href="../../lib/oojs-ui/oojs-ui-apex-icons-interactions.rtl.css" class="stylesheet-rtl stylesheet-read">
+		<link rel="stylesheet" href="../../lib/oojs-ui/oojs-ui-apex-icons-layout.css" class="stylesheet-ltr stylesheet-read">
+		<link rel="stylesheet" href="../../lib/oojs-ui/oojs-ui-apex-icons-layout.rtl.css" class="stylesheet-rtl stylesheet-read">
+		<link rel="stylesheet" href="../../lib/oojs-ui/oojs-ui-apex-icons-moderation.css" class="stylesheet-ltr stylesheet-read">
+		<link rel="stylesheet" href="../../lib/oojs-ui/oojs-ui-apex-icons-moderation.rtl.css" class="stylesheet-rtl stylesheet-read">
+		<link rel="stylesheet" href="../../lib/oojs-ui/oojs-ui-apex-icons-movement.css" class="stylesheet-ltr stylesheet-read">
+		<link rel="stylesheet" href="../../lib/oojs-ui/oojs-ui-apex-icons-movement.rtl.css" class="stylesheet-rtl stylesheet-read">
+		<link rel="stylesheet" href="../../lib/oojs-ui/oojs-ui-apex-icons-user.css" class="stylesheet-ltr stylesheet-read">
+		<link rel="stylesheet" href="../../lib/oojs-ui/oojs-ui-apex-icons-user.rtl.css" class="stylesheet-rtl stylesheet-read">
+		<link rel="stylesheet" href="../../lib/oojs-ui/oojs-ui-apex-icons-editing-core.css" class="stylesheet-ltr stylesheet-read">
+		<link rel="stylesheet" href="../../lib/oojs-ui/oojs-ui-apex-icons-editing-core.rtl.css" class="stylesheet-rtl stylesheet-read">
+		<link rel="stylesheet" href="../../lib/oojs-ui/oojs-ui-apex-icons-editing-advanced.css" class="stylesheet-ltr stylesheet-read">
+		<link rel="stylesheet" href="../../lib/oojs-ui/oojs-ui-apex-icons-editing-advanced.rtl.css" class="stylesheet-rtl stylesheet-read">
+		<link rel="stylesheet" href="../../lib/oojs-ui/oojs-ui-apex-icons-editing-styling.css" class="stylesheet-ltr stylesheet-read">
+		<link rel="stylesheet" href="../../lib/oojs-ui/oojs-ui-apex-icons-editing-styling.rtl.css" class="stylesheet-rtl stylesheet-read">
+		<link rel="stylesheet" href="../../lib/oojs-ui/oojs-ui-apex-icons-editing-list.css" class="stylesheet-ltr stylesheet-read">
+		<link rel="stylesheet" href="../../lib/oojs-ui/oojs-ui-apex-icons-editing-list.rtl.css" class="stylesheet-rtl stylesheet-read">
+
+		<!-- visualEditor.dist.apex -->
+		<link rel="stylesheet" href="../../dist/visualEditor-apex.css" class="stylesheet-ltr stylesheet-ve">
+		<link rel="stylesheet" href="../../dist/visualEditor-apex.rtl.css" class="stylesheet-rtl stylesheet-ve">
+
+		<!-- visualEditor.standalone.read -->
+		<link rel="stylesheet/less" href="../../src/init/sa/styles/ve.init.sa.less" class="stylesheet-read">
+
+		<!-- color-picker -->
+		<link rel="stylesheet" href="../../lib/color-picker/color-picker.css">
+
+		<!-- visualEditor.collab -->
+		<link rel="stylesheet/less" href="../../src/ui/styles/widgets/ve.ui.AuthorItemWidget.less" class="stylesheet-read">
+
+		<!-- visualEditor.standalone.demo -->
+		<link rel="stylesheet/less" href="../../demos/ve/demo.less" class="stylesheet-read">
+
+		<!-- visualEditor.desktop.standalone.demo -->
+		<link rel="stylesheet/less" href="../../demos/ve/demo.desktop.less" class="stylesheet-read">
+
+		<!-- visualEditor.desktop.standalone.apex.demo -->
+		<link rel="stylesheet/less" href="../../demos/ve/demo.apex.less">
+
+	</head>
+	<body>
+		<div class="ve-demo-logo"></div>
+		<div class="ve-demo-toolbar ve-demo-targetToolbar"></div>
+		<div class="ve-demo-editor"></div>
+
+		<!-- less -->
+		<script src="../../lib/less/less.js"></script>
+
+		<!-- jquery -->
+		<script src="../../lib/jquery/jquery.js"></script>
+
+		<!-- oojs -->
+		<script src="../../lib/oojs/oojs.js"></script>
+
+		<!-- oojs-ui -->
+		<script src="../../lib/oojs-ui/oojs-ui-core.js"></script>
+		<script src="../../lib/oojs-ui/oojs-ui-widgets.js"></script>
+		<script src="../../lib/oojs-ui/oojs-ui-toolbars.js"></script>
+		<script src="../../lib/oojs-ui/oojs-ui-windows.js"></script>
+
+		<!-- jquery.i18n.dist -->
+		<script src="../../dist/lib/jquery.i18n.js"></script>
+
+		<!-- jquery.uls.data.dist -->
+		<script src="../../dist/lib/jquery.uls.data.js"></script>
+
+		<!-- jquery.client -->
+		<script src="../../lib/jquery.client/jquery.client.js"></script>
+
+		<!-- papaparse -->
+		<script src="../../lib/papaparse/papaparse.js"></script>
+
+		<!-- oojs-ui-apex -->
+		<script src="../../lib/oojs-ui/oojs-ui-apex.js"></script>
+
+		<!-- visualEditor.dist -->
+		<script src="../../dist/visualEditor.js"></script>
+
+		<!-- visualEditor.desktop.standalone.apex.dist -->
+		<script src="../../src/init/sa/ve.init.sa.DesktopTarget.js"></script>
+
+		<script>
+			ve.messagePaths = [
+				'../../dist/i18n/',
+				'../../lib/oojs-ui/i18n/'
+			];
+			ve.availableLanguages = [ 'ace', 'acm', 'af', 'am', 'ang', 'ar', 'arc', 'arn', 'arq', 'as', 'ast', 'av', 'awa', 'az', 'azb', 'ba', 'ban', 'bcc', 'bci', 'bcl', 'be', 'be-tarask', 'bew', 'bg', 'bho', 'bjn', 'blk', 'bn', 'bqi', 'br', 'bs', 'ca', 'cdo', 'ce', 'cjy-hant', 'ckb', 'co', 'crh-cyrl', 'crh-latn', 'cs', 'cu', 'cv', 'cy', 'da', 'dag', 'de', 'dga', 'diq', 'dsb', 'dty', 'egl', 'el', 'eml', 'en', 'en-ca', 'eo', 'es', 'et', 'eu', 'fa', 'fat', 'fi', 'fo', 'fr', 'frp', 'frr', 'fur', 'fy', 'ga', 'gcf', 'gd', 'gl', 'glk', 'gn', 'gom-deva', 'gom-latn', 'gor', 'gsw', 'gu', 'gur', 'guw', 'gv', 'ha', 'he', 'hi', 'hif-latn', 'hr', 'hrx', 'hsb', 'ht', 'hu', 'hu-formal', 'hy', 'hyw', 'ia', 'id', 'ie', 'ig', 'ilo', 'inh', 'io', 'is', 'it', 'ja', 'jv', 'ka', 'kaa', 'kab', 'kcg', 'khw', 'kk-cyrl', 'km', 'kn', 'ko', 'ko-kp', 'krc', 'krl', 'ks-arab', 'ksh', 'ku-latn', 'kus', 'kw', 'ky', 'la', 'lb', 'lez', 'lfn', 'li', 'lij', 'lki', 'lmo', 'lrc', 'lt', 'luz', 'lv', 'lzh', 'lzz', 'mag', 'mai', 'mg', 'min', 'mk', 'ml', 'mn', 'mni', 'mos', 'mr', 'mrh', 'ms', 'mt', 'my', 'myv', 'nan', 'nap', 'nb', 'nds', 'nds-nl', 'ne', 'nl', 'nn', 'nqo', 'oc', 'olo', 'om', 'or', 'os', 'pa', 'pam', 'pfl', 'pl', 'pms', 'pnb', 'ps', 'pt', 'pt-br', 'qqq', 'qu', 'rm', 'ro', 'roa-tara', 'rsk', 'ru', 'rue', 'rw', 'sa', 'sah', 'sc', 'scn', 'sco', 'sd', 'se', 'sgs', 'sh-latn', 'shn', 'si', 'sk', 'skr-arab', 'sl', 'smn', 'sn', 'sq', 'sr-ec', 'sr-el', 'st', 'su', 'sv', 'sw', 'szy', 'ta', 'tay', 'tdd', 'te', 'tg-cyrl', 'th', 'ti', 'tk', 'tl', 'tly', 'tr', 'tt-cyrl', 'tum', 'tw', 'tyv', 'tzm', 'ug-arab', 'uk', 'ur', 'uz', 'vec', 'vep', 'vi', 'vo', 'wal', 'war', 'xal', 'xmf', 'yi', 'yo', 'yue-hant', 'zh-hans', 'zh-hant' ];
+			ve.demoPages = [
+				'aliens',
+				'comments',
+				'complex',
+				'empty',
+				'h1',
+				'image',
+				'isolation',
+				'long',
+				'meta',
+				'rtl',
+				'sections',
+				'simple',
+				'slugs',
+				'tables',
+				'very long'
+			];
+		</script>
+
+		<!-- color-picker -->
+		<script src="../../lib/color-picker/color-picker.js"></script>
+
+		<!-- peerjs -->
+		<script src="../../lib/peerjs/peerjs.min.js"></script>
+
+		<!-- visualEditor.collab -->
+		<script src="../../rebaser/src/dm/ve.dm.RebaseDocState.js"></script>
+		<script src="../../rebaser/src/dm/ve.dm.RebaseServer.js"></script>
+		<script src="../../rebaser/src/dm/ve.dm.DocumentStore.js"></script>
+		<script src="../../rebaser/src/dm/ve.dm.ProtocolServer.js"></script>
+		<script src="../../src/dm/ve.dm.RebaseClient.js"></script>
+		<script src="../../src/dm/ve.dm.SurfaceSynchronizer.js"></script>
+		<script src="../../src/ui/widgets/ve.ui.AuthorItemWidget.js"></script>
+		<script src="../../src/ui/tools/ve.ui.AuthorListPopupTool.js"></script>
+		<script src="../../src/ve.FakePeer.js"></script>
+		<script src="../../collab/ve.collab.js"></script>
+		<script src="../../collab/ve.dm.CollabTransportServer.js"></script>
+		<script src="../../collab/ve.ui.CollabProcessDialog.js"></script>
+		<script src="../../collab/ve.ui.CollabTool.js"></script>
+
+		<!-- visualEditor.standalone.demo -->
+		<script src="../../demos/ve/ve.demo.js"></script>
+		<script src="../../demos/ve/ve.demo.SurfaceContainer.js"></script>
+
+		<!-- visualEditor.desktop.standalone.demo -->
+		<script src="../../demos/ve/demo.desktop.js"></script>
+		<script src="../../demos/ve/ve.demo.init.js"></script>
+
+	</body>
+</html>

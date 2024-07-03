@@ -1,0 +1,29 @@
+{
+	"@metadata": {
+		"authors": [
+			"Tacsipacsi"
+		]
+	},
+	"apihelp-query+gadgetcategories-summary": "A segédeszköz-kategóriák listáját adja vissza.",
+	"apihelp-query+gadgetcategories-param-prop": "Milyen információkat szeretnél a segédeszköz-kategóriáról:",
+	"apihelp-query+gadgetcategories-paramvalue-prop-name": "Belső kategórianév.",
+	"apihelp-query+gadgetcategories-paramvalue-prop-title": "Kategória címe.",
+	"apihelp-query+gadgetcategories-paramvalue-prop-members": "A kategóriában található segédeszközök száma.",
+	"apihelp-query+gadgetcategories-param-names": "A lekérendő kategóriák nevei.",
+	"apihelp-query+gadgetcategories-example-1": "Az összes létező segédeszköz-kategória listázása",
+	"apihelp-query+gadgetcategories-example-2": "Minden információ lekérése a „foo” és „bar” kategóriákról",
+	"apihelp-query+gadgets-summary": "A wikin használt segédeszközök listázása.",
+	"apihelp-query+gadgets-param-prop": "A lekérendő segédeszköz-információk:",
+	"apihelp-query+gadgets-paramvalue-prop-id": "A belső segédeszköz-azonosító.",
+	"apihelp-query+gadgets-paramvalue-prop-metadata": "A segédeszköz metaadatai.",
+	"apihelp-query+gadgets-paramvalue-prop-desc": "A segédeszköz leírása HTML formátumban (lassú lehet, csak akkor használd, ha tényleg szükséges).",
+	"apihelp-query+gadgets-param-categories": "Segédeszközök lekérése ezekből a kategóriákból.",
+	"apihelp-query+gadgets-param-ids": "A lekérendő segédeszközök azonosítói.",
+	"apihelp-query+gadgets-param-allowedonly": "Csak az aktuális felhasználó által használható segédeszközök listázása.",
+	"apihelp-query+gadgets-param-enabledonly": "Csak az aktuális felhasználó által engedélyezett segédeszközök listázása.",
+	"apihelp-query+gadgets-example-1": "Az összes segédeszköz listázása a leírásaikkal",
+	"apihelp-query+gadgets-example-2": "Az összes segédeszköz listázása az összes lehetséges tulajdonsággal",
+	"apihelp-query+gadgets-example-3": "A „foo” kategóriába tartozó segédeszközök listázása",
+	"apihelp-query+gadgets-example-4": "Információk lekérése a „foo” és „bar” segédeszközökről",
+	"apihelp-query+gadgets-example-5": "Az aktuális felhasználó által engedélyezett segédeszközök listázása"
+}

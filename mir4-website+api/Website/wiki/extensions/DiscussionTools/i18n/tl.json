@@ -1,0 +1,38 @@
+{
+	"@metadata": {
+		"authors": [
+			"GinawaSaHapon",
+			"Ianlopez1115",
+			"Jojit fb",
+			"Kunokuno"
+		]
+	},
+	"discussiontools": "Mga kagamitan para usapan",
+	"discussiontools-defaultsummary-reply": "Tugon",
+	"discussiontools-desc": "Mga kagamitan upang mapabuti ang mga pahina ng usapan.",
+	"discussiontools-emptystate-button": "Magsimula ng isang usapan",
+	"discussiontools-emptystate-desc": "Sa mga pahina ng usapan ang lugar kung saan pinag-uusapan ng mga indibiduwal kung paano gumawa ng nilalaman sa {{SITENAME}} sa pinakamabuting paraan. Maari mong gamitin ang pahinang ito upang magsimula makipag-usap sa ibang indibiduwal tungkol kung papaano mapabuti ang [[:{{SUBJECTPAGENAME}}]]. [[{{MediaWiki:discussiontools-emptystate-link-talkpages}}|Alamin pa]]",
+	"discussiontools-emptystate-desc-self": "Maaring gamitin ng mga indibiduwal sa {{SITENAME}} ang pahinang ito upang maglagay ng isang publikong mensahe para sa iyo at maabiso ka kapag ginawa nila ito. [[{{MediaWiki:discussiontools-emptystate-link-userpage}}|Alamin pa]]",
+	"discussiontools-emptystate-title": "Magsimula ng usapan tungkol sa pahinang \"{{SUBJECTPAGENAME}}\"",
+	"discussiontools-replylink": "sumagot",
+	"discussiontools-replywidget-advanced": "Karagdagan",
+	"discussiontools-replywidget-cancel": "Ikansela",
+	"discussiontools-replywidget-mode-source": "Source",
+	"discussiontools-replywidget-mode-visual": "Visual",
+	"discussiontools-replywidget-placeholder-reply": "Sumagot kay {{BIDI: $1 }}",
+	"discussiontools-replywidget-preview": "Pasilip",
+	"discussiontools-replywidget-reply": "Sumagot",
+	"discussiontools-replywidget-summary": "Buod",
+	"discussiontools-replywidget-watchthis": "Idagdga ang pahinang ito sa [[Special:Watchlist|binabantayan]] mo",
+	"discussiontools-topicheader-authorcount": "$1 {{PLURAL:$1|tao|(na) tao}} ang nasa usapan",
+	"discussiontools-topicheader-commentcount": "$1 {{PLURAL:$1|komento|(na) komento}}",
+	"discussiontools-topicheader-latestcomment": "Pinakabagong komento: $1",
+	"discussiontools-topicsubscription-button-subscribe": "mag-sub",
+	"discussiontools-topicsubscription-button-subscribe-label": "Mag-sub",
+	"discussiontools-topicsubscription-button-unsubscribe": "wag mag-sub",
+	"discussiontools-topicsubscription-button-unsubscribe-label": "Wag na'ng mag-sub",
+	"discussiontools-topicsubscription-notify-subscribed-body": "Makakatanggap ka ng mga abiso tungkol sa mga bagong komento sa paksang ito.",
+	"discussiontools-topicsubscription-notify-subscribed-title": "Nakapag-subscribe ka na!",
+	"discussiontools-topicsubscription-notify-unsubscribed-body": "Hindi ka na makakatanggap ng mga abiso tungkol sa mga bagong komento sa paksang ito.",
+	"discussiontools-topicsubscription-notify-unsubscribed-title": "Hindi ka na naka-subscribe."
+}

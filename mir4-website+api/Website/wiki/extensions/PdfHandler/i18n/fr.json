@@ -1,0 +1,23 @@
+{
+	"@metadata": {
+		"authors": [
+			"Crochet.david",
+			"Gomoko",
+			"Grondin",
+			"The RedBurn",
+			"Verdy p",
+			"Yodaspirine"
+		]
+	},
+	"pdf-desc": "Gestionnaire permettant de visualiser les fichiers PDF en mode image",
+	"pdf-file-page-warning": "Le PDF est un format complexe qui peut exposer certaines de vos informations privées dans certains cas. Assurez-vous d’avoir configuré votre lecteur de PDF de façon sûre.",
+	"pdf-file-page-warning-header": "Considérations sur la vie privée",
+	"pdf-file-page-warning-footer": "Ce problème n’est pas lié à ce fichier en particulier mais bien au format PDF en général.",
+	"pdf-file-page-warning-info": "En savoir plus sur ce problème.",
+	"pdf_no_metadata": "Impossible d’obtenir les métadonnées du fichier PDF",
+	"pdf_page_error": "Le numéro de page est hors de l’étendue.",
+	"exif-pdf-producer": "Programme de conversion",
+	"exif-pdf-version": "Version du format PDF",
+	"exif-pdf-encrypted": "Chiffré",
+	"exif-pdf-pagesize": "Taille de la page"
+}

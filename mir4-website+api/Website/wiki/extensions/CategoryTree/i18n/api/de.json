@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Metalhead64"
+		]
+	},
+	"apihelp-categorytree-summary": "Internes Modul für die Erweiterung „CategoryTree“.",
+	"apihelp-categorytree-param-category": "Titel im Kategorie-Namensraum. Das Präfix wird ignoriert, falls angegeben.",
+	"apihelp-categorytree-param-options": "Optionen für den CategoryTree-Konstruktor als JSON-Objekt. Der Standard für die <var>depth</var>-Option ist <kbd>1</kbd>.",
+	"apierror-categorytree-invalidjson": "Optionen müssen ein gültiges JSON-Objekt sein.",
+	"apierror-categorytree-invalidjson-option": "Option „$1“ enthält ungültigen Wert."
+}

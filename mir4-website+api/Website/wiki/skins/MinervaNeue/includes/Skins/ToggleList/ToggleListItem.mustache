@@ -1,0 +1,16 @@
+{{!
+	array components
+	string|null components.class Optional anchor CSS class.
+	string|null components.href Optional URI.
+	string|null components.text Optional text.
+	string|null components.data-event-name Optional tracking code.
+}}
+{{#components}}
+	<li class="toggle-list-item">
+		<a class="toggle-list-item__anchor {{classes}}"
+			{{#array-attributes}}{{key}}="{{value}}"{{/array-attributes}}>
+			{{#data-icon}}{{>Icon}}{{/data-icon}}
+			<span class="toggle-list-item__label">{{label}}</span>
+		</a>
+	</li>
+{{/components}}

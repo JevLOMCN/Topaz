@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Akerbeltz",
+			"GunChleoc"
+		]
+	},
+	"pfunc_time_error": "Mearachd: Àm mì-dhligheach.",
+	"pfunc_expr_unrecognised_word": "Marachd eas-preisein: Chan aithne dhuinn am facal \"$1\".",
+	"pfunc_expr_unexpected_operator": "Mearachd eas-preisein: Gnìomharaiche $1 ris nach robh dùil.",
+	"pfunc_expr_missing_operand": "Mearachd eas-preisein: Tha oparand a dhìth airson $1.",
+	"pfunc_expr_unrecognised_punctuation": "Mearachd eas-preisein: Chan aithne dhuinn an caractar puingeachaidh \"$1\".",
+	"pfunc_expr_division_by_zero": "Roinneadh le neoini."
+}

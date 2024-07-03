@@ -1,0 +1,39 @@
+{
+	"@metadata": {
+		"authors": [
+			"Beau",
+			"BeginaFelicysym",
+			"Chrumps",
+			"Derbeth",
+			"Matma Rex",
+			"Peter Bowman",
+			"Rail",
+			"Railfail536",
+			"Sp5uhe",
+			"Tar Lócesilion",
+			"WTM",
+			"WaldiSt",
+			"Woytecr"
+		]
+	},
+	"action-tboverride": "ignorowania listy niedozwolonych tytułów lub nazw użytkowników",
+	"action-tboverride-account": "ignorowania listy niedozwolonych nazw użytkowników",
+	"action-titleblacklistlog": "przeglądania listy niedozwolonych tytułów",
+	"log-name-titleblacklist": "Rejestr listy niedozwolonych tytułów",
+	"log-description-titleblacklist": "Te zdarzenia służą do śledzenia trafień listy niedozwolonych tytułów.",
+	"logentry-titleblacklist-hit-username": "$1 {{GENDER:$2|spowodował|spowodowała}} dopasowanie do listy niedozwolonych tytułów podczas próby stworzenia konta $3, co pasowało do $4.",
+	"titleblacklist-desc": "Pozwala na blokowanie tworzenia stron i kont użytkowników o określonych nazwach, wykorzystując listę [[MediaWiki:Titleblacklist|niedozwolonych]] oraz [[MediaWiki:Titlewhitelist|dozwolonych]] tytułów",
+	"titleblacklist": "# To jest lista niedozwolonych nazw artykułów. Strony i konta o nazwach odpowiadających poniższym wyrażeniom regularnym nie będą mogły zostać utworzone.\n# Użyj znaku „#”, aby utworzyć komentarz.\n# Domyślnie we wpisach nie ma znaczenia wielkość znaków.",
+	"titlewhitelist": "# To jest lista dozwolonych nazw artykułów. Użyj znaku „#”, aby utworzyć komentarz.\n# Domyślnie we wpisach nie ma znaczenia wielkość znaków.",
+	"titleblacklist-forbidden-edit": "Utworzenie strony o nazwie „$2” nie jest możliwe.  \nNazwa ta pasuje do wpisu z listy niedozwolonych tytułów: <code>$1</code>",
+	"titleblacklist-forbidden-move": "Zmiana nazwy z „$2” na „$3” nie jest możliwa, ponieważ nie można utworzyć strony o nazwie „$3”.\nNazwa ta pasuje do wpisu z listy niedozwolonych tytułów: <code>$1</code>",
+	"titleblacklist-forbidden-upload": "Utworzenie pliku o nazwie „$2” nie jest możliwe. \nNazwa ta pasuje do wpisu z listy niedozwolonych tytułów: <code>$1</code>",
+	"titleblacklist-forbidden-new-account": "Utworzenie konta o nazwie „$2” nie jest możliwe.\nNazwa ta pasuje do wpisu z listy niedozwolonych tytułów: <code>$1</code>",
+	"titleblacklist-invalid": "{{PLURAL:$1|Następująca linia|Następujące linie}} na liście niedozwolonych tytułów stron {{PLURAL:$1|jest nieprawidłowa|są nieprawidłowe}}. Popraw {{PLURAL:$1|ją|je}} przed zapisaniem:",
+	"titleblacklist-override": "Nadpisz dopasowania listy niedozwolonych tytułów",
+	"titleblacklist-override-help": "Użytkownicy z odpowiednimi uprawnieniami mogą to ustawić, aby ignorować sprawdzanie z użyciem listy niedozwolonych tytułów.",
+	"titleblacklist-warning": "<strong>Uwaga: tę stronę mogą edytować tylko administratorzy i użytkownicy z uprawnieniem <code>tboverride</code>, ponieważ znajduje się ona na liście niedozwolonych tytułów, w punkcie:</strong><br /><code>$1</code>",
+	"right-tboverride": "Ignorowanie listy niedozwolonych tytułów lub nazw użytkowników",
+	"right-tboverride-account": "Ignorowanie listy niedozwolonych nazw użytkowników",
+	"right-titleblacklistlog": "Wyświetl dziennik listy niedozwolonych tytułów"
+}

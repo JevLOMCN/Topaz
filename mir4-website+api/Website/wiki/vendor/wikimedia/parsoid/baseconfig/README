@@ -1,0 +1,11 @@
+These are static versions of mediawiki configurations, necessary to
+run parsoid offline and to run parserTests.
+
+The JSON files are the cached results of a siteinfo query like:
+  curl 'https://en.wikipedia.org/w/api.php?action=query&format=json&prop=&meta=siteinfo&siprop=namespaces%7Cnamespacealiases%7Cmagicwords%7Cfunctionhooks%7Cextensiontags%7Cgeneral%7Cinterwikimap%7Clanguages%7Cprotocols%7Cspecialpagealiases
+
+To generate/regenerate:
+
+ $ for lang in ar ban be-tarask ca cs de en es fa fi fr is kaa ln nl ru sr tr zh ; do \
+     php tools/SyncBaseConfig.php --domain=${lang}.wikipedia.org ; \
+   done

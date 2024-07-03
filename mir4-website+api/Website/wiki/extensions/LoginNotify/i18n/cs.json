@@ -1,0 +1,24 @@
+{
+	"@metadata": {
+		"authors": [
+			"Dvorapa",
+			"Ilimanaq29",
+			"Matěj Suchánek",
+			"Meliganai",
+			"Mormegil",
+			"Patriccck"
+		]
+	},
+	"loginnotify-desc": "Informuje uživatele o podezřelých přihlášeních z neznámých zařízení nebo IP adres.",
+	"echo-category-title-login-fail": "neúspěšné pokusy o přihlášení",
+	"echo-pref-tooltip-login-fail": "Upozorněte mě, když dojde k neúspěšným pokusům o přihlášení k mému účtu.",
+	"echo-category-title-login-success": "přihlášení z neznámého zařízení",
+	"echo-pref-tooltip-login-success": "Upozorněte mě, když se někdo k mému účtu přihlásí z neznámého zařízení a IP adresy.",
+	"loginnotify-primary-link": "Nápověda",
+	"notification-loginnotify-login-fail-email-subject": "{{PLURAL:$2|Neúspěšný pokus|Několik neúspěšných pokusů}} o přihlášení na {{grammar:4sg|{{SITENAME}}}} jako $1",
+	"notification-loginnotify-login-success-email-subject": "Přihlášení na {{grammar:4sg|{{SITENAME}}}} jako {{GENDER:$1|$1}} z běžně nepoužívaného zařízení",
+	"notification-header-login-success": "Někdo (pravděpodobně Vy) se nedávno přihlásil na Váš účet z nového zařízení. Pokud jste to {{GENDER:$1|byl|byla|byl(a)}} Vy, můžete tuto zprávu ignorovat. Pokud jste to {{GENDER:$1|nebyl|nebyla|nebyl(a)}} Vy, doporučujeme, abyste si {{GENDER:$1|změnil|změnila|změnil(a)}} heslo a {{GENDER:$1|zkontroloval|zkontrolovala|zkontroloval(a)}} aktivitu na svém účtu.",
+	"notification-new-bundled-header-login-fail": "Od vašeho posledního přihlášení došlo k {{PLURAL:$1|'''jednomu neúspěšnému pokusu'''|'''$1 neúspěšným pokusům'''}} o přihlášení k vašemu účtu z nového zařízení. Pokud jste to nebyli vy, ujistěte se prosím, že má váš účet silné heslo.",
+	"notification-known-header-login-fail": "Od vašeho posledního přihlášení došlo k {{PLURAL:$1|'''jednomu neúspěšnému pokusu'''|'''$1 neúspěšným pokusům'''}} o přihlášení k vašemu účtu. Pokud jste to nebyli vy, ujistěte se prosím, že má váš účet silné heslo.",
+	"notification-new-unbundled-header-login-fail": "Došlo k {{PLURAL:$1|'''jednomu neúspěšnému pokusu'''|'''$1 neúspěšným pokusům'''}} o přihlášení k vašemu účtu z nového zařízení. Ujistěte se prosím, že má váš účet silné heslo."
+}

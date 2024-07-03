@@ -1,0 +1,8 @@
+{
+	"@metadata": {
+		"authors": [
+			"Mschlindwein"
+		]
+	},
+	"notification-known-header-login-fail": "Seit Ihrer letzten Anmeldung gab es {{PLURAL:$1|'''einen fehlgeschlagenen Anmeldeversuch'''|'''$1 fehlgeschlagene Anmeldeversuche'''}} bei Ihrem Benutzerkonto. Falls nicht Sie dies waren, stellen Sie bitte sicher, dass Ihr Benutzerkonto ein sicheres Passwort besitzt."
+}

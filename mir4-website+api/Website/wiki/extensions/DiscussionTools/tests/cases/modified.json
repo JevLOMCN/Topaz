@@ -1,0 +1,220 @@
+[
+	{
+		"name": "plwiki oldparser",
+		"title": "Wikipedia:Kawiarenka/Artykuły dyskusja/Archiwum/2018-październik",
+		"dom": "cases/pl-big-oldparser/pl-big-oldparser.html",
+		"expected": "cases/pl-big-oldparser/pl-big-oldparser-modified.html",
+		"config": "../data/plwiki-config.json",
+		"data": "../data/plwiki-data.json"
+	},
+	{
+		"name": "plwiki parsoid",
+		"title": "Wikipedia:Kawiarenka/Artykuły dyskusja/Archiwum/2018-październik",
+		"dom": "cases/pl-big-parsoid/pl-big-parsoid.html",
+		"expected": "cases/pl-big-parsoid/pl-big-parsoid-modified.html",
+		"config": "../data/plwiki-config.json",
+		"data": "../data/plwiki-data.json"
+	},
+	{
+		"name": "enwiki oldparser",
+		"title": "Wikipedia:Village pump (technical)/Archive 175",
+		"dom": "cases/en-big-oldparser/en-big-oldparser.html",
+		"expected": "cases/en-big-oldparser/en-big-oldparser-modified.html",
+		"config": "../data/enwiki-config.json",
+		"data": "../data/enwiki-data.json"
+	},
+	{
+		"name": "enwiki parsoid",
+		"title": "Wikipedia:Village pump (technical)/Archive 175",
+		"dom": "cases/en-big-parsoid/en-big-parsoid.html",
+		"expected": "cases/en-big-parsoid/en-big-parsoid-modified.html",
+		"config": "../data/enwiki-config.json",
+		"data": "../data/enwiki-data.json"
+	},
+	{
+		"name": "enwiki oldparser (bullet indentation)",
+		"title": "Wikipedia:Village pump (technical)/Archive 175",
+		"dom": "cases/en-big-oldparser/en-big-oldparser.html",
+		"expected": "cases/en-big-oldparser/en-big-oldparser-modified-bullet.html",
+		"config": "../data/enwiki-config.json",
+		"data": "../data/enwiki-data.json",
+		"replyIndentation": "bullet"
+	},
+	{
+		"name": "enwiki parsoid (bullet indentation)",
+		"title": "Wikipedia:Village pump (technical)/Archive 175",
+		"dom": "cases/en-big-parsoid/en-big-parsoid.html",
+		"expected": "cases/en-big-parsoid/en-big-parsoid-modified-bullet.html",
+		"config": "../data/enwiki-config.json",
+		"data": "../data/enwiki-data.json",
+		"replyIndentation": "bullet"
+	},
+	{
+		"name": "arwiki no-paragraph oldparser",
+		"title": "نقاش المستخدم:Khaled",
+		"dom": "cases/ar-no-paragraph-oldparser/ar-no-paragraph-oldparser.html",
+		"expected": "cases/ar-no-paragraph-oldparser/ar-no-paragraph-oldparser-modified.html",
+		"config": "../data/arwiki-config.json",
+		"data": "../data/arwiki-data.json"
+	},
+	{
+		"name": "arwiki no-paragraph parsoid",
+		"title": "نقاش المستخدم:Khaled",
+		"dom": "cases/ar-no-paragraph-parsoid/ar-no-paragraph-parsoid.html",
+		"expected": "cases/ar-no-paragraph-parsoid/ar-no-paragraph-parsoid-modified.html",
+		"config": "../data/arwiki-config.json",
+		"data": "../data/arwiki-data.json"
+	},
+	{
+		"name": "Accidental dt tags (old parser)",
+		"title": "Talk:T279445",
+		"dom": "cases/dt-tags-oldparser/dt-tags-oldparser.html",
+		"expected": "cases/dt-tags-oldparser/dt-tags-oldparser-modified.html",
+		"config": "../data/enwiki-config.json",
+		"data": "../data/enwiki-data.json"
+	},
+	{
+		"name": "Accidental dt tags (Parsoid)",
+		"title": "Talk:T279445",
+		"dom": "cases/dt-tags-parsoid/dt-tags-parsoid.html",
+		"expected": "cases/dt-tags-parsoid/dt-tags-parsoid-modified.html",
+		"config": "../data/enwiki-config.json",
+		"data": "../data/enwiki-data.json"
+	},
+	{
+		"name": "Single comment, heading",
+		"title": "Talk:Single comment",
+		"dom": "cases/single-comment-no-heading/single-comment-no-heading.html",
+		"expected": "cases/single-comment-no-heading/single-comment-no-heading-modified.html",
+		"config": "../data/enwiki-config.json",
+		"data": "../data/enwiki-data.json"
+	},
+	{
+		"name": "Single comment with heading",
+		"title": "Talk:Single comment",
+		"dom": "cases/single-comment-heading/single-comment-heading.html",
+		"expected": "cases/single-comment-heading/single-comment-heading-modified.html",
+		"config": "../data/enwiki-config.json",
+		"data": "../data/enwiki-data.json"
+	},
+	{
+		"name": "Must split a list to reply to one of the comments",
+		"title": "Talk:Split list",
+		"dom": "cases/split-list/split-list.html",
+		"expected": "cases/split-list/split-list-modified.html",
+		"config": "../data/enwiki-config.json",
+		"data": "../data/enwiki-data.json"
+	},
+	{
+		"name": "Must split a list to reply to one of the comments (version 2)",
+		"title": "Talk:Split list",
+		"dom": "cases/split-list2/split-list2.html",
+		"expected": "cases/split-list2/split-list2-modified.html",
+		"config": "../data/enwiki-config.json",
+		"data": "../data/enwiki-data.json"
+	},
+	{
+		"name": "Replies to comments with mixed indentation",
+		"title": "Talk:Mixed indentation",
+		"dom": "cases/mixed-indentation/mixed-indentation.html",
+		"expected": "cases/mixed-indentation/mixed-indentation-modified.html",
+		"config": "../data/enwiki-config.json",
+		"data": "../data/enwiki-data.json"
+	},
+	{
+		"name": "Mess caused by unclosed <font> tags in wikitext",
+		"title": "Talk:Unclosed font",
+		"dom": "cases/unclosed-font/unclosed-font.html",
+		"expected": "cases/unclosed-font/unclosed-font-modified.html",
+		"config": "../data/nlwiki-config.json",
+		"data": "../data/nlwiki-data.json"
+	},
+	{
+		"name": "Reply inserted inside/outside various wrapper elements",
+		"title": "Talk:Wrappers",
+		"dom": "cases/wrappers/wrappers.html",
+		"expected": "cases/wrappers/wrappers-modified.html",
+		"config": "../data/enwiki-config.json",
+		"data": "../data/enwiki-data.json"
+	},
+	{
+		"name": "Reply inserted outside various wrapper elements (real content, old parser)",
+		"title": "User talk:Dylsss",
+		"dom": "cases/wrappers2-oldparser/wrappers2-oldparser.html",
+		"expected": "cases/wrappers2-oldparser/wrappers2-oldparser-modified.html",
+		"config": "../data/enwiki-config.json",
+		"data": "../data/enwiki-data.json"
+	},
+	{
+		"name": "Reply inserted outside various wrapper elements (real content, Parsoid)",
+		"title": "User talk:Dylsss",
+		"dom": "cases/wrappers2-parsoid/wrappers2-parsoid.html",
+		"expected": "cases/wrappers2-parsoid/wrappers2-parsoid-modified.html",
+		"config": "../data/enwiki-config.json",
+		"data": "../data/enwiki-data.json"
+	},
+	{
+		"name": "Reply inserted inside <section> elements on mobile",
+		"title": "Talk:T319148",
+		"dom": "cases/wrappers-mobile-section/wrappers-mobile-section.html",
+		"expected": "cases/wrappers-mobile-section/wrappers-mobile-section-modified.html",
+		"config": "../data/enwiki-config.json",
+		"data": "../data/enwiki-data.json"
+	},
+	{
+		"name": "Many comments consisting of a block template and a paragraph",
+		"title": "Wikipedia:Vandalismi in corso",
+		"dom": "cases/transclusions4/transclusions4.html",
+		"expected": "cases/transclusions4/transclusions4-modified.html",
+		"config": "../data/itwiki-config.json",
+		"data": "../data/itwiki-data.json"
+	},
+	{
+		"name": "Comment whose range almost exactly matches a template, but is not considered transcluded (T313100)",
+		"title": "Usuario discusión:Jvaspad",
+		"dom": "cases/transclusions5/transclusions5.html",
+		"expected": "cases/transclusions5/transclusions5-modified.html",
+		"config": "../data/eswiki-config.json",
+		"data": "../data/eswiki-data.json"
+	},
+	{
+		"name": "Accidental complex transclusion (T265528)",
+		"title": "Talk:T265528",
+		"dom": "cases/accidental-transclusion1/accidental-transclusion1.html",
+		"expected": "cases/accidental-transclusion1/accidental-transclusion1-modified.html",
+		"config": "../data/enwiki-config.json",
+		"data": "../data/enwiki-data.json"
+	},
+	{
+		"name": "Accidental complex transclusion (T313093)",
+		"title": "Talk:T313093",
+		"dom": "cases/accidental-transclusion2/accidental-transclusion2.html",
+		"expected": "cases/accidental-transclusion2/accidental-transclusion2-modified.html",
+		"config": "../data/enwiki-config.json",
+		"data": "../data/enwiki-data.json"
+	},
+	{
+		"name": "Signatures in funny places",
+		"title": "Talk:Signatures funny",
+		"dom": "cases/signatures-funny/signatures-funny.html",
+		"expected": "cases/signatures-funny/signatures-funny-modified.html",
+		"config": "../data/enwiki-config.json",
+		"data": "../data/enwiki-data.json"
+	},
+	{
+		"name": "HTML comments after signatures",
+		"title": "Talk:HTML comments",
+		"dom": "cases/signatures-comments/signatures-comments.html",
+		"expected": "cases/signatures-comments/signatures-comments-modified.html",
+		"config": "../data/enwiki-config.json",
+		"data": "../data/enwiki-data.json"
+	},
+	{
+		"name": "Not splitting an about-group",
+		"title": "Talk:T290940",
+		"dom": "cases/span-about-group/span-about-group.html",
+		"expected": "cases/span-about-group/span-about-group-modified.html",
+		"config": "../data/enwiki-config.json",
+		"data": "../data/enwiki-data.json"
+	}
+]

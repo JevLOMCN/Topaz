@@ -1,0 +1,33 @@
+{
+	"@metadata": {
+		"authors": [
+			"Antonla",
+			"Byrial",
+			"Christian List",
+			"HenrikKbh",
+			"Morten LJ",
+			"Peter Alberti"
+		]
+	},
+	"pfunc_desc": "Udvider parser med logiske funktioner",
+	"pfunc_time_error": "Fejl: Ugyldig tid",
+	"pfunc_time_too_long": "Fejl: for mange kald af #time",
+	"pfunc_time_too_big": "Fejl: #time understøtter kun årstal frem til 9999",
+	"pfunc_time_too_small": "Fejl: #tid understøtter kun år fra 0.",
+	"pfunc_rel2abs_invalid_depth": "Fejl: Ugyldig dybde i sti: \"$1\" (prøvede at tilgå en knude over rodknuden)",
+	"pfunc_expr_stack_exhausted": "Udtryksfejl: Stak tømt",
+	"pfunc_expr_unexpected_number": "Fejl: Uventet tal",
+	"pfunc_expr_preg_match_failure": "Udtryksfejl: Uventet fejl i preg_match",
+	"pfunc_expr_unrecognised_word": "Udtryksfejl: Ukendt ord \"$1\".",
+	"pfunc_expr_unexpected_operator": "Fejl i udtrykket: Uventet $1-operator.",
+	"pfunc_expr_missing_operand": "Udtryksfejl: Operand for $1 mangler",
+	"pfunc_expr_unexpected_closing_bracket": "Udtryksfejl: Uventet lukkende parentes",
+	"pfunc_expr_unrecognised_punctuation": "Udtryksfejl: Uventet interpunktionstegn: \"$1\"",
+	"pfunc_expr_unclosed_bracket": "Udtryksfejl: Uafsluttet kantet parantes",
+	"pfunc_expr_division_by_zero": "Division med nul",
+	"pfunc_expr_invalid_argument": "Ugyldigt argument for $1: < -1 eller > 1",
+	"pfunc_expr_invalid_argument_ln": "Ugyldigt argument for ln: <= 0",
+	"pfunc_expr_unknown_error": "Udtryksfejl: Ukendt fejl ($1)",
+	"pfunc_expr_not_a_number": "I $1: Resultatet er ikke et tal",
+	"pfunc_string_too_long": "Fejl: Strengen overskrider grænsen på $1 tegn"
+}

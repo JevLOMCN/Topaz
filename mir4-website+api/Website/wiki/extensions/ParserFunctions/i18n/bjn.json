@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Ezagren",
+			"Mnam23"
+		]
+	},
+	"pfunc_time_error": "Kasalahan: waktu kada valid",
+	"pfunc_expr_unrecognised_word": "Kasalahan éksprési: Kata \"$1\" kada dipinandui.",
+	"pfunc_expr_unexpected_operator": "Kasalahan éksprési: Operator $1 kada diduga",
+	"pfunc_expr_missing_operand": "Kasalahan éksprési: Operand kadada gasan $1",
+	"pfunc_expr_unrecognised_punctuation": "Kasalahan éksprési: Karakter tanda baca \"$1\" kada dipinandui.",
+	"pfunc_expr_division_by_zero": "Pambagian ulih nul"
+}

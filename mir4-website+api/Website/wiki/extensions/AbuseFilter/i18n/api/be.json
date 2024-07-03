@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"Chadyka",
+			"ZlyiLev"
+		]
+	},
+	"apihelp-abusefiltercheckmatch-extended-description": "Зменныя vars, rcid і logid абавязковыя, аднак можа выкарыстоўвацца толькі адна з іх.",
+	"apihelp-abusefiltercheckmatch-param-vars": "JSON-закадаваны масіў зменных для тэставання.",
+	"apihelp-abusefiltercheckmatch-param-logid": "Ідэнтыфікатар з журнала фільтра злоўжыванняў, на аснове якога мае быць здзейснена праверка.",
+	"apihelp-abusefiltercheckmatch-example-1": "Праверыць, ці ідэнтыфікатар апошніх змен 15 супадае з простым фільтрам",
+	"apihelp-abusefilterunblockautopromote-summary": "Разблакаванне ўдзельніка ад атрымання аўтаматычных прасоўванняў праз паслядоўнасць фільтраў.",
+	"apihelp-query+abuselog-summary": "Паказаць падзеі, якія былі выяўлены адным з фільтраў злоўжыванняў.",
+	"apihelp-query+abuselog-param-filter": "Паказваць толькі запісы, якія былі перахопленыя дадзенымі ідэнтыфікатарамі фільтра. Аддзяляюцца вертыкальнымі рыскамі, для глабальных фільтраў прымяняецца прэфікс «$1»."
+}

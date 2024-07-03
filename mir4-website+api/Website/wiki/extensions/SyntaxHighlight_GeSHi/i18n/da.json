@@ -1,0 +1,19 @@
+{
+	"@metadata": {
+		"authors": [
+			"Christian List",
+			"Saederup92",
+			"Sarrus",
+			"Steenth",
+			"Weblars"
+		]
+	},
+	"syntaxhighlight-desc": "Giver syntaksfremhævning <code>&lt;syntaxhighlight&gt;</code> ved brug af [http://pygments.org/ GeSHi - Generic Syntax Highlighter]",
+	"syntaxhighlight-error-category": "Sider med fejl i syntaks-fremhævning",
+	"syntaxhighlight-enclose-category": "Sider som bruger udgået enclose-attributter",
+	"syntaxhighlight-source-category": "Sider med forældet source tags",
+	"syntaxhighlight-visualeditor-mwsyntaxhighlightinspector-code": "Kode",
+	"syntaxhighlight-visualeditor-mwsyntaxhighlightinspector-language": "Sprog",
+	"syntaxhighlight-visualeditor-mwsyntaxhighlightinspector-title": "Kodeblok",
+	"syntaxhighlight-error-unknown-language": "Ukendt sprog \"$1\""
+}

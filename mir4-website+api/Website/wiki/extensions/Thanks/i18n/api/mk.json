@@ -1,0 +1,16 @@
+{
+	"@metadata": {
+		"authors": [
+			"Bjankuloski06",
+			"Macofe"
+		]
+	},
+	"apihelp-flowthank-summary": "Испратете јавна благодарница за коментар во Тек.",
+	"apihelp-flowthank-param-postid": "UUID на објавата за која се заблагодарувате.",
+	"apihelp-flowthank-example-1": "Испрати благодарница за коментарот со <kbd>UUID xyz789</kbd>",
+	"apihelp-thank-summary": "Испрати благодарница на уредник.",
+	"apihelp-thank-param-rev": "Назнака на преработката за која се заблагодарувате. Мора да биде укажано ова или „log“.",
+	"apihelp-thank-param-log": "Назнака на дневникот за кој некому благодарите. Мора да биде укажано ова или „rev“.",
+	"apihelp-thank-param-source": "Кратка низа во која го опишувате изворот на барањето. На пр. <kbd>diff</kbd> или <kbd>history</kbd>.",
+	"apihelp-thank-example-1": "Испрати благодарница за праработката со <kbd>назнака 456</kbd>, при што изворот е страница со разлика"
+}

@@ -1,0 +1,17 @@
+{
+	"@metadata": {
+		"authors": [
+			"Borichèt",
+			"Dragonòt"
+		]
+	},
+	"oathauth-desc": "A dà un supòrt d'autenticassion dovrand HMAC basà su dle ciav a usagi ùnich",
+	"oathauth-account": "Nòm dël Cont dij Doi Fator:",
+	"oathauth-secret": "Ciav Segreta dij Doi Fator:",
+	"oathauth-enable": "Abilité l'Autenticassion a Doi Fator",
+	"oathauth-recoverycodes": "La lista sì-dapress a l'é na lista ëd geton da dovré mach na vira. Sti geton a peulo mach esse dovrà na vira, e a son da dovré an cas d'emergensa. Për piasì, ch'a jë scriva e ch'a-j goerna ant un pòst sigur. S'a perd sò teléfon, costi geton a son l'ùnica manera ëd salvé sò cont. Costi geton a saran mai pi mostrà torna.",
+	"oathauth-disable": "Disabilité l'Autenticassion a Doi Fator",
+	"oathauth-validatedoath": "Credensiaj a doi fator validà. L'autenticassion a doi fator a sarà dorenavan aplicà.",
+	"oathauth-failedtovalidateoath": "Falì a validé le credensiaj a doi fator",
+	"oathauth-disabledoath": "Autenticassion a doi fator disabilità."
+}

@@ -1,0 +1,25 @@
+{
+	"@metadata": {
+		"authors": [
+			"Dbc334",
+			"Eleassar",
+			"Yerpo"
+		]
+	},
+	"spam-blacklist": " #<!-- pustite to vrstico točno takšno, kakršna je --> <pre>\n# Zunanji URL-ji, ki se ujemajo s tem seznamom, bodo blokirani, ko bodo dodani na stran.\n# Seznam vpliva samo na ta viki; glejte tudi globalni seznam blokiranja.\n# Za dokumentacijo glejte https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:SpamBlacklist\n#\n# Skladnja je naslednja:\n#   * Vse od znaka »#« do konca vrstice je komentar\n#   * Vsaka neprazna vrstica je delec regularnega izraza, ki se bo ujemal samo z gostitelji v URL-jih\n\n #</pre> <!-- pustite to vrstico točno takšno, kakršna je -->",
+	"spam-whitelist": " #<!-- pustite to vrstico točno takšno, kakršna je --> <pre>\n# Zunanji URL-ji, ki se ujemajo s tem seznamom, *ne* bodo blokirani, tudi če bi\n# bili blokirani z vnosi na seznamu blokiranj.\n#\n# Skladnja je naslednja:\n#   * Vse od znaka »#« do konca vrstice je komentar.\n#   * Vsaka neprazna vrstica je delec regularnega izraza, ki se bo ujemal samo z gostitelji v URL-jih.\n\n #</pre> <!-- pustite to vrstico točno takšno, kakršna je -->",
+	"email-blacklist": " #<!-- to vrstico pustite točno takšno, kakršna je --> <pre>\n# Registracija in pošiljanje z e-poštnih naslovov, ki se ujemajo s spodnjim seznamom, bosta preprečena.\n# Seznam vpliva samo na ta viki; glejte tudi globalni seznam blokiranja.\n# Za dokumentacijo glejte https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:SpamBlacklist.\n\n#\n# Opis skladnje:\n#  * Vse od znaka »#« do konca vrstice je komentar.\n#  * Vsaka neprazna vrstica je regularni izraz, ki se lahko ujema le z imeni gostiteljev v e-poštnih naslovih.\n\n #</pre> <!-- to vrstico pustite točno takšno, kakršna je -->",
+	"email-whitelist": " #<!-- to vrstico pustite točno takšno, kakršna je --> <pre>\n# E-poštni naslovi, ki se ujemajo s tem seznamom, *ne* bodo blokirani, tudi če bi\n# bili blokirani z vnosi na seznamu blokiranja.\n#\n# Opis skladnje:\n#  * Vse od znaka »#« do konca vrstice je komentar.\n#  * Vsaka neprazna vrstica je regularni izraz, ki se lahko ujema le z imenom gostitelja v e-poštnem naslovu.\n\n #</pre> <!-- to vrstico pustite točno takšno, kakršna je -->",
+	"spam-blacklisted-email": "Prepovedan e-poštni naslov",
+	"spam-blacklisted-email-text": "Vašemu e-poštnemu naslovu je trenutno prepovedano pošiljanje pošte drugim uporabnikom.",
+	"spam-blacklisted-email-signup": "Uporaba navedenega e-poštnega naslova je trenutno prepovedana.",
+	"spam-invalid-lines": "{{PLURAL:$1|Naslednja vrstica|Naslednji vrstici|Naslednje vrstice}} seznama blokiranja smetja {{PLURAL:$1|je neveljavni regularni izraz in ga|sta neveljavna regularna izraza in ju|so neveljavni regularni izrazi in jih}} je pred shranjevanjem strani treba popraviti:",
+	"spam-blacklist-desc": "Orodje proti smetju, temelječe na regularnih izrazih, ki omogoča blokiranje seznama spletnih naslovov na straneh in v e-poštnih naslovih za registrirane uporabnike",
+	"log-name-spamblacklist": "Dnevnik seznama blokiranja smetja",
+	"log-description-spamblacklist": "Ti dogodki sledijo zadetke seznama blokiranja smetja.",
+	"logentry-spamblacklist-hit": "$1 je {{GENDER:$2|povzročil|povzročila|povzročil_a}} zadetek na seznamu blokiranja smetja na strani $3 ob dodajanju povezave $4",
+	"right-spamblacklistlog": "Prikaz dnevnika seznama blokiranja smetja",
+	"action-spamblacklistlog": "ogled dnevnika s seznamom blokiranja smetja",
+	"right-sboverride": "Izognitev seznamu blokiranega smetja",
+	"action-sboverride": "izogniti se seznamu blokiranega smetja"
+}

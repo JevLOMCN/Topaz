@@ -1,0 +1,17 @@
+{
+	"@metadata": {
+		"authors": [
+			"Ardzun",
+			"David Wadie Fisher-Freberg",
+			"Iwan Novirion",
+			"Muhraz",
+			"Naval Scene"
+		]
+	},
+	"pfunc_time_error": "Kasalahan: wakatu indak tapek",
+	"pfunc_expr_unrecognised_word": "Kasalahan ekspresi: Kato \"$1\" indak dikataui.",
+	"pfunc_expr_unexpected_operator": "Kasalahan ekspresi: Operator $1 indak disangko",
+	"pfunc_expr_missing_operand": "Kasalahan ekspresi: Operand indak basuo untuak $1",
+	"pfunc_expr_unrecognised_punctuation": "Kasalahan ekspresi: Tando baco \"$1\" indak dikataui.",
+	"pfunc_expr_division_by_zero": "Pambagian dek nol"
+}

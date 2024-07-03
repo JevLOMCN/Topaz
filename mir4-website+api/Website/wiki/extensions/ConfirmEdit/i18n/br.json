@@ -1,0 +1,34 @@
+{
+	"@metadata": {
+		"authors": [
+			"Adriendelucca",
+			"BrokenArrow",
+			"Fohanno",
+			"Fulup",
+			"Huñvreüs",
+			"VIGNERON",
+			"Y-M D"
+		]
+	},
+	"captcha-edit": "A-raok gellout kemmañ ar bajenn-mañ e c'houlenner ouzhoc'h respont d'ar boelladenn a-is ha lakaat an disoc'h er voest ([[Special:Captcha/help|muioc’h a ditouroù]])",
+	"captcha-desc": "Pourchas a ra teknikoù CAPTCHA evit en em wareziñ diouzh ar strob hag an diskuliañ gerioù-tremen",
+	"captcha-info-help": "Deskrivadur ar c'hCAPTCHA.",
+	"captcha-addurl": "Liammoù diavaez nevez zo bet ouzhpennet ganeoc'h.\nA-benn talañ ouzh ar strob emgefre, diskoulmit ar boelladenn da heul mar plij ha merkit ar respont ar voest evit enrollañ ho kemm ([[Special:Captcha/help|gouzout hiroc’h]]):",
+	"captcha-badlogin": "A-benn talañ ouzh preizhadur emgefre ar gerioù-tremen e c'houlenner ouzhoc'h jediñ an tamm oberiadenn ha skrivañ an disoc'h anezhi er vaezienn a-is ([[Special:Captcha/help|Petra eo se ?]]):",
+	"captcha-createaccount": "A-benn hor sikour da dalañ ouzh ar c'hrouiñ kontoù emgefre, jedit an tamm oberiadenn ha skrivañ an disoc'h anezhi er vaezienn a-is ([[Special:Captcha/help|gouzout hiroc'h]]) :",
+	"captcha-createaccount-fail": "Pe e vank ar c'hod CAPTCHA pe ez eo fall.",
+	"captcha-create": "A-benn krouiñ ar bajenn, skrivit disoc'h ar jedadennig eeun-mañ er vaezienn : <br />([[Special:Captcha/help|gouzout hiroc'h]])",
+	"captcha-sendemail": "Evit hor sikourda zizarbenn ar strob emgefre, skrivit disoc'h ar jedadenn eeun a-is er voest mar plij ([[Special:Captcha/help|gouzout hiroc'h]]) :",
+	"captcha-sendemail-fail": "Pe e vank ar c'hod CAPTCHA pe ez eo fall.",
+	"captcha-disabledinapi": "Evit an obererezh-mañ ez eus ezhomm ur captcha, dre-se ne c'hell ket bezañ graet dre an API.",
+	"captchahelp-title": "Skoazell Capcha",
+	"captchahelp-cookies-needed": "Ret eo deoc'h gweredekaet an toupinoù war ho merdeer Web evit ma'z afe en-dro.",
+	"captchahelp-text": "Alies e vez taget al lec'hiennoù a zegemer kemennadennoù a-berzh an holl, evel ar wiki-mañ, gant ar stroberien a implij ostilhoù emgefre evit postañ o liammoù war lec'hiennoù a bep seurt. \nHa pa c'hallfent bezañ diverket, kazus-mat ez int memes tra. \n\nA-wezhioù, dreist-holl pa vez ouzhpennet liammoù Web nevez war ur bajenn, e c'hallo ar wiki-mañ diskouez deoc'h ur skeudenn warni un tamm testenn liv pe a-dreuz. Goulennet e vo diganeoc'h skrivañ ar gerioù a welit. \nUn trevell start da emgefrekaat eo hemañ. Gant se e c'hallo an implijerien wirion postañ ar pezh a fell dezho tra ma vo lakaet un harz d'an darn vrasañ eus ar stroberien pe d'an dagerien robotek all. \n\nKoulskoude e c'hallo an implijerien berr o gweled pe ar re a implij merdeerioù diazezet war ar skrid pe war ar vouezh bezañ strafuilhet gant se. N'omp ket evit kinnig un diskoulm dre glevet evit c'hoazh. \nKit e darempred gant [[Special:ListAdmins|merourien al lec'hienn]] m'hoc'h eus diaesterioù evit kemer perzh abalamour d'an teknik-se. \n\nPouezit war bouton 'kent' ho merdeer evit distreiñ d'ar bajenn gemmañ.",
+	"captcha-addurl-whitelist": " #<!-- laoskit al linenn-mañ tre evel m'emañ --> <pre>\n# Setu penaos emañ an ereadur :\n#  * Kement tra war-lerc'h an arouezenn \"#\" zo un urzhiad, betek penn all al linenn\n#  * Kement linenn n'eo ket goullo zo ur c'hod regex a vo implijet e diabarzh al liammoù gourdskrid hepken\n  #</pre> <!-- laoskit al linenn-mañ tre evel m'emañ -->",
+	"right-skipcaptcha": "Lañsañ a ra an oberoù captcha hep bezañ rediet da dremen drezañ",
+	"confirmedit-preview-line": "Niverenn linenn",
+	"confirmedit-preview-content": "Danvez",
+	"confirmedit-preview-validity": "Reizhder",
+	"confirmedit-preview-valid": "reizh",
+	"confirmedit-preview-invalid": "direizh"
+}

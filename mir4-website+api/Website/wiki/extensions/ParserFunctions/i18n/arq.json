@@ -1,0 +1,16 @@
+{
+	"@metadata": {
+		"authors": [
+			"Bachounda",
+			"NEHAOUA",
+			"Oldstoneage",
+			"Vikoula5"
+		]
+	},
+	"pfunc_time_error": "غلطة: لوقت غالط",
+	"pfunc_expr_unrecognised_word": "غلط فالتعبير: كلمة غير متعرف عليها \"$1\"",
+	"pfunc_expr_unexpected_operator": "غلطة تاع تعبير : عامل '''$1''' ماشي مقارع.",
+	"pfunc_expr_missing_operand": "غلطة ف`التعبير: معمول مودّر لـ$1",
+	"pfunc_expr_unrecognised_punctuation": "غلطه فالتعبير: علامة تنقيط ماشي متعرف عليها \"$1\"",
+	"pfunc_expr_division_by_zero": "لقسمة على زيرو"
+}

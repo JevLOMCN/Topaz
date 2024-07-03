@@ -1,0 +1,21 @@
+{
+	"@metadata": {
+		"authors": [
+			"Fryed-peach",
+			"JtFuruhata",
+			"Otokoume",
+			"Schu",
+			"Shirayuki"
+		]
+	},
+	"inputbox-desc": "あらかじめ定義されたHTMLフォーム埋め込み機能を有効にする",
+	"inputbox-error-no-type": "作成する入力ボックスの種類を指定していません。",
+	"inputbox-error-bad-type": "「$1」という種類の入力ボックスは定義されていません。\n\"create\"、\"comment\"、\"search\"、\"search2\"、\"fulltext\"のいずれかを指定してください。",
+	"inputbox-tryexact": "一致する項目を検索",
+	"inputbox-searchfulltext": "全文検索",
+	"inputbox-createarticle": "項目を作成",
+	"inputbox-movearticle": "ページを移動",
+	"inputbox-postcomment": "新しい節",
+	"inputbox-postcommenttitle": "新しい節",
+	"inputbox-ns-main": "(標準)"
+}

@@ -1,0 +1,37 @@
+{
+	"@metadata": {
+		"authors": [
+			"Умар"
+		]
+	},
+	"scribunto-desc": "MediaWiki агӀонашкахь скриптийн мотт лато хӀума",
+	"scribunto-line": "$1 могӀанан тӀехь",
+	"scribunto-module-line": "$1 чохь $2  могӀанан тӀехь",
+	"scribunto-parser-dialog-title": "Скриптан гӀалат",
+	"scribunto-error-short": "Скриптан гӀалат: $1",
+	"scribunto-doc-page-does-not-exist": "''ХӀокху модулах лаьцна хааман [[$1]] агӀо кхолла мега''",
+	"scribunto-doc-page-header": "''ХӀара документацин агӀо йу [[$1]].''",
+	"scribunto-console-intro": "* ХӀокху модульс экспорт йеш йерг, лелолуш йу хийцалуш «p» санна, Ӏалашбина боцу хийцамашца.\n* Хьалха йилла билгало «=», дош санна къастайан йа лелайе print().\n* Модулан кодан йукъахь лелайе mw.log() хаам консуль чохь гучабалийта.",
+	"scribunto-console-title": "Лелоран консуль",
+	"scribunto-console-clear": "ЦӀанйан",
+	"scribunto-common-error-category": "Сриптийн гӀалаташ долу агӀонаш",
+	"scribunto-common-error-category-desc": "АгӀонан тӀетоьхна йолу модулаш кечйечу хенахь гӀалат даьлла.",
+	"scribunto-common-nosuchmodule": "Скриптан гӀалат: Иштта модуль йац «$2».",
+	"scribunto-common-nosuchfunction": "Скриптан гӀалат: Функцеш «$2» йац.",
+	"scribunto-common-backtrace": "Кхайкхамийн трассинг",
+	"scribunto-common-no-details": "Мадарра дац.",
+	"scribunto-lua-in-function": "«$1» функци чохь",
+	"scribunto-lua-in-function-at": "$1:$2 функци чохь",
+	"scribunto-lua-error-location": "Lua гӀалат $1: $2.",
+	"scribunto-lua-error": "Lua гӀалат: $2.",
+	"scribunto-luastandalone-write-error": "Lua гӀалат: Чоьхьара гӀалат: Конвейер чохь дӀайаздаран гӀалат.",
+	"scribunto-module-with-errors-category": "Scribunto модуль гӀалаташца",
+	"scribunto-module-with-errors-category-desc": "Модуль чохь гӀалаташ ду.",
+	"scribunto-limitreport-timeusage": "Lua лелоран хан",
+	"scribunto-limitreport-timeusage-value": "$1/$2 секунд",
+	"scribunto-limitreport-virtmemusage": "Виртуалан барам Lua",
+	"scribunto-limitreport-memusage": "Lua меттиг лелор",
+	"scribunto-limitreport-profile": "Профиль Lua",
+	"scribunto-limitreport-profile-ms": "$1 мс",
+	"scribunto-limitreport-logs": "Lua журналаш"
+}

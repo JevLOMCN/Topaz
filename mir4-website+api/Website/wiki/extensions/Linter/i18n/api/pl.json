@@ -1,0 +1,22 @@
+{
+	"@metadata": {
+		"authors": [
+			"Chrumps",
+			"Matma Rex",
+			"Msz2001",
+			"Rail",
+			"Woytecr"
+		]
+	},
+	"apihelp-query+linterrors-summary": "Pobiera listę błędów lintera",
+	"apihelp-query+linterrors-param-categories": "Kategorie błędów składniowych",
+	"apihelp-query+linterrors-param-invisible-categories": "Ukryte kategorie błędów lintera",
+	"apihelp-query+linterrors-param-limit": "Liczba zwracanych wyników",
+	"apihelp-query+linterrors-param-from": "ID błędu od którego zacząć wymieniać",
+	"apihelp-query+linterrors-param-namespace": "Tylko błędy występujące w podanych przestrzeniach nazw",
+	"apihelp-query+linterrors-param-pageid": "Tylko błędy lintera ze stron o podanych ID",
+	"apihelp-query+linterrors-param-title": "Tylko błędy lintera ze strony o podanym tytule",
+	"apihelp-query+linterrors-example-1": "Pobierz listę błędów typu obsolete-tag",
+	"apihelp-query+linterstats-summary": "Pobiera liczbę błędów składniowych dla każdej kategorii lintera",
+	"apihelp-query+linterstats-example-1": "Pobierz liczbę błędów składniowych dla każdej kategorii lintera"
+}

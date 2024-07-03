@@ -1,0 +1,13 @@
+[
+	{
+		"path": "/math/v0/popup/html/{qid}",
+		"method": "GET",
+		"class": "MediaWiki\\Extension\\Math\\Rest\\Popup",
+		"services": [
+			"Math.WikibaseConnector",
+			"LanguageFactory",
+			"LanguageNameUtils",
+			"TitleFactory"
+		]
+	}
+]

@@ -1,0 +1,25 @@
+/*!
+ * VisualEditor MediaWiki UserInterface TemplatePage styles.
+ *
+ * @copyright See AUTHORS.txt
+ * @license The MIT License (MIT); see LICENSE.txt
+ */
+
+.ve-ui-mwTransclusionDialog {
+	&-multipart-message {
+		/* This top/bottom margin is meant to collapse with the next one */
+		margin: 48px 0 20px 0;
+	}
+
+	&-template-note {
+		margin-top: 16px;
+	}
+}
+
+.ve-ui-mwTwoPaneTransclusionDialogLayout-stackLayout > .oo-ui-panelLayout {
+	&.ve-ui-mwParameterPage,
+	&.ve-ui-mwAddParameterPage {
+		/* Tighter margins within a group of parameters. */
+		margin-top: 20px;
+	}
+}

@@ -1,0 +1,42 @@
+{
+	"@metadata": {
+		"authors": [
+			"Bennylin",
+			"Iwan Novirion",
+			"Meursault2004",
+			"NoiX180",
+			"Pras"
+		]
+	},
+	"cite-desc": "Nambah tenger <code>&lt;ref[ name=id]&gt;</code> lan <code>&lt;references/&gt;</code>, kanggo sitiran",
+	"cite_error": "Masalah sitiran: $1",
+	"cite_error_ref_numeric_key": "Tenger <code>&lt;ref&gt;</code> ora trep;\njenengé ora bisa mung integer prasaja. Anggonen sesirah sing dhèskriptif",
+	"cite_error_ref_no_key": "Tenger <code>&lt;ref&gt;</code> pambuka salah yasa utawa ngemu jeneng sing ala",
+	"cite_error_ref_too_many_keys": "Tenger <code>&lt;ref&gt;</code> ora trep;\njeneng ora trep, contoné amarga kakèhan",
+	"cite_error_ref_no_input": "Tenger <code>&lt;ref&gt;</code> ora trep;\nrefs tanpa jeneng kudu ana isiné",
+	"cite_error_references_duplicate_key": "Tenger <code>&lt;ref&gt;</code> ora trep; jeneng \"$1\" diwedharaké ping bola-bali déné isiné béda",
+	"cite_error_references_invalid_parameters": "Paramèter ora trep ing tenger <code>&lt;references&gt;</code>",
+	"cite_error_references_no_backlink_label": "Kentèkan label pranala balik. Tambahna ing pesenan sistém [[MediaWiki:Cite references link many format backlink labels]]",
+	"cite_error_no_link_label_group": "Labèl pranala umum kanggo klompok \"$1\" entèk. Tambahaké katemton nèng layang [[MediaWiki:$2]].",
+	"cite_error_references_no_text": "Tenger <code>&lt;ref&gt;</code> ora trep; \nora ana tèks tumrap refs kanthi jeneng <code>$1</code>",
+	"cite_error_included_ref": "<code>&lt;/ref&gt;</code> panutup ora ana tumrap tenger <code>&lt;ref&gt;</code>",
+	"cite_error_group_refs_without_references": "Tenger <code>&lt;ref&gt;</code> ana tumrap golongan aran \"$1\", nanging tenger <code>&lt;references group=\"$1\"/&gt;</code> sing magepokan ora ana, utawa <code>&lt;/ref&gt;</code> panutup ora ana",
+	"cite_error_references_group_mismatch": "<code>&lt;ref&gt;</code> tandha <code>&lt;references&gt;</code> nduwèni atribut klompok sing marai konflik \"$1\".",
+	"cite_error_references_missing_key": "Tenger <code>&lt;ref&gt;</code> kanthi jeneng \"$1\" sing diwedharaké ing <code>&lt;references&gt;</code> ora kanggo ing tèks sadurungé.",
+	"cite_error_references_no_key": "Tenger <code>&lt;ref&gt;</code> sing diwedharaké ing <code>&lt;references&gt;</code> ora duwé atribut jeneng.",
+	"cite_error_empty_references_define": "Tenger <code>&lt;ref&gt;</code> sing diwedharaké ing <code>&lt;references&gt;</code> kanthi jeneng \"$1\" ora ana isiné.",
+	"cite-tracking-category-cite-error": "Kaca mawa masalah rujukan",
+	"cite-tracking-category-cite-error-desc": "Kaca ing kategori iki ngemu masalah ing panggunané tenger rujukan.",
+	"cite_references_link_accessibility_label": "Lumpat",
+	"cite_references_link_many_accessibility_label": "Lumpat menyang:",
+	"cite_references_link_accessibility_back_label": "Lumpat bali munggah",
+	"cite_section_preview_references": "Pratuduh rujukan",
+	"cite_warning": "Pélik sitiran: $1",
+	"cite_warning_sectionpreview_no_text": "Tenger <code>&lt;ref&gt;</code> kanthi jeneng <code>$1</code> ora bisa dipratuduhaké amarga diwedharaké sajabané pérangan sing saiki utawa ora diwedharaké babar pisan.",
+	"cite-wikieditor-tool-reference": "Rujukan",
+	"cite-wikieditor-help-page-references": "Rujukan",
+	"cite-wikieditor-help-content-reference-description": "Rujukan",
+	"cite-wikieditor-help-content-named-reference-description": "Rujukan disebut",
+	"cite-wikieditor-help-content-rereference-description": "Panganggo liya saka rujukan sing padha",
+	"cite-wikieditor-help-content-showreferences-description": "Rujukan dipajang"
+}

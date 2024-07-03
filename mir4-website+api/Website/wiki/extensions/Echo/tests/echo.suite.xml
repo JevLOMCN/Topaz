@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- colors don't work on Windows! -->
+<phpunit bootstrap="bootstrap.php"
+	colors="true"
+	backupGlobals="false"
+	convertErrorsToExceptions="true"
+	convertNoticesToExceptions="true"
+	convertWarningsToExceptions="true"
+	stopOnFailure="false"
+	timeoutForSmallTests="2"
+	timeoutForMediumTests="10"
+	timeoutForLargeTests="60"
+	strict="true"
+	verbose="true">
+	<testsuites>
+		<testsuite name="extensions">
+			<!-- assumes extension is installed to mediawiki/extensions/Echo -->
+			<file>../../../tests/phpunit/suites/ExtensionsTestSuite.php</file>
+		</testsuite>
+	</testsuites>
+	<groups>
+		<exclude>
+			<group>Utility</group>
+			<group>Broken</group>
+			<group>ParserFuzz</group>
+			<group>Stub</group>
+		</exclude>
+	</groups>
+</phpunit>

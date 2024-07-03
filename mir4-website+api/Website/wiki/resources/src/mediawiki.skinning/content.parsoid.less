@@ -1,0 +1,18 @@
+/**
+ * Style Parsoid HTML+RDFa output consistent with wikitext from PHP parser.
+ */
+
+/*
+ * Auto-numbered external links
+ * Parsoid renders those as link without content, and lets CSS do the
+ * counting. This way the counting style can be customized, and counts update
+ * automatically when content is modified.
+ */
+.mw-parser-output {
+	counter-reset: mw-numbered-ext-link;
+}
+
+.mw-parser-output a[ rel~='mw:ExtLink' ]:empty::after {
+	content: '[' counter( mw-numbered-ext-link ) ']';
+	counter-increment: mw-numbered-ext-link;
+}

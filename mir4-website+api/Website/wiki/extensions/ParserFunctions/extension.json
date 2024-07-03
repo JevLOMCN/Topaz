@@ -1,0 +1,60 @@
+{
+	"name": "ParserFunctions",
+	"version": "1.6.1",
+	"author": [
+		"Tim Starling",
+		"Robert Rohde",
+		"Ross McClure",
+		"Juraj Simlovic"
+	],
+	"url": "https://www.mediawiki.org/wiki/Extension:ParserFunctions",
+	"descriptionmsg": "pfunc_desc",
+	"license-name": "GPL-2.0-or-later",
+	"type": "parserhook",
+	"requires": {
+		"MediaWiki": ">= 1.39"
+	},
+	"config": {
+		"PFEnableStringFunctions": {
+			"value": false
+		},
+		"PFStringLengthLimit": {
+			"value": 1000
+		}
+	},
+	"ExtensionMessagesFiles": {
+		"ParserFunctionsMagic": "ParserFunctions.i18n.magic.php"
+	},
+	"MessagesDirs": {
+		"ParserFunctions": [
+			"i18n"
+		]
+	},
+	"Hooks": {
+		"ParserTestGlobals": "ParserFunctionsHookHandler",
+		"ParserFirstCallInit": "ParserFunctionsHookHandler",
+		"ScribuntoExternalLibraries": "ParserFunctionsScribuntoHookHandler"
+	},
+	"HookHandlers": {
+		"ParserFunctionsHookHandler": {
+			"class": "MediaWiki\\Extension\\ParserFunctions\\Hooks",
+			"services": [
+				"MainConfig",
+				"HookContainer",
+				"LanguageConverterFactory",
+				"LanguageFactory",
+				"LanguageNameUtils",
+				"LinkCache",
+				"RepoGroup",
+				"SpecialPageFactory"
+			]
+		},
+		"ParserFunctionsScribuntoHookHandler": {
+			"class": "MediaWiki\\Extension\\ParserFunctions\\ScribuntoHooks"
+		}
+	},
+	"AutoloadNamespaces": {
+		"MediaWiki\\Extension\\ParserFunctions\\": "includes/"
+	},
+	"manifest_version": 2
+}

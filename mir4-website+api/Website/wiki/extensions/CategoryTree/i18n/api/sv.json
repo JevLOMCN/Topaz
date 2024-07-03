@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"Jopparn",
+			"Sabelöga",
+			"WikiPhoenix"
+		]
+	},
+	"apihelp-categorytree-summary": "Intern modul för tillägget CategoryTree.",
+	"apihelp-categorytree-param-category": "Titel i kategorinamnrymden, prefix kommer att ignoreras om de anges.",
+	"apihelp-categorytree-param-options": "Alternativ för CategoryTree-konstruktören som ett JSON-objekt. <var>depth</var> har standardvärdet <kbd>1</kbd>.",
+	"apierror-categorytree-invalidjson": "Alternativ måste vara ett giltigt JSON-objekt."
+}

@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"Delim"
+		]
+	},
+	"tooltip-pt-notifications-alert": "{{GENDER:|당신}}의 경보",
+	"notification-header-welcome": "{{SITENAME}}에 오신것을 {{GENDER:$2|환영}}합니다, $1님! 당신을 만나게 되여 기쁩니다.",
+	"echo-email-plain-footer": "저희가 {{GENDER:$1|당신}}에게 보낼 전자우편을 수정하려면 {{GENDER:$1|사용자}} 환경설정을 확인하십시오:"
+}

@@ -1,0 +1,27 @@
+!! Version 2
+!! article
+Template:=
+!! text
+no
+!! endarticle
+
+# {{=}} is a parser function which expands to `=`, although
+# referencing a template explicitly as {{Template:=}} is fine
+# regardless of what it expands to. (T91154)
+!! test
+Basic usage of {{=}}
+!! wikitext
+This uses {{=}}.
+!! html
+<p>This uses =.
+</p>
+!! end
+
+!! test
+Using {{Template:=}} doesn't invoke the parser function
+!! wikitext
+This uses {{Template:=}}.
+!! html
+<p>This uses no.
+</p>
+!! end

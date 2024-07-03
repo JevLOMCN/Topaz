@@ -1,0 +1,25 @@
+{
+	"@metadata": {
+		"authors": [
+			"Amire80",
+			"Kghbln",
+			"Purodha",
+			"Shirayuki",
+			"The Evil IP address",
+			"Umherirrender"
+		]
+	},
+	"imagemap_desc": "{{desc|name=Image Map|url=https://www.mediawiki.org/wiki/Extension:ImageMap}}",
+	"imagemap_no_image": "Used as error message.\n\nThis message indicates that an image must be specified in the first line.",
+	"imagemap_invalid_image": "Used as error message.",
+	"imagemap_bad_image": "Used as error message.",
+	"imagemap_no_link": "Used as error message. Parameters:\n* $1 - line number",
+	"imagemap_invalid_title": "Used as error message. Parameters:\n* $1 - line number",
+	"imagemap_missing_coord": "Used as error message. Parameters:\n* $1 - line number",
+	"imagemap_unrecognised_shape": "{{doc-important|Do not translate the parameters <code>default</code>, <code>rect</code>, <code>circle</code> or <code>poly</code>.}}\nUsed as error message. Parameters:\n* $1 - line number",
+	"imagemap_invalid_coord": "Used as error message. Parameters:\n* $1 - line number",
+	"imagemap_invalid_desc": "Used as error message. Parameters:\n* $1 - list of desc types",
+	"imagemap_description": "Used as HTML <code>title=</code> attribute of <code>&lt;a&gt;</code> tag and as HTML <code>alt=</code> attribute of <code>&lt;img&gt;</code> tag.",
+	"imagemap_desc_types": "{{optional}}{{doc-important|Keep the same order.}}",
+	"imagemap_poly_odd": "Used as error message. Parameters:\n* $1 - line number"
+}

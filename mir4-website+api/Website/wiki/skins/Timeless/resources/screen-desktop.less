@@ -1,0 +1,213 @@
+@import 'variables.less';
+
+// T181484 (firefox and chrome; doesn't fix anything else as yet)
+body,
+html {
+	scroll-padding-top: @fixed-header-height + 0.5em;
+}
+
+// Override menu display from mobile
+// This also requires !importants where they hover and stuff
+.dropdown,
+.sidebar-inner {
+	display: block !important;
+}
+
+.ts-inner {
+	max-width: @content-width;
+	box-sizing: border-box;
+	padding: 0 1em;
+	margin: auto;
+}
+
+div.mw-notification-area {
+	top: @fixed-header-height + 0.25em;
+}
+
+/* Header */
+
+#mw-header {
+	.flex-display;
+}
+
+#mw-header-container {
+	/* Stupid IE10+ bug requires defining the height property for this to work
+	 * the way it is intended; without doing that this'll break horribly under
+	 * IE10 and IE11.
+	 * @see https://phabricator.wikimedia.org/T173769
+	 */
+	height: 0;
+	position: fixed;
+	z-index: @z-index-fixed;
+	top: 0;
+	width: 100%;
+	background: @background;
+	color: @text;
+	padding: 0.5em 0 0;
+	min-height: @fixed-header-height;
+	box-sizing: border-box;
+}
+
+#p-logo-text {
+	.flex(0, 0, auto, 1);
+}
+
+#p-search {
+	.flex(1, 1, auto, 2);
+}
+
+#user-tools {
+	.flex(0, 1, auto, 3);
+	display: inline-block;
+
+	h2 span {
+		display: inline-block;
+		max-width: 300px;
+		white-space: nowrap;
+		overflow: hidden;
+		text-overflow: ellipsis;
+	}
+
+	// Because the overflow:hidden above messes up the alignment...
+	#personal h2::after {
+		height: 22px;
+	}
+}
+
+#mw-header-nav-hack,
+#mw-header-hack {
+	position: fixed;
+	z-index: @z-index-fixed - 3;
+	top: @fixed-header-height;
+	box-shadow: 0 3px 3px 2px rgba( 0, 0, 0, 0.075 ), 0 0 2px rgba( 0, 0, 0, 0.2 );
+}
+
+#mw-header-nav-hack {
+	display: none;
+}
+
+#personal {
+	display: inline-block;
+	position: relative;
+	padding-left: 1.5em;
+	line-height: 1;
+
+	.dropdown {
+		top: 3.15em;
+		display: none !important;
+		.dropdown-menu();
+		.dropdown-pokey();
+	}
+
+	.pokey {
+		top: 1.9em;
+	}
+
+	h2 {
+		margin: 0;
+		padding: 0.5em 0 0 25px;
+		font-family: @fonts-secondary;
+		font-weight: normal;
+		font-size: 1.25em;
+		background-image: url( images/user-grey.svg );
+		background-position: left 9px;
+		background-repeat: no-repeat;
+
+		.dropdown-header();
+
+		span {
+			display: inline-block;
+			line-height: normal;
+			word-wrap: break-word;
+		}
+	}
+}
+
+.client-nojs #personal:hover {
+	.pokey,
+	.dropdown {
+		display: block !important;
+	}
+}
+
+#mw-wrapper .dropdown-active {
+	.pokey,
+	.dropdown,
+	.sidebar-inner {
+		display: block !important;
+	}
+}
+
+#p-variants-desktop {
+	float: right;
+	margin: 0.25em 0 1em 1em;
+	position: relative;
+
+	h3 {
+		.dropdown-header();
+		.ca-icon( 'images/languages-grey' );
+		font-size: 1em;
+		font-family: @fonts;
+		border-bottom: transparent;
+		margin: 0 0 -1em;
+		line-height: 1.5;
+		padding-bottom: 1em;
+	}
+
+	.dropdown {
+		display: none !important;
+		.dropdown-menu();
+		.dropdown-pokey();
+		// Override the mobile thing
+		top: 2.25em !important;
+		padding-bottom: 2em;
+		margin-right: 2px;
+
+		.selected a {
+			color: @text;
+		}
+	}
+}
+
+.client-nojs #p-variants-desktop:hover .dropdown {
+	display: block !important;
+}
+
+.mw-wiki-logo {
+	display: block;
+	margin: 0.75em auto 0;
+
+	&.fallback {
+		content: '';
+		width: 11em;
+		height: 11em;
+		background-repeat: no-repeat;
+		background-position: center center;
+	}
+
+	&.timeless-logo {
+		background-image: none;
+
+		img {
+			// Let's not assume our users are sizing these to anything in particular
+			// 135px because that keeps things semi-consistent with logo parts of oldstyle logos
+			width: 135px;
+			height: auto;
+			margin: 0.75em 0 0.5em;
+		}
+	}
+}
+
+#p-variants,
+#other-languages.variants-only,
+#mw-page-header-links #p-more,
+.sidebar-chunk h2 {
+	display: none;
+}
+
+/* Content */
+
+#mw-content-container {
+	margin-top: @fixed-header-height + @color-height;
+	padding-bottom: 1em;
+}

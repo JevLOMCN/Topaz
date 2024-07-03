@@ -1,0 +1,11 @@
+@import 'main.less';
+@import 'thumbnails.less';
+@import 'images.less';
+@import 'headings.less';
+@import 'lists.less';
+@import 'links.less';
+@import 'text.less';
+@import 'tables.less';
+& when (@wgMinervaApplyKnownTemplateHacks = 1) {
+	@import (multiple) 'hacks.less';
+}

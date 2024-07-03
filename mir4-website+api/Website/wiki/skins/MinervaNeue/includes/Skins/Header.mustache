@@ -1,0 +1,34 @@
+
+<header class="header-container header-chrome">
+	<div class="minerva-header">
+		<nav class="navigation-drawer toggle-list view-border-box">
+			<input type="checkbox" id="main-menu-input" class="toggle-list__checkbox" role="button" aria-haspopup="true" aria-expanded="false" aria-labelledby="mw-mf-main-menu-button">
+			{{#data-minerva-main-menu-btn}}{{>Button}}{{/data-minerva-main-menu-btn}}
+			{{#data-minerva-main-menu}}{{>menu}}{{/data-minerva-main-menu}}
+			<label class="main-menu-mask" for="main-menu-input"></label>
+		</nav>
+		<div class="branding-box">
+			<a href="{{link-mainpage}}">
+			{{#data-logos}}
+				<span>{{>Logo}}</span>
+			{{/data-logos}}
+				{{#is-minerva-beta}}<sup>&beta;</sup>{{/is-minerva-beta}}
+			</a>
+		</div>
+		{{#data-minerva-search-box}}
+			{{>SearchBox}}
+		{{/data-minerva-search-box}}
+		<nav class="minerva-user-navigation" aria-label="{{msg-minerva-user-navigation}}">
+			{{#data-minerva-notifications}}
+					<div class="minerva-notifications">
+						<ul>
+						{{#array-buttons}}
+						<li>{{>Button}}</li>
+						{{/array-buttons}}
+						</ul>
+					</div>
+			{{/data-minerva-notifications}}
+			{{#html-minerva-user-menu}}{{{html-minerva-user-menu}}}{{/html-minerva-user-menu}}
+		</nav>
+	</div>
+</header>

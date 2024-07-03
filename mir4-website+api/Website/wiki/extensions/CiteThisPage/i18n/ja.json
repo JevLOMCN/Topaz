@@ -1,0 +1,22 @@
+{
+	"@metadata": {
+		"authors": [
+			"Aotake",
+			"Fryed-peach",
+			"JtFuruhata",
+			"Omotecho",
+			"Shirayuki",
+			"Suisui",
+			"Whym",
+			"Yusuke1109"
+		]
+	},
+	"citethispage": "引用",
+	"citethispage-desc": "[[Special:CiteThisPage|引用情報]]の特別ページとツールボックスのリンクを追加する",
+	"citethispage-link": "このページを引用",
+	"tooltip-citethispage": "このページの引用方法",
+	"citethispage-change-submit": "引用",
+	"citethispage-change-target": "ページ:",
+	"citethispage-badrevision": "エラー:版番号$2のページ「$1」の版が見つかりませんでした。",
+	"citethispage-content": "__NOTOC__\n<div class=\"mw-specialCiteThisPage-bibliographic\">\n\n== 「{{FULLPAGENAME}}」の書誌情報 ==\n\n* ページ名: {{FULLPAGENAME}}\n* 著者: {{SITENAME}}への寄稿者ら\n* 発行者: ''{{SITENAME}}''\n* 更新日時: {{CURRENTYEAR}}年{{CURRENTMONTHNAME}}{{CURRENTDAY}}日 {{CURRENTTIME}} (UTC)\n* 取得日時: <citation>{{CURRENTYEAR}}年{{CURRENTMONTHNAME}}{{CURRENTDAY}}日 {{CURRENTTIME}} (UTC)</citation>\n* 恒久的なURI: {{canonicalurl:{{FULLPAGENAME}}|oldid={{REVISIONID}}}}\n* ページの版番号: {{REVISIONID}}\n\n</div>\n<div class=\"plainlinks mw-specialCiteThisPage-styles\">\n\n== 各種方式による「{{FULLPAGENAME}}」の書誌表示 ==\n\n=== [[APA style|APA方式]] ===\n{{FULLPAGENAME}}. ({{CURRENTYEAR}}年{{CURRENTMONTHNAME}}{{CURRENTDAY}}日{{CURRENTTIME}}). ''{{SITENAME}}''. <citation>{{CURRENTYEAR}}年{{CURRENTMONTHNAME}}{{CURRENTDAY}}日{{CURRENTTIME}}</citation> {{canonicalurl:{{FULLPAGENAME}}|oldid={{REVISIONID}}}} にて閲覧.\n\n=== [[The MLA style manual|MLA方式]] ===\n\"{{FULLPAGENAME}}.\" ''{{SITENAME}}''. {{CURRENTYEAR}}年{{CURRENTMONTHABBREV}}{{CURRENTDAY}}日{{CURRENTTIME}} (UTC). <citation>{{CURRENTYEAR}}年{{CURRENTMONTHABBREV}}{{CURRENTDAY}}日{{CURRENTTIME}}</citation> &lt;{{canonicalurl:{{FULLPAGENAME}}|oldid={{REVISIONID}}}}&gt;.\n\n=== [[MHRA Style Guide|MHRA方式]] ===\n{{SITENAME}}への寄稿者ら, '{{FULLPAGENAME}}', ''{{SITENAME}},''{{CURRENTYEAR}}年{{CURRENTMONTHABBREV}}{{CURRENTDAY}}日 (UTC), &lt;{{canonicalurl:{{FULLPAGENAME}}|oldid={{REVISIONID}}}}&gt; [<citation>{{CURRENTYEAR}}年{{CURRENTMONTHABBREV}}{{CURRENTDAY}}日</citation>閲覧]\n\n=== [[The Chicago Manual of Style|Chicago方式]] ===\n{{SITENAME}}への寄稿者ら, \"{{FULLPAGENAME}},\" ''{{SITENAME}},'' {{canonicalurl:{{FULLPAGENAME}}|oldid={{REVISIONID}}}} (<citation>{{CURRENTYEAR}}年{{CURRENTMONTHABBREV}}{{CURRENTDAY}}日</citation>閲覧).\n\n=== [[Council of Science Editors|CBE/CSE方式]] ===\n{{SITENAME}}への寄稿者ら. {{FULLPAGENAME}} [Internet]. {{SITENAME}}; {{CURRENTYEAR}}年{{CURRENTMONTHABBREV}}{{CURRENTDAY}}日{{CURRENTTIME}} (UTC) [<citation>{{CURRENTYEAR}}年{{CURRENTMONTHABBREV}}{{CURRENTDAY}}日</citation>現在で引用]. 入手元:\n{{canonicalurl:{{FULLPAGENAME}}|oldid={{REVISIONID}}}}.\n\n=== [[Bluebook|Bluebook方式]] ===\n{{FULLPAGENAME}}, {{canonicalurl:{{FULLPAGENAME}}|oldid={{REVISIONID}}}} (<citation>{{CURRENTYEAR}}年{{CURRENTMONTHNAME}}{{CURRENTDAY}}日</citation>最終訪問).\n\n=== [[BibTeX]]エントリ ===\n\n  @misc{ wiki:xxx,\n    author = \"{{SITENAME}}\",\n    title = \"{{FULLPAGENAME}} --- {{SITENAME}}{,} {{int:sitesubtitle}}\",\n    year = \"{{CURRENTYEAR}}\",\n    url = \"{{canonicalurl:{{FULLPAGENAME}}|oldid={{REVISIONID}}}}\",\n    note = \"[オンライン; 閲覧日時 <citation>{{CURRENTYEAR}}-{{CURRENTDAY}}-{{CURRENTMONTH}}</citation>]\"\n  }\n\nURIの体裁を整えるために[[LaTeX]]の url パッケージを用いる (プリアンブルのどこかに <code>\\usepackage{url}</code> と書く) 場合は、以下のようにした方がいいかもしれません。\n\n  @misc{ wiki:xxx,\n    author = \"{{SITENAME}}\",\n    title = \"{{FULLPAGENAME}} --- {{SITENAME}}{,} {{int:sitesubtitle}}\",\n    year = \"{{CURRENTYEAR}}\",\n    url = \"'''\\url{'''{{canonicalurl:{{FULLPAGENAME}}|oldid={{REVISIONID}}}}'''}'''\",\n    note = \"[オンライン; 閲覧日時 <citation>{{CURRENTYEAR}}-{{CURRENTDAY}}-{{CURRENTMONTH}}</citation>]\"\n  }\n\n\n</div> <!--closing div for \"plainlinks\"-->"
+}

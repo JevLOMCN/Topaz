@@ -1,0 +1,33 @@
+{
+	"@metadata": {
+		"authors": [
+			"CERminator",
+			"Obsuser",
+			"Srdjan m",
+			"Srđan"
+		]
+	},
+	"gadgets-desc": "Omogućava korisnicima da odaberu vlastite [[Special:Gadgets|CSS i JavaScript dodatke]] (gadgets) u svojim [[Special:Preferences#mw-prefsection-gadgets|postavkama]]",
+	"prefs-gadgets": "Dodaci",
+	"prefs-description-gadgets": "Uključite dodatne mogućnosti za svoj račun.",
+	"gadgets-prefstext": "Ovo je spisak posebnih dodataka koje možete uključiti za svoj korisnički račun.\nOvi dodaci se najčešće zasnivaju na JavaScriptu, tako da ga morate uključiti u svom pregledniku da bi mogli raditi.\nZapamtite da ovi dodaci nemaju utjecaj na ovu stranicu s postavkama.\n\nZapamtite da ovi posebni dodaci nisu dio MediaWiki softvera, te ih obično prave i razvijaju korisnici na lokalnim wikijima.\nAdministratori mogu mijenjati dostupne dodatke koristeći [[MediaWiki:Gadgets-definition|definicije]] i [[Special:Gadgets|opise]]. Broj korisnika koji koriste svaki dodatak na ovom wikiju naveden je se u [[Special:GadgetUsage|statistici korištenja dodataka]].",
+	"special-gadgets": "Dodaci (gadgets)",
+	"gadgetusage": "Statistika korištenja dodataka",
+	"gadgetusage-gadget": "Dodatak",
+	"gadgetusage-usercount": "Broj korisnika",
+	"gadgetusage-noresults": "Nije pronađen nijedan dodatak.",
+	"gadgetusage-intro": "Tabela prikazuje koliko je korisnika uključilo određene dodatke na wikiju. Pod aktivnim korisnicima smatraju se oni koji su napravili  izmjenu u {{PLURAL:$1|posljednji dan|posljednja $1 dana|posljednjih $1 dana}}. Spisak ne prikazuje statistike za standardne dodatke (koji su svima prvobitno uključeni) i moguće je da sadrži dodatke koji više nisu dostupni.",
+	"gadgetusage-activeusers": "Aktivni korisnici",
+	"gadgetusage-default": "Standardni",
+	"gadgets-title": "Dodaci",
+	"gadgets-pagetext": "Ispod je spisak posebnih dodataka koje korisnici mogu omogućiti na svojim [[Special:Preferences#mw-prefsection-gadgets|postavkama]], kako je to definisano u [[MediaWiki:Gadgets-definition|definicijama dodataka]].\nOvaj pregled daje jednostavan pristup sistemu stranica poruka koje definišu svaki dodatak i njihov opis i kod.",
+	"gadgets-editdescription": "Uredi opis",
+	"gadgets-uses": "Upotrebe",
+	"gadgets-required-rights": "Zahtijeva {{PLURAL:$2|sljedeće pravo|sljedeća prava}}:\n\n$1",
+	"gadgets-default": "Omogućeno za svakog po postavkama.",
+	"gadgets-export": "Izvoz",
+	"gadgets-export-title": "Izvoz dodatka",
+	"gadgets-not-found": "Dodatak \"$1\" nije pronađen.",
+	"gadgets-export-text": "Za izvoz dodatka $1, kliknite na dugme \"{{int:gadgets-export-download}}\", spremite skinutu datoteku,\nidite na Posebno:Uvoz na odredišnu wiki i postavite je. Zatim dodajte sljedeće na stranicu MediaWiki:Gadgets-definition:\n<pre>$2</pre>\nMorate imati odgovarajuća prava na odredišnoj wiki (uključujući pravo da uređujete sistemske poruke) i uvoz iz postavljenih datoteka mora biti omogućen.",
+	"gadgets-export-download": "Skidanje"
+}

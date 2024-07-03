@@ -1,0 +1,36 @@
+{
+	"@metadata": {
+		"authors": [
+			"CiphriusKane",
+			"John Reid"
+		]
+	},
+	"categorytree": "Categerie tree",
+	"categorytree-portlet": "Categeries",
+	"categorytree-legend": "Shaw categerie tree",
+	"categorytree-desc": "Dynameeclie navigate the [[Special:CategoryTree|categerie structure]]",
+	"categorytree-header": "Enter ae categerie name tae see its contents aes ae tree structure.\nMynd that this needs advanced JavaScript functionalitie knawn aes AJAX.\nGif ye hae ae fair audld brouser, or hae JavaScript disabled, it'll no wirk.",
+	"categorytree-category": "Categerie:",
+	"categorytree-go": "Shaw tree",
+	"categorytree-parents": "Pairents",
+	"categorytree-mode-label": "Mode:",
+	"categorytree-mode-categories": "categeries anely",
+	"categorytree-mode-pages": "pages except files",
+	"categorytree-mode-all": "aw pages",
+	"categorytree-collapse": "collapse",
+	"categorytree-expand": "mak muckler",
+	"categorytree-member-counts": "Contains {{PLURAL:$1|1 subcategerie|$1 subcategeries}}, {{PLURAL:$2|1 page|$2 pages}}, n {{PLURAL:$3|1 file|$3 files}}",
+	"categorytree-num-categories": "$1 C",
+	"categorytree-num-pages": "$1 P",
+	"categorytree-num-files": "$1 F",
+	"categorytree-num-empty": "tuim",
+	"categorytree-load": "laid",
+	"categorytree-loading": "laidin…",
+	"categorytree-nothing-found": "nawthing foond",
+	"categorytree-no-subcategories": "nae subcategeries",
+	"categorytree-no-parent-categories": "nae pairent categeries",
+	"categorytree-no-pages": "nae pages or subcategeries",
+	"categorytree-not-found": "Categerie <i>$1</i> no foond",
+	"categorytree-error": "Proablem laidin data.",
+	"categorytree-retry": "Please wait ae moment n gie it anither shot."
+}

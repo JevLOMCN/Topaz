@@ -1,0 +1,33 @@
+.mw-ext-imagemap-inner {
+	display: inline-block;
+	position: relative;
+}
+
+.mw-ext-imagemap-desc-link {
+	position: absolute;
+	width: 20px;
+	height: 20px;
+	background-image: url( desc-20.png );
+}
+
+:not( figcaption ) .mw-ext-imagemap-desc-link {
+	.mw-ext-imagemap-desc-top-right > & {
+		top: 5px;
+		right: 5px;
+	}
+
+	.mw-ext-imagemap-desc-bottom-right > & {
+		bottom: 5px;
+		right: 5px;
+	}
+
+	.mw-ext-imagemap-desc-bottom-left > & {
+		bottom: 5px;
+		left: 5px;
+	}
+
+	.mw-ext-imagemap-desc-top-left > & {
+		top: 5px;
+		left: 5px;
+	}
+}

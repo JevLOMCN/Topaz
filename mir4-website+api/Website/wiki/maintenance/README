@@ -1,0 +1,104 @@
+MediaWiki's maintenance scripts are PHP scripts that perform maintenance tasks,
+and are designed to be run from the command line.
+
+See also: https://www.mediawiki.org/wiki/Manual:Maintenance_scripts
+
+== Running Maintenance Scripts ==
+
+Maintenance scripts are generally executed using the maintenance runner, calling
+''php maintenance/run.php'' followed by the script's name. On most systems, the
+shorthand ''maintenance/run'' can also be used. For instance, to run the script
+that displays the MediaWiki version, use ''maintenance/run version''.
+
+Maintenance scripts can be called by their simple name, class name, or path.
+
+The simple name corresponds to a file in the maintenance directory:
+* ''maintenance/run version'' runs the file ''maintenance/version.php''.
+
+For the class name:
+* ''maintenance/run Version'' runs the Version class (using auto-loading from
+''./maintenance/version.php'').
+
+For the path:
+* ''maintenance/run ./maintenance/version.php'' runs the file
+''./maintenance/version.php''.
+
+Note that relative file paths must start with "./". Using this form allows for
+the use of tab-completion.
+
+Maintenance scripts defined by extensions may also be called by giving their
+full class name or full relative path, such as:
+* ''maintenance/run ./extension/AbuseFilter/maintenance/SearchFilters.php''
+* ''maintenance/run MediaWiki.Extension.AbuseFilter.Maintenance.SearchFilters''
+
+Note how the dot (".") can be used as a namespace separator instead of the
+backslash ("\").
+
+If the extension follows the MediaWiki coding conventions for the location and
+namespacing of maintenance scripts, they can be invoked using the name of the
+extension, followed by a colon (":") and the name of the script file or class:
+* ''maintenance/run AbuseFilter:SearchFilters''
+
+For more details on using the script runner, call ''maintenance/run --help''.
+
+For about an individual script, call ''maintenance/run <script> --help ''.
+
+=== Running Maintenance Scripts before MW 1.40 ===
+
+The maintenance runner described above was introduced in MediaWiki 1.40. In
+MediaWiki version 1.39 and earlier, maintenance scripts had to be run as
+standalone PHP scripts, by passing the path the the script to the php interpreter.
+For instance:
+
+* ''php maintenance/version.php''
+
+This is still possible for most scripts in 1.40, but it will show a deprecation
+warning.
+
+== Creating Maintenance Scripts ==
+
+To create a maintenance script, add a PHP file to the maintenance directory that
+contains a class that extends the ''Maintenance'' base class and implement
+the ''execute()'' method. At the end of the file, add a return statement that
+returns the name of the class.
+
+For example, if your class is called ''Frobnify'', place it in a file called
+''maintenance/Frobnify.php'' and at the end of the file, put the following
+statement:
+<pre>
+return Frobnify::class;
+</pre>
+
+You can now run your script by calling ''maintenance/run Frobnify''.
+
+With this, it will however not be possible to run Frobnify.php as a PHP command
+line script. ''php maintenance/Frobnify.php'' will fail with an error.
+
+=== Supporting direct execution of maintenance scripts ===
+Since MediaWiki version 1.40, invoking maintenance scripts directly is now
+deprecated, and will show a warning even for scripts that support it.
+
+If you need to support direct invocation for your script, this can be
+achieved as follows:
+
+At the top of the script file, place the statement:
+<pre>
+require_once __DIR__ . '/Maintenance.php';
+</pre>.
+
+For maintenance scripts defined in extensions, this is slightly more complex:
+<pre>
+require_once getenv( 'MW_INSTALL_PATH' ) !== false
+	? getenv( 'MW_INSTALL_PATH' ) . '/maintenance/Maintenance.php'
+	: __DIR__ . '/../../../maintenance/Maintenance.php';
+</pre>
+
+Then, at the bottom of the file, replace the return statement with the
+following lines:
+<pre>
+$maintClass = Frobnify::class;
+require_once RUN_MAINTENANCE_IF_MAIN;
+</pre>
+
+This will allow your script to be executed directly on the PHP command line.
+Note however that it will show a warning.

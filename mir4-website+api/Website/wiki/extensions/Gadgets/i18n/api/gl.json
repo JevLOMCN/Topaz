@@ -1,0 +1,25 @@
+{
+	"@metadata": {
+		"authors": [
+			"Banjo",
+			"Elisardojm",
+			"Toliño"
+		]
+	},
+	"apihelp-query+gadgetcategories-summary": "Retorna unha lista de categorías de trebellos.",
+	"apihelp-query+gadgetcategories-param-prop": "Que información de categoría obter:\n;name:Nome interno da categoría.\n;title:Título da categoría.\n;members:Número de trebellos na categoría.",
+	"apihelp-query+gadgetcategories-param-names": "Nomes de categorías a consultar.",
+	"apihelp-query+gadgetcategories-example-1": "Obter unha lista de categorías de trebellos existentes",
+	"apihelp-query+gadgetcategories-example-2": "Obter toda a información sobre categorías nomeadas \"foo\" e \"bar\"",
+	"apihelp-query+gadgets-summary": "Devolve unha lista dos trebellos usados neste wiki.",
+	"apihelp-query+gadgets-param-prop": "Que información obter do trebello:\n;id:Identificador interno de trebello.\n;metadata:Metadatos do trebello.\n;desc:Descrición do trebello transformada en HTML (pode ser lento, usar só se é necesario realmente).",
+	"apihelp-query+gadgets-param-categories": "De que categorías consultar os trebellos.",
+	"apihelp-query+gadgets-param-ids": "Identificadores dos trebellos a consultar.",
+	"apihelp-query+gadgets-param-allowedonly": "Listar só os trebellos permitidos para o usuario actual.",
+	"apihelp-query+gadgets-param-enabledonly": "Listar só os trebellos habilitados polo usuario actual.",
+	"apihelp-query+gadgets-example-1": "Amosar unha lista de trebellos xunto coas súas descricións",
+	"apihelp-query+gadgets-example-2": "Amosar unha lista de trebellos con tódalas propiedades posibles",
+	"apihelp-query+gadgets-example-3": "Amosar unha lista de trebellos que pertenzan á categoría \"foo\"",
+	"apihelp-query+gadgets-example-4": "Amosar información sobre os trebellos \"foo\" e \"bar\"",
+	"apihelp-query+gadgets-example-5": "Amosar unha lista dos trebellos habilitados para o usuario actual"
+}

@@ -1,0 +1,165 @@
+.mw-debug {
+	width: 100%;
+	background-color: #eee;
+	border-top: 1px solid #aaa;
+
+	pre {
+		/* TODO: Re-evaluate whether we should keep this over-ride or switch to ems */
+		/* stylelint-disable-next-line declaration-property-unit-disallowed-list */
+		font-size: 11px;
+		padding: 0;
+		margin: 0;
+		background: none;
+		border: 0;
+	}
+
+	table {
+		border-spacing: 0;
+		width: 100%;
+		table-layout: fixed;
+
+		tr {
+			background-color: #fff;
+
+			&:nth-child( even ) {
+				background-color: #f9f9f9;
+			}
+		}
+
+		td,
+		th {
+			padding: 4px 10px;
+		}
+
+		td {
+			border-bottom: 1px solid #eee;
+			word-wrap: break-word;
+
+			/* stylelint-disable-next-line selector-class-pattern */
+			&.nr {
+				text-align: right;
+			}
+
+			/* stylelint-disable-next-line selector-class-pattern */
+			span.stats {
+				color: #727272;
+			}
+		}
+	}
+
+	ul {
+		margin: 0;
+		list-style: none;
+	}
+
+	li {
+		padding: 4px 0;
+		width: 100%;
+	}
+}
+
+.mw-debug-bits {
+	text-align: center;
+	border-bottom: 1px solid #aaa;
+}
+
+.mw-debug-bit {
+	display: inline-block;
+	padding: 10px 5px;
+	/* TODO: Re-evaluate whether we should keep this over-ride or switch to ems */
+	/* stylelint-disable-next-line declaration-property-unit-disallowed-list */
+	font-size: 13px;
+}
+
+.mw-debug-panelink {
+	background-color: #eee;
+	border-right: 1px solid #ccc;
+
+	&:first-child {
+		border-left: 1px solid #ccc;
+	}
+
+	&:hover {
+		background-color: #fefefe;
+		cursor: pointer;
+	}
+
+	/* stylelint-disable-next-line selector-class-pattern */
+	&.current {
+		background-color: #dedede;
+	}
+}
+
+a.mw-debug-panelabel,
+a.mw-debug-panelabel:visited {
+	color: #000;
+}
+
+.mw-debug-pane {
+	height: 300px;
+	overflow: scroll;
+	display: none;
+	font-family: monospace, monospace;
+	/* TODO: Re-evaluate whether we should keep this over-ride or switch to ems */
+	/* stylelint-disable-next-line declaration-property-unit-disallowed-list */
+	font-size: 11px;
+	background-color: #e1eff2;
+	box-sizing: border-box;
+}
+
+#mw-debug-pane-debuglog,
+#mw-debug-pane-request {
+	padding: 20px;
+}
+
+#mw-debug-pane-request {
+	table {
+		width: 100%;
+		margin: 10px 0 30px;
+	}
+
+	tr,
+	th,
+	td,
+	table {
+		border: 1px solid #d0dbb3;
+		border-collapse: collapse;
+		margin: 0;
+	}
+
+	th,
+	td {
+		/* TODO: Re-evaluate whether we should keep this over-ride or switch to ems */
+		/* stylelint-disable-next-line declaration-property-unit-disallowed-list */
+		font-size: 12px;
+		padding: 8px 10px;
+	}
+
+	th {
+		background-color: #f1f7e2;
+		font-weight: bold;
+	}
+
+	td {
+		background-color: #fff;
+	}
+}
+
+#mw-debug-console tr td {
+	&:first-child {
+		font-weight: bold;
+		vertical-align: top;
+	}
+
+	&:last-child {
+		vertical-align: top;
+	}
+}
+
+.mw-debug-console-log {
+	background-color: #add8e6;
+}
+
+.mw-debug-console-warn {
+	background-color: #ffa07a;
+}

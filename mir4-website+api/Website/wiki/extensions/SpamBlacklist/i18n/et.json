@@ -1,0 +1,23 @@
+{
+	"@metadata": {
+		"authors": [
+			"Pikne"
+		]
+	},
+	"spam-blacklist": " #<!-- Jäta see rida muutmata kujule. --> <pre>\n# Sellele nimekirjale vastavad internetiaadressid blokeeritakse.\n# See nimekiri puudutab ainult seda vikit; uuri ka globaalse blokeerimisnimekirja kohta.\n# Dokumentatsioon on asukohas https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:SpamBlacklist\n#\n# Süntaks on järgmine:\n#   * Kõik alates märgist \"#\" kuni rea lõpuni on kommentaar\n#   * Iga rida, mis ei ole tühi, on regulaaravaldise osa, milleks sobib internetiaadressi osadest ainult hostinimi\n\n #</pre> <!-- Jäta see rida muutmata kujule. -->",
+	"spam-whitelist": " #<!-- Jäta see rida muutmata kujule. --> <pre>\n# Sellele nimekirjale vastavaid internetiaadresse *ei* blokeerita isegi mitte siis\n# kui blokeerimisnimekirja sissekande järgi võiks need olla blokeeritud.\n#\n# Süntaks on järgmine:\n#   * Kõik alates märgist \"#\" kuni rea lõpuni on kommentaar\n#   * Iga rida, mis ei ole tühi, on regulaaravaldise osa, milleks sobib internetiaadressi osadest ainult hostinimi\n\n #</pre> <!-- Jäta see rida muutmata kujule. -->",
+	"email-blacklist": " #<!-- Jäta see rida muutmata kujule. --> <pre>\n# Sellele nimekirjale vastavatel e-posti aadressidel blokeeritakse registreerumine ja e-kirjade saatmine.\n# See nimekiri puudutab ainult seda vikit; uuri ka globaalse blokeerimisnimekirja kohta.\n# Dokumentatsioon on asukohas https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:SpamBlacklist.\n#\n# Süntaks on järgmine:\n#   * Kõik alates märgist \"#\" kuni rea lõpuni on kommentaar.\n#   * Iga rida, mis ei ole tühi, on regulaaravaldise osa, mis vastab ainult e-posti aadressides sisalduvatele hostinimedele.\n\n #</pre> <!-- Jäta see rida muutmata kujule. -->",
+	"email-whitelist": " #<!-- Jäta see rida muutmata kujule. --> <pre>\n# Sellele nimekirjale vastavaid e-posti aadresse *ei* blokeerita isegi mitte siis,\n# kui blokeerimisnimekirja sissekande järgi võiks need olla blokeeritud.\n#\n# Süntaks on järgmine:\n#   * Kõik alates märgist \"#\" kuni rea lõpuni on kommentaar.\n#   * Iga rida, mis ei ole tühi, on regulaaravaldise osa, mis vastab ainult e-posti aadressides sisalduvatele hostinimedele.\n\n #</pre> <!-- Jäta see rida muutmata kujule. -->",
+	"spam-blacklisted-email": "Keelatud e-posti aadress",
+	"spam-blacklisted-email-text": "Sinu e-posti aadressilt on praegu keelatud teistele kasutajatele e-kirju saata.",
+	"spam-blacklisted-email-signup": "Selle e-posti aadressi kasutamine on praegu keelatud.",
+	"spam-invalid-lines": "{{PLURAL:$1|Järgmine rida|Järgmised read}} rämpspostituste blokeerimisnimekirjas on {{PLURAL:$1|vigane regulaaravaldis|vigased regulaaravaldised}} ja {{PLURAL:$1|see|need}} tuleb enne lehekülje salvestamist parandada:",
+	"spam-blacklist-desc": "Regulaaravaldisel põhinev rämpspostituste vastane tööriist, mis võimaldab keelata internetiaadresse lehekülgedel ning registreeritud kasutajate e-posti aadresse.",
+	"log-name-spamblacklist": "Rämpsu blokeerimisnimekirja logi",
+	"log-description-spamblacklist": "Siin on loetletud rämpspostituse blokeerimisnimekirja tabamused.",
+	"logentry-spamblacklist-hit": "{{GENDER:$2|$1}} püüdis lisada leheküljele $3 rämpspostituse blokeerimisnimekirjas olevat linki $4.",
+	"right-spamblacklistlog": "Vaadata rämpsu blokeerimisnimekirja",
+	"action-spamblacklistlog": "vaadata rämpsu blokeerimisnimekirja",
+	"right-sboverride": "Alistada rämpspostitamise blokeerimisloendi",
+	"action-sboverride": "alistada rämpspostitamise blokeerimisloendit"
+}

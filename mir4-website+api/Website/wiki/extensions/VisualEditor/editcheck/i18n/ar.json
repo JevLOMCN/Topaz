@@ -1,0 +1,27 @@
+{
+	"@metadata": {
+		"authors": [
+			"Dyolf77 (WMF)"
+		]
+	},
+	"editcheck-dialog-action-no": "لا",
+	"editcheck-dialog-action-yes": "نعم",
+	"editcheck-dialog-addref-description": "ساعدوا القراء على فهم مصدر هذه المعلومات عن طريق إضافة استشهاد.",
+	"editcheck-dialog-addref-reject-question": "لماذا لن تضيفوا استشهادًا؟",
+	"editcheck-dialog-addref-reject-description": "سيقدر المحرّرون الآخرون معرفة المزيد عن قرارك بتجاوز الاستشهاد.",
+	"editcheck-dialog-addref-reject-irrelevant": "لا أعتقد أن الاستشهادات ضروريّة للتعديل الذي أقوم به",
+	"editcheck-dialog-addref-reject-common-knowledge": "المعلومات التي أقوم بإضافتها معروفة على نطاق واسع",
+	"editcheck-dialog-addref-reject-uncertain": "لست متيقِّنًا من الاستشهاد الذي يجب إضافته",
+	"editcheck-dialog-addref-reject-other": "غير ذلك",
+	"editcheck-dialog-addref-success-notify": "شكرًا لكم على إضافة استشهاد!",
+	"editcheck-dialog-addref-title": "إضافة استشهاد",
+	"editcheck-dialog-title": "قبل النشر",
+	"tag-editcheck-reference-decline-common-knowledge": "تم رفض (ثقافة عامة) التحقّق من التحرير (مراجع)",
+	"tag-editcheck-reference-decline-common-knowledge-description": "تم رفض مرجع EditCheck (أداة التحقّق) باعتباره ثقافةً عامة",
+	"tag-editcheck-reference-decline-irrelevant": "تم رفض (غير ذي صلة) التحقّق من التحرير (مراجع)",
+	"tag-editcheck-reference-decline-irrelevant-description": "تم رفض مرجع EditCheck (أداة التحقّق) باعتباره غير ذي صلة",
+	"tag-editcheck-reference-decline-other": "تم رفض (سبب آخر) التحقّق من التحرير (مراجع)",
+	"tag-editcheck-reference-decline-other-description": "تم رفض مرجع EditCheck (أداة التحقق) لسبب غير مدرج",
+	"tag-editcheck-reference-decline-uncertain": "تم رفض (ثقافة عامة) التحقّق من التحرير (غير متحقِّق)",
+	"tag-editcheck-reference-decline-uncertain-description": "تم رفض مرجع EditCheck (أداة النحقّق) لأنه غير متحقِّق"
+}

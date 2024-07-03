@@ -1,0 +1,29 @@
+{
+	"@metadata": {
+		"authors": [
+			"Bennylin",
+			"Diki Ananta",
+			"Meursault2004",
+			"N219",
+			"NoiX180",
+			"Notanotheramy",
+			"Pras",
+			"Sumbukompor"
+		]
+	},
+	"captcha-edit": "Saperlu mbesut kaca iki, sumangga rampungaké ayahan ing ngisor iki lan isi jawabané ing kothaké ([[Special:Captcha/help|katerangan pepaké]]):",
+	"captcha-desc": "Nyepakaké tèknik CAPTCHA kanggo ngreksa saka spam lan pambedhèk-tembung-sandi",
+	"captcha-addurl": "Suntingan panjenengan iku nyertakaké pranala jaba anyar.\nKanggo ngéwangi ngreksa lawan ''spam'' otomatis, tulung pecahna itung-itungan ing ngisor iki lan lebokna kasilna sajroning kothak ([[Special:Captcha/help|info sabanjuré]]):",
+	"captcha-badlogin": "Kanggo ngreksa lawan parengkahan tembung sandhi otomatis, tulung lebokna tembung utawa kasil itung-itungan gampang ing ngisor sajroning kothak sing wis sumedya ([[Special:Captcha/help|info sabanjuré]]):",
+	"captcha-createaccount": "Kanggo ngreksa wiki saka panggawé akun otomatis, tulung jawab ètung-ètungan ana ngisor iki lan tulisaké ing kothak ngisor ([[Special:Captcha/help|katerangan jangkep]]):",
+	"captcha-createaccount-fail": "Kodhe CAPTCHA salah utawa durung diisi.",
+	"captcha-create": "Kanggo nggawé kaca iki, mangga itung-itungan ing ngisor iki diwangsuli sajroning kothak ([[Special:Captcha/help|info sabanjuré]]):",
+	"captcha-sendemail": "Kanggo ngreksa lawan spam otomatis, tulung lebokna tembung utawa kasil itung-itungan gampang ing ngisor sajroning kothak sing wis sumedya ([[Special:Captcha/help|info sabanjuré]]):",
+	"captcha-sendemail-fail": "Kodhe CAPTCHA salah utawa durung diisi.",
+	"captcha-disabledinapi": "Tindakan ini membutuhkan CAPTCHA, sehingga tidak dapat dilakukan melalui API.",
+	"captchahelp-title": "Pitulung Captcha",
+	"captchahelp-cookies-needed": "Panjenengan perlu ngaktifaké kuki ing pangluru wèb panjenengan kanggo nganggo fitur iki.",
+	"captchahelp-text": "Situs-situs wèb sing nampa data saka umum, kaya ta wiki iki, kerep disalahgunakaké déning para naraguna sing ora bertanggungjawab kanggo ngirimaké ''spam'' mawa program-program otomatis. Senadyan spam-spam iku bisa dibuang kabèh, nanging tetep waé ngrusuhi lan dianggep gawé masalah.\n\nKadhangkala, utamané yèn mènèhi pranala wèb anyar ing sawijinig kaca, wiki iki bisa nuduhaké gambar sawijining gambar tulisan sing ana wernané utawa sing rusak lan njaluk panjenengan ngetik ulang tembung sing ana gambar iki.\nAmerga pagawéyan iki angèl diotomatisasi, pawatesan iki bisa ngidinaké mèh kabèh wong asli mbanjuraké sumbangsihé ngirim suntingan nanging menggak para pangirim spam lan robot otomatis.\n\nÉmané, perkara iki bisa nggawé sawetara naraguna kangélan nyunting kaca iki, utamané sing daya pandelengané kurang utawa para naraguna sing nganggo pangluru tèks adhedhasar tèks utawa swara. Saiki iki awaké dhéwé ora duwé alternatif audio kanggo iki. Mangga nyuwun pitulung karo [[Special:ListAdmins|para panata]] yèn perkara iki menggak panjenengan ngirimaké suntingan sing layak.\n\nPencèten tombol 'back' ing pangluru wèb panjenengan kanggo bali menyang kaca panyuntingan.",
+	"captcha-addurl-whitelist": " #<!-- leave this line exactly as it is --> <pre>\n# Sintaksisé kaya mengkéné:\n#  * Kabèh sing diawali mawa karakter \"#\" nganti pungkasané baris iku komentar\n#  * Kabèh garis sing ora kosong iku fragmèn regex sing namung cocog karo jeneng host sajroning URL\n  #</pre> <!-- leave this line exactly as it is -->",
+	"right-skipcaptcha": "Nglakokaké aksi-aksi sing murupaké CAPTCHA tanpa kudu ngliwati CAPTCHA"
+}

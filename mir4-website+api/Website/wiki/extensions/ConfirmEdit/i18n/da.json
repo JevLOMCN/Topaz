@@ -1,0 +1,35 @@
+{
+	"@metadata": {
+		"authors": [
+			"Aputtu",
+			"Byrial",
+			"Christian List",
+			"Dipsacus fullonum",
+			"Hylle",
+			"Kaare",
+			"Peter Alberti",
+			"Saederup92"
+		]
+	},
+	"captcha-edit": "For at redigere denne side, skal du give svaret på følgende opgave nedenfor, og angive resultatet i feltet under det. ([[Special:Captcha/help|mere information]]):",
+	"captcha-edit-fail": "Forkert eller manglende CAPTCHA.",
+	"captcha-desc": "Giver CAPTCHA-teknikker til at beskytte mod spam og gætning af adgangskoder",
+	"captcha-addurl": "Din redigering tilføjer nye eksterne henvisninger.\nSom beskyttelse af wikien mod automatiseret spam, skal du løse det enkle regnestykke nedenfor og skrive resultatet i boksen, for at kunne gemme din redigering ([[Special:Captcha/help|flere oplysninger]]):",
+	"captcha-badlogin": "For at beskytte wikien mod automatiseret adgangskodegætning, skal du løse det enkle regnestykke nedenfor og skrive resultatet i boksen ([[Special:Captcha/help|flere oplysninger]]):",
+	"captcha-createaccount": "For at beskytte wikien mod automatisk oprettelse af brugernavne, skal du løse det enkle regnestykke nedenfor og skrive resultatet i boksen ([[Special:Captcha/help|flere oplysninger]]):",
+	"captcha-createaccount-fail": "Forkert eller manglende CAPTCHA.",
+	"captcha-create": "For at oprette en ny side, skal du give svaret på regnestyket nedenfor, og angive resultatet i feltet under det. ([[Special:Captcha/help|mere information]]):",
+	"captcha-sendemail": "For at beskytte wikien mod automatisk spamning, skal du løse det enkle regnestykke nedenfor og skrive resultatet i boksen ([[Special:Captcha/help|flere oplysninger]]):",
+	"captcha-sendemail-fail": "Forkert eller manglende CAPTCHA.",
+	"captcha-disabledinapi": "Denne handling kræver en captcha, så det ikke kan udføres via API'en.",
+	"captchahelp-title": "Captcha-hjælp",
+	"captchahelp-cookies-needed": "Din browser skal have cookies slået til, før dette kan virke.",
+	"captchahelp-text": "Websites der accepterer indhold fra offentligheden, bliver ofte udsat for angreb fra spammere. Disse angreb sker med automatiske værktøjer, der anbringer de samme links på et stort antal websites på kort tid. Selvom disse links kan fjernes, er de en vedligeholdelsesmæssig byrde.\n\nI visse tilfælde, specielt når der tilføjes nye links til denne wiki, vil softwaren vise dig et billede af et stykke forvredet og sløret tekst. Du skal indtaste det ord, der vises, før du kan gennemføre handlingen. Formålet er at skelne mellem mennesker og automatiserede værktøjer, da de sidste har meget svært ved at genkende ordene.\n\nDesværre kan dette medføre problemer for svagtseende brugere, og brugere der bruger software der oplæser indholdet af siden. For øjeblikket findes der ikke et lydbaseret alternativ. Kontakt venligst en [[Special:ListAdmins|administrator]] med henblik på at få hjælp, hvis dette forhindrer tilføjelsen af godartet materiale.\n\nTryk på 'tilbage'-knappen i din browser for at returnere til redigeringssiden.",
+	"captcha-addurl-whitelist": " #<!-- Undlad at rette denne linje --> <pre>\n# Vejledning:\n#   * Alt fra et \"#\"-tegn til slutningen af en linje er en kommentar\n#   * Alle ikke-blanke linjer benyttes som regulært udtryk, der anvendes på hostnavne i URL'er\n #</pre> <!-- Undlad at rette denne linje -->",
+	"right-skipcaptcha": "Udføre handlinger som normalt kræver \"captcha\"-bekræftelse uden at bruge \"captcha\"",
+	"confirmedit-preview-line": "Linjenumre",
+	"confirmedit-preview-content": "Indhold",
+	"confirmedit-preview-validity": "Gyldighed",
+	"confirmedit-preview-valid": "gyldig",
+	"confirmedit-preview-invalid": "ugyldig"
+}

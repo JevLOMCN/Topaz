@@ -1,0 +1,165 @@
+@import 'mediawiki.skin.variables.less';
+@import 'mediawiki.mixins.less';
+
+@selected-text-color: @color-progressive;
+// This shade on a white background results in #eaf3ff a.k.a. @background-color-progressive-subtle
+@selected-shading: rgba( 0, 109, 255, 21/255 );
+
+// This shade on a white background results in #eaecf0 a.k.a. @background-color-interactive
+@hover-shading: @background-color-button-quiet--active;
+
+@on-click-text-color: @color-progressive;
+// Same as .oo-ui-optionWidget-pressed, a.k.a. @background-color-primary--hover
+@on-click-shading: rgba( 41, 98, 204, 0.1 );
+
+.ve-ui-mwTransclusionOutlineWidget {
+	.ve-ui-mwTransclusionOutline-ariaHidden {
+		display: none;
+	}
+
+	.ve-ui-mwTransclusionOutlinePartWidget {
+		margin-top: 24px;
+		margin-bottom: 24px;
+
+		&:first-child .ve-ui-mwTransclusionOutlineButtonWidget {
+			margin-top: -24px;
+		}
+
+		&:last-child.ve-ui-mwTransclusionOutlineWikitextWidget,
+		&:last-child.ve-ui-mwTransclusionOutlinePlaceholderWidget {
+			margin-bottom: 0;
+		}
+
+		.ve-ui-mwTransclusionOutlineButtonWidget {
+			display: block;
+			margin-top: -10px;
+
+			&:first-child {
+				margin-left: 0;
+			}
+
+			> .oo-ui-buttonElement-button {
+				display: block;
+				overflow: hidden;
+				padding: 8px 0 8px 36px;
+				text-overflow: ellipsis;
+
+				&:hover,
+				&:focus {
+					background-color: @hover-shading;
+				}
+
+				/* click */
+				&:active {
+					background-color: @on-click-shading;
+					color: @on-click-text-color;
+				}
+
+				> .oo-ui-iconElement-icon {
+					left: 10px;
+				}
+			}
+
+			/* selected */
+			&.oo-ui-optionWidget-selected > .oo-ui-buttonElement-button {
+				background-color: @selected-shading;
+
+				&:hover {
+					background-color: @hover-shading;
+					color: @selected-text-color;
+				}
+			}
+		}
+	}
+}
+
+.ve-ui-mwTransclusionOutlineTemplateWidget {
+	&-sticky {
+		background-color: @background-color-base;
+		.position-sticky();
+		top: 0;
+		z-index: 1;
+	}
+
+	&-no-template-parameters {
+		font-style: italic;
+		color: @color-subtle;
+		margin: 8px 24px 24px 24px;
+	}
+
+	&-searchWidget {
+		margin: 8px 24px;
+		width: auto;
+
+		&:last-child {
+			/* Workaround to override oo-ui-inputWidget:last-child rule */
+			margin-right: 24px;
+		}
+	}
+
+	&-no-match {
+		font-style: italic;
+		color: @color-subtle;
+		margin: 8px 24px;
+	}
+
+	.ve-ui-mwTransclusionOutlineToggleUnusedWidget {
+		margin: -4px 24px 0 24px;
+
+		.oo-ui-labelElement-label {
+			word-break: break-word;
+			word-wrap: break-word;
+			overflow-wrap: break-word;
+			white-space: normal;
+		}
+	}
+
+	.ve-ui-mwTransclusionOutlineParameterSelectWidget:focus {
+		border-radius: @border-radius-base;
+		box-shadow: @box-shadow-inset-small @box-shadow-color-progressive--focus;
+		outline: @outline-base--focus;
+	}
+
+	.ve-ui-mwTransclusionOutlineParameterWidget {
+		overflow: hidden;
+		padding-bottom: 8px;
+		padding-left: 30px;
+		padding-top: 8px;
+		text-overflow: ellipsis;
+		white-space: nowrap;
+
+		/* click */
+		&:active {
+			background-color: @on-click-shading;
+			color: @on-click-text-color;
+		}
+
+		&.ve-ui-mwTransclusionOutlineParameterWidget-activePage {
+			background-color: @selected-shading;
+
+			&,
+			&.oo-ui-optionWidget-highlighted {
+				color: @selected-text-color;
+			}
+		}
+
+		&.oo-ui-optionWidget-highlighted {
+			background-color: @hover-shading;
+			color: @color-emphasized;
+		}
+
+		&-hasValue {
+			font-weight: bold;
+		}
+
+		> .oo-ui-labelElement-label {
+			cursor: pointer;
+			display: inline;
+		}
+
+		.oo-ui-checkboxInputWidget.oo-ui-widget-enabled [ type='checkbox' ]:hover + span {
+			/* Stronger :hover effect to make the different checkbox/label click regions more obvious */
+			border-width: 2px;
+		}
+	}
+}

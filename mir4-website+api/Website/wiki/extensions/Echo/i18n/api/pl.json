@@ -1,0 +1,41 @@
+{
+	"@metadata": {
+		"authors": [
+			"Chrumps",
+			"Rail",
+			"Railfail536",
+			"SemanticPioneer",
+			"Woytecr"
+		]
+	},
+	"apihelp-echomarkread-summary": "Oznacz powiadomienia jako przeczytane dla bieżącego użytkownika.",
+	"apihelp-echomarkread-param-list": "Lista ID powiadomień do oznaczenia jako przeczytane.",
+	"apihelp-echomarkread-param-unreadlist": "Lista ID powiadomień do oznaczenia jako nieprzeczytane.",
+	"apihelp-echomarkread-param-all": "Jeżeli ustawiono, oznacza wszystkie powiadomienia użytkownika jako przeczytane.",
+	"apihelp-echomarkread-param-sections": "Lista sekcji do oznaczania jako przeczytane.",
+	"apihelp-echomarkread-example-1": "Oznacz powiadomienie 8 jako przeczytane",
+	"apihelp-echomarkread-example-2": "Oznacz wszystkie powiadomienia jako przeczytane",
+	"apihelp-echomarkread-example-3": "Oznacz powiadomienie 1 jako nieprzeczytane",
+	"apihelp-echomarkseen-summary": "Oznacz powiadomienia jako przeczytane dla bieżącego użytkownika.",
+	"apihelp-echomarkseen-example-1": "Oznacz powiadomienia wszystkich typów jako przeczytane",
+	"apihelp-echomarkseen-param-type": "Typ powiadomień do oznaczenia jako przeczytane: 'alert', 'message' lub 'all'.",
+	"apihelp-echomute-param-type": "Do której listy wyciszonych należy dodać lub z której usunąć",
+	"apihelp-echomute-param-mute": "Strony lub użytkownicy do dodania do listy ignorowanych",
+	"apihelp-echopushsubscriptions-param-command": "Akcja do wykonania.",
+	"apihelp-query+notifications-summary": "Pobierz powiadomienia oczekujące dla bieżącego użytkownika.",
+	"apihelp-query+notifications-param-prop": "Szczegóły żądania.",
+	"apihelp-query+notifications-param-sections": "Sekcje powiadomień, o które zapytać (tj. jakieś połączenie 'alert' i 'message').",
+	"apihelp-query+notifications-param-groupbysection": "Czy grupować wynik według sekcji. Każda sekcja jest pobierana osobno jeśli ustawiono.",
+	"apihelp-query+notifications-param-filter": "Filtruj zwrócone powiadomienia.",
+	"apihelp-query+notifications-param-format": "Jeśli określono, powiadomienia zostaną zwrócone sformatowane w taki sposób.",
+	"apihelp-query+notifications-paramvalue-format-model": "Surowe dane powiadomienia",
+	"apihelp-query+notifications-paramvalue-format-special": "Sformatowane dla strony Specjalna:Powiadomienia (i tylko tej!). Nie polegaj na HTML, jako że może zmienić się w dowolnym czasie.",
+	"apihelp-query+notifications-paramvalue-format-flyout": "<span class=\"apihelp-deprecated\">Zdeprecjonowane</span>. Użyj <kbd>$1format=model</kbd> dla surowych danych",
+	"apihelp-query+notifications-paramvalue-format-html": "<span class=\"apihelp-deprecated\">Zdeprecjonowane</span>. Użyj <kbd>$1format=model</kbd> dla surowych danych",
+	"apihelp-query+notifications-param-limit": "Maksymalna liczba zwracanych powiadomień.",
+	"apihelp-query+notifications-param-wikis": "Lista wiki, z których pobrać powiadomienia (domyślnie tylko bieżąca wiki).",
+	"apihelp-query+notifications-example-1": "Spis powiadomień",
+	"apihelp-query+notifications-example-2": "Wypisz powiadomienia pogrupowane według sekcji z ich liczbą",
+	"apihelp-query+unreadnotificationpages-param-limit": "Maksymalna liczba zwracanych stron.",
+	"apierror-echo-event-creation-failed": "Nie można utworzyć wydarzenia Echo"
+}

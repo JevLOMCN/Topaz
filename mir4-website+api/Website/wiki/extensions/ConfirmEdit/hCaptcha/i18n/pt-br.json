@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"Leonardo9387"
+		]
+	},
+	"hcaptcha-desc": "[https://www.hcaptcha.com/ hCaptcha] módulo para Confirmação de Edição",
+	"hcaptcha-edit": "Para proteger a wiki contra a edição automatizada de spam, pedimos gentilmente que resolva o seguinte código CAPTCHA:",
+	"hcaptcha-addurl": "A sua edição inclui novos links externos. Para proteger a wiki contra o spam automático, pedimos gentilmente que resolva o seguinte hCAPTCHA:",
+	"hcaptcha-badlogin": "Para proteger a wiki de quebra automatizada de senha, pedimos que resolva o seguinte hCAPTCHA:",
+	"hcaptcha-createaccount": "Para proteger a wiki contra a criação automatizada de conta, pedimos gentilmente que resolva o seguinte hCAPTCHA:",
+	"hcaptcha-createaccount-fail": "Parece que você não resolveu o hCaptcha.",
+	"hcaptcha-create": "Para proteger a wiki contra a criação automatizada de páginas, pedimos gentilmente que resolva o seguinte hCAPTCHA:",
+	"hcaptcha-help": "Por favor resolva um desafio hCaptcha e retorne o valor da resposta como captchaWord."
+}

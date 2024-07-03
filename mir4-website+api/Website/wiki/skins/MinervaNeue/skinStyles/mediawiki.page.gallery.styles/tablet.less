@@ -1,0 +1,18 @@
+@import '../../minerva.less/minerva.variables.less';
+@import '../../minerva.less/minerva.mixins.less';
+
+// Hacks to render galleries and multicol tables better on mobile
+@media all and ( max-width: @width-breakpoint-tablet ) {
+
+	// Center images that might be less than the screen width.
+	// Image will appear centered and caption will take up full screen.
+	.gallery {
+		.gallerybox {
+			width: 100% !important;
+
+			div {
+				width: 100% !important;
+			}
+		}
+	}
+}

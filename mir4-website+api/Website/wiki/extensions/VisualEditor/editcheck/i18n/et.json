@@ -1,0 +1,27 @@
+{
+	"@metadata": {
+		"authors": [
+			"Pikne"
+		]
+	},
+	"editcheck-dialog-action-no": "Ei",
+	"editcheck-dialog-action-yes": "Jah",
+	"editcheck-dialog-addref-description": "Aita lugejatel aru saada, kust see teave pärineb, lisades viite.",
+	"editcheck-dialog-addref-reject-question": "Miks sa viidet ei lisa?",
+	"editcheck-dialog-addref-reject-description": "Teistel toimetajatel on kasulik teada, miks otsustasid viite ära jätta.",
+	"editcheck-dialog-addref-reject-irrelevant": "Arvan, et viited ei ole tehtava paranduse juures asjakohased",
+	"editcheck-dialog-addref-reject-common-knowledge": "Lisatud teave on üldteada",
+	"editcheck-dialog-addref-reject-uncertain": "Ma pole kindel, millist viidet lisada",
+	"editcheck-dialog-addref-reject-other": "Muu",
+	"editcheck-dialog-addref-success-notify": "Aitäh, et viite lisasid!",
+	"editcheck-dialog-addref-title": "Viite lisamine",
+	"editcheck-dialog-title": "Enne avaldamist",
+	"tag-editcheck-reference-decline-common-knowledge": "Muudatuse kontroll (viited) tagasi lükatud (üldteada)",
+	"tag-editcheck-reference-decline-common-knowledge-description": "EditChecki viide tagasi lükatud, kuna väide on üldteada.",
+	"tag-editcheck-reference-decline-irrelevant": "Muudatuse kontroll (viited) tagasi lükatud (ebavajalik)",
+	"tag-editcheck-reference-decline-irrelevant-description": "EditChecki viide tagasi lükatud, kuna väide ei vaja viidet.",
+	"tag-editcheck-reference-decline-other": "Muudatuse kontroll (viited) tagasi lükatud (muu)",
+	"tag-editcheck-reference-decline-other-description": "EditChecki viide tagasi lükatud loetelus ära toomata põhjusel.",
+	"tag-editcheck-reference-decline-uncertain": "Muudatuse kontroll (viited) tagasi lükatud (ebakindel)",
+	"tag-editcheck-reference-decline-uncertain-description": "EditChecki viide tagasi lükatud, kuna kasutaja ei ole kindel."
+}

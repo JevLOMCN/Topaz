@@ -1,0 +1,32 @@
+{
+	"@metadata": {
+		"authors": [
+			"Anh88",
+			"Bluetpp",
+			"Minh Nguyen"
+		]
+	},
+	"apihelp-visualeditor-param-basetimestamp": "Khi lưu, thiết lập dấu thời gian của phiên bản mà đã được sửa đổi. Được dùng để phát hiện các mâu thuẫn sửa đổi.",
+	"apihelp-visualeditor-param-cachekey": "Để tuần tự hóa hoặc so sánh, sử dụng kết quả của một yêu cầu serializeforcache (tuần tự hóa cho vùng nhớ đệm) trước đây với từ khóa này. Ghi đè $1html.",
+	"apihelp-visualeditor-param-etag": "ETag để gửi.",
+	"apihelp-visualeditor-param-html": "Mã HTML để gửi cho Parsoid để nó chuyển đổi thành mã wiki.",
+	"apihelp-visualeditor-param-oldid": "Số phiên bản để sử dụng (mặc định là phiên bản hiện tại).",
+	"apihelp-visualeditor-param-paction": "Tác vụ để thực hiện.",
+	"apihelp-visualeditor-param-page": "Trang để thực hiện các tác vụ.",
+	"apihelp-visualeditor-param-pst": "Biến đổi mã wiki ở chế độ chưa lưu trước khi gửi nó cho Parsoid (paction=parsefragment).",
+	"apihelp-visualeditor-param-starttimestamp": "Khi lưu, đặt thành dấu thời gian lúc trang được tải. Được sử dụng để phát hiện các sửa đổi mâu thuẫn.",
+	"apihelp-visualeditor-param-wikitext": "Mã wiki để gửi cho Parsoid để nó chuyển đổi thành mã HTML (paction=parsefragment).",
+	"apihelp-visualeditoredit-param-basetimestamp": "Khi lưu, đặt thành dấu thời gian của phiên bản được sửa đổi. Được sử dụng để phát hiện các sửa đổi mâu thuẫn.",
+	"apihelp-visualeditoredit-param-cachekey": "Sử dụng kết quả của một yêu cầu serializeforcache (sắp xếp cho vùng nhớ đệm) trước đây với từ khóa này. Ghi đè $1html.",
+	"apihelp-visualeditoredit-param-captchaid": "ID CAPTCHA (khi lưu với một hồi đáp CAPTCHA).",
+	"apihelp-visualeditoredit-param-captchaword": "Lời giải CAPTCHA (khi lưu với một lời giải CAPTCHA).",
+	"apihelp-visualeditoredit-param-etag": "ETag để gửi.",
+	"apihelp-visualeditoredit-param-html": "Mã HTML để gửi cho Parsoid để nó chuyển đổi thành mã wiki.",
+	"apihelp-visualeditoredit-param-minor": "Đánh dấu là sửa đổi nhỏ.",
+	"apihelp-visualeditoredit-param-needcheck": "Khi lưu, thiết lập thông số này nếu phiên bản có thể gây vấn đề khứ hồi. Lần sửa đổi này sẽ được đánh dấu.",
+	"apihelp-visualeditoredit-param-oldid": "Số phiên bản để sử dụng. Mặc định là phiên bản hiện tại. Sử dụng 0 cho trang mới.",
+	"apihelp-visualeditoredit-param-paction": "Tác vụ để thực hiện.",
+	"apihelp-visualeditoredit-param-page": "Trang để thực hiện các tác vụ.",
+	"apihelp-visualeditoredit-param-starttimestamp": "Khi lưu, đặt thành dấu thời gian lúc trang được tải. Được sử dụng để phát hiện các mâu thuẫn sửa đổi.",
+	"apihelp-visualeditoredit-param-summary": "Lời tóm lược sửa đổi."
+}

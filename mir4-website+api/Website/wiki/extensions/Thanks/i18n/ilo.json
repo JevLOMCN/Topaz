@@ -1,0 +1,29 @@
+{
+	"@metadata": {
+		"authors": [
+			"Lam-ang"
+		]
+	},
+	"thanks-desc": "Agnayon kadagiti silpo para iti panagyaman kadagiti agar-aramat para kadagiti panagurnos, komentario, kdpy.",
+	"thanks-thank": "{{GENDER:$1|{{GENDER:$2|yamanan}}}}",
+	"thanks-thanked": "{{GENDER:$1|{{GENDER:$2|nayamanan}}}}",
+	"thanks-button-thank": "{{GENDER:$1|{{GENDER:$2|Yamanan}}}}",
+	"thanks-button-thanked": "{{GENDER:$1|{{GENDER:$2|Nayamanan}}}}",
+	"thanks-error-undefined": "Napaay ti tignay ti panagyaman (kodigo ti biddut: $1). Pangngaasi a padasen manen.",
+	"thanks-error-invalidrevision": "Saan nga umiso ti ID ti panagbaliw.",
+	"thanks-error-ratelimited": "{{GENDER:$1|Sika}} ket nalabesamon ti patingga ti gatadmo. Pangngaasi nga agurayka bassit ken padasem manen.",
+	"thanks-thank-tooltip": "{{GENDER:$1|Agipatulod}} ti pakaammo a panagyaman iti daytoy nga {{GENDER:$2|agar-aramat}}",
+	"thanks-thanked-notice": "Naipaammo idi kenni $1 a kinayatmo {{GENDER:$2|ti inurnosna|dagiti inurnosda}}.",
+	"thanks": "Agipatulod ti panagyaman",
+	"echo-pref-subscription-edit-thank": "Pagyamanennak para iti inurnosko",
+	"echo-pref-tooltip-edit-thank": "Pakaammuannak no adda agyaman kaniak para iti maysa nga inaramidko nga inurnos.",
+	"echo-category-title-edit-thank": "Dagiti panagyaman",
+	"log-name-thanks": "Listaan kadagiti panagyaman",
+	"log-description-thanks": "Dita baba ket listaan dagiti agar-aramat a nayamanan babaen dagiti dadduma nga agar-aramat.",
+	"logentry-thanks-thank": "Ni $1 ket {{GENDER:$2|nagyaman}} kenni {{GENDER:$4|$3}}",
+	"thanks-error-no-id-specified": "Nasken a mainaganan ti ID ti panagbaliw tapno makaipatulod kadagiti panagyaman.",
+	"notification-link-text-view-post": "Kitaen ti komentario",
+	"thanks-error-invalidpostid": "Ti ID ti pablaak ket saan nga umiso.",
+	"flow-thanks-confirmation-special": "Kayatmo kadi ti agipatulod kadagiti panagyaman para iti daytoy a komentario?",
+	"flow-thanks-thanked-notice": "Naipaammo idi kenni $1 a kinayatmo ti {{GENDER:$2|komentariona|komentariona|komentarioda}}."
+}

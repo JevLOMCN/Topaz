@@ -1,0 +1,18 @@
+{
+	"@metadata": {
+		"authors": [
+			"Matma Rex",
+			"NahidSultan",
+			"আফতাবুজ্জামান"
+		]
+	},
+	"apierror-visualeditor-difffailed": "পার্থক্য ব্যর্থ হয়েছে",
+	"apihelp-visualeditor-param-basetimestamp": "সংরক্ষণ করার সময় এটিকে পূর্বের সম্পাদিত ইতিহাসের সময়সূচীর সাথে মিলিয়ে দিয়ে সম্পাদনা দ্বন্দ্ব চিহ্নিত করুন।",
+	"apihelp-visualeditor-param-cachekey": "ক্রমান্বয় বা পার্থক্যের জন্য, এই চাবি দিয়ে পূর্ববর্তী serializeforcache অনুরোধের ফলাফল ব্যবহার করে। $1html ওভাররাইড করে।",
+	"apihelp-visualeditor-param-editintro": "বিজ্ঞপ্তি যোগ করতে ভূমিকা সম্পাদনা।",
+	"apihelp-visualeditor-param-etag": "পাঠানোর জন্য ETag।",
+	"apihelp-visualeditoredit-param-etag": "পাঠানোর জন্য ETag।",
+	"apihelp-visualeditoredit-param-minor": "অনুল্লেখ্য সম্পাদনার জন্য পতাকা।",
+	"apihelp-visualeditoredit-param-sectiontitle": "নতুন অনুচ্ছেদের জন্য শিরোনাম।",
+	"apihelp-visualeditoredit-param-summary": "সম্পাদনা সারাংশ।"
+}

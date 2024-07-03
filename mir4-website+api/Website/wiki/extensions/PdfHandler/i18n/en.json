@@ -1,0 +1,16 @@
+{
+	"@metadata": {
+		"authors": []
+	},
+	"pdf-desc": "Handler for viewing PDF files in image mode",
+	"pdf-file-page-warning": "PDF is a complex format that may expose some of your private information in some cases. Make sure to configure your PDF viewer in a safe way.",
+	"pdf-file-page-warning-header": "Privacy considerations",
+	"pdf-file-page-warning-footer": "This issue is not specific to this particular file, but a general issue with the PDF format.",
+	"pdf-file-page-warning-info": "Learn more about this issue.",
+	"pdf_no_metadata": "Cannot get metadata from PDF.",
+	"pdf_page_error": "Page number not in range.",
+	"exif-pdf-producer": "Conversion program",
+	"exif-pdf-version": "Version of PDF format",
+	"exif-pdf-encrypted": "Encrypted",
+	"exif-pdf-pagesize": "Page size"
+}

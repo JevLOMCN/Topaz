@@ -1,0 +1,24 @@
+{
+	"@metadata": {
+		"authors": [
+			"Candalua",
+			"Conky77",
+			"GatoSelvadego"
+		]
+	},
+	"captcha-edit": "Par modificar la pagina te ghè da risòlvar sto senplice calcolo presentà de seguito e inserir el risultato ne la casela\n([[Special:Captcha/help|magiori informazion]]):",
+	"captcha-desc": "Fornise teniche CAPTCHA pa' ła protesion contro el spam e l'individuasion de łe password",
+	"captcha-addurl": "Ƚa modifega dimandà xonta de i novi ligamenti foresti a ƚa pàgina; come mixura precausionaƚe contro 'l inserimento automatego de spam, se prega de risolvare el seguente calcoƚo prexentà de seguito e inserir el rexultà inte ƚa caxeƚa ([[Special:Captcha/help|come funsiona?]]):",
+	"captcha-badlogin": "Come misura precausionaƚe contro i tentativi de forzadura automatega de ła password, se prega de risolvare el calcoƚo prexentà de seguito e inserir el rexultà inte ƚa caxeƚa ([[Special:Captcha/help|come funsiona?]]):",
+	"captcha-createaccount": "Come mixura precausionałe contro i tentativi de creasion automatega de i account, se prega de risolvare el calcoƚo prexentà de seguito e inserir el rexultà inte ƚa caxeƚa ([[Special:Captcha/help|come funsiona?]]):",
+	"captcha-createaccount-fail": "Codice de verifica sbaglià o mancante.",
+	"captcha-create": "Per crear la pagina te ghè da risòlvar sto senplice calcolo presentà de seguito e inserir el risultato ne la casela ([[Special:Captcha/help|magiori informazion]]):",
+	"captcha-sendemail": "Come mixura precausionaƚe contro i mesaji de spam automatesi, se prega de risolvare el calcoƚo prexentà de seguito e inserir el rexultà inte ƚa caxeƚa ([[Special:Captcha/help|come funsiona?]]):",
+	"captcha-sendemail-fail": "Codice de verifica sbaglià o mancante.",
+	"captcha-disabledinapi": "Sta azion la richiede un captcha, quindi no se pole farla tramite API.",
+	"captchahelp-title": "Coss'èlo sto captcha?",
+	"captchahelp-cookies-needed": "Te ghè da verghe i cookies abilità sul to browser par proseguir.",
+	"captchahelp-text": "Sucéde spesso che i siti web che i acèta messagi publici, come sta wiki, i sia tolti de mira da spammer che dòpara strumenti automatici par inserir colegamenti publicitari verso un gran nùmaro de siti. Anca se i colegamenti insiderài i se pol cavar, se trata comunque de na secadura mìa da póco.\n\nIn çerti casi, par esenpio quando se çerca de zontar novi colegamenti web in te na pagina, el software wiki el pol mostrar na imagine con un breve testo colorà e/o distorto, domandàndoghe a l'utente de riscrìvarlo drento na casela fata aposta. Sicome i computer no i xe mìa boni de replicar a la perfezion sta azion, sto mecanismo el ghe consente a (quasi tuti) i utenti reali de conpletar l'inserimento che i volea, inpedéndoghe l'acesso a la magior parte dei spammer e dei altri atachi automatizà.\n\nSfortunatamente, ste misure de sicureza le pole métar in dificoltà i utenti che gà problemi de vista o quei che dòpara browser testuali o basà su la sintesi vocale. Purtropo al momento no xe disponibile nissun mecanismo alternativo basà su messagio audio; se ste procedure le inpedisse l'inserimento de informazion che se ritien legìtime, se prega de contatar i [[Special:ListAdmins|aministradori del sito]] e domandarghe assistensa.\n\nStruca el boton \"Indrìo\" del to browser par tornar a la pagina de modifica.",
+	"captcha-addurl-whitelist": " #<!-- no sta modificar in alcun modo sta riga --> <pre>\n# La sintassi la xe la seguente:\n#  * Tuto quel che segue un caràtere \"#\" el xe un comento, fin a la fine de la riga\n#  * Tute le righe mìa vode le xe framenti de espressioni regolari che se àplica al solo nome de l'host ne le URL\n   #</pre> <!-- no sta modificar in alcun modo sta riga -->",
+	"right-skipcaptcha": "Esegui le funsion de triggering del captcha sensa passar par el captcha"
+}

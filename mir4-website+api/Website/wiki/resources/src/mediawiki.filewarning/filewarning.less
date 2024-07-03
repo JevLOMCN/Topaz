@@ -1,0 +1,42 @@
+@import 'mediawiki.skin.variables.less';
+
+/* stylelint-disable selector-class-pattern */
+
+// Increase the area of the button, so that the user can move the mouse cursor
+// to the popup without the popup disappearing. (T157544)
+.mediawiki-filewarning-anchor {
+	padding-bottom: 10px;
+	margin-bottom: -10px;
+
+	&.oo-ui-buttonElement-frameless.oo-ui-labelElement > .oo-ui-buttonElement-button {
+		padding-right: 2px;
+	}
+}
+
+.mediawiki-filewarning {
+	visibility: hidden;
+
+	.mediawiki-filewarning-header {
+		padding: 0;
+		font-weight: 600;
+	}
+
+	.mediawiki-filewarning-footer {
+		color: @color-subtle;
+	}
+
+	.empty {
+		display: none;
+	}
+
+	.mediawiki-filewarning-anchor:hover & {
+		visibility: visible;
+	}
+}
+
+.mime-type {
+	&.has-warning {
+		color: @color-warning;
+		font-weight: bold;
+	}
+}

@@ -1,0 +1,24 @@
+@import 'mediawiki.skin.variables.less';
+@import '../echo.variables.less';
+
+.mw-echo-ui-datedNotificationsWidget {
+	min-height: 5em;
+
+	// We want everything inside the widget to be
+	// pending/transparent, but not the widget itself
+	// because otherwise, the background pending animation
+	// is also transparent.
+	&.oo-ui-pendingElement-pending > * {
+		opacity: 0.5;
+	}
+
+	.mw-echo-ui-subGroupListWidget {
+		// This is a hack to make sure that this widget
+		// is the nearest scrollable widget for the submenus
+		overflow-y: auto;
+
+		&-header {
+			margin-bottom: @specialpage-separation-unit;
+		}
+	}
+}

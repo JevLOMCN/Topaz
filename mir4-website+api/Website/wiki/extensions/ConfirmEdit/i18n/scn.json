@@ -1,0 +1,29 @@
+{
+	"@metadata": {
+		"authors": [
+			"Ajeje Brazorf",
+			"Gmelfi",
+			"Melos",
+			"Pippinu",
+			"Santu",
+			"Sarvaturi"
+		]
+	},
+	"captcha-edit": "Pi putiri canciari sta pàggina, pi favuri arrisorvi la summa fàcili ca c'è ccassutta e scrivi lu risurtatu ntâ casedda\n([[Special:Captcha/help|àutri nfurmazzioni]]):",
+	"captcha-desc": "Furnisci miccanismi CAPTCHA pi prutèggiri dû spam e di cui prova a nzirtari li password",
+	"captcha-addurl": "Lu tò canciamentu cunteni lijami pi fora novi.\nP'addifènniri la wiki dû spam autumatizzatu, t'addumannamu pi curtisìa d'arrisòrviri la summa fàcili ca c'è ccassutta e scrìviri lu risurtatu ntâ casedda, avanti di putiri sarvari lu canciamentu ([[Special:Captcha/help|àutri nfurmazzioni]]):",
+	"captcha-badlogin": "P'addifènniri la wiki dî tintativi di furzatura autumàtica dî password, t'addumannamu pi curtisìa d'arrisòrviri la summa fàcili ca c'è ccassutta e scrìviri lu risurtatu ntâ casedda ([[Special:Captcha/help|àutri nfurmazzioni]]):",
+	"captcha-createaccount": "P'addifènniri la wiki dâ criazzioni autumàtica di cunti, t'addumannamu pi curtisìa d'arrisòrviri la summa fàcili ca c'è ccassutta e scrìviri lu risurtatu ntâ casedda ([[Special:Captcha/help|àutri nfurmazzioni]]):",
+	"captcha-createaccount-fail": "CAPTCHA sbagghiatu o ammancanti.",
+	"captcha-create": "Pi putiri criari la pàggina, pi favuri arrisorvi la summa fàcili ca c'è ccassutta e scrivi lu risurtatu ntâ casedda ([[Special:Captcha/help|àutri nfurmazzioni]]):",
+	"captcha-sendemail": "P'addifènniri la wiki dû spam autumatizzatu, t'addumannamu pi curtisìa d'arrisòrviri la summa fàcili ca c'è ccassutta e scrìviri lu risurtatu ntâ casedda ([[Special:Captcha/help|àutri nfurmazzioni]]):",
+	"captcha-sendemail-fail": "CAPTCHA sbagghiatu o mancanti.",
+	"captcha-disabledinapi": "St’azzioni addumanna nu CAPTCHA, dunca nun si pò esèguiri pi menzu di l'API.",
+	"captchahelp-title": "Guida pî CAPTCHA",
+	"captchahelp-cookies-needed": "S’hannu a attivari li cookie ntô browser pi fari funziunari stu miccanismu.",
+	"captchahelp-text": "Quannu li siti Web accèttanu cuntinuti dû pùbblicu, comu fa sta wiki, ammatti spissu ca vèninu sfruttati di malintinziunati ch'adòpiranu strummenti autumatizzati pi carricari liami versu li sò siti.\nCu tuttu ca sti liami si ponnu livari, sunnu sempri na siccatura.\n\nCerti voti, spicialmenti quannu s'agghiùncinu liami novi nta na pàggina, la wiki pò ammustrari na mmàggini cûn testu culuratu o sdillabbratu, e t'addumanna di scrìviri li palori ca cunteni.\nComu chi è diffìcili fari st'azzioni di manera autumàtica, stu miccanismu cunzenti ê cristiani di pubblicari li sò cuntinuti, ô tempu stissu bluccannu la maiur parti dî spammer e di bot ca fannu dammaggi.\n\nPurtroppu, chistu pò dari prubblemi a l'utenti ca nun vìdinu bonu o a chiddi ca adòpiranu browser tistuali o sintitizzatura vucali.\nComu a ora nun avemu n'altirnativa àudiu a dispusizzioni. Si nun s'arrinesci a purtari a tèrmini n'opirazzioni liggìttima, cuntattari pi favuri [[Special:ListAdmins|l'amministratura dû situ]] e addumannari assistenza.\n\nCarcari lu buttuni «arreri» dû browser pi turnari â pàggina di canciamentu.",
+	"captcha-addurl-whitelist": " #<!-- lassari sta riga pricisa pi com'è --> <pre>\n# La sintassi è chista:\n#   * Tuttu chiddu ca c'è d'un caràttiri \"#\" fina â fini dâ riga è nu cummentu\n#   * Ogni riga nun vacanti è nu frammentu di sprissioni rigulari ca havi a currispùnniri ô sulu host di l'URL\n #</pre> <!-- lassari sta riga pricisa pi com'è -->",
+	"right-skipcaptcha": "Esiguiri l'azzioni c'addumànnanu nu CAPTCHA senza aviri a passari pû CAPTCHA",
+	"confirmedit-preview-content": "Cuntinutu",
+	"confirmedit-preview-invalid": "nun vàlidu"
+}

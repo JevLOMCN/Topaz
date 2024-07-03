@@ -136,7 +136,7 @@ $rankingData = getRanking($selectedRanking, $selectedLimit);
         }
 
         .container {
-            max-width: 401px;
+            max-width: 50%;
             max-height: 100%;
             /* Adicione esta linha para definir a altura máxima */
             margin: 90px auto;
@@ -320,10 +320,14 @@ $rankingData = getRanking($selectedRanking, $selectedLimit);
                     </li>
                     <li class="new active" data-menuanchor="part2">
                         <p><a href="rankings"><span>Ranking<span></a></p>
-                    </li>
-                    <li class="new" data-menuanchor="part2">
-                        <p><a href="tools"><span>Tools<span></a></p>
-                    </li>                    
+                                 </li>
+                          <li class="new" data-menuanchor="part2">
+                            <p><a href="tools"><span>Tools<span></a></p>
+                            <ul class="subGnb">
+                              <!-- <li><a href="comingsoon" target="_blank">FAQ</a></li> -->
+                              <li><a href="wiki" target="_blank">WIKI</a></li>
+                            </ul>
+                          </li>               
                     <li>
                         <p><a href="ucp"><span>Account<span></a></p>
                         <ul class="subGnb">
@@ -357,7 +361,7 @@ $rankingData = getRanking($selectedRanking, $selectedLimit);
             <form action="" method="post">
         <div class="form-group">
             <label for="rankingType"><?php echo $current_translations['choose_ranking']; ?></label>
-            <select name="rankingType" id="rankingType">
+            <select name="rankingType" id="rankingType" onchange="this.form.submit()">
                 <?php foreach ($current_translations['ranking_keys'] as $key => $translation): ?>
                     <option value="<?php echo $key; ?>" <?php echo $selectedRanking === $key ? 'selected' : ''; ?>><?php echo $translation; ?></option>
                 <?php endforeach; ?>
@@ -365,12 +369,11 @@ $rankingData = getRanking($selectedRanking, $selectedLimit);
         </div>
         <div class="form-group">
             <label for="rankingLimit"><?php echo $current_translations['select_quantity']; ?></label>
-            <select name="rankingLimit" id="rankingLimit">
+            <select name="rankingLimit" id="rankingLimit" onchange="this.form.submit()">
                 <option value="10" <?php echo $selectedLimit === 10 ? 'selected' : ''; ?>><?php echo $current_translations['ranking_limit_10']; ?></option>
                 <option value="50" <?php echo $selectedLimit === 50 ? 'selected' : ''; ?>><?php echo $current_translations['ranking_limit_50']; ?></option>
             </select>
         </div>
-        <button type="submit"><?php echo $current_translations['update']; ?></button>
     </form>
     <h1><?php echo $current_translations['ranking_keys'][$selectedRanking] . " - Top {$selectedLimit}"; ?></h1>
             <table>

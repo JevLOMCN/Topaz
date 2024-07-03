@@ -1,0 +1,23 @@
+{
+	"@metadata": {
+		"authors": [
+			"Amir a57",
+			"Ziraksima"
+		]
+	},
+	"scribunto-line": "$1 خطینده",
+	"scribunto-module-line": "$1-ین $2-جی/جو خطینده",
+	"scribunto-parser-dialog-title": "ایسکریپت خطاسی",
+	"scribunto-error-short": "ایسکریپت خطاسی: $1",
+	"scribunto-error-long": "ایسکریپت خطالاری:\n\n$1",
+	"scribunto-doc-page-name": "Module:$1/بلگه",
+	"scribunto-doc-page-does-not-exist": "''بو ماژول اوچون بلگه‌لر [[$1]] صفحه‌سینده یارادیلا بیلینر''",
+	"scribunto-doc-page-header": "'''بو [[$1]] اوچون بلگه صفحه‌سیدیر'''",
+	"scribunto-console-title": "خطالاری آرادان آپراماق کونسولو",
+	"scribunto-common-error-category": "ایسکریپت خطالاری اولان صفحه‌لر",
+	"scribunto-common-nosuchmodule": "ایسکریپت خطاسی:\"$2\" ماژول یوخدور.",
+	"scribunto-lua-error-location": "لوآ خطاسی$1: $2.",
+	"scribunto-lua-error": "لوآ خطاسی: $2.",
+	"nstab-module": "ماژول",
+	"tooltip-ca-nstab-module": "ماژول صفحه‌سینه باخین"
+}

@@ -1,0 +1,23 @@
+{
+	"@metadata": {
+		"authors": [
+			"Abshirdheere"
+		]
+	},
+	"gadgets-desc": "Waxaa loo ogolyahay iticmaale-yaasha in ay dooqdaan \n[[Special:Gadgets|Ku darista CSS iyo JavaScript dheeraad]] ku jira [[Special:Preferences#mw-prefsection-gadgets|dooqyadooda]]",
+	"prefs-gadgets": "Dheeraad",
+	"gadgets-prefstext": "Hoos waxaa ku yaalla liis dheeraad gaar ah kaasoo ay suuragal tahay in uu la shaqeeyo akoonkaada.\nWaxyaabahaas dheeraadka ah badankood waxa ay ku dhisanyihiin JavaScript, sidaas daraadeed JavaScript waa inuu browser kada ku jiro si uu u shaqeyo.\nFiira gaar ah waxyaabahaas dheeraadka ah wax saamayn ah kuma yeelanayaan bogga kan ee dooqyada.\n\nWaxaa sido kale ogaataa wax yaabahaan dheeraadka ah ee gaarka ah ka mid maaha barnaamijka MediaWiki, waxaana hagaajiya ama horumariya isticmaallada wikiga aad hadda joogto.\nMaamulayaasha wikiga aad joogto oo kaliya ayaa wax ka bedeli kara [[MediaWiki:Gadgets-definition|aqoonsi]]\niyo [[Special:Gadgets|qeexis]] ku darista dheeraadka ah. Tirada adeegsadayaasha ku daris kasta ee wikigaan waxa lagu soo bandhigayaa  [[Special:GadgetUsage|tirakoobka isticmallada dheeraadka]].",
+	"special-gadgets": "Dheeraad",
+	"gadgetusage-intro-noactive": "Jadwalkaan wuxuu muujiyaa tirada adeegsadayaasha sameeyay dhammaan ku darista wikigaan. Liiskaan wuu ka reebayaa tirakoobka ku darista loo sameeyay dhammaan si ka soo qaad ah laga yaabee in ay ka mid tahayku daris aan la heli karin.",
+	"gadgets-title": "Dheeraad",
+	"gadgets-pagetext": "Hoos waxaa ku yaala liis dheeraad gaar ah kasoo ay suurto gal tahay in uu la shaqeeyo akoonkaada [[Special:Preferences#mw-prefsection-gadgets|bogga dooqyada]], waxaad ku ogaan kartaa [[MediaWiki:Gadgets-definition|aqoonsiga]].\nMuuqaalkaan wuxuu sahlayaa galid fudud ee bogagga farriimaha sistemka taasoo qeexaysa kuudka iyo dhamaan dheeraadka.",
+	"gadgets-uses": "Waxaa loo adeegsadaa",
+	"gadgets-required-rights": "Waxaa la doonayaa {{PLURAL:$2|xaqqa|xuquuqda}}:\n\n$1",
+	"gadgets-required-skins": "Waxa laga heli karaa {{PLURAL:$2|$1 skin|following skins: $1}}.",
+	"gadgets-default": "Ahaysii dhamaan habla la doonayo.",
+	"gadgets-export": "Ka soo baxay",
+	"gadgets-export-title": "Qalab soo saaris",
+	"gadgets-not-found": "Qalabka \"$1\" aan la helin.",
+	"gadgets-export-text": "Si aad u dhoofiso $1 qalabka, guji \"{{int:gadgets-export-download}}\" batoonka, waxaad soo rogtay fayl gali,\nkadib aad Special:Import on destination wiki and upload it. kadib halkaan ku shub MediaWiki:Gadgets-definition bogga:\n<pre>$2</pre>\nWaa inaad leedahay qalab munaasab ku ah wiki (ay ka mid tahay inaad xaq uleedahay bedelida farrimaha sistemka) sidoo kale inaad awood uleedahay soo dhoofsashada faylasha.",
+	"gadgets-export-download": "Soo rog"
+}

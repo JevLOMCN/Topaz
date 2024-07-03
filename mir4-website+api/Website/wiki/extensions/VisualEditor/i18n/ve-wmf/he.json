@@ -1,0 +1,43 @@
+{
+	"@metadata": {
+		"authors": [
+			"Amire80",
+			"ExampleTomer",
+			"Guycn2",
+			"Jdforrester",
+			"Matanya",
+			"Mooeypoo",
+			"Orsa",
+			"Shimmin Beg",
+			"אור שפירא",
+			"חיים",
+			"ערן",
+			"פוילישער",
+			"קיפודנחש",
+			"아라"
+		]
+	},
+	"tag-editcheck-newcontent-description": "מערכת בדיקת עריכה חושבת שנוסף תוכן חדש לדף.",
+	"tag-editcheck-newreference-description": "נוספה הערת שוליים לדף",
+	"tag-editcheck-references-description": "מערכת בדיקת עריכה חושבת שאולי היה צורך בהערת שוליים",
+	"tag-editcheck-references-activated": "[[{{MediaWiki:editcheck-falsepositives-link}}|מערכת בדיקת עריכה (הערות שוליים) הופעלה]]",
+	"tag-editcheck-references-activated-description": "מערכת בדיקת עריכה חושבת שאולי נוספת הערת שוליים, וממשק המשתמש של זה הוצג",
+	"tag-visualeditor": "[[{{MediaWiki:visualeditor-descriptionpagelink}}|עריכה חזותית]]",
+	"tag-visualeditor-description": "עריכה שנעשתה באמצעות [[{{MediaWiki:visualeditor-descriptionpagelink}}|העורך החזותי]]",
+	"tag-visualeditor-needcheck": "[[{{MediaWiki:visualeditor-descriptionpagelink}}|עריכה חזותית: נא לבדוק]]",
+	"tag-visualeditor-needcheck-description": "עריכה שנעשתה באמצעות [[{{MediaWiki:visualeditor-descriptionpagelink}}|העורך החזותי]] ושהמערכת זיהתה שבקוד שלה אולי יש שינויים שלא היו אמורים להיעשות.",
+	"tag-visualeditor-wikitext": "עריכת קוד מקור 2017",
+	"tag-visualeditor-wikitext-description": "עריכה שנעשתה באמצעות עורך קוד המקור החדש של שנת 2017",
+	"tag-visualeditor-switched": "[[{{MediaWiki:visualeditor-descriptionpagelink}}|עריכה חזותית: הועבר לעריכת קוד מקור]]",
+	"tag-visualeditor-switched-description": "משתמש התחיל לערוך באמצעות העורך החזותי ואז שינה לעורך קוד ויקי.",
+	"visualeditor-feedback-link": "Project:VisualEditor/Feedback",
+	"visualeditor-feedback-tool": "שליחת משוב על התוכנה הזאת",
+	"visualeditor-help-label": "לקרוא את המדריך למשתמש",
+	"visualeditor-help-link": "mw:Special:MyLanguage/Help:VisualEditor/User guide/he",
+	"visualeditor-welcomedialog-action": "להתחיל לערוך",
+	"visualeditor-welcomedialog-content": "כל אחד יכול לערוך, וכל שיפור עוזר.",
+	"visualeditor-welcomedialog-content-thanks": "תודה על רצונך לעזור לעולם לגלות יותר!",
+	"visualeditor-welcomedialog-switch": "לעבור לעורך קוד מקור",
+	"visualeditor-welcomedialog-switch-ve": "לעבור לעורך החזותי",
+	"visualeditor-welcomedialog-title": "{{GENDER:$1|ברוך הבא|ברוכה הבאה|ברוך בואך}} ל{{GRAMMAR:תחילית|$2}}"
+}

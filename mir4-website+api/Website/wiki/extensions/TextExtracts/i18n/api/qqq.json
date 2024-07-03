@@ -1,0 +1,23 @@
+{
+	"@metadata": {
+		"authors": [
+			"Umherirrender"
+		]
+	},
+	"apihelp-query+extracts-summary": "{{doc-apihelp-summary|query+extracts}}",
+	"apihelp-query+extracts-param-chars": "{{doc-apihelp-param|query+extracts|chars}}",
+	"apihelp-query+extracts-param-sentences": "{{doc-apihelp-param|query+extracts|sentences}}",
+	"apihelp-query+extracts-param-limit": "{{doc-apihelp-param|query+extracts|limit}}",
+	"apihelp-query+extracts-param-intro": "{{doc-apihelp-param|query+extracts|intro}}",
+	"apihelp-query+extracts-param-plaintext": "{{doc-apihelp-param|query+extracts|plaintext}}",
+	"apihelp-query+extracts-param-sectionformat": "{{doc-apihelp-param|query+extracts|sectionformat}}",
+	"apihelp-query+extracts-paramvalue-sectionformat-plain": "{{doc-apihelp-paramvalue|query+extracts|sectionformat|plain}}",
+	"apihelp-query+extracts-paramvalue-sectionformat-wiki": "{{doc-apihelp-paramvalue|query+extracts|sectionformat|wiki}}",
+	"apihelp-query+extracts-paramvalue-sectionformat-raw": "{{doc-apihelp-paramvalue|query+extracts|sectionformat|raw}}",
+	"apihelp-query+extracts-example-1": "{{doc-apihelp-example|query+extracts}}",
+	"apiwarn-textextracts-limit": "{{doc-apierror}}\n\nParameters:\n* $1 - Limit that will be used",
+	"apiwarn-textextracts-unsupportedmodel": "{{doc-apierror}}\n\nParameters:\n* $1 - Page title\n* $2 - Content model",
+	"apiwarn-textextracts-title-in-file-namespace": "{{doc-apierror}}\n\nWarning message displayed when an extract for a title in File namespace is requested.",
+	"apiwarn-textextracts-sentences-and-html": "{{doc-apierror}}\n\nWarning message displayed documenting a known issue with sentence parameter used.",
+	"apiwarn-textextracts-malformed-html": "{{doc-apierror}}\n\nWarning message displayed documented known issues with the TextExtracts API."
+}

@@ -1,0 +1,25 @@
+{
+	"@metadata": {
+		"authors": [
+			"Cainamarques",
+			"Dianakc",
+			"Eduardo Addad de Oliveira",
+			"Eduardoaddad",
+			"Felipe L. Ewald"
+		]
+	},
+	"codeeditor-desc": "Edição de páginas JavaScript e CSS com realce de sintaxe, utilizando o [https://ace.c9.io/ editor Ace]",
+	"codeeditor-next-annotation": "Ir para a próxima anotação",
+	"codeeditor-toolbar-toggle": "Ativar/desativar editor de código",
+	"codeeditor-save-with-errors": "O documento contém erros. Tem certeza de que deseja publicar?",
+	"codeeditor-invisibleChars-toggle": "Alternar caracteres invisíveis",
+	"codeeditor-lineWrapping-toggle": "Alternar a quebra de linhas",
+	"codeeditor-searchReplace-toggle": "Recolher diálogo de pesquisa e substituir",
+	"codeeditor-gotoline": "Ir para o número de linha...",
+	"codeeditor-gotoline-placeholder": "linha[:coluna]",
+	"codeeditor-gotoline-prompt": "Insira um número de linha",
+	"codeeditor-indent": "Indentação",
+	"codeeditor-outdent": "Recuo",
+	"codeeditor-error-title": "Falha na dependência",
+	"codeeditor-error-message": "CodeEditor precisa do WikiEditor para ser carregado."
+}

@@ -1,0 +1,30 @@
+[
+	{
+		"format": "Y n j D H i",
+		"digits": null,
+		"data": [ null, "2011", "2", "3", "unused", "04", "05", "UTC" ],
+		"expected": "2011-02-03T04:05:00+00:00",
+		"message": "Date is parsed"
+	},
+	{
+		"format": "xkY xg d \"asdf\" G i",
+		"digits": null,
+		"data": [ null, "2554", "February", "03", "4", "05", "UTC" ],
+		"expected": "2011-02-03T04:05:00+00:00",
+		"message": "Date is parsed"
+	},
+	{
+		"format": "H i n j Y",
+		"digits": null,
+		"data": [ null, "04", "05", "2", "3", "2011", "UTC" ],
+		"expected": "2011-02-03T04:05:00+00:00",
+		"message": "Date is parsed"
+	},
+	{
+		"format": "Y-m-d",
+		"digits": [ "⁰", "¹", "²" ],
+		"data": [ null, "²⁰²¹", "¹²", "⁰¹", "UTC" ],
+		"expected": "2021-12-01T00:00:00+00:00",
+		"message": "Localized digits are un-transformed"
+	}
+]

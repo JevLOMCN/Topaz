@@ -1,0 +1,81 @@
+{
+    "Bracketed external links with template-generated invalid target": {
+        "html2wt": "[http:/example.com title]\n"
+    },
+    "External link containing double-single-quotes with no space separating the url from text in italics": {
+        "wt2wt": "[http://www.musee-picasso.fr/pages/page_id18528_u1l2.htm ''La muerte de Casagemas'' (1901) en el sitio de] [[Museo Picasso (París)|Museo Picasso]].",
+        "html2html": "<p data-parsoid='{\"dsr\":[0,148,0,0]}'><a rel=\"mw:ExtLink nofollow\" href=\"http://www.musee-picasso.fr/pages/page_id18528_u1l2.htm\" class=\"external text\" data-parsoid='{\"dsr\":[0,106,57,1]}'><i data-parsoid='{\"dsr\":[57,83,2,2]}'>La muerte de Casagemas</i> (1901) en el sitio de</a> <a rel=\"mw:WikiLink\" href=\"./Museo_Picasso_(París)\" title=\"Museo Picasso (París)\" data-parsoid='{\"stx\":\"piped\",\"a\":{\"href\":\"./Museo_Picasso_(París)\"},\"sa\":{\"href\":\"Museo Picasso (París)\"},\"dsr\":[107,147,25,2]}'>Museo Picasso</a>.</p>",
+        "html2wt": "[http://www.musee-picasso.fr/pages/page_id18528_u1l2.htm ''La muerte de Casagemas'' (1901) en el sitio de] [[Museo Picasso (París)|Museo Picasso]].",
+        "selser [[0,1,1]]": "[http://www.musee-picasso.fr/pages/page_id18528_u1l2.htm''La muerte de Casagemas'' (1901) en el sitio de [[Museo Picasso (París)|Museo Picasso]].][[Museo Picasso (París)|Museo Picasso]]<span data-foobar=\"1lmpany\">.</span>",
+        "selser [2]": "1r4naju\n\n[http://www.musee-picasso.fr/pages/page_id18528_u1l2.htm''La muerte de Casagemas'' (1901) en el sitio de [[Museo Picasso (París)|Museo Picasso]].]",
+        "selser [1]": "[http://www.musee-picasso.fr/pages/page_id18528_u1l2.htm''La muerte de Casagemas'' (1901) en el sitio de [[Museo Picasso (París)|Museo Picasso]].]",
+        "selser [[2,0,[2]]]": "1ofv5xv[http://www.musee-picasso.fr/pages/page_id18528_u1l2.htm''La muerte de Casagemas'' (1901) en el sitio de [[Museo Picasso (París)|Museo Picasso]].]1kmhj1g.",
+        "selser [[[[4],4],2,0]]": "[http://www.musee-picasso.fr/pages/page_id18528_u1l2.htm ''1jcrszm''1f1q429]1oy44hz",
+        "selser [[2,[3],[3]]]": "8vjz4m[http://www.musee-picasso.fr/pages/page_id18528_u1l2.htm''La muerte de Casagemas'' (1901) en el sitio de [[Museo Picasso (París)|Museo Picasso]].]",
+        "selser [[0,0,4]]": "[http://www.musee-picasso.fr/pages/page_id18528_u1l2.htm''La muerte de Casagemas'' (1901) en el sitio de [[Museo Picasso (París)|Museo Picasso]].]1stqxbk",
+        "selser [[[4,0],0,2]]": "[http://www.musee-picasso.fr/pages/page_id18528_u1l2.htm 19o0ktc (1901) en el sitio de] <nowiki/>c90ms9",
+        "selser [[[3,3],[4],0]]": "[http://www.musee-picasso.fr/pages/page_id18528_u1l2.htm][[Museo Picasso (París)|1gixqgf]]",
+        "selser [[[[2],0],2,0]]": "[http://www.musee-picasso.fr/pages/page_id18528_u1l2.htm ''1vrlmbyLa muerte de Casagemas'' (1901) en el sitio de] 137cpyv",
+        "selser [[0,[3],2]]": "[http://www.musee-picasso.fr/pages/page_id18528_u1l2.htm''La muerte de Casagemas'' (1901) en el sitio de [[Museo Picasso (París)|Museo Picasso]].]j78yhf",
+        "selser [[3,[3],2]]": "1760zbb",
+        "selser [[1,3,0]]": "[http://www.musee-picasso.fr/pages/page_id18528_u1l2.htm ''La muerte de Casagemas'' (1901) en el sitio de] ",
+        "selser [[4,0,3]]": "16kyf0l",
+        "selser [[[1,2],2,4]]": "[http://www.musee-picasso.fr/pages/page_id18528_u1l2.htm ''La muerte de Casagemas''hafj2q (1901) en el sitio de] 17q070l1omkplm"
+    },
+    "External links: [raw ampersand]": {
+        "html2wt": "Old &#x26; use: [http://x&y]"
+    },
+    "External links: encoded ampersand": {
+        "html2wt": "Old &#x26; use: http://x&y"
+    },
+    "External links: encoded equals (T8102)": {
+        "html2wt": "http://example.com/?foo=bar"
+    },
+    "External links: multiple legal whitespace is fine, Magnus. Don't break it please. (T7081)": {
+        "wt2wt": "[http://www.example.com test]",
+        "html2wt": "[http://www.example.com test]\n",
+        "selser [2]": "1qcijn9\n\n[http://www.example.com  test]",
+        "selser [[2]]": "7sl362[http://www.example.com  test]",
+        "selser [1]": "[http://www.example.com  test]"
+    },
+    "External links: raw ampersand": {
+        "html2wt": "Old & use: http://x&y\n"
+    },
+    "IPv6 urls, autolink format (T23261)": {
+        "html2wt": "http://[2404:130:0:1000::187:2]/index.php\n\nExamples from RFC 2373, section 2.2:\n\n* http://[1080::8:800:200C:417A]/unicast\n* http://[FF01::101]/multicast\n* http://[::1]/loopback\n* http://[::]/unspecified\n* http://[::13.1.68.3]/ipv4compat\n* http://[::FFFF:129.144.52.38]/ipv4compat\n\nExamples from RFC 2732, section 2:\n\n* http://[FEDC:BA98:7654:3210:FEDC:BA98:7654:3210]:80/index.html\n* http://[1080:0:0:0:8:800:200C:417A]/index.html\n* http://[3ffe:2a00:100:7031::1]\n* http://[1080::8:800:200C:417A]/foo\n* http://[::192.9.5.5]/ipng\n* http://[::FFFF:129.144.52.38]:80/index.html\n* http://[2010:836B:4179::836B:4179]"
+    },
+    "IPv6 urls, bracketed format (T23261)": {
+        "html2wt": "[http://[2404:130:0:1000::187:2]/index.php test]\n\nExamples from RFC 2373, section 2.2:\n\n* [http://[1080::8:800:200C:417A] unicast]\n* [http://[FF01::101] multicast]\n* [http://[::1]/ loopback]\n* [http://[::] unspecified]\n* [http://[::13.1.68.3] ipv4compat]\n* [http://[::FFFF:129.144.52.38] ipv4compat]\n\nExamples from RFC 2732, section 2:\n\n* [http://[FEDC:BA98:7654:3210:FEDC:BA98:7654:3210]:80/index.html 1]\n* [http://[1080:0:0:0:8:800:200C:417A]/index.html 2]\n* [http://[3ffe:2a00:100:7031::1] 3]\n* [http://[1080::8:800:200C:417A]/foo 4]\n* [http://[::192.9.5.5]/ipng 5]\n* [http://[::FFFF:129.144.52.38]:80/index.html 6]\n* [http://[2010:836B:4179::836B:4179] 7]"
+    },
+    "T2289: \">\"-token in bracketed URL": {
+        "wt2wt": "[http://www.example.com/ <hello> stuff]",
+        "html2wt": "[http://www.example.com/ <hello> stuff]\n",
+        "selser [1]": "[http://www.example.com/<hello> stuff]",
+        "selser [2]": "19ih7dw\n\n[http://www.example.com/<hello> stuff]",
+        "selser [[2]]": "eoq4sv[http://www.example.com/<hello> stuff]"
+    },
+    "T2289: literal \">\"-token in bracketed URL": {
+        "wt2wt": "[http://www.example.com/ <b>html</b> stuff]",
+        "html2wt": "[http://www.example.com/ '''html''' stuff]\n",
+        "selser [1]": "[http://www.example.com/<b>html</b> stuff]",
+        "selser [2]": "qyoqs5\n\n[http://www.example.com/<b>html</b> stuff]",
+        "selser [[2]]": "ls4uur[http://www.example.com/<b>html</b> stuff]"
+    },
+    "T2289: literal double quote in bracketed URL": {
+        "wt2wt": "[http://www.example.com/ \"hello\" stuff]",
+        "html2wt": "[http://www.example.com/ \"hello\" stuff]\n",
+        "selser [2]": "yc0ilp\n\n[http://www.example.com/\"hello\" stuff]",
+        "selser [1]": "[http://www.example.com/\"hello\" stuff]",
+        "selser [[2]]": "1yr3lpy[http://www.example.com/\"hello\" stuff]"
+    },
+    "URL-encoding in URL functions (multiple parameters)": {
+        "html2wt": "/index.php?title=Some_page&q=?&amp=&\n"
+    },
+    "URL-encoding in URL functions (single parameter)": {
+        "html2wt": "/index.php?title=Some_page&amp=&\n"
+    },
+    "mw:ExtLink linking to a interwiki URL can be round-tripped losslessly (T94723)": {
+        "selser [[[4]]]": "[[:en:European_Robin|1g3q1dd]]",
+        "selser [[[2]]]": "[[:en:European_Robin|8u2ng6European Robin]]"
+    }
+}

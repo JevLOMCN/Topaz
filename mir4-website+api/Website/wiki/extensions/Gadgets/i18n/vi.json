@@ -1,0 +1,42 @@
+{
+	"@metadata": {
+		"authors": [
+			"Meno25",
+			"Minh Nguyen",
+			"Nguyên Lê",
+			"Prenn",
+			"Vinhtantran"
+		]
+	},
+	"gadgets-desc": "Để các thành viên chọn những [[Special:Gadgets|tiện ích]] đặc chế bằng CSS và JavaScript trong [[Special:Preferences#mw-prefsection-gadgets|tùy chọn]]",
+	"prefs-gadgets": "Tiện ích",
+	"gadgets-prefstext": "Bạn có thể kích hoạt các tiện ích đặc biệt bên dưới.\nCác tiện ích này chủ yếu dựa trên JavaScript, do đó bạn phải kích hoạt JavaScript trong trình duyệt để các tiện ích này hoạt động.\nChú ý rằng những tiện ích này sẽ không có tác dụng trong trang tùy chọn cá nhân.\n\nCũng chú ý rằng những tiện ích đặc biệt này không phải là một phần của phần mềm MediaWiki, mà thường được phát triển và bảo trì bởi những thành viên ở wiki của họ.\nCác bảo quản viên giao diện ở từng ngôn ngữ có thể sửa đổi các [[MediaWiki:Gadgets-definition|định nghĩa]], và các bảo quản viên có thể sửa đổi các [[Special:Gadgets|lời miêu tả]], ở đấy có thể xem mã nguồn của mọi tiện ích. Xem các tiện ích theo số người dùng tại wiki này tại [[Special:GadgetUsage|Thống kê sử dụng tiện ích]].",
+	"special-gadgets": "Tiện ích",
+	"gadgetusage": "Thống kê sử dụng tiện ích",
+	"gadgetusage-gadget": "Tiện ích",
+	"gadgetusage-usercount": "Số người dùng",
+	"gadgetusage-noresults": "Không tìm thấy tiện ích nào.",
+	"gadgetusage-intro": "Bảng này cung cấp thông tin về số người dùng đã kích hoạt các tiện ích trên wiki này. Người dùng tích cực là người đã thực hiện một sửa đổi {{PLURAL:$1|vào ngày qua|trong $1 ngày qua}}. Danh sách này bỏ qua thống kê về các tiện ích được kích hoạt cho mọi người theo mặc định và có thể bao gồm cả các tiện ích hiện trước đây mà hiện không còn nữa.",
+	"gadgetusage-intro-noactive": "Bảng này cho biết số người dùng mỗi tiện ích trên wiki này. Danh sách này bỏ qua các tiện ích được kích hoạt cho mọi người theo mặc định và có thể bao gồm cả các tiện ích không còn được thiết lập.",
+	"gadgetusage-activeusers": "Số thành viên tích cực",
+	"gadgetusage-default": "Mặc định",
+	"gadgets-title": "Tiện ích",
+	"gadgets-pagetext": "Dưới đây là danh sách các tiện ích đặc biệt mà thành viên có thể dùng tại [[Special:Preferences#mw-prefsection-gadgets|trang tùy chọn cá nhân]] của họ, theo [[MediaWiki:Gadgets-definition|định nghĩa]]. Trang tổng quan này cung cấp cách tiếp cận dễ dàng đến trang các thông điệp hệ thống để định nghĩa miêu tả và mã của từng tiện ích.",
+	"gadgets-editdescription": "Sửa miêu tả",
+	"gadgets-viewdescription": "Xem miêu tả",
+	"gadgets-uses": "Sử dụng",
+	"gadgets-required-rights": "Cần {{PLURAL:$2|quyền|các quyền}} sau:\n\n$1",
+	"gadgets-required-skins": "Có sẵn trên {{PLURAL:$2|giao diện $1|các giao diện: $1}}.",
+	"gadgets-required-actions": "Hoạt động với {{PLURAL:$2|tác vụ trang “$1”|các tác vụ trang sau: $1}}.",
+	"gadgets-default": "Được kích hoạt cho tất cả mọi người theo mặc định.",
+	"gadgets-legacy": "Tiện ích không được tải. Xin vui lòng chuyển đổi tiện ích qua hệ thống ResourceLoader. ([https://www.mediawiki.org/wiki/Special:MyLanguage/ResourceLoader/Migration_guide_(users) Tìm hiểu thêm])",
+	"gadgets-packaged": "Tiện ích này được [https://www.mediawiki.org/wiki/ResourceLoader/Package_files gói lại], điểm vào lệnh là $1",
+	"gadgets-export": "Xuất",
+	"gadgets-export-title": "Xuất tiện ích",
+	"gadgets-not-found": "Không tìm thấy tiện ích “$1”.",
+	"gadgets-export-text": "Để xuất tiện ích $1, hãy bấm nút “{{int:gadgets-export-download}}”, lưu tập tin được tải về, mở trang Special:Import trên wiki đích và tải nó lên. Sau đó, thêm mã này vào trang MediaWiki:Gadgets-definition:\n<pre>$2</pre>\nBạn phải có đủ quyền truy cập trên wiki đích (bao gồm quyền sửa đổi thông điệp hệ thống) và wiki phải bật chức năng xuất từ tập tin tải lên.",
+	"gadgets-export-download": "Tải về",
+	"gadgets-validate-notset": "Thuộc tính <code>$1</code> không được đặt.",
+	"gadgets-validate-wrongtype": "Thuộc tính <code>$1</code> phải là kiểu <code>$2</code> thay vì <code>$3</code>.",
+	"gadgets-supports-urlload": "Có thể tải tiện ích này bằng cách thêm tham số truy vấn <code>?withgadget</code> vào URL."
+}

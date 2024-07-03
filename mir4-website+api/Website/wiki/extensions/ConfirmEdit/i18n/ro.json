@@ -1,0 +1,28 @@
+{
+	"@metadata": {
+		"authors": [
+			"BrokenArrow",
+			"Firilacroco",
+			"KlaudiuMihaila",
+			"Mihai",
+			"Minisarm",
+			"NGC 54",
+			"Strainu"
+		]
+	},
+	"captcha-edit": "Pentru a edita această pagină, vă rugăm să rezolvați sarcina de mai jos și să introduceți rezultatul în căsuță ([[Special:Captcha/help|detalii]]):",
+	"captcha-desc": "Oferă implementare de tip CAPTCHA împotriva spamului și încercărilor de aflare a parolelor",
+	"captcha-addurl": "Modificarea dumneavoastră include legături externe noi.\nPentru a proteja wikiul împotriva spamului automat, vă rugăm să rezolvați sarcina de mai jos și introduceți rezultatul în căsuță pentru a salva modificarea ([[Special:Captcha/help|detalii]]):",
+	"captcha-badlogin": "Ca măsură de protecție împotriva spargerii de parole, vă rugăm să rezolvați sarcina de mai jos și să introduceți rezultatul în căsuță ([[Special:Captcha/help|detalii]]):",
+	"captcha-createaccount": "Pentru a evita crearea automată de conturi, vă rugăm să rezolvați sarcina de mai jos și să introduceți rezultatul în căsuță ([[Special:Captcha/help|detalii]]):",
+	"captcha-createaccount-fail": "CAPTCHA incorect sau lipsă.",
+	"captcha-create": "Pentru a crea pagina, vă rugăm să rezolvați sarcina de mai jos și să introduceți rezultatul în căsuță ([[Special:Captcha/help|detalii]]):",
+	"captcha-sendemail": "Pentru a proteja wikiul împotriva roboților de spam, vă rugăm să rezolvați sarcina de mai jos și să introduceți răspunsul în căsuță ([[Special:Captcha/help|mai multe detalii]]):",
+	"captcha-sendemail-fail": "Codul de confirmare lipsește sau este incorect.",
+	"captcha-disabledinapi": "Această acțiune necesită rezolvarea unui captcha, deci nu poate fi efectuată prin API.",
+	"captchahelp-title": "Despre „Captcha”",
+	"captchahelp-cookies-needed": "Trebuie ca browser-ul dumneavoastră să accepte cookie-uri pentru ca aceasta să funcționeze.",
+	"captchahelp-text": "Site-urile web care acceptă contribuții din partea publicului, precum acest wiki, sunt de obicei victime ale persoanelor care folosesc unelte automate pentru a introduce legături către multe alte site-uri. \nDeși aceste legături de spam pot fi îndepărtate, acest lucru reprezintă o bătaie de cap semnificativă.\n\nUneori, mai ales la adăugarea de noi legături web într-o pagină, site-ul wiki vă poate arăta o imagine cu un text colorat sau distorsionat și veți fi rugat să introduceți cuvintele indicate.\nÎntrucât rezolvarea acestei cerințe este dificil de automatizat, ea permite majorității persoanelor reale să-și trimită contribuțiile și va opri majoritatea atacatorilor.\n\nDin nefericire, această metodă îi poate deranja pe utilizatorii cu probleme vizuale sau care folosesc navigatoare bazate pe text sau sunet. În acest moment nu avem o alternativă audio disponibilă.\nÎn cazul în care această practică vă împiedică în mod neașteptat să faceți contribuții legitime, vă rugăm să contactați [[Special:ListAdmins|administratorii site-ului]].\n\nApăsați butonul „Înapoi” al navigatorului pentru a vă reîntoarce la pagina de editare.",
+	"captcha-addurl-whitelist": " #<!-- lăsați această linie așa cum este --> <pre>\n# Sintaxa este așa cum urmează:\n#   * Toate liniile care încep cu „#” sunt considerate comentarii\n#   * Toate liniile care nu sunt goale sunt fragmente RegEx care vor găsi doar gazda din interiorul URL-urilor\n #</pre> <!-- lăsați această linie așa cum este -->",
+	"right-skipcaptcha": "Efectuează acțiuni care declanșează CAPTCHA fără a fi nevoie să treacă prin CAPTCHA"
+}

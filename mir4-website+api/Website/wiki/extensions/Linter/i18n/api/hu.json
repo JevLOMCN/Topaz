@@ -1,0 +1,16 @@
+{
+	"@metadata": {
+		"authors": [
+			"Tacsipacsi"
+		]
+	},
+	"apihelp-query+linterrors-summary": "Lint-hibák listájának lekérése",
+	"apihelp-query+linterrors-param-categories": "Lint-hibák kategóriái",
+	"apihelp-query+linterrors-param-limit": "Megjelenítendő találatok száma",
+	"apihelp-query+linterrors-param-from": "A listázás kezdetét jelentő Lint-azonosító",
+	"apihelp-query+linterrors-param-namespace": "Csak a megadott névterekben előforduló Lint-hibák lekérése",
+	"apihelp-query+linterrors-param-pageid": "Csak a megadott azonosítójú lapok Lint-hibáinak lekérése",
+	"apihelp-query+linterrors-example-1": "Az obsolete-tag kategória összes Lint-hibájának lekérése",
+	"apihelp-query+linterstats-summary": "Az egyes kategóriákban található Lint-hibák számának lekérése",
+	"apihelp-query+linterstats-example-1": "Az egyes kategóriákban található Lint-hibák számának lekérése"
+}

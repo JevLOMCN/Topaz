@@ -1,0 +1,227 @@
+[
+	{
+		"placeholderHeading": false,
+		"type": "heading",
+		"range": [
+			"1/0/0",
+			"1/0/1"
+		],
+		"headingLevel": 2,
+		"level": 0,
+		"name": "h-Matma_Rex-2021-04-21T10:25:00.000Z",
+		"id": "h-test1-2021-04-21T10:25:00.000Z",
+		"warnings": [],
+		"replies": [
+			{
+				"type": "comment",
+				"timestamp": "2021-04-21T10:25:00.000Z",
+				"author": "Matma Rex",
+				"range": [
+					"1/2/0",
+					"1/2/4/28"
+				],
+				"signatureRanges": [
+					[
+						"1/2/1",
+						"1/2/4/28"
+					]
+				],
+				"timestampRanges": [
+					[
+						"1/2/4/2",
+						"1/2/4/28"
+					]
+				],
+				"level": 1,
+				"name": "c-Matma_Rex-2021-04-21T10:25:00.000Z",
+				"id": "c-Matma_Rex-2021-04-21T10:25:00.000Z-test1",
+				"warnings": [],
+				"replies": [
+					{
+						"type": "comment",
+						"timestamp": "2021-04-21T10:25:00.000Z",
+						"author": "Matma Rex",
+						"range": [
+							"1/4/0/0",
+							"1/4/0/4/28"
+						],
+						"signatureRanges": [
+							[
+								"1/4/0/1",
+								"1/4/0/4/28"
+							]
+						],
+						"timestampRanges": [
+							[
+								"1/4/0/4/2",
+								"1/4/0/4/28"
+							]
+						],
+						"level": 2,
+						"name": "c-Matma_Rex-2021-04-21T10:25:00.000Z",
+						"id": "c-Matma_Rex-2021-04-21T10:25:00.000Z-Matma_Rex-2021-04-21T10:25:00.000Z",
+						"warnings": [],
+						"replies": []
+					}
+				]
+			},
+			{
+				"type": "comment",
+				"timestamp": "2021-04-21T10:25:00.000Z",
+				"author": "Matma Rex",
+				"range": [
+					"1/4/2/0",
+					"1/4/5/4/28"
+				],
+				"signatureRanges": [
+					[
+						"1/4/5/1",
+						"1/4/5/4/28"
+					]
+				],
+				"timestampRanges": [
+					[
+						"1/4/5/4/2",
+						"1/4/5/4/28"
+					]
+				],
+				"level": 1,
+				"name": "c-Matma_Rex-2021-04-21T10:25:00.000Z",
+				"id": "c-Matma_Rex-2021-04-21T10:25:00.000Z-test1-1",
+				"warnings": [
+					"Comment starts and ends with different indentation",
+					"Duplicate comment ID"
+				],
+				"replies": []
+			}
+		]
+	},
+	{
+		"placeholderHeading": false,
+		"type": "heading",
+		"range": [
+			"2/0/0",
+			"2/0/1"
+		],
+		"headingLevel": 2,
+		"level": 0,
+		"name": "h-Matma_Rex-2021-04-21T10:25:00.000Z",
+		"id": "h-test2-2021-04-21T10:25:00.000Z",
+		"warnings": [],
+		"replies": [
+			{
+				"type": "comment",
+				"timestamp": "2021-04-21T10:25:00.000Z",
+				"author": "Matma Rex",
+				"range": [
+					"2/2/0",
+					"2/2/4/28"
+				],
+				"signatureRanges": [
+					[
+						"2/2/1",
+						"2/2/4/28"
+					]
+				],
+				"timestampRanges": [
+					[
+						"2/2/4/2",
+						"2/2/4/28"
+					]
+				],
+				"level": 1,
+				"name": "c-Matma_Rex-2021-04-21T10:25:00.000Z",
+				"id": "c-Matma_Rex-2021-04-21T10:25:00.000Z-test2",
+				"warnings": [],
+				"replies": [
+					{
+						"type": "comment",
+						"timestamp": "2021-04-21T10:25:00.000Z",
+						"author": "Matma Rex",
+						"range": [
+							"2/4/0/0",
+							"2/4/0/4/28"
+						],
+						"signatureRanges": [
+							[
+								"2/4/0/1",
+								"2/4/0/4/28"
+							]
+						],
+						"timestampRanges": [
+							[
+								"2/4/0/4/2",
+								"2/4/0/4/28"
+							]
+						],
+						"level": 2,
+						"name": "c-Matma_Rex-2021-04-21T10:25:00.000Z",
+						"id": "c-Matma_Rex-2021-04-21T10:25:00.000Z-Matma_Rex-2021-04-21T10:25:00.000Z-1",
+						"warnings": [
+							"Duplicate comment ID"
+						],
+						"replies": [
+							{
+								"type": "comment",
+								"timestamp": "2021-04-21T10:25:00.000Z",
+								"author": "Matma Rex",
+								"range": [
+									"2/4/0/5/0/0",
+									"2/4/0/5/0/4/28"
+								],
+								"signatureRanges": [
+									[
+										"2/4/0/5/0/1",
+										"2/4/0/5/0/4/28"
+									]
+								],
+								"timestampRanges": [
+									[
+										"2/4/0/5/0/4/2",
+										"2/4/0/5/0/4/28"
+									]
+								],
+								"level": 3,
+								"name": "c-Matma_Rex-2021-04-21T10:25:00.000Z",
+								"id": "c-Matma_Rex-2021-04-21T10:25:00.000Z-Matma_Rex-2021-04-21T10:25:00.000Z-2",
+								"warnings": [
+									"Duplicate comment ID"
+								],
+								"replies": []
+							}
+						]
+					}
+				]
+			},
+			{
+				"type": "comment",
+				"timestamp": "2021-04-21T10:25:00.000Z",
+				"author": "Matma Rex",
+				"range": [
+					"2/4/2/0",
+					"2/4/5/4/28"
+				],
+				"signatureRanges": [
+					[
+						"2/4/5/1",
+						"2/4/5/4/28"
+					]
+				],
+				"timestampRanges": [
+					[
+						"2/4/5/4/2",
+						"2/4/5/4/28"
+					]
+				],
+				"level": 1,
+				"name": "c-Matma_Rex-2021-04-21T10:25:00.000Z",
+				"id": "c-Matma_Rex-2021-04-21T10:25:00.000Z-test2-1",
+				"warnings": [
+					"Comment starts and ends with different indentation",
+					"Duplicate comment ID"
+				],
+				"replies": []
+			}
+		]
+	}
+]

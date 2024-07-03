@@ -1,0 +1,9 @@
+{
+	"@metadata": {
+		"authors": [
+			"KuboF"
+		]
+	},
+	"apihelp-discussiontoolsedit-param-commentid": "Identigilo de la komento al kiu respondi. Uzita nur kiam <var>paction</var> estas <var>addcomment</var>. Transpasas la parametron <var>commentname</var>.",
+	"apihelp-discussiontoolsedit-param-wikitext": "Enhavo por afiŝi, kiel vikiteksto. Ne povas esti uzita kun <var>html</var>."
+}

@@ -1,0 +1,23 @@
+{
+	"@metadata": {
+		"authors": [
+			"Sveinn í Felli",
+			"לערי ריינהארט"
+		]
+	},
+	"skinname-monobook": "MonoBook",
+	"monobook-desc": "Klassískt skinn MediaWiki síðan 2004, nefnt eftir svart-hvítu myndinni af bókinni í bakgrunni síðunnar",
+	"monobook.css": "/* Það sem sett er hingað er bætt við MonoBook stilsniðið fyrir allan vefinn */",
+	"monobook.js": "/* Allt JavaScript sem sett er hér mun hafa áhrif á notendur MonoBook-skinnsins. */",
+	"monobook-jumptotop": "aftur efst á síðu",
+	"monobook-jumptopersonal": "notendaverkfæri",
+	"monobook-jumptonavigation": "Fara í flakk",
+	"monobook-jumptosearch": "Fara í leit",
+	"monobook-more-actions": "Meira",
+	"cactions-mobile": "Aðgerðir síðu",
+	"monobook-cactions-label": "Aðgerðir síðu",
+	"monobook-notifications-link": "Tilkynningar ($1)",
+	"monobook-notifications-link-none": "Tilkynningar",
+	"monobook-view-history": "Breytingaskrá",
+	"monobook-action-undelete": "Endurvekja {{PLURAL:$1|eina breytingu|$1 breytingar}}"
+}

@@ -1,0 +1,230 @@
+[
+	{
+		"name": "plwiki oldparser",
+		"title": "Wikipedia:Kawiarenka/Artykuły dyskusja/Archiwum/2018-październik",
+		"dom": "cases/pl-big-oldparser/pl-big-oldparser.html",
+		"expected": {
+			"legacy": "cases/pl-big-oldparser/pl-big-oldparser-formatted-legacy.html",
+			"desktop": "cases/pl-big-oldparser/pl-big-oldparser-formatted-desktop.html",
+			"mobile": "cases/pl-big-oldparser/pl-big-oldparser-formatted-mobile.html"
+		},
+		"config": "../data/plwiki-config.json",
+		"data": "../data/plwiki-data.json"
+	},
+	{
+		"name": "enwiki oldparser",
+		"title": "Wikipedia:Village pump (technical)/Archive 175",
+		"dom": "cases/en-big-oldparser/en-big-oldparser.html",
+		"expected": {
+			"legacy": "cases/en-big-oldparser/en-big-oldparser-formatted-legacy.html",
+			"desktop": "cases/en-big-oldparser/en-big-oldparser-formatted-desktop.html",
+			"mobile": "cases/en-big-oldparser/en-big-oldparser-formatted-mobile.html"
+		},
+		"config": "../data/enwiki-config.json",
+		"data": "../data/enwiki-data.json"
+	},
+	{
+		"name": "arwiki no-paragraph oldparser",
+		"title": "نقاش المستخدم:Khaled",
+		"dom": "cases/ar-no-paragraph-oldparser/ar-no-paragraph-oldparser.html",
+		"expected": {
+			"legacy": "cases/ar-no-paragraph-oldparser/ar-no-paragraph-oldparser-formatted-legacy.html",
+			"desktop": "cases/ar-no-paragraph-oldparser/ar-no-paragraph-oldparser-formatted-desktop.html",
+			"mobile": "cases/ar-no-paragraph-oldparser/ar-no-paragraph-oldparser-formatted-mobile.html"
+		},
+		"config": "../data/arwiki-config.json",
+		"data": "../data/arwiki-data.json"
+	},
+	{
+		"name": "frwiki unsigned oldparser",
+		"title": "Discussion:Le Monde",
+		"dom": "cases/fr-unsigned-oldparser/fr-unsigned-oldparser.html",
+		"expected": {
+			"legacy": "cases/fr-unsigned-oldparser/fr-unsigned-oldparser-formatted-legacy.html",
+			"desktop": "cases/fr-unsigned-oldparser/fr-unsigned-oldparser-formatted-desktop.html",
+			"mobile": "cases/fr-unsigned-oldparser/fr-unsigned-oldparser-formatted-mobile.html"
+		},
+		"config": "../data/frwiki-config.json",
+		"data": "../data/frwiki-data.json"
+	},
+	{
+		"name": "itwiki unsigned oldparser",
+		"title": "Aiuto:Sportello informazioni",
+		"dom": "cases/it-unsigned-oldparser/it-unsigned-oldparser.html",
+		"expected": {
+			"legacy": "cases/it-unsigned-oldparser/it-unsigned-oldparser-formatted-legacy.html",
+			"desktop": "cases/it-unsigned-oldparser/it-unsigned-oldparser-formatted-desktop.html",
+			"mobile": "cases/it-unsigned-oldparser/it-unsigned-oldparser-formatted-mobile.html"
+		},
+		"config": "../data/itwiki-config.json",
+		"data": "../data/itwiki-data.json"
+	},
+	{
+		"name": "Double signature 1",
+		"title": "Wikipedia:Requests for comment/User names",
+		"dom": "cases/double-signature1/double-signature1.html",
+		"expected": {
+			"legacy": "cases/double-signature1/double-signature1-formatted-legacy.html",
+			"desktop": "cases/double-signature1/double-signature1-formatted-desktop.html",
+			"mobile": "cases/double-signature1/double-signature1-formatted-mobile.html"
+		},
+		"config": "../data/enwiki-config.json",
+		"data": "../data/enwiki-data.json"
+	},
+	{
+		"name": "Double signature 2",
+		"title": "Wikipedia:Articles for deletion/Equal Education",
+		"dom": "cases/double-signature2/double-signature2.html",
+		"expected": {
+			"legacy": "cases/double-signature2/double-signature2-formatted-legacy.html",
+			"desktop": "cases/double-signature2/double-signature2-formatted-desktop.html",
+			"mobile": "cases/double-signature2/double-signature2-formatted-mobile.html"
+		},
+		"config": "../data/enwiki-config.json",
+		"data": "../data/enwiki-data.json"
+	},
+	{
+		"name": "Mess caused by unclosed <font> tags in wikitext",
+		"title": "Overleg:Unclosed font",
+		"dom": "cases/unclosed-font/unclosed-font.html",
+		"expected": {
+			"legacy": "cases/unclosed-font/unclosed-font-formatted-legacy.html",
+			"desktop": "cases/unclosed-font/unclosed-font-formatted-desktop.html",
+			"mobile": "cases/unclosed-font/unclosed-font-formatted-mobile.html"
+		},
+		"config": "../data/nlwiki-config.json",
+		"data": "../data/nlwiki-data.json"
+	},
+	{
+		"name": "Reply inserted inside/outside various wrapper elements",
+		"title": "Talk:Wrappers",
+		"dom": "cases/wrappers/wrappers.html",
+		"expected": {
+			"legacy": "cases/wrappers/wrappers-formatted-legacy.html",
+			"desktop": "cases/wrappers/wrappers-formatted-desktop.html",
+			"mobile": "cases/wrappers/wrappers-formatted-mobile.html"
+		},
+		"config": "../data/enwiki-config.json",
+		"data": "../data/enwiki-data.json"
+	},
+	{
+		"name": "Many comment start markers outside of paragraphs",
+		"title": "Wikipedia:Vandalismi in corso",
+		"dom": "cases/transclusions4/transclusions4.html",
+		"expected": {
+			"legacy": "cases/transclusions4/transclusions4-formatted-legacy.html",
+			"desktop": "cases/transclusions4/transclusions4-formatted-desktop.html",
+			"mobile": "cases/transclusions4/transclusions4-formatted-mobile.html"
+		},
+		"config": "../data/itwiki-config.json",
+		"data": "../data/itwiki-data.json"
+	},
+	{
+		"name": "Fake headings using ';' syntax in wikitext (<dt> tags)",
+		"title": "Wikipedia:Propozycje do Artykułów na Medal/Apostoł Pawieł",
+		"dom": "cases/fake-headings/fake-headings.html",
+		"expected": {
+			"legacy": "cases/fake-headings/fake-headings-formatted-legacy.html",
+			"desktop": "cases/fake-headings/fake-headings-formatted-desktop.html",
+			"mobile": "cases/fake-headings/fake-headings-formatted-mobile.html"
+		},
+		"config": "../data/plwiki-config.json",
+		"data": "../data/plwiki-data.json"
+	},
+	{
+		"name": "Signatures in funny places",
+		"title": "Talk:Signatures funny",
+		"dom": "cases/signatures-funny/signatures-funny.html",
+		"expected": {
+			"legacy": "cases/signatures-funny/signatures-funny-formatted-legacy.html",
+			"desktop": "cases/signatures-funny/signatures-funny-formatted-desktop.html",
+			"mobile": "cases/signatures-funny/signatures-funny-formatted-mobile.html"
+		},
+		"config": "../data/enwiki-config.json",
+		"data": "../data/enwiki-data.json"
+	},
+	{
+		"name": "For parser cache",
+		"title": "Talk:For parser cache",
+		"dom": "cases/for-parser-cache/for-parser-cache.html",
+		"expected": {
+			"legacy": "cases/for-parser-cache/for-parser-cache-formatted-legacy.html",
+			"desktop": "cases/for-parser-cache/for-parser-cache-formatted-desktop.html",
+			"mobile": "cases/for-parser-cache/for-parser-cache-formatted-mobile.html"
+		},
+		"config": "../data/enwiki-config.json",
+		"data": "../data/enwiki-data.json"
+	},
+	{
+		"name": "For parser cache (new)",
+		"title": "Talk:For parser cache",
+		"dom": "cases/for-parser-cache-new/for-parser-cache-new.html",
+		"expected": {
+			"legacy": "cases/for-parser-cache-new/for-parser-cache-new-formatted-legacy.html",
+			"desktop": "cases/for-parser-cache-new/for-parser-cache-new-formatted-desktop.html",
+			"mobile": "cases/for-parser-cache-new/for-parser-cache-new-formatted-mobile.html"
+		},
+		"config": "../data/enwiki-config.json",
+		"data": "../data/enwiki-data.json"
+	},
+	{
+		"name": "tracked template",
+		"title": "Commons talk:SPARQL query service",
+		"dom": "cases/tracked-template/tracked-template.html",
+		"expected": {
+			"legacy": "cases/tracked-template/tracked-template-legacy.html",
+			"desktop": "cases/tracked-template/tracked-template-desktop.html",
+			"mobile": "cases/tracked-template/tracked-template-mobile.html"
+		},
+		"config": "../data/commonswiki-config.json",
+		"data": "../data/commonswiki-data.json"
+	},
+	{
+		"name": "Timestamp format switch behavior",
+		"title": "Talk:T304595",
+		"dom": "cases/timestamp-format-switch/timestamp-format-switch.html",
+		"expected": {
+			"legacy": "cases/timestamp-format-switch/timestamp-format-switch-formatted-legacy.html",
+			"desktop": "cases/timestamp-format-switch/timestamp-format-switch-formatted-desktop.html",
+			"mobile": "cases/timestamp-format-switch/timestamp-format-switch-formatted-mobile.html"
+		},
+		"config": "../data/enwiki-config.json",
+		"data": "../data/enwiki-data.json"
+	},
+	{
+		"name": "Suppressed talk classes",
+		"title": "User_talk:ESanders_(WMF)/suppressed-talk",
+		"dom": "cases/suppressed-talk/suppressed-talk.html",
+		"expected": {
+			"legacy": "cases/suppressed-talk/suppressed-talk-formatted-legacy.html",
+			"desktop": "cases/suppressed-talk/suppressed-talk-formatted-desktop.html",
+			"mobile": "cases/suppressed-talk/suppressed-talk-formatted-mobile.html"
+		},
+		"config": "../data/enwiki-config.json",
+		"data": "../data/enwiki-data.json"
+	},
+	{
+		"name": "Heading with inline styles (oldparser)",
+		"title": "Talk:Heading_with_styles",
+		"dom": "cases/heading-style-oldparser/heading-style-oldparser.html",
+		"expected": {
+			"legacy": "cases/heading-style-oldparser/heading-style-oldparser-formatted-legacy.html",
+			"desktop": "cases/heading-style-oldparser/heading-style-oldparser-formatted-desktop.html",
+			"mobile": "cases/heading-style-oldparser/heading-style-oldparser-formatted-mobile.html"
+		},
+		"config": "../data/enwiki-config.json",
+		"data": "../data/enwiki-data.json"
+	},
+	{
+		"name": "Heading with inline styles (parsoid)",
+		"title": "Talk:Heading_with_styles",
+		"dom": "cases/heading-style-parsoid/heading-style-parsoid.html",
+		"expected": {
+			"legacy": "cases/heading-style-parsoid/heading-style-parsoid-formatted-legacy.html",
+			"desktop": "cases/heading-style-parsoid/heading-style-parsoid-formatted-desktop.html",
+			"mobile": "cases/heading-style-parsoid/heading-style-parsoid-formatted-mobile.html"
+		},
+		"config": "../data/enwiki-config.json",
+		"data": "../data/enwiki-data.json"
+	}
+]

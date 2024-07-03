@@ -1,0 +1,21 @@
+{
+	"@metadata": {
+		"authors": [
+			"Lucas",
+			"Michawiki",
+			"Mirin",
+			"Nemo bis",
+			"Paladox",
+			"Tlustulimu",
+			"Yekrats"
+		]
+	},
+	"citethispage": "Citado",
+	"citethispage-desc": "Aldoni specialan paĝon por [[Special:CiteThisPage|citado]] kaj ligilon al ilaro",
+	"citethispage-link": "Citi ĉi tiun paĝon",
+	"tooltip-citethispage": "Informoj pri kiel citi ĉi tiun paĝon",
+	"citethispage-change-submit": "Citi",
+	"citethispage-change-target": "Paĝo:",
+	"citethispage-badrevision": "Eraro: ne povis trovi version de paĝo \"$1\" kun la versia numero $2.",
+	"citethispage-content": "__NOTOC__\n<div class=\"mw-specialCiteThisPage-bibliographic\">\n\n== Bibliografiaj detaloj por {{FULLPAGENAME}} ==\n\n* Nomo de paĝo: {{FULLPAGENAME}}\n* Aŭtoro: {{SITENAME}} contributors\n* Eldonejo: ''{{SITENAME}}''.\n* Dato de lasta revizio: {{CURRENTDAY}} {{CURRENTMONTHNAME}} {{CURRENTYEAR}} {{CURRENTTIME}} UTC\n* Dato ricevita: <citation>{{CURRENTDAY}} {{CURRENTMONTHNAME}} {{CURRENTYEAR}} {{CURRENTTIME}} UTC</citation>\n* Daŭra URL: {{canonicalurl:{{FULLPAGENAME}}|oldid={{REVISIONID}}}}\n* Versio-identigo de paĝo: {{REVISIONID}}\n\n</div>\n<div class=\"plainlinks mw-specialCiteThisPage-styles\">\n\n== Citaj stiloj por {{FULLPAGENAME}} ==\n\n=== [[APA-stilo]] ===\n{{FULLPAGENAME}}. ({{CURRENTYEAR}}, {{CURRENTMONTHNAME}} {{CURRENTDAY}}). ''{{SITENAME}}''. Retrieved <citation>{{CURRENTTIME}}, {{CURRENTMONTHNAME}} {{CURRENTDAY}}, {{CURRENTYEAR}}</citation> from {{canonicalurl:{{FULLPAGENAME}}|oldid={{REVISIONID}}}}.\n\n=== [[MLA-stilo]] ===\n\"{{FULLPAGENAME}}.\" ''{{SITENAME}}''. {{CURRENTDAY}} {{CURRENTMONTHABBREV}} {{CURRENTYEAR}}, {{CURRENTTIME}} UTC. <citation>{{CURRENTDAY}} {{CURRENTMONTHABBREV}} {{CURRENTYEAR}}, {{CURRENTTIME}}</citation> &lt;{{canonicalurl:{{FULLPAGENAME}}|oldid={{REVISIONID}}}}&gt;.\n\n=== [[MHRA-stilo]] ===\n{{SITENAME}} contributors, '{{FULLPAGENAME}}', ''{{SITENAME}},'' {{CURRENTDAY}} {{CURRENTMONTHNAME}} {{CURRENTYEAR}}, {{CURRENTTIME}} UTC, &lt;{{canonicalurl:{{FULLPAGENAME}}|oldid={{REVISIONID}}}}&gt; [accessed <citation>{{CURRENTDAY}} {{CURRENTMONTHNAME}} {{CURRENTYEAR}}</citation>]\n\n=== [[Ĉikago-stilo]] ===\n{{SITENAME}} contributors, \"{{FULLPAGENAME}},\" ''{{SITENAME}},'' {{canonicalurl:{{FULLPAGENAME}}|oldid={{REVISIONID}}}} (accessed <citation>{{CURRENTMONTHNAME}} {{CURRENTDAY}}, {{CURRENTYEAR}}</citation>).\n\n=== [[CBE/CSE-stilo]] ===\n{{SITENAME}} contributors. {{FULLPAGENAME}} [Internet]. {{SITENAME}}; {{CURRENTYEAR}} {{CURRENTMONTHABBREV}} {{CURRENTDAY}}, {{CURRENTTIME}} UTC [cited <citation>{{CURRENTYEAR}} {{CURRENTMONTHABBREV}} {{CURRENTDAY}}</citation>]. Available from:\n{{canonicalurl:{{FULLPAGENAME}}|oldid={{REVISIONID}}}}.\n\n=== [[Blulibro-stilo]] ===\n{{FULLPAGENAME}}, {{canonicalurl:{{FULLPAGENAME}}|oldid={{REVISIONID}}}} (last visited <citation>{{CURRENTMONTHNAME}} {{CURRENTDAY}}, {{CURRENTYEAR}}</citation>).\n\n=== [[BibTeX]] datumaro ===\n\n  @misc{ wiki:xxx,\n    author = \"{{SITENAME}}\",\n    title = \"{{FULLPAGENAME}} --- {{SITENAME}}{,} {{int:sitesubtitle}}\",\n    year = \"{{CURRENTYEAR}}\",\n    url = \"{{canonicalurl:{{FULLPAGENAME}}|oldid={{REVISIONID}}}}\",\n    note = \"[Online; accessed <citation>{{CURRENTDAY}}-{{CURRENTMONTHNAME}}-{{CURRENTYEAR}}</citation>]\"\n  }\n\nKiam uzante [[LaTeX]]-on, url (<code>\\usepackage{url}</code> ie en la kapteksto) kiu emas formati pli belaj retadresoj, la jeno eble estos preferata:\n\n  @misc{ wiki:xxx,\n    author = \"{{SITENAME}}\",\n    title = \"{{FULLPAGENAME}} --- {{SITENAME}}{,} {{int:sitesubtitle}}\",\n    year = \"{{CURRENTYEAR}}\",\n    url = \"'''\\url{'''{{canonicalurl:{{FULLPAGENAME}}|oldid={{REVISIONID}}}}'''}'''\",\n    note = \"[Online; accessed <citation>{{CURRENTDAY}}-{{CURRENTMONTHNAME}}-{{CURRENTYEAR}}</citation>]\"\n  }\n\n\n</div> <!--closing div for \"plainlinks\"-->"
+}

@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Joetaras"
+		]
+	},
+	"apihelp-categorytree-summary": "Module 'nderne de l'estenzione CategoryTree.",
+	"apihelp-categorytree-param-category": "Titole jndr'à 'u namespace categorije, 'u prefisse avène cacate ce mise.",
+	"apihelp-categorytree-param-options": "Opziune pu costruttore CategoryTree cumme 'n'oggette JSON. L'opzione <var>depth</var> avène mise de base a <kbd>1</kbd>.",
+	"apierror-categorytree-invalidjson": "Opziune onna essere valide pe 'n'oggette JSON.",
+	"apierror-categorytree-invalidjson-option": "L'opzione \"$1\" ave valore invalide."
+}

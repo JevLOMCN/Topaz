@@ -1,0 +1,31 @@
+@import '../../minerva.less/minerva.variables.less';
+@import '../../minerva.less/minerva.mixins.less';
+
+.mw-search-createlink,
+.mw-search-profile-tabs {
+	display: none;
+}
+
+.mw-search-results-container,
+.mw-search-results-info {
+	width: 100%;
+}
+
+// hide non-NS_FILE thumbnails until further notice
+// @see https://phabricator.wikimedia.org/T306883#8205230
+.mw-search-result:not( .mw-search-result-ns-6 ) .searchResultImage-thumbnail {
+	display: none;
+}
+
+// some of the content is extremely long and trying to keep
+// as much as possible on 1 line causes breaking other
+// parts (notably: thumbnails end up being squished)
+.searchResultImage-text {
+	word-break: break-word;
+}
+
+// override ul padding-left defined in lists.less, which isn't
+// meant to affect the search results list
+.content ul.mw-search-results {
+	padding-left: 0;
+}

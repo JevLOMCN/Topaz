@@ -1,0 +1,264 @@
+{
+  "texvcbugs": [
+    [
+      "possible bug, operatorname Literal see Literal.php",
+      {
+        "input": "\\sgn r, \\left\\vert s \\right\\vert \\!",
+        "output": "tbd",
+        "type":"tex"
+      },
+      "no uq elements for f', f'' and f'' has to have squashed literals",
+      {
+        "input": "f^\\prime, f', f''",
+        "output": "tbd",
+        "type":"tex"
+      }
+    ]
+  ],
+  "texvctreebugs": [
+      [
+        "Color with elements not in related tree element",
+        {
+          "input": "\\color{red}{red}",
+          "output": "tbd",
+          "type":"tex"
+        }
+      ],
+      [
+        "Color #2 with elements not in related tree element",
+        {
+          "input": "\\color{Orange}\\text{Orange}",
+          "output": "tbd",
+          "type": "tex"
+        }
+      ],
+      [
+        "Pagecolor with elements not in related tree element",
+        {
+          "input": "\\pagecolor{red}{red}'",
+          "output": "tbd",
+          "type":"tex"
+        }
+      ],
+    [
+      "Definecolor with elements not in related tree element",
+      {
+        "input": "\\definecolor{ultramarine}{RGB}{0,32,96}",
+        "output": "tbd",
+        "type":"tex"
+      }
+    ],
+    [
+      "Sideset with elements not in related tree element",
+      {
+        "input": "\\sideset{_1^2}{_3^4}\\sum",
+        "output": "tbd",
+        "type":"tex"
+      }
+    ],
+    [
+      "Lim with elements not in related tree element",
+      {
+        "input": "\\lim\\limits_{x \\to 2}",
+        "output": "tbd",
+        "type":"tex"
+      }
+    ],
+    [
+      "Displaystyle with elements not in related tree element, currently solved with custom rendering in TexArray ",
+      {
+        "input": "\\frac{\\displaystyle \\sum_{k=1}^N k^2}{a}",
+        "output": "tbd",
+        "type":"tex"
+      }
+    ],
+    [
+      "Scriptscriptstyle with elements not in related tree element, currently solved with custom rendering in TexArray ",
+      {
+        "input": "\\frac ab + \\scriptscriptstyle{\\frac cd + \\frac ef} + \\frac gh",
+        "output": "tbd",
+        "type":"tex"
+      }
+    ],
+    [
+      "Scriptstyle with elements not in related tree element, currently solved with custom rendering in TexArray ",
+      {
+        "input": "{\\scriptstyle \\partial \\Omega}",
+        "output": "tbd",
+        "type":"tex"
+      }
+    ],
+    [
+      "Textstyle with elements not in related tree element, currently solved with custom rendering in TexArray ",
+      {
+        "input": "\\textstyle \\sum_{k=1}^N k^2",
+        "output": "tbd",
+        "type":"tex"
+      }
+    ],
+    [
+      "Literals in array elements are not squashed but each literal is parsed on its own Lit(n) Lit(o) ... ",
+      {
+        "input": "\\mathfrak{nopqrstuvwxyz}",
+        "output": "tbd",
+        "type":"tex"
+      }
+    ]
+  ],
+  "literalnums": [
+    [
+        "two literal numbers before superscript",
+        {
+          "input": "\\exp_a b = a^b, \\exp b = e^b, 10^m \\!",
+          "output": "tbd",
+          "type":"tex"
+        }
+    ],
+    [
+        "two literals within an fun1 element",
+        {
+          "input": "\\ln c, \\lg d = \\log e, \\log_{10} f \\!",
+          "output": "tbd",
+          "type": "tex"
+        }
+    ],
+    [
+      "Grouping 1 a and b should be dedicated elements here",
+      {
+        "input": "\\bf ab",
+        "output": "{\\bf {ab}}",
+        "type": "tex"
+      }
+    ],
+    [
+      "Grouping 2 a and b should be dedicated elements here",
+      {
+        "input": "{\\bf ab}cd",
+        "output": "{\\bf {ab}}cd",
+        "type": "tex"
+      }
+    ]
+  ],
+  "basic" : [
+      [
+        "Superscript",
+        {
+            "input": "r^2",
+            "output": "r^{2}",
+            "type": "tex"
+        }
+      ],
+      [
+        "Subscript",
+        {
+          "input": "x_3",
+          "output": "x_{3}",
+          "type": "tex"
+        }
+      ],
+      [
+        "Subscript Superscript",
+        {
+          "input": "x_1^2",
+          "output": "x_{1}^{2}",
+          "type": "tex"
+        }
+      ],
+      [
+        "Fraction Simple",
+        {
+          "input": "\\frac{x}{y}",
+          "output": "{\\frac {x}{y}}",
+          "type": "tex"
+        }
+      ],
+      [
+        "Square Root Simple",
+        {
+          "input": "\\sqrt{x}",
+          "output": "{\\sqrt {x}}",
+          "type": "tex"
+        }
+      ],
+      [
+        "Other Root (Cube) Simple",
+        {
+          "input": "\\sqrt[3]{x}",
+          "output": "{\\sqrt[{3}]{x}}",
+          "type": "tex"
+        }
+      ],
+      [
+        "Special Characters",
+        {
+          "input": "\\pi \\Gamma \\infty",
+          "output": "\\pi \\Gamma \\infty ",
+          "type": "tex",
+          "skipped": false
+        }
+      ],
+      [
+        "Delimiters",
+        {
+          "input": "\\left(\\frac{x}{y}\\right )^2",
+          "output": "\\left({\\frac {x}{y}}\\right)^{2}",
+          "type": "tex"
+        }
+      ],
+      [
+        "Accents Simple",
+        {
+          "input": "\\hat{A}",
+          "output": "{\\hat {A}}",
+          "description": "Hat accent places a hat over the A, i.e. Â ",
+          "type": "tex"
+        }
+      ],
+      [
+        "Text in Math Mode",
+        {
+          "input": "\\mathbf{AbC}",
+          "output": "\\mathbf {AbC} ",
+          "description": "Enter bold text in MathMode",
+          "type": "tex"
+        }
+      ],
+      [
+        "Matrix Simple",
+        {
+
+          "input": "\\begin{array}{c}a & b \\\\ c & d\\end{array}",
+          "output": "{\\begin{array}{c}a&b\\\\c&d\\end{array}}",
+          "description": "Matrix with a b over c d",
+          "remarks": "\\array{a & b \\\\ c & d} is erroneous for TexVC-PHP",
+          "type": "tex"
+        }
+      ],
+      [
+        "Matrix Brackets",
+        {
+          "input": "\\left(\\begin{array}{c}a & b \\\\ c & d\\end{array}\\right )",
+          "output": "\\left({\\begin{array}{c}a&b\\\\c&d\\end{array}}\\right)",
+          "description": "Matrix with a b over c d encapsulated by brackets",
+          "type": "tex",
+          "skipped": false
+        }
+      ],
+      [
+        "Grouping 1",
+        {
+          "input": "\\bf ab",
+          "output": "{\\bf {ab}}",
+          "type": "tex"
+        }
+      ],
+      [
+        "Grouping 2",
+        {
+          "input": "{\\bf ab}cd",
+          "output": "{\\bf {ab}}cd",
+          "type": "tex"
+        }
+      ]
+  ]
+}

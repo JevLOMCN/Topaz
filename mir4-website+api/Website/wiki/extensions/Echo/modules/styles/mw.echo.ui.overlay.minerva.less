@@ -1,0 +1,37 @@
+@import 'mediawiki.skin.variables.less';
+
+@media all and ( max-width: @max-width-breakpoint-mobile ) {
+	// On mobile screens position the anchor arrow correctly so it points to the
+	// notifications badge.
+	.mw-echo-ui-overlay .oo-ui-popupWidget-anchor {
+		// Override the inline style.
+		left: auto !important;
+		right: 68px;
+	}
+}
+
+.mw-echo-ui-overlay {
+	position: fixed;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	top: auto;
+
+	.mw-echo-ui-actionMenuPopupWidget-menu {
+		padding: 0.5em;
+		font-size: 16 / 14em;
+		box-shadow: none;
+		border: @border-width-base @border-style-base @border-color-subtle;
+		border-width: @border-width-base 0 0 0;
+		// Override the positioning of the menu
+		// so it is "stuck" on the bottom of the
+		// notification overlay panel
+		position: fixed !important;
+		bottom: 0 !important;
+		left: 0 !important;
+		width: 100% !important;
+		max-width: none !important;
+		height: auto !important;
+		top: auto !important;
+	}
+}

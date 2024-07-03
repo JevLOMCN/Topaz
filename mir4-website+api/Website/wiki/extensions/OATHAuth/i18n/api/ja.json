@@ -1,0 +1,18 @@
+{
+	"@metadata": {
+		"authors": [
+			"W.CC",
+			"Waki285"
+		]
+	},
+	"apihelp-query+oath-summary": "利用者の二要素認証（OATH）が有効かどうかを確認する。",
+	"apihelp-query+oath-param-user": "情報を取得する利用者。初期設定は現在の利用者です。",
+	"apihelp-query+oath-param-reason": "OATHの状況を調査する理由",
+	"apihelp-query+oath-example-1": "現在の利用者に関する情報を取得する",
+	"apihelp-query+oath-example-2": "利用者 <kbd>Example</kbd>の情報を取得する",
+	"apihelp-oathvalidate-summary": "二要素認証（OATH）トークンを検証する。",
+	"apihelp-oathvalidate-param-user": "トークンを取得する利用者。初期設定は現在の利用者です。",
+	"apihelp-oathvalidate-example-1": "現在の利用者のJSONデータを検証する",
+	"apihelp-oathvalidate-example-3": "利用者のJSONデータを検証する <kbd>例</kbd>",
+	"apihelp-oathvalidate-param-data": "認証中の利用者に対して現在アクティブ化されているモジュールによって期待される JSON エンコードされたデータ"
+}

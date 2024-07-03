@@ -1,0 +1,20 @@
+{
+	"@metadata": {
+		"authors": [
+			"Amire80",
+			"Guycn2",
+			"IKhitron"
+		]
+	},
+	"apihelp-query+linterrors-summary": "קבלת רשימת שגיאות ניקיון",
+	"apihelp-query+linterrors-param-categories": "סוגים של שגיאות ניקיון",
+	"apihelp-query+linterrors-param-invisible-categories": "קטגוריות בלתי־נראות של שגיאות ניקיון",
+	"apihelp-query+linterrors-param-limit": "מספר התוצאות לשאילתה",
+	"apihelp-query+linterrors-param-from": "מאיזה מזהה ניקיון להתחיל את השאילתה",
+	"apihelp-query+linterrors-param-namespace": "לכלול רק שגיאות ניקיון ממרחבי שם שצוינו",
+	"apihelp-query+linterrors-param-pageid": "לכלול שגיאות ניקיון רק ממזהי הדפים האלו",
+	"apihelp-query+linterrors-param-title": "לכלול שגיאות ניקיון רק מכותרת הדף שצוינה",
+	"apihelp-query+linterrors-example-1": "קבלת כל שגיאות הניקיון מקטגוריית תג מיושן",
+	"apihelp-query+linterstats-summary": "קבלת מספר שגיאות הניקיון בכל קטגוריה",
+	"apihelp-query+linterstats-example-1": "קבלת מספר שגיאות הניקיון בכל קטגוריה"
+}

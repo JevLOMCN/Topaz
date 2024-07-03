@@ -1,0 +1,20 @@
+{
+	"@metadata": {
+		"authors": [
+			"Aelske",
+			"DannyS712",
+			"Matthias",
+			"Ooswesthoesbes"
+		]
+	},
+	"inputbox-desc": "Maakt 't toevoege van veurgedefinieerde HTML-formuliere meugelijk",
+	"inputbox-error-no-type": "U heeft 't type inputbox neet aangegeve. Zie [https://www.mediawiki.org/wiki/Extension:Inputbox MediaWiki.org] veur meer informatie.",
+	"inputbox-error-bad-type": "Inputbox-type \"$1\" neet herkend. \nGebroek \"create\", \"comment\", \"search\", \"search2\" óf \"fulltext\".",
+	"inputbox-tryexact": "Perbeer exacte euvereinkoms",
+	"inputbox-searchfulltext": "Zeuk de volledige teks",
+	"inputbox-createarticle": "Maak 'n pagina aan",
+	"inputbox-movearticle": "Verplaats pazjena",
+	"inputbox-postcomment": "Nuuj sectie",
+	"inputbox-postcommenttitle": "Nuuj sectie",
+	"inputbox-ns-main": "Houfnaamruumdje"
+}

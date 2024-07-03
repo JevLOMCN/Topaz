@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": []
+	},
+	"turnstile-desc": "Adds support for Cloudflare Turnstile to ConfirmEdit",
+	"turnstile-edit": "To protect the wiki against automated edit spam, please solve the following captcha:",
+	"turnstile-addurl": "Your edit includes new external links. To protect the wiki against automated spam, please solve the following captcha:",
+	"turnstile-badlogin": "To protect the wiki against automated password cracking, please solve the following captcha:",
+	"turnstile-createaccount": "To protect the wiki against automated account creation, please solve the following captcha:",
+	"turnstile-createaccount-fail": "It seems you haven't solved the CAPTCHA.",
+	"turnstile-create": "To protect the wiki against automated page creation, please solve the following captcha:",
+	"turnstile-help": "Please solve a Turnstile challenge and return the response value as captchaWord."
+}

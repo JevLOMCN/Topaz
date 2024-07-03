@@ -1,0 +1,19 @@
+{
+	"@metadata": {
+		"authors": [
+			"McDutchie"
+		]
+	},
+	"imagemap_desc": "Permitte le mappas de imagines cliccabile al latere del cliente, usante le etiquetta <code>&lt;imagemap&gt;</code>",
+	"imagemap_no_image": "Error: debe specificar un imagine in le prime linea",
+	"imagemap_invalid_image": "Error: imagine es invalide o non existe",
+	"imagemap_bad_image": "Error: le imagine non es permittite sur iste pagina.",
+	"imagemap_no_link": "Error: necun ligamine valide esseva trovate al fin del linea $1",
+	"imagemap_invalid_title": "Error: titulo invalide in ligamine al linea $1",
+	"imagemap_missing_coord": "Error: non bastante coordinatas pro le forma al linea $1",
+	"imagemap_unrecognised_shape": "Error: forma non recognoscite al linea $1; cata linea debe comenciar con un del sequentes: <code>default</code>, <code>rect</code>, <code>circle</code>, <code>poly</code>",
+	"imagemap_invalid_coord": "Error: coordinata invalide al linea $1, debe esser un numero",
+	"imagemap_invalid_desc": "Error: specification \"desc\" invalide, debe esser un del sequentes: <code>$1</code>",
+	"imagemap_description": "A proposito de iste imagine",
+	"imagemap_poly_odd": "Error: se trova un polygono con un numero impar de coordinatas in linea $1"
+}

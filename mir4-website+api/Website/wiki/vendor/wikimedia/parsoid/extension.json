@@ -1,0 +1,30 @@
+{
+	"name": "Parsoid",
+	"description": "The Parsoid extension enables the REST API for Parsoid. This is needed to support VisualEditor.",
+	"url": "https://www.mediawiki.org/wiki/Parsoid/PHP",
+	"license-name": "GPL-2.0-or-later",
+	"requires": {
+		"MediaWiki": ">= 1.41.0",
+		"platform": {
+			"php": ">= 7.4"
+		}
+	},
+	"AutoloadNamespaces": {
+		"MWParsoid\\": "extension/src"
+	},
+	"config": {
+		"ParsoidEnableREST": {
+			"value": true,
+			"description": "Whether to enable Parsoid REST API"
+		}
+	},
+	"Hooks": {
+		"UnitTestsList": "UnitTestsListHandler"
+	},
+	"HookHandlers": {
+		"UnitTestsListHandler": { "class": "\\MWParsoid\\UnitTestsListHandler" }
+	},
+	"callback": "\\MWParsoid\\RegistrationHookHandler::onRegistration",
+	"load_composer_autoloader": false,
+	"manifest_version": 2
+}

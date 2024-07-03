@@ -1,0 +1,36 @@
+{
+	"@metadata": {
+		"authors": [
+			"Malafaya",
+			"McDutchie"
+		]
+	},
+	"categorytree": "Arbore de categorias",
+	"categorytree-portlet": "Categorias",
+	"categorytree-legend": "Monstrar arbore de categorias",
+	"categorytree-desc": "Navigar dynamicamente per le [[Special:CategoryTree|structura de categorias]]",
+	"categorytree-header": "Entra le nomine de un categoria pro vider su contento como un structura arboree.\n(Require JavaScript.)",
+	"categorytree-category": "Categoria:",
+	"categorytree-go": "Monstrar arbore",
+	"categorytree-parents": "Categorias superior",
+	"categorytree-mode-label": "Modo:",
+	"categorytree-mode-categories": "categorias solmente",
+	"categorytree-mode-pages": "paginas excepte files",
+	"categorytree-mode-all": "tote le paginas",
+	"categorytree-collapse": "contraher",
+	"categorytree-expand": "expander",
+	"categorytree-member-counts": "contine {{PLURAL:$1|1 subcategoria|$1 subcategorias}}, {{PLURAL:$2|1 pagina|$2 paginas}}, e {{PLURAL:$3|1 file|$3 files}}",
+	"categorytree-num-categories": "$1 C",
+	"categorytree-num-pages": "$1 P",
+	"categorytree-num-files": "$1 F",
+	"categorytree-num-empty": "vacue",
+	"categorytree-load": "cargar",
+	"categorytree-loading": "cargamento in curso…",
+	"categorytree-nothing-found": "nihil trovate",
+	"categorytree-no-subcategories": "nulle subcategoria",
+	"categorytree-no-parent-categories": "nulle categoria superior",
+	"categorytree-no-pages": "nulle pagina o subcategoria",
+	"categorytree-not-found": "Categoria <i>$1</i> non trovate",
+	"categorytree-error": "Problema de cargamento de datos.",
+	"categorytree-retry": "Per favor attende un momento e reproba."
+}

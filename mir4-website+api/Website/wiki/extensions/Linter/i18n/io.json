@@ -1,0 +1,38 @@
+{
+	"@metadata": {
+		"authors": [
+			"Joao Xavier"
+		]
+	},
+	"linterrors": "Erori pri 'Lint'",
+	"linter-category-deletable-table-tag": "Etiketo di tabelo qua mustos efacesar",
+	"linter-category-deletable-table-tag-desc": "Ca pagini havas etiketi en tabeli qui mustus efacesor.",
+	"linter-category-html5-misnesting": "Etiketo nekorekte imbrikita, kun diferanta reprezento-formo en HTML5 e HTML4",
+	"linter-category-misc-tidy-replacement-issues": "Diversa temi",
+	"linter-category-multiple-unclosed-formatting-tags-desc": "Ca pagini kontenas diversa etiketi (''tags'') neklozata",
+	"linter-category-tidy-font-bug": "Anciena konduto di fonto-etiketi kontenanta ligili",
+	"linter-form-exact-match": "Serchar specifika titulo di pagino",
+	"linter-form-prefix-match": "Serchez omna pagini qui esas ajustata a la prefixo dil titulo",
+	"linter-form-exact-or-prefix": "Serchar specifika titulo di pagino, od omna pagini kun la sama titulo-prefixo",
+	"linter-form-namespace": "'Namespace:'",
+	"linter-form-title-prefix": "Prefixo dil titulo:",
+	"linter-heading-high-priority": "Alta prioreso",
+	"linter-heading-low-priority": "Basa prioreso",
+	"linter-heading-medium-priority": "Meza prioreso",
+	"linter-numerrors": "($1 {{PLURAL:$1|eroro|erori}})",
+	"linter-page-edit": "redaktar",
+	"linter-pager-category-header": "Kategorio",
+	"linter-pager-deletable-table-tag-details": "Etiketo di tabelo qua mustos efacesar",
+	"linter-pager-html5-misnesting-details": "Nekorekta imbriko (nun ruptita)",
+	"linter-pager-misc-tidy-replacement-issues-details": "Diversa erori pri ''markup''",
+	"linter-pager-misnested-tag-details": "Etiketo nekorekte inkluzita, qua mustos inkluzesar korekte",
+	"linter-pager-multi-colon-escape-details": "Multopla uzo di bi-punti",
+	"linter-pager-multiple-unclosed-formatting-tags-details": "Diversa etiketi sen klozuri en la pagino",
+	"linter-pager-obsolete-tag-details": "etiketo HTML obsoleta",
+	"linter-pager-template-header": "Tra ula shablono?",
+	"linter-pager-tidy-whitespace-bug-details": "Problemi pri ecesanta blanka spaci",
+	"linter-pager-title-header": "Titulo di la pagino",
+	"linterrors-subpage": "Erori pri 'Lint': $1",
+	"linterrors-summary": "<strong>Atencez:</strong> La quanti por kategorii ne esas exakta, tamen la nombri prizentata havas bazo statistikala.",
+	"pageinfo-linter": "Erori pri 'Lint'"
+}

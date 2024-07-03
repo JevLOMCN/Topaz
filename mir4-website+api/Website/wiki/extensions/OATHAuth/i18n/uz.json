@@ -1,0 +1,31 @@
+{
+	"@metadata": {
+		"authors": [
+			"Malikxan"
+		]
+	},
+	"disableoathforuser": "Foydalanuvchining Ikki faktorli autentifikatsiyasini oʻchirib qoʻyish",
+	"verifyoathforuser": "Ikki faktorli autentifikatsiya statusini tasdiqlash",
+	"oathauth-account": "Hisob nomi:",
+	"oathauth-secret": "Ikki faktorli autentifikatsiya maxfiy kaliti:",
+	"oathauth-enable": "Ikki faktorli autentifikatsiyani yoqish",
+	"oathauth-disabledoath": "Ikki faktorli autentifikatsiyani oʻchirib qoʻyish",
+	"oathauth-prefs-label": "Ikki faktorli autentifikatsiya:",
+	"oathauth-step1": "1-qadam: Ikki faktorli autentifikatsiya dasturini yuklab oling",
+	"oathauth-step2": "2-qadam: QR kodni skanerlang",
+	"oathauth-step4": "4-qadam: Tasdiqlang",
+	"oathauth-enteruser": "Foydalanuvchi nomi:",
+	"right-oathauth-enable": "Ikki faktorli autentifikatsiyani yoqish",
+	"action-oathauth-enable": "ikki faktorli autentifikatsiyani yoqish",
+	"oathauth-auth-token-label": "Token",
+	"oath-log-name": "Ikki faktorli autentifikatsiya qaydi",
+	"oathauth-ui-no-module": "Yoqilmagan",
+	"oathauth-ui-manage": "Boshqarish",
+	"oathmanage": "Ikki faktorli autentifikatsiyani boshqarish",
+	"oathauth-ui-not-enabled-modules": "Muqobil metodga almashtirish",
+	"oathauth-enable-generic": "Yoqish",
+	"oathauth-disable-generic": "Oʻchirish",
+	"oathauth-disable-method-warning-button-label": "Tasdiqlash va davom etish",
+	"oathauth-invalidrequest": "Yaroqsiz soʻrov",
+	"oathauth-notifications-disable-help": "Yordam"
+}

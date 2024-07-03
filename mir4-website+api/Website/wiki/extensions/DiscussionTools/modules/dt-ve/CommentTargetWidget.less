@@ -1,0 +1,49 @@
+.ext-discussiontools-ui-targetWidget {
+	.oo-ui-toolGroup {
+		border: 0;
+	}
+
+	> .ve-init-target > .ve-ui-surface {
+		> .ve-ce-surface .ve-ce-attachedRootNode,
+		> .ve-ui-surface-placeholder {
+			min-height: 10em;
+			box-sizing: border-box;
+
+			.skin-minerva & {
+				min-height: 5em;
+			}
+		}
+
+		&.ve-ui-surface-source {
+			> .ve-ce-surface .ve-ce-attachedRootNode,
+			> .ve-ui-surface-placeholder {
+				padding: 6px 8px;
+				// Leave space for newComments button
+				padding-bottom: 22px;
+			}
+		}
+
+		&.ve-ui-surface-visual {
+			> .ve-ce-surface .ve-ce-attachedRootNode,
+			> .ve-ui-surface-placeholder {
+				/* Use an non-zero padding to disable margin collapse */
+				padding: 0.05px 8px;
+				// Leave space for newComments button
+				padding-bottom: 16px;
+			}
+		}
+
+		// TODO: target this to username completion dropdowns, not all
+		.ve-ui-completionWidget .oo-ui-menuSelectWidget {
+			min-width: 15em;
+		}
+
+		.ve-ui-completionWidget-header > .oo-ui-labelElement-label {
+			color: #404244;
+
+			> span {
+				color: #72777d;
+			}
+		}
+	}
+}

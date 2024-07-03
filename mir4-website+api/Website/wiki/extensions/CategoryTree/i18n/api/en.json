@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Daniel Kinzler, brightbyte.de"
+		]
+	},
+	"apihelp-categorytree-summary": "Internal module for the CategoryTree extension.",
+	"apihelp-categorytree-param-category": "Title in the category namespace, prefix will be ignored if given.",
+	"apihelp-categorytree-param-options": "Options for the CategoryTree constructor as a JSON object. The <var>depth</var> option defaults to <kbd>1</kbd>.",
+	"apierror-categorytree-invalidjson": "Options must be a valid JSON object.",
+	"apierror-categorytree-invalidjson-option": "Option \"$1\" contains invalid value."
+}

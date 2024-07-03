@@ -1,0 +1,23 @@
+{
+	"@metadata": {
+		"authors": [
+			"Joetaras"
+		]
+	},
+	"apihelp-query+gadgetcategories-summary": "Tuèrne 'n'elenghe de le categorije de le accessore.",
+	"apihelp-query+gadgetcategories-param-prop": "C'è categorije de 'mbormaziune d'u gadget vue ccu pigghie:\n;name:Nome 'nderne d'a categorije.\n;title:Titole d'a categorije.\n;members:Numere de gadget jndr'à categorije.",
+	"apihelp-query+gadgetcategories-param-names": "Nome de le categorije da recuperà.",
+	"apihelp-query+gadgetcategories-example-1": "Pigghie l'elenghe de le categorije de accessore esistende",
+	"apihelp-query+gadgetcategories-example-2": "Pigghie le 'mbormaziune sus a le categorije chiamate \"foo\" e \"bar\"",
+	"apihelp-query+gadgets-summary": "Tuèrne 'n'elenghe de accessore ausate sus a sta uicchi.",
+	"apihelp-query+gadgets-param-prop": "Cè 'mbormaziune d'u gadget vuè ccu pigghie:\n;id:ID 'nderne d'u gadget.\n;metadata:'U metadate d'u gadget.\n;desc:Descrizione d'u gadget trasformate jndr'à l'HTML (pò essere lende, ausale sulamende ce te serve avveramende).",
+	"apihelp-query+gadgets-param-categories": "Da ce categorije a pigghià le gadget.",
+	"apihelp-query+gadgets-param-ids": "ID de le gadget da recuperà.",
+	"apihelp-query+gadgets-param-allowedonly": "Elenghe sulamende le accessorie conzendite a stu utende.",
+	"apihelp-query+gadgets-param-enabledonly": "Elenghe sulamende le accessorie conzendite a stu utende.",
+	"apihelp-query+gadgets-example-1": "Pigghie l'elenghe de le gadget cu 'a descriziona lore",
+	"apihelp-query+gadgets-example-2": "Pigghie l'elenghe de le gadget cu tutte le possibbele probbietà",
+	"apihelp-query+gadgets-example-3": "Pigghie l'elenghe de le gadget ca appartenene a 'a categorije \"foo\"",
+	"apihelp-query+gadgets-example-4": "Pigghie le 'mbormaziune sus a le gadget \"foo\" e \"bar\"",
+	"apihelp-query+gadgets-example-5": "Pigghie l'elenghe de le gadget attive pe l'utende de mò"
+}

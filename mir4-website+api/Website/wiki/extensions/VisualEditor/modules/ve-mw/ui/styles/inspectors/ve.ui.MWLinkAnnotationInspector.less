@@ -1,0 +1,47 @@
+/*!
+ * VisualEditor MediaWiki UserInterface MWLinkAnnotationInspector styles.
+ *
+ * @copyright See AUTHORS.txt
+ * @license The MIT License (MIT); see LICENSE.txt
+ */
+
+.ve-ui-mwLinkAnnotationInspector {
+	.ve-ui-linkAnnotationWidget {
+		.mw-widget-titleSearchWidget {
+			position: relative;
+			min-height: 2.4em;
+
+			.oo-ui-searchWidget-query {
+				position: static;
+				padding: 0;
+				height: auto;
+				border: 0;
+				box-shadow: none;
+			}
+
+			.oo-ui-textInputWidget {
+				margin: 0;
+			}
+
+			.oo-ui-searchWidget-results {
+				position: static;
+				top: 0;
+				padding: 0;
+
+				.mw-widget-titleWidget-menu:not( :empty ) {
+					margin-top: 0.75em;
+				}
+			}
+		}
+	}
+
+	.oo-ui-tabSelectWidget-frameless {
+		margin: 0 0.75em;
+
+		.oo-ui-tabOptionWidget {
+			/* Prevent long sitenames from messing up the layout (T309443). */
+			/* OOUI already has styles with text-overflow: ellipsis, we just need to define a width to enable it. */
+			max-width: 50%;
+		}
+	}
+}

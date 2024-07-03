@@ -1,0 +1,37 @@
+/*!
+ * VisualEditor ContentEditable LanguageAnnotation styles.
+ *
+ * @copyright See AUTHORS.txt
+ */
+
+.ve-ce-linkAnnotation {
+	&.ve-ce-annotation-active {
+		box-shadow: 0 0 0 1px #c6e0ff;
+		border-radius: 2px;
+		padding: 2px;
+		margin: -2px;
+		background-color: #e6f1ff;
+
+		.ve-init-mobileTarget .ve-ce-surface:not( .ve-ce-surface-deactivated ) & {
+			box-shadow: 0 0 0 1px #36c;
+			background-color: transparent;
+		}
+	}
+}
+
+.ve-ce-nail:not( .ve-ce-nail-debug ) {
+	/*
+	 * Give nail some width to trick layout engine into creating a cursor
+	 * position after it even at the end of a paragraph (T274068)
+	 */
+	width: 0.1px;
+	height: 0;
+}
+
+.ve-ce-nail-debug {
+	vertical-align: middle;
+}
+
+.ve-init-target-ctrl-meta-down .ve-ce-linkAnnotation {
+	cursor: pointer;
+}

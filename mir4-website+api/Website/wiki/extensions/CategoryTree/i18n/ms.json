@@ -1,0 +1,40 @@
+{
+	"@metadata": {
+		"authors": [
+			"Anakmalaysia",
+			"Aurora",
+			"Aviator",
+			"CyberTroopers",
+			"Kurniasan",
+			"Zulfadli51"
+		]
+	},
+	"categorytree": "Salasilah kategori",
+	"categorytree-portlet": "Kategori",
+	"categorytree-legend": "Papar salasilah kategori",
+	"categorytree-desc": "Alat berdasarkan AJAX yang memaparkan [[Special:CategoryTree|struktur kategori]] bagi sesebuah wiki",
+	"categorytree-header": "Masukkan nama kategori untuk melihat kandungannya dalam bentuk struktur salasilah.\n(Memerlukan JavaScript.)",
+	"categorytree-category": "Kategori:",
+	"categorytree-go": "Tunjukkan salasilah",
+	"categorytree-parents": "Induk",
+	"categorytree-mode-label": "Ragam:",
+	"categorytree-mode-categories": "kategori sahaja",
+	"categorytree-mode-pages": "laman kecuali imej",
+	"categorytree-mode-all": "semua laman",
+	"categorytree-collapse": "lipat",
+	"categorytree-expand": "kembangkan",
+	"categorytree-member-counts": "Mengandungi {{PLURAL:$1|$1 subkategori}}, {{PLURAL:$2|$2 laman}}, dan {{PLURAL:$3|$3 fail}}",
+	"categorytree-num-categories": "$1 K",
+	"categorytree-num-pages": "$1 L",
+	"categorytree-num-files": "$1 F",
+	"categorytree-num-empty": "kosong",
+	"categorytree-load": "muat",
+	"categorytree-loading": "memuatkan…",
+	"categorytree-nothing-found": "kosong",
+	"categorytree-no-subcategories": "tiada subkategori",
+	"categorytree-no-parent-categories": "tiada kategori induk",
+	"categorytree-no-pages": "tiada laman atau subkategori",
+	"categorytree-not-found": "Kategori <i>$1</i> tidak ditemui",
+	"categorytree-error": "Masalah memuat data.",
+	"categorytree-retry": "Sila tunggu sebentar dan cuba lagi."
+}

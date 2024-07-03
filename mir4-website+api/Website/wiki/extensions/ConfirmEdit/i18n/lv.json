@@ -1,0 +1,24 @@
+{
+	"@metadata": {
+		"authors": [
+			"BrokenArrow",
+			"Edgars2007",
+			"Marozols",
+			"Papuass",
+			"Yyy"
+		]
+	},
+	"captcha-edit": "Lai izmainītu šo lapu, atrisini šo vienādojumu un iegūto skaitli ieraksti šajā lodziņā: <br />([[Special:Captcha/help|Kāpēc tā?]])",
+	"captcha-id-label": "CAPTCHA ID",
+	"captcha-addurl": "Tavas izmaiņas ietver jaunu URL saiti.\nLai pasargātos no automātiskas mēstuļošanas, Tev ir jāieraksta te redzamā vienādojuma rezultāts: <br />([[Special:Captcha/help|vairāk informācijas]])",
+	"captcha-badlogin": "Lai pasargātos no automātiskiem paroļu lauzējiem, lūdzu aprēķini šīs izteiksmes vērtību un rezultātu ieraksti apakšā esošajā lodziņā ([[Special:Captcha/help|papildus informācija]]):",
+	"captcha-createaccount": "Lai pasargātos no automātiskas mēstuļošanas, Tev reģistrējoties ir jāieraksta šī vienādojuma rezultāts: <br />([[Special:Captcha/help|Kāpēc tā?]])",
+	"captcha-createaccount-fail": "Nepareizs apstiprinājuma kods vai arī tas nav ievadīts.",
+	"captcha-create": "Lai izveidotu šo lapu, atrisini šo vienādojumu un rezulātu ieraksti šajā lodziņā: <br />([[Special:Captcha/help|Kāpēc tā?]])",
+	"captchahelp-title": "CAPTCHA palīdzība",
+	"captchahelp-cookies-needed": "Lai šis darbotos, pārlūkprogrammā jābūt iespējotām (''enabled'') sīkdatnēm (''cookies'').",
+	"captchahelp-text": "Interneta lapas, kurās iespējams pievienot tekstu, kā šajā wiki, bieži cieš no mēstuļotājiem, kuri izmanto automatizētus līdzekļus, lai pievienotu savus saites daudzās jo daudzās interneta lapās.\nKaut arī šīs saites var viegli dzēst, tomēr tās ir nozīmīgs traucēklis.\n\nReizēm, jo īpaši pievienojot jaunas interneta saites, wiki programmatūra var parādīt Tev attēlu, kurā ir krāsains vai sagrozīts teksts. Šis teksts ir jāpārraksta un to ir ļoti grūti izdarīt automātiski, tā apgrūtinot lielāko daļu mēstuļotāju, savukārt gandrīz visi parastie lietotāji to var izdarīt bez grūtībām.\n\nDiemžēl tas var apgrūtināt lietotājus, kuriem ir redzes traucējumi vai kuri izmanto teksta pārlūkus vai dzirdes pārlūkus. Šobrīd nav pieejama audio alternatīva, bet sazinies ar [[Special:ListAdmins|wiki administratoriem]], ja tas liedz Tev veikt labi domātus papildinājumus.\n\nSpied pārlūka pogu \"Atpakaļ\" (''Back''), lai atgrieztos iepriekšējā lapā.",
+	"confirmedit-preview-line": "Rindas numurs",
+	"confirmedit-preview-content": "Saturs",
+	"confirmedit-preview-invalid": "nederīgs"
+}

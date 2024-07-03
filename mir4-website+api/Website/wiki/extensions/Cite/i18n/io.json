@@ -1,0 +1,28 @@
+{
+	"@metadata": {
+		"authors": [
+			"Joao Xavier",
+			"Malafaya"
+		]
+	},
+	"cite_error": "Citala eroro: $1",
+	"cite_error_ref_numeric_key": "Etiketo <code>&lt;ref&gt;</code> nevalida;\nla nomo ne povas simple ula cifro. Uzez deskriptiva titulo",
+	"cite_error_ref_no_key": "L'etiketo dil kodexo <code>&lt;ref&gt;</code> havas nevalida nomo o kreesis nekorekte",
+	"cite_error_ref_too_many_keys": "Nevalida etiketo <code>&lt;ref&gt;</code>;\nnevalida nomi (exemple: tre multa)",
+	"cite_error_ref_no_input": "Nevalida etiketo <code>&lt;ref&gt;</code>; referi sen nomi mustas havar kontenajo",
+	"cite_error_references_duplicate_key": "Nevalida refero <code>&lt;ref&gt;</code>; la nomo \"$1\" uzesis plu kam 1 foyo, kun diferanta kontenajo",
+	"cite_error_references_invalid_parameters": "Nevalida parametri en l'etiketo <code>&lt;references&gt;</code>",
+	"cite_error_references_no_text": "Nevalida etiketo <code>&lt;ref&gt;</code>;\nnula texto furniseis por la referi nomizita <code>$1</code>",
+	"cite_error_included_ref": "Ne trovesis <code>&lt;/ref&gt;</code> por klozar l'etiketo <code>&lt;ref&gt;</code> (Sempre ke <code>&lt;/ref&gt;</code> uzesas, <code>&lt;/ref&gt;</code> esas bezonata)",
+	"cite_error_group_refs_without_references": "Existas <code>&lt;ref&gt;</code> etiketi por la grupo nomizita \"$1\", ma nula etiketo korespondanta <code>&lt;references group=\"$1\"/&gt;</code> trovesis, o mankas la <code>&lt;/ref&gt;</code> por klozar li.",
+	"cite_error_references_group_mismatch": "Existas konflikti inter la grupala atribuo \"$1\" e <code>&lt;ref&gt;</code> pri l'etiketo <code>&lt;references&gt;</code>.",
+	"cite_error_references_missing_key": "L'etiketo <code>&lt;ref&gt;</code> nomizita \"$1\" e definita en <code>&lt;references&gt;</code> uzesis nulafoye en l'antea texto.",
+	"cite_error_empty_references_define": "Etiketo <code>&lt;ref&gt;</code> definita en la kodexo <code>&lt;references&gt;</code> e nomizita \"$1\" havas nula kontenajo.",
+	"cite-tracking-category-cite-error": "Pagini kun problemi pri referi",
+	"cite_references_link_accessibility_label": "Irar adsupre",
+	"cite_references_link_many_accessibility_label": "Irar adsupre a(d):",
+	"cite_section_preview_references": "Previdado di referi",
+	"cite_warning": "Averto pri citajo: $1",
+	"cite_warning_sectionpreview_no_text": "La kodexo <code>&lt;ref&gt;</code> kun la nomo <code>$1</code> ne povas videsar, pro ol ne havar defino, od esar definita exter ica seciono.",
+	"cite-wikieditor-tool-reference": "Refero"
+}

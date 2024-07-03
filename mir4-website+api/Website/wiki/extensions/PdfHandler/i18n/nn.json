@@ -1,0 +1,19 @@
+{
+	"@metadata": {
+		"authors": [
+			"Harald Khan",
+			"Njardarlogar"
+		]
+	},
+	"pdf-desc": "Handtering av PDF-vising i biletmodus",
+	"pdf-file-page-warning": "PDF er eit komplekst format som i nokre tilfelle kan eksponera delar av privat informasjon om deg. Gjer deg viss om at du har trygge innstillingar i programmet du nyttar for å lesa PDF-filer.",
+	"pdf-file-page-warning-header": "Personvernomsyn",
+	"pdf-file-page-warning-footer": "Dette problemet gjeld PDF-formatet ålment og ikkje berre denne spesifikke fila.",
+	"pdf-file-page-warning-info": "Lær meir om emnet.",
+	"pdf_no_metadata": "Kan ikkje henta metadata frå PDF",
+	"pdf_page_error": "Sidenummer overstig talet på sider i dokumentet",
+	"exif-pdf-producer": "Konverteringsprogram",
+	"exif-pdf-version": "PDF-formatversjon",
+	"exif-pdf-encrypted": "Kryptert",
+	"exif-pdf-pagesize": "Sidestorleik"
+}

@@ -1,0 +1,16 @@
+<nav class="page-actions-menu">
+	<ul id="p-views" class="page-actions-menu__list">
+		{{#toolbar}}
+		<li id="{{name}}" class="page-actions-menu__list-item">
+			{{#components}}
+				{{>Button}}
+			{{/components}}
+		</li>
+		{{/toolbar}}
+		{{#overflowMenu}}
+			<li id="{{item-id}}" class="page-actions-menu__list-item">
+				{{> ToggleList/ToggleList}}
+			</li>
+		{{/overflowMenu}}
+	</ul>
+</nav>

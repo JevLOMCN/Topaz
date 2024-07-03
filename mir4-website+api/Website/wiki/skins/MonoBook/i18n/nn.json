@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"Eirik",
+			"Frokor",
+			"Njardarlogar"
+		]
+	},
+	"skinname-monobook": "MonoBook",
+	"monobook.css": "/* CSS-tekst som vert plassert her, endrar utsjånaden til sidedrakta Monobook */",
+	"monobook.js": "/* Javascript i denne fila vil gjelde for brukarar av drakta Monobook */",
+	"monobook-cactions-label": "Sidehandlingar",
+	"monobook-view-history": "Historikk",
+	"monobook-action-undelete": "Attopprett {{PLURAL:$1|éin versjon|$1 versjonar}}"
+}

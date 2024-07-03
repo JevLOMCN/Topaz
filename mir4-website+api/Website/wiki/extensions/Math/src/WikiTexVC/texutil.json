@@ -1,0 +1,2666 @@
+{
+	"\\AA": {
+		"nullary_macro_in_mbox": true
+	},
+	"\\Alpha": {
+		"mhchem_single_macro": true,
+		"nullary_macro_aliase": "\\mathrm{A}"
+	},
+	"\\And": {
+		"ams_required": true,
+		"nullary_macro": true
+	},
+	"\\Bbb": {
+		"is_letter_mod": true,
+		"other_fun_ar1": "\\mathbb"
+	},
+	"\\Bbbk": {
+		"ams_required": true,
+		"is_literal": true,
+		"nullary_macro": true
+	},
+	"\\Beta": {
+		"mhchem_single_macro": true,
+		"nullary_macro_aliase": "\\mathrm{B}"
+	},
+	"\\Big": {
+		"big_literals": true
+	},
+	"\\Bigg": {
+		"big_literals": true
+	},
+	"\\Biggl": {
+		"big_literals": true
+	},
+	"\\Biggr": {
+		"big_literals": true
+	},
+	"\\Bigl": {
+		"big_literals": true
+	},
+	"\\Bigr": {
+		"big_literals": true
+	},
+	"\\Box": {
+		"ams_required": true,
+		"nullary_macro": true
+	},
+	"\\Bumpeq": {
+		"ams_required": true,
+		"nullary_macro": true
+	},
+	"\\C": {
+		"deprecated_nullary_macro_aliase": "\\mathbb{C}"
+	},
+	"\\Cap": {
+		"ams_required": true,
+		"nullary_macro": true
+	},
+	"\\Chi": {
+		"mhchem_single_macro": true,
+		"nullary_macro_aliase": "\\mathrm{X}"
+	},
+	"\\Complex": {
+		"nullary_macro_aliase": "\\mathbb{C}"
+	},
+	"\\Coppa": {
+		"nullary_macro_in_mbox": true,
+		"teubner_required": true
+	},
+	"\\Cup": {
+		"ams_required": true,
+		"nullary_macro": true
+	},
+	"\\Dagger": {
+		"nullary_macro_aliase": "\\ddagger"
+	},
+	"\\Darr": {
+		"other_delimiters2": "\\Downarrow"
+	},
+	"\\Delta": {
+		"is_literal": true,
+		"mhchem_single_macro": true,
+		"nullary_macro": true
+	},
+	"\\Diamond": {
+		"ams_required": true,
+		"nullary_macro": true
+	},
+	"\\Digamma": {
+		"nullary_macro_in_mbox": true,
+		"teubner_required": true
+	},
+	"\\Doteq": {
+		"nullary_macro_aliase": "\\doteqdot"
+	},
+	"\\Downarrow": {
+		"other_delimiters1": true
+	},
+	"\\Epsilon": {
+		"mhchem_single_macro": true,
+		"nullary_macro_aliase": "\\mathrm{E}"
+	},
+	"\\Eta": {
+		"mhchem_single_macro": true,
+		"nullary_macro_aliase": "\\mathrm{H}"
+	},
+	"\\Finv": {
+		"ams_required": true,
+		"is_literal": true,
+		"nullary_macro": true
+	},
+	"\\Game": {
+		"ams_required": true,
+		"is_literal": true,
+		"nullary_macro": true
+	},
+	"\\Gamma": {
+		"is_literal": true,
+		"mhchem_single_macro": true,
+		"nullary_macro": true
+	},
+	"\\H": {
+		"deprecated_nullary_macro_aliase": "\\mathbb{H}"
+	},
+	"\\Harr": {
+		"nullary_macro_aliase": "\\Leftrightarrow"
+	},
+	"\\Im": {
+		"nullary_macro": true
+	},
+	"\\Iota": {
+		"mhchem_single_macro": true,
+		"nullary_macro_aliase": "\\mathrm{I}"
+	},
+	"\\Kappa": {
+		"mhchem_single_macro": true,
+		"nullary_macro_aliase": "\\mathrm{K}"
+	},
+	"\\Koppa": {
+		"nullary_macro_in_mbox": true,
+		"teubner_required": true
+	},
+	"\\Lambda": {
+		"is_literal": true,
+		"mhchem_single_macro": true,
+		"nullary_macro": true
+	},
+	"\\Larr": {
+		"nullary_macro_aliase": "\\Leftarrow"
+	},
+	"\\Leftarrow": {
+		"nullary_macro": true
+	},
+	"\\Leftrightarrow": {
+		"nullary_macro": true
+	},
+	"\\Lleftarrow": {
+		"ams_required": true,
+		"nullary_macro": true
+	},
+	"\\Longleftarrow": {
+		"nullary_macro": true
+	},
+	"\\Longleftrightarrow": {
+		"nullary_macro": true
+	},
+	"\\Longrightarrow": {
+		"nullary_macro": true
+	},
+	"\\Lrarr": {
+		"nullary_macro_aliase": "\\Leftrightarrow"
+	},
+	"\\Lsh": {
+		"ams_required": true,
+		"nullary_macro": true
+	},
+	"\\Mu": {
+		"mhchem_single_macro": true,
+		"nullary_macro_aliase": "\\mathrm{M}"
+	},
+	"\\N": {
+		"nullary_macro_aliase": "\\mathbb{N}"
+	},
+	"\\Nu": {
+		"mhchem_single_macro": true,
+		"nullary_macro_aliase": "\\mathrm{N}"
+	},
+	"\\O": {
+		"nullary_macro_aliase": "\\emptyset"
+	},
+	"\\Omega": {
+		"is_literal": true,
+		"mhchem_single_macro": true,
+		"nullary_macro": true
+	},
+	"\\Omicron": {
+		"mhchem_single_macro": true,
+		"nullary_macro_aliase": "O"
+	},
+	"\\P": {
+		"is_literal": true,
+		"nullary_macro": true
+	},
+	"\\Phi": {
+		"is_literal": true,
+		"mhchem_single_macro": true,
+		"nullary_macro": true
+	},
+	"\\Pi": {
+		"is_literal": true,
+		"mhchem_single_macro": true,
+		"nullary_macro": true
+	},
+	"\\Pr": {
+		"latex_function_names": true
+	},
+	"\\Psi": {
+		"is_literal": true,
+		"mhchem_single_macro": true,
+		"nullary_macro": true
+	},
+	"\\Q": {
+		"nullary_macro_aliase": "\\mathbb{Q}"
+	},
+	"\\R": {
+		"nullary_macro_aliase": "\\mathbb{R}"
+	},
+	"\\Rarr": {
+		"nullary_macro_aliase": "\\Rightarrow"
+	},
+	"\\Re": {
+		"nullary_macro": true
+	},
+	"\\Reals": {
+		"nullary_macro_aliase": "\\mathbb{R}"
+	},
+	"\\Rho": {
+		"mhchem_single_macro": true,
+		"nullary_macro_aliase": "\\mathrm{P}"
+	},
+	"\\Rightarrow": {
+		"nullary_macro": true
+	},
+	"\\Rrightarrow": {
+		"ams_required": true,
+		"nullary_macro": true
+	},
+	"\\Rsh": {
+		"ams_required": true,
+		"nullary_macro": true
+	},
+	"\\S": {
+		"is_literal": true,
+		"nullary_macro": true
+	},
+	"\\Sampi": {
+		"nullary_macro_in_mbox": true,
+		"teubner_required": true
+	},
+	"\\Sigma": {
+		"is_literal": true,
+		"mhchem_single_macro": true,
+		"nullary_macro": true
+	},
+	"\\Stigma": {
+		"nullary_macro_in_mbox": true,
+		"teubner_required": true
+	},
+	"\\Subset": {
+		"ams_required": true,
+		"nullary_macro": true
+	},
+	"\\Supset": {
+		"ams_required": true,
+		"nullary_macro": true
+	},
+	"\\Tau": {
+		"mhchem_single_macro": true,
+		"nullary_macro_aliase": "\\mathrm{T}"
+	},
+	"\\Theta": {
+		"is_literal": true,
+		"mhchem_single_macro": true,
+		"nullary_macro": true
+	},
+	"\\Uarr": {
+		"other_delimiters2": "\\Uparrow"
+	},
+	"\\Uparrow": {
+		"other_delimiters1": true
+	},
+	"\\Updownarrow": {
+		"other_delimiters1": true
+	},
+	"\\Upsilon": {
+		"mhchem_single_macro": true,
+		"nullary_macro": true
+	},
+	"\\Vdash": {
+		"ams_required": true,
+		"nullary_macro": true
+	},
+	"\\Vert": {
+		"other_delimiters1": true
+	},
+	"\\Vvdash": {
+		"ams_required": true,
+		"nullary_macro": true
+	},
+	"\\Xi": {
+		"is_literal": true,
+		"nullary_macro": true
+	},
+	"\\Z": {
+		"nullary_macro_aliase": "\\mathbb{Z}"
+	},
+	"\\Zeta": {
+		"mhchem_single_macro": true,
+		"nullary_macro_aliase": "\\mathrm{Z}"
+	},
+	"\\acute": {
+		"fun_ar1": true,
+		"is_letter_mod": true
+	},
+	"\\alef": {
+		"nullary_macro_aliase": "\\aleph"
+	},
+	"\\alefsym": {
+		"nullary_macro_aliase": "\\aleph"
+	},
+	"\\aleph": {
+		"is_literal": true,
+		"nullary_macro": true
+	},
+	"\\alpha": {
+		"is_literal": true,
+		"mhchem_single_macro": true,
+		"nullary_macro": true
+	},
+	"\\amalg": {
+		"is_literal": true,
+		"nullary_macro": true
+	},
+	"\\and": {
+		"deprecated_nullary_macro_aliase": "\\land"
+	},
+	"\\ang": {
+		"deprecated_nullary_macro_aliase": "\\angle"
+	},
+	"\\angle": {
+		"nullary_macro": true
+	},
+	"\\approx": {
+		"mhchem_single_macro": true,
+		"nullary_macro": true
+	},
+	"\\approxeq": {
+		"ams_required": true,
+		"nullary_macro": true
+	},
+	"\\arccos": {
+		"latex_function_names": true
+	},
+	"\\arccot": {
+		"mediawiki_function_names": true
+	},
+	"\\arccsc": {
+		"mediawiki_function_names": true
+	},
+	"\\arcsec": {
+		"mediawiki_function_names": true
+	},
+	"\\arcsin": {
+		"latex_function_names": true
+	},
+	"\\arctan": {
+		"latex_function_names": true
+	},
+	"\\arg": {
+		"latex_function_names": true
+	},
+	"\\ast": {
+		"nullary_macro": true
+	},
+	"\\asymp": {
+		"nullary_macro": true
+	},
+	"\\atop": {
+		"fun_infix": true
+	},
+	"\\backepsilon": {
+		"ams_required": true,
+		"is_literal": true,
+		"nullary_macro": true
+	},
+	"\\backprime": {
+		"ams_required": true,
+		"nullary_macro": true
+	},
+	"\\backsim": {
+		"ams_required": true,
+		"nullary_macro": true
+	},
+	"\\backsimeq": {
+		"ams_required": true,
+		"nullary_macro": true
+	},
+	"\\backslash": {
+		"other_delimiters1": true
+	},
+	"\\bar": {
+		"fun_ar1": true,
+		"is_letter_mod": true
+	},
+	"\\barwedge": {
+		"ams_required": true,
+		"nullary_macro": true
+	},
+	"\\bcancel": {
+		"cancel_required": true,
+		"fun_ar1": true,
+		"is_letter_mod": true
+	},
+	"\\because": {
+		"ams_required": true,
+		"nullary_macro": true
+	},
+	"\\begin{Bmatrix}": {
+		"ams_required": true
+	},
+	"\\begin{Vmatrix}": {
+		"ams_required": true
+	},
+	"\\begin{alignedat}": {
+		"ams_required": true
+	},
+	"\\begin{aligned}": {
+		"ams_required": true
+	},
+	"\\begin{bmatrix}": {
+		"ams_required": true
+	},
+	"\\begin{cases}": {
+		"ams_required": true
+	},
+	"\\begin{matrix}": {
+		"ams_required": true
+	},
+	"\\begin{pmatrix}": {
+		"ams_required": true
+	},
+	"\\begin{smallmatrix}": {
+		"ams_required": true
+	},
+	"\\begin{vmatrix}": {
+		"ams_required": true
+	},
+	"\\beta": {
+		"is_literal": true,
+		"mhchem_single_macro": true,
+		"nullary_macro": true
+	},
+	"\\beth": {
+		"ams_required": true,
+		"is_literal": true,
+		"nullary_macro": true
+	},
+	"\\between": {
+		"ams_required": true,
+		"nullary_macro": true
+	},
+	"\\bf": {
+		"declh_function": true
+	},
+	"\\big": {
+		"big_literals": true
+	},
+	"\\bigcap": {
+		"nullary_macro": true
+	},
+	"\\bigcirc": {
+		"nullary_macro": true
+	},
+	"\\bigcup": {
+		"nullary_macro": true
+	},
+	"\\bigg": {
+		"big_literals": true
+	},
+	"\\biggl": {
+		"big_literals": true
+	},
+	"\\biggr": {
+		"big_literals": true
+	},
+	"\\bigl": {
+		"big_literals": true
+	},
+	"\\bigodot": {
+		"nullary_macro": true
+	},
+	"\\bigoplus": {
+		"nullary_macro": true
+	},
+	"\\bigotimes": {
+		"nullary_macro": true
+	},
+	"\\bigr": {
+		"big_literals": true
+	},
+	"\\bigsqcup": {
+		"nullary_macro": true
+	},
+	"\\bigstar": {
+		"ams_required": true,
+		"nullary_macro": true
+	},
+	"\\bigtriangledown": {
+		"nullary_macro": true
+	},
+	"\\bigtriangleup": {
+		"nullary_macro": true
+	},
+	"\\biguplus": {
+		"nullary_macro": true
+	},
+	"\\bigvee": {
+		"nullary_macro": true
+	},
+	"\\bigwedge": {
+		"nullary_macro": true
+	},
+	"\\binom": {
+		"ams_required": true,
+		"fun_ar2": true
+	},
+	"\\blacklozenge": {
+		"ams_required": true,
+		"nullary_macro": true
+	},
+	"\\blacksquare": {
+		"ams_required": true,
+		"nullary_macro": true
+	},
+	"\\blacktriangle": {
+		"ams_required": true,
+		"nullary_macro": true
+	},
+	"\\blacktriangledown": {
+		"ams_required": true,
+		"nullary_macro": true
+	},
+	"\\blacktriangleleft": {
+		"ams_required": true,
+		"nullary_macro": true
+	},
+	"\\blacktriangleright": {
+		"ams_required": true,
+		"nullary_macro": true
+	},
+	"\\bmod": {
+		"fun_ar1": true,
+		"is_letter_mod": true
+	},
+	"\\bold": {
+		"is_letter_mod": true,
+		"other_fun_ar1": "\\mathbf"
+	},
+	"\\boldsymbol": {
+		"ams_required": true,
+		"fun_ar1": true,
+		"is_letter_mod": true
+	},
+	"\\bond": {
+		"mhchem_bond": true
+	},
+	"\\bot": {
+		"nullary_macro": true
+	},
+	"\\bowtie": {
+		"nullary_macro": true
+	},
+	"\\boxdot": {
+		"ams_required": true,
+		"nullary_macro": true
+	},
+	"\\boxminus": {
+		"ams_required": true,
+		"nullary_macro": true
+	},
+	"\\boxplus": {
+		"ams_required": true,
+		"nullary_macro": true
+	},
+	"\\boxtimes": {
+		"ams_required": true,
+		"nullary_macro": true
+	},
+	"\\breve": {
+		"fun_ar1": true,
+		"is_letter_mod": true
+	},
+	"\\bull": {
+		"nullary_macro_aliase": "\\bullet"
+	},
+	"\\bullet": {
+		"nullary_macro": true
+	},
+	"\\bumpeq": {
+		"ams_required": true,
+		"nullary_macro": true
+	},
+	"\\ca": {
+		"mhchem_single_macro": true
+	},
+	"\\cal": {
+		"declh_function": true
+	},
+	"\\cancel": {
+		"cancel_required": true,
+		"fun_ar1": true,
+		"is_letter_mod": true
+	},
+	"\\cancelto": {
+		"cancel_required": true,
+		"fun_ar2": true
+	},
+	"\\cap": {
+		"nullary_macro": true
+	},
+	"\\cdot": {
+		"nullary_macro": true
+	},
+	"\\cdots": {
+		"nullary_macro": true
+	},
+	"\\ce": {
+		"fun_mhchem": true,
+		"mhchem_macro_1p": true,
+		"mhchem_required": true
+	},
+	"\\centerdot": {
+		"ams_required": true,
+		"nullary_macro": true
+	},
+	"\\cfrac": {
+		"ams_required": true,
+		"fun_ar2": true
+	},
+	"\\check": {
+		"fun_ar1": true,
+		"is_letter_mod": true
+	},
+	"\\checkmark": {
+		"ams_required": true,
+		"nullary_macro": true
+	},
+	"\\chi": {
+		"is_literal": true,
+		"mhchem_single_macro": true,
+		"nullary_macro": true
+	},
+	"\\choose": {
+		"fun_infix": true
+	},
+	"\\circ": {
+		"mhchem_single_macro": true,
+		"nullary_macro": true
+	},
+	"\\circeq": {
+		"ams_required": true,
+		"nullary_macro": true
+	},
+	"\\circlearrowleft": {
+		"ams_required": true,
+		"nullary_macro": true
+	},
+	"\\circlearrowright": {
+		"ams_required": true,
+		"nullary_macro": true
+	},
+	"\\circledS": {
+		"ams_required": true,
+		"nullary_macro": true
+	},
+	"\\circledast": {
+		"ams_required": true,
+		"nullary_macro": true
+	},
+	"\\circledcirc": {
+		"ams_required": true,
+		"nullary_macro": true
+	},
+	"\\circleddash": {
+		"ams_required": true,
+		"nullary_macro": true
+	},
+	"\\clubs": {
+		"nullary_macro_aliase": "\\clubsuit"
+	},
+	"\\clubsuit": {
+		"nullary_macro": true
+	},
+	"\\cnums": {
+		"nullary_macro_aliase": "\\mathbb{C}"
+	},
+	"\\colon": {
+		"nullary_macro": true
+	},
+	"\\color": {
+		"color_function": true,
+		"color_required": true,
+		"mhchem_macro_2pc": true
+	},
+	"\\complement": {
+		"ams_required": true,
+		"is_literal": true,
+		"nullary_macro": true
+	},
+	"\\cong": {
+		"nullary_macro": true
+	},
+	"\\coppa": {
+		"nullary_macro_in_mbox": true,
+		"teubner_required": true
+	},
+	"\\coprod": {
+		"nullary_macro": true
+	},
+	"\\cos": {
+		"latex_function_names": true
+	},
+	"\\cosh": {
+		"latex_function_names": true
+	},
+	"\\cot": {
+		"latex_function_names": true
+	},
+	"\\coth": {
+		"latex_function_names": true
+	},
+	"\\csc": {
+		"latex_function_names": true
+	},
+	"\\cup": {
+		"nullary_macro": true
+	},
+	"\\curlyeqprec": {
+		"ams_required": true,
+		"nullary_macro": true
+	},
+	"\\curlyeqsucc": {
+		"ams_required": true,
+		"nullary_macro": true
+	},
+	"\\curlyvee": {
+		"ams_required": true,
+		"nullary_macro": true
+	},
+	"\\curlywedge": {
+		"ams_required": true,
+		"nullary_macro": true
+	},
+	"\\curvearrowleft": {
+		"ams_required": true,
+		"nullary_macro": true
+	},
+	"\\curvearrowright": {
+		"ams_required": true,
+		"nullary_macro": true
+	},
+	"\\dArr": {
+		"other_delimiters2": "\\Downarrow"
+	},
+	"\\dagger": {
+		"nullary_macro": true
+	},
+	"\\daleth": {
+		"ams_required": true,
+		"is_literal": true,
+		"nullary_macro": true
+	},
+	"\\darr": {
+		"other_delimiters2": "\\downarrow"
+	},
+	"\\dashv": {
+		"nullary_macro": true
+	},
+	"\\dbinom": {
+		"ams_required": true,
+		"fun_ar2": true
+	},
+	"\\ddagger": {
+		"nullary_macro": true
+	},
+	"\\ddot": {
+		"fun_ar1": true,
+		"is_letter_mod": true
+	},
+	"\\ddots": {
+		"nullary_macro": true
+	},
+	"\\definecolor": {
+		"color_required": true,
+		"definecolor_function": true
+	},
+	"\\deg": {
+		"latex_function_names": true
+	},
+	"\\delta": {
+		"is_literal": true,
+		"mhchem_single_macro": true,
+		"nullary_macro": true
+	},
+	"\\det": {
+		"latex_function_names": true
+	},
+	"\\dfrac": {
+		"ams_required": true,
+		"fun_ar2": true
+	},
+	"\\diagdown": {
+		"ams_required": true,
+		"nullary_macro": true
+	},
+	"\\diagup": {
+		"ams_required": true,
+		"nullary_macro": true
+	},
+	"\\diamond": {
+		"nullary_macro": true
+	},
+	"\\diamonds": {
+		"nullary_macro_aliase": "\\diamondsuit"
+	},
+	"\\diamondsuit": {
+		"nullary_macro": true
+	},
+	"\\digamma": {
+		"ams_required": true,
+		"is_literal": true,
+		"nullary_macro": true
+	},
+	"\\dim": {
+		"latex_function_names": true
+	},
+	"\\displaystyle": {
+		"nullary_macro": true
+	},
+	"\\div": {
+		"nullary_macro": true
+	},
+	"\\divideontimes": {
+		"ams_required": true,
+		"nullary_macro": true
+	},
+	"\\dot": {
+		"fun_ar1": true,
+		"is_letter_mod": true
+	},
+	"\\doteq": {
+		"nullary_macro": true
+	},
+	"\\doteqdot": {
+		"ams_required": true,
+		"nullary_macro": true
+	},
+	"\\dotplus": {
+		"ams_required": true,
+		"nullary_macro": true
+	},
+	"\\dots": {
+		"nullary_macro": true
+	},
+	"\\dotsb": {
+		"ams_required": true,
+		"nullary_macro": true
+	},
+	"\\dotsc": {
+		"ams_required": true,
+		"nullary_macro": true
+	},
+	"\\dotsi": {
+		"ams_required": true,
+		"nullary_macro": true
+	},
+	"\\dotsm": {
+		"ams_required": true,
+		"nullary_macro": true
+	},
+	"\\dotso": {
+		"ams_required": true,
+		"nullary_macro": true
+	},
+	"\\doublebarwedge": {
+		"ams_required": true,
+		"nullary_macro": true
+	},
+	"\\doublecap": {
+		"nullary_macro_aliase": "\\Cap"
+	},
+	"\\doublecup": {
+		"nullary_macro_aliase": "\\Cup"
+	},
+	"\\downarrow": {
+		"other_delimiters1": true
+	},
+	"\\downdownarrows": {
+		"ams_required": true,
+		"nullary_macro": true
+	},
+	"\\downharpoonleft": {
+		"ams_required": true,
+		"nullary_macro": true
+	},
+	"\\downharpoonright": {
+		"ams_required": true,
+		"nullary_macro": true
+	},
+	"\\ell": {
+		"is_literal": true,
+		"nullary_macro": true
+	},
+	"\\emph": {
+		"fun_ar1": true,
+		"is_letter_mod": true
+	},
+	"\\empty": {
+		"nullary_macro_aliase": "\\emptyset"
+	},
+	"\\emptyset": {
+		"nullary_macro": true
+	},
+	"\\epsilon": {
+		"is_literal": true,
+		"mhchem_single_macro": true,
+		"nullary_macro": true
+	},
+	"\\eqcirc": {
+		"ams_required": true,
+		"nullary_macro": true
+	},
+	"\\eqsim": {
+		"ams_required": true,
+		"nullary_macro": true
+	},
+	"\\eqslantgtr": {
+		"ams_required": true,
+		"nullary_macro": true
+	},
+	"\\eqslantless": {
+		"ams_required": true,
+		"nullary_macro": true
+	},
+	"\\equiv": {
+		"nullary_macro": true
+	},
+	"\\eta": {
+		"is_literal": true,
+		"mhchem_single_macro": true,
+		"nullary_macro": true
+	},
+	"\\eth": {
+		"ams_required": true,
+		"is_literal": true,
+		"nullary_macro": true
+	},
+	"\\euro": {
+		"euro_required": true,
+		"nullary_macro_in_mbox": true
+	},
+	"\\exist": {
+		"nullary_macro_aliase": "\\exists"
+	},
+	"\\exists": {
+		"nullary_macro": true
+	},
+	"\\exp": {
+		"latex_function_names": true
+	},
+	"\\fallingdotseq": {
+		"ams_required": true,
+		"nullary_macro": true
+	},
+	"\\flat": {
+		"is_literal": true,
+		"nullary_macro": true
+	},
+	"\\forall": {
+		"nullary_macro": true
+	},
+	"\\frac": {
+		"fun_ar2": true,
+		"mhchem_macro_2p": true
+	},
+	"\\frown": {
+		"nullary_macro": true
+	},
+	"\\gamma": {
+		"is_literal": true,
+		"mhchem_single_macro": true,
+		"nullary_macro": true
+	},
+	"\\gcd": {
+		"latex_function_names": true
+	},
+	"\\ge": {
+		"nullary_macro_aliase": "\\geq"
+	},
+	"\\geneuro": {
+		"euro_required": true,
+		"nullary_macro_in_mbox": true
+	},
+	"\\geneuronarrow": {
+		"euro_required": true,
+		"nullary_macro_in_mbox": true
+	},
+	"\\geneurowide": {
+		"euro_required": true,
+		"nullary_macro_in_mbox": true
+	},
+	"\\geq": {
+		"nullary_macro": true
+	},
+	"\\geqq": {
+		"ams_required": true,
+		"nullary_macro": true
+	},
+	"\\geqslant": {
+		"ams_required": true,
+		"nullary_macro": true
+	},
+	"\\gets": {
+		"nullary_macro": true
+	},
+	"\\gg": {
+		"nullary_macro": true
+	},
+	"\\ggg": {
+		"ams_required": true,
+		"nullary_macro": true
+	},
+	"\\gggtr": {
+		"nullary_macro_aliase": "\\ggg"
+	},
+	"\\gimel": {
+		"ams_required": true,
+		"is_literal": true,
+		"nullary_macro": true
+	},
+	"\\gnapprox": {
+		"ams_required": true,
+		"nullary_macro": true
+	},
+	"\\gneq": {
+		"ams_required": true,
+		"nullary_macro": true
+	},
+	"\\gneqq": {
+		"ams_required": true,
+		"nullary_macro": true
+	},
+	"\\gnsim": {
+		"ams_required": true,
+		"nullary_macro": true
+	},
+	"\\grave": {
+		"fun_ar1": true,
+		"is_letter_mod": true
+	},
+	"\\gtrapprox": {
+		"ams_required": true,
+		"nullary_macro": true
+	},
+	"\\gtrdot": {
+		"ams_required": true,
+		"nullary_macro": true
+	},
+	"\\gtreqless": {
+		"ams_required": true,
+		"nullary_macro": true
+	},
+	"\\gtreqqless": {
+		"ams_required": true,
+		"nullary_macro": true
+	},
+	"\\gtrless": {
+		"ams_required": true,
+		"nullary_macro": true
+	},
+	"\\gtrsim": {
+		"ams_required": true,
+		"nullary_macro": true
+	},
+	"\\gvertneqq": {
+		"ams_required": true,
+		"nullary_macro": true
+	},
+	"\\hArr": {
+		"nullary_macro_aliase": "\\Leftrightarrow"
+	},
+	"\\harr": {
+		"nullary_macro_aliase": "\\leftrightarrow"
+	},
+	"\\hat": {
+		"fun_ar1": true,
+		"is_letter_mod": true
+	},
+	"\\hbar": {
+		"nullary_macro": true
+	},
+	"\\hbox": {
+		"box_functions": true
+	},
+	"\\hearts": {
+		"nullary_macro_aliase": "\\heartsuit"
+	},
+	"\\heartsuit": {
+		"nullary_macro": true
+	},
+	"\\hline": {
+		"hline_function": true
+	},
+	"\\hom": {
+		"latex_function_names": true
+	},
+	"\\hookleftarrow": {
+		"nullary_macro": true
+	},
+	"\\hookrightarrow": {
+		"nullary_macro": true
+	},
+	"\\hphantom": {
+		"fun_ar1": true,
+		"ignore_identifier": true
+	},
+	"\\hslash": {
+		"ams_required": true,
+		"is_literal": true,
+		"nullary_macro": true
+	},
+	"\\iff": {
+		"nullary_macro": true
+	},
+	"\\iiiint": {
+		"ams_required": true,
+		"nullary_macro": true
+	},
+	"\\iiint": {
+		"ams_required": true,
+		"nullary_macro": true
+	},
+	"\\iint": {
+		"ams_required": true,
+		"nullary_macro": true
+	},
+	"\\image": {
+		"nullary_macro_aliase": "\\Im"
+	},
+	"\\imath": {
+		"is_literal": true,
+		"nullary_macro": true
+	},
+	"\\implies": {
+		"ams_required": true,
+		"nullary_macro": true
+	},
+	"\\in": {
+		"nullary_macro": true
+	},
+	"\\inf": {
+		"latex_function_names": true
+	},
+	"\\infin": {
+		"nullary_macro_aliase": "\\infty"
+	},
+	"\\infty": {
+		"nullary_macro": true
+	},
+	"\\injlim": {
+		"ams_required": true,
+		"nullary_macro": true
+	},
+	"\\int": {
+		"nullary_macro": true
+	},
+	"\\intBar": {
+		"nullary_macro": true,
+		"stix_required": true
+	},
+	"\\intbar": {
+		"nullary_macro": true,
+		"stix_required": true
+	},
+	"\\intent": {
+		"fun_ar2": true,
+		"intent_required": true
+	},
+	"\\intercal": {
+		"ams_required": true,
+		"is_literal": true,
+		"nullary_macro": true
+	},
+	"\\iota": {
+		"is_literal": true,
+		"mhchem_single_macro": true,
+		"nullary_macro": true
+	},
+	"\\isin": {
+		"nullary_macro_aliase": "\\in"
+	},
+	"\\it": {
+		"declh_function": true
+	},
+	"\\jmath": {
+		"is_literal": true,
+		"nullary_macro": true
+	},
+	"\\kappa": {
+		"is_literal": true,
+		"mhchem_single_macro": true,
+		"nullary_macro": true
+	},
+	"\\ker": {
+		"latex_function_names": true
+	},
+	"\\kern": {
+		"fun_ar1": true,
+		"mhchemtexified_required": true
+	},
+	"\\koppa": {
+		"nullary_macro_in_mbox": true,
+		"teubner_required": true
+	},
+	"\\lArr": {
+		"nullary_macro_aliase": "\\Leftarrow"
+	},
+	"\\lVert": {
+		"ams_required": true,
+		"nullary_macro": true
+	},
+	"\\lambda": {
+		"is_literal": true,
+		"mhchem_single_macro": true,
+		"nullary_macro": true
+	},
+	"\\land": {
+		"nullary_macro": true
+	},
+	"\\lang": {
+		"other_delimiters2": "\\langle"
+	},
+	"\\langle": {
+		"other_delimiters1": true
+	},
+	"\\larr": {
+		"nullary_macro_aliase": "\\leftarrow"
+	},
+	"\\lbrace": {
+		"other_delimiters1": true
+	},
+	"\\lbrack": {
+		"other_delimiters1": true
+	},
+	"\\lceil": {
+		"other_delimiters1": true
+	},
+	"\\ldots": {
+		"nullary_macro": true
+	},
+	"\\le": {
+		"nullary_macro_aliase": "\\leq"
+	},
+	"\\left": {
+		"left_function": true
+	},
+	"\\leftarrow": {
+		"nullary_macro": true
+	},
+	"\\leftarrowtail": {
+		"ams_required": true,
+		"nullary_macro": true
+	},
+	"\\leftharpoondown": {
+		"nullary_macro": true
+	},
+	"\\leftharpoonup": {
+		"nullary_macro": true
+	},
+	"\\leftleftarrows": {
+		"ams_required": true,
+		"nullary_macro": true
+	},
+	"\\leftrightarrow": {
+		"nullary_macro": true
+	},
+	"\\leftrightarrows": {
+		"ams_required": true,
+		"nullary_macro": true
+	},
+	"\\leftrightharpoons": {
+		"ams_required": true,
+		"nullary_macro": true
+	},
+	"\\leftrightsquigarrow": {
+		"ams_required": true,
+		"nullary_macro": true
+	},
+	"\\leftthreetimes": {
+		"ams_required": true,
+		"nullary_macro": true
+	},
+	"\\leq": {
+		"nullary_macro": true
+	},
+	"\\leqq": {
+		"ams_required": true,
+		"nullary_macro": true
+	},
+	"\\leqslant": {
+		"ams_required": true,
+		"nullary_macro": true
+	},
+	"\\lessapprox": {
+		"ams_required": true,
+		"nullary_macro": true
+	},
+	"\\lessdot": {
+		"ams_required": true,
+		"nullary_macro": true
+	},
+	"\\lesseqgtr": {
+		"ams_required": true,
+		"nullary_macro": true
+	},
+	"\\lesseqqgtr": {
+		"ams_required": true,
+		"nullary_macro": true
+	},
+	"\\lessgtr": {
+		"ams_required": true,
+		"nullary_macro": true
+	},
+	"\\lesssim": {
+		"ams_required": true,
+		"nullary_macro": true
+	},
+	"\\lfloor": {
+		"other_delimiters1": true
+	},
+	"\\lg": {
+		"latex_function_names": true
+	},
+	"\\lim": {
+		"latex_function_names": true
+	},
+	"\\liminf": {
+		"latex_function_names": true
+	},
+	"\\limits": {
+		"nullary_macro": true
+	},
+	"\\limsup": {
+		"latex_function_names": true
+	},
+	"\\ll": {
+		"nullary_macro": true
+	},
+	"\\llap": {
+		"fun_ar1": true,
+		"mhchemtexified_required": true
+	},
+	"\\llcorner": {
+		"ams_required": true,
+		"other_delimiters1": true
+	},
+	"\\lll": {
+		"ams_required": true,
+		"nullary_macro": true
+	},
+	"\\ln": {
+		"latex_function_names": true
+	},
+	"\\lnapprox": {
+		"ams_required": true,
+		"nullary_macro": true
+	},
+	"\\lneq": {
+		"ams_required": true,
+		"nullary_macro": true
+	},
+	"\\lneqq": {
+		"ams_required": true,
+		"nullary_macro": true
+	},
+	"\\lnot": {
+		"nullary_macro": true
+	},
+	"\\lnsim": {
+		"ams_required": true,
+		"nullary_macro": true
+	},
+	"\\log": {
+		"latex_function_names": true
+	},
+	"\\longLeftrightharpoons": {
+		"mhchemtexified_required": true,
+		"nullary_macro": true
+	},
+	"\\longRightleftharpoons": {
+		"mhchemtexified_required": true,
+		"nullary_macro": true
+	},
+	"\\longleftarrow": {
+		"nullary_macro": true
+	},
+	"\\longleftrightarrow": {
+		"nullary_macro": true
+	},
+	"\\longleftrightarrows": {
+		"mhchemtexified_required": true,
+		"nullary_macro": true
+	},
+	"\\longmapsto": {
+		"nullary_macro": true
+	},
+	"\\longrightarrow": {
+		"nullary_macro": true
+	},
+	"\\longrightleftharpoons": {
+		"mhchemtexified_required": true,
+		"nullary_macro": true
+	},
+	"\\looparrowleft": {
+		"ams_required": true,
+		"nullary_macro": true
+	},
+	"\\looparrowright": {
+		"ams_required": true,
+		"nullary_macro": true
+	},
+	"\\lor": {
+		"nullary_macro": true
+	},
+	"\\lower": {
+		"fun_ar2": true,
+		"mhchemtexified_required": true
+	},
+	"\\lozenge": {
+		"ams_required": true,
+		"nullary_macro": true
+	},
+	"\\lrArr": {
+		"nullary_macro_aliase": "\\Leftrightarrow"
+	},
+	"\\lrarr": {
+		"nullary_macro_aliase": "\\leftrightarrow"
+	},
+	"\\lrcorner": {
+		"ams_required": true,
+		"other_delimiters1": true
+	},
+	"\\ltimes": {
+		"ams_required": true,
+		"nullary_macro": true
+	},
+	"\\lvertneqq": {
+		"ams_required": true,
+		"nullary_macro": true
+	},
+	"\\mapsto": {
+		"nullary_macro": true
+	},
+	"\\mathbb": {
+		"ams_required": true,
+		"fun_ar1nb": true,
+		"is_letter_mod": true
+	},
+	"\\mathbb{R}": {
+		"ams_required": true
+	},
+	"\\mathbf": {
+		"fun_ar1nb": true,
+		"is_letter_mod": true,
+		"mhchem_macro_1p": true
+	},
+	"\\mathbin": {
+		"fun_ar1nb": true,
+		"is_letter_mod": true
+	},
+	"\\mathcal": {
+		"fun_ar1": true,
+		"is_letter_mod": true
+	},
+	"\\mathchoice": {
+		"fun_ar4": true,
+		"mhchemtexified_required": true
+	},
+	"\\mathclose": {
+		"fun_ar1": true,
+		"is_letter_mod": true
+	},
+	"\\mathfrak": {
+		"ams_required": true,
+		"fun_ar1": true,
+		"is_letter_mod": true
+	},
+	"\\mathit": {
+		"fun_ar1": true,
+		"is_letter_mod": true
+	},
+	"\\mathop": {
+		"fun_ar1nb": true,
+		"is_letter_mod": true
+	},
+	"\\mathopen": {
+		"fun_ar1": true,
+		"is_letter_mod": true
+	},
+	"\\mathord": {
+		"fun_ar1": true,
+		"is_letter_mod": true
+	},
+	"\\mathpunct": {
+		"fun_ar1": true,
+		"is_letter_mod": true
+	},
+	"\\mathrel": {
+		"fun_ar1nb": true,
+		"is_letter_mod": true
+	},
+	"\\mathrm": {
+		"fun_ar1nb": true,
+		"is_letter_mod": true
+	},
+	"\\mathsf": {
+		"fun_ar1": true,
+		"is_letter_mod": true
+	},
+	"\\mathtt": {
+		"fun_ar1": true,
+		"is_letter_mod": true
+	},
+	"\\max": {
+		"latex_function_names": true
+	},
+	"\\mbox": {
+		"box_functions": true
+	},
+	"\\measuredangle": {
+		"ams_required": true,
+		"nullary_macro": true
+	},
+	"\\mho": {
+		"ams_required": true,
+		"is_literal": true,
+		"nullary_macro": true
+	},
+	"\\mid": {
+		"nullary_macro": true
+	},
+	"\\min": {
+		"latex_function_names": true
+	},
+	"\\mkern": {
+		"fun_ar1": true,
+		"mhchemtexified_required": true
+	},
+	"\\mod": {
+		"ams_required": true,
+		"nullary_macro": true
+	},
+	"\\models": {
+		"nullary_macro": true
+	},
+	"\\mp": {
+		"nullary_macro": true
+	},
+	"\\mskip": {
+		"fun_ar1": true,
+		"mhchemtexified_required": true
+	},
+	"\\mu": {
+		"is_literal": true,
+		"mhchem_single_macro": true,
+		"nullary_macro": true
+	},
+	"\\multimap": {
+		"ams_required": true,
+		"nullary_macro": true
+	},
+	"\\nLeftarrow": {
+		"ams_required": true,
+		"nullary_macro": true
+	},
+	"\\nLeftrightarrow": {
+		"ams_required": true,
+		"nullary_macro": true
+	},
+	"\\nRightarrow": {
+		"ams_required": true,
+		"nullary_macro": true
+	},
+	"\\nVDash": {
+		"ams_required": true,
+		"nullary_macro": true
+	},
+	"\\nVdash": {
+		"ams_required": true,
+		"nullary_macro": true
+	},
+	"\\nabla": {
+		"nullary_macro": true
+	},
+	"\\natnums": {
+		"nullary_macro_aliase": "\\mathbb{N}"
+	},
+	"\\natural": {
+		"is_literal": true,
+		"nullary_macro": true
+	},
+	"\\ncong": {
+		"ams_required": true,
+		"nullary_macro": true
+	},
+	"\\ne": {
+		"nullary_macro_aliase": "\\neq"
+	},
+	"\\nearrow": {
+		"nullary_macro": true
+	},
+	"\\neg": {
+		"nullary_macro": true
+	},
+	"\\neq": {
+		"nullary_macro": true
+	},
+	"\\nexists": {
+		"ams_required": true,
+		"nullary_macro": true
+	},
+	"\\ngeq": {
+		"ams_required": true,
+		"nullary_macro": true
+	},
+	"\\ngeqq": {
+		"ams_required": true,
+		"nullary_macro": true
+	},
+	"\\ngeqslant": {
+		"ams_required": true,
+		"nullary_macro": true
+	},
+	"\\ngtr": {
+		"ams_required": true,
+		"nullary_macro": true
+	},
+	"\\ni": {
+		"nullary_macro": true
+	},
+	"\\nleftarrow": {
+		"ams_required": true,
+		"nullary_macro": true
+	},
+	"\\nleftrightarrow": {
+		"ams_required": true,
+		"nullary_macro": true
+	},
+	"\\nleq": {
+		"ams_required": true,
+		"nullary_macro": true
+	},
+	"\\nleqq": {
+		"ams_required": true,
+		"nullary_macro": true
+	},
+	"\\nleqslant": {
+		"ams_required": true,
+		"nullary_macro": true
+	},
+	"\\nless": {
+		"ams_required": true,
+		"nullary_macro": true
+	},
+	"\\nmid": {
+		"ams_required": true,
+		"nullary_macro": true
+	},
+	"\\nolimits": {
+		"nullary_macro": true
+	},
+	"\\not": {
+		"nullary_macro": true
+	},
+	"\\notin": {
+		"nullary_macro": true
+	},
+	"\\nparallel": {
+		"ams_required": true,
+		"nullary_macro": true
+	},
+	"\\nprec": {
+		"ams_required": true,
+		"nullary_macro": true
+	},
+	"\\npreceq": {
+		"ams_required": true,
+		"nullary_macro": true
+	},
+	"\\nrightarrow": {
+		"ams_required": true,
+		"nullary_macro": true
+	},
+	"\\nshortmid": {
+		"ams_required": true,
+		"nullary_macro": true
+	},
+	"\\nshortparallel": {
+		"ams_required": true,
+		"nullary_macro": true
+	},
+	"\\nsim": {
+		"ams_required": true,
+		"nullary_macro": true
+	},
+	"\\nsubseteq": {
+		"ams_required": true,
+		"nullary_macro": true
+	},
+	"\\nsubseteqq": {
+		"ams_required": true,
+		"nullary_macro": true
+	},
+	"\\nsucc": {
+		"ams_required": true,
+		"nullary_macro": true
+	},
+	"\\nsucceq": {
+		"ams_required": true,
+		"nullary_macro": true
+	},
+	"\\nsupseteq": {
+		"ams_required": true,
+		"nullary_macro": true
+	},
+	"\\nsupseteqq": {
+		"ams_required": true,
+		"nullary_macro": true
+	},
+	"\\ntriangleleft": {
+		"ams_required": true,
+		"nullary_macro": true
+	},
+	"\\ntrianglelefteq": {
+		"ams_required": true,
+		"nullary_macro": true
+	},
+	"\\ntriangleright": {
+		"ams_required": true,
+		"nullary_macro": true
+	},
+	"\\ntrianglerighteq": {
+		"ams_required": true,
+		"nullary_macro": true
+	},
+	"\\nu": {
+		"is_literal": true,
+		"mhchem_single_macro": true,
+		"nullary_macro": true
+	},
+	"\\nvDash": {
+		"ams_required": true,
+		"nullary_macro": true
+	},
+	"\\nvdash": {
+		"ams_required": true,
+		"nullary_macro": true
+	},
+	"\\nwarrow": {
+		"nullary_macro": true
+	},
+	"\\odot": {
+		"nullary_macro": true
+	},
+	"\\officialeuro": {
+		"euro_required": true,
+		"nullary_macro_in_mbox": true
+	},
+	"\\oiiint": {
+		"mathoid_required": true,
+		"nullary_macro": true
+	},
+	"\\oiint": {
+		"mathoid_required": true,
+		"nullary_macro": true
+	},
+	"\\oint": {
+		"nullary_macro": true
+	},
+	"\\ointctrclockwise": {
+		"mathoid_required": true,
+		"nullary_macro": true
+	},
+	"\\omega": {
+		"is_literal": true,
+		"mhchem_single_macro": true,
+		"nullary_macro": true
+	},
+	"\\omicron": {
+		"mhchem_single_macro": true,
+		"nullary_macro_aliase": "o"
+	},
+	"\\ominus": {
+		"nullary_macro": true
+	},
+	"\\operatorname": {
+		"ams_required": true,
+		"fun_ar1nb": true,
+		"ignore_identifier": true
+	},
+	"\\oplus": {
+		"nullary_macro": true
+	},
+	"\\or": {
+		"deprecated_nullary_macro_aliase": "\\lor"
+	},
+	"\\oslash": {
+		"nullary_macro": true
+	},
+	"\\otimes": {
+		"nullary_macro": true
+	},
+	"\\over": {
+		"fun_infix": true
+	},
+	"\\overarc": {
+		"fun_ar1nb": true,
+		"over_operator": true
+	},
+	"\\overbrace": {
+		"fun_ar1nb": true,
+		"over_operator": true
+	},
+	"\\overleftarrow": {
+		"fun_ar1": true,
+		"is_letter_mod": true,
+		"over_operator": true
+	},
+	"\\overleftrightarrow": {
+		"ams_required": true,
+		"fun_ar1": true,
+		"is_letter_mod": true,
+		"over_operator": true
+	},
+	"\\overline": {
+		"fun_ar1": true,
+		"is_letter_mod": true,
+		"over_operator": true
+	},
+	"\\overrightarrow": {
+		"fun_ar1": true,
+		"is_letter_mod": true,
+		"over_operator": true
+	},
+	"\\overset": {
+		"ams_required": true,
+		"fun_ar2": true,
+		"mhchem_macro_2p": true
+	},
+	"\\pagecolor": {
+		"color_function": true,
+		"color_required": true
+	},
+	"\\parallel": {
+		"nullary_macro": true
+	},
+	"\\part": {
+		"deprecated_nullary_macro_aliase": "\\partial"
+	},
+	"\\partial": {
+		"nullary_macro": true
+	},
+	"\\perp": {
+		"nullary_macro": true
+	},
+	"\\phantom": {
+		"fun_ar1": true,
+		"ignore_identifier": true
+	},
+	"\\phi": {
+		"is_literal": true,
+		"mhchem_single_macro": true,
+		"nullary_macro": true
+	},
+	"\\pi": {
+		"is_literal": true,
+		"mhchem_single_macro": true,
+		"nullary_macro": true
+	},
+	"\\pitchfork": {
+		"ams_required": true,
+		"is_literal": true,
+		"nullary_macro": true
+	},
+	"\\plusmn": {
+		"nullary_macro_aliase": "\\pm"
+	},
+	"\\pm": {
+		"mhchem_single_macro": true,
+		"nullary_macro": true
+	},
+	"\\pmod": {
+		"fun_ar1": true
+	},
+	"\\prec": {
+		"nullary_macro": true
+	},
+	"\\precapprox": {
+		"ams_required": true,
+		"nullary_macro": true
+	},
+	"\\preccurlyeq": {
+		"ams_required": true,
+		"nullary_macro": true
+	},
+	"\\preceq": {
+		"nullary_macro": true
+	},
+	"\\precnapprox": {
+		"ams_required": true,
+		"nullary_macro": true
+	},
+	"\\precneqq": {
+		"ams_required": true,
+		"nullary_macro": true
+	},
+	"\\precnsim": {
+		"ams_required": true,
+		"nullary_macro": true
+	},
+	"\\precsim": {
+		"ams_required": true,
+		"nullary_macro": true
+	},
+	"\\prime": {
+		"nullary_macro": true
+	},
+	"\\prod": {
+		"nullary_macro": true
+	},
+	"\\projlim": {
+		"ams_required": true,
+		"nullary_macro": true
+	},
+	"\\propto": {
+		"nullary_macro": true
+	},
+	"\\psi": {
+		"is_literal": true,
+		"mhchem_single_macro": true,
+		"nullary_macro": true
+	},
+	"\\qquad": {
+		"nullary_macro": true
+	},
+	"\\quad": {
+		"nullary_macro": true
+	},
+	"\\rArr": {
+		"nullary_macro_aliase": "\\Rightarrow"
+	},
+	"\\rVert": {
+		"ams_required": true,
+		"nullary_macro": true
+	},
+	"\\raise": {
+		"fun_ar2": true,
+		"mhchemtexified_required": true
+	},
+	"\\rang": {
+		"other_delimiters2": "\\rangle"
+	},
+	"\\rangle": {
+		"other_delimiters1": true
+	},
+	"\\rarr": {
+		"nullary_macro_aliase": "\\rightarrow"
+	},
+	"\\rbrace": {
+		"other_delimiters1": true
+	},
+	"\\rbrack": {
+		"other_delimiters1": true
+	},
+	"\\rceil": {
+		"other_delimiters1": true
+	},
+	"\\real": {
+		"nullary_macro_aliase": "\\Re"
+	},
+	"\\reals": {
+		"nullary_macro_aliase": "\\mathbb{R}"
+	},
+	"\\restriction": {
+		"nullary_macro_aliase": "\\upharpoonright"
+	},
+	"\\rfloor": {
+		"other_delimiters1": true
+	},
+	"\\rho": {
+		"is_literal": true,
+		"mhchem_single_macro": true,
+		"nullary_macro": true
+	},
+	"\\right": {
+		"right_function": true
+	},
+	"\\rightarrow": {
+		"nullary_macro": true
+	},
+	"\\rightarrowtail": {
+		"ams_required": true,
+		"nullary_macro": true
+	},
+	"\\rightharpoondown": {
+		"nullary_macro": true
+	},
+	"\\rightharpoonup": {
+		"nullary_macro": true
+	},
+	"\\rightleftarrows": {
+		"ams_required": true,
+		"nullary_macro": true
+	},
+	"\\rightleftharpoons": {
+		"other_delimiters1": true
+	},
+	"\\rightrightarrows": {
+		"ams_required": true,
+		"nullary_macro": true
+	},
+	"\\rightsquigarrow": {
+		"ams_required": true,
+		"nullary_macro": true
+	},
+	"\\rightthreetimes": {
+		"ams_required": true,
+		"nullary_macro": true
+	},
+	"\\risingdotseq": {
+		"ams_required": true,
+		"nullary_macro": true
+	},
+	"\\rlap": {
+		"fun_ar1": true,
+		"mhchemtexified_required": true
+	},
+	"\\rm": {
+		"declh_function": true
+	},
+	"\\rtimes": {
+		"ams_required": true,
+		"nullary_macro": true
+	},
+	"\\sampi": {
+		"nullary_macro_in_mbox": true,
+		"teubner_required": true
+	},
+	"\\scriptscriptstyle": {
+		"nullary_macro": true
+	},
+	"\\scriptstyle": {
+		"nullary_macro": true
+	},
+	"\\sdot": {
+		"nullary_macro_aliase": "\\cdot"
+	},
+	"\\searrow": {
+		"nullary_macro": true
+	},
+	"\\sec": {
+		"latex_function_names": true
+	},
+	"\\sect": {
+		"nullary_macro_aliase": "\\S"
+	},
+	"\\sen": {
+		"mediawiki_function_names": true
+	},
+	"\\setminus": {
+		"nullary_macro": true
+	},
+	"\\sgn": {
+		"mediawiki_function_names": true
+	},
+	"\\sharp": {
+		"nullary_macro": true
+	},
+	"\\shortmid": {
+		"ams_required": true,
+		"nullary_macro": true
+	},
+	"\\shortparallel": {
+		"ams_required": true,
+		"nullary_macro": true
+	},
+	"\\sideset": {
+		"ams_required": true,
+		"fun_ar2nb": true
+	},
+	"\\sigma": {
+		"is_literal": true,
+		"mhchem_single_macro": true,
+		"nullary_macro": true
+	},
+	"\\sim": {
+		"nullary_macro": true
+	},
+	"\\simeq": {
+		"nullary_macro": true
+	},
+	"\\sin": {
+		"latex_function_names": true
+	},
+	"\\sinh": {
+		"latex_function_names": true
+	},
+	"\\smallfrown": {
+		"ams_required": true,
+		"nullary_macro": true
+	},
+	"\\smallsetminus": {
+		"ams_required": true,
+		"nullary_macro": true
+	},
+	"\\smallsmile": {
+		"ams_required": true,
+		"nullary_macro": true
+	},
+	"\\smash": {
+		"fun_ar1": true,
+		"fun_ar1opt": true,
+		"mhchemtexified_required": true
+	},
+	"\\smile": {
+		"nullary_macro": true
+	},
+	"\\spades": {
+		"nullary_macro_aliase": "\\spadesuit"
+	},
+	"\\spadesuit": {
+		"nullary_macro": true
+	},
+	"\\sphericalangle": {
+		"ams_required": true,
+		"nullary_macro": true
+	},
+	"\\sqcap": {
+		"nullary_macro": true
+	},
+	"\\sqcup": {
+		"nullary_macro": true
+	},
+	"\\sqrt": {
+		"fun_ar1": true,
+		"fun_ar1opt": true
+	},
+	"\\sqsubset": {
+		"ams_required": true,
+		"nullary_macro": true
+	},
+	"\\sqsubseteq": {
+		"nullary_macro": true
+	},
+	"\\sqsupset": {
+		"ams_required": true,
+		"nullary_macro": true
+	},
+	"\\sqsupseteq": {
+		"nullary_macro": true
+	},
+	"\\square": {
+		"ams_required": true,
+		"nullary_macro": true
+	},
+	"\\stackrel": {
+		"fun_ar2": true
+	},
+	"\\star": {
+		"nullary_macro": true
+	},
+	"\\stigma": {
+		"nullary_macro_in_mbox": true,
+		"teubner_required": true
+	},
+	"\\sub": {
+		"nullary_macro_aliase": "\\subset"
+	},
+	"\\sube": {
+		"nullary_macro_aliase": "\\subseteq"
+	},
+	"\\subset": {
+		"nullary_macro": true
+	},
+	"\\subseteq": {
+		"nullary_macro": true
+	},
+	"\\subseteqq": {
+		"ams_required": true,
+		"nullary_macro": true
+	},
+	"\\subsetneq": {
+		"ams_required": true,
+		"nullary_macro": true
+	},
+	"\\subsetneqq": {
+		"ams_required": true,
+		"nullary_macro": true
+	},
+	"\\succ": {
+		"nullary_macro": true
+	},
+	"\\succapprox": {
+		"ams_required": true,
+		"nullary_macro": true
+	},
+	"\\succcurlyeq": {
+		"ams_required": true,
+		"nullary_macro": true
+	},
+	"\\succeq": {
+		"nullary_macro": true
+	},
+	"\\succnapprox": {
+		"ams_required": true,
+		"nullary_macro": true
+	},
+	"\\succneqq": {
+		"ams_required": true,
+		"nullary_macro": true
+	},
+	"\\succnsim": {
+		"ams_required": true,
+		"nullary_macro": true
+	},
+	"\\succsim": {
+		"ams_required": true,
+		"nullary_macro": true
+	},
+	"\\sum": {
+		"nullary_macro": true
+	},
+	"\\sup": {
+		"latex_function_names": true
+	},
+	"\\supe": {
+		"nullary_macro_aliase": "\\supseteq"
+	},
+	"\\supset": {
+		"nullary_macro": true
+	},
+	"\\supseteq": {
+		"nullary_macro": true
+	},
+	"\\supseteqq": {
+		"ams_required": true,
+		"nullary_macro": true
+	},
+	"\\supsetneq": {
+		"ams_required": true,
+		"nullary_macro": true
+	},
+	"\\supsetneqq": {
+		"ams_required": true,
+		"nullary_macro": true
+	},
+	"\\surd": {
+		"nullary_macro": true
+	},
+	"\\swarrow": {
+		"nullary_macro": true
+	},
+	"\\tan": {
+		"latex_function_names": true
+	},
+	"\\tanh": {
+		"latex_function_names": true
+	},
+	"\\tau": {
+		"is_literal": true,
+		"mhchem_single_macro": true,
+		"nullary_macro": true
+	},
+	"\\tbinom": {
+		"ams_required": true,
+		"fun_ar2": true
+	},
+	"\\text": {
+		"ams_required": true,
+		"box_functions": true
+	},
+	"\\textbf": {
+		"fun_ar1": true,
+		"is_letter_mod": true
+	},
+	"\\textit": {
+		"fun_ar1": true,
+		"is_letter_mod": true
+	},
+	"\\textrm": {
+		"fun_ar1": true,
+		"is_letter_mod": true
+	},
+	"\\textsf": {
+		"fun_ar1": true,
+		"is_letter_mod": true
+	},
+	"\\textstyle": {
+		"nullary_macro": true
+	},
+	"\\texttt": {
+		"fun_ar1": true,
+		"is_letter_mod": true
+	},
+	"\\textvisiblespace": {
+		"nullary_macro_in_mbox": true
+	},
+	"\\tfrac": {
+		"ams_required": true,
+		"fun_ar2": true
+	},
+	"\\therefore": {
+		"ams_required": true,
+		"nullary_macro": true
+	},
+	"\\theta": {
+		"is_literal": true,
+		"mhchem_single_macro": true,
+		"nullary_macro": true
+	},
+	"\\thetasym": {
+		"nullary_macro_aliase": "\\vartheta"
+	},
+	"\\thickapprox": {
+		"ams_required": true,
+		"nullary_macro": true
+	},
+	"\\thicksim": {
+		"ams_required": true,
+		"nullary_macro": true
+	},
+	"\\tilde": {
+		"fun_ar1": true,
+		"is_letter_mod": true
+	},
+	"\\times": {
+		"nullary_macro": true
+	},
+	"\\to": {
+		"nullary_macro": true
+	},
+	"\\top": {
+		"is_literal": true,
+		"nullary_macro": true
+	},
+	"\\triangle": {
+		"nullary_macro": true
+	},
+	"\\triangledown": {
+		"ams_required": true,
+		"nullary_macro": true
+	},
+	"\\triangleleft": {
+		"nullary_macro": true
+	},
+	"\\trianglelefteq": {
+		"ams_required": true,
+		"nullary_macro": true
+	},
+	"\\triangleq": {
+		"ams_required": true,
+		"nullary_macro": true
+	},
+	"\\triangleright": {
+		"nullary_macro": true
+	},
+	"\\trianglerighteq": {
+		"ams_required": true,
+		"nullary_macro": true
+	},
+	"\\tripledash": {
+		"mhchemtexified_required": true,
+		"nullary_macro": true
+	},
+	"\\twoheadleftarrow": {
+		"ams_required": true,
+		"other_delimiters1": true
+	},
+	"\\twoheadrightarrow": {
+		"ams_required": true,
+		"other_delimiters1": true
+	},
+	"\\uArr": {
+		"other_delimiters2": "\\Uparrow"
+	},
+	"\\uarr": {
+		"other_delimiters2": "\\uparrow"
+	},
+	"\\ulcorner": {
+		"ams_required": true,
+		"other_delimiters1": true
+	},
+	"\\underbrace": {
+		"fun_ar1nb": true,
+		"mhchem_macro_2pu": true
+	},
+	"\\underline": {
+		"fun_ar1": true,
+		"is_letter_mod": true
+	},
+	"\\underset": {
+		"ams_required": true,
+		"fun_ar2": true,
+		"mhchem_macro_2p": true
+	},
+	"\\uparrow": {
+		"other_delimiters1": true
+	},
+	"\\updownarrow": {
+		"other_delimiters1": true
+	},
+	"\\upharpoonleft": {
+		"ams_required": true,
+		"nullary_macro": true
+	},
+	"\\upharpoonright": {
+		"ams_required": true,
+		"nullary_macro": true
+	},
+	"\\uplus": {
+		"nullary_macro": true
+	},
+	"\\upsilon": {
+		"mhchem_single_macro": true,
+		"nullary_macro": true
+	},
+	"\\upuparrows": {
+		"ams_required": true,
+		"nullary_macro": true
+	},
+	"\\urcorner": {
+		"ams_required": true,
+		"other_delimiters1": true
+	},
+	"\\vDash": {
+		"ams_required": true,
+		"nullary_macro": true
+	},
+	"\\varDelta": {
+		"nullary_macro": true
+	},
+	"\\varGamma": {
+		"nullary_macro": true
+	},
+	"\\varLambda": {
+		"nullary_macro": true
+	},
+	"\\varOmega": {
+		"nullary_macro": true
+	},
+	"\\varPhi": {
+		"nullary_macro": true
+	},
+	"\\varPi": {
+		"nullary_macro": true
+	},
+	"\\varSigma": {
+		"nullary_macro": true
+	},
+	"\\varTheta": {
+		"nullary_macro": true
+	},
+	"\\varUpsilon": {
+		"nullary_macro": true
+	},
+	"\\varXi": {
+		"nullary_macro": true
+	},
+	"\\varcoppa": {
+		"nullary_macro_aliase": "\\mbox{\\coppa}"
+	},
+	"\\varepsilon": {
+		"is_literal": true,
+		"mhchem_single_macro": true,
+		"nullary_macro": true
+	},
+	"\\varinjlim": {
+		"ams_required": true,
+		"nullary_macro": true
+	},
+	"\\varkappa": {
+		"ams_required": true,
+		"is_literal": true,
+		"mhchem_single_macro": true,
+		"nullary_macro": true
+	},
+	"\\varliminf": {
+		"ams_required": true,
+		"nullary_macro": true
+	},
+	"\\varlimsup": {
+		"ams_required": true,
+		"nullary_macro": true
+	},
+	"\\varnothing": {
+		"ams_required": true,
+		"is_literal": true,
+		"nullary_macro": true
+	},
+	"\\varointclockwise": {
+		"mathoid_required": true,
+		"nullary_macro": true
+	},
+	"\\varphi": {
+		"is_literal": true,
+		"mhchem_single_macro": true,
+		"nullary_macro": true
+	},
+	"\\varpi": {
+		"is_literal": true,
+		"mhchem_single_macro": true,
+		"nullary_macro": true
+	},
+	"\\varprojlim": {
+		"ams_required": true,
+		"nullary_macro": true
+	},
+	"\\varpropto": {
+		"ams_required": true,
+		"nullary_macro": true
+	},
+	"\\varrho": {
+		"is_literal": true,
+		"mhchem_single_macro": true,
+		"nullary_macro": true
+	},
+	"\\varsigma": {
+		"is_literal": true,
+		"mhchem_single_macro": true,
+		"nullary_macro": true
+	},
+	"\\varstigma": {
+		"nullary_macro_in_mbox": true,
+		"teubner_required": true
+	},
+	"\\varsubsetneq": {
+		"ams_required": true,
+		"nullary_macro": true
+	},
+	"\\varsubsetneqq": {
+		"ams_required": true,
+		"nullary_macro": true
+	},
+	"\\varsupsetneq": {
+		"ams_required": true,
+		"nullary_macro": true
+	},
+	"\\varsupsetneqq": {
+		"ams_required": true,
+		"nullary_macro": true
+	},
+	"\\vartheta": {
+		"is_literal": true,
+		"mhchem_single_macro": true,
+		"nullary_macro": true
+	},
+	"\\vartriangle": {
+		"ams_required": true,
+		"nullary_macro": true
+	},
+	"\\vartriangleleft": {
+		"ams_required": true,
+		"nullary_macro": true
+	},
+	"\\vartriangleright": {
+		"ams_required": true,
+		"nullary_macro": true
+	},
+	"\\vbox": {
+		"box_functions": true
+	},
+	"\\vdash": {
+		"nullary_macro": true
+	},
+	"\\vdots": {
+		"nullary_macro": true
+	},
+	"\\vec": {
+		"fun_ar1": true,
+		"is_letter_mod": true
+	},
+	"\\vee": {
+		"nullary_macro": true
+	},
+	"\\veebar": {
+		"ams_required": true,
+		"nullary_macro": true
+	},
+	"\\vert": {
+		"other_delimiters1": true
+	},
+	"\\vline": {
+		"nullary_macro": true
+	},
+	"\\vphantom": {
+		"fun_ar1": true,
+		"ignore_identifier": true
+	},
+	"\\wedge": {
+		"nullary_macro": true
+	},
+	"\\weierp": {
+		"nullary_macro_aliase": "\\wp"
+	},
+	"\\widehat": {
+		"fun_ar1": true,
+		"is_letter_mod": true
+	},
+	"\\widetilde": {
+		"fun_ar1": true,
+		"is_letter_mod": true
+	},
+	"\\wp": {
+		"is_literal": true,
+		"nullary_macro": true
+	},
+	"\\wr": {
+		"nullary_macro": true
+	},
+	"\\xcancel": {
+		"cancel_required": true,
+		"fun_ar1": true,
+		"is_letter_mod": true
+	},
+	"\\xi": {
+		"is_literal": true,
+		"nullary_macro": true
+	},
+	"\\xleftarrow": {
+		"ams_required": true,
+		"fun_ar1nb": true,
+		"fun_ar1opt": true,
+		"is_letter_mod": true
+	},
+	"\\xrightarrow": {
+		"ams_required": true,
+		"fun_ar1nb": true,
+		"fun_ar1opt": true,
+		"is_letter_mod": true
+	},
+	"\\zeta": {
+		"is_literal": true,
+		"mhchem_single_macro": true,
+		"nullary_macro": true
+	}
+}

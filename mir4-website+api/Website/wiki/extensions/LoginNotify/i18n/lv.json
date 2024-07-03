@@ -1,0 +1,19 @@
+{
+	"@metadata": {
+		"authors": [
+			"Papuass"
+		]
+	},
+	"loginnotify-desc": "Brīdina lietotājus par aizdomīgu pieslēgšanos no nepazīstamām iekārtām un/vai IP adresēm",
+	"echo-category-title-login-fail": "Neizdevušies pieslēgšanās mēģinājumi",
+	"echo-pref-tooltip-login-fail": "Brīdināt mani, ja ir bijuši neizdevušies pieslēgšanās mēģinājumi manam kontam.",
+	"echo-category-title-login-success": "Pieslēgšanās no nepazīstamas ierīces",
+	"echo-pref-tooltip-login-success": "Brīdināt mani, kad kāds pieslēdzas manam kontam no nepazīstamas iekārtas un IP adreses.",
+	"loginnotify-primary-link": "Palīdzība",
+	"notification-loginnotify-login-fail-email-subject": "{{PLURAL:$2|Vairāki neizdevušies mēģinājumi|Neizdevies mēģinājums|Vairāki neizdevušies mēģinājumi}} pieslēdzoties vietnei \"{{SITENAME}}\" kā $1",
+	"notification-loginnotify-login-success-email-subject": "Pieslēgšanās vietnei \"{{SITENAME}}\" kā $1 no datora, ko tu pēdējā laikā neesi lietojis",
+	"notification-header-login-success": "Kāds (droši vien tu) nesen pieslēdzās tavam kontam no jaunas iekārtas. Ja {{GENDER:$1|tas|tā}} biji tu, šo ziņojumu vari ignorēt. Ja {{GENDER:$1|tas|tā}} nebiji tu, mēs iesakām nomainīt paroli un pārbaudīt ar kontu veiktās darbības.",
+	"notification-new-bundled-header-login-fail": "{{PLURAL:$1|Bijuši '''$1 neizdevušies mēģinājumi'''|Bijis '''neizdevies mēģinājums'''|Bijuši '''$1 neizdevušies mēģinājumi'''}} pieslēgties tavam kontam no jaunas ierīces kopš tavas pēdējās pieslēgšanās reizes. Ja tas nebiji tu, lūdzu, pārliecinies, ka tavam kontam ir droša parole.",
+	"notification-known-header-login-fail": "{{PLURAL:$1|Bijuši '''$1 neizdevušies mēģinājumi'''|Bijis '''neizdevies mēģinājums'''|Bijuši '''$1 neizdevušies mēģinājumi'''}} pieslēgties tavam kontam kopš tavas pēdējās pieslēgšanās reizes. Ja tas nebiji tu, lūdzu, pārliecinies, ka tavam kontam ir droša parole.",
+	"notification-new-unbundled-header-login-fail": "{{PLURAL:$1|Bijuši '''vairāki neizdevušies mēģinājumi'''|Bijis '''neizdevies mēģinājums'''|Bijuši '''vairāki neizdevušies mēģinājumi'''}} pieslēgties tavam kontam no jaunas ierīces. Lūdzu, pārliecinies, ka tavam kontam ir droša parole."
+}

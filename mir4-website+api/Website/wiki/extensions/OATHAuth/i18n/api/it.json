@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Beta16"
+		]
+	},
+	"apihelp-query+oath-example-1": "Ottieni informazioni sull'utente attuale",
+	"apihelp-query+oath-example-2": "Ottieni informazioni sull'utente <kbd>Example</kbd>",
+	"apihelp-oathvalidate-param-user": "Utente per cui convalidare il token. Valore predefinito è l'utente attuale.",
+	"apihelp-oathvalidate-example-1": "Convalida i dati JSON per l'utente attuale"
+}

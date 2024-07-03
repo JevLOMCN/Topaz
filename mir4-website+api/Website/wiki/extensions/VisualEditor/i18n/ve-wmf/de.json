@@ -1,0 +1,40 @@
+{
+	"@metadata": {
+		"authors": [
+			"APPER",
+			"Brettchenweber",
+			"G.Hagedorn",
+			"Inkowik",
+			"Jcornelius",
+			"Jdforrester",
+			"Kghbln",
+			"Kurt Jansson",
+			"Metalhead64",
+			"Murma174",
+			"Se4598",
+			"Tomabrafix"
+		]
+	},
+	"tag-editcheck-newcontent-description": "EditCheck geht davon aus, dass der Seite neue Inhalte hinzugefügt wurden",
+	"tag-editcheck-newreference-description": "Der Seite wurde ein Einzelnachweis hinzugefügt",
+	"tag-editcheck-references-description": "EditCheck ist der Meinung, dass möglicherweise ein Einzelnachweis benötigt wird",
+	"tag-editcheck-references-activated": "[[{{MediaWiki:editcheck-falsepositives-link}}|Bearbeitungsprüfung (Belege) aktiviert]]",
+	"tag-editcheck-references-activated-description": "EditCheck geht davon aus, dass möglicherweise ein Einzelnachweis erforderlich war, und die Benutzeroberfläche wurde angezeigt",
+	"tag-visualeditor": "[[{{MediaWiki:visualeditor-descriptionpagelink}}|Visuelle Bearbeitung]]",
+	"tag-visualeditor-description": "Bearbeitungen, die mit dem [[{{MediaWiki:visualeditor-descriptionpagelink}}|visuellen Editor]] ausgeführt wurden.",
+	"tag-visualeditor-needcheck": "[[{{MediaWiki:visualeditor-descriptionpagelink}}|Visuelle Bearbeitung: Überprüfung]]",
+	"tag-visualeditor-needcheck-description": "Bearbeitungen, die mit dem [[{{MediaWiki:visualeditor-descriptionpagelink}}|visuellen Editor]] ausgeführt wurden und bei denen es möglicherweise zu ungewollten Änderungen des Wikitexts gekommen ist.",
+	"tag-visualeditor-wikitext": "2017-Quelltext-Bearbeitung",
+	"tag-visualeditor-wikitext-description": "Bearbeitungen, die mit dem Wikitext-Editor 2017 ausgeführt wurden.",
+	"tag-visualeditor-switched": "[[{{MediaWiki:visualeditor-descriptionpagelink}}|Visuelle Bearbeitung: Gewechselt]]",
+	"tag-visualeditor-switched-description": "Bearbeitungen, die mithilfe des visuellen Editors begonnen, aber nach dem Wechsel mit dem Wikitext-Editor beendet wurden.",
+	"visualeditor-feedback-link": "Project:VisualEditor/Rückmeldungen",
+	"visualeditor-feedback-tool": "Rückmeldungen über diese Software hinterlassen",
+	"visualeditor-help-label": "Lies das Benutzerhandbuch",
+	"visualeditor-welcomedialog-action": "Jetzt bearbeiten",
+	"visualeditor-welcomedialog-content": "Jeder kann hier mitarbeiten und Artikel verbessern.",
+	"visualeditor-welcomedialog-content-thanks": "Damit hilfst du, das menschliche Wissen allen zugänglich zu machen!",
+	"visualeditor-welcomedialog-switch": "Zum Quelltext-Editor",
+	"visualeditor-welcomedialog-switch-ve": "Zum visuellen Editor wechseln",
+	"visualeditor-welcomedialog-title": "{{GENDER:$1|Willkommen}} bei $2"
+}

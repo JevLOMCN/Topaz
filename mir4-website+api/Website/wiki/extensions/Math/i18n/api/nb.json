@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Jon Harald Søby"
+		]
+	},
+	"apihelp-query+mathwbextracts-example-1": "Ber om et sammendrag over matematiske Wikibase-elementer.",
+	"apihelp-query+mathwbextracts-summary": "Returnerer et sammendrag over et matematisk Wikibase-element i HTML.",
+	"apihelp-query+mathwbextracts-param-qid": "QID-en til Wikibase-elementet det skal bes om.",
+	"apihelp-query+mathwbextracts-param-uselang": "Språket det skal bes om for Wikibase-elementet. Standardverdien er engelsk."
+}

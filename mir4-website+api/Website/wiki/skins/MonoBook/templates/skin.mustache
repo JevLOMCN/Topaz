@@ -1,0 +1,99 @@
+<div id="globalWrapper">
+	<div id="column-content">
+		<div id="content" class="mw-body" role="main">
+			<a id="top"></a>
+			<div id="siteNotice">{{{html-site-notice}}}</div>
+			<div class="mw-indicators">
+				{{#array-indicators}}
+				<div id="{{id}}" class="mw-indicator">{{{html}}}</div>
+				{{/array-indicators}}
+			</div>
+			{{{html-title-heading}}}
+			<div id="bodyContent" class="monobook-body">
+				<div id="siteSub">{{ msg-tagline }}</div>
+				<div id="contentSub" {{{html-user-language-attributes}}}>{{{html-subtitle}}}</div>
+				{{#html-undelete-link}}<div id="contentSub2">{{{.}}}</div>{{/html-undelete-link}}{{{html-user-message}}}
+				<div id="jump-to-nav"></div><a href="#column-one" class="mw-jump-link">{{msg-monobook-jumptonavigation}}</a><a href="#searchInput" class="mw-jump-link">{{msg-monobook-jumptosearch}}</a>
+				<!-- start content -->
+				{{{html-body-content}}}
+				{{{html-categories}}}
+				<!-- end content -->
+				<div class="visualClear"></div>
+			</div>
+		</div>{{{html-after-content}}}
+		<div class="visualClear"></div>
+	</div>
+	<div id="column-one" {{{html-user-language-attributes}}}>
+		{{#data-portlets}}
+		<h2>{{msg-navigation-heading}}</h2>
+		<div role="navigation" class="portlet" id="p-cactions" aria-labelledby="p-cactions-label">
+			<h3 id="p-cactions-label" {{{html-user-language-attributes}}}>{{msg-monobook-cactions-label}}</h3>
+			<div class="pBody">
+				<ul {{{html-user-language-attributes}}}>
+				{{! comments used to avoid additional whitespace}}
+				{{{data-namespaces.html-items}}}{{!
+				}}{{{data-views.html-items}}}{{!
+				}}{{{data-actions.html-items}}}
+				{{{data-variants.html-items}}}
+				</ul>
+			</div>
+		</div>
+		{{#data-cactions-mobile}}{{>Portlet}}{{/data-cactions-mobile}}
+		{{#data-personal}}
+		<div role="navigation" class="portlet" id="{{id}}" aria-labelledby="{{id}}-label">
+			<h3 id="{{id}}-label" {{{html-user-language-attributes}}}>{{label}}</h3>
+			<div class="pBody">
+				<ul {{{html-user-language-attributes}}}>
+				{{{html-items}}}
+				</ul>
+			</div>
+		</div>
+		{{/data-personal}}
+		<div class="portlet" id="p-logo" role="banner">
+			<a href="{{link-mainpage}}" class="mw-wiki-logo"></a>
+		</div>
+		<div id="sidebar">
+		{{/data-portlets}}
+		{{#data-portlets-sidebar.data-portlets-first}}{{>Portlet}}{{/data-portlets-sidebar.data-portlets-first}}
+		{{#data-search-box}}
+		<div role="search" class="portlet" id="p-search">
+			<h3 id="p-search-label" {{{html-user-language-attributes}}}><label for="searchInput">{{msg-search}}</label></h3>
+			<div class="pBody" id="searchBody">
+				<form action="{{form-action}}" id="searchform"><input type="hidden" value="{{page-title}}" name="title">{{{html-input}}}{{{html-button-search}}} {{{html-button-search-fallback}}}</form>
+			</div>
+		</div>
+		{{/data-search-box}}
+		{{#data-portlets-sidebar.array-portlets-rest}}{{>Portlet}}{{/data-portlets-sidebar.array-portlets-rest}}
+		{{#data-portlets.data-languages}}{{>Portlet}}{{/data-portlets.data-languages}}
+		</div>
+		{{! previously SkinMonobook::getMobileNavigationIcon }}
+		<a href="#sidebar" title="{{msg-monobook-jumptonavigation}}"
+			class="menu-toggle" id="sidebar-toggle"></a>
+		<a href="#p-personal" title="{{msg-monobook-jumptopersonal}}"
+			class="menu-toggle" id="p-personal-toggle"></a>
+		<a href="#globalWrapper" title="{{msg-monobook-jumptotop}}"
+			class="menu-toggle" id="globalWrapper-toggle"></a>
+	</div>
+	<!-- end of the left (by default at least) column -->
+	<div class="visualClear"></div>
+	<div id="footer" class="mw-footer" role="contentinfo"
+		{{{html-user-language-attributes}}}>
+	{{#data-footer}}
+		{{#data-icons}}
+		{{#array-items}}
+		<div id="f-{{name}}ico" class="footer-icons">
+			{{{html}}}
+		</div>
+		{{/array-items}}
+		{{/data-icons}}
+		<ul id="f-list">
+			{{#data-info}}
+			{{#array-items}}<li id="{{name}}">{{{html}}}</li>{{/array-items}}
+			{{/data-info}}{{! no whitespace
+			}}{{#data-places}}{{! no whitespace
+			}}{{#array-items}}<li id="{{name}}">{{{html}}}</li>{{/array-items}}
+			{{/data-places}}
+		</ul>
+	{{/data-footer}}
+	</div>
+</div>

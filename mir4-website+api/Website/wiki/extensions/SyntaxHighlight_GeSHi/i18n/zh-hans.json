@@ -1,0 +1,27 @@
+{
+	"@metadata": {
+		"authors": [
+			"GuoPC",
+			"Liuxinyu970226",
+			"Shinjiman",
+			"Xiplus",
+			"佛壁灯"
+		]
+	},
+	"syntaxhighlight-desc": "使用[http://pygments.org/ Pygments - Python 语法高亮]以提供语法高亮<code>&lt;syntaxhighlight&gt;</code>",
+	"syntaxhighlight-error-category": "存在语法高亮错误的页面",
+	"syntaxhighlight-error-category-desc": "尝试高亮页面中的代码时出错。",
+	"syntaxhighlight-enclose-category": "使用已弃用enclose属性的页面",
+	"syntaxhighlight-enclose-category-desc": "此页面上的代码高亮使用了已弃用的enclose语法。",
+	"syntaxhighlight-source-category": "使用已弃用source标签的页面",
+	"syntaxhighlight-source-category-desc": "此页面上的代码高亮使用了已弃用的源标签。",
+	"syntaxhighlight-visualeditor-mwsyntaxhighlightinspector-code": "代码",
+	"syntaxhighlight-visualeditor-mwsyntaxhighlightinspector-language": "语言",
+	"syntaxhighlight-visualeditor-mwsyntaxhighlightinspector-none": "（无）",
+	"syntaxhighlight-visualeditor-mwsyntaxhighlightinspector-showlines": "显示行数",
+	"syntaxhighlight-visualeditor-mwsyntaxhighlightinspector-startingline": "起始行数",
+	"syntaxhighlight-visualeditor-mwsyntaxhighlightinspector-title": "代码块",
+	"syntaxhighlight-error-pygments-invocation-failure": "调用Pygments失败",
+	"syntaxhighlight-error-unknown-language": "未知的语言“$1”",
+	"syntaxhighlight-error-exceeds-size-limit": "$1{{PLURAL:$1|字节}}代码大小超过了最大值$2{{PLURAL:$2|字节}}"
+}

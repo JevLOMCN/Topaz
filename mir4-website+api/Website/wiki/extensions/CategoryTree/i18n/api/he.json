@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"Amire80",
+			"Guycn2"
+		]
+	},
+	"apihelp-categorytree-summary": "מודול פנימי של ההרחבה CategoryTree.",
+	"apihelp-categorytree-param-category": "כותרת במרחב השם קטגוריה, התחילית לא תשפיע על התוצאה גם אם תינתן.",
+	"apihelp-categorytree-param-options": "אפשרויות לקונסטרוקטור של CategoryTree בתור עצם JSON. ברירת המחדל עבור האפשרות <var>depth</var> היא <kbd>1</kbd>.",
+	"apierror-categorytree-invalidjson": "האופציות צריכות להיות עצם JSON תקין.",
+	"apierror-categorytree-invalidjson-option": "האפשרות \"$1\" מכילה ערך בלתי־תקין."
+}

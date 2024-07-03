@@ -1,0 +1,17 @@
+{
+	"@metadata": {
+		"authors": [
+			"Winston Sung"
+		]
+	},
+	"inputbox-desc": "容許包含預先設定嘅HTML表格",
+	"inputbox-error-no-type": "你重未指定開輸入盒嘅指定類型。",
+	"inputbox-error-bad-type": "輸入盒類型\"$1\"認唔到。\n請指定\"create\"、\"comment\"、\"search\"、\"search2\"或者\"fulltext\"。",
+	"inputbox-tryexact": "試吓精確嘅比較",
+	"inputbox-searchfulltext": "搵全文",
+	"inputbox-createarticle": "建立文章",
+	"inputbox-movearticle": "搬頁",
+	"inputbox-postcomment": "新小節",
+	"inputbox-postcommenttitle": "新小節",
+	"inputbox-ns-main": "主要"
+}

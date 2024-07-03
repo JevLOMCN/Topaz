@@ -1,0 +1,24 @@
+{
+	"@metadata": {
+		"authors": [
+			"Ans",
+			"Bebiezaza",
+			"Manop",
+			"Octahedron80",
+			"RidJasper"
+		]
+	},
+	"skinname-monobook": "โมโนบุ๊ก",
+	"monobook-desc": "หน้าตาแบบดั้งเดิมของ MediaWiki ตั้งแต่ปี 2004 ซึ่งตั้งชื่อตามรูปถ่ายขาว-ดำของหนังสือบนฉากหลังของหน้าวิกิ",
+	"monobook.css": "/* สไตล์ชีตในหน้านี้จะส่งผลแก่ผู้ใช้ที่ใช้สกินโมโนบุ๊ก */",
+	"monobook.js": "/* จาวาสคริปต์ใด ๆ ในหน้านี้จะถูกโหลดให้แก่ผู้ใช้ที่ใช้สกินโมโนบุ๊ก */",
+	"monobook-jumptotop": "กลับไปด้านบน",
+	"monobook-jumptopersonal": "เครื่องมือผู้ใช้",
+	"monobook-jumptonavigation": "ไปยังการนำทาง",
+	"monobook-jumptosearch": "ไปยังการค้นหา",
+	"monobook-more-actions": "เพิ่มเติม",
+	"monobook-notifications-link": "การแจ้งเตือน ($1)",
+	"monobook-notifications-link-none": "การแจ้งเตือน",
+	"monobook-view-history": "ประวัติ",
+	"monobook-action-undelete": "กู้คืน {{PLURAL:$1|}}$1 การแก้ไข"
+}

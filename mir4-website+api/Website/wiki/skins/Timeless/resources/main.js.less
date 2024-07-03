@@ -1,0 +1,86 @@
+@import 'variables.less';
+
+// Experimental overflowing table scrolling
+.overflowed {
+	margin: 1em 0;
+	position: relative;
+	overflow: hidden;
+
+	// Shadow-border containers
+	.content-table-left,
+	.content-table-right {
+		height: 100%;
+		position: absolute;
+		bottom: 0;
+		z-index: @z-index-stacking-1;
+	}
+
+	// Noflips because scrollbar direction depends on the content direction
+	.content-table-right {
+		/* @noflip */
+		right: 0;
+
+		.mw-content-rtl & {
+			/* @noflip */
+			left: 0;
+			/* @noflip */
+			right: unset;
+		}
+
+		.scroll-right& {
+			box-shadow: 0 0 4px 1px rgba( 0, 0, 0, 0.25 );
+			border-left: solid 1px @base70;
+		}
+	}
+
+	.content-table-left {
+		/* @noflip */
+		left: 0;
+
+		.mw-content-rtl & {
+			/* @noflip */
+			right: 0;
+			/* @noflip */
+			left: unset;
+		}
+
+		.scroll-left& {
+			box-shadow: 0 0 4px 1px rgba( 0, 0, 0, 0.25 );
+			border-left: solid 1px @base70;
+		}
+	}
+
+	.content-table {
+		overflow: hidden;
+		overflow-x: scroll;
+
+		> table {
+			margin: 0;
+
+			&.mw_metadata,
+			&.mw-datatable,
+			&.wikitable {
+				border-bottom-width: 0;
+			}
+		}
+	}
+}
+
+// Desktop sticky scrollbars
+.content-table-scrollbar.inactive {
+	position: absolute;
+	top: -99999px;
+	bottom: unset;
+	left: -99999px;
+}
+
+.content-table-scrollbar {
+	position: fixed;
+	bottom: 0;
+	overflow-x: scroll;
+	z-index: @z-index-stacking-1;
+}
+
+.content-table-spoof {
+	height: 1px;
+}

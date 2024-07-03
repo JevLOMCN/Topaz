@@ -1,0 +1,39 @@
+{
+	"@metadata": {
+		"authors": [
+			"S.Örvarr.S",
+			"Snævar",
+			"Spacebirdy",
+			"Stefán Örvar Sigmundsson",
+			"Sveinn í Felli"
+		]
+	},
+	"categorytree": "Flokkakvíslar",
+	"categorytree-portlet": "Flokkar",
+	"categorytree-legend": "Sýna flokkakvíslar",
+	"categorytree-desc": "Flakka gagnvirkt um [[Special:CategoryTree|uppbyggingu flokka]]",
+	"categorytree-header": "Sláðu inn heiti flokks til að sjá innihald hans sem kvísl. (Þarfnast JavaScript)",
+	"categorytree-category": "Flokkur:",
+	"categorytree-go": "Birta kvíslar",
+	"categorytree-parents": "Yfirþræðir",
+	"categorytree-mode-label": "Hamur:",
+	"categorytree-mode-categories": "bara flokka",
+	"categorytree-mode-pages": "síður að myndum undanskildum",
+	"categorytree-mode-all": "allar síður",
+	"categorytree-collapse": "fela",
+	"categorytree-expand": "sýna",
+	"categorytree-member-counts": "Inniheldur $1 {{PLURAL:$1|undirflokk|undirflokka}}, $2 {{PLURAL:$2|síðu|síður}}, og $3 {{PLURAL:$3|mynd|myndir}}",
+	"categorytree-num-categories": "$1 F",
+	"categorytree-num-pages": "$1 S",
+	"categorytree-num-files": "$1 M",
+	"categorytree-num-empty": "tómur",
+	"categorytree-load": "hlaða",
+	"categorytree-loading": "hleð",
+	"categorytree-nothing-found": "ekkert fannst",
+	"categorytree-no-subcategories": "engir undirflokkar",
+	"categorytree-no-parent-categories": "engir yfirflokkar",
+	"categorytree-no-pages": "engar síður eða undirflokkar",
+	"categorytree-not-found": "Flokkurinn <i>$1</i> fannst ekki",
+	"categorytree-error": "Villa við hleðslu gagna.",
+	"categorytree-retry": "Bíddu aðeins og reyndu síðar."
+}

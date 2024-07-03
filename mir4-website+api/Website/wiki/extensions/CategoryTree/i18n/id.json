@@ -1,0 +1,42 @@
+{
+	"@metadata": {
+		"authors": [
+			"Bennylin",
+			"Daud I.F. Argana",
+			"Farras",
+			"IvanLanin",
+			"Iwan Novirion",
+			"Rachmat.Wahidi",
+			"Rachmat04",
+			"Rex"
+		]
+	},
+	"categorytree": "Pohon kategori",
+	"categorytree-portlet": "Kategori",
+	"categorytree-legend": "Tampilkan pohon kategori",
+	"categorytree-desc": "Gadget berbasis AJAX untuk menampilkan [[Special:CategoryTree|struktur kategori]] suatu wiki",
+	"categorytree-header": "Masukkan nama kategori untuk melihat kontennya dalam bentuk struktur pohon.\n(Membutuhkan JavaScript.)",
+	"categorytree-category": "Kategori:",
+	"categorytree-go": "Tampilkan",
+	"categorytree-parents": "Atasan",
+	"categorytree-mode-label": "Mode:",
+	"categorytree-mode-categories": "hanya kategori",
+	"categorytree-mode-pages": "halaman kecuali berkas",
+	"categorytree-mode-all": "semua halaman",
+	"categorytree-collapse": "tutup",
+	"categorytree-expand": "buka",
+	"categorytree-member-counts": "memiliki {{PLURAL:$1|$1 subkategori}}, {{PLURAL:$2|$2 halaman}}, dan {{PLURAL:$3|$3 berkas}}",
+	"categorytree-num-categories": "$1 K",
+	"categorytree-num-pages": "$1 H",
+	"categorytree-num-files": "$1 B",
+	"categorytree-num-empty": "kosong",
+	"categorytree-load": "muatkan",
+	"categorytree-loading": "memuat...",
+	"categorytree-nothing-found": "tidak ditemukan",
+	"categorytree-no-subcategories": "tidak ada subkategori",
+	"categorytree-no-parent-categories": "tidak ada kategori lebih tinggi",
+	"categorytree-no-pages": "tidak ada halaman atau subkategori",
+	"categorytree-not-found": "Kategori <i>$1</i> tidak ditemukan",
+	"categorytree-error": "Problem memuat data.",
+	"categorytree-retry": "Tunggulah sesaat dan coba lagi."
+}

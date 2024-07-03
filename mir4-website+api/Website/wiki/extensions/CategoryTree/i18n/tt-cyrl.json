@@ -1,0 +1,40 @@
+{
+	"@metadata": {
+		"authors": [
+			"Ajdar",
+			"Derslek",
+			"Don Alessandro",
+			"Ilnur efende",
+			"Ерней",
+			"Ильнар"
+		]
+	},
+	"categorytree": "Төркемнәр шәҗәрәсе",
+	"categorytree-portlet": "Төркемнәр",
+	"categorytree-legend": "Төркемнәрнең шәҗәрәсен ачарга",
+	"categorytree-desc": "[[Special:CategoryTree|Төркемнәрнең асылы]]н аңлату өчен төзелгән AJAX-бит",
+	"categorytree-header": "Төркемнең исемен кертегез һәм ул шәҗәрә рәвешендә күрсәтеләчәк (JavaScript кирәк булачак).",
+	"categorytree-category": "Төркем:",
+	"categorytree-go": "Төяү",
+	"categorytree-parents": "Төп төркемнәр",
+	"categorytree-mode-label": "Режим:",
+	"categorytree-mode-categories": "бары тик төркемнәр генә урнаштырылган",
+	"categorytree-mode-pages": "файллардан башка",
+	"categorytree-mode-all": "барлык битләр",
+	"categorytree-collapse": "яшерү",
+	"categorytree-expand": "ачу",
+	"categorytree-member-counts": "$1 {{PLURAL:$1|1 тәркемчәне|$1 тәркемчәләрне|$1 тәркемчәләрдән}}, $2 {{PLURAL:$2|1 битне|$2 битләрне|$2 битләрдән}} һәм {{PLURAL:$3|1 файл|$3 файлны}}ны үз эченә ала",
+	"categorytree-num-categories": "$1 Т",
+	"categorytree-num-pages": "$1 Б",
+	"categorytree-num-files": "$1 Ф",
+	"categorytree-num-empty": "буш",
+	"categorytree-load": "төяргә",
+	"categorytree-loading": "төяү бара…",
+	"categorytree-nothing-found": "берни дә табылмады",
+	"categorytree-no-subcategories": "төркемчәләр юк",
+	"categorytree-no-parent-categories": "төп бүлекләр юк",
+	"categorytree-no-pages": "битләр яки төркемчәләр юк",
+	"categorytree-not-found": "<i>$1</i> бүлеге табылмады",
+	"categorytree-error": "Хата",
+	"categorytree-retry": "Бераз көтеп торыгыз һәм яңадан тырышып карагыз әле."
+}

@@ -1,0 +1,18 @@
+{
+	"@metadata": {
+		"authors": [
+			"Facenapalm",
+			"Kareyac"
+		]
+	},
+	"apihelp-query+linterrors-summary": "Получение списка ошибок статического анализатора",
+	"apihelp-query+linterrors-param-categories": "Категории ошибок статического анализатора",
+	"apihelp-query+linterrors-param-limit": "Количество возвращаемых результатов",
+	"apihelp-query+linterrors-param-from": "Идентификатор ошибки, с которой начать запрос",
+	"apihelp-query+linterrors-param-namespace": "Включать только ошибки из указанных пространств имён",
+	"apihelp-query+linterrors-param-pageid": "Включать только ошибки со страниц с указанными идентификаторами",
+	"apihelp-query+linterrors-param-title": "Включать только ошибки с указанной страницы",
+	"apihelp-query+linterrors-example-1": "Получить все ошибки из категории устаревших тегов",
+	"apihelp-query+linterstats-summary": "Получение числа ошибок в каждой категории",
+	"apihelp-query+linterstats-example-1": "Получить число ошибок в каждой категории"
+}

@@ -1,0 +1,23 @@
+{
+	"@metadata": {
+		"authors": [
+			"V.narsikar"
+		]
+	},
+	"apihelp-query+gadgetcategories-summary": "उपकरण वर्गाची यादीच्या स्वरुपात परतावा देते.",
+	"apihelp-query+gadgetcategories-param-prop": "कोणत्या उपकरण वर्गाची माहिती मिळवायची:\n;name:अंतर्गत वर्गाचे नाव.\n;title:वर्ग शीर्षक.\n;members:वर्गात असलेल्या उपकरणांची संख्या.",
+	"apihelp-query+gadgetcategories-param-names": "हुडकायच्या वर्गांची नावे.",
+	"apihelp-query+gadgetcategories-example-1": "अस्तित्वात असलेल्या उपकरण वर्गांची यादी प्राप्त करा",
+	"apihelp-query+gadgetcategories-example-2": "\"foo\" व \"bar\" या वर्गांबद्दलची संपूर्ण माहिती प्राप्त करा",
+	"apihelp-query+gadgets-summary": "या विकिवर असलेल्या सर्व उपकरणांच्या यादीचा परतावा देते.",
+	"apihelp-query+gadgets-param-prop": "कोणत्या उपकरणांची माहिती मिळवायची:\n;id:अंतर्गत उपकरण ओळखण.\n;metadata:त्या उपकरणाचा मेटाडाटा.\n;desc:HTML मध्ये रुपांतरीत उपकरणाचे वर्णन(हे हळु असण्याची शक्यता आहे,खरेच आवश्यक असेल तर वापरा).",
+	"apihelp-query+gadgets-param-categories": "उपकरणे कोणत्या वर्गांतुन हुडकायची.",
+	"apihelp-query+gadgets-param-ids": "हुडकायच्या उपकरणांच्या ओळखण्या (IDs)",
+	"apihelp-query+gadgets-param-allowedonly": "सध्याचा सदस्याला अनुमतीत असणाऱ्या उपकरणांची यादीच फक्त करा.",
+	"apihelp-query+gadgets-param-enabledonly": "सध्याचा सदस्याने सक्षम केलेल्या उपकरणांची यादीच फक्त करा.",
+	"apihelp-query+gadgets-example-1": "उपकरणांची यादी त्यांच्या वर्णनासह मिळवा",
+	"apihelp-query+gadgets-example-2": "सर्व शक्य असलेल्या गुणधर्मासह उपकरणांची यादी मिळवा",
+	"apihelp-query+gadgets-example-3": "\"foo\" वर्गात असलेल्या उपकरणांची यादी मिळवा",
+	"apihelp-query+gadgets-example-4": "\"foo\" व \"bar\" या उपकरणांबद्दल माहिती मिळवा",
+	"apihelp-query+gadgets-example-5": "सध्याचा सदस्याने सक्षम केलेल्या उपकरणांची यादी करा."
+}

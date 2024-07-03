@@ -1,0 +1,35 @@
+{
+	"@metadata": {
+		"authors": [
+			"Minisarm",
+			"NGC 54",
+			"Reception123"
+		]
+	},
+	"apierror-visualeditor-difffailed": "Diff eșuat",
+	"apihelp-visualeditor-param-basetimestamp": "Cand salvați, setați timestampul revisie care a fost editată. Folosit ca să detecteze conflicturi de editare.",
+	"apihelp-visualeditor-param-cachekey": "Pentru serializarea sau de a vedea diferențele, folosiți rezultatul anterior solicitării serializeforcache cu această cheie. Neglijează $1html.",
+	"apihelp-visualeditor-param-etag": "ETag de trimis.",
+	"apihelp-visualeditor-param-html": "HTML pentru a trimite în Parsoid pentru a converti în wiki-text.",
+	"apihelp-visualeditor-param-oldid": "Numărul versiunii de utilizat (implicit la cea mai recentă versiune).",
+	"apihelp-visualeditor-param-paction": "Acțiunea de efectuat.",
+	"apihelp-visualeditor-param-page": "Pagina asupra căreia să se efectueze acțiunile.",
+	"apihelp-visualeditor-param-pst": "Pre-salvați modificările Wiki-text înainte de a-l trimite în Parsoid (paction=parsefragment).",
+	"apihelp-visualeditor-param-starttimestamp": "Cand salvați, setați timestampul pentru revisia care a fost editată. Folosit ca să detecteze conflicturi de editare.",
+	"apihelp-visualeditor-param-wikitext": "Wikitext pentru a trimite în Parsoid și a converti în codul HTML (paction=parsefragment).",
+	"apihelp-visualeditoredit-param-basetimestamp": "Cand salvați, setați timestampul revisie care a fost editată. Folosit ca să detecteze conflicturi de editare.",
+	"apihelp-visualeditoredit-param-cachekey": "Pentru serializarea sau de a vedea diferențele, folosiți rezultatul anterior solicitării serializeforcache cu această cheie. Neglijează $1html.",
+	"apihelp-visualeditoredit-param-captchaid": "ID captcha (menținând în același timp cu răspunsul captcha).",
+	"apihelp-visualeditoredit-param-captchaword": "Răspunsul la captcha (cand se salvează răspuns captcha)",
+	"apihelp-visualeditoredit-param-etag": "ETag de trimis.",
+	"apihelp-visualeditoredit-param-html": "HTML pentru a trimite în Parsoid pentru a converti în wiki-text.",
+	"apihelp-visualeditoredit-param-minor": "Semnalizare pentru modificare minoră.",
+	"apihelp-visualeditoredit-param-needcheck": "Când salvați bifați această opțiune dacă versiune poate avea probleme suplimentare. Ca urmare a editat versiunea va fi marcată cu o etichetă.",
+	"apihelp-visualeditoredit-param-oldid": "Numărul versiunii de utilizat. Implicit la cea mai recentă versiune. Utilizați 0 pentru o pagină nouă.",
+	"apihelp-visualeditoredit-param-paction": "Acțiunea de efectuat.",
+	"apihelp-visualeditoredit-param-page": "Pagina asupra căreia să se efectueze acțiunile.",
+	"apihelp-visualeditoredit-param-sectiontitle": "Titlul pentru secțiunea nouă.",
+	"apihelp-visualeditoredit-param-starttimestamp": "Cand salvați, setați timestampul pentru revisia care a fost editată. Folosit ca să detecteze conflicturi de editare.",
+	"apihelp-visualeditoredit-param-summary": "Descrierea modificării.",
+	"apihelp-visualeditoredit-param-wikitext": "Wikitextul cu care să se acționeze."
+}

@@ -1,0 +1,20 @@
+{
+	"@metadata": {
+		"authors": [
+			"Hamilton Abreu"
+		]
+	},
+	"apihelp-query+extracts-summary": "Fornece extratos do conteúdo das páginas indicadas, em texto simples ou HTML limitado.",
+	"apihelp-query+extracts-param-chars": "Quantos caracteres devem ser devolvidos. O texto devolvido pode ser ligeiramente mais longo.",
+	"apihelp-query+extracts-param-sentences": "Quantas frases devem ser devolvidas.",
+	"apihelp-query+extracts-param-limit": "Quantos extratos devem ser devolvidos. (Se pode ser devolvido mais do que um extrato se 'exintro' tiver o valor \"true\", verdadeiro).",
+	"apihelp-query+extracts-param-intro": "Devolver só o conteúdo antes da primeira secção.",
+	"apihelp-query+extracts-param-plaintext": "Devolver extratos em texto simples em vez de HTML limitado.",
+	"apihelp-query+extracts-param-sectionformat": "Como formatar as secções no modo de texto simples:\n;plain:Sem formatação.\n;wiki:Formatação ao estilo de texto wiki (== assim ==)\n;raw:A representação interna deste módulo (títulos de secção com os prefixos &lt;ASCII 1&gt;&lt;ASCII 2&gt;&lt;nível de secção&gt;&lt;ASCII 2&gt;&lt;ASCII 1&gt;).",
+	"apihelp-query+extracts-example-1": "Obter um extrato de 175 caracteres",
+	"apiwarn-textextracts-limit": "<var>exlimit</var> era demasiado grande para um pedido de extrato de um artigo completo; reduzido para $1.",
+	"apiwarn-textextracts-unsupportedmodel": "$1 tem o modelo de conteúdo $2, que não é suportado; a devolver um extrato vazio.",
+	"apiwarn-textextracts-title-in-file-namespace": "Foi pedido um extrato para um título no espaço nominal Ficheiro, não foi devolvido nenhum.",
+	"apiwarn-textextracts-sentences-and-html": "O parâmetro <var>$1sentences</var> pode gerar resultados inesperados quando é usado em modo HTML.",
+	"apiwarn-textextracts-malformed-html": "O HTML pode estar incorreto ou desequilibrado (ter etiquetas abertas e não fechadas) e pode omitir imagens em linha. Use por sua conta e risco. Os problemas conhecidos são listados em https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:TextExtracts#Caveats."
+}

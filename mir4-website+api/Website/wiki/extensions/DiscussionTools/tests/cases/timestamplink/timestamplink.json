@@ -1,0 +1,43 @@
+[
+	{
+		"placeholderHeading": false,
+		"type": "heading",
+		"range": [
+			"1/3/2/0",
+			"1/3/2/3"
+		],
+		"headingLevel": 2,
+		"level": 0,
+		"name": "h-Alice-20240130095300",
+		"id": "h-Hello-20240130095300",
+		"warnings": [],
+		"replies": [
+			{
+				"type": "comment",
+				"timestamp": "20240130095300",
+				"author": "Alice",
+				"range": [
+					"3/2",
+					"3/12/0"
+				],
+				"signatureRanges": [
+					[
+						"3/3",
+						"3/8"
+					]
+				],
+				"timestampRanges": [
+					[
+						"3/7/0/0",
+						"3/7/0/28"
+					]
+				],
+				"level": 1,
+				"name": "c-Alice-20240130095300",
+				"id": "c-Alice-20240130095300-Hello",
+				"warnings": [],
+				"replies": []
+			}
+		]
+	}
+]

@@ -1,0 +1,41 @@
+@import '../variables.less';
+
+@media screen {
+	@media ( min-width: @desktop-small-floor ) {
+		.ve-init-mw-desktopArticleTarget-toolbar {
+			margin: -1.125em -@content-padding 0;
+		}
+
+		.ve-ui-toolbar-floating > .oo-ui-toolbar-bar {
+			top: @fixed-header-height + @color-height;
+		}
+
+		// Make the gutter area clickable (T162838)
+		.ve-init-mw-desktopArticleTarget .ve-init-mw-target-surface {
+			margin-left: -@content-padding;
+			margin-right: -@content-padding;
+		}
+
+		.ve-init-mw-desktopArticleTarget .ve-init-mw-target-surface .ve-ce-documentNode,
+		.ve-init-mw-desktopArticleTarget .ve-init-mw-target-surface .ve-ui-surface-placeholder {
+			padding-left: @content-padding;
+			padding-right: @content-padding;
+		}
+	}
+
+	@media ( min-width: @desktop-small-floor ) and ( max-width: @desktop-small-width ) {
+		.ve-init-mw-desktopArticleTarget-toolbar {
+			margin-top: -0.285em;
+		}
+	}
+
+	@media ( max-width: @mobile-width ) {
+		.ve-init-mw-desktopArticleTarget-toolbar {
+			margin: -0.125em -0.45em 0;
+		}
+
+		.ve-ui-toolbar-floating > .oo-ui-toolbar-bar {
+			top: 0;
+		}
+	}
+}

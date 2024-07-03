@@ -1,0 +1,31 @@
+{
+	"@metadata": {
+		"authors": [
+			"Robby",
+			"Volvox"
+		]
+	},
+	"oathauth-account": "Numm vum Kont:",
+	"oathauth-enable": "Authentifikatioun mat zwee Elementer aschalten",
+	"oathauth-disable": "Authentifikatioun mat zwee Elementer ausschalten",
+	"oathauth-disabledoath": "Authentifikatioun mat zwee Elementer ausgeschalt",
+	"oathauth-prefs-label": "Authentifikatioun mat zwee Elementer:",
+	"oathauth-step1": "Schrëtt 1: Den Zwee-Facteur-Authentifikatiounsprogramm eroflueden",
+	"oathauth-step2": "Schrëtt 2: De QR-Code scannen",
+	"oathauth-step2alt": "Wann Dir de QR-Code net scanne kënnt, gitt de geheime Schlëssel an den Numm vum Kont manuell an:",
+	"oathauth-step4": "Schrëtt 4: Verificatioun",
+	"oathauth-enteruser": "Benotzernumm:",
+	"oathauth-enterverifyreason": "Grond fir Nozekucken",
+	"grant-group-authentication": "Authentifikatiouns-Aktioune fir sech selwer a fir Anerer maachen",
+	"action-oathauth-api-all": "OATH-Status nokucken",
+	"oathauth-ui-no-module": "Net aktivéiert",
+	"oathauth-enable-generic": "Aschalten",
+	"oathauth-disable-generic": "Ausschalten",
+	"oathauth-invalidrequest": "Net-valabel Ufro",
+	"notification-header-oathauth-disable": "Zwee-Facteur-Authentifikatioun gouf fir {{GENDER:$2|Äre Benotzerkont}} desaktivéiert.",
+	"notification-body-oathauth-disable-other": "Wann {{GENDER:$2|Dir}} dëst net gefrot hutt, da sollt {{GENDER:$2|Dir}} en Administrateur kontaktéieren.",
+	"oathauth-notifications-disable-help": "Hëllef",
+	"oathauth-notifications-enable-help": "Hëllef",
+	"oathauth-prefs-disabledgroups": "{{PLURAL:$1|Desaktivéierte Grupp|Desaktivéiert Gruppen}}",
+	"oathauth-qrcode-alt": "QR-Code fir ze scannen, deen de geheime Schlëssel representéiert."
+}

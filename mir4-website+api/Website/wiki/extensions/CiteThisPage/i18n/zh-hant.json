@@ -1,0 +1,24 @@
+{
+	"@metadata": {
+		"authors": [
+			"A2093064",
+			"Cwlin0416",
+			"Frankou",
+			"Kly",
+			"LNDDYL",
+			"Liuxinyu970226",
+			"Waihorace",
+			"Wbxshiori",
+			"Winston Sung",
+			"Xiplus"
+		]
+	},
+	"citethispage": "引用此頁面",
+	"citethispage-desc": "加入[[Special:CiteThisPage|引用]]特殊頁面及工具欄連結",
+	"citethispage-link": "引用此頁面",
+	"tooltip-citethispage": "關於如何引用此頁的資訊",
+	"citethispage-change-submit": "引用",
+	"citethispage-change-target": "頁面：",
+	"citethispage-badrevision": "錯誤：找不到頁面“$1”中任何修訂ID為$2的修訂版本。",
+	"citethispage-content": "__NOTOC__\n<div class=\"mw-specialCiteThisPage-bibliographic\">\n\n== {{FULLPAGENAME}}的文獻詳細資訊 ==\n\n* 頁面名稱：{{FULLPAGENAME}}\n* 作者：{{SITENAME}}編者\n* 出版者：{{SITENAME}}\n* 最新版本日期：{{CURRENTYEAR}}年{{CURRENTMONTH}}月{{CURRENTDAY}}日{{CURRENTTIME}}（協調世界時）\n* 查閲日期：<citation>{{CURRENTYEAR}}年{{CURRENTMONTH}}月{{CURRENTDAY}}日{{CURRENTTIME}}（協調世界時）</citation>\n* 永久連結：{{canonicalurl:{{FULLPAGENAME}}|oldid={{REVISIONID}}}}\n* 頁面版本號：{{REVISIONID}}\n\n</div>\n<div class=\"plainlinks mw-specialCiteThisPage-styles\">\n\n== {{FULLPAGENAME}}的參考文獻格式 ==\n\n=== [[APA style|APA格式]] ===\n{{FULLPAGENAME}}．（{{CURRENTYEAR}}年{{CURRENTMONTH}}月{{CURRENTDAY}}日）．''{{SITENAME}}''．於<citation>{{CURRENTYEAR}}年{{CURRENTMONTH}}月{{CURRENTDAY}}日{{CURRENTTIME}}</citation>查閲自{{canonicalurl:{{FULLPAGENAME}}|oldid={{REVISIONID}}}}．\n\n=== [[The MLA style manual|MLA格式]] ===\n「{{FULLPAGENAME}}」．''{{SITENAME}}''．{{CURRENTYEAR}}年{{CURRENTMONTH}}月{{CURRENTDAY}}日{{CURRENTTIME}}（協調世界時）．<citation>{{CURRENTYEAR}}年{{CURRENTMONTH}}月{{CURRENTDAY}}日{{CURRENTTIME}}</citation> &lt;{{canonicalurl:{{FULLPAGENAME}}|oldid={{REVISIONID}}}}&gt;．\n\n=== [[MHRA Style Guide|MHRA格式]] ===\n{{SITENAME}}編者，『{{FULLPAGENAME}}』，''{{SITENAME}}''，{{CURRENTYEAR}}年{{CURRENTMONTH}}月{{CURRENTDAY}}日{{CURRENTTIME}}（協調世界時），&lt;{{canonicalurl:{{FULLPAGENAME}}|oldid={{REVISIONID}}}}&gt;［於<citation>{{CURRENTYEAR}}年{{CURRENTMONTH}}月{{CURRENTDAY}}日</citation>查閲］\n\n=== [[The Chicago Manual of Style|芝加哥格式]] ===\n{{SITENAME}}編者，「{{FULLPAGENAME}}」，''{{SITENAME}}''，{{canonicalurl:{{FULLPAGENAME}}|oldid={{REVISIONID}}}}（於<citation>{{CURRENTYEAR}}年{{CURRENTMONTH}}月{{CURRENTDAY}}日</citation>查閲）．\n\n=== [[Council of Science Editors|CBE/CSE格式]] ===\n{{SITENAME}}編者．{{FULLPAGENAME}}［網際網絡］．{{SITENAME}}；{{CURRENTYEAR}}年{{CURRENTMONTH}}月{{CURRENTDAY}}日{{CURRENTTIME}}（協調世界時）［引用於<citation>{{CURRENTYEAR}}年{{CURRENTMONTH}}月{{CURRENTDAY}}日</citation>］．可訪問自：\n{{canonicalurl:{{FULLPAGENAME}}|oldid={{REVISIONID}}}}．\n\n=== [[Bluebook|Bluebook格式]] ===\n{{FULLPAGENAME}}，{{canonicalurl:{{FULLPAGENAME}}|oldid={{REVISIONID}}}}（最新訪問於<citation>{{CURRENTYEAR}}年{{CURRENTMONTH}}月{{CURRENTDAY}}日</citation>）．\n\n=== [[BibTeX|BibTeX記錄]] ===\n\n  @misc{ wiki:xxx,\n    author = \"{{SITENAME}}\",\n    title = \"{{FULLPAGENAME}} --- {{SITENAME}}{,} {{int:sitesubtitle}}\",\n    year = \"{{CURRENTYEAR}}\",\n    url = \"{{canonicalurl:{{FULLPAGENAME}}|oldid={{REVISIONID}}}}\",\n    note = \"[線上資源；訪問於<citation>{{CURRENTYEAR}}年{{CURRENTMONTH}}月{{CURRENTDAY}}日</citation>]\"\n  }\n\n使用[[LaTeX|LaTeX]]包裝的連結（開頭某處的<code>\\usepackage{url}</code>）將提供更好的網址格式，推薦選用下列格式：\n  @misc{ wiki:xxx,\n    author = \"{{SITENAME}}\",\n    title = \"{{FULLPAGENAME}} --- {{SITENAME}}{,} {{int:sitesubtitle}}\",\n    year = \"{{CURRENTYEAR}}\",\n    url = \"'''\\url{'''{{canonicalurl:{{FULLPAGENAME}}|oldid={{REVISIONID}}}}'''}'''\",\n    note = \"[線上資源；訪問於<citation>{{CURRENTYEAR}}年{{CURRENTMONTH}}月{{CURRENTDAY}}日</citation>]\"\n  }\n\n\n</div> <!--closing div for \"plainlinks\"-->"
+}

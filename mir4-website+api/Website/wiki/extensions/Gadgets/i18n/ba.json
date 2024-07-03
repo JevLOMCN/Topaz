@@ -1,0 +1,35 @@
+{
+	"@metadata": {
+		"authors": [
+			"З. ӘЙЛЕ",
+			"Лилиә",
+			"Ләйсән",
+			"Рустам Нурыев",
+			"Янмурза Баки",
+			"ҒатаУлла"
+		]
+	},
+	"gadgets-desc": "Ҡатнашыусыларға үҙҙәренең [[Special:Preferences#mw-prefsection-gadgets|көйләүҙәрендә ]]теге йәки был [[Special:Gadgets|CSS һәм JavaScript гаджетты]]һайларға мөмкинлек бирә.",
+	"prefs-gadgets": "Гаджеттар",
+	"special-gadgets": "Гаджеттар",
+	"gadgetusage": "Гаджеттар ҡулланыу статистикаһы",
+	"gadgetusage-gadget": "Гаджет",
+	"gadgetusage-usercount": "Ҡатнашыусылар һаны",
+	"gadgetusage-noresults": "Бер ниндәй ҙә гаджет табылманы.",
+	"gadgetusage-intro": "Был таблица викиҙың һәр бер гаджетын әүҙемләштергән кешеләр һанын күрһәтә. Әүҙем ҡатнашыусы булып {{PLURAL:$1|һуңғы $1 көн}} эсендә мөхәррирләгән кеше һанала. Программа көйләүе буйынса ҡуйылған гаджеттар был исемлектең иҫәбенә инмәй, ә эшләмәгәндәрен эсенә индереүе мөмкин.",
+	"gadgetusage-activeusers": "Әүҙем ҡатнашыусылар",
+	"gadgetusage-default": "Программа көйләгәнсә",
+	"gadgets-title": "Гаджеттар",
+	"gadgets-pagetext": "Түбәндә[[MediaWiki:Gadgets-definition|билдәләмә]] битендәге исемлеккә ярашлы, ҡатнашыусылар [[Special:Preferences#mw-prefsection-gadgets|бит көйләүҙәренә]] ҡабыҙа алған гаджеттарҙың исемлеге килтерелгән. \nУл гаджеттарҙың сығанаҡ кодтарын һәм тасуирламаһын билдәләгән система хәбәрҙәренең битенә еңел инеү мөмкинлеге бирә.",
+	"gadgets-uses": "Ҡулланыла",
+	"gadgets-required-rights": "Түбәндәге {{PLURAL:$2|1=хоҡуҡ|хоҡуҡтар}} талап ителә:\n\n$1",
+	"gadgets-required-skins": "{{PLURAL:$2|1=«$1» биҙәлеш темаһы|түбәндәге биҙәлеш темалары: $1}} өсөн рөхсәт ителә.",
+	"gadgets-default": "Барыһы өсөн дә программа көйләүе буйынса ҡабыҙылған.",
+	"gadgets-legacy": "Гаджет йөкләнмәгән. ResourceLoader-ға күсегеҙ. ([https\n://www.mediawiki.org/wiki/Special:MyLanguage/ResourceLoader/Migration_guide_(users) Тулыраҡ мәғлүмәт])",
+	"gadgets-export": "Сығарырға",
+	"gadgets-export-title": "Гаджетты сығарыу",
+	"gadgets-not-found": "\"$1\" гаджеты табылманы.",
+	"gadgets-export-download": "Йөкләргә",
+	"gadgets-validate-notset": "<code>$1</code> үҙенсәнлеге билдәләнмәгән.",
+	"gadgets-validate-wrongtype": "Үҙенсәнлек <code>$1</code> <code>$3</code> төрө урынына <code>$2</code> төрөнә эйә булырға тейеш."
+}

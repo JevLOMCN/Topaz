@@ -1,0 +1,37 @@
+{
+	"@metadata": {
+		"authors": [
+			"Minh Nguyen",
+			"NguoiDungKhongDinhDanh",
+			"Vinhtantran"
+		]
+	},
+	"categorytree": "Cây thể loại",
+	"categorytree-portlet": "Thể loại",
+	"categorytree-legend": "Hiển thị cây thể loại",
+	"categorytree-desc": "Công cụ AJAX để hiển thị [[Special:CategoryTree|cấu trúc thể loại]] của một wiki",
+	"categorytree-header": "Gõ vào tên thể loại để xem nội dung của nó theo cấu trúc cây. (Yêu cầu JavaScript.)",
+	"categorytree-category": "Thể loại:",
+	"categorytree-go": "Hiển thị",
+	"categorytree-parents": "Các thể loại mẹ",
+	"categorytree-mode-label": "Chế độ:",
+	"categorytree-mode-categories": "chỉ liệt kê thể loại",
+	"categorytree-mode-pages": "không liệt kê tập tin",
+	"categorytree-mode-all": "liệt kê mọi trang",
+	"categorytree-collapse": "đóng",
+	"categorytree-expand": "mở",
+	"categorytree-member-counts": "Có $1 thể loại con, $2 trang, và $3 tập tin",
+	"categorytree-num-categories": "$1 t.l.",
+	"categorytree-num-pages": "$1 tr.",
+	"categorytree-num-files": "$1 t.t.",
+	"categorytree-num-empty": "trống",
+	"categorytree-load": "tải",
+	"categorytree-loading": "đang tải…",
+	"categorytree-nothing-found": "Không có gì.",
+	"categorytree-no-subcategories": "Không có thể loại con",
+	"categorytree-no-parent-categories": "không nằm trong thể loại nào",
+	"categorytree-no-pages": "Không có trang hay thể loại con",
+	"categorytree-not-found": "Không tìm thấy thể loại <i>$1</i>",
+	"categorytree-error": "Có vấn đề khi tải dữ liệu.",
+	"categorytree-retry": "Xin hãy chờ một chút rồi thử lại."
+}

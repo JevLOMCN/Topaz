@@ -1,0 +1,33 @@
+{
+	"name": "MathCaptcha",
+	"author": [
+		"..."
+	],
+	"requires": {
+		"extensions": {
+			"Math": "*"
+		}
+	},
+	"url": "https://www.mediawiki.org/wiki/Extension:ConfirmEdit#MathCaptcha",
+	"descriptionmsg": "mathcaptcha-desc",
+	"license-name": "GPL-2.0-or-later",
+	"type": "antispam",
+	"MessagesDirs": {
+		"MathCaptcha": [
+			"i18n"
+		]
+	},
+	"AutoloadClasses": {
+		"MathCaptcha": "includes/MathCaptcha.php",
+		"MediaWiki\\Extension\\ConfirmEdit\\MathCaptcha\\MathCaptcha": "includes/MathCaptcha.php"
+	},
+	"AutoloadNamespaces": {
+		"MediaWiki\\Extension\\ConfirmEdit\\MathCaptcha\\": "includes/"
+	},
+	"config": {
+		"CaptchaClass": {
+			"value": "MediaWiki\\Extension\\ConfirmEdit\\MathCaptcha\\MathCaptcha"
+		}
+	},
+	"manifest_version": 2
+}

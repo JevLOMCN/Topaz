@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Joetaras"
+		]
+	},
+	"apihelp-titleblacklist-summary": "Valide 'n u titole d'a pàgene, nome d'u file, o nome utende sus 'a TitleBlackList.",
+	"apihelp-titleblacklist-param-title": "'A stringhe da validà sus 'a lista gnore.",
+	"apihelp-titleblacklist-param-action": "L'azione ha state verificate.",
+	"apihelp-titleblacklist-param-nooverride": "No pruvà a sovrascrivere l'elenghe de le titole da scettà.",
+	"apihelp-titleblacklist-example-1": "Condrolle ce [[Foo]] jè da scettà",
+	"apihelp-titleblacklist-example-2": "Condrolle ce [[Bar]] jè da scettà pu cangiamende",
+	"apihelp-createaccount-param-ignoretitleblacklist": "No sce penzanne a le condrolle de spoof (vole une de le deritte seguende: <code>tboverride</code>, <code>tboverride-account</code>)."
+}

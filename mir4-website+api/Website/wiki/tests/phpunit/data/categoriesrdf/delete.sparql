@@ -1,0 +1,9 @@
+# Deletes
+DELETE {
+?category ?x ?y
+} WHERE {
+   ?category ?x ?y
+   VALUES ?category {
+     <http://acme.test/wiki/Category:Test> <http://acme.test/wiki/Category:Test_2>
+   }
+};

@@ -1,0 +1,39 @@
+{
+	"@metadata": {
+		"authors": [
+			"Mainframe98",
+			"McDutchie",
+			"SPQRobin",
+			"Siebrand",
+			"Sjoerddebruin"
+		]
+	},
+	"captcha-edit": "U wilt deze pagina bewerken.\nVoer het antwoord op de onderstaande eenvoudige som in het invoervenster in ([[Special:Captcha/help|meer informatie]]):",
+	"captcha-edit-fail": "Onjuiste of ontbrekende CAPTCHA.",
+	"captcha-desc": "Biedt CAPTCHA-technieken om bescherming te bieden tegen spam en het raden van wachtwoorden",
+	"captcha-help": "Oplossing van de CAPTCHA.",
+	"captcha-info-help": "Beschrijving van de CAPTCHA.",
+	"captcha-id-label": "CAPTCHA-ID",
+	"captcha-id-help": "Deze waarde moet ongewijzigd worden teruggestuurd.",
+	"captcha-addurl": "Uw bewerking bevat nieuwe externe koppelingen (URL's).\nVoer ter bescherming tegen geautomatiseerde spam het antwoord op de onderstaande opdracht in in het invoerveld om uw bewerking op te slaan ([[Special:Captcha/help|meer informatie]]):",
+	"captcha-badlogin": "Los de onderstaande opdracht op en voer het antwoord in het invoervenster in ter bescherming tegen het automatisch kraken van wachtwoorden ([[Special:Captcha/help|meer informatie]]):",
+	"captcha-createaccount": "Voer ter bescherming tegen het geautomatiseerd gebruikers aanmaken, het antwoord op de onderstaande opdracht in, in het invoervenster ([[Special:Captcha/help|meer informatie]]):",
+	"captcha-createaccount-fail": "De CAPTCHA ontbreekt of is onjuist.",
+	"captcha-create": "U wilt een nieuwe pagina aanmaken.\nVoer het antwoord op de onderstaande opdracht in het invoervenster in ([[Special:Captcha/help|meer informatie]]):",
+	"captcha-sendemail": "Voer ter bescherming tegen geautomatiseerde spam het antwoord op de onderstaande opdracht in het invoervenster in ([[Special:Captcha/help|meer informatie]]):",
+	"captcha-sendemail-fail": "De CAPTCHA ontbreekt of is onjuist.",
+	"captcha-disabledinapi": "Voor deze handeling is een captcha nodig die niet afgehandeld kan worden via de API.",
+	"captcha-error": "CAPTCHA-verificatie is mislukt vanwege een interne fout: $1",
+	"captchahelp-title": "Captcha-hulppagina",
+	"captchahelp-cookies-needed": "U dient in uw browser cookies ingeschakeld te hebben om dit te laten werken.",
+	"captchahelp-text": "Websites die vrij te bewerken zijn, zoals deze wiki, worden vaak misbruikt door spammers die er met hun programma's automatisch verwijzigen op zetten naar vele websites.\nHoewel deze externe koppelingen weer verwijderd kunnen worden, leveren ze wel veel hinder en administratief werk op.\n\nSoms, en in het bijzonder bij het toevoegen van externe koppelingen op pagina's, ziet u een afbeelding met gekleurde of vervormde tekst en wordt u gevraagd de weergegeven tekst in te voeren.\nOmdat dit proces lastig te automatiseren is, zijn vrijwel alleen mensen in staat dit proces succesvol te doorlopen en worden hiermee spammers en andere geautomatiseerde aanvallen geweerd.\n\nHelaas levert deze bevestiging voor gebruikers met een visuele handicap of een tekst- of spraakgebaseerde browser problemen op.\nOp het moment is er geen alternatief met geluid beschikbaar.\nVraag assistentie van de [[Special:ListAdmins|sitebeheerders]] als dit proces u verhindert een nuttige bijdrage te leveren.\n\nKlik op de knop 'terug' in uw browser om terug te gaan naar het tekstbewerkingsscherm.",
+	"captcha-addurl-whitelist": " #<!-- laat deze regel zoals hij is --> <pre>\n# De syntaxis is als volgt:\n#   * Alle tekst vanaf het teken \"#\" tot het einde van de regels wordt gezien als opmerking\n#   * Iedere niet-lege regel is een fragment van een reguliere expressie die alleen van toepassing is op hosts binnen URL's\n #</pre> <!-- laat deze regel zoals hij is -->",
+	"right-skipcaptcha": "Handelingen die een CAPTCHA vereisen uitvoeren zonder de CAPTCHA te hoeven doorlopen",
+	"action-skipcaptcha": "handelingen die een CAPTCHA vereisen uit te voeren zonder de CAPTCHA te hoeven doorlopen",
+	"confirmedit-preview-line": "Regelnummer",
+	"confirmedit-preview-content": "Inhoud",
+	"confirmedit-preview-validity": "Geldigheid",
+	"confirmedit-preview-valid": "geldig",
+	"confirmedit-preview-invalid": "ongeldig",
+	"confirmedit-preview-description": "In de volgende tabel staat de lijst met regels op deze pagina en of het een geldig IP-adres of -bereik is. Als een regel dat is, wordt deze uitgesloten van CAPTCHA-controles, maar ongeldige regels worden genegeerd. Een voorbeeld van een geldig IP-adresbereik is: 69.208.0.0/16, wat loopt van 69.208.0.0 tot 69.208.255.255. [https://www.mediawiki.org/wiki/Special:MyLanguage/Help:Range_blocks#Calculated_the_CIDR_suffix Meer informatie] over het berekenen van een IP-adresbereik."
+}

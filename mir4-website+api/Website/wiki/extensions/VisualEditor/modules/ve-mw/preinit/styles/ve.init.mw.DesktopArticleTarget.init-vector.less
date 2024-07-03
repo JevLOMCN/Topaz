@@ -1,0 +1,30 @@
+/*!
+ * VisualEditor MediaWiki DesktopArticleTarget Vector skin init styles.
+ *
+ * @copyright See AUTHORS.txt
+ * @license The MIT License (MIT); see LICENSE.txt
+ */
+
+.ve-init-mw-desktopArticleTarget-toolbar,
+.ve-init-mw-desktopArticleTarget-toolbarPlaceholder {
+	font-size: 0.875em;
+	/* 1/0.875 */
+	margin: -1.14em -1.14em 1.14em -1.14em;
+
+	/* High-definition-specific styles (because Vector adds 1em to the leftNav if width is 982px+ */
+	@media screen and ( min-width: 982px ) {
+		/* 1.25/0.875, 1.5/0.875 */
+		margin: -1.43em -1.71em 1.43em -1.71em;
+	}
+}
+
+.ve-init-mw-desktopArticleTarget-toolbarPlaceholder-floating {
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+// Fill in gap in toolbar's top border
+/* stylelint-disable-next-line selector-class-pattern */
+.ve-activated .vector-menu-tabs .selected {
+	box-shadow: inset 0 -1px 0 #e1f1fc;
+}

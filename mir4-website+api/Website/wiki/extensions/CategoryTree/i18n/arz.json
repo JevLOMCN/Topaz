@@ -1,0 +1,35 @@
+{
+	"@metadata": {
+		"authors": [
+			"Ghaly",
+			"Meno25",
+			"Ramsis II"
+		]
+	},
+	"categorytree": "شجرة تصنيف",
+	"categorytree-portlet": "تصنيفات",
+	"categorytree-legend": "عرض شجرة التصنيف",
+	"categorytree-desc": "ابحار بديناميكية فى  [[Special:CategoryTree|هيكل التصنيف]]",
+	"categorytree-header": "دخل اسم التصنيف علشان تشوف المحتويات بتاعته على هيئة شجرة.\nلاحظ ان دا بيعوز خاصية جافاسكريبت متقدمة اسمها اجاكس.\nلو البراوز بتاعك قديم جدا،او الجافاسكريبت عندك متعطلة،دا مش ح يشتغل.",
+	"categorytree-category": "تصنيف:",
+	"categorytree-go": "عرض الشجره",
+	"categorytree-parents": "متصنف تحت",
+	"categorytree-mode-categories": "تصانيف بس",
+	"categorytree-mode-pages": "الصفحات من غير الملفات",
+	"categorytree-mode-all": "كل الصفحات",
+	"categorytree-collapse": "اضغط",
+	"categorytree-expand": "اتوسع",
+	"categorytree-member-counts": "فيه {{PLURAL:$1|1 تصنيف فرعي|$1 تصنيف فرعي}}، {{PLURAL:$2|1 صفحة|$2 صفحة}}، و {{PLURAL:$3|1 ملف|$3 ملف}}",
+	"categorytree-num-categories": "$1 ت",
+	"categorytree-num-pages": " $1 ص",
+	"categorytree-num-files": " $1 م",
+	"categorytree-load": "تحميل",
+	"categorytree-loading": "بيحمل",
+	"categorytree-nothing-found": "مالقيناش حاجة",
+	"categorytree-no-subcategories": "مافيش تصنيفات فرعية",
+	"categorytree-no-parent-categories": "مافيش تصانيف أصلية",
+	"categorytree-no-pages": "مافيش ولا فى صفحات ولا تصانيف فرعية",
+	"categorytree-not-found": "التصنيف <i>$1</i> مش متلاقي",
+	"categorytree-error": "مشكلة فى تحميل البيانات.",
+	"categorytree-retry": "لو سمحت تستنا لحظة و بعدين حاول تاني"
+}

@@ -1,0 +1,29 @@
+{
+	"@metadata": {
+		"authors": [
+			"David Lynch",
+			"Ed Sanders"
+		]
+	},
+	"editcheck-config.json": "null",
+	"editcheck-dialog-action-no": "No",
+	"editcheck-dialog-action-yes": "Yes",
+	"editcheck-dialog-addref-description": "Help readers understand where this information is coming from by adding a citation.",
+	"editcheck-dialog-addref-reject-question": "Why are you not adding a citation?",
+	"editcheck-dialog-addref-reject-description": "Other editors would value learning more about your decision to dismiss the citation.",
+	"editcheck-dialog-addref-reject-irrelevant": "I don't think citations are relevant to the change I'm making",
+	"editcheck-dialog-addref-reject-common-knowledge": "The information I'm adding is widely known",
+	"editcheck-dialog-addref-reject-uncertain": "I'm not sure what citation to add",
+	"editcheck-dialog-addref-reject-other": "Other",
+	"editcheck-dialog-addref-success-notify": "Thank you for adding a citation!",
+	"editcheck-dialog-addref-title": "Add a citation",
+	"editcheck-dialog-title": "Before publishing",
+	"tag-editcheck-reference-decline-common-knowledge": "Edit Check (references) declined (common knowledge)",
+	"tag-editcheck-reference-decline-common-knowledge-description": "EditCheck reference was declined as common knowledge",
+	"tag-editcheck-reference-decline-irrelevant": "Edit Check (references) declined (irrelevant)",
+	"tag-editcheck-reference-decline-irrelevant-description": "EditCheck reference was declined as irrelevant",
+	"tag-editcheck-reference-decline-other": "Edit Check (references) declined (other)",
+	"tag-editcheck-reference-decline-other-description": "EditCheck reference was declined for an unlisted reason",
+	"tag-editcheck-reference-decline-uncertain": "Edit Check (references) declined (uncertain)",
+	"tag-editcheck-reference-decline-uncertain-description": "EditCheck reference was declined as being uncertain"
+}

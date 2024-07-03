@@ -1,0 +1,8 @@
+{
+	"Comment on its own line post-expand": {
+		"wt2html": "<p data-parsoid='{\"dsr\":[0,20,0,0]}'>a\n<span about=\"#mwt1\" typeof=\"mw:Transclusion\" data-parsoid='{\"dsr\":[2,11,null,null],\"pi\":[[]]}' data-mw='{\"parts\":[{\"template\":{\"target\":{\"wt\":\"blank\",\"href\":\"./Template:Blank\"},\"params\":{},\"i\":0}}]}'></span><!---->\nb</p>"
+	},
+	"Comment on its own line post-expand with non-significant whitespace": {
+		"wt2html": "<p data-parsoid='{\"dsr\":[0,23,0,0]}'>a\n <span about=\"#mwt1\" typeof=\"mw:Transclusion\" data-parsoid='{\"dsr\":[3,12,null,null],\"pi\":[[]]}' data-mw='{\"parts\":[{\"template\":{\"target\":{\"wt\":\"blank\",\"href\":\"./Template:Blank\"},\"params\":{},\"i\":0}}]}'></span> <!----> \nb</p>"
+	}
+}

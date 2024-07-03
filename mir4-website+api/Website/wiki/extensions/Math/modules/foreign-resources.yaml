@@ -1,0 +1,12 @@
+mathjax:
+  license: Apache-2.0
+  homepage: http://www.mathjax.org
+  authors: MathJax Consortium
+  version: 3.2.2
+  type: tar
+  src: https://registry.npmjs.org/mathjax/-/mathjax-3.2.2.tgz
+  integrity: sha512-Bt+SSVU8eBG27zChVewOicYs7Xsdt40qm4+UpHyX7k0/O9NliPc+x77k1/FEsPsjKPZGJvtRZM1vO+geW0OhGw==
+  dest:
+    package/LICENSE: .
+    package/README.md: .
+    package/es5/**: es5/

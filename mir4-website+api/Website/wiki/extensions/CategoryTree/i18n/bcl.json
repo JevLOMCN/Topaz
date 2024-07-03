@@ -1,0 +1,38 @@
+{
+	"@metadata": {
+		"authors": [
+			"Brazal.dang",
+			"Filipinayzd",
+			"Geopoet",
+			"ShimunUfesoj"
+		]
+	},
+	"categorytree": "Kahoy nin Kategoriya",
+	"categorytree-portlet": "Mga Kategoriya",
+	"categorytree-legend": "Ipatanaw an kahoy nin kategoriya",
+	"categorytree-desc": "Dinamikong dumanan an [[Special:CategoryTree|estruktura nin kategoriya]]",
+	"categorytree-header": "Ikaag an sarong pangaran nin kategoriya tanganing mahiling an kalamnan kaini bilang sarong estruktura nin kahoy. (Kaipuhan JavaScript).",
+	"categorytree-category": "Kategoriya",
+	"categorytree-go": "Ipatanaw an kahoy",
+	"categorytree-parents": "Kamagurangan",
+	"categorytree-mode-label": "Moda:",
+	"categorytree-mode-categories": "mga kategoriya sana",
+	"categorytree-mode-pages": "mga pahina laen lang sa mga sagunson",
+	"categorytree-mode-all": "gabos na mga pahina",
+	"categorytree-collapse": "komyuson",
+	"categorytree-expand": "Pahiwason",
+	"categorytree-member-counts": "Minalaog nin {{PLURAL:$1|1 subkategoriya|$1 mga subkategoriya}},{{PLURAL:$2|1 pahina|$2 mga pahina}}, asin {{PLURAL:$3|1 sagunson|$3 mga sagunson}}",
+	"categorytree-num-categories": "$1 C",
+	"categorytree-num-pages": "$1 P",
+	"categorytree-num-files": "$1 F",
+	"categorytree-num-empty": "bokya",
+	"categorytree-load": "ikarga",
+	"categorytree-loading": "pigkakarga",
+	"categorytree-nothing-found": "mayong nanumpungan",
+	"categorytree-no-subcategories": "mayong mga sub-kategorya",
+	"categorytree-no-parent-categories": "mayong ginikanang mga kategoriya",
+	"categorytree-no-pages": "mayong mga pahina o sub-kategorya",
+	"categorytree-not-found": "Kategoriya <i>$1</i> dae nanagboan",
+	"categorytree-error": "Problema sa pagkakarga nin datos.",
+	"categorytree-retry": "Pakihalat ngûna tapos probaran giraray."
+}

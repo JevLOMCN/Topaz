@@ -1,0 +1,22 @@
+{
+	"@metadata": {
+		"authors": [
+			"Michawiki"
+		]
+	},
+	"captcha-edit": "Aby wobźěłował toś ten bok, rozwěž pšosym slědujucy jadnory liceński nadawk a zapódaj wuslědk do kašćika ([[Special:Captcha/help|Dalšne info]]):",
+	"captcha-desc": "Staja techniki CAPTCHA za šćit pśeśiwo spamoju a wugódanjoju gronidłow k dispoziciji",
+	"captcha-addurl": "Twója změna wopśimujo nowe eksterne wótkaze.\nZa šćit pśeśiwo zawtomatizěrowanemu spamoju, pšosymy śi slědujucy jadnory liceński nadawk rozwězaś a zapódaj wuslědk do kašćika, aby swóju změnu składował ([[Special:Captcha/help|dalšne info]]):",
+	"captcha-badlogin": "Aby wiki pśeśiwo zawtomatizěrowanemu wuzgónjowanjeju gronidła šćitał, pšosymy śi slědujucy jadnory liceński nadawk rozwězaś a zapódaj wuslědk do kašćika ([[Special:Captcha/help|dalšne info]]):",
+	"captcha-createaccount": "Aby wiki pśeśiwo zawtomatizěrowanemu załoženjeju kontow šćitał, pšosymy śi slědujucy jadnory liceński nadawk rozwězaś a zapódaj wuslědk do kašćika ([[Special:Captcha/help|dalšne info]]):",
+	"captcha-createaccount-fail": "Wopacny abo felujucy wobkšuśeński kod CAPTCHA.",
+	"captcha-create": "Aby napórał bok, rozwěž pšosym slědujucy jadnory liceński nadawk a zapódaj wuslědk do kašćika ([[Special:Captcha/help|dalšne info]]):",
+	"captcha-sendemail": "Aby wiki pśeśiwo awtomatiskemu spamowanjeju šćitał, pšosymy śi jadnory liceński nadawk rozwězaś a zapódaj wótegrono do kašćika ([[Special:Captcha/help|dalšne informacije]]):",
+	"captcha-sendemail-fail": "Wopacny abo felujucy wobkšuśeński kod CAPTCHA.",
+	"captcha-disabledinapi": "Toś ta akcija pomina se captcha, togodla njedajo se pśez API wuwjasć.",
+	"captchahelp-title": "Pomoc wó captcha",
+	"captchahelp-cookies-needed": "Aby to funkcioněrowało, muse cookieje dowólone byś.",
+	"captchahelp-text": "Websedła, kótarež akceptěruju zjawne pśinoski, ako toś ten wiki, znjewužywaju se cesto wót spamowarjow, kótarež wužywaju zawtomatizěrowane rědy, aby słali swóje wótkaze na wjele sedłow.\nLěcrownož toś te spamowe wótkaze daju se wótpóraś, su wóne bejna pógóršota.\n\nWótergi, wósebnje, gaž se nowe wótkaze pśidawaju bokoju, jo móžno, až wiki śi pokazujo wobraz barwojtego abo spryšćonego teksta a pšosy śe, aby zapódał zwobraznjone słowa.\nDokulaž to jo nadawk, kótaryž dajo se śěžko awtomatizěrowaś, dówolujo to napšawdnym luźam jich pśinoski wótpósłaś, nejwěcej spamowarjow a robotowe ataki pak se zaźaržyju.\n\nBóžko to móžo kazyś wužywarjow z wobgraniwoneju zamóžnosću wiźenja pśi wužywanju wobglědowakow, kótarež bazěruju na teksće abo rěcnem wudaśu.\nTuchylu njamamy awdioalternatiwu.\nStaj se pšosym z [[Special:ListAdmins|administratorami sedła]] z pšosbu wó pomoc do zwiska, jolic to śi njewócakane  zawobarujo słanje legitimnych pśinoskow.\n\nKlikni na tłocašk \"Slědk\" we swójom wobglědowaku, aby wróśił k bokowemu editoroju.",
+	"captcha-addurl-whitelist": " #<!-- wóstaj toś tu smužku rowno ako jo --> <pre>\n # Syntaksa jo ako slědujo:\n #  * Wšykno wót znamuška \"#\" ku kóńcoju smužki jo komentar\n #  * Kužda smužka, kótaraž njejo prozna, jo fragment regularnego wuraza, kótaryž nastupa jano hostam w URL\n  #</pre> <!-- wóstaj toś tu smužku rowno ako jo -->",
+	"right-skipcaptcha": "Akcije wugbaś, kótarež zapušćiju captcha, mimo až se nadawk captcha rozwěžo."
+}

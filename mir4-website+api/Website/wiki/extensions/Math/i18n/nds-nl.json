@@ -1,0 +1,23 @@
+{
+	"@metadata": {
+		"authors": [
+			"Servien"
+		]
+	},
+	"math-desc": "Wiskundige formules tussen <code>&lt;math&gt;</code> ... <code>&lt;/math&gt;</code>-etiketten zetten",
+	"math-visualeditor-mwchemdialog-title": "Chemiske formule",
+	"math-visualeditor-mwlatexinspector-display-default": "Standard",
+	"math-visualeditor-mwmathdialog-title": "Wiskündige formule",
+	"math_failure": "Wiskundige formule niet begriepelik",
+	"math_invalidjson": "$1: t antwoord van de server is ongeldige JSON.",
+	"math_invalidresponse": "$1: ongeldig antwoord (\"$3\") van server \"$2\":",
+	"math_invalidxml": ": MathML is ongeldige XML.",
+	"math_syntax_error": "Syntaktiese fout in formule",
+	"math_unknown_error": "Onbekende fout in formule",
+	"math_unknown_function": "onbekende funksie \"$1\"",
+	"mw-math-latexml": "LaTeXML (experimenteel; gebruukt MathML)",
+	"mw-math-mathml": "MathML",
+	"mw-math-source": "Laot TeX-bronkode staon (veur tekstwebkiekers)",
+	"prefs-math": "Wiskündige formules",
+	"mathstatus": "Status formuleweadergåve"
+}

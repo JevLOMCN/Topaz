@@ -1,0 +1,22 @@
+{
+	"@metadata": {
+		"authors": [
+			"Bugoslav",
+			"MaGa"
+		]
+	},
+	"skinname-monobook": "MonoBook",
+	"monobook-desc": "Klasična tema dizajna MediaWiki od godine 2004., nazvana je u čast crno-bijele fotografije iz knjige, koju se rabilo kao pozadinu stranice",
+	"monobook.css": "/** Ovdje idu izmjene monobook stylesheeta */",
+	"monobook.js": "/* Ne rabi se više; molimo rabite [[MediaWiki:common.js]] */",
+	"monobook-jumptotop": "natrag na vrh",
+	"monobook-jumptopersonal": "suradničko oruđe",
+	"monobook-jumptonavigation": "Prijeđi na navigaciju",
+	"monobook-jumptosearch": "Prijeđi na pretraživanje",
+	"monobook-more-actions": "Više",
+	"monobook-cactions-label": "Stranične radnje",
+	"monobook-notifications-link": "Obavijesti ($1)",
+	"monobook-notifications-link-none": "Obavijesti",
+	"monobook-view-history": "Stare izmjene",
+	"monobook-action-undelete": "Vrati {{PLURAL:$1|$1 uređivanje|$1 uređivanja}}"
+}

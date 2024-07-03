@@ -1,0 +1,25 @@
+{
+	"@metadata": {
+		"authors": [
+			"Daud I.F. Argana",
+			"IvanLanin",
+			"William Surya Permana"
+		]
+	},
+	"syntaxhighlight-desc": "Memberikan penyorotan sintaks <code>&lt;syntaxhighlight&gt;</code> menggunakan [http://pygments.org/ Pygments - Penyorotan sintaks Python]",
+	"syntaxhighlight-error-category": "Halaman dengan galat penyorotan sintaks",
+	"syntaxhighlight-error-category-desc": "Terdapat galat ketika mencoba melakukan penyorotan kode yang disertakan dalam halaman.",
+	"syntaxhighlight-enclose-category": "Halaman yang menggunakan atribut enclose usang",
+	"syntaxhighlight-enclose-category-desc": "Penyorotan sintaksis di halaman yang menggunakan sintaksis enclose yang usang.",
+	"syntaxhighlight-source-category": "Halaman yang menggunakan tag source usang",
+	"syntaxhighlight-source-category-desc": "Penyorotan sintaksis di halaman yang menggunakan tag source yang usang.",
+	"syntaxhighlight-visualeditor-mwsyntaxhighlightinspector-code": "Kode",
+	"syntaxhighlight-visualeditor-mwsyntaxhighlightinspector-language": "Bahasa",
+	"syntaxhighlight-visualeditor-mwsyntaxhighlightinspector-none": "(Tidak ada)",
+	"syntaxhighlight-visualeditor-mwsyntaxhighlightinspector-showlines": "Tampilkan nomor baris",
+	"syntaxhighlight-visualeditor-mwsyntaxhighlightinspector-startingline": "Nomor baris awal",
+	"syntaxhighlight-visualeditor-mwsyntaxhighlightinspector-title": "Blok kode",
+	"syntaxhighlight-error-pygments-invocation-failure": "Gagal memanggil Pygments",
+	"syntaxhighlight-error-unknown-language": "Bahasa tak dikenal \"$1\"",
+	"syntaxhighlight-error-exceeds-size-limit": "Ukuran kode $1 {{PLURAL:$1|bita}} melampaui maksimum $2 {{PLURAL:$2|bita}} yang diperbolehkan"
+}

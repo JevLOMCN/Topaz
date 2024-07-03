@@ -1,0 +1,21 @@
+{
+	"Scribunto: isSubsting during PST": {
+		"wt2html": "<p data-parsoid='{\"dsr\":[0,37,0,0]}'><span about=\"#mwt1\" typeof=\"mw:Transclusion\" data-parsoid='{\"pi\":[[{\"k\":\"1\"}]],\"dsr\":[0,37,null,null]}' data-mw='{\"parts\":[{\"template\":{\"target\":{\"wt\":\"safesubst:#invoke:test\",\"function\":\"invoke\"},\"params\":{\"1\":{\"wt\":\"isSubsting\"}},\"i\":0}}]}'>false</span></p>"
+	},
+	"Scribunto: named numeric parameters": {
+		"wt2wt": "{{#invoke:test|getArg|b|a}}\n{{#invoke:test|getArg|a|b}}",
+		"selser [[0,3,0]]": "{{#invoke:test|getArg|2|a|2=b}}{{#invoke:test|getArg|2|2=a|b}}",
+		"selser [2]": "1pjtrsw\n\n{{#invoke:test|getArg|2|a|2=b}}\n{{#invoke:test|getArg|2|2=a|b}}",
+		"selser [[0,2,0]]": "{{#invoke:test|getArg|2|a|2=b}}lf2d8h\n{{#invoke:test|getArg|2|2=a|b}}",
+		"selser [1]": "{{#invoke:test|getArg|2|a|2=b}}\n{{#invoke:test|getArg|2|2=a|b}}",
+		"selser [[0,4,0]]": "{{#invoke:test|getArg|2|a|2=b}}1vmugjj{{#invoke:test|getArg|2|2=a|b}}"
+	},
+	"Scribunto: template-style argument trimming": {
+		"wt2wt": "{{#invoke:test|getArgLength|2| x }}\n{{#invoke:test|getArgLength|x}}",
+		"selser [[0,4,0]]": "{{#invoke:test|getArgLength|2| x }}149a6ep{{#invoke:test|getArgLength|2|2= x }}",
+		"selser [[0,3,0]]": "{{#invoke:test|getArgLength|2| x }}{{#invoke:test|getArgLength|2|2= x }}",
+		"selser [1]": "{{#invoke:test|getArgLength|2| x }}\n{{#invoke:test|getArgLength|2|2= x }}",
+		"selser [2]": "1pj31bg\n\n{{#invoke:test|getArgLength|2| x }}\n{{#invoke:test|getArgLength|2|2= x }}",
+		"selser [[0,2,0]]": "{{#invoke:test|getArgLength|2| x }}1ulspwn\n{{#invoke:test|getArgLength|2|2= x }}"
+	}
+}

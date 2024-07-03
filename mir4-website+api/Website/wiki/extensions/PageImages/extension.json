@@ -1,0 +1,149 @@
+{
+	"name": "PageImages",
+	"author": "Max Semenik",
+	"url": "https://www.mediawiki.org/wiki/Extension:PageImages",
+	"descriptionmsg": "pageimages-desc",
+	"license-name": "WTFPL",
+	"type": "api",
+	"requires": {
+		"MediaWiki": ">= 1.42.0"
+	},
+	"APIPropModules": {
+		"pageimages": {
+			"class": "PageImages\\ApiQueryPageImages",
+			"services": [
+				"RepoGroup"
+			]
+		}
+	},
+	"MessagesDirs": {
+		"PageImages": [
+			"i18n",
+			"i18n/api"
+		]
+	},
+	"AutoloadNamespaces": {
+		"PageImages\\": "includes/"
+	},
+	"TestAutoloadNamespaces": {
+		"PageImages\\Tests\\": "tests/phpunit/"
+	},
+	"Hooks": {
+		"ApiOpenSearchSuggest": "main",
+		"BeforePageDisplay": "main",
+		"InfoAction": "main",
+		"ParserAfterTidy": "parser",
+		"ParserModifyImageHTML": "parser",
+		"ParserTestGlobals": "parser",
+		"SearchResultProvideThumbnail": "search",
+		"SpecialMobileEditWatchlist::images": "mobile"
+	},
+	"HookHandlers": {
+		"main": {
+			"class": "PageImages\\PageImages",
+			"services": [
+				"DBLoadBalancerFactory",
+				"RepoGroup",
+				"UserOptionsLookup"
+			]
+		},
+		"parser": {
+			"class": "PageImages\\Hooks\\ParserFileProcessingHookHandlers",
+			"services": [
+				"RepoGroup",
+				"MainWANObjectCache",
+				"HttpRequestFactory",
+				"DBLoadBalancerFactory",
+				"TitleFactory",
+				"LinksMigration"
+			]
+		},
+		"search": {
+			"class": "PageImages\\Hooks\\SearchResultProvideThumbnailHookHandler",
+			"services": [
+				"SearchResultThumbnailProvider",
+				"PageProps",
+				"RepoGroup"
+			]
+		},
+		"mobile": {
+			"class": "PageImages\\Hooks\\MobileFrontendHookHandlers"
+		}
+	},
+	"JobClasses": {
+		"InitImageDataJob": {
+			"class": "PageImages\\Job\\InitImageDataJob",
+			"services": [
+				"DBLoadBalancerFactory"
+			]
+		}
+	},
+	"config": {
+		"PageImagesScores": {
+			"description": "Images <120px are usually from maintenance or stub templates; >600px are panoramas, less suitable.",
+			"value": {
+				"position": [
+					8,
+					6,
+					4,
+					3
+				],
+				"width": {
+					"119": -100,
+					"400": 10,
+					"600": 5,
+					"601": 0
+				},
+				"galleryImageWidth": {
+					"99": -100,
+					"100": 0
+				},
+				"ratio": {
+					"3": -100,
+					"5": 0,
+					"20": 5,
+					"30": 0,
+					"31": -100
+				}
+			}
+		},
+		"PageImagesDenylist": {
+			"value": [
+				{
+					"type": "db",
+					"page": "MediaWiki:Pageimages-denylist",
+					"db": false
+				}
+			]
+		},
+		"PageImagesOpenGraph": {
+			"description": "Enable the OpenGraph meta tags",
+			"public": true,
+			"value": true
+		},
+		"PageImagesDenylistExpiry": {
+			"value": 900
+		},
+		"PageImagesExpandOpenSearchXml": {
+			"value": false
+		},
+		"PageImagesNamespaces": {
+			"value": [
+				0
+			]
+		},
+		"PageImagesLeadSectionOnly": {
+			"description": "Whether page images should be restricted to those in section 0",
+			"value": true
+		},
+		"PageImagesAPIDefaultLicense": {
+			"description": "Get images with either a 'free' license or 'any' (including free and non-free) license by default, via 'pilicense' option, in pageprops query api. The value of this setting should be either 'free' or 'any'.",
+			"value": "free"
+		},
+		"PageImagesOpenGraphFallbackImage": {
+			"description": "A url to fallback image that will be shown when there is no image on a page.",
+			"value": false
+		}
+	},
+	"manifest_version": 2
+}

@@ -1,0 +1,20 @@
+// @vue/component
+module.exports = {
+	data: function () {
+		return {
+			hello: 'world'
+		};
+	}
+};;
+module.exports.template = "<!-- Outer comment --> \n\
+	<div class=\"mw-vue-test\"> \n\
+		<!-- \n\
+			Inner comment \n\
+			with multiple lines \n\
+			and tabs \n\
+		--> \n\
+		<p>Hello\\n<\/p> \n\
+		<p>{{ hello }}<\/p> \n\
+		<pre>			foo\\\n			bar \n\
+		<\/pre> \n\
+	<\/div>";

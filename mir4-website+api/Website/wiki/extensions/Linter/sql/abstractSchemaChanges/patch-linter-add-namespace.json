@@ -1,0 +1,125 @@
+{
+	"comment": "Filter errors by details (T175177)",
+	"before": {
+		"name": "linter",
+		"columns": [
+			{
+				"name": "linter_id",
+				"type": "integer",
+				"options": { "notnull": true, "unsigned": true, "autoincrement": true }
+			},
+			{
+				"name": "linter_page",
+				"comment": "page id",
+				"type": "integer",
+				"options": { "notnull": true, "unsigned": true }
+			},
+			{
+				"name": "linter_cat",
+				"comment": "error category (see CategoryManager::$categoryIds)",
+				"type": "integer",
+				"options": { "notnull": true, "unsigned": true }
+			},
+			{
+				"name": "linter_start",
+				"comment": "end positions of where the error is located",
+				"type": "integer",
+				"options": { "notnull": true, "unsigned": true }
+			},
+			{
+				"name": "linter_end",
+				"comment": "end positions of where the error is located",
+				"type": "integer",
+				"options": { "notnull": true, "unsigned": true }
+			},
+			{
+				"name": "linter_params",
+				"comment": "extra parameters about the error, JSON encoded",
+				"type": "blob",
+				"options": { "length": 65530, "notnull": false }
+			}
+		],
+		"indexes": [
+			{
+				"name": "linter_page",
+				"comment": "Query by page",
+				"columns": [ "linter_page" ],
+				"unique": false
+			},
+			{
+				"name": "linter_cat_page_position",
+				"comment": "Unique index for lint errors, also covers linter_cat for query by category",
+				"columns": [ "linter_cat", "linter_page", "linter_start", "linter_end" ],
+				"unique": true
+			}
+		],
+		"pk": [ "linter_id" ]
+	},
+	"after": {
+		"name": "linter",
+		"columns": [
+			{
+				"name": "linter_id",
+				"type": "integer",
+				"options": { "notnull": true, "unsigned": true, "autoincrement": true }
+			},
+			{
+				"name": "linter_page",
+				"comment": "page id",
+				"type": "integer",
+				"options": { "notnull": true, "unsigned": true }
+			},
+			{
+				"name": "linter_namespace",
+				"comment": "page namespace",
+				"type": "integer",
+				"options": { "notnull": false, "unsigned": false }
+			},
+			{
+				"name": "linter_cat",
+				"comment": "error category (see CategoryManager::$categoryIds)",
+				"type": "integer",
+				"options": { "notnull": true, "unsigned": true }
+			},
+			{
+				"name": "linter_start",
+				"comment": "end positions of where the error is located",
+				"type": "integer",
+				"options": { "notnull": true, "unsigned": true }
+			},
+			{
+				"name": "linter_end",
+				"comment": "end positions of where the error is located",
+				"type": "integer",
+				"options": { "notnull": true, "unsigned": true }
+			},
+			{
+				"name": "linter_params",
+				"comment": "extra parameters about the error, JSON encoded",
+				"type": "blob",
+				"options": { "length": 65530, "notnull": false }
+			}
+		],
+		"indexes": [
+			{
+				"name": "linter_page",
+				"comment": "Query by page",
+				"columns": [ "linter_page" ],
+				"unique": false
+			},
+			{
+				"name": "linter_cat_namespace",
+				"comment": "Query by category and namespace",
+				"columns": [ "linter_cat", "linter_namespace" ],
+				"unique": false
+			},
+			{
+				"name": "linter_cat_page_position",
+				"comment": "Unique index for lint errors, also covers linter_cat for query by category",
+				"columns": [ "linter_cat", "linter_page", "linter_start", "linter_end" ],
+				"unique": true
+			}
+		],
+		"pk": [ "linter_id" ]
+	}
+}

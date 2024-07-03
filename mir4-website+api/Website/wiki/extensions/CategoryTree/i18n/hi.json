@@ -1,0 +1,42 @@
+{
+	"@metadata": {
+		"authors": [
+			"Anamdas",
+			"Kannankumar",
+			"Kaustubh",
+			"Pooja.srivastava",
+			"Sfic",
+			"Shyam123.ckp",
+			"Siddhartha Ghai",
+			"Wikiuser13"
+		]
+	},
+	"categorytree": "श्रेणीवृक्ष",
+	"categorytree-portlet": "श्रेणियाँ",
+	"categorytree-legend": "श्रेणीवृक्ष दिखायें",
+	"categorytree-desc": "विकि की [[Special:CategoryTree|श्रेणी संरचना]] देखें",
+	"categorytree-header": "किसी श्रेणी की सामग्री वृक्ष के रूप में देखने के लिये उसका नाम दें। (जावास्क्रिप्ट अनिवार्य है)",
+	"categorytree-category": "श्रेणी:",
+	"categorytree-go": "वृक्ष दिखायें",
+	"categorytree-parents": "पालक",
+	"categorytree-mode-label": "मोड:",
+	"categorytree-mode-categories": "सिर्फ़ श्रेणीयाँ",
+	"categorytree-mode-pages": "फ़ाइलों के अतिरिक्त पृष्ठ",
+	"categorytree-mode-all": "सभी पृष्ठ",
+	"categorytree-collapse": "छोटा करें",
+	"categorytree-expand": "विस्तार करें",
+	"categorytree-member-counts": "इसमें {{PLURAL:$1|एक उपश्रेणी|$1 उपश्रेणियाँ}}, {{PLURAL:$2|एक पृष्ठ|$2 पृष्ठ}}, और {{PLURAL:$3|एक फ़ाइल|$3 फ़ाइलें}} हैं।",
+	"categorytree-num-categories": "$1 श्र",
+	"categorytree-num-pages": "$1 पृ",
+	"categorytree-num-files": "$1 फ़ा",
+	"categorytree-num-empty": "खाली",
+	"categorytree-load": "लोड करें",
+	"categorytree-loading": "लोड हो रहा है...",
+	"categorytree-nothing-found": "कुछ भी नहीं मिला",
+	"categorytree-no-subcategories": "उपश्रेणीयाँ नहीं हैं",
+	"categorytree-no-parent-categories": "कोई जनक श्रेणियाँ नहीं हैं",
+	"categorytree-no-pages": "कोई पृष्ठ या उपश्रेणीयाँ नहीं हैं",
+	"categorytree-not-found": "श्रेणी <i>$1</i> नहीं मिली",
+	"categorytree-error": "डाटा लोड करने में समस्या।",
+	"categorytree-retry": "कृपया थोड़े समय पश्चात पुनः यत्न करें।"
+}

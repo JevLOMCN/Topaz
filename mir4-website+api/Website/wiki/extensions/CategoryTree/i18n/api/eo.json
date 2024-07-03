@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Mirin"
+		]
+	},
+	"apihelp-categorytree-summary": "Interna modulo por la etendaĵo CategoryTree.",
+	"apihelp-categorytree-param-category": "Titolo en la kategoria nomspaco; prefikso, se donita, ignoriĝos.",
+	"apihelp-categorytree-param-options": "Opcioj pri la CategoryTree-konstruilo kiel JSON-objekto. La opcio <var>depth</var> estas implicite <kbd>1</kbd>.",
+	"apierror-categorytree-invalidjson": "Opcio devas esti valida JSON-objekto."
+}

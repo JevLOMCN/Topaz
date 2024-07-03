@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Eduardo Addad de Oliveira",
+			"Eduardoaddad"
+		]
+	},
+	"apihelp-categorytree-summary": "Módulo interno para a extensão \"Árvore de categorias\" (<i>CategoryTree</i>).",
+	"apihelp-categorytree-param-category": "Título no espaço nominal Categoria, o prefixo será ignorado se for fornecido.",
+	"apihelp-categorytree-param-options": "Opções para o construtor CategoryTree como objeto JSON. A opção <var>depth</var> tem o valor predefinido <kbd>1</kbd>.",
+	"apierror-categorytree-invalidjson": "As opções devem ser um objeto JSON válido."
+}

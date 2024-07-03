@@ -1,0 +1,245 @@
+{
+	"1. Table tag in SOL posn. should get reparsed correctly with valid TSR": {
+		"wt2wt": "{{1x|}}\n{| width=\"100%\"\n|foo\n|}"
+	},
+	"1. Template wrapping shouldn't ignore fostered content": {
+		"wt2wt": "\nhiho\n{|\n{{tr}}\n{{1x|\n}}\n\nhiho\n|}"
+	},
+	"2. Ensure fostered text content is wrapped in element nodes (traps regressions around fostered marker on the element getting lost)": {
+		"wt2wt": "<nowiki>||</nowiki> <nowiki>||</nowiki>\n<table>\n<tr><td> a\n</table>"
+	},
+	"2. Lists with start-of-line-transparent tokens before bullets: Template close": {
+		"wt2html": "<ul about=\"#mwt1\" typeof=\"mw:Transclusion\" data-parsoid='{\"dsr\":[0,16,0,0],\"firstWikitextNode\":\"UL\",\"pi\":[[{\"k\":\"1\"}]]}' data-mw='{\"parts\":[\"*foo \",{\"template\":{\"target\":{\"wt\":\"1x\",\"href\":\"./Template:1x\"},\"params\":{\"1\":{\"wt\":\"bar\\n\"}},\"i\":0}}]}'><li>foo bar</li></ul><span about=\"#mwt1\">\n</span><p data-parsoid='{\"dsr\":[16,20,0,0]}'>*baz</p>"
+	},
+	"2. Template wrapping shouldn't ignore fostered content": {
+		"wt2wt": "\nhiho\n{|\n{{tr}}\n{{1x|\n }}\n\nhiho\n|}"
+	},
+	"2. includeonly in html attr value": {
+		"wt2html": "<p data-parsoid='{\"dsr\":[0,155,0,0]}'><span id=\"v1\" about=\"#mwt1\" typeof=\"mw:ExpandedAttrs\" data-parsoid='{\"stx\":\"html\",\"a\":{\"id\":\"v1\"},\"sa\":{\"id\":\"&lt;noinclude>v1&lt;/noinclude>&lt;includeonly>v2&lt;/includeonly>\"},\"dsr\":[0,76,66,7]}' data-mw='{\"attribs\":[[{\"txt\":\"id\"},{\"html\":\"&lt;meta typeof=\\\"mw:Includes/NoInclude\\\" data-parsoid=&apos;{\\\"src\\\":\\\"&amp;lt;noinclude>\\\",\\\"dsr\\\":[10,21,null,null]}&apos;/>v1&lt;meta typeof=\\\"mw:Includes/NoInclude/End\\\" data-parsoid=&apos;{\\\"src\\\":\\\"&amp;lt;/noinclude>\\\",\\\"dsr\\\":[23,35,null,null]}&apos;/>&lt;meta typeof=\\\"mw:Includes/IncludeOnly\\\" data-parsoid=&apos;{\\\"dsr\\\":[35,64,null,null]}&apos; data-mw=&apos;{\\\"src\\\":\\\"&amp;lt;includeonly>v2&amp;lt;/includeonly>\\\"}&apos;/>&lt;meta typeof=\\\"mw:Includes/IncludeOnly/End\\\" data-parsoid=&apos;{\\\"src\\\":\\\"\\\",\\\"dsr\\\":[64,64,null,null]}&apos;/>\"}]]}'>bar</span>\n<span id='\"v1\"' about=\"#mwt2\" typeof=\"mw:ExpandedAttrs\" data-parsoid='{\"stx\":\"html\",\"a\":{\"id\":\"\\\"v1\\\"\"},\"sa\":{\"id\":\"&lt;noinclude>\\\"v1\\\"&lt;/noinclude>&lt;includeonly>\\\"v2\\\"&lt;/includeonly>\"},\"dsr\":[77,155,68,7]}' data-mw='{\"attribs\":[[{\"txt\":\"id\"},{\"html\":\"&lt;meta typeof=\\\"mw:Includes/NoInclude\\\" data-parsoid=&apos;{\\\"src\\\":\\\"&amp;lt;noinclude>\\\",\\\"dsr\\\":[86,97,null,null]}&apos;/>\\\"v1\\\"&lt;meta typeof=\\\"mw:Includes/NoInclude/End\\\" data-parsoid=&apos;{\\\"src\\\":\\\"&amp;lt;/noinclude>\\\",\\\"dsr\\\":[101,113,null,null]}&apos;/>&lt;meta typeof=\\\"mw:Includes/IncludeOnly\\\" data-parsoid=&apos;{\\\"dsr\\\":[113,144,null,null]}&apos; data-mw=&apos;{\\\"src\\\":\\\"&amp;lt;includeonly>\\\\\\\"v2\\\\\\\"&amp;lt;/includeonly>\\\"}&apos;/>&lt;meta typeof=\\\"mw:Includes/IncludeOnly/End\\\" data-parsoid=&apos;{\\\"src\\\":\\\"\\\",\\\"dsr\\\":[144,144,null,null]}&apos;/>\"}]]}'>bar</span></p>",
+		"wt2wt": "<span id=\"<noinclude>v1</noinclude><includeonly>v2</includeonly>\">bar</span>\n<span id=\"<noinclude>&quot;v1&quot;</noinclude><includeonly>&quot;v2&quot;</includeonly>\">bar</span>"
+	},
+	"4. includeonly in table attributes": {
+		"wt2html": "<table data-parsoid='{\"dsr\":[0,77,2,2]}'>\n<tbody data-parsoid='{\"dsr\":[3,75,0,0]}'><tr about=\"#mwt1\" typeof=\"mw:ExpandedAttrs\" data-parsoid='{\"startTagSrc\":\"|-\",\"a\":{\"&lt;noinclude>\\n|-\\n|a\\n&lt;/noinclude>\":null},\"sa\":{\"&lt;noinclude>\\n|-\\n|a\\n&lt;/noinclude>\":\"\"},\"dsr\":[3,36,33,0]}' data-mw='{\"attribs\":[[{\"txt\":\"a\",\"html\":\"&lt;meta typeof=\\\"mw:Includes/NoInclude\\\" data-parsoid=&apos;{\\\"src\\\":\\\"&amp;lt;noinclude>\\\",\\\"dsr\\\":[6,17,null,null]}&apos;/>\\n|-\\n|a\\n&lt;meta typeof=\\\"mw:Includes/NoInclude/End\\\" data-parsoid=&apos;{\\\"src\\\":\\\"&amp;lt;/noinclude>\\\",\\\"dsr\\\":[24,36,null,null]}&apos;/>\"},{\"html\":\"\"}]]}'></tr>\n<tr about=\"#mwt2\" typeof=\"mw:ExpandedAttrs\" data-parsoid='{\"startTagSrc\":\"|-\",\"a\":{\"&lt;includeonly>\\n|-\\n|b\\n&lt;/includeonly>\":null},\"sa\":{\"&lt;includeonly>\\n|-\\n|b\\n&lt;/includeonly>\":\"\"},\"dsr\":[37,74,37,0]}' data-mw='{\"attribs\":[[{\"txt\":\"\",\"html\":\"&lt;meta typeof=\\\"mw:Includes/IncludeOnly\\\" data-parsoid=&apos;{\\\"dsr\\\":[40,74,null,null]}&apos; data-mw=&apos;{\\\"src\\\":\\\"&amp;lt;includeonly>\\\\n|-\\\\n|b\\\\n&amp;lt;/includeonly>\\\"}&apos;/>&lt;meta typeof=\\\"mw:Includes/IncludeOnly/End\\\" data-parsoid=&apos;{\\\"src\\\":\\\"\\\",\\\"dsr\\\":[74,74,null,null]}&apos;/>\"},{\"html\":\"\"}]]}'></tr>\n</tbody></table>"
+	},
+	"8. Encapsulate foster-parented transclusion content": {
+		"wt2wt": "{{1x|a\n}}\n{|{{1x|style='color:red'}}\n|-\n|b\n|}\n"
+	},
+	"<pre> inside a link": {
+		"wt2wt": "[[Main<pre> Page</pre>]] [[Main Page|the main page]]<pre>[it's not very good]</pre>"
+	},
+	"Attribute test: unquoted but illegal value (hash)": {
+		"wt2wt": "<font color=\"#x\">foo</font>"
+	},
+	"Bail on table cell attribute parsing on wikilink": {
+		"wt2wt": "{|\n|testing [[one|two]]<nowiki> |three</nowiki>||four\n| testing one two |three||four\n|testing=\"[[one|two]]<nowiki>\" |three</nowiki>||four\n|}"
+	},
+	"Category with newline in sort key": {
+		"metadata": "cat=Wikidata:Tools sort=*"
+	},
+	"DIV IN UPPERCASE": {
+		"wt2wt": "<DIV id=\"x\">HTML ROCKS</DIV>"
+	},
+	"Don't break on | in extension attribute in template": {
+		"wt2html": "<p data-parsoid='{\"dsr\":[0,33,0,0]}'><span about=\"#mwt2\" typeof=\"mw:Transclusion\" data-parsoid='{\"pi\":[[{\"k\":\"1\"}]],\"dsr\":[0,33,null,null]}' data-mw='{\"parts\":[{\"template\":{\"target\":{\"wt\":\"1x\",\"href\":\"./Template:1x\"},\"params\":{\"1\":{\"wt\":\"&lt;tag name=\\\"hi|ho\\\">ha&lt;/tag>\"}},\"i\":0}}]}'>ho\">ha&lt;/tag></span></p>"
+	},
+	"Don't fall for the self-closing div": {
+		"wt2wt": "<div>hello world</div>"
+	},
+	"Empty LI (T49673)": {
+		"wt2wt": "*a\n*\n*\n*b"
+	},
+	"Empty TD followed by TD with tpl-generated attribute": {
+		"wt2wt": "{|\n|-\n|\n| {{1x|style='color:red'}} |foo\n|}"
+	},
+	"Empty attribute crash test single-quotes (T4067)": {
+		"wt2wt": "<font color=\"\">foo</font>"
+	},
+	"Empty table rows go away": {
+		"wt2html": "<table data-parsoid='{\"dsr\":[0,37,2,2]}'>\n<tbody data-parsoid='{\"dsr\":[3,35,0,0]}'><tr data-parsoid='{\"autoInsertedStart\":true,\"dsr\":[3,16,0,0]}'><td data-parsoid='{\"dsr\":[3,9,1,0]}'>Hello</td>\n<td data-parsoid='{\"dsr\":[10,16,1,0]}'>there</td></tr>\n<tr class=\"foo\" data-parsoid='{\"startTagSrc\":\"|-\",\"dsr\":[17,31,14,0]}'></tr>\n<tr class=\"mw-empty-elt\" data-parsoid='{\"startTagSrc\":\"|-\",\"dsr\":[32,34,2,0]}'></tr>\n</tbody></table>"
+	},
+	"Fuzz testing: Parser13": {
+		"wt2wt": "{| \n| http: / a |\n|}"
+	},
+	"Fuzz testing: Parser16": {
+		"wt2wt": "{|\n!https://|| || ||\n|}"
+	},
+	"Fuzz testing: Parser21": {
+		"wt2wt": "{|\n!irc://{{ftp://a\" onmouseover=\"alert('hello world');\"\n|\n|}"
+	},
+	"Fuzz testing: Parser22": {
+		"wt2wt": "http://===r:::https://b\n\n{|\n|}"
+	},
+	"HHP2.1: Heuristics for headings in preprocessor parenthetical structures": {
+		"wt2wt": "<nowiki>{{foo|</nowiki>\n=heading=\n"
+	},
+	"HHP2.2: Heuristics for headings in preprocessor parenthetical structures": {
+		"wt2wt": "<nowiki>{{foo|</nowiki>\n==heading==\n"
+	},
+	"HTML multiple attributes correction": {
+		"wt2wt": "<p class=\"awesome\">Awesome!</p>"
+	},
+	"Handling html with a br self-closing tag": {
+		"wt2wt": "<br title=\"\" />\n<br title=\"\" />\n<br title=\"\">\n<br title=\"bar\" />\n<br title=\"bar\" />\n<br title=\"bar/\">"
+	},
+	"Handling html with a div self-closing tag": {
+		"wt2html": "<div title=\"\" data-parsoid='{\"stx\":\"html\",\"selfClose\":true,\"dsr\":[0,13,13,0]}'></div>\n<div title=\"\" data-parsoid='{\"stx\":\"html\",\"selfClose\":true,\"dsr\":[14,26,12,0]}'></div>\n<div title=\"\" data-parsoid='{\"stx\":\"html\",\"autoInsertedEnd\":true,\"dsr\":[27,93,13,0]}'>\n<div title=\"bar\" data-parsoid='{\"stx\":\"html\",\"selfClose\":true,\"dsr\":[41,58,17,0]}'></div>\n<div title=\"bar\" data-parsoid='{\"stx\":\"html\",\"selfClose\":true,\"dsr\":[59,75,16,0]}'></div>\n<div title=\"bar/\" data-parsoid='{\"stx\":\"html\",\"autoInsertedEnd\":true,\"dsr\":[76,93,17,0]}'></div></div>",
+		"wt2wt": "<div title=\"\" />\n<div title=\"\" />\n<div title=\"\">\n<div title=\"bar\" />\n<div title=\"bar\" />\n<div title=\"bar/\">"
+	},
+	"Horizontal ruler (should it add that extra space?)": {
+		"wt2wt": "<hr>\n<hr>\nfoo <hr> bar"
+	},
+	"Ignore pipe between table row attributes": {
+		"wt2wt": "{|\n|quux\n|- id=\"foo\" style=\"color: red\" |\n|bar\n|}"
+	},
+	"Inline HTML vs wiki block nesting": {
+		"wt2html": "<p data-parsoid='{\"dsr\":[0,17,0,0]}'><b data-parsoid='{\"stx\":\"html\",\"autoInsertedEnd\":true,\"dsr\":[0,17,3,0]}'>Bold paragraph</b></p><b data-parsoid='{\"stx\":\"html\",\"autoInsertedStart\":true,\"autoInsertedEnd\":true,\"dsr\":[17,37,0,0]}'>\n\n<p data-parsoid='{\"dsr\":[19,37,0,0]}'>New wiki paragraph</p></b>"
+	},
+	"Inline wiki vs wiki block nesting": {
+		"wt2wt": "'''Bold paragraph'''\n\nNew wiki paragraph"
+	},
+	"Media link redirect": {
+		"wt2html": "<p data-parsoid='{\"dsr\":[0,32,0,0]}'><a rel=\"mw:MediaLink\" href=\"http://example.com/images/3/3a/Foobar.jpg\" resource=\"./Media:Redirect_to_foobar.jpg\" title=\"Foobar.jpg\" data-parsoid='{\"stx\":\"simple\",\"a\":{\"resource\":\"./Media:Redirect_to_foobar.jpg\"},\"sa\":{\"resource\":\"Media:Redirect to foobar.jpg\"},\"dsr\":[0,32,2,2]}'>Media:Redirect to foobar.jpg</a></p>"
+	},
+	"Mixing markup for italics and bold": {
+		"wt2wt": "'<nowiki/>''bold'<nowiki/>'''''bold''bolditalics'''''"
+	},
+	"Nested lists 3 (first element empty)": {
+		"wt2wt": "\n**bar\n"
+	},
+	"Nested lists 6 (both elements empty)": {
+		"wt2wt": "\n**\n"
+	},
+	"Non-word characters don't terminate tag names (T19663, T42670, T54022)": {
+		"wt2wt": "<blockquote|>a\n\n<b→> doesn't terminate </b→>\n\n<bä> doesn't terminate </bä>\n\n<boo> doesn't terminate </boo>\n\n<s.foo> doesn't terminate </s.foo>\n\n<sub-ID#1>"
+	},
+	"Parsing of overlapping (improperly nested) inline html tags": {
+		"wt2wt": "<span><s>x</span>"
+	},
+	"Parsoid-centric test: Whitespace in ext- and wiki-links should be preserved": {
+		"wt2wt": "[[Foo|  bar]]\n\n[[Foo|  ''bar'']]\n\n[http://wp.org foo]\n\n[http://wp.org ''foo'']"
+	},
+	"Render invalid page names as plain text (T53090)": {
+		"wt2wt": "[[./../foo|bar]]\n[[foo�|bar]]\n[[foo/.|bar]]\n[[foo/..|bar]]\n<nowiki>[[foo~~~bar]]</nowiki>\n[[foo>bar]]\n[[foo[bar]]\n[[.]]\n[[..]]\n[[foo././bar]]\n[[foo[http://example.com]xyz]]\n\n[[{{1x|./../foo}}|bar]]\n[[{{1x|foo/.}}|bar]]\n[[{{1x|foo/..}}|bar]]\n[[{{1x|foo~~~~bar}}]]\n[[{{1x|foo>bar}}]]\n[[{{1x|foo././bar}}]]\n[[{{1x|foo{bar}}]]\n[[{{1x|foo}bar}}]]\n[[{{1x|foo[bar}}]]\n[[{{1x|foo]bar}}]]\n[[{{1x|foo<bar}}]]"
+	},
+	"Sanitizer: Validating that <meta> and <link> work, but only for Microdata": {
+		"wt2html": "<div itemscope=\"\" data-parsoid='{\"stx\":\"html\",\"dsr\":[0,308,15,6]}'>\n\t<p data-parsoid='{\"dsr\":[17,301,0,0]}'>&lt;meta itemprop=\"hello\" content=\"world\">\n\t&lt;meta http-equiv=\"refresh\" content=\"5\">\n\t&lt;meta itemprop=\"hello\" http-equiv=\"refresh\" content=\"5\">\n\t&lt;link itemprop=\"hello\" href=\"{{SERVER}}\">\n\t&lt;link rel=\"stylesheet\" href=\"{{SERVER}}\">\n\t&lt;link rel=\"stylesheet\" itemprop=\"hello\" href=\"{{SERVER}}\"></p>\n</div>",
+		"wt2wt": "<div itemscope=\"\">\n\t<nowiki><meta itemprop=\"hello\" content=\"world\"></nowiki>\n\t<nowiki><meta http-equiv=\"refresh\" content=\"5\"></nowiki>\n\t<nowiki><meta itemprop=\"hello\" http-equiv=\"refresh\" content=\"5\"></nowiki>\n\t<nowiki><link itemprop=\"hello\" href=\"{{SERVER}}\"></nowiki>\n\t<nowiki><link rel=\"stylesheet\" href=\"{{SERVER}}\"></nowiki>\n\t<nowiki><link rel=\"stylesheet\" itemprop=\"hello\" href=\"{{SERVER}}\"></nowiki>\n</div>"
+	},
+	"Self closed html pairs (T7487)": {
+		"wt2html": "<center data-parsoid='{\"stx\":\"html\",\"dsr\":[0,47,8,9]}'><font id=\"bug\" data-parsoid='{\"stx\":\"html\",\"selfClose\":true,\"dsr\":[8,25,17,0]}'></font>Centered text</center>\n<div data-parsoid='{\"stx\":\"html\",\"dsr\":[48,88,5,6]}'><font id=\"bug2\" data-parsoid='{\"stx\":\"html\",\"selfClose\":true,\"dsr\":[53,71,18,0]}'></font>In div text</div>"
+	},
+	"Self-closed noinclude, includeonly, onlyinclude tags": {
+		"wt2html": "<meta typeof=\"mw:Includes/NoInclude\" data-parsoid='{\"src\":\"&lt;noinclude />\",\"dsr\":[0,13,null,null]}'/>\n<meta typeof=\"mw:Includes/IncludeOnly\" data-parsoid='{\"dsr\":[14,29,null,null]}' data-mw='{\"src\":\"&lt;includeonly />\"}'/>\n<meta typeof=\"mw:Includes/OnlyInclude\" data-parsoid='{\"src\":\"&lt;onlyinclude />\",\"dsr\":[30,45,null,null]}'/>"
+	},
+	"Self-closed tag with broken attribute value quoting": {
+		"wt2html": "<div title=\"Hello world \" data-parsoid='{\"stx\":\"html\",\"selfClose\":true,\"dsr\":[0,26,26,0]}'></div><p data-parsoid='{\"dsr\":[26,29,0,0]}'>Foo</p>"
+	},
+	"T192913 Regression test: 2. html2wt of links should not trip on parser functions found in target (2)": {
+		"wt2wt": "[[Category:Bugs-{{#if:blah|Regression|None}}|<nowiki>Category:Bugs-{{#if:blah|Regression|None}}</nowiki>]]\n[[Category:Bugs-{{#if:blah|Regression|None}}-{{#if:blah|2020|None}}|<nowiki>Category:Bugs-{{#if:blah|Regression|None}}-{{#if:blah|2020|None}}</nowiki>]]"
+	},
+	"T21052 U+3000 IDEOGRAPHIC SPACE should terminate bracketed external links": {
+		"wt2wt": "[http://www.example.org/ ideograms]"
+	},
+	"T2529: Uncovered bullet": {
+		"wt2wt": "*Foo{{bullet}}\n"
+	},
+	"T2529: Uncovered bullet in a deeply nested list": {
+		"wt2wt": "*******Foo\n{{bullet}}\n"
+	},
+	"T2553: link with two variables in a piped link": {
+		"wt2wt": "{|\n|[[{{{1}}}<nowiki>|</nowiki>{{{2}}}]]\n|}"
+	},
+	"T4095: link with pipe and three closing brackets, version 2": {
+		"wt2wt": "[[Main Page|<nowiki>[http://example.com/]</nowiki>]]"
+	},
+	"T4702: Mismatched <i>, <b> and <a> tags are invalid": {
+		"wt2wt": "''[http://example.com text]''\n[http://example.com '''text''']\n''Something [http://example.com in italic]''\n''Something [http://example.com mixed''''', even bold''''']'''\n'''''Now [http://example.com both]'''''"
+	},
+	"T73074: More fostering fun": {
+		"wt2wt": "[[Category:Two]]\n<table><td></td></tr>{{1x|<tr>}}<!--c-->"
+	},
+	"T88318: p-wrapped dash in table.": {
+		"wt2wt": "{|\n!-\n!-\n|-\n|<nowiki>-</nowiki>\n|<nowiki>- </nowiki>\n|-\n|<small>-</small>\n|<br />\n-\n|<br />-\n|}"
+	},
+	"Table attribute legitimate extension": {
+		"wt2wt": "{|\n! style=\"<nowiki>color:blue</nowiki>\" + |status\n|}"
+	},
+	"Table attribute safety": {
+		"wt2wt": "{|\n! style=\"<nowiki>border-width:expression(0+alert(document.cookie))</nowiki>\" + |status\n|}"
+	},
+	"Table multiple attributes correction": {
+		"wt2wt": "{|\n! class=\"awesome\" + |status\n|}"
+	},
+	"Template nested in extension tag in template": {
+		"wt2html": "<p data-parsoid='{\"dsr\":[0,186,0,0]}'><span about=\"#mwt1\" typeof=\"mw:Transclusion\" data-parsoid='{\"pi\":[[{\"k\":\"1\"}]],\"dsr\":[0,38,null,null]}' data-mw='{\"parts\":[{\"template\":{\"target\":{\"wt\":\"1x\",\"href\":\"./Template:1x\"},\"params\":{\"1\":{\"wt\":\"hi&lt;span>[[ho|{{1x|hi}}]]&lt;/span>\"}},\"i\":0}}]}'>hi</span><span about=\"#mwt1\" data-parsoid='{\"stx\":\"html\"}'><a rel=\"mw:WikiLink\" href=\"./Ho\" title=\"Ho\">hi</a></span>\n<span about=\"#mwt3\" typeof=\"mw:Transclusion\" data-parsoid='{\"pi\":[[{\"k\":\"1\"}]],\"dsr\":[39,83,null,null]}' data-mw='{\"parts\":[{\"template\":{\"target\":{\"wt\":\"1x\",\"href\":\"./Template:1x\"},\"params\":{\"1\":{\"wt\":\"hi&lt;spantag>[[ho|{{1x|hi}}]]&lt;/spantag>\"}},\"i\":0}}]}'>hi</span><span typeof=\"mw:Extension/spantag\" about=\"#mwt3\" data-parsoid='{\"src\":\"&lt;spantag>[[ho|hi]]&lt;/spantag>\"}' data-mw='{\"name\":\"spantag\",\"attrs\":{},\"body\":{\"extsrc\":\"[[ho|hi]]\"}}'><a rel=\"mw:WikiLink\" href=\"./Ho\" title=\"Ho\" data-parsoid='{\"stx\":\"piped\",\"a\":{\"href\":\"./Ho\"},\"sa\":{\"href\":\"ho\"}}'>hi</a></span>\n<span about=\"#mwt7\" typeof=\"mw:Transclusion\" data-parsoid='{\"pi\":[[{\"k\":\"1\"}]],\"dsr\":[84,141,null,null]}' data-mw='{\"parts\":[{\"template\":{\"target\":{\"wt\":\"1x\",\"href\":\"./Template:1x\"},\"params\":{\"1\":{\"wt\":\"hi&lt;spantag>[http://test.com?q={{1x|ho}}]&lt;/spantag>\"}},\"i\":0}}]}'>{{{1}}}</span>\n<span about=\"#mwt9\" typeof=\"mw:Transclusion\" data-parsoid='{\"pi\":[[{\"k\":\"1\"}]],\"dsr\":[142,186,null,null]}' data-mw='{\"parts\":[{\"template\":{\"target\":{\"wt\":\"1x\",\"href\":\"./Template:1x\"},\"params\":{\"1\":{\"wt\":\"hi&lt;spantag>-{ho|{{1x|hi}}}-&lt;/spantag>\"}},\"i\":0}}]}'>hi</span><span typeof=\"mw:Extension/spantag\" about=\"#mwt9\" data-parsoid='{\"src\":\"&lt;spantag>-{ho|hi}-&lt;/spantag>\"}' data-mw='{\"name\":\"spantag\",\"attrs\":{},\"body\":{\"extsrc\":\"-{ho|hi}-\"}}'><span typeof=\"mw:LanguageVariant\" data-mw-variant='{\"filter\":{\"l\":[\"ho\"],\"t\":\"hi\"}}' data-parsoid='{\"fl\":[\"ho\"],\"src\":\"-{ho|hi}-\"}'></span></span></p>"
+	},
+	"Template with argument in separate line": {
+		"wt2wt": "{{templateasargtest  |\n templ = simple }}"
+	},
+	"Template with complex arguments": {
+		"wt2html": "<p data-parsoid='{\"dsr\":[0,106,0,0]}'><a rel=\"mw:WikiLink\" href=\"./Template:Complextemplate\" title=\"Template:Complextemplate\" about=\"#mwt1\" typeof=\"mw:Transclusion\" data-parsoid='{\"stx\":\"piped\",\"a\":{\"href\":\"./Template:Complextemplate\"},\"sa\":{\"href\":\"Template:complextemplate\"},\"dsr\":[0,106,null,null],\"pi\":[[{\"k\":\"param\",\"named\":true,\"spc\":[\"\\n  \",\" \",\"\",\"\"]},{\"k\":\"1\"}]]}' data-mw='{\"parts\":[{\"template\":{\"target\":{\"wt\":\"complextemplate\",\"href\":\"./Template:Complextemplate\"},\"params\":{\"param\":{\"wt\":\"{{ templateasargtest  |\\n templ = simple }}\"},\"1\":{\"wt\":\"[[Template:complextemplate|link]]\"}},\"i\":0}}]}'>link</a><span about=\"#mwt1\"> This is a test template with parameter (test)</span></p>"
+	},
+	"Template with invalid target containing tags": {
+		"wt2wt": "<nowiki>{{a</nowiki><b>b</b>|{{1x|foo}}|{{1x|a}}={{1x|b}}<nowiki>|a = b}}</nowiki>"
+	},
+	"Template with invalid target containing wikilink": {
+		"wt2html": "<p data-parsoid='{\"dsr\":[0,17,0,0]}'>{{<a rel=\"mw:WikiLink\" href=\"./Main_Page\" title=\"Main Page\" data-parsoid='{\"stx\":\"simple\",\"a\":{\"href\":\"./Main_Page\"},\"sa\":{\"href\":\"Main Page\"},\"dsr\":[2,15,2,2]}'>Main Page</a>}}</p>",
+		"wt2wt": "<nowiki>{{</nowiki>[[Main Page]]<nowiki>}}</nowiki>"
+	},
+	"Templates: HTML Tables: 5. Proper fostering of categories from inside": {
+		"wt2wt": "[[Category:foo1]]\n<table><tr><td>foo</td></tr></table>\n<!--Two categories (T52330)-->\n[[Category:bar1]]\n[[Category:bar2]]\n<table><tr><td>foo</td></tr></table>"
+	},
+	"Templates: HTML Tag: 2. Generation of HTML attr. value": {
+		"wt2html": "<div style=\"'color:red;'\" about=\"#mwt2\" typeof=\"mw:ExpandedAttrs\" data-parsoid='{\"stx\":\"html\",\"a\":{\"style\":\"&apos;color:red;&apos;\"},\"sa\":{\"style\":\"{{1x|&apos;color:red;&apos;}}\"},\"dsr\":[0,40,31,6]}' data-mw='{\"attribs\":[[{\"txt\":\"style\"},{\"html\":\"&lt;span about=\\\"#mwt1\\\" typeof=\\\"mw:Transclusion\\\" data-parsoid=&apos;{\\\"pi\\\":[[{\\\"k\\\":\\\"1\\\"}]],\\\"dsr\\\":[11,30,null,null]}&apos; data-mw=&apos;{\\\"parts\\\":[{\\\"template\\\":{\\\"target\\\":{\\\"wt\\\":\\\"1x\\\",\\\"href\\\":\\\"./Template:1x\\\"},\\\"params\\\":{\\\"1\\\":{\\\"wt\\\":\\\"&amp;apos;color:red;&amp;apos;\\\"}},\\\"i\\\":0}}]}&apos;>&apos;color:red;&apos;&lt;/span>\"}]]}'>foo</div>",
+		"wt2wt": "<div style=\"{{1x|'color:red;'}}\">foo</div>"
+	},
+	"Templates: HTML Tag: 3. Generation of HTML attr key and value": {
+		"wt2html": "<div style=\"'color:red;'\" about=\"#mwt3\" typeof=\"mw:ExpandedAttrs\" data-parsoid='{\"stx\":\"html\",\"a\":{\"style\":\"&apos;color:red;&apos;\"},\"sa\":{\"style\":\"{{1x|&apos;color:red;&apos;}}\"},\"dsr\":[0,47,38,6]}' data-mw='{\"attribs\":[[{\"txt\":\"style\",\"html\":\"&lt;span about=\\\"#mwt2\\\" typeof=\\\"mw:Transclusion\\\" data-parsoid=&apos;{\\\"pi\\\":[[{\\\"k\\\":\\\"1\\\"}]],\\\"dsr\\\":[5,17,null,null]}&apos; data-mw=&apos;{\\\"parts\\\":[{\\\"template\\\":{\\\"target\\\":{\\\"wt\\\":\\\"1x\\\",\\\"href\\\":\\\"./Template:1x\\\"},\\\"params\\\":{\\\"1\\\":{\\\"wt\\\":\\\"style\\\"}},\\\"i\\\":0}}]}&apos;>style&lt;/span>\"},{\"html\":\"&lt;span about=\\\"#mwt1\\\" typeof=\\\"mw:Transclusion\\\" data-parsoid=&apos;{\\\"pi\\\":[[{\\\"k\\\":\\\"1\\\"}]],\\\"dsr\\\":[18,37,null,null]}&apos; data-mw=&apos;{\\\"parts\\\":[{\\\"template\\\":{\\\"target\\\":{\\\"wt\\\":\\\"1x\\\",\\\"href\\\":\\\"./Template:1x\\\"},\\\"params\\\":{\\\"1\\\":{\\\"wt\\\":\\\"&amp;apos;color:red;&amp;apos;\\\"}},\\\"i\\\":0}}]}&apos;>&apos;color:red;&apos;&lt;/span>\"}]]}'>foo</div>",
+		"wt2wt": "<div {{1x|style}}=\"{{1x|'color:red;'}}\">foo</div>"
+	},
+	"Templates: HTML Tag: 9. Multiple template-generated attributes": {
+		"wt2wt": "<div {{1x|1=id=\"v1\" title=\"foo\"}} title=\"foo\">bar</div>"
+	},
+	"Templates: Handle comments in the target": {
+		"wt2wt": "{{1x\n<!-- should be ignored -->\n|foo}}\n\n{{1x\n<!-- should be ignored and spaces on next line should not trip us up (T147742) -->\n  |foo}}\n\n{{1x<!-- should be ignored -->\n|foo}}\n\n{{1x<!-- should be ignored -->|foo}}\n\n{{1x|foo}}"
+	},
+	"Templates: Ugly nesting: 1. Quotes opened/closed across templates (1x)": {
+		"wt2html": "<p data-parsoid='{\"dsr\":[0,34,0,0]}'><i about=\"#mwt1\" typeof=\"mw:Transclusion\" data-parsoid='{\"dsr\":[0,34,null,null],\"pi\":[[{\"k\":\"1\"}],[{\"k\":\"1\"}],[{\"k\":\"1\"}]]}' data-mw='{\"parts\":[{\"template\":{\"target\":{\"wt\":\"1x\",\"href\":\"./Template:1x\"},\"params\":{\"1\":{\"wt\":\"&apos;&apos;a\"}},\"i\":0}},{\"template\":{\"target\":{\"wt\":\"1x\",\"href\":\"./Template:1x\"},\"params\":{\"1\":{\"wt\":\"b&apos;&apos;c&apos;&apos;d\"}},\"i\":1}},{\"template\":{\"target\":{\"wt\":\"1x\",\"href\":\"./Template:1x\"},\"params\":{\"1\":{\"wt\":\"&apos;&apos;e\"}},\"i\":2}}]}'>ab</i><span about=\"#mwt1\">c</span><i about=\"#mwt1\">d</i><span about=\"#mwt1\">e</span></p>"
+	},
+	"Templates: Ugly templates: 4. newline-only template parameter inconsistency": {
+		"wt2html": "<span about=\"#mwt1\" typeof=\"mw:Transclusion\" data-parsoid='{\"pi\":[[{\"k\":\"1\"}]],\"dsr\":[0,8,null,null]}' data-mw='{\"parts\":[{\"template\":{\"target\":{\"wt\":\"1x\",\"href\":\"./Template:1x\"},\"params\":{\"1\":{\"wt\":\"\\n\"}},\"i\":0}}]}'>\n</span>"
+	},
+	"Trailing newlines in a deep dom-subtree that ends a wikitext line should be migrated out": {
+		"wt2wt": "{|\n|<small>foo\n\nbar\n|}\n\n{|\n|<small>foo<small>\n|}"
+	},
+	"Using {{!}} in template arguments, part 2 (T290526)": {
+		"wt2html": "<p data-parsoid='{\"dsr\":[0,30,0,0]}'><a rel=\"mw:WikiLink\" href=\"./Template:Main_Page?action=edit&amp;redlink=1\" title=\"Template:Main Page\" about=\"#mwt1\" typeof=\"mw:Transclusion mw:LocalizedAttrs\" class=\"new\" data-parsoid='{\"stx\":\"simple\",\"a\":{\"href\":\"./Template:Main_Page\"},\"sa\":{\"href\":\":Template:Main Page\"},\"dsr\":[0,30,null,null],\"pi\":[[{\"k\":\"1\"}]]}' data-mw='{\"parts\":[{\"template\":{\"target\":{\"wt\":\"Main Page\",\"href\":\"./Template:Main_Page\"},\"params\":{\"1\":{\"wt\":\"Something else \"}},\"i\":0}}]}' data-mw-i18n='{\"title\":{\"lang\":\"x-page\",\"key\":\"red-link-title\",\"params\":[\"Template:Main Page\"]}}'>Template:Main Page</a></p>\n\n<p data-parsoid='{\"dsr\":[32,49,0,0]}'>{{ <span about=\"#mwt4\" typeof=\"mw:Transclusion\" data-parsoid='{\"pi\":[[]],\"dsr\":[35,46,null,null]}' data-mw='{\"parts\":[{\"template\":{\"target\":{\"wt\":\"T290526\",\"href\":\"./Template:T290526\"},\"params\":{},\"i\":0}}]}'>Main Page|Something else</span> }}</p>"
+	},
+	"Using {{!}} in wikilinks (T290526)": {
+		"wt2html": "<p data-parsoid='{\"dsr\":[0,32,0,0]}'><a typeof=\"mw:ExpandedAttrs mw:LocalizedAttrs\" about=\"#mwt2\" rel=\"mw:WikiLink\" href=\"./Main_PageSomething_else?action=edit&amp;redlink=1\" title=\"Main PageSomething else\" class=\"new\" data-parsoid='{\"stx\":\"simple\",\"a\":{\"href\":\"./Main_PageSomething_else\"},\"sa\":{\"href\":\"Main Page{{!}}Something else\"},\"dsr\":[0,32,null,null]}' data-mw='{\"attribs\":[[{\"txt\":\"href\"},{\"html\":\"Main Page&lt;span about=\\\"#mwt1\\\" typeof=\\\"mw:Transclusion\\\" data-parsoid=&apos;{\\\"pi\\\":[[]],\\\"dsr\\\":[11,16,null,null]}&apos; data-mw=&apos;{\\\"parts\\\":[{\\\"template\\\":{\\\"target\\\":{\\\"wt\\\":\\\"!\\\",\\\"function\\\":\\\"!\\\"},\\\"params\\\":{},\\\"i\\\":0}}]}&apos;>|&lt;/span>Something else\"}]]}' data-mw-i18n='{\"title\":{\"lang\":\"x-page\",\"key\":\"red-link-title\",\"params\":[\"Main PageSomething else\"]}}'>Main PageSomething else</a></p>\n\n<p data-parsoid='{\"dsr\":[34,49,0,0]}'>[[<span about=\"#mwt7\" typeof=\"mw:Transclusion\" data-parsoid='{\"pi\":[[]],\"dsr\":[36,47,null,null]}' data-mw='{\"parts\":[{\"template\":{\"target\":{\"wt\":\"T290526\",\"href\":\"./Template:T290526\"},\"params\":{},\"i\":0}}]}'>Main Page|Something else</span>]]</p>"
+	},
+	"Verify that displaytitle works (T24501) AllowDisplayTitle=false": {
+		"metadata": "Screen"
+	},
+	"Verify that displaytitle works (T24501) AllowDisplayTitle=false no DISPLAYTITLE": {
+		"metadata": "Screen"
+	},
+	"Verify that displaytitle works (T24501) RestrictDisplayTitle=true mismatch": {
+		"metadata": "Screen"
+	},
+	"Verify that displaytitle works (T24501) no displaytitle": {
+		"metadata": "Parser test"
+	},
+	"Verify that without displaytitle the title encodes & to &amp; (T291985)": {
+		"metadata": "Art&copy"
+	},
+	"div with illegal double attributes": {
+		"wt2wt": "<div id=\"b\">HTML rocks</div>"
+	},
+	"div with single-quoted attribute": {
+		"wt2wt": "<div id=\"rock\">HTML rocks</div>"
+	},
+	"div with unquoted attribute": {
+		"wt2wt": "<div id=\"rock\">HTML rocks</div>"
+	}
+}

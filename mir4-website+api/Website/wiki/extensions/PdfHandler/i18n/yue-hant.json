@@ -1,0 +1,18 @@
+{
+	"@metadata": {
+		"authors": [
+			"Winston Sung"
+		]
+	},
+	"pdf-desc": "響圖像模式睇PDF檔嘅處理器",
+	"pdf-file-page-warning": "PDF係個複雜嘅檔案格式，可能會泄漏你嘅個人資料。記得設定PDF閱讀器確保安全。",
+	"pdf-file-page-warning-header": "私隱考慮",
+	"pdf-file-page-warning-footer": "呢個問題唔只係牽涉到特定檔案，而係PDF格式本身嘅問題。",
+	"pdf-file-page-warning-info": "睇多啲呢個問題。",
+	"pdf_no_metadata": "唔能夠響PDF度拎metadata",
+	"pdf_page_error": "頁數唔響範圍度",
+	"exif-pdf-producer": "轉換程式",
+	"exif-pdf-version": "PDF格式版本",
+	"exif-pdf-encrypted": "加密",
+	"exif-pdf-pagesize": "版面大細"
+}

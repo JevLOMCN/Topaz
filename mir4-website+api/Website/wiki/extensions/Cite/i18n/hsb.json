@@ -1,0 +1,32 @@
+{
+	"@metadata": {
+		"authors": [
+			"J budissin",
+			"Michawiki"
+		]
+	},
+	"cite-desc": "Přidawa taflički <code>&lt;ref[ name=id]&gt;</code> a <code>&lt;references/&gt;</code> za žórłowe podaća",
+	"cite_error": "Referencny zmylk: $1",
+	"cite_error_ref_numeric_key": "Njepłaćiwe wužiwanje taflički <code>&lt;ref&gt;</code>; \"name\" njesmě jednora hódnota integer być, wužij wopisowace mjeno.",
+	"cite_error_ref_no_key": "Njepłaćiwe wužiwanje taflički <code>&lt;ref&gt;</code>; \"ref\" bjez wobsaha dyrbi mjeno měć.",
+	"cite_error_ref_too_many_keys": "Njepłaćiwe wužiwanje taflički <code>&lt;ref&gt;</code>; njepłaćiwe mjena, na př. předołho",
+	"cite_error_ref_no_input": "Njepłaćiwe wužiwanje taflički <code>&lt;ref&gt;</code>; \"ref\" bjez mjena dyrbi wobsah měć",
+	"cite_error_references_invalid_parameters": "Njepłaćiwe wužiwanje taflički <code>&lt;references&gt;</code>; žane parametry dowolene, wužij jenož <code>&lt;references /&gt;</code>",
+	"cite_error_references_no_backlink_label": "Zwučene etikety wróćowotkazow wućerpjene. Definuj wjace w powěsći [[MediaWiki:Cite references link many format backlink labels]]",
+	"cite_error_no_link_label_group": "Swójske wotkazowe etikety za skupinu \"$1\" hižo njejsu. Definuj dalše w zdźělence [[MediaWiki:$2]].",
+	"cite_error_references_no_text": "Njepłaćiwa referenca formy <code>&lt;ref&gt;</code>; žadyn tekst za referency z mjenom  <code>$1</code> podaty.",
+	"cite_error_included_ref": "Kónčny <code>&lt;/ref&gt;</code> za tafličku <code>&lt;ref&gt;</code> faluje",
+	"cite_error_group_refs_without_references": "Taflički <code>&lt;ref&gt;</code> eksistuja za skupinu z mjenom \"$1\", ale njeje so wotpowědowaca taflička <code>&lt;references group=\"$1\"/&gt;</code> namakała abo začinjacy <code>&lt;/ref&gt;</code> faluje",
+	"cite_error_references_group_mismatch": "Taflička <code>&lt;ref&gt;</code> w <code>&lt;references&gt;</code> je ze skupinskim atributom \"$1\" w konflikće.",
+	"cite_error_references_missing_key": "Taflička <code>&lt;ref&gt;</code> z mjenom \"$1\", kotraž je w <code>&lt;references&gt;</code> definowana, so w prjedawšim teksće njewužiwa.",
+	"cite_error_references_no_key": "Taflička <code>&lt;ref&gt;</code>, kotraž je w <code>&lt;references&gt;</code> definowana, mjenowy atribut nima.",
+	"cite_error_empty_references_define": "Taflička <code>&lt;ref&gt;</code>, kotraž je w <code>&lt;references&gt;</code> z mjenom \"$1\" definowana, wobsah nima.",
+	"cite_references_link_accessibility_label": "Horje skočić",
+	"cite_references_link_many_accessibility_label": "Horje skočić do:",
+	"cite_section_preview_references": "Přehlad nóžkow",
+	"cite-wikieditor-tool-reference": "Referenca",
+	"cite-wikieditor-help-page-references": "Referency",
+	"cite-wikieditor-help-content-reference-description": "Referenca",
+	"cite-wikieditor-help-content-rereference-description": "Přidatne wužiwanje samsneje referency",
+	"cite-wikieditor-help-content-showreferences-description": "Referency zwobraznić"
+}

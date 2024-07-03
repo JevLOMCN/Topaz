@@ -1,0 +1,355 @@
+{
+	"name": "WikiEditor",
+	"version": "0.5.4",
+	"author": [
+		"Derk-Jan Hartman",
+		"Trevor Parscal",
+		"Roan Kattouw",
+		"Nimish Gautam",
+		"Adam Miller"
+	],
+	"url": "https://www.mediawiki.org/wiki/Extension:WikiEditor",
+	"descriptionmsg": "wikieditor-desc",
+	"license-name": "GPL-2.0-or-later",
+	"type": "editor",
+	"requires": {
+		"MediaWiki": ">= 1.42.0"
+	},
+	"MessagesDirs": {
+		"WikiEditor": [
+			"i18n"
+		]
+	},
+	"Hooks": {
+		"EditPage::showEditForm:initial": "WikiEditorHooks",
+		"GetPreferences": "WikiEditorHooks",
+		"EditPage::showEditForm:fields": "WikiEditorHooks",
+		"EditPage::attemptSave": "WikiEditorHooks",
+		"EditPage::attemptSave:after": "WikiEditorHooks",
+		"EditPageGetPreviewContent": "WikiEditorHooks",
+		"ListDefinedTags": "WikiEditorHooks",
+		"ChangeTagsListActive": "WikiEditorHooks",
+		"RecentChange_save": "WikiEditorHooks"
+	},
+	"HookHandlers": {
+		"WikiEditorHooks": {
+			"class": "MediaWiki\\Extension\\WikiEditor\\Hooks",
+			"services": [
+				"MainConfig",
+				"UserEditTracker",
+				"UserOptionsLookup"
+			],
+			"optional_services": [
+				"MobileFrontend.Context"
+			]
+		}
+	},
+	"ResourceModules": {
+		"ext.wikiEditor": {
+			"group": "ext.wikiEditor",
+			"packageFiles": [
+				"ext.wikiEditor.js",
+				"insertlink/TitleInputField.js",
+				"insertlink/TitleInputWidget.js",
+				"insertlink/TitleOptionWidget.js",
+				"insertlink/LinkTextField.js",
+				"insertlink/LinkTypeField.js",
+				"jquery.wikiEditor.js",
+				"jquery.wikiEditor.toolbar.js",
+				"jquery.wikiEditor.toolbar.config.js",
+				"jquery.wikiEditor.dialogs.js",
+				"jquery.wikiEditor.dialogs.config.js",
+				{
+					"name": "data.json",
+					"callback": "MediaWiki\\Extension\\WikiEditor\\Hooks::getModuleData",
+					"versionCallback": "MediaWiki\\Extension\\WikiEditor\\Hooks::getModuleDataSummary"
+				}
+			],
+			"styles": [
+				"insertlink/TitleInputField.less",
+				"insertlink/LinkTypeField.less",
+				"jquery.wikiEditor.less",
+				"jquery.wikiEditor.toolbar.less",
+				"jquery.wikiEditor.dialogs.less",
+				"jquery.wikiEditor.dialogs.config.less"
+			],
+			"skinStyles": {
+				"default": [
+					"jquery.wikiEditor.toolbar-wikimedia.less"
+				],
+				"monobook": [
+					"jquery.wikiEditor.toolbar-apex.less"
+				],
+				"apex": [
+					"jquery.wikiEditor.toolbar-apex.less"
+				]
+			},
+			"templates": {
+				"dialogInsertFile.html": "templates/dialogInsertFile.html",
+				"dialogInsertTable.html": "templates/dialogInsertTable.html",
+				"dialogReplace.html": "templates/dialogReplace.html"
+			},
+			"messages": [
+				"wikieditor-wikitext-tab",
+				"wikieditor-toolbar-tool-bold",
+				"wikieditor-toolbar-tool-bold-example",
+				"wikieditor-toolbar-tool-italic",
+				"wikieditor-toolbar-tool-italic-example",
+				"wikieditor-toolbar-tool-link",
+				"wikieditor-toolbar-tool-link-title",
+				"wikieditor-toolbar-tool-link-int",
+				"wikieditor-toolbar-tool-link-int-target",
+				"wikieditor-toolbar-tool-link-int-target-tooltip",
+				"wikieditor-toolbar-tool-link-int-text",
+				"wikieditor-toolbar-tool-link-int-text-tooltip",
+				"wikieditor-toolbar-tool-link-ext",
+				"wikieditor-toolbar-tool-link-ext-target",
+				"wikieditor-toolbar-tool-link-ext-text",
+				"wikieditor-toolbar-tool-link-insert",
+				"wikieditor-toolbar-tool-link-cancel",
+				"wikieditor-toolbar-tool-link-int-target-status-exists",
+				"wikieditor-toolbar-tool-link-int-target-status-notexists",
+				"wikieditor-toolbar-tool-link-int-target-status-invalid",
+				"wikieditor-toolbar-tool-link-int-target-status-external",
+				"wikieditor-toolbar-tool-link-int-target-status-disambig",
+				"wikieditor-toolbar-tool-link-lookslikeinternal",
+				"wikieditor-toolbar-tool-link-lookslikeinternal-int",
+				"wikieditor-toolbar-tool-link-lookslikeinternal-ext",
+				"wikieditor-toolbar-tool-file",
+				"wikieditor-toolbar-tool-signature",
+				"wikieditor-toolbar-section-advanced",
+				"wikieditor-toolbar-tool-heading",
+				"wikieditor-toolbar-tool-heading-1",
+				"wikieditor-toolbar-tool-heading-2",
+				"wikieditor-toolbar-tool-heading-3",
+				"wikieditor-toolbar-tool-heading-4",
+				"wikieditor-toolbar-tool-heading-5",
+				"wikieditor-toolbar-tool-heading-example",
+				"wikieditor-toolbar-group-format",
+				"wikieditor-toolbar-tool-ulist",
+				"wikieditor-toolbar-tool-ulist-example",
+				"wikieditor-toolbar-tool-olist",
+				"wikieditor-toolbar-tool-olist-example",
+				"wikieditor-toolbar-tool-nowiki",
+				"wikieditor-toolbar-tool-nowiki-example",
+				"wikieditor-toolbar-tool-redirect",
+				"wikieditor-toolbar-tool-redirect-example",
+				"wikieditor-toolbar-tool-big",
+				"wikieditor-toolbar-tool-big-example",
+				"wikieditor-toolbar-tool-small",
+				"wikieditor-toolbar-tool-small-example",
+				"wikieditor-toolbar-tool-superscript",
+				"wikieditor-toolbar-tool-superscript-example",
+				"wikieditor-toolbar-tool-subscript",
+				"wikieditor-toolbar-tool-subscript-example",
+				"wikieditor-toolbar-group-insert",
+				"wikieditor-toolbar-tool-gallery",
+				"wikieditor-toolbar-tool-gallery-example",
+				"wikieditor-toolbar-tool-newline",
+				"wikieditor-toolbar-tool-table",
+				"wikieditor-toolbar-tool-table-example-cell-text",
+				"wikieditor-toolbar-tool-table-example",
+				"wikieditor-toolbar-tool-table-example-header",
+				"wikieditor-toolbar-tool-table-example-caption",
+				"wikieditor-toolbar-tool-table-title",
+				"wikieditor-toolbar-tool-table-dimensions-rows",
+				"wikieditor-toolbar-tool-table-dimensions-columns",
+				"wikieditor-toolbar-tool-table-dimensions-header",
+				"wikieditor-toolbar-tool-table-wikitable",
+				"wikieditor-toolbar-tool-table-sortable",
+				"wikieditor-toolbar-tool-table-insert",
+				"wikieditor-toolbar-tool-table-cancel",
+				"wikieditor-toolbar-tool-table-example-text",
+				"wikieditor-toolbar-tool-table-toomany",
+				"wikieditor-toolbar-tool-table-invalidnumber",
+				"wikieditor-toolbar-tool-table-zero",
+				"wikieditor-toolbar-tool-replace",
+				"wikieditor-toolbar-tool-replace-title",
+				"wikieditor-toolbar-tool-replace-search",
+				"wikieditor-toolbar-tool-replace-replace",
+				"wikieditor-toolbar-tool-replace-case",
+				"wikieditor-toolbar-tool-replace-regex",
+				"wikieditor-toolbar-tool-replace-word",
+				"wikieditor-toolbar-tool-replace-button-findnext",
+				"wikieditor-toolbar-tool-replace-button-replace",
+				"wikieditor-toolbar-tool-replace-button-replaceall",
+				"wikieditor-toolbar-tool-replace-close",
+				"wikieditor-toolbar-tool-replace-nomatch",
+				"wikieditor-toolbar-tool-replace-success",
+				"wikieditor-toolbar-tool-replace-emptysearch",
+				"wikieditor-toolbar-tool-replace-invalidregex",
+				"wikieditor-toolbar-section-characters",
+				"wikieditor-toolbar-section-help",
+				"wikieditor-toolbar-help-heading-description",
+				"wikieditor-toolbar-help-heading-syntax",
+				"wikieditor-toolbar-help-heading-result",
+				"wikieditor-toolbar-help-page-format",
+				"wikieditor-toolbar-help-page-link",
+				"wikieditor-toolbar-help-page-heading",
+				"wikieditor-toolbar-help-page-list",
+				"wikieditor-toolbar-help-page-file",
+				"wikieditor-toolbar-help-page-discussion",
+				"wikieditor-toolbar-help-content-bold-description",
+				"wikieditor-toolbar-help-content-bold-example",
+				"wikieditor-toolbar-help-content-italic-description",
+				"wikieditor-toolbar-help-content-italic-example",
+				"wikieditor-toolbar-help-content-bolditalic-description",
+				"wikieditor-toolbar-help-content-bolditalic-example",
+				"wikieditor-toolbar-help-content-ilink-description",
+				"wikieditor-toolbar-help-content-ilink-example",
+				"wikieditor-toolbar-help-content-xlink-description",
+				"wikieditor-toolbar-help-content-xlink-example1",
+				"wikieditor-toolbar-help-content-xlink-example2",
+				"wikieditor-toolbar-help-content-xlink-example-label",
+				"wikieditor-toolbar-help-content-xlink-example-url",
+				"wikieditor-toolbar-help-content-heading2-description",
+				"wikieditor-toolbar-help-content-heading2-example",
+				"wikieditor-toolbar-help-content-heading3-description",
+				"wikieditor-toolbar-help-content-heading3-example",
+				"wikieditor-toolbar-help-content-heading4-description",
+				"wikieditor-toolbar-help-content-heading4-example",
+				"wikieditor-toolbar-help-content-heading5-description",
+				"wikieditor-toolbar-help-content-heading5-example",
+				"wikieditor-toolbar-help-content-ulist-description",
+				"wikieditor-toolbar-help-content-ulist-example",
+				"wikieditor-toolbar-help-content-olist-description",
+				"wikieditor-toolbar-help-content-olist-example",
+				"wikieditor-toolbar-help-content-file-description",
+				"wikieditor-toolbar-help-content-file-syntax",
+				"wikieditor-toolbar-help-content-file-caption",
+				"thumbnail-more",
+				"wikieditor-toolbar-help-content-signaturetimestamp-description",
+				"wikieditor-toolbar-help-content-signaturetimestamp-syntax",
+				"wikieditor-toolbar-help-content-signaturetimestamp-example",
+				"wikieditor-toolbar-help-content-signature-description",
+				"wikieditor-toolbar-help-content-signature-syntax",
+				"wikieditor-toolbar-help-content-signature-example",
+				"wikieditor-toolbar-help-content-signature-username",
+				"wikieditor-toolbar-help-content-indent-description",
+				"wikieditor-toolbar-help-content-indent1",
+				"wikieditor-toolbar-help-content-indent2",
+				"wikieditor-toolbar-help-content-indent3",
+				"wikieditor-toolbar-tool-file-title",
+				"wikieditor-toolbar-file-target",
+				"wikieditor-toolbar-file-caption",
+				"wikieditor-toolbar-file-alt",
+				"wikieditor-toolbar-file-alt-help",
+				"wikieditor-toolbar-file-alt-help-label",
+				"wikieditor-toolbar-file-size",
+				"wikieditor-toolbar-file-float",
+				"wikieditor-toolbar-file-default",
+				"wikieditor-toolbar-file-format-none",
+				"wikieditor-toolbar-file-format",
+				"wikieditor-toolbar-tool-file-insert",
+				"wikieditor-toolbar-tool-file-cancel",
+				"wikieditor-toolbar-tool-file-upload"
+			],
+			"dependencies": [
+				"mediawiki.cookie",
+				"jquery.textSelection",
+				"jquery.ui",
+				"mediawiki.api",
+				"mediawiki.jqueryMsg",
+				"mediawiki.language.specialCharacters",
+				"mediawiki.language",
+				"mediawiki.Title",
+				"mediawiki.user",
+				"mediawiki.util",
+				"mediawiki.widgets",
+				"oojs-ui.styles.icons-content",
+				"oojs-ui.styles.icons-editing-advanced",
+				"oojs-ui.styles.icons-editing-citation",
+				"oojs-ui.styles.icons-editing-core",
+				"oojs-ui.styles.icons-editing-list",
+				"oojs-ui.styles.icons-editing-styling",
+				"oojs-ui.styles.icons-media",
+				"oojs-ui-widgets"
+			]
+		},
+		"ext.wikiEditor.styles": {
+			"group": "ext.wikiEditor",
+			"styles": "ext.wikiEditor.toolbar.styles.less"
+		},
+		"ext.wikiEditor.images": {
+			"class": "MediaWiki\\ResourceLoader\\ImageModule",
+			"selector": ".ext-WikiEditor-image-{name}",
+			"images": {
+				"realtimepreview-error": {
+					"file": "realtimepreview/error.svg"
+				}
+			}
+		},
+		"ext.wikiEditor.realtimepreview": {
+			"dependencies": [
+				"ext.wikiEditor",
+				"mediawiki.page.preview",
+				"mediawiki.pulsatingdot",
+				"mediawiki.storage",
+				"ext.wikiEditor.images",
+				"oojs-ui.styles.icons-interactions"
+			],
+			"messages": [
+				"wikieditor-realtimepreview-preview",
+				"wikieditor-realtimepreview-error",
+				"wikieditor-realtimepreview-reload",
+				"wikieditor-realtimepreview-reload-title",
+				"accesskey-wikieditor-realtimepreview",
+				"wikieditor-realtimepreview-manual"
+			],
+			"packageFiles": [
+				"realtimepreview/init.js",
+				"realtimepreview/RealtimePreview.js",
+				"realtimepreview/ResizingDragBar.js",
+				"realtimepreview/TwoPaneLayout.js",
+				"realtimepreview/ErrorLayout.js",
+				"realtimepreview/ManualWidget.js"
+			],
+			"styles": [
+				"realtimepreview/RealtimePreview.less",
+				"realtimepreview/ResizingDragBar.less",
+				"realtimepreview/TwoPaneLayout.less",
+				"realtimepreview/ErrorLayout.less",
+				"realtimepreview/ManualWidget.less"
+			],
+			"skinStyles": {
+				"monobook": [
+					"realtimepreview/monobook.less"
+				]
+			}
+		}
+	},
+	"ResourceFileModulePaths": {
+		"localBasePath": "modules",
+		"remoteExtPath": "WikiEditor/modules"
+	},
+	"QUnitTestModule": {
+		"localBasePath": "",
+		"remoteExtPath": "WikiEditor",
+		"scripts": "tests/qunit/ext.wikiEditor.toolbar.test.js",
+		"dependencies": [
+			"ext.wikiEditor"
+		]
+	},
+	"DefaultUserOptions": {
+		"usebetatoolbar": true,
+		"wikieditor-realtimepreview": 0
+	},
+	"AutoloadNamespaces": {
+		"MediaWiki\\Extension\\WikiEditor\\": "includes/"
+	},
+	"config": {
+		"WikiEditorRealtimePreview": {
+			"description": "Whether to enable the Realtime Preview feature.",
+			"value": true
+		},
+		"WikiEditorRealtimePreviewDebounce": {
+			"description": "Debounce time in milliseconds for the Realtime Preview feature.",
+			"value": 2500
+		},
+		"WikiEditorRealtimeDisableDuration": {
+			"description": "Average number of milliseconds after which to automatically disable Realtime Preview.",
+			"value": 6000
+		}
+	},
+	"manifest_version": 2
+}

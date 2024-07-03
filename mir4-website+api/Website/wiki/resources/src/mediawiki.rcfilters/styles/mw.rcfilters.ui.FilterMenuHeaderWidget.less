@@ -1,0 +1,51 @@
+@import 'mediawiki.skin.variables.less';
+@import 'mw.rcfilters.variables.less';
+@import 'mediawiki.mixins.less';
+
+.mw-rcfilters-ui-filterMenuHeaderWidget {
+	&-title {
+		display: inline-block;
+		font-size: 1.2em;
+		padding: 0.75em 0 0.75em 0.5em;
+		color: @color-subtle;
+	}
+
+	&-helpIcon {
+		position: absolute;
+		top: 50%;
+		transform: translateY( -50% );
+	}
+
+	&-header {
+		background-color: @background-color-neutral-subtle;
+		border-bottom: @border-subtle;
+
+		&-highlight {
+			min-width: 1em;
+			// Using the same padding that the filter item
+			// uses, so the button is aligned with the highlight
+			// buttons for the filters
+			padding-right: 12 / @font-size-system-ui / @font-size-vector;
+			// Set the left-padding here, so that the invert buttons have the same padding
+			padding-left: 12 / @font-size-system-ui / @font-size-vector;
+		}
+
+		&-back {
+			width: 1em;
+
+			.mw-rcfilters-ui-filterMenuHeaderWidget-backButton:first-child {
+				// Overwrite `.oo-ui-buttonElement-frameless.oo-ui-iconElement:first-child`
+				margin-left: 0;
+			}
+		}
+
+		&-title {
+			position: relative;
+			width: 100%;
+		}
+	}
+
+	.mw-rcfilters-ui-cell {
+		vertical-align: middle;
+	}
+}

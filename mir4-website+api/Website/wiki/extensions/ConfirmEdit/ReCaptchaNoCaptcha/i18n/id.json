@@ -1,0 +1,16 @@
+{
+	"@metadata": {
+		"authors": [
+			"Daud I.F. Argana"
+		]
+	},
+	"renocaptcha-desc": "Modul reCAPTCHA NoCAPTCHA untuk Confirm Edit",
+	"renocaptcha-edit": "Untuk melindungi wiki ini dari spam suntingan otomatis, kami memohon Anda menyelesaikan CAPTCHA berikut:",
+	"renocaptcha-addurl": "Suntingan Anda mengandung pranala luar baru. Untuk melindungi wiki dari spam otomatis, kami memohon Anda untuk menyelesaikan CAPTCHA berikut:",
+	"renocaptcha-badlogin": "Untuk melindungi wiki ini dari peretasan kata sandi otomatis, kami memohon Anda menyelesaikan CAPTCHA berikut:",
+	"renocaptcha-createaccount": "Untuk melindungi wiki ini dari pembuatan akun otomatis, kami memohon Anda menyelesaikan CAPTCHA berikut:",
+	"renocaptcha-createaccount-fail": "Tampaknya Anda belum menyelesaikan CAPTCHA-nya.",
+	"renocaptcha-create": "Untuk melindungi wiki ini dari pembuatan halaman otomatis, kami memohon Anda menyelesaikan CAPTCHA berikut:",
+	"renocaptcha-noscript": "Sayangnya Anda telah mematikan JavaScript, jadi kami tidak bisa mengenali secara otomatis apakah Anda manusia atau bukan. Tolong selesaikan CAPTCHA di atas dan salin hasil teksnya ke dalam kotak teks berikut:",
+	"renocaptcha-help": "Tolong selesaikan sebuah tantangan ReCaptcha NoCaptcha dan kembalikan nilai respons sebagai captchaWord."
+}

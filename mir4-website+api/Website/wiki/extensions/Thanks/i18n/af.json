@@ -1,0 +1,30 @@
+{
+	"@metadata": {
+		"authors": [
+			"Naudefj"
+		]
+	},
+	"thanks-desc": "Voeg 'n \"Bedank\"-skakel by geskiedenis en weergawe-verskille",
+	"thanks-thank": "{{GENDER:$1|{{GENDER:$2|bedank}}}}",
+	"thanks-thanked": "{{GENDER:$1|is bedank}}",
+	"thanks-button-thank": "{{GENDER:$1|Bedank}}",
+	"thanks-button-thanked": "{{GENDER:$1|Is bedank}}",
+	"thanks-error-undefined": "Bedanking het gefaal. Probeer asseblief weer.",
+	"thanks-error-invalidrevision": "Die weergawenommer is nie geldig nie.",
+	"thanks-error-ratelimited": "{{GENDER:$1|U}} het u limiet vir bedankings oorskry. Wag eers en probeer dan weer.",
+	"thanks-thank-tooltip": "{{GENDER:$1|Stuur}} die {{GENDER:$2|gebruiker}} 'n dankiesê-kennisgewing",
+	"thanks-confirmation2": "{{GENDER:$1|Sê}} dankie vir die wysiging?",
+	"thanks-thanked-notice": "$1 is in kennis gestel dat u van {{GENDER:$2|sy|haar|sy/haar}} wysiging hou.",
+	"thanks": "Stuur bedanking",
+	"echo-pref-subscription-edit-thank": "as iemand u vir 'n wysiging bedank",
+	"echo-pref-tooltip-edit-thank": "Laat my weet as iemand my vir 'n wysiging bedank.",
+	"echo-category-title-edit-thank": "Dankiesê-kennisgewings",
+	"log-name-thanks": "Bedankingslogboek",
+	"log-description-thanks": "Hieronder is 'n lys van gebruikers wat deur ander gebruikers bedank is.",
+	"logentry-thanks-thank": "$1 {{GENDER:$2|het}} {{GENDER:$4|$3}} bedank",
+	"thanks-error-no-id-specified": "U moet 'n WysigingID verskaf om iemand te bedank.",
+	"notification-link-text-view-post": "Wys opmerking",
+	"thanks-error-invalidpostid": "PosID is ongeldig",
+	"flow-thanks-confirmation-special": "Wil u vir hierdie opmerking dankie sê?",
+	"flow-thanks-thanked-notice": "$1 is laat weet dat u {{GENDER:$2|hom|haar|hom/haar}} vir {{GENDER:$2|sy|haar|sy/haar}} opmerking bedank het."
+}

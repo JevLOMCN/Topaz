@@ -1,0 +1,34 @@
+{
+	"@metadata": {
+		"authors": [
+			"Daud I.F. Argana",
+			"IvanLanin",
+			"Iwan Novirion",
+			"Meursault2004",
+			"RXerself",
+			"Rachmat04",
+			"Rex"
+		]
+	},
+	"pfunc_desc": "Mengembangkan parser dengan fungsi logis",
+	"pfunc_time_error": "Kesalahan: waktu tidak sah.",
+	"pfunc_time_too_long": "Kesalahan: Pemanggilan #time terlalu banyak",
+	"pfunc_time_too_big": "Galat: #time hanya mendukung tahun hingga 9999",
+	"pfunc_time_too_small": "Galat: #time hanya mendukung tahun dari 0",
+	"pfunc_rel2abs_invalid_depth": "Kesalahan: Kedalaman path tidak valid: \"$1\" (mencoba mengakses simpul di atas simpul akar)",
+	"pfunc_expr_stack_exhausted": "Kesalahan ekspresi: Stack habis",
+	"pfunc_expr_unexpected_number": "Kesalahan ekspresi: Angka yang tak terduga",
+	"pfunc_expr_preg_match_failure": "Kesalahan ekspresi: Kegagalan preg_match tak terduga",
+	"pfunc_expr_unrecognised_word": "Kesalahan ekspresi: Kata \"$1\" tidak dikenal.",
+	"pfunc_expr_unexpected_operator": "Kesalahan ekspresi: Operator $1 tak terduga",
+	"pfunc_expr_missing_operand": "Kesalahan ekspresi: Operand tak ditemukan untuk $1",
+	"pfunc_expr_unexpected_closing_bracket": "Kesalahan ekspresi: Kurung tutup tak terduga",
+	"pfunc_expr_unrecognised_punctuation": "Kesalahan ekspresi: Karakter tanda baca \"$1\" tidak dikenal.",
+	"pfunc_expr_unclosed_bracket": "Kesalahan ekspresi: Kurung tanpa tutup",
+	"pfunc_expr_division_by_zero": "Pembagian oleh nol.",
+	"pfunc_expr_invalid_argument": "Argumen tidak berlaku untuk $1: < -1 or > 1",
+	"pfunc_expr_invalid_argument_ln": "Argumen tidak berlaku untuk ln: <= 0",
+	"pfunc_expr_unknown_error": "Kesalahan ekspresi: Kesalahan tak dikenal ($1)",
+	"pfunc_expr_not_a_number": "Pada $1: hasilnya bukan angka",
+	"pfunc_string_too_long": "Kesalahan: String melebihi limit $1 karakter"
+}

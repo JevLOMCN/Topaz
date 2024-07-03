@@ -1,0 +1,19 @@
+{
+	"@metadata": {
+		"authors": [
+			"Kly",
+			"LNDDYL",
+			"捍粵者"
+		]
+	},
+	"apihelp-query+oath-summary": "檢查是否有替使用者啟用雙因素驗證（OATH）。",
+	"apihelp-query+oath-param-user": "要取得有關資訊的使用者。預設是目前使用者。",
+	"apihelp-query+oath-param-reason": "查詢 OATH 狀態的原因。",
+	"apihelp-query+oath-example-1": "取得目前使用者的資訊",
+	"apihelp-query+oath-example-2": "取得使用者 <kbd>Example</kbd> 的資訊",
+	"apihelp-oathvalidate-summary": "驗證雙因素驗證（OATH）權杖。",
+	"apihelp-oathvalidate-param-user": "要驗證權杖的使用者。預設是目前使用者。",
+	"apihelp-oathvalidate-example-1": "驗證目前使用者的 JSON 資料",
+	"apihelp-oathvalidate-example-3": "為使用者 <kbd>Example</kbd> 驗證 JSON 資料",
+	"apihelp-oathvalidate-param-data": "用於驗證使用者的目前有效模組之預期JSON編碼資料"
+}

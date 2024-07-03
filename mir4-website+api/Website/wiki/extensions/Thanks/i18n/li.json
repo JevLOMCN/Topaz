@@ -1,0 +1,16 @@
+{
+	"@metadata": {
+		"authors": [
+			"Ooswesthoesbes"
+		]
+	},
+	"thanks-desc": "Veug links toe veur gebroekers te bedanke veur bewirkinge, reacties en zo wiejer.",
+	"thanks-thank": "{{GENDER:$1|{{GENDER:$2|bedank}}}}",
+	"thanks-thanked": "{{GENDER:$1|{{GENDER:$2|weurt bedank}}}}",
+	"thanks-button-thank": "{{GENDER:$1|{{GENDER:$2|Bedank}}}}",
+	"thanks-button-thanked": "{{GENDER:$1|{{GENDER:$2|Bedank}}}}",
+	"thanks-error-undefined": "Bedanke mislök (foutmeljing: $1). Perbeer oppernuuj.",
+	"thanks-error-invalid-log-id": "Logbookregel neet gevónje",
+	"thanks-thank-tooltip": "{{GENDER:$1|Sjik}} {{GENDER:$2|deze gebroeker}} dienen dank",
+	"echo-category-title-edit-thank": "Danke"
+}

@@ -1,0 +1,127 @@
+{
+	"name": "SyntaxHighlight",
+	"version": "2.0",
+	"author": [
+		"Brion Vibber",
+		"Tim Starling",
+		"Rob Church",
+		"Niklas Laxström",
+		"Ori Livneh",
+		"Ed Sanders"
+	],
+	"url": "https://www.mediawiki.org/wiki/Extension:SyntaxHighlight",
+	"descriptionmsg": "syntaxhighlight-desc",
+	"license-name": "GPL-2.0-or-later",
+	"type": "parserhook",
+	"requires": {
+		"MediaWiki": ">= 1.42",
+		"platform": {
+			"ability-shell": true
+		}
+	},
+	"MessagesDirs": {
+		"SyntaxHighlight_GeSHi": [
+			"i18n"
+		]
+	},
+	"AutoloadNamespaces": {
+		"MediaWiki\\SyntaxHighlight\\": "includes/"
+	},
+	"ResourceFileModulePaths": {
+		"localBasePath": "modules",
+		"remoteExtPath": "SyntaxHighlight_GeSHi/modules"
+	},
+	"ResourceModules": {
+		"ext.pygments": {
+			"class": "MediaWiki\\SyntaxHighlight\\ResourceLoaderPygmentsModule",
+			"styles": [
+				"pygments.wrapper.less"
+			]
+		},
+		"ext.pygments.linenumbers": {
+			"scripts": [
+				"pygments.linenumbers.js"
+			],
+			"dependencies": [
+				"mediawiki.util"
+			]
+		},
+		"ext.geshi.visualEditor": {
+			"scripts": [
+				"ve-syntaxhighlight/ve.dm.MWSyntaxHighlightNode.js",
+				"ve-syntaxhighlight/ve.dm.MWBlockSyntaxHighlightNode.js",
+				"ve-syntaxhighlight/ve.dm.MWInlineSyntaxHighlightNode.js",
+				"ve-syntaxhighlight/ve.ce.MWSyntaxHighlightNode.js",
+				"ve-syntaxhighlight/ve.ce.MWBlockSyntaxHighlightNode.js",
+				"ve-syntaxhighlight/ve.ce.MWInlineSyntaxHighlightNode.js",
+				"ve-syntaxhighlight/ve.ui.MWSyntaxHighlightWindow.js",
+				"ve-syntaxhighlight/ve.ui.MWSyntaxHighlightDialog.js",
+				"ve-syntaxhighlight/ve.ui.MWSyntaxHighlightDialogTool.js",
+				"ve-syntaxhighlight/ve.ui.MWSyntaxHighlightInspector.js",
+				"ve-syntaxhighlight/ve.ui.MWSyntaxHighlightInspectorTool.js",
+				{
+					"name": "ve-syntaxhighlight/ve.MWSyntaxHighlightConfig.js",
+					"callback": "MediaWiki\\SyntaxHighlight\\VisualEditorConfig::makeScript"
+				}
+			],
+			"styles": [
+				"ve-syntaxhighlight/ve.ce.MWSyntaxHighlightNode.css",
+				"ve-syntaxhighlight/ve.ui.MWSyntaxHighlightDialog.css",
+				"ve-syntaxhighlight/ve.ui.MWSyntaxHighlightInspector.css"
+			],
+			"dependencies": [
+				"ext.visualEditor.mwcore",
+				"oojs-ui.styles.icons-editing-advanced"
+			],
+			"messages": [
+				"syntaxhighlight-visualeditor-mwsyntaxhighlightinspector-code",
+				"syntaxhighlight-visualeditor-mwsyntaxhighlightinspector-language",
+				"syntaxhighlight-visualeditor-mwsyntaxhighlightinspector-none",
+				"syntaxhighlight-visualeditor-mwsyntaxhighlightinspector-showlines",
+				"syntaxhighlight-visualeditor-mwsyntaxhighlightinspector-startingline",
+				"syntaxhighlight-visualeditor-mwsyntaxhighlightinspector-title"
+			]
+		}
+	},
+	"Hooks": {
+		"ParserFirstCallInit": "main",
+		"ContentGetParserOutput": "main",
+		"ApiFormatHighlight": "main",
+		"SoftwareInfo": "main"
+	},
+	"HookHandlers": {
+		"main": {
+			"class": "MediaWiki\\SyntaxHighlight\\SyntaxHighlight"
+		}
+	},
+	"ParsoidModules": [
+		"MediaWiki\\SyntaxHighlight\\ParsoidExt"
+	],
+	"attributes": {
+		"SyntaxHighlight": {
+			"Models": {}
+		},
+		"VisualEditor": {
+			"PluginModules": [
+				"ext.geshi.visualEditor"
+			]
+		}
+	},
+	"config": {
+		"PygmentizePath": {
+			"value": false
+		},
+		"SyntaxHighlightMaxLines": {
+			"value": 1000
+		},
+		"SyntaxHighlightMaxBytes": {
+			"value": 102400
+		}
+	},
+	"TrackingCategories": [
+		"syntaxhighlight-error-category",
+		"syntaxhighlight-enclose-category",
+		"syntaxhighlight-source-category"
+	],
+	"manifest_version": 2
+}

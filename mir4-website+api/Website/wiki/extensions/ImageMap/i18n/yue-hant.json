@@ -1,0 +1,20 @@
+{
+	"@metadata": {
+		"authors": [
+			"Winston Sung"
+		]
+	},
+	"imagemap_desc": "容許客戶端可以用<code>&lt;imagemap&gt;</code>標籤整可撳圖像地圖",
+	"imagemap_no_image": "錯誤：一定要響第一行指定一幅圖像",
+	"imagemap_invalid_image": "錯誤: 圖像唔正確或者唔存在",
+	"imagemap_bad_image": "錯誤: 圖像響呢一版已經列入咗黑名單度",
+	"imagemap_no_link": "錯誤: 響第$1行結尾度搵唔到一個正式嘅連結",
+	"imagemap_invalid_title": "錯誤: 響第$1行度嘅標題連結唔正確",
+	"imagemap_missing_coord": "錯誤：第$1行未夠座標去組成形狀",
+	"imagemap_unrecognised_shape": "錯誤：第$1行有未能認出嘅形狀，每行一定要用以下其中一樣開始：<code>default</code>、<code>rect</code>, <code>circle</code>或<code>poly</code>",
+	"imagemap_invalid_coord": "錯誤: 響第$1行度有唔正確嘅座標，佢一定係一個數字",
+	"imagemap_invalid_desc": "錯誤: 唔正確嘅 desc 參數，一定係要以下嘅其中之一: $1",
+	"imagemap_description": "關於呢幅圖像",
+	"imagemap_desc_types": "右上, 右下, 左下, 左上, 無",
+	"imagemap_poly_odd": "錯誤: 響第$1行搵到單數嘅多邊坐標"
+}

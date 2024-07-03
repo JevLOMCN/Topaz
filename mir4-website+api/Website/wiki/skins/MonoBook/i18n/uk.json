@@ -1,0 +1,27 @@
+{
+	"@metadata": {
+		"authors": [
+			"DDPAT",
+			"Dim Grits",
+			"Ice bulldog",
+			"Matma Rex",
+			"Piramidion",
+			"Ата"
+		]
+	},
+	"skinname-monobook": "Моно-книга",
+	"monobook-desc": "Класична тема оформлення MediaWiki з 2004 року, названа за чорно-білим фото книги на фоні сторінки",
+	"monobook.css": "/* Увесь тут CSS буде завантажений до всіх тем оформлення Monobook */",
+	"monobook.js": "/* Увесь тут код JavaScript буде завантажений для всіх користувачів, що використовують тему оформлення Моно-книга */",
+	"monobook-jumptotop": "повернутися вгору",
+	"monobook-jumptopersonal": "користувацькі інструменти",
+	"monobook-jumptonavigation": "Перейти до навігації",
+	"monobook-jumptosearch": "Перейти до пошуку",
+	"monobook-more-actions": "Більше",
+	"cactions-mobile": "Дії на сторінці",
+	"monobook-cactions-label": "Дії над сторінкою",
+	"monobook-notifications-link": "Сповіщення ($1)",
+	"monobook-notifications-link-none": "Сповіщення",
+	"monobook-view-history": "Історія",
+	"monobook-action-undelete": "Відновити $1 {{PLURAL:$1|редагування|редагування|редагувань}}"
+}

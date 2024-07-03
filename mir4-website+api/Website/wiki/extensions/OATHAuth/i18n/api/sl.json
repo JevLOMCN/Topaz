@@ -1,0 +1,19 @@
+{
+	"@metadata": {
+		"authors": [
+			"Dbc334",
+			"Eleassar",
+			"Janezdrilc"
+		]
+	},
+	"apihelp-query+oath-summary": "Preveri, ali ima uporabnik vklopljeno dvofaktorsko avtentikacijo (OATH).",
+	"apihelp-query+oath-param-user": "Uporabnik, katerega informacije so prikazane. Predpostavljen je trenutni uporabnik.",
+	"apihelp-query+oath-param-reason": "Razlog za preverjanje stanja OATH.",
+	"apihelp-query+oath-example-1": "Prikaži informacije o trenutnem uporabniku",
+	"apihelp-query+oath-example-2": "Prikaži informacije o uporabniku <kbd>Example</kbd>",
+	"apihelp-oathvalidate-summary": "Preveri žeton dvofaktorske avtentikacije (OATH).",
+	"apihelp-oathvalidate-param-user": "Uporabnik, katerega žeton se potrjuje. Predpostavljen je trenutni uporabnik.",
+	"apihelp-oathvalidate-example-1": "Preverba podatkov JSON za trenutnega uporabnika",
+	"apihelp-oathvalidate-example-3": "Preverjanje podatkov JSON za uporabnika <kbd>Zgled</kbd>",
+	"apihelp-oathvalidate-param-data": "JSON-kodirani podatki, ki jih trenutno aktivirani modul pričakuje za avtenticiranega uporabnika"
+}

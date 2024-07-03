@@ -1,0 +1,33 @@
+{
+	"@metadata": {
+		"authors": [
+			"Maxí",
+			"S.Örvarr.S",
+			"Snævar",
+			"Stefán Örvar Sigmundsson",
+			"Sveinn í Felli"
+		]
+	},
+	"nuke": "Fjöldaeyða",
+	"action-nuke": "fjöldaeyða síðum",
+	"nuke-desc": "Gefur möppudýrum kleyft að [[Special:Nuke|fjöldaeyða]] síðum.",
+	"nuke-nopages": "Engar nýjar síður eftir [[Special:Contributions/$1|{{GENDER:$1|$1}}]] í nýlegum breytingum.",
+	"nuke-list": "Eftirfarandi síður voru nýlega búnar til af [[Special:Contributions/$1|{{GENDER:$1|$1}}]];\ntilgreindu athugasemd og smelltu á hnappinn til að eyða þeim.",
+	"nuke-list-multiple": "Eftirfarandi síður voru nýlega búnar til;\ntilgreindu athugasemd og smelltu á hnappinn til að eyða þeim.",
+	"nuke-defaultreason": "Fjöldaeyðing síðna sem búnar voru til af [[Special:Contributions/$1|{{GENDER:$1|$1}}]]",
+	"nuke-multiplepeople": "Fjöldaeyðing nýjustu greina",
+	"nuke-tools": "Þetta verkfæri heimilar fjöldaeyðingu síðna sem nýlega voru bættar við af gefnum notanda eða IP-staðfangi.\nSettu inn notandanafnið eða IP-staðfangið til að fá lista síðna til eyðingar eða skildu eftir autt fyrir alla notendur.",
+	"nuke-submit-user": "Lista síður",
+	"nuke-submit-delete": "Eyða völdum síðum",
+	"right-nuke": "Fjöldaeyða síðum",
+	"nuke-userorip": "Notandanafn, IP-staðfang eða tómt:",
+	"nuke-maxpages": "Hámarksfjöldi síðna:",
+	"nuke-editby": "Búnar til af [[Special:Contributions/$1|{{GENDER:$1|$1}}]]",
+	"nuke-deleted": "'''$1''' hefur verið eytt.",
+	"nuke-not-deleted": "Mistök við eyðingu síðunnar [[:$1]].",
+	"nuke-delete-more": "[[Special:Nuke|Fjöldaeyða fleiri skrám]]",
+	"nuke-pattern": "SQL-LÍKT mynstur (t.d. %) fyrir nafn á síðuna:",
+	"nuke-nopages-global": "Það eru engir síðutitlar samsvarandi leitinni þinni.",
+	"nuke-viewchanges": "skoða breytingar",
+	"nuke-linkoncontribs": "fjöldaeyða"
+}

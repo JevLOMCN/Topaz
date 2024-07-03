@@ -1,0 +1,169 @@
+{
+	"@doc": "Please read README.md",
+	"name": "ConfirmEdit",
+	"version": "1.6.0",
+	"author": [
+		"Brion Vibber",
+		"Florian Schmidt",
+		"Sam Reed",
+		"..."
+	],
+	"url": "https://www.mediawiki.org/wiki/Extension:ConfirmEdit",
+	"descriptionmsg": "captcha-desc",
+	"license-name": "GPL-2.0-or-later",
+	"type": "antispam",
+	"requires": {
+		"MediaWiki": ">= 1.42"
+	},
+	"GroupPermissions": {
+		"*": {
+			"skipcaptcha": false
+		},
+		"user": {
+			"skipcaptcha": false
+		},
+		"autoconfirmed": {
+			"skipcaptcha": false
+		},
+		"bot": {
+			"skipcaptcha": true
+		},
+		"sysop": {
+			"skipcaptcha": true
+		}
+	},
+	"AvailableRights": [
+		"skipcaptcha"
+	],
+	"GrantPermissions": {
+		"basic": {
+			"skipcaptcha": true
+		}
+	},
+	"ExtensionFunctions": [
+		"MediaWiki\\Extension\\ConfirmEdit\\Hooks::confirmEditSetup"
+	],
+	"SpecialPages": {
+		"Captcha": "MediaWiki\\Extension\\ConfirmEdit\\Specials\\SpecialCaptcha"
+	},
+	"MessagesDirs": {
+		"ConfirmEdit": [
+			"i18n",
+			"i18n/api"
+		]
+	},
+	"ExtensionMessagesFiles": {
+		"ConfirmEditAlias": "ConfirmEdit.alias.php"
+	},
+	"AutoloadClasses": {
+		"CaptchaCacheStore": "includes/Store/CaptchaCacheStore.php",
+		"ConfirmEditHooks": "includes/Hooks.php",
+		"MediaWiki\\Extension\\ConfirmEdit\\Hooks": "includes/Hooks.php",
+		"MediaWiki\\Extension\\ConfirmEdit\\Store\\CaptchaCacheStore": "includes/Store/CaptchaCacheStore.php"
+	},
+	"AutoloadNamespaces": {
+		"MediaWiki\\Extension\\ConfirmEdit\\": "includes/",
+		"MediaWiki\\Extension\\ConfirmEdit\\SimpleCaptcha\\": "SimpleCaptcha/"
+	},
+	"ResourceModules": {
+		"ext.confirmEdit.editPreview.ipwhitelist.styles": {
+			"styles": "ext.confirmEdit.editPreview.ipwhitelist.styles.css"
+		},
+		"ext.confirmEdit.visualEditor": {
+			"scripts": "ve-confirmedit/ve.init.mw.CaptchaSaveErrorHandler.js",
+			"dependencies": "ext.confirmEdit.CaptchaInputWidget"
+		},
+		"ext.confirmEdit.simpleCaptcha": {
+			"styles": "../SimpleCaptcha/resources/ext.confirmEdit.simpleCaptcha.css"
+		}
+	},
+	"attributes": {
+		"VisualEditor": {
+			"PluginModules": [
+				"ext.confirmEdit.visualEditor"
+			]
+		}
+	},
+	"ResourceFileModulePaths": {
+		"localBasePath": "resources",
+		"remoteExtPath": "ConfirmEdit/resources"
+	},
+	"HookHandlers": {
+		"ConfirmEditHooks": {
+			"class": "MediaWiki\\Extension\\ConfirmEdit\\Hooks"
+		}
+	},
+	"Hooks": {
+		"EditPageBeforeEditButtons": "ConfirmEditHooks",
+		"EmailUserForm": "ConfirmEditHooks",
+		"EmailUser": "ConfirmEditHooks",
+		"PageSaveComplete": "ConfirmEditHooks",
+		"TitleReadWhitelist": "ConfirmEditHooks",
+		"AlternateEditPreview": "ConfirmEditHooks",
+		"ResourceLoaderRegisterModules": "ConfirmEditHooks",
+		"EditPage::showEditForm:fields": "ConfirmEditHooks",
+		"EditFilterMergedContent": "ConfirmEditHooks",
+		"APIGetAllowedParams": "ConfirmEditHooks",
+		"AuthChangeFormFields": "ConfirmEditHooks"
+	},
+	"AuthManagerAutoConfig": {
+		"preauth": {
+			"CaptchaPreAuthenticationProvider": {
+				"class": "MediaWiki\\Extension\\ConfirmEdit\\Auth\\CaptchaPreAuthenticationProvider",
+				"sort": 10
+			}
+		}
+	},
+	"config": {
+		"CaptchaWhitelistIP": {
+			"value": false
+		},
+		"Captcha": {
+			"value": null
+		},
+		"CaptchaTriggers": {
+			"value": {
+				"edit": false,
+				"create": false,
+				"sendemail": false,
+				"addurl": true,
+				"createaccount": true,
+				"badlogin": true,
+				"badloginperuser": true
+			},
+			"merge_strategy": "array_plus"
+		},
+		"CaptchaTriggersOnNamespace": {
+			"value": {},
+			"merge_strategy": "array_plus_2d"
+		},
+		"CaptchaStorageClass": {
+			"value": "MediaWiki\\Extension\\ConfirmEdit\\Store\\CaptchaSessionStore"
+		},
+		"CaptchaSessionExpiration": {
+			"value": 1800
+		},
+		"CaptchaBadLoginExpiration": {
+			"value": 300
+		},
+		"CaptchaBadLoginPerUserExpiration": {
+			"value": 600
+		},
+		"AllowConfirmedEmail": {
+			"value": false
+		},
+		"CaptchaBadLoginAttempts": {
+			"value": 3
+		},
+		"CaptchaBadLoginPerUserAttempts": {
+			"value": 20
+		},
+		"CaptchaWhitelist": {
+			"value": false
+		},
+		"CaptchaRegexes": {
+			"value": []
+		}
+	},
+	"manifest_version": 2
+}

@@ -1,0 +1,26 @@
+{
+	"@metadata": {
+		"authors": []
+	},
+	"pfunc_desc": "Enhance parser with logical functions",
+	"pfunc_time_error": "Error: Invalid time.",
+	"pfunc_time_too_long": "Error: Too many #time calls.",
+	"pfunc_time_too_big": "Error: #time only supports years up to 9999.",
+	"pfunc_time_too_small": "Error: #time only supports years from 0.",
+	"pfunc_rel2abs_invalid_depth": "Error: Invalid depth in path: \"$1\" (tried to access a node above the root node).",
+	"pfunc_expr_stack_exhausted": "Expression error: Stack exhausted.",
+	"pfunc_expr_unexpected_number": "Expression error: Unexpected number.",
+	"pfunc_expr_preg_match_failure": "Expression error: Unexpected preg_match failure.",
+	"pfunc_expr_unrecognised_word": "Expression error: Unrecognized word \"$1\".",
+	"pfunc_expr_unexpected_operator": "Expression error: Unexpected $1 operator.",
+	"pfunc_expr_missing_operand": "Expression error: Missing operand for $1.",
+	"pfunc_expr_unexpected_closing_bracket": "Expression error: Unexpected closing bracket.",
+	"pfunc_expr_unrecognised_punctuation": "Expression error: Unrecognized punctuation character \"$1\".",
+	"pfunc_expr_unclosed_bracket": "Expression error: Unclosed bracket.",
+	"pfunc_expr_division_by_zero": "Division by zero.",
+	"pfunc_expr_invalid_argument": "Invalid argument for $1: less than -1 or greater than 1.",
+	"pfunc_expr_invalid_argument_ln": "Invalid argument for ln: less than or equal to 0.",
+	"pfunc_expr_unknown_error": "Expression error: Unknown error ($1).",
+	"pfunc_expr_not_a_number": "In $1: Result is not a number.",
+	"pfunc_string_too_long": "Error: String exceeds $1 character limit."
+}

@@ -1,0 +1,36 @@
+{
+	"@metadata": {
+		"authors": [
+			"Akerbeltz",
+			"GunChleoc"
+		]
+	},
+	"categorytree": "Craobh nan roinnean-seòrsa",
+	"categorytree-portlet": "Roinnean-seòrsa",
+	"categorytree-legend": "Seall craobh nan roinnean-seòrsa",
+	"categorytree-desc": "Seòl [[Special:CategoryTree|structar nan roinnean-seòrsa]] gu h-innsgineach",
+	"categorytree-header": "Cuir a-steach ainm roinn-seòrsa gus a susbaint a shealltainn 'na chraobh.\nThoir an aire gum bi feum agad air foincsean JavaScript adhartach air a bheil AJAX.\nChan obraich e ma tha brabhsair glè shean agad no ma tha JavaScript à comas.",
+	"categorytree-category": "Roinn-seòrsa:",
+	"categorytree-go": "Seall a' chraobh",
+	"categorytree-parents": "Pàrantan",
+	"categorytree-mode-label": "Modh:",
+	"categorytree-mode-categories": "roinnean-seòrsa a-mhàin",
+	"categorytree-mode-pages": "duilleagan seach faidhlichean",
+	"categorytree-mode-all": "a h-uile duilleag",
+	"categorytree-collapse": "co-theannaich",
+	"categorytree-expand": "leudaich",
+	"categorytree-member-counts": "Tha $1 {{PLURAL:$1|fho-roinn-seòrsa|fho-roinn-seòrsa|fo-roinnean-seòrsa|fo-roinn-seòrsa}}, $2 {{PLURAL:$2|duilleag|dhuilleag|duilleagan|duilleag}} 's $3 {{PLURAL:$3|fhaidhle|fhaidhle|faidhlichean|faidhle}} 'na broinn",
+	"categorytree-num-categories": "$1 R-S",
+	"categorytree-num-pages": "$1 D",
+	"categorytree-num-files": "$1 F",
+	"categorytree-num-empty": "falamh",
+	"categorytree-load": "luchdaich",
+	"categorytree-loading": "'ga luchdadh…",
+	"categorytree-nothing-found": "cha deach càil a lorg",
+	"categorytree-no-subcategories": "gun fho-roinn-seòrsa",
+	"categorytree-no-parent-categories": "gun roinn-seòrsa pàraint",
+	"categorytree-no-pages": "gun duilleag no fho-roinn-seòrsa",
+	"categorytree-not-found": "Cha deach an roinn-seòrsa <i>$1</i> a lorg",
+	"categorytree-error": "Duilgheadas le luchdadh an dàta.",
+	"categorytree-retry": "Fuirich greiseag 's feuch ris a-rithist."
+}

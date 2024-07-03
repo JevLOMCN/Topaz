@@ -1,0 +1,40 @@
+{
+	"@metadata": {
+		"authors": [
+			"NMW03",
+			"Toghrul Rahimli",
+			"Wertuose",
+			"Zpizza",
+			"Atakhanli",
+			"Nemoralis"
+		]
+	},
+	"linterrors": "Lint xətaları",
+	"linter-category-bogus-image-options": "Saxta fayl seçimləri",
+	"linter-category-bogus-image-options-desc": "Bu səhifələrdə saxta seçimləri olan fayllar var.",
+	"linter-category-large-tables": "Mobildə görünüşü çətin olan Böyük Cədvəllər",
+	"linter-category-large-tables-desc": "Bu səhifələrdə mobil cihazlarda görünüşü çətin olan cədvəllər var",
+	"linter-category-deletable-table-tag": "Silinməli olan cədvəl teqi",
+	"linter-category-deletable-table-tag-desc": "Bu səhifələrdə silinməli olan cədvəl teqləri var.",
+	"linter-category-fostered": "Təşviq edilmiş məzmun",
+	"linter-category-fostered-desc": "Bu səhifələrin məzmunu təşviq edilib.",
+	"linter-category-html5-misnesting": "HTML5 və HTML4-də fərqli renderlənməyə sahib yanlış iç-içə daxil edilmiş teq",
+	"linter-category-html5-misnesting-desc": "Bu səhv daxil edilmiş teqlər HTML4 ilə müqayisədə HTML5-də fərqli davranacaq.",
+	"linter-category-misc-tidy-replacement-issues": "Müxtəlif problemlər",
+	"linter-category-misc-tidy-replacement-issues-desc": "Bu səhifələrin əvvəllər göründüyündən fərqli şəkildə görünməsinə səbəb olan başqa problemləri var",
+	"linter-category-misnested-tag": "İç-içə keçirilmiş teqlər",
+	"linter-category-misnested-tag-desc": "Bu səhifələrdə düzəldilə bilən yanlış daxil edilmiş teqlər var.",
+	"linter-category-missing-end-tag": "Çatışmayan son teqi",
+	"linter-category-missing-end-tag-desc": "Bu səhifələrin sonlandırıcı teqləri yoxdur.",
+	"linter-category-missing-end-tag-in-heading": "Başlıqda çatışmayan son etiketi",
+	"linter-category-missing-end-tag-in-heading-desc": "Bu səhifələrin başlıqlarında sonlandırma teqləri yoxdur.",
+	"linter-category-self-closed-tag": "Self-qapalı tags",
+	"linter-category-self-closed-tag-desc": "Bu pages özünü qapalı tags var.",
+	"linter-heading-high-priority": "Yüksək prioritet",
+	"linter-heading-low-priority": "Aşağı prioritet",
+	"linter-heading-medium-priority": "Orta prioritet",
+	"linter-page-edit": "redaktə",
+	"linter-page-viewsource": "mənbəyə bax",
+	"linter-pager-self-closed-tag-details": "Self-qapalı tag",
+	"linterrors-summary": "<strong>Qeyd:</strong> Kateqoriyalar üçün hesablamalar dəqiq hesablamalar deyil, təxminlərə əsaslanır."
+}

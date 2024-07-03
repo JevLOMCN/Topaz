@@ -1,0 +1,27 @@
+{
+	"@metadata": {
+		"authors": [
+			"GuoPC",
+			"LittlePaw365",
+			"Liuxinyu970226",
+			"Xiplus",
+			"Yfdyh000"
+		]
+	},
+	"apihelp-query+extracts-summary": "返回指定页面的纯文本或有限HTML格式摘录。",
+	"apihelp-query+extracts-param-chars": "返回字符数。实际返回的文本可能比这稍长。",
+	"apihelp-query+extracts-param-sentences": "返回句子数。",
+	"apihelp-query+extracts-param-limit": "返回摘录数。（当exintro设为true时才能返回多段摘录。）",
+	"apihelp-query+extracts-param-intro": "只返回首个章节前的内容。",
+	"apihelp-query+extracts-param-plaintext": "以纯文本而非有限HTML返回摘录。",
+	"apihelp-query+extracts-param-sectionformat": "纯文本模式下格式化章节方式：",
+	"apihelp-query+extracts-paramvalue-sectionformat-plain": "无格式。",
+	"apihelp-query+extracts-paramvalue-sectionformat-wiki": "wikitext样式的格式（== 像这样 ==）。",
+	"apihelp-query+extracts-paramvalue-sectionformat-raw": "此模块的内部表示方法（章节标题前缀&lt;ASCII 1&gt;&lt;ASCII 2&gt;&lt;章节级别&gt;&lt;ASCII 2&gt;&lt;ASCII 1&gt;）",
+	"apihelp-query+extracts-example-1": "获取175个字符的摘录",
+	"apiwarn-textextracts-limit": "<var>exlimit</var>对于完整条目摘录请求而言过大，已降低为$1。",
+	"apiwarn-textextracts-unsupportedmodel": "$1有不受支持的内容模型$2，将返回空摘录。",
+	"apiwarn-textextracts-title-in-file-namespace": "请求了文件命名空间内标题的摘录，因此没有返回。",
+	"apiwarn-textextracts-sentences-and-html": "当用在HTML模式时，<var>$1sentences</var>参数可能有意外结果。",
+	"apiwarn-textextracts-malformed-html": "HTML可能有缺陷和/或不稳定，并可能忽略行内图片。使用时请自行承担风险。已知问题在https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:TextExtracts#Caveats列出。"
+}

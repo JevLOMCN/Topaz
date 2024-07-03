@@ -1,0 +1,31 @@
+{
+	"@metadata": {
+		"authors": [
+			"Dani",
+			"Dj",
+			"Glanthor Reviol",
+			"Tacsipacsi"
+		]
+	},
+	"captcha-edit": "A lap szerkesztéséhez meg kell, hogy kérjünk, írd be a lenti dobozba az alábbi feladat eredményét ([[Special:Captcha/help|segítség]]):",
+	"captcha-edit-fail": "Hibás vagy hiányzó CAPTCHA.",
+	"captcha-desc": "CAPTCHA-technológiák a spamek és a jelszókitalálási technikák ellen",
+	"captcha-help": "A CAPTCHA megoldása.",
+	"captcha-info-help": "A CAPTCHA leírása.",
+	"captcha-id-label": "CAPTCHA-azonosító",
+	"captcha-id-help": "Ezt az értéket változatlanul vissza kell küldeni.",
+	"captcha-addurl": "Szerkesztésed új külső linket tartalmaz. A reklámokat elhelyező robotok kiszűrése érdekében tisztelettel megkérünk, hogy írd be a lenti dobozba az alábbi feladat eredményét ([[Special:Captcha/help|segítség]]):",
+	"captcha-badlogin": "Az automatikus jelszófeltörés kiszűrése érdekében tisztelettel megkérünk, írd be a lenti dobozba az alábbi feladat eredményét ([[Special:Captcha/help|segítség]]):",
+	"captcha-createaccount": "A felhasználói fiókok automatizált létrehozásának kiszűrése érdekében meg kell, hogy kérjünk, írd be a lenti dobozba az alábbi feladat eredményét ([[Special:Captcha/help|segítség]]):",
+	"captcha-createaccount-fail": "Hibás vagy hiányzó ellenőrző kód.",
+	"captcha-create": "Az oldal létrehozásához meg kell, hogy kérjünk, írd be a lenti dobozba az alábbi feladat eredményét ([[Special:Captcha/help|segítség]]):",
+	"captcha-sendemail": "Hogy védjük a wikit az automatizált spamelés ellen, kérünk oldd meg az alábbi feladatot, és írd be az eredményt a szövegdobozba ([[Special:Captcha/help|segítség]]):",
+	"captcha-sendemail-fail": "Hibás vagy hiányzó ellenőrző kód.",
+	"captcha-disabledinapi": "Ez a művelet captcha megoldásához kötött, így nem lehet végrehajtani az API-n keresztül.",
+	"captcha-error": "A CAPTCHA ellenőrzése sikertelen belső hiba miatt: $1",
+	"captchahelp-title": "Captcha-segítség",
+	"captchahelp-cookies-needed": "Engedélyezned kell a böngésződben a sütiket.",
+	"captchahelp-text": "Az olyan weboldalakat, amelyekre bárki írhat, gyakran támadják meg spammerek olyan eszközök felhasználásával, amelyek képesek automatikusan, emberi felügyelet nélkül elhelyezni egy linket sok különböző oldalon.\n\nAz ilyen linkek kézi eltávolítása rengeteg energiát emésztene fel, ezért néha, különösen ha egy külső linket teszel egy cikkbe, a wiki egy valamilyen módon eltorzított szöveget (captcha-t) jelenít meg, és arra kér, hogy gépeld be azt. Mivel ezt automatikusan nagyon nehéz megtenni, a valódi szerkesztők így könnyen megkülönböztethetőek a spammerek robotjaitól.\n\nSajnos ez komoly kényelmetlenséget jelenthet azoknak a felhasználóknak, akik gyengén látnak, vagy szöveges/hangalapú böngészőt használnak. Jelenleg nem tudunk hangalapú alternatívával szolgálni; ha a captcha megakadályoz abban, hogy szerkeszd a wikit, vedd fel a kapcsolatot az [[Special:ListAdmins|adminisztrátorokkal]].\n\nHa a captcha megoldása helyett inkább visszatérnél a szöveg szerkesztéséhez, használd a böngésződ „vissza” gombját.",
+	"captcha-addurl-whitelist": " #<!-- ezt a sort hagyd pontosan így --> <pre>\n# A szintaktika a következő:\n#  * Minden „#” karakterrel kezdődő sor megjegyzés\n#  * Minden nem üres sor egy reguláris kifejezés darabja, amely csak az URL-ekben található kiszolgálókra keres\n  #</pre> <!-- ezt a sort hagyd pontosan így -->",
+	"right-skipcaptcha": "captcha átugrása"
+}

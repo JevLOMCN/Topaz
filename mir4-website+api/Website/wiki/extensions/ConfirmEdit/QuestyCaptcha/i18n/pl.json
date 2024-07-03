@@ -1,0 +1,18 @@
+{
+	"@metadata": {
+		"authors": [
+			"Rail",
+			"Sp5uhe",
+			"Tsca",
+			"WTM"
+		]
+	},
+	"questycaptcha-desc": "Generator Questy CAPTCHA do rozszerzenia ConfirmEdit",
+	"questycaptcha-addurl": "Wprowadzony przez Ciebie tekst zawiera nowe linki zewnętrzne. Ochrona przed zautomatyzowanym spamem wymaga odpowiedzi na poniższe pytanie ([[Special:Captcha/help|więcej informacji]])",
+	"questycaptcha-badlogin": "Ochrona przed zautomatyzowanym łamaniem haseł wymaga odpowiedzi na poniższe pytanie ([[Special:Captcha/help|więcej informacji]])",
+	"questycaptcha-createaccount": "Ochrona przed zautomatyzowanym tworzeniem kont wymaga odpowiedzi na poniższe pytanie ([[Special:Captcha/help|więcej informacji]])",
+	"questycaptcha-create": "Utworzenie strony jest możliwe po udzieleniu odpowiedzi na poniższe pytanie ([[Special:Captcha/help|więcej informacji]])",
+	"questycaptcha-edit": "Edycja strony jest możliwa po udzieleniu odpowiedzi na poniższe pytanie ([[Special:Captcha/help|więcej informacji]])",
+	"questycaptcha-sendemail": "Z uwagi na ochronę przed automatycznym spamem, należy odpowiedzieć na znajdujące się poniżej pytanie ([[Special:Captcha/help|pomoc]])",
+	"questycaptchahelp-text": "Witryny, które publicznie udostępniają możliwość wprowadzania zmian, tak jak ta wiki, często są wykorzystywane przez spamerów, którzy korzystają ze zautomatyzowanych narzędzi, aby dodawać swoje linki do wielu stron.\nPomimo tego, że takie linki mogą zostać usunięte, jest to jednak uciążliwe.\n\nCzasami, zwłaszcza jeśli dodano nowe linki zewnętrzne, wiki może poprosić o udzielenie odpowiedzi na pytanie.\nPonieważ odpowiadanie na pytania jest czynnością trudną do zautomatyzowania, pozwala większości ludziom na wykonywanie edycji, zarazem uniemożliwiając ją spamerom i innym atakującym automatom.\n\nSkontaktuj się z [[Special:ListAdmins|administratorami]], jeśli potrzebujesz pomocy, ponieważ mechanizm ten uniemożliwia Ci dokonywania uzasadnionych edycji.\n\nKliknij przycisk 'wstecz' w przeglądarce, aby wrócić do strony edycji."
+}

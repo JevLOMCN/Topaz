@@ -1,0 +1,48 @@
+{
+    "Avoid expanding multiline sol transparent template ranges unnecessarily": {
+        "selser [[2],0,[0,0,2,0,0],0,0]": "jv7k6ehi\n\n12kmtcn\n{{1x|<br/>\n}}\n\n[[Category:Ho]]",
+        "selser [4,0,1,0,0]": "rk3tr7\n\n\n\n{{1x|<br/>\n}}\n\n[[Category:Ho]]",
+        "selser [[2],0,[3,0,0,0,0],0,3]": "11zstwqhi\n\n\n\n{{1x|<br/>\n}}\n",
+        "selser [3,4,1,0,4]": "uo9c1i\n\n\n\n{{1x|<br/>\n}}\n\n1be6gyh"
+    },
+    "Block tag on both lines (<blockquote>)": {
+        "html2wt": "a <blockquote>foo</blockquote>\nb <blockquote>foo</blockquote>",
+        "selser [4,3,0,[4]]": "10vo7hk\n\n\n\nb <blockquote>106sti0</blockquote>",
+        "selser [3,[[3]],2,4]": "<blockquote></blockquote>10b02r4\n\n\n\nb \n\n1e2aryh",
+        "selser [3,[4],2,[[4]]]": "<blockquote>h72sym</blockquote>3nayvy\n\n\n\nb <blockquote>1arnp7b</blockquote>"
+    },
+    "Block tag on both lines (<div>)": {
+        "html2wt": "a <div>foo</div>\nb <div>foo</div>",
+        "selser [[2],0,2,[4]]": "h6qyj8a <div>foo</div>1mjtzj4\n\n\n\nb <div>679wm4</div>",
+        "selser [0,0,2,[4]]": "a <div>foo</div>7xgr0j\n\n\n\nb <div>7y1qwv</div>",
+        "selser [4,3,0,1]": "1aa1ei4\n\n\n\nb <div data-foobar=\"1a5r177\">foo</div>",
+        "selser [1,3,0,4]": "a \n\n\n\nb \n\npok8a4",
+        "selser [0,3,2,4]": "a \n\n184736w\n\n\n\nb \n\n1gd1ps1"
+    },
+    "Block tag on one line (<blockquote>)": {
+        "html2wt": "a <blockquote>foo</blockquote>\nb\n"
+    },
+    "Block tag on one line (<div>)": {
+        "html2wt": "a <div>foo</div>\nb\n"
+    },
+    "Empty lines between lines with block tags": {
+        "selser [0,0,3,3,2,1,4,4,0,2,[3],0,4,2,3,2,3,2]": "<div></div>\n5ljqv4<div></div>a\n\n1kwaewo\n\nvc7ikq\n2sa0kd<div>a</div>\n\n\nh89q5o\n\n1pgwihf\n\nd\n\nxtebyq\n\n\n\n\n1ltzq70<div>e</div>",
+        "selser [0,0,0,4,0,4,0,4,2,4,2,0,0,3,3,0,0,4]": "<div></div>\n\n\n\n1jpril6<div></div>xn9qqh\n\n1ombqme\n\nbc7siw\n\n1r6iigc\n\neypr47\n\nb\n\n<div>b</div>\n\nubdax7",
+        "selser [0,2,[4,3],4,0,0,2,0,2,2,2,0,2,0,4,2,0,0]": "<div></div>1kpya9l\n1ouij7q\n\n1miwcy5<div></div>a\n\n1nv81lx\n\nb\n\nnzbek7\n5s3lig<div>a</div>6rrndx\n\nb\n\ntoz1kb<div>b</div>d\n\nln6v0u\n\n1exl926\n\n\n\n<div>e</div>",
+        "selser [4,3,3,2,3,1,3,0,0,4,0,0,4,[3],3,2,0,0]": "uohm1p\n\n14sb56t\n\na\n\nb\n\nvxz60\n\nb\n\n1jdp7c1\n\n\nyqfz66\n\n\n\n<div>e</div>",
+        "selser [2,0,2,0,0,3,2,3,2,[2],2,2,2,[3],4,[2,1],0,[4]]": "123dr<div></div>\n1r6po0y\n\n\n\n<div></div>1lbl4sb\n\n12syxb3\n<div>1mjcbqna</div>n4sswh\n\nb\n\nom75dj\n\n1p44chb<div>b</div>\n\n\n1d59d6r\n\n1nnnid\n\n<div>4zm78z</div>",
+        "selser [1,0,2,3,3,0,2,0,0,0,[4],3,1,[2],4,1,3,[4]]": "<div data-foobar=\"x82a6z\"></div>\n6bfj5l\n\n\n\n\na\n\n1t4os9b\n\nb\n<div>a</div>1pcdx3r<div data-foobar=\"1qvy4yt\">b</div>175v5igd\n\n1usby5n\n\n\n<div>1jg9v4n</div>",
+        "selser [0,4,2,2,0,4,0,[2],0,[4],3,0,0,0,0,2,3,0]": "<div></div>6yb806\n\n17pz4w3\n\n\n\n\n718fyy\n<div></div>hstzbx\n\n1aiaxm8b\n<div>1irr0d</div>\n\n<div>b</div>d\ntao8t9\n\n\n<div>e</div>",
+        "selser [4,0,3,0,4,2,0,2,3,0,[3],0,2,2,0,[4,2],4,0]": "1by5oa7\n\nyzual9\n\n1lozg7z\n\na\n\n10u3a08\n\nb<div>a</div>b\n\n\nprb276<div>b</div>h0kc9k\n\nd\nvitoz9193xqnf\n\ng9m784<div>e</div>",
+        "selser [2,0,[0,1],3,2,0,0,4,2,2,1,3,[4],2,0,1,4,0]": "1avukl<div></div>\n\n\n\n197iitj<div></div>a\n\ngmjhkt\n\n1i1l8aj\n10czl5r<div>a</div>b<div>dhzroh</div>8t09ip\n\nd\n\n\n\n\n\n1ebnfmz<div>e</div>",
+        "selser [0,4,2,2,0,0,0,[3],4,3,0,0,0,2,2,1,4,2]": "<div></div>1ofrbjc\n\n1q06thu\n\n\n\n\n1hgtqn3\n<div></div>a\n\n\nvum19r\n\nb\n\n<div>b</div>1ptcp79\n\nd\n\ndmvgry\n\n\n\n1e22ig8\n\n1jvy72n<div>e</div>"
+    },
+    "Multiple lines without block tags": {
+        "selser [4,1,0,[3,0,0],0,1,4,0]": "tkn1w8\n\na\n\n<!--foo-->e\n\nx \n\n1p28uxd\n\n z",
+        "selser [2,0,2,1,3,3,0,2]": "1j5shwn<div>foo</div> a\n\njrdv3n\nb\nc\nd<!--foo--> e<div>foo</div>4z3kz2\n\n z",
+        "selser [0,2,0,3,3,2,2,[3]]": "<div>foo</div>d5cyrn\n\n a\n2zkdzg\n\nx \n\n1tl6yau<div>foo</div>",
+        "selser [3,0,0,[0,0,2],4,3,[3],2]": " a\n\nb\nc\nd<!--foo-->13obem9 e\n\nrlzmk<div></div>d4mp6l\n\n z",
+        "selser [3,[4],3,3,0,2,3,0]": "1gnvq3r\n\n2whicw\n\nx \n\n z",
+        "selser [4,0,0,4,4,2,[3],[2]]": "h7hf32\n\n a\n\npawik2\n\ndvitc2\n\n18ltr5v\n\nx <div></div>1917jrw z"
+    }
+}

@@ -1,0 +1,22 @@
+{
+	"@metadata": {
+		"authors": [
+			"BadDog",
+			"Milicevic01",
+			"Rancher",
+			"Zoranzoki21",
+			"Михајло Анђелковић"
+		]
+	},
+	"pdf-desc": "Руковалац за приказ PDF датотека у режиму за слике",
+	"pdf-file-page-warning": "PDF је сложен формат који може представљати претњу по вашу приватност у неки случајевима. Молимо Вас да ваш PDF прегледач подесите на безбедан начин.",
+	"pdf-file-page-warning-header": "Напомена у вези приватности",
+	"pdf-file-page-warning-footer": "Ово је генерално проблем са PDF форматом и није специфичан за ову конкретну датотеку.",
+	"pdf-file-page-warning-info": "Сазнајте више о овом проблему.",
+	"pdf_no_metadata": "Не могу да преузмем метаподатке из PDF-а",
+	"pdf_page_error": "Број страница ван опсега",
+	"exif-pdf-producer": "Програм за претварање",
+	"exif-pdf-version": "Верзија PDF формата",
+	"exif-pdf-encrypted": "Шифровано",
+	"exif-pdf-pagesize": "Величина странице"
+}

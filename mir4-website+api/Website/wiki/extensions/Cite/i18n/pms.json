@@ -1,0 +1,31 @@
+{
+	"@metadata": {
+		"authors": [
+			"Borichèt",
+			"Dragonòt"
+		]
+	},
+	"cite-desc": "A gionta le tichëtte <code>&lt;ref[ name=id]&gt;</code> e <code>&lt;references/&gt;</code>, për sitassion",
+	"cite_error": "Eror ëd sitassion: $1",
+	"cite_error_ref_numeric_key": "Tichëtta <code>&lt;ref&gt;</code> pa bon-a;\nël nòm a peul pa esse n'antregh sempi. Deuvra un tìtol descritiv.",
+	"cite_error_ref_no_key": "Tichëtta <code>&lt;ref&gt;</code> pa bon-a;\nj'arferiment sensa contnù a devo avèj un nòm",
+	"cite_error_ref_too_many_keys": "Tichëtta <code>&lt;ref&gt;</code> pa bon-a;\nnòm pa bon, për esempi tròpi",
+	"cite_error_ref_no_input": "Tichëtta <code>&lt;ref&gt;</code> pa bon-a;\nj'arferiment sensa nòm a devo avèj un contnù",
+	"cite_error_references_invalid_parameters": "Tichëtta <code>&lt;references&gt;</code> pa bon-a;\npa gnun paràmetr përmëttù.\nCh'a deuvra <code>&lt;references /&gt;</code>",
+	"cite_error_references_no_backlink_label": "Etichëtte ëd liure përsonalisà esaurìe. Definiss-ne ëd pì ant ël messagi [[MediaWiki:Cite references link many format backlink labels]].",
+	"cite_error_no_link_label_group": "Tichëtte dij colegament përsonalisà për la partìa «$1». Definissne ëd pi ant ël mëssagi [[MediaWiki:$2]].",
+	"cite_error_references_no_text": "Tichëtta <code>&lt;ref&gt;</code> pa bon-a;\npa gnun test a l'é stàit dàit për l'arferiment ciamà <code>$1</code>",
+	"cite_error_included_ref": "Saradura <code>&lt;/ref&gt;</code> mancanta për la tichëtta <code>&lt;ref&gt;</code>",
+	"cite_error_group_refs_without_references": "Dle tichëtte <code>&lt;ref&gt;</code> a esisto për na partìa ciamà «$1», ma gnun-a tichëtta corëspondenta <code>&lt;references group=\"$1\"/&gt;</code> a l'é stàita trovà opura a-i manca un delimitator final <code>&lt;/ref&gt;</code>",
+	"cite_error_references_group_mismatch": "La tichëtta <code>&lt;ref&gt;</code> an <code>&lt;references&gt;</code> a l'ha n'atribut ëd partìa \"$1\" an conflit.",
+	"cite_error_references_missing_key": "La tichëtta <code>&lt;ref&gt;</code> con nòm \"$1\" definìa an <code>&lt;references&gt;</code> a l'é pa dovrà ant ël test prima.",
+	"cite_error_references_no_key": "La tichëtta <code>&lt;ref&gt;</code> definìa an <code>&lt;references&gt;</code> a l'ha pa gnun atribut ëd nòm.",
+	"cite_error_empty_references_define": "La tichëtta <code>&lt;ref&gt;</code> definìa an <code>&lt;references&gt;</code> con nòm \"$1\" a l'ha pa gnun contnù.",
+	"cite_references_link_accessibility_label": "Andé",
+	"cite_references_link_many_accessibility_label": "Sauté a:",
+	"cite-wikieditor-tool-reference": "Arferiment",
+	"cite-wikieditor-help-page-references": "Arferiment",
+	"cite-wikieditor-help-content-reference-description": "Arferiment",
+	"cite-wikieditor-help-content-rereference-description": "Usagi adissional dël midem arferiment",
+	"cite-wikieditor-help-content-showreferences-description": "Visualisé j'arferiment"
+}

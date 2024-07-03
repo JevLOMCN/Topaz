@@ -1,0 +1,17 @@
+{
+	"@metadata": {
+		"authors": [
+			"Eduardo Addad de Oliveira",
+			"Eduardoaddad"
+		]
+	},
+	"renocaptcha-desc": "Módulo reCAPTCHA NoCAPTCHA para o Confirm Edit",
+	"renocaptcha-edit": "Para proteger a wiki contra a edição automatizada de spam, pedimos gentilmente que resolva o seguinte código CAPTCHA:",
+	"renocaptcha-addurl": "A sua edição inclui novas ligações externas. Para proteger a wiki contra o spam automático, pedimos gentilmente que resolva o seguinte código CAPTCHA:",
+	"renocaptcha-badlogin": "Para proteger a wiki da quebra de senha automatizada, pedimos que resolva o seguinte CAPTCHA:",
+	"renocaptcha-createaccount": "Para proteger a wiki contra a criação automatizada de conta, pedimos que resolva o seguinte código CAPTCHA:",
+	"renocaptcha-createaccount-fail": "Parece que não resolveu o código CAPTCHA ainda.",
+	"renocaptcha-create": "Para proteger a wiki contra a criação automatizada de páginas novas, pedimos que resolva o seguinte código CAPTCHA:",
+	"renocaptcha-noscript": "Infelizmente desativou o JavaScript, o que nos impossibilita de reconhecer automaticamente se é um humano ou não. Por favor, resolva o código CAPTCHA abaixo e copie o resultado para o campo de texto seguinte:",
+	"renocaptcha-help": "Resolva um desafio ReCaptcha NoCaptcha e devolva o valor da resposta como captchaWord."
+}

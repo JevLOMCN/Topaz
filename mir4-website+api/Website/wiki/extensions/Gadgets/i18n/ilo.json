@@ -1,0 +1,33 @@
+{
+	"@metadata": {
+		"authors": [
+			"Lam-ang"
+		]
+	},
+	"gadgets-desc": "Agipalubos kadagiti agar-aramat nga agpili kadagiti naiduma a [[Special:Gadgets|CSS ken JavaScript a gadget]] iti [[Special:Preferences#mw-prefsection-gadgets|kakaykayatanda]]",
+	"prefs-gadgets": "Dagiti gadget",
+	"gadgets-prefstext": "Dita baba ket listaan kadagiti naipangruna a gadget a mabalinmo a pakabaelan para iti pakabilangam.\nDagitoy a gadget ket naibatay iti JavaScript, isu a masapul a pakabaelan ti  JavaScript iti  \"pagbasabasam\" tapno agbalin dagitoy.\nLaglagipen a dagitoy a gadget ket awan ti pagbanaganna iti daytoy panid ti kakaykayatan.\n\nLaglagipen pay a dagitoy a naipangruna a gadget ket saan a paset ti sopwer ti MediaWiki, ken kadawyan a pinarang-ay ken tinartaripato babaen dagiti agar-aramat iti lokal a wiki.\nDagiti lokal nga administrador ket mabalinda nga urnosen dagiti [[MediaWiki:Gadgets-definition|depinision]] ken dagiti [[Special:Gadgets|deskripsion]] kadagiti magun-od a gadget. Ti bilang dagiti agar-aramat para iti tunggal maysa a gadget iti daytoy a wiki ket nailista iti [[Special:GadgetUsage|estadistika ti panagusar ti Gadget]].",
+	"special-gadgets": "Dagiti gadget",
+	"gadgetusage": "Estadistika ti panagusar ti gadget",
+	"gadgetusage-gadget": "Gadget",
+	"gadgetusage-usercount": "Bilang dagiti agar-aramat",
+	"gadgetusage-noresults": "Awan dagiti nabirukan a gadget",
+	"gadgetusage-intro": "Daytoy a tabla ket mangipakita ti bilang dagiti agar-aramat a nangpakabael iti tunggal maysa a gadget iti daytoy a wiki. Ti maysa nga aktibo nga agar-aramat ket maibilang a kas ti sinoman a nagaramid iti maysa nga inurnos iti naudi {{PLURAL:$1|nga aldaw|a $1 nga al-aldaw}}. Ilaksid daytoy a listaan dagiti estadistika ti gadget a napakabaelan para iti amin ken mabalin a mangiraman kadagiti gadget a saanen a mabalin a magun-od.",
+	"gadgetusage-intro-noactive": "Daytoy a tabla ket mangibaga ti bilang dagiti agar-aramat a nangpakabael iti tunggal maysa a gadget iti daytoy a wiki. Ilaksid daytoy a listaan dagiti estadistika ti gadget a napakabaelan para iti amin ken mabalin a mangiraman kadagiti gadget a saanen a mabalin a magun-od.",
+	"gadgetusage-activeusers": "Dagiti aktibo nga agar-aramat",
+	"gadgetusage-default": "Kasisigud",
+	"gadgets-title": "Dagiti gadget",
+	"gadgets-pagetext": "Dita baba ket listaan dagiti naipangruna a gadget a mabalin a pakabaelan dagiti agar-aramat iti bukodda a [[Special:Preferences#mw-prefsection-gadgets|panid ti kakaykayatan]], a kas naipalawag babaen dagiti [[MediaWiki:Gadgets-definition|depinision]].\nDaytoy a pakabuklan ket mangited iti nalaka a panagserrek kadagiti panid ti mensahe ti sistema a mangipalawag ti tungngal maysa a deskripsion ken kodigo ti gadget.",
+	"gadgets-uses": "Agus-usar ti",
+	"gadgets-required-rights": "Masapul {{PLURAL:$2|ti sumaganad a karbengan|dagiti sumaganad a karbengan}}:\n\n$1",
+	"gadgets-required-skins": "Magun-od {{PLURAL:$2|iti $1 a kudil|kadagiti sumaganad a kudil: $1}}.",
+	"gadgets-default": "Napakabaelan para iti amin babaen ti kasisigud.",
+	"gadgets-legacy": "Saan a naikarga ti gadget. Pangngaasi nga iyakar iti ResourceLoader. ([https://www.mediawiki.org/wiki/Special:MyLanguage/ResourceLoader/Migration_guide_(users) Agadal pay ti adu])",
+	"gadgets-export": "Eksport",
+	"gadgets-export-title": "Eksport ti gadget",
+	"gadgets-not-found": "Saan a nabirukan ti gadget ti \"$1\".",
+	"gadgets-export-text": "Ti panageksport ti gadget ti $1, pinduten ti buton ti \"{{int:gadgets-export-download}}\", idulin ti naikarga a papeles,\nmapan idiay Special:Import iti papanan a wiki ken ikarganto. Kalpasanna inayon dagiti sumaganad idiay panid ti MediaWiki:Gadgets-definition:\n<pre>$2</pre>\nNasken nga addaanka ti maitunos a pammalubos iti papanan a wiki (mairaman ti karbengan a panagurnos kadagiti mensahe ti sistema) ken nasken a napakabaelan ti panagikarga kadagiti papeles.",
+	"gadgets-export-download": "Agikarga",
+	"gadgets-validate-notset": "Saan a naisaad ti tagikua ti <code>$1</code>.",
+	"gadgets-validate-wrongtype": "Ti tagikua ti <code>$1</code> ket nasken nga iti kita ti <code>$2</code> imbes a ti <code>$3</code>."
+}

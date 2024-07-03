@@ -1,0 +1,22 @@
+{
+	"@metadata": {
+		"authors": [
+			"Michawiki"
+		]
+	},
+	"gadgets-desc": "Dowólujo wužywarjam w jich [[Special:Preferences#mw-prefsection-gadgets|nastajenjach]] [[Special:Gadgets|gadgets CSS a JavaScript]] wubraś",
+	"prefs-gadgets": "Gadgets",
+	"gadgets-prefstext": "Dołojce jo lisćina specielnych gadgetow, kótarež móžoš za swójo konto zmóžniś.\nToś te gadgety se zwětšego bazěruju na JavaScripśe, togodla musy JavaScript w twójom wobglědowaku zmóžnjony byś, aby funkcioněrowali.\nGlědaj, až toś te gadgety njewustatkuju se na bok nastajenjow.\n\nGlědaj teke, až toś te gadgety njejsu źěl softwary MediaWiki a se zwětšego wót wužywarjow na twójom lokalnem wikiju wuwijaju a wótwarduju.\nLokalne administratory mógu k dispoziciji stojece gadgety z pomocu [[MediaWiki:Gadgets-definition|definicijow ]] a [[Special:Gadgets|wopisanjow]] wobźełaś.",
+	"special-gadgets": "Gadgets",
+	"gadgets-title": "Gadgets",
+	"gadgets-pagetext": "Dołojce jo lisćina specialnych gadgetow, kótarež wužywarje mógu w [[Special:Preferences#mw-prefsection-gadgets|swójich nastajenjach]] zmóžniś, kaž w [[MediaWiki:Gadgets-definition]] definiěrowane.\nToś ten pśeglěd bitujo lažki pśistup k bokam systemowych powěsćow, kótarež wopisanje a kod gadgeta definěruju.",
+	"gadgets-uses": "Wužywa",
+	"gadgets-required-rights": "Pomina se {{PLURAL:$2|slědujuce pšawo|slědujucej pšawje|slědujuce pšawa|slědujuce pšawa}}:\n\n$1",
+	"gadgets-required-skins": "Na {{PLURAL:$2|slědujucej drastwje|slědujucyma drastwoma|slědujucych drastwach|slědujucych drastwach}} k dispoziciji: $1",
+	"gadgets-default": "Za wšych standardnje zmóžnjony.",
+	"gadgets-export": "Eksportěrowaś",
+	"gadgets-export-title": "Eksport specialneje funkcije",
+	"gadgets-not-found": "Specialna funkcija \"$1\" njejo se namakała.",
+	"gadgets-export-text": "Aby specialnu funkciju $1 eksportěrował, klikni na tłocašk \"{{int:gadgets-export-download}}\", składuj ześěgnjonu dataju, źi do Special:Import w celowem wikiju a nagraj ju. Pśidaj pótom slědujuce k bokoju MediaWiki:Gadgets-definition:\n<pre>$2</pre>\nMusyš trěbne pšawa na celowem wikiju měś (inkluziwnje pšawo za wobźěłowanje systemowych powěźeńkow) a import datajowych nagraśow musy znjemóžnjony byś.",
+	"gadgets-export-download": "Ześěgnuś"
+}

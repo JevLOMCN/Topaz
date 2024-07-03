@@ -1,0 +1,39 @@
+{
+	"@metadata": {
+		"authors": [
+			"Cesco",
+			"EugeneZelenko",
+			"Jim-by",
+			"Red Winged Duck",
+			"Wizardist"
+		]
+	},
+	"categorytree": "Дрэва катэгорыяў",
+	"categorytree-portlet": "Катэгорыі",
+	"categorytree-legend": "Паказаць дрэва катэгорыяў",
+	"categorytree-desc": "Заснаваная на AJAX прылада для паказу [[Special:CategoryTree|структуры катэгорыяў]] {{GRAMMAR:родны|{{SITENAME}}}}",
+	"categorytree-header": "Увядзіце назву катэгорыі, каб пабачыць яе ў выглядзе дрэва (патрабуе JavaScript).",
+	"categorytree-category": "Катэгорыя:",
+	"categorytree-go": "Паказаць дрэва",
+	"categorytree-parents": "Продкі",
+	"categorytree-mode-label": "Рэжым:",
+	"categorytree-mode-categories": "толькі катэгорыі",
+	"categorytree-mode-pages": "старонкі за выключэньнем файлаў",
+	"categorytree-mode-all": "усе старонкі",
+	"categorytree-collapse": "згарнуць",
+	"categorytree-expand": "разгарнуць",
+	"categorytree-member-counts": "утрымлівае $1 {{PLURAL:$1|падкатэгорыю|падкатэгорыі|падкатэгорыяў}}, $2 {{PLURAL:$2|старонку|старонкі|старонак}} і $3 {{PLURAL:$3|файл|файлы|файлаў}}",
+	"categorytree-num-categories": "$1 К",
+	"categorytree-num-pages": "$1 С",
+	"categorytree-num-files": "$1 Ф",
+	"categorytree-num-empty": "пуста",
+	"categorytree-load": "загрузіць",
+	"categorytree-loading": "загрузка…",
+	"categorytree-nothing-found": "нічога ня знойдзена",
+	"categorytree-no-subcategories": "няма падкатэгорыяў",
+	"categorytree-no-parent-categories": "няма бацькаўскіх катэгорыяў",
+	"categorytree-no-pages": "няма старонак ці падкатэгорыяў",
+	"categorytree-not-found": "Катэгорыя <i>$1</i> ня знойдзена",
+	"categorytree-error": "Праблема загрузкі зьвестак.",
+	"categorytree-retry": "Калі ласка, пачакайце і паспрабуйце яшчэ раз."
+}

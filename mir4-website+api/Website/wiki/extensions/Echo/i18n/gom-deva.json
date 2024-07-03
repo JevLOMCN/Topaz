@@ -1,0 +1,29 @@
+{
+	"@metadata": {
+		"authors": [
+			"Darshan kandolkar",
+			"The Discoverer",
+			"Vaishali Parab"
+		]
+	},
+	"prefs-echo": "कळोवण्यो",
+	"notifications": "कळोवण्यो",
+	"tooltip-pt-notifications-alert": "{{GENDER:|तुज्यो}} चत्रायो",
+	"tooltip-pt-notifications-notice": "तुज्यो कळोवण्यो",
+	"echo-specialpage": "कळोवण्यो",
+	"notification-timestamp-ago-seconds": "{{PLURAL:$1|$1सॅ}}",
+	"notification-timestamp-ago-minutes": "{{PLURAL:$1|$1मि}}",
+	"notification-timestamp-ago-hours": "{{PLURAL:$1|$1वर}}",
+	"notification-timestamp-ago-days": "{{PLURAL:$1|$1दी}}",
+	"notification-timestamp-ago-months": "{{PLURAL:$1|$1म्ह}}",
+	"notification-timestamp-ago-years": "{{PLURAL:$1|$1वर्स}}",
+	"notification-timestamp-today": "आयज",
+	"notification-timestamp-yesterday": "काल",
+	"notification-inbox-filter-read": "वाचचें",
+	"notification-inbox-filter-unread": "वाचूंक नाशिल्ले",
+	"notification-inbox-filter-all": "सगळें",
+	"echo-notification-notice-text-only": "कळोवण्यो",
+	"echo-overlay-link": "सग्ळयो कळोवण्यो",
+	"echo-displaysnippet-title": "नवी कळोवणी",
+	"echo-email-batch-link-text-view-all-notifications": "सग्ळयो कळोवण्यो पळय"
+}

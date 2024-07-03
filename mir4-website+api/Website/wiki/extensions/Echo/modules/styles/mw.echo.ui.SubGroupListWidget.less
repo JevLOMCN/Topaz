@@ -1,0 +1,44 @@
+@import 'mediawiki.skin.variables.less';
+@import '../echo.variables.less';
+
+.mw-echo-ui-subGroupListWidget {
+	&:not( :first-child ) {
+		padding-top: @bundle-group-padding;
+	}
+
+	&-header {
+		display: table;
+		width: 100%;
+
+		&-row {
+			display: table-row;
+
+			&-cell {
+				display: table-cell;
+			}
+
+			&-title {
+				width: 100%;
+				vertical-align: bottom;
+				white-space: nowrap;
+
+				.oo-ui-labelElement-label {
+					white-space: normal;
+				}
+			}
+
+			&-markAllReadButton {
+				text-align: right;
+			}
+		}
+	}
+}
+
+/* stylelint-disable no-descending-specificity */
+.mw-echo-ui-subGroupListWidget,
+.mw-echo-ui-bundleNotificationItemWidget-group {
+	.mw-echo-ui-sortedListWidget-group:not( :empty ) {
+		border: @border-width-base @border-style-base @border-color-subtle;
+	}
+}
+/* stylelint-enable no-descending-specificity */

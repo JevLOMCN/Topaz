@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"Ykhwong"
+		]
+	},
+	"apihelp-query+extracts-summary": "주어진 문서의 플레인 텍스트 또는 제한된 HTML 추출 정보를 반환합니다.",
+	"apiwarn-textextracts-sentences-and-html": "<var>$1sentences</var> 변수는 HTML 모드에서 사용할 때 예측하지 못한 결과가 있을 수 있습니다.",
+	"apiwarn-textextracts-malformed-html": "HTML이 잘못 구성되었거나 균형을 잃었거나 인라인 이미지가 누락된 상태일 수 있습니다. 자신의 책임 하에 사용하십시오. 알려진 문제는 [https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:TextExtracts#Caveats 여기]에 나열되어 있습니다."
+}

@@ -1,0 +1,19 @@
+{
+	"@metadata": {
+		"authors": [
+			"Erdemaslancan",
+			"Gırd",
+			"Kumkumuk",
+			"Mirzali",
+			"Xoser"
+		]
+	},
+	"citethispage": "Bia xo viri",
+	"citethispage-desc": "Pela xısusiye u gıreyê qutiya hacetan [[Special:CiteThisPage|istasyon]] ilawe keno.",
+	"citethispage-link": "Na pele biya xo viri",
+	"tooltip-citethispage": "Melumato ke ena pele senê qal beno.",
+	"citethispage-change-submit": "Vate",
+	"citethispage-change-target": "Pele:",
+	"citethispage-badrevision": "Xeta: revizyonê ID be $2 de seba pela $1 ra theba nêvêniya.",
+	"citethispage-content": "__NOTOC__\n<div class=\"mw-specialCiteThisPage-bibliographic\">\n\n__NOTOC__\n<div class=\"mw-specialCiteThisPage-bibliographic\">\n\n== Bibliyografiya teferruatanê {{FULLPAGENAME}} ==\n\n* Nameyê pele: {{FULLPAGENAME}}\n* Nuştekar: İştırakkerê {{SITENAME}}\n* Vılaker: ''{{SITENAME}}''.\n* Revizyonê demi: {{CURRENTDAY}} {{CURRENTMONTHNAME}} {{CURRENTYEAR}} {{CURRENTTIME}} UTC\n* Serkerdışê demi: <citation>{{CURRENTDAY}} {{CURRENTMONTHNAME}} {{CURRENTYEAR}} {{CURRENTTIME}} UTC</citation>\n* Anciyayışê URLê cı: {{canonicalurl:{{FULLPAGENAME}}|oldid={{REVISIONID}}}}\n* Verziyonê kamiya pele: {{REVISIONID}}\n\n</div>\n<div class=\"plainlinks mw-specialCiteThisPage-styles\">\n\n== Terzê istasyonê {{FULLPAGENAME}} ==\n\n=== [[APA style]] ===\n{{FULLPAGENAME}}. ({{CURRENTYEAR}}, {{CURRENTMONTHNAME}} {{CURRENTDAY}}). ''{{SITENAME}}''. ancıyayo <citation>{{CURRENTTIME}}, {{CURRENTMONTHNAME}} {{CURRENTDAY}}, {{CURRENTYEAR}}</citation> from {{canonicalurl:{{FULLPAGENAME}}|oldid={{REVISIONID}}}}.\n\n=== [[The MLA style manual|Terzê MLA]] ===\n\"{{FULLPAGENAME}}.\" ''{{SITENAME}}''. {{CURRENTDAY}} {{CURRENTMONTHABBREV}} {{CURRENTYEAR}}, {{CURRENTTIME}} UTC. <citation>{{CURRENTDAY}} {{CURRENTMONTHABBREV}} {{CURRENTYEAR}}, {{CURRENTTIME}}</citation> &lt;{{canonicalurl:{{FULLPAGENAME}}|oldid={{REVISIONID}}}}&gt;.\n\n=== [[MHRA Style Guide|Terzê MHRA]] ===\niştırazkarê {{SITENAME}} , '{{FULLPAGENAME}}', ''{{SITENAME}},'' {{CURRENTDAY}} {{CURRENTMONTHNAME}} {{CURRENTYEAR}}, {{CURRENTTIME}} UTC, &lt;{{canonicalurl:{{FULLPAGENAME}}|oldid={{REVISIONID}}}}&gt; [zerre <citation>{{CURRENTDAY}} {{CURRENTMONTHNAME}} {{CURRENTYEAR}}</citation>]\n\n=== [[The Chicago Manual of Style|Terzê Şikagoyi]] ===\niştırazkarê {{SITENAME}}, \"{{FULLPAGENAME}},\" ''{{SITENAME}},'' {{canonicalurl:{{FULLPAGENAME}}|oldid={{REVISIONID}}}} (accessed <citation>{{CURRENTMONTHNAME}} {{CURRENTDAY}}, {{CURRENTYEAR}}</citation>).\n\n=== [[Council of Science Editors|Terzê CBE/CSEyi]] ===\n{{SITENAME}} İştıraxkari. {{FULLPAGENAME}} [Internet]. {{SITENAME}}; {{CURRENTYEAR}} {{CURRENTMONTHABBREV}} {{CURRENTDAY}}, {{CURRENTTIME}} UTC [sitedo <citation>{{CURRENTYEAR}} {{CURRENTMONTHABBREV}} {{CURRENTDAY}}</citation>]. Ancıyayışê cı:\n{{canonicalurl:{{FULLPAGENAME}}|oldid={{REVISIONID}}}}.\n\n=== [[Bluebook|Terzê Bluebooki]] ===\n{{FULLPAGENAME}}, {{canonicalurl:{{FULLPAGENAME}}|oldid={{REVISIONID}}}} (tewr peyên<citation>{{CURRENTMONTHNAME}} {{CURRENTDAY}}, {{CURRENTYEAR}}</citation>).\n\n=== Cı kewê [[BibTeX]] ===\n\n  @misc{ wiki:xxx,\n    Nuştekar = \"{{SITENAME}}\",\n    Sername = \"{{FULLPAGENAME}} --- {{SITENAME}}{,} {{int:sitesubtitle}}\",\n    Serre = \"{{CURRENTYEAR}}\",\n    Url = \"{{canonicalurl:{{FULLPAGENAME}}|oldid={{REVISIONID}}}}\",\n    Note = \"[Online; accessed <citation>{{CURRENTDAY}}-{{CURRENTMONTHNAME}}-{{CURRENTYEAR}}</citation>]\"\n  }\n\n  @misc{ wiki:xxx,\n    Nuştekar = \"{{SITENAME}}\",\n    Sername = \"{{FULLPAGENAME}} --- {{SITENAME}}{,} {{int:sitesubtitle}}\",\n    Serre = \"{{CURRENTYEAR}}\",\n    Url = \"'''\\url{'''{{canonicalurl:{{FULLPAGENAME}}|oldid={{REVISIONID}}}}'''}'''\",\n    Note = \"[Online; accessed <citation>{{CURRENTDAY}}-{{CURRENTMONTHNAME}}-{{CURRENTYEAR}}</citation>]\"\n  }\n\n\n</div> <!--closing div for \"plainlinks\"-->"
+}

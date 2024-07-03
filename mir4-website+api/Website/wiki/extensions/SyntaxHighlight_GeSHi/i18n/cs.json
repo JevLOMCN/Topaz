@@ -1,0 +1,26 @@
+{
+	"@metadata": {
+		"authors": [
+			"Li-sung",
+			"Matěj Grabovský",
+			"Matěj Suchánek",
+			"Mormegil"
+		]
+	},
+	"syntaxhighlight-desc": "Poskytuje zvýrazňování syntaxe <code>&lt;syntaxhighlight&gt;</code> pomocí [http://pygments.org Pygments – zvýrazňovače syntaxe v Pythonu]",
+	"syntaxhighlight-error-category": "Stránky s chybami ve zvýrazňování kódu",
+	"syntaxhighlight-error-category-desc": "Při pokusu o zvýraznění kódu na stránce došlo k chybě.",
+	"syntaxhighlight-enclose-category": "Stránky se zastaralými atributy enclose",
+	"syntaxhighlight-enclose-category-desc": "Zvýrazňování syntaxe na stránce používá zastaralou syntaxi enclose.",
+	"syntaxhighlight-source-category": "Stránky se zastaralými značkami source",
+	"syntaxhighlight-source-category-desc": "Zvýrazňování syntaxe na stránce používá zastaralé značky source.",
+	"syntaxhighlight-visualeditor-mwsyntaxhighlightinspector-code": "Kód",
+	"syntaxhighlight-visualeditor-mwsyntaxhighlightinspector-language": "Jazyk",
+	"syntaxhighlight-visualeditor-mwsyntaxhighlightinspector-none": "(žádný)",
+	"syntaxhighlight-visualeditor-mwsyntaxhighlightinspector-showlines": "Zobrazit čísla řádků",
+	"syntaxhighlight-visualeditor-mwsyntaxhighlightinspector-startingline": "Počáteční číslo řádku",
+	"syntaxhighlight-visualeditor-mwsyntaxhighlightinspector-title": "Blok kódu",
+	"syntaxhighlight-error-pygments-invocation-failure": "Nepodařilo se zavolat Pygments",
+	"syntaxhighlight-error-unknown-language": "Neznámý jazyk „$1“",
+	"syntaxhighlight-error-exceeds-size-limit": "Kód o velikosti $1 {{PLURAL:$1|bajt|bajty|bajtů}} přesahuje dovolené maximum $2 {{PLURAL:$2|bajt|bajty|bajtů}}"
+}

@@ -1,0 +1,33 @@
+{
+	"@metadata": {
+		"authors": [
+			"Ainali",
+			"Boivie",
+			"Hannarosendeloitte",
+			"Lejonel",
+			"Lokal Profil",
+			"M.M.S.",
+			"WikiPhoenix"
+		]
+	},
+	"action-tboverride": "åsidosätta listan över otillåtna titlar och användarnamn",
+	"action-tboverride-account": "åsidosätta listan över otillåtna användarnamn",
+	"action-titleblacklistlog": "visa loggen för listan över otillåtna titlar",
+	"log-name-titleblacklist": "Loggen för listan över otillåtna titlar",
+	"log-description-titleblacklist": "Dessa händelser spårar träffar för listan över otillåtna titlar.",
+	"logentry-titleblacklist-hit-username": "$1 {{GENDER:$2|orsakade}} en träff för listan över otillåtna titlar när denne försökte skapa kontot $3 som matchade $4.",
+	"titleblacklist-desc": "Låter administratörer förbjuda skapande av sidor och användarkonton enligt en [[MediaWiki:Titleblacklist|lista över otillåtna]] och [[MediaWiki:Titlewhitelist|tillåtna]] titlar.",
+	"titleblacklist": "# Det här är en lista över otillåtna titlar. Titlar och användarnamn som matchar ett reguljärt uttryck här kan inte skapas.\n# Använd \"#\" för kommentarer.\n# Detta är okänsligt för skiftläge som förval",
+	"titlewhitelist": "# Det är en lista över tillåtna sidtitlar. Använd \"#\" för att skriva kommentarer.\n# Detta är okänsligt för skiftläge som förval",
+	"titleblacklist-forbidden-edit": "Sidtiteln \"$2\" har stoppats från att skapas.\nDen matchar följande element i listan över otillåtna sidtitlar: <code>$1</code>",
+	"titleblacklist-forbidden-move": "Sidan \"$2\" kan inte flyttas till \"$3\", eftersom titeln \"$3\" har förbjudits från att skapas.\nDen matchar följande element i listan över otillåtna sidtitlar: <code>$1</code>",
+	"titleblacklist-forbidden-upload": "Filnamnet \"$2\" har stoppats från att skapas.\nDet matchar följande element i listan över otillåtna sidtitlar: <code>$1</code>",
+	"titleblacklist-forbidden-new-account": "Användarnamnet \"$2\" har stoppats från att skapas.\nDet matchar följande element i listan över otillåtna titlar: <code>$1</code>",
+	"titleblacklist-invalid": "Följande {{PLURAL:$1|rad|rader}} i listan över otillåtna titlar är {{PLURAL:$1|felaktig|felaktiga}}; {{PLURAL:$1|den|de}} måste rättas innan du kan spara:",
+	"titleblacklist-override": "Åsidosätt listan över otillåtna titlar om det matchar",
+	"titleblacklist-override-help": "Användare med tillräckliga behörigheter kan ändra detta till att hoppa över att kontrollera listan över otillåtna titlar.",
+	"titleblacklist-warning": "<strong>Varning: Denna sida kan endast redigeras av administratörer och andra användare med rättigheten <code>tboverride</code> eftersom den matchar följande post i listan över otillåtna titlar:</strong><br /><code>$1</code>",
+	"right-tboverride": "Åsidosätt listan över otillåtna titlar och användarnamn",
+	"right-tboverride-account": "Åsidosätt listan över otillåtna användarnamn",
+	"right-titleblacklistlog": "Visa loggen för listan över otillåtna titlar"
+}

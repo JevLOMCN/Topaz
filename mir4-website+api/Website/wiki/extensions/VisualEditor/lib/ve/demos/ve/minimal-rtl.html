@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+	<!--
+	/*!
+	 * VisualEditor minimal demo
+	 *
+	 * @copyright See AUTHORS.txt
+	 */
+	-->
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
+		<title>VisualEditor Standalone Demo</title>
+
+		<!-- oojs-ui-apex -->
+		<link rel="stylesheet" href="../../lib/oojs-ui/oojs-ui-apex.rtl.css" class="stylesheet-read">
+		<link rel="stylesheet" href="../../lib/oojs-ui/oojs-ui-apex-icons-alerts.rtl.css" class="stylesheet-read">
+		<link rel="stylesheet" href="../../lib/oojs-ui/oojs-ui-apex-icons-content.rtl.css" class="stylesheet-read">
+		<link rel="stylesheet" href="../../lib/oojs-ui/oojs-ui-apex-icons-interactions.rtl.css" class="stylesheet-read">
+		<link rel="stylesheet" href="../../lib/oojs-ui/oojs-ui-apex-icons-layout.rtl.css" class="stylesheet-read">
+		<link rel="stylesheet" href="../../lib/oojs-ui/oojs-ui-apex-icons-moderation.rtl.css" class="stylesheet-read">
+		<link rel="stylesheet" href="../../lib/oojs-ui/oojs-ui-apex-icons-movement.rtl.css" class="stylesheet-read">
+		<link rel="stylesheet" href="../../lib/oojs-ui/oojs-ui-apex-icons-user.rtl.css" class="stylesheet-read">
+		<link rel="stylesheet" href="../../lib/oojs-ui/oojs-ui-apex-icons-editing-core.rtl.css" class="stylesheet-read">
+		<link rel="stylesheet" href="../../lib/oojs-ui/oojs-ui-apex-icons-editing-advanced.rtl.css" class="stylesheet-read">
+		<link rel="stylesheet" href="../../lib/oojs-ui/oojs-ui-apex-icons-editing-styling.rtl.css" class="stylesheet-read">
+		<link rel="stylesheet" href="../../lib/oojs-ui/oojs-ui-apex-icons-editing-list.rtl.css" class="stylesheet-read">
+
+		<!-- visualEditor.dist.apex -->
+		<link rel="stylesheet" href="../../dist/visualEditor-apex.rtl.css" class="stylesheet-ve">
+
+		<!-- visualEditor.standalone.read -->
+		<link rel="stylesheet/less" href="../../src/init/sa/styles/ve.init.sa.less" class="stylesheet-read">
+
+		<!-- visualEditor.minimal.standalone.demo -->
+		<link rel="stylesheet/less" href="../../demos/ve/demo.minimal.less">
+
+	</head>
+	<body dir="rtl">
+		<div class="ve-instance"></div>
+		<div class="ve-demo-output"></div>
+
+		<!-- less -->
+		<script src="../../lib/less/less.js"></script>
+
+		<!-- jquery -->
+		<script src="../../lib/jquery/jquery.js"></script>
+
+		<!-- oojs -->
+		<script src="../../lib/oojs/oojs.js"></script>
+
+		<!-- oojs-ui -->
+		<script src="../../lib/oojs-ui/oojs-ui-core.js"></script>
+		<script src="../../lib/oojs-ui/oojs-ui-widgets.js"></script>
+		<script src="../../lib/oojs-ui/oojs-ui-toolbars.js"></script>
+		<script src="../../lib/oojs-ui/oojs-ui-windows.js"></script>
+
+		<!-- jquery.i18n.dist -->
+		<script src="../../dist/lib/jquery.i18n.js"></script>
+
+		<!-- jquery.uls.data.dist -->
+		<script src="../../dist/lib/jquery.uls.data.js"></script>
+
+		<!-- jquery.client -->
+		<script src="../../lib/jquery.client/jquery.client.js"></script>
+
+		<!-- papaparse -->
+		<script src="../../lib/papaparse/papaparse.js"></script>
+
+		<!-- oojs-ui-apex -->
+		<script src="../../lib/oojs-ui/oojs-ui-apex.js"></script>
+
+		<!-- visualEditor.dist -->
+		<script src="../../dist/visualEditor.js"></script>
+
+		<script>
+			ve.messagePaths = [
+				'../../dist/i18n/',
+				'../../lib/oojs-ui/i18n/'
+			];
+		</script>
+
+		<!-- visualEditor.minimal.standalone.demo -->
+		<script src="../../demos/ve/demo.minimal.js"></script>
+
+	</body>
+</html>

@@ -1,0 +1,29 @@
+{
+	"@metadata": {
+		"authors": [
+			"Aftabuzzaman",
+			"Jim Carter",
+			"McDutchie",
+			"Sayma Jahan",
+			"Yahya",
+			"Zaheen",
+			"আফতাবুজ্জামান"
+		]
+	},
+	"syntaxhighlight-desc": "[http://pygments.org/ Pygments - পাইথন সিনট্যাক্স হাইলাইটার] ব্যবহার করে <code>&lt;syntaxhighlight&gt;</code> সিনট্যাক্স আলোকপাতের ক্ষমতা দেয়",
+	"syntaxhighlight-error-category": "সিনট্যাক্স আলোকপাতকরণ ত্রুটিসহ পাতা",
+	"syntaxhighlight-error-category-desc": "অন্তর্ভুক্ত পাতায় কোড আলোকপাত করার চেষ্টা করার সময় একটি ত্রুটি হয়েছিল।",
+	"syntaxhighlight-enclose-category": "অপ্রচলিত enclose অ্যাট্রিবিউট ব্যবহার করা পাতা",
+	"syntaxhighlight-enclose-category-desc": "অবচিত enclose সিনট্যাক্স ব্যবহার করে এমন সিনট্যাক্স আলোকপাতকারী পাতা।",
+	"syntaxhighlight-source-category": "অপ্রচলিত উৎস ট্যাগ ব্যবহার করা পাতা",
+	"syntaxhighlight-source-category-desc": "অবচিত উৎস ট্যাগ ব্যবহার করে এমন পাতায় সিনট্যাক্স আলোকপাতকরণ।",
+	"syntaxhighlight-visualeditor-mwsyntaxhighlightinspector-code": "কোড",
+	"syntaxhighlight-visualeditor-mwsyntaxhighlightinspector-language": "ভাষা",
+	"syntaxhighlight-visualeditor-mwsyntaxhighlightinspector-none": "(কিছু না)",
+	"syntaxhighlight-visualeditor-mwsyntaxhighlightinspector-showlines": "সারির নম্বর প্রদর্শন",
+	"syntaxhighlight-visualeditor-mwsyntaxhighlightinspector-startingline": "শুরুর লাইনের নম্বর",
+	"syntaxhighlight-visualeditor-mwsyntaxhighlightinspector-title": "কোড ব্লক",
+	"syntaxhighlight-error-pygments-invocation-failure": "Pygments আবাহন করতে ব্যর্থ হয়েছে",
+	"syntaxhighlight-error-unknown-language": "অজানা ভাষা \"$1\"",
+	"syntaxhighlight-error-exceeds-size-limit": "কোডের আকার $1 {{PLURAL:$1|বাইট}} যা সর্বাধিক অনুমোদিত পরিমাণ $2 {{PLURAL:$2|বাইটকে}} অতিক্রম করেছে।"
+}

@@ -1,0 +1,30 @@
+{
+	"@metadata": {
+		"authors": [
+			"Minh Nguyen",
+			"NguoiDungKhongDinhDanh",
+			"Vinhtantran"
+		]
+	},
+	"pfunc_desc": "Nâng cao bộ xử lý với những hàm cú pháp lôgic",
+	"pfunc_time_error": "Lỗi: thời gian không hợp lệ",
+	"pfunc_time_too_long": "Lỗi: quá nhiều lần gọi #time",
+	"pfunc_time_too_big": "Lỗi: #time chỉ hỗ trợ các năm cho tới 9999.",
+	"pfunc_time_too_small": "Lỗi: #time chỉ hỗ trợ cho các năm 0 trở lên.",
+	"pfunc_rel2abs_invalid_depth": "Lỗi: độ sâu không hợp lệ trong đường dẫn “$1” (do cố gắng truy cập nút phía trên nút gốc)",
+	"pfunc_expr_stack_exhausted": "Lỗi biểu thức: Đã cạn stack",
+	"pfunc_expr_unexpected_number": "Lỗi biểu thức: Dư số",
+	"pfunc_expr_preg_match_failure": "Lỗi biểu thức: Hàm preg_match thất bại",
+	"pfunc_expr_unrecognised_word": "Lỗi biểu thức: Từ “$1” không rõ ràng",
+	"pfunc_expr_unexpected_operator": "Lỗi biểu thức: Dư toán tử $1",
+	"pfunc_expr_missing_operand": "Lỗi biểu thức: Thiếu toán hạng trong $1",
+	"pfunc_expr_unexpected_closing_bracket": "Lỗi biểu thức: Dư dấu đóng ngoặc",
+	"pfunc_expr_unrecognised_punctuation": "Lỗi biểu thức: Dấu phân cách “$1” không rõ ràng",
+	"pfunc_expr_unclosed_bracket": "Lỗi biểu thức: Dấu ngoặc chưa được đóng",
+	"pfunc_expr_division_by_zero": "Chia cho số không.",
+	"pfunc_expr_invalid_argument": "Tham số không hợp lệ cho $1: < −1 hay > 1",
+	"pfunc_expr_invalid_argument_ln": "Tham số không hợp lệ cho ln: ≤ 0",
+	"pfunc_expr_unknown_error": "Lỗi biểu thức: Lỗi không rõ nguyên nhân ($1)",
+	"pfunc_expr_not_a_number": "Trong $1: kết quả không phải là kiểu số",
+	"pfunc_string_too_long": "Lỗi: Chuỗi vượt quá giới hạn $1 ký tự"
+}

@@ -1,0 +1,28 @@
+{
+	"@metadata": {
+		"authors": [
+			"Hoo",
+			"Purodha"
+		]
+	},
+	"gadgets-desc": "En iere [[Special:Preferences#mw-prefsection-gadgets|Enschtällong]] künne Metmaacher [[Special:Gadgets|CSS- un JavaScrip-Gadgets]] en- un ußschallde.",
+	"prefs-gadgets": "Gadgets",
+	"gadgets-prefstext": "Heh is en Leß met beschtemmpte <i xml:lang=\"en\" lang=\"en\">Gadgets</i>,\ndi för jehde Metmaacher enjeschalldt wähde könne.\nDi boue miehts op JavaSkrepte op, drom moß mer dat em Brauser\nenschallde, domet dat klapp.\n\n<i xml:lang=\"en\" lang=\"en\">Gadgets</i> werke nimmohls op dä Sigg\nmet de päsöhnlesche Enschtällonge.\n\nOpjepaß! <i xml:lang=\"en\" lang=\"en\">Gadgets</i>, sin kei Schtök vum MedijaWikki,\nsöndern sin extra em Wikki enschtalleht, un sin vun de Wikki-Bedrihver\nudder de Metmaacher ußjedaach un enjeerescht.\nWä et Rääsch doför hät, kann se övver de Sigge\n[[MediaWiki:Gadgets-definition|<i xml:lang=\"en\" lang=\"en\">Gadgets</i> fäßlääje]]\nun [[Special:Gadgets|<i xml:lang=\"en\" lang=\"en\">Gadgets</i> beschriewe]]\nenreeschte, un verändere.",
+	"special-gadgets": "<i lang=\"en\">Gadgets</i>",
+	"gadgetusage": "Schtestekeüvver er Ennsaz vun Zohbehür",
+	"gadgetusage-gadget": "Zohbehür",
+	"gadgetusage-usercount": "Aanzahl Metmaacher",
+	"gadgetusage-noresults": "Keine Zohbehür jefonge.",
+	"gadgetusage-intro": "En dä Tabäll heh es opjeföhrt, wi vill Metmaacher ene beschtemmpte Zohbehür ennjeschalldt han un aam bruche sin. Do es och Zohbehür bei, dä jäz nit mih ze hann es.",
+	"gadgets-title": "<i lang=\"en\">Gadgets</i>",
+	"gadgets-pagetext": "He kütt en Liss met spezielle <i lang=\"en\">Gadgets</i>,\ndi jede Metmaacher övver sing\n[[Special:Preferences#mw-prefsection-gadgets|päsönlije Enstellunge]] enschallte kann.\nSe wääde övver [[MediaWiki:Gadgets-definition]] enjerecht.\nDi Övverseesch hee jit enne direkte Zohjang op di Täxte em Wikki,\nwo de Projramme, un de Erklierunge för de <i lang=\"en\">Gadgets</i> dren enthallde\nsin.",
+	"gadgets-uses": "Bruch",
+	"gadgets-required-rights": "Bruch {{PLURAL:$2|dat Rääsch:|de Rääschde:|kein besönder Rääschde.}}\n\n$1",
+	"gadgets-required-skins": "Kann jebruch wääde met {{PLURAL:$2|dä Bedeenbovverfläsch:|dä Bedeenbovverfläsche:|keine vun dä Bedeenbovverfläsche.}} $1",
+	"gadgets-default": "Shtandattmääßesh för jeeder_ein ennjeschalldt.",
+	"gadgets-export": "Äxpottehre",
+	"gadgets-export-title": "<i lang=\"en\">Gadgets</i> expotteere",
+	"gadgets-not-found": "<i lang=\"en\">Gadget</i> „$1“ nit jefonge.",
+	"gadgets-export-text": "Öm dat <i lang=\"en\">Gadget</i> „$1“ ze expotteere, donn op dä Knopp „{{int:gadgets-export-download}}“ klecke, un donn dann de eronger jelaade Dattei faßhallde. Dann jangk en dat Wiki, woh De dat empotteere wells, un doh op di {{int:specialpage}} <code lang=\"en\">Spezial:Import</code>, un donn se huh laade. Dann deihs De en däm Wiki op dä Sigg <code lang=\"en\">MediaWiki:Gadgets-definition</code> dat heh dobei:\n<pre>$2</pre>\nDo moß en däm Wiki de nüüdijje Rääschde han, och dat Rääsch, aan Täxte un Nohreeschte vum Systeem ze ändere, un et Empoteere vun huhjelaade Dateije moß zohjelohße sin.",
+	"gadgets-export-download": "Eronger lahde"
+}

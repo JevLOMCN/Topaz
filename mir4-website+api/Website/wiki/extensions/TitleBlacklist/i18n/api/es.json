@@ -1,0 +1,18 @@
+{
+	"@metadata": {
+		"authors": [
+			"Dgstranz",
+			"Jelou",
+			"Macofe",
+			"MarcoAurelio",
+			"Tiberius1701"
+		]
+	},
+	"apihelp-titleblacklist-summary": "Validar el título de una página, nombre de archivo o nombre de usuario en la TitleBlacklist (lista negra de títulos).",
+	"apihelp-titleblacklist-param-title": "La cadena que se validará contra la lista negra.",
+	"apihelp-titleblacklist-param-action": "La acción que verificar.",
+	"apihelp-titleblacklist-param-nooverride": "No tratar de ignorar la lista negra de títulos.",
+	"apihelp-titleblacklist-example-1": "Comprobar si [[Foo]] está en la lista negra",
+	"apihelp-titleblacklist-example-2": "Comprobar si [[Bar]] está en la lista negra de edición",
+	"apihelp-createaccount-param-ignoretitleblacklist": "Ignorar comprobaciones de suplantación (requiere uno de los siguientes permisos: <code>tboverride</code> o <code>tboverride-account</code>)."
+}

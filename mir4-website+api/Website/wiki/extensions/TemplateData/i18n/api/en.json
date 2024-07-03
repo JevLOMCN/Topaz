@@ -1,0 +1,16 @@
+{
+	"@metadata": {
+		"authors": [
+			"EpicPupper",
+			"Zoranzoki21"
+		]
+	},
+	"apihelp-templatedata-summary": "Fetch data stored by the TemplateData extension.",
+	"apihelp-templatedata-example-1": "Return TemplateData for [[Template:Foobar]], with results if the template does not exist or exists but has no TemplateData",
+	"apihelp-templatedata-example-2": "Return TemplateData for [[Template:Phabricator]], with no results if the template does not exist or exists but has no TemplateData",
+	"apihelp-templatedata-param-includeMissingTitles": "Return data about titles even if they are missing or lack TemplateData. By default titles are only returned if they exist and have TemplateData.",
+	"apihelp-templatedata-param-doNotIgnoreMissingTitles": "Return data about titles even if they are missing or lack TemplateData. By default (for backwards compatibility) titles are only returned if they exist and have TemplateData.",
+	"apihelp-templatedata-param-lang": "Return localized values in this language. By default all available translations are returned.",
+	"apierror-templatedata-corrupt": "Page #$1 templatedata contains invalid data: $2",
+	"apiwarn-templatedata-deprecation-format": "The default output format will change to <kbd>jsonfm</kbd> in the future. Please specify <kbd>format=json</kbd> explicitly."
+}

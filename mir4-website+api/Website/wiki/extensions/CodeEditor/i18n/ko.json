@@ -1,0 +1,26 @@
+{
+	"@metadata": {
+		"authors": [
+			"Alex00728",
+			"Codenstory",
+			"IRTC1015",
+			"Kwj2772",
+			"Ykhwong",
+			"아라"
+		]
+	},
+	"codeeditor-desc": "[https://ace.c9.io/ Ace 편집기]를 사용하여 자바스크립트와 CSS 문서에 구문을 강조하는 기능의 편집",
+	"codeeditor-next-annotation": "다음 주석 보기",
+	"codeeditor-toolbar-toggle": "코드 편집기 전환",
+	"codeeditor-save-with-errors": "문서에 오류가 있습니다. 게시하겠습니까?",
+	"codeeditor-invisibleChars-toggle": "보이지 않는 문자 보이기/숨기기",
+	"codeeditor-lineWrapping-toggle": "자동 줄 바꿈 켜기/끄기",
+	"codeeditor-searchReplace-toggle": "찾아 바꾸기 대화창 보이기/숨기기",
+	"codeeditor-gotoline": "...줄로 넘어가기",
+	"codeeditor-gotoline-placeholder": "행[:열]",
+	"codeeditor-gotoline-prompt": "줄 번호를 입력하십시오",
+	"codeeditor-indent": "들여쓰기",
+	"codeeditor-outdent": "내어쓰기",
+	"codeeditor-error-title": "의존성 실패",
+	"codeeditor-error-message": "코드편집기를 사용하려면 위키편집기를 로드해야 합니다."
+}

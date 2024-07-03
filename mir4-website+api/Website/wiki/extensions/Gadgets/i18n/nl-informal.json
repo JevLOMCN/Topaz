@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"McDutchie",
+			"Siebrand"
+		]
+	},
+	"gadgets-prefstext": "Hieronder staan de speciale uitbreidingen die je kunt inschakelen.\nDe uitbreidingen zijn voornamelijk gebaseerd op JavaScript, dus JavaScript moet voor jouw browser ingeschakeld zijn om ze te laten werken.\nDe uitbreidingen hebben geen invloed op deze pagina met voorkeuren.\n\nDeze speciale uitbreidingen zijn geen onderdeel van de MediaWiki-software en worden meestal ontwikkeld en onderhouden door gebruikers van jouw wiki.\nDe beheerders van de lokale interface kunnen de [[MediaWiki:Gadgets-definition|definities]] van de beschikbare uitbreidingen wijzigen, en de beheerders van deze site kunnen de [[Special:Gadgets|beschrijvingen]] bewerken waar de broncode van iedere uitbreiding te zien is. De [[Special:GadgetUsage|aantallen gebruikers van iedere uitbreiding op deze wiki]] zijn beschikbaar.",
+	"gadgets-export-text": "Klik op de knop \"{{int:gadgets-export-download}}\" om de uitbreiding \"$1\" te exporteren.\nSla daarna het gedownloade bestand op.\nGa naar \"Special:Import\" in de doelwiki en upload het geëxporteerde bestand.\nVoeg daarna het volgende toe aan de pagina \"MediaWiki:Gadgets-definition\":\n<pre>$2</pre>\nJe moet de juiste rechten hebben op de doelwiki, inclusief het recht om bewerkingen te maken aan de systeemberichten, en importeren uit bestanden moet ingeschakeld zijn."
+}

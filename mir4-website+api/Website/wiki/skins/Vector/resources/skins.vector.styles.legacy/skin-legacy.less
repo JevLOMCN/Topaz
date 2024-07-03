@@ -1,0 +1,33 @@
+/**
+ * Vector legacy stylesheets
+ * See '../common/common.less' for common screen and print Vector stylesheets.
+ */
+@import './variables.less';
+@import './mixins.less';
+
+@media screen {
+	// Common styles
+	@import './normalize.less';
+	@import './typography.less';
+
+	// Layouts
+	@import './layouts/screen.less';
+
+	// Legacy specific components
+	@import './components/Indicators.less';
+	@import './components/Footer.less';
+	@import './components/Menu.less';
+	@import './components/MenuDropdown.less';
+	@import './components/MenuTabs.less';
+	@import './components/LegacySidebar.less';
+	@import './components/SearchBox.less';
+	@import './components/SidebarLogo.less';
+	@import './components/SiteNotice.less';
+	@import './components/TabWatchstarLink.less';
+	@import './components/UserLinks.less';
+}
+
+@media print {
+	@import './print.less';
+	@import './layouts/print.less';
+}

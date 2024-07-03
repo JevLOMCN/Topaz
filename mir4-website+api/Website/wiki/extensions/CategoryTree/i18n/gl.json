@@ -1,0 +1,39 @@
+{
+	"@metadata": {
+		"authors": [
+			"Alma",
+			"Elisardojm",
+			"Iváns",
+			"Toliño",
+			"Xosé"
+		]
+	},
+	"categorytree": "Árbore de categorías",
+	"categorytree-portlet": "Categorías",
+	"categorytree-legend": "Amosar a árbore de categorías",
+	"categorytree-desc": "Navegación dinámica a través da [[Special:CategoryTree|estrutura de categorías]]",
+	"categorytree-header": "Introduza o nome dunha categoría para ver o seu contido nunha estrutura de árbore. (Require JavaScript.)",
+	"categorytree-category": "Categoría:",
+	"categorytree-go": "Amosar a árbore",
+	"categorytree-parents": "Categoría raíz",
+	"categorytree-mode-label": "Modo:",
+	"categorytree-mode-categories": "só as categorías",
+	"categorytree-mode-pages": "páxinas agás os ficheiros",
+	"categorytree-mode-all": "todas as páxinas",
+	"categorytree-collapse": "contraer",
+	"categorytree-expand": "expandir",
+	"categorytree-member-counts": "Contén {{PLURAL:$1|unha subcategoría|$1 subcategorías}}, {{PLURAL:$2|unha páxina|$2 páxinas}} e mais {{PLURAL:$3|un ficheiro|$3 ficheiros}}",
+	"categorytree-num-categories": "$1 C",
+	"categorytree-num-pages": "$1 P",
+	"categorytree-num-files": "$1 F",
+	"categorytree-num-empty": "baleira",
+	"categorytree-load": "cargar",
+	"categorytree-loading": "cargando…",
+	"categorytree-nothing-found": "non se atopou nada",
+	"categorytree-no-subcategories": "non hai subcategorías",
+	"categorytree-no-parent-categories": "non hai categorías superiores a esta",
+	"categorytree-no-pages": "non hai páxinas nin subcategorías",
+	"categorytree-not-found": "Non se atopou a categoría \"<i>$1</i>\"",
+	"categorytree-error": "Problema coa carga de datos.",
+	"categorytree-retry": "Agarde un momento e inténteo de novo."
+}

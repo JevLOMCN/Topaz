@@ -1,0 +1,11 @@
+!! Version 2
+
+!! test
+pre-save transform: comment containing math
+!! options
+pst
+!! wikitext
+<!-- <math>data</math> -->
+!! html
+<!-- <math>data</math> -->
+!!end

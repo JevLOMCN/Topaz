@@ -1,0 +1,39 @@
+{
+	"@metadata": {
+		"authors": [
+			"Brettchenweber",
+			"Debenben",
+			"Geitost",
+			"Giftpflanze",
+			"Imre",
+			"Kghbln",
+			"MF-Warburg",
+			"MGChecker",
+			"Metalhead64",
+			"Raimond Spekking",
+			"The Evil IP address",
+			"Umherirrender",
+			"Wnme"
+		]
+	},
+	"action-tboverride": "die Negativliste unerwünschter Seiten- oder Benutzernamen außer Kraft zu setzen",
+	"action-tboverride-account": "die Negativliste unerwünschter Benutzernamen außer Kraft zu setzen",
+	"action-titleblacklistlog": "das Titel-Negativliste-Logbuch anzusehen",
+	"log-name-titleblacklist": "Titel-Negativlisten-Logbuch",
+	"log-description-titleblacklist": "Dies ist ein Logbuch der Titel-Negativliste-Treffer.",
+	"logentry-titleblacklist-hit-username": "$1 {{GENDER:$2|verursachte}} einen Treffer in der Titel-Negativliste beim Versuch, das Benutzerkonto $3 mit dem übereinstimmenden Eintrag „$4“ zu erstellen.",
+	"titleblacklist-desc": "Ermöglicht es Administratoren, die Erstellung unerwünschter Seiten- und Benutzernamen zu unterbinden: [[MediaWiki:Titleblacklist]] und [[MediaWiki:Titlewhitelist]]",
+	"titleblacklist": "# Dies ist eine Negativliste für Seiten- und Benutzernamen. Sofern auf einen solchen Namen einer der folgenden regulären Ausdrücke zutrifft, kann er nicht erstellt werden.\n# Verwende „#“ für Kommentare.\n# Standardmäßig wird nicht zwischen Groß- und Kleinschreibung unterschieden.",
+	"titlewhitelist": "# Dies ist die Ausnahmeliste von der Schwarzen Liste unerwünschter Seiten- und Benutzernamen. Benutze „#“ für Kommentare.\n# Standardmäßig wird nicht zwischen Groß- und Kleinschreibung unterschieden.",
+	"titleblacklist-forbidden-edit": "'''Eine Seite mit dem Titel „$2“ kann nicht erstellt werden.'''<br />Der Titel kollidiert mit diesem Sperrbegriff: '''''$1'''''",
+	"titleblacklist-forbidden-move": "Die Seite „$2“ kann nicht nach „$3“ verschoben werden.\nDer Titel kollidiert mit diesem Sperrbegriff: <code>$1</code>",
+	"titleblacklist-forbidden-upload": "Eine Datei mit dem Namen „$2“ kann nicht hochgeladen werden.\nDer Titel kollidiert mit diesem Sperrbegriff: <code>$1</code>",
+	"titleblacklist-forbidden-new-account": "Die Registrierung des Benutzernamens „$2“ ist nicht erwünscht.\nFolgender Eintrag aus der Liste unerwünschter Benutzernamen führte zur Ablehnung: <code>$1</code>",
+	"titleblacklist-invalid": "Die {{PLURAL:$1|folgende Zeile|folgenden Zeilen}} in der Sperrliste {{PLURAL:$1|ist|sind}} ungültig; bitte korrigiere diese vor dem Speichern:",
+	"titleblacklist-override": "Die Titel-Negativliste bei Treffern umgehen",
+	"titleblacklist-override-help": "Benutzer mit ausreichenden Rechten können dies setzen, um die Titel-Negativliste-Prüfungen zu ignorieren.",
+	"titleblacklist-warning": "<strong>Warnung: Diese Seite kann nur von Administratoren und anderen Benutzern mit dem <code>tboverride</code>-Recht bearbeitet werden, da sie mit dem folgenden Eintrag in der Titel-Negativliste übereinstimmt:</strong><br /><code>$1</code>",
+	"right-tboverride": "Die Negativliste unerwünschter Seiten- oder Benutzernamen außer Kraft setzen",
+	"right-tboverride-account": "Die Negativliste unerwünschter Benutzernamen außer Kraft setzen",
+	"right-titleblacklistlog": "Das Logbuch der Liste der nicht zugelassenen Titel ansehen"
+}

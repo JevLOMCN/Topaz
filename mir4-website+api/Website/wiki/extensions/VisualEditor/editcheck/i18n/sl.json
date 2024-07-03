@@ -1,0 +1,27 @@
+{
+	"@metadata": {
+		"authors": [
+			"Eleassar"
+		]
+	},
+	"editcheck-dialog-action-no": "Ne",
+	"editcheck-dialog-action-yes": "Da",
+	"editcheck-dialog-addref-description": "Pomagajte bralcem razumeti, od kod izvira ta informacija, tako da dodate sklic.",
+	"editcheck-dialog-addref-reject-question": "Zakaj niste dodali sklica?",
+	"editcheck-dialog-addref-reject-description": "Drugi urejevalci bi bili hvaležni za obrazložitev vaše odločitve, da ne dodate sklica.",
+	"editcheck-dialog-addref-reject-irrelevant": "Menim, da za spremembo, ki jo izvajam, sklici niso  potrebni",
+	"editcheck-dialog-addref-reject-common-knowledge": "Informacije, ki jih dodajam, so splošno znane",
+	"editcheck-dialog-addref-reject-uncertain": "Nisem prepričan_a, kateri sklic dodati",
+	"editcheck-dialog-addref-reject-other": "Drugo",
+	"editcheck-dialog-addref-success-notify": "Hvala za dodani sklic!",
+	"editcheck-dialog-addref-title": "Dodajte sklic",
+	"editcheck-dialog-title": "Pred objavo",
+	"tag-editcheck-reference-decline-common-knowledge": "Preverjanje urejanja (sklici) odklonjeno (splošno znanje)",
+	"tag-editcheck-reference-decline-common-knowledge-description": "EditCheck: Sklic je bil odklonjen kot splošno znanje",
+	"tag-editcheck-reference-decline-irrelevant": "Preverjanje urejanja (sklici) odklonjeno (nepotrebno)",
+	"tag-editcheck-reference-decline-irrelevant-description": "EditCheck: Sklic je bil odklonjen kot nepotreben",
+	"tag-editcheck-reference-decline-other": "Preverjanje urejanja (sklici) odklonjeno (drugo)",
+	"tag-editcheck-reference-decline-other-description": "EditCheck: Sklic je bil odklonjen iz nenavedenega razloga",
+	"tag-editcheck-reference-decline-uncertain": "Preverjanje urejanja (sklici) odklonjeno (nezanesljivo)",
+	"tag-editcheck-reference-decline-uncertain-description": "EditCheck: Sklic je bil odklonjen kot nezanesljiv"
+}

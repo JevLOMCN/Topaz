@@ -1,0 +1,33 @@
+/*!
+ * VisualEditor UserInterface SpecialCharacterDialog styles.
+ *
+ * @copyright See AUTHORS.txt
+ */
+
+.ve-ui-specialCharacterDialog {
+	/* When displaying inside another dialog, make the menu narrower */
+	.oo-ui-dialog & {
+		.oo-ui-menuLayout-menu {
+			width: 10em;
+		}
+
+		.oo-ui-menuLayout-content {
+			left: 10em;
+		}
+	}
+
+	&-source.ve-ui-symbolListPage-symbol {
+		/* Specify a valid second value to fix size in Chrome/FF */
+		font-family: monospace, 'Courier';
+		font-size: 1em;
+		line-height: 2.7em;
+		height: 2.7em;
+		padding: 0 0.2em;
+		/* Hidden unless in source mode */
+		display: none;
+
+		.ve-ui-specialCharacterDialog-characterList-source & {
+			display: inline-block;
+		}
+	}
+}

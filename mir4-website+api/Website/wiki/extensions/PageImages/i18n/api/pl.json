@@ -1,0 +1,18 @@
+{
+	"@metadata": {
+		"authors": [
+			"Rail",
+			"Saper",
+			"SemanticPioneer"
+		]
+	},
+	"apihelp-query+pageimages-summary": "Zwraca informacje na temat obrazów na stronie, takie jak miniatury lub wygląd zdjęć.",
+	"apihelp-query+pageimages-example-1": "Pobierz nazwę i stupikslową miniaturę portretu Alberta Einsteina.",
+	"apihelp-query+pageimages-param-prop": "Jakie informacje zwrócić:\n;thumbnail:Adres URL i wymiary miniatury obrazu powiązanego ze stroną, jeżeli występuje.\n;original:Adres URL i pierwotne wymiary obrazu powiązanego ze stroną, jeżeli występuje.\n;name:Tytuł obrazu.",
+	"apihelp-query+pageimages-param-thumbsize": "Maksymalna szerokość miniatur obrazów w pikselach.",
+	"apihelp-query+pageimages-param-langcode": "Kod języka, w którym obraz ma być renderowany, jeśli obsługiwanych jest wiele języków.",
+	"apihelp-query+pageimages-param-limit": "Określa jak wiele stron zwrócić.",
+	"apihelp-query+pageimages-param-license": "Ogranicz strony obrazów do określonego typu licencji",
+	"apihelp-query+pageimages-paramvalue-license-free": "tylko wolne obrazy",
+	"apihelp-query+pageimages-paramvalue-license-any": "najlepszy obraz, niezależnie od tego czy jest wolny, czy nie."
+}

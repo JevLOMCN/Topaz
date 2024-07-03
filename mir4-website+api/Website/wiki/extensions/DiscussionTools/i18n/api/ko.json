@@ -1,0 +1,33 @@
+{
+	"@metadata": {
+		"authors": [
+			"Bluehill",
+			"MemphisA5",
+			"Ykhwong"
+		]
+	},
+	"apierror-discussiontools-commentid-notfound": "ID가 ' $1 '인 댓글을 찾을 수 없습니다.",
+	"apierror-discussiontools-commentname-ambiguous": "이름이 '$1'인 댓글이 여러 개 있습니다. <var>commentid</var>는 필수입니다.",
+	"apierror-discussiontools-commentname-notfound": "이름이 '$1'인 댓글을 찾을 수 없습니다.",
+	"apierror-discussiontools-formtoken-used": "답변이 이미 게시되었습니다. 답변을 보려면 페이지를 다시 로드하십시오.",
+	"apierror-discussiontools-subscription-failed-add": "이 주제를 구독하지 못했습니다.",
+	"apierror-discussiontools-subscription-failed-remove": "이 주제의 구독을 취소하지 못했습니다.",
+	"apihelp-discussiontoolscompare-summary": "두 페이지 판 사이의 의견 변경 내용에 관한 정보를 가져옵니다.",
+	"apihelp-discussiontoolsedit-param-wikitext": "위키텍스트로 게시할 콘텐츠입니다. <var>html</var>과 함께 사용할 수 없습니다.",
+	"apihelp-discussiontoolsedit-paramvalue-paction-addcomment": "기존 댓글에 답변으로 새 댓글을 추가합니다.",
+	"apihelp-discussiontoolsedit-summary": "토론 문서에 메시지를 게시합니다.",
+	"apihelp-discussiontoolsfindcomment-summary": "ID 또는 이름으로 댓글을 찾습니다.",
+	"apihelp-discussiontoolsfindcomment-param-idorname": "댓글 ID 또는 이름",
+	"apihelp-discussiontoolsgetsubscriptions-param-commentname": "검사할 주제의 이름",
+	"apihelp-discussiontoolsgetsubscriptions-summary": "지정된 주제의 구독 상태를 가져옵니다.",
+	"apihelp-discussiontoolspageinfo-param-oldid": "사용할 판 번호입니다. (기본값은 최신판입니다)",
+	"apihelp-discussiontoolspageinfo-param-prop": "가져올 속성:",
+	"apihelp-discussiontoolspageinfo-summary": "토론 도구 초기화에 필요한 메타데이터를 반환합니다.",
+	"apihelp-discussiontoolspreview-param-type": "미리 볼 메시지의 유형",
+	"apihelp-discussiontoolspreview-param-wikitext": "위키텍스트 형식의 미리 볼 내용입니다.",
+	"apihelp-discussiontoolspreview-summary": "토론 문서의 메시지를 미리 봅니다.",
+	"apihelp-discussiontoolssubscribe-param-commentname": "구독(또는 구독 해지)할 주제의 이름",
+	"apihelp-discussiontoolssubscribe-param-page": "주제가 표시되는 페이지",
+	"apihelp-discussiontoolssubscribe-param-subscribe": "true는 구독이며, false는 구독 해지임",
+	"apihelp-discussiontoolssubscribe-summary": "주제에 관한 알림을 수신하기 위해 구독(또는 구독 해지)을 합니다."
+}

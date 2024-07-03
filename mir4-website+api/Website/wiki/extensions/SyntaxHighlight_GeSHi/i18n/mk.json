@@ -1,0 +1,24 @@
+{
+	"@metadata": {
+		"authors": [
+			"Bjankuloski06",
+			"Vlad5250"
+		]
+	},
+	"syntaxhighlight-desc": "Овозможува потцртување на синтакса <code>&lt;syntaxhighlight&gt;</code> со помош на [http://pygments.org/ Pygments — истакнува на Python-синтакса]",
+	"syntaxhighlight-error-category": "Страници со грешки при истакнување на синтаксата",
+	"syntaxhighlight-error-category-desc": "Се појави грешка при обидот да се подвлече кодот вклучен во страницата.",
+	"syntaxhighlight-enclose-category": "Страници со застарени атрибути enclose",
+	"syntaxhighlight-enclose-category-desc": "Синтаксното истакнување на страницата користи затарена синтакса за enclose.",
+	"syntaxhighlight-source-category": "Страници со застарени ознаки source",
+	"syntaxhighlight-source-category-desc": "Синтаксното истакнување на страницата користи застарени ознаки за source.",
+	"syntaxhighlight-visualeditor-mwsyntaxhighlightinspector-code": "Код",
+	"syntaxhighlight-visualeditor-mwsyntaxhighlightinspector-language": "Јазик",
+	"syntaxhighlight-visualeditor-mwsyntaxhighlightinspector-none": "(ниеден)",
+	"syntaxhighlight-visualeditor-mwsyntaxhighlightinspector-showlines": "Прикажувај броеви на редовите",
+	"syntaxhighlight-visualeditor-mwsyntaxhighlightinspector-startingline": "Број на почетниот ред",
+	"syntaxhighlight-visualeditor-mwsyntaxhighlightinspector-title": "Коден блок",
+	"syntaxhighlight-error-pygments-invocation-failure": "Не успеав да го повикам Pygments",
+	"syntaxhighlight-error-unknown-language": "Непознат јазик „$1“",
+	"syntaxhighlight-error-exceeds-size-limit": "Големината на кодот од {{PLURAL:$1|еден бајт|$1 бајти}} ја надминува горната граница од  {{PLURAL:$2|еден бајт|$2 бајти}}"
+}

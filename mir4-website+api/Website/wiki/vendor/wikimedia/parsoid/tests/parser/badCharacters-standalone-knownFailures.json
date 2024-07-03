@@ -1,0 +1,15 @@
+{
+    "External links: invalid character NUL (stripped)": {
+        "wt2html": "<p data-parsoid='{\"dsr\":[0,30,0,0]}'><a rel=\"mw:ExtLink nofollow\" href=\"http://www.example.com%00\" class=\"external text\" data-parsoid='{\"a\":{\"href\":\"http://www.example.com%00\"},\"sa\":{\"href\":\"http://www.example.com\\u0000\"},\"dsr\":[0,30,25,1]}'>test</a></p>",
+        "html2wt": "[http://www.example.com test]\n"
+    },
+    "External links: invalid character backspace (preserved)": {
+        "wt2html": "<p data-parsoid='{\"dsr\":[0,30,0,0]}'><a rel=\"mw:ExtLink nofollow\" href=\"http://www.example.com%08\" class=\"external text\" data-parsoid='{\"a\":{\"href\":\"http://www.example.com%08\"},\"sa\":{\"href\":\"http://www.example.com\\b\"},\"dsr\":[0,30,25,1]}'>test</a></p>",
+        "html2wt": "[http://www.example.com<nowiki>\b test]</nowiki>\n"
+    },
+    "Magic link: invalid character NUL (stripped)": {
+        "wt2wt": "http://www.example.com test",
+        "html2wt": "http://www.example.com test\n",
+        "selser [2]": "gz69yc\n\nhttp://www.example.com\u0000 test"
+    }
+}

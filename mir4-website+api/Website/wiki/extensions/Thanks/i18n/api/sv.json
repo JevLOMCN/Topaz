@@ -1,0 +1,17 @@
+{
+	"@metadata": {
+		"authors": [
+			"Lokal Profil",
+			"Macofe",
+			"WikiPhoenix"
+		]
+	},
+	"apihelp-flowthank-summary": "Skicka en offentlig tack-avisering för en Flow-kommentar.",
+	"apihelp-flowthank-param-postid": "UUID:et för det inlägg du vill tacka för.",
+	"apihelp-flowthank-example-1": "Skicka tack för kommentaren med <kbd>UUID xyz789</kbd>",
+	"apihelp-thank-summary": "Skicka ett tack-avisering till en redigerare.",
+	"apihelp-thank-param-rev": "Sidversionens ID att tacka någon för. Detta eller \"log\" måste anges.",
+	"apihelp-thank-param-log": "Logg-ID att tacka någon för. Detta eller \"rev\" måste anges.",
+	"apihelp-thank-param-source": "En kort sträng som beskriver källan för begäran, till exempel, <kbd>diff</kbd> eller <kbd>history</kbd>.",
+	"apihelp-thank-example-1": "Skicka tack för version med <kbd>ID 456</kbd>, med en diff-sida som källa"
+}

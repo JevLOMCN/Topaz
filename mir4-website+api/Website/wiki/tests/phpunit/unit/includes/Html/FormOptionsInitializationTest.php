@@ -1,0 +1,59 @@
+<?php
+
+use MediaWiki\Html\FormOptions;
+use Wikimedia\TestingAccessWrapper;
+
+/**
+ * Copyright © 2011, Antoine Musso
+ *
+ * @author Antoine Musso
+ * @covers \MediaWiki\Html\FormOptions
+ */
+class FormOptionsInitializationTest extends \MediaWikiUnitTestCase {
+	/**
+	 * @var FormOptions
+	 */
+	protected $object;
+
+	protected function setUp(): void {
+		parent::setUp();
+		$this->object = TestingAccessWrapper::newFromObject( new FormOptions() );
+	}
+
+	public function testAddStringOption() {
+		$this->object->add( 'foo', 'string value' );
+		$this->assertEquals(
+			[
+				'foo' => [
+					'default' => 'string value',
+					'consumed' => false,
+					'type' => FormOptions::STRING,
+					'value' => null,
+				]
+			],
+			$this->object->options
+		);
+	}
+
+	public function testAddIntegers() {
+		$this->object->add( 'one', 1 );
+		$this->object->add( 'negone', -1 );
+		$this->assertEquals(
+			[
+				'negone' => [
+					'default' => -1,
+					'value' => null,
+					'consumed' => false,
+					'type' => FormOptions::INT,
+				],
+				'one' => [
+					'default' => 1,
+					'value' => null,
+					'consumed' => false,
+					'type' => FormOptions::INT,
+				]
+			],
+			$this->object->options
+		);
+	}
+}

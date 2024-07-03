@@ -1,0 +1,18 @@
+{
+	"@metadata": {
+		"authors": [
+			"Michawiki"
+		]
+	},
+	"templatedata-desc": "Datowe składowanje za pśedłogowe parametry implementěrowaś (z pomocu JSON)",
+	"templatedata-doc-param-default": "Standard",
+	"templatedata-doc-param-desc": "Wopisanje",
+	"templatedata-doc-param-name": "Parameter",
+	"templatedata-doc-param-status": "Status",
+	"templatedata-doc-params": "Pśedłogowe parametry",
+	"templatedata-invalid-missing": "Trěbna kakosć \"$1\" njejo se namakała.",
+	"templatedata-invalid-parse": "Syntaksowa zmólka w JSON.",
+	"templatedata-invalid-type": "Za kakosć \"$1\" se typ \"$2\" wótcakujo.",
+	"templatedata-invalid-unknown": "Njewótcakana kakosć \"$1\".",
+	"templatedata-invalid-value": "Njepłaśiwa gódnota za kakosć \"$1\"."
+}

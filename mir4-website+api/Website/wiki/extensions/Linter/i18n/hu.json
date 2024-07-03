@@ -1,0 +1,41 @@
+{
+	"@metadata": {
+		"authors": [
+			"Bean49",
+			"Tacsipacsi",
+			"Urbalazs"
+		]
+	},
+	"linterrors": "Lint-hibák",
+	"linter-category-deletable-table-tag": "Törlendő táblázatcímke",
+	"linter-category-missing-end-tag": "Hiányzó lezáró címke",
+	"linter-category-missing-end-tag-desc": "Ezeken a lapokon hiányoznak lezáró címkék.",
+	"linter-category-obsolete-tag": "Elavult HTML-címkék",
+	"linter-category-obsolete-tag-desc": "Ezek a lapok elavult HTML-címkéket használnak.",
+	"linter-category-self-closed-tag": "Önzáró címkék",
+	"linter-category-self-closed-tag-desc": "Ezek a lapok önzáró címkéket használnak.",
+	"linter-desc": "Külső szolgáltatás Lint-hibáinak követése és megjelenítése a felhasználóknak",
+	"linter-form-namespace": "Névtér:",
+	"linter-heading-high-priority": "Magas prioritás",
+	"linter-heading-low-priority": "Alacsony prioritás",
+	"linter-heading-medium-priority": "Közepes prioritás",
+	"linter-numerrors": "($1 hiba)",
+	"linter-page-edit": "szerkesztés",
+	"linter-page-history": "laptörténet",
+	"linter-page-viewsource": "forráskód megtekintése",
+	"linter-pager-deletable-table-tag-details": "Törlendő táblázatcímke",
+	"linter-pager-misc-tidy-replacement-issues-details": "Vegyes jelölőnyelv-hibák",
+	"linter-pager-missing-end-tag-details": "Hiányzó lezáró címke",
+	"linter-pager-multiline-html-table-in-list-details": "Többsoros HTML5-táblázat egy listában",
+	"linter-pager-multiple-unclosed-formatting-tags-details": "Több lezáratlan formázócímke egy lapon",
+	"linter-pager-obsolete-tag-details": "Elavult HTML-címke",
+	"linter-pager-self-closed-tag-details": "Önzáró címke",
+	"linter-pager-template-header": "Sablonon keresztül?",
+	"linter-pager-tidy-font-bug-details": "A <font> címke módosítani próbálja a linkszöveg színét",
+	"linter-pager-title-header": "Lapcím",
+	"linter-pager-unclosed-quotes-in-heading-details": "Lezáratlan aposztróf, ami kiszivárog a tartalomjegyzékből",
+	"linterrors-subpage": "Lint-hibák: $1",
+	"linterrors-summary": "Bővebb információkért lásd: [[mw:Help:Lint errors]].<br><strong>Note:</strong> The counts for categories are not accurate counts, but are based on estimates.",
+	"multi-part-template-block": "A kimenet nem egyetlen sablonból származik",
+	"pageinfo-linter": "Lint-hibák"
+}

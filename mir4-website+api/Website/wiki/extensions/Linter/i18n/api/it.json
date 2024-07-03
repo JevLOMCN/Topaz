@@ -1,0 +1,18 @@
+{
+	"@metadata": {
+		"authors": [
+			"Beta16",
+			"Bultro"
+		]
+	},
+	"apihelp-query+linterrors-summary": "Ottieni lista di errori di Lint",
+	"apihelp-query+linterrors-param-categories": "Categorie di errori di Lint",
+	"apihelp-query+linterrors-param-limit": "Numero risultati da richiedere",
+	"apihelp-query+linterrors-param-from": "ID Lint da cui iniziare la ricerca",
+	"apihelp-query+linterrors-param-namespace": "Includi solo errori di Lint dai namespace specificati",
+	"apihelp-query+linterrors-param-pageid": "Includi solo errori di Lint da ID pagine specificati",
+	"apihelp-query+linterrors-param-title": "Includi solo errori di Lint dai titoli pagine specificati",
+	"apihelp-query+linterrors-example-1": "Ottieni tutti gli errori di Lint della categoria \"obsolete-tag\"",
+	"apihelp-query+linterstats-summary": "Ottieni il numero di errori di Lint in ciascuna categoria",
+	"apihelp-query+linterstats-example-1": "Ottieni il numero di errori di Lint in ciascuna categoria"
+}

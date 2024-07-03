@@ -1,0 +1,23 @@
+{
+	"@metadata": {
+		"authors": [
+			"DDPAT",
+			"Ice bulldog",
+			"Movses",
+			"Piramidion",
+			"Ата"
+		]
+	},
+	"apihelp-query+pageimages-summary": "Видає інформацію про зображення на сторінці, таку як мініатюри і наявність фото.",
+	"apihelp-query+pageimages-example-1": "Отримати назву та <kbd>100</kbd>-піксельну мініатюру зображення на сторінці <kbd>Albert Einstein</kbd>.",
+	"apihelp-query+pageimages-param-prop": "Яку інформацію видавати:",
+	"apihelp-query+pageimages-paramvalue-prop-thumbnail": "URL та розміри зображення-мініатюри, пов'язаного зі сторінкою, за наявності.",
+	"apihelp-query+pageimages-paramvalue-prop-original": "URL та оригінальні розміри зображення, асоційованого зі сторінкою, за наявності.",
+	"apihelp-query+pageimages-paramvalue-prop-name": "Назва зображення.",
+	"apihelp-query+pageimages-param-thumbsize": "Максимальна ширина мініатюр зображень у пікселях.",
+	"apihelp-query+pageimages-param-langcode": "Код мови, на якій буде зображено зображення, якщо підтримується декілька мов",
+	"apihelp-query+pageimages-param-limit": "Властивості скількох сторінок видавати.",
+	"apihelp-query+pageimages-param-license": "Обмежити зображення на сторінці до певного типу ліцензії:",
+	"apihelp-query+pageimages-paramvalue-license-free": "Лише вільні зображення.",
+	"apihelp-query+pageimages-paramvalue-license-any": "Найкраще зображення, незалежно від того, вільне чи ні."
+}

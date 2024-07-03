@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"Dgstranz",
+			"Gomoko",
+			"Verdy p",
+			"Wladek92"
+		]
+	},
+	"apihelp-categorytree-summary": "Module interne pour l’extension CategoryTree.",
+	"apihelp-categorytree-param-category": "Titre dans l’espace de noms des catégories, le préfixe sera ignoré s’il est fourni.",
+	"apihelp-categorytree-param-options": "Options pour le constructeur CategoryTree comme objet JSON. L’option <var>depth</var> par défaut vaut <kbd>1</kbd>.",
+	"apierror-categorytree-invalidjson": "Les options doivent être un objet JSON valide.",
+	"apierror-categorytree-invalidjson-option": "L’option « $1 » contient une valeur non valide."
+}

@@ -1,0 +1,24 @@
+{
+	"@metadata": {
+		"authors": [
+			"Amire80",
+			"Jon Harald Søby"
+		]
+	},
+	"apihelp-query+extracts-summary": "Returnerer tekstutdrag fra de gitte sidene i rentekst eller begrenset HTML.",
+	"apihelp-query+extracts-param-chars": "Hvor mange tegn som skal returneres. Den faktiske teksten som returneres kan være litt lenger.",
+	"apihelp-query+extracts-param-sentences": "Hvor mange setninger som skal returneres.",
+	"apihelp-query+extracts-param-limit": "Hvor mange utdrag som skal returneres. (Flere utdrag kan kun returneres om exintro er satt til sann.)",
+	"apihelp-query+extracts-param-intro": "Returner kun innholdet foran første seksjon.",
+	"apihelp-query+extracts-param-plaintext": "Returner utdrag som ren tekst i stedet for HTML.",
+	"apihelp-query+extracts-param-sectionformat": "Hvordan seksjoner formateres i rentekstmodus:",
+	"apihelp-query+extracts-paramvalue-sectionformat-plain": "Ingen formatering.",
+	"apihelp-query+extracts-paramvalue-sectionformat-wiki": "Formatering i wikitekststil (== som dette ==).",
+	"apihelp-query+extracts-paramvalue-sectionformat-raw": "Denne modulens interne representasjon (seksjonstittel med prefiks &lt;ASCII 1&gt;&lt;ASCII 2&gt;&lt;section level&gt;&lt;ASCII 2&gt;&lt;ASCII 1&gt;).",
+	"apihelp-query+extracts-example-1": "Hent et utdrag på 175 tegn",
+	"apiwarn-textextracts-limit": "<var>exlimit</var> var for stor for en forespørsel om full artikkeluthenting, senket til $1.",
+	"apiwarn-textextracts-unsupportedmodel": "$1 har innholdsmodellen $2, som ikke støttes; returnerer en tom uthenting.",
+	"apiwarn-textextracts-title-in-file-namespace": "Utdrag for en tittel i filnavnerommet ble bedt om, ingen ble returnert.",
+	"apiwarn-textextracts-sentences-and-html": "Parameteren <var>$1sentences</var> kan ha uventede resultater om den brukes i HTML-modus.",
+	"apiwarn-textextracts-malformed-html": "HTML kan være misformet og/eller ubalansert, og kan utelate bilder. Bruk på egen risiko. Kjente problemer listes opp på https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:TextExtracts#Caveats."
+}

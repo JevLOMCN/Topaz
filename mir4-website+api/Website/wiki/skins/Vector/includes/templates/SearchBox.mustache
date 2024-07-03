@@ -1,0 +1,27 @@
+{{!
+ See @typedef SearchData
+}}
+<div{{#is-primary}} id="p-search"{{/is-primary}} role="search" class="{{class}} vector-search-box">
+	{{#is-collapsible}}
+	{{#data-collapsed-search-button}}
+	{{>Button}}
+	{{/data-collapsed-search-button}}
+	{{/is-collapsible}}
+	<div class="vector-typeahead-search-container">
+		<div class="cdx-typeahead-search{{#is-thumbnail}} cdx-typeahead-search--show-thumbnail{{/is-thumbnail}}{{#is-auto-expand}} cdx-typeahead-search--auto-expand-width{{/is-auto-expand}}">
+			<form action="{{form-action}}" id="{{form-id}}" class="cdx-search-input cdx-search-input--has-end-button">
+				<div {{#is-primary}}id="simpleSearch"{{/is-primary}} class="cdx-search-input__input-wrapper" {{#input-location}} data-search-loc="{{.}}"{{/input-location}}>
+					<div class="cdx-text-input cdx-text-input--has-start-icon">
+						<input
+							class="cdx-text-input__input"
+							{{#is-primary}}{{{html-input-attributes}}} id="searchInput"{{/is-primary}}
+							{{^is-primary}}type="search" name="search" placeholder="{{msg-searchsuggest-search}}"{{/is-primary}}>
+						<span class="cdx-text-input__icon cdx-text-input__start-icon"></span>
+					</div>
+					<input type="hidden" name="title" value="{{page-title}}">
+				</div>
+				<button class="cdx-button cdx-search-input__end-button">{{msg-searchbutton}}</button>
+			</form>
+		</div>
+	</div>
+</div>

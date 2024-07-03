@@ -1,0 +1,33 @@
+{
+	"@metadata": {
+		"authors": [
+			"Dcausse",
+			"Gomoko",
+			"Grondin",
+			"Macofe",
+			"Mattho69",
+			"Orlodrim",
+			"Pols12",
+			"Sherbrooke",
+			"Thibaut120094",
+			"Verdy p",
+			"Wladek92"
+		]
+	},
+	"syntaxhighlight-desc": "Fournit la mise en valeur de la syntaxe par la balise <code>&lt;syntaxhighlight&gt;</code> en utilisant [http://pygments.org/ Pygments - coloration syntaxique Python]",
+	"syntaxhighlight-error-category": "Pages avec des erreurs de coloration syntaxique",
+	"syntaxhighlight-error-category-desc": "Il y a eu une erreur lors de la tentative de mise en valeur du code inclus sur la page.",
+	"syntaxhighlight-enclose-category": "Pages utilisant des attributs enclose obsolètes",
+	"syntaxhighlight-enclose-category-desc": "La coloration syntaxique sur la page utilise une syntaxe « enclose » obsolète.",
+	"syntaxhighlight-source-category": "Pages utilisant des balises source obsolètes",
+	"syntaxhighlight-source-category-desc": "La coloration syntaxique sur la page utilise des balises source obsolètes.",
+	"syntaxhighlight-visualeditor-mwsyntaxhighlightinspector-code": "Code",
+	"syntaxhighlight-visualeditor-mwsyntaxhighlightinspector-language": "Langage",
+	"syntaxhighlight-visualeditor-mwsyntaxhighlightinspector-none": "(aucun)",
+	"syntaxhighlight-visualeditor-mwsyntaxhighlightinspector-showlines": "Afficher les numéros de ligne",
+	"syntaxhighlight-visualeditor-mwsyntaxhighlightinspector-startingline": "Numéro de ligne de début",
+	"syntaxhighlight-visualeditor-mwsyntaxhighlightinspector-title": "Bloc de code",
+	"syntaxhighlight-error-pygments-invocation-failure": "Impossible d'appeler Pygments",
+	"syntaxhighlight-error-unknown-language": "Langue inconnue \"$1\"",
+	"syntaxhighlight-error-exceeds-size-limit": "La taille du code ($1 octet{{PLURAL:$1||s}}) dépasse le maximum autorisé ($2 octet{{PLURAL:$2||s}})"
+}

@@ -1,0 +1,43 @@
+{
+	"@metadata": {
+		"authors": [
+			"PiefPafPier",
+			"Robin van der Vliet",
+			"Robin0van0der0vliet"
+		]
+	},
+	"cite-desc": "Foeget de <code>&lt;ref&gt;</code>- en <code>&lt;references&gt;</code>-oantsjuttings ta foar sitaten",
+	"cite_error": "Sitearflater: $1",
+	"cite_error_ref_invalid_dir": "Unjildige <code>dir=\"$1\"</code>, moat <code>ltr</code> wêze of <code>rtl</code>",
+	"cite_error_ref_numeric_key": "Unjildige <code>&lt;ref&gt;</code>-oantsjutting; de namme kin gjin simpel getal wêze. Brûk in beskriuwende titel",
+	"cite_error_ref_no_key": "In iepenjende <code>&lt;ref&gt;</code>-oantsjutting is ferkeard opmakke of hat in misse namme",
+	"cite_error_ref_too_many_keys": "Unjildige <code>&lt;ref&gt;</code>-oantsjutting; ûnjildige nammen, bgl. te folle",
+	"cite_error_ref_nested_extends": "De <code>&lt;ref&gt;</code>-oantsjuttings mear as ien nivo djip útwreidzjen is net tastien",
+	"cite_error_ref_no_input": "Unjildige <code>&lt;ref&gt;</code>-oantsjutting; referinsjes sûnder namme moatte ynhâld hawwe",
+	"cite_error_references_duplicate_key": "Unjildige <code>&lt;ref&gt;</code>-oantsjutting; de namme \"$1\" ferskate kearen definiearre mei oare ynhâld",
+	"cite_error_references_invalid_parameters": "Unjildige parameter yn <code>&lt;references&gt;</code>-oantsjutting",
+	"cite_error_references_no_backlink_label": "De oanpaste ferwizingslebels werom binne opbrûkt. Jou der mear op yn it systeemberjocht [[MediaWiki:Cite references link many format backlink labels]].",
+	"cite_error_no_link_label_group": "De oanpaste ferwizingslebels foar groep \"$1\" binne opbrûkt. Jou der mear op yn it systeemberjocht [[MediaWiki:$2]].",
+	"cite_error_references_no_text": "Unjildige <code>&lt;ref&gt;</code>-oantsjutting; der is gjin tekst opjûn foar referinsjes mei de namme <code>$1</code>",
+	"cite_error_included_ref": "In ôfslutende <code>&lt;/ref&gt;</code>-oantsjutting foar <code>&lt;ref&gt;</code> mist",
+	"cite_error_included_references": "In ôfslutende oantsjutting foar <code>&lt;references&gt;</code> mist",
+	"cite_error_group_refs_without_references": "Der binne <code>&lt;ref&gt;</code>-oantsjuttings foar in groep mei de namme \"$1\", mar de byhearrende <code>&lt;references group=\"$1\"/&gt;</code>-oantsjutting mist",
+	"cite_error_references_group_mismatch": "In <code>&lt;ref&gt;</code>-oantsjutting yn <code>&lt;references&gt;</code> hat de net-oerienkommende groepseigenskip \"$1\".",
+	"cite_error_references_missing_key": "De <code>&lt;ref&gt;</code>-oantsjutting mei de namme \"$1\" definiearre yn <code>&lt;references&gt;</code> wurdt net brûkt yn 'e foarôfgeande tekst.",
+	"cite_error_references_no_key": "In <code>&lt;ref&gt;</code>-oantsjutting definiearre yn <code>&lt;references&gt;</code> hat gjin namme-eigenskip.",
+	"cite_error_empty_references_define": "De <code>&lt;ref&gt;</code>-oantsjutting definiearre yn <code>&lt;references&gt;</code> mei de namme \"$1\" hat gjin ynhâld.",
+	"cite-tracking-category-cite-error": "Siden mei referinsjeflaters",
+	"cite-tracking-category-cite-error-desc": "De siden yn dizze kategory hawwe flaters yn de oantsjutting fan 'e referinsjes.",
+	"cite_references_link_accessibility_label": "Omheechspringe",
+	"cite_references_link_many_accessibility_label": "Omheechspringe nei:",
+	"cite_references_link_accessibility_back_label": "Wer omheechspringe",
+	"cite_section_preview_references": "Proefbyld fan 'e referinsjes",
+	"cite_warning": "Sitearwarskôging: $1",
+	"cite_warning_sectionpreview_no_text": "Fan de <code>&lt;ref&gt;</code>-oantsjutting mei de namme <code>$1</code> kin gjin proefbyld besjoen wurde, meidat er bûten dizze seksje definiearre is, of hielendal net definiearre.",
+	"cite-wikieditor-tool-reference": "Referinsje",
+	"cite-wikieditor-help-page-references": "Referinsjes",
+	"cite-wikieditor-help-content-reference-description": "Referinsje",
+	"cite-wikieditor-help-content-named-reference-description": "Neamde referinsje",
+	"cite-wikieditor-help-content-rereference-description": "Fierder gebrûk fan deselde referinsje",
+	"cite-wikieditor-help-content-showreferences-description": "Referinsjes werjaan"
+}

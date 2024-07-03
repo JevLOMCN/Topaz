@@ -1,0 +1,20 @@
+{
+	"@metadata": {
+		"authors": [
+			"DCLXVI",
+			"Spiritia",
+			"StanProg",
+			"Vodnokon4e"
+		]
+	},
+	"inputbox-desc": "Позволява вмъкването на HTML формуляри",
+	"inputbox-error-no-type": "Не се посочили типа на кутията за вход, която да бъде създадена.",
+	"inputbox-error-bad-type": "Неразпознат тип „$1“ на кутията за вход.\nНеобходимо е да се посочи „create“, „comment“, „search“, „search2“ или „fulltext“.",
+	"inputbox-tryexact": "Пълно и точно съвпадение",
+	"inputbox-searchfulltext": "Претърсване на целия текст",
+	"inputbox-createarticle": "Създаване",
+	"inputbox-movearticle": "Преместване на страница",
+	"inputbox-postcomment": "Нов раздел",
+	"inputbox-postcommenttitle": "Нов раздел",
+	"inputbox-ns-main": "Основно"
+}

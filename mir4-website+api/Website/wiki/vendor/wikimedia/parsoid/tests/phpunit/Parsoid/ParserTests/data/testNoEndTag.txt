@@ -1,0 +1,17 @@
+!! Version 2
+
+!! test
+Hello
+!! wikitext
+test 1
+!! html
+<p>test 1</p>
+
+!! test
+Hello 2
+!! wikitext
+test 2
+!! html
+<p>test 2</p>
+!! end
+

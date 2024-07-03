@@ -1,0 +1,27 @@
+{
+	"@metadata": {
+		"authors": [
+			"Muhammad Shuaib",
+			"عثمان خان شاہ"
+		]
+	},
+	"pfunc_time_error": "نقص: نادرست وقت۔",
+	"pfunc_time_too_long": "نقص: #وقت کے بے حد زیادہ مطالبات",
+	"pfunc_time_too_big": "نقص: #وقت محض ‌‌9999 برسوں تک معاونت فراہم کرتا ہے۔",
+	"pfunc_time_too_small": "نقص: #وقت کی معاونت محض 0 سے آگے برسوں کے لیے ہے۔",
+	"pfunc_expr_stack_exhausted": "نقص اظہار: اسٹیک نڈھال۔",
+	"pfunc_expr_unexpected_number": "نقص اظہار: غیر متوقع عدد۔",
+	"pfunc_expr_preg_match_failure": "نقص اظہار: preg_match کی غیر متوقع ناکامی۔",
+	"pfunc_expr_unrecognised_word": "نقص اظہار: غیر معروف لفظ «$1»",
+	"pfunc_expr_unexpected_operator": "نقص اظہار: غیر متوقع $1 آپریٹر۔",
+	"pfunc_expr_missing_operand": "نقص اظہار: $1 سے operand مفقود ہے۔",
+	"pfunc_expr_unexpected_closing_bracket": "نقص اظہار: غیر موقع طور پر قوسین کو بند کیا گیا ہے۔",
+	"pfunc_expr_unrecognised_punctuation": "نقص اظہار: «$1» کا غیر معروف تلفظ۔",
+	"pfunc_expr_unclosed_bracket": "نقص اظہار: قوسین بند نہیں ہیں۔",
+	"pfunc_expr_division_by_zero": "صفر کے ذریعہ تقسیم۔",
+	"pfunc_expr_invalid_argument": "$1 کی نادرست دلیل: < -1 یا > 1۔",
+	"pfunc_expr_invalid_argument_ln": "In کی نادرست دلیل: <= 0۔",
+	"pfunc_expr_unknown_error": "نقص اظہار: نامعلوم نقص ($1)۔",
+	"pfunc_expr_not_a_number": "$1 میں: نتیجہ میں کوئی عدد نہیں۔",
+	"pfunc_string_too_long": "نقص: اسٹرنگ میں $1 لفظوں کی حد متعین ہے۔"
+}

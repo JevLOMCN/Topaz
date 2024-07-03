@@ -1,0 +1,24 @@
+{
+	"@metadata": {
+		"authors": [
+			"Crazymadlover",
+			"Drini",
+			"Macofe",
+			"MarcoAurelio",
+			"Remember the dot",
+			"Sanbec"
+		]
+	},
+	"imagemap_desc": "Permite ''image-maps'' dinámicos usando la etiqueta <code>&lt;imagemap&gt;</code>",
+	"imagemap_no_image": "Error: hay que especificar un imagen en la línea primera.",
+	"imagemap_invalid_image": "Error: la imagen no es válida o no existe.",
+	"imagemap_bad_image": "Error: la imagen no se permite en esta página.",
+	"imagemap_no_link": "Error: no se encontró ningún enlace válido al final de la línea $1.",
+	"imagemap_invalid_title": "Error: título no válido en un enlace de la línea $1.",
+	"imagemap_missing_coord": "Error: no hay coordenadas suficientes para la figura en la línea $1.",
+	"imagemap_unrecognised_shape": "Error: figura no reconocida en la línea $1. Cada línea debe comenzar con uno de los siguientes: <code>default</code>, <code>rect</code>, <code>circle</code> o <code>poly</code>",
+	"imagemap_invalid_coord": "Error: hay una coordenada no válida en la línea $1, debe ser un número",
+	"imagemap_invalid_desc": "Error: especificación de desc no válido, debe ser uno de: <code>$1</code>",
+	"imagemap_description": "Acerca de esta imagen",
+	"imagemap_poly_odd": "Error: se encontró un polígono con un número de coordenadas impar en la línea $1"
+}

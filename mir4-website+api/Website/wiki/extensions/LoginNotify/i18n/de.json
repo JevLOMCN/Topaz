@@ -1,0 +1,19 @@
+{
+	"@metadata": {
+		"authors": [
+			"Metalhead64"
+		]
+	},
+	"loginnotify-desc": "Ermöglicht die Benachrichtigung von Benutzern über verdächtige Anmeldeversuche von unbekannten Geräten und/oder IP-Adressen.",
+	"echo-category-title-login-fail": "Fehlgeschlagene Anmeldeversuche",
+	"echo-pref-tooltip-login-fail": "Benachrichtige mich, wenn es bei meinem Benutzerkonto fehlgeschlagene Anmeldeversuche gab.",
+	"echo-category-title-login-success": "Anmeldung von einem unbekannten Gerät",
+	"echo-pref-tooltip-login-success": "Benachrichtige mich, wenn sich jemand bei meinem Benutzerkonto von einem unbekannten Gerät und einer unbekannten IP-Adresse anmeldet.",
+	"loginnotify-primary-link": "Hilfe",
+	"notification-loginnotify-login-fail-email-subject": "{{PLURAL:$2|Fehlgeschlagener Anmeldeversuch|Mehrere fehlgeschlagene Anmeldeversuche}} bei {{SITENAME}} als $1",
+	"notification-loginnotify-login-success-email-subject": "Anmeldung bei {{SITENAME}} als $1 von einem Gerät, das {{GENDER:$1|du}} nicht kürzlich verwendet hast.",
+	"notification-header-login-success": "Jemand (vermutlich {{GENDER:$1|du}} selbst) hat sich mit einem neuen Gerät bei deinem Benutzerkonto angemeldet. Falls dies du warst, kannst du diese Nachricht ignorieren. Falls nicht, empfehlen wir dir, dein Passwort zu ändern und die Aktivität deines Benutzerkontos zu prüfen.",
+	"notification-new-bundled-header-login-fail": "Seit deiner letzten Anmeldung gab es von einem neuen Gerät {{PLURAL:$1|'''einen fehlgeschlagenen Anmeldeversuch'''|'''$1 fehlgeschlagene Anmeldeversuche'''}} bei deinem Benutzerkonto. Falls dies nicht du warst, stelle bitte sicher, dass dein Benutzerkonto ein sicheres Passwort besitzt.",
+	"notification-known-header-login-fail": "Seit deiner letzten Anmeldung gab es {{PLURAL:$1|'''einen fehlgeschlagenen Anmeldeversuch'''|'''$1 fehlgeschlagene Anmeldeversuche'''}} bei deinem Benutzerkonto. Falls dies nicht du warst, stelle bitte sicher, dass dein Benutzerkonto ein sicheres Passwort besitzt.",
+	"notification-new-unbundled-header-login-fail": "Es gab von einem neuen Gerät {{PLURAL:$1|'''einen fehlgeschlagenen Anmeldeversuch'''|'''mehrere fehlgeschlagene Anmeldeversuche'''}} bei deinem Benutzerkonto. Bitte stelle sicher, dass dein Benutzerkonto ein sicheres Passwort besitzt."
+}

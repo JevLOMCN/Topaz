@@ -1,0 +1,22 @@
+{
+	"@metadata": {
+		"authors": [
+			"!Silent",
+			"Brunoy Anastasiya Seryozhenko",
+			"Eduardo.mps",
+			"Felipe L. Ewald",
+			"MetalBrasil",
+			"Opraco"
+		]
+	},
+	"inputbox-desc": "Permite a inclusão de formulários definidos de HTML",
+	"inputbox-error-no-type": "Você não especificou o tipo de inputbox a ser criada.",
+	"inputbox-error-bad-type": "O tipo de caixa de introdução de dados \"$1\" não foi reconhecido.\nPor favor, especifique \"create\", \"comment\", \"search\", \"search2\" ou \"fulltext\".",
+	"inputbox-tryexact": "Tentar a expressão exata",
+	"inputbox-searchfulltext": "Pesquisar em todo o texto",
+	"inputbox-createarticle": "Criar página",
+	"inputbox-movearticle": "Mover página",
+	"inputbox-postcomment": "Nova seção",
+	"inputbox-postcommenttitle": "Nova seção",
+	"inputbox-ns-main": "Principal"
+}

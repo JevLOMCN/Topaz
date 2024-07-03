@@ -1,0 +1,19 @@
+{
+	"@metadata": {
+		"authors": [
+			"Joetaras"
+		]
+	},
+	"loginnotify-desc": "Avvise le utinde de accesse sospette da 'nu dispositive e/o indirizze IP scanusciute.",
+	"echo-category-title-login-fail": "Tendative de trasè fallite",
+	"echo-pref-tooltip-login-fail": "Avvisame quanne onne state fatte tendative fallite de accesse cu 'u cunde mie.",
+	"echo-category-title-login-success": "Tràse cu 'nu dispositive scanusciute",
+	"echo-pref-tooltip-login-success": "Avvisame ogne vote ca quacchedune tràse cu 'u cunde utende mie da 'nu dispositive e 'nu indirizze IP scanusciute.",
+	"loginnotify-primary-link": "Aijute",
+	"notification-loginnotify-login-fail-email-subject": "{{PLURAL:$2|Tendative fallite|Cchiù tendative fallite}} de trasè jndr'à {{SITENAME}} cumme $1",
+	"notification-loginnotify-login-success-email-subject": "Tràse jndr'à {{SITENAME}} cumme $1 da 'nu dispositive ca {{GENDER:$1|tu}} non g'è ausate jndr'à l'urteme periode",
+	"notification-header-login-success": "Quacchedune (pò essere {{GENDER:$1|tu}}) è trasute urtemamende cu l'utende tune da 'nu dispositive nuève. Ce è {{GENDER:$1|state}} tu, no sce penzanne a stu messàgge. Ce, invece, non g'è {{GENDER:$1|state}} tu, allore te conviene ca cange 'a passuord e condrolle l'attività de 'utenza toje.",
+	"notification-new-bundled-header-login-fail": "{{PLURAL:$1|Ha state  '''<nowiki>'</nowiki>nu tendative fallite'''|Onne state '''$1 tendative fallite'''}} de accesse cu l'utenza toje da 'nu dispositive nuève da l'urtema vote ca è trasute. Ce non g'è state tu, condrolle ca 'a passuord toje jè comblesse.",
+	"notification-known-header-login-fail": "{{PLURAL:$1|Ha state  '''<nowiki>'</nowiki>nu tendative fallite'''|Onne state '''$1 tendative fallite'''}} de accesse cu l'utenza toje da 'nu dispositive nuève da l'urtema vote ca è trasute. Ce non g'è state tu, condrolle ca 'a passuord toje jè comblesse.",
+	"notification-new-unbundled-header-login-fail": "{{PLURAL:$1|Ha state  '''<nowiki>'</nowiki>nu tendative fallite'''|Onne state '''$1 tendative fallite'''}} de accesse cu l'utenza toje da 'nu dispositive nuève. Condrolle ca 'a passuord toje jè comblesse."
+}

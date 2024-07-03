@@ -1,0 +1,24 @@
+{
+	"@metadata": {
+		"authors": [
+			"Danmichaelo",
+			"Event",
+			"Jon Harald Søby",
+			"SuperPotato"
+		]
+	},
+	"codeeditor-desc": "Syntaksfremhevet redigering av JavaScript og CSS-sider med bruk av [https://ace.c9.io/ Ace editor]",
+	"codeeditor-next-annotation": "Gå til neste annotering",
+	"codeeditor-toolbar-toggle": "Slå på/av kodeeditoren",
+	"codeeditor-save-with-errors": "Dette dokumentet inneholder feil. Er du sikker på at du vil publisere?",
+	"codeeditor-invisibleChars-toggle": "Slå av/på usynlige tegn",
+	"codeeditor-lineWrapping-toggle": "Slå av/på linjebryting",
+	"codeeditor-searchReplace-toggle": "Slå av/på søk- og erstatt-vinduet",
+	"codeeditor-gotoline": "Gå til linje nummer ...",
+	"codeeditor-gotoline-placeholder": "linje[:kolonne]",
+	"codeeditor-gotoline-prompt": "Skriv inn et linjenummer",
+	"codeeditor-indent": "Rykk inn",
+	"codeeditor-outdent": "Rykk ut",
+	"codeeditor-error-title": "Avhengighet feilet",
+	"codeeditor-error-message": "CodeEditor trenger WikiEditor for å kunne lastes."
+}

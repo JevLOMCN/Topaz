@@ -1,0 +1,30 @@
+{
+	"@metadata": {
+		"authors": [
+			"HalanTul",
+			"София"
+		]
+	},
+	"cite-desc": "Хос быһаарыы <code>&lt;ref[ name=id]&gt;</code> уонна <code>&lt;references/&gt;</code> тиэктэрин эбэр",
+	"cite_error": "Цитата сыыһата: $1",
+	"cite_error_ref_numeric_key": "Неправильный вызов: ожидался нечисловой ключ",
+	"cite_error_ref_no_key": "<code>&lt;ref&gt;</code> тиэк алҕаһа: аата (күлүүһэ) ыйыллыбатах",
+	"cite_error_ref_too_many_keys": "<code>&lt;ref&gt;</code> тиэк алҕаһа (Неправильный вызов): аата сыыһа ыйыллыбыт, эбэтэр наһаа элбэх аат суруллубут",
+	"cite_error_ref_no_input": "<code>&lt;ref&gt;</code> тиэк алҕастаах (Неверный вызов): иһинээҕитэ сыыһа",
+	"cite_error_references_invalid_parameters": "Сыыһа параметрдар бэриллибиттэр; <code>&lt;references /&gt;</code> тиэккэ отой суох буолуохтаахтар",
+	"cite_error_references_no_backlink_label": "Төннөрөр сигэлэргэ бэлиэлэрэ тиийбэттэр. [[MediaWiki:Cite references link many format backlink labels]] диэн систиэмэ этиитин кэҥэтэн биэрэххэ наада",
+	"cite_error_no_link_label_group": "«$1» бөлөх кыттааччыларын сигэлэрин бэлиэлэрэ бүппүттэр. Эбии манна [[MediaWiki:$2]] оҥор.",
+	"cite_error_references_no_text": "Сыыһа <code>&lt;ref&gt;</code> тиэк (тег);\n<code>$1</code> диэн хос быһаарыыларга аналлаах тиэкис суох",
+	"cite_error_included_ref": "<code>&lt;/ref&gt;</code> диэн сабар тиэк суох эбит",
+	"cite_error_group_refs_without_references": "\"$1\" бөлөх <code>&lt;ref&gt;</code> тиэгигэр сөп түбэһэр <code>&lt;references group=\"$1\"/&gt;</code> тиэк көстүбэтэ",
+	"cite_error_references_group_mismatch": "<code>&lt;references&gt;</code> туттуллар <code>&lt;ref&gt;</code> тиэк бэйэ бэйэлэрин кытта сөпсөспөт \"$1\" атрибуттаах бөлөхтөрдөөх",
+	"cite_error_references_missing_key": "Бу <code>&lt;references&gt;</code> туттар маннык <code>&lt;ref&gt;</code> \"$1\" диэн тиэгэ бу иннинээҕи тиэкискэ туттуллубат эбит.",
+	"cite_error_references_no_key": "Бу <code>&lt;references&gt;</code> туттар <code>&lt;ref&gt;</code> тиэгэ аатын атрибута суох эбит.",
+	"cite_error_empty_references_define": "<code>&lt;references&gt;</code> туттар <code>&lt;ref&gt;</code> \"$1\" диэн ааттаах тиэгэ иһинээҕитэ суох эбит.",
+	"cite-wikieditor-tool-reference": "Быһаарыы",
+	"cite-wikieditor-help-page-references": "Быһаарыылар",
+	"cite-wikieditor-help-content-reference-description": "Быһаарыы",
+	"cite-wikieditor-help-content-named-reference-description": "Ааттаммыт быһааран биэрии",
+	"cite-wikieditor-help-content-rereference-description": "Ити сигэни эбии туттуу",
+	"cite-wikieditor-help-content-showreferences-description": "Быһаарыылары көрдөрүү"
+}

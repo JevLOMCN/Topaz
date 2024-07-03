@@ -1,0 +1,23 @@
+{
+	"caseInsensitive": [
+		[ "paralell", "parallel" ],
+		[ "properites", "properties" ],
+		[ "visiblit(ies|y)", "visibilit$1" ],
+		[ "movablilties", "movabilities" ],
+		[ "inpsect(ors?|ion)", "inspect$1" ],
+		[ "\bteh\b", "the" ],
+		[ "intialization", "initialization" ],
+		[ "durring", "during" ],
+		[ "contian", "contain" ],
+		[ "occured", "occurred" ],
+		[ "pgk", "pkg" ],
+		[ "arrray", "array" ],
+		[ "overriden", "overridden" ],
+		[ "begining", "beginning" ],
+		[ "detatched", "detached" ],
+		[ "descendent", "descendant" ],
+		[ "sepcific", "specific" ],
+		[ "connet", "connect" ],
+		[ "emtpy", "empty" ]
+	]
+}

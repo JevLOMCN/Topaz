@@ -1,0 +1,1 @@
+import{inject as r,provide as i}from"vue";let n=Symbol("Context");var l=(e=>(e[e.Open=1]="Open",e[e.Closed=2]="Closed",e[e.Closing=4]="Closing",e[e.Opening=8]="Opening",e))(l||{});function C(){return p()!==null}function p(){return r(n,null)}function c(o){i(n,o)}export{l as State,C as hasOpenClosed,p as useOpenClosed,c as useOpenClosedProvider};

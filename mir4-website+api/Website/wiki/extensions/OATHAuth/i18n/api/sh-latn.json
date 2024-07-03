@@ -1,0 +1,17 @@
+{
+	"@metadata": {
+		"authors": [
+			"Winston Sung"
+		]
+	},
+	"apihelp-query+oath-summary": "Provjera je li dvočiniteljska potvrda (OATH) omogućena za određenog korisnika.",
+	"apihelp-query+oath-param-user": "Za koji korisnik treba pružiti informacije. Po podrazumevanom: trenutni korisnik.",
+	"apihelp-query+oath-param-reason": "Razlog za upit statusa OATH.",
+	"apihelp-query+oath-example-1": "Daj informacije za trenutnog korisnika.",
+	"apihelp-query+oath-example-2": "Daj informacije za korisnika <kbd>Primjer</kbd>",
+	"apihelp-oathvalidate-summary": "Provjeri žeton za dvočiniteljsku potvrdu (OATH).",
+	"apihelp-oathvalidate-param-user": "Korisnik čiji bi žeton trebao biti potvrđen. Po podrazumevanom: trenutni korisnik.",
+	"apihelp-oathvalidate-example-1": "Provjeri JSON podatke za trenutnog korisnika",
+	"apihelp-oathvalidate-example-3": "Provjera JSON-podataka za korisnika <kbd>Primjer</kbd>",
+	"apihelp-oathvalidate-param-data": "Podatke šifrirani u JSONu očekivani iz modula trenutno aktivirani za korisnika što se provjerava"
+}

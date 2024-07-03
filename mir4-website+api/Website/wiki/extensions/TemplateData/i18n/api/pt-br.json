@@ -1,0 +1,17 @@
+{
+	"@metadata": {
+		"authors": [
+			"Eduardo Addad de Oliveira",
+			"Eduardoaddad",
+			"Felipe L. Ewald"
+		]
+	},
+	"apihelp-templatedata-summary": "Obtenha dados armazenados pela extensão TemplateData.",
+	"apihelp-templatedata-example-1": "Retorna TemplateData para [[Template:Stub]] e [[Template:Example]], com resultados se as predefinições não existirem ou existirem, mas não tiverem TemplateData",
+	"apihelp-templatedata-example-2": "Retorna TemplateData para [[Template:Stub]] e [[Template:Example]], sem resultados se as predefinições não existem ou existirem, mas não tiverem TemplateData",
+	"apihelp-templatedata-param-includeMissingTitles": "Retornar dados sobre títulos, mesmo se eles estiverem ausentes ou não tiverem TemplateData. Por padrão, os títulos só são retornados se existirem e possuem TemplateData.",
+	"apihelp-templatedata-param-doNotIgnoreMissingTitles": "Devolver dados sobre os títulos, mesmo que faltem TemplateData. Por padrão (para compatibilidade reversa), os títulos só são retornados se eles existem e têm TemplateData.",
+	"apihelp-templatedata-param-lang": "Retornar valores localizados neste idioma. Por padrão, todas as traduções disponíveis são retornadas.",
+	"apierror-templatedata-corrupt": "Página #$1 templatedata contém dados inválidos: $2",
+	"apiwarn-templatedata-deprecation-format": "O formato de saída padrão mudará para <kbd>jsonfm</kbd> no futuro. Por favor, especifique <kbd>format=json</kbd> explicitamente."
+}

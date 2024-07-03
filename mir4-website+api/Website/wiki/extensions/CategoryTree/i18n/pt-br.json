@@ -1,0 +1,42 @@
+{
+	"@metadata": {
+		"authors": [
+			"Carla404",
+			"Dicionarista",
+			"Eduardo Addad de Oliveira",
+			"Eduardo.mps",
+			"Eduardoaddad",
+			"Felipe L. Ewald",
+			"Rafael Vargas",
+			555
+		]
+	},
+	"categorytree": "Árvore de categorias",
+	"categorytree-portlet": "Categorias",
+	"categorytree-legend": "Mostrar árvore de categorias",
+	"categorytree-desc": "Navegação dinâmica pela [[Special:CategoryTree|estrutura de categorias]]",
+	"categorytree-header": "Insira o nome de uma categoria para ver os seus conteúdos numa estrutura de árvore. (Requer JavaScript).",
+	"categorytree-category": "Categoria:",
+	"categorytree-go": "Exibir árvore",
+	"categorytree-parents": "Categorias superiores",
+	"categorytree-mode-label": "Modo:",
+	"categorytree-mode-categories": "apenas as categorias",
+	"categorytree-mode-pages": "páginas, exceto arquivos",
+	"categorytree-mode-all": "todas as páginas",
+	"categorytree-collapse": "recolher",
+	"categorytree-expand": "expandir",
+	"categorytree-member-counts": "Possui {{PLURAL:$1|1 subcategoria|$1 subcategorias}}, {{PLURAL:$2|1 página|$2 páginas}} e {{PLURAL:$3|1 arquivo|$3 arquivos}}",
+	"categorytree-num-categories": "$1 C",
+	"categorytree-num-pages": "$1 P",
+	"categorytree-num-files": "$1 F",
+	"categorytree-num-empty": "vazio",
+	"categorytree-load": "carregar",
+	"categorytree-loading": "carregando...",
+	"categorytree-nothing-found": "nada foi encontrado",
+	"categorytree-no-subcategories": "sem subcategorias",
+	"categorytree-no-parent-categories": "não há categorias superiores",
+	"categorytree-no-pages": "sem páginas nem subcategorias",
+	"categorytree-not-found": "A categoria <i>$1</i> não foi encontrada",
+	"categorytree-error": "Problema ao acessar os dados.",
+	"categorytree-retry": "Aguarde um momento e tente novamente."
+}

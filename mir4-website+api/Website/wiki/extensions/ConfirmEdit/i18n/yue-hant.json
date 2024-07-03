@@ -1,0 +1,32 @@
+{
+	"@metadata": {
+		"authors": [
+			"Winston Sung"
+		]
+	},
+	"captcha-edit": "要改呢版，請完成下低個任務，跟住響個盒度輸入答案（[[Special:Captcha/help|更多資料]]）：",
+	"captcha-edit-fail": "錯咗或者漏咗CAPTCHA。",
+	"captcha-desc": "簡單嘅captcha實行",
+	"captcha-help": "CAPTCHA答案。",
+	"captcha-info-help": "CAPTCHAk嘅描述。",
+	"captcha-id-label": "CAPTCHA ID",
+	"captcha-addurl": "你改嘅內容裏面有新嘅出面連結。\n為咗避免受到自動垃圾程式的侵擾，請完成下低個任務，跟住響個盒度輸入答案（[[Special:Captcha/help|更多資料]]）：",
+	"captcha-badlogin": "為咗防止程式自動破解密碼，請完成下低個任務，跟住響個盒度輸入答案（[[Special:Captcha/help|更多資料]]）：",
+	"captcha-createaccount": "為咗防止程式自動註冊，請完成下低個任務，跟住響個盒度輸入答案（[[Special:Captcha/help|更多資料]]）：",
+	"captcha-createaccount-fail": "驗證碼錯咗或者唔見咗。",
+	"captcha-create": "要開呢一版，請完成下低個任務，跟住響個盒度輸入答案（[[Special:Captcha/help|更多資料]]）：",
+	"captcha-sendemail": "為咗防止機械式濫貼，請完成下低個任務，跟住響個盒度輸入答案（[[Special:Captcha/help|更多資料]]）：",
+	"captcha-sendemail-fail": "驗證碼錯咗或者唔見咗。",
+	"captcha-disabledinapi": "呢個動作需要驗證碼，所以唔可以用 API 做。",
+	"captcha-error": "内部錯：$1，CAPTCHA驗證唔到",
+	"captchahelp-title": "Captcha 幫助",
+	"captchahelp-cookies-needed": "你需要開咗響瀏覽器度嘅cookies先至可以用呢樣嘢。",
+	"captchahelp-text": "就好似呢個wiki噉，任何人都可以改嘢嘅網站成日都會畀垃圾連結騷擾。有啲人用自動化垃圾程序將佢哋嘅連結周圍貼去好多網站。雖然呢啲連結可以剷走佢，但呢啲嘢確實好乞人憎。\n\n有時，特別係響一頁加新嘅網頁連結嗰陣，呢個網站會畀你睇一幅有色或者有變形文字嘅圖，跟住要你打返圖入面所顯示嘅字，因為噉係好難自動搞掂嘅任務。佢畀真正人類保存佢哋嘅編輯，同時亦都阻止大多數周圍貼連結嘅破壞者同埋其它機械人嘅攻擊。\n\n唔好彩嘅係，對視力唔好嘅人或用基於文本或聲嘅瀏覽器用戶可能唔方便，而到呢刻為止我哋重未可以揀到音頻。如果咁啱阻到你搞嘅正常編輯行為，請搵[[Special:ListAdmins|管理員]]幫手。\n\n撳一下響瀏覽器嘅「後退」掣去返你之前改緊嗰版。",
+	"captcha-addurl-whitelist": " #<!-- 毋好改爾行 --> <pre>\n# 語法好似下面噉：\n#   * 「#」字元打後到行尾嘅嘢全都係註解\n#   * 全部有嘢嘅行都係regex部份，淨係會同URL裏面嘅主機相符\n #</pre> <!-- 毋好改爾行 -->",
+	"right-skipcaptcha": "執行captcha引發嘅動作時唔需要經過captcha",
+	"confirmedit-preview-line": "行數",
+	"confirmedit-preview-content": "內容",
+	"confirmedit-preview-validity": "有無效",
+	"confirmedit-preview-valid": "有效",
+	"confirmedit-preview-invalid": "無效"
+}

@@ -1,0 +1,27 @@
+{
+	"@metadata": {
+		"authors": [
+			"Arnobarnard",
+			"Naudefj"
+		]
+	},
+	"pfunc_desc": "Verryk die ontleder met logiese funksies",
+	"pfunc_time_error": "Fout: ongeldige tyd",
+	"pfunc_time_too_long": "Fout: #time te veel kere geroep",
+	"pfunc_rel2abs_invalid_depth": "Fout: Ongeldige diepte in pad: \"$1\" (probeer 'n node bo die wortelnode te roep)",
+	"pfunc_expr_stack_exhausted": "Fout in uitdrukking: stack uitgeput",
+	"pfunc_expr_unexpected_number": "Fout in uitdrukking: onverwagte getal",
+	"pfunc_expr_preg_match_failure": "Fout in uitdrukking: onverwagte faling van preg_match",
+	"pfunc_expr_unrecognised_word": "Fout in uitdrukking: woord \"$1\" nie herken",
+	"pfunc_expr_unexpected_operator": "Fout in uitdrukking: onverwagte operator $1.",
+	"pfunc_expr_missing_operand": "Fout in uitdrukking: geen operand vir $1",
+	"pfunc_expr_unexpected_closing_bracket": "Fout in uitdrukking: hakkie onverwags gesluit",
+	"pfunc_expr_unrecognised_punctuation": "Fout in uitdrukking: onbekende leesteken \"$1\"",
+	"pfunc_expr_unclosed_bracket": "Fout in uitdrukking: hakkie nie gesluit nie",
+	"pfunc_expr_division_by_zero": "Deling deur nul",
+	"pfunc_expr_invalid_argument": "Ongeldige argument vir $1: < -1 of > 1",
+	"pfunc_expr_invalid_argument_ln": "Ongeldige argument vir ln: <= 0",
+	"pfunc_expr_unknown_error": "Fout in uitdrukking: onbekende fout ($1)",
+	"pfunc_expr_not_a_number": "In $1: resultaat is nie 'n getal nie",
+	"pfunc_string_too_long": "Fout: String oorskry $1 karakter limiet"
+}

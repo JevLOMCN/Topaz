@@ -1,0 +1,96 @@
+20a21,24
+> .ve-init-mw-desktopArticleTarget .ve-init-mw-target-surface {
+>   margin-bottom: -0.9921875em;
+>   padding-bottom: 0.9921875em;
+> }
+28,31d31
+< .ve-init-mw-desktopArticleTarget .ve-init-mw-target-surface {
+<   margin-bottom: -0.9921875em;
+<   padding-bottom: 0.9921875em;
+< }
+63a64
+>   /* Main document debug bar */
+68a70,74
+> .ve-init-mw-desktopArticleTarget .ve-init-mw-target-surface > .ve-ui-debugBar {
+>   padding: 1rem;
+>   padding-bottom: 0;
+>   margin-top: 1rem;
+> }
+75,79c81,82
+< /* Main document debug bar */
+< .ve-init-mw-desktopArticleTarget .ve-init-mw-target-surface > .ve-ui-debugBar {
+<   padding: 1rem;
+<   padding-bottom: 0;
+<   margin-top: 1rem;
+---
+> .skin-vector-legacy .ve-init-mw-desktopArticleTarget .ve-init-mw-target-surface {
+>   /* High-definition-specific styles (because Vector adds 1em to the leftNav if width is 982px+ */
+81d83
+< /* High-definition-specific styles (because Vector adds 1em to the leftNav if width is 982px+ */
+84a87
+>     /* Main document debug bar */
+90d92
+<   /* Main document debug bar */
+129,132d130
+< .ve-tempSourceEditing .ve-init-mw-desktopArticleTarget-toolbar,
+< .ve-tempSourceEditing .ve-init-mw-desktopArticleTarget-toolbar > .oo-ui-toolbar-bar {
+<   transition: none;
+< }
+136a135,137
+> .ve-tempSourceEditing .ve-init-mw-desktopArticleTarget-toolbar > .oo-ui-toolbar-bar {
+>   transition: none;
+> }
+144a146,151
+> .ve-init-mw-desktopArticleTarget {
+>   /* stylelint-disable-next-line selector-class-pattern */
+>   /*!
+> 	 * Increase z-index of surface container so it appears above the debug bar
+> 	 */
+> }
+148d154
+< /* stylelint-disable-next-line selector-class-pattern */
+152,154d157
+< /*!
+<  * Increase z-index of surface container so it appears above the debug bar
+<  */
+159c162
+< .ve-ui-init-desktopArticleTarget-sectionTitle {
+---
+> .ve-init-mw-desktopArticleTarget-sectionTitle {
+163,164c166,167
+< /* stylelint-disable declaration-no-important */
+< .ve-ui-init-desktopArticleTarget-sectionTitle .oo-ui-inputWidget-input {
+---
+> .ve-init-mw-desktopArticleTarget-sectionTitle .oo-ui-inputWidget-input {
+>   /* stylelint-disable declaration-no-important */
+169a173
+>   /* stylelint-enable declaration-no-important */
+171d174
+< /* stylelint-enable declaration-no-important */
+178,179c181,182
+< /* stylelint-disable selector-max-id */
+< /* Hide VE edit tab and section edit things for noscript users.
+---
+> /**
+>  * Hide VE edit tab and section edit things for noscript users.
+181a185
+> /* stylelint-disable selector-max-id */
+183,184d186
+< .client-nojs .mw-editsection-divider,
+< .client-nojs .mw-editsection-visualeditor,
+185a188
+> .client-nojs .mw-editsection-divider,
+186a190
+> .client-nojs .mw-editsection-visualeditor,
+192d195
+< /* @noflip */
+194a198
+>   /* @noflip */
+195a200
+>   /* @noflip */
+198d202
+< /* @noflip */
+200a205
+>   /* @noflip */
+201a207
+>   /* @noflip */

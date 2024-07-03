@@ -1,0 +1,30 @@
+{
+	"@metadata": {
+		"authors": [
+			"Arystanbek",
+			"BaRaN6161 TURK",
+			"Incelemeelemani",
+			"Joseph",
+			"MuratTheTurkish",
+			"Qwea1",
+			"SaldırganSincap",
+			"Vito Genovese"
+		]
+	},
+	"spam-blacklist": " #<!-- bu satırı olduğu gibi bırakın --> <pre>\n# Bu listeyle eşleşen dış bağlantılar, bir sayfaya eklendiğinde engellenecektir. \n# Bu liste yalnızca bu vikiyi etkiler; ayrıca küresel engelleme listesine bakın.\n# Belge için https://www.mediawiki.org/wiki/Extension:SpamBlacklist/tr adresine bakın\n#\n# Sözdizimi aşağıdaki gibidir:\n#  * \"#\" karakterinden satır sonuna kadar her şey bir yorumdur\n#  * Boş olmayan her satır, yalnızca URL'lerin içindeki ana bilgisayarlarla eşleşecek bir düzenli ifade parçasıdır\n\n #</pre> <!-- bu satırı olduğu gibi bırakın -->",
+	"spam-whitelist": " #<!-- bu satırı olduğu gibi bırakın --> <pre>\n# Bu listeyle eşleşen harici URL'ler, engelleme listesi\n# girişleri tarafından engellenmiş olsalar bile *engellenmez*.\n#\n# Sözdizimi aşağıdaki gibidir:\n#  * \"#\" karakterinden satır sonuna kadar her şey bir yorumdur\n#  * Boş olmayan her satır, yalnızca URL'lerin içindeki ana bilgisayarlarla eşleşecek bir düzenli ifade parçasıdır\n\n #</pre> <!-- bu satırı olduğu gibi bırakın -->",
+	"email-blacklist": " #<!-- bu satırı olduğu gibi bırakın --> <pre>\n# Bu listeyle eşleşen e-posta adreslerinin e-posta kaydetmesi veya göndermesi engellenecektir\n# Bu liste yalnızca bu vikiyi etkiler; ayrıca küresel engelleme listesine bakın.\n# Belgeler için https://www.mediawiki.org/wiki/Extension:SpamBlacklist/tr adresine bakın\n#\n# Sözdizimi aşağıdaki gibidir:\n#   * Bir \"#\" karakterinden satırın sonuna kadar her şey yorumdur\n#   * Boş olmayan her satır, yalnızca e-posta adresleri içindeki ana bilgisayarlarla eşleşecek düzenli bir ifade parçasıdır.\n\n #</pre> <!-- bu satırı olduğu gibi bırakın -->",
+	"email-whitelist": " #<!-- bu satırı olduğu gibi bırakın --> <pre>\n# Bu listeyle eşleşen e-posta adresleri, engelleme listesi\n# girişleri tarafından engellenmiş olsalar bile *engellenmez*.\n#\n# Sözdizimi aşağıdaki gibidir:\n#   * Bir \"#\" karakterinden satırın sonuna kadar her şey yorumdur\n#   * Boş olmayan her satır yalnızca e-posta adresleri içindeki ana bilgisayarlarla eşleşecek olan düzenli ifadenin bir parçadır\n\n #</pre> <!-- bu satırı olduğu gibi bırakın -->",
+	"spam-blacklisted-email": "Yasaklı e-posta adresi",
+	"spam-blacklisted-email-text": "E-posta adresinizin şu anda diğer kullanıcılara e-posta göndermesi yasaklanmıştır.",
+	"spam-blacklisted-email-signup": "Belirtilen e-posta adresinin şu anda kullanılması yasaktır.",
+	"spam-invalid-lines": "Aşağıdaki spam engelleme listesi {{PLURAL:$1|satırı|satırları}} geçersiz bir normal {{PLURAL:$1|ifadedir|ifadelerdir}} ve sayfayı kaydetmeden önce düzeltilmesi gerekir:",
+	"spam-blacklist-desc": "Kayıtlı kullanıcılar için sayfalardaki ve e-posta adreslerindeki liste URL'lerini engellemeye izin veren düzenli ifade tabanlı spam önleme aracı",
+	"log-name-spamblacklist": "Spam engelleme listesi günlüğü",
+	"log-description-spamblacklist": "Bu olaylar, spam engelleme listesi değiştirmesini izler.",
+	"logentry-spamblacklist-hit": "{{GENDER:$2|$1}}, $4 eklemeye çalışarak bir spam engelleme listesinin $3 sayfasına ulaşmasına neden oldu.",
+	"right-spamblacklistlog": "Spam engelleme listesi günlüğünü gör",
+	"action-spamblacklistlog": "spam engelleme listesi günlüğünü görme",
+	"right-sboverride": "Spam engelleme listesini atlayın",
+	"action-sboverride": "spam engelleme listesini atlama"
+}

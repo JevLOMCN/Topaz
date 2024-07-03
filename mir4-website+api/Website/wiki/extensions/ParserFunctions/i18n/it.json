@@ -1,0 +1,32 @@
+{
+	"@metadata": {
+		"authors": [
+			"Beta16",
+			"BrokenArrow",
+			"Darth Kule",
+			"FRacco",
+			"Pietrodn"
+		]
+	},
+	"pfunc_desc": "Aggiunge al parser una serie di funzioni logiche",
+	"pfunc_time_error": "Errore: orario non valido.",
+	"pfunc_time_too_long": "Errore: troppe chiamate a #time.",
+	"pfunc_time_too_big": "Errore: #time supporta solo fino all'anno 9999.",
+	"pfunc_time_too_small": "Errore: #time supporta solo dall'anno 0.",
+	"pfunc_rel2abs_invalid_depth": "Errore: profondità non valida nel percorso \"$1\" (si è tentato di accedere a un nodo superiore alla radice).",
+	"pfunc_expr_stack_exhausted": "Errore nell'espressione: stack esaurito.",
+	"pfunc_expr_unexpected_number": "Errore nell'espressione: numero inatteso.",
+	"pfunc_expr_preg_match_failure": "Errore nell'espressione: errore inatteso in preg_match.",
+	"pfunc_expr_unrecognised_word": "Errore nell'espressione: parola \"$1\" non riconosciuta.",
+	"pfunc_expr_unexpected_operator": "Errore nell'espressione: operatore $1 inatteso.",
+	"pfunc_expr_missing_operand": "Errore nell'espressione: operando mancante per $1.",
+	"pfunc_expr_unexpected_closing_bracket": "Errore nell'espressione: parentesi chiusa inattesa.",
+	"pfunc_expr_unrecognised_punctuation": "Errore nell'espressione: carattere di punteggiatura \"$1\" non riconosciuto.",
+	"pfunc_expr_unclosed_bracket": "Errore nell'espressione: parentesi non chiusa.",
+	"pfunc_expr_division_by_zero": "Divisione per zero.",
+	"pfunc_expr_invalid_argument": "Argomento non valido per $1: minore di -1 o maggiore di 1.",
+	"pfunc_expr_invalid_argument_ln": "Argomento non valido per ln: minore o uguale a 0.",
+	"pfunc_expr_unknown_error": "Errore nell'espressione: errore sconosciuto ($1).",
+	"pfunc_expr_not_a_number": "In $1: il risultato non è un numero.",
+	"pfunc_string_too_long": "Errore: la stringa supera il limite di $1 {{PLURAL:$1|carattere|caratteri}}."
+}

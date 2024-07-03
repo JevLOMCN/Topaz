@@ -1,0 +1,39 @@
+{
+	"@metadata": {
+		"authors": [
+			"Alma",
+			"Banjo",
+			"Elisardojm",
+			"Toliño",
+			"Xosé"
+		]
+	},
+	"captcha-edit": "Para editar esta páxina, resolva a operación que aparece a continuación e introduza a resposta na caixa ([[Special:Captcha/help|máis información]]):",
+	"captcha-edit-fail": "Falta o código de confirmación (CAPTCHA) ou é incorrecto.",
+	"captcha-desc": "Proporciona CAPTCHA como protección fronte ao spam e ao descubrimento de contrasinais",
+	"captcha-help": "Solución do CAPTCHA.",
+	"captcha-info-help": "Descrición do CAPTCHA.",
+	"captcha-id-label": "Identificador do CAPTCHA",
+	"captcha-id-help": "Este valor debe enviarse de novo sen cambiar.",
+	"captcha-addurl": "A súa edición inclúe novas ligazóns externas.\nPara protexer o wiki contra o spam automático, resolva operación que aparece a continuación e introduza a resposta na caixa ([[Special:Captcha/help|máis información]]):",
+	"captcha-badlogin": "Para protexer o wiki contra o roubo de contrasinais, resolva a operación que aparece a continuación e introduza a resposta na caixa ([[Special:Captcha/help|máis información]]):",
+	"captcha-createaccount": "Para protexer o wiki contra a creación automática de contas, resolva a operación que aparece a continuación e introduza a resposta na caixa ([[Special:Captcha/help|máis información]]):",
+	"captcha-createaccount-fail": "Falta o código de confirmación (CAPTCHA) ou é incorrecto.",
+	"captcha-create": "Para crear a páxina, resolva a operación que aparece a continuación e introduza a resposta na caixa ([[Special:Captcha/help|máis información]]):",
+	"captcha-sendemail": "Para protexer o wiki contra o spam automático, resolva a operación que aparece a continuación e introduza a resposta na caixa ([[Special:Captcha/help|máis información]]):",
+	"captcha-sendemail-fail": "Falta o código de confirmación (CAPTCHA) ou é incorrecto.",
+	"captcha-disabledinapi": "Esta acción necesita o captcha, polo que non se pode realizar a través da API.",
+	"captcha-error": "A verificación CAPTCHA fallou debido a un erro interno: $1",
+	"captchahelp-title": "Axuda acerca do CAPTCHA",
+	"captchahelp-cookies-needed": "Necesita ter as cookies habilitadas no seu navegador para que funcione.",
+	"captchahelp-text": "Os sitios web que aceptan publicar as contribucións dos usuarios, coma este wiki, sofren, con frecuencia, o abuso por parte de spammers que usan ferramentas que automatizan a inclusión de lixo en forma de ligazóns publicitarias, nunha chea de páxinas, en pouco tempo.\nMentres as devanditas ligazóns non son eliminadas supoñen unha molestia e unha perda de tempo.\n\nEn ocasións, en particular cando engada algunha nova ligazón externa, o wiki pode amosar unha imaxe dun texto coloreado e distorsionado e pedirlle que introduza as palabras que se vexa.\nComo esta tarefa é difícil de automatizar, permite distinguir entre persoas e robots e dificulta os ataques automatizados dos spammers.\n\nPor desgraza, isto é un inconveniente para aqueles usuarios con dificultades de visión ou que utilicen navegadores de texto ou navegadores baseados en sistemas de voz.\nPolo de agora non dispoñemos dunha alternativa de son.\nPor favor, póñase en contacto cun [[Special:ListAdmins|administrador do sitio]] para solicitar axuda se o sistema lle impide rexistrarse para facer contribucións lexítimas.\n\nPrema no botón \"Atrás\" do seu navegador para volver á páxina de edición.",
+	"captcha-addurl-whitelist": " #<!-- Deixe esta liña tal e como está --> <pre>\n# A sintaxe é a seguinte:\n#   * Todo o que vaia despois dun carácter \"#\" ata o final da liña é un comentario\n#   * Toda liña que non estea en branco é un fragmento de expresión regular que só coincide con dominios dentro de enderezos URL\n #</pre> <!-- Deixe esta liña tal e como está -->",
+	"right-skipcaptcha": "Realizar accións que activan o CAPTCHA sen ter que introducir o CAPTCHA",
+	"action-skipcaptcha": "realizar accións que activan o CAPTCHA sen ter que introducir o CAPTCHA",
+	"confirmedit-preview-line": "Número de liña",
+	"confirmedit-preview-content": "Contido",
+	"confirmedit-preview-validity": "Validez",
+	"confirmedit-preview-valid": "válida",
+	"confirmedit-preview-invalid": "non válida",
+	"confirmedit-preview-description": "A táboa seguinte amosa a lista de liñas nesta páxina e se é un enderezo IP válido ou un rango de enderezos IP. Se a liña é un enderezo IP válido ou rango de enderezos IP, quedará excluída das comprobacións do CAPTCHA, pero as liñas non válidas serán ignoradas. Un exemplo dun rango de enderezos IP válido sería: 69.208.0.0/16 que vai desde 69.208.0.0 ata 69.208.255.255. [https://www.mediawiki.org/wiki/Special:MyLanguage/Help:Range_blocks#Calculating_the_CIDR_suffix Máis información] sobre como calcular un rango de enderezos IP."
+}

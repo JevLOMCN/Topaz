@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"Ильнар"
+		]
+	},
+	"pfunc_time_error": "Хата: ялган вакыт",
+	"pfunc_expr_unrecognised_word": "Төзмә хата: билгесез сүз «$1»",
+	"pfunc_expr_unexpected_operator": "Төзмә хата: күзәтелмәгән оператор $1",
+	"pfunc_expr_missing_operand": "Төзмә хата: $1 операнда җитми",
+	"pfunc_expr_unrecognised_punctuation": "Төзмә хата: билгесез символ «$1»",
+	"pfunc_expr_division_by_zero": "Нулгә бүлү."
+}

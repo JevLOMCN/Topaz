@@ -1,0 +1,27 @@
+{
+	"@metadata": {
+		"authors": [
+			"AlimanRuna"
+		]
+	},
+	"pfunc_desc": "Parser nisqata sullwa ruranakunawan allinchay",
+	"pfunc_time_error": "Pantasqa: Pachaqa manam allinchu",
+	"pfunc_time_too_long": "Pantasqa: nisyu \"#time\" (pacha)",
+	"pfunc_time_too_big": "Pantasqa: #time nisqaqa 9999 watallakamam watakunata q'imin",
+	"pfunc_rel2abs_invalid_depth": "Pantasqa: ñanpa ukhu kayninqa manam allinchu: \"$1\" (saphi khipu hawanpi kaq khiputam aypayta munaspa)",
+	"pfunc_expr_stack_exhausted": "Rikuchikuypi pantasqa: Nisyu tawqa",
+	"pfunc_expr_unexpected_number": "Rikuchikuypi pantasqa: Mana suyakusqa yupay",
+	"pfunc_expr_preg_match_failure": "Rikuchikuypi pantasqa: Mana suyakusqa preg_match alqa",
+	"pfunc_expr_unrecognised_word": "Rikuchikuypi pantasqa: Mana riqsisqa rima \"$1\"",
+	"pfunc_expr_unexpected_operator": "Rikuchikuypi pantasqa: Mana suyakusqa ruraq \"$1\"",
+	"pfunc_expr_missing_operand": "Rikuchikuypi pantasqa: Manam kanchu $1-paq ruraq",
+	"pfunc_expr_unexpected_closing_bracket": "Rikuchikuypi pantasqa: Nisyu wichq'aq qinchaq",
+	"pfunc_expr_unrecognised_punctuation": "Rikuchikuypi pantasqa: Mana riqsisqa qillqa unancha \"$1\"",
+	"pfunc_expr_unclosed_bracket": "Rikuchikuypi pantasqa: Manam kanchu wichq'aq qinchaq",
+	"pfunc_expr_division_by_zero": "Ch'usaqwan rakisqa",
+	"pfunc_expr_invalid_argument": "$1-paq mana allin ninakuy: : < -1 icha > 1",
+	"pfunc_expr_invalid_argument_ln": "ln-paq mana allin ninakuy: <= 0",
+	"pfunc_expr_unknown_error": "Rikuchikuypi pantasqa: Mana riqsisqa pantasqa ($1)",
+	"pfunc_expr_not_a_number": "$1-pi: lluqsiyninqa manam yupaychu",
+	"pfunc_string_too_long": "Pantasqa: Qillqa tiwlliqa $1 sanampa saywatam llallin"
+}

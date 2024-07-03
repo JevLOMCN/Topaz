@@ -1,0 +1,113 @@
+@import 'mediawiki.skin.variables.less';
+@import '../echo.variables.less';
+
+.mw-echo-ui-notificationsInboxWidget {
+	display: table;
+	width: 100%;
+	max-width: @specialpage-width;
+	position: relative;
+
+	&-row {
+		display: table-row;
+		width: 100%;
+	}
+
+	&-toolbarWrapper {
+		height: 3.5em;
+		position: -webkit-sticky;
+		position: sticky;
+		padding-top: 0.5em;
+		margin-top: -0.5em;
+		top: 0;
+		z-index: 2;
+		background-color: @background-color-base;
+		box-shadow: 0 2px 0 0 rgba( 0, 0, 0, 0.1 );
+	}
+
+	&-cell {
+		display: table-cell;
+		vertical-align: middle;
+
+		&-placeholder {
+			display: table-cell;
+			width: 100%;
+		}
+	}
+
+	&-sidebar {
+		width: @specialpage-sidebar-width;
+		padding-right: 1em;
+		vertical-align: top;
+	}
+
+	&-main {
+		vertical-align: top;
+
+		&-toolbar {
+			&-top {
+				display: table;
+				width: 100%;
+			}
+
+			&-readState {
+				display: inline-block;
+
+				.mw-echo-ui-readStateButtonSelectWidget {
+					white-space: nowrap;
+				}
+			}
+
+			&-settings {
+				padding-left: 1em;
+			}
+		}
+	}
+
+	@media all and ( max-width: ( @specialpage-hd-width - 1 ) ) {
+		// Override table-layout for the top toolbar so we get
+		// filters and pagination under one another
+		&-main {
+			&-toolbar {
+				&-top {
+					display: block;
+					margin-bottom: 1em;
+
+					.mw-echo-ui-notificationsInboxWidget-row {
+						display: block;
+						text-align: center;
+					}
+				}
+
+				// Nav filter is the mobile version of readState
+				&-readState,
+				&-nav-filter {
+					display: block;
+				}
+
+				&-settings,
+				&-pagination {
+					display: inline-block;
+					margin-top: 1em;
+				}
+
+				&-settings {
+					.oo-ui-popupWidget-popup {
+						text-align: left;
+					}
+				}
+			}
+		}
+
+		&-cell-placeholder {
+			display: block;
+		}
+
+		&-sidebar {
+			display: none;
+		}
+
+		&-toolbarWrapper {
+			height: 7em;
+		}
+	}
+}

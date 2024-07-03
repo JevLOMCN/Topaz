@@ -1,0 +1,30 @@
+{
+	"@metadata": {
+		"authors": [
+			"Cainamarques",
+			"Duke of Wikipädia",
+			"Eduardo Addad de Oliveira",
+			"Eduardo.mps",
+			"Eduardoaddad",
+			"Felipe L. Ewald",
+			"He7d3r",
+			"Helder.wiki",
+			"Tuliouel",
+			555
+		]
+	},
+	"spam-blacklist": "#<!-- mantenha esta linha exatamente assim --> <pre>\n# URLs externas que coincidam com esta lista serão bloqueadas quando forem\n# adicionadas a uma página.\n# Esta lista refere-se apenas a este wiki. Consulte também a lista-negra global.\n# Veja a documentação em https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:SpamBlacklist\n#\n# A sintaxe é a seguinte:\n# * Tudo o que estiver após um \"#\" até o final de uma linha será tido como um comentário\n# * Todas as linhas que não estiverem em branco são um fragmento de expressão \n# regular (regex) que abrangem apenas a URL especificada\n\n #</pre> <!-- mantenha esta linha exatamente assim -->",
+	"spam-whitelist": "#<!-- mantenha esta linha exatamente assim --> <pre>\n # URLs externas que coincidam com esta lista *não* serão\n # bloqueadas mesmo se tiverem sido bloqueadas por entradas\n # presentes nas listas negras.\n #\n # A sintaxe é a seguinte:\n # * Tudo o que estiver após um \"#\" até o final de uma linha\n # será tido como um comentário\n # * Todas as linhas que não estiverem em branco são um\n # fragmento de expressão regular (regex) que abrangem apenas\n # a URL especificada\n\n #</pre> <!-- mantenha esta linha exatamente assim -->",
+	"email-blacklist": "#<!-- mantenha esta linha exatamente assim --> <pre>\n # Endereços de e-mail que coincidam com esta lista serão\n # impedidos de se registrar, bem como de enviar mensagens\n # Esta lista refere-se apenas a este wiki. Consulte também a lista negra global.\n # Veja a documentação em https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:SpamBlacklist\n #<!-- mantenha esta linha exatamente assim --> <pre>\n #\n # A sintaxe é a seguinte:\n # * Tudo o que estiver após um \"#\" até o final de uma \n # linha será tido como um comentário\n # * Todas as linhas que não estiverem em branco são um\n # fragmento de expressão regular (regex) que abrangem apenas\n # o domínio do endereço de e-mail\n\n #</pre> <!-- mantenha esta linha exatamente assim -->",
+	"email-whitelist": "#<!-- mantenha esta linha exatamente assim --> <pre>\n # Endereços de e-mail que coincidam com esta lista *não*\n # serão bloqueados mesmo que tenham sofrido bloqueio\n # por instruções presentes nas listas negras.\n #\n # A sintaxe é a seguinte:\n # * Tudo o que estiver após um \"#\" até o final de uma linha\n # será tido como um comentário\n # * Todas as linhas que não estiverem em branco são um\n # fragmento de expressão regular (regex) que abrangem apenas\n # os domínios dos endereços de e-mail\n\n #</pre> <!-- mantenha esta linha exatamente assim -->",
+	"spam-blacklisted-email": "Endereço de email proibido",
+	"spam-blacklisted-email-text": "No momento, seu endereço de e-mail está proibido de enviar e-mails para outros usuários.",
+	"spam-blacklisted-email-signup": "O endereço de e-mail fornecido está atualmente proibido de usar.",
+	"spam-invalid-lines": "{{PLURAL:$1|A linha|As linhas}} a seguir {{PLURAL:$1|é uma expressão regular|são expressões regulares}} (regex) {{PLURAL:$1|inválida e precisa|inválidas e precisam}} ser {{PLURAL:$1|corrigida|corrigidas}} antes de salvar a página:",
+	"spam-blacklist-desc": "Ferramenta anti-spam baseada em Regex, que permite bloquear URLs em páginas e endereços de e-mail para usuários registrados",
+	"log-name-spamblacklist": "Registro da lista de bloqueio de spam",
+	"log-description-spamblacklist": "Esses eventos rastreiam hits na lista de bloqueio de spam.",
+	"logentry-spamblacklist-hit": "{{GENDER:$2|$1}} causou uma correspondência na lista de bloqueio de spam em $3, tentando adicionar $4.",
+	"right-spamblacklistlog": "Ver os registros da lista de bloqueio de spam",
+	"action-spamblacklistlog": "ver os registros da lista de bloqueio de spam"
+}

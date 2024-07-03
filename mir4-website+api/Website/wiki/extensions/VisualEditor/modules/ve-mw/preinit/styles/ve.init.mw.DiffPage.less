@@ -1,0 +1,103 @@
+/*!
+ * VisualEditor MediaWiki Initialization DiffPage styles.
+ *
+ * @copyright See AUTHORS.txt
+ * @license The MIT License (MIT); see LICENSE.txt
+ */
+
+@import 'mediawiki.mixins.less';
+
+.client-nojs .ve-init-mw-diffPage-diffMode {
+	display: none;
+}
+
+.ve-init-mw-diffPage-loading {
+	clear: both;
+	margin: 2em auto;
+}
+
+.ve-init-mw-diffPage-revSlider-visual {
+
+	@new: #39b79c;
+	@old: #d73c34;
+
+	.mw-revslider-pointer-line {
+		.mw-revslider-upper-color {
+			border-color: @new;
+		}
+
+		.mw-revslider-lower-color {
+			border-color: @old;
+		}
+	}
+
+	.mw-revslider-revision-new .mw-revslider-revision-border-box {
+		border-bottom-color: @new;
+	}
+
+	.mw-revslider-revision-old .mw-revslider-revision-border-box {
+		border-bottom-color: @old;
+	}
+
+	.mw-revslider-revision-hovered {
+		&.mw-revslider-revision-wrapper-up .mw-revslider-pointer-ghost {
+			background-color: lighten( @new, 30% );
+			border-color: @new;
+		}
+
+		&.mw-revslider-revision-wrapper-down .mw-revslider-pointer-ghost {
+			background-color: lighten( @old, 30% );
+			border-color: @old;
+		}
+	}
+
+	.mw-revslider-revision-wrapper-hovered .mw-revslider-revision-hovered {
+		&.mw-revslider-revision-wrapper-up {
+			background-color: fade( @new, 30% );
+		}
+
+		&.mw-revslider-revision-wrapper-down {
+			background-color: fade( @old, 30% );
+		}
+	}
+
+	.mw-revslider-pointer {
+		&.mw-revslider-pointer-newer {
+			border-color: @new;
+			.vertical-gradient( lighten( @new, 30% ), @new );
+
+			&:hover {
+				.vertical-gradient( lighten( @new, 40% ), @new );
+			}
+		}
+
+		&.mw-revslider-pointer-older {
+			border-color: @old;
+			.vertical-gradient( lighten( @old, 30% ), @old );
+
+			&:hover {
+				.vertical-gradient( lighten( @old, 40% ), @old );
+			}
+		}
+	}
+
+	.mw-revslider-pointer-container-newer {
+		.mw-revslider-slider-line {
+			border-bottom-color: fade( @new, 50% );
+		}
+
+		&:hover .mw-revslider-slider-line {
+			border-bottom-color: fade( @new, 80% );
+		}
+	}
+
+	.mw-revslider-pointer-container-older {
+		.mw-revslider-slider-line {
+			border-top-color: fade( @old, 50% );
+		}
+
+		&:hover .mw-revslider-slider-line {
+			border-top-color: fade( @old, 80% );
+		}
+	}
+}

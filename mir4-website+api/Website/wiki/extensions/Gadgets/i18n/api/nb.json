@@ -1,0 +1,29 @@
+{
+	"@metadata": {
+		"authors": [
+			"Jon Harald Søby"
+		]
+	},
+	"apihelp-query+gadgetcategories-summary": "Returnerer ei liste over tilleggsfunksjonskategorier.",
+	"apihelp-query+gadgetcategories-param-prop": "Hvilken tilleggsfunksjonskategoriinformasjon som skal hentes:",
+	"apihelp-query+gadgetcategories-paramvalue-prop-name": "Internt kategorinavn.",
+	"apihelp-query+gadgetcategories-paramvalue-prop-title": "Kategoritittel.",
+	"apihelp-query+gadgetcategories-paramvalue-prop-members": "Antall tilleggsfunksjoner i kategorien.",
+	"apihelp-query+gadgetcategories-param-names": "Navn på kategorier som skal hentes.",
+	"apihelp-query+gadgetcategories-example-1": "Få en liste over eksisterende tilleggsfunksjonskategorier",
+	"apihelp-query+gadgetcategories-example-2": "Få all informasjon om kategorier med navn «foo» og «bar»",
+	"apihelp-query+gadgets-summary": "Returnerer ei liste over tilleggsfunksjoner som brukes på denne wikien.",
+	"apihelp-query+gadgets-param-prop": "Hvilken tilleggsfunksjonsinformasjon som skal hentes:",
+	"apihelp-query+gadgets-paramvalue-prop-id": "Intern tilleggsfunksjons-ID.",
+	"apihelp-query+gadgets-paramvalue-prop-metadata": "Tilleggsfunksjonens metadata.",
+	"apihelp-query+gadgets-paramvalue-prop-desc": "Tilleggsfunksjonens beskrivelse gjort om til HTML (kan være treg, bruk bare om nødvendig).",
+	"apihelp-query+gadgets-param-categories": "Hvilken kategori tilleggsfunksjoner skal hentes fra.",
+	"apihelp-query+gadgets-param-ids": "ID-er til tilleggsfunksjonene som skal hentes.",
+	"apihelp-query+gadgets-param-allowedonly": "List kun tilleggsfunksjoner som tillates for den nåværende brukeren.",
+	"apihelp-query+gadgets-param-enabledonly": "List kun tilleggsfunksjoner slått på av den gjeldende brukeren.",
+	"apihelp-query+gadgets-example-1": "Få en liste over tilleggsfunksjoner og deres beskrivelser",
+	"apihelp-query+gadgets-example-2": "Få en liste over tilleggsfunksjoner med alle mulige egenskaper",
+	"apihelp-query+gadgets-example-3": "Få en liste over tilleggsfunksjoner i kategorien «foo»",
+	"apihelp-query+gadgets-example-4": "Få informasjon om tilleggsfunksjonene «foo» og «bar»",
+	"apihelp-query+gadgets-example-5": "Få en liste over tilleggsfunksjoner slått på av den gjeldende brukeren"
+}

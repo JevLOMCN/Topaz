@@ -1,0 +1,359 @@
+[
+	{
+		"name": "abuse_filter",
+		"columns": [
+			{
+				"name": "af_id",
+				"type": "bigint",
+				"options": { "notnull": true, "autoincrement": true, "unsigned": true }
+			},
+			{
+				"name": "af_pattern",
+				"type": "blob",
+				"options": { "notnull": true, "length": 65530 }
+			},
+			{
+				"name": "af_user",
+				"type": "bigint",
+				"options": { "notnull": true, "unsigned": true, "default": 0 }
+			},
+			{
+				"name": "af_user_text",
+				"type": "binary",
+				"options": { "notnull": true, "length": 255, "default": "" }
+			},
+			{
+				"name": "af_actor",
+				"type": "bigint",
+				"options": { "notnull": true, "unsigned": true, "default": 0 }
+			},
+			{
+				"name": "af_timestamp",
+				"type": "mwtimestamp",
+				"options": { "notnull": true }
+			},
+			{
+				"name": "af_enabled",
+				"type": "mwtinyint",
+				"options": { "notnull": true, "length": 1, "default": 1 }
+			},
+			{
+				"name": "af_comments",
+				"type": "blob",
+				"options": { "notnull": false, "length": 65530 }
+			},
+			{
+				"name": "af_public_comments",
+				"type": "blob",
+				"options": { "notnull": false, "length": 255 }
+			},
+			{
+				"name": "af_hidden",
+				"type": "mwtinyint",
+				"options": { "notnull": true, "length": 1, "default": 0 }
+			},
+			{
+				"name": "af_hit_count",
+				"type": "bigint",
+				"options": { "notnull": true, "default": 0 }
+			},
+			{
+				"name": "af_throttled",
+				"type": "mwtinyint",
+				"options": { "notnull": true, "length": 1, "default": 0 }
+			},
+			{
+				"name": "af_deleted",
+				"type": "mwtinyint",
+				"options": { "notnull": true, "length": 1, "default": 0 }
+			},
+			{
+				"name": "af_actions",
+				"type": "string",
+				"options": { "notnull": true, "length": 255, "default": "" }
+			},
+			{
+				"name": "af_global",
+				"type": "mwtinyint",
+				"options": { "notnull": true, "length": 1, "default": 0 }
+			},
+			{
+				"name": "af_group",
+				"type": "binary",
+				"options": { "notnull": true, "length": 64, "default": "default" }
+			}
+		],
+		"indexes": [
+			{
+				"name": "af_user",
+				"columns": [ "af_user" ],
+				"unique": false
+			},
+			{
+				"name": "af_actor",
+				"columns": [ "af_actor" ],
+				"unique": false
+			},
+			{
+				"name": "af_group_enabled",
+				"columns": [ "af_group", "af_enabled", "af_id" ],
+				"unique": false
+			}
+		],
+		"pk": [ "af_id" ]
+	},
+	{
+		"name": "abuse_filter_action",
+		"columns": [
+			{
+				"name": "afa_filter",
+				"type": "bigint",
+				"options": { "notnull": true, "unsigned": true }
+			},
+			{
+				"name": "afa_consequence",
+				"type": "string",
+				"options": { "notnull": true, "length": 255 }
+			},
+			{
+				"name": "afa_parameters",
+				"type": "blob",
+				"options": { "notnull": true, "length": 255 }
+			}
+		],
+		"indexes": [
+			{
+				"name": "afa_consequence",
+				"columns": [ "afa_consequence" ],
+				"unique": false
+			}
+		],
+		"pk": [ "afa_filter", "afa_consequence" ]
+	},
+	{
+		"name": "abuse_filter_log",
+		"columns": [
+			{
+				"name": "afl_id",
+				"type": "bigint",
+				"options": { "notnull": true, "autoincrement": true, "unsigned": true }
+			},
+			{
+				"name": "afl_global",
+				"type": "mwtinyint",
+				"options": { "notnull": true, "length": 1 }
+			},
+			{
+				"name": "afl_filter_id",
+				"type": "bigint",
+				"options": { "notnull": true, "unsigned": true }
+			},
+			{
+				"name": "afl_user",
+				"type": "bigint",
+				"options": { "notnull": true, "unsigned": true }
+			},
+			{
+				"name": "afl_user_text",
+				"type": "binary",
+				"options": { "notnull": true, "length": 255 }
+			},
+			{
+				"name": "afl_ip",
+				"type": "string",
+				"options": { "notnull": true, "length": 255 }
+			},
+			{
+				"name": "afl_action",
+				"type": "binary",
+				"options": { "notnull": true, "length": 255 }
+			},
+			{
+				"name": "afl_actions",
+				"type": "binary",
+				"options": { "notnull": true, "length": 255 }
+			},
+			{
+				"name": "afl_var_dump",
+				"type": "blob",
+				"options": { "notnull": true, "length": 65530 }
+			},
+			{
+				"name": "afl_timestamp",
+				"type": "mwtimestamp",
+				"options": { "notnull": true }
+			},
+			{
+				"name": "afl_namespace",
+				"type": "integer",
+				"options": { "notnull": true }
+			},
+			{
+				"name": "afl_title",
+				"type": "binary",
+				"options": { "notnull": true, "length": 255 }
+			},
+			{
+				"name": "afl_wiki",
+				"type": "binary",
+				"options": { "notnull": false, "length": 64 }
+			},
+			{
+				"name": "afl_deleted",
+				"type": "mwtinyint",
+				"options": { "notnull": true, "length": 1, "default": 0 }
+			},
+			{
+				"name": "afl_patrolled_by",
+				"type": "integer",
+				"options": { "notnull": true, "unsigned": true, "default": 0 }
+			},
+			{
+				"name": "afl_rev_id",
+				"type": "integer",
+				"options": { "notnull": false, "unsigned": true }
+			}
+		],
+		"indexes": [
+			{
+				"name": "afl_filter_timestamp_full",
+				"columns": [ "afl_global", "afl_filter_id", "afl_timestamp" ],
+				"unique": false
+			},
+			{
+				"name": "afl_user_timestamp",
+				"columns": [ "afl_user", "afl_user_text", "afl_timestamp" ],
+				"unique": false
+			},
+			{
+				"name": "afl_timestamp",
+				"columns": [ "afl_timestamp" ],
+				"unique": false
+			},
+			{
+				"name": "afl_page_timestamp",
+				"columns": [ "afl_namespace", "afl_title", "afl_timestamp" ],
+				"unique": false
+			},
+			{
+				"name": "afl_ip_timestamp",
+				"columns": [ "afl_ip", "afl_timestamp" ],
+				"unique": false
+			},
+			{
+				"name": "afl_rev_id",
+				"columns": [ "afl_rev_id" ],
+				"unique": false
+			},
+			{
+				"name": "afl_wiki_timestamp",
+				"columns": [ "afl_wiki", "afl_timestamp" ],
+				"unique": false
+			}
+		],
+		"pk": [ "afl_id" ]
+	},
+	{
+		"name": "abuse_filter_history",
+		"columns": [
+			{
+				"name": "afh_id",
+				"type": "bigint",
+				"options": { "notnull": true, "autoincrement": true, "unsigned": true }
+			},
+			{
+				"name": "afh_filter",
+				"type": "bigint",
+				"options": { "notnull": true, "unsigned": true }
+			},
+			{
+				"name": "afh_user",
+				"type": "bigint",
+				"options": { "notnull": true, "unsigned": true, "default": 0 }
+			},
+			{
+				"name": "afh_user_text",
+				"type": "binary",
+				"options": { "notnull": true, "length": 255, "default": "" }
+			},
+			{
+				"name": "afh_actor",
+				"type": "bigint",
+				"options": { "notnull": true, "unsigned": true, "default": 0 }
+			},
+			{
+				"name": "afh_timestamp",
+				"type": "mwtimestamp",
+				"options": { "notnull": true }
+			},
+			{
+				"name": "afh_pattern",
+				"type": "blob",
+				"options": { "notnull": true, "length": 65530 }
+			},
+			{
+				"name": "afh_comments",
+				"type": "blob",
+				"options": { "notnull": true, "length": 65530 }
+			},
+			{
+				"name": "afh_flags",
+				"type": "blob",
+				"options": { "notnull": true, "length": 255 }
+			},
+			{
+				"name": "afh_public_comments",
+				"type": "blob",
+				"options": { "notnull": false, "length": 255 }
+			},
+			{
+				"name": "afh_actions",
+				"type": "blob",
+				"options": { "notnull": false, "length": 65530 }
+			},
+			{
+				"name": "afh_deleted",
+				"type": "mwtinyint",
+				"options": { "notnull": true, "length": 1, "default": 0 }
+			},
+			{
+				"name": "afh_changed_fields",
+				"type": "string",
+				"options": { "notnull": true, "length": 255, "default": "" }
+			},
+			{
+				"name": "afh_group",
+				"type": "binary",
+				"options": { "notnull": false, "length": 64 }
+			}
+		],
+		"indexes": [
+			{
+				"name": "afh_filter",
+				"columns": [ "afh_filter" ],
+				"unique": false
+			},
+			{
+				"name": "afh_user",
+				"columns": [ "afh_user" ],
+				"unique": false
+			},
+			{
+				"name": "afh_user_text",
+				"columns": [ "afh_user_text" ],
+				"unique": false
+			},
+			{
+				"name": "afh_actor",
+				"columns": [ "afh_actor" ],
+				"unique": false
+			},
+			{
+				"name": "afh_timestamp",
+				"columns": [ "afh_timestamp" ],
+				"unique": false
+			}
+		],
+		"pk": [ "afh_id" ]
+	}
+]

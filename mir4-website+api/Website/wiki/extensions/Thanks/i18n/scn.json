@@ -1,0 +1,38 @@
+{
+	"@metadata": {
+		"authors": [
+			"Ajeje Brazorf",
+			"Gmelfi",
+			"Macofe",
+			"Pippinu",
+			"Sarvaturi"
+		]
+	},
+	"thanks-desc": "Agghiunci culligamenti pi ringrazziari a l'utenti pî canciamenti, pî cummenti, ecc.",
+	"thanks-thank": "{{GENDER:$1|{{GENDER:$2|ringrazzia}}}}",
+	"thanks-thanked": "{{GENDER:$1|{{GENDER:$2|fu ringrazziatu|fu ringrazziata}}}}",
+	"thanks-button-thank": "{{GENDER:$1|{{GENDER:$2|Ringrazzia}}}}",
+	"thanks-button-thanked": "{{GENDER:$1|{{GENDER:$2|Fu ringrazziatu|Fu ringrazziata}}}}",
+	"thanks-button-action-cancel": "Annulla",
+	"thanks-button-action-completed": "{{GENDER:$1|{{GENDER:$2|Ringrazziasti}}}} $1",
+	"thanks-error-undefined": "Lu ringrazziamentu nun arriniscìu (còdici erruri: $1). Pi favuri prova n'àutra vota.",
+	"thanks-error-invalidrevision": "L'ID dâ virsioni nun è vàlidu.",
+	"thanks-error-invalidrecipient-bot": "Li bot nun ponnu èssiri ringrazziati.",
+	"thanks-error-ratelimited": "{{GENDER:$1|Passasti}} lu tò lìmiti màssimu di ringrazziamenti. Pi favuri aspetta na picca e appoi prova n'àutra vota.",
+	"thanks-thank-tooltip": "{{GENDER:$1|Manna}} na nutìfica di ringrazziamentu a {{GENDER:$2|st'utenti|st'utenti}}",
+	"thanks-confirmation2": "{{GENDER:$1|Mannari}} pubblicamenti arringrazziamenti?",
+	"thanks-thanked-notice": "{{GENDER:$3|Ringrazziasti}} {{GENDER:$2|$1}}.",
+	"thanks": "Manna ringrazziamenti",
+	"echo-pref-subscription-edit-thank": "Mi ringrazzia p'un mè canciamentu",
+	"echo-pref-tooltip-edit-thank": "Avvìsami quannu quarchidunu mi ringrazzia p'un canciamentu ca fici.",
+	"echo-category-title-edit-thank": "Ringrazziamenti",
+	"log-name-thanks": "Riggistru dî ringrazziamenti",
+	"log-description-thanks": "Ccassutta c'è na lista di l'utenti chi foru ringrazziati di àutri utenti.",
+	"logentry-thanks-thank": "$1 {{GENDER:$2|ringrazziau}} a {{GENDER:$4|$3}}",
+	"logeventslist-thanks-log": "Riggistru dî ringrazziamenti",
+	"thanks-error-no-id-specified": "Hai a spicificari n'ID di virsioni o riggistru pi ringrazziari.",
+	"notification-link-text-view-post": "Talìa lu cummentu",
+	"thanks-error-invalidpostid": "L'ID dû missaggiu nun è vàlidu.",
+	"flow-thanks-confirmation-special": "Voi ringrazziari pubblicamenti pi stu cummentu?",
+	"flow-thanks-thanked-notice": "{{GENDER:$3|Ringrazziasti}} $1 pû {{GENDER:$2|sò}} cummentu."
+}

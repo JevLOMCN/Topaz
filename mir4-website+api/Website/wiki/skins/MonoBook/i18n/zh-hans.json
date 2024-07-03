@@ -1,0 +1,26 @@
+{
+	"@metadata": {
+		"authors": [
+			"Cwek",
+			"FakeGreenHand",
+			"Liuxinyu970226",
+			"TsuyaMarisa",
+			"Xiaomingyan"
+		]
+	},
+	"skinname-monobook": "MonoBook",
+	"monobook-desc": "始于2004年的经典MediaWiki皮肤，名字源于作为某本书页面背景的一张黑白照片",
+	"monobook.css": "/* 这里的任何CSS将为使用MonoBook皮肤的用户加载 */",
+	"monobook.js": "/* 这里的任何JavaScript将为使用MonoBook皮肤的用户加载 */",
+	"monobook-jumptotop": "返回顶部",
+	"monobook-jumptopersonal": "用户工具",
+	"monobook-jumptonavigation": "跳到导航",
+	"monobook-jumptosearch": "跳到搜索",
+	"monobook-more-actions": "更多",
+	"cactions-mobile": "页面操作",
+	"monobook-cactions-label": "页面操作",
+	"monobook-notifications-link": "通知（$1）",
+	"monobook-notifications-link-none": "通知",
+	"monobook-view-history": "历史",
+	"monobook-action-undelete": "还原{{PLURAL:$1|一次编辑|$1次编辑}}"
+}

@@ -1,0 +1,24 @@
+{
+	"@metadata": {
+		"authors": [
+			"Ideophagous",
+			"Reda Benkhadra",
+			"SADIQUI"
+		]
+	},
+	"echo-new-messages": "عندك ميساجات جداد",
+	"tooltip-pt-notifications-alert": "{{GENDER:|تنبيهاتك}}",
+	"echo-specialpage-pagefilters-title": "النشاطات اللخرانية",
+	"notification-link-text-collapse-all": "طوي",
+	"notification-link-text-view-message": "وري لميساج",
+	"notification-header-mention-other": "{{GENDER:$2|نغز|نغزات}} $1 {{GENDER:$3|ليك}} ف صفحة <strong>$4</strong> ف لقسم \"<strong>$5</strong>\".",
+	"notification-header-mention-article-talkpage-nosection": "{{GENDER:$2|نغز|نغزات}} $1 ليك ف صفحة نيقاش <strong>$4</strong>.",
+	"notification-welcome-linktext": "مرحبا بيك",
+	"notification-header-thank-you-1-edit": "درتي عاد دابا تبديل ديالك لول؛ شكرا بزاف ؤ مرحبا بيك!",
+	"notification-header-thank-you-10-edit": "درتي عاد دابا تبديل ديالك لعاشر؛ شكرا ليك، {{GENDER:$2|راك غادي|راكي غادية}} مزيان!",
+	"notification-header-thank-you-100-edit": "درتي عاد دابا تبديل ديالك لمية؛ شكرا ليك بزاف!",
+	"notification-header-thank-you-10000-edit": "درتي عاد دابا تبديل ديالك لعشرالاف؛ شكرا ليك بزاف!",
+	"notification-edit-talk-page-email-subject2": "{{GENDER:$2|صافط|صافطات}} ليك $1 ميساج ف {{SITENAME}}",
+	"notification-mention-email-subject": "{{GENDER:$2|نغز|نغزات}} $1 {{GENDER:$3|ليك}} ف {{SITENAME}}",
+	"notification-inbox-filter-all": "كلشي"
+}

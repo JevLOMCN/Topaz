@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"McDutchie"
+		]
+	},
+	"apihelp-templatedata-summary": "Recuperar datos immagazinate per le extension TemplateData.",
+	"apihelp-templatedata-example-1": "Restituer TemplateData pro [[Template:Foobar]], con resultatos si le patrono non existe o existe ma non ha TemplateData",
+	"apihelp-templatedata-example-2": "Restituer TemplateData pro [[Template:Phabricator]], sin resultatos si le patrono non existe o existe ma non ha TemplateData",
+	"apihelp-templatedata-param-includeMissingTitles": "Restituer datos sur titulos mesmo si illos manca o non ha TemplateData. Per predefinition, le titulos se restitue solmente si illos existe e ha TemplateData.",
+	"apihelp-templatedata-param-doNotIgnoreMissingTitles": "Restituer datos sur titulos mesmo si illos manca o non ha TemplateData. Per predefinition (pro retrocompatibilitate), le titulos se restitue solmente si illos existe e ha TemplateData.",
+	"apihelp-templatedata-param-lang": "Restituer valores localisate in iste lingua. Per predefinition, tote le traductiones disponibile se restitue.",
+	"apierror-templatedata-corrupt": "Le TemplateData del pagina № $1 contine datos non valide: $2",
+	"apiwarn-templatedata-deprecation-format": "Le formato de sortita predefinite essera cambiate in <kbd>jsonfm</kbd> in le futuro. Per favor specifica <kbd>format=json</kbd> explicitemente."
+}

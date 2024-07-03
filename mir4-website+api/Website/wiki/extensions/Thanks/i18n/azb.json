@@ -1,0 +1,26 @@
+{
+	"@metadata": {
+		"authors": [
+			"Alp Er Tunqa",
+			"Amir a57",
+			"Ilğım",
+			"Koroğlu",
+			"Mousa"
+		]
+	},
+	"thanks-thank": "{{GENDER:$1|{{GENDER:$2|تشکور}}}}",
+	"thanks-thanked": "{{GENDER:$1|{{GENDER:$2|تشکّور گؤندریلدی}}}}",
+	"thanks-thank-tooltip": "بۇ {{GENDER:$2|ایشلدنه}} بیر تشکّور مساژی {{GENDER:$1|گؤندر}}",
+	"thanks-confirmation2": "بۇ دییشیک‌لیک اۆچون آچیقجا تشکّور {{GENDER:$1|گؤندریلسینمی؟}}",
+	"thanks": "تشکّور ائت",
+	"thanks-submit": "تشکّور ائت",
+	"echo-category-title-edit-thank": "تشکرلر",
+	"notification-header-rev-thank": "$1 '''$3''' صفحه‌سینده ائتدیگینیز دییشیک‌لیک اۆچون {{GENDER:$4|سیزدن}} {{GENDER:$2|تشکّور ائتدی}}.",
+	"notification-header-creation-thank": "$1  {{GENDER:$4|سیزدن}}  <strong>$3</strong> -صفحه‌سینی یاراتماق اوچون {{GENDER:$2|تشکور ائتدی}}.",
+	"log-name-thanks": "تشکورلر ژورنالی",
+	"log-description-thanks": "بو، ایشلدنلرین بیر-بیریلریندن تشکور ائتمه لیستیدیر.",
+	"logentry-thanks-thank": "$1، {{GENDER:$4|$3}}-دن {{GENDER:$2|تشکور ائتدی}}",
+	"logeventslist-thanks-log": "تشکورلر ژورنالی",
+	"flow-thanks-thanked-notice": "$1 {{GENDER:$2|بو}} باخیشی اۆچون سیزدن تشکّور مساژی آلدی.",
+	"notification-header-flow-thank": "$1 {{GENDER:$5|سیزدن}} \"<strong>$3</strong>\"-ده ائتدیگینیز دییشیک‌لیک اۆچون {{GENDER:$2|تشکّور}} ائتدی."
+}

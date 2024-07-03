@@ -1,0 +1,21 @@
+{
+	"@metadata": {
+		"authors": [
+			"Amire80",
+			"Artsiom91",
+			"Chadyka"
+		]
+	},
+	"syntaxhighlight-desc": "Дазваляе выкарыстоўваць тэг  <code>&lt;syntaxhighlight&gt;</code> для падсьветкі сынтаксісу з дапамогай [http://pygments.org/ Pygments]",
+	"syntaxhighlight-error-category": "Старонкі з памылкамі падсветкі сінтаксісу",
+	"syntaxhighlight-error-category-desc": "Адбылася памылка пры спробе вылучыць код на старонцы.",
+	"syntaxhighlight-enclose-category": "Старонкі з састарэлымі атрыбутамі «enclose»",
+	"syntaxhighlight-enclose-category-desc": "Падсвечванне сінтаксісу на старонцы выкарыстоўвае састарэлы сінтаксіс «enclose».",
+	"syntaxhighlight-source-category": "Старонкі, якія выкарыстоўваюць састарэлы тэг source",
+	"syntaxhighlight-source-category-desc": "Выдзяленне сінтаксісу на гэтай старонцы выкарыстоўвае састарэлыя тэгі зыходнага коду.",
+	"syntaxhighlight-visualeditor-mwsyntaxhighlightinspector-code": "Праграмны код",
+	"syntaxhighlight-visualeditor-mwsyntaxhighlightinspector-language": "Мова праграмавання",
+	"syntaxhighlight-visualeditor-mwsyntaxhighlightinspector-none": "(Ніякая)",
+	"syntaxhighlight-visualeditor-mwsyntaxhighlightinspector-title": "Блок коду",
+	"syntaxhighlight-error-unknown-language": "Невядомая мова «$1»"
+}

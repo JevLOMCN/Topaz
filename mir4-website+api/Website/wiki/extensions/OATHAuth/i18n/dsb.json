@@ -1,0 +1,18 @@
+{
+	"@metadata": {
+		"authors": [
+			"Derbeth",
+			"Michawiki"
+		]
+	},
+	"oathauth-desc": "Zmóžnja awtentifkaciju z pomocu raz wužytych gronidłow na zakłaźe HMAC",
+	"oathauth-account": "Kontowe mě dwójofaktoroweje awtentifikacije:",
+	"oathauth-secret": "Dwójofaktorowy pótajmny kluc:",
+	"oathauth-enable": "Dwójofaktorowu awtentifikaciju zmóžniś",
+	"oathauth-recoverycodes": "Slědujuca lisćina jo lisćina raz wužywajobnych specialnych tokenow. Toś te tokeny daju se jano jaden raz wužywaś a su za nuzne pady. Pšosym napiš je a zachowaj je na wěstem městnje. Jolic zgubijoš swój mobilny telefon, budu toś te tokeny jadnučka móžnosć, aby swójo konto wuchował. Toś te tokeny njepokažu śi žednje zas.",
+	"oathauth-disable": "Dwójofaktorowu awtentifikaciju znjemóžniś",
+	"oathauth-validatedoath": "Dwójofaktorowe pśizjawjeńske informacije su se wobkšuśili. Dwójofaktorowa awtentifikacija buźo se něnto pśesajźiś.",
+	"oathauth-failedtovalidateoath": "Dwójofaktorowe pśizjawjeńske informacije njejsu dali se wobkšuśiś",
+	"oathauth-disabledoath": "Dwójofaktorowa awtentifikacija jo se znjemóžniła.",
+	"oathauth-prefs-label": "Dwójofaktorowa awtentifikacija:"
+}

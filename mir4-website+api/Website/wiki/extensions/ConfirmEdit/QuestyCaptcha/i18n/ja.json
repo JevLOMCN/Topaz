@@ -1,0 +1,18 @@
+{
+	"@metadata": {
+		"authors": [
+			"Aotake",
+			"Fryed-peach",
+			"Kkairri",
+			"Shirayuki"
+		]
+	},
+	"questycaptcha-desc": "Confirm Edit 用の質問形式 CAPTCHA ジェネレーター",
+	"questycaptcha-addurl": "あなたの編集には新しい外部リンクが含まれています。ウィキへの自動スパム攻撃を防ぐため、お手数をおかけしますが以下の確認用の質問に回答してください ([[Special:Captcha/help|詳細]]):",
+	"questycaptcha-badlogin": "ウィキへの自動パスワードクラック攻撃を防ぐため、お手数をおかけしますが下記の確認用の質問に回答してください ([[Special:Captcha/help|詳細]]):",
+	"questycaptcha-createaccount": "ウィキでのアカウント自動作成を防ぐため、お手数をおかけしますが下記の確認用の質問に回答してください ([[Special:Captcha/help|詳細]]):",
+	"questycaptcha-create": "ページを新規作成するには、下記の確認用の質問に回答してください ([[Special:Captcha/help|詳細]]):",
+	"questycaptcha-edit": "このページを編集するには、下記の確認用の質問に回答してください ([[Special:Captcha/help|詳細]]):",
+	"questycaptcha-sendemail": "ウィキへの自動スパム攻撃を防ぐため、お手数をおかけしますが下記の確認用の質問に回答してください ([[Special:Captcha/help|詳細]]):",
+	"questycaptchahelp-text": "一般からの投稿を受け付けるこのウィキのようなウェブサイトは、自動投稿ツールを使って多くのサイトにリンクを張ってまわるスパマーにより荒らされがちです。このようなスパムは除去できるものの、その作業は大変に面倒なものです。\n\nこのため、このウィキではときどき、特に新しい外部リンクがページに追加されたときなどに、質問に答えていただくようお願いすることがあります。この作業は自動化が難しいため、スパマーなどのプログラムを用いた攻撃をほぼ阻止しつつ、大半の生身の人間による投稿を可能にします。\n\n正当な投稿をするにあたって本機能が障害となっている場合、[[Special:ListAdmins|サイト管理者]]に連絡して協力を求めてください。\n\nページの編集に戻るには、ブラウザーの「戻る」ボタンを押してください。"
+}

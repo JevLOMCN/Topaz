@@ -1,0 +1,38 @@
+{
+	"@metadata": {
+		"authors": [
+			"Hanna Tardos",
+			"Tacsipacsi",
+			"Tgr"
+		]
+	},
+	"apierror-discussiontools-commentid-notfound": "A(z) „$1” azonosítójú hozzászólás nem található.",
+	"apierror-discussiontools-commentname-ambiguous": "Több „$1” nevű hozzászólás található, a <var>commentid</var> paraméter megadása kötelező.",
+	"apierror-discussiontools-commentname-notfound": "Nem található „$1” nevű hozzászólás.",
+	"apierror-discussiontools-formtoken-used": "A hozzászólást már elküldted. Töltsd újra az oldalt, hogy megjelenjen.",
+	"apierror-discussiontools-subscription-failed-add": "Nem sikerült feliratkozni erre a témára.",
+	"apierror-discussiontools-subscription-failed-remove": "Nem sikerült leiratkozni erről a témáról.",
+	"apihelp-discussiontoolscompare-summary": "Információk lekérése két lapváltozat közötti hozzászólás-változásokról.",
+	"apihelp-discussiontoolsedit-param-commentid": "A megválaszolandó hozzászólás azonosítója. Csak akkor használható, amikor a <var>paction</var> értéke <var>addcomment</var>. Felülírja a <var>commentname</var> paramétert.",
+	"apihelp-discussiontoolsedit-param-commentname": "A megválaszolandó hozzászólás neve. Csak akkor használható, amikor a <var>paction</var> értéke <var>addcomment</var>.",
+	"apihelp-discussiontoolsedit-param-formtoken": "Egy opcionális, kliensoldalon generált egyedi azonosító a hozzászólás dupla elküldésének elkerülésére.",
+	"apihelp-discussiontoolsedit-param-html": "Az elküldendő tartalom HTML-ként. Nem használható a <var>wikitext</var> paraméterrel együtt.",
+	"apihelp-discussiontoolsedit-param-sectiontitle": "{{int:apihelp-edit-param-sectiontitle}} Csak akkor használható, amikor a <var>paction</var> paraméter értéke <var>addtopic</var>.",
+	"apihelp-discussiontoolsedit-param-wikitext": "Az elküldendő tartalom wikiszövegként. Nem használható a <var>html</var> paraméterrel együtt.",
+	"apihelp-discussiontoolsedit-paramvalue-paction-addcomment": "Új komment küldése egy meglévő kommentre való válaszként.",
+	"apihelp-discussiontoolsedit-paramvalue-paction-addtopic": "Új megbeszélés-szakasz hozzáadása, a benne lévő első kommentel együtt.",
+	"apihelp-discussiontoolsedit-summary": "Üzenet elküldése egy vitalapra.",
+	"apihelp-discussiontoolsgetsubscriptions-param-commentname": "Az ellenőrizendő témák címei",
+	"apihelp-discussiontoolsgetsubscriptions-summary": "Adott témák feliratkozási állapotának lekérdezése.",
+	"apihelp-discussiontoolspageinfo-param-oldid": "A használandó lapváltozat azonosítója (alapértelmezés szerint a legújabb lapváltozat).",
+	"apihelp-discussiontoolspageinfo-param-prop": "Lekérendő tulajdonságok:",
+	"apihelp-discussiontoolspageinfo-paramvalue-prop-threaditemshtml": "A lapból feldolgozott hozzászólásszálak reprezentációja",
+	"apihelp-discussiontoolspageinfo-paramvalue-prop-transcludedfrom": "Mely más lapokról lettek beillesztve hozzászólások a kérdéses lapra",
+	"apihelp-discussiontoolspageinfo-summary": "A megbeszéléseszközök inicializálásához szükséges metaadatok lekérése.",
+	"apihelp-discussiontoolspreview-param-type": "Az üzenet típusa",
+	"apihelp-discussiontoolspreview-param-wikitext": "Az üzenet tartalma wikiszövegként.",
+	"apihelp-discussiontoolspreview-summary": "Egy üzenet előnézetének megjelenítése egy vitalapon.",
+	"apihelp-discussiontoolssubscribe-param-page": "Lap, amin a téma megjelenik",
+	"apihelp-discussiontoolssubscribe-param-subscribe": "Igaz a feliratkozáshoz, hamis a leiratkozáshoz",
+	"apihelp-discussiontoolssubscribe-summary": "Feliratkozás (vagy leiratkozás) egy adott téma értesítéseiről."
+}

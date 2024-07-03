@@ -1,0 +1,33 @@
+{
+	"@metadata": {
+		"authors": [
+			"פוילישער"
+		]
+	},
+	"cite-desc": "לייגט צו <code>&lt;ref[ name=id]&gt;</code> און <code>&lt;references/&gt;</code> טאַגן, פֿאר ציטירונגען (אין הערות)",
+	"cite_error": "ציטירן גרײַז: $1",
+	"cite_error_ref_numeric_key": "גרײַזיגער <code>&lt;ref&gt;</code> טאַג;\nנאמען טאר נישט זײַן קיין פשוטער נומער. ניצט א באשרײַבדיק קעפל",
+	"cite_error_ref_no_key": "דער עפנדער <code>&lt;ref&gt;</code> טאַג טויגט נישט אדער האט א פאלשן נאמען.",
+	"cite_error_ref_too_many_keys": "אומגילטיגער <code>&lt;ref&gt;</code> טאַג;\nאומגילטיגע נעמען, צ.ב. צו פֿיל",
+	"cite_error_ref_no_input": "אומגילטיגער <code>&lt;ref&gt;</code> טאַג;\nא רעפֿערענץ אָן א נאמען דארף האבן תוכן",
+	"cite_error_references_duplicate_key": "אומגילטיקער <code>&lt;ref&gt;</code> טאג; נאמען \"$1\" דעפֿינירט מערערע מאל מיט אנדער אינהאלט",
+	"cite_error_references_invalid_parameters": "אומגילטיגער פאראמעטער אין <code>&lt;references&gt;</code> טאַג",
+	"cite_error_references_no_text": "אומגילטיגער <code>&lt;ref&gt;</code> טאַג;\nקיין טעקסט נישט געשריבן פֿאַר רעפֿערענצן מיטן נאָמען <code>$1</code>",
+	"cite_error_included_ref": "פֿעלט א שליסנדיגער <code>&lt;/ref&gt;</code> פֿאַר <code>&lt;ref&gt;</code> טאַג",
+	"cite_error_group_refs_without_references": "ס'זענען דא <code>&lt;ref&gt;</code> טאַגן פֿאַר א גרופע וואס הייסט \"$1\", אבער מ'האט נישט געטראפֿן קיין אַנטקעגענעם  <code>&lt;references group=\"$1\"/&gt;</code> טאַג, אדער א שליסנדיקער <code>&lt;/ref&gt;</code> פֿעלט.",
+	"cite_error_references_group_mismatch": "דער <code>&lt;ref&gt;</code> טאג אין <code>&lt;references&gt;</code> האט א גרופע אייגנקייט וואס איז סותר \"$1\".",
+	"cite_error_references_missing_key": "<code>&lt;ref&gt;</code> טאַג מיטן נאָמען \"$1\" דעפֿינירט אין<code>&lt;references&gt;</code> נישט געניצט אין פֿריערדיקן טעקסט.",
+	"cite_error_references_no_key": "<code>&lt;ref&gt;</code> טאַג דעפֿינירט אין <code>&lt;references&gt;</code> האט נישט קיין name אַטריבוט.",
+	"cite_error_empty_references_define": "<code>&lt;ref&gt;</code> טאַג דעפֿינירט אין <code>&lt;references&gt;</code> מיט נאָמען \"$1\" האט נישט קיין אינהאַלט.",
+	"cite-tracking-category-cite-error": "בלעטער מיט רעפֿערענץ פֿעלער",
+	"cite_references_link_accessibility_label": "ארויפשפרינגען",
+	"cite_references_link_many_accessibility_label": "ארויפשפרינגען קיין:",
+	"cite_section_preview_references": "פאראויסקוק פון רעפערענצן",
+	"cite_warning": "ציטיר ווארענונג: $1",
+	"cite_warning_sectionpreview_no_text": "מען קען נישט מאַכן קיין פֿארויסשטעלונג פֿאַרן טאַג <code>&lt;ref&gt;</code> מיטן נאָמען <code>$1</code> ווייל ער איז דעפֿינירט אדער אינדרויסן פֿון דעם לויפֿיגן אָפטייל אדער אינגאַנצן נישט.",
+	"cite-wikieditor-tool-reference": "רעפערענץ",
+	"cite-wikieditor-help-page-references": "רעפערענצן",
+	"cite-wikieditor-help-content-reference-description": "רעפערענץ",
+	"cite-wikieditor-help-content-rereference-description": "נאך א ניץ פונעם זעלבן רעפערענץ",
+	"cite-wikieditor-help-content-showreferences-description": "ווייַזן רעפֿערענצן"
+}

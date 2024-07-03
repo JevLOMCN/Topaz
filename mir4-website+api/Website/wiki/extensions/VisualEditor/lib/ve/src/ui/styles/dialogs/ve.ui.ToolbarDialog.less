@@ -1,0 +1,76 @@
+/*!
+ * VisualEditor UserInterface ToolbarDialog styles.
+ *
+ * @copyright See AUTHORS.txt
+ */
+
+.ve-ui-toolbarDialog {
+	background: #fff;
+
+	&-padded .oo-ui-window-body {
+		padding: 0.375em; /* 0.3em / 0.8 */
+	}
+
+	&-position-above {
+		overflow-y: hidden;
+		max-height: 0;
+		transition: max-height 250ms;
+
+		.oo-ui-toolbar-position-top & {
+			border-top: 1px solid #c8ccd1;
+		}
+
+		.oo-ui-toolbar-position-bottom & {
+			border-bottom: 1px solid #c8ccd1;
+		}
+
+		&.oo-ui-window-ready {
+			/* approximate max height for transition */
+			max-height: 150px;
+		}
+	}
+
+	&-position-side {
+		position: absolute;
+		right: 0;
+		border-left: 1px solid #c8ccd1;
+		overflow-x: hidden;
+		width: 0;
+		margin-top: 1px;
+		transition: width 250ms;
+	}
+
+	&-disabled {
+		opacity: 0.5;
+		pointer-events: none;
+	}
+
+	/* Override styles when nested in a ProcessDialog */
+	/* TODO: Use child selectors in ProcessDialog */
+	.oo-ui-window-head {
+		height: 0;
+		min-height: 0;
+		outline: 0;
+	}
+
+	.oo-ui-window-body {
+		top: 0;
+	}
+
+	/* TODO: fix this upstream */
+	.oo-ui-window-frame {
+		position: relative;
+	}
+
+	&-position-below {
+		position: fixed;
+		bottom: 0;
+		left: 0;
+		right: 0;
+	}
+}
+
+.ve-ui-surface-toolbarDialog-side {
+	transition: margin 250ms, min-height 250ms;
+	min-height: 40em;
+}

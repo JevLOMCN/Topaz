@@ -1,0 +1,26 @@
+{
+	"@metadata": {
+		"authors": [
+			"Beta16",
+			"BrokenArrow",
+			"Giromin Cangiaxo",
+			"Ximo17"
+		]
+	},
+	"spam-blacklist": " #<!-- non modificare in alcun modo questa riga --> <pre>\n# Le URL esterne al sito che corrispondono alla lista seguente verranno bloccate.\n# La lista è valida solo per questo sito; fare riferimento anche all'elenco blocco globale.\n# Per la documentazione si veda https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:SpamBlacklist\n#\n# La sintassi è la seguente:\n#  * Tutto ciò che segue un carattere \"#\" è un commento, fino al termine della riga\n#  * Tutte le righe non vuote sono frammenti di espressioni regolari che si applicano al solo nome dell'host nelle URL\n #</pre> <!-- non modificare in alcun modo questa riga -->",
+	"spam-whitelist": " #<!-- non modificare in alcun modo questa riga --> <pre>\n# Le URL esterne al sito che corrispondono alla lista seguente *non* verranno\n# bloccate, anche nel caso corrispondano a delle voci dell'elenco blocco\n#\n# La sintassi è la seguente:\n#  * Tutto ciò che segue un carattere \"#\" è un commento, fino al termine della riga\n#  * Tutte le righe non vuote sono frammenti di espressioni regolari che si applicano al solo nome dell'host nelle URL\n #</pre> <!-- non modificare in alcun modo questa riga -->",
+	"email-blacklist": " #<!-- non modificare in alcun modo questa riga --> <pre>\n# Gli indirizzi email che corrispondono alla lista seguente saranno bloccati, non sarà possibile salvare o inviare email.\n# La lista è valida solo per questo sito; fare riferimento anche all'elenco blocco globale.\n# Per la documentazione si veda https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:SpamBlacklist\n#\n# La sintassi è la seguente:\n#  * Tutto ciò che segue un carattere \"#\" è un commento, fino al termine della riga\n#  * Tutte le righe non vuote sono frammenti di espressioni regolari che si applicano al solo nome dell'host degli indirizzi email\n #</pre> <!-- non modificare in alcun modo questa riga -->",
+	"email-whitelist": " #<!-- non modificare in alcun modo questa riga --> <pre>\n# Gli indirizzi email che corrispondono alla lista seguente *non* verranno\n# bloccati, anche nel caso corrispondano a delle voci dell'elenco blocco\n#\n# La sintassi è la seguente:\n#  * Tutto ciò che segue un carattere \"#\" è un commento, fino al termine della riga\n#  * Tutte le righe non vuote sono frammenti di espressioni regolari che si applicano al solo nome dell'host degli indirizzi email\n #</pre> <!-- non modificare in alcun modo questa riga -->",
+	"spam-blacklisted-email": "Indirizzo di posta elettronica bloccato",
+	"spam-blacklisted-email-text": "Il tuo indirizzo di posta elettronica è attualmente bloccato per l'invio di email verso altri utenti.",
+	"spam-blacklisted-email-signup": "L'indirizzo di posta elettronica indicato è attualmente bloccato.",
+	"spam-invalid-lines": "{{PLURAL:$1|La seguente riga|Le seguenti righe}} dell'elenco blocco dello spam {{PLURAL:$1|non è un'espressione regolare valida|non sono espressioni regolari valide}}; si prega di correggere {{PLURAL:$1|l'errore|gli errori}} prima di salvare la pagina.",
+	"spam-blacklist-desc": "Strumento antispam basato sulle espressioni regolari per bloccare URL e indirizzi email di utenti registrati",
+	"log-name-spamblacklist": "Elenco blocco spam",
+	"log-description-spamblacklist": "Questi eventi tengono traccia delle attivazioni dell'elenco blocco spam.",
+	"logentry-spamblacklist-hit": "{{GENDER:$2|$1}} ha causato l'attivazione dell'elenco blocco spam su $3 tentando di aggiungere $4.",
+	"right-spamblacklistlog": "Visualizza il registro dell'elenco blocco spam",
+	"action-spamblacklistlog": "vedere il registro dell'elenco blocco spam",
+	"right-sboverride": "Ignora l'elenco blocco spam",
+	"action-sboverride": "ignorare l'elenco blocco spam"
+}

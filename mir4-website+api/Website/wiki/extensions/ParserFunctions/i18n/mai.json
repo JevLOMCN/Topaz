@@ -1,0 +1,16 @@
+{
+	"@metadata": {
+		"authors": [
+			"Tulsi Bhagat",
+			"बिप्लब आनन्द"
+		]
+	},
+	"pfunc_desc": "लजिकल फङ्क्सनद्वारा पार्सरक विस्तार करी",
+	"pfunc_time_error": "त्रुटी: अमान्य समय।",
+	"pfunc_time_too_long": "त्रुटी: बहुत बेसी #time कल।",
+	"pfunc_expr_unrecognised_word": "एक्स्प्रेशन गल्ती: अनपेक्षित शब्द \"$1\"।",
+	"pfunc_expr_unexpected_operator": "एक्स्प्रेशन गल्ती: अनपेक्षित $1 अपरेटर।",
+	"pfunc_expr_missing_operand": "एक्स्प्रेशन त्रुटि: $1क घटक नै भेटल।",
+	"pfunc_expr_unrecognised_punctuation": "एक्स्प्रेशन गल्ती: अनपेक्षित उद्गार चिन्ह \"$1\"।",
+	"pfunc_expr_division_by_zero": "शून्य सँ भाग।"
+}

@@ -1,0 +1,24 @@
+{
+	"@metadata": {
+		"authors": [
+			"Brion Vibber",
+			"Ed Sanders"
+		]
+	},
+	"syntaxhighlight-desc": "Provides syntax highlighting <code>&lt;syntaxhighlight&gt;</code> using [http://pygments.org/ Pygments - Python syntax highlighter]",
+	"syntaxhighlight-error-category": "Pages with syntax highlighting errors",
+	"syntaxhighlight-error-category-desc": "There was an error when attempting to highlight code included on the page.",
+	"syntaxhighlight-enclose-category": "Pages using deprecated enclose attributes",
+	"syntaxhighlight-enclose-category-desc": "The syntaxhighlighting on the page uses deprecated enclose syntax.",
+	"syntaxhighlight-source-category": "Pages using deprecated source tags",
+	"syntaxhighlight-source-category-desc": "The syntaxhighlighting on the page uses deprecated source tags.",
+	"syntaxhighlight-visualeditor-mwsyntaxhighlightinspector-code": "Code",
+	"syntaxhighlight-visualeditor-mwsyntaxhighlightinspector-language": "Language",
+	"syntaxhighlight-visualeditor-mwsyntaxhighlightinspector-none": "(None)",
+	"syntaxhighlight-visualeditor-mwsyntaxhighlightinspector-showlines": "Show line numbers",
+	"syntaxhighlight-visualeditor-mwsyntaxhighlightinspector-startingline": "Starting line number",
+	"syntaxhighlight-visualeditor-mwsyntaxhighlightinspector-title": "Code block",
+	"syntaxhighlight-error-pygments-invocation-failure": "Failed to invoke Pygments",
+	"syntaxhighlight-error-unknown-language": "Unknown language \"$1\"",
+	"syntaxhighlight-error-exceeds-size-limit": "Code size of $1 {{PLURAL:$1|bytes}} exceeds allowed maximum of $2 {{PLURAL:$2|bytes}}"
+}

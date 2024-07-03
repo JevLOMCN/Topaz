@@ -1,0 +1,41 @@
+{
+	"@metadata": {
+		"authors": [
+			"Imre",
+			"Kghbln",
+			"Metalhead64",
+			"MichaelFrey",
+			"Raimond Spekking",
+			"The Evil IP address",
+			"Umherirrender"
+		]
+	},
+	"captcha-edit": "Zur Bearbeitung der Seite löse bitte die nachfolgende Aufgabe und trage die Antwort in das Feld ein [[Special:Captcha/help|(Fragen oder Probleme?)]].",
+	"captcha-edit-fail": "Falsches oder fehlendes CAPTCHA.",
+	"captcha-desc": "Ermöglicht verschiedene CAPTCHA-Techniken zum Schutz vor Spam und dem Erraten von Passwörtern",
+	"captcha-help": "Lösung des CAPTCHAs.",
+	"captcha-info-help": "Beschreibung des CAPTCHAs.",
+	"captcha-id-label": "CAPTCHA-Kennung",
+	"captcha-id-help": "Dieser Wert sollte unverändert zurückgesandt werden.",
+	"captcha-addurl": "Deine Bearbeitung enthält neue externe Links.\nUm das Wiki vor automatisiertem Spam zu schützen, bitten wir dich, die folgende Aufgabe zu lösen und deine Antwort in das Feld einzugeben, damit deine Bearbeitung gespeichert werden kann ([[Special:Captcha/help|mehr Informationen …]]):",
+	"captcha-badlogin": "Um das Wiki vor der automatisierten Kompromittierung der Benutzerkonten zu schützen, bitten wir dich, die folgende Aufgabe zu lösen und deine Antwort in das Feld einzugeben ([[Special:Captcha/help|mehr Informationen …]]):",
+	"captcha-createaccount": "Um das Wiki vor der automatisierten Erstellung von Benutzerkonten zu schützen, bitten wir dich, die untenstehende Aufgabe zu lösen und deine Antwort in das Feld einzugeben ([[Special:Captcha/help|mehr Informationen …]]):",
+	"captcha-createaccount-fail": "Falsches oder fehlendes CAPTCHA.",
+	"captcha-create": "Zur Erstellung der Seite löse die nachfolgende Aufgabe und trage die Antwort in das Feld unten ein [[Special:Captcha/help|(Fragen oder Probleme?)]].",
+	"captcha-sendemail": "Um das Wiki vor automatisiertem Spam zu schützen, bitten wir dich, die untenstehende Aufgabe zu lösen und deine Antwort in das Feld einzugeben ([[Special:Captcha/help|mehr Informationen …]]):",
+	"captcha-sendemail-fail": "Falsches oder fehlendes CAPTCHA.",
+	"captcha-disabledinapi": "Diese Aktion benötigt ein CAPTCHA. Sie kann nicht über die API ausgeführt werden.",
+	"captcha-error": "CAPTCHA-Verifizierung aufgrund eines internen Fehlers fehlgeschlagen: $1",
+	"captchahelp-title": "CAPTCHA-Hilfe",
+	"captchahelp-cookies-needed": "'''Wichtiger Hinweis:''' Es müssen Cookies im Browser erlaubt sein.",
+	"captchahelp-text": "Internetangebote, die für Beiträge von praktisch jedem offen sind – so wie dieses Wiki – werden oft von Spammern missbraucht, die ihre Links automatisch auf vielen Webseiten platzieren. Diese Spam-Links können wieder entfernt werden, sie sind aber ein erhebliches Ärgernis.\n\nIn manchen Fällen, insbesondere beim Hinzufügen von neuen Weblinks zu einer Seite, kann es vorkommen, dass dieses Wiki ein Bild mit einem farbigen und verzerrten Text anzeigt und dazu auffordert, die angezeigten Wörter einzutippen.\nDa eine solche Aufgabe nur schwer automatisch erledigt werden kann, werden dadurch die meisten Spammer, die mit automatischen Werkzeugen arbeiten, gestoppt, wogegen menschliche Benutzer ihren Beitrag absenden können.\n\nLeider kann dies zu Schwierigkeiten für Personen führen, die über eine eingeschränkte Sehfähigkeit verfügen oder text- oder sprachbasierte Browser verwenden. Aktuell sind keine Audio-CAPTCHAs verfügbar.\n\nBitte kontaktiere einen [[Special:ListAdmins|Administrator]] für weitere Hilfe, wenn dies es unmöglich macht, erwünschte Bearbeitungen vorzunehmen.\n\nDer „Zurück“-Knopf des Browsers führt zurück zum Bearbeitungsfenster.",
+	"captcha-addurl-whitelist": " #<!-- Diese Zeile darf nicht verändert werden! --> <pre>\n#  Syntax:\n#   * Alles von einem #-Zeichen bis zum Ende der Zeile ist ein Kommentar\n#   * Jede nicht-leere Zeile ist ein Regex-Fragment, das gegenüber den Hostnamen einer URL geprüft wird\n #</pre> <!-- Diese Zeile darf nicht verändert werden! -->",
+	"right-skipcaptcha": "Überspringen der CAPTCHA-Eingabe",
+	"action-skipcaptcha": "CAPTCHA-Eingaben zu überspringen",
+	"confirmedit-preview-line": "Zeilennummer",
+	"confirmedit-preview-content": "Inhalt",
+	"confirmedit-preview-validity": "Gültigkeit",
+	"confirmedit-preview-valid": "gültig",
+	"confirmedit-preview-invalid": "ungültig",
+	"confirmedit-preview-description": "Die folgende Tabelle zeigt die Liste der Zeilen auf dieser Seite an und ob es eine gültige IP-Adresse oder ein gültiger IP-Adressbereich ist. Falls die Zeile eine gültige IP-Adresse oder ein gültiger IP-Adressbereich ist, wird sie/er vom CAPTCHA ausgenommen; ungültige Zeilen werden ignoriert. Ein Beispiel für einen gültigen IP-Adressbereich wäre 69.208.0.0/16, der von 69.208.0.0 bis 69.208.255.255 geht. [https://www.mediawiki.org/wiki/Special:MyLanguage/Help:Range_blocks#Calculating_the_CIDR_suffix Weitere Informationen] zur Berechnung eines IP-Adressbereichs."
+}

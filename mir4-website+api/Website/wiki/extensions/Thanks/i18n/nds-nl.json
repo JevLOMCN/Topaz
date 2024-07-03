@@ -1,0 +1,33 @@
+{
+	"@metadata": {
+		"authors": [
+			"Macofe",
+			"Servien"
+		]
+	},
+	"thanks-desc": "Voegt verwiezingen toe um gebrukers te bedanken veur bewarkingen, kommentaar, enz.",
+	"thanks-thank": "{{GENDER:$1|{{GENDER:$2|bedanken}}}}",
+	"thanks-thanked": "{{GENDER:$1|{{GENDER:$2|is bedanked}}}}",
+	"thanks-button-thank": "{{GENDER:$1|Bedanken}}",
+	"thanks-button-thanked": "{{GENDER:$1|Is bedankt}}",
+	"thanks-error-undefined": "Bedanken is mislokt. Probeer t weer.",
+	"thanks-error-invalidrevision": "t Versienummer is niet geldig.",
+	"thanks-error-ratelimited": "{{GENDER:$1|Je}} hebben joew limiet veur bedankjes overschrejen. Wacht effen veurda'j verdan gaon.",
+	"thanks-thank-tooltip": "{{GENDER:$1|Stüür}} disse {{GENDER:$2|gebruker}} een bedankbericht",
+	"thanks-confirmation2": "Oapenbåre dankbetüging {{GENDER:$1|stüren}}?",
+	"thanks-thanked-notice": "$1 hef joew bedankjen ontvangen veur {{GENDER:$2|zien|heur|zien}} bewarking.",
+	"thanks": "Bedanken",
+	"echo-pref-subscription-edit-thank": "Bedank m'n veur mien bewarking",
+	"echo-pref-tooltip-edit-thank": "Stuur m'n n melding as der ene mien bedankt veur n bewarking die'k an-ebröcht hebbe.",
+	"echo-category-title-edit-thank": "Bedankt",
+	"notification-header-rev-thank": "$1 {{GENDER:$2|hef}} {{GENDER:$4|joe}} bedankt veur joew bewarking op '''$3'''.",
+	"log-name-thanks": "Bedankjeslogboek",
+	"log-description-thanks": "Hieronder zie'j n lieste mit gebrukers die deur aandere gebrukers bedankt bin.",
+	"logentry-thanks-thank": "$1 {{GENDER:$2|hef}} {{GENDER:$4|$3}} bedankt",
+	"thanks-error-no-id-specified": "Jy müttet een versy- of logbooknummer upgeaven üm een dankbetüging te stüren.",
+	"thanks-confirmation-special-rev": "Wil jy oapenbår bedanken vöär disse bewarking?",
+	"notification-link-text-view-post": "Reaksie bekieken",
+	"thanks-error-invalidpostid": "Berichtnummer is niet geldig.",
+	"flow-thanks-confirmation-special": "Wil jy een oapenbåre dankbetüging stüren vöär disse reakty?",
+	"flow-thanks-thanked-notice": "$1 hef joew bedankjen ontvangen veur {{GENDER:$2|zien|heur|zien}} reaksie."
+}

@@ -1,0 +1,42 @@
+{
+	"@metadata": {
+		"authors": [
+			"Helix84",
+			"Teslaton",
+			"TomášPolonec"
+		]
+	},
+	"replacetext": "Nahradiť text",
+	"replacetext-desc": "Poskytuje [[Special:ReplaceText|špeciálnu stránku]], ktorá správcom umožňuje globálne nájsť a nahradiť text na všetkých stránkach celej wiki.",
+	"replacetext_docu": "Nájsť text na všetkých stránkach tejto wiki a nahradiť ho iným textom môžete tak, že sem napíšete texty a stlačíte „{{int:replacetext_continue}}”.\nPotom sa vám zobrazí zoznam stránok obsahujúcich hľadaný text a môžete si zvoliť tie, na ktorých ho chcete nahradiť.\nV histórii úprav sa zaznamená vaše meno.",
+	"replacetext_originaltext": "Pôvodný text:",
+	"replacetext_replacementtext": "Nahradiť textom:",
+	"replacetext_useregex": "Použiť regulárne výrazy",
+	"replacetext_regexdocu": "(Príklad: výraz „a(.*)c“ pre „{{int:replacetext_originaltext}}“ a „ac$1“ pre „{{int:replacetext_replacementtext}}“ nahradí „abc“ textom „acb“.)",
+	"replacetext_optionalfilters": "Nepovinné filtre:",
+	"replacetext_categorysearch": "Nahradiť iba v kategórii:",
+	"replacetext_prefixsearch": "Nahradiť iba v stránkach s predponou:",
+	"replacetext_editpages": "Nahradiť text v obsahu stránok",
+	"replacetext_movepages": "Nahradiť text v názvoch stránok, keď je to možné",
+	"replacetext_givetarget": "Musíte zadať reťazec, ktorý sa má nahradiť.",
+	"replacetext_nonamespace": "Musíte vybrať aspoň jeden menný priestor.",
+	"replacetext_editormove": "Musíte vybrať aspoň jednu z volieb nahrádzania.",
+	"replacetext_choosepagesforedit": "Prosím, vyberte {{PLURAL:$3|stránku, na ktorej|stránky, na ktorých}} chcete nahradiť „$1“ za „$2“:",
+	"replacetext_choosepagesformove": "Nahradiť text „$1“ textom „$2“ v {{PLURAL:$3|názve nasledovnej stránky|názvoch nasledovných stránok}}:",
+	"replacetext_cannotmove": "{{PLURAL:$1|Nasledovnú stránku|Nasledovné stránky}} nemožno presunúť:",
+	"replacetext_formovedpages": "Pri presunutých stránkach:",
+	"replacetext_savemovedpages": "Ukladať staré názvy ako presmerovania na nové názvy",
+	"replacetext_watchmovedpages": "Sledovať tieto stránky",
+	"replacetext_invertselections": "Invertovať výber",
+	"replacetext_replace": "Nahradiť",
+	"replacetext_success": "Text „$1” bude nahradený textom „$2” na $3 {{PLURAL:$3|stránke|stránkach}}.",
+	"replacetext_noreplacement": "Nenašli sa žiadne stránky obsahujúce text „$1”.",
+	"replacetext_nomove": "Neboli nájdené žiadne stránky, ktorých názov obsahuje „$1“.",
+	"replacetext_nosuchcategory": "Žiadna kategória s názvom „$1“ neexistuje.",
+	"replacetext_return": "Späť na formulár.",
+	"replacetext_warning": "'''Upozornenie:''' $1 {{PLURAL:$1|stránka|stránky|stránok}} už obsahuje text „$2”, ktorým chcete pôvodný text nahradiť. Ak budete pokračovať a text nahradíte, nebudete môcť odlíšiť vaše nahradenia od existujúceho textu, ktorý tento reťazec už obsahuje.",
+	"replacetext_blankwarning": "Pretože text, ktorým text chcete nahradiť je prázdny, operácia bude nevratná. Pokračovať?",
+	"replacetext_continue": "Pokračovať",
+	"replacetext_editsummary": "Nahradenie textu „$1” textom „$2”",
+	"right-replacetext": "Vykonať náhradu reťazcov na celej wiki"
+}

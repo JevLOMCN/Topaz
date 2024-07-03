@@ -1,0 +1,23 @@
+{
+	"@metadata": {
+		"authors": [
+			"Sveinn í Felli"
+		]
+	},
+	"disableoathforuser": "Gera tveggja-þrepa auðkenningu notandans óvirka",
+	"oathauth-account": "Heiti aðgangs:",
+	"oathauth-enable": "Virkja tveggja-þrepa auðkenningu",
+	"oathauth-disable": "Gera tveggja-þrepa auðkenningu óvirka",
+	"oathauth-validatedoath": "Sannreyndi tveggja-þrepa auðkenni. Tveggja-þrepa auðkenning er núna skilyrði.",
+	"oathauth-disabledoath": "Gerði tveggja-þrepa auðkenningu óvirka.",
+	"oathauth-disable-for-user": "Gera tveggja-þrepa auðkenningu fyrir notanda óvirka",
+	"right-oathauth-disable-for-user": "Gera tveggja-þrepa auðkenningu fyrir notanda óvirka",
+	"right-oathauth-verify-user": "Athuga hvort notandi sé með virka tveggja-þrepa auðkenningu",
+	"action-oathauth-enable": "virkja tveggja-þrepa auðkenningu",
+	"oathauth-auth-token-label": "Teikn",
+	"oathauth-login-failed": "Staðfesting mistókst.",
+	"oathauth-describe-provider": "Tveggja-þrepa auðkenning (OATH).",
+	"oath-log-name": "Atvikaskráning tveggja-þrepa auðkenningar",
+	"oathmanage": "Sýsla með tveggja-þrepa auðkenningu",
+	"oathauth-verify-enabled": "{{GENDER:$1|$1}} er með tveggja-þrepa auðkenningu virka."
+}

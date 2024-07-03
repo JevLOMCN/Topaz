@@ -1,0 +1,21 @@
+{
+	"@metadata": {
+		"authors": [
+			"Minh Nguyen",
+			"Vinhtantran"
+		]
+	},
+	"imagemap_desc": "Thêm những bản đồ hình có liên kết dùng thẻ <code>&lt;imagemap&gt;</code>",
+	"imagemap_no_image": "Lỗi: phải đưa tên hình vào dòng đầu tiên",
+	"imagemap_invalid_image": "Lỗi: hình không hợp lệ hay không tồn tại",
+	"imagemap_bad_image": "Lỗi: cấm nhúng hình đó vào trang này",
+	"imagemap_no_link": "Lỗi: không có liên kết hợp lệ ở cuối dòng $1",
+	"imagemap_invalid_title": "Lỗi: văn bản liên kết không hợp lệ ở dòng $1",
+	"imagemap_missing_coord": "Lỗi: không có đủ tọa độ cho vùng ở dòng $1",
+	"imagemap_unrecognised_shape": "Lỗi: không hiểu hình dạng ở dòng $1, mỗi dòng phải bắt đầu với một trong: <code>default</code>, <code>rect</code>, <code>circle</code>, hay <code>poly</code>",
+	"imagemap_invalid_coord": "Lỗi: tọa độ không hợp lệ ở dòng $1, phải là số",
+	"imagemap_invalid_desc": "Lỗi: chọn desc không hợp lệ, phải là một trong: $1",
+	"imagemap_description": "Thông tin về hình này",
+	"imagemap_desc_types": "trên-phải, dưới-phải, dưới-trái, trên-trái, không",
+	"imagemap_poly_odd": "Lỗi: đa giác có tọa độ không đầy đủ ở dòng $1"
+}

@@ -1,0 +1,31 @@
+{
+	"@metadata": {
+		"authors": [
+			"Ashok modhvadia",
+			"Dsvyas",
+			"KartikMistry"
+		]
+	},
+	"thanks-desc": "સંપાદનો, પ્રતિભાવો વ. માતે સભ્યોના આભારદર્શનની કડીઓ ઉમેરો.",
+	"thanks-thank": "{{GENDER:$1|{{GENDER:$2|આભાર માનો}}}}",
+	"thanks-thanked": "{{GENDER:$1|{{GENDER:$2|આભાર માન્યો}}}}",
+	"thanks-button-thank": "{{GENDER:$1|{{GENDER:$2|આભાર માનો}}}}",
+	"thanks-button-thanked": "{{GENDER:$1|{{GENDER:$2|આભાર માન્યો}}}}",
+	"thanks-error-undefined": "આભારની ક્રિયા  નિષ્ફળ ગઈ છે. ફરી પ્રયત્ન કરો.",
+	"thanks-error-invalidrevision": "પુનરાવર્તન આઇ.ડી. માન્ય નથી.",
+	"thanks-error-ratelimited": "{{GENDER:$1|તમે}} તમારી ગુણાંકન સીમા વટાવી ચૂક્યા છો. કૃપા કરી થોડો સમય રાહ જુઓ અને પછી પ્રયત્ન કરો.",
+	"thanks-thank-tooltip": "{{GENDER:$2|આ સભ્યને}} આભાર સંદેશો {{GENDER:$1|મોકલો}}",
+	"thanks-confirmation2": "આ ફેરફાર માટે જાહેર આભાર {{GENDER:$1|મોકલવો છે}}?",
+	"thanks-thanked-notice": "$1 {{GENDER:$2|તેમણે}} કરેલા ફેરફાર માટે તમારા ધન્યવાદ પ્રાપ્ત કરે છે.",
+	"thanks": "આભાર માનો",
+	"thanks-submit": "આભાર માનો",
+	"echo-pref-subscription-edit-thank": "મેં કરેલા ફેરફાર માટે મારો આભાર માને છે",
+	"echo-pref-tooltip-edit-thank": "મેં કરેલા ફેરફાર માટે કોઈ મારો આભાર માને ત્યારે મને જણાવો.",
+	"echo-category-title-edit-thank": "આભાર",
+	"notification-header-rev-thank": "તમે <strong>$3</strong> પર કરેલા ફેરફાર માટે $1એ {{GENDER:$4|તમારો}} {{GENDER:$2|આભાર}} માન્યો છે.",
+	"notification-bundle-header-rev-thank": "{{PLURAL:$1|એક વ્યક્તિએ|$1 લોકોએ|100=૯૯ કરતા વધુ લોકોએ}} તમે <strong>$2</strong> પર કરેલા ફેરફાર માટે {{GENDER:$3|તમારો}} આભાર માન્યો છે.",
+	"log-name-thanks": "આભાર નોંધ",
+	"log-description-thanks": "નીચે એવા સભ્યોની યાદિ આપી છે જેમનો અન્ય સભ્યોએ આભાર માન્યો હોય.",
+	"logentry-thanks-thank": "$1એ {{GENDER:$4|$3}}નો {{GENDER:$2|આભાર માન્યો}}",
+	"notification-link-text-view-post": "ટીપ્પણી જુઓ"
+}

@@ -1,0 +1,16 @@
+/*!
+ * VisualEditor UserInterface ContextItem styles.
+ *
+ * @copyright See AUTHORS.txt
+ */
+
+.ve-ui-contextItem {
+	/* Use cursor::default as this label text, and not intended to
+	be selected, but don't prevent it (with user-select:none) if
+	the user really wants to. */
+	cursor: default;
+
+	& + & {
+		border-top: 1px solid #eaecf0;
+	}
+}

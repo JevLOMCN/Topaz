@@ -13,6 +13,7 @@ if (isset($_POST['submit'])) {
     // Hash da senha usando SHA-256
     $hashed_password = strtoupper(hash('sha256', $password));
 
+    
     try {
         $stmt = $pdo_user->prepare("SELECT * FROM user_tb WHERE Username = :username and PasswordHash = :hashed_password");
         $stmt->execute(['username' => $username, 'hashed_password' => $hashed_password]);
@@ -20,7 +21,12 @@ if (isset($_POST['submit'])) {
 
         if ($user) {
             $_SESSION['loggedin'] = true;
-            $_SESSION['username'] = $username;
+            $_SESSION['user'] = $user;
+
+            $stmt = $pdo_game->prepare("SELECT * FROM character_tb  WHERE accountUID = :accountUID ");
+            $stmt->execute(['accountUID' => $user['AccountUID']]);
+            $_SESSION['characters'] = $stmt->fetchAll(PDO::FETCH_ASSOC);
+
 
             header("Location: ucp");
             exit();
@@ -331,10 +337,14 @@ if (isset($_POST['submit'])) {
                         </li>
                         <li class="new" data-menuanchor="part2">
                             <p><a href="rankings"><span>Ranking<span></a></p>
-                        </li>
-                        <li class="new" data-menuanchor="part2">
-                            <p><a href="tools"><span>Tools<span></a></p>
-                        </li>
+                              </li>
+                              <li class="new" data-menuanchor="part2">
+                                <p><a href="tools"><span>Tools<span></a></p>
+                                <ul class="subGnb">
+                                  <!-- <li><a href="comingsoon" target="_blank">FAQ</a></li> -->
+                                  <li><a href="wiki" target="_blank">WIKI</a></li>
+                                </ul>
+                              </li>
                         <li class="new active">
                             <p><a href="ucp"><span>Account<span></a></p>
                             <ul class="subGnb">

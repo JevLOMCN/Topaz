@@ -1,0 +1,26 @@
+{
+	"@metadata": {
+		"authors": [
+			"Cainamarques",
+			"Eduardo Addad de Oliveira",
+			"Eduardoaddad",
+			"Fabsouza1",
+			"Felipe L. Ewald"
+		]
+	},
+	"skinname-monobook": "MonoBook",
+	"monobook-desc": "O tema clássico do MediaWiki desde 2004, assim chamado pela imagem preto e branco de um livro que é colocada no plano de fundo da página",
+	"monobook.css": "/* Todos os CSS aqui serão carregados para usuários do tema MonoBook */",
+	"monobook.js": "/* Todos JavaScript aqui colocado será carregado para usuários do tema MonoBook */",
+	"monobook-jumptotop": "voltar ao topo",
+	"monobook-jumptopersonal": "ferramentas de usuário",
+	"monobook-jumptonavigation": "Ir para navegação",
+	"monobook-jumptosearch": "Ir para pesquisar",
+	"monobook-more-actions": "Mais",
+	"cactions-mobile": "Ações da página",
+	"monobook-cactions-label": "Ações da página",
+	"monobook-notifications-link": "Notificações ($1)",
+	"monobook-notifications-link-none": "Notificações",
+	"monobook-view-history": "Histórico",
+	"monobook-action-undelete": "Restaurar {{PLURAL:$1|uma edição|$1 edições}}"
+}

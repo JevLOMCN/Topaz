@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"BaRaN6161 TURK"
+		]
+	},
+	"apihelp-flowthank-summary": "Flow yorumu herkese açık bir teşekkür bildirimi gönderin.",
+	"apihelp-flowthank-param-postid": "Gönderinizin UUID'si için teşekkürü.",
+	"apihelp-flowthank-example-1": "<kbd>UUID xyz789</kbd> ile yapılan yorum için teşekkür et",
+	"apihelp-thank-summary": "Bir editöre teşekkür mesajı gönderin.",
+	"apihelp-thank-param-rev": "Birine teşekkür revizyon kimliği. Bu veya 'log' sağlanmalıdır.",
+	"apihelp-thank-param-log": "Birine teşekkür için revizyon kimliği. Bu veya 'log' sağlanmalıdır.",
+	"apihelp-thank-param-source": "İsteğin kaynağını tanımlayan kısa bir dize, örneğin <kbd>diff</kbd> veya <kbd>history</kbd>.",
+	"apihelp-thank-example-1": "<kbd>ID 456</kbd> revizyonu için teşekkür gönderin, kaynak farklı bir sayfadır."
+}

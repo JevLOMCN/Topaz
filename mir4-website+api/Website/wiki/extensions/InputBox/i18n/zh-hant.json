@@ -1,0 +1,22 @@
+{
+	"@metadata": {
+		"authors": [
+			"Anakmalaysia",
+			"Cwlin0416",
+			"Gaoxuewei",
+			"Liangent",
+			"Liuxinyu970226",
+			"Mark85296341"
+		]
+	},
+	"inputbox-desc": "可引用預先定義好的 HTML 表格",
+	"inputbox-error-no-type": "您尚未指定要建立的輸入框類型。",
+	"inputbox-error-bad-type": "輸入框類型 \"$1\" 錯誤。\n請使用 \"create\", \"comment\", \"search\", \"search2\" 或 \"fulltext\"。",
+	"inputbox-tryexact": "嘗試精確比對",
+	"inputbox-searchfulltext": "全文檢索",
+	"inputbox-createarticle": "建立頁面",
+	"inputbox-movearticle": "移動頁面",
+	"inputbox-postcomment": "新章節",
+	"inputbox-postcommenttitle": "新章節",
+	"inputbox-ns-main": "主要"
+}

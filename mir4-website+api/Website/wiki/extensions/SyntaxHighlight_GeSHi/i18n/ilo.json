@@ -1,0 +1,19 @@
+{
+	"@metadata": {
+		"authors": [
+			"Lam-ang"
+		]
+	},
+	"syntaxhighlight-desc": "Mangited iti panangimaris ti sintaksis ti <code>&lt;syntaxhighlight&gt;</code> nga agusar iti [http://pygments.org/ Pygments - Python syntax highlighter]",
+	"syntaxhighlight-error-category": "Pampanid nga agraman kadagiti biddut ti panangimaris sintaksis",
+	"syntaxhighlight-error-category-desc": "Adda maysa a biddut iti panangipadas iti panangimaris ti kodigo iti panid.",
+	"syntaxhighlight-visualeditor-mwsyntaxhighlightinspector-code": "Kodigo",
+	"syntaxhighlight-visualeditor-mwsyntaxhighlightinspector-language": "Pagsasao",
+	"syntaxhighlight-visualeditor-mwsyntaxhighlightinspector-none": "(Awan)",
+	"syntaxhighlight-visualeditor-mwsyntaxhighlightinspector-showlines": "Ipakita dagiti bilang ti linia",
+	"syntaxhighlight-visualeditor-mwsyntaxhighlightinspector-startingline": "Pagrugian a bilang ti linia",
+	"syntaxhighlight-visualeditor-mwsyntaxhighlightinspector-title": "Muton ti kodigo",
+	"syntaxhighlight-error-pygments-invocation-failure": "Napaay ti panangawag iti Pygments",
+	"syntaxhighlight-error-unknown-language": "Di ammo a pagsasao ti \"$1\"",
+	"syntaxhighlight-error-exceeds-size-limit": "Ti kadakkel ti kodigo iti $1 {{PLURAL:$1|bytes}} ket sumurok iti maipalubos a kaadu iti $2 {{PLURAL:$2|bytes}}"
+}

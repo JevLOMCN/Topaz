@@ -1,0 +1,42 @@
+{
+	"@metadata": {
+		"authors": [
+			"Bugoslav",
+			"Neptune, the Mystic",
+			"Ponor",
+			"SpeedyGonsales"
+		]
+	},
+	"linterrors": "Pročišćivač pogrješčica",
+	"linter-category-bogus-image-options": "Pogrješke mogućnosti prikaza datoteka",
+	"linter-category-misnested-tag": "Nepravilno ugniježđeni tagovi",
+	"linter-category-missing-end-tag": "Nedostaje zatvarajuća oznaka",
+	"linter-category-missing-end-tag-desc": "Na sljedećim stranicama nedostaju zatvarajuće HTML oznake.",
+	"linter-category-obsolete-tag": "Zastarjele HTML oznake",
+	"linter-category-obsolete-tag-desc": "Sljedeće stranice rabe zastarjele HTML oznake.",
+	"linter-category-self-closed-tag": "Samozatvoreni tagovi",
+	"linter-category-stripped-tag": "Nedostajući tagovi",
+	"linter-form-namespace": "Imenski prostor:",
+	"linter-heading-high-priority": "Iznimna važnost",
+	"linter-heading-low-priority": "Mala važnost",
+	"linter-heading-medium-priority": "Srednja važnost",
+	"linter-numerrors": "($1 {{PLURAL:$1|pogreška|pogreške|pogrešaka}})",
+	"linter-page-edit": "uredi",
+	"linter-page-history": "stare izmjene",
+	"linter-page-viewsource": "vidi kôd",
+	"linter-pager-bogus-image-options-details": "Netočna opcija za prikaz datoteke",
+	"linter-pager-deletable-table-tag-details": "Tablična oznaka koju bi trebalo ukloniti",
+	"linter-pager-html5-misnesting-details": "Pogrešno gniježđenje (sada neispravno)",
+	"linter-pager-misc-tidy-replacement-issues-details": "Razne pogreške u sintaksi",
+	"linter-pager-misnested-tag-details": "Pogrešno gniježđenje oznaka koje bi trebalo ispravno ugnijezditi",
+	"linter-pager-missing-end-tag-details": "Nedostaje zatvarajuća oznaka",
+	"linter-pager-obsolete-tag-details": "Zastarjela HTML oznaka",
+	"linter-pager-self-closed-tag-details": "Samozatvorena oznaka",
+	"linter-pager-template-header": "Preko predloška?",
+	"linter-pager-tidy-font-bug-details": "Oznaka font pokušava promijeniti boju poveznice",
+	"linter-pager-title-header": "Ime stranice",
+	"linterrors-subpage": "Pročišćivač pogrješčica: $1",
+	"linterrors-summary": "<strong>Napomena:</strong> Brojevi pogrešaka po kategorijama samo su procijenjeni i nisu potpuno točni.",
+	"multi-part-template-block": "Proizlazi iz više od jednog predloška",
+	"pageinfo-linter": "Pročišćivač pogrješčica"
+}

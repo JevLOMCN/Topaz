@@ -1,0 +1,24 @@
+{
+	"@metadata": {
+		"authors": [
+			"Borislav",
+			"DCLXVI",
+			"StanProg",
+			"Ted Masters",
+			"Turin",
+			"Лорд Бъмбъри"
+		]
+	},
+	"syntaxhighlight-desc": "Осигурява синтактично оцветяване на <code>&lt;syntaxhighlight&gt;</code> чрез [http://pygments.org/ Pygments]",
+	"syntaxhighlight-error-category": "Страници с грешки в оцветяването на синтаксиса",
+	"syntaxhighlight-error-category-desc": "Грешка при опит за оцветяване на кода в страницата.",
+	"syntaxhighlight-enclose-category": "Страници, използващи непрепоръчителни enclose атрибути",
+	"syntaxhighlight-enclose-category-desc": "Оцветяването на кода в страницата използва непрепоръчителен enclose синтаксис.",
+	"syntaxhighlight-source-category": "Страници, използващи непрепоръчителни source тагове",
+	"syntaxhighlight-source-category-desc": "Оцветяването на кода в страницата използва непрепоръчителни source тагове.",
+	"syntaxhighlight-visualeditor-mwsyntaxhighlightinspector-code": "Код",
+	"syntaxhighlight-visualeditor-mwsyntaxhighlightinspector-language": "Език",
+	"syntaxhighlight-visualeditor-mwsyntaxhighlightinspector-showlines": "Показване номерата на редовете",
+	"syntaxhighlight-visualeditor-mwsyntaxhighlightinspector-title": "Блок с код",
+	"syntaxhighlight-error-unknown-language": "Непознат език „$1“"
+}

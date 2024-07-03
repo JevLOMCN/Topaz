@@ -1,0 +1,26 @@
+{
+	"@metadata": {
+		"authors": [
+			"Fitoschido",
+			"Jmarchn",
+			"Martorell",
+			"SMP",
+			"Toniher"
+		]
+	},
+	"skinname-monobook": "MonoBook",
+	"monobook-desc": "El tema clàssic de MediaWiki des del 2004, que rep el nom d'una foto en blanc i negre d'un llibre en el fons de la pàgina.",
+	"monobook.css": "/* Tots els CSS aquí es carregaran per als usuaris de l'aparença MonoBook */",
+	"monobook.js": "/* Qualsevol codi JavaScript afegit aquí es carregarà per als usuaris que utilitzin l'aparença MonoBook */",
+	"monobook-jumptotop": "torna a dalt",
+	"monobook-jumptopersonal": "eines de l’usuari",
+	"monobook-jumptonavigation": "Salta a navegació",
+	"monobook-jumptosearch": "Salta a la cerca",
+	"monobook-more-actions": "Més",
+	"cactions-mobile": "Accions de la pàgina",
+	"monobook-cactions-label": "Accions de la pàgina",
+	"monobook-notifications-link": "Notificacions ($1)",
+	"monobook-notifications-link-none": "Notificacions",
+	"monobook-view-history": "Historial",
+	"monobook-action-undelete": "Restaura {{PLURAL:$1|l'edició eliminada|$1 edicions eliminades}}"
+}

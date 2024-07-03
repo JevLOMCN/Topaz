@@ -1,0 +1,34 @@
+{
+	"@metadata": {
+		"authors": [
+			"Esbardu",
+			"Xuacu",
+			"YoaR"
+		]
+	},
+	"nuke": "Desaniciar en masa",
+	"action-nuke": "desaniciar páxines en masa",
+	"nuke-desc": "Da a los alministradores la capacidá de [[Special:Nuke|desaniciar páxines en masa]]",
+	"nuke-nopages": "Nun hai páxines nueves de [[Special:Contributions/$1|{{GENDER:$1|$1}}]] nos cambios recientes.",
+	"nuke-list": "[[Special:Contributions/$1|{{GENDER:$1|$1}}]] recién creó les páxines siguientes; escribi un comentariu y calca nel botón pa desaniciales.",
+	"nuke-list-multiple": "Les páxines darréu se crearon recién; escribi\nun comentariu y calca nel botón pa desaniciales.",
+	"nuke-defaultreason": "Desaniciu en masa de páxines amestaes por [[Special:Contributions/$1|{{GENDER:$1|$1}}]]",
+	"nuke-multiplepeople": "Desaniciu en masa de páxines recién amestaes",
+	"nuke-tools": "Esta ferramienta permite desanicios en masa de páxines añadíes recién por un usuariu o una IP determinada. Escribi'l nome d'usuariu o la IP pa ver una llista de páxines a desaniciar, o dexalo balero pa tolos usuarios.",
+	"nuke-submit-user": "Llista de páxines",
+	"nuke-submit-delete": "Desaniciar seleicionaes",
+	"right-nuke": "Desaniciu en masa de páxines",
+	"nuke-userorip": "Nome d'usuariu, direición IP o en blanco:",
+	"nuke-maxpages": "Máximu númberu de páxines:",
+	"nuke-editby": "Creáu por [[Special:Contributions/$1|{{GENDER:$1|$1}}]]",
+	"nuke-deleted": "La páxina '''$1''' se desanició.",
+	"nuke-not-deleted": "La páxina [[:$1]] '''nun se pudo''' desaniciar.",
+	"nuke-delete-more": "[[Special:Nuke|Desaniciar más páxines]]",
+	"nuke-pattern": "Patrón LIKE de SQL (p. ex. %) pal nome de la páxina:",
+	"nuke-nopages-global": "Nun hai títulos de páxina que casen cola gueta.",
+	"nuke-viewchanges": "ver los cambeos",
+	"nuke-namespace": "Llendar al espaciu de nomes:",
+	"nuke-linkoncontribs": "desaniciar en masa",
+	"nuke-linkoncontribs-text": "Desaniciar en masa les páxines nes qu'{{GENDER:$1|esti usuariu ye l'únicu autor|esta usuaria ye la única autora}}",
+	"nuke-confirm": "Tas a piques de desaniciar {{PLURAL:$1|una páxina|$1 páxines}}. ¿Seguro que quies desaniciar?"
+}

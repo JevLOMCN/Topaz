@@ -1,0 +1,70 @@
+[
+	{
+		"placeholderHeading": false,
+		"type": "heading",
+		"range": [
+			"3/0/0",
+			"3/0/1"
+		],
+		"headingLevel": 2,
+		"level": 0,
+		"name": "h-Mr_Patate-2006-03-05T15:54:00.000Z",
+		"id": "h-DNPH-2006-03-05T15:54:00.000Z",
+		"warnings": [],
+		"replies": [
+			{
+				"type": "comment",
+				"timestamp": "2006-03-05T15:54:00.000Z",
+				"author": "Mr Patate",
+				"range": [
+					"3/2/0",
+					"3/4/6/26"
+				],
+				"signatureRanges": [
+					[
+						"3/4/3",
+						"3/4/6/26"
+					]
+				],
+				"timestampRanges": [
+					[
+						"3/4/6/1",
+						"3/4/6/26"
+					]
+				],
+				"level": 1,
+				"name": "c-Mr_Patate-2006-03-05T15:54:00.000Z",
+				"id": "c-Mr_Patate-2006-03-05T15:54:00.000Z-DNPH",
+				"warnings": [],
+				"replies": [
+					{
+						"type": "comment",
+						"timestamp": "2006-03-05T16:38:00.000Z",
+						"author": "Airelle",
+						"range": [
+							"3/6/0/0",
+							"3/6/0/4/26"
+						],
+						"signatureRanges": [
+							[
+								"3/6/0/3",
+								"3/6/0/4/26"
+							]
+						],
+						"timestampRanges": [
+							[
+								"3/6/0/4/1",
+								"3/6/0/4/26"
+							]
+						],
+						"level": 2,
+						"name": "c-Airelle-2006-03-05T16:38:00.000Z",
+						"id": "c-Airelle-2006-03-05T16:38:00.000Z-Mr_Patate-2006-03-05T15:54:00.000Z",
+						"warnings": [],
+						"replies": []
+					}
+				]
+			}
+		]
+	}
+]

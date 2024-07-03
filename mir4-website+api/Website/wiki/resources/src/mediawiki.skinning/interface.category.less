@@ -1,0 +1,52 @@
+@import 'mediawiki.skin.variables.less';
+
+/* stylelint-disable selector-class-pattern */
+
+#catlinks {
+	/**
+	 * Overrides text justification (user preference)
+	 * See T33990
+	 */
+	text-align: left;
+}
+
+.catlinks {
+	background-color: @background-color-neutral-subtle;
+	margin-top: 1em;
+	border: @border-width-base @border-style-base @border-color-base;
+	padding: 5px;
+	clear: both;
+
+	ul {
+		display: inline;
+		margin: 0;
+		padding: 0;
+		list-style: none;
+	}
+
+	li {
+		display: inline-block;
+		line-height: 1.25em;
+		margin: 0.125em 0;
+		border-left: @border-width-base @border-style-base @border-color-base;
+		padding: 0 0.5em;
+
+		&:first-child {
+			border-left: 0;
+			padding-left: 0.25em;
+		}
+
+		/* (T7346) make category redirects italic */
+		a.mw-redirect {
+			font-style: italic;
+		}
+	}
+}
+
+/**
+ * Hidden categories
+ */
+.mw-hidden-cats-hidden,
+.catlinks-allhidden {
+	display: none;
+}

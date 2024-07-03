@@ -1,0 +1,27 @@
+{
+	"@metadata": {
+		"authors": [
+			"Chrisportelli"
+		]
+	},
+	"cite-desc": "Iżżid it-tikketti <code>&lt;ref[ name=id]&gt;</code> u <code>&lt;references/&gt;</code> għaċ-ċitazzjonijiet",
+	"cite_error": "Żball fiċ-ċitazzjoni: $1",
+	"cite_error_ref_numeric_key": "Tikketta <code>&lt;ref&gt;</code> invalida;\nl-isem ma jistax ikun numru sħiħ sempliċi. Uża titlu deskrittiv",
+	"cite_error_ref_no_key": "Tikketta <code>&lt;ref&gt;</code> invalida;\nrefs mingħajr kontenut għandhom ikollhom isem",
+	"cite_error_ref_too_many_keys": "Tikketta <code>&lt;ref&gt;</code> invalida;\nismijiet invalidi, e.ż. numru wisq kbir",
+	"cite_error_ref_no_input": "Żball fl-użu tat-tikketta <code>&lt;ref&gt;</code>; refs mingħajr isem ma jistgħux ikunu vojta",
+	"cite_error_references_invalid_parameters": "Żball fl-użu tat-tikketta <code>&lt;references&gt;</code>; il-parametri mhumiex permessi. Uża <code>&lt;references /&gt;</code>",
+	"cite_error_references_no_text": "Tikketta <code>&lt;ref&gt;</code> invalida;\nl-ebda test ma ngħata għar-refs bl-isem <code>$1</code>",
+	"cite_error_included_ref": "<code>&lt;/ref&gt;</code> tal-għeluq hija nieqsa għat-tikketta <code>&lt;ref&gt;</code>",
+	"cite_error_group_refs_without_references": "It-tikketti <code>&lt;ref&gt;</code> jeżistu għal grupp bl-isem \"$1\" imma l-ebda tikketta <code>&lt;references group=\"$1\"/&gt;</code> rispettiva ma nstabet",
+	"cite_error_references_group_mismatch": "It-tikketta <code>&lt;ref&gt;</code> f'<code>&lt;references&gt;</code> għandha l-attribut tal-grupp \"$1\" f'kunflitt.",
+	"cite_error_references_missing_key": "It-tikketta <code>&lt;ref&gt;</code> bl-isem \"$1\" definita f'<code>&lt;references&gt;</code> mhix użata fit-test preċedenti.",
+	"cite_error_references_no_key": "It-tikketta <code>&lt;ref&gt;</code> definita f'<code>&lt;references&gt;</code> m'għandiex l-attribut tal-isem.",
+	"cite_error_empty_references_define": "It-tikketta <code>&lt;ref&gt;</code> definita f'<code>&lt;references&gt;</code> bl-isem \"$1\" m'għandha l-ebda kontenut.",
+	"cite_references_link_many_format_backlink_labels": "a b ċ d e f ġ g għ h ħ i ie j k l m n o p q r s t u v w x ż z aa ab aċ ad ae af aġ ag ah aħ ai aj ak al am an ao ap aq ar as at au av aw ax aż az ba bb bċ bd be bf bġ bg bh bħ bi bj bk bl bm bn bo bp bq br bs bt bu bv bw bx bż bz ċa ċb ċċ ċd ċe ċf ċġ ċg ċh ċħ ċi ċj ċk ċl ċm ċn ċo ċp ċq ċr ċs ċt ċu ċv ċw ċx ċż ċz da db dċ dd de df dġ dg dh dħ di dj dk dl dm dn do dp dq dr ds dt du dv dw dx dż dz ea eb eċ ed ee ef eġ eg eh eħ ei ej ek el em en eo ep eq er es et eu ev ew ex eż ez fa fb fċ fd fe ff fġ fg fh fħ fi fj fk fl fm fn fo fp fq fr fs ft fu fv fw fx fż fz ġa ġb ġċ ġd ġe ġf ġġ ġg ġh ġi ġj ġk ġl ġm ġn ġo ġp ġq ġr ġs ġt ġu ġv ġw ġx ġż ġz ga gb gċ gd ge gf gġ gg gh għ gi gj gk gl gm gn go gp gq gr gs gt gu gv gw gx gż gz ha hb hċ hd he hf hġ hg hh hħ hi hj hk hl hm hn ho hp hq hr hs ht hu hv hw hx hż hz ia ib iċ id if iġ ig ih iħ ii ij ik il im in io ip iq ir is it iu iv iw ix iż iz ja jb jċ jd je jf jġ jg jh jħ ji jj jk jl jm jn jo jp jq jr js jt ju jv jw jx jż jz ka kb kċ kd ke kf kġ kg kh kħ ki kj kk kl km kn ko kp kq kr ks kt ku kv kw kx kż kz la lb lċ ld le lf lġ lg lh lħ li lj lk ll lm ln lo lp lq lr ls lt lu lv lw lx lż lz ma mb mċ md me mf mġ mg mh mħ mi mj mk ml mm mn mo mp mq mr ms mt mu mv mw mx mż mz na nb nċ nd ne nf nġ ng nh nħ ni nj nk nl nm nn no np nq nr ns nt nu nv nw nx nż nz oa ob oċ od oe of oġ og oh oħ oi oj ok ol om on oo op oq or os ot ou ov ow ox oż oz pa pb pċ pd pe pf pġ pg ph pħ pi pj pk pl pm pn po pp pq pr ps pt pu pv pw px pż pz qa qb qċ qd qe qf qġ qg qh qħ qi qj qk ql qm qn qo qp qq qr qs qt qu qv qw qx qż qz ra rb rċ rd re rf rġ rg rh rħ ri rj rk rl rm rn ro rp rq rr rs rt ru rv rw rx rż rz sa sb sċ sd se sf sġ sg sh sħ si sj sk sl sm sn so sp sq sr ss st su sv sw sx sż sz ta tb tċ td te tf tġ tg th tħ ti tj tk tl tm tn to tp tq tr ts tt tu tv tw tx tż tz ua ub uċ ud ue uf uġ ug uh uħ ui uj uk ul um un uo up uq ur us ut uu uv uw ux uż uz va vb vċ vd ve vf vġ vg vh vħ vi vj vk vl vm vn vo vp vq vr vs vt vu vv vw vx vż vz wa wb wċ wd we wf wġ wg wh wħ wi wj wk wl wm wn wo wp wq wr ws wt wu wv ww wx wż wz xa xb xċ xd xe xf xġ xg xh xħ xi xj xk xl xm xn xo xp xq xr xs xt xu xv xw xx xż xz ża żb żċ żd że żf żġ żg żh żħ żi żj żk żl żm żn żo żp żq żr żs żt żu żv żw żx żż żz za zb zċ zd ze zf zġ zg zh zħ zi zj zk zl zm zn zo zp zq zr zs zt zu zv zw zx zż zz",
+	"cite-wikieditor-tool-reference": "Nota",
+	"cite-wikieditor-help-page-references": "Referenzi",
+	"cite-wikieditor-help-content-reference-description": "Referenza",
+	"cite-wikieditor-help-content-rereference-description": "Użu addizzjonali tal-istess referenza",
+	"cite-wikieditor-help-content-showreferences-description": "Viżwal tar-referenzi"
+}

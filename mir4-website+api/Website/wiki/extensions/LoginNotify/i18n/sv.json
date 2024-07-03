@@ -1,0 +1,20 @@
+{
+	"@metadata": {
+		"authors": [
+			"Skalman",
+			"WikiPhoenix"
+		]
+	},
+	"loginnotify-desc": "Meddelar användare om misstänkta inloggningar från okända enheter och /eller IP-adresser",
+	"echo-category-title-login-fail": "Misslyckade inloggningsförsök",
+	"echo-pref-tooltip-login-fail": "Meddela mig när misslyckade inloggningsförsök har gjorts för mitt konto.",
+	"echo-category-title-login-success": "Inloggning från en främmande enhet",
+	"echo-pref-tooltip-login-success": "Meddela mig när någon loggar in på mitt konto från en okänd enhet och IP-adress.",
+	"loginnotify-primary-link": "Hjälp",
+	"notification-loginnotify-login-fail-email-subject": "{{PLURAL:$2|Misslyckat försök|Flera misslyckade försök}} att logga in på {{SITENAME}} som $1",
+	"notification-loginnotify-login-success-email-subject": "Inloggning på {{SITENAME}} som $1 från en enhet {{GENDER:$1|du}} inte har använt nyligen",
+	"notification-header-login-success": "Någon (förmodligen {{GENDER:$1|du}}) loggade nyligen in på ditt konto från en ny enhet. Om det var du kan du ignorera detta meddelande. Om det inte var du, är det rekommenderat att du ändrar ditt lösenord och kontrollerar din kontoaktivitet.",
+	"notification-new-bundled-header-login-fail": "{{PLURAL:$1|'''Ett misslyckat försök'''|'''$1 misslyckade försök'''}} att logga in på ditt konto från en ny enhet har förekommit sedan du loggade in senast. Om det inte var du, se till att ditt konto har ett starkt lösenord.",
+	"notification-known-header-login-fail": "{{PLURAL:$1|'''Ett misslyckat försök'''|'''$1 misslyckade försök'''}} att logga in på ditt konto har förekommit sedan du loggade in senast. Om det inte var du, se till att ditt konto har ett starkt lösenord.",
+	"notification-new-unbundled-header-login-fail": "{{PLURAL:$1|'''Ett misslyckat försök'''|'''Flera misslyckade försök'''}} att logga in på ditt konto från en ny enhet har förekommit. Se till att ditt konto har ett starkt lösenord."
+}

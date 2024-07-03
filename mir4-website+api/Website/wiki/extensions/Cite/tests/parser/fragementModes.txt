@@ -1,0 +1,137 @@
+!! version 2
+
+!! test
+Legacy fragment encoding
+!! config
+wgFragmentMode=["legacy"]
+!! wikitext
+<ref name="nature%20phylo">A</ref>
+<ref name="Mininova%2E26%2E11%2E2009">B</ref>
+<ref name="%c8%98tiri_2019">C</ref>
+<ref name="play%21">D</ref>
+<ref name="Terry+O%26rsquo%3BN…</ref">E</ref>
+<ref name="9&nbsp;pm">F</ref>
+<references />
+!! html/php
+<p><sup id="cite_ref-nature.2520phylo_1-0" class="reference"><a href="#cite_note-nature.2520phylo-1">&#91;1&#93;</a></sup>
+<sup id="cite_ref-Mininova.252E26.252E11.252E2009_2-0" class="reference"><a href="#cite_note-Mininova.252E26.252E11.252E2009-2">&#91;2&#93;</a></sup>
+<sup id="cite_ref-.25c8.2598tiri_2019_3-0" class="reference"><a href="#cite_note-.25c8.2598tiri_2019-3">&#91;3&#93;</a></sup>
+<sup id="cite_ref-play.2521_4-0" class="reference"><a href="#cite_note-play.2521-4">&#91;4&#93;</a></sup>
+<sup id="cite_ref-Terry.2BO.2526rsquo.253BN.E2.80.A6.3C.2Fref_5-0" class="reference"><a href="#cite_note-Terry.2BO.2526rsquo.253BN.E2.80.A6.3C.2Fref-5">&#91;5&#93;</a></sup>
+<sup id="cite_ref-9_pm_6-0" class="reference"><a href="#cite_note-9_pm-6">&#91;6&#93;</a></sup>
+</p>
+<div class="mw-references-wrap"><ol class="references">
+<li id="cite_note-nature.2520phylo-1"><span class="mw-cite-backlink"><a href="#cite_ref-nature.2520phylo_1-0">↑</a></span> <span class="reference-text">A</span>
+</li>
+<li id="cite_note-Mininova.252E26.252E11.252E2009-2"><span class="mw-cite-backlink"><a href="#cite_ref-Mininova.252E26.252E11.252E2009_2-0">↑</a></span> <span class="reference-text">B</span>
+</li>
+<li id="cite_note-.25c8.2598tiri_2019-3"><span class="mw-cite-backlink"><a href="#cite_ref-.25c8.2598tiri_2019_3-0">↑</a></span> <span class="reference-text">C</span>
+</li>
+<li id="cite_note-play.2521-4"><span class="mw-cite-backlink"><a href="#cite_ref-play.2521_4-0">↑</a></span> <span class="reference-text">D</span>
+</li>
+<li id="cite_note-Terry.2BO.2526rsquo.253BN.E2.80.A6.3C.2Fref-5"><span class="mw-cite-backlink"><a href="#cite_ref-Terry.2BO.2526rsquo.253BN.E2.80.A6.3C.2Fref_5-0">↑</a></span> <span class="reference-text">E</span>
+</li>
+<li id="cite_note-9_pm-6"><span class="mw-cite-backlink"><a href="#cite_ref-9_pm_6-0">↑</a></span> <span class="reference-text">F</span>
+</li>
+</ol></div>
+!! end
+
+!! test
+T298278: Collection of test cases in HTML5 mode
+!! config
+wgFragmentMode=["html5"]
+!! wikitext
+<ref name="nature%20phylo">A</ref>
+<ref name="Mininova%2E26%2E11%2E2009">B</ref>
+<ref name="%c8%98tiri_2019">C</ref>
+<ref name="play%21">D</ref>
+<ref name="Terry+O%26rsquo%3BN…</ref">E</ref>
+<ref name="9&nbsp;pm">F</ref>
+<references />
+!! html/php
+<p><sup id="cite_ref-nature%20phylo_1-0" class="reference"><a href="#cite_note-nature%2520phylo-1">&#91;1&#93;</a></sup>
+<sup id="cite_ref-Mininova%2E26%2E11%2E2009_2-0" class="reference"><a href="#cite_note-Mininova%252E26%252E11%252E2009-2">&#91;2&#93;</a></sup>
+<sup id="cite_ref-%c8%98tiri_2019_3-0" class="reference"><a href="#cite_note-%25c8%2598tiri_2019-3">&#91;3&#93;</a></sup>
+<sup id="cite_ref-play%21_4-0" class="reference"><a href="#cite_note-play%2521-4">&#91;4&#93;</a></sup>
+<sup id="cite_ref-Terry+O%26rsquo%3BN…&lt;/ref_5-0" class="reference"><a href="#cite_note-Terry+O%2526rsquo%253BN…&lt;/ref-5">&#91;5&#93;</a></sup>
+<sup id="cite_ref-9_pm_6-0" class="reference"><a href="#cite_note-9_pm-6">&#91;6&#93;</a></sup>
+</p>
+<div class="mw-references-wrap"><ol class="references">
+<li id="cite_note-nature%20phylo-1"><span class="mw-cite-backlink"><a href="#cite_ref-nature%2520phylo_1-0">↑</a></span> <span class="reference-text">A</span>
+</li>
+<li id="cite_note-Mininova%2E26%2E11%2E2009-2"><span class="mw-cite-backlink"><a href="#cite_ref-Mininova%252E26%252E11%252E2009_2-0">↑</a></span> <span class="reference-text">B</span>
+</li>
+<li id="cite_note-%c8%98tiri_2019-3"><span class="mw-cite-backlink"><a href="#cite_ref-%25c8%2598tiri_2019_3-0">↑</a></span> <span class="reference-text">C</span>
+</li>
+<li id="cite_note-play%21-4"><span class="mw-cite-backlink"><a href="#cite_ref-play%2521_4-0">↑</a></span> <span class="reference-text">D</span>
+</li>
+<li id="cite_note-Terry+O%26rsquo%3BN…&lt;/ref-5"><span class="mw-cite-backlink"><a href="#cite_ref-Terry+O%2526rsquo%253BN…&lt;/ref_5-0">↑</a></span> <span class="reference-text">E</span>
+</li>
+<li id="cite_note-9_pm-6"><span class="mw-cite-backlink"><a href="#cite_ref-9_pm_6-0">↑</a></span> <span class="reference-text">F</span>
+</li>
+</ol></div>
+!! end
+
+!! test
+URL encoded strings accidentally copy-pasted in legacy mode
+!! config
+wgFragmentMode=["legacy"]
+!! wikitext
+<ref name="n%25%32%30n" group="g%25%32%30g">A</ref>
+<references group="g%25%32%30g" />
+!! html/php
+<p><sup id="cite_ref-n.2525.2532.2530n_1-0" class="reference"><a href="#cite_note-n.2525.2532.2530n-1">&#91;g%25%32%30g 1&#93;</a></sup>
+</p>
+<div class="mw-references-wrap"><ol class="references">
+<li id="cite_note-n.2525.2532.2530n-1"><span class="mw-cite-backlink"><a href="#cite_ref-n.2525.2532.2530n_1-0">↑</a></span> <span class="reference-text">A</span>
+</li>
+</ol></div>
+!! end
+
+!! test
+T298278: URL encoded strings accidentally copy-pasted in HTML5 mode
+!! config
+wgFragmentMode=["html5"]
+!! wikitext
+<ref name="n%25%32%30n" group="g%25%32%30g">A</ref>
+<references group="g%25%32%30g" />
+!! html/php
+<p><sup id="cite_ref-n%25%32%30n_1-0" class="reference"><a href="#cite_note-n%2525%2532%2530n-1">&#91;g%25%32%30g 1&#93;</a></sup>
+</p>
+<div class="mw-references-wrap"><ol class="references">
+<li id="cite_note-n%25%32%30n-1"><span class="mw-cite-backlink"><a href="#cite_ref-n%2525%2532%2530n_1-0">↑</a></span> <span class="reference-text">A</span>
+</li>
+</ol></div>
+!! end
+
+!! test
+Multiple, partly encoded spaces in legacy mode
+!! config
+wgFragmentMode=["legacy"]
+!! wikitext
+<ref name="a_ %20a" group="b_ %20b">A</ref>
+<references group="b_ %20b" />
+!! html/php
+<p><sup id="cite_ref-a_.2520a_1-0" class="reference"><a href="#cite_note-a_.2520a-1">&#91;b_ %20b 1&#93;</a></sup>
+</p>
+<div class="mw-references-wrap"><ol class="references">
+<li id="cite_note-a_.2520a-1"><span class="mw-cite-backlink"><a href="#cite_ref-a_.2520a_1-0">↑</a></span> <span class="reference-text">A</span>
+</li>
+</ol></div>
+!! end
+
+!! test
+Multiple, partly encoded spaces in HTML5 mode
+!! config
+wgFragmentMode=["html5"]
+!! wikitext
+<ref name="a_ %20a" group="b_ %20b">A</ref>
+<references group="b_ %20b" />
+!! html/php
+<p><sup id="cite_ref-a_%20a_1-0" class="reference"><a href="#cite_note-a_%2520a-1">&#91;b_ %20b 1&#93;</a></sup>
+</p>
+<div class="mw-references-wrap"><ol class="references">
+<li id="cite_note-a_%20a-1"><span class="mw-cite-backlink"><a href="#cite_ref-a_%2520a_1-0">↑</a></span> <span class="reference-text">A</span>
+</li>
+</ol></div>
+!! end

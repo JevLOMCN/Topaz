@@ -1,0 +1,23 @@
+{
+	"@metadata": {
+		"authors": [
+			"Lam-ang"
+		]
+	},
+	"apihelp-query+gadgetcategories-summary": "Mangisubli iti listaan ti katkategoria ti gadget.",
+	"apihelp-query+gadgetcategories-param-prop": "Ania ti maala a pakaammo ti kategoria ti gadget:\n;name:Internal a nagan ti kategoria.\n;title:Titulo ti kategoria.\n;members:Bilang dagiti gadget iti kategoria.",
+	"apihelp-query+gadgetcategories-param-names": "Nagnagan ti alaen a katkategoria.",
+	"apihelp-query+gadgetcategories-example-1": "Mangala iti listaan ti adda a katkategoria ti gadget",
+	"apihelp-query+gadgetcategories-example-2": "Mangala kadagiti amin a pakaammo a maipanggep ti katkategoria a nanaganan ti \"foo\" ken \"bar\"",
+	"apihelp-query+gadgets-summary": "Mangisubli iti listaan dagiti gadget a naus-usar iti daytoy a wiki.",
+	"apihelp-query+gadgets-param-prop": "Ania ti maala a pakaaamo ti gadget:\n;id:ID ti internal a gadget.\n;metadata:Ti metadata ti gadget.\n;desc:Deskripsion ti gadget a nabaliwan iti HTML (mabalin a nabuntog, usaren laeng no masapul unay).",
+	"apihelp-query+gadgets-param-categories": "Dagiti gadget a pakaalaan ti katkategoria.",
+	"apihelp-query+gadgets-param-ids": "Dagiti ID ti maala a gadget.",
+	"apihelp-query+gadgets-param-allowedonly": "Ilista laeng dagiti gadget a maipalubos iti agdama nga agar-aramat.",
+	"apihelp-query+gadgets-param-enabledonly": "Ilista laeng dagiti gadget a pinakabaelan iti agdama nga agar-aramat.",
+	"apihelp-query+gadgets-example-1": "Mangala kadagiti gadget a kakuyog dagiti deskripsion",
+	"apihelp-query+gadgets-example-2": "Mangala kadagiti gadget nga addaan kadagiti amin a mabalin a tagtagikua",
+	"apihelp-query+gadgets-example-3": "Mangala iti listaan dagiti gadget a tagikua ti kategoria \"foo\"",
+	"apihelp-query+gadgets-example-4": "Mangala kadagiti pakaammo a manipanggep kadagiti gadget ti \"foo\" ken \"bar\"",
+	"apihelp-query+gadgets-example-5": "Mangala iti listaan dagiti gadget a pinakabaelan iti agdama nga agar-aramat."
+}

@@ -1,0 +1,23 @@
+{
+	"@metadata": {
+		"authors": [
+			"Kwj2772",
+			"Ykhwong"
+		]
+	},
+	"apihelp-query+gadgetcategories-summary": "소도구 분류의 목록을 반환합니다.",
+	"apihelp-query+gadgetcategories-param-names": "검색할 분류 이름입니다.",
+	"apihelp-query+gadgetcategories-example-1": "기존의 소도구 분류 목록을 가져옵니다",
+	"apihelp-query+gadgetcategories-example-2": "\"foo\"와 \"bar\"라는 이름의 분류에 관한 모든 정보를 가져옵니다",
+	"apihelp-query+gadgets-summary": "이 위키에 사용되는 소도구의 목록을 반환합니다.",
+	"apihelp-query+gadgets-param-prop": "불러올 소도구 정보:\n;id: 내부 소도구 ID.\n;metadata: 소도구 메타데이터.\n;desc: HTML로 변환된 소도구 설명(느릴 수 있습니다, 정말 필요할 때만 사용하세요).",
+	"apihelp-query+gadgets-param-categories": "어떤 분류에서 검색할 소도구입니다.",
+	"apihelp-query+gadgets-param-ids": "검색할 소도구의 ID입니다.",
+	"apihelp-query+gadgets-param-allowedonly": "현재 사용자에 허용된 소도구만 나열합니다.",
+	"apihelp-query+gadgets-param-enabledonly": "현재 사용자가 활성화한 소도구만 나열합니다.",
+	"apihelp-query+gadgets-example-1": "설명과 함께 소도구 목록을 가져옵니다",
+	"apihelp-query+gadgets-example-2": "가능한 모든 속성과 함께 소도구 목록을 가져옵니다",
+	"apihelp-query+gadgets-example-3": "\"foo\" 분류에 속하는 소도구 목록을 가져옵니다",
+	"apihelp-query+gadgets-example-4": "소도구 \"foo\"와 \"bar\"에 관한 정보를 가져옵니다",
+	"apihelp-query+gadgets-example-5": "현재 사용자가 활성화한 소도구 목록을 가져옵니다"
+}

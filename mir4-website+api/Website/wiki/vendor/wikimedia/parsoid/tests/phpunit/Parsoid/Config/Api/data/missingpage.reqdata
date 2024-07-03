@@ -1,0 +1,2 @@
+{"action":"query","prop":"info|revisions","rvprop":"ids|timestamp|user|userid|sha1|size|content","rvslots":"*","titles":"ThisPageDoesNotExist","rvlimit":1}
+{"batchcomplete":true,"query":{"pages":[{"ns":0,"title":"ThisPageDoesNotExist","missing":true,"contentmodel":"wikitext","pagelanguage":"en","pagelanguagehtmlcode":"en","pagelanguagedir":"ltr"}]}}

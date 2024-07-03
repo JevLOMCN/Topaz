@@ -1,0 +1,20 @@
+{
+	"variants": {
+		"invert": {
+			"color": "#fff",
+			"global": true
+		},
+		"progressive": {
+			"color": "#36c",
+			"global": true
+		}
+	},
+	"images": {
+		"parameter": {
+			"file": "../images/icons/parameter-ltr.svg"
+		},
+		"public-domain": {
+			"file": "../images/icons/public-domain.svg"
+		}
+	}
+}

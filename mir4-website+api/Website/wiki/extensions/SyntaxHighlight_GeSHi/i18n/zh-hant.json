@@ -1,0 +1,30 @@
+{
+	"@metadata": {
+		"authors": [
+			"Cwlin0416",
+			"Kly",
+			"Liuxinyu970226",
+			"Mark85296341",
+			"McDutchie",
+			"Shinjiman",
+			"SunAfterRain",
+			"Xiplus"
+		]
+	},
+	"syntaxhighlight-desc": "使用 [http://pygments.org/ Pygments - Python syntax highlighter] 提供可強調語法顯示的 <code>&lt;syntaxhighlight&gt;</code> 標籤。",
+	"syntaxhighlight-error-category": "有強調語法顯示錯誤的頁面",
+	"syntaxhighlight-error-category-desc": "當嘗試強調顯示在頁面代碼的語法時出現錯誤。",
+	"syntaxhighlight-enclose-category": "使用已棄用enclose屬性的頁面",
+	"syntaxhighlight-enclose-category-desc": "此頁面上的代碼突顯使用了已棄用的enclose語法。",
+	"syntaxhighlight-source-category": "使用已棄用source標籤的頁面",
+	"syntaxhighlight-source-category-desc": "在頁面的強調語法顯示使用了不推薦來源標籤。",
+	"syntaxhighlight-visualeditor-mwsyntaxhighlightinspector-code": "程式碼",
+	"syntaxhighlight-visualeditor-mwsyntaxhighlightinspector-language": "語言",
+	"syntaxhighlight-visualeditor-mwsyntaxhighlightinspector-none": "(無)",
+	"syntaxhighlight-visualeditor-mwsyntaxhighlightinspector-showlines": "顯示行號",
+	"syntaxhighlight-visualeditor-mwsyntaxhighlightinspector-startingline": "起始行數",
+	"syntaxhighlight-visualeditor-mwsyntaxhighlightinspector-title": "程式碼區塊",
+	"syntaxhighlight-error-pygments-invocation-failure": "調用 Pygments 失敗",
+	"syntaxhighlight-error-unknown-language": "不明語言 \"$1\"",
+	"syntaxhighlight-error-exceeds-size-limit": "程式碼大小 $1 {{PLURAL:$1|位元組}} 已超出允許的上限值 $2 {{PLURAL:$2|位元組}}"
+}

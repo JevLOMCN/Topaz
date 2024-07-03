@@ -1,0 +1,17 @@
+{
+	"@metadata": {
+		"authors": [
+			"Ibrahim"
+		]
+	},
+	"imagemap_desc": "Имкони эҷоди нақшаҳои тасвирӣ қобили клик кардан дар самти корбарро бо истифода аз барчасби  <code>&lt;imagemap&gt;</code> фароҳам меоварад",
+	"imagemap_no_image": "Error: бояд дар сатри аввал як аксро мушаххас кунед",
+	"imagemap_invalid_image": "Error: акс ғайримиҷоз аст ё вуҷуд надорад",
+	"imagemap_no_link": "Error: ҳеҷ пайванди миҷозе то интиҳои сатри $1 пайдо нашуд",
+	"imagemap_invalid_title": "Error: унвони ғайримиҷоз дар пайванди сатри $1",
+	"imagemap_missing_coord": "Error: теъдоди ҳамоҳангӣ дар сатри $1 барои шакл кофӣ нест",
+	"imagemap_unrecognised_shape": "Error: шакли ношинохта дар сатри $1, ҳар сатр бояд бо яке аз ин дастурот оғоз шавад: <code>default</code>, <code>rect</code>, <code>circle</code> ё <code>poly</code>",
+	"imagemap_invalid_coord": "Error: баробарии ғайримиҷоз дар сатри $1, бояд адад бошад",
+	"imagemap_invalid_desc": "Error: тавзеҳоти ғайримиҷоз, бояд яке аз ин маворид бошад: <code>$1</code>",
+	"imagemap_description": "Дар бораи ин акс"
+}

@@ -1,0 +1,24 @@
+{
+	"@metadata": {
+		"authors": [
+			"Chrumps",
+			"Rail",
+			"Railfail536",
+			"Sp5uhe",
+			"WTM",
+			"Woytecr"
+		]
+	},
+	"loginnotify-desc": "Powiadamiaj użytkowników o podejrzanych próbach logowania z nieznanych urządzeń i/lub adresów IP",
+	"echo-category-title-login-fail": "Nieudane próby logowania",
+	"echo-pref-tooltip-login-fail": "Powiadom mnie, jeśli wystąpią nieudane próby logowania na moje konto.",
+	"echo-category-title-login-success": "Logowanie z nieznanego urządzenia",
+	"echo-pref-tooltip-login-success": "Powiadom mnie, gdy ktoś zaloguje się na moje konto z nieznanego urządzenia i adresu IP.",
+	"loginnotify-primary-link": "Pomoc",
+	"notification-loginnotify-login-fail-email-subject": "{{PLURAL:$2|Nieudana próba|Nieudane próby}} zalogowania się na {{GRAMMAR:B.lp|{{SITENAME}}}} jako $1",
+	"notification-loginnotify-login-success-email-subject": "Zalogowano się na {{GRAMMAR:B.lp|{{SITENAME}}}} jako $1 z urządzenia, które nie było ostatnio do tego celu używane",
+	"notification-header-login-success": "Ktoś (prawdopodobnie Ty) ostatnio zalogował się na Twoje konto z nowego urządzenia. Jeżeli to był{{GENDER:$1|e|a}}ś Ty, możesz zignorować tę wiadomość. Jeżeli to nie Ty, zalecana jest zmiana hasła i przejrzenie aktywności na koncie.",
+	"notification-new-bundled-header-login-fail": "{{PLURAL:$1|Nastąpiła '''nieudana próba'''|Nastąpiły '''$1 nieudane próby'''|Nastąpiło '''$1 nieudanych prób'''}} zalogowania się na Twoje konto z innego urządzenia niż to, z którego logowano się do tej pory. Jeżeli to nie byłeś ty, upewnij się, że masz silne hasło.",
+	"notification-known-header-login-fail": "{{PLURAL:$1|Nastąpiła '''nieudana próba'''|Nastąpiły '''$1 nieudane próby'''|Nastąpiło '''$1 nieudanych prób'''}} zalogowania się na Twoje konto od ostatniego udanego zalogowania. Jeżeli to nie byłeś ty, upewnij się, że masz silne hasło.",
+	"notification-new-unbundled-header-login-fail": "{{PLURAL:$1|Nastąpiła '''nieudana próba'''|Nastąpiły '''$1 nieudane próby'''|Nastąpiło '''$1 nieudanych prób'''}} zalogowania się na Twoje konto z innego urządzenia niż to, z którego logowano się do tej pory. Upewnij się, że masz silne hasło."
+}

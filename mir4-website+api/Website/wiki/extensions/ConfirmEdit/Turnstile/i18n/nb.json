@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"Jon Harald Søby"
+		]
+	},
+	"turnstile-desc": "Legger til støtte for Cloudfare Turnstile i ConfirmEdit",
+	"turnstile-edit": "Løs følgende captcha for å beskytte wikien mot automatisk spam:",
+	"turnstile-addurl": "Redigeringen din inneholder nye eksterne lenker. Løs følgende captcha for å beskytte wikien mot automatisk spam:",
+	"turnstile-badlogin": "Løs følgende captcha for å beskytte wikien mot automatisk passordgjetting:",
+	"turnstile-createaccount": "Løs følgende captcha for å beskytte wikien mot automatisk kontooppretting:",
+	"turnstile-createaccount-fail": "Det ser ut som at du ikke klarte CAPTCHA-en.",
+	"turnstile-create": "Løs følgende captcha for å beskytte wikien mot automatisk sideoppretting:",
+	"turnstile-help": "Løs en Turnstile-utfordring og returner responsverdien som captchaWord."
+}

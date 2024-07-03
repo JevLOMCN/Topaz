@@ -1,0 +1,19 @@
+{
+	"@metadata": {
+		"authors": [
+			"Eirik",
+			"Harald Khan",
+			"Nghtwlkr",
+			"Njardarlogar"
+		]
+	},
+	"gadgets-desc": "Lèt brukarane velje eigendefinerte [[Special:Gadgets|CSS- og JavaScript-verktøy]]  i [[Special:Preferences#mw-prefsection-gadgets|innstillingane sine]].",
+	"prefs-gadgets": "Tilleggsfunksjonar",
+	"gadgets-prefstext": "Under finn du ei liste over tilleggsfunksjonar som du kan slå på på kontoen din. Desse tilleggsfunksjonane er for det meste baserte på JavaScript, så JavaScript må vere slått på i nettlesaren din for at dei skal verke. Merk at desse tilleggsfunksjonane ikkje har nokon effekt på denne innstillingssida.\n\nMerk også at tilleggsfunksjonane ikkje er ein del av MediaWiki-programvara, og at dei vanlegvis er utvikla og vedlikehaldne av brukarar på din lokale wiki. Lokale administratorar kan endre dei tilgjengelege tilleggsfunksjonane ved å endre [[MediaWiki:Gadgets-definition|definisjonane]] og [[Special:Gadgets|skildringane]].",
+	"special-gadgets": "Tilleggsfunksjonar",
+	"gadgets-title": "Tilleggsfunksjonar",
+	"gadgets-pagetext": "Under finn du ei liste over tilleggsfunksjonar som brukarane kan slå på på [[Special:Preferences#mw-prefsection-gadgets|innstillingane]] sine, som oppgjevne i [[MediaWiki:Gadgets-definition|definisjonane]].\nDette oversynet gjev enkel tilgang til systemmeldingssidene som inneheld skildringa og koden til kvar enkelt tilleggsfunksjon.",
+	"gadgets-uses": "Brukar",
+	"gadgets-export": "Eksporter",
+	"gadgets-export-download": "Last ned"
+}

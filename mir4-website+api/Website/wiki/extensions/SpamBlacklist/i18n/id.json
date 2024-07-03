@@ -1,0 +1,28 @@
+{
+	"@metadata": {
+		"authors": [
+			"Agam Riyandana",
+			"Daud I.F. Argana",
+			"Farras",
+			"Gombang",
+			"Hidayatsrf",
+			"IvanLanin",
+			"Meursault2004",
+			"Rachmat04",
+			"Veracious"
+		]
+	},
+	"spam-blacklist": " #<!-- biarkan baris ini seperti adanya --> <pre>\n# URL eksternal yang cocok dengan daftar berikut akan diblokir jika ditambahkan pada suatu halaman.\n# Daftar ini hanya berpengaruh pada wiki ini; rujuklah juga daftar hitam global.\n# Untuk dokumentasi, lihat https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:SpamBlacklist\n#\n# Sintaksnya adalah sebagai berikut:\n#   * Semua yang diawali dengan karakter \"#\" hingga akhir baris adalah komentar\n#   * Semua baris yang tidak kosong adalah fragmen regex yang hanya akan dicocokkan dengan nama host di dalam URL\n\n #</pre> <!-- biarkan baris ini seperti adanya -->",
+	"spam-whitelist": " #<!-- biarkan baris ini seperti adanya --> <pre>\n # URL eksternal yang cocok dengan daftar berikut *tidak* akan diblokir walaupun\n# pasti akan diblokir oleh entri pada daftar hitam\n#\n# Sintaksnya adalah sebagai berikut:\n#   * Semua yang diawali dengan karakter \"#\" hingga akhir baris adalah komentar\n#   * Semua baris yang tidak kosong adalah fragmen regex yang hanya akan dicocokkan dengan nama host di dalam URL\n\n #</pre> <!-- biarkan baris ini seperti adanya -->",
+	"email-blacklist": " #<!-- biarkan baris ini seperti adanya --> <pre>\n# Alamat surel yang cocok dengan daftar berikut akan diblokir dari mendaftar atau mengirim surel.\n# Daftar ini hanya berpengaruh pada wiki ini; rujuklah juga daftar hitam global.\n# Untuk dokumentasi, lihat https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:SpamBlacklist\n#\n# Sintaksnya adalah sebagai berikut:\n#   * Semua yang diawali dengan karakter \"#\" hingga akhir baris adalah komentar\n#   * Semua baris yang tidak kosong adalah fragmen regex yang hanya akan dicocokkan dengan nama host di dalam alamat surel\n\n #</pre> <!-- biarkan baris ini seperti adanya -->",
+	"email-whitelist": " #<!-- biarkan baris ini seperti adanya --> <pre>\n# Alamat surel yang cocok dengan daftar berikut *tidak* akan diblokir walaupun\n# seharusnya diblokir oleh entri pada daftar hitam\n#\n# Sintaksnya adalah sebagai berikut:\n#   * Semua yang diawali dengan karakter \"#\" hingga akhir baris adalah komentar\n#   * Semua baris yang tidak kosong adalah fragmen regex yang hanya akan dicocokkan dengan nama host di dalam alamat surel\n\n #</pre> <!-- biarkan baris ini seperti adanya -->",
+	"spam-blacklisted-email": "Alamat surel dilarang",
+	"spam-blacklisted-email-text": "Alamat surel Anda sedang dilarang mengirim surel kepada pengguna lain.",
+	"spam-blacklisted-email-signup": "Alamat surel yang dimasukkan saat ini sedang tidak boleh digunakan.",
+	"spam-invalid-lines": "{{PLURAL:$1|Baris|Baris-baris}} daftar hitam spam berikut adalah {{PLURAL:$1|ekspresi|ekspresi}} regular yang tak valid dan {{PLURAL:$1|perlu|perlu}} dikoreksi sebelum disimpan:",
+	"spam-blacklist-desc": "Alat anti-spam berbasis regex memungkinkan untuk memblokir URL daftar di halaman dan alamat email untuk pengguna terdaftar",
+	"log-name-spamblacklist": "Log daftar hitam spam",
+	"logentry-spamblacklist-hit": "{{GENDER:$2|$1}} menyebabkan daftar blokir spam mencapai $3 ketika mencoba menambahkan $4.",
+	"right-spamblacklistlog": "Lihat log daftar hitam spam",
+	"action-spamblacklistlog": "melihat log daftar hitam spam"
+}

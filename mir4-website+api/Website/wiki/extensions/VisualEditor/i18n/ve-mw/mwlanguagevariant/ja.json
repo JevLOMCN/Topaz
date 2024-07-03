@@ -1,0 +1,32 @@
+{
+	"@metadata": {
+		"authors": [
+			"Aefgh39622",
+			"Delim",
+			"Hinaloe",
+			"Omotecho",
+			"Otokoume"
+		]
+	},
+	"visualeditor-mwlanguagevariant-name": "言語名: $1",
+	"visualeditor-mwlanguagevariant-oneway": "一方向変換規則：$1",
+	"visualeditor-mwlanguagevariant-twoway": "言語変換規則：$1",
+	"visualeditor-mwlanguagevariantcontextitem-flag-describe": "この規則は明示されます。",
+	"visualeditor-mwlanguagevariantcontextitem-flag-hidden": "この規則は表示されません。",
+	"visualeditor-mwlanguagevariantcontextitem-flag-title": "この規則はページ題名に影響します。",
+	"visualeditor-mwlanguagevariantcontextitem-rule-code-label": "言語コード",
+	"visualeditor-mwlanguagevariantcontextitem-rule-invalid-language-label": "<無効>",
+	"visualeditor-mwlanguagevariantcontextitem-rule-name-label": "言語",
+	"visualeditor-mwlanguagevariantcontextitem-rule-text-from-label": "ソース",
+	"visualeditor-mwlanguagevariantcontextitem-rule-text-twoway-label": "テキスト",
+	"visualeditor-mwlanguagevariantcontextitem-title-name": "言語名",
+	"visualeditor-mwlanguagevariantcontextitem-title-oneway": "一方向変換規則",
+	"visualeditor-mwlanguagevariantcontextitem-title-twoway": "言語変換規則",
+	"visualeditor-mwlanguagevariantinspector-filter-langs-label": "言語",
+	"visualeditor-mwlanguagevariantinspector-filter-langs-placeholder": "言語コード",
+	"visualeditor-mwlanguagevariantinspector-filter-text-label": "内容",
+	"visualeditor-mwlanguagevariantinspector-oneway-from-text-placeholder": "ソーステキスト",
+	"visualeditor-mwlanguagevariantinspector-title-name": "言語名",
+	"visualeditor-mwlanguagevariantinspector-title-oneway": "一方向変換規則",
+	"visualeditor-mwlanguagevariantinspector-title-twoway": "言語変換規則"
+}

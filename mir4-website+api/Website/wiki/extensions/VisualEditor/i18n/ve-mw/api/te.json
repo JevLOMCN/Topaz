@@ -1,0 +1,17 @@
+{
+	"@metadata": {
+		"authors": [
+			"Chaduvari"
+		]
+	},
+	"apihelp-visualeditor-param-editintro": "గమనికలకు చేర్చేందుకు ఉపోద్ఘాతాన్ని సవరించండి.",
+	"apihelp-visualeditoredit-param-minor": "చిన్న దిద్దుబాటుకు పెట్టే ఫ్లాగు.",
+	"apihelp-visualeditoredit-param-paction": "తీసుకోవాల్సిన చర్య",
+	"apihelp-visualeditoredit-param-page": "చర్యలు తీసుకోవాల్సిన పేజీ.",
+	"apihelp-visualeditoredit-param-section": "చర్యలు తీసుకోవాల్సిన విభాగం.",
+	"apihelp-visualeditoredit-param-sectiontitle": "కొత్త విభాగపు శీర్షిక.",
+	"apihelp-visualeditoredit-param-starttimestamp": "భద్రపరచేటపుడు దీన్ని, పేజీ లోడు చేసినప్పటి టైమ్‌స్టాంపుకు సెట్ చెయ్యి. దిద్దుబాటు ఘర్ష్జణలను కనుక్కునేందుకు వాడుతారు.",
+	"apihelp-visualeditoredit-param-summary": "దిద్దుబాటు సారాంశం.",
+	"apihelp-visualeditoredit-param-tags": "దిద్దుబాటుకు పెట్టే ట్యాగులను మార్చు.",
+	"apihelp-visualeditoredit-summary": "HTML5 పేజీని MediaWiki లో భద్రపరచండి (Parsoid సేవ వికీటెక్స్టుకు మారుస్తుంది)."
+}

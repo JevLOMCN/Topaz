@@ -1,0 +1,78 @@
+// stylelint-disable selector-max-id
+@import '../../minerva.less/minerva.variables.less';
+@import '../../minerva.less/minerva.mixins.less';
+@import 'mediawiki.mixins.less';
+
+.mw-mf-special-page {
+	#bodyContent.content {
+		max-width: none;
+		margin: 0;
+		width: auto;
+
+		ul {
+			list-style: none;
+			padding: 0;
+		}
+
+		// override core .content li rule
+		.page-header-bar li {
+			margin-bottom: 0;
+		}
+
+		.mw-mf-history-wrap-link {
+			@media all and ( min-width: @width-breakpoint-desktop ) {
+				margin: 0;
+				max-width: none;
+			}
+		}
+	}
+}
+
+.ns-special {
+	.mw-body .mw-first-heading {
+		font-size: 1.5em;
+		font-weight: bold;
+	}
+
+	.heading-holder {
+		padding-top: 26px;
+		// prevents margin collapsing. i.e. makes .heading-holder height match
+		// the bottom margin on .page-header, a child element.
+		overflow: auto;
+	}
+
+	h1,
+	h2 {
+		// Important given we have no idea which rules special pages are enforcing
+		font-family: @font-family-base !important;
+	}
+
+	.content-header {
+		h1,
+		h2 {
+			text-align: center;
+		}
+
+		.mw-mf-user::before {
+			opacity: @opacity-icon-subtle;
+		}
+	}
+}
+
+// Used by MobileSpecialPageFeed.php in MobileFrontend
+.truncated-text {
+	.text-overflow( @visible: false );
+
+	// FIXME: this works only in WebKit
+	&.multi-line {
+		white-space: normal;
+		display: -webkit-box;
+		-webkit-box-orient: vertical;
+	}
+
+	&.two-line {
+		-webkit-line-clamp: 2;
+		// fallback for non-WebKit
+		max-height: 2.6em;
+	}
+}

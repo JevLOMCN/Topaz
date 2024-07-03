@@ -1,0 +1,16 @@
+{
+	"@metadata": {
+		"authors": [
+			"Jmarchn",
+			"Paucabot",
+			"Ssola"
+		]
+	},
+	"apihelp-flowthank-summary": "Envia una notificació pública d'agraïment per un comentari de Flow.",
+	"apihelp-flowthank-param-postid": "La UUID de l'apunt a agrair.",
+	"apihelp-flowthank-example-1": "Enviar un agraïment pel comentari amb <kbd>UUID xyz789</kbd>",
+	"apihelp-thank-summary": "Envia una notificació d'agraïment a un editor.",
+	"apihelp-thank-param-rev": "Identificador de revisió per donar l'agraïment a algú. S'ha de proporcionar aquest o el 'log' (haver iniciat la sessió).",
+	"apihelp-thank-param-source": "Un breu comentari que descrigui l'origen de la petició, per exemple <kbd>diff</kbd> o <kbd>historial</kbd>.",
+	"apihelp-thank-example-1": "Doneu les gràcies per la revisió <kbd>ID 456</kbd>, i que la font sigui un diff de la pàgina"
+}

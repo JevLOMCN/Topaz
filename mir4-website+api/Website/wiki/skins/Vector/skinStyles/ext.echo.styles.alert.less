@@ -1,0 +1,32 @@
+@import 'mediawiki.skin.variables.less';
+@import '../resources/skins.vector.styles/variables.less';
+
+/** Mixin for collapsing the Echo new messages alert */
+.echo-alert-collapse() {
+	font-size: 12px;
+	position: absolute;
+	top: 100%;
+	right: 0;
+}
+
+.vector-user-links {
+	.mw-echo-alert {
+		padding: 0.2em 0.5em;
+		white-space: nowrap;
+		// Prevent alert message from pushing user links off screen
+		max-width: 270px;
+		overflow: hidden;
+		text-overflow: ellipsis;
+
+		@media ( max-width: @max-width-breakpoint-desktop ) {
+			.echo-alert-collapse();
+		}
+	}
+}
+
+// If the user link is wide, always collapse
+.vector-user-links-wide .vector-menu-content-list {
+	.mw-echo-alert {
+		.echo-alert-collapse();
+	}
+}

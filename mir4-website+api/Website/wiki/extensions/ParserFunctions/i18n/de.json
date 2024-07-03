@@ -1,0 +1,36 @@
+{
+	"@metadata": {
+		"authors": [
+			"FriedhelmW",
+			"Kghbln",
+			"LWChris",
+			"Metalhead64",
+			"PerfektesChaos",
+			"Purodha",
+			"Raimond Spekking",
+			"Rentenirer",
+			"Rillke"
+		]
+	},
+	"pfunc_desc": "Erweitert den Parser um logische Funktionen",
+	"pfunc_time_error": "Fehler: Ungültige Zeitangabe",
+	"pfunc_time_too_long": "Fehler: Zu viele #time-Aufrufe",
+	"pfunc_time_too_big": "Fehler: #time unterstützt nur Jahre bis 9999",
+	"pfunc_time_too_small": "Fehler: #time unterstützt nur Jahre ab 0.",
+	"pfunc_rel2abs_invalid_depth": "Fehler: Ungültige Pfadtiefe: „$1“ (Zugriff auf einen Knotenpunkt oberhalb des Hauptknotenpunktes ist empfohlen)",
+	"pfunc_expr_stack_exhausted": "Expression-Fehler: Stacküberlauf",
+	"pfunc_expr_unexpected_number": "Expression-Fehler: Unerwartete Zahl",
+	"pfunc_expr_preg_match_failure": "Expression-Fehler: Unerwartete „preg_match“-Fehlfunktion",
+	"pfunc_expr_unrecognised_word": "Fehler im Ausdruck: Unerkanntes Wort „$1“",
+	"pfunc_expr_unexpected_operator": "Fehler im Ausdruck: Unerwarteter Operator $1",
+	"pfunc_expr_missing_operand": "Fehler im Ausdruck: Fehlender Operand für $1",
+	"pfunc_expr_unexpected_closing_bracket": "Expression-Fehler: Unerwartete schließende Klammer",
+	"pfunc_expr_unrecognised_punctuation": "Fehler im Ausdruck: Nicht erkanntes Satzzeichen „$1“",
+	"pfunc_expr_unclosed_bracket": "Expression-Fehler: Nicht geschlossene Klammer",
+	"pfunc_expr_division_by_zero": "Division durch Null",
+	"pfunc_expr_invalid_argument": "Ungültiges Argument für $1: kleiner als -1 oder größer als 1.",
+	"pfunc_expr_invalid_argument_ln": "Ungültiges Argument für ln: kleiner oder gleich 0.",
+	"pfunc_expr_unknown_error": "Expression-Fehler: Unbekannter Fehler ($1)",
+	"pfunc_expr_not_a_number": "In $1: Ergebnis ist keine Zahl",
+	"pfunc_string_too_long": "Fehler: Zeichenkette überschreitet Zeichenlimit von $1"
+}

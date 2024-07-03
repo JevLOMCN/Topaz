@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Hamilton Abreu"
+		]
+	},
+	"apihelp-query+mathwbextracts-example-1": "Pede um resumo de elementos Wikibase matemáticos.",
+	"apihelp-query+mathwbextracts-summary": "Devolve um resumo de um elemento Wikibase matemático em HTML.",
+	"apihelp-query+mathwbextracts-param-qid": "O QID do elemento Wikibase que foi pedido.",
+	"apihelp-query+mathwbextracts-param-uselang": "A língua que deve ser pedida para o elemento Wikibase. O valor por omissão é o inglês."
+}

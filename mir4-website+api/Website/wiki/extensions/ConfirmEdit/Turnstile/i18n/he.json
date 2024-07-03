@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"Amire80"
+		]
+	},
+	"turnstile-desc": "הוספת תמיכה ב־Cloudflare Turnstile ל־ConfirmEdit",
+	"turnstile-edit": "כדי להגן על הוויקי מפני עריכות זבל אוטומטיות, אנו מבקשים ממך לפתור את ה־captcha הבאה:",
+	"turnstile-addurl": "העריכה שלך כוללת קישורים חיצוניים חדשים. כדי להגן על הוויקי מפני עריכות זבל אוטומטיות, אנו מבקשים ממך לפתור את ה־captcha הבאה:",
+	"turnstile-badlogin": "כדי להגן על הוויקי מפני פיצוח סיסמאות אוטומטי, אנו מבקשים ממך לפתור את ה־captcha הבאה:",
+	"turnstile-createaccount": "כדי להגן על הוויקי מפני יצירת חשבון אוטומטית, אנחנו מבקשים ממך לפתור את ה־captcha הבאה:",
+	"turnstile-createaccount-fail": "נראה שלא פתרת את ה־CAPTCHA.",
+	"turnstile-create": "כדי להגן על הוויקי מפני יצירת דפים אוטומטית, אנו מבקשים ממך לפתור את ה־captcha הבאה:",
+	"turnstile-help": "נא לפתור אתגר Turnstile ולהחזיר את ערך התגובה כ־captchaWord."
+}

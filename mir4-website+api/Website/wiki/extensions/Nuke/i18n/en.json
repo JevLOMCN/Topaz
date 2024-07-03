@@ -1,0 +1,34 @@
+{
+	"@metadata": {
+		"authors": [
+			"Brion Vibber",
+			"Jeroen De Dauw"
+		]
+	},
+	"nuke": "Mass delete",
+	"action-nuke": "nuke pages",
+	"nuke-desc": "Gives administrators the ability to [[Special:Nuke|mass delete]] pages",
+	"nuke-nopages": "No new pages by [[Special:Contributions/$1|{{GENDER:$1|$1}}]] in recent changes.",
+	"nuke-list": "The following pages were recently created by [[Special:Contributions/$1|{{GENDER:$1|$1}}]];\nput in a comment and hit the button to delete them.",
+	"nuke-list-multiple": "The following pages were recently created;\nput in a comment and hit the button to delete them.",
+	"nuke-defaultreason": "Mass deletion of pages added by [[Special:Contributions/$1|{{GENDER:$1|$1}}]]",
+	"nuke-multiplepeople": "Mass deletion of recently added pages",
+	"nuke-tools": "This tool allows for mass deletions of pages recently added by a given user or an IP address.\nInput the username or IP address to get a list of pages to delete, or leave blank for all users.",
+	"nuke-submit-user": "List pages",
+	"nuke-submit-delete": "Delete selected",
+	"right-nuke": "Mass delete pages",
+	"nuke-userorip": "Username, IP address or blank:",
+	"nuke-maxpages": "Maximum number of pages:",
+	"nuke-editby": "Created by [[Special:Contributions/$1|{{GENDER:$1|$1}}]]",
+	"nuke-deleted": "Page '''$1''' has been deleted.",
+	"nuke-deletion-queued": "Page '''$1''' has been queued for deletion.",
+	"nuke-not-deleted": "Page [[:$1]] '''could not''' be deleted.",
+	"nuke-delete-more": "[[Special:Nuke|Delete more pages]]",
+	"nuke-pattern": "SQL LIKE pattern (e.g. %) for the page name:",
+	"nuke-nopages-global": "There are no page titles matching your search.",
+	"nuke-viewchanges": "view changes",
+	"nuke-namespace": "Limit to namespace:",
+	"nuke-linkoncontribs": "mass delete",
+	"nuke-linkoncontribs-text": "Mass delete pages where {{GENDER:$1|this user}} is the only author",
+	"nuke-confirm": "You are about to delete {{PLURAL:$1|one page|$1 pages}}. Are you sure that you want to delete?"
+}

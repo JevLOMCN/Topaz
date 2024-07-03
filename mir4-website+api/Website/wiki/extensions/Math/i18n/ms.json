@@ -1,0 +1,39 @@
+{
+	"@metadata": {
+		"authors": [
+			"Anakmalaysia",
+			"Aviator",
+			"CoolCityCat",
+			"Hakimi97",
+			"Jeluang Terluang",
+			"Kurniasan",
+			"Macofe",
+			"Tofeiku"
+		]
+	},
+	"math-desc": "Mengolah rumus-rumus matematik antara teg-teg <code>&lt;math&gt;</code> ... <code>&lt;/math&gt;</code>",
+	"popups-settings-option-math-tooltip": "Terangkan rumus matematik apabila menggerakkan kursor.",
+	"math-visualeditor-mwlatexcontextitem-quickedit": "Sunting pantas",
+	"math-visualeditor-mwlatexinspector-display": "Paparan",
+	"math-visualeditor-mwlatexinspector-display-block": "Sekat",
+	"math-visualeditor-mwlatexinspector-display-default": "Asali",
+	"math-visualeditor-mwlatexinspector-display-inline": "Inline",
+	"math-visualeditor-mwlatexinspector-id": "ID pautan (pilihan)",
+	"math-visualeditor-mwlatexinspector-qid": "ID Wikibase (dengan awalan Q)",
+	"math_failure": "Gagal menghurai",
+	"math_invalidjson": "Respons pelayan $1 ialah JSON yang tidak sah.",
+	"math_invalidresponse": "$1: Respons tidak sah (\"$3\") dari pelayan \"$2\":",
+	"math_invalidxml": "MathML atau SVG ialah XML yang tidak sah.",
+	"math_syntax_error": "ralat sintaks",
+	"math_unknown_error": "ralat yang tidak dikenali",
+	"math_unknown_function": "fungsi '$1' yang tidak dikenali",
+	"mw-math-latexml": "LaTeXML (percubaan; menggunakan MathML)",
+	"mw-math-mathml": "MathML dengan sandaran SVG atau PNG (disyorkan untuk pelayar dan alat-alat aksesibiliti moden)",
+	"mw-math-native": "MathML (percubaan; tiada imej)",
+	"mw-math-source": "Sumber LaTeX (untuk pelayar teks)",
+	"prefs-math": "Matematik",
+	"mathstatus": "Status Math",
+	"math-wikibase-header": "Maklumat Item Matematik",
+	"math-wikibase-special-form-header": "Nyatakan secara khusus nama formula:",
+	"math-wikibase-special-form-button": "Meminta Maklumat"
+}

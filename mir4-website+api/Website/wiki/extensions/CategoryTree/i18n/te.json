@@ -1,0 +1,41 @@
+{
+	"@metadata": {
+		"authors": [
+			"C.Chandra Kanth Rao",
+			"Chaduvari",
+			"Kiranmayee",
+			"Mpradeep",
+			"Ravichandra",
+			"Veeven",
+			"వైజాసత్య"
+		]
+	},
+	"categorytree": "వర్గవృక్షం",
+	"categorytree-portlet": "వర్గాలు",
+	"categorytree-legend": "వర్గ వృక్షాన్ని చూపించు",
+	"categorytree-desc": "వికీ యొక్క [[Special:CategoryTree|వర్గ వృక్షాన్ని]] చూపించడానికి AJAX ఆధారిత పరికరం",
+	"categorytree-header": "ఒక వర్గం లోని అంశాలను వృక్షం లాగా చూసేందుకు ఆ వర్గం పేరును ఇక్కడ ఇవ్వండి. (జావాస్క్రిప్టు ఆవశ్యకం.)",
+	"categorytree-category": "వర్గం:",
+	"categorytree-go": "వృక్షాన్ని చూపించు",
+	"categorytree-parents": "మాతృవర్గాలు",
+	"categorytree-mode-label": "విధం:",
+	"categorytree-mode-categories": "వర్గాలు మాత్రమే",
+	"categorytree-mode-pages": "ఫైళ్ళను మినహాయించి మిగిలిన పేజీలు",
+	"categorytree-mode-all": "అన్ని పేజీలు",
+	"categorytree-collapse": "మూసివేయి",
+	"categorytree-expand": "విస్తరించు",
+	"categorytree-member-counts": "{{PLURAL:$1|1 ఉపవర్గం|$1 ఉపవర్గాలు}}, {{PLURAL:$2|1 పేజీ|$2 పేజీలూ}}, {{PLURAL:$3|1 ఫైలూ|$3 ఫైళ్ళూ}} ఉన్నాయి",
+	"categorytree-num-categories": "$1 వ",
+	"categorytree-num-pages": "$1 పే",
+	"categorytree-num-files": "$1 ద",
+	"categorytree-num-empty": "ఖాళీ",
+	"categorytree-load": "లోడు",
+	"categorytree-loading": "లోడవుతోంది...",
+	"categorytree-nothing-found": "ఏమీ లేవు",
+	"categorytree-no-subcategories": "ఉపవర్గాలు లేవు",
+	"categorytree-no-parent-categories": "మాతృవర్గం లేదు",
+	"categorytree-no-pages": "పేజీలు గానీ, ఉపవర్గాలు గానీ లేవు",
+	"categorytree-not-found": "<i>$1</i> అనే వర్గం కనపడలేదు",
+	"categorytree-error": "డేటా లోడు చెయ్యడంలో లోపం దొర్లింది",
+	"categorytree-retry": "కాస్త ఆగి మళ్ళీ ప్రయత్నించండి."
+}

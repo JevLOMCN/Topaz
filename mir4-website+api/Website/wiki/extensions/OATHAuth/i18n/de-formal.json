@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Kghbln"
+		]
+	},
+	"oathauth-recoverycodes": "Die folgende Liste enthält einmalig verwendbare geheime Schlüssel. Diese geheimen Schlüssel können jeweils nur einmal verwendet werden und sind für Notfälle vorgesehen. Bitte notieren Sie sie und verwahre Sie sie an einem sicheren Ort. Sofern Ihnen Ihr Mobiltelefon abhanden kommt, werden diese geheimen Schlüssel die einzige Möglichkeit sein, Ihr Konto zu retten.\n\n'''Diese geheimen Schlüssel werden Ihnen niemals wieder angezeigt werden'''.",
+	"oathauth-step1": "Schritt 1: Laden Sie ein Programm zur Zwei-Faktor-Authentifizierung herunter",
+	"oathauth-step1-test": "Laden Sie ein Programm zur Zwei-Faktor-Authentifizierung herunter. Das kann eine mobile Anwendung (wie bspw. Google Authenticator) oder eine Desktop-Anwendung sein.",
+	"oathauth-step2": "Schritt 2: Scannen Sie den QR-Code",
+	"oathauth-step2alt": "Oder geben Sie die geheimen Daten manuell ein:",
+	"oathauth-step3": "Schritt 3: Notieren Sie die geheimen Schlüssel",
+	"oathauth-entertoken": "Geben Sie zur Verifizierung einen Code von Ihrem Authentifizierungsgerät ein:"
+}

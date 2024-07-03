@@ -1,0 +1,18 @@
+{
+	"@metadata": {
+		"authors": [
+			"Ibrahim",
+			"ToJack",
+			"Vashgird"
+		]
+	},
+	"cite-desc": "Барчасбҳои <code>&lt;ref[ name=id]&gt;</code> ва <code>&lt;references/&gt;</code>  барои ёд кардан, изофа мекунад",
+	"cite_error": "Хатои ёдкард: $1",
+	"cite_error_ref_numeric_key": "Барчасби <code>&lt;ref&gt;</code> ғайримиҷоз; ном наметавонад як адад бошад, унвони возеҳтареро истифода кунед",
+	"cite_error_ref_no_key": "Барчасби <code>&lt;ref&gt;</code> ғайримиҷоз; ёдкардҳо бидуни мӯҳтаво бояд ном дошта бошанд",
+	"cite_error_ref_too_many_keys": "Барчасби  <code>&lt;ref&gt;</code> ғайримиҷоз; номҳои ғайримиҷоз ё беш аз андоза",
+	"cite_error_ref_no_input": "Барчасби  <code>&lt;ref&gt;</code> ғайримуҷоз; ёдкардҳои бидуни ном бояд муҳтаво дошта бошанд",
+	"cite_error_references_invalid_parameters": "Барчасби <code>&lt;references&gt;</code> ғайримиҷоз; истифода аз параметр миҷоз аст, аз  <code>&lt;references /&gt;</code> истифода кунед",
+	"cite_error_references_no_backlink_label": "Барчасбҳои пайванд ба интиҳо расид, мавориди ҷадидро дар пайғоми [[MediaWiki:Cite references link many format backlink labels]] истифода кунед",
+	"cite_error_references_no_text": "Барчасби  <code>&lt;ref&gt;</code> ғайримиҷоз; матне барои ёдкардҳо бо номи <code>$1</code> ворид нашудааст"
+}

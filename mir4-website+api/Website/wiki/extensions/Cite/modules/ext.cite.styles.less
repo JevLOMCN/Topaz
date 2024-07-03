@@ -1,0 +1,101 @@
+@import 'mediawiki.skin.variables.less';
+@import 'mediawiki.mixins.less';
+
+.mw-cite-backlink,
+.cite-accessibility-label {
+	.user-select( none );
+}
+
+.mw-references-columns {
+	.column-width( 30em );
+	margin-top: 0.3em;
+
+	/* Lines first column up nicely. */
+	.mw-parser-output & .references {
+		margin-top: 0;
+	}
+
+	/* Avoid elements from breaking between columns */
+	li {
+		.column-break-inside-avoid();
+	}
+}
+
+ol.references {
+	/**
+	 * Resetting *any* counter on an <ol> element messes up the built-in numbering in Firefox.
+	 * Explicitly resetting the built-in "list-item" counter fixes this.
+	 *
+	 * We have 2 counters for Parsoid HTML for different functionality.
+	 * Make sure both are reset!
+	 **/
+	counter-reset: mw-ref-extends-parent mw-references list-item;
+
+	> li {
+		/**
+		 * We have 2 counters for Parsoid HTML for different functionality.
+		 * Make sure both are incremented!
+		 **/
+		counter-increment: mw-ref-extends-parent mw-references;
+		counter-reset: mw-ref-extends-child;
+	}
+
+	.mw-extended-references {
+		list-style: none;
+		margin-left: 2em;
+	}
+}
+
+.mw-extended-references > li::before {
+	counter-increment: mw-ref-extends-child;
+	content: counter( mw-ref-extends-parent, decimal ) '.' counter( mw-ref-extends-child, decimal ) '. ';
+}
+
+sup.reference {
+	/* Isolation to fix references in case of RTL words at the end of a reference */
+	unicode-bidi: -moz-isolate;
+	unicode-bidi: -webkit-isolate;
+	unicode-bidi: isolate;
+
+	/* Don't allow a reference that includes a group name
+	to break in the end of the line */
+	white-space: nowrap;
+
+	/* Do not inherit bold or italic */
+	font-weight: normal;
+	font-style: normal;
+}
+
+/* Highlight clicked reference in blue to help navigation */
+ol.references li:target,
+sup.reference:target {
+	background-color: @background-color-progressive-subtle;
+}
+
+/* Make cite errors "strong" */
+.mw-ext-cite-error {
+	font-weight: bold;
+	/* For the case that the error is embedded in an element with a different direction */
+	unicode-bidi: embed;
+
+	code {
+		/* As code is inheriting `#f8f9fa` as background color from `code`,
+		   we need to increase contrast, by setting it to `transparent`. See T247903. */
+		background-color: transparent;
+		color: inherit;
+		/* Reduce inherited `padding` to make code fit in better in Resources list. */
+		padding: 1px 2px;
+	}
+}
+
+/* @noflip */
+.mw-cite-dir-ltr .reference-text {
+	direction: ltr;
+	unicode-bidi: embed;
+}
+
+/* @noflip */
+.mw-cite-dir-rtl .reference-text {
+	direction: rtl;
+	unicode-bidi: embed;
+}

@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Tacsipacsi"
+		]
+	},
+	"apihelp-categorytree-summary": "A CategoryTree kiterjesztés belső modulja.",
+	"apihelp-categorytree-param-category": "Cím a kategórianévtérben, az előtag figyelmen kívül lesz hagyva, ha meg van adva.",
+	"apihelp-categorytree-param-options": "Opciók a CategoryTree konstruktora számára JSON-objektumként. A <var>depth</var> opció alapértelmezett értéke <kbd>1</kbd>.",
+	"apierror-categorytree-invalidjson": "Az opcióknak érvényes JSON-objektumnak kell lenniük."
+}

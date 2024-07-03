@@ -1,0 +1,29 @@
+{
+	"@metadata": {
+		"authors": [
+			"ChrisPtDe"
+		]
+	},
+	"nuke": "Suprèssion en massa",
+	"action-nuke": "suprimar des pâges en massa",
+	"nuke-desc": "Balye la possibilitât ux administrators de [[Special:Nuke|suprimar en massa]] des pâges.",
+	"nuke-nopages": "Niona pâge novèla per [[Special:Contributions/$1|{{GENDER:$1|$1}}]] dedens los dèrriérs changements.",
+	"nuke-list": "Dês pou cetes pâges sont étâyes fêtes per [[Special:Contributions/$1|{{GENDER:$1|$1}}]] ;\nbuchiéd un comentèro et pués clicâd sur lo boton por les suprimar.",
+	"nuke-list-multiple": "Cetes pâges ont étâ fêtes dèrriérement ;\nbuchiéd un comentèro et pués clicâd sur lo boton por les suprimar.",
+	"nuke-defaultreason": "Suprèssion en massa de les pâges apondues per [[Special:Contributions/$1|{{GENDER:$1|$1}}]]",
+	"nuke-multiplepeople": "Suprèssions en massa de les pâges apondues dèrriérement",
+	"nuke-tools": "Ceti outil pèrmèt les suprèssions en massa de les pâges apondues dèrriérement per un usanciér encartâ ou ben per una adrèce IP.\nBuchiér lo nom d’usanciér ou ben l’adrèce IP por avêr la lista de les pâges a suprimar, ou ben lèssiér blanc por tôs los usanciérs.",
+	"nuke-submit-user": "Validar",
+	"nuke-submit-delete": "Suprimar lo chouèx",
+	"right-nuke": "Suprimar des pâges en massa",
+	"nuke-userorip": "Nom d’usanciér, adrèce IP ou ben vouedo :",
+	"nuke-maxpages": "Nombro lo ples grant de pâges :",
+	"nuke-editby": "Fêt per [[Special:Contributions/$1|{{GENDER:$1|$1}}]]",
+	"nuke-deleted": "La pâge '''$1''' at étâ suprimâ.",
+	"nuke-not-deleted": "La pâge [[:$1]] '''pôt pas''' étre suprimâ.",
+	"nuke-delete-more": "[[Special:Nuke|Suprimar més de pâges]]",
+	"nuke-pattern": "Modèlo por lo nom de pâge :",
+	"nuke-nopages-global": "Y at gins de pâge novèla dedens los [[Special:RecentChanges|dèrriérs changements]].",
+	"nuke-viewchanges": "vêre los changements",
+	"nuke-namespace": "Sè limitar a cet’èspâço de noms :"
+}

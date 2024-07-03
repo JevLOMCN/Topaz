@@ -1,0 +1,26 @@
+{
+	"Enclose with nowiki": {
+		"wt2html": "<p data-parsoid='{\"dsr\":[0,69,0,0]}'><code class=\"mw-highlight mw-highlight-lang-text mw-content-ltr\" dir=\"ltr\" typeof=\"mw:Extension/syntaxhighlight mw:Transclusion\" about=\"#mwt2\" data-parsoid='{\"pi\":[[{\"k\":\"1\"},{\"k\":\"lang\",\"named\":true},{\"k\":\"inline\",\"named\":true}]],\"dsr\":[0,69,null,null]}' data-mw='{\"parts\":[{\"template\":{\"target\":{\"wt\":\"#tag:syntaxhighlight\",\"function\":\"tag\"},\"params\":{\"1\":{\"wt\":\"&lt;nowiki>foo&lt;/nowiki>\"},\"lang\":{\"wt\":\"\\\"text\\\"\"},\"inline\":{\"wt\":\"none\"}},\"i\":0}}]}'>&lt;nowiki>foo&lt;/nowiki></code></p>",
+		"html2html": "<p data-parsoid='{\"dsr\":[0,69,0,0]}'><code class=\"mw-highlight mw-highlight-lang-text mw-content-ltr\" dir=\"ltr\" typeof=\"mw:Extension/syntaxhighlight mw:Transclusion\" about=\"#mwt2\" data-parsoid='{\"pi\":[[{\"k\":\"1\"},{\"k\":\"lang\",\"named\":true},{\"k\":\"inline\",\"named\":true}]],\"dsr\":[0,69,null,null]}' data-mw='{\"parts\":[{\"template\":{\"target\":{\"wt\":\"#tag:syntaxhighlight\",\"function\":\"tag\"},\"params\":{\"1\":{\"wt\":\"&lt;nowiki>foo&lt;/nowiki>\"},\"lang\":{\"wt\":\"\\\"text\\\"\"},\"inline\":{\"wt\":\"none\"}},\"i\":0}}]}'>&lt;nowiki>foo&lt;/nowiki></code></p>"
+	},
+	"Inline attribute (inline code)": {
+		"wt2wt": "Text <source lang=\"javascript\" inline=\"\">var a;</source>.",
+		"selser [1]": "Text <source lang=\"javascript\" inline>var a;</source>.",
+		"selser [[4,0,4]]": "121y1t4<source lang=\"javascript\" inline>var a;</source>1ibg90y",
+		"selser [[0,0,2]]": "Text <source lang=\"javascript\" inline>var a;</source>yeuqlm.",
+		"selser [2]": "brhsc5\n\nText <source lang=\"javascript\" inline>var a;</source>.",
+		"selser [[0,0,4]]": "Text <source lang=\"javascript\" inline>var a;</source>4x62b6",
+		"selser [[2,0,0]]": "1mjitw8Text <source lang=\"javascript\" inline>var a;</source>.",
+		"selser [[0,0,3]]": "Text <source lang=\"javascript\" inline>var a;</source>",
+		"selser [[2,0,4]]": "uuwnfvText <source lang=\"javascript\" inline>var a;</source>qjkvx1",
+		"selser [[3,0,3]]": "<source lang=\"javascript\" inline>var a;</source>",
+		"selser [[4,0,0]]": "uouej0<source lang=\"javascript\" inline>var a;</source>.",
+		"selser [[3,0,0]]": "<source lang=\"javascript\" inline>var a;</source>.",
+		"selser [[4,0,3]]": "1wcoh54<source lang=\"javascript\" inline>var a;</source>",
+		"selser [[2,0,2]]": "11th7ozText <source lang=\"javascript\" inline>var a;</source>1c8ff9m.",
+		"selser [[2,0,3]]": "1cyv6rText <source lang=\"javascript\" inline>var a;</source>",
+		"selser [[4,0,2]]": "g6ytvp<source lang=\"javascript\" inline>var a;</source>10gwvyi.",
+		"selser [[3,0,2]]": "<source lang=\"javascript\" inline>var a;</source>kjtjv6.",
+		"selser [[3,0,4]]": "<source lang=\"javascript\" inline>var a;</source>zs6oqy"
+	}
+}

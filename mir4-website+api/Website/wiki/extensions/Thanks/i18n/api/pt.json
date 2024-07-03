@@ -1,0 +1,17 @@
+{
+	"@metadata": {
+		"authors": [
+			"Fúlvio",
+			"Hamilton Abreu",
+			"Vitorvicentevalente"
+		]
+	},
+	"apihelp-flowthank-summary": "Enviar notificação de agradecimento público por um comentário no Flow.",
+	"apihelp-flowthank-param-postid": "O UUID da mensagem a agradecer.",
+	"apihelp-flowthank-example-1": "Agradeça o comentário com o <kbd>UUID xyz789</kbd>",
+	"apihelp-thank-summary": "Enviar uma notificação de agradecimento a um editor.",
+	"apihelp-thank-param-rev": "Identificador da revisão a agradecer a alguém. Tem de ser fornecido este identificador, ou 'log'.",
+	"apihelp-thank-param-log": "Identificador do registo a agradecer a alguém. Tem de ser fornecido este identificador, ou 'rev'.",
+	"apihelp-thank-param-source": "Um texto breve que descreve a origem do pedido. Por exemplo, <kbd>diff</kbd> ou <kbd>history</kbd>.",
+	"apihelp-thank-example-1": "Enviar um agradecimento pela revisão <kbd>ID 456</kbd>, com uma página de diferenças como fonte"
+}

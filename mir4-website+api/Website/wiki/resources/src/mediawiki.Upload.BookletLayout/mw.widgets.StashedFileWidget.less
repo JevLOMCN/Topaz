@@ -1,0 +1,163 @@
+@import 'mediawiki.skin.variables.less';
+
+.mw-widgets-stashedFileWidget {
+	display: inline-block;
+	vertical-align: middle;
+	width: 100%;
+	max-width: 50em;
+	margin-right: 0.5em;
+
+	&:last-child {
+		margin-right: 0;
+	}
+
+	&.oo-ui-iconElement .mw-widgets-stashedFileWidget-info .mw-widgets-stashedFileWidget-label {
+		left: 2.875em;
+	}
+
+	&.oo-ui-indicatorElement .mw-widgets-stashedFileWidget-info .mw-widgets-stashedFileWidget-label {
+		right: 4.4625em;
+	}
+}
+
+.mw-widgets-stashedFileWidget-info {
+	height: 2.4em;
+	background-color: #fff;
+	border: @border-subtle;
+	border-radius: @border-radius-base;
+	width: 100%;
+	display: table-cell;
+	vertical-align: middle;
+	position: relative;
+	overflow: hidden;
+	box-sizing: border-box;
+
+	> .mw-widgets-stashedFileWidget-label {
+		line-height: 2.3em;
+		margin: 0;
+		overflow: hidden;
+		white-space: nowrap;
+		box-sizing: border-box;
+		text-overflow: ellipsis;
+		left: 0.5em;
+		right: 2.375em;
+		position: absolute;
+		top: 0;
+		bottom: 0;
+
+		> .mw-widgets-stashedFileWidget-fileName {
+			float: left;
+		}
+
+		> .mw-widgets-stashedFileWidget-fileType {
+			color: #72777d;
+			float: right;
+		}
+	}
+
+	> .oo-ui-indicatorElement-indicator,
+	> .oo-ui-iconElement-icon {
+		position: absolute;
+		top: 0;
+		height: 2.3em;
+	}
+
+	> .oo-ui-indicatorElement-indicator {
+		right: 0;
+		width: 0.9375em;
+		margin-right: 0.775em;
+	}
+
+	> .oo-ui-iconElement-icon {
+		width: 1.875em;
+		margin-left: 0.5em;
+	}
+
+	&.oo-ui-widget-disabled {
+		.mw-widgets-stashedFileWidget-info {
+			background-color: @background-color-neutral;
+			color: #72777d;
+			border-color: #c8ccd1;
+			text-shadow: 0 1px 1px #fff;
+
+			> .oo-ui-iconElement-icon,
+			> .oo-ui-indicatorElement-indicator {
+				opacity: 0.15;
+			}
+		}
+	}
+}
+
+.mw-widgets-stashedFileWidget-thumbnail-container {
+	cursor: default;
+	height: 5.5em;
+	text-align: left;
+	padding: 0;
+	background-color: @background-color-base;
+	border: @border-subtle;
+	margin-bottom: 0.5em;
+	vertical-align: middle;
+	overflow: hidden;
+	border-radius: 2px;
+
+	.mw-widgets-stashedFileWidget-thumbnail {
+		height: 5.5em;
+		width: 5.5em;
+		position: absolute;
+		background-size: cover;
+		background-position: center center;
+
+		&.oo-ui-pendingElement-pending {
+			background-size: auto;
+		}
+
+		> .mw-widgets-stashedFileWidget-noThumbnail-icon {
+			opacity: 0.4;
+			background-color: #c8ccd1;
+			height: 5.5em;
+			width: 5.5em;
+		}
+	}
+
+	.mw-widgets-stashedFileWidget-info {
+		border: 0;
+		background: none;
+		display: block;
+		height: 100%;
+		width: auto;
+		margin-left: 5.5em;
+
+		> .mw-widgets-stashedFileWidget-label {
+			position: relative;
+
+			> .mw-widgets-stashedFileWidget-fileName,
+			> .mw-widgets-stashedFileWidget-fileType {
+				display: block;
+				float: none;
+			}
+		}
+	}
+}
+
+.mw-widgets-stashedFileWidget-empty {
+	.mw-widgets-stashedFileWidget-thumbnail-container {
+		text-align: center;
+
+		.mw-widgets-stashedFileWidget-thumbnail,
+		.mw-widgets-stashedFileWidget-info {
+			margin: 0;
+			display: none;
+		}
+	}
+
+	.mw-widgets-stashedFileWidget-label {
+		color: #c8ccd1;
+		right: 0.5em;
+	}
+
+	&.oo-ui-indicatorElement {
+		.mw-widgets-stashedFileWidget-label {
+			right: 2em;
+		}
+	}
+}

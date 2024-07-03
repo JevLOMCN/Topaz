@@ -1,0 +1,97 @@
+@import 'mediawiki.mixins';
+
+/**
+ * CSS for WikiEditor Toolbar jQuery plugin
+ */
+
+.wikiEditor-ui-toolbar {
+	background-color: #f8f9fa;
+	box-shadow: 0 2px 1px 0 rgba( 0, 0, 0, 0.1 );
+
+	/* Groups */
+	.group,
+	.section-secondary .group {
+		border-color: #eaecf0;
+	}
+
+	.group {
+		min-height: 32px;
+		margin: 0;
+		padding-right: 0;
+
+		.label {
+			height: 28px;
+			margin-left: 8px;
+			/* stylelint-disable-next-line declaration-property-unit-disallowed-list */
+			line-height: 28px;
+		}
+
+		.tool-select {
+			background-color: transparent;
+			height: 32px;
+			margin: 0;
+			border: 0;
+
+			.label {
+				height: 32px;
+				padding-left: 8px;
+				/* stylelint-disable-next-line declaration-property-unit-disallowed-list */
+				line-height: 32px;
+
+				&::after {
+					height: 32px;
+				}
+			}
+
+			.menu .options {
+				margin-top: 32px;
+				box-shadow: 0 2px 2px 0 rgba( 0, 0, 0, 0.25 );
+
+				.option:hover {
+					background-color: #eaecf0;
+				}
+			}
+		}
+	}
+
+	/* Booklet */
+	.booklet {
+		> .index {
+			> :hover {
+				background-color: #eaecf0;
+			}
+
+			> .current {
+				background-color: #eaf3ff;
+				color: #36c;
+			}
+		}
+	}
+}
+
+.tool-button {
+	width: 32px;
+	height: 32px;
+	transition: background-color 100ms, color 100ms, border-color 100ms, box-shadow 100ms;
+}
+
+.tool-button,
+.tool.oo-ui-buttonElement-frameless.oo-ui-iconElement > .oo-ui-buttonElement-button {
+	border-radius: 0;
+
+	&:hover {
+		background-color: rgba( 0, 23, 70, 0.086 ); /* #eaecf0 */
+
+		> .oo-ui-iconElement-icon {
+			opacity: 1;
+		}
+	}
+
+	&.tool-active {
+		background-color: rgba( 0, 104, 243, 0.086 ); /* #eaf3ff */
+	}
+}
+
+.tool.oo-ui-buttonElement-frameless.oo-ui-iconElement > .oo-ui-buttonElement-button > .oo-ui-iconElement-icon {
+	opacity: 0.87;
+}

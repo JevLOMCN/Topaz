@@ -1,0 +1,121 @@
+/*!
+ * VisualEditor MediaWiki UserInterface MWSaveDialog styles.
+ *
+ * @copyright See AUTHORS.txt
+ * @license The MIT License (MIT); see LICENSE.txt
+ */
+
+.ve-ui-mwSaveDialog {
+	&-summaryLabel {
+		padding: 0.25em 0;
+	}
+
+	&-summary {
+		width: 100%;
+		max-width: none;
+		background-color: #fff;
+
+		textarea {
+			height: 4em;
+		}
+	}
+
+	&-foot {
+		margin: 0.5em 0;
+	}
+
+	&-options {
+		position: relative;
+		background-color: #f8f9fa;
+		border: 1px solid #c8ccd1;
+		border-top: 0;
+		display: none;
+
+		.ve-ui-mwSaveDialog-withOptions & {
+			display: block;
+		}
+	}
+
+	&-checkboxes {
+		margin-right: 3.25em; /* Hack to prevent overlap on edit summary count */
+		padding: 0.7857em 0.7857em 0 0.7857em;
+
+		> .oo-ui-fieldLayout {
+			display: inline-block;
+			margin: 0 1.5em 0.5em 0;
+			vertical-align: middle;
+
+			&:last-child {
+				margin-right: 0;
+			}
+		}
+
+		&-withExpiry > .ve-ui-mwSaveDialog-field-wpMinoredit {
+			display: block;
+		}
+	}
+
+	&-editSummary-count {
+		position: absolute;
+		right: 0;
+		top: 0;
+		bottom: 0;
+		border-left: 1px solid #eaecf0;
+		line-height: 3em;
+		padding: 0 1em;
+		color: #54595d;
+
+		&:empty {
+			visibility: hidden;
+		}
+	}
+
+	&-license {
+		font-size: 0.9em;
+		line-height: 1.4em;
+		padding: 0;
+		margin: 0;
+		color: #54595d;
+	}
+
+	&-messages {
+		/* Make a border that spans the whole width of the dialog */
+		margin: 1em -1.14285714em;
+		padding: 0.5em 1.14285714em;
+		border: 1px solid rgba( 0, 0, 0, 0.2 );
+		border-width: 1px 0;
+
+		> .oo-ui-messageWidget {
+			font-weight: normal;
+		}
+
+		&:empty {
+			display: none;
+		}
+	}
+
+	&-reviewMode {
+		float: right;
+		margin: 0 0 0 1em;
+	}
+
+	&-viewer {
+		margin-top: 1em;
+		clear: both;
+	}
+
+	&-no-changes {
+		color: #72777d;
+		font-style: italic;
+	}
+
+	&-preview .mw-body {
+		/* We use mw-body for realistic padding, but we don't need border/margin */
+		border: 0;
+		/* Override specificity in Monobook */
+		/* stylelint-disable-next-line declaration-no-important */
+		margin: 0 !important;
+		/* Override grid layout in Vector-2022 */
+		display: block;
+	}
+}

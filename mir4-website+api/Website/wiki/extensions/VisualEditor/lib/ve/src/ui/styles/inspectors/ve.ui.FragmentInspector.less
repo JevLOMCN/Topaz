@@ -1,0 +1,24 @@
+/*!
+ * VisualEditor UserInterface FragmentInspector styles.
+ *
+ * @copyright See AUTHORS.txt
+ */
+
+.ve-ui-fragmentInspector {
+	&-container {
+		&.oo-ui-panelLayout-padded:not( [ hidden ] ),
+		.oo-ui-indexLayout-stackLayout > .oo-ui-panelLayout-padded:not( [ hidden ] ) {
+			padding: 0.75em;
+		}
+
+		.oo-ui-window-content-setup:not( .oo-ui-window-content-ready ) & {
+			/* Don't show scroll bars before ready for accurate measurement */
+			overflow: hidden;
+		}
+	}
+
+	&-content .oo-ui-processDialog-actions-other .oo-ui-buttonElement-framed {
+		margin-left: 0;
+		margin-bottom: 0;
+	}
+}

@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"Jdforrester",
+			"Reedy"
+		]
+	},
+	"apierror-visualeditor-badcachekey": "No cached serialisation found with that key",
+	"apihelp-visualeditor-param-cachekey": "For serialise or diff, use the result of a previous serializeforcache request with this key. Overrides $1html."
+}

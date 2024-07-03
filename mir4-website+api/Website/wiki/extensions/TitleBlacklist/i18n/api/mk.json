@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Bjankuloski06"
+		]
+	},
+	"apihelp-titleblacklist-summary": "Провери наслов на страница, име на податотека или корисничко име во Црниот список.",
+	"apihelp-titleblacklist-param-title": "Низата што треба да се провери во црниот список.",
+	"apihelp-titleblacklist-param-action": "Дејството што треба да се провери.",
+	"apihelp-titleblacklist-param-nooverride": "Не се обидувај да наметнеш врз titleblacklist.",
+	"apihelp-titleblacklist-example-1": "Провери дали [[Foo]] е на црниот список",
+	"apihelp-titleblacklist-example-2": "Провери дали [[Bar]] е на црниот список за уредување",
+	"apihelp-createaccount-param-ignoretitleblacklist": "Занемари ги проверките за слични имиња (бара едно од следниве права: <code>tboverride</code>, <code>tboverride-account</code>)."
+}

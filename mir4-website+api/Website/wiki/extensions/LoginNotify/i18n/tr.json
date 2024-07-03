@@ -1,0 +1,25 @@
+{
+	"@metadata": {
+		"authors": [
+			"Ahmetlii",
+			"BaRaN6161 TURK",
+			"Hbseren",
+			"Joseph",
+			"MuratTheTurkish",
+			"Sayginer",
+			"ToprakM"
+		]
+	},
+	"loginnotify-desc": "Tanınmayan cihaz ve/veya IP adreslerinden şüpheli oturum açma girişimleri hakkında kullanıcıları bilgilendirir",
+	"echo-category-title-login-fail": "Başarısız oturum açma girişimleri",
+	"echo-pref-tooltip-login-fail": "Hesabımda oturum açma girişimi başarısız olduğunda bana bildir.",
+	"echo-category-title-login-success": "Tanıdık olmayan bir cihazdan giriş",
+	"echo-pref-tooltip-login-success": "Birisi hesabıma daha önce kullanmadığım bir cihaz ve/veya IP adresinden giriş yaptığı zaman bana bildir.",
+	"loginnotify-primary-link": "Yardım",
+	"notification-loginnotify-login-fail-email-subject": "{{SITENAME}} sitesine $1 kullanıcısı olarak {{PLURAL:$2|başarısız giriş|birden çok başarısız giriş}} denemesi",
+	"notification-loginnotify-login-success-email-subject": "{{SITENAME}} sitesine daha önce kullanmadığınız bir cihazdan $1 olarak giriş yapıldı",
+	"notification-header-login-success": "Birisi (muhtemelen {{GENDER:$1|siz}}) yakın zamanda hesabınıza yeni bir cihazdan oturum açtı. Eğer bu işlemi siz yaptıysanız bu mesajı gözardı edebilirsiniz. Ancak bu işlemi yapan siz değilseniz, parolanızı değiştirmeniz ve hesap etkinliğini kontrol etmeniz önerilir.",
+	"notification-new-bundled-header-login-fail": "En son giriş yaptığınız zamandan beri hesabınıza yeni bir cihazdan  giriş yapmak için {{PLURAL:$1|'''başarısız bir girişim oldu'''|'''başarısız $1 girişim oldu'''}}. Eğer siz değilseniz, lütfen hesabınızın güçlü bir şifresi olduğundan emin olun.",
+	"notification-known-header-login-fail": "Hesabınıza en son giriş yaptığınızdan bu yana hesabınıza girmek için {{PLURAL:$1|'''başarısız bir girişim oldu''' |'''$1 başarısız girişim oldu'''}}. Eğer giriş yapmaya çalışan siz değilseniz, lütfen hesabınızın güçlü bir şifresi olduğundan emin olun.",
+	"notification-new-unbundled-header-login-fail": "Hesabınıza yeni bir cihazdan giriş yapmak için {{PLURAL:$1|'''başarısız bir girişim oldu'''|'''başarısız girişimler oldu'''}}. Lütfen hesabınızın güçlü bir şifresi olduğundan emin olun."
+}

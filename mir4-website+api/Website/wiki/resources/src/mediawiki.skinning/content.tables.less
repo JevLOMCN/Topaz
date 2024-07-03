@@ -1,0 +1,33 @@
+/**
+ * wikitable class for skinning normal tables.
+ * Keep in sync with content.tables-print.less.
+ */
+
+@import 'mediawiki.skin.variables.less';
+
+.wikitable {
+	background-color: @background-color-neutral-subtle;
+	color: @color-base;
+	margin: 1em 0;
+	border: @border-width-base @border-style-base @border-color-base;
+	border-collapse: collapse;
+
+	> tr > th,
+	> tr > td,
+	> * > tr > th,
+	> * > tr > td {
+		border: @border-width-base @border-style-base @border-color-base;
+		padding: 0.2em 0.4em;
+	}
+
+	> tr > th,
+	> * > tr > th {
+		background-color: @background-color-neutral;
+		color: @color-base;
+		text-align: center;
+	}
+
+	> caption {
+		font-weight: bold;
+	}
+}

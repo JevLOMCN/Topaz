@@ -1,0 +1,33 @@
+{
+	"@metadata": {
+		"authors": [
+			"Albamhandae",
+			"Bluehill",
+			"Garam",
+			"Hym411",
+			"Klutzy",
+			"Kwj2772",
+			"MemphisA5",
+			"Nuevo Paso",
+			"Ykhwong",
+			"아라",
+			"렌즈"
+		]
+	},
+	"spam-blacklist": " #<!-- 이 줄은 그대로 두십시오 --> <pre>\n# 이 필터에 해당하는 URL을 문서에 넣을 경우 해당 편집의 저장을 자동으로 막습니다.\n# 이 필터는 여기 위키 내에서만 적용됩니다. 광역 차단 목록 기능이 있을 경우 해당 목록도 작동합니다.\n# 설명서에 대해서는 https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:SpamBlacklist 문서를 참고하세요\n# \n# 문법은 다음과 같습니다:\n#   * \"\"#\" 문자에서 줄의 끝까지는 주석입니다\n#   * 각 줄은 정규 표현식으로, URL 문장을 검사하는 데에 사용됩니다\n\n #</pre> <!-- 이 줄은 그대로 두십시오 -->",
+	"spam-whitelist": " # <!-- 이 줄은 그대로 두십시오 --> <pre>\n# 이 목록에 포함되는 외부 URL은 차단 목록에 의해 차단되어\n# 있더라도 문서 편집이 제한되지 않습니다.\n#\n# 문법은 다음과 같습니다:\n#   * \"#\" 문자에서 줄의 끝까지는 주석입니다\n#   * 모든 줄은 URL의 호스트와 일치하는 정규 표현식의 일부분입니다\n #</pre> <!-- 이 줄은 그대로 두십시오 -->",
+	"email-blacklist": " #<!-- 이 줄은 그대로 두십시오 --> <pre>\n# 이 리스트와 일치하는 이메일 주소는 등록과 이메일 발송이 금지됩니다.\n# 이 리스트는 이 위키에만 적용됩니다. 전역 차단 목록도 함께 살펴보십시오.\n# 설명서는 https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:SpamBlacklist를 참고하십시오\n#\n# 문법은 다음과 같습니다:\n#   * \"#\" 문자에서 줄의 끝까지는 주석입니다\n#   * 빈 줄이 아닌 모든 줄은 이메일 주소의 호스트만 검사하는 정규 표현식입니다\n\n #</pre> <!-- 이 줄은 그대로 두십시오 -->",
+	"email-whitelist": " #<!-- 이 줄은 그대로 두십시오 --> <pre>\n# 이 리스트와 일치하는 이메일 주소는 차단 목록에 올라가 있을지라도\n# 사용이 차단되지 않습니다.\n#\n# 문법은 다음과 같습니다:\n#   * \"#\" 문자에서 줄의 끝까지는 주석입니다\n#   * 빈 줄이 아닌 모든 줄은 이메일 주소의 호스트만 검사하는 정규 표현식입니다.\n\n #</pre> <!-- 이 줄은 그대로 두십시오 -->",
+	"spam-blacklisted-email": "금지된 이메일 주소",
+	"spam-blacklisted-email-text": "이메일 주소는 다른 사용자가 이메일을 보내지 못하도록 금지되어 있습니다.",
+	"spam-blacklisted-email-signup": "입력한 이메일 주소는 사용할 수 없도록 금지되어 있습니다.",
+	"spam-invalid-lines": "스팸 차단 목록의 다음 {{PLURAL:$1|줄}}에 잘못된 정규 {{PLURAL:$1|표현식}}이 사용되어 문서를 저장하기 전에 바르게 고쳐져{{PLURAL:$1|야 합니다}}:",
+	"spam-blacklist-desc": "정규 표현식을 사용해 문서에 있는 URL과 등록된 사용자의 이메일 주소를 금지 처리하여 스팸을 막는 도구",
+	"log-name-spamblacklist": "스팸 차단 목록 기록",
+	"log-description-spamblacklist": "이 이벤트는 스팸 차단 목록의 일치를 추적합니다.",
+	"logentry-spamblacklist-hit": "{{GENDER:$2|$1}} 사용자가 $3 문서에 $4을(를) 추가하려 하자 스팸 차단 목록의 일치가 발생했습니다.",
+	"right-spamblacklistlog": "스팸 차단 목록 기록 보기",
+	"action-spamblacklistlog": "스팸 차단 목록 기록을 볼",
+	"right-sboverride": "스팸 차단 목록 우회",
+	"action-sboverride": "스팸 차단 목록을 우회할"
+}

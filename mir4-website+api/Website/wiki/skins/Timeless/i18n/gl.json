@@ -1,0 +1,32 @@
+{
+	"@metadata": {
+		"authors": [
+			"Banjo",
+			"Elisardojm",
+			"Toliño"
+		]
+	},
+	"skinname-timeless": "Timeless",
+	"timeless-desc": "Unha aparencia atemporal, deseñada por Brandon Harris en base ó prototipo Winter, e varios estilos da Fundación Wikimedia.",
+	"timeless-anonymous": "Anónimo",
+	"timeless-loggedinas": "Conectado como '''$1'''",
+	"timeless-notloggedin": "Non conectado",
+	"timeless-userpage": "Páxina de {{GENDER:$1|usuario|usuaria}}",
+	"timeless-talkpage": "Conversa de {{GENDER:$1|usuario|usuaria}}",
+	"timeless-pagelog": "Rexistros de páxina",
+	"timeless-more": "Máis",
+	"timeless-sitetools": "Ferramentas wiki",
+	"timeless-pageactions": "Ferramentas das páxinas",
+	"timeless-userpagetools": "Ferramentas de páxina de usuario",
+	"timeless-action-addsection": "Novo fío",
+	"timeless-view-view": "Ler",
+	"timeless-pagemisc": "Máis",
+	"timeless-namespaces": "Espazos de nomes",
+	"timeless-pagetools": "Accións de páxina",
+	"timeless-languages": "Linguas",
+	"timeless-projects": "Outros proxectos",
+	"timeless.css": "/* O CSS colocado aquí afectará aos usuarios da aparencia Timeless */",
+	"timeless.js": "/* O código JavaScript colocado aquí cargarase para os usuarios que utilicen a aparencia Timeless */",
+	"timeless-view-history": "Historial",
+	"timeless-action-undelete": "Restaurar {{PLURAL:$1|unha edición|$1 edicións}}"
+}

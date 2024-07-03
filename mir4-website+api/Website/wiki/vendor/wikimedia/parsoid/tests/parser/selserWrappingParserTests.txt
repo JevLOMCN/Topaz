@@ -1,0 +1,282 @@
+!! Version 2
+
+## This file contains manual edit tests and primarily are used
+## to spec and verify expectations of selective serialization
+## in the presence of span-wrapping in lists.
+
+!! article
+Template:1x
+!! text
+{{{1}}}
+!! endarticle
+
+!! test
+Don't dirty diff list items up the tree when a sibling list item is added (preserve whitespace)
+!! options
+parsoid={
+  "modes": ["selser"],
+  "selser": "noauto",
+  "changes": [
+     [ "ul > li > ul > li", "after", "<li>b-new</li>" ]
+  ]
+}
+!! wikitext
+*  a 
+** b 
+!! wikitext/edited
+*  a 
+** b 
+** b-new
+!! end
+
+!! test
+Template edition: Don't dirty diff list items up the tree when a nested list item is added (preserve whitespace)
+!! options
+parsoid={
+  "modes": ["selser"],
+  "selser": "noauto",
+  "changes": [
+     [ "ul > li > ul > li", "append", "<ul><li>b-new</li></ul>" ]
+  ]
+}
+!! wikitext
+*  a 
+** {{1x|<span>dummy</span> b}} c 
+!! wikitext/edited
+*  a 
+** {{1x|<span>dummy</span> b}} c 
+*** b-new
+!! end
+
+!! test
+Don't dirty diff list items up the tree when a nested list item is added (preserve whitespace)
+!! options
+parsoid={
+  "modes": ["selser"],
+  "selser": "noauto",
+  "changes": [
+     [ "ul > li > ul > li", "append", "<ul><li>b-new</li></ul>" ]
+  ]
+}
+!! wikitext
+*  a 
+** b 
+!! wikitext/edited
+*  a 
+** b 
+*** b-new
+!! end
+
+!! test
+Don't dirty diff list items up the tree when a sibling list item is added (don't add nowikis)
+!! options
+parsoid={
+  "modes": ["selser"],
+  "selser": "noauto",
+  "changes": [
+     [ "ul > li > ul > li", "after", "<li>b-new</li>" ]
+  ]
+}
+!! wikitext
+* a {{x
+** b
+!! wikitext/edited
+* a {{x
+** b
+** b-new
+!! end
+
+!! test
+Don't dirty diff list items up the tree when a nested list item is added (don't add nowikis)
+!! options
+parsoid={
+  "modes": ["selser"],
+  "selser": "noauto",
+  "changes": [
+     [ "ul > li > ul > li", "append", "<ul><li>b-new</li></ul>" ]
+  ]
+}
+!! wikitext
+* a {{x
+** b
+!! wikitext/edited
+* a {{x
+** b
+*** b-new
+!! end
+
+!! test
+Don't dirty diff list items up the tree when a sibling list item is added (preserve empty list items)
+!! options
+parsoid={
+  "modes": ["selser"],
+  "selser": "noauto",
+  "changes": [
+     [ "ul > li > ul > li > ul > li", "after", "<li>b-new</li>" ]
+  ]
+}
+!! wikitext
+*
+**
+*** b
+!! wikitext/edited
+*
+**
+*** b
+*** b-new
+!! end
+
+!! test
+Don't dirty diff list items up the tree when a nested list item is added (preserve empty list items)
+!! options
+parsoid={
+  "modes": ["selser"],
+  "selser": "noauto",
+  "changes": [
+     [ "ul > li > ul > li > ul > li", "append", "<ul><li>b-new</li></ul>" ]
+  ]
+}
+!! wikitext
+*
+**
+*** b
+!! wikitext/edited
+*
+**
+*** b
+**** b-new
+!! end
+
+!! test
+Don't dirty diff list items up the tree when a nested list item is added (preserve unbalanced closing tags - test 1)
+!! options
+parsoid={
+  "modes": ["selser"],
+  "selser": "noauto",
+  "changes": [
+     [ "ul > li > ul > li", "after", "<li>b-new</li>" ]
+  ]
+}
+!! wikitext
+* x</span>
+** b
+!! wikitext/edited
+* x</span>
+** b
+** b-new
+!! end
+
+# Without StrippedTag meta marker in the HTML output, this test will cause corruption (HTML version 2.1.1)
+!! test
+Don't dirty diff list items up the tree when a nested list item is added (preserve unbalanced closing tags - test 2)
+!! options
+parsoid={
+  "modes": ["selser"],
+  "selser": "noauto",
+  "changes": [
+     [ "ul > li > ul > li", "after", "<li>b-new</li>" ]
+  ]
+}
+!! wikitext
+* </span>x
+** b
+!! wikitext/edited
+* </span>x
+** b
+** b-new
+!! end
+
+!! test
+Verify that our internal selser wrapper can't be spoofed from wikitext
+!! wikitext
+<span data-mw-selser-wrapper="foo">bar</span>
+!! html/parsoid
+<p><span data-x-data-mw-selser-wrapper="foo">bar</span></p>
+!! end
+
+!! test
+Preserve stray </div> tags between unmodified nodes
+!! options
+parsoid={
+  "modes": ["selser"],
+  "selser": "noauto",
+  "changes": [
+     [ "ul > li", "after", "<li>y-new</li>" ]
+  ]
+}
+!! wikitext
+<div>foo</div></div>
+<div>bar</div></div>
+abcd
+<div>baz</div></div>
+* x
+!! wikitext/edited
+<div>foo</div></div>
+<div>bar</div></div>
+abcd
+<div>baz</div>
+* x
+* y-new
+!! end
+
+# T269901
+!! test
+Regression test: No bogus recovery of trimmed whitespace
+!! options
+parsoid={
+  "modes": ["selser"],
+  "selser": "noauto",
+  "changes": [
+     [ "dl > dd > dl > dd > dl > dd", "html", "d" ]
+  ]
+}
+!! wikitext
+: a
+:: b
+:* c
+::: FOO
+!! wikitext/edited
+: a
+:: b
+:* c
+::: d
+!! end
+
+## T279963
+!! test
+Do not reintroduce whitespace when it's captured as a DisplaySpace
+!! options
+parsoid={
+  "modes": ["selser"],
+  "selser": "noauto",
+  "changes": [
+    [ "dd", "append", " 123" ]
+  ]
+}
+!! wikitext
+: : test
+!! wikitext/edited
+: : test 123
+!! html/parsoid
+<dl><dd><span typeof="mw:DisplaySpace"> </span>: test</dd></dl>
+!! end
+
+# NOTE: This test requires (a) at least a nested dl-dd (b) a non-text last non-sep child
+!! test
+Don't dirty diff dd list items up the tree when a different list child is modified
+!! options
+parsoid={
+  "modes": ["selser"],
+  "selser": "noauto",
+  "changes": [
+     [ "dl > dd > dl > dd:last-child", "append", "<dl><dd>bar</dd></dl>" ]
+  ]
+}
+!! wikitext
+::x ''y'' 
+::z
+!! wikitext/edited
+::x ''y'' 
+::z
+::: bar
+!! end

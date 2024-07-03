@@ -1,0 +1,35 @@
+{
+	"@metadata": {
+		"authors": [
+			"Anakmalaysia",
+			"Karmadunya9-"
+		]
+	},
+	"apihelp-visualeditor-param-basetimestamp": "Apabila menyimpan, tetapkan cop waktu bila halaman thelah dijana. Ini bagi mengelakkan konflik suntingan.",
+	"apihelp-visualeditor-param-cachekey": "Untuk serialize atau diff, gunakan hasil permintaan serializeforcache yang terdahulu dengan kunci ini. Mengatasi $1html.",
+	"apihelp-visualeditor-param-editintro": "Menyunting intro untuk menambah notis.",
+	"apihelp-visualeditor-param-etag": "ETag untuk menghantar.",
+	"apihelp-visualeditor-param-format": "Format output.",
+	"apihelp-visualeditor-param-html": "HTML untuk dihantar ke Parsoid untuk diolah semula kepada wikiteks.",
+	"apihelp-visualeditor-param-oldid": "Nombor semakan yang hendak digunakan (asalinya semakan paling baharu).",
+	"apihelp-visualeditor-param-paction": "Tindakan untuk dilakukan.",
+	"apihelp-visualeditor-param-page": "Laman untuk melakukan tindakan.",
+	"apihelp-visualeditor-param-preload": "Halaman untuk digunakan kandungannya jika halaman yang diambil terima belum ada kandungan.",
+	"apihelp-visualeditor-param-section": "Bahagian untuk bertindak.",
+	"apihelp-visualeditor-param-starttimestamp": "Apabila menyimpan, tetapkan cop waktu bila halaman thelah dijana. Ini bagi mengelakkan konflik suntingan.",
+	"apihelp-visualeditor-summary": "Mengembalikan HTML5 untuk halaman dari perkhidmatan Parsoid.",
+	"apihelp-visualeditoredit-param-basetimestamp": "Apabila menyimpan, tetapkan cop waktu bila halaman thelah dijana. Ini bagi mengelakkan konflik suntingan.",
+	"apihelp-visualeditoredit-param-captchaid": "ID Captcha (apabila menyimpan dengan jawapan captcha).",
+	"apihelp-visualeditoredit-param-captchaword": "Jawapan kepada captcha (apabila menyimpan dengan jawapan captcha).",
+	"apihelp-visualeditoredit-param-etag": "ETag untuk dihantar.",
+	"apihelp-visualeditoredit-param-html": "HTML dihantar ke Parsoid untuk pertukaran ke wikitext.",
+	"apihelp-visualeditoredit-param-minor": "Tandai sebagai suntingan kecil.",
+	"apihelp-visualeditoredit-param-oldid": "Nombor semakan untuk digunakan. Yang asalinya semakan terkini. Gunakan 0 untuk halaman baru.",
+	"apihelp-visualeditoredit-param-paction": "Tindakan untuk dilaksanakan.",
+	"apihelp-visualeditoredit-param-page": "Halaman untuk melaksanakan tindakan.",
+	"apihelp-visualeditoredit-param-section": "Bahagian untuk bertindak.",
+	"apihelp-visualeditoredit-param-sectiontitle": "Tajuk bahagian baru.",
+	"apihelp-visualeditoredit-param-starttimestamp": "Apabila menyimpan, tetapkan cop waktu bila halaman thelah dijana. Ini bagi mengelakkan konflik suntingan.",
+	"apihelp-visualeditoredit-param-summary": "Ringkasan suntingan.",
+	"apihelp-visualeditoredit-param-wikitext": "Wikiteks untuk bertindak."
+}

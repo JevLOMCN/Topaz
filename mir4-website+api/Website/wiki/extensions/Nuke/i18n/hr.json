@@ -1,0 +1,28 @@
+{
+	"@metadata": {
+		"authors": [
+			"Dalibor Bosits",
+			"Dnik",
+			"Hmxhmx",
+			"MaGa",
+			"Ponor",
+			"Roberta F.",
+			"SpeedyGonsales"
+		]
+	},
+	"nuke": "Skupno brisanje",
+	"nuke-desc": "Daje administratorima mogućnost [[Special:Nuke|skupnog brisanja]] stranica",
+	"nuke-nopages": "Nema novih stranica suradnika [[Special:Contributions/$1|$1]] među nedavnim promjenama.",
+	"nuke-list": "Sljedeće stranice stvorio je suradnik [[Special:Contributions/$1|$1]]; napišite zaključak i pritisnite puce za njihovo brisanje.",
+	"nuke-defaultreason": "Skupno brisanje stranica {{GENDER:$1|suradnika|suradnice|suradnika/suradnice}} [[Special:Contributions/$1|$1]]",
+	"nuke-tools": "Ova ekstenzija omogućava skupno brisanje stranica (članaka) nekog prijavljenog ili neprijavljenog suradnika. Upišite ime ili IP adresu za dobivanje popisa stranica koje je moguće obrisati:",
+	"nuke-submit-user": "Kreni",
+	"nuke-submit-delete": "Obriši označeno",
+	"right-nuke": "Skupno brisanje stranica",
+	"nuke-userorip": "Suradničko ime, IP adresa ili prazno:",
+	"nuke-maxpages": "Maksimalan broj stranica:",
+	"nuke-viewchanges": "prikaži promjene",
+	"nuke-namespace": "Ograniči na imenski prostor:",
+	"nuke-linkoncontribs": "skupno brisanje",
+	"nuke-linkoncontribs-text": "Skupno brisanje stranica kojima je ovaj suradnik jedini autor"
+}

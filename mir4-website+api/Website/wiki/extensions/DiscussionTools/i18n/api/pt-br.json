@@ -1,0 +1,31 @@
+{
+	"@metadata": {
+		"authors": [
+			"Eduardo Addad de Oliveira",
+			"Eduardoaddad",
+			"Gustavo.moraes",
+			"YuriNikolai"
+		]
+	},
+	"apierror-discussiontools-commentid-notfound": "Comentário com o ID '$1' não encontrado.",
+	"apierror-discussiontools-commentname-ambiguous": "Vários comentários com o nome '$1' encontrados, <var>commentid</var> requerido.",
+	"apierror-discussiontools-commentname-notfound": "Comentário com o nome '$1' não encontrado.",
+	"apierror-discussiontools-subscription-failed-add": "Não foi possível se inscrever neste tópico.",
+	"apierror-discussiontools-subscription-failed-remove": "Não foi possível cancelar a inscrição neste tópico.",
+	"apihelp-discussiontoolsedit-param-commentid": "ID do comentário a ser respondido. Só usado quando <var>paction</var> é <var>addcomment</var>. Substituições <var>commentname</var>.",
+	"apihelp-discussiontoolsedit-param-commentname": "Nome do comentário ao qual responder. Só usado quando <var>paction</var> é <var>addcomment</var>.",
+	"apihelp-discussiontoolsedit-param-html": "Conteúdo para postar, como HTML. Não pode ser usado junto com <var>wikitext</var>.",
+	"apihelp-discussiontoolsedit-param-sectiontitle": "{{int:apihelp-edit-param-sectiontitle}} Só usado quando <var>paction</var> é <var>addtopic</var>.",
+	"apihelp-discussiontoolsedit-param-wikitext": "Conteúdo para postar, como wikitexto. Não pode ser usado junto com <var>html</var>.",
+	"apihelp-discussiontoolsedit-paramvalue-paction-addcomment": "Adicione um novo comentário como resposta a um comentário existente.",
+	"apihelp-discussiontoolsedit-paramvalue-paction-addtopic": "Adicione uma nova seção de discussão e o primeiro comentário nela.",
+	"apihelp-discussiontoolsedit-summary": "Publique uma mensagem em uma página de discussão.",
+	"apihelp-discussiontoolsgetsubscriptions-param-commentname": "Nomes dos tópicos a serem verificados",
+	"apihelp-discussiontoolsgetsubscriptions-summary": "Obtenha os status de assinatura de determinados tópicos.",
+	"apihelp-discussiontoolspageinfo-param-oldid": "O número de revisão para utilizar (a última revisão por padrão).",
+	"apihelp-discussiontoolspageinfo-summary": "Retorna os metadados necessários para inicializar as ferramentas de discussão.",
+	"apihelp-discussiontoolssubscribe-param-commentname": "Nome do tópico para se inscrever (ou cancelar)",
+	"apihelp-discussiontoolssubscribe-param-page": "Uma página na qual o tópico aparece",
+	"apihelp-discussiontoolssubscribe-param-subscribe": "True para inscrever-se, false para cancelar inscrição",
+	"apihelp-discussiontoolssubscribe-summary": "Inscreva-se (ou cancele a inscrição) para receber notificações sobre um tópico."
+}

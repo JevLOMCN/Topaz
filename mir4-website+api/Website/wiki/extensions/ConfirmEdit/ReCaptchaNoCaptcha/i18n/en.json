@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": []
+	},
+	"renocaptcha-desc": "reCAPTCHA NoCAPTCHA module for Confirm Edit",
+	"renocaptcha-edit": "To protect the wiki against automated edit spam, we kindly ask you to solve the following CAPTCHA:",
+	"renocaptcha-addurl": "Your edit includes new external links. To protect the wiki against automated spam, we kindly ask you to solve the following CAPTCHA:",
+	"renocaptcha-badlogin": "To protect the wiki against automated password cracking, we kindly ask you to solve the following CAPTCHA:",
+	"renocaptcha-createaccount": "To protect the wiki against automated account creation, we kindly ask you to solve the following CAPTCHA:",
+	"renocaptcha-createaccount-fail": "It seems you haven't solved the CAPTCHA.",
+	"renocaptcha-create": "To protect the wiki against automated page creation, we kindly ask you to solve the following CAPTCHA:",
+	"renocaptcha-noscript": "Unhappily you have disabled JavaScript, so we can't recognize automatically, if you're a human or not. Please solve the CAPTCHA above and copy the resulting text into the following textarea:",
+	"renocaptcha-help": "Please solve a ReCaptcha NoCaptcha challenge and return the response value as captchaWord."
+}

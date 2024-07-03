@@ -1,0 +1,27 @@
+{
+	"@metadata": {
+		"authors": [
+			"Gomoko"
+		]
+	},
+	"editcheck-dialog-action-no": "Non",
+	"editcheck-dialog-action-yes": "Oui",
+	"editcheck-dialog-addref-description": "Aidez les lecteurs à comprendre d'où proviennent ces informations en ajoutant une source.",
+	"editcheck-dialog-addref-reject-question": "Pourquoi n'ajoutez-vous pas une source ?",
+	"editcheck-dialog-addref-reject-description": "Les autres éditeurs aimeraient en savoir plus sur votre décision de ne pas ajouter une source.",
+	"editcheck-dialog-addref-reject-irrelevant": "Je ne pense pas que les citations sont en phase avec le changement que j’ai fait",
+	"editcheck-dialog-addref-reject-common-knowledge": "L’information que j’ai ajouté est largement connue",
+	"editcheck-dialog-addref-reject-uncertain": "Je ne sais pas quelle source ajouter",
+	"editcheck-dialog-addref-reject-other": "Autre",
+	"editcheck-dialog-addref-success-notify": "Merci d'avoir ajouté une source !",
+	"editcheck-dialog-addref-title": "Ajouter une source",
+	"editcheck-dialog-title": "Avant de publier",
+	"tag-editcheck-reference-decline-common-knowledge": "Vérification de modification (références) refusée (savoir commun)",
+	"tag-editcheck-reference-decline-common-knowledge-description": "La référence EditCheck a été refusée comme étant un savoir commun",
+	"tag-editcheck-reference-decline-irrelevant": "Vérification de modification (références) refusée (non pertinent)",
+	"tag-editcheck-reference-decline-irrelevant-description": "La référence EditCheck a été refusée car non pertinente",
+	"tag-editcheck-reference-decline-other": "Vérification de modification (références) refusée (autre)",
+	"tag-editcheck-reference-decline-other-description": "La référence EditCheck a été refusée pour une raison non listée",
+	"tag-editcheck-reference-decline-uncertain": "Vérification de modification (références) refusée (incertain)",
+	"tag-editcheck-reference-decline-uncertain-description": "La référence EditCheck a été refusée comme étant incertaine"
+}

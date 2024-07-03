@@ -1,0 +1,20 @@
+{
+	"@metadata": {
+		"authors": [
+			"Bishnu Saikia",
+			"Gitartha.bordoloi"
+		]
+	},
+	"imagemap_desc": "<code>&lt;imagemap&gt;</code> টেগ্‌ ব্যৱহাৰ কৰি ক্লায়েণ্ট-চাইড ক্লিকেবল্‌ ইমেজ্‌ মেপৰ অনুমতি দিয়ে",
+	"imagemap_no_image": "ত্ৰুটী: প্ৰথম শাৰীত এখন ছবি নিৰ্দিষ্ট কৰিবই লাগিব",
+	"imagemap_invalid_image": "ত্ৰুটী: ছবিখন অবৈধ বা ছবিখন নাই",
+	"imagemap_bad_image": "ত্ৰুটী: এই পৃষ্ঠাত ছবিখন ব্লেকলিষ্টেড কৰা হৈছে।",
+	"imagemap_no_link": "ত্ৰুটী: $1 শাৰীৰ শেষত কোনো বৈধ লিংক পোৱা নগ'ল",
+	"imagemap_invalid_title": "ত্ৰুটী: $1 শাৰীত থকা লিংকৰ শিৰোনাম অবৈধ",
+	"imagemap_missing_coord": "ত্ৰুটী: $1 শাৰীত আকৃতিৰ বাবে যথেষ্ট স্থানাংক নাই",
+	"imagemap_unrecognised_shape": "ত্ৰুটী: $1 শাৰীত অজ্ঞাত আকৃতি আছে, প্ৰতিটো শাৰী এইকেইটাৰ এটাৰে আৰম্ভ হ'ব লাগিব: <code>default</code>, <code>rect</code>, <code>circle</code> বা <code>poly</code>",
+	"imagemap_invalid_coord": "ত্ৰুটী: $1 শাৰীত থকা স্থানাংক অবৈধ, ই এটা সংখ্যা হ'বই লাগিব",
+	"imagemap_invalid_desc": "ত্ৰুটী: অবৈধ desc বিৱৰণ, ই ইয়াৰে এটা হ'ব লাগিব: <code>$1</code>",
+	"imagemap_description": "এই ছবিখনৰ বিষয়ে",
+	"imagemap_poly_odd": "ত্ৰুটী: $1 শাৰীত অযৌগ স্থানাংক সংখ্যাৰে poly পোৱা গৈছে"
+}

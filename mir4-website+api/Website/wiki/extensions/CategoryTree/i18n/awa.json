@@ -1,0 +1,36 @@
+{
+	"@metadata": {
+		"authors": [
+			"1AnuraagPandey",
+			"Ajeetsinghawadhi"
+		]
+	},
+	"categorytree": "श्रेणीवृक्ष",
+	"categorytree-portlet": "कुल श्रेणि",
+	"categorytree-legend": "श्रेणीवृक्ष देखाओ",
+	"categorytree-desc": "विकि कय [[Special:CategoryTree|श्रेणी संरचना]] देखा जाय",
+	"categorytree-header": "कवनो श्रेणी कय कुल चिज पेड कय रूप में देखावे कय लिये ओकर नावँ दिहा जाय।\nध्यान रख्खा जाय कि इ सुविधा कय लिये AJAX नावँ कय जावास्क्रिप्ट सुविधा कय ज़रूरत होत है।\nअगर आप कय ब्राउज़र बहुत पुरान है, या जावास्क्रिप्ट अक्षम है, तव इ काम नाई करि।",
+	"categorytree-category": "श्रेणी:",
+	"categorytree-go": "पेड देखाओ",
+	"categorytree-parents": "पालक",
+	"categorytree-mode-label": "मोड:",
+	"categorytree-mode-categories": "खाली श्रेणी कुल",
+	"categorytree-mode-pages": "फ़ाइल कय अलावा पन्ना",
+	"categorytree-mode-all": "कुल पन्ना",
+	"categorytree-collapse": "छोट करो",
+	"categorytree-expand": "बडा करा",
+	"categorytree-member-counts": "एहमा {{PLURAL:$1|एक उपश्रेणी|$1 उपश्रेणिन्}}, {{PLURAL:$2|एक पन्ना|$2 पन्नन}}, अव {{PLURAL:$3|एक फ़ाइल|$3 फ़ाइलन्}} हँय।",
+	"categorytree-num-categories": "$1 श्र",
+	"categorytree-num-pages": "$1 प",
+	"categorytree-num-files": "$1 फ़ा",
+	"categorytree-num-empty": "खाली",
+	"categorytree-load": "लोड करा जाय",
+	"categorytree-loading": "लोड होत है...",
+	"categorytree-nothing-found": "कुछ नाई मिला",
+	"categorytree-no-subcategories": "उपश्रेणी नाँई हँय",
+	"categorytree-no-parent-categories": "कवनो जनक श्रेणि नाई हँय",
+	"categorytree-no-pages": "कवनो पन्ना या उपश्रेणी नाई हय",
+	"categorytree-not-found": "श्रेणी <i>$1</i> नाई मिला",
+	"categorytree-error": "डाटा लोड करय में समस्या।",
+	"categorytree-retry": "तनी थोरै समय बाद प्रयास करा जाय।"
+}

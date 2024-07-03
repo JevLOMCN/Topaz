@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"AmaryllisGardener"
+		]
+	},
+	"pfunc_time_error": "Error: Invalid time.",
+	"pfunc_expr_unrecognised_word": "Expression error: Unrecognised wird \"$1\".",
+	"pfunc_expr_unexpected_operator": "Expression error: Unexpectit $1 operator.",
+	"pfunc_expr_missing_operand": "Expression error: Missin operand for $1.",
+	"pfunc_expr_unrecognised_punctuation": "Expression error: Unrecognised punctuation character \"$1\".",
+	"pfunc_expr_division_by_zero": "Diveesion bi zero."
+}

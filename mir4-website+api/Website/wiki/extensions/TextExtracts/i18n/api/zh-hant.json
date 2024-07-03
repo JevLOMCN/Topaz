@@ -1,0 +1,23 @@
+{
+	"@metadata": {
+		"authors": [
+			"Kly"
+		]
+	},
+	"apihelp-query+extracts-summary": "回傳純文字或受限的指定頁面 HTML 匯出。",
+	"apihelp-query+extracts-param-chars": "要回傳的字元數量。實際回傳的文字可能會稍多。",
+	"apihelp-query+extracts-param-sentences": "要回傳的文句數量。",
+	"apihelp-query+extracts-param-limit": "要回傳的匯出數量。（若 exintro 設定成 true 可回傳多個提取。）",
+	"apihelp-query+extracts-param-intro": "僅回傳在首個段落前的內容。",
+	"apihelp-query+extracts-param-plaintext": "回傳匯出為純文字而非受限的 HTML 內容",
+	"apihelp-query+extracts-param-sectionformat": "在純文字模式如何格式化段落：",
+	"apihelp-query+extracts-paramvalue-sectionformat-plain": "無格式。",
+	"apihelp-query+extracts-paramvalue-sectionformat-wiki": "Wikitext 樣式格式（== 例如像這樣 ==）。",
+	"apihelp-query+extracts-paramvalue-sectionformat-raw": "此模組的內建呈現方法（帶有 &lt;ASCII 1&gt;&lt;ASCII 2&gt;&lt;段落層級&gt;&lt;ASCII 2&gt;&lt;ASCII 1&gt; 的段落標題前綴）。",
+	"apihelp-query+extracts-example-1": "取得 175-字元匯出內容",
+	"apiwarn-textextracts-limit": "<var>exlimit</var> 對於整個條目提取請求太大，已降為 $1。",
+	"apiwarn-textextracts-unsupportedmodel": "$1 含有內容模組 $2，這並不被支援，且會回傳空白匯出內容。",
+	"apiwarn-textextracts-title-in-file-namespace": "已請求匯出在檔案命名空間的標題，但未有內容回傳。",
+	"apiwarn-textextracts-sentences-and-html": "當使用 HTML 模式時，<var>$1sentences</var> 參數可能會產生預期外的結果。",
+	"apiwarn-textextracts-malformed-html": "HTML 可能不完整/或不穩定，並可能會忽略行內的圖片。使用時請自行承擔風險。已知問題則列在 https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:TextExtracts#Caveats 裡。"
+}

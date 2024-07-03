@@ -1,0 +1,29 @@
+/*!
+ * VisualEditor MediaWiki Vector-specific FormatTool styles.
+ *
+ * @copyright See AUTHORS.txt
+ * @license The MIT License (MIT); see LICENSE.txt
+ */
+
+.oo-ui-menuToolGroup-tools .oo-ui-tool-name-heading1 .oo-ui-tool-title,
+.oo-ui-menuToolGroup-tools .oo-ui-tool-name-heading2 .oo-ui-tool-title {
+	font-family: 'Linux Libertine', 'Georgia', 'Times', serif;
+}
+
+.oo-ui-menuToolGroup-tools .oo-ui-tool-name-heading1 .oo-ui-tool-title {
+	font-size: 180%;
+}
+
+.oo-ui-menuToolGroup-tools .oo-ui-tool-name-heading2 .oo-ui-tool-title {
+	font-size: 150%;
+}
+
+.oo-ui-menuToolGroup-tools .oo-ui-tool-name-heading3 .oo-ui-tool-title {
+	font-size: 117%;
+}
+
+.oo-ui-menuToolGroup-tools .oo-ui-tool-name-heading4 .oo-ui-tool-title,
+.oo-ui-menuToolGroup-tools .oo-ui-tool-name-heading5 .oo-ui-tool-title,
+.oo-ui-menuToolGroup-tools .oo-ui-tool-name-heading6 .oo-ui-tool-title {
+	font-size: 100%;
+}

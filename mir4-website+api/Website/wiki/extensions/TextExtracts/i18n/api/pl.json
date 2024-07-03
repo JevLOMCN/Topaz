@@ -1,0 +1,21 @@
+{
+	"@metadata": {
+		"authors": [
+			"DeRudySoulStorm",
+			"SemanticPioneer"
+		]
+	},
+	"apihelp-query+extracts-summary": "Zwraca zwykły tekst lub fragmenty HTML podanych stron.",
+	"apihelp-query+extracts-param-chars": "Ile znaków ma zostać zwróconych. Rzeczywisty zwracany tekst może być nieco dłuższy.",
+	"apihelp-query+extracts-param-sentences": "Jak wiele zdań ma zostać zwróconych.",
+	"apihelp-query+extracts-param-limit": "Jak wiele fragmentów ma być zwróconych. (Wiele fragmentów może zostać zwróconych tylko wtedy, gdy parametr exintro ma wartość true).",
+	"apihelp-query+extracts-param-intro": "Zwróć tylko zawartość przed pierwszą sekcją.",
+	"apihelp-query+extracts-param-plaintext": "Zwróć fragmenty jako zwykły tekst zamiast ograniczonego kodu HTML.",
+	"apihelp-query+extracts-param-sectionformat": "Jak formatować sekcje w trybie zwykłego tekstu:\n;plain:Bez formatowania.\n;wiki:Formatowanie w stylu Wikitext (==jak to==).\n;raw:Wewnętrzna reprezentacja tego modułu (tytuły sekcji z prefiksem &lt;ASCII 1&gt;&lt;ASCII 2&gt;&lt;poziom sekcji&gt;&lt;ASCII 2&gt;&lt;ASCII 1&gt;).",
+	"apihelp-query+extracts-example-1": "Zdobądź 175-znakowy fragment",
+	"apiwarn-textextracts-limit": "Wartość <var>exlimit</var> była za duża dla żądania fragmentu z całego artykułu, obniżono do $1.",
+	"apiwarn-textextracts-unsupportedmodel": "$1 ma model zawartości $2, który nie jest obsługiwany; zwracam pusty fragment.",
+	"apiwarn-textextracts-title-in-file-namespace": "Zażądano wyodrębnienia tytułu z przestrzeni nazw plików, żaden nie został zwrócony.",
+	"apiwarn-textextracts-sentences-and-html": "Parametr <var>$1sentences</var> może mieć nieoczekiwane wyniki, jeśli jest używany w trybie HTML.",
+	"apiwarn-textextracts-malformed-html": "HTML może być zniekształcony i/lub niezrównoważony i może ominąć obrazy śród-liniowe. Używaj na własne ryzyko. Znane problemy są wymienione na stronie https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:TextExtracts#Caveats."
+}

@@ -1,0 +1,81 @@
+{
+	"dateFormat": {
+		"ar": "H:i، j xg Y"
+	},
+	"digits": {
+		"ar": [
+			"0",
+			"1",
+			"2",
+			"3",
+			"4",
+			"5",
+			"6",
+			"7",
+			"8",
+			"9"
+		]
+	},
+	"localTimezone": "UTC",
+	"specialContributionsName": "مساهمات",
+	"timezones": {
+		"ar": {
+			"ت ع م": "UTC"
+		}
+	},
+	"contLangMessages": {
+		"ar": {
+			"timezone-utc": "ت ع م",
+			"sunday": "الأحد",
+			"monday": "الاثنين",
+			"tuesday": "الثلاثاء",
+			"wednesday": "الأربعاء",
+			"thursday": "الخميس",
+			"friday": "الجمعة",
+			"saturday": "السبت",
+			"sun": "أحد",
+			"mon": "اثنين",
+			"tue": "ثلاثاء",
+			"wed": "أربعاء",
+			"thu": "خميس",
+			"fri": "جمعة",
+			"sat": "سبت",
+			"january": "يناير",
+			"february": "فبراير",
+			"march": "مارس",
+			"april": "أبريل",
+			"may_long": "مايو",
+			"june": "يونيو",
+			"july": "يوليو",
+			"august": "أغسطس",
+			"september": "سبتمبر",
+			"october": "أكتوبر",
+			"november": "نوفمبر",
+			"december": "ديسمبر",
+			"january-gen": "يناير",
+			"february-gen": "فبراير",
+			"march-gen": "مارس",
+			"april-gen": "أبريل",
+			"may-gen": "مايو",
+			"june-gen": "يونيو",
+			"july-gen": "يوليو",
+			"august-gen": "أغسطس",
+			"september-gen": "سبتمبر",
+			"october-gen": "أكتوبر",
+			"november-gen": "نوفمبر",
+			"december-gen": "ديسمبر",
+			"jan": "يناير",
+			"feb": "فبراير",
+			"mar": "مارس",
+			"apr": "أبريل",
+			"may": "مايو",
+			"jun": "يونيو",
+			"jul": "يوليو",
+			"aug": "أغسطس",
+			"sep": "سبتمبر",
+			"oct": "أكتوبر",
+			"nov": "نوفمبر",
+			"dec": "ديسمبر"
+		}
+	}
+}

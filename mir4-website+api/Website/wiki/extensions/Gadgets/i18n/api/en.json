@@ -1,0 +1,29 @@
+{
+	"@metadata": {
+		"authors": [
+			"Daniel Kinzler, brightbyte.de"
+		]
+	},
+	"apihelp-query+gadgetcategories-summary": "Returns a list of gadget categories.",
+	"apihelp-query+gadgetcategories-param-prop": "What gadget category information to get:",
+	"apihelp-query+gadgetcategories-paramvalue-prop-name": "Internal category name.",
+	"apihelp-query+gadgetcategories-paramvalue-prop-title": "Category title.",
+	"apihelp-query+gadgetcategories-paramvalue-prop-members": "Number of gadgets in category.",
+	"apihelp-query+gadgetcategories-param-names": "Names of categories to retrieve.",
+	"apihelp-query+gadgetcategories-example-1": "Get a list of existing gadget categories",
+	"apihelp-query+gadgetcategories-example-2": "Get all information about categories named \"foo\" and \"bar\"",
+	"apihelp-query+gadgets-summary": "Returns a list of gadgets used on this wiki.",
+	"apihelp-query+gadgets-param-prop": "What gadget information to get:",
+	"apihelp-query+gadgets-paramvalue-prop-id": "Internal gadget ID.",
+	"apihelp-query+gadgets-paramvalue-prop-metadata": "The gadget metadata.",
+	"apihelp-query+gadgets-paramvalue-prop-desc": "Gadget description transformed into HTML (can be slow, use only if really needed).",
+	"apihelp-query+gadgets-param-categories": "Gadgets from what categories to retrieve.",
+	"apihelp-query+gadgets-param-ids": "IDs of gadgets to retrieve.",
+	"apihelp-query+gadgets-param-allowedonly": "List only gadgets allowed to current user.",
+	"apihelp-query+gadgets-param-enabledonly": "List only gadgets enabled by current user.",
+	"apihelp-query+gadgets-example-1": "Get a list of gadgets along with their descriptions",
+	"apihelp-query+gadgets-example-2": "Get a list of gadgets with all possible properties",
+	"apihelp-query+gadgets-example-3": "Get a list of gadgets belonging to category \"foo\"",
+	"apihelp-query+gadgets-example-4": "Get information about gadgets \"foo\" and \"bar\"",
+	"apihelp-query+gadgets-example-5": "Get a list of gadgets enabled by current user"
+}

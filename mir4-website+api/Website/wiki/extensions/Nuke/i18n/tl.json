@@ -1,0 +1,28 @@
+{
+	"@metadata": {
+		"authors": [
+			"AnakngAraw"
+		]
+	},
+	"nuke": "Malawakang pagbura",
+	"action-nuke": "mga pahinang nukleyar",
+	"nuke-desc": "Nagbibigay sa mga ''sysop'' ng kakayahang [[Special:Nuke|magburang pangmalawakan]] ng mga pahina",
+	"nuke-nopages": "Walang bagong mga pahinang ginawa ni [[Special:Contributions/$1|$1]] na nasa loob ng kamakailang mga pagbabago.",
+	"nuke-list": "Ang sumusunod na mga pahina ay nilikha kamakailan lamang ni [[Special:Contributions/$1|$1]];\nmaglagay/magpasok ng isang puna (kumento) at pindutin ang pindutan upang mabura ang mga ito.",
+	"nuke-list-multiple": "Ang sumusunod na mga pahina ay kamakailan lamang nalikha;\nmaglagay ng isang puna at pindutin ang pindutan upang mabura ang mga ito.",
+	"nuke-defaultreason": "Idinagdag ni $1 ang malawakang pagbubura ng mga pahina",
+	"nuke-multiplepeople": "Maramihang pagbubura ng kamakailang idinagdag na mga pahina",
+	"nuke-tools": "Nagpapahintulot ang kagamitang ito upang mabura ng malawakan ang mga pahinang idinagdag kamakailan ng isang ibinigay na tagagamit o tirahan ng IP.\nIpasok ang pangalan ng tagagamit o tirahan ng IP upang makakuha ng isang talaan ng mga pahinang buburahin, o iwanang walang laman para sa lahat ng mga tagagamit.",
+	"nuke-submit-user": "Gawin",
+	"nuke-submit-delete": "Pinili ang pagbura",
+	"right-nuke": "Malawakang burahin ang mga pahina",
+	"nuke-userorip": "Pangalan ng tagagamit, Tirahan ng IP o walang laman:",
+	"nuke-maxpages": "Pinakamaraming bilang ng mga pahina:",
+	"nuke-editby": "Nilikha ni [[Special:Contributions/$1|$1]]",
+	"nuke-deleted": "Nabura na ang pahinang '''$1'''.",
+	"nuke-not-deleted": "'''Hindi mabura''' ang pahinang [[:$1]].",
+	"nuke-delete-more": "[[Special:Nuke|Magbura ng marami pang mga pahina]]",
+	"nuke-pattern": "Padron para sa pangalan ng pahina:",
+	"nuke-nopages-global": "Walang bagong mga pahina sa loob ng [[Special:RecentChanges|kamakailang mga pagbabago]].",
+	"nuke-viewchanges": "tingnan ang mga pagbabago"
+}

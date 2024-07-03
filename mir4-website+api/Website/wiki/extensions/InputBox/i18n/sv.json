@@ -1,0 +1,20 @@
+{
+	"@metadata": {
+		"authors": [
+			"Boivie",
+			"Lejonel",
+			"Lokal Profil",
+			"Najami"
+		]
+	},
+	"inputbox-desc": "Tillåt inkluderingen av fördefinierade HTML-formulär.",
+	"inputbox-error-no-type": "Du har inte angivit vilken typ av inputbox som ska skapas.",
+	"inputbox-error-bad-type": "\"$1\" är inte en känd typ av inputbox.\nVar god specificera \"create\", \"comment\", \"search\", \"search2\" eller \"fulltext\".",
+	"inputbox-tryexact": "Försök hitta exakt matchning",
+	"inputbox-searchfulltext": "Fulltextsökning",
+	"inputbox-createarticle": "Skapa sida",
+	"inputbox-movearticle": "Flytta sida",
+	"inputbox-postcomment": "Nytt avsnitt",
+	"inputbox-postcommenttitle": "Nytt avsnitt",
+	"inputbox-ns-main": "Huvud"
+}

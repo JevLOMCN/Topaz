@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Mako001",
+			"Piano1forte2",
+			"Reedy"
+		]
+	},
+	"discussiontoolsdebug-intro": "This page demonstrates how the [https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:DiscussionTools DiscussionTools extension] recognises the threads and comments present on the page '''[[:$1]]'''. You may find it useful in debugging issues with the extension or understanding how it works. The same information is available in the [[$2|discussiontoolspageinfo API]].",
+	"discussiontools-preference-description": "Enables experimental talk page features:\n* [https://www.mediawiki.org/wiki/Talk_pages_project/Usability Show metadata] about each discussion and enable a new page layout.\n\nYou can customise these features in your [[Special:Preferences#mw-prefsection-editing-discussion|preferences]].\n\nUpdates will be posted on the [https://www.mediawiki.org/wiki/Talk_pages_project/Updates talk pages project's updates page].\n\nPlease note:\n* Over time, new experimental features will be added.\n* Some of the features above may not be available at your wiki yet."
+}

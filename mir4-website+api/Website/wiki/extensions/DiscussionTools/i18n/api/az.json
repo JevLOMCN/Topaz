@@ -1,0 +1,43 @@
+{
+	"@metadata": {
+		"authors": [
+			"NMW03",
+			"Nemoralis"
+		]
+	},
+	"apierror-discussiontools-commentid-notfound": "\"$1\" nömrəli şərh tapıla bilmədi.",
+	"apierror-discussiontools-commentname-ambiguous": "'$1' adı ilə birdən çox şərh tapıldı, <var>commentid</var> tələb olunur.",
+	"apierror-discussiontools-commentname-notfound": "\"$1\" adlı şərh tapıla bilmədi.",
+	"apierror-discussiontools-formtoken-used": "Şərh artıq yayımlanıb. Baxmaq üçün səhifəni yenidən yükləyin.",
+	"apierror-discussiontools-subscription-failed-add": "Mövzuya abunə olmaq mümkün olmadı",
+	"apierror-discussiontools-subscription-failed-remove": "Mövzunun abunəliyindən çıxmaq mümkün olmadı.",
+	"apihelp-discussiontoolscompare-summary": "İki səhifə versiyası arasında şərh dəyişiklikləri haqqında məlumat əldə edin.",
+	"apihelp-discussiontoolsedit-param-commentid": "Cavablandırılacaq şərhin nömrəsi. <var>paction</var> <var>addcomment</var> olduqda istifadə olunur. <var>commentname</var>-in üstünə yazır.",
+	"apihelp-discussiontoolsedit-param-commentname": "Cavablandırılacaq şərhin adı. <var>paction</var> <var>addcomment</var> olduqda istifadə olunur.",
+	"apihelp-discussiontoolsedit-param-autosubscribe": "İstifadəçi avtomatik olaraq müzakirə səhifəsi mövzusuna abunə olunsun?",
+	"apihelp-discussiontoolsedit-param-formtoken": "İki dəfə göndərməyin qarşısını almaq üçün yaradılan istəyə bağlı unikal ID.",
+	"apihelp-discussiontoolsedit-param-html": "HTML olaraq göndəriləcək məzmun. <var>wikitext</var> ilə birlikdə istifadə oluna bilər.",
+	"apihelp-discussiontoolsedit-param-sectiontitle": "{{int:apihelp-edit-param-sectiontitle}} <var>paction</var> <var>addcomment</var> olduqda istifadə olunur.",
+	"apihelp-discussiontoolsedit-param-allownosectiontitle": "Başlıq olmadan yeni bölmənin yerləşdirilməsinə icazə ver",
+	"apihelp-discussiontoolsedit-param-wikitext": "Vikimətn olaraq göndəriləcək məzmun. <var>html</var> ilə birlikdə istifadə oluna bilər.",
+	"apihelp-discussiontoolsedit-paramvalue-paction-addcomment": "Mövcud bir şərhə cavab olaraq yeni bir şərh əlavə edin.",
+	"apihelp-discussiontoolsedit-paramvalue-paction-addtopic": "Yeni bir müzakirə bölməsi və ona ilk şərhi əlavə edin.",
+	"apihelp-discussiontoolsedit-summary": "Bir müzakirə səhifəsinə mesaj göndərin.",
+	"apihelp-discussiontoolsfindcomment-summary": "ID və ya adı ilə şərhı tapın.",
+	"apihelp-discussiontoolsfindcomment-param-idorname": "Şərh ID və ya ad",
+	"apihelp-discussiontoolsgetsubscriptions-param-commentname": "Baxılacaq mövzuların adları",
+	"apihelp-discussiontoolsgetsubscriptions-summary": "Verilmiş mövzuların abunə statuslarını əldə edin.",
+	"apihelp-discussiontoolspageinfo-param-oldid": "Versiya nömrəsi (defolt olaraq son versiyanı istifadə edir)",
+	"apihelp-discussiontoolspageinfo-param-prop": "Hansı xüsusiyyətlər:",
+	"apihelp-discussiontoolspageinfo-param-excludesignatures": "İstifadəçi imzalarını şərhlərdən çıxarın (<var>prop=threaditemshtml</var> istifadə edərkən).",
+	"apihelp-discussiontoolspageinfo-paramvalue-prop-threaditemshtml": "Səhifədən təhlil edilmiş şərh başlıqlarının təqdimatı",
+	"apihelp-discussiontoolspageinfo-paramvalue-prop-transcludedfrom": "Şərhlər başqa hansı səhifələrdən köçürülüb",
+	"apihelp-discussiontoolspageinfo-summary": "Müzakirə vasitələrini işə salmaq üçün lazım olan meta məlumatları verir.",
+	"apihelp-discussiontoolspreview-param-type": "Sınaq görüntüsü üçün mesaj növü",
+	"apihelp-discussiontoolspreview-param-wikitext": "Vikimətn kimi sınaq görüntüsü üçün məzmun.",
+	"apihelp-discussiontoolspreview-summary": "Müzakirə səhifəsində mesajı nəzərdən keçirin.",
+	"apihelp-discussiontoolssubscribe-param-commentname": "Abunə olmaq (və ya abunəlikdən çıxmaq) üçün mövzunun adı",
+	"apihelp-discussiontoolssubscribe-param-page": "Mövzunun göründüyü səhifə",
+	"apihelp-discussiontoolssubscribe-param-subscribe": "Abunə olmaq üçün true, abunəlikdən çıxmaq üçün false",
+	"apihelp-discussiontoolssubscribe-summary": "Bir mövzu ilə bağlı bildiriş almaq üçün abunə olun (və ya abunəlikdən çıxın)."
+}

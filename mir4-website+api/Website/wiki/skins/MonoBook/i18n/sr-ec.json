@@ -1,0 +1,26 @@
+{
+	"@metadata": {
+		"authors": [
+			"BadDog",
+			"Kizule",
+			"Milicevic01",
+			"Obsuser",
+			"Rancher"
+		]
+	},
+	"skinname-monobook": "Монобук",
+	"monobook-desc": "Класична Медијавики тема из 2004, названа по црно-белој фотографији књиге у позадини странице",
+	"monobook.css": "/* CSS постављен овде ће утицати на све кориснике теме „Монобук” */",
+	"monobook.js": "/* Сав Јаваскрипт постављен овде ће се учитати свим корисницима теме „Монобук“ */",
+	"monobook-jumptotop": "назад на врх",
+	"monobook-jumptopersonal": "корисничке алатке",
+	"monobook-jumptonavigation": "Иди на навигацију",
+	"monobook-jumptosearch": "Иди на претрагу",
+	"monobook-more-actions": "Више",
+	"cactions-mobile": "Радње за страницу",
+	"monobook-cactions-label": "Радње за страницу",
+	"monobook-notifications-link": "Обавештења ($1)",
+	"monobook-notifications-link-none": "Обавештења",
+	"monobook-view-history": "Историја",
+	"monobook-action-undelete": "Врати {{PLURAL:$1|избрисану измену|$1 избрисане измене|$1 избрисаних измена}}"
+}

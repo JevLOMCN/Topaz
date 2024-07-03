@@ -1,0 +1,56 @@
+@import 'mediawiki.skin.variables.less';
+
+.mixin-notification-badge() {
+	position: relative;
+
+	// When 99+ allow counter so spill outside icon
+	&.cdx-button {
+		overflow: visible;
+	}
+
+	&::after {
+		position: absolute;
+		left: 55%;
+		top: 43%;
+		font-size: unit( ( 12 / 16 ) * @font-size-base, rem );
+		padding: 0 unit( ( 4 / 16 ) * @font-size-base, rem );
+		border: 1px solid #fff;
+		border-radius: @border-radius-base;
+		background-color: #72777d;
+		content: attr( data-counter-text );
+		color: #fff;
+	}
+
+	// The number of notifications shouldn't show if there are none.
+	&[ data-counter-num='0' ]::after {
+		content: none;
+	}
+}
+
+.mw-echo-notification-badge-nojs {
+	.mixin-notification-badge();
+}
+
+// Special colors for unseen notifications
+#pt-notifications-alert .mw-echo-unseen-notifications::after {
+	background-color: @color-destructive;
+}
+
+#pt-notifications-notice .mw-echo-unseen-notifications::after {
+	background-color: @color-progressive;
+}
+
+// Override ULS enhanced buttons
+#pt-notifications-notice .mw-echo-notifications-badge,
+#pt-notifications-alert .mw-echo-notifications-badge {
+	.mixin-notification-badge();
+	display: inline-flex;
+	margin: 0;
+	opacity: 1;
+	// T341490 We are incorrectly applying Codex icon and button styles on the
+	// same element because ULS frequently overwrites the contents of the element
+	// so it is too difficult to maintain the correct markup. Because we are mixing
+	// Codex styles, the proper styles are overridden, this corrects that.
+	min-width: @min-size-interactive-pointer;
+	min-height: @min-size-interactive-pointer;
+}

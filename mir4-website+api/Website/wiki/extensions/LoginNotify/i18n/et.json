@@ -1,0 +1,19 @@
+{
+	"@metadata": {
+		"authors": [
+			"Pikne"
+		]
+	},
+	"loginnotify-desc": "Teavitab kasutajaid kahtlastest sisselogimiskatsetest, mis on tehtud tundmatu seadmega ja/või tundmatult IP-aadressilt.",
+	"echo-category-title-login-fail": "Ebaõnnestunud sisselogimiskatsed",
+	"echo-pref-tooltip-login-fail": "Teavita mind, kui mõni sisselogimiskatse minu kontole on ebaõnnestunud.",
+	"echo-category-title-login-success": "Sisselogimine tundmatu seadmega",
+	"echo-pref-tooltip-login-success": "Teavita mind, kui keegi logib minu kontole sisse tundmatu seadmega ja tundmatult IP-aadressilt.",
+	"loginnotify-primary-link": "Abi",
+	"notification-loginnotify-login-fail-email-subject": "{{PLURAL:$2|Ebaõnnestunud katse|Mitu ebaõnnestunud katset}} logida {{GRAMMAR:illative|{{SITENAME}}}} kontoga $1",
+	"notification-loginnotify-login-success-email-subject": "Sisselogimine {{GRAMMAR:genitive|{{SITENAME}}}} kontole $1 seadmest, mida {{GENDER:$1|sa}} pole viimasel ajal kasutanud",
+	"notification-header-login-success": "Keegi, tõenäoliselt {{GENDER:$1|sina}} ise, logis hiljuti sinu kontole sisse uue seadmega. Kui see olid sina ise, siis pole sellele sõnumile tarvis tähelepanu pöörata. Kui see polnud sina, siis on soovitatav muuta parool ja kontrollida konto tegevust.",
+	"notification-new-bundled-header-login-fail": "Pärast seda, kui viimati sisse logisid, on proovitud sinu kontole {{PLURAL:$1|'''korra'''|'''$1 korda'''}} sisse logida uue seadmega. Kui see polnud sina, siis veendu, et sinu konto parool on kindel.",
+	"notification-known-header-login-fail": "Pärast seda, kui viimati sisse logisid, on proovitud sinu kontole {{PLURAL:$1|'''korra'''|'''$1 korda'''}} sisse logida. Kui see polnud sina, siis veendu, et sinu konto parool on kindel.",
+	"notification-new-unbundled-header-login-fail": "Sinu kontole on proovitud {{PLURAL:$1|'''korra'''|'''mitu korda'''}} uue seadmega sisse logida. Palun veendu, et sinu konto parool on kindel."
+}

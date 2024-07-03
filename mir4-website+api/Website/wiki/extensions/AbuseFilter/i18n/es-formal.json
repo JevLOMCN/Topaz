@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Fitoschido",
+			"MarcoAurelio"
+		]
+	},
+	"abusefilter-intro": "Sea bienvenido a la interfaz de administración del filtro antiabusos.\nEl filtro antiabusos es un programa que aplica heurística a todas las ediciones.\nLa intrerfaz muestra una lista de filtros definidos, y le permite modificarlos.",
+	"abusefilter-warning": "'''Atención:''' Esta acción ha sido automáticamente identificada como dañina.\nLas ediciones contraproducentes son rápidamente revertidas y los sucesivos intentos de persistir en su adición resultarán en que su cuenta y/o direcciones IP sean bloqueadas.\nSi usted cree que la edición era constructiva, puede volver a intentar enviarla para confirmarla.\nUna breve referencia de la regla del filtro antiabusos que su edición ha disparado es: $1",
+	"abusefilter-disallowed": "Esta acción ha sido automáticamente identificada como dañina y su ejecución ha sido deshabilitada.\nSi usted cree que su acción por contra resultaba constructiva por favor informe a un administrador acerca de lo que usted intentaba realizar.\nUna breve descripción de la regla del filtro antiabusos que se ha disparado es: $1",
+	"abusefilter-log-details-hidden": "No puede ver detalles de esta entrada porque su acceso público está restringido.",
+	"abusefilter-edit-throttle-groups-help": "Consulte $1.",
+	"abusefilter-edit-denied": "No puede ver detalles de este filtro porque su acceso público está restringido."
+}

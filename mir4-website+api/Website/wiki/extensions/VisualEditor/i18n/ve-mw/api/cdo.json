@@ -1,0 +1,31 @@
+{
+	"@metadata": {
+		"authors": [
+			"Yejianfei",
+			"Ztl8702",
+			"唐吉訶德的侍從"
+		]
+	},
+	"apihelp-visualeditor-param-basetimestamp": "敆保存其辰候，起動汝共嚽設置成編輯茲萆修訂版本其時間戳。廮𡅏檢測編輯衝突。",
+	"apihelp-visualeditor-param-cachekey": "對序列化或者版本差異，使以前其serializeforcache請求共茲密鑰產生其結果。覆蓋 $1html。",
+	"apihelp-visualeditor-param-etag": "著發送其 ETag。",
+	"apihelp-visualeditor-param-html": "著發送遘 Parsoid 去轉換成 Wiki 文本其 HTML。",
+	"apihelp-visualeditor-param-oldid": "著使其修訂版本號（默認是最新修訂版本）。",
+	"apihelp-visualeditor-param-paction": "著執行的操作。",
+	"apihelp-visualeditor-param-page": "著執行操作其頁面。",
+	"apihelp-visualeditor-param-pst": "發送遘Parsoid之前預保存著轉換其Wiki文本（paction=parsefragment）。",
+	"apihelp-visualeditor-param-starttimestamp": "保存其辰候，將伊設置成頁面加載辰候其時間戳。廮𡅏檢測編輯衝突。",
+	"apihelp-visualeditor-param-wikitext": "發送遘Parsoid來轉成HTML其Wiki文本",
+	"apihelp-visualeditoredit-param-basetimestamp": "敆保存其辰候，起動汝共嚽設置成編輯茲萆修訂版本其時間戳。廮𡅏檢測編輯衝突。",
+	"apihelp-visualeditoredit-param-cachekey": "使以前其serializeforcache請求共者密鑰產生其結果。覆蓋 $1html。",
+	"apihelp-visualeditoredit-param-captchaid": "驗證碼標識符（帶驗證碼保存其辰候）。",
+	"apihelp-visualeditoredit-param-captchaword": "回答驗證碼 (帶驗證碼保存其辰候)。",
+	"apihelp-visualeditoredit-param-etag": "著發送其ETag。",
+	"apihelp-visualeditoredit-param-html": "著發送遘Parsoid轉成Wiki文本其HTML。",
+	"apihelp-visualeditoredit-param-minor": "標記成小編輯。",
+	"apihelp-visualeditoredit-param-needcheck": "保存其辰候如果修訂版本直頭出現問題，噲就設置茲萆參數。嚽會造成編輯乞拍上標籤。",
+	"apihelp-visualeditoredit-param-oldid": "著使其修訂版本號。默認是最新版，使用0表示新頁面。",
+	"apihelp-visualeditoredit-param-page": "著執行操作其頁面。",
+	"apihelp-visualeditoredit-param-starttimestamp": "保存其辰候，將伊設置成頁面加載辰候其時間戳。廮𡅏檢測編輯衝突。",
+	"apihelp-visualeditoredit-param-summary": "編輯摘要"
+}

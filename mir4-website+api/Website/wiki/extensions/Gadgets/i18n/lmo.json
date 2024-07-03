@@ -1,0 +1,38 @@
+{
+	"@metadata": {
+		"authors": [
+			"Salvemm el lombard"
+		]
+	},
+	"gadgets-desc": "El permet ai utent de scernì foeura di [[Special:Gadgets|acessori CSS e JavaScript]] in di so [[Special:Preferences#mw-prefsection-gadgets|preferenze]]",
+	"prefs-gadgets": "Acessori",
+	"gadgets-prefstext": "Chi de sota a gh'è una lista di acessori speciai che te podet ativà per la toa utenza. \nLa pupart de sti acessori chì l'è fondada sora 'l JavaScript, donca gh'è besogn de ativà el JavaScript in del to programa de navigazzion de fai fonzionà a la sgiusta manera. Notà che i acessori i avarann nissun efet in quella pagina de preferenze chì.\n\nDessorapù, notà che 'sti accessori speciai i fann minga part del programa MediaWiki e de solit a inn realizzad e sgestid di utent de ciaschedun sit wiki. I minestrador de l'interfacia del sit i poden modifegà la lista di acessori disponibil per mezz di pagine di [[MediaWiki:Gadgets-definition|definizzion]], inveci i minestrador del sit i poden modifegà i so [[Special:Gadgets|descrizzion]], 'doe te podet vedè el codes sorgent de ciaschedun di acessori. El numer de utent per ciaschedun di acessori in su 'sto wiki chì l'è in la lista in di [[Special:GadgetUsage|statisteghe de utilizazzion di acessori]].",
+	"special-gadgets": "Acessori",
+	"gadgetusage": "Statisteghe de l'uso di acessori",
+	"gadgetusage-gadget": "Acessori",
+	"gadgetusage-usercount": "Numer de utent",
+	"gadgetusage-noresults": "Nissun acessori trovad",
+	"gadgetusage-intro": "Questa tabella chì l'indica el numer de utent ch'a ha ativad un acessori in su questa wiki chì. Un utent ativ l'è considerad come un quaidun che l'hà fad una modifega {{PLURAL:$1|in del'ultima sgiornada|in di ultim $1 dì}}. Questa lista chì la esclud i statistiche per i accessori ativad per tucc in manera predefinida e la po includ anca di acessori ch'a inn pu disponibil.",
+	"gadgetusage-intro-noactive": "Questa tabella chì l'indica el numer de utent ch'i hann ativad un accessori in su questa wiki chì. Questa lista chì la esclud i statisteghe per i accessori ativad per tucc in manera predefinida e la po includ anca di acessori ch'a inn pu disponibil.",
+	"gadgetusage-activeusers": "Utent ativ",
+	"gadgetusage-default": "Predefinid",
+	"gadgets-title": "Acessori",
+	"gadgets-pagetext": "Chì de sota a gh'è la lista di acessori che i utent i poden ativà in su la soa pagina di [[Special:Preferences#mw-prefsection-gadgets|preferenze]], tant 'me che l'è definid in di [[MediaWiki:Gadgets-definition|definizzion]]. Questa veduda la foniss un mez comod de andágh dent ai pagine di messagg de sistema che definissen la descrizzion e 'l codes per ciaschedun di acessori.",
+	"gadgets-editdescription": "Modifega la descrizzion",
+	"gadgets-viewdescription": "Varda la descrizzion",
+	"gadgets-uses": "Drova",
+	"gadgets-required-rights": "{{PLURAL:$2|EGhe voeur quel dirit chì|A ghe voeuren 'sti dirit chì}}:\n\n$1",
+	"gadgets-required-skins": "Disponibil {{PLURAL:$2|per quell tempa chì $1|per 'sti tema chì: $1}}.",
+	"gadgets-required-actions": "Lavoregh adree a {{PLURAL:$2|\"$1\" azzion de la pagina|'sti azzion de la pagina chì: $1}}.",
+	"gadgets-default": "Ativad per tucc, per impostazzion predefinida.",
+	"gadgets-legacy": "Acessori minga caregad. Migra a ResourceLoader. ([https://www.mediawiki.org/wiki/Special:MyLanguage/ResourceLoader/Migration_guide_(users) Per savenn pussee])",
+	"gadgets-packaged": "Quest acessori chì l'è [https://www.mediawiki.org/wiki/ResourceLoader/Package_files packaged], el pont de entrada a l'è $1",
+	"gadgets-export": "Esporta",
+	"gadgets-export-title": "Esporta acessori",
+	"gadgets-not-found": "Acessori \"$1\" minga trovad.",
+	"gadgets-export-text": "Per esportà l'acessori $1, clica in sul pulsant \"{{int:gadgets-export-download}}\", salva el fail descaregad,\nva a la pagina Special:Import in la wiki de destinazzion e carega el file. Poeu sgionta sta definizzion chì a la pagina MediaWiki:Gadgets-definition:\n<pre>$2</pre>\nTe gh'̟heet de avè i permess adatt inla wiki de destinazzion (compres el dirit de modifegà i messagg de sistema) e l'importazzion di fail la gh'hà de vesser ativada.",
+	"gadgets-export-download": "Descarega",
+	"gadgets-validate-notset": "La proprietà <code>$1</code> l'è minga impostada.",
+	"gadgets-validate-wrongtype": "La proprietà <code>$1</code> la gh'hà de vesser de tipo <code>$2</code> inscambi che <code>$3</code>.",
+	"gadgets-supports-urlload": "Quell acessori el suporta el caregament per mez de URL cont el parametro de query <code>?withgadget</code> ."
+}

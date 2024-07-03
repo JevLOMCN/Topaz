@@ -1,0 +1,30 @@
+{
+	"@metadata": {
+		"authors": [
+			"Event",
+			"Jon Harald Søby",
+			"Laaknor"
+		]
+	},
+	"pfunc_desc": "Utvid parser med logiske funksjoner",
+	"pfunc_time_error": "Feil: ugyldig tid",
+	"pfunc_time_too_long": "Feil: #time brukt for mange ganger",
+	"pfunc_time_too_big": "Feil: #time støtter kun år opp til 9999",
+	"pfunc_time_too_small": "Feil: #time støtter bare år fra 0.",
+	"pfunc_rel2abs_invalid_depth": "Feil: Ugyldig dybde i sti: «$1» (prøvde å få tilgang til en node over rotnoden)",
+	"pfunc_expr_stack_exhausted": "Uttrykksfeil: Stakk utbrukt",
+	"pfunc_expr_unexpected_number": "Uttrykksfeil: Uventet nummer",
+	"pfunc_expr_preg_match_failure": "Uttrykksfeil: Uventet preg_match-feil",
+	"pfunc_expr_unrecognised_word": "Uttrykksfeil: Ugjenkjennelig ord «$1»",
+	"pfunc_expr_unexpected_operator": "Uttrykksfeil: Uventet $1-operator",
+	"pfunc_expr_missing_operand": "Uttrykksfeil: Mangler operand for $1",
+	"pfunc_expr_unexpected_closing_bracket": "Uttrykksfeil: Uventet lukkende parentes",
+	"pfunc_expr_unrecognised_punctuation": "Uttrykksfeil: Ugjenkjennelig skilletegn «$1»",
+	"pfunc_expr_unclosed_bracket": "Uttrykksfeil: Åpen parentes",
+	"pfunc_expr_division_by_zero": "Deling på null",
+	"pfunc_expr_invalid_argument": "Ugyldig argument for $1: mindre enn -1 eller større 1",
+	"pfunc_expr_invalid_argument_ln": "Ugyldig argument for ln: mindre enn eller lik 0",
+	"pfunc_expr_unknown_error": "Uttrykksfeil: Ukjent feil ($1)",
+	"pfunc_expr_not_a_number": "I $1: resultat er ikke et tall",
+	"pfunc_string_too_long": "Feil: Strengen går over grensen på $1 tegn"
+}

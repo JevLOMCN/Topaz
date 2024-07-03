@@ -1,0 +1,33 @@
+{
+	"@metadata": {
+		"authors": [
+			"Bugoslav",
+			"Dalibor Bosits",
+			"Dnik",
+			"Ex13",
+			"Ponor",
+			"Roberta F.",
+			"SpeedyGonsales"
+		]
+	},
+	"pfunc_desc": "Mogućnost proširivanja parsera logičkim funkcijama",
+	"pfunc_time_error": "Pogreška: datum i vrijeme nisu valjani.",
+	"pfunc_time_too_long": "Pogreška: prevelik broj poziva funkcije #time.",
+	"pfunc_time_too_small": "Pogreška: #time podržava godine samo od 0.",
+	"pfunc_rel2abs_invalid_depth": "Pogreška: Nevaljana dubina putanje »$1« (pokušaj pristupanja čvoru iznad korijenskog)",
+	"pfunc_expr_stack_exhausted": "Pogreška u izrazu: prepunjen stog.",
+	"pfunc_expr_unexpected_number": "Pogreška u izrazu: neočekivan broj.",
+	"pfunc_expr_preg_match_failure": "Pogreška u izrazu: neočekivana pogreška u funkciji preg_match.",
+	"pfunc_expr_unrecognised_word": "Pogreška u izrazu: nepoznata riječ »$1«",
+	"pfunc_expr_unexpected_operator": "Pogreška u izrazu: Neočekivani operator $1",
+	"pfunc_expr_missing_operand": "Pogreška u izrazu: operatoru $1 nedostaje operand.",
+	"pfunc_expr_unexpected_closing_bracket": "Pogreška u izrazu: neočekivana zatvorena zagrada.",
+	"pfunc_expr_unrecognised_punctuation": "Pogreška u izrazu: nepoznat interpunkcijski znak »$1«.",
+	"pfunc_expr_unclosed_bracket": "Pogreška u izrazu: nezatvorene zagrade.",
+	"pfunc_expr_division_by_zero": "Dijeljenje s nulom",
+	"pfunc_expr_invalid_argument": "Nevaljani argumenti za $1: < -1 ili > 1",
+	"pfunc_expr_invalid_argument_ln": "Nevaljani argument za ln: <= 0",
+	"pfunc_expr_unknown_error": "Pogreška u izrazu: $1.",
+	"pfunc_expr_not_a_number": "U $1: rezultat nije broj",
+	"pfunc_string_too_long": "Pogreška: unos prelazi ograničenje od {{PLURAL:$1|$1 znaka|$1 znaka|$1 znakova}}"
+}

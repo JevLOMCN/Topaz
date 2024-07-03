@@ -1,0 +1,19 @@
+{
+	"@metadata": {
+		"authors": [
+			"Gazeb"
+		]
+	},
+	"imagemap_desc": "Доволює створёвати кликачу мапу образку на боцї кліента за помочі значкы <code>&lt;imagemap&gt;</code>",
+	"imagemap_no_image": "Хыба: на першім рядку мусить быти заданый образок",
+	"imagemap_invalid_image": "Хыба: файл не є платный або не єствує",
+	"imagemap_bad_image": "Хыба: образок ся находить на чорнім списку",
+	"imagemap_no_link": "Хыба: не нашов ся жаден платный одказ на кінцї рядку $1",
+	"imagemap_invalid_title": "Хыба: неправилна назва в одказї на рядку $1",
+	"imagemap_missing_coord": "Хыба: хыблячі коордінаты про твар на рядку $1",
+	"imagemap_unrecognised_shape": "Хыба: нероспознаный твар на рядку $1, каждый рядок мусить зачінати дефініціов твару: <code>default</code>, <code>rect</code>, <code>circle</code> або <code>poly</code>",
+	"imagemap_invalid_coord": "Хыба: неправилны коордінаты на рядку $1, має быти чісло",
+	"imagemap_invalid_desc": "Хыба: неправилне заданя области desc, має быти єдна з такых можностей: <code>$1</code>",
+	"imagemap_description": "О образку",
+	"imagemap_poly_odd": "Хыба: на рядку $1 найденый многокутник з непарным чіслом коордінат"
+}

@@ -1,0 +1,35 @@
+{
+	"@metadata": {
+		"authors": [
+			"Amire80",
+			"Bjankuloski06",
+			"Brest",
+			"Iwan Novirion",
+			"Vlad5250",
+			"아라"
+		]
+	},
+	"tag-editcheck-newcontent-description": "EditCheck мисли дека на страницата е додадена нова содржина",
+	"tag-editcheck-newreference-description": "На страницата е додадена нова содржина",
+	"tag-editcheck-references-description": "EditCheck мисли дека треба навод",
+	"tag-editcheck-references-activated": "[[{{MediaWiki:editcheck-falsepositives-link}}|Вклучена проверката на уредувања (наводи)]]",
+	"tag-editcheck-references-activated-description": "Проверката на уредувања смета дека може да треба навод, и се покажа корисничкиот посредник",
+	"tag-visualeditor": "[[{{MediaWiki:visualeditor-descriptionpagelink}}|Нагледно уредување]]",
+	"tag-visualeditor-description": "Уредување направено со [[{{MediaWiki:visualeditor-descriptionpagelink}}|нагледниот уредник]]",
+	"tag-visualeditor-needcheck": "[[{{MediaWiki:visualeditor-descriptionpagelink}}|Нагледен уредник: Проверка]]",
+	"tag-visualeditor-needcheck-description": "Уредување направено со [[{{MediaWiki:visualeditor-descriptionpagelink}}|нагледниот уредник]] при кое системот утврдил дека викитекстот може да има ненамерни измени.",
+	"tag-visualeditor-wikitext": "Изворно уредување 2017",
+	"tag-visualeditor-wikitext-description": "Уредувањето е направено со уредникот на викитекст од 2017 г.",
+	"tag-visualeditor-switched": "[[{{MediaWiki:visualeditor-descriptionpagelink}}|Негледен уредник: Префрлено]]",
+	"tag-visualeditor-switched-description": "Корисникот почнал да уредува со нагледниот уредник, но потоа се префрлил на викитекстуалниот.",
+	"visualeditor-feedback-link": "Project:VisualEditor/Мислења",
+	"visualeditor-feedback-tool": "Дајте мислење за програмов",
+	"visualeditor-help-label": "Прочитајте го корисничкиот водич",
+	"visualeditor-help-link": "mw:Special:MyLanguage/Help:VisualEditor/User guide",
+	"visualeditor-welcomedialog-action": "Почнете со уредување",
+	"visualeditor-welcomedialog-content": "Секој може да уредува и секое подобрување е корисно.",
+	"visualeditor-welcomedialog-content-thanks": "Ви благодариме што му помогнавте на светот да осознае повеќе!",
+	"visualeditor-welcomedialog-switch": "Префрли на изворниот уредник",
+	"visualeditor-welcomedialog-switch-ve": "Префрли на нагледниот уредник",
+	"visualeditor-welcomedialog-title": "{{GENDER:$1|Добре дојдовте}} на $2"
+}

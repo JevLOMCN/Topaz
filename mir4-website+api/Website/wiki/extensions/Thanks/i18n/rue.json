@@ -1,0 +1,18 @@
+{
+	"@metadata": {
+		"authors": [
+			"Tkalyn"
+		]
+	},
+	"thanks-thank": "{{GENDER:$1|{{GENDER:$2|подяковати}}}}",
+	"thanks-thanked": "{{GENDER:$1|{{GENDER:$2|подяковали сьте}}}}",
+	"thanks-button-thank": "{{GENDER:$1|{{GENDER:$2|Подяковати}}}}",
+	"thanks-button-thanked": "{{GENDER:$2|{{GENDER:$1|Подяковали сьте}}}}",
+	"notification-header-rev-thank": "$1 {{GENDER:$4|Вам}} {{GENDER:$2|подяковав|подяковала}} за едітованя сторінкы <strong>$3</strong>.",
+	"notification-header-creation-thank": "$1 {{GENDER:$4|Вам}} {{GENDER:$2|подяковав|подяковала}} за створеня сторінкы <strong>$3</strong>.",
+	"notification-header-log-thank": "$1 {{GENDER:$4|Вам}} {{GENDER:$2|подяковав|подяковала}} за Вашу дїю споєну зо сторінков <strong>$3</strong>.",
+	"notification-compact-header-edit-thank": "$1 {{GENDER:$3|Вам}} {{GENDER:$2|подяковав|подяковала}}.",
+	"logentry-thanks-thank": "$1 {{GENDER:$2|подяковав|подяковала}} {{GENDER:$4|хоснователёви|хосновательцї}} $3",
+	"notification-header-flow-thank": "$1 {{GENDER:$5|Вам}} {{GENDER:$2|подяковав|подяковала}} за Ваш коментарь на <strong>$3</strong>.",
+	"notification-compact-header-flow-thank": "$1 {{GENDER:$3|Вам}} {{GENDER:$2|подяковав|подяковала}}."
+}

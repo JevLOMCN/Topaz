@@ -1,0 +1,34 @@
+{
+	"@metadata": {
+		"authors": [
+			"Dimension",
+			"GuoPC",
+			"Liuxinyu970226",
+			"SolidBlock",
+			"Yfdyh000",
+			"御坂美琴"
+		]
+	},
+	"apihelp-query+gadgetcategories-summary": "返回小工具分类列表。",
+	"apihelp-query+gadgetcategories-param-prop": "要获取的小工具分类信息：",
+	"apihelp-query+gadgetcategories-paramvalue-prop-name": "内部分类名称。",
+	"apihelp-query+gadgetcategories-paramvalue-prop-title": "分类标题。",
+	"apihelp-query+gadgetcategories-paramvalue-prop-members": "分类中的小工具数量。",
+	"apihelp-query+gadgetcategories-param-names": "要获取的分类名。",
+	"apihelp-query+gadgetcategories-example-1": "获取现有小工具分类的列表",
+	"apihelp-query+gadgetcategories-example-2": "获取所有有关名称为“foo”和“bar”的分类的信息",
+	"apihelp-query+gadgets-summary": "返回本wiki使用的小工具的列表。",
+	"apihelp-query+gadgets-param-prop": "要获取的小工具信息：",
+	"apihelp-query+gadgets-paramvalue-prop-id": "内部小工具ID。",
+	"apihelp-query+gadgets-paramvalue-prop-metadata": "小工具元数据。",
+	"apihelp-query+gadgets-paramvalue-prop-desc": "转换成HTML的小工具说明（较慢，只在需要的时候使用）。",
+	"apihelp-query+gadgets-param-categories": "来自要检索的分类的小工具。",
+	"apihelp-query+gadgets-param-ids": "要检索的小工具ID。",
+	"apihelp-query+gadgets-param-allowedonly": "只列出允许当前用户使用的小工具。",
+	"apihelp-query+gadgets-param-enabledonly": "只列出当前用户启用的小工具。",
+	"apihelp-query+gadgets-example-1": "获取小工具列表，连带它们的说明",
+	"apihelp-query+gadgets-example-2": "获取含全部可能属性的小工具列表",
+	"apihelp-query+gadgets-example-3": "获取属于分类“foo”的小工具列表",
+	"apihelp-query+gadgets-example-4": "获取有关小工具“foo”和“bar”的信息",
+	"apihelp-query+gadgets-example-5": "获取当前用户启用的小工具列表"
+}

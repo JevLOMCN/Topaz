@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Kaszeba"
+		]
+	},
+	"apihelp-categorytree-summary": "Bënowi mòduł rozszérzeniô \"CategoryTree\"",
+	"apihelp-categorytree-param-category": "Titel w rumach mionów kategòrëji, prefiks bãdze jignorowóny jeżlë òstónie pòdóny.",
+	"apihelp-categorytree-param-options": "Optacëjô dlô kònstruktora CategoryTree jakno òbjekt JSON. Optacëjô <var>depth</var> domëslno je <kbd>1</kbd>.",
+	"apierror-categorytree-invalidjson": "Òptacëje mùszą bëc pòprôwnyma òbjektama JSON."
+}

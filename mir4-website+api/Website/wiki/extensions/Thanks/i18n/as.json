@@ -1,0 +1,30 @@
+{
+	"@metadata": {
+		"authors": [
+			"Bishnu Saikia",
+			"Dibya Dutta",
+			"Gitartha.bordoloi",
+			"Simbu123"
+		]
+	},
+	"thanks-thank": "{{GENDER:$1|{{GENDER:$2|ধন্যবাদ}}}}",
+	"thanks-thanked": "{{GENDER:$1|{{GENDER:$2|ধন্যবাদ জনাইছে}}}}",
+	"thanks-button-thank": "{{GENDER:$1|{{GENDER:$2|ধন্যবাদ}}}}",
+	"thanks-button-thanked": "{{GENDER:$1|{{GENDER:$2|ধন্যবাদ জনাইছে}}}}",
+	"thanks-button-action-queued": "$1-ক {{GENDER:$1|{{GENDER:$2|ধন্যবাদ জনোৱা হৈছে}}}}…",
+	"thanks-button-action-cancel": "বাতিল কৰক",
+	"thanks-button-action-completed": "আপুনি $1-ক {{GENDER:$1|{{GENDER:$2|ধন্যবাদ জনালে}}}}",
+	"thanks-error-notloggedin": "বেনামী ব্যৱহাৰকাৰীসকলে ধন্যবাদ পঠিয়াব নোৱাৰে",
+	"thanks-thank-tooltip": "এই {{GENDER:$2|সদস্যলৈ}} এটা ধন্যবাদ বাৰ্তা {{GENDER:$1|পঠিয়াওক}}",
+	"thanks-confirmation2": "ৰাজহুৱাকৈ ধন্যবাদ {{GENDER:$1|জনাব}}?",
+	"thanks": "ধন্যবাদ জ্ঞাপন কৰক",
+	"thanks-submit": "ধন্যবাদ জ্ঞাপন কৰক",
+	"echo-category-title-edit-thank": "ধন্যবাদ",
+	"notification-bundle-header-rev-thank": "{{PLURAL:$1|এজন ব্যক্তিয়ে|$1জন ব্যক্তিয়ে|100=৯৯জনতকৈ অধিক ব্যক্তিয়ে}} আপুনি <strong>$2</strong>-ত কৰা সম্পাদনাটোৰ বাবে {{GENDER:$3|আপোনা}}ক ধন্যবাদ জনাইছে।",
+	"log-name-thanks": "ধন্যবাদ লগ",
+	"logeventslist-thanks-log": "ধন্যবাদ লগ",
+	"thanks-error-no-id-specified": "ধন্যবাদ পঠিয়াবলৈ আপুনি এটা সংশোধন বা লগ আই ডি উল্লেখ কৰিব লাগিব।",
+	"thanks-confirmation-special-rev": "আপুনি এই সম্পাদনাটোৰ বাবে ৰাজহুৱাকৈ ধন্যবাদ জ্ঞাপন কৰিব খুজিছে?",
+	"notification-link-text-view-post": "মন্তব্য দেখুৱাওক",
+	"notification-bundle-header-flow-thank": "{{PLURAL:$1|এজন ব্যক্তিয়ে|$1জন ব্যক্তিয়ে|100=৯৯জনতকৈ অধিক ব্যক্তিয়ে}} আপুনি <strong>$2</strong>-ত দিয়া মন্তব্যটোৰ বাবে {{GENDER:$3|আপোনা}}ক ধন্যবাদ জনাইছে।"
+}

@@ -1,0 +1,30 @@
+{
+	"@metadata": {
+		"authors": [
+			"Vahe Gharakhanyan",
+			"Դավիթ Սարոյան"
+		]
+	},
+	"apihelp-visualeditor-param-basetimestamp": "Պահպանելու ժամանակ դիր սա վերանայման պիտակին, որը խմբագրվել է: Սա օգտագործվում է խմբագրման ընդհարումները հայտնաբերելու համար:",
+	"apihelp-visualeditor-param-cachekey": "Օգտագործիր serializeforcache-ի նախորդ արդյունքն այս բանալիով: Անտեսում է $1html-ը:",
+	"apihelp-visualeditor-param-etag": "ETag ուղարկելու համար",
+	"apihelp-visualeditor-param-html": "Վիքիտեքստը փոխանցվել է Parsoid, որպեսզի փոխի HTML:",
+	"apihelp-visualeditor-param-oldid": "Օգտագործել վերանայման թիվը:",
+	"apihelp-visualeditor-param-paction": "Գործողություն, որն անհրաժեշտ է կատարել:",
+	"apihelp-visualeditor-param-page": "Էջ, որի վրա պետք է իրականացնել գործողությունը:",
+	"apihelp-visualeditor-param-pst": "Parsoid-ին ուղարկելուց առաջ պահպանիր վիքիտեքստը:",
+	"apihelp-visualeditor-param-starttimestamp": "Պահպանելու ժամանակ դիր սա վերանայման պիտակին, երբ էջը բացվում է: Սա օգտագործվում է խմբագրման ընդհարումները հայտնաբերելու համար:",
+	"apihelp-visualeditor-param-wikitext": "Վիքիտեքստը փոխանցվել է Parsoid, որպեսզի փոխի HTML:",
+	"apihelp-visualeditoredit-param-basetimestamp": "Պահպանելու ժամանակ դիր սա վերանայման պիտակին, որը խմբագրվել է: Սա օգտագործվում է խմբագրման ընդհարումները հայտնաբերելու համար:",
+	"apihelp-visualeditoredit-param-cachekey": "Օգտագործիր serializeforcache-ի նախորդ արդյունքն այս բանալիով: Անտեսում է $1html-ը:",
+	"apihelp-visualeditoredit-param-captchaid": "Captcha ID:",
+	"apihelp-visualeditoredit-param-captchaword": "Պատասխանիր captcha-ին:",
+	"apihelp-visualeditoredit-param-etag": "ETag ուղարկելու համար",
+	"apihelp-visualeditoredit-param-html": "HTML-ը փոխանցվում է Parsoid-ին վիքիտեքստ դառնալու համար:",
+	"apihelp-visualeditoredit-param-minor": "Դրոշ` փոքր խմբագրման համար",
+	"apihelp-visualeditoredit-param-needcheck": "Պահպանելու ժամանակ դիր այս պարամետրը, եթե վերանայումն ունի խնդիրներ:",
+	"apihelp-visualeditoredit-param-oldid": "Օգտագործել վերանայման թիվը: Նոր էջի համար դիր 0:",
+	"apihelp-visualeditoredit-param-page": "Էջ, որի վրա պետք է իրականացնել գործողությունը:",
+	"apihelp-visualeditoredit-param-starttimestamp": "Պահպանելու ժամանակ դիր սա վերանայման պիտակին, երբ էջը բացվում է: Սա օգտագործվում է խմբագրման ընդհարումները հայտնաբերելու համար:",
+	"apihelp-visualeditoredit-param-summary": "Խմբագրել ամփոփումը:"
+}

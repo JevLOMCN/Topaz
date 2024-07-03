@@ -1,0 +1,23 @@
+{
+	"@metadata": {
+		"authors": [
+			"Kghbln",
+			"LWChris",
+			"Raimond Spekking",
+			"Umherirrender"
+		]
+	},
+	"imagemap_desc": "Ergänzt das Tag <code>&lt;imagemap&gt;</code> zum Erstellen verweissensitiver Grafiken",
+	"imagemap_no_image": "&lt;imagemap&gt;-Fehler: In der ersten Zeile muss ein Bild angegeben werden",
+	"imagemap_invalid_image": "&lt;imagemap&gt;-Fehler: Bild ist ungültig oder nicht vorhanden",
+	"imagemap_bad_image": "Fehler: Das Bild ist auf dieser Seite nicht erlaubt.",
+	"imagemap_no_link": "&lt;imagemap&gt;-Fehler: Am Ende von Zeile $1 wurde kein gültiger Link gefunden",
+	"imagemap_invalid_title": "&lt;imagemap&gt;-Fehler: ungültiger Titel im Link in Zeile $1",
+	"imagemap_missing_coord": "&lt;imagemap&gt;-Fehler: Zu wenige Koordinaten in Zeile $1 für den Umriss",
+	"imagemap_unrecognised_shape": "Fehler: Es befindet sich eine unbekannte Umrissform in Zeile $1. Jede Zeile muss mit einem der folgenden Parameter anfangen: <code>default</code>, <code>rect</code>, <code>circle</code> oder <code>poly</code>",
+	"imagemap_invalid_coord": "&lt;imagemap&gt;-Fehler: Ungültige Koordinate in Zeile $1: es sind nur Zahlen erlaubt",
+	"imagemap_invalid_desc": "&lt;imagemap&gt;-Fehler: Ungültiger „desc“-Parameter, möglich sind: <code>$1</code>",
+	"imagemap_description": "Über dieses Bild",
+	"imagemap_desc_types": "oben rechts, unten rechts, unten links, oben links, keine",
+	"imagemap_poly_odd": "Fehler: Polygon mit ungerader Anzahl an Koordinaten in Zeile $1"
+}

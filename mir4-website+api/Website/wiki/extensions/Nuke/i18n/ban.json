@@ -1,0 +1,32 @@
+{
+	"@metadata": {
+		"authors": [
+			"Chinamoonroll"
+		]
+	},
+	"nuke": "Pangapusan massal",
+	"action-nuke": "Ngapus massal kaca",
+	"nuke-desc": "Ngicain parilaksana antuk prajuru [[Special:Nuke|ngapus kaca massal]]",
+	"nuke-nopages": "Tan katemuin kaca anyar saking [[Special:Contributions/$1|{{GENDER:$1|$1}}]] ring uahan sané mangkin.",
+	"nuke-list": "Kaca puniki wawu kakardi olih [[Special:Contributions/$1|{{GENDER:$1|$1}}]]; icain panampen miwah teken tombol antuk ngapus kaca-kaca punika.",
+	"nuke-list-multiple": "Kaca puniki wawu kakardi; icain panampen miwah teken tombol antuk ngapus kaca-kaca punika.",
+	"nuke-defaultreason": "Pangapusan masal kaca-kaca sané kakardi olih [[Special:Contributions/$1|{{GENDER:$1|$1}}]]",
+	"nuke-multiplepeople": "Pangapusan massal kaca sané wawu kawewehin",
+	"nuke-tools": "Piranti puniki ngapersidayang pangapusan massal kaca-kaca sané wawu kakardi olih satunggil anganggé utawi alamat IP.\nManjingang parab anganggé utawi alamat IP antuk polih lis kaca sané prasida kaapus utawi puyungang antuk samian anganggé.",
+	"nuke-submit-user": "Lis kaca",
+	"nuke-submit-delete": "Apus sané kapilih",
+	"right-nuke": "Ngapus massal kaca",
+	"nuke-userorip": "Parab anganggé, alamat IP, utawi puyung:",
+	"nuke-maxpages": "Akéh maksimum kaca:",
+	"nuke-editby": "Kakardi olih [[Special:Contributions/$1|{{GENDER:$1|$1}}]]",
+	"nuke-deleted": "Kaca '''$1''' sampun kaapus.",
+	"nuke-not-deleted": "Kaca [[:$1]] '''tan sida''' kaapus.",
+	"nuke-delete-more": "[[Special:Nuke|Apus malih]]",
+	"nuke-pattern": "Pola SQL LIKE (sek. %) antuk aran kaca:",
+	"nuke-nopages-global": "Tan katemuin kaca anyar sané pateh sareng parerehan ragané.",
+	"nuke-viewchanges": "cingak gentosan",
+	"nuke-namespace": "Watesan saking genaharan:",
+	"nuke-linkoncontribs": "pangapusan massal",
+	"nuke-linkoncontribs-text": "Apus massal kaca-kaca sané papituut nyané wantah {{GENDER:$1|sang anganggé puniki}}",
+	"nuke-confirm": "Ragané pacang ngapus {{PLURAL:$1|satunggil kaca|$1 makudang kaca}}. Napiké ragané seken pacang ngapus?"
+}

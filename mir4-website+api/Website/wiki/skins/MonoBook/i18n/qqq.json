@@ -1,0 +1,33 @@
+{
+	"@metadata": {
+		"authors": [
+			"Amire80",
+			"Jay94ks",
+			"Matma Rex",
+			"Meno25",
+			"Metalhead64",
+			"MuratTheTurkish",
+			"Raymond",
+			"Robby",
+			"Shirayuki",
+			"Umherirrender"
+		]
+	},
+	"monobook-prefs-talkpage": "{{optional}}\nLink to the skin's talk page on MediaWiki.org; it is shown before the preview link in skin preferences on Special:Preferences. Inspired by [https://phabricator.wikimedia.org/T307113 T307113].",
+	"skinname-monobook": "{{name}}",
+	"monobook-desc": "{{desc|what=skin|name=MonoBook|url=https://www.mediawiki.org/wiki/Skin:MonoBook}}",
+	"monobook.css": "{{optional}}\nCSS applied to users using MonoBook skin.\n{{related/css}}",
+	"monobook.js": "{{optional}}\nJS for users using MonoBook skin.\n{{related/js}}",
+	"monobook-jumptotop": "Label for mobile link icon to jump to top of page",
+	"monobook-jumptopersonal": "Label for mobile link icon to jump to user tools",
+	"monobook-jumptonavigation": "Accessibility link for jumping to the navigation links. Visually hidden by default.\n\nSee also\n* {{msg-mw|Navigation}}\n\n{{Identical|jumptonavigation}}\n\njay94ks:\nMaybe this translation context is duplicated. :)\nI've found the perfectly same thing even description also same.\n* MediaWiki:Vector-jumptonavigation/ko - This context must be filled out with same content.",
+	"monobook-jumptosearch": "Accessibility link for jumping to the site search. Visually hidden by default.\n\nSee also\n* {{msg-mw|Search}}\n\n{{Identical|jumptosearch}}",
+	"monobook-more-actions": "Label for the less-important or rarer actions that are hidden from the usual tabs on mobile interfaces (like moving the page, or for sysops deleting or protecting the page). {{Identical|More}}",
+	"cactions-mobile": "Header for the content actions menu (tabs on the top of the page)",
+	"monobook-cactions-label": "Header for the content actions menu (tabs on the top of the page)",
+	"monobook-notifications-link": "Label for Extension:Notifications link in mobile personal toolbar\n\nParameters:\n* $1 - number of current alerts/notifications",
+	"monobook-notifications-link-none": "Label for Extension:Notifications link in mobile personal toolbar when no notifications present\n{{Identical|Notification}}",
+	"monobook-view-history": "Text used on the history tab.\n\n{{Identical|History}}",
+	"monobook-action-undelete": "It is a tab label. Parameters:\n* $1 - number of edits",
+	"monobook-action-addsection": "{{optional}}\nText of the new section tab (the one next to the \"edit\" tab on non-Vector skins).\n\nSee also:\n* {{msg-mw|Addsection}}\n* {{msg-mw|Accesskey-ca-addsection}}\n* {{msg-mw|Tooltip-ca-addsection}}"
+}

@@ -1,0 +1,272 @@
+/*!
+ * VisualEditor UserInterface DiffElement styles.
+ *
+ * @copyright See AUTHORS.txt
+ * @license The MIT License (MIT); see LICENSE.txt
+ */
+
+.ve-ui-diffElement {
+	position: relative;
+
+	&::after {
+		content: '';
+		clear: both;
+		display: block;
+	}
+
+	&-content {
+		overflow-x: auto;
+		position: relative;
+		/* Render 5px padding so highlight outlines are visible */
+		margin-left: -5px;
+		padding-left: 5px;
+
+		.ve-ui-diffElement-hasDescriptions & {
+			margin-right: 16em;
+			padding-right: 1em;
+			border-right: 1px solid #c8ccd1;
+
+			@media ( max-width: 640px ) {
+				padding-right: 0;
+				margin-right: 5.5em;
+				border-right: 0;
+			}
+		}
+	}
+
+	&-sidebar {
+		.ve-ui-diffElement-hasDescriptions & {
+			position: absolute;
+			top: 0;
+			right: 0;
+			width: 15em;
+
+			@media ( max-width: 640px ) {
+				width: 5em;
+			}
+		}
+	}
+
+	&-overlays {
+		position: absolute;
+		opacity: 0.5;
+		z-index: 2;
+		pointer-events: none;
+	}
+
+	&-highlight {
+		position: absolute;
+		/* background: #6da9f7; */
+		outline: 3px solid #6da9f7;
+		padding: 2px;
+		margin: -2px 0 0 -2px;
+		pointer-events: none;
+	}
+
+	&-attributeChange {
+		color: #72777d;
+
+		del {
+			background-color: #f2c2bf;
+			box-shadow: 0 0 0 1px #f2c2bf;
+			text-decoration: line-through;
+
+			&:hover {
+				background-color: #f2c2bf;
+				box-shadow: 0 0 0 1px #f2c2bf;
+				text-decoration: none;
+			}
+		}
+
+		ins {
+			background-color: #c4ede4;
+			box-shadow: 0 0 0 1px #c4ede4;
+			text-decoration: none;
+		}
+
+		&.oo-ui-labelElement .oo-ui-labelElement-label {
+			/* Respect line breaks and prevent collapsing added/removed spaces */
+			white-space: pre-wrap;
+			word-break: break-word;
+			word-wrap: break-word;
+			overflow-wrap: break-word;
+
+			ol,
+			ul {
+				margin-left: 1.8em;
+			}
+		}
+	}
+}
+
+.ve-ui-changeDescriptionsSelectWidget {
+	> .oo-ui-optionWidget {
+		cursor: default;
+		font-size: 0.92857143em; /* 13/14px */
+
+		&-highlighted {
+			background: #b6d4fb; /* #6da9f7 at 50% opacity */
+		}
+	}
+}
+
+[ data-diff-action='insert' ],
+[ data-diff-action='remove' ],
+[ data-diff-action='change-insert' ],
+[ data-diff-action='change-remove' ] {
+	text-decoration: inherit;
+}
+
+/* Prevent collapsing added/removed spaces (T170114), but only inline (T300444) */
+ins[ data-diff-action='insert' ],
+del[ data-diff-action='remove' ] {
+	/* Support: Chrome<76, Firefox<69 */
+	/* Fallback for browsers which don't support break-spaces */
+	white-space: pre-wrap;
+	/* T348006 - ensure all removed/inserted spaces are shown, even at the end of a line */
+	white-space: break-spaces;
+}
+
+[ data-diff-action='insert' ] {
+	&,
+	/* elements using display:table-caption need separate backgrounds as they render outside the parent's bounding box */
+	& > caption,
+	& > figcaption {
+		/* #7fd7c4 at 50% opacity */
+		background-color: rgba( 0, 175, 137, 0.5 ) !important; /* stylelint-disable-line declaration-no-important */
+		box-shadow: 0 0 0 1px rgba( 0, 175, 137, 0.5 );
+	}
+}
+
+[ data-diff-action='remove' ] {
+	&,
+	/* elements using display:table-caption need separate backgrounds as they render outside the parent's bounding box */
+	& > caption,
+	& > figcaption {
+		/* #e88e89 at 50% opacity */
+		background-color: rgba( 209, 29, 19, 0.5 ) !important; /* stylelint-disable-line declaration-no-important */
+		box-shadow: 0 0 0 1px rgba( 209, 29, 19, 0.5 );
+	}
+}
+
+[ data-diff-action='change' ],
+[ data-diff-action='change-insert' ] {
+	/* #b6d4fb at 50% opacity */
+	background-color: rgba( 109, 169, 247, 0.5 ) !important; /* stylelint-disable-line declaration-no-important */
+	box-shadow: 0 0 0 1px rgba( 109, 169, 247, 0.5 );
+}
+
+[ data-diff-move ] {
+	&,
+	/* elements using display:table-caption need separate backgrounds as they render outside the parent's bounding box */
+	& > caption,
+	& > figcaption {
+		/* #eaecf0 (base80) at 50% opacity */
+		background: rgba( 213, 217, 225, 0.5 );
+		outline: 5px solid rgba( 213, 217, 225, 0.5 );
+	}
+}
+
+[ data-diff-action='change-remove' ] {
+	display: none;
+}
+
+[ data-diff-action='remove' ] { /* stylelint-disable-line no-duplicate-selectors */
+	text-decoration: line-through;
+
+	&:hover {
+		text-decoration: none;
+	}
+}
+
+/* Add some space to separate insertions from removals (inline only) */
+/* TODO: These sibling selectors still match when there is a text node in-between, should be fixed in JS */
+del[ data-diff-action='remove' ] + ins[ data-diff-action='insert' ],
+ins[ data-diff-action='insert' ] + del[ data-diff-action='remove' ],
+del[ data-diff-action='remove' ] + span[ data-diff-action='change-insert' ],
+ins[ data-diff-action='insert' ] + span[ data-diff-action='change-remove' ] {
+	margin-left: 4px;
+}
+
+[ data-diff-action='none' ]:not( [ data-diff-move ] ) {
+	opacity: 0.4;
+
+	/* List items only apply this style to the marker. The contents
+	   is styled separately to avoid styling nested lists. */
+	li& {
+		opacity: 1;
+
+		&::marker {
+			color: #72777d;
+		}
+	}
+}
+
+/* stylelint-disable no-descending-specificity */
+[ data-diff-action='insert' ],
+[ data-diff-action='remove' ],
+[ data-diff-action='change' ],
+[ data-diff-action='change-insert' ],
+[ data-diff-action='change-remove' ],
+[ data-diff-move ] {
+	/* Create new stacking context to match one created by opacity on data-diff-action=none (T190916) */
+	position: relative;
+	z-index: 1;
+
+	/* Blend contents into the background (I7a7e27b1218) */
+	& > * {
+		mix-blend-mode: darken;
+	}
+}
+/* stylelint-enable no-descending-specificity */
+
+.ve-ui-diffElement-moved-up,
+.ve-ui-diffElement-moved-down {
+	position: relative;
+	padding-left: 1em;
+
+	&::before {
+		position: absolute;
+		left: 0;
+		line-height: 1;
+	}
+}
+
+.ve-ui-diffElement-moved-down::before {
+	content: '↓';
+}
+
+.ve-ui-diffElement-moved-up::before {
+	content: '↑';
+}
+
+/* stylelint-disable-next-line no-descending-specificity */
+[ data-diff-action='insert' ],
+[ data-diff-action='remove' ],
+[ data-diff-move ] {
+	&:empty::before,
+	*:empty::before {
+		content: url( data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7 );
+	}
+}
+
+.ve-ui-diffElement-no-changes {
+	color: #72777d;
+	font-style: italic;
+}
+
+.ve-ui-diffElement-spacer {
+	color: #72777d;
+	clear: both;
+}
+
+[ data-diff-list-spacer ],
+.ve-ui-diffElement-internalListSpacer {
+	list-style-type: none !important; /* stylelint-disable-line declaration-no-important */
+	list-style-image: none;
+}
+
+[ data-diff-list-none ]::marker {
+	/* Approximately opacity 0.4, but we can't style the list marker with opacity */
+	color: #aaa;
+}

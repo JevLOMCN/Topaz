@@ -1,0 +1,38 @@
+{
+	"@metadata": {
+		"authors": [
+			"Kwisha",
+			"Lloffiwr",
+			"Muddyb",
+			"Muddyb Blast Producer",
+			"Stephenwanjau"
+		]
+	},
+	"categorytree": "Mfumo wa jamii",
+	"categorytree-portlet": "Jamii",
+	"categorytree-legend": "Onyesha mfumo wa jamii",
+	"categorytree-desc": "Chungulia kwenye [[Special:CategoryTree|mfumo wa jamii]]",
+	"categorytree-header": "Ingiza jina la jamii ili kuona yaliyomo kwenye mfumo wa jamii. '''Ilani''': hii itahitaji JavaScript ya kisasa ijulilkanayo kwa jina la AJAX. Endapo utakuwa na ya zamani, au JavaScript yako imezimwa, basi hii hatofanya kazi kabisa.",
+	"categorytree-category": "Jamii:",
+	"categorytree-go": "Onyesha mfumo",
+	"categorytree-parents": "Kuu",
+	"categorytree-mode-categories": "jamii tu",
+	"categorytree-mode-pages": "kurasa isipokuwa mafaili",
+	"categorytree-mode-all": "kurasa zote",
+	"categorytree-collapse": "kunja",
+	"categorytree-expand": "kutanua",
+	"categorytree-member-counts": "Imo {{PLURAL:$1|kijamii 1|vijamii $1}}, {{PLURAL:$2|ukurasa 1|kurasa $2}}, na {{PLURAL:$3|faili 1|mafaili $3}}",
+	"categorytree-num-categories": "$1 C",
+	"categorytree-num-pages": "$1 P",
+	"categorytree-num-files": "$1 F",
+	"categorytree-num-empty": "tupu",
+	"categorytree-load": "kupakia",
+	"categorytree-loading": "inapakizwa...",
+	"categorytree-nothing-found": "hakupatikana kitu",
+	"categorytree-no-subcategories": "jamii ndogo zake hakuna",
+	"categorytree-no-parent-categories": "jamii kuu hakuna",
+	"categorytree-no-pages": "hakuna kurasa wala jamii ndogo zake",
+	"categorytree-not-found": "Jamii inayoitwa $1 haikupatikana",
+	"categorytree-error": "Ilitokea tatizo zilipopakizwa data.",
+	"categorytree-retry": "Subiri kidogo tafadhali, halafu jaribu tena."
+}

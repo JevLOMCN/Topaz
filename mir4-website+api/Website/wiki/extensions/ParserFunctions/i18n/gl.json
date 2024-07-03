@@ -1,0 +1,31 @@
+{
+	"@metadata": {
+		"authors": [
+			"Alma",
+			"Elisardojm",
+			"Toliño",
+			"Xosé"
+		]
+	},
+	"pfunc_desc": "Mellora o analizador con funcións lóxicas",
+	"pfunc_time_error": "Erro: Hora non válida.",
+	"pfunc_time_too_long": "Erro: Demasiadas chamadas #time.",
+	"pfunc_time_too_big": "Erro: #time só permite anos ata o 9999.",
+	"pfunc_time_too_small": "Erro: #time só permite anos desde o 0.",
+	"pfunc_rel2abs_invalid_depth": "Erro: Profundidade da ruta non válida: \"$1\" (intentouse acceder a un nodo por riba do nodo raíz).",
+	"pfunc_expr_stack_exhausted": "Erro de expresión: Pila esgotada.",
+	"pfunc_expr_unexpected_number": "Erro de expresión: Número inesperado.",
+	"pfunc_expr_preg_match_failure": "Erro de expresión: Fallo de preg_match inesperado.",
+	"pfunc_expr_unrecognised_word": "Erro de expresión: Descoñécese a palabra \"$1\".",
+	"pfunc_expr_unexpected_operator": "Erro de expresión: Operador \"$1\" inesperado.",
+	"pfunc_expr_missing_operand": "Erro de expresión: Falta un operador para $1.",
+	"pfunc_expr_unexpected_closing_bracket": "Erro de expresión: Corchete de peche inesperado.",
+	"pfunc_expr_unrecognised_punctuation": "Erro de expresión: Descoñécese o signo de puntuación \"$1\".",
+	"pfunc_expr_unclosed_bracket": "Erro de expresión: Paréntese sen pechar.",
+	"pfunc_expr_division_by_zero": "División por cero.",
+	"pfunc_expr_invalid_argument": "Argumento inválido para $1: < -1 ou > 1.",
+	"pfunc_expr_invalid_argument_ln": "Argumento inválido para ln: <= 0.",
+	"pfunc_expr_unknown_error": "Erro de expresión: Erro descoñecido ($1).",
+	"pfunc_expr_not_a_number": "En $1: O resultado non é un número.",
+	"pfunc_string_too_long": "Erro: A cadea excede o límite de $1 caracteres."
+}

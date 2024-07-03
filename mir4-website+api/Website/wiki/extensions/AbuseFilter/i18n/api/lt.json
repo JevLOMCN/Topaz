@@ -1,0 +1,40 @@
+{
+	"@metadata": {
+		"authors": [
+			"Eitvys200",
+			"Nokeoo"
+		]
+	},
+	"apihelp-abusefilterchecksyntax-summary": "Patikrinkite AbuseFilter filtro sintaksę.",
+	"apihelp-abusefilterchecksyntax-param-filter": "Visas filtro tekstas, skirtas patikrinti sintaksę.",
+	"apihelp-abusefilterchecksyntax-example-1": "Tikrinti galimo filtro sintaksę",
+	"apihelp-abusefilterchecksyntax-example-2": "Tikrinti negalimo filtro sintaksę",
+	"apihelp-abusefilterevalexpression-summary": "Įvertina AbuseFilter išraišką.",
+	"apihelp-abusefilterevalexpression-param-expression": "Išraiška įvertinimui.",
+	"apihelp-abusefilterevalexpression-example-1": "Įvertinti paprastą išraišką",
+	"apihelp-abusefilterunblockautopromote-param-user": "Vartotojo vardas, kurį norite atblokuoti.",
+	"apihelp-query+abusefilters-summary": "Rodyti informaciją apie piktnaudžiavimo filtrus.",
+	"apihelp-query+abusefilters-param-show": "Rodyti tik filtrus, kurie atitinką kriterijų.",
+	"apihelp-query+abusefilters-param-limit": "Maksimalus numeris filtrų sąraše.",
+	"apihelp-query+abusefilters-param-prop": "Kurias savybes gauti.",
+	"apihelp-query+abusefilters-example-1": "Pateikti įgalintų viešų filtrų sąrašą",
+	"apihelp-query+abusefilters-example-2": "Rodyti kai kurias detales apie filtrus",
+	"apihelp-query+abuselog-param-start": "Laiko žymą nuo kurios pradėti.",
+	"apihelp-query+abuselog-param-end": "Laiko žymą kuria baigti.",
+	"apihelp-query+abuselog-param-user": "Rodyti tik įrašus, kurie buvo duoti vartotojo ar IP adreso.",
+	"apihelp-query+abuselog-param-title": "Rodyti tik įrašus, kurie yra duotajame puslapyje.",
+	"apihelp-query+abuselog-param-filter": "Rodyti tik įrašus, kurie buvo sugauti pateiktojo filtro ID.",
+	"apihelp-query+abuselog-param-limit": "Maksimalus kiekis įrašų sąraše.",
+	"apihelp-query+abuselog-param-prop": "Kurias savybes gauti.",
+	"apihelp-query+abuselog-param-wiki": "Viki, kurios rezultatus rodyti.",
+	"apihelp-query+abuselog-example-1": "Rodyti naujus žurnalo įrašus",
+	"apihelp-query+abuselog-example-2": "Rodyti naujus [[API]] žurnalo įrašus",
+	"apihelp-abuselogprivatedetails-summary": "Žiūrėti privačią AbuseLog įrašo informaciją.",
+	"apihelp-abuselogprivatedetails-param-logid": "AbuseLog įrašo ID patikrinimui.",
+	"apihelp-abuselogprivatedetails-param-reason": "Tinkama priežastis tikrinimo vykdymui.",
+	"apihelp-abuselogprivatedetails-example-1": "Gauti AbuseLog įrašo su ID 1 privačią informaciją, naudojant priežastį „pavyzdys“.",
+	"apierror-abusefilter-canttest": "Neturite leidimo išbandyti piktnaudžiavimo filtrus.",
+	"apierror-abusefilter-cantcheck": "Neturite teisės tikrinti piktnaudžiavimo filtrų sintaksės.",
+	"apierror-abusefilter-canteval": "Neturite leidimo vertinti AbuseFilter išraiškų.",
+	"apierror-abusefilter-badsyntax": "Filtro sintaksė neteisinga."
+}

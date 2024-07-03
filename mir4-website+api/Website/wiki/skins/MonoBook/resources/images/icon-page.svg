@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="16" height="16" viewBox="0 0 4.233 4.233">
+	<defs>
+		<linearGradient id="a">
+			<stop offset="0" stop-color="#b8d6f4"/>
+			<stop offset="1" stop-color="#fff"/>
+		</linearGradient>
+		<linearGradient xlink:href="#a" id="b" x1="1.852" x2="1.852" y1="1.587" y2="3.175" gradientTransform="scale(3.77953)" gradientUnits="userSpaceOnUse"/>
+	</defs>
+	<path fill="#8b8b8b" d="M.794.265v2.91h.264V.529h1.059v.53h.264V.264z"/>
+	<path fill="url(#b)" d="M5 4v8h5V4z" transform="scale(.26458)"/>
+	<path fill="#fabd23" d="M2.381.794v.264h.265V.794z"/>
+	<path fill="#4e4e4e" d="M2.381.53v.264h.265V.529zm.265.264v.268l-.53-.004v.265h.794v1.852H.794v.265h2.381V1.058H2.91V.794z"/>
+	<path fill="#fabd23" d="M1.323 2.646v.264h1.323v-.264z"/>
+	<path fill="#538fc8" d="M1.058.794v.264h1.059V.794z"/>
+	<path fill="#fff" d="M1.058.53v2.645h.265V.794h.794V.529zm1.059.793v.264h.529v1.588h.264V1.323z"/>
+</svg>

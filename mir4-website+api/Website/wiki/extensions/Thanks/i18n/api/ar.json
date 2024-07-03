@@ -1,0 +1,16 @@
+{
+	"@metadata": {
+		"authors": [
+			"أحمد",
+			"ديفيد"
+		]
+	},
+	"apihelp-flowthank-summary": "أرسل إخطار شكر علني لتعليق Flow.",
+	"apihelp-flowthank-param-postid": "UUID للمُداخلة للشكر عليها.",
+	"apihelp-flowthank-example-1": "أرسل شكرا للتعليق مع <kbd>UUID xyz789</kbd>",
+	"apihelp-thank-summary": "أرسل إخطار بالشكر لمحرر.",
+	"apihelp-thank-param-rev": "معرف المراجعة لشكر شخص ما عليه، يجب توفير هذا أو \"السجل\".",
+	"apihelp-thank-param-log": "معرف السجل لشكر شخص ما عليه، يجب توفير هذا أو \"rev\".",
+	"apihelp-thank-param-source": "نصّ قصير يصف مصدر الطلب، مثلا <kbd>diff</kbd> أو <kbd>history</kbd>.",
+	"apihelp-thank-example-1": "أرسل الشكر للمراجعة <kbd>ID 456</kbd>، مع كون المصدر صفحة فرق"
+}

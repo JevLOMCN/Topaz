@@ -1,0 +1,50 @@
+[
+	{
+		"sample": "01:30, 28 Oct 2018 (CEST)",
+		"expected": "2018-10-28T01:30:00+02:00",
+		"expectedUtc": "2018-10-27T23:30:00Z",
+		"format": "H:i, j M Y",
+		"timezone": "Europe/Warsaw",
+		"timezoneAbbrs": {
+			"CET": "CET",
+			"CEST": "CEST"
+		},
+		"message": "Before DST change (not ambiguous)"
+	},
+	{
+		"sample": "02:30, 28 Oct 2018 (CEST)",
+		"expected": "2018-10-28T02:30:00+02:00",
+		"expectedUtc": "2018-10-28T00:30:00Z",
+		"format": "H:i, j M Y",
+		"timezone": "Europe/Warsaw",
+		"timezoneAbbrs": {
+			"CET": "CET",
+			"CEST": "CEST"
+		},
+		"message": "Before DST change (ambiguous)"
+	},
+	{
+		"sample": "02:30, 28 Oct 2018 (CET)",
+		"expected": "2018-10-28T02:30:00+01:00",
+		"expectedUtc": "2018-10-28T01:30:00Z",
+		"format": "H:i, j M Y",
+		"timezone": "Europe/Warsaw",
+		"timezoneAbbrs": {
+			"CET": "CET",
+			"CEST": "CEST"
+		},
+		"message": "After DST change (ambiguous) // At 03:00, time goes back by 1 hour"
+	},
+	{
+		"sample": "03:30, 28 Oct 2018 (CET)",
+		"expected": "2018-10-28T03:30:00+01:00",
+		"expectedUtc": "2018-10-28T02:30:00Z",
+		"format": "H:i, j M Y",
+		"timezone": "Europe/Warsaw",
+		"timezoneAbbrs": {
+			"CET": "CET",
+			"CEST": "CEST"
+		},
+		"message": "After DST change (not ambiguous)"
+	}
+]

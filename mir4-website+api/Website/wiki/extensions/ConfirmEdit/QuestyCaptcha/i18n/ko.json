@@ -1,0 +1,19 @@
+{
+	"@metadata": {
+		"authors": [
+			"Kwj2772",
+			"Priviet",
+			"Revi",
+			"Ykhwong",
+			"아라"
+		]
+	},
+	"questycaptcha-desc": "편집 확인에 대한 탐구적인 CAPCHA(캡차) 생성기",
+	"questycaptcha-addurl": "편집에 새로운 외부 링크가 포함되어 있습니다.\n자동 편집 스팸으로부터 보호하기 위해, 아래에 보이는 질문에 답해주세요 ([[Special:Captcha/help|자세한 정보]]):",
+	"questycaptcha-badlogin": "자동 비밀번호 크래킹으로부터 보호하기 위해, 아래에 보이는 질문에 답해주세요 ([[Special:Captcha/help|자세한 정보]]):",
+	"questycaptcha-createaccount": "자동 계정 만들기로부터 보호하기 위해, 아래에 보이는 질문에 답해주세요 ([[Special:Captcha/help|자세한 정보]]):",
+	"questycaptcha-create": "문서를 만드려면 아래에 보이는 질문에 답해주세요 ([[Special:Captcha/help|자세한 정보]]):",
+	"questycaptcha-edit": "이 문서를 편집하려면 아래에 보이는 질문에 답해주세요 ([[Special:Captcha/help|자세한 정보]]):",
+	"questycaptcha-sendemail": "자동화된 스팸으로부터 보호하기 위해, 아래에 보이는 질문에 답해주세요 ([[Special:Captcha/help|자세한 정보]]):",
+	"questycaptchahelp-text": "이 위키와 같이 사람의 공개적인 참여가 가능한 웹 사이트에서는 자동 프로그램이 스팸을 뿌리는 경우가 있습니다.\n물론 이러한 스팸은 제거할 수는 있지만 번거로운 작업이 늘어납니다.\n\n이러한 스팸을 방지하기 위해서, 이 위키의 문서에 웹 사이트 주소를 추가하는 등의 행동을 할 경우에는 질문에 답해달라고 하는 경우가 있습니다.\n이 글자 입력 작업은 자동 프로그램을 만들기가 힘들기 때문에 스팸을 효과적으로 막으면서 일반 사용자를 막지 않을 수 있습니다.\n\n예기치않게 정당한 행동을 하지 못하도록 막는다면 [[Special:ListAdmins|사이트 관리자]]에게 도움을 요청해 주세요.\n\n이전 화면으로 돌아가려면 웹 브라우저의 \"뒤로\" 버튼을 클릭하세요."
+}

@@ -1,0 +1,25 @@
+<?php
+
+namespace MediaWiki\Page;
+
+/**
+ * Data record representing a page that currently exists as
+ * an editable page on a wiki.
+ *
+ * @note This is intended to become an alias for PageRecord, once PageRecord is guaranteed
+ *       to be immutable and to represent existing pages.
+ *
+ * @see https://www.mediawiki.org/wiki/Manual:Modeling_pages
+ *
+ * @stable to type
+ * @since 1.36
+ */
+interface ExistingPageRecord extends PageRecord {
+
+	/**
+	 * Always true.
+	 *
+	 * @return true
+	 */
+	public function exists(): bool;
+}

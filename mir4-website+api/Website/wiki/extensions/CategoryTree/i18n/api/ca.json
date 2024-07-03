@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"SMP"
+		]
+	},
+	"apihelp-categorytree-summary": "Mòdul intern per a l'extensió CategoryTree.",
+	"apihelp-categorytree-param-category": "Títol a l'espai de noms de Categoria, s'ignorarà el prefix si es dóna.",
+	"apihelp-categorytree-param-options": "Opcions per al constructor CategoryTree com a objecte JSON. L'opció <var>depth</var> és <kbd>1</kbd> per defecte.",
+	"apierror-categorytree-invalidjson": "Les opcions han de ser un objecte JSON vàlid.",
+	"apierror-categorytree-invalidjson-option": "L'opció «$1» conté un valor no vàlid."
+}

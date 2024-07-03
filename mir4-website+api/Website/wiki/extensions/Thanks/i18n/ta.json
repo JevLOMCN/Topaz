@@ -1,0 +1,28 @@
+{
+	"@metadata": {
+		"authors": [
+			"AntanO",
+			"Jayarathina",
+			"Kalyanasundar",
+			"Kanags",
+			"MinecraftAustralia",
+			"Shanmugamp7",
+			"Siddhan"
+		]
+	},
+	"thanks-desc": "பயனர்களின் திருத்தங்கள், கருத்துகள் முதலியவற்றிற்கு நன்றி தெரிவிக்கும் இணைப்பை சேர்க்கும்.",
+	"thanks-thank": "{{GENDER:$1|{{GENDER:$2|நன்றி}}}}",
+	"thanks-thanked": "{{GENDER:$1|நன்றியுரைக்கப்பட்டது}}",
+	"thanks-button-thank": "நன்றி!",
+	"thanks-button-thanked": "{{GENDER:$1|நன்றியுரைக்கப்பட்டது}}",
+	"thanks-error-undefined": "நன்றி தெரிவிப்பது தோல்வியடைந்தது. மீண்டும் முயற்சிக்கவும்.",
+	"thanks-error-invalidrevision": "திருத்த எண் தவறானது.",
+	"echo-pref-subscription-edit-thank": "என் தொகுப்புக்கு எனக்கு நன்றி கூறுகிறார்",
+	"echo-pref-tooltip-edit-thank": "நான் செய்த ஒரு தொகுப்புக்கு எனக்கு யாரேனும் நன்றி சொன்னால் எனக்கு தெரிவி.",
+	"echo-category-title-edit-thank": "நன்றி!",
+	"log-name-thanks": "நன்றிகள் பதிவு",
+	"log-description-thanks": "பிற பயனர்களால் நன்றி தெரிவிக்கப்பட்ட பயனர்களின் பட்டியல் கீழே உள்ளது.",
+	"logentry-thanks-thank": "$1, $4 என்பவருக்கு நன்றி தெரிவித்தார்.",
+	"thanks-error-no-id-specified": "நன்றி தெரிவிக்க உங்களது  திருத்தியமைத்த அடையாள விவரத்தை தெரிவிக்கவும்",
+	"flow-thanks-confirmation-special": "இந்த கருத்துக்கு நன்றி தெரிவிக்க விரும்புகிறீர்களா ?"
+}

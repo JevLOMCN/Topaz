@@ -1,0 +1,19 @@
+{
+	"@metadata": {
+		"authors": [
+			"ChrisPtDe"
+		]
+	},
+	"echo-desc": "Sistèmo de notificacions",
+	"prefs-echo": "Notificacions",
+	"notifications": "Notificacions",
+	"tooltip-pt-notifications-alert": "{{GENDER:|Voutres}} alèrtes",
+	"echo-specialpage": "Mes notificacions",
+	"echo-none": "Vos éd reçu gins de notificacion.",
+	"echo-overlay-link": "Totes les notificacions",
+	"echo-overlay-title": "Mes notificacions",
+	"echo-date-today": "Houé",
+	"echo-date-yesterday": "Hièr",
+	"echo-email-batch-subject-daily": "Vos avéd $1 notificacion{{PLURAL:$2||s}} houé",
+	"echo-email-batch-subject-weekly": "Vos avéd $1 notificacion{{PLURAL:$2||s}} ceta semana"
+}

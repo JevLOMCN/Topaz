@@ -1,0 +1,188 @@
+{
+	"type": "https://mediawiki.org/wiki/HyperSwitch/errors/bad_request",
+	"title": "Bad Request",
+	"method": "POST",
+	"detail": {
+		"error": {
+			"message": "Expected \"-\", \"[\", \"\\\\\", \"\\\\begin\", \"\\\\begin{\", \"]\", \"^\", \"_\", \"{\", [ \\t\\n\\r], [%$], [().], [,:;?!'], [/|], [0-9], [><~], [\\-+*=], or [a-zA-Z] but end of input found.",
+			"expected": [
+				{
+					"type": "class",
+					"parts": [
+						" ",
+						"\t",
+						"\n",
+						"\r"
+					],
+					"inverted": false,
+					"ignoreCase": false
+				},
+				{
+					"type": "class",
+					"parts": [
+						[
+							"a",
+							"z"
+						],
+						[
+							"A",
+							"Z"
+						]
+					],
+					"inverted": false,
+					"ignoreCase": false
+				},
+				{
+					"type": "class",
+					"parts": [
+						[
+							"0",
+							"9"
+						]
+					],
+					"inverted": false,
+					"ignoreCase": false
+				},
+				{
+					"type": "class",
+					"parts": [
+						",",
+						":",
+						";",
+						"?",
+						"!",
+						"'"
+					],
+					"inverted": false,
+					"ignoreCase": false
+				},
+				{
+					"type": "literal",
+					"text": "-",
+					"ignoreCase": false
+				},
+				{
+					"type": "class",
+					"parts": [
+						"-",
+						"+",
+						"*",
+						"="
+					],
+					"inverted": false,
+					"ignoreCase": false
+				},
+				{
+					"type": "literal",
+					"text": "\\",
+					"ignoreCase": false
+				},
+				{
+					"type": "literal",
+					"text": "\\",
+					"ignoreCase": false
+				},
+				{
+					"type": "class",
+					"parts": [
+						">",
+						"<",
+						"~"
+					],
+					"inverted": false,
+					"ignoreCase": false
+				},
+				{
+					"type": "class",
+					"parts": [
+						"%",
+						"$"
+					],
+					"inverted": false,
+					"ignoreCase": false
+				},
+				{
+					"type": "class",
+					"parts": [
+						"(",
+						")",
+						"."
+					],
+					"inverted": false,
+					"ignoreCase": false
+				},
+				{
+					"type": "class",
+					"parts": [
+						"/",
+						"|"
+					],
+					"inverted": false,
+					"ignoreCase": false
+				},
+				{
+					"type": "literal",
+					"text": "[",
+					"ignoreCase": false
+				},
+				{
+					"type": "literal",
+					"text": "\\",
+					"ignoreCase": false
+				},
+				{
+					"type": "literal",
+					"text": "{",
+					"ignoreCase": false
+				},
+				{
+					"type": "literal",
+					"text": "\\begin",
+					"ignoreCase": false
+				},
+				{
+					"type": "literal",
+					"text": "\\begin{",
+					"ignoreCase": false
+				},
+				{
+					"type": "literal",
+					"text": "_",
+					"ignoreCase": false
+				},
+				{
+					"type": "literal",
+					"text": "^",
+					"ignoreCase": false
+				},
+				{
+					"type": "literal",
+					"text": "]",
+					"ignoreCase": false
+				}
+			],
+			"found": null,
+			"location": {
+				"start": {
+					"offset": 6,
+					"line": 1,
+					"column": 7
+				},
+				"end": {
+					"offset": 6,
+					"line": 1,
+					"column": 7
+				}
+			},
+			"name": "SyntaxError"
+		},
+		"success": false,
+		"warnings": [],
+		"status": "S",
+		"details": "SyntaxError: Expected \"-\", \"[\", \"\\\\\", \"\\\\begin\", \"\\\\begin{\", \"]\", \"^\", \"_\", \"{\", [ \\t\\n\\r], [%$], [().], [,:;?!'], [/|], [0-9], [><~], [\\-+*=], or [a-zA-Z] but end of input found.",
+		"offset": 6,
+		"line": 1,
+		"column": 7
+	},
+	"uri": "/texvcinfo"
+}

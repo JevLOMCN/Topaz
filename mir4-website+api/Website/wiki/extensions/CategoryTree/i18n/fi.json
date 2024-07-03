@@ -1,0 +1,42 @@
+{
+	"@metadata": {
+		"authors": [
+			"01miki10",
+			"Agony",
+			"Crt",
+			"Linnea",
+			"Nedergard",
+			"Nike",
+			"Pyscowicz",
+			"Str4nd"
+		]
+	},
+	"categorytree": "Luokkapuu",
+	"categorytree-portlet": "Luokat",
+	"categorytree-legend": "Näytä luokkapuu",
+	"categorytree-desc": "AJAX-pohjainen laajennus, joka näyttää wikin [[Special:CategoryTree|luokkapuurakenteen]].",
+	"categorytree-header": "Syötä alle luokka, jonka haluat nähdä puumuodossa. (Vaatii JavaScriptin.)",
+	"categorytree-category": "Luokka",
+	"categorytree-go": "Näytä puu",
+	"categorytree-parents": "Yläluokat",
+	"categorytree-mode-label": "Tila",
+	"categorytree-mode-categories": "vain luokat",
+	"categorytree-mode-pages": "kaikki sivut tiedostoja lukuun ottamatta",
+	"categorytree-mode-all": "kaikki sivut",
+	"categorytree-collapse": "piilota",
+	"categorytree-expand": "näytä",
+	"categorytree-member-counts": "sisältää {{PLURAL:$1|1 alaluokan|$1 alaluokkaa}}, {{PLURAL:$2|1 sivun|$2 sivua}} ja {{PLURAL:$3|1 tiedoston|$3 tiedostoa}}",
+	"categorytree-num-categories": "$1 L",
+	"categorytree-num-pages": "$1 S",
+	"categorytree-num-files": "$1 T",
+	"categorytree-num-empty": "tyhjä",
+	"categorytree-load": "näytä",
+	"categorytree-loading": "etsitään",
+	"categorytree-nothing-found": "ei alaluokkia",
+	"categorytree-no-subcategories": "ei alaluokkia",
+	"categorytree-no-parent-categories": "ei yläluokkia",
+	"categorytree-no-pages": "ei sivuja eikä alaluokkia",
+	"categorytree-not-found": "Luokkaa <i>$1</i> ei löytynyt",
+	"categorytree-error": "Ongelma tietojen latauksessa.",
+	"categorytree-retry": "Odota hetki ja yritä uudelleen."
+}

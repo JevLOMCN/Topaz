@@ -1,0 +1,36 @@
+/*!
+ * VisualEditor MediaWiki Initialization edit switching styles.
+ *
+ * @copyright See AUTHORS.txt
+ * @license The MIT License (MIT); see LICENSE.txt
+ */
+
+.ve-init-mw-editSwitch {
+	/* stylelint-disable-next-line selector-class-pattern */
+	.wikiEditor-ui-toolbar & {
+		/* stylelint-disable-next-line declaration-property-unit-disallowed-list */
+		font-size: 12.8px;
+	}
+
+	.oo-ui-popupToolGroup {
+		height: 24px;
+		margin: 0;
+
+		&.oo-ui-iconElement .oo-ui-popupToolGroup-handle {
+			padding-top: 24px;
+			height: 0;
+		}
+
+		&-handle .oo-ui-iconElement-icon {
+			margin: 2px;
+		}
+
+		&-handle .oo-ui-indicatorElement-indicator {
+			margin: 6px;
+		}
+
+		&.oo-ui-indicatorElement.oo-ui-iconElement {
+			min-width: 48px;
+		}
+	}
+}

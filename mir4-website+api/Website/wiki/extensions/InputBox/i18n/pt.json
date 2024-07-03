@@ -1,0 +1,21 @@
+{
+	"@metadata": {
+		"authors": [
+			"Hamilton Abreu",
+			"He7d3r",
+			"Imperadeiro98",
+			"Malafaya",
+			"Vitorvicentevalente"
+		]
+	},
+	"inputbox-desc": "Permite a inclusão de formulários HTML pré-definidos.",
+	"inputbox-error-no-type": "Não especificou o tipo de caixa de introdução de dados a ser criado.",
+	"inputbox-error-bad-type": "O tipo de caixa de introdução de dados \"$1\" não foi reconhecido.\nPor favor, especifique \"create\", \"comment\", \"search\", \"search2\" ou \"fulltext\".",
+	"inputbox-tryexact": "Tentar a expressão exata",
+	"inputbox-searchfulltext": "Pesquisar no texto completo",
+	"inputbox-createarticle": "Criar página",
+	"inputbox-movearticle": "Mover página",
+	"inputbox-postcomment": "Nova secção",
+	"inputbox-postcommenttitle": "Nova secção",
+	"inputbox-ns-main": "Principal"
+}

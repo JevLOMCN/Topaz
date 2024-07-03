@@ -1,0 +1,46 @@
+@import 'mediawiki.skin.variables.less';
+@import '../echo.variables.less';
+
+.mw-echo-ui-toggleReadCircleButtonWidget {
+	&-circle {
+		border-radius: @border-radius-circle;
+		box-sizing: border-box;
+		min-width: 10px;
+		width: @bundle-group-padding;
+		min-height: 10px;
+		height: @bundle-group-padding;
+		margin: @bundle-group-padding;
+
+		// Mark as read
+		background-color: @background-color-progressive;
+		border: 0;
+
+		// Mark as unread
+		&-unread {
+			background-color: #eaecf0;
+			border: @border-width-base @border-style-base @grey-light;
+		}
+	}
+
+	// Override OOUI specific rule for frameless buttons that adds a ~2.5em padding-top
+	&.oo-ui-widget.oo-ui-widget-enabled.oo-ui-buttonElement.oo-ui-buttonElement-frameless > .oo-ui-buttonElement-button {
+		padding-top: 0;
+		// Remove padding for dummy icon
+		padding-left: 0;
+	}
+
+	&.oo-ui-buttonElement-frameless.oo-ui-iconElement > .oo-ui-buttonElement-button > .oo-ui-iconElement-icon {
+		// Hide dummy icon
+		display: none;
+	}
+
+	&:hover .mw-echo-ui-toggleReadCircleButtonWidget-circle {
+		// Mark as read
+		background-color: #447ff5;
+
+		// Mark as unread
+		&-unread {
+			background-color: #c8ccd1;
+		}
+	}
+}

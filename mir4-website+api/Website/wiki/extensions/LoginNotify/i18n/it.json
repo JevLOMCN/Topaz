@@ -1,0 +1,21 @@
+{
+	"@metadata": {
+		"authors": [
+			"Beta16",
+			"Elitre (WMF)",
+			"Greis"
+		]
+	},
+	"loginnotify-desc": "Avvisa gli utenti di accessi sospetti da un dispositivo e/o un indirizzo IP sconosciuto.",
+	"echo-category-title-login-fail": "Tentativi di accesso falliti",
+	"echo-pref-tooltip-login-fail": "Avvisami quando si sono verificati tentativi falliti di accesso con la mia utenza.",
+	"echo-category-title-login-success": "Accesso da un dispositivo sconosciuto",
+	"echo-pref-tooltip-login-success": "Avvisami ogni volta che qualcuno accede con la mia utenza da un dispositivo e un indirizzo IP sconosciuto.",
+	"loginnotify-primary-link": "Aiuto",
+	"notification-loginnotify-login-fail-email-subject": "{{PLURAL:$2|Tentativo fallito|Diversi tentativi falliti}} di accesso a {{SITENAME}} come $1",
+	"notification-loginnotify-login-success-email-subject": "Accesso a {{SITENAME}} come $1 da un dispositivo che non {{GENDER:$1|hai}} utilizzato di recente",
+	"notification-header-login-success": "Qualcuno (probabilmente {{GENDER:$1|tu}}) ha recentemente eseguito l'accesso con la tua utenza da un nuovo dispositivo. Nel caso fossi {{GENDER:$1|stato|stata}} tu, puoi ignorare questo messaggio. Se invece non sei {{GENDER:$1|stato|stata}} tu, allora è consigliabile cambiare la tua password e verificare l'attività della tua utenza.",
+	"notification-new-bundled-header-login-fail": "{{PLURAL:$1|C'è stato '''un tentativo fallito'''|Ci sono stati '''$1 tentativi falliti'''}} di accesso con la tua utenza da un nuovo dispositivo dall'ultima volta che hai eseguito l'accesso. Se non sei stato tu, assicurati che la tua utenza abbia una password complessa.",
+	"notification-known-header-login-fail": "{{PLURAL:$1|C'è stato '''un tentativo fallito'''|Ci sono stati '''$1 tentativi falliti'''}} di accesso con la tua utenza, dall'ultima volta che hai eseguito l'accesso. Se non sei stato tu, assicurati che la tua utenza abbia una password complessa.",
+	"notification-new-unbundled-header-login-fail": "{{PLURAL:$1|C'è stato '''un tentativo fallito'''|Ci sono stati '''più tentativi falliti'''}} di accedere con la tua utenza da un nuovo dispositivo. Assicurati di avere una password complessa."
+}

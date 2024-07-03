@@ -1,0 +1,78 @@
+[
+	{
+		"name": "oathauth_types",
+		"comment": "Possible authentication device types",
+		"columns": [
+			{
+				"name": "oat_id",
+				"comment": "Unique ID of this device type",
+				"type": "integer",
+				"options": { "autoincrement": true, "notnull": false }
+			},
+			{
+				"name": "oat_name",
+				"comment": "Internal name of this device type, matching the keys of attributes.OATHAuth.Modules in extension.json",
+				"type": "binary",
+				"options": { "notnull": true, "length": 255 }
+			}
+		],
+		"indexes": [
+			{
+				"name": "oat_name",
+				"columns": [ "oat_name" ],
+				"unique": true
+			}
+		],
+		"pk": [ "oat_id" ]
+	},
+	{
+		"name": "oathauth_devices",
+		"comment": "Enrolled authentication devices",
+		"columns": [
+			{
+				"name": "oad_id",
+				"comment": "Unique ID of this authentication device",
+				"type": "integer",
+				"options": { "autoincrement": true, "notnull": false }
+			},
+			{
+				"name": "oad_user",
+				"comment": "User ID",
+				"type": "integer",
+				"options": { "notnull": true }
+			},
+			{
+				"name": "oad_type",
+				"comment": "Device type ID, references the oathauth_types table",
+				"type": "integer",
+				"options": { "notnull": true }
+			},
+			{
+				"name": "oad_name",
+				"comment": "User-specified name of this device",
+				"type": "binary",
+				"options": { "notnull": false, "length": 255 }
+			},
+			{
+				"name": "oad_created",
+				"comment": "Timestamp when this authentication device was created",
+				"type": "mwtimestamp",
+				"options": { "notnull": false }
+			},
+			{
+				"name": "oad_data",
+				"comment": "Data",
+				"type": "blob",
+				"options": { "length": 65530, "notnull": false }
+			}
+		],
+		"indexes": [
+			{
+				"name": "oad_user",
+				"columns": [ "oad_user" ],
+				"unique": false
+			}
+		],
+		"pk": [ "oad_id" ]
+	}
+]

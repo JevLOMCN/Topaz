@@ -1,0 +1,42 @@
+{
+	"@metadata": {
+		"authors": [
+			"Assele",
+			"Вильданова Гюзель",
+			"З. ӘЙЛЕ",
+			"Лилиә",
+			"Ләйсән",
+			"Янмурза Баки"
+		]
+	},
+	"cite-desc": "Төшөрмәләр өсөн <code>&lt;ref[ name=id]&gt;</code> һәм <code>&lt;references/&gt;</code> тамғаларын өҫтәй",
+	"cite_error": "Өҙөмтә хатаһы: $1",
+	"cite_error_ref_numeric_key": "<code>&lt;ref&gt;</code> тамғаһы дөрөҫ түгел;\nисем бөтөн һан була алмай. Тасуирлыраҡ исем ҡулланығыҙ.",
+	"cite_error_ref_no_key": "<code>&lt;ref&gt;</code> асыу тамғаһы дөрөҫ түгел йәки мәғәнәһеҙ исем йөрөтә.",
+	"cite_error_ref_too_many_keys": "<code>&lt;ref&gt;</code> тамғаһы дөрөҫ түгел;\nхаталы исемдәр; күрәһең, улар бик күп",
+	"cite_error_ref_no_input": "<code>&lt;ref&gt;</code> тамғаһы дөрөҫ түгел;\nисемһеҙ төшөрмәнең эстәлеге булырға тейеш.",
+	"cite_error_references_duplicate_key": "<code>&lt;ref&gt;</code> тег дөрөҫ түгел: «$1» исеме бер нисә тапҡыр төрлө йөкмәткегә бирелгән",
+	"cite_error_references_invalid_parameters": "<code>&lt;references&gt;</code> тамғаһында рөхсәт ителмәгән параметр бар",
+	"cite_error_references_no_backlink_label": "Кире ҡайтарыу гиперһылтанмалары өсөн символдар етмәй. [[MediaWiki:Cite references link many format backlink labels]] система хәбәрен киңәйтергә кәрәк.",
+	"cite_error_no_link_label_group": "\"$1\" төркөмө өсөн ҡатнашыусы һылтанмалары билдәләре етмәй. [[MediaWiki:$2]] система хәбәрендә күберәк тәғәйенләгеҙ.",
+	"cite_error_references_no_text": "<code>&lt;ref&gt;</code> тамғаһы дөрөҫ түгел;\n<code>$1</code> төшөрмәләре өсөн текст юҡ",
+	"cite_error_included_ref": "<code>&lt;ref&gt;</code> тамғаһы өсөн <code>&lt;/ref&gt;</code> ябыу тамғаһы юҡ",
+	"cite_error_group_refs_without_references": "\"$1\" төркөмөнөң ғәмәлдәге <code>&lt;ref&gt;</code> тамғалары өсөн кәрәкле <code>&lt;references group=\"$1\"/&gt;</code> тамғаһы табылманы",
+	"cite_error_references_group_mismatch": "<code>&lt;references&gt;</code> тамғаһындағы <code>&lt;ref&gt;</code> тамғаһы \"$1\" төркөмө атрибуттары менән конфликтҡа инә.",
+	"cite_error_references_missing_key": "<code>&lt;references&gt;</code> билдәләнгән \"$1\" исемле <code>&lt;ref&gt;</code> тамға алдағы текста ҡулланылмай.",
+	"cite_error_references_no_key": "<code>&lt;references&gt;</code> билдәләнгән <code>&lt;ref&gt;</code> тамғаһы исем атрибутына эйә түгел.",
+	"cite_error_empty_references_define": "$2 төркөмөндәге <code>&lt;Иҫкәрмәләрҙә&gt;</code> \"$1\" исеме менән билдәләнгән <code>&lt;ref&gt;</code> тамғаның эстәлеге юҡ.",
+	"cite-tracking-category-cite-error": "Иҫкәрмәләрендә хаталар булған биттәр",
+	"cite-tracking-category-cite-error-desc": "Был категориялағы биттәрҙә иҫкәрмәләр тамғаһын файҙаланғанда хата ебәрелгән.",
+	"cite_references_link_accessibility_label": "Тексҡа кире ҡайтыу",
+	"cite_references_link_many_accessibility_label": "Ҡабат өҫкә күсергә",
+	"cite_section_preview_references": "Иҫкәрмәләрҙе ҡарап сығыу",
+	"cite_warning": "Өҙөмтә тураһында иҫкәртергә: $1",
+	"cite_warning_sectionpreview_no_text": "<code>$1</code> исемле <code>&lt;ref&gt;</code> тамғаны ҡарап сығып булмай, сөнки ул икенсе бүлектә билдәләнгән йәки бөтөнләй билдәләнмәгән.",
+	"cite-wikieditor-tool-reference": "Иҫкәрмә",
+	"cite-wikieditor-help-page-references": "Иҫкәрмәләр",
+	"cite-wikieditor-help-content-reference-description": "Иҫкәрмә",
+	"cite-wikieditor-help-content-named-reference-description": "Исемләнгән иҫкәрмә",
+	"cite-wikieditor-help-content-rereference-description": "Бер үк иҫкәрмәне ҡабаттан ҡулланыу",
+	"cite-wikieditor-help-content-showreferences-description": "Иҫкәрмәләрҙе күрһәтергә"
+}

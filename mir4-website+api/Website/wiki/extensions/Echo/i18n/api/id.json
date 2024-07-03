@@ -1,0 +1,42 @@
+{
+	"@metadata": {
+		"authors": [
+			"Daud I.F. Argana",
+			"Kenrick95",
+			"Rachmat.Wahidi",
+			"Rachmat04",
+			"William Surya Permana"
+		]
+	},
+	"apihelp-echomarkread-summary": "Tandai pemberitahuan dari pengguna ini sebagai telah dibaca.",
+	"apihelp-echomarkread-param-list": "Daftar ID pemberitahuan yang ingin ditandai sebagai telah dibaca.",
+	"apihelp-echomarkread-param-unreadlist": "Daftar ID pemberitahuan yang ingin ditandai sebagai belum dibaca.",
+	"apihelp-echomarkread-param-all": "Jika ditetapkan, menandai semua pemberitahuan pengguna sebagai telah dibaca.",
+	"apihelp-echomarkread-param-sections": "Daftar bagian yang ingin ditandai sebagai telah dibaca.",
+	"apihelp-echomarkread-param-wikis": "Daftar wiki yang ingin ditandai pemberitahuannya sebagai telah dibaca (secara baku hanya berlaku untuk wiki saat ini).",
+	"apihelp-echomarkread-example-1": "Tandai pemberitahuan 8 sebagai telah dibaca",
+	"apihelp-echomarkread-example-2": "Tandai semua pemberitahuan sebagai telah dibaca",
+	"apihelp-echomarkread-example-3": "Tandai pemberitahuan 1 sebagai telah dibaca",
+	"apihelp-echomarkseen-summary": "Tandai pemberitahuan dari pengguna ini sebagai telah dibaca.",
+	"apihelp-echomarkseen-example-1": "Tandai pemberitahuan dari semua jenis sebagai telah dibaca",
+	"apihelp-echomarkseen-param-type": "Jenis pemberitahuan untuk ditandai telah dilihat: 'peringatan', 'pesan' atau 'semua'.",
+	"apihelp-echomute-summary": "Bisukan atau suarakan pemberitahuan dari pengguna atau halaman tertentu.",
+	"apihelp-echopushsubscriptions-param-command": "Tindakan untuk dilakukan.",
+	"apihelp-query+notifications-summary": "Dapatkan penungguan pemberitahuan untuk pengguna ini.",
+	"apihelp-query+notifications-param-prop": "Rincian yang diminta.",
+	"apihelp-query+notifications-param-sections": "Bagian pemberitahuan yang ingin didapatkan (misalnya, kombinasi antara 'peringatan' dan 'pesan').",
+	"apihelp-query+notifications-param-groupbysection": "Menentukan apakah perlu mengelompokkan hasil berdasarkan bagian. Jika ditetapkan, setiap bagian diambil secara terpisah.",
+	"apihelp-query+notifications-param-filter": "Saring pemberitahuan yang dikembalikan.",
+	"apihelp-query+notifications-param-format": "Jika ditetapkan, pemberitahuan akan menghasilkan format seperti ini.",
+	"apihelp-query+notifications-paramvalue-format-model": "Data pemberitahuan mentah",
+	"apihelp-query+notifications-param-limit": "Jumlah maksimum pemberitahuan yang dihasilkan.",
+	"apihelp-query+notifications-param-alertcontinue": "Saat ada lebih banyak hasil peringatan yang tersedia, gunakan ini untuk melanjutkan.",
+	"apihelp-query+notifications-param-alertunreadfirst": "Menentukan apakah harus menampilkan pemberitahuan pesan yang belum dibaca terlebih dahulu.",
+	"apihelp-query+notifications-param-messagecontinue": "Saat ada lebih banyak hasil pesan yang tersedia, gunakan ini untuk melanjutkan.",
+	"apihelp-query+notifications-param-messageunreadfirst": "Menentukan apakah harus menampilkan pemberitahuan peringatan terlebih dahulu (hanya digunakan jika groupbysection ditetapkan).",
+	"apihelp-query+notifications-example-1": "Daftar pemberitahuan web",
+	"apihelp-query+notifications-example-2": "Daftar pemberitahuan web, dikelompokkan berdasarkan bagian, dengan jumlah",
+	"apihelp-query+unreadnotificationpages-param-limit": "Jumlah halaman maksimum yang ditampilkan.",
+	"apihelp-query+unreadnotificationpages-param-wikis": "Daftar wiki untuk mengambil halaman dengan pemberitahuan belum dibaca (baku hanya pada wiki ini).",
+	"apihelp-query+unreadnotificationpages-example-1": "Daftarkan halaman dengan (jumlah) pemberitahuan belum dibaca"
+}

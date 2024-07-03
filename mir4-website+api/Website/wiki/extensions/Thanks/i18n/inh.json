@@ -1,0 +1,18 @@
+{
+	"@metadata": {
+		"authors": [
+			"Adam-Yourist",
+			"ElizaMag",
+			"Tusholi"
+		]
+	},
+	"thanks-thank": "{{GENDER:$1|{{GENDER:$2|баркал áла}}}}",
+	"thanks-thanked": "{{GENDER:$1|{{GENDER:$2|Баркал аьннад}}}}",
+	"thanks-button-thank": "{{GENDER:$1|{{GENDER:$2|Баркал áла}}}}",
+	"thanks-button-thanked": "{{GENDER:$1|{{GENDER:$2|Баркал аьннад}}}}",
+	"thanks-thank-tooltip": "{{GENDER:$1|ДIадахьийта}} {{GENDER:$2|укх доакъашхочунна}} баркал",
+	"thanks-confirmation2": "Массанена гуш {{GENDER:$1|баркал ала}} дезий?",
+	"echo-category-title-edit-thank": "Баркал алар",
+	"log-name-thanks": "Баркал аларий тептар",
+	"logentry-thanks-thank": "доакъашхочо $1 {{GENDER:$2|баркал аьннад}} {{GENDER:$4|доакъашхочунна}} $3"
+}

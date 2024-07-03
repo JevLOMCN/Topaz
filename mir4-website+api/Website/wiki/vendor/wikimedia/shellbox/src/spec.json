@@ -1,0 +1,47 @@
+{
+	"paths": {
+		"/shellbox.php/": {
+			"get": {
+				"x-monitor": true,
+				"x-amples": [{
+					"request": {
+						"headers": {
+							"Accept": "application/json"
+						}
+					},
+					"response": {
+						"status": 500,
+						"headers": {
+							"Content-Type": "application/json"
+						},
+						"body": {
+							"message": "No action was specified"
+						}
+					}
+				}]
+			}
+		},
+		"/shellbox.php/healthz": {
+			"get": {
+				"x-monitor": true,
+				"x-amples": [{
+					"request": {
+						"headers": {
+							"Accept": "application/json"
+						}
+					},
+					"response": {
+						"status": 200,
+						"headers": {
+							"Content-Type": "application/json"
+						},
+						"body": {
+							"__": "Shellbox running"
+						}
+					}
+				}]
+			}
+		}
+	}
+}
+

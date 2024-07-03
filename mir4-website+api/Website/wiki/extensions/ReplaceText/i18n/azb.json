@@ -1,0 +1,41 @@
+{
+	"@metadata": {
+		"authors": [
+			"Mousa"
+		]
+	},
+	"replacetext": "یازینی دَییشدیر",
+	"replacetext-desc": "ایداره‌چیلره ویکی‌نین بوتون مقاله‌لرینده سراسری بیر یازی آختاریب و دَییشدیرمگی ایجازه وئرن بیر [[Special:ReplaceText|اؤزل صحیفه]] تعمین ائدیر.",
+	"replacetext_docu": "بوتون بو ویکی‌ده معمولی صحیفه‌لر اوستونده بیر یازینی آیری بیر یازی ایله دَییشدیرمک اوچون، او ایکی یازی پارچالارینی بوردا یازین و «{{int:replacetext_continue}}»-ی وورون.\nسونرا سیزه آختاریش یازیسی اولان صحیفه‌لرین لیستی گؤستریله‌جک و سیزه دَییشدیرمک ایسته‌دیگینیزلری سئچه بیلرسینیز.\nصحیفه‌لرین گئچمیشلرینده سیزین آدینیز دَییشدیرمگه مسئول اولان ایستیفاده‌چی عونوانیندا گؤرونه‌جکدیر.",
+	"replacetext_originaltext": "ایلکین یازی:",
+	"replacetext_replacementtext": "یئرینه قویما یازیسی:",
+	"replacetext_useregex": "دوزنلی ایفاده‌لر (رِگولار اِکسپرِشن) ایشلدین",
+	"replacetext_regexdocu": "(میثال: «{{int:replacetext_originaltext}}» اوچون «a(.*)c» دَیَری و «{{int:replacetext_replacementtext}}» اوچون «ac$1» دَیَری، «abc»-ی «acb» ایله دَییشدیره‌جکدیر.)",
+	"replacetext_optionalfilters": "ایستگه باغلی سۆزگَجلر:",
+	"replacetext_categorysearch": "یالنیز بؤلمه‌ده یئرینه قوی:",
+	"replacetext_prefixsearch": "یالنیز بو اؤن‌اکلری اولان صحیفه‌لرده یئرینه قوی:",
+	"replacetext_editpages": "یازینی مقاله ایچینده‌کیلرده یئرینه قوی",
+	"replacetext_movepages": "اولسا، یازینی صحیفه باشلیقلاریندا یئرینه قوی",
+	"replacetext_givetarget": "یئرینه قویولان یازینی گرک بیلیندیره‌سینیز.",
+	"replacetext_nonamespace": "گرک آزی بیر آدفضاسی بیلیندیره‌سینیز.",
+	"replacetext_editormove": "گرک یئرینه قویماق سئچمه‌لریندن آزی بیرینی سئچه‌سینیز.",
+	"replacetext_choosepagesforedit": "بو {{PLURAL:$3|صحیفه‌نین یازیسیندا|صحیفه‌لرین یازیلاریندا}} «$1»-ین یئرینه «$2»-ی قوی:",
+	"replacetext_choosepagesformove": "بو {{PLURAL:$3|صحیفه‌نین باشلیغیندا|صحیفه‌لرین باشلیقلاریندا}} «$1»-ین یئرینه «$2»-ی قوی:",
+	"replacetext_cannotmove": "بو {{PLURAL:$1|صحیفه‌نی|صحیفه‌لری}} آپارماق اولماز:",
+	"replacetext_formovedpages": "آپاریلان صحیفه‌لر اوچون:",
+	"replacetext_savemovedpages": "اسکی باشلیقلاردا یئنی باشلیقلارا یول‌لاندیرما قئید ائت",
+	"replacetext_watchmovedpages": "بو صحیفه‌لری ایزله",
+	"replacetext_invertselections": "سئچیلمیشلری دؤندر",
+	"replacetext_replace": "یئرینه قوی",
+	"replacetext_success": "{{PLURAL:$3|بیر|$3}} صحیفه‌ده «$1»-ین یئرینه «$2» قویولاجاقدیر.",
+	"replacetext_noreplacement": "«$1» یازیسی اولان هئچ بیر صحیفه تاپیلمادی.",
+	"replacetext_nomove": "«$1» باشلیغی اولان هئچ بیر صحیفه تاپیلمادی.",
+	"replacetext_nosuchcategory": "«$1» آدی ایله بیر بؤلمه یوخدور.",
+	"replacetext_return": "قورما قاییت.",
+	"replacetext_warning": "'''دیقت:''' ایندی {{PLURAL:$1|بیر|$1}} دنه «$2» یئرینه قویولان یازیسی اولان صحیفه واردیر. اگر بو یئرینه قویماغی ائتسز، اؤز یئرینه قویدوقلارینیزی بو یازیلاردان آییرا بیلنمه‌یه‌جکسینیز.",
+	"replacetext_blankwarning": "'''دیقت:''' یئرینه قویولان یازینین بوش اولدوغونا گؤره، بو ایشی دؤندره بیلنمه‌یه‌جکسینیز.",
+	"replacetext_continue": "داوام ائت",
+	"replacetext_editsummary": "یازی یئرینه قویما - «$1»-ی «$2»-یه",
+	"right-replacetext": "یازی یئرینه قویمانی بوتون ویکی‌ده ائت",
+	"action-replacetext": "یازی یئرینه قویمانی بوتون ویکی‌ده ائت"
+}

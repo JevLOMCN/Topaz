@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"Saurmandal"
+		]
+	},
+	"apihelp-templatedata-summary": "TemplateData एक्सटेंशन द्वारा संग्रहीत डेटा प्राप्त करता है।",
+	"apihelp-templatedata-example-1": "[[Template:Stub]] और [[Template:Example]] के लिए TemplateData लौटाएँ, और अगर साँचे मौजूद न हों या फिर मौजूद होने के बावजूद उनपर TemplateData न हो तो परिणाम लौटाएँ",
+	"apihelp-templatedata-example-2": "[[Template:Stub]] और [[Template:Example]] के लिए TemplateData लौटाएँ, और अगर साँचे मौजूद न हों या फिर मौजूद होने के बावजूद उनपर TemplateData न हो तो परिणाम लौटाएँ",
+	"apihelp-templatedata-param-includeMissingTitles": "अगर शीर्षक लापता भी हो या फिर उनपर TemplateData न भी हो, तब भी शीर्षकों के बारे में डेटा लौटाएँ। डिफ़ॉल्ट से शीर्षक सिर्फ तभी लौटाए जाते हैं अगर वे मौजूद हों और उनपर TemplateData हो।",
+	"apihelp-templatedata-param-doNotIgnoreMissingTitles": "अगर शीर्षक लापता भी हो या फिर उनपर TemplateData न भी हो, तब भी शीर्षकों के बारे में डेटा लौटाएँ। डिफ़ॉल्ट से शीर्षक सिर्फ तभी लौटाए जाते हैं अगर वे मौजूद हों और उनपर TemplateData हो।",
+	"apihelp-templatedata-param-lang": "इस भाषा में स्थानीयकृत वैल्यू लौटाएँ। डिफ़ॉल्ट से सभी उपलब्ध अनुवाद लौटाए जाते हैं।",
+	"apierror-templatedata-corrupt": "पृष्ठ #$1 के TemplateData में अमान्य डेटा है: $2",
+	"apiwarn-templatedata-deprecation-format": "आउटपुट का डिफ़ॉल्ट प्रारूप भविष्य में <kbd>jsonfm</kbd> पर बदल जाएगा। कृपया स्पष्ट <kbd>format=json</kbd> निर्दिष्ट करें।"
+}

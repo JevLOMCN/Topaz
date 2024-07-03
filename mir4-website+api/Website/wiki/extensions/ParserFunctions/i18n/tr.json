@@ -1,0 +1,32 @@
+{
+	"@metadata": {
+		"authors": [
+			"BaRaN6161 TURK",
+			"Joseph",
+			"MuratTheTurkish",
+			"SaldırganSincap",
+			"Vito Genovese"
+		]
+	},
+	"pfunc_desc": "Ayrıştırıcıyı mantıksal işlevlerle geliştir",
+	"pfunc_time_error": "Hata: Geçersiz saat.",
+	"pfunc_time_too_long": "Hata: Çok fazla #time çağrıları.",
+	"pfunc_time_too_big": "Hata: #time yalnızca 9999'a kadar olan yılları destekler.",
+	"pfunc_time_too_small": "Hata: #time yalnızca 0'dan sonraki yılları destekler.",
+	"pfunc_rel2abs_invalid_depth": "Hata: Yolda geçersiz derinlik: \"$1\" (kök düğümünün üstünde bir düğüme erişmeye çalıştı)",
+	"pfunc_expr_stack_exhausted": "İfade hatası: Stack bitti.",
+	"pfunc_expr_unexpected_number": "İfade hatası: Beklenmeyen sayı.",
+	"pfunc_expr_preg_match_failure": "İfade hatası: Beklenmedik preg_match arızası.",
+	"pfunc_expr_unrecognised_word": "İfade hatası: Tanınmayan \"$1\" kelimesi.",
+	"pfunc_expr_unexpected_operator": "İfade hatası: Beklenmedik $1 operatörü.",
+	"pfunc_expr_missing_operand": "İfade hatası: $1 için eksik terim.",
+	"pfunc_expr_unexpected_closing_bracket": "İfade hatası: Beklenmeyen kapanış ayracı.",
+	"pfunc_expr_unrecognised_punctuation": "İfade hatası: Tanınmayan \"$1\" noktalama karakteri.",
+	"pfunc_expr_unclosed_bracket": "İfade hatası: Kapanmamış parantez.",
+	"pfunc_expr_division_by_zero": "Sıfır ile bölme.",
+	"pfunc_expr_invalid_argument": "$1 için geçersiz değişken: -1'den küçük ya da 1'den büyük.",
+	"pfunc_expr_invalid_argument_ln": "ln için geçersiz değişken: 0'dan küçük ya da eşit.",
+	"pfunc_expr_unknown_error": "İfade hatası: Bilinmeyen hata ($1).",
+	"pfunc_expr_not_a_number": "$1 içinde: Sonuç bir sayı değildir.",
+	"pfunc_string_too_long": "Hata: Dize $1 karakter sınırını geçiyor."
+}

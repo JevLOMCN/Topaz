@@ -1,0 +1,44 @@
+@import 'mediawiki.skin.variables.less';
+
+// Make sure label vertically aligns with icon
+.cdx-button {
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+}
+
+// Apply spacing between icons and text in buttons and menu items
+.toggle-list-item__anchor,
+.cdx-button {
+	.minerva-icon + span:not( :empty ) {
+		margin-left: 8px;
+	}
+}
+
+// Never reveal the labels of icon only buttons in the header,
+// article content (parser-output), IP masking banner,
+// or MobileFrontend overlays / drawers.
+// Also applies to the slide left/right buttons in the image overlay.
+.mw-temp-user-banner,
+.mw-parser-output,
+.overlay-header,
+.drawer-container,
+.slider-button,
+.minerva-header {
+	.cdx-button.cdx-button--icon-only {
+		span + span {
+			.mixin-screen-reader-text();
+		}
+	}
+}
+
+// On desktop reveal labels of icon-only buttons.
+// This applies to page actions and other icon only buttons
+// that are not scoped in the rule above.
+@media all and ( max-width: @width-breakpoint-desktop ) {
+	.cdx-button.cdx-button--icon-only {
+		span + span:last-child {
+			.mixin-screen-reader-text();
+		}
+	}
+}

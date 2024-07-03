@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"Borichèt"
+		]
+	},
+	"apihelp-query+gadgetcategories-param-prop": "Che anformassion an sla categorìa d'acessòri oten-e:\n;name:Nòm ëd la categorìa anterna.\n;title:Tìtol ëd la categorìa.\n;members:Nùmer d'acessòri ant la categorìa.",
+	"apihelp-query+gadgetcategories-param-names": "Nùmer ëd categorìe da oten-e.",
+	"apihelp-query+gadgetcategories-example-1": "Oten-e na lista dle categorìe d'acessòri esistente",
+	"apihelp-query+gadgetcategories-example-2": "Oten-e tute j'anformassion an sle categorìe ciamà «foo» e «bar»",
+	"apihelp-query+gadgets-param-prop": "Che anformassion an sj'acessòri oten-e:\n;id:Identificativ antern dl'acessòri.\n;metadata:Ij metadàit dl'acessòri.\n;desc:Descrissio dl'acessòri trasformà an HTML (a peul esse lent, dovré mach s'a-i na j'é pròpi damanca).",
+	"apihelp-query+gadgets-param-categories": "Da che categorìe ciapé j'acessòri.",
+	"apihelp-query+gadgets-param-ids": "Identificativ dj'acessòri da ciapé.",
+	"apihelp-query+gadgets-param-allowedonly": "Listé mach j'acessòri consentì a l'utent atual."
+}

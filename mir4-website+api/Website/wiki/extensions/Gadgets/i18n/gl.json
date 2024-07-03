@@ -1,0 +1,37 @@
+{
+	"@metadata": {
+		"authors": [
+			"Alma",
+			"ArenaL5",
+			"Banjo",
+			"Elisardojm",
+			"Toliño"
+		]
+	},
+	"gadgets-desc": "Deixa que os usuarios seleccionen [[Special:Gadgets|trebellos CSS e JavaScript]] nas súas [[Special:Preferences#mw-prefsection-gadgets|preferencias]]",
+	"prefs-gadgets": "Trebellos",
+	"gadgets-prefstext": "A continuación hai unha lista cos trebellos especiais que pode activar para a súa conta.\nA maioría destes trebellos están escritos en JavaScript, así que debe ter o JavaScript activado no seu navegador para que funcionen.\nTeña en conta que estes trebellos non funcionarán nesta páxina de preferencias.\n\nTeña tamén en conta que estes trebellos especiais non son parte do software de MediaWiki e que están creados e mantidos por usuarios no seu wiki local.\nOs administradores da interfaz local poden editar as [[MediaWiki:Gadgets-definition|definicións]] dos trebellos dispoñibles, e os administradores locais poden editar as súas [[Special:Gadgets|descricións]], onde podes ver o código fonte de cada trebello. O número de usuarios de cada trebello neste wiki está listado na [[Special:GadgetUsage|páxina de estatísticas de uso dos trebellos]].",
+	"special-gadgets": "Trebellos",
+	"gadgetusage": "Estatísticas de uso dos trebellos",
+	"gadgetusage-gadget": "Trebello",
+	"gadgetusage-usercount": "Número de usuarios",
+	"gadgetusage-noresults": "Non se atoparon trebellos.",
+	"gadgetusage-intro": "Esta táboa indica o número de usuarios que teñen activado algún trebello neste wiki. Un usuario activo é alguén que fixo algunha edición {{PLURAL:$1|no último día|nos últimos $1 días}}. A lista non inclúe estatísticas para os trebellos activados para todos por defecto e podería incluír trebellos que xa non están dispoñibles.",
+	"gadgetusage-intro-noactive": "Esta táboa indica o número de usuarios que teñen activado cada trebello neste wiki. A lista non inclúe estatísticas dos trebellos activados para todos por defecto e podería incluír trebellos que xa non están dispoñibles.",
+	"gadgetusage-activeusers": "Usuarios activos",
+	"gadgetusage-default": "Por defecto",
+	"gadgets-title": "Trebellos",
+	"gadgets-pagetext": "Embaixo hai unha lista dos trebellos especiais que os usuarios poden habilitar na súa páxina de preferencias, tal e como se describe nas [[MediaWiki:Gadgets-definition|definicións]].\nEste panorama xeral é de doado acceso ao sistema das páxinas de mensaxes que define cada descrición e código dos trebellos.",
+	"gadgets-uses": "Usa",
+	"gadgets-required-rights": "{{PLURAL:$2|Cómpre o seguinte dereito|Cómpren os seguintes dereitos}}:\n\n$1",
+	"gadgets-required-skins": "Dispoñible {{PLURAL:$2|na aparencia $1|nas seguintes aparencias: $1}}.",
+	"gadgets-default": "Activado para todos por defecto.",
+	"gadgets-legacy": "O trebello non está cargado. Por favor, migre a ResourceLoader. ([https://www.mediawiki.org/wiki/Special:MyLanguage/ResourceLoader/Migration_guide_(users) Máis información])",
+	"gadgets-export": "Exportar",
+	"gadgets-export-title": "Exportación de trebellos",
+	"gadgets-not-found": "Non se atopou o trebello \"$1\".",
+	"gadgets-export-text": "Para exportar o trebello $1, prema sobre o botón \"{{int:gadgets-export-download}}\", garde o ficheiro descargado,\nvaia á páxina especial Special:Import do wiki de destino e cárgueo. A continuación, engada o seguinte texto na páxina MediaWiki:Gadgets-definition:\n<pre>$2</pre>\nDebe ter os permisos axeitados no wiki de destino (incluído o dereito de modificar as mensaxes do sistema) e a importación desde a carga de ficheiros debe estar activada.",
+	"gadgets-export-download": "Descargar",
+	"gadgets-validate-notset": "A propiedade <code>$1</code> non está establecida.",
+	"gadgets-validate-wrongtype": "A propiedade <code>$1</code> debe ser de tipo <code>$2</code> en vez de <code>$3</code>."
+}

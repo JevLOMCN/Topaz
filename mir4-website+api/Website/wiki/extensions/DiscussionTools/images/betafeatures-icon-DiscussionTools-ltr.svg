@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg version="1.1" viewBox="0 0 264 162" xmlns="http://www.w3.org/2000/svg" width="264" height="162">
+	<defs>
+		<clipPath id="jagged-edge">
+			<path d="M0 0v152l12 10 12-10 12 10 12-10 12 10 12-10 12 10 12-10 12 10 12-10 12 10 12-10 12 10 12-10 12 10 12-10 12 10 12-10 12 10 12-10 12 10 12-10V0z"/>
+		</clipPath>
+	</defs>
+	<g clip-path="url(#jagged-edge)" fill="#eaecf0">
+		<path id="background" d="m0 0h264v162h-264" fill="#fff"/>
+		<path id="logo" d="m11 22c0-8 6-14 14-14s14 6 14 14-6 14-14 14-14-6-14-14m27 23v-5h-25v5h25"/>
+		<path id="sidebar" d="m38 163v-105h-25v106h25"/>
+		<path id="personal-tools" d="m233 5h26v6h-26zm-24 0h22v6h-22zm-24 0h22v6h-22zm-23 0h13v6h-13zm15 0h6v6h-6zm-23 0h6v6h-6z"/>
+		<g id="search">
+			<path id="input" d="m258 16v4h-92v-4h92m1-1h-94v6h94z"/>
+			<path id="icon" d="m168 17h2v2h-2z"/>
+		</g>
+		<path id="article" d="m252 162v-133h-204v133z"/>
+		<path id="border" d="m0 0v162h264v-162zm1 1h262v150.53l-11 9.166-12-10-12 10-12-10-12 10-12-10-12 10-12-10-12 10-12-10-12 10-12-10-12 10-12-10-12 10-12-10-12 10-12-10-12 10-12-10-12 10-11-9z"/>
+	</g>
+	<path d="m60.828 43.534h179.14v3h-179.14zm0 10h179.14v3h-179.14zm0 10h52.137v3h-52.137z" fill="#c8ccd1" stroke-width="1.1562"/>
+	<path d="m80.172 73.534h159.79v3h-159.79zm0 10h46.507v3h-46.507z" fill="#c8ccd1" stroke-width="1.092"/>
+	<g>
+		<g fill-rule="evenodd">
+			<rect x="131.03" y="81.763" width="19.94" height="6.9046" color="#000000" fill="#36c"/>
+			<rect x="91.77" y="93.329" width="147.2" height="34.549" color="#000000" fill="#fff" stroke="#36c" stroke-width="2"/>
+			<rect x="214.92" y="133.01" width="25.045" height="8.6724" color="#000000" fill="#36c"/>
+		</g>
+		<path d="m99.143 100.61h132.18v3h-132.18zm0 10h38.469v3h-38.469z" fill="#7a818e" stroke-width=".99317"/>
+		<rect x="117.03" y="61.763" width="19.94" height="6.9046" color="#000000" fill="#36c" fill-rule="evenodd"/>
+	</g>
+</svg>

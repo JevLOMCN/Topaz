@@ -1,0 +1,17 @@
+{
+	"@metadata": {
+		"authors": [
+			"Chrumps",
+			"Rail"
+		]
+	},
+	"renocaptcha-desc": "Moduł reCAPTCHA NoCAPTCHA do rozszerzenia ConfirmEdit",
+	"renocaptcha-edit": "W celu ochrony przed zautomatyzowanym spamem edycyjnym prosimy wpisać poniższy tekst CAPTCHA:",
+	"renocaptcha-addurl": "Wprowadzony przez Ciebie tekst zawiera nowe linki zewnętrzne. W celu ochrony przed zautomatyzowanym spamem prosimy wpisać poniższy tekst CAPTCHA:",
+	"renocaptcha-badlogin": "W celu ochrony przed zautomatyzowanym łamaniem haseł prosimy wpisać poniższy tekst CAPTCHA:",
+	"renocaptcha-createaccount": "W celu ochrony przed zautomatyzowanym tworzeniem kont prosimy wpisać poniższy tekst CAPTCHA:",
+	"renocaptcha-createaccount-fail": "Wydaje się, że CAPTCHA nie został wpisany prawidłowo.",
+	"renocaptcha-create": "W celu ochrony przed zautomatyzowanym tworzeniem stron prosimy wpisać poniższy tekst CAPTCHA:",
+	"renocaptcha-noscript": "Nie masz włączonego JavaScriptu, więc nie możemy automatycznie rozpoznać czy jesteś człowiekiem. Rozwiąż proszę CAPTCHĘ powyżej i wklej wynik w poniższe pole:",
+	"renocaptcha-help": "Rozwiąż proszę wyzwanie ReCaptcha NoCaptcha i zwróć wartość wyniki jako captchaWord."
+}

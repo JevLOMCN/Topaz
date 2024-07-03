@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"Daud I.F. Argana",
+			"Diki Ananta",
+			"Jack Phoenix",
+			"Rachmat04",
+			"Sumbukompor"
+		]
+	},
+	"apihelp-categorytree-summary": "Modul internal untuk ekstensi CategoryTree.",
+	"apihelp-categorytree-param-category": "Judul di ruangnama kategori, awalan akan diabaikan jika ada.",
+	"apihelp-categorytree-param-options": "Opsi untuk pembangun CategoryTree sebagai sebuah objek JSON. Opsi <var>depth</var> (kedalaman) baku menjadi <kbd>1</kbd>.",
+	"apierror-categorytree-invalidjson": "Pilihannya haruslah sebuah objek JSON yang valid."
+}

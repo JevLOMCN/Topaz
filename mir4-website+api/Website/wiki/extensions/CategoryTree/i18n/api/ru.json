@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Kaganer",
+			"Okras"
+		]
+	},
+	"apihelp-categorytree-summary": "Внутренний модуль для расширения CategoryTree.",
+	"apihelp-categorytree-param-category": "Название в пространстве имён категорий, префикс в случае задания игнорируется.",
+	"apihelp-categorytree-param-options": "Варианты для конструктора CategoryTree как JSON-объекта. Параметр <var>depth</var> (глубина) по умолчанию установлен как <kbd>1</kbd>.",
+	"apierror-categorytree-invalidjson": "Варианты должны быть валидными JSON-объектами."
+}

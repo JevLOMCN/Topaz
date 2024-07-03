@@ -1,0 +1,28 @@
+{
+	"@metadata": {
+		"authors": [
+			"Meno25",
+			"Mr. Ibrahem",
+			"SaldırganSincap",
+			"Tala Ali",
+			"ديفيد",
+			"زكريا"
+		]
+	},
+	"syntaxhighlight-desc": "يوفر تمييزا لتركيب <code>&lt;syntaxhighlight&gt;</code> باستخدام [http://pygments.org/ Pygments - Python syntax highlighter]",
+	"syntaxhighlight-error-category": "صفحات بها أخطاء في تعليم الصيغة",
+	"syntaxhighlight-error-category-desc": "كان هناك خطأ عند محاولة لتسليط الضوء على الكود المدرجة في الصفحة.",
+	"syntaxhighlight-enclose-category": "الصفحات التي تستخدم سمات enclose مهجورة",
+	"syntaxhighlight-enclose-category-desc": "يستخدم إبراز بناء الجملة على الصفحة بناء جملة enclose مهمل.",
+	"syntaxhighlight-source-category": "الصفحات التي تستخدم علامات المصدر الموقوفة",
+	"syntaxhighlight-source-category-desc": "يستخدم تسليط الضوء على الصفحة علامات مصدر مهجورة",
+	"syntaxhighlight-visualeditor-mwsyntaxhighlightinspector-code": "الكود",
+	"syntaxhighlight-visualeditor-mwsyntaxhighlightinspector-language": "اللغة",
+	"syntaxhighlight-visualeditor-mwsyntaxhighlightinspector-none": "(لا شيء)",
+	"syntaxhighlight-visualeditor-mwsyntaxhighlightinspector-showlines": "إظهار أرقام الخطوط",
+	"syntaxhighlight-visualeditor-mwsyntaxhighlightinspector-startingline": "رقم سطر البدء",
+	"syntaxhighlight-visualeditor-mwsyntaxhighlightinspector-title": "نص خام",
+	"syntaxhighlight-error-pygments-invocation-failure": "فشل استدعاء Pygments",
+	"syntaxhighlight-error-unknown-language": "لغة غير معروفة \"$1\"",
+	"syntaxhighlight-error-exceeds-size-limit": "يتجاوز حجم الكود البالغ $1 {{PLURAL:$1|بايت}} الحد الأقصى المسموح به وهو $2 {{PLURAL:$2|بايت}}"
+}

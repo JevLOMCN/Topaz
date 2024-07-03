@@ -1,0 +1,16 @@
+{
+	"@metadata": {
+		"authors": [
+			"2nd-player",
+			"Kokage si",
+			"Otokoume",
+			"Yusuke1109"
+		]
+	},
+	"apihelp-templatedata-summary": "TemplateData 拡張機能によって保存されたデータを取得します。",
+	"apihelp-templatedata-example-1": "[[Template:Foobar]]のTemplateDataを、テンプレートが存在しないか存在するもののTemplateDataがない場合の結果ありで返します",
+	"apihelp-templatedata-example-2": "[[Template:Phabricator]]のTemplateDataを、テンプレートが存在しないか存在するもののTemplateDataがない場合の結果なしで返します",
+	"apihelp-templatedata-param-lang": "この言語に地域化された値を返します。既定では、すべてのサポートされている翻訳が返されます。",
+	"apierror-templatedata-corrupt": "ページ #$1 のテンプレートデータに無効なデータが含まれます: $2",
+	"apiwarn-templatedata-deprecation-format": "既定の出力形式は将来 <kbd>jsonfm</kbd> に変更される予定です。明示的に <kbd>format=json</kbd> を指定してください。"
+}

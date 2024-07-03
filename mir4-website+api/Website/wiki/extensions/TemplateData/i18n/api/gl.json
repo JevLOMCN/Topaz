@@ -1,0 +1,17 @@
+{
+	"@metadata": {
+		"authors": [
+			"Elisardojm",
+			"Maria zaos",
+			"Toliño"
+		]
+	},
+	"apihelp-templatedata-summary": "Obter os datos almacenador pola extensión TemplateData.",
+	"apihelp-templatedata-example-1": "Devolver TemplateData para [[Template:Foobar]], cos resultados se o modelo non existe ou existe pero non ten TemplateData",
+	"apihelp-templatedata-example-2": "Devolver TemplateData para [[Template:Phabricator]], sen resultados se o modelo non existe ou existe pero non ten TemplateData",
+	"apihelp-templatedata-param-includeMissingTitles": "Devolver datos sobre títulos incluso se faltan ou non teñen TemplateData. Por defecto os títulos só se devolven se existen e teñen TemplateData.",
+	"apihelp-templatedata-param-doNotIgnoreMissingTitles": "Devolver datos sobre os títulos, mesmo se estes non existen ou non conteñen TemplateData. Por defecto (para compatibilidade con versións anteriores) os títulos só serán devoltos se existen e conteñen TemplateData.",
+	"apihelp-templatedata-param-lang": "Devolver os valores localizados nesta lingua. Por defecto, devólvense todas as traducións dispoñibles.",
+	"apierror-templatedata-corrupt": "O modelo de datos da páxina #$1 contén datos incorrectosː $2",
+	"apiwarn-templatedata-deprecation-format": "O formato de saída cambiará a <kbd>jsonfm</kbd> no futuro. Por favor, especifique <kbd>format=json</kbd> explicitamente."
+}

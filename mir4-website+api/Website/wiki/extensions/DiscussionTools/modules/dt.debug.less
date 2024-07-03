@@ -1,0 +1,65 @@
+.mw-dt-heading {
+	font-size: 110%;
+	font-weight: bold;
+}
+
+.mw-dt-comment {
+	border: 1px solid #ccc;
+	border-radius: 3px;
+	padding: 5px;
+	margin-top: 0.5em;
+
+	> summary {
+		padding-left: 0.25em;
+
+		&:focus {
+			outline: 0;
+			background: #f0f3fc !important; /* stylelint-disable-line declaration-no-important */
+		}
+	}
+
+	> .mw-dt-comment {
+		margin-left: 1.5em;
+	}
+
+	&-body {
+		margin-left: 1.25em;
+		overflow: hidden;
+	}
+
+	> .mw-dt-comment[ data-level='1' ] {
+		margin-left: 0;
+	}
+
+	&-signature {
+		margin-left: 1.25em / 0.9;
+		font-size: 90%;
+		color: #666;
+
+		summary > & {
+			margin-left: 0.25em / 0.9;
+		}
+	}
+
+	&-author {
+		font-weight: bold;
+	}
+
+	[ data-level='1' ],
+	[ data-level='3' ],
+	[ data-level='5' ],
+	[ data-level='7' ],
+	[ data-level='9' ],
+	[ data-level='11' ] {
+		background: #f6f6f6;
+	}
+
+	[ data-level='0' ],
+	[ data-level='2' ],
+	[ data-level='4' ],
+	[ data-level='6' ],
+	[ data-level='8' ],
+	[ data-level='10' ] {
+		background: #fff;
+	}
+}

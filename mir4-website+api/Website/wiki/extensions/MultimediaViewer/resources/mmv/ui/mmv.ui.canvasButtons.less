@@ -1,0 +1,143 @@
+@import 'mediawiki.skin.variables.less';
+@import '../mmv.variables.less';
+@import 'mediawiki.mixins.less';
+@import '../mmv.mixins.less';
+
+.mw-mmv-download-button,
+.mw-mmv-reuse-button,
+.mw-mmv-options-button,
+.mw-mmv-close,
+.mw-mmv-fullscreen,
+.mw-mmv-next-image,
+.mw-mmv-prev-image {
+	cursor: pointer;
+	position: fixed;
+	background-color: transparent;
+	background-repeat: no-repeat;
+	opacity: 0.8;
+	border: 0;
+	z-index: 1003;
+
+	&.mw-mmv-dialog-open,
+	&:hover {
+		text-decoration: none;
+		opacity: 1;
+	}
+
+	.user-select( none );
+}
+
+.mw-mmv-download-button.hidden,
+.mw-mmv-reuse-button.hidden,
+.mw-mmv-options-button.hidden,
+.mw-mmv-close.hidden,
+.mw-mmv-fullscreen.hidden,
+.mw-mmv-next-image.hidden,
+.mw-mmv-prev-image.hidden {
+	display: none;
+}
+
+.cursor-hidden {
+	.mw-mmv-download-button,
+	.mw-mmv-reuse-button,
+	.mw-mmv-close,
+	.mw-mmv-fullscreen,
+	.mw-mmv-next-image,
+	.mw-mmv-prev-image {
+		/* stylelint-disable-next-line plugin/no-unsupported-browser-features */
+		cursor: none;
+	}
+}
+
+.mw-mmv-download-button,
+.mw-mmv-reuse-button,
+.mw-mmv-options-button,
+.mw-mmv-close,
+.mw-mmv-fullscreen {
+	right: @buttons-offset-right;
+	left: auto;
+	transition: opacity 0.25s;
+	background-position: center;
+	margin-top: 14px;
+	width: 24px + 2 * 14px;
+}
+
+.mw-mmv-next-image,
+.mw-mmv-prev-image {
+	top: -999px;
+	width: 80px;
+	height: 120px;
+	transition: opacity 0.25s, margin 0.25s;
+
+	&.disabled {
+		display: none;
+		/* stylelint-disable-next-line plugin/no-unsupported-browser-features */
+		cursor: none;
+	}
+}
+
+.mw-mmv-close {
+	top: @buttons-offset-right;
+	/* @embed */
+	background-image: url( img/mw-close.svg );
+	height: 23px;
+}
+
+.mw-mmv-fullscreen {
+	right: @buttons-offset-right - 2px;
+	top: ( @buttons-offset-right + ( @buttons-offset-each-top ) );
+	/* @embed */
+	background-image: url( img/mw-fullscreen-ltr.svg );
+	height: 22px;
+}
+
+.mw-mmv-options-button {
+	top: ( @buttons-offset-right + ( 2 * @buttons-offset-each-top ) );
+	/* @embed */
+	background-image: url( img/gear.svg );
+	height: 23px;
+}
+
+.jq-fullscreened {
+	.mw-mmv-fullscreen {
+		/* @embed */
+		background-image: url( img/mw-defullscreen-ltr.svg );
+	}
+}
+
+.mw-mmv-next-image {
+	/* @embed */
+	background-image: url( img/next-ltr.svg );
+	background-position: right;
+	right: @navbutton-width;
+
+	&:hover {
+		margin-right: -4px;
+	}
+}
+
+.mw-mmv-prev-image {
+	/* @embed */
+	background-image: url( img/prev-ltr.svg );
+	background-position: left;
+	left: @navbutton-width;
+
+	&:hover {
+		margin-left: -4px;
+	}
+}
+
+.mw-mmv-reuse-button {
+	right: @buttons-offset-right - 2px;
+	bottom: @buttons-offset-right + @metadatabar-above-fold-height + @progress-bar-height;
+	/* @embed */
+	background-image: url( img/use-ltr.svg );
+	height: 24px;
+}
+
+.mw-mmv-download-button {
+	bottom: @buttons-offset-right + @metadatabar-above-fold-height + @progress-bar-height + 37px;
+	/* @embed */
+	background-image: url( img/mw-download.svg );
+	height: 24px;
+}

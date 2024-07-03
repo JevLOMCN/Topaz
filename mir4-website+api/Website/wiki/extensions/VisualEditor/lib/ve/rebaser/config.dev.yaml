@@ -1,0 +1,17 @@
+# Number of worker processes to spawn.
+# Set to 0 to run everything in a single process without clustering.
+# Use ncpu to run as many workers as there are CPU units
+num_workers: 0
+
+# Logger info
+logging:
+  level: info
+
+services:
+  - name: rebaser
+    module: ./src/app.js
+    conf:
+      port: 8081
+      mongodb:
+        host: localhost
+        port: 27017

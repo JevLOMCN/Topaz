@@ -1,0 +1,29 @@
+hooks.txt
+
+This documents Echo's client-side hooks:
+
+'ext.echo.notifications.beforeRender': Before notification widgets are rendered
+the wrapper of the notifications and the individual notification jQuery elements
+are passed to this hook, which can modify the DOM or take other actions.
+* $wrapper: The jQuery object that is the wrapper for the notification items
+* $elements: A jQuery group of all notification elements that are about to be rendered.
+
+'ext.echo.badge.countChange': When the count changes in the Notifications popup
+badge, this hook is fired with the new count.
+* type: Notifications type that the badge represents. Can be 'message', 'alert' or 'all'
+* count: The new numerical count in the notifications popup.
+* label: The label for this number, for presentation purposes.
+
+'ext.echo.popup.onInitialize': Fired when the popup is opened and after notifications
+were fetched from the API.
+* types: Notifications type that the badge represents. Can be 'message', 'alert' or 'all'
+* controller: The instance of the controller responsible for the specific popup operations
+
+'ext.echo.NotificationBadgeWidget.onInitialize': Fired when the badge is initialized
+* badge: Instance of mw.echo.ui.NotificationBadgeWidget
+
+'ext.echo.special.onInitialize': Fired when the special page is initialized. Note that this
+is also fired whenever the special page notification display is changed, like when clicking
+a filter, changing pagination, or viewing notifications for a remote wiki or page.
+* types: Notifications type that the badge represents. Can be 'message', 'alert' or 'all'
+* controller: The instance of the controller responsible for the specific popup operations

@@ -1,0 +1,18 @@
+@embed-dimensions-color: #72777d;
+
+.mw-mmv-reuse-dialog .mw-mmv-embed-pane {
+	padding: 20px 27px;
+
+	.mw-widget-copyTextLayout {
+		margin-top: 0;
+	}
+}
+
+.mw-mmv-embed-dimensions {
+	color: @embed-dimensions-color;
+	font-size: small;
+
+	.oo-ui-optionWidget-selected & {
+		color: lighten( @embed-dimensions-color, 20% ); // selected option has dark background
+	}
+}

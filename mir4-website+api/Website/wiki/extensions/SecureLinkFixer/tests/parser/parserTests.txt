@@ -1,0 +1,18 @@
+!! Version 2
+
+!! test
+Different domains
+!! wikitext
+Normal: http://test.localhost/
+Preloaded: http://en.wikipedia.org/wiki/Main_Page
+Protorel: [//en.wikipedia.org/wiki/Main_Page Main Page]
+TLD: http://foo.dev/foo/
+Ignored protocol: ftp://en.wikipedia.org/
+!! html
+<p>Normal: <a rel="nofollow" class="external free" href="http://test.localhost/">http://test.localhost/</a>
+Preloaded: <a rel="nofollow" class="external free" href="https://en.wikipedia.org/wiki/Main_Page">http://en.wikipedia.org/wiki/Main_Page</a>
+Protorel: <a rel="nofollow" class="external text" href="https://en.wikipedia.org/wiki/Main_Page">Main Page</a>
+TLD: <a rel="nofollow" class="external free" href="https://foo.dev/foo/">http://foo.dev/foo/</a>
+Ignored protocol: <a rel="nofollow" class="external free" href="ftp://en.wikipedia.org/">ftp://en.wikipedia.org/</a>
+</p>
+!! end

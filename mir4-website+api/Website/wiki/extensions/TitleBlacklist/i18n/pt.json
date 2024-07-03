@@ -1,0 +1,27 @@
+{
+	"@metadata": {
+		"authors": [
+			"Hamilton Abreu"
+		]
+	},
+	"action-tboverride": "contornar a lista de títulos e nomes de utilizador interditos",
+	"action-tboverride-account": "contornar a lista de nomes de utilizador interditos",
+	"action-titleblacklistlog": "ver o registo da lista de títulos interditos",
+	"log-name-titleblacklist": "Registo da lista de títulos interditos",
+	"log-description-titleblacklist": "Estes eventos registam as correspondências com a lista de títulos interditos.",
+	"logentry-titleblacklist-hit-username": "$1 causou uma correspondência com a lista de títulos interditos ao tentar criar a conta $3, que correspondeu com $4.{{GENDER:$2|}}",
+	"titleblacklist-desc": "Permite que os administradores proíbam a criação de páginas e contas de utilizadores através de uma [[MediaWiki:Titleblacklist|lista de títulos interditos]] e de uma [[MediaWiki:Titlewhitelist|lista de títulos permitidos]]",
+	"titleblacklist": "# Esta é uma lista de títulos interditos. Os títulos de páginas e os nomes de utilizadores que sejam filtrados por uma expressão regular desta lista, não poderão ser criados.\n# Use \"#\" para comentários.\n# Por omissão, esta lista não distingue maiúsculas de minúsculas",
+	"titlewhitelist": "# Esta é uma lista de títulos permitidos. Use \"#\" para comentários.\n# Por omissão, esta lista não distingue maiúsculas de minúsculas",
+	"titleblacklist-forbidden-edit": "Foi bloqueada a criação do título \"$2\".\nO título corresponde à seguinte entrada da lista de títulos interditos: <code>$1</code>",
+	"titleblacklist-forbidden-move": "\"$2\" não pode ser movido para \"$3\" já que foi bloqueada a criação do título \"$3\".\nO título corresponde à seguinte entrada da lista de títulos interditos: <code>$1</code>",
+	"titleblacklist-forbidden-upload": "Foi bloqueada a criação de ficheiros com o nome \"$2\".\nO nome corresponde à seguinte entrada da lista de títulos interditos: <code>$1</code>",
+	"titleblacklist-forbidden-new-account": "Foi bloqueada a criação de utilizadores com o nome \"$2\".\nO nome corresponde à seguinte entrada da lista de títulos interditos: <code>$1</code>",
+	"titleblacklist-invalid": "{{PLURAL:$1|A seguinte linha da lista de títulos interditos é inválida; corrija-a|As seguintes linhas da lista de títulos interditos são inválidas; corrija-as}} antes de gravar, por favor:",
+	"titleblacklist-override": "Contornar a lista de títulos interditos se houver coincidências",
+	"titleblacklist-override-help": "Os utilizadores com privilégios suficientes podem configurar isto para ignorar as verificações contra a lista de títulos interditos.",
+	"titleblacklist-warning": "<strong>Aviso: Esta página só pode ser editada por administradores e outros utilizadores com o privilégio <code>tboverride</code>, porque o título causa uma correspondência com a seguinte entrada da lista de títulos interditos:</strong><br /><code>$1</code>",
+	"right-tboverride": "Contornar a lista de títulos e nomes de utilizador interditos",
+	"right-tboverride-account": "Contornar a lista de nomes de utilizador interditos",
+	"right-titleblacklistlog": "Ver o registo da lista de títulos interditos"
+}

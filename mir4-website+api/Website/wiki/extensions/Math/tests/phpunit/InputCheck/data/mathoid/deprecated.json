@@ -1,0 +1,39 @@
+{
+	"success": true,
+	"checked": "1.5\\%",
+	"requiredPackages": [],
+	"identifiers": [],
+	"endsWithDot": false,
+	"warnings": [
+		{
+			"type": "texvc-deprecation",
+			"details": {
+				"error": {
+					"message": "Deprecation: % and $ need to be escaped.",
+					"expected": [],
+					"found": "%",
+					"location": {
+						"start": {
+							"offset": 4,
+							"line": 1,
+							"column": 5
+						},
+						"end": {
+							"offset": 5,
+							"line": 1,
+							"column": 6
+						}
+					},
+					"name": "SyntaxError"
+				},
+				"success": false,
+				"warnings": [],
+				"status": "S",
+				"details": "SyntaxError: Deprecation: % and $ need to be escaped.",
+				"offset": 4,
+				"line": 1,
+				"column": 5
+			}
+		}
+	]
+}

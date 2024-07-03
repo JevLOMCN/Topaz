@@ -1,0 +1,24 @@
+{
+	"@metadata": {
+		"authors": [
+			"Carla404",
+			"Dianakc",
+			"Eduardo.mps",
+			"Eduardoaddad",
+			"Felipe L. Ewald"
+		]
+	},
+	"imagemap_desc": "Permite mapas de imagem clicáveis no lado do cliente usando a marca <code>&lt;imagemap&gt;</code>",
+	"imagemap_no_image": "Erro: deve ser especificada uma imagem na primeira linha.",
+	"imagemap_invalid_image": "Erro: imagem inválida ou inexistente.",
+	"imagemap_bad_image": "Erro: a imagem não está permitida para esta página.",
+	"imagemap_no_link": "Erro: não foi encontrada uma ligação válida ao final da linha $1.",
+	"imagemap_invalid_title": "Erro: título inválido no link da linha $1.",
+	"imagemap_missing_coord": "Erro: coordenadas insuficientes para formar uma figura na linha $1.",
+	"imagemap_unrecognised_shape": "Erro: figura não reconhecida na linha $1. Cada linha precisa iniciar com: <code>default</code>, <code>rect</code>, <code>circle</code> ou <code>poly</code>.",
+	"imagemap_invalid_coord": "Erro: coordenada inválida na linha $1, é necessário que seja um número.",
+	"imagemap_invalid_desc": "Erro: especificação desc inválida, é necessário que seja uma dentre: <code>$1</code>.",
+	"imagemap_description": "Sobre esta imagem",
+	"imagemap_desc_types": "superior-direito, inferior-direito, inferior-esquerdo, superior-esquerdo, nenhum",
+	"imagemap_poly_odd": "Erro: encontrado polígono com número ímpar de coordenadas na linha $1"
+}

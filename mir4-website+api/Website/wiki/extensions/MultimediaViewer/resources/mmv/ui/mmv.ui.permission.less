@@ -1,0 +1,81 @@
+@import 'mediawiki.skin.variables.less';
+@import 'mediawiki.mixins.less';
+@import '../mmv.mixins.less';
+
+.mw-mmv-permission-box {
+	position: relative;
+	width: 90%;
+	margin: 10px 20px 0;
+
+	&.empty {
+		display: none;
+	}
+
+	h3 {
+		margin: 10px;
+		padding: 0;
+		color: @color-subtle;
+		font-size: 0.95em;
+	}
+
+	.mw-mmv-permission-close {
+		display: none;
+		position: absolute;
+		top: 12px;
+		right: 8px;
+		width: 16px;
+		height: 16px;
+		background-image: url( img/x_gray.svg );
+		cursor: pointer;
+	}
+
+	.mw-mmv-permission-text {
+		@text-font-size: 0.9em;
+		@text-line-height: 1.4;
+		@lines-shown: 3;
+		position: relative;
+		max-height: @lines-shown * @text-line-height * @text-font-size;
+		overflow: hidden;
+		margin: 0 10px 10px;
+		font-size: @text-font-size;
+		line-height: @text-line-height;
+		color: @color-subtle;
+
+		.mw-mmv-permission-text-fader {
+			position: absolute;
+			top: ( @lines-shown - 1 ) * @text-line-height * @text-font-size;
+			width: 100%;
+			height: @text-line-height * @text-font-size;
+			.fade-out-vertical();
+			text-align: right;
+
+			a {
+				padding: 3px 0 0 1em;
+				background-color: #fff;
+				font-size: 1em;
+			}
+		}
+	}
+
+	.mw-mmv-permission-html {
+		padding: 0 15px 15px;
+		display: none;
+		max-height: 400px;
+		overflow: auto;
+	}
+
+	&.full-size {
+		.mw-mmv-permission-close {
+			display: block;
+		}
+
+		.mw-mmv-permission-text {
+			display: none;
+		}
+
+		.mw-mmv-permission-html {
+			display: block;
+			border-top: 1px solid #f8f9fa;
+		}
+	}
+}

@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"BadDog",
+			"Milicevic01"
+		]
+	},
+	"apihelp-abusefilterunblockautopromote-param-user": "Корисничко име корисника ког желите да деблокирате.",
+	"apihelp-query+abusefilters-summary": "Прикажи детаље филтера злоупотреба.",
+	"apihelp-query+abuselog-example-1": "Прикажи скорашње уносе у дневнику",
+	"apihelp-abuselogprivatedetails-param-reason": "Важећи разлог за проверу",
+	"apierror-abusefilter-canttest": "Немате дозволу за тестирање филтера злоупотребе.",
+	"apierror-abusefilter-cantcheck": "Немате дозволу за проверу синтаксе филтера злоупотребе.",
+	"apierror-abusefilter-badsyntax": "Филтер има неважећу синтаксу."
+}

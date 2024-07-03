@@ -1,0 +1,24 @@
+{
+    "Indicator in fosterable position should not dirty-diff in selser mode": {
+        "selser [0,[0,4]]": "{|\n\n<!--f4r0i9-->|}",
+        "selser [0,2]": "\n15p76j8\n{|\n<indicator name='x'>foo</indicator>\n|x\n|}",
+        "selser [0,[0,[[2]]]]": "{|\n|tp89j\n|x\n|}",
+        "selser [0,4]": "\nnx0gm5",
+        "selser [0,3]": "",
+        "selser [0,[4,2]]": "{|<!--whauuy--><!--unygzw-->\n|x\n|}",
+        "selser [0,[4,3]]": "{|<!--nrowtx-->\n|}",
+        "selser [0,[0,[4]]]": "{|\n\n<!--1p8xz38-->|}",
+        "selser [0,1]": "{| data-foobar=\"1g2nchh\"\n\n|x\n|}",
+        "selser [0,[2,[2]]]": "{|<!--aby757-->\n\n<!--roaxi7-->|x\n|}",
+        "selser [0,[0,3]]": "{|\n\n|}",
+        "selser [0,[4,[3]]]": "{|<!--paznwa-->\n|}",
+        "selser [0,[0,[1]]]": "{|\n\n|x\n|}",
+        "selser [0,[3,1]]": "{|\n|x\n|}",
+        "selser [0,[0,[[3]]]]": "{|\n\n|}",
+        "selser [0,[0,[2]]]": "{|\n\n<!--1qtnalr-->|x\n|}",
+        "selser [0,[4,[2]]]": "{|<!--1pqsfaj--><!--a0z8gj-->\n|x\n|}",
+        "selser [0,[3,[[1]]]]": "{|\n| data-foobar=\"1dr8gfc\" |x\n|}",
+        "selser [0,[2,[1]]]": "{|<!--1i1jtb9-->\n\n|x\n|}",
+        "selser [0,[3,2]]": "{|<!--3rhy9v-->\n|x\n|}"
+    }
+}

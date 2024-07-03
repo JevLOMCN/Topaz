@@ -1,0 +1,29 @@
+{
+	"@metadata": {
+		"authors": [
+			"Abbas dhothar",
+			"Khalid Mahmood"
+		]
+	},
+	"cite-desc": "جوڑو <code>&lt;ref[ name=id]&gt;</code> تے <code>&lt;references/&gt;</code> ٹیگ اتے پتے لئی۔",
+	"cite_error": "سائیٹ غلطی:{{lang|ur|$1}}",
+	"cite_error_ref_numeric_key": "ناں منیا جان والا <code>&lt;ref&gt;</code> ٹیگ؛\nناں اک سادہ انٹیجر نئیں ہوسکدا۔ کوئی ہور دسن والا سرناواں دسو۔",
+	"cite_error_ref_no_key": "نا منیا جان والا <code>&lt;ref&gt;</code> ٹیگ؛\nاتے پتے جہدے وچ کوئی شے نا ہووے لازمی نا ہووے۔",
+	"cite_error_ref_too_many_keys": "نا منیا جان والا <code>&lt;ref&gt;</code> ٹیگ؛\nنا منے جان والے ناں",
+	"cite_error_ref_no_input": "نا منیا جان والا <code>&lt;ref&gt;</code> ٹیگ؛\nاتے پتے جہدے وچ کوئی شے ناہووے لازمی ناں ہووے۔",
+	"cite_error_references_invalid_parameters": "نا منیا جان والا <code>&lt;references&gt;</code> ٹیگ؛\nکسے پیرامیٹر دی اجازت نئیں۔\n<code>&lt;references /&gt;</code> ورتو",
+	"cite_error_references_no_backlink_label": "کسٹم پچھلے جزڑ نئیں رۓ۔\nہور دسو [[MediaWiki:Cite references link many format backlink labels]] سنیعے چ۔",
+	"cite_error_no_link_label_group": "\"$1\" ٹولی لئی کسٹم لیبل جوڑ مک گۓ۔\nہور دسو [[MediaWiki:$2]] سنیعے چ۔",
+	"cite_error_references_no_text": "نا منیا جان والا <code>&lt;ref&gt;</code> ٹیگ\nکوئی لکھت نئیں دتی گئی اتے پتے <code>$1</code> لئی۔",
+	"cite_error_included_ref": "بند کردا &lt;/ref&gt ؛ &lt;ref&gt دا گھاٹا ٹیگ",
+	"cite_error_group_refs_without_references": "<code>&lt;ref&gt;</code> ٹیگ اک ٹولی جیدا ناں \"$1\" اے ہیگے نیں، پر کوئی <code>&lt;references group=\"$1\"/&gt;</code> ٹیگ نا  لبھیا۔",
+	"cite_error_references_group_mismatch": "<code>&lt;ref&gt;</code> ٹیگ ان  <code>&lt;references&gt;</code> دے رپھڑی اٹریبیوٹ \"$1\"۔",
+	"cite_error_references_missing_key": "<code>&lt;ref&gt;</code> ٹیگ ناں نال \"$1\" <code>&lt;references&gt;</code> چ دسیا گیا پہلی کسے لکھت چ نئیں ورتیا گیا۔",
+	"cite_error_references_no_key": "<code>&lt;ref&gt;</code> ٹیگ دسیا گیا <code>&lt;references&gt;</code> چ دا کوئی ناں اٹریبیوٹ نئیں۔",
+	"cite_error_empty_references_define": "<code>&lt;ref&gt;</code> ٹیگ دسیا گیا <code>&lt;references&gt;</code> چ \"$1\" ناں نال، ایدے چ کج نئیں۔",
+	"cite-wikieditor-tool-reference": "حوالہ",
+	"cite-wikieditor-help-page-references": "اتے پتے",
+	"cite-wikieditor-help-content-reference-description": "اتے پتے",
+	"cite-wikieditor-help-content-rereference-description": "ہور ورتن اوسے اتے پتے دا",
+	"cite-wikieditor-help-content-showreferences-description": "اتے پتے وکھاؤ"
+}

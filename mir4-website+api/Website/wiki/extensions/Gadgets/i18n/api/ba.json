@@ -1,0 +1,20 @@
+{
+	"@metadata": {
+		"authors": [
+			"З. ӘЙЛЕ",
+			"Янмурза Баки"
+		]
+	},
+	"apihelp-query+gadgetcategories-param-names": "Кире ҡайтарыла торған категориялар исемлеге.",
+	"apihelp-query+gadgetcategories-example-1": "Гаджеттарҙың барлыҡ ғәмәлдәге категорияларының исемлеген алырға",
+	"apihelp-query+gadgetcategories-example-2": "«Foo» һәм «Bar» атамалары булған категориялар тураһында барлыҡ мәғлүмәтте алырға",
+	"apihelp-query+gadgets-param-categories": "Ниндәй категорияларҙан гаджеттар алырға.",
+	"apihelp-query+gadgets-param-ids": "Алыу өсөн гаджеттарҙың идентификаторҙары.",
+	"apihelp-query+gadgets-param-allowedonly": "Әлеге ҡатнашыусыға рөхсәт ителгән гаджеттарҙы ғына һанап сығарға.",
+	"apihelp-query+gadgets-param-enabledonly": "Әлеге ҡатнашыусының ҡабыҙылған гаджеттарын ғына һанап сығарға.",
+	"apihelp-query+gadgets-example-1": "Тасуирламалары менән бергә гаджеттар исемлеген алырға.",
+	"apihelp-query+gadgets-example-2": "Барлыҡ ихтимал булған үҙенсәнлектәре менән гаджеттарҙың исемлеген алырға.",
+	"apihelp-query+gadgets-example-3": "Гаджеттарҙың «foo» категорияһындағы исемлеген алырға.",
+	"apihelp-query+gadgets-example-4": "«foo» һәм «bar» гаджеттары тураһына мәғлүмәт алырға.",
+	"apihelp-query+gadgets-example-5": "Әлеге ҡатнашыусының ҡабыҙылған гаджеттарының исемлеген алырға."
+}

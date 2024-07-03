@@ -1,0 +1,28 @@
+{
+	"@metadata": {
+		"authors": [
+			"1917 Ekim Devrimi",
+			"Aspar",
+			"Erdemaslancan",
+			"Kumkumuk",
+			"Marmase",
+			"Mirzali",
+			"Olvörg",
+			"Orbot707"
+		]
+	},
+	"spam-blacklist": "  #<!-- na rêze zey cı verde --> <pre>\n# Gıreyê teberiyê ke na liste de yewbini gırewt, kılit benê.\n# Na liste tenya nê wikiyi rê tesir kena; zewbina qaytê lista kılitkerdışiya globale kerên.\n# Seba dokumantasyon ra adresa https://www.mediawiki.org/wiki/Extension:SpamBlacklist bıvênên\n#\n# Rêzvateyê cı zey cêriyo:\n#  * Karakterê \"#\" ra heta rêza peyêne her çi yew mışewreyo\n#  * Her rêza ke veng niya, yew parçeyê ifadeyo normalo ke tenya be zerreyê meymandaranê URLi ra yewbini gêno \n\n  #</pre> <!-- na rêze zey cı verde -->",
+	"spam-whitelist": "  #<!-- no satır zey xo verdê --> <pre>\n# gıreyê teber ê ke na liste de zêpi yê *bloke nêbeni*,\n# wazeno pê listeya siya zi bloke bıbo.\n#\n# rêzvate zey cêr o:\n#  * \"#\" karakteri raheta satıro peyin her çi mışoreyo\n#  * Her satıro dekerde, pêşkeşwan ê ke zerreyê URLlyi de tena parçeyê regexê .\n\n  #</pre> <!--no satır zey xo verdê -->",
+	"email-blacklist": "#Adresê e-postay ke eno liste de esto qandê starkerdış ya zi rusnayış rê blokeyo.\n# eno liste tenya aidê eno wikiyo.Siyalisteyê globali rê bıwane.\n#Qandê dokumentasyon  https://www.mediawiki.org/wiki/Extension:SpamBlacklist rê bıwane.\n#\n#Syntax zey cerêni;Hame yew karakterê \"#\" ra qediyeno u pêyê kommenti izahato. \n#Her satırê ke veng niyo yew fragmano nızamiyo u tenya qandê e-postayo.\n #</pre> <!-- Ena satıri bınuse -->",
+	"email-whitelist": "#<!-- pêroyi en satır bınuse --> <pre>\n#Adresê e-postay ke eno liste de dero bloke ''nêbeno'' eke ravêr i biyê.\n# Cı kewtışi terefê siyaliste biyo bloke.\n#\n #</pre> <!-- pêroyî in satır bınuse ,satır ino-->\n# Syntax zey ino:\n#  * Hame ke be yew karakterê a \"#\" qediyeno kommentê peyêni yew izahato:\n#  * Her satırê ke veng niyo yew fragmano nızamiyo u tenya qandê e-postayo.",
+	"spam-blacklisted-email": "Tomet lista epostay",
+	"spam-blacklisted-email-text": "Nıka adresa e-postayê to qande karberê bini ra mesac rıştenê listeyê biya tomet .",
+	"spam-blacklisted-email-signup": "E-posta adresiyo ke deyayo karkerdışe cı newke groto tometa miyan.",
+	"spam-invalid-lines": "na qerelisteya spami {{PLURAL:$1|satır|satıran}}  {{PLURAL:$1|nemeqbulo|nemeqbuli}};",
+	"spam-blacklist-desc": "Regex-tabanın haleta anti-spami URL'ya perer u adresa e-posta qande  karberande qeydınan geriyayo",
+	"log-name-spamblacklist": "Qeydê siyaliste ya spami",
+	"log-description-spamblacklist": "Nê weqeyi isabetanê lista spamiya siyaye teqib kenê.",
+	"logentry-spamblacklist-hit": "{{GENDER:$2|$1}} sebebê yew spami ra  kerdo liste, terefê $3 ra $4 bıyo cı",
+	"right-spamblacklistlog": "Roceka lista xırabi bıvênên",
+	"action-spamblacklistlog": "roceka lista xırabi bıvênên"
+}

@@ -1,0 +1,25 @@
+{
+	"@metadata": {
+		"authors": [
+			"Afalau",
+			"Lloffiwr",
+			"Xxglennxx"
+		]
+	},
+	"spam-blacklist": " #<!-- leave this line exactly as it is --> <pre>\n# Bydd URLs allanol sy'n cyfateb i URL ar y rhestr hon yn cael eu blocio os osodir ar dudalen.\n# Mae'r rhestr hon yn effeithio ar y wici hwn yn unig; ceir hefyd restr blocio cyd-wici.\n# Gweler https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:SpamBlacklist am fwy o wybodaeth\n#\n# Dyma'r gystrawen:\n#   * Mae popeth o nod \"#\" hyd at ddiwedd y llinell yn sylwad\n#   * Mae pob llinell nad yw'n wag yn ddarn regex sydd ddim ond yn cyfateb i westeiwyr tu mewn i gyfeiriadau URL\n\n #</pre> <!-- leave this line exactly as it is -->",
+	"spam-whitelist": " #<!-- leave this line exactly as it is --> <pre>\n# *Ni fydd* cyfeiriadau URL allanol sydd ar y rhestr hon yn cael eu blocio\n# hyd yn oed pan ydynt ar restr arall o gyfeiriadau URL gwaharaddedig.\n#\n# Dyma'r gystrawen:\n#   * Mae popeth o nod \"#\" hyd at ddiwedd y llinell yn sylwad\n#   * Mae pob llinell nad yw'n wag yn ddarn regex sydd ddim ond yn cydweddu \n#   * gwesteiwyr tu mewn i gyfeiriadau URL\n\n #</pre> <!-- leave this line exactly as it is -->",
+	"email-blacklist": "#<!-- leave this line exactly as it is --> <pre>\n# Fe gaiff cyfeiriadau ebost sydd yn cyfateb i'r rhestr hon eu blocio rhag iddynt gofrestru neu anfon ebyst\n# Ar gyfer y wici hwn yn unig mae'r rhestr hon; mae rhestr waharddedig led-led yr holl wicïau i'w gael.\n# Gweler https://www.mediawiki.org/wiki/Extension:SpamBlacklist am ragor o wybodaeth.\n#\n# Dyma'r gystrawen:\n#   * Mae popeth o nod \"#\" hyd at ddiwedd y llinell yn sylwad\n#   * Mae pob llinell nad yw'n wag yn ddarn regex sydd ddim ond yn cydweddu gwesteiwyr tu mewn i gyfeiriadau ebost\n\n #</pre> <!-- leave this line exactly as it is -->",
+	"email-whitelist": " #<!-- leave this line exactly as it is --> <pre>\n# *Ni fydd* cyfeiriadau ebost sydd ar y rhestr hon yn cael eu blocio\n# hyd yn oed pan ydynt ar restr arall o gyfeiriadau ebost gwaharaddedig.\n#\n# Dyma'r gystrawen:\n#   * Mae popeth o nod \"#\" hyd at ddiwedd y llinell yn sylwad\n#   * Mae pob llinell nad yw'n wag yn ddarn regex sydd ddim ond yn cydweddu \n#   * gwesteiwyr tu mewn i gyfeiriadau ebost\n\n #</pre> <!-- leave this line exactly as it is -->",
+	"spam-blacklisted-email": "Cyfeiriad e-bost gwaharddedig",
+	"spam-blacklisted-email-text": "Mae eich cyfeiriad ebost wedi ei wahardd rhag anfon ebyst at ddefnyddwyr eraill ar hyn o bryd.",
+	"spam-blacklisted-email-signup": "Mae'r cyfeiriad e-bost a roddwyd wedi'i wahardd rhag cael ei ddefnyddio ar hyn o bryd.",
+	"spam-invalid-lines": "Mae'r {{PLURAL:$1|llinell|llinell|llinellau}} canlynol ar y rhestr spam gwaharddedig yn {{PLURAL:$1|fynegiad|fynegiad|fynegiadau}} rheolaidd annilys; rhaid {{PLURAL:ei gywiro|ei gywiro|eu cywiro}} cyn rhoi'r dudalen ar gadw:",
+	"spam-blacklist-desc": "Teclyn gwrth-sbam yn seiliedig ar regex, sy'n galluogi gwahardd y canlynol - URLs o fewn tudalennau a chyfeiriadau ebost defnyddwyr cofrestredig",
+	"log-name-spamblacklist": "Log rhestr blocio sbam",
+	"log-description-spamblacklist": "Mae'r digwyddiadau hyn yn cofnodi trawiadau ar y rhestr sbam waharddedig.",
+	"logentry-spamblacklist-hit": "Fe geisiodd $1 ychwanegu $4 sydd ar y rhestr waharddedig $3.",
+	"right-spamblacklistlog": "Gweld log rhestr rwystro sbam",
+	"action-spamblacklistlog": "gweld log rhestr rwystro sbam",
+	"right-sboverride": "Osgoi'r restr rwystro sbam",
+	"action-sboverride": "Osgoi'r restr rwystro sbam"
+}

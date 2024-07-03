@@ -1,0 +1,108 @@
+/*!
+ * VisualEditor MediaWiki Initialization MobileArticleTarget styles.
+ *
+ * @copyright See AUTHORS.txt
+ * @license The MIT License (MIT); see LICENSE.txt
+ */
+
+.ve-init-mw-target-surface {
+	// margin-left and margin-right defined by the skin
+	// (see .content styles in Minerva)
+	margin-bottom: 1em;
+
+	> .ve-ce-surface .ve-ce-attachedRootNode,
+	> .ve-ui-surface-placeholder {
+		padding: 0;
+
+		&::before {
+			// This is done in this weird way to allow the margin to collapse with the margin of first
+			// element inside the editing surface. See I69d4d4bd9390a1007bc40cda9e78a6b3e7a1bd1d.
+			margin-top: 1em;
+			content: '';
+			display: block;
+		}
+	}
+
+	> .ve-ce-surface .ve-ce-attachedRootNode {
+		// Ensure whole page is focusable (T109508)
+		// Subtract toolbar height, margin-bottom and a little more
+		// to prevent scrolling.
+		min-height: ~'calc( 100vh - 5em )';
+
+		.ve-init-target-ios & {
+			// More spacing required on iOS to prevent scrolling.
+			min-height: ~'calc( 100vh - 10em )';
+		}
+
+		.ve-ui-targetWidget & {
+			min-height: 0;
+		}
+	}
+}
+
+.ve-ui-mwTargetWidget {
+	/* stylelint-disable-next-line selector-class-pattern */
+	.ve-ui-mwSurface.content {
+		// When content is applied to surface in a TargetWidget, don't add margins
+		margin: 0;
+	}
+}
+
+/* stylelint-disable-next-line selector-class-pattern */
+.ve-init-mw-mobileArticleTarget.overlay {
+	// Override MobileFrontend `.overlay` styles.
+	// `padding-top` is instead set on a different element in adjustContentPadding().
+	padding-top: 0;
+}
+
+.ve-init-mw-mobileArticleTarget .ve-ui-overlay-local {
+	// Reset line height set by .content
+	line-height: 1.4;
+}
+
+.oo-ui-windowManager-ios-modal-ready .ve-init-mw-mobileArticleTarget {
+	height: 100%;
+	overflow: hidden;
+}
+
+.ve-init-mw-mobileArticleTarget-toolbar-popups {
+	// Avoid jittering while scrolling (T209192)
+	position: fixed;
+}
+
+@media screen and ( max-width: 767px ) {
+	.ve-init-mw-target-surface > .ve-ui-surface-placeholder > * {
+		/* Fix margin overlap */
+		margin-top: 0;
+		/* Placeholder doesn't need a border as well */
+		border: 0;
+	}
+}
+
+.ve-ui-debugBar {
+	margin: 0 -16px;
+	padding: 0 16px;
+	border-top: 1px solid #c8ccd1;
+	box-shadow: 0 10px 10px -10px rgba( 0, 0, 0, 0.15 ) inset;
+
+	@media screen and ( min-width: 720px ) {
+		margin: 0 -3.35em;
+		padding: 0 3.35em;
+	}
+	padding-top: 0.8em;
+}
+
+.ve-ui-targetWidget .ve-ui-debugBar {
+	margin: 0;
+}
+
+.ve-ui-debugBar-selectionLabel {
+	min-width: auto;
+	width: 100%;
+}
+
+/* Restrict width of context to tablet width */
+.ve-ui-mobileContext-menu {
+	max-width: 995px;
+	margin: 0 auto;
+}

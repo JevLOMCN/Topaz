@@ -1,0 +1,33 @@
+{
+	"@metadata": {
+		"authors": [
+			"Amire80",
+			"G0rn",
+			"Jack who built the house",
+			"MaxBioHazard",
+			"Putnik",
+			"Александр Сигачёв"
+		]
+	},
+	"pfunc_desc": "Улучшенный синтаксический анализатор с логическими функциями",
+	"pfunc_time_error": "Ошибка: неправильное время",
+	"pfunc_time_too_long": "Ошибка: слишком много вызовов функции #time",
+	"pfunc_time_too_big": "Ошибка. Параметр #time не может превышать 9999",
+	"pfunc_time_too_small": "Ошибка: #time поддерживает только года от 0.",
+	"pfunc_rel2abs_invalid_depth": "Ошибка: ошибочная глубина пути: «$1» (попытка доступа к узлу, находящемуся выше, чем корневой)",
+	"pfunc_expr_stack_exhausted": "Ошибка выражения: переполнение стека",
+	"pfunc_expr_unexpected_number": "Ошибка выражения: неожидаемое число",
+	"pfunc_expr_preg_match_failure": "Ошибка выражения: сбой preg_match",
+	"pfunc_expr_unrecognised_word": "Ошибка выражения: неопознанное слово «$1»",
+	"pfunc_expr_unexpected_operator": "Ошибка выражения: неожидаемый оператор $1",
+	"pfunc_expr_missing_operand": "Ошибка выражения: $1 не хватает операнда",
+	"pfunc_expr_unexpected_closing_bracket": "Ошибка выражения: неожидаемая закрывающая скобка",
+	"pfunc_expr_unrecognised_punctuation": "Ошибка выражения: неопознанный символ пунктуации «$1»",
+	"pfunc_expr_unclosed_bracket": "Ошибка выражения: незакрытая скобка",
+	"pfunc_expr_division_by_zero": "Деление на ноль",
+	"pfunc_expr_invalid_argument": "Ошибочный аргумент $1: меньше -1 или больше 1",
+	"pfunc_expr_invalid_argument_ln": "Ошибочный аргумент ln: значение меньше или равно 0",
+	"pfunc_expr_unknown_error": "Ошибка выражения: неизвестная ошибка ($1)",
+	"pfunc_expr_not_a_number": "В $1: результат не является числом",
+	"pfunc_string_too_long": "Ошибка: строка превышает ограничение в $1 символов"
+}

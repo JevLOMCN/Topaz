@@ -1,0 +1,42 @@
+{
+	"@metadata": {
+		"authors": [
+			"Georg101",
+			"Jan Myšák",
+			"Matěj Suchánek",
+			"Mormegil",
+			"Patriccck",
+			"Patrik L."
+		]
+	},
+	"apierror-discussiontools-commentid-notfound": "Komentář s ID „$1“ nebyl nalezen.",
+	"apierror-discussiontools-commentname-ambiguous": "Bylo nalezeno více komentářů s názvem „$1“, namísto toho použijte parametr ID.",
+	"apierror-discussiontools-commentname-notfound": "Komentář s názvem „$1“ nebyl nalezen.",
+	"apierror-discussiontools-formtoken-used": "Komentář byl již zveřejněn. Pokud jej chcete zobrazit, načtěte stránku znovu.",
+	"apierror-discussiontools-subscription-failed-add": "Nelze odebírat toto téma.",
+	"apierror-discussiontools-subscription-failed-remove": "Nelze zrušit odběr tohoto tématu.",
+	"apihelp-discussiontoolscompare-summary": "Získat informace o změnách komentářů mezi dvěma revizemi stránky.",
+	"apihelp-discussiontoolsedit-param-commentid": "ID komentáře, na který se má odpovědět. Používá se pouze v případě, kdy <var>paction</var> je <var>addcomment</var>. Přepisuje <var>commentname</var>.",
+	"apihelp-discussiontoolsedit-param-commentname": "Název komentáře, na který se má odpovědět. Používá se pouze v případě, kdy <var>paction</var> je <var>addcomment</var>.",
+	"apihelp-discussiontoolsedit-param-formtoken": "Volitelné unikátní ID generované v klientovi, aby se zabránilo dvojímu zveřejnění.",
+	"apihelp-discussiontoolsedit-param-html": "Obsah k odeslání ve formátu HTML. Nelze použít společně s <var>wikitext</var>.",
+	"apihelp-discussiontoolsedit-param-sectiontitle": "{{int:apihelp-edit-param-sectiontitle}} Používá se pouze v případě, kdy <var>paction</var> je <var>addtopic</var>.",
+	"apihelp-discussiontoolsedit-param-wikitext": "Obsah k odeslání ve formátu wikitextu. Nelze použít společně s <var>html</var>.",
+	"apihelp-discussiontoolsedit-paramvalue-paction-addcomment": "Přidat nový komentář jako odpověď na existující komentář.",
+	"apihelp-discussiontoolsedit-paramvalue-paction-addtopic": "Přidat novou diskusní sekci a první komentář v ní.",
+	"apihelp-discussiontoolsedit-summary": "Zveřejnit zprávu na diskusní stránce.",
+	"apihelp-discussiontoolsgetsubscriptions-param-commentname": "Názvy témat ke kontrole",
+	"apihelp-discussiontoolsgetsubscriptions-summary": "Získat stavy odběru daných témat.",
+	"apihelp-discussiontoolspageinfo-param-oldid": "Číslo revize, které má být použito (výchozí je poslední revize stránky).",
+	"apihelp-discussiontoolspageinfo-param-prop": "Jaké vlastnosti získat:",
+	"apihelp-discussiontoolspageinfo-paramvalue-prop-threaditemshtml": "Reprezentace vláken komentářů parsovaných ze stránky",
+	"apihelp-discussiontoolspageinfo-paramvalue-prop-transcludedfrom": "Ze kterých dalších stránek byly komentáře transkludovány",
+	"apihelp-discussiontoolspageinfo-summary": "Vrací metadata potřebná k inicializaci Diskusních nástrojů.",
+	"apihelp-discussiontoolspreview-param-type": "Typ zprávy k náhledu",
+	"apihelp-discussiontoolspreview-param-wikitext": "Obsah k náhledu jako wikitext.",
+	"apihelp-discussiontoolspreview-summary": "Náhled zprávy na stránce diskuse.",
+	"apihelp-discussiontoolssubscribe-param-commentname": "Název tématu, k jehož odběru se chcete přihlásit (nebo odhlásit z něj)",
+	"apihelp-discussiontoolssubscribe-param-page": "Stránka, na které se téma zobrazuje",
+	"apihelp-discussiontoolssubscribe-param-subscribe": "True pro odběr, false pro zrušení odběru",
+	"apihelp-discussiontoolssubscribe-summary": "Přihlášení (nebo odhlášení) příjmu oznámení o tématu."
+}

@@ -1,0 +1,47 @@
+{
+	"name": "Poem",
+	"author": [
+		"Nikola Smolenski",
+		"Brion Vibber",
+		"Steve Sanbeg"
+	],
+	"license-name": "CC0-1.0",
+	"url": "https://www.mediawiki.org/wiki/Extension:Poem",
+	"descriptionmsg": "poem-desc",
+	"type": "parserhook",
+	"requires": {
+		"MediaWiki": ">= 1.42"
+	},
+	"MessagesDirs": {
+		"Poem": [
+			"i18n"
+		]
+	},
+	"HookHandlers": {
+		"main": {
+			"class": "MediaWiki\\Extension\\Poem\\Poem"
+		}
+	},
+	"Hooks": {
+		"ParserFirstCallInit": "main"
+	},
+	"AutoloadNamespaces": {
+		"MediaWiki\\Extension\\Poem\\": "includes/"
+	},
+	"ParsoidModules": [ {
+		"name": "Poem",
+		"domProcessors": [
+			"MediaWiki\\Extension\\Poem\\Parsoid\\PoemProcessor"
+		],
+		"tags": [
+			{
+				"name": "poem",
+				"handler": "MediaWiki\\Extension\\Poem\\Parsoid\\Poem",
+				"options": {
+					"outputHasCoreMwDomSpecMarkup": true
+				}
+			}
+		]
+	} ],
+	"manifest_version": 2
+}

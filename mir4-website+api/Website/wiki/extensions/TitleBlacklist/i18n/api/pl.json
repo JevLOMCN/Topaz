@@ -1,0 +1,16 @@
+{
+	"@metadata": {
+		"authors": [
+			"Rail",
+			"Railfail536",
+			"Woytecr"
+		]
+	},
+	"apihelp-titleblacklist-summary": "Sprawdź tytuł artykułu, pliku lub nazwy użytkownika pod kątem obecności na czarnej liście tytułów.",
+	"apihelp-titleblacklist-param-title": "Ciąg znaków, który sprawdzić pod kątem obecności na czarnej liście tytułów.",
+	"apihelp-titleblacklist-param-action": "Akcja do sprawdzenia.",
+	"apihelp-titleblacklist-param-nooverride": "Nie próbuj omijać czarnej listy tytułów.",
+	"apihelp-titleblacklist-example-1": "Sprawdź czy [[Foo]] jest na czarnej liście",
+	"apihelp-titleblacklist-example-2": "Sprawdź czy [[Bar]] jest na czarnej liście dla edytowania",
+	"apihelp-createaccount-param-ignoretitleblacklist": "Ignoruj sprawdzenia dotyczące upodobniania (wymaga jednego z tych uprawnień: <code>tboverride</code>, <code>tboverride-account</code>)."
+}

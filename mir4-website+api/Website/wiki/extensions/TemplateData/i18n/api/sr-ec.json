@@ -1,0 +1,16 @@
+{
+	"@metadata": {
+		"authors": [
+			"BadDog",
+			"Milicevic01"
+		]
+	},
+	"apihelp-templatedata-summary": "Прибавља податке које је ускладиштило проширење „Подаци о шаблону”.",
+	"apihelp-templatedata-example-1": "Return TemplateData for [[Template:Foobar]], with results if the template does not exist or exists but has no TemplateData",
+	"apihelp-templatedata-example-2": "Return TemplateData for [[Template:Phabricator]], with no results if the template does not exist or exists but has no TemplateData",
+	"apihelp-templatedata-param-includeMissingTitles": "Приказује податке о насловима чак и ако недостају или немају TemplateData. Подразумевано, наслови се само враћају ако постоје и имају TemplateData.",
+	"apihelp-templatedata-param-doNotIgnoreMissingTitles": "Приказује податке о насловима чак и ако недостају или немају TemplateData. Подразумевано, ради компатибилности, наслови су се само враћају ако постоје и имају TemplateData.",
+	"apihelp-templatedata-param-lang": "Приказује локализоване вредности за наведени језик. Подразумевано се приказују сви доступни преводи.",
+	"apierror-templatedata-corrupt": "TemplateData на страници #$1 садржи неважеће податке: $2",
+	"apiwarn-templatedata-deprecation-format": "У будућности, подразумевани излазни формат промениће се у <kbd>jsonfm</kbd>. Изричито наведите <kbd>format=json</kbd>."
+}

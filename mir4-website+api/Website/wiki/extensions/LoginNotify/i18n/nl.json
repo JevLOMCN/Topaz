@@ -1,0 +1,25 @@
+{
+	"@metadata": {
+		"authors": [
+			"Festina90",
+			"Mainframe98",
+			"Mar(c)",
+			"McDutchie",
+			"PiefPafPier",
+			"Sjoerddebruin",
+			"Woodcutterty"
+		]
+	},
+	"loginnotify-desc": "Gebruikers informeren over verdachte aanmeldingen van onbekende apparaten en/of IP-adressen",
+	"echo-category-title-login-fail": "Mislukte aanmeldpogingen",
+	"echo-pref-tooltip-login-fail": "Meld mij wanneer er voor mijn account mislukte aanmeldpogingen plaatsvinden.",
+	"echo-category-title-login-success": "Aanmelding vanaf onbekend apparaat",
+	"echo-pref-tooltip-login-success": "Meld mij wanneer iemand zich met mijn account aanmeldt vanaf een onbekend apparaat en IP-adres.",
+	"loginnotify-primary-link": "Hulp",
+	"notification-loginnotify-login-fail-email-subject": "{{PLURAL:$2|Mislukte aanmeldingspoging|Meerdere mislukte aanmeldingspogingen}} op {{SITENAME}} als $1",
+	"notification-loginnotify-login-success-email-subject": "Er is aangemeld op {{SITENAME}} als $1 vanaf een apparaat dat {{GENDER:$1|u}} niet recentelijk hebt gebruikt",
+	"notification-header-login-success": "Iemand (waarschijnlijk {{GENDER:$1|u}}) heeft zich recentelijk vanaf een nieuw apparaat bij uw account aangemeld. Als u dit zelf was, kunt u dit bericht negeren. Als u dit niet was, dan raden wij u aan uw wachtwoord te veranderen en de activiteit van uw account te controleren.",
+	"notification-new-bundled-header-login-fail": "Er {{PLURAL:$1|is '''een mislukte poging'''|zijn '''$1 mislukte pogingen'''}} geweest tot aanmelding op uw account vanaf een nieuw apparaat sinds de laatste keer dat u zich heeft aangemeld. Als u het niet was, zorg er dan voor dat uw account een sterk wachtwoord heeft.",
+	"notification-known-header-login-fail": "Er {{PLURAL:$1|is '''een mislukte poging'''|zijn '''$1 mislukte pogingen'''}} geweest tot aanmelding op uw account sinds de laatste keer dat u zich heeft aangemeld. Als u het niet was, zorg er dan voor dat uw account een sterk wachtwoord heeft.",
+	"notification-new-unbundled-header-login-fail": "Er {{PLURAL:$1|is '''een mislukte poging'''|zijn '''$1 mislukte pogingen'''}} geweest tot aanmelding op uw account vanaf een nieuw apparaat. Zorg ervoor dat uw account een sterk wachtwoord heeft."
+}

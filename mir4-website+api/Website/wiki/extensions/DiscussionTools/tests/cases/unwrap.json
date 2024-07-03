@@ -1,0 +1,68 @@
+[
+	{
+		"name": "empty",
+		"html": "<dl><dd></dd></dl>",
+		"index": 0,
+		"expected": ""
+	},
+	{
+		"name": "single item",
+		"html": "<dl><dd>Foo</dd></dl>",
+		"index": 0,
+		"expected": "<p>Foo</p>"
+	},
+	{
+		"name": "with siblings",
+		"html": "<div>before</div><dl><dd>Foo</dd></dl><div>after</div>",
+		"index": 1,
+		"expected": "<div>before</div><p>Foo</p><div>after</div>"
+	},
+	{
+		"name": "templated list",
+		"html": "<dl typeof=\"mw:Transclusion\" about=\"#mwt1\"><dd>Foo</dd></dl>",
+		"index": 0,
+		"expected": "<dl typeof=\"mw:Transclusion\" about=\"#mwt1\"><dd>Foo</dd></dl>"
+	},
+	{
+		"name": "single block item",
+		"html": "<dl><dd><pre>Foo</pre></dd></dl>",
+		"index": 0,
+		"expected": "<pre>Foo</pre>"
+	},
+	{
+		"name": "mixed inline and block",
+		"html": "<dl><dd>Foo <pre>Bar</pre> Baz</dd></dl>",
+		"index": 0,
+		"expected": "<p>Foo </p><pre>Bar</pre><p> Baz</p>"
+	},
+	{
+		"name": "multiple items",
+		"html": "<dl><dd>Foo</dd><dd>Bar</dd></dl>",
+		"index": 0,
+		"expected": "<p>Foo</p><p>Bar</p>"
+	},
+	{
+		"name": "multiple items with whitespace",
+		"html": "<dl>\n<dd>Foo</dd>\n<dd>Bar</dd>\n</dl>",
+		"index": 0,
+		"expected": "\n<p>Foo</p>\n<p>Bar</p>\n"
+	},
+	{
+		"name": "nested list",
+		"html": "<dl><dd>Foo<dl><dd>Bar</dd></dl></dd></dl>",
+		"index": 0,
+		"expected": "<p>Foo</p><dl><dd>Bar</dd></dl>"
+	},
+	{
+		"name": "non-list element",
+		"html": "<div><span>Foo</span></div>",
+		"index": 0,
+		"expected": "<div><span>Foo</span></div>"
+	},
+	{
+		"name": "text node",
+		"html": "Foo",
+		"index": 0,
+		"expected": "Foo"
+	}
+]

@@ -1,0 +1,22 @@
+{
+	"@metadata": {
+		"authors": [
+			"Michawiki"
+		]
+	},
+	"gadgets-desc": "Zmóžnja wužiwarjam swójske [[Special:Gadgets|přisłuški za CSS a JavaScript]] w jich [[Special:Preferences#mw-prefsection-gadgets|nastajenjach]] wubrać",
+	"prefs-gadgets": "Specialne funkcije",
+	"gadgets-prefstext": "Deleka je lisćina specialnych funkcijow, kotrež móžeš za swoje wužiwarske konto zmóžnić. Tute specialne funkcije zwjetša na JavaScripće bazěruja, tohodla dyrbi JavaScript we wobhladowaku zmóžnjeny być, zo bychu fungowali.\nWobkedźbuj tež, zo so tute specialne funkcije na tutu stronu z wosobinskimi nastajenjemi njewuskutkuja.\n\nNimo toho wobkedźbuj, zo tute specialne funkcije dźěl softwary MediaWiki njejsu a so zwjetša wot wužiwarjow na jich lokalnym wikiju wuwiwaja a wothladuja. Lokalni administratorojo móža lisćinu k dispoziciji stejacych specialnych funkcijow z pomocu [[MediaWiki:Gadgets-definition|definicijow]] a [[Special:Gadgets|wopisanjow]] wobdźěłać.",
+	"special-gadgets": "Specialne funkcije",
+	"gadgets-title": "Specialne funkcije",
+	"gadgets-pagetext": "Deleka je lisćina specialnych funkcijow, kotrež wužiwarjo móža na swojej [[Special:Preferences#mw-prefsection-gadgets|stronje nastajenjow]] zmóžnić, kaž přez [[MediaWiki:Gadgets-definition|definicije]] definowane.\nTutón přehlad skići lochki přistup k systemowym zdźělenkam, kotrež wopisanje a kod kóždeje specialneje funkcije definuja.",
+	"gadgets-uses": "Wužiwa",
+	"gadgets-required-rights": "Wužaduje sej {{PLURAL:$2|slědowace prawo|slědowacej prawje|slědowace prawa|slědowace prawa}}:\n\n$1",
+	"gadgets-required-skins": "Na {{PLURAL:$2|slědowacej drasće|slědowacymaj drastomaj|slědowacych drastach|slědowacych drastach}} k dispoziciji: $1",
+	"gadgets-default": "Za wšěch standardnje zmóžnjeny.",
+	"gadgets-export": "Eksportować",
+	"gadgets-export-title": "Specialnu funkciju eksportować",
+	"gadgets-not-found": "Specialna funkcija \"$1\" njeje so namakała.",
+	"gadgets-export-text": "Zo by specialnu funkciju $1 eksportował, klikń na tłóčatko \"{{int:gadgets-export-download}}\", składuj sćehnjenu dataju, dźi do Special:Import w cilowym wikiju a nahraj ju. Přidaj potom slědowace k MediaWiki:Gadgets-definition:\n<pre>$2</pre>\nDyrbiš trěbne prawa na cilowym wikiju měć (inkluziwnje prawo systemowe powěsće wobdźěłać) a a import datajowych nahraćow dyrbi zmóžnjeny być.",
+	"gadgets-export-download": "Sćahnyć"
+}

@@ -1,0 +1,18 @@
+{
+	"@metadata": {
+		"authors": [
+			"Kwj2772",
+			"ToePeu",
+			"관인생략",
+			"아라"
+		]
+	},
+	"citethispage": "인용",
+	"citethispage-desc": "[[Special:CiteThisPage|인용]] 특수 문서와 도구모음 링크를 추가합니다",
+	"citethispage-link": "이 문서 인용하기",
+	"tooltip-citethispage": "이 문서를 인용하는 방법에 대한 정보",
+	"citethispage-change-submit": "인용",
+	"citethispage-change-target": "문서:",
+	"citethispage-badrevision": "오류: 판 번호가 $2이면서 \"$1\" 문서에 대한 판을 찾을 수 없습니다.",
+	"citethispage-content": "__NOTOC__\n<div class=\"mw-specialCiteThisPage-bibliographic\">\n\n== {{FULLPAGENAME}}의 출처 정보 ==\n\n* 문서 이름: {{FULLPAGENAME}}\n* 저자: {{SITENAME}} 기여자\n* 발행처: ''{{SITENAME}}''.\n* 최신 판의 날짜: {{CURRENTYEAR}}년 {{CURRENTMONTHNAME}} {{CURRENTDAY}}일 {{CURRENTTIME}} UTC\n* 확인한 날짜: <citation>{{CURRENTYEAR}}년 {{CURRENTMONTHNAME}} {{CURRENTDAY}}일 {{CURRENTTIME}} UTC</citation>\n* 고유 URL: {{canonicalurl:{{FULLPAGENAME}}|oldid={{REVISIONID}}}}\n* 문서 판 ID: {{REVISIONID}}\n\n</div>\n<div class=\"plainlinks mw-specialCiteThisPage-styles\">\n\n== {{FULLPAGENAME}}의 인용 양식 ==\n\n=== [[APA 양식]] ===\n{{FULLPAGENAME}}. ({{CURRENTYEAR}}년 {{CURRENTMONTHNAME}} {{CURRENTDAY}}일). ''{{SITENAME}}''. <citation>{{CURRENTTIME}}, {{CURRENTYEAR}}년 {{CURRENTMONTHNAME}} {{CURRENTDAY}}일</citation>에 확인 {{canonicalurl:{{FULLPAGENAME}}|oldid={{REVISIONID}}}} 에서 찾아볼 수 있음.\n\n=== [[MLA 양식]] ===\n\"{{FULLPAGENAME}}.\" ''{{SITENAME}}''. {{CURRENTDAY}} {{CURRENTMONTHABBREV}} {{CURRENTYEAR}}, {{CURRENTTIME}} UTC. <citation>{{CURRENTDAY}} {{CURRENTMONTHABBREV}} {{CURRENTYEAR}}, {{CURRENTTIME}}</citation> &lt;{{canonicalurl:{{FULLPAGENAME}}|oldid={{REVISIONID}}}}&gt;.\n\n=== [[MHRA 양식]] ===\n{{SITENAME}} 기여자, '{{FULLPAGENAME}}', ''{{SITENAME}},'' {{CURRENTYEAR}}년 {{CURRENTMONTHNAME}} {{CURRENTDAY}}일, {{CURRENTTIME}} UTC, &lt;{{canonicalurl:{{FULLPAGENAME}}|oldid={{REVISIONID}}}}&gt; [<citation>{{CURRENTYEAR}}년 {{CURRENTMONTHNAME}} {{CURRENTDAY}}일</citation>에 접근]\n\n=== [[시카고 양식]] ===\n{{SITENAME}} 기여자, \"{{FULLPAGENAME}},\" ''{{SITENAME}},'' {{canonicalurl:{{FULLPAGENAME}}|oldid={{REVISIONID}}}} (<citation>{{CURRENTYEAR}}년 {{CURRENTMONTHNAME}} {{CURRENTDAY}}일</citation>에 접근).\n\n=== [[Council of Science Editors|CBE/CSE 양식]] ===\n{{SITENAME}} 기여자. {{FULLPAGENAME}} [인터넷]. {{SITENAME}}; {{CURRENTYEAR}} {{CURRENTMONTHABBREV}} {{CURRENTDAY}}, {{CURRENTTIME}} UTC [<citation>{{CURRENTYEAR}} {{CURRENTMONTHABBREV}} {{CURRENTDAY}}</citation>에 인용]. 다음에서 찾아볼 수 있음:\n{{canonicalurl:{{FULLPAGENAME}}|oldid={{REVISIONID}}}}.\n\n=== [[블루북|블루북 양식]] ===\n{{FULLPAGENAME}}, {{canonicalurl:{{FULLPAGENAME}}|oldid={{REVISIONID}}}} (<citation>{{CURRENTYEAR}}년 {{CURRENTMONTHNAME}} {{CURRENTDAY}}일</citation>에 마지막으로 방문함).\n\n=== [[BibTeX]] 기록 ===\n\n  @misc{ wiki:xxx,\n    author = \"{{SITENAME}}\",\n    title = \"{{FULLPAGENAME}} --- {{SITENAME}}{,} {{int:sitesubtitle}}\",\n    year = \"{{CURRENTYEAR}}\",\n    url = \"{{canonicalurl:{{FULLPAGENAME}}|oldid={{REVISIONID}}}}\",\n    note = \"[온라인; 접근한 날짜 <citation>{{CURRENTYEAR}}년-{{CURRENTMONTHNAME}}-{{CURRENTDAY}}일</citation>]\"\n  }\n\n[[LaTeX]] 패키지 URL (프리앰블의 어딘가에 <code>\\usepackage{url}</code>)을 사용하면 더 정돈된 형식의 웹 주소를 얻을 수 있습니다. 다음과 같은 방법을 선호합니다:\n\n  @misc{ wiki:xxx,\n    author = \"{{SITENAME}}\",\n    title = \"{{FULLPAGENAME}} --- {{SITENAME}}{,} {{int:sitesubtitle}}\",\n    year = \"{{CURRENTYEAR}}\",\n    url = \"'''\\url{'''{{canonicalurl:{{FULLPAGENAME}}|oldid={{REVISIONID}}}}'''}'''\",\n    note = \"[온라인; 접근한 날짜 <citation>{{CURRENTYEAR}}년-{{CURRENTMONTHNAME}}-{{CURRENTDAY}}일</citation>]\"\n  }\n\n\n</div> <!--closing div for \"plainlinks\"-->"
+}

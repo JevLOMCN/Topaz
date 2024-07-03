@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"Jeblad"
+		]
+	},
+	"apihelp-query+linterrors-summary": "Hent ei liste av lint-feil",
+	"apihelp-query+linterrors-param-categories": "Kategoriar av lint-feil",
+	"apihelp-query+linterrors-param-limit": "Mengd resultat i spørjinga",
+	"apihelp-query+linterrors-param-from": "Lint-ID å starta spørjinga frå",
+	"apihelp-query+linterrors-param-namespace": "Berre inkluder lint-feil frå dei angjevne navnerommene",
+	"apihelp-query+linterrors-example-1": "Hent alle lint-feil for avleggs-tagg kategorien",
+	"apihelp-query+linterstats-summary": "Hent mengd lint-feil i kvar kategori",
+	"apihelp-query+linterstats-example-1": "Hent mengd lint-feil i kvar kategori"
+}

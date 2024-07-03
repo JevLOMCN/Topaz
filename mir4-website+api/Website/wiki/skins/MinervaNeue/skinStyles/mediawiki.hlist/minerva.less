@@ -1,0 +1,39 @@
+@import '../../minerva.less/minerva.variables.less';
+
+/**
+ * This tweaks the default mediawiki.hlist module to provide performance optimisations
+ * as well as subtle tweaks to the appearance. It's a work in progress.
+ */
+
+// Horizontal Lists
+//
+// Use hlist class when dealing with lists where items should be horizontal.
+//
+// Markup:
+// <ul class="hlist">
+//   <li>item 1</li>
+//   <li>item 2</li>
+// </ul>
+// FIXME: `.hlist > *` to support hlists on enwiki projects - this should be deprecated
+ul.hlist,
+.hlist > ul,
+.hlist > dl {
+	li {
+		display: inline-block;
+		margin-right: 8px;
+	}
+}
+
+.hlist-separated {
+	li::after {
+		// Make sure we override any site styles
+		content: '•' !important;
+		padding-left: 8px;
+		font-size: 1em;
+		line-height: 1;
+	}
+
+	:last-child::after {
+		content: none !important;
+	}
+}

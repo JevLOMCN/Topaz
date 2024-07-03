@@ -1,0 +1,43 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.11/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.11/ http://www.mediawiki.org/xml/export-0.11.xsd" version="0.11" xml:lang="en">
+  <page>
+    <title>Talk:ThreadItemStore5</title>
+    <ns>1</ns>
+    <revision>
+      <contributor>
+        <username>X</username>
+      </contributor>
+      <text xml:space="preserve">== A ==
+B. --[[User:X]] 05:01, 20 July 2022 (UTC)</text>
+      <timestamp>2022-07-20T05:01:00Z</timestamp>
+    </revision>
+    <revision>
+      <contributor>
+        <username>Y</username>
+      </contributor>
+      <text xml:space="preserve">== A ==
+B. --[[User:X]] 05:01, 20 July 2022 (UTC)
+:C. --[[User:Y]] 05:02, 20 July 2022 (UTC)</text>
+      <timestamp>2022-07-20T05:02:00Z</timestamp>
+    </revision>
+    <revision>
+      <contributor>
+        <username>Z</username>
+      </contributor>
+      <text xml:space="preserve">== A ==
+B. --[[User:X]] 05:01, 20 July 2022 (UTC)
+:C. --[[User:Y]] 05:02, 20 July 2022 (UTC)
+::D. --[[User:Z]] 05:03, 20 July 2022 (UTC)</text>
+      <timestamp>2022-07-20T05:03:00Z</timestamp>
+    </revision>
+    <revision>
+      <contributor>
+        <username>Z</username>
+      </contributor>
+      <text xml:space="preserve">== A ==
+B. --[[User:X]] 05:01, 20 July 2022 (UTC)
+:C. --[[User:Y]] 05:02, 20 July 2022 (UTC)
+:D. --[[User:Z]] 05:03, 20 July 2022 (UTC)</text>
+      <timestamp>2022-07-20T05:03:01Z</timestamp>
+    </revision>
+  </page>
+</mediawiki>

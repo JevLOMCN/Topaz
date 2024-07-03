@@ -1,0 +1,23 @@
+/*!
+ * VisualEditor ContentEditable SectionNode styles.
+ *
+ * @copyright See AUTHORS.txt
+ */
+
+.ve-ce-sectionNode {
+	opacity: 1;
+	transition: opacity 250ms ease;
+
+	&::before,
+	&::after {
+		/* Prevent margin collapse across sections */
+		content: '\00a0';
+		display: block;
+		overflow: hidden;
+		height: 0;
+	}
+
+	&:not( .ve-ce-activeNode-active ) {
+		opacity: 0.5;
+	}
+}

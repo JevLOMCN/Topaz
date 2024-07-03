@@ -1,0 +1,23 @@
+{
+	"@metadata": {
+		"authors": [
+			"McDutchie"
+		]
+	},
+	"spam-blacklist": " #<!-- non modificar in alcun modo iste linea --> <pre>\n# Le adresses URL externe correspondente a iste lista es blocate de esser addite a un pagina.\n# Iste lista ha effecto solmente in iste wiki; refere te etiam al lista global de blocadas.\n# Pro documentation vide https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:SpamBlacklist\n#\n# Le syntaxe es lo sequente:\n#  * Toto a partir de un character \"#\" usque al fin del linea es un commento\n#  * Cata linea non vacue es un fragmento de regex que se applica solmente al nomines de host intra adresses URL\n\n #</pre> <!-- non modificar in alcun modo iste linea -->",
+	"spam-whitelist": " #<!-- non modificar in alcun modo iste linea --> <pre>\n# Le adresses URL correspondente a iste lista *non* essera blocate mesmo si illos\n# haberea essite blocate per entratas in le lista de blocadas.\n#\n# Le syntaxe es lo sequente:\n#  * Toto a partir de un character \"#\" usque al fin del linea es un commento\n#  * Omne linea non vacue es un fragmento de regex que se applica solmente al nomines de host intra adresses URL\n\n #</pre> <!-- non modificar in alcun modo iste linea -->",
+	"email-blacklist": " #<!-- non modificar in alcun modo iste linea --> <pre>\n# Le adresses de e-mail correspondente a iste lista es blocate de crear contos o inviar e-mail.\n# Iste lista ha effecto solmente in iste wiki; refere te etiam al lista global de blocadas.\n# Pro documentation vide https://www.mediawiki.org/wiki/Extension:SpamBlacklist\n#\n# Le syntaxe es lo sequente:\n#  * Toto a partir de un character \"#\" usque al fin del linea es un commento\n#  * Cata linea non vacue es un fragmento de regex que se applica solmente al nomines de host in adresses de e-mail\n\n #</pre> <!-- non modificar in alcun modo iste linea -->",
+	"email-whitelist": " #<!-- non modificar in alcun modo iste linea --> <pre>\n# Le adresses de e-mail correspondente a iste lista *non* essera blocate\n# mesmo si illos haberea essite blocate per entratas del lista de blocadas.\n#\n# Le syntaxe es lo sequente:\n#  * Toto a partir de un character \"#\" usque al fin del linea es un commento\n#  * Cata linea non vacue es un fragmento de regex que se applica solmente al nomines de host in adresses de e-mail\n #</pre> <!-- non modificar in alcun modo iste linea -->",
+	"spam-blacklisted-email": "Adresse de e-mail prohibite",
+	"spam-blacklisted-email-text": "Tu adresse de e-mail es actualmente blocate pro le invio de messages a altere usatores.",
+	"spam-blacklisted-email-signup": "Le adresse de e-mail specificate es actualmente prohibite e non pote esser usate.",
+	"spam-invalid-lines": "Le sequente {{PLURAL:$1|linea|lineas}} del lista de blocadas antispam es {{PLURAL:$1|un expression|expressiones}} regular invalide e debe esser corrigite ante que tu salveguarda le pagina:",
+	"spam-blacklist-desc": "Instrumento antispam a base de regex que permitte prohiber URLs in paginas e adresses de e-mail pro usatores registrate",
+	"log-name-spamblacklist": "Registro del lista de blocadas antispam",
+	"log-description-spamblacklist": "Iste eventos tracia le actiones blocate per le lista de blocadas antispam.",
+	"logentry-spamblacklist-hit": "{{GENDER:$2|$1}} ha provocate un activation del lista de blocadas antispam sur $3 con su tentativa de inserer $4.",
+	"right-spamblacklistlog": "Vider le registro del lista de blocadas antispam",
+	"action-spamblacklistlog": "vider le registro del lista de blocadas antispam",
+	"right-sboverride": "Contornar le lista de blocage de spam",
+	"action-sboverride": "contornar le lista de blocage de spam"
+}

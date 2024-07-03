@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"StanProg"
+		]
+	},
+	"apihelp-query+linterrors-summary": "Връща списък на статичните грешки",
+	"apihelp-query+linterrors-param-categories": "Категории на статични грешки",
+	"apihelp-query+linterrors-param-limit": "Брой резултати, върнати от заявката",
+	"apihelp-query+linterrors-param-from": "Идентификатор на грешката, с който да започне заявката"
+}

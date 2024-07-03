@@ -1,0 +1,41 @@
+{
+	"@metadata": {
+		"authors": [
+			"Purodha"
+		]
+	},
+	"replacetext": "Täx-Shtöcksher ußtuusche",
+	"replacetext-desc": "Deit en [[Special:ReplaceText|{{int:specialpage}}]] en et Wiki, womet {{int:group-sysop}} aanjefbaa Täx-Schtöckscher en alle Atikelle em Wikki söhke un ußtuusche künne.",
+	"replacetext_docu": "Öm ene Täx en alle nomaale Sigge em Wiki ze söke un ußzetuusche, jif hee\nzwei Täx-Schtöcksher en, un donn dann op „{{int:replacetext continue}}“ klecke.\nDann süühß De en Leß met Sigge, wo dö dä jesoohte Täx dren änthallde es,\nun De kanns Der erußsöke, en wat för enne dovun dat De dä och jetuusch\nhan wells. Dinge Name als Metmaacher weed met dä neu veränderte Versione\nfun dä Sigge faßjehallde als dä Schriiver, dä et jemaat hät.",
+	"replacetext_originaltext": "Dä ojinaal Täx för Ußzetuusche:",
+	"replacetext_replacementtext": "Dä neue Täx för anshtatt dämm Ojinaal erin ze donn",
+	"replacetext_useregex": "Met rejolähre Ußdrök",
+	"replacetext_regexdocu": "(För e Beispel: Nämm „a(.*)c“ för „{{int:replacetext_originaltext}}“ un „ac$1“ för „{{int:replacetext_replacementtext}}“, un De kriß „abc“ dorsh „acb“ ußjetuusch.)",
+	"replacetext_optionalfilters": "Müjjelesche Beschrängkunge:",
+	"replacetext_categorysearch": "Bloß en dä Saachjropp ußtuusche:",
+	"replacetext_prefixsearch": "Bloß en Sigge ußtuusche, dänne ier Övverschreff aanfängk met:",
+	"replacetext_editpages": "Donn dä Täx em Sigge_Enhaldt ußtuusche",
+	"replacetext_movepages": "Donn dä Täx en de Sigge ier Tittele ußtuusche, wan et jeiht",
+	"replacetext_givetarget": "Do moß aanjävve, wat ußjetuusch wäde sull. „Nix“ ußtuusche künne mer nit.",
+	"replacetext_nonamespace": "Do moß winnischßdens ei Appachtemang ußwähle.",
+	"replacetext_editormove": "Do moß winnischßdenß ei Höksche maache, sönß brengk dat hee nix.",
+	"replacetext_choosepagesforedit": "Don {{PLURAL:$3|en Sigg|di Sigge|nix aan Sigge}} ußsöke, en dänne De „$1“ jääje „$2“ jetuusch han wells:",
+	"replacetext_choosepagesformove": "Donn dä Täx „$1“ en hee dä {{PLURAL:$3|Sigg|Sigge|nix}} ierem Name jäje der Täx „$2“ ußtuusche:",
+	"replacetext_cannotmove": "Heh di {{PLURAL:$1|Sigg kann|Sigge künne|nix kann}} nit ömjenannt wäde:",
+	"replacetext_formovedpages": "För ömjenannte Sigge:",
+	"replacetext_savemovedpages": "Donn der ahle Tittel faßallde un en Ömleidong op der Neue druß maache,\nwann en Sigg ömjenannt woode es.",
+	"replacetext_watchmovedpages": "Op di Sigge oppaßße",
+	"replacetext_invertselections": "De Ußwahl ömdrieje",
+	"replacetext_replace": "Tuusche",
+	"replacetext_success": "„$1“ soll en {{PLURAL:$3|eine Sigg|$3 Sigge|nix}} dorsch „$2“ ußjetuusch wääde.",
+	"replacetext_noreplacement": "Kein Sigge jefonge met däm Täxstöck „$1“ dren.",
+	"replacetext_nomove": "Mer han kei Sigge jefonge, woh „$1“ en de Övverschreff dren förkütt.",
+	"replacetext_nosuchcategory": "Mer han kein Saachjropp met dämm Name „$1“.",
+	"replacetext_return": "Jangk retuhr op dat Fommolaa.",
+	"replacetext_warning": "<strong>Opjepaß:<strong>\n{{PLURAL:$1|Ein Sigg enthält|$1 Sigge enthallde}} ald dat Täxstöck „$2“, wat bemm Tuusche ennjeföhsch wähde sull.\nWenn De dat jemaat häs, kam_mer di Ännderong nit esu leijsch automattesch retuhr maache, weil mer di ald do wohre, un de ennjetuuschte Täxschtöker nit ongerscheide kann.\nWells De verhafftesch trozdämm wigger maache?",
+	"replacetext_blankwarning": "Dat Täxstöck, wat beim Tuusche ennjföhsch weed, es läddesch, dröm kam_mer di Ännderong nidd esu leijsch automattesch retuhr maache.\nWells De trozdämm wigger maache?",
+	"replacetext_continue": "Wiggermaache",
+	"replacetext_editsummary": "Täx-Schtöker tuusche — vun „$1“ noh „$2“",
+	"right-replacetext": "Täx-Schtöckscher em janze Wiki ußtuusche",
+	"action-replacetext": "Täx-Schtöckscher em janze Wiki ußzetuusche"
+}

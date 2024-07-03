@@ -1,0 +1,35 @@
+{
+	"@metadata": {
+		"authors": [
+			"Cedric31"
+		]
+	},
+	"categorytree": "Arborescéncia de las categorias",
+	"categorytree-portlet": "Categorias",
+	"categorytree-legend": "Visionar l’arborescéncia de la categoria",
+	"categorytree-desc": "Gadget basat sus AJAX per afichar l'[[Special:CategoryTree|estructura de la categoria]] d’un wiki",
+	"categorytree-header": "Entratz un nom de categoria per veire son contengut en estructura arborescenta (necessita JavaScript).",
+	"categorytree-category": "Categoria :",
+	"categorytree-go": "Mostrar l'arborescéncia",
+	"categorytree-parents": "Subrecategoria(s)",
+	"categorytree-mode-label": "Mòde:",
+	"categorytree-mode-categories": "pas que las categorias",
+	"categorytree-mode-pages": "paginas sens los imatges",
+	"categorytree-mode-all": "totas las paginas",
+	"categorytree-collapse": "Rebatre",
+	"categorytree-expand": "desvolopar",
+	"categorytree-member-counts": "conten {{PLURAL:$1|1 soscategoria|$1 soscategorias}}, {{PLURAL:$2|1 pagina|$2 paginas}}, e {{PLURAL:$3|1 fichièr|$3 fichièrs}}",
+	"categorytree-num-categories": "$1 C",
+	"categorytree-num-pages": "$1 P",
+	"categorytree-num-files": "$1 F",
+	"categorytree-num-empty": "void",
+	"categorytree-load": "Dobrir",
+	"categorytree-loading": "dobertura...",
+	"categorytree-nothing-found": "pas res de trobat",
+	"categorytree-no-subcategories": "pas cap de soscategoria",
+	"categorytree-no-parent-categories": "Cap de categoria parenta",
+	"categorytree-no-pages": "Pas de pagina o de soscategoria",
+	"categorytree-not-found": "La categoria <i>$1</i> es pas estada trobada.",
+	"categorytree-error": "Problèma de cargament de las donadas.",
+	"categorytree-retry": "Esperatz un moment puèi tornatz ensajar."
+}

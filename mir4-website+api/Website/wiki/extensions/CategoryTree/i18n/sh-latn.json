@@ -1,0 +1,35 @@
+{
+	"@metadata": {
+		"authors": [
+			"Winston Sung"
+		]
+	},
+	"categorytree": "Stablasti prikaz hijerarhije kategorija",
+	"categorytree-portlet": "Kategorije",
+	"categorytree-legend": "Prikaži stablo kategorija",
+	"categorytree-desc": "Dinamička navigacija [[Special:CategoryTree|strukture kategorija]].",
+	"categorytree-header": "Upišite naziv kategorije da biste vidjeli njen sadržaj u obliku stabla (zahtijeva JavaScript).",
+	"categorytree-category": "Kategorija:",
+	"categorytree-go": "Prikaži stablo",
+	"categorytree-parents": "Nadkategorije - Наткатегорије",
+	"categorytree-mode-label": "Režim:",
+	"categorytree-mode-categories": "samo kategorije - само категорије",
+	"categorytree-mode-pages": "stranice bez slika - странице без слика",
+	"categorytree-mode-all": "sve stranice - све странице",
+	"categorytree-collapse": "sakrij - сакриј",
+	"categorytree-expand": "proširi",
+	"categorytree-member-counts": "sadrži {{PLURAL:$1|jednu potkategoriju|$1 potkategorije|$1 potkategorija}}, {{PLURAL:$2|jednu stranicu|$2 stranice|$2 stranica}} i {{PLURAL:$3|jednu datoteku|$3 datoteke|$3 datoteka}}",
+	"categorytree-num-categories": "$1 K",
+	"categorytree-num-pages": "$1 S",
+	"categorytree-num-files": "$1 D",
+	"categorytree-num-empty": "prazna",
+	"categorytree-load": "učitaj - учитај",
+	"categorytree-loading": "učitavam - учитавам",
+	"categorytree-nothing-found": "ništa nije pronađeno",
+	"categorytree-no-subcategories": "nema potkategorija",
+	"categorytree-no-parent-categories": "nema nadkategorija",
+	"categorytree-no-pages": "nema ni stranica ni podkategorija",
+	"categorytree-not-found": "Kategorija <i>$1</i> nije pronađena",
+	"categorytree-error": "Problem pri učitavanju podataka.",
+	"categorytree-retry": "Pričekajte malo pa pokušajte opet."
+}

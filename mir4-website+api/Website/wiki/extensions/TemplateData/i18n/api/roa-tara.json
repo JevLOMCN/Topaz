@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"Joetaras"
+		]
+	},
+	"apihelp-templatedata-summary": "Pigghie le date reggistrate sus a l'estenzione TemplateData.",
+	"apihelp-templatedata-example-1": "Fà 'ndrucà TemplateData pe [[Template:Foobar]], cu resultate ce le template non g'esistone ma onne TemplateData",
+	"apihelp-templatedata-example-2": "Fà 'ndrucà TemplateData pe [[Template:Phabricator]], senze resultate ce le template non g'esistone o esistone ma non g'onne TemplateData",
+	"apihelp-templatedata-param-includeMissingTitles": "Torne le date ca riguardane le titole pure ce perdute o mangane de TemplateData. De base le titole avènene turnate sulamende ce esistone e onne TemplateData.",
+	"apihelp-templatedata-param-doNotIgnoreMissingTitles": "Torne le date ca riguardane le titole pure ce perdute o mangane de TemplateData. De base (pe retre combatibbilità) le titole avènene turnate sulamende ce esistone e onne TemplateData.",
+	"apihelp-templatedata-param-lang": "Face 'ndrucà le valore localizzate jndr'à sta lènghe. Pe 'mbostazione predefinite, avènen fatte 'ndrucà tutte le traduziune disponibbele.",
+	"apierror-templatedata-corrupt": "Pàgene #$1 templatedata tène date invalide: $2",
+	"apiwarn-templatedata-deprecation-format": "'U formate d'u resultate predefinite cange a <kbd>jsonfm</kbd> jndr'à 'u future. Pe piacere specifeche esplicitamende <kbd>format=json</kbd>."
+}

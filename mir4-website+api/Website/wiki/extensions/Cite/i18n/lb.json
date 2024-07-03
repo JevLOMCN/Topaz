@@ -1,0 +1,37 @@
+{
+	"@metadata": {
+		"authors": [
+			"Les Meloures",
+			"Robby",
+			"Soued031"
+		]
+	},
+	"cite-desc": "Setzt <code>&lt;ref[ name=id]&gt;</code> an <code>&lt;references/&gt;</code> Tagge fir Referenzen derbäi.",
+	"cite_error": "Zitéierfeeler: $1",
+	"cite_error_ref_numeric_key": "Ongëltegen <code>&lt;ref&gt;</code> Tag;\nDen Numm ka keng einfach ganz Zuel sinn. Benotzt een Titel deen eng Beschreiwung gëtt",
+	"cite_error_ref_no_key": "Den Ufaang <code>&lt;ref&gt;</code> Tag ass schlecht formatéiert oder huet e falschen Numm",
+	"cite_error_ref_too_many_keys": "Ongëltegen <code>&lt;ref&gt;</code> Tag;\nongëlteg Nimm, z. B. zevill",
+	"cite_error_ref_no_input": "Ongëltege <code>&lt;ref&gt;</code> Tag;\nReferenz ouni Numm muss een Inhalt hunn",
+	"cite_error_references_duplicate_key": "Net valabelen Tag <code>&lt;ref&gt;</code>. Den Numm \"$1\" gouf e puermol mat verschiddenem Inhalt definéiert",
+	"cite_error_references_invalid_parameters": "Ongëltegen <code>&lt;references&gt;</code> Tag",
+	"cite_error_references_no_text": "Ongëlteg <code>&lt;ref&gt;</code> Markéierung;\net gouf keen Text ugi fir d'Referenze mam Numm <code>$1</code>",
+	"cite_error_included_ref": "Den Tag <code>&lt;/ref&gt;</code> feelt fir den Tag <code>&lt;ref&gt;</code> zouzemaachen",
+	"cite_error_group_refs_without_references": "D'Markéierung <code>&lt;ref&gt;</code> gëtt et fir d'Grupp \"$1\", awer d'entspriechend Markéierung <code>&lt;references group=\"$1\"/&gt;</code> gouf net fonnt oder een <code>&lt;/ref&gt;</code> feelt",
+	"cite_error_references_group_mismatch": "Den <code>&lt;ref&gt;</code>-Tag an <code>&lt;references&gt;</code> huet den Attribut \"$1\" deen am Konflikt mat deem am <code>&lt;references&gt;</code> steet.",
+	"cite_error_references_missing_key": "Deen am <code>&lt;references&gt;</code> definéierten <code>&lt;ref&gt;</code>-Tag mam Numm \"$1\" gëtt am Text virdrun net benotzt.",
+	"cite_error_references_no_key": "D'Markéierung <code>&lt;ref&gt;</code> déi an <code>&lt;references&gt;</code> definéiert ass huet keng Nummeegeschaft.",
+	"cite_error_empty_references_define": "D'Markéierung <code>&lt;ref&gt;</code> déi am <code>&lt;references&gt;</code> mat dem Numm  « $1 » definéiert ass, ass eidel.",
+	"cite-tracking-category-cite-error": "Säite mat Referenzfeeler",
+	"cite-tracking-category-cite-error-desc": "Säiten an dëser Kategorie hu Feeler am Benotze vun de Referenz-Taggen.",
+	"cite_references_link_accessibility_label": "No uewe sprangen",
+	"cite_references_link_many_accessibility_label": "Eropsprangen op:",
+	"cite_section_preview_references": "Ausgesi vun de Referenzen",
+	"cite_warning": "Referenzwarnung: $1",
+	"cite_warning_sectionpreview_no_text": "Den Tag <code>&lt;ref&gt;</code> mam Numm <code>$1</code> kann hei net gewise ginn, well en entweder ausserhalb vun dësem Abschnitt ass oder guer net definéiert ass.",
+	"cite-wikieditor-tool-reference": "Referenz",
+	"cite-wikieditor-help-page-references": "Referenzen",
+	"cite-wikieditor-help-content-reference-description": "Referenz",
+	"cite-wikieditor-help-content-named-reference-description": "Referenz mat engem Numm",
+	"cite-wikieditor-help-content-rereference-description": "Zousätzleche Gebrauch vun derselwëschter Referenz",
+	"cite-wikieditor-help-content-showreferences-description": "Referenze weisen"
+}

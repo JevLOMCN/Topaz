@@ -1,0 +1,27 @@
+{
+	"@metadata": {
+		"authors": [
+			"Candalua",
+			"Fierodelveneto",
+			"GatoSelvadego"
+		]
+	},
+	"gadgets-desc": "Consente ai utenti de selezionar [[Special:Gadgets|acessori CSS e JavaScript]] ne le proprie [[Special:Preferences#mw-prefsection-gadgets|preferense]]",
+	"prefs-gadgets": "Açesori",
+	"gadgets-prefstext": "De seguito se cata na lista de acessori speciali (''gadget'') che se pol abilitar par el proprio account.\nLa mazor parte de sti acessori la se basa su JavaScript, e quindi te ghè da abilitar JavaScript sul to browser se te vol che i funsiona coretamente. Nota che i accessori no i gà nissun efeto in sta pagina de preferense.\n\nNota anca che sti acessori speciali no i fa parte del software MediaWiki e i vien de solito realizà e gestìi dai utenti de ogni sito wiki. I aministradori del sito i pol modificar la lista dei acessori disponibili tramite le pagine [[MediaWiki:Gadgets-definition|definissioni]] e [[Special:Gadgets|descrissioni]].",
+	"special-gadgets": "Açesori",
+	"gadgets-title": "Açesori",
+	"gadgets-pagetext": "De seguito vien presentà n'elenco de acessori (''gadget'') che i utenti i pol abilitar su la so [[Special:Preferences#mw-prefsection-gadgets|pagina de le preferenze]], seguendo le definizion riportà in [[MediaWiki:Gadgets-definition]].\nSta panoramica la fornisse un comodo mecanismo par accédar ai messagi de sistema nei quali xe definìo la descrizion e el codice de ciascun acessorio.",
+	"gadgets-uses": "Dopara",
+	"gadgets-required-rights": "Dimanda {{PLURAL:$2|el seguente dirito|i seguenti diriti}}:\n\n$1",
+	"gadgets-required-skins": "Disponibiłe {{PLURAL:$2|pa' ła skin $1|pa' łe seguenti skin: $1}}.",
+	"gadgets-required-actions": "Limità {{PLURAL:$2|a l'asion de pàjina \"$1\"|a ste asion de pàjina: $1}}.",
+	"gadgets-required-namespaces": "Limità {{PLURAL:$2|al namespace $1|ai namespace $1}}.",
+	"gadgets-default": "Intacà par tuti, par inpostasion predefinìa.",
+	"gadgets-packaged": "Sto acesorio el xe [https://www.mediawiki.org/wiki/ResourceLoader/Package_files inpachetà], el so punto de entrada el xe $1",
+	"gadgets-export": "Esporta",
+	"gadgets-export-title": "Esporta acessorio",
+	"gadgets-not-found": "Acessorio \"$1\" mia catà.",
+	"gadgets-export-text": "Par esportar el gadget $1, struca \"{{int:gadgets-export-download}}\", salva el file, va su Special:Import de la wiki de destinassion e carichelo. Dopo zonta sta roba qua su MediaWiki:Gadgets-definition:\n<pre>$2</pre>\nTe serve i parmessi su la wiki de destinassion (compreso quelo de modificar i messaji de sistema) e l'inportassion dei file la deve essar ativà.",
+	"gadgets-export-download": "Descarga"
+}

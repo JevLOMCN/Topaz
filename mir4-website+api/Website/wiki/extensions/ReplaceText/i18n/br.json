@@ -1,0 +1,43 @@
+{
+	"@metadata": {
+		"authors": [
+			"Fohanno",
+			"Fulup",
+			"Huñvreüs",
+			"Y-M D"
+		]
+	},
+	"replacetext": "Erlec'hiañ an destenn",
+	"replacetext-desc": "Pourchas a ra ur [[Special:ReplaceText|bajenn dibar]] a aotre ar verourien da erlec'hiañ steudadoù arouezennoù dre arouezennoù all er wiki a-bezh",
+	"replacetext_docu": "Evit erlec'hiañ ur steudad arouezennoù gant unan all e holl bajennoù boutin ar wiki-mañ e c'hallit merkañ an div destenn amañ ha klikañ war 'kenderc'hel'.\nDiskouezet e vo deoc'h ur roll pajennoù m'emañ an destenn klasket enno ha gallout a reot dibab ar re a fell deoc'h cheñch.\nWar wel e teuio hoc'h anv war roll istor pep pajenn evit ma vo gouezet gant piv eo bet graet ar cheñchamant.",
+	"replacetext_originaltext": "Testenn orin :",
+	"replacetext_replacementtext": "Testenn erlec'hiañ :",
+	"replacetext_useregex": "Ober gant jedadennoù reoliek",
+	"replacetext_regexdocu": "(Da skouer : Talvoudenn \"a(.*)c\" evit \"Testenn orin\" ha \"ac$1\" evit \"Testenn erlec'hiañ\" a vo erlec'ho \"abc\" gant \"acb\".)",
+	"replacetext_optionalfilters": "Siloù diret :",
+	"replacetext_categorysearch": "Erlec'hiañ er rummad hepken :",
+	"replacetext_prefixsearch": "Erlec'hiañ hepken er bajennoù gant ar rakger :",
+	"replacetext_editpages": "Erlec'hiañ an destenn e-mesk danvez ar bajenn",
+	"replacetext_movepages": "Erlec'hiañ an destenn e titl ar pajennoù, pa vez posupl",
+	"replacetext_givetarget": "Rankout a rit reiñ ar chadenn a rank bezañ erlec'hiet.",
+	"replacetext_nonamespace": "Rankout a rit dibab un esaouenn anv d'an nebeutañ.",
+	"replacetext_editormove": "Rankout a rit dibab d'an nebeutañ un dibarzh erlec'hiañ.",
+	"replacetext_choosepagesforedit": "Erlec'hiañ \"$1\" gant \"$2\" e testenn ar bajenn{{PLURAL:$3||où}} da heul :",
+	"replacetext_choosepagesformove": "Erlec'hiañ  \"$1\" gant \"$2\" e titl{{PLURAL:$3| ar bajenn da heul|où ar bajennoù da heul}} :",
+	"replacetext_cannotmove": "Ne c'hell ket bezañ fiñvet ar bajenn{{PLURAL:$1||où}} da heul :",
+	"replacetext_formovedpages": "Evit ar pajennoù dilec'hiet :",
+	"replacetext_savemovedpages": "Enrollañ an titloù kozh evel adkasoù davet an titloù nevez",
+	"replacetext_watchmovedpages": "Evezhiañ ar pajennoù-mañ",
+	"replacetext_invertselections": "Eilpennañ an diuzadennoù",
+	"replacetext_replace": "Erlec'hiañ",
+	"replacetext_success": "\"$1\" a vo erlec'hiet gant \"$2\" e $3 pajenn{{PLURAL:$3||}}.",
+	"replacetext_noreplacement": "N'eus bet kavet pajenn ebet gant an neudennad « $1 ».",
+	"replacetext_nomove": "N'eo bet kavet pennad ebet gant \"$1\" en ul lodenn eus an titl.",
+	"replacetext_nosuchcategory": "N'eus rummad ebet anvet « $1 ».",
+	"replacetext_return": "Distreiñ d'ar furmskrid.",
+	"replacetext_warning": "'''Diwallit :''' {{PLURAL:$1| $1 bajenn enni| $1 pajenn enno}} ar steudad arouezennoù erlec'hiañ zo dija, \"$2\". Ma kasit ar cheñchamant da benn ne vo ket posupl diforc'hañ ar cheñchamantoù degaset ganeoc'h diouzh an neudennadoù-se ken.",
+	"replacetext_blankwarning": "'''Diwallit : ''' Dre m'eo goullo ar steudad erlec'hiañ, ne vo ket tu da zizober an urzh-mañ.",
+	"replacetext_continue": "Kenderc'hel",
+	"replacetext_editsummary": "Erlec'hiañ an destenn - \"$1\" dre \"$2\"",
+	"right-replacetext": "Krouiñ erlec'hiadurioù testenn er wiki a-bezh"
+}

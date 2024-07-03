@@ -1,0 +1,18 @@
+{
+	"@metadata": {
+		"authors": [
+			"Snævar",
+			"Stefán Örvar Sigmundsson"
+		]
+	},
+	"titleblacklist-desc": "Leyfir möppudýrum að banna stofnun síðna og notenda samkvæmt [[MediaWiki:Titleblacklist|blacklist]] og [[MediaWiki:Titlewhitelist|whitelist]]",
+	"titleblacklist": "# Þetta er bannlisti fyrir síðutitla. Titlar og notendanöfn sem passa við reglulega segð hér er ekki hægt að búa til.\n# Notaðu \"#\" fyrir athugasemdir\n# Færslurnar hér eru sjálfvirkt hástafafrjálsar",
+	"titleblacklist-forbidden-edit": "Búið er að banna titilinn \"$2\" og ekki er hægt að nota hann við stofnun síðna eða notendanafna.\nHann passar við eftirfarandi færslu í bannlistanum: <code>$1</code>",
+	"titleblacklist-forbidden-move": "„$2“ er ekki hægt að færa á „$3“ því titilinn „$3“ hefur verið bannaður.\nHann passar við eftirfarandi listafærslu óheimilaðra titla: <code>$1</code>",
+	"titleblacklist-forbidden-upload": "Búið er að banna skráarnafnið \"$2\". Ekki er hægt að stofna skrár með þessum titli.\nHann passar við eftirfarandi færslu í bannlistanum: <code>$1</code>",
+	"titleblacklist-forbidden-new-account": "Búið er að banna titilinn \"$2\" og ekki er hægt að nota hann við stofnun notendanafna.\nHann passar við eftirfarandi færslu í bannlistanum: <code>$1</code>",
+	"titleblacklist-invalid": "Eftirfarandi {{PLURAL:$1|færsla|færslur}} í bannlista yfir síðutitla {{PLURAL:$1|er|eru}} ógildar og leiðrétta þarf {{PLURAL:$1|hana|þær}} áður en síðan er vistuð:",
+	"titleblacklist-override": "Hunsa bannlistann",
+	"right-tboverride": "Hunsa bannlista fyrir síðutitla og notendanöfn.",
+	"right-tboverride-account": "Hunsa bannlista yfir notendanöfn"
+}

@@ -1,0 +1,19 @@
+{
+	"@metadata": {
+		"authors": [
+			"Jon Harald Søby"
+		]
+	},
+	"loginnotify-desc": "Varsle brukere om mistenkelige innlogginger fra ukjente enheter og/eller IP-adresser.",
+	"echo-category-title-login-fail": "Mislykkede innloggingsforsøk",
+	"echo-pref-tooltip-login-fail": "Varsle meg når det har vært mislykkede forsøk på å logge inn på kontoen min.",
+	"echo-category-title-login-success": "Innlogging fra en ukjent enhet",
+	"echo-pref-tooltip-login-success": "Varsle meg når noen logger seg inn på kontoen min fra en ukjent enhet og IP-adresse.",
+	"loginnotify-primary-link": "Hjelp",
+	"notification-loginnotify-login-fail-email-subject": "{{PLURAL:$2|Ett mislykket|Flere mislykkede}} forsøk på å logge inn på {{SITENAME}} som $1",
+	"notification-loginnotify-login-success-email-subject": "Innlogging på {{SITENAME}} som $1 fra en enhet {{GENDER:$1|du}} ikke har brukt i det siste",
+	"notification-header-login-success": "Noen (trolig {{GENDER:$1|du}}) logget nylig inn på kontoen din fra en ny enhet. Om dette var deg kan du se bort fra denne beskjeden. Om det ikke var deg bør du endre passordet ditt og sjekke kontoaktiviteten.",
+	"notification-new-bundled-header-login-fail": "Det har vært '''{{PLURAL:$1|ett mislykket|$1 mislykkede}} forsøk''' på å logge inn på kontoen din fra en ny enhet siden sist du logget inn. Om det ikke var deg, sørg for at kontoen din har et sterkt passord.",
+	"notification-known-header-login-fail": "Det har vært '''{{PLURAL:$1|ett mislykketk|$1 mislykkede}} forsøk''' på å logge inn på kontoen din siden du sist logget inn. Om det ikke var deg, sørg for at kontoen din har et sterkt passord.",
+	"notification-new-unbundled-header-login-fail": "Det har vært '''{{PLURAL:$1|ett mislykket|flere mislykkede}} forsøk''' på å logge inn på kontoen din fra en ny enhet. Sørg for at kontoen din har et sterkt passord."
+}

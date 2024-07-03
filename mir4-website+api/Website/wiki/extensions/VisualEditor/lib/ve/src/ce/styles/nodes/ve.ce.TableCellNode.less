@@ -1,0 +1,38 @@
+/*!
+ * VisualEditor ContentEditable TableCellNode styles.
+ *
+ * @copyright See AUTHORS.txt
+ */
+
+.ve-ce-tableCellableNode {
+	border: 1px dotted #c8ccd1;
+	padding: 0.25em 0.5em;
+	min-width: 1em;
+
+	.ve-ce-tableNode-active > * > tr > & {
+		/* Use child selectors to avoid making nested tables look active */
+		border-style: solid;
+	}
+}
+
+.ve-ce-tableCellNode {
+	a {
+		pointer-events: none;
+	}
+
+	& > .ve-ce-branchNode-blockSlug {
+		visibility: hidden;
+	}
+
+	&-editing {
+		cursor: text;
+
+		a {
+			pointer-events: auto;
+		}
+
+		> .ve-ce-branchNode-blockSlug {
+			visibility: visible;
+		}
+	}
+}

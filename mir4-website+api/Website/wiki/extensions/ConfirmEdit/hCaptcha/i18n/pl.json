@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"Rail"
+		]
+	},
+	"hcaptcha-desc": "Moduł [https://www.hcaptcha.com/ hCaptcha] do rozszerzenia ConfirmEdit",
+	"hcaptcha-edit": "W celu ochrony przed zautomatyzowanym spamem edycyjnym prosimy wpisać poniższy tekst hCaptcha:",
+	"hcaptcha-addurl": "Wprowadzony przez Ciebie tekst zawiera nowe linki zewnętrzne. W celu ochrony przed zautomatyzowanym spamem prosimy wpisać poniższy tekst CAPTCHA:",
+	"hcaptcha-badlogin": "W celu ochrony przed zautomatyzowanym łamaniem haseł prosimy wpisać poniższy tekst hCaptcha:",
+	"hcaptcha-createaccount": "W celu ochrony przed zautomatyzowanym tworzeniem kont prosimy wpisać poniższy tekst hCaptcha:",
+	"hcaptcha-createaccount-fail": "Wydaje się, że hCaptcha nie został wpisany prawidłowo.",
+	"hcaptcha-create": "W celu ochrony przed zautomatyzowanym tworzeniem stron prosimy wpisać poniższy tekst hCaptcha:",
+	"hcaptcha-help": "Rozwiąż proszę wyzwanie hCaptcha i zwróć wartość wyniki jako captchaWord."
+}

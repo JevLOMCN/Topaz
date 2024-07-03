@@ -1,0 +1,39 @@
+/* Toolbar */
+
+.ve-ui-toolbar-group-title {
+	font-weight: bold;
+	flex: 5 !important; /* stylelint-disable-line declaration-no-important */
+	line-height: 3em;
+}
+
+/* Context item */
+
+.ve-ui-editCheckContextItem {
+	> .ve-ui-linearContextItem-head {
+		background: #fce7fe;
+	}
+
+	&-actions {
+		margin-top: 16px;
+	}
+}
+
+.ve-ui-desktopContext > .oo-ui-popupWidget:has( .ve-ui-editCheckContextItem:first-child ) .oo-ui-popupWidget-anchor::after {
+	border-bottom-color: #fce7fe;
+}
+
+/* Selections */
+
+.ve-ce-surface-selections-editCheck .ve-ce-surface-selection {
+	opacity: 0.2;
+}
+
+.ve-ce-surface-selections-editCheck .ve-ce-surface-selection > div {
+	mix-blend-mode: darken;
+	// Adjust target colours to account for 50% opacity
+	background: ( #fce7fe - 0.8 * ( #fff ) ) / 0.2;
+	// border: 1px solid ( ( #d02aac - 0.8 * ( #fff ) ) / 0.2 );
+	border-radius: 2px;
+	padding: 2px;
+	margin: -2px 0 0 -2px;
+}

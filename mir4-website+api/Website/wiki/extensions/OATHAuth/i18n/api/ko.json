@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"Bluehill",
+			"MemphisA5",
+			"Ykhwong"
+		]
+	},
+	"apihelp-query+oath-param-user": "정보를 가져올 사용자입니다. 기본값은 현재 사용자입니다.",
+	"apihelp-query+oath-example-1": "현재 사용자에 관한 정보를 가져옵니다",
+	"apihelp-query+oath-example-2": "<kbd>Example</kbd> 사용자에 관한 정보를 가져옵니다",
+	"apihelp-oathvalidate-summary": "2요소 인증 (OATH) 토큰을 검사합니다.",
+	"apihelp-oathvalidate-param-user": "토큰을 확인할 사용자입니다. 기본값은 현재 사용자입니다.",
+	"apihelp-oathvalidate-example-1": "현재 사용자의 토큰 인증"
+}

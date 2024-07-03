@@ -1,0 +1,35 @@
+{
+	"@metadata": {
+		"authors": [
+			"C.R.",
+			"Ruthven",
+			"Сербијана"
+		]
+	},
+	"gadgets-desc": "Lassa scegliere a l'utente 'e [[Special:Gadgets|Ppazzielle CSS e JavaScript]] personalizzate int' 'e [[Special:Preferences#mw-prefsection-gadgets|preferenze]] 'e lloro",
+	"prefs-gadgets": "Pazzielle",
+	"gadgets-prefstext": "Ccà sotto sta n'elenco 'e ppazzielle speciali ca putite appiccià p' 'o cunto vuosto. Ste pazzielle songo fatte c' 'e JavaScript, pe cchisto 'o JavaScript avess'a essere appicciato dint' 'o browser vuosto p' 'e fà jí.\nVedite buono ca ste ppazzielle nun farrànno ammuìna int'a sta paggena 'e preferenze.\n\nVedite pure ca ste pazzielle speciali nun songo parte d' 'o software MediaWiki, e songo normalmente sviluppate e accunciate 'a ll'utente d' 'a wiki lucale d' 'a vosta. Ll'editore lucale putesser'edità [[MediaWiki:Gadgets-definition|defineziune]] e [[Special:Gadgets|descrizziune]] d' 'e ppazzielle a disposizione. 'O nummero 'utente ca stann'ausà ogne pazziella int'a sta wiki se tròva elencato ncopp' [[Special:GadgetUsage|statistiche 'e uso 'e Ppazzielle]].",
+	"special-gadgets": "Pazzielle",
+	"gadgetusage": "Statistiche d'auso d' 'a pazziella",
+	"gadgetusage-gadget": "Pazziella",
+	"gadgetusage-usercount": "Nummero 'e utente",
+	"gadgetusage-noresults": "Nisciuna pazziella truvata",
+	"gadgetusage-intro": "Sta tabbella ndicasse 'o nummero 'e utente c'avisser'appicciato ogne pazziella ind'a stu wiki. N'utente attivo se cuntasse comm'a coccherunno c'avesse fatto nu cagnamiento dint'a ll' {{PLURAL:$1|ùrdemo juorno|ùrdeme $1 ghiuorne}}. St'elenco lassa fore 'e statistiche p' 'e ppazzielle appicciate pe tuttuquante 'e manera predeterminata e putesse ncludere pazielle ca nun stessero cchiù a disposizione.",
+	"gadgetusage-intro-noactive": "Sta tavulella ndicasse quanta utenti c'avisser'appicciato 'e ppazzielle int'a sta wiki. Sta lista lassa fore 'e statistiche p' 'e ppazzielle appicciate pe tuttuquante 'e manera predeterminata e putesse ncludere pazzielle ca nun stanno cchiù a disposizione.",
+	"gadgetusage-activeusers": "Utente attive",
+	"gadgetusage-default": "'E bbase",
+	"gadgets-title": "Pazzielle",
+	"gadgets-pagetext": "Ccà abbascio nce sta n'elenco d' 'e ppazzielle speciali pe putè n'utente appiccià int' 'a [[Special:Preferences#mw-prefsection-gadgets|paggena 'e mpustaziune d' 'a soja]], comme sta definito p' 'e [[MediaWiki:Gadgets-definition|definiziune]].\nStu rechiamo ve desse n'accesso semprice dint' 'o sistema 'e ppaggene 'e mmasciata ca definissero descrizione e codece pe ogne pazziella.",
+	"gadgets-uses": "Ause",
+	"gadgets-required-rights": "Addimanna {{PLURAL:$2|deritto|deritte}}:\n\n$1",
+	"gadgets-required-skins": "Disponibbele ncopp' 'a {{PLURAL:$2|$1 'o skin|'e skin ccà: $1}}.",
+	"gadgets-default": "Appicciato pe' tuttuquante predefinito.",
+	"gadgets-legacy": "'A pazziella nun sta carrecata. Pe piacere migrate a ResourceLoader. ([https://www.mediawiki.org/wiki/Special:MyLanguage/ResourceLoader/Migration_guide_(users) Liggite 'e cchiù])",
+	"gadgets-export": "Aspurtà",
+	"gadgets-export-title": "Esporta 'e ppazzielle",
+	"gadgets-not-found": "Pazziella \"$1\" nun truvata.",
+	"gadgets-export-text": "Pe esportà 'a pazziella $1, cliccate ncopp' 'u buttone \"{{int:gadgets-export-download}}\", riggistrate 'u file scarrecato, ghiate 'a pàggene Special:Import ncopp' 'a Wiki 'e destinaziona e carrecatevello. Aroppo azzeccate 'a paggena ccà MediaWiki:Gadgets-definition:\n<pre>$2</pre>\nAvita tenè permesse ghiuste ncopp' 'a wiki 'e destinaziona (ncludenno 'e deritte 'e cagnà mmasciate d' 'o sistema) e 'a mpurtaziona 'e file carrecate ave 'a sta appicciata.",
+	"gadgets-export-download": "Scarreca",
+	"gadgets-validate-notset": "'O codece <code>$1</code> 'e pruprietà nun è mpustato.",
+	"gadgets-validate-wrongtype": "'O codece <code>$1</code> 'e pruprietà adda essere 'e tipo <code>$2</code> mmece 'e <code>$3</code>."
+}

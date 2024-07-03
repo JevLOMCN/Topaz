@@ -1,0 +1,35 @@
+{
+	"@metadata": {
+		"authors": [
+			"Lam-ang"
+		]
+	},
+	"categorytree": "Kayo ti kategoria",
+	"categorytree-portlet": "Katkategoria",
+	"categorytree-legend": "Ipakita ti kayo ti kategoria",
+	"categorytree-desc": "Dinamiko nga agdaliasat iti [[Special:CategoryTree|estrukrura ti kategoria]]",
+	"categorytree-header": "Ikabil ti nagan ti kategoria tapno makita dagiti linaon a kasla estruktura ti kayo. (Masapul ti JavaScript.)",
+	"categorytree-category": "Kategoria:",
+	"categorytree-go": "Ipakita ti kayo",
+	"categorytree-parents": "Nagannak",
+	"categorytree-mode-label": "Wagas:",
+	"categorytree-mode-categories": "katkategoria laeng",
+	"categorytree-mode-pages": "dagiti panid mailaksid dagiti papeles",
+	"categorytree-mode-all": "amin a pampanid",
+	"categorytree-collapse": "rebbaen",
+	"categorytree-expand": "palawaen",
+	"categorytree-member-counts": "Naglaon ti {{PLURAL:$1|1 a subkategoria|$1 a subkatkategoria}}, {{PLURAL:$2|1 a panid|$2 a pampanid}}, ken {{PLURAL:$3|1 a papeles|$3 a pappapeles}}",
+	"categorytree-num-categories": "$1 K",
+	"categorytree-num-pages": "$1 P",
+	"categorytree-num-files": "$1 F",
+	"categorytree-num-empty": "awan linaon",
+	"categorytree-load": "agkarga",
+	"categorytree-loading": "agkarkarga...",
+	"categorytree-nothing-found": "awan ti nabirukan",
+	"categorytree-no-subcategories": "awan dagiti subkategoria",
+	"categorytree-no-parent-categories": "awan ti nagannak a katkategoria",
+	"categorytree-no-pages": "awan ti pampanid wenno dagiti subkategoria",
+	"categorytree-not-found": "Ti kategoria <i>$1</i> ket saan a nabirukan",
+	"categorytree-error": "Parikut ti panagikarga ti linaon.",
+	"categorytree-retry": "Pangngaasi nga aguray intono madamdama ken ipadas manen."
+}

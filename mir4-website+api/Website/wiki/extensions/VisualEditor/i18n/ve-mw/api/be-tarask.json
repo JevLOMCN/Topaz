@@ -1,0 +1,28 @@
+{
+	"@metadata": {
+		"authors": [
+			"Red Winged Duck",
+			"Renessaince"
+		]
+	},
+	"apihelp-visualeditor-param-basetimestamp": "Пры захаваньні ўсталёўвае тут час вэрсіі, якая рэдагавалася. Выкарыстоўваецца дзеля выяўленьня канфліктаў рэдагаваньня.",
+	"apihelp-visualeditor-param-cachekey": "Для serialize або diff выкарыстоўвае вынік папярэдняга запыту serializeforcache з гэтым ключом. Перазапісвае $1html.",
+	"apihelp-visualeditor-param-etag": "ETag на адсыланьне.",
+	"apihelp-visualeditor-param-html": "HTML дзеля адпраўкі ў Parsoid і канвэртаваньня ў вікітэкст.",
+	"apihelp-visualeditor-param-oldid": "Нумар вэрсіі для выкарыстаньня (дапомна — апошняя вэрсія).",
+	"apihelp-visualeditor-param-paction": "Дзеяньне, якое неабходна выканаць.",
+	"apihelp-visualeditor-param-page": "Старонка для выкананьня дзеяньня.",
+	"apihelp-visualeditor-param-pst": "Папярэдне захавайце ператварэньне вікітэксту перад адпраўкай яго ў Parsoid (paction=parsefragment).",
+	"apihelp-visualeditor-param-starttimestamp": "Пры захаваньні, выстаўце час, калі старонка была загружаная. Выкарыстоўваецца для вызначэньня канфліктаў рэдагаваньня.",
+	"apihelp-visualeditor-param-wikitext": "Вікітэкст для адпраўкі ў Parsoid для канвэртацыі ў HTML (paction=parsefragment).",
+	"apihelp-visualeditoredit-param-basetimestamp": "Пры захаваньні ўсталёўвае тут час вэрсіі, якая рэдагавалася. Выкарыстоўваецца дзеля выяўленьня канфліктаў рэдагаваньня.",
+	"apihelp-visualeditoredit-param-captchaid": "ID капчы (пры захаваньні з запытам капчы).",
+	"apihelp-visualeditoredit-param-captchaword": "Адказ на капчу (пры захаваньні з запытам капчы).",
+	"apihelp-visualeditoredit-param-etag": "ETag на адсыланьне.",
+	"apihelp-visualeditoredit-param-html": "HTML дзеля адпраўкі ў Parsoid у абмен на вікітэкст.",
+	"apihelp-visualeditoredit-param-minor": "Сьцяг для дробнага рэдагаваньня.",
+	"apihelp-visualeditoredit-param-oldid": "Нумар вэрсіі для выкарыстаньня. Дапомна — апошняя вэрсія. 0 — новая старонка.",
+	"apihelp-visualeditoredit-param-page": "Старонка для выкананьня дзеяньняў.",
+	"apihelp-visualeditoredit-param-starttimestamp": "Пры захаваньні ўсталёўвае тут час вэрсіі, калі старонка была загружаная. Выкарыстоўваецца дзеля выяўленьня канфліктаў рэдагаваньня.",
+	"apihelp-visualeditoredit-param-summary": "Апісаньне зьменаў."
+}

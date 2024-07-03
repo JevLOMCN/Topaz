@@ -1,0 +1,25 @@
+{
+	"@metadata": {
+		"authors": [
+			"Dani",
+			"Tacsipacsi",
+			"Urbalazs"
+		]
+	},
+	"syntaxhighlight-desc": "Lehetőséget nyújt szintaxiskiemelésre a <code>&lt;syntaxhighlight&gt;</code> címkével, a [https://pygments.org/ Pygments – Python kódkiemelő] használatával",
+	"syntaxhighlight-error-category": "Lapok kódkiemelési hibákkal",
+	"syntaxhighlight-error-category-desc": "Hiba történt a lapon található kód kiemelése közben.",
+	"syntaxhighlight-enclose-category": "Lapok elavult enclose attribútumokkal",
+	"syntaxhighlight-enclose-category-desc": "A lapon található szintaxiskiemelés elavult <code>enclose</code> szintaxist használ.",
+	"syntaxhighlight-source-category": "Lapok elavult source címkékkel",
+	"syntaxhighlight-source-category-desc": "A lapon található szintaxiskiemelés elavult <code>source</code> címkéket használ.",
+	"syntaxhighlight-visualeditor-mwsyntaxhighlightinspector-code": "Kód",
+	"syntaxhighlight-visualeditor-mwsyntaxhighlightinspector-language": "Nyelv",
+	"syntaxhighlight-visualeditor-mwsyntaxhighlightinspector-none": "(Nincs)",
+	"syntaxhighlight-visualeditor-mwsyntaxhighlightinspector-showlines": "Mutassa a sorszámozást",
+	"syntaxhighlight-visualeditor-mwsyntaxhighlightinspector-startingline": "Kezdő sor száma",
+	"syntaxhighlight-visualeditor-mwsyntaxhighlightinspector-title": "Kódblokk",
+	"syntaxhighlight-error-pygments-invocation-failure": "A Pygments meghívása sikertelen",
+	"syntaxhighlight-error-unknown-language": "Ismeretlen „$1” nyelv",
+	"syntaxhighlight-error-exceeds-size-limit": "A kód mérete $1 bájt, ami meghaladja az engedélyezett maximális $2 bájtot"
+}

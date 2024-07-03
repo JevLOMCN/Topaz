@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Beta16",
+			"Macofe"
+		]
+	},
+	"apihelp-flowthank-summary": "Invia una notifica pubblica di ringraziamento per un commento Flow.",
+	"apihelp-flowthank-param-postid": "L'UUID del messaggio per cui ringraziare.",
+	"apihelp-flowthank-example-1": "Ringrazia per il commento con <kbd>UUID xyz789</kbd>",
+	"apihelp-thank-param-rev": "ID della versione per cui ringraziare qualcuno. Questo o 'log' deve essere fornito",
+	"apihelp-thank-param-source": "Una breve stringa che descrive l'origine della richiesta. Per esempio, <kbd>diff</kbd> o <kbd>history</kbd>.",
+	"apihelp-thank-example-1": "Invia un ringraziamento per la versione <kbd>ID 456</kbd>, con la sorgente di una pagina confronto"
+}

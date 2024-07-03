@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="16" height="16" viewBox="0 0 4.233 4.233">
+	<defs>
+		<linearGradient id="b">
+			<stop offset="0" stop-color="#fae7d1"/>
+			<stop offset="1" stop-color="#efaf67"/>
+		</linearGradient>
+		<linearGradient id="a">
+			<stop offset="0" stop-color="#f9dccc"/>
+			<stop offset="1" stop-color="#dd9873"/>
+		</linearGradient>
+		<linearGradient id="c">
+			<stop offset="0" stop-color="#faeca8"/>
+			<stop offset=".213" stop-color="#fcf4b3"/>
+			<stop offset=".299" stop-color="#f4d644"/>
+			<stop offset=".484" stop-color="#faee8e"/>
+			<stop offset="1" stop-color="#e4ba2f"/>
+		</linearGradient>
+		<linearGradient xlink:href="#a" id="f" x1="2.873" x2="3.241" y1="1.013" y2="1.373" gradientUnits="userSpaceOnUse"/>
+		<linearGradient xlink:href="#b" id="e" x1="1.147" x2="1.323" y1="2.716" y2="3.175" gradientUnits="userSpaceOnUse"/>
+		<linearGradient xlink:href="#c" id="d" x1="1.587" x2="2.381" y1="1.587" y2="2.381" gradientUnits="userSpaceOnUse"/>
+	</defs>
+	<path fill="url(#d)" fill-rule="evenodd" d="M1.058 2.117 2.25.926l.794.794-1.19 1.19z"/>
+	<path fill="url(#e)" fill-rule="evenodd" d="m1.19 2.249-.396.132-.133.926.927-.132.132-.397z"/>
+	<path fill="#4e4e4e" d="M.794 3.175v.265h.794v-.265zm.794-.265h.265v.265h-.265z"/>
+	<path fill="#4e4e4e" d="M1.852 2.646h.265v.265h-.265zm.265-.265h.265v.265h-.265z"/>
+	<path fill="#4e4e4e" d="M2.381 2.117h.265v.265h-.265zm.265-.265h.265v.265h-.265z"/>
+	<path fill="url(#f)" fill-rule="evenodd" d="m2.249.926.397-.397.397-.132.529.529-.132.397-.397.397z"/>
+	<path fill="#4e4e4e" d="M2.91 1.587h.265v.265H2.91z"/>
+	<path fill="#4e4e4e" d="M3.175 1.323h.265v.265h-.265zm.265-.265h.265v.265H3.44z"/>
+	<path fill="#8b8b8b" d="M2.646.265v.264h.529V.265zm.529.264v.265h.265V.529zm.265.265v.264h.264V.794zM2.646.529H2.38v.265h.265zM2.38.794h-.264v.264h.264zm-.264.264h-.265v.265h.265zm-.265.265h-.264v.264h.264zm-.264.264h-.265v.265h.265zm-.265.265h-.265v.265h.265zm-.265.265H.794v.264h.264zm-.264.264H.529V3.44h.265z"/>
+	<path fill="#a3a3a3" d="M2.91 3.175v.265H1.852v-.265z"/>
+	<path fill="#e6e6e6" d="M2.91 3.175v.265h.53v-.265z"/>
+	<path fill="#584013" d="M.794 2.91v.265h.264V2.91z"/>
+	<path fill="#e89840" d="M1.058 2.117v.264h.265v-.264zm.265.264v.265h.265V2.38z"/>
+	<path fill="#c26715" d="M1.588 2.646v.264h.264v-.264z"/>
+	<path fill="#f4c2a7" d="M2.91.53v.264h.265V.529zm-.529.528v.265h.265v-.265z"/>
+	<path fill="#dd9873" d="M3.175.794v.264h.265V.794zm-.53.529v.264h.265v-.264z"/>
+	<path fill="#d49c5d" d="M1.058 2.91v.265h.265V2.91z"/>
+	<path fill="#f6d4ad" d="M.794 2.646v.264h.264v-.264z"/>
+</svg>

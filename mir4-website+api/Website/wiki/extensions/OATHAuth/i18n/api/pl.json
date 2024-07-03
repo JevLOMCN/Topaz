@@ -1,0 +1,20 @@
+{
+	"@metadata": {
+		"authors": [
+			"Chrumps",
+			"Jdx",
+			"Rail",
+			"Railfail536"
+		]
+	},
+	"apihelp-query+oath-summary": "Sprawdzenie, czy uwierzytelnianie dwuskładnikowe (OATH) dla użytkownika jest włączone.",
+	"apihelp-query+oath-param-user": "Użytkownik o którym pobierane będą informacje. Domyślnie obecny użytkownik.",
+	"apihelp-query+oath-param-reason": "Powód pozyskiwania informacji o statusie OATH.",
+	"apihelp-query+oath-example-1": "Pobierz informacje o aktualnym użytkowniku",
+	"apihelp-query+oath-example-2": "Pobierz informacje o użytkowniku <kbd>Example</kbd>",
+	"apihelp-oathvalidate-summary": "Waliduj token uwierzytelniania dwuskładnikowego (OATH).",
+	"apihelp-oathvalidate-param-user": "Użytkownik którego token ma być walidowany. Domyślnie obecny użytkownik.",
+	"apihelp-oathvalidate-example-1": "Waliduj dane JSON obecnego użytkownika",
+	"apihelp-oathvalidate-example-3": "Waliduj dane JSON użytkownika <kbd>Example</kbd>",
+	"apihelp-oathvalidate-param-data": "Dane w formacie JSON oczekiwane przez aktualnie aktywowany moduł dla użytkownika obecnie uwierzytelnianego"
+}

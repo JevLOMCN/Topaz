@@ -1,0 +1,38 @@
+{
+	"@metadata": {
+		"authors": [
+			"Carma citrawati",
+			"Chinamoonroll",
+			"Joseagush",
+			"NoiX180"
+		]
+	},
+	"categorytree": "Taru kategori",
+	"categorytree-portlet": "Kategori",
+	"categorytree-legend": "Sinahang taru kategori",
+	"categorytree-desc": "Navigasi [[Special:CategoryTree|struktur kategori]] sacara dinamis",
+	"categorytree-header": "Dagingang aran kategori antuk nyingakin kontén ipun ring wentuk taru struktur.\n(Perlu JavaScript.)",
+	"categorytree-category": "Kategori",
+	"categorytree-go": "Sinahang taru",
+	"categorytree-parents": "Rerama",
+	"categorytree-mode-label": "Mode:",
+	"categorytree-mode-categories": "wantah kategori",
+	"categorytree-mode-pages": "kaca tiosan berkas",
+	"categorytree-mode-all": "makasami kaca",
+	"categorytree-collapse": "tutup",
+	"categorytree-expand": "bétbét",
+	"categorytree-member-counts": "Madaging {{PLURAL:$1|$1 subkategori}}, {{PLURAL:$2|$2 kaca}}, miwah {{PLURAL:$3|$3 berkas}}",
+	"categorytree-num-categories": "$1 K",
+	"categorytree-num-pages": "$1 K",
+	"categorytree-num-files": "$1 B",
+	"categorytree-num-empty": "puyung",
+	"categorytree-load": "muat",
+	"categorytree-loading": "Ngamuat…",
+	"categorytree-nothing-found": "nénten nemu napi",
+	"categorytree-no-subcategories": "tanpa subkategori",
+	"categorytree-no-parent-categories": "tanpa kategori rerama",
+	"categorytree-no-pages": "tanpa kaca utawi subkategori",
+	"categorytree-not-found": "Kategori <i>$1</i> nénten katemu",
+	"categorytree-error": "Pikobet ngamuat data.",
+	"categorytree-retry": "Durus jantos dumun miwah coba malih"
+}

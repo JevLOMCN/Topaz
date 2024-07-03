@@ -1,0 +1,42 @@
+[
+	{
+		"itr_id": "1",
+		"itr_itemid_id": "1",
+		"itr_revision_id": "1",
+		"itr_items_id": "1",
+		"itr_parent_id": null,
+		"itr_transcludedfrom": null,
+		"itr_level": "0",
+		"itr_headinglevel": "2"
+	},
+	{
+		"itr_id": "2",
+		"itr_itemid_id": "2",
+		"itr_revision_id": "1",
+		"itr_items_id": "2",
+		"itr_parent_id": "1",
+		"itr_transcludedfrom": null,
+		"itr_level": "1",
+		"itr_headinglevel": null
+	},
+	{
+		"itr_id": "3",
+		"itr_itemid_id": "1",
+		"itr_revision_id": "3",
+		"itr_items_id": "1",
+		"itr_parent_id": null,
+		"itr_transcludedfrom": null,
+		"itr_level": "0",
+		"itr_headinglevel": "2"
+	},
+	{
+		"itr_id": "4",
+		"itr_itemid_id": "2",
+		"itr_revision_id": "3",
+		"itr_items_id": "2",
+		"itr_parent_id": "3",
+		"itr_transcludedfrom": null,
+		"itr_level": "1",
+		"itr_headinglevel": null
+	}
+]

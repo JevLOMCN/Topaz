@@ -1,0 +1,16 @@
+{
+	"@metadata": {
+		"authors": [
+			"Mainframe98",
+			"McDutchie",
+			"Sjoerddebruin"
+		]
+	},
+	"apihelp-titleblacklist-summary": "Een paginatitel, bestandsnaam of gebruikersnaam valideren aan de hand van de TitleBlacklist.",
+	"apihelp-titleblacklist-param-title": "De tekenreeks die moet worden gevalideerd op basis van de zwarte lijst.",
+	"apihelp-titleblacklist-param-action": "De handeling om te controleren.",
+	"apihelp-titleblacklist-param-nooverride": "De zwarte lijst met titels niet proberen te overschrijven.",
+	"apihelp-titleblacklist-example-1": "Controleer of [[Foo]] op de zwarte lijst staat.",
+	"apihelp-titleblacklist-example-2": "Controleer of [[Bar]] op de zwarte lijst staat voor bewerking",
+	"apihelp-createaccount-param-ignoretitleblacklist": "Controles op vervalsing en nepperij (''spoofing'') negeren. Vereist een van de volgende rechten: <code>tboverride</code>, <code>tboverride-account</code>."
+}

@@ -1,0 +1,22 @@
+{
+	"@metadata": {
+		"authors": []
+	},
+	"spam-blacklist": " #<!-- leave this line exactly as it is --> <pre>\n# External URLs matching this list will be blocked when added to a page.\n# This list affects only this wiki; refer also to the global block list.\n# For documentation see https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:SpamBlacklist\n#\n# Syntax is as follows:\n#   * Everything from a \"#\" character to the end of the line is a comment\n#   * Every non-blank line is a regex fragment which will only match hosts inside URLs\n\n #</pre> <!-- leave this line exactly as it is -->",
+	"spam-whitelist": " #<!-- leave this line exactly as it is --> <pre>\n# External URLs matching this list will *not* be blocked even if they would\n# have been blocked by block list entries.\n#\n# Syntax is as follows:\n#   * Everything from a \"#\" character to the end of the line is a comment\n#   * Every non-blank line is a regex fragment which will only match hosts inside URLs\n\n #</pre> <!-- leave this line exactly as it is -->",
+	"email-blacklist": " #<!-- leave this line exactly as it is --> <pre>\n# Email addresses matching this list will be blocked from registering or sending emails\n# This list affects only this wiki; refer also to the global block list.\n# For documentation see https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:SpamBlacklist\n#\n# Syntax is as follows:\n#   * Everything from a \"#\" character to the end of the line is a comment\n#   * Every non-blank line is a regex fragment which will only match hosts inside email addresses\n\n #</pre> <!-- leave this line exactly as it is -->",
+	"email-whitelist": " #<!-- leave this line exactly as it is --> <pre>\n# Email addresses matching this list will *not* be blocked even if they would\n# have been blocked by block list entries.\n#\n# Syntax is as follows:\n#   * Everything from a \"#\" character to the end of the line is a comment\n#   * Every non-blank line is a regex fragment which will only match hosts inside email addresses\n\n #</pre> <!-- leave this line exactly as it is -->",
+	"spam-blacklisted-email": "Forbidden email address",
+	"spam-blacklisted-email-text": "Your email address is currently forbidden from sending emails to other users.",
+	"spam-blacklisted-email-signup": "The given email address is currently forbidden from use.",
+	"spam-blacklisted-link": "{{int:spamprotectiontext}}\n{{int:spamprotectionmatch|$1}}",
+	"spam-invalid-lines": "The following spam block list {{PLURAL:$1|line is an|lines are}} invalid regular {{PLURAL:$1|expression|expressions}} and {{PLURAL:$1|needs|need}} to be corrected before saving the page:",
+	"spam-blacklist-desc": "Regex-based anti-spam tool allowing to block list URLs in pages and email addresses for registered users",
+	"log-name-spamblacklist": "Spam block list log",
+	"log-description-spamblacklist": "These events track spam block list hits.",
+	"logentry-spamblacklist-hit": "{{GENDER:$2|$1}} caused a spam block list hit on $3 by attempting to add $4.",
+	"right-spamblacklistlog": "View the spam block list log",
+	"action-spamblacklistlog": "view the spam block list log",
+	"right-sboverride": "Bypass the spam block list",
+	"action-sboverride": "bypass the spam block list"
+}

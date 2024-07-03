@@ -1,0 +1,21 @@
+{
+	"@metadata": {
+		"authors": [
+			"Ansumang",
+			"Kaustubh",
+			"NehalDaveND",
+			"Saurmandal",
+			"Siddhartha Ghai"
+		]
+	},
+	"inputbox-desc": "पूर्व-लिखित HTML फ़ॉर्म्स जोड़ने देता है",
+	"inputbox-error-no-type": "आपने बनाने के लिए इनपुट बॉक्स का प्रकार निर्दिष्ट नहीं किया है।",
+	"inputbox-error-bad-type": "इनपुट बॉक्स प्रकार \"$1\" ज्ञात नहीं है।\nकृपया \"create\", \"comment\", \"search\", \"search2\" या \"fulltext\" में से एक चुनें।",
+	"inputbox-tryexact": "दिए हुए शब्द ही खोजें",
+	"inputbox-searchfulltext": "पूरा टेक्स्ट खोजें",
+	"inputbox-createarticle": "पृष्ठ बनाएँ",
+	"inputbox-movearticle": "नाम बदलें",
+	"inputbox-postcomment": "नया अनुभाग",
+	"inputbox-postcommenttitle": "नया अनुभाग",
+	"inputbox-ns-main": "मुख्य"
+}

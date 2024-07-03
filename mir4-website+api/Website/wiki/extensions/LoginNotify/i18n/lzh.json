@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"Au0727"
+		]
+	},
+	"loginnotify-desc": "告君以疑之登薄",
+	"echo-category-title-login-fail": "登薄既敗",
+	"echo-pref-tooltip-login-fail": "告吾於或登薄而未成時",
+	"echo-category-title-login-success": "陌之登薄",
+	"echo-pref-tooltip-login-success": "告吾以陌之登薄",
+	"loginnotify-primary-link": "助",
+	"notification-loginnotify-login-fail-email-subject": "{{PLURAL:$2|屢敗}}於登{{SITENAME}}之簿以$1",
+	"notification-header-login-success": "汝之薄既見登於陌處（或為{{GENDER:$1|君}}）。然者，略此訊；否者，是以更汝符節而復檢汝薄為善。"
+}

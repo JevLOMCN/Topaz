@@ -1,0 +1,11 @@
+/*!
+ * VisualEditor MediaWiki Minerva-specific FormatTool styles.
+ *
+ * @copyright See AUTHORS.txt
+ * @license The MIT License (MIT); see LICENSE.txt
+ */
+
+.oo-ui-menuToolGroup-tools .oo-ui-tool-name-heading1 .oo-ui-tool-title,
+.oo-ui-menuToolGroup-tools .oo-ui-tool-name-heading2 .oo-ui-tool-title {
+	font-family: 'Linux Libertine', 'Georgia', 'Times', serif;
+}

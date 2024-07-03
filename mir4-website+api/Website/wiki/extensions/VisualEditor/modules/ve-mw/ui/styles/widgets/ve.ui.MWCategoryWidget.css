@@ -1,0 +1,22 @@
+/*!
+ * VisualEditor MediaWiki UserInterface MWCategoryWidget styles.
+ *
+ * @copyright See AUTHORS.txt
+ * @license The MIT License (MIT); see LICENSE.txt
+ */
+
+.ve-ui-mwCategoryWidget {
+	/* So we can measure relative offsets of the category items */
+	position: relative;
+
+	&-items {
+		/* MDN claims we need to use word-wrap: break-word; and that it's been renamed to
+		 * overflow-wrap: break-word; , but the only thing that actually works in practice is
+		 * word-break: break-word; (which is not documented in any standard at all). So we just use
+		 * all three.
+		 */
+		word-break: break-word;
+		word-wrap: break-word;
+		overflow-wrap: break-word;
+	}
+}

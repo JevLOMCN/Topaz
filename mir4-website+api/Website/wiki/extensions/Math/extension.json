@@ -1,0 +1,383 @@
+{
+	"name": "Math",
+	"author": [
+		"Tomasz Wegrzanowski",
+		"Brion Vibber",
+		"Moritz Schubotz",
+		"Derk-Jan Hartman",
+		"André Greiner-Petter",
+		"Johannes Stegmüller"
+	],
+	"url": "https://www.mediawiki.org/wiki/Extension:Math",
+	"descriptionmsg": "math-desc",
+	"license-name": "GPL-2.0-or-later",
+	"type": "parserhook",
+	"requires": {
+		"MediaWiki": ">= 1.42.0"
+	},
+	"AutoloadNamespaces": {
+		"MediaWiki\\Extension\\Math\\": "src/"
+	},
+	"TestAutoloadClasses": {
+		"DummyPropertyDataTypeLookup": "tests/phpunit/DummyPropertyDataTypeLookup.php",
+		"MediaWiki\\Extension\\Math\\Tests\\MathWikibaseConnectorTestFactory": "tests/phpunit/unit/MathWikibaseConnectorTestFactory.php",
+		"MediaWiki\\Extension\\Math\\Tests\\MathMockHttpTrait": "tests/phpunit/MathMockHttpTrait.php",
+		"MediaWiki\\Extension\\Math\\WikiTexVC\\MMLmappings\\Util\\MMLTestUtilHTML": "tests/phpunit/unit/WikiTexVC/MMLTestUtilHTML.php",
+		"MediaWiki\\Extension\\Math\\WikiTexVC\\MMLmappings\\Util\\MMLTestUtil": "tests/phpunit/unit/WikiTexVC/MMLTestUtil.php",
+		"MediaWiki\\Extension\\Math\\WikiTexVC\\MMLmappings\\Util\\MMLComparator": "tests/phpunit/unit/WikiTexVC/MMLComparator.php"
+	},
+	"DefaultUserOptions": {
+		"math": "mathml",
+		"math-popups": "1"
+	},
+	"ExtensionMessagesFiles": {
+		"MathAlias": "Math.alias.php",
+		"MathAliasNoTranslate": "Math.alias.noTranslate.php"
+	},
+	"callback": "MediaWiki\\Extension\\Math\\Hooks::onConfig",
+	"ExtensionFunctions": [
+		"MediaWiki\\Extension\\Math\\Hooks::onExtensionFunctions"
+	],
+	"HookHandlers": {
+		"ParserHooksHandler": {
+			"class": "MediaWiki\\Extension\\Math\\HookHandlers\\ParserHooksHandler",
+			"services": [
+				"Math.RendererFactory",
+				"UserOptionsLookup",
+				"HookContainer"
+			]
+		},
+		"PreferencesHooksHandler": {
+			"class": "MediaWiki\\Extension\\Math\\HookHandlers\\PreferencesHooksHandler",
+			"services": [
+				"Math.Config"
+			]
+		},
+		"ResourceLoaderConfigHandler": {
+			"class": "MediaWiki\\Extension\\Math\\HookHandlers\\ResourceLoaderConfigHandler",
+			"services": [
+				"Math.Config"
+			]
+		},
+		"main": {
+			"class": "MediaWiki\\Extension\\Math\\Hooks"
+		},
+		"schema": {
+			"class": "MediaWiki\\Extension\\Math\\HookHandlers\\SchemaHooksHandler"
+		}
+	},
+	"Hooks": {
+		"ParserFirstCallInit": "ParserHooksHandler",
+		"ParserAfterTidy": "ParserHooksHandler",
+		"ParserOptionsRegister": "ParserHooksHandler",
+		"GetPreferences": "PreferencesHooksHandler",
+		"UserGetDefaultOptions": "PreferencesHooksHandler",
+		"LoadExtensionSchemaUpdates": "schema",
+		"WikibaseClientDataTypes": "MediaWiki\\Extension\\Math\\WikibaseHook::onWikibaseClientDataTypes",
+		"WikibaseRepoDataTypes": "MediaWiki\\Extension\\Math\\WikibaseHook::onWikibaseRepoDataTypes",
+		"SpecialPage_initList": "main",
+		"MaintenanceRefreshLinksInit": "main",
+		"ResourceLoaderGetConfigVars": "ResourceLoaderConfigHandler"
+	},
+	"config": {
+		"MathDefaultLaTeXMLSetting": {
+			"value": {
+				"format": "xhtml",
+				"whatsin": "math",
+				"whatsout": "math",
+				"0": "pmml",
+				"1": "cmml",
+				"2": "mathtex",
+				"3": "nodefaultresources",
+				"preload": [
+					"LaTeX.pool",
+					"article.cls",
+					"amsmath.sty",
+					"amsthm.sty",
+					"amstext.sty",
+					"amssymb.sty",
+					"eucal.sty",
+					"[dvipsnames]xcolor.sty",
+					"url.sty",
+					"hyperref.sty",
+					"[ids]latexml.sty",
+					"texvc"
+				],
+				"linelength": 90
+			}
+		},
+		"MathDisableTexFilter": {
+			"description": "To access this at run-time, use MathConfig::texCheckDisabled(). Do not use the non-normalized configuration directly.",
+			"value": "new"
+		},
+		"MathEnableExperimentalInputFormats": {
+			"value": false
+		},
+		"MathEntitySelectorFallbackUrl": {
+			"description": "Fallback value for wbEntitySelector if wbRepo is not configured. See https://www.mediawiki.org/wiki/Manual:CORS for cross wiki communication.",
+			"value": "https://www.wikidata.org/w/api.php"
+		},
+		"MathTexVCService": {
+			"description": "Determine which TexVC variant is used, currently available: 'mathoid', 'restbase' (default) and 'local'.",
+			"value": "restbase"
+		},
+		"MathLaTeXMLTimeout": {
+			"value": 240
+		},
+		"MathLaTeXMLUrl": {
+			"value": "https://latexml.formulasearchengine.com/convert"
+		},
+		"MathMathMLTimeout": {
+			"value": 20
+		},
+		"MathMathMLUrl": {
+			"value": "https://mathoid-beta.wmflabs.org"
+		},
+		"MathUseInternalRestbasePath": {
+			"description": "Whether to allow to use of internal RESTBase path instead of $wgMathFullRestbaseURL. Set false if you want to use external RESTBase in any case.",
+			"value": true,
+			"public": true
+		},
+		"MathInternalRestbaseURL": {
+			"value": null
+		},
+		"MathFullRestbaseURL": {
+			"value": "https://wikimedia.org/api/rest_"
+		},
+		"MathConcurrentReqs": {
+			"value": 50
+		},
+		"MathoidCli": {
+			"value": false
+		},
+		"MathValidModes": {
+			"description": "To access this at run-time, use MathConfig::getValidRenderingModes(). Do not use the non-normalized configuration directly.",
+			"value": [
+				"source",
+				"mathml"
+			]
+		},
+		"MathEnableWikibaseDataType": {
+			"value": true
+		},
+		"MathEnableFormulaLinks": {
+			"value": true
+		},
+		"MathWikibasePropertyIdHasPart": {
+			"description": "Original Wikidata property that described the elements of a mathematical formula with the data type item.",
+			"value": "P527"
+		},
+		"MathWikibasePropertyIdInDefiningFormula": {
+			"description": "New Wikidata property that describe the elements of a mathematical formula with the data type 'mathematical expression'. This potentially replaces 'has part' in the future.",
+			"value": "P7235"
+		},
+		"MathWikibasePropertyIdDefiningFormula": {
+			"description": "The property that describes the mathematical formula representing an item in Wikidata.",
+			"value": "P2534"
+		},
+		"MathWikibasePropertyIdQuantitySymbol": {
+			"description": "The Wikidata property that is used to present mathematical expressions in 'has part'. The data type is 'string'.",
+			"value": "P416"
+		},
+		"MathWikibasePropertyIdSymbolRepresents": {
+			"description": "The Wikidata property that is used to present mathematical expressions in 'in defining formula'. The data type is 'item'.",
+			"value": "P9758"
+		}
+	},
+	"attributes": {
+		"Popups": {
+			"PluginModules": [
+				"ext.math.popup"
+			]
+		},
+		"VisualEditor": {
+			"PluginModules": [
+				"ext.math.visualEditor"
+			]
+		}
+	},
+	"MessagesDirs": {
+		"Math": [
+			"i18n",
+			"i18n/api"
+		]
+	},
+	"QUnitTestModule": {
+		"localBasePath": "modules/ve-math/tests",
+		"remoteExtPath": "Math/modules/tests",
+		"scripts": [
+			"ve.dm.Autocomplete.test.js"
+		],
+		"dependencies": [
+			"ext.math.visualEditor",
+			"test.VisualEditor"
+		]
+	},
+	"ForeignResourcesDir": "modules",
+	"ResourceModules": {
+		"ext.math.mathjax": {
+			"group": "ext.math",
+			"scripts": [
+				"ext.math.mathjax.js",
+				"mathjax/es5/tex-chtml.js"
+			]
+		},
+		"ext.math.styles": {
+			"styles": "ext.math.css"
+		},
+		"ext.math.popup": {
+			"packageFiles": "ext.math.popup.js",
+			"messages": [
+				"popups-settings-option-math",
+				"popups-settings-option-math-description"
+			],
+			"dependencies": [
+				"mediawiki.ForeignApi"
+			]
+		},
+		"mw.widgets.MathWbEntitySelector": {
+			"scripts": "mw.widgets.MathWbEntitySelector.js",
+			"dependencies": [
+				"oojs-ui-core",
+				"oojs-ui-windows",
+				"oojs-ui-widgets",
+				"mw.config.values.wbRepo",
+				"mediawiki.ForeignApi",
+				"mediawiki.widgets"
+			]
+		},
+		"ext.math.visualEditor": {
+			"scripts": [
+				"ve-math/ve.dm.MWLatexNode.js",
+				"ve-math/ve.ce.MWLatexNode.js",
+				"ve-math/ve.ui.MWLatexInspector.js",
+				"ve-math/ve.ui.MWLatexContextItem.js",
+				"ve-math/ve.ui.MWLatexDialog.js",
+				"ve-math/ve.dm.MWChemNode.js",
+				"ve-math/ve.ce.MWChemNode.js",
+				"ve-math/ve.ui.MWChemInspector.js",
+				"ve-math/ve.ui.MWChemContextItem.js",
+				"ve-math/ve.ui.MWChemDialog.js",
+				"ve-math/ve.ui.MWChemDialogTool.js",
+				"ve-math/ve.dm.MWMathNode.js",
+				"ve-math/ve.ce.MWMathNode.js",
+				"ve-math/ve.ui.MWMathInspector.js",
+				"ve-math/ve.ui.MWMathContextItem.js",
+				"ve-math/ve.ui.MWMathDialog.js",
+				"ve-math/ve.ui.MWMathDialogTool.js",
+				"mw.widgets.MathWbEntitySelector.js"
+			],
+			"styles": [
+				"ve-math/ve.ui.MWLatexDialog.less",
+				"ve-math/ve.ce.MWLatexNode.css",
+				"ve-math/ve.ui.MWLatexInspector.css",
+				"ve-math/ve.ui.MWLatexContextItem.css"
+			],
+			"dependencies": [
+				"ext.visualEditor.mwcore",
+				"ext.math.styles",
+				"oojs-ui.styles.icons-editing-advanced"
+			],
+			"messages": [
+				"math-visualeditor-mwchemdialog-title",
+				"math-visualeditor-mwlatexcontextitem-quickedit",
+				"math-visualeditor-mwlatexdialog-card-formula",
+				"math-visualeditor-mwlatexdialog-card-options",
+				"math-visualeditor-mwlatexinspector-display",
+				"math-visualeditor-mwlatexinspector-display-block",
+				"math-visualeditor-mwlatexinspector-display-default",
+				"math-visualeditor-mwlatexinspector-display-inline",
+				"math-visualeditor-mwlatexinspector-id",
+				"math-visualeditor-mwlatexinspector-qid",
+				"math-visualeditor-mwmathdialog-title",
+				"math-visualeditor-symbol-group-chem-addition",
+				"math-visualeditor-symbol-group-chem-aggregation",
+				"math-visualeditor-symbol-group-chem-arrows",
+				"math-visualeditor-symbol-group-chem-brackets",
+				"math-visualeditor-symbol-group-chem-charges",
+				"math-visualeditor-symbol-group-chem-dots",
+				"math-visualeditor-symbol-group-chem-equations",
+				"math-visualeditor-symbol-group-chem-formulae",
+				"math-visualeditor-symbol-group-chem-greek",
+				"math-visualeditor-symbol-group-chem-isotopes",
+				"math-visualeditor-symbol-group-chem-operators",
+				"math-visualeditor-symbol-group-chem-oxidation",
+				"math-visualeditor-symbol-group-chem-precipitate",
+				"math-visualeditor-symbol-group-chem-stoichiometric",
+				"math-visualeditor-symbol-group-math-accents",
+				"math-visualeditor-symbol-group-math-arrows",
+				"math-visualeditor-symbol-group-math-bounds",
+				"math-visualeditor-symbol-group-math-derivatives",
+				"math-visualeditor-symbol-group-math-functions",
+				"math-visualeditor-symbol-group-math-geometry",
+				"math-visualeditor-symbol-group-math-greek",
+				"math-visualeditor-symbol-group-math-hebrew",
+				"math-visualeditor-symbol-group-math-large",
+				"math-visualeditor-symbol-group-math-logic",
+				"math-visualeditor-symbol-group-math-matrices",
+				"math-visualeditor-symbol-group-math-modular",
+				"math-visualeditor-symbol-group-math-operators",
+				"math-visualeditor-symbol-group-math-parentheses",
+				"math-visualeditor-symbol-group-math-projections",
+				"math-visualeditor-symbol-group-math-relations",
+				"math-visualeditor-symbol-group-math-root",
+				"math-visualeditor-symbol-group-math-sets",
+				"math-visualeditor-symbol-group-math-spacing",
+				"math-visualeditor-symbol-group-math-special",
+				"math-visualeditor-symbol-group-math-subscripts",
+				"math-visualeditor-symbol-group-math-symbols",
+				"math-visualeditor-symbol-group-math-typefaces",
+				"math-visualeditor-symbol-group-math-unsorted"
+			]
+		},
+		"ext.math.visualEditor.mathSymbols": {
+			"packageFiles": [
+				"ve-math/mathSymbols.js",
+				"ve-math/mathSymbols.json"
+			],
+			"styles": [
+				"ve-math/ve.ui.MWMathSymbols.css"
+			]
+		},
+		"ext.math.visualEditor.chemSymbols": {
+			"packageFiles": [
+				"ve-math/chemSymbols.js",
+				"ve-math/chemSymbols.json"
+			],
+			"styles": [
+				"ve-math/ve.ui.MWChemSymbols.css"
+			]
+		}
+	},
+	"ResourceFileModulePaths": {
+		"localBasePath": "modules",
+		"remoteExtPath": "Math/modules"
+	},
+	"SpecialPages": {
+		"MathShowImage": {
+			"class": "MediaWiki\\Extension\\Math\\SpecialMathShowImage",
+			"services": [
+				"Math.Config",
+				"Math.RendererFactory"
+			]
+		},
+		"MathStatus": {
+			"class": "MediaWiki\\Extension\\Math\\SpecialMathStatus",
+			"services": [
+				"Math.Config",
+				"Math.RendererFactory"
+			]
+		},
+		"MathWikibase": "MediaWiki\\Extension\\Math\\SpecialMathWikibase"
+	},
+	"TrackingCategories": [
+		"math-tracking-category-error",
+		"math-tracking-category-render-error",
+		"math-tracking-category-mhchem-deprecation",
+		"math-tracking-category-texvc-deprecation"
+	],
+	"ServiceWiringFiles": [
+		"ServiceWiring.php"
+	],
+	"manifest_version": 2
+}

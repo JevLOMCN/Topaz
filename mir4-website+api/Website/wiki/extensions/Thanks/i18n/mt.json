@@ -1,0 +1,27 @@
+{
+	"@metadata": {
+		"authors": [
+			"Chrisportelli",
+			"Leli Forte",
+			"MTSap"
+		]
+	},
+	"thanks-desc": "Iżżid ħoloq ta' ringrazzjament fil-kronoloġija u fid-differenzi bejn il-verżjonijiet",
+	"thanks-thank": "{{GENDER:$1|{{GENDER:$2|irringrazzja}}}}",
+	"thanks-thanked": "{{GENDER:$1|irringrazzjat|irringrazzjata}}",
+	"thanks-button-thank": "{{GENDER:$1|Irringrazzja}}",
+	"thanks-button-thanked": "{{GENDER:$1|Irringrazzjat|Irringrazzjata}}",
+	"thanks-error-undefined": "Ir-ringrazzjament ma ħadimx. Erġa' pprova.",
+	"thanks-error-invalidrevision": "L-ID tar-reviżjoni mhuwiex validu.",
+	"thanks-error-ratelimited": "Qbiżt il-limitu massimu tar-ringrazzjamenti. Jekk jogħġbok stenna ftit u erġa' pprova.",
+	"thanks-thank-tooltip": "{{GENDER:$1|Ibgħat}} notifika ta' ringrazzjament lil {{GENDER:$2|dan|din}} l-utent",
+	"thanks-confirmation2": "{{GENDER:$1|Trid}} tibgħat tgħid grazzi għal din il-modifika?",
+	"thanks-thanked-notice": "$1 {{GENDER:$2|ġie mgħarraf|ġiet mgħarrfa|ġew mgħarrfin}} li għoġbitek il-modifika {{GENDER:$2|tiegħu|tagħha|tagħhom}}.",
+	"echo-pref-subscription-edit-thank": "Jirringrazzjani għall-modifika li għamilt",
+	"echo-pref-tooltip-edit-thank": "Agħrrafni meta xi ħadd jirringrazzjani għal xi modifika li nkun għamilt.",
+	"echo-category-title-edit-thank": "Ringrazzjamenti",
+	"log-name-thanks": "Reġistru ta' ringrazzjamenti",
+	"log-description-thanks": "Hawn taħt hawn lista ta' utenti li ngħataw ringrazzjament minn utenti oħra.",
+	"logentry-thanks-thank": "$1 {{GENDER:$2|irringrazzja|irringrazzjat}} lil {{GENDER:$4|$3}}",
+	"logeventslist-thanks-log": "Ringrazzjamenti"
+}

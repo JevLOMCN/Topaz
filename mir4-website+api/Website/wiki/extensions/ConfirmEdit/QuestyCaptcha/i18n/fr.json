@@ -1,0 +1,20 @@
+{
+	"@metadata": {
+		"authors": [
+			"Framawiki",
+			"Gomoko",
+			"IAlex",
+			"Nicolas NALLET",
+			"Urhixidur",
+			"Verdy p"
+		]
+	},
+	"questycaptcha-desc": "Générateur de questions ''CAPTCHA'' pour la confirmation humaine des modifications",
+	"questycaptcha-addurl": "Votre modification inclut de nouveaux liens externes.\nPour protéger le wiki contre le pollupostage automatisé de modifications, nous vous demandons de bien vouloir répondre à la question ci-dessous ([[Special:Captcha/help|plus d’informations]]) :",
+	"questycaptcha-badlogin": "Afin de protéger le wiki contre le cassage automatisé des mots de passe, nous vous demandons de bien vouloir répondre à la question ci-dessous ([[Special:Captcha/help|plus d’informations]]) :",
+	"questycaptcha-createaccount": "Afin de protéger le wiki contre la création automatisée de comptes, nous vous demandons de bien vouloir répondre à la question qui apparaît ci-dessous ([[Special:Captcha/help|plus d’informations]]) :",
+	"questycaptcha-create": "Pour créer la page, veuillez répondre à la question ci-dessous ([[Special:Captcha/help|plus d’informations]]) :",
+	"questycaptcha-edit": "Pour créer, modifier ou publier cette page, veuillez répondre à la question ci-dessous ([[Special:Captcha/help|plus d’informations]]) :",
+	"questycaptcha-sendemail": "Afin de protéger le wiki contre le pollupostage automatisé, nous vous demandons de bien vouloir répondre à la question ci-dessous ([[Special:Captcha/help|plus d’informations]]) :",
+	"questycaptchahelp-text": "Les sites web qui acceptent des contributions du public, tels que ce wiki, sont souvent victimes de polluposteurs qui utilisent des outils automatisés pour placer de nombreux liens vers leurs sites.\nMême si cette pollution peut être effacée, elle n’en reste pas moins irritante.\n\nParfois, particulièrement lors de l’ajout de nouveaux liens externes dans une page, le wiki peut vous demander de répondre à une question.\nCette tâche étant difficile à accomplir de façon automatisée, cela permet à la plupart des humains de réaliser leurs contributions tout en stoppant la plupart des polluposteurs et autres attaquants robotisés.\n\nVeuillez contacter [[Special:ListAdmins|les administrateurs du site]] si cela vous empêche de façon inattendue de faire des contributions légitimes.\n\nCliquez sur le bouton « Précédent » de votre navigateur pour revenir à la page de modification."
+}

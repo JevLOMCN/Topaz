@@ -1,0 +1,437 @@
+@import 'mediawiki.skin.variables.less';
+@import 'mediawiki.mixins.less';
+
+/* Uses standard message block colors, compare mediawiki.legacy/shared.css */
+.mw-email-not-authenticated .oo-ui-labelWidget,
+.mw-email-none .oo-ui-labelWidget {
+	color: #000;
+	border-width: @border-width-base;
+	border-style: @border-style-base;
+	padding: 8px 12px;
+}
+
+.mw-email-not-authenticated .oo-ui-labelWidget {
+	background-color: #fef6e7;
+	border-color: #fc3;
+}
+
+.mw-email-none .oo-ui-labelWidget {
+	background-color: #eaecf0;
+	border-color: @border-color-base;
+}
+
+/* Authenticated email field has its own class too. Unstyled by default */
+/*
+.mw-email-authenticated .oo-ui-labelWidget { }
+*/
+
+// Non-dialog styling for footer buttons
+#preferences {
+	// Support Edge: The `position: sticky` rule above causes the buttons to
+	// disappear in RTL languages on Microsoft Edge. This magically fixes the issue. See T220706.
+	/* stylelint-disable-next-line plugin/no-unsupported-browser-features */
+	filter: brightness( 1 );
+
+	/*
+	 * Use `position: sticky` on supported browsers, degrades gracefully in
+	 * all others, therefore no `@supports` feature query to reduce code complexity.
+	 */
+	.mw-htmlform-submit-buttons {
+		.position-sticky();
+		bottom: 0;
+		margin: -@border-width-base -1em -1em -1em;
+		padding: 1em;
+		background-color: #fff;
+		border-top: @border-width-base @border-style-base @border-color-subtle;
+		// Add top box shadow on top only to emphasize content is scrollable underneath `sticky`.
+		box-shadow: 0 -4px 4px -4px rgba( 0, 0, 0, 0.25 );
+	}
+}
+
+// Preferences navigation hint
+.client-js .mw-navigation-hint {
+	overflow: hidden;
+}
+
+// Hide when not keyboard focused.
+.client-js .mw-navigation-hint:not( :focus ) {
+	height: 0;
+}
+
+.client-js .mw-navigation-hint:focus {
+	margin: 10px 0 10px 0;
+}
+
+.oo-ui-panelLayout {
+	.mw-prefs-fieldset-wrapper {
+		padding-left: 0;
+		padding-right: 0;
+
+		&:first-child {
+			padding-top: 0;
+		}
+
+		&:last-child {
+			padding-bottom: 0;
+		}
+	}
+}
+
+.mw-prefs-tabs {
+	&.mw-prefs-tabs-searching {
+		// Prevent "Save" bar getting too close to results
+		min-height: 30em;
+
+		/* Tab panels */
+		.oo-ui-tabPanelLayout:not( .mw-prefs-search-matched ),
+		/* Fields */
+		[ class^='mw-htmlform-field-' ]:not( .mw-prefs-search-matched ),
+		/* Wrappers */
+		.mw-prefs-fieldset-wrapper:not( .mw-prefs-search-matched ) {
+			display: none;
+		}
+
+		.oo-ui-tabPanelLayout.mw-prefs-search-matched {
+			> fieldset > legend {
+				background: #eaecf0;
+				padding: 5px 10px;
+				margin: 0 0 10px 0;
+				max-width: none;
+
+				> .oo-ui-labelElement-label {
+					display: inline;
+					margin: 0;
+				}
+			}
+		}
+
+		.oo-ui-indexLayout-stackLayout > .oo-ui-panelLayout {
+			padding: 0;
+			margin: 0;
+		}
+
+		.mw-prefs-search-matched {
+			margin: 0 20px 10px 20px;
+			padding: 0;
+		}
+	}
+}
+
+// Highlight could be in an overlay
+.mw-prefs-search-highlight {
+	background: #eaf3ff !important; /* stylelint-disable-line declaration-no-important */
+	outline: 3px solid #eaf3ff !important; /* stylelint-disable-line declaration-no-important */
+	border-radius: @border-radius-base !important; /* stylelint-disable-line declaration-no-important */
+}
+
+.mw-prefs-noresults {
+	margin: 20px;
+	font-style: italic;
+}
+
+/* TODO: Support mobile */
+.skin-minerva .mw-prefs-search { /* stylelint-disable-line selector-class-pattern */
+	display: none;
+}
+
+.mw-prefs-search.oo-ui-fieldLayout {
+	margin: 8px 0;
+}
+
+@media all and ( min-width: @min-width-breakpoint-tablet ) {
+	.mw-prefs-search.oo-ui-fieldLayout {
+		width: 20em;
+	}
+
+	.mw-special-Preferences .mw-specialpage-summary {
+		margin-right: 21em;
+
+		& + .mw-prefs-search.oo-ui-fieldLayout {
+			float: right;
+			margin: -36px 0 8px 0;
+		}
+	}
+}
+
+@media all and ( max-width: ( @max-width-breakpoint-mobile ) ) {
+	.mw-prefs-search.oo-ui-fieldLayout {
+		// Fallback is graceful enough.
+		/* stylelint-disable-next-line plugin/no-unsupported-browser-features */
+		position: sticky;
+		top: 0;
+		z-index: 1;
+	}
+}
+
+.mw-prefs-tabs-wrapper.oo-ui-panelLayout-framed,
+.mw-prefs-tabs > .oo-ui-menuLayout-content > .oo-ui-indexLayout-stackLayout > .oo-ui-tabPanelLayout {
+	/* Decrease contrast of `border` slightly as padding/border combination is sufficient
+	 * accessibility wise and focus of content is more important here. */
+	border-color: @border-color-subtle;
+}
+
+/* JavaScript disabled */
+.client-nojs {
+	// Disable .oo-ui-panelLayout-framed on outer wrapper
+	.mw-prefs-tabs-wrapper {
+		border-width: 0;
+		border-radius: 0;
+	}
+
+	.mw-prefs-tabs {
+		// Hide the tab menu when JS is disabled as we can't use this feature
+		> .oo-ui-menuLayout-menu {
+			display: none;
+		}
+
+		.mw-prefs-section-fieldset {
+			// <legend> is hard to style, so apply border to top of group
+			> .oo-ui-fieldsetLayout-group {
+				padding-top: 1.5em;
+				border-top: @border-width-base @border-style-base @border-color-subtle;
+			}
+
+			// Remove spacing between legend and underline
+			&.oo-ui-labelElement > .oo-ui-fieldsetLayout-header > .oo-ui-labelElement-label {
+				margin-bottom: 0;
+			}
+		}
+
+		// Spacing between sections
+		> .oo-ui-menuLayout-content > .oo-ui-indexLayout-stackLayout > .oo-ui-tabPanelLayout:not( :last-child ) {
+			margin-bottom: 1em;
+		}
+	}
+	// Show preference section content on mobile
+	#mw-prefs-container.mw-mobile-preferences-container {
+		.mw-prefs-content-head {
+			display: none;
+		}
+	}
+
+	.mw-mobile-prefs-sections.oo-ui-buttonGroupWidget {
+		display: none;
+	}
+
+	.mw-prefs-title {
+		font-size: 1.22em;
+	}
+}
+
+/* JavaScript enabled */
+.client-js {
+	.mw-prefs-tabs {
+		.oo-ui-tabPanelLayout {
+			// Panels don't need borders as the IndexLayout is inside a framed wrapper.
+			border: 0;
+
+			// Hide duplicate section legend (we have tabs instead),
+			// except in search mode, where we hide the tabs
+			&:not( .mw-prefs-search-matched ) > fieldset > legend {
+				display: none;
+			}
+		}
+
+		// Hide all but the first panel before infusion
+		&:not( .mw-prefs-tabs-infused ) {
+			.oo-ui-tabPanelLayout:not( :first-child ) {
+				display: none;
+			}
+		}
+	}
+
+	// Hide mobile sections since they will be displayed in windows
+	#mw-prefs-container.mw-mobile-prefs-container {
+		.mw-prefs-content-page {
+			display: none;
+		}
+	}
+}
+
+// Highlight section header when linking to a section, e.g. Special:Preferences#mw-prefsection-editing-preview.
+.mw-prefs-tabs:not( .mw-prefs-tabs-searching ) .oo-ui-fieldsetLayout:target > .oo-ui-fieldsetLayout-header > .oo-ui-labelElement-label {
+	width: 100%;
+	background-color: #eaf3ff;
+	outline: 4px solid #eaf3ff;
+}
+
+@media all and ( min-width: @min-width-breakpoint-tablet ) {
+	/* Make the "Basic information" section more compact */
+	/* OOUI's `align: 'left'` for FieldLayouts sucks, so we do our own */
+	#mw-htmlform-info {
+		> .oo-ui-fieldLayout-align-top > .oo-ui-fieldLayout-body > .oo-ui-fieldLayout-header {
+			display: inline-block;
+			width: 20%;
+			padding: 0;
+			vertical-align: middle;
+		}
+
+		> .oo-ui-fieldLayout-align-top .oo-ui-fieldLayout-help {
+			margin-right: 0;
+		}
+
+		> .oo-ui-fieldLayout.oo-ui-fieldLayout-align-top > .oo-ui-fieldLayout-body > .oo-ui-fieldLayout-field {
+			display: inline-block;
+			width: 80%;
+			vertical-align: middle;
+		}
+	}
+}
+
+/* Compact number inputs, used at "Display options" on "Recent changes" */
+.mw-htmlform-field-HTMLFloatField,
+.mw-htmlform-field-HTMLIntField {
+	.oo-ui-inputWidget {
+		max-width: 10em;
+	}
+}
+
+/* Expand the dropdown and textfield of "Time zone" field to the */
+/* usual maximum width and display them on separate lines. */
+#wpTimeCorrection .oo-ui-dropdownInputWidget,
+#wpTimeCorrection .oo-ui-textInputWidget {
+	display: block;
+	max-width: 50em;
+}
+
+#wpTimeCorrection .oo-ui-textInputWidget {
+	margin-top: 0.5em;
+}
+
+/* T311717 - Styles for Special:Preferences on mobile
+These are used when users navigate to Special:Preferences
+with params ?useskin=vector&useformat=mobile
+*/
+
+#mw-prefs-container.mw-mobile-preferences-container {
+	position: relative;
+}
+
+.mw-mobile-prefs-sections.oo-ui-buttonGroupWidget {
+	display: block;
+}
+
+.mw-mobile-prefsection.oo-ui-buttonElement {
+	display: block;
+	margin-left: 0 !important; /* stylelint-disable-line declaration-no-important */
+	border-bottom: @border-width-base @border-style-base @border-color-subtle;
+
+	&:last-child {
+		border-bottom: 0;
+	}
+
+	.oo-ui-buttonElement-button {
+		display: block;
+	}
+
+	.oo-ui-iconElement-icon {
+		font-size: 0.875em;
+		height: 3em;
+	}
+}
+
+.mw-prefs-title {
+	font-weight: normal;
+	font-size: 1em;
+	line-height: 1.25em;
+	color: @color-base;
+}
+
+.mw-prefs-description {
+	font-weight: normal;
+	font-size: 0.875em;
+	line-height: 1.25em;
+	color: #72777d;
+	margin-top: 0 !important; /* stylelint-disable-line declaration-no-important */
+	white-space: normal;
+}
+
+.mw-prefs-header-container {
+	display: flex;
+}
+
+/* Override default inline styles for 'larger' dialog */
+.oo-ui-windowManager-modal > .oo-ui-dialog.oo-ui-window-active.mw-mobile-pref-window {
+	padding-top: 0;
+}
+
+/* Overriding default inline styles for 'larger' dialog */
+.mw-mobile-pref-window > .oo-ui-window-frame {
+	width: auto !important; /* stylelint-disable-line declaration-no-important */
+	height: 100% !important; /* stylelint-disable-line declaration-no-important */
+	max-height: 100% !important; /* stylelint-disable-line declaration-no-important */
+}
+
+.oo-ui-window-body.mw-mobile-pref-dialog-body {
+	padding: 16px;
+
+	/* T317110: sub-section title  */
+	.mw-prefs-fieldset-wrapper {
+		.oo-ui-fieldsetLayout-header {
+			border-bottom: @border-width-base @border-style-base #000;
+			max-width: 100%;
+
+			.oo-ui-labelElement-label {
+				font-size: 1em;
+				font-weight: bold;
+				line-height: 1.25em;
+				margin-bottom: 12px;
+			}
+		}
+
+		/* T317110: sub-section and sub-sub-section titles  */
+		.mw-prefs-fieldset-wrapper .oo-ui-fieldsetLayout-header {
+			border-bottom: 0;
+		}
+	}
+
+	/* T317110: preference separation  */
+	[ class^='mw-htmlform-field' ] {
+		padding-top: 12px;
+		padding-bottom: 12px;
+		margin: 0;
+		border-bottom: @border-width-base @border-style-base #eaecf0;
+
+		&:last-child {
+			border-bottom: 0;
+		}
+	}
+
+	/* T317110: preference label  */
+	.oo-ui-labelElement-label {
+		line-height: 1.25em;
+	}
+
+	/* T317110: help text  */
+	.oo-ui-inline-help {
+		font-size: 0.875em;
+		line-height: 1.25em;
+	}
+
+	/* T317110: non-interactive text */
+	.mw-htmlform-field-HTMLInfoField {
+		color: #72777d;
+	}
+}
+
+// Dialog styling for footer buttons
+.oo-ui-window-foot .mw-htmlform-submit-buttons {
+	margin: 0;
+	padding: 16px;
+}
+
+.oo-ui-window-body .oo-ui-fieldLayout-messages {
+	background-color: #fff;
+}
+
+.oo-ui-iconWidget.mw-prefs-header-icon {
+	color: @color-base;
+	cursor: pointer;
+	width: 1.25em;
+	height: 1.25em;
+	margin: 0 16px 0 17px;
+}
+
+.mw-prefs-header-title {
+	display: inline-flex;
+}

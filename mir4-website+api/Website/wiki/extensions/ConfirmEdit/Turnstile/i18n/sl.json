@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"Eleassar"
+		]
+	},
+	"turnstile-desc": "V ConfirmEdit doda podporo za Cloudflare Turnstile",
+	"turnstile-edit": "Za zaščito vikija pred samodejnim dodajanjem smetja z urejanjem vas prosimo, da rešite naslednjo CAPTCHA:",
+	"turnstile-addurl": "Vaše urejanje vključuje nove zunanje povezave. Za zaščito vikija pred samodejnim smetjem vas prosimo, da rešite naslednjo CAPTCHA:",
+	"turnstile-badlogin": "Za zaščito vikija pred samodejnim razbijanjem gesel vas prosimo, da rešite naslednjo CAPTCHA:",
+	"turnstile-createaccount": "Za zaščito vikija pred samodejnim ustvarjanjem računov vas prosimo, da rešite naslednjo CAPTCHA:",
+	"turnstile-createaccount-fail": "Zdi se, da niste rešili CAPTCHA.",
+	"turnstile-create": "Za zaščito vikija pred samodejnim ustvarjanjem strani vas prosimo, da rešite naslednjo CAPTCHA:",
+	"turnstile-help": "Rešite izziv Turnstile in vrnite vrednost odgovora kot captchaWord."
+}

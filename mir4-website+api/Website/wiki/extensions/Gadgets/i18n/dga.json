@@ -1,0 +1,23 @@
+{
+	"@metadata": {
+		"authors": [
+			"Linus Konkor"
+		]
+	},
+	"gadgets-validate-json": "JSON pɛllɛ kyaane la kyɛ ba toŋ. Pakegye gagyɛte poɔ yoŋ la ka a tona.",
+	"gadgets-validate-es6default": "Gagyɛtere naŋ irikɔɛ ES6 koŋ baŋ eŋ difiliti eŋɛ.",
+	"gadgets-validate-noentrypoint": "Pakegye flag ka ba leɛ kaare tere aŋa gampɛle sɛgeraa pɛllɛ zaa naŋ ba kyaane iri.",
+	"gadgets-validate-noscripts": "Ba leɛ la kpaare ko gampɛle sɛgere, bonso a gagyɛte ŋa sɛte <code>type=styles</code>.",
+	"gadgets-validate-stylepeers": "Kpaare leɛ ko la gagyɛte sentaa, bonso aŋa e la gɔɔroŋ-yoŋ gagyɛte. Sɛte <code>type=general</code> na e zuo.",
+	"gadgets-validate-scriptsnotallowed": "Pɛll sɛgere ane dɛta pɛllɛ ba de toŋ ne, bonso a gagyɛte ŋa sɛte <code>type=styles</code>.",
+	"gadgets-validate-invalidjs": "Gampɛle sɛgere $1 ba toŋ, a yi yelbulo model naŋ ba tona \"$2\".",
+	"gadgets-validate-invalidcss": "Gɔɔrompɛle $1 ba toŋ, a yi yelbulo model naŋ ba tona \"$2\".",
+	"gadgets-validate-invalidjson": "Dɛta peegyi $1 ba de toŋ ne, a yi yelbulo ba tonne model \"$2\"",
+	"gadgets-validate-nopeer": "Kpaare leɛ ko la gagyɛte sentaa \"$1\", bonso o ba tona.",
+	"gadgets-validate-invalidpeer": "Gagyɛte sentaa \"$1\" yɛlɛ yinni la, bonso o ba e gɔɔroŋ-yoŋ gagyɛte.",
+	"gadgets-validate-invalidactions": "Yɛlɛ ama {{PLURAL:$2|action is|eebore}} ba leɛ teɛrɛ: $1",
+	"gadgets-validate-invalidcontentmodels": "A yelbulo ŋa {{PLURAL:$2|model does|model ba}} ba tona: $1",
+	"gadgets-validate-invalidnamespaces": "Yoevori ama {{PLURAL:$2|number does|nambare ba}} ba tona: $1",
+	"gadgets-validate-invalidtitle": "Peegyi yelzu \"$1\" ba tona",
+	"gadgets-validate-nopage": "Peegyi \"$1\" ba kyebe."
+}

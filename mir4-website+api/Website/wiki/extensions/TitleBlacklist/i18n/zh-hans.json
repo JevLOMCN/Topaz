@@ -1,0 +1,40 @@
+{
+	"@metadata": {
+		"authors": [
+			"A2093064",
+			"Bencmq",
+			"Diskdance",
+			"Fdcn",
+			"GuoPC",
+			"Hydra",
+			"Liangent",
+			"Liuxinyu970226",
+			"PhiLiP",
+			"Shinjiman",
+			"Xiaomingyan",
+			"Xiplus",
+			"乌拉跨氪",
+			"列维劳德"
+		]
+	},
+	"action-tboverride": "忽略禁用标题与用户名名单",
+	"action-tboverride-account": "忽略禁用用户名名单",
+	"action-titleblacklistlog": "查看禁用标题名单日志",
+	"log-name-titleblacklist": "禁用标题名单日志",
+	"log-description-titleblacklist": "这些事件触发了禁用标题名单。",
+	"logentry-titleblacklist-hit-username": "$1 在尝试创建匹配 $4 的 $3 账户时{{GENDER:$2|触发}}禁用标题名单。",
+	"titleblacklist-desc": "允许管理员通过[[MediaWiki:Titleblacklist|禁用标题名单]]和[[MediaWiki:Titlewhitelist|允许标题名单]]禁止页面和用户账号的创建",
+	"titleblacklist": "# 本页面为“禁用标题名单”。任何匹配本名单正则表达式的标题和用户名会被阻止建立和编辑。\n# 请使用\"#\"来添加注释。\n# 本页默认忽略大小写",
+	"titlewhitelist": "# 本页面为“允许标题名单”。 请使用\"#\"来添加注释。\n# 本页默认忽略大小写",
+	"titleblacklist-forbidden-edit": "标题 \"$2\" 已被禁止创建。\n其与以下禁用标题名单项匹配：<code>$1</code>",
+	"titleblacklist-forbidden-move": "标题 \"$3\" 已被禁止创建，\"$2\" 无法移动至 \"$3\"。\n其与以下禁用标题名单项匹配： <code>$1</code>",
+	"titleblacklist-forbidden-upload": "文件名称“$2”已被禁止创建。\n其与以下禁用标题名单项匹配：<code>$1</code>",
+	"titleblacklist-forbidden-new-account": "用户名“$2”已被禁止创建。\n其与以下禁用标题名单项匹配：<code>$1</code>",
+	"titleblacklist-invalid": "禁用标题名单中以下{{PLURAL:$1|一行|多行}}无效；请在保存前改正{{PLURAL:$1|它|它们}}：",
+	"titleblacklist-override": "若匹配禁用标题名单则忽略它",
+	"titleblacklist-override-help": "有足够特权的用户才可以将其设置为略过禁用标题名单检查。",
+	"titleblacklist-warning": "<strong>警告：此页面只能由管理员和其他拥有<code>tboverride</code>权限的用户编辑，因为它匹配以下禁用标题名单：</strong><br /><code>$1</code>",
+	"right-tboverride": "覆盖禁用标题或用户名名单",
+	"right-tboverride-account": "覆盖禁用用户名名单",
+	"right-titleblacklistlog": "查看禁用标题名单日志"
+}

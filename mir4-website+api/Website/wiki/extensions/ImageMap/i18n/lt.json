@@ -1,0 +1,22 @@
+{
+	"@metadata": {
+		"authors": [
+			"Albertas",
+			"Garas",
+			"Matasg",
+			"Tomasdd"
+		]
+	},
+	"imagemap_desc": "Leidžia susieti klientinės pusės paspaudžiamą paveikslėlį naudojant <code>&lt;imagemap&gt;</code> žymę",
+	"imagemap_no_image": "Error: privalote nurodyti paveikslėlį pirmoje linijoje",
+	"imagemap_invalid_image": "Error: blogas arba neegzistuojantis paveikslėlis",
+	"imagemap_bad_image": "Klaida: Paveikslėlis šiame puslapyje neleidžiamas.",
+	"imagemap_no_link": "Error: nerasta tinkama nuoroda eilutės $1 pabaigoje",
+	"imagemap_invalid_title": "Error: blogas pavadinimas nuorodoje $1 eilutėje",
+	"imagemap_missing_coord": "Error: nėra pakankamai koordinačių figūrai $1 eilutėje",
+	"imagemap_unrecognised_shape": "Error: neatpažįstama figūra $1 eilutėje, kiekviena eilutė privalo prasidėti su vienu iš šių žodžių: <code>default</code>, <code>rect</code>, <code>circle</code> arba <code>poly</code>",
+	"imagemap_invalid_coord": "Error: netinkama koordinatė $1 eilutėje, privalo būti skaičius",
+	"imagemap_invalid_desc": "Error: bloga aprašymo specifikacija, privalo būti viena iš: <code>$1</code>",
+	"imagemap_description": "Apie šį paveikslėlį",
+	"imagemap_poly_odd": "Klaida: Rastas daugiakampis su nelyginiu koordinačių skaičiumi eilutėje $1"
+}

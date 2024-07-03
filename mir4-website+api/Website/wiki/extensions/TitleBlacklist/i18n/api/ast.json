@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Xuacu"
+		]
+	},
+	"apihelp-titleblacklist-summary": "Validar un títulu de páxina, o nome de ficheru o d'usuariu escontra la llista prieta de títulos.",
+	"apihelp-titleblacklist-param-title": "La cadena a validar escontra la llista prieta.",
+	"apihelp-titleblacklist-param-action": "L'aición a comprobar.",
+	"apihelp-titleblacklist-param-nooverride": "Nun intentes saltate la llista prieta de títulos.",
+	"apihelp-titleblacklist-example-1": "Comprobar si [[Foo]] ta na llista prieta",
+	"apihelp-titleblacklist-example-2": "Comprobar si [[Bar]] ta na llista prieta pa la edición",
+	"apihelp-createaccount-param-ignoretitleblacklist": "Inorar les comprobaciones de suplantación (necesita unu de los permisos siguientes: <code>tboverride</code>, <code>tboverride-account</code>)."
+}

@@ -1,0 +1,27 @@
+{
+	"@metadata": {
+		"authors": [
+			"Benel",
+			"Bunukwiki"
+		]
+	},
+	"gadgets-desc": "nay misaungayay kapah tu i [[Special:Preferences#mw-prefsection-gadgets|setin tu kanamuhan]] pakuniza misanga’ [[Special:Gadgets|CSS atu JavaScript a adidi’ay sakaluk]]",
+	"gadgets-prefstext": "isasa’ pasilsil kapah i canghaw nu misu miwawah a sazumaay adidi’ay sakaluk.\nuyniyay adidi’ay sakaluk kayadah pisaungay JavaScript patizeng, sisa saazihay-sakaluk kanca miwawah JavaScript kya taneng malecek misaungay.\nazihen, adidi’ay sakaluk kanca miliyas setin tu kanamuhan kasabelih satu izaw ku laheci.\n\nnaamahiza piazihen, uyniyay sazumaay adidi’ay sakaluk caay mikitinay nu MediaWiki a liyad, sawsawni nay itiniay a Wiki a misaungayay patizeng atu midiput. i paykakacawan mikuwanay kapah tu mikawaway-kalumyiti adidi’ay sakaluk a [[MediaWiki:Gadgets-definition|satetek]] atu [[Special:Gadgets| myawsu]]. cacacacay adidi’ay sakaluk saungay sulyang kapah tu ilabu’ nu [[Special:GadgetUsage|sausi]] matepa",
+	"gadgetusage": "adidi’ay sakaluk pisaungay sausi",
+	"gadgetusage-usercount": "misaungayay nikayadah",
+	"gadgetusage-noresults": "caay katepa adidi’ay sakaluk.",
+	"gadgetusage-intro": "tina sapat nu sulit buhci tu kamu tina wiki miwawah adidi’ay sakaluk a situngusay nikayadah. i nacila {{PLURAL:$1|cacay demiad|$1 demiad}}namisanga’ mikawaway-kalumyiti a situngusay apalatanitik. tina liseto caay yamalyilu pataayaw tu kawaw sacahamin tademaw miwawah amin tu adidi’ay sakaluk, liyad adidi’ay sakaluk hakay caaytu misaungay satu.",
+	"gadgetusage-activeusers": "saungay nu binawlan a misaungayay",
+	"gadgetusage-default": "pataayaw tu kawaw",
+	"gadgets-title": "adidi’ay a sakaluk",
+	"gadgets-pagetext": "isasa’ pasilsil misaungayay kapah tu itiza [[Special:Preferences#mw-prefsection-gadgets|setin tu kanamuhan kasabelih]] miwawahay a sazumaay adidi’ay sakaluk, tina piazihan-tu-sulit i [[MediaWiki:Gadgets-definition| satetek]] ma satetek.\n\ntina kasabelih taneng kisu misuped-miala satetek adidi’ay sakaluk sapuelac atu cengsema-kodo a sisetyimo palatuh kasabelih.",
+	"gadgets-uses": "misaungayay",
+	"gadgets-required-rights": "maydih isasa’ay a {{PLURAL:$2|tungus}}：\n\n$1",
+	"gadgets-required-skins": "kapah misanga’ i{{PLURAL:$2|$1 nuhekalan|cudad i sasa nuhekalan: $1}}.",
+	"gadgets-default": "sacahamin tademaw pataayaw tu kawaw miwawah",
+	"gadgets-legacy": "caay pacumud adidi’ay sakaluk, papisaungay ResourceLoader.\n([https://www.mediawiki.org/wiki/Special:MyLanguage/ResourceLoader/Migration_guide_(users) mizateng tu yadah])",
+	"gadgets-export": "patahkal",
+	"gadgets-export-title": "patahkal adidi’ay a sakaluk",
+	"gadgets-not-found": "inayi’ adidi’ay sakaluk \"$1\".",
+	"gadgets-export-text": "apatahkal $1 adidi’ay sakaluk, pisapecec \"{{int:gadgets-export-download}}\" pipenecan, atu misuped patasasa’ay a tangan, taayaw papatuzu’an Wiki a Special:Import zumasatu apatapabawan。izikuz sa isasa’ay a sulit pacunus ta MediaWiki:Gadgets-definition kasabelih:\n<pre>$2</pre>\nkanca kisu sipapatuzu’an Wiki a tatengaay a tungus (yamalyilu mikawaway-kalumyiti sisetyimo palatuh a tungus), atu kanca miwawah micaliw tu tangan patapabaw pacumuday a sasahicaan."
+}

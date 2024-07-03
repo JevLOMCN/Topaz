@@ -1,0 +1,17 @@
+<form action="{{form-action}}" method="get" class="minerva-search-form">
+	<div class="search-box">
+		<input type="hidden" name="title" value="{{page-title}}"/>
+		<input class="search minerva-icon--search skin-minerva-search-trigger" type="search" name="search" id="searchInput"
+			{{{html-input-attributes}}}">
+	</div>
+	{{!
+		A button when clicked will submit the form
+		This is used so that on tablet devices with JS disabled the search button
+		passes the value of input to the search
+		We avoid using input[type=submit] as these cannot be easily styled as mediawiki ui icons
+		which is problematic in Opera Mini (see T140490)
+	}}
+	{{#data-btn}}
+	{{>Button}}
+	{{/data-btn}}
+</form>

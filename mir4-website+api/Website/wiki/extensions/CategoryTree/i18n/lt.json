@@ -1,0 +1,41 @@
+{
+	"@metadata": {
+		"authors": [
+			"Eitvys200",
+			"Garas",
+			"Hugo.arg",
+			"Manvydasz",
+			"Nokeoo",
+			"Tomasdd",
+			"Zygimantus"
+		]
+	},
+	"categorytree": "Kategorijų medis",
+	"categorytree-portlet": "Kategorijos",
+	"categorytree-legend": "Rodyti kategorijų medį",
+	"categorytree-desc": "Dinamiškai naršykite [[Special:CategoryTree|kategorijų struktūroje]]",
+	"categorytree-header": "Įveskite kategorijos pavadinimą, kad pamatytumėte jos turinį kaip medžio struktūrą. (Reikia JavaScript.)",
+	"categorytree-category": "Kategorija:",
+	"categorytree-go": "Rodyti medį",
+	"categorytree-parents": "Aukštesnio lygio kategorija",
+	"categorytree-mode-label": "Režimas:",
+	"categorytree-mode-categories": "tik kategorijos",
+	"categorytree-mode-pages": "puslapiai išskyrus paveikslėlius",
+	"categorytree-mode-all": "visi puslapiai",
+	"categorytree-collapse": "suskleisti",
+	"categorytree-expand": "išskleisti",
+	"categorytree-member-counts": "turi $1 {{PLURAL:$1|subkategoriją|subkategorijas|subkategorijų}}, $2 {{PLURAL:$2|puslapį|puslapius|puslapių}}, ir $3 {{PLURAL:$3|rinkmeną|rinkmenas|rinkmenų}}",
+	"categorytree-num-categories": "$1 C",
+	"categorytree-num-pages": "$1 P",
+	"categorytree-num-files": "$1 F",
+	"categorytree-num-empty": "tuščia",
+	"categorytree-load": "įkelti",
+	"categorytree-loading": "įkeliama...",
+	"categorytree-nothing-found": "nieko nerasta",
+	"categorytree-no-subcategories": "nėra jokių subkategorijų",
+	"categorytree-no-parent-categories": "jokių aukštesniojo lygio kategorijų",
+	"categorytree-no-pages": "jokių puslapių ar subkategorijų",
+	"categorytree-not-found": "Kategorija <i>$1</i> nerasta",
+	"categorytree-error": "Duomenų įkėlimo problema.",
+	"categorytree-retry": "Palaukite šiek tiek ir bandykite iš naujo."
+}

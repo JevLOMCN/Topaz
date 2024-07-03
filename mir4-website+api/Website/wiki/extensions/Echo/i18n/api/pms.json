@@ -1,0 +1,23 @@
+{
+	"@metadata": {
+		"authors": [
+			"Borichèt"
+		]
+	},
+	"apihelp-echomarkread-param-list": "Na lista d'ID ëd notìfica da marché coma lesù.",
+	"apihelp-echomarkread-param-all": "Si definì, a marca tute le notìfiche ëd n'utent coma lesùe.",
+	"apihelp-echomarkread-param-sections": "Na lista ëd session da marché coma lesùe.",
+	"apihelp-echomarkread-example-1": "Marché la notìtica 8 coma lesùa",
+	"apihelp-echomarkread-example-2": "Marché tute le notìfiche coma lesùe",
+	"apihelp-query+notifications-param-prop": "Detaj da ciamé.",
+	"apihelp-query+notifications-param-sections": "Le session ëd notìfica da ciamé.",
+	"apihelp-query+notifications-param-groupbysection": "S'a venta argropé j'arzultà për session. Minca na session a l'é analisà për sò cont s'a l'é definì.",
+	"apihelp-query+notifications-param-format": "Si spessificà, le notìfiche a sarà mandà ant ës formà.",
+	"apihelp-query+notifications-param-limit": "Ël nùmer màssim ëd notìfiche da mandé.",
+	"apihelp-query+notifications-param-alertcontinue": "Cand a son disponìbij vàire arzultà d'alerta, dovré sòn për andé anans.",
+	"apihelp-query+notifications-param-alertunreadfirst": "S'a venta smon-e prima le notìfiche dij mëssagi nen lesù.",
+	"apihelp-query+notifications-param-messagecontinue": "Cand vàire arzultà ëd mëssagi a son disponìbij, dovré sòn për andé anans.",
+	"apihelp-query+notifications-param-messageunreadfirst": "S'a venta smon-e prima le notìfiche d'alerta nen lesùe.",
+	"apihelp-query+notifications-example-1": "Listé le modìfiche",
+	"apihelp-query+notifications-example-2": "Lista dle notìfiche, argropà për session, con ij conteur"
+}

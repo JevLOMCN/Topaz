@@ -1,0 +1,34 @@
+/*!
+ * VisualEditor MediaWiki UserInterface MWParameterPage styles.
+ *
+ * @copyright See AUTHORS.txt
+ * @license The MIT License (MIT); see LICENSE.txt
+ */
+
+.ve-ui-mwParameterPage {
+	&-info {
+		/* To collapse the top margin of the first <p> in the .ve-ui-mwParameterPage-doc below */
+		margin-bottom: -0.4em;
+	}
+
+	&-label {
+		font-size: 1.1em;
+		line-height: 1.705em;
+	}
+
+	&-doc {
+		line-height: 1.3em;
+		overflow-wrap: break-word;
+	}
+
+	&-inlineDescription .ve-ui-expandableContent-collapsible > :first-child {
+		margin-top: 0;
+	}
+
+	&-doc-required,
+	&-doc-deprecated,
+	&-inlineDescription &-doc-example {
+		font-style: italic;
+		color: #54595d;
+	}
+}

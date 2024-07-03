@@ -1,0 +1,20 @@
+{
+	"@metadata": {
+		"authors": [
+			"Bjankuloski06"
+		]
+	},
+	"imagemap_desc": "Дава картографски слики кои можат да се кликаат од клиентот користејќи ја ознаката <code>&lt;imagemap&gt;</code>",
+	"imagemap_no_image": "Грешка: мора да се назначи слика во првиот ред",
+	"imagemap_invalid_image": "Грешка: сликата е неважечка или не постои",
+	"imagemap_bad_image": "Грешка: Сликата не е дозволена на оваа страница",
+	"imagemap_no_link": "Грешка: не беше пронајдена важечка врска на крајот на редот $1",
+	"imagemap_invalid_title": "Грешка: погрешен наслов во врската на ред $1",
+	"imagemap_missing_coord": "Грешка: нема доволно координати за обликот на ред $1",
+	"imagemap_unrecognised_shape": "Грешка: непризнат ред $1, секој ред мора да почне со едно од: <code>default</code>, <code>rect</code>, <code>circle</code> или <code>poly</code>",
+	"imagemap_invalid_coord": "Грешка: погрешни координати на ред $1, мора да биде со бројки",
+	"imagemap_invalid_desc": "Грешка: неважечко напатствие за опис, мора да биде едно од: <code>$1</code>",
+	"imagemap_description": "За сликава",
+	"imagemap_desc_types": "најгоре-десно, најдолу-десно, најдолу-лево, најгоре-лево, нема",
+	"imagemap_poly_odd": "Грешка: пронајден е многуаголник (poly) со непарен број на координати во ред $1"
+}

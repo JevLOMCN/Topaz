@@ -1,0 +1,55 @@
+@import 'mediawiki.skin.variables.less';
+@import 'mediawiki.mixins.less';
+
+.client-js .mw-collapsibleFieldsetLayout.mw-collapsible .oo-ui-fieldsetLayout-header {
+	// Push legend up when JS is on, to increase clickable area.
+	margin-top: -@spacing-50;
+	margin-bottom: @spacing-50;
+	// Add `padding-top` to make up for negative `margin` above.
+	padding: @spacing-50;
+	// Make space for toggle icon defined below.
+	padding-left: @spacing-150;
+
+	.oo-ui-labelElement-label {
+		margin-bottom: 0;
+	}
+}
+
+// Trigger only when collapsible & JS is available via `.mw-collapsed`.
+.client-js .mw-collapsibleFieldsetLayout.mw-collapsed .oo-ui-fieldsetLayout-header {
+	min-height: 30px;
+	// Negative margin to match the reduced distance on the top caused by the previous rule.
+	margin-bottom: -@spacing-75;
+}
+
+.mw-collapsibleFieldsetLayout.mw-collapsible {
+	.oo-ui-fieldsetLayout-header {
+		max-width: none;
+	}
+
+	.mw-collapsible-toggle .oo-ui-iconElement-icon {
+		position: absolute;
+		top: 0;
+		left: 0;
+		// Special case: Reduce to `16px` icon size here.
+		min-width: @min-size-icon-small;
+		width: @size-icon-small;
+		margin-right: 0.5em;
+	}
+
+	// When expanded: only 'collapse' icon visible
+	.mw-collapsible-toggle .oo-ui-icon-expand {
+		display: none;
+	}
+
+	// When collapsed: only 'expand' icon visible
+	&.mw-collapsed {
+		.mw-collapsible-toggle .oo-ui-icon-expand {
+			display: inline-block;
+		}
+
+		.mw-collapsible-toggle .oo-ui-icon-collapse {
+			display: none;
+		}
+	}
+}

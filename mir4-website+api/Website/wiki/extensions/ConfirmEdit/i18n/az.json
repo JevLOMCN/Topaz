@@ -1,0 +1,38 @@
+{
+	"@metadata": {
+		"authors": [
+			"Dağlı95",
+			"NMW03",
+			"Serkanland",
+			"Vugar 1981"
+		]
+	},
+	"captcha-edit": "Bu səhifəni redaktə etmək üçün sizdən aşağıdakı tapşırığı həll etməyinizi və cavabını qutuya yazmağınızı xahiş edirik ([[Special:Captcha/help|daha ətraflı]]):",
+	"captcha-edit-fail": "Səhv və ya mövcud olmayan CAPTCHA.",
+	"captcha-desc": "Spam və parol təxminindən qorunmaq üçün CAPTCHA üsullarını təmin edir",
+	"captcha-help": "CAPTCHA həlli.",
+	"captcha-info-help": "CAPTCHA-nın təsviri.",
+	"captcha-id-label": "CAPTCHA ID",
+	"captcha-id-help": "Bu dəyər dəyişmədən geri göndərilməlidir.",
+	"captcha-addurl": "Redaktəniz yeni xarici keçidlər ehtiva edir.\nVikini avtomatlaşdırılmış spamdan mühafizə etmək və redaktənizi yayımlamaq üçün sizdən aşağıdakı tapşırığı həll etməyinizi və cavabını qutuya yazmağınızı xahiş edirik ([[Special:Captcha/help|daha ətraflı]]):",
+	"captcha-badlogin": "Vikini avtomatlaşdırılmış hesab yaradılmalarından mühafizə etmək üçün sizdən aşağıdakı tapşırığı həll etməyinizi və cavabını qutuya yazmağınızı xahiş edirik ([[Special:Captcha/help|daha ətraflı]]):",
+	"captcha-createaccount": "Vikini avtomatlaşdırılmış hesab yaradılmalarından mühafizə etmək üçün sizdən aşağıdakı tapşırığı həll etməyinizi və cavabını qutuya yazmağınızı xahiş edirik ([[Special:Captcha/help|daha ətraflı]]):",
+	"captcha-createaccount-fail": "Səhv və ya mövcud olmayan CAPTCHA.",
+	"captcha-create": "Səhifəni yaratmaq üçün aşağıdakı tapşırığı həll edin və cavabını qutuya yazın ([[Special:Captcha/help|daha ətraflı]]):",
+	"captcha-sendemail": "Vikini avtomatlaşdırılmış spamdan mühafizə etmək üçün sizdən aşağıdakı tapşırığı həll etməyinizi və cavabını qutuya yazmağınızı xahiş edirik ([[Special:Captcha/help|daha ətraflı]]):",
+	"captcha-sendemail-fail": "Səhv və ya mövcud olmayan CAPTCHA.",
+	"captcha-disabledinapi": "Bu əməliyyat CAPTCHA tələb edir, ona görə də API vasitəsilə həyata keçirilə bilməz.",
+	"captcha-error": "Daxili xəta səbəbindən CAPTCHA təsdiqlənməsi mümkün olmadı: $1",
+	"captchahelp-title": "CAPTCHA kömək",
+	"captchahelp-cookies-needed": "Bunun işləməsi üçün brauzerinizdə kukilər aktivləşdirilməlidir.",
+	"captchahelp-text": "Hər bir kəsin məlumat yerləşdirməsinə imkan verən Vikipediya və buna bənzər saytlar tez-tez avtomatlaşdırılmış proqramların köməyi ilə link əlavə edən spamerlərin hədəfinə çevrilir. \nBelə linkləri sonradan məzmundan silmək mümkün olsa da, hər halda bu cür spam fəaliyyəti əhəmiyyətli dərəcədə narahatçılıq yaradır.\n\nBu narahatçılığı azaltmaq və müəyyən dərəcədə aradan qaldırmaq üçün Vikipediya sizə qeydiyyatdan keçərkən, eləcə də burada fəaliyyət göstərərkən rəngli və ya \"kələ-kötür\" simvollar göstərə və sizdən bu simvolları müəyyən xanalara daxil etməyinizi istəyə bilər. Bunun əsas səbəbi - bu əməliyyatın avtomatlaşdırılmasının xeyli çətin olması və əksər insanların bu əmrləri avtomatlaşdırılmış proqramlardan daha dəqiq yerinə yetirə bilməsidir.\n\nTəəssüf ki, bu, görmə qabiliyyəti zəif olanlar və ya yalnız oxumaq üçün nəzərdə tutulan brouzerdən istifadə edənlər üçün problemlər yaradır. Əgər siz bu cür problemlərlə üzləşmisinizsə, çəkinmədən [[Special:ListAdmins|inzibatçılara]] müraciət edə və onlardan kömək istəyə bilərsiniz.\n\nBrauzerinizdə \"Geri\" düyməsini basaraq redaktə səhifəsinə qayıda bilərsiniz.",
+	"captcha-addurl-whitelist": " #<!-- bu sətrə əl vurmayın--> <pre>\n# Sintaks aşağıdakı kimidir:\n#   * \"#\" simvolundan sətrin sonuna kimi hər şey rəydir.\n#   * Boş olmayan hər bir sətir URL-lərdəki hostlarla uyğunlaşacaq regex fraqmentidir.\n #</pre> <!-- bu sətrə əl vurmayın -->",
+	"right-skipcaptcha": "CAPTCHA-dan keçmədən CAPTCHA-ya səbəb olan hərəkətləri yerinə yetirin",
+	"action-skipcaptcha": "CAPTCHA-dan keçmədən CAPTCHA-ya səbəb olan hərəkətləri yerinə yetirmək",
+	"confirmedit-preview-line": "Sətir nömrəsi",
+	"confirmedit-preview-content": "Məzmun",
+	"confirmedit-preview-validity": "Etibarlılıq",
+	"confirmedit-preview-valid": "etibarlıdır",
+	"confirmedit-preview-invalid": "etibarsızdır",
+	"confirmedit-preview-description": "Aşağıdakı cədvəl bu səhifədəki sətirlərin siyahısını və bunun etibarlı IP ünvanı və ya IP ünvan diapazonu olub-olmadığını göstərir. Sətr etibarlı IP ünvanı və ya IP ünvan diapazonudursa, o, CAPTCHA yoxlamalarından çıxarılacaq, lakin etibarsız sətirlər nəzərə alınmayacaq. Etibarlı IP ünvanı diapazonuna nümunə: 69.208.0.0/16, 69.208.0.0-dan 69.208.255.255-ə qədər. IP ünvanı diapazonunun hesablanması haqqında [https://www.mediawiki.org/wiki/Special:MyLanguage/Help:Range_blocks#Calculating_the_CIDR_suffix ətraflı məlumat]."
+}

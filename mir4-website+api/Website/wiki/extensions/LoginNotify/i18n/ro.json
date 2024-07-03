@@ -1,0 +1,20 @@
+{
+	"@metadata": {
+		"authors": [
+			"Andrei Stroe",
+			"Matrafox",
+			"NGC 54",
+			"Strainu",
+			"XXN"
+		]
+	},
+	"echo-category-title-login-fail": "Încercări eșuate de autentificare",
+	"echo-pref-tooltip-login-fail": "Notifică-mă când apar încercări eșuate de autentificare în contul meu.",
+	"echo-category-title-login-success": "Autentificare de pe un dispozitiv nefamiliar",
+	"echo-pref-tooltip-login-success": "Notifică-mă când cineva se autentifică în contul meu de pe un dispozitiv sau adresă IP nefamiliară.",
+	"loginnotify-primary-link": "Ajutor",
+	"notification-loginnotify-login-fail-email-subject": "{{PLURAL:$2|Încercare eșuată|Multiple încercări eșuate}} de autentificare pe {{SITENAME}} ca $1",
+	"notification-loginnotify-login-success-email-subject": "Autentificare pe {{SITENAME}} ca $1 de pe un dispozitiv pe care nu l-{{GENDER:$1|ați folosit}} recent",
+	"notification-known-header-login-fail": "{{PLURAL:$1|A fost '''o încercare eșuată'''|Au fost '''$1 încercări eșuate'''}} de a se conecta cu contul dvs. de la ultima dată de când v-ați conectat. Dacă nu ați fost dvs., vă rugăm să vă asigurați că contul vostru are o parolă puternică.",
+	"notification-new-unbundled-header-login-fail": "{{PLURAL:$1|A fost '''o încercare eșuată'''|Au fost '''mai multe încercări eșuate'''}} de a se conecta cu contul dvs. de pe un dispozitiv nou de la ultima dată de când v-ați conectat. Vă rugăm să vă asigurați că contul vostru are o parolă puternică."
+}

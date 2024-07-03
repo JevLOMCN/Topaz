@@ -1,5 +1,17 @@
+<?php
+$translations = include 'config/i18n/translations.php';
+
+if (isset($_GET['lang']) && array_key_exists($_GET['lang'], $translations)) {
+    $_SESSION['lang'] = $_GET['lang'];
+}
+
+$lang = $_SESSION['lang'] ?? substr($_SERVER['HTTP_ACCEPT_LANGUAGE'], 0, 2);
+$lang = array_key_exists($lang, $translations) ? $lang : 'uk';
+$current_translations = $translations[$lang];
+?>
+
 <!DOCTYPE HTML>
-<html lang="en">
+<html lang="uk">
 
 <head>
   <title>AVA MIR4</title>
@@ -82,6 +94,12 @@
   <!-- End Meta Pixel Code -->
 
   <meta name="facebook-domain-verification" content="u2u323gq34r1wg5idnjnsjkwys3t6o" />
+  <style>
+    #langs li {
+    display: inline-block;
+    margin-right: 10px; /* Espaçamento entre os itens */
+  }
+  </style>
 
 </head>
 
@@ -135,12 +153,16 @@
               </li>
               <li class="new" data-menuanchor="part2">
                 <p><a href="tools"><span>Tools<span></a></p>
+                <ul class="subGnb">
+                  <!-- <li><a href="comingsoon" target="_blank">FAQ</a></li> -->
+                  <li><a href="wiki" target="_blank">WIKI</a></li>
+                </ul>
               </li>
               <li>
-                <p><a href="ucp"><span>Account<span></a></p>
+                <p><a href="ucp"><span><?php echo $current_translations['Account']; ?><span></a></p>
                 <ul class="subGnb">
-                  <li><a href="login" target="_self">Login</a></li>
-                  <li><a href="register" target="_self">Register</a></li>
+                  <li><a href="login" target="_self"><?php echo $current_translations['Login']; ?></a></li>
+                  <li><a href="register" target="_self"><?php echo $current_translations['Register']; ?></a></li>
                 </ul>
               </li>
             </ul>
@@ -961,11 +983,20 @@
 
       <!-- share -->
       <div class="share">
-        <div class="tit">Social</div>
+        <div class="tita"></div>
         <div class="sns">
-          <a href="https://www.facebook.com/" target="_blank">Facebook</a>
-          <a href="" target="_blank">Forum</a>
-          <a href="https://discord.gg/KCnHvwJJWN" target="_blank">Discord</a>
+        <br />
+         <ul id="langs">
+         <li data-index="0" class="lang-picker">
+          <a href="?lang=pt"><img src="https://cdn3.iconfinder.com/data/icons/flags-of-countries-3/128/Brazil-512.png" width="50"> Portugues</a>
+        </li>
+         <li data-index="1" class="lang-picker">
+         <a href="?lang=uk"><img src="https://cdn2.iconfinder.com/data/icons/world-flags-1-1/100/Britain-64.png" width="50"> Ingles </a>
+        </li>
+         </ul>
+        </div>
+        </div>
+        </div>
         </div>
       </div>
       <!-- //share -->
@@ -981,19 +1012,8 @@
 
     </div>
     <!-- //Footer -->
-
-    <!-- @start Revision 1229 -->
-    <!--
-  <div class="floatBanner">
-    <a href="./expedition" target="_blank"><img src="https://mir4-live-hp.wemade.com/mir4-brand/img/desktop/lc/event_wonjung.jpg" alt="WonJung Event"></a>
-  </div>
-  -->
-    <!-- @end Revision 1229  -->
-
   </div>
   <!-- //viewport -->
-
-
   <!-- youtubePop -->
   <div class="youtubePop">
     <div class="bg"></div>
@@ -1024,5 +1044,4 @@
 <script src="static/js/default.js"></script>
 <script src="static/js/share-booking.js"></script>
 <script src="static/js/md5.min.js"></script>
-
 </html>

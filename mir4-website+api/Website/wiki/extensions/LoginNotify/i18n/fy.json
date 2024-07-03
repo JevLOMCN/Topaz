@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"PiefPafPier"
+		]
+	},
+	"echo-category-title-login-fail": "Mislearre besykjen ta ynloggen",
+	"echo-pref-tooltip-login-fail": "Meld my wannear't der fergees besocht is op myn akkount oan te melden.",
+	"echo-category-title-login-success": "Ynloch út ûnbekend apparaat wei",
+	"echo-pref-tooltip-login-success": "Meld my wannear't immen him oanmeldt op myn akkount, út in ûnbekend apparaat en YP-adres wei.",
+	"notification-loginnotify-login-success-email-subject": "Ynloch op {{GRAMMAR:lidw|{{SITENAME}}}} as $1, út in apparaat wei dat {{GENDER:$1|jo}} okkerdeis net brûkt hawwe"
+}

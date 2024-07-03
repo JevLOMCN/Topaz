@@ -1,0 +1,32 @@
+{
+	"@metadata": {
+		"authors": [
+			"BrennodAloisi",
+			"Cedric31"
+		]
+	},
+	"cite-desc": "Apond las balisas <code>&lt;ref[ name=id]&gt;</code> e <code>&lt;references/&gt;</code>, per las citacions.",
+	"cite_error": "Error de citacion : $1",
+	"cite_error_ref_numeric_key": "Ampèl invalid ; clau non-integrala esperada",
+	"cite_error_ref_no_key": "La balisa dobrenta <code>&lt;ref&gt;</code> es malformada o a un marrit nom.",
+	"cite_error_ref_too_many_keys": "Ampèl invalid ; claus invalidas, per exemple, tròp de claus especificadas o clau erronèa",
+	"cite_error_ref_no_input": "Ampèl invalid ; cap de dintrada pas especificada",
+	"cite_error_references_invalid_parameters": "Arguments invalids ; argument esperat",
+	"cite_error_references_no_backlink_label": "Execucion en defòra de las etiquetas personalizadas, definissetz mai dins lo messatge [[MediaWiki:Cite references link many format backlink labels]]",
+	"cite_error_references_no_text": "Balisa  <code>&lt;ref&gt;</code> incorrècta ;\n\npas de tèxte per las referéncias nomenadas <code>$1</code>.",
+	"cite_error_included_ref": "Clausura <code>&lt;/ref&gt;</code> omesa per la balisa <code>&lt;ref&gt;</code>",
+	"cite_error_group_refs_without_references": "De balisas <code>&lt;ref&gt;</code> existisson per un grop nomenat « $1 », mas cap de balisa <code>&lt;references group=\"$1\"/&gt;</code> correspondenta es pas estada trobada, o alara una valisa tampanta <code>&lt;/ref&gt;</code> manca.",
+	"cite_error_references_group_mismatch": "La balisa <code>&lt;ref&gt;</code> dins <code>&lt;references&gt;</code> a l'atribut de grop « $1 » que dintra en conflicte amb lo de <code>&lt;references&gt;</code>.",
+	"cite_error_references_missing_key": "La balisa <code>&lt;ref&gt;</code> amb lo nom « $1 » definida dins <code>&lt;references&gt;</code> es pas utilizada dins lo tèxte precedent.",
+	"cite_error_references_no_key": "La balisa <code>&lt;ref&gt;</code> definida dins <code>&lt;references&gt;</code> a pas de nom d’atribut.",
+	"cite_error_empty_references_define": "La balisa <code>&lt;ref&gt;</code> definida dins <code>&lt;references&gt;</code> amb lo nom « $1 » a pas de contengut.",
+	"cite-tracking-category-cite-error": "Paginas amb d'errors de referéncia",
+	"cite_references_link_accessibility_label": "Anar",
+	"cite_references_link_many_accessibility_label": "Anar a :",
+	"cite_section_preview_references": "Previsualizacion de las referéncias",
+	"cite-wikieditor-tool-reference": "Referéncia",
+	"cite-wikieditor-help-page-references": "Referéncias",
+	"cite-wikieditor-help-content-reference-description": "Referéncia",
+	"cite-wikieditor-help-content-rereference-description": "Utilizacion adicionala de la meteissa referéncia",
+	"cite-wikieditor-help-content-showreferences-description": "Afichar las referéncias"
+}

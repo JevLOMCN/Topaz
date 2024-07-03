@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Bencemac",
+			"Tacsipacsi",
+			"Urbalazs"
+		]
+	},
+	"apihelp-templatedata-summary": "A TemplateData kiterjesztés által tárolt adatok lekérdezése.",
+	"apihelp-templatedata-example-1": "[[Template:Stub]] és [[Template:Example]] sablonadatainak visszaadása eredményekkel, ha a sablon nem létezik, vagy létezik ugyan, de nincs sablonadata",
+	"apihelp-templatedata-param-lang": "Lokalizált értékek visszaadása ezen a nyelven. Alapértelmezetten minden elérhető fordítást visszaad az API.",
+	"apierror-templatedata-corrupt": "A(z) #$1 lap hibás TemplateDatát tartalmaz: $2",
+	"apiwarn-templatedata-deprecation-format": "Az alapértelmezett formátum <kbd>jsonfm</kbd>-re fog változni a jövőben. Add meg a <kbd>format=json</kbd>-t explicit módon."
+}

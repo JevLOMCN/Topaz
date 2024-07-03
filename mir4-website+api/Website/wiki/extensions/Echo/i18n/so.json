@@ -1,0 +1,40 @@
+{
+	"@metadata": {
+		"authors": [
+			"Abshirdheere"
+		]
+	},
+	"prefs-echo": "Wargelinnada",
+	"prefs-emailsettings": "Dooqyada e-mail-ka",
+	"prefs-echosubscriptions": "Iisoo dir arrimaha ku saabsan dhacdooyinkaan",
+	"prefs-echocrosswiki": "Wargelinno kuu tallabinaya wikiga",
+	"echo-pref-email-frequency-never": "Waxba ha iiga soo dirin ku saabsan wargelinnada e-mailka",
+	"echo-pref-email-frequency-immediately": "Wargelinnada kalida ah ee marka ay soo dhacaan.",
+	"echo-pref-email-frequency-daily": "Dulmar maalmeed wargelineed",
+	"echo-pref-email-frequency-weekly": "Dulmar toddobaadle wargelinneed",
+	"echo-learn-more": "Ogaansho dheeraad ah",
+	"echo-new-messages": "Farriin cusub baa kuu taal",
+	"notifications": "Wargelinnada",
+	"tooltip-pt-notifications-alert": "{{GENDER:|Baraarujin}} taada",
+	"echo-specialpage": "Wargelin",
+	"echo-specialpage-pagefilters-title": "Dhaqdhaqaaqyada cusub",
+	"echo-specialpage-pagefilters-subtitle": "Bogag leh wargelinno ee aan la aqrin",
+	"echo-none": "Malahan wax wargelin ah.",
+	"echo-notification-placeholder": "Ma lahan wargelin.",
+	"echo-notification-placeholder-filters": "Ma jiraan wargelinno isleh ee xulshadaan kooban",
+	"notification-link-text-view-changes": "{{GENDER:$1|Itus}} isbedelka",
+	"notification-timestamp-ago-minutes": "{{PLURAL:$1|$1 daqiiqo}}",
+	"notification-timestamp-ago-months": "{{PLURAL:$1|$1bil}}",
+	"notification-timestamp-ago-years": "{{PLURAL:$1|$1sano}}",
+	"notification-inbox-filter-read": "La aqriyay",
+	"notification-inbox-filter-unread": "Aan la aqrin",
+	"notification-inbox-filter-all": "Dhammaan",
+	"echo-notification-alert-text-only": "Baraarujin",
+	"echo-notification-notice-text-only": "Wargelinnada",
+	"echo-overlay-link": "Dhammaan wargelinnada",
+	"echo-overlay-title": "<b>Wargelinada</b>",
+	"echo-mark-all-as-read": "Ka dhig dhammaan wax la aqriyey",
+	"echo-date-today": "Maanta",
+	"echo-date-yesterday": "Shalay",
+	"echo-email-batch-link-text-view-all-notifications": "Dhamaan eeg waegelinada"
+}

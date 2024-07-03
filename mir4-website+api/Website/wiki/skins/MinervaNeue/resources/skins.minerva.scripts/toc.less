@@ -1,0 +1,18 @@
+@import 'mediawiki.skin.variables.less';
+
+.toc-title-icon {
+	position: absolute;
+	left: @spacing-horizontal-button;
+	.cdx-mixin-css-icon( @cdx-icon-list-bullet, @param-is-button-icon: false );
+}
+
+.toc-title-state-icon {
+	position: absolute;
+	right: @spacing-horizontal-button;
+	.cdx-mixin-css-icon( @cdx-icon-expand, @param-is-button-icon: false, @param-size-icon: @size-icon-small);
+}
+
+// Flip the arrow in table of contents when toggled
+.toctogglecheckbox:checked ~ .toctitle .toc-title-state-icon {
+	transform: rotate( -180deg );
+}

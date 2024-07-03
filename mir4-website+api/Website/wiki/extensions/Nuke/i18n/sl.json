@@ -1,0 +1,35 @@
+{
+	"@metadata": {
+		"authors": [
+			"Dbc334",
+			"Eleassar",
+			"Upwinxp"
+		]
+	},
+	"nuke": "Množični izbris",
+	"action-nuke": "množično brisanje",
+	"nuke-desc": "Administratorjem omogoča [[Special:Nuke|množičen izbris]] strani",
+	"nuke-nopages": "V zadnjih spremembah ni novih strani {{GENDER:$1|uporabnika|uporabnice|uporabnika_ce}} [[Special:Contributions/$1|$1]].",
+	"nuke-list": "Naslednje strani je pred kratkim {{GENDER:$1|ustvaril uporabnik|ustvarila uporabnica|ustvaril_a uporabnik_ca}} [[Special:Contributions/$1|$1]];\nvnesite komentar in pritisnite gumb za njihov izbris.",
+	"nuke-list-multiple": "Naslednje strani so bile ustvarjene pred kratkim;\nvnesite komentar in kliknite gumb, da jih izbrišete.",
+	"nuke-defaultreason": "Množično brisanje strani, ki jih je {{GENDER:$1|dodal|dodala|dodal_a}} [[Special:Contributions/$1|$1]]",
+	"nuke-multiplepeople": "Množični izbris nedavno dodanih strani",
+	"nuke-tools": "To orodje omogoča množični izbris strani, ki jih je nedavno ustvaril določen uporabnik ali IP.\nVnesite uporabniško ime ali IP, da pridobite seznam strani za izbris, ali pustite prazno za vse uporabnike.",
+	"nuke-submit-user": "Navedi strani",
+	"nuke-submit-delete": "Izbriši izbrano",
+	"right-nuke": "Množično brisanje strani",
+	"nuke-userorip": "Uporabniško ime, IP-naslov ali prazno:",
+	"nuke-maxpages": "Največje število strani:",
+	"nuke-editby": "{{GENDER:$1|Ustvaril|Ustvarila|Ustvaril_a}} [[Special:Contributions/$1|$1]]",
+	"nuke-deleted": "Stran '''$1''' je izbrisana.",
+	"nuke-deletion-queued": "Stran '''$1''' je v čakalni vrsti za izbris.",
+	"nuke-not-deleted": "Strani [[:$1]] '''ni bilo mogoče''' izbrisati.",
+	"nuke-delete-more": "[[Special:Nuke|Izbriši več strani]]",
+	"nuke-pattern": "Vzorec SQL LIKE (npr. %) za ime strani:",
+	"nuke-nopages-global": "Z vašim iskanjem se ne ujema noben naslov strani.",
+	"nuke-viewchanges": "ogled sprememb",
+	"nuke-namespace": "Omeji na imenski prostor:",
+	"nuke-linkoncontribs": "množični izbris",
+	"nuke-linkoncontribs-text": "Množični izbris strani, katerih {{GENDER:$1|edini avtor je ta uporabnik|edina avtorica je ta uporabnica|edini_a avtor_ica je ts uporabnik_ca}}",
+	"nuke-confirm": "Izbrisali boste {{PLURAL:$1|eno stran|$1 strani}}. Ali jih res želite izbrisati?"
+}

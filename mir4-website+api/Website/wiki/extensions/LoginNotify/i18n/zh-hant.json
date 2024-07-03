@@ -1,0 +1,23 @@
+{
+	"@metadata": {
+		"authors": [
+			"A2093064",
+			"Kly",
+			"LNDDYL",
+			"Liuxinyu970226",
+			"Xiplus"
+		]
+	},
+	"loginnotify-desc": "通知使用者有關來自不熟悉的裝置和/或IP地址的可疑登入",
+	"echo-category-title-login-fail": "失敗的登入嘗試",
+	"echo-pref-tooltip-login-fail": "當我的帳戶有失敗的登入嘗試時通知我。",
+	"echo-category-title-login-success": "使用不熟悉的裝置登入",
+	"echo-pref-tooltip-login-success": "當有人從某個不熟悉的裝置和IP地址登入我的帳戶時通知我。",
+	"loginnotify-primary-link": "說明",
+	"notification-loginnotify-login-fail-email-subject": "以$1在{{SITENAME}}的{{PLURAL:$2|失敗|多次失敗}}登入嘗試",
+	"notification-loginnotify-login-success-email-subject": "在{{GENDER:$1|您}}最近未使用的裝置上以$1登入至{{SITENAME}}",
+	"notification-header-login-success": "最近有人（可能是{{GENDER:$1|您}}）在新的裝置上登入了您的帳戶。如果這確實是您的話，您可以無視這條訊息。如果不是您，那麼建議您更改您的密碼，並檢查您帳戶的活動。",
+	"notification-new-bundled-header-login-fail": "自從您上次登入以來，在新裝置上{{PLURAL:$1|有'''$1次'''}}失敗的登入您帳戶的嘗試。如果這不是您的話，請確保您的帳戶擁有強式密碼。",
+	"notification-known-header-login-fail": "自從您上次登入以來，{{PLURAL:$1|有'''$1次'''}}失敗的登入您帳戶的嘗試。如果這不是您的話，請確保您的帳戶擁有強式密碼。",
+	"notification-new-unbundled-header-login-fail": "目前在新裝置上已經有{{PLURAL:$1|'''一次'''|'''多次'''}}失敗的登入您帳戶的嘗試。請確保您的帳戶擁有強式密碼。"
+}

@@ -1,0 +1,26 @@
+{
+	"@metadata": {
+		"authors": [
+			"Ajiniyaz Nurniyazov",
+			"Inabat Allanova"
+		]
+	},
+	"thanks-thank": "{{GENDER:$1|{{GENDER:$2|raxmet}}}}",
+	"thanks-thanked": "{{GENDER:$1|{{GENDER:$2|siz raxmet ayttıńız}}}}",
+	"thanks-button-thank": "{{GENDER:$1|{{GENDER:$2|Raxmet aytıwdı tastıyıqlaw}}}}",
+	"thanks-thank-tooltip": "Bul {{GENDER:$2|paydalanıwshıǵa}} raxmet aytıw xabarın {{GENDER:$1|jiberiw}}",
+	"thanks-confirmation2": "Usı redaktorlaw ushın raxmet {{GENDER:$1|aytasız ba?}}",
+	"thanks-thanked-notice": "{{GENDER:$3|Siz}} {{GENDER:$2|$1}} atlı paydalanıwshıǵa minnetdarshılıq bildirińiz.",
+	"thanks": "Raxmet aytıw",
+	"thanks-submit": "Raxmet aytıw",
+	"echo-pref-tooltip-edit-thank": "Meniń redaktorlawım ushın birew maǵan raxmet aytqanda meni xabarlandırıw.",
+	"echo-category-title-edit-thank": "Raxmetlew",
+	"notification-header-rev-thank": "$1 paydalanıwshı {{GENDER:$4|sizge}} <strong>$3</strong> betindegi ózgertiwlerińiz ushın {{GENDER:$2|alǵıs}} bildirdi.",
+	"notification-header-creation-thank": "$1 atlı paydalanıwshı <strong>$3</strong> betin jaratqanıńız ushın {{GENDER:$4|sizge}} {{GENDER:$2|alǵıs ayttı}}.",
+	"notification-bundle-header-rev-thank": "{{PLURAL:$1|Bir paydalanıwshı|$1 paydalanıwshı|100=99+ paydalanıwshı}} <strong>$2</strong> betindegi ózgertiwlerińiz\nushın {{GENDER:$3|sizge}} alǵıs ayttı.",
+	"log-name-thanks": "Raxmet aytıw jurnalı",
+	"logentry-thanks-thank": "$1 atlı paydalanıwshı {{GENDER:$4|$3}} atlı paydalanıwshıǵa {{GENDER:$2|raxmetin}} bildirdi.",
+	"thanks-confirmation-special-rev": "Usı redaktorlaw ushın járiyalı kóriniste alǵıs aytıwdı qáleysiz be?",
+	"flow-thanks-confirmation-special": "Usı kommentariy ushın járiyalı kóriniste alǵıs aytıwdı qáleysiz be?",
+	"notification-bundle-header-flow-thank": "{{PLURAL:$1|Bir paydalanıwshı|$1 paydalanıwshı|100=99+ paydalanıwshı}} <strong>$2</strong> betindegi pikirińiz\nushın {{GENDER:$3|sizge}} alǵıs ayttı."
+}

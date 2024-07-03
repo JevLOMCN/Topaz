@@ -1,0 +1,125 @@
+// MediaWiki.ui button mixins for MediaWiki (deprecated)
+//
+// Helper mixins used to create button styles. This file is importable
+// by all LESS files via `@import 'mediawiki.ui/mixins.buttons.less';`.
+
+@import 'mediawiki.skin.variables.less';
+
+/* stylelint-disable selector-class-pattern */
+// Default button mixin.
+.mw-ui-button() {
+	// Container layout
+	display: inline-block;
+	box-sizing: border-box;
+	margin: 0;
+	border-width: @border-width-base;
+	border-style: @border-style-base;
+	border-radius: @border-radius-base;
+	// Ensure that buttons and inputs are nicely aligned when they have differing heights
+	vertical-align: middle;
+	// Inherit the font rather than apply user agent stylesheet (T72072)
+	font-family: inherit;
+	font-size: 1em;
+	font-weight: bold;
+	line-height: 1.28571429em;
+	text-align: center;
+	// Disable weird iOS styling
+	/* stylelint-disable-next-line plugin/no-unsupported-browser-features */
+	-webkit-appearance: none;
+
+	&:not( .mw-ui-icon-element ) {
+		min-height: 32px;
+		min-width: 4em;
+		max-width: 28.75em; // equivalent to 460px, @see T95367
+		padding: 5px 12px;
+	}
+}
+
+// Mixin for button interaction states.
+.mw-ui-button-states() {
+	&:not( :disabled ) {
+		border-color: @border-color-base;
+		// Add `transition`s exclusively on enabled buttons.
+		transition-property: @transition-property-base;
+		transition-duration: @transition-duration-base;
+
+		// Make sure that `color` isn't inheriting from user-agent styles
+		&:visited {
+			color: @color-base;
+		}
+
+		&:hover {
+			background-color: @background-color-base;
+			color: @color-base--hover;
+			cursor: @cursor-base--hover;
+		}
+
+		&:focus {
+			// Make sure that `color` isn't inheriting from user-agent styles
+			color: @color-base;
+			border-color: @border-color-progressive--focus;
+			box-shadow: @box-shadow-inset-small @box-shadow-color-progressive--focus;
+			// Set the standard focus `outline` transparent. A `border` and `box-shadow` visual
+			// focus is added above for common rendering.
+			// In Windows high contrast mode the transparent outline becomes visible.
+			// As vendor stylesheets set the outline on `:focus`, we need to follow here too and
+			// can't rely on the next selector to override it.
+			outline: @outline-base--focus;
+
+			// Remove the inner border and padding in Firefox.
+			&::-moz-focus-inner {
+				// As this is a reset, we're not using skin variables here.
+				border-color: transparent;
+				padding: 0;
+			}
+		}
+
+		&:active,
+		&.is-on {
+			background-color: @background-color-interactive;
+			color: @color-emphasized;
+			border-color: @border-color-interactive;
+			box-shadow: none;
+		}
+	}
+
+	&:disabled {
+		background-color: @background-color-disabled;
+		color: @color-inverted;
+		border-color: @border-color-disabled;
+		cursor: @cursor-base--disabled;
+	}
+}
+
+// Primary buttons mixin.
+.mw-ui-button-colors-primary( @bgColor, @highlightColor, @activeColor ) {
+	&:not( :disabled ) {
+		background-color: @bgColor;
+		color: @color-inverted;
+		// border of the same color as background so that light background and
+		// dark background buttons are the same height and width
+		border-color: @bgColor;
+
+		&:hover {
+			background-color: @highlightColor;
+			border-color: @highlightColor;
+		}
+
+		&:focus {
+			box-shadow: @box-shadow-inset-small @bgColor, @box-shadow-inset-medium @box-shadow-color-inverted;
+		}
+
+		&:active,
+		&.is-on {
+			background-color: @activeColor;
+			border-color: @activeColor;
+			box-shadow: none;
+		}
+	}
+
+	&:disabled {
+		background-color: @background-color-disabled;
+		color: @color-inverted;
+		border-color: @border-color-disabled;
+	}
+}

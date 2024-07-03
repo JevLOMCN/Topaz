@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"Brad Jorsch",
+			"Florian Schmidt"
+		]
+	},
+	"captcha-apihelp-param-captchaword": "{{doc-apihelp-param|description=the \"captchaword\" parameter added by [[mw:Extension:ConfirmEdit]]|noseealso=1}}\nSee also {{msg-mw|captcha-apihelp-param-captchaid}}",
+	"captcha-apihelp-param-captchaid": "{{doc-apihelp-param|description=the \"captchaid\" parameter added by [[mw:Extension:ConfirmEdit]]|noseealso=1}}\nSee also {{msg-mw|captcha-apihelp-param-captchaword}}"
+}

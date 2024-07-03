@@ -1,0 +1,30 @@
+{
+	"@metadata": {
+		"authors": [
+			"Daniel Kinzler, brightbyte.d",
+			"Zoranzoki21"
+		]
+	},
+	"apihelp-query+gadgetcategories-summary": "{{doc-apihelp-summary|query+gadgetcategories}}",
+	"apihelp-query+gadgetcategories-param-prop": "{{doc-apihelp-param|query+gadgetcategories|prop}}",
+	"apihelp-query+gadgetcategories-paramvalue-prop-name": "{{doc-apihelp-paramvalue|query+gadgetcategories|prop|name}}",
+	"apihelp-query+gadgetcategories-paramvalue-prop-title": "{{doc-apihelp-paramvalue|query+gadgetcategories|prop|title}}",
+	"apihelp-query+gadgetcategories-paramvalue-prop-members": "{{doc-apihelp-paramvalue|query+gadgetcategories|prop|members}}",
+	"apihelp-query+gadgetcategories-param-names": "{{doc-apihelp-param|query+gadgetcategories|names}}",
+	"apihelp-query+gadgetcategories-example-1": "{{doc-apihelp-example|query+gadgetcategories}}",
+	"apihelp-query+gadgetcategories-example-2": "{{doc-apihelp-example|query+gadgetcategories}}",
+	"apihelp-query+gadgets-summary": "{{doc-apihelp-summary|query+gadgets}}",
+	"apihelp-query+gadgets-param-prop": "{{doc-apihelp-param|query+gadgets|prop}}",
+	"apihelp-query+gadgets-paramvalue-prop-id": "{{doc-apihelp-paramvalue|query+gadgets|prop|id}}",
+	"apihelp-query+gadgets-paramvalue-prop-metadata": "{{doc-apihelp-paramvalue|query+gadgets|prop|metadata}}",
+	"apihelp-query+gadgets-paramvalue-prop-desc": "{{doc-apihelp-paramvalue|query+gadgets|prop|desc}}",
+	"apihelp-query+gadgets-param-categories": "{{doc-apihelp-param|query+gadgets|categories}}",
+	"apihelp-query+gadgets-param-ids": "{{doc-apihelp-param|query+gadgets|ids}}",
+	"apihelp-query+gadgets-param-allowedonly": "{{doc-apihelp-param|query+gadgets|allowedonly}}",
+	"apihelp-query+gadgets-param-enabledonly": "{{doc-apihelp-param|query+gadgets|enabledonly}}",
+	"apihelp-query+gadgets-example-1": "{{doc-apihelp-example|query+gadgets}}",
+	"apihelp-query+gadgets-example-2": "{{doc-apihelp-example|query+gadgets}}",
+	"apihelp-query+gadgets-example-3": "{{doc-apihelp-example|query+gadgets}}",
+	"apihelp-query+gadgets-example-4": "{{doc-apihelp-example|query+gadgets}}",
+	"apihelp-query+gadgets-example-5": "{{doc-apihelp-example|query+gadgets}}"
+}

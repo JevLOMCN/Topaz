@@ -1,0 +1,42 @@
+{
+	"@metadata": {
+		"authors": [
+			"Chrisportelli",
+			"ToniSant"
+		]
+	},
+	"discussiontools-defaultsummary-reply": "Tweġiba",
+	"discussiontools-emptystate-button": "Ibda diskussjoni",
+	"discussiontools-emptystate-desc": "[[{{MediaWiki:discussiontools-emptystate-link-talkpages}}|Il-paġni ta' dikussjoni]] huma lok fejn wieħed jista' jiddiskuti kif il-kontenut tal-{{SITENAME}} jista' jiġi mtejjeb. Tista' tuża din il-paġna biex tibda diskussjoni ma' oħrajn fuq kif ittejjeb il-paġna [[:{{SUBJECTPAGENAME}}]].",
+	"discussiontools-emptystate-title": "Ibda diskussjoni dwar {{SUBJECTPAGENAME}}",
+	"discussiontools-error-comment-disappeared": "Il-kumment li qed twieġeb għalih ma jistax jinstab fuq il-paġna. Jista' jkun li ġie mħassar jew imċaqlaq lejn paġna oħra.",
+	"discussiontools-error-noswitchtove": "Jiddispjaċina li ma tistax taqleb għal visual mode għax jidher li hemm <b>$1</b> fil-kumment tiegħek.[https://www.mediawiki.org/wiki/Special:MyLanguage/Help:DiscussionTools/Reply_tool_visual_mode_limitations Ara aktar dwar dan].",
+	"discussiontools-newtopic-missing-title": "Jekk jogħġbok ipprovdi titlu għas-suġġett tad-diskussjoni tiegħek. Jekk tikklikkja \"{{int:discussiontools-replywidget-newtopic}}\", il-kumment tiegħek jiżdied mingħajr titlu għas-suġġett.",
+	"discussiontools-notification-subscribed-new-comment-header-bundled": "{{PLURAL:$1|Tweġiba ġdida|$1 tweġibiet ġodda|100=99+ tweġibiet ġodda}} f'\"<strong>$3</strong>\".",
+	"discussiontools-pagetitle-reply": "Qed twieġeb fuq $1",
+	"discussiontools-preference-label": "Għodda għad-diskussjoni",
+	"discussiontools-preference-replytool": "Attiva r-risposti veloċi",
+	"discussiontools-preference-replytool-help": "Din turik ħolqa biex tirrispondi lill-kummenti fuq paġna ta' diskussjoni bi klikk waħda.",
+	"discussiontools-preference-sourcemodetoolbar": "Ippermetti għodda tal-editjar fil-modalità tas-sors",
+	"discussiontools-replybutton": "Wieġeb",
+	"discussiontools-replylink": "wieġeb",
+	"discussiontools-replywidget-advanced": "Avvanzati",
+	"discussiontools-replywidget-anon-warning": "<strong>Bħalissa m'intix fil-kont tiegħek.</strong> Sabiex tirċievi l-attribuzzjoni b'ismek minflok l-indirizz IP tiegħek, tista' [$1 tidħol] jew [$2 toħloq kont].",
+	"discussiontools-replywidget-mode-source": "Sors",
+	"discussiontools-replywidget-placeholder-reply": "Wieġeb lil {{BIDI:$1}}",
+	"discussiontools-replywidget-reply": "Wieġeb",
+	"discussiontools-replywidget-return-to-reply": "Erġa lura għat-tweġiba",
+	"discussiontools-replywidget-summary": "Taqsira",
+	"discussiontools-topicheader-latestcomment": "L-aħħar kumment: $1",
+	"discussiontools-topicsubscription-button-subscribe": "abbona",
+	"discussiontools-topicsubscription-button-subscribe-label": "Abbona",
+	"discussiontools-topicsubscription-button-unsubscribe": "ħassar l-abbonament",
+	"discussiontools-topicsubscription-button-unsubscribe-label": "Ħassar l-abbonament",
+	"discussiontools-topicsubscription-notify-subscribed-body": "Tirċievi notifiki ta' kummenti ġodda fuq dan is-suġġett",
+	"discussiontools-topicsubscription-notify-subscribed-title": "Abbonajt!",
+	"discussiontools-topicsubscription-notify-unsubscribed-body": "Mintix se tirċievi aktar notifiki dwar kummenti fuq dan is-suġġett.",
+	"discussiontools-topicsubscription-pager-actions": "Azzjonijiet",
+	"tag-discussiontools-added-comment-description": "Ġie miżjud kumment f'paġna ta' diskussjoni f'din il-modifika",
+	"tag-discussiontools-newtopic": "[{{int:discussiontools-replywidget-newtopic-link}} Suġġett ġdid]",
+	"tag-discussiontools-reply": "[{{int:discussiontools-replywidget-reply-link}} Wieġeb]"
+}

@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"Macofe",
+			"Servien"
+		]
+	},
+	"apihelp-flowthank-param-postid": "De UUID van t bericht um veur te bedanken.",
+	"apihelp-flowthank-example-1": "Stüür een dankbetüging vöär de reakty mid <kbd>UUID xyz789</kbd>",
+	"apihelp-thank-param-rev": "Versienummer um ene veur te bedanken.",
+	"apihelp-thank-param-source": "n Korte tekste waormee je de bron veur t verzeuk beschrieven, bieveurbeeld <kbd>diff</kbd> of <kbd>history</kbd>.",
+	"apihelp-thank-example-1": "Stüür een dankbetüging vöär versy-<kbd>ID 456</kbd>, wårby de bron een bewarkingsverskil is"
+}

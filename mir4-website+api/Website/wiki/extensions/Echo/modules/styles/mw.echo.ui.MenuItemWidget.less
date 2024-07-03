@@ -1,0 +1,44 @@
+@import 'mediawiki.skin.variables.less';
+@import '../echo.variables.less';
+@import '../echo.mixins.less';
+
+.mw-echo-ui-menuItemWidget {
+	&:hover {
+		text-decoration: none;
+	}
+
+	> .oo-ui-buttonElement-button > .oo-ui-labelElement-label {
+		// Override link colour
+		color: @color-base;
+		// Set max-width so buttons are truncated
+		max-width: 25em;
+		font-weight: normal;
+	}
+
+	&-prioritized {
+		.mw-echo-ui-mixin-hover-opacity();
+		display: inline-block;
+	}
+
+	&-dynamic-action {
+		> .oo-ui-buttonElement-button > .oo-ui-labelElement-label {
+			white-space: normal;
+			overflow: visible;
+		}
+
+		&.oo-ui-iconElement > .oo-ui-buttonElement-button > .oo-ui-iconElement-icon {
+			// Limit to single line height
+			max-height: 28px;
+		}
+
+		.mw-echo-ui-menuItemWidget-description {
+			color: @color-subtle;
+			display: block;
+			cursor: inherit;
+		}
+	}
+
+	.mw-echo-ui-actionMenuPopupWidget-menu:hover {
+		background-color: #eaecf0;
+	}
+}

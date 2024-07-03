@@ -1,0 +1,37 @@
+{
+	"@metadata": {
+		"authors": [
+			"Bennylin",
+			"Diki Ananta",
+			"Meursault2004",
+			"N219",
+			"NoiX180",
+			"Sumbukompor"
+		]
+	},
+	"nuke": "Busak gedhèn-gedhèn",
+	"action-nuke": "busak gedhèn-gedhèn",
+	"nuke-desc": "Awèh panata kuwasa kanggo [[Special:Nuke|mbusak kaca gedhèn-gedhèn]]",
+	"nuke-nopages": "Ora ana kaca anyar garapané [[Special:Contributions/$1|$1]] ing owah-owahan.",
+	"nuke-list": "Kaca-kaca ing ngisor iki mentas digawé [[Special:Contributions/$1|$1]]; awèh tanggepan lan pencèt tombol saperlu mbusak.",
+	"nuke-list-multiple": "Kaca-kaca ing ngisor iki mentas kagawé;\nawèh tanggepan lan pencèn tombol saperlu mbusak.",
+	"nuke-defaultreason": "Busak gedhèn-gedhèn kaca garapané [[Special:Contributions/$1|{{GENDER:$1|$1}}]]",
+	"nuke-multiplepeople": "Busakan gedhèn-gedhèn kaca sing mentas kagawé",
+	"nuke-tools": "Piranti iki ngidinaké pambusak gedhèn-gedhèn kaca sing tembé digawé sawijining naraguna utawa digawé sawijining alamat IP.\nLebokaké jeneng naraguna utawa alamat IP saperlu ngéntukaké pratélan kaca sing arep kabusak gawéané naraguna utawa alamat IP mau, utawa kosongi waé kanggo ngéntukaké pratélan kaca gawéané kabèh naraguna.",
+	"nuke-submit-user": "Pratélan kaca",
+	"nuke-submit-delete": "Busak sing kapilih",
+	"right-nuke": "Busak kaca gedhèn-gedhèn",
+	"nuke-userorip": "Jeneng naraguna, alamat IP utawa kosong:",
+	"nuke-maxpages": "Cacahé kaca maksimal:",
+	"nuke-editby": "Garapané [[Special:Contributions/$1|{{GENDER:$1|$1}}]]",
+	"nuke-deleted": "Kaca '''$1''' wis dibusak.",
+	"nuke-not-deleted": "Kaca [[:$1]] '''ora bisa''' dibusak.",
+	"nuke-delete-more": "[[Special:Nuke|Busak kaca luwih akèh]]",
+	"nuke-pattern": "Pola kanggo jeneng kaca:",
+	"nuke-nopages-global": "Ora ana sesirah kaca sing mathuk karo panggolèké panjenengan.",
+	"nuke-viewchanges": "deleng owah-owahan",
+	"nuke-namespace": "Watesan ing mandhala aran:",
+	"nuke-linkoncontribs": "busak gedhèn-gedhèn",
+	"nuke-linkoncontribs-text": "Busak gedhèn-gedhèn kaca sing digawé {{GENDER:$1|naraguna iki}}",
+	"nuke-confirm": "Panjenengan arep mbusak {{PLURAL:$1|kaca siji|kaca $1}}. Apa panjenengan yakin arep mbusak?"
+}

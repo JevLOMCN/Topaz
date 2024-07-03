@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"Fierodelveneto"
+		]
+	},
+	"echo-category-title-login-fail": "Proe de entrada fałie",
+	"echo-pref-tooltip-login-fail": "Dime co ghe xé de łe proe de entrada a ła me utensa fałie.",
+	"echo-category-title-login-success": "Entrada da on dispoxidivo no conosuo.",
+	"echo-pref-tooltip-login-success": "Dime ogni cual volta che calcheduni proa a ndar drento a ła me utensa da on dispoxidivo e on indiriso IP sconosuo.",
+	"loginnotify-primary-link": "Juto",
+	"notification-loginnotify-login-fail-email-subject": "{{PLURAL:$2|Proa fałia|Difarenti proe fałie}} de entrada a {{SITENAME}} come $1",
+	"notification-loginnotify-login-success-email-subject": "Entrada a {{SITENAME}} come $1 da on dispoxidivo che no {{GENDER:$1|te ghè}} doparà in ultima.",
+	"notification-new-unbundled-header-login-fail": "{{PLURAL:$1|Ghe xé sta '''na prova fałida'''|Ghe xé stae '''pì prove fałie'''}} de ndar drento a ła to utensa da on dispoxidivo sconosuo. Par sicuresa controła de ver na ciave d'entrada conplicada."
+}

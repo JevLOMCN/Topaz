@@ -1,0 +1,35 @@
+{
+	"@metadata": {
+		"authors": [
+			"Salvemm el lombard"
+		]
+	},
+	"captcha-edit": "Per modifegà quella pagina chì a gh'è besogn de risolv l'atività chì de sota e met denter la risposta in la casella ([[Special:Captcha/help|per savenn pussee]]):",
+	"captcha-edit-fail": "Codes de verifica sbagliad o mancant",
+	"captcha-desc": "El forniss di tecnich CAPTCHA per la protezzion contra del spam e 'l tentatif de induvinà la parola ciav",
+	"captcha-help": "Soluzzion del CAPTCHA.",
+	"captcha-info-help": "Descrizzion del CAPTCHA.",
+	"captcha-id-label": "ID del CAPTCHA",
+	"captcha-id-help": "Quell valor chì el doariss vesser dad indree egual.",
+	"captcha-addurl": "La toa modifega la gh'hà dent di ligam de foeura.\nPer protesger el wiki contra del ruf automatich, te domandom de resolver el compit chì de sota e met dent la risposta in la casella al fin de salvà la toa modifega ([[Special:Captcha/help|per savenn pussee]]):",
+	"captcha-badlogin": "Per proteger el wiki contra la forzadura automatica de la parola ciav, te domandom de resolver el compit chì de sota e meter dent la risposta in la casella ([[Special:Captcha/help|per savénn pussee]]):",
+	"captcha-createaccount": "Per protesger el wiki contra la creazzion automatica de cunt, te domandom de resolver el compit chì de sota e met dent la risposta in la casella al fin de salvà la toa modifega ([[Special:Captcha/help|per savenn pussee]]):",
+	"captcha-createaccount-fail": "Codes de verifica sbagliad o mancant.",
+	"captcha-create": "Per creà la pagina a gh'è besogn de risolver l'atività chì de sota e met dent la risposta in la casella:<br />\n([[Special:Captcha/help|per savenn pussee]]):",
+	"captcha-sendemail": "Per protesger la wiki contra del ruf automatich, te domandom de resolv el compit chì de sota e met dent la risposta in la casella ([[Special:Captcha/help|per savenn pussee]]):",
+	"captcha-sendemail-fail": "Codes de verifica sbagliad o mancant.",
+	"captcha-disabledinapi": "Quel'azzion chì la gh'hà besogn de un CAPTCHA, donca la po vesser minga eseguida per mezz del API.",
+	"captcha-error": "Verifica CAPTCHA fallada per via d'un eror interno: $1",
+	"captchahelp-title": "'Se l'è 'l CHAPTA?",
+	"captchahelp-cookies-needed": "Per podé andà inanz te gh'hee d'havégh i cochi pizzad in del to curiosador.",
+	"captchahelp-text": "De spess i sit in la red che aceten di contribuzzion publiche, compagn de quest wiki chì, a inn colpid di spammer che droeuven di istrument automatich per meter dent i so ligam a on sfragellde sit. Ancaben che i ligam minga vorud poden vesser tolt via, l'è istess ona molestia.\n\nDi volte, soratut quand che se sgionten di conligament a di alter pagine de la red, el programa wiki el podariss fà vedé ona imagin cont un test curt colorad e/o stort e ciamàtt de scrivell an'mò dedent d'ona casella. \nDesgià che quell mester chì l'è dificil de vesser fad in automatich d'on programa informatich, quell sistema chì el permet domà ai utent ver de publicà quell che voeulen, e 'l sarra foeura la magioranza di spammer e di alter attach fad in manera automatica. \n\nPer sfortuna, 'ste misure de sicurezza chì a poden met in dificoltà i utent con di problema a la vista o chi che droven di programa de navigazzion testuai o fondad sora la sintesi vocal. Purtop, al dì d'incoeu a l'è minga disponibil on alter meccanismo fondad sora i messagg audio.\nAl cas che 'ste procedure  chì te impedissen de meter dent di informazzion giust, toeu contat cont i [[Special:ListAdmins|minestrador del sit]] e ciamegh a lor de ajutàt.\n\nClica el pulsant \"indree\" del programa de navigazzion per tornà a la pagina de modifega.",
+	"captcha-addurl-whitelist": " #<!-- lassa questa riga chì 'me che l'è --> <pre>\n# La sintassi è l'è questa chì:\n#  * Tut quel che 'l ven adree a 'n carater \"#\" a l'è un coment, fina a la fenitiva de la riga\n#  * Tute i righe minga voeuje a inn di frament de espression regolar che se aplichen doma al nom de l'host in di URL\n  #</pre> <!-- lassa questa riga chì 'me che l'è -->",
+	"right-skipcaptcha": "El compiss i azzion che ativen el CHAPTA senza avegh de passà per el CHAPTA",
+	"action-skipcaptcha": "el compiss i azzion che ativen el CHAPTA senza avegh de passà per el CHAPTA",
+	"confirmedit-preview-line": "Numer de riga",
+	"confirmedit-preview-content": "Contegnud",
+	"confirmedit-preview-validity": "Validità",
+	"confirmedit-preview-valid": "valid",
+	"confirmedit-preview-invalid": "minga valid",
+	"confirmedit-preview-description": "Quella tabella chì la fà vedè la lista di linei in su quella pagina chì e, se l'è un adress IP o un grup de adress IP valid. Se la linea l'è un adress IP valid o un interval de adress IP valid, el vegnarà tegnud foeura del controll CAPTCHA, ma i linei minga valid i vegnarann ignorade. Un esempi de interval de adress IP valid el podaria vesser: 69.208.0.0/16 che 'l va de 69.208.0.0 a 69.208.255.255. [https://www.mediawiki.org/wiki/Special:MyLanguage/Help:Range_blocks#Calculating_the_CIDR_suffix Per savenn pussee]  sora 'l calcol d'un interval de adress IP."
+}

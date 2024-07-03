@@ -1,0 +1,39 @@
+@import 'mediawiki.skin.variables.less';
+@import '../echo.variables.less';
+@import '../echo.mixins.less';
+
+.mw-echo-ui-footerNoticeWidget {
+	padding: 0.5em;
+	border-bottom: @border-width-base @border-style-base @border-color-subtle;
+	white-space: normal;
+	line-height: 16px;
+
+	&-row {
+		display: table-row;
+	}
+
+	&-dismiss,
+	&-info,
+	&-label {
+		display: table-cell;
+	}
+
+	&-label {
+		width: 100%;
+	}
+
+	&-icon {
+		padding-right: 0.5em;
+	}
+
+	&-dismiss,
+	&-info {
+		.mw-echo-ui-mixin-hover-opacity();
+		vertical-align: top;
+
+		.oo-ui-iconElement-icon {
+			width: 1.3em !important;
+			height: 1.3em !important;
+		}
+	}
+}

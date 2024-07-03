@@ -1,0 +1,37 @@
+{
+	"@metadata": {
+		"authors": [
+			"Diupwijk",
+			"EileenSanda",
+			"Spacebirdy"
+		]
+	},
+	"categorytree": "BólkaTræ",
+	"categorytree-portlet": "Bólkar",
+	"categorytree-legend": "Vís bólka træið",
+	"categorytree-desc": "Dynamisk stýring í [[Special:CategoryTree|bólka strukturinum]]",
+	"categorytree-header": "Skriva heiti á einum bólki fyri at síggja innihaldið sum træ strukturur.\nLegg til merkis, at hetta krevur víðarikomið JacaScript virksemi (funktionalitet), sum er kent sum AJAX.\nUm tú hevur ein sera gamlan kaga (brovsara), ella hevur gjørt JavaScript óvirkið, so fer tað ikki at virka.",
+	"categorytree-category": "Bólkur:",
+	"categorytree-go": "Vís træ",
+	"categorytree-parents": "Foreldur",
+	"categorytree-mode-label": "Støða:",
+	"categorytree-mode-categories": "bert bólkar",
+	"categorytree-mode-pages": "Síður uttan fílur",
+	"categorytree-mode-all": "allar síður",
+	"categorytree-collapse": "samanbrot",
+	"categorytree-expand": "víðka",
+	"categorytree-member-counts": "Inniheldur {{PLURAL:$1|1 undirbólk|$1 undirbólkar}}, {{PLURAL:$2|1 síðu|$2 síður}}, og {{PLURAL:$3|1 fílu|$3 fílur}}",
+	"categorytree-num-categories": "$1 C",
+	"categorytree-num-pages": "$1 S",
+	"categorytree-num-files": "$1 F",
+	"categorytree-num-empty": "tómur",
+	"categorytree-load": "heinta",
+	"categorytree-loading": "lesur inn",
+	"categorytree-nothing-found": "onki funnið",
+	"categorytree-no-subcategories": "ongir undirbólkar",
+	"categorytree-no-parent-categories": "ongir foreldra bólkar",
+	"categorytree-no-pages": "ongar síður ella undirbólkar",
+	"categorytree-not-found": "Bólkur <i>$1</i> ikki funnin",
+	"categorytree-error": "Trupulleikar við at taka niður dáta.",
+	"categorytree-retry": "Vinarliga bíða eitt bil og royn so aftur."
+}

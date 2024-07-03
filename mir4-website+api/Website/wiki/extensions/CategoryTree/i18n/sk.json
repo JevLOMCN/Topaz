@@ -1,0 +1,40 @@
+{
+	"@metadata": {
+		"authors": [
+			"Helix84",
+			"Jaroslav.micek",
+			"Sudo77(new)",
+			"Teslaton",
+			"Vlad5250",
+			"Yardom78"
+		]
+	},
+	"categorytree": "Strom kategórií",
+	"categorytree-portlet": "Kategórie",
+	"categorytree-legend": "Zobraziť strom kategórií",
+	"categorytree-desc": "AJAXový nástroj na zobrazovanie [[Special:CategoryTree|štruktúry kategórií]] wiki",
+	"categorytree-header": "Zadajte názov kategórie, ktorej obsah sa má zobraziť ako stromová štruktúra. (Vyžaduje JavaScript.)",
+	"categorytree-category": "Kategória:",
+	"categorytree-go": "Zobraziť strom",
+	"categorytree-parents": "Nadradené kategórie",
+	"categorytree-mode-label": "Režim:",
+	"categorytree-mode-categories": "iba kategórie",
+	"categorytree-mode-pages": "stránky okrem obrázkov",
+	"categorytree-mode-all": "všetky stránky",
+	"categorytree-collapse": "zbaliť",
+	"categorytree-expand": "rozbaliť",
+	"categorytree-member-counts": "obsahuje {{PLURAL:$1|1 podkategóriu|$1 podkategórie|$1 podkategórií}}, {{PLURAL:$2|1 stránku|$2 stránky|$2 stránok}} a {{PLURAL:$3|1 súbor|$3 súbory|$3 súborov}}",
+	"categorytree-num-categories": "$1 K",
+	"categorytree-num-pages": "$1 S",
+	"categorytree-num-files": "$1 S",
+	"categorytree-num-empty": "prázdna",
+	"categorytree-load": "načítať",
+	"categorytree-loading": "načítava sa",
+	"categorytree-nothing-found": "nebolo nič nájdené",
+	"categorytree-no-subcategories": "žiadne podkategórie.",
+	"categorytree-no-parent-categories": "nemá nadradené kategórie",
+	"categorytree-no-pages": "žiadne stránky ani podkategórie.",
+	"categorytree-not-found": "Kategória <i>$1</i> nenájdená",
+	"categorytree-error": "Problém pri načítavaní údajov.",
+	"categorytree-retry": "Prosím, chvíľu počkajte a skúste to znova."
+}

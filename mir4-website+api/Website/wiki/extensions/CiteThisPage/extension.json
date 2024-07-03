@@ -1,0 +1,60 @@
+{
+	"name": "CiteThisPage",
+	"author": [
+		"Ævar Arnfjörð Bjarmason",
+		"James D. Forrester"
+	],
+	"url": "https://www.mediawiki.org/wiki/Extension:CiteThisPage",
+	"descriptionmsg": "citethispage-desc",
+	"license-name": "GPL-2.0-or-later",
+	"type": "specialpage",
+	"requires": {
+		"MediaWiki": ">= 1.42"
+	},
+	"ExtensionMessagesFiles": {
+		"CiteThisPageAliases": "CiteThisPage.alias.php"
+	},
+	"MessagesDirs": {
+		"CiteThisPage": [
+			"i18n"
+		]
+	},
+	"Hooks": {
+		"SidebarBeforeOutput": "CiteThisPageHookHandler"
+	},
+	"HookHandlers": {
+		"CiteThisPageHookHandler": {
+			"class": "MediaWiki\\Extension\\CiteThisPage\\Hooks"
+		}
+	},
+	"ResourceModules": {
+		"ext.citeThisPage": {
+			"styles": "ext.citeThisPage.css"
+		}
+	},
+	"ResourceFileModulePaths": {
+		"localBasePath": "modules",
+		"remoteExtPath": "CiteThisPage/modules"
+	},
+	"SpecialPages": {
+		"CiteThisPage": {
+			"class": "MediaWiki\\Extension\\CiteThisPage\\SpecialCiteThisPage",
+			"services": [
+				"SearchEngineFactory",
+				"RevisionLookup",
+				"ParserFactory"
+			]
+		}
+	},
+	"AutoloadNamespaces": {
+		"MediaWiki\\Extension\\CiteThisPage\\": "includes/"
+	},
+	"config": {
+		"CiteThisPageAdditionalNamespaces": {
+			"value": {},
+			"description": "An array of namespaces where the 'Cite this page' link is also visible, additionally to the content pages.",
+			"merge_strategy": "array_plus"
+		}
+	},
+	"manifest_version": 2
+}

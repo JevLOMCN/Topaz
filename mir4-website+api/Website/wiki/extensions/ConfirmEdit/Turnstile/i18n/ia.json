@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"McDutchie"
+		]
+	},
+	"turnstile-desc": "Adde supporto pro Turnstile de Cloudflare a ConfirmEdit",
+	"turnstile-edit": "Pro proteger le wiki contra le modificationes de spam automatisate, per favor, resolve le ''captcha'' sequente:",
+	"turnstile-addurl": "Iste modification include nove ligamines externe. Pro proteger le wiki contra le spam automatisate, per favor, resolve le ''captcha'' sequente:",
+	"turnstile-badlogin": "Pro proteger le wiki contra le furto automatisate de contrasignos, per favor, resolve le ''captcha'' sequente:",
+	"turnstile-createaccount": "Pro proteger le wiki contra le creation automatisate de contos, per favor, resolve le ''captcha'' sequente:",
+	"turnstile-createaccount-fail": "Pare que tu non ha resolvite le CAPTCHA.",
+	"turnstile-create": "Pro proteger le wiki contra le creation automatisate de paginas, per favor, resolve le ''captcha'' sequente:",
+	"turnstile-help": "Per favor, resolve un defia Turnstile e retorna le valor del responsa como captchaWord."
+}

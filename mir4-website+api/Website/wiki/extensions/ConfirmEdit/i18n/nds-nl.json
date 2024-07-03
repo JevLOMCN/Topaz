@@ -1,0 +1,18 @@
+{
+	"@metadata": {
+		"authors": [
+			"Servien"
+		]
+	},
+	"captcha-edit": "Um disse zied te bewarken, mu'j eerst t antwoord op disse eenvoudige somme invullen ([[Special:Captcha/help|meer informasie]]):",
+	"captcha-desc": "Biedt CAPTCHA-technieken um bescharming te biejen tegen spam en t raojen van wachtwoorden",
+	"captcha-addurl": "In joew bewarking staon nieje uutgaonde verwiezingen.\nVul ter de bescharming van disse wiki tegen automatiese moekbiedragen t antwoord op de somme in, in t invoerveld dat hieronder steet, um joew bewarking op te slaon:<br />\n([[Special:Captcha/help|meer informasie]])",
+	"captcha-badlogin": "Vul ter de bescharming van disse wiki tegen t automaties kraken van wachtwoorden t antwoord op de somme in, in t invoerveld ([[Special:Captcha/help|meer informasie]]):",
+	"captcha-createaccount": "Vul ter bescharming van disse wiki tegen t automaties anmaken van gebrukers t antwoord op de somme in, in t invoerveld ([[Special:Captcha/help|meer informasie]]):",
+	"captcha-createaccount-fail": "Verkeerde of ontbrekende bevestigingskode.",
+	"captcha-create": "Je bin n nieje zied an t maken.\nVoer t antwoord van disse eenvoudige rekensomme in bie t invoervienster\n([[Special:Captcha/help|meer informasie]]).",
+	"captchahelp-title": "Lettertoetshulpe",
+	"captchahelp-cookies-needed": "Je mutten scheumbestaanden (cookies) an hebben staon um disse funksie te gebruken.",
+	"captchahelp-text": "Websteeën waor iederene an kan biedragen, zo as disse {{SITENAME}}-wiki, wörden vake misbruukt deurdat der ongewunste verwiezingen op ezet wörden. Op disse wiki kunnen zokken bewarkingen makkelik weerummezet wörden, mer t nimp wel tied in beslag die aanders gebruukt kan wörden.\n\nSoms, veural a'j nieje verwiezingen op n zied zetten, zie'j n aofbeelding mit ekleurden vervormde tekste en wördt joe evreugen um de tekste in te voeren. Umdat dit proses lastig te automatiseren is, kunnen haost allinnig meensen dit proses suksesvol uutvoeren, en wörden hiermee ongewunste wiezigingen en geautomatiseerden anvallen eweerd.\n\nSpietig genog levert disse bevestiging veur gebrukers mit n visuele beparking of n tekst- of spraakebaseerden webkieker problemen op.\nOp t moment is der gien alternatief mit geluud beschikbaor.\nVraag um hulpe van de [[Special:ListAdmins|websteebeheerders]] as dit proses joe in de weg steet n nuttige biedrage te leveren.\n\n(Klik op de 'weerumme'-knoppe in joew webkieker, um weer naor t tekstbewarkingscharm te gaon.)",
+	"captcha-addurl-whitelist": " #<!-- laot disse regel zo as t is --> <pre>\n# De syntaxis is as volgt:\n#  * Alle tekste vanaof t karakter \"#\" tot t einde van de regels wörden ezien as opmarking\n#  * Alle regels die niet leeg bin, wörden ezien as n reguliere uutdrokking die veur delen van de domein staon.\n  #</pre> <!-- laot disse regel zo as t is -->"
+}

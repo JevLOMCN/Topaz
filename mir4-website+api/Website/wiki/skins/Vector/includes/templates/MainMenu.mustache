@@ -1,0 +1,9 @@
+{{! Use `.vector-main-menu` to target styles at this element}}
+{{>PinnableElement/Open}}
+	{{#data-portlets-first}}{{>Menu}}{{/data-portlets-first}}
+	{{#data-main-menu-action}}{{>MainMenuAction}}{{/data-main-menu-action}}
+	{{#array-portlets-rest}}{{>Menu}}{{/array-portlets-rest}}
+	{{^is-language-in-content}}
+	{{#data-languages}}{{>Menu}}{{/data-languages}}
+	{{/is-language-in-content}}
+{{>PinnableElement/Close}}

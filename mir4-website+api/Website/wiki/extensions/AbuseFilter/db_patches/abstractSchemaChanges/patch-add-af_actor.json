@@ -1,0 +1,199 @@
+{
+	"comment": "Add af_actor field to abuse_filter",
+	"before": {
+		"name": "abuse_filter",
+		"columns": [
+			{
+				"name": "af_id",
+				"type": "bigint",
+				"options": { "notnull": true, "autoincrement": true, "unsigned": true }
+			},
+			{
+				"name": "af_pattern",
+				"type": "blob",
+				"options": { "notnull": true, "length": 65530 }
+			},
+			{
+				"name": "af_user",
+				"type": "bigint",
+				"options": { "notnull": true, "unsigned": true }
+			},
+			{
+				"name": "af_user_text",
+				"type": "binary",
+				"options": { "notnull": true, "length": 255 }
+			},
+			{
+				"name": "af_timestamp",
+				"type": "mwtimestamp",
+				"options": { "notnull": true }
+			},
+			{
+				"name": "af_enabled",
+				"type": "mwtinyint",
+				"options": { "notnull": true, "length": 1, "default": 1 }
+			},
+			{
+				"name": "af_comments",
+				"type": "blob",
+				"options": { "notnull": false, "length": 65530 }
+			},
+			{
+				"name": "af_public_comments",
+				"type": "blob",
+				"options": { "notnull": false, "length": 255 }
+			},
+			{
+				"name": "af_hidden",
+				"type": "mwtinyint",
+				"options": { "notnull": true, "length": 1, "default": 0 }
+			},
+			{
+				"name": "af_hit_count",
+				"type": "bigint",
+				"options": { "notnull": true, "default": 0 }
+			},
+			{
+				"name": "af_throttled",
+				"type": "mwtinyint",
+				"options": { "notnull": true, "length": 1, "default": 0 }
+			},
+			{
+				"name": "af_deleted",
+				"type": "mwtinyint",
+				"options": { "notnull": true, "length": 1, "default": 0 }
+			},
+			{
+				"name": "af_actions",
+				"type": "string",
+				"options": { "notnull": true, "length": 255, "default": "" }
+			},
+			{
+				"name": "af_global",
+				"type": "mwtinyint",
+				"options": { "notnull": true, "length": 1, "default": 0 }
+			},
+			{
+				"name": "af_group",
+				"type": "binary",
+				"options": { "notnull": true, "length": 64, "default": "default" }
+			}
+		],
+		"indexes": [
+			{
+				"name": "af_user",
+				"columns": [ "af_user" ],
+				"unique": false
+			},
+			{
+				"name": "af_group_enabled",
+				"columns": [ "af_group", "af_enabled", "af_id" ],
+				"unique": false
+			}
+		],
+		"pk": [ "af_id" ]
+	},
+	"after": {
+		"name": "abuse_filter",
+		"columns": [
+			{
+				"name": "af_id",
+				"type": "bigint",
+				"options": { "notnull": true, "autoincrement": true, "unsigned": true }
+			},
+			{
+				"name": "af_pattern",
+				"type": "blob",
+				"options": { "notnull": true, "length": 65530 }
+			},
+			{
+				"name": "af_user",
+				"type": "bigint",
+				"options": { "notnull": true, "unsigned": true, "default": 0 }
+			},
+			{
+				"name": "af_user_text",
+				"type": "binary",
+				"options": { "notnull": true, "length": 255, "default": "" }
+			},
+			{
+				"name": "af_actor",
+				"type": "bigint",
+				"options": { "notnull": true, "unsigned": true, "default": 0 }
+			},
+			{
+				"name": "af_timestamp",
+				"type": "mwtimestamp",
+				"options": { "notnull": true }
+			},
+			{
+				"name": "af_enabled",
+				"type": "mwtinyint",
+				"options": { "notnull": true, "length": 1, "default": 1 }
+			},
+			{
+				"name": "af_comments",
+				"type": "blob",
+				"options": { "notnull": false, "length": 65530 }
+			},
+			{
+				"name": "af_public_comments",
+				"type": "blob",
+				"options": { "notnull": false, "length": 255 }
+			},
+			{
+				"name": "af_hidden",
+				"type": "mwtinyint",
+				"options": { "notnull": true, "length": 1, "default": 0 }
+			},
+			{
+				"name": "af_hit_count",
+				"type": "bigint",
+				"options": { "notnull": true, "default": 0 }
+			},
+			{
+				"name": "af_throttled",
+				"type": "mwtinyint",
+				"options": { "notnull": true, "length": 1, "default": 0 }
+			},
+			{
+				"name": "af_deleted",
+				"type": "mwtinyint",
+				"options": { "notnull": true, "length": 1, "default": 0 }
+			},
+			{
+				"name": "af_actions",
+				"type": "string",
+				"options": { "notnull": true, "length": 255, "default": "" }
+			},
+			{
+				"name": "af_global",
+				"type": "mwtinyint",
+				"options": { "notnull": true, "length": 1, "default": 0 }
+			},
+			{
+				"name": "af_group",
+				"type": "binary",
+				"options": { "notnull": true, "length": 64, "default": "default" }
+			}
+		],
+		"indexes": [
+			{
+				"name": "af_user",
+				"columns": [ "af_user" ],
+				"unique": false
+			},
+			{
+				"name": "af_actor",
+				"columns": [ "af_actor" ],
+				"unique": false
+			},
+			{
+				"name": "af_group_enabled",
+				"columns": [ "af_group", "af_enabled", "af_id" ],
+				"unique": false
+			}
+		],
+		"pk": [ "af_id" ]
+	}
+}

@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"Mainframe98",
+			"McDutchie",
+			"Robin van der Vliet"
+		]
+	},
+	"apihelp-scribunto-console-summary": "Interne module voor het afhandelen van XHR-verzoeken vanaf de Scribunto-console.",
+	"apihelp-scribunto-console-param-title": "De titel van de module om te testen.",
+	"apihelp-scribunto-console-param-content": "De nieuwe inhoud van de module.",
+	"apihelp-scribunto-console-param-session": "Sessiesleutel.",
+	"apihelp-scribunto-console-param-question": "De volgende regel om als script te evalueren.",
+	"apihelp-scribunto-console-param-clear": "Instellen om de huidige sessiestatus te wissen."
+}

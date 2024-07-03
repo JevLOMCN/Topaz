@@ -1,0 +1,24 @@
+{
+	"@metadata": {
+		"authors": [
+			"Crochet.david",
+			"Gomoko",
+			"IAlex",
+			"Kghbln",
+			"Sherbrooke",
+			"Verdy p",
+			"Wyz",
+			"Zetud"
+		]
+	},
+	"inputbox-desc": "Permet l’inclusion de formulaires HTML prédéfinis.",
+	"inputbox-error-no-type": "Vous n’avez pas précisé le type de champ de saisie à créer.",
+	"inputbox-error-bad-type": "Type de champ de saisie « $1 » non reconnu.\nVeuillez spécifier « create », « comment », « search », « search2 » ou « fulltext ».",
+	"inputbox-tryexact": "Essayez la correspondance exacte",
+	"inputbox-searchfulltext": "Rechercher en texte intégral",
+	"inputbox-createarticle": "Créer une page",
+	"inputbox-movearticle": "Renommer la page",
+	"inputbox-postcomment": "Nouvelle section",
+	"inputbox-postcommenttitle": "Nouvelle section",
+	"inputbox-ns-main": "Principal"
+}

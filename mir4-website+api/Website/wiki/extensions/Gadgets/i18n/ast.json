@@ -1,0 +1,40 @@
+{
+	"@metadata": {
+		"authors": [
+			"Esbardu",
+			"Xuacu",
+			"YoaR"
+		]
+	},
+	"gadgets-desc": "Permite a los usuarios seleicionar al gustu [[Special:Gadgets|accesorios CSS y JavaScript]] nes sos [[Special:Preferences#mw-prefsection-gadgets|preferencies]]",
+	"prefs-gadgets": "Accesorios",
+	"prefs-description-gadgets": "Activar funciones adicionales pa la to cuenta.",
+	"gadgets-prefstext": "Más abaxo amuésase una llista de los accesorios especiales que pues activar pa la to cuenta.\nEstos accesorios tán mayoritariamente basaos en JavaScript, polo qu'has tener activáu esti nel to navegador pa que funcionen.\nDate cuenta de qu'estos accesorios nun tendrán efeutu nesta páxina de preferencies.\n\nHas decatate tamién de qu'estos accesorios especiales nun son parte del software MediaWiki, y que normalmente los desendolquen y mantienen usuarios de la to wiki llocal.\nLos alministradores llocales de la interfaz puen editar les [[MediaWiki:Gadgets-definition|definiciones]] de los accesorios disponibles, y los alministradores llocales les [[Special:Gadgets|descripciones]], onde pue vese'l códigu fonte de cada accesoriu. El númberu d'usuarios de cada accesoriu d'esta wiki apaez nes [[Special:GadgetUsage|estadístiques d'usu d'accesorios]].",
+	"gadgets-prefstext-safemode": "Los accesorios nun tán disponibles, yá que'l so mou seguro ta activáu. Por favor, [[#mw-input-wpforcesafemode|desactiva'l mou seguru]] para utilizalos.",
+	"special-gadgets": "Accesorios",
+	"gadgetusage": "Estadístiques d'usu d'accesorios",
+	"gadgetusage-gadget": "Accesoriu",
+	"gadgetusage-usercount": "Númberu d'usuarios",
+	"gadgetusage-noresults": "Nun s'alcontraron accesorios.",
+	"gadgetusage-intro": "Esta tabla indica'l númberu d'usuarios que tien activáu cada accesoriu nesta wiki. Un usuariu activu ye aquel que realizó una edición {{PLURAL:$1|nel últimu día|nos últimos $1 díes}}. Esta llista nun incluye estadístiques de los accesorios activaos pa toos de mou predetermináu y puede incluir accesorios que yá nun tean disponibles.",
+	"gadgetusage-intro-noactive": "Esta tabla indica'l númberu d'usuarios qu'activaron cada accesoriu nesta wiki. Esta llista nun incluye estadístiques de los accesorios activaos pa toos de mou predetermináu y pue incluir accesorios que yá nun tean disponibles.",
+	"gadgetusage-activeusers": "Usuarios activos",
+	"gadgetusage-default": "Predetermináu",
+	"gadgets-title": "Accesorios",
+	"gadgets-pagetext": "Embaxo amuésase una llista de los accesorios especiales que los usuarios puen activar na so [[Special:Preferences#mw-prefsection-gadgets|páxina de preferencies]], según queden definíos poles [[MediaWiki:Gadgets-definition|definiciones]].\nEsta visión xeneral proporciona un accesu fácil a les páxines de mensaxes del sistema que definen la descripción y el códigu de cada accesoriu.",
+	"gadgets-editdescription": "Editar la descripción",
+	"gadgets-viewdescription": "Ver la descripción",
+	"gadgets-uses": "Usa",
+	"gadgets-required-rights": "Rique{{PLURAL:$2|'l siguiente permisu| los siguientes permisos}}:\n\n$1",
+	"gadgets-required-skins": "Disponible {{PLURAL:$2|nel aspeutu $1|nos siguientes aspeutos: $1}}.",
+	"gadgets-default": "Activáu para toos de mou predetermináu.",
+	"gadgets-legacy": "L'accesoriu nun ta cargáu. Migra a ResourceLoader. ([https://www.mediawiki.org/wiki/Special:MyLanguage/ResourceLoader/Migration_guide_(users) Saber más])",
+	"gadgets-export": "Esportar",
+	"gadgets-export-title": "Esportación d'accesorios",
+	"gadgets-not-found": "Nun s'alcontró l'accesoriu \"$1\".",
+	"gadgets-export-text": "Pa esportar l'accesoriu $1, calca nel botón \"{{int:gadgets-export-download}}\", guarda'l ficheru descargáu,\nvete a Special:Import na wiki de destín y xúbelu. Darréu amiesta lo siguiente na páxina MediaWiki:Gadgets-definition:\n<pre>$2</pre>\nHas de tener los permisos afayadizos na wiki de destín (incluyendo permisu pa editar los mensaxes del sistema) y tien de tar activada la importación dende los ficheros xubíos.",
+	"gadgets-export-download": "Descargar",
+	"gadgets-requires-es6": "Esti accesoriu solo funciona en navegadores compatibles con ES6",
+	"gadgets-validate-notset": "La propiedá <code>$1</code> nun ta establecida.",
+	"gadgets-validate-wrongtype": "La propiedá <code>$1</code> tien de ser de tipu <code>$2</code> en cuenta de <code>$3</code>."
+}

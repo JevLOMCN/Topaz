@@ -1,0 +1,23 @@
+{
+	"@metadata": {
+		"authors": [
+			"McDutchie"
+		]
+	},
+	"apihelp-query+extracts-summary": "Retourneert uittreksels van de opgegeven pagina’s in platte tekst of in beperkte HTML.",
+	"apihelp-query+extracts-param-chars": "Aantal te retourneren tekens. De daadwerkelijk geretourneerde tekst kan iets langer zijn.",
+	"apihelp-query+extracts-param-sentences": "Aantal te retourneren zinnen.",
+	"apihelp-query+extracts-param-limit": "Aantal te retourneren uittreksels. (Alleen als ‘exintro’ op ‘true’ staat kunnen meerdere uittreksels worden geretourneerd.)",
+	"apihelp-query+extracts-param-intro": "Alleen de inhoud vóór de eerste sectie retourneren.",
+	"apihelp-query+extracts-param-plaintext": "Uittreksels retourneren als platte tekst in plaats van beperkte HTML.",
+	"apihelp-query+extracts-param-sectionformat": "Opmaak van secties in platte-tekstmodus:",
+	"apihelp-query+extracts-paramvalue-sectionformat-plain": "Geen opmaak.",
+	"apihelp-query+extracts-paramvalue-sectionformat-wiki": "Opmaak in wikitekst-stijl (== zoals dit ==).",
+	"apihelp-query+extracts-paramvalue-sectionformat-raw": "De interne representatie van deze module (sectietitels voorafgegaan door &lt;ASCII 1&gt;&lt;ASCII 2&gt;&lt;sectieniveau&gt;&lt;ASCII 2&gt;&lt;ASCII 1&gt;).",
+	"apihelp-query+extracts-example-1": "Een uittreksel van 175 tekens opvragen",
+	"apiwarn-textextracts-limit": "<var>exlimit</var> was te groot om van een heel artikel uittreksels te maken en is verlaagd tot $1.",
+	"apiwarn-textextracts-unsupportedmodel": "$1 heeft inhoudsmodel $2, dat niet wordt ondersteund; er wordt een leeg uittreksel geretourneerd.",
+	"apiwarn-textextracts-title-in-file-namespace": "Er is een uittreksel voor een titel in de naamruimte Bestand (File) aangevraagd, maar er is er geen teruggestuurd.",
+	"apiwarn-textextracts-sentences-and-html": "De parameter <var>$1sentences</var> kan onverwachte resultaten opleveren bij gebruik in de HTML-modus.",
+	"apiwarn-textextracts-malformed-html": "De HTML-code is mogelijk verkeerd opgemaakt en/of onevenwichtig. Ingevoegde afbeeldingen kunnen eruit zijn weggelaten. Gebruik op eigen risico. Bekende problemen worden vermeld op https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:TextExtracts#Caveats."
+}

@@ -1,0 +1,395 @@
+@import 'mediawiki.skin.variables.less';
+@import '../mmv.variables.less';
+@import '../mmv.mixins.less';
+
+@panel-below-fold-background-color: #f8f9fa;
+
+@vertical-padding: 10px;
+@horizontal-padding: 20px;
+@space-above-credit: 2px;
+
+.mw-mmv-info-box {
+	display: inline-block;
+	overflow: hidden;
+	border: @border-subtle;
+	border-radius: @border-radius-base;
+	background-color: @background-color-base;
+}
+
+.mw-mmv-title-contain {
+	position: relative;
+}
+
+.mw-mmv-title-para {
+	@height: @metadatabar-above-fold-inner-height - 2 * @vertical-padding; // needs explicit height for text truncation logic
+	margin: 0 0 @vertical-padding; // use margin instead of padding for bottom so text is not visible
+	padding: @vertical-padding @horizontal-padding 0 @horizontal-padding;
+	height: @height;
+	line-height: @height;
+
+	&.mw-mmv-ttf-normal {
+		font-size: 20px;
+	}
+
+	&.mw-mmv-title-small {
+		font-size: 18px;
+	}
+
+	&.mw-mmv-title-smaller {
+		@vertical-padding: 6px;
+		@height: @metadatabar-above-fold-inner-height - 2 * @vertical-padding;
+		height: @height;
+		margin: 0 0 @horizontal-padding;
+		padding: @vertical-padding @horizontal-padding 0 @horizontal-padding;
+		line-height: floor( @height / 2 );  // two lines
+		font-size: 16px;
+	}
+
+	// this should be after the size-specific styles so it can override any height set there
+	&.mw-mmv-ttf-untruncated {
+		height: auto;
+	}
+
+	.mw-mmv-ttf-ellipsis {
+		right: @horizontal-padding;
+		bottom: 3px;
+		background-color: @panel-above-fold-background-color; // clip text
+
+		&::before {
+			.fade-out-horizontal( @panel-above-fold-background-color );
+		}
+	}
+}
+
+.mw-mmv-credit {
+	@padding-right: 5px;
+	margin: 0;
+	color: @color-subtle;
+	padding: 0 0 @padding-right;
+	font-size: 0.85em;
+
+	.metadata-panel-is-closed {
+		height: @metadatabar-below-fold-pushup-height - @space-above-credit - @border-width-base; // needs explicit height for text truncation logic
+		line-height: @metadatabar-below-fold-pushup-height - @space-above-credit - @border-width-base;
+	}
+
+	&.empty {
+		height: 0.85em;
+	}
+
+	.mw-mmv-ttf-ellipsis {
+		right: @padding-right;
+		bottom: 13px;
+		background-color: @panel-below-fold-background-color; // clip text
+
+		&::before {
+			.fade-out-horizontal( @panel-below-fold-background-color );
+		}
+	}
+}
+
+.mw-mmv-source-author {
+	line-height: 1.8em;
+}
+
+.mw-mmv-title {
+	// this element is the click target for text untruncation; with the default display:inline it would be an
+	// inline box which can have "gaps" between the lines, making clicks seem to have no effect
+	display: inline-block;
+}
+
+.mw-mmv-image-metadata {
+	width: 100%;
+	position: relative;
+	margin-top: -@metadatabar-below-fold-pushup-height;
+	border-top: @border-subtle;
+	background-color: @panel-below-fold-background-color;
+	padding-top: @space-above-credit;
+
+	.jq-fullscreened & {
+		// Make sure content fits into the screen. This assumes no paddings.
+		height: @metadatabar-below-fold-pushup-height - @border-width-base - @space-above-credit;
+		overflow: hidden;
+	}
+
+	.jq-fullscreened .mw-mmv-untruncated & {
+		height: auto;
+	}
+}
+
+.mw-mmv-author::before {
+	/* @embed */
+	background-image: url( img/user-avatar.svg );
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: contain;
+	display: inline-block;
+	vertical-align: middle;
+	height: 16px;
+	width: 16px;
+	content: ' ';
+	margin-right: 7px;
+	margin-bottom: 2px;
+}
+
+.mw-mmv-image-desc-div {
+	overflow-y: auto;
+	max-height: 150px;
+	margin-bottom: 15px;
+
+	&.empty {
+		display: none;
+	}
+}
+
+.mw-mmv-image-desc-div,
+.mw-mmv-image-links-div {
+	display: inline-block;
+	vertical-align: top;
+}
+
+@littlefont: 0.85em;
+@mediumfont: 0.95em;
+
+.mw-mmv-image-desc {
+	font-size: @mediumfont;
+	color: @color-subtle;
+}
+
+.mw-mmv-image-links {
+	margin: 0 20px;
+	word-break: break-word;
+
+	li {
+		list-style: none;
+		font-size: @littlefont;
+
+		&.empty {
+			display: none;
+		}
+
+		// Make sure the next list item is not visible when the
+		// metadata panel is closed
+		.metadata-panel-is-closed &.mw-mmv-license-li {
+			height: @metadatabar-below-fold-pushup-height - @space-above-credit;
+			line-height: @metadatabar-below-fold-pushup-height - @space-above-credit;
+		}
+
+		&::before {
+			display: inline-block;
+			vertical-align: middle;
+			height: 16px;
+			width: 16px;
+			content: ' ';
+			margin-right: 7px;
+			margin-bottom: 2px;
+			background-size: contain;
+			background-position: right center;
+			background-repeat: no-repeat;
+		}
+
+		&.mw-mmv-license-li::before {
+			/* @embed */
+			background-image: url( img/license.svg );
+		}
+
+		&.mw-mmv-license-li.cc-license::before {
+			/* @embed */
+			background-image: url( img/cc.svg );
+		}
+
+		&.mw-mmv-license-li.pd-license::before {
+			/* @embed */
+			background-image: url( img/pd.svg );
+		}
+
+		&.mw-mmv-filename-li::before {
+			/* @embed */
+			background-image: url( img/file.svg );
+		}
+
+		&.mw-mmv-datetime-li::before {
+			/* @embed */
+			background-image: url( img/time.svg );
+		}
+
+		&.mw-mmv-location-li::before {
+			/* @embed */
+			background-image: url( img/location.svg );
+		}
+
+		&.empty::before {
+			background-image: none !important; /* stylelint-disable-line declaration-no-important */
+		}
+	}
+}
+
+.mw-mmv-license-contain,
+.mw-mmv-license {
+	text-align: right;
+}
+
+.mw-mmv-filename-prefix {
+	padding-right: 4px;
+	cursor: text;
+}
+
+.mw-mmv-title-para,
+.mw-mmv-credit,
+.mw-mmv-image-desc {
+	padding-left: @horizontal-padding;
+}
+
+.mw-mmv-about-links {
+	font-size: @littlefont;
+	padding: @horizontal-padding;
+	width: 50%;
+	clear: both;
+}
+
+.mw-mmv-label {
+	background-color: #eaecf0;
+	color: @color-base;
+	margin-left: 6px;
+	margin-top: 1px;
+	border-radius: @border-radius-base;
+	padding: 2px 5px;
+	font-size: 0.9em;
+
+	&:hover {
+		background-color: #c8ccd1;
+	}
+}
+
+.mw-mmv-image-metadata-column {
+	float: left;
+}
+
+.mw-mmv-image-metadata-desc-column {
+	width: 66.5%;
+}
+
+.mw-mmv-image-metadata-links-column {
+	max-width: 33.5%;
+	width: 25%;
+	text-align: right;
+	float: right;
+	transition: width 0.2s ease-out;
+
+	.mw-mmv-untruncated & {
+		width: 33.5%;
+		text-align: left;
+	}
+}
+
+.mw-mmv-restrictions {
+	display: inline-block;
+	line-height: 14px;
+}
+
+.mw-mmv-restriction-label {
+	cursor: default;
+	display: inline-block;
+	height: 16px;
+
+	&,
+	&:hover {
+		background-color: #fc6;
+	}
+}
+
+.mw-mmv-restriction-label-inner {
+	display: inline-block;
+	width: 14px;
+	height: 14px;
+	text-indent: -9999px;
+	text-align: left;
+	background-size: contain;
+
+	&::after {
+		float: right;
+		text-indent: 0;
+	}
+}
+
+.mw-mmv-restriction-2257 {
+	/* @embed */
+	background-image: url( img/restrict-2257.svg );
+}
+
+.mw-mmv-restriction-aus-reserve {
+	/* @embed */
+	background-image: url( img/restrict-aus-reserve.svg );
+}
+
+.mw-mmv-restriction-communist {
+	/* @embed */
+	background-image: url( img/restrict-communist.svg );
+}
+
+.mw-mmv-restriction-costume {
+	/* @embed */
+	background-image: url( img/restrict-costume.svg );
+}
+
+.mw-mmv-restriction-currency {
+	/* @embed */
+	background-image: url( img/restrict-currency.svg );
+}
+
+.mw-mmv-restriction-design {
+	/* @embed */
+	background-image: url( img/restrict-design.svg );
+}
+
+.mw-mmv-restriction-fan-art {
+	/* @embed */
+	background-image: url( img/restrict-fan-art.svg );
+}
+
+.mw-mmv-restriction-ihl {
+	/* @embed */
+	background-image: url( img/restrict-ihl.svg );
+}
+
+.mw-mmv-restriction-insignia {
+	/* @embed */
+	background-image: url( img/restrict-insignia.svg );
+}
+
+.mw-mmv-restriction-ita-mibac {
+	/* @embed */
+	background-image: url( img/restrict-ita-mibac.svg );
+}
+
+.mw-mmv-restriction-nazi {
+	/* @embed */
+	background-image: url( img/restrict-nazi.svg );
+}
+
+.mw-mmv-restriction-personality {
+	/* @embed */
+	background-image: url( img/restrict-personality.svg );
+}
+
+.mw-mmv-restriction-trademarked::after {
+	content: '\002122';
+}
+
+.mw-mmv-restriction-default {
+	/* @embed */
+	background-image: url( img/restrict-default.svg );
+}
+
+.mw-mmv-permission-link {
+	cursor: pointer;
+
+	.jq-fullscreened & {
+		display: none;
+	}
+}
+
+.mw-mmv-optout-link.pending {
+	cursor: wait;
+	color: @color-subtle;
+}

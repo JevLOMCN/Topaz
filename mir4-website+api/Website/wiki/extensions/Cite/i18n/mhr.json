@@ -1,0 +1,40 @@
+{
+	"@metadata": {
+		"authors": [
+			"Lifeway",
+			"Валентина Семёнова",
+			"Венина Наталья Константиновна",
+			"Mxalexandrov86"
+		]
+	},
+	"cite_error": "$1 - тыште йоҥылыш",
+	"cite_error_ref_invalid_dir": "Йӧрыдымӧ <code>dir=\"$1\"</code>, лийшаш <code>ltr</code> or <code>rtl</code>",
+	"cite_error_ref_conflicting_dir": "<code>&lt;ref&gt;</code> тег кокла гыч \"$1\" лӱманын ваштарешла dir атрибутшо уло.",
+	"cite_error_ref_numeric_key": "Йӧрыдымӧ <code>&lt;ref&gt;</code> тег; лӱм тыглай, тичмаш числа лийын ок керт. Возен ончыктымо лӱмым кучылт",
+	"cite_error_ref_no_key": "Почшо <code>&lt;ref&gt;</code> тег йоҥылыш але йӧрыдымӧ лӱман",
+	"cite_error_ref_too_many_keys": " <code>&lt;ref&gt;</code> тегыште йоҥылыш параметр",
+	"cite_error_ref_follow_conflicts": " <code>&lt;ref follow=\"…\"&gt;</code> тег ден ончылсым шуйымо, тудым посна лӱмдаш да шараш огеш лий",
+	"cite_error_ref_nested_extends": "<code>&lt;ref&gt;</code> тег-влакым ик деч утларак келгытыш кумдаҥдаш ок лий",
+	"cite_error_ref_no_input": "Йоҥылыш <code>&lt;ref&gt;</code> тег; лӱмдымӧ кылвер-влак контентан лийшаш улыт",
+	"cite_error_references_duplicate_key": "Йӧрыдымӧ <code>&lt;ref&gt;</code> тег; \"$1\" лӱм икмыняр гана тӱрлӧ контент дене палемдыме",
+	"cite_error_references_invalid_parameters": "Тыште <code>&lt йоҥылыш параметр уло, шоныммут&gt;</code> тег",
+	"cite_error_references_no_backlink_label": "Мӧҥгешла кылвер-влакын ушнышо пале-влак пытеныт. Рашрак тиде серышыште [[MediaWiki:Cite references link many format backlink labels]].",
+	"cite_error_no_link_label_group": "\"$1\" тӱшкалан кылвер ушнышо пале-влак пытеныт.\nУтларак [[MediaWiki:$2]] серышыште рашемде.",
+	"cite_error_included_references": "Петырыше тег уке <code>&lt;references&gt;</code>",
+	"cite-tracking-category-cite-error": "Палемдымаште йоҥылыш дене велыж-влак",
+	"cite-tracking-category-cite-error-desc": "Тиде категорий велыж-влак кылвер тег кучылтмаште йоҥылышан улыт.",
+	"cite_references_link_accessibility_label": "Мӧҥгеш текст деке",
+	"cite_references_link_many_accessibility_label": "Мӧҥгеш куснаш:",
+	"cite_references_link_accessibility_back_label": "Мӧҥгеш текст деке",
+	"cite_section_preview_references": "Сылкым ончылгоч ончымаш",
+	"cite_warning": "Цитатым пуртымо нерген шижтарымаш: $1",
+	"cite-wikieditor-tool-reference": "Палемдымаш",
+	"cite-wikieditor-help-page-references": "Палемдымаш",
+	"cite-wikieditor-help-content-reference-description": "Палемдымаш",
+	"cite-wikieditor-help-content-named-reference-description": "Вуйлӱм дене палемдымаш",
+	"cite-wikieditor-help-content-rereference-description": "Тиде кылверым уэш кучылтмаш",
+	"cite-wikieditor-help-content-showreferences-description": "Ссылке-влакым ончыкташ",
+	"cite-wikieditor-help-content-reference-example-text1": "Лаштыкын текстше.$1",
+	"cite-wikieditor-help-content-reference-example-text2": "[$1 Link text], ешартыш текст.",
+	"cite-wikieditor-help-content-reference-example-text3": "[$1 Текст ссылке]"
+}

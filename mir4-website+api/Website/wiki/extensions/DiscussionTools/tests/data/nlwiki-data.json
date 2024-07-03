@@ -1,0 +1,82 @@
+{
+	"dateFormat": {
+		"nl": "j M Y H:i"
+	},
+	"digits": {
+		"nl": [
+			"0",
+			"1",
+			"2",
+			"3",
+			"4",
+			"5",
+			"6",
+			"7",
+			"8",
+			"9"
+		]
+	},
+	"localTimezone": "Europe/Berlin",
+	"specialContributionsName": "Bijdragen",
+	"timezones": {
+		"nl": {
+			"CEMT": "CEMT",
+			"CEST": "CEST",
+			"CET": "CET"
+		}
+	},
+	"contLangMessages": {
+		"nl": {
+			"sunday": "zondag",
+			"monday": "maandag",
+			"tuesday": "dinsdag",
+			"wednesday": "woensdag",
+			"thursday": "donderdag",
+			"friday": "vrijdag",
+			"saturday": "zaterdag",
+			"sun": "zo",
+			"mon": "ma",
+			"tue": "di",
+			"wed": "wo",
+			"thu": "do",
+			"fri": "vr",
+			"sat": "za",
+			"january": "januari",
+			"february": "februari",
+			"march": "maart",
+			"april": "april",
+			"may_long": "mei",
+			"june": "juni",
+			"july": "juli",
+			"august": "augustus",
+			"september": "september",
+			"october": "oktober",
+			"november": "november",
+			"december": "december",
+			"january-gen": "januari",
+			"february-gen": "februari",
+			"march-gen": "maart",
+			"april-gen": "april",
+			"may-gen": "mei",
+			"june-gen": "juni",
+			"july-gen": "juli",
+			"august-gen": "augustus",
+			"september-gen": "september",
+			"october-gen": "oktober",
+			"november-gen": "november",
+			"december-gen": "december",
+			"jan": "jan",
+			"feb": "feb",
+			"mar": "mrt",
+			"apr": "apr",
+			"may": "mei",
+			"jun": "jun",
+			"jul": "jul",
+			"aug": "aug",
+			"sep": "sep",
+			"oct": "okt",
+			"nov": "nov",
+			"dec": "dec"
+		}
+	}
+}

@@ -1,0 +1,34 @@
+{
+	"@metadata": {
+		"authors": [
+			"Consta",
+			"Dead3y3",
+			"Iakovos Iason Tountas",
+			"Lou",
+			"Omnipaedista",
+			"Protnet",
+			"Απεργός"
+		]
+	},
+	"pfunc_desc": "Βελτίωση του αναλυτή με λογικές συναρτήσεις",
+	"pfunc_time_error": "Σφάλμα: Μη έγκυρος χρόνος",
+	"pfunc_time_too_long": "Σφάλμα: πάρα πολλές κλήσεις της #time",
+	"pfunc_time_too_big": "Σφάλμα: το #time υποστηρίζει έτη μέχρι το 9999.",
+	"pfunc_time_too_small": "Σφάλμα: #time υποστηρίζει μόνο έτη από 0.",
+	"pfunc_rel2abs_invalid_depth": "Σφάλμα: Άκυρο βάθος στη διαδρομή: «$1» (έγινε προσπάθεια για πρόσβαση σε έναν κόμβο πάνω από τον ριζικό κόμβο)",
+	"pfunc_expr_stack_exhausted": "Σφάλμα έκφρασης: Η στοίβα εξαντλήθηκε",
+	"pfunc_expr_unexpected_number": "Σφάλμα έκφρασης: Μη αναμενόμενος αριθμός",
+	"pfunc_expr_preg_match_failure": "Σφάλμα έκφρασης: Μη αναμενόμενη αποτυχία preg_match",
+	"pfunc_expr_unrecognised_word": "Σφάλμα έκφρασης: Μη αναγνωρίσιμη λέξη \"$1\"",
+	"pfunc_expr_unexpected_operator": "Σφάλμα έκφρασης: Μη αναμενόμενος τελεστής $1",
+	"pfunc_expr_missing_operand": "Σφάλμα έκφρασης: Λείπει ο τελεστέος για την έκφραση $1",
+	"pfunc_expr_unexpected_closing_bracket": "Σφάλμα έκφρασης: Μη αναμενόμενη αγκύλη κλεισίματος",
+	"pfunc_expr_unrecognised_punctuation": "Σφάλμα έκφρασης: Μη αναγνωρίσμος χαρακτήρας στίξης \"$1\"",
+	"pfunc_expr_unclosed_bracket": "Σφάλμα έκφρασης: Αγκύλη χωρίς κλείσιμο",
+	"pfunc_expr_division_by_zero": "Διαίρεση με το μηδέν",
+	"pfunc_expr_invalid_argument": "Μη έγκυρο όρισμα για $1 : < -1 ή > 1.",
+	"pfunc_expr_invalid_argument_ln": "Μη έγκυρο όρισμα για ln: <= 0.",
+	"pfunc_expr_unknown_error": "Σφάλμα έκφρασης: Άγνωστο σφάλμα ($1)",
+	"pfunc_expr_not_a_number": "Στο $1: το αποτέλεσμα δεν είναι αριθμός",
+	"pfunc_string_too_long": "Σφάλμα: Η συμβολοσειρά υπερβαίνει το όριο {{PLURAL:$1|του 1 χαρακτήρα|των $1 χαρακτήρων}}."
+}

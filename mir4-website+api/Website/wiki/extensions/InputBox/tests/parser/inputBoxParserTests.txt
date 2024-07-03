@@ -1,0 +1,257 @@
+!! Version 2
+# Force the test runner to ensure the extension is loaded
+!! hooks
+inputbox
+!! endhooks
+
+!! test
+InputBox type=search
+!! wikitext
+<inputbox>
+type=search
+</inputbox>
+!! html
+<div class="mw-inputbox-centered" style=""><form name="searchbox" class="searchbox" action="/wiki/Special:Search"><input class="mw-inputbox-input mw-searchInput searchboxInput mw-ui-input mw-ui-input-inline" name="search" placeholder="" size="50" dir="ltr" /><br /><input type="submit" name="go" value="Try exact match" class="mw-ui-button" />&#160;<input type="submit" name="fulltext" value="Search full text" class="mw-ui-button" /></form></div>
+!! end
+
+!! test
+InputBox type=create
+!! wikitext
+<inputbox>
+type=create
+</inputbox>
+!! html
+<div class="mw-inputbox-centered" style=""><form name="createbox" class="createbox" action="/index.php" method="get"><input type="hidden" value="edit" name="action" /><input name="title" class="mw-inputbox-input mw-inputbox-createbox mw-ui-input mw-ui-input-inline" placeholder="" required="" size="50" dir="ltr" /><br /><input type="submit" name="create" value="Create page" class="mw-ui-button mw-ui-progressive" /></form></div>
+!! end
+
+!! test
+InputBox type=create with minor
+!! wikitext
+<inputbox>
+type=create
+minor=1
+</inputbox>
+!! html
+<div class="mw-inputbox-centered" style=""><form name="createbox" class="createbox" action="/index.php" method="get"><input type="hidden" value="edit" name="action" /><input type="hidden" value="1" name="minor" /><input name="title" class="mw-inputbox-input mw-inputbox-createbox mw-ui-input mw-ui-input-inline" placeholder="" required="" size="50" dir="ltr" /><br /><input type="submit" name="create" value="Create page" class="mw-ui-button mw-ui-progressive" /></form></div>
+!! end
+
+!! test
+InputBox type=create with minor=0
+!! wikitext
+<inputbox>
+type=create
+minor=0
+</inputbox>
+!! html
+<div class="mw-inputbox-centered" style=""><form name="createbox" class="createbox" action="/index.php" method="get"><input type="hidden" value="edit" name="action" /><input type="hidden" value="0" name="minor" /><input name="title" class="mw-inputbox-input mw-inputbox-createbox mw-ui-input mw-ui-input-inline" placeholder="" required="" size="50" dir="ltr" /><br /><input type="submit" name="create" value="Create page" class="mw-ui-button mw-ui-progressive" /></form></div>
+!! end
+
+!! test
+InputBox type=create with preloadparams
+!! wikitext
+<inputbox>
+type=create
+preloadparams[]=param1
+preloadparams[]=param2
+</inputbox>
+!! html
+<div class="mw-inputbox-centered" style=""><form name="createbox" class="createbox" action="/index.php" method="get"><input type="hidden" value="edit" name="action" /><input type="hidden" value="param1" name="preloadparams[]" /><input type="hidden" value="param2" name="preloadparams[]" /><input name="title" class="mw-inputbox-input mw-inputbox-createbox mw-ui-input mw-ui-input-inline" placeholder="" required="" size="50" dir="ltr" /><br /><input type="submit" name="create" value="Create page" class="mw-ui-button mw-ui-progressive" /></form></div>
+!! end
+
+!! test
+InputBox type=create with empty preloadparams
+!! wikitext
+<inputbox>
+type=create
+preloadparams[]=
+preloadparams[]=
+</inputbox>
+!! html
+<div class="mw-inputbox-centered" style=""><form name="createbox" class="createbox" action="/index.php" method="get"><input type="hidden" value="edit" name="action" /><input type="hidden" name="preloadparams[]" /><input type="hidden" name="preloadparams[]" /><input name="title" class="mw-inputbox-input mw-inputbox-createbox mw-ui-input mw-ui-input-inline" placeholder="" required="" size="50" dir="ltr" /><br /><input type="submit" name="create" value="Create page" class="mw-ui-button mw-ui-progressive" /></form></div>
+!! end
+
+!! test
+InputBox type=create with editintro
+!! wikitext
+<inputbox>
+type=create
+editintro=MediaWiki:Test
+</inputbox>
+!! html
+<div class="mw-inputbox-centered" style=""><form name="createbox" class="createbox" action="/index.php" method="get"><input type="hidden" value="edit" name="action" /><input type="hidden" value="MediaWiki:Test" name="editintro" /><input name="title" class="mw-inputbox-input mw-inputbox-createbox mw-ui-input mw-ui-input-inline" placeholder="" required="" size="50" dir="ltr" /><br /><input type="submit" name="create" value="Create page" class="mw-ui-button mw-ui-progressive" /></form></div>
+!! end
+
+!! test
+InputBox type=create with empty editintro
+!! wikitext
+<inputbox>
+type=create
+editintro=
+</inputbox>
+!! html
+<div class="mw-inputbox-centered" style=""><form name="createbox" class="createbox" action="/index.php" method="get"><input type="hidden" value="edit" name="action" /><input type="hidden" name="editintro" /><input name="title" class="mw-inputbox-input mw-inputbox-createbox mw-ui-input mw-ui-input-inline" placeholder="" required="" size="50" dir="ltr" /><br /><input type="submit" name="create" value="Create page" class="mw-ui-button mw-ui-progressive" /></form></div>
+!! end
+
+!! test
+InputBox type=create with summary
+!! wikitext
+<inputbox>
+type=create
+summary=Summary test
+</inputbox>
+!! html
+<div class="mw-inputbox-centered" style=""><form name="createbox" class="createbox" action="/index.php" method="get"><input type="hidden" value="edit" name="action" /><input type="hidden" value="Summary test" name="summary" /><input name="title" class="mw-inputbox-input mw-inputbox-createbox mw-ui-input mw-ui-input-inline" placeholder="" required="" size="50" dir="ltr" /><br /><input type="submit" name="create" value="Create page" class="mw-ui-button mw-ui-progressive" /></form></div>
+!! end
+
+!! test
+InputBox type=create with empty summary
+!! wikitext
+<inputbox>
+type=create
+summary=
+</inputbox>
+!! html
+<div class="mw-inputbox-centered" style=""><form name="createbox" class="createbox" action="/index.php" method="get"><input type="hidden" value="edit" name="action" /><input type="hidden" name="summary" /><input name="title" class="mw-inputbox-input mw-inputbox-createbox mw-ui-input mw-ui-input-inline" placeholder="" required="" size="50" dir="ltr" /><br /><input type="submit" name="create" value="Create page" class="mw-ui-button mw-ui-progressive" /></form></div>
+!! end
+
+!! test
+InputBox type=create with nosummary
+!! wikitext
+<inputbox>
+type=create
+nosummary=true
+</inputbox>
+!! html
+<div class="mw-inputbox-centered" style=""><form name="createbox" class="createbox" action="/index.php" method="get"><input type="hidden" value="edit" name="action" /><input type="hidden" value="true" name="nosummary" /><input name="title" class="mw-inputbox-input mw-inputbox-createbox mw-ui-input mw-ui-input-inline" placeholder="" required="" size="50" dir="ltr" /><br /><input type="submit" name="create" value="Create page" class="mw-ui-button mw-ui-progressive" /></form></div>
+!! end
+
+!! test
+InputBox type=create with empty nosummary
+!! wikitext
+<inputbox>
+type=create
+nosummary=
+</inputbox>
+!! html
+<div class="mw-inputbox-centered" style=""><form name="createbox" class="createbox" action="/index.php" method="get"><input type="hidden" value="edit" name="action" /><input type="hidden" name="nosummary" /><input name="title" class="mw-inputbox-input mw-inputbox-createbox mw-ui-input mw-ui-input-inline" placeholder="" required="" size="50" dir="ltr" /><br /><input type="submit" name="create" value="Create page" class="mw-ui-button mw-ui-progressive" /></form></div>
+!! end
+
+!! test
+InputBox type=create with prefix
+!! wikitext
+<inputbox>
+type=create
+prefix=Test/
+</inputbox>
+!! html
+<div class="mw-inputbox-centered" style=""><form name="createbox" class="createbox" action="/index.php" method="get"><input type="hidden" value="edit" name="action" /><input type="hidden" value="Test/" name="prefix" /><input name="title" class="mw-inputbox-input mw-inputbox-createbox mw-ui-input mw-ui-input-inline" placeholder="" required="" size="50" dir="ltr" /><br /><input type="submit" name="create" value="Create page" class="mw-ui-button mw-ui-progressive" /></form></div>
+!! end
+
+!! test
+InputBox type=create with empty prefix
+!! wikitext
+<inputbox>
+type=create
+prefix=
+</inputbox>
+!! html
+<div class="mw-inputbox-centered" style=""><form name="createbox" class="createbox" action="/index.php" method="get"><input type="hidden" value="edit" name="action" /><input name="title" class="mw-inputbox-input mw-inputbox-createbox mw-ui-input mw-ui-input-inline" placeholder="" required="" size="50" dir="ltr" /><br /><input type="submit" name="create" value="Create page" class="mw-ui-button mw-ui-progressive" /></form></div>
+!! end
+
+!! test
+InputBox type=create with preload
+!! wikitext
+<inputbox>
+type=create
+preload=test
+</inputbox>
+!! html
+<div class="mw-inputbox-centered" style=""><form name="createbox" class="createbox" action="/index.php" method="get"><input type="hidden" value="edit" name="action" /><input type="hidden" value="test" name="preload" /><input name="title" class="mw-inputbox-input mw-inputbox-createbox mw-ui-input mw-ui-input-inline" placeholder="" required="" size="50" dir="ltr" /><br /><input type="submit" name="create" value="Create page" class="mw-ui-button mw-ui-progressive" /></form></div>
+!! end
+
+!! test
+InputBox type=create with empty preload
+!! wikitext
+<inputbox>
+type=create
+preload=
+</inputbox>
+!! html
+<div class="mw-inputbox-centered" style=""><form name="createbox" class="createbox" action="/index.php" method="get"><input type="hidden" value="edit" name="action" /><input type="hidden" name="preload" /><input name="title" class="mw-inputbox-input mw-inputbox-createbox mw-ui-input mw-ui-input-inline" placeholder="" required="" size="50" dir="ltr" /><br /><input type="submit" name="create" value="Create page" class="mw-ui-button mw-ui-progressive" /></form></div>
+!! end
+
+!! test
+InputBox type=comment
+!! wikitext
+<inputbox>
+type=comment
+</inputbox>
+!! html
+<div class="mw-inputbox-centered" style=""><form name="createbox" class="createbox" action="/index.php" method="get"><input type="hidden" value="edit" name="action" /><input type="hidden" value="new" name="section" /><input name="title" class="mw-inputbox-input mw-inputbox-createbox mw-ui-input mw-ui-input-inline" placeholder="" required="" size="50" dir="ltr" /><br /><input type="submit" name="create" value="New section" class="mw-ui-button mw-ui-progressive" /></form></div>
+!! end
+
+!! test
+InputBox type=commenttitle
+!! wikitext
+<inputbox>
+type=commenttitle
+</inputbox>
+!! html
+<div class="mw-inputbox-centered" style=""><form name="commentbox" class="commentbox" action="/index.php" method="get"><input type="hidden" value="edit" name="action" /><input name="preloadtitle" class="mw-inputbox-input commentboxInput mw-ui-input mw-ui-input-inline" placeholder="" size="50" dir="ltr" /><input type="hidden" value="new" name="section" /><input type="hidden" name="title" /><br /><input type="submit" name="create" value="New section" class="mw-ui-button mw-ui-progressive" /></form></div>
+!! end
+
+!! test
+InputBox type=fulltext
+!! wikitext
+<inputbox>
+type=fulltext
+</inputbox>
+!! html
+<div class="mw-inputbox-centered" style=""><form name="searchbox" class="searchbox" action="/wiki/Special:Search"><input class="mw-inputbox-input mw-searchInput searchboxInput mw-ui-input mw-ui-input-inline" name="search" placeholder="" size="50" dir="ltr" /><br /><input type="submit" name="fulltext" value="Search full text" class="mw-ui-button" /><input type="hidden" value="Search" name="fulltext" /></form></div>
+!! end
+
+!! test
+InputBox type=move
+!! wikitext
+<inputbox>
+type=move
+</inputbox>
+!! html
+<div class="mw-inputbox-centered" style=""><form name="movebox" class="mw-movebox" action="/index.php" method="get"><input type="hidden" value="Special:MovePage/" name="title" /><input type="hidden" name="wpReason" /><input type="hidden" name="prefix" /><input name="wpNewTitle" class="mw-inputbox-input mw-moveboxInput mw-ui-input mw-ui-input-inline" placeholder="" size="50" dir="ltr" /><br /><input type="submit" value="Move page" class="mw-ui-button mw-ui-progressive" /></form></div>
+!! end
+
+!! test
+InputBox type=search with tour
+!! wikitext
+<inputbox>
+type=search
+tour=test
+</inputbox>
+!! html
+<div class="mw-inputbox-centered" style=""><form name="searchbox" class="searchbox" action="/wiki/Special:Search"><input class="mw-inputbox-input mw-searchInput searchboxInput mw-ui-input mw-ui-input-inline" name="search" placeholder="" size="50" dir="ltr" /><input type="hidden" value="test" name="tour" /><br /><input type="submit" name="go" value="Try exact match" class="mw-ui-button" />&#160;<input type="submit" name="fulltext" value="Search full text" class="mw-ui-button" /></form></div>
+!! end
+
+!! test
+InputBox langconvert
+!! options
+language=sr variant=sr-Latn
+!! wikitext
+<inputbox>
+type=create
+default=-{sr-Latn: Some latin; sr-Cyrl: Not latin }-
+placeholder=-{sr-Latn: Latn; sr-Cyrl: Cyrl}-
+</inputbox>
+!! html
+<div class="mw-inputbox-centered" style=""><form name="createbox" class="createbox" action="/index.php" method="get"><input type="hidden" value="edit" name="action" /><input name="title" class="mw-inputbox-input mw-inputbox-createbox mw-ui-input mw-ui-input-inline" value="Some latin" placeholder="Latn" required="" size="50" dir="ltr" /><br /><input type="submit" name="create" value="Napravi stranicu" class="mw-ui-button mw-ui-progressive" /></form></div>
+!! end
+
+!! test
+InputBox type=search with aria label
+!! wikitext
+<inputbox>
+type=search
+arialabel=Search this wiki
+</inputbox>
+!! html
+<div class="mw-inputbox-centered" style=""><form name="searchbox" class="searchbox" action="/wiki/Special:Search"><input class="mw-inputbox-input mw-searchInput searchboxInput mw-ui-input mw-ui-input-inline" name="search" placeholder="" size="50" dir="ltr" aria-label="Search this wiki" /><br /><input type="submit" name="go" value="Try exact match" class="mw-ui-button" />&#160;<input type="submit" name="fulltext" value="Search full text" class="mw-ui-button" /></form></div>
+!! end

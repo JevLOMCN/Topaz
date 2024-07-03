@@ -1,0 +1,29 @@
+{
+	"@metadata": {
+		"authors": [
+			"Bas dehaan",
+			"Daniuu",
+			"Mainframe98",
+			"McDutchie",
+			"SPQRobin",
+			"Siebrand",
+			"Krinkle"
+		]
+	},
+	"spam-blacklist": " # Externe URL's die voldoen aan deze lijst worden geweigerd bij het\n # toevoegen aan een pagina. Deze lijst heeft alleen invloed op deze wiki.\n # Er bestaat ook een globale blokkeerlijst.\n # Documentatie: https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:SpamBlacklist\n #<!-- laat deze regel zoals hij is --> <pre>\n#\n# De syntaxis is als volgt:\n#   * Alles vanaf het teken \"#\" tot het einde van de regel is opmerking\n#   * Iedere niet-lege regel is een fragment van een reguliere uitdrukking die\n#     alleen van toepassing is op hosts binnen URL's.\n\n #</pre> <!-- laat deze regel zoals hij is -->",
+	"spam-whitelist": " #<!-- laat deze regel zoals hij is --> <pre>\n# Externe URL's die voldoen aan deze lijst, worden *nooit* geweigerd, al\n# zouden ze geblokkeerd moeten worden door regels uit de blokkeerlijst.\n#\n# De syntaxis is als volgt:\n#   * Alles vanaf het teken \"#\" tot het einde van de regel is opmerking\n#   * Iedere niet-lege regel is een fragment van een reguliere uitdrukking die\n#     alleen van toepassing is op hosts binnen URL's.\n\n #</pre> <!-- laat deze regel zoals hij is -->",
+	"email-blacklist": " # E-mailadressen die voldoen aan deze lijst worden geblokkeerd bij het registreren of het verzenden van e-mails.\n # Deze lijst heeft alleen invloed op deze wiki. Er bestaat ook een globale blokkeerlijst.\n # Documentatie: https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:SpamBlacklist\n #<!-- laat deze regel zoals hij is --> <pre>\n#\n# De syntaxis is als volgt:\n#   * Alles vanaf het teken \"#\" tot het einde van de regel is een opmerking\n#   * Iedere niet-lege regel is een fragment van een reguliere uitdrukking die\n#     alleen van toepassing is op hosts binnen e-mailadressen.\n\n #</pre> <!-- laat deze regel zoals hij is -->",
+	"email-whitelist": " #<!-- laat deze regel zoals hij is --> <pre>\n# E-mailadressen die voldoen aan deze lijst, worden *nooit* geweigerd, al\n# zouden ze geblokkeerd moeten worden door regels uit de blokkeerlijst.\n#\n# De syntaxis is als volgt:\n#   * Alles vanaf het teken \"#\" tot het einde van de regel is opmerking\n#   * Iedere niet-lege regel is een fragment van een reguliere uitdrukking die\n#     alleen van toepassing is op hosts binnen e-mailadressen.\n\n #</pre> <!-- laat deze regel zoals hij is -->",
+	"spam-blacklisted-email": "Verboden e-mailadres",
+	"spam-blacklisted-email-text": "Uw e-mailadres is momenteel geblokkeerd voor het sturen van e-mails naar andere gebruikers.",
+	"spam-blacklisted-email-signup": "Het opgegeven e-mailadres mag momenteel niet worden gebruikt.",
+	"spam-invalid-lines": "De volgende {{PLURAL:$1|regel|regels}} van de blokkeerlijst {{PLURAL:$1|is een|zijn}} onjuiste reguliere {{PLURAL:$1|expressie|expressies}}  en {{PLURAL:$1|moet|moeten}} verbeterd worden alvorens de pagina kan worden opgeslagen:",
+	"spam-blacklist-desc": "Op reguliere expressies gebaseerd antispam-hulpprogramma dat het mogelijk maakt URL's op pagina's en e-mailadressen voor geregistreerde gebruikers te blokkeren",
+	"log-name-spamblacklist": "Logboek spamblokkeerlijst",
+	"log-description-spamblacklist": "Deze lijst bevat gebeurtenissen met betrekking tot de spamblokkeerlijst.",
+	"logentry-spamblacklist-hit": "{{GENDER:$2|$1}} veroorzaakte een treffer op de spamblokkeerlijst bij een poging $4 toe te voegen aan $3.",
+	"right-spamblacklistlog": "Logboek spamblokkeerlijst bekijken",
+	"action-spamblacklistlog": "het logboek van de spamblokkeerlijst te bekijken",
+	"right-sboverride": "De lijst met spamblokkeringen mogen omzeilen",
+	"action-sboverride": "de lijst met spamblokkeringen te omzeilen"
+}

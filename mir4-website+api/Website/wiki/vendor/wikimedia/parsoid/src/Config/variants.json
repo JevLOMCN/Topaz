@@ -1,0 +1,224 @@
+{
+	"gan": {
+		"gan": {
+			"fallbacks": [
+				"gan-hans",
+				"gan-hant"
+			]
+		},
+		"gan-hans": {
+			"fallbacks": [
+				"gan"
+			]
+		},
+		"gan-hant": {
+			"fallbacks": [
+				"gan"
+			]
+		}
+	},
+	"iu": {
+		"ike-cans": {
+			"fallbacks": [
+				"iu"
+			]
+		},
+		"ike-latn": {
+			"fallbacks": [
+				"iu"
+			]
+		},
+		"iu": {
+			"fallbacks": [
+				"ike-cans"
+			]
+		}
+	},
+	"kk": {
+		"kk": {
+			"fallbacks": [
+				"kk-cyrl"
+			]
+		},
+		"kk-arab": {
+			"fallbacks": [
+				"kk"
+			]
+		},
+		"kk-cn": {
+			"fallbacks": [
+				"kk-arab"
+			]
+		},
+		"kk-cyrl": {
+			"fallbacks": [
+				"kk"
+			]
+		},
+		"kk-kz": {
+			"fallbacks": [
+				"kk-cyrl"
+			]
+		},
+		"kk-latn": {
+			"fallbacks": [
+				"kk"
+			]
+		},
+		"kk-tr": {
+			"fallbacks": [
+				"kk-latn"
+			]
+		}
+	},
+	"ku": {
+		"ku": {
+			"fallbacks": [
+				"ku-latn"
+			]
+		},
+		"ku-arab": {
+			"fallbacks": [
+				"ku-latn"
+			]
+		},
+		"ku-latn": {
+			"fallbacks": [
+				"ku-arab"
+			]
+		}
+	},
+	"shi": {
+		"shi": {
+			"fallbacks": [
+				"shi-tfng"
+			]
+		},
+		"shi-latn": {
+			"fallbacks": [
+				"shi"
+			]
+		},
+		"shi-tfng": {
+			"fallbacks": [
+				"shi"
+			]
+		}
+	},
+	"sr": {
+		"sr": {
+			"fallbacks": [
+				"sr-ec"
+			]
+		},
+		"sr-ec": {
+			"fallbacks": [
+				"sr"
+			]
+		},
+		"sr-el": {
+			"fallbacks": [
+				"sr"
+			]
+		}
+	},
+	"tg": {
+		"tg": {
+			"fallbacks": [
+				"tg"
+			]
+		},
+		"tg-latn": {
+			"fallbacks": [
+				"tg"
+			]
+		}
+	},
+	"uz": {
+		"uz": {
+			"fallbacks": [
+				"uz-latn"
+			]
+		},
+		"uz-cyrl": {
+			"fallbacks": [
+				"uz"
+			]
+		},
+		"uz-latn": {
+			"fallbacks": [
+				"uz"
+			]
+		}
+	},
+	"zh": {
+		"zh": {
+			"fallbacks": [
+				"zh-hans",
+				"zh-hant",
+				"zh-cn",
+				"zh-tw",
+				"zh-hk",
+				"zh-sg",
+				"zh-mo",
+				"zh-my"
+			]
+		},
+		"zh-cn": {
+			"fallbacks": [
+				"zh-hans",
+				"zh-sg",
+				"zh-my"
+			]
+		},
+		"zh-hans": {
+			"fallbacks": [
+				"zh-cn",
+				"zh-sg",
+				"zh-my"
+			]
+		},
+		"zh-hant": {
+			"fallbacks": [
+				"zh-tw",
+				"zh-hk",
+				"zh-mo"
+			]
+		},
+		"zh-hk": {
+			"fallbacks": [
+				"zh-hant",
+				"zh-mo",
+				"zh-tw"
+			]
+		},
+		"zh-mo": {
+			"fallbacks": [
+				"zh-hant",
+				"zh-hk",
+				"zh-tw"
+			]
+		},
+		"zh-my": {
+			"fallbacks": [
+				"zh-hans",
+				"zh-sg",
+				"zh-cn"
+			]
+		},
+		"zh-sg": {
+			"fallbacks": [
+				"zh-hans",
+				"zh-cn",
+				"zh-my"
+			]
+		},
+		"zh-tw": {
+			"fallbacks": [
+				"zh-hant",
+				"zh-hk",
+				"zh-mo"
+			]
+		}
+	}
+}

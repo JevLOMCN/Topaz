@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"Daud I.F. Argana",
+			"Rachmat04",
+			"Rizkiahmadz",
+			"William Surya Permana"
+		]
+	},
+	"apihelp-templatedata-summary": "Mengambil data yang disimpan oleh ekstensi DataTemplat.",
+	"apihelp-templatedata-example-1": "Kembalikan TemplateData untuk [[Templat:Foobar]], dengan hasil jika templat tidak ada atau ada, tetapi tidak memiliki TemplateData",
+	"apihelp-templatedata-param-lang": "Kembalikan nilai yang telah dilokalisasi dalam bahasa ini. Secara baku seluruh terjemahan yang tersedia akan dikembalikan.",
+	"apierror-templatedata-corrupt": "Halaman datatemplat #$1 mengandung data yang tidak sah: $2",
+	"apiwarn-templatedata-deprecation-format": "Format keluaran standar akan berubah menjadi <kbd>jsonfm</kbd> pada masa mendatang. Tolong tetapkan <kbd>format=json</kbd> secara eksplisit."
+}

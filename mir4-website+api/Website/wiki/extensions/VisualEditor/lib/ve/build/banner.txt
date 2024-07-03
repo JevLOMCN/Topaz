@@ -1,0 +1,10 @@
+/*!
+ * VisualEditor v<%= pkg.version %>
+ * https://www.mediawiki.org/wiki/VisualEditor
+ *
+ * Copyright 2011–<%= grunt.template.today("yyyy") %> VisualEditor Team and others.
+ * Released under the MIT license
+ * http://ve.mit-license.org
+ *
+ * Date: <%= grunt.template.today("isoUtcDateTime") %>
+ */

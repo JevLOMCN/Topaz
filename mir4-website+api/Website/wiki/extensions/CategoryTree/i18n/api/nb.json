@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"Jon Harald Søby",
+			"Kingu"
+		]
+	},
+	"apihelp-categorytree-summary": "Intern modul for CategoryTree-utvidelsen.",
+	"apihelp-categorytree-param-category": "Tittel i kategorinavnerommet, prefiks vil ignoreres om det oppgis.",
+	"apihelp-categorytree-param-options": "Valg for CategoryTree-konstruktøren som et JSON-objekt. Valget <var>depth</var> sin standardverdi er <kbd>1</kbd>.",
+	"apierror-categorytree-invalidjson": "Valg må være et gyldig JSON-objekt.",
+	"apierror-categorytree-invalidjson-option": "Alternativet «$1» inneholder en ugyldig verdi."
+}

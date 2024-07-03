@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Toliño"
+		]
+	},
+	"apihelp-query+mathwbextracts-example-1": "Solicita un resumo dos elementos matemáticos de Wikibase.",
+	"apihelp-query+mathwbextracts-summary": "Devolve un resumo dun elemento matemático de Wikibase en HTML.",
+	"apihelp-query+mathwbextracts-param-qid": "O QID do elemento de Wikibase que se solicitará.",
+	"apihelp-query+mathwbextracts-param-uselang": "A lingua que se debe solicitar para o elemento de Wikibase. O inglés é o valor predeterminado."
+}

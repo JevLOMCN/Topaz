@@ -1,0 +1,35 @@
+{
+	"@metadata": {
+		"authors": [
+			"KuboF",
+			"Robin van der Vliet"
+		]
+	},
+	"linterrors": "Lint-eraroj",
+	"linter-category-deletable-table-tag": "Table-etikedo devus esti forigita",
+	"linter-form-namespace": "Nomspaco:",
+	"linter-heading-high-priority": "Alta prioritato",
+	"linter-heading-low-priority": "Malalta prioritato",
+	"linter-heading-medium-priority": "Meza prioritato",
+	"linter-numerrors": "($1 {{PLURAL:$1|eraro|eraroj}})",
+	"linter-pager-bogus-image-options-details": "Malvalida dosiera opcio",
+	"linter-pager-category-header": "Kategorio",
+	"linter-pager-deletable-table-tag-details": "Table-etikedo devus esti forigita",
+	"linter-pager-html5-misnesting-details": "Misingado (nun rompita)",
+	"linter-pager-misc-tidy-replacement-issues-details": "Diversaj markadaj eraroj",
+	"linter-pager-misnested-tag-details": "Misingita etikedo kiu devus esti ĝuste ingita",
+	"linter-pager-missing-end-tag-details": "Mankanta fina etikedo",
+	"linter-pager-multi-colon-escape-details": "Plurdupunkta deŝovo",
+	"linter-pager-multiline-html-table-in-list-details": "Plurlinia HTML5-tabelo en listo",
+	"linter-pager-multiple-unclosed-formatting-tags-details": "Multoblaj nefermitaj tekstaranĝaj etikedoj en la paĝo",
+	"linter-pager-obsolete-tag-details": "Malaktuala HTML-etikedo",
+	"linter-pager-pwrap-bug-workaround-details": "Provizora solvo por cimo pri alinea faldo",
+	"linter-pager-self-closed-tag-details": "Memfermita etikedo",
+	"linter-pager-stripped-tag-details": "Mankanta parto de para etikedo",
+	"linter-pager-tidy-font-bug-details": "Fonta etikedo provas ŝanĝi koloron de ligilo",
+	"linter-pager-tidy-whitespace-bug-details": "Cimo pri sintaksa analizo de blankspacoj",
+	"linter-pager-title-header": "Titolo de paĝo",
+	"linter-pager-unclosed-quotes-in-heading-details": "Nefermita citaĵo kiu likas for de la tabelo de enhavo",
+	"linterrors-subpage": "Lint-eraroj: $1",
+	"pageinfo-linter": "Lint-eraroj"
+}

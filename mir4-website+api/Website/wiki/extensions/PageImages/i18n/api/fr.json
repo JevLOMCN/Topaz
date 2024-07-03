@@ -1,0 +1,24 @@
+{
+	"@metadata": {
+		"authors": [
+			"Derugon",
+			"Gomoko",
+			"Thibaut120094",
+			"Urhixidur",
+			"Verdy p",
+			"Wladek92"
+		]
+	},
+	"apihelp-query+pageimages-summary": "Renvoie des informations concernant les images sur la page, comme les vignettes et la présence de photos.",
+	"apihelp-query+pageimages-example-1": "Obtenir le nom et la vignette de <kbd>100</kbd> pixels d’une image sur la page <kbd>Albert Einstein</kbd>.",
+	"apihelp-query+pageimages-param-prop": "Quelles informations renvoyer :",
+	"apihelp-query+pageimages-paramvalue-prop-thumbnail": "URL et dimensions de la vignette d’image associée avec la page, s’il y en a une.",
+	"apihelp-query+pageimages-paramvalue-prop-original": "URL et dimensions de l’image associée avec la page, s’il y en a une.",
+	"apihelp-query+pageimages-paramvalue-prop-name": "Titre de l’image.",
+	"apihelp-query+pageimages-param-thumbsize": "Largeur maximale en pixels des images des vignettes.",
+	"apihelp-query+pageimages-param-langcode": "Code pour la langue dans laquelle l’image va être affichée, si plusieurs langues sont prises en charge",
+	"apihelp-query+pageimages-param-limit": "Propriétés concernant le nombre de pages à renvoyer.",
+	"apihelp-query+pageimages-param-license": "Limiter les images de page à un certain type de licence :",
+	"apihelp-query+pageimages-paramvalue-license-free": "Uniquement les images libres.",
+	"apihelp-query+pageimages-paramvalue-license-any": "Meilleure image, qu’elle soit libre ou pas."
+}

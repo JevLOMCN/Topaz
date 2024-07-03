@@ -1,0 +1,39 @@
+{
+	"@metadata": {
+		"authors": [
+			"Winston Sung"
+		]
+	},
+	"visualeditor-cite-tool-name-book": "書",
+	"visualeditor-cite-tool-name-journal": "期刊",
+	"visualeditor-cite-tool-name-news": "新聞",
+	"visualeditor-cite-tool-name-web": "網站",
+	"cite-ve-citationneeded-button": "加引用",
+	"cite-ve-citationneeded-description": "有編輯者指出呢個講法要引用可靠來源。",
+	"cite-ve-citationneeded-reason": "原因：",
+	"cite-ve-citationneeded-title": "要引用",
+	"cite-ve-dialog-reference-editing-reused": "喺呢版入面，呢個參考用過{{PLURAL:$1|$1次}}。",
+	"cite-ve-dialog-reference-editing-reused-long": "喺呢版入面，呢個參考用過{{PLURAL:$1|$1次}}。喺度做嘅改動會套用到其他用到呢個參考嘅地方。",
+	"cite-ve-dialog-reference-options-group-label": "用呢組",
+	"cite-ve-dialog-reference-options-group-placeholder": "一般參考",
+	"cite-ve-dialog-reference-options-name-label": "跟呢個名翻用",
+	"cite-ve-dialog-reference-options-section": "選項",
+	"cite-ve-dialog-reference-title": "參考",
+	"cite-ve-dialog-reference-useexisting-tool": "翻用",
+	"cite-ve-dialog-referenceslist-contextitem-description-general": "一般參考一覽",
+	"cite-ve-dialog-referenceslist-contextitem-description-named": "組「$1」嘅參考一覽",
+	"cite-ve-dialog-referenceslist-title": "參考一覽",
+	"cite-ve-dialogbutton-citation-educationpopup-title": "引用",
+	"cite-ve-dialogbutton-reference-full-label": "基本表格",
+	"cite-ve-dialogbutton-reference-title": "參考",
+	"cite-ve-dialogbutton-reference-tooltip": "基本",
+	"cite-ve-dialogbutton-referenceslist-tooltip": "參考一覽",
+	"cite-ve-reference-input-placeholder": "你想引用啲乜？",
+	"cite-ve-referenceslist-isempty": "呢版冇「$1」組嘅參考資料畀你加落呢張表道。",
+	"cite-ve-referenceslist-isempty-default": "呢版冇參考資料畀你加落呢張表道。",
+	"cite-ve-referenceslist-missingref": "呢個註腳係用模或者其他組件砌成嘅，現時淨係可以喺源碼模式修改。",
+	"cite-ve-referenceslist-missingref-in-list": "呢個註腳係用模或者其他組件砌成嘅，現時淨係可以喺源碼模式預覽。",
+	"cite-ve-referenceslist-missingreflist": "呢個註腳係用模或者其他組件砌成嘅，現時淨係可以喺源碼模式修改。",
+	"cite-ve-toolbar-group-label": "引用",
+	"cite-ve-othergroup-item": "$1參考資料"
+}

@@ -1,0 +1,254 @@
+{
+    "1. Template-generated table cell attributes and cell content": {
+        "html2wt": "{|\n| style=\"color:red;\" |Foo\n| style=\"color:red;\" |Foo\n|style=\"color:red;\"\n|Bar\n| style=\"color:red;\" |Foo\n| align=\"center\" style=\"color:red;\" |Foo\n| align=\"center\" style=\"color:red;\" |Foo\n|}"
+    },
+    "A table with caption with default-spaced attributes and a table row": {
+        "html2wt": "{|\n|+ style=\"color: red;\" |caption1\n|foo\n|}"
+    },
+    "A table with captions with non-default spaced attributes and a table row": {
+        "wt2wt": "{|\n|+ style=\"color: red;\" |caption2\n|+ style=\"color: red;\" |caption3\n|-\n|foo\n|}",
+        "html2wt": "{|\n|+ style=\"color: red;\" |caption2\n|+ style=\"color: red;\" |caption3\n|foo\n|}",
+        "selser [[3,2,3,[4],4,[2,4]]]": "{|<!--1x68bn1-->\n|+style=\"color: red;\"|caption2\n|+ style=\"color: red;\"|10v6cxo<!--z34d72--><!--46xa89-->\n|-\n|foo<!--u8g06g-->\n|}",
+        "selser [[0,2,4,0,3,[4,0]]]": "{|\n<!--1ji8i64-->|+style=\"color: red;\"|caption2<!--zbhb9h-->\n|+ style=\"color: red;\"|caption3<!--1e0zxjv-->\n|}",
+        "selser [[2,0,2,3,3,3]]": "{|<!--lnjajl-->\n|+style=\"color: red;\"|caption2<!--1feonq-->\n|}",
+        "selser [2]": "t2kzg\n{|\n|+style=\"color: red;\"|caption2\n|+ style=\"color: red;\"|caption3\n|-\n|foo\n|}",
+        "selser [[4,[3],2,0,3,[[3,4],4]]]": "{|<!--191eqmq-->\n|+style=\"color: red;\"|<!--e299hf-->\n|+ style=\"color: red;\"|caption3\n|-\n|1ovfrsc<!--1gpfel1-->\n|}",
+        "selser [[2,2,0,4,2,[0,4]]]": "{|<!--1ovyqk-->\n<!--1ymk97l-->|+style=\"color: red;\"|caption2\n<!--159qyak--><!--uk2a1n-->\n|-\n|foo<!--14o76ub-->\n|}",
+        "selser [[0,[2],0,0,0,[[0,2],0]]]": "{|\n|+style=\"color: red;\"|13jv767caption2\n|+ style=\"color: red;\"|caption3\n|-\n|x7h0yn\n|foo\n|}",
+        "selser [[2,0,3,[2],0,[2,0]]]": "{|<!--1jr3abl-->\n|+style=\"color: red;\"|caption2\n|+ style=\"color: red;\"|601ygwcaption3\n<!--13yiy5c-->|-\n|foo\n|}",
+        "selser [1]": "{| data-foobar=\"uh4slx\"\n|+style=\"color: red;\"|caption2\n|+ style=\"color: red;\"|caption3\n|-\n|foo\n|}",
+        "selser [[0,[2],0,2,3,[[2,0],0]]]": "{|\n|+style=\"color: red;\"|1teo5w2caption2\n<!--19lcfg1-->|+ style=\"color: red;\"|caption3\n|-\n|jjnctg\n|foo\n|}",
+        "selser [[3,4,3,0,0,1]]": "{|<!--1cxeub5-->\n|+ style=\"color: red;\"|caption3\n|-\n|foo\n|}",
+        "selser [[2,3,0,[3],2,[[2,[3]],2]]]": "{|<!--1bxt40z-->\n\n|+ style=\"color: red;\"|<!--uxyzqk-->\n|-\n|mixbq\n|<!--5hoja8-->\n|}",
+        "selser [[0,0,0,1,4,3]]": "{|\n|+style=\"color: red;\"|caption2\n|+ style=\"color: red;\" data-foobar=\"r9yqgh\" |caption3<!--1rbumig-->\n|}",
+        "selser [[0,0,2,[3],3,[[0,4],0]]]": "{|\n|+style=\"color: red;\"|caption2<!--1pldekw-->\n|+ style=\"color: red;\" |\n|-\n|1j65dem\n|}"
+    },
+    "Accept \"!!\" in table data": {
+        "html2wt": "{|\n| Foo!! ||\n|}"
+    },
+    "Accept \"| !\" at start of line in tables (ignore !-attribute)": {
+        "wt2wt": "{|\n|-\n| !style=\"color:red\" |bar\n|}",
+        "html2wt": "{|\n|bar\n|}",
+        "selser [[4,1]]": "{|<!--ka11ac-->\n|-\n|!style=\"color:red\"|bar\n|}",
+        "selser [2]": "9a3f8g\n{|\n|-\n|!style=\"color:red\"|bar\n|}",
+        "selser [[0,[1,4]]]": "{|\n|- data-foobar=\"m4co93\"\n|!style=\"color:red\"|bar<!--6gcza0-->\n|}",
+        "selser [1]": "{| data-foobar=\"2h3s4j\"\n|-\n|!style=\"color:red\"|bar\n|}",
+        "selser [[0,[1,0]]]": "{|\n|- data-foobar=\"mk5ijc\"\n|!style=\"color:red\"|bar\n|}",
+        "selser [[0,1]]": "{|\n|-\n|!style=\"color:red\"|bar\n|}",
+        "selser [[0,[2,0]]]": "{|\n<!--gbkl25-->|-\n|!style=\"color:red\"|bar\n|}",
+        "selser [[2,2]]": "{|<!--cvby64-->\n<!--uxxk5k-->|-\n|!style=\"color:red\"|bar\n|}",
+        "selser [[4,[2,4]]]": "{|<!--13fjat8--><!--gyb481-->\n|-\n|!style=\"color:red\"|bar<!--139hhgq-->\n|}",
+        "selser [[3,1]]": "{|\n|-\n|!style=\"color:red\"|bar\n|}",
+        "selser [[0,2]]": "{|\n<!--1rwut2u-->|-\n|!style=\"color:red\"|bar\n|}"
+    },
+    "Accept \"||\" in indented table headings": {
+        "html2wt": ": {|\n!h1\n!h2\n|}\n"
+    },
+    "Accept \"||\" in table headings": {
+        "html2wt": "{|\n!h1\n!h2\n|}"
+    },
+    "Accept empty attributes in td/th cells (td/th cells starting with leading ||)": {
+        "html2wt": "{|\n!h1\n|a\n|}"
+    },
+    "Allow +/- in 2nd and later cells in a row, in 1st cell when td-attrs are present, or in 1st cell when there is a space between \"|\" and +/- ": {
+        "wt2wt": "{|\n|-\n| style=\"color:red;\" | +1\n| style=\"color:blue;\" | -1\n|-\n|1||2||3\n|1||+2||-3\n|-\n| +1\n| -1\n|}",
+        "html2wt": "{|\n| style=\"color:red;\" | +1\n| style=\"color:blue;\" | -1\n|-\n|1\n|2\n|3\n|1\n| +2\n| -3\n|-\n| +1\n| -1\n|}",
+        "selser [[4,[[0,0,4,3],4,[2,4,[2],[3],2,[3],[2],1],3,4,0]]]": "{|<!--1l9wtdl-->\n|-\n|style='color:red;'|+1\n|3i9zz8<!--2cmstr-->\n|-\n|1nv4ick\n|ldrc1b||wyy68k2||\n|1j1izc7\n| ||jkar1e+2|| data-foobar=\"1hz5peb\" |-3<!--1xrnazs-->\n|}",
+        "selser [1]": "{| data-foobar=\"1ow81ll\"\n|-\n|style='color:red;'|+1\n|style='color:blue;'|-1\n|-\n|1||2||3\n|1||+2||-3\n|-\n| +1\n| -1\n|}",
+        "selser [2]": "tiqh6k\n{|\n|-\n|style='color:red;'|+1\n|style='color:blue;'|-1\n|-\n|1||2||3\n|1||+2||-3\n|-\n| +1\n| -1\n|}",
+        "selser [[0,1]]": "{|\n|-\n|style='color:red;'|+1\n|style='color:blue;'|-1\n|-\n|1||2||3\n|1||+2||-3\n|-\n| +1\n| -1\n|}",
+        "selser [[2,[[0,4,0,[4]],0,1,2,[0,2,4,[2]],0]]]": "{|<!--1lja5uq-->\n|-\n|ec6y93\n| style=\"color:blue;\" |9hainn\n|- data-foobar=\"1lzq62c\"\n|1||2||3\n|1||+2||-3<!--1xh3c79-->\n|-\n|uyg1u2\n| +1\n|1yrrlwq\n| x4a8hu-1\n|}",
+        "selser [[0,2]]": "{|\n<!--vxd1a4-->|-\n|style='color:red;'|+1\n|style='color:blue;'|-1\n|-\n|1||2||3\n|1||+2||-3\n|-\n| +1\n| -1\n|}",
+        "selser [[3,[[3,1,0,[4]],3,4,2,[0,4,0,0],4]]]": "{|\n|-\n| style=\"color:red;\" data-foobar=\"1ursn9e\" | +1\n|style='color:blue;'|1tgbq69<!--mjcp0y--><!--10gnjb4-->\n|-\n|12kuf2l\n| -1<!--p4ts4n-->\n|}",
+        "selser [[0,[[3,2,0,0],0,[2,0,1,[2],0,0,0,2],0,[0,[4],0,0],0]]]": "{|\n|-\n|1dbxbmw\n| style=\"color:red;\" | +1\n|style='color:blue;'|-1\n|-\n|1ialk7b\n|1|| data-foobar=\"18yr9kc\" |2||fgg5mn3\n|1||+2\n|uh4o4t||-3\n|-\n| vcgszp\n| -1\n|}"
+    },
+    "Build table with pipe as data": {
+        "wt2wt": "{| class=\"wikitable\"\n!header\n!second header\n|- style=\"color:red;\"\n|data|| style=\"color:red;\" |second data\n|-\n| style=\"color:red;\" |<nowiki>data with |</nowiki>|| style=\"color:red;\" |second data with |\n|-\n||<nowiki>data with |</nowiki>|||second data with |\n|}",
+        "html2wt": "{| class=\"wikitable\"\n!header\n!second header\n|- style=\"color:red;\"\n|data\n| style=\"color:red;\" |second data\n|-\n| style=\"color:red;\" |<nowiki>data with |</nowiki>\n| style=\"color:red;\" |<nowiki>second data with |</nowiki>\n|-\n|<nowiki>data with |</nowiki>\n|<nowiki>second data with |</nowiki>\n|}",
+        "selser [[4,[[[3],4,[2]],4,1,3,1,0,[2,[3],0],3]]]": "{| class=\"wikitable\"<!--1ro5edm-->\n!\n!1lbz2sp\n!d7vj63second header<!--1hbjoiw-->\n|- style=\"color:red;\" data-foobar=\"c0v6lm\"\n|data|| style=\"color:red;\" |second data\n|- data-foobar=\"1i2dp2g\"\n| style=\"color:red;\" |data with | || style=\"color:red;\" | second data with |\n|-\n|1klrzvf\n|| |||second data with |\n|}",
+        "selser [[4,2]]": "{| class=\"wikitable\"<!--xcjy8s--><!--ivs83k-->\n!header\n!second header\n|- style=\"color:red;\"\n|data|| style=\"color:red;\" |second data\n|-\n| style=\"color:red;\" |data with | || style=\"color:red;\" | second data with |\n|-\n||data with | |||second data with |\n|}",
+        "selser [[3,2]]": "{| class=\"wikitable\"<!--1xy6unh-->\n!header\n!second header\n|- style=\"color:red;\"\n|data|| style=\"color:red;\" |second data\n|-\n| style=\"color:red;\" |data with | || style=\"color:red;\" | second data with |\n|-\n||data with | |||second data with |\n|}",
+        "selser [2]": "14zorup\n{| class=\"wikitable\"\n!header\n!second header\n|- style=\"color:red;\"\n|data|| style=\"color:red;\" |second data\n|-\n| style=\"color:red;\" |data with | || style=\"color:red;\" | second data with |\n|-\n||data with | |||second data with |\n|}",
+        "selser [1]": "{| class=\"wikitable\" data-foobar=\"1rf2fk9\"\n!header\n!second header\n|- style=\"color:red;\"\n|data|| style=\"color:red;\" |second data\n|-\n| style=\"color:red;\" |data with | || style=\"color:red;\" | second data with |\n|-\n||data with | |||second data with |\n|}",
+        "selser [[4,[[[4],3,2],2,[0,[3],3],0,[0,1,[2]],4,2,0]]]": "{| class=\"wikitable\"<!--1o9xso6-->\n!8oq0v1\n!1tl00ic\n!second header<!--1j4wwbz-->\n|- style=\"color:red;\"\n|\n|-\n| style=\"color:red;\" data-foobar=\"19rgv15\" |<nowiki>data with |</nowiki> || style=\"color:red;\" | i40agxsecond data with |<!--6hjy2a--><!--b719zh-->\n|-\n||data with | |||second data with |\n|}",
+        "selser [[2,1]]": "{| class=\"wikitable\"<!--et2ta6-->\n!header\n!second header\n|- style=\"color:red;\"\n|data|| style=\"color:red;\" |second data\n|-\n| style=\"color:red;\" |<nowiki>data with |</nowiki> || style=\"color:red;\" | second data with |\n|-\n||<nowiki>data with |</nowiki> |||second data with |\n|}",
+        "selser [[4,[2,0,4,0,4,0,[0,[4],4],4]]]": "{| class=\"wikitable\"<!--16xy0b2--><!--1ogs26n-->\n!header\n!second header\n<!--yub1iq-->\n<!--1sf2qp9-->\n|-\n||gr6c9b \n|668z7c<!--11k7ju3-->\n|}",
+        "selser [[0,1]]": "{| class=\"wikitable\"\n!header\n!second header\n|- style=\"color:red;\"\n|data|| style=\"color:red;\" |second data\n|-\n| style=\"color:red;\" |data with | || style=\"color:red;\" | second data with |\n|-\n||data with | |||second data with |\n|}",
+        "selser [[3,[1,0,3,0,1,0,[3,3,3],3]]]": "{| class=\"wikitable\"\n!header\n!second header\n\n|- data-foobar=\"1vb433k\"\n| style=\"color:red;\" |<nowiki>data with |</nowiki> || style=\"color:red;\" | second data with |\n|-\n|}",
+        "selser [[2,[[0,0,[3]],2,2,0,[3,[2],[2]],4,2,3]]]": "{| class=\"wikitable\"<!--1qbanhh-->\n!header\n!<!--1pboxi1-->\n<!--66zv5p-->|- style=\"color:red;\"\n|data|| style=\"color:red;\" |second data\n|-\n| style=\"color:red;\" |<nowiki>1865j9mdata with |</nowiki> || style=\"color:red;\" | b45gipsecond data with |<!--32n7kr--><!--13um9nu-->\n|-\n||<nowiki>data with |</nowiki> |||second data with |\n|}",
+        "selser [[0,[[3,0,4],0,[3,2,4],0,0,3,[3,3,4],0]]]": "{| class=\"wikitable\"\n|ykcl2y\n|- style=\"color:red;\"\n|1oajfpr\n|data\n|14dxmuf\n|-\n| style=\"color:red;\" |data with | || style=\"color:red;\" | second data with |\n|-\n|wxxw7v\n|}",
+        "selser [[2,2]]": "{| class=\"wikitable\"<!--nheh4u-->\n<!--7c8qj4-->!header\n!second header\n|- style=\"color:red;\"\n|data|| style=\"color:red;\" |second data\n|-\n| style=\"color:red;\" |data with | || style=\"color:red;\" | second data with |\n|-\n||data with | |||second data with |\n|}",
+        "selser [[3,[3,2,[0,[3],[3]],2,[2,3,1],0,4,0]]]": "{| class=\"wikitable\"<!--f4bpwj-->\n|- style=\"color:red;\"\n| || style=\"color:red;\" |<!--1dncm0k-->\n|-\n|a6iywe\n| style=\"color:red;\" data-foobar=\"vwf3pf\" | <nowiki>second data with |</nowiki>\n<!--hnyomd-->\n|}"
+    },
+    "Build table with wikilink": {
+        "html2wt": "{| class=\"wikitable\"\n!header\n!second header\n|- style=\"color:red;\"\n|data [[Main Page|linktext]]\n|second data [[Main Page|linktext]]\n|-\n|data\n|second data [[Main Page|link|text with pipe]]\n|}"
+    },
+    "Build table with {{!}}": {
+        "wt2wt": "{{{!}} class=\"wikitable\"\n!header\n!second header\n{{!}}- style=\"color:red;\"\n{{!}}data{{!}}{{!}} style=\"color:red;\"{{!}}second data\n{{!}}}",
+        "html2wt": "{| class=\"wikitable\"\n!header\n!second header\n|- style=\"color:red;\"\n|data\n| style=\"color:red;\" |second data\n|}",
+        "selser [2]": "9sfybw\n{{{!}} class=\"wikitable\"\n!header\n!second header\n{{!}}- style=\"color:red;\"\n{{!}}data{{!}}{{!}} style=\"color:red;\" {{!}}second data\n{{!}}}",
+        "selser [1]": "{{{!}} class=\"wikitable\" data-foobar=\"11ptc6n\"\n!header\n!second header\n{{!}}- style=\"color:red;\"\n{{!}}data{{!}}{{!}} style=\"color:red;\" {{!}}second data\n{{!}}}",
+        "selser [[0,2]]": "{{{!}} class=\"wikitable\"\n<!--tbvse9-->!header\n!second header\n{{!}}- style=\"color:red;\"\n{{!}}data{{!}}{{!}} style=\"color:red;\" {{!}}second data\n{{!}}}",
+        "selser [[4,[4,0,2,0]]]": "{{{!}} class=\"wikitable\"<!--rqey6f--><!--n8dabp-->\n<!--1vi52dt-->{{!}}- style=\"color:red;\"\n{{!}}data{{!}}{{!}} style=\"color:red;\" {{!}}second data\n{{!}}}",
+        "selser [[4,2]]": "{{{!}} class=\"wikitable\"<!--13mcqae--><!--1boyyw2-->\n!header\n!second header\n{{!}}- style=\"color:red;\"\n{{!}}data{{!}}{{!}} style=\"color:red;\" {{!}}second data\n{{!}}}",
+        "selser [[2,2]]": "{{{!}} class=\"wikitable\"<!--gdoe7f-->\n<!--r1b0oz-->!header\n!second header\n{{!}}- style=\"color:red;\"\n{{!}}data{{!}}{{!}} style=\"color:red;\" {{!}}second data\n{{!}}}",
+        "selser [[4,1]]": "{{{!}} class=\"wikitable\"<!--wilazu-->\n!header\n!second header\n{{!}}- style=\"color:red;\"\n{{!}}data{{!}}{{!}} style=\"color:red;\" {{!}}second data\n{{!}}}",
+        "selser [[3,1]]": "{{{!}} class=\"wikitable\"\n!header\n!second header\n{{!}}- style=\"color:red;\"\n{{!}}data{{!}}{{!}} style=\"color:red;\" {{!}}second data\n{{!}}}"
+    },
+    "Fostered content in tables: Lists": {
+        "selser [1,2]": "*a\n*b\najwbwr\n{|\n|-\n*a\n*b\n|}",
+        "selser [[0,4,0],[4,2]]": "*a\n* 1b3dqm3\n*b\n{|<!--1ctabq5--><!--q5qhbe-->\n|-\n*a\n*b\n|}",
+        "selser [2,[4,0]]": "1awbnr7\n{|<!--a5irch-->\n|-\n*a\n*b\n|}",
+        "selser [[3,3,[2]],2]": "*8f87u4b\n1mdpxmc\n{|\n|-\n*a\n*b\n|}",
+        "selser [1,1]": "*a\n*b\n{| data-foobar=\"15nckv4\"\n|-\n*a\n*b\n|}",
+        "selser [[[2],4,[2]],[0,[2]]]": "*u211axa\n* rhxrwz\n*1tegptyb\n{|\n<!--47ercg-->|-\n*a\n*b\n|}",
+        "selser [2,2]": "u94qxj\n\nrq6jfc\n{|\n|-\n*a\n*b\n|}",
+        "selser [2,1]": "yomulg\n{| data-foobar=\"ikb4sw\"\n|-\n*a\n*b\n|}",
+        "selser [[[2],4,0],0]": "*1t57graa\n* 1lty4kl\n*b\n{|\n|-\n*a\n*b\n|}",
+        "selser [2,0]": "1kscycd\n{|\n|-\n*a\n*b\n|}"
+    },
+    "Invalid attributes in table cell (T3830)": {
+        "wt2wt": "{|\n| Cell: |broken\n|}",
+        "html2wt": "{|\n|broken\n|}",
+        "selser [[4,2]]": "{|<!--tv1z59--><!--1g5z6rl-->\n|Cell:|broken\n|}",
+        "selser [2]": "vd58dg\n{|\n|Cell:|broken\n|}",
+        "selser [1]": "{| data-foobar=\"1v2jv1\"\n|Cell:|broken\n|}",
+        "selser [[0,2]]": "{|\n<!--1tw7uu1-->|Cell:|broken\n|}",
+        "selser [[3,[2,3]]]": "{|<!--ezmz4r-->\n|Cell:|broken\n|}",
+        "selser [[0,[[[3]],4]]]": "{|\n|Cell:|<!--1hldctg-->\n|}",
+        "selser [[0,[1,4]]]": "{|\n|Cell:|broken<!--eyc8v9-->\n|}",
+        "selser [[3,2]]": "{|<!--1fclbmc-->\n|Cell:|broken\n|}"
+    },
+    "Invalid text in table attributes should be preserved by selective serializer": {
+        "selser [[3,[[[2],2,[2]],4]]]": "{| <span>boo</span> style='border:1px solid black'\n|  <span>boo</span> style='color:blue'  | 9jkgm21\n|97eh58\n| style=\"color:blue\" boo | moisna2<!--l4ygjq-->\n|}",
+        "selser [[0,4]]": "{| <span>boo</span> style='border:1px solid black'\n<!--6zvpcd-->|}",
+        "selser [1]": "{| style=\"border:1px solid black\" data-foobar=\"1lzmi9u\" boo\n|  <span>boo</span> style='color:blue'  | 1\n|<span>boo</span> style='color:blue'| 2\n|}",
+        "selser [[2,3]]": "{| <span>boo</span> style='border:1px solid black'<!--4oj8ff-->\n|}",
+        "selser [[4,[[1,0,[3]],2]]]": "{| <span>boo</span> style='border:1px solid black'<!--s0q54v-->\n| style=\"color:blue\" data-foobar=\"2rpjng\" boo | 1\n|<span>boo</span> style='color:blue'|<!--1q7ejf2-->\n|}",
+        "selser [[2,[3,0]]]": "{| <span>boo</span> style='border:1px solid black'<!--s1wznv-->\n\n|}",
+        "selser [[0,[1,0]]]": "{| <span>boo</span> style='border:1px solid black'\n|  <span>boo</span> style='color:blue'  | 1\n|<span>boo</span> style='color:blue'| 2\n|}",
+        "selser [[0,1]]": "{| <span>boo</span> style='border:1px solid black'\n|  <span>boo</span> style='color:blue'  | 1\n|<span>boo</span> style='color:blue'| 2\n|}",
+        "selser [2]": "96s0ir\n{| <span>boo</span> style='border:1px solid black'\n|  <span>boo</span> style='color:blue'  | 1\n|<span>boo</span> style='color:blue'| 2\n|}",
+        "selser [[2,[[3,0,2],0]]]": "{| <span>boo</span> style='border:1px solid black'<!--4txap9-->\n|1w9fvvs\n| style=\"color:blue\" boo | 2\n|}",
+        "selser [[0,3]]": "{| <span>boo</span> style='border:1px solid black'\n|}",
+        "selser [[4,4]]": "{| <span>boo</span> style='border:1px solid black'<!--1l3kl25--><!--1y602cq-->\n|}",
+        "selser [[4,3]]": "{| <span>boo</span> style='border:1px solid black'<!--10hr1qd-->\n|}",
+        "selser [[0,[1,4]]]": "{| <span>boo</span> style='border:1px solid black'\n|  <span>boo</span> style='color:blue'  | 1\n|<span>boo</span> style='color:blue'| 2<!--ptdkg4-->\n|}",
+        "selser [[0,2]]": "{| <span>boo</span> style='border:1px solid black'\n<!--4pyzwt-->|  <span>boo</span> style='color:blue'  | 1\n|<span>boo</span> style='color:blue'| 2\n|}",
+        "selser [[0,[2,0]]]": "{| <span>boo</span> style='border:1px solid black'\n<!--1cria3z-->|  <span>boo</span> style='color:blue'  | 1\n|<span>boo</span> style='color:blue'| 2\n|}",
+        "selser [[3,4]]": "{| <span>boo</span> style='border:1px solid black'<!--1j084gj-->\n|}",
+        "selser [[0,[[3,0,0],0]]]": "{| <span>boo</span> style='border:1px solid black'\n\n|<span>boo</span> style='color:blue'| 2\n|}"
+    },
+    "Multiplication table": {
+        "html2wt": "{| border=\"1\" cellpadding=\"2\"\n|+Multiplication table\n!×\n!1\n!2\n!3\n|-\n!1\n|1\n|2\n|3\n|-\n!2\n|2\n|4\n|6\n|-\n!3\n|3\n|6\n|9\n|-\n!4\n|4\n|8\n|12\n|-\n!5\n|5\n|10\n|15\n|}"
+    },
+    "Nested table": {
+        "wt2wt": "{| border=\"1\"\n|&alpha;\n|\n{| bgcolor=\"#ABCDEF\" border=\"2\"\n|nested\n|-\n|table\n|}\n|the original table again\n|}",
+        "html2wt": "{| border=\"1\"\n|α\n|\n{| bgcolor=\"#ABCDEF\" border=\"2\"\n|nested\n|-\n|table\n|}\n|the original table again\n|}",
+        "selser [[0,[1,4]]]": "{| border=1\n| &alpha;\n|\n{| bgcolor=#ABCDEF border=2\n|nested\n|-\n|table\n|}\n|the original table again<!--146htw5-->\n|}",
+        "selser [[0,2]]": "{| border=1\n<!--5pyfm0-->| &alpha;\n|\n{| bgcolor=#ABCDEF border=2\n|nested\n|-\n|table\n|}\n|the original table again\n|}",
+        "selser [2]": "rsoqyk\n{| border=1\n| &alpha;\n|\n{| bgcolor=#ABCDEF border=2\n|nested\n|-\n|table\n|}\n|the original table again\n|}",
+        "selser [[0,3]]": "{| border=1\n|}",
+        "selser [[2,[4,2]]]": "{| border=1<!--1deq2nr-->\n<!--4ul6ve--><!--1x0kfry-->\n|}",
+        "selser [[2,3]]": "{| border=1<!--1sjqim7-->\n|}",
+        "selser [[4,1]]": "{| border=1<!--136o031-->\n| &alpha;\n|\n{| bgcolor=#ABCDEF border=2\n|nested\n|-\n|table\n|}\n|the original table again\n|}",
+        "selser [1]": "{| border=\"1\" data-foobar=\"1iqpwix\"\n| &alpha;\n|\n{| bgcolor=#ABCDEF border=2\n|nested\n|-\n|table\n|}\n|the original table again\n|}",
+        "selser [[3,2]]": "{| border=1<!--1c2y0bu-->\n| &alpha;\n|\n{| bgcolor=#ABCDEF border=2\n|nested\n|-\n|table\n|}\n|the original table again\n|}",
+        "selser [[2,1]]": "{| border=1<!--myauc2-->\n| &alpha;\n|\n{| bgcolor=\"#ABCDEF\" border=\"2\"\n|nested\n|-\n|table\n|}\n|the original table again\n|}",
+        "selser [[3,[3,0]]]": "{| border=1\n|}",
+        "selser [[0,[[0,4,[4,1],2,2],0]]]": "{| border=1\n| &alpha;\n|1f7ogne\n|1iqtqxq\n{| bgcolor=\"#ABCDEF\" border=\"2\" data-foobar=\"u9eo14\"\n|nested\n|-\n|table\n|}\n|1jsu3wr\n|1vtmfkq\n|the original table again\n|}",
+        "selser [[3,[1,4]]]": "{| border=1\n| &alpha;\n|\n{| bgcolor=#ABCDEF border=2\n|nested\n|-\n|table\n|}\n|the original table again<!--1ifutu9-->\n|}",
+        "selser [[0,4]]": "{| border=1\n<!--w9rfzn-->|}",
+        "selser [[0,[[1,2,[3,4],0,4],2]]]": "{| border=1\n| data-foobar=\"1vl4qbv\" | &alpha;\n|jat1h0\n|dhfbfz\n|etrd6b<!--qen9xa-->\n|}",
+        "selser [[0,[1,2]]]": "{| border=1\n| &alpha;\n|\n{| bgcolor=#ABCDEF border=2\n|nested\n|-\n|table\n|}\n|the original table again<!--17kpprb-->\n|}",
+        "selser [[0,1]]": "{| border=1\n| &alpha;\n|\n{| bgcolor=#ABCDEF border=2\n|nested\n|-\n|table\n|}\n|the original table again\n|}",
+        "selser [[0,[[2,0,[4,[0,[0,0,[0,3],2]]],0,0],4]]]": "{| border=1\n|rru7h0\n| &alpha;\n|xrsu0y\n{| bgcolor=#ABCDEF border=2\n|nested\n|-\n<!--v51nmn-->\n|}\n|the original table again<!--vbdjq9-->\n|}"
+    },
+    "Parsoid: Round-trip tables directly followed by content (T53219)": {
+        "selser [2,2,3,[0,1],0]": "10h0oj6\n{|\n|foo\n|}\no8dbkm\n\n bar\n{|\n|baz\n|}<b>quux</b>",
+        "selser [4,2,4,[4,[[2],0]],4]": "1bdlqm0\n\n1gek6ph\n\n bar\n\n1ejx8cn\n{|<!--cqele4-->\n|kx2gm6\n|baz\n|}\n1jm9odp"
+    },
+    "Parsoid: Row-syntax table headings followed by comment & table cells": {
+        "wt2wt": "{|\n!foo||bar\n<!-- foo -->||baz||quux\n|}",
+        "selser [1]": "{| data-foobar=\"8sbos2\"\n!foo||bar\n<!-- foo -->  ||baz||quux\n|}",
+        "selser [[3,2]]": "{|<!--7ufvg4-->\n!foo||bar\n<!-- foo -->  ||baz||quux\n|}",
+        "selser [[0,1]]": "{|\n!foo||bar\n<!-- foo -->  ||baz||quux\n|}",
+        "selser [[0,[1,0]]]": "{|\n!foo||bar\n<!-- foo -->  ||baz||quux\n|}",
+        "selser [2]": "1nug4m3\n{|\n!foo||bar\n<!-- foo -->  ||baz||quux\n|}",
+        "selser [[0,2]]": "{|\n<!--qj5cah-->!foo||bar\n<!-- foo -->  ||baz||quux\n|}",
+        "selser [[3,1]]": "{|\n!foo||bar\n<!-- foo -->  ||baz||quux\n|}"
+    },
+    "Simple table": {
+        "html2wt": "{|\n|1\n|2\n|-\n|3\n|4\n|}"
+    },
+    "Simple table but with multiple dashes for row wikitext": {
+        "html2wt": "{|\n|foo\n|-\n|bar\n|}"
+    },
+    "Table cell attributes: Pipes protected by nowikis should be treated as a plain character": {
+        "wt2wt": "{|\n| title=\"foo\" |bar\n| title=\"foo<nowiki>|</nowiki>\" |bar\n|title=\"foo<nowiki>|</nowiki>\" bar\n|}",
+        "html2wt": "{|\n| title=\"foo\" |bar\n| title=\"foo<nowiki>|</nowiki>\" |bar\n|title=\"foo<nowiki>|</nowiki>\" bar\n|}",
+        "selser [2]": "1v70o60\n{|\n|title=\"foo\" |bar\n|title=\"foo<nowiki>|</nowiki>\" |bar\n|title=\"foo<nowiki>|</nowiki>\" bar\n|}",
+        "selser [[0,[[1,0,[3],2,[0,[2],0]],0]]]": "{|\n| title=\"foo\" data-foobar=\"dc6l96\" |bar\n|title=\"foo<nowiki>|</nowiki>\" |\n|qyb9eu\n|title=\"foo<nowiki>mvdgbu|</nowiki>\" bar\n|}",
+        "selser [[3,2]]": "{|<!--x9fvxn-->\n|title=\"foo\" |bar\n|title=\"foo<nowiki>|</nowiki>\" |bar\n|title=\"foo<nowiki>|</nowiki>\" bar\n|}",
+        "selser [1]": "{| data-foobar=\"1fdcrc2\"\n|title=\"foo\" |bar\n|title=\"foo<nowiki>|</nowiki>\" |bar\n|title=\"foo<nowiki>|</nowiki>\" bar\n|}",
+        "selser [[0,2]]": "{|\n<!--1l8szay-->|title=\"foo\" |bar\n|title=\"foo<nowiki>|</nowiki>\" |bar\n|title=\"foo<nowiki>|</nowiki>\" bar\n|}",
+        "selser [[0,1]]": "{|\n|title=\"foo\" |bar\n|title=\"foo<nowiki>|</nowiki>\" |bar\n|title=\"foo<nowiki>|</nowiki>\" bar\n|}",
+        "selser [[4,[[1,0,0,0,2],4]]]": "{|<!--19gn4sx-->\n| title=\"foo\" data-foobar=\"17ulhkg\" |bar\n|title=\"foo<nowiki>|</nowiki>\" |bar\n|r1ztbh\n|title=\"foo<nowiki>|</nowiki>\" bar<!--1yk0khk-->\n|}",
+        "selser [[0,[[4,0,[2],3,2],0]]]": "{|\n|14qpfk\n|title=\"foo<nowiki>|</nowiki>\" |nqw0j5bar\n|12wx0lb\n|title=\"foo<nowiki>|</nowiki>\" bar\n|}",
+        "selser [[3,[[[2],4,[3],3,1],0]]]": "{|\n|title=\"foo\" |1ww0lmubar\n|15aa2r6\n| title=\"foo<nowiki>|</nowiki>\" |\n| data-foobar=\"kim9v8\" |title=\"foo<nowiki>|</nowiki>\" bar\n|}"
+    },
+    "Table cell with a single comment": {
+        "html2wt": "{|\n|\n|a\n|}"
+    },
+    "Table rowspan": {
+        "wt2wt": "{| border=\"1\"\n|Cell 1, row 1\n| rowspan=\"2\" |Cell 2, row 1 (and 2)\n|Cell 3, row 1\n|-\n|Cell 1, row 2\n|Cell 3, row 2\n|}",
+        "html2wt": "{| border=\"1\"\n|Cell 1, row 1\n| rowspan=\"2\" |Cell 2, row 1 (and 2)\n|Cell 3, row 1\n|-\n|Cell 1, row 2\n|Cell 3, row 2\n|}",
+        "selser [[3,2]]": "{| border=1<!--bsg3j-->\n|Cell 1, row 1\n|rowspan=2|Cell 2, row 1 (and 2)\n|Cell 3, row 1\n|-\n|Cell 1, row 2\n|Cell 3, row 2\n|}",
+        "selser [[0,1]]": "{| border=1\n|Cell 1, row 1\n|rowspan=2|Cell 2, row 1 (and 2)\n|Cell 3, row 1\n|-\n|Cell 1, row 2\n|Cell 3, row 2\n|}",
+        "selser [[2,[[2,0,3,0,4],0,[0,0,0,3],2]]]": "{| border=1<!--vu59jh-->\n|1wevifz\n|Cell 1, row 1\n|1arhi1f\n|-\n|Cell 1, row 2\n<!--blygy6-->\n|}",
+        "selser [2]": "1akvfqc\n{| border=1\n|Cell 1, row 1\n|rowspan=2|Cell 2, row 1 (and 2)\n|Cell 3, row 1\n|-\n|Cell 1, row 2\n|Cell 3, row 2\n|}",
+        "selser [1]": "{| border=\"1\" data-foobar=\"x2dq2h\"\n|Cell 1, row 1\n|rowspan=2|Cell 2, row 1 (and 2)\n|Cell 3, row 1\n|-\n|Cell 1, row 2\n|Cell 3, row 2\n|}",
+        "selser [[0,[1,0,2,0]]]": "{| border=1\n|Cell 1, row 1\n|rowspan=2|Cell 2, row 1 (and 2)\n|Cell 3, row 1\n<!--17ohwkd-->|-\n|Cell 1, row 2\n|Cell 3, row 2\n|}",
+        "selser [[3,4]]": "{| border=1<!--dhcub4-->\n|}",
+        "selser [[2,2]]": "{| border=1<!--1wqljby-->\n<!--1x3lb84-->|Cell 1, row 1\n|rowspan=2|Cell 2, row 1 (and 2)\n|Cell 3, row 1\n|-\n|Cell 1, row 2\n|Cell 3, row 2\n|}",
+        "selser [[3,3]]": "{| border=1\n|}",
+        "selser [[0,[1,0,2,2]]]": "{| border=1\n|Cell 1, row 1\n|rowspan=2|Cell 2, row 1 (and 2)\n|Cell 3, row 1\n<!--1ymdyuc-->|-\n|Cell 1, row 2\n|Cell 3, row 2<!--1jftah-->\n|}",
+        "selser [[3,[1,0,[0,2,0,4],2]]]": "{| border=1\n|Cell 1, row 1\n|rowspan=2|Cell 2, row 1 (and 2)\n|Cell 3, row 1\n|-\n|o75uby\n|Cell 1, row 2\n|14qqwla<!--1xb3xh9-->\n|}",
+        "selser [[0,[[4,0,4,0,1],0,1,2]]]": "{| border=1\n|1hxq18w\n|jw3fer\n| data-foobar=\"7z2fim\" |Cell 3, row 1\n|- data-foobar=\"xnlk74\"\n|Cell 1, row 2\n|Cell 3, row 2<!--1fzx2aa-->\n|}",
+        "selser [[0,3]]": "{| border=1\n|}",
+        "selser [[0,4]]": "{| border=1\n<!--9zhudu-->|}",
+        "selser [[4,1]]": "{| border=1<!--12nblop-->\n|Cell 1, row 1\n|rowspan=2|Cell 2, row 1 (and 2)\n|Cell 3, row 1\n|-\n|Cell 1, row 2\n|Cell 3, row 2\n|}",
+        "selser [[0,[2,0,4,0]]]": "{| border=1\n<!--drinag-->|Cell 1, row 1\n|rowspan=2|Cell 2, row 1 (and 2)\n|Cell 3, row 1\n<!--yc5yq0-->\n|}",
+        "selser [[2,1]]": "{| border=1<!--l9k9aj-->\n|Cell 1, row 1\n| rowspan=\"2\" |Cell 2, row 1 (and 2)\n|Cell 3, row 1\n|-\n|Cell 1, row 2\n|Cell 3, row 2\n|}",
+        "selser [[3,[1,0,[0,1,0,2],4]]]": "{| border=1\n|Cell 1, row 1\n|rowspan=2|Cell 2, row 1 (and 2)\n|Cell 3, row 1\n|-\n| data-foobar=\"kslfqt\" |Cell 1, row 2\n|p0tqkm\n|Cell 3, row 2<!--1454ta5-->\n|}"
+    },
+    "Table td-cell syntax variations": {
+        "wt2wt": "{|\n| foo bar |baz\n|foo bar foo||baz\n| style=\"color:red;\" |baz\n|style='color:red;'||baz\n|}",
+        "html2wt": "{|\n|baz\n|foo bar foo\n|baz\n| style=\"color:red;\" |baz\n|style='color:red;'\n|baz\n|}",
+        "selser [2]": "pk7eud\n{|\n|foo bar foo|baz\n|foo bar foo||baz\n|style='color:red;'|baz\n|style='color:red;'||baz\n|}",
+        "selser [[4,[1,4]]]": "{|<!--zvd4dx-->\n|foo bar foo|baz\n|foo bar foo||baz\n|style='color:red;'|baz\n|style='color:red;'||baz<!--j8ngqd-->\n|}",
+        "selser [1]": "{| data-foobar=\"ce1h0j\"\n|foo bar foo|baz\n|foo bar foo||baz\n|style='color:red;'|baz\n|style='color:red;'||baz\n|}",
+        "selser [[3,[2,0]]]": "{|<!--f8mryi-->\n|foo bar foo|baz\n|foo bar foo||baz\n|style='color:red;'|baz\n|style='color:red;'||baz\n|}",
+        "selser [[0,[[4,0,0,1,0,0,0,4,4],0]]]": "{|\n|wmksp5\n|foo bar foo|| data-foobar=\"1veeazb\" |baz\n|style='color:red;'|baz\n|1d18155\n|esix57\n|}",
+        "selser [[0,[1,4]]]": "{|\n|foo bar foo|baz\n|foo bar foo||baz\n|style='color:red;'|baz\n|style='color:red;'||baz<!--bg13zw-->\n|}",
+        "selser [[0,2]]": "{|\n<!--1x3flov-->|foo bar foo|baz\n|foo bar foo||baz\n|style='color:red;'|baz\n|style='color:red;'||baz\n|}"
+    },
+    "Table with missing opening <tr> tag": {
+        "selser [[2,[[4,3],3]]]": "<table><!--y87cl6-->\n<td>1m48vn2</td></tr>\n</table>",
+        "selser [[2,[0,3]]]": "<table><!--5qwxo-->\n<td>foo</td>\n</tr>\n</table>"
+    },
+    "Templated table cell with untemplated attributes: Unsupported (standalone mode) Scenarios": {
+        "wt2html": "<table data-parsoid='{\"dsr\":[0,78,2,2]}'>\n<tbody data-parsoid='{\"dsr\":[3,76,0,0]}'><tr data-parsoid='{\"startTagSrc\":\"|-\",\"dsr\":[3,36,2,0]}'>\n<td data-parsoid='{\"dsr\":[6,18,1,0]}'>class=\"foo\"</td><td about=\"#mwt1\" typeof=\"mw:Transclusion\" data-parsoid='{\"dsr\":[18,36,null,null],\"pi\":[[{\"k\":\"1\",\"named\":true,\"spc\":[\"\",\"\",\" \",\"\"]}]]}' data-mw='{\"parts\":[{\"template\":{\"target\":{\"wt\":\"1x\",\"href\":\"./Template:1x\"},\"params\":{\"1\":{\"wt\":\"{{!}}bar\"}},\"i\":0}}]}'>bar</td></tr>\n<tr data-parsoid='{\"startTagSrc\":\"|-\",\"dsr\":[37,75,2,0]}'>\n<td about=\"#mwt3\" typeof=\"mw:Transclusion\" data-parsoid='{\"dsr\":[40,75,1,0],\"firstWikitextNode\":\"TD\",\"pi\":[[{\"k\":\"1\",\"named\":true}]]}' data-mw='{\"parts\":[\"|class=\\\"foo\\\"\",{\"template\":{\"target\":{\"wt\":\"1x\",\"href\":\"./Template:1x\"},\"params\":{\"1\":{\"wt\":\"&amp;nbsp;{{!}}bar\"}},\"i\":0}}]}'>class=\"foo\"<span typeof=\"mw:Entity\"> </span></td><td about=\"#mwt3\">bar</td></tr>\n</tbody></table>"
+    },
+    "Templated table cell with untemplated attributes: Unsupported Scenario": {
+        "wt2html": "<table data-parsoid='{\"dsr\":[0,55,2,2]}'>\n<tbody data-parsoid='{\"dsr\":[3,53,0,0]}'><tr data-parsoid='{\"startTagSrc\":\"|-\",\"dsr\":[3,52,2,0]}'>\n<td data-parsoid='{\"dsr\":[6,18,1,0]}'>class=\"foo\"</td><td about=\"#mwt1\" typeof=\"mw:Transclusion\" data-parsoid='{\"dsr\":[18,52,null,null],\"pi\":[[{\"k\":\"1\",\"named\":true}]]}' data-mw='{\"parts\":[{\"template\":{\"target\":{\"wt\":\"1x\",\"href\":\"./Template:1x\"},\"params\":{\"1\":{\"wt\":\"{{!}}title=\\\"fail\\\"{{!}}bar\"}},\"i\":0}}]}'>title=\"fail\"</td><td about=\"#mwt1\">bar</td></tr>\n</tbody></table>"
+    },
+    "Wikitext table with a lot of comments": {
+        "html2wt": "{|\n|foo\n|-\n|\n|}",
+        "selser [[0,4,0,[2,3,1,4]]]": "{|\n<!--iq9oza-->\n<!--1dqmhs4-->|foo\n<!-- c1 -->\n|- data-foobar=\"2v7bzw\"<!-- c2 -->\n<!-- c3 -->\n|<!-- c4 -->\n<!-- c5 --><!--setevm-->\n|}",
+        "selser [[0,0,4,[2,4,[4,0,4,0,[2,2,2]],2]]]": "{|\n<!-- c0 --><!--1o352s1--><!--1ou61s9-->|foo\n<!-- c1 --><!--smmajy-->\n|-\n|tyk0it\n|1cc3s5x\n|1al41b7<!-- c4 -->s4layh\n6j4dys<!-- c5 --><!--1lv2wu5-->\n|}"
+    },
+    "Wikitext table with html-syntax row": {
+        "html2wt": "{|\n|foo\n|}"
+    }
+}

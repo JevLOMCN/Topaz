@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Yfdyh000"
+		]
+	},
+	"apihelp-query+mathwbextracts-example-1": "请求一个数学Wikibase项的摘要。",
+	"apihelp-query+mathwbextracts-summary": "请求一个数学Wikibase项的摘要（HTML格式）。",
+	"apihelp-query+mathwbextracts-param-qid": "将会请求的Wikibase项的QID。",
+	"apihelp-query+mathwbextracts-param-uselang": "应请求的Wikibase项的语言。默认值为英语。"
+}

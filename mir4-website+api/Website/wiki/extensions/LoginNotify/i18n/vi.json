@@ -1,0 +1,22 @@
+{
+	"@metadata": {
+		"authors": [
+			"Abe No Yasuaki",
+			"Minh Nguyen",
+			"NguoiDungKhongDinhDanh",
+			"Vinhtantran"
+		]
+	},
+	"loginnotify-desc": "Thông báo cho người dùng khi nào thiết bị và/hoặc địa chỉ IP không quen thử đăng nhập vào tài khoản",
+	"echo-category-title-login-fail": "Lần đăng nhập không thành công",
+	"echo-pref-tooltip-login-fail": "Thông báo cho tôi khi nào ai đó đã thử đăng nhập vào tài khoản của tôi không thành công.",
+	"echo-category-title-login-success": "Đăng nhập từ thiết bị không quen",
+	"echo-pref-tooltip-login-success": "Thông báo cho tôi khi ai đó đăng nhập vào tài khoản của tôi từ thiết bị không xác định và địa chỉ IP",
+	"loginnotify-primary-link": "Trợ giúp",
+	"notification-loginnotify-login-fail-email-subject": "Đăng nhập{{PLURAL:$2|| nhiều lần}} không thành công vào {{SITENAME}} như $1",
+	"notification-loginnotify-login-success-email-subject": "Lần đăng nhập vào {{SITENAME}} với tên $1 từ một thiết bị mới",
+	"notification-header-login-success": "Ai đó (có lẽ là {{GENDER:$1}}bạn) vừa đăng nhập vào tài khoản của bạn từ một thiết bị mới. Nếu bạn chính là người đăng nhập, xin bỏ qua thông báo này. Nếu đó không phải là bạn, chúng tôi khuyên bạn nên thay đổi mật khẩu và kiểm tra các hoạt động gần đây của tài khoản.",
+	"notification-new-bundled-header-login-fail": "Có '''{{PLURAL:$1|lần|$1 lần}} đăng nhập không thành công''' vào tài khoản của bạn từ một thiết bị mới từ lần cuối cùng bạn đăng nhập thành công. Nếu không phải là bạn, hãy đảm bảo tài khoản có mật khẩu đủ mạnh.",
+	"notification-known-header-login-fail": "Có '''{{PLURAL:$1|lần|$1 lần}} đăng nhập không thành công''' vào tài khoản của bạn từ lần cuối cùng bạn đăng nhập thành công. Nếu không phải là bạn, hãy đảm bảo tài khoản có mật khẩu đủ mạnh.",
+	"notification-new-unbundled-header-login-fail": "Có '''{{PLURAL:$1|một lần|nhiều lần}} đăng nhập không thành công''' vào tài khoản của bạn từ một thiết bị mới. Hãy đảm bảo tài khoản có mật khẩu đủ mạnh."
+}

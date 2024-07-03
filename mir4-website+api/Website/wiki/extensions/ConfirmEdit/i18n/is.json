@@ -1,0 +1,30 @@
+{
+	"@metadata": {
+		"authors": [
+			"S.Örvarr.S",
+			"Snævar",
+			"Stefán Örvar Sigmundsson",
+			"Sveinki",
+			"Sveinn í Felli"
+		]
+	},
+	"captcha-edit": "Til að breyta þessari síðu, vinsamlegast leystu verkefnið að neðan og skrifaðu svarið í\nreitinn ([[Special:Captcha/help|frekari upplýsingar]]):",
+	"captcha-edit-fail": "Staðfestingarkóðinn var rangur eða ekki til staðar.",
+	"captcha-addurl": "Breyting þín felur í sér viðbætta ytri tengla. Til að verjast sjálfvirku\nauglýsingarusli, biðjum við þig vinsamlegast að leysa verkefnið að neðan og skrifa svarið í reitinn til að vista breytinguna þína. ([[Special:Captcha/help|frekari upplýsingar]]):",
+	"captcha-badlogin": "Til að verda wiki gegn sjálfvirkum aðgangsorðaárásum biðjum við þig vinsamlegast að leysa verkefnið að neðan og rita svarið í reitinn ([[Special:Captcha/help|meiri upplýsingar]]):",
+	"captcha-createaccount": "Til að verjast sjálfvirkri stofnun aðganga, biðjum þig vinsamlegast að leysa verkefnið að neðan og skrifa svarið í reitinn ([[Special:Captcha/help|frekari upplýsingar]]):",
+	"captcha-createaccount-fail": "Staðfestingarkóðinn var rangur eða ekki til staðar.",
+	"captcha-create": "Til að búa til síðuna, vinsamlegast leystu verkefnið fyrir neðan og skrifaðu svarið í reitinn ([[Special:Captcha/help|frekari upplýsingar]]):",
+	"captcha-sendemail": "Til að verjast sjálfvirkri gerð aðganga, biðjum við þig vinsamlegast að leysa verkefnið að neðan og skrifa svarið í kassann ([[Special:Captcha/help|frekari upplýsingar]]):",
+	"captcha-sendemail-fail": "Staðfestingarkóðinn var rangur eða ekki til staðar.",
+	"captcha-disabledinapi": "Þessi aðgerð krefst CAPTCHA svo það er ekki hægt að framkvæma hana í gegnum HFV.",
+	"captchahelp-title": "Captcha-hjálp",
+	"captchahelp-cookies-needed": "Þú verður að leyfa vefkökur til þess að þetta virki.",
+	"captchahelp-text": "Vefsíður sem að leyfa framlög frá frá almenningi, líkt og þessi wiki-vefur, eru oft misnotaðar af svokölluðum „spömmurum“ sem nota sjálfvirk tól til þess að setja inn tengla á aðrar vefsíður. Aðrir notendur geta fjarlægt þessa tengla en töluverð truflun er af þeim.\n\nStundum þegar þú breytir síðum, sérstaklega ef breytingin felur í sér nýja tengla á aðra vefi, getur gerst að þú sért beðin(n) um að skrifa inn orð sem birtast á lituðum eða óskýrum myndum. Fyrir flesta mannlega notendur er þetta lítið mál en sjálfvirk tól ráða ekki við þetta.\n\nÞví miður kann þetta að valda notendum óþægindum sem hafa skerta sjón eða notast við talmálsvafra. Enn sem komið er eru ekki til aðrir valkostir fyrir þau tilvik. \nVinsamlegast hafðu samband við [[Special:ListAdmins|stjórnanda síðunnar]] til að fá aðstoð ef þetta kemur í veg fyrir lögmætar breytingar af þinni hálfu.\n\nNotaðu „til-baka“-hnapp vafrans til að breyta síðunni.",
+	"right-skipcaptcha": "Geta gert aðgerðir án þess að nota CAPTCHA-kæfuvörn",
+	"confirmedit-preview-line": "Línunúmer",
+	"confirmedit-preview-content": "Efni",
+	"confirmedit-preview-validity": "Gildi",
+	"confirmedit-preview-valid": "gilt",
+	"confirmedit-preview-invalid": "ógilt"
+}

@@ -1,0 +1,29 @@
+{
+	"@metadata": {
+		"authors": [
+			"Dbc334",
+			"Eleassar",
+			"Pinky sl"
+		]
+	},
+	"action-tboverride": "preglasitev seznama nadovoljenih naslovov ali uporabniških imen",
+	"action-tboverride-account": "preglasitev seznama nedovoljenih uporabniških imen",
+	"action-titleblacklistlog": "ogled dnevnika seznama nedovoljenih naslovov",
+	"log-name-titleblacklist": "Dnevnik seznama nedovoljenih naslovov",
+	"log-description-titleblacklist": "Ti dogodki sledijo pojave ujemanj z vnosi s seznama nedovoljenih naslovov.",
+	"logentry-titleblacklist-hit-username": "$1 je pri poskusu ustvaritve računa $3 {{GENDER:$2|povzročil|povzročila|povzročil_a}} ujemanje \nz vnosom $4 s seznama nedovoljenih naslovov.",
+	"titleblacklist-desc": "Administratorjem omogoča preprečitev ustvarjanja strani in uporabniških računov glede na [[MediaWiki:Titleblacklist|seznam nedovoljenih]] in [[MediaWiki:Titlewhitelist|seznam dovoljenih]] naslovov",
+	"titleblacklist": "# To je seznam nedovoljenih naslovov. Naslovov in uporabniških imen, ki ustrezajo tu navedenim regularnim izrazom, ni mogoče ustvariti.\n# Za komentarje uporabite »#«. \n# Seznam po privzetem ni občutljiv na velikost črk.",
+	"titlewhitelist": "# To je seznam dovoljenih naslovov. Za komentarje uporabite »#«. \n# Po privzetem seznam ni občutljiv na velikost črk",
+	"titleblacklist-forbidden-edit": "Naslov »$2« je bil preprečen pred ustvarjanjem.\nUstreza naslednjemu vnosu na seznamu nedovoljenih naslovov: <code>$1</code>",
+	"titleblacklist-forbidden-move": "»$2« ni mogoče prestaviti na »$3«, ker je bil naslov »$3« preprečen pred ustvarjanjem.\nUstreza naslednjemu vnosu na seznamu nedovoljenih naslovov: <code>$1</code>",
+	"titleblacklist-forbidden-upload": "Ime datoteke »$2« je bilo preprečeno pred ustvarjanjem.\nUstreza naslednjemu vnosu na seznamu nedovoljenih naslovov: <code>$1</code>",
+	"titleblacklist-forbidden-new-account": "Uporabniško ime »$2« je bilo preprečeno pred ustvarjanjem.\nUstreza naslednjemu vnosu na seznamu prepovedanih naslovov: <code>$1</code>",
+	"titleblacklist-invalid": "{{PLURAL:$1|Naslednja vrstica|Naslednji vrstici|Naslednje vrstice}} na seznamu nedovoljenih naslovov {{PLURAL:$1|je neveljavna|sta neveljavni|so neveljavne}};\nprosimo, popravite {{PLURAL:$1|jo|ju|jih}} pred shranjevanjem:",
+	"titleblacklist-override": "Prepiši seznam nedovoljenih naslovov, če se ujema",
+	"titleblacklist-override-help": "Uporabniki z zadostnimi pravicami lahko to nastavijo za prezrtje preverjanja s seznamom nedovoljenih naslovov.",
+	"titleblacklist-warning": "<strong>Opozorilo: To stran lahko urejajo samo administratorji in drugi uporabniki s pravico <code>tboverride</code>, saj se ujema z naslednjim vnosom na seznamu nedovoljenih naslovov:</strong><br /><code>$1</code>",
+	"right-tboverride": "Prepisovanje seznama nedovoljenih naslovov ali uporabniških imen",
+	"right-tboverride-account": "Prepisovanje seznama nedovoljenih uporabniških imen",
+	"right-titleblacklistlog": "Ogled dnevnika seznama nedovoljenih naslovov"
+}

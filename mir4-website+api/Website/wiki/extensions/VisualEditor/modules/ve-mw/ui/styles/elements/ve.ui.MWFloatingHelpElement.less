@@ -1,0 +1,39 @@
+/*!
+ * VisualEditor MediaWiki UserInterface floating help element styles.
+ *
+ * @copyright See AUTHORS.txt
+ * @license The MIT License (MIT); see LICENSE.txt
+ */
+
+.ve-ui-mwFloatingHelpElement {
+	position: fixed;
+	z-index: 2;
+
+	.oo-ui-windowManager-floating .oo-ui-dialog {
+		position: relative;
+		margin-bottom: 16px;
+		padding: 0;
+	}
+
+	.oo-ui-windowManager-floating .oo-ui-dialog .oo-ui-window-frame {
+		position: relative;
+		top: 0;
+	}
+
+	&-windowManager .oo-ui-dialog .oo-ui-panelLayout {
+		padding: 16px;
+	}
+
+	&-toggle {
+		float: right;
+
+		> .oo-ui-buttonElement-button {
+			/* Same as in https://phabricator.wikimedia.org/diffusion/EGRE/browse/master/modules/ui-components/HelpPanelButton.less */
+			box-shadow: 0 1px 2px rgba( 0, 0, 0, 0.5 );
+			border-radius: 50%;
+			width: 44px;
+			height: 44px;
+			padding: 0;
+		}
+	}
+}

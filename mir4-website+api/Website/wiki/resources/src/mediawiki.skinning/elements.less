@@ -1,0 +1,271 @@
+/**
+ * MediaWiki style sheet for general styles on basic content elements.
+ * IMPORTANT: All rules in this file should only apply to __tag__ selectors (T255717).
+ * Styling of non-tag selectors is permitted for backwards compatibility, in only two cases:
+ * 1) There is an equivalent tag with the same name in HTML4 (e.g. `.small and <small>)
+ * 2) A class matches a tag name and is prefixed with `mw-` e.g. `code` and `.mw-code`
+ *
+ * Styles for basic elements: links, headings, lists, ….
+ *
+ * This style sheet is used by the Monobook and Vector skins.
+ */
+
+@import 'mediawiki.skin.variables.less';
+
+/* stylelint-disable selector-class-pattern */
+
+/* Links */
+a {
+	text-decoration: none;
+	color: @color-link;
+	background: none;
+}
+
+a:not( [ href ] ) {
+	cursor: pointer; /* Always cursor:pointer even without href */
+}
+
+a:visited {
+	color: @color-link--visited;
+}
+
+a:active {
+	color: @color-link--active;
+}
+
+a:hover,
+a:focus {
+	text-decoration: underline;
+}
+
+a:lang( ar ),
+a:lang( kk-arab ),
+a:lang( mzn ),
+a:lang( ps ),
+a:lang( ur ) {
+	text-decoration: none;
+}
+
+/* Inline Elements */
+img {
+	border: 0; /* FIXME: Remove after adding 'normalize.less' added to all 'elements.less' calling skins. */
+	vertical-align: middle;
+}
+
+hr {
+	// Use `@border-width-base` instead of `1px` to match the default border width.
+	height: @border-width-base;
+	// Use `@border-color-base` as the element represents a border.
+	background-color: @border-color-base;
+	border: 0;
+	margin: 0.2em 0;
+}
+
+/* Structural Elements */
+.mw-heading,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	color: @color-emphasized;
+	font-weight: bold;
+	margin: 0;
+	padding-top: 0.5em;
+	padding-bottom: 0.17em;
+	overflow: hidden;
+}
+
+.mw-heading1,
+h1,
+.mw-heading2,
+h2 {
+	margin-bottom: 0.6em;
+	border-bottom: @border-width-base @border-style-base @border-color-base;
+}
+
+.mw-heading3,
+h3,
+.mw-heading4,
+h4,
+.mw-heading5,
+h5 {
+	margin-bottom: 0.3em;
+}
+
+.mw-heading1,
+h1 {
+	font-size: 188%;
+	font-weight: normal;
+}
+
+.mw-heading2,
+h2 {
+	font-size: 150%;
+	font-weight: normal;
+}
+
+.mw-heading3,
+h3 {
+	font-size: 128%;
+}
+
+.mw-heading4,
+h4 {
+	font-size: 116%;
+}
+
+.mw-heading5,
+h5 {
+	font-size: 108%;
+}
+
+.mw-heading6,
+h6 {
+	font-size: 100%;
+}
+
+// Override all styles above for `hN` nested inside `.mw-heading`, as used on wikitext pages.
+// Also override the most common skin-defined styles to make the migration after T13555 easier.
+.mw-heading {
+	h1,
+	h2,
+	h3,
+	h4,
+	h5,
+	h6 {
+		// Must be inline to allow `.mw-editsection` to be shown on the same line
+		display: inline;
+		border: 0;
+		margin: 0;
+		padding: 0;
+		color: inherit;
+		font: inherit;
+	}
+}
+
+p {
+	margin: 0.4em 0 0.5em 0;
+}
+
+p img {
+	margin: 0;
+}
+
+ul {
+	margin: 0.3em 0 0 1.6em;
+	padding: 0;
+}
+
+ol {
+	margin: 0.3em 0 0 3.2em;
+	padding: 0;
+	list-style-image: none;
+}
+
+li {
+	margin-bottom: 0.1em;
+}
+
+dt {
+	font-weight: bold;
+	margin-bottom: 0.1em;
+}
+
+dl {
+	margin-top: 0.2em;
+	margin-bottom: 0.5em;
+}
+
+dd {
+	margin-left: 1.6em;
+	margin-bottom: 0.1em;
+}
+
+/* FIXME: Duplicated ruleset if skins using ResourceLoaderSkinModule
+load the features `normalize` and `elements`. */
+pre,
+code,
+tt,
+kbd,
+samp,
+.mw-code {
+	/* Support: Blink, Gecko, Webkit; enable unified font sizes for monospace font. T176636 */
+	font-family: monospace, monospace;
+}
+
+pre,
+code,
+.mw-code {
+	background-color: @background-color-neutral-subtle;
+	color: @color-emphasized;
+	border: @border-width-base @border-style-base @border-color-muted;
+}
+
+code {
+	border-radius: @border-radius-base;
+	padding: 1px 4px;
+}
+
+pre,
+.mw-code {
+	padding: 1em;
+	/* Wrap lines in overflow. T2260, T103780 */
+	white-space: pre-wrap;
+	/* Create a new block formatting context */
+	overflow-x: hidden;
+	/* Break really long words when they overflow to the next line */
+	word-wrap: break-word;
+}
+
+/* Tables */
+table {
+	font-size: 100%;
+}
+
+/* Forms */
+fieldset {
+	border: @border-width-base @border-style-base #2a4b8d;
+	margin: 1em 0 1em 0;
+	padding: 0 1em 1em;
+}
+
+legend {
+	padding: 0.5em;
+}
+
+form {
+	border: 0;
+	margin: 0;
+}
+
+textarea {
+	display: block;
+	box-sizing: @box-sizing-base;
+	width: 100%;
+	/* Support: Firefox */
+	/* Border rule required to override system appearance on Linux. T13641. */
+	border: @border-width-base @border-style-base @border-color-base;
+	padding: 0.1em;
+}
+
+/* Emulate Center */
+.center {
+	width: 100%;
+	text-align: center;
+}
+
+*.center * {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/* Small for tables and similar */
+.small {
+	font-size: 94%;
+}
+
+table.small {
+	font-size: 100%;
+}

@@ -1,0 +1,23 @@
+{
+	"@metadata": {
+		"authors": [
+			"Event",
+			"Jon Harald Søby"
+		]
+	},
+	"skinname-monobook": "Monobook",
+	"monobook-desc": "Den klassiske MediaWiki-drakten fra 2004, oppkalt etter svarthvittbildet av en bok  som brukes som bakgrunnsbilde",
+	"monobook.css": "/* CSS i denne fila vil gjelde alle som bruker drakta Monobook */",
+	"monobook.js": "/* Javascript i denne fila vil gjelde for brukere av drakta Monobook */",
+	"monobook-jumptotop": "tilbake til toppen",
+	"monobook-jumptopersonal": "brukerverktøy",
+	"monobook-jumptonavigation": "Hopp til navigering",
+	"monobook-jumptosearch": "Hopp til søk",
+	"monobook-more-actions": "Mer",
+	"cactions-mobile": "Sidehandlinger",
+	"monobook-cactions-label": "Sidehandlinger",
+	"monobook-notifications-link": "Varsler ($1)",
+	"monobook-notifications-link-none": "Varsler",
+	"monobook-view-history": "Historikk",
+	"monobook-action-undelete": "Gjenopprett {{PLURAL:$1|én versjon|$1 versjoner}}"
+}

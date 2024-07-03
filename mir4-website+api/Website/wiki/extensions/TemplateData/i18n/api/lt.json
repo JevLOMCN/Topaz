@@ -1,0 +1,16 @@
+{
+	"@metadata": {
+		"authors": [
+			"Albertas",
+			"Tomasdd"
+		]
+	},
+	"apihelp-templatedata-summary": "Gauti duomenis, saugomus TemplateData plėtinio.",
+	"apihelp-templatedata-example-1": "Grąžinti šablonų [[Template:Stub]] ir [[Template:Example]] TemplateData rezultatus, jei šablonų nėra arba jie neturi TemplateData",
+	"apihelp-templatedata-example-2": "Grąžinti [[Template:Stub]] ir [[Template:Example]] TemplateData duomenis be rezultatų, jei šablonų nėra arba jei jie yra, bet neturi TemplateData",
+	"apihelp-templatedata-param-includeMissingTitles": "Pateikti informaciją apie pavadinimus, net jei jų nėra arba jie neturi TemplateData. Pagal numatytuosius nustatymus pavadinimai grąžinami tik tada, jei pavadinimas egzistuoja ir jame yra TemplateData.",
+	"apihelp-templatedata-param-doNotIgnoreMissingTitles": "Pateikti informaciją apie pavadinimus, net jei jų nėra arba jie neturi TemplateData. Pagal numatytuosius nustatymus (dėl atgalinio suderinamumo priežasčių) pavadinimai grąžinami tik tada, jei pavadinimas egzistuoja ir jame yra TemplateData.",
+	"apihelp-templatedata-param-lang": "Grąžinti lokalizuotas reikšmes šia kalba. Numatyta grąžinti visus prieinamus vertimus.",
+	"apierror-templatedata-corrupt": "#$1 puslapyje templatedata duomenyse yra neteisingų duomenų: $2",
+	"apiwarn-templatedata-deprecation-format": "Ateityje standartinis išvesties formatas bus pakeistas į <kbd>jsonfm</kbd>. Prašome aiškiai nurodyti <kbd>format=json</kbd>."
+}

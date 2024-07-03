@@ -1,0 +1,34 @@
+{
+	"@metadata": {
+		"authors": [
+			"Michaello",
+			"Milicevic01",
+			"Rancher",
+			"Жељко Тодоровић"
+		]
+	},
+	"replacetext": "Zamena teksta",
+	"replacetext_originaltext": "Prvobitni tekst:",
+	"replacetext_replacementtext": "Novi tekst:",
+	"replacetext_optionalfilters": "Neobavezni filteri:",
+	"replacetext_categorysearch": "Zameni samo u kategoriji:",
+	"replacetext_editpages": "Zameni tekst u sadržaju stranice",
+	"replacetext_movepages": "Zameni tekst u naslovima stranica, kada je moguće",
+	"replacetext_givetarget": "Morate navesti nisku koju želite da zamenite.",
+	"replacetext_nonamespace": "Morate izabrati barem jedan imenski prostor.",
+	"replacetext_editormove": "Morate izabrati barem jednu od mogućnosti za zamenu.",
+	"replacetext_choosepagesforedit": "Zameni „$1“ sa „$2“ u tekstu {{PLURAL:$3|sledeće stranice|sledećih $3 stranica}}:",
+	"replacetext_cannotmove": "{{PLURAL:$1|Sledeća stranica ne može biti premeštena|Sledeće stranice ne mogu biti premeštene}}:",
+	"replacetext_formovedpages": "Za premeštene stranice:",
+	"replacetext_savemovedpages": "Sačuvaj stare naslove kao preusmerenja ka novim naslovima",
+	"replacetext_watchmovedpages": "Nadgledaj ove strane",
+	"replacetext_invertselections": "Obrni izbor",
+	"replacetext_replace": "Zameni",
+	"replacetext_success": "„$1“ će biti zamenjeno sa „$2“ u $3 {{PLURAL:$3|strani|strana}}.",
+	"replacetext_noreplacement": "Nije nađena nijedna stranica koja sadrži string '$1'.",
+	"replacetext_nomove": "Nije nađena nijedna stranica čiji naslov sadrži „$1“.",
+	"replacetext_return": "Nazad na obrazac.",
+	"replacetext_continue": "Nastavi",
+	"replacetext_editsummary": "Zamena teksta — „$1” u „$2”",
+	"right-replacetext": "zamenjivanje niski na celom vikiju"
+}

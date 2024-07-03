@@ -1,0 +1,20 @@
+/*!
+ * VisualEditor UserInterface MWSyntaxHighlightDialog styles.
+ *
+ * @copyright VisualEditor Team and others
+ * @license The MIT License (MIT); see LICENSE.txt
+ */
+
+.ve-ui-mwSyntaxHighlightDialog-content .ve-ui-mwExtensionWindow-input {
+	max-width: none;
+}
+
+.ve-ui-mwSyntaxHighlightDialog-content .ve-ui-mwExtensionWindow-input textarea {
+	/* T176636 */
+	font-family: monospace, monospace;
+}
+
+.ve-ui-mwSyntaxHighlightDialog-content .ve-ui-mwSyntaxHighlightWindow-languageField,
+.ve-ui-mwSyntaxHighlightDialog-content .ve-ui-mwSyntaxHighlightWindow-startLineField {
+	max-width: 30em;
+}

@@ -1,0 +1,24 @@
+@import 'mediawiki.skin.variables.less';
+
+// `!important` rules override the inline styles provides by clippable.
+@media all and ( max-width: @max-width-breakpoint-mobile ) {
+	.mw-echo-ui-overlay {
+		.oo-ui-clippableElement-clippable {
+			width: 100% !important;
+			max-width: none !important;
+		}
+
+		.mw-echo-ui-specialHelpMenuWidget-menu {
+			max-width: 70% !important;
+		}
+
+		.oo-ui-popupWidget-popup {
+			width: 100% !important;
+		}
+
+		.mw-echo-ui-notificationBadgeButtonPopupWidget-popup {
+			left: 1px !important;
+			right: 2px;
+		}
+	}
+}

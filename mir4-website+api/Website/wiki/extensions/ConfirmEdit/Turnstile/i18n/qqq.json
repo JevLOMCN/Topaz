@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": []
+	},
+	"turnstile-desc": "{{desc}}",
+	"turnstile-edit": "Message above the CAPTCHA for edit action.\n{{related|ConfirmEdit-edit}}",
+	"turnstile-addurl": "Message above the CAPTCHA for addurl (user added new external links to the page) action.\n{{related|ConfirmEdit-addurl}}",
+	"turnstile-badlogin": "Message above the CAPTCHA for badlogin action.\n{{related|ConfirmEdit-badlogin}}",
+	"turnstile-createaccount": "Message above the CAPTCHA for createaccount (user creates a new account) action.\n{{related|ConfirmEdit-createaccount}}",
+	"turnstile-createaccount-fail": "Error message, when the CAPTCHA isn't solved correctly.\n{{related|ConfirmEdit-createaccount-fail}}",
+	"turnstile-create": "Message above the CAPTCHA for create (user creates a new page) action.\n{{related|ConfirmEdit-create}}",
+	"turnstile-help": "Explanation of how to solve the CAPTCHA for API clients."
+}

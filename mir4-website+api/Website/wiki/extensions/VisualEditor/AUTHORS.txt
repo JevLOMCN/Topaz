@@ -1,0 +1,211 @@
+@copyright 2011-2023 VisualEditor Team and others; see http://ve.mit-license.org
+
+Principal Authors (major contributors, alphabetically)
+
+Alex Monk <krenair@gmail.com>
+Bartosz Dziewoński <matma.rex@gmail.com>
+C. Scott Ananian <cscott@cscott.net>
+Christian Williams <orbit@framezero.com>
+David Lynch <dlynch@wikimedia.org>
+Ed Sanders <esanders@wikimedia.org>
+Inez Korczyński <inez@wikia-inc.com>
+James D. Forrester <jforrester@wikimedia.org>
+Moriel Schottlender <mschottlender@wikimedia.org>
+Roan Kattouw <roan.kattouw@gmail.com>
+Rob Moen <rob.moen@gmail.com>
+Subramanya Sastry <ssastry@wikimedia.org>
+Thalia Chan <thalia.e.chan@googlemail.com>
+Timo Tijhof <krinklemail@gmail.com>
+Trevor Parscal <trevorparscal@gmail.com>
+
+
+Patch Contributors (minor contributors, alphabetically)
+
+Aaron Schulz <aschulz@wikimedia.org>
+Adam Wight <spam@ludd.net>
+addshore <addshorewiki@gmail.com>
+Alexander Emsenhuber <ialex.wiki@gmail.com>
+Amir E. Aharoni <amir.aharoni@mail.huji.ac.il>
+Andrew Garrett <agarrett@wikimedia.org>
+Andrew Green <andrew.green.df@gmail.com>
+ankita-ks <kumariankita002@gmail.com>
+Antoine Musso <hashar@free.fr>
+Arlo Breault <abreault@wikimedia.org>
+Audrey Tang <audreyt@audreyt.org>
+Brad Jorsch <bjorsch@wikimedia.org>
+Brion Vibber <brion@wikimedia.org>
+Carl Fürstenberg <azatoth@gmail.com>
+cenarium <cenarium.sysop@gmail.com>
+Chad Horohoe <chadh@wikimedia.org>
+Chris McMahon <cmcmahon@wikimedia.org>
+Dan Duvall <dduvall@wikimedia.org>
+David Chan <david@troi.org>
+Derk-Jan Hartman <hartman.wiki@gmail.com>
+Deskana <dgarry@wikimedia.org>
+Douglas Gardner <douglas@chippy.ch>
+Ebrahim Byagowi <ebrahim@gnu.org>
+ecotg <ecokpo@gmail.com>
+Egbe Eugene <agboreugene@gmail.com>
+Elena Tonkovidova <etonkovidova@wikimedia.org>
+eranroz <eranroz89@gmail.com>
+Erick Guan <fantasticfears@gmail.com>
+Erik Moeller <erik@wikimedia.org>
+Federico Leva <federicoleva@tiscali.it>
+Florian <florian.schmidt.stargatewissen@gmail.com>
+Frédéric Bolduc <bolducfrederic@gmail.com>
+Gabriel Wicke <gwicke@wikimedia.org>
+Gergő Tisza <tgr.huwiki@gmail.com>
+Gilles Dubuc <gdubuc@wikimedia.org>
+Glaisher <glaisher.wiki@gmail.com>
+Helder <he7d3r@gmail.com>
+IvanFon <ivanfonseca55@gmail.com>
+Jamison Lofthouse <jamison.lofthouse@gmail.com>
+Jeff Hall <jeffreyehall@gmail.com>
+Jiabao <jiabao.foss@gmail.com>
+jo12bar <johann.b@telus.net>
+John Du Hart <johnduhart@users.mediawiki.org>
+Jon Robson <jrobson@wikimedia.org>
+Juliusz Gonera <jgonera@gmail.com>
+Justin Du <justin.d128@gmail.com>
+Kaity Hammerstein <khammerstein@wikimedia.org>
+Kunal Mehta <legoktm@gmail.com>
+Kyle Florence <kyle.florence@gmail.com>
+Legoktm <legoktm.wikipedia@gmail.com>
+Leszek Manicki <leszek.manicki@wikimedia.de>
+lokal-profil <lokal.profil@gmail.com>
+Marc Ordinas i Llopis <marcoil@wikimedia.org>
+Marielle Volz <marielle.volz@gmail.com>
+Mark A. Hershberger <mah@everybody.org>
+Mark Holmquist <mtraceur@member.fsf.org>
+Marko Obrovac <mobrovac@wikimedia.org>
+Matthew Flaschen <mflaschen@wikimedia.org>
+Matthias Mullie <git@mullie.eu>
+maurelio <strigiwm@gmail.com>
+Max Semenik <maxsem.wiki@gmail.com>
+mayankmadan <maddiemadan@gmail.com>
+Mukunda Modell <mmodell@wikimedia.org>
+Neil Kandalgaonkar <neilk@users.mediawiki.org>
+Nemo bis <federicoleva@tiscali.it>
+Niklas Laxström <niklas.laxstrom@gmail.com>
+Obaid Raza <obaidraza2526@gmail.com>
+Ori Livneh <ori@wikimedia.org>
+Paladox <thomasmulhall410@yahoo.com>
+palerdot <palerdot@gmail.com>
+Pavel Selitskas <p.selitskas@gmail.com>
+Peter Coti <petercoti@gmail.com>
+Prateek Saxena <prtksxna@gmail.com>
+Quim Gil <quimgil@gmail.com>
+rachel99 <rachelqa99@gmail.com>
+Raimond Spekking <raimond.spekking@gmail.com>
+Ricordisamoa <ricordisamoa@openmailbox.org>
+Ritsyy <richarupela95@gmail.com>
+Robert Vogel <vogel@hallowelt.biz>
+Rummana Yasmeen <ryasmeen@wikimedia.org>
+Ryan Kaldari <rkaldari@wikimedia.org>
+Sam Reed <reedy@wikimedia.org>
+Sam Smith <git@samsmith.io>
+Seb35 <seb35wikipedia@gmail.com>
+shirayuki <shirayuking@gmail.com>
+Siebrand Mazeland <s.mazeland@xs4all.nl>
+Steven Zhang <cro0016@gmail.com>
+Sucheta Ghoshal <sghoshal@wikimedia.org>
+This, that and the other <at.light@live.com.au>
+Tim Starling <tstarling@wikimedia.org>
+Tongbo Sui <beanixster@gmail.com>
+Tpt <thomaspt@hotmail.fr>
+Umherirrender <umherirrender_de.wp@web.de>
+Vikas S Yaligar <vikasyaligar.it@gmail.com>
+Volker E <volker.e@wikimedia.org>
+wctaiwan <wctaiwan@gmail.com>
+WMDE-Fisch <christoph.jauera@wikimedia.de>
+Yuki Shira <shirayuking@gmail.com>
+Željko Filipin <zeljko.filipin@gmail.com>
+
+
+Libraries used (alphabetically)
+
+Color Picker
+ – https://tovic.github.io/color-picker
+ – MIT license
+ – Taufik Nurrohman and other contributors
+
+Diff Match and Patch
+ – https://code.google.com/p/google-diff-match-patch/
+ – Apache license 2.0
+ – Google, Inc.
+
+DOMPurify
+ – https://github.com/cure53/DOMPurify
+ – Apache license 2.0 (dual with MPL 2.0)
+ – Mario Heiderich and other contributors
+
+jQuery
+ – https://jquery.com/
+ – MIT license
+ – jQuery Foundation and other contributors
+
+
+jQuery Client
+ – https://github.com/wikimedia/jquery-client
+ – MIT license
+ – jquery-client maintainers and other contributors
+
+jQuery i18n
+ – https://github.com/wikimedia/jquery.i18n
+ – MIT license (dual with GPL v2)
+ – Wikimedia Language Engineering Team and other contributors
+
+jsdifflib
+ – http://snowtide.com/jsdifflib
+ – BSD license
+ – Snowtide Informatics Systems, Inc.
+
+OOjs
+ – https://www.mediawiki.org/wiki/OOjs
+ – MIT license
+ – OOjs Team and other contributors
+
+OOjs UI
+ – https://www.mediawiki.org/wiki/OOjs_UI
+ – MIT license
+ – OOjs UI Team and other contributors
+
+PapaParse
+ – http://papaparse.com
+ – MIT license
+ – Matthew Holt and other contributors
+
+RangeFix
+ – https://github.com/edg2s/rangefix
+ – MIT license
+ – Ed Sanders and other contributors
+
+socket.io-client
+ — https://github.com/socketio/socket.io-client
+ – MIT License
+ – Guillermo Rauch and other contributors
+
+spark-md5
+ – https://github.com/satazor/js-spark-md5
+ – BSD-3-Clause (dual with WTFv2)
+ – André Cruz
+
+Tree Differ
+ – https://github.com/tchanders/treeDiffer.js
+ – MIT license
+ – Thalia Chan
+
+UnicodeJS
+ – https://www.mediawiki.org/wiki/OOjs_UI
+ – MIT license
+ – UnicodeJS Team and other contributors
+
+Universal Language Selector jQuery library
+ – https://github.com/wikimedia/jquery.uls
+ – MIT license (dual with GPL v2)
+ – Wikimedia Language Engineering Team and other contributors
+
+VisualEditor
+ – https://www.mediawiki.org/wiki/VisualEditor
+ – MIT license
+ – VisualEditor Team and other contributors

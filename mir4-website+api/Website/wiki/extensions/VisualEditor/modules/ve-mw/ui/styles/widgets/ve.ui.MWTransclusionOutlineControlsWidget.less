@@ -1,0 +1,35 @@
+@import 'mediawiki.skin.variables.less';
+
+.ve-ui-mwTransclusionOutlineControlsWidget {
+	background-color: @background-color-base;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	height: 2.5em;
+	border-top: @border-width-base @border-style-base @border-color-subtle;
+	padding: 2px;
+	display: flex;
+	align-items: flex-start;
+	justify-content: left;
+
+	&-items,
+	&-movers {
+		box-sizing: border-box;
+
+		> .oo-ui-buttonWidget.oo-ui-iconElement {
+			// Override OOUI defaults
+			margin-left: 4px;
+			margin-right: 0;
+		}
+	}
+
+	&-items > .oo-ui-buttonWidget:first-child {
+		margin-left: 0;
+	}
+
+	&-movers > .oo-ui-buttonWidget:nth-child( 2 ) {
+		// Move arrow controls closer together
+		margin-left: -4px;
+	}
+}

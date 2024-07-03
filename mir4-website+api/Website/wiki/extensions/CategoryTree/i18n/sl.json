@@ -1,0 +1,38 @@
+{
+	"@metadata": {
+		"authors": [
+			"Dbc334",
+			"Eleassar",
+			"Freakolowsky",
+			"editors of sl.wikipedia"
+		]
+	},
+	"categorytree": "Drevo kategorij",
+	"categorytree-portlet": "Kategorije",
+	"categorytree-legend": "Prikaži drevo kategorij",
+	"categorytree-desc": "Dinamična navigacija po [[Special:CategoryTree|strukturi kategorij]]",
+	"categorytree-header": "Vnesite ime kategorije, da si ogledate njeno vsebino kot drevesno strukturo. (Zahteva JavaScript.)",
+	"categorytree-category": "Kategorija:",
+	"categorytree-go": "Pokaži drevo",
+	"categorytree-parents": "Starši",
+	"categorytree-mode-label": "Način:",
+	"categorytree-mode-categories": "samo kategorije",
+	"categorytree-mode-pages": "strani razen slik",
+	"categorytree-mode-all": "vse strani",
+	"categorytree-collapse": "strni",
+	"categorytree-expand": "razširi",
+	"categorytree-member-counts": "vsebuje $1 {{PLURAL:$1|podkategorijo|podkategoriji|podkategorije|podkategorij}}, $2 {{PLURAL:$2|stran|strani|strani}} in $3 {{PLURAL:$3|datoteko|datoteki|datoteke|datotek}}",
+	"categorytree-num-categories": "$1 K",
+	"categorytree-num-pages": "$1 S",
+	"categorytree-num-files": "$1 D",
+	"categorytree-num-empty": "prazno",
+	"categorytree-load": "naloži",
+	"categorytree-loading": "nalagam",
+	"categorytree-nothing-found": "ni zadetkov",
+	"categorytree-no-subcategories": "ni podkategorij",
+	"categorytree-no-parent-categories": "ni starševskih kategorij",
+	"categorytree-no-pages": "ni strani ali podkategorij",
+	"categorytree-not-found": "Kategorije <i>$1</i> ni mogoče najti",
+	"categorytree-error": "Težava pri nalaganju podatkov.",
+	"categorytree-retry": "Prosimo, počakajte trenutek in poskusite znova."
+}

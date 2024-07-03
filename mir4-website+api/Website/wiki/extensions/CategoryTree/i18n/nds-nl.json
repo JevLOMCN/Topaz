@@ -1,0 +1,35 @@
+{
+	"@metadata": {
+		"authors": [
+			"Servien"
+		]
+	},
+	"categorytree": "Kategoryboum",
+	"categorytree-portlet": "Kategoryen",
+	"categorytree-legend": "Låt kategorieboum seen",
+	"categorytree-desc": "Dynamiske navigaty vöär de [[Special:CategoryTree|kategorystruktuur]]",
+	"categorytree-header": "Voor een kategoryname in üm de inhold in boumstruktuur te bekyken. (Vereist JavaScript.)",
+	"categorytree-category": "Kategory:",
+	"categorytree-go": "Låt kategoryboum seen",
+	"categorytree-parents": "Boavenkategoryen",
+	"categorytree-mode-label": "Modus:",
+	"categorytree-mode-categories": "allinnig kategoryen",
+	"categorytree-mode-pages": "syden, geen afbealdingen",
+	"categorytree-mode-all": "alle syden",
+	"categorytree-collapse": "samenvolden",
+	"categorytree-expand": "uutklappen",
+	"categorytree-member-counts": "der {{PLURAL:$1|is eyn underkategory|bint $1 underkategoryen}}, {{PLURAL:$2|eyn syde|$2 syden}} en {{PLURAL:$3|eyn bestand|$3 bestanden}}",
+	"categorytree-num-categories": "$1 C",
+	"categorytree-num-pages": "$1 P",
+	"categorytree-num-files": "$1 B",
+	"categorytree-num-empty": "leadig",
+	"categorytree-load": "laden",
+	"categorytree-loading": "an et laden...",
+	"categorytree-nothing-found": "niks vünden",
+	"categorytree-no-subcategories": "geen subkategoryen",
+	"categorytree-no-parent-categories": "geen boavenkategoryen",
+	"categorytree-no-pages": "geen syden of subkategoryen",
+	"categorytree-not-found": "Kategory <i>$1</i> neet vünden",
+	"categorytree-error": "Probleem by et laden van de gegeavens.",
+	"categorytree-retry": "Wacht eaven en probeer et noch es."
+}

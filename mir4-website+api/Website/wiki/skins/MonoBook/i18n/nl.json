@@ -1,0 +1,25 @@
+{
+	"@metadata": {
+		"authors": [
+			"Mainframe98",
+			"McDutchie",
+			"Siebrand",
+			"Sjoerddebruin"
+		]
+	},
+	"skinname-monobook": "Monobook",
+	"monobook-desc": "De klassieke MediaWiki-vormgeving sinds 2004, genoemd naar de zwart-witfoto van een boek op de achtergrond van de pagina",
+	"monobook.css": "/* Alle hier geplaatste CSS-code wordt geladen voor gebruikers van de vormgeving MonoBook */",
+	"monobook.js": "/* Alle hier geplaatste JavaScript-code wordt geladen voor gebruikers van de vormgeving MonoBook */",
+	"monobook-jumptotop": "terug naar boven",
+	"monobook-jumptopersonal": "gebruikershulpmiddelen",
+	"monobook-jumptonavigation": "Naar navigatie springen",
+	"monobook-jumptosearch": "Naar zoeken springen",
+	"monobook-more-actions": "Meer",
+	"cactions-mobile": "Pagina-handelingen",
+	"monobook-cactions-label": "Pagina-handelingen",
+	"monobook-notifications-link": "Meldingen ($1)",
+	"monobook-notifications-link-none": "Meldingen",
+	"monobook-view-history": "Geschiedenis",
+	"monobook-action-undelete": "{{PLURAL:$1|één bewerking|$1 bewerkingen}} terugplaatsen"
+}

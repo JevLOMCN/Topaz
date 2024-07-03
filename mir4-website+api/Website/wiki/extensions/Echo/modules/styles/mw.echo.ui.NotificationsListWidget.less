@@ -1,0 +1,9 @@
+@import 'mediawiki.skin.variables.less';
+@import '../echo.variables.less';
+
+.mw-echo-ui-notificationsListWidget {
+	&:not( :hover ) a,
+	#p-personal &:not( :hover ) a.new { /* stylelint-disable-line selector-class-pattern */
+		color: @color-subtle;
+	}
+}

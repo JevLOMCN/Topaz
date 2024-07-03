@@ -1,0 +1,34 @@
+{
+	"@metadata": {
+		"authors": [
+			"Bugoslav",
+			"Dalibor Bosits",
+			"Dnik",
+			"Ex13",
+			"Herr Mlinka",
+			"MaGa",
+			"Roberta F.",
+			"SpeedyGonsales"
+		]
+	},
+	"captcha-edit": "Da biste uredili ovu stranicu, riješite sljedeći zadatak ispod i upišite odgovor u polje ([[Special:Captcha/help|više obavijesti]]):",
+	"captcha-edit-fail": "Netočan ili nedostajući unos CAPTCHA.",
+	"captcha-desc": "Pruža CAPTCHA tehnike za zaštitu od neželjene pošte (spam-a) i pogađanja zaporke",
+	"captcha-help": "Rješenje za unos CAPTCHA",
+	"captcha-info-help": "Opis CAPTCHA.",
+	"captcha-id-label": "Identifikator CAPTCHA",
+	"captcha-id-help": "Vrijednost treba biti unesena nepromijenjena.",
+	"captcha-addurl": "Vaše uređivanje sadrži nove vanjske poveznice. Kao zaštitu od automatskog spama, trebate unijeti slova koja vidite na slici: <br />([[Special:Captcha/help|Pomoć?]])",
+	"captcha-badlogin": "U cilju zaštite wikija od automatiziranog probijanja zaporki, molimo Vas da riješite naredni zadatak ispod i upišite rezultat u polje ([[Special:Captcha/help|dotatne obavijesti]]):",
+	"captcha-createaccount": "U cilju zaštite wikija od automatiziranoga stvaranja računa, ljubazno Vas molimo da riješite naredni zadatak ispod i upišite odgovor u donje polje ([[Special:Captcha/help|dodatne obavijesti]]):",
+	"captcha-createaccount-fail": "Nepotpun ili netočan CAPTCHA.",
+	"captcha-create": "Da biste stvorili stranicu, riješite naredni zadatak ispod i upišite odgovor u donje polje ([[Special:Captcha/help|više obavijesti]]):",
+	"captcha-sendemail": "Da bi ste nam pomogli protiv automatskog spama, molimo riješite jednostavan zadatak zbrajanja ispod i unesite rezultat u okvir ([[Special:Captcha/help|više informacija]]):",
+	"captcha-sendemail-fail": "Nepotpun ili netočan CAPTCHA.",
+	"captcha-disabledinapi": "Ova akcija traži captchu, tako da se ne može izvršiti preko API-ja.",
+	"captchahelp-title": "Pomoć u svezi s CAPTCHA-om",
+	"captchahelp-cookies-needed": "Trebate imati uključene kolačiće (''cookies'') u vašem web pregledniku za ovu funkciju.",
+	"captchahelp-text": "Internetske stranice koje prihvaćaju doprinose čitatelja, poput ovoga wikija, često zloupotrebljavaju spameri, zlorabeći automatizirane alate pomoću kojih postavljaju svoje poveznice na mnoge stranice.\nIako se te spam poveznice mogu uklanjati, one predstavljaju značajne neugodnost pri radu.\n\nPonekad, a naročito kad se dodaje web poveznica na stranicu, wiki može prikazati sliku obojenog ili iskrivljenog teksta uz zahtjev za unos prikazanih riječi.\nBudući da je takvu radnju teško automatizirati, to će omogućiti istinskim suradnicima nastavak u pridonošenju, dok će zaustaviti većinu spamera i robotskih napadača.\n\nNa žalost, ovo može smetati suradnicima koji koriste tekstualne preglednike ili one glasovno bazirane. Trenutačno ne postoji glasovna podrška za to.\nMolimo obratite se [[Special:ListAdmins|administratorima]] za pomoć, ukoliko Vas ovo ometa pri dodavanju valjana sadržaja.\n\nPritisnite u svom pregledniku 'nazad' kako bi se vratili na uređivač stranice.",
+	"captcha-addurl-whitelist": " #<!-- leave this line exactly as it is --> <pre>\n# Rabi se sljedeća sintaksa:\n#   * Sve od \"#\" znaka do kraja linije je komentar\n#   * Svaki je neprazni redak regularni izraz (regex) koji odgovara poslužitelju unutar URL-a\n  #</pre> <!-- leave this line exactly as it is -->",
+	"right-skipcaptcha": "Izvođenje akcija koje pokreću captcha bez prolaženja kroz captcha sustav"
+}

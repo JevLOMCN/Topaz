@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"Eleassar"
+		]
+	},
+	"apihelp-flowthank-summary": "Pošljite javno obvestilo o zahvali za komentar Flow.",
+	"apihelp-flowthank-param-postid": "UUID objave, za katero se želite zahvaliti.",
+	"apihelp-flowthank-example-1": "Pošljite zahvalo za komentar z <kbd>UUID xyz789</kbd>",
+	"apihelp-thank-summary": "Pošlje obvestilo o zahvali urejevalcu.",
+	"apihelp-thank-param-rev": "ID redakcije za zahvalo nekomu. Predloženo mora biti to ali »log«.",
+	"apihelp-thank-param-log": "ID dnevnika za zahvalo nekomu. Predloženo mora biti to ali »rev«.",
+	"apihelp-thank-param-source": "Kratek niz, ki opisuje vir zahtevka, na primer <kbd>diff</kbd> ali <kbd>history</kbd>.",
+	"apihelp-thank-example-1": "Pošlje zahvalo za redakcijo <kbd>ID 456</kbd>, pri čemer je vir stran razlike"
+}

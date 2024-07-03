@@ -1,0 +1,20 @@
+{
+	"@metadata": {
+		"authors": [
+			"Gomoko",
+			"Orlodrim",
+			"Urhixidur",
+			"Verdy p",
+			"Wladek92"
+		]
+	},
+	"renocaptcha-desc": "Module reCAPTCHA NoCAPTCHA pour la confirmation humaine de modification",
+	"renocaptcha-edit": "Pour protéger le wiki contre le pollupostage par modifications automatisées, nous vous demandons de bien vouloir résoudre le CAPTCHA suivant :",
+	"renocaptcha-addurl": "Votre édition comprend de nouveaux liens externes. Pour protéger le wiki contre le pollupostage automatisé, nous vous demandons de bien vouloir résoudre le CAPTCHA suivant :",
+	"renocaptcha-badlogin": "Pour protéger le wiki contre le cassage automatisé des mots de passe, nous vous prions de bien vouloir résoudre le CAPTCHA suivant :",
+	"renocaptcha-createaccount": "Pour protéger le wiki contre la création automatisée de comptes, nous vous prions de bien vouloir résoudre le CAPTCHA suivant :",
+	"renocaptcha-createaccount-fail": "Il semble que vous n’ayez pas résolu le CAPTCHA.",
+	"renocaptcha-create": "Pour protéger le wiki contre la création automatisée de pages, nous vous prions de bien vouloir résoudre le CAPTCHA suivant :",
+	"renocaptcha-noscript": "Malheureusement, vous avez désactivé JavaScript ; nous ne pouvons donc pas reconnaître automatiquement si vous êtes un humain ou pas. Veuillez résoudre le CAPTCHA ci-dessus et en saisir le résultat dans le champ de texte suivant :",
+	"renocaptcha-help": "Veuillez résoudre un défi ReCaptcha NoCaptcha et renvoyer la valeur de la réponse comme captchaWord."
+}

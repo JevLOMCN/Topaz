@@ -1,0 +1,20 @@
+{
+	"@metadata": {
+		"authors": [
+			"Als-Chlämens",
+			"Als-Holder"
+		]
+	},
+	"imagemap_desc": "Macht s Aalege vu verwyys-sensitive Grafike ''(image maps)'' megli mit dr Hilf vu dr <code>&lt;imagemap&gt;</code>-Syntax",
+	"imagemap_no_image": "Fähler: in dr erschte Zyylete muess e Bild aagee wäre",
+	"imagemap_invalid_image": "Fähler: Bild ist nit giltig oder s git s nit",
+	"imagemap_bad_image": "Fähler: S Bild stoht uf dr Lischt vu nit gwinschte Bilder",
+	"imagemap_no_link": "Fähler: Am Änd vu Zyyle $1 isch kei giltige Link gfunde wore",
+	"imagemap_invalid_title": "Fähler: uugiltiger Titel im Link in dr Zyyle $1",
+	"imagemap_missing_coord": "Fähler: Z wenig Koordinate in dr Zyyle $1 fir dr Umriss",
+	"imagemap_unrecognised_shape": "Fähler: Nit bekannti Umrissform in dr Zyyle $1. Jedi Zyyle muess mit eim vu däne Parameter aafange: <tt><code>default</code>, <code>rect</code>, <code>circle</code></tt> oder <tt><code>poly</code></tt>",
+	"imagemap_invalid_coord": "Fähler: Uugiltigi Koordinate in dr Zyyle $1: s sin nume Zahle erlaubt",
+	"imagemap_invalid_desc": "Fähler: Uugiltige „desc“-Parameter, megli sin: <code>$1</code>",
+	"imagemap_description": "Iber des Bild",
+	"imagemap_poly_odd": "Fähler: Polygon mit ere uugrade Anzahl vu Koordinate in dr Zyyle $1"
+}

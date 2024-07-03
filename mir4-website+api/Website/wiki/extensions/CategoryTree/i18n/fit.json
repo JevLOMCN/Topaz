@@ -1,0 +1,34 @@
+{
+	"@metadata": {
+		"authors": [
+			"Mestos",
+			"Pyscowicz",
+			"Ville Ullgren"
+		]
+	},
+	"categorytree": "Katekuuripuu",
+	"categorytree-portlet": "Katekuurit",
+	"categorytree-legend": "Näytä katekuuripuu",
+	"categorytree-header": "Syötä alle luokka jonka haluat nähhä puumuoossa. Tämä toiminalisuus vaatii kehittynheen JavaScript-tuen, jota kuttuthaan AJAXiksi. Jos sulla on vanhaa selain, eli JavaScript ei ole päälä, tämä ominaisuus ei toimi",
+	"categorytree-category": "Katekuuri:",
+	"categorytree-go": "Näytä puu",
+	"categorytree-parents": "Yläkatekuurit",
+	"categorytree-mode-categories": "vain katekuurit",
+	"categorytree-mode-pages": "kaikki sivut kuvia lukhuun ottamatta",
+	"categorytree-mode-all": "kaikki sivut",
+	"categorytree-collapse": "piilota",
+	"categorytree-expand": "näytä",
+	"categorytree-member-counts": "Sisältää {{PLURAL:$1|1 alakatekuurin|$1 alakatekuuria}}, {{PLURAL:$2|1 sivun|$2 sivua}} ja {{PLURAL:$3|1 fiili|$3 fiiliä}}",
+	"categorytree-num-categories": "$1 K",
+	"categorytree-num-pages": "$1 S",
+	"categorytree-num-files": "$1 F",
+	"categorytree-load": "näytä",
+	"categorytree-loading": "haethaan",
+	"categorytree-nothing-found": "ei mithään löyetty",
+	"categorytree-no-subcategories": "ei alakatekuureja",
+	"categorytree-no-parent-categories": "ei yläkatekuureja",
+	"categorytree-no-pages": "ei sivuja eikä alakatekuureja",
+	"categorytree-not-found": "Katekuuria <i>$1</i> ei löytyny",
+	"categorytree-error": "Prupleemia tieoitten lattaamisessa",
+	"categorytree-retry": "Oota vähän aikaa ja yritä uuesti"
+}

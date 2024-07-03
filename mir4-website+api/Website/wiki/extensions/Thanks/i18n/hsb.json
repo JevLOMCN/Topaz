@@ -1,0 +1,28 @@
+{
+	"@metadata": {
+		"authors": [
+			"J budissin",
+			"Michawiki",
+			"Mikławš"
+		]
+	},
+	"thanks-desc": "Přidawa dźakne wotkazy historiji a wersijowym rozdźělam",
+	"thanks-thank": "{{GENDER:$1|{{GENDER:$2|so podźakować}}}}",
+	"thanks-thanked": "{{GENDER:$1|je so dźakował|je so dźakowała}}",
+	"thanks-button-thank": "{{GENDER:$1|Dźakować so}}",
+	"thanks-button-thanked": "{{GENDER:$1|Je so dźakował|Je so dźakowała}}",
+	"thanks-error-undefined": "Dźakowanje je so njeporadźiło. Prošu spytaj hišće raz.",
+	"thanks-error-invalidrevision": "Wersijowy ID njeje płaćiwy.",
+	"thanks-error-invalidrecipient-self": "Njemóžeš so sebi samomu dźakować",
+	"thanks-error-ratelimited": "{{GENDER:$1|Ty}} sy swój akciski limit {{GENDER:$1|překročił|překročiła}}. Prošu čakaj chwilku a spytaj hišće raz.",
+	"thanks-thank-tooltip": "Dźaknu źdźělenku {{GENDER:$2|tutomu wužiwarjej|wužiwarce}} {{GENDER:$1|pósłać}}",
+	"thanks-confirmation2": "Chceš so za tule změnu zjawnje {{GENDER:$1|podźakować}}?",
+	"thanks-thanked-notice": "$1 je so {{GENDER:$1|informował|informowała}}, zo {{GENDER:$2|jeho|jeje}} změna je ći spodobała.",
+	"thanks": "Dźak pósłać",
+	"echo-pref-subscription-edit-thank": "Dźakuje so mi za moju změnu",
+	"echo-pref-tooltip-edit-thank": "Informuj mje, hdyž něchtó dźakuje so mje za změnu, kotruž sym činił.",
+	"echo-category-title-edit-thank": "Wulki dźak",
+	"log-name-thanks": "Dźakny protokol",
+	"log-description-thanks": "Deleka je lisćina wužiwarjow, kotrymž su so druzy wužiwarjo dźakowali.",
+	"logentry-thanks-thank": "$1 je {{GENDER:$4|$3}} {{GENDER:$2|dźakował|dźakowała}}"
+}

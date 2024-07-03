@@ -1,0 +1,16 @@
+{
+	"@metadata": {
+		"authors": [
+			"Amire80",
+			"Guycn2"
+		]
+	},
+	"apihelp-templatedata-summary": "אחזור נתונים שמאוחסנים בהרחבה TemplateData.",
+	"apihelp-templatedata-example-1": "מחזירה נתוני תבנית (TemplateData) עבור [[Template:Foobar]], עם תוצאות אם התבנית אינה קיימת או שקיימת, אך אין לה נתוני תבנית.",
+	"apihelp-templatedata-example-2": "מחזיר נתוני תבנית עבור [[Template:Phabricator]], ללא תוצאות אם התבנית אינה קיימת או שקיימת, אך אין לה נתוני תבנית.",
+	"apihelp-templatedata-param-includeMissingTitles": "החזרת מידע על כותרות גם אם הן לא קיימות או אינן מכילות נתוני תבנית. כברירת מחדל, כותרות מוחזרות רק אם הן קיימות ורק אם יש להן נתוני תבנית.",
+	"apihelp-templatedata-param-doNotIgnoreMissingTitles": "מחזיר נתונים על כותרות אף אם הן חסרות או שאין בהן נתוני תבנית. לפי ברירת המחדל (לשם תאימות לאחור) כותרות מוחזרות רק אם הן קיימות ויש בהן נתוני תבנית.",
+	"apihelp-templatedata-param-lang": "להחזיר ערכים מתורגמים בשפה הזאת. ברירת המחדל היא להחזיר את כל התרגומים הזמינים.",
+	"apierror-templatedata-corrupt": "נתוני התבנית של דף #$1 מכילים נתונים בלתי־תקינים: $2",
+	"apiwarn-templatedata-deprecation-format": "ברירת המחדל לתסדיר הפלט תשתנה ל־<kbd>jsonfm</kbd> בעתיד. נא להגדיר <kbd>format=json</kbd> במפורש."
+}

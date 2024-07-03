@@ -1,0 +1,34 @@
+{
+	"@metadata": {
+		"authors": [
+			"David Wadie Fisher-Freberg",
+			"Iwan Novirion"
+		]
+	},
+	"categorytree": "Pohon kategori",
+	"categorytree-portlet": "Kategori",
+	"categorytree-legend": "Tunjuakan pohon kategori",
+	"categorytree-desc": "Manavigasi sacaro dinamih [[Special:CategoryTree|struktur kategori]]",
+	"categorytree-header": "Masuakan namo kategori untuak maliek isinyo sabagai struktur pohon. (Mambutuahkan JavaScript.)",
+	"categorytree-category": "Kategori:",
+	"categorytree-go": "Tunjuakan",
+	"categorytree-mode-label": "Mode:",
+	"categorytree-mode-categories": "hanyo kategori",
+	"categorytree-mode-pages": "laman salain berkas",
+	"categorytree-mode-all": "kasado laman",
+	"categorytree-collapse": "tutuik",
+	"categorytree-expand": "kambangkan",
+	"categorytree-member-counts": "Baisi {{PLURAL:$1|$1 subkategori}}, {{PLURAL:$2|$2 laman}}, jo {{PLURAL:$3|$3 berkas}}",
+	"categorytree-num-categories": "$1 C",
+	"categorytree-num-pages": "$1 P",
+	"categorytree-num-files": "$1 B",
+	"categorytree-num-empty": "kosong",
+	"categorytree-load": "muek",
+	"categorytree-loading": "mamuek...",
+	"categorytree-nothing-found": "indak basobok",
+	"categorytree-no-subcategories": "indak ado subkategori",
+	"categorytree-no-pages": "indak ado laman atau subkategori",
+	"categorytree-not-found": "Kategori <i>$1</i> indak basobok",
+	"categorytree-error": "Problem mamuek data.",
+	"categorytree-retry": "Tunggu sabanta dan cubo lai."
+}

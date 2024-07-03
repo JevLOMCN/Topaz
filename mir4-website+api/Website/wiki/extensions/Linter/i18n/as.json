@@ -1,0 +1,41 @@
+{
+	"@metadata": {
+		"authors": [
+			"Mohsin Ali",
+			"Simbu123"
+		]
+	},
+	"linterrors": "লিণ্ট ত্ৰুটিসমূহ",
+	"linter-category-bogus-image-options": "ভুৱা ফাইল বিকল্প",
+	"linter-category-bogus-image-options-desc": "এই পৃষ্ঠাবোৰত ভুৱা বিকল্পথকা ফাইল আছে।",
+	"linter-category-deletable-table-tag": "বিলোপ কৰিব লগা টেবুল টেগ",
+	"linter-category-deletable-table-tag-desc": "এই পৃষ্ঠাবোৰত টেবুল টেগ আছে যাক বিলোপ কৰিব লাগে।",
+	"linter-category-fostered": "ফষ্টাৰড সমল",
+	"linter-category-fostered-desc": "এই পৃষ্ঠাবোৰত ফষ্টাৰড সমল আছে।",
+	"linter-category-html5-misnesting": "এইচটিএমএল ৫ আৰু এইচটিএমএল ৪-ত বিভিন্ন ৰেণ্ডাৰিংৰ সৈতে ভুলকৈ নেষ্ট কৰা টেগ",
+	"linter-category-html5-misnesting-desc": "এই ভুলকৈ নেষ্ট কৰা টেগবোৰে এইচটিএমএল ৪-ৰ তুলনাত এইচটিএমএল ৫-ত বেলেগ ধৰণে আচৰণ কৰে।",
+	"linter-category-misc-tidy-replacement-issues": "বিবিধ সমস্যা",
+	"linter-category-misc-tidy-replacement-issues-desc": "এই পৃষ্ঠাবোৰত আন কিছু সমস্যা আছে যাৰ ফলত সেইবোৰ আগতে কেনেদৰে দেখা গৈছিল তাৰ পৰা পৃথকভাৱে দেখা গৈছে",
+	"linter-category-misnested-tag": "ভুলকৈ নেষ্ট কৰা টেগ",
+	"linter-category-misnested-tag-desc": "এই পৃষ্ঠাবোৰত ভুলকৈ নেষ্ট কৰা টেগ আছে যিবোৰ ঠিক কৰিব পাৰি।",
+	"linter-category-missing-end-tag": "সমাপ্তি টেগ অনুপস্থিত",
+	"linter-category-missing-end-tag-desc": "এই পৃষ্ঠাবোৰত সমাপ্তি টেগ অনুপস্থিত আছে।",
+	"linter-category-multi-colon-escape": "বহু ক'ল'ন এস্কেপ",
+	"linter-category-multi-colon-escape-desc": "এই পৃষ্ঠাবোৰত একাধিক ক'ল'নৰ উপসৰ্গ থকা লিংক আছে।",
+	"linter-category-multiline-html-table-in-list": "তালিকাত বহু লাইনৰ টেবুল",
+	"linter-category-multiline-html-table-in-list-desc": "পূৰ্বতে টেবুলবোৰ তালিকাৰ ভিতৰত বা বাহিৰত স্থানান্তৰ কৰা হৈছিল, কিন্তু এতিয়া ই তালিকাখন বাকী পৃষ্ঠালৈ প্ৰসাৰিত কৰে।",
+	"linter-form-namespace": "নামস্থান:",
+	"linter-heading-high-priority": "উচ্চ অগ্ৰাধিকাৰ",
+	"linter-heading-low-priority": "নিম্ন অগ্ৰাধিকাৰ",
+	"linter-heading-medium-priority": "মধ্যম অগ্ৰাধিকাৰ",
+	"linter-numerrors": "($1টা {{PLURAL:$1|ত্ৰুটি}})",
+	"linter-page-edit": "সম্পাদনা কৰক",
+	"linter-page-history": "ইতিহাস",
+	"linter-page-viewsource": "উৎস চাওক",
+	"linter-pager-bogus-image-options-details": "ভুৱা ফাইল বিকল্প",
+	"linter-pager-missing-end-tag-details": "সমাপ্তি টেগ নিৰুদ্দেশ",
+	"linter-pager-title-header": "পৃষ্ঠাৰ শিৰোনাম",
+	"linterrors-subpage": "লিণ্ট ত্ৰুটি: $1",
+	"linterrors-summary": "<strong>টোকা:</strong> শ্ৰেণীবোৰৰ বাবে গণনাবোৰ সঠিক গণনা নহয়, এয়া কেৱল আনুমানিকহে।",
+	"pageinfo-linter": "লিণ্ট ত্ৰুটিসমূহ"
+}

@@ -1,0 +1,10 @@
+/**
+ * Hide math tag completely to avoid extra bounding boxes for Chrome, Safari, Android...
+ * Browser-specific hacks are bad but let's use that for now...
+ * See http://browserhacks.com
+ */
+@media screen and ( -webkit-min-device-pixel-ratio: 0 ) {
+	.ve-ce-mwLatexNode .mwe-math-mathml-a11y {
+		display: none !important; /* stylelint-disable-line declaration-no-important */
+	}
+}

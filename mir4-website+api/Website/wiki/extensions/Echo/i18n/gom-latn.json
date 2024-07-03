@@ -1,0 +1,34 @@
+{
+	"@metadata": {
+		"authors": [
+			"The Discoverer"
+		]
+	},
+	"prefs-echo": "Kollovnnio",
+	"echo-learn-more": "Odik xikun ghe",
+	"notifications": "Kollovnnio",
+	"tooltip-pt-notifications-alert": "{{GENDER:|Tujeo}} chotraio",
+	"tooltip-pt-notifications-notice": "Tujeo kollovnnio",
+	"echo-specialpage": "Kollovnnio",
+	"echo-specialpage-pagefilters-title": "Halinchem kario",
+	"echo-specialpage-pagefilters-subtitle": "Vachunk naslelo kollovnio aslelim panam",
+	"echo-notification-placeholder": "Kaich kollovnnio nan",
+	"notification-link-text-expand-notice-count": "{{PLURAL:$1|$1 kollovnni|$1 kollovnnio}} polloi",
+	"notification-timestamp-ago-seconds": "{{PLURAL:$1|$1s}}",
+	"notification-timestamp-ago-minutes": "{{PLURAL:$1|$1mi}}",
+	"notification-timestamp-ago-hours": "{{PLURAL:$1|$1vr}}",
+	"notification-timestamp-ago-days": "{{PLURAL:$1|$1d}}",
+	"notification-timestamp-ago-months": "{{PLURAL:$1|$1mh}}",
+	"notification-timestamp-ago-years": "{{PLURAL:$1|$1vrs}}",
+	"notification-timestamp-today": "Aiz",
+	"notification-timestamp-yesterday": "Kal",
+	"notification-inbox-filter-read": "Vach",
+	"notification-inbox-filter-unread": "Vachunk naslele",
+	"notification-inbox-filter-all": "Sogllem",
+	"echo-notification-notice": "{{PLURAL:$1|Kollovnni ($1)|Kollovnnio ($1)|100=Kollovnnio (99+)}}",
+	"echo-notification-alert-text-only": "Chotraio",
+	"echo-notification-notice-text-only": "Kollovnnio",
+	"echo-overlay-link": "Soglleo kollovnnio",
+	"echo-displaysnippet-title": "Novi kollovnni",
+	"echo-email-batch-link-text-view-all-notifications": "Soglleo kollovnnio polloi"
+}

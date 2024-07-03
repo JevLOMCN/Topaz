@@ -1,0 +1,28 @@
+@import 'mediawiki.skin.variables.less';
+
+.mw-inputbox-centered {
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+.mw-inputbox-inline {
+	display: inline;
+}
+
+.mw-inputbox-element.mw-inputbox-element {
+	display: inline-table;
+	white-space: nowrap;
+}
+
+.mw-inputbox-input {
+	margin-bottom: 0.5em;
+}
+
+.mw-inputbox-createbox:required:invalid ~ .mw-ui-button {
+	// appear like .mw-ui-input:disabled
+	background-color: @background-color-disabled;
+	color: @color-inverted;
+	border-color: @border-color-disabled;
+	cursor: @cursor-base--disabled;
+}

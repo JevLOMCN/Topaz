@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"SatyamMishra"
+		]
+	},
+	"pfunc_time_error": "खराबी: अबैध समय।",
+	"pfunc_expr_unrecognised_word": "एक्सप्रेशन खराबी: नामालूम शब्द \"$1\"।",
+	"pfunc_expr_unexpected_operator": "एक्सप्रेशन खराबी: $1 आपरेटर जेकर उमेद ना रहल।",
+	"pfunc_expr_missing_operand": "एक्सप्रेशन खराबी: $1 खातिर गायब क्रिया-चीन्हा (Operand)!",
+	"pfunc_expr_unrecognised_punctuation": "एक्सप्रेशन खराबी: नामालूम चीन्हा \"$1\"।",
+	"pfunc_expr_division_by_zero": "जीरो से भाग."
+}

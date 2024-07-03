@@ -1,0 +1,29 @@
+{
+	"@metadata": {
+		"authors": [
+			"Susith Chandira Gts",
+			"SusithCM",
+			"පසිඳු කාවින්ද",
+			"හරිත",
+			1100100
+		]
+	},
+	"echo-desc": "නිවේදන පද්ධතිය",
+	"prefs-echo": "නිවේදන",
+	"echo-pref-email-frequency-never": "මට විද්‍යුත්-තැපැල් නිවේදන කිසිවක් එවන්න එපා",
+	"echo-pref-email-frequency-immediately": "තනි තනි නිවේදන ඒවා එන විට",
+	"echo-pref-email-frequency-daily": "නිවේදනවල දෛනික සාරාංශයක්",
+	"echo-pref-email-frequency-weekly": "නිවේදනවල සතිපතා සාරාංශයක්",
+	"notifications": "නිවේදන",
+	"tooltip-pt-notifications-alert": "{{GENDER:|ඔබේ}} දැනුම්දීම්",
+	"echo-specialpage": "නිවේදන",
+	"echo-none": "ඔබට නිවේදන කිසිවක් නොමැත.",
+	"notification-edit-talk-page-email-subject2": "$1 විසින් ඔබ හට {{SITENAME}} හි පණිවුඩයක් {{GENDER:$2|තබා ඇත}}.",
+	"notification-mention-email-subject": "$1 විසින් ඔබව {{SITENAME}} හි {{GENDER:$2|සඳහන් කර}} ඇත.",
+	"echo-overlay-link": "සියලුම නිවේදන",
+	"echo-overlay-title": "<b>නිවේදන</b>",
+	"echo-date-today": "අද",
+	"echo-date-yesterday": "පෙරදින",
+	"echo-email-batch-subject-daily": "ඔබට අද {{PLURAL:$2|නිවේදන}} $1 ඇත",
+	"echo-email-batch-subject-weekly": "ඔබට මෙම සතියේ {{PLURAL:$2|නිවේදන}} $1 ඇත"
+}

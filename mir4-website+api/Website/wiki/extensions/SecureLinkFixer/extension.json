@@ -1,0 +1,34 @@
+{
+	"name": "SecureLinkFixer",
+	"license-name": "GPL-3.0-or-later",
+	"url": "https://www.mediawiki.org/wiki/Extension:SecureLinkFixer",
+	"author": [
+		"Kunal Mehta"
+	],
+	"descriptionmsg": "securelinkfixer-desc",
+	"type": "other",
+	"requires": {
+		"MediaWiki": ">= 1.42"
+	},
+	"AutoloadNamespaces": {
+		"MediaWiki\\SecureLinkFixer\\": "includes/"
+	},
+	"MessagesDirs": {
+		"SecureLinkFixer": "i18n"
+	},
+	"HookHandlers": {
+		"main": {
+			"class": "MediaWiki\\SecureLinkFixer\\Hooks",
+			"services": [
+				"HSTSPreloadLookup"
+			]
+		}
+	},
+	"Hooks": {
+		"LinkerMakeExternalLink": "main"
+	},
+	"ServiceWiringFiles": [
+		"includes/ServiceWiring.php"
+	],
+	"manifest_version": 2
+}

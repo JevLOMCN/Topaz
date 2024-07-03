@@ -1,0 +1,24 @@
+{
+	"@metadata": {
+		"authors": [
+			"Piramidion",
+			"Ата"
+		]
+	},
+	"apihelp-query+extracts-summary": "Видає звичайний текст або обмежені уривки HTML заданих сторінок.",
+	"apihelp-query+extracts-param-chars": "Скільки символів виводити. Дійсно виданий текст може бути дещо довшим.",
+	"apihelp-query+extracts-param-sentences": "Скільки речень виводити.",
+	"apihelp-query+extracts-param-limit": "Скільки уривків виводити. (Кілька уривків може виводитися, тільки якщо exintro має значення true.)",
+	"apihelp-query+extracts-param-intro": "Виводити лише вміст до першого розділу.",
+	"apihelp-query+extracts-param-plaintext": "Виводити уривки у вигляді звичайного тексту замість обмеженого HTML.",
+	"apihelp-query+extracts-param-sectionformat": "Як форматувати розділи у режимі звичайного тексту:",
+	"apihelp-query+extracts-paramvalue-sectionformat-plain": "Без форматування.",
+	"apihelp-query+extracts-paramvalue-sectionformat-wiki": "Форматування у вікістилі (== отак ==).",
+	"apihelp-query+extracts-paramvalue-sectionformat-raw": "Зовнішнє представлення цього модуля (назви розділів матимуть префікс &lt;ASCII 1&gt;&lt;ASCII 2&gt;&lt;section level&gt;&lt;ASCII 2&gt;&lt;ASCII 1&gt;).",
+	"apihelp-query+extracts-example-1": "Отримати 175-символьний уривок",
+	"apiwarn-textextracts-limit": "<var>exlimit</var> був надто великим для виконання запиту з видобування цілої статті; понижено до $1.",
+	"apiwarn-textextracts-unsupportedmodel": "$1 має контентну модель $2, яка не підтримується; повертаємо порожній витяг.",
+	"apiwarn-textextracts-title-in-file-namespace": "Подано запит на витяг для назви з простору назв Файл; не отримано нічого.",
+	"apiwarn-textextracts-sentences-and-html": "Параметр <var>$1sentences</var> може видати неочікувані результаті, якщо його використати в режимі HTML.",
+	"apiwarn-textextracts-malformed-html": "Код HTML може бути неправильно сформованим та/або незбалансованим і може пропускати вбудовані зображення. Використовуйте на свій власний ризик. Відомі проблеми перелічено на сторінці https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:TextExtracts#Caveats."
+}

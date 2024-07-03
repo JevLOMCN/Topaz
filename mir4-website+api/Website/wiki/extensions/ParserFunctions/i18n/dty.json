@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"Nirajan pant",
+			"जनक राज भट्ट",
+			"रमेश सिंह बोहरा"
+		]
+	},
+	"pfunc_time_error": "त्रुटी: अमान्य समय।",
+	"pfunc_expr_unrecognised_word": "अभिव्यक्ति त्रुटि: अज्ञात शब्द \"$1\"।",
+	"pfunc_expr_unexpected_operator": "अभिव्यक्ति त्रुटि र आकस्मिक संचालन $1",
+	"pfunc_expr_missing_operand": "अभिव्यक्ति त्रुटि:संचालन भुलका लागि $1",
+	"pfunc_expr_unrecognised_punctuation": "अभिव्यक्ति त्रुटि: नपछड्याको विराम चिन्ह चरित्र \"$1\"।",
+	"pfunc_expr_division_by_zero": "सुन्ना ले भाग।"
+}

@@ -1,0 +1,29 @@
+{
+	"@metadata": {
+		"authors": [
+			"HalanTul",
+			"София"
+		]
+	},
+	"apihelp-visualeditor-param-basetimestamp": "Бигэргэтэргэ көннөрүү кэмин бэлиэтээ. Сөп түбэһиспэт көннөрүүлэри булан ыларга туһалыа.",
+	"apihelp-visualeditor-param-etag": "Ыытыллыахтаах ETag.",
+	"apihelp-visualeditor-param-html": "Биики тиэкискэ уларытарга Parsoid-ка ыытыллар HTML.",
+	"apihelp-visualeditor-param-oldid": "Көннөрүү нүөмэрин тутун (анаан этиллибэтэҕинэ бүтэһик көннөрүү киэнин).",
+	"apihelp-visualeditor-param-paction": "Оҥоһуллуохтаах.",
+	"apihelp-visualeditor-param-page": "Оҥоһуллуохтаах баар сирэйэ.",
+	"apihelp-visualeditor-param-pst": "Бастаан Parsoid (paction=parsefragment) ыытыан иннинэ уларытыыны биики-тиэкискэ бигэргэт.",
+	"apihelp-visualeditor-param-starttimestamp": "Бигэргэтэргэ хачайдааһын кэмин бэлиэтээ. Сөп түбэһиспэт көннөрүүлэри булан ыларга туһалыа.",
+	"apihelp-visualeditor-param-wikitext": "Биики-тиэкис HTML-га (paction=parsefragment) кэмпиэртэнэригэр Parsoid-ка ыыт.",
+	"apihelp-visualeditoredit-param-basetimestamp": "Бигэргэтэргэ көннөрүү кэмин бэлиэтээ. Сөп түбэһиспэт көннөрүүлэри булан ыларга туһалыа.",
+	"apihelp-visualeditoredit-param-cachekey": "Инники serializeforcache ыйытык түмүгүн бу күлүүһүнэн туһан. $1html солбуйар.",
+	"apihelp-visualeditoredit-param-captchaid": "Капча ID-та (капчалаах бигэргэтэр буоллаҕына).",
+	"apihelp-visualeditoredit-param-captchaword": "Капча хоруйа (капчалаах бигэргэтэр түгэҥҥэ).",
+	"apihelp-visualeditoredit-param-etag": "Ыытыллыахтаах ETag.",
+	"apihelp-visualeditoredit-param-html": "Биики тиэкискэ кэмпиэртэнэригэр Parsoid-ка ыытыллар HTML.",
+	"apihelp-visualeditoredit-param-minor": "Суолтата суох көннөрүү чыычааҕа.",
+	"apihelp-visualeditoredit-param-needcheck": "Өскөтүн, биэрсийэ циклическэй мэһэйдэрдээх буоллаҕына бигэргэтэргэ бу киллэриини туруор. Бу көннөрүүнү бэлиэтииргэ тириэрдиэ.",
+	"apihelp-visualeditoredit-param-oldid": "Туттуллар биэрсийэ нүөмэрэ. Бүтэһик биэрсийэҕэ анаан туруоруллубатах. Саҥа сирэйгэ 0 туһан.",
+	"apihelp-visualeditoredit-param-page": "Оҥоһуллуохтаах баар сирэйэ.",
+	"apihelp-visualeditoredit-param-starttimestamp": "Бигэргэтэргэ хачайдааһын кэмин бэлиэтээ. Сөп түбэһиспэт көннөрүүлэри булан ыларга туһалыа.",
+	"apihelp-visualeditoredit-param-summary": "Уларытыы туһунан."
+}

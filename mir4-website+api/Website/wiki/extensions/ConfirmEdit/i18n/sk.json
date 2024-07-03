@@ -1,0 +1,28 @@
+{
+	"@metadata": {
+		"authors": [
+			"Helix84",
+			"Luky001",
+			"Vlad5250"
+		]
+	},
+	"captcha-edit": "Aby ste mohli upravovať túto stránku, vyriešte prosím nižšie uvedenú úlohu a napíšte odpoveď do poľa ([[Special:Captcha/help|viac informácií]]):",
+	"captcha-desc": "Poskytuje techniky captcha na ochranu pred spamom a hádaním hesla",
+	"captcha-addurl": "Vaša úprava obsahuje nové externé odkazy. V záujme ochrany tejto wiki pred  automatickým spamom vyriešte, prosím, nižšie uvedenú úlohu a zadajte odpoveď do poľa na uloženie vašej úpravy ([[Special:Captcha/help|viac informácií]]):",
+	"captcha-badlogin": "V záujme ochrany tejto wiki pred automatizovanými lámaniami hesiel, prosím, vyriešte nižšie uvedenú úlohu a zadajte odpoveď do poľa ([[Special:Captcha/help|viac informácií]]):",
+	"captcha-createaccount": "V záujme ochrany tejto wiki pred automatizovaným vytváraním účtov, prosím, vyriešte nižšie uvedenú úlohu a zadajte odpoveď do poľa ([[Special:Captcha/help|viac informácií]]):",
+	"captcha-createaccount-fail": "Nesprávny alebo chýbajúci kód CAPTCHA.",
+	"captcha-create": "Aby ste mohli vytvoriť túto stránku, vyriešte, prosím, nižšie uvedenú úlohu a napíšte odpoveď do poľa ([[Special:Captcha/help|viac informácií]]):",
+	"captcha-sendemail": "V záujme ochrany tejto wiki pred automatizovaným spamom, prosím, vyriešte nižšie uvedenú úlohu a napíšte odpoveď do poľa ([[Special:Captcha/help|viac informácií]]):",
+	"captcha-sendemail-fail": "Nesprávny alebo chýbajúci kód CAPTCHA.",
+	"captcha-disabledinapi": "Táto operácia vyžaduje captcha, preto nemôže byť vykonaná prostredníctvom rozhrania API.",
+	"captchahelp-title": "Pomocník ku captcha",
+	"captchahelp-cookies-needed": "Aby toto fungovalo, budete si musieť v prehliadači zapnúť koláčiky (cookies).",
+	"captchahelp-text": "Webstránky prijímajúce príspevky od verejnosti ako táto wiki sú často cieľom zneužitia spammermi, ktorí používajú automatizované nástroje na to, aby svoje odkazy umiestnili na množstvo stránok. Hoci je možné tieto odkazy odstrániť, zbytočne to zaťažuje používateľov.\n\nNiekedy, obzvlášť keď pridávate webové odkazy k článkom, wiki vám môže zobraziť obrázok so zafarbeným alebo pokriveným textom a požiadať vás o prepísanie zobrazených slov. Keďže takúto úlohu je ťažké zautomatizovať a umožní skutočným ľuďom poslať svoje príspevky, zastaví to väčšinu spammerov a iných robotických útočníkov.\n\nNanešťastie, môže to byť prekážkou pre používateľov so zrakovým postihnutím alebo tých, ktorí používajú textové alebo hovoriace prehliadače. Momentálne nemáme dostupnú audio zvukovú alternatívu. Kontaktujte prosím [[Special:ListAdmins|správcov stránok]] ak vám to neočakávane komplikuje umiestňovanie oprávnených príspevkov.\n\nStlačením tlačidla „späť“ vo vašom prehliadači sa vrátite do editora stránky.",
+	"captcha-addurl-whitelist": " #<!-- leave this line exactly as it is --> <pre>\n# Syntax je nasledovná:\n#   * Všetko od znaku „#“ do konca riadka je komentár\n#   * Každý neprázdny riadok je fragment regulárneho výrazu, ktorého zhody budú iba stroje v rámci URL\n  #</pre> <!-- leave this line exactly as it is -->",
+	"right-skipcaptcha": "Vykonávať činnosti spúšťajúce CAPTCHA bez toho, aby bolo potrebné vyriešiť CAPTCHA",
+	"action-skipcaptcha": "vykonávať činnosti spúšťajúce CAPTCHA bez toho, aby bolo potrebné vyriešiť CAPTCHA",
+	"confirmedit-preview-content": "Obsah",
+	"confirmedit-preview-valid": "platný",
+	"confirmedit-preview-invalid": "neplatný"
+}

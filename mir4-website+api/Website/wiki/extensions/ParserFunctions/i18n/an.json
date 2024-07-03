@@ -1,0 +1,26 @@
+{
+	"@metadata": {
+		"authors": [
+			"Juanpabl",
+			"Willtron"
+		]
+	},
+	"pfunc_desc": "Amillorar o parseyador con funcions lochicas",
+	"pfunc_time_error": "Error: tiempo incorrecto",
+	"pfunc_time_too_long": "Error: masiadas cridas #time",
+	"pfunc_rel2abs_invalid_depth": "Error: Fondura incorreuta en o camín: \"$1\" (ha prebato d'acceder ta un nodo por dencima d'o nodo radiz)",
+	"pfunc_expr_stack_exhausted": "Error d'expresión: Pila acotolada",
+	"pfunc_expr_unexpected_number": "Error d'expresión: numero no asperato",
+	"pfunc_expr_preg_match_failure": "Error d'expresión: fallo de preg_match no asperato",
+	"pfunc_expr_unrecognised_word": "Error d'expresión: parola \"$1\" no reconoixida",
+	"pfunc_expr_unexpected_operator": "Error d'expresión: operador $1 no asperau",
+	"pfunc_expr_missing_operand": "Error d'expresión: a $1 li falta un operando",
+	"pfunc_expr_unexpected_closing_bracket": "Error d'expresión: zarradura d'o gafet no asperata",
+	"pfunc_expr_unrecognised_punctuation": "Error d'expresión: carácter de puntuación \"$1\" no reconoixiu",
+	"pfunc_expr_unclosed_bracket": "Error d'expresión: gafet sin zarrar",
+	"pfunc_expr_division_by_zero": "División por zero",
+	"pfunc_expr_invalid_argument": "Argumento no conforme ta $1: < -1 u > 1",
+	"pfunc_expr_invalid_argument_ln": "Argumento no conforme ta ln: <=0",
+	"pfunc_expr_unknown_error": "Error d'expresión: error esconoixito ($1)",
+	"pfunc_expr_not_a_number": "En $1: o resultau no ye un numero"
+}

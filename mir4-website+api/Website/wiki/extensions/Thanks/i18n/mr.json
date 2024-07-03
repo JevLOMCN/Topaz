@@ -1,0 +1,33 @@
+{
+	"@metadata": {
+		"authors": [
+			"Macofe",
+			"V.narsikar"
+		]
+	},
+	"thanks-desc": "एखाद्या सदस्यास,त्याच्या संपादनासाठी किंवा शेऱ्यासाठी धन्यवाद देण्यास दुवा जोडते",
+	"thanks-thank": "{{GENDER:$1|{{GENDER:$2|धन्यवाद}}}}",
+	"thanks-thanked": "{{GENDER:$1|{{GENDER:$2|धन्यवाद दिलेत}}}}",
+	"thanks-button-thank": "{{GENDER:$1|{{GENDER:$2|धन्यवाद}}}}",
+	"thanks-button-thanked": "{{GENDER:$1|{{GENDER:$2|धन्यवाद दिलेत}}}}",
+	"thanks-error-undefined": "धन्यवाद देण्याची क्रिया अयशस्वी झाली(त्रुटी संकेत: $1).कृपया पुन्हा प्रयत्न करा.",
+	"thanks-error-invalidrevision": "आवृत्तीचा आयडी वैध नाही.",
+	"thanks-error-ratelimited": "{{GENDER:$1|आपण}} दर मर्यादा पार केली आहे.कृपया थोडा वेळ थांबून पुन्हा प्रयत्न करा.",
+	"thanks-thank-tooltip": "{{GENDER:$2|या सदस्याला}} एक धन्यवादाची अधिसूचना {{GENDER:$1|पाठवा}}",
+	"thanks-thank-tooltip-no": "धन्यवादाची अधिसूचना {{GENDER:$1|रद्द करा}}",
+	"thanks-thank-tooltip-yes": "धन्यवादाची अधिसूचना {{GENDER:$1|पाठवा}}",
+	"thanks-confirmation2": "या संपादनासाठी सार्वजनिकरित्या धन्यवाद {{GENDER:$1|पाठवायचे काय?}}",
+	"thanks-thanked-notice": "$1ला, {{GENDER:$2|त्याचे|तिचे|त्यांचे}} संपादनाबद्दल धन्यवाद मिळालेत.",
+	"thanks": "धन्यवाद पाठवा",
+	"thanks-submit": "धन्यवाद पाठवा",
+	"echo-pref-subscription-edit-thank": "माझ्या संपादनाबद्दल मलाच धन्यवाद द्या",
+	"echo-pref-tooltip-edit-thank": "मी केलेल्या संपादनाबद्दल जर कोणी मला धन्यवाद देत असेल तर मला सूचना द्या.",
+	"echo-category-title-edit-thank": "धन्यवाद",
+	"notification-header-rev-thank": "$1 ने {{GENDER:$4|आपणास}} आपल्या <strong>$3</strong> वरील संपादनास {{GENDER:$2|धन्यवाद दिलेत}}.",
+	"log-name-thanks": "धन्यवादाच्या नोंदी",
+	"log-description-thanks": "खाली त्या सदस्यांची यादी आहे ज्यांना इतर सदस्यांनी धन्यवाद दिलेत.",
+	"logentry-thanks-thank": "$1 ने {{GENDER:$4|$3}} ला {{GENDER:$2|धन्यवाद दिलेत}}",
+	"notification-link-text-view-post": "अभिप्राय बघा",
+	"flow-thanks-confirmation-special": "या अभिप्रायास आपणास सार्वजनिकरित्या धन्यवाद पाठवायचे आहेत काय?",
+	"notification-header-flow-thank": "$1 ने {{GENDER:$5|आपणास}}, \"<strong>$3</strong>\" मधील आपल्या अभिप्रायाबद्दल,{{GENDER:$2|धन्यवाद दिलेत}}"
+}

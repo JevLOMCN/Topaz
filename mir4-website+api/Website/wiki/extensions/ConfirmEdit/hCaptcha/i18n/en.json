@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": []
+	},
+	"hcaptcha-desc": "[https://www.hcaptcha.com/ hCaptcha] module for Confirm Edit",
+	"hcaptcha-edit": "To protect the wiki against automated edit spam, we kindly ask you to solve the following hCaptcha:",
+	"hcaptcha-addurl": "Your edit includes new external links. To protect the wiki against automated spam, we kindly ask you to solve the following CAPTCHA:",
+	"hcaptcha-badlogin": "To protect the wiki against automated password cracking, we kindly ask you to solve the following hCaptcha:",
+	"hcaptcha-createaccount": "To protect the wiki against automated account creation, we kindly ask you to solve the following hCaptcha:",
+	"hcaptcha-createaccount-fail": "It seems you haven't solved the hCaptcha.",
+	"hcaptcha-create": "To protect the wiki against automated page creation, we kindly ask you to solve the following hCaptcha:",
+	"hcaptcha-help": "Please solve a hCaptcha challenge and return the response value as captchaWord."
+}

@@ -1,0 +1,39 @@
+{
+	"@metadata": {
+		"authors": [
+			"Danny B.",
+			"Dvorapa",
+			"Jkjk",
+			"Li-sung",
+			"Littledogboy",
+			"Matěj Grabovský",
+			"Matěj Suchánek",
+			"Mormegil"
+		]
+	},
+	"nuke": "Hromadné mazání",
+	"action-nuke": "hromadně mazat stránky",
+	"nuke-desc": "Dává správcům možnost [[Special:Nuke|hromadného mazání]] stránek",
+	"nuke-nopages": "V posledních změnách nejsou žádné nové stránky od {{GENDER:$1|uživatele|uživatelky}} [[Special:Contributions/$1|$1]].",
+	"nuke-list": "Následující stránky nedávno {{GENDER:$1|vytvořil|vytvořila}} [[Special:Contributions/$1|$1]];\nvyplňte komentář a všechny smažte kliknutím na tlačítko.",
+	"nuke-list-multiple": "Nedávno byly vytvořeny následující stránky;\nzadáním komentáře a stisknutím tlačítka je smažete.",
+	"nuke-defaultreason": "Hromadné smazání stránek, které {{GENDER:$1|vytvořil|vytvořila|vytvořil(a)}} [[Special:Contributions/$1|$1]]",
+	"nuke-multiplepeople": "Hromadné smazání nedávno založených stránek",
+	"nuke-tools": "Tento nástroj umožňuje hromadné smazání stránek nedávno vytvořených zadaným uživatelem nebo IP adresou.\nZadejte uživatelské jméno nebo IP adresu, zobrazí se seznam stránek ke smazání; případně ponechte prázdné pro všechny uživatele.",
+	"nuke-submit-user": "Vypsat stránky",
+	"nuke-submit-delete": "Smazat vybrané",
+	"right-nuke": "Hromadné mazání stránek",
+	"nuke-userorip": "Uživatelské jméno, IP adresa nebo ponechte prázdné:",
+	"nuke-maxpages": "Maximální počet stran:",
+	"nuke-editby": "{{GENDER:$1|Vytvořil|Vytvořila}} [[Special:Contributions/$1|$1]]",
+	"nuke-deleted": "Stránka '''$1''' byla smazána.",
+	"nuke-not-deleted": "Stránka [[:$1]] '''nemohla být''' smazána.",
+	"nuke-delete-more": "[[Special:Nuke|Odstranit další stránky]]",
+	"nuke-pattern": "SQL LIKE vzor (např. %) pro název stránky:",
+	"nuke-nopages-global": "Pro hledaný výraz nebyly nalezeny žádné názvy stránek.",
+	"nuke-viewchanges": "ukázat změny",
+	"nuke-namespace": "Omezit na jmenný prostor:",
+	"nuke-linkoncontribs": "hromadné mazání",
+	"nuke-linkoncontribs-text": "Hromadně smazat stránky, jichž je {{GENDER:$1|tento uživatel jediným autorem|tato uživatelka jedinou autorkou}}",
+	"nuke-confirm": "Chystáte se smazat $1 {{PLURAL:$1|stránku|stránky|stránek}}. Jste si jisti, že {{PLURAL:$1|ji|je}} chcete smazat?"
+}

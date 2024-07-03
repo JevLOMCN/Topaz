@@ -1,0 +1,21 @@
+{
+	"@metadata": {
+		"authors": [
+			"Li-sung",
+			"Matěj Suchánek",
+			"Mormegil"
+		]
+	},
+	"imagemap_desc": "Umožňuje vytvoření klikací mapy obrázku na straně klienta pomocí značky <code>&lt;imagemap&gt;</code>",
+	"imagemap_no_image": "Error: na první řádce musí být určen obrázek",
+	"imagemap_invalid_image": "Error: soubor není platný nebo neexistuje",
+	"imagemap_bad_image": "Chyba: Obrázek není na této stránce povolen.",
+	"imagemap_no_link": "Error: nebyl nalezen žádný platný odkaz na konci řádku $1",
+	"imagemap_invalid_title": "Error: neplatný název v odkazu na řádku $1",
+	"imagemap_missing_coord": "Error: chybějící souřadnice tvaru na řádku $1",
+	"imagemap_unrecognised_shape": "Error: nerozpoznaný tvar na řádku $1, každá řádka musí začínat definicí tvaru: <code>default</code>, <code>rect</code>, <code>circle</code> nebo <code>poly</code>",
+	"imagemap_invalid_coord": "Error: neplatné souřadnice na řádku $1, je očekáváno číslo",
+	"imagemap_invalid_desc": "Error: neplatné určení oblasti desc, je očekávána jedna z možností: <code>$1</code>",
+	"imagemap_description": "O tomto obrázku",
+	"imagemap_poly_odd": "Chyba: na řádku $1 nalezen mnohoúhelník s lichým počtem souřadnic"
+}

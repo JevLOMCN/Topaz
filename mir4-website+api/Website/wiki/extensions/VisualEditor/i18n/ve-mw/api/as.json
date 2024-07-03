@@ -1,0 +1,17 @@
+{
+	"@metadata": {
+		"authors": [
+			"Dibya Dutta",
+			"Gitartha.bordoloi"
+		]
+	},
+	"apihelp-visualeditor-param-basetimestamp": "সংৰক্ষণৰ সময়ত, সম্পাদনা কৰিব পৰা পুনঃনিৰীক্ষণৰ সময়সাঁচত ইয়াক ৰাখক। প্ৰত্যক্ষ সম্পাদনা কনফ্লিক্ট ব্যৱহাৰ কৰক।",
+	"apihelp-visualeditor-param-cachekey": "ক্ৰমবৰ্ধ বা পাৰ্থক্যৰ বাবে, এই চাবিৰ সহায়ত এটা পূৰ্ৱবতী serializeforcache অনুৰোধৰ ফলাফল ব্যৱহাৰ কৰক। $1html অভাৰৰাইড কৰক।",
+	"apihelp-visualeditor-param-etag": "পঠিয়াবৰ বাবে ETag।",
+	"apihelp-visualeditor-param-html": "ৱিকিপাঠলৈ সলনি কৰিবলৈ পেৰাছইডলৈ পঠিয়াব লগা HTML ।",
+	"apihelp-visualeditor-param-oldid": "ব্যৱহাৰ কৰিব লগা পুনঃৰীক্ষণ সংখ্যা (শেহতীয়া পুনঃৰীক্ষণলৈ স্বয়ংচালিত)।",
+	"apihelp-visualeditor-param-paction": "প্লেটফৰ্মৰ কাৰ্য।",
+	"apihelp-visualeditor-param-page": "প্লেটফৰ্ম কাৰ্য সক্ৰিয়কৰণ পৃষ্ঠালৈ।",
+	"apihelp-visualeditor-param-section": "কাম কৰিবৰ বাবে নিৰ্দিষ্ট পৰিচ্ছেদ।",
+	"apihelp-visualeditoredit-param-summary": "সম্পাদনা সাৰাংশ।"
+}

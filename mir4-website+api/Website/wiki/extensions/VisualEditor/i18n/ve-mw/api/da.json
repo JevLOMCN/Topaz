@@ -1,0 +1,34 @@
+{
+	"@metadata": {
+		"authors": [
+			"Jan Friberg",
+			"Kenn.jensen"
+		]
+	},
+	"apierror-visualeditor-badcachekey": "Ingen mellomlagret serialisering fundet med den nøgle",
+	"apierror-visualeditor-difffailed": "Diff fejlede",
+	"apihelp-visualeditor-param-basetimestamp": "Når der gemmes, sæt denne til tidsstemplet for revisionen som blev redigeret. Bruges til at finde redigeringskonflikter.",
+	"apihelp-visualeditor-param-cachekey": "For serialisering eller diff, benyt resultatet fra en tidligere serializecache anmodning med denne nøgle. Overskriver $1html.",
+	"apihelp-visualeditor-param-editintro": "Rediger intro for at tilføje meddelelser.",
+	"apihelp-visualeditor-param-etag": "ETag som skal sendes.",
+	"apihelp-visualeditor-param-format": "Format af resultat.",
+	"apihelp-visualeditor-param-html": "HTML som sendes til Parsoid for at konverteres til wikitekst.",
+	"apihelp-visualeditor-param-oldid": "Versionsnummer som skal benyttes (standard er den sidste version)",
+	"apihelp-visualeditor-param-paction": "Handling som skal udføres.",
+	"apihelp-visualeditor-param-page": "Siden som handlinger skal udføres på.",
+	"apihelp-visualeditor-param-preload": "Siden som der skal benyttes indhold fra har endnu ikke noget indhold.",
+	"apihelp-visualeditor-param-preloadparams": "Parametre som skal indsættes på den forhåndsindlæste side, hvis de er til stede.",
+	"apihelp-visualeditor-param-pst": "Præ-gem omformet wikitekst inden det sendes til Parsoid (paction=parsefragment).",
+	"apihelp-visualeditor-param-section": "Sektionen som skal behandles.",
+	"apihelp-visualeditor-param-starttimestamp": "Når der gemmes, sæt denne til tidsstemplet for revisionen som blev redigeret. Bruges til at finde redigeringskonflikter.",
+	"apihelp-visualeditor-param-wikitext": "Wikitekst som sendes til Parsoid for at konverteres til HTML (paction=parsefragment).",
+	"apihelp-visualeditor-summary": "Returnerer HTML5 for en side fra Parsoid-tjenesten.",
+	"apihelp-visualeditoredit-param-basetimestamp": "Når der gemmes, sæt denne til tidsstemplet for revisionen som blev redigeret. Bruges til at finde redigeringskonflikter.",
+	"apihelp-visualeditoredit-param-cachekey": "For serialisering eller diff, benyt resultatet fra en tidligere serializecache anmodning med denne nøgle. Overskriver $1html.",
+	"apihelp-visualeditoredit-param-captchaid": "Captcha ID (når der gemmes med et captcha svar).",
+	"apihelp-visualeditoredit-param-captchaword": "Svar til captcha (når der gemmes med et captcha svar).",
+	"apihelp-visualeditoredit-param-etag": "ETag som skal sendes.",
+	"apihelp-visualeditoredit-param-html": "HTML som sendes til Parsoid for at konverteres til wikitekst.",
+	"apihelp-visualeditoredit-param-minor": "Markér til mindre redigering.",
+	"apihelp-visualeditoredit-summary": "Gem en HTML5 side på MediaWiki (konverteret til wikitekst via Parsoid-tjenesten)."
+}

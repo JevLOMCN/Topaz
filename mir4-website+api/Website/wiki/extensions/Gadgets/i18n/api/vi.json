@@ -1,0 +1,16 @@
+{
+	"@metadata": {
+		"authors": [
+			"Minh Nguyen"
+		]
+	},
+	"apihelp-query+gadgetcategories-param-names": "Tên của các thể loại để lấy.",
+	"apihelp-query+gadgetcategories-example-1": "Lấy danh sách các thể loại tiện ích đang tồn tại",
+	"apihelp-query+gadgetcategories-example-2": "Lấy tất cả thông tin về các thể loại có tên “foo” và “bar”",
+	"apihelp-query+gadgets-param-ids": "ID của các tiện ích để lấy.",
+	"apihelp-query+gadgets-param-allowedonly": "Chỉ liệt kê các tiện ích mà người dùng hiện tại có phép sử dụng.",
+	"apihelp-query+gadgets-param-enabledonly": "Chỉ liệt kê các tiện ích được kích hoạt bởi người dùng hiện tại.",
+	"apihelp-query+gadgets-example-3": "Lấy danh sách các tiện ích thuộc thể loại “foo”",
+	"apihelp-query+gadgets-example-4": "Lấy thông tin về các tiện ích “foo” và “bar”",
+	"apihelp-query+gadgets-example-5": "Lấy danh sách các tiện ích được kích hoạt bởi người dùng hiện tại"
+}

@@ -1,0 +1,22 @@
+{
+	"@metadata": {
+		"authors": [
+			"EugeneZelenko",
+			"Jim-by",
+			"Red Winged Duck",
+			"Renessaince"
+		]
+	},
+	"imagemap_desc": "Дазваляе стварэньне на старонцы кліента мапаў выявы з выкарыстаньнем тэгу <code>&lt;imagemap&gt;</code>",
+	"imagemap_no_image": "Памылка: у першым радку мусіць быць пазначаная выява",
+	"imagemap_invalid_image": "Памылка: няслушная выява альбо яна не існуе",
+	"imagemap_bad_image": "Памылка: выява на гэтай старонцы недазволеная.",
+	"imagemap_no_link": "Памылка: ня знойдзеная слушная спасылка ў канцы радку $1",
+	"imagemap_invalid_title": "Памылка: няслушная назва ў спасылцы ў радку $1",
+	"imagemap_missing_coord": "Памылка: недастаткова каардынатаў для фігуры ў радку $1",
+	"imagemap_unrecognised_shape": "Памылка: нераспазнаная фігура ў радку $1, кожны радок павінен пачынацца з: <code>default</code>, <code>rect</code>, <code>circle</code> ці <code>poly</code>",
+	"imagemap_invalid_coord": "Памылка: няправільная каардыната ў радку $1, павінна быць лічба",
+	"imagemap_invalid_desc": "Памылка: няслушнае значэньне desc, павінна быць адно з: <code>$1</code>",
+	"imagemap_description": "Апісаньне выявы",
+	"imagemap_poly_odd": "Памылка: у радку $1 знойдзены шматкутнік зь няцотнай колькасьцю каардынатаў"
+}

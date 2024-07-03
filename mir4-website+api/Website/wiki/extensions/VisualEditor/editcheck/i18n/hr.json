@@ -1,0 +1,27 @@
+{
+	"@metadata": {
+		"authors": [
+			"Ponor"
+		]
+	},
+	"editcheck-dialog-action-no": "Ne",
+	"editcheck-dialog-action-yes": "Da",
+	"editcheck-dialog-addref-description": "Dodavanjem citata pomozite čitateljima razumjeti odakle informacije dolaze.",
+	"editcheck-dialog-addref-reject-question": "Zašto ne želite dodati referenciju?",
+	"editcheck-dialog-addref-reject-description": "Ostali urednici rado bi znali zašto ste odlučili ne dodati citat.",
+	"editcheck-dialog-addref-reject-irrelevant": "Ne mislim da su izvori važni za promjenu koju radim",
+	"editcheck-dialog-addref-reject-common-knowledge": "Informacije koje dodajem svima su poznate",
+	"editcheck-dialog-addref-reject-uncertain": "Ne mogu odlučiti koji izvor dodati",
+	"editcheck-dialog-addref-reject-other": "Ostalo",
+	"editcheck-dialog-addref-success-notify": "Hvala što ste dodali izvor!",
+	"editcheck-dialog-addref-title": "Dodavanje izvora",
+	"editcheck-dialog-title": "Prije objave",
+	"tag-editcheck-reference-decline-common-knowledge": "EditCheck: referencija odbijena, općepoznato",
+	"tag-editcheck-reference-decline-common-knowledge-description": "EditCheck: dodavanje referencije odbijeno je zato što je tvrdnja svima poznata",
+	"tag-editcheck-reference-decline-irrelevant": "EditCheck: referencija odbijena, nevažno",
+	"tag-editcheck-reference-decline-irrelevant-description": "EditCheck: dodavanje referencije odbijeno je zato što je nevažno",
+	"tag-editcheck-reference-decline-other": "EditCheck: referencija odbijena, ostali razlozi",
+	"tag-editcheck-reference-decline-other-description": "EditCheck: dodavanje referencije odbijeno je zbog nepopisanih razloga",
+	"tag-editcheck-reference-decline-uncertain": "EditCheck: referencija odbijena, dvojba",
+	"tag-editcheck-reference-decline-uncertain-description": "EditCheck: dodavanje referencije odbijeno je zbog suradnikove dvojbe"
+}

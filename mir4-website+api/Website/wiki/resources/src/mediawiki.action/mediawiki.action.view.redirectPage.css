@@ -1,0 +1,56 @@
+/*!
+ * Display neat icons on redirect pages.
+ */
+
+/* stylelint-disable selector-class-pattern */
+
+/**
+ * Hide, but keep accessible for screen-readers.
+ * Prefix with .mw-body to override any skin defaults for `p` tag.
+*/
+.mw-body .redirectMsg p {
+	overflow: hidden;
+	height: 0;
+	padding: 0;
+}
+
+.redirectText {
+	list-style: none;
+	display: inline;
+	/* shared.css has some very weird directionality-specific rules for 'ul' we need to override,
+	 * search for "Correct directionality when page dir is different from site/user dir" */
+	/* stylelint-disable declaration-no-important */
+	margin: 0 !important;
+	padding: 0 !important;
+	/* stylelint-enable declaration-no-important */
+}
+
+/* @noflip */
+.mw-content-ltr .redirectText li {
+	display: inline;
+	margin: 0;
+	padding: 0;
+	padding-left: 42px;
+	background: transparent url( images/nextredirect-ltr.svg ) bottom left no-repeat;
+}
+
+/* @noflip */
+.mw-content-ltr .redirectText li:first-child {
+	padding-left: 47px;
+	background: transparent url( images/redirect-ltr.svg ) bottom left no-repeat;
+}
+
+/* @noflip */
+.mw-content-rtl .redirectText li {
+	display: inline;
+	margin: 0;
+	padding: 0;
+	padding-right: 42px;
+	background: transparent url( images/nextredirect-rtl.svg ) bottom right no-repeat;
+}
+
+/* @noflip */
+.mw-content-rtl .redirectText li:first-child {
+	padding-right: 47px;
+	background: transparent url( images/redirect-rtl.svg ) bottom right no-repeat;
+}

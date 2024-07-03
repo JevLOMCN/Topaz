@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"ArmenBakkalian",
+			"Azniv Stepanian",
+			"Rajemian"
+		]
+	},
+	"pfunc_time_error": "Սխալ՝ անվաւեր ժամանակ։",
+	"pfunc_expr_unrecognised_word": "Արտայայտութեան սխալ․ անհասկնալի բառ՝ «$1»։",
+	"pfunc_expr_unexpected_operator": "Արտայայտութիւն սխալ․ $1 անսպասելի գործարկու։",
+	"pfunc_expr_missing_operand": "Արտայայտութեան սխալ. $1ին կը պակսի գործարկեալը։",
+	"pfunc_expr_unrecognised_punctuation": "Արտայայտութեան սխալ․ անհասկնալի կէտադրական նշան՝ «$1»։",
+	"pfunc_expr_division_by_zero": "Զերոյով բաժանում։"
+}

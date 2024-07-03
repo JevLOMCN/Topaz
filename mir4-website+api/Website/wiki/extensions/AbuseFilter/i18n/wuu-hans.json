@@ -1,0 +1,18 @@
+{
+	"@metadata": {
+		"authors": [
+			"Winston Sung"
+		]
+	},
+	"abusefilter-warning": "'''警告：'''侬个行为畀自动识别为有危害性。呒不意义个操作会畀马上恢复，而过分或者重复个无意义编辑会让侬个账号或IP地址畀查封。如果侬确定本次操作有意义，侬可以再次提交确认。搭侬个操作匹配个过滤规则是：$1",
+	"abusefilter-disallowed": "侬个行为畀自动识别为有害操作并畀禁止。如果侬认为该次编辑是有建设性个，请拿侬要做个事体告诉管理员。搭侬本次行为匹配个过滤规则是：$1",
+	"abusefilter-blockautopromotereason": "自动提升畀滥用过滤器自动延迟。规则说明：$1",
+	"abusefilter-log-entry": "$1：$2来勒$4{{GENDER:$8|执行}}操作“$3”辰光{{GENDER:$8|触发着}}过滤器。采取个动作：$5；过滤器说明：$6",
+	"abusefilter-log-entry-withdiff": "$1：$2来勒$4{{GENDER:$8|执行}}操作“$3”辰光触发着过滤器。采取个动作：$5；过滤器说明：$6（$7）",
+	"abusefilter-log-detailedentry-meta": "$1：$2来勒$5{{GENDER:$9|执行}}操作“$4”辰光触发着$3。采取个动作：$6；过滤器说明：$7（$8）",
+	"abusefilter-log-hide-reason": "理由：",
+	"logentry-rights-blockautopromote": "$1{{GENDER:$2|封锁}}{{GENDER:$4|$3}}$5内个自动提升",
+	"abusefilter-hidden": "私密",
+	"abusefilter-unhidden": "公开",
+	"abusefilter-hitcount": "$1趟触发"
+}

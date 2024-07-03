@@ -1,0 +1,34 @@
+{
+	"@metadata": {
+		"authors": [
+			"BRUTE",
+			"David1010",
+			"MIKHEIL",
+			"Silovan"
+		]
+	},
+	"apihelp-visualeditor-param-basetimestamp": "როდესაც შეინახავთ, დააყენეთ ეს დარედაქტირებული გადასინჯვის ნიშნულად. გამოიყენება რედაქტირების კონფლიქტის აღმოსაჩენად.",
+	"apihelp-visualeditor-param-cachekey": "დაფორმატირების ან განსხვავებისათვის, გამოიყენეთ ქეშის წინა დაფორმატების მოთხოვნის შედეგი ამ გასაღებთან ერთად. $1html-ის მხედველობაში არმიღება.",
+	"apihelp-visualeditor-param-etag": "დააჭირეთ ETag-ს გასაგზავნად.",
+	"apihelp-visualeditor-param-html": "HTML Parsoid-ზე გასაგზავნად და ვიკიტექსტის კონვერტირება.",
+	"apihelp-visualeditor-param-oldid": "გადახედვის ნომრის გამოყენება (საწყისად ბოლო გადახედვა)",
+	"apihelp-visualeditor-param-paction": "ქმედება შესრულებისთვის.",
+	"apihelp-visualeditor-param-page": "გვერდი, რომელზეც განხორციელდება მოქმედებები.",
+	"apihelp-visualeditor-param-pst": "ვიკიტექსტის წინასწარ გადახედვა Parsoid-ზე გაგზავნამდე (შეთანხმება=გარჩევის ფრაგმენტი)",
+	"apihelp-visualeditor-param-starttimestamp": "შენახვისას, დააყენეთ გვერდის ჩატვირთვის დრო. გამოიყენება რედაქტირების კონფლიქტის აღმოსაჩენად.",
+	"apihelp-visualeditor-param-wikitext": "გასაგზავნი ვიკიტექსტი Parsoid-ის HTML-ში გადასაყვანად (paction=parsefragment).",
+	"apihelp-visualeditoredit-param-basetimestamp": "შენახვისას, დააყენეთ დარედაქტირებული გვერდის ჩატვირთვის დრო. გამოიყენება რედაქტირების კონფლიქტის აღმოსაჩენად.",
+	"apihelp-visualeditoredit-param-cachekey": "დაფორმატირების ან განსხვავებისათვის, გამოიყენეთ ქეშის წინა დაფორმატების მოთხოვნის შედეგი ამ გასაღებთან ერთად. $1html-ის მხედველობაში არმიღება.",
+	"apihelp-visualeditoredit-param-captchaid": "Captcha ID (captcha-ს გამოხმაურების შენახვისას).",
+	"apihelp-visualeditoredit-param-captchaword": "პასუხი captcha-ზე (captcha-ს ჩვენების შენახვამდე).",
+	"apihelp-visualeditoredit-param-etag": "დააჭირეთ ETag-ს გასაგზავნად.",
+	"apihelp-visualeditoredit-param-html": "HTML Parsoid-ზე გასაგზავნად და ვიკიტექსტის კონვერტირება.",
+	"apihelp-visualeditoredit-param-minor": "მცირე რედაქტირების დროშა.",
+	"apihelp-visualeditoredit-param-needcheck": "შენახვისას, თუკი რედაქციას ორმხრივი პრობლემა ექნება დააყენეთ ეს პარამეტრი. ეს გამოიწვევს ტეგებით რედაქტირებას.",
+	"apihelp-visualeditoredit-param-oldid": "გამოყენებული გადახედვის ნომერი. საწყისად ბოლო გადახედვა. ახალი გვერდისთვის გამოიყენეთ 0.",
+	"apihelp-visualeditoredit-param-paction": "ქმედება შესრულებისთვის.",
+	"apihelp-visualeditoredit-param-page": "გვერდი, რომელზეც განხორციელდება მოქმედებები.",
+	"apihelp-visualeditoredit-param-sectiontitle": "სათაური ახალი სექციისთვის",
+	"apihelp-visualeditoredit-param-starttimestamp": "შენახვისას, დააყენეთ გვერდის ჩატვირთვის დრო. გამოიყენება რედაქტირების კონფლიქტის აღმოსაჩენად.",
+	"apihelp-visualeditoredit-param-summary": "რედაქტირების რეზიუმე."
+}

@@ -1,0 +1,23 @@
+{
+	"@metadata": {
+		"authors": [
+			"Cedric31",
+			"Nicolas Eynaud"
+		]
+	},
+	"captcha-edit": "Per modificar aquesta pagina, vos cal efectuar lo calcul çaijós e n'inscriure lo resultat dins lo camp ([[Special:Captcha/help|Mai d’entresenhas]]) :",
+	"captcha-desc": "Ofèrta de tecnicas CAPTCHA per protegir contra lo spam e la descobèrta dels senhals per ensages multiples",
+	"captcha-addurl": "Vòstra modificacion inclutz de ligams extèrnes.\nPer nos ajudar dins la proteccion contra lo corrièr indesirable automatizat, calculatz l'operacion simpla çaijós e inscrivissètz-ne lo resultat dins lo camp ([[Special:Captcha/help|mai d'informacions]]) :",
+	"captcha-badlogin": "Per nos ajudar a empachar lo copatge automatizat dels senhal, calculatz l’operacion simpla çaijós e inscrivètz-ne lo resultat dins lo camp ([[Special:Captcha/help|mai d’informacions]]) :",
+	"captcha-createaccount": "Per nos ajudar a empachar la creacion automatizada de comptes, calculatz l’operacion simpla çaijós e inscrivètz-ne lo resultat dins lo camp ([[Special:Captcha/help|mai d’informacions]]) :",
+	"captcha-createaccount-fail": "CAPTCHA erronèu o mancant.",
+	"captcha-create": "Per modificar la pagina, vos cal de resòldre l'operacion çaijós e n'inscriure lo resultat dins lo camp ([[Special:Captcha/help|Mai d'infòs]]) :",
+	"captcha-sendemail-fail": "CAPTCHA erronèu o mancant.",
+	"captchahelp-title": "Ajuda suls Captcha",
+	"captchahelp-cookies-needed": "Vos cal aver los cookies activats dins vòstre navigador per qu'aquò foncione.",
+	"captchahelp-text": "Los sites webs qu'accèptan de contribucions del public, coma aqueste wiki, sovent son atacats per de spammers qu'utilizan d'aisinas automatizadas per plaçar de ligams nombroses cap a de sites.\nQuitament se son de bon suprimir, demòran una noisença significativa.\n\nDe còps, particularament quora apondètz de ligams extèrnes dins una pagina, lo wiki vos pòt mostrar un imatge amb un tèxte coloriat, desformat o torçut e vos demandar de picar los mots indicats.\nAquesta tasca es complicada d'automatizar, çò que permet de diferenciar un uman real d'un logicial automatic malvolent.\n\nMalurosament, aquesta solucion pòt geinar d'utilizaires malvesents o qu'utilizan un navigador textual o vocal.\nDispausam pas d’alternativa àudio pel moment.\nContactatz [[Special:ListAdmins|los administrators del site]] se aquò vos empacha d'un biais imprevist de postar de contribucions legitimas.\n\nClicatz sul boton « Precedent » de vòstre navigador per tornar a la pagina de modificacion.",
+	"captcha-addurl-whitelist": "#<!-- daissatz aquesta linha exactament tala coma es --> <pre> # La sintaxi es la seguenta: # * Tot caractèr seguissent \"#\" fins a la fin de la linha serà interpretat coma un comentari # * Tota linha non voida es un còdi regex que serà utilizat unicament a l'interior dels ligams hypertext. #</pre> <!-- daissatz aquesta linha exactament tala coma es -->",
+	"right-skipcaptcha": "Acomplís lo desenclavament de las accions de captcha sens dever passar per l'intermediari aqueste darrièr",
+	"confirmedit-preview-valid": "valida",
+	"confirmedit-preview-invalid": "invalida"
+}

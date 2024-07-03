@@ -1,0 +1,22 @@
+{
+	"@metadata": {
+		"authors": [
+			"Dani",
+			"Dj",
+			"Glanthor Reviol",
+			"KossuthRad",
+			"Tacsipacsi",
+			"Tgr"
+		]
+	},
+	"inputbox-desc": "Lehetővé teszi előre megadott HTML-űrlapok beillesztését",
+	"inputbox-error-no-type": "Nem adtad meg, hogy milyen típusú beviteli mezőt akarsz készíteni.",
+	"inputbox-error-bad-type": "„$1” típusú beviteli mező nem ismert.\nA „create”, „comment”, „search”, „search2” vagy „fulltext” egyikét add meg.",
+	"inputbox-tryexact": "Ugrás a szócikkre",
+	"inputbox-searchfulltext": "Keresés a teljes szövegben",
+	"inputbox-createarticle": "Szócikk létrehozása",
+	"inputbox-movearticle": "Lap átnevezése",
+	"inputbox-postcomment": "Új szakasz",
+	"inputbox-postcommenttitle": "Új szakasz",
+	"inputbox-ns-main": "Fő"
+}

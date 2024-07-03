@@ -1,0 +1,29 @@
+{
+	"@metadata": {
+		"authors": [
+			"Besnik b",
+			"Olsi",
+			"Vinie007"
+		]
+	},
+	"pfunc_desc": "Enhance parser me funksione logjike",
+	"pfunc_time_error": "Gabim: kohë e pavlefshme",
+	"pfunc_time_too_long": "Gabim: shumë #thirrje kohe",
+	"pfunc_time_too_big": "Gabim: # kohë mbështet vetëm vjet deri në 9999",
+	"pfunc_rel2abs_invalid_depth": "Gabim: thellësi e pavlefshme në rrugë: \"$1\" (u përpoq për të hyrë në një nyje mbi nyjen e rrënjës)",
+	"pfunc_expr_stack_exhausted": "Gabim shprehjeje: Stack exhausted",
+	"pfunc_expr_unexpected_number": "Gabim shprehjeje: Numër i papritur",
+	"pfunc_expr_preg_match_failure": "Gabim shprehjeje: Dështim i papritur i preg_match",
+	"pfunc_expr_unrecognised_word": "Gabim shprehjeje: Fjalë e panjohur: $1",
+	"pfunc_expr_unexpected_operator": "Gabim shprehjeje: Operator i papritur $1",
+	"pfunc_expr_missing_operand": "Gabim shprehjeje: Mungon gjymtyrë për $1",
+	"pfunc_expr_unexpected_closing_bracket": "Gabim shprehjeje: Mbyllje e papritur kllapash",
+	"pfunc_expr_unrecognised_punctuation": "Gabim shprehjeje: Shenjë e panjohur \"$1\" pikësimi",
+	"pfunc_expr_unclosed_bracket": "Gabim shprehjeje: Mosmbyllje kllapash",
+	"pfunc_expr_division_by_zero": "Pjesëtim me zero.",
+	"pfunc_expr_invalid_argument": "Argument i pavlefshëm për $1: < -1 ose > 1",
+	"pfunc_expr_invalid_argument_ln": "Argument i pavlefshëm për ln: <= 0",
+	"pfunc_expr_unknown_error": "Gabim shprehjeje: Gabim i panjohur ($1)",
+	"pfunc_expr_not_a_number": "Në $1: rezultati nuk është një numër",
+	"pfunc_string_too_long": "Gabim: string kalon limit $1 karakter"
+}

@@ -1,0 +1,33 @@
+{
+	"@metadata": {
+		"authors": [
+			"Nokeoo"
+		]
+	},
+	"apierror-discussiontools-commentid-notfound": "Komentaras su ID „$1“ nerastas.",
+	"apierror-discussiontools-commentname-ambiguous": "Rasti keli komentarai pavadinimu „$1“, būtinas <var>commentid</var>.",
+	"apierror-discussiontools-commentname-notfound": "Komentaras pavadinimu „$1“ nerastas.",
+	"apierror-discussiontools-formtoken-used": "Komentaras jau paskelbtas. Iš naujo įkelkite puslapį, kad jį pamatytumėte.",
+	"apierror-discussiontools-subscription-failed-add": "Nepavyko užsiprenumeruoti šios temos.",
+	"apierror-discussiontools-subscription-failed-remove": "Nepavyko atsisakyti šios temos prenumeratos.",
+	"apihelp-discussiontoolsedit-param-commentid": "Komentaro, į kurį atsakoma, ID. Naudojamas tik tada, kai <var>paction</var> yra <var>addcomment</var>. Nepaiso <var>commentname</var>.",
+	"apihelp-discussiontoolsedit-param-commentname": "Komentaro, į kurį reikia atsakyti, pavadinimas. Naudojamas tik tada, kai <var>paction</var> yra <var>addcomment</var>.",
+	"apihelp-discussiontoolsedit-param-autosubscribe": "Automatiškai nustatyti, kad naudotojas prenumeruotų aptarimo puslapio temą?",
+	"apihelp-discussiontoolsedit-param-formtoken": "Neprivalomas unikalus ID, sugeneruotas kliente, kad būtų išvengta dvigubo paskelbimo.",
+	"apihelp-discussiontoolsedit-param-html": "Skelbtinas turinys kaip HTML. Negalima naudoti kartu su <var>wikitext</var>.",
+	"apihelp-discussiontoolsedit-param-sectiontitle": "{{int:apihelp-edit-param-sectiontitle}} Naudojamas tik tada, kai <var>paction</var> yra <var>addtopic</var>.",
+	"apihelp-discussiontoolsedit-param-wikitext": "Skelbtinas turinys kaip vikitekstas. Negalima naudoti kartu su <var>html</var>.",
+	"apihelp-discussiontoolsedit-paramvalue-paction-addcomment": "Pridėti naują komentarą kaip atsakymą į esamą komentarą.",
+	"apihelp-discussiontoolsedit-paramvalue-paction-addtopic": "Pridėti naują diskusijų skyrių ir pirmąjį komentarą.",
+	"apihelp-discussiontoolsedit-summary": "Paskelbti žinutę diskusijų puslapyje.",
+	"apihelp-discussiontoolsgetsubscriptions-param-commentname": "Temų, kurias reikia patikrinti, pavadinimai",
+	"apihelp-discussiontoolsgetsubscriptions-summary": "Gauti pateiktų temų prenumeratos būseną.",
+	"apihelp-discussiontoolspageinfo-param-prop": "Kurias savybes gauti:",
+	"apihelp-discussiontoolspageinfo-summary": "Grąžina metaduomenis, reikalingus diskusijų įrankiams inicijuoti.",
+	"apihelp-discussiontoolspreview-param-type": "Pranešimo tipas peržiūrai",
+	"apihelp-discussiontoolspreview-param-wikitext": "Turinys peržiūrai, kaip vikitekstas.",
+	"apihelp-discussiontoolspreview-summary": "Peržiūrėti pranešimą diskusijų puslapyje.",
+	"apihelp-discussiontoolssubscribe-param-commentname": "Temos prenumeravimui (arba prenumeratos atsisakymui) pavadinimas",
+	"apihelp-discussiontoolssubscribe-param-page": "Puslapis, kuriame yra tema",
+	"apihelp-discussiontoolssubscribe-summary": "Prenumeruoti (ar atsisakyti prenumeratos), kad būtų gaunami pranešimai apie temą."
+}

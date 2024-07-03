@@ -1,0 +1,51 @@
+Replace Text Extension
+
+        Version 1.8
+        Yaron Koren, Niklas Laxström and others
+
+This is free software licenced under the GNU General Public Licence. Please
+see https://www.gnu.org/copyleft/gpl.html for further details, including the
+full text and terms of the licence.
+
+== Overview ==
+
+Replace Text is an extension to MediaWiki that creates a new special page,
+Special:ReplaceText, available to anyone who has the 'replacetext'
+privilege, that does a text find-and-replace on all pages in the wiki,
+selectable by namespace. Both the contents of pages and their titles can be
+modified. The search is case-sensitive.
+
+Since the replacement is not undoable, if the replacement string is
+blank or a string that is already contained in the wiki, the 'ReplaceText'
+page prompts the user to confirm the replacement before it is performed.
+
+Each replacement shows up as a wiki edit, with the administrator who
+performed the replacement appearing as the user and an edit summary that
+looks like "Text replacement: 'search string' to 'replacement string'".
+
+For more information, see the extension homepage at:
+https://www.mediawiki.org/wiki/Extension:Replace_Text
+
+== Requirements ==
+
+This version of the Replace Text extension requires MediaWiki 1.32 or higher.
+
+== Installation ==
+
+To install the extension, place the entire 'ReplaceText' directory within
+your MediaWiki 'extensions' directory, then add the following line to your
+'LocalSettings.php' file:
+
+     wfLoadExtension( 'ReplaceText' );
+
+In order to perform replacements, you must have the 'replacetext' permission;
+if you are an administrator on your wiki, the easiest way to do this is to
+also add the following line:
+
+     $wgGroupPermissions['sysop']['replacetext'] = true;
+
+== Contact ==
+
+Comments, questions, suggestions and bug reports are welcome, and can
+be placed on the Talk page for the extension, or sent to Yaron at
+yaron57@gmail.com.

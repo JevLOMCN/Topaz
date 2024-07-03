@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"Winston Sung"
+		]
+	},
+	"apihelp-flowthank-summary": "Pošaljite javnu obavijest o zahvali za komentar Ustrojnih raspravica.",
+	"apihelp-flowthank-param-postid": "UUID objave za koju zahvaljujete.",
+	"apihelp-flowthank-example-1": "Pošalji zahvalu za komentar s <kbd>UUID xyz789</kbd>",
+	"apihelp-thank-summary": "Pošalji obavijest o zahvali uređivaču.",
+	"apihelp-thank-param-rev": "Naznaka inačice za koju zahvaljujete. Mora da bude ukazano ovo ili „log“.",
+	"apihelp-thank-param-log": "Naznaka evidencije za koju nekomu hvalite. Mora da bude ukazano ovo ili „rev“."
+}

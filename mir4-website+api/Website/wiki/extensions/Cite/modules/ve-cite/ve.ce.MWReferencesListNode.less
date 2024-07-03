@@ -1,0 +1,51 @@
+/*!
+ * VisualEditor ContentEditable MediaWiki MWReferencesListNode styles.
+ *
+ * @copyright 2011-2018 VisualEditor Team's Cite sub-team and others; see AUTHORS.txt
+ * @license MIT
+ */
+
+.ve-ce-mwReferencesListNode {
+	// Remove the styling of the preview wrapper, and any
+	// generated paragraph wrappers
+	.ve-ui-previewElement,
+	.ve-ce-generated-wrapper {
+		display: inline;
+
+		// Disable mixin-clearfix applied by .mw-body-content (T337415)
+		&::after {
+			display: none;
+		}
+	}
+
+	&-muted {
+		color: #72777d;
+		font-style: italic;
+	}
+
+	.mw-references > li {
+		&:hover {
+			cursor: pointer;
+			background: fade( #6da9f7, 15% );
+		}
+
+		> * {
+			pointer-events: none;
+		}
+	}
+
+	&-missingRef {
+		-webkit-user-select: none;
+		-moz-user-select: none;
+		user-select: none;
+		pointer-events: none;
+	}
+
+	&-highlight {
+		.ve-ce-surface-highlights-focused & {
+			background: transparent;
+			pointer-events: none;
+			box-shadow: inset 0 0 0 1px #4c76ac, 0 0 0 2px #4c76ac;
+		}
+	}
+}

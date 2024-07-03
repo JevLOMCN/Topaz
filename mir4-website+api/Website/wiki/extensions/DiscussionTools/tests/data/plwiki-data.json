@@ -1,0 +1,84 @@
+{
+	"dateFormat": {
+		"pl": "H:i, j M Y"
+	},
+	"digits": {
+		"pl": [
+			"0",
+			"1",
+			"2",
+			"3",
+			"4",
+			"5",
+			"6",
+			"7",
+			"8",
+			"9"
+		]
+	},
+	"localTimezone": "Europe/Warsaw",
+	"specialContributionsName": "Wkład",
+	"timezones": {
+		"pl": {
+			"CEST": "CEST",
+			"CET": "CET",
+			"EEST": "EEST",
+			"EET": "EET",
+			"WMT": "WMT"
+		}
+	},
+	"contLangMessages": {
+		"pl": {
+			"sunday": "niedziela",
+			"monday": "poniedziałek",
+			"tuesday": "wtorek",
+			"wednesday": "środa",
+			"thursday": "czwartek",
+			"friday": "piątek",
+			"saturday": "sobota",
+			"sun": "N",
+			"mon": "Pn",
+			"tue": "Wt",
+			"wed": "Śr",
+			"thu": "Cz",
+			"fri": "Pt",
+			"sat": "So",
+			"january": "styczeń",
+			"february": "luty",
+			"march": "marzec",
+			"april": "kwiecień",
+			"may_long": "maj",
+			"june": "czerwiec",
+			"july": "lipiec",
+			"august": "sierpień",
+			"september": "wrzesień",
+			"october": "październik",
+			"november": "listopad",
+			"december": "grudzień",
+			"january-gen": "stycznia",
+			"february-gen": "lutego",
+			"march-gen": "marca",
+			"april-gen": "kwietnia",
+			"may-gen": "maja",
+			"june-gen": "czerwca",
+			"july-gen": "lipca",
+			"august-gen": "sierpnia",
+			"september-gen": "września",
+			"october-gen": "października",
+			"november-gen": "listopada",
+			"december-gen": "grudnia",
+			"jan": "sty",
+			"feb": "lut",
+			"mar": "mar",
+			"apr": "kwi",
+			"may": "maj",
+			"jun": "cze",
+			"jul": "lip",
+			"aug": "sie",
+			"sep": "wrz",
+			"oct": "paź",
+			"nov": "lis",
+			"dec": "gru"
+		}
+	}
+}

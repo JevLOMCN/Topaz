@@ -1,0 +1,109 @@
+@import 'mediawiki.skin.variables.less';
+@import 'mmv.variables.less';
+@import 'mmv.mixins.less';
+
+.mw-mmv-wrapper {
+	top: 0;
+	left: 0;
+	right: 0;
+	z-index: 1001;
+	position: absolute;
+	bottom: auto;
+
+	.skin-monobook & {
+		font-size: medium;
+	}
+}
+
+.mw-mmv-main {
+	width: 100%;
+	height: auto;
+	position: relative;
+
+	.jq-fullscreened {
+		background-color: #000;
+	}
+}
+
+.mw-mmv-image-wrapper {
+	position: fixed;
+	top: 0;
+	bottom: @metadatabar-above-fold-height;
+	left: 0;
+	right: 0;
+	overflow-y: hidden;
+}
+
+.mw-mmv-image-inner-wrapper {
+	display: table;
+	width: 100%;
+	height: 100%;
+}
+
+.mw-mmv-pre-image {
+	position: absolute;
+	top: 0;
+	height: 32px;
+	width: 100%;
+	z-index: 1;
+}
+
+.mw-mmv-post-image {
+	position: absolute;
+	width: 100%;
+	bottom: auto;
+	height: auto;
+	color: @color-base;
+	background-color: @panel-above-fold-background-color;
+	min-height: ( @metadatabar-above-fold-inner-height + 1 );
+	z-index: 1005;
+}
+
+// above-the-fold part of the metadata panel
+.mw-mmv-above-fold {
+	width: 100%;
+	height: @metadatabar-above-fold-inner-height;
+	// min-height is used when the height is changed to auto to display long texts, to make sure the layout
+	// is not messed up wheen the text is short and does not fill the available place. It is also used by
+	// JavaScript to get the "default" height.
+	min-height: @metadatabar-above-fold-inner-height;
+	position: relative;
+	// make sure there is no content in the part which is overlapped by the revealed part of the below-fold content
+	// also used in JavaScript for the height calculations
+	padding-bottom: @metadatabar-below-fold-pushup-height;
+
+	.mw-mmv-untruncated & {
+		height: auto;
+	}
+}
+
+// Fullscreen styles
+
+.cursor-hidden {
+	/* stylelint-disable-next-line plugin/no-unsupported-browser-features */
+	cursor: none;
+}
+
+.mw-mmv-main.jq-fullscreened {
+	background-color: #000;
+}
+
+.jq-fullscreened {
+	// make the image occupy the whole screen
+	// make sure the panel fits in the screen and does not cause scrollbars to appear
+	.mw-mmv-image-wrapper,
+	.mw-mmv-post-image {
+		bottom: 0;
+	}
+
+	.mw-mmv-post-image {
+		position: fixed;
+		min-height: 0;
+		opacity: 0;
+		transition: opacity 0.25s;
+
+		&:hover {
+			opacity: 1;
+		}
+	}
+}

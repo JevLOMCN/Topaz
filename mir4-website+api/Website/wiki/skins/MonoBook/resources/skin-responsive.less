@@ -1,0 +1,24 @@
+@import 'variables.less';
+@import 'mediawiki.mixins.less';
+
+/**
+ * Styles for responsive version of MonoBook.
+ * IMPORTANT:  These must not be merged with screen-common.less
+ * Doing so will confuse the LESS compiler and it will de-duplicate shared styles
+ * resulting in the breaking of responsive mode.
+ * See https://github.com/wikimedia/less.php/issues/69 for more information.
+*/
+
+@media screen {
+	// Must only apply when the skin-responsive class is on the body element.
+	body.skin--responsive {
+		// These styles are not used at mobile resolution.
+		@media ( min-width: 551px ) {
+			@import 'screen-desktop.less';
+		}
+
+		@media ( max-width: 550px ) {
+			@import 'screen-mobile.less';
+		}
+	}
+}

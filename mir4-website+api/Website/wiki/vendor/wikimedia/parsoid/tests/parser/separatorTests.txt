@@ -1,0 +1,129 @@
+!! Version 2
+#
+# This file will hold tests for separator handling functionality
+
+!! article
+Template:1x
+!! text
+{{{1}}}
+!! endarticle
+
+# This is a regression test that indirectly tests the expectation
+# by ensuring that there are no nowikis around [2] on the second line
+!! test
+Newlines reset separator state
+!! options
+parsoid=wt2wt
+!! wikitext
+{|
+|[[Foo]] [1]
+ |[[Bar]] [2]
+|}
+!! html/parsoid
+NOT NEEDED
+!! end
+
+!! test
+Selser: Reuse separator before first content node of body
+!! options
+parsoid={
+  "modes": ["selser"],
+  "selser": "noauto",
+  "changes": [
+     [ "p", "html", "BAR" ]
+  ]
+}
+!! wikitext
+ <noinclude>{{1x|<div>foo</div>}}</noinclude>
+
+FOO
+!! wikitext/edited
+ <noinclude>{{1x|<div>foo</div>}}</noinclude>
+
+BAR
+!! end
+
+!! test
+Insertions: Separators recovered from original source
+!! options
+parsoid={
+  "modes": ["selser"],
+  "selser": "noauto",
+  "changes": [
+     [ "li:nth-child(3)", "append", "<ul><li>c-new</li></ul>" ],
+     [ "li:nth-child(4)", "append", "<ul><li>d-new</li></ul>" ]
+  ]
+}
+!! wikitext
+* a 
+* b<!--c1--> 
+* c <!--c2--> 
+* d <!--c3--> 
+!! wikitext/edited
+* a 
+* b<!--c1--> 
+* c <!--c2--> 
+** c-new
+* d <!--c3--> 
+** d-new
+!! end
+
+# Regression test for T280050
+!! test
+Ensure DSR fixups for misnested links don't lead to incorrect separator reuse
+!! options
+parsoid={
+  "modes": ["selser"],
+  "selser": "noauto",
+  "changes": [
+     [ "li:nth-child(1)", "append", "<ul><li>foo</li></ul>" ]
+  ]
+}
+!! wikitext
+* [http://example.org Misnested [[wikilink]] in extlink]. More text.
+!! wikitext/edited
+* [http://example.org Misnested [[wikilink]] in extlink]. More text.
+** foo
+!! end
+
+# Regression test for T276512
+!! test
+Don't strip excess new lines before/after an unmodified rendering-transparent node
+!! options
+parsoid={
+  "modes": ["selser"],
+  "selser": "noauto",
+  "changes": [
+     [ "p", "after", "\n<ul><li>x</li></ul>" ]
+  ]
+}
+!! wikitext
+foo
+
+<!--bar-->
+
+[[Category:Baz]]
+!! wikitext/edited
+foo
+
+* x
+
+<!--bar-->
+
+[[Category:Baz]]
+!! end
+
+!! test
+Ensure that make-sep-indent-pre-safe logic isn't tripped up by newlines in comments
+!! options
+parsoid=html2wt
+!! html/parsoid
+<!-- cmt
+ --><p>x</p>
+!! wikitext
+<!-- cmt
+ -->x
+!! html/php
+<p>x
+</p>
+!! end

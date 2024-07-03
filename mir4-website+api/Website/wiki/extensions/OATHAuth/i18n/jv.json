@@ -1,0 +1,31 @@
+{
+	"@metadata": {
+		"authors": [
+			"Diki Ananta",
+			"NoiX180",
+			"Sumbukompor"
+		]
+	},
+	"oathauth-account": "Jeneng akun:",
+	"oathauth-secret": "Kunci wani otèntifikasi rong faktor:",
+	"oathauth-enable": "Urubaké otèntifikasi rong faktor",
+	"oathauth-disable": "Patèni otèntifikasi rong faktor",
+	"oathauth-failedtovalidateoath": "Wurung validhasi krédhènsial rong faktor",
+	"oathauth-disabledoath": "Patèni otèntifikasi rong faktor.",
+	"oathauth-prefs-label": "Otèntifikasi rong faktor:",
+	"oathauth-step1": "Lampah 1: Undhuh program otèntifikasi rong faktor",
+	"oathauth-step2alt": "Utawa isinen kunci sandiné kanthi manual:",
+	"oathauth-step3": "Lampah 3: Tulisen kodhe rèngrèngan",
+	"oathauth-step4": "Lampah 5: Vèrifikasi",
+	"oathauth-entertoken": "Isinen kodhe saka piranti otèntifikasi kanggo vèrifikasi:",
+	"right-oathauth-enable": "Urubaké otèntifikasi rong faktor",
+	"action-oathauth-enable": "urubaké otèntifikasi rong faktor",
+	"oathauth-auth-token-label": "Token",
+	"oathauth-auth-ui": "Mangga isinen kodhe vèrifikasi saka piranti otèntifikasiné panjenengan",
+	"oathauth-throttled": "Kakèhan tumindak vèrifikasi! Mangga entènana $1.",
+	"oathauth-login-failed": "Wurung vèrifikasi.",
+	"oathauth-describe-provider": "Otèntifikasi rong faktor (OATH).",
+	"grant-group-authentication": "Ayahi tumindak otèntifikasi kanggo panjenengan dhéwé lan liyan",
+	"grant-oath": "Aksès informasi otèntifikasi rong faktor (OATH) kanggo panjenengan dhéwé lan liyan",
+	"action-oathauth-api-all": "priksa status OATH"
+}

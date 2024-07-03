@@ -1,0 +1,28 @@
+{
+	"@metadata": {
+		"authors": [
+			"Fulup",
+			"Kadwallan"
+		]
+	},
+	"pfunc_desc": "Gwellaat a ra ar parser gant arc'hwelioù poellek",
+	"pfunc_time_error": "Fazi : pad direizh",
+	"pfunc_time_too_long": "Fazi : betek re eo bet galvet #time",
+	"pfunc_time_too_big": "Fazi: #time ne skor nemet bloazioù betek 9999",
+	"pfunc_rel2abs_invalid_depth": "Fazi : Donder direizh evit an hent : \"$1\" (klasket ez eus bet mont d'ul live a-us d'ar c'havlec'h-mamm)",
+	"pfunc_expr_stack_exhausted": "Kemennad faziek : pil riñset",
+	"pfunc_expr_unexpected_number": "Kemennad faziek : niver dic'hortoz.",
+	"pfunc_expr_preg_match_failure": "Kemennad faziek : c'hwitadenn dic'hortoz evit preg_match.",
+	"pfunc_expr_unrecognised_word": "Kemennadenn faziek : ger dianav \"$1\"",
+	"pfunc_expr_unexpected_operator": "Kemennad faziek : oberier $1 dic'hortoz.",
+	"pfunc_expr_missing_operand": "Kemennad faziek : Dianav eo operand $1.",
+	"pfunc_expr_unexpected_closing_bracket": "Kemennad faziek : krommell serriñ dic'hortoz.",
+	"pfunc_expr_unrecognised_punctuation": "Kemennad faziek : dianav eo an arouezenn boentaouiñ \"$1\".",
+	"pfunc_expr_unclosed_bracket": "Kemennad faziek : Krommell zigor",
+	"pfunc_expr_division_by_zero": "Rannañ dre mann",
+	"pfunc_expr_invalid_argument": "Talvoudenn direizh evit $1: < -1 pe > 1",
+	"pfunc_expr_invalid_argument_ln": "Talvoudenn direizh evit ln: <= 0",
+	"pfunc_expr_unknown_error": "Kemennad faziek : fazi dianav ($1).",
+	"pfunc_expr_not_a_number": "E $1: An disoc'h n'eo ket un niver",
+	"pfunc_string_too_long": "Fazi : Dreist d'ar vevenn uhelañ a $1 arouezenn eo an neudennad"
+}

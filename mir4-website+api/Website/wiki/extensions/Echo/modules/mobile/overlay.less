@@ -1,0 +1,55 @@
+// FIXME: some of this could be removed if we reused .page-list styling
+@import 'mediawiki.skin.variables.less';
+@import 'mediawiki.mixins.less';
+
+@overlayHeaderHeight: 3em;
+
+/* stylelint-disable-next-line selector-class-pattern */
+.notifications-overlay {
+	// position: fixed + sliding drawer causes weird rendering bugs in Android
+	// Browser (tested on 4.0.4 and 4.2.1)
+	padding-top: 0;
+
+	&-header-markAllRead {
+		padding-right: 1em;
+	}
+
+	&-overlay {
+		position: absolute;
+		bottom: @overlayHeaderHeight;
+		right: 0;
+		left: 0;
+		z-index: 1;
+
+		.mw-echo-ui-actionMenuPopupWidget-menu {
+			padding: 0.5em;
+			box-shadow: none;
+			border-color: @border-color-subtle;
+			border-style: @border-style-base;
+			border-width: @border-width-base 0 0 0;
+			// Override the positioning of the menu
+			// so it is "stuck" on the bottom of the
+			// notification overlay panel
+			position: static !important;
+			bottom: 0 !important;
+			left: 0 !important;
+			width: 100% !important;
+			height: auto !important;
+			top: auto !important;
+		}
+	}
+
+	/* stylelint-disable-next-line selector-class-pattern */
+	.overlay-content {
+		// this is needed not only on iOS, that's why we repeat it here even though
+		// it's in Overlay.less too
+		overflow-y: scroll; // has to be scroll, not auto
+		position: absolute;
+		width: 100%;
+		padding-top: 0;
+		padding-bottom: 0;
+		max-width: none; // T219320
+		top: @overlayHeaderHeight;
+		bottom: @overlayHeaderHeight;
+	}
+}

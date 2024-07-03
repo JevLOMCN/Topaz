@@ -1,0 +1,54 @@
+@import 'mediawiki.mixins';
+
+/**
+ * CSS for WikiEditor Dialogs jQuery plugin
+ */
+
+.wikiEditor-toolbar-dialog {
+	.ui-dialog-content {
+		/* stylelint-disable declaration-no-important */
+		fieldset {
+			border: 0 !important;
+			margin: 0 !important;
+			padding: 0 !important;
+		}
+		/* stylelint-enable declaration-no-important */
+
+		input[ type='text' ] {
+			box-sizing: border-box;
+		}
+
+		input {
+			&[ type='radio' ],
+			&[ type='checkbox' ] {
+				margin-left: 0;
+			}
+		}
+	}
+
+	.ui-dialog-titlebar-close {
+		padding: 0;
+	}
+}
+
+/* Put suggestions (default z-index 99) on top of dialogs (z-index 1002) */
+div.suggestions {
+	z-index: 1099;
+}
+
+body {
+	.wikiEditor-toolbar-dialog {
+		.ui-dialog-titlebar-close {
+			right: 0.9em;
+		}
+	}
+}
+
+.wikieditor-toolbar-field-wrapper {
+	padding: 0 0 25px 0;
+}
+
+.wikieditor-toolbar-floated-field-wrapper {
+	float: left;
+	margin-right: 2em;
+}

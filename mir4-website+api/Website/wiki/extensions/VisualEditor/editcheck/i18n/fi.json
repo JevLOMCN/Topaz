@@ -1,0 +1,25 @@
+{
+	"@metadata": {
+		"authors": [
+			"Olavinto",
+			"Pyscowicz",
+			"Samoasambia"
+		]
+	},
+	"editcheck-dialog-action-no": "Ei",
+	"editcheck-dialog-action-yes": "Kyllä",
+	"editcheck-dialog-addref-description": "Auta lukijoita ymmärtämään, mistä tämä tieto on peräisin lisäämällä viittaus.",
+	"editcheck-dialog-addref-reject-question": "Mikset lisää viittausta?",
+	"editcheck-dialog-addref-reject-description": "Muut muokkaajat arvostaisivat kuulla päätöksestäsi olla lisäämättä viittausta.",
+	"editcheck-dialog-addref-reject-irrelevant": "En usko, että viittaukset ovat tarpeen tekemässäni muokkauksessa",
+	"editcheck-dialog-addref-reject-common-knowledge": "Tieto, jota olen lisäämässä on yleistä tietoa",
+	"editcheck-dialog-addref-reject-uncertain": "En ole varma, minkä viittauksen lisäisin",
+	"editcheck-dialog-addref-reject-other": "Muu",
+	"editcheck-dialog-addref-success-notify": "Kiitos viittauksen lisäämisestä!",
+	"editcheck-dialog-addref-title": "Lisää viittaus",
+	"editcheck-dialog-title": "Ennen julkaisua",
+	"tag-editcheck-reference-decline-common-knowledge": "Muokkaustarkistin (lähteet) hylätty (yleistietoa)",
+	"tag-editcheck-reference-decline-irrelevant": "Muokkaustarkistin (lähteet) hylätty (epäolennaista)",
+	"tag-editcheck-reference-decline-other": "Muokkaustarkistin (lähteet) hylätty (muu syy)",
+	"tag-editcheck-reference-decline-uncertain": "Muokkaustarkistin (lähteet) hylätty (epävarma)"
+}

@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Rachmat04"
+		]
+	},
+	"apihelp-query+mathwbextracts-example-1": "Minta ringkasan butir Wikibase matematika.",
+	"apihelp-query+mathwbextracts-summary": "Minta ringkasan butir Wikibase matematika dalam HTML.",
+	"apihelp-query+mathwbextracts-param-qid": "QID butir Wikibase yang akan diminta.",
+	"apihelp-query+mathwbextracts-param-uselang": "Bahasa yang harus diminta pada butir Wikibase ini. Bahasa Inggris merupakan nilai bakunya."
+}

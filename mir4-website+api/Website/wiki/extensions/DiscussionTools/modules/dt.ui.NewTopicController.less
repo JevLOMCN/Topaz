@@ -1,0 +1,40 @@
+.ext-discussiontools-ui-newTopic {
+	clear: both;
+
+	&.oo-ui-panelLayout-padded.oo-ui-panelLayout-framed {
+		margin-top: 2em;
+	}
+
+	.ext-discussiontools-ui-newTopic-notices {
+		// Ensure that the form is visible below the notice in case of large notices and small screens
+		max-height: 75vh;
+		overflow: auto;
+	}
+
+	.ext-discussiontools-ui-newTopic-notices + .oo-ui-fieldLayout {
+		margin-top: 0;
+	}
+
+	h2&-sectionTitle {
+		max-width: none;
+		// This element is a <h2> - override unwanted heading styles
+		padding: 0;
+		border: 0;
+		margin-top: 4px;
+
+		.oo-ui-inputWidget-input {
+			// Support: Chrome
+			// Work around a bug causing some characters to be cut off vertically (T345489#9141063)
+			// https://bugs.chromium.org/p/chromium/issues/detail?id=1162116
+			line-height: 3;
+		}
+	}
+
+	.ext-discussiontools-ui-replyWidget {
+		margin-bottom: 0;
+	}
+
+	.oo-ui-fieldLayout-messages {
+		max-width: none;
+	}
+}

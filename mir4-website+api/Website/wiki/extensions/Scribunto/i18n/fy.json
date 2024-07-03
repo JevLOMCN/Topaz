@@ -1,0 +1,32 @@
+{
+	"@metadata": {
+		"authors": [
+			"PiefPafPier",
+			"Robin van der Vliet",
+			"Robin0van0der0vliet"
+		]
+	},
+	"scribunto-line": "op rigel $1",
+	"scribunto-module-line": "yn $1 op rigel $2",
+	"scribunto-parser-dialog-title": "Skriptflater",
+	"scribunto-error-short": "Skriptflater: $1",
+	"scribunto-error-long": "Skriptflaters:\n\n$1",
+	"scribunto-doc-page-name": "Module:$1/doc",
+	"scribunto-doc-page-does-not-exist": "''De dokumintaasje foar dizze module kin oanmakke wurde op [[$1]]''",
+	"scribunto-doc-page-header": "'''Dit is de dokumintaasjeside foar [[$1]]'''",
+	"scribunto-console-current-src": "konsoleynfier",
+	"scribunto-console-clear": "Wiskje",
+	"scribunto-common-error-category": "Siden mei skriptflaters",
+	"scribunto-lua-in-function": "yn 'e funksje \"$1\"",
+	"scribunto-lua-in-main": "yn it haadpart",
+	"scribunto-lua-in-function-at": "yn 'e funksje op $1:$2",
+	"scribunto-lua-error-location": "Lua-flater $1: $2",
+	"scribunto-lua-error": "Lua-flater: $2",
+	"scribunto-lua-notarrayreturn": "Skriptflater: De module joech in '$2'-wearde. Dat soe in eksporttabel wêze moatte.",
+	"scribunto-module-with-errors-category": "Scribunto-modulen mei flaters",
+	"scribunto-limitreport-timeusage-value": "$1/$2 sekonden",
+	"scribunto-limitreport-profile-ms": "$1 ms",
+	"scribunto-limitreport-logs": "Lua-lochs",
+	"nstab-module": "Module",
+	"tooltip-ca-nstab-module": "De moduleside besjen"
+}

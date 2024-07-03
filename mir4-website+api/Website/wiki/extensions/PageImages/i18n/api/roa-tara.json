@@ -1,0 +1,19 @@
+{
+	"@metadata": {
+		"authors": [
+			"Joetaras"
+		]
+	},
+	"apihelp-query+pageimages-summary": "Dèje 'mbormaziune sus a le immaggine jndr'à pàgene, pe esembie le andeprime e 'a presenze de fote.",
+	"apihelp-query+pageimages-example-1": "Pigghie 'u nome e miniature a <kbd>100</kbd>-pixel de 'n'immaggine sus 'a pàgene de <kbd>Albert Einstein</kbd>.",
+	"apihelp-query+pageimages-param-prop": "Ce 'mbormaziune a dà:",
+	"apihelp-query+pageimages-paramvalue-prop-thumbnail": "URL e dimenziune de 'n'immaggine piccenne associate cu 'a pàgene, ce stè.",
+	"apihelp-query+pageimages-paramvalue-prop-original": "URL e dimenziune origgenale de l'immaggine associate cu 'a pàgene, ce stè.",
+	"apihelp-query+pageimages-paramvalue-prop-name": "Titole de l'immaggine.",
+	"apihelp-query+pageimages-param-thumbsize": "Larghezze massime in pixel de le immaggine in miniature.",
+	"apihelp-query+pageimages-param-langcode": "Codece pa lènghe addò avène fatte 'u rendering de l'immaggine ce sò supportate cchiù lènghe",
+	"apihelp-query+pageimages-param-limit": "Probbietà de quanda pàggene a dà.",
+	"apihelp-query+pageimages-param-license": "Limite le immaggine de le pàggene a 'nu certe tipe de licenze:",
+	"apihelp-query+pageimages-paramvalue-license-free": "sulamende immaggine aggratis.",
+	"apihelp-query+pageimages-paramvalue-license-any": "Immaggina megghie, sie libbere ca none."
+}

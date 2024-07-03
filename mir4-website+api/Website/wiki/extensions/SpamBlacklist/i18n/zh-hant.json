@@ -1,0 +1,32 @@
+{
+	"@metadata": {
+		"authors": [
+			"A2093064",
+			"Cwlin0416",
+			"Kly",
+			"LNDDYL",
+			"Liangent",
+			"Liuxinyu970226",
+			"Mark85296341",
+			"Oapbtommy",
+			"Waihorace",
+			"Xiplus"
+		]
+	},
+	"spam-blacklist": " #<!-- 請勿更動此行 --> <pre>\n# 任何加入到頁面的外部 URL 於此清單之中將會被封鎖。\n# 此清單有效範圍僅在本 Wiki，詳情請參考全域封鎖清單。\n# 相關文件請參考 https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:SpamBlacklist\n#\n# 語法格式如下：\n#   * 任何以 \"#\" 字元開頭的行皆為註解\n#   * 任何非空白的行會被作為正規表示法用來比對 URL 中的主機名稱\n #</pre> <!-- 請勿更動此行 -->",
+	"spam-whitelist": " #<!-- 請勿更動此行 --> <pre>\n# 任何外部 URL 於此清單中將 *不* 會被封鎖\n# 即使已經被加入封鎖清單當中。\n#\n# 語法格式如下：\n#   * 任何以 \"#\" 字元開頭的行皆為註解\n#   * 任何非空白的行會被作為正規表示法用來比對 URL 中的主機名稱\n #</pre> <!-- 請勿更動此行 -->",
+	"email-blacklist": " #<!-- 請勿更動此行 --> <pre>\n# 任何註冊或送出的 Email 位址於此清單之中將會被封鎖。\n# 此清單有效範圍僅在本 Wiki，詳情請參考全域封鎖清單。\n# 相關文件請參考 https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:SpamBlacklist\n#\n# 語法格式如下：\n#   * 任何以 \"#\" 字元開頭的行皆為註解\n#   * 任何非空白的行會被作為正規表示法用來比對 Email 位址中的主機名稱\n #</pre> <!-- 請勿更動此行 -->",
+	"email-whitelist": " #<!-- 請勿更動此行 --> <pre>\n# 任何 Email 位址於此清單中將 *不* 會被封鎖\n# 即使已經被加入封鎖清單當中。\n#\n# 語法格式如下：\n#   * 任何以 \"#\" 字元開頭的行皆為註解\n#   * 任何非空白的行會被作為正規表示法用來比對 Email 位址中的主機名稱\n #</pre> <!-- 請勿更動此行 -->",
+	"spam-blacklisted-email": "已禁止的電子郵件地址",
+	"spam-blacklisted-email-text": "您的電子郵件地址目前已被禁止，以防止您傳送郵件給其他使用者。",
+	"spam-blacklisted-email-signup": "提供的電子郵件地址目前已被禁止，無法使用。",
+	"spam-invalid-lines": "下列垃圾連結封鎖清單中有{{PLURAL:$1|一行|多行}}使用了無效的{{PLURAL:$1|正規表示法}}，{{PLURAL:$1|需要}}修正後才可儲存此頁面：",
+	"spam-blacklist-desc": "以正規表示法為基礎的防濫用工具，可封鎖列在頁面中的 URL 以及已註冊使用者的電子郵件位址。",
+	"log-name-spamblacklist": "垃圾連結封鎖清單日誌",
+	"log-description-spamblacklist": "此頁記錄了觸發垃圾連結封鎖清單的事件。",
+	"logentry-spamblacklist-hit": "{{GENDER:$2|$1}} 於 $3 嘗試加入的 $4 符合垃圾連結封鎖清單中的項目。",
+	"right-spamblacklistlog": "檢視垃圾連結封鎖清單日誌",
+	"action-spamblacklistlog": "檢視垃圾連結封鎖清單日誌",
+	"right-sboverride": "繞過垃圾連結封鎖清單",
+	"action-sboverride": "繞過垃圾連結封鎖清單"
+}

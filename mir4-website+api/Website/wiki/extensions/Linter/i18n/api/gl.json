@@ -1,0 +1,18 @@
+{
+	"@metadata": {
+		"authors": [
+			"Banjo",
+			"Elisardojm",
+			"Toliño"
+		]
+	},
+	"apihelp-query+linterrors-summary": "Obter unha lista de erros do comprobador",
+	"apihelp-query+linterrors-param-categories": "Categorías de erros de Lint",
+	"apihelp-query+linterrors-param-limit": "Número de resultados a consultar",
+	"apihelp-query+linterrors-param-from": "Identificador do comprobador a partir do que comezar a consulta",
+	"apihelp-query+linterrors-param-namespace": "Só incluír erros do comprobador dos espazos de nomes especificados",
+	"apihelp-query+linterrors-param-pageid": "Incluír só os erros de Lint dos identificadores de páxina especificados",
+	"apihelp-query+linterrors-example-1": "Obter tódolos erros do comprobador da categoría da etiqueta obsoleta",
+	"apihelp-query+linterstats-summary": "Obter o número de erros do comprobador en cada categoría",
+	"apihelp-query+linterstats-example-1": "Obter o número de erros do comprobador en cada categoría"
+}

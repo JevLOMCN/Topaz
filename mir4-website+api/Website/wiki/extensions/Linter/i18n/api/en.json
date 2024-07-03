@@ -1,0 +1,21 @@
+{
+	"@metadata": {
+		"authors": [
+			"Brad Jorsch",
+			"Haikal Izzuddin",
+			"Kunal Mehta",
+			"xyx_is"
+		]
+	},
+	"apihelp-query+linterrors-summary": "Get a list of lint errors",
+	"apihelp-query+linterrors-param-categories": "Categories of lint errors",
+	"apihelp-query+linterrors-param-invisible-categories": "Invisible categories of lint errors",
+	"apihelp-query+linterrors-param-limit": "Number of results to query",
+	"apihelp-query+linterrors-param-from": "Lint ID to start querying from",
+	"apihelp-query+linterrors-param-namespace": "Only include lint errors from the specified namespaces",
+	"apihelp-query+linterrors-param-pageid": "Only include lint errors from the specified page IDs",
+	"apihelp-query+linterrors-param-title": "Only include lint errors from the specified page title",
+	"apihelp-query+linterrors-example-1": "Get all lint errors of the obsolete-tag category",
+	"apihelp-query+linterstats-summary": "Get number of lint errors in each category",
+	"apihelp-query+linterstats-example-1": "Get number of lint errors in each category"
+}

@@ -1,0 +1,37 @@
+{
+	"@metadata": {
+		"authors": [
+			"Happy5214",
+			"KuboF",
+			"Mirin",
+			"NMaia",
+			"Psychoslave",
+			"Robin van der Vliet",
+			"Shirayuki",
+			"Yekrats",
+			"Ziko"
+		]
+	},
+	"tag-editcheck-newcontent-description": "Redakto-kontrolo kredas, ke nova enhavo estis aldonita al la paĝo",
+	"tag-editcheck-newreference-description": "Referenco estis aldonita al la paĝo",
+	"tag-editcheck-references-description": "Redakto-kontrolo opinias, ke referenco eble estis bezonata",
+	"tag-editcheck-references-activated": "[[{{MediaWiki:editcheck-falsepositives-link}}|Redakto-kontrolo (referencoj) aktivigita]]",
+	"tag-editcheck-references-activated-description": "Redakto-kontrolo kredas, ke referenco eble estis bezonata, kaj la UI estis montrita",
+	"tag-visualeditor": "[[{{MediaWiki:visualeditor-descriptionpagelink}}|Vida redakto]]",
+	"tag-visualeditor-description": "Redakto farita per [[{{MediaWiki:visualeditor-descriptionpagelink}}|vida redaktilo]]",
+	"tag-visualeditor-needcheck": "[[{{MediaWiki:visualeditor-descriptionpagelink}}|vida redaktilo:Kontroli]]",
+	"tag-visualeditor-needcheck-description": "Redakto farita per [[{{MediaWiki:visualeditor-descriptionpagelink}}|vida redaktilo]] kie sistemo detektis eblajn neintencajn ŝanĝojn de vikiteksto.",
+	"tag-visualeditor-wikitext": "redakto de fonto je 2017",
+	"tag-visualeditor-wikitext-description": "Redakto farita per la vikiteksta redaktilo de 2017",
+	"tag-visualeditor-switched": "[[{{MediaWiki:visualeditor-descriptionpagelink}}|vida redaktilo: Komutita]]",
+	"tag-visualeditor-switched-description": "Uzanto komenci redakti uzante la vidan redaktilon kaj poste ŝanĝis al vikiteksta redaktilo.",
+	"visualeditor-feedback-link": "Project:VidRedaktilo/Rimarkoj",
+	"visualeditor-feedback-tool": "Provizu rimarkojn pri tiu ĉi programo",
+	"visualeditor-help-label": "Legu gvidilon por uzantoj",
+	"visualeditor-welcomedialog-action": "Ekredakti",
+	"visualeditor-welcomedialog-content": "Ĉiuj povas redakti, kaj ĉiu plibonigo helpas.",
+	"visualeditor-welcomedialog-content-thanks": "Dankon por helpi la mondon lerni plu!",
+	"visualeditor-welcomedialog-switch": "Ŝalti fontan redaktilon",
+	"visualeditor-welcomedialog-switch-ve": "Ŝalti vidan redaktilon",
+	"visualeditor-welcomedialog-title": "{{GENDER:$1|Bonvenon}} al $2"
+}

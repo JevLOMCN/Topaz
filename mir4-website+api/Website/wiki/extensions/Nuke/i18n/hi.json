@@ -1,0 +1,36 @@
+{
+	"@metadata": {
+		"authors": [
+			"Ansumang",
+			"Ayushimrigen",
+			"Kaustubh",
+			"Sfic",
+			"Shyam",
+			"Siddhartha Ghai"
+		]
+	},
+	"nuke": "एक साथ बहुत सारे पृष्ठ हटायें",
+	"action-nuke": "एक साथ बहुत सारे पृष्ठ हटाने",
+	"nuke-desc": "प्रबंधकों को एक साथ [[Special:Nuke|बहुत सारे पृष्ठ हटाने]] की सुविधा देता है",
+	"nuke-nopages": "हाल में हुए बदलावों में [[Special:Contributions/$1|{{GENDER:$1|$1}}]] द्वारा नये पृष्ठ नहीं हैं।",
+	"nuke-list": "नीचे दिये हुए पृष्ठ [[Special:Contributions/$1|{{GENDER:$1|$1}}]] ने हाल में बनाये हैं;\nटिप्पणी दें और हटाने के लिये बटन पर क्लिक करें।",
+	"nuke-list-multiple": "निम्न पृष्ठ हाल में बनाए गए हैं;\nटिप्पणी दें और हटाने के लिए बटन पर क्लिक करें।",
+	"nuke-defaultreason": "[[Special:Contributions/$1|{{GENDER:$1|$1}}]] द्वारा बनाये गए पृष्ठ एक साथ हटाये",
+	"nuke-multiplepeople": "हाल में बने पृष्ठ एक साथ हटाए",
+	"nuke-tools": "यह उपकरण किसी सदस्य या आई॰पी द्वारा हाल ही में जोड़े गए पृष्ठों को सामूहिक रूप से हटाने के लिए है।\nसदस्यनाम या आई॰पी डालकर हटाने हेतु पृष्ठों की सूची प्राप्त करें। सभी सदस्यों के बनाए पृष्ठों की सूची के लिए खाली छोड़ दें।",
+	"nuke-submit-user": "पृष्ठ सूची बनाएँ",
+	"nuke-submit-delete": "चुने हुए हटायें",
+	"right-nuke": "बहुत से पृष्ठ एक साथ हटायें",
+	"nuke-userorip": "सदस्यनाम, आई॰पी पता या खाली:",
+	"nuke-maxpages": "अधिकतम पृष्ठ संख्या:",
+	"nuke-editby": "[[Special:Contributions/$1|{{GENDER:$1|$1}}]] द्वारा बनाए गए",
+	"nuke-deleted": "पृष्ठ '''$1''' को हटा दिया गया है।",
+	"nuke-not-deleted": "पृष्ठ [[:$1]] हटाया '''नहीं''' जा सका।",
+	"nuke-delete-more": "[[Special:Nuke|और पृष्ठ हटाएँ]]",
+	"nuke-pattern": "पृष्ठ नाम के लिए पैटर्न:",
+	"nuke-nopages-global": "आपके खोज अनुसार कोई भी पृष्ठ का शीर्षक नहीं है।",
+	"nuke-viewchanges": "बदलाव देखें",
+	"nuke-namespace": "इस नामस्थान में सीमित करें:",
+	"nuke-linkoncontribs": "एक साथ हटाएँ",
+	"nuke-linkoncontribs-text": "उन पृष्ठों को एक साथ हटाएँ जहाँ यह सदस्य इकलौता लेखक है"
+}

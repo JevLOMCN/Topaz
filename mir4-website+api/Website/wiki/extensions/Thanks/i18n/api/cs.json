@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"Matěj Suchánek",
+			"Mormegil"
+		]
+	},
+	"apihelp-thank-param-rev": "ID revize, za kterou se má někomu poděkovat. Toto nebo 'log' musí být uvedeno.",
+	"apihelp-thank-param-log": "ID záznamu, za který se má poděkovat. Nutné uvést buď toto, nebo 'rev'."
+}

@@ -1,0 +1,16 @@
+{
+	"@metadata": {
+		"authors": [
+			"Liuxinyu970226",
+			"Macofe"
+		]
+	},
+	"apihelp-flowthank-summary": "为一条Flow评论公开发送感谢通知。",
+	"apihelp-flowthank-param-postid": "要感谢的帖子的UUID。",
+	"apihelp-flowthank-example-1": "为<kbd>UUID xyz789</kbd>的评论发送感谢",
+	"apihelp-thank-summary": "向一名编辑者发送感谢通知。",
+	"apihelp-thank-param-rev": "要感谢某人的修订版本ID。必须提供此参数或“log”参数。",
+	"apihelp-thank-param-log": "要感谢某人的日志ID。必须提供此参数或“rev”参数。",
+	"apihelp-thank-param-source": "一个描述请求来源的短字符串，例如<kbd>diff</kbd>或<kbd>history</kbd>。",
+	"apihelp-thank-example-1": "为修订<kbd>ID 456</kbd>发送感谢，将差异页面作为来源"
+}

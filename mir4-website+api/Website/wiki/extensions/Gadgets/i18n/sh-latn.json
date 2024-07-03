@@ -1,0 +1,33 @@
+{
+	"@metadata": {
+		"authors": [
+			"Winston Sung"
+		]
+	},
+	"gadgets-desc": "Omogućava korisnicima u svojim [[Special:Preferences#mw-prefsection-gadgets|podešavanjima]] da odaberu svoje prilagođene [[Special:Gadgets|CSS i JavaScript spravice]]",
+	"prefs-gadgets": "Gadgeti",
+	"prefs-description-gadgets": "Omogućite dodatne mogućnosti za svoj račun.",
+	"special-gadgets": "Gadgeti",
+	"gadgetusage": "Statistika korištenja spravica",
+	"gadgetusage-gadget": "Gadget",
+	"gadgetusage-usercount": "Broj korisnika",
+	"gadgetusage-noresults": "Nisam pronašao nijednu spravicu.",
+	"gadgetusage-intro": "Tabela prikazuje koliko je korisnika uključilo spravice na ovom wikiju. Pod aktinim smatra se svaki korisnik koji je napravio  izmjenu u {{PLURAL:$1|izminuli dan|posljednja $1 dana|posljednjih $1 dana}}. Ovdje nisu ubrojene statistike za spravice što podrazumijevano su svima uključene, a moguće je da vode se i spravice koje više nisu dostupne.",
+	"gadgetusage-intro-noactive": "Tabela prikazuje koliko je korisnika uključilo svaku od spravica na ovom wikiju. Ovdje nisu ubrojene spravice što podrazumijevano su svima uključene, a moguće je da vode se i spravice koje više nisu dostupne.",
+	"gadgetusage-activeusers": "Aktivni korisnici",
+	"gadgetusage-default": "Zadano",
+	"gadgets-title": "Gadgeti",
+	"gadgets-editdescription": "Uredi opis",
+	"gadgets-viewdescription": "Pogl. opis",
+	"gadgets-uses": "Koristi",
+	"gadgets-required-rights": "Zahtijeva {{PLURAL:$2|sljedeće pravo|sljedeća prava}}:\n\n$1",
+	"gadgets-required-skins": "Dostupno u {{PLURAL:$2|temi $1|sljedećim temama: $1}}.",
+	"gadgets-default": "Podrazumijevano uključeno za svakoga.",
+	"gadgets-legacy": "Spravica nije učitana. Molimo vas prebacite na „Вчитувач на ресурси“ (ResourceLoader). ([https://www.mediawiki.org/wiki/Special:MyLanguage/ResourceLoader/Migration_guide_(users) Saznajte više])",
+	"gadgets-export": "Izvezi",
+	"gadgets-export-title": "Izvoz spravice",
+	"gadgets-not-found": "Spravica \"$1\" nije pronađena.",
+	"gadgets-export-download": "Preuzmi",
+	"gadgets-validate-notset": "Svojstvo <code>$1</code> nije zadano.",
+	"gadgets-validate-wrongtype": "Svojstvo <code>$1</code> mora da bude od tipa <code>$2</code> umjesto <code>$3</code>."
+}

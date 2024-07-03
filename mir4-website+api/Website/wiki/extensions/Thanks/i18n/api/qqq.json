@@ -1,0 +1,26 @@
+{
+	"@metadata": {
+		"authors": [
+			"Amire80",
+			"Djiboun",
+			"Liuxinyu970226",
+			"Mar(c)",
+			"Nemo bis",
+			"Nike",
+			"Pxos",
+			"Raymond",
+			"Shirayuki",
+			"Siebrand",
+			"Umherirrender",
+			"Verdy p"
+		]
+	},
+	"apihelp-flowthank-summary": "{{doc-apihelp-summary|flowthank}}",
+	"apihelp-flowthank-param-postid": "{{doc-apihelp-param|flowthank|postid}}",
+	"apihelp-flowthank-example-1": "The \"[[w:Universally unique identifier|UUID]]\" in question is an [[w:alphanumeric|alphanumeric]] string which identifies a message (in the Flow extension).\n----\n{{doc-apihelp-example|flowthank}}",
+	"apihelp-thank-summary": "{{doc-apihelp-summary|thank}}",
+	"apihelp-thank-param-rev": "{{doc-apihelp-param|thank|rev}}",
+	"apihelp-thank-param-log": "{{doc-apihelp-param|thank|log}}",
+	"apihelp-thank-param-source": "{{doc-apihelp-param|thank|source}}",
+	"apihelp-thank-example-1": "{{doc-apihelp-example|thank}}"
+}

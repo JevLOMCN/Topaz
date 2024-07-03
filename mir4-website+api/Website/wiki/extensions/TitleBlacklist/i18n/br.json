@@ -1,0 +1,22 @@
+{
+	"@metadata": {
+		"authors": [
+			"Huñvreüs"
+		]
+	},
+	"action-tboverride": "na ober van ouzh roll an titloù pe anvioù implijer difennet",
+	"action-tboverride-account": "na ober van ouzh roll an anvioù implijer difennet",
+	"log-name-titleblacklist": "Marilh roll ar titloù difennet",
+	"titleblacklist-desc": "a ro tro d'ar verourien da verzañ krouiñ pajennoù ha kontoù implijerien hervez ul [[MediaWiki:Titleblacklist|listenn titloù difennet]] hag ul [[MediaWiki:Titlewhitelist|listenn titloù aotreet]]",
+	"titleblacklist": "# Setu roll an titloù difennet. Ne c'hell ket bezañ krouet an titloù pe implijerien hag a glot gant un eztaol reoliek.\n# Implijit \"#\" evit an evezhiadennoù. \n# Heñvel eo al lizherennoù braz pe vihan dre ziouer.",
+	"titlewhitelist": "# Setu roll an titloù aotreet. Implijit \"#\" evit an evezhiadennoù. \n# Heñvel eo al lizherennoù braz pe vihan dre ziouer.",
+	"titleblacklist-forbidden-edit": "Difennet eo krouiñ an anv \"$2\".\nKlotañ a ra gant an enmont-mañ e roll an titloù difennet: <code>$1</code>",
+	"titleblacklist-forbidden-move": "Ne c'hell ket \"$2\" bezañ dilec’hiet davet \"$3\", peogwir eo bet nac'het krouiñ an titl-mañ.\nKlotañ a ra gant an enmont-mañ e roll an titloù difennet: <code>$1</code>",
+	"titleblacklist-forbidden-upload": "Difennet eo bet krouiñ ur restr gant an anv \"$2\".\nKlotañ a ra gant an enmont-mañ e roll an titloù difennet: <code>$1</code>",
+	"titleblacklist-forbidden-new-account": "Difennet eo bet krouiñ anv implijer \"$2\".\nKlotañ a ra gant an enmont-mañ e roll an titloù difennet: <code>$1</code>",
+	"titleblacklist-invalid": "Direizh eo al {{PLURAL:$1|linenn|linennoù}} da-heul a gaver e roll an titloù difennet; \nreizhit {{PLURAL:$1|anezhi|anezho}} a-raok enrollañ :",
+	"titleblacklist-override": "Ober van eus roll an titloù difennet ma klot",
+	"right-tboverride": "Na ober van ouzh roll an titloù pe anvioù implijer difennet",
+	"right-tboverride-account": "Na ober van ouzh roll an anvioù implijer difennet",
+	"right-titleblacklistlog": "Gwelout roll an titloù difennet"
+}

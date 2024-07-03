@@ -1,0 +1,35 @@
+{
+	"@metadata": {
+		"authors": [
+			"Arystanbek"
+		]
+	},
+	"categorytree": "Санат бұтақтары",
+	"categorytree-portlet": "Санаттар",
+	"categorytree-legend": "Санат бұтағын көрсету",
+	"categorytree-desc": "[[Special:CategoryTree|Санат құрылымын]] серпінді шарлау",
+	"categorytree-header": "Санат мазмұның бұтақтар түрде көру үшін атауын енгізіңіз.\nАңғарпта: Бұл іске JavaScript құралының AJAX деген кеңейтілген қабілеті қажет болады.\nЕгер шолғышыңыз өте ескі, немесе JavaScript өшірілген болса, бұл іске асырылмайды.",
+	"categorytree-category": "Санат:",
+	"categorytree-go": "Бұтақтарын көрсет",
+	"categorytree-parents": "Жоғарғылар",
+	"categorytree-mode-label": "Режим:",
+	"categorytree-mode-categories": "тек санаттар",
+	"categorytree-mode-pages": "беттер (суреттерді санамай)",
+	"categorytree-mode-all": "барлық беттер",
+	"categorytree-collapse": "тарылту",
+	"categorytree-expand": "кеңейту",
+	"categorytree-member-counts": "Қамтылғандар {{PLURAL:$1|1 санатша|$1 санатша}}, {{PLURAL:$2|1 бет|$2 бет}}, және {{PLURAL:$3|1 файл|$3 файл}}",
+	"categorytree-num-categories": "$1 санатша",
+	"categorytree-num-pages": "$1 бет",
+	"categorytree-num-files": "$1 Файл",
+	"categorytree-num-empty": "бос",
+	"categorytree-load": "жүктеу",
+	"categorytree-loading": "жүктеуде...",
+	"categorytree-nothing-found": "ештеңе табылмады",
+	"categorytree-no-subcategories": "санатшалары жоқ",
+	"categorytree-no-parent-categories": "аталық санаттар жоқ",
+	"categorytree-no-pages": "беттері немесе санатшалары жоқ",
+	"categorytree-not-found": "<i>$1</i> деген санат табылмады",
+	"categorytree-error": "Деректерді жүктеу кезінде шатақ шықты.",
+	"categorytree-retry": "Бір сәт күте тұрып қайталаңыз."
+}

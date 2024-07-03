@@ -1,0 +1,32 @@
+{
+	"@metadata": {
+		"authors": [
+			"BeginaFelicysym",
+			"Chrumps",
+			"Derbeth",
+			"Msz2001",
+			"Peter Bowman",
+			"Rail",
+			"Railfail536",
+			"Sp5uhe",
+			"WTM",
+			"Woytecr"
+		]
+	},
+	"spam-blacklist": " #<!-- zostaw tę linię dokładnie tak, jak jest --> <pre>\n# Dodawanie w treści stron linków zewnętrznych pasujących do tej listy będzie blokowane.\n# Lista dotyczy wyłącznie tej wiki; istnieje też globalna czarna lista.\n# Dokumentacja znajduje się na stronie https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:SpamBlacklist\n#\n# Składnia jest następująca:\n#   * Wszystko od znaku „#” do końca linii jest komentarzem\n#   * Każda niepusta linia jest fragmentem wyrażenia regularnego, które będzie dopasowywane jedynie do hostów wewnątrz linków\n\n #</pre> <!-- zostaw tę linię dokładnie tak, jak jest -->",
+	"spam-whitelist": " #<!-- zostaw tę linię dokładnie tak, jak jest --> <pre>\n# Linki zewnętrzne pasujące do tej listy *nie będą* blokowane nawet jeśli\n# zostałyby zablokowane przez czarną listę.\n#\n# Składnia jest następująca:\n#   * Wszystko od znaku „#” do końca linii jest komentarzem\n#   * Każda niepusta linia jest fragmentem wyrażenia regularnego, które będzie dopasowywane jedynie do hostów wewnątrz linków\n\n #</pre> <!-- zostaw tę linię dokładnie tak, jak jest -->",
+	"email-blacklist": " # Adresy e-mail pasujące do tej listy będą blokowane przed rejestracją i wysyłaniem maili\n # Ta lista dotyczy tylko tej wiki; przejrzyj również globalną czarną listę.\n # Dokumentacja znajduje się na https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:SpamBlacklist\n #<!-- leave this line exactly as it is --> <pre>\n#\n# Składnia opisana jest poniżej:\n#   * Wszystko znajdujące się za znakiem \"#\" do końca linii jest komentarzem\n#   * Każda niepusta linia jest fragmentem wyrażenia regularnego, które będzie dopasowywane do hosta z adresu e-mail\n\n #</pre> <!-- leave this line exactly as it is -->",
+	"email-whitelist": " #<!-- leave this line exactly as it is --> <pre>\n# Adresy e-mail pasujące do tej listy *nie* będą blokowane, nawet jeśli zostaną\n# zablokowane przez wpisy z czarnej listy.\n#\n #</pre> <!-- leave this line exactly as it is -->\n# Składnia jest następująca:\n#   * Wszystko począwszy od znaku \"#\" do końca linii jest komentarzem\n#   * Każda niepusta linia jest fragmentem wyrażenia regularnego dopasowywanego tylko do nazw hpstów z adresów e-mail",
+	"spam-blacklisted-email": "Niedozwolone adresy e-mail",
+	"spam-blacklisted-email-text": "Z Twojego adresu e-mail obecnie nie można wysyłać wiadomości e-mail do innych użytkowników.",
+	"spam-blacklisted-email-signup": "Użycie podanego adresu e-mail jest obecnie niedozwolone.",
+	"spam-invalid-lines": "{{PLURAL:$1|Następująca linia jest niepoprawnym wyrażeniem regularnym i musi być poprawiona przed zapisaniem strony:|Następujące linie są niepoprawnymi wyrażeniami regularnymi i muszą być poprawione przed zapisaniem strony:}}",
+	"spam-blacklist-desc": "Narzędzie antyspamowe oparte o wyrażenia regularne pozwalające odrzucać adresy URL na stronach wiki i adresy e-mail użytkowników",
+	"log-name-spamblacklist": "Rejestr filtru antyspamowego",
+	"log-description-spamblacklist": "Te zdarzenia służą do śledzenia blokad filtru antyspamowego.",
+	"logentry-spamblacklist-hit": "$1 {{GENDER:$2|uruchomił|uruchomiła|uruchomił(a)}} filtr antyspamowy na stronie $3, próbując dodać $4.",
+	"right-spamblacklistlog": "Podgląd rejestru filtru antyspamowego",
+	"action-spamblacklistlog": "przeglądania rejestru filtru antyspamowego",
+	"right-sboverride": "Pomijanie filtru antyspamowego",
+	"action-sboverride": "omijania filtru antyspamowego"
+}

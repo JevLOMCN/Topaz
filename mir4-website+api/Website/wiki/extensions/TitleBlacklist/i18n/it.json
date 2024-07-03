@@ -1,0 +1,32 @@
+{
+	"@metadata": {
+		"authors": [
+			"Beta16",
+			"BrokenArrow",
+			"Darth Kule",
+			"Fringio",
+			"Lucas2",
+			"Matteocng",
+			"Melos",
+			"Nemo bis"
+		]
+	},
+	"action-titleblacklistlog": "vedere il registro dell'elenco dei titoli non consentiti",
+	"log-name-titleblacklist": "Titoli non consentiti",
+	"log-description-titleblacklist": "Questi eventi tengono traccia delle attivazioni dell'elenco dei titoli non consentiti.",
+	"logentry-titleblacklist-hit-username": "$1 {{GENDER:$2|ha causato}} l'attivazione dell'elenco dei titoli non consentiti tentando di creare l'utenza $3 che corrisponde a $4.",
+	"titleblacklist-desc": "Consente di proibire la creazione di pagine e utenze in base a elenchi di [[MediaWiki:Titleblacklist|titoli non consentiti]] e [[MediaWiki:Titlewhitelist|consentiti]]",
+	"titleblacklist": "# Questo è un'elenco dei titoli non consentiti.\n# È impedita la creazione di pagine e utenze il cui nome corrisponda a un'espressione regolare indicata di seguito.\n# Iniziare la riga con \"#\" per commentare.\n# Per impostazione predefinita il sistema non fa differenza tra minuscole e maiuscole.",
+	"titlewhitelist": "# Questo è un'elenco dei titoli consentiti.\n# Iniziare la riga con \"#\" per commentare.\n# Per impostazione predefinita il sistema non fa differenza tra minuscole e maiuscole.",
+	"titleblacklist-forbidden-edit": "La creazione di pagine con titolo \"$2\" è stata impedita. La voce corrispondente nell'elenco dei titoli non consentiti è la seguente: <code>$1</code>",
+	"titleblacklist-forbidden-move": "Impossibile spostare la pagina \"$2\" al titolo \"$3\" in quanto la creazione di pagine con titolo \"$3\" è stata impedita. La voce corrispondente nell'elenco dei titoli non consentiti è la seguente: <code>$1</code>",
+	"titleblacklist-forbidden-upload": "La creazione di file con titolo \"$2\" è stata impedita. La voce corrispondente nell'elenco dei titoli non consentiti è la seguente: <code>$1</code>",
+	"titleblacklist-forbidden-new-account": "La creazione di utenti con nome \"$2\" è stata impedita. La voce corrispondente nell'elenco dei titolo non consentiti è la seguente: <code>$1</code>",
+	"titleblacklist-invalid": "{{PLURAL:$1|La seguente riga|Le seguenti righe}} dell'elenco dei titoli non consentiti {{PLURAL:$1|non è valida|non sono valide}}; correggi {{PLURAL:$1|l'errore|gli errori}} prima di salvare la pagina.",
+	"titleblacklist-override": "Ignora l'elenco dei titoli non consentiti se corrisponde",
+	"titleblacklist-override-help": "Gli utenti con privilegi sufficienti possono impostare quest'opzione per ignorare i controlli dell'elenco dei titoli non consentiti.",
+	"titleblacklist-warning": "<strong>Attenzione: questa pagina può essere modificata solo dagli amministratori o dagli utenti con il diritto <code>tboverride</code> poiché corrisponde alla seguente voce dell'elenco dei titoli non consentiti:</strong><br /><code>$1</code>",
+	"right-tboverride": "Ignora gli elenchi dei titoli e nomi utente non consentiti",
+	"right-tboverride-account": "Ignora elenco dei nomi utente non consentiti",
+	"right-titleblacklistlog": "Visualizza il registro dell'elenco dei titoli non consentiti"
+}

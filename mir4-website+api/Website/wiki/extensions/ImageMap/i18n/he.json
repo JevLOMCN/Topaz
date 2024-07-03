@@ -1,0 +1,22 @@
+{
+	"@metadata": {
+		"authors": [
+			"Amire80",
+			"IKhitron",
+			"Rotem Liss",
+			"Yona b"
+		]
+	},
+	"imagemap_desc": "אפשרות להוסיף תמונות ממופות בצד הלקוח באמצעות התג <code>&lt;imagemap&gt;</code>",
+	"imagemap_no_image": "שגיאה: יש לציין תמונה בשורה הראשונה.",
+	"imagemap_invalid_image": "שגיאה: התמונה שגויה או שאינה קיימת.",
+	"imagemap_bad_image": "שגיאה: התמונה אסורה לשימוש בדף הזה.",
+	"imagemap_no_link": "שגיאה: לא נמצא קישור תקף בסוף שורה $1.",
+	"imagemap_invalid_title": "שגיאה: כותרת שגויה בקישור בשורה $1.",
+	"imagemap_missing_coord": "שגיאה: לא מספיק נקודות ציון לצורה בשורה $1.",
+	"imagemap_unrecognised_shape": "שגיאה: צורה בלתי־מזוהה בשורה $1, כל שורה חייבת להתחיל עם אחת האפשרויות הבאות: <code dir=\"ltr\">default</code>, <code dir=\"ltr\">rect</code>, <code dir=\"ltr\">circle</code> או <code dir=\"ltr\">poly</code>",
+	"imagemap_invalid_coord": "שגיאה: נקודת ציון שגויה בשורה $1, היא חייבת להיות מספר.",
+	"imagemap_invalid_desc": "שגיאה: הגדרת פרמטר desc שגויה, צריך להיות אחד מהבאים: $1.",
+	"imagemap_description": "אודות התמונה",
+	"imagemap_poly_odd": "שגיאה: אזור poly עם מספר אי־זוגי של נקודות ציון בשורה $1"
+}

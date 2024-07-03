@@ -1,0 +1,40 @@
+{
+	"@metadata": {
+		"authors": [
+			"Ajeje Brazorf",
+			"Crochet.david",
+			"Gomoko",
+			"Grondin",
+			"Hashar",
+			"IAlex",
+			"MacOS Weed",
+			"Od1n",
+			"Sherbrooke",
+			"Thibaut120094",
+			"Urhixidur",
+			"Verdy p",
+			"Wladek92"
+		]
+	},
+	"pfunc_desc": "Étend l’analyseur syntaxique avec des fonctions logiques ou de calcul",
+	"pfunc_time_error": "Erreur : durée invalide.",
+	"pfunc_time_too_long": "Erreur : appels trop nombreux à #time.",
+	"pfunc_time_too_big": "Erreur : #time prend uniquement en charge des années jusqu’en 9999.",
+	"pfunc_time_too_small": "Erreur : #time ne prend pas en charge les années négatives.",
+	"pfunc_rel2abs_invalid_depth": "Erreur : profondeur invalide dans le chemin « $1 » (tentative d’accès à un nœud au-dessus du nœud racine).",
+	"pfunc_expr_stack_exhausted": "Erreur d’expression : débordement de la pile.",
+	"pfunc_expr_unexpected_number": "Erreur d’expression : nombre inattendu.",
+	"pfunc_expr_preg_match_failure": "Erreur d’expression : échec inattendu de preg_match.",
+	"pfunc_expr_unrecognised_word": "Erreur d’expression : mot « $1 » non reconnu.",
+	"pfunc_expr_unexpected_operator": "Erreur d’expression : opérateur $1 inattendu.",
+	"pfunc_expr_missing_operand": "Erreur d’expression : opérande manquant pour $1.",
+	"pfunc_expr_unexpected_closing_bracket": "Erreur d’expression : parenthèse fermante inattendue.",
+	"pfunc_expr_unrecognised_punctuation": "Erreur d’expression : caractère de ponctuation « $1 » non reconnu.",
+	"pfunc_expr_unclosed_bracket": "Erreur d’expression : parenthèse non fermée.",
+	"pfunc_expr_division_by_zero": "Division par zéro.",
+	"pfunc_expr_invalid_argument": "Paramètre incorrect pour <b>$1</b> : valeur absolue supérieure à 1.",
+	"pfunc_expr_invalid_argument_ln": "Paramètre incorrect pour ln : négatif ou nul.",
+	"pfunc_expr_unknown_error": "Erreur d’expression : erreur inconnue ($1).",
+	"pfunc_expr_not_a_number": "Dans <b>$1</b> : le résultat n’est pas un nombre.",
+	"pfunc_string_too_long": "Erreur : la chaîne dépasse la limite maximale de $1 caractère{{PLURAL:$1||s}}."
+}

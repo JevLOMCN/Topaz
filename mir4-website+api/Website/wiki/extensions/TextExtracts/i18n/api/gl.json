@@ -1,0 +1,19 @@
+{
+	"@metadata": {
+		"authors": [
+			"Banjo",
+			"Elisardojm"
+		]
+	},
+	"apihelp-query+extracts-summary": "Devolve texto plano ou extractos limitados en HTML das páxinas indicadas.",
+	"apihelp-query+extracts-param-chars": "Cantos caracteres devolver. O texto devolto actual pode ser un pouco máis longo.",
+	"apihelp-query+extracts-param-sentences": "Cantas frases devolver.",
+	"apihelp-query+extracts-param-limit": "Cantos extractos devolver. (Os extractos múltiples só se poden devolver se exintro ten valor ''true'', verdadeiro)",
+	"apihelp-query+extracts-param-intro": "Só devolver contido antes da primeira sección.",
+	"apihelp-query+extracts-param-plaintext": "Devolver extractos como texto plano no canto de HTML limitado.",
+	"apihelp-query+extracts-param-sectionformat": "Como formatear seccións en modo texto plano:\n;plain:Sen formato.\n;wiki:Formateo en estilo wiki (== como isto ==).\n;raw:Representación interna deste módulo (títulos de sección prefixados con &lt;ASCII 1&gt;&lt;ASCII 2&gt;&lt;nivel de sección&gt;&lt;ASCII 2&gt;&lt;ASCII 1&gt;).",
+	"apihelp-query+extracts-example-1": "Devolver un extracto de 175 caracteres",
+	"apiwarn-textextracts-limit": "<var>exlimit</var> era demasiado grande para unha petición de extracción do artigo completo, reducida a $1.",
+	"apiwarn-textextracts-unsupportedmodel": "$1 ten o modelo de contido $2, que non está soportado; devolvendo un extracto baleiro.",
+	"apiwarn-textextracts-title-in-file-namespace": "Pediuse un extracto para un título no espazo de nomes Ficheiro, non se obtivo ningún."
+}

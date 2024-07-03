@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Anterdc99"
+		]
+	},
+	"oathauth-disable-for-user": "停用用戶的雙重認證",
+	"oathauth-verify-for-user": "確認用戶是否啟用雙重認證",
+	"oathauth-enteruser": "用戶名稱：",
+	"oathauth-user-not-does-not-have-oath-enabled": "用戶未啟用雙重認證，因此不需要停用",
+	"oathauth-user-not-found": "沒有找出為該名稱的用戶帳號"
+}

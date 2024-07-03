@@ -1,0 +1,37 @@
+{
+	"@metadata": {
+		"authors": [
+			"Hanberke",
+			"TayfunEt.",
+			"Zolgoyo"
+		]
+	},
+	"categorytree": "Kategoriýa agajy",
+	"categorytree-portlet": "Kategoriýalar",
+	"categorytree-legend": "Kategoriýa agajyny görkez",
+	"categorytree-desc": "[[Special:CategoryTree|Kategoriýa gurluşyny]] dinamik ýagdaýda dolandyr",
+	"categorytree-header": "Kategoriýanyň adyny ýazyp, onuň mazmunyny agaç gurluşy hökmünde görüp bilersiňiz.\nBu aýratynlyk AJAX ady bilen tanalýan ösen JavaScript bilen işleýändir.\nEger brauzeriňiz köne bolsa ýa-da JavaScript ýapyk bolsa, onda ol işlemez.",
+	"categorytree-category": "Kategoriýa:",
+	"categorytree-go": "Agajy görkez",
+	"categorytree-parents": "Ene kategoriýalar",
+	"categorytree-mode-label": "Mod:",
+	"categorytree-mode-categories": "diňe kategoriýalar",
+	"categorytree-mode-pages": "faýldan başga sahypalar",
+	"categorytree-mode-all": "ähli sahypalar",
+	"categorytree-collapse": "ýygna",
+	"categorytree-expand": "giňelt",
+	"categorytree-member-counts": "{{PLURAL:$1|1 kiçi kategoriýany|$1 kiçi kategoriýany}}, {{PLURAL:$2|1 sahypany|$2 sahypany}} we {{PLURAL:$3|1 faýly|$3 faýly}} öz içine alýar",
+	"categorytree-num-categories": "$1 K",
+	"categorytree-num-pages": "$1 S",
+	"categorytree-num-files": "$1 F",
+	"categorytree-num-empty": "boş",
+	"categorytree-load": "ýükle",
+	"categorytree-loading": "ýüklenýär...",
+	"categorytree-nothing-found": "hiç zat tapylmady",
+	"categorytree-no-subcategories": "kiçi kategoriýa ýok",
+	"categorytree-no-parent-categories": "ene kategoriýa ýok",
+	"categorytree-no-pages": "sahypa ýa-da kiçi kategoriýa ýok",
+	"categorytree-not-found": "<i>\"$1\"</i> kategoriýasy tapylmady",
+	"categorytree-error": "Maglumat ýükleme problemsy.",
+	"categorytree-retry": "Bir sellem garaşyň we gaýtadan synaň."
+}

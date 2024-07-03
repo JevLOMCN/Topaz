@@ -1,0 +1,3 @@
+span[ rel='mw:referencedBy' ] > a::before {
+	content: counter( mw-references, decimal ) ',' counter( mw-ref-linkback, decimal );
+}

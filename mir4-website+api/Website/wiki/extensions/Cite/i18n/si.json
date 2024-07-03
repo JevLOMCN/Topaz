@@ -1,0 +1,31 @@
+{
+	"@metadata": {
+		"authors": [
+			"Budhajeewa",
+			"Singhalawap",
+			"Thameera123",
+			"නන්දිමිතුරු"
+		]
+	},
+	"cite-desc": "උපහරණයන් සඳහා, <code>&lt;ref[ name=id]&gt;</code> සහ <code>&lt;references/&gt;</code> ටැගයන්, එකතු කරයි",
+	"cite_error": "උපුටාදැක්වීම් දෝෂය: $1",
+	"cite_error_ref_numeric_key": "අනීතික <code>&lt;ref&gt;</code> ටැගය;\nනම සරල  පූර්ණාංකයක් විය නොහැක. විස්තරශීලි ශිර්ෂයක් භාවිතා කරන්න",
+	"cite_error_ref_no_key": "අනීතික <code>&lt;ref&gt;</code> ටැගය;\nපෙළ විරහිත ආශ්‍රේය සඳහා නමක් තිබිය යුතුය",
+	"cite_error_ref_too_many_keys": "අනීතික <code>&lt;ref&gt;</code> ටැගය;\nඅනීතික නාමයන්, නිද. පමණට වැඩි",
+	"cite_error_ref_no_input": "අනීතික <code>&lt;ref&gt;</code> ටැගය;\nනාමයක් නොමැති ආශ්‍රේය සඳහා පෙළක් තිබිය යුතුය",
+	"cite_error_references_invalid_parameters": "අනීතික <code>&lt;references&gt;</code> ටැගය;\nකිසිම පරාමිතිකයකට ඉඩ නොදෙයි.\n<code>&lt;references /&gt;</code> භාවිත කරන්න",
+	"cite_error_references_no_backlink_label": "උපයෝග්‍ය පසුසබැඳුම් ලේබල අවසාන විය. [[MediaWiki:Cite references link many format backlink labels]] පණිවුඩයෙහි තවත් ඒවා අර්ථදක්වන්න",
+	"cite_error_no_link_label_group": "\"$1\" කණ්ඩායම සඳහා අභිමත සබැඳි ලේබල අවසන් විය. \n[[MediaWiki:$2]] පණිවුඩයේ තවත් වැඩිපුර සඳහන් කරන්න.",
+	"cite_error_references_no_text": "අනීතික <code>&lt;ref&gt;</code> ටැගය;\n<code>$1</code> නමැති ආශ්‍රේයන් සඳහා කිසිදු පෙළක් සපයා නොතිබුණි",
+	"cite_error_included_ref": "<code>&lt;ref&gt;</code> ටැගය සොයාගත නොහැකි බැවින් <code>&lt;/ref&gt;</code> වසා දමමින්",
+	"cite_error_group_refs_without_references": "\"$1\" නම් කණ්ඩායම සඳහා <code>&lt;ref&gt;</code> ටැග පැවතුණත්, ඊට අදාළ <code>&lt;references group=\"$1\"/&gt;</code> ටැග සොයාගත නොහැකි විය.",
+	"cite_error_references_group_mismatch": "<code>&lt;references&gt;</code> හි <code>&lt;ref&gt;</code> නම් ටැගය \"$1\" යන පරස්පර සමූහ ගුණාංග දරයි.",
+	"cite_error_references_missing_key": "<code>&lt;references&gt;</code> හි \"$1\" නමැති <code>&lt;ref&gt;</code> ටැගය පෙර පෙළෙහි භාවිතා වූයේ නැත.",
+	"cite_error_references_no_key": "<code>&lt;references&gt;</code> හි <code>&lt;ref&gt;</code> ටැගයට නමක් ආදේශකොට නැත.",
+	"cite_error_empty_references_define": "<code>&lt;references&gt;</code> හි \"$1\" නමැති <code>&lt;ref&gt;</code> ටැගයට අන්තර්ගතයක් නැත.",
+	"cite-wikieditor-tool-reference": "යොමුව",
+	"cite-wikieditor-help-page-references": "යොමුවන්",
+	"cite-wikieditor-help-content-reference-description": "යොමුව",
+	"cite-wikieditor-help-content-rereference-description": "එකම ‍යොමුව අමතර භාවිතය",
+	"cite-wikieditor-help-content-showreferences-description": "යොමුවන් පෙන්වන්න"
+}

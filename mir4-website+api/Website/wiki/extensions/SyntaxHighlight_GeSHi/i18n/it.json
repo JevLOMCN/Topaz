@@ -1,0 +1,25 @@
+{
+	"@metadata": {
+		"authors": [
+			"Beta16",
+			"BrokenArrow",
+			"Macofe",
+			"Pierpao"
+		]
+	},
+	"syntaxhighlight-desc": "Evidenzia la sintassi dei linguaggi di programmazione <code>&lt;syntaxhighlight&gt;</code> tramite [http://pygments.org/ Pygments - evidenziatore della sintassi Python]",
+	"syntaxhighlight-error-category": "Pagine con errori nell'evidenziazione della sintassi",
+	"syntaxhighlight-error-category-desc": "Si è verificato un errore durante il tentativo di evidenziare il codice incluso nella pagina.",
+	"syntaxhighlight-enclose-category": "Pagine che utilizzano tag enclose deprecati",
+	"syntaxhighlight-source-category": "Pagine che utilizzano tag source deprecati",
+	"syntaxhighlight-source-category-desc": "L'evidenziazione della sintassi in queste pagine utilizza tag <code><nowiki><source></nowiki></code> deprecati",
+	"syntaxhighlight-visualeditor-mwsyntaxhighlightinspector-code": "Codice",
+	"syntaxhighlight-visualeditor-mwsyntaxhighlightinspector-language": "Linguaggio",
+	"syntaxhighlight-visualeditor-mwsyntaxhighlightinspector-none": "(nessuno)",
+	"syntaxhighlight-visualeditor-mwsyntaxhighlightinspector-showlines": "Mostra i numeri di riga",
+	"syntaxhighlight-visualeditor-mwsyntaxhighlightinspector-startingline": "Numero di linea di partenza",
+	"syntaxhighlight-visualeditor-mwsyntaxhighlightinspector-title": "Blocco di codice",
+	"syntaxhighlight-error-pygments-invocation-failure": "Errore nell'invocazione di Pygments",
+	"syntaxhighlight-error-unknown-language": "Linguaggio sconosciuto \"$1\"",
+	"syntaxhighlight-error-exceeds-size-limit": "La dimensione del codice è $1 {{PLURAL:$1|byte}} e supera il massimo consentito che è di $2 {{PLURAL:$2|byte}}"
+}

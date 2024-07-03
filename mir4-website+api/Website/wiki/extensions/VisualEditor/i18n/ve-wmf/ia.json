@@ -1,0 +1,29 @@
+{
+	"@metadata": {
+		"authors": [
+			"McDutchie"
+		]
+	},
+	"tag-editcheck-newcontent-description": "EditCheck pensa que nove contento ha essite addite al pagina",
+	"tag-editcheck-newreference-description": "Un referentia ha essite addite al pagina",
+	"tag-editcheck-references-description": "EditCheck pensa que un referentia pote esser necessari",
+	"tag-editcheck-references-activated": "[[{{MediaWiki:editcheck-falsepositives-link}}|Verification de modification (referentias) activate]]",
+	"tag-editcheck-references-activated-description": "EditCheck pensa que un referentia poterea haber essite necessari, e le interfacie de usator graphic ha essite monstrate",
+	"tag-visualeditor": "[[{{MediaWiki:visualeditor-descriptionpagelink}}|Modification visual]]",
+	"tag-visualeditor-description": "Modification facite con le [[{{MediaWiki:visualeditor-descriptionpagelink}}|editor visual]]",
+	"tag-visualeditor-needcheck": "[[{{MediaWiki:visualeditor-descriptionpagelink}}|Editor visual: a verificar]]",
+	"tag-visualeditor-needcheck-description": "Modification facite con le [[{{MediaWiki:visualeditor-descriptionpagelink}}|editor visual]] ubi le systema ha detegite que le wikitexto pote haber cambiate de maniera impreviste.",
+	"tag-visualeditor-wikitext": "Editor de codice fonte de 2017",
+	"tag-visualeditor-wikitext-description": "Modification facite usante le editor de wikitexto de 2017",
+	"tag-visualeditor-switched": "[[{{MediaWiki:visualeditor-descriptionpagelink}}|Editor visual: Commutate]]",
+	"tag-visualeditor-switched-description": "Le usator ha comenciate a modificar per medio del editor visual, postea ha passate al editor de wikitexto traditional.",
+	"visualeditor-feedback-link": "Project:Editor visual/Commentario",
+	"visualeditor-feedback-tool": "Lassar un commento sur iste programma",
+	"visualeditor-help-label": "Leger le guida de usator",
+	"visualeditor-welcomedialog-action": "Comenciar a modificar",
+	"visualeditor-welcomedialog-content": "Omnes pote modificar, e cata melioration es utile.",
+	"visualeditor-welcomedialog-content-thanks": "Gratias pro adjutar le mundo a discoperir plus!",
+	"visualeditor-welcomedialog-switch": "Passar al editor de codice fonte",
+	"visualeditor-welcomedialog-switch-ve": "Passar al editor visual",
+	"visualeditor-welcomedialog-title": "{{GENDER:$1|Benvenite}} a $2"
+}

@@ -1,0 +1,26 @@
+{
+	"@metadata": {
+		"authors": [
+			"BadDog",
+			"Kizule",
+			"Milicevic01",
+			"Millosh",
+			"Rancher",
+			"Sasa Stefanovic",
+			"Михајло Анђелковић"
+		]
+	},
+	"imagemap_desc": "Омогућава мапе слика на клијентском рачунару на којима се може кликнути коришћењем ознаке <code>&lt;imagemap&gt;</code>",
+	"imagemap_no_image": "Грешка: неопходно је одредити слику у првој линији.",
+	"imagemap_invalid_image": "Грешка: слика је лоша или не постоји.",
+	"imagemap_bad_image": "Грешка: Слика није дозвољена на овој страници.",
+	"imagemap_no_link": "Грешка: није пронађена ниједна валидна веза на крају линије $1.",
+	"imagemap_invalid_title": "Грешка: лош наслов у вези у линији $1.",
+	"imagemap_missing_coord": "Грешка: нема довољно координата за облик на линији $1.",
+	"imagemap_unrecognised_shape": "Грешка: непознат облик на линији $1, свака линија мора почети једном од: <code>default</code>, <code>rect</code>, <code>circle</code> или <code>poly</code>.",
+	"imagemap_invalid_coord": "Грешка: лоше координате у линији $1; морају бити број.",
+	"imagemap_invalid_desc": "Грешка: лоша спецификација desc, мора бити једно од: <code>$1</code>.",
+	"imagemap_description": "О слици",
+	"imagemap_desc_types": "горе-десно, доле-десно, доле-лево, горе-лево, нема",
+	"imagemap_poly_odd": "Грешка: нађен је полигон са непарним бројем координата у линији $1"
+}

@@ -1,0 +1,11 @@
+.mw-ref > a::after {
+	content: '[' counter( mw-Ref, devanagari ) ']';
+}
+
+.mw-ref > a[ data-mw-group ]::after {
+	content: '[' attr( data-mw-group ) ' ' counter( mw-Ref, devanagari ) ']';
+}
+
+span[ rel='mw:referencedBy' ] > a::before {
+	content: counter( mw-references, devanagari ) '.' counter( mw-ref-linkback, devanagari );
+}

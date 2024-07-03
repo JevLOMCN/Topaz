@@ -1,0 +1,828 @@
+/*
+ * Recognise a shell command per the POSIX Shell Command Language specification
+ * and return an AST.
+ *
+ * Tree construction may be overridden in a subclass by overriding the node()
+ * function.
+ *
+ * In general, AST nodes have a name and a contents array. For a binary
+ * operator, the first element of the contents array will be the left
+ * operand, and the second element will be the right operand. In more complex
+ * cases, operands should generally be named by enclosing them within a named
+ * node.
+ *
+ * Each element of the contents array may either be a string, a node, or an
+ * array of nodes.
+ */
+
+/*
+ * File initializer
+ */
+{
+	use Wikimedia\WikiPEG\InternalError;
+	// @phan-file-suppress PhanUnusedGotoLabel
+	// @phan-file-suppress PhanNoopSwitchCases
+	// @phan-file-suppress PhanTypeMismatchArgument
+	// @phan-file-suppress PhanTypeComparisonFromArray
+}
+
+/*
+ * Class initializer
+ */
+{
+	/**
+	 * Overridable tree node constructor
+	 *
+	 * @stable to override
+	 * @param string $type
+	 * @param array|Node|string $contents
+	 * @return Node
+	 */
+	protected function node( $type, $contents ) {
+		return new Node( $type, $contents );
+	}
+
+	/**
+	 * Combine arrays and non-array items into a single flat array.
+	 *
+	 * @param array|Node|string|null ...$items
+	 * @return array
+	 * @phan-return array<Node|string>
+	 */
+	private function merge( ...$items ) {
+		if ( !$items ) {
+			return [];
+		}
+		$mergeArgs = [];
+		foreach ( $items as $item ) {
+			if ( $item !== null ) {
+				if ( !is_array( $item ) ) {
+					$mergeArgs[] = [ $item ];
+				} else {
+					$mergeArgs[] = $item;
+				}
+			}
+		}
+		return array_merge( ...$mergeArgs );
+	}
+}
+
+program =
+	linebreak commands:complete_commands linebreak
+	{
+		return $this->node( 'program', $commands );
+	}
+	/ linebreak
+	{
+		return $this->node( 'program', [] );
+	}
+
+complete_commands =
+	(
+		c:complete_command newline_list
+		{
+			return $c;
+		}
+		/ complete_command
+	)*
+
+complete_command =
+	OWS
+	list: (
+		nodes: (
+			item: and_or
+			separator: $separator_op
+			{
+				if ( $separator && $separator[0] === '&' ) {
+					return $this->node( 'background', $item );
+				} else {
+					return $item;
+				}
+			}
+		)+
+		last: and_or?
+		{
+			if ( $last ) {
+                $nodes[] = $last;
+            }
+            if ( count( $nodes ) > 1 ) {
+                return $this->node( 'list', $nodes );
+            } else {
+                return $nodes[0];
+            }
+		}
+		/
+		and_or
+	)
+{
+	return $this->node( 'complete_command', $list );
+}
+
+and_or =
+	first: pipeline
+	rest: (
+		AND_IF linebreak pipeline:pipeline
+		{
+			return $this->node( 'and_if', $pipeline );
+		}
+		/ OR_IF linebreak pipeline:pipeline
+		{
+			return $this->node( 'or_if', $pipeline );
+		}
+		/ pipeline
+	)*
+{
+	return $this->merge( $first, $rest );
+}
+
+pipeline =
+	bang: Bang?
+	pipeline: pipe_sequence
+{
+	if ( $bang !== null ) {
+		return $this->node( 'bang', $pipeline );
+	} else {
+		return $pipeline;
+	}
+}
+
+pipe_sequence =
+	first: command
+	rest: (
+		PIPE linebreak command:command
+		{
+			return $command;
+		}
+	)*
+{
+	if ( count( $rest ) ) {
+		return $this->node( 'pipeline', $this->merge( $first, $rest ) );
+	} else {
+		return $first;
+	}
+}
+
+command =
+	function_definition
+	/ simple_command
+	/ c:compound_command r:redirect_list?
+	{
+		if ( $r !== null ) {
+			return $this->merge( $c, $r );
+		} else {
+			return $c;
+		}
+	}
+
+compound_command =
+	brace_group
+	/ subshell
+	/ for_clause
+	/ case_clause
+	/ if_clause
+	/ while_clause
+	/ until_clause
+
+subshell =
+	LPAREN list:compound_list RPAREN
+{
+	return $this->node( 'subshell', $list );
+}
+
+compound_list =
+	linebreak
+	terms:(
+		term: and_or
+		separator: $separator
+		{
+			if ( $separator && $separator[0] === '&' ) {
+				return $this->node( 'background', $term );
+			} else {
+				return $term;
+			}
+		}
+	)+
+	last: and_or?
+	{
+		if ( $last ) {
+			$terms[] = $last;
+		}
+		return $terms;
+	}
+	/
+	linebreak
+	term: and_or
+	{
+		if ( $term === null ) {
+			// Phan is convinced $term may be null, not sure how
+			return [];
+		} else {
+			return $term;
+		}
+	}
+
+for_clause =
+	(
+		For name:for_name linebreak for_case_in wordlist:wordlist? sequential_sep do_group:do_group
+		{
+			return $this->node( 'for', [ $name, $this->node( 'in', $wordlist ?: [] ), $do_group ] );
+		}
+	)
+	/
+	(
+		For name:for_name sequential_sep? do_group:do_group
+		{
+			return $this->node( 'for', [ $name, $do_group ] );
+		}
+	)
+
+// Spec note: Apply rule 5.
+// This and other lexer rules in the spec are mostly workarounds for loose
+// integration between the lexer and the parser implied by the spec. We know
+// that we want a NAME here, so we can just ask for a NAME. With a separate
+// lexer it would be necessary for the lexer to guess whether the parser will
+// want a NAME or a WORD, and for the parser to somehow downgrade an
+// inappropriate NAME token to a WORD if the guess was wrong.
+for_name = name:NAME OWS
+{
+	return $name;
+}
+
+// Spec note: Apply rule 6
+for_case_in = In OWS
+
+wordlist = WORD+
+
+case_clause =
+	Case word:WORD linebreak for_case_in linebreak list_esac:( case_list $Esac / case_list_ns $Esac / $Esac )
+{
+	if ( is_array( $list_esac ) ) {
+		$list = $list_esac[0];
+	} else {
+		$list = [];
+	}
+	return $this->node( 'case', [ $word, $this->node( 'in', $list ) ] );
+}
+
+// ns means no semicolon
+case_list_ns =
+	list:case_list item:case_item_ns
+	{
+		$list[] = $item;
+		return $list;
+	}
+	/ item:case_item_ns
+	{
+		return [ $item ];
+	}
+
+case_list =
+	case_item+
+
+// ns means no semicolon
+case_item_ns =
+	LPAREN? pattern:pattern RPAREN list:compound_list
+	{
+		return $this->node( 'case_item', [
+			$pattern,
+			$this->node( 'case_consequent', $list )
+		] );
+	}
+	/ LPAREN? pattern:pattern RPAREN linebreak
+	{
+		return $this->node( 'case_item', [ $pattern ] );
+	}
+
+case_item =
+	LPAREN? pattern:pattern RPAREN list:compound_list DSEMI linebreak
+	{
+		return $this->node( 'case_item', [
+			$pattern,
+			$this->node( 'case_consequent', $list )
+		] );
+	}
+	/ LPAREN? pattern:pattern RPAREN linebreak DSEMI linebreak
+	{
+		return $this->node( 'case_item', $pattern );
+	}
+
+// Spec note: rule 4
+pattern =
+	first:WORD rest:( PIPE WORD )*
+{
+	$patterns = [ $first ];
+	foreach ( $rest as $pattern ) {
+		$patterns[] = $pattern[1];
+	}
+	return $this->node( 'case_pattern', $patterns );
+}
+
+if_clause =
+	If
+	condition: compound_list
+	Then
+	consequent: compound_list
+	else_part: else_part?
+	Fi
+{
+	$contents = [
+		$this->node( 'condition', $condition ),
+		$this->node( 'consequent', $consequent )
+	];
+	if ( $else_part !== null ) {
+		$contents = $this->merge( $contents, $else_part );
+	}
+	return $this->node( 'if', $contents );
+}
+
+else_part =
+	Elif
+	condition: compound_list
+	Then
+	consequent: compound_list
+	else_part: else_part?
+	{
+		$contents = [
+			$this->node( 'elif_condition', $condition ),
+			$this->node( 'elif_consequent', $consequent )
+		];
+		if ( $else_part !== null ) {
+			$contents = $this->merge( $contents, $else_part );
+		}
+		return $contents;
+	}
+	/ Else alternative:compound_list
+	{
+		return [ $this->node( 'else', $alternative ) ];
+	}
+
+while_clause =
+	While list:compound_list body:do_group
+{
+	return $this->node( 'while', [
+		$this->node( 'condition', $list ),
+		$body
+	] );
+}
+
+until_clause =
+	Until list:compound_list body:do_group
+{
+	return $this->node( 'until', [
+		$this->node( 'condition', $list ),
+		$body
+	] );
+}
+
+function_definition =
+	fname:fname LPAREN RPAREN linebreak body:function_body
+{
+	return $this->node( 'function_definition',
+		$this->merge( $this->node( 'function_name', $fname ), $body ) );
+}
+
+// Spec note: Apply rule 9
+function_body =
+	c:compound_command r:redirect_list?
+{
+	if ( $r !== null ) {
+		return $this->merge( $c, $r );
+	} else {
+		return $c;
+	}
+}
+
+fname =
+	NAME                            // Apply rule 8
+
+brace_group =
+	Lbrace list:compound_list Rbrace
+{
+	return $this->node( 'brace_group', $list );
+}
+
+do_group =
+	Do list:compound_list Done           // Apply rule 6
+{
+	return $this->node( 'do', $list );
+}
+
+simple_command =
+	prefix:cmd_prefix word:cmd_word suffix:cmd_suffix?
+	{
+		$contents = [ $prefix, $word ];
+		if ( $suffix !== null ) {
+			$contents = array_merge( $contents, $suffix );
+		}
+		return $this->node( 'simple_command', $contents );
+	}
+	/ prefix:cmd_prefix
+	{
+		return $this->node( 'simple_command', [ $prefix ] );
+	}
+	/ name:cmd_name suffix:cmd_suffix?
+	{
+		$contents = [ $name ];
+		if ( $suffix ) {
+			$contents = array_merge( $contents, $suffix );
+		}
+		return $this->node( 'simple_command', $contents );
+	}
+
+// Spec note: Apply rule 7a: Guess whether ASSIGNMENT_WORD is needed. That
+// doesn't need any special handling, but we need to avoid allowing reserved
+// words here with a negative assertion.
+cmd_name =
+	!reserved word:WORD
+{
+	return $word;
+}
+
+// Apply rule 7b
+cmd_word =
+	WORD
+
+cmd_prefix =
+	contents: (
+		io_redirect
+		/ ASSIGNMENT_WORD
+	)+
+{
+	return $this->node( 'cmd_prefix', $contents );
+}
+
+cmd_suffix =
+	(
+		io_redirect
+		/ WORD
+	)+
+
+redirect_list =
+	io_redirect+
+
+io_redirect =
+	number:IO_NUMBER? file_or_here:(io_file / io_here)
+	{
+		$contents = [];
+		if ( $number !== null ) {
+			$contents[] = $this->node( 'io_subject', $number );
+		}
+		$contents[] = $file_or_here;
+		return $this->node( 'io_redirect', $contents );
+	}
+
+// Options reordered to put the longer substrings first. Otherwise we would
+// need assertions to protect longer operators from being partly consumed by
+// smaller operators.
+io_file =
+	LESSAND filename:filename
+	{
+		return $this->node( 'duplicate_input', $filename );
+	}
+	/ LESSGREAT filename:filename
+	{
+		return $this->node( 'read_and_write', $filename );
+	}
+	/ LESS filename:filename
+	{
+		return $this->node( 'input', $filename );
+	}
+	/ GREATAND filename:filename
+	{
+		return $this->node( 'duplicate_output', $filename );
+	}
+	/ DGREAT filename:filename
+	{
+		return $this->node( 'append_output', $filename );
+	}
+	/ CLOBBER filename:filename
+	{
+		return $this->node( 'clobber', $filename );
+	}
+	/ GREAT filename:filename
+	{
+		return $this->node( 'output', $filename );
+	}
+
+filename =
+	WORD                      // Apply rule 2
+
+io_here =
+	op: (
+		DLESSDASH { return 'io_here_strip'; }
+		/ DLESS { return 'io_here'; }
+	)
+	end: here_end
+{
+	// TODO: this is quite complicated to implement, especially given the way
+	// the parser is structured.
+	throw new UnimplementedError( 'heredoc is not implemented' );
+	// For phan
+	return $this->node( 'io_here', '' );
+}
+
+here_end =
+	$WORD                      // Apply rule 3
+
+newline_list =
+	NEWLINE+
+
+linebreak =
+	newline_list?
+
+separator_op =
+	AND
+	/ SEMI
+
+separator =
+	separator_op linebreak
+	/ newline_list
+
+sequential_sep =
+	SEMI linebreak
+	/ newline_list
+
+// Operator tokens per spec
+
+AND_IF = '&&' OWS
+OR_IF = '||' OWS
+DSEMI = ';;' OWS
+DLESS = '<<' OWS
+DGREAT = '>>' OWS
+LESSAND = '<&' OWS
+GREATAND = '>&' OWS
+LESSGREAT = '<>' OWS
+DLESSDASH = '<<-' OWS
+CLOBBER = '>|' OWS
+
+// Reserved word tokens per spec
+If = 'if' DELIM
+Then = 'then' DELIM
+Else = 'else' DELIM
+Elif = 'elif' DELIM
+Fi = 'fi' DELIM
+Do = 'do' DELIM
+Done = 'done' DELIM
+Case = 'case' DELIM
+Esac = 'esac' DELIM
+While = 'while' DELIM
+Until = 'until' DELIM
+For = 'for' DELIM
+Lbrace = '{' DELIM
+Rbrace = '}' DELIM
+Bang = '!' DELIM
+In = 'in' DELIM
+
+reserved =
+	If
+	/ Then
+	/ Else
+	/ Elif
+	/ Fi
+	/ Do
+	/ Done
+	/ Case
+	/ Esac
+	/ While
+	/ Until
+	/ For
+	/ Lbrace
+	/ Rbrace
+	/ Bang
+	/ In
+
+// Single-character tokens with disambiguating assertions
+
+AND = !AND_IF '&' OWS
+SEMI = !DSEMI ';' OWS
+LESS = !DLESS !LESSAND !LESSGREAT !DLESSDASH '<' OWS
+GREAT = !DGREAT !GREATAND !CLOBBER '>' OWS
+PIPE = !OR_IF '|' OWS
+LPAREN = '(' OWS
+RPAREN = ')' OWS
+
+// Optional whitespace
+// Consume whitespace and comments after each token
+OWS = [ \t\v\r\f]* ("#" [^\n]*)?
+
+// Delimiter assertion for reserved word termination
+DELIM =
+	[ \t\v\r\f]+
+	/ !.   // EOF
+	/ & "\n"
+
+WORD =
+	parts: word_part+
+	OWS
+{
+	return $this->node( 'word', $parts );
+}
+
+word_part =
+	single_quoted_part
+	/ double_quoted_part
+	/ bare_escape_sequence
+	/ backquote_expansion
+	/ dollar_expansion
+	/ plain_part
+
+single_quoted_part =
+	"'" contents:$[^']* "'"
+{
+	return $this->node( 'single_quote', $contents );
+}
+
+double_quoted_part =
+	'"'
+	contents: (
+		dquoted_escape
+		/ backquote_expansion
+		/ dollar_expansion
+		/ "\\"
+		/ $[^"`$\\]+
+	)*
+	'"'
+{
+	return $this->node( 'double_quote', $contents );
+}
+
+dquoted_escape =
+	"\\" contents:[$`"\\\n]
+{
+	return $this->node( 'dquoted_escape', $contents );
+}
+
+bare_escape_sequence =
+	"\\" contents:[^\n]
+{
+	return $this->node( 'bare_escape', $contents );
+}
+
+backquote_expansion =
+	"`"
+	parts: (
+		backquoted_escape
+		/ dollar_expansion
+		/ double_backquote_expansion
+		/ "$"
+		/ "\\"
+		/ $[^`$\\]+
+	)*
+	"`"
+{
+	return $this->node( 'backquote', $parts );
+}
+
+backquoted_escape =
+	"\\" contents:[$\\]
+{
+	return $this->node( 'backquoted_escape', $contents );
+}
+
+double_backquote_expansion =
+	"\\`"
+	parts: (
+		backquoted_escape
+		/ dollar_expansion
+		/ "$"
+		/ "\\" !"`"
+		/ $[^`$\\]+
+	)
+	"\\`"
+{
+	return $this->node( 'double_backquote', $parts );
+}
+
+dollar_expansion =
+	"$"
+	contents: (
+		special_parameter
+		/ short_positional_parameter
+		/ brace_expansion
+		/ arithmetic_expansion
+		/ command_expansion
+		/ named_parameter
+	)
+{
+	return $contents;
+}
+
+special_parameter =
+	contents: [@*#?\-$!0]
+{
+	return $this->node( 'special_parameter', $contents );
+}
+
+short_positional_parameter =
+	contents: [1-9]
+{
+	return $this->node( 'positional_parameter', $contents );
+}
+
+brace_expansion =
+	"{"
+	contents: (
+		binary_expansion
+		/ string_length
+		/ braced_parameter_expansion
+	)
+	"}"
+{
+	return $contents;
+}
+
+binary_expansion =
+	parameter:parameter
+	operator:(
+		$( ":" [\-=?+] )
+		/ $( "%%" / "##" / [%#\-=?+] )
+	)
+	OWS
+	word:WORD<no_rbrace>?
+{
+	$names = [
+		':-' => 'use_default',
+		'-' => 'use_default_unset',
+		':=' => 'assign_default',
+		'=' => 'assign_default_unset',
+		':?' => 'indicate_error',
+		'?' => 'indicate_error_unset',
+		':+' => 'use_alternative',
+		'+' => 'use_alternative_unset',
+		'%' => 'remove_smallest_suffix',
+		'%%' => 'remove_largest_suffix',
+		'#' => 'remove_smallest_prefix',
+		'##' => 'remove_largest_prefix'
+	];
+	if ( !isset( $names[$operator] ) ) {
+		throw new InternalError( "Unable to find operator \"$operator\"" );
+	}
+	return $this->node( $names[$operator], [ $parameter, $word ?? '' ] );
+}
+
+string_length =
+	"#" parameter:parameter
+{
+	return $this->node( 'string_length', $parameter );
+}
+
+arithmetic_expansion =
+	"(("
+	OWS
+	words:WORD+
+	"))"
+{
+	return $this->node( 'arithmetic_expansion', $words );
+}
+
+command_expansion =
+	"("
+	command: complete_command
+	")"
+{
+	return $this->node( 'command_expansion', $command );
+}
+
+braced_parameter_expansion =
+	parameter:parameter
+{
+	return $this->node( 'braced_parameter_expansion', $parameter );
+}
+
+parameter =
+	special_parameter /
+	long_positional_parameter /
+	named_parameter
+
+long_positional_parameter =
+	parameter: $[0-9]+
+{
+	return $this->node( 'positional_parameter', $parameter );
+}
+
+named_parameter =
+	name:NAME
+{
+	return $this->node( 'named_parameter', $name );
+}
+
+plain_part =
+	plain: (
+		$(&<no_rbrace> [^'"\\`$ \t\v\r\f\n&|;<>(){}]+)
+		/ $(!<no_rbrace> [^'"\\`$ \t\v\r\f\n&|;<>()]+)
+	)
+{
+	return $this->node( 'unquoted_literal', $plain );
+}
+
+ASSIGNMENT_WORD =
+	name:NAME "=" word:WORD
+{
+	return $this->node( 'assignment', [ $this->node( 'name', $name ), $word ] );
+}
+
+NAME = $( [_a-zA-Z] [_a-zA-Z0-9]* )
+
+NEWLINE = "\n" OWS
+
+IO_NUMBER = $[0-9]+

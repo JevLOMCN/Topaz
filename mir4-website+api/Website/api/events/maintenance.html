@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8"">
+<meta name=""viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+<meta name="format-detection" content="telephone=no"">
+<meta name="robots" content="all">
+<title>Maintenance</title>
+<script src="https://file.mir4global.com/mir4-forum/js/ingame/first.js"></script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700;900&family=Noto+Sans+JP:wght@400;700;900&family=Noto+Sans+SC:wght@400;700;900&family=Noto+Sans+TC:wght@400;700;900&display=swap" rel="stylesheet">
+<link rel="shortcut icon" href="https://file.mir4global.com/mir4-forum/img/favicon.ico">
+<link rel="stylesheet" href="https://file.mir4global.com/mir4-forum/css/mobile/inspection-ingame.css?v01.08.2">
+<script src="https://file.mir4global.com/mir4-forum/js/vendor/jquery-1.12.2.min.js"></script>
+<script src="https://file.mir4global.com/mir4-forum/js/vendor/swiper.min.js"></script>
+<script src="https://file.mir4global.com/mir4-forum/js/ingame/ingame.js"></script>
+<script src="https://file.mir4global.com/live_global/maintenance/moment_full.js"></script>
+<script src="https://file.mir4global.com/live_global/maintenance/moment_locales.js"></script>
+<script src="https://file.mir4global.com/live_global/maintenance/moment_timezone_data.js"></script>
+<script>var initInspection = new inspection();</script>
+</head>
+<body>
+<div id="container" class="container inspection">
+<!-- Content -->
+<main id="content" class="content">
+<div class="content_inner">
+<!-- 1번째 컨텐츠 -->
+<h2 class="content_title"></h2>
+<!-- 3번째 컨텐츠 -->
+<div class="wrap_bottom">
+<div class="right wrap_notice">
+<div class="wrap_notice_title">
+<h3 class="notice_title">Maintenance Info</h3>
+<hr class="line">
+</div>
+<div class="notice_inner">
+<div class="notice"></div>
+</div>
+</div>
+</div>
+<!-- 4번째 컨텐츠 -->
+<div class="wrap_buttons">
+<a href="https://forum.mir4global.com/board/notice" class="button" id="forum_link"><span>Discord</span></a>
+<a href="https://forum.mir4global.com/board/patchnote" class="button" id="patch_link"><span>Patch Notes</span></a>
+</div>
+</div>
+</main>
+</div>
+<script>
+function getQueryStringObject() {
+var a = window.location.search.substr(1).split('&');
+if (a == '') return {};
+var b = {};
+for (var i = 0; i < a.length; ++i) {
+var p = a[i].split('=', 2);
+b[p[0]] = (p.length == 1) ? '' : decodeURIComponent(p[1].replace(/\+/g, ' '));
+}
+return b;
+}
+var params = getQueryStringObject();
+// 점검 링크 주소
+var forum_link = 'https://discord.gg/KCnHvwJJWN';
+var patch_link = 'https://discord.gg/KCnHvwJJWN';
+//title
+var titleArray = {"en":"Maintenance - May 27th","zh-Hans":"5\u670814\u65e5(\u661f\u671f\u4e8c)\u66f4\u65b0\u7ef4\u62a4\u516c\u544a","zh-Hant":"Maintenance - May 27th","ja":"Maintenance - May 27th","th":"Maintenance - May 27th","id":"Maintenance - May 27th","vi":"Maintenance - May 27th","de":"Maintenance - May 27th","es":"Maintenance - May 27th","pt":"Maintenance - May 27th","ru":"Maintenance - May 27th","ko":"5\uc6d4 14\uc77c(\ud654) \uc5c5\ub370\uc774\ud2b8 \uc810\uac80 \uc548\ub0b4 "};
+//content
+var contentArray = {"en":"From my battle to our war, MMORPG MIR4\n\nGreetings, This is AVA MIR4. \n\nWe are conducting Update Maintenance at the moment.\n\nPlease refer to the official discord for further details.\n\n\u25a0 Maintenance Schedule \nASIA(UTC+8): Tuesday, May. 26, 2024, 7:00 am ~ 12:00 pm\nINMENA(UTC+6): Tuesday, May. 27, 2024, 5:00 am ~ 10:00 am\nEU(UTC+2): Tuesday, May. 27, 2024, 1:00 am ~ 6:00 am\nSA(UTC-3): Monday, May. 27, 2024, 8:00 pm ~ Tuesday, May. 27, 2024, 1:00 am\nNA(UTC-4): Monday, May. 27, 2024, 7:00 pm ~ Tuesday, May. 27, 2024, 12:00 am\n\n\u25a0 Maintenance Target \n- NA [TEST]\n\n[Update Summary]\n1. Fix Some Things Relax :D \n\n\u203b Maintenance schedule may change depending on the circumstances without prior notice.\n\u203b We will open the servers in order. \n\nWe will do our best to provide stable service. \n\nThank you.. Jev was Here :D"};
+var title = titleArray[params.lang];
+var content = contentArray[params.lang];
+if(typeof(title)=='undefined') var title = titleArray['en'];
+if(typeof(content)=='undefined') var content = contentArray['en'];
+$('.content_title').html(title);
+$('.notice').html(content);
+$('#forum_link').attr('href',forum_link);
+if(patch_link == '') { $('#patch_link').hide(); } else { $('#patch_link').attr('href',patch_link); }
+</script>
+</body>
+</html>

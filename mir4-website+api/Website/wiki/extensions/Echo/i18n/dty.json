@@ -1,0 +1,16 @@
+{
+	"@metadata": {
+		"authors": [
+			"Nirajan pant",
+			"जनक राज भट्ट",
+			"रमेश सिंह बोहरा",
+			"राम प्रसाद जोशी"
+		]
+	},
+	"tooltip-pt-notifications-alert": "{{GENDER:|तमरा}} अलर्टहरू",
+	"notification-dynamic-actions-unwatch": "\"$1\"मी नौला कृयाकलाप तक्द {{GENDER:$3|बन्द}} अरऽ",
+	"notification-dynamic-actions-unwatch-confirmation": "{{GENDER:$3|तम}} आब \"$1\" पन्ना नाइहेद्दार्‍याऽ",
+	"notification-dynamic-actions-watch": "\"$1\"मी नौलो कृयाकलाप {{GENDER:$3|पछ्याऽ}}",
+	"notification-dynamic-actions-watch-confirmation": "{{GENDER:$3|तम}} अइल \"$1\" पन्ना हेद्दाछऽ",
+	"notification-dynamic-actions-watch-confirmation-description": "[$2 यो पन्ना] तक्द {{GENDER:$3|तम}} कज्याइँलै बन्द अरिसकन्छऽ"
+}

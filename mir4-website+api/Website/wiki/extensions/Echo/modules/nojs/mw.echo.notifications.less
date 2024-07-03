@@ -1,0 +1,87 @@
+@import 'mediawiki.skin.variables.less';
+@import 'mediawiki.mixins.less';
+@import '../echo.variables.less';
+@import '../echo.mixins.less';
+
+// This is only valid for the Special:Notifications page in no-JS mode,
+// where the formatting of the notifications include the following structure
+.mw-echo-state {
+	display: block;
+	box-sizing: border-box;
+	width: 100%;
+
+	.mw-echo-notification-primary-link {
+		display: none;
+	}
+
+	.mw-echo-icon {
+		width: 30px;
+		height: 30px;
+		float: left;
+		margin-right: 10px;
+		margin-left: 10px;
+	}
+
+	.mw-echo-notification {
+		background-color: @background-color-base;
+		color: @grey-light;
+		clear: both;
+		display: block;
+		line-height: 90%;
+		margin: 0;
+		min-height: 30px;
+		position: relative;
+		padding-top: 15px;
+		padding-bottom: 10px;
+		/* Force container to expand to height of floated contents */
+		overflow: hidden;
+
+		/* stylelint-disable-next-line selector-class-pattern */
+		span.autocomment {
+			color: inherit;
+			font-style: normal;
+		}
+	}
+
+	.mw-echo-content {
+		overflow: hidden;
+		display: block;
+
+		.mw-echo-title {
+			color: @color-emphasized;
+		}
+
+		.mw-echo-payload {
+			color: @notification-body-color;
+			margin-top: 4px;
+			.text-overflow( @visible: false );
+		}
+
+		.mw-echo-title,
+		.mw-echo-payload {
+			font-size: 1em;
+			line-height: 1.4em;
+
+			/* stylelint-disable-next-line selector-class-pattern */
+			.plainlinks {
+				max-width: 100%;
+				display: inline-block;
+				.text-overflow( @visible: false );
+				vertical-align: top;
+			}
+		}
+
+		.mw-echo-notification-footer {
+			color: @grey-light;
+			font-size: 11px;
+			margin-top: 0.2em;
+
+			.mw-echo-notification-footer-element {
+				display: inline-block;
+				max-width: 15em;
+				margin-right: 0.5em;
+				.text-overflow( @visible: false );
+			}
+		}
+	}
+}

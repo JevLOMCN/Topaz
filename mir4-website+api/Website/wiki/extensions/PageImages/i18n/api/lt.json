@@ -1,0 +1,18 @@
+{
+	"@metadata": {
+		"authors": [
+			"Nokeoo"
+		]
+	},
+	"apihelp-query+pageimages-summary": "Pateikia informaciją apie puslapyje esančius vaizdus, pvz., miniatiūrą ir nuotraukų buvimo faktą.",
+	"apihelp-query+pageimages-param-prop": "Kokią informaciją grąžinti:",
+	"apihelp-query+pageimages-paramvalue-prop-thumbnail": "Su puslapiu susieto paveikslėlio miniatiūros URL ir matmenys, jei yra.",
+	"apihelp-query+pageimages-paramvalue-prop-original": "Su puslapiu susieto paveikslėlio originalūs matmenys, jei yra.",
+	"apihelp-query+pageimages-paramvalue-prop-name": "Paveikslėlio pavadinimas.",
+	"apihelp-query+pageimages-param-thumbsize": "Didžiausias miniatiūrų plotis pikseliais.",
+	"apihelp-query+pageimages-param-langcode": "Kalbos, kuria paveikslėlis bus atvaizduotas, kodas, jei palaikomos kelios kalbos",
+	"apihelp-query+pageimages-param-limit": "Savybės, kiek puslapių grąžinti.",
+	"apihelp-query+pageimages-param-license": "Apriboti puslapio paveikslėlius tam tikru licencijos tipu:",
+	"apihelp-query+pageimages-paramvalue-license-free": "Tik nemokami paveikslėliai.",
+	"apihelp-query+pageimages-paramvalue-license-any": "Geriausias paveikslėlis, nesvarbu, ar mokamas, ar ne."
+}

@@ -1,0 +1,11 @@
+.mw-ref > a::after {
+	content: '[' counter( mw-Ref, tibetan ) ']';
+}
+
+.mw-ref > a[ data-mw-group ]::after {
+	content: '[' attr( data-mw-group ) ' ' counter( mw-Ref, tibetan ) ']';
+}
+
+span[ rel='mw:referencedBy' ] > a::before {
+	content: counter( mw-references, tibetan ) '.' counter( mw-ref-linkback, tibetan );
+}

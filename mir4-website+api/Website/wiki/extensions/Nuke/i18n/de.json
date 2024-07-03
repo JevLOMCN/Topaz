@@ -1,0 +1,38 @@
+{
+	"@metadata": {
+		"authors": [
+			"Geitost",
+			"Kghbln",
+			"Metalhead64",
+			"Purodha",
+			"Raimond Spekking",
+			"SVG"
+		]
+	},
+	"nuke": "Massenlöschung von Seiten",
+	"action-nuke": "Seiten massenhaft zu löschen",
+	"nuke-desc": "Erweitert das Wiki um eine [[Special:Nuke|Spezialseite]] zur Massenlöschung von Seiten",
+	"nuke-nopages": "Es gibt in den „Letzten Änderungen“ keine neuen Seiten von [[Special:Contributions/$1|{{GENDER:$1|$1}}]].",
+	"nuke-list": "Die folgenden Seiten wurden von [[Special:Contributions/$1|{{GENDER:$1|$1}}]] angelegt.\nGib einen Kommentar bezüglich der Löschung an und klicke auf die Schaltfläche, um die Seiten nun zu löschen.",
+	"nuke-list-multiple": "Die folgenden Seiten wurden vor kurzem erstellt.\nGib einen Kommentar bezüglich der Löschung an und klicke auf die Schaltfläche, um die Seiten nun zu löschen.",
+	"nuke-defaultreason": "Massenlöschung der Seiten, die von „[[Special:Contributions/$1|{{GENDER:$1|$1}}]]“ angelegt wurden",
+	"nuke-multiplepeople": "Massenlöschung kürzlich erstellter Seiten",
+	"nuke-tools": "Diese Arbeitshilfe ermöglicht die Massenlöschung von Seiten, die von einer IP-Adresse oder einem Benutzer angelegt wurden.\nGib die IP-Adresse oder den Benutzernamen ein, um eine Liste der zu löschenden Seiten zu erhalten. Sofern du keine Angabe machst, werden alle Benutzer ausgewählt.",
+	"nuke-submit-user": "Seiten auflisten",
+	"nuke-submit-delete": "Ausgewählte Seiten löschen",
+	"right-nuke": "Massenlöschungen von Seiten",
+	"nuke-userorip": "Benutzername, IP-Adresse oder keine Angabe:",
+	"nuke-maxpages": "Maximale Anzahl der Seiten:",
+	"nuke-editby": "Erstellt von [[Special:Contributions/$1|{{GENDER:$1|$1}}]]",
+	"nuke-deleted": "Seite „$1“ wurde gelöscht.",
+	"nuke-deletion-queued": "Die Seite '''$1''' steht für die Löschung in der Warteschlange.",
+	"nuke-not-deleted": "Seite [[:$1]] '''konnte nicht''' gelöscht werden.",
+	"nuke-delete-more": "[[Special:Nuke|Weitere Seiten löschen]]",
+	"nuke-pattern": "SQL-LIKE-Muster (z.&nbsp;B. %) für den Seitennamen:",
+	"nuke-nopages-global": "Es gibt keine Seitentitel, die deiner Suche entsprechen.",
+	"nuke-viewchanges": "Änderungen ansehen",
+	"nuke-namespace": "Auf den folgenden Namensraum begrenzen:",
+	"nuke-linkoncontribs": "Massenlöschungen",
+	"nuke-linkoncontribs-text": "Massengelöschte Seiten, bei denen {{GENDER:$1|dieser Benutzer der einzige Autor|diese Benutzerin die einzige Autorin}} ist.",
+	"nuke-confirm": "Du bist gerade dabei, {{PLURAL:$1|eine Seite|$1 Seiten}} zu löschen. Möchtest du wirklich fortfahren?"
+}

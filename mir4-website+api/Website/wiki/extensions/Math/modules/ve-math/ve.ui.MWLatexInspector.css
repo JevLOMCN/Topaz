@@ -1,0 +1,11 @@
+/*!
+ * VisualEditor UserInterface MWLatexInspector styles.
+ *
+ * @copyright See AUTHORS.txt
+ * @license MIT
+ */
+
+.ve-ui-mwLatexInspector-content .ve-ui-mwExtensionWindow-input textarea {
+	/* Specify a valid second value to fix size in Chrome/FF */
+	font-family: monospace, 'Courier';
+}

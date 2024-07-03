@@ -1,0 +1,20 @@
+{
+	"@metadata": {
+		"authors": [
+			"Chaduvari",
+			"Veeven"
+		]
+	},
+	"apierror-discussiontools-commentid-notfound": "వ్యాఖ్య ID కనబడలేదు: $1",
+	"apihelp-discussiontoolsedit-param-commentid": "సమాధానమిస్తున్న వ్యాఖ్య ID. <var>paction</var> విలువ <var>addcomment</var> అయినప్పుడే దీన్ని వాడుతుంది.",
+	"apihelp-discussiontoolsedit-param-html": "పంపించే కంటెంటు, HTML రూపంలో. <var>wikitext</var> తో కలిపి వాడలేరు.",
+	"apihelp-discussiontoolsedit-param-sectiontitle": "<var>paction</var>, <var>addtopic</var> అయిన సందర్భంలో మాత్రమే {{int:apihelp-edit-param-sectiontitle}} ను వాడాలి.",
+	"apihelp-discussiontoolsedit-param-allownosectiontitle": "శీర్షిక లేకుండా కొత్త విభాగాన్ని పోస్ట్ చేయడానికి అనుమతించడం.",
+	"apihelp-discussiontoolsedit-paramvalue-paction-addcomment": "ఈసరికే ఉన్న వ్యాఖ్యకు సమాధానంగా కొత్త వ్యాఖ్య రాయండి.",
+	"apihelp-discussiontoolsedit-paramvalue-paction-addtopic": "ఓ కొత్త చర్చాంశాన్ని చేర్చి, అందులో తొలి వ్యాఖ్య రాయండి.",
+	"apihelp-discussiontoolsedit-summary": "చర్చ పేజీలో ఓ సందేశం రాయండి.",
+	"apihelp-discussiontoolspageinfo-param-prop": "ఏ లక్షణాలను తీసుకురావాలి:",
+	"apihelp-discussiontoolspreview-param-type": "మునుజూపు చూపాల్సిన సందేశపు రకం",
+	"apihelp-discussiontoolspreview-param-wikitext": "వికీటెక్స్టు లాగా మునుజూపు చూపాల్సిన కంటెంటు.",
+	"apihelp-discussiontoolspreview-summary": "చర్చ పేజీలోని సందేశానికి మునుజూపు."
+}

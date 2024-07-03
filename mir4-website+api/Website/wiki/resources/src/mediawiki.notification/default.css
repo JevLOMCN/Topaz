@@ -1,0 +1,70 @@
+.mw-notification-area-overlay {
+	position: absolute;
+	top: 0;
+	right: 0;
+	height: 100%;
+	width: 100%;
+	/* Avoid horizontal scrollbar on fade in and on fade out */
+	overflow: hidden;
+	pointer-events: none;
+}
+
+.mw-notification-area {
+	top: 0;
+	right: 0;
+	/* Padding on all sides so drop shadows aren't cut by overflow: hidden */
+	padding: 1em;
+	width: 20em;
+	line-height: 1.35;
+	z-index: 10000;
+}
+
+.mw-notification {
+	padding: 0.75em 1.5em;
+	margin-bottom: 0.5em;
+	border: solid 1px #ddd;
+	background-color: #fff;
+	color: #000;
+	/* Click handler in mediawiki.notification.js */
+	cursor: pointer;
+	opacity: 0;
+	transform: translateX( 35px );
+	transition: opacity 0.35s ease-in-out, transform 0.35s ease-in-out;
+	pointer-events: auto;
+}
+
+.mw-notification-visible {
+	opacity: 1;
+	transform: translateX( 0 );
+}
+
+.mw-notification-replaced {
+	opacity: 0;
+	transform: translateY( -35px );
+	pointer-events: none;
+}
+
+.mw-notification-title {
+	font-weight: bold;
+}
+
+.mw-notification.mw-notification-type-warn {
+	/* Yellow100 */
+	background-color: #fef6e7;
+	/* Yellow600 */
+	border-color: #fc3;
+}
+
+.mw-notification.mw-notification-type-error {
+	/* Red100 */
+	background-color: #fee7e6;
+	/* Red600 */
+	border-color: #d73333;
+}
+
+.mw-notification.mw-notification-type-success {
+	/* Green100 */
+	background-color: #d5fdf4;
+	/* Green700 */
+	border-color: #14866d;
+}

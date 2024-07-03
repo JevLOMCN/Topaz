@@ -1,0 +1,38 @@
+{
+	"@metadata": {
+		"authors": [
+			"Kaffi",
+			"Les Meloures",
+			"Robby",
+			"Soued031"
+		]
+	},
+	"categorytree": "Struktur vun de Kategorien",
+	"categorytree-portlet": "Kategorien",
+	"categorytree-legend": "Weis Kategoriestruktur",
+	"categorytree-desc": "Gadget deen op Ajax opgebaut ass fir d'[[Special:CategoryTree|Kategorie-Struktur]] vun enger Wiki duerzestellen",
+	"categorytree-header": "Gitt den Numm vun enger Kategorie an, fir hiren Inhalt als Bam-Struktur ze gesinn. (Benotzt JavaScript,)",
+	"categorytree-category": "Kategorie:",
+	"categorytree-go": "Struktur weisen",
+	"categorytree-parents": "Uewerkategorien",
+	"categorytree-mode-label": "Modus:",
+	"categorytree-mode-categories": "nëmme Kategorien",
+	"categorytree-mode-pages": "Säiten ausser Fichieren",
+	"categorytree-mode-all": "all Säiten",
+	"categorytree-collapse": "Verstoppen",
+	"categorytree-expand": "Opklappen",
+	"categorytree-member-counts": "besteet aus {{PLURAL:$1|1 Ënnerkategorie|$1 Ënnerkategorien}}, {{PLURAL:$2|1 Säit|$1 Säiten}}, an {{PLURAL:$3|1 Fichier|$3 Fichieren}}",
+	"categorytree-num-categories": "$1 K",
+	"categorytree-num-pages": "$1 S",
+	"categorytree-num-files": "$1 F",
+	"categorytree-num-empty": "eidel",
+	"categorytree-load": "lueden",
+	"categorytree-loading": "lueden …",
+	"categorytree-nothing-found": "Näischt fonnt",
+	"categorytree-no-subcategories": "Keng Ënnerkategorien",
+	"categorytree-no-parent-categories": "Keng Iwwerkategorien",
+	"categorytree-no-pages": "Keng Säiten oder Ënnerkategorien",
+	"categorytree-not-found": "Kategorie ''$1'' net fonnt",
+	"categorytree-error": "Probleem beim Luede vun den Donnéeën.",
+	"categorytree-retry": "Waart wgl. een Ament a probéiert dann nach eng Kéier."
+}

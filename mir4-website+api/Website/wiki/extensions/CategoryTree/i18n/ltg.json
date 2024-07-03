@@ -1,0 +1,29 @@
+{
+	"@metadata": {
+		"authors": [
+			"Dark Eagle"
+		]
+	},
+	"categorytree": "Kategoreju kūks",
+	"categorytree-portlet": "Kategorejis",
+	"categorytree-legend": "Paruodeit kategoreju kūku",
+	"categorytree-desc": "Dinamiski vada [[Special:CategoryTree|kategoreju strukturu]]",
+	"categorytree-category": "Kategoreja:",
+	"categorytree-go": "Paruodeit kūku",
+	"categorytree-parents": "Augstuokuo leidzīņa kategorejis",
+	"categorytree-mode-categories": "kategorejis viņ",
+	"categorytree-mode-pages": "atskaitūt failus",
+	"categorytree-mode-all": "vysys puslopys",
+	"categorytree-collapse": "nūglobuot",
+	"categorytree-expand": "ruodeit",
+	"categorytree-member-counts": "globuo {{PLURAL:$1|1 zamkategoreju|$1 zamkategorejis}}, {{PLURAL:$2|1 puslopu|$2 puslopys}}, i {{PLURAL:$3|1 failu|$3 failus}}",
+	"categorytree-load": "atsasyuteit",
+	"categorytree-loading": "nūteik atsasyuteišona...",
+	"categorytree-nothing-found": "nikas natyka atrast",
+	"categorytree-no-subcategories": "navā zamkategoreju",
+	"categorytree-no-parent-categories": "navā augstuokuo leidzīņa kategoreju",
+	"categorytree-no-pages": "navā puslopu ci zamkategoreju",
+	"categorytree-not-found": "Kategoreja <i>$1</i> navā savaicuota",
+	"categorytree-error": "Failu atsasyuteišonys problema.",
+	"categorytree-retry": "Lyudzams drupeit pagaidi i raugi vēļ."
+}

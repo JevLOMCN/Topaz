@@ -1,0 +1,17 @@
+{
+	"@metadata": {
+		"authors": [
+			"Amire80",
+			"Guycn2",
+			"Macofe"
+		]
+	},
+	"apihelp-flowthank-summary": "שליחת התראת תודה ציבורית עבור הערת זרימה.",
+	"apihelp-flowthank-param-postid": "ה־UUID של הרשומה שעליה תישלח תודה.",
+	"apihelp-flowthank-example-1": "לשלוח תודה על הערה עם <kbd>UUID xyz789</kbd>",
+	"apihelp-thank-summary": "שליחת התראת תודה לעורך.",
+	"apihelp-thank-param-rev": "מזהה הגרסה שעליה תישלח תודה. יש לספק מזהה גרסה או מזהה של פעולת יומן.",
+	"apihelp-thank-param-log": "המזהה של פעולת היומן שעליה תישלח תודה. יש לספק מזהה של פעולת יומן או מזהה גרסה.",
+	"apihelp-thank-param-source": "מחרוזת קצרה שמתארת את מקור הבקשה, למשל <kbd>diff</kbd> או <kbd>history</kbd>.",
+	"apihelp-thank-example-1": "שליחת תודה עבור מזהה גרסה <kbd>ID 456</kbd, שהמקור שלה הוא דף diff."
+}

@@ -1,0 +1,16 @@
+{
+	"@metadata": {
+		"authors": [
+			"Fryed-peach",
+			"Otokoume",
+			"Shirayuki",
+			"Yusuke1109",
+			"Waki285"
+		]
+	},
+	"apihelp-categorytree-summary": "カテゴリツリー拡張機能の内部モジュール。",
+	"apihelp-categorytree-param-category": "カテゴリ名前空間におけるページ名、接頭辞は指定しても無視される。",
+	"apihelp-categorytree-param-options": "CategoryTreeコンストラクターのオプションをJSONオブジェクトとして指定。<var>depth</var>オプションの既定値は<kbd>1</kbd>です。",
+	"apierror-categorytree-invalidjson": "オプションは有効なJSONオブジェクトでなければなりません。",
+	"apierror-categorytree-invalidjson-option": "オプション「$1」に無効な値が含まれています。"
+}

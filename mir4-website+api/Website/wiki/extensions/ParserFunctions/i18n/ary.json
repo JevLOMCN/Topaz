@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"Abdeaitali",
+			"Ideophagous",
+			"SADIQUI"
+		]
+	},
+	"pfunc_time_error": "خطأ: زمن ما صحيحش",
+	"pfunc_expr_unrecognised_word": "غالاط ف التعبير: كلمة ما معروفاش \"$1\"",
+	"pfunc_expr_unexpected_operator": "غالاط ف التعبير: لعامل $1 ماشي متوقع",
+	"pfunc_expr_missing_operand": "غالاط ف التعبير: معامل مفقود ديال لعامل $1",
+	"pfunc_expr_unrecognised_punctuation": "خطأ ف التعبير: علامة ترقيم ما معروفاش \"$1\"",
+	"pfunc_expr_division_by_zero": "لقسيم على زيرو."
+}

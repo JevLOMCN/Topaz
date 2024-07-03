@@ -1,0 +1,57 @@
+[
+	{
+		"name": "loginnotify_seen_net",
+		"comment": "Summary of subnets used by local or global users",
+		"columns": [
+			{
+				"name": "lsn_id",
+				"comment": "Primary key",
+				"type": "integer",
+				"options": {
+					"unsigned": true,
+					"notnull": true,
+					"autoincrement": true
+				}
+			},
+			{
+				"name": "lsn_time_bucket",
+				"comment": "Time since epoch divided by the bucket duration, e.g. 15 days",
+				"type": "smallint",
+				"options": {
+					"unsigned": true,
+					"notnull": true
+				}
+			},
+			{
+				"name": "lsn_user",
+				"comment": "globaluser.gu_id or user.user_id (CentralIdLookup)",
+				"type": "integer",
+				"options": {
+					"unsigned": true,
+					"notnull": true
+				}
+			},
+			{
+				"name": "lsn_subnet",
+				"comment": "Truncated hash of IP address subnet",
+				"type": "bigint",
+				"options": {
+					"notnull": true
+				}
+			}
+		],
+		"indexes": [
+			{
+				"name": "loginnotify_seen_net_user",
+				"comment": "To check if the subnet is known, on login or before insertion.",
+				"columns": [ "lsn_user", "lsn_subnet", "lsn_time_bucket" ],
+				"unique": true
+			}
+		],
+		"pk": [ "lsn_id" ]
+	},
+	{
+		"name": "loginnotify_purge_claim",
+		"comment": ""
+	}
+]

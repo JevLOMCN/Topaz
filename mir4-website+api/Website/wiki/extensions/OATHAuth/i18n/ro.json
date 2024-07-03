@@ -1,0 +1,31 @@
+{
+	"@metadata": {
+		"authors": [
+			"Firilacroco",
+			"Fitoschido",
+			"NGC 54",
+			"Narlotep1",
+			"Stelistcristi",
+			"Strainu"
+		]
+	},
+	"oathauth-account": "Numele contului:",
+	"oathauth-enable": "Activează autentificarea cu doi factori",
+	"oathauth-disable": "Dezactivează autentificarea cu doi factori",
+	"oathauth-prefs-label": "Autentificare cu doi factori:",
+	"oathauth-step4": "Pasul 4: Verificare",
+	"oathauth-enteruser": "Nume de utilizator:",
+	"oathauth-enterdisablereason": "Motivul dezactivării:",
+	"oathauth-enterverifyreason": "Motivul verificării:",
+	"right-oathauth-enable": "Activează autentificarea cu doi factori",
+	"action-oathauth-enable": "activează autentificarea cu doi factori",
+	"oathauth-auth-token-label": "Token pentru al doilea factor sau cod de recuperare",
+	"oathauth-auth-ui": "Vă rugăm să introduceți un cod de verificare de pe dispozitivul dvs. de autentificare",
+	"oathauth-throttled": "Prea multe încercări de verificare! Vă rugăm să așteptați $1.",
+	"oathauth-login-failed": "Verificare eșuată.",
+	"oathauth-describe-provider": "Autentificare cu doi factori (OATH).",
+	"oathauth-ui-no-module": "Niciuna activată",
+	"oathauth-ui-manage": "Administrare",
+	"oathmanage": "Administrare autentificare cu doi factori",
+	"oathauth-notifications-enable-help": "Ajutor"
+}

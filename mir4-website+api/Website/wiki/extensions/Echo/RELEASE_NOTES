@@ -1,0 +1,25 @@
+July, 2016
+-----------
+* BREAKING CHANGE: In the cross-wiki summary in ApiEchoNotifications,
+  'ts' is now ISO 8601.
+* BREAKING CHANGE: JS variables: wgEchoSeenTime now uses ISO 8601, and
+  alert/notice instead of alert/message.  wgEchoInitialNotifCount has
+  been removed.
+* ApiEchoMarkSeen is moving to ISO 8601.  Adjust your client; see API
+  documentation.
+
+April, 2016
+-----------
+* BREAKING CHANGE: $wgEchoDefaultNotificationTypes has been split into
+  three variables.  See Echo.php for documentation:
+** $wgDefaultNotifyTypeAvailability
+** $wgNotifyTypeAvailabilityByCategory
+** $wgEchoNotifications[$notificationType]['notify-type-availability']
+
+March, 2015
+-----------
+
+* Echo events now support multiple target pages.  As a result The api output of individual
+ notifications within api.php?action=query&meta=notifications no longer has a 'targetpage'
+ property.  This has been replaced with a 'targetpages' property which is the same as
+ 'targetpage' was, but now as an array.

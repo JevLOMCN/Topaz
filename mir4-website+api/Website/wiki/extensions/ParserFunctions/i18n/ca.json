@@ -1,0 +1,32 @@
+{
+	"@metadata": {
+		"authors": [
+			"Jordi Roqué",
+			"Mguix",
+			"Qllach",
+			"SMP",
+			"Vriullop"
+		]
+	},
+	"pfunc_desc": "Millora el processat amb funcions lògiques",
+	"pfunc_time_error": "Error: temps no vàlid",
+	"pfunc_time_too_long": "Error: massa crides #time",
+	"pfunc_time_too_big": "Error: #time només admet anys fins al 9999.",
+	"pfunc_time_too_small": "Error: #time només admet anys des de 0.",
+	"pfunc_rel2abs_invalid_depth": "Error: Adreça invàlida al directori: «$1» (s'intentava accedir a un node superior de l'arrel)",
+	"pfunc_expr_stack_exhausted": "Error de l'expressió: Pila exhaurida",
+	"pfunc_expr_unexpected_number": "Error de l'expressió: Nombre inesperat",
+	"pfunc_expr_preg_match_failure": "Error de l'expressió: Error de funció no compresa i inesperada",
+	"pfunc_expr_unrecognised_word": "Error de l'expressió: Paraula no reconeguda \"$1\".",
+	"pfunc_expr_unexpected_operator": "Error de l'expressió: Operador $1 inesperat",
+	"pfunc_expr_missing_operand": "Error de l'expressió: Falta l'operand de $1",
+	"pfunc_expr_unexpected_closing_bracket": "Error de l'expressió: Parèntesi inesperat",
+	"pfunc_expr_unrecognised_punctuation": "Error de l'expressió: Signe de puntuació no reconegut \"$1\"",
+	"pfunc_expr_unclosed_bracket": "Error de l'expressió: Parèntesi no tancat",
+	"pfunc_expr_division_by_zero": "Divisió entre zero",
+	"pfunc_expr_invalid_argument": "Valor no vàlid per a $1: < -1 ó > 1",
+	"pfunc_expr_invalid_argument_ln": "Valor no vàlid per a ln: <= 0",
+	"pfunc_expr_unknown_error": "Error de l'expressió: Desconegut ($1)",
+	"pfunc_expr_not_a_number": "A $1: el resultat no és un nombre",
+	"pfunc_string_too_long": "Error: La cadena és $1 caràcters massa llarga"
+}

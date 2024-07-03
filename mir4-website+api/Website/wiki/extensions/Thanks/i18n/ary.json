@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"Ideophagous",
+			"Reda Benkhadra",
+			"SADIQUI"
+		]
+	},
+	"thanks-thank": "{{GENDER:$1|{{GENDER:$2|شكر}}}}",
+	"thanks-thank-tooltip": "{{GENDER:$1|صيفط|صيفطي}} إشعار شكر ل{{GENDER:$2|هاد لخدايمي|هاد لخدايمية}}",
+	"notification-header-rev-thank": "$1 شكر{{GENDER:$2||ات}}ك على {{GENDER:$4|تبديل ديالك}} ف <strong>$3</strong>.",
+	"notification-header-flow-thank": "{{GENDER:$2|شكرك|شكراتك}} $1 على {{GENDER:$5|تعليق ديالك}} ف \"<strong>$3</strong>\"."
+}

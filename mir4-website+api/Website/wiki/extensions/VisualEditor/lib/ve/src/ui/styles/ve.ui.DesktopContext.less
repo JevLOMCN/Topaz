@@ -1,0 +1,44 @@
+/*!
+ * VisualEditor UserInterface Context styles.
+ *
+ * @copyright See AUTHORS.txt
+ */
+
+.ve-ui-desktopContext {
+	position: absolute;
+
+	&-menu {
+		position: absolute;
+		width: 400px;
+
+		.oo-ui-toolbar-bar {
+			white-space: nowrap;
+			border: 0;
+			background: none;
+		}
+
+		.oo-ui-toolGroup {
+			border: 0;
+			margin: 0;
+		}
+
+		.oo-ui-tool,
+		.oo-ui-tool:hover {
+			border: 0;
+		}
+
+		.oo-ui-tool:active,
+		.oo-ui-tool-active {
+			background-image: none;
+		}
+	}
+
+	&-floating {
+		position: fixed;
+	}
+
+	&-embedded > .oo-ui-popupWidget > .oo-ui-popupWidget-popup {
+		margin-top: 0.25em;
+		margin-right: 0.25em;
+	}
+}

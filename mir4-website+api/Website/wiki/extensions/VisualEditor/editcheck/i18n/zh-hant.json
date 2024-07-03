@@ -1,0 +1,29 @@
+{
+	"@metadata": {
+		"authors": [
+			"Kly",
+			"SCP-2000",
+			"Cookai1205"
+		]
+	},
+	"editcheck-dialog-action-no": "否",
+	"editcheck-dialog-action-yes": "是",
+	"editcheck-dialog-addref-description": "新增引註來幫助讀者了解此資訊的出處。",
+	"editcheck-dialog-addref-reject-question": "為何不新增引註？",
+	"editcheck-dialog-addref-reject-description": "其他編者希望能更了解您拒絕新增引註的原因。",
+	"editcheck-dialog-addref-reject-irrelevant": "我認為引註內容與我所做的修改無關",
+	"editcheck-dialog-addref-reject-common-knowledge": "我新增的資訊是眾所周知的",
+	"editcheck-dialog-addref-reject-uncertain": "我不確定該新增什麼引註",
+	"editcheck-dialog-addref-reject-other": "其他",
+	"editcheck-dialog-addref-success-notify": "感謝您新增引註！",
+	"editcheck-dialog-addref-title": "新增引註",
+	"editcheck-dialog-title": "發布前",
+	"tag-editcheck-reference-decline-common-knowledge": "編輯檢查（參考資料）遭拒（常識）",
+	"tag-editcheck-reference-decline-common-knowledge-description": "編輯檢查參考文獻功能因「常識」而被拒絕",
+	"tag-editcheck-reference-decline-irrelevant": "編輯檢查（參考資料）遭拒（無關）",
+	"tag-editcheck-reference-decline-irrelevant-description": "編輯檢查參考文獻功能因「無關」而被拒絕",
+	"tag-editcheck-reference-decline-other": "編輯檢查（參考資料）遭拒（其他）",
+	"tag-editcheck-reference-decline-other-description": "編輯檢查參考文獻功能因「其他」而被拒絕",
+	"tag-editcheck-reference-decline-uncertain": "編輯檢查（參考資料）遭拒（不確定）",
+	"tag-editcheck-reference-decline-uncertain-description": "編輯檢查參考文獻功能因「不確定」而被拒絕"
+}

@@ -1,0 +1,28 @@
+{
+	"@metadata": {
+		"authors": [
+			"Amire80"
+		]
+	},
+	"pfunc_desc": "הוספת פונקציות לוגיות למפענח",
+	"pfunc_time_error": "שגיאה: זמן שגוי",
+	"pfunc_time_too_long": "שגיאה: יותר מדי קריאות ל#זמן.",
+	"pfunc_time_too_big": "שגיאה: #זמן תומכת רק בשנים עד 9999.",
+	"pfunc_time_too_small": "שגיאה: הפונקציה #time תומכת רק בשנים מ־0.",
+	"pfunc_rel2abs_invalid_depth": "שגיאה: עומק שגוי בנתיב: \"$1\" (ניסיון כניסה לצומת מעל צומת השורש)",
+	"pfunc_expr_stack_exhausted": "שגיאה בביטוי: המחסנית מלאה",
+	"pfunc_expr_unexpected_number": "שגיאה בביטוי: מספר בלתי צפוי",
+	"pfunc_expr_preg_match_failure": "שגיאה בביטוי: כישלון בלתי צפוי של התאמת ביטוי רגולרי",
+	"pfunc_expr_unrecognised_word": "שגיאה בביטוי: מילה בלתי מזוהה, \"$1\"",
+	"pfunc_expr_unexpected_operator": "שגיאה בביטוי: אופרטור $1 בלתי־צפוי.",
+	"pfunc_expr_missing_operand": "שגיאה בביטוי: חסר אופרנד ל־$1.",
+	"pfunc_expr_unexpected_closing_bracket": "שגיאה בביטוי: סוגריים סוגרים בלתי צפויים",
+	"pfunc_expr_unrecognised_punctuation": "שגיאה בביטוי: תו פיסוק בלתי מזוהה, \"$1\".",
+	"pfunc_expr_unclosed_bracket": "שגיאה בביטוי: סוגריים בלתי סגורים",
+	"pfunc_expr_division_by_zero": "חלוקה באפס.",
+	"pfunc_expr_invalid_argument": "ארגומנט בלתי־תקין לפונקציה $1: קטן מ־‎-1 או גדול מ־1.",
+	"pfunc_expr_invalid_argument_ln": "ארגומנט בלתי־תקין לפונקציה ln: קטן מ־0 או שווה ל־0.",
+	"pfunc_expr_unknown_error": "שגיאה בביטוי: שגיאה בלתי־ידועה ($1)",
+	"pfunc_expr_not_a_number": "התוצאה של $1 אינה מספר",
+	"pfunc_string_too_long": "שגיאה: המחרוזת עוברת את מגבלת מספר ההתווים המותר, $1"
+}

@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Felba"
+		]
+	},
+	"apihelp-query+mathwbextracts-example-1": "Efterfrågar en summering över matematiska Wikibase-element.",
+	"apihelp-query+mathwbextracts-summary": "Returnerar en summering över ett matematisk Wikibase-element i HTML.",
+	"apihelp-query+mathwbextracts-param-qid": "QID-en för Wikibase-elementet som ska efterfrågas.",
+	"apihelp-query+mathwbextracts-param-uselang": "Språket som ska efterfrågas för Wikibase-elementet. Standardvärdet är engelska."
+}

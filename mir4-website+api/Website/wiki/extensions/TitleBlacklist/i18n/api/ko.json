@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Hwangjy9",
+			"Ykhwong"
+		]
+	},
+	"apihelp-titleblacklist-summary": "TitleBlacklist에 대해 문서 제목, 파일 이름, 사용자 이름을 검사합니다.",
+	"apihelp-titleblacklist-param-title": "블랙리스트에 대해 검사할 문자열입니다.",
+	"apihelp-titleblacklist-param-action": "검사할 동작입니다.",
+	"apihelp-titleblacklist-param-nooverride": "titleblacklist의 무효화를 시도하지 않습니다.",
+	"apihelp-titleblacklist-example-1": "[[Foo]] 문서가 블랙리스트에 올라가 있는지 검사하기",
+	"apihelp-titleblacklist-example-2": "편집 시 [[Bar]] 문서가 블랙리스트에 올라가 있는지 검사하기"
+}

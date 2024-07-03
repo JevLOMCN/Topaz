@@ -1,0 +1,18 @@
+{
+	"@metadata": {
+		"authors": [
+			"Joetaras"
+		]
+	},
+	"apihelp-query+linterrors-summary": "Pigghie l'elenghe de le errore de Lint",
+	"apihelp-query+linterrors-param-categories": "Categorije de errore de Lint",
+	"apihelp-query+linterrors-param-invisible-categories": "Categorije invisibbele de le errore lint",
+	"apihelp-query+linterrors-param-limit": "Numere de le resultate da cercà",
+	"apihelp-query+linterrors-param-from": "ID de Lint da addò accumenzà 'a recerche",
+	"apihelp-query+linterrors-param-namespace": "'Nglude sulamende le errore de Lint da le namespace specificate",
+	"apihelp-query+linterrors-param-pageid": "'Nglude sulamende le errore de Lint da le ID de le pàggene specificate",
+	"apihelp-query+linterrors-param-title": "'Nglude sulamende le errore de lint fa 'nu titole de pàgene specificate",
+	"apihelp-query+linterrors-example-1": "Pigghie tutte le errore de Lint d'a categorije \"obsolete-tag\"",
+	"apihelp-query+linterstats-summary": "Pigghie 'u numere de errore de Liont jndr'à ogne categorije",
+	"apihelp-query+linterstats-example-1": "Pigghie 'u numere de errore de Liont jndr'à ogne categorije"
+}

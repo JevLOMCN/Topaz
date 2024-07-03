@@ -1,0 +1,19 @@
+{
+	"@metadata": {
+		"authors": [
+			"Amire80",
+			"Guycn2",
+			"Matanya"
+		]
+	},
+	"apihelp-query+oath-summary": "בדיקה האם אימות דו־שלבי (OATH) מופעל עבור משתמש.",
+	"apihelp-query+oath-param-user": "על איזה משתמש לקבל מידע. ברירת המחדל היא המשתמש הנוכחי.",
+	"apihelp-query+oath-param-reason": "סיבה לשאילתה על מצב OATH.",
+	"apihelp-query+oath-example-1": "קבלת מידע על המשתמש הנוכחי",
+	"apihelp-query+oath-example-2": "קבלת מידע על משתמש <kbd>Example</kbd>",
+	"apihelp-oathvalidate-summary": "בדיקת תקינות של אסימון אימות דו־שלבי (OATH).",
+	"apihelp-oathvalidate-param-user": "לאיזה משתמש לבדוק את תקינות האסימון. ברירת המחדל היא המשתמש הנוכחי.",
+	"apihelp-oathvalidate-example-1": "בדיקת תקינות נתוני ה־JSON עבור המשתמש הנוכחי.",
+	"apihelp-oathvalidate-example-3": "לבדוק את התקינות של נתוני JSON של המשתמש <kbd>Example</kbd>",
+	"apihelp-oathvalidate-param-data": "מצופים נתונים מקודדים ב־JSON על־ידי המודול שכרגע מופעל למשתמש המאומת כעת"
+}

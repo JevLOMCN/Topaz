@@ -1,0 +1,21 @@
+{
+	"@metadata": {
+		"authors": [
+			"Banjo",
+			"Elisardojm",
+			"Toliño"
+		]
+	},
+	"apihelp-query+pageimages-summary": "Devolve información sobre as imaxes da páxina, coma miniaturas e presenza de fotos.",
+	"apihelp-query+pageimages-example-1": "Obter o nome e unha miniatura de <kbd>100</kbd> píxeles dunha imaxe na páxina de <kbd>Albert Einstein</kbd>.",
+	"apihelp-query+pageimages-param-prop": "Que información devolver:",
+	"apihelp-query+pageimages-paramvalue-prop-thumbnail": "URL e dimensións da miniatura da imaxe asociada coa páxina, se hai.",
+	"apihelp-query+pageimages-paramvalue-prop-original": "URL e dimensións orixinais da imaxe asociada coa páxina, se hai.",
+	"apihelp-query+pageimages-paramvalue-prop-name": "Título da imaxe.",
+	"apihelp-query+pageimages-param-thumbsize": "Dimensión máxima en píxeles das miniaturas das imaxes.",
+	"apihelp-query+pageimages-param-langcode": "Código de lingua no que se renderizará a imaxe se se admiten varios idiomas",
+	"apihelp-query+pageimages-param-limit": "Propiedades de cantas páxinas devolver.",
+	"apihelp-query+pageimages-param-license": "Limitar as imaxes da páxina ás que teñan un certo tipo de licenza:",
+	"apihelp-query+pageimages-paramvalue-license-free": "Só imaxes libres.",
+	"apihelp-query+pageimages-paramvalue-license-any": "Mellor imaxe, sexa libre ou non."
+}

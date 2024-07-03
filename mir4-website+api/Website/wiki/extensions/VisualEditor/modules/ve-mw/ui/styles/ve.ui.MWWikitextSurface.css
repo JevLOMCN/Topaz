@@ -1,0 +1,10 @@
+/*!
+ * VisualEditor MediaWiki Initialization WikitextSurface styles.
+ *
+ * @copyright See AUTHORS.txt
+ * @license The MIT License (MIT); see LICENSE.txt
+ */
+
+.ve-ui-mwWikitextSurface .ve-ce-paragraphNode {
+	line-height: 1.5em;
+}

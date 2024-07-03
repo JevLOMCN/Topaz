@@ -1,0 +1,21 @@
+{
+	"@metadata": {
+		"authors": [
+			"Fabulous",
+			"Hamilton Abreu",
+			"Malafaya",
+			"Vitorvicentevalente"
+		]
+	},
+	"pdf-desc": "Controlador do visionamento de ficheiros PDF em modo de imagem",
+	"pdf-file-page-warning": "O PDF é um formato complexo que pode expor algumas informações privadas em certos casos. Certifique-se de que configura o seu leitor de PDF de forma a ficar seguro.",
+	"pdf-file-page-warning-header": "Considerações de privacidade",
+	"pdf-file-page-warning-footer": "Este problema não é específico para este tipo de ficheiro, mas uma questão geral com o formato PDF.",
+	"pdf-file-page-warning-info": "Saiba mais sobre este problema.",
+	"pdf_no_metadata": "não foi possível obter os metadados do PDF",
+	"pdf_page_error": "Número de página fora do intervalo",
+	"exif-pdf-producer": "Programa de conversão",
+	"exif-pdf-version": "Versão do formato PDF",
+	"exif-pdf-encrypted": "Criptografado",
+	"exif-pdf-pagesize": "Tamanho da página"
+}

@@ -1,0 +1,29 @@
+{
+	"@metadata": {
+		"authors": [
+			"Dani",
+			"Tacsipacsi"
+		]
+	},
+	"pfunc_desc": "Az értelmező kiegészítése logikai funkciókkal",
+	"pfunc_time_error": "Hiba: Érvénytelen idő.",
+	"pfunc_time_too_long": "Hiba: a #time túl sokszor lett meghívva",
+	"pfunc_time_too_big": "Hiba: a #time csak 9999-ig támogatja az éveket",
+	"pfunc_time_too_small": "Hiba: A #time csak 0-tól támogatja az éveket.",
+	"pfunc_rel2abs_invalid_depth": "Hiba: nem megfelelő a mélység az elérési útban: „$1” (egy olyan csomópontot akartál elérni, amely a gyökércsomópont felett van)",
+	"pfunc_expr_stack_exhausted": "Hiba a kifejezésben: a verem kiürült",
+	"pfunc_expr_unexpected_number": "Hiba a kifejezésben: nem várt szám",
+	"pfunc_expr_preg_match_failure": "Hiba a kifejezésben: a preg_match váratlanul hibát jelzett",
+	"pfunc_expr_unrecognised_word": "Hiba a kifejezésben: ismeretlen „$1” szó.",
+	"pfunc_expr_unexpected_operator": "Hiba a kifejezésben: nem várt $1 operátor",
+	"pfunc_expr_missing_operand": "Hiba a kifejezésben: $1 egyik operandusa hiányzik",
+	"pfunc_expr_unexpected_closing_bracket": "Hiba a kifejezésben: nem várt zárójel",
+	"pfunc_expr_unrecognised_punctuation": "Hiba a kifejezésben: ismeretlen „$1” központozó karakter.",
+	"pfunc_expr_unclosed_bracket": "Hiba a kifejezésben: lezáratlan zárójel",
+	"pfunc_expr_division_by_zero": "Nullával való osztás",
+	"pfunc_expr_invalid_argument": "$1 érvénytelen paramétert kapott: < -1 vagy > 1",
+	"pfunc_expr_invalid_argument_ln": "Az ln érvénytelen paramétert kapott: <= 0",
+	"pfunc_expr_unknown_error": "Hiba a kifejezésben: ismeretlen hiba ($1)",
+	"pfunc_expr_not_a_number": "$1: az eredmény nem szám",
+	"pfunc_string_too_long": "Hiba: a sztring túllépte a(z) $1 karakteres határt"
+}

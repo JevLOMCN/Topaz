@@ -1,0 +1,34 @@
+{
+	"@metadata": {
+		"authors": [
+			"Aiman titi",
+			"Asaifm",
+			"FiberAhmed",
+			"Hhaboh162002",
+			"Meno25",
+			"أحمد",
+			"أَحمد"
+		]
+	},
+	"pfunc_desc": "محلل ممدد بدوال منطقية",
+	"pfunc_time_error": "خطأ: زمن غير صحيح.",
+	"pfunc_time_too_long": "خطأ: استدعاءات #time كثيرة جدًا",
+	"pfunc_time_too_big": "خطأ: #time يدعم فقط حتى 9999 سنة.",
+	"pfunc_time_too_small": "خطأ: #time تدعم الأعوام بدءًا من 0.",
+	"pfunc_rel2abs_invalid_depth": "خطأ: عمق غير صحيح في المسار: «$1» (حاول دخول عقدة فوق العقدة الجذرية).",
+	"pfunc_expr_stack_exhausted": "خطأ في التعبير: ستاك مجهد.",
+	"pfunc_expr_unexpected_number": "خطأ في التعبير: رقم غير متوقع.",
+	"pfunc_expr_preg_match_failure": "خطأ في التعبير: فشل preg_match غير متوقع.",
+	"pfunc_expr_unrecognised_word": "خطأ في التعبير: كلمة لم نتعرف عليها «$1».",
+	"pfunc_expr_unexpected_operator": "خطأ في التعبير: عامل $1 غير متوقع.",
+	"pfunc_expr_missing_operand": "خطأ في التعبير: معامل مفقود للعامل $1.",
+	"pfunc_expr_unexpected_closing_bracket": "خطأ في التعبير: قوس إغلاق غير متوقع.",
+	"pfunc_expr_unrecognised_punctuation": "خطأ في التعبير: علامة ترقيم لم نتعرف عليها «$1».",
+	"pfunc_expr_unclosed_bracket": "خطأ في التعبير: قوس غير مغلق.",
+	"pfunc_expr_division_by_zero": "القسمة على صفر.",
+	"pfunc_expr_invalid_argument": "مُدخلة غير صحيحة لـ$1: < -1 أو > 1",
+	"pfunc_expr_invalid_argument_ln": "مدخلة غير صحيحة لـ ln: <= 0",
+	"pfunc_expr_unknown_error": "خطأ في التعبير: خطأ غير معروف ($1).",
+	"pfunc_expr_not_a_number": "في $1: النتيجة ليست رقمًا.",
+	"pfunc_string_too_long": "خطأ: السلسلة تتجاوز الحد $1 حرف."
+}

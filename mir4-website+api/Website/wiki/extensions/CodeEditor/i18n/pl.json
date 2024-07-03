@@ -1,0 +1,27 @@
+{
+	"@metadata": {
+		"authors": [
+			"BeginaFelicysym",
+			"Chrumps",
+			"Rail",
+			"Railfail536",
+			"Sp5uhe",
+			"WTM",
+			"Woytecr"
+		]
+	},
+	"codeeditor-desc": "Edytowanie stron z kolorowaniem składni JavaScript oraz CSS z użyciem [https://ace.c9.io/ edytora Ace]",
+	"codeeditor-next-annotation": "Do następnej",
+	"codeeditor-toolbar-toggle": "Przełącz edytor kodu",
+	"codeeditor-save-with-errors": "Dokument zawiera błędy. Czy na pewno chcesz go opublikować?",
+	"codeeditor-invisibleChars-toggle": "Przełączanie wyświetlania niewidocznych znaków",
+	"codeeditor-lineWrapping-toggle": "Przełączanie zawijania wierszy",
+	"codeeditor-searchReplace-toggle": "Okienko dialogowe wyszukiwania i zamiany tekstu",
+	"codeeditor-gotoline": "Przejdź do linii numer…",
+	"codeeditor-gotoline-placeholder": "linia[:kolumna]",
+	"codeeditor-gotoline-prompt": "Wprowadź numer wiersza",
+	"codeeditor-indent": "Zwiększ wcięcie",
+	"codeeditor-outdent": "Zmniejsz wcięcie",
+	"codeeditor-error-title": "Zależność nie powiodła się",
+	"codeeditor-error-message": "CodeEditor wymaga do działania rozszerzenia WikiEditor"
+}

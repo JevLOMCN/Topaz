@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"Strainu"
+		]
+	},
+	"apihelp-query+gadgetcategories-summary": "Întoarce o listă de categorii pentru gadgeturi.",
+	"apihelp-query+gadgetcategories-param-names": "Numele categoriilor de obținut.",
+	"apihelp-query+gadgetcategories-example-1": "Obține o listă a categoriilor de gadgeturi existente",
+	"apihelp-query+gadgets-summary": "Întoarce o listă a tuturor gadgeturilor folosite pe acest wiki.",
+	"apihelp-query+gadgets-param-allowedonly": "Prezintă doar gadgeturile accesibile utilizatorului curent.",
+	"apihelp-query+gadgets-param-enabledonly": "Prezintă doar gadgeturile activate de utilizatorul curent.",
+	"apihelp-query+gadgets-example-1": "Obține o listă de gadgeturi cu descrierile lor",
+	"apihelp-query+gadgets-example-2": "Obține o listă de gadgeturi cu toate propietățile posibile"
+}

@@ -1,0 +1,31 @@
+{
+	"@metadata": {
+		"authors": [
+			"Lokal Profil",
+			"Sabelöga",
+			"WikiPhoenix"
+		]
+	},
+	"apihelp-query+gadgetcategories-summary": "Returnerar en lista för finesskategorier.",
+	"apihelp-query+gadgetcategories-param-prop": "Vilken information om finesskategorier som ska hämtas:",
+	"apihelp-query+gadgetcategories-paramvalue-prop-name": "Internt kategorinamn.",
+	"apihelp-query+gadgetcategories-paramvalue-prop-title": "Kategorititel.",
+	"apihelp-query+gadgetcategories-paramvalue-prop-members": "Antal finesser i kategorin.",
+	"apihelp-query+gadgetcategories-param-names": "Namn på kategorier som ska hämtas.",
+	"apihelp-query+gadgetcategories-example-1": "Få en lista över befintliga finesskategorier",
+	"apihelp-query+gadgetcategories-example-2": "Få all information om kategorier med namnen \"foo\" och \"bar\"",
+	"apihelp-query+gadgets-summary": "Returnerar en lista över finesser som används på denna wiki.",
+	"apihelp-query+gadgets-param-prop": "Vilken finessinformation som ska hämtas:",
+	"apihelp-query+gadgets-paramvalue-prop-id": "Internt finess-ID.",
+	"apihelp-query+gadgets-paramvalue-prop-metadata": "Finessens metadata.",
+	"apihelp-query+gadgets-paramvalue-prop-desc": "Finessens beskrivning omvandlad till HTML (kan vara långsam, använd bara om det verkligen behövs).",
+	"apihelp-query+gadgets-param-categories": "Finesser från vilka kategorier att hämta.",
+	"apihelp-query+gadgets-param-ids": "ID för finesser som ska hämtas.",
+	"apihelp-query+gadgets-param-allowedonly": "Lista bara finesser som är tillåtna för den aktuella användaren.",
+	"apihelp-query+gadgets-param-enabledonly": "Lista bara finesser aktiverade av den aktuella användaren.",
+	"apihelp-query+gadgets-example-1": "Få en lista över finesser tillsammans med deras beskrivningar",
+	"apihelp-query+gadgets-example-2": "Få en lista över finesser med alla möjliga egenskaper",
+	"apihelp-query+gadgets-example-3": "Få en lista över finesser som tillhör kategorin \"foo\"",
+	"apihelp-query+gadgets-example-4": "Få information om finesserna \"foo\" och \"bar\"",
+	"apihelp-query+gadgets-example-5": "Få en lista över finesser aktiverade av den aktuella användaren"
+}

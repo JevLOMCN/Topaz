@@ -1,0 +1,124 @@
+@import 'mediawiki.skin.variables.less';
+@import 'mediawiki.mixins.less';
+
+.mw-ui-container {
+	.mixin-clearfix();
+
+	/* Disable the underline that Vector puts on h2 headings, and bold them. */
+	h2 {
+		border: 0;
+		font-weight: bold;
+	}
+
+	/* Benefits column CSS to the right (if it fits) of the form. */
+	#userloginForm {
+		float: left;
+		/* Override the right margin of the form to give space in case a benefits
+		 * column appears to the side. */
+		margin-right: 100px;
+		/* Override `.mw-body-content` to ensure useful, readable paragraphs */
+		line-height: 1.4;
+	}
+}
+
+.mw-createacct-benefits-container {
+	/* Keeps this column compact and close to the form, but tends to squish contents. */
+	float: left;
+
+	h2 {
+		margin-bottom: 30px;
+	}
+}
+
+/* stylelint-disable-next-line selector-class-pattern */
+.mw-number-text.icon-edits {
+	/* @embed */
+	background: url( images/icon-edits.png ) no-repeat left center;
+}
+
+/* stylelint-disable-next-line selector-class-pattern */
+.mw-number-text.icon-pages {
+	/* @embed */
+	background: url( images/icon-pages.png ) no-repeat left center;
+}
+
+/* stylelint-disable-next-line selector-class-pattern */
+.mw-number-text.icon-contributors {
+	/* @embed */
+	background: url( images/icon-contributors.png ) no-repeat left center;
+}
+
+/*
+ * Special font for numbers in benefits, same as Vector's `@content-heading-font-family`.
+ * Needs to be more specific than Vector's `.mw-body-content h3`.
+ */
+.mw-body-content .mw-number-text h3 {
+	color: @color-base;
+	margin: 0;
+	padding: 0;
+	font-family: 'Linux Libertine', 'Georgia', 'Times', serif;
+	font-weight: normal;
+	font-size: 2.2em;
+	line-height: 1.2;
+	text-align: center;
+}
+
+/* Contains a “headlined” number and explanatory text, with space for an icon */
+.mw-number-text {
+	display: block;
+	font-size: 1.2em;
+	color: @color-subtle;
+	margin-top: 1em;
+	/* 80px wide icon plus "margin" */
+	padding: 0 0 0 95px;
+	/* Matches max icon height, ensures icon emblem is visible */
+	min-height: 75px;
+	text-align: center;
+}
+
+.mw-heading-subheading-wrapper {
+	max-width: 480px;
+	text-align: center;
+
+	h2 {
+		text-align: center;
+	}
+
+	.mw-benefit-subheading {
+		line-height: 1.4em;
+		color: #000;
+	}
+}
+
+.mw-benefit-list-wrapper {
+	margin-top: 8px;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	gap: 16px;
+	padding-left: 21px;
+
+	.mw-benefit-item {
+		display: flex;
+		gap: 16px;
+
+		span,
+		p {
+			margin: 0;
+		}
+
+		span {
+			display: block;
+			min-width: 20px;
+			height: 20px;
+			padding: 0.5px 0 0.5px 0;
+			margin-top: 0.5px;
+		}
+
+		p {
+			line-height: 1.25;
+			letter-spacing: normal;
+			color: #54595d;
+		}
+	}
+}

@@ -1,0 +1,40 @@
+{
+	"@metadata": {
+		"authors": [
+			"Aefgh39622",
+			"Ekminarin",
+			"Horus",
+			"Manop",
+			"Octahedron80",
+			"Passawuth"
+		]
+	},
+	"categorytree": "หมวดหมู่แบบผังต้นไม้",
+	"categorytree-portlet": "หมวดหมู่",
+	"categorytree-legend": "แสดงผังหมวดหมู่",
+	"categorytree-desc": "สำรวจ[[Special:CategoryTree|โครงสร้างหมวดหมู่]]แบบผังต้นไม้",
+	"categorytree-header": "ป้อนชื่อหมวดหมู่เพื่อดูเนื้อหาเป็นโครงสร้างผังต้นไม้ (ต้องใช้จาวาสคริปต์)",
+	"categorytree-category": "หมวดหมู่",
+	"categorytree-go": "โหลด",
+	"categorytree-parents": "หมวดหมู่ใหญ่",
+	"categorytree-mode-label": "โหมด:",
+	"categorytree-mode-categories": "แสดงเฉพาะหมวดหมู่",
+	"categorytree-mode-pages": "หน้าต่าง ๆ ยกเว้นไฟล์",
+	"categorytree-mode-all": "หน้าทุกหน้า",
+	"categorytree-collapse": "ย่อ",
+	"categorytree-expand": "ขยาย",
+	"categorytree-member-counts": "มี {{PLURAL:$1|1 หมวดหมู่ย่อย|$1 หมวดหมู่ย่อย}}, {{PLURAL:$2|1 หน้า|$2 หน้า}}, และ {{PLURAL:$3|1 ไฟล์|$3 ไฟล์}}",
+	"categorytree-num-categories": "$1 ม",
+	"categorytree-num-pages": "$1 น",
+	"categorytree-num-files": "$1 ฟ",
+	"categorytree-num-empty": "ว่าง",
+	"categorytree-load": "โหลด",
+	"categorytree-loading": "กำลังโหลด...",
+	"categorytree-nothing-found": "ไม่พบที่ต้องการ",
+	"categorytree-no-subcategories": "ไม่มีหมวดหมู่ย่อย",
+	"categorytree-no-parent-categories": "ไม่มีหมวดหมู่ระดับบน",
+	"categorytree-no-pages": "ไม่มีหน้าหรือหมวดหมู่ย่อย",
+	"categorytree-not-found": "ไม่พบหมวดหมู่ <i>$1</i>",
+	"categorytree-error": "การโหลดข้อมูลมีปัญหา",
+	"categorytree-retry": "กรุณารอสักครู่ แล้วลองโหลดใหม่อีกครั้ง"
+}

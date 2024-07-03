@@ -1,0 +1,38 @@
+{
+	"@metadata": {
+		"authors": [
+			"C.R.",
+			"Ruthven"
+		]
+	},
+	"cite-desc": "Azzecca 'e tag <code>&lt;ref[ name=id]&gt;</code> e <code>&lt;references/&gt;</code> p' 'e citaziune",
+	"cite_error": "Errore dint'a funzione Cite: $1",
+	"cite_error_ref_numeric_key": "Tag <code>&lt;ref&gt;</code> invalido;\n'o nomme nun ò essere surtanto n'intero. Ausate nu titolo descrittivo",
+	"cite_error_ref_no_key": "Ll'eticheta p'arapì <code>&lt;ref&gt;</code> nun è bbona, fosse furmata malamente o puro téne nu nomme ca nun è buono",
+	"cite_error_ref_too_many_keys": "Tag <code>&lt;ref&gt;</code> invalido;\nnomme invalido, p'esembio troppo luongo",
+	"cite_error_ref_no_input": "Codece 'e tag <code>&lt;ref&gt;</code> invalido;\n'e riferimente c' 'o nomme abbacante hann'a tenè nu cuntenuto",
+	"cite_error_references_duplicate_key": "Tag <code>&lt;ref&gt;</code> nun valido; 'o nomme \"$1\" è stato definito cchiù vote cu cuntenute divierze",
+	"cite_error_references_invalid_parameters": "Tag <code>&lt;references&gt;</code> invalide;\nnun se pò mettere nisciuno parametro.\nAusate <code>&lt;references /&gt;</code>",
+	"cite_error_references_no_backlink_label": "L'etichette personalizzate p' 'e cullegamiente 'e rezza se so' fernute\nPe' piacere, definite nu poco 'e cchiu dint' 'a mmasciata [[MediaWiki:Cite references link many format backlink labels]]",
+	"cite_error_no_link_label_group": "Ll'etichette personalizzate d' 'e cullegamiente p' 'o gruppo \"$1\" se so' fernute. Pruvate a ne definì 'e cchiù int' 'a mmasciata 'e [[MediaWiki:$2]].",
+	"cite_error_references_no_text": "Tag <code>&lt;ref&gt;</code> invalido;\nnisciuno testo era previsto p' 'e riferimiente nummenate <code>$1</code>",
+	"cite_error_included_ref": "A nchiusa <code>&lt;/ref&gt;</code> nun se trova p' 'o tag <code>&lt;ref&gt;</code>",
+	"cite_error_group_refs_without_references": "'O tag <code>&lt;ref&gt;</code> esiste p' 'o gruppo annummenato \"$1\", ma nun currisponne a 'o tag accucchiato <code>&lt;references group=\"$1\"/&gt;</code>, o a nu tag 'e nchiusa <code>&lt;/ref&gt;</code> manco",
+	"cite_error_references_group_mismatch": "'O tag <code>&lt;ref&gt;</code> tag int' 'e <code>&lt;references&gt;</code> tène cunflitte cu l'attribbute d' 'o gruppo \"$1\".",
+	"cite_error_references_missing_key": "'O tag <code>&lt;ref&gt;</code> c' 'o nomme \"$1\" definito int'a <code>&lt;references&gt;</code> nun è ausato dint' 'o testo 'e primma.",
+	"cite_error_references_no_key": "'O tag <code>&lt;ref&gt;</code> definito int'a <code>&lt;references&gt;</code> nun tene n'attribbuto 'e nomme.",
+	"cite_error_empty_references_define": "'O tag <code>&lt;ref&gt;</code> definito int'a <code>&lt;references&gt;</code> c' 'o nomme \"$1\" nun tene cuntenute.",
+	"cite-tracking-category-cite-error": "Paggene ch'errure 'e riferimiento",
+	"cite-tracking-category-cite-error-desc": "Paggene dint'a sta categuria teneno errure int'a l'uso 'e ll'etichette 'e riferimento.",
+	"cite_references_link_accessibility_label": "Zompa ncopp'a",
+	"cite_references_link_many_accessibility_label": "Zompa ncoppa nfin'a:",
+	"cite_section_preview_references": "Anteprimma 'e riferimente.",
+	"cite_warning": "Attenzione dint' 'e note: $1",
+	"cite_warning_sectionpreview_no_text": "'O tag <code>&lt;ref&gt;</code> c' 'o nomme <code>$1</code> nun se pò mmustrà n'anteprimma, pecché è definito a fore d' 'a seziona 'e mo o nun definito 'a nisciuna manera.",
+	"cite-wikieditor-tool-reference": "Riferimiento",
+	"cite-wikieditor-help-page-references": "Riferimienti",
+	"cite-wikieditor-help-content-reference-description": "Riferimiento",
+	"cite-wikieditor-help-content-named-reference-description": "Referimento nnommenate",
+	"cite-wikieditor-help-content-rereference-description": "Ause addizionale d' 'u stesso riferimento",
+	"cite-wikieditor-help-content-showreferences-description": "Fà vedè 'e riferemente"
+}

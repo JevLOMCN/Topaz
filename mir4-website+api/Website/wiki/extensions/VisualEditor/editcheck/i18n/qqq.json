@@ -1,0 +1,29 @@
+{
+	"@metadata": {
+		"authors": [
+			"David Lynch",
+			"Ed Sanders"
+		]
+	},
+	"editcheck-config.json": "{{notranslate}}\n{{ignored}}\nJSON object configuring some edit check behavior.",
+	"editcheck-dialog-action-no": "Label for the no option when asking users if they want to add a citation.",
+	"editcheck-dialog-action-yes": "Label for the no option when asking users if they want to add a citation.",
+	"editcheck-dialog-addref-description": "Help text explaining why it is helpful to add a citation.",
+	"editcheck-dialog-addref-reject-question": "Heading for form question asking why the user didn't add a citation.",
+	"editcheck-dialog-addref-reject-description": "Help text for form question asking why the user didn't add a citation.",
+	"editcheck-dialog-addref-reject-irrelevant": "Answer option in repsonse to {{msg-mw|editcheck-dialog-addref-reject-question}}",
+	"editcheck-dialog-addref-reject-common-knowledge": "Answer option in repsonse to {{msg-mw|editcheck-dialog-addref-reject-question}}",
+	"editcheck-dialog-addref-reject-uncertain": "Answer option in repsonse to {{msg-mw|editcheck-dialog-addref-reject-question}}",
+	"editcheck-dialog-addref-reject-other": "Answer option in repsonse to {{msg-mw|editcheck-dialog-addref-reject-question}}",
+	"editcheck-dialog-addref-success-notify": "Notification messages shown after a citation is added successfully.",
+	"editcheck-dialog-addref-title": "Title for the edit check context asking user to add a citation.",
+	"editcheck-dialog-title": "Title shown in the toolbar while the user is in the add a citation workflow.",
+	"tag-editcheck-reference-decline-common-knowledge": "Short description of the editcheck-reference-decline-common-knowledge tag.\n\nTag added when a user declines to add a suggested reference and selects the \"common knowledge\" reason.\n\nSee also:\n* {{msg-mw|editcheck-dialog-addref-reject-common-knowledge}}",
+	"tag-editcheck-reference-decline-common-knowledge-description": "Long description of the editcheck-reference-decline-common-knowledge tag.\n\nTag added when a user declines to add a suggested reference and selects the \"common knowledge\" reason.\n\nSee also:\n* {{msg-mw|editcheck-dialog-addref-reject-common-knowledge}}",
+	"tag-editcheck-reference-decline-irrelevant": "Short description of the editcheck-reference-decline-irrelevant tag.\n\nTag added when a user declines to add a suggested reference and selects the \"irrelevant\" reason.\n\nSee also:\n* {{msg-mw|editcheck-dialog-addref-reject-irrelevant}}",
+	"tag-editcheck-reference-decline-irrelevant-description": "Long description of the editcheck-reference-decline-irrelevant tag.\n\nTag added when a user declines to add a suggested reference and selects the \"irrelevant\" reason.\n\nSee also:\n* {{msg-mw|editcheck-dialog-addref-reject-irrelevant}}",
+	"tag-editcheck-reference-decline-other": "Short description of the editcheck-reference-decline-other tag.\n\nTag added when a user declines to add a suggested reference and selects the \"other\" reason.\n\nSee also:\n* {{msg-mw|editcheck-dialog-addref-reject-other}}",
+	"tag-editcheck-reference-decline-other-description": "Long description of the editcheck-reference-decline-other tag.\n\nTag added when a user declines to add a suggested reference and selects the \"other\" reason.\n\nSee also:\n* {{msg-mw|editcheck-dialog-addref-reject-other}}",
+	"tag-editcheck-reference-decline-uncertain": "Short description of the editcheck-reference-decline-uncertain tag.\n\nTag added when a user declines to add a suggested reference and selects the \"uncertain\" reason.\n\nSee also:\n* {{msg-mw|editcheck-dialog-addref-reject-uncertain}}",
+	"tag-editcheck-reference-decline-uncertain-description": "Long description of the editcheck-reference-decline-uncertain tag.\n\nTag added when a user declines to add a suggested reference and selects the \"uncertain\" reason.\n\nSee also:\n* {{msg-mw|editcheck-dialog-addref-reject-uncertain}}"
+}

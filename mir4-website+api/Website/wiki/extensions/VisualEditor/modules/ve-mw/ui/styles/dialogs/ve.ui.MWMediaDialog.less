@@ -1,0 +1,84 @@
+/*!
+ * VisualEditor MediaWiki UserInterface MWMediaDialog styles.
+ *
+ * @copyright See AUTHORS.txt
+ * @license The MIT License (MIT); see LICENSE.txt
+ */
+
+.ve-ui-mwMediaDialog {
+	&-panel-imageinfo {
+		padding-top: 2em;
+		padding-left: 2em;
+		padding-right: 2em;
+
+		&-thumb {
+			text-align: center;
+		}
+
+		&-loadingthumb img {
+			opacity: 0.8;
+		}
+
+		&-info {
+			padding: 1em 2em;
+
+			@media ( max-width: 400px ) {
+				padding: 1em 0;
+			}
+		}
+
+		&-main {
+			margin-bottom: 1em;
+		}
+
+		&-portrait {
+			&-thumb img {
+				margin-bottom: 1em;
+				max-height: none;
+			}
+
+			&-thumb,
+			&-info {
+				float: left;
+			}
+
+			&-info {
+				padding-left: 2em;
+				box-sizing: border-box;
+			}
+		}
+
+		&-title {
+			font-size: 1.5em;
+			line-height: 1.5em;
+			margin-top: -0.2em;
+			margin-bottom: 0.5em;
+		}
+
+		&-details {
+			color: #54595d;
+		}
+
+		&-separator {
+			margin: 0 0.5em;
+			display: inline-block;
+		}
+	}
+
+	&-altText {
+		width: auto;
+	}
+
+	/* HACK: Override ooui specific 2em top margin */
+	&-caption-fieldset.oo-ui-labelElement.oo-ui-fieldsetLayout {
+		margin-top: 0;
+	}
+
+	&-description-link {
+		font-size: 75%;
+	}
+
+	.mw-widget-mediaSearchWidget .oo-ui-searchWidget-results {
+		padding-right: 0;
+	}
+}

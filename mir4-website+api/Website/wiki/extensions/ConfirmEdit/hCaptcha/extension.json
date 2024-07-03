@@ -1,0 +1,66 @@
+{
+	"name": "hCaptcha",
+	"author": [
+		"Sam Reed",
+		"..."
+	],
+	"url": "https://www.mediawiki.org/wiki/Extension:ConfirmEdit",
+	"descriptionmsg": "hcaptcha-desc",
+	"license-name": "GPL-2.0-or-later",
+	"type": "antispam",
+	"MessagesDirs": {
+		"hCaptcha": [
+			"i18n"
+		]
+	},
+	"AutoloadNamespaces": {
+		"MediaWiki\\Extension\\ConfirmEdit\\hCaptcha\\": "includes/"
+	},
+	"config": {
+		"CaptchaClass": {
+			"value": "MediaWiki\\Extension\\ConfirmEdit\\hCaptcha\\HCaptcha"
+		},
+		"HCaptchaProxy": {
+			"description": "Proxy to use for outbound PHP web requests to hCaptcha servers",
+			"value": false
+		},
+		"HCaptchaSiteKey": {
+			"description": "Sitekey from hCaptcha (requires creating an account)",
+			"value": ""
+		},
+		"HCaptchaSecretKey": {
+			"description": "Secret key from hCaptcha (requires creating an account)",
+			"value": ""
+		},
+		"HCaptchaSendRemoteIP": {
+			"description": "Whether to send the client's IP address to hCaptcha",
+			"value": false
+		}
+	},
+	"ConfigRegistry": {
+		"hcaptcha": "GlobalVarConfig::newInstance"
+	},
+	"ResourceFileModulePaths": {
+		"localBasePath": "resources",
+		"remoteExtPath": "ConfirmEdit/hCaptcha/resources"
+	},
+	"ResourceModules": {
+		"ext.confirmEdit.hCaptcha.visualEditor": {
+			"packageFiles": [
+				"ve-confirmedit-hCaptcha/ve.init.mw.HCaptchaSaveErrorHandler.js",
+				{
+					"name": "ve-confirmedit-hCaptcha/config.json",
+					"callback": "MediaWiki\\Extension\\ConfirmEdit\\hCaptcha\\Hooks\\ResourceLoaderHooks::getHCaptchaResourceLoaderConfig"
+				}
+			]
+		}
+	},
+	"attributes": {
+		"VisualEditor": {
+			"PluginModules": [
+				"ext.confirmEdit.hCaptcha.visualEditor"
+			]
+		}
+	},
+	"manifest_version": 2
+}

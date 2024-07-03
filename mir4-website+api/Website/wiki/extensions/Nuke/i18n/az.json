@@ -1,0 +1,36 @@
+{
+	"@metadata": {
+		"authors": [
+			"Cekli829",
+			"NMW03",
+			"Serkanland",
+			"Wertuose"
+		]
+	},
+	"nuke": "Kütləvi silmə",
+	"action-nuke": "səhifələri kütləvi şəkildə silmək",
+	"nuke-desc": "İnzibatçılara [[Special:Nuke|səhifələri kütləvi şəkildə silmək]] hüququ verir.",
+	"nuke-nopages": "Son dəyişikliklərdə [[Special:Contributions/$1|{{GENDER:$1|$1}}]] tərəfindən yaradılmış yeni səhifə yoxdur.",
+	"nuke-list": "Aşağıdakı səhifələr [[Special:Contributions/$1|{{GENDER:$1|$1}}]] tərəfindən az öncə yaradılıb;\nsəbəbi yaz və silmək üçün düyməyə bas.",
+	"nuke-list-multiple": "Aşağıdakı səhifələr az öncə yaradılıb; \nsəbəbi yaz və silmək üçün düyməyə bas.",
+	"nuke-defaultreason": "[[Special:Contributions/$1|{{GENDER:$1|$1}}]] tərəfindən yaradılan səhifələrin kütləvi şəkildə silinməsi",
+	"nuke-multiplepeople": "Yenicə yaradılmış səhifələrin kütləvi şəkildə silinməsi",
+	"nuke-tools": "Bu alət, göstərilən istifadəçi və ya IP ünvanı tərəfindən yenicə yaradılmış səhifələrin kütləvi şəkildə silinməsinə imkan verir.\nSilmək üçün səhifələrin siyahısını almaq üçün istifadəçi adını və ya IP ünvanını daxil edin və ya bütün istifadəçilər üçün boş buraxın.",
+	"nuke-submit-user": "Səhifələrin siyahısını göstər",
+	"nuke-submit-delete": "Seçilənləri sil",
+	"right-nuke": "Səhifələri kütləvi şəkildə sil",
+	"nuke-userorip": "İstifadəçi adı, IP ünvanı və ya boş:",
+	"nuke-maxpages": "Səhifələrin maksimum sayı:",
+	"nuke-editby": "[[Special:Contributions/$1|{{GENDER:$1|$1}}]] tərəfindən yaradılıb",
+	"nuke-deleted": "\"$1\" səhifəsi silindi.",
+	"nuke-deletion-queued": "'''$1''' səhifəsi silinmək üçün növbəyə alınıb.",
+	"nuke-not-deleted": "[[:$1]] səhifəsini silmək '''mümkün olmadı.'''",
+	"nuke-delete-more": "[[Special:Nuke|Daha çox səhifə sil]]",
+	"nuke-pattern": "Səhifə adı üçün SQL LIKE kodu (məs: %)",
+	"nuke-nopages-global": "Axtarışınıza uyğun səhifə adı yoxdur.",
+	"nuke-viewchanges": "dəyişiklikləri göstər",
+	"nuke-namespace": "Ad fəzaları:",
+	"nuke-linkoncontribs": "kütləvi silmə",
+	"nuke-linkoncontribs-text": "{{GENDER:$1|Bu istifadəçinin}} yeganə müəllif olduğu səhifələri kütləvi şəkildə sil",
+	"nuke-confirm": "{{PLURAL:$1|1 səhifə|$1 səhifə}} silmək üzrəsiz. Silmək istədiyinizdən əminsiniz?"
+}

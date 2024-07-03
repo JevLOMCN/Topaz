@@ -1,0 +1,34 @@
+{
+	"@metadata": {
+		"authors": [
+			"1917 Ekim Devrimi",
+			"Aspar",
+			"Erdemaslancan",
+			"Gorizon",
+			"Gırd",
+			"Mirzali",
+			"Orbot707"
+		]
+	},
+	"pfunc_desc": "Peserkerden fonksiyanane mantıxin weş kere",
+	"pfunc_time_error": "xeta: zemano nemeqbul",
+	"pfunc_time_too_long": "xeta:zaf zêd mesajê #timeyi",
+	"pfunc_time_too_big": "Xırabin: #time honke qebuliya cı hetana 9999.",
+	"pfunc_time_too_small": "Xırab: #time ancağ 0 serra beno qebul.",
+	"pfunc_rel2abs_invalid_depth": "Hata: Yolda geçersiz derinlik: \"$1\" (kök düğümünün üstünde bir düğüme erişmeye çalıştı)",
+	"pfunc_expr_stack_exhausted": "Xetaya ifadeyi: Stack qediya",
+	"pfunc_expr_unexpected_number": "Xetaya ifadeyi: Amaro bêtexmin.",
+	"pfunc_expr_preg_match_failure": "Xetay ifadeyi: Arızaya preg_matchiya bêtexmine.",
+	"pfunc_expr_unrecognised_word": "Xetaya ifadeyi: Çekuya \"$1\" ke nêşınasiyena.",
+	"pfunc_expr_unexpected_operator": "Xetay ifadey: Operatorê $1'iyo nêpawıyaye.",
+	"pfunc_expr_missing_operand": "Xetaya ifadeyi: Qandê $1 rê terimo kemi.",
+	"pfunc_expr_unexpected_closing_bracket": "Xetaya ifadeyi: Parantezo gırewteyo bêtexmin.",
+	"pfunc_expr_unrecognised_punctuation": "Xetaya ifadeyi: Karakterê noxtakerdışê \"$1\"iyo ke nêşınasiyeno.",
+	"pfunc_expr_unclosed_bracket": "Xetaya ifadeyi: Parantezo nêgırewte.",
+	"pfunc_expr_division_by_zero": "Teqsim be sıfır.",
+	"pfunc_expr_invalid_argument": "Seba $1 rê vurriyayışo nêvêrde: < -1 ya da > 1.",
+	"pfunc_expr_invalid_argument_ln": "Seba ln rê vurriyayışo nêvêrde: < = 0.",
+	"pfunc_expr_unknown_error": "Xetaya ifadeyi: Xetaya ke nêzaniyenoa ($1).",
+	"pfunc_expr_not_a_number": "$1 de: Netice yew amar niyo.",
+	"pfunc_string_too_long": "xeta: rêze heddê karakteri yo $1i veciyaya"
+}

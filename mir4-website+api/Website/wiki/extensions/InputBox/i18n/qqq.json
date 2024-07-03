@@ -1,0 +1,25 @@
+{
+	"@metadata": {
+		"authors": [
+			"Amire80",
+			"Lloffiwr",
+			"Meno25",
+			"Raymond",
+			"SPQRobin",
+			"Shirayuki",
+			"Siebrand",
+			"The Evil IP address",
+			"Umherirrender"
+		]
+	},
+	"inputbox-desc": "{{desc|name=Input Box|url=https://www.mediawiki.org/wiki/Extension:InputBox}}",
+	"inputbox-error-no-type": "Used as error message.\n\nSee also:\n* {{msg-mw|Inputbox-error-bad-type}}",
+	"inputbox-error-bad-type": "{{doc-important|Don't translate \"create\", \"comment\", \"search\", \"search2\" and \"fulltext\"!}}\nUsed as error message. Parameters:\n* $1 - invalid type. Valid types are: \"create\", \"comment\", \"commenttitle\", \"search\", \"fulltext\", and \"search2\"\nSee also:\n* {{msg-mw|Inputbox-error-no-type}}",
+	"inputbox-tryexact": "Part of the \"Inputbox\" extension. This message is the text of the button to search the page you typed in the inputbox. If the page with the exact name exists, you will go directly to that page.",
+	"inputbox-searchfulltext": "Part of the \"Inputbox\" extension. This message is the text of the button to search the page you typed in the inputbox. This button always goes to the search page, even if the page with the exact name exists.\n\nSee also:\n* {{msg-mw|Search}}\n* {{msg-mw|Accesskey-search-fulltext}}\n* {{msg-mw|Tooltip-search-fulltext}}",
+	"inputbox-createarticle": "Part of the \"Inputbox\" extension. This message is the text of the button to create the page you typed in the inputbox.\n{{Identical|Create page}}",
+	"inputbox-movearticle": "Part of the \"Inputbox\" extension. This message is the text of the button to move the page to the name you typed in the inputbox.\n{{Identical|Move page}}",
+	"inputbox-postcomment": "Part of the \"Inputbox\" extension. This message is the text of the button to add a new section to the bottom of the page you typed in the inputbox.",
+	"inputbox-postcommenttitle": "Part of the \"Inputbox\" extension. This message is the text of the button to add a new section of the name you typed in the inputbox to the page.",
+	"inputbox-ns-main": "Probably refers to the main namespace.\n{{Identical|Main}}"
+}

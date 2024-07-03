@@ -1,0 +1,33 @@
+{
+	"@metadata": {
+		"authors": [
+			"Daud I.F. Argana",
+			"Rachmat04",
+			"Sonic Speedy"
+		]
+	},
+	"apierror-discussiontools-commentid-notfound": "Komentar dengan ID '$1' tidak ditemukan.",
+	"apierror-discussiontools-commentname-ambiguous": "Beberapa komentar dengan nama '$1' ditemukan, diwajibkan menggunakan <var>commentid</var>.",
+	"apierror-discussiontools-commentname-notfound": "Komentar dengan nama '$1' tidak ditemukan.",
+	"apierror-discussiontools-formtoken-used": "Komentar sudah dikirim. Muat ulang halaman untuk melihatnya.",
+	"apierror-discussiontools-subscription-failed-add": "Tidak dapat berlangganan topik ini.",
+	"apierror-discussiontools-subscription-failed-remove": "Tidak dapat berhenti langganan dari topik ini.",
+	"apihelp-discussiontoolscompare-summary": "Mendapatkan informasi tentang perubahan komentar antara dua revisi halaman.",
+	"apihelp-discussiontoolsedit-param-commentid": "ID komentar yang akan dibalas. Gunakan hanya ketika <var>paction</var> adalah <var>addcomment</var>. Tolak <var>commentname</var>.",
+	"apihelp-discussiontoolsedit-param-commentname": "Nama komentar yang akan dibalas. Gunakan hanya ketika <var>paction</var> adalah <var>addcomment</var>.",
+	"apihelp-discussiontoolsedit-param-formtoken": "ID unik yang bersifat opsional dan dibuat di klien untuk mencegah pos ganda.",
+	"apihelp-discussiontoolsedit-param-html": "Konten untuk dikirim sebagai HTML. Tidak dapat digunakan bersama dengan <var>wikitext</var>.",
+	"apihelp-discussiontoolsedit-param-sectiontitle": "{{int:apihelp-edit-param-sectiontitle}} Gunakan hanya ketika <var>paction</var> adalah <var>addtopic</var>.",
+	"apihelp-discussiontoolsedit-param-wikitext": "Konten untuk dikirim, sebagai teks wiki. Tidak dapat digunakan bersama dengan <var>html</var>.",
+	"apihelp-discussiontoolsedit-paramvalue-paction-addcomment": "Tambahkan sebuah komentar baru sebagai jawaban terhadap komentar yang telah ada.",
+	"apihelp-discussiontoolsedit-paramvalue-paction-addtopic": "Tambahkan sebuah bagian diskusi baru dan komentar pertama di dalamnya.",
+	"apihelp-discussiontoolsedit-summary": "Kirim pesan di halaman diskusi.",
+	"apihelp-discussiontoolsgetsubscriptions-param-commentname": "Nama topik yang diperiksa",
+	"apihelp-discussiontoolsgetsubscriptions-summary": "Mendapatkan status langganan untuk topik yang diberikan.",
+	"apihelp-discussiontoolspageinfo-param-oldid": "Nomor revisi yang akan digunakan (baku untuk revisi terkini).",
+	"apihelp-discussiontoolspageinfo-summary": "Dapatkan metadata yang diperlukan untuk menginisialisasi perkakas diskusi.",
+	"apihelp-discussiontoolssubscribe-param-commentname": "Nama topik yang ingin mulai/berhenti berlangganan",
+	"apihelp-discussiontoolssubscribe-param-page": "Sebuah halaman di mana topik ini muncul",
+	"apihelp-discussiontoolssubscribe-param-subscribe": "Benar untuk berlangganan, salah untuk tidak berlangganan",
+	"apihelp-discussiontoolssubscribe-summary": "Berlangganan (atau batalkan langganan) untuk menerima notifikasi tentang sebuah topik."
+}

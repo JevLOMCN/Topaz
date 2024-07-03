@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Xuacu"
+		]
+	},
+	"apihelp-categorytree-summary": "Módulu internu pa la estensión CategoryTree.",
+	"apihelp-categorytree-param-category": "Títulu nel espaciu de nomes de categoríes, inoraráse'l prefixu si se da.",
+	"apihelp-categorytree-param-options": "Opciones pal constructor de CategoryTree como oxetu JSON. La opción <var>depth</var> (fondura) tien el valor predetermináu de <kbd>1</kbd>.",
+	"apierror-categorytree-invalidjson": "Les opciones tienen de ser un oxetu JSON válidu."
+}

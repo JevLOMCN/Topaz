@@ -1,0 +1,31 @@
+{
+	"@metadata": {
+		"authors": [
+			"Les Meloures",
+			"Robby",
+			"Soued031"
+		]
+	},
+	"captcha-edit": "Fir dës Säit z'änneren, léist wgl. déi Aufgab hei ënnendrënner a gitt d'Äntwert an d'Këscht an ([[Special:Captcha/help|méi Informatiounen]]):",
+	"captcha-edit-fail": "Falschen oder kee CAPTCHA.",
+	"captcha-desc": "Stellt Captcha-Techniken zur Verfügung fir géint Spam an Errode vu Passwierder ze schützen",
+	"captcha-info-help": "Beschreiwung vum CAPTCHA.",
+	"captcha-addurl": "An Ärer Ännerung sinn nei extern Linken.\nFir dës Wiki virun automatiséiertem Spam ze schütze froe mir Iech fir d'Aufgab hei drënner ze léisen an d'Resultat an d'Këscht anzedroen fir Är Ännerung ze späicheren ([[Special:Captcha/help|méi Informatiounen]]):",
+	"captcha-badlogin": "Fir dës Wiki géint automatescht Hacke vu Passwierder ze schützen, léist wgl. déi Aufgab hei ënnendrënner an tippt d'Äntwert an d'Këscht ([[Special:Captcha/help|méi Informatiounen]]):",
+	"captcha-createaccount": "Fir dës Wiki géint d'automatescht Uleeë vu Benotzerkonten ze schützen, léist wgl. déi Aufgab hei ënnendrënner, an tippt d'Äntwert an d'Këscht ([[Special:Captcha/help|méi Informatiounen]]):",
+	"captcha-createaccount-fail": "Falschen oder kee CAPTCHA.",
+	"captcha-create": "Fir eng Nei Säit unzeleeën, léist wgl. déi Aufgab hei ënnendrënner an tippt d'Äntwert an d'Këscht ([[Special:Captcha/help|méi Informatiounen]]):",
+	"captcha-sendemail": "Fir dës Wiki géint automatescht Spammen ze schützen, léist wgl. déi Aufgab hei ënnendrënner an tippt d'Äntwert an d'Këscht ([[Special:Captcha/help|méi Informatiounen]]):",
+	"captcha-sendemail-fail": "Falschen oder kee CAPTCHA.",
+	"captcha-disabledinapi": "Dës Aktioun brauch e Captcha, dofir ka se net mat enger API gemaach ginn.",
+	"captchahelp-title": "Captcha-Hëllef",
+	"captchahelp-cookies-needed": "Dir musst Cookien an Ärem Browser erlabe fir dat dëst funktionéiert.",
+	"captchahelp-text": "Websäiten, déi et jiddwerengem erlaben Ännerungen ze maachen, sou wéi op dëser Wiki, ginn dacks vu sougenannte Spammer mëssbraucht, déi automatiséiert hir Linken op vill Internetsäite setzen. Sou Spam-Linke kënne wuel geläscht ginn, mä se sinn trotzdeem eng grouss Plo.\n\nHeiansdo, besonnesch wann nei Internet-Linken op eng Säit derbäigesat ginn, weist dës Wiki Iech e Bild mat faarwegem oder verzerrtem Text a freet Iech fir déi gewise Wierder anzetippen. Well dat eng Aufgab ass déi schwéier z'automatiséieren ass, erlaabt se, datt Mënschen hir Ännerunge kënnen agi wärend déi meescht Spammer an aner Roboter-Attacke kënnen ofgewiert ginn.\n\nLeider kann dat zu Schwieregkeete féiere fir Persounen déi net sou gutt gesinn oder déi text-baséiert oder sprooch-baséiert Browser benotzen.\nZu dësem Zäitpunkt hu mir leider keng Audio-Alternativ zu eiser Verfügung.\nKontaktéiert wgl. [[Special:ListAdmins|een Administrateur]] fir Hëllef wann dat iech onerwaarter Weis vu legitimmen Ännerungen ofhält.\n\nDréckt op den 'Zréck' Knäppche vun Ärem Browser fir an d'Beaarbechtungsfënster zréckzekommen.",
+	"captcha-addurl-whitelist": "  #<!-- Dës Linn onverännert loossen --> <pre>\n#  Syntax:\n#  * Alles vun engem #-Zeechen u bis zum Enn vun där Zeil ass eng Bemierkung\n#  * All Zeil déi net eidel ass, ass ee Regex-Fragment, dat nëmme mat Hosten bannent URLe funktionéiert\n   #</pre> <!-- Dës Linn onverännert loossen -->",
+	"right-skipcaptcha": "Aktiounen déi eng Captcha-Aktioun verlaangen ausféieren, ouni dës maachen ze mussen",
+	"confirmedit-preview-line": "Zeilennummer",
+	"confirmedit-preview-content": "Inhalt",
+	"confirmedit-preview-validity": "Validitéit",
+	"confirmedit-preview-valid": "valabel",
+	"confirmedit-preview-invalid": "net valabel"
+}

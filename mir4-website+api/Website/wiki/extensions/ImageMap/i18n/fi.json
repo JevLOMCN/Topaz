@@ -1,0 +1,23 @@
+{
+	"@metadata": {
+		"authors": [
+			"Agony",
+			"MITO",
+			"Nike",
+			"Str4nd",
+			"Tarmo"
+		]
+	},
+	"imagemap_desc": "Mahdollistaa napsautettavien kuvakarttojen tekemisen <code>&lt;imagemap&gt;</code>-elementillä.",
+	"imagemap_no_image": "Error: kuva pitää määritellä ensimmäisellä rivillä.",
+	"imagemap_invalid_image": "Error: kuva ei kelpaa tai sitä ei ole olemassa",
+	"imagemap_bad_image": "Virhe: Kuvaa ei sallita tällä sivulla.",
+	"imagemap_no_link": "Virhe: rivin $1 lopusta ei löytynyt kelvollista linkkiä",
+	"imagemap_invalid_title": "Virhe: kelvoton otsikko linkissä rivillä $1",
+	"imagemap_missing_coord": "Virhe: rivin $1 muodolle ei ole määritelty riittävästi koordinaatteja",
+	"imagemap_unrecognised_shape": "Virhe: rivin $1 muotoa ei tunnistettu. Jokaisen rivin tulee alkaa jollakin seuraavista: <code>default</code>, <code>rect</code>, <code>circle</code> tai <code>poly</code>.",
+	"imagemap_invalid_coord": "Error: kelpaamaton koordinaatti rivillä $1. Koordinaatin täytyy olla numero.",
+	"imagemap_invalid_desc": "Virhe: virheellinen kohdemäärittely, kohdemäärittelyn tulee olla yksi seuraavista: <code>$1</code>",
+	"imagemap_description": "Kuvan tiedot",
+	"imagemap_poly_odd": "Virhe: löytyi polygoni, jossa pariton määrä koordinaatteja rivillä $1"
+}

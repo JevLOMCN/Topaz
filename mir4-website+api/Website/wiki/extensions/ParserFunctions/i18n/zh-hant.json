@@ -1,0 +1,36 @@
+{
+	"@metadata": {
+		"authors": [
+			"Cwlin0416",
+			"Gaoxuewei",
+			"Justincheng12345",
+			"Lakejason0",
+			"Liangent",
+			"Mark85296341",
+			"Shinjiman",
+			"Simon Shek",
+			"Waihorace"
+		]
+	},
+	"pfunc_desc": "加強解析器，提供邏輯函數功能",
+	"pfunc_time_error": "錯誤：無效時間。",
+	"pfunc_time_too_long": "錯誤：過多 #time 呼叫。",
+	"pfunc_time_too_big": "錯誤：#time 支援上限為 9999 年。",
+	"pfunc_time_too_small": "錯誤：#time 支援下限為 0 年。",
+	"pfunc_rel2abs_invalid_depth": "錯誤：無效路徑深度：\"$1\" (嘗試存取根節點以上的節點)",
+	"pfunc_expr_stack_exhausted": "表達式錯誤：堆疊用盡。",
+	"pfunc_expr_unexpected_number": "表達式錯誤：預期之外的數字。",
+	"pfunc_expr_preg_match_failure": "表達式錯誤：預期之外的 preg_match 失敗。",
+	"pfunc_expr_unrecognised_word": "表達式錯誤：無法識別的字 \"$1\"。",
+	"pfunc_expr_unexpected_operator": "表達式錯誤：預期之外的 $1 運算子。",
+	"pfunc_expr_missing_operand": "表達式錯誤：缺少 $1 的運算元。",
+	"pfunc_expr_unexpected_closing_bracket": "表達式錯誤：預期之外的反括號。",
+	"pfunc_expr_unrecognised_punctuation": "表達式錯誤：無法識別的標點符號 \"$1\"。",
+	"pfunc_expr_unclosed_bracket": "表達式錯誤：未結束的括號。",
+	"pfunc_expr_division_by_zero": "除數為零。",
+	"pfunc_expr_invalid_argument": "$1 的參數無效：< -1 或 > 1。",
+	"pfunc_expr_invalid_argument_ln": "ln 的參數無效：<= 0。",
+	"pfunc_expr_unknown_error": "表達式錯誤：未知錯誤 ($1)。",
+	"pfunc_expr_not_a_number": "於 $1 中：結果不為數字。",
+	"pfunc_string_too_long": "錯誤：字串超過 $1 字元限制。"
+}

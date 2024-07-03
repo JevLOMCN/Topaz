@@ -1,0 +1,42 @@
+{
+	"@metadata": {
+		"authors": [
+			"1917 Ekim Devrimi",
+			"Erdemaslancan",
+			"Gorizon",
+			"Gırd",
+			"Kumkumuk",
+			"Mirzali",
+			"Neribij",
+			"Olvörg",
+			"Orbot707",
+			"Xoser"
+		]
+	},
+	"gadgets-desc": "Karberan ré destur bidek [[Special:Preferences#mw-prefsection-gadgets|hesıbyayan]]'ra [[Special:Gadgets|Hacetanê CSS u JavaScriptî]] bışé weçiné",
+	"prefs-gadgets": "Hacetê werdi",
+	"gadgets-prefstext": "Cêr de yew lista hacetanê xasan esta ke tı şenay xesabê xo de akerê.\nEnê haceti JavaScript sero guriyenê, aye ra tı gani ageyrayoğê xo de JavaScript akerê.\nEna pela opsiyoni de haceti tesir nêkenê.\n\nEnê hacetê xasi parçê sofwarê Medyawiki niyê, aye ra karberê lokali enê haceti [[Special:Gadgets|şınasnenê]].\nİdarekarê meheli şenê be [[MediaWiki:Gadgets-definition|kıfşkerdış]] û [[Special:GadgetUsage|şınasnayış]] ra hacetanê mınasıban bıvurnê.",
+	"special-gadgets": "Hacetê werdi",
+	"gadgetusage": "İstatistikê karkerdışê hacetan",
+	"gadgetusage-gadget": "Hacet",
+	"gadgetusage-usercount": "Amarê karberan",
+	"gadgetusage-noresults": "Hacet nivineya.",
+	"gadgetusage-intro": "Bu tablo, bu küçük araçtaki her bir küçük aracı etkinleştiren kullanıcıların sayısını gösterir. Aktif bir kullanıcı, son {{PLURAL:$1|gün|$1 gün}} düzenleme yapan biri olarak sayılır. Bu liste, varsayılan olarak herkes için etkin olan küçük araçların istatistiklerini hariç tutar ve artık bulunmayan küçük araçları içerebilir.",
+	"gadgetusage-intro-noactive": "Bu tablo, bu küçük araçtaki her bir küçük aracı etkinleştiren kullanıcıların sayısını gösterir. Bu liste, varsayılan olarak herkes için etkin olan küçük aracın istatistiklerini hariç tutar ve artık bulunmayan küçük araçları içerebilir.",
+	"gadgetusage-activeusers": "Karberê aktivi",
+	"gadgetusage-default": "Hesabyaye",
+	"gadgets-title": "Hacetê werdi",
+	"gadgets-pagetext": "Cêr de yew listeya hacetanê xasan esta ke aıma senê [[Special:Preferences#mw-prefsection-gadgets|xesabê xo]] de akerê, seke [[MediaWiki:Gadgets-definition|selasnayış]] senê nışan bıkerê.\n\nNa degme weynayış, enê haceta dehana rehat cıresayışi rê imkan dana.",
+	"gadgets-uses": "Gureneno",
+	"gadgets-required-rights": "Cêrêni icab kenê {{PLURAL:$2|raşti|raşteya}}:\n\n$1",
+	"gadgets-required-skins": "Zerrey {{PLURAL:$2|$1 skin|skino ke pawêno: $1}} dı esto.",
+	"gadgets-default": "Merduman pêron rê aktiv ke.",
+	"gadgets-legacy": "Hacetê werdi bar nêbiyê. Kerem kerê berê ResourceLoader'i. ([https://www.mediawiki.org/wiki/Special:MyLanguage/ResourceLoader/Migration_guide_(users) zêde melumati bıgêrê])",
+	"gadgets-export": "Teberdayış",
+	"gadgets-export-title": "Teberdayışê gadgeti",
+	"gadgets-not-found": "Gadget \"$1\" nêvineya.",
+	"gadgets-export-text": "Qande gadgeto $1 teber rusnayış rê,\"{{int:gadgets-export-download}}\" rê hengnayış kerên,u dosya kı download biyo,star kerên.Wikiyê hedef de şo pela Special:Import rê and download kerên.Bahdo nuşteyê ke cerên de de yo pela MediaWiki:Gadgets-definition rê bınuse:<pre>$2</pre>\nWikiyê ke hedefo de desturê lazımo (vurnayışê mesacanê sistemi daxilo) u dosya ra zerê rê rusnayışi mısade lazımo.",
+	"gadgets-export-download": "Biya war",
+	"gadgets-validate-notset": "Xısusiyetê <code>$1</code> saz nêbiyo .",
+	"gadgets-validate-wrongtype": "Xısusiyetê <code>$1</code>, heruna <code>$3</code> dê wa zey <code>$2</code> bıbo ."
+}

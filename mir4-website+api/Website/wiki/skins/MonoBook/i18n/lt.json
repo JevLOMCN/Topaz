@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"Albertas",
+			"Garas",
+			"Zygimantus"
+		]
+	},
+	"skinname-monobook": "MonoBook",
+	"monobook-desc": "Klasikinė MediaWiki išvaizda nuo 2004 m., pavadinta pagal juodos-ir-baltos knygos nuotrauką puslapio fone.",
+	"monobook.css": "/* Čia įdėtas CSS bus rodomas Monobook išvaizdos naudotojams */",
+	"monobook.js": "/* Šis JavaScript bus įkeltas tik „MonoBook“ išvaizdos naudotojams. */",
+	"monobook-view-history": "Istorija",
+	"monobook-action-undelete": "Atkurti $1 {{PLURAL:$1|redagavimą|redagavimus|redagavimų}}"
+}

@@ -1,0 +1,41 @@
+{
+	"@metadata": {
+		"authors": [
+			"Azniv Stepanian",
+			"Rajemian"
+		]
+	},
+	"thanks-desc": "Կ'աւելցնէ «Շնորհակալ եմ» յղումը էջին պատմութեան խմբագրումներուն տարբերութիւններուն մէջ",
+	"thanks-thank": "{{GENDER:$1|{{GENDER:$2|շնորհակալութիւն}}}}",
+	"thanks-thanked": "{{GENDER:$1|{{GENDER:$2|շնորհակալութիւն}}}}",
+	"thanks-button-thank": "{{GENDER:$1|{{GENDER:$2|Շնորհակալութիւն}}}}",
+	"thanks-button-thanked": "{{GENDER:$1|{{GENDER:$2|Շնորհակալութիւն}}}}",
+	"thanks-button-action-queued": "{{GENDER:$1|{{GENDER:$2|Շնորհակալութիւն}}}}",
+	"thanks-button-action-cancel": "Ջնջել",
+	"thanks-button-action-completed": "{{GENDER:$1|{{GENDER:$2|շնորհակալութիւն}}}}",
+	"thanks-error-undefined": "Շնորհակալութիւն յայտնելու փորձը անյաջող էր։ Դարձեալ փորձէ՛։",
+	"thanks-error-notitle": "Էջին վերնագիրը չդարմացաւ",
+	"thanks-error-invalidrecipient-bot": "Մեքենքայիկներուն շնորհակալութիւն չենք կրնար յայտնել",
+	"thanks-error-invalidrecipient-self": "Դուն քեզի շնորհակալութիւն չես կրնար յայտնել",
+	"thanks-error-notloggedin": "Անանուն խմբագիրները չեն կրնար շնորհակալութիւն յայտնել",
+	"thanks-thank-tooltip": "{{GENDER:$1|Ուղարկել}} շնորհակալական գիր մը այս {{GENDER:$2|մասնակիցին}}",
+	"thanks-thank-tooltip-no": "{{GENDER:$1|Ջնջել}} շնորհակալական ծանուցումը",
+	"thanks-thank-tooltip-yes": "{{GENDER:$1|Յայտնել}} շնորհակալական ծանուցումը",
+	"thanks-confirmation2": "Կ'ուզէ՞ք հրապարակաւ շնորհակալութիւն {{GENDER:$1|յայտնել}}",
+	"thanks-thanked-notice": "{{GENDER:$3|Դուն}} շնորհակալութիւն յայտնեցիր {{GENDER:$2|$1}}ին։",
+	"thanks": "Շնորհակալութիւն յայտնել",
+	"thanks-submit": "Շնորհակալութիւն յայտնել",
+	"echo-pref-subscription-edit-thank": "Խմբագրումներուս համար զիս շնորհակալութիւն յայտնէ՛",
+	"echo-pref-tooltip-edit-thank": "Զիս տեղեկացո՛ւր, երբ որեւէ մէկը շնորհակալութիւն յայտնած է կատարած խմբագրումներուս համար:",
+	"echo-category-title-edit-thank": "Շնորհակալութիւն",
+	"notification-header-rev-thank": "$1 մասնակիցը {{GENDER:$4|ձեզ}} {{GENDER:$2|շնորհակալութիւն յայտնած}} է՝ $3 էջին մէջ ձեր կատարած խմբագրման համար։",
+	"notification-compact-header-edit-thank": "$1 մասնակիցը {{GENDER:$2|շնորհակալութիւն}} յայտնած է {{GENDER:$3|ձեզի}}։",
+	"logentry-thanks-thank": "$1 մասնակիցը {{GENDER:$2|շնորհակալութիւն յայտնած է}} {{GENDER:$4|$3}} մասնակիցին",
+	"thanks-confirmation-special-log": "Կ'ուզէ՞ք հրապարակաւ շնորհակալութիւն յայտնել այս մուտքին համար։",
+	"thanks-confirmation-special-rev": "Կ'ուզէ՞ք շնորհակալութիւն յայտնել այս խմբագրումին համար։",
+	"notification-link-text-view-post": "Տեսնել մեկնաբանութիւնը",
+	"flow-thanks-confirmation-special": "Կ'ուզէ՞ք շնորհակալութիւն յայտնել այս մեկնաբանումին համար։",
+	"notification-compact-header-flow-thank": "$1 մասնակիցը {{GENDER:$2|շնորհակալութիւն}} յայտնած է {{GENDER:$3|ձեզի}}։",
+	"notification-bundle-header-flow-thank": "{{PLURAL:$1|Մէկը|$1 մարդիկ|100=99+ people}} {{GENDER:$3|քեզ}} շնորհակալութիւն յայտնած է՝ մեկնաբանութեանդ համար \"<strong>$2</strong>\".",
+	"ipb-action-thanks": "Շնորհակալութիւն յայտնել"
+}

@@ -1,0 +1,100 @@
+// TOC styles when unpinned
+.mixin-toc-unpinned() {
+	margin-right: 8px;
+
+	.vector-dropdown-content {
+		// Override default dropdown max width
+		max-width: none;
+	}
+
+	// Shared unpinned TOC styles, applies across all unpinned cases (page titlebar, sticky header, floating)
+	.vector-toc {
+		// T316056 Remove TOC menu fixed width and apply min/max-width
+		width: max-content;
+		min-width: 200px;
+		// Collapsed TOC should be smaller than 85% of the content container (51em) and 75vw
+		max-width: ~'min( 0.85 * @{max-width-content-container}, 75vw )'; // min( 51em, 75vw )
+	}
+}
+
+// TOC styles when below page title
+.mixin-toc-below-page-title {
+	position: fixed;
+	top: 12px;
+	left: 12px;
+	margin: 0;
+	z-index: @z-index-dropdown;
+}
+
+.client-js {
+	@media ( max-width: @max-width-breakpoint-tablet ) {
+		//
+		// TOC in page titlebar on narrow screens
+		//
+		.vector-page-titlebar-toc {
+			.mixin-toc-unpinned();
+		}
+
+		//
+		// TOC in page titlebar on narrow screens below page title
+		//
+		.vector-below-page-title .vector-page-titlebar-toc {
+			.mixin-toc-below-page-title();
+		}
+	}
+
+	@media ( min-width: @min-width-breakpoint-desktop ) {
+		//
+		// TOC in page titlebar
+		//
+		&.vector-feature-toc-pinned-clientpref-0 body:not( .vector-sticky-header-visible ) {
+			.vector-page-titlebar-toc {
+				.mixin-toc-unpinned();
+			}
+		}
+
+		//
+		// TOC in page titlebar below page title
+		//
+		&.vector-feature-toc-pinned-clientpref-0 body:not( .vector-sticky-header-visible ).vector-below-page-title {
+			.vector-page-titlebar-toc {
+				.mixin-toc-below-page-title();
+			}
+		}
+
+		//
+		// TOC in sticky header
+		//
+		&.vector-feature-toc-pinned-clientpref-0 .vector-sticky-header-visible {
+			.vector-sticky-header-toc {
+				.mixin-toc-unpinned();
+			}
+		}
+	}
+}
+
+.client-nojs {
+	//
+	// No-JS TOC in page titlebar
+	//
+	&.vector-feature-toc-pinned-clientpref-0 {
+		.vector-page-titlebar-toc {
+			.mixin-toc-unpinned();
+		}
+	}
+
+	//
+	// Applies simplified TOC styles to No-JS pinned TOC on narrow viewports
+	//
+	@media ( max-width: @max-width-breakpoint-tablet ) {
+		&.vector-feature-toc-pinned-clientpref-1 {
+			.vector-sticky-pinned-container {
+				position: static;
+			}
+
+			#vector-toc-pinned-container {
+				max-height: 200px;
+			}
+		}
+	}
+}

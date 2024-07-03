@@ -1,0 +1,22 @@
+{
+	"@metadata": {
+		"authors": [
+			"Meno25",
+			"OsamaK",
+			"SaldırganSincap"
+		]
+	},
+	"imagemap_desc": "يسمح بخرائط صور قابلة للضغط عليها من طرف العميل باستخدام وسم <code>&lt;imagemap&gt;</code>",
+	"imagemap_no_image": "خطأ: يجب تحديد صورة في السطر الأول",
+	"imagemap_invalid_image": "خطأ: الصورة غير صحيحة أو غير موجودة",
+	"imagemap_bad_image": "خطأ: الصورة في القائمة السوداء على هذه الصفحة.",
+	"imagemap_no_link": "خطأ: لم يتم العثور على وصلة صحيحة في نهاية السطر $1",
+	"imagemap_invalid_title": "خطأ: عنوان غير صحيح في الوصلة عند السطر $1",
+	"imagemap_missing_coord": "خطأ: إحداثيات غير كافية للشكل عند السطر $1",
+	"imagemap_unrecognised_shape": "خطأ: شكل غير معروف عند السطر $1، كل سطر يجب أن يبدأ بواحد من: <code>default</code>، <code>rect</code>، <code>circle</code> أو <code>poly</code>",
+	"imagemap_invalid_coord": "خطأ: إحداثي غير صحيح عند السطر $1، يجب أن يكون رقما",
+	"imagemap_invalid_desc": "خطأ: محدد وصف غير صحيح، يجب أن يكون واحدا من: <code>$1</code>",
+	"imagemap_description": "عن هذه الصورة",
+	"imagemap_desc_types": "أعلى اليمين, أسفل اليمين, أسفل اليسار, أعلى اليسار, لا شيء",
+	"imagemap_poly_odd": "خطأ: تم العثور على مضلع بعدد فردي من الأضلاع في السطر $1"
+}

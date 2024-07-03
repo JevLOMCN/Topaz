@@ -1,0 +1,35 @@
+{
+	"@metadata": {
+		"authors": [
+			"Matthias",
+			"Ooswesthoesbes"
+		]
+	},
+	"captcha-edit": "Geer wil dees pazjena bewerke. Veur estebleef 't antjwaord op de óngerstäönde einveljige som in 't inveurvenster in ([[Special:Captcha/help|mieë informatie]]):",
+	"captcha-edit-fail": "Ónjuuste of óntbraekende CAPTCHA.",
+	"captcha-desc": "Bied CAPTCHA-technieke óm besjörming te beje taenge spam en 't raoje van wachweurd.",
+	"captcha-help": "CAPTCHA-oplossing.",
+	"captcha-info-help": "CAPTCHA-ómsjrieving.",
+	"captcha-id-label": "CAPTCHA-id",
+	"captcha-id-help": "Dees waerd mót ónverangerd waere trökgesjik.",
+	"captcha-addurl": "Dien bewirking bevat nuuj extern linke (URL's).\nVeur es besjurming taenge geautomatiseerde spam 't antjwaord op de óngerstäönde opdrach in in 't inveurveld veur dien bewirking op te slaon ([[Special:Captcha/help|mieër infermasie]]):",
+	"captcha-badlogin": "Los de óngerstäönde opdrach op en veur 't antjwaord in in 't inveurvinster ter besjurming taenge 't autematis krake van wachwäörd ([[Special:Captcha/help|mieër informatie]]):",
+	"captcha-createaccount": "Veur t'r besjurming taenge 't aanmake van geautomatiseerde gebroekers 't  antjwaord op de óngerstäönde opdrach in in 't inveurvinster ([[Special:Captcha/help|mieër informatie]]):",
+	"captcha-createaccount-fail": "Ónjuuste of óntbraekende CAPTCHA.",
+	"captcha-create": "Veur 'n pagina aan te maak, mós se de óngerstäönde opdrach oplosse en 't antjwaord in 't vinster inveure ([[Special:Captcha/help|meer informatie]]):",
+	"captcha-sendemail": "Veur ter besjerming taege geautomatiseerde spam 't antjwaord op de ongerstaonde einvawdige taak in 't inveurvinster in ([[Special:Captcha/help|mier informatie]]):",
+	"captcha-sendemail-fail": "De CAPTCHA ontbrèk of is ónjuus.",
+	"captcha-disabledinapi": "Veur dees actie is 'n captcha neudig die neet aafgehanjeldj kin waere via de API.",
+	"captcha-error": "CAPTCHA-verificatie is mislök door 'n intern fout: $1",
+	"captchahelp-title": "Captcha-hölp",
+	"captchahelp-cookies-needed": "Ge dient in uw browser cookies ingeschakeld te hebbe om dit te laote werke.",
+	"captchahelp-text": "Websites die vrie te bewèrke zeen, wie deze wiki, waere döks misbroek door spammers die d'r met hun programma's automatisch links op zetten naar vele websites. Hoewel deze externe links weer verwijderd kunnen worden, leveren ze wel veel hinder en administratief werk op.\n\nSoms, en in het bijzonder bij het toevoegen van externe links op pagina's, krijgt u een afbeelding te zien met gekleurde of vervormde tekst en wordt u gevraagd de weergegeven tekst in te voeren. Omdat dit proces lastig te automatiseren is, zijn vrijwel alleen mensen in staat dit proces succesvol te doorlopen en worden hiermee spammers en andere geautomatiseerde aanvallen geweerd.\n\nHelaas levert deze bevestiging voor gebruikers met een visuele handicap of een tekst- of spraakgebaseerde browser problemen op. Op het moment is er geen alternatief met geluid beschikbaar. Vraag assistentie van de [[Special:ListAdmins|sitebeheerders]] als dit proces u verhindert een nuttige bijdrage te leveren.\n\nKlik óppe 'trök'-knoep in uw browser om terug te gaan naar het tekstbewerkingsscherm.",
+	"captcha-addurl-whitelist": " #<!-- laot deze regel --> <pre>\n# De syntaxis is as volgt:\n#  * Alle tekst vanaaf 't karakter \"#\" tot het einde van de regels wordt gezien als opmerking\n#  * Iedere niet-lege regel is een fragment van een reguliere uitdrukking die alleen van toepassing is op hosts binnen URL's\n  #</pre> <!-- laot deze regel -->",
+	"right-skipcaptcha": "Captchahandelinge oetveure zonder captcha te hove oplosse",
+	"confirmedit-preview-line": "Regelnómmer",
+	"confirmedit-preview-content": "Inhawd",
+	"confirmedit-preview-validity": "Geljigheid",
+	"confirmedit-preview-valid": "geljig",
+	"confirmedit-preview-invalid": "óngeljig",
+	"confirmedit-preview-description": "De volgende tabel tuint de lies mit regele op dees pagina of of 't IP-adres of IP-rits geljig is. Wen 'n IP-lien geljig is den weurt 't oppe witte lies van CAPTCHA gezat, mer óngeljig waere genegeerd. E veurbild van 'ne geljige IP-rits is 69.208.0.0/16 det geit van 69.208.0.0 toet 69.208.255.255.\n[https://www.mediawiki.org/wiki/Special:MyLanguage/Help:Range_blocks#Calculating_the_CIDR_suffix Mier informatie] euver 't oetraekening van 'ne IP-rits."
+}

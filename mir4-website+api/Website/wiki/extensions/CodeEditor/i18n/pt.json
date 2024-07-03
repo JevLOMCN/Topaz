@@ -1,0 +1,25 @@
+{
+	"@metadata": {
+		"authors": [
+			"Fúlvio",
+			"Hamilton Abreu",
+			"Imperadeiro98",
+			"Malafaya",
+			"Vitorvicentevalente"
+		]
+	},
+	"codeeditor-desc": "Edição de páginas JavaScript ou CSS com realce sintático, usando o [https://ace.c9.io/ editor Ace]",
+	"codeeditor-next-annotation": "Ir para a próxima anotação",
+	"codeeditor-toolbar-toggle": "Ativar/desativar o editor de código",
+	"codeeditor-save-with-errors": "O documento contém erros. Tem a certeza de que pretende publicar?",
+	"codeeditor-invisibleChars-toggle": "Mostrar ou ocultar caracteres invisíveis",
+	"codeeditor-lineWrapping-toggle": "Ativar ou desativar a quebra de linha",
+	"codeeditor-searchReplace-toggle": "Mostrar ou ocultar o diálogo de localizar e substituir",
+	"codeeditor-gotoline": "Ir para a linha número...",
+	"codeeditor-gotoline-placeholder": "linha[:coluna]",
+	"codeeditor-gotoline-prompt": "Introduza um número de linha",
+	"codeeditor-indent": "Adicionar indentação",
+	"codeeditor-outdent": "Eliminar indentação",
+	"codeeditor-error-title": "Erro na dependência",
+	"codeeditor-error-message": "O CodeEditor precisa que o WikiEditor seja carregado."
+}

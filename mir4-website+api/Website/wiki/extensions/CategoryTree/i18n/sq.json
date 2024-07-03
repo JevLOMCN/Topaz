@@ -1,0 +1,36 @@
+{
+	"@metadata": {
+		"authors": [
+			"Arianit",
+			"Eagleal",
+			"Olsi"
+		]
+	},
+	"categorytree": "Pema e kategorive",
+	"categorytree-portlet": "Kategoritë",
+	"categorytree-legend": "Shfaqni pemën e kategorive",
+	"categorytree-desc": "Lundroni shpejt [[Special:CategoryTree|strukturën e kategorisë]]",
+	"categorytree-header": "Fusni emrin e kategorisë për të parë përmbajtjen si pemë kategorish. (Kërkon JavaScript.)",
+	"categorytree-category": "Kategoria:",
+	"categorytree-go": "Plotëso",
+	"categorytree-parents": "Kryekategoritë",
+	"categorytree-mode-categories": "vetëm kategoritë",
+	"categorytree-mode-pages": "faqet pa figurat",
+	"categorytree-mode-all": "të gjitha faqet",
+	"categorytree-collapse": "mbylle",
+	"categorytree-expand": "hape",
+	"categorytree-member-counts": "përmban $1 nënkategori, $2 faqe, dhe {{PLURAL:$3|1 skedë|$3 skeda}}",
+	"categorytree-num-categories": "$1 K",
+	"categorytree-num-pages": "$1 F",
+	"categorytree-num-files": "$1 S",
+	"categorytree-num-empty": "bosh",
+	"categorytree-load": "hape",
+	"categorytree-loading": "duke plotësuar",
+	"categorytree-nothing-found": "Ju kërkoj ndjesë, nuk u gjet asgjë.",
+	"categorytree-no-subcategories": "Asnjë nënkategori.",
+	"categorytree-no-parent-categories": "nuk ka kategori prindërore",
+	"categorytree-no-pages": "Asnjë artikull ose nënkategori.",
+	"categorytree-not-found": "Kategoria <i>$1</i> nuk u gjet",
+	"categorytree-error": "Problem gjatë ngarkimit të të dhënave.",
+	"categorytree-retry": "Ju lutemi prisni një moment dhe provojeni përsëri."
+}

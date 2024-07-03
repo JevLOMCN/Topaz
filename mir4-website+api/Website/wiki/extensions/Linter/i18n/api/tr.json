@@ -1,0 +1,21 @@
+{
+	"@metadata": {
+		"authors": [
+			"BaRaN6161 TURK",
+			"Incelemeelemani",
+			"MuratTheTurkish",
+			"SaldırganSincap",
+			"Sezgin İbiş"
+		]
+	},
+	"apihelp-query+linterrors-summary": "Lint hatalarının bir listesini alın",
+	"apihelp-query+linterrors-param-categories": "Lint hatalarının kategorileri",
+	"apihelp-query+linterrors-param-limit": "Sorgulanacak sonuç sayısı",
+	"apihelp-query+linterrors-param-from": "Sorgulamaya başlamak için Lint kimliği",
+	"apihelp-query+linterrors-param-namespace": "Yalnızca belirtilen ad alanlarından lint hataları ekle",
+	"apihelp-query+linterrors-param-pageid": "Yalnızca belirtilen sayfa kimliklerindeki lint hatalarını dahil edin",
+	"apihelp-query+linterrors-param-title": "Yalnızca belirtilen sayfa başlığından lint hataları ekleyin",
+	"apihelp-query+linterrors-example-1": "Eski etiket kategorisindeki tüm lint hatalarını alın",
+	"apihelp-query+linterstats-summary": "Her kategorideki lint hatası sayısını alın",
+	"apihelp-query+linterstats-example-1": "Her kategorideki lint hatası sayısını alın"
+}

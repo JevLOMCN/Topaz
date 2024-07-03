@@ -1,0 +1,20 @@
+{
+	"@metadata": {
+		"authors": [
+			"Aleator",
+			"Fitoschido",
+			"Ssola"
+		]
+	},
+	"pdf-desc": "Gestor per a visualitzar arxius PDF en mode imatge",
+	"pdf-file-page-warning": "PDF és un format complex que en alguns casos podria exposar la vostra informació privada. Assegureu-vos de configurar el lector de PDF d'una forma segura.",
+	"pdf-file-page-warning-header": "Consideracions de privadesa",
+	"pdf-file-page-warning-footer": "Aquest problema no es específic d'aquest fitxer en particular, sinó un problema general amb el format PDF.",
+	"pdf-file-page-warning-info": "Més informació sobre aquest problema.",
+	"pdf_no_metadata": "No s'han pogut obtenir metadades del PDF",
+	"pdf_page_error": "Número de pàgina fora d'abast",
+	"exif-pdf-producer": "Programa de conversió",
+	"exif-pdf-version": "Versió del format PDF",
+	"exif-pdf-encrypted": "Encriptat",
+	"exif-pdf-pagesize": "Mida de la pàgina"
+}

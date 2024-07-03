@@ -1,0 +1,18 @@
+{
+	"@metadata": {
+		"authors": [
+			"Joao Xavier",
+			"Malafaya"
+		]
+	},
+	"prefs-gadgets": "Utensili",
+	"gadgets-prefstext": "Adinfre esas listo pri specala utensili quin vu povas permisar por vua konto.\nIca utensili kreesis precipue per 'JavaScript', do vu mustas permisar JavaScript en vua retnavigilo por uzar li.\nRegardez ke ica utensili efektigos nule en ica pagino pri preferaji.\n\nAnke regardez ke ta specala utensili NE ESAS PARTO DE LA SOFTWARO* di MediaWiki, ed ordinare kreesas e mantenesas da altra uzeri de vua lokala wiki.\nLokala administreri povas skribar [[MediaWiki:Gadgets-definition|defini]] e [[Special:Gadgets|deskripti]] pri l'existanta utensili ('gadgets'). Listo pri la quanto di uzeri por singla 'gadget' en ica wiki povas videsar en la [[Special:GadgetUsage|statistiki pri uzo di 'Gadget'-i]].",
+	"special-gadgets": "Aparati:",
+	"gadgetusage-activeusers": "Aktiva uzeri",
+	"gadgetusage-default": "Normala",
+	"gadgets-title": "Aparati",
+	"gadgets-uses": "Ol uzas",
+	"gadgets-export": "Exportacar",
+	"gadgets-export-text": "Por exportacar la ''gadget'' $1, kliktez la butono \"{{int:gadgets-export-download}}\", konservez l'arkivo deskargata,\nirez al Special:Import en la Wiki skopo, e sendez ol. Pose, adjuntez a la pagino MediaWiki:Gadgets-definition la sequanta defino:\n<pre>$2</pre>\nVu mustas havar specala permisi en la Wiki skopo (inkluzite yuro por revizar la mesaji dil sistemo), ed importacar del arkivi sendita mustas esar permisata.",
+	"gadgets-export-download": "Deskargar"
+}

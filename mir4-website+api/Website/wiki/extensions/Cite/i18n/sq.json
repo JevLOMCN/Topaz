@@ -1,0 +1,29 @@
+{
+	"@metadata": {
+		"authors": [
+			"Mikullovci11",
+			"Olsi"
+		]
+	},
+	"cite-desc": "Shton etiketa <code>&lt;ref[ name=id]&gt;</code> dhe <code>&lt;references/&gt;</code> për citime",
+	"cite_error": "Gabim referencash: $1",
+	"cite_error_ref_numeric_key": "Etiketë <code>&lt;ref&gt;</code> e pavlefshme;\nemri nuk mund të jetë një numër i plotë i thjeshtë. Përdorni një titull përshkrues",
+	"cite_error_ref_no_key": "Etiketë <code>&lt;ref&gt;</code> e pavlefshme;\nrefs pa përmbajtje duhet të kenë një emër",
+	"cite_error_ref_too_many_keys": "Etiketë <code>&lt;ref&gt;</code> e pavlefshme;\nemra të pavlefshëm, p.sh. shumë",
+	"cite_error_ref_no_input": "Etiketë <code>&lt;ref&gt;</code> e pavlefshme;\nrefs pa emër duhet të kenë përmbajtje",
+	"cite_error_references_invalid_parameters": "Etiketë <code>&lt;references&gt;</code> e pavlefshme;\nasnjë parametër nuk lejohet.\nPërdorni <code>&lt;references /&gt;</code>",
+	"cite_error_references_no_backlink_label": "Nga ran të etiketave backlink me porosi. \nPercaktoni më shumë në [[MediaWiki:Cite references link many format backlink labels]] mesazh.",
+	"cite_error_no_link_label_group": "Nga ran e etiketave lidhje me porosi për grupin \"$1\". Percaktoni më shumë në [[MediaWiki:$2]] mesazh.",
+	"cite_error_references_no_text": "Etiketë <code>&lt;ref&gt;</code> e pavlefshme;\nasnjë tekst nuk u dha për refs e quajtura <code>$1</code>",
+	"cite_error_included_ref": "Duke mbyllur <code>&lt;/ref&gt;</code> mungon për etiketën <code>&lt;ref&gt;</code>",
+	"cite_error_group_refs_without_references": "Etiketat <code>&lt;ref&gt;</code> ekzistojnë për një grup të quajtur \"$1\", por nuk u gjet etiketa korresponduese <code>&lt;references group=\"$1\"/&gt;</code>",
+	"cite_error_references_group_mismatch": "<code>&lt;ref&gt;</code> tag in <code>&lt;references&gt;</code> has conflicting group attribute \"$1\".",
+	"cite_error_references_missing_key": "<code>&lt;ref&gt;</code> etiketa me emrin \"$1\" e percaktuar ne <code>&lt;referenca&gt;</code> nuk është përdorur në tekst paraprak.",
+	"cite_error_references_no_key": "<code>&lt;ref&gt;</code> etiketa e përcaktuar në <code>&lt;referenca&gt;</code> nuk ka ndonjë atribut emër.",
+	"cite_error_empty_references_define": "<code>&lt;ref&gt;</code> etiketa e përcaktuar në <code>&lt;referenca&gt;</code> me emrin \"$1\" nuk ka përmbajtje.",
+	"cite-wikieditor-tool-reference": "Burimi",
+	"cite-wikieditor-help-page-references": "Burimet",
+	"cite-wikieditor-help-content-reference-description": "Burimi",
+	"cite-wikieditor-help-content-rereference-description": "Përdorim shtesë i së njëjtës referencë",
+	"cite-wikieditor-help-content-showreferences-description": "Burim tregues"
+}

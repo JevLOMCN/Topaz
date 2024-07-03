@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"McDutchie"
+		]
+	},
+	"apihelp-query+mathwbextracts-example-1": "Requesta un summario de elementos mathematic de Wikibase.",
+	"apihelp-query+mathwbextracts-summary": "Retorna un summario de un elemento mathematic de Wikibase in HTML.",
+	"apihelp-query+mathwbextracts-param-qid": "Le QID del elemento Wikibase que essera requestate.",
+	"apihelp-query+mathwbextracts-param-uselang": "Le lingua que debe esser requestate pro le elemento Wikibase. Anglese es le valor predefinite."
+}

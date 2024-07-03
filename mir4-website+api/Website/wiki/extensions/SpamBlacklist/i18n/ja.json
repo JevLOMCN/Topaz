@@ -1,0 +1,32 @@
+{
+	"@metadata": {
+		"authors": [
+			"Aotake",
+			"Fryed-peach",
+			"JtFuruhata",
+			"Marine-Blue",
+			"MathXplore",
+			"Shirayuki",
+			"Tmv",
+			"Whym",
+			"Yusuke1109",
+			"Waki285"
+		]
+	},
+	"spam-blacklist": " #<!-- この行は変更しないでください --> <pre>\n# この一覧に掲載されている外部URLをページに追加すると編集をブロックします。\n# この一覧はこのウィキでのみ有効です。グローバル ブロックリストも参照してください。\n# 利用方法は https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:SpamBlacklist をご覧ください。\n#\n# 構文は以下の通りです:\n#  * 「#」以降行末まではコメントです\n#  * 空でない行は、URLに含まれるホスト名との一致を検出する正規表現です\n\n #</pre> <!-- この行は変更しないでください -->",
+	"spam-whitelist": " #<!-- この行は変更しないでください --> <pre>\n# この一覧に掲載されている外部URLに一致する送信元からのページ編集は、\n# たとえブロックリストに掲載されていたとしても、ブロック*されません*。\n#\n# 構文は以下の通りです:\n#  * 「#」文字から行末まではコメントとして扱われます\n#  * 空でない行は、URLに含まれるホスト名との一致を検出する正規表現です\n\n #</pre> <!-- この行は変更しないでください -->",
+	"email-blacklist": " #<!-- この行は変更しないでください --> <pre>\n# この一覧と一致するメールアドレスはその登録とそこからのメール送信がブロックされます。\n# この一覧はこのウィキでのみ有効です。グローバル ブロックリストも参照してください。\n# 利用方法は https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:SpamBlacklist をご覧ください。\n#\n# 構文は以下の通りです:\n#  * 「#」以降行末まではコメントです\n#  * 空でない行は、URLに含まれるホスト名との一致を検出する正規表現です\n\n #</pre> <!-- この行は変更しないでください -->",
+	"email-whitelist": " #<!-- この行は変更しないでください --> <pre>\n# この一覧と一致するメールアドレスはたとえブロックリストに\n# 掲載されていたとしても、ブロック*されません*。\n#\n# 構文は以下の通りです:\n#  * 「#」文字から行末まではコメントとして扱われます\n#  * 空でない行は、URLに含まれるホスト名との一致を検出する正規表現です\n\n #</pre> <!-- この行は変更しないでください -->",
+	"spam-blacklisted-email": "禁止されたメールアドレス",
+	"spam-blacklisted-email-text": "あなたのメールアドレスは現在、他の利用者へのメール送信を禁止されています。",
+	"spam-blacklisted-email-signup": "指定されたメールアドレスは現在使用を禁止されています。",
+	"spam-invalid-lines": "このスパムブロックリストには、無効な{{PLURAL:$1|正規表現}}を含む{{PLURAL:$1|行}}があります。保存する前に問題部分を修正してください:",
+	"spam-blacklist-desc": "ページ内の URL や登録利用者のメールアドレスをブロックできるようにする、正規表現に基づいたスパム対策ツール",
+	"log-name-spamblacklist": "スパムブロックリスト記録",
+	"log-description-spamblacklist": "これらのイベントはスパムブロックリストとの一致を追跡します。",
+	"logentry-spamblacklist-hit": "{{GENDER:$2|$1}} が $3 に $4 を追加しようとした際にスパムブロックリストが発動しました。",
+	"right-spamblacklistlog": "スパムブロックリスト記録を閲覧",
+	"action-spamblacklistlog": "スパムブロックリスト記録の閲覧",
+	"right-sboverride": "スパムブロックリストを回避",
+	"action-sboverride": "スパムブロックリストの回避"
+}

@@ -1,0 +1,24 @@
+{
+	"@metadata": {
+		"authors": [
+			"Afalau",
+			"Lloffiwr"
+		]
+	},
+	"captcha-edit": "Er mwyn gallu golygu'r dudalen, gwnewch y swm isod a gosodwch y canlyniad yn y blwch ([[Special:Captcha/help|rhagor o wybodaeth]]):",
+	"captcha-desc": "Yn gweithredu technegau CAPTCHA i arbed rhag sbam a dyfalu cyfrineiriau",
+	"captcha-id-label": "ID CAPTCHA",
+	"captcha-addurl": "Mae eich golygiad yn cynnwys cysylltiadau allanol newydd. \nEr mwyn gwarchod y wici rhag peiriant sbam, byddwch gystal â theipio cyfanswm y swm canlynol yn y blwch isod i roi eich golygiad ar gadw ([[Special:Captcha/help|mwy o wybodaeth]]):",
+	"captcha-badlogin": "Er mwyn arbed y wici rhag peiriannau datrys cyfrineiriau, byddwch gystal â gwneud y swm syml isod a gosod yr ateb yn y blwch ([[Special:Captcha/help|rhagor o wybodaeth]]):",
+	"captcha-createaccount": "Er mwyn arbed y wici rhag peiriannau dechrau cyfrifon, byddwch gystal â gwneud y swm syml isod a gosod yr ateb yn y blwch ([[Special:Captcha/help|mwy o wybodaeth]]):",
+	"captcha-createaccount-fail": "CAPTCHA ar goll neu'n anghywir.",
+	"captcha-create": "Er mwyn gallu creu'r dudalen, gwnewch y swm isod a gosodwch y canlyniad yn y blwch ([[Special:Captcha/help|rhagor o wybodaeth]]):",
+	"captcha-sendemail": "Er mwyn arbed y wici rhag sbamio awtomatig, byddwch gystal â gwneud y swm syml isod ac ysgrifennu'r ateb yn y blwch ([[Special:Captcha/help|rhagor o wybodaeth]]):",
+	"captcha-sendemail-fail": "CAPTCHA yn anghywir neu ar goll.",
+	"captcha-disabledinapi": "Mae angen \"captcha\" i gyflawni'r weithred hon, felly nid oes modd ei gyflawni trwy'r API.",
+	"captchahelp-title": "Cymorth \"captcha\"",
+	"captchahelp-cookies-needed": "Er mwyn i hyn weithio mae'n rhaid bod cookies wedi eu galluogi ar eich gwe-lywiwr.",
+	"captchahelp-text": "Yn anffodus, mae safleoedd gwe fel y wici hon, sy'n caniatau i'r cyhoedd ysgrifennu iddi, yn darged beunyddiol i sbamwyr sy'n defnyddio rhaglenni arbennig i bostio eu cysylltiadau ar wefannau lu. Gellir dileu'r dolenni o'r tudalennau, ond byddai hynny'n waith trafferthus.\n\nO dro i dro, yn enwedig wrth ychwanegu dolenni at safleoedd gwe eraill, fe fydd y safle hon yn dangos delwedd o destun, ac fe fydd yn rhaid i chi deipio'r geiriau a ddangosir. Mae hyn yn dasg anodd iawn i raglenni cyfrifiadurol, felly dylai'r rhan fwyaf o olygwyr go iawn gyflawni'r dasg yn ddi-drafferth, yn wahanol i'r rhaglenni sbam.\n\nYn anffodus, mae hyn yn creu trafferthion i'r rhai sydd yn defnyddio porwyr testun neu borwyr sain, neu sydd yn colli eu golwg.\nAr hyn o bryd nid oes fersiwn sain ar gael.\nCysylltwch â [[Special:ListAdmins|gweinyddwyr y safle]] os ydi'r nodwedd hon yn eich rhwystro rhag ychwanegu golygiadau dilys.\n\nGwasgwch botwm 'nôl' eich porwr er mwyn dychwelyd at y dudalen golygu.",
+	"captcha-addurl-whitelist": "#<!-- leave this line exactly as it is --> <pre>\n#\n# Dyma'r gystrawen:\n#   * Mae popeth o nod \"#\" hyd at ddiwedd y llinell yn sylwad\n#   * Mae pob llinell nad yw'n wag yn ddarn regex sydd ddim ond yn cydweddu\n#   * gwesteiwyr tu mewn i gyfeiriadau URL\n\n #</pre> <!-- leave this line exactly as it is -->",
+	"right-skipcaptcha": "Gwneud rhyw weithred, sy'n arfer deffro meddalwedd y captcha, heb ei ddeffro."
+}

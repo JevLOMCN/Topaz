@@ -1,0 +1,23 @@
+@import '../../minerva.less/minerva.variables.less';
+
+.minerva--history-page-action-enabled {
+	.page-actions-menu__list-item {
+		flex-basis: auto;
+		// When AMC is enabled, space all items equally.
+		&:first-child {
+			flex-grow: 0;
+		}
+	}
+}
+
+/* stylelint-disable-next-line selector-max-id */
+#page-actions-overflow-toggle .minerva-icon {
+	transform: rotate( 90deg );
+}
+
+.page-actions-overflow-list {
+	// The top of the menu is flush with the bottom of the page actions toolbar.
+	top: 100%;
+	right: -@icon-padding-medium;
+	border-radius: @border-radius-base;
+}

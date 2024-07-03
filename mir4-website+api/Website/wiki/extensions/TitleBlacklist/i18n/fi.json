@@ -1,0 +1,32 @@
+{
+	"@metadata": {
+		"authors": [
+			"01miki10",
+			"Agony",
+			"Cimon Avaro",
+			"Crt",
+			"Nike",
+			"Pxos",
+			"Rönttönen",
+			"Str4nd",
+			"Stryn"
+		]
+	},
+	"action-tboverride": "Ohittaa kiellettyjen sivunnimien tai käyttäjänimien listaa",
+	"action-titleblacklistlog": "tarkastella kiellettyjen nimien listan lokia",
+	"log-name-titleblacklist": "Kiellettyjen nimien listan loki",
+	"log-description-titleblacklist": "Nämä merkinnät jäljittävät osumia kiellettyjen nimien listalla.",
+	"logentry-titleblacklist-hit-username": "$1 {{GENDER:$2|aiheutti}} osuman nimien mustalla listalla yrittäessään luoda tunnusta $3, joka vastaa merkintää $4.",
+	"titleblacklist-desc": "Antaa ylläpitäjille mahdollisuuden kieltää sivujen ja käyttäjätunnusten luominen niiden nimen perusteella: [[MediaWiki:Titleblacklist|musta lista]] ja [[MediaWiki:Titlewhitelist|valkea lista]].",
+	"titleblacklist": "# Tämä on kiellettyjen nimien lista. Sivuja tai käyttäjätunnuksia, jotka vastaavat täällä määritettyihin säännöllisiin lausekkeisiin, ei voi luoda.\n# Käytä #-merkkiä kommentointiin.\n# Oletusarvoisesti tämä on riippumaton kirjainkoosta",
+	"titlewhitelist": "# Tämä on nimien valkea lista. Käytä #-merkkiä kommentointiin.\n# Oletusarvoisesti tämä on riippuvainen kirjainkoosta",
+	"titleblacklist-forbidden-edit": "Sivun ”$2” luonti on estetty, koska se täsmää seuraavaan merkintään kiellettyjen nimien listassa: <code>$1</code>",
+	"titleblacklist-forbidden-move": "Sivua ”$2” ei voi siirtää nimelle ”$3”, koska sivun ”$3” luonti on estetty. Se täsmää seuraavaan merkintään mustassa listassa: <code>$1</code>",
+	"titleblacklist-forbidden-upload": "Tiedoston ”$2” luonti on estetty, koska se täsmää seuraavaan merkintään mustassa listassa: <code>$1</code>",
+	"titleblacklist-forbidden-new-account": "Käyttäjänimen ”$2” luonti on estetty.\nSe täsmää seuraavaan kiellettyjen nimien listan merkintään: <code>$1</code>",
+	"titleblacklist-invalid": "{{PLURAL:$1|Seuraava rivi mustalla listalla ei ole kelvollinen|Seuraavat rivit mustalla listalla eivät ole kelvollisia}}. Korjaa {{PLURAL:$1|se|ne}} ennen tallentamista:",
+	"titleblacklist-override": "Ohita mustan listan merkinnät",
+	"right-tboverride": "Ohittaa kiellettyjen sivunimien tai käyttäjänimien lista",
+	"right-tboverride-account": "Ohittaa kiellettyjen käyttäjänimien lista",
+	"right-titleblacklistlog": "Tarkastella kiellettyjen nimien listan lokia"
+}

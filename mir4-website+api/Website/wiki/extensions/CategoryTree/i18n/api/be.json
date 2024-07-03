@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Artsiom91",
+			"Mechanizatar"
+		]
+	},
+	"apihelp-categorytree-param-category": "Назва ў прасторы назваў катэгорый. Прэфікс, калі будзе пададзены, будзе ігнаравацца.",
+	"apihelp-categorytree-param-options": "Параметры для канструктара CategoryTree як JSON-аб’екта. Параметр глыбіні (<var>depth</var>) па змоўчванні роўны <kbd>1</kbd>.",
+	"apierror-categorytree-invalidjson": "Опцыі павінны быць дапушчальнымі JSON-аб’ектамі."
+}

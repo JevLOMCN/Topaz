@@ -1,0 +1,29 @@
+{
+	"@metadata": {
+		"authors": [
+			"Amire80"
+		]
+	},
+	"apihelp-query+gadgetcategories-summary": "החזרת רשימת קטגוריות של גאדג'טים.",
+	"apihelp-query+gadgetcategories-param-prop": "איזה מידע על קטגוריות גאדג'טים לקבל:",
+	"apihelp-query+gadgetcategories-paramvalue-prop-name": "שם קטגוריה פנימי.",
+	"apihelp-query+gadgetcategories-paramvalue-prop-title": "כותרת הקטגוריה.",
+	"apihelp-query+gadgetcategories-paramvalue-prop-members": "מספר הגאדג'טים בקטגוריה.",
+	"apihelp-query+gadgetcategories-param-names": "שמות הקטגוריות לאחזור.",
+	"apihelp-query+gadgetcategories-example-1": "קבלת רשימת קטגוריות גאדג'טים קיימות",
+	"apihelp-query+gadgetcategories-example-2": "קבלת כל המידע על קטגוריות בשם \"foo\" ו־\"bar\"",
+	"apihelp-query+gadgets-summary": "החזרת רשימת גאדג'טים שמשמשים בוויקי הזה.",
+	"apihelp-query+gadgets-param-prop": "איזה מידע על גאדג'טים לקבל:",
+	"apihelp-query+gadgets-paramvalue-prop-id": "מזהה גאדג'ט פנימי.",
+	"apihelp-query+gadgets-paramvalue-prop-metadata": "המטא־נתונים של הגאדג'ט.",
+	"apihelp-query+gadgets-paramvalue-prop-desc": "תיאור הגאדג'ט ב־HTML (זה יכול להיות איטי, יש להשתמש בזה רק אם זה ממש נחוץ).",
+	"apihelp-query+gadgets-param-categories": "מאיזו קטגוריה לאחזר את הגאדג'טים.",
+	"apihelp-query+gadgets-param-ids": "מזהים של גאדג'טים לאחזור.",
+	"apihelp-query+gadgets-param-allowedonly": "לרשום רק גאדג'טים שמותרים למשתמש הנוכחי.",
+	"apihelp-query+gadgets-param-enabledonly": "לרשום רק גאדג'טים שהמשתמש הנוכחי הפעיל.",
+	"apihelp-query+gadgets-example-1": "קבלת רשימת גאדג'טים עם התיאורים שלהם",
+	"apihelp-query+gadgets-example-2": "קבלת רשימת גאדג'טים עם כל המאפיינים שלהם",
+	"apihelp-query+gadgets-example-3": "קבלת רשימת גאדג'טים בקטגוריה \"foo\"",
+	"apihelp-query+gadgets-example-4": "קבלת מידע על הגאדג'טים \"foo\" ו־\"bar\"",
+	"apihelp-query+gadgets-example-5": "קבלת רשימת גאדג'טים שמופעלים למשתמש הנוכחי"
+}

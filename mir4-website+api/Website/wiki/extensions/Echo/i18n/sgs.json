@@ -1,0 +1,17 @@
+{
+	"@metadata": {
+		"authors": [
+			"Hugo.arg"
+		]
+	},
+	"prefs-echo": "Žėnotės",
+	"prefs-echosubscriptions": "Monē pasakīkėt, kap būs padėrbtė tėi dāktā:",
+	"tooltip-pt-notifications-alert": "Pertarėmā Tamstā",
+	"echo-specialpage": "Žėnotės",
+	"echo-notification-placeholder": "Žėnotiu nie.",
+	"notification-header-edit-user-talk-with-section": "$1 {{GENDER:$2|parašė}} žėnotė <strong>{{GENDER:$3|Tamstas}} aptarėmu poslapie, </strong> prī skėrsnelė „<strong>$4</strong>“.",
+	"echo-notification-alert": "{{PLURAL:$1|Pertarėms ($1)|Pertarėmā ($1)|100=Pertarėmā (99+)}}",
+	"echo-notification-alert-text-only": "Pertarėmā",
+	"echo-overlay-link": "Vėsas žėnotės",
+	"notification-bundle-header-edit-user-talk-v2": "{{PLURAL:$1|naujė žėnotė|$1 naujės žėnotės|$1 naujū žėnotiu|100=99+ naujū žėnotiu}} <strong>{{GENDER:$3|Tamstas}} aptarėmu poslapie</strong>."
+}

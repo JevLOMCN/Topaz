@@ -1,0 +1,21 @@
+{
+	"@metadata": {
+		"authors": [
+			"Slomox"
+		]
+	},
+	"cite-desc": "Föögt <code>&lt;ref[ name=id]&gt;</code> un <code>&lt;references/&gt;</code> Tags för Zitaten to",
+	"cite_error": "Zitat-Fehler: $1",
+	"cite_error_ref_numeric_key": "Ungülligen Tag <tt>&lt;ref&gt;</tt>: de Naam dröff keen reine Tall wesen, bruuk en Naam, de de Saak beschrifft.",
+	"cite_error_ref_no_key": "Ungülligen Tag <tt>&lt;ref&gt;</tt>: „ref“ ahn Inholt mutt en Naam hebben.",
+	"cite_error_ref_too_many_keys": "Ungülligen Tag <tt>&lt;ref&gt;</tt>: ungüllige Naams, to’n Bispeel to veel.",
+	"cite_error_ref_no_input": "Ungülligen Tag <tt>&lt;ref&gt;</tt>: „ref“ ahn Naam mutt en Inholt hebben.",
+	"cite_error_references_invalid_parameters": "Ungülligen Tag <code>&lt;references&gt;</code>: Parameters sünd nich verlöövt, bruuk <tt>&lt;references /&gt;</tt>",
+	"cite_error_references_no_backlink_label": "De verföögboren Tekens för de Lenken op Referenzen sünd all. Dat lett sik repareren, wenn in de Systemnaricht [[MediaWiki:Cite references link many format backlink labels]] mehr Tekens angeven warrt.",
+	"cite_error_references_no_text": "Ungülligen Tag <tt>&lt;ref&gt;</tt>; is keen Text för Refs mit den Naam <tt>$1</tt> angeven.",
+	"cite_error_included_ref": "Dor fehlt en tosluten <code>&lt;/ref&gt;</code>",
+	"cite_error_group_refs_without_references": "<code>&lt;ref&gt;</code>-Tags för de Grupp „$1“ gifft dat, is aver keen <code>&lt;references group=„$1“/&gt;</code>-Tag funnen worrn",
+	"cite-wikieditor-tool-reference": "Enkelnawies",
+	"cite-wikieditor-help-page-references": "Footnoten",
+	"cite-wikieditor-help-content-reference-description": "Enkelnawies"
+}

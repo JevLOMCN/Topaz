@@ -1,0 +1,27 @@
+* Gergő Tisza <gtisza@wikimedia.org>
+* Gilles Dubuc <gdubuc@wikimedia.org>
+* Mark Holmquist <mtraceur@member.fsf.org>
+* Pau Giner <pau.giner@gmail.com>
+* Željko Filipin <zeljko.filipin@gmail.com>
+* Kunal Mehta <legoktm@debian.org>
+* Ed Sanders <esanders@wikimedia.org>
+* James D. Forrester <jforrester@wikimedia.org>
+* Aaron Arcos <aarcos.wiki@gmail.com>
+* Thiemo Kreuz <thiemo.kreuz@wikimedia.de>
+* Matthias Mullie <git@mullie.eu>
+* Volker E <volker.e@wikimedia.org>
+* fomafix <fomafix@googlemail.com>
+* Chris McMahon <cmcmahon@wikimedia.org>
+* Timo Tijhof <krinklemail@gmail.com>
+* Umherirrender <umherirrender_de.wp@web.de>
+* Simon Legner <Simon.Legner@gmail.com>
+* Geoffrey Mon <geofbot@gmail.com>
+* Bartosz Dziewoński <matma.rex@gmail.com>
+* Antoine Musso <hashar@free.fr>
+* Prateek Saxena <psaxena@wikimedia.org>
+* Brion Vibber <brion@wikimedia.org>
+* Namit <namit.ohri@gmail.com>
+* gladoscc <admin@glados.cc>
+
+Generated with <code>git log --format='%aN <%aE>' | sort | uniq --count | sort --reverse --numeric-sort</code> using https://github.com/wikimedia/mediawiki/blob/master/.mailmap
+Manually pruned for bots and cutoff at 5 contributions.

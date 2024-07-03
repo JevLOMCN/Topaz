@@ -1,0 +1,40 @@
+{
+	"@metadata": {
+		"authors": [
+			"Danny B.",
+			"Ilimanaq29",
+			"Li-sung",
+			"LordMsz",
+			"Matěj Suchánek",
+			"Mormegil"
+		]
+	},
+	"categorytree": "Strom kategorií",
+	"categorytree-portlet": "Kategorie",
+	"categorytree-legend": "Zobrazí strom kategorie",
+	"categorytree-desc": "Ajaxový nástroj zobrazující [[Special:CategoryTree|stromovou strukturu kategorií]] na této wiki",
+	"categorytree-header": "Zadejte název kategorie pro zobrazení jejího obsahu jako stromové struktury. (Vyžaduje JavaScript.)",
+	"categorytree-category": "Kategorie:",
+	"categorytree-go": "Zobrazit",
+	"categorytree-parents": "Nadřazené kategorie",
+	"categorytree-mode-label": "Režim:",
+	"categorytree-mode-categories": "pouze kategorie",
+	"categorytree-mode-pages": "stránky kromě souborů",
+	"categorytree-mode-all": "všechny stránky",
+	"categorytree-collapse": "zavřít",
+	"categorytree-expand": "rozbalit",
+	"categorytree-member-counts": "obsahuje {{PLURAL:$1|1 podkategorii|$1 podkategorie|$1 podkategorií}}, {{PLURAL:$2|1 stránku|$2 stránky|$2 stránek}} a {{PLURAL:$3|1 soubor|$3 soubory|$3 souborů}}",
+	"categorytree-num-categories": "$1 kat.",
+	"categorytree-num-pages": "$1 str.",
+	"categorytree-num-files": "$1 soub.",
+	"categorytree-num-empty": "prázdná",
+	"categorytree-load": "načíst",
+	"categorytree-loading": "načítá se",
+	"categorytree-nothing-found": "nic nebylo nalezeno",
+	"categorytree-no-subcategories": "žádné podkategorie.",
+	"categorytree-no-parent-categories": "žádné nadřazené kategorie",
+	"categorytree-no-pages": "žádné články ani podkategorie.",
+	"categorytree-not-found": "Kategorie <em>$1</em> nenalezena",
+	"categorytree-error": "Chyba při načítání dat.",
+	"categorytree-retry": "Počkejte chvilku a zkuste to znova."
+}

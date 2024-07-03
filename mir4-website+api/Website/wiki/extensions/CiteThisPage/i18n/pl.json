@@ -1,0 +1,20 @@
+{
+	"@metadata": {
+		"authors": [
+			"Chrumps",
+			"Msz2001",
+			"Peter Bowman",
+			"Sp5uhe",
+			"Tar Lócesilion",
+			"Woytecr"
+		]
+	},
+	"citethispage": "Przypis do tej strony",
+	"citethispage-desc": "Dodaje stronę specjalną [[Special:CiteThisPage|obsługi cytowań]] i link w pasku narzędziowym",
+	"citethispage-link": "Cytowanie tego artykułu",
+	"tooltip-citethispage": "Informacja o tym jak należy cytować tę stronę",
+	"citethispage-change-submit": "Wygeneruj przypis bibliograficzny",
+	"citethispage-change-target": "Strona:",
+	"citethispage-badrevision": "Błąd: nie można znaleźć wersji strony \"$1\" o identyfikatorze $2.",
+	"citethispage-content": "__NOTOC__\n<div class=\"mw-specialCiteThisPage-bibliographic\">\n\n== Dane bibliograficzne dla „{{FULLPAGENAME}}” ==\n\n* Nazwa strony: {{FULLPAGENAME}}\n* Autorzy: użytkownicy {{GRAMMAR:D.lp|{{SITENAME}}}}\n* Wydawca: ''{{SITENAME}}''.\n* Data ostatniej edycji: {{CURRENTDAY}} {{CURRENTMONTHNAMEGEN}} {{CURRENTYEAR}} {{CURRENTTIME}} UTC\n* Data dostępu: <citation>{{CURRENTDAY}} {{CURRENTMONTHNAME}} {{CURRENTYEAR}} {{CURRENTTIME}} UTC</citation>\n* Stały URL: {{canonicalurl:{{FULLPAGENAME}}|oldid={{REVISIONID}}}}\n* ID wersji strony: {{REVISIONID}}\n\n</div>\n<div class=\"plainlinks mw-specialCiteThisPage-styles\">\n\n== Style cytowania dla „{{FULLPAGENAME}}” ==\n\n=== Styl APA ===\n{{FULLPAGENAME}}. ({{CURRENTYEAR}}, {{CURRENTMONTHNAME}} {{CURRENTDAY}}). ''{{SITENAME}}''. Dostęp <citation>{{CURRENTTIME}}, {{CURRENTMONTHNAME}} {{CURRENTDAY}}, {{CURRENTYEAR}}</citation>, Dostępny w Internecie: {{canonicalurl:{{FULLPAGENAME}}|oldid={{REVISIONID}}}}.\n\n=== Styl MLA ===\n\"{{FULLPAGENAME}}.\" ''{{SITENAME}}''. {{CURRENTDAY}} {{CURRENTMONTHABBREV}} {{CURRENTYEAR}}, {{CURRENTTIME}} UTC. <citation>{{CURRENTDAY}} {{CURRENTMONTHABBREV}} {{CURRENTYEAR}}, {{CURRENTTIME}}</citation> &lt;{{canonicalurl:{{FULLPAGENAME}}|oldid={{REVISIONID}}}}&gt;.\n\n=== Styl MHRA ===\nautorzy {{GRAMMAR:D.lp|{{SITENAME}}}}, '{{FULLPAGENAME}}', ''{{SITENAME}},'' {{CURRENTDAY}} {{CURRENTMONTHNAME}} {{CURRENTYEAR}}, {{CURRENTTIME}} UTC, &lt;{{canonicalurl:{{FULLPAGENAME}}|oldid={{REVISIONID}}}}&gt; [dostęp <citation>{{CURRENTDAY}} {{CURRENTMONTHNAME}} {{CURRENTYEAR}}</citation>]\n\n=== Styl Chicago ===\nautorzy {{GRAMMAR:D.lp|{{SITENAME}}}}, \"{{FULLPAGENAME}},\" ''{{SITENAME}},'' {{canonicalurl:{{FULLPAGENAME}}|oldid={{REVISIONID}}}} (dostęp <citation>{{CURRENTMONTHNAME}} {{CURRENTDAY}}, {{CURRENTYEAR}}</citation>).\n\n=== Styl CBE/CSE ===\nautorzy {{GRAMMAR:D.lp|{{SITENAME}}}}. {{FULLPAGENAME}} [Internet]. {{SITENAME}}; {{CURRENTYEAR}} {{CURRENTMONTHABBREV}} {{CURRENTDAY}}, {{CURRENTTIME}} UTC [dostęp <citation>{{CURRENTYEAR}} {{CURRENTMONTHABBREV}} {{CURRENTDAY}}</citation>]. Dostępny w Internecie:\n{{canonicalurl:{{FULLPAGENAME}}|oldid={{REVISIONID}}}}.\n\n=== Styl Bluebook ===\n{{FULLPAGENAME}}, {{canonicalurl:{{FULLPAGENAME}}|oldid={{REVISIONID}}}} (ostatnio odwiedzony <citation>{{CURRENTMONTHNAME}} {{CURRENTDAY}}, {{CURRENTYEAR}}</citation>).\n\n=== Dane BibTeX ===\n\n  @misc{ wiki:xxx,\n    author = \"{{SITENAME}}\",\n    title = \"{{FULLPAGENAME}} --- {{SITENAME}}{,} {{int:sitesubtitle}}\",\n    year = \"{{CURRENTYEAR}}\",\n    url = \"{{canonicalurl:{{FULLPAGENAME}}|oldid={{REVISIONID}}}}\",\n    note = \"[Online; accessed <citation>{{CURRENTDAY}}-{{CURRENTMONTHNAME}}-{{CURRENTYEAR}}</citation>]\"\n  }\n\nPrzy wykorzystaniu razem z programem LaTeX (z <code>\\usepackage{url}</code> w preambule), który preferuje lepiej sformatowane adresy internetowe, można wykorzystać poniższy tekst:\n\n  @misc{ wiki:xxx,\n    author = \"{{SITENAME}}\",\n    title = \"{{FULLPAGENAME}} --- {{SITENAME}}{,} {{int:sitesubtitle}}\",\n    year = \"{{CURRENTYEAR}}\",\n    url = \"'''\\url{'''{{canonicalurl:{{FULLPAGENAME}}|oldid={{REVISIONID}}}}'''}'''\",\n    note = \"[Online; accessed <citation>{{CURRENTDAY}}-{{CURRENTMONTHNAME}}-{{CURRENTYEAR}}</citation>]\"\n  }\n\n\n</div> <!-- zamknięcie \"plainlinks\"-->"
+}

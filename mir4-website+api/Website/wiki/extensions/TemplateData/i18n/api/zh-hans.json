@@ -1,0 +1,17 @@
+{
+	"@metadata": {
+		"authors": [
+			"GuoPC",
+			"Liuxinyu970226",
+			"Shizhao"
+		]
+	},
+	"apihelp-templatedata-summary": "获取由模板数据扩展存储的数据。",
+	"apihelp-templatedata-example-1": "返回[[Template:Foobar]]的模板数据，如果模板不存在，或存在但没有模板数据就返回结果",
+	"apihelp-templatedata-example-2": "返回[[Template:Phabricator]]的模板数据，如果模板不存在，或存在但没有模板数据就不返回结果",
+	"apihelp-templatedata-param-includeMissingTitles": "返回有关标题的数据，即便其丢失或缺少模板数据。默认情况下只在标题存在且有模板数据时返回标题。",
+	"apihelp-templatedata-param-doNotIgnoreMissingTitles": "返回有关标题的数据，即便其丢失或缺少模板数据。默认情况下（出于向后兼容性）只在标题存在且有模板数据时返回标题。",
+	"apihelp-templatedata-param-lang": "返回此语言的本地化值。默认会返回所有可用翻译。",
+	"apierror-templatedata-corrupt": "页面#$1模板数据包含无效数据：$2",
+	"apiwarn-templatedata-deprecation-format": "默认输出格式今后将更改为<kbd>jsonfm</kbd>。请明确指定<kbd>format=json</kbd>。"
+}

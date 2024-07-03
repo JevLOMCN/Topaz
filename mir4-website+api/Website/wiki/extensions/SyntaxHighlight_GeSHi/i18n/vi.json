@@ -1,0 +1,24 @@
+{
+	"@metadata": {
+		"authors": [
+			"Minh Nguyen",
+			"NguoiDungKhongDinhDanh"
+		]
+	},
+	"syntaxhighlight-desc": "Tô màu cú pháp trong thẻ <code>&lt;syntaxhighlight&gt;</code> dùng [http://pygments.org/ Pygments – trình tô màu cú pháp Python]",
+	"syntaxhighlight-error-category": "Trang có lỗi tô màu cú pháp",
+	"syntaxhighlight-error-category-desc": "Đã xuất hiện lỗi khi tô màu đoạn mã trong trang.",
+	"syntaxhighlight-enclose-category": "Trang dùng thuộc tính enclose cũ",
+	"syntaxhighlight-enclose-category-desc": "Thẻ syntaxhighlight trong trang sử dụng cú pháp enclose cũ.",
+	"syntaxhighlight-source-category": "Trang dùng thẻ source cũ",
+	"syntaxhighlight-source-category-desc": "Thẻ syntaxhighlight trong trang sử dụng thẻ source cũ.",
+	"syntaxhighlight-visualeditor-mwsyntaxhighlightinspector-code": "Đoạn mã",
+	"syntaxhighlight-visualeditor-mwsyntaxhighlightinspector-language": "Ngôn ngữ",
+	"syntaxhighlight-visualeditor-mwsyntaxhighlightinspector-none": "(Không có)",
+	"syntaxhighlight-visualeditor-mwsyntaxhighlightinspector-showlines": "Đánh số dòng",
+	"syntaxhighlight-visualeditor-mwsyntaxhighlightinspector-startingline": "Số dòng đầu",
+	"syntaxhighlight-visualeditor-mwsyntaxhighlightinspector-title": "Đoạn mã",
+	"syntaxhighlight-error-pygments-invocation-failure": "Thất bại khi gọi Pygments",
+	"syntaxhighlight-error-unknown-language": "Ngôn ngữ không rõ “$1”",
+	"syntaxhighlight-error-exceeds-size-limit": "Đoạn mã có $1 byte, vượt quá tối đa $2 byte"
+}

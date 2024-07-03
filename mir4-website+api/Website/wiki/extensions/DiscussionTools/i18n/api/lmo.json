@@ -1,0 +1,31 @@
+{
+	"@metadata": {
+		"authors": [
+			"Salvemm el lombard"
+		]
+	},
+	"apierror-discussiontools-commentid-notfound": "El coment con l'ID $1 l'è stad minga trovad.",
+	"apierror-discussiontools-commentname-ambiguous": "A inn vegnud a voltra diversi coment cont el nom \"$1\", a gh'è bisogn de <var>commentid</var>.",
+	"apierror-discussiontools-commentname-notfound": "El coment che 'l se ciama '$1' l'è stad minga trovad.",
+	"apierror-discussiontools-formtoken-used": "Coment sgiamò publicad. Carega an'mò la pagina per vardàll.",
+	"apierror-discussiontools-subscription-failed-add": "Impossibel iscrives a quell argoment chì.",
+	"apierror-discussiontools-subscription-failed-remove": "Impossibil disiscrives de quell argoment chì",
+	"apihelp-discussiontoolscompare-summary": "Oten di informazzion sora i cambiament ai coment in fra du revision de la pagina.",
+	"apihelp-discussiontoolsedit-param-commentid": "ID del coment che te gh'hee de rispondegh. Drovad domà quand che <var>paction</var> l'è <var>addcomment</var>. El toeu el post de <var>commentname</var>.",
+	"apihelp-discussiontoolsedit-param-commentname": "ID del coment che te gh'hee de rispondegh. Drovad domà quand che <var>paction</var> l'è <var>addcomment</var>.",
+	"apihelp-discussiontoolsedit-param-formtoken": "On unich ID opzional insgenerad in del client per prevegnì la publicazzion dopia.",
+	"apihelp-discussiontoolsedit-param-html": "Contegnud de meter foeura, in forma de HTML. Se po minga drovall insema al <var>wikitext</var>.",
+	"apihelp-discussiontoolsedit-param-sectiontitle": "{{int:apihelp-edit-param-sectiontitle}} Drovad domà quand che <var>paction</var> l'è <var>addtopic</var>.",
+	"apihelp-discussiontoolsedit-param-wikitext": "Contegnud de meter foeura, come wikitest. Se po minga drovall insema a l'<var>html</var>.",
+	"apihelp-discussiontoolsedit-paramvalue-paction-addcomment": "Scrin un coment noeuv come risposta a 'n coment che 'l gh'è sgiamò.",
+	"apihelp-discussiontoolsedit-paramvalue-paction-addtopic": "Sgionta una discussion noeuva e 'l prim coment in la sezzion medesima.",
+	"apihelp-discussiontoolsedit-summary": "Met foeura un messagg in su la pagina de discussion.",
+	"apihelp-discussiontoolsgetsubscriptions-param-commentname": "Nom di agroment de controllà",
+	"apihelp-discussiontoolsgetsubscriptions-summary": "Oten i stat di sotoscrizzion de certi argoment.",
+	"apihelp-discussiontoolspageinfo-param-oldid": "El numer de revision de drovà (el valor predefinid l'è l'ultema revision)",
+	"apihelp-discussiontoolspageinfo-summary": "El dà indree a i metadati che gh'è besogn per dagh l'inviada ai instrument de discussion.",
+	"apihelp-discussiontoolssubscribe-param-commentname": "Nom de l'argoment al qual inscrives (opur desiscrives)",
+	"apihelp-discussiontoolssubscribe-param-page": "Una pagina che la gh'ha denter l'argoment",
+	"apihelp-discussiontoolssubscribe-param-subscribe": "Ver per sotoscriver, fals per anulà la sotoscrizzion",
+	"apihelp-discussiontoolssubscribe-summary": "Inscrives (o desiscrives) per ricever di notifiche sora un argoment."
+}

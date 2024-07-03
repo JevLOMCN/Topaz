@@ -1,0 +1,22 @@
+{
+	"@metadata": {
+		"authors": [
+			"Func",
+			"Liuxinyu970226",
+			"Xiplus",
+			"列维劳德",
+			"沈澄心"
+		]
+	},
+	"apihelp-query+linterrors-summary": "获取lint错误的列表",
+	"apihelp-query+linterrors-param-categories": "lint错误的分类",
+	"apihelp-query+linterrors-param-invisible-categories": "不可见的lint错误类别",
+	"apihelp-query+linterrors-param-limit": "要查询的结果数",
+	"apihelp-query+linterrors-param-from": "查询的起始Lint ID",
+	"apihelp-query+linterrors-param-namespace": "只包含来自指定命名空间的lint错误",
+	"apihelp-query+linterrors-param-pageid": "只包含来自指定页面ID的lint错误",
+	"apihelp-query+linterrors-param-title": "只包含来自指定页面标题的lint错误",
+	"apihelp-query+linterrors-example-1": "获取所有废弃标签分类的lint错误",
+	"apihelp-query+linterstats-summary": "获取每个分类中的lint错误数",
+	"apihelp-query+linterstats-example-1": "获取每个分类中的lint错误数"
+}

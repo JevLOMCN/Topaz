@@ -1,0 +1,36 @@
+{
+	"@metadata": {
+		"authors": [
+			"Dakrismeno",
+			"Salvemm el lombard"
+		]
+	},
+	"categorytree": "Arbor di categorie",
+	"categorytree-portlet": "Categorie",
+	"categorytree-legend": "Fam ved l'arbor di categurie",
+	"categorytree-desc": "Naviga in manera dinamica la [[Special:CategoryTree|strutura di categorie]]",
+	"categorytree-header": "Met dent el nom de una categoria per vedè i so contegnud come una strutura a arbor. (a gh'è besogn de JavaScript)",
+	"categorytree-category": "Categoria:",
+	"categorytree-go": "Fa vedè l'arbor",
+	"categorytree-parents": "Categurie superiore",
+	"categorytree-mode-label": "Manera:",
+	"categorytree-mode-categories": "mostra doma i categorie",
+	"categorytree-mode-pages": "tute i pagine, foeura che i imagin",
+	"categorytree-mode-all": "tute i pagine",
+	"categorytree-collapse": "comprimm",
+	"categorytree-expand": "slarga",
+	"categorytree-member-counts": "El gh'hà dent {{PLURAL:$1|1 sotcategoria|$1 sotcategorie}}, {{PLURAL:$2|1 pagina|$2 pagine}}, e {{PLURAL:$3|1 fail|$3 fail}}",
+	"categorytree-num-categories": "$1 C",
+	"categorytree-num-pages": "$1 P",
+	"categorytree-num-files": "$1 F",
+	"categorytree-num-empty": "voeuja",
+	"categorytree-load": "carega",
+	"categorytree-loading": "adree a caregà...",
+	"categorytree-nothing-found": "nissun risultad",
+	"categorytree-no-subcategories": "nissuna sot-categoria",
+	"categorytree-no-parent-categories": "nissuna categoria superiora",
+	"categorytree-no-pages": "minga de pagine o de sotocategorie",
+	"categorytree-not-found": "Categoria <i>$1</i> minga trovada",
+	"categorytree-error": "Problema cont el caregament di dati.",
+	"categorytree-retry": "Per piaser, specia un moment e poeu proeuva ancamò."
+}

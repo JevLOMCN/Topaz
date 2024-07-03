@@ -1,0 +1,20 @@
+{
+	"@metadata": {
+		"authors": [
+			"Ainali",
+			"Ayaibrahim",
+			"Lokal Profil",
+			"Sabelöga",
+			"WikiPhoenix"
+		]
+	},
+	"apihelp-query+pageimages-summary": "Returnera information om bilderna på sedan bilder som miniatyrbilder och förekomest av bilder.",
+	"apihelp-query+pageimages-example-1": "Hämta namn och <kbd>100</kbd>-pixel miniatyrbild av en bild på <kbd>Albert Einstein</kbd>.",
+	"apihelp-query+pageimages-param-prop": "Vilken information som ska returneras:\n;thumbnail:URL och dimensioner av bild associerad med sidan, om någon.\n;name:Bildtitel",
+	"apihelp-query+pageimages-param-thumbsize": "Maximal bredd i pixlar på miniatyrbilder.",
+	"apihelp-query+pageimages-param-langcode": "Språkkoden som bilden kommer renderas i om flera språk stöds",
+	"apihelp-query+pageimages-param-limit": "Egenskaper av hur många sidor som ska returneras.",
+	"apihelp-query+pageimages-param-license": "Begränsa sidbilder till en bestämd licenstyp",
+	"apihelp-query+pageimages-paramvalue-license-free": "endast fria bilder",
+	"apihelp-query+pageimages-paramvalue-license-any": "Bästa bilden, oavsett om den är ledig eller inte."
+}

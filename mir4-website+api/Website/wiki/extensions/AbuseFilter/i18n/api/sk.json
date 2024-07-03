@@ -1,0 +1,19 @@
+{
+	"@metadata": {
+		"authors": [
+			"TomášPolonec"
+		]
+	},
+	"apihelp-abusefilterchecksyntax-example-1": "Skontrolovať syntax platného filtra",
+	"apihelp-abusefilterchecksyntax-example-2": "Skontrolovať syntax neplatného filtra",
+	"apihelp-abusefilterevalexpression-summary": "Vyhodnotí výraz filtra zneužití.",
+	"apihelp-abusefilterevalexpression-param-expression": "Výraz, ktorý sa má vyhodnotiť.",
+	"apihelp-abusefilterevalexpression-example-1": "Vyhodnotiť jednoduchý výraz",
+	"apihelp-abusefilterevalexpression-example-2": "Vyhodnotiť jednoduchý výraz a formátovať výsledok",
+	"apihelp-query+abusefilters-summary": "Zobraziť podrobnosti filtra zneužití.",
+	"apihelp-query+abusefilters-example-2": "Zobraziť niektoré detaily o filtri zneužití",
+	"apierror-abusefilter-canttest": "Nemáte oprávnenie testovať filtre zneužití.",
+	"apierror-abusefilter-cantcheck": "Nemáte oprávnenie kontrolovať syntax filtrov zneužití.",
+	"apierror-abusefilter-canteval": "Nemáte oprávnenie vyhodnocovať výrazy filtra zneužití.",
+	"apierror-abusefilter-badsyntax": "Filter má neplatnú syntax."
+}

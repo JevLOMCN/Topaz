@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Ykhwong"
+		]
+	},
+	"apihelp-query+linterrors-summary": "린트 오류 목록을 가져옵니다",
+	"apihelp-query+linterrors-param-categories": "린트 오류 분류",
+	"apihelp-query+linterrors-param-limit": "질의할 결과 수",
+	"apihelp-query+linterrors-param-from": "조회를 시작할 린트 ID",
+	"apihelp-query+linterrors-param-namespace": "지정된 이름공간의 린트 오류만 포함합니다",
+	"apihelp-query+linterrors-param-pageid": "특정 문서 ID의 린트 오류만 포함합니다",
+	"apihelp-query+linterrors-example-1": "구식 태그 분류의 모든 린트 오류를 가져옵니다"
+}

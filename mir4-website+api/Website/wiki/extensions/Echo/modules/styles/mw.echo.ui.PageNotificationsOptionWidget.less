@@ -1,0 +1,83 @@
+@import 'mediawiki.skin.variables.less';
+@import 'mediawiki.mixins.less';
+@import '../echo.variables.less';
+
+.mw-echo-ui-pageNotificationsOptionWidget {
+	clear: both;
+	box-sizing: border-box;
+	width: 100%;
+
+	&.oo-ui-optionWidget {
+		transition: background-color 100ms, color 100ms;
+
+		&-highlighted {
+			background-color: #eaecf0;
+			color: @color-emphasized;
+		}
+
+		&-selected {
+			background-color: @background-color-progressive-subtle;
+			color: @color-progressive;
+		}
+
+		&-selected&-highlighted,
+		&-pressed&-highlighted {
+			background-color: rgba( 41, 98, 204, 0.1 );
+			color: @color-progressive;
+		}
+	}
+
+	&-table {
+		display: table;
+		width: 100%;
+	}
+
+	&-row {
+		display: table-row;
+	}
+
+	&-cell {
+		display: table-cell;
+		vertical-align: middle;
+	}
+
+	&.oo-ui-iconElement &-icon {
+		width: 1em;
+
+		.oo-ui-iconElement-icon {
+			position: relative;
+		}
+	}
+
+	&-title {
+		padding: 0;
+		width: 100%;
+		line-height: 1em;
+
+		&-label {
+			display: inline-block;
+			// Sidebar width - icon width - twice padding - counter average width
+			max-width: calc( @specialpage-sidebar-width - 1.865em - 2 * @specialpage-separation-unit - 2em );
+			// Truncate text with ellipsis.
+			.text-overflow( @visible: false );
+		}
+	}
+
+	&-count {
+		width: 1em;
+	}
+
+	&-label-count {
+		background-color: #eaecf0;
+		color: @color-subtle;
+		padding: 0.2em 0.5em;
+		margin-left: 0.5em;
+		border-radius: @border-radius-base;
+		white-space: nowrap;
+
+		.oo-ui-optionWidget-selected & {
+			background-color: transparent;
+			color: @color-progressive;
+		}
+	}
+}

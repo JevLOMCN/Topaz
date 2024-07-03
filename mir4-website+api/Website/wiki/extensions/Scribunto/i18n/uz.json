@@ -1,0 +1,27 @@
+{
+	"@metadata": {
+		"authors": [
+			"Malikxan"
+		]
+	},
+	"scribunto-parser-dialog-title": "Skript xatosi",
+	"scribunto-error-short": "Skript xatosi: $1",
+	"scribunto-error-long": "Skript xatolari:\n\n$1",
+	"scribunto-doc-page-name": "Module:$1/doc",
+	"scribunto-doc-page-does-not-exist": "''Bu modul uchun [[$1]] nomli hujjat sahifasini yaratishingiz mumkin''",
+	"scribunto-doc-page-header": "'''Bu sahifa [[$1]] uchun hujjat sahifasidir'''",
+	"scribunto-console-clear": "Tozalash",
+	"scribunto-common-error-category": "Skript xatolari mavjud boʻlgan sahifalar",
+	"scribunto-common-nosuchmodule": "Skript xatosi: „$2“ moduli yoʻq.",
+	"scribunto-common-notafunction": "Skript xatosi: „$2“ funksiya emas.",
+	"scribunto-lua-error-location": "Lua xatosi $1: $2.",
+	"scribunto-lua-error": "Lua xatosi: $2.",
+	"scribunto-lua-warning": "Skript xatosi: $1",
+	"scribunto-limitreport-timeusage-value": "$1/$2 soniya",
+	"scribunto-limitreport-virtmemusage-value": "$1/$2 {{PLURAL:$2|bayt|bayt}}",
+	"scribunto-limitreport-estmemusage-value": "$1 {{PLURAL:$1|bayt|bayt}}",
+	"scribunto-limitreport-memusage-value": "$1/$2 {{PLURAL:$2|bayt|bayt}}",
+	"scribunto-limitreport-logs": "Lua qaydlari",
+	"nstab-module": "Modul",
+	"tooltip-ca-nstab-module": "Modul sahifasini koʻrish"
+}

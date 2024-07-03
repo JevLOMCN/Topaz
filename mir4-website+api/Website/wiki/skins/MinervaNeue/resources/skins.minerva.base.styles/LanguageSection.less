@@ -1,0 +1,27 @@
+@import '../../minerva.less/minerva.variables.less';
+
+/* stylelint-disable selector-max-id */
+#p-lang {
+	display: none;
+
+	h4 {
+		margin-bottom: 10px;
+	}
+
+	// If hash fragment requests it.
+	&:target {
+		display: block;
+	}
+}
+
+.minerva-languages {
+	column-count: 2;
+
+	li {
+		list-style: none;
+	}
+
+	@media all and ( min-width: @width-breakpoint-tablet ) {
+		column-count: 3;
+	}
+}

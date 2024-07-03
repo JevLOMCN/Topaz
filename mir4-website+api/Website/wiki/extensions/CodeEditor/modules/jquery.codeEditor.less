@@ -1,0 +1,109 @@
+@import 'mediawiki.mixins';
+
+/* stylelint-disable selector-class-pattern */
+
+.wikiEditor-ui-toolbar .group-codeeditor-style {
+	border-right: 0;
+}
+
+.wikiEditor-ui-toolbar:not( .codeEditor-ui-toolbar ) .group-codeeditor-format,
+.wikiEditor-ui-toolbar:not( .codeEditor-ui-toolbar ) .group-codeeditor-style,
+.codeEditor-ui-toolbar .group-insert.group,
+.codeEditor-ui-toolbar .group-format.group,
+.codeEditor-ui-toolbar .tabs span.tab-advanced,
+.codeEditor-ui-toolbar .tabs span.tab-characters,
+.codeEditor-ui-toolbar .tabs span.tab-help,
+.codeEditor-ui-toolbar .sections {
+	display: none;
+}
+
+.wikiEditor-ui .ace_editor {
+	/* Same as mw-editfont-monospace, repeated for higher specificity */
+	font-size: 13px;
+	font-family: monospace, monospace;
+}
+
+.ace_editor textarea,
+.ace_editor input {
+	/* Inherit directionality from editor, not sitedir (T186329) */
+	direction: inherit;
+}
+
+.codeEditor-status {
+	clear: both;
+	width: 100%;
+	background-color: #f8f9fa;
+	border-top: 1px solid #c8ccd1;
+	display: table;
+}
+
+.codeEditor-status .codeEditor-status-worker-cell.ace_gutter-cell {
+	position: relative;
+	background-position: 0 center;
+}
+
+.codeEditor-status-worker {
+	padding: 0 0.3em;
+	user-select: none;
+	cursor: pointer;
+	display: table-cell;
+}
+
+.codeEditor-status-message {
+	border-left: 1px solid #c8ccd1;
+	border-right: 1px solid #c8ccd1;
+	padding: 0 0.3em;
+	width: 100%;
+	display: table-cell;
+}
+
+.codeEditor-status-line {
+	padding: 0 0.3em;
+	text-align: right;
+	white-space: nowrap;
+	display: table-cell;
+}
+
+/* Hide vanilla MediaWiki's "Editing help" link, as we provide it in the toolbar */
+/* Copied from the same code in WikiEditor */
+.client-js .editButtons {
+	.editHelp {
+		display: none;
+	}
+}
+
+.client-js {
+	.mw-editform {
+		/* Disable margin collapse, e.g. with messages boxes */
+		padding: 0.05px;
+
+		> #wpTextbox1 { /* stylelint-disable-line selector-max-id */
+			/* Toolbar height + padding + bottom border = 26 + 2*3 + 1 */
+			margin-top: 33px;
+		}
+	}
+
+	> .codeeditor-loading {
+		.mw-editform {
+			/* Copied from ext.wikiEditor.styles to avoid FOUC while loading (T73015) */
+			> #wpTextbox1 { /* stylelint-disable-line selector-max-id */
+				/* Unless there are <10 lines of code, the gutter will be 2 characters wide on the first page */
+				padding-left: 53px !important; /* stylelint-disable-line declaration-no-important */
+				margin-left: 0 !important; /* stylelint-disable-line declaration-no-important */
+				width: 100% !important; /* stylelint-disable-line declaration-no-important */
+			}
+
+			/* Try to style textarea like the Ace editor to avoid movement when switching */
+			#wpTextbox1 { /* stylelint-disable-line selector-max-id */
+				/* Reserve space for CodeEditor status bar */
+				padding-bottom: 22px;
+				margin-left: 49px;
+				width: calc( 100% - 49px );
+				padding-left: 4px;
+				padding-top: 0;
+				line-height: 20px;
+				white-space: pre;
+			}
+		}
+	}
+}

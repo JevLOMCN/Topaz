@@ -1,0 +1,24 @@
+{
+	"@metadata": {
+		"authors": [
+			"Geitost",
+			"Kghbln",
+			"Metalhead64"
+		]
+	},
+	"skinname-monobook": "MonoBook",
+	"monobook-desc": "Stellt eine klassische Benutzeroberfläche bereit",
+	"monobook.css": "/* Das folgende CSS wird für Benutzer der Benutzeroberfläche MonoBook geladen */",
+	"monobook.js": "/* Das folgende JavaScript wird für Benutzer der Benutzeroberfläche MonoBook geladen. */",
+	"monobook-jumptotop": "Zurück nach oben",
+	"monobook-jumptopersonal": "Benutzerwerkzeuge",
+	"monobook-jumptonavigation": "Zur Navigation springen",
+	"monobook-jumptosearch": "Zur Suche springen",
+	"monobook-more-actions": "Mehr",
+	"cactions-mobile": "Seitenaktionen",
+	"monobook-cactions-label": "Seitenaktionen",
+	"monobook-notifications-link": "Benachrichtigungen ($1)",
+	"monobook-notifications-link-none": "Benachrichtigungen",
+	"monobook-view-history": "Versionsgeschichte",
+	"monobook-action-undelete": "{{PLURAL:$1|1 Version|$1 Versionen}} wiederherstellen"
+}

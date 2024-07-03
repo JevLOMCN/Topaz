@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Tacsipacsi"
+		]
+	},
+	"apihelp-query+oath-param-user": "A lekérdezendő felhasználó, alapértelmezetten az aktuális.",
+	"apihelp-query+oath-example-1": "Információk az aktuális felhasználóról",
+	"apihelp-query+oath-example-2": "Információk az <kbd>Example</kbd> felhasználóról.",
+	"apihelp-oathvalidate-param-user": "A felhasználó, akinek a tokenjét érvényesíteni szeretnéd, alapértelmezetten az aktuális felhasználó.",
+	"apihelp-oathvalidate-example-1": "Egy token érvényesítése az aktuális felhasználónak"
+}

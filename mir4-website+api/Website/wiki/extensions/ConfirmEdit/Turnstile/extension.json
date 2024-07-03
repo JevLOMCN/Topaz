@@ -1,0 +1,59 @@
+{
+	"name": "Turnstile",
+	"author": [
+		"Jayden Bailey",
+		"..."
+	],
+	"url": "https://www.mediawiki.org/wiki/Extension:ConfirmEdit",
+	"descriptionmsg": "turnstile-desc",
+	"license-name": "GPL-2.0-or-later",
+	"type": "antispam",
+	"MessagesDirs": {
+		"Turnstile": [
+			"i18n",
+			"i18n/api"
+		]
+	},
+	"AutoloadNamespaces": {
+		"MediaWiki\\Extension\\ConfirmEdit\\Turnstile\\": "includes/"
+	},
+	"config": {
+		"CaptchaClass": {
+			"value": "MediaWiki\\Extension\\ConfirmEdit\\Turnstile\\Turnstile"
+		},
+		"TurnstileSiteKey": {
+			"value": ""
+		},
+		"TurnstileSecretKey": {
+			"value": ""
+		},
+		"TurnstileSendRemoteIP": {
+			"value": false
+		}
+	},
+	"ResourceFileModulePaths": {
+		"localBasePath": "resources",
+		"remoteExtPath": "ConfirmEdit/Turnstile/resources"
+	},
+	"ResourceModules": {
+		"ext.confirmEdit.turnstile.visualEditor": {
+			"scripts": "ve-confirmedit-turnstile/ve.init.mw.TurnstileSaveErrorHandler.js"
+		}
+	},
+	"HookHandlers": {
+		"TurnstileHooks": {
+			"class": "MediaWiki\\Extension\\ConfirmEdit\\Turnstile\\Hooks"
+		}
+	},
+	"Hooks": {
+		"ResourceLoaderGetConfigVars": "TurnstileHooks"
+	},
+	"attributes": {
+		"VisualEditor": {
+			"PluginModules": [
+				"ext.confirmEdit.turnstile.visualEditor"
+			]
+		}
+	},
+	"manifest_version": 2
+}

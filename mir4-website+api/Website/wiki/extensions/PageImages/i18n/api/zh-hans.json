@@ -1,0 +1,22 @@
+{
+	"@metadata": {
+		"authors": [
+			"GuoPC",
+			"Liuxinyu970226",
+			"Xzonn",
+			"Yfdyh000"
+		]
+	},
+	"apihelp-query+pageimages-summary": "返回页面上的图像的相关信息，例如缩略图和照片呈现信息。",
+	"apihelp-query+pageimages-example-1": "获取<kbd>Albert Einstein</kbd>页面中一张图片的名称及其<kbd>100</kbd>像素大小的缩略图。",
+	"apihelp-query+pageimages-param-prop": "返回的信息：",
+	"apihelp-query+pageimages-paramvalue-prop-thumbnail": "与页面关联的缩略图图像URL及尺寸（如果有）。",
+	"apihelp-query+pageimages-paramvalue-prop-original": "与页面关联的图像URL及原始尺寸（如果有）。",
+	"apihelp-query+pageimages-paramvalue-prop-name": "图像标题。",
+	"apihelp-query+pageimages-param-thumbsize": "缩略图的最大宽度（像素）。",
+	"apihelp-query+pageimages-param-langcode": "如果支持多种语言，则图像将要呈现的语言代码",
+	"apihelp-query+pageimages-param-limit": "返回的页面数的属性。",
+	"apihelp-query+pageimages-param-license": "限制页面图像为特定的许可协议类型：",
+	"apihelp-query+pageimages-paramvalue-license-free": "仅限自由图片",
+	"apihelp-query+pageimages-paramvalue-license-any": "最佳图片，无论自由与否。"
+}

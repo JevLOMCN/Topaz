@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Eitvys200",
+			"Nokeoo"
+		]
+	},
+	"apihelp-categorytree-summary": "Vidinis modulis, skirtas CategoryTree plėtiniui.",
+	"apihelp-categorytree-param-category": "Pavadinimas kategorijos vardų srityje, priešdėlis bus ignoruojamas, jei suteiktas.",
+	"apihelp-categorytree-param-options": "Nustatymai skirti CategoryTree konstruktoriui, kaip JSON objektui. Nustatymo <var>depth</var> numatytoji reikšmė yra <kbd>1</kbd>.",
+	"apierror-categorytree-invalidjson": "Parinktys turi būti galiojantis JSON objektas."
+}

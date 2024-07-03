@@ -1,0 +1,37 @@
+{
+	"@metadata": {
+		"authors": [
+			"Joe Watzmo",
+			"Man77",
+			"Matthias Klostermayr",
+			"Mucalexx"
+		]
+	},
+	"categorytree": "Kategorienbaam",
+	"categorytree-portlet": "Kategorina",
+	"categorytree-legend": "an Kategorienbaam ozoang",
+	"categorytree-desc": "Dynaamische Navigazion fian  [[Special:CategoryTree|Kategorienbaam]]",
+	"categorytree-header": "Zoagt fia de ogebane Kategorie de Untakategorie in ana Baamstruktur.\nDe Seitn braucht bstimmte JavaScript-Funkziona (Ajax) und funkzioniad meglichaweis ned, wen JavaScript ausgschoitn is oder a uaoida Brausa vawendt wead.",
+	"categorytree-category": "Kategorie:",
+	"categorytree-go": "Kategoriebaam ozoang",
+	"categorytree-parents": "Obakategorina",
+	"categorytree-mode-categories": "nua Kategorina",
+	"categorytree-mode-pages": "Seitn aussa Datein",
+	"categorytree-mode-all": "olle Seiten",
+	"categorytree-collapse": "eihklobben",
+	"categorytree-expand": "ausklobben",
+	"categorytree-member-counts": "enthoit {{PLURAL:$1|1 Unterkategorie|$1 Unterkategorina}}, {{PLURAL:$2|1 Seitn|$2 Seitn}} und {{PLURAL:$3|1 Datei|$3 Datein}}",
+	"categorytree-num-categories": "$1 K",
+	"categorytree-num-pages": "$1 S",
+	"categorytree-num-files": "$1 D",
+	"categorytree-num-empty": "laar",
+	"categorytree-load": "loon",
+	"categorytree-loading": "lod ...",
+	"categorytree-nothing-found": "Nix gfunden",
+	"categorytree-no-subcategories": "Koa Untakategorie",
+	"categorytree-no-parent-categories": "Koa Obakategorie",
+	"categorytree-no-pages": "Koane Seiten oder Unterkategorien",
+	"categorytree-not-found": "Kategorie „$1“ ned gfunden",
+	"categorytree-error": "Probleem beim Loon voh de Daaten.",
+	"categorytree-retry": "Bittschee wort a Momenterl und vasuachs dånn nuamoi."
+}

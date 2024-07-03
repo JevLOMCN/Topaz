@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"OIS",
+			"Renan",
+			"Stavanger7"
+		]
+	},
+	"pfunc_time_error": "Errore: hora ínvalid.",
+	"pfunc_expr_unrecognised_word": "Errore de expression: parol \"$1\" non-reconosset.",
+	"pfunc_expr_unexpected_operator": "Errore de expression: operator $1 ínexpectat.",
+	"pfunc_expr_missing_operand": "Errore de expression: mancant operant por $1.",
+	"pfunc_expr_unrecognised_punctuation": "Errore de expression: caráctere de punctuation \"$1\" non-reconosset.",
+	"pfunc_expr_division_by_zero": "Division per zero."
+}

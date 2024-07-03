@@ -1,0 +1,25 @@
+{
+	"@metadata": {
+		"authors": [
+			"BadDog",
+			"Millosh",
+			"Obsuser",
+			"Prevodim",
+			"Rancher",
+			"Sasa Stefanovic",
+			"Сербијана"
+		]
+	},
+	"syntaxhighlight-desc": "Омогућава истицање синтаксе <code>&lt;syntaxhighlight&gt;</code> коришћењем алатке [http://pygments.org/ Pygments — Пајтон истицач синтаксе]",
+	"syntaxhighlight-error-category": "Странице с грешкама у истицању синтаксе",
+	"syntaxhighlight-error-category-desc": "Дошло је до грешке при покушају истицања кода који је укључен на страници.",
+	"syntaxhighlight-visualeditor-mwsyntaxhighlightinspector-code": "Кôд",
+	"syntaxhighlight-visualeditor-mwsyntaxhighlightinspector-language": "Језик",
+	"syntaxhighlight-visualeditor-mwsyntaxhighlightinspector-none": "(ниједан)",
+	"syntaxhighlight-visualeditor-mwsyntaxhighlightinspector-showlines": "Бројеви редова",
+	"syntaxhighlight-visualeditor-mwsyntaxhighlightinspector-startingline": "Број почетног реда",
+	"syntaxhighlight-visualeditor-mwsyntaxhighlightinspector-title": "Рачунарски код",
+	"syntaxhighlight-error-pygments-invocation-failure": "Нисам успео да позовем Pygments",
+	"syntaxhighlight-error-unknown-language": "Непознат језик „$1“",
+	"syntaxhighlight-error-exceeds-size-limit": "Тренутна величина кода  ($1 {{PLURAL:$1|бајт|бајта|бајтова}}) прекорачава горњу границу од $2 {{PLURAL:$1|бајт|бајта|бајтова}}"
+}

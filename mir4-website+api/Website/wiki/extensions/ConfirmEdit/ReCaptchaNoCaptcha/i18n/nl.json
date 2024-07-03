@@ -1,0 +1,16 @@
+{
+	"@metadata": {
+		"authors": [
+			"McDutchie"
+		]
+	},
+	"renocaptcha-desc": "reCAPTCHA NoCAPTCHA-module voor Confirm Edit",
+	"renocaptcha-edit": "Om de wiki te beschermen tegen geautomatiseerde bewerkingsspam vragen wij u vriendelijk de volgende CAPTCHA op te lossen:",
+	"renocaptcha-addurl": "Uw bewerking bevat nieuwe externe links. Om de wiki te beschermen tegen geautomatiseerde spam vragen wij u vriendelijk de volgende CAPTCHA op te lossen:",
+	"renocaptcha-badlogin": "Om de wiki te beschermen tegen automatisch kraken van wachtwoorden vragen wij u vriendelijk de volgende CAPTCHA op te lossen:",
+	"renocaptcha-createaccount": "Om de wiki te beschermen tegen het automatisch aanmaken van accounts vragen wij u vriendelijk de volgende CAPTCHA op te lossen:",
+	"renocaptcha-createaccount-fail": "Het lijkt erop dat u de CAPTCHA niet hebt opgelost.",
+	"renocaptcha-create": "Om de wiki te beschermen tegen het automatisch aanmaken van pagina's vragen wij u vriendelijk de volgende CAPTCHA op te lossen:",
+	"renocaptcha-noscript": "Helaas hebt u JavaScript uitgeschakeld, zodat we niet automatisch kunnen herkennen of u een mens bent of niet. Los de CAPTCHA hierboven op en kopieer de resulterende tekst in het volgende tekstgebied:",
+	"renocaptcha-help": "Los een ReCaptcha NoCaptcha-uitdaging op en retourneer de antwoordwaarde als captchaWord."
+}

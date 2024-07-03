@@ -1,0 +1,31 @@
+{
+	"@metadata": {
+		"authors": [
+			"Arystanbek"
+		]
+	},
+	"nuke": "Жаппай жою",
+	"action-nuke": "Жаппай жою беттері",
+	"nuke-desc": "Администраторлар беттерді [[Special:Nuke|жаппай жоюға]] құзретті",
+	"nuke-nopages": "Жуықтағы өзгерістерде [[Special:Contributions/$1|{{GENDER:$1|$1}}]] қосқан жаңа беттер жоқ.",
+	"nuke-list": "Төмендегі беттерді жуықта [[Special:Contributions/$1|{{GENDER:$1|$1}}]] бастаған; пікіріңізді қалдырыңыз және оларды жою үшін батырманы басыңыз.",
+	"nuke-list-multiple": "Төмендегі беттерді жуықта басталған; пікіріңізді қалдырыңыз және оларды жою үшін батырманы басыңыз.",
+	"nuke-defaultreason": "[[Special:Contributions/$1|{{GENDER:$1|$1}}]] қосқан беттерді жаппай жойды",
+	"nuke-multiplepeople": "Жуырда қосылған беттерді жаппай жойды",
+	"nuke-tools": "Бұл құрал осы қатысушының немесе IP мекен-жайының соңғы қосқан беттерді жаппай жоюға мүмкіндік береді.",
+	"nuke-submit-user": "Өту",
+	"nuke-submit-delete": "Жойылуға таңдалды",
+	"right-nuke": "Беттерді жаппай жой",
+	"nuke-userorip": "Қатысушы есімі, IP мекенөжай немесе бос орын",
+	"nuke-maxpages": "Жою мүмкін болатын ең көп беттер саны",
+	"nuke-editby": "[[Special:Contributions/$1|{{GENDER:$1|$1}}]] бастаған",
+	"nuke-deleted": "'''$1'''  беті жойылды.",
+	"nuke-not-deleted": "[[:$1]] беті '''жойылмады'''.",
+	"nuke-delete-more": "[[Special:Nuke|Басқа да беттерді жою]]",
+	"nuke-pattern": "Бет атауы үшін өрнек:",
+	"nuke-nopages-global": "[[Special:RecentChanges|Жуықтағы өзгерістерде]] жаңа беттер жоқ.",
+	"nuke-viewchanges": "өзгерістерін көру",
+	"nuke-namespace": "Есім кеңістігіндегі шектеулер",
+	"nuke-linkoncontribs": "жаппай жою",
+	"nuke-linkoncontribs-text": "Тек бұл қатысушы авторы болатын беттерді  жаппай жою"
+}

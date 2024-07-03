@@ -1,0 +1,27 @@
+[
+	{
+		"msg": "Simple message",
+		"html": "<p>Foo bar</p>",
+		"expected": "<p>Foo bar<span typeof=\"mw:Transclusion\" data-mw=\"{&quot;parts&quot;:[&quot; ~~~~&quot;]}\"></span></p>"
+	},
+	{
+		"msg": "Simple message (from wikitext mode)",
+		"html": "<p><span typeof=\"mw:Transclusion\" data-mw=\"{&quot;parts&quot;:[&quot;Foo bar&quot;]}\"></span></p>",
+		"expected": "<p><span typeof=\"mw:Transclusion\" data-mw=\"{&quot;parts&quot;:[&quot;Foo bar&quot;]}\"></span><span typeof=\"mw:Transclusion\" data-mw=\"{&quot;parts&quot;:[&quot; ~~~~&quot;]}\"></span></p>"
+	},
+	{
+		"msg": "List",
+		"html": "<p>Foo bar</p><ul><li>A</li><li>B</li></ul>",
+		"expected": "<p>Foo bar</p><ul><li>A</li><li>B</li></ul><p><span typeof=\"mw:Transclusion\" data-mw=\"{&quot;parts&quot;:[&quot;~~~~&quot;]}\"></span></p>"
+	},
+	{
+		"msg": "List (from wikitext mode)",
+		"html": "<p><span typeof=\"mw:Transclusion\" data-mw=\"{&quot;parts&quot;:[&quot;Foo bar&quot;]}\"></span></p><p><span typeof=\"mw:Transclusion\" data-mw=\"{&quot;parts&quot;:[&quot;*A&quot;]}\"></span></p><p><span typeof=\"mw:Transclusion\" data-mw=\"{&quot;parts&quot;:[&quot;*B&quot;]}\"></span></p>",
+		"expected": "<p><span typeof=\"mw:Transclusion\" data-mw=\"{&quot;parts&quot;:[&quot;Foo bar&quot;]}\"></span></p><p><span typeof=\"mw:Transclusion\" data-mw=\"{&quot;parts&quot;:[&quot;*A&quot;]}\"></span></p><p><span typeof=\"mw:Transclusion\" data-mw=\"{&quot;parts&quot;:[&quot;*B&quot;]}\"></span></p><p><span typeof=\"mw:Transclusion\" data-mw=\"{&quot;parts&quot;:[&quot;~~~~&quot;]}\"></span></p>"
+	},
+	{
+		"msg": "Empty trailing paragraph",
+		"html": "<p>Foo bar</p><p></p>",
+		"expected": "<p>Foo bar</p><p><span typeof=\"mw:Transclusion\" data-mw=\"{&quot;parts&quot;:[&quot;~~~~&quot;]}\"></span></p>"
+	}
+]

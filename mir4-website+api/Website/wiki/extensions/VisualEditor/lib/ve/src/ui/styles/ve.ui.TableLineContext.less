@@ -1,0 +1,57 @@
+/*!
+ * VisualEditor UserInterface Table Context styles.
+ *
+ * @copyright See AUTHORS.txt
+ */
+
+.ve-ui-tableLineContext {
+	/* Ensure it is placed above the table context */
+	z-index: 3;
+
+	> .oo-ui-iconWidget.oo-ui-iconElement.oo-ui-iconElement-icon {
+		position: absolute;
+		display: block;
+		background-color: #d3e5fd;
+		box-sizing: border-box;
+		cursor: pointer;
+		margin: 0;
+	}
+
+	&-col > .oo-ui-iconWidget.oo-ui-iconElement.oo-ui-iconElement-icon {
+		width: 100%;
+		height: 1em;
+		min-height: auto;
+		/* Context height + 0.2em gap */
+		top: -1.2em;
+		border-bottom: 0;
+	}
+
+	&-row > .oo-ui-iconWidget.oo-ui-iconElement.oo-ui-iconElement-icon {
+		width: 1em;
+		min-width: auto;
+		/* Context width + 0.2em gap */
+		left: -1.2em;
+		border-right: 0;
+	}
+
+	&-table > .oo-ui-iconWidget.oo-ui-iconElement.oo-ui-iconElement-icon {
+		height: 1em;
+		width: 1em;
+		min-width: auto;
+		min-height: auto;
+		/* Context width/height + 0.2em gap */
+		top: -1.2em;
+		left: -1.2em;
+		border-bottom: 0;
+		border-right: 0;
+	}
+
+	.ve-ce-tableNodeOverlay-deactivated & > .oo-ui-iconWidget.oo-ui-iconElement.oo-ui-iconElement-icon {
+		background-color: #ddd;
+	}
+
+	&-menu {
+		z-index: 2;
+	}
+}
+

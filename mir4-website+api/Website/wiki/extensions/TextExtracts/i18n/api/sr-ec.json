@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Kizule",
+			"Prevodim",
+			"Zoranzoki21"
+		]
+	},
+	"apihelp-query+extracts-summary": "Враћа сажетке датих страница у облику чистог текста или ограниченог HTML-а.",
+	"apihelp-query+extracts-param-chars": "Колико слова треба вратити. Текст који се заправо враћа може бити мало дужи.",
+	"apihelp-query+extracts-param-sentences": "Колико реченица треба вратити.",
+	"apihelp-query+extracts-param-intro": "Врати само садржај пре прве секције.",
+	"apiwarn-textextracts-unsupportedmodel": "$1 има модел садржаја $2, који није подржан; враћа се празан сажетак."
+}

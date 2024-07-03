@@ -1,0 +1,49 @@
+@import 'mediawiki.mixins.less';
+
+/* Add margin between captcha and editform buttons */
+.fancycaptcha-captcha-container {
+	margin-bottom: 8px;
+}
+
+/* Prevents the size of the container from changing, affecting page
+layout, for normal CAPTCHA sizes. */
+.fancycaptcha-image-container {
+	min-height: 95px;
+	position: relative; /* to position Reload link within this */
+	display: inline-block;
+}
+
+.fancycaptcha-image {
+	max-width: 100%;
+}
+
+.fancycaptcha-reload {
+	.background-image( 'images/refresh.svg' );
+	background-position: left center;
+	background-repeat: no-repeat;
+	background-size: 12px 12px;
+	margin: 0 0 0 3px;
+	padding: 1px 2px 1px 12px;
+	color: #0645ad;
+	cursor: pointer;
+	cursor: hand;
+}
+
+.client-nojs .fancycaptcha-reload {
+	display: none;
+}
+
+.fancycaptcha-reload:hover {
+	text-decoration: underline;
+}
+
+.fancycaptcha-reload-loading {
+	/* @embed */
+	background: url( images/ajax-loader-10x10.gif ) no-repeat scroll left center transparent;
+}
+
+.fancycaptcha-image-container .fancycaptcha-reload {
+	position: absolute;
+	bottom: 0;
+	right: 4px;
+}

@@ -1,0 +1,33 @@
+{
+	"@metadata": {
+		"authors": [
+			"Danny B.",
+			"Li-sung",
+			"LordMsz",
+			"Matěj Grabovský",
+			"Mormegil",
+			"Sp5uhe"
+		]
+	},
+	"pfunc_desc": "Rozšíření syntaktického analyzátoru o logické funkce",
+	"pfunc_time_error": "Chyba: neplatný čas",
+	"pfunc_time_too_long": "Chyba: příliš mnoho volání #time",
+	"pfunc_time_too_big": "Chyba: #time nepodporuje roky nad 9999",
+	"pfunc_time_too_small": "Chyba: #time nepodporuje roky menší než 0.",
+	"pfunc_rel2abs_invalid_depth": "Chyba: Neplatná hloubka v cestě: \"$1\" (pokus o přístup do uzlu vyššího než kořen)",
+	"pfunc_expr_stack_exhausted": "Chyba ve výrazu: Zásobník plně obsazen",
+	"pfunc_expr_unexpected_number": "Chyba ve výrazu: Očekáváno číslo",
+	"pfunc_expr_preg_match_failure": "Chyba ve výrazu: Neočekávaná chyba funkce preg_match",
+	"pfunc_expr_unrecognised_word": "Chyba ve výrazu: Nerozpoznané slovo „$1“.",
+	"pfunc_expr_unexpected_operator": "Chyba ve výrazu: Neočekávaný operátor $1",
+	"pfunc_expr_missing_operand": "Chyba ve výrazu: Chybí operand pro $1",
+	"pfunc_expr_unexpected_closing_bracket": "Chyba ve výrazu: Neočekávaná uzavírací závorka",
+	"pfunc_expr_unrecognised_punctuation": "Chyba ve výrazu: Nerozpoznaný interpunkční znak „$1“.",
+	"pfunc_expr_unclosed_bracket": "Chyba ve výrazu: Neuzavřené závorky",
+	"pfunc_expr_division_by_zero": "Dělení nulou",
+	"pfunc_expr_invalid_argument": "Neplatný argument pro $1: < -1 nebo > 1",
+	"pfunc_expr_invalid_argument_ln": "Neplatný argument pro ln: <= 0",
+	"pfunc_expr_unknown_error": "Chyba ve výrazu: Neznámá chyba ($1)",
+	"pfunc_expr_not_a_number": "V $1: výsledkem není číslo",
+	"pfunc_string_too_long": "Chyba: Řetězec je delší než $1 {{PLURAL:$1|znak|znaky|znaků}}, což je limit"
+}

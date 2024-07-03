@@ -1,0 +1,29 @@
+{
+	"@metadata": {
+		"authors": [
+			"Bjankuloski06",
+			"Brest"
+		]
+	},
+	"pfunc_desc": "Проширување на можностите на расчленувачот со логички функции",
+	"pfunc_time_error": "Грешка: погрешен формат за време",
+	"pfunc_time_too_long": "Грешка: премногу повикувања на функцијата #time",
+	"pfunc_time_too_big": "Грешка: #time поддржува само години до 9999",
+	"pfunc_time_too_small": "Грешка: #time поддржува само години од 0 натаму.",
+	"pfunc_rel2abs_invalid_depth": "Грешка: Неважечка продорност во патеката: „$1“ (обид за пристап до јазол кој се наоѓа повисоко од коренитиот)",
+	"pfunc_expr_stack_exhausted": "Грешка во изразот: Складот е преполн",
+	"pfunc_expr_unexpected_number": "Грешка во изразот: Неочекуван број",
+	"pfunc_expr_preg_match_failure": "Грешка во изразот: Неочекуван проблем со preg_match",
+	"pfunc_expr_unrecognised_word": "Грешка во изразот: Непрепознаен збор „$1“",
+	"pfunc_expr_unexpected_operator": "Грешка во изразот: Неочекуван оператор $1",
+	"pfunc_expr_missing_operand": "Грешка во изразот: Недостасува операнд за $1",
+	"pfunc_expr_unexpected_closing_bracket": "Грешка во изразот: Неочекувано затворање на заграда",
+	"pfunc_expr_unrecognised_punctuation": "Грешка во изразот: Непрепознаен интерпункциски знак „$1“",
+	"pfunc_expr_unclosed_bracket": "Грешка во изразот: Незатворена заграда",
+	"pfunc_expr_division_by_zero": "Делење со нула",
+	"pfunc_expr_invalid_argument": "Неважечки аргумент за $1: помало од -1 или поголемо од 1.",
+	"pfunc_expr_invalid_argument_ln": "Неважечки аргумент за ln: поголемо или еднакво на 0.",
+	"pfunc_expr_unknown_error": "Грешка во изразот: Непозната грешка ($1)",
+	"pfunc_expr_not_a_number": "Во $1: Исходот не е број",
+	"pfunc_string_too_long": "Грешка: низата го надминува ограничувањето од $1 знаци"
+}

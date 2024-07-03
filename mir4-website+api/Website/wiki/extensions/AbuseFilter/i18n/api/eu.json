@@ -1,0 +1,35 @@
+{
+	"@metadata": {
+		"authors": [
+			"Joseba",
+			"Manex"
+		]
+	},
+	"apihelp-abusefiltercheckmatch-param-filter": "Iragazki osoko testua kointzidentzia bat egiaztatzeko.",
+	"apihelp-abusefiltercheckmatch-param-vars": "JSON aldagaien array kodetua probatzeko.",
+	"apihelp-abusefiltercheckmatch-param-rcid": "Duela gutxiko aldaketaren IDa konprobatzeko.",
+	"apihelp-abusefiltercheckmatch-param-logid": "Abusu-Iragazkiaren erregistroaren IDa konprobatzeko.",
+	"apihelp-abusefiltercheckmatch-example-1": "Probatu duela gutxiko ID 15 aldaketa iragazki sinple batekin bat datorren",
+	"apihelp-abusefilterchecksyntax-summary": "Abusu-iragazki baten sintaxia konprobatu.",
+	"apihelp-abusefilterchecksyntax-param-filter": "Sintaxia egiaztatzeko iragazki osoko testua.",
+	"apihelp-abusefilterchecksyntax-example-1": "Berrikusi iragazki baliogarri baten sintaxia",
+	"apihelp-abusefilterchecksyntax-example-2": "Berrikusi iragazki baliogabe baten sintaxia",
+	"apihelp-abusefilterevalexpression-param-expression": "Ebaluatzeko espresioa.",
+	"apihelp-abusefilterevalexpression-example-1": "Ebaluatu espresio arrunt bat",
+	"apihelp-abusefilterunblockautopromote-param-user": "Desgaitu nahi duzun erabiltzailearen erabiltzaile-izena.",
+	"apihelp-query+abusefilters-param-show": "Soilik kriterio hau betetzen duten iragazkiak erakutsi.",
+	"apihelp-query+abusefilters-param-limit": "Gehienez zerrendatzeko iragazkien kopurua.",
+	"apihelp-query+abusefilters-param-prop": "Zein propietate lortu.",
+	"apihelp-query+abusefilters-example-1": "Iragazki publiko baimenduak zerrendatu",
+	"apihelp-query+abusefilters-example-2": "erakutsi iragazkien zehaztasunak",
+	"apihelp-query+abuselog-param-logid": "Emandako erregistroaren IDrako sarrera bat erakutsi.",
+	"apihelp-query+abuselog-param-title": "Soilik emandako orrialde batean dauden sarrerak erakutsi.",
+	"apihelp-query+abuselog-example-1": "Azken momentuko sarrera-erregistroak erakutsi",
+	"apihelp-query+abuselog-example-2": "Azken momentuko sarrera-erregistroak erakutsi [[API]]rako",
+	"apihelp-abuselogprivatedetails-param-reason": "Egiaztapena egiteko baliozko arrazoi bat",
+	"apierror-abusefilter-canttest": "Abusu-iragazkiak probatzeko baimenik ez daukazu.",
+	"apierror-abusefilter-cantcheck": "Abusu-iragazkien sintaxia egiaztatzeko baimenik ez daukazu.",
+	"apierror-abusefilter-canteval": "Abusu-iragazkien espresioak ebaluatzeko baimenik ez daukazu.",
+	"apierror-abusefilter-nosuchlogid": "Ez dago abusu erregistroaren sarrerarik $1 id -arekin.",
+	"apierror-abusefilter-badsyntax": "Iragazki honek baliozkoa ez den sintaxia dauka."
+}

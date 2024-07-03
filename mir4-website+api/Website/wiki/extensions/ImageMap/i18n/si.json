@@ -1,0 +1,20 @@
+{
+	"@metadata": {
+		"authors": [
+			"නන්දිමිතුරු"
+		]
+	},
+	"imagemap_desc": "<code>&lt;imagemap&gt;</code> ටැගය භාවිතයෙන් සේවාලාභි-අන්තයෙහි ක්ලික්කලහැකි රූප සිතියම් වලට ඉඩ සලසයි",
+	"imagemap_no_image": "දෝෂය: ඔබ විසින්, පළමු පේලියෙහි රූපයක් හුවාදැක්වියයුතුය",
+	"imagemap_invalid_image": "දෝෂය: රූපය අනීතිකයි නැතිනම් නොපවතියි",
+	"imagemap_bad_image": "දෝෂය: රූපය මෙම පටුවෙහි අපලේඛණය කොට ඇත",
+	"imagemap_no_link": "දෝෂය: $1 පේළිය කෙළවර කිසිදු නීතික සබැඳියක් හමුනොවිණි",
+	"imagemap_invalid_title": "දෝෂය: $1 පේළියෙහි සබැඳියෙහි ශීර්ෂය අනීතිකයි",
+	"imagemap_missing_coord": "දෝෂය: $1 පේළියෙහි හැඩය සඳහා අවශ්‍ය තරමට ඛණ්ඩාංක සපයා නොමැත",
+	"imagemap_unrecognised_shape": "දෝෂය: $1 පේළියෙහි හැඩය හඳුනාගතනොහැකි විය, සෑම පේළියක්ම මෙයින් එකකික් ඇරඹිය යුතුය: <code>default</code>, <code>rect</code>, <code>circle</code> හෝ <code>poly</code>",
+	"imagemap_invalid_coord": "දෝෂය: $1 පේළියෙහි අනීතික ඛණ්ඩාංකයකි, එය සංඛ්‍යාවක් විය යුතුය",
+	"imagemap_invalid_desc": "දෝෂය: desc පිරිවිතරය අනීතිකයි, මෙයින් එකක් විය යුතුය: <code>$1</code>",
+	"imagemap_description": "මෙම රූපය පිළිබඳ",
+	"imagemap_desc_types": "ඉහළ-දකුණ, පහළ-දකුණ, පහළ-වම, ඉහළ-වම, කිසිවක් නැත",
+	"imagemap_poly_odd": "දෝෂය: $1 පේළියෙහි ඛණ්ඩාංක ඔත්තේ ගණනක් සමග poly හමුවිය"
+}

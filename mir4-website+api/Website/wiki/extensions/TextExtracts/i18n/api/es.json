@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"Dgstranz",
+			"Macofe"
+		]
+	},
+	"apihelp-query+extracts-param-chars": "Cuántos caracteres devolver. El texto real devuelto puede ser un poco más largo.",
+	"apihelp-query+extracts-param-sentences": "Cuántas oraciones se devolverán.",
+	"apihelp-query+extracts-param-limit": "Cuántos extractos se devolverán. (Los extractos múltiples sólo pueden devolverse si se estable 'exintro' como verdadero.)",
+	"apihelp-query+extracts-param-intro": "Devolver sólo el contenido antes de la primera sección.",
+	"apihelp-query+extracts-param-plaintext": "Devuelve extractos como texto sin formato en lugar de HTML limitado.",
+	"apihelp-query+extracts-example-1": "Obtener un extracto de 175 caracteres",
+	"apiwarn-textextracts-unsupportedmodel": "El modelo de contenido de $1 es $2, que no es compatible; se devolverá un extracto vacío."
+}

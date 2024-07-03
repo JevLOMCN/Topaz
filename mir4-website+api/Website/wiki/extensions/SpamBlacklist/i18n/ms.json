@@ -1,0 +1,20 @@
+{
+	"@metadata": {
+		"authors": [
+			"Anakmalaysia",
+			"Aviator",
+			"Jeluang Terluang",
+			"Pizza1016",
+			"Tofeiku"
+		]
+	},
+	"spam-blacklist": "# URL luar yang sepadan dengan mana-mana entri dalam senarai ini akan disekat daripada ditambah ke dalam sesebuah laman.\n# Senarai ini melibatkan wiki ini sahaja; sila rujuk juga senarai hitam sejagat. \n# Sila baca pendokumenan di https://www.mediawiki.org/wiki/Extension:SpamBlacklist\n#<!-- jangan ubah baris ini --> <pre>\n#\n# Sintaks adalah seperti berikut:\n#  * Semuanya mulai aksara \"#\" hingga akhir baris merupakan komen\n#  * Setiap baris yang tidak kosong meruakan pecahan ungkapan nalar yang hanya akan berpadan dengan hos-hos dalam alamat e-mel\n\n #</pre> <!-- jangan ubah baris ini -->",
+	"spam-whitelist": " #<!-- jangan ubah baris ini --> <pre>\n# URL luar yang sepadan dengan mana-mana entri dalam senarai ini tidak akan\n# disekat walaupun terdapat juga dalam senarai hitam.\n#\n# Sintaks:\n#  * Aksara \"#\" sampai akhir baris diabaikan\n#  * Ungkapan nalar dibaca daripada setiap baris dan dipadankan dengan nama hos sahaja\n\n #</pre> <!-- jangan ubah baris ini -->",
+	"email-blacklist": " # Alamat-alamat e-mel yang berpadanan dengan senarai ini akan disekat daripada mendaftar atau menghantar e-mel\n # Senarai ini melibatkan wiki ini sahaja; sila rujuk juga senarai hitam sejagat.\n # Untuk pendokumenan, rujuk https://www.mediawiki.org/wiki/Extension:SpamBlacklist\n #<!-- jangan ubah baris ini --> <pre>\n#\n# Sintaks adalah seperti berikut:\n#   * Semuanya mulai aksara \"#\" hingga akhir baris merupakan komen\n#   * Setiap baris yang tidak kosong merupakan pecahan ungkapan nalar yang hanya akan berpadan dengan hos-hos dalam alamat e-mel\n\n #</pre> <!-- jangan ubah baris ini -->",
+	"email-whitelist": " #<!-- jangan ubah baris ini --> <pre>\n# Alamat-alamat e-mel yang berpadanan dengan senarai ini *tidak* akan disekat sungguhpun boleh\n# disekat oleh entri senarai hitam.\n#\n# Sintaks adalah seperti berikut:\n#   * Segalanya mulai aksara \"#\" hingga akhir baris ialah komen\n#   * Setiap baris yang tidak kosong meruakan pecahan ungkapan nalar yang hanya akan berpadan dengan hos-hos dalam alamat e-mel\n\n #</pre> <!-- leave this line exactly as it is -->",
+	"spam-blacklisted-email": "E-mel yang dilarang",
+	"spam-blacklisted-email-text": "Alamat e-mel anda kini dilarang daripada menghantar e-mel kepada pengguna lain.",
+	"spam-blacklisted-email-signup": "Alamat e-mel yang diberikan ini kini disenaraihitamkan.",
+	"spam-invalid-lines": "{{PLURAL:$1|Baris|Baris-baris}} berikut menggunakan ungkapan nalar yang tidak sah. Sila baiki senarai hitam ini sebelum menyimpannya:",
+	"spam-blacklist-desc": "Alat anti-spam berdasarkan ungkapan nalar: [[MediaWiki:Spam-blacklist]] dan [[MediaWiki:Spam-whitelist]]"
+}

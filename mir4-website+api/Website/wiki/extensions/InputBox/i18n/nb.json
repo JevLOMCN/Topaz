@@ -1,0 +1,19 @@
+{
+	"@metadata": {
+		"authors": [
+			"Danmichaelo",
+			"EivindJ",
+			"Jon Harald Søby"
+		]
+	},
+	"inputbox-desc": "Tillater inkludering av forhåndsdefinerte HTML-skjemaer",
+	"inputbox-error-no-type": "Du har ikke angitt hva slags inputboks du vil lage.",
+	"inputbox-error-bad-type": "Inputboks av typen «$1» gjenkjennes ikke.\nVennligst velg «create», «comment», «search», «search2» eller «fulltext».",
+	"inputbox-tryexact": "Prøv nøyaktig treff",
+	"inputbox-searchfulltext": "Søk i fulltekst",
+	"inputbox-createarticle": "Opprett side",
+	"inputbox-movearticle": "Flytt side",
+	"inputbox-postcomment": "Nytt avsnitt",
+	"inputbox-postcommenttitle": "Nytt avsnitt",
+	"inputbox-ns-main": "Hoved"
+}

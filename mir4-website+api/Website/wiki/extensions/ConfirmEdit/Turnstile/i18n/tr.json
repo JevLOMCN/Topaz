@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"Hedda"
+		]
+	},
+	"turnstile-desc": "ConfirmEdit'e Cloudflare Turnstile desteği ekler",
+	"turnstile-edit": "Viki'yi otomatik düzenleme spam'ine karşı korumak için lütfen aşağıdaki captcha'yı çözün:",
+	"turnstile-addurl": "Düzenlemenizde yeni dış bağlantılar mevcut. Viki'yi otomatik spam'e karşı korumak için lütfen aşağıdaki captcha'yı çözün:",
+	"turnstile-badlogin": "Viki'yi otomatik şifre kırmaya karşı korumak için lütfen aşağıdaki captcha'yı çözün:",
+	"turnstile-createaccount": "Viki'yi otomatik hesap oluşturmaya karşı korumak için lütfen aşağıdaki captcha'yı çözün:",
+	"turnstile-createaccount-fail": "Görünüşe göre CAPTCHA'yı çözümleyemediniz.",
+	"turnstile-create": "Viki'yi otomatik sayfa oluşturmaya karşı korumak için lütfen aşağıdaki captcha'yı çözün:",
+	"turnstile-help": "Lütfen, Turnstile meydan okumasını çözün ve yanıt değerini captchaWord olarak geri gönderin."
+}

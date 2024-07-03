@@ -1,0 +1,30 @@
+{
+	"@metadata": {
+		"authors": [
+			"Amire80",
+			"Hosseinblue"
+		]
+	},
+	"apihelp-visualeditor-param-basetimestamp": "هنگام ذخیره کردن، زمان نسخهٔ ویرایش شده را برای این مورد تنظیم کنید. برای تشخیص تعارض ویرایش کاربرد دارد.",
+	"apihelp-visualeditor-param-cachekey": "برای پیوند تفاوت، از نتیجه درخواست تفاوت پیشین به کمک این کلید استفاده کنید. بازنویسی $1html.",
+	"apihelp-visualeditor-param-etag": "ای‌تگ برای ارسال.",
+	"apihelp-visualeditor-param-html": "HTML برای ارسال به پارسوید برای تبدیل به متن ویکی.",
+	"apihelp-visualeditor-param-oldid": "تعداد نسخه‌ها برای استفاده (آخرین نسخه به عنوان پیش‌فرض)",
+	"apihelp-visualeditor-param-paction": "عمل برای انجام‌دادن.",
+	"apihelp-visualeditor-param-page": "وةڵگة برای اعمال عمل بر روی آن.",
+	"apihelp-visualeditor-param-pst": "پیش-ذخیره متن ویکی تبدیل شده پیش از ارسال آن به پارسوید (paction=parsefragment).",
+	"apihelp-visualeditor-param-starttimestamp": "در زمان ذخیره‌کردن، این را برای زمان بارگیری نسخه تنظیم کنید. برای تشخیص تعارض ویرایش کاربرد دارد.",
+	"apihelp-visualeditor-param-wikitext": "متن ویکی برای ارسال به پارسوید برای تبدیل به اچ‌تی‌ام‌ال (paction=parsefragment).",
+	"apihelp-visualeditoredit-param-basetimestamp": "در زمان ذخیره‌کردن، این را برای زمان نسخهٔ ویرایش تنظیم کنید. برای تشخیص تعارض ویرایش کاربرد دارد.",
+	"apihelp-visualeditoredit-param-cachekey": "از نتیجه درخواست تفاوت پیشین به کمک این کلید استفاده کنید. بازنویسی $1html.",
+	"apihelp-visualeditoredit-param-captchaid": "ID تصویر امنیتی (زمان ذخیره با پاسخ یک تصویر امنیتی)",
+	"apihelp-visualeditoredit-param-captchaword": "پاسخ به تصویر امنیتی (زمان ذخیره با یک پاسخ تصویر امنیتی)",
+	"apihelp-visualeditoredit-param-etag": "ای‌تگ برای ارسال.",
+	"apihelp-visualeditoredit-param-html": "HTML برای ارسال به پارسوید برای تبدیل به متن ویکی.",
+	"apihelp-visualeditoredit-param-minor": "علامت به‌عنوان ویرایش جزئی.",
+	"apihelp-visualeditoredit-param-needcheck": "در زمان ذخيره كردن اگر نسخه مشكلات رفت و برگشت داشت، پاراسويد را تنظيم كن. اين عمل در برچسب ويرايش داشتن تاثير دارد.",
+	"apihelp-visualeditoredit-param-oldid": "شماره نسخه استفاده شود. پيش فرض بر آخرين نسخه است. صفحات تازه ٠ است",
+	"apihelp-visualeditoredit-param-page": "وةڵگة برای انجام‌دادن عمل‌ها بر روی آن.",
+	"apihelp-visualeditoredit-param-starttimestamp": "در زمان ذخیره‌کردن، این را برای زمان بارگیری نسخه تنظیم کنید. برای تشخیص تعارض ویرایش کاربرد دارد.",
+	"apihelp-visualeditoredit-param-summary": "خلاصة دةسکاری"
+}

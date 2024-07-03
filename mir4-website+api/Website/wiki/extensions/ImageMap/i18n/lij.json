@@ -1,0 +1,19 @@
+{
+	"@metadata": {
+		"authors": [
+			"Giromin Cangiaxo"
+		]
+	},
+	"imagemap_desc": "A permette de realizâ de mappe inmaggine clicabbili lato cliente doeuviando l'etichetta <code>&lt;imagemap&gt;</code>",
+	"imagemap_no_image": "Errô: Bezoeugna specificâ 'n'inmaggine inta primma riga.",
+	"imagemap_invalid_image": "Errô: L'inmaggine a no l'è vallida ò a no l'existe.",
+	"imagemap_bad_image": "Errô: L'inmaggine a l'è 'nta lista neigra de sta paggina.",
+	"imagemap_no_link": "Errô: No l'è stæto trovou nisciun ingancio vallido a-a fine da riga $1.",
+	"imagemap_invalid_title": "Errô: Tittolo non vallido inte l'ingancio a-a riga $1.",
+	"imagemap_missing_coord": "Errô: No gh'è assæ coordinæ pe-a forma a-a riga $1.",
+	"imagemap_unrecognised_shape": "Errô: forma non riconosciua a-a riga $1, ogni riga a deve comensâ con un-a de ste paole: <code>default</code>, <code>rect</code>, <code>circle</code> ò <code>poly</code>",
+	"imagemap_invalid_coord": "Errô: coordinâ non vallida a-a riga $1, a dev'ese 'n nummero.",
+	"imagemap_invalid_desc": "Errô: valô non vallido pe-o parammetro desc, o dev'ese un di seguenti: $1",
+	"imagemap_description": "Informassioin insce st'inmaggine",
+	"imagemap_poly_odd": "Errô: Trovou poliggono con un numnero despa de coordinæ inta riga $1"
+}

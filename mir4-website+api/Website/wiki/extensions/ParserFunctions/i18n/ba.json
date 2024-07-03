@@ -1,0 +1,30 @@
+{
+	"@metadata": {
+		"authors": [
+			"Assele",
+			"З. ӘЙЛЕ",
+			"Янмурза Баки"
+		]
+	},
+	"pfunc_desc": "Логик функциялар менән яҡшыртылған уҡыу ҡоралы",
+	"pfunc_time_error": "Хата: ваҡыт дөрөҫ түгел",
+	"pfunc_time_too_long": "Хата: #time функцияһы бигерәк күп саҡырылған.",
+	"pfunc_time_too_big": "Хата. #time параметры 9999-ҙан артырға тейеш түгел.",
+	"pfunc_time_too_small": "Хата: #time тик 0 йылдарҙы ғына тота.",
+	"pfunc_rel2abs_invalid_depth": "Хата: \"$1\" юлының тәрәнлеге дөрөҫ түгел (тәүге төйөндән өҫтәрәк торған төйөндө асырға тырышыу)",
+	"pfunc_expr_stack_exhausted": "Аңлатма хатаһы: Стек тулған",
+	"pfunc_expr_unexpected_number": "Аңлатма хатаһы: Көтөлмәгән һан",
+	"pfunc_expr_preg_match_failure": "Аңлатма хатаһы: Көтөлмәгән preg_match хатаһы",
+	"pfunc_expr_unrecognised_word": "Аңлатма хатаһы: Танылмаған \"$1\" һүҙе",
+	"pfunc_expr_unexpected_operator": "Аңлатма хатаһы: Көтөлмәгән $1 операторы",
+	"pfunc_expr_missing_operand": "Аңлатма хатаһы: $1 өсөн операнд етмәй",
+	"pfunc_expr_unexpected_closing_bracket": "Аңлатма хатаһы: Көтөлмәгән ябыу йәйәһе",
+	"pfunc_expr_unrecognised_punctuation": "Аңлатма хатаһы: Танылмаған \"$1\" тыныш билдәһе",
+	"pfunc_expr_unclosed_bracket": "Аңлатма хатаһы: йәйә ябылмаған",
+	"pfunc_expr_division_by_zero": "Нулгә бүлеү хатаһы",
+	"pfunc_expr_invalid_argument": "Хаталы дәлил $1: < -1 йәки > 1",
+	"pfunc_expr_invalid_argument_ln": "ln өсөн дәлил дөрөҫ түгел: <= 0",
+	"pfunc_expr_unknown_error": "Аңлатма хатаһы: Билдәһеҙ хата ($1)",
+	"pfunc_expr_not_a_number": "$1: һөҙөмтә — һан түгел",
+	"pfunc_string_too_long": "Хата: Юл оҙонлоғо билдәләнгән сиктән — $1 хәрефтән — ашҡан"
+}

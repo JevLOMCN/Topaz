@@ -1,0 +1,43 @@
+{
+	"@metadata": {
+		"authors": [
+			"StanProg",
+			"Vodnokon4e"
+		]
+	},
+	"apihelp-echomarkread-param-list": "Списък на ID-тата на известията за отбелязване като прочетено.",
+	"apihelp-echomarkread-param-unreadlist": "Списък на ID-тата на известията за отбелязване като непрочетени.",
+	"apihelp-echomarkread-param-all": "Ако е зададено, отбелязва всички известия от потребители като прочетени.",
+	"apihelp-echomarkread-param-sections": "Списък на разделите за отбелязване като прочетени.",
+	"apihelp-echomarkread-example-1": "Отбелязване на известие 8 като прочетено",
+	"apihelp-echomarkread-example-2": "Отбелязване на всички съобщения като прочетени",
+	"apihelp-echomarkread-example-3": "Отбелязване на известие 1 като прочетено",
+	"apihelp-echomarkseen-example-1": "Отбелязване на известията от всички видове като видяни",
+	"apihelp-echomarkseen-param-type": "Вид съобщения за отбелязване като прочетени: 'предупреждение', 'съобщение' или 'всички'.",
+	"apihelp-echomarkseen-param-timestampFormat": "Формат за дата и време в изходните данни, „ISO_8601“ или „MW“. Тук „MW“ е непрепоръчителен, и всички клиенти трябва да се прехвърлят на „ISO_8601“. Този параметър ще бъде отстранен, а „ISO_8601“ ще стане единствения формат за изходни данни.",
+	"apihelp-query+notifications-param-prop": "Подробности за заявката.",
+	"apihelp-query+notifications-param-sections": "Раздели за уведомяване по заявка (например комбинация от 'предупреждение' и 'съобщения').",
+	"apihelp-query+notifications-param-groupbysection": "Дали да са групират резултатите по раздел. Ако е зададено, всеки раздел се задава поотделно.",
+	"apihelp-query+notifications-param-filter": "Филтриране на върнатите известия.",
+	"apihelp-query+notifications-param-format": "Ако е указано, известията ще се връщат форматирани по този начин.",
+	"apihelp-query+notifications-paramvalue-format-model": "Необработени данни за съобщения",
+	"apihelp-query+notifications-paramvalue-format-special": "Форматирано за служебната страница за известия (и само за това!) Не разчитайте на HTML, тъй като може да се промени по всяко време.",
+	"apihelp-query+notifications-paramvalue-format-flyout": "<span class=\"apihelp-deprecated\">Непрепоръчително</span>. Използвайте <kbd>$1format=model</kbd> за сурови данни",
+	"apihelp-query+notifications-paramvalue-format-html": "<span class=\"apihelp-deprecated\">Непрепоръчително</span>. Използвайте <kbd>$1format=model</kbd> за сурови данни",
+	"apihelp-query+notifications-param-limit": "Максималният брой върнати съобщения.",
+	"apihelp-query+notifications-param-wikis": "Списък на уикита, от които искате да получавате известия (по подразбиране — само текущото уики).",
+	"apihelp-query+notifications-param-crosswikisummary": "Право на включване в обобщено известие за известия от чужди уикита.",
+	"apihelp-query+notifications-param-alertcontinue": "Използвайте тази опция за да продължите, когато са налице повече резултати за известия.",
+	"apihelp-query+notifications-param-unreadfirst": "Дали първо да се показват непрочетените известия (използва се само ако groupbysection не е зададено).",
+	"apihelp-query+notifications-param-alertunreadfirst": "Дали първо да се показват непрочетените известия (използва се само ако groupbysection е зададено).",
+	"apihelp-query+notifications-param-messagecontinue": "Използвайте тази опция за да продължите, когато са налице повече резултати за съобщения.",
+	"apihelp-query+notifications-param-messageunreadfirst": "Дали първо да се показват непрочетените съобщения (използва се само ако groupbysection е зададено).",
+	"apihelp-query+notifications-param-titles": "Извежда известия само за тези страници. За да получавате известия, които не са свързани с нито една страница, вместо името използвайте [].",
+	"apihelp-query+notifications-param-bundle": "Дали да се показват включените съвместими непрочетени известия, според вида на правилата за видове известяване.",
+	"apihelp-query+notifications-example-1": "Списък на уеб известията",
+	"apihelp-query+notifications-example-2": "Списък с уеб известия, групирани в раздели, с посочване на броя им",
+	"apihelp-query+unreadnotificationpages-param-grouppages": "Групиране на беседи заедно с беседите им, и групиране на известията, които не са свързани със страница, заедно със страницата на текущия потребител.",
+	"apihelp-query+unreadnotificationpages-param-limit": "Максималният брой на страници за връщане.",
+	"apihelp-query+unreadnotificationpages-param-wikis": "Списък на уикита с непрочетени известия (по подразбиране — само текущото уики).",
+	"apihelp-query+unreadnotificationpages-example-1": "Списък на страници с (броя на) непрочетени известия"
+}

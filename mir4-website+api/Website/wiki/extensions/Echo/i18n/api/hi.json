@@ -1,0 +1,41 @@
+{
+	"@metadata": {
+		"authors": [
+			"Hindustanilanguage",
+			"Saurmandal",
+			"Sfic"
+		]
+	},
+	"apihelp-echomarkread-summary": "वर्तमान सदस्य के लिए अधिसूचनाओं को पठित चिह्नित करें।",
+	"apihelp-echomarkread-param-list": "अधिसूचनाओं के आई०डी० की सूची जिन्हें पढ़े जाने के तौर पर रेखांकित करना है।",
+	"apihelp-echomarkread-param-unreadlist": "अपठित चिह्नित करने के लिए अधिसूचना ID-ओं की एक सूची।",
+	"apihelp-echomarkread-param-all": "यदि तय हो, किसी सदस्य की सारे अधिसूचनाओं पढ़े जाने के तौर पर रेखांकित करें।",
+	"apihelp-echomarkread-param-sections": "अनुभागों की सूची जिन्हें पढ़े जाने के तौर पर रेखांकित करना है।",
+	"apihelp-echomarkread-param-wikis": "पठित चिह्नित करने के लिए अधिसूचनाओं वाले विकियों की एक सूची (डिफ़ॉल्ट है सिर्फ वर्तमान विकि)।",
+	"apihelp-echomarkread-example-1": "अधिसूचना ८ को पढ़े जाने के तौर पर चिन्हित करें",
+	"apihelp-echomarkread-example-2": "सभी अधिसूचनाओं को पढ़े जाने के तौर पर चिन्हित करें",
+	"apihelp-echomarkread-example-3": "अधिसूचना 1 को अपठित चिह्नित करें",
+	"apihelp-echomarkseen-summary": "वर्तमान सदस्य के लिए अधिसूचनाओं को देखा गया चिह्नित करें।",
+	"apihelp-echomarkseen-example-1": "अधिसूचनाओं को देखे जाने के तौर पर चिन्हित करें",
+	"apihelp-echomarkseen-param-type": "देखा गया चिह्नित करने के लिए अधिसूचनाओं के प्रकार: 'alert', 'message', या 'all'।",
+	"apihelp-echomarkseen-param-timestampFormat": "आउटपुट के लिए प्रयुक्त टाइमस्टैम्प प्रारूप, 'ISO_8601' या 'MW'। 'MW' यहाँ पर कालग्रस्त है, तो सभी क्लाइंट्स को 'ISO_8601' में बदल लेना चाहिए। यह पैरामीटर हटा दिया जाएगा, और 'ISO_8601' एकमात्र आउटपुट प्रारूप बन जाएगा।",
+	"apihelp-echomute-summary": "विशिष्ट सदस्यों या पृष्ठों से अधिसूचनाएँ म्यूट या अनम्यूट करें।",
+	"apihelp-echomute-param-type": "किस म्यूट सूची पर जोड़ना है या जिससे हटाना है",
+	"apihelp-echomute-param-mute": "म्यूट सूची पर जोड़ने के लिए पृष्ठ या सदस्य",
+	"apihelp-echomute-param-unmute": "म्यूट सूची से हटाने के लिए पृष्ठ या सदस्य",
+	"apihelp-echopushsubscriptions-summary": "वर्तमान सदस्य के लिए पुश सदस्यताएँ प्रबंधित करें।",
+	"apihelp-echopushsubscriptions-param-command": "करने के लिए कार्य।",
+	"apihelp-echopushsubscriptions+create-summary": "वर्तमान सदस्य के लिए पुश सदस्यताएँ पंजीकृत करें।",
+	"apihelp-echopushsubscriptions+create-param-provider": "पुश सेवा प्रदाता जिसके लिए टोकन पंजीकृत करना है।",
+	"apihelp-echopushsubscriptions+create-param-providertoken": "पंजीकृत करने के लिए टोकन।",
+	"apihelp-echopushsubscriptions+create-param-topic": "APNS विषय (ऐप बंडल ID) जहाँ पर अधिसूचना भेजी जाएगी।",
+	"apihelp-echopushsubscriptions+create-example": "वर्तमान सदस्य के लिए एक पुश सदस्यता पंजीकृत करें।",
+	"apihelp-echopushsubscriptions+delete-summary": "वर्तमान सदस्य या किसीी दूसरे निर्दिष्ट सदस्य के लिए पुश सदस्यताएँ अपंजीकृत करें।",
+	"apihelp-echopushsubscriptions+delete-param-providertoken": "अपंजीकृत करने के लिए पुश सदस्यता से जुड़ा टोकन।",
+	"apihelp-echopushsubscriptions+delete-param-centraluserid": "अपंजीकृत करने के लिए सदस्यता से जुड़ा केंद्रीय सदस्य ID।",
+	"apihelp-query+notifications-param-sections": "पूछताछ के अधिसूचना अनुभाग",
+	"apihelp-query+notifications-paramvalue-format-model": "रॉ अधिसूचना डेटा",
+	"apihelp-query+notifications-example-1": "वेब अधिसूचनाओं को सूचीबद्ध करें",
+	"apihelp-query+notifications-example-2": "वेब अधिसूचनाओं को सूचीबद्ध अनुभाग के अनुसार सम्मिलित करके गिनकर करें",
+	"apihelp-query+notifications-example-3": "ईमेल अधिसूचनाओं को सूचीबद्ध करें"
+}

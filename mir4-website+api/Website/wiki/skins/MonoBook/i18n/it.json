@@ -1,0 +1,24 @@
+{
+	"@metadata": {
+		"authors": [
+			"Ajeje Brazorf",
+			"Beta16",
+			"Darth Kule",
+			"Sannita"
+		]
+	},
+	"monobook-desc": "Il tema classico di MediaWiki dal 2004, prende il nome dall'immagine in bianco e nero del libro usata come sfondo della pagina",
+	"monobook.css": "/* Gli stili CSS inseriti qui vengono caricati dagli utenti che usano il tema Monobook */",
+	"monobook.js": "/* Il codice JavaScript inserito qui viene caricato dagli utenti che usano il tema MonoBook */",
+	"monobook-jumptotop": "torna all'inizio",
+	"monobook-jumptopersonal": "strumenti utente",
+	"monobook-jumptonavigation": "Vai alla navigazione",
+	"monobook-jumptosearch": "Vai alla ricerca",
+	"monobook-more-actions": "Altro",
+	"cactions-mobile": "Azioni sulla pagina",
+	"monobook-cactions-label": "Azioni sulla pagina",
+	"monobook-notifications-link": "Notifiche ($1)",
+	"monobook-notifications-link-none": "Notifiche",
+	"monobook-view-history": "Cronologia",
+	"monobook-action-undelete": "Recupera {{PLURAL:$1|una versione|$1 versioni}}"
+}

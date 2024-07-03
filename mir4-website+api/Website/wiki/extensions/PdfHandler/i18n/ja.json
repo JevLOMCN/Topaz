@@ -1,0 +1,20 @@
+{
+	"@metadata": {
+		"authors": [
+			"Fryed-peach",
+			"Shirayuki",
+			"Sujiniku"
+		]
+	},
+	"pdf-desc": "画像モードで PDF ファイルを表示するためのハンドラー",
+	"pdf-file-page-warning": "PDF は複雑なフォーマットであり、場合によってはあなたの個人情報の一部を含んでいることもあります。ご利用の PDF ビューワが安全に設定されていることを確認してください。",
+	"pdf-file-page-warning-header": "プライバシーの考慮事項",
+	"pdf-file-page-warning-footer": "この問題はこの特定のファイルに限るものではなく、PDF フォーマット全般の問題です。",
+	"pdf-file-page-warning-info": "この問題の詳細について、もっと知る。",
+	"pdf_no_metadata": "PDF ファイルからメタデータを取得できません",
+	"pdf_page_error": "ページ番号が正しい範囲内にありません。",
+	"exif-pdf-producer": "変換プログラム",
+	"exif-pdf-version": "PDF 形式のバージョン",
+	"exif-pdf-encrypted": "暗号化済み",
+	"exif-pdf-pagesize": "ページのサイズ"
+}

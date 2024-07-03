@@ -1,0 +1,98 @@
+[
+	{
+		"name": "transclusions - simple case",
+		"title": "Talk:Transcluded",
+		"dom": "cases/transclusions/transclusions.html",
+		"expected": "../cases/transclusions/transclusions-transcludedFrom.json",
+		"config": "../data/enwiki-config.json",
+		"data": "../data/enwiki-data.json"
+	},
+	{
+		"name": "transclusions - comments partially transcluded from a subpage",
+		"title": "Talk:T289873",
+		"dom": "cases/transclusions2/transclusions2.html",
+		"expected": "../cases/transclusions2/transclusions2-transcludedFrom.json",
+		"config": "../data/enwiki-config.json",
+		"data": "../data/enwiki-data.json"
+	},
+	{
+		"name": "transclusions - comment partially template-generated",
+		"title": "Wikipedia talk:Template documentation",
+		"dom": "cases/transclusions3/transclusions3.html",
+		"expected": "../cases/transclusions3/transclusions3-transcludedFrom.json",
+		"config": "../data/enwiki-config.json",
+		"data": "../data/enwiki-data.json"
+	},
+	{
+		"name": "transclusions - comment partially template-generated 2",
+		"title": "Wikipedia:Vandalismi in corso",
+		"dom": "cases/transclusions4/transclusions4.html",
+		"expected": "../cases/transclusions4/transclusions4-transcludedFrom.json",
+		"config": "../data/itwiki-config.json",
+		"data": "../data/itwiki-data.json"
+	},
+	{
+		"name": "Accidental complex transclusion (T265528)",
+		"title": "Talk:T265528",
+		"dom": "cases/accidental-transclusion1/accidental-transclusion1.html",
+		"expected": "../cases/accidental-transclusion1/accidental-transclusion1-transcludedFrom.json",
+		"config": "../data/enwiki-config.json",
+		"data": "../data/enwiki-data.json"
+	},
+	{
+		"name": "Accidental complex transclusion (T313093)",
+		"title": "Talk:T313093",
+		"dom": "cases/accidental-transclusion2/accidental-transclusion2.html",
+		"expected": "../cases/accidental-transclusion2/accidental-transclusion2-transcludedFrom.json",
+		"config": "../data/enwiki-config.json",
+		"data": "../data/enwiki-data.json"
+	},
+	{
+		"name": "tracked template",
+		"title": "Commons talk:SPARQL query service",
+		"dom": "cases/tracked-template/tracked-template.html",
+		"expected": "../cases/tracked-template/tracked-template-transcludedFrom.json",
+		"config": "../data/commonswiki-config.json",
+		"data": "../data/commonswiki-data.json"
+	},
+	{
+		"name": "enwiki parsoid",
+		"title": "Wikipedia:Village pump (technical)/Archive 175",
+		"dom": "cases/en-big-parsoid/en-big-parsoid.html",
+		"expected": "../cases/en-big-parsoid/en-big-parsoid-transcludedFrom.json",
+		"config": "../data/enwiki-config.json",
+		"data": "../data/enwiki-data.json"
+	},
+	{
+		"name": "enwiki parsoid AFD",
+		"title": "Wikipedia:Articles for deletion/Log/2020 March 7",
+		"dom": "cases/en-bigafd-parsoid/en-bigafd-parsoid.html",
+		"expected": "../cases/en-bigafd-parsoid/en-bigafd-parsoid-transcludedFrom.json",
+		"config": "../data/enwiki-config.json",
+		"data": "../data/enwiki-data.json"
+	},
+	{
+		"name": "frwiki unsigned",
+		"title": "Discussion:Le Monde",
+		"dom": "cases/fr-unsigned-parsoid/fr-unsigned-parsoid.html",
+		"expected": "../cases/fr-unsigned-parsoid/fr-unsigned-parsoid-transcludedFrom.json",
+		"config": "../data/frwiki-config.json",
+		"data": "../data/frwiki-data.json"
+	},
+	{
+		"name": "itwiki unsigned",
+		"title": "Aiuto:Sportello informazioni",
+		"dom": "cases/it-unsigned-parsoid/it-unsigned-parsoid.html",
+		"expected": "../cases/it-unsigned-parsoid/it-unsigned-parsoid-transcludedFrom.json",
+		"config": "../data/itwiki-config.json",
+		"data": "../data/itwiki-data.json"
+	},
+	{
+		"name": "parsoid-sections",
+		"title": "Overleg gebruiker:Romaine",
+		"dom": "cases/parsoid-sections/parsoid-sections.html",
+		"expected": "../cases/parsoid-sections/parsoid-sections-transcludedFrom.json",
+		"config": "../data/nlwiki-config.json",
+		"data": "../data/nlwiki-data.json"
+	}
+]

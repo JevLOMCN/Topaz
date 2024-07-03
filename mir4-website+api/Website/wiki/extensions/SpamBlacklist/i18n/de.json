@@ -1,0 +1,31 @@
+{
+	"@metadata": {
+		"authors": [
+			"Brettchenweber",
+			"Debenben",
+			"Geitost",
+			"Kghbln",
+			"Metalhead64",
+			"Raimond Spekking",
+			"S2cchst",
+			"Umherirrender",
+			"Wnme"
+		]
+	},
+	"spam-blacklist": " #<!-- Diese Zeile darf nicht verändert werden! --> <pre>\n# Externe URLs, die in dieser Liste enthalten sind, blockieren das Speichern einer Seite.\n# Diese Liste hat nur Auswirkungen auf dieses Wiki. Siehe ggf. auch die globale Sperrliste.\n# Siehe auch https://www.mediawiki.org/wiki/Extension:SpamBlacklist für die Dokumentation dieser Funktion. \n#\n# Syntax:\n#   * Alles ab dem „#“-Zeichen bis zum Ende der Zeile ist ein Kommentar\n#   * Jede nicht-leere Zeile ist ein regulärer Ausdruck, der gegen die Host-Namen in den URLs geprüft wird.\n\n #</pre> <!-- Diese Zeile darf nicht verändert werden! -->",
+	"spam-whitelist": " #<!-- Diese Zeile darf nicht verändert werden! --> <pre>\n# Externe URLs, die in dieser Liste enthalten sind, blockieren das Speichern einer Seite nicht, \n# auch wenn sie in der lokalen oder ggf. globalen Sperrliste enthalten sind.\n#\n# Syntax:\n#   * Alles ab dem „#“-Zeichen bis zum Ende der Zeile ist ein Kommentar\n#   * Jede nicht-leere Zeile ist ein regulärer Ausdruck, der gegen die Host-Namen in den URLs geprüft wird.\n\n #</pre> <!-- Diese Zeile darf nicht verändert werden! -->",
+	"email-blacklist": " #<!-- Diese Zeile darf nicht verändert werden! --> <pre>\n# E-Mail-Adressen, die in dieser Liste enthalten sind, werden bei der Registrierung sowie beim Senden von E-Mail-Nachrichten blockiert.\n# Diese Liste hat nur Auswirkungen auf dieses Wiki. Siehe gegebenenfalls auch die globale Sperrliste.\n# Siehe auch https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:SpamBlacklist für weiterführende Informationen.\n#\n# Syntax wie folgt:\n# * Alles ab dem „#“-Zeichen bis zum Ende der Zeile ist ein Kommentar.\n# * Jede nicht-leere Zeile ist ein regulärer Ausdruck, der mit dem Hostnamen der E-Mail-Adressen abgeglichen wird.\n\n #</pre> <!-- Diese Zeile darf nicht verändert werden! -->",
+	"email-whitelist": " #<!-- Diese Zeile darf nicht verändert werden! --> <pre>\n# E-Mail-Adressen, die sich in dieser Liste befinden, blockieren die Registrierung sowie\n# das Senden von E-Mail-Nachrichten *nicht*, auch wenn sie in der \n# lokalen oder ggf. globalen Sperrliste enthalten sind.\n#\n# Syntax wie folgt:\n# * Alles ab dem „#“-Zeichen bis zum Ende der Zeile ist ein Kommentar.\n# * Jede nicht-leere Zeile ist ein regulärer Ausdruck, der mit dem Hostnamen der E-Mail-Adressen abgeglichen wird.\n #</pre> <!-- Diese Zeile darf nicht verändert werden! -->",
+	"spam-blacklisted-email": "Blockierte E-Mail-Adressen",
+	"spam-blacklisted-email-text": "Deine E-Mail-Adresse ist derzeit für das Senden von E-Mail-Nachrichten an andere Benutzer blockiert.",
+	"spam-blacklisted-email-signup": "Die angegebene E-Mail-Adresse ist derzeit für das Senden von E-Mail-Nachrichten an andere Benutzer blockiert.",
+	"spam-invalid-lines": "Die {{PLURAL:$1|folgende Zeile|folgenden Zeilen}} in der Sperrliste {{PLURAL:$1|ist ein ungültiger regulärer Ausdruck|sind ungültige reguläre Ausdrücke}}. Sie {{PLURAL:$1|muss|müssen}} vor dem Speichern der Seite korrigiert werden:",
+	"spam-blacklist-desc": "Ergänzt ein auf reguläre Ausdrücke gestütztes Anti-Spam-Werkzeug zum Sperren von URLs und E-Mail-Adressen für das Einfügen durch registrierte Benutzer",
+	"log-name-spamblacklist": "Spam-Sperrlisten-Logbuch",
+	"log-description-spamblacklist": "Das Logbuch von Treffern in der Spam-Sperrliste.",
+	"logentry-spamblacklist-hit": "{{GENDER:$2|$1}} verursachte einen Treffer in der Spam-Sperrliste auf „$3“ durch das versuchte Hinzufügen von $4.",
+	"right-spamblacklistlog": "Einsehen des Spam-Sperrliste-Logbuchs",
+	"action-spamblacklistlog": "einsehen des Spam-Sperrliste-Logbuchs",
+	"right-sboverride": "Umgehen der Spam-Sperrliste",
+	"action-sboverride": "Umgehen der Spam-Sperrliste"
+}

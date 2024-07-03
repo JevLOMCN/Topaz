@@ -1,0 +1,41 @@
+{
+	"@metadata": {
+		"authors": [
+			"Salvemm el lombard"
+		]
+	},
+	"cite-desc": "Sgionta i etichete <code>&lt;ref&gt;</code> e <code>&lt;references&gt;</code> per gestì i citazzion",
+	"cite_error": "Eror de sintassi: $1",
+	"cite_error_ref_invalid_dir": "<code>dir=\"$1\"</code> minga valid, el gh'hà de vesser  <code>ltr</code> o <code>rtl</code>",
+	"cite_error_ref_numeric_key": "Eror in l'utilizazion del marcator <code>&lt;ref&gt;</code>: el nom el po vesser minga un numer intregh. Dopra un titol descritif.",
+	"cite_error_ref_no_key": "L'avertura de l'eticheta <code>&lt;ref&gt;</code> l'è minga sgiusta o la gh'hà un nom sbagliad.",
+	"cite_error_ref_too_many_keys": "Erore in l'utilizazzion del marcador <code>&lt;ref&gt;</code>: nom minga valid (per esempiː trop)",
+	"cite_error_ref_nested_extends": "A se po minga estend i etichete <code>&lt;ref&gt;</code> a pussee d'un nivel de profondità",
+	"cite_error_ref_no_input": "Eror in l'utilizazzion d'un marcador <code>&lt;ref&gt;</code>: i ref senza nom i poden minga vesser voeuj",
+	"cite_error_references_duplicate_key": "Eticheta <code>&lt;ref&gt;</code> minga valida; el nom \"$1\" l'è stad definid diverse volte con di contegnud diversi",
+	"cite_error_references_invalid_parameters": "Parametro minga valid in de l'eticheta <code>&lt;references&gt;</code>",
+	"cite_error_references_no_backlink_label": "Etichete de conligement personalizzade finide foeura. Definiss di alter etichete in del messagg [[MediaWiki:Cite references link many format backlink labels]]",
+	"cite_error_no_link_label_group": "Etichete finide foeura per i conligament personalizzad del grup \"$1\". Definss di alter etichete in del messagg [[MediaWiki:$2]]",
+	"cite_error_references_no_text": "Eror in l'utilizazzion del marcador <code>&lt;ref&gt;</code>: a l'è stad indicad nissun test per el marcador <code>$1</code>",
+	"cite_error_included_ref": "<code>&lt;/ref&gt;</code> de saradura mancant per el marcador <code>&lt;ref&gt;</code>",
+	"cite_error_included_references": "Ghe manca l'eticheta de saradura per <code>&lt;references&gt;</code>",
+	"cite_error_group_refs_without_references": "A gh'è di marcador <code>&lt;ref&gt;</code> per un grup ciamad \"$1\" ma l'è stad trovad nissun marcador <code>&lt;references group=\"$1\"/&gt;</code> corispondent",
+	"cite_error_references_group_mismatch": "L'eticheta <code>&lt;ref&gt;</code> in <code>&lt;references&gt;</code> la gh'hà l'atribud del grup \"$1\" in conflit.",
+	"cite_error_references_missing_key": "l'eticheta <code>&lt;ref&gt;</code> con nom \"$1\" definid in <code>&lt;references&gt;</code> a l'è minga doprad in del test indree.",
+	"cite_error_references_no_key": "L'eticheta <code>&lt;ref&gt;</code> definida in <code>&lt;references&gt;</code> la gh'hà minga un atribud del nom.",
+	"cite_error_empty_references_define": "L'eticheta <code>&lt;ref&gt;</code> definida in <code>&lt;references&gt;</code> con nom \"$1\" l'è senza contegnud.",
+	"cite-tracking-category-cite-error": "Pagine con di eror in di riferiment",
+	"cite-tracking-category-cite-error-desc": "I pagine in questa categoria chì i gh'hann di eror in l'utilizazzion di etichete per i riferiment.",
+	"cite_references_link_accessibility_label": "Salta",
+	"cite_references_link_many_accessibility_label": "Salta a:",
+	"cite_references_link_accessibility_back_label": "Torna in scima",
+	"cite_section_preview_references": "Veduda antecipada di riferiment",
+	"cite_warning": "Atenzzion in di riferiment: $1",
+	"cite_warning_sectionpreview_no_text": "l'eticheta <code>&lt;ref&gt;</code> con nom <code>$1</code> la po minga vesser fada vedè prima, perchè l'è definida foera de la sezzion atual opur l'è definida nò.",
+	"cite-wikieditor-tool-reference": "Riferiment",
+	"cite-wikieditor-help-page-references": "Riferiment",
+	"cite-wikieditor-help-content-reference-description": "Riferiment",
+	"cite-wikieditor-help-content-named-reference-description": "Riferiment cont un nom",
+	"cite-wikieditor-help-content-rereference-description": "Un'altr'utilizazzion de l'istess riferiment",
+	"cite-wikieditor-help-content-showreferences-description": "Mostra i riferiment"
+}

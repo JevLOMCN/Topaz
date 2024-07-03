@@ -1,0 +1,34 @@
+{
+	"@metadata": {
+		"authors": [
+			"Chinneeb",
+			"MongolWiki",
+			"Sembuk"
+		]
+	},
+	"categorytree": "Ангиллын мод",
+	"categorytree-portlet": "Анги",
+	"categorytree-legend": "Ангиллын модыг үзүүлэх",
+	"categorytree-header": "Ангиллын нэрийг бичиж модны бүтэц байдлаар агуулгыг нь харна уу.\nҮүнийг ашиглахын тулд AJAX гэгдэх ЖаваСкрипт функц хэрэгтэй.\nТа маш хуучин вэб хөтөчтэй, эсвэл ЖаваСкриптыг хориглосон байвал ажиллахгүй болохыг анхаарна уу.",
+	"categorytree-category": "Анги:",
+	"categorytree-go": "Модыг үзүүлэх",
+	"categorytree-parents": "Эх ангиллууд",
+	"categorytree-mode-categories": "Зөвхөн ангиллууд",
+	"categorytree-mode-pages": "зурагнаас бусад хуудсууд",
+	"categorytree-mode-all": "бүх хуудас",
+	"categorytree-collapse": "буулгах",
+	"categorytree-expand": "дэлгэх",
+	"categorytree-member-counts": "{{PLURAL:$1|1 дэд анги|$1 дэд анги}}, {{PLURAL:$2|1 хуудас|$2 хуудас}}, {{PLURAL:$3|1 файл|$3 файл}} агуулагдаж байна.",
+	"categorytree-num-categories": "$1 А",
+	"categorytree-num-pages": "$1 Б",
+	"categorytree-num-files": "$1 Ф",
+	"categorytree-load": "унших",
+	"categorytree-loading": "уншиж байна...",
+	"categorytree-nothing-found": "юу ч олдсонгүй",
+	"categorytree-no-subcategories": "дэд ангилалгүй байна",
+	"categorytree-no-parent-categories": "эх ангилал байхгүй байна",
+	"categorytree-no-pages": "хуудас буюу дэд ангилалгүй байна",
+	"categorytree-not-found": "<i>$1</i> анги олдсонгүй",
+	"categorytree-error": "Өгөгдлийг ачааллахад асуудал үүсэв.",
+	"categorytree-retry": "Түр хүлээгээд дахин оролдоно уу."
+}

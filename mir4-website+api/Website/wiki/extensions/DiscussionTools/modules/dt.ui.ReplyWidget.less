@@ -1,0 +1,471 @@
+@import 'mediawiki.skin.variables.less';
+
+.ext-discussiontools-ui-replyWidget {
+	margin-bottom: 1em;
+	position: relative;
+	clear: both;
+	// This is in user language, do not inherit text-align from the content (T306137).
+	// We can't set 'text-align: left' (and rely on flipping), because
+	// that would affect the input field, which is in content language.
+	text-align: initial;
+
+	.skin-monobook & {
+		font-size: ( 12.8em / 12.7 );
+	}
+}
+
+// @supports does not work when nested
+@supports ( display: flow-root ) {
+	.ext-discussiontools-ui-replyWidget {
+		// Allow the widget to be squished next to floating elements (T278476).
+		//
+		// To ensure that everything is squished to the same width, introduce a block formatting context
+		// (otherwise the preview or textarea could be wider than the container and mess up the layout).
+		// https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Block_formatting_context
+		//
+		// All of the usual ways to do this (listed on that page) have unwanted side-effects
+		// (in particular, `overflow: hidden` cuts off VE inspectors), so we must use this relatively
+		// recent property, and only apply this fix on supporting browsers, notably excluding Safari <13
+		// (https://caniuse.com/?search=flow-root)
+		display: flow-root;
+		min-width: 20em;
+		clear: none;
+	}
+}
+
+.ext-discussiontools-ui-replyWidget { /* stylelint-disable-line no-descending-specificity */
+	&-bodyWrapper > .oo-ui-textInputWidget {
+		max-width: none;
+
+		.oo-ui-inputWidget-input {
+			line-height: 1.5em;
+			overflow-y: hidden;
+			// Leave space for newComments button
+			padding-bottom: 22px;
+		}
+	}
+
+	&-scrollback-top {
+		transform: translate( -50%, -150% );
+		top: 0;
+		left: 50%;
+		// .mw-sticky-header-element is also added to move the element down
+		// in skins that implement a sticky header
+	}
+
+	&-scrollback-bottom {
+		transform: translate( -50%, 150% );
+		bottom: 0;
+		left: 50%;
+	}
+
+	&-scrollback-top,
+	&-scrollback-bottom {
+		position: fixed;
+		opacity: 0;
+		transition: transform 250ms, opacity 250ms;
+		z-index: 1;
+		margin: 1em 0;
+		box-shadow: 0 2px 2px 0 rgba( 0, 0, 0, 0.25 );
+
+		// OOUI Apex theme
+		.skin-monobook & {
+			box-shadow: 0 0.2em 1em rgba( 0, 0, 0, 0.3 );
+		}
+
+		// Buttons can't be reliably positioned on iOS when the keyboard
+		// is visible, so hide them
+		.ext-discussiontools-init-virtual-keyboard-open.ext-discussiontools-init-ios & {
+			display: none;
+		}
+	}
+
+	/* stylelint-disable no-descending-specificity */
+	&-floating-top &-scrollback-top,
+	&-floating-bottom &-scrollback-bottom {
+		opacity: 1;
+		transform: translate( -50%, 0 );
+	}
+	/* stylelint-enable no-descending-specificity */
+
+	.ve-ui-targetToolbar > .oo-ui-toolbar-bar {
+		background: none;
+		box-shadow: none;
+		border: 0;
+		// Stretch to all available space
+		flex-grow: 1;
+	}
+
+	.oo-ui-toolbar-position-top .ve-ui-toolbarDialog-position-above {
+		border-top: 0;
+
+		.oo-ui-window-body {
+			padding-left: 0;
+			padding-right: 0;
+		}
+	}
+
+	.ve-ui-targetToolbar {
+		display: flex;
+		// Allow wrapping when the space is very narrow (mode switcher above toolbar)
+		flex-wrap: wrap-reverse;
+
+		> .oo-ui-windowManager {
+			flex-basis: 100%;
+			box-shadow: 0 -1px 1px 0 rgba( 0, 0, 0, 0.1 );
+		}
+	}
+
+	.skin-minerva & .ve-ui-surface-visual .ve-ce-paragraphNode {
+		// Reduce paragraph spacing in editor, as replies will actually generate <dd> not <p>
+		margin: 0;
+
+		&:first-child {
+			margin-top: 0.5em;
+		}
+	}
+
+	.skin-monobook & .ve-ui-surface-visual {
+		font-size: ( 12.7em / 12.8 );
+	}
+
+	&-modeTabs {
+		box-shadow: none;
+		height: 3em;
+		text-align: right;
+		// Hide outline that can appear after switching modes via keyboard
+		outline: 0;
+
+		.oo-ui-tabOptionWidget:last-child {
+			margin-right: 2px;
+		}
+
+		.ext-discussiontools-ui-modeTab {
+			// OOUI Apex theme
+			.skin-monobook & {
+				margin-top: 0;
+			}
+		}
+
+		// When mode tabs are focussed, the only available option uses the same styles as normal focus
+		// Hovering also adds this class, but is styled upstream with just an underline.
+		.ext-discussiontools-ui-modeTab.oo-ui-optionWidget-highlighted:not( :hover ) {
+			color: @color-progressive;
+			border-radius: @border-radius-base;
+			box-shadow: @box-shadow-inset-medium @box-shadow-color-progressive-selected;
+		}
+
+		// The unavailable option in mode tabs is disabled, to make it un-interactable, but we want it
+		// to look as if it was selected
+		.ext-discussiontools-ui-modeTab.oo-ui-widget-disabled {
+			color: @color-progressive;
+			box-shadow: @box-shadow-inset-medium-vertical @box-shadow-color-progressive-selected;
+		}
+	}
+
+	&-editSwitch {
+		text-align: right;
+
+		.oo-ui-toolbar-bar { /* stylelint-disable-line no-descending-specificity */
+			border: 0;
+			box-shadow: none;
+		}
+
+		.oo-ui-toolbar-popups {
+			text-align: left;
+		}
+	}
+
+	&-actionsWrapper {
+		margin-top: 0.5em;
+		display: flex;
+		// Allow wrapping when the space is very narrow (buttons above the footer text)
+		flex-wrap: wrap-reverse;
+		// When wrapping, align actions to the right
+		justify-content: flex-end;
+	}
+
+	&-actions {
+		// Add spacing before the footer when wrapping
+		margin-bottom: 0.5em;
+		margin-left: 3em;
+		white-space: nowrap;
+
+		.skin-minerva & {
+			margin-top: -2em;
+		}
+	}
+
+	.skin-minerva &-advanced:not( .oo-ui-element-hidden ) ~ &-actionsWrapper &-actions {
+		margin-top: 0;
+	}
+
+	&-footer {
+		// Preferred width; if there isn't enough space, this wraps under the actions
+		flex-basis: 20em;
+		// Stretch to all available space
+		flex-grow: 1;
+		font-size: 0.75em;
+		color: @color-subtle;
+
+		> * {
+			&:first-child {
+				margin-top: 0;
+			}
+
+			&:last-child {
+				margin-bottom: 0;
+			}
+		}
+
+		&-links {
+			// Extra specificity to override rules from MediaWiki
+			&,
+			.mw-content-ltr &,
+			.mw-content-rtl & {
+				margin: 0;
+				padding: 0;
+			}
+
+			li {
+				display: inline;
+
+				&::after {
+					content: ' • ';
+				}
+
+				&:last-child::after {
+					content: '';
+				}
+			}
+		}
+
+		.skin-minerva & > p {
+			margin-bottom: 0;
+		}
+	}
+
+	&-preview {
+		background: #f6f6f6;
+		padding: 0.5em 1em;
+		// Establish a block formatting context, so that floated content (e.g. image thumbnails)
+		// doesn't leak out and mess up our layout. (Also hides the 'Preview' label when empty.)
+		overflow: hidden;
+
+		&:empty {
+			height: 0;
+			padding: 0;
+		}
+
+		&::before {
+			content: attr( data-label );
+			color: #808080;
+		}
+
+		> .mw-parser-output {
+			.skin-monobook & {
+				font-size: ( 12.7em / 12.8 );
+			}
+		}
+
+		.ext-discussiontools-ui-replyWidget:not( .ext-discussiontools-ui-replyWidget-newTopic ) & > .mw-parser-output {
+			margin-left: -1.6em;
+
+			.skin-minerva & {
+				margin-left: -1em;
+			}
+		}
+
+		> .mw-parser-output > h2:first-child {
+			// Remove excess spacing above section title for preview
+			padding-top: 0;
+			margin-top: 0.25em;
+		}
+
+		.ext-discussiontools-init-section-bar {
+			// Looks just a little weird to display this in preview of your own new topic (T309423)
+			display: none;
+		}
+
+		// Hide collapse icons on mobile
+		.section-heading .indicator { /* stylelint-disable-line selector-class-pattern */
+			display: none;
+		}
+
+		// ... and expand sections
+		.collapsible-block[ hidden ] { /* stylelint-disable-line selector-class-pattern */
+			// If hidden=until-found is supported, this will set content-visibility: hidden;
+			content-visibility: visible;
+			// otherwise it will set display: none;
+			display: block;
+		}
+		// TODO: Consider doing this via's Toggler.js's APIs, rather than CSS overrides.
+	}
+
+	&-bodyWrapper {
+		position: relative;
+	}
+
+	&-newComments {
+		position: absolute;
+		bottom: -1em;
+		left: 50%;
+		transition: transform 250ms ease-in, opacity 250ms ease-in;
+		transform: translate( -50%, 30px );
+		opacity: 0;
+		white-space: nowrap;
+
+		.skin-minerva & {
+			// stylelint-disable-next-line declaration-property-unit-disallowed-list
+			font-size: 14px;
+		}
+
+		&-open {
+			transform: translate( -50%, 0 );
+			opacity: 1;
+		}
+
+		// Same border-radius is applied to all these elements to ensure that the trimmed-off corner
+		// areas don't capture clicks
+		&,
+		.oo-ui-buttonElement-framed:first-child,
+		.oo-ui-buttonElement-framed:first-child .oo-ui-buttonElement-button {
+			border-bottom-left-radius: 1.1em;
+			border-top-left-radius: 1.1em;
+		}
+
+		// Same border-radius is applied to all these elements to ensure that the trimmed-off corner
+		// areas don't capture clicks
+		&,
+		.oo-ui-buttonElement-framed:last-child,
+		.oo-ui-buttonElement-framed:last-child .oo-ui-buttonElement-button {
+			border-bottom-right-radius: 1.1em;
+			border-top-right-radius: 1.1em;
+		}
+	}
+
+	&-anonWarning,
+	&-advanced {
+		&.oo-ui-messageWidget-block {
+			padding: 8px 12px;
+		}
+	}
+
+	&-captcha {
+		margin-top: 0.5em;
+	}
+
+	&-error {
+		margin-bottom: 0.5em;
+	}
+
+	&-anonWarning {
+		margin-bottom: 0.5em;
+		display: flex;
+		align-items: center;
+		// Allow wrapping when the space is very narrow (buttons below the warning text)
+		flex-wrap: wrap;
+		// When wrapping, align actions to the right
+		justify-content: flex-end;
+
+		&.oo-ui-messageWidget-block {
+			> .oo-ui-iconElement-icon {
+				background-position: center center;
+				transform: scale( 1.5 );
+				transform-origin: 0 center;
+				left: 1em;
+
+				// Hide warning icon below tablet width
+				@media all and ( max-width: @max-width-breakpoint-mobile ) {
+					& {
+						display: none;
+					}
+				}
+			}
+		}
+
+		> .oo-ui-labelElement-label {
+			flex-grow: 1;
+			flex-basis: 20em;
+			margin-left: 3em;
+
+			// Hide warning icon below tablet width
+			@media all and ( max-width: @max-width-breakpoint-mobile ) {
+				& {
+					margin-left: 0;
+				}
+			}
+		}
+
+		.ext-discussiontools-ui-replyWidget-actions {
+			// Fix alignment within message widget
+			margin-top: 0.5em;
+		}
+	}
+
+	&-editSummaryField {
+		// We want to display the "Summary" label and the checkboxes on the same line (above the summary
+		// field), but prevent them from overlapping if there's not enough space. The checkboxes are
+		// after the summary field in the DOM for accessibility reasons, but we want to display them
+		// above it, and we can't achieve this with floats.
+		.oo-ui-fieldLayout-body {
+			display: flex;
+			flex-flow: row-reverse wrap;
+			justify-content: space-between;
+		}
+
+		.ext-discussiontools-ui-replyWidget-checkboxes {
+			order: 1;
+		}
+
+		.oo-ui-fieldLayout-header {
+			order: 2;
+			// Stretch to all available space on the line
+			flex-grow: 1;
+		}
+
+		.oo-ui-fieldLayout-field {
+			order: 3;
+			// Force to a separate line
+			width: 100%;
+		}
+
+		// Change field layout and order on mobile
+		@media all and ( max-width: @max-width-breakpoint-mobile ) {
+			.oo-ui-fieldLayout-header {
+				order: 1;
+			}
+
+			.oo-ui-fieldLayout-field {
+				order: 2;
+			}
+
+			.ext-discussiontools-ui-replyWidget-checkboxes {
+				order: 3;
+				flex-grow: 1;
+				margin-top: 1em;
+			}
+		}
+	}
+
+	&-editSummary {
+		max-width: none;
+	}
+
+	&-advanced.oo-ui-element-hidden + &-anonWarning {
+		// Removing spacing between message widgets when the first is hidden
+		margin-top: 0;
+	}
+
+	&-advancedToggle {
+		font-size: 0.75em;
+
+		.oo-ui-indicatorElement-indicator {
+			min-width: auto;
+		}
+
+		.oo-ui-buttonElement-button {
+			min-height: auto;
+		}
+	}
+}

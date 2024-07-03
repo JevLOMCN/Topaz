@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"Kghbln"
+		]
+	},
+	"hcaptcha-desc": "Ergänzt die Erweiterung „ConfirmEdit“ um ein [https://www.hcaptcha.com/ hCaptcha]-Modul",
+	"hcaptcha-edit": "Um das Wiki vor automatisiertem Bearbeitungsspam zu schützen, bitten wir dich, das folgende hCaptcha zu lösen:",
+	"hcaptcha-addurl": "Deine Bearbeitung enthält neue Weblinks. Um das Wiki vor automatisiertem Spam zu schützen, bitten wir dich, das folgende CAPTCHA zu lösen:",
+	"hcaptcha-badlogin": "Um das Wiki vor automatisiertem Knacken des Passwortes zu schützen, bitten wir dich, das folgende hCaptcha zu lösen:",
+	"hcaptcha-createaccount": "Um das Wiki vor automatisiertem Spam zu schützen, bitten wir dich, das folgende hCaptcha zu lösen:",
+	"hcaptcha-createaccount-fail": "Es scheint, als ob du das hCaptcha nicht gelöst hast.",
+	"hcaptcha-create": "Um das Wiki vor automatisierter Seitenerstellung zu schützen, bitten wir dich, das folgende hCaptcha zu lösen:",
+	"hcaptcha-help": "Bitte löse eine hCaptcha-Herausforderung und gib den Antwortwert als captchaWord zurück."
+}

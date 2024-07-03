@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Huji",
+			"Rtemis"
+		]
+	},
+	"apihelp-categorytree-summary": "پودمان داخلی برای افزونهٔ درخت رده",
+	"apihelp-categorytree-param-category": "عنوان در فضای نام رده، پیشوند اگر ارائه شود نادیده گرفته می‌شود.",
+	"apihelp-categorytree-param-options": "گزینه‌هایی برای سازندهٔ درخت‌رده به صورت یک شیء جی‌سان. گزینهٔ <var>depth</var> به طور پیش‌فرض مقدار <kbd>1</kbd> دارد.",
+	"apierror-categorytree-invalidjson": "گزینه‌ها باید یک شیء جی‌سان معتبر باشد."
+}

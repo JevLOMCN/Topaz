@@ -1,0 +1,27 @@
+{
+	"@metadata": {
+		"authors": [
+			"Ghaly",
+			"Meno25"
+		]
+	},
+	"config-desc": "مثبت برمجيات ميدياويكى",
+	"config-title": "تثبيت ميدياويكى $1",
+	"config-information": "معلومات",
+	"config-localsettings-upgrade": "<code>LocalSettings.php</code> تم كشف ملف.\nلترقية التنصيب ده، رجاء دخل قيمة <code>$wgUpgradeKey</code> فى الصندوق تحت.\nهاتلاقيه فى <code>LocalSettings.php</code>.",
+	"config-localsettings-cli-upgrade": "<code>LocalSettings.php</code> تم كشف ملف.\nلترقية التنصيب ده، رجاء فعل <code>update.php</code> بدله",
+	"config-localsettings-key": "مفتاح تحديث:",
+	"config-localsettings-badkey": "مفتاح الترقية اللي قدمته مش صحيح.",
+	"config-upgrade-key-missing": "تم اكتشاف تثبيت موجود لـ MediaWiki.\nعلشان تحديث التنصيب ده، الرجاء حط السطر اللى تحت  <code>LocalSettings.php</code>  بتاعك:\n\n$1",
+	"config-your-language": "اللغه بتاعتك:",
+	"config-your-language-help": " إختار لغة البرنامج بتاعتك:",
+	"config-wiki-language": " ويكى لانجواج :",
+	"config-back": "→ ارجع",
+	"config-continue": "استمر",
+	"config-page-language": "اللغه",
+	"config-page-welcome": "اهلا ف ميديا ويكى",
+	"config-page-name": "الاسم:",
+	"config-page-install": "تركيب",
+	"mainpagetext": "<strong>ميدياويكى اتنزلت بنجاح.</strong>",
+	"mainpagedocfooter": "استشر [https://www.mediawiki.org/wiki/Special:MyLanguage/Help:Contents دليل المستخدم] لمعلومات حول استخدام برنامج الويكي.\n\n== البداية ==\n\n* [https://www.mediawiki.org/wiki/Special:MyLanguage/Manual:Configuration_settings قائمة إعدادات الضبط]\n* [https://www.mediawiki.org/wiki/Special:MyLanguage/Manual:FAQ أسئلة متكررة حول ميدياويكي]\n* [https://lists.wikimedia.org/postorius/lists/mediawiki-announce.lists.wikimedia.org/ القائمة البريدية الخاصة بإصدار ميدياويكي]\n* [https://www.mediawiki.org/wiki/Special:MyLanguage/Manual:Combating_spam تعلم كيفية مكافحة السخام في الويكي الخاص بك]"
+}

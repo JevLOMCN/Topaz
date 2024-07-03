@@ -1,0 +1,77 @@
+!! Version 2
+
+!! test
+PageImages with one image
+!! options
+property=page_image_free
+!! config
+wgParserEnableLegacyMediaDOM=false
+!! wikitext
+[[File:Foobar.jpg]]
+!! metadata
+property[page_image_free]=Foobar.jpg
+!! html
+<p><span class="mw-default-size" typeof="mw:File"><a href="/wiki/File:Foobar.jpg" class="mw-file-description"><img src="http://example.com/images/3/3a/Foobar.jpg" decoding="async" width="1941" height="220" class="mw-file-element" /></a></span>
+</p>
+!! end
+
+!! test
+PageImages with two images
+!! options
+property=page_image_free
+!! config
+wgParserEnableLegacyMediaDOM=false
+!! wikitext
+[[File:Thumb.png]]
+[[File:Foobar.jpg]]
+!! metadata
+property[page_image_free]=Foobar.jpg
+!! html
+<p><span class="mw-default-size" typeof="mw:File"><a href="/wiki/File:Thumb.png" class="mw-file-description"><img src="http://example.com/images/e/ea/Thumb.png" decoding="async" width="135" height="135" class="mw-file-element" /></a></span>
+<span class="mw-default-size" typeof="mw:File"><a href="/wiki/File:Foobar.jpg" class="mw-file-description"><img src="http://example.com/images/3/3a/Foobar.jpg" decoding="async" width="1941" height="220" class="mw-file-element" /></a></span>
+</p>
+!! end
+
+!! test
+PageImages with best excluded by wgPageImagesLeadSectionOnly
+!! options
+property=page_image_free
+disabled
+!! config
+wgParserEnableLegacyMediaDOM=false
+!! metadata
+property[page_image_free]=Thumb.png
+!! wikitext
+[[File:Thumb.png]]
+
+== Section ==
+
+[[File:Foobar.jpg]]
+!! html
+<p><a href="/wiki/File:Thumb.png" class="image"><img alt="Thumb.png" src="http://example.com/images/e/ea/Thumb.png" decoding="async" width="135" height="135" /></a>
+</p>
+<h2><span class="mw-headline" id="Section">Section</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/index.php?title=Parser_test&amp;action=edit&amp;section=1" title="Edit section: Section">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p><a href="/wiki/File:Foobar.jpg" class="image"><img alt="Foobar.jpg" src="http://example.com/images/3/3a/Foobar.jpg" decoding="async" width="1941" height="220" /></a>
+</p>
+!! end
+
+!! test
+PageImages with toc and image in heading
+!! options
+property=page_image_free
+!! config
+wgParserEnableLegacyMediaDOM=false
+!! wikitext
+__TOC__
+== Hello [[File:Foobar.jpg]] ==
+!! metadata
+property[page_image_free]=Foobar.jpg
+!! html
+<div id="toc" class="toc" role="navigation" aria-labelledby="mw-toc-heading"><input type="checkbox" role="button" id="toctogglecheckbox" class="toctogglecheckbox" style="display:none" /><div class="toctitle" lang="en" dir="ltr"><h2 id="mw-toc-heading">Contents</h2><span class="toctogglespan"><label class="toctogglelabel" for="toctogglecheckbox"></label></span></div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="#Hello"><span class="tocnumber">1</span> <span class="toctext">Hello</span></a></li>
+</ul>
+</div>
+
+<h2><span class="mw-headline" id="Hello">Hello <span class="mw-default-size" typeof="mw:File"><a href="/wiki/File:Foobar.jpg" class="mw-file-description"><img src="http://example.com/images/3/3a/Foobar.jpg" decoding="async" width="1941" height="220" class="mw-file-element" /></a></span></span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/index.php?title=Parser_test&amp;action=edit&amp;section=1" title="Edit section: Hello">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+!! end

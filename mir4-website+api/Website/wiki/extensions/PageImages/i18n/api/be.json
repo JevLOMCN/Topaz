@@ -1,0 +1,17 @@
+{
+	"@metadata": {
+		"authors": [
+			"Chadyka",
+			"Maksim L."
+		]
+	},
+	"apihelp-query+pageimages-summary": "Вяртае інфармацыю аб выявах на старонцы, напрыклад, драбніцу і наяўнасць фатаграфіяў.",
+	"apihelp-query+pageimages-example-1": "Атрымаць назву выявы і яе драбніцу ў <kbd>100</kbd> пікселяў на старонцы <kbd>Albert Einstein</kbd>.",
+	"apihelp-query+pageimages-param-prop": "Якую інфармацыю вярнуць:\n;thumbnail:URL і памеры драбніцы, звязанай са старонкай, калі ёсць.\n;original:URL і арыгінальныя памеры выявы, звязанай са старонкай, калі ёсць.\n;name:Назва выявы.",
+	"apihelp-query+pageimages-param-thumbsize": "Максімальная шырыня драбніцаў у пікселях.",
+	"apihelp-query+pageimages-param-langcode": "Код мовы, на якой будзе адлюстроўвацца выява, калі падтрымліваецца некалькі моў",
+	"apihelp-query+pageimages-param-limit": "Уласцівасці колькасці старонак для вяртання.",
+	"apihelp-query+pageimages-param-license": "Абмежаваць выявы старонак па пэўных тыпах ліцэнзіяў",
+	"apihelp-query+pageimages-paramvalue-license-free": "толькі свабодныя выявы",
+	"apihelp-query+pageimages-paramvalue-license-any": "лепшая выява, свабодная ці несвабодная"
+}

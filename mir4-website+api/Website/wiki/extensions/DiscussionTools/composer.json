@@ -1,0 +1,40 @@
+{
+	"require-dev": {
+		"mediawiki/mediawiki-codesniffer": "43.0.0",
+		"mediawiki/mediawiki-phan-config": "0.14.0",
+		"mediawiki/minus-x": "1.1.1",
+		"php-parallel-lint/php-console-highlighter": "1.0.0",
+		"php-parallel-lint/php-parallel-lint": "1.3.2"
+	},
+	"scripts": {
+		"test": [
+			"parallel-lint . --exclude vendor --exclude node_modules",
+			"@phpcs",
+			"minus-x check ."
+		],
+		"fix": [
+			"minus-x fix .",
+			"phpcbf"
+		],
+		"dbschema": [
+			"php ../../maintenance/generateSchemaSql.php --json sql/discussiontools_subscription.json --sql sql/mysql/discussiontools_subscription.sql --type mysql",
+			"php ../../maintenance/generateSchemaSql.php --json sql/discussiontools_persistent.json --sql sql/mysql/discussiontools_persistent.sql --type mysql",
+			"php ../../maintenance/generateSchemaSql.php --json sql/discussiontools_subscription.json --sql sql/postgres/discussiontools_subscription.sql --type postgres",
+			"php ../../maintenance/generateSchemaSql.php --json sql/discussiontools_persistent.json --sql sql/postgres/discussiontools_persistent.sql --type postgres",
+			"php ../../maintenance/generateSchemaSql.php --json sql/discussiontools_subscription.json --sql sql/sqlite/discussiontools_subscription.sql --type sqlite",
+			"php ../../maintenance/generateSchemaSql.php --json sql/discussiontools_persistent.json --sql sql/sqlite/discussiontools_persistent.sql --type sqlite"
+		],
+		"phan": "phan -d . --long-progress-bar",
+		"phpcs": "phpcs -sp --cache"
+	},
+	"require": {
+		"php": ">=7.4.3",
+		"ext-json": "*",
+		"ext-dom": "*"
+	},
+	"config": {
+		"allow-plugins": {
+			"dealerdirect/phpcodesniffer-composer-installer": true
+		}
+	}
+}

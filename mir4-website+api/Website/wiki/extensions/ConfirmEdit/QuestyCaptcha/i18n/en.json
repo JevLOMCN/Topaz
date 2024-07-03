@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": []
+	},
+	"questycaptcha-desc": "Questy CAPTCHA generator for Confirm Edit",
+	"questycaptcha-addurl": "Your edit includes new external links.\nTo protect the wiki against automated edit spam, we kindly ask you to answer the question that appears below ([[Special:Captcha/help|more info]]):",
+	"questycaptcha-badlogin": "To protect the wiki against automated password cracking, we kindly ask you to answer the question that appears below ([[Special:Captcha/help|more info]]):",
+	"questycaptcha-createaccount": "To protect the wiki against automated account creation, we kindly ask you to answer the question that appears below ([[Special:Captcha/help|more info]]):",
+	"questycaptcha-create": "To create the page, please answer the question that appears below ([[Special:Captcha/help|more info]]):",
+	"questycaptcha-edit": "To edit this page, please answer the question that appears below ([[Special:Captcha/help|more info]]):",
+	"questycaptcha-sendemail": "To protect the wiki against automated spamming, we kindly ask you to answer the question that appears below ([[Special:Captcha/help|more info]]):",
+	"questycaptchahelp-text": "Websites that accept contributions from the public, like this wiki, are often abused by spammers who use automated tools to add their links to many sites.\nWhile these spam links can be removed, they are a significant nuisance.\n\nSometimes, especially when adding new web links to a page, the wiki may ask you to answer a question.\nSince this is a task that is hard to automate, it will allow most real humans to make their contributions while stopping most spammers and other robotic attackers.\n\nPlease contact the [[Special:ListAdmins|site administrators]] for assistance if this is unexpectedly preventing you from making legitimate contributions.\n\nClick the \"back\" button in your browser to return to the page editor."
+}

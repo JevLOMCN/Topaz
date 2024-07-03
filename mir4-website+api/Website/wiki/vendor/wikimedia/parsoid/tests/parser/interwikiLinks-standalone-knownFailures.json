@@ -1,0 +1,19 @@
+{
+    "Different interwiki prefixes mapping to the same URL": {
+        "selser [[1],0,4,0,1,0,3,0,[1],0,[3],0,[1]]": "[[:en:Foo]]\n\n1lh6hpz\n\n[[wikipedia:Foo]]\n\n[[:wikipedia:en:Foo]]\n\n\n[[:  wikiPEdia :Foo]]",
+        "selser [4,0,[[3]],0,1,0,[[4]],2,0,0,[1],4,1]": "5yg824\n\n[:en:Foo]\n\n[[wikipedia:Foo]]\n\n[[:wikipedia:Foo|lcl9tx]]\n\neldsl\n\n[[wikipedia:en:Foo]]\n\n[[:wikipedia:en:Foo]]\n\n15my8b5\n\n[[:  wikiPEdia :Foo]]",
+        "selser [2,0,[[4]],3,3,0,[[3]],0,1,3,0,3,[2]]": "1r74r6y\n\n[[:en:Foo]]\n\n[[:en:Foo|13jznjb]]\n\n[:wikipedia:Foo]\n\n[[:wikipedia:en:Foo]]\n\n[[:wikipedia:en:Foo]]\n\n19pl9j1[[  wikiPEdia :Foo]]",
+        "selser [[2],4,1,2,[3],0,0,4,[4],4,2,3,1]": "1bxp22k[[:en:Foo]]\n\nu6gdy4\n\n[[:en:Foo|Foo]]\n\n1w016t1\n\n[[:wikipedia:Foo|Foo]]\n\n1gayzjl\n\n8fr6sa\n\nics71h\n\n1eyxsvq\n\n[[:wikipedia:en:Foo]]\n\n[[  wikiPEdia :Foo]]",
+        "selser [4,3,[[2]],2,[2],0,4,4,[[4]],4,[[2]],3,[4]]": "18ayqs5\n\n[[:en:Foo|7mtfabFoo]]\n\n1nw2ava\n\n72z1us[[:wikipedia:Foo]]\n\n69ha0t\n\n157xnqa\n\n[[wikipedia:en:Foo|13nh3np]]\n\n18fyiiz\n\n[[:wikipedia:en:Foo|1r10lc1wikipedia:en:Foo]]\n\nt5touf"
+    },
+    "Interwiki link encoding conversion (T3636)": {
+        "selser [[[3],2,[2]]]": "*\n* 1nv21zw\n*rzaibg[[:Wikipedia:ro:Olteniţa]]"
+    },
+    "Interwiki link with fragment (T4130)": {
+        "html2wt": "[[meatball:SoftSecurity#foo|MeatBall:SoftSecurity#foo]]\n"
+    },
+    "Self-links and interwiki": {
+        "selser [2,2,4,4,[[3]],3,0,0,3]": "1vtzo6c\n\n[[local:Main Page]]\n\n18w2fj1\n\nz5teog\n\n1wi54m5\n\n[[local:Main Page#anchor]]\n",
+        "selser [[[3]],2,[[2]],0,4,4,3,0,4]": "\n1641ogm\n\n[[meatball:Main Page|aehn6wmeatball:Main Page]]\n\n1i1625u\n\nhcmgpz\n\nn6kv8n"
+    }
+}

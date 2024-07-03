@@ -1,0 +1,24 @@
+{
+	"@metadata": {
+		"authors": [
+			"Matthias",
+			"Ooswesthoesbes",
+			"Tibor"
+		]
+	},
+	"gadgets-desc": "Laot gebroekers [[Special:Gadgets|CSS en JavaScripts]] activere in häör  [[Special:Preferences#mw-prefsection-gadgets|veurkeure]]",
+	"prefs-gadgets": "Biedènger",
+	"gadgets-prefstext": "Hiejónger sjtaon de sjpeciaal oetbreijinge dies te veur dien gebroekersaccount kèns insjakele.\nDe oetbreijinge zeen veurnamelik gebaseerd op JavaScript, dus JavaScript mót veur diene browser ingesjakeld zeen óm die te laote wirke.\nDe oetbreijinge höbbe geine invlood op dees pazjena mit veurkäöre.\n\nDees sjpeciaal oetbreijinge zeen ouch gein óngerdeil van de MediaWiki-software en die mótte meistal óntwikkeld en óngerhauwe waere door gebroekers van diene wiki.\nLokaal beheerders kónne de besjikbaar oetbreijinge aangaeve in [[MediaWiki:Gadgets-definition]] en [[Special:Gadgets]].",
+	"special-gadgets": "Oetbreijinger",
+	"gadgets-title": "Oetbreijinger",
+	"gadgets-pagetext": "Hiej ónger staon de speciaal oetbreijinger die gebroekers kinne insjakele via häöre [[Special:Preferences#mw-prefsection-gadgets|veurkeure]] wie ingesteldj is in [[MediaWiki:Gadgets-definition]].\nDit euverzich bi-jtj uch einvoudige toegank toet de systeemtekspazjena wo de besjrieving en de programmacode van edere oetbreijing steit.",
+	"gadgets-uses": "Gebroek",
+	"gadgets-required-rights": "{{PLURAL:$2|'t Volgend rech is|De volgende rechte zeen}} vereis: $1.",
+	"gadgets-required-skins": "Besjikbaar op de {{PLURAL:$2|vormgaeving $1|volgende vormgaevinge: $1}}.",
+	"gadgets-default": "Standerd aan veur edert.",
+	"gadgets-export": "Veur oet",
+	"gadgets-export-title": "Exporteer oetbreijing",
+	"gadgets-not-found": "Oetbreiding \"$1\" neet gevonje.",
+	"gadgets-export-text": "Klik óppe knoep \"{{int:gadgets-export-download}}\" óm de oetbreiding \"$1\" oet te veure.\nSlaon daonao 't gedownloadj bestandj óp.\nGank nao \"Special:Import\" inne doelwiki en laaj 't oetgeveurdj bestandj óp.\nVeug daonao 't vólgendje toe ane pagina \"MediaWiki:Gadgets-definition\":\n<pre>$2</pre>\nDoe mós de juuste rèchte höbben óppe doelwie, ouch óm bewirkinge aan systeemberichte te make en in te veure oet bestenj.",
+	"gadgets-export-download": "Haol óp"
+}

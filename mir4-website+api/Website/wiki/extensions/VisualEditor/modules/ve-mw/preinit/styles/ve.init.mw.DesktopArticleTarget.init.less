@@ -1,0 +1,164 @@
+/*!
+ * VisualEditor MediaWiki DesktopArticleTarget init styles.
+ *
+ * @copyright See AUTHORS.txt
+ * @license The MIT License (MIT); see LICENSE.txt
+ */
+
+/* stylelint-disable selector-max-id */
+
+/*!
+ * State                | <html> classes
+ * - mw.DesktopArticleTarget.init.css is loaded
+ * Reading              | ve-available
+ * Loading editor       | ve-available ve-activated ve-loading
+ * - mw.DesktopArticleTarget.css is loaded
+ * Activate editor      | ve-available ve-activated ve-loading ve-activating
+ * Active               | ve-available ve-activated ve-active
+ * Deactivate editor    | ve-available ve-deactivating
+ * Deactivated          | ve-available
+ */
+
+.ve-active {
+	// Hide banners only on skins where they would be shown in the editable area (T324055)
+	.ve-init-mw-desktopArticleTarget-targetContainer #siteNotice,
+	.mw-indicators,
+	#t-print,
+	#t-permalink,
+	#p-coll-print_export,
+	#t-cite,
+	.ve-init-mw-desktopArticleTarget-editableContent,
+	.ve-init-mw-tempWikitextEditorWidget {
+		display: none;
+	}
+}
+
+.ve-deactivating .ve-ui-surface {
+	display: none;
+}
+
+.ve-activating {
+	/* The surface needs to be measurable but not visible while
+	   being setup as some nodes render based on their dimensions,
+	   e.g. ve.ce.FocusableNode#updateInvisibleIcon */
+	.ve-ui-surface {
+		height: 0;
+		padding: 0 !important; /* stylelint-disable-line declaration-no-important */
+		overflow: hidden;
+	}
+}
+
+/*!
+ * Styles to make the original read view look disabled
+ * Don't "disable":
+ * - while loading: the placeholder toolbar
+ * - while loading: the target, as this momentarily appears at the end of the loading sequence
+ *   and contains the real toolbar
+ * Do "disable":
+ * - while loading: anything marked "original content" as on the second load this is where the read mode content will be
+ * - after activation: anything marked as "uneditable content"
+ */
+.ve-loading .ve-init-mw-desktopArticleTarget-targetContainer > :not( .ve-init-mw-desktopArticleTarget-toolbarPlaceholder ):not( .ve-init-mw-desktopArticleTarget ),
+.ve-loading .ve-init-mw-desktopArticleTarget-originalContent,
+.ve-activated:not( .ve-loading ) .ve-init-mw-desktopArticleTarget-uneditableContent {
+	pointer-events: none;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	opacity: 0.5;
+}
+
+.ve-activated {
+	.ve-init-mw-desktopArticleTarget-targetContainer #firstHeading {
+		/* Override the styles above to allow the heading to be selected, for copy-pasting */
+		-webkit-user-select: text;
+		-moz-user-select: text;
+		-ms-user-select: text;
+		user-select: text;
+		pointer-events: auto;
+		cursor: text;
+
+		a {
+			/* Re-disable any gadget-added links inside the heading, e.g. section 0 edit links */
+			pointer-events: none;
+		}
+	}
+
+	.ve-init-mw-desktopArticleTarget-originalContent #catlinks {
+		cursor: pointer;
+
+		&:hover {
+			/* focusableNode highlight equivalent styling */
+			background: #e9f2fd;
+		}
+
+		a {
+			opacity: 1;
+		}
+	}
+}
+/* stylelint-enable selector-max-id */
+
+.ve-init-mw-desktopArticleTarget-loading-overlay {
+	z-index: 2;
+	position: absolute;
+	width: 100%;
+	top: 1em;
+}
+
+.ve-init-mw-desktopArticleTarget-toolbarPlaceholder {
+	overflow: hidden;
+	transition: height 250ms ease;
+	height: 0;
+	padding-bottom: 2px;
+
+	/* Shadow is styled in theme files */
+
+	&-bar {
+		transform: translateY( -100% );
+		transition: transform 250ms ease;
+	}
+
+	&-open .ve-init-mw-desktopArticleTarget-toolbarPlaceholder-bar {
+		transform: translateY( 0 );
+	}
+
+	&-floating {
+		// No height transition required when toolbar starts off floating
+		transition: none;
+
+		.ve-init-mw-desktopArticleTarget-toolbarPlaceholder-bar {
+			position: fixed;
+			top: 0;
+			z-index: 1;
+			background: #fff;
+		}
+	}
+}
+
+/* OOUI may not have loaded yet */
+.oo-ui-element-hidden {
+	display: none !important; /* stylelint-disable-line declaration-no-important */
+}
+
+/* Section edit links */
+
+.mw-editsection {
+	/* bidi isolation: */
+	unicode-bidi: -moz-isolate;
+	unicode-bidi: -webkit-isolate;
+	unicode-bidi: isolate;
+
+	&::before {
+		content: '\200B';
+	}
+
+	a {
+		white-space: nowrap;
+	}
+}
+
+.mw-editsection-divider {
+	color: #54595d;
+}

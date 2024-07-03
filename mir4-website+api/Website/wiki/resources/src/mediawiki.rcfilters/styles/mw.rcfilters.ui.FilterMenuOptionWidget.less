@@ -1,0 +1,41 @@
+@import 'mediawiki.skin.variables.less';
+@import 'mw.rcfilters.variables.less';
+@import 'mediawiki.mixins.less';
+
+.mw-rcfilters-ui-filterMenuOptionWidget {
+	.mw-rcfilters-ui-filterMenuSectionOptionWidget ~ & {
+		padding-left: 12 / @font-size-system-ui / @font-size-vector;
+		padding-right: 12 / @font-size-system-ui / @font-size-vector;
+	}
+
+	&.oo-ui-flaggedElement-muted {
+		&:not( .oo-ui-optionWidget-selected ) {
+			// Namespaces are muted 'the other way around' when they
+			// are also inverted, so if they are also selected, we
+			// should make sure the selected background is shown rather
+			// than the muted one
+			background-color: @background-color-interactive-subtle;
+		}
+
+		.mw-rcfilters-ui-itemMenuOptionWidget-label-title,
+		.mw-rcfilters-ui-itemMenuOptionWidget-label-desc {
+			color: @color-subtle;
+		}
+
+		&.oo-ui-optionWidget-highlighted {
+			// Copying over styles from OOUI, since it must
+			// override our 'muted' state
+			background-color: @background-color-interactive;
+			color: @color-emphasized;
+		}
+	}
+
+	// Override OOUI's pretty specific
+	// `.oo-ui-fieldLayout.oo-ui-labelElement.oo-ui-fieldLayout-align-inline > .oo-ui-fieldLayout-body > .oo-ui-fieldLayout-header`
+	// selector
+	.mw-rcfilters-ui-itemMenuOptionWidget-itemCheckbox > .oo-ui-fieldLayout > .oo-ui-fieldLayout-body > .oo-ui-fieldLayout-header {
+		padding-top: 0;
+		padding-bottom: 0;
+		padding-left: 12 / @font-size-system-ui / @font-size-vector;
+	}
+}

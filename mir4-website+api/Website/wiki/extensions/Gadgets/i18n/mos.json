@@ -1,0 +1,40 @@
+{
+	"@metadata": {
+		"authors": [
+			"Raizkgh",
+			"Soumaya"
+		]
+	},
+	"gadgets-desc": "Sẽn dat n sõng-b tɩ b yãk b sẽn dat n maan to-to wã. [[Special:Gadgets|CSS and JavaScript\n gadgets]] in their [[Special:Preferences#mw-prefsection-gadgets|preferences]]",
+	"prefs-gadgets": "Dɩtb-dãmb",
+	"prefs-description-gadgets": "Yãk-y n tool-y neda Yãk n tool-yã a taab",
+	"gadgets-prefstext": "Ci-dessous apparaît une liste de gadgets que vous pouvez activer pour votre compte.\nIls font appel principalement à JavaScript qui doit donc être activé dans votre navigateur Web pour les faire fonctionner.\nNotez que ces gadgets n’auront aucun effet sur cette page de préférences.\n\nNotez également que ces gadgets spéciaux ne font pas partie du logiciel MediaWiki et qu’ils sont généralement développés et maintenus par les utilisateurs de votre wiki local.\nLes administrateurs d’interface locaux peuvent modifier les [[MediaWiki:Gadgets-definition|définitions]] des gadgets disponibles et les administrateurs locaux peuvent modifier leurs [[Special:Gadgets|descriptions]], où vous pouvez trouver le code source de chaque gadget. Le nombre d’utilisateurs pour chaque gadget sur ce wiki est listé dans les [[Special:GadgetUsage|statistiques d’utilisation des gadgets]].",
+	"gadgets-prefstext-safemode": "B pa tõe n tall CSS/JavaScript sẽn yaa b sẽn da yãk tɩ b tõe n tall a soaba ye. Sõng-y tɩ y [#mw-input-wpforcesafemode] yɩ segl-maand sẽn tõe n sõng-y tɩ d tũ ne [[#mw-input-wpforcesafemode| disable safe mode]] CSS/JavaScript sẽn yaa toor-toorã.",
+	"special-gadgets": "Dɩtb-dãmb",
+	"gadgetusage": "Dɩtb sẽn wilgd tɩ b tũnugda ne tʋʋm-kãsemsã",
+	"gadgetusage-gadget": "Dɩtb-dãmb",
+	"gadgetusage-usercount": "Sõngd-dãmb sõor",
+	"gadgetusage-noresults": "B pa yã bũmb ye.",
+	"gadgetusage-intro-noactive": "Tabll kãngã wilgdame tɩ sõor ning sẽn tũnugd ne bũmb ning fãa sẽn be wiki wã yaa neb a wãn. Sõng-kãngã pa tar sõng ne bũmb nins b sẽn yet tɩ b tõe n kõ ned fãa wã ye, la tõe n bee ne bũmb nins sẽn pa le be wã.",
+	"gadgetusage-activeusers": "Sõngdb sẽn tʋmd ne b meng",
+	"gadgetusage-default": "kongre",
+	"gadgets-title": "Dɩtb-dãmb",
+	"gadgets-pagetext": "Sẽn pʋgdã yaa gadgets nins sẽn yaa toor-toorã sẽn tõe n paam [[Special:Preferences#mw-prefsection-gadgets| preferences page]],n paam n kõ b sõssã sõssã[[MediaWiki:Gadgets-definition|definitions]]. Sõng-kãngã pʋgẽ, b tõe n paama sõsg nins b sẽn dat n wilg tɩ b rat n yeelame tɩ yaa bũmb ning fãa sẽn be b nugẽ wã.",
+	"gadgets-editdescription": "Dʋ-gʋlsdã sẽn gomd bũmb ning yelle",
+	"gadgets-viewdescription": "Ges-y bũmb ning sẽn wilgd tɩ b pa segd n maan woto",
+	"gadgets-uses": "Sõngdbã",
+	"gadgets-required-actions": "B sẽn da maand woto wã yaa {{PLURAL:$2|\"$1\"|page action la b maand pag actions woto:$1}}.",
+	"gadgets-required-namespaces": "{{PLURAL:$2 ne sõor sẽn pa be sõor sẽn yaa $1}}",
+	"gadgets-default": "Sẽn yaa tɩlae ne ned fãa.",
+	"gadgets-legacy": "B pa tʋk n tʋm ye. Sõng- y tɩ y kẽng ResourceLoader.  ([https://www.mediawiki.org/wiki/Special:MyLanguage/ResourceLoader/Migration_guide_ (bãngdb) bãng-y bũmb wʋsg])",
+	"gadgets-packaged": "Ad b sẽn na n paam n paam n bãng tɩ b sẽn na yɩl n paam n tõog n bãng b sẽn tõe n maan bũmb ninsã, b segd n maana b sẽn tõe fãa n paam n maan bũmb nins sẽn yaa sõma wã $1",
+	"gadgets-export": "D sẽn yiisd",
+	"gadgets-export-title": "Demsã",
+	"gadgets-not-found": "B pa yãt \"$1\" yel-bũndã ye.",
+	"gadgets-export-text": "Y sã n dat n tall n yiis a $1 wã, bɩ y klik \"{{int:gadgets-export-download}}\" tug-tẽnga, y tall-a n tall-a, y kẽng a \"Special:Import\" wã sẽn be wiki wã pʋgẽ, n tall-ba. Rẽ poore, paas-y bũmb ning sẽn pʋgdã MediaWiki:Gadgets-definition page wã: <pre>$2</pre> Y segd n paama sor-wilgr sẽn zems zĩ-kãnga wiki wã zugu (y segd n paama noor tɩ y rat n sak sõss nins sẽn be siglgã pʋgẽ wã) la y segd n kɩtame tɩ y talld import ne faay nins sẽn talld-b n pa tõe n talld-ba.",
+	"gadgets-export-download": "D sẽn na n dɩk",
+	"gadgets-requires-es6": "A Zeova Kaset rãmbã sẽn yaa b rãmb n pa tõe n maan b sẽn datã n maan b toorẽ wã yĩnga.",
+	"gadgets-validate-notset": "B pa yãk bũmb ning sẽn boond tɩ <code>$1</code> wã ye.",
+	"gadgets-validate-wrongtype": "Bãngr ning sẽn yaa <code>$1</code> wã segd n yaa <code>$2</code> sẽn pa <code>$3</code> ye.",
+	"gadgets-supports-urlload": "A woto wã sõngda URL sẽn tar \"<code>?withgadget</code> query parameter\" n tall n tall n tʋm."
+}

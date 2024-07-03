@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Yusuke1109"
+		]
+	},
+	"apihelp-query+extracts-summary": "指定されたページのプレーンテキストまたは制限付きHTMLを返します。",
+	"apihelp-query+extracts-param-chars": "返す文字数。返される実際の本文はわずかに長くなる場合があります。",
+	"apihelp-query+extracts-param-sentences": "返す文の数。",
+	"apihelp-query+extracts-param-intro": "最初の節の前の内容のみ返す。"
+}

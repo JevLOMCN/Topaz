@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"Nemo bis",
+			"Zoranzoki21"
+		]
+	},
+	"apihelp-titleblacklist-summary": "{{doc-apihelp-summary|titleblacklist}}",
+	"apihelp-titleblacklist-param-title": "{{doc-apihelp-param|titleblacklist|title}}",
+	"apihelp-titleblacklist-param-action": "{{doc-apihelp-param|titleblacklist|action}}",
+	"apihelp-titleblacklist-param-nooverride": "{{doc-apihelp-param|titleblacklist|nooverride}}",
+	"apihelp-titleblacklist-example-1": "{{doc-apihelp-example|titleblacklist}}",
+	"apihelp-titleblacklist-example-2": "Replace \"Bar\" with any example string suitable for your language, for instance the translation of \"Example\".\n----\n{{doc-apihelp-example|titleblacklist}}",
+	"apihelp-createaccount-param-ignoretitleblacklist": "{{doc-apihelp-param|createaccount|ignoretitleblacklist}}"
+}

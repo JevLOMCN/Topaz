@@ -1,0 +1,17 @@
+{
+	"@metadata": {
+		"authors": [
+			"Danmichaelo",
+			"Jon Harald Søby",
+			"Macofe"
+		]
+	},
+	"apihelp-flowthank-summary": "Send en offentlig takk for en Flow-kommentar.",
+	"apihelp-flowthank-param-postid": "UUID-en til posten det skal takkes for.",
+	"apihelp-flowthank-example-1": "Send takk for kommentaren med <kbd>UUID xyz789</kbd>",
+	"apihelp-thank-summary": "Send et takkevarsel til en bidragsyter.",
+	"apihelp-thank-param-rev": "Sideversjons-ID å takke noen for. Denne eller 'log' må oppgis.",
+	"apihelp-thank-param-log": "Logg-ID å takke noen for. Denne eller 'rev' må oppgis.",
+	"apihelp-thank-param-source": "En kort streng som beskriver kilden for forespørselen, for eksempel <kbd>diff</kbd> eller <kbd>history</kbd>.",
+	"apihelp-thank-example-1": "Send takk for sideversjon <kbd>ID 456</kbd>, der kilden er en diff-side"
+}

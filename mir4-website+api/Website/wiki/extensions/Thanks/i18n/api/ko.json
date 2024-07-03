@@ -1,0 +1,16 @@
+{
+	"@metadata": {
+		"authors": [
+			"In2acous",
+			"Ykhwong"
+		]
+	},
+	"apihelp-flowthank-summary": "플로 댓글에 공개 감사 표현 알림 보내기",
+	"apihelp-flowthank-param-postid": "감사를 표할 게시물의 UUID입니다.",
+	"apihelp-flowthank-example-1": "<kbd>UUID xyz789</kbd>와 함께 댓글에 대한 감사 표현을 보냅니다",
+	"apihelp-thank-summary": "편집자에게 감사 알림을 보냅니다.",
+	"apihelp-thank-param-rev": "누군가에게 감사를 표할 판의 ID입니다. 이것 또는 'log'는 반드시 제공되어야 합니다.",
+	"apihelp-thank-param-log": "누군가에게 감사를 표하는 로그 ID입니다. 이것 또는 'rev'는 반드시 지정되어야 합니다.",
+	"apihelp-thank-param-source": "이를테면 <kbd>diff</kbd> 또는 <kbd>history</kbd>처럼 요청의 원본을 기술하는 짧은 문자열입니다.",
+	"apihelp-thank-example-1": "diff 문서의 원본과 함께 <kbd>ID 456</kbd> 판에 대해 감사를 보냅니다."
+}

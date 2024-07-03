@@ -1,0 +1,16 @@
+{
+	"@metadata": {
+		"authors": [
+			"Fitoschido",
+			"Jmarchn",
+			"Vriullop"
+		]
+	},
+	"echo-category-title-login-fail": "Temptatives fallades d'inici de sessió",
+	"echo-pref-tooltip-login-fail": "Notifica'm quan hi hagi temptaves fallades d'inici de sessió amb el meu compte.",
+	"echo-category-title-login-success": "Inici de sessió des d'un aparell no habitual",
+	"echo-pref-tooltip-login-success": "Notifica'm quan s'iniciï la sessió amb el meu compte des d'un aparell o una adreça IP no habitual.",
+	"loginnotify-primary-link": "Ajuda",
+	"notification-loginnotify-login-fail-email-subject": "{{PLURAL:$2|Temptativa fallida|Múltiples temptatives fallades}} d'inici de sessió al projecte {{SITENAME}} com a $1",
+	"notification-loginnotify-login-success-email-subject": "Inici de sessió al projecte {{SITENAME}} com a $1 des d'un dispositiu que no {{GENDER:$1|heu}} usat recentment"
+}

@@ -1,0 +1,10 @@
+{
+	"h-How_to_authenticate_to_Wikimedia_Commons_Query_Service_using_OAuth_in_Python?-2020-12-21T13:38:00.000Z": "How to authenticate to Wikimedia Commons Query Service using OAuth in Python?",
+	"c-FrankieRayRobertson-2020-12-21T13:38:00.000Z-How_to_authenticate_to_Wikimedia_Commons_Query_Service_using_OAuth_in_Python?": "This page says it's possible to authenticate against the query service using OAuth, but has anyone managed to do so programmatically from Python? If anyone has any working code, in any language, I would appreciate whatever you can share. I've asked the full question including my not-working Python code on StackOverflow: https://stackoverflow.com/questions/65303450/how-to-authenticate-to-wikimedia-commons-query-service-using-oauth-in-python",
+	"c-Zache-2021-01-04T06:55:00.000Z-FrankieRayRobertson-2020-12-21T13:38:00.000Z": "@Multichill: do you have example code for this / are you using WCQS with python?",
+	"c-Multichill-2021-02-13T18:31:00.000Z-Zache-2021-01-04T06:55:00.000Z": "@Zache: no, would have to look into this. Should be part of Pywikibot if someone figures it out. Did you already file a task in phabricator to add support for https://wcqs-beta.wmflabs.org/ ?",
+	"h-HTTP_500,_server_down?-2021-12-28T00:30:00.000Z": "HTTP 500, server down?",
+	"c-Marsupium-2021-12-28T00:30:00.000Z-HTTP_500,_server_down?": "For me https://wcqs-beta.wmflabs.org/ throws a 500 Internal Server Error: Problem accessing /oauth/check_login. Reason: Request failed. Is this known? Any information when the query service might be back? Thanks in advance for any information or linking to relevant other places!",
+	"c-Shisma-2021-12-31T11:48:00.000Z-Marsupium-2021-12-28T00:30:00.000Z": "@Marsupium: issue was reported in T297454",
+	"c-Marsupium-2021-12-31T12:19:00.000Z-Shisma-2021-12-31T11:48:00.000Z": "Thanks for the link!"
+}

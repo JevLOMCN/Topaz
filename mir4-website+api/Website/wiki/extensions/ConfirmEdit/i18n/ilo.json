@@ -1,0 +1,23 @@
+{
+	"@metadata": {
+		"authors": [
+			"Lam-ang"
+		]
+	},
+	"captcha-edit": "Tapno maurnos daytoy a panid, pangaasi a sulbaren ti sumaganad nga obra dita baba ken ikabil ti sungbat dita kahon ([[Special:Captcha/help|adu pay a pakaammo]]):",
+	"captcha-edit-fail": "Saan a husto wenno awan a CAPTCHA.",
+	"captcha-desc": "Ikkan na kadagiti CAPTCHA a pamay-ay tapno masalakniban kadagiti spam ken agpugpugto ti kontrasenias",
+	"captcha-addurl": "Ti inurnosmo ket nangiraman kadagiti baro a silpo.\nTapno  masalakniban ti wiki kadagiti automatiko a spam, agpangpanga-asi kami kaniam a sulbaren ti sumaganad nga obra dita baba ken ikabil ti sungbat dita kahon tapno maidulin ti inurnosmo ([[Special:Captcha/help|adu pay a pakaammo]]):",
+	"captcha-badlogin": "Tapno makasalakniban ti wiki kadagiti automatiko a panagsulbar iti kontrasenias, agpangpangnga-asi kami kaniam a sulbaren ti sumagand nga obra dita baba ken ikabil ti sungbat dita kahon ([[Special:Captcha/help|adu pay a pakaammo]]):",
+	"captcha-createaccount": "Tapno masalakniban ti wiki kadagiti automatiko a panagpartuat iti pakabilangan, agpangpanga-asi kami kaniam a sulbaren ti sumagand nga obra dita baba ken ikabil ti sungbat dita kahon ([[Special:Captcha/help|adu pay a pakaammo]]):",
+	"captcha-createaccount-fail": "Saan a husto wenno awan a CAPTCHA.",
+	"captcha-create": "Tapno mapartaut iti panid, pangaasim a sulbaren ti sumagand nga obra dita baba ken ikabil ti sungbat dita kahon ([[Special:Captcha/help|adu pay a pakaammo]]):",
+	"captcha-sendemail": "Tapno makasalakniban ti wiki kadagiti automatiko a panagspam, agpangpangnga-asi kami kaniam a sulbaren ti nsumagand nga obra dita baba ken ikabil ti sungbat dita kahon ([[Special:Captcha/help|adu pay a pakaammo]]):",
+	"captcha-sendemail-fail": "Saan a husto wenno awan a CAPTCHA.",
+	"captcha-disabledinapi": "Daytoy nga aramid ket nasken ti captcha, saan a mabalin a maaramid idiay API.",
+	"captchahelp-title": "Tulong ti CAPTCHA",
+	"captchahelp-cookies-needed": "Masapul nga adda galietas ti pagbasabasam tapno mabalin daytoy.",
+	"captchahelp-text": "Dagiti website nga agaw-awat kadagiti maipablaak manipud iti publiko, kasla iti daytoy a wiki, ket masansan nga abusuen dagiti spammer nga agus-usar kadagiti automatiko a ramit tapno agipablaak kadagiti bukodda a silpo kadagiti adu a sitio. Bayat a mabalin a maikkat dagitoy a silpo, dagitoy ket nakaro a makariro.\n\nIti sagpaminsan, nangruna no agikabil kadagiti baro a silpo ti web iti panid, mabalin nga agiparang kenka ti wiki iti maysa a ladawan a namarisan wenno bakkaweng a teksto ken agdamag kenka nga agimakinilya kadagiti maiparang a balikas.\n\nYantangay a daytoy ket obra a narigat a ma-automatiko, kaaduan a mangipalubos nga agipablaak kadagiti pudno a tao bayat nga agpasardeng kadagiti kaaduan nga spammer ken dagiti dadduma nga agraraut a robot.\n\nDaksangasat met a parigatenna dagiti agar-aramat a saan unay a makakita wenno agus-usar kadagiti pagbasabasa a naibatay iti teksto wenno naibatay iti bitla.\nIti agdama awan kami pay iti maysa a magun-od a pagpilian nga audio.\nPangngaasi a kontaken dagiti [[Special:ListAdmins|administrador ti sitio]] para iti tulong no daytoy ket nabigla a mangpawil kenka manipud iti panagaramid kadagiti lehitimado a tignaymo.\n\nPinduten ti buton ti \"back\" dita pagbasabasam tapno makasubli iti editor ti panid.",
+	"captcha-addurl-whitelist": " #<!-- baybayam nga kasta daytoy nga linia --> <pre>\n# Dagiti sumaganad a gramatika:\n#   * Amin-amin a naggapu iti \"#\" a kabalinan inggana ti kalpasan ti linia ket komentario\n#   * Amin a saan a blanko a linia ket regex fragment a mangipada laeng ti naggapuan a nagsangailian iti uneg ti URLs\n #</pre> <!-- baybay-am a kasta daytoy a linia -->",
+	"right-skipcaptcha": "Pakabaelan ti agkalbit ti CAPTCHA kadagiti aramid a saan a mapan ti CAPTCHA."
+}

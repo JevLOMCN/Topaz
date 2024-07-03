@@ -1,0 +1,25 @@
+{
+	"@metadata": {
+		"authors": [
+			"Hindustanilanguage",
+			"Prong$31",
+			"Sfic"
+		]
+	},
+	"apihelp-query+gadgetcategories-summary": "Returns a list of gadget categories.",
+	"apihelp-query+gadgetcategories-param-prop": "What gadget category information to get:\n;name:Internal category name.\n;title:Category title.\n;members:Number of gadgets in category.",
+	"apihelp-query+gadgetcategories-param-names": "श्रेणियों के नाम जिन्हें निकालना है।",
+	"apihelp-query+gadgetcategories-example-1": "मौजूदा गैजेट श्रेणियों की सूची प्राप्त करें",
+	"apihelp-query+gadgetcategories-example-2": "\"foo\" और \"bar\" श्रेणियों के बारे में पूरी जानकारी प्राप्त करें",
+	"apihelp-query+gadgets-summary": "Returns a list of gadgets used on this wiki.",
+	"apihelp-query+gadgets-param-prop": "What gadget information to get:\n;id:Internal gadget ID.\n;metadata:The gadget metadata.\n;desc:Gadget description transformed into HTML (can be slow, use only if really needed).",
+	"apihelp-query+gadgets-param-categories": "किन श्रेणियों के गैजेट प्राप्त करें",
+	"apihelp-query+gadgets-param-ids": "प्राप्त करने के गैजेटों के आई०डी०।",
+	"apihelp-query+gadgets-param-allowedonly": "वर्तमान सदस्य को अनुमति-प्राप्त गैजेटों को सूचीबद्ध करें।",
+	"apihelp-query+gadgets-param-enabledonly": "वर्तमान सदस्य के लिए सक्रिय गैजेट सूची",
+	"apihelp-query+gadgets-example-1": "Get a list of gadgets along with their descriptions",
+	"apihelp-query+gadgets-example-2": "Get a list of gadgets with all possible properties",
+	"apihelp-query+gadgets-example-3": "Get a list of gadgets belonging to category \"foo\"",
+	"apihelp-query+gadgets-example-4": "Get information about gadgets \"foo\" and \"bar\"",
+	"apihelp-query+gadgets-example-5": "वर्तमान में सदस्यों द्वारा सक्षम किये गये उपकरणों की सूची प्राप्त करें"
+}

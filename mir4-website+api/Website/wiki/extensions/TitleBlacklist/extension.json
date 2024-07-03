@@ -1,0 +1,126 @@
+{
+	"name": "TitleBlacklist",
+	"version": "1.5.0",
+	"author": [
+		"Victor Vasiliev",
+		"Fran Rogers"
+	],
+	"url": "https://www.mediawiki.org/wiki/Extension:TitleBlacklist",
+	"descriptionmsg": "titleblacklist-desc",
+	"license-name": "GPL-2.0-or-later",
+	"type": "antispam",
+	"requires": {
+		"MediaWiki": ">= 1.42"
+	},
+	"GroupPermissions": {
+		"sysop": {
+			"tboverride": true,
+			"titleblacklistlog": true
+		}
+	},
+	"AvailableRights": [
+		"tboverride",
+		"tboverride-account",
+		"titleblacklistlog"
+	],
+	"LogTypes": [
+		"titleblacklist"
+	],
+	"LogRestrictions": {
+		"titleblacklist": "titleblacklistlog"
+	},
+	"LogActionsHandlers": {
+		"titleblacklist/*": "LogFormatter"
+	},
+	"GrantPermissions": {
+		"createaccount": {
+			"tboverride-account": true
+		},
+		"editprotected": {
+			"tboverride": true
+		},
+		"viewrestrictedlogs": {
+			"titleblacklistlog": true
+		}
+	},
+	"APIModules": {
+		"titleblacklist": "MediaWiki\\Extension\\TitleBlacklist\\Api\\ApiTitleBlacklist"
+	},
+	"MessagesDirs": {
+		"TitleBlacklist": [
+			"i18n",
+			"i18n/api"
+		]
+	},
+	"AutoloadNamespaces": {
+		"MediaWiki\\Extension\\TitleBlacklist\\": "includes/"
+	},
+	"ResourceModules": {
+		"mediawiki.api.titleblacklist": {
+			"scripts": "mediawiki.api.titleblacklist.js",
+			"dependencies": [
+				"mediawiki.api"
+			]
+		},
+		"ext.titleblacklist.visualEditor": {
+			"scripts": "ve-titleblacklist/ve.init.mw.TitleBlacklistSaveErrorHandler.js"
+		}
+	},
+	"attributes": {
+		"VisualEditor": {
+			"PluginModules": [
+				"ext.titleblacklist.visualEditor"
+			]
+		}
+	},
+	"ResourceFileModulePaths": {
+		"localBasePath": "modules",
+		"remoteExtPath": "TitleBlacklist/modules"
+	},
+	"callback": "MediaWiki\\Extension\\TitleBlacklist\\Hooks::onRegistration",
+	"Hooks": {
+		"getUserPermissionsErrorsExpensive": "TitleBlacklistHookHandler",
+		"TitleGetEditNotices": "TitleBlacklistHookHandler",
+		"MovePageCheckPermissions": "TitleBlacklistHookHandler",
+		"EditFilter": "TitleBlacklistHookHandler",
+		"PageSaveComplete": "TitleBlacklistHookHandler",
+		"ScribuntoExternalLibraries": "TitleBlacklistScribuntoHookHandler"
+	},
+	"HookHandlers": {
+		"TitleBlacklistHookHandler": {
+			"class": "MediaWiki\\Extension\\TitleBlacklist\\Hooks"
+		},
+		"TitleBlacklistScribuntoHookHandler": {
+			"class": "MediaWiki\\Extension\\TitleBlacklist\\ScribuntoHooks"
+		}
+	},
+	"config": {
+		"TitleBlacklistSources": {
+			"value": []
+		},
+		"TitleBlacklistUsernameSources": {
+			"value": "*"
+		},
+		"TitleBlacklistLogHits": {
+			"value": false
+		},
+		"TitleBlacklistCaching": {
+			"value": {
+				"warningchance": 100,
+				"expiry": 900,
+				"warningexpiry": 600
+			}
+		},
+		"TitleBlacklistBlockAutoAccountCreation": {
+			"value": true
+		}
+	},
+	"AuthManagerAutoConfig": {
+		"preauth": {
+			"TitleBlacklistPreAuthenticationProvider": {
+				"class": "MediaWiki\\Extension\\TitleBlacklist\\TitleBlacklistPreAuthenticationProvider"
+			}
+		}
+	},
+	"manifest_version": 2
+}

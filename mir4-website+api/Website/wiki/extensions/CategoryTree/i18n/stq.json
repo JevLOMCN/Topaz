@@ -1,0 +1,30 @@
+{
+	"@metadata": {
+		"authors": [
+			"Pyt"
+		]
+	},
+	"categorytree": "Kategorieboom",
+	"categorytree-portlet": "Kategorien",
+	"categorytree-legend": "Wies Kategorienboom",
+	"categorytree-desc": "AJAX-basierd Gadget uum ju [[Special:CategoryTree|Kategorien-Struktuur]] fon n Wiki antouwiesen",
+	"categorytree-header": "Wiest foar ju anroate Kategorie do Unnerkategorien in n Boomstruktuur.\nDisse Siede bruukt bestimde JavaScript-Funktione (AJAX).\nIn gjucht oolde Browsere, of wan Javascript ouschalted is, funktioniert disse Siede eventuell nit.",
+	"categorytree-category": "Kategorie:",
+	"categorytree-go": "Leede",
+	"categorytree-parents": "Buppekategorien",
+	"categorytree-mode-categories": "bloot Kategorien",
+	"categorytree-mode-pages": "Sieden buute Doatäie",
+	"categorytree-mode-all": "aal Sieden",
+	"categorytree-collapse": "ienklappe",
+	"categorytree-expand": "uutklappe",
+	"categorytree-member-counts": "änthoalt {{PLURAL:$1|1 Unnerkategorie|$1 Unnerkategorien}}, {{PLURAL:$2|1 Siede|$2 Sieden}} un {{PLURAL:$3|1 Doatäi|$3 Doatäie}}",
+	"categorytree-load": "leede",
+	"categorytree-loading": "leede ...",
+	"categorytree-nothing-found": "Niks fuunen",
+	"categorytree-no-subcategories": "Neen Unnerkategorien",
+	"categorytree-no-parent-categories": "Neen Buppekategorien",
+	"categorytree-no-pages": "Neen Sieden of Unnerkategorien",
+	"categorytree-not-found": "Kategorie ''$1'' nit fuunen",
+	"categorytree-error": "Probleme bie dät Leeden fon do Doaten.",
+	"categorytree-retry": "Täif ieuwen un fersäik et dan fon näien."
+}

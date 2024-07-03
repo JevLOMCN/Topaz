@@ -1,0 +1,36 @@
+{
+	"@metadata": {
+		"authors": [
+			"Winston Sung"
+		]
+	},
+	"cite-desc": "Dodaje oznake <code>&lt;ref&gt;</code> i <code>&lt;references/&gt;</code> za citiranja",
+	"cite_error": "Greška u referenci: $1",
+	"cite_error_ref_invalid_dir": "Nevažeća oznaka <code>dir=\"$1\"</code>. Mora biti <code>ltr</code> ili <code>rtl</code>",
+	"cite_error_ref_numeric_key": "Nevaljana oznaka <code>&lt;ref&gt;</code>; ime ne može biti broj. Upotrijebite opisni naslov",
+	"cite_error_ref_no_key": "Otvarajuća oznaka <code>&lt;ref&gt;</code> nije ispravno oblikovana ili sadrži neispravno ime",
+	"cite_error_ref_too_many_keys": "Nevaljana oznaka <code>&lt;ref&gt;</code>; nevaljana imena, tj. ima ih previše",
+	"cite_error_ref_nested_extends": "Nije dopušteno proširenje <code>&lt;ref&gt;</code> oznaka dublje od jedne razine",
+	"cite_error_ref_no_input": "Nevaljana oznaka <code>&lt;ref&gt;</code>; reference bez imena moraju imati sadržaj",
+	"cite_error_references_duplicate_key": "Nevaljana oznaka <code>&lt;ref&gt;</code>; naziv \"$1\" je zadan više puta s različitim sadržajem",
+	"cite_error_references_invalid_parameters": "Neispravan parametar u oznaci <code>&lt;references&gt;</code>",
+	"cite_error_references_no_backlink_label": "Nema dovoljno natpisa za poveznice unatrag. Opredjelite još natpisa u [[MediaWiki:Cite references link many format backlink labels]]",
+	"cite_error_no_link_label_group": "Ponestalo je natpisa proizvoljnih linkova za grupu \"$1\". Opredjelite još putem poruke [[MediaWiki:$2]].",
+	"cite_error_references_no_text": "Nevaljana oznaka <code>&lt;ref&gt;</code>; nije zadan tekst za reference po imenu <code>$1</code>",
+	"cite_error_included_ref": "Oznaci <code>&lt;ref&gt;</code> nedostaje oznaka za zatvaranje &lt;/ref&gt;",
+	"cite_error_included_references": "Nedostaje zatvarajuća oznaka za <code>&lt;references&gt;</code>",
+	"cite_error_group_refs_without_references": "Oznake <code>&lt;ref&gt;</code> postoje za skupinu imenovanu kao \"$1\", ali nema pripadajuće oznake <code>&lt;references group=\"$1\"/&gt;</code>",
+	"cite_error_references_group_mismatch": "<code>&lt;ref&gt;</code> oznaka u <code>&lt;references&gt;</code> ima konfliktni grupni atribut  \"$1\".",
+	"cite_error_references_missing_key": "<code>&lt;ref&gt;</code> oznaka s imenom \"$1\" definirana u <code>&lt;references&gt;</code> nije korištena u ranijem tekstu.",
+	"cite_error_references_no_key": "<code>&lt;ref&gt;</code> oznaka definirana u <code>&lt;references&gt;</code> nema parametar ''name''.",
+	"cite_error_empty_references_define": "<code>&lt;ref&gt;</code> oznaka „$1” definisana u <code>&lt;references&gt;</code> grupi „$2” nema sadržaja.",
+	"cite-tracking-category-cite-error": "Stranice s greškama u referencama",
+	"cite-tracking-category-cite-error-desc": "Stranice u ovoj kategoriji imaju greške u korišćenju oznaka referenci.",
+	"cite_references_link_accessibility_label": "Vrati se na vrh",
+	"cite_references_link_many_accessibility_label": "Vrati se na:",
+	"cite_references_link_accessibility_back_label": "Vrati se gore",
+	"cite_section_preview_references": "Pregled referenci",
+	"cite_warning": "Upozorenje citiranja: $1",
+	"cite_warning_sectionpreview_no_text": "Oznaka <code>&lt;ref&gt;</code> s nazivom <code>$1</code> ne može se prikazati jer je opredjeljena van trenutnog odlomka, ili pak uopće nije opredjeljena.",
+	"cite-wikieditor-tool-reference": "Referenca"
+}

@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"StanProg"
+		]
+	},
+	"apihelp-flowthank-summary": "Изпращане на публично известие за благодарност за коментар във Flow.",
+	"apihelp-flowthank-param-postid": "UUID кода на съобщение, за което да се благодари.",
+	"apihelp-flowthank-example-1": "Изпращане на благодарност за коментар с <kbd>UUID xyz789</kbd>",
+	"apihelp-thank-summary": "Изпращане на известие за благодарност на редактор.",
+	"apihelp-thank-param-rev": "ID на версията, за която да се благодари на някого. Трябва да се предостави или това, или „log“.",
+	"apihelp-thank-param-log": "ID на записа от дневника, за което да се благодари. Трябва да се предостави или това, или „rev“.",
+	"apihelp-thank-param-source": "Кратък низ, описващ източника на заявката, например <kbd>diff</kbd> или <kbd>history</kbd>.",
+	"apihelp-thank-example-1": "Изпращане на благодарност за версия с <kbd>ID 456</kbd>, като за източник е указана разликата между версиите"
+}

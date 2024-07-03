@@ -1,0 +1,1101 @@
+!! Version 2
+
+!! article
+Template:1x
+!! text
+{{{1}}}
+!! endarticle
+
+# TODO: add a test for T295168 when tackling it
+
+!! test
+Continue to serialize the old annotated 2.3.0 html
+!! options
+parsoid=html2wt
+annotations=1
+!! html/parsoid
+<p><span typeof="mw:Extension/dummyanno" about="#mwt2" data-mw='{"name":"dummyanno","attrs":{},"body":{"extsrc":"foo"}}'>foo</span></p><p>
+
+foo</p><pre typeof="mw:Extension/dummyanno" about="#mwt4" data-mw='{"name":"dummyanno","attrs":{},"body":{"extsrc":"\n bar\n"}}'>bar
+</pre><p>baz</p>
+<p>foo</p>
+<pre>bar</pre>
+<p>baz</p>
+!! wikitext
+<dummyanno>foo</dummyanno>
+
+foo<dummyanno>
+ bar
+</dummyanno>baz
+foo
+ bar
+baz
+!! end
+
+!! test
+Whole content between dummyanno tags
+!! options
+annotations=1
+!! wikitext
+<dummyanno>
+==Title==
+
+Let's have some text.
+</dummyanno>
+!! html/parsoid
+<meta typeof="mw:Annotation/dummyanno" data-mw='{"rangeId":"mwa0","extendedRange":false,"wtOffsets":[0,11]}'/>
+<h2 id="Title" data-parsoid='{"dsr":[12,23,2,2,1,1]}'>Title</h2>
+
+<p data-parsoid='{"dsr":[25,46,0,0]}'>Let's have some text.</p>
+<meta typeof="mw:Annotation/dummyanno/End" data-mw='{"wtOffsets":[45,57]}'/>
+!! end
+
+!! test
+Inline dummyanno tags
+!! options
+annotations=1
+!! wikitext
+Some text <dummyanno>with some annotated content</dummyanno> inline.
+!! html/parsoid
+<p>Some text <meta typeof="mw:Annotation/dummyanno" data-mw='{"rangeId":"mwa0","extendedRange":false,"wtOffsets":[10,21]}' />with some annotated content<meta typeof="mw:Annotation/dummyanno/End" data-mw='{"wtOffsets":[48,60]}'/> inline.</p>
+!! end
+
+!! test
+Template inside a dummyanno tag should not make a difference on its handling
+!! options
+annotations=1
+!! wikitext
+<dummyanno>{{1x|
+== Title ==
+}}
+
+Let's have some text.
+</dummyanno>
+!! html/parsoid
+<meta typeof="mw:Annotation/dummyanno" data-mw='{"rangeId":"mwa0","extendedRange":false,"wtOffsets":[0,11]}'/><span about="#mwt1" typeof="mw:Transclusion" data-parsoid='{"pi":[[{"k":"1"}]]}' data-mw='{"parts":[{"template":{"target":{"wt":"1x","href":"./Template:1x"},"params":{"1":{"wt":"\n== Title ==\n"}},"i":0}}]}'>
+</span><h2 about="#mwt1" id="Title">Title</h2><span about="#mwt1">
+</span>
+
+<p>Let's have some text.</p>
+<meta typeof="mw:Annotation/dummyanno/End" data-mw='{"wtOffsets":[55,67]}'/>
+!! end
+
+!! test
+Two inline dummyanno tags should have different rangeIds
+!! options
+annotations=1
+!! wikitext
+Some inline <dummyanno>text</dummyanno> followed by <dummyanno>some more text</dummyanno> inline
+!! html/parsoid
+<p>Some inline <meta typeof="mw:Annotation/dummyanno" data-mw='{"rangeId":"mwa0","extendedRange":false,"wtOffsets":[12,23]}'/>text<meta typeof="mw:Annotation/dummyanno/End" data-mw='{"wtOffsets":[27,39]}'/> followed by <meta typeof="mw:Annotation/dummyanno" data-mw='{"rangeId":"mwa1","extendedRange":false,"wtOffsets":[52,63]}'/>some more text<meta typeof="mw:Annotation/dummyanno/End" data-mw='{"wtOffsets":[77,89]}'/> inline</p>
+!! end
+
+!! test
+Two dummyanno tags on new lines should have different rangeIds
+!! options
+annotations=1
+!! wikitext
+Some  
+<dummyanno>
+text
+</dummyanno> 
+followed by 
+<dummyanno>
+some more text
+</dummyanno>
+to dummyanno
+!! html/parsoid
+<p>Some  
+<meta typeof="mw:Annotation/dummyanno" data-mw='{"rangeId":"mwa0","extendedRange":false,"wtOffsets":[7,18]}'/>
+text
+<meta typeof="mw:Annotation/dummyanno/End" data-mw='{"wtOffsets":[24,36]}'/> 
+followed by 
+<meta typeof="mw:Annotation/dummyanno" data-mw='{"rangeId":"mwa1","extendedRange":false,"wtOffsets":[51,62]}'/>
+some more text
+<meta typeof="mw:Annotation/dummyanno/End" data-mw='{"wtOffsets":[78,90]}'/>
+to dummyanno</p>
+!! end
+
+!! test
+Name attribute in ann2 tags should be added to the meta tag
+!! options
+annotations=1
+!! wikitext
+Some text <dummyanno>with some <ann2 name="plop">undummyannod</ann2> content</dummyanno> inline.
+!! html/parsoid
+<p>Some text <meta typeof="mw:Annotation/dummyanno" data-mw='{"rangeId":"mwa0","extendedRange":false,"wtOffsets":[10,21]}'/>with some <meta typeof="mw:Annotation/ann2" data-mw='{"attrs":{"name":"plop"},"rangeId":"mwa1","extendedRange":false,"wtOffsets":[31,49]}'/>undummyannod<meta typeof="mw:Annotation/ann2/End" data-mw='{"wtOffsets":[61,68]}'/> content<meta typeof="mw:Annotation/dummyanno/End" data-mw='{"wtOffsets":[76,88]}'/> inline.</p>
+!! end
+
+!! test
+Annotation wrapping an entire paragraph should be nested inside the paragraph
+!! options
+annotations=1
+!! wikitext
+foo
+
+<dummyanno>bar</dummyanno>
+
+<dummyanno>baz</dummyanno>
+!! html/parsoid
+<p>foo</p>
+
+<p><meta typeof="mw:Annotation/dummyanno" data-mw='{"rangeId":"mwa0","extendedRange":false,"wtOffsets":[5,16]}'/>bar<meta typeof="mw:Annotation/dummyanno/End" data-mw='{"wtOffsets":[19,31]}'/></p>
+
+<p><meta typeof="mw:Annotation/dummyanno" data-mw='{"rangeId":"mwa1","extendedRange":false,"wtOffsets":[33,44]}'/>baz<meta typeof="mw:Annotation/dummyanno/End" data-mw='{"wtOffsets":[47,59]}'/></p>
+!! end
+
+!! test
+Two paragraphs between dummyanno tags should roundtrip without duplicating the tags (DSRs are adjusted correctly)
+!! options
+annotations=1
+!! wikitext
+<dummyanno>plop
+
+Let's have some text.</dummyanno>
+!! html/parsoid
+<meta typeof="mw:Annotation/dummyanno" data-parsoid='{"dsr":[0,11,null,null]}' data-mw='{"rangeId":"mwa0","extendedRange":false,"wtOffsets":[0,11]}'/><p data-parsoid='{"dsr":[11,15,0,0]}'>plop</p>
+
+<p data-parsoid='{"dsr":[17,38,0,0]}'>Let's have some text.</p><meta typeof="mw:Annotation/dummyanno/End" data-parsoid='{"dsr":[38,50,null,null]}' data-mw='{"wtOffsets":[38,50]}'/>
+!! end
+
+!! test
+Start dummyanno tag at the beginning of a paragraph and end within <i> should extend to the end of <i> but not the whole paragraph
+!! options
+parsoid={
+  "modes": ["wt2html", "selser","wt2wt"]
+}
+annotations=1
+!! wikitext
+<dummyanno>This should ''fail</dummyanno> miserably'' ... let's fix it
+!! html/parsoid here
+<p><span typeof="mw:ExtendedAnnRange" data-parsoid='{"autoInsertedStart":true,"autoInsertedEnd":true}'><meta typeof="mw:Annotation/dummyanno" data-mw='{"rangeId":"mwa0","extendedRange":true,"wtOffsets":[0,11]}'/>This should <i>fail miserably</i><meta typeof="mw:Annotation/dummyanno/End" data-mw='{"wtOffsets":[29,41]}'/></span> ... let's fix it</p>
+!! end
+
+!! test
+End dummyanno tag at the end of a paragraph and beginning within <i> should extend to the end of <i> but not the whole paragraph
+!! options
+parsoid={
+  "modes": ["wt2html", "selser","wt2wt"]
+}
+annotations=1
+!! wikitext
+This should ''fail <dummyanno>miserably'' ... let's fix it</dummyanno>
+!! html/parsoid here
+<p>This should <span typeof="mw:ExtendedAnnRange" data-parsoid='{"autoInsertedStart":true,"autoInsertedEnd":true}'><meta typeof="mw:Annotation/dummyanno" data-mw='{"rangeId":"mwa0","extendedRange":true,"wtOffsets":[19,30]}'/><i>fail miserably</i> ... let's fix it<meta typeof="mw:Annotation/dummyanno/End" data-mw='{"wtOffsets":[58,70]}'/></span></p>
+!! end
+
+!! test
+Meta merging with annotations/template should not happen
+!! options
+annotations=1
+!! wikitext
+<dummyanno>{{1x|stuff}}</dummyanno>
+!! html/parsoid
+<p><meta typeof="mw:Annotation/dummyanno" data-mw='{"rangeId":"mwa0","extendedRange":false,"wtOffsets":[0,11]}'/><span about="#mwt1" typeof="mw:Transclusion" data-parsoid='{"pi":[[{"k":"1"}]]}' data-mw='{"parts":[{"template":{"target":{"wt":"1x","href":"./Template:1x"},"params":{"1":{"wt":"stuff"}},"i":0}}]}'>stuff</span><meta typeof="mw:Annotation/dummyanno/End" data-mw='{"wtOffsets":[23,35]}'/></p>
+!! end
+
+!! test
+Meta merging with template/annotation is fine
+!! options
+annotations=1
+!! wikitext
+{{1x|<dummyanno>stuff</dummyanno>}}
+!! html/parsoid
+<p><meta typeof="mw:Transclusion mw:Annotation/dummyanno" about="#mwt1" data-parsoid='{"pi":[[{"k":"1"}]]}' data-mw='{"parts":[{"template":{"target":{"wt":"1x","href":"./Template:1x"},"params":{"1":{"wt":"&lt;dummyanno>stuff&lt;/dummyanno>"}},"i":0}}],"rangeId":"mwa0"}'/><span about="#mwt1">stuff</span><meta typeof="mw:Annotation/dummyanno/End" about="#mwt1" data-mw='{"rangeId":"mwa0"}'/></p>
+!! end
+
+!! test
+Attributes without value should be transferred to and back from the meta tag
+!! options
+annotations=1
+!! wikitext
+<dummyanno nowrap>some stuff</dummyanno>
+!! html/parsoid
+<p><meta typeof="mw:Annotation/dummyanno" data-mw='{"attrs":{"nowrap":""},"rangeId":"mwa0","extendedRange":false,"wtOffsets":[0,18]}'/>some stuff<meta typeof="mw:Annotation/dummyanno/End" data-mw='{"wtOffsets":[28,40]}'/></p>
+!! end
+
+!! test
+Annotation open tag in fosterable position should expand the range to the entire table
+!! options
+parsoid={
+  "modes": ["wt2html", "selser","wt2wt"]
+}
+annotations=1
+!! wikitext
+{|
+|table
+|with
+|-
+<dummyanno>
+|some
+|content</dummyanno>
+|-
+|dummyanno
+|one line
+|}
+!! html/parsoid
+<div typeof="mw:ExtendedAnnRange" data-parsoid='{"autoInsertedStart":true,"autoInsertedEnd":true}'><meta typeof="mw:Annotation/dummyanno" data-mw='{"rangeId":"mwa0","extendedRange":true,"wtOffsets":[19,30]}'/>
+<table>
+<tbody><tr><td>table</td>
+<td data-parsoid>with</td></tr>
+<tr data-parsoid='{"startTagSrc":"|-"}'>
+<td>some</td>
+<td>content</td></tr>
+<tr data-parsoid='{"startTagSrc":"|-"}'>
+<td>dummyanno</td>
+<td>one line</td></tr>
+</tbody></table>
+<meta typeof="mw:Annotation/dummyanno/End" data-mw='{"wtOffsets":[45,57]}' /></div>
+!! end
+
+!! test
+dummyanno in the middle of fostered content should extend to the whole range, including fostered content
+!! options
+parsoid={
+  "modes": ["wt2html", "selser","wt2wt"]
+}
+annotations=1
+!! wikitext
+{|
+foo
+<dummyanno>bar</dummyanno>
+|-
+|baz
+|}
+!! html/parsoid
+<div typeof="mw:ExtendedAnnRange" data-parsoid='{"autoInsertedStart":true,"autoInsertedEnd":true}'><meta typeof="mw:Annotation/dummyanno" data-parsoid='{"wasMoved":true}' data-mw='{"rangeId":"mwa0","extendedRange":true,"wtOffsets":[7,18]}'/><p data-parsoid='{"fostered":true,"autoInsertedEnd":true,"autoInsertedStart":true}'>
+foo</p>
+<p>bar</p><table>
+<tbody><tr data-parsoid='{"startTagSrc":"|-"}'>
+<td>baz
+</td></tr></tbody></table><meta typeof="mw:Annotation/dummyanno/End" data-parsoid='{"wasMoved":true}' data-mw='{"wtOffsets":[21,33]}'/></div>
+!!end
+
+# This test explicitly tests that template continuity is not broken by top-level annotation markers. Observe that the
+# end annotation marker is rendered before the table and not after it as one would expect. This is due to the fact that
+# the table itself is transclusion content, which prevents the creation of the FosterBox. Hence, the end annotation is
+# not detected as being fostered. This is fine because the transclusion prevents block-level DOM editing of the content,
+# which will avoid round-tripping issues.
+!!test
+dummyanno getting roped to template top-level because of fostering should get the about attribute of the template
+!! options
+parsoid={
+  "modes": ["wt2html", "selser","wt2wt"]
+}
+annotations=1
+!! wikitext
+{{1x|Some text!
+<table>
+<p>first fostered</p>
+<tr>
+<td>table</td></tr>}}
+<dummyanno><tr>
+<td>stuff</td>
+</tr></dummyanno><p>last fostered</p>
+</table>
+!! html/parsoid
+<p about="#mwt1" typeof="mw:Transclusion" data-parsoid='{"pi":[[{"k":"1"}]]}' data-mw='{"parts":[{"template":{"target":{"wt":"1x","href":"./Template:1x"},"params":{"1":{"wt":"Some text!\n&lt;table>\n&lt;p>first fostered&lt;/p>\n&lt;tr>\n&lt;td>table&lt;/td>&lt;/tr>"}},"i":0}},"\n&lt;dummyanno>&lt;tr>\n&lt;td>stuff&lt;/td>\n&lt;/tr>&lt;/dummyanno>&lt;p>last fostered&lt;/p>\n&lt;/table>"]}'>Some text!</p><span about="#mwt1">
+</span><p about="#mwt1">first fostered</p><meta typeof="mw:Annotation/dummyanno" about="#mwt1" data-mw='{"rangeId":"mwa0","extendedRange":false,"wtOffsets":[73,84]}'/><meta typeof="mw:Annotation/dummyanno/End" about="#mwt1" data-mw='{"wtOffsets":[109,121]}'/><p about="#mwt1">last fostered</p><table about="#mwt1" data-parsoid='{"stx":"html"}'>
+
+<tbody><tr data-parsoid='{"stx":"html"}'>
+<td>table</td></tr>
+<tr>
+<td>stuff</td>
+</tr>
+</tbody></table>
+!!end
+
+# As opposed to the previous test, the transclusion is now in fostered content directly. The annotation markers are
+# entered in the foster box, and then treated as such. The whole content is wrapped in ExtendedAnnRange div and in the
+# transclusion (both annotation tags get the transclusion about tag).
+!! test
+Annotations and templates in the fosterbox
+!! options
+parsoid={
+  "modes": ["wt2html", "selser","wt2wt"]
+}
+annotations=1
+!! wikitext
+<table>
+<tr>
+<td>hello</td>
+<p>{{1x|world}}</p><dummyanno><p>plop</p></dummyanno>
+</tr>
+</table>
+!! html/parsoid
+<div typeof="mw:ExtendedAnnRange" about="#mwt2" data-parsoid='{"autoInsertedStart":true,"autoInsertedEnd":true}'><meta typeof="mw:Transclusion mw:Annotation/dummyanno" about="#mwt2" data-parsoid='{"fostered":true,"wasMoved":true,"firstWikitextNode":"TABLE_html","pi":[[{"k":"1"}]]}' data-mw='{"parts":["&lt;table>\n&lt;tr>\n&lt;td>hello&lt;/td>\n&lt;p>",{"template":{"target":{"wt":"1x","href":"./Template:1x"},"params":{"1":{"wt":"world"}},"i":0}},"&lt;/p>&lt;dummyanno>&lt;p>plop&lt;/p>&lt;/dummyanno>\n&lt;/tr>\n&lt;/table>"],"rangeId":"mwa0","extendedRange":true,"wtOffsets":[47,58]}'/><p about="#mwt2">world</p><p about="#mwt2">plop</p><table about="#mwt2">
+<tbody><tr>
+<td>hello</td>
+
+</tr>
+</tbody></table><meta typeof="mw:Annotation/dummyanno/End" about="#mwt2" data-mw='{"wtOffsets":[69,81]}'/></div>
+!! end
+
+!! test
+Fostering of nested annotation ranges
+!! options
+parsoid={
+  "modes": ["wt2html"]
+}
+annotations=1
+!! wikitext
+<table>
+<tr>
+<dummyanno><ann2>plop</ann2></dummyanno>
+<td>cell</td>
+</tr>
+</table>
+!! html/parsoid
+<div typeof="mw:ExtendedAnnRange" data-parsoid='{"autoInsertedStart":true,"autoInsertedEnd":true}'><meta typeof="mw:Annotation/dummyanno" data-parsoid='{"fostered":true,"wasMoved":true}' data-mw='{"rangeId":"mwa1","extendedRange":true,"wtOffsets":[13,24]}'/><div typeof="mw:ExtendedAnnRange" data-parsoid='{"autoInsertedStart":true,"autoInsertedEnd":true}'><meta typeof="mw:Annotation/ann2" data-parsoid='{"fostered":true,"wasMoved":true}' data-mw='{"rangeId":"mwa0","extendedRange":true,"wtOffsets":[24,30]}'/><p data-parsoid='{"fostered":true,"autoInsertedStart":true}'>plop</p><table data-parsoid='{"stx":"html"}'>
+<tbody><tr data-parsoid='{"stx":"html"}'>
+
+<td data-parsoid='{"stx":"html"}'>cell</td>
+</tr>
+</tbody></table><meta typeof="mw:Annotation/ann2/End" data-parsoid='{"fostered":true,"wasMoved":true}' data-mw='{"wtOffsets":[34,41]}'/></div><meta typeof="mw:Annotation/dummyanno/End" data-parsoid='{"fostered":true,"wasMoved":true}' data-mw='{"wtOffsets":[41,53]}'/></div>
+!! end
+
+!! test
+Fostering of contiguous annotation ranges
+!! options
+parsoid={
+  "modes": ["wt2html"]
+}
+annotations=1
+!! wikitext
+<table>
+<tr>
+<dummyanno>plop</dummyanno><ann2>replop</ann2>
+<td>cell</td>
+</tr>
+</table>
+!! html/parsoid
+<div typeof="mw:ExtendedAnnRange" data-parsoid='{"autoInsertedStart":true,"autoInsertedEnd":true}'><meta typeof="mw:Annotation/ann2" data-parsoid='{"fostered":true,"wasMoved":true}' data-mw='{"rangeId":"mwa0","extendedRange":true,"wtOffsets":[40,46]}'/><div typeof="mw:ExtendedAnnRange" data-parsoid='{"autoInsertedStart":true,"autoInsertedEnd":true}'><meta typeof="mw:Annotation/dummyanno" data-parsoid='{"fostered":true}' data-mw='{"rangeId":"mwa1","extendedRange":true,"wtOffsets":[13,24]}'/><p data-parsoid='{"fostered":true,"autoInsertedStart":true}'>plop</p><p data-parsoid='{"fostered":true,"autoInsertedStart":true}'>replop</p><table data-parsoid='{"stx":"html"}'>
+<tbody><tr data-parsoid='{"stx":"html"}'>
+
+<td data-parsoid='{"stx":"html"}'>cell</td>
+</tr>
+</tbody></table><meta typeof="mw:Annotation/dummyanno/End" data-parsoid='{"fostered":true,"wasMoved":true}' data-mw='{"wtOffsets":[28,40]}'/></div><meta typeof="mw:Annotation/ann2/End" data-parsoid='{"fostered":true,"wasMoved":true}' data-mw='{"wtOffsets":[52,59]}'/></div>
+!! end
+
+!! test
+dummyanno tags around <pre> area with new lines
+!! options
+annotations=1
+!! wikitext
+<dummyanno>
+ foo
+</dummyanno>
+!! html/parsoid
+<meta typeof="mw:Annotation/dummyanno" data-mw='{"rangeId":"mwa0","extendedRange":false,"wtOffsets":[0,11]}'/>
+<pre>foo</pre>
+<meta typeof="mw:Annotation/dummyanno/End" data-mw='{"wtOffsets":[17,29]}'/>
+!! end
+
+!! test
+Newlines should be inserted between annotation tags and pre
+!! options
+parsoid={
+  "modes": ["html2wt"]
+}
+annotations=1
+!! html/parsoid
+foo<meta typeof="mw:Annotation/dummyanno" /><pre>bar</pre><meta typeof="mw:Annotation/dummyanno/End"/>baz
+foo<pre>bar</pre>baz
+!! wikitext
+foo<dummyanno>
+ bar
+</dummyanno>baz
+foo
+ bar
+baz
+!! end
+
+!! test
+dummyanno tags in list items
+!! options
+annotations=1
+!! wikitext
+*<dummyanno>List item!</dummyanno>
+!! html/parsoid
+<ul data-parsoid='{"dsr":[0,35,0,0]}'><li data-parsoid='{"dsr":[0,35,1,0,1,0]}'><meta typeof="mw:Annotation/dummyanno" data-parsoid='{"dsr":[1,12,null,null]}' data-mw='{"rangeId":"mwa0","extendedRange":false,"wtOffsets":[1,12]}'/>List item!<meta typeof="mw:Annotation/dummyanno/End" data-parsoid='{"dsr":[22,34,null,null]}' data-mw='{"wtOffsets":[22,34]}'/></li></ul>
+!! end
+
+
+### Tests from annotation spec
+!! test
+1/ Whole content contained in annotation tags
+!! options
+annotations=1
+!! wikitext
+<dummyanno>
+One paragraph.
+
+And another.
+</dummyanno>
+!! html/parsoid
+<meta typeof="mw:Annotation/dummyanno" data-mw='{"rangeId":"mwa0","extendedRange":false,"wtOffsets":[0,11]}'/>
+<p>One paragraph.</p>
+
+<p>And another.</p>
+<meta typeof="mw:Annotation/dummyanno/End" data-mw='{"wtOffsets":[41,53]}'/>
+!! end
+
+!! test
+2/ Extended annotation range
+!! options
+parsoid={
+  "modes": ["wt2html", "selser","wt2wt"]
+}
+annotations=1
+!! wikitext
+This is ''an <dummyanno>artificial'' '''example</dummyanno> of''' extension.
+!! html/parsoid
+<p>This is <span typeof="mw:ExtendedAnnRange" data-parsoid='{"autoInsertedStart":true,"autoInsertedEnd":true}'><meta typeof="mw:Annotation/dummyanno" data-mw='{"rangeId":"mwa0","extendedRange":true,"wtOffsets":[13,24]}'/><i>an artificial</i> <b>example of</b><meta typeof="mw:Annotation/dummyanno/End" data-mw='{"wtOffsets":[47,59]}'/></span> extension.</p>
+!! end
+
+!! test
+3/ Two types of annotation, nested; annotation attributes
+!! options
+annotations=1
+!! wikitext
+<dummyanno>Some text <ann2 name="myvar">with a variable</ann2> in the middle</dummyanno>
+!! html/parsoid
+<p><meta typeof="mw:Annotation/dummyanno" data-mw='{"rangeId":"mwa0","extendedRange":false,"wtOffsets":[0,11]}'/>Some text <meta typeof="mw:Annotation/ann2" data-mw='{"attrs":{"name":"myvar"},"rangeId":"mwa1","extendedRange":false,"wtOffsets":[21,40]}'/>with a variable<meta typeof="mw:Annotation/ann2/End" data-mw='{"wtOffsets":[55,62]}'/> in the middle<meta typeof="mw:Annotation/dummyanno/End" data-mw='{"wtOffsets":[76,88]}'/></p>
+!! end
+
+!! test
+4/ Template (fully enclosed) in annotation range
+!! options
+annotations=1
+!! wikitext
+aa <dummyanno>bb {{1x|some content}} bb</dummyanno> aa
+!! html/parsoid
+<p>aa <meta typeof="mw:Annotation/dummyanno" data-mw='{"rangeId":"mwa0","extendedRange":false,"wtOffsets":[3,14]}'/>bb <span about="#mwt1" typeof="mw:Transclusion" data-parsoid='{"pi":[[{"k":"1"}]]}' data-mw='{"parts":[{"template":{"target":{"wt":"1x","href":"./Template:1x"},"params":{"1":{"wt":"some content"}},"i":0}}]}'>some content</span> bb<meta typeof="mw:Annotation/dummyanno/End" data-mw='{"wtOffsets":[39,51]}'/> aa</p>
+!! end
+
+!! test
+5/ annotation (fully enclosed) in template
+!! options
+annotations=1
+!! wikitext
+{{1x|bb <dummyanno>some content</dummyanno> bb}} aa
+!! html/parsoid
+<p><span about="#mwt1" typeof="mw:Transclusion" data-parsoid='{"pi":[[{"k":"1"}]]}' data-mw='{"parts":[{"template":{"target":{"wt":"1x","href":"./Template:1x"},"params":{"1":{"wt":"bb &lt;dummyanno>some content&lt;/dummyanno> bb"}},"i":0}}]}'>bb </span><meta typeof="mw:Annotation/dummyanno" about="#mwt1" data-mw='{"rangeId":"mwa0"}'/><span about="#mwt1">some content</span><meta typeof="mw:Annotation/dummyanno/End" about="#mwt1" data-mw='{"rangeId":"mwa0"}'/><span about="#mwt1"> bb</span> aa</p>
+!! end
+
+!! test
+7/ attributes in annotations
+!! options
+annotations=1
+!! wikitext
+{|
+|-
+| style="background: <dummyanno>red</dummyanno>; color: white;" |abc
+|jkl
+|}
+!! html/parsoid
+<table>
+<tbody>
+<tr data-parsoid='{"startTagSrc":"|-"}'>
+<td style="background: red; color: white;" about="#mwt1" typeof="mw:ExpandedAttrs mw:Annotation/dummyanno" data-parsoid='{"a":{"style":"background: red; color: white;"},"sa":{"style":"background: &lt;dummyanno>red&lt;/dummyanno>; color: white;"}}' data-mw='{"attribs":[[{"txt":"style"},{"html":"background: &lt;meta typeof=\"mw:Annotation/dummyanno\" data-parsoid=&apos;{\"dsr\":[27,38,null,null]}&apos; data-mw=&apos;{\"rangeId\":\"mwa0\",\"extendedRange\":false,\"wtOffsets\":[27,38]}&apos;/>red&lt;meta typeof=\"mw:Annotation/dummyanno/End\" data-parsoid=&apos;{\"dsr\":[41,53,null,null]}&apos; data-mw=&apos;{\"wtOffsets\":[41,53]}&apos;/>; color: white;"}]]}'>abc</td>
+<td>jkl</td></tr>
+</tbody></table>
+!! end
+
+!! test
+8/ fostered annotation markers
+!! options
+parsoid={
+  "modes": ["wt2html", "selser", "wt2wt"]
+}
+annotations=1
+!! wikitext
+{|
+|table
+|with
+|-
+<dummyanno>
+|some
+|content
+</dummyanno>
+|-
+|dummyanno
+|one line
+|}
+!! html/parsoid
+<div typeof="mw:ExtendedAnnRange" data-parsoid='{"autoInsertedStart":true,"autoInsertedEnd":true}'><meta typeof="mw:Annotation/dummyanno" data-mw='{"rangeId":"mwa0","extendedRange":true,"wtOffsets":[19,30]}'/><table>
+<tbody><tr data-parsoid='{"autoInsertedStart":true}'><td>table</td>
+<td>with</td></tr>
+<tr data-parsoid='{"startTagSrc":"|-"}'>
+
+<td>some</td>
+<td>content
+</td></tr>
+<tr data-parsoid='{"startTagSrc":"|-"}'>
+<td>dummyanno</td>
+<td>one line</td></tr>
+</tbody></table><meta typeof="mw:Annotation/dummyanno/End" data-mw='{"wtOffsets":[46,58]}'/></div>
+!!end
+
+!! test
+Selser: add a paragraph at the end of the content should not make the </dummyanno> tag disappear
+!! options
+parsoid={
+  "modes": ["selser"],
+  "changes": [
+    ["p", "after", "<p>plop</p>"]
+  ]
+}
+annotations=1
+!! wikitext
+<dummyanno>
+==plop==
+
+Add another paragraph.
+</dummyanno>
+!! wikitext/edited
+<dummyanno>
+==plop==
+
+Add another paragraph.
+
+plop
+</dummyanno>
+!!end
+
+!! test
+Selser: add content at the end of a paragraph with badly nested content with annotation
+!! options
+parsoid={
+  "modes": ["selser"],
+  "changes": [
+    ["p", "append", "something"]
+  ]
+}
+annotations=1
+!! wikitext
+Some ''stuff <dummyanno>and '''also some'' more</dummyanno> stuff''' than that.
+!! wikitext/edited
+Some ''stuff <dummyanno>and '''also some'' more</dummyanno> stuff''' than that.something
+!! end
+
+!! test
+Selser: add content at the end of a paragraph with badly nested content without annotation
+!! options
+annotations=1
+!! wikitext
+Some ''stuff and '''also some'' more stuff''' than that.
+!! html/parsoid
+<p>Some <i>stuff and <b>also some</b></i><b> more stuff</b> than that.</p>
+!! end
+
+!! test
+Selser: add content before and after <dummyanno> and </dummyanno> tags should keep paragraphs
+!! options
+parsoid={
+	"modes": ["selser"],
+	"changes": [
+		["meta", "before", "<p>plop</p>"],
+		["meta", "after", "<p>plop2</p>"]
+	]
+}
+annotations=1
+!! wikitext
+<dummyanno>
+hello
+</dummyanno>
+!! wikitext/edited
+plop
+
+<dummyanno>
+plop2
+
+hello
+
+plop
+</dummyanno>
+
+plop2
+!! end
+
+!! test
+Selser: add content before <dummyanno> and </dummyanno> tags should keep paragraphs
+!! options
+parsoid={
+        "modes": ["selser"],
+        "changes": [
+                ["meta", "before", "<p>plop</p>"]
+        ]
+}
+annotations=1
+!! wikitext
+<dummyanno>
+hello
+</dummyanno>
+!! wikitext/edited
+plop
+
+<dummyanno>
+hello
+
+plop
+</dummyanno>
+!! end
+
+!! test
+Selser: add content after <dummyanno> and </dummyanno> tags should keep paragraphs
+!! options
+parsoid={
+        "modes": ["selser"],
+        "changes": [
+                ["meta", "after", "<p>plop2</p>"]
+        ]
+}
+annotations=1
+!! wikitext
+<dummyanno>
+hello
+</dummyanno>
+!! wikitext/edited
+<dummyanno>
+plop2
+
+hello
+</dummyanno>
+
+plop2
+!! end
+
+!! test
+Selser: add headings after <dummyanno> and </dummyanno> tags should yield the right amount of new lines
+!!options
+parsoid={
+        "modes": ["selser"],
+        "changes": [
+                ["meta", "after", "<h2>plop</h2>"]
+        ]
+}
+annotations=1
+!! wikitext
+==title==
+some paragraph
+
+<dummyanno>
+hello
+</dummyanno>
+
+some other paragraph
+!! wikitext/edited
+==title==
+some paragraph
+
+<dummyanno>
+== plop ==
+hello
+</dummyanno>
+
+== plop ==
+
+some other paragraph
+!! end
+
+!! test
+Selser: add headings before <dummyanno> and </dummyanno> tags should yield the right amount of new lines
+!!options
+parsoid={
+        "modes": ["selser","wt2wt"],
+        "changes": [
+                ["meta", "before", "<h2>plop</h2>"]
+        ]
+}
+annotations=1
+!!wikitext
+==title==
+some paragraph
+
+<dummyanno>
+hello
+</dummyanno>
+
+some other paragraph
+!!wikitext/edited
+==title==
+some paragraph
+
+== plop ==
+
+<dummyanno>
+hello
+
+== plop ==
+</dummyanno>
+
+some other paragraph
+!! end
+
+!! test
+Selser: add lists before <dummyanno> and </dummyanno> tags should yield the right amount of new lines
+!! options
+parsoid={
+        "modes": ["selser"],
+        "changes": [
+                ["meta", "before", "<ul><li>plop</li></ul>"]
+        ]
+}
+annotations=1
+!! wikitext
+==title==
+some paragraph
+
+<dummyanno>
+hello
+</dummyanno>
+
+some other paragraph
+!!wikitext/edited
+==title==
+some paragraph
+
+* plop
+
+<dummyanno>
+hello
+
+* plop
+</dummyanno>
+
+some other paragraph
+!! end
+
+!! test
+Selser: add lists after <dummyanno> and </dummyanno> tags should yield the right amount of new lines
+!!options
+parsoid={
+        "modes": ["selser"],
+        "changes": [
+                ["meta", "after", "<ul><li>plop</li></ul>"]
+        ]
+}
+annotations=1
+!! wikitext
+==title==
+some paragraph
+
+<dummyanno>
+hello
+</dummyanno>
+
+some other paragraph
+!!wikitext/edited
+==title==
+some paragraph
+
+<dummyanno>
+* plop
+
+hello
+</dummyanno>
+
+* plop
+
+some other paragraph
+!! end
+
+!! test
+T295330 - dsr computation should allow proper selser
+!! options
+annotations=1
+!! wikitext
+<dummyanno>
+<!--T:1-->
+'''The quick brown fox jumps over the lazy dog.'''
+</dummyanno>
+
+[[Category:Foo]]
+!! html/parsoid
+<meta typeof="mw:Annotation/dummyanno" data-mw='{"rangeId":"mwa0","extendedRange":false,"wtOffsets":[0,11]}'/>
+<!--T:1-->
+<p><b>The quick brown fox jumps over the lazy dog.</b></p>
+<meta typeof="mw:Annotation/dummyanno/End" data-mw='{"wtOffsets":[74,86]}'/>
+
+<link rel="mw:PageProp/Category" href="./Category:Foo" data-parsoid='{"stx":"simple","a":{"href":"./Category:Foo"},"sa":{"href":"Category:Foo"}}'/>
+!! end
+
+## FIXME: This is currently awkward where only the start of the dummyanno is pulled into the template range.
+## This doesn't affect correctness because the ranges are all marked extended (because of bad nesting).
+## But, the bad nesting is an artefact of how the paragraph wrapper leaves the opening and closing meta
+## tags of the annotation range in different paragraphs, and one of those paragraphs happen to be from
+## a template. If the p-wrapper can be tweaked to be smarter about this, this will get cleaned up better.
+## But, for now, the focus is on not breaking selser.
+!! test
+Top-level metas should not be migrated into paragraphs, nor pulled in the template
+!! options
+parsoid=wt2html,selser,wt2wt
+annotations=1
+!! wikitext
+{{1x|<div>a</div> b}}
+<dummyanno>
+c
+</dummyanno>
+!! html/parsoid
+<div about="#mwt1" typeof="mw:Transclusion" data-parsoid='{"stx":"html","pi":[[{"k":"1"}]]}' data-mw='{"parts":[{"template":{"target":{"wt":"1x","href":"./Template:1x"},"params":{"1":{"wt":"&lt;div>a&lt;/div> b"}},"i":0}}]}'>a</div><p about="#mwt1"> b</p>
+<meta typeof="mw:Annotation/dummyanno" data-mw='{"rangeId":"mwa0","extendedRange":false,"wtOffsets":[22,33]}'/>
+<p>c</p>
+<meta typeof="mw:Annotation/dummyanno/End" data-mw='{"wtOffsets":[36,48]}'/>
+!! end
+
+!! test
+Annotations should not be hoisted out of headers
+!! wikitext
+==<dummyanno><!--T:19--> Organizational and Planning Projects</dummyanno>==
+!! options
+annotations=1
+!! html/parsoid
+<h2 id="Organizational_and_Planning_Projects"><meta typeof="mw:Annotation/dummyanno" data-mw='{"rangeId":"mwa0","extendedRange":false,"wtOffsets":[2,13]}'/><!--T:19--> Organizational and Planning Projects<meta typeof="mw:Annotation/dummyanno/End" data-mw='{"wtOffsets":[61,73]}'/></h2>
+!! end
+
+# Fixing T296169 in an imperfect way - see AnnotationDOMRangeBuilder.php#removeNestedRanges for details
+# This test purposefully fails on wt2wt, but we want to keep the output as part of the tests results.
+# Selser failures are also due to the wt2wt discrepancy.
+!! test
+T296169: Nested annotations should be dropped in HTML output
+!! options
+parsoid={
+        "modes": ["wt2html", "selser", "wt2wt"]
+}
+annotations=1
+!! wikitext
+<dummyanno><dummyanno>t1</dummyanno></dummyanno> <dummyanno>t2</dummyanno> <dummyanno><ann2 name="plop">t3</ann2></dummyanno>
+!! html/parsoid
+<p><meta typeof="mw:Annotation/dummyanno" data-mw='{"rangeId":"mwa0","extendedRange":false,"wtOffsets":[0,11]}'/>t1<meta typeof="mw:Annotation/dummyanno/End" data-mw='{"wtOffsets":[36,48]}'/> <meta typeof="mw:Annotation/dummyanno" data-mw='{"rangeId":"mwa2","extendedRange":false,"wtOffsets":[49,60]}'/>t2<meta typeof="mw:Annotation/dummyanno/End" data-mw='{"wtOffsets":[62,74]}'/> <meta typeof="mw:Annotation/dummyanno" data-mw='{"rangeId":"mwa3","extendedRange":false,"wtOffsets":[75,86]}'/><meta typeof="mw:Annotation/ann2" data-mw='{"attrs":{"name":"plop"},"rangeId":"mwa4","extendedRange":false,"wtOffsets":[86,104]}'/>t3<meta typeof="mw:Annotation/ann2/End" data-mw='{"wtOffsets":[106,113]}'/><meta typeof="mw:Annotation/dummyanno/End" data-mw='{"wtOffsets":[113,125]}'/></p>
+!! end
+
+# T296169
+!! test
+T296169: Extended annotations that yield a nested annotation should not nest said annotation
+!! options
+parsoid={
+        "modes": ["wt2html", "selser", "wt2wt"]
+}
+annotations=1
+!! wikitext
+a ''<dummyanno>b'' c ''d </dummyanno> e <dummyanno>f</dummyanno>'' g
+!! html/parsoid
+<p>a <span typeof="mw:ExtendedAnnRange" data-parsoid='{"autoInsertedStart":true,"autoInsertedEnd":true}'><meta typeof="mw:Annotation/dummyanno" data-parsoid='{"wasMoved":true}' data-mw='{"rangeId":"mwa0","extendedRange":true,"wtOffsets":[4,15]}'/><i>b</i> c <i>d e f</i><meta typeof="mw:Annotation/dummyanno/End" data-parsoid='{"wasMoved":true}' data-mw='{"wtOffsets":[25,37]}'/></span> g</p>
+!! end
+
+!! test
+# This is not correct yet because the template is not expanded in the HTML - the template is considered as a raw string
+# instead. Follow-up as T299523.
+Annotations with templated annotation attribute shouldn't emit a warning and should round-trip
+!! options
+annotations=1
+!! wikitext
+<dummyanno>
+<ann2 {{1x|1="name=hello other=plop nowrap"}}>test</ann2>
+</dummyanno>
+!! html/parsoid
+<meta typeof="mw:Annotation/dummyanno" data-parsoid='{"dsr":[0,11,null,null]}' data-mw='{"rangeId":"mwa0","extendedRange":false,"wtOffsets":[0,11]}'/>
+<p data-parsoid='{"dsr":[12,69,0,0]}'><meta typeof="mw:Annotation/ann2" data-parsoid='{"dsr":[12,58,null,null]}' data-mw='{"attrs":{"{{1x|1=\"name=hello other=plop nowrap\"}}":""},"rangeId":"mwa1","extendedRange":false,"wtOffsets":[12,58]}'/>test<meta typeof="mw:Annotation/ann2/End" data-parsoid='{"dsr":[62,69,null,null]}' data-mw='{"wtOffsets":[62,69]}'/></p>
+<meta typeof="mw:Annotation/dummyanno/End" data-parsoid='{"dsr":[70,82,null,null]}' data-mw='{"wtOffsets":[70,82]}'/>
+!! end
+
+!! test
+Annotations with templated annotation attribute name shouldn't emit a warning and should round-trip
+!! options
+annotations=1
+!! wikitext
+<dummyanno>
+<ann2 {{1x|name}}="hello">test</ann2>
+</dummyanno>
+!! html/parsoid
+<meta typeof="mw:Annotation/dummyanno" data-mw='{"rangeId":"mwa0","extendedRange":false,"wtOffsets":[0,11]}'/>
+<p><meta typeof="mw:Annotation/ann2" data-mw='{"attrs":{"{{1x|name}}":"hello"},"rangeId":"mwa1","extendedRange":false,"wtOffsets":[12,38]}'/>test<meta typeof="mw:Annotation/ann2/End" data-mw='{"wtOffsets":[42,49]}'/></p>
+<meta typeof="mw:Annotation/dummyanno/End" data-mw='{"wtOffsets":[50,62]}'/>
+!! end
+
+!! test
+Annotations with templated annotation attribute value shouldn't emit a warning and should round-trip
+!! options
+annotations=1
+!! wikitext
+<dummyanno>
+<ann2 name="{{1x|hello}}">test</ann2>
+</dummyanno>
+!! html/parsoid
+<meta typeof="mw:Annotation/dummyanno" data-mw='{"rangeId":"mwa0","extendedRange":false,"wtOffsets":[0,11]}'/>
+<p><meta typeof="mw:Annotation/ann2" data-mw='{"attrs":{"name":"{{1x|hello}}"},"rangeId":"mwa1","extendedRange":false,"wtOffsets":[12,38]}'/>test<meta typeof="mw:Annotation/ann2/End" data-mw='{"wtOffsets":[42,49]}'/></p>
+<meta typeof="mw:Annotation/dummyanno/End" data-mw='{"wtOffsets":[50,62]}'/>
+!! end
+
+!! test
+Annotation around a heading should not break the heading
+!! options
+annotations=1
+!! wikitext
+<dummyanno>==plop==</dummyanno>
+!! html/parsoid
+<meta typeof="mw:Annotation/dummyanno" data-parsoid='{"dsr":[0,11,null,null]}' data-mw='{"rangeId":"mwa0","extendedRange":false,"wtOffsets":[0,11]}'/><h2 id="plop" data-parsoid='{"dsr":[11,19,2,2]}'>plop</h2><meta typeof="mw:Annotation/dummyanno/End" data-parsoid='{"dsr":[19,31,null,null]}' data-mw='{"wtOffsets":[19,31]}'/>
+!! end
+
+!! test
+New lines around table-spanning annotation range extension should be maintained in selser
+!! options
+annotations=1
+parsoid=wt2html,wt2wt,selser
+!! wikitext
+txt1
+{|
+|-
+<dummyanno>txt2</dummyanno>
+|text3
+|}
+txt4
+!! html/parsoid
+<p>txt1</p>
+<div typeof="mw:ExtendedAnnRange" data-parsoid='{"autoInsertedStart":true,"autoInsertedEnd":true}'><meta typeof="mw:Annotation/dummyanno" data-parsoid='{"wasMoved":true}' data-mw='{"rangeId":"mwa0","extendedRange":true,"wtOffsets":[11,22]}'/><p data-parsoid='{"fostered":true,"autoInsertedStart":true}'>txt2</p><table>
+<tbody><tr data-parsoid='{"startTagSrc":"|-"}'>
+
+<td>text3
+</td></tr></tbody></table><meta typeof="mw:Annotation/dummyanno/End" data-parsoid='{"wasMoved":true}' data-mw='{"wtOffsets":[26,38]}'/></div>
+<p>txt4</p>
+!! end
+
+!! test
+Extended ranges should not result in bad nesting (T306186)
+!! options
+annotations=1
+parsoid=wt2html,selser
+!! wikitext
+<dummyanno>
+text</dummyanno> <dummyanno>
+by someone
+
+Highway of Montenegro.</dummyanno> <dummyanno>
+by Albin Olsson, CC BY-SA 4.0.
+
+Greta Salóme, singing for Iceland.</dummyanno> <dummyanno>
+by Albin Olsson, CC BY-SA 4.0.
+
+Nina Kraljić, representing Croatia.</dummyanno>
+!! html/parsoid
+<div typeof="mw:ExtendedAnnRange" data-parsoid='{"autoInsertedStart":true,"autoInsertedEnd":true}'><meta typeof="mw:Annotation/dummyanno" data-mw='{"rangeId":"mwa0","extendedRange":true,"wtOffsets":[0,11]}'/>
+<p>text
+by someone</p>
+
+<p>Highway of Montenegro.
+by Albin Olsson, CC BY-SA 4.0.</p>
+
+<p>Greta Salóme, singing for Iceland.
+by Albin Olsson, CC BY-SA 4.0.</p>
+
+<p>Nina Kraljić, representing Croatia.</p><meta typeof="mw:Annotation/dummyanno/End" data-parsoid='{"wasMoved":true}' data-mw='{"wtOffsets":[260,272]}'/></div>
+!! end
+
+# Looks like the comment, and the whitespace before 'Purge' are all needed.
+# Also, adding anything before the {{{1|..}} also leads to the test passing
+# without the T307172 fix.
+# So, this is a narrow edge case specific to this wikitext form.
+!! test
+T307172 Regression test
+!! options
+annotations=1
+parsoid=wt2html
+!! wikitext
+{{{1|<dummyanno><!--T:2--> Purge</dummyanno>}}}
+!! html/parsoid
+<meta typeof="mw:Param mw:Annotation/dummyanno" about="#mwt1" data-mw='{"parts":[{"templatearg":{"target":{"wt":"1"},"params":{"1":{"wt":"&lt;dummyanno>&lt;!--T:2--> Purge&lt;/dummyanno>"}},"i":0}}],"rangeId":"mwa0","extendedRange":false,"wtOffsets":[5,16]}'/><span about="#mwt1"><!--T:2--></span><pre about="#mwt1">Purge</pre><meta typeof="mw:Annotation/dummyanno/End" about="#mwt1" data-mw='{"wtOffsets":[32,44]}'/>
+!! end
+
+!! test
+Should handle poorly nested range - T325575
+!! options
+annotations=1
+parsoid=wt2html
+!! wikitext
+<dummyanno><ann2><code>hello</ann2></dummyanno></code>
+!! html/parsoid
+<p><span typeof="mw:ExtendedAnnRange" data-parsoid='{"autoInsertedStart":true,"autoInsertedEnd":true}'><meta typeof="mw:Annotation/dummyanno" data-mw='{"rangeId":"mwa0","extendedRange":true,"wtOffsets":[0,11]}'/><span typeof="mw:ExtendedAnnRange" data-parsoid='{"autoInsertedStart":true,"autoInsertedEnd":true}'><meta typeof="mw:Annotation/ann2" data-mw='{"rangeId":"mwa1","extendedRange":true,"wtOffsets":[11,17]}'/><code data-parsoid='{"stx":"html"}'>hello</code><meta typeof="mw:Annotation/ann2/End" data-parsoid='{"wasMoved":true}' data-mw='{"wtOffsets":[28,35]}'/></span><meta typeof="mw:Annotation/dummyanno/End" data-parsoid='{"wasMoved":true}' data-mw='{"wtOffsets":[35,47]}'/></span></p>
+!! end
+
+!! test
+Fostering in div - "end" tag should be after the "start" tag
+!! options
+annotations=1
+parsoid=wt2html
+!! wikitext
+<table>
+<tr>
+<td><dummyanno>some <ann2>stuff</td>
+</tr>
+<div>hello</ann2></dummyanno></div>
+<tr><td>hello</td></tr>
+</table>
+!! html/parsoid
+<div typeof="mw:ExtendedAnnRange" data-parsoid='{"autoInsertedStart":true,"autoInsertedEnd":true}'><meta typeof="mw:Annotation/dummyanno" data-parsoid='{"wasMoved":true}' data-mw='{"rangeId":"mwa0","extendedRange":true,"wtOffsets":[17,28]}'/><div typeof="mw:ExtendedAnnRange" data-parsoid='{"autoInsertedStart":true,"autoInsertedEnd":true}'><meta typeof="mw:Annotation/ann2" data-parsoid='{"wasMoved":true}' data-mw='{"rangeId":"mwa1","extendedRange":true,"wtOffsets":[33,39]}'/><div data-parsoid='{"stx":"html","fostered":true}'>hello</div><table data-parsoid='{"stx":"html"}'>
+<tbody><tr data-parsoid='{"stx":"html"}'>
+<td data-parsoid='{"stx":"html"}'>some stuff</td>
+</tr>
+
+<tr data-parsoid='{"stx":"html"}'><td data-parsoid='{"stx":"html"}'>hello</td></tr>
+</tbody></table><meta typeof="mw:Annotation/ann2/End" data-parsoid='{"wasMoved":true}' data-mw='{"wtOffsets":[66,73]}'/></div><meta typeof="mw:Annotation/dummyanno/End" data-parsoid='{"wasMoved":true}' data-mw='{"wtOffsets":[73,85]}'/></div>
+!! end
+
+# The wt2wt test here is failing because of the start tags (which displays another issue, but which is independent from fostering).
+# But this way we can test that the end tags get included in the transclusion as they should, at least.
+!! test
+Fostering in div with fostered transclusion should extend the transclusion on the end annotation tag
+!! options
+annotations=1
+parsoid=wt2html,wt2wt
+!! wikitext
+<table>
+<tr>
+<td><dummyanno>some <ann2>stuff</td>
+</tr>
+{{1x|transclusion}}
+<div>hello</ann2></dummyanno></div>
+<tr><td>hello</td></tr>
+</table>
+!! html/parsoid
+<div typeof="mw:ExtendedAnnRange" about="#mwt2" data-parsoid='{"autoInsertedStart":true,"autoInsertedEnd":true}'><meta typeof="mw:Annotation/dummyanno" about="#mwt2" data-parsoid='{"wasMoved":true}' data-mw='{"rangeId":"mwa0","extendedRange":true,"wtOffsets":[17,28]}'/><div typeof="mw:ExtendedAnnRange" about="#mwt2" data-parsoid='{"autoInsertedStart":true,"autoInsertedEnd":true}'><meta typeof="mw:Annotation/ann2" about="#mwt2" data-parsoid='{"wasMoved":true}' data-mw='{"rangeId":"mwa1","extendedRange":true,"wtOffsets":[33,39]}'/><p about="#mwt2" typeof="mw:Transclusion" data-parsoid='{"fostered":true,"autoInsertedStart":true,"firstWikitextNode":"TABLE_html","pi":[[{"k":"1"}]]}' data-mw='{"parts":["&lt;table>\n&lt;tr>\n&lt;td>&lt;dummyanno>some &lt;ann2>stuff&lt;/td>\n&lt;/tr>\n",{"template":{"target":{"wt":"1x","href":"./Template:1x"},"params":{"1":{"wt":"transclusion"}},"i":0}},"\n&lt;div>hello&lt;/ann2>&lt;/dummyanno>&lt;/div>\n&lt;tr>&lt;td>hello&lt;/td>&lt;/tr>\n&lt;/table>"]}'>transclusion</p><div about="#mwt2">hello</div><table about="#mwt2">
+<tbody><tr>
+<td>some stuff</td>
+</tr>
+
+
+<tr><td>hello</td></tr>
+</tbody></table><meta typeof="mw:Annotation/ann2/End" about="#mwt2" data-mw='{"wtOffsets":[86,93]}'/></div><meta typeof="mw:Annotation/dummyanno/End" about="#mwt2" data-parsoid='{"wasMoved":true}' data-mw='{"wtOffsets":[93,105]}'/></div>
+!! end
+
+!! test
+Doubly-closed ranges should be processed with the following end tags ignored
+!! options
+annotations=1
+parsoid=wt2html
+!! wikitext
+<dummyanno></dummyanno></dummyanno>
+!! html/parsoid
+<meta typeof="mw:Annotation/dummyanno" data-mw='{"rangeId":"mwa0","extendedRange":false,"wtOffsets":[0,11]}'/><meta typeof="mw:Annotation/dummyanno/End" data-mw='{"wtOffsets":[11,23]}'/>&lt;/dummyanno>
+!! end
+
+!! test
+Triply-closed ranges should be processed with the following end tags ignored
+!! options
+annotations=1
+parsoid=wt2html
+!! wikitext
+<dummyanno></dummyanno></dummyanno></dummyanno>
+!! html/parsoid
+<meta typeof="mw:Annotation/dummyanno" data-mw='{"rangeId":"mwa0","extendedRange":false,"wtOffsets":[0,11]}'/><meta typeof="mw:Annotation/dummyanno/End" data-mw='{"wtOffsets":[11,23]}'/>&lt;/dummyanno>&lt;/dummyanno>
+!! end
+
+!! test
+Annotation in template target
+!! options
+annotations=1
+!! wikitext
+{{<dummyanno>1x|hello</dummyanno> stuff}}
+!! html/parsoid
+<p><span about="#mwt1" typeof="mw:Transclusion" data-mw='{"parts":[{"template":{"target":{"wt":"&lt;dummyanno>1x","href":"./Template:1x"},"params":{"1":{"wt":"hello&lt;/dummyanno> stuff"}},"i":0}}]}'>hello</span>&lt;/dummyanno><span about="#mwt1"> stuff</span></p>
+!! end

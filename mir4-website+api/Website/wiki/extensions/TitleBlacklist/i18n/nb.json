@@ -1,0 +1,30 @@
+{
+	"@metadata": {
+		"authors": [
+			"Danmichaelo",
+			"Jon Harald Søby",
+			"Nghtwlkr",
+			"Reedy"
+		]
+	},
+	"action-tboverride": "overstyre svartelistene for titler eller brukernavn",
+	"action-tboverride-account": "overstyre svartelista for brukernavn",
+	"action-titleblacklistlog": "se tittelsvartelisteloggen",
+	"log-name-titleblacklist": "Tittelsvartelistelogg",
+	"log-description-titleblacklist": "Disse hendelsene sporer treff på tittelsvartelista.",
+	"logentry-titleblacklist-hit-username": "$1 forårsaket et treff med tittelsvartelista da {{GENDER:$2|han|hun|vedkommende}} prøvde å opprette kontoen $3 som matchet $4.",
+	"titleblacklist-desc": "Gir muligheten til å forhindre at sider og brukerkontoer med visse titler opprettes, ved å bruke [[MediaWiki:Titleblacklist]] og [[MediaWiki:Titlewhitelist]]",
+	"titleblacklist": "# Dette er en svartlisting for titler. Titler og brukernavn som passer med regulære uttrykk her kan ikke opprettes.\n# Bruk «#» for kommentarer.\n# Det skilles ikke mellom store og små bokstaver som standard",
+	"titlewhitelist": "# Dette er en hvitelisting for titler. Bruk «#» for kommentarer.\n# Det skilles ikke mellom store og små bokstaver som standard",
+	"titleblacklist-forbidden-edit": "Tittelen «$2» er stengt for oppretting. Den blokkeres av følgende svartelistingselement: <code>$1</code>",
+	"titleblacklist-forbidden-move": "«$2» kan ikke flyttes til «$3» fordi tittelen «$3» har blitt stengt for oppretting.\nDen tilsvarer følgende element i svartelistinga: <code>$1</code>",
+	"titleblacklist-forbidden-upload": "Filnavnet «$2» er blokkert for oppretting.\nDen matcher følgende svartelisteelement: <code>$1</code>",
+	"titleblacklist-forbidden-new-account": "Brukernavnet «$2» kan ikke opprettes.\nDet tilsvarer følgende svartelisteelement: <code>$1</code>",
+	"titleblacklist-invalid": "Følgende {{PLURAL:$1|linje|linjer}} i tittelsvartelista er {{PLURAL:$1|ugyldig|ugyldige}}; vennligst korriger {{PLURAL:$1|den|dem}} før du lagrer:",
+	"titleblacklist-override": "Overstyre tittelsvarteliste hvis den matcher",
+	"titleblacklist-override-help": "Brukere med tilstrekkelige rettigheter kan sette denne for å ignorere sjekker mot tittelsvartelista.",
+	"titleblacklist-warning": "<strong>Advarsel: Denne siden kan kun redigeres av administratorer og andre brukere med <code>tboverride</code>-rettigheter fordi den matcher følgende oppslag i tittelsvartelista:</strong><br /><code>$1</code>",
+	"right-tboverride": "Overstyre svartelista for titler eller brukernavn",
+	"right-tboverride-account": "Overstyre svartelista for brukernavn",
+	"right-titleblacklistlog": "Vise tittelsvartelisteloggen"
+}

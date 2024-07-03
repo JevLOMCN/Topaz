@@ -1,0 +1,22 @@
+{
+	"@metadata": {
+		"authors": [
+			"Rancher",
+			"Zoranzoki21"
+		]
+	},
+	"skinname-monobook": "Monobuk",
+	"monobook-desc": "Klasična Medijaviki tema iz 2004, nazvana po crno-beloj fotografiji knjige u pozadini stranice",
+	"monobook.css": "/* Sav CSS postavljen ovde će se učitati svim korisnicima teme „Monobuk“ */",
+	"monobook.js": "/* Sav Javaskript postavljen ovde će se učitati svim korisnicima teme „Monobuk“ */",
+	"monobook-jumptotop": "nazad na vrh",
+	"monobook-jumptopersonal": "korisničke alatke",
+	"monobook-jumptonavigation": "Idi na navigaciju",
+	"monobook-jumptosearch": "Idi na pretragu",
+	"monobook-more-actions": "Više",
+	"monobook-cactions-label": "Radnje za stranicu",
+	"monobook-notifications-link": "Obaveštenja ($1)",
+	"monobook-notifications-link-none": "Obaveštenja",
+	"monobook-view-history": "Istorija",
+	"monobook-action-undelete": "Vrati {{PLURAL:$1|izbrisanu izmenu|$1 izbrisane izmene|$1 izbrisanih izmena}}"
+}

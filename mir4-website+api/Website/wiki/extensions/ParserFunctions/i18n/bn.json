@@ -1,0 +1,31 @@
+{
+	"@metadata": {
+		"authors": [
+			"Aftabuzzaman",
+			"Bellayet",
+			"Zaheen",
+			"আফতাবুজ্জামান"
+		]
+	},
+	"pfunc_desc": "লজিকাল ফাংশন দিয়ে পার্সারকে উন্নত করুন",
+	"pfunc_time_error": "ত্রুটি: অবৈধ সময়",
+	"pfunc_time_too_long": "ত্রুটি: অত্যধিক সংখ্যক #time কল",
+	"pfunc_time_too_big": "ত্রুটি: #time শুধুমাত্র ৯৯৯৯ পর্যন্ত বছর সমর্থন করে।",
+	"pfunc_time_too_small": "ত্রুটি: #time শুধুমাত্র ০ থেকে বছর সমর্থন করে।",
+	"pfunc_rel2abs_invalid_depth": "ত্রুটি: পাথে অবৈধ গভীরতা: \"$1\" (মূল নোডের উপরের একটি নোড অ্যাক্সেস করতে চেষ্টা করেছিল)",
+	"pfunc_expr_stack_exhausted": "এক্সপ্রেশন ত্রুটি: স্ট্যাক শেষ হয়ে গেছে।",
+	"pfunc_expr_unexpected_number": "এক্সপ্রেশন ত্রুটি: অযাচিত সংখ্যা।",
+	"pfunc_expr_preg_match_failure": "এক্সপ্রেশন ত্রুটি: অযাচিত preg_match ব্যর্থতা।",
+	"pfunc_expr_unrecognised_word": "এক্সপ্রেশন ত্রুটি: অপরিচিত শব্দ \"$1\"।",
+	"pfunc_expr_unexpected_operator": "এক্সপ্রেশন ত্রুটি: অযাচিত $1 অপারেটর।",
+	"pfunc_expr_missing_operand": "এক্সপ্রেশন ত্রুটি: $1-এর জন্য অপারেন্ড নেই।",
+	"pfunc_expr_unexpected_closing_bracket": "এক্সপ্রেশন ত্রুটি: অযাচিত সমাপ্তকারী বন্ধনী।",
+	"pfunc_expr_unrecognised_punctuation": "এক্সপ্রেশন ত্রুটি: অপরিচিত বিরামচিহ্ন অক্ষর \"$1\"।",
+	"pfunc_expr_unclosed_bracket": "এক্সপ্রেশন ত্রুটি: উন্মুক্ত বন্ধনী।",
+	"pfunc_expr_division_by_zero": "শূন্য দ্বারা ভাগ করা হয়েছে।",
+	"pfunc_expr_invalid_argument": "$1 এর জন্য ভুল শর্ত: < -1 অথবা > 1",
+	"pfunc_expr_invalid_argument_ln": "ln এর জন্য অসিদ্ধ শর্ত: <= 0",
+	"pfunc_expr_unknown_error": "এক্সপ্রেশন ত্রুটি: অজানা ত্রুটি ($1)।",
+	"pfunc_expr_not_a_number": "$1 এ: ফলাফল কোন সংখ্যা নয়।",
+	"pfunc_string_too_long": "ত্রুটি: স্ট্রিং অক্ষরের সীমা $1 অতিক্রম করেছে।"
+}

@@ -1,0 +1,41 @@
+{
+	"@metadata": {
+		"authors": [
+			"Matma Rex"
+		]
+	},
+	"apierror-visualeditor-badcachekey": "Nije pronađena keširana serijalizacija sa tim ključem",
+	"apierror-visualeditor-difffailed": "Prikaz razlike nije uspeo",
+	"apihelp-visualeditor-param-basetimestamp": "Kada čuvate, postavite ovo na vremensku oznaku izmene koja je bila uređena. Koristi se za otkrivanje sukoba izmena.",
+	"apihelp-visualeditor-param-editintro": "Uređivanje uvoda za dodavanje obaveštenja.",
+	"apihelp-visualeditor-param-etag": "ETag za slanje.",
+	"apihelp-visualeditor-param-format": "Format izlaza.",
+	"apihelp-visualeditor-param-html": "HTML za slanje Parsoidu radi konverzije u vikitekst.",
+	"apihelp-visualeditor-param-oldid": "Broj izmene koju treba koristiti (podrazumevana je poslednja izmena).",
+	"apihelp-visualeditor-param-paction": "Radnja za izvršavanje.",
+	"apihelp-visualeditor-param-page": "Stranica na koju treba izvršiti radnje.",
+	"apihelp-visualeditor-param-preload": "Stranica sa koje koristiti sadržaj ako ga dobavljena stranica još nema.",
+	"apihelp-visualeditor-param-preloadparams": "Parametri za zamenu na unapred učitanu stranicu, ako postoje.",
+	"apihelp-visualeditor-param-pst": "Unapred sačuvajte transformisani vikitekst pre njegovog slanja Parsoid-u (paction=parsefragment).",
+	"apihelp-visualeditor-param-section": "Odeljak na kome treba delovati.",
+	"apihelp-visualeditor-param-starttimestamp": "Kada čuvate, postavite ovo na vremensku oznaku trenutka kada je izmena učitana. Koristi se za otkrivanje sukoba izmena.",
+	"apihelp-visualeditor-param-wikitext": "Vikitekst koji se treba poslati Parsoid-u za pretvaranje u HTML (paction=parsefragment).",
+	"apihelp-visualeditor-summary": "Vraća HTML5 za stranicu korišćenjem usluge Parsoid.",
+	"apihelp-visualeditoredit-param-basetimestamp": "Kada čuvate, postavite ovo na vremensku oznaku izmene koja je bila uređena. Koristi se za otkrivanje sukoba izmena.",
+	"apihelp-visualeditoredit-param-cachekey": "Koristite rezultat prethodnog zahteva za serializeforcache sa ovim ključem. Zamenjuje $1html.",
+	"apihelp-visualeditoredit-param-captchaid": "ID CAPTCHA slike (kada čuvate sa odgovorom).",
+	"apihelp-visualeditoredit-param-captchaword": "Odgovor na CAPTCHA sliku (kada čuvate sa odgovorom).",
+	"apihelp-visualeditoredit-param-etag": "ETag za slanje.",
+	"apihelp-visualeditoredit-param-html": "HTML za slanje Parsoidu u zamenu za vikitekst.",
+	"apihelp-visualeditoredit-param-minor": "Oznaka za manju izmenu.",
+	"apihelp-visualeditoredit-param-oldid": "Broj izmene koju treba koristiti. Podrazumevana je poslednja izmena.",
+	"apihelp-visualeditoredit-param-paction": "Radnja za izvršavanje.",
+	"apihelp-visualeditoredit-param-page": "Stranica na koju treba izvršiti radnje.",
+	"apihelp-visualeditoredit-param-section": "Odeljak na kome treba delovati.",
+	"apihelp-visualeditoredit-param-sectiontitle": "Naslov za novi odeljak.",
+	"apihelp-visualeditoredit-param-starttimestamp": "Kada čuvate, postavite ovo na vremensku oznaku trenutka kada je izmena učitana. Koristi se za otkrivanje sukoba izmena.",
+	"apihelp-visualeditoredit-param-summary": "Opis izmene.",
+	"apihelp-visualeditoredit-param-tags": "Oznake promena koje bi se primenjivale na izmenu.",
+	"apihelp-visualeditoredit-param-wikitext": "Vikitekst sa kojim treba delovati.",
+	"apihelp-visualeditoredit-summary": "Čuvanje stranice koja je u HTML5 formatu na Medijaviki (konvertovane u vikitekst pomoću usluge Parsoid)."
+}

@@ -1,0 +1,19 @@
+{
+	"@metadata": {
+		"authors": [
+			"Firilacroco",
+			"Minisarm",
+			"NGC 54"
+		]
+	},
+	"spam-blacklisted-email": "Adresă de e-mail interzisă",
+	"spam-blacklisted-email-text": "Adresei dumneavoastră de e-mail îi este actualmente interzis să trimită e-mail-uri altor utilizatori.",
+	"spam-blacklisted-email-signup": "Utilizarea adresei de e-mail specificată este actualmente interzisă.",
+	"spam-invalid-lines": "{{PLURAL:$1|Următorul rând|Următoarele rânduri}} din lista neagră de spam {{PLURAL:$1|este|sunt}} {{PLURAL:$1|o expresie regulată invalidă|expresii regulate invalide}} și trebuie {{PLURAL:$1|corectat|corectate}} înainte de a salva pagina:",
+	"spam-blacklist-desc": "Unealtă antispam bazată pe regex care permite includerea adreselor URL introduse în pagini și a adreselor de e-mail ale utilizatorilor înregistrați în lista neagră",
+	"log-name-spamblacklist": "Jurnal listă neagră spam",
+	"log-description-spamblacklist": "Aceste evenimente urmăresc declanșarea listei negre de spam.",
+	"logentry-spamblacklist-hit": "$1 a provocat declanșarea listei negre de spam în pagina $3, încercând să adauge $4.",
+	"right-spamblacklistlog": "Vizualizează jurnalul listei negre de spam",
+	"action-spamblacklistlog": "vizualizați jurnalul listei negre de spam"
+}

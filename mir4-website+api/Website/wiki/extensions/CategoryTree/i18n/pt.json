@@ -1,0 +1,42 @@
+{
+	"@metadata": {
+		"authors": [
+			"Dicionarista",
+			"Giro720",
+			"Hamilton Abreu",
+			"João Sousa",
+			"Luckas",
+			"Mansil",
+			"Vitorvicentevalente",
+			555
+		]
+	},
+	"categorytree": "Árvore de categorias",
+	"categorytree-portlet": "Categorias",
+	"categorytree-legend": "Mostrar árvore de categorias",
+	"categorytree-desc": "Acessório (<i>gadget</i>) baseado em AJAX que apresenta a [[Special:CategoryTree|estrutura de categorias]] de uma wiki",
+	"categorytree-header": "Insira o nome de uma categoria para ver os seus conteúdos numa estrutura de árvore. (Requer JavaScript).",
+	"categorytree-category": "Categoria:",
+	"categorytree-go": "Mostrar árvore",
+	"categorytree-parents": "Categorias superiores",
+	"categorytree-mode-label": "Modo:",
+	"categorytree-mode-categories": "mostrar apenas as categorias",
+	"categorytree-mode-pages": "páginas, exceto imagens",
+	"categorytree-mode-all": "todas as páginas",
+	"categorytree-collapse": "ocultar",
+	"categorytree-expand": "expandir",
+	"categorytree-member-counts": "Contém {{PLURAL:$1|$1 subcategoria|$1 subcategorias}}, {{PLURAL:$2|$2 página|$2 páginas}} e {{PLURAL:$3|$3 ficheiro|$3 ficheiros}}",
+	"categorytree-num-categories": "$1 C",
+	"categorytree-num-pages": "$1 P",
+	"categorytree-num-files": "$1 F",
+	"categorytree-num-empty": "vazia",
+	"categorytree-load": "carregar",
+	"categorytree-loading": "a carregar...",
+	"categorytree-nothing-found": "não foi encontrado nada",
+	"categorytree-no-subcategories": "sem subcategorias",
+	"categorytree-no-parent-categories": "não há categorias superiores",
+	"categorytree-no-pages": "sem páginas nem subcategorias",
+	"categorytree-not-found": "A categoria <i>$1</i> não foi encontrada",
+	"categorytree-error": "Problema ao carregar os dados.",
+	"categorytree-retry": "Aguarde um momento e tente novamente, por favor."
+}

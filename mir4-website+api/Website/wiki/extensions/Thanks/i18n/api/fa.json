@@ -1,0 +1,18 @@
+{
+	"@metadata": {
+		"authors": [
+			"4nn1l2",
+			"Beginneruser",
+			"Huji",
+			"Macofe"
+		]
+	},
+	"apihelp-flowthank-summary": "ارسال آگاه‌سازی عمومی سپاسگزاری از شما برای یک نظر Flow",
+	"apihelp-flowthank-param-postid": "UUIDی پست مشکور",
+	"apihelp-flowthank-example-1": "تشکر کردن از نظر با <kbd>UUID xyz789</kbd>",
+	"apihelp-thank-summary": "پیام تشکری به یک ویرایشگر ارسال کنید.",
+	"apihelp-thank-param-rev": "شناسهٔ نسخه‌ای که بابت آن از کسی تشکر می‌کنید. یا این شناسه و یا مقدار متغیر «log» باید ارائه شود.",
+	"apihelp-thank-param-log": "شناسهٔ سیاهه‌ایی که بابت آن از کسی تشکر می‌کنید. یا این شناسه و یا مقدار متغیر «rev» باید ارائه شود.",
+	"apihelp-thank-param-source": "رشته متنی کوتاه برای شرخ مبدأ درخواست، برای مثال <kbd>diff</kbd> یا <kbd>history</kbd>.",
+	"apihelp-thank-example-1": "تشکر کردن برای نسخهٔ شناسهٔ <kbd>ID 456</kbd، با صفحهٔ تفاوت به عنوان منبع"
+}

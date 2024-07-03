@@ -1,0 +1,20 @@
+{
+	"@metadata": {
+		"authors": [
+			"Esbardu",
+			"Xuacu"
+		]
+	},
+	"syntaxhighlight-desc": "Proporciona resaltáu de sintaxis <code>&lt;syntaxhighlight&gt;</code> usando [http://pygments.org/ Pygments - Resaltador de sintaxis en Python]",
+	"syntaxhighlight-error-category": "Páxines con errores de resaltáu de sintaxis",
+	"syntaxhighlight-error-category-desc": "Hebo un error al intentar resaltar el códigu incluyíu na páxina.",
+	"syntaxhighlight-visualeditor-mwsyntaxhighlightinspector-code": "Códigu",
+	"syntaxhighlight-visualeditor-mwsyntaxhighlightinspector-language": "Llingua",
+	"syntaxhighlight-visualeditor-mwsyntaxhighlightinspector-none": "(nengún)",
+	"syntaxhighlight-visualeditor-mwsyntaxhighlightinspector-showlines": "Amosar númberos de llinia",
+	"syntaxhighlight-visualeditor-mwsyntaxhighlightinspector-startingline": "Númberu de llinia de principiu",
+	"syntaxhighlight-visualeditor-mwsyntaxhighlightinspector-title": "Bloque de códigu",
+	"syntaxhighlight-error-pygments-invocation-failure": "Fallu al llamar a Pygments",
+	"syntaxhighlight-error-unknown-language": "Llingua «$1» desconocida",
+	"syntaxhighlight-error-exceeds-size-limit": "El tamañu del códigu $1 {{PLURAL:$1|bytes}} supera'l máximu permitíu de $2 {{PLURAL:$2|bytes}}"
+}

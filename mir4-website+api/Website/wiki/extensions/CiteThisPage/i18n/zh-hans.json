@@ -1,0 +1,20 @@
+{
+	"@metadata": {
+		"authors": [
+			"GuoPC",
+			"Hzy980512",
+			"Liuxinyu970226",
+			"Mywood",
+			"Xiaomingyan",
+			"LittlePaw365"
+		]
+	},
+	"citethispage": "引用此页",
+	"citethispage-desc": "添加[[Special:CiteThisPage|引用]]特殊页面和工具箱链接",
+	"citethispage-link": "引用此页",
+	"tooltip-citethispage": "有关如何引用此页面的信息",
+	"citethispage-change-submit": "引用",
+	"citethispage-change-target": "页面：",
+	"citethispage-badrevision": "错误：找不到页面“$1”中任何修订ID为$2的修订版本。",
+	"citethispage-content": "__NOTOC__\n<div class=\"mw-specialCiteThisPage-bibliographic\">\n\n== {{FULLPAGENAME}}的参考详情 ==\n\n* 页面名称：{{FULLPAGENAME}}\n* 作者：{{SITENAME}}贡献者\n* 出版者：{{SITENAME}}。\n* 最后版本日期：{{CURRENTYEAR}}年{{CURRENTMONTH}}月{{CURRENTDAY}}日 {{CURRENTTIME}} UTC\n* 检索日期：<citation>{{CURRENTYEAR}}年{{CURRENTMONTH}}月{{CURRENTDAY}}日 {{CURRENTTIME}} UTC</citation>\n* 永久URL：{{canonicalurl:{{FULLPAGENAME}}|oldid={{REVISIONID}}}}\n* 页面版本ID：{{REVISIONID}}\n\n</div>\n<div class=\"plainlinks mw-specialCiteThisPage-styles\">\n\n== {{FULLPAGENAME}}的引用格式 ==\n\n=== GB7714格式 ===\n{{SITENAME}}编者．{{FULLPAGENAME}}[G/OL]．{{SITENAME}}，{{CURRENTYEAR}}年{{CURRENTMONTH}}月{{CURRENTDAY}}日{{CURRENTTIME}}［<citation>{{CURRENTYEAR}}年{{CURRENTMONTH}}月{{CURRENTDAY}}日{{CURRENTTIME}}</citation>］．{{canonicalurl:{{FULLPAGENAME}}|oldid={{REVISIONID}}}}．\n\n=== [[APA style|APA格式]] ===\n{{FULLPAGENAME}}．（{{CURRENTYEAR}}年{{CURRENTMONTH}}月{{CURRENTDAY}}日）．''{{SITENAME}}，{{int:sitesubtitle}}''．于<citation>{{CURRENTYEAR}}年{{CURRENTMONTH}}月{{CURRENTDAY}}日{{CURRENTTIME}}</citation>查阅自{{canonicalurl:{{FULLPAGENAME}}|oldid={{REVISIONID}}}}．\n\n=== [[The MLA style manual|MLA格式]] ===\n“{{FULLPAGENAME}}．”''{{SITENAME}}''．{{CURRENTYEAR}}年{{CURRENTMONTH}}月{{CURRENTDAY}}日{{CURRENTTIME}}（协调世界时）．<citation>{{CURRENTYEAR}}年{{CURRENTMONTH}}月{{CURRENTDAY}}日{{CURRENTTIME}}</citation> &lt;{{canonicalurl:{{FULLPAGENAME}}|oldid={{REVISIONID}}}}&gt;．\n\n=== [[MHRA Style Guide|MHRA格式]] ===\n{{SITENAME}}编者，‘{{FULLPAGENAME}}’，''{{SITENAME}}''，{{CURRENTYEAR}}年{{CURRENTMONTH}}月{{CURRENTDAY}}日{{CURRENTTIME}}（协调世界时），&lt;{{canonicalurl:{{FULLPAGENAME}}|oldid={{REVISIONID}}}}&gt;［于<citation>{{CURRENTYEAR}}年{{CURRENTMONTH}}月{{CURRENTDAY}}日</citation>查阅］\n\n=== [[The Chicago Manual of Style|芝加哥格式]] ===\n{{SITENAME}}编者，“{{FULLPAGENAME}}，”''{{SITENAME}}''，{{canonicalurl:{{FULLPAGENAME}}|oldid={{REVISIONID}}}}（于<citation>{{CURRENTYEAR}}年{{CURRENTMONTH}}月{{CURRENTDAY}}日</citation>查阅）．\n\n=== [[Council of Science Editors|CBE/CSE格式]] ===\n{{SITENAME}}编者．{{FULLPAGENAME}}［互联网］．{{SITENAME}}，{{int:sitesubtitle}}；{{CURRENTYEAR}}年{{CURRENTMONTH}}月{{CURRENTDAY}}日{{CURRENTTIME}}（协调世界时）［引用于<citation>{{CURRENTYEAR}}年{{CURRENTMONTH}}月{{CURRENTDAY}}日</citation>］．可访问自：\n{{canonicalurl:{{FULLPAGENAME}}|oldid={{REVISIONID}}}}．\n\n=== [[Bluebook|Bluebook格式]] ===\n{{FULLPAGENAME}}，{{canonicalurl:{{FULLPAGENAME}}|oldid={{REVISIONID}}}}（最新访问于<citation>{{CURRENTYEAR}}年{{CURRENTMONTH}}月{{CURRENTDAY}}日</citation>）．\n\n=== [[BibTeX|BibTeX记录]] ===\n\n  @misc{ wiki:xxx,\n    author = \"{{SITENAME}}\",\n    title = \"{{FULLPAGENAME}} --- {{SITENAME}}{,} {{int:sitesubtitle}}\",\n    year = \"{{CURRENTYEAR}}\",\n    url = \"{{canonicalurl:{{FULLPAGENAME}}|oldid={{REVISIONID}}}}\",\n    note = \"[在线资源；访问于<citation>{{CURRENTYEAR}}年{{CURRENTMONTH}}月{{CURRENTDAY}}日</citation>]\"\n  }\n\n使用[[LaTeX|LaTeX]]包装的链接（开头某处的<code>\\usepackage{url}</code>）将提供更好的网址格式，推荐选用下列格式：\n  @misc{ wiki:xxx,\n    author = \"{{SITENAME}}\",\n    title = \"{{FULLPAGENAME}} --- {{SITENAME}}{,} {{int:sitesubtitle}}\",\n    year = \"{{CURRENTYEAR}}\",\n    url = \"'''\\url{'''{{canonicalurl:{{FULLPAGENAME}}|oldid={{REVISIONID}}}}'''}'''\",\n    note = \"[在线资源；访问于<citation>{{CURRENTYEAR}}年{{CURRENTMONTH}}月{{CURRENTDAY}}日</citation>]\"\n  }\n\n\n</div> <!--closing div for \"plainlinks\"-->"
+}

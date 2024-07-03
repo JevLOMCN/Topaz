@@ -1,0 +1,27 @@
+{
+	"@metadata": {
+		"authors": [
+			"AnakngAraw",
+			"GinawaSaHapon"
+		]
+	},
+	"pfunc_desc": "Pagibayuhin ang katangian ng banghay na may mga tungkuling makatwiran (may lohika)",
+	"pfunc_time_error": "Error: Invalid na oras.",
+	"pfunc_time_too_long": "Kamalian: napakaraming mga pagtawag sa #oras",
+	"pfunc_rel2abs_invalid_depth": "Kamalian: Hindi tanggap na sukat ng lalim sa daanan: \"$1\" (sinubok na puntahan ang isang alimpusong nasa itaas ng bugkol ng ugat)",
+	"pfunc_expr_stack_exhausted": "Kamalian sa pagpapahayag: Naubos na ang salansan",
+	"pfunc_expr_unexpected_number": "Kamalian sa pagpapahayag: Hindi inaasahang bilang",
+	"pfunc_expr_preg_match_failure": "Kamalian sa pagpapahayag: Hindi inaasahang pagkabigo ng \"pagtutugma_ng_hibla\" (''preg_match'')",
+	"pfunc_expr_unrecognised_word": "Error sa ekspresyon: Di-matukoy na salita \"$1\".",
+	"pfunc_expr_unexpected_operator": "Error sa ekspresyon: Di-inaashang operador na $1.",
+	"pfunc_expr_missing_operand": "Error sa ekspresyon: Nawawalang operando para sa $1.",
+	"pfunc_expr_unexpected_closing_bracket": "Kamalian sa pagpapahayag: Hindi inaasahang pangpagtatapos na panaklong na kasingay (braket)",
+	"pfunc_expr_unrecognised_punctuation": "Error sa ekspresyon: Di-matukot na bantas \"$1\".",
+	"pfunc_expr_unclosed_bracket": "Kamalian sa pagpapahayag: Hindi naisarang panaklong na kasingay (braket)",
+	"pfunc_expr_division_by_zero": "Paghahati sa sero.",
+	"pfunc_expr_invalid_argument": "Hindi tanggap na pangangatwiran (argumento) para sa $1: < -1 o > 1",
+	"pfunc_expr_invalid_argument_ln": "Hindi tanggap na pangangatwiran (argumento) para sa ln: <= 0",
+	"pfunc_expr_unknown_error": "Kamalian sa pagpapahayag: Hindi nalalamang kamalian ($1)",
+	"pfunc_expr_not_a_number": "Sa $1: ang kinalabasan ay hindi isang bilang",
+	"pfunc_string_too_long": "Kamalian: Lumampas ang bagting sa $1 hangganang panitik"
+}

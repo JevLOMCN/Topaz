@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"Kyykaarme",
+			"MITO",
+			"Pyscowicz"
+		]
+	},
+	"apierror-discussiontools-commentid-notfound": "Kommenttia tunnisteella '$1' ei löydy.",
+	"apierror-discussiontools-commentname-ambiguous": "Nimellä '$1' löytyi useampi kommentti, käytä sen sijaan ID-tunnistetta.",
+	"apierror-discussiontools-commentname-notfound": "Kommenttia nimellä '$1' ei löytynyt.",
+	"apierror-discussiontools-subscription-failed-add": "Tätä aihetta ei voitu tilata.",
+	"apierror-discussiontools-subscription-failed-remove": "Tilauksen poistaminen tästä aiheesta ei onnistunut.",
+	"apihelp-discussiontoolsedit-param-wikitext": "Wikiteksti"
+}

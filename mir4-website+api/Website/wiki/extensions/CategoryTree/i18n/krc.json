@@ -1,0 +1,37 @@
+{
+	"@metadata": {
+		"authors": [
+			"Ernác",
+			"Iltever",
+			"Къарачайлы"
+		]
+	},
+	"categorytree": "Категорияланы тереги",
+	"categorytree-portlet": "Категорияла",
+	"categorytree-legend": "Категорияланы терегин кёргюз",
+	"categorytree-desc": "Викини [[Special:CategoryTree|структуры категорияларыны структурасын]] кёргюзюр ючюн AJAX-компонент",
+	"categorytree-header": "Категория атын джазыгъыз да, ол терек кибик кёрюннюкдю. (JavaScript керек боллукъду).",
+	"categorytree-category": "Категория:",
+	"categorytree-go": "Терекни кёргюз",
+	"categorytree-parents": "Огъары категорияла",
+	"categorytree-mode-label": "Режим:",
+	"categorytree-mode-categories": "къуру категорияла",
+	"categorytree-mode-pages": "файлладан къалгъан",
+	"categorytree-mode-all": "бютеу бетле",
+	"categorytree-collapse": "чырма",
+	"categorytree-expand": "джай",
+	"categorytree-member-counts": "Ичинде $1 {{PLURAL:$1|тюбкатегория}}, $2 {{PLURAL:$2|бет}} эмда $3 {{PLURAL:$3|файл}} барды",
+	"categorytree-num-categories": "$1 К",
+	"categorytree-num-pages": "$1 Б",
+	"categorytree-num-files": "$1 Ф",
+	"categorytree-num-empty": "бош",
+	"categorytree-load": "джюкле",
+	"categorytree-loading": "джюклениу...",
+	"categorytree-nothing-found": "джукъ да табылмады",
+	"categorytree-no-subcategories": "Тюбкатегория джокъду",
+	"categorytree-no-parent-categories": "огъары категорияла джокъдула",
+	"categorytree-no-pages": "статьяла бла тюбкатегорияла джокъдула",
+	"categorytree-not-found": "«$1» категория табылмады.",
+	"categorytree-error": "Билгиле джюклеуде халат.",
+	"categorytree-retry": "Бираз сакълагъыз да энтда бир кере кёрюрсюз."
+}

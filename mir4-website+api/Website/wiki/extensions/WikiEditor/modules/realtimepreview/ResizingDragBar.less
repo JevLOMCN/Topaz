@@ -1,0 +1,54 @@
+@import 'mediawiki.skin.variables.less';
+
+// TODO: Replace static color values as soon as a drag bar and its design tokens
+// have been defined in Codex.
+
+// The dimensions of the UI affordance (the little line in the draggable area).
+@affordance-width: 4px;
+@affordance-length: 52px;
+@background-color-wikieditor-resizing-dragbar: #eaecf0;
+@background-color-wikieditor-resizing-dragbar-ew: #f8f9fa;
+@background-color-wikieditor-resizing-dragbar-drag: #c8ccd1;
+@background-color-wikieditor-resizing-dragbar-drag--hover: #54595d;
+
+.ext-WikiEditor-ResizingDragBar {
+	background-color: @background-color-wikieditor-resizing-dragbar;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+	&-ns {
+		cursor: ns-resize;
+	}
+
+	span {
+		width: @affordance-length;
+		height: @affordance-width;
+		background-color: @background-color-wikieditor-resizing-dragbar-drag;
+		border-radius: @border-radius-base;
+		display: block;
+		margin: 2px;
+	}
+
+	&:hover span {
+		background-color: @background-color-wikieditor-resizing-dragbar-drag--hover;
+	}
+
+	&-ew {
+		cursor: ew-resize;
+		background-color: @background-color-wikieditor-resizing-dragbar-ew;
+
+		span {
+			height: @affordance-length;
+			width: @affordance-width;
+			border-width: 0 @border-width-base;
+		}
+	}
+}
+
+// This is needed to make the CodeMirror editor height constrained to .wikiEditor-ui-text
+// This only is needed when the ResizingDragBar is enabled.
+.cm-editor {
+	// stylelint-disable-next-line declaration-no-important
+	height: 100% !important;
+}

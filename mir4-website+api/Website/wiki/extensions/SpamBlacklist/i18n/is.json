@@ -1,0 +1,19 @@
+{
+	"@metadata": {
+		"authors": [
+			"MarcoAurelio",
+			"Snævar",
+			"Stefán Örvar Sigmundsson",
+			"Sveinn í Felli"
+		]
+	},
+	"spam-blacklist": " #<!-- skildu eftir þessa línu nákvæmlega eins og hún er --> <pre>\n# Ytri vefslóðir samsvarandi þessum lista verða hindraðar þegar þeim er bætt við síðu.\n# Þessi listi hefur aðeins áhrif á þennan wiki; sjá einnig altæka hindrunarlistann.\n# Fyrir skjölun sjáðu https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:SpamBlacklist\n#\n# Málskipan er sem hér segir:\n#   * Allt frá „#“-rittákninu til loka línunnar er athugasemd.\n#   * Sérhver lína sem ekki er auð er brot reglulegrar segðar sem mun einungis samsvara hýslum inni í vefslóðum\n\n #</pre> <!-- skildu eftir þessa línu nákvæmlega eins og hún er -->",
+	"spam-whitelist": " #<!-- skildu eftir þessa línu nákvæmlega eins og hún er --> <pre>\n# Ytri vefslóðir samsvarandi þessum lista verða *ekki* hindraðar þótt þær\n#  hefðu verið hindraðar af hindrunarlistafærslum.\n#\n# Málskipan er sem hér segir:\n#   * Allt frá „#“-rittákninu til loka línunnar er athugasemd.\n#   * Sérhver lína sem ekki er auð er brot reglulegrar segðar sem mun einungis samsvara hýslum inni í vefslóðum\n\n #</pre> <!-- skildu eftir þessa línu nákvæmlega eins og hún er -->",
+	"email-blacklist": " # Netföng á þessum lista verður ekki hægt að nota til þess að skrá notenda eða senda tölvupost á notendur\n # Þessi bannlisti hefur eingöngu áhrif á þennan wiki, en einning er til altækur bannlisti sem hefur áhrif á öll wiki verkefni Wikimedia.\n # Leiðbeiningar eru á https://www.mediawiki.org/wiki/Extension:SpamBlacklist\n #<!-- ekki breyta þessari línu --> <pre>\n#\n# Málskipan listans er eftirfarandi:\n#  * Allar línur sem byrja á \"#\" eru athugasemdir\n#  * Allar síður sem eru ekki tómar eru reglulegar segðir sem verða aðeins bornar saman við vefsvæði netfangsins\n\n #</pre> <!-- ekki breyta þessari línu -->",
+	"email-whitelist": " #<!-- leave this line exactly as it is --> <pre>\n# Netföng sem passa við þennan lista verður *hægt* að bæta við á síður, þrátt fyrir að\n# þau séu á bannlistanum.\n#\n #</pre> <!-- leave this line exactly as it is -->\n# Málskipan listans er eftirfarandi:\n#  * Allar línur sem byrja á \"#\" eru athugasemdir\n#  * Allar síður sem eru ekki tómar eru reglulegar segðir sem verða aðeins bornar saman við vefsvæði netfangsins",
+	"spam-blacklisted-email": "Bannað tölvupóstfang",
+	"spam-blacklisted-email-text": "Tölvupóstfangið þitt er eins og er bannað að senda tölvupósta til annarra notenda.",
+	"spam-blacklisted-email-signup": "Hið uppgefna tölvupóstfang er eins og er bannað.",
+	"spam-invalid-lines": "Eftirfarandi bannlista {{PLURAL:$1|færsla er ógild regluleg segð|færslur eru ógildar reglulegar segðir}} og leiðrétta þarf {{PLURAL:$1|hana|þær}} áður en síðan er vistuð:",
+	"spam-blacklist-desc": "Kæfuvörn byggð á reglulegum segðum sem gerir kleift að banna vefslóðir á síðum og netföng skráðra notenda"
+}

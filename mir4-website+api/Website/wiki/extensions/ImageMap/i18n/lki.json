@@ -1,0 +1,19 @@
+{
+	"@metadata": {
+		"authors": [
+			"Hosseinblue"
+		]
+	},
+	"imagemap_desc": "امکان ایجاد نقشه‌های تصویری قابل کلیک کردن در سمت کاربر را با استفاده از برچسب <code>&lt;imagemap&gt;</code> فراهم می‌آورد",
+	"imagemap_no_image": "<imagemap>: باید در اولین سطر یک تصویر را مشخص کنید",
+	"imagemap_invalid_image": "<imagemap>: تصویر نامحاز است یا وجود ندارد",
+	"imagemap_bad_image": "خطا: تصویر در این صفحه در فهرست سیاه قرار دارد",
+	"imagemap_no_link": "خطا: هیچ پیوند مجازی در انتهای خط $1 یافت نشد",
+	"imagemap_invalid_title": "<imagemap>: عنوان نامجاز در پیوند سطر $1",
+	"imagemap_missing_coord": "<imagemap>: تعداد مختصات در سطر $1 برای شکل کافی نیست",
+	"imagemap_unrecognised_shape": "<imagemap>: شکل ناشناخته در سطر $1، هر سطر باید با یکی از این دستورات آغاز شود: <code>default</code>، <code>rect</code>، <code>circle</code> یا <code>poly</code>",
+	"imagemap_invalid_coord": "<imagemap>: مختصات نامجاز در سطر $1، مختصات باید عدد باشد",
+	"imagemap_invalid_desc": "<imagemap>: توضیحات نامجاز، باید یکی از این موارد باشد: <code>$1</code>",
+	"imagemap_description": "دربارهٔ این تصویر",
+	"imagemap_poly_odd": "خطا: چند ضلعی با تعداد فرعی از مختصات در سطر $1 پیدا شد"
+}

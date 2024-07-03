@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"McDutchie"
+		]
+	},
+	"apihelp-titleblacklist-summary": "Validar un titulo de pagina, nomine de file, o nomine de usator contra le lista de titulos prohibite.",
+	"apihelp-titleblacklist-param-title": "Le catena a validar contra le lista de titulos prohibite.",
+	"apihelp-titleblacklist-param-action": "Le action a verificar.",
+	"apihelp-titleblacklist-param-nooverride": "Non tentar ignorar le lista de titulos prohibite.",
+	"apihelp-titleblacklist-example-1": "Verificar si [[Foo]] es sur le lista de titulos prohibite.",
+	"apihelp-titleblacklist-example-2": "Verificar si [[Bar]] es blocate pro modification.",
+	"apihelp-createaccount-param-ignoretitleblacklist": "Ignorar verificationes de usurpation (reuire un del derectos sequente: <code>tboverride</code>, <code>tboverride-account</code>)."
+}

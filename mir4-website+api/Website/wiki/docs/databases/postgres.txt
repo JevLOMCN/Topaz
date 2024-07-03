@@ -1,0 +1,40 @@
+This document describes the state of Postgres support in MediaWiki.
+
+== Overview ==
+
+Support for PostgreSQL has been available since version 1.7
+of MediaWiki, and is fairly well maintained. The main code
+is very well integrated, while extensions are very hit and miss.
+Still, it is probably the most supported database after MySQL.
+Much of the work in making MediaWiki database-agnostic came
+about through the work of creating Postgres support.
+
+== Required versions ==
+
+The current minimum version of PostgreSQL for MediaWiki is 10.
+
+== Database schema ==
+
+PostgreSQL schema is automatically generated from the abstract schema.
+You can see the generated schema in maintenance/postgres/tables-generated.sql
+
+For more information on abstract schema see:
+https://www.mediawiki.org/wiki/Manual:Schema_changes
+
+== MySQL differences ==
+
+The major differences between MySQL and Postgres are represented as
+methods in the Database class. For example, implicitGroupby() is
+true for MySQL and false for Postgres. This means that in those
+places where the code does not add all the non-aggregate items
+from the SELECT clause to the GROUP BY, we can add them in, but in
+a conditional manner with the above method, as simply adding them
+all in to the main query may cause performance problems with
+MySQL.
+
+== Getting help ==
+
+In addition to the normal venues (MediaWiki mailing lists
+and IRC channels), the #postgresql channel on irc.libera.chat
+is a friendly and expert resource if you should encounter a
+problem with your Postgres-enabled MediaWiki.

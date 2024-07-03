@@ -1,0 +1,47 @@
+/* Edit font preference */
+.mw-editfont-monospace {
+	font-family: monospace, monospace;
+}
+
+.mw-editfont-sans-serif {
+	font-family: sans-serif;
+}
+
+.mw-editfont-serif {
+	font-family: serif;
+}
+
+/* Standardize font size for edit areas using edit-fonts T182320 */
+.mw-editfont-monospace,
+.mw-editfont-sans-serif,
+.mw-editfont-serif {
+	/* TODO: Re-evaluate whether we should keep this over-ride or switch to ems */
+	/* stylelint-disable-next-line declaration-property-unit-disallowed-list */
+	font-size: 13px;
+	/* Standardize tab width when in edit areas */
+	/* stylelint-disable-next-line plugin/no-unsupported-browser-features */
+	-moz-tab-size: 4;
+	/* stylelint-disable-next-line plugin/no-unsupported-browser-features */
+	tab-size: 4;
+
+	/* For OOUI TextInputWidget, the parent <div> element uses normal font size, and only
+	 * the <textarea>/<input> inside of it has the adjusted font size. This allows the width
+	 * of the widget and size of icons etc. (which are expressed in ems) to stay the same.
+	 */
+	&.oo-ui-textInputWidget {
+		font-size: inherit;
+
+		> .oo-ui-inputWidget-input {
+			/* TODO: Re-evaluate whether we should keep this over-ride or switch to ems */
+			/* stylelint-disable-next-line declaration-property-unit-disallowed-list */
+			font-size: 13px;
+		}
+
+		// Single-line only, preserve original height to avoid
+		// reflow when toggling (T246136) and to align with buttons
+		// in ActionFieldLayout
+		> input.oo-ui-inputWidget-input {
+			min-height: 32px; // 18px original line-height + 12px padding + 2px border
+		}
+	}
+}

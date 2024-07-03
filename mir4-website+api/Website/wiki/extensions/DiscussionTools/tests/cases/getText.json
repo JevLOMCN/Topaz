@@ -1,0 +1,66 @@
+[
+	{
+		"name": "plwiki oldparser",
+		"title": "Wikipedia:Kawiarenka/Artykuły dyskusja/Archiwum/2018-październik",
+		"dom": "cases/pl-big-oldparser/pl-big-oldparser.html",
+		"expected": "../cases/pl-big-oldparser/pl-big-oldparser-getText.json",
+		"config": "../data/plwiki-config.json",
+		"data": "../data/plwiki-data.json"
+	},
+	{
+		"name": "plwiki parsoid",
+		"title": "Wikipedia:Kawiarenka/Artykuły dyskusja/Archiwum/2018-październik",
+		"dom": "cases/pl-big-parsoid/pl-big-parsoid.html",
+		"expected": "../cases/pl-big-parsoid/pl-big-parsoid-getText.json",
+		"config": "../data/plwiki-config.json",
+		"data": "../data/plwiki-data.json"
+	},
+	{
+		"name": "enwiki oldparser",
+		"title": "Wikipedia:Village pump (technical)/Archive 175",
+		"dom": "cases/en-big-oldparser/en-big-oldparser.html",
+		"expected": "../cases/en-big-oldparser/en-big-oldparser-getText.json",
+		"config": "../data/enwiki-config.json",
+		"data": "../data/enwiki-data.json"
+	},
+	{
+		"name": "enwiki parsoid",
+		"title": "Wikipedia:Village pump (technical)/Archive 175",
+		"dom": "cases/en-big-parsoid/en-big-parsoid.html",
+		"expected": "../cases/en-big-parsoid/en-big-parsoid-getText.json",
+		"config": "../data/enwiki-config.json",
+		"data": "../data/enwiki-data.json"
+	},
+	{
+		"name": "ckbwiki oldparser",
+		"title": "ویکیپیدیا:دیوەخان (پێشنیارەکان)",
+		"dom": "cases/ckb-big-oldparser/ckb-big-oldparser.html",
+		"expected": "../cases/ckb-big-oldparser/ckb-big-oldparser-getText.json",
+		"config": "../data/ckbwiki-config.json",
+		"data": "../data/ckbwiki-data.json"
+	},
+	{
+		"name": "ckbwiki parsoid",
+		"title": "ویکیپیدیا:دیوەخان (پێشنیارەکان)",
+		"dom": "cases/ckb-big-parsoid/ckb-big-parsoid.html",
+		"expected": "../cases/ckb-big-parsoid/ckb-big-parsoid-getText.json",
+		"config": "../data/ckbwiki-config.json",
+		"data": "../data/ckbwiki-data.json"
+	},
+	{
+		"name": "tracked template",
+		"title": "Commons talk:SPARQL query service",
+		"dom": "cases/tracked-template/tracked-template.html",
+		"expected": "../cases/tracked-template/tracked-template-getText.json",
+		"config": "../data/commonswiki-config.json",
+		"data": "../data/commonswiki-data.json"
+	},
+	{
+		"name": "suppressed talk classes",
+		"title": "User_talk:ESanders_(WMF)/suppressed-talk",
+		"dom": "cases/suppressed-talk/suppressed-talk.html",
+		"expected": "../cases/suppressed-talk/suppressed-talk-getText.json",
+		"config": "../data/enwiki-config.json",
+		"data": "../data/enwiki-data.json"
+	}
+]

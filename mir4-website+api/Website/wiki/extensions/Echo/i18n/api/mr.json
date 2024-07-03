@@ -1,0 +1,31 @@
+{
+	"@metadata": {
+		"authors": [
+			"Amire80",
+			"V.narsikar"
+		]
+	},
+	"apihelp-echomarkread-summary": "सध्याच्या सदस्यासाठी अधिसूचनांवर वाचले अशी खूण करा.",
+	"apihelp-echomarkread-param-list": "वाचले म्हणून खूण करण्यास अधिसूचना ओळखणींची यादी.",
+	"apihelp-echomarkread-param-unreadlist": "वाचले नाही अशी खूण करण्यास अधिसूचनांच्या ओळखणींची यादी.",
+	"apihelp-echomarkread-param-all": "जर स्थापिल्या गेले तर, कोणत्याही सदस्यांच्या सर्व अधिसूचनांवर वाचले अशी खूण करते.",
+	"apihelp-echomarkread-param-sections": "वाचले म्हणून खूण करण्यास विभागांची यादी.",
+	"apihelp-echomarkread-example-1": "अधिसूचना क्रमांक ८ वर वाचले अशी खूण करा",
+	"apihelp-echomarkread-example-2": "सर्व अधिसूचना वाचल्यात अशी खूण करा",
+	"apihelp-echomarkread-example-3": "अधिसूचना १ वर वाचले नाही अशी खूण करा",
+	"apihelp-echomarkseen-summary": "सध्याच्या सदस्याच्या अधिसूचना बघितल्या अशी खूण करा.",
+	"apihelp-echomarkseen-example-1": "सर्व प्रकारच्या अधिसूचना बघितल्या अशी खूण करा",
+	"apihelp-echomarkseen-param-type": "बघितले अशी खूण करण्यास, अधिसूचनेचे प्रकार:'सजगता', 'संदेश' किंवा 'सर्व'.",
+	"apihelp-query+notifications-summary": "सध्याच्या सदस्यासाठी ताटकळत असलेल्या अधिसूचना प्राप्त करा.",
+	"apihelp-query+notifications-param-prop": "विनंती करावयाचा तपशिल.",
+	"apihelp-query+notifications-param-sections": "पृच्छा करावयासाठीचे विभाग (म्हणजे - 'सजगता' व 'संदेश' यांची सरमिसळ).",
+	"apihelp-query+notifications-param-groupbysection": "निकालाचे विभागानुसार गट करावयाचे काय. जर स्थापिल्या गेले तर,प्रत्येक विभागास वेगळ्या रितीने पुरवठा होतो.",
+	"apihelp-query+notifications-param-filter": "परतविलेल्या अधिसूचना गाळा.",
+	"apihelp-query+notifications-param-format": "जर नमूद केले तर, अधिसूचना या प्रकारे प्रारुपण करुन पाठविल्या जातील.",
+	"apihelp-query+notifications-param-wikis": "अधिसूचना पुरवाविण्यास असलेली विकिंची यादी (फक्त सध्याच्या विकिसाठीच फक्त अविचल)",
+	"apihelp-query+notifications-param-messagecontinue": "जेंव्हा अधिक संदेश निकाल उपलब्ध असतील, याचा वापर पुढे जाण्यास करा.",
+	"apihelp-query+notifications-param-titles": "या पानांसाठीच्या फक्त परतीच्या अधिसूचना.कोणत्याही पानाशी संलग्न नसलेल्या अधिसूचना मिळविण्यास,[]शीर्षक म्हणून वापरा.",
+	"apihelp-query+notifications-example-1": "अधिसूचनांची यादी करा",
+	"apihelp-query+notifications-example-2": "अधिसूचनांचे विभागानुसार गट पाडून,मोजणीसह यादी करा",
+	"apihelp-query+unreadnotificationpages-example-1": "पानांची यादी न वाचलेल्या अधिसूचना (त्यांच्या आकड्यांसह)"
+}

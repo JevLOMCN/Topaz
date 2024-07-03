@@ -1,0 +1,40 @@
+{
+	"@metadata": {
+		"authors": [
+			"Avjoska",
+			"Pikne"
+		]
+	},
+	"gadgets-desc": "Võimaldab kasutajal [[Special:Preferences#mw-prefsection-gadgets|eelistuste leheküljel]] erinevaid [[Special:Gadgets|CSS- ja JavaScript-tööriistu]] valida.",
+	"prefs-gadgets": "Tööriistad",
+	"prefs-description-gadgets": "Luba lisafunktsioonid.",
+	"gadgets-prefstext": "Allpool on nimekiri eririistadest, mida kasutajad saavad oma konto jaoks sisse lülitada.\nEnamasti põhinevad need riistad JavaScriptil. Seega, et need töötaks, peab olema sinu brauseris JavaScript lubatud.\nPane tähele, et need riistad ei mõjuta kuidagi seda eelistuste lehekülge.\n\nSamuti pane tähele, et need eririistad ei ole osa MediaWiki tarkvarast ja on tavaliselt arendatud ja ülalpeetud sinu kohalikus vikis.\nKohalikud liidese administraatorid saavad muuta tööriistade [[MediaWiki:Gadgets-definition|määratlusi]], nende [[Special:Gadgets|kirjeldusi]] saavad muuta ka kohalikud administraatorid ning kõik kasutajad näevad iga tööriista lähtekoodi. Iga tööriista kasutajate arv selles vikis on ära toodud [[Special:GadgetUsage|tööriistade kasutuse arvandmestikus]].",
+	"gadgets-prefstext-safemode": "Tööriistad pole praegu saadaval, kuna kasutad turvalist režiimi. Palun [[#mw-input-wpforcesafemode|keela turvaline režiim]], et tööriistu kasutada.",
+	"special-gadgets": "Tööriistad",
+	"gadgetusage": "Tööriistade kasutuse arvandmestik",
+	"gadgetusage-gadget": "Tööriist",
+	"gadgetusage-usercount": "Kasutajaid",
+	"gadgetusage-noresults": "Tööriistu ei leidu.",
+	"gadgetusage-intro": "Siin tabelis on näidatud, mitu kasutajat selles vikis igat tööriista kasutab. Aktiivseks kasutajaks loetakse kasutajat, kes on teinud viimase {{PLURAL:$1|päeva|$1 päeva}} jooksul mõne muudatuse. Siit on välja jäetud tööriistad, mis on kõigil vaikimisi sisse lülitatud. Siin võib olla ära toodud tööriistu, mis pole enam kasutuses.",
+	"gadgetusage-intro-noactive": "Siin tabelis on näidatud, mitu kasutajat selles vikis igat tööriista kasutab. Siit on välja jäetud tööriistad, mis on kõigil vaikimisi sisse lülitatud. Siin võib olla ära toodud tööriistu, mis pole enam kasutuses.",
+	"gadgetusage-activeusers": "Aktiivseid kasutajaid",
+	"gadgetusage-default": "Vaikimisi",
+	"gadgets-title": "Tööriistad",
+	"gadgets-pagetext": "Allpool on nimekiri eririistadest, mida kasutajad saavad oma [[Special:Preferences#mw-prefsection-gadgets|eelistuste leheküljel]] sisse lülitada, nii nagu [[MediaWiki:Gadgets-definition|määratlustes]] määratletud. See ülevaade võimaldab kergesti ligi pääseda süsteemi sõnumilehekülgedele, milles on iga riista kirjeldus ja kood.",
+	"gadgets-editdescription": "muuda kirjeldust",
+	"gadgets-viewdescription": "vaata kirjeldust",
+	"gadgets-uses": "Kasutab",
+	"gadgets-required-rights": "Tarvis on {{PLURAL:$2|järgmist õigust|järgmisi õigusi}}: $1.",
+	"gadgets-required-skins": "Saadaval {{PLURAL:$2|järgmise kujundusega|järgmiste kujundustega}}: $1.",
+	"gadgets-required-actions": "Töötab {{PLURAL:$2|lehetoimingul \"$1\"|järgmistel lehetoimingutel: $1}}.",
+	"gadgets-required-namespaces": "Töötab {{PLURAL:$2|nimeruumis $1|järgmistes nimeruumides: $1}}.",
+	"gadgets-required-contentmodels": "Töötab {{PLURAL:$2|sisumudeliga $1|järgmiste sisumudelitega: $1}}.",
+	"gadgets-default": "Vaikimisi kõigile lubatud.",
+	"gadgets-legacy": "Tööriist on laadimata. Palun kohanda ResourceLoaderiga. ([https://www.mediawiki.org/wiki/Special:MyLanguage/ResourceLoader/Migration_guide_(users) Lisateave])",
+	"gadgets-export": "ekspordi",
+	"gadgets-export-title": "Tööriista eksportimine",
+	"gadgets-not-found": "Tööriista \"$1\" ei leidu.",
+	"gadgets-export-text": "Klõpsa nuppu \"{{int:gadgets-export-download}}\", et eksportida tööriist $1; salvesta allalaaditav fail;\nmine sihtvikis leheküljele Special:Import ja laadi see üles. Seejärel lisa järgnev leheküljele MediaWiki:Gadgets-definition:\n<pre>$2</pre>\nSul peavad olema sihtvikis vajalikud õigused (kaasa arvatud õigus redigeerida süsteemi sõnumeid) ja üleslaaditavate failide kaudu importimine peab olema lubatud.",
+	"gadgets-export-download": "Laadi alla",
+	"gadgets-supports-urlload": "See tööriist toetab laadimist URL-i päringuparameetriga <code>?withgadget</code>."
+}

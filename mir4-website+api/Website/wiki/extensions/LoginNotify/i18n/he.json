@@ -1,0 +1,21 @@
+{
+	"@metadata": {
+		"authors": [
+			"Amire80",
+			"Guycn2",
+			"Steeve815"
+		]
+	},
+	"loginnotify-desc": "שליחת הודעה למשתמשים על ניסיונות חשודים להיכנס  לחשבון ממכשירים או מכתובות IP שאינם מוכרים",
+	"echo-category-title-login-fail": "ניסיונות כניסה כושלים",
+	"echo-pref-tooltip-login-fail": "להודיע לי אם בוצעו ניסיונות כניסה כושלים רבים לחשבון שלי.",
+	"echo-category-title-login-success": "כניסה ממכשיר לא מוכר",
+	"echo-pref-tooltip-login-success": "להודיע לי בכל פעם שמישהו נכנס לחשבון שלי ממכשיר או מכתובת IP שאינם מוכרים.",
+	"loginnotify-primary-link": "עזרה",
+	"notification-loginnotify-login-fail-email-subject": "{{PLURAL:$2|ניסיון כושל|כמה ניסיונות כושלים}} להיכנס לאתר {{SITENAME}} בתור $1",
+	"notification-loginnotify-login-success-email-subject": "כניסה לאתר {{SITENAME}} בתור $1 ממכשיר שלא {{GENDER:$1|השתמשת}} בו לאחרונה",
+	"notification-header-login-success": "מישהו (אולי {{GENDER:$1|אתה|את}}) הצליח לאחרונה להיכנס לחשבון שלך ממכשיר חדש. אם {{GENDER:$1|זה אתה, אתה יכול|זאת את, את יכולה}} להתעלם מההודעה הזאת. אם {{GENDER:$1|זה לא אתה|זאת לא את}}, מומלץ לשנות את הסיסמה שלך, ולבדוק את הפעילות בחשבון שלך.",
+	"notification-new-bundled-header-login-fail": "{{PLURAL:$1|נעשה '''ניסיון כושל'''|נעשו '''$1 ניסיונות כושלים'''}} להיכנס לחשבון שלך ממכשיר חדש מאז הפעם האחרונה שנכנסת. אם זה לא היית {{GENDER:|אתה|את}}, נא לוודא שלחשבון שלך יש סיסמה חזקה.",
+	"notification-known-header-login-fail": "{{PLURAL:$1|נעשה '''ניסיון כושל'''|נעשו '''$1 ניסיונות כושלים'''}} להיכנס לחשבון שלך מאז הפעם האחרונה שנכנסת. אם זה לא היית {{GENDER:|אתה|את}}, נא לוודא שלחשבון שלך יש סיסמה חזקה.",
+	"notification-new-unbundled-header-login-fail": "{{PLURAL:$1|נעשה '''ניסיון כושל'''|נעשו '''$1 ניסיונות כושלים'''}} להיכנס לחשבון שלך ממכשיר חדש מאז הפעם האחרונה שנכנסת. נא לוודא שלחשבון שלך יש סיסמה חזקה."
+}

@@ -1,0 +1,27 @@
+{
+	"@metadata": {
+		"authors": [
+			"McDutchie"
+		]
+	},
+	"action-tboverride": "ignorar le lista de titulos o nomines de usator prohibite",
+	"action-tboverride-account": "ignorar le lista de nomines de usator prohibite",
+	"action-titleblacklistlog": "vider le registro del lista de titulos prohibite",
+	"log-name-titleblacklist": "Registro del lista de titulos prohibite",
+	"log-description-titleblacklist": "Iste eventos tracia le coincidentias con titulos prohibite.",
+	"logentry-titleblacklist-hit-username": "$1 {{GENDER:$2|ha causate}} un coincidentia con le lista de titulos prohibite tentante crear le conto $3 que corresponde a $4.",
+	"titleblacklist-desc": "Permitte al administratores prohibir le creation de paginas e contos de usator per medio de listas de titulos [[MediaWiki:Titleblacklist|prohibite]] e [[MediaWiki:Titlewhitelist|permittite]]",
+	"titleblacklist": "# Isto es un lista de titulos prohibite. Le titulos e nomines de usator que\n# corresponde a un expression regular includite hic non pote esser create. \n# Usa \"#\" pro commentos.        \n# Per predefinition, isto non distingue inter majusculas e minusculas.",
+	"titlewhitelist": "# Isto es un lista de titulos permittite. Usa \"#\" pro commentos.\n# Per predefinition, isto non distingue inter majusculas e minusculas.",
+	"titleblacklist-forbidden-edit": "Le creation del titulo \"$2\" ha essite prohibite.\nIllo corresponde al sequente entrata del lista de titulos prohibite: <code>$1</code>",
+	"titleblacklist-forbidden-move": "\"$2\" non pote esser renominate a \"$3\" perque le creation del titulo \"$3\" ha essite prohibite.\nIllo corresponde al sequente entrata del lista de titulos prohibite: <code>$1</code>",
+	"titleblacklist-forbidden-upload": "Le creation del nomine de file \"$2\" ha essite prohibite.\nIllo corresponde al sequente entrata del lista de titulos prohibite: <code>$1</code>",
+	"titleblacklist-forbidden-new-account": "Le creation del nomine de usator \"$2\" ha essite prohibite.\nIllo corresponde al sequente entrata del lista de titulos prohibite: <code>$1</code>",
+	"titleblacklist-invalid": "Le sequente {{PLURAL:$1|linea|lineas}} in le lista de titulos prohibite es invalide; per favor corrige {{PLURAL:$1|lo|los}} ante de salveguardar:",
+	"titleblacklist-override": "Ignorar le lista de titulos prohibite si illo corresponde",
+	"titleblacklist-override-help": "Le usatores con privilegios sufficiente pote activar isto pro ignorar le verificationes contra le lista de titulos non permittite.",
+	"titleblacklist-warning": "<strong>Attention: Iste pagina pote solmente esser modificate per administratores e altere usatores con le detexto <code>tboverride</code> perque illo corresponde al sequente entrata del lista de titulos prohibite:</strong><br /><code>$1</code>",
+	"right-tboverride": "Ignorar le lista de titulos o nomines de usator prohibite",
+	"right-tboverride-account": "Ignorar le lista de nomines de usator prohibite",
+	"right-titleblacklistlog": "Vider le registro del lista de titulos prohibite"
+}

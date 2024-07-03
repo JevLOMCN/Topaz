@@ -1,0 +1,33 @@
+{
+	"@metadata": {
+		"authors": [
+			"Pikne"
+		]
+	},
+	"nuke": "Lauskustutamine",
+	"action-nuke": "lehekülgi lauskustutada",
+	"nuke-desc": "Võimaldab administraatoritel lehekülgede [[Special:Nuke|lauskustutamist]].",
+	"nuke-nopages": "Viimaste muudatuste all pole uusi kasutaja [[Special:Contributions/$1|$1]] loodud lehekülgi.",
+	"nuke-list": "Kasutaja [[Special:Contributions/$1|$1]] on hiljuti loonud järgmised leheküljed. Enne kustutamist sisesta kommentaar.",
+	"nuke-list-multiple": "Järgmised leheküljed on hiljuti loodud.\nSisesta kommentaar ja klõpsa kustutamisnuppu.",
+	"nuke-defaultreason": "Kasutaja [[Special:Contributions/$1|$1]] lisatud lehekülgede lauseemaldamine",
+	"nuke-multiplepeople": "Hiljuti lisatud lehekülgede lauskustutamine",
+	"nuke-tools": "See tööriist võimaldab kasutaja või IP-aadressi hiljuti lisatud leheküljed lauskustutada.\nKustutatavate lehekülgede nimekirja näitamiseks sisesta kasutajanimi või IP-aadress. Kõigi kasutajate lisatud lehekülgede jaoks jäta väli tühjaks.",
+	"nuke-submit-user": "Loetle leheküljed",
+	"nuke-submit-delete": "Kustuta väljavalitud",
+	"right-nuke": "Lehekülgi lauskustutada",
+	"nuke-userorip": "Kasutajanimi, IP-aadress või tühemik:",
+	"nuke-maxpages": "Lehekülgede ülemmäär:",
+	"nuke-editby": "Alustanud [[Special:Contributions/$1|$1]]",
+	"nuke-deleted": "Lehekülg '''$1''' on kustutatud.",
+	"nuke-deletion-queued": "Lehekülg \"'''$1'''\" ootab tööjärjes kustutamist.",
+	"nuke-not-deleted": "Lehekülge [[:$1]] '''ei saa''' kustutada.",
+	"nuke-delete-more": "[[Special:Nuke|Kustuta veel lehekülgi]]",
+	"nuke-pattern": "Lehekülje pealkirja LIKE-kuju (SQL, nt %):",
+	"nuke-nopages-global": "Sinu otsingule vastavad leheküljepealkirjad puuduvad.",
+	"nuke-viewchanges": "vaata muudatusi",
+	"nuke-namespace": "Nimeruumipiirang:",
+	"nuke-linkoncontribs": "lauskustutamine",
+	"nuke-linkoncontribs-text": "Lauskustuta leheküljed, mille ainus autor on see {{GENDER:$1|kasutaja}}",
+	"nuke-confirm": "Oled kustutamas {{PLURAL:$1|üht lehekülge|$1 lehekülge}}. Kas oled kindel, et tahad kustutada?"
+}

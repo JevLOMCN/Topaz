@@ -1,0 +1,30 @@
+{
+	"@metadata": {
+		"authors": [
+			"Psubhashish"
+		]
+	},
+	"cite-desc": "ଆଧାର ନିମନ୍ତେ <code>&lt;ref[ name=id]&gt;</code> ଓ <code>&lt;references/&gt;</code> ଟ୍ୟାଗସବୁ ଏଠାରେ ଯୋଡ଼ିଥାଏ ।",
+	"cite_error": "ଆଧାର ଭୁଲ: $1",
+	"cite_error_ref_numeric_key": "ଅବୈଧ <code>&lt;ref&gt;</code> ଟ୍ୟାଗ;\nନାମଟି କେବେ ହେଲେ ଏକ ପୂର୍ଣ୍ଣସଂଖ୍ୟା ହୋଇପାରିବ ନାହିଁ । ଏକ ବର୍ଣ୍ଣନାମୂଳକ ନାମ ଦିଅନ୍ତୁ ।",
+	"cite_error_ref_no_key": "ଅବୈଧ <code>&lt;ref&gt;</code> ଟ୍ୟାଗ;\nକୌଣସି ମଧ୍ୟ ବିଷୟବସ୍ତୁ ନଥିବା ଆଧାରର ଏକ ନାମ ଥିବା ଲୋଡ଼ା",
+	"cite_error_ref_too_many_keys": "ଅବୈଧ <code>&lt;ref&gt;</code> ଟ୍ୟାଗ;\nଭୁଲ ନାମ (ଯଥା: ଖୁବ ଅଧିକ)",
+	"cite_error_ref_no_input": "ଅବୈଧ <code>&lt;ref&gt;</code> ଟ୍ୟାଗ;\nକୌଣସି ବି ନାମ ନଥିବା ଆଧାରର କିଛି ବିଷୟବସ୍ତୁ ଥିବା ଲୋଡ଼ା",
+	"cite_error_references_invalid_parameters": "ଅଚଳ <code>&lt;references&gt;</code> ଟ୍ୟାଗ;\nକୌଣସିଟି ପାରାମିଟର ଅନୁମୋଦିତ ନୁହେଁ ।\n<code>&lt;references /&gt;</code> ବ୍ୟବହାର କରନ୍ତୁ ।",
+	"cite_error_references_no_backlink_label": "ନିଜ ପସନ୍ଦର ବ୍ୟାକଲିଙ୍କ ଚିହ୍ନ ସବୁ ସରିଗଲା ।\n[[MediaWiki:Cite references link many format backlink labels]]ସୂଚନାରେ ଅଧିକ ଦେଖନ୍ତୁ ।",
+	"cite_error_no_link_label_group": "\"$1\" ଗୋଠ ଲାଗି ନିଜ ପସନ୍ଦର ବ୍ୟାକଲିଙ୍କ ଚିହ୍ନ ସବୁ ସରିଗଲା ।\n[[MediaWiki:$2]]ସୂଚନାରେ ଅଧିକ ଚିହ୍ନିତ କରନ୍ତୁ ।",
+	"cite_error_references_no_text": "ଅଚଳ <code>&lt;ref&gt;</code> ଚିହ୍ନ;\n<code>$1</code> ନାମରେ ଥିବା ଆଧାର ଭିତରେ କିଛି ଲେଖା ନାହିଁ ।",
+	"cite_error_included_ref": "<code>&lt;ref&gt;</code> ଟ୍ୟାଗ ପାଇଁ ବନ୍ଦକରିବା <code>&lt;/ref&gt;</code> ନାହିଁ",
+	"cite_error_group_refs_without_references": "<code>&lt;ref&gt;</code> ଟ୍ୟାଗସବୁ କେବଳ \"$1\" ନାମକ ଦଳ ପାଇଁ ରହିଥିଲେ ହେଁ କୌଣସି ସମ୍ବନ୍ଧିତ <code>&lt;references group=\"$1\"/&gt;</code> ଟ୍ୟାଗ ମିଳିଲା ନାହିଁ କିମ୍ବା <code>&lt;/ref&gt;</code> ବନ୍ଦ କରିବା ଟ୍ୟାଗଟି ନାହିଁ ।",
+	"cite_error_references_group_mismatch": "<code>&lt;references&gt ରେ <code>&lt;ref&gt;</code> ଚିହ୍ନ;</code> ର ଅସୁବିଧାଜନକ ଗୋଠ ବିଶେଷତା \"$1\" ।",
+	"cite_error_references_missing_key": "<code>&lt;references&gt;</code>ରେ ଦିଆଯାଇଥିବା \"$1\" ନାମ ସହ ଥିବା <code>&lt;ref&gt;</code> ଚିହ୍ନ ଦରକାରୀ ଲେଖାରେ ବ୍ୟବହାର ହୋଇନାହିଁ ।",
+	"cite_error_references_no_key": "<code>&lt;references&gt;</code>ରେ ଦିଆଯାଇଥିବା <code>&lt;ref&gt;</code> ଚିହ୍ନରେ କିଛି ଆଟ୍ରିବୁଟ ନାହିଁ ।",
+	"cite_error_empty_references_define": "<code>&lt;references&gt;</code>ରେ ଦିଆଯାଇଥିବା \"$1\" ନାମ ସହ ଥିବା <code>&lt;ref&gt;</code> ଚିହ୍ନରେ କିଛି ଲେଖା ନାହିଁ ।",
+	"cite_references_link_accessibility_label": "ଉପରକୁ ଯାଆନ୍ତୁ",
+	"cite_references_link_many_accessibility_label": "ଏହି ଯାଏ ଉପରକୁ ଯାଆନ୍ତୁ:",
+	"cite-wikieditor-tool-reference": "ଆଧାର",
+	"cite-wikieditor-help-page-references": "ଆଧାରମାନ",
+	"cite-wikieditor-help-content-reference-description": "ଆଧାର",
+	"cite-wikieditor-help-content-rereference-description": "ଏକ ଆଧାରର ଅଧିକ ବ୍ୟବହାର",
+	"cite-wikieditor-help-content-showreferences-description": "ଡିସ‌ପ୍ଲେ ଆଧାରସମୂହ"
+}

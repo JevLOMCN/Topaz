@@ -1,0 +1,23 @@
+{
+	"@metadata": {
+		"authors": [
+			"Acamicamacaraca",
+			"BadDog",
+			"Milicevic01",
+			"Millosh",
+			"Obsuser",
+			"Rancher",
+			"Sasa Stefanovic",
+			"Жељко Тодоровић",
+			"Михајло Анђелковић"
+		]
+	},
+	"citethispage": "Цитирање странице",
+	"citethispage-desc": "Додаје посебну страницу за [[Special:CiteThisPage|цитирање]] и линк у кутијици „Алатке”",
+	"citethispage-link": "Цитирај страницу",
+	"tooltip-citethispage": "Информације о томе како цитирати ову страницу",
+	"citethispage-change-submit": "Цитирај",
+	"citethispage-change-target": "Страница:",
+	"citethispage-badrevision": "Грешка: Није могуће пронаћи измену странице „$1” с ID-јем $2.",
+	"citethispage-content": "__NOTOC__\n<div class=\"mw-specialCiteThisPage-bibliographic\">\n\n== Библиографски детаљи за страну {{FULLPAGENAME}} ==\n\n* Назив странице: {{FULLPAGENAME}} \n* Аутор: Уредници {{SITENAME}}\n* Издавач: ''{{SITENAME}}''. \n* Датум последње измене: {{CURRENTDAY}} {{CURRENTMONTHNAME}} {{CURRENTYEAR}} {{CURRENTTIME}} UTC\n* Датум преузимања: <citation>{{CURRENTDAY}} {{CURRENTMONTHNAME}} {{CURRENTYEAR}} {{CURRENTTIME}} UTC</citation>\n* Трајна веза: {{fullurl:{{FULLPAGENAME}}|oldid={{REVISIONID}}}}\n* ID верзије стране: {{REVISIONID}}\n\n</div>\n<div class=\"plainlinks mw-specialCiteThisPage-styles\">\n\n== Стилови цитирања за страну {{FULLPAGENAME}} ==\n\n=== [[APA style|APA стил]] ===\n{{FULLPAGENAME}}. \n({{CURRENTYEAR}}, \n{{CURRENTMONTHNAME}} \n{{CURRENTDAY}}). \n''{{SITENAME}}''. Узето <citation>{{CURRENTTIME}}, {{CURRENTMONTHNAME}} {{CURRENTDAY}}, {{CURRENTYEAR}}</citation> од {{fullurl:{{FULLPAGENAME}}|oldid={{REVISIONID}}}}.\n\n=== [[The MLA style manual|MLA стил]] ===\n\"{{FULLPAGENAME}}.\" ''{{SITENAME}}''. {{CURRENTDAY}} {{CURRENTMONTHABBREV}} {{CURRENTYEAR}}, {{CURRENTTIME}} UTC. <citation>{{CURRENTDAY}} {{CURRENTMONTHABBREV}} {{CURRENTYEAR}}, {{CURRENTTIME}}</citation> &lt;{{fullurl:{{FULLPAGENAME}}|oldid={{REVISIONID}}}}&gt;.\n\n=== [[MHRA Style Guide|MHRA стил]] ===\n{{SITENAME}} уредници, '{{FULLPAGENAME}}',  ''{{SITENAME}},'' {{CURRENTDAY}} {{CURRENTMONTHNAME}} {{CURRENTYEAR}}, {{CURRENTTIME}} UTC, &lt;{{fullurl:{{FULLPAGENAME}}|oldid={{REVISIONID}}}}&gt; [приступљено <citation>{{CURRENTDAY}} {{CURRENTMONTHNAME}} {{CURRENTYEAR}}</citation>]\n\n=== [[The Chicago Manual of Style|Чикаго стил]] ===\n{{SITENAME}} уредници, \n\"{{FULLPAGENAME}},\"  ''{{SITENAME}},'' {{canonicalurl:{{FULLPAGENAME}}|oldid={{REVISIONID}}}} (приступљено <citation>{{CURRENTMONTHNAME}} {{CURRENTDAY}}, {{CURRENTYEAR}}</citation>).\n\n=== [[Council of Science Editors|CBE/CSE стил]] ===\n{{SITENAME}} уредници, {{FULLPAGENAME}} [Интернет].  {{SITENAME}};  {{CURRENTYEAR}} {{CURRENTMONTHABBREV}} {{CURRENTDAY}},   {{CURRENTTIME}} UTC [цитирано <citation>{{CURRENTYEAR}} {{CURRENTMONTHABBREV}} {{CURRENTDAY}}</citation>].  Доступно са: \n{{canonicalurl:{{FULLPAGENAME}}|oldid={{REVISIONID}}}}.\n\n=== [[Bluebook|Bluebook стил]] ===\n{{FULLPAGENAME}}, {{fullurl:{{FULLPAGENAME}}|oldid={{REVISIONID}}}} (последња посета <citation>{{CURRENTMONTHNAME}} {{CURRENTDAY}}, {{CURRENTYEAR}}</citation>).\n\n=== [[BibTeX]] унос ===\n\n  @misc{ wiki:xxx,\n    author = \"{{SITENAME}}\",\n    title = \"{{FULLPAGENAME}} --- {{SITENAME}}{,} {{int:sitesubtitle}}\",\n    year = \"{{CURRENTYEAR}}\",\n    url = \"{{fullurl:{{FULLPAGENAME}}|oldid={{REVISIONID}}}}\",\n    note = \"[Online; accessed <citation>{{CURRENTDAY}}-{{CURRENTMONTHNAME}}-{{CURRENTYEAR}}</citation>]\"\n  }\n\nКада користите [[LaTeX]] пакет url (<code>\\usepackage{url}</code> негде у преамбули) који тежи да да далеко лепше форматирану адресу, следеће је можда боље:\n\n  @misc{ wiki:xxx,\n    author = \"{{SITENAME}}\",\n    title = \"{{FULLPAGENAME}} --- {{SITENAME}}{,} {{int:sitesubtitle}}\",\n    year = \"{{CURRENTYEAR}}\",\n    url = \"'''\\url{'''{{fullurl:{{FULLPAGENAME}}|oldid={{REVISIONID}}}}'''}'''\",\n    note = \"[Online; accessed <citation>{{CURRENTDAY}}-{{CURRENTMONTHNAME}}-{{CURRENTYEAR}}</citation>]\"\n  }\n\n\n</div> <!--closing div for \"plainlinks\"-->"
+}

@@ -1,0 +1,38 @@
+{
+	"@metadata": {
+		"authors": [
+			"Aram",
+			"Asoxor",
+			"Calak",
+			"Muhammed taha",
+			"Épine",
+			"ئارام بکر"
+		]
+	},
+	"categorytree": "درەختی پۆل",
+	"categorytree-portlet": "پۆلەكان",
+	"categorytree-legend": "درەختی پۆل نیشانبدە",
+	"categorytree-header": "ناوی پۆلێک بنووسە بۆ بینینی ناوەرۆک و پێکھاتە درەختییەکەی.\nئاگادار بە کە ئەمە پێویستی بە کارگێڕییەکی پێشکەوتووی JavaScript ھەیە کە بە AJAX ناسراوە.\nئەگەر وێبگەڕێکی زۆر کۆنت ھەیە یان JavaScriptت لەکارخستووە، کار ناکات.",
+	"categorytree-category": "پۆل:",
+	"categorytree-go": "دەرختەکە نیشانبدە",
+	"categorytree-parents": "باوانەکان",
+	"categorytree-mode-categories": "تەنیا پۆلەکان",
+	"categorytree-mode-pages": "لاپەڕەکان جگە لەپەڕەکان",
+	"categorytree-mode-all": "ھەموو پەڕەکان",
+	"categorytree-collapse": "کۆیبکەوە",
+	"categorytree-expand": "بڵاویبکەوە",
+	"categorytree-member-counts": "{{PLURAL:$1|یەک ژێرپۆل|$1 ژێرپۆل}}، {{PLURAL:$2|یەک پەڕە|$2 پەڕە}}، and {{PLURAL:$3|یەک پەڕگە|$3 پەڕگە}} لەبەردەگرێتەوە",
+	"categorytree-num-categories": "$1 پۆل",
+	"categorytree-num-pages": "$1 پەڕە",
+	"categorytree-num-files": "$1 پەڕگە",
+	"categorytree-num-empty": "واڵا",
+	"categorytree-load": "باربکە",
+	"categorytree-loading": "بارکردن...",
+	"categorytree-nothing-found": "ھیچ نەدۆزرایەوە",
+	"categorytree-no-subcategories": "ھیچ ژێرھاوپۆلێک نییە",
+	"categorytree-no-parent-categories": "پۆلی باوان نییە",
+	"categorytree-no-pages": "پەڕە و ژێر پۆل نییە",
+	"categorytree-not-found": "پۆلی <i>$1</i> نەدۆزرایەوە",
+	"categorytree-error": "کێشە لە بارکردنی دراوە.",
+	"categorytree-retry": "تکایە دەمێک ڕاوەستە و دیسان تاقیبکەوە."
+}

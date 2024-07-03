@@ -1,0 +1,29 @@
+{
+	"@metadata": {
+		"authors": [
+			"Albertas",
+			"Hugo.arg"
+		]
+	},
+	"pfunc_desc": "Papildyti analizatorių loginėmis funkcijomis",
+	"pfunc_time_error": "Klaida: neteisingas laikas",
+	"pfunc_time_too_long": "Klaida: Per daug #time kreipimųsi.",
+	"pfunc_time_too_big": "Klaida: #time palaiko metus tik iki 9999.",
+	"pfunc_time_too_small": "Klaida: #time palaiko metus tik nuo 0.",
+	"pfunc_rel2abs_invalid_depth": "Klaida: Netinkamas kelio gylis: \"$1\" (bandoma pasiekti mazgą, esantį virš šakninio mazgo).",
+	"pfunc_expr_stack_exhausted": "Išraiškos klaida: Išnaudotas atminties dėklas.",
+	"pfunc_expr_unexpected_number": "Išraiškos klaida: Netikėtas skaičius.",
+	"pfunc_expr_preg_match_failure": "Išraiškos klaida: Netikėta preg_match klaida.",
+	"pfunc_expr_unrecognised_word": "Išraiškos klaida: nežinomas žodis „$1“.",
+	"pfunc_expr_unexpected_operator": "Išraiškos klaida: netikėtas operatorius „$1“.",
+	"pfunc_expr_missing_operand": "Išraiškos klaida: trūksta operando „$1“.",
+	"pfunc_expr_unexpected_closing_bracket": "Išraiškos klaida: Netikėtas uždaromasis skliaustelis.",
+	"pfunc_expr_unrecognised_punctuation": "Išraiškos klaida: neatpažintas punktuacijos ženklas „$1“.",
+	"pfunc_expr_unclosed_bracket": "Išraiškos klaida: Neuždarytas skliaustelis.",
+	"pfunc_expr_division_by_zero": "Dalyba iš nulio.",
+	"pfunc_expr_invalid_argument": "Netinkamas $1 argumentas: < -1 arba > 1.",
+	"pfunc_expr_invalid_argument_ln": "Netinkamas ln argumentas: <= 0.",
+	"pfunc_expr_unknown_error": "Išraiškos klaida: Nežinoma klaida ($1).",
+	"pfunc_expr_not_a_number": "$1: Rezultatas nėra skaičius.",
+	"pfunc_string_too_long": "Klaida: Eilutė viršija $1 simbolių limitą."
+}

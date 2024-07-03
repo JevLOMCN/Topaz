@@ -1,0 +1,26 @@
+{
+	"@metadata": {
+		"authors": [
+			"ArenaL5",
+			"Banjo",
+			"Elisardojm",
+			"Iváns",
+			"McDutchie",
+			"Toliño"
+		]
+	},
+	"codeeditor-desc": "Edición de páxinas en JavaScript e CSS con realce sintáctico que emprega o [https://ace.c9.io/ editor Ace]",
+	"codeeditor-next-annotation": "Ir á anotación seguinte",
+	"codeeditor-toolbar-toggle": "Activar ou desactivar o editor de código",
+	"codeeditor-save-with-errors": "O documento contén varios erros. Está seguro de querer publicar o texto?",
+	"codeeditor-invisibleChars-toggle": "Amosar ou ocultar caracteres invisibles",
+	"codeeditor-lineWrapping-toggle": "Activar ou desactivar liñas envolventes",
+	"codeeditor-searchReplace-toggle": "Activar xanela de procurar e reemprazar",
+	"codeeditor-gotoline": "Ir á liña número...",
+	"codeeditor-gotoline-placeholder": "liña[:columna]",
+	"codeeditor-gotoline-prompt": "Introduce un número de liña",
+	"codeeditor-indent": "Engadir sangría",
+	"codeeditor-outdent": "Anular sangría",
+	"codeeditor-error-title": "Erro na dependencia",
+	"codeeditor-error-message": "O CodeEditor necesita o WikiEditor para cargarse."
+}

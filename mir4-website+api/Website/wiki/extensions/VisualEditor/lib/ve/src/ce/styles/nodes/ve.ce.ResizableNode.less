@@ -1,0 +1,97 @@
+/*!
+ * VisualEditor ContentEditable ResizableNode styles.
+ *
+ * @copyright See AUTHORS.txt
+ */
+
+.ve-ce-resizableNode {
+	&-handles {
+		position: absolute;
+		box-sizing: border-box;
+
+		&-resizing {
+			box-shadow: inset 0 0 0 1px rgba( 0, 0, 0, 0.2 );
+			background: rgba( 0, 0, 0, 0.1 );
+		}
+
+		div {
+			position: absolute;
+			width: 11px;
+			height: 11px;
+			background-repeat: no-repeat;
+		}
+	}
+
+	&-nwHandle {
+		cursor: nw-resize;
+		left: -6px;
+		top: -6px;
+	}
+
+	&-neHandle {
+		cursor: ne-resize;
+		right: -6px;
+		top: -6px;
+	}
+
+	&-swHandle {
+		cursor: sw-resize;
+		bottom: -6px;
+		left: -6px;
+	}
+
+	&-seHandle {
+		cursor: se-resize;
+		bottom: -6px;
+		right: -6px;
+	}
+
+	&-nwHandle,
+	&-seHandle {
+		/* @embed */
+		background-image: url( ../../../ui/styles/images/resize-nw-se.svg );
+	}
+
+	&-neHandle,
+	&-swHandle {
+		/* @embed */
+		background-image: url( ../../../ui/styles/images/resize-ne-sw.svg );
+	}
+
+	&-hide-nw &-nwHandle,
+	&-hide-ne &-neHandle,
+	&-hide-sw &-swHandle,
+	&-hide-se &-seHandle {
+		display: none;
+	}
+
+	&-sizeLabel {
+		position: absolute;
+		text-align: center;
+		opacity: 0;
+		transition: opacity 200ms;
+
+		&-resizing {
+			opacity: 1;
+		}
+	}
+
+	&-sizeText {
+		padding: 0.25em 0.5em;
+		border: 1px solid #c8ccd1;
+		background-color: #fff;
+		border-radius: 2px;
+		white-space: nowrap;
+
+		span:not( :first-child ) {
+			margin-left: 0.4em;
+			padding-left: 0.4em;
+			border-left: 1px solid #c8ccd1;
+		}
+
+		&-warning {
+			background-color: #ecc;
+			border-color: #caa;
+		}
+	}
+}

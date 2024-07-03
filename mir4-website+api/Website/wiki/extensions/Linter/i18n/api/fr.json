@@ -1,0 +1,23 @@
+{
+	"@metadata": {
+		"authors": [
+			"Gomoko",
+			"Ltrlg",
+			"Thibaut120094",
+			"Urhixidur",
+			"Verdy p",
+			"Wladek92"
+		]
+	},
+	"apihelp-query+linterrors-summary": "Fournit une liste des erreurs d’analyse statique",
+	"apihelp-query+linterrors-param-categories": "Catégories d’erreurs d’analyse statique",
+	"apihelp-query+linterrors-param-invisible-categories": "Catégories invisibles des erreurs lint",
+	"apihelp-query+linterrors-param-limit": "Nombre de résultats à demander",
+	"apihelp-query+linterrors-param-from": "Identifiant d’analyse Lint auquel commencer la requête",
+	"apihelp-query+linterrors-param-namespace": "Inclure uniquement les erreurs d’analyse Lint des espaces de nom spécifiés",
+	"apihelp-query+linterrors-param-pageid": "Inclure uniquement les erreurs d’analyse Lint des identifiants de pages spécifiés",
+	"apihelp-query+linterrors-param-title": "Inclure uniquement les erreurs d’analyse statique depuis le titre de page spécifié",
+	"apihelp-query+linterrors-example-1": "Obtenir toutes les erreurs d’analyse statique de la catégorie des balises désuètes",
+	"apihelp-query+linterstats-summary": "Obtenir le nombre d’erreurs d’analyse statique dans chaque catégorie",
+	"apihelp-query+linterstats-example-1": "Obtenir le nombre d’erreurs d’analyse statique dans chaque catégorie"
+}

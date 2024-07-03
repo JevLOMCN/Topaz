@@ -1,0 +1,34 @@
+{
+	"@metadata": {
+		"authors": [
+			"Anton008",
+			"Dalibor Bosits",
+			"Ex13",
+			"MaGa",
+			"Neptune, the Mystic",
+			"Ponor",
+			"Roberta F.",
+			"SpeedyGonsales"
+		]
+	},
+	"gadgets-desc": "Omogućava suradnicama biranje osobnih [[Special:Gadgets|CSS i JavaScript dodataka]] u svojim [[Special:Preferences#mw-prefsection-gadgets|postavkama]]",
+	"prefs-gadgets": "Dodatci",
+	"gadgets-prefstext": "Slijedi popis posebnih dodataka koje možete omogućiti.\nVećinom su napisani u JavaScriptu, stoga JavaScript mora biti omogućen u vašem internetskom pregledniku da bi radili.\nNijedan dodatak nema učinka na ovu stranicu s postavkama.\n\nOvi posebni dodatci nisu dio MediaWiki softvera, najčešće ih razvijaju i održavaju suradnici na lokalnom wikiju.\nLokalni administratori sučelja mogu uređivati dostupne dodatke putem [[MediaWiki:Gadgets-definition|definicija]], dok lokalni administratori mogu uređivati njihove [[Special:Gadgets|opise]]. Broj korisnika dodataka možete vidjeti na stranici  [[Special:GadgetUsage|Statistika uporabe dodataka]].",
+	"special-gadgets": "Dodatci",
+	"gadgetusage": "Statistika uporabe dodataka",
+	"gadgetusage-gadget": "Dodatak",
+	"gadgetusage-usercount": "Ukupno suradnika",
+	"gadgetusage-intro": "Tablica prikazuje broj suradnika koji su omogućili dodatke na ovom wikiju. U aktivne suradnike se ubraja onaj koji je napravio uređivanje u {{PLURAL:$1|zadnji dan|$1 zadnja dana|$1 zadnjih dana}}. Popis ne uključuje statistike za dodatke koji su svima zadano omogućeni, te može uključivati dodatke koji više nisu dostupni.",
+	"gadgetusage-intro-noactive": "Tablica prikazuje broj suradnika koji su omogućili dodatke na ovom wikiju. Popis ne uključuje statistike za dodatke koji su svima zadano omogućeni, te može uključivati dodatke koji više nisu dostupni.",
+	"gadgetusage-activeusers": "Aktivnih suradnika",
+	"gadgetusage-default": "zadano uključeno",
+	"gadgets-title": "Dodatci",
+	"gadgets-pagetext": "Slijedi popis posebnih JavaScript dodataka koje suradnici mogu omogućiti u svojim [[Special:Preferences#mw-prefsection-gadgets|postavkama]], kako je definirano stranicom [[MediaWiki:Gadgets-definition|definicija]].\nOvaj pregled omogućava lak pristup porukama sustava koje opisuju dodatke i njihov kod.",
+	"gadgets-uses": "Rabi",
+	"gadgets-required-rights": "Zahtijeva {{PLURAL:$2|$1 pravo|sljedeća prava: $1}}.",
+	"gadgets-export": "Izvezi",
+	"gadgets-export-title": "Izvoz JS skripti (''gadgets'')",
+	"gadgets-not-found": "''Gadget'' \"$1\" nije pronađen.",
+	"gadgets-export-text": "Za izvoz dodatka $1 pritisnite tipku »{{int:gadgets-export-download}}«, snimite preuzetu datoteku, pa je na odredišnom serveru\npostavite iz Special:Import. Zatim dodajte sljedeće na stranici MediaWiki:Gadgets-definition:\n<pre>$2</pre>\nNa odredištu morate imati sva potrebna prava, uključujući i pravo na uređivanje sistemskih poruka, a i uvoz iz snimljenih datoteka mora biti omogućen.",
+	"gadgets-export-download": "Preuzmi"
+}

@@ -1,0 +1,17 @@
+{
+	"@metadata": {
+		"authors": [
+			"Fitoschido",
+			"Paucabot",
+			"SMP"
+		]
+	},
+	"right-oathauth-view-log": "Accedir al registre de canvis de l'autenticació de doble factor",
+	"right-oathauth-enable": "Activar l'autenticació de dos factors",
+	"oathauth-auth-ui": "Introduïu un codi de verificació provinent del vostre dispositiu d’autenticació.",
+	"oathauth-ui-no-module": "No se n’ha habilitat cap",
+	"oathauth-module-totp-label": "TOTP (testimoni d’un sol ús)",
+	"oathauth-ui-manage": "Gestiona",
+	"oathmanage": "Gestiona autenticació de doble factor",
+	"oathauth-ui-available-modules": "Mètodes disponibles"
+}

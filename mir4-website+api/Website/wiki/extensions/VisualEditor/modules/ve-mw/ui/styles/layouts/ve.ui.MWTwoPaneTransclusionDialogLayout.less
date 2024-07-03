@@ -1,0 +1,54 @@
+.ve-ui-mwTwoPaneTransclusionDialogLayout {
+	&-sidebar-container {
+		position: absolute;
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 2.5em;
+		overflow: auto;
+		/* Compensate for 2 * 2px padding on the .oo-ui-outlineControlsWidget + 1px border */
+		margin-bottom: 5px;
+
+		.ve-ui-mwTransclusionDialog-single-transclusion & {
+			bottom: 0;
+			margin-bottom: 0;
+		}
+	}
+
+	&-stackLayout {
+		/* We don't want anything to collapse left/right, so shouldn't use margin */
+		padding: 0 54px;
+
+		&.ve-ui-mwVerticalLayout {
+			> .oo-ui-panelLayout-scrollable {
+				// Override from PanelLayout; only the StackLayout must be scrollable
+				overflow: hidden;
+			}
+
+			> .oo-ui-panelLayout {
+				display: block;
+				position: relative;
+			}
+		}
+
+		> .oo-ui-panelLayout {
+			width: 100%;
+			box-sizing: border-box;
+			margin: 48px 0 20px 0;
+
+			&:last-child {
+				margin-bottom: 48px;
+			}
+		}
+	}
+
+	> .oo-ui-menuLayout-menu {
+		width: 240px;
+		// @border-dialog-bar
+		border-right: 1px solid #c8ccd1;
+	}
+
+	> .oo-ui-menuLayout-content {
+		left: 240px;
+	}
+}

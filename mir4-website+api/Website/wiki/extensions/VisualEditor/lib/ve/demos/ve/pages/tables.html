@@ -1,0 +1,219 @@
+<h1>Tables</h1>
+
+<h2>Simple table</h2>
+
+<table>
+	<tr>
+		<th>A</th><th>B</th><th>C</th><th>D</th>
+	</tr>
+	<tr>
+		<td>E</td><td>F</td><td>G</td><td>H</td>
+	</tr>
+	<tr>
+		<td>I</td><td>J</td><td>K</td><td>L</td>
+	</tr>
+	<tr>
+		<td>M</td><td>N</td><td>O</td><td>P</td>
+	</tr>
+</table>
+
+<h2>Merged cells</h2>
+
+<table>
+	<tr>
+		<td>1</td><td>2</td><td>3</td><td rowspan="3">4</td><td>5</td><td>6</td>
+	</tr>
+	<tr>
+		<td>7</td><td colspan="2">8</td><td rowspan="4">9</td><td>10</td>
+	</tr>
+	<tr>
+		<td>11</td><td>12</td><td>13</td><td>14</td>
+	</tr>
+	<tr>
+		<td>15</td><td rowspan="3" colspan="3">16</td><td>17</td>
+	</tr>
+	<tr>
+		<td>18</td><td>19</td>
+	</tr>
+	<tr>
+		<td>20</td><td colspan="2">21</td>
+	</tr>
+	<tr>
+		<td>22</td><td>23</td><td>24</td><td>25</td><td>26</td><td>27</td>
+	</tr>
+</table>
+
+<h2>Nested tables</h2>
+
+<table>
+	<tr>
+		<td>col 1 row 1</td>
+		<td>col 2 row 1</td>
+	</tr>
+	<tr>
+		<td>col 1 row 2</td>
+		<td><table>
+				<tr>
+					<td>table 2 col 1 row 1</td>
+					<td>table 2 col 2 row 1</td>
+				</tr>
+				<tr>
+					<td>table 2 col 1 row 2</td>
+					<td><table>
+							<tr>
+								<td>table 3 col 1 row 1</td>
+								<td>table 3 col 2 row 1</td>
+							</tr>
+							<tr>
+								<td>table 3 col 1 row 2</td>
+								<td>table 3 col 2 row 2</td>
+							</tr>
+						</table>
+					</td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+	<tr>
+		<td><ul><li>List in</li><li>col 1 row 3</li></td>
+		<td><div rel="ve:Alien">col 2 row 3 contains block alien</div></td>
+	</tr>
+</table>
+
+<h2>Captioned table</h2>
+
+<table>
+	<caption>Caption</caption>
+	<tr>
+		<td>A</td><td>B</td><td>C</td><td>D</td>
+	</tr>
+	<tr>
+		<td>E</td><td>F</td><td>G</td><td>H</td>
+	</tr>
+</table>
+
+<h2>Sparse table</h2>
+
+<table>
+	<tr>
+		<td>A</td><td>B</td><td>C</td><td>D</td>
+	</tr>
+	<tr>
+		<td>E</td><td>F</td>
+	</tr>
+	<tr>
+		<td>G</td><td>H</td>
+	</tr>
+	<tr>
+		<td>I</td><td>J</td><td>K</td><td>L</td>
+	</tr>
+</table>
+
+<h2>Alien table</h2>
+
+<table>
+	<tr>
+		<td>A</td><td>B</td><td>C</td><td>D</td>
+	</tr>
+	<tr>
+		<td>E</td><td rel="ve:Alien">F</td><td rel="ve:Alien">G</td><td>H</td>
+	</tr>
+	<tr rel="ve:Alien">
+		<td>I</td><td>J</td><td>K</td><td>L</td>
+	</tr>
+	<tr rel="ve:Alien">
+		<td rel="ve:Alien" colspan="4">One alien</td>
+	</tr>
+	<tr>
+		<td>M</td><td colspan="2" rel="ve:Alien">N, O</td><td>P</td>
+	</tr>
+</table>
+
+<h2>Table sections</h2>
+
+<table>
+	<thead>
+		<tr>
+			<th>thead</th><th>foo</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>tbody</td><td>bar</td>
+		</tr>
+	</tbody>
+</table>
+
+
+<h2>RTL table</h2>
+
+<div dir="rtl">
+<table>
+	<tr>
+		<td>A</td><td>B</td><td>C</td><td>D</td>
+	</tr>
+	<tr>
+		<td>E</td><td>F</td><td>G</td><td>H</td>
+	</tr>
+</table>
+</div>
+
+<h2>Full table</h2>
+
+<table>
+	<tr>
+		<th>Lorem<br />ipsum</th>
+		<th><a href="dolor">dolor</a></th>
+		<th>sit amet</th>
+		<th>consectetur adipiscing elit</th>
+		<th>Fusce sit</th>
+		<th>amet porta ipsum</th>
+		<th>Aenean arcu</th>
+		<th>mi elementum</th>
+	</tr>
+	<tr>
+		<td>1</td>
+		<td>A</td>
+		<td>eget malesuada a</td>
+		<td>pretium vulputate</td>
+		<td>eros sed</td>
+		<td>tempus efficitur dui</td>
+		<td>sed accumsan elit pharetra</td>
+		<td>et mauris mollis vestibulum</td>
+	</tr>
+	<tr>
+		<td colspan="8">
+			libero, quis tincidunt nisi vulputate non. In <a href="foo">lobortis</a> erat sed enim semper blandit. Suspendisse vehicula, <!-- inline comment --> sapien nec egestas euismod, lacus ligula condimentum nisl, sit amet ornare lorem ex sed velit. <span rel="ve:Alien">Integer diam elit, dignissim sed mi</span> vitae, dictum consectetur erat. Donec sollicitudin iaculis ante, sit amet elementum ex feugiat a.
+		</td>
+	</tr>
+	<tr>
+		<td>2</td>
+		<td>B</td>
+		<td>Sed luctus turpis</td>
+		<td>eget ipsum</td>
+		<td>pretium cursus</td>
+		<td>Nullam molestie velit sem</td>
+		<td>eget pulvinar</td>
+		<td>tortor euismod eu</td>
+	</tr>
+	<tr>
+		<td colspan="8">
+			Sollicitudin arcu efficitur, commodo risus. Sed rhoncus tellus quis lectus venenatis vulputate in at dui. Pellentesque vehicula, ligula ac vestibulum imperdiet, felis magna blandit ipsum, feugiat interdum libero lacus vitae nibh.
+		</td>
+	</tr>
+	<tr>
+		<td>3</td>
+		<td>C</td>
+		<td>sed accumsan elit pharetra</td>
+		<td>et mauris mollis vestibulum</td>
+		<td>tempus efficitur dui</td>
+		<td>eros sed</td>
+		<td>pretium vulputate</td>
+		<td>eget malesuada a</td>
+	</tr>
+	<tr>
+		<td colspan="8">
+			In tempor ornare feugiat. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vivamus sed finibus velit, ac iaculis leo. Fusce venenatis faucibus lorem feugiat vehicula. Nullam interdum volutpat egestas. Mauris vel tristique leo. Nulla elementum iaculis augue, vitae vestibulum leo facilisis a. Praesent quis consequat justo.
+		</td>
+	</tr>
+</table>

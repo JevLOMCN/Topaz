@@ -1,0 +1,90 @@
+/*!
+ * VisualEditor UserInterface LinearContextItem styles.
+ *
+ * @copyright See AUTHORS.txt
+ */
+
+.ve-ui-linearContextItem {
+	&-head {
+		min-height: 32px;
+		padding: 0.5em;
+		display: flex;
+		align-items: center;
+	}
+
+	&-title {
+		padding: 0 0.5em;
+		white-space: nowrap;
+		flex: 1;
+
+		> .oo-ui-labelWidget {
+			margin-left: 0.3em;
+			word-wrap: break-word;
+			white-space: pre-line;
+			vertical-align: middle;
+		}
+
+		.ve-ui-mobileContext & {
+			font-weight: bold;
+		}
+	}
+
+	&-body {
+		max-height: 15em;
+		overflow: auto;
+
+		.ve-ui-linearContextItem-empty & {
+			display: none;
+		}
+
+		.ve-ui-desktopContext &:not( :empty ) {
+			padding: 0 1em 1em 1em;
+		}
+	}
+}
+
+.ve-ui-mobileContext {
+	.ve-ui-linearContextItem-body-action-wrapper {
+		/* Wrapper to vertically center body-action in a min-heighted container */
+		/* We use a wrapper so that body-action itself can main top-alignment of its items */
+		border-top: 1px solid #eaecf0;
+		display: flex;
+		align-items: center;
+		flex-wrap: wrap;
+		min-height: 4.5em;
+	}
+
+	.ve-ui-linearContextItem-empty .ve-ui-linearContextItem-body-action-wrapper {
+		display: none;
+	}
+
+	.ve-ui-linearContextItem-body-action {
+		display: flex;
+		width: 100%;
+	}
+
+	.ve-ui-linearContextItem-head {
+		padding: 0.25em 0.5em;
+	}
+
+	.ve-ui-linearContextItem-body { /* stylelint-disable-line no-descending-specificity */
+		padding: 0.5em 1em;
+		flex: 1;
+	}
+
+	.ve-ui-linearContextItem-foot:not( :empty ) {
+		border-top: 1px solid #eaecf0;
+		padding: 0.25em 1em;
+		text-align: right;
+	}
+
+	.ve-ui-linearContextItem-actions {
+		width: auto;
+		padding: 0.25em 0.5em;
+	}
+}
+
+.ve-ui-mobileContext-close + .ve-ui-linearContextItem-empty {
+	/* Make room for close button, if the first item is empty */
+	margin-right: 2.5em;
+}

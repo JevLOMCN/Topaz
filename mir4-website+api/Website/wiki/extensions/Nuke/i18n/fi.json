@@ -1,0 +1,42 @@
+{
+	"@metadata": {
+		"authors": [
+			"01miki10",
+			"Beluga",
+			"Crt",
+			"Jaakonam",
+			"MITO",
+			"Mies",
+			"Nike",
+			"Olli",
+			"Pxos",
+			"Stryn"
+		]
+	},
+	"nuke": "Massapoisto",
+	"action-nuke": "massapoistaa sivuja",
+	"nuke-desc": "Antaa ylläpitäjille mahdollisuuden sivujen [[Special:Nuke|massapoistamiseen]]",
+	"nuke-nopages": "Ei käyttäjän [[Special:Contributions/$1|{{GENDER:$1|$1}}]] lisäämiä uusia sivuja tuoreissa muutoksissa.",
+	"nuke-list": "Käyttäjä [[Special:Contributions/$1|{{GENDER:$1|$1}}]] on äskettäin luonut seuraavat sivut.\nLisää kommentti ja poista sivut napsauttamalla painiketta.",
+	"nuke-list-multiple": "Seuraavat sivut on luotu äskettäin.\nLisää kommentti ja poista sivut napsauttamalla painiketta.",
+	"nuke-defaultreason": "Käyttäjän [[Special:Contributions/$1|{{GENDER:$1|$1}}]] lisäämien sivujen massapoistaminen",
+	"nuke-multiplepeople": "Äskettäin lisättyjen sivujen massapoistaminen",
+	"nuke-tools": "Tämä työkalu mahdollistaa äskettäin lisättyjen sivujen massapoistamisen käyttäjänimen tai IP-osoitteen perusteella.\nKirjoita käyttäjänimi tai IP-osoite, niin saat listan poistettavista sivuista, tai jätä kenttä tyhjäksi niin saat kaikkien käyttäjien tekemät sivut.",
+	"nuke-submit-user": "Luetteloi sivut",
+	"nuke-submit-delete": "Poista valitut sivut",
+	"right-nuke": "Massapoistaa sivuja",
+	"nuke-userorip": "Käyttäjänimi tai IP-osoite (voi jättää myös tyhjäksi):",
+	"nuke-maxpages": "Sivujen enimmäismäärä:",
+	"nuke-editby": "Luonut [[Special:Contributions/$1|{{GENDER:$1|$1}}]]",
+	"nuke-deleted": "Sivu '''$1''' on poistettu.",
+	"nuke-deletion-queued": "Sivu '''$1''' on poistojonossa.",
+	"nuke-not-deleted": "Sivua [[:$1]] '''ei voitu''' poistaa.",
+	"nuke-delete-more": "[[Special:Nuke|Poista enemmän sivuja]]",
+	"nuke-pattern": "SQL LIKE -malli (esim. %) sivun nimelle:",
+	"nuke-nopages-global": "Hakuasi vastaavia sivujen nimiä ei ole.",
+	"nuke-viewchanges": "näytä muutokset",
+	"nuke-namespace": "Rajoita nimiavaruuteen:",
+	"nuke-linkoncontribs": "massapoisto",
+	"nuke-linkoncontribs-text": "Massapoista ne sivut, joissa {{GENDER:$1|tämä käyttäjä}} on ainoa muokkaaja",
+	"nuke-confirm": "Olet poistamassa {{PLURAL:$1|yhden sivun|$1 sivua}}. Haluatko varmasti poistaa ne?"
+}

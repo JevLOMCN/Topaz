@@ -1,0 +1,26 @@
+{
+	"@metadata": {
+		"authors": [
+			"Apzp79",
+			"Bluehill",
+			"Jay94ks",
+			"Ykhwong",
+			"아라"
+		]
+	},
+	"skinname-monobook": "모노북",
+	"monobook-desc": "문서 배경에서 책의 흑백 사진을 이른, 2004년 이후의 고전 미디어위키 스킨",
+	"monobook.css": "/* 여기의 모든 CSS는 모노북 스킨을 사용하는 사용자에게 로드됩니다 */",
+	"monobook.js": "/* 여기의 모든 자바스크립트는 모노북 스킨을 사용하는 사용자에게 로드됩니다 */",
+	"monobook-jumptotop": "맨 위로 돌아가기",
+	"monobook-jumptopersonal": "사용자 도구",
+	"monobook-jumptonavigation": "둘러보기로 이동",
+	"monobook-jumptosearch": "검색으로 이동",
+	"monobook-more-actions": "더 보기",
+	"cactions-mobile": "문서 행위",
+	"monobook-cactions-label": "문서 행위",
+	"monobook-notifications-link": "알림 ($1)",
+	"monobook-notifications-link-none": "알림",
+	"monobook-view-history": "역사",
+	"monobook-action-undelete": "{{PLURAL:$1|편집 한 개|편집 $1개}} 되살리기"
+}

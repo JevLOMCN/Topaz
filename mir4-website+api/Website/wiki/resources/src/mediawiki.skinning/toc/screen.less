@@ -1,0 +1,152 @@
+/**
+ * Table of Contents
+ *
+ * Default styles for the display of table of contents in @media screen.
+ *
+ * Styles relating to i18n are inside the i18n.less file in the same subfolder.
+ * Styles for @media print are inside print.css.
+ */
+
+@import 'mediawiki.skin.variables.less';
+
+/* stylelint-disable selector-class-pattern */
+
+/* Table of Contents */
+.toc,
+.toccolours {
+	background-color: @background-color-neutral-subtle;
+	border: @border-width-base @border-style-base @border-color-base;
+	padding: 5px;
+	font-size: 95%;
+}
+
+/**
+ * We want to display the ToC element with intrinsic width in block mode. The fit-content
+ * value for width is however not supported by large groups of browsers.
+ *
+ * We use display:table. Even though it should only contain other table-* display
+ * elements, there are no known problems with using this.
+ */
+.toc {
+	display: table;
+	padding: 7px;
+
+	h2 {
+		display: inline;
+		border: 0;
+		padding: 0;
+		font-size: 100%;
+		font-weight: bold;
+	}
+
+	.toctitle {
+		text-align: center;
+	}
+
+	ul {
+		list-style: none;
+		margin: 0.3em 0;
+		padding: 0;
+		text-align: left;
+
+		ul {
+			margin: 0 0 0 2em;
+		}
+	}
+}
+
+/* CSS for backwards-compatibility with cached page renders and creative uses in wikitext */
+table.toc {
+	border-collapse: collapse;
+
+	/* Remove additional paddings inside table-cells that are not present in <div>s */
+	td {
+		padding: 0;
+	}
+}
+
+/* Separate columns for tocnumber and toctext */
+.tocnumber,
+.toctext {
+	display: table-cell;
+	/*
+	 * Text decorations are not propagated to the contents of inline blocks and inline tables,
+	 * according to <https://www.w3.org/TR/css-text-decor-3/#line-decoration>, and 'display: table-cell'
+	 * generates an inline table when used without any parent table-rows and tables.
+	 */
+	text-decoration: inherit;
+}
+
+/* Space between the columns for tocnumber and toctext */
+.tocnumber {
+	color: @color-base;
+	padding-left: 0;
+	padding-right: 0.5em;
+
+	.mw-content-ltr & {
+		/* @noflip */
+		padding-left: 0;
+		/* @noflip */
+		padding-right: 0.5em;
+	}
+
+	.mw-content-rtl & {
+		/* @noflip */
+		padding-left: 0.5em;
+		/* @noflip */
+		padding-right: 0;
+	}
+}
+
+/* Overwrite the style="display:none" and make the checkbox invisible on another way to */
+/* allow to focus the checkbox with keyboard. */
+.toctogglecheckbox {
+	// Make the checkbox visible to allow it to focus with keyboard.
+	display: inline !important; /* stylelint-disable-line declaration-no-important */
+	// Remove any size of the checkbox.
+	position: absolute;
+	// Make the checkbox invisible.
+	opacity: 0;
+	// Prevent that the checkbox is clickable and changes the cursor.
+	z-index: -1;
+}
+
+.toctogglespan {
+	font-size: 94%;
+}
+
+.toctogglespan::before {
+	content: ' [';
+}
+
+.toctogglespan::after {
+	content: ']';
+}
+
+/* Make the label look like a link. */
+.toctogglelabel {
+	color: @color-link;
+	cursor: pointer;
+}
+
+.toctogglelabel:hover {
+	text-decoration: underline;
+}
+
+/* Show a focus ring around the label when focusing the invisible checkbox. */
+/* This simulates that the label is in focus. */
+.toctogglecheckbox:focus + .toctitle .toctogglelabel {
+	text-decoration: underline;
+	outline: auto;
+}
+
+/* Change the text of the button based on the state of the checkbox. */
+.toctogglecheckbox:checked + .toctitle .toctogglelabel::after {
+	content: '@{msg-showtoc}';
+}
+
+.toctogglecheckbox:not( :checked ) + .toctitle .toctogglelabel::after {
+	content: '@{msg-hidetoc}';
+}
+
+@import 'i18n.less';

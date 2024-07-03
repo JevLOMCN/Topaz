@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": []
+	},
+	"apihelp-abusefilterunblockautopromote-param-user": "Korisničko ime korisnika kog želite da deblokirate.",
+	"apihelp-query+abusefilters-summary": "Prikaži detalje filtera zloupotreba.",
+	"apihelp-query+abuselog-example-1": "Prikaži skorašnje unose u dnevniku",
+	"apihelp-abuselogprivatedetails-param-reason": "Važeći razlog za proveru",
+	"apierror-abusefilter-canttest": "Nemate dozvolu za testiranje filtera zloupotrebe.",
+	"apierror-abusefilter-cantcheck": "Nemate dozvolu za proveru sintakse filtera zloupotrebe.",
+	"apierror-abusefilter-badsyntax": "Filter ima nevažeću sintaksu."
+}

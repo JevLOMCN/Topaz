@@ -1,0 +1,22 @@
+{
+	"@metadata": {
+		"authors": [
+			"Boivie",
+			"Lejonel",
+			"M.M.S.",
+			"WikiPhoenix"
+		]
+	},
+	"imagemap_desc": "Lägger till taggen <code>&lt;imagemap&gt;</code> för klickbara bilder",
+	"imagemap_no_image": "Fel: en bild måste anges på första raden",
+	"imagemap_invalid_image": "Fel: bilden är ogiltig eller existerar inte",
+	"imagemap_bad_image": "Fel: Bilden är inte tillåten på den här sidan.",
+	"imagemap_no_link": "Fel: ingen giltig länk fanns i slutet av rad $1",
+	"imagemap_invalid_title": "Fel: felaktig titel i länken på rad $1",
+	"imagemap_missing_coord": "Fel: koordinater saknas för området på rad $1",
+	"imagemap_unrecognised_shape": "Fel: Okänd områdesform på rad $1, varje rad måste börja med något av följande: <code>default</code>, <code>rect</code>, <code>circle</code> eller <code>poly</code>",
+	"imagemap_invalid_coord": "Fel: ogiltig koordinat på rad $1, måste vara ett tal",
+	"imagemap_invalid_desc": "Fel: ogiltig specifikation av desc, den måste var en av följande: <code>$1</code>",
+	"imagemap_description": "Bildinformation",
+	"imagemap_poly_odd": "Fel: hittade poly med udda antal koordinater på rad $1"
+}

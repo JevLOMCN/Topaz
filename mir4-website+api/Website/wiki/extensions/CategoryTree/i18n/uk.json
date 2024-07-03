@@ -1,0 +1,41 @@
+{
+	"@metadata": {
+		"authors": [
+			"AS",
+			"Ahonc",
+			"Base",
+			"DDPAT",
+			"Piramidion",
+			"Sodmy",
+			"Ата"
+		]
+	},
+	"categorytree": "Дерево категорій",
+	"categorytree-portlet": "Категорії",
+	"categorytree-legend": "Показати дерево категорій",
+	"categorytree-desc": "AJAX-компонент для відображення [[Special:CategoryTree|структури категорій]] вікі",
+	"categorytree-header": "Уведіть назву категорії, і вона буде показана у вигляді дерева. (Вимагає JavaScript).",
+	"categorytree-category": "Категорія:",
+	"categorytree-go": "Показати дерево",
+	"categorytree-parents": "Батьківські категорії",
+	"categorytree-mode-label": "Режим:",
+	"categorytree-mode-categories": "тільки категорії",
+	"categorytree-mode-pages": "окрім зображень",
+	"categorytree-mode-all": "усі сторінки",
+	"categorytree-collapse": "згорнути",
+	"categorytree-expand": "розгорнути",
+	"categorytree-member-counts": "містить $1 {{PLURAL:$1|підкатегорію|підкатегорії|підкатегорій}}, $2 {{PLURAL:$2|сторінку|сторінки|сторінок}} та $3 {{PLURAL:$3|файл|файли|файлів}}",
+	"categorytree-num-categories": "$1 К",
+	"categorytree-num-pages": "$1 С",
+	"categorytree-num-files": "$1 Ф",
+	"categorytree-num-empty": "порожня",
+	"categorytree-load": "завантажити",
+	"categorytree-loading": "завантаження…",
+	"categorytree-nothing-found": "нема підкатегорій",
+	"categorytree-no-subcategories": "нема підкатегорій",
+	"categorytree-no-parent-categories": "нема батьківських категорій",
+	"categorytree-no-pages": "нема статей і підкатегорій",
+	"categorytree-not-found": "Категорія «$1» не знайдена.",
+	"categorytree-error": "Помилка завантаження даних.",
+	"categorytree-retry": "Будь ласка, зачекайте і спробуйте ще раз."
+}

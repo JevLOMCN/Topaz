@@ -1,0 +1,31 @@
+{
+	"@metadata": {
+		"authors": [
+			"Mirin",
+			"Psychoslave",
+			"Robin van der Vliet",
+			"Yekrats",
+			"YvesNevelsteen"
+		]
+	},
+	"gadgets-desc": "Permesas al uzantoj elekti proprajn [[Special:Gadgets|CSS kaj JavaScript aldonaĵojn]] en ties [[Special:Preferences#mw-prefsection-gadgets|preferoj]].",
+	"prefs-gadgets": "Aldonaĵoj",
+	"gadgets-prefstext": "Jen listo de specialaj aldonaĵoj kiujn vi povas aktivigi por via uzulkonto.\nPlej multaj el ili baziĝas sur Ĵavaskriptoj, sekve Ĵavaskripto nepre estu aktivigita por ke ili funkciu.\nNotu ke tiuj aldonaĵoj ne efikos sur viaj preferoj.\n\nNotu ankaŭ ke ili ne estas parto de la programaro MediaWiki, kaj estas kutime evoluigitaj kaj prizorgataj de uzuloj sur via loka vikio.\nLokaj administrantoj povas redakti liston de haveblaj aldonaĵoj per [[MediaWiki:Gadgets-definition|difinoj]] kaj [[Special:Gadgets|priskriboj]].",
+	"special-gadgets": "Aldonaĵoj",
+	"gadgetusage-gadget": "Aldonaĵo",
+	"gadgetusage-usercount": "Nombro de uzantoj",
+	"gadgetusage-noresults": "Neniu aldonaĵo troviĝis.",
+	"gadgetusage-activeusers": "Aktivaj uzantoj",
+	"gadgetusage-default": "Defaŭlta",
+	"gadgets-title": "Aldonaĵoj",
+	"gadgets-pagetext": "Jen listo da specialaj aldonaĵoj kiujn uzantoj povas aktivigi en [[Special:Preferences#mw-prefsection-gadgets|siaj preferoj]], kiel difinite en [[MediaWiki:Gadgets-definition|difinoj]].\nĈi tiu superrigardo provizas facilan aliron al la sistemaj mesaĝoj kiuj difinas la priskribon kaj la kodon de ĉiuj aldonaĵoj.",
+	"gadgets-uses": "uzas",
+	"gadgets-required-rights": "Bezonas la {{PLURAL:$2|jenan rajton|jenajn rajtojn}}:\n\n$1",
+	"gadgets-required-skins": "Dispona kun la {{PLURAL:$2|$1 etoso|jenaj etosoj:$1}}.",
+	"gadgets-default": "Ŝaltita por ĉiu defaŭlte.",
+	"gadgets-export": "Elporti",
+	"gadgets-export-title": "Aldonaĵo-elportado",
+	"gadgets-not-found": "Aldonaĵo \"$1\" ne estis trovita.",
+	"gadgets-export-text": "Elporti la aldonaĵon $1, klaku butonon \"{{int:gadgets-export-download}}\", konservu la elŝutitan dosieron,\niru Special:Import en cela vikio kaj alŝutu ĝin. Poste aldonu la jenan signoĉenon al paĝo MediaWiki:Gadgets-definition:\n<pre>$2</pre>\nVi bezonas la taŭgajn rajtojn ĉe cela vikio (inkluzivante rajton redakti sistemajn mesaĝojn) kaj enportebleco de dosieraj alŝutaĵojn devas esti ŝaltita.",
+	"gadgets-export-download": "Elŝuti"
+}

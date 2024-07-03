@@ -1,0 +1,39 @@
+{
+	"@metadata": {
+		"authors": [
+			".anaconda",
+			"Beta16",
+			"BrokenArrow",
+			"Daimona Eaytoy",
+			"Darth Kule",
+			"F. Cosoleto",
+			"Nemo bis",
+			"Sakretsu"
+		]
+	},
+	"nuke": "Cancellazione di massa",
+	"action-nuke": "cancellare in massa le pagine",
+	"nuke-desc": "Consente agli amministratori la [[Special:Nuke|cancellazione in massa]] delle pagine",
+	"nuke-nopages": "Non sono state trovate nuove pagine create da [[Special:Contributions/$1|{{GENDER:$1|$1}}]] tra le modifiche recenti.",
+	"nuke-list": "Le seguenti pagine sono state create di recente da [[Special:Contributions/$1|{{GENDER:$1|$1}}]]; inserisci un commento e conferma la cancellazione.",
+	"nuke-list-multiple": "Le seguenti pagine sono state create recentemente;\ninserisci un commento e premi il pulsante per cancellarle.",
+	"nuke-defaultreason": "Cancellazione di massa delle pagine create da [[Special:Contributions/$1|{{GENDER:$1|$1}}]]",
+	"nuke-multiplepeople": "Cancellazione di massa delle pagine create recentemente",
+	"nuke-tools": "Questo strumento permette la cancellazione in massa delle pagina create di recente da un determinato utente registrato o anonimo (IP).\nInserisci il nome utente o l'indirizzo IP per la lista delle pagine da cancellare, oppure lascia vuoto per tutti gli utenti.",
+	"nuke-submit-user": "Elenca pagine",
+	"nuke-submit-delete": "Cancella la selezione",
+	"right-nuke": "Cancella pagine in massa",
+	"nuke-userorip": "Nome utente, indirizzo IP o vuoto:",
+	"nuke-maxpages": "Numero massimo di pagine:",
+	"nuke-editby": "Creata da [[Special:Contributions/$1|{{GENDER:$1|$1}}]]",
+	"nuke-deleted": "La pagina '''$1''' è stata cancellata.",
+	"nuke-deletion-queued": "La pagina '''$1''' è stata messa in coda per la cancellazione.",
+	"nuke-not-deleted": "La pagina [[:$1]] '''non può''' essere cancellata.",
+	"nuke-delete-more": "[[Special:Nuke|Cancella altre pagine]]",
+	"nuke-pattern": "Pattern SQL LIKE (ad esempio %) per il nome della pagina:",
+	"nuke-nopages-global": "Non ci sono titoli di pagine che corrispondono alla tua ricerca.",
+	"nuke-viewchanges": "vedi modifiche",
+	"nuke-namespace": "Limita al namespace:",
+	"nuke-linkoncontribs": "cancella massivamente",
+	"nuke-linkoncontribs-text": "Cancella massivamente le pagine dove questo utente è {{GENDER:$1|l'unico contributore|l'unica contributrice}}"
+}

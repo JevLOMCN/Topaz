@@ -1,0 +1,43 @@
+{
+	"@metadata": {
+		"authors": [
+			"Aleator",
+			"Arnaugir",
+			"Fitoschido",
+			"Mguix",
+			"Paucabot",
+			"Qllach",
+			"SMP",
+			"Toniher",
+			"Vriullop"
+		]
+	},
+	"categorytree": "Categories en arbre",
+	"categorytree-portlet": "Categories",
+	"categorytree-legend": "Mostra l'arbre de categories",
+	"categorytree-desc": "Navegació dinàmica per l'[[Special:CategoryTree|estructura de categories]]",
+	"categorytree-header": "Introduïu un nom de la categoria per veure el seu contingut com una estructura d'arbre. (Requereix JavaScript.)",
+	"categorytree-category": "Categoria:",
+	"categorytree-go": "Mostra l'arbre",
+	"categorytree-parents": "Categories superiors",
+	"categorytree-mode-label": "Mode:",
+	"categorytree-mode-categories": "mostra només categories",
+	"categorytree-mode-pages": "mostra categories i pàgines",
+	"categorytree-mode-all": "mostra categories, pàgines i imatges",
+	"categorytree-collapse": "Tancar",
+	"categorytree-expand": "amplia",
+	"categorytree-member-counts": "conté {{PLURAL:$1|1 subcategoria|$1 subcategories}}, {{PLURAL:$2|1 pàgina|$2 pàgines}}, i {{PLURAL:$3|1 fitxer|$3 fitxers}}",
+	"categorytree-num-categories": "$1 C",
+	"categorytree-num-pages": "$1 P",
+	"categorytree-num-files": "$1 F",
+	"categorytree-num-empty": "buit",
+	"categorytree-load": "Carrega",
+	"categorytree-loading": "s’està carregant…",
+	"categorytree-nothing-found": "no s’ha trobat res",
+	"categorytree-no-subcategories": "no hi ha subcategories.",
+	"categorytree-no-parent-categories": "cap categoria superior",
+	"categorytree-no-pages": "no hi ha articles o subcategories.",
+	"categorytree-not-found": "No s’ha trobat la categoria <i>$1</i>",
+	"categorytree-error": "Problema en la càrrega de dades.",
+	"categorytree-retry": "Torneu-ho a intentar en uns moments."
+}

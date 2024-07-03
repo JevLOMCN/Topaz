@@ -1,0 +1,37 @@
+{
+	"@metadata": {
+		"authors": [
+			"Matthias",
+			"Ooswesthoesbes",
+			"Pahles"
+		]
+	},
+	"categorytree": "Categorieboum",
+	"categorytree-portlet": "Categorieë",
+	"categorytree-legend": "Categorieboum laote zeen",
+	"categorytree-desc": "AJAX-gebaseerde oetbreijing óm de [[Special:CategoryTree|categoriestructuur]] van 'ne wiki te toeane",
+	"categorytree-header": "Gaef 'ne categorienaam in om de inhaud es 'ne boumstructuur te betrachte. (JavaScript nudig)",
+	"categorytree-category": "Categorie:",
+	"categorytree-go": "Laje",
+	"categorytree-parents": "Baoveligkendje categorië",
+	"categorytree-mode-label": "Modus:",
+	"categorytree-mode-categories": "allein categorië",
+	"categorytree-mode-pages": "paazjes behaueve aafbeildinge",
+	"categorytree-mode-all": "alle pazjena's",
+	"categorytree-collapse": "inklappe",
+	"categorytree-expand": "oetklappe",
+	"categorytree-member-counts": "mit {{PLURAL:$1|ein óngercategorie|$1 óngercategorië}}, {{PLURAL:$2|ein pagina|$2 pagina's}} en {{PLURAL:$3|ei bestandj|$3 bestenj}}",
+	"categorytree-num-categories": "$1 C",
+	"categorytree-num-pages": "$1 P",
+	"categorytree-num-files": "$1 B",
+	"categorytree-num-empty": "laeg",
+	"categorytree-load": "laje",
+	"categorytree-loading": "aan 't laje",
+	"categorytree-nothing-found": "Dees categorie haet gein subcategorië.",
+	"categorytree-no-subcategories": "Gein subcategorië.",
+	"categorytree-no-parent-categories": "gein baovecategorië",
+	"categorytree-no-pages": "Gein pazjena's of óngercategorië.",
+	"categorytree-not-found": "Categorie ''$1'' neet gevónje",
+	"categorytree-error": "Perbleem bie 't laje van de gegaeves.",
+	"categorytree-retry": "Wach estebleef effe en perbeer 't den opnuuj."
+}

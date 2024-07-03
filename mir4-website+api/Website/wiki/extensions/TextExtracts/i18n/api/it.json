@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Beta16"
+		]
+	},
+	"apihelp-query+extracts-param-chars": "Quanti caratteri restituire. Il testo effettivo restituito potrebbe essere leggermente più lungo.",
+	"apihelp-query+extracts-param-sentences": "Quante frasi restituire.",
+	"apihelp-query+extracts-param-limit": "Quanti estratti restituire. (Più estratti possono essere restituiti solo se 'exintro' è impostato su 'true'.)",
+	"apihelp-query+extracts-param-intro": "Restituisci solo il contenuto prima della prima sezione.",
+	"apihelp-query+extracts-example-1": "Ottieni un estratto di 175 caratteri"
+}

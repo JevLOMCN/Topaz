@@ -1,0 +1,35 @@
+{
+	"@metadata": {
+		"authors": [
+			"Giromin Cangiaxo"
+		]
+	},
+	"captcha-edit": "Pe modificâ a paggina l'è necessaio resciorve o compito chì de sotta e insei o rizultato inta cazella\n([[Special:Captcha/help|ciu informaçioin]]):",
+	"captcha-edit-fail": "Codiçe de veriffica errou ò mancante.",
+	"captcha-desc": "O fornisce de tecniche CAPTCHA pe-a proteçion contra o spam e l'individoaçion de password",
+	"captcha-help": "Soluçion do CAPTCHA.",
+	"captcha-info-help": "Descriçion do CAPTCHA.",
+	"captcha-id-label": "ID CAPTCHA",
+	"captcha-id-help": "Questo valô o doviæ ese restitoio invariou.",
+	"captcha-addurl": "A to modiffica a l'azonze di noeuvi inganci esterni.\nPe proteze a wiki da-o spam aotomatizou se prega de resciorve o compito chì de sotta e insei o rizultato inta cazella ([[Special:Captcha/help|pe saveine de ciu]]):",
+	"captcha-badlogin": "Pe proteze a wiki da-a sforçatua aotomatizâ de password, te preghemmo de resciorve o compito chì de sotta e scrive a risposta inta cazella ([[Special:Captcha/help|ciu informaçioin]]):",
+	"captcha-createaccount": "Pe proteze a wiki da-i tentativi de registraçion aotomatizâ, te preghemmo de resciorve o compito chì de sotta e scrive a risposta inta cazella ([[Special:Captcha/help|ciu informaçioin]]):",
+	"captcha-createaccount-fail": "Codiçe de veriffica errou ò mancante.",
+	"captcha-create": "Pe creâ a paggina l'è necessaio resciorve o compito chì de sotta e scrive a risposta inta cazella:<br />\n([[Special:Captcha/help|ciu informaçioin]]):",
+	"captcha-sendemail": "Pe proteze o wiki da-a spam aotomatizâ, te preghemmo de resciorve o compito chì aproeuvo e scrive a risposta inta cazella ([[Special:Captcha/help|ciu informaçioin]]):",
+	"captcha-sendemail-fail": "Codiçe de veriffica errou ò mancante.",
+	"captcha-disabledinapi": "Pe uesta açion ghe voeu un CAPTCHA, quindi a no poeu ese eseguia tramite l'API.",
+	"captcha-error": "Veriffica CAPTCHA fallia a caosa de 'n aro interno: $1",
+	"captchahelp-title": "Cos'o l'è o CAPTCHA?",
+	"captchahelp-cookies-needed": "Pe continoâ ti g'hæ da abilitâ i cookie into toeu navegatô.",
+	"captchahelp-text": "Succede soventi che i sciti web ch'açettan de contribuçioin da-o pubbrico, comme questa wiki, seggian ascidiæ da di spammer ch'adœuvian di strumenti aotomatizæ pe insei i so inganci verso un gran nummero de sciti. Pe quante se posse levâ sti conligamenti indexidiæ, se tratta comunque de 'na sciugata miga da ninte.\n\nIn çerti caxi, specce quande se tenta d'azonze di nœuvi inganci web inte 'na paggina, o software wiki o pœu mostrâ 'n'inmaggine co-in breve scrito colorio e/ò distorto domandando de riscrîvilo inte 'n'apoxita casella. Scicomme l'interpretaçion de l'inmaggine a l'è 'n'açion difiççile da fâ eseguî a 'n programma, questo scistema o permette a-i utenti reali de completâ l'inseimento dexidiou, impedindo l'accesso a-a ciu gran parte di spammer e di atri attacchi aotomatizæ.\n\nPurtroppo, ste mezûe de segueça pœuan mette in difficortæ i utenti con di problemi vixivi ò chi adœuvia di navegatoî testoæ ò bazæ in sciâ scintexi vocale. A-o momento no l'è disponibbile un meccanismo alternativo basou insce di messaggi audio; se queste procedue impediscian l'inseimento d'informaçioin apropiæ, se prega de contattâ i [[Special:ListAdmins|aministroei do scito]] e domandâghe ascistença.\n\nClicca o pomello \"inderê\" do navegatô pe tornâ a-a paggina de modiffica.",
+	"captcha-addurl-whitelist": " #<!-- lascia sta riga coscì comm'a l'è --> <pre>\n# A scintasci a l'è a seguente:\n#  * Tutto quello che ven dopp'un carattere \"#\" o l'è un commento, scin a-o terme da riga\n#  * Tutte e righe non vœue son frammenti d'esprescioin regolæ che s'appricano a-o solo nomme de l'host inte URL\n  #</pre> <!-- lascia sta riga coscì comm'a l'è -->",
+	"right-skipcaptcha": "Compî i açioin ch'attivan o CAPTCHA sença dovei passâ pe-o CAPTCHA",
+	"action-skipcaptcha": "compî i açioin ch'attivan o CAPTCHA sença dovei passâ pe-o CAPTCHA",
+	"confirmedit-preview-line": "Nummero de riga",
+	"confirmedit-preview-content": "Contegnuo",
+	"confirmedit-preview-validity": "Validitæ",
+	"confirmedit-preview-valid": "vallido",
+	"confirmedit-preview-invalid": "non vallido",
+	"confirmedit-preview-description": "A seguente tabella a mostra a lista de righe de sta paggina e s'a l'è 'n adresso IP ò 'n intervallo d'adressi IP. Se a riga a l'è 'n adresso IP vallido ò 'n intervallo d'adressi IP, questo o saiâ inseio da-o CAPTCHA inta \"lista gianca\", ma e righe non vallide saian ignoræ. Un esempio d'intervallo d'adressi IP vallido o poriæ ese: 69.208.0.0/16 ch'o va da 69.208.0.0 a 69.208.255.255. [https://www.mediawiki.org/wiki/Special:MyLanguage/Help:Range_blocks#Calculating_the_CIDR_suffix Ulterioî informaçioin]  in sciô calcolo de 'n intervallo d'adressi IP."
+}

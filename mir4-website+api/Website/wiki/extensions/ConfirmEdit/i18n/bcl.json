@@ -1,0 +1,23 @@
+{
+	"@metadata": {
+		"authors": [
+			"Filipinayzd",
+			"Geopoet"
+		]
+	},
+	"captcha-edit": "Sa pagliwat kaining pahina, pakisimbag an simplehong sumada sa ibaba asin pakikaag an simbag sa laog nin kahon ([[Special:Captcha/help|more info]]):",
+	"captcha-desc": "Minatao nin mga tekniko para sa CAPTCHA tanganing protektaran kontra sa espam asin pagtutuod kan pasa-taramon",
+	"captcha-addurl": "An saimong pagliwat minabale nin baguhong panluwas na mga kasugpunan.\nTanganing protektaran an wiki kontra sa awtomatikong espam, kami tabi minahagad saimo na simbagan an simplehong suma sa ibaba asin pakikaag an simbag sa laog nin kahon tanganing itagama an saimong pagliwat ([[Special:Captcha/help|more info]]):",
+	"captcha-badlogin": "Tanganing protektaran an wiki kontra sa awtomatikong pagbaak kan pasa-taramon, kami tabi minahagad saimo na simbagan an simplehong suma sa ibaba asin pakikaag an simbag sa laog nin kahon ([[Special:Captcha/help|more info]]):",
+	"captcha-createaccount": "Tanganing protektaran an wiki kontra sa awtomatikong pagmumukna nin panindog, kami tabi minahagad saimon na simbagan an simplehong suma sa ibaba asin pakikaag an simbag sa laog nin kahon ([[Special:Captcha/help|more info]]):",
+	"captcha-createaccount-fail": "Bakong tama o nawawara an koda sa kumpirmasyon.",
+	"captcha-create": "Tanganing makamukna nin pahina, pakisimbagan tabi an simpleng suma sa ibaba asin ikaag an simbag sa laog kan kahon ([[Special:Captcha/help|more info]]):",
+	"captcha-sendemail": "Tanganing protektaran an wiki kontra sa awtomatikong pag-eespam, kami tabi minahagad saimo na simbagan an simplehong suma sa ibaba asin pakikaag an simbag sa laog nin kahon ([[Special:Captcha/help|more info]]):",
+	"captcha-sendemail-fail": "Bakong tama o nawawara an koda sa kumpirmasyon.",
+	"captcha-disabledinapi": "Ining aksyon minahagad nin sarong captcha, kaya ini dae magigibo sa paagi kan API.",
+	"captchahelp-title": "Tabang sa Captcha",
+	"captchahelp-cookies-needed": "Kinakaipuhan mong paganahon an mga kokies sa saimong kilyawan para ini mapadalagan.",
+	"captchahelp-text": "An mga websityo na nag-aakseptar nin mga paskil gikan sa publiko, arog kaining wiki, paminsan pinag-aabuso nin mga para-espam na minagamit nin awtomatikong mga palindong tanganing maipaskil an saindang mga sugpon sa kadakulon na mga sityo. Mantang ining mga sugpon kan espam mapuwedeng pagtangkason, sinda baya sarong signipikanteng mga pasawayon.\n\nPaminsan, espesyalmente kunsoarin magdudugang nin baguhong mga sugpon sa web sa sarong pahina, an wiki mapatanaw saimo nin sarong imahe na may kolor o distortadong teksto asin maghagad saimo na itipa an mga tataramon na ipinatanaw. Mantang ini sarong gibohon na masakiton na i-awtomatiko, ini minatuggot sa kadakling mga tunay na tawo na himoon an saindang mga pamaskil mantang pinagpupundo an kadakling mga para-espam asin iba pang robotikong mga para-atake.\n\nSa kademalasan ini makakapagtao nin inkombeniyensya sa mga paragamit na igwang limitadong paghilingon o naggagamit nin base sa teksto o base sa pagtaram na mga kilyawan.\nSa momentong ini kami mayo nin pandangog na alternatibong makukua.\nPaki-kontak tabi an [[Special:ListAdmins|mga administrador kan sityo]] para sa katabangan kun ini dae pinag-aasahan na makapagpugol saimo sa paghihimo nin lehitimong mga aksyon.\n\nPinduta an \"pabalik\" na pindutan sa saimong kilyawan tanganing makabalik sa pahina nin paraliwat.",
+	"captcha-addurl-whitelist": "#<!-- pabayae ining linya na eksaktong siring sana  --> <pre> \n# An sintaks iyo an mga minasunod: \n# * Gabos na bagay gikan sa sarong \"#\" na karakter sagkod sa tapos kaining linya iyo an sarong komento  \n# * An lambang linya na bakong blangko iyo an sarong pragmentong regex na magtatampad sana nin mga parabunsod sa laog kan mga URLs \n#</pre> <!-- pabayae ining linya na eksaktong siring sana -->",
+	"right-skipcaptcha": "Himoon an kiblitong aksyon nin CAPTCHA na dae minaagi sa paagi kan CAPTCHA"
+}

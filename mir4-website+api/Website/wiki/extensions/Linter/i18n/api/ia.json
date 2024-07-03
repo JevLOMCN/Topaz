@@ -1,0 +1,18 @@
+{
+	"@metadata": {
+		"authors": [
+			"McDutchie"
+		]
+	},
+	"apihelp-query+linterrors-summary": "Obtener un lista de errores de analyse Lint",
+	"apihelp-query+linterrors-param-categories": "Categorias de errores de analyse Lint",
+	"apihelp-query+linterrors-param-invisible-categories": "Categorias invisibile de errores de lint",
+	"apihelp-query+linterrors-param-limit": "Numero de resultatos a consultar",
+	"apihelp-query+linterrors-param-from": "ID de Lint al qual comenciar le consulta",
+	"apihelp-query+linterrors-param-namespace": "Solo includer errores Lint del spatios de nomines specificate",
+	"apihelp-query+linterrors-param-pageid": "Solo includer errores Lint del paginas specificate per lor ID",
+	"apihelp-query+linterrors-param-title": "Solo includer errores Lint del pagina con le titulo specificate",
+	"apihelp-query+linterrors-example-1": "Obtener tote le errores Lint del categoria obsolete-tag",
+	"apihelp-query+linterstats-summary": "Obtener le numero de errores Lint in cata categoria",
+	"apihelp-query+linterstats-example-1": "Obtener le numero de errores de analyse Lint in cata categoria"
+}

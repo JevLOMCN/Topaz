@@ -1,0 +1,36 @@
+{
+	"opts": {
+		"destination": "docs/js",
+		"package": "package.json",
+		"pedantic": true,
+		"recurse": true,
+		"template": "node_modules/jsdoc-wmf-theme"
+	},
+	"plugins": [
+		"plugins/markdown"
+	],
+	"source": {
+		"include": [ "modules" ]
+	},
+	"templates": {
+		"cleverLinks": true,
+		"default": {
+			"useLongnameInNav": true
+		},
+		"wmf": {
+			"linkMap": {
+				"jQuery": "https://api.jquery.com/Types/#jQuery",
+				"mw.widgets.TitleInputWidget": "https://doc.wikimedia.org/mediawiki-core/master/js/#!/api/mw.widgets.TitleInputWidget",
+				"mw.widgets.TitleOptionWidget": "https://doc.wikimedia.org/mediawiki-core/master/js/#!/api/mw.widgets.TitleOptionWidget",
+				"OO.EventEmitter": "https://doc.wikimedia.org/mediawiki-core/master/js/#!/api/OO.EventEmitter",
+				"OO.ui.ButtonWidget": "https://doc.wikimedia.org/mediawiki-core/master/js/#!/api/OO.ui.ButtonWidget",
+				"OO.ui.Element": "https://doc.wikimedia.org/mediawiki-core/master/js/#!/api/OO.ui.Element",
+				"OO.ui.FieldLayout": "https://doc.wikimedia.org/mediawiki-core/master/js/#!/api/OO.ui.FieldLayout",
+				"OO.ui.HtmlSnippet": "https://doc.wikimedia.org/mediawiki-core/master/js/#!/api/OO.ui.HtmlSnippet",
+				"OO.ui.Layout": "https://doc.wikimedia.org/mediawiki-core/master/js/#!/api/OO.ui.Layout",
+				"OO.ui.MenuOptionWidget": "https://doc.wikimedia.org/mediawiki-core/master/js/#!/api/OO.ui.MenuOptionWidget",
+				"OO.ui.ToggleButtonWidget": "https://doc.wikimedia.org/mediawiki-core/master/js/#!/api/OO.ui.ToggleButtonWidget"
+			}
+		}
+	}
+}

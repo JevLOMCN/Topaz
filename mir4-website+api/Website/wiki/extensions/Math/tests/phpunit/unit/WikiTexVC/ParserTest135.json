@@ -1,0 +1,2339 @@
+[
+    {
+        "input": "e^{i \\pi} + 1 = 0\\,\\!",
+        "params": [],
+        "output": "<img src=\"14a4e1368f4d103725648bb4c6d24405a755f8d3\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -0.505ex; margin-right: -0.387ex; width:11.476ex; height:2.843ex;\" alt=\"{\\displaystyle e^{i \\pi} + 1 = 0\\,\\!}\"\/>",
+        "skipped": false
+    },
+    {
+        "input": "e^{i \\pi} + 1 = 0\\,\\!",
+        "params": [],
+        "output": "<img src=\"14a4e1368f4d103725648bb4c6d24405a755f8d3\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -0.505ex; margin-right: -0.387ex; width:11.476ex; height:2.843ex;\" alt=\"{\\displaystyle e^{i \\pi} + 1 = 0\\,\\!}\"\/>",
+        "skipped": false
+    },
+    {
+        "input": "\\definecolor{red}{RGB}{255,0,0}\\pagecolor{red}e^{i \\pi} + 1 = 0\\,\\!",
+        "params": [],
+        "output": "<img src=\"f8bdf12ecd15ec1cb9547d8f2104dd74b9fd44d1\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -0.505ex; margin-right: -0.387ex; width:11.476ex; height:2.843ex;\" alt=\"{\\displaystyle \\definecolor{red}{RGB}{255,0,0}\\pagecolor{red}e^{i \\pi} + 1 = 0\\,\\!}\"\/>",
+        "skipped": false
+    },
+    {
+        "input": "\\sqrt{\\pi}",
+        "params": {
+            "alt": "Square root of pi"
+        },
+        "output": "<img src=\"7ae18ec124928c74818b516e6350ca9610966c6e\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -1.005ex; width:3.268ex; height:3.009ex;\" alt=\"{\\displaystyle \\sqrt{\\pi}}\"\/>"
+    },
+    {
+        "input": "\\sqrt{\\pi}",
+        "params": {
+            "alt": "square root of pi"
+        },
+        "output": "<img src=\"7ae18ec124928c74818b516e6350ca9610966c6e\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -1.005ex; width:3.268ex; height:3.009ex;\" alt=\"{\\displaystyle \\sqrt{\\pi}}\"\/>"
+    },
+    {
+        "input": "\\pi",
+        "params": {
+            "title": "pi"
+        },
+        "output": "<img src=\"9be4ba0bb8df3af72e90a0535fabcc17431e540a\" class=\"mwe-math-fallback-image-inline\" title=\"pi\" aria-hidden=\"true\" style=\"vertical-align: -0.338ex; width:1.332ex; height:1.676ex;\" alt=\"{\\displaystyle \\pi}\"\/>"
+    },
+    {
+        "input": "\\pi",
+        "params": {
+            "title": "pi"
+        },
+        "output": "<img src=\"9be4ba0bb8df3af72e90a0535fabcc17431e540a\" class=\"mwe-math-fallback-image-inline\" title=\"pi\" aria-hidden=\"true\" style=\"vertical-align: -0.338ex; width:1.332ex; height:1.676ex;\" alt=\"{\\displaystyle \\pi}\"\/>"
+    },
+    {
+        "input": "\\text{abc}",
+        "params": [],
+        "output": "<img src=\"ebb2fb4d7d22c7708b767b37ebc096fac3c8e705\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -0.338ex; width:3.487ex; height:2.176ex;\" alt=\"{\\displaystyle \\text{abc}}\"\/>"
+    },
+    {
+        "input": "\\alpha\\,\\!",
+        "params": [],
+        "output": "<img src=\"7e383db6745c5569c37ab2290d41e06a27510337\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -0.338ex; margin-right: -0.387ex; width:1.875ex; height:1.676ex;\" alt=\"{\\displaystyle \\alpha\\,\\!}\"\/>"
+    },
+    {
+        "input": " f(x) = x^2\\,\\!",
+        "params": [],
+        "output": "<img src=\"1c529568c5b6331801fda6b477ff555c5b0e17f2\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -0.838ex; margin-right: -0.387ex; width:10.287ex; height:3.176ex;\" alt=\"{\\displaystyle  f(x) = x^2\\,\\!}\"\/>"
+    },
+    {
+        "input": "\\sqrt{2}",
+        "params": [],
+        "output": "<img src=\"b4afc1e27d418021bf10898eb44a7f5f315735ff\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -0.671ex; width:3.098ex; height:3.009ex;\" alt=\"{\\displaystyle \\sqrt{2}}\"\/>"
+    },
+    {
+        "input": "\\sqrt{1-e^2}\\!",
+        "params": [],
+        "output": "<img src=\"1a1835e62332fad1e2fa7f2c6e34972788e59cb3\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -0.838ex; margin-right: -0.387ex; width:8.464ex; height:3.509ex;\" alt=\"{\\displaystyle \\sqrt{1-e^2}\\!}\"\/>"
+    },
+    {
+        "input": "\\sqrt{1-z^3}\\!",
+        "params": [],
+        "output": "<img src=\"dcdfbf0f296cdf96c07c79a42bd51e37916dc0af\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -0.838ex; margin-right: -0.387ex; width:8.471ex; height:3.509ex;\" alt=\"{\\displaystyle \\sqrt{1-z^3}\\!}\"\/>"
+    },
+    {
+        "input": "x",
+        "params": [],
+        "output": "<img src=\"87f9e315fd7e2ba406057a97300593c4802b53e4\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -0.338ex; width:1.33ex; height:1.676ex;\" alt=\"{\\displaystyle x}\"\/>"
+    },
+    {
+        "input": "\\dot{a}, \\ddot{a}, \\acute{a}, \\grave{a} \\!",
+        "params": [],
+        "output": "<img src=\"979177b0a2ab74e4609ddcf690f73883bb25c86a\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -0.671ex; margin-right: -0.334ex; width:7.968ex; height:2.676ex;\" alt=\"{\\displaystyle \\dot{a}, \\ddot{a}, \\acute{a}, \\grave{a} \\!}\"\/>"
+    },
+    {
+        "input": "\\check{a}, \\breve{a}, \\tilde{a}, \\bar{a} \\!",
+        "params": [],
+        "output": "<img src=\"bb2cbc95b09d28e4872f55460ccc5494bb3eef2c\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -0.671ex; margin-right: -0.334ex; width:7.968ex; height:2.676ex;\" alt=\"{\\displaystyle \\check{a}, \\breve{a}, \\tilde{a}, \\bar{a} \\!}\"\/>"
+    },
+    {
+        "input": "\\hat{a}, \\widehat{a}, \\vec{a} \\!",
+        "params": [],
+        "output": "<img src=\"6ee805e27af152fda06eb3564813bc3669376154\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -0.671ex; margin-right: -0.334ex; width:5.767ex; height:2.676ex;\" alt=\"{\\displaystyle \\hat{a}, \\widehat{a}, \\vec{a} \\!}\"\/>"
+    },
+    {
+        "input": "\\exp_a b = a^b, \\exp b = e^b, 10^m \\!",
+        "params": [],
+        "output": "<img src=\"ecbd64f467fca5fe69349dd184a550669b248f9c\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -0.838ex; margin-right: -0.387ex; width:27.429ex; height:3.176ex;\" alt=\"{\\displaystyle \\exp_a b = a^b, \\exp b = e^b, 10^m \\!}\"\/>"
+    },
+    {
+        "input": "\\ln c, \\lg d = \\log e, \\log_{10} f \\!",
+        "params": [],
+        "output": "<img src=\"d5c5b924a484f9979a5391ad24267c3c1ad3b2e3\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -0.838ex; margin-right: -0.387ex; width:22.868ex; height:2.676ex;\" alt=\"{\\displaystyle \\ln c, \\lg d = \\log e, \\log_{10} f \\!}\"\/>",
+        "skipped": false
+    },
+    {
+        "input": "\\sin a, \\cos b, \\tan c, \\cot d, \\sec e, \\csc f\\!",
+        "params": [],
+        "output": "<img src=\"5333f63db50cb927df361ec50ae1951ff3f0a417\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -0.671ex; margin-right: -0.387ex; width:32.692ex; height:2.509ex;\" alt=\"{\\displaystyle \\sin a, \\cos b, \\tan c, \\cot d, \\sec e, \\csc f\\!}\"\/>"
+    },
+    {
+        "input": "\\arcsin h, \\arccos i, \\arctan j \\!",
+        "params": [],
+        "output": "<img src=\"5d0167f45de2830deb1256ec2485c86d88b8ced6\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -0.671ex; margin-right: -0.366ex; width:24.954ex; height:2.509ex;\" alt=\"{\\displaystyle \\arcsin h, \\arccos i, \\arctan j \\!}\"\/>"
+    },
+    {
+        "input": "\\sinh k, \\cosh l, \\tanh m, \\coth n \\!",
+        "params": [],
+        "output": "<img src=\"ab9f448235df8176179966b689d2c591c8b6d07b\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -0.671ex; margin-right: -0.341ex; width:27.539ex; height:2.509ex;\" alt=\"{\\displaystyle \\sinh k, \\cosh l, \\tanh m, \\coth n \\!}\"\/>"
+    },
+    {
+        "input": "\\operatorname{sh}\\,k, \\operatorname{ch}\\,l, \\operatorname{th}\\,m, \\operatorname{coth}\\,n \\!",
+        "params": [],
+        "output": "<img src=\"5bd263b2b0caffad9864d52e91950e8d3484abb5\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -0.671ex; margin-right: -0.341ex; width:22.615ex; height:2.509ex;\" alt=\"{\\displaystyle \\operatorname{sh}\\,k, \\operatorname{ch}\\,l, \\operatorname{th}\\,m, \\operatorname{coth}\\,n \\!}\"\/>"
+    },
+    {
+        "input": "\\operatorname{argsh}\\,o, \\operatorname{argch}\\,p, \\operatorname{argth}\\,q \\!",
+        "params": [],
+        "output": "<img src=\"7516c5117a001f7672f5687b6f692dce6fbddad9\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -0.671ex; margin-right: -0.387ex; width:24.198ex; height:2.509ex;\" alt=\"{\\displaystyle \\operatorname{argsh}\\,o, \\operatorname{argch}\\,p, \\operatorname{argth}\\,q \\!}\"\/>"
+    },
+    {
+        "input": "\\sgn r, \\left\\vert s \\right\\vert \\!",
+        "params": [],
+        "output": "<img src=\"14657f72069afab78974a02df043103db7c5a6ac\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -0.838ex; margin-right: -0.111ex; width:7.949ex; height:2.843ex;\" alt=\"{\\displaystyle \\sgn r, \\left\\vert s \\right\\vert \\!}\"\/>"
+    },
+    {
+        "input": "\\min(x,y), \\max(x,y) \\!",
+        "params": [],
+        "output": "<img src=\"263c87c018342b70f1b3bf62adb774fc329b7c54\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -0.838ex; margin-right: -0.166ex; width:19.671ex; height:2.843ex;\" alt=\"{\\displaystyle \\min(x,y), \\max(x,y) \\!}\"\/>"
+    },
+    {
+        "input": "\\min x, \\max y, \\inf s, \\sup t \\!",
+        "params": [],
+        "output": "<img src=\"7decf5866a92101d8189ab742f6b0cca275770bd\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -0.671ex; margin-right: -0.315ex; width:23.347ex; height:2.509ex;\" alt=\"{\\displaystyle \\min x, \\max y, \\inf s, \\sup t \\!}\"\/>"
+    },
+    {
+        "input": "\\lim u, \\liminf v, \\limsup w \\!",
+        "params": [],
+        "output": "<img src=\"be0c58eabbd9915ab732e3dd813ac8ffcfea2dfd\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -0.671ex; margin-right: -0.327ex; width:23.907ex; height:2.509ex;\" alt=\"{\\displaystyle \\lim u, \\liminf v, \\limsup w \\!}\"\/>"
+    },
+    {
+        "input": "\\dim p, \\deg q, \\det m, \\ker\\phi \\!",
+        "params": [],
+        "output": "<img src=\"5cc3103461f4c080aac23322d75f65a7f558c95d\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -0.671ex; margin-right: -0.348ex; width:24.039ex; height:2.509ex;\" alt=\"{\\displaystyle \\dim p, \\deg q, \\det m, \\ker\\phi \\!}\"\/>"
+    },
+    {
+        "input": "\\Pr j, \\hom l, \\lVert z \\rVert, \\arg z \\!",
+        "params": [],
+        "output": "<img src=\"89e83235b1ff3ba96e62cb49219d4b5bf54ea77a\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -0.838ex; margin-right: -0.387ex; width:20.537ex; height:2.843ex;\" alt=\"{\\displaystyle \\Pr j, \\hom l, \\lVert z \\rVert, \\arg z \\!}\"\/>"
+    },
+    {
+        "input": "dt, \\operatorname{d}\\!t, \\partial t, \\nabla\\psi\\!",
+        "params": [],
+        "output": "<img src=\"68958802ac6c403e4a1000ed60cfc6129e705f01\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -0.671ex; margin-right: -0.348ex; width:12.857ex; height:2.509ex;\" alt=\"{\\displaystyle dt, \\operatorname{d}\\!t, \\partial t, \\nabla\\psi\\!}\"\/>"
+    },
+    {
+        "input": "dy\/dx, \\operatorname{d}\\!y\/\\operatorname{d}\\!x, {dy \\over dx}, {\\operatorname{d}\\!y\\over\\operatorname{d}\\!x}, {\\partial^2\\over\\partial x_1\\partial x_2}y \\!",
+        "params": [],
+        "output": "<img src=\"670bd4c17f6910dcc4613747c2dab6d479bd8265\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -2.338ex; margin-right: -0.387ex; width:33.071ex; height:6.176ex;\" alt=\"{\\displaystyle dy\/dx, \\operatorname{d}\\!y\/\\operatorname{d}\\!x, {dy \\over dx}, {\\operatorname{d}\\!y\\over\\operatorname{d}\\!x}, {\\partial^2\\over\\partial x_1\\partial x_2}y \\!}\"\/>",
+        "skipped": false,
+        "comment": "skipped too long and malformatted output"
+    },
+    {
+        "input": "\\prime, \\backprime, f^\\prime, f', f'', f^{(3)} \\!, \\dot y, \\ddot y",
+        "params": [],
+        "output": "<img src=\"10f33d6a2fc3ea7ecd6a6ab3f214b973cbf51210\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -0.671ex; width:20.857ex; height:3.176ex;\" alt=\"{\\displaystyle \\prime, \\backprime, f^\\prime, f&#039;, f&#039;&#039;, f^{(3)} \\!, \\dot y, \\ddot y}\"\/>",
+        "skipped": false,
+        "comment": "f' and f' not recognized by texVC as uq"
+    },
+    {
+        "input": "\\infty, \\aleph, \\complement, \\backepsilon, \\eth, \\Finv, \\hbar \\!",
+        "params": [],
+        "output": "<img src=\"e12cfe6ae7e58c06fa864398c73c17099089ce3d\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -0.671ex; margin-right: -0.387ex; width:15.999ex; height:2.843ex;\" alt=\"{\\displaystyle \\infty, \\aleph, \\complement, \\backepsilon, \\eth, \\Finv, \\hbar \\!}\"\/>"
+    },
+    {
+        "input": "\\Im, \\imath, \\jmath, \\Bbbk, \\ell, \\mho, \\wp, \\Re, \\circledS \\!",
+        "params": [],
+        "output": "<img src=\"1a9902bc6e74c618b0871eac70b582c214f77994\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -0.838ex; margin-right: -0.369ex; width:20.545ex; height:2.676ex;\" alt=\"{\\displaystyle \\Im, \\imath, \\jmath, \\Bbbk, \\ell, \\mho, \\wp, \\Re, \\circledS \\!}\"\/>"
+    },
+    {
+        "input": "s_k \\equiv 0 \\pmod{m} \\!",
+        "params": [],
+        "output": "<img src=\"117fc81f5880e8bf821e3626a3d735d031716aae\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -0.838ex; margin-right: -0.166ex; width:17.944ex; height:2.843ex;\" alt=\"{\\displaystyle s_k \\equiv 0 \\pmod{m} \\!}\"\/>"
+    },
+    {
+        "input": "a\\,\\bmod\\,b \\!",
+        "params": [],
+        "output": "<img src=\"7e1ce2e1fab16c7c28aec92b81b99654a9fc4c6e\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -0.338ex; margin-right: -0.371ex; width:8.666ex; height:2.176ex;\" alt=\"{\\displaystyle a\\,\\bmod\\,b \\!}\"\/>",
+        "skipped": false,
+        "comemnt": "implement macros later tbd"
+    },
+    {
+        "input": "\\gcd(m, n), \\operatorname{lcm}(m, n)",
+        "params": [],
+        "output": "<img src=\"6cf97978556fdc8d6799ba5795ad4668fed38507\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -0.838ex; width:20.693ex; height:2.843ex;\" alt=\"{\\displaystyle \\gcd(m, n), \\operatorname{lcm}(m, n)}\"\/>"
+    },
+    {
+        "input": "\\mid, \\nmid, \\shortmid, \\nshortmid \\!",
+        "params": [],
+        "output": "<img src=\"15d9dfc28005293dfffd7e07211be566b53b0f71\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -0.838ex; margin-right: -0.429ex; width:5.471ex; height:2.843ex;\" alt=\"{\\displaystyle \\mid, \\nmid, \\shortmid, \\nshortmid \\!}\"\/>",
+        "skipped": false,
+        "comment": "These are ams mappings, import AmsMappings.js for parsing these"
+    },
+    {
+      "input": "\\sqrt[3]{x^3+y^3 \\over 2} \\!",
+      "params": [],
+      "output": "<img src=\"c9d0eb602bb67c297148e7454c160c7750cf84d7\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -2.171ex; margin-right: -0.387ex; width:20.671ex; height:6.176ex;\" alt=\"{\\displaystyle \\surd, \\sqrt{2}, \\sqrt[n]{}, \\sqrt[3]{x^3+y^3 \\over 2} \\!}\"\/>"
+    },
+    {
+        "input": "\\surd, \\sqrt{2}, \\sqrt[n]{}, \\sqrt[3]{x^3+y^3 \\over 2} \\!",
+        "params": [],
+        "output": "<img src=\"c9d0eb602bb67c297148e7454c160c7750cf84d7\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -2.171ex; margin-right: -0.387ex; width:20.671ex; height:6.176ex;\" alt=\"{\\displaystyle \\surd, \\sqrt{2}, \\sqrt[n]{}, \\sqrt[3]{x^3+y^3 \\over 2} \\!}\"\/>",
+        "skipped": false,
+        "comment": "skipping this testcase because mathjax output seems to be flawed with mrow element here, previous testcase is enough for validation of infix/over"
+    },
+    {
+        "input": "+, -, \\pm, \\mp, \\dotplus \\!",
+        "params": [],
+        "output": "<img src=\"844ec30e273c95b81a556358f8de33514c7827c9\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -0.671ex; margin-right: -0.257ex; width:13.046ex; height:2.676ex;\" alt=\"{\\displaystyle +, -, \\pm, \\mp, \\dotplus \\!}\"\/>"
+    },
+    {
+        "input": "\\times, \\div, \\divideontimes, \/, \\backslash \\!",
+        "params": [],
+        "output": "<img src=\"319283a36a4d79337a1b5654024d9ed87dfa725c\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -0.838ex; margin-right: -0.257ex; width:11.755ex; height:2.843ex;\" alt=\"{\\displaystyle \\times, \\div, \\divideontimes, \/, \\backslash \\!}\"\/>"
+    },
+    {
+        "input": "\\cdot, * \\ast, \\star, \\circ, \\bullet \\!",
+        "params": [],
+        "output": "<img src=\"340ad9b2b1b04ab2830107b4cdc68b11a0f7398a\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -0.671ex; margin-right: -0.257ex; width:10.465ex; height:2.009ex;\" alt=\"{\\displaystyle \\cdot, * \\ast, \\star, \\circ, \\bullet \\!}\"\/>"
+    },
+    {
+        "input": "\\boxplus, \\boxminus, \\boxtimes, \\boxdot \\!",
+        "params": [],
+        "output": "<img src=\"c536d290afdf7bded05bc8e6b2d5809d3be37230\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -0.671ex; margin-right: -0.257ex; width:10.204ex; height:2.509ex;\" alt=\"{\\displaystyle \\boxplus, \\boxminus, \\boxtimes, \\boxdot \\!}\"\/>"
+    },
+    {
+        "input": "\\oplus, \\ominus, \\otimes, \\oslash, \\odot\\!",
+        "params": [],
+        "output": "<img src=\"245007c57aaccbfdf32e32f2ccd4eb6476ae941e\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -0.671ex; margin-right: -0.257ex; width:13.046ex; height:2.343ex;\" alt=\"{\\displaystyle \\oplus, \\ominus, \\otimes, \\oslash, \\odot\\!}\"\/>"
+    },
+    {
+        "input": "\\circleddash, \\circledcirc, \\circledast \\!",
+        "params": [],
+        "output": "<img src=\"05fb90287da0fc9ee51102285736b1afb4f72b03\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -0.671ex; margin-right: -0.255ex; width:7.36ex; height:2.343ex;\" alt=\"{\\displaystyle \\circleddash, \\circledcirc, \\circledast \\!}\"\/>"
+    },
+    {
+        "input": "\\bigoplus, \\bigotimes, \\bigodot \\!",
+        "params": [],
+        "output": "<img src=\"30ec94ca81b856c0d441d158468705968d57340d\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -1.338ex; margin-right: -0.255ex; width:12.467ex; height:3.843ex;\" alt=\"{\\displaystyle \\bigoplus, \\bigotimes, \\bigodot \\!}\"\/>"
+    },
+    {
+        "input": "\\{ \\}, \\O \\empty \\emptyset, \\varnothing \\!",
+        "params": [],
+        "output": "<img src=\"acc40940706c9f3d9174c43e7fbd923b34bf9406\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -0.838ex; margin-right: -0.252ex; width:9.554ex; height:2.843ex;\" alt=\"{\\displaystyle \\{ \\}, \\O \\empty \\emptyset, \\varnothing \\!}\"\/>"
+    },
+    {
+        "input": "\\in, \\notin \\not\\in, \\ni, \\not\\ni \\!",
+        "params": [],
+        "output": "<img src=\"fa6c796bb47fd224297a2f03fd31732b23432ca2\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -0.838ex; margin-right: -0.189ex; width:10.656ex; height:2.676ex;\" alt=\"{\\displaystyle \\in, \\notin \\not\\in, \\ni, \\not\\ni \\!}\"\/>"
+    },
+    {
+        "input": "\\cap, \\Cap, \\sqcap, \\bigcap \\!",
+        "params": [],
+        "output": "<img src=\"fee580f87ec654d972b187509676c1c6cd60b19b\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -1.338ex; margin-right: -0.257ex; width:10.204ex; height:3.843ex;\" alt=\"{\\displaystyle \\cap, \\Cap, \\sqcap, \\bigcap \\!}\"\/>"
+    },
+    {
+        "input": "\\cup, \\Cup, \\sqcup, \\bigcup, \\bigsqcup, \\uplus, \\biguplus \\!",
+        "params": [],
+        "output": "<img src=\"a70a1ad63fa4fa7f5d6b055147daa3d70c75ce09\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -1.338ex; margin-right: -0.257ex; width:20.02ex; height:3.843ex;\" alt=\"{\\displaystyle \\cup, \\Cup, \\sqcup, \\bigcup, \\bigsqcup, \\uplus, \\biguplus \\!}\"\/>"
+    },
+    {
+        "input": "\\setminus, \\smallsetminus, \\times \\!",
+        "params": [],
+        "output": "<img src=\"28746ec9cce427f40cf16bfed2d4b082a3dee60b\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -0.838ex; margin-right: -0.043ex; width:6.503ex; height:2.843ex;\" alt=\"{\\displaystyle \\setminus, \\smallsetminus, \\times \\!}\"\/>"
+    },
+    {
+        "input": "\\subset, \\Subset, \\sqsubset \\!",
+        "params": [],
+        "output": "<img src=\"f7e25abef58daecda39f983a346cf8901b7cb8b9\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -0.671ex; margin-right: -0.192ex; width:7.297ex; height:2.176ex;\" alt=\"{\\displaystyle \\subset, \\Subset, \\sqsubset \\!}\"\/>"
+    },
+    {
+        "input": "\\supset, \\Supset, \\sqsupset \\!",
+        "params": [],
+        "output": "<img src=\"4b0bee77972f29e586aef15975643446187a74cd\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -0.671ex; margin-right: -0.238ex; width:7.344ex; height:2.176ex;\" alt=\"{\\displaystyle \\supset, \\Supset, \\sqsupset \\!}\"\/>"
+    },
+    {
+        "input": "\\subseteq, \\nsubseteq, \\subsetneq, \\varsubsetneq, \\sqsubseteq \\!",
+        "params": [],
+        "output": "<img src=\"982c891fe76c3e9d81f5ff8b7b4005269115839e\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -1.005ex; margin-right: -0.238ex; width:13.028ex; height:3.176ex;\" alt=\"{\\displaystyle \\subseteq, \\nsubseteq, \\subsetneq, \\varsubsetneq, \\sqsubseteq \\!}\"\/>"
+    },
+    {
+        "input": "\\supseteq, \\nsupseteq, \\supsetneq, \\varsupsetneq, \\sqsupseteq \\!",
+        "params": [],
+        "output": "<img src=\"9492c2ac1e6987555caae366184c4c09fd6d6ea7\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -1.005ex; margin-right: -0.192ex; width:12.981ex; height:3.176ex;\" alt=\"{\\displaystyle \\supseteq, \\nsupseteq, \\supsetneq, \\varsupsetneq, \\sqsupseteq \\!}\"\/>"
+    },
+    {
+        "input": "\\subseteqq, \\nsubseteqq, \\subsetneqq, \\varsubsetneqq \\!",
+        "params": [],
+        "output": "<img src=\"700699252965cd2e1d9567cf227b36d686d7864e\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -1.171ex; margin-right: -0.192ex; width:10.139ex; height:3.343ex;\" alt=\"{\\displaystyle \\subseteqq, \\nsubseteqq, \\subsetneqq, \\varsubsetneqq \\!}\"\/>"
+    },
+    {
+        "input": "\\supseteqq, \\nsupseteqq, \\supsetneqq, \\varsupsetneqq \\!",
+        "params": [],
+        "output": "<img src=\"5eeb63c801ad64c657da4d92017c37a499411cc9\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -1.171ex; margin-right: -0.19ex; width:10.137ex; height:3.343ex;\" alt=\"{\\displaystyle \\supseteqq, \\nsupseteqq, \\supsetneqq, \\varsupsetneqq \\!}\"\/>"
+    },
+    {
+        "input": "=, \\ne, \\neq, \\equiv, \\not\\equiv \\!",
+        "params": [],
+        "output": "<img src=\"19754db6183d34fee3f9414769a5c9f6bde47d47\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -0.838ex; margin-right: -0.256ex; width:13.046ex; height:2.676ex;\" alt=\"{\\displaystyle =, \\ne, \\neq, \\equiv, \\not\\equiv \\!}\"\/>"
+    },
+    {
+        "input": "\\doteq, \\doteqdot, \\overset{\\underset{\\mathrm{def}}{}}{=}, := \\!",
+        "params": [],
+        "output": "<img src=\"22197b32719b0fc62f0b550521658bbdfbb372e1\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -0.671ex; margin-right: -0.257ex; width:10.874ex; height:3.676ex;\" alt=\"{\\displaystyle \\doteq, \\doteqdot, \\overset{\\underset{\\mathrm{def}}{}}{=}, := \\!}\"\/>"
+    },
+    {
+        "input": "\\sim, \\nsim, \\backsim, \\thicksim, \\simeq, \\backsimeq, \\eqsim, \\cong, \\ncong \\!",
+        "params": [],
+        "output": "<img src=\"5e367903091aec33cf578f89dc3dc8c5959c8a38\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -0.671ex; margin-right: -0.252ex; width:24.41ex; height:2.509ex;\" alt=\"{\\displaystyle \\sim, \\nsim, \\backsim, \\thicksim, \\simeq, \\backsimeq, \\eqsim, \\cong, \\ncong \\!}\"\/>"
+    },
+    {
+        "input": "\\approx, \\thickapprox, \\approxeq, \\asymp, \\propto, \\varpropto \\!",
+        "params": [],
+        "output": "<img src=\"30ef539e038c88b0e63f685c8b197341c879dd91\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -0.671ex; margin-right: -0.257ex; width:15.888ex; height:2.343ex;\" alt=\"{\\displaystyle \\approx, \\thickapprox, \\approxeq, \\asymp, \\propto, \\varpropto \\!}\"\/>"
+    },
+    {
+        "input": "<, \\nless, \\ll, \\not\\ll, \\lll, \\not\\lll, \\lessdot \\!",
+        "params": [],
+        "output": "<img src=\"448c3492adfc13711132a0519c8f81fb073ee2a8\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -0.838ex; margin-right: -0.192ex; width:22.277ex; height:2.676ex;\" alt=\"{\\displaystyle &lt;, \\nless, \\ll, \\not\\ll, \\lll, \\not\\lll, \\lessdot \\!}\"\/>"
+    },
+    {
+        "input": ">, \\ngtr, \\gg, \\not\\gg, \\ggg, \\not\\ggg, \\gtrdot \\!",
+        "params": [],
+        "output": "<img src=\"e6856dd2de0ddf11aa172969c5219177a1a3ccb1\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -0.838ex; margin-right: -0.19ex; width:22.275ex; height:2.676ex;\" alt=\"{\\displaystyle &gt;, \\ngtr, \\gg, \\not\\gg, \\ggg, \\not\\ggg, \\gtrdot \\!}\"\/>"
+    },
+    {
+        "input": "\\le \\leq, \\lneq, \\leqq, \\nleqq, \\lneqq, \\lvertneqq \\!",
+        "params": [],
+        "output": "<img src=\"bc7225f951286351a509213a7d868ce034d45628\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -1.171ex; margin-right: -0.192ex; width:17.632ex; height:3.509ex;\" alt=\"{\\displaystyle \\le \\leq, \\lneq, \\leqq, \\nleqq, \\lneqq, \\lvertneqq \\!}\"\/>"
+    },
+    {
+        "input": "\\ge \\geq, \\gneq, \\geqq, \\ngeqq, \\gneqq, \\gvertneqq \\!",
+        "params": [],
+        "output": "<img src=\"dff43e63b7eef3115100e8d896f228549f89838f\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -1.171ex; margin-right: -0.19ex; width:17.629ex; height:3.509ex;\" alt=\"{\\displaystyle \\ge \\geq, \\gneq, \\geqq, \\ngeqq, \\gneqq, \\gvertneqq \\!}\"\/>"
+    },
+    {
+        "input": "\\lessgtr \\lesseqgtr \\lesseqqgtr \\gtrless \\gtreqless \\gtreqqless \\!",
+        "params": [],
+        "output": "<img src=\"85440138af782a32bfdaf95ca80c07e664fd7108\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -1.338ex; margin-right: -0.192ex; width:10.654ex; height:3.843ex;\" alt=\"{\\displaystyle \\lessgtr \\lesseqgtr \\lesseqqgtr \\gtrless \\gtreqless \\gtreqqless \\!}\"\/>"
+    },
+    {
+        "input": "\\leqslant, \\nleqslant, \\eqslantless \\!",
+        "params": [],
+        "output": "<img src=\"7b29b079d0e5868107193eaa02fe2b6a2db3326c\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -1.005ex; margin-right: -0.192ex; width:7.297ex; height:3.176ex;\" alt=\"{\\displaystyle \\leqslant, \\nleqslant, \\eqslantless \\!}\"\/>"
+    },
+    {
+        "input": "\\geqslant, \\ngeqslant, \\eqslantgtr \\!",
+        "params": [],
+        "output": "<img src=\"c33a61b46497f5e32721bb1ffeb6fb6853a9954f\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -1.005ex; margin-right: -0.192ex; width:7.297ex; height:3.176ex;\" alt=\"{\\displaystyle \\geqslant, \\ngeqslant, \\eqslantgtr \\!}\"\/>"
+    },
+    {
+        "input": "\\lesssim, \\lnsim, \\lessapprox, \\lnapprox \\!",
+        "params": [],
+        "output": "<img src=\"02649712cab0290c70f9b9c5930c60d6b4ffdab0\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -1.171ex; margin-right: -0.248ex; width:10.195ex; height:3.176ex;\" alt=\"{\\displaystyle \\lesssim, \\lnsim, \\lessapprox, \\lnapprox \\!}\"\/>"
+    },
+    {
+        "input": " \\gtrsim, \\gnsim, \\gtrapprox, \\gnapprox \\,",
+        "params": [],
+        "output": "<img src=\"07702ae910086bb7a601dec7de83f4cad01ccdc6\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -1.171ex; width:10.721ex; height:3.176ex;\" alt=\"{\\displaystyle  \\gtrsim, \\gnsim, \\gtrapprox, \\gnapprox \\,}\"\/>"
+    },
+    {
+        "input": "\\prec, \\nprec, \\preceq, \\npreceq, \\precneqq \\!",
+        "params": [],
+        "output": "<img src=\"6275fc71f44bc21adfc4afa24373f4a93e88b279\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -1.005ex; margin-right: -0.19ex; width:12.979ex; height:3.176ex;\" alt=\"{\\displaystyle \\prec, \\nprec, \\preceq, \\npreceq, \\precneqq \\!}\"\/>"
+    },
+    {
+        "input": "\\succ, \\nsucc, \\succeq, \\nsucceq, \\succneqq \\!",
+        "params": [],
+        "output": "<img src=\"d5007a3431f0fc5c258bbfd41b3c7b8917e75d4f\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -1.005ex; margin-right: -0.19ex; width:12.979ex; height:3.176ex;\" alt=\"{\\displaystyle \\succ, \\nsucc, \\succeq, \\nsucceq, \\succneqq \\!}\"\/>"
+    },
+    {
+        "input": "\\preccurlyeq, \\curlyeqprec \\,",
+        "params": [],
+        "output": "<img src=\"aef48cea40c0464dc69149ecb4900916df9b9cb7\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -0.671ex; width:5.037ex; height:2.676ex;\" alt=\"{\\displaystyle \\preccurlyeq, \\curlyeqprec \\,}\"\/>"
+    },
+    {
+        "input": "\\succcurlyeq, \\curlyeqsucc \\,",
+        "params": [],
+        "output": "<img src=\"9053bf840955daa8c97dd2b012cafb01005a6126\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -0.671ex; width:5.037ex; height:2.676ex;\" alt=\"{\\displaystyle \\succcurlyeq, \\curlyeqsucc \\,}\"\/>"
+    },
+    {
+        "input": "\\precsim, \\precnsim, \\precapprox, \\precnapprox \\,",
+        "params": [],
+        "output": "<img src=\"a3829af8e129b7f1b96b6ad84ef56d64ad2e0f96\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -1.171ex; width:10.721ex; height:3.176ex;\" alt=\"{\\displaystyle \\precsim, \\precnsim, \\precapprox, \\precnapprox \\,}\"\/>"
+    },
+    {
+        "input": "\\succsim, \\succnsim, \\succapprox, \\succnapprox \\,",
+        "params": [],
+        "output": "<img src=\"94c52d336fbac57fcdd3fbb616a16711b3a7bf1a\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -1.171ex; width:10.721ex; height:3.176ex;\" alt=\"{\\displaystyle \\succsim, \\succnsim, \\succapprox, \\succnapprox \\,}\"\/>"
+    },
+    {
+        "input": "\\parallel, \\nparallel, \\shortparallel, \\nshortparallel \\!",
+        "params": [],
+        "output": "<img src=\"f384967623fcfd364e5db297fff1be30a1d757eb\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -0.838ex; margin-right: -0.429ex; width:7.278ex; height:2.843ex;\" alt=\"{\\displaystyle \\parallel, \\nparallel, \\shortparallel, \\nshortparallel \\!}\"\/>"
+    },
+    {
+        "input": "\\perp, \\angle, \\sphericalangle, \\measuredangle, 45^\\circ \\!",
+        "params": [],
+        "output": "<img src=\"1f413ca8f46abcc313d0a41bf320d7fa467326d0\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -0.671ex; margin-right: -0.387ex; width:14.357ex; height:2.676ex;\" alt=\"{\\displaystyle \\perp, \\angle, \\sphericalangle, \\measuredangle, 45^\\circ \\!}\"\/>"
+    },
+    {
+        "input": "\\Box, \\blacksquare, \\diamond, \\Diamond \\lozenge, \\blacklozenge, \\bigstar \\!",
+        "params": [],
+        "output": "<img src=\"4d440b243753c280bcf2a70c478729df2f97ad43\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -0.671ex; margin-right: -0.273ex; width:16.679ex; height:2.509ex;\" alt=\"{\\displaystyle \\Box, \\blacksquare, \\diamond, \\Diamond \\lozenge, \\blacklozenge, \\bigstar \\!}\"\/>"
+    },
+    {
+        "input": "\\bigcirc, \\triangle \\bigtriangleup, \\bigtriangledown \\!",
+        "params": [],
+        "output": "<img src=\"7e13db4a5c90a37e880a01b2db6c9637cc20f770\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -0.838ex; margin-right: -0.245ex; width:11.093ex; height:2.676ex;\" alt=\"{\\displaystyle \\bigcirc, \\triangle \\bigtriangleup, \\bigtriangledown \\!}\"\/>"
+    },
+    {
+        "input": "\\vartriangle, \\triangledown\\!",
+        "params": [],
+        "output": "<img src=\"d0670e317820b2c75c253021be7ef3ae7f994c3f\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -0.671ex; margin-right: -0.19ex; width:4.193ex; height:2.343ex;\" alt=\"{\\displaystyle \\vartriangle, \\triangledown\\!}\"\/>"
+    },
+    {
+        "input": "\\blacktriangle, \\blacktriangledown, \\blacktriangleleft, \\blacktriangleright \\!",
+        "params": [],
+        "output": "<img src=\"6a742e89a51e759b523d20c93e14ec6599f46b9d\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -0.671ex; margin-right: -0.192ex; width:9.879ex; height:2.343ex;\" alt=\"{\\displaystyle \\blacktriangle, \\blacktriangledown, \\blacktriangleleft, \\blacktriangleright \\!}\"\/>"
+    },
+    {
+        "input": "\\forall, \\exists, \\nexists \\!",
+        "params": [],
+        "output": "<img src=\"3d2a0e989851f65e3eaf2a1bcecdb9b273256dee\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -0.838ex; margin-right: -0.256ex; width:5.815ex; height:2.676ex;\" alt=\"{\\displaystyle \\forall, \\exists, \\nexists \\!}\"\/>"
+    },
+    {
+        "input": "\\therefore, \\because, \\And \\!",
+        "params": [],
+        "output": "<img src=\"c32db07efbe2a661662a95a3a2b161aa39dc5cef\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -0.671ex; margin-right: -0.269ex; width:6.858ex; height:2.509ex;\" alt=\"{\\displaystyle \\therefore, \\because, \\And \\!}\"\/>"
+    },
+    {
+        "input": "\\or \\lor \\vee, \\curlyvee, \\bigvee \\!",
+        "params": [],
+        "output": "<img src=\"1ec48724f69f14e4e79d1968a6d80870deda0217\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -1.338ex; margin-right: -0.257ex; width:11.969ex; height:3.843ex;\" alt=\"{\\displaystyle \\or \\lor \\vee, \\curlyvee, \\bigvee \\!}\"\/>"
+    },
+    {
+        "input": "\\and \\land \\wedge, \\curlywedge, \\bigwedge \\!",
+        "params": [],
+        "output": "<img src=\"bdb145fadf20142e514b40731ed8c431dc53d855\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -1.338ex; margin-right: -0.257ex; width:11.969ex; height:3.843ex;\" alt=\"{\\displaystyle \\and \\land \\wedge, \\curlywedge, \\bigwedge \\!}\"\/>"
+    },
+    {
+        "input": "\\bar{q}, \\bar{abc}, \\overline{q}, \\overline{abc}, \\!",
+        "params": [],
+        "output": "<img src=\"6a7b4071a4c3ec634f26d1158759f791fc0c321b\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -0.671ex; margin-right: -0.229ex; width:12.757ex; height:3.343ex;\" alt=\"{\\displaystyle \\bar{q}, \\bar{abc}, \\overline{q}, \\overline{abc}, \\!}\"\/>"
+    },
+    {
+        "input": "\\lnot \\neg, \\not\\operatorname{R}, \\bot, \\top \\!",
+        "params": [],
+        "output": "<img src=\"defcbe9f3db30a154b54d17c78f147630d9ec4fd\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -0.838ex; margin-right: -0.259ex; width:12.047ex; height:2.676ex;\" alt=\"{\\displaystyle \\lnot \\neg, \\not\\operatorname{R}, \\bot, \\top \\!}\"\/>"
+    },
+    {
+        "input": "\\vdash \\dashv, \\vDash, \\Vdash, \\models \\!",
+        "params": [],
+        "output": "<img src=\"170240b55225268ca8147d9a5574f33e73b120ad\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -0.838ex; margin-right: -0.259ex; width:11.522ex; height:2.843ex;\" alt=\"{\\displaystyle \\vdash \\dashv, \\vDash, \\Vdash, \\models \\!}\"\/>"
+    },
+    {
+        "input": "\\Vvdash \\nvdash \\nVdash \\nvDash \\nVDash \\!",
+        "params": [],
+        "output": "<img src=\"082e6b65effa63481da9adb94cf6c31619146393\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -0.338ex; margin-right: -0.255ex; width:8.13ex; height:2.176ex;\" alt=\"{\\displaystyle \\Vvdash \\nvdash \\nVdash \\nvDash \\nVDash \\!}\"\/>"
+    },
+    {
+        "input": "\\ulcorner \\urcorner \\llcorner \\lrcorner \\,",
+        "params": [],
+        "output": "<img src=\"687d01150f62cf3735fc5ca2c50743057a50527d\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -0.338ex; width:5.037ex; height:2.176ex;\" alt=\"{\\displaystyle \\ulcorner \\urcorner \\llcorner \\lrcorner \\,}\"\/>"
+    },
+    {
+        "input": "\\Rrightarrow, \\Lleftarrow \\!",
+        "params": [],
+        "output": "<img src=\"bcab3adec5c2ae9c7efc6d42e8d188b7e94a1742\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -0.671ex; margin-right: -0.259ex; width:5.554ex; height:2.343ex;\" alt=\"{\\displaystyle \\Rrightarrow, \\Lleftarrow \\!}\"\/>"
+    },
+    {
+        "input": "\\Rightarrow, \\nRightarrow, \\Longrightarrow \\implies\\!",
+        "params": [],
+        "output": "<img src=\"f539de6da94c5b49a0316e8c948e57cec111ce45\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -0.671ex; margin-right: -0.387ex; width:15.617ex; height:2.176ex;\" alt=\"{\\displaystyle \\Rightarrow, \\nRightarrow, \\Longrightarrow \\implies\\!}\"\/>"
+    },
+    {
+        "input": "\\Leftarrow, \\nLeftarrow, \\Longleftarrow \\!",
+        "params": [],
+        "output": "<img src=\"ad30fd4265622ff4e045e55a74514843cf16953e\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -0.671ex; margin-right: -0.259ex; width:10.326ex; height:2.176ex;\" alt=\"{\\displaystyle \\Leftarrow, \\nLeftarrow, \\Longleftarrow \\!}\"\/>"
+    },
+    {
+        "input": "\\Leftrightarrow, \\nLeftrightarrow, \\Longleftrightarrow \\iff \\!",
+        "params": [],
+        "output": "<img src=\"9976b3c8c9f8d7fdc384e7879a7866c59b266d4f\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -0.671ex; margin-right: -0.387ex; width:16.639ex; height:2.176ex;\" alt=\"{\\displaystyle \\Leftrightarrow, \\nLeftrightarrow, \\Longleftrightarrow \\iff \\!}\"\/>"
+    },
+    {
+        "input": "\\Uparrow, \\Downarrow, \\Updownarrow \\!",
+        "params": [],
+        "output": "<img src=\"e54507163fe60e101c66b66dd5d03c2e75d49812\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -0.838ex; margin-right: -0.313ex; width:6.254ex; height:2.843ex;\" alt=\"{\\displaystyle \\Uparrow, \\Downarrow, \\Updownarrow \\!}\"\/>"
+    },
+    {
+        "input": "\\rightarrow \\to, \\nrightarrow, \\longrightarrow\\!",
+        "params": [],
+        "output": "<img src=\"a6645802a2891e139a5b64abc9c313e3eecaaa34\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -0.671ex; margin-right: -0.19ex; width:12.647ex; height:2.176ex;\" alt=\"{\\displaystyle \\rightarrow \\to, \\nrightarrow, \\longrightarrow\\!}\"\/>"
+    },
+    {
+        "input": "\\leftarrow \\gets, \\nleftarrow, \\longleftarrow\\!",
+        "params": [],
+        "output": "<img src=\"c5c35f72abb47877e9cbf4c06108a4901f0cce55\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -0.671ex; margin-right: -0.192ex; width:12.582ex; height:2.176ex;\" alt=\"{\\displaystyle \\leftarrow \\gets, \\nleftarrow, \\longleftarrow\\!}\"\/>"
+    },
+    {
+        "input": "\\leftrightarrow, \\nleftrightarrow, \\longleftrightarrow \\!",
+        "params": [],
+        "output": "<img src=\"6a7f2aa0a32930d7e1ca17f01acd5db59c04218e\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -0.671ex; margin-right: -0.257ex; width:10.904ex; height:2.176ex;\" alt=\"{\\displaystyle \\leftrightarrow, \\nleftrightarrow, \\longleftrightarrow \\!}\"\/>"
+    },
+    {
+        "input": "\\uparrow, \\downarrow, \\updownarrow \\!",
+        "params": [],
+        "output": "<img src=\"63e89428731787bae1168e1d00635bee8ab646c0\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -0.838ex; margin-right: -0.348ex; width:5.516ex; height:2.843ex;\" alt=\"{\\displaystyle \\uparrow, \\downarrow, \\updownarrow \\!}\"\/>"
+    },
+    {
+        "input": "\\nearrow, \\swarrow, \\nwarrow, \\searrow \\!",
+        "params": [],
+        "output": "<img src=\"8b5bdf6c2cc0a5ac9888dc7d2448f00c7e81d038\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -0.838ex; margin-right: -0.317ex; width:12.327ex; height:2.843ex;\" alt=\"{\\displaystyle \\nearrow, \\swarrow, \\nwarrow, \\searrow \\!}\"\/>"
+    },
+    {
+        "input": "\\mapsto, \\longmapsto \\!",
+        "params": [],
+        "output": "<img src=\"796df7dcf8593af0491b356dc0faac6919e60faa\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -0.671ex; margin-right: -0.19ex; width:6.966ex; height:2.176ex;\" alt=\"{\\displaystyle \\mapsto, \\longmapsto \\!}\"\/>"
+    },
+    {
+        "input": "\\rightharpoonup \\rightharpoondown \\leftharpoonup \\leftharpoondown \\upharpoonleft \\upharpoonright \\downharpoonleft \\downharpoonright \\rightleftharpoons \\leftrightharpoons \\,\\!",
+        "params": [],
+        "output": "<img src=\"f586e5c2b468f038b8398e26d8c7120bb74638f1\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -0.671ex; margin-right: -0.387ex; width:19.757ex; height:2.509ex;\" alt=\"{\\displaystyle \\rightharpoonup \\rightharpoondown \\leftharpoonup \\leftharpoondown \\upharpoonleft \\upharpoonright \\downharpoonleft \\downharpoonright \\rightleftharpoons \\leftrightharpoons \\,\\!}\"\/>"
+    },
+    {
+        "input": "\\curvearrowleft \\circlearrowleft \\Lsh \\upuparrows \\rightrightarrows \\rightleftarrows \\rightarrowtail \\looparrowright \\,\\!",
+        "params": [],
+        "output": "<img src=\"7b8ddc7ccdf3f2789913a86ef571edfce60a3938\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -0.671ex; margin-right: -0.387ex; width:17.17ex; height:2.676ex;\" alt=\"{\\displaystyle \\curvearrowleft \\circlearrowleft \\Lsh \\upuparrows \\rightrightarrows \\rightleftarrows \\rightarrowtail \\looparrowright \\,\\!}\"\/>"
+    },
+    {
+        "input": "\\curvearrowright \\circlearrowright \\Rsh \\downdownarrows \\leftleftarrows \\leftrightarrows \\leftarrowtail \\looparrowleft \\,\\!",
+        "params": [],
+        "output": "<img src=\"408f14d78ee0867c6fbc644cfd899f33ae633e57\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -0.671ex; margin-right: -0.387ex; width:17.17ex; height:2.676ex;\" alt=\"{\\displaystyle \\curvearrowright \\circlearrowright \\Rsh \\downdownarrows \\leftleftarrows \\leftrightarrows \\leftarrowtail \\looparrowleft \\,\\!}\"\/>"
+    },
+    {
+        "input": "\\hookrightarrow \\hookleftarrow \\multimap \\leftrightsquigarrow \\rightsquigarrow \\twoheadrightarrow \\twoheadleftarrow \\!",
+        "params": [],
+        "output": "<img src=\"261fb56f862b519655ef2aabf8f7266dc10b9777\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -0.338ex; margin-right: -0.257ex; width:17.883ex; height:1.843ex;\" alt=\"{\\displaystyle \\hookrightarrow \\hookleftarrow \\multimap \\leftrightsquigarrow \\rightsquigarrow \\twoheadrightarrow \\twoheadleftarrow \\!}\"\/>"
+    },
+    {
+        "input": "\\amalg \\P \\S \\% \\dagger \\ddagger \\ldots \\cdots \\!",
+        "params": [],
+        "output": "<img src=\"3d6465d9a68663d5ae819c16d67c8dba2ba0fb67\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -1.171ex; margin-right: -0.204ex; width:15.647ex; height:3.343ex;\" alt=\"{\\displaystyle \\amalg \\P \\S \\% \\dagger \\ddagger \\ldots \\cdots \\!}\"\/>"
+    },
+    {
+        "input": "\\smile \\frown \\wr \\triangleleft \\triangleright\\!",
+        "params": [],
+        "output": "<img src=\"747bbb18fd34fb6c70fc9b088dd225f2c010afe5\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -0.505ex; margin-right: -0.324ex; width:9.234ex; height:2.176ex;\" alt=\"{\\displaystyle \\smile \\frown \\wr \\triangleleft \\triangleright\\!}\"\/>"
+    },
+    {
+        "input": "\\diamondsuit, \\heartsuit, \\clubsuit, \\spadesuit, \\Game, \\flat, \\natural, \\sharp \\!",
+        "params": [],
+        "output": "<img src=\"8a09336e62859cf44b1fbf5a17250c9d066df35e\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -0.838ex; margin-right: -0.257ex; width:18.539ex; height:2.843ex;\" alt=\"{\\displaystyle \\diamondsuit, \\heartsuit, \\clubsuit, \\spadesuit, \\Game, \\flat, \\natural, \\sharp \\!}\"\/>"
+    },
+    {
+        "input": "\\diagup \\diagdown \\centerdot \\ltimes \\rtimes \\leftthreetimes \\rightthreetimes \\!",
+        "params": [],
+        "output": "<img src=\"6377120e17d8404308733f365f80da1a770615b9\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -0.671ex; margin-right: -0.257ex; width:14.462ex; height:2.509ex;\" alt=\"{\\displaystyle \\diagup \\diagdown \\centerdot \\ltimes \\rtimes \\leftthreetimes \\rightthreetimes \\!}\"\/>"
+    },
+    {
+        "input": "\\eqcirc \\circeq \\triangleq \\bumpeq \\Bumpeq \\doteqdot \\risingdotseq \\fallingdotseq \\!",
+        "params": [],
+        "output": "<img src=\"d95a79a4c5ad29017bfbb9365975d8d22011e408\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -0.505ex; margin-right: -0.35ex; width:14.428ex; height:2.676ex;\" alt=\"{\\displaystyle \\eqcirc \\circeq \\triangleq \\bumpeq \\Bumpeq \\doteqdot \\risingdotseq \\fallingdotseq \\!}\"\/>"
+    },
+    {
+        "input": "\\intercal \\barwedge \\veebar \\doublebarwedge \\between \\pitchfork \\!",
+        "params": [],
+        "output": "<img src=\"cc5beacf14a958884c97a9b21b908d96e8dea85e\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -0.838ex; margin-right: -0.257ex; width:9.813ex; height:3.009ex;\" alt=\"{\\displaystyle \\intercal \\barwedge \\veebar \\doublebarwedge \\between \\pitchfork \\!}\"\/>"
+    },
+    {
+        "input": "\\vartriangleleft \\ntriangleleft \\vartriangleright \\ntriangleright \\!",
+        "params": [],
+        "output": "<img src=\"8048c626e0fdbfa8db3d46edcde9f65232500a66\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -0.671ex; margin-right: -0.19ex; width:7.035ex; height:2.509ex;\" alt=\"{\\displaystyle \\vartriangleleft \\ntriangleleft \\vartriangleright \\ntriangleright \\!}\"\/>"
+    },
+    {
+        "input": "\\trianglelefteq \\ntrianglelefteq \\trianglerighteq \\ntrianglerighteq \\!",
+        "params": [],
+        "output": "<img src=\"b34a3d2d744e0adf990584c1c3d06266df8cc5ab\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -1.005ex; margin-right: -0.19ex; width:7.035ex; height:3.176ex;\" alt=\"{\\displaystyle \\trianglelefteq \\ntrianglelefteq \\trianglerighteq \\ntrianglerighteq \\!}\"\/>"
+    },
+    {
+        "input": "a^2",
+        "params": [],
+        "output": "<img src=\"f564e5dc0b6e68af32ca8614e972f5b36e944a24\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -0.338ex; width:2.284ex; height:2.676ex;\" alt=\"{\\displaystyle a^2}\"\/>"
+    },
+    {
+        "input": "a_2",
+        "params": [],
+        "output": "<img src=\"270580da7333505d9b73697417d0543c43c98b9f\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -0.671ex; width:2.284ex; height:2.009ex;\" alt=\"{\\displaystyle a_2}\"\/>"
+    },
+    {
+        "input": "10^{30} a^{2+2}",
+        "params": [],
+        "output": "<img src=\"97f79186665c52930a9c09e17d1676c84b7a64b9\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -0.338ex; width:8.586ex; height:2.676ex;\" alt=\"{\\displaystyle 10^{30} a^{2+2}}\"\/>"
+    },
+    {
+        "input": "a_{i,j} b_{f'}",
+        "params": [],
+        "output": "<img src=\"912bedc705983d91f86dfe101a7b442856731451\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -1.171ex; width:5.859ex; height:3.009ex;\" alt=\"{\\displaystyle a_{i,j} b_{f&#039;}}\"\/>"
+    },
+    {
+        "input": "x_2^3",
+        "params": [],
+        "output": "<img src=\"50f3c6f93cf5fad3e7faa14000a61a49cb65d2b9\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -1.005ex; width:2.384ex; height:3.176ex;\" alt=\"{\\displaystyle x_2^3}\"\/>"
+    },
+    {
+        "input": "{x_2}^3 \\,\\!",
+        "params": [],
+        "output": "<img src=\"3236c82c1fee3fe4c4a9a1c9bad9dcd940d4d8a2\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -0.671ex; margin-right: -0.387ex; width:3.825ex; height:3.009ex;\" alt=\"{\\displaystyle {x_2}^3 \\,\\!}\"\/>"
+    },
+    {
+        "input": "10^{10^{8}}",
+        "params": [],
+        "output": "<img src=\"efe2da741f2b98770ee2fee14ff672daf85cf1ec\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -0.338ex; width:5.033ex; height:3.009ex;\" alt=\"{\\displaystyle 10^{10^{8}}}\"\/>"
+    },
+    {
+        "input": "\\sideset{_1^2}{_3^4}\\prod_a^b",
+        "params": [],
+        "output": "<img src=\"e383d9569631355101b6047c9b6734725fe686f8\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -3.005ex; width:5.078ex; height:7.843ex;\" alt=\"{\\displaystyle \\sideset{_1^2}{_3^4}\\prod_a^b}\"\/>"
+    },
+    {
+        "input": "{}_1^2\\!\\Omega_3^4",
+        "params": [],
+        "output": "<img src=\"aabd2ce591d17dad6d3b61b5725424514c840e67\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -1.005ex; width:3.399ex; height:3.176ex;\" alt=\"{\\displaystyle {}_1^2\\!\\Omega_3^4}\"\/>"
+    },
+    {
+        "input": "\\overset{\\alpha}{\\omega}",
+        "params": [],
+        "output": "<img src=\"71009472c4378a2cbf907299bc8c23936aa19291\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -0.338ex; width:1.446ex; height:3.009ex;\" alt=\"{\\displaystyle \\overset{\\alpha}{\\omega}}\"\/>"
+    },
+    {
+        "input": "\\underset{\\alpha}{\\omega}",
+        "params": [],
+        "output": "<img src=\"e3f4488ce56e8bcf504df663f09f8e88f438b14b\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -2.005ex; width:1.446ex; height:3.343ex;\" alt=\"{\\displaystyle \\underset{\\alpha}{\\omega}}\"\/>"
+    },
+    {
+        "input": "\\overset{\\alpha}{\\underset{\\gamma}{\\omega}}",
+        "params": [],
+        "output": "<img src=\"c886687a8ab1db9829a948f569184728eda1ec2c\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -2.338ex; width:1.446ex; height:5.009ex;\" alt=\"{\\displaystyle \\overset{\\alpha}{\\underset{\\gamma}{\\omega}}}\"\/>"
+    },
+    {
+        "input": "\\stackrel{\\alpha}{\\omega}",
+        "params": [],
+        "output": "<img src=\"0a00e31ce529e009a3ef2d10606ad423342d9cb7\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -0.338ex; width:1.446ex; height:3.009ex;\" alt=\"{\\displaystyle \\stackrel{\\alpha}{\\omega}}\"\/>"
+    },
+    {
+        "input": "x', y'', f', f''",
+        "params": [],
+        "output": "<img src=\"8ed1721a4e59cd929d65d873fd7d3a879a591ac4\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -0.671ex; width:11.877ex; height:2.843ex;\" alt=\"{\\displaystyle x&#039;, y&#039;&#039;, f&#039;, f&#039;&#039;}\"\/>"
+    },
+    {
+        "input": "x^\\prime, y^{\\prime\\prime}",
+        "params": [],
+        "output": "<img src=\"0f65e90170bc790f3f0e13679cf019327d4192dc\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -0.671ex; width:5.346ex; height:2.843ex;\" alt=\"{\\displaystyle x^\\prime, y^{\\prime\\prime}}\"\/>"
+    },
+    {
+        "input": "\\dot{x}, \\ddot{x}",
+        "params": [],
+        "output": "<img src=\"e5e71030758285fcd37e8c9fbf1ece5b9b86ea99\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -0.671ex; width:3.693ex; height:2.509ex;\" alt=\"{\\displaystyle \\dot{x}, \\ddot{x}}\"\/>"
+    },
+    {
+        "input": " \\hat a \\ \\bar b \\ \\vec c",
+        "params": [],
+        "output": "<img src=\"ebeb654a69eaacb690eddbf7bc79438011568f76\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -0.338ex; width:4.777ex; height:2.509ex;\" alt=\"{\\displaystyle  \\hat a \\ \\bar b \\ \\vec c}\"\/>"
+    },
+    {
+        "input": " \\overrightarrow{a b} \\ \\overleftarrow{c d} \\ \\widehat{d e f}",
+        "params": [],
+        "output": "<img src=\"469eb4ecf2566aea8ff482d9d040d135da2f86cb\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -0.671ex; width:9.391ex; height:4.009ex;\" alt=\"{\\displaystyle  \\overrightarrow{a b} \\ \\overleftarrow{c d} \\ \\widehat{d e f}}\"\/>"
+    },
+    {
+        "input": " \\overline{g h i} \\ \\underline{j k l}",
+        "params": [],
+        "output": "<img src=\"f3bde7f4495beed348915bc478aab52eeed5c92f\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -0.985ex; margin-bottom: -0.853ex; width:6.818ex; height:4.509ex;\" alt=\"{\\displaystyle  \\overline{g h i} \\ \\underline{j k l}}\"\/>"
+    },
+    {
+        "input": "\\overset{\\frown} {AB}",
+        "params": [],
+        "output": "<img src=\"4608fbf7084ad30e15487e824daf74260640f810\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -0.338ex; width:3.507ex; height:3.343ex;\" alt=\"{\\displaystyle \\overset{\\frown} {AB}}\"\/>"
+    },
+    {
+        "input": " A \\xleftarrow{n+\\mu-1} B \\xrightarrow[T]{n\\pm i-1} C",
+        "params": [],
+        "output": "<img src=\"0645e6df7ace8a40eba2d92f293f5fbd6f929411\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -1.762ex; margin-top: -0.373ex; margin-bottom: -0.576ex; width:18.166ex; height:5.843ex;\" alt=\"{\\displaystyle  A \\xleftarrow{n+\\mu-1} B \\xrightarrow[T]{n\\pm i-1} C}\"\/>"
+    },
+    {
+        "input": "\\overbrace{ 1+2+\\cdots+100 }^{5050}",
+        "params": [],
+        "output": "<img src=\"f98367ab3041e58a31d62d829f125a38d9f32426\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -0.505ex; margin-right: -0.028ex; width:17.085ex; height:5.676ex;\" alt=\"{\\displaystyle \\overbrace{ 1+2+\\cdots+100 }^{5050}}\"\/>"
+    },
+    {
+        "input": "\\underbrace{ a+b+\\cdots+z }_{26}",
+        "params": [],
+        "output": "<img src=\"6f932862aa8d0c25aeb0e1abc46894b3fb8dd430\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -3.838ex; margin-right: -0.023ex; width:14.583ex; height:5.676ex;\" alt=\"{\\displaystyle \\underbrace{ a+b+\\cdots+z }_{26}}\"\/>"
+    },
+    {
+        "input": "\\sum_{k=1}^N k^2",
+        "params": [],
+        "output": "<img src=\"7956d37c7f782666fd81d18ef8471f96c326113f\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -3.005ex; width:6.008ex; height:7.343ex;\" alt=\"{\\displaystyle \\sum_{k=1}^N k^2}\"\/>"
+    },
+    {
+        "input": "\\textstyle \\sum_{k=1}^N k^2",
+        "params": [],
+        "output": "<img src=\"8311da0a77722c17b25e831e13cbeb2517f064a0\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -1.005ex; width:8.296ex; height:3.509ex;\" alt=\"{\\displaystyle \\textstyle \\sum_{k=1}^N k^2}\"\/>"
+    },
+    {
+        "input": "\\frac{\\sum_{k=1}^N k^2}{a}",
+        "params": [],
+        "output": "<img src=\"b1b56ce3d54de8524b7ea90a5fe9b7e096dfdcc8\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -1.838ex; width:9.132ex; height:6.176ex;\" alt=\"{\\displaystyle \\frac{\\sum_{k=1}^N k^2}{a}}\"\/>"
+    },
+    {
+        "input": "\\frac{\\displaystyle \\sum_{k=1}^N k^2}{a}",
+        "params": [],
+        "output": "<img src=\"b9cf261c3532aba30b0de37d54514b10ff341071\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -1.838ex; width:6.844ex; height:10.176ex;\" alt=\"{\\displaystyle \\frac{\\displaystyle \\sum_{k=1}^N k^2}{a}}\"\/>"
+    },
+    {
+        "input": "\\frac{\\sum\\limits^{^N}_{k=1} k^2}{a}",
+        "params": [],
+        "output": "<img src=\"9773127fb5cba4db39d7ca1da11281122a609846\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -1.838ex; width:6.446ex; height:9.676ex;\" alt=\"{\\displaystyle \\frac{\\sum\\limits^{^N}_{k=1} k^2}{a}}\"\/>"
+    },
+    {
+        "input": "\\prod_{i=1}^N x_i",
+        "params": [],
+        "output": "<img src=\"fa57991fd499c8351007df456760f741fb6e8997\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -3.005ex; width:5.486ex; height:7.343ex;\" alt=\"{\\displaystyle \\prod_{i=1}^N x_i}\"\/>"
+    },
+    {
+        "input": "\\textstyle \\prod_{i=1}^N x_i",
+        "params": [],
+        "output": "<img src=\"4eb7730d2ab12fc4e1c408be3814afdc0a688bd2\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -1.005ex; width:7.61ex; height:3.509ex;\" alt=\"{\\displaystyle \\textstyle \\prod_{i=1}^N x_i}\"\/>"
+    },
+    {
+        "input": "\\coprod_{i=1}^N x_i",
+        "params": [],
+        "output": "<img src=\"6378fc889e6f561501161c84ca21c2551b3bb688\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -3.005ex; width:5.486ex; height:7.343ex;\" alt=\"{\\displaystyle \\coprod_{i=1}^N x_i}\"\/>"
+    },
+    {
+        "input": "\\textstyle \\coprod_{i=1}^N x_i",
+        "params": [],
+        "output": "<img src=\"c3e15321707fd76dd010d3e198da9eb8c72277ed\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -1.005ex; width:7.61ex; height:3.509ex;\" alt=\"{\\displaystyle \\textstyle \\coprod_{i=1}^N x_i}\"\/>"
+    },
+    {
+        "input": "\\lim_{n \\to \\infty}x_n",
+        "params": [],
+        "output": "<img src=\"e9e68667b4e113488d30c2e1e63bf0ddf238a4ce\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -1.838ex; width:7.208ex; height:3.676ex;\" alt=\"{\\displaystyle \\lim_{n \\to \\infty}x_n}\"\/>"
+    },
+    {
+        "input": "\\textstyle \\lim_{n \\to \\infty}x_n",
+        "params": [],
+        "output": "<img src=\"059cb4851713dea4bf520b9ea4408c40e440ee05\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -0.671ex; width:10.67ex; height:2.509ex;\" alt=\"{\\displaystyle \\textstyle \\lim_{n \\to \\infty}x_n}\"\/>"
+    },
+    {
+        "input": "\\int\\limits_{1}^{3}\\frac{e^3\/x}{x^2}\\, dx",
+        "params": [],
+        "output": "<img src=\"a74fbb30a2e06f5e12105d46b2b2f2ce78f183af\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -4.005ex; width:10.979ex; height:9.176ex;\" alt=\"{\\displaystyle \\int\\limits_{1}^{3}\\frac{e^3\/x}{x^2}\\, dx}\"\/>"
+    },
+    {
+        "input": "\\int_{1}^{3}\\frac{e^3\/x}{x^2}\\, dx",
+        "params": [],
+        "output": "<img src=\"06bec137ddf2b5a8a0b34863e2bd272baaa297b9\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -2.338ex; width:12.304ex; height:6.343ex;\" alt=\"{\\displaystyle \\int_{1}^{3}\\frac{e^3\/x}{x^2}\\, dx}\"\/>"
+    },
+    {
+        "input": "\\textstyle \\int\\limits_{-N}^{N} e^x\\, dx",
+        "params": [],
+        "output": "<img src=\"3eef59243f000d1698be66923073ac30aaab0380\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -2.838ex; margin-left: -0.07ex; width:8.175ex; height:6.843ex;\" alt=\"{\\displaystyle \\textstyle \\int\\limits_{-N}^{N} e^x\\, dx}\"\/>"
+    },
+    {
+        "input": "\\textstyle \\int_{-N}^{N} e^x\\, dx",
+        "params": [],
+        "output": "<img src=\"f2ebaadaa55c91233642f0a6cf24f9628d77786b\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -1.171ex; width:9.643ex; height:3.843ex;\" alt=\"{\\displaystyle \\textstyle \\int_{-N}^{N} e^x\\, dx}\"\/>"
+    },
+    {
+        "input": "\\iint\\limits_D \\, dx\\,dy",
+        "params": [],
+        "output": "<img src=\"f3fe2e7c8d9ed73ee6878ebc4023b418c305b4b0\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -4.005ex; width:9.498ex; height:7.343ex;\" alt=\"{\\displaystyle \\iint\\limits_D \\, dx\\,dy}\"\/>"
+    },
+    {
+        "input": "\\iiint\\limits_E \\, dx\\,dy\\,dz",
+        "params": [],
+        "output": "<img src=\"da60ca6bbc6af70bdbaf655d8de0b717e2092a41\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -4.005ex; width:13.369ex; height:7.343ex;\" alt=\"{\\displaystyle \\iiint\\limits_E \\, dx\\,dy\\,dz}\"\/>"
+    },
+    {
+        "input": "\\iiiint\\limits_F \\, dx\\,dy\\,dz\\,dt",
+        "params": [],
+        "output": "<img src=\"bdc328b65dfecc88cce4e642a34283692b95ee3f\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -4.005ex; width:17.151ex; height:7.343ex;\" alt=\"{\\displaystyle \\iiiint\\limits_F \\, dx\\,dy\\,dz\\,dt}\"\/>"
+    },
+    {
+        "input": "\\int_{(x,y)\\in C} x^3\\, dx + 4y^2\\, dy",
+        "params": [],
+        "output": "<img src=\"28bd07d27443057e03d4c7e40e40b629172b0368\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -2.671ex; width:22.044ex; height:6.009ex;\" alt=\"{\\displaystyle \\int_{(x,y)\\in C} x^3\\, dx + 4y^2\\, dy}\"\/>"
+    },
+    {
+        "input": "\\oint_{(x,y)\\in C} x^3\\, dx + 4y^2\\, dy",
+        "params": [],
+        "output": "<img src=\"9bd8f3ee582e64365cefbfd44860b60a14b4424b\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -2.838ex; width:24.461ex; height:6.343ex;\" alt=\"{\\displaystyle \\oint_{(x,y)\\in C} x^3\\, dx + 4y^2\\, dy}\"\/>",
+        "skipped": false
+    },
+    {
+        "input": "\\bigcap_{i=_1}^n E_i",
+        "params": [],
+        "output": "<img src=\"c36f2b95a0dba9d6f053abbaa0fc266fe39e723a\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -3.338ex; width:5.58ex; height:7.176ex;\" alt=\"{\\displaystyle \\bigcap_{i=_1}^n E_i}\"\/>"
+    },
+    {
+        "input": "\\bigcup_{i=_1}^n E_i",
+        "params": [],
+        "output": "<img src=\"b437a239f8ee4c0353de4c182446ecff11de5db6\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -3.338ex; width:5.58ex; height:7.176ex;\" alt=\"{\\displaystyle \\bigcup_{i=_1}^n E_i}\"\/>"
+    },
+    {
+        "input": "\\frac{2}{4}=0.5",
+        "params": [],
+        "output": "<img src=\"8a6fc96603859414dc324819fa36714978d8f8c7\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -1.838ex; width:8.069ex; height:5.176ex;\" alt=\"{\\displaystyle \\frac{2}{4}=0.5}\"\/>"
+    },
+    {
+        "input": "\\tfrac{2}{4} = 0.5",
+        "params": [],
+        "output": "<img src=\"e2c52511870c711f8cf84a302f32bad585e8a8b2\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -1.171ex; width:7.728ex; height:3.509ex;\" alt=\"{\\displaystyle \\tfrac{2}{4} = 0.5}\"\/>"
+    },
+    {
+        "input": "\\dfrac{2}{4} = 0.5 \\qquad \\dfrac{2}{c + \\dfrac{2}{d + \\dfrac{2}{4}}} = a",
+        "params": [],
+        "output": "<img src=\"0ced99e52615200f58f979a63497dbfb18a98a02\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -8.171ex; width:28.617ex; height:11.509ex;\" alt=\"{\\displaystyle \\dfrac{2}{4} = 0.5 \\qquad \\dfrac{2}{c + \\dfrac{2}{d + \\dfrac{2}{4}}} = a}\"\/>"
+    },
+    {
+        "input": "\\cfrac{2}{c + \\cfrac{2}{d + \\cfrac{2}{4}}} = a",
+        "params": [],
+        "output": "<img src=\"63bf919f4c77096973446f971625243947999ce2\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -10.171ex; width:15.903ex; height:14.343ex;\" alt=\"{\\displaystyle \\cfrac{2}{c + \\cfrac{2}{d + \\cfrac{2}{4}}} = a}\"\/>"
+    },
+    {
+        "input": "\\cfrac{x}{1 + \\cfrac{\\cancel{y}}{\\cancel{y}}} = \\cfrac{x}{2}",
+        "params": [],
+        "output": "<img src=\"17e2d96b813ea4a7d18fd654938c943a49d0fb0a\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -7.505ex; width:13.372ex; height:11.676ex;\" alt=\"{\\displaystyle \\cfrac{x}{1 + \\cfrac{\\cancel{y}}{\\cancel{y}}} = \\cfrac{x}{2}}\"\/>"
+    },
+    {
+        "input": "\\binom{n}{k}",
+        "params": [],
+        "output": "<img src=\"963a810ba39e3e0725c523d0c98b18f39786ebb2\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -2.505ex; width:4.816ex; height:6.176ex;\" alt=\"{\\displaystyle \\binom{n}{k}}\"\/>"
+    },
+    {
+        "input": "\\tbinom{n}{k}",
+        "params": [],
+        "output": "<img src=\"206415d3742167e319b2e52c2ca7563b799abad7\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -1.005ex; width:3.116ex; height:3.176ex;\" alt=\"{\\displaystyle \\tbinom{n}{k}}\"\/>"
+    },
+    {
+        "input": "\\dbinom{n}{k}",
+        "params": [],
+        "output": "<img src=\"969a3dfca2e52cf8c2ce7c6ff911630e70a2835d\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -2.505ex; width:4.816ex; height:6.176ex;\" alt=\"{\\displaystyle \\dbinom{n}{k}}\"\/>"
+    },
+    {
+        "input": "\\begin{matrix} x & y \\\\ z & v\n\\end{matrix}",
+        "params": [],
+        "output": "<img src=\"bfa945d2b040d98494af0bd549e9fd78e1a1f2b7\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -2.505ex; width:5.559ex; height:6.176ex;\" alt=\"{\\displaystyle \\begin{matrix} x &amp; y \\\\ z &amp; v&#10;\\end{matrix}}\"\/>"
+    },
+    {
+        "input": "\\begin{vmatrix} x & y \\\\ z & v\n\\end{vmatrix}",
+        "params": [],
+        "output": "<img src=\"0599f805f033fca9f3c303be71e3a5759d343354\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -2.505ex; width:6.853ex; height:6.176ex;\" alt=\"{\\displaystyle \\begin{vmatrix} x &amp; y \\\\ z &amp; v&#10;\\end{vmatrix}}\"\/>"
+    },
+    {
+        "input": "\\begin{Vmatrix} x & y \\\\ z & v\n\\end{Vmatrix}",
+        "params": [],
+        "output": "<img src=\"7891925bfef38ab79a425f078f2a50781bd5d945\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -2.505ex; width:7.884ex; height:6.176ex;\" alt=\"{\\displaystyle \\begin{Vmatrix} x &amp; y \\\\ z &amp; v&#10;\\end{Vmatrix}}\"\/>"
+    },
+    {
+        "input": "\\begin{bmatrix} 0 & \\cdots & 0 \\\\ \\vdots\n& \\ddots & \\vdots \\\\ 0 & \\cdots &\n0\\end{bmatrix} ",
+        "params": [],
+        "output": "<img src=\"e4f55c58e19b82c51845459aa1ce701775247fa5\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -5.005ex; width:13.801ex; height:11.009ex;\" alt=\"{\\displaystyle \\begin{bmatrix} 0 &amp; \\cdots &amp; 0 \\\\ \\vdots&#10;&amp; \\ddots &amp; \\vdots \\\\ 0 &amp; \\cdots &amp;&#10;0\\end{bmatrix} }\"\/>"
+    },
+    {
+        "input": "\\begin{Bmatrix} x & y \\\\ z & v\n\\end{Bmatrix}",
+        "params": [],
+        "output": "<img src=\"96d51a7c33c262e29df6b3e16c46f5cfd8711ec7\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -2.505ex; width:9.045ex; height:6.176ex;\" alt=\"{\\displaystyle \\begin{Bmatrix} x &amp; y \\\\ z &amp; v&#10;\\end{Bmatrix}}\"\/>"
+    },
+    {
+        "input": "\\begin{pmatrix} x & y \\\\ z & v\n\\end{pmatrix}",
+        "params": [],
+        "output": "<img src=\"0c3dec1cace268b4470ef04e59c55f5475764b01\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -2.505ex; width:8.98ex; height:6.176ex;\" alt=\"{\\displaystyle \\begin{pmatrix} x &amp; y \\\\ z &amp; v&#10;\\end{pmatrix}}\"\/>"
+    },
+    {
+        "input": "\n\\bigl( \\begin{smallmatrix}\na&b\\\\ c&d\n\\end{smallmatrix} \\bigr)\n",
+        "params": [],
+        "output": "<img src=\"d9c11426bdf6c38b6a4e9d1f06f9a6b914614d92\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -1.171ex; width:5.384ex; height:3.343ex;\" alt=\"{\\displaystyle &#10;\\bigl( \\begin{smallmatrix}&#10;a&amp;b\\\\ c&amp;d&#10;\\end{smallmatrix} \\bigr)&#10;}\"\/>"
+    },
+    {
+        "input": "f(n) =\n\\begin{cases}\nn\/2, & \\text{if }n\\text{ is even} \\\\\n3n+1, & \\text{if }n\\text{ is odd}\n\\end{cases} ",
+        "params": [],
+        "output": "<img src=\"b9886ceef1d61d49304a633be8ef555583a76dc0\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -2.505ex; width:30.248ex; height:6.176ex;\" alt=\"{\\displaystyle f(n) =&#10;\\begin{cases}&#10;n\/2, &amp; \\text{if }n\\text{ is even} \\\\&#10;3n+1, &amp; \\text{if }n\\text{ is odd}&#10;\\end{cases} }\"\/>"
+    },
+    {
+        "input": "\n\\begin{align}\nf(x) & = (a+b)^2 \\\\\n& = a^2+2ab+b^2 \\\\\n\\end{align}\n",
+        "params": [],
+        "output": "<img src=\"8225527ac614ac527f50111362774e7c2ea75aad\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -2.671ex; width:21.674ex; height:6.509ex;\" alt=\"{\\displaystyle &#10;\\begin{align}&#10;f(x) &amp; = (a+b)^2 \\\\&#10;&amp; = a^2+2ab+b^2 \\\\&#10;\\end{align}&#10;}\"\/>"
+    },
+    {
+        "input": "\n\\begin{alignat}{2}\nf(x) & = (a-b)^2 \\\\\n& = a^2-2ab+b^2 \\\\\n\\end{alignat}\n",
+        "params": [],
+        "output": "<img src=\"f39d4e1895c0635326d03139f3433e88411e9847\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -2.671ex; width:21.674ex; height:6.509ex;\" alt=\"{\\displaystyle &#10;\\begin{alignat}{2}&#10;f(x) &amp; = (a-b)^2 \\\\&#10;&amp; = a^2-2ab+b^2 \\\\&#10;\\end{alignat}&#10;}\"\/>"
+    },
+    {
+        "input": "\\begin{array}{lcl}\nz & = & a \\\\\nf(x,y,z) & = & x + y + z\n\\end{array}",
+        "params": [],
+        "output": "<img src=\"48b0ec21214150ffb798d991bd7e661bf37f002c\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -2.505ex; width:25.188ex; height:6.176ex;\" alt=\"{\\displaystyle \\begin{array}{lcl}&#10;z &amp; = &amp; a \\\\&#10;f(x,y,z) &amp; = &amp; x + y + z&#10;\\end{array}}\"\/>"
+    },
+    {
+        "input": "\\begin{array}{lcr}\nz & = & a \\\\\nf(x,y,z) & = & x + y + z\n\\end{array}",
+        "params": [],
+        "output": "<img src=\"6cc898023342d85cdd2b2b80921c3e4140ac0b1d\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -2.505ex; width:25.188ex; height:6.176ex;\" alt=\"{\\displaystyle \\begin{array}{lcr}&#10;z &amp; = &amp; a \\\\&#10;f(x,y,z) &amp; = &amp; x + y + z&#10;\\end{array}}\"\/>"
+    },
+    {
+        "input": "f(x) \\,\\!",
+        "params": [],
+        "output": "<img src=\"dab1adac5f968f13b725859af7ad345df19bb7af\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -0.838ex; margin-right: -0.387ex; width:4.805ex; height:2.843ex;\" alt=\"{\\displaystyle f(x) \\,\\!}\"\/>"
+    },
+    {
+        "input": "= \\sum_{n=0}^\\infty a_n x^n ",
+        "params": [],
+        "output": "<img src=\"ba939593b1b0cdc559f16e912a49fef05e2e18cc\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -3.005ex; width:11.192ex; height:6.843ex;\" alt=\"{\\displaystyle = \\sum_{n=0}^\\infty a_n x^n }\"\/>"
+    },
+    {
+        "input": "= a_0+a_1x+a_2x^2+\\cdots",
+        "params": [],
+        "output": "<img src=\"c3bf09bdb346c519500e58117cc7fbbaa952c251\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -0.671ex; width:24.263ex; height:3.009ex;\" alt=\"{\\displaystyle = a_0+a_1x+a_2x^2+\\cdots}\"\/>"
+    },
+    {
+        "input": "f(x) \\,\\!",
+        "params": [],
+        "output": "<img src=\"dab1adac5f968f13b725859af7ad345df19bb7af\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -0.838ex; margin-right: -0.387ex; width:4.805ex; height:2.843ex;\" alt=\"{\\displaystyle f(x) \\,\\!}\"\/>"
+    },
+    {
+        "input": "= \\sum_{n=0}^\\infty a_n x^n ",
+        "params": [],
+        "output": "<img src=\"ba939593b1b0cdc559f16e912a49fef05e2e18cc\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -3.005ex; width:11.192ex; height:6.843ex;\" alt=\"{\\displaystyle = \\sum_{n=0}^\\infty a_n x^n }\"\/>"
+    },
+    {
+        "input": "= a_0 +a_1x+a_2x^2+\\cdots",
+        "params": [],
+        "output": "<img src=\"c3bf09bdb346c519500e58117cc7fbbaa952c251\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -0.671ex; width:24.263ex; height:3.009ex;\" alt=\"{\\displaystyle = a_0 +a_1x+a_2x^2+\\cdots}\"\/>"
+    },
+    {
+        "input": "\\begin{cases} 3x + 5y + z \\\\ 7x - 2y + 4z \\\\ -6x + 3y + 2z \\end{cases}",
+        "params": [],
+        "output": "<img src=\"bcd059275a1fc0bfaf8f67a269115416368c75f1\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -3.671ex; width:17.367ex; height:8.509ex;\" alt=\"{\\displaystyle \\begin{cases} 3x + 5y + z \\\\ 7x - 2y + 4z \\\\ -6x + 3y + 2z \\end{cases}}\"\/>"
+    },
+    {
+        "input": "\n\\begin{array}{|c|c||c|} a & b & S \\\\\n\\hline\n0&0&1\\\\\n0&1&1\\\\\n1&0&1\\\\\n1&1&0\\\\\n\\end{array}\n",
+        "params": [],
+        "output": "<img src=\"a536196b8a62289451b8d485bd92c8cc54990661\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -8.005ex; width:10.719ex; height:17.176ex;\" alt=\"{\\displaystyle &#10;\\begin{array}{|c|c||c|} a &amp; b &amp; S \\\\&#10;\\hline&#10;0&amp;0&amp;1\\\\&#10;0&amp;1&amp;1\\\\&#10;1&amp;0&amp;1\\\\&#10;1&amp;1&amp;0\\\\&#10;\\end{array}&#10;}\"\/>"
+    },
+    {
+        "input": "( \\frac{1}{2} )",
+        "params": [],
+        "output": "<img src=\"2e74d1186d71ea3ca46ac1d80a477818c0e0aed1\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -1.838ex; width:3.808ex; height:5.176ex;\" alt=\"{\\displaystyle ( \\frac{1}{2} )}\"\/>"
+    },
+    {
+        "input": "\\left ( \\frac{1}{2} \\right )",
+        "params": [],
+        "output": "<img src=\"08a269880242c2132aae545154f2d4c3deb5d303\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -2.505ex; width:5.42ex; height:6.176ex;\" alt=\"{\\displaystyle \\left ( \\frac{1}{2} \\right )}\"\/>"
+    },
+    {
+        "input": "\\left ( \\frac{a}{b} \\right )",
+        "params": [],
+        "output": "<img src=\"00dd2fdf5ae1c8899d36296546fa1dc315a07f15\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -2.005ex; width:4.841ex; height:5.009ex;\" alt=\"{\\displaystyle \\left ( \\frac{a}{b} \\right )}\"\/>"
+    },
+    {
+        "input": "\\left [ \\frac{a}{b} \\right ] \\quad \\left \\lbrack \\frac{a}{b} \\right \\rbrack",
+        "params": [],
+        "output": "<img src=\"8680e564275ad3a1c6179240f28c07f34f7b2858\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -2.005ex; width:11.231ex; height:5.009ex;\" alt=\"{\\displaystyle \\left [ \\frac{a}{b} \\right ] \\quad \\left \\lbrack \\frac{a}{b} \\right \\rbrack}\"\/>"
+    },
+    {
+        "input": "\\left \\{ \\frac{a}{b} \\right \\} \\quad \\left \\lbrace \\frac{a}{b} \\right \\rbrace",
+        "params": [],
+        "output": "<img src=\"6e32a8d0bb05d7e24e69a3927bb1cf940f9526a8\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -2.005ex; width:13.043ex; height:5.009ex;\" alt=\"{\\displaystyle \\left \\{ \\frac{a}{b} \\right \\} \\quad \\left \\lbrace \\frac{a}{b} \\right \\rbrace}\"\/>"
+    },
+    {
+        "input": "\\left \\langle \\frac{a}{b} \\right \\rangle",
+        "params": [],
+        "output": "<img src=\"67ddc72b657af90a71036ff196873f443862da59\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -2.005ex; width:4.906ex; height:5.009ex;\" alt=\"{\\displaystyle \\left \\langle \\frac{a}{b} \\right \\rangle}\"\/>"
+    },
+    {
+        "input": "\\left | \\frac{a}{b} \\right \\vert \\quad \\left \\Vert \\frac{c}{d} \\right \\|",
+        "params": [],
+        "output": "<img src=\"92051abfe823f78ede4fdf12fb4d631dfc93250e\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -2.005ex; width:10.446ex; height:5.176ex;\" alt=\"{\\displaystyle \\left | \\frac{a}{b} \\right \\vert \\quad \\left \\Vert \\frac{c}{d} \\right \\|}\"\/>"
+    },
+    {
+        "input": "\\left \\lfloor \\frac{a}{b} \\right \\rfloor \\quad \\left \\lceil \\frac{c}{d} \\right \\rceil",
+        "params": [],
+        "output": "<img src=\"ea880dba8c354264620a2f9d798ccc5518053227\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -2.005ex; width:11.738ex; height:5.009ex;\" alt=\"{\\displaystyle \\left \\lfloor \\frac{a}{b} \\right \\rfloor \\quad \\left \\lceil \\frac{c}{d} \\right \\rceil}\"\/>"
+    },
+    {
+        "input": "\\left \/ \\frac{a}{b} \\right \\backslash",
+        "params": [],
+        "output": "<img src=\"1218880f4d48a8a48b87ce6dbdb34e76eaa002a6\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -2.005ex; width:5.836ex; height:5.009ex;\" alt=\"{\\displaystyle \\left \/ \\frac{a}{b} \\right \\backslash}\"\/>"
+    },
+    {
+        "input": "\\left \\uparrow \\frac{a}{b} \\right \\downarrow \\quad \\left \\Uparrow \\frac{a}{b} \\right \\Downarrow \\quad \\left \\updownarrow \\frac{a}{b} \\right \\Updownarrow",
+        "params": [],
+        "output": "<img src=\"20d6b8c7566e51876eb03a65b87e0515feb80cd2\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -2.005ex; width:21.693ex; height:5.176ex;\" alt=\"{\\displaystyle \\left \\uparrow \\frac{a}{b} \\right \\downarrow \\quad \\left \\Uparrow \\frac{a}{b} \\right \\Downarrow \\quad \\left \\updownarrow \\frac{a}{b} \\right \\Updownarrow}\"\/>"
+    },
+    {
+        "input": "\\left [ 0,1 \\right )",
+        "params": [],
+        "output": "<img src=\"232328a85dbb3301146f3a1fd302bfe1408fb902\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -0.838ex; width:4.91ex; height:2.843ex;\" alt=\"{\\displaystyle \\left [ 0,1 \\right )}\"\/>"
+    },
+    {
+        "input": "\\left \\langle \\psi \\right |",
+        "params": [],
+        "output": "<img src=\"5e49a8b4981aed51cf30885a8e0bad5e40ae499b\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -0.838ex; width:3.065ex; height:2.843ex;\" alt=\"{\\displaystyle \\left \\langle \\psi \\right |}\"\/>"
+    },
+    {
+        "input": "\\left . \\frac{A}{B} \\right \\} \\to X",
+        "params": [],
+        "output": "<img src=\"345c73c3f474f869f413863ba652a3607b27b68d\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -2.505ex; width:9.937ex; height:6.176ex;\" alt=\"{\\displaystyle \\left . \\frac{A}{B} \\right \\} \\to X}\"\/>"
+    },
+    {
+        "input": "\\big( \\Big( \\bigg( \\Bigg( \\dots \\Bigg] \\bigg] \\Big] \\big]",
+        "params": [],
+        "output": "<img src=\"99a1bc12a65fb66cd61b030303e928983587fa7c\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -3.171ex; width:14.151ex; height:7.509ex;\" alt=\"{\\displaystyle \\big( \\Big( \\bigg( \\Bigg( \\dots \\Bigg] \\bigg] \\Big] \\big]}\"\/>"
+    },
+    {
+        "input": "\\big\\{ \\Big\\{ \\bigg\\{ \\Bigg\\{ \\dots \\Bigg\\rangle \\bigg\\rangle \\Big\\rangle \\big\\rangle",
+        "params": [],
+        "output": "<img src=\"65e351449cc40d52dbf2ad2a1d836e2741f206f0\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -3.171ex; width:16.153ex; height:7.509ex;\" alt=\"{\\displaystyle \\big\\{ \\Big\\{ \\bigg\\{ \\Bigg\\{ \\dots \\Bigg\\rangle \\bigg\\rangle \\Big\\rangle \\big\\rangle}\"\/>"
+    },
+    {
+        "input": "\\big\\| \\Big\\| \\bigg\\| \\Bigg\\| \\dots \\Bigg| \\bigg| \\Big| \\big|",
+        "params": [],
+        "output": "<img src=\"1c5fe931db9beaa35a1d0288f03ed78e9ab0a627\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -2.505ex; width:10.735ex; height:6.176ex;\" alt=\"{\\displaystyle \\big\\| \\Big\\| \\bigg\\| \\Bigg\\| \\dots \\Bigg| \\bigg| \\Big| \\big|}\"\/>"
+    },
+    {
+        "input": "\\big\\lfloor \\Big\\lfloor \\bigg\\lfloor \\Bigg\\lfloor \\dots \\Bigg\\rceil \\bigg\\rceil \\Big\\rceil \\big\\rceil",
+        "params": [],
+        "output": "<img src=\"a8634668dcfa57a7987ba348b66c7d6d11797141\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -3.171ex; width:13.828ex; height:7.509ex;\" alt=\"{\\displaystyle \\big\\lfloor \\Big\\lfloor \\bigg\\lfloor \\Bigg\\lfloor \\dots \\Bigg\\rceil \\bigg\\rceil \\Big\\rceil \\big\\rceil}\"\/>"
+    },
+    {
+        "input": "\\big\\uparrow \\Big\\uparrow \\bigg\\uparrow \\Bigg\\uparrow \\dots \\Bigg\\Downarrow \\bigg\\Downarrow \\Big\\Downarrow \\big\\Downarrow",
+        "params": [],
+        "output": "<img src=\"2089af8c2ed9379f304d6ac8c79cbed68f029026\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -2.505ex; width:16.931ex; height:6.176ex;\" alt=\"{\\displaystyle \\big\\uparrow \\Big\\uparrow \\bigg\\uparrow \\Bigg\\uparrow \\dots \\Bigg\\Downarrow \\bigg\\Downarrow \\Big\\Downarrow \\big\\Downarrow}\"\/>"
+    },
+    {
+        "input": "\\big\\updownarrow \\Big\\updownarrow \\bigg\\updownarrow \\Bigg\\updownarrow \\dots \\Bigg\\Updownarrow \\bigg\\Updownarrow \\Big\\Updownarrow \\big\\Updownarrow",
+        "params": [],
+        "output": "<img src=\"28049b3d99792c48e4902fedf7a40f0211efc79b\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -2.505ex; width:16.931ex; height:6.176ex;\" alt=\"{\\displaystyle \\big\\updownarrow \\Big\\updownarrow \\bigg\\updownarrow \\Bigg\\updownarrow \\dots \\Bigg\\Updownarrow \\bigg\\Updownarrow \\Big\\Updownarrow \\big\\Updownarrow}\"\/>"
+    },
+    {
+        "input": "\\big \/ \\Big \/ \\bigg \/ \\Bigg \/ \\dots \\Bigg\\backslash \\bigg\\backslash \\Big\\backslash \\big\\backslash",
+        "params": [],
+        "output": "<img src=\"07beb017c8ac7e3ab0cb28bc736dbbb734c29ac3\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -3.171ex; width:20.745ex; height:7.509ex;\" alt=\"{\\displaystyle \\big \/ \\Big \/ \\bigg \/ \\Bigg \/ \\dots \\Bigg\\backslash \\bigg\\backslash \\Big\\backslash \\big\\backslash}\"\/>"
+    },
+    {
+        "input": "x^2 + y^2 + z^2 = 1 \\,",
+        "params": [],
+        "output": "<img src=\"e339d7887eb50e73917817c0911cb691d25a703f\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -0.671ex; width:17.072ex; height:3.009ex;\" alt=\"{\\displaystyle x^2 + y^2 + z^2 = 1 \\,}\"\/>"
+    },
+    {
+        "input": "\\Alpha \\Beta \\Gamma \\Delta \\Epsilon \\Zeta \\Eta \\Theta \\!",
+        "params": [],
+        "output": "<img src=\"82f43804028111b8f9794810571a37f8f12044c9\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -0.338ex; margin-right: -0.257ex; width:13.202ex; height:2.176ex;\" alt=\"{\\displaystyle \\Alpha \\Beta \\Gamma \\Delta \\Epsilon \\Zeta \\Eta \\Theta \\!}\"\/>"
+    },
+    {
+        "input": "\\Iota \\Kappa \\Lambda \\Mu \\Nu \\Xi \\Pi \\Rho \\!",
+        "params": [],
+        "output": "<img src=\"9382239d77519a755de125b6a68a700100ce0c88\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -0.338ex; margin-right: -0.255ex; width:12.879ex; height:2.176ex;\" alt=\"{\\displaystyle \\Iota \\Kappa \\Lambda \\Mu \\Nu \\Xi \\Pi \\Rho \\!}\"\/>"
+    },
+    {
+        "input": "\\Sigma \\Tau \\Upsilon \\Phi \\Chi \\Psi \\Omega \\!",
+        "params": [],
+        "output": "<img src=\"73d98c55d020b3ee8f18e43c3539bab1e0a80cc3\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -0.338ex; margin-right: -0.283ex; width:11.967ex; height:2.176ex;\" alt=\"{\\displaystyle \\Sigma \\Tau \\Upsilon \\Phi \\Chi \\Psi \\Omega \\!}\"\/>"
+    },
+    {
+        "input": "\\alpha \\beta \\gamma \\delta \\epsilon \\zeta \\eta \\theta \\!",
+        "params": [],
+        "output": "<img src=\"1f1fa7c994c57f64a68311fbf9b4712058a667d1\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -0.838ex; margin-right: -0.371ex; width:9.413ex; height:2.843ex;\" alt=\"{\\displaystyle \\alpha \\beta \\gamma \\delta \\epsilon \\zeta \\eta \\theta \\!}\"\/>"
+    },
+    {
+        "input": "\\iota \\kappa \\lambda \\mu \\nu \\xi \\pi \\rho \\!",
+        "params": [],
+        "output": "<img src=\"e4e926703eb69e2db0fe798b6eee7227c12efff7\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -0.838ex; margin-right: -0.371ex; width:9.699ex; height:2.676ex;\" alt=\"{\\displaystyle \\iota \\kappa \\lambda \\mu \\nu \\xi \\pi \\rho \\!}\"\/>"
+    },
+    {
+        "input": "\\sigma \\tau \\upsilon \\phi \\chi \\psi \\omega \\!",
+        "params": [],
+        "output": "<img src=\"d866673db54d6f08831eacb12bfea2fbc9fc2b44\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -0.671ex; margin-right: -0.345ex; width:9.545ex; height:2.509ex;\" alt=\"{\\displaystyle \\sigma \\tau \\upsilon \\phi \\chi \\psi \\omega \\!}\"\/>"
+    },
+    {
+        "input": "\\varepsilon \\digamma \\varkappa \\varpi \\!",
+        "params": [],
+        "output": "<img src=\"2481b05ddfd4ffbbf5a8b1682548a6dfc24e3e5c\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -0.505ex; margin-right: -0.375ex; width:6.51ex; height:2.176ex;\" alt=\"{\\displaystyle \\varepsilon \\digamma \\varkappa \\varpi \\!}\"\/>"
+    },
+    {
+        "input": "\\varrho \\varsigma \\vartheta \\varphi \\!",
+        "params": [],
+        "output": "<img src=\"1ec959dfb52392412ce040a6398f8097c6a67d1a\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -0.838ex; margin-right: -0.303ex; width:4.954ex; height:2.676ex;\" alt=\"{\\displaystyle \\varrho \\varsigma \\vartheta \\varphi \\!}\"\/>"
+    },
+    {
+        "input": "\\aleph \\beth \\gimel \\daleth \\!",
+        "params": [],
+        "output": "<img src=\"e5ba9400dbe497b8e5c784a35a1473e6a7ea6eae\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -0.338ex; margin-right: -0.324ex; width:5.537ex; height:2.343ex;\" alt=\"{\\displaystyle \\aleph \\beth \\gimel \\daleth \\!}\"\/>"
+    },
+    {
+        "input": "\\mathbb{ABCDEFGHI} \\!",
+        "params": [],
+        "output": "<img src=\"89d2a0c2098f2da06225bc5e154169cd75b55dce\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -0.338ex; margin-right: -0.341ex; width:14.03ex; height:2.176ex;\" alt=\"{\\displaystyle \\mathbb{ABCDEFGHI} \\!}\"\/>"
+    },
+    {
+        "input": "\\mathbb{JKLMNOPQR} \\!",
+        "params": [],
+        "output": "<img src=\"c7e2d2e3efa54736c1b0232bce4760a70a8d9fb5\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -0.671ex; margin-right: -0.348ex; width:15.068ex; height:2.509ex;\" alt=\"{\\displaystyle \\mathbb{JKLMNOPQR} \\!}\"\/>"
+    },
+    {
+        "input": "\\mathbb{STUVWXYZ} \\!",
+        "params": [],
+        "output": "<img src=\"6ade7be7302e56b60b03e49f9cbc57820037340c\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -0.338ex; margin-right: -0.313ex; width:13.355ex; height:2.176ex;\" alt=\"{\\displaystyle \\mathbb{STUVWXYZ} \\!}\"\/>"
+    },
+    {
+        "input": "\\mathbf{ABCDEFGHI} \\!",
+        "params": [],
+        "output": "<img src=\"33cf6e2fd27e376651c49165e76ba33b2272e61b\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -0.338ex; margin-right: -0.327ex; width:16.487ex; height:2.176ex;\" alt=\"{\\displaystyle \\mathbf{ABCDEFGHI} \\!}\"\/>"
+    },
+    {
+        "input": "\\mathbf{JKLMNOPQR} \\!",
+        "params": [],
+        "output": "<img src=\"067b626f6325de5e891ce896f2b420ebb589e8d3\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -0.671ex; margin-right: -0.378ex; width:17.548ex; height:2.509ex;\" alt=\"{\\displaystyle \\mathbf{JKLMNOPQR} \\!}\"\/>"
+    },
+    {
+        "input": "\\mathbf{STUVWXYZ} \\!",
+        "params": [],
+        "output": "<img src=\"8a38b19b40ca1b0605af31b4a3a1df5f8de3a3c0\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -0.338ex; margin-right: -0.252ex; width:15.722ex; height:2.176ex;\" alt=\"{\\displaystyle \\mathbf{STUVWXYZ} \\!}\"\/>"
+    },
+    {
+        "input": "\\mathbf{abcdefghijklm} \\!",
+        "params": [],
+        "output": "<img src=\"71b17a017618ec3d294c832218768fc1826ce6cf\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -0.671ex; margin-right: -0.35ex; width:16.459ex; height:2.509ex;\" alt=\"{\\displaystyle \\mathbf{abcdefghijklm} \\!}\"\/>"
+    },
+    {
+        "input": "\\mathbf{nopqrstuvwxyz} \\!",
+        "params": [],
+        "output": "<img src=\"0413edf071a037cd73f4aafe84baa881f4b229e1\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -0.671ex; margin-right: -0.273ex; width:17.644ex; height:2.343ex;\" alt=\"{\\displaystyle \\mathbf{nopqrstuvwxyz} \\!}\"\/>"
+    },
+    {
+        "input": "\\mathbf{0123456789} \\!",
+        "params": [],
+        "output": "<img src=\"119f03cc1a8da2a108c4ecb4eb553e4b84ff9b34\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -0.338ex; margin-right: -0.273ex; width:13.253ex; height:2.176ex;\" alt=\"{\\displaystyle \\mathbf{0123456789} \\!}\"\/>"
+    },
+    {
+        "input": "\\boldsymbol{\\Alpha\\Beta\\Gamma\\Delta\\Epsilon\\Zeta\\Eta\\Theta} \\!",
+        "params": [],
+        "output": "<img src=\"0c83cb7df7f044f02b38ab6a78e1fed1f6a8a100\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -0.338ex; margin-right: -0.238ex; width:15.167ex; height:2.176ex;\" alt=\"{\\displaystyle \\boldsymbol{\\Alpha\\Beta\\Gamma\\Delta\\Epsilon\\Zeta\\Eta\\Theta} \\!}\"\/>"
+    },
+    {
+        "input": "\\boldsymbol{\\Iota\\Kappa\\Lambda\\Mu\\Nu\\Xi\\Pi\\Rho} \\!",
+        "params": [],
+        "output": "<img src=\"790432fd3039c988314240181e84f1a6a32621c2\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -0.338ex; margin-right: -0.238ex; width:15.162ex; height:2.176ex;\" alt=\"{\\displaystyle \\boldsymbol{\\Iota\\Kappa\\Lambda\\Mu\\Nu\\Xi\\Pi\\Rho} \\!}\"\/>"
+    },
+    {
+        "input": "\\boldsymbol{\\Sigma\\Tau\\Upsilon\\Phi\\Chi\\Psi\\Omega} \\!",
+        "params": [],
+        "output": "<img src=\"889b7088e75847676f5c8315cb6bf585dc309ad2\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -0.338ex; margin-right: -0.266ex; width:13.707ex; height:2.176ex;\" alt=\"{\\displaystyle \\boldsymbol{\\Sigma\\Tau\\Upsilon\\Phi\\Chi\\Psi\\Omega} \\!}\"\/>"
+    },
+    {
+        "input": "\\boldsymbol{\\alpha\\beta\\gamma\\delta\\epsilon\\zeta\\eta\\theta} \\!",
+        "params": [],
+        "output": "<img src=\"510225cd89b8554bca4c44cb20bc72d877b54bb7\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -0.671ex; margin-right: -0.369ex; width:10.967ex; height:2.676ex;\" alt=\"{\\displaystyle \\boldsymbol{\\alpha\\beta\\gamma\\delta\\epsilon\\zeta\\eta\\theta} \\!}\"\/>"
+    },
+    {
+        "input": "\\boldsymbol{\\iota\\kappa\\lambda\\mu\\nu\\xi\\pi\\rho} \\!",
+        "params": [],
+        "output": "<img src=\"6de42e01f77daf685d45738d51f3a022cb05e418\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -0.671ex; margin-right: -0.366ex; width:11.297ex; height:2.509ex;\" alt=\"{\\displaystyle \\boldsymbol{\\iota\\kappa\\lambda\\mu\\nu\\xi\\pi\\rho} \\!}\"\/>"
+    },
+    {
+        "input": "\\boldsymbol{\\sigma\\tau\\upsilon\\phi\\chi\\psi\\omega} \\!",
+        "params": [],
+        "output": "<img src=\"9c4f8a066d49a944b310ab52ba5a729ff478969b\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -0.671ex; margin-right: -0.324ex; width:11.17ex; height:2.509ex;\" alt=\"{\\displaystyle \\boldsymbol{\\sigma\\tau\\upsilon\\phi\\chi\\psi\\omega} \\!}\"\/>"
+    },
+    {
+        "input": "\\boldsymbol{\\varepsilon\\digamma\\varkappa\\varpi} \\!",
+        "params": [],
+        "output": "<img src=\"755fde707034fb4382298a86487844b3994a31d2\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -0.505ex; margin-right: -0.355ex; width:6.977ex; height:2.176ex;\" alt=\"{\\displaystyle \\boldsymbol{\\varepsilon\\digamma\\varkappa\\varpi} \\!}\"\/>"
+    },
+    {
+        "input": "\\boldsymbol{\\varrho\\varsigma\\vartheta\\varphi} \\!",
+        "params": [],
+        "output": "<img src=\"b65ad666b70b05cb0f4b7a6f18865c2e82e7c290\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -0.838ex; margin-right: -0.285ex; width:5.728ex; height:2.676ex;\" alt=\"{\\displaystyle \\boldsymbol{\\varrho\\varsigma\\vartheta\\varphi} \\!}\"\/>"
+    },
+    {
+        "input": "\\mathit{0123456789} \\!",
+        "params": [],
+        "output": "<img src=\"f6718f46faff56dc50e3ec2df7d915919ff3a316\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -0.671ex; margin-right: -0.487ex; width:11.98ex; height:2.509ex;\" alt=\"{\\displaystyle \\mathit{0123456789} \\!}\"\/>"
+    },
+    {
+        "input": "\\mathit{\\Alpha\\Beta\\Gamma\\Delta\\Epsilon\\Zeta\\Eta\\Theta} \\!",
+        "params": [],
+        "output": "<img src=\"0b1d5efe56a976f96d71a5aa2696609d1160eef8\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -0.338ex; margin-right: -0.436ex; width:13.325ex; height:2.176ex;\" alt=\"{\\displaystyle \\mathit{\\Alpha\\Beta\\Gamma\\Delta\\Epsilon\\Zeta\\Eta\\Theta} \\!}\"\/>"
+    },
+    {
+        "input": "\\mathit{\\Iota\\Kappa\\Lambda\\Mu\\Nu\\Xi\\Pi\\Rho} \\!",
+        "params": [],
+        "output": "<img src=\"7e28ffe8b2c20f58e5f16a5d9e84fe1fca785f49\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -0.338ex; margin-right: -0.255ex; width:12.851ex; height:2.176ex;\" alt=\"{\\displaystyle \\mathit{\\Iota\\Kappa\\Lambda\\Mu\\Nu\\Xi\\Pi\\Rho} \\!}\"\/>"
+    },
+    {
+        "input": "\\mathit{\\Sigma\\Tau\\Upsilon\\Phi\\Chi\\Psi\\Omega} \\!",
+        "params": [],
+        "output": "<img src=\"a8d84a835a89fc154ef4db04b58d167e9536de74\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -0.338ex; margin-right: -0.487ex; width:12.079ex; height:2.176ex;\" alt=\"{\\displaystyle \\mathit{\\Sigma\\Tau\\Upsilon\\Phi\\Chi\\Psi\\Omega} \\!}\"\/>"
+    },
+    {
+        "input": "\\mathrm{ABCDEFGHI} \\!",
+        "params": [],
+        "output": "<img src=\"bd9faffd870b8f5e3c149628b95c49aee52a030d\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -0.338ex; margin-right: -0.336ex; width:14.299ex; height:2.176ex;\" alt=\"{\\displaystyle \\mathrm{ABCDEFGHI} \\!}\"\/>"
+    },
+    {
+        "input": "\\mathrm{JKLMNOPQR} \\!",
+        "params": [],
+        "output": "<img src=\"74e8d3c1c1664e14a0f5e44ff35399f6522fa532\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -0.671ex; margin-right: -0.378ex; width:15.23ex; height:2.509ex;\" alt=\"{\\displaystyle \\mathrm{JKLMNOPQR} \\!}\"\/>"
+    },
+    {
+        "input": "\\mathrm{STUVWXYZ} \\!",
+        "params": [],
+        "output": "<img src=\"3f3592bdd9a59737a6508f773e1b4119bd74e260\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -0.338ex; margin-right: -0.269ex; width:13.634ex; height:2.176ex;\" alt=\"{\\displaystyle \\mathrm{STUVWXYZ} \\!}\"\/>"
+    },
+    {
+        "input": "\\mathrm{abcdefghijklm} \\!",
+        "params": [],
+        "output": "<img src=\"68e3756e4483824bf0d03880dc818fb2c28383cf\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -0.671ex; margin-right: -0.355ex; width:14.269ex; height:2.509ex;\" alt=\"{\\displaystyle \\mathrm{abcdefghijklm} \\!}\"\/>"
+    },
+    {
+        "input": "\\mathrm{nopqrstuvwxyz} \\!",
+        "params": [],
+        "output": "<img src=\"0412c36d37908ae2f1258622329dc598774eb9b0\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -0.671ex; margin-right: -0.287ex; width:15.309ex; height:2.343ex;\" alt=\"{\\displaystyle \\mathrm{nopqrstuvwxyz} \\!}\"\/>"
+    },
+    {
+        "input": "\\mathrm{0123456789} \\!",
+        "params": [],
+        "output": "<img src=\"acde649aa14cee0f89fcee5c8159193c2832a63b\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -0.338ex; margin-right: -0.285ex; width:11.522ex; height:2.176ex;\" alt=\"{\\displaystyle \\mathrm{0123456789} \\!}\"\/>"
+    },
+    {
+        "input": "\\mathsf{ABCDEFGHI} \\!",
+        "params": [],
+        "output": "<img src=\"f5d94ce4cc8b8fac3f7b81cf79968dd8851f1909\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -0.338ex; margin-right: -0.185ex; width:12.615ex; height:2.176ex;\" alt=\"{\\displaystyle \\mathsf{ABCDEFGHI} \\!}\"\/>"
+    },
+    {
+        "input": "\\mathsf{JKLMNOPQR} \\!",
+        "params": [],
+        "output": "<img src=\"0851df6703fb8d100b569f6e3a1f83027b86d773\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -0.505ex; margin-right: -0.32ex; width:13.99ex; height:2.343ex;\" alt=\"{\\displaystyle \\mathsf{JKLMNOPQR} \\!}\"\/>"
+    },
+    {
+        "input": "\\mathsf{STUVWXYZ} \\!",
+        "params": [],
+        "output": "<img src=\"aa246c62c6538e597e3af28e12868fb27da50789\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -0.338ex; margin-right: -0.269ex; width:12.621ex; height:2.176ex;\" alt=\"{\\displaystyle \\mathsf{STUVWXYZ} \\!}\"\/>"
+    },
+    {
+        "input": "\\mathsf{abcdefghijklm} \\!",
+        "params": [],
+        "output": "<img src=\"5644a0d441501f1a67e3b19512c930da9f2bc300\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -0.671ex; margin-right: -0.215ex; width:13.303ex; height:2.509ex;\" alt=\"{\\displaystyle \\mathsf{abcdefghijklm} \\!}\"\/>"
+    },
+    {
+        "input": "\\mathsf{nopqrstuvwxyz} \\!",
+        "params": [],
+        "output": "<img src=\"042ba43ae56f9a5a6e26b25febf576be0edf0001\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -0.671ex; margin-right: -0.31ex; width:14.234ex; height:2.176ex;\" alt=\"{\\displaystyle \\mathsf{nopqrstuvwxyz} \\!}\"\/>"
+    },
+    {
+        "input": "\\mathsf{0123456789} \\!",
+        "params": [],
+        "output": "<img src=\"18b98f588d93de8f6e0aa53dadc3897cd11d4ce0\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -0.338ex; margin-right: -0.287ex; width:11.525ex; height:2.176ex;\" alt=\"{\\displaystyle \\mathsf{0123456789} \\!}\"\/>"
+    },
+    {
+        "input": "\\mathsf{\\Alpha \\Beta \\Gamma \\Delta \\Epsilon \\Zeta \\Eta \\Theta} \\!",
+        "params": [],
+        "output": "<img src=\"02a0605e715cdbf9f7455cb28b8c6a2ae11aca1d\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -0.338ex; margin-right: -0.257ex; width:13.009ex; height:2.176ex;\" alt=\"{\\displaystyle \\mathsf{\\Alpha \\Beta \\Gamma \\Delta \\Epsilon \\Zeta \\Eta \\Theta} \\!}\"\/>"
+    },
+    {
+        "input": "\\mathsf{\\Iota \\Kappa \\Lambda \\Mu \\Nu \\Xi \\Pi \\Rho} \\!",
+        "params": [],
+        "output": "<img src=\"59ad51f9bd79b012674977e87edb5602514ae7bc\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -0.338ex; margin-right: -0.255ex; width:12.588ex; height:2.176ex;\" alt=\"{\\displaystyle \\mathsf{\\Iota \\Kappa \\Lambda \\Mu \\Nu \\Xi \\Pi \\Rho} \\!}\"\/>"
+    },
+    {
+        "input": "\\mathsf{\\Sigma \\Tau \\Upsilon \\Phi \\Chi \\Psi \\Omega}\\!",
+        "params": [],
+        "output": "<img src=\"15da27b3acff9a9868a9bc753734ba91b7d31cd5\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -0.338ex; margin-right: -0.283ex; width:11.967ex; height:2.176ex;\" alt=\"{\\displaystyle \\mathsf{\\Sigma \\Tau \\Upsilon \\Phi \\Chi \\Psi \\Omega}\\!}\"\/>"
+    },
+    {
+        "input": "\\mathcal{ABCDEFGHI} \\!",
+        "params": [],
+        "output": "<img src=\"6e9a46bdbeae13edf23a597f11fdc852eb2b407a\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -0.505ex; margin-right: -0.387ex; width:14.564ex; height:2.509ex;\" alt=\"{\\displaystyle \\mathcal{ABCDEFGHI} \\!}\"\/>"
+    },
+    {
+        "input": "\\mathcal{JKLMNOPQR} \\!",
+        "params": [],
+        "output": "<img src=\"ce0ecdcd9eeedf6b46262924ba0dc59e13847b5f\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -0.505ex; margin-right: -0.362ex; width:17.788ex; height:2.676ex;\" alt=\"{\\displaystyle \\mathcal{JKLMNOPQR} \\!}\"\/>"
+    },
+    {
+        "input": "\\mathcal{STUVWXYZ} \\!",
+        "params": [],
+        "output": "<img src=\"a0dae3290b5d0db0687eabb678a0a64276b511d1\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -0.671ex; margin-right: -0.387ex; width:14.277ex; height:2.676ex;\" alt=\"{\\displaystyle \\mathcal{STUVWXYZ} \\!}\"\/>"
+    },
+    {
+        "input": "\\mathfrak{ABCDEFGHI} \\!",
+        "params": [],
+        "output": "<img src=\"4a204391ff73dacd0db9f6e77fe32ddeb8defb39\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -0.671ex; margin-right: -0.336ex; width:14.78ex; height:2.509ex;\" alt=\"{\\displaystyle \\mathfrak{ABCDEFGHI} \\!}\"\/>"
+    },
+    {
+        "input": "\\mathfrak{JKLMNOPQR} \\!",
+        "params": [],
+        "output": "<img src=\"e36033f681da4e184041f2829b00cd142ded3885\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -0.838ex; margin-left: -0.022ex; margin-right: -0.378ex; width:16.495ex; height:2.843ex;\" alt=\"{\\displaystyle \\mathfrak{JKLMNOPQR} \\!}\"\/>"
+    },
+    {
+        "input": "\\mathfrak{STUVWXYZ} \\!",
+        "params": [],
+        "output": "<img src=\"d680e31a1bcf4a4e917330849a9aef8e0beedaf0\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -0.838ex; margin-right: -0.225ex; width:14.268ex; height:2.843ex;\" alt=\"{\\displaystyle \\mathfrak{STUVWXYZ} \\!}\"\/>"
+    },
+    {
+        "input": "\\mathfrak{abcdefghijklm} \\!",
+        "params": [],
+        "output": "<img src=\"663b79f0190b052cf91d474ff63c09b52921300d\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -0.838ex; margin-right: -0.355ex; width:13.103ex; height:2.676ex;\" alt=\"{\\displaystyle \\mathfrak{abcdefghijklm} \\!}\"\/>"
+    },
+    {
+        "input": "\\mathfrak{nopqrstuvwxyz} \\!",
+        "params": [],
+        "output": "<img src=\"a931df7f2fac6ca0ecb4e0330aaf0231f87fa45d\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -0.838ex; margin-right: -0.208ex; width:14.392ex; height:2.509ex;\" alt=\"{\\displaystyle \\mathfrak{nopqrstuvwxyz} \\!}\"\/>"
+    },
+    {
+        "input": "\\mathfrak{0123456789} \\!",
+        "params": [],
+        "output": "<img src=\"9f69341e24a51c6b70ff6c2ea0fc0abfa3bf3eb3\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -0.671ex; margin-right: -0.303ex; width:11.587ex; height:2.509ex;\" alt=\"{\\displaystyle \\mathfrak{0123456789} \\!}\"\/>"
+    },
+    {
+        "input": "x y z",
+        "params": [],
+        "output": "<img src=\"4d3957b3fbfe29dfdb2f7cdad4e3d7fc2ea7be84\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -0.671ex; width:3.573ex; height:2.009ex;\" alt=\"{\\displaystyle x y z}\"\/>"
+    },
+    {
+        "input": "\\text{x y z}",
+        "params": [],
+        "output": "<img src=\"97107836419627c15d881f23d125b73c126cf751\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -0.671ex; width:4.649ex; height:2.009ex;\" alt=\"{\\displaystyle \\text{x y z}}\"\/>"
+    },
+    {
+        "input": "\\text{if} n \\text{is even}",
+        "params": [],
+        "output": "<img src=\"3efb49838b82dbc6a63f4a86d1fa09d53693c13e\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -0.338ex; width:9.482ex; height:2.176ex;\" alt=\"{\\displaystyle \\text{if} n \\text{is even}}\"\/>"
+    },
+    {
+        "input": "\\text{if }n\\text{ is even}",
+        "params": [],
+        "output": "<img src=\"40cee08717362e9643aaabba9cf13c003dc4f700\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -0.338ex; width:10.643ex; height:2.176ex;\" alt=\"{\\displaystyle \\text{if }n\\text{ is even}}\"\/>"
+    },
+    {
+        "input": "\\text{if}~n\\ \\text{is even}",
+        "params": [],
+        "output": "<img src=\"85b47cc0c6f607bc897e23a6bbcfdbff91f58b1a\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -0.338ex; width:10.643ex; height:2.176ex;\" alt=\"{\\displaystyle \\text{if}~n\\ \\text{is even}}\"\/>"
+    },
+    {
+        "input": "{\\color{Blue}x^2}+{\\color{YellowOrange}2x}-{\\color{OliveGreen}1}",
+        "params": [],
+        "output": "<img src=\"172aecf5421447fec710001211571d8750a677d0\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -0.505ex; width:11.719ex; height:2.843ex;\" alt=\"{\\displaystyle {\\color{Blue}x^2}+{\\color{YellowOrange}2x}-{\\color{OliveGreen}1}}\"\/>"
+    },
+    {
+        "input": "x_{1,2}=\\frac{-b\\pm\\sqrt{\\color{Red}b^2-4ac}}{2a}",
+        "params": [],
+        "output": "<img src=\"60ecbd23cb71c7e73f62228506a6d3dee38f27d3\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -1.838ex; width:23.859ex; height:6.176ex;\" alt=\"{\\displaystyle x_{1,2}=\\frac{-b\\pm\\sqrt{\\color{Red}b^2-4ac}}{2a}}\"\/>"
+    },
+    {
+        "input": "e^{i \\pi} + 1 = 0",
+        "params": [],
+        "output": "<img src=\"a7464809a40f9e486de3a454745f572fbf8bb256\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -0.505ex; width:11.089ex; height:2.843ex;\" alt=\"{\\displaystyle e^{i \\pi} + 1 = 0}\"\/>"
+    },
+    {
+        "input": "\\definecolor{orange}{RGB}{255,165,0}\\pagecolor{orange}e^{i \\pi} + 1 = 0",
+        "params": [],
+        "output": "<img src=\"8547bf687934c9f1c128fb6b19a9f123d58d347a\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -0.505ex; width:11.089ex; height:2.843ex;\" alt=\"{\\displaystyle \\definecolor{orange}{RGB}{255,165,0}\\pagecolor{orange}e^{i \\pi} + 1 = 0}\"\/>"
+    },
+    {
+        "input": "e^{i \\pi} + 1 = 0\\,\\!",
+        "params": [],
+        "output": "<img src=\"14a4e1368f4d103725648bb4c6d24405a755f8d3\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -0.505ex; margin-right: -0.387ex; width:11.476ex; height:2.843ex;\" alt=\"{\\displaystyle e^{i \\pi} + 1 = 0\\,\\!}\"\/>"
+    },
+    {
+        "input": "\\definecolor{orange}{RGB}{255,165,0}\\pagecolor{orange}e^{i \\pi} + 1 = 0",
+        "params": [],
+        "output": "<img src=\"8547bf687934c9f1c128fb6b19a9f123d58d347a\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -0.505ex; width:11.089ex; height:2.843ex;\" alt=\"{\\displaystyle \\definecolor{orange}{RGB}{255,165,0}\\pagecolor{orange}e^{i \\pi} + 1 = 0}\"\/>"
+    },
+    {
+        "input": "e^{i \\pi} + 1 = 0",
+        "params": [],
+        "output": "<img src=\"a7464809a40f9e486de3a454745f572fbf8bb256\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -0.505ex; width:11.089ex; height:2.843ex;\" alt=\"{\\displaystyle e^{i \\pi} + 1 = 0}\"\/>"
+    },
+    {
+        "input": "\\definecolor{orange}{RGB}{255,165,0}\\pagecolor{orange}e^{i \\pi} + 1 = 0",
+        "params": [],
+        "output": "<img src=\"8547bf687934c9f1c128fb6b19a9f123d58d347a\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -0.505ex; width:11.089ex; height:2.843ex;\" alt=\"{\\displaystyle \\definecolor{orange}{RGB}{255,165,0}\\pagecolor{orange}e^{i \\pi} + 1 = 0}\"\/>"
+    },
+    {
+        "input": "\\color{Apricot}\\text{Apricot}",
+        "params": [],
+        "output": "<img src=\"1af7b0a0587815720879c32352ba1d79025b0f76\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -0.671ex; width:7.694ex; height:2.509ex;\" alt=\"{\\displaystyle \\color{Apricot}\\text{Apricot}}\"\/>"
+    },
+    {
+        "input": "\\color{Aquamarine}\\text{Aquamarine}",
+        "params": [],
+        "output": "<img src=\"94cd7f57b17f6692bfe6773161b8db35cb0d15ca\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -0.671ex; width:12.407ex; height:2.509ex;\" alt=\"{\\displaystyle \\color{Aquamarine}\\text{Aquamarine}}\"\/>"
+    },
+    {
+        "input": "\\color{Bittersweet}\\text{Bittersweet}",
+        "params": [],
+        "output": "<img src=\"e39467f93b5012b3d2818e39a490e543ea4c7ee1\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -0.338ex; width:11.609ex; height:2.176ex;\" alt=\"{\\displaystyle \\color{Bittersweet}\\text{Bittersweet}}\"\/>"
+    },
+    {
+        "input": "\\color{Black}\\text{Black}",
+        "params": [],
+        "output": "<img src=\"028d34eea3bcf8eae2461d4a2f4b0d4ed6ce52cb\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -0.338ex; width:5.715ex; height:2.176ex;\" alt=\"{\\displaystyle \\color{Black}\\text{Black}}\"\/>"
+    },
+    {
+        "input": "\\color{Blue}\\text{Blue}",
+        "params": [],
+        "output": "<img src=\"27d62dadaaf4024997c55f8783cb9104072b3582\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -0.338ex; width:4.617ex; height:2.176ex;\" alt=\"{\\displaystyle \\color{Blue}\\text{Blue}}\"\/>"
+    },
+    {
+        "input": "\\color{BlueGreen}\\text{BlueGreen}",
+        "params": [],
+        "output": "<img src=\"ad026317d58810592e1dffb436cf588dfcdfa4da\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -0.338ex; width:10.711ex; height:2.176ex;\" alt=\"{\\displaystyle \\color{BlueGreen}\\text{BlueGreen}}\"\/>"
+    },
+    {
+        "input": "\\color{BlueViolet}\\text{BlueViolet}",
+        "params": [],
+        "output": "<img src=\"17030d46bab59bba86e89eb7fc9f31ce9ec012be\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -0.338ex; width:10.754ex; height:2.176ex;\" alt=\"{\\displaystyle \\color{BlueViolet}\\text{BlueViolet}}\"\/>"
+    },
+    {
+        "input": "\\color{BrickRed}\\text{BrickRed}",
+        "params": [],
+        "output": "<img src=\"d54112f2691124ec6cab99e2ee25108511de92d1\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -0.338ex; width:9.499ex; height:2.176ex;\" alt=\"{\\displaystyle \\color{BrickRed}\\text{BrickRed}}\"\/>"
+    },
+    {
+        "input": "\\color{Brown}\\text{Brown}",
+        "params": [],
+        "output": "<img src=\"74395b772d0aee45384f928f8dd5e298896538d3\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -0.338ex; width:6.69ex; height:2.176ex;\" alt=\"{\\displaystyle \\color{Brown}\\text{Brown}}\"\/>"
+    },
+    {
+        "input": "\\color{BurntOrange}\\text{BurntOrange}",
+        "params": [],
+        "output": "<img src=\"399d21d2f1a46daa9d2b211218e1c082d85a9b29\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -0.671ex; width:13.416ex; height:2.509ex;\" alt=\"{\\displaystyle \\color{BurntOrange}\\text{BurntOrange}}\"\/>"
+    },
+    {
+        "input": "\\color{CadetBlue}\\text{CadetBlue}",
+        "params": [],
+        "output": "<img src=\"fe6b6b110c0990c23015a2df54f2ff33685bcc07\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -0.338ex; width:10.687ex; height:2.176ex;\" alt=\"{\\displaystyle \\color{CadetBlue}\\text{CadetBlue}}\"\/>"
+    },
+    {
+        "input": "\\color{CarnationPink}\\text{CarnationPink}",
+        "params": [],
+        "output": "<img src=\"6972d3553b5588a9faaf1a41df402abb414f9dd2\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -0.338ex; width:14.963ex; height:2.176ex;\" alt=\"{\\displaystyle \\color{CarnationPink}\\text{CarnationPink}}\"\/>"
+    },
+    {
+        "input": "\\color{Cerulean}\\text{Cerulean}",
+        "params": [],
+        "output": "<img src=\"30b8fbf0e1b5388991c92e30db3d0efe7c70608a\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -0.338ex; width:9.049ex; height:2.176ex;\" alt=\"{\\displaystyle \\color{Cerulean}\\text{Cerulean}}\"\/>"
+    },
+    {
+        "input": "\\color{CornflowerBlue}\\text{CornflowerBlue}",
+        "params": [],
+        "output": "<img src=\"5f5cca6db097d487d56aa0c0fa3a255c383a03a4\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -0.338ex; width:15.805ex; height:2.176ex;\" alt=\"{\\displaystyle \\color{CornflowerBlue}\\text{CornflowerBlue}}\"\/>"
+    },
+    {
+        "input": "\\color{Cyan}\\text{Cyan}",
+        "params": [],
+        "output": "<img src=\"93335b8295443ac59d0a5dd3d3efb32f9727089b\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -0.671ex; width:5.361ex; height:2.509ex;\" alt=\"{\\displaystyle \\color{Cyan}\\text{Cyan}}\"\/>"
+    },
+    {
+        "input": "\\color{Dandelion}\\text{Dandelion}",
+        "params": [],
+        "output": "<img src=\"9fbe3bcf5e08ec234d886a6091c65259663166a1\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -0.338ex; width:10.304ex; height:2.176ex;\" alt=\"{\\displaystyle \\color{Dandelion}\\text{Dandelion}}\"\/>"
+    },
+    {
+        "input": "\\color{DarkOrchid}\\text{DarkOrchid}",
+        "params": [],
+        "output": "<img src=\"066266243b8b236e56d90175ebb3f9ad766c412e\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -0.338ex; width:12.061ex; height:2.176ex;\" alt=\"{\\displaystyle \\color{DarkOrchid}\\text{DarkOrchid}}\"\/>"
+    },
+    {
+        "input": "\\color{Emerald}\\text{Emerald}",
+        "params": [],
+        "output": "<img src=\"4f359e904d77c52e19a9845dffd7b63cde08a079\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -0.338ex; width:8.565ex; height:2.176ex;\" alt=\"{\\displaystyle \\color{Emerald}\\text{Emerald}}\"\/>"
+    },
+    {
+        "input": "\\color{ForestGreen}\\text{ForestGreen}",
+        "params": [],
+        "output": "<img src=\"e6aea4368de0cccd210fb7533595871ee2433c9a\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -0.338ex; width:12.538ex; height:2.176ex;\" alt=\"{\\displaystyle \\color{ForestGreen}\\text{ForestGreen}}\"\/>"
+    },
+    {
+        "input": "\\color{Fuchsia}\\text{Fuchsia}",
+        "params": [],
+        "output": "<img src=\"64dacdb2abb2551459b0fef061101925625470cf\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -0.338ex; width:7.861ex; height:2.176ex;\" alt=\"{\\displaystyle \\color{Fuchsia}\\text{Fuchsia}}\"\/>"
+    },
+    {
+        "input": "\\color{Goldenrod}\\text{Goldenrod}",
+        "params": [],
+        "output": "<img src=\"783cfa0b1509eeae1386260fa7f1b03c2f1f4c88\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -0.338ex; width:10.618ex; height:2.176ex;\" alt=\"{\\displaystyle \\color{Goldenrod}\\text{Goldenrod}}\"\/>"
+    },
+    {
+        "input": "\\color{Gray}\\text{Gray}",
+        "params": [],
+        "output": "<img src=\"7cde320b58d41bfbfc4db04a6f8e72a83386aa66\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -0.671ex; width:5.126ex; height:2.509ex;\" alt=\"{\\displaystyle \\color{Gray}\\text{Gray}}\"\/>"
+    },
+    {
+        "input": "\\color{Green}\\text{Green}",
+        "params": [],
+        "output": "<img src=\"31fa58df27edf3b9ee5da67fe3dc860ab5e2f800\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -0.338ex; width:6.093ex; height:2.176ex;\" alt=\"{\\displaystyle \\color{Green}\\text{Green}}\"\/>"
+    },
+    {
+        "input": "\\color{GreenYellow}\\text{GreenYellow}",
+        "params": [],
+        "output": "<img src=\"b70292ded8a12b4eb357592a7fa2f24af7785c19\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -0.338ex; width:13.003ex; height:2.176ex;\" alt=\"{\\displaystyle \\color{GreenYellow}\\text{GreenYellow}}\"\/>"
+    },
+    {
+        "input": "\\color{JungleGreen}\\text{JungleGreen}",
+        "params": [],
+        "output": "<img src=\"e87c7011e935788081747479bfcdd587960429fe\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -0.671ex; width:12.715ex; height:2.509ex;\" alt=\"{\\displaystyle \\color{JungleGreen}\\text{JungleGreen}}\"\/>"
+    },
+    {
+        "input": "\\color{Lavender}\\text{Lavender}",
+        "params": [],
+        "output": "<img src=\"9aa0a82450646a8de1897099f9c6f8c612506bf8\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -0.338ex; width:9.404ex; height:2.176ex;\" alt=\"{\\displaystyle \\color{Lavender}\\text{Lavender}}\"\/>"
+    },
+    {
+        "input": "\\color{LimeGreen}\\text{LimeGreen}",
+        "params": [],
+        "output": "<img src=\"c795d60e88070f8cc1b58bb44f892ad0526ca2fe\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -0.338ex; width:11.161ex; height:2.176ex;\" alt=\"{\\displaystyle \\color{LimeGreen}\\text{LimeGreen}}\"\/>"
+    },
+    {
+        "input": "\\color{Magenta}\\text{Magenta}",
+        "params": [],
+        "output": "<img src=\"f37c86c1247d31b337934296c4ec8ff1a97d977a\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -0.671ex; width:8.848ex; height:2.509ex;\" alt=\"{\\displaystyle \\color{Magenta}\\text{Magenta}}\"\/>"
+    },
+    {
+        "input": "\\color{Mahogany}\\text{Mahogany}",
+        "params": [],
+        "output": "<img src=\"608ecfbf467f6e64f26de823561bef63d2abcec9\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -0.671ex; width:10.593ex; height:2.509ex;\" alt=\"{\\displaystyle \\color{Mahogany}\\text{Mahogany}}\"\/>"
+    },
+    {
+        "input": "\\color{Maroon}\\text{Maroon}",
+        "params": [],
+        "output": "<img src=\"044067e35c6d7300bb3eae363ded1474ba41cc66\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -0.338ex; width:7.822ex; height:2.176ex;\" alt=\"{\\displaystyle \\color{Maroon}\\text{Maroon}}\"\/>"
+    },
+    {
+        "input": "\\color{Melon}\\text{Melon}",
+        "params": [],
+        "output": "<img src=\"5b294c896e672f30be984a6ed6231133a5c21759\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -0.338ex; width:6.265ex; height:2.176ex;\" alt=\"{\\displaystyle \\color{Melon}\\text{Melon}}\"\/>"
+    },
+    {
+        "input": "\\color{MidnightBlue}\\text{MidnightBlue}",
+        "params": [],
+        "output": "<img src=\"fc907eed134a852f879bcefcc6d13b6f3be1bd9e\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -0.671ex; width:13.987ex; height:2.509ex;\" alt=\"{\\displaystyle \\color{MidnightBlue}\\text{MidnightBlue}}\"\/>"
+    },
+    {
+        "input": "\\color{Mulberry}\\text{Mulberry}",
+        "params": [],
+        "output": "<img src=\"4f2f17a6590904b66c988f413f2d7c4b87b5b9b1\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -0.671ex; width:9.446ex; height:2.509ex;\" alt=\"{\\displaystyle \\color{Mulberry}\\text{Mulberry}}\"\/>"
+    },
+    {
+        "input": "\\color{NavyBlue}\\text{NavyBlue}",
+        "params": [],
+        "output": "<img src=\"48fd2fded6ba3f887be3d2804cba25aa16df71b1\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -0.671ex; width:9.978ex; height:2.509ex;\" alt=\"{\\displaystyle \\color{NavyBlue}\\text{NavyBlue}}\"\/>"
+    },
+    {
+        "input": "\\color{OliveGreen}\\text{OliveGreen}",
+        "params": [],
+        "output": "<img src=\"e9d7067aca83dcc1e06c13aabc5eb9b6797d7aad\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -0.338ex; width:11.455ex; height:2.176ex;\" alt=\"{\\displaystyle \\color{OliveGreen}\\text{OliveGreen}}\"\/>"
+    },
+    {
+        "input": "\\color{Orange}\\text{Orange}",
+        "params": [],
+        "output": "<img src=\"e3353fcf1a14db06c2231c94f31d3d81a795cbdc\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -0.671ex; width:7.37ex; height:2.509ex;\" alt=\"{\\displaystyle \\color{Orange}\\text{Orange}}\"\/>"
+    },
+    {
+        "input": "\\color{OrangeRed}\\text{OrangeRed}",
+        "params": [],
+        "output": "<img src=\"f017a4f98a7e517114678c038dbcb578154d7e90\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -0.671ex; width:11.405ex; height:2.509ex;\" alt=\"{\\displaystyle \\color{OrangeRed}\\text{OrangeRed}}\"\/>"
+    },
+    {
+        "input": "\\color{Orchid}\\text{Orchid}",
+        "params": [],
+        "output": "<img src=\"08e38d66a6682711544fae2a1b11871b597b7d31\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -0.338ex; width:6.984ex; height:2.176ex;\" alt=\"{\\displaystyle \\color{Orchid}\\text{Orchid}}\"\/>"
+    },
+    {
+        "input": "\\color{Peach}\\text{Peach}",
+        "params": [],
+        "output": "<img src=\"bf121e2665402a0f97e2ef8a06aaf0ce094d7c8f\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -0.338ex; width:6.103ex; height:2.176ex;\" alt=\"{\\displaystyle \\color{Peach}\\text{Peach}}\"\/>"
+    },
+    {
+        "input": "\\color{Periwinkle}\\text{Periwinkle}",
+        "params": [],
+        "output": "<img src=\"63cfcff2b07c668ea68466dc3fae0d75b68f06ac\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -0.338ex; width:10.698ex; height:2.176ex;\" alt=\"{\\displaystyle \\color{Periwinkle}\\text{Periwinkle}}\"\/>"
+    },
+    {
+        "input": "\\color{PineGreen}\\text{PineGreen}",
+        "params": [],
+        "output": "<img src=\"a2482178ba361a0252af0346b3470b3e9cbd9ea7\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -0.338ex; width:10.648ex; height:2.176ex;\" alt=\"{\\displaystyle \\color{PineGreen}\\text{PineGreen}}\"\/>"
+    },
+    {
+        "input": "\\color{Plum}\\text{Plum}",
+        "params": [],
+        "output": "<img src=\"bea41a372002b96c773cf9b68432b0a864086713\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -0.338ex; width:5.458ex; height:2.176ex;\" alt=\"{\\displaystyle \\color{Plum}\\text{Plum}}\"\/>"
+    },
+    {
+        "input": "\\color{ProcessBlue}\\text{ProcessBlue}",
+        "params": [],
+        "output": "<img src=\"ddeb0bedc89f555096fe5db91a880010e1b5e0c1\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -0.338ex; width:12.172ex; height:2.176ex;\" alt=\"{\\displaystyle \\color{ProcessBlue}\\text{ProcessBlue}}\"\/>"
+    },
+    {
+        "input": "\\color{Purple}\\text{Purple}",
+        "params": [],
+        "output": "<img src=\"3adecc8e0bc61c122a2abf10dfb5fa882cb5faa3\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -0.671ex; width:6.759ex; height:2.509ex;\" alt=\"{\\displaystyle \\color{Purple}\\text{Purple}}\"\/>"
+    },
+    {
+        "input": "\\color{RawSienna}\\text{RawSienna}",
+        "params": [],
+        "output": "<img src=\"9a3a4fa198c3318ab96d9a260043e26c33be11a9\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -0.338ex; width:11.27ex; height:2.176ex;\" alt=\"{\\displaystyle \\color{RawSienna}\\text{RawSienna}}\"\/>"
+    },
+    {
+        "input": "\\color{Red}\\text{Red}",
+        "params": [],
+        "output": "<img src=\"f16d4c73d264f217f63060eaefe6a9268570b8ec\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -0.338ex; width:4.035ex; height:2.176ex;\" alt=\"{\\displaystyle \\color{Red}\\text{Red}}\"\/>"
+    },
+    {
+        "input": "\\color{RedOrange}\\text{RedOrange}",
+        "params": [],
+        "output": "<img src=\"7587f81039d518a1cd36a21f1009d7b7e4091231\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -0.671ex; width:11.405ex; height:2.509ex;\" alt=\"{\\displaystyle \\color{RedOrange}\\text{RedOrange}}\"\/>"
+    },
+    {
+        "input": "\\color{RedViolet}\\text{RedViolet}",
+        "params": [],
+        "output": "<img src=\"ab645c47cc32ef8f3c83fcdfa67accaf8df305d6\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -0.338ex; width:10.172ex; height:2.176ex;\" alt=\"{\\displaystyle \\color{RedViolet}\\text{RedViolet}}\"\/>"
+    },
+    {
+        "input": "\\color{Rhodamine}\\text{Rhodamine}",
+        "params": [],
+        "output": "<img src=\"11ae4bc9207163b2552133758f1003c75a3a0192\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -0.338ex; width:11.528ex; height:2.176ex;\" alt=\"{\\displaystyle \\color{Rhodamine}\\text{Rhodamine}}\"\/>"
+    },
+    {
+        "input": "\\color{RoyalBlue}\\text{RoyalBlue}",
+        "params": [],
+        "output": "<img src=\"74bd6d025f1f910f7ef801eabe070cffade2240b\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -0.671ex; width:10.527ex; height:2.509ex;\" alt=\"{\\displaystyle \\color{RoyalBlue}\\text{RoyalBlue}}\"\/>"
+    },
+    {
+        "input": "\\color{RoyalPurple}\\text{RoyalPurple}",
+        "params": [],
+        "output": "<img src=\"6dc439e89c993b21e67af30eda8facdd4a4cc87f\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -0.671ex; width:12.669ex; height:2.509ex;\" alt=\"{\\displaystyle \\color{RoyalPurple}\\text{RoyalPurple}}\"\/>"
+    },
+    {
+        "input": "\\color{RubineRed}\\text{RubineRed}",
+        "params": [],
+        "output": "<img src=\"9f4b90e97f502bfff15df435d6542aea7e887863\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -0.338ex; width:11.303ex; height:2.176ex;\" alt=\"{\\displaystyle \\color{RubineRed}\\text{RubineRed}}\"\/>"
+    },
+    {
+        "input": "\\color{Salmon}\\text{Salmon}",
+        "params": [],
+        "output": "<img src=\"1b69033e30c09b9b85083b9a3962caf290eee96e\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -0.338ex; width:7.493ex; height:2.176ex;\" alt=\"{\\displaystyle \\color{Salmon}\\text{Salmon}}\"\/>"
+    },
+    {
+        "input": "\\color{SeaGreen}\\text{SeaGreen}",
+        "params": [],
+        "output": "<img src=\"cda6f69a8439d27939aed44567e3071cc519e7d5\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -0.338ex; width:9.581ex; height:2.176ex;\" alt=\"{\\displaystyle \\color{SeaGreen}\\text{SeaGreen}}\"\/>"
+    },
+    {
+        "input": "\\color{Sepia}\\text{Sepia}",
+        "params": [],
+        "output": "<img src=\"72287ba5bf689ad8d016caec1fa0df9f60c8f891\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -0.671ex; width:5.427ex; height:2.509ex;\" alt=\"{\\displaystyle \\color{Sepia}\\text{Sepia}}\"\/>"
+    },
+    {
+        "input": "\\color{SkyBlue}\\text{SkyBlue}",
+        "params": [],
+        "output": "<img src=\"14730537d98c7afb4881d2fccbd155e2c1ca6d51\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -0.671ex; width:8.365ex; height:2.509ex;\" alt=\"{\\displaystyle \\color{SkyBlue}\\text{SkyBlue}}\"\/>"
+    },
+    {
+        "input": "\\color{SpringGreen}\\text{SpringGreen}",
+        "params": [],
+        "output": "<img src=\"d359e9881409618c2bbaa48117f5ec24efec772c\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -0.671ex; width:12.692ex; height:2.509ex;\" alt=\"{\\displaystyle \\color{SpringGreen}\\text{SpringGreen}}\"\/>"
+    },
+    {
+        "input": "\\color{Tan}\\text{Tan}",
+        "params": [],
+        "output": "<img src=\"1b31994a9d3d361aaeceeb6bea08e8d5b6e6fd35\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -0.338ex; width:4.133ex; height:2.176ex;\" alt=\"{\\displaystyle \\color{Tan}\\text{Tan}}\"\/>"
+    },
+    {
+        "input": "\\color{TealBlue}\\text{TealBlue}",
+        "params": [],
+        "output": "<img src=\"5df7e8bea9382b102717d3df248486063a204a32\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -0.338ex; width:9.137ex; height:2.176ex;\" alt=\"{\\displaystyle \\color{TealBlue}\\text{TealBlue}}\"\/>"
+    },
+    {
+        "input": "\\color{Thistle}\\text{Thistle}",
+        "params": [],
+        "output": "<img src=\"630bc23d464b9714bc61f09f5bb533565902da3b\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -0.338ex; width:7.118ex; height:2.176ex;\" alt=\"{\\displaystyle \\color{Thistle}\\text{Thistle}}\"\/>"
+    },
+    {
+        "input": "\\color{Turquoise}\\text{Turquoise}",
+        "params": [],
+        "output": "<img src=\"fce53ff2bc491c0e7334d4c4400b328d4caaf8ef\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -0.671ex; width:10.16ex; height:2.509ex;\" alt=\"{\\displaystyle \\color{Turquoise}\\text{Turquoise}}\"\/>"
+    },
+    {
+        "input": "\\color{Violet}\\text{Violet}",
+        "params": [],
+        "output": "<img src=\"9e9be4147e73c6111bbb268b8c36ae2c80c69ed8\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -0.338ex; width:6.136ex; height:2.176ex;\" alt=\"{\\displaystyle \\color{Violet}\\text{Violet}}\"\/>"
+    },
+    {
+        "input": "\\color{VioletRed}\\text{VioletRed}",
+        "params": [],
+        "output": "<img src=\"1e52b3e67846dab931b4b039db3b745ad55747af\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -0.338ex; width:10.172ex; height:2.176ex;\" alt=\"{\\displaystyle \\color{VioletRed}\\text{VioletRed}}\"\/>"
+    },
+    {
+        "input": "\\pagecolor{Black}\\color{White}\\text{White}",
+        "params": {
+            "style": "background: black"
+        },
+        "output": "<img src=\"d550458792e83fba487b1a007dfd44cd3ee23406\" class=\"mwe-math-fallback-image-inline\" style=\"vertical-align: -0.338ex; width:6.265ex; height:2.176ex;\" aria-hidden=\"true\" alt=\"{\\displaystyle \\pagecolor{Black}\\color{White}\\text{White}}\"\/>"
+    },
+    {
+        "input": "\\color{WildStrawberry}\\text{WildStrawberry}",
+        "params": [],
+        "output": "<img src=\"ac1e37d4f01306e3c2ffd31a305ad12a85565f72\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -0.671ex; width:16.3ex; height:2.509ex;\" alt=\"{\\displaystyle \\color{WildStrawberry}\\text{WildStrawberry}}\"\/>"
+    },
+    {
+        "input": "\\pagecolor{Black}\\color{Yellow}\\text{Yellow}",
+        "params": {
+            "style": "background: black"
+        },
+        "output": "<img src=\"8c6c19a78d7fbba65e1b2c708fc2ff12dfe6bb86\" class=\"mwe-math-fallback-image-inline\" style=\"vertical-align: -0.338ex; width:6.91ex; height:2.176ex;\" aria-hidden=\"true\" alt=\"{\\displaystyle \\pagecolor{Black}\\color{Yellow}\\text{Yellow}}\"\/>"
+    },
+    {
+        "input": "\\color{YellowGreen}\\text{YellowGreen}",
+        "params": [],
+        "output": "<img src=\"23abea6447eebff86c8fd61ea0cc8f3be26046f3\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -0.338ex; width:13.003ex; height:2.176ex;\" alt=\"{\\displaystyle \\color{YellowGreen}\\text{YellowGreen}}\"\/>"
+    },
+    {
+        "input": "\\color{YellowOrange}\\text{YellowOrange}",
+        "params": [],
+        "output": "<img src=\"a10bf6828901303381659d98052767d68e57c342\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -0.671ex; width:14.279ex; height:2.509ex;\" alt=\"{\\displaystyle \\color{YellowOrange}\\text{YellowOrange}}\"\/>"
+    },
+    {
+        "input": "a \\qquad b",
+        "params": [],
+        "output": "<img src=\"e4a8df0bfb40654ae8d589e4387f2461d1844732\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -0.338ex; width:6.873ex; height:2.176ex;\" alt=\"{\\displaystyle a \\qquad b}\"\/>"
+    },
+    {
+        "input": "a \\quad b",
+        "params": [],
+        "output": "<img src=\"e5ca965cb32ecf465636a8a130828745cc95de57\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -0.338ex; width:4.55ex; height:2.176ex;\" alt=\"{\\displaystyle a \\quad b}\"\/>"
+    },
+    {
+        "input": "a\\ b",
+        "params": [],
+        "output": "<img src=\"41b2e86093e63e6ba70d588bae01e959dccc6ee3\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -0.338ex; width:2.808ex; height:2.176ex;\" alt=\"{\\displaystyle a\\ b}\"\/>"
+    },
+    {
+        "input": "a \\mbox{ } b",
+        "params": [],
+        "output": "<img src=\"2315892589bb2380ed1c2a69fedc198b9b42d62c\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -0.338ex; width:2.808ex; height:2.176ex;\" alt=\"{\\displaystyle a \\mbox{ } b}\"\/>"
+    },
+    {
+        "input": "a\\;b",
+        "params": [],
+        "output": "<img src=\"8941182a6282415d9a472358243171ced1543936\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -0.338ex; width:2.873ex; height:2.176ex;\" alt=\"{\\displaystyle a\\;b}\"\/>"
+    },
+    {
+        "input": "a\\,b",
+        "params": [],
+        "output": "<img src=\"c05a31dfe5e0968f155a73d46d6fbb44d412960e\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -0.338ex; width:2.614ex; height:2.176ex;\" alt=\"{\\displaystyle a\\,b}\"\/>"
+    },
+    {
+        "input": "ab",
+        "params": [],
+        "output": "<img src=\"49337c5cf256196e2292f7047cb5da68c24ca95d\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -0.338ex; width:2.227ex; height:2.176ex;\" alt=\"{\\displaystyle ab}\"\/>"
+    },
+    {
+        "input": "\\mathit{ab}",
+        "params": [],
+        "output": "<img src=\"dba9758a72f5538857c424abb0b377967d0ef71b\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -0.338ex; margin-right: -0.016ex; width:2.274ex; height:2.176ex;\" alt=\"{\\displaystyle \\mathit{ab}}\"\/>"
+    },
+    {
+        "input": "a\\!b",
+        "params": [],
+        "output": "<img src=\"528e2a50a16b3e049f6c282703312c93d27f3ae1\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -0.338ex; width:1.84ex; height:2.176ex;\" alt=\"{\\displaystyle a\\!b}\"\/>"
+    },
+    {
+        "input": "0+1+2+3+4+5+6+7+8+9+10+11+12+13+14+15+16+17+18+19+20+\\cdots",
+        "params": [],
+        "output": "<img src=\"eff380965a1da31dcca881d7170fa55ee991980b\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -0.505ex; width:99.57ex; height:2.343ex;\" alt=\"{\\displaystyle 0+1+2+3+4+5+6+7+8+9+10+11+12+13+14+15+16+17+18+19+20+\\cdots}\"\/>"
+    },
+    {
+        "input": "{0+1+2+3+4+5+6+7+8+9+10+11+12+13+14+15+16+17+18+19+20+\\cdots}",
+        "params": [],
+        "output": "<img src=\"5ec77750eb3623dca0dc573b6c2403056b860740\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -0.505ex; width:99.57ex; height:2.343ex;\" alt=\"{\\displaystyle {0+1+2+3+4+5+6+7+8+9+10+11+12+13+14+15+16+17+18+19+20+\\cdots}}\"\/>"
+    },
+    {
+        "input": "\\int_{-N}^{N} e^x\\, dx",
+        "params": [],
+        "output": "<img src=\"2e46aa8f0e931b68cb38803d3881553c51d87b16\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -2.505ex; width:9.838ex; height:6.343ex;\" alt=\"{\\displaystyle \\int_{-N}^{N} e^x\\, dx}\"\/>"
+    },
+    {
+        "input": "\\sum_{i=0}^\\infty 2^{-i}",
+        "params": {
+            "display": "inline"
+        },
+        "output": "<img src=\"632818299003b79547489c56439a7374f6c33810\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -1.005ex; width:8.982ex; height:3.343ex;\" alt=\"{\\textstyle \\sum_{i=0}^\\infty 2^{-i}}\"\/>"
+    },
+    {
+        "input": "\\text{geometric series:}\\quad \\begin{align} \\sum_{i=0}^\\infty 2^{-i}=2 \\end{align}",
+        "params": {
+            "display": "block"
+        },
+        "output": "<img src=\"bfe4e9092a4448076c8d02752c868797fa299d15\" class=\"mwe-math-fallback-image-display\" aria-hidden=\"true\" style=\"vertical-align: -2.636ex; margin-bottom: -0.202ex; width:30.822ex; height:6.843ex;\" alt=\"{\\displaystyle \\text{geometric series:}\\quad \\begin{align} \\sum_{i=0}^\\infty 2^{-i}=2 \\end{align}}\"\/>"
+    },
+    {
+        "input": "\\sum_{i=0}^\\infty 2^{-i}",
+        "params": [],
+        "output": "<img src=\"694e519e2794c3610fbeefdc78be97abc0e69872\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -3.005ex; width:6.983ex; height:6.843ex;\" alt=\"{\\displaystyle \\sum_{i=0}^\\infty 2^{-i}}\"\/>"
+    },
+    {
+        "input": "\\text{geometric series:}\\quad \\sum_{i=0}^\\infty 2^{-i}=2 ",
+        "params": [],
+        "output": "<img src=\"1847e98302aa153cec1801880b9a85a3379263a6\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -3.005ex; width:30.458ex; height:6.843ex;\" alt=\"{\\displaystyle \\text{geometric series:}\\quad \\sum_{i=0}^\\infty 2^{-i}=2 }\"\/>"
+    },
+    {
+        "input": "\\iint",
+        "params": [],
+        "output": "<img src=\"1534cac573e0e2b359c385293720bfca1193dde3\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -2.338ex; width:3.42ex; height:5.676ex;\" alt=\"{\\displaystyle \\iint}\"\/>"
+    },
+    {
+        "input": "\\oint",
+        "params": [],
+        "output": "<img src=\"dbbea2707a4ee041ddc4da8dd11924d25aa59c89\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -2.338ex; width:3.709ex; height:5.843ex;\" alt=\"{\\displaystyle \\oint}\"\/>",
+        "skipped": false
+    },
+    {
+        "input": "\\iint\\limits_{S}\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\subset\\!\\supset \\mathbf D \\cdot \\mathrm{d}\\mathbf A",
+        "params": [],
+        "output": "<img src=\"778dadd253487d8defeb7048d936c40c9a460bf7\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -4.005ex; margin-left: -0.838ex; width:11.56ex; height:7.343ex;\" alt=\"{\\displaystyle \\iint\\limits_{S}\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\subset\\!\\supset \\mathbf D \\cdot \\mathrm{d}\\mathbf A}\"\/>"
+    },
+    {
+        "input": "\\int\\!\\!\\!\\!\\int_{\\partial V}\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\;\\;\\;\\bigcirc\\,\\,\\mathbf D\\cdot\\mathrm{d}\\mathbf A",
+        "params": [],
+        "output": "<img src=\"37026edfd5c48c45f849dc1d2fc7602a9d88313e\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -2.338ex; margin-left: -1.828ex; width:12.461ex; height:5.676ex;\" alt=\"{\\displaystyle \\int\\!\\!\\!\\!\\int_{\\partial V}\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\;\\;\\;\\bigcirc\\,\\,\\mathbf D\\cdot\\mathrm{d}\\mathbf A}\"\/>"
+    },
+    {
+        "input": "\\int\\!\\!\\!\\!\\!\\int\\!\\!\\!\\!\\!\\int_{\\partial V}\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\;\\;\\;\\subset\\!\\supset \\mathbf D\\cdot\\mathrm{d}\\mathbf A",
+        "params": [],
+        "output": "<img src=\"502118c4895e2dc8d9559583154540362df09216\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -2.338ex; margin-left: -2.344ex; width:13.496ex; height:5.676ex;\" alt=\"{\\displaystyle \\int\\!\\!\\!\\!\\!\\int\\!\\!\\!\\!\\!\\int_{\\partial V}\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\;\\;\\;\\subset\\!\\supset \\mathbf D\\cdot\\mathrm{d}\\mathbf A}\"\/>"
+    },
+    {
+        "input": "\\int\\!\\!\\!\\!\\!\\int\\!\\!\\!\\!\\!\\int_{\\partial V}\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\;\\;\\;\\bigcirc\\,\\,\\mathbf D\\;\\cdot\\mathrm{d}\\mathbf A",
+        "params": [],
+        "output": "<img src=\"03b767bb613fd6096c6b807f75739720611a0642\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -2.338ex; margin-left: -1.57ex; width:13.106ex; height:5.676ex;\" alt=\"{\\displaystyle \\int\\!\\!\\!\\!\\!\\int\\!\\!\\!\\!\\!\\int_{\\partial V}\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\;\\;\\;\\bigcirc\\,\\,\\mathbf D\\;\\cdot\\mathrm{d}\\mathbf A}\"\/>"
+    },
+    {
+        "input": "{\\scriptstyle S}",
+        "params": [],
+        "output": "<img src=\"1dca5757c655f5ab53abd4b0d246dcfb478810e5\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -0.338ex; width:1.06ex; height:1.676ex;\" alt=\"{\\displaystyle {\\scriptstyle S}}\"\/>"
+    },
+    {
+        "input": "( \\nabla \\times \\bold{F} ) \\cdot {\\rm d}\\bold{S} = \\oint_{\\partial S} \\bold{F} \\cdot {\\rm d}\\boldsymbol{\\ell} ",
+        "params": [],
+        "output": "<img src=\"561ae6d178581f8938ae976090135ee66a81d801\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -2.505ex; width:27.901ex; height:6.009ex;\" alt=\"{\\displaystyle ( \\nabla \\times \\bold{F} ) \\cdot {\\rm d}\\bold{S} = \\oint_{\\partial S} \\bold{F} \\cdot {\\rm d}\\boldsymbol{\\ell} }\"\/>",
+        "skipped": false
+    },
+    {
+        "input": "{\\scriptstyle S}",
+        "params": [],
+        "output": "<img src=\"1dca5757c655f5ab53abd4b0d246dcfb478810e5\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -0.338ex; width:1.06ex; height:1.676ex;\" alt=\"{\\displaystyle {\\scriptstyle S}}\"\/>"
+    },
+    {
+        "input": "( \\nabla \\times \\bold{F} ) \\cdot {\\rm d}\\bold{S} = \\oint_{\\partial S} \\bold{F} \\cdot {\\rm d}\\boldsymbol{\\ell} ",
+        "params": [],
+        "output": "<img src=\"561ae6d178581f8938ae976090135ee66a81d801\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -2.505ex; width:27.901ex; height:6.009ex;\" alt=\"{\\displaystyle ( \\nabla \\times \\bold{F} ) \\cdot {\\rm d}\\bold{S} = \\oint_{\\partial S} \\bold{F} \\cdot {\\rm d}\\boldsymbol{\\ell} }\"\/>",
+        "skipped": false
+    },
+    {
+        "input": "\\oint_C \\bold{B} \\cdot {\\rm d} \\boldsymbol{\\ell} = \\mu_0 ",
+        "params": [],
+        "output": "<img src=\"e7acad6ef86a9151e97ac0617cfc752a9f092de1\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -2.505ex; width:17.107ex; height:6.009ex;\" alt=\"{\\displaystyle \\oint_C \\bold{B} \\cdot {\\rm d} \\boldsymbol{\\ell} = \\mu_0 }\"\/>",
+        "skipped": false
+    },
+    {
+        "input": "{\\scriptstyle S}",
+        "params": [],
+        "output": "<img src=\"1dca5757c655f5ab53abd4b0d246dcfb478810e5\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -0.338ex; width:1.06ex; height:1.676ex;\" alt=\"{\\displaystyle {\\scriptstyle S}}\"\/>"
+    },
+    {
+        "input": "\\left ( \\bold{J} + \\epsilon_0\\frac{\\partial \\bold{E}}{\\partial t} \\right ) \\cdot {\\rm d}\\bold{S}",
+        "params": [],
+        "output": "<img src=\"49c393b8e0f5e7e7271f62e4fe70ec1b7f5f0417\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -2.505ex; width:18.009ex; height:6.176ex;\" alt=\"{\\displaystyle \\left ( \\bold{J} + \\epsilon_0\\frac{\\partial \\bold{E}}{\\partial t} \\right ) \\cdot {\\rm d}\\bold{S}}\"\/>"
+    },
+    {
+        "input": "\\oint_{\\partial S} \\bold{B} \\cdot {\\rm d} \\boldsymbol{\\ell} = \\mu_0 ",
+        "params": [],
+        "output": "<img src=\"cf60359aa631f43238029608fce2b46830e0983e\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -2.505ex; width:17.85ex; height:6.009ex;\" alt=\"{\\displaystyle \\oint_{\\partial S} \\bold{B} \\cdot {\\rm d} \\boldsymbol{\\ell} = \\mu_0 }\"\/>"
+    },
+    {
+        "input": "{\\scriptstyle S}",
+        "params": [],
+        "output": "<img src=\"1dca5757c655f5ab53abd4b0d246dcfb478810e5\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -0.338ex; width:1.06ex; height:1.676ex;\" alt=\"{\\displaystyle {\\scriptstyle S}}\"\/>"
+    },
+    {
+        "input": "\\left ( \\bold{J} + \\epsilon_0\\frac{\\partial \\bold{E}}{\\partial t} \\right ) \\cdot {\\rm d}\\bold{S}",
+        "params": [],
+        "output": "<img src=\"49c393b8e0f5e7e7271f62e4fe70ec1b7f5f0417\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -2.505ex; width:18.009ex; height:6.176ex;\" alt=\"{\\displaystyle \\left ( \\bold{J} + \\epsilon_0\\frac{\\partial \\bold{E}}{\\partial t} \\right ) \\cdot {\\rm d}\\bold{S}}\"\/>"
+    },
+    {
+        "input": "\\bold{P} = ",
+        "params": [],
+        "output": "<img src=\"98aabb150495a111e1cd3568bfd3a52aa307f309\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -0.338ex; width:4.28ex; height:2.176ex;\" alt=\"{\\displaystyle \\bold{P} = }\"\/>"
+    },
+    {
+        "input": "{\\scriptstyle \\partial \\Omega}",
+        "params": [],
+        "output": "<img src=\"da47d67ac8dcb0be8b68d7bfdc676d9ce9bf1606\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -0.338ex; width:2.119ex; height:1.843ex;\" alt=\"{\\displaystyle {\\scriptstyle \\partial \\Omega}}\"\/>"
+    },
+    {
+        "input": "\\bold{T} \\cdot {\\rm d}^3\\boldsymbol{\\Sigma} = 0",
+        "params": [],
+        "output": "<img src=\"a4f883355f19ee872a1aaad5b48e19553c0f49d4\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -0.338ex; width:12.077ex; height:2.676ex;\" alt=\"{\\displaystyle \\bold{T} \\cdot {\\rm d}^3\\boldsymbol{\\Sigma} = 0}\"\/>"
+    },
+    {
+        "input": "\\bold{P} = ",
+        "params": [],
+        "output": "<img src=\"98aabb150495a111e1cd3568bfd3a52aa307f309\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -0.338ex; width:4.28ex; height:2.176ex;\" alt=\"{\\displaystyle \\bold{P} = }\"\/>"
+    },
+    {
+        "input": "{\\scriptstyle \\partial \\Omega}",
+        "params": [],
+        "output": "<img src=\"da47d67ac8dcb0be8b68d7bfdc676d9ce9bf1606\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -0.338ex; width:2.119ex; height:1.843ex;\" alt=\"{\\displaystyle {\\scriptstyle \\partial \\Omega}}\"\/>"
+    },
+    {
+        "input": "\\bold{T} \\cdot {\\rm d}^3\\boldsymbol{\\Sigma} = 0",
+        "params": [],
+        "output": "<img src=\"a4f883355f19ee872a1aaad5b48e19553c0f49d4\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -0.338ex; width:12.077ex; height:2.676ex;\" alt=\"{\\displaystyle \\bold{T} \\cdot {\\rm d}^3\\boldsymbol{\\Sigma} = 0}\"\/>"
+    },
+    {
+        "input": "\\overset{\\frown}{AB}",
+        "params": [],
+        "output": "<img src=\"4608fbf7084ad30e15487e824daf74260640f810\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -0.338ex; width:3.507ex; height:3.343ex;\" alt=\"{\\displaystyle \\overset{\\frown}{AB}}\"\/>"
+    },
+    {
+        "input": "ax^2 + bx + c = 0",
+        "params": [],
+        "output": "<img src=\"23e70cfa003f402d108ec04d97983fb62f69536e\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -0.505ex; width:16.89ex; height:2.843ex;\" alt=\"{\\displaystyle ax^2 + bx + c = 0}\"\/>"
+    },
+    {
+        "input": "ax^2 + bx + c = 0",
+        "params": [],
+        "output": "<img src=\"23e70cfa003f402d108ec04d97983fb62f69536e\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -0.505ex; width:16.89ex; height:2.843ex;\" alt=\"{\\displaystyle ax^2 + bx + c = 0}\"\/>"
+    },
+    {
+        "input": "x={-b\\pm\\sqrt{b^2-4ac} \\over 2a}",
+        "params": [],
+        "output": "<img src=\"944d4cf11847fec8fd0fd522196586c9678a39e7\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -1.838ex; width:21.525ex; height:6.176ex;\" alt=\"{\\displaystyle x={-b\\pm\\sqrt{b^2-4ac} \\over 2a}}\"\/>"
+    },
+    {
+        "input": "x={-b\\pm\\sqrt{b^2-4ac} \\over 2a}",
+        "params": [],
+        "output": "<img src=\"944d4cf11847fec8fd0fd522196586c9678a39e7\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -1.838ex; width:21.525ex; height:6.176ex;\" alt=\"{\\displaystyle x={-b\\pm\\sqrt{b^2-4ac} \\over 2a}}\"\/>"
+    },
+    {
+        "input": "2 = \\left( \\frac{\\left(3-x\\right) \\times 2}{3-x} \\right)",
+        "params": [],
+        "output": "<img src=\"68773852a0ff9e1187b88b150c55ee568c5ae4a1\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -2.505ex; width:19.663ex; height:6.343ex;\" alt=\"{\\displaystyle 2 = \\left( \\frac{\\left(3-x\\right) \\times 2}{3-x} \\right)}\"\/>"
+    },
+    {
+        "input": "2 = \\left(\n\\frac{\\left(3-x\\right) \\times 2}{3-x}\n\\right)",
+        "params": [],
+        "output": "<img src=\"68773852a0ff9e1187b88b150c55ee568c5ae4a1\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -2.505ex; width:19.663ex; height:6.343ex;\" alt=\"{\\displaystyle 2 = \\left(&#10;\\frac{\\left(3-x\\right) \\times 2}{3-x}&#10;\\right)}\"\/>"
+    },
+    {
+        "input": "S_{\\text{new}} = S_{\\text{old}} - \\frac{ \\left( 5-T \\right) ^2} {2}",
+        "params": [],
+        "output": "<img src=\"6d5ba6c1b3898710bba0edcd7f80c142714a549c\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -1.838ex; width:23.616ex; height:6.009ex;\" alt=\"{\\displaystyle S_{\\text{new}} = S_{\\text{old}} - \\frac{ \\left( 5-T \\right) ^2} {2}}\"\/>"
+    },
+    {
+        "input": "S_{\\text{new}} = S_{\\text{old}} - \\frac{ \\left( 5-T \\right) ^2} {2}",
+        "params": [],
+        "output": "<img src=\"6d5ba6c1b3898710bba0edcd7f80c142714a549c\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -1.838ex; width:23.616ex; height:6.009ex;\" alt=\"{\\displaystyle S_{\\text{new}} = S_{\\text{old}} - \\frac{ \\left( 5-T \\right) ^2} {2}}\"\/>"
+    },
+    {
+        "input": "\\int_a^x \\!\\!\\!\\int_a^s f(y)\\,dy\\,ds = \\int_a^x f(y)(x-y)\\,dy",
+        "params": [],
+        "output": "<img src=\"39e533f63c0d45c624c34906614f4017c135cbb4\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -2.338ex; width:37.671ex; height:5.843ex;\" alt=\"{\\displaystyle \\int_a^x \\!\\!\\!\\int_a^s f(y)\\,dy\\,ds = \\int_a^x f(y)(x-y)\\,dy}\"\/>"
+    },
+    {
+        "input": "\\int_a^x \\!\\!\\!\\int_a^s f(y)\\,dy\\,ds\n= \\int_a^x f(y)(x-y)\\,dy",
+        "params": [],
+        "output": "<img src=\"39e533f63c0d45c624c34906614f4017c135cbb4\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -2.338ex; width:37.671ex; height:5.843ex;\" alt=\"{\\displaystyle \\int_a^x \\!\\!\\!\\int_a^s f(y)\\,dy\\,ds&#10;= \\int_a^x f(y)(x-y)\\,dy}\"\/>"
+    },
+    {
+        "input": "\\det(\\mathsf{A}-\\lambda\\mathsf{I}) = 0",
+        "params": [],
+        "output": "<img src=\"f2d4e2286fc8c6989c53581f75f69efadcbda53d\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -0.838ex; width:15.693ex; height:2.843ex;\" alt=\"{\\displaystyle \\det(\\mathsf{A}-\\lambda\\mathsf{I}) = 0}\"\/>"
+    },
+    {
+        "input": "\\det(\\mathsf{A}-\\lambda\\mathsf{I}) = 0",
+        "params": [],
+        "output": "<img src=\"f2d4e2286fc8c6989c53581f75f69efadcbda53d\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -0.838ex; width:15.693ex; height:2.843ex;\" alt=\"{\\displaystyle \\det(\\mathsf{A}-\\lambda\\mathsf{I}) = 0}\"\/>"
+    },
+    {
+        "input": "\\sum_{i=0}^{n-1} i",
+        "params": [],
+        "output": "<img src=\"7d44072a2aee1afe485c67a227c2642a7ba37577\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -3.005ex; width:4.545ex; height:7.343ex;\" alt=\"{\\displaystyle \\sum_{i=0}^{n-1} i}\"\/>"
+    },
+    {
+        "input": "\\sum_{i=0}^{n-1} i",
+        "params": [],
+        "output": "<img src=\"7d44072a2aee1afe485c67a227c2642a7ba37577\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -3.005ex; width:4.545ex; height:7.343ex;\" alt=\"{\\displaystyle \\sum_{i=0}^{n-1} i}\"\/>"
+    },
+    {
+        "input": "\\sum_{m=1}^\\infty\\sum_{n=1}^\\infty\\frac{m^2\\,n}{3^m\\left(m\\,3^n+n\\,3^m\\right)}",
+        "params": [],
+        "output": "<img src=\"29a40fce03a1e91ec71f38d84c3e16e034c5c902\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -3.005ex; width:25.811ex; height:6.843ex;\" alt=\"{\\displaystyle \\sum_{m=1}^\\infty\\sum_{n=1}^\\infty\\frac{m^2\\,n}{3^m\\left(m\\,3^n+n\\,3^m\\right)}}\"\/>"
+    },
+    {
+        "input": "\\sum_{m=1}^\\infty\\sum_{n=1}^\\infty\\frac{m^2\\,n}\n{3^m\\left(m\\,3^n+n\\,3^m\\right)}",
+        "params": [],
+        "output": "<img src=\"29a40fce03a1e91ec71f38d84c3e16e034c5c902\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -3.005ex; width:25.811ex; height:6.843ex;\" alt=\"{\\displaystyle \\sum_{m=1}^\\infty\\sum_{n=1}^\\infty\\frac{m^2\\,n}&#10;{3^m\\left(m\\,3^n+n\\,3^m\\right)}}\"\/>"
+    },
+    {
+        "input": "u'' + p(x)u' + q(x)u=f(x),\\quad x>a",
+        "params": [],
+        "output": "<img src=\"a1dee5f64232e0531f58ee6ecb8a3cba5c5ee97e\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -0.838ex; width:36.539ex; height:3.009ex;\" alt=\"{\\displaystyle u&#039;&#039; + p(x)u&#039; + q(x)u=f(x),\\quad x&gt;a}\"\/>"
+    },
+    {
+        "input": "u'' + p(x)u' + q(x)u=f(x),\\quad x>a",
+        "params": [],
+        "output": "<img src=\"a1dee5f64232e0531f58ee6ecb8a3cba5c5ee97e\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -0.838ex; width:36.539ex; height:3.009ex;\" alt=\"{\\displaystyle u&#039;&#039; + p(x)u&#039; + q(x)u=f(x),\\quad x&gt;a}\"\/>"
+    },
+    {
+        "input": "|\\bar{z}| = |z|, |(\\bar{z})^n| = |z|^n, \\arg(z^n) = n \\arg(z)",
+        "params": [],
+        "output": "<img src=\"1a4dbfbd1ca54e2af592a5c1b1e7a583910e9000\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -0.838ex; width:40.823ex; height:3.009ex;\" alt=\"{\\displaystyle |\\bar{z}| = |z|, |(\\bar{z})^n| = |z|^n, \\arg(z^n) = n \\arg(z)}\"\/>"
+    },
+    {
+        "input": "|\\bar{z}| = |z|,\n|(\\bar{z})^n| = |z|^n,\n\\arg(z^n) = n \\arg(z)",
+        "params": [],
+        "output": "<img src=\"1a4dbfbd1ca54e2af592a5c1b1e7a583910e9000\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -0.838ex; width:40.823ex; height:3.009ex;\" alt=\"{\\displaystyle |\\bar{z}| = |z|,&#10;|(\\bar{z})^n| = |z|^n,&#10;\\arg(z^n) = n \\arg(z)}\"\/>"
+    },
+    {
+        "input": "\\lim_{z\\rightarrow z_0} f(z)=f(z_0)",
+        "params": [],
+        "output": "<img src=\"281c4eb2c898208b202288e494b0451e72f2698e\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -2.171ex; width:16.893ex; height:4.176ex;\" alt=\"{\\displaystyle \\lim_{z\\rightarrow z_0} f(z)=f(z_0)}\"\/>"
+    },
+    {
+        "input": "\\lim_{z\\rightarrow z_0} f(z)=f(z_0)",
+        "params": [],
+        "output": "<img src=\"281c4eb2c898208b202288e494b0451e72f2698e\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -2.171ex; width:16.893ex; height:4.176ex;\" alt=\"{\\displaystyle \\lim_{z\\rightarrow z_0} f(z)=f(z_0)}\"\/>"
+    },
+    {
+        "input": "\\phi_n(\\kappa)\n= \\frac{1}{4\\pi^2\\kappa^2} \\int_0^\\infty \\frac{\\sin(\\kappa R)}{\\kappa R} \\frac{\\partial}{\\partial R} \\left[R^2\\frac{\\partial D_n(R)}{\\partial R}\\right]\\,dR",
+        "params": [],
+        "output": "<img src=\"7f6695154ee0e388c6ea1da20c2e19810282251a\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -2.505ex; width:51.552ex; height:6.343ex;\" alt=\"{\\displaystyle \\phi_n(\\kappa)&#10;= \\frac{1}{4\\pi^2\\kappa^2} \\int_0^\\infty \\frac{\\sin(\\kappa R)}{\\kappa R} \\frac{\\partial}{\\partial R} \\left[R^2\\frac{\\partial D_n(R)}{\\partial R}\\right]\\,dR}\"\/>"
+    },
+    {
+        "input": "\\phi_n(\\kappa) =\n\\frac{1}{4\\pi^2\\kappa^2} \\int_0^\\infty\n\\frac{\\sin(\\kappa R)}{\\kappa R}\n\\frac{\\partial}{\\partial R}\n\\left[R^2\\frac{\\partial D_n(R)}{\\partial R}\\right]\\,dR",
+        "params": [],
+        "output": "<img src=\"7f6695154ee0e388c6ea1da20c2e19810282251a\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -2.505ex; width:51.552ex; height:6.343ex;\" alt=\"{\\displaystyle \\phi_n(\\kappa) =&#10;\\frac{1}{4\\pi^2\\kappa^2} \\int_0^\\infty&#10;\\frac{\\sin(\\kappa R)}{\\kappa R}&#10;\\frac{\\partial}{\\partial R}&#10;\\left[R^2\\frac{\\partial D_n(R)}{\\partial R}\\right]\\,dR}\"\/>"
+    },
+    {
+        "input": "\\phi_n(\\kappa) = 0.033C_n^2\\kappa^{-11\/3},\\quad \\frac{1}{L_0}\\ll\\kappa\\ll\\frac{1}{l_0}",
+        "params": [],
+        "output": "<img src=\"7380be42e0d9b67971f2b646ccfac392fa54d9ef\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -2.338ex; width:41.146ex; height:5.676ex;\" alt=\"{\\displaystyle \\phi_n(\\kappa) = 0.033C_n^2\\kappa^{-11\/3},\\quad \\frac{1}{L_0}\\ll\\kappa\\ll\\frac{1}{l_0}}\"\/>"
+    },
+    {
+        "input": "\\phi_n(\\kappa) =\n0.033C_n^2\\kappa^{-11\/3},\\quad\n\\frac{1}{L_0}\\ll\\kappa\\ll\\frac{1}{l_0}",
+        "params": [],
+        "output": "<img src=\"7380be42e0d9b67971f2b646ccfac392fa54d9ef\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -2.338ex; width:41.146ex; height:5.676ex;\" alt=\"{\\displaystyle \\phi_n(\\kappa) =&#10;0.033C_n^2\\kappa^{-11\/3},\\quad&#10;\\frac{1}{L_0}\\ll\\kappa\\ll\\frac{1}{l_0}}\"\/>"
+    },
+    {
+        "input": "f(x) = \\begin{cases}1 & -1 \\le x < 0 \\\\\n\\frac{1}{2} & x = 0 \\\\ 1 - x^2 & \\text{otherwise}\\end{cases}",
+        "params": [],
+        "output": "<img src=\"21bb89612023ceb640cb699c40bed94359bb8674\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -4.005ex; width:30.702ex; height:9.176ex;\" alt=\"{\\displaystyle f(x) = \\begin{cases}1 &amp; -1 \\le x &lt; 0 \\\\&#10;\\frac{1}{2} &amp; x = 0 \\\\ 1 - x^2 &amp; \\text{otherwise}\\end{cases}}\"\/>"
+    },
+    {
+        "input": "\nf(x) =\n\\begin{cases}\n1 & -1 \\le x < 0 \\\\\n\\frac{1}{2} & x = 0 \\\\\n1 - x^2 & \\text{otherwise}\n\\end{cases}\n",
+        "params": [],
+        "output": "<img src=\"21bb89612023ceb640cb699c40bed94359bb8674\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -4.005ex; width:30.702ex; height:9.176ex;\" alt=\"{\\displaystyle &#10;f(x) =&#10;\\begin{cases}&#10;1 &amp; -1 \\le x &lt; 0 \\\\&#10;\\frac{1}{2} &amp; x = 0 \\\\&#10;1 - x^2 &amp; \\text{otherwise}&#10;\\end{cases}&#10;}\"\/>"
+    },
+    {
+        "input": "{}_pF_q(a_1,\\dots,a_p;c_1,\\dots,c_q;z) = \\sum_{n=0}^\\infty \\frac{(a_1)_n\\cdots(a_p)_n}{(c_1)_n\\cdots(c_q)_n}\\frac{z^n}{n!}",
+        "params": [],
+        "output": "<img src=\"ba820c14abacac6d502ef6a55725ca15803014c3\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -3.005ex; margin-left: -0.063ex; width:52.504ex; height:6.843ex;\" alt=\"{\\displaystyle {}_pF_q(a_1,\\dots,a_p;c_1,\\dots,c_q;z) = \\sum_{n=0}^\\infty \\frac{(a_1)_n\\cdots(a_p)_n}{(c_1)_n\\cdots(c_q)_n}\\frac{z^n}{n!}}\"\/>"
+    },
+    {
+        "input": "{}_pF_q(a_1,\\dots,a_p;c_1,\\dots,c_q;z)\n= \\sum_{n=0}^\\infty\n\\frac{(a_1)_n\\cdots(a_p)_n}{(c_1)_n\\cdots(c_q)_n}\n\\frac{z^n}{n!}",
+        "params": [],
+        "output": "<img src=\"ba820c14abacac6d502ef6a55725ca15803014c3\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -3.005ex; margin-left: -0.063ex; width:52.504ex; height:6.843ex;\" alt=\"{\\displaystyle {}_pF_q(a_1,\\dots,a_p;c_1,\\dots,c_q;z)&#10;= \\sum_{n=0}^\\infty&#10;\\frac{(a_1)_n\\cdots(a_p)_n}{(c_1)_n\\cdots(c_q)_n}&#10;\\frac{z^n}{n!}}\"\/>"
+    },
+    {
+        "input": "\\frac{a}{b}\\ \\tfrac{a}{b}",
+        "params": [],
+        "output": "<img src=\"0c6c8d9c6e92fbf6dd3c638c30c6f96afca8d887\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -2.005ex; width:4.352ex; height:4.843ex;\" alt=\"{\\displaystyle \\frac{a}{b}\\ \\tfrac{a}{b}}\"\/>"
+    },
+    {
+        "input": "\\frac{a}{b}\\ \\tfrac{a}{b}",
+        "params": [],
+        "output": "<img src=\"0c6c8d9c6e92fbf6dd3c638c30c6f96afca8d887\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -2.005ex; width:4.352ex; height:4.843ex;\" alt=\"{\\displaystyle \\frac{a}{b}\\ \\tfrac{a}{b}}\"\/>"
+    },
+    {
+        "input": "S=dD\\,\\sin\\alpha\\!",
+        "params": [],
+        "output": "<img src=\"4712cb9b471e613bb939a46fe5c67a43b2bd846f\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -0.338ex; margin-right: -0.301ex; width:13.156ex; height:2.176ex;\" alt=\"{\\displaystyle S=dD\\,\\sin\\alpha\\!}\"\/>"
+    },
+    {
+        "input": "S=dD\\,\\sin\\alpha\\!",
+        "params": [],
+        "output": "<img src=\"4712cb9b471e613bb939a46fe5c67a43b2bd846f\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -0.338ex; margin-right: -0.301ex; width:13.156ex; height:2.176ex;\" alt=\"{\\displaystyle S=dD\\,\\sin\\alpha\\!}\"\/>"
+    },
+    {
+        "input": "V=\\frac16\\pi h\\left[3\\left(r_1^2+r_2^2\\right)+h^2\\right]",
+        "params": [],
+        "output": "<img src=\"480eb74247c5f48886e4558d4eb5dd09e6649745\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -1.838ex; width:27.841ex; height:5.176ex;\" alt=\"{\\displaystyle V=\\frac16\\pi h\\left[3\\left(r_1^2+r_2^2\\right)+h^2\\right]}\"\/>"
+    },
+    {
+        "input": "V=\\frac16\\pi h\\left[3\\left(r_1^2+r_2^2\\right)+h^2\\right]",
+        "params": [],
+        "output": "<img src=\"480eb74247c5f48886e4558d4eb5dd09e6649745\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -1.838ex; width:27.841ex; height:5.176ex;\" alt=\"{\\displaystyle V=\\frac16\\pi h\\left[3\\left(r_1^2+r_2^2\\right)+h^2\\right]}\"\/>"
+    },
+    {
+        "input": "\\begin{align}\nu & = \\tfrac{1}{\\sqrt{2}}(x+y) \\qquad & x &= \\tfrac{1}{\\sqrt{2}}(u+v)\\\\\nv & = \\tfrac{1}{\\sqrt{2}}(x-y) \\qquad & y &= \\tfrac{1}{\\sqrt{2}}(u-v)\n\\end{align}",
+        "params": [],
+        "output": "<img src=\"e4887eca130f9f3b03a8409f31140dd500169bd4\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -3.838ex; width:39.194ex; height:8.843ex;\" alt=\"{\\displaystyle \\begin{align}&#10;u &amp; = \\tfrac{1}{\\sqrt{2}}(x+y) \\qquad &amp; x &amp;= \\tfrac{1}{\\sqrt{2}}(u+v)\\\\&#10;v &amp; = \\tfrac{1}{\\sqrt{2}}(x-y) \\qquad &amp; y &amp;= \\tfrac{1}{\\sqrt{2}}(u-v)&#10;\\end{align}}\"\/>"
+    },
+    {
+        "input": "\\begin{align}\nu & = \\tfrac{1}{\\sqrt{2}}(x+y) \\qquad & x &= \\tfrac{1}{\\sqrt{2}}(u+v) \\\\\nv & = \\tfrac{1}{\\sqrt{2}}(x-y) \\qquad & y &= \\tfrac{1}{\\sqrt{2}}(u-v)\n\\end{align}",
+        "params": [],
+        "output": "<img src=\"e4887eca130f9f3b03a8409f31140dd500169bd4\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -3.838ex; width:39.194ex; height:8.843ex;\" alt=\"{\\displaystyle \\begin{align}&#10;u &amp; = \\tfrac{1}{\\sqrt{2}}(x+y) \\qquad &amp; x &amp;= \\tfrac{1}{\\sqrt{2}}(u+v) \\\\&#10;v &amp; = \\tfrac{1}{\\sqrt{2}}(x-y) \\qquad &amp; y &amp;= \\tfrac{1}{\\sqrt{2}}(u-v)&#10;\\end{align}}\"\/>"
+    },
+    {
+        "input": " with a thumbnail- we don't render math in the parsertests by default, so math is not stripped and turns up as escaped &lt;math&gt; tags. [[Image:foobar.jpg|thumb|<math>2+2",
+        "params": [],
+        "output": "<strong class=\"error texerror\">Failed to parse (syntax error): {\\displaystyle  with a thumbnail- we don't render math in the parsertests by default, so math is not stripped and turns up as escaped &amp;lt;math&amp;gt; tags. [[Image:foobar.jpg|thumb|&lt;math&gt;2+2}<\/strong>\n"
+    },
+    {
+        "input": " with a thumbnail- math enabled [[Image:foobar.jpg|thumb|<math>2+2",
+        "params": [],
+        "output": "<img src=\"bde3ca8b8a92b634af006f187a33916e2bbfb8cf\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -0.838ex; width:78.139ex; height:2.843ex;\" alt=\"{\\displaystyle  with a thumbnail- math enabled [[Image:foobar.jpg|thumb|&lt;math&gt;2+2}\"\/>"
+    },
+    {
+        "input": "<script>alert(document.cookies);<\/script>",
+        "params": [],
+        "output": "<img src=\"5997a035fb488c7614e514aa6057437f6f038a9a\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -0.838ex; width:49.796ex; height:2.843ex;\" alt=\"{\\displaystyle &lt;script&gt;alert(document.cookies);&lt;\/script&gt;}\"\/>"
+    },
+    {
+        "input": "\\widehat{x}",
+        "params": [],
+        "output": "<img src=\"8292f67dc14f8ab5e8ac46197b033cdb4e31b868\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -0.338ex; margin-right: -0.019ex; width:1.394ex; height:2.343ex;\" alt=\"{\\displaystyle \\widehat{x}}\"\/>"
+    },
+    {
+        "input": "\\widetilde{x}",
+        "params": [],
+        "output": "<img src=\"db3811cd185eb16ac60c62289e046660e381321a\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -0.028ex; margin-bottom: -0.31ex; width:1.33ex; height:2.176ex;\" alt=\"{\\displaystyle \\widetilde{x}}\"\/>"
+    },
+    {
+        "input": "\\euro 200",
+        "params": [],
+        "output": "<img src=\"b4926722f536e81671132db5813b0cf8ad3e3c39\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -1.171ex; width:4.904ex; height:3.343ex;\" alt=\"{\\displaystyle \\euro 200}\"\/>"
+    },
+    {
+        "input": "\\geneuro",
+        "params": [],
+        "output": "<img src=\"d232bbc6a8f96bfceacc29b54d91747286fb06ac\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -1.171ex; width:1.417ex; height:3.343ex;\" alt=\"{\\displaystyle \\geneuro}\"\/>"
+    },
+    {
+        "input": "\\geneuronarrow",
+        "params": [],
+        "output": "<img src=\"1db5afe5fefff61c72af0d7f5cfe1ec713f6bae6\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -1.171ex; width:1.417ex; height:3.343ex;\" alt=\"{\\displaystyle \\geneuronarrow}\"\/>"
+    },
+    {
+        "input": "\\geneurowide",
+        "params": [],
+        "output": "<img src=\"6a16baa5a268e60f9f1b5c7d0273fa7d3533de52\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -1.171ex; width:1.417ex; height:3.343ex;\" alt=\"{\\displaystyle \\geneurowide}\"\/>"
+    },
+    {
+        "input": "\\officialeuro",
+        "params": [],
+        "output": "<img src=\"819adea46ffde7445928b80ed6fc93d09cf9e48a\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -1.171ex; width:1.417ex; height:3.343ex;\" alt=\"{\\displaystyle \\officialeuro}\"\/>"
+    },
+    {
+        "input": "\\digamma",
+        "params": [],
+        "output": "<img src=\"6fdb03624dd38836d264bd8e007d957dfcd4a145\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -0.505ex; width:1.808ex; height:2.176ex;\" alt=\"{\\displaystyle \\digamma}\"\/>"
+    },
+    {
+        "input": "\\Coppa\\coppa\\varcoppa",
+        "params": [],
+        "output": "<img src=\"758dde2e7e360b944d5c9005000c32d9e463f267\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -1.171ex; width:9.938ex; height:3.343ex;\" alt=\"{\\displaystyle \\Coppa\\coppa\\varcoppa}\"\/>"
+    },
+    {
+        "input": "\\Digamma",
+        "params": [],
+        "output": "<img src=\"c35e647182d4c2d554282222071a33e286548ee1\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -1.171ex; width:1.417ex; height:3.343ex;\" alt=\"{\\displaystyle \\Digamma}\"\/>"
+    },
+    {
+        "input": "\\Koppa\\koppa",
+        "params": [],
+        "output": "<img src=\"54597dd2b49040643b04f0ce52123373173463ce\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -1.171ex; width:2.833ex; height:3.343ex;\" alt=\"{\\displaystyle \\Koppa\\koppa}\"\/>"
+    },
+    {
+        "input": "\\Sampi\\sampi",
+        "params": [],
+        "output": "<img src=\"ffd6706c3a471f71aa1f19d113a55c231c2b8262\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -1.171ex; width:2.833ex; height:3.343ex;\" alt=\"{\\displaystyle \\Sampi\\sampi}\"\/>"
+    },
+    {
+        "input": "\\Stigma\\stigma\\varstigma",
+        "params": [],
+        "output": "<img src=\"4854ab56152659a7e672e00ddc916434dbf2fc3e\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -1.171ex; width:4.25ex; height:3.343ex;\" alt=\"{\\displaystyle \\Stigma\\stigma\\varstigma}\"\/>"
+    },
+    {
+        "input": "\\text{next years}",
+        "params": [],
+        "output": "<img src=\"910baa60be330f3341dfa2a7db49ab74551e5d90\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -0.671ex; width:10.288ex; height:2.343ex;\" alt=\"{\\displaystyle \\text{next years}}\"\/>"
+    },
+    {
+        "input": "\\text{next year's}",
+        "params": [],
+        "output": "<img src=\"7a150128ebb2fe629523c9750190887a2aa85e0c\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -0.671ex; width:10.935ex; height:2.509ex;\" alt=\"{\\displaystyle \\text{next year&#039;s}}\"\/>"
+    },
+    {
+        "input": "\\text{`next' year}",
+        "params": [],
+        "output": "<img src=\"770c0837200fa763d7fa7f4b456d66a0a14b3f41\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -0.671ex; width:11.181ex; height:2.509ex;\" alt=\"{\\displaystyle \\text{`next&#039; year}}\"\/>"
+    },
+    {
+        "input": "\\sin x",
+        "params": [],
+        "output": "<img src=\"09b4b55580d6a821a07ad9fe35be88976917b10b\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -0.338ex; width:4.572ex; height:2.176ex;\" alt=\"{\\displaystyle \\sin x}\"\/>"
+    },
+    {
+        "input": "\\sin(x)",
+        "params": [],
+        "output": "<img src=\"3a990a5545cac26c1c6821dca95d898bc80fe3a8\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -0.838ex; width:5.995ex; height:2.843ex;\" alt=\"{\\displaystyle \\sin(x)}\"\/>"
+    },
+    {
+        "input": "\\sin{x}",
+        "params": [],
+        "output": "<img src=\"05207d8083caa922b443937de1b6b14a4d3a7335\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -0.338ex; width:4.572ex; height:2.176ex;\" alt=\"{\\displaystyle \\sin{x}}\"\/>"
+    },
+    {
+        "input": "\\sin x \\,",
+        "params": [],
+        "output": "<img src=\"2355e3d2840899bce33e8400c4b8ac79c489be8a\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -0.338ex; width:4.96ex; height:2.176ex;\" alt=\"{\\displaystyle \\sin x \\,}\"\/>"
+    },
+    {
+        "input": "\\sin(x) \\,",
+        "params": [],
+        "output": "<img src=\"032bbbf0140465eeffb6bf89626cbf13c90e770e\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -0.838ex; width:6.382ex; height:2.843ex;\" alt=\"{\\displaystyle \\sin(x) \\,}\"\/>"
+    },
+    {
+        "input": "\\sin{x} \\,",
+        "params": [],
+        "output": "<img src=\"885ea6e761e787f9186126688038dea801364bde\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -0.338ex; width:4.96ex; height:2.176ex;\" alt=\"{\\displaystyle \\sin{x} \\,}\"\/>"
+    },
+    {
+        "input": "\\sen x",
+        "params": [],
+        "output": "<img src=\"2070745d847ad22dca4df4731cc2e82de25e03d6\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -0.338ex; width:4.958ex; height:1.676ex;\" alt=\"{\\displaystyle \\sen x}\"\/>"
+    },
+    {
+        "input": "\\sen(x)",
+        "params": [],
+        "output": "<img src=\"05d7037bd87894bd3a097a3acf48b02253163314\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -0.838ex; width:6.38ex; height:2.843ex;\" alt=\"{\\displaystyle \\sen(x)}\"\/>"
+    },
+    {
+        "input": "\\sen{x}",
+        "params": [],
+        "output": "<img src=\"d22af806e8e2270cdd2ab1587444a219f7437fcb\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -0.338ex; width:4.958ex; height:1.676ex;\" alt=\"{\\displaystyle \\sen{x}}\"\/>"
+    },
+    {
+        "input": "\\sen x \\,",
+        "params": [],
+        "output": "<img src=\"31a8c86fd777d84e893df5548b2fd8ef99c211a1\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -0.338ex; width:5.345ex; height:1.676ex;\" alt=\"{\\displaystyle \\sen x \\,}\"\/>"
+    },
+    {
+        "input": "\\sen(x) \\,",
+        "params": [],
+        "output": "<img src=\"7e07a7a6f2ab3517db8c37ef7caea2d3e0b0967b\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -0.838ex; width:6.767ex; height:2.843ex;\" alt=\"{\\displaystyle \\sen(x) \\,}\"\/>"
+    },
+    {
+        "input": "\\sen{x} \\,",
+        "params": [],
+        "output": "<img src=\"25341aafea0f00734e5a82826900ece4cf4236c1\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -0.338ex; width:5.345ex; height:1.676ex;\" alt=\"{\\displaystyle \\sen{x} \\,}\"\/>"
+    },
+    {
+        "input": "\\operatorname{sen}",
+        "params": [],
+        "output": "<img src=\"3e2b9017b71568f0d75c49e14eeb417f5a552995\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -0.338ex; width:3.241ex; height:1.676ex;\" alt=\"{\\displaystyle \\operatorname{sen}}\"\/>"
+    },
+    {
+        "input": "\\dot \\vec B",
+        "params": [],
+        "output": "<img src=\"aae882c646387a6d0ba9e45a20d59798b6fa4bd3\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -0.338ex; width:1.764ex; height:3.509ex;\" alt=\"{\\displaystyle \\dot \\vec B}\"\/>"
+    },
+    {
+        "input": "\\tilde \\mathcal{M}",
+        "params": [],
+        "output": "<img src=\"134b4db10cd567c5114d4c25432cb271070538c2\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -0.338ex; width:2.791ex; height:2.676ex;\" alt=\"{\\displaystyle \\tilde \\mathcal{M}}\"\/>"
+    },
+    {
+        "input": "",
+        "params": [],
+        "output": "<strong class=\"error texerror\">Failed to parse (Conversion error. Server (&quot;https:\/\/wikimedia.org\/api\/rest_&quot;) reported: &quot;Cannot get mml. Expected width &gt; 0.&quot;): {\\displaystyle }<\/strong>\n",
+        "skipped": false
+    },
+    {
+        "input": " ",
+        "params": [],
+        "output": "<strong class=\"error texerror\">Failed to parse (Conversion error. Server (&quot;https:\/\/wikimedia.org\/api\/rest_&quot;) reported: &quot;Cannot get mml. Expected width &gt; 0.&quot;): {\\displaystyle  }<\/strong>\n",
+        "skipped": false
+    },
+    {
+        "input": "\\left(\\begin{smallmatrix}a & b\\\\ c & d\\end{smallmatrix}\\right)",
+        "params": [],
+        "output": "<img src=\"394ab28ad158ddad946c7f7ebb4f28c6c57b18d3\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -1.838ex; width:6.03ex; height:4.843ex;\" alt=\"{\\displaystyle \\left(\\begin{smallmatrix}a &amp; b\\\\ c &amp; d\\end{smallmatrix}\\right)}\"\/>"
+    },
+    {
+        "input": "\\AA",
+        "params": [],
+        "output": "<img src=\"085412b37ef2ac62058f72715866515b3ee71f39\" class=\"mwe-math-fallback-image-inline\" aria-hidden=\"true\" style=\"vertical-align: -1.171ex; width:1.417ex; height:3.343ex;\" alt=\"{\\displaystyle \\AA}\"\/>"
+    }
+]

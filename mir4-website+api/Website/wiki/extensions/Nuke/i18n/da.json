@@ -1,0 +1,36 @@
+{
+	"@metadata": {
+		"authors": [
+			"Byrial",
+			"Christian List",
+			"Kaare",
+			"Peter Alberti",
+			"Saederup92",
+			"Sarrus"
+		]
+	},
+	"nuke": "Massesletning",
+	"action-nuke": "masseslette sider",
+	"nuke-desc": "Giver administratorer mulighed for at [[Special:Nuke|masseslette]] sider",
+	"nuke-nopages": "Der er ingen nye sider af [[Special:Contributions/$1|{{GENDER:$1|$1}}]] i seneste ændringer.",
+	"nuke-list": "Følgende sider er oprettet for nylig af [[Special:Contributions/$1|{{GENDER:$1|$1}}]]; skriv en kommentar og tryk på knappen for at slette dem.",
+	"nuke-list-multiple": "De følgende sider blev oprettet fornylig;\nskriv en kommentar ind og tryk på knappen for at slette dem.",
+	"nuke-defaultreason": "Massesletning af sider, som er oprettet af [[Special:Contributions/$1|{{GENDER:$1|$1}}]]",
+	"nuke-multiplepeople": "Massesletning af nyligt oprettede sider",
+	"nuke-tools": "Dette værktøj muliggør massesletning af sider, som for nylig er oprettet af en bestemt bruger eller IP-adresse.\nSkriv et brugernavn eller en IP-adresse for at få en liste over sider at slette eller lad stå tom for alle brugere.",
+	"nuke-submit-user": "Liste over sider",
+	"nuke-submit-delete": "Slet valgte",
+	"right-nuke": "masseslette sider",
+	"nuke-userorip": "Brugernavn, IP-adresse eller tom:",
+	"nuke-maxpages": "Maksimalt antal sider:",
+	"nuke-editby": "Oprettet af [[Special:Contributions/$1|{{GENDER:$1|$1}}]]",
+	"nuke-deleted": "Siden '''$1''' er blevet slettet.",
+	"nuke-not-deleted": "Siden [[:$1]] '''kunne ikke''' slettes.",
+	"nuke-delete-more": "[[Special:Nuke|Slet flere sider]]",
+	"nuke-pattern": "Mønster for sidenavnet:",
+	"nuke-nopages-global": "Der er ikke nogen nye sider i [[Special:RecentChanges|de seneste ændringer]].",
+	"nuke-viewchanges": "vis ændringer",
+	"nuke-namespace": "Begræns til navnerum:",
+	"nuke-linkoncontribs": "massesletning",
+	"nuke-linkoncontribs-text": "Masseslet sider, hvor denne bruger er den eneste bidragyder"
+}

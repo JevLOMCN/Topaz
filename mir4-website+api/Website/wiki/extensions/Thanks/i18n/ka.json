@@ -1,0 +1,30 @@
+{
+	"@metadata": {
+		"authors": [
+			"BRUTE",
+			"David1010",
+			"Macofe",
+			"Nodar Kherkheulidze",
+			"Otogi",
+			"Tokoko"
+		]
+	},
+	"thanks-thank": "{{GENDER:$1|{{GENDER:$2|მადლობა}}}}",
+	"thanks-thanked": "{{GENDER:$1|{{GENDER:$2|მადლობა გადახდილია}}}}",
+	"thanks-button-thank": "{{GENDER:$1|{{GENDER:$2|მადლობა}}}}",
+	"thanks-button-thanked": "{{GENDER:$1|{{GENDER:$2|მადლობა გადახდილია}}}}",
+	"thanks-error-undefined": "მადლობის გადახდა ვერ მოხერხდა (შეცდომის კოდი: $1). გთხოვ სცადეთ კიდევ.",
+	"thanks-thank-tooltip": "{{GENDER:$2|ამ მომხმარებლისათვის}} სამადლობელი შეტყობინების {{GENDER:$1|გაგზავნა}}",
+	"thanks-confirmation2": "საჯარო მადლობის {{GENDER:$1|გაგზავნა}}?",
+	"thanks-thanked-notice": "{{GENDER:$3|თქვენ}} მადლობა გადაუხადეთ მომხმარებელს {{GENDER:$2|$1}}.",
+	"thanks": "გადაუხადე მადლობა",
+	"thanks-submit": "გადაუხადე მადლობა",
+	"echo-pref-subscription-edit-thank": "მადლობა ჩემი რედაქტირებისათვის",
+	"echo-pref-tooltip-edit-thank": "შემატყობინე, როდესაც ვინმე მადლობას გადამიხდის ჩემი რედაქტირებისათვის",
+	"echo-category-title-edit-thank": "მადლობა",
+	"notification-header-rev-thank": "$1 {{GENDER:$2|მადლობა გადაგიხადათ}} {{GENDER:$4|თქვენი}} რედაქტირებისათვის გვერდზე '''$3'''.",
+	"log-name-thanks": "„მადლობის“ ჟურნალი",
+	"log-description-thanks": "ქვემოთ მოცემულია მომხმარებელთა სია, რომელთაც სხვა მომხმარებლებმა გადაუხადეს მადლობა",
+	"logentry-thanks-thank": "$1 {{GENDER:$2|მადლობა გადაუხადა}} {{GENDER:$4|$3}}",
+	"logeventslist-thanks-log": "მადლობების ჟურნალი"
+}

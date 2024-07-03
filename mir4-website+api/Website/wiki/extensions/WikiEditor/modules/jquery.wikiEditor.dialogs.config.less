@@ -1,0 +1,136 @@
+@import 'mediawiki.mixins';
+
+/*
+ * CSS for WikiEditor Dialogs
+ */
+
+/* stylelint-disable selector-max-id */
+
+/* Replace Dialog */
+#wikieditor-toolbar-replace-search,
+#wikieditor-toolbar-replace-replace {
+	width: 100%;
+}
+
+/* Table Dialog */
+#wikieditor-toolbar-table-dialog {
+	fieldset {
+		width: 218px;
+		padding: 0;
+		float: left;
+	}
+
+	.wikieditor-toolbar-table-preview-wrapper {
+		width: 330px;
+		padding: 0;
+		float: right;
+	}
+}
+
+.wikieditor-toolbar-table-preview-content * {
+	cursor: default;
+}
+
+/* stylelint-disable declaration-no-important */
+.wikiEditor-toolbar-dialog {
+	.wikieditor-toolbar-table-preview-wrapper {
+		table {
+			width: 100% !important;
+		}
+	}
+
+	.wikieditor-toolbar-table-preview-content {
+		table {
+			td {
+				padding: 10px 4px !important;
+				height: auto !important;
+			}
+
+			th {
+				padding: 7px 3px !important;
+			}
+		}
+	}
+
+	.ui-dialog-content {
+		padding: 30px 20px 1em !important;
+	}
+
+	.ui-dialog-buttonpane {
+		border-top: 1px solid #c8ccd1 !important;
+	}
+}
+/* stylelint-enable declaration-no-important */
+
+.wikieditor-toolbar-table-dimension-fields {
+	.wikieditor-toolbar-field-wrapper {
+		float: left;
+		margin-right: 20px;
+		vertical-align: bottom;
+	}
+}
+
+.wikieditor-toolbar-dialog-wrapper {
+	width: 100%;
+}
+
+/* File dialog */
+#wikieditor-toolbar-file-target,
+#wikieditor-toolbar-file-caption,
+#wikieditor-toolbar-file-alt {
+	width: 100%;
+}
+
+.wikieditor-toolbar-file-alt-help {
+	float: right;
+}
+
+.wikieditor-toolbar-file-options {
+	.wikieditor-toolbar-field-wrapper {
+		float: left;
+		margin: 0 20px 0 0;
+	}
+}
+
+#wikieditor-toolbar-file-dialog + .ui-dialog-buttonpane {
+	.ui-dialog-buttonset {
+		width: 100%;
+		text-align: right;
+
+		/* Upload button */
+		.ui-button:last-child {
+			float: left;
+		}
+	}
+}
+
+/* RTL Changes */
+
+body.rtl {
+	.wikiEditor-toolbar-dialog {
+		.ui-dialog-buttonpane {
+			button {
+				float: left;
+				// stylelint-disable-next-line declaration-no-important
+				margin: 0.5em 0.4em 0.5em 0 !important;
+			}
+		}
+	}
+}
+
+/* Self Clearing Floats */
+.wikieditor-toolbar-table-dimension-fields::after,
+.wikieditor-toolbar-dialog-wrapper::after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: ' ';
+	clear: both;
+	height: 0;
+}
+
+.wikieditor-toolbar-table-dimension-fields,
+.wikieditor-toolbar-dialog-wrapper {
+	display: inline-table;
+	display: block;
+}

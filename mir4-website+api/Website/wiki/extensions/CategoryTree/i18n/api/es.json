@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Dgstranz",
+			"Fitoschido"
+		]
+	},
+	"apihelp-categorytree-summary": "Módulo interno para la extensión CategoryTree.",
+	"apihelp-categorytree-param-category": "Título en el espacio de nombres Categoría; el prefijo, en caso de indicarse, se ignorará.",
+	"apihelp-categorytree-param-options": "Opciones para el constructor CategoryTree como objeto JSON. La opción <var>depth</var> por defecto toma el valor <kbd>1</kbd>.",
+	"apierror-categorytree-invalidjson": "Las opciones deben ser un objeto JSON válido."
+}

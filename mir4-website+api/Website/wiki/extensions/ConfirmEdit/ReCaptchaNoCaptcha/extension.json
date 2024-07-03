@@ -1,0 +1,58 @@
+{
+	"name": "ReCaptchaNoCaptcha",
+	"author": [
+		"Florian Schmidt"
+	],
+	"url": "https://www.mediawiki.org/wiki/Extension:ConfirmEdit#ReCaptcha_(NoCaptcha)",
+	"descriptionmsg": "renocaptcha-desc",
+	"license-name": "GPL-2.0-or-later",
+	"type": "antispam",
+	"MessagesDirs": {
+		"ReCaptchaNoCaptcha": [
+			"i18n",
+			"i18n/api"
+		]
+	},
+	"AutoloadNamespaces": {
+		"MediaWiki\\Extension\\ConfirmEdit\\ReCaptchaNoCaptcha\\": "includes/"
+	},
+	"config": {
+		"CaptchaClass": {
+			"value": "MediaWiki\\Extension\\ConfirmEdit\\ReCaptchaNoCaptcha\\ReCaptchaNoCaptcha"
+		},
+		"ReCaptchaSiteKey": {
+			"value": ""
+		},
+		"ReCaptchaSecretKey": {
+			"value": ""
+		},
+		"ReCaptchaSendRemoteIP": {
+			"value": false
+		}
+	},
+	"ResourceFileModulePaths": {
+		"localBasePath": "resources",
+		"remoteExtPath": "ConfirmEdit/ReCaptchaNoCaptcha/resources"
+	},
+	"ResourceModules": {
+		"ext.confirmEdit.reCaptchaNoCaptcha.visualEditor": {
+			"scripts": "ve-confirmedit-reCaptchaNoCaptcha/ve.init.mw.NoCaptchaReCaptchaSaveErrorHandler.js"
+		}
+	},
+	"HookHandlers": {
+		"ReCaptchaHooks": {
+			"class": "MediaWiki\\Extension\\ConfirmEdit\\ReCaptchaNoCaptcha\\Hooks"
+		}
+	},
+	"Hooks": {
+		"ResourceLoaderGetConfigVars": "ReCaptchaHooks"
+	},
+	"attributes": {
+		"VisualEditor": {
+			"PluginModules": [
+				"ext.confirmEdit.reCaptchaNoCaptcha.visualEditor"
+			]
+		}
+	},
+	"manifest_version": 2
+}

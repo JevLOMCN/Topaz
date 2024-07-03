@@ -1,0 +1,17 @@
+{
+	"@metadata": {
+		"authors": [
+			"Irwangatot",
+			"Kandar"
+		]
+	},
+	"captcha-edit": "Pikeun ngédit artikel ieu, mangga eusian itungan di handap ([[Special:Captcha/help|émbaran lengkep]]):",
+	"captcha-desc": "Implementasi basajan captcha",
+	"captcha-addurl": "Éditan anjeun ngawengku tumbu kaluar anyar.\nPikeun nyegah spam, mangga eusian itungan di handap ieu\n([[Special:Captcha/help|émbaran lengkep]]):",
+	"captcha-createaccount": "Pikeun nyegah dijieunna rekening sacara otomatis, mangga eusian itungan di handap ieu ([[Special:Captcha/help|émbaran lengkep]]):",
+	"captcha-createaccount-fail": "Sandi konfirmasina salah atawa can dieusian.",
+	"captcha-create": "Pikeun nyieun kacana, mangga eusian itungan di handap ieu ([[Special:Captcha/help|émbaran lengkep]]):",
+	"captchahelp-title": "Pitulung Captcha",
+	"captchahelp-text": "Ramatloka nu nampa tulisan ti masarakat umum kawas ieu wiki mindeng diganggu ku spammer nu maké pakakas otomatis pikeun midangkeun tumbu-tumbuna ka loba loka. Najan tumbu spam ieu bisa dihapus, ari loba-loba teuing mah matak nyapékeun.\n\nSometimes, especially when adding new web links to a page, the wiki may show you an image of colored or distorted text and ask you to type the words shown. Since this is a task that's hard to automate, it will allow most real humans to make their posts while stopping most spammers and other robotic attackers.\n\nUnfortunately this may inconvenience users with limited vision or using text-based or speech-based browsers. At the moment we do not have an audio alternative available. Please contact the site administrators for assistance if this is unexpectedly preventing you from making legitimate posts.\n\nYou will need to have cookies enabled in your browser for this to work.\n\nHit the 'back' button in your browser to return to the page editor.",
+	"right-skipcaptcha": "Ngalakonan pamicu captcha tanpa ngaliwatan Captcha"
+}

@@ -1,0 +1,18 @@
+{
+	"@metadata": {
+		"authors": [
+			"Hamilton Abreu",
+			"Vitorvicentevalente"
+		]
+	},
+	"apihelp-query+oath-summary": "Verificar se a autenticação de dois fatores (OATH) está ativa para um utilizador.",
+	"apihelp-query+oath-param-user": "Utilizador acerca do qual será obtida informação. Por omissão, o utilizador atual.",
+	"apihelp-query+oath-param-reason": "Razão para consultar o estado do OATH.",
+	"apihelp-query+oath-example-1": "Obter informações sobre o utilizador atual",
+	"apihelp-query+oath-example-2": "Obter informação sobre o utilizador <kbd>Example</kbd>",
+	"apihelp-oathvalidate-summary": "Validar uma chave de autenticação de dois fatores (OATH).",
+	"apihelp-oathvalidate-param-user": "O utilizador para o qual a chave será validada. Por omissão, o utilizador atual.",
+	"apihelp-oathvalidate-example-1": "Validar dados JSON para o utilizador atual",
+	"apihelp-oathvalidate-example-3": "Validar dados JSON para o utilizador <kbd>Example</kbd>",
+	"apihelp-oathvalidate-param-data": "Dados codificados JSON esperados pelo módulo atualmente ativado para o utilizador a ser autenticado"
+}

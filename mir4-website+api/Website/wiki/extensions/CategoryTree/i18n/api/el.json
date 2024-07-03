@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"NikosLikomitros",
+			"Nikosgranturismogt"
+		]
+	},
+	"apihelp-categorytree-summary": "Εσωτερικό δομοστοιχείο για την επέκταση CategoryTree.",
+	"apihelp-categorytree-param-category": "Τίτλος στον ονοματοχώρο κατηγορίας, το πρόθεμα θα αγνοηθεί εάν δοθεί.",
+	"apihelp-categorytree-param-options": "Επιλογές για τον κατασκευαστή CategoryTree ως αντικείμενο JSON. Η επιλογή <var>depth</var> είναι προεπιλεγμένη στο <kbd>1</kbd>.",
+	"apierror-categorytree-invalidjson": "Οι επιλογές πρέπει να είναι έγκυρο αντικείμενο JSON."
+}

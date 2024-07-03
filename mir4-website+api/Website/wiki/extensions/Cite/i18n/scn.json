@@ -1,0 +1,35 @@
+{
+	"@metadata": {
+		"authors": [
+			"Ajeje Brazorf",
+			"Markos90",
+			"Melos",
+			"Pippinu",
+			"Santu",
+			"Sarvaturi"
+		]
+	},
+	"cite-desc": "Agghiunci l'etichetti <code>&lt;ref&gt;</code> e <code>&lt;references/&gt;</code>, pi citazzioni",
+	"cite_error": "Erruri ntâ citazzioni: $1",
+	"cite_error_ref_numeric_key": "Etichetta <code>&lt;ref&gt;</code> nun bona; lu nomu nun pò èssiri nu nùmmiru sanu. Adupirari nu tìtulu discrittivu",
+	"cite_error_ref_no_key": "Etichetta <code>&lt;ref&gt;</code> nun bona: li ref vacanti hannu a aviri un nomu",
+	"cite_error_ref_too_many_keys": "Etichetta <code>&lt;ref&gt;</code> nun bona; noma nun vàlidi, p'es. nn'havi troppu assai",
+	"cite_error_ref_no_input": "Etichetta <code>&lt;ref&gt;</code> nun bona; li ref senza nomu hannu a aviri un cuntinutu",
+	"cite_error_references_invalid_parameters": "Paramitru ntâ etichetta<code>&lt;references&gt;</code> nun vàliddu.",
+	"cite_error_references_no_backlink_label": "Fineru l'etichetti di rimannu p'arreri pirsunalizzati. Difinìrinni chiossai ntô missaggiu [[MediaWiki:Cite references link many format backlink labels]].",
+	"cite_error_no_link_label_group": "Fineru l'etichetti pirsunalizzati pî liami dû gruppu «$1». Difinirinni chiossai ntô missaggiu [[MediaWiki:$2]].",
+	"cite_error_references_no_text": "Etichetta <code>&lt;ref&gt;</code> nun bona; nun vinni furnutu nuḍḍu testu pî ref cu nomu <code>$1</code>",
+	"cite_error_included_ref": "Ammanca l’etichetta <code>&lt;/ref&gt;</code> pi chiùdiri l'etichetta <code>&lt;ref&gt;</code>",
+	"cite_error_group_refs_without_references": "Ci sunnu etichetti <code>&lt;ref&gt;</code> p'un gruppu chiamatu \"$1\", pirò nun c'è nuḍḍa etichetta <code>&lt;references group=\"$1\"/&gt;</code> currispunnenti",
+	"cite_error_references_group_mismatch": "N'etichetta <code>&lt;ref&gt;</code> nta <code>&lt;references&gt;</code> havi l'attribbutu gruppu n cunfrittu, \"$1\".",
+	"cite_error_references_missing_key": "N'etichetta <code>&lt;ref&gt;</code> difinuta nta <code>&lt;references&gt;</code> havi comu attribbutu name \"$1\" ca nun è adupiratu ntô testu pricidenti.",
+	"cite_error_references_no_key": "N'etichetta <code>&lt;ref&gt;</code> difinuta nta <code>&lt;references&gt;</code> nun havi n'attribbutu nomu.",
+	"cite_error_empty_references_define": "L’etichetta <code>&lt;ref&gt;</code> difinuta nta <code>&lt;references&gt;</code> cû nomu \"$1\" nun havi nuḍḍu cuntinutu.",
+	"cite_references_link_accessibility_label": "Attorna pi supra",
+	"cite_references_link_many_accessibility_label": "Attorna pi supra unni:",
+	"cite-wikieditor-tool-reference": "Rifirenza",
+	"cite-wikieditor-help-page-references": "Rifirenzi",
+	"cite-wikieditor-help-content-reference-description": "Rifirenza",
+	"cite-wikieditor-help-content-rereference-description": "Usu dâ stissa nota cchiù tardu",
+	"cite-wikieditor-help-content-showreferences-description": "Ammuscia li rifirenzi"
+}

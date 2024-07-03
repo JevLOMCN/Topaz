@@ -1,0 +1,35 @@
+{
+	"@metadata": {
+		"authors": [
+			"ChrisPtDe"
+		]
+	},
+	"categorytree": "Structura d’âbro de les catègories",
+	"categorytree-portlet": "Catègories",
+	"categorytree-legend": "Vêre la structura d’âbro de la catègorie",
+	"categorytree-desc": "Outil basâ dessus AJAX por afichiér la [[Special:CategoryTree|structura de la catègorie]] d’un vouiqui",
+	"categorytree-header": "Buchiéd un nom de catègorie por vêre son contegnu en structura d’âbro.\nCen utilise des fonccionalitâts JavaScript avanciês cognues desot lo nom d’AJAX.\nSe vos avéd un rudo viely navigator ou ben se vos éd pas activâ la fonccionalitât JavaScript, cen fonccionerat pas.",
+	"categorytree-category": "Catègorie :",
+	"categorytree-go": "Fâre vêre la structura d’âbro",
+	"categorytree-parents": "Sur-catègorie(s) ",
+	"categorytree-mode-label": "Fôrma :",
+	"categorytree-mode-categories": "solament les catègories",
+	"categorytree-mode-pages": "pâges sen los fichiérs",
+	"categorytree-mode-all": "totes les pâges",
+	"categorytree-collapse": "recllôre",
+	"categorytree-expand": "dèpleyér",
+	"categorytree-member-counts": "contint $1 sot-catègori{{PLURAL:$1|a|es}}, $2 pâge{{PLURAL:$2||s}} et pués $3 fichiér{{PLURAL:$3||s}}",
+	"categorytree-num-categories": "$1 C",
+	"categorytree-num-pages": "$1 P",
+	"categorytree-num-files": "$1 F",
+	"categorytree-num-empty": "vouedo",
+	"categorytree-load": "Uvrir",
+	"categorytree-loading": "uvèrtura...",
+	"categorytree-nothing-found": "Pas trovâ, dèsolâ.",
+	"categorytree-no-subcategories": "Gins de sot-catègorie.",
+	"categorytree-no-parent-categories": "gins de catègorie parenta",
+	"categorytree-no-pages": "Gins d’articllo ou de sot-catègorie.",
+	"categorytree-not-found": "La catègorie <i>$1</i> at pas étâ trovâ.",
+	"categorytree-error": "Problèmo de chargement de les balyês.",
+	"categorytree-retry": "Atendéd un moment et pués tornâd èprovar."
+}

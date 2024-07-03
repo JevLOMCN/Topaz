@@ -1,0 +1,21 @@
+{
+	"@metadata": {
+		"authors": [
+			"Winston Sung"
+		]
+	},
+	"codeeditor-desc": "Uređivanje s istaknutom sintaksom za JavaScript i kaskadne stilske stranice (CSS) koristeći urednik [https://ace.c9.io/ Ace]",
+	"codeeditor-next-annotation": "Idi na sljedeću pribilješku",
+	"codeeditor-toolbar-toggle": "Uključi/isključi uređivač kôda",
+	"codeeditor-save-with-errors": "U dokumentu ima pogrešaka. Jeste li sigurni da ga želite spremiti?",
+	"codeeditor-invisibleChars-toggle": "Ukl/iskl. nevidljive znakove",
+	"codeeditor-lineWrapping-toggle": "Ukl/iskl. prijelom",
+	"codeeditor-searchReplace-toggle": "Ukl/iskl. dijalog za pretragu i zamjenu",
+	"codeeditor-gotoline": "Idi na red broj...",
+	"codeeditor-gotoline-placeholder": "red[:kolona]",
+	"codeeditor-gotoline-prompt": "Upišite broj reda",
+	"codeeditor-indent": "Uvlaka",
+	"codeeditor-outdent": "Izvlaka",
+	"codeeditor-error-title": "Zavisnost nije uspjela",
+	"codeeditor-error-message": "Na Uredniku koda mu potreban je Wikiurednik."
+}

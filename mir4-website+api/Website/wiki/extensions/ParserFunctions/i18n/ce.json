@@ -1,0 +1,16 @@
+{
+	"@metadata": {
+		"authors": [
+			"Sasan700",
+			"Умар"
+		]
+	},
+	"pfunc_desc": "Дика тайина маьӀнийн функцешца анализатор",
+	"pfunc_time_error": "ГӀалат: хан нийса йац",
+	"pfunc_expr_stack_exhausted": "Йаздарехь гӀалат ду: хьаладуьззина татол",
+	"pfunc_expr_unrecognised_word": "Йаздарехь гӀалат ду: девзаш доцу дош «$1»",
+	"pfunc_expr_unexpected_operator": "Дешнийн гӀалат: ца хаа оператор $1",
+	"pfunc_expr_unrecognised_punctuation": "Дешнийн гӀалат: йевзина йоцу пунктуацин хьаьрк «$1»",
+	"pfunc_expr_division_by_zero": "Нолан декъадалар",
+	"pfunc_expr_unknown_error": "Дешнийн гӀалат: ца хаа гӀалат ($1)"
+}

@@ -1,0 +1,114 @@
+.mw-highlight {
+	unicode-bidi: embed;
+
+	pre {
+		/* Use a more commonly found tab size of 4 (e.g. as used in CodeEditor)
+		instead of the browser-default value of 8 */
+		-moz-tab-size: 4;
+		tab-size: 4;
+		// Position .linenos relative to this container.
+		// Do not put this on the main container as it is 100%
+		// and causes it to stack above floated elements (T272853)
+		position: relative;
+	}
+
+	/* Avoid displaying double borders for nested 'code' elements.
+	   Before we started using the 'code' tag for inline code snippets,
+	   <code><syntaxhighlight enclose=none ...>...</syntaxhighlight></code>
+	   was a common pattern. Continue supporting it in existing content. */
+	code code& {
+		background-color: transparent;
+		border: 0;
+		padding: 0;
+	}
+
+	/* The nested pre already has a background. T126010 */
+	div& {
+		background-color: inherit;
+	}
+
+	/*
+	 * Don't show a red border around syntax errors. This behavior may be useful
+	 * in code editors, but it is not useful in a wiki environment, especially
+	 * given the longstanding habit of using an existing, mostly-compatible lexer
+	 * to highlight a language for which no lexer exists.
+	 */
+	.err {
+		border: 0;
+	}
+
+	/* Highlight background of whole lines, not just text in them */
+	.hll {
+		display: block;
+	}
+
+	&-lines pre,
+	.content &-lines pre { // Increase specificty over mobile selectors
+
+		.mw-content-ltr& {
+			/* @noflip */
+			padding-left: 3.5em;
+			/* @noflip */
+			box-shadow: inset 2.75em 0 0 #f0f0f0;
+
+			.hll {
+				/* @noflip */
+				margin-left: -3.5em;
+				/* @noflip */
+				padding-left: 3.5em;
+			}
+		}
+
+		/* stylelint-disable-next-line no-descending-specificity */
+		.mw-content-rtl& {
+			/* @noflip */
+			padding-right: 3.5em;
+			/* @noflip */
+			box-shadow: inset -2.75em 0 0 #f0f0f0;
+
+			/* stylelint-disable-next-line no-descending-specificity */
+			.hll {
+				/* @noflip */
+				margin-right: -3.5em;
+				/* @noflip */
+				padding-right: 3.5em;
+			}
+		}
+	}
+
+	.linenos {
+		position: absolute;
+		box-sizing: border-box;
+		width: 2.75em;
+		background: none;
+		color: #72777d;
+		white-space: pre;
+
+		.mw-content-ltr& {
+			/* @noflip */
+			left: 0;
+			/* @noflip */
+			text-align: right;
+			/* @noflip */
+			margin-right: 4px;
+		}
+
+		.mw-content-rtl& {
+			/* @noflip */
+			right: 0;
+			/* @noflip */
+			text-align: left;
+			/* @noflip */
+			margin-left: 4px;
+		}
+
+		&::before {
+			content: attr( data-line );
+		}
+	}
+
+	a:hover .linenos,
+	.hll a .linenos {
+		color: #333;
+	}
+}

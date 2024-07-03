@@ -1,0 +1,20 @@
+{
+	"@metadata": {
+		"authors": [
+			"AnakngAraw"
+		]
+	},
+	"imagemap_desc": "Nagpapahintulot ng napipindot na mga larawang mapa sa panig ng mga kliyente na ginagamitan ng tatak na <code>&lt;imagemap&gt;</code>",
+	"imagemap_no_image": "Kamalian: dapat tumukoy ng isang larawan sa unang guhit/hanay",
+	"imagemap_invalid_image": "Kamalian: hindi tanggap o hindi umiiral ang isang larawan",
+	"imagemap_bad_image": "Kamalian: ipinagbabawal (nasa \"itim na talaan\") sa pahinang ito ang larawan",
+	"imagemap_no_link": "Kamalian: walang natagpuang tanggap na kawing sa hulihan ng guhit/hanay na $1",
+	"imagemap_invalid_title": "Kamalian: may hindi tanggap na pamagat sa kawing sa guhit/hanay na $1",
+	"imagemap_missing_coord": "Kamalian: walang sapat na tugmaang pampook para sa hugis sa guhit/hanay na $1",
+	"imagemap_unrecognised_shape": "Kamalian: hindi nakikilalang hugis sa guhit/hanay na $1, bawat guhit ay dapat na nagsisimula sa kahit na isang: <code>default</code>, <code>rect</code>, <code>circle</code> o <code>poly</code>.",
+	"imagemap_invalid_coord": "Kamalian: hindi tanggap na tugmaang pampook sa guhit/hanay na $1, dapat na isang bilang",
+	"imagemap_invalid_desc": "Kamalian: hindi tanggap na pagtukoy sa paglalarawan, dapat na isa sa: <code>$1</code>",
+	"imagemap_description": "Tungkol sa larawang ito",
+	"imagemap_desc_types": "pang-itaas na kanan, pang-ibabang kanan, pang-ibabang kaliwa, pang-itaas na kaliwa, wala",
+	"imagemap_poly_odd": "Kamalian: nakatagpo ng isang \"poli\" (''poly'') na mayroong bilang na may butal na pang-pagtutugmang pampook na nasa guhit/hanay na $1"
+}

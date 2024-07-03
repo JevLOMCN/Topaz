@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Al Riaz Uddin Ripon"
+		]
+	},
+	"apihelp-query+gadgetcategories-summary": "গ্যাজেট বিষয়শ্রেণীর তালিকা ফিরিয়ে দেয়।",
+	"apihelp-query+gadgets-param-allowedonly": "কেবলমাত্র বর্তমান ব্যবহারকারীর জন্য অনুমোদিত গ্যাজেটগুলির তালিকা দিন।",
+	"apihelp-query+gadgets-param-enabledonly": "কেবলমাত্র বর্তমান ব্যবহারকারী দ্বারা সক্রিয় গ্যাজেটগুলির তালিকা দিন।",
+	"apihelp-query+gadgets-example-1": "গ্যাজেটগুলির বর্ণনা সহ তাদের তালিকা পান",
+	"apihelp-query+gadgets-example-5": "বর্তমান ব্যবহারকারী দ্বারা সক্রিয় গ্যাজেটগুলির একটি তালিকা পান"
+}

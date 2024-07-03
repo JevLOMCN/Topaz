@@ -1,0 +1,26 @@
+{
+	"@metadata": {
+		"authors": [
+			"Hamilton Abreu",
+			"He7d3r",
+			"Malafaya",
+			"Vitorvicentevalente"
+		]
+	},
+	"syntaxhighlight-desc": "Permite o realce sintático de código-fonte, através do elemento <code>&lt;syntaxhighlight&gt;</code>, usando o [http://pygments.org/ realçador de sintaxe Pygments - Python]",
+	"syntaxhighlight-error-category": "Páginas com erros no destaque de sintaxe",
+	"syntaxhighlight-error-category-desc": "Ocorreu um erro ao tentar realçar o código incluído na página.",
+	"syntaxhighlight-enclose-category": "Páginas que usam atributos ''enclose'' descontinuados",
+	"syntaxhighlight-enclose-category-desc": "O realce de sintaxe na página usa sintaxe ''enclose'' descontinuada.",
+	"syntaxhighlight-source-category": "Páginas que usam etiquetas ''source'' descontinuadas",
+	"syntaxhighlight-source-category-desc": "O realce de sintaxe na página usa etiquetas ''source'' descontinuadas.",
+	"syntaxhighlight-visualeditor-mwsyntaxhighlightinspector-code": "Código",
+	"syntaxhighlight-visualeditor-mwsyntaxhighlightinspector-language": "Língua",
+	"syntaxhighlight-visualeditor-mwsyntaxhighlightinspector-none": "(Nenhum)",
+	"syntaxhighlight-visualeditor-mwsyntaxhighlightinspector-showlines": "Mostrar números de linha",
+	"syntaxhighlight-visualeditor-mwsyntaxhighlightinspector-startingline": "Número de linha inicial",
+	"syntaxhighlight-visualeditor-mwsyntaxhighlightinspector-title": "Bloco de código",
+	"syntaxhighlight-error-pygments-invocation-failure": "Erro na invocação do Pygments",
+	"syntaxhighlight-error-unknown-language": "Língua \"$1\" desconhecida",
+	"syntaxhighlight-error-exceeds-size-limit": "O tamanho do código, $1 {{PLURAL:$1|bytes}}, excede o máximo permitido, $2 {{PLURAL:$2|bytes}}"
+}

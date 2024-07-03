@@ -1,0 +1,8 @@
+<li class="toggle-list-item {{class}}">
+	{{#components}}
+	<a class="toggle-list-item__anchor {{class}}" {{#array-attributes}}{{key}}="{{value}}"{{/array-attributes}}>
+		{{#data-icon}}{{>Icon}}{{/data-icon}}
+		<span class="toggle-list-item__label">{{label}}</span>
+	</a>
+	{{/components}}
+</li>

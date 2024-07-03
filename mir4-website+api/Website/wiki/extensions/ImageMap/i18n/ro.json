@@ -1,0 +1,22 @@
+{
+	"@metadata": {
+		"authors": [
+			"Cin",
+			"KlaudiuMihaila",
+			"Mihai",
+			"Minisarm"
+		]
+	},
+	"imagemap_desc": "Permite realizarea unei imagini hartă, cu ajutorul etichetei <code>&lt;imagemap&gt;</code>",
+	"imagemap_no_image": "Eroare: trebuie specificată o imagine pe prima linie",
+	"imagemap_invalid_image": "Eroare: imaginea este incorectă sau nu există",
+	"imagemap_bad_image": "Eroare: imaginea este pe o listă neagră pentru această pagină",
+	"imagemap_no_link": "Eroare: nu a fost găsită nici o legătură validă la sfârșitul liniei $1",
+	"imagemap_invalid_title": "Eroare: titlu invalid în legătură în linia $1",
+	"imagemap_missing_coord": "Eroare: coordonate insuficiente pentru forma de la linia $1",
+	"imagemap_unrecognised_shape": "Eroare: formă nerecunoscută în linia $1, fiecare linie trebuie să înceapă cu unul din parametrii: <code>default</code>, <code>rect</code>, <code>circle</code> or <code>poly</code>",
+	"imagemap_invalid_coord": "Eroare: coordonată incorectă la linia $1, trebuie să fie număr",
+	"imagemap_invalid_desc": "Eroare: parametru \"desc\" invalid, trebuie să fie unul din următorii: <code>$1</code>",
+	"imagemap_description": "Despre această imagine",
+	"imagemap_poly_odd": "Eroare: a fost găsit un poligon cu un număr impar de coordonate în linia $1"
+}

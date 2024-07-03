@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Beta16",
+			"Nemo ter"
+		]
+	},
+	"apihelp-categorytree-summary": "Modulo interno per l'estensione CategoryTree.",
+	"apihelp-categorytree-param-category": "Titolo nel namespace categoria, il prefisso verrà ignorato se dato.",
+	"apihelp-categorytree-param-options": "Opzioni per il costruttore CategoryTree come oggetto JSON. L'opzione <var>depth</var> predefinita è <kbd>1</kbd>.",
+	"apierror-categorytree-invalidjson": "Le opzioni devono essere fornite come un oggetto JSON valido."
+}

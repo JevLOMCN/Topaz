@@ -1,0 +1,21 @@
+{
+	"@metadata": {
+		"authors": [
+			"Brettchenweber",
+			"Hwboehm",
+			"Metalhead64"
+		]
+	},
+	"apihelp-query+pageimages-summary": "Liefert Informationen über Bilder auf der Seite, wie z. B. Miniaturansichten und das Vorhandensein von Fotos.",
+	"apihelp-query+pageimages-example-1": "Gibt den Namen und ein <kbd>100</kbd>-Pixel-Vorschaubild einer Grafik von der Seite <kbd>Albert Einstein</kbd> zurück.",
+	"apihelp-query+pageimages-param-prop": "Welche Informationen zurückgegeben werden sollen:",
+	"apihelp-query+pageimages-paramvalue-prop-thumbnail": "Die URL und Abmessungen des Vorschaubildes, das mit der Seite verknüpft ist, falls vorhanden.",
+	"apihelp-query+pageimages-paramvalue-prop-original": "Die URL und Originalabmessungen des Bildes, das mit der Seite verknüpft ist, falls vorhanden.",
+	"apihelp-query+pageimages-paramvalue-prop-name": "Der Bildtitel.",
+	"apihelp-query+pageimages-param-thumbsize": "Maximale Breite der Vorschaubilder in Pixel.",
+	"apihelp-query+pageimages-param-langcode": "Code für die Sprache, in der das Bild gerendert werden soll, falls mehrere Sprachen unterstützt werden",
+	"apihelp-query+pageimages-param-limit": "Gibt Eigenschaften von dieser Anzahl an Seiten zurück.",
+	"apihelp-query+pageimages-param-license": "Beschränkt Seitenbilder auf einen bestimmten Lizenztyp:",
+	"apihelp-query+pageimages-paramvalue-license-free": "Nur freie Bilder",
+	"apihelp-query+pageimages-paramvalue-license-any": "Bestes Bild, egal ob frei oder nicht-frei."
+}

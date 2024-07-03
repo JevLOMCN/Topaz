@@ -1,0 +1,43 @@
+{
+	"@metadata": {
+		"authors": [
+			"Amire80",
+			"Matma Rex",
+			"Nux",
+			"Rail",
+			"Woytecr"
+		]
+	},
+	"apierror-discussiontools-commentid-notfound": "Nie odnaleziono komentarza z ID „$1”.",
+	"apierror-discussiontools-commentname-ambiguous": "Odnaleziono więcej niż jeden komentarz z nazwą „$1”, wymagany jest parametr <var>commentid</var>.",
+	"apierror-discussiontools-commentname-notfound": "Nie odnaleziono komentarza z nazwą „$1”.",
+	"apierror-discussiontools-formtoken-used": "Komentarz został już umieszczony. Przeładuj stronę aby go zobaczyć.",
+	"apierror-discussiontools-subscription-failed-add": "Nie udało się zasubskrybować tego tematu.",
+	"apierror-discussiontools-subscription-failed-remove": "Nie udało się anulować subskrypcji tego tematu.",
+	"apihelp-discussiontoolscompare-summary": "Uzyskaj informacje o zmianach komentarzy pomiędzy dwiema wersjami strony.",
+	"apihelp-discussiontoolsedit-param-commentid": "ID komentarza, na który odpowiedzieć. Parametr używany tylko wtedy, gdy wartość <var>paction</var> to <var>addcomment</var>. Ma pierwszeństwo nad parametrem <var>commentname</var>.",
+	"apihelp-discussiontoolsedit-param-commentname": "Nazwa komentarza, na który odpowiedzieć. Parametr używany tylko wtedy, gdy wartość <var>paction</var> to <var>addcomment</var>.",
+	"apihelp-discussiontoolsedit-param-formtoken": "Opcjonalny unikalny identyfikator wygenerowany przez oprogramowanie klienckie służący do zapobiegania wysyłania zdublowanych komentarzy.",
+	"apihelp-discussiontoolsedit-param-html": "Treść do dodania, jako HTML. Nie może być użyte wraz z <var>wikitext</var>.",
+	"apihelp-discussiontoolsedit-param-sectiontitle": "{{int:apihelp-edit-param-sectiontitle}} Parametr używany tylko wtedy, gdy wartość <var>paction</var> to <var>addtopic</var>.",
+	"apihelp-discussiontoolsedit-param-wikitext": "Treść do dodania, jako wikitekst. Nie może być użyte wraz z <var>html</var>.",
+	"apihelp-discussiontoolsedit-paramvalue-paction-addcomment": "Dodaj nowy komentarz jako odpowiedź do istniejącego komentarza.",
+	"apihelp-discussiontoolsedit-paramvalue-paction-addtopic": "Dodaj nową sekcję dyskusji i pierwszy komentarz w niej.",
+	"apihelp-discussiontoolsedit-summary": "Wyślij wiadomość na stronie dyskusji.",
+	"apihelp-discussiontoolsfindcomment-summary": "Znajdź komentarz o danym identyfikatorze lub nazwie.",
+	"apihelp-discussiontoolsfindcomment-param-idorname": "Identyfikator lub nazwa komentarza",
+	"apihelp-discussiontoolsgetsubscriptions-param-commentname": "Nazwy tematów, które sprawdzić",
+	"apihelp-discussiontoolsgetsubscriptions-summary": "Sprawdź status subskrypcji podanych tematów.",
+	"apihelp-discussiontoolspageinfo-param-oldid": "Numer wersji do użycia (domyślnie ostatnia wersja).",
+	"apihelp-discussiontoolspageinfo-param-prop": "Które właściwości uzyskać:",
+	"apihelp-discussiontoolspageinfo-paramvalue-prop-threaditemshtml": "Dane o wątkach dyskusji odnalezionych na stronie",
+	"apihelp-discussiontoolspageinfo-paramvalue-prop-transcludedfrom": "Skąd zostały transkludowane komentarze",
+	"apihelp-discussiontoolspageinfo-summary": "Zwraca metadane niezbędne do zainicjowania narzędzi dyskusji.",
+	"apihelp-discussiontoolspreview-param-type": "Typ komentarza, którego podgląd chcesz zobaczyć",
+	"apihelp-discussiontoolspreview-param-wikitext": "Treść, której podgląd chcesz zobaczyć, jako wikitekst",
+	"apihelp-discussiontoolspreview-summary": "Zobacz podgląd wiadomości na stronie dyskusji.",
+	"apihelp-discussiontoolssubscribe-param-commentname": "Nazwa tematu do zasubskrybowania (lub anulowania subskrypcji)",
+	"apihelp-discussiontoolssubscribe-param-page": "Tytuł strony, gdzie widoczny jest temat",
+	"apihelp-discussiontoolssubscribe-param-subscribe": "Włącz, aby subskrybować; wyłącz, aby zrezygnować z subskrypcji",
+	"apihelp-discussiontoolssubscribe-summary": "Subskrybuj (lub anuluj subskrypcję), aby otrzymywać powiadomienia o komentarzach w danym temacie."
+}

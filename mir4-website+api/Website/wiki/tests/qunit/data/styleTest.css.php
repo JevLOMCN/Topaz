@@ -1,0 +1,53 @@
+<?php
+/**
+ * Dynamically create a simple stylesheet for unit tests in MediaWiki.
+ *
+ * This program is free software; you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation; either version 2 of the License, or
+ * (at your option) any later version.
+ *
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+ * GNU General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License along
+ * with this program; if not, write to the Free Software Foundation, Inc.,
+ * 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA.
+ * http://www.gnu.org/copyleft/gpl.html
+ *
+ * @file
+ */
+
+// This file doesn't run as part of MediaWiki
+// phpcs:disable MediaWiki.Usage.SuperGlobalsUsage.SuperGlobals
+
+header( 'Cache-Control: private, no-cache, must-revalidate' );
+header( 'Content-Type: text/css; charset=utf-8' );
+
+// Do basic sanitization
+$params = array_map( static function ( $val ) {
+	return is_string( $val ) ? preg_replace( '/[^A-Za-z0-9\.\- #]/', '', $val ) : null;
+}, $_GET );
+
+// Defaults
+$selector = $params['selector'] ?? '.mw-test-example';
+$property = $params['prop'] ?? 'float';
+$value = $params['val'] ?? 'right';
+$wait = isset( $params['wait'] ) ? (int)$params['wait'] : 0; // seconds
+
+sleep( $wait );
+
+$css = "
+/**
+ * Generated " . gmdate( 'r' ) . ".
+ * Waited {$wait}s.
+ */
+
+$selector {
+	$property: $value;
+}
+";
+
+echo trim( $css ) . "\n";

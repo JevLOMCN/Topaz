@@ -1,0 +1,16 @@
+{
+	"@metadata": {
+		"authors": [
+			"NMW03",
+			"Toghrul Rahimli"
+		]
+	},
+	"spam-blacklist": " #<!-- bu sətrə əl vurmayın --> <pre>\n# Bu siyahıdakı xarici URL-lər səhifələrə əlavə edildikdə bloklanacaq\n# Bu siyahı yalnız bu vikiyə təsir edir; qlobal blok siyahısına da baxın.\n# Sənədləşdirmə üçün: https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:SpamBlacklist\n#\n# Kod aşağıdakı kimidir:\n#   * \"#\" simvolundan sətrin sonuna kimi şərh sayılır\n#   * Boş olmayan hər bir sətir yalnız URL daxilindəki hostlarla uyğunlaşacaq regex fraqmentidir\n\n #</pre> <!-- bu sətrə əl vurmayın -->",
+	"spam-whitelist": " #<!-- bu sətrə əl vurmayın --> <pre>\n# Bu siyahıdakı xarici URL-lər səhifələrə əlavə \n# edildikdə qara siyahıda olsalar belə bloklanmayacaq\n#\n# Kod aşağıdakı kimidir:\n#   * \"#\" simvolundan sətrin sonuna kimi şərh sayılır\n#   * Boş olmayan hər bir sətir yalnız URL daxilindəki hostlarla uyğunlaşacaq regex fraqmentidir\n\n #</pre> <!-- bu sətrə əl vurmayın -->",
+	"spam-blacklisted-email": "Qadağan edilmiş e-poçt ünvanı",
+	"spam-blacklisted-email-text": "Sizin e-poçt ünvanınızın hal-hazırda digər istifadəçilərə e-poçt göndərməsi bloklanıb.",
+	"spam-blacklisted-email-signup": "Göstərilən e-poçt ünvanından hazırda istifadə etmək qadağan edilib.",
+	"log-name-spamblacklist": "Spam qara siyahısı qeydləri",
+	"log-description-spamblacklist": "Bu qeydlər spam qara siyahısı əməliyyatları izləyir.",
+	"logentry-spamblacklist-hit": "{{GENDER:$2|$1}} $3 səhifəsinə $4 əlavə etməyə çalışarkən spam filtrini işə saldı"
+}

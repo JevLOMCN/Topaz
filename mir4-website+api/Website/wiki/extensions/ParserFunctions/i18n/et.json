@@ -1,0 +1,27 @@
+{
+	"@metadata": {
+		"authors": [
+			"Pikne"
+		]
+	},
+	"pfunc_desc": "Laiendab parserit loogiliste funktsioonidega.",
+	"pfunc_time_error": "Tõrge: Vigane aeg",
+	"pfunc_time_too_long": "Tõrge: Liiga palju #time-kutseid.",
+	"pfunc_time_too_big": "Tõrge: #time toetab vaid aastaid kuni väärtuseni 9999.",
+	"pfunc_time_too_small": "Tõrge: #time toetab aastaid alates 0-st.",
+	"pfunc_rel2abs_invalid_depth": "Tõrge: Vigane tee pikkus: \"$1\" (üritati pöörduda juursõlmest kõrgema sõlme poole).",
+	"pfunc_expr_unexpected_number": "Avaldistõrge: Ootamatu number",
+	"pfunc_expr_preg_match_failure": "Avaldistõrge: preg_match nurjus ootamatult.",
+	"pfunc_expr_unrecognised_word": "Avaldistõrge: Tundmatu sõna \"$1\"",
+	"pfunc_expr_unexpected_operator": "Avaldistõrge: Ootamatu $1-tehtemärk",
+	"pfunc_expr_missing_operand": "Avaldistõrge: Puudub $1-tehte operand",
+	"pfunc_expr_unexpected_closing_bracket": "Avaldistõrge: Ootamatu lõpusulg",
+	"pfunc_expr_unrecognised_punctuation": "Avaldistõrge: Tundmatu kirjavahemärk \"$1\"",
+	"pfunc_expr_unclosed_bracket": "Avaldistõrge: sulgemata sulud",
+	"pfunc_expr_division_by_zero": "Nulliga jagamine",
+	"pfunc_expr_invalid_argument": "Vigane $1-tehte argument: väiksem kui -1 või suurem kui 1.",
+	"pfunc_expr_invalid_argument_ln": "Vigane ln-tehte argument: väiksem või võrdne nulliga.",
+	"pfunc_expr_unknown_error": "Avaldistõrge: Tundmatu tõrge ($1).",
+	"pfunc_expr_not_a_number": "$1-tehtes: Vastus pole number",
+	"pfunc_string_too_long": "Tõrge: Sõne ületab $1 märgi piirangu."
+}

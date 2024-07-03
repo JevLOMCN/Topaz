@@ -1,0 +1,113 @@
+// Full-size images
+//
+// Inline and floated full-size images will be styled like so.
+//
+// Example wikitext:
+// This is an [[File:Book.png]] inline image.
+// [[File:Book.png|left]]Left-aligned image
+// [[File:Book.png|right]]Right-aligned image
+//
+// Markup:
+// <div class="content">
+//   <p>This is an <img src="images/arrow-left.png"> inline image.</p>
+//   <div class="floatleft"><img src="images/arrow-left.png">Left-aligned image</div>
+//   <div class="floatright"><img src="images/arrow-left.png">Right-aligned image</div>
+// </div>
+@import 'mediawiki.mixins.less';
+@import '../../../minerva.less/minerva.variables.less';
+@import '../../../minerva.less/minerva.mixins.less';
+
+@margin-floatright: 0 0 0.6em 0.6em;
+@margin-floatleft: 0 0.6em 0.6em 0;
+
+.content {
+	img {
+		// Matches commonElements.css
+		vertical-align: middle;
+	}
+
+	// Applied to divs containing aligned, full-size images
+	.floatright {
+		/* @noflip */
+		clear: right;
+		/* @noflip */
+		float: right;
+		/* @noflip */
+		margin: @margin-floatright;
+	}
+
+	// Applied to divs containing aligned, full-size images
+	.floatleft {
+		/* @noflip */
+		clear: left;
+		/* @noflip */
+		float: left;
+		/* @noflip */
+		margin: @margin-floatleft;
+	}
+
+	// Prevent inline styles on images in wikitext
+	// Note we restrict to img's to avoid conflicts with VisualEditor shields
+	// See bug T64460
+	// due to lazy loading images we also must consider imgs inside noscript tags (T191893)
+	a > img,
+	noscript > img {
+		// make sure that images in articles don't cause a horizontal scrollbar
+		// on small screens
+		max-width: 100% !important;
+
+		// Note height auto is only applied to images. Not neeed for the lazy-image-placeholder which is
+		// a gray box and will cause reflows.
+		height: auto !important;
+	}
+
+	// bug T22030
+	.noresize {
+		max-width: 100%;
+		overflow-x: auto;
+
+		a > img {
+			max-width: none !important;
+		}
+	}
+
+	figure[ typeof~='mw:File' ],
+	figure[ typeof~='mw:File/Frameless' ] {
+		display: table;
+		border-collapse: collapse;
+
+		&.mw-halign-right {
+			/* @noflip */
+			margin: @margin-floatright;
+			/* @noflip */
+			clear: right;
+			/* @noflip */
+			float: right;
+		}
+
+		&.mw-halign-left {
+			/* @noflip */
+			margin: @margin-floatleft;
+			/* @noflip */
+			clear: left;
+			/* @noflip */
+			float: left;
+		}
+
+		&.mw-halign-none {
+			clear: none;
+			float: none;
+		}
+
+		&.mw-halign-center {
+			margin: 0 auto;
+			clear: none;
+			float: none;
+		}
+
+		> figcaption {
+			// Hide the caption for frameless and plain floated images
+			display: none;
+		}
+	}
+}

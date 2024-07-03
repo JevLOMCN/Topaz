@@ -1,0 +1,140 @@
+{
+	"name": "LoginNotify",
+	"version": "0.1",
+	"author": [
+		"Brian Wolff"
+	],
+	"url": "https://www.mediawiki.org/wiki/Extension:LoginNotify",
+	"descriptionmsg": "loginnotify-desc",
+	"license-name": "MIT",
+	"type": "other",
+	"requires": {
+		"MediaWiki": ">= 1.42",
+		"extensions": {
+			"Echo": "*"
+		}
+	},
+	"DefaultUserOptions": {
+		"echo-subscriptions-web-login-fail": true,
+		"echo-subscriptions-email-login-fail": true,
+		"echo-subscriptions-web-login-success": false,
+		"echo-subscriptions-email-login-success": true
+	},
+	"MessagesDirs": {
+		"LoginNotify": [
+			"i18n"
+		]
+	},
+	"AutoloadNamespaces": {
+		"LoginNotify\\": "includes/"
+	},
+	"Hooks": {
+		"BeforeCreateEchoEvent": "echo",
+		"EchoGetBundleRules": "echo",
+		"AuthManagerLoginAuthenticateAudit": "main",
+		"LocalUserCreated": "main",
+		"RecentChange_save": "main",
+		"LoadExtensionSchemaUpdates": "schema"
+	},
+	"HookHandlers": {
+		"main": {
+			"class": "LoginNotify\\Hooks",
+			"services": [
+				"UserFactory"
+			]
+		},
+		"echo": {
+			"class": "LoginNotify\\EchoHooks"
+		},
+		"schema": {
+			"class": "LoginNotify\\SchemaHooks"
+		}
+	},
+	"JobClasses": {
+		"LoginNotifyChecks": {
+			"class": "LoginNotify\\DeferredChecksJob",
+			"services": [
+				"UserFactory"
+			]
+		},
+		"LoginNotifyPurgeSeen": {
+			"class": "LoginNotify\\PurgeSeenJob",
+			"services": [
+				"LoginNotify.LoginNotify"
+			]
+		}
+	},
+	"ServiceWiringFiles": [
+		"includes/ServiceWiring.php"
+	],
+	"DatabaseVirtualDomains": [
+		"virtual-LoginNotify"
+	],
+	"config": {
+		"LoginNotifyAttemptsKnownIP": {
+			"description": "The number of failed login attempts to permit from a known IP before a notification is triggered.",
+			"value": 5
+		},
+		"LoginNotifyExpiryKnownIP": {
+			"description": "The time-to-live of the count of failed login attempts from a known IP (from the time of the first failed attempt).",
+			"value": 604800
+		},
+		"LoginNotifyAttemptsNewIP": {
+			"description": "The number of failed login attempts to permit from a new IP before a notification is triggered.",
+			"value": 1
+		},
+		"LoginNotifyExpiryNewIP": {
+			"description": "The time-to-live of the count of failed login attempts from a new IP (from the time of the first failed attempt).",
+			"value": 1209600
+		},
+		"LoginNotifyCheckKnownIPs": {
+			"description": "Whether to trigger a notification after failed logins from known IPs.",
+			"value": true
+		},
+		"LoginNotifyEnableOnSuccess": {
+			"description": "Whether to trigger a notification after successful logins from unknown IPs.",
+			"value": true
+		},
+		"LoginNotifySecretKey": {
+			"description": "Override this to use a different secret than $wgSecretKey",
+			"value": null
+		},
+		"LoginNotifyCookieExpire": {
+			"description": "Expiry in seconds. Default is 180 days",
+			"value": 15552000
+		},
+		"LoginNotifyCookieDomain": {
+			"description": "Override to allow sharing login cookies between sites on different subdomains",
+			"value": null
+		},
+		"LoginNotifyMaxCookieRecords": {
+			"description": "Maximum number of users (records) to track as having successfully logged in on a particular device.",
+			"value": 6
+		},
+		"LoginNotifyCacheLoginIPExpiry": {
+			"description": "Set to false to disable caching IPs in memcache. Set to 0 to cache forever. Default 60 days.",
+			"value": 5184000
+		},
+		"LoginNotifyUseCheckUser": {
+			"description": "Use the CheckUser cu_changes table if it is available. This is redundant with LoginNotify's own table, available with MediaWiki 1.41. Setting this to true will be deprecated in a later release. Defaults to true temporarily during WMF pilot.",
+			"value": true
+		},
+		"LoginNotifyUseSeenTable": {
+			"description": "Use the loginnotify_seen_net table. This is redundant with LoginNotifyUseCheckUser although both can be enabled during migration. Defaults to false temporarily during WMF pilot.",
+			"value": false
+		},
+		"LoginNotifyUseCentralId": {
+			"description": "Use central user IDs in the loginnotify_seen_net table. This should be set to true if the loginnotify_seen_net is in a shared database. CentralAuth should be installed and all users should be attached to it.",
+			"value": false
+		},
+		"LoginNotifySeenExpiry": {
+			"description": "The expiry time of data in the loginnotify_seen_net table, in seconds. This should be a multiple of LoginNotifyBucketSize. Default is 180 days.",
+			"value": 15552000
+		},
+		"LoginNotifySeenBucketSize": {
+			"description": "The size of a time bucket used when storing data in the loginnotify_seen_net table, in seconds. If this is changed, the data in the loginnotify_seen_net will become invalid and the table should be truncated. Setting this to a small number will require additional storage space. Setting this to a large number will cause the data expiry time to be less accurate. Default: 15 days.",
+			"value": 1296000
+		}
+	},
+	"manifest_version": 2
+}

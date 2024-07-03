@@ -1,0 +1,32 @@
+{
+	"@metadata": {
+		"authors": [
+			"Byrial",
+			"Peter Alberti",
+			"Saederup92",
+			"Zakawer2"
+		]
+	},
+	"gadgets-desc": "Lader brugere vælge brugerdefinerede [[Special:Gadgets|CSS og JavaScript gadgets]] i deres [[Special:Preferences#mw-prefsection-gadgets|indstillinger]]",
+	"prefs-gadgets": "Gadgets",
+	"gadgets-prefstext": "Nedenstående er en liste over de gadgets som du kan aktivere for din brugerkonto.\nDa disse gadgets hovedsageligt er baseret på JavaScript skal du slå JavaScript til i din browser for at få dem til at virke.\nBemærk at disse gadgets ikke vil have nogen effekt på denne side (indstillinger).\n\nBemærk også at disse specielle gadgets ikke er en del af MediaWiki-softwaren og at de typisk bliver vedligeholdt af brugere på din lokale wiki.\nLokale administratorer kan redigere tilgængelige gadgets med [[MediaWiki:Gadgets-definition|definitioner]] og [[Special:Gadgets|beskrivelser]].",
+	"special-gadgets": "Gadgets",
+	"gadgetusage": "Statistik for brug af gadget",
+	"gadgetusage-gadget": "Gadget",
+	"gadgetusage-usercount": "Antal af brugere",
+	"gadgetusage-noresults": "Ingen gadgets blev fundet.",
+	"gadgetusage-activeusers": "Aktive brugere",
+	"gadgetusage-default": "Standard",
+	"gadgets-title": "Gadgets",
+	"gadgets-pagetext": "Nedenstående er en liste med de specielle gadgets som brugere kan aktivere i deres [[Special:Preferences#mw-prefsection-gadgets|indstillinger]], som defineret i [[MediaWiki:Gadgets-definition|definitionerne]].\nDenne oversigtsside giver simpel adgang til de beskedsider som definerer hver gadgets beskrivelse og kode.",
+	"gadgets-uses": "Bruger",
+	"gadgets-required-rights": "Kræver {{PLURAL:$2|rettigheden|følgende rettigheder}}:\n\n$1",
+	"gadgets-required-skins": "Tilgængelig for {{PLURAL:$2|$1-udseendet|de følgende udseender: $1}}.",
+	"gadgets-default": "Aktiveret for alle som standard.",
+	"gadgets-export": "Eksporter",
+	"gadgets-export-title": "Eksporter gadget",
+	"gadgets-not-found": "Gadget \"$1\" ikke fundet.",
+	"gadgets-export-text": "For at eksportere værktøjet $1, klik på knappen \"{{int:gadgets-export-download}}\", gem den downloadede fil, gå til Special:Import på destinationswikien og læg den op. Tilføj så følgende til siden MediaWiki:Gadgets-definition:\n<pre>$2</pre>\nDu skal have de nødvendige rettigheder på destinationswikien (herunder rettigheden til at redigere systemmeddelelser) og importering via oplægning af filer skal være slået til.",
+	"gadgets-export-download": "Download",
+	"gadgets-validate-json": "JSON-filer er angivet men bruges ikke. De er kun gyldige i pakkede gadgets."
+}

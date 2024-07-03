@@ -1,0 +1,23 @@
+{
+	"@metadata": {
+		"authors": [
+			"Als-Chlämens",
+			"Als-Holder"
+		]
+	},
+	"gadgets-desc": "Macht s Benutzer megli, in ihre [[Special:Preferences#mw-prefsection-gadgets|persenlige Yystellige]] vordefinierti [[Special:Gadgets|CSS- und JavaScript-Gadgets]] z aktiviere",
+	"prefs-gadgets": "Gadgets",
+	"gadgets-prefstext": "Unter git s e Lischt vu spezielle Gadgets, wu for jede Benutzer chenne aktiviert wäre.\nD Gadgets basiere zmeischt uf JavaScript, wäge däm muess JavaScript im Browser aktiviert syy, ass si funktioniere.\nD Gadgets funktionieren aber nit uf däre Syte mit persenlige Yystellige.\n\nMer muess au Acht gee, ass die Gadgets im Allgmeinen nit Teil vu MediaWiki sin, sundern meischt vu\nBenutzer vum lokale Wikis entwicklet un gwartet wäre. Lokali Wiki-Ammanne chenne d Lischt vu dr verfiegbare Gadgets iber d Syte [[MediaWiki:Gadgets-definition]] un [[Special:Gadgets]] bearbeite",
+	"special-gadgets": "Gadgets",
+	"gadgets-title": "Gadgets",
+	"gadgets-pagetext": "Lischt vu spezielle Gadgets, wu fir jede Benutzer in syyne [[Special:Preferences#mw-prefsection-gadgets|persenlige Yystellige]] verfiegbar sin, wie s [[MediaWiki:Gadgets-definition|definiert]] isch.\nDie Ibersicht bietet e direkte Zuegang zue dr Syschtemnochrichte, wu d Bschryybig un dr Programmcode vu jedem Gadget din sin.",
+	"gadgets-uses": "Bruucht",
+	"gadgets-required-rights": "Brucht {{PLURAL:$2|des folgendi Rächt|die folgende Rächt}}:\n$1",
+	"gadgets-required-skins": "Verfiegbar uff {{PLURAL:$2|derre Benutzeroberflächi|dänne Benutzeroberflächene}}: $1.",
+	"gadgets-default": "Fir alli standardmäßig aktiviert.",
+	"gadgets-export": "Exportiere",
+	"gadgets-export-title": "Hälferli exportiere",
+	"gadgets-not-found": "Hälferli „$1“ isch nit gfunde wore.",
+	"gadgets-export-text": "Go s Hälferli $1 exportiere, klick uf d Schaltflechi „{{int:gadgets-export-download}}“ un tue di abeglade Datei spychere. Gang derno uf d Spezialsyte Spezial:Import uf em Wiki, wu fir dr Import vorgsäh isch, un lad d Datei ufe. Derno fieg dää Text in d Syte MediaWiki:Gadgets-definition yy:\n<pre>$2</pre>\nDu muesch iber di notwändige Rächt uf em Wiki verfiege, wu fir dr Import vorgsäh isch (mitsamt em Rächt MediaWiki-Syschtemnochrichte z bearbeite). Derzue mueß dr Import vu Datei-Upload aktiviert syy.",
+	"gadgets-export-download": "Abelade"
+}

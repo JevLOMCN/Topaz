@@ -1,0 +1,30 @@
+{
+	"@metadata": {
+		"authors": [
+			"Bdijkstra",
+			"Mainframe98",
+			"McDutchie",
+			"PonkoSasuke",
+			"Romaine",
+			"SPQRobin",
+			"Siebrand",
+			"Tvdm"
+		]
+	},
+	"syntaxhighlight-desc": "Voorziet in syntaxiskleuring van [http://pygments.org/ Pygments – Python syntax highlighter] middels de tag <code>&lt;syntaxhighlight&gt;</code>",
+	"syntaxhighlight-error-category": "Pagina's met fouten in de syntaxmarkering",
+	"syntaxhighlight-error-category-desc": "Er ging iets fout tijdens de syntaxismarkering van de code op de pagina.",
+	"syntaxhighlight-enclose-category": "Pagina's die verouderde enclose-attributen gebruiken",
+	"syntaxhighlight-enclose-category-desc": "De syntaxismarkering op de pagina gebruikt verouderde enclose-syntaxis.",
+	"syntaxhighlight-source-category": "Pagina's die verouderde source-labels gebruiken",
+	"syntaxhighlight-source-category-desc": "De syntaxismarkering op de pagina gebruikt verouderde source-tags.",
+	"syntaxhighlight-visualeditor-mwsyntaxhighlightinspector-code": "Code",
+	"syntaxhighlight-visualeditor-mwsyntaxhighlightinspector-language": "Taal",
+	"syntaxhighlight-visualeditor-mwsyntaxhighlightinspector-none": "(Geen)",
+	"syntaxhighlight-visualeditor-mwsyntaxhighlightinspector-showlines": "Regelnummers tonen",
+	"syntaxhighlight-visualeditor-mwsyntaxhighlightinspector-startingline": "Startregelnummer",
+	"syntaxhighlight-visualeditor-mwsyntaxhighlightinspector-title": "Codeblok",
+	"syntaxhighlight-error-pygments-invocation-failure": "Fout bij het aanroepen van Pygments",
+	"syntaxhighlight-error-unknown-language": "Onbekende taal \"$1\"",
+	"syntaxhighlight-error-exceeds-size-limit": "Codegrootte van $1 byte{{PLURAL:$1||s}} overschrijdt het toegestane maximum van $2 byte{{PLURAL:$2||s}}"
+}

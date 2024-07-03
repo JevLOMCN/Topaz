@@ -1,0 +1,21 @@
+{
+	"@metadata": {
+		"authors": [
+			"Pikne"
+		]
+	},
+	"skinname-monobook": "MonoBook",
+	"monobook-desc": "2004. aastast pärinev klassikaline MediaWiki kujundus, mis on nime saanud lehekülje taustal oleva mustvalge raamatu foto järgi",
+	"monobook.css": "/* Siin asuv kaskaadilaadistik laaditakse kõigi MonoBooki-kujunduse kasutajate jaoks. */",
+	"monobook.js": "/* Siin asuv JavaScript laaditakse MonoBooki-kujunduse kasutajate jaoks. */",
+	"monobook-jumptotop": "tagasi üles",
+	"monobook-jumptopersonal": "kasutaja tööriistad",
+	"monobook-jumptonavigation": "Mine navigeerimisribale",
+	"monobook-jumptosearch": "Mine otsikasti",
+	"monobook-more-actions": "Veel",
+	"monobook-cactions-label": "Lehetoimingud",
+	"monobook-notifications-link": "Teavitused ($1)",
+	"monobook-notifications-link-none": "Teavitused",
+	"monobook-view-history": "Ajalugu",
+	"monobook-action-undelete": "Taasta {{PLURAL:$1|üks muudatus|$1 muudatust}}"
+}

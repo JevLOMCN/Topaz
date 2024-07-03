@@ -1,0 +1,20 @@
+{
+	"@metadata": {
+		"authors": []
+	},
+	"pfunc_time_error": "Qate: jaramsız waqıt",
+	"pfunc_time_too_long": "Qate: #time şaqırwı tım köp",
+	"pfunc_rel2abs_invalid_depth": "Qate: Mına joldıñ jaramsız terendigi «$1» (tamır tüýinniñ üstindegi tüýinge qatınaw talabı)",
+	"pfunc_expr_stack_exhausted": "Aýtılım qatesi: Stek sarqıldı",
+	"pfunc_expr_unexpected_number": "Aýtılım qatesi: Kütilmegen san",
+	"pfunc_expr_preg_match_failure": "Aýtılım qatesi: Kütilmegen preg_match sätsizdigi",
+	"pfunc_expr_unrecognised_word": "Aýtılım qatesi: Tanılmağan söz «$1»",
+	"pfunc_expr_unexpected_operator": "Aýtılım qatesi: Kütilmegen operator $1",
+	"pfunc_expr_missing_operand": "Aýtılım qatesi: $1 üşin joğalğan operand",
+	"pfunc_expr_unexpected_closing_bracket": "Aýtılım qatesi: Kütilmegen jabatın jaqşa",
+	"pfunc_expr_unrecognised_punctuation": "Aýtılım qatesi: Tanılmağan tınıs belgisi «$1»",
+	"pfunc_expr_unclosed_bracket": "Aýtılım qatesi: Jabılmağan jaqşa",
+	"pfunc_expr_division_by_zero": "Nölge bölinwi",
+	"pfunc_expr_unknown_error": "Aýtılım qatesi: Belgisiz qate ($1)",
+	"pfunc_expr_not_a_number": "$1 degende: nätïje san emes"
+}

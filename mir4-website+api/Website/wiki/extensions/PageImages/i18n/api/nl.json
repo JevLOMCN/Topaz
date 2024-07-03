@@ -1,0 +1,19 @@
+{
+	"@metadata": {
+		"authors": [
+			"McDutchie"
+		]
+	},
+	"apihelp-query+pageimages-summary": "Retourneert informatie over afbeeldingen op de pagina, zoals miniatuur en aanwezigheid van foto’s.",
+	"apihelp-query+pageimages-example-1": "Vraag de naam en een miniatuur van <kbd>100</kbd> pixels op van een afbeelding op de pagina <kbd>Albert Einstein</kbd>.",
+	"apihelp-query+pageimages-param-prop": "Welke informatie te retourneren:",
+	"apihelp-query+pageimages-paramvalue-prop-thumbnail": "URL en afmetingen van de miniatuurafbeelding die aan de pagina is gekoppeld, indien aanwezig.",
+	"apihelp-query+pageimages-paramvalue-prop-original": "URL en originele afmetingen van de afbeelding die aan de pagina is gekoppeld, indien aanwezig.",
+	"apihelp-query+pageimages-paramvalue-prop-name": "Titel afbeelding.",
+	"apihelp-query+pageimages-param-thumbsize": "Maximale breedte in pixels van miniatuurafbeeldingen.",
+	"apihelp-query+pageimages-param-langcode": "Code van de taal waarin de afbeelding wordt weergegeven als meerdere talen worden ondersteund",
+	"apihelp-query+pageimages-param-limit": "Van hoeveel pagina’s er eigenschappen moeten worden geretourneerd.",
+	"apihelp-query+pageimages-param-license": "Pagina-afbeeldingen beperken tot een bepaald licentietype:",
+	"apihelp-query+pageimages-paramvalue-license-free": "Alleen vrije afbeeldingen.",
+	"apihelp-query+pageimages-paramvalue-license-any": "De beste afbeelding, vrij of niet."
+}

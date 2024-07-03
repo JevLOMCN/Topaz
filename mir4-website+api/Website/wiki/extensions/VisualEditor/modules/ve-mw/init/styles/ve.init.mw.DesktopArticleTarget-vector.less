@@ -1,0 +1,62 @@
+/*!
+ * VisualEditor MediaWiki Initialization DesktopArticleTarget Vector skin styles.
+ *
+ * @copyright See AUTHORS.txt
+ * @license The MIT License (MIT); see LICENSE.txt
+ */
+
+.ve-init-mw-desktopArticleTarget .ve-init-mw-target-surface {
+	/*
+	In order to allow placing the text cursor to the start or end of the text by
+	clicking in the margin area, we expand the outer boundary of the surface
+	outside the parent container using negative margin. Then we shrink the visible
+	rendering by applying inner padding. The end result is that the content is
+	the same width as in read mode, except with the padding around it now being
+	part of it instead of its parent, thus making it treat the area as part
+	of content editable.
+
+	Use `rem` units. This lets us respect custom browser font-size (like `em`),
+	but isn't affected by the parent element font-size, which may be defined in
+	`px` due to `.mw-editfont-monospace` and similar classes. (T222217)
+	*/
+
+	margin: 0 -1rem;
+
+	> .ve-ce-surface .ve-ce-attachedRootNode,
+	> .ve-ui-surface-placeholder {
+		padding: 0 1rem;
+	}
+
+	/* Main document debug bar */
+	> .ve-ui-debugBar {
+		padding: 1rem;
+		padding-bottom: 0;
+		margin-top: 1rem;
+	}
+
+	.mw-body & > .ve-ui-surface-placeholder > * {
+		/* Fix margin overlap */
+		margin-top: 0;
+		/* Placeholder doesn't need a border as well */
+		border: 0;
+	}
+
+	.skin-vector-legacy & {
+		/* High-definition-specific styles (because Vector adds 1em to the leftNav if width is 982px+ */
+		@media screen and ( min-width: 982px ) {
+			margin: 0 -1.5rem;
+
+			> .ve-ce-surface .ve-ce-attachedRootNode,
+			> .ve-ui-surface-placeholder {
+				padding: 0 1.5rem;
+			}
+
+			/* Main document debug bar */
+			> .ve-ui-debugBar {
+				padding: 1.5rem;
+				padding-bottom: 0;
+				margin-top: 1.5rem;
+			}
+		}
+	}
+}

@@ -1,0 +1,19 @@
+{
+	"@metadata": {
+		"authors": [
+			"Huñvreüs"
+		]
+	},
+	"loginnotify-desc": "Kemenn implijerien a-zivout arnodoù susped eus ardivinkoù ha/pe chomlec’hioù IP divoas",
+	"echo-category-title-login-fail": "Arnodoù kevreañ c’hwitet",
+	"echo-pref-tooltip-login-fail": "Kemenn ac’hanon pa vez arnodoù c’hwitet kevreañ d’am c’hont.",
+	"echo-category-title-login-success": "Kevreañ eus un ardivink divoas",
+	"echo-pref-tooltip-login-success": "Kemenn ac’hanon pa gevre unan bennak d’am c’hont eus un ardivink ha chomlec’h IP divoas.",
+	"loginnotify-primary-link": "Skoazell",
+	"notification-loginnotify-login-fail-email-subject": "{{PLURAL:$2|Arnod|Arnodoù}} c’hwitet da gevreañ da {{SITENAME}} evel $1",
+	"notification-loginnotify-login-success-email-subject": "Kevreañ da {{SITENAME}} evel $1 eus un ardivink {{GENDER:$1|n’ho peus ket}} implijet a nevez zo",
+	"notification-header-login-success": "Unan bennak (moarvat e oa {{GENDER:$1|c’hwi}}) en deus kevreet n’eus ket pell zo d’ho kont eus un ardivink nevez. Mard e oa c’hwi, n’ho peus netra da ober. Ma ne oa ket c’hwi ez eo erbedet kemmañ ho ker-tremen ha gwiriañ oberiantiz ho kont.",
+	"notification-new-bundled-header-login-fail": "'''{{PLURAL:$1|un|$1}} arnod c’hwitet''' ez eus bet da gevreañ d’ho kont eus un ardivink nevez abaoe ar wech diwezhañ ho peus kevreet. Ma ne oa ket c’hwi, gwiriit mar plij he deus ho kont ur ger-tremen kreñv.",
+	"notification-known-header-login-fail": "'''{{PLURAL:$1|un|$1}} arnod c’hwitet''' ez eus bet da gevreañ d’ho kont abaoe ar wech diwezhañ ho peus kevreet. Ma ne oa ket c’hwi, gwiriit mar plij he deus ho kont ur ger-tremen kreñv.",
+	"notification-new-unbundled-header-login-fail": "'''{{PLURAL:$1|un|$1}} arnod c’hwitet''' ez eus bet da gevreañ d’ho kont eus un ardivink nevez. Gwiriit mar plij he deus ho kont ur ger-tremen kreñv."
+}

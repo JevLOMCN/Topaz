@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"Piramidion",
+			"Ата"
+		]
+	},
+	"apihelp-titleblacklist-summary": "Перевірити назву сторінки, файлу або ім'я користувача на наявність у чорному списку назв.",
+	"apihelp-titleblacklist-param-title": "Рядок для перевірки у чорному списку.",
+	"apihelp-titleblacklist-param-action": "Дія, яку треба перевірити.",
+	"apihelp-titleblacklist-param-nooverride": "Не намагайтеся обійти чорний список назв.",
+	"apihelp-titleblacklist-example-1": "Перевірити, чи стаття [[Foo]] занесена в чорний список",
+	"apihelp-titleblacklist-example-2": "Перевірити, чи стаття [[Bar]] занесена в чорний список редагування",
+	"apihelp-createaccount-param-ignoretitleblacklist": "Ігнорувати перевірки підмін (потребує одного з таких прав: <code>tboverride</code>, <code>tboverride-account</code>)."
+}

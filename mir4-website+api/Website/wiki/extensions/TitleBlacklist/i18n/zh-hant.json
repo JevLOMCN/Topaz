@@ -1,0 +1,39 @@
+{
+	"@metadata": {
+		"authors": [
+			"A2093064",
+			"Cwlin0416",
+			"Fdcn",
+			"Gaoxuewei",
+			"Hello903hello",
+			"Kly",
+			"LNDDYL",
+			"Liuxinyu970226",
+			"Mark85296341",
+			"Shinjiman",
+			"Simon Shek",
+			"Waihorace",
+			"Xiplus"
+		]
+	},
+	"action-tboverride": "忽略禁止的標題或使用者名稱清單",
+	"action-tboverride-account": "忽略禁止的使用者名稱清單",
+	"action-titleblacklistlog": "檢視禁止的標題清單日誌",
+	"log-name-titleblacklist": "禁止的標題清單日誌",
+	"log-description-titleblacklist": "此頁記錄了所有觸發禁止的標題清單的事件。",
+	"logentry-titleblacklist-hit-username": "$1在嘗試建立帳號$3時{{GENDER:$2|觸發}}禁止的標題清單的條件 $4。",
+	"titleblacklist-desc": "允許管理員可使用[[MediaWiki:Titleblacklist|禁止]]和[[MediaWiki:Titlewhitelist|允許]]的清單來禁止建立頁面與使用者帳號。",
+	"titleblacklist": "# 此頁為禁止的標題清單，符合此處正規表示法的標題與使用者名稱將會被禁止使用。\n# 註解請使用「#」。\n# 預設不區分大小寫",
+	"titlewhitelist": "# 此頁為允許的標題清單。註解請使用「#」。\n# 預設不區分大小寫",
+	"titleblacklist-forbidden-edit": "標題「$2」已被禁止使用。該標題符合以下禁止的標題清單項目：<code>$1</code>",
+	"titleblacklist-forbidden-move": "標題「$3」已被禁止使用，無法移動「$2」至「$3」。該標題符合以下禁止的標題清單項目：<code>$1</code>",
+	"titleblacklist-forbidden-upload": "檔案名稱「$2」已被禁止使用。該名稱符合以下禁止的標題清單項目：<code>$1</code>",
+	"titleblacklist-forbidden-new-account": "使用者名稱「$2」已被禁止使用。該名稱符合以下禁止的標題清單項目：<code>$1</code>",
+	"titleblacklist-invalid": "禁止的標題清單中的下列{{PLURAL:$1|一行|多行}}無效；在儲存之前請先修正：",
+	"titleblacklist-override": "若符合禁止的標題清單則忽略它",
+	"titleblacklist-override-help": "有足夠權限的用戶可以將其設定為略過禁止的標題清單檢查。",
+	"titleblacklist-warning": "<strong>警告：此頁面符合下列禁止的標題清單項目，僅可由管理員或擁有 <code>tboverride</code> 權限的使用者編輯：</strong><br /><code>$1</code>",
+	"right-tboverride": "忽略禁止的標題或使用者名稱清單",
+	"right-tboverride-account": "忽略禁止的使用者名稱清單",
+	"right-titleblacklistlog": "檢視禁止標題清單的日誌"
+}

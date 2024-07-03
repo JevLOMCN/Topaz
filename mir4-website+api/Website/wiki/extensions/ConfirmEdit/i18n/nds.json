@@ -1,0 +1,19 @@
+{
+	"@metadata": {
+		"authors": [
+			"Slomox"
+		]
+	},
+	"captcha-edit": "Disse Siet to ännern, musst du disse lütte Rekenopgaav lösen un dat Resultat in dat Feld ingeven ([[Special:Captcha/help|mehr dorto]]):",
+	"captcha-desc": "Eenfach Captcha",
+	"captcha-addurl": "In dien Ännern sünd ne’e Weblenken in.\nAs Schutz gegen automaatsch Spam, löös disse lüttje Rekenopgaav un geev dat Resultat in dat Feld ünnen in ([[Special:Captcha/help|mehr Infos]]).",
+	"captcha-badlogin": "As Schutz gegen Passwoord-Knackers, löös disse lüttje Rekenopgaav un geev dat Resultat in dat Feld ünnen in ([[Special:Captcha/help|mehr Infos]]).",
+	"captcha-createaccount": "Dat hier nich Brukers automaatsch anleggt warrt, musst du disse lütte Rekenopgaav lösen ([[Special:Captcha/help|mehr dorto]]):",
+	"captcha-createaccount-fail": "Kood to’n Bestätigen is verkehrt oder fehlt.",
+	"captcha-create": "De Sied nee optostellen, löös disse lüttje Rekenopgaav un geev dat Resultat in dat Feld ünnen in ([[Special:Captcha/help|mehr Infos]]).",
+	"captchahelp-title": "Help to Captchas",
+	"captchahelp-cookies-needed": "Dien Browser mutt Cookies ünnerstütten un aktiveert hebben, dat dat geiht.",
+	"captchahelp-text": "Websteden, de Bidrääg vun elkereen tolaten doot, so as dit Wiki, hebbt faken mit Spammers to doon, de en Computer-Programm bruukt, dat se jümmer Text oder Warf op mööglichst veel Sieden ünnerbringt.\nOk wenn dat gau wedder rutnahmen warrt, stöört dat doch de Arbeid op dat Wiki.\n\nAf un to, besünners wenn du Lenken op Websteden in Sieden inföögst, wiest di de Software en Bild mit bunte un verdreihte Bookstaven un fraagt di, dat du de Bookstaven in dat Textfeld ingiffst.\nEn Computer-Programm kann disse Bookstaven normalerwies nich lesen, aver de mehrsten Minschen köönt dat. Dormit sünd de Spammers vun de Sied utslaten.\n\nDat kann aver ok angahn, dat nu ok Lüüd, de nich so good sehn köönt oder villicht Text- oder Vörlees-Browsers bruukt, mit disse Biller nich torecht kaamt.\nOpstunns gifft dat noch keen Audio-Alternativ för de Biller. Wenn du mit de Biller nich torechtkummst, denn schriev man an de Administraters vun de sied un beed jem üm Help.\n\nMit den „Trüch“-Knopp vun dien Browser kummst du trüch na dat Ännerfinster.",
+	"captcha-addurl-whitelist": " #<!-- leave this line exactly as it is --> <pre>\n# Op disse Siet staht de Websteden, bi de en Bruker,\n# de nich anmellt is un en ne’en Lenk in de Siet infögen deit,\n# keen Captcha utfüllen mutt.\n#\n# Syntax is disse:\n#  * Allens vun en „#“-Teken bet na’t Enn vun de Reeg is en Kommentar\n#  * All de annern Regen, de nich leddig sünd, warrt as regulären Utdruck bekeken,\n#    de för Delen vun de Domään steiht.\n\n  #</pre> <!-- leave this line exactly as it is -->",
+	"right-skipcaptcha": "Överspringen vun Captchas"
+}

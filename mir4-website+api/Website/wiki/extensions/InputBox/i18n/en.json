@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": []
+	},
+	"inputbox-desc": "Allow inclusion of predefined HTML forms",
+	"inputbox-error-no-type": "You have not specified the type of input box to create.",
+	"inputbox-error-bad-type": "Input box type \"$1\" not recognized.\nPlease specify \"create\", \"comment\", \"search\", \"search2\" or \"fulltext\".",
+	"inputbox-tryexact": "Try exact match",
+	"inputbox-searchfulltext": "Search full text",
+	"inputbox-createarticle": "Create page",
+	"inputbox-movearticle": "Move page",
+	"inputbox-postcomment": "New section",
+	"inputbox-postcommenttitle": "New section",
+	"inputbox-ns-main": "Main"
+}

@@ -1,0 +1,25 @@
+{
+	"@metadata": {
+		"authors": [
+			"Aftab1995",
+			"Aftabuzzaman",
+			"Bellayet",
+			"Nasir8891",
+			"Zaheen",
+			"আজিজ",
+			"আফতাবুজ্জামান"
+		]
+	},
+	"spam-blacklist": " #<!-- এই লাইন যেমন আছে ঠিক তেমনই রেখে দিন --> <pre>\n# যখন একটি পৃষ্ঠায় যোগ করা হবে তখন এই তালিকার সাথে মেলা বাহ্যিক URL গুলি বাধাদান করা হবে।\n# এই তালিকা শুধুমাত্র এই উইকিতে প্রভাব ফেলবে; এছাড়াও বিশ্বব্যাপী বাধার তালিকাও দেখুন।\n# নথির জন্য দেখুন https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:SpamBlacklist\n#\n# সিনট্যাক্স নিচের মত:\n#   * \"#\" ক্যারেক্টার থেকে শুরু করে লাইনের শেষ পর্যন্ত সবকিছু একটি মন্তব্য\n#   * প্রতিটি অশূন্য লাইন একটি রেজেক্স খণ্ডাংশ যেটি শুধুমাত্র URL গুলির ভিতরে হোস্ট মিলিয়ে দেখবে\n\n #</pre> <!-- এই লাইন যেমন আছে ঠিক তেমনই রেখে দিন -->",
+	"spam-whitelist": " #<!-- এই লাইন যেমন আছে ঠিক তেমনই রেখে দিন --> <pre>\n# External URLs matching this list will *not* be blocked even if they would\n# have been blocked by blacklist entries.\n#\n# Syntax is as follows:\n#  * Everything from a \"#\" character to the end of the line is a comment\n#  * Every non-blank line is a regex fragment which will only match hosts inside URLs\n\n #</pre> <!-- এই লাইন যেমন আছে ঠিক তেমনই রেখে দিন -->",
+	"spam-blacklisted-email": "নিষিদ্ধ ইমেইল ঠিকানা",
+	"spam-blacklisted-email-text": "অন্যদের ইমেইল পাঠানো থেকে বিরত রাখতে আপনাকে কালোতালিকাভুক্ত করা হয়েছে।",
+	"spam-blacklisted-email-signup": "আপনার লেখা ইমেইল ঠিকানাটি কালোতালিকাভুক্ত।",
+	"spam-invalid-lines": "নিচের স্প্যাম কালোতালিকার {{PLURAL:$1|লাইন|লাইনগুলি}} অবৈধ রেগুলার {{PLURAL:$1|অভিব্যক্তি}} ধারণ করছে এবং পাতাটি সংরক্ষণের আগে এগুলি ঠিক করা {{PLURAL:$1|প্রয়োজন}}:",
+	"spam-blacklist-desc": "রেজেক্স-ভিত্তিক স্প্যামরোরী সরঞ্জাম নিবন্ধিত ব্যবহারকারীদের জন্য পৃষ্ঠা এবং ইমেল ঠিকানাগুলিতে ইউআরএল কালোতালিকাভুক্ত করার অনুমতি দেয়",
+	"log-name-spamblacklist": "স্প্যাম কালোতালিকা লগ",
+	"log-description-spamblacklist": "এই ঘটনাগুলি স্প্যাম কালোতালিকার হিট অনুসরণ।",
+	"logentry-spamblacklist-hit": "{{GENDER:$2|$1}} $4 যোগ করতে যেয়ে $3-এ একটি স্প্যাম কালোতালিকা সক্রিয় করেছেন।",
+	"right-spamblacklistlog": "স্প্যাম কালোতালিকা লগ দেখুন",
+	"action-spamblacklistlog": "স্প্যাম কালোতালিকা লগ দেখুন"
+}

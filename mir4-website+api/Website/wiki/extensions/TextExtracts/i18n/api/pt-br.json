@@ -1,0 +1,24 @@
+{
+	"@metadata": {
+		"authors": [
+			"!Silent",
+			"Araceletorres",
+			"Eduardo Addad de Oliveira",
+			"Eduardoaddad",
+			"Felipe L. Ewald"
+		]
+	},
+	"apihelp-query+extracts-summary": "Retorna texto simples ou extratos de HTML limitados das páginas dadas.",
+	"apihelp-query+extracts-param-chars": "Quantos caracteres retornar. O texto real retornado pode ser um pouco mais longo.",
+	"apihelp-query+extracts-param-sentences": "Quantas sentenças retornar.",
+	"apihelp-query+extracts-param-limit": "Quantos extratos retornar (múltiplos extratos somente podem ser retornados \"exintro\" estiver definido como verdadeiro).",
+	"apihelp-query+extracts-param-intro": "Retornar apenas o conteúdo antes da primeira seção.",
+	"apihelp-query+extracts-param-plaintext": "Retornar extratos como texto simples em vez de HTML limitado.",
+	"apihelp-query+extracts-param-sectionformat": "Como formatar as seções no modo de texto simples:\n;plain: sem formato\n;wiki: formato no estilo wiki (== dessa forma ==)\n;raw: representação interna deste módulo (títulos de seção prefixados com &lt;ASCII 1&gt;&lt;ASCII 2&gt;&lt;section level&gt;&lt;ASCII 2&gt;&lt;ASCII 1&gt;).",
+	"apihelp-query+extracts-example-1": "Obter um extrato de 175 caracteres",
+	"apiwarn-textextracts-limit": "<var>exlimit</var> foi muito grande para um pedido completo de extrato de artigo, reduzido para $1.",
+	"apiwarn-textextracts-unsupportedmodel": "$1 tem o modelo de conteúdo $2, que não é suportado; devolvendo um extrato vazio.",
+	"apiwarn-textextracts-title-in-file-namespace": "Foi solicitado um extrato para um título no espaço nominal do arquivo, nenhum retornou.",
+	"apiwarn-textextracts-sentences-and-html": "O parâmetro <var>$1sentences</var> pode gerar resultados inesperados quando é usado em modo HTML.",
+	"apiwarn-textextracts-malformed-html": "O HTML pode estar incorreto ou desequilibrado (ter etiquetas abertas e não fechadas) e pode omitir imagens em linha. Use por sua conta e risco. Os problemas conhecidos são listados em https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:TextExtracts#Caveats."
+}

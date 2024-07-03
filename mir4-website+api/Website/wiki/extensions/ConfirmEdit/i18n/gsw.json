@@ -1,0 +1,24 @@
+{
+	"@metadata": {
+		"authors": [
+			"Als-Chlämens",
+			"Als-Holder",
+			"Melancholie"
+		]
+	},
+	"captcha-edit": "Zum d Syte bearbeite lees die Rächenufgab un trag s Ergebnis in s Fäld unten yy. [[Special:Captcha/help|(Frogen oder Probläm?)]]",
+	"captcha-desc": "Stellt CAPTCHA-Tächnike zum Schutz vor Spam un em Rote vu Passwerter z Verfiegig",
+	"captcha-addurl": "In Dyynere Bearbeitig het s neiji externi Link.\nZum Schutz vor automatisiertem Spamming lees die Rächenufgab un trag s Ergebnis in s Fäld unten yy. Druck drno nomol uf „Syte spychere“. ([[Special:Captcha/help|meh Informatione …]]):",
+	"captcha-badlogin": "Zum Schutz vor ere Kompromittierig vu Dyynem Benutzerkonto lees die Rächenufgab un trag s Ergebnis in s Fäld unten yy ([[Special:Captcha/help|meh Informatione]]):",
+	"captcha-createaccount": "Zum Schutz vor automatisiertem Aalege vu Benutzerkonte lees die Rächenufgab un trag s Ergebnis in s Fäld unten yy. ([[Special:Captcha/help|meh Informatione]]):",
+	"captcha-createaccount-fail": "Bestätigungscode isch falsch oder fählt.",
+	"captcha-create": "Zum d Syten aalege lees die Rächenufgab un trag s Ergebnis in s Fäld unten yy. [[Special:Captcha/help|(Frogen oder Probläm?)]]",
+	"captcha-sendemail": "As Schutz gege e automatischs Spamming, lees die Rächenufgab un trag s Ergebnis in s Fäld unten yy ([[Special:Captcha/help|meh Informatione]]):",
+	"captcha-sendemail-fail": "Bestätigungscode isch falsch oder fählt.",
+	"captcha-disabledinapi": "Die Aktion brucht e Captcha. Si cha nit iber d API uusgfiert wäre.",
+	"captchahelp-title": "Captcha-Hilf",
+	"captchahelp-cookies-needed": "'''Wichtiger Hiiwyys:''' Im Browser mien Cookiers erlaubt syy.",
+	"captchahelp-text": "Internetaagebot, wu uf sin fir Byytreg vu jedem, wie z. B. des Wiki, wäre vyylmol vu Spammer missbruucht, wu ihri Links automatisch uf vyylene Netzsyte platziere. Die Spam-Links cha mer wider useneh, si stere aber zimli un nämme Arbetszyt in Aaspruch.\n\nIn e Teil Fäll, v. a. wänn neiji Link in e Syte dryygfiegt wäre, cha s syy, ass des Wiki derno ne Bild mit eme farbige un verzerrte Täxt aazeigt un dezue ufforderet, di aazeigte Werte yyzgee. Wel sonigi Ufgabe nit automatische chenne usgfiert wäre, cha mer eso di meischte Spammer, wu mit automatische Wärchzyyg schaffe, ufhalte, aber normali Benutzer chenne ihri Byytreg einewäg yygee.\n\nLeider cha des derzue fiere, ass Lyt Probläm iberchemme, wu ne yygschränkti Sähfähigkeit oder e Browser bruche, wu täxt- oder sprochbasiert isch.\nIm Momänt hän mir kei Audioalternative z Verfiegig.\nBitte nimm Kontakt uf zum [[Special:ListAdmins|Syteadministrator]] fir Unterstitzig wänn des Di uuerwartet abhaltet vu berächtigte Byyträg.\n\nIns Bearbeitigsfänschter chunnt mer derno eifach wider mit em „Zruck“-Chnopf.",
+	"captcha-addurl-whitelist": " #<!-- Die Zyyle derf nit gänderet wäre! --> <pre>\n#  Syntax:\n#   * Alles vun eme #-Zeiche bis zum Änd vu dr Zyyle isch e Kommentar\n#   * Jedi nit-lääri Zyyle isch e Regex-Fragment, wu gegeniber dr dr Hostnäme vun ere URL prieft wird\n #</pre> <!-- Die Zyyle derf nit gänderet wäre! -->",
+	"right-skipcaptcha": "Iberspringe vu dr Captcha-Yygab"
+}

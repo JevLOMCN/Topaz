@@ -1,0 +1,25 @@
+{
+	"@metadata": {
+		"authors": [
+			"Anakmalaysia",
+			"Aviator",
+			"Pizza1016",
+			"Zamwan"
+		]
+	},
+	"gadgets-desc": "Membolehkan pengguna memilih [[Special:Gadgets|gajet CSS dan JavaScript]] tempahan melalui [[Special:Preferences#mw-prefsection-gadgets|laman keutamaan]]",
+	"prefs-gadgets": "Gajet",
+	"gadgets-prefstext": "Berikut ialah senarai gajet khas yang anda boleh hidupkan untuk akaun anda.\nKebanyakan daripada gajet-gajet ini mendasarkan JavaScript, oleh itu anda perlu menghidupkan ciri JavaScript dalam pelayar web anda untuk menggunakan mereka\nSila ambil perhatian bahawa gajet-gajet ini tidak menjejaskan laman keutamaan ini.\n\nSila ambil perhatian juga bahawa gajet-gajet khas berikut bukan sebahagian daripada perisian MediaWiki, dan biasanya dibangun dan diselenggarakan oleh para pengguna di wiki tempatan anda.\nPenyelia tempatan boleh mengubah gajet-gajet yang sedia ada menggunakan [[MediaWiki:Gadgets-definition|takrif]] dan [[Special:Gadgets|butiran]] gajet yang bersedia.",
+	"special-gadgets": "Gajet",
+	"gadgets-title": "Gajet",
+	"gadgets-pagetext": "Yang berikut ialah senarai gajet khas yang boleh dihidupkan oleh pengguna melalui [[Special:Preferences#mw-prefsection-gadgets|laman keutamaan]], sebagai mana yang telah [[MediaWiki:Gadgets-definition|ditakrifkan]]. Laman ini menyediakan capaian mudah kepada laman pesanan sistem yang mentakrifkan setiap kod dan keterangan gajet.",
+	"gadgets-uses": "Menggunakan",
+	"gadgets-required-rights": "{{PLURAL:$2|Hak|Hak-hak}} yang berikut diperlukan:\n\n$1",
+	"gadgets-required-skins": "Terdapat pada {{PLURAL:$2|kulit $1|kulit-kulit berikut: $1}}.",
+	"gadgets-default": "Dihidupkan untuk semua orang secara sediaan.",
+	"gadgets-export": "Eksport",
+	"gadgets-export-title": "Eksport gajet",
+	"gadgets-not-found": "Gajet \"$1\" tiada.",
+	"gadgets-export-text": "Untuk mengeksport gajet $1, klik butang \"{{int:gadgets-export-download}}\", simpan fail yang dimuat turun, pergi ke Khas:Import di wiki sasaran dan muat naik fail tadi di situ. Kemudian tambah kod berikut dalam laman MediaWiki:Gadgets-definition:\n<pre>$2</pre>\nAnda hendaklah mempunyai keizinan yang bersesuaian di wiki sasaran (termasuklah hak untuk menyunting pesanan sistem) dan ciri import daripada fail muat naik hendaklah dibolehkan.",
+	"gadgets-export-download": "Muat turun"
+}

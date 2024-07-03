@@ -1,0 +1,23 @@
+{
+	"@metadata": {
+		"authors": [
+			"Crazymadlover",
+			"Fitoschido",
+			"Icvav",
+			"Macofe",
+			"MetalBrasil",
+			"Muro de Aguas",
+			"Sanbec"
+		]
+	},
+	"inputbox-desc": "Permite la inclusión de formularios HTML predefinidos",
+	"inputbox-error-no-type": "No has especificado el tipo de casilla de entrada que se creará.",
+	"inputbox-error-bad-type": "No se reconoce el tipo de casilla de entrada «$1».\nElige entre «create», «comment», «search», «search2» o «fulltext».",
+	"inputbox-tryexact": "Buscar título exacto",
+	"inputbox-searchfulltext": "Buscar por texto completo",
+	"inputbox-createarticle": "Crear página",
+	"inputbox-movearticle": "Trasladar página",
+	"inputbox-postcomment": "Sección nueva",
+	"inputbox-postcommenttitle": "Sección nueva",
+	"inputbox-ns-main": "Principal"
+}

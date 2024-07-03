@@ -1,0 +1,27 @@
+{
+	"@metadata": {
+		"authors": [
+			"Pikne"
+		]
+	},
+	"action-tboverride": "alistada keelatud pealkirjade või kasutajanimede nimekirja",
+	"action-tboverride-account": "alistada keelatud kasutajanimede nimekirja",
+	"action-titleblacklistlog": "vaadata keelatud pealkirjade nimekirja logi",
+	"log-name-titleblacklist": "Keelatud pealkirjade nimekirja logi",
+	"log-description-titleblacklist": "Siin logis kajastuvad keelatud pealkirjade nimekirja tabamused.",
+	"logentry-titleblacklist-hit-username": "$1 {{GENDER:$2|tabas}} keelatud pealkirjade nimekirja kirjet $4, kui püüdis luua kontot $3.",
+	"titleblacklist-desc": "Võimaldab administraatoritel vastavalt [[MediaWiki:Titleblacklist|keelatud]] ja [[MediaWiki:Titlewhitelist|lubatud pealkirjade nimekirjale]] keelata lehekülgede ja kasutajakontode loomise.",
+	"titleblacklist": "# See on keelatud pealkirjade nimekiri. Siinsetele regulaaravaldistele vastavaid pealkirju ega kasutajaid ei saa luua.\n# Kommentaariks kasuta märki \"#\".\n# Vaikimisi on see tõstutundetu",
+	"titlewhitelist": "# See lubatud pealkirjade nimekiri. Kommentaariks kasuta märki \"#\".\n# Vaikimisi on see tõstutundetu",
+	"titleblacklist-forbidden-edit": "Lehekülje pealkirjaga \"$2\" loomine on keelatud.\nSee vastab järgmisele keelatud pealkirjade nimekirja sissekandele: <code>$1</code>",
+	"titleblacklist-forbidden-move": "Lehekülge \"$2\" ei saa teisaldada pealkirja \"$3\" alla, sest lehekülje loomine pealkirjaga \"$3\" on keelatud.\nSee vastab järgmisele keelatud pealkirjade nimekirja sissekandele: <code>$1</code>",
+	"titleblacklist-forbidden-upload": "Faili pealkirjaga \"$2\" on keelatud üles laadida.\nSee vastab järgmisele keelatud pealkirjade nimekirja sissekandele: <code>$1</code>",
+	"titleblacklist-forbidden-new-account": "Kasutajat nimega \"$2\" on keelatud luua.\nSee vastab järgmisele keelatud pealkirjade nimekirja sissekandele: <code>$1</code>",
+	"titleblacklist-invalid": "{{PLURAL:$1|Järgmine|Järgmised}} keelatud pealkirjade nimekirja {{PLURAL:$1|rida on vigane|read on vigased}}.\nPalun paranda {{PLURAL:$1|see|need}} enne salvestamist:",
+	"titleblacklist-override": "Alista vasted keelatud pealkirjade nimekirjas",
+	"titleblacklist-override-help": "Vajalike õigustega kasutajad saavad selle valikuga eirata keelatud pealkirjade nimekirja kontrolle.",
+	"titleblacklist-warning": "<strong>Märkus: Seda lehekülge saavad redigeerida ainult administraatorid ja kasutajad õigusega <code>tboverride</code>, sest see vastab keelatud pealkirjade nimekirja järgmisele sissekandele:</strong><br /><code>$1</code>",
+	"right-tboverride": "Eirata keelatud pealkirjade või kasutajanimede nimekirja",
+	"right-tboverride-account": "Eirata keelatud kasutajanimede nimekirja",
+	"right-titleblacklistlog": "Vaadata keelatud pealkirjade nimekirja logi"
+}

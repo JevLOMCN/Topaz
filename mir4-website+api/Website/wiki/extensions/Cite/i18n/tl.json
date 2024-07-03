@@ -1,0 +1,41 @@
+{
+	"@metadata": {
+		"authors": [
+			"AnakngAraw",
+			"GinawaSaHapon"
+		]
+	},
+	"cite-desc": "Dinadagdag ang  <code>&lt;ref&gt;</code> at <code>&lt;references&gt;</code> na tag para sa pagsipi",
+	"cite_error": "Error sa pagsipi: $1",
+	"cite_error_ref_invalid_dir": "Invalid na <code>dir=\"$1\"</code>, kailangan <code>ltr</code> o <code>rtl</code>",
+	"cite_error_ref_numeric_key": "Invalid na <code>&lt;ref&gt;</code> tag; di dapat integer lang ang pangalan. Gumamit ng mapaglarawang pamagat",
+	"cite_error_ref_no_key": "Sira o invalid ang pangalan ng pambukas na <code>&lt;ref&gt;</code> tag",
+	"cite_error_ref_too_many_keys": "Invalid na <code>&lt;ref&gt;</code> tag; mga invalid na pangalan, hal. napakarami",
+	"cite_error_ref_nested_extends": "Hindi pinapayagan ang pag-eextend sa <code>&lt;ref&gt;</code> tag nang lagpas sa isang antas ang lalim",
+	"cite_error_ref_no_input": "Invalid na <code>&lt;ref&gt;</code> tag; dapat may laman ang mga ref na walang pangalan",
+	"cite_error_references_duplicate_key": "Invalid na <code>&lt;ref&gt;</code> tag; maraming beses na binigyang-kahulugan ang pangalang \"$1\" na may iba't ibang nilalaman",
+	"cite_error_references_invalid_parameters": "Invalid na parametro sa <code>&lt;references&gt;</code> tag",
+	"cite_error_references_no_backlink_label": "Ubos na ang custom na backlink label. Magbigay-kahulugan pa sa mensahe ng [[MediaWiki:Cite references link many format backlink labels]].",
+	"cite_error_no_link_label_group": "Ubos na ang mga custom na link label para sa grupong \"$1\". Magbigay-kahulugan pa sa mensahe ng [[MediaWiki:$2]].",
+	"cite_error_references_no_text": "Invalid na <code>&lt;ref&gt;</code> tag; walang tekstong binigay para sa ref na pinangalanang <code>$1</code>",
+	"cite_error_included_ref": "Nawawala ang pangsara na <code>&lt;/ref&gt;</code> para sa <code>&lt;ref&gt;</code> tag",
+	"cite_error_included_references": "Nawawala ang pangsarang tag para sa <code>&lt;references&gt;</code>",
+	"cite_error_group_refs_without_references": "May <code>&lt;ref&gt;</code> tag na ang grupong \"$1\", pero walang nakitang <code>&lt;references group=\"$1\"/&gt;</code> tag para rito",
+	"cite_error_references_group_mismatch": "May di nagtutugmang attribute ng grupo na \"$1\" sa <code>&lt;ref&gt;</code> tag sa <code>&lt;references&gt;</code>.",
+	"cite_error_references_missing_key": "Di ginamit sa teksto ang <code>&lt;ref&gt;</code> tag na may pangalang \"$1\" na binigyang-kahulugan sa <code>&lt;references&gt;</code>.",
+	"cite_error_references_no_key": "Walang name attribute ang <code>&lt;ref&gt;</code> tag na binigyang-kahulugan sa <code>&lt;references&gt;</code>.",
+	"cite_error_empty_references_define": "Walang laman ang <code>&lt;ref&gt;</code> tag na binigyang-kahulugan sa <code>&lt;references&gt;</code> na may pangalang \"$1\".",
+	"cite-tracking-category-cite-error": "Mga pahinang may error sa reference",
+	"cite-tracking-category-cite-error-desc": "Ang mga pahina sa kategoryang ito ay may mga error sa paggamit sa mga reference tag.",
+	"cite_references_link_accessibility_label": "Umakyat",
+	"cite_references_link_many_accessibility_label": "Umakyat patungo:",
+	"cite_references_link_accessibility_back_label": "Umakyat pabalik",
+	"cite_section_preview_references": "Pasilip ng sanggunian",
+	"cite_warning": "Babala sa pagsipi: $1",
+	"cite_warning_sectionpreview_no_text": "Hindi masisilip ang <code>&lt;ref&gt;</code> tag na may pangalang <code>$1</code> dahil binigyang-kahulugan ito sa labas ng kasalukuyang bahagi, o di kaya'y wala itong kahulugan.",
+	"cite-wikieditor-tool-reference": "Sanggunian",
+	"cite-wikieditor-help-page-references": "Mga sanggunian",
+	"cite-wikieditor-help-content-reference-description": "Sanggunian",
+	"cite-wikieditor-help-content-rereference-description": "Karagdagang paggamit na gayun ding sanggunian",
+	"cite-wikieditor-help-content-showreferences-description": "Ipakita ang mga sanggunian"
+}

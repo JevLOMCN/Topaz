@@ -1,0 +1,149 @@
+[
+	{
+		"msg": "Simple message",
+		"title": "Talk:A",
+		"user": "X",
+		"html": "<p>Foo bar\n</p>",
+		"expected": false
+	},
+	{
+		"msg": "Simple message [with heading]",
+		"title": "Talk:A",
+		"user": "X",
+		"html": "<h2><span class=\"mw-headline\" id=\"Foo\">Foo</span></h2>\n<p>bar\n</p>",
+		"expected": false
+	},
+	{
+		"msg": "Simple message [with empty heading]",
+		"title": "Talk:A",
+		"user": "X",
+		"html": "<h2><span class=\"mw-headline\" id=\"\"></span></h2>\n<p>bar\n</p>",
+		"expected": false
+	},
+	{
+		"msg": "Simple message [indented]",
+		"title": "Talk:A",
+		"user": "X",
+		"html": "<dl><dd>Foo bar</dd></dl>",
+		"expected": false
+	},
+	{
+		"msg": "Already signed",
+		"title": "Talk:A",
+		"user": "X",
+		"html": "<p>Foo bar <a href=\"/wiki/User:X\" title=\"User:X\">X</a> (<a href=\"/wiki/User_talk:X\" title=\"User talk:X\">talk</a>) 00:01, 1 January 2020 (UTC)\n</p>",
+		"expected": true
+	},
+	{
+		"msg": "Already signed [with heading]",
+		"title": "Talk:A",
+		"user": "X",
+		"html": "<h2><span class=\"mw-headline\" id=\"Foo\">Foo</span></h2>\n<p>bar <a href=\"/wiki/User:X\" title=\"User:X\">X</a> (<a href=\"/wiki/User_talk:X\" title=\"User talk:X\">talk</a>) 00:01, 1 January 2020 (UTC)\n</p>",
+		"expected": true
+	},
+	{
+		"msg": "Already signed [indented]",
+		"title": "Talk:A",
+		"user": "X",
+		"html": "<dl><dd>Foo bar <a href=\"/wiki/User:X\" title=\"User:X\">X</a> (<a href=\"/wiki/User_talk:X\" title=\"User talk:X\">talk</a>) 00:01, 1 January 2020 (UTC)</dd></dl>",
+		"expected": true
+	},
+	{
+		"msg": "Already signed with hyphens",
+		"title": "Talk:A",
+		"user": "X",
+		"html": "<p>Foo bar --<a href=\"/wiki/User:X\" title=\"User:X\">X</a> (<a href=\"/wiki/User_talk:X\" title=\"User talk:X\">talk</a>) 00:01, 1 January 2020 (UTC)\n</p>",
+		"expected": true
+	},
+	{
+		"msg": "Already signed without space",
+		"title": "Talk:A",
+		"user": "X",
+		"html": "<p>Foo bar<a href=\"/wiki/User:X\" title=\"User:X\">X</a> (<a href=\"/wiki/User_talk:X\" title=\"User talk:X\">talk</a>) 00:01, 1 January 2020 (UTC)\n</p>",
+		"expected": true
+	},
+	{
+		"msg": "Signed with 5 tildes",
+		"title": "Talk:A",
+		"user": "X",
+		"html": "<p>Foo bar 00:01, 1 January 2020 (UTC)\n</p>",
+		"expected": false
+	},
+	{
+		"msg": "Signed with 3 tildes",
+		"title": "Talk:A",
+		"user": "X",
+		"html": "<p>Foo bar <a href=\"/wiki/User:X\" title=\"User:X\">X</a> (<a href=\"/wiki/User_talk:X\" title=\"User talk:X\">talk</a>)\n</p>",
+		"expected": false
+	},
+	{
+		"msg": "Already signed by the wrong user",
+		"title": "Talk:A",
+		"user": "Y",
+		"html": "<p>Foo bar <a href=\"/wiki/User:X\" title=\"User:X\">X</a> (<a href=\"/wiki/User_talk:X\" title=\"User talk:X\">talk</a>) 00:01, 1 January 2020 (UTC)\n</p>",
+		"expected": false
+	},
+	{
+		"msg": "Already signed (self-link on user talk page)",
+		"title": "User talk:X",
+		"user": "X",
+		"html": "<p>Foo bar <a class=\"mw-selflink selflink\">X</a> 00:01, 1 January 2020 (UTC)\n</p>",
+		"expected": true
+	},
+	{
+		"msg": "Already signed (not at the end, parentheses)",
+		"title": "Talk:A",
+		"user": "X",
+		"html": "<p>(Foo bar <a href=\"/wiki/User:X\" title=\"User:X\">X</a> (<a href=\"/wiki/User_talk:X\" title=\"User talk:X\">talk</a>) 00:01, 1 January 2020 (UTC))\n</p>",
+		"expected": true
+	},
+	{
+		"msg": "Already signed (not at the end, <small>)",
+		"title": "Talk:A",
+		"user": "X",
+		"html": "<p><small>Foo bar <a href=\"/wiki/User:X\" title=\"User:X\">X</a> (<a href=\"/wiki/User_talk:X\" title=\"User talk:X\">talk</a>) 00:01, 1 January 2020 (UTC)</small>\n</p>",
+		"expected": true
+	},
+	{
+		"msg": "Already signed (not at the end, <small>) [indented]",
+		"title": "Talk:A",
+		"user": "X",
+		"html": "<dl><small>Foo bar <a href=\"/wiki/User:X\" title=\"User:X\">X</a> (<a href=\"/wiki/User_talk:X\" title=\"User talk:X\">talk</a>) 00:01, 1 January 2020 (UTC)</small></dd></dl>",
+		"expected": true
+	},
+	{
+		"msg": "Already signed (wrapper)",
+		"title": "Talk:A",
+		"user": "X",
+		"html": "<table>\n<tbody><tr>\n<td>Foo bar <a href=\"/wiki/User:X\" title=\"User:X\">X</a> (<a href=\"/wiki/User_talk:X\" title=\"User talk:X\">talk</a>) 00:01, 1 January 2020 (UTC)\n</td></tr></tbody></table>",
+		"expected": true
+	},
+	{
+		"msg": "Already signed (multi-line)",
+		"title": "Talk:A",
+		"user": "X",
+		"html": "<p>Foo\n</p><p>bar\n</p><p><a href=\"/wiki/User:X\" title=\"User:X\">X</a> (<a href=\"/wiki/User_talk:X\" title=\"User talk:X\">talk</a>) 00:01, 1 January 2020 (UTC)\n</p>",
+		"expected": true
+	},
+	{
+		"msg": "Already signed (multi-line) [indented]",
+		"title": "Talk:A",
+		"user": "X",
+		"html": "<dl><dd>Foo</dd>\n<dd>bar</dd>\n<dd><a href=\"/wiki/User:X\" title=\"User:X\">X</a> (<a href=\"/wiki/User_talk:X\" title=\"User talk:X\">talk</a>) 00:01, 1 January 2020 (UTC)</dd></dl>",
+		"expected": true
+	},
+	{
+		"msg": "Already signed (not at the end, multiline)",
+		"title": "Talk:A",
+		"user": "X",
+		"html": "<p>Foo\n</p><p><a href=\"/wiki/User:X\" title=\"User:X\">X</a> (<a href=\"/wiki/User_talk:X\" title=\"User talk:X\">talk</a>) 00:01, 1 January 2020 (UTC)\n</p><p>bar\n</p>",
+		"expected": false
+	},
+	{
+		"msg": "Already signed (not at the end, multiline) [indented]",
+		"title": "Talk:A",
+		"user": "X",
+		"html": "<dl><dd>Foo</dd>\n<dd><a href=\"/wiki/User:X\" title=\"User:X\">X</a> (<a href=\"/wiki/User_talk:X\" title=\"User talk:X\">talk</a>) 00:01, 1 January 2020 (UTC)</dd>\n<dd>bar</span></dd></dl>",
+		"expected": false
+	}
+]

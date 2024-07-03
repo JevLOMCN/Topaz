@@ -1,0 +1,27 @@
+{
+	"@metadata": {
+		"authors": [
+			"Papuass"
+		]
+	},
+	"apierror-discussiontools-commentid-notfound": "Komentārs ar ID '$1' nav atrasts.",
+	"apierror-discussiontools-commentname-ambiguous": "Atrasti vairāki komentāri ar nosaukumu '$1',\n<var>commentid</var> ir obligāts.",
+	"apierror-discussiontools-commentname-notfound": "Komentārs ar nosaukumu '$1' nav atrasts.",
+	"apierror-discussiontools-formtoken-used": "Komentārs jau ir ievietots. Pārlādē lapu, lai redzētu to.",
+	"apierror-discussiontools-subscription-failed-add": "Neizdevās abonēt šo tematu.",
+	"apierror-discussiontools-subscription-failed-remove": "Neizdevās atcelt abonementu šim tematam.",
+	"apihelp-discussiontoolsedit-param-commentid": "Komentāra ID",
+	"apihelp-discussiontoolsedit-param-formtoken": "Neobligāts unikāls ID, kas ģenerēts klienta pusē, lai novērstu dubultus ierakstus.",
+	"apihelp-discussiontoolsedit-param-html": "Publicējamais saturs kā HTML. Nevar izmantot kopā ar <var>wikitext</var>.",
+	"apihelp-discussiontoolsedit-param-wikitext": "Publicējamais saturs kā vikiteksts. Nevar izmantot kopā ar <var>html</var>.",
+	"apihelp-discussiontoolsedit-paramvalue-paction-addcomment": "Pievienot jaunu komentāru kā atbildi esošam komentāram.",
+	"apihelp-discussiontoolsedit-paramvalue-paction-addtopic": "Pievienot jaunu diskusijas sadaļu un pirmo komentāru tajā.",
+	"apihelp-discussiontoolsedit-summary": "Ievietot ziņojumu diskusiju lapā.",
+	"apihelp-discussiontoolsgetsubscriptions-param-commentname": "Pārbaudāmo tematu nosaukumi",
+	"apihelp-discussiontoolsgetsubscriptions-summary": "Iegūt abonementa statusu norādītajām tēmām.",
+	"apihelp-discussiontoolspageinfo-param-oldid": "Izmantojamās versijas numurs (pēc noklusējuma jaunākais).",
+	"apihelp-discussiontoolspageinfo-summary": "Atgriež nepieciešamos metadatus, kas nepieciešami diskusiju rīku inicializācijai.",
+	"apihelp-discussiontoolspreview-summary": "Priekšskatīt ziņojumu diskusiju lapā.",
+	"apihelp-discussiontoolssubscribe-param-page": "Lapa, kurā temats parādās",
+	"apihelp-discussiontoolssubscribe-summary": "Abonē (vai atcel abonementu), lai saņemtu paziņojumus par tematu."
+}

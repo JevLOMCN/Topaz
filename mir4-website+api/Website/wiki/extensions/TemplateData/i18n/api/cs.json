@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Mormegil",
+			"Patriccck",
+			"Patrik L."
+		]
+	},
+	"apihelp-templatedata-example-1": "Vrátí Strojový popis šablony pro [[Template:Stub]] a [[Template:Example]] s výsledky i v případě, že šablony neexistují nebo existují, ale neobsahují Strojový popis šablony.",
+	"apihelp-templatedata-example-2": "Vrátí Strojový popis šablony pro [[Template:Stub]] a [[Template:Example]], pokud šablony existují a obsahují Strojový popis šablony",
+	"apihelp-templatedata-param-lang": "Vrátí lokalizované hodnoty v daném jazyce. Implicitně se vrátí všechny dostupné překlady."
+}

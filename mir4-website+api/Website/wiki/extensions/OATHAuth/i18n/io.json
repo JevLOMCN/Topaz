@@ -1,0 +1,19 @@
+{
+	"@metadata": {
+		"authors": [
+			"Joao Xavier"
+		]
+	},
+	"oathauth-secret": "Sekreta klefo por autentikigo en du etapi:",
+	"oathauth-prefs-label": "Autentigo en du etapi:",
+	"oathauth-verify-for-user": "Videz se l'uzero uzas la sistemo di autentikigo tra du etapi (\"two-factor authentication\")",
+	"right-oathauth-verify-user": "Videz se l'uzero uzas sistemo di autentikigo en du etapi (\"two-factor authentication\")",
+	"oathauth-enterverifyreason": "Motivo por verifikar:",
+	"grant-group-authentication": "Facar autentikigo-procedi por vu e por altri",
+	"grant-oath": "Acesar sua propra informo pri duopla-atentikigo metodo (OATH), e la sama informo di altri",
+	"logentry-oath-verify": "$1 {{GENDER:$2|ja verifikis}} se $3 uzas sistemo di autentikigo tra du etapi (\"two-factor authentication\")",
+	"oathauth-ui-no-module": "Nulu permisata",
+	"oathauth-ui-manage": "Administrar",
+	"oathmanage": "Administrar autentikigo en du etapi",
+	"oathauth-verify-enabled": "{{GENDER:$1|$1}} uzas sistemo di autentikigo tra du etapi (\"two-factor authentication\")."
+}

@@ -1,0 +1,92 @@
+@import 'mediawiki.skin.variables.less';
+@import '../echo.variables.less';
+
+/* stylelint-disable no-descending-specificity */
+/* We have to include the #pt-notifications selector due to monobook */
+.mw-echo-notifications-badge {
+	#pt-notifications-alert &,
+	#pt-notifications-notice & {
+		position: relative;
+		display: block;
+		box-sizing: border-box;
+		width: 20px;
+		height: 20px;
+		margin: 0 2px;
+		// Hide the text, but keep accessible for screen-readers
+		// Later we put the counter back onscreen with a zero text-indent
+		top: 0;
+		text-indent: -9999px;
+		border-radius: @border-radius-base;
+		cursor: pointer;
+		text-decoration: none;
+		line-height: normal;
+		opacity: 0.87;
+		color: transparent;
+
+		&:hover,
+		&:active,
+		&:focus {
+			outline: @outline-base--focus;
+		}
+
+		&:focus {
+			box-shadow: 0 0 0 1px #fff, 0 0 0 3px #36c;
+			opacity: 1;
+
+			&::after {
+				border-color: @border-color-progressive--focus;
+			}
+		}
+
+		// Counter
+		&::after {
+			position: absolute;
+			display: inline-block;
+			cursor: pointer;
+			// Bring it back onscreen
+			top: 9px;
+			text-indent: 0;
+			left: 55%;
+			font-size: 0.9em;
+			font-weight: bold;
+			padding: 0 0.3em;
+			border: @border-width-base @border-style-base @border-color-inverted;
+			border-radius: @border-radius-base;
+			background-color: @badge-counter-background-seen;
+			content: attr( data-counter-text );
+			color: @color-inverted;
+		}
+
+		&-dimmed {
+			opacity: 0.4;
+		}
+
+		&.mw-echo-notifications-badge-long-label {
+			margin-right: 0.5em;
+
+			&::after {
+				left: 35%;
+			}
+		}
+
+		&.mw-echo-notifications-badge-all-read {
+			opacity: 0.51;
+
+			&::after {
+				visibility: hidden;
+			}
+		}
+	}
+
+	&.oo-ui-flaggedElement-unseen,
+	&.mw-echo-unseen-notifications {
+		#pt-notifications-alert &::after {
+			background-color: @background-color-destructive;
+		}
+
+		#pt-notifications-notice &::after {
+			background-color: @background-color-progressive;
+		}
+	}
+}
+/* stylelint-enable no-descending-specificity */

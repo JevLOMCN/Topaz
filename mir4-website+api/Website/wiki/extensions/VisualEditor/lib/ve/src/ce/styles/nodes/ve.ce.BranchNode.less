@@ -1,0 +1,121 @@
+/*!
+ * VisualEditor ContentEditable BranchNode styles.
+ *
+ * @copyright See AUTHORS.txt
+ */
+
+.ve-ce-branchNode {
+	&:focus {
+		/* Prevent focus outline on editable sections */
+		outline: 0;
+	}
+
+	&-blockSlug {
+		opacity: 0;
+		cursor: pointer;
+		transition: opacity 200ms ease-out;
+		/* Create a block formatting context to avoid overlapping floated elements (T211844) */
+		overflow: hidden;
+
+		.ve-ce-surface-readOnly &,
+		.ve-ce-surface-dragging & {
+			visibility: hidden;
+		}
+
+		&:hover,
+		&.ve-ce-branchNode-blockSlug-focused {
+			opacity: 1;
+		}
+
+		> .oo-ui-buttonWidget {
+			opacity: 0.5;
+			display: block;
+
+			> .oo-ui-buttonElement-button {
+				display: block;
+
+				.ve-ce-surface-dragging & {
+					/* -moz-user-select:none is applied in OOUI, but causes FF to create multi-range selections (T214976) */
+					-moz-user-select: text;
+				}
+			}
+		}
+
+		> .oo-ui-buttonElement-frameless.oo-ui-iconElement:first-child {
+			/* We add a border, so cancel weird margin adjustment meant for frameless buttons */
+			margin-left: 0;
+		}
+
+		.oo-ui-labelElement-label::selection {
+			/* Don't draw selection highlight inside block slug after selecting across it */
+			background: transparent;
+		}
+
+		/* stylelint-disable-next-line selector-no-vendor-prefix */
+		.oo-ui-labelElement-label::-moz-selection {
+			/* Must be in a separate block, because otherwise entire rule is ignored
+			 * by browsers that don't know ::-moz-selection */
+			background: transparent;
+		}
+	}
+
+	/* stylelint-disable-next-line no-descending-specificity */
+	&-blockSlug,
+	&-newSlug {
+		margin: -0.3em 0 -0.1em 0;
+		outline: 1px dashed #c8ccd1;
+		/* rgba( #f1f7fb, 0.75 ) */
+		background-color: rgba( 241, 247, 251, 0.75 );
+	}
+
+	&-newSlug {
+		margin: 5px 0 6px 0;
+
+		&-open {
+			margin: 1em 0;
+			background-color: transparent;
+			outline-color: transparent;
+			outline-offset: 1em;
+			transition: all 400ms ease-out;
+		}
+	}
+
+	pre& {
+		/* Pre-formatted node styling */
+		/* Support: Chrome, Safari */
+		/* Prevent silly wrapping on Safari and Chrome (https://bugs.webkit.org/show_bug.cgi?id=35935) */
+		word-wrap: normal;
+	}
+}
+
+.ve-ce-chimera {
+	width: 0;
+	height: 0;
+
+	&-webkit {
+		/* Cursor positioning tweak */
+		/*
+		 * Leaving width at 0 causes a small horizontal wobble, but using a
+		 * non-zero value can cause it to be visible on high-DPI devices (T218331)
+		 */
+		height: 1em;
+	}
+
+	&-gecko {
+		/* Force height in empty branch */
+		border: 1px solid transparent;
+		/* Avoid interaction with absolutely positioned overlays like CodeMirror (T198278) */
+		margin-right: -2px;
+	}
+
+	&-debug {
+		vertical-align: middle;
+		width: auto;
+		height: auto;
+	}
+}
+
+.ve-ce-unicorn:not( .ve-ce-unicorn-debug ) {
+	width: 0;
+	height: 0;
+}

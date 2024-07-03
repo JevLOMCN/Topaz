@@ -1,0 +1,28 @@
+{
+	"@metadata": {
+		"authors": [
+			"Bangrapip"
+		]
+	},
+	"pfunc_desc": "Ningkatin penguyur paké pungsi mantèk",
+	"pfunc_time_error": "Kengabluan: Waktu kaga' aci.",
+	"pfunc_time_too_long": "Kengabluan: Kebanyakan penggeroan #time.",
+	"pfunc_time_too_big": "Kengabluan: #time cuman ndukung tahon ampé 9999.",
+	"pfunc_time_too_small": "Kengabluan: #time cuman ndukung tahon deri 0.",
+	"pfunc_rel2abs_invalid_depth": "Kengabluan: Kedaleman jalur kaga' aci: \"$1\" (ngejal ngaksès simpul di atas sumpé oyod).",
+	"pfunc_expr_stack_exhausted": "Haturan ngablu: Tumpukan abis.",
+	"pfunc_expr_unexpected_number": "Haturan ngablu: Angka kaga' keancer.",
+	"pfunc_expr_preg_match_failure": "Haturan ngablu: Keboncosan preg_match kaga' keancer.",
+	"pfunc_expr_unrecognised_word": "Haturan ngablu: Kata \"$1\" kaga' dikenal.",
+	"pfunc_expr_unexpected_operator": "Haturan ngablu: Operator $1 kaga' keancer.",
+	"pfunc_expr_missing_operand": "Haturan ngablu: Operan bakal $1 kaga' ada.",
+	"pfunc_expr_unexpected_closing_bracket": "Haturan ngablu: Gupitan tutup kaga' keancer.",
+	"pfunc_expr_unrecognised_punctuation": "Haturan ngablu: Lèter tenger baca \"$1\" kaga' dikenal.",
+	"pfunc_expr_unclosed_bracket": "Haturan ngablu: Gupitan kaga' ketutup.",
+	"pfunc_expr_division_by_zero": "Pembagèan ama kosong.",
+	"pfunc_expr_invalid_argument": "Hujah kaga' aci bakal $1: < -1 atawa > 1.",
+	"pfunc_expr_invalid_argument_ln": "Hujah kaga' aci bakal ln: <= 0.",
+	"pfunc_expr_unknown_error": "Haturan ngablu: Kengabluan kaga' ditauin ($1).",
+	"pfunc_expr_not_a_number": "Di $1: Hasil bukan angka.",
+	"pfunc_string_too_long": "Kengabluan: Rèncèng nglantasin wates $1 lèter."
+}

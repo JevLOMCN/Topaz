@@ -1,0 +1,41 @@
+{
+	"@metadata": {
+		"authors": [
+			"Automatik",
+			"Derugon",
+			"Djiboun",
+			"Eneelk",
+			"Framawiki",
+			"Gomoko",
+			"Macofe",
+			"Noé",
+			"Thibaut120094",
+			"Urhixidur",
+			"Verdy p",
+			"Wladek92"
+		]
+	},
+	"skinname-timeless": "Timeless",
+	"timeless-desc": "Un habillage intemporel conçu d’après le prototype Winter par Brandon Harris et divers styles de la Fondation Wikimedia",
+	"timeless-anonymous": "Anonyme",
+	"timeless-loggedinas": "Connecté{{GENDER:$1||e}} en tant que '''$1'''",
+	"timeless-notloggedin": "Non connecté(e)",
+	"timeless-userpage": "Page de l’utilisat{{GENDER:$1|eur|rice}}",
+	"timeless-talkpage": "Discussion avec l’utilisat{{GENDER:$1|eur|rice}}",
+	"timeless-pagelog": "Journaux de la page",
+	"timeless-more": "Plus",
+	"timeless-sitetools": "Outils wiki",
+	"timeless-pageactions": "Outils de la page",
+	"timeless-userpagetools": "Outils de la page utilisateur",
+	"timeless-action-addsection": "Nouveau sujet",
+	"timeless-view-view": "Lire",
+	"timeless-pagemisc": "Plus",
+	"timeless-namespaces": "Espaces de noms",
+	"timeless-pagetools": "Actions de la page",
+	"timeless-languages": "Langues",
+	"timeless-projects": "Autres projets",
+	"timeless.css": "/* Tout CSS placé ici sera chargé avec les pages accédées par les utilisateurs de l’habillage Timeless */",
+	"timeless.js": "/* Tout code JavaScript placé ici sera chargé avec les pages accédées par les utilisateurs de l’habillage Timeless */",
+	"timeless-view-history": "Historique",
+	"timeless-action-undelete": "Restaurer {{PLURAL:$1|une modification|$1 modifications}}"
+}

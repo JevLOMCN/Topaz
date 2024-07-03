@@ -1,0 +1,60 @@
+/*!
+ * VisualEditor ContentEditable CommentNode styles.
+ *
+ * @copyright See AUTHORS.txt
+ */
+
+/* Increase specificity for MW */
+ul.ve-ce-checkListNode {
+	padding: 0;
+}
+
+.ve-ce-checkListItemNode {
+	list-style: none;
+	position: relative;
+
+	&::before {
+		cursor: pointer;
+		content: '';
+		position: absolute;
+		width: 1.5em;
+		height: 1.5em;
+		background: url( ../../../ui/styles/images/unchecked.svg ) center center no-repeat;
+		/* TODO: Fix paths in standalone builds */
+		background-image: url( data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNiIgaGVpZ2h0PSIxNiIgdmlld0JveD0iMCAwIDE2IDE2IiBpZD0ic3ZnOCI+CiAgICA8cmVjdCB5PSIuNSIgeD0iLjUiIGhlaWdodD0iMTUiIHdpZHRoPSIxNSIgaWQ9InJlY3Q4MjEiIHN0eWxlPSJmaWxsOm5vbmU7c3Ryb2tlOiMwMDA7c3Ryb2tlLXdpZHRoOjE7Ii8+Cjwvc3ZnPgo= );
+	}
+
+	&-checked {
+		color: #666;
+
+		&::before {
+			background-image: url( ../../../ui/styles/images/checked.svg );
+			/* TODO: Fix paths in standalone builds */
+			/* stylelint-disable-next-line declaration-block-no-duplicate-properties */
+			background-image: url( data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNiIgaGVpZ2h0PSIxNiIgdmlld0JveD0iMCAwIDE2IDE2IiBpZD0ic3ZnOCI+CiAgICA8cmVjdCB5PSIuNSIgeD0iLjUiIGhlaWdodD0iMTUiIHdpZHRoPSIxNSIgaWQ9InJlY3Q4MjEiIHN0eWxlPSJmaWxsOm5vbmU7c3Ryb2tlOiMwMDA7c3Ryb2tlLXdpZHRoOjE7Ii8+CiAgICA8cGF0aCBkPSJNMy45IDcuNzhsMyAzIDYtNiIgc3R5bGU9InN0cm9rZTojMDAwO3N0cm9rZS13aWR0aDoyO3N0cm9rZS1saW5lY2FwOmJ1dHQ7c3Ryb2tlLWxpbmVqb2luOm1pdGVyO2ZpbGw6bm9uZTsiLz4KPC9zdmc+Cg== );
+		}
+	}
+}
+
+/* Flip based on content language, not interface */
+/* This could be done with margin-block-start but it isn't supported in IE/Edge */
+
+/* @noflip */
+.ve-ce-documentNode[ dir='ltr' ] ul.ve-ce-checkListNode {
+	margin-left: 2em;
+}
+
+/* @noflip */
+.ve-ce-documentNode[ dir='rtl' ] ul.ve-ce-checkListNode {
+	margin-right: 2em;
+}
+
+/* @noflip */
+.ve-ce-documentNode[ dir='ltr' ] .ve-ce-checkListItemNode::before {
+	left: -2em;
+}
+
+/* @noflip */
+.ve-ce-documentNode[ dir='rtl' ] .ve-ce-checkListItemNode::before {
+	right: -2em;
+}

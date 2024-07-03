@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Jon Harald Søby"
+		]
+	},
+	"apihelp-titleblacklist-summary": "Valider en sidetittel, et filnavn eller et brukernavn mot TitleBlacklist.",
+	"apihelp-titleblacklist-param-title": "Strengen som skal valideres mot svartelista.",
+	"apihelp-titleblacklist-param-action": "Handlingen som skal sjekkes.",
+	"apihelp-titleblacklist-param-nooverride": "Ikke prøv å overstyre tittelsvartelista.",
+	"apihelp-titleblacklist-example-1": "Sjekk om [[Foo]] er svartelistet",
+	"apihelp-titleblacklist-example-2": "Sjekk om [[Bar]] er svartelistet for redigering",
+	"apihelp-createaccount-param-ignoretitleblacklist": "Ignorer spoofing-sjekker (krever en av følgende rettigheter: <code>tboverride</code>, <code>tboverride-account</code>)."
+}

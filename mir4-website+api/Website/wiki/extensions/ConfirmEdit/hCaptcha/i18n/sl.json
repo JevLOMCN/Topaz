@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"Eleassar"
+		]
+	},
+	"hcaptcha-desc": "Modul [https://www.hcaptcha.com/ hCaptcha] za potrditev urejanja",
+	"hcaptcha-edit": "Za zaščito vikija pred samodejnim dodajanjem smetja z urejanjem vas prijazno prosimo, da rešite naslednji hCAPTCHA:",
+	"hcaptcha-addurl": "Vaše urejanje vključuje nove zunanje povezave. Za zaščito vikija pred samodejnim smetjem vas prijazno prosimo, da rešite naslednjo CAPTCHA:",
+	"hcaptcha-badlogin": "Za zaščito vikija pred samodejnim razbijanjem gesel vas prijazno prosimo, da rešite naslednji hCaptcha:",
+	"hcaptcha-createaccount": "Za zaščito vikija pred samodejnim ustvarjanjem računov vas prijazno prosimo, da rešite naslednji hCaptcha:",
+	"hcaptcha-createaccount-fail": "Zdi se, da niste rešili hCAPTCHA.",
+	"hcaptcha-create": "Za zaščito vikija pred samodejnim ustvarjanjem strani vas prijazno prosimo, da rešite naslednji hCaptcha:",
+	"hcaptcha-help": "Rešite izziv hCAPTCHA in vrnite vrednost odgovora kot captchaWord."
+}

@@ -1,0 +1,35 @@
+{
+	"@metadata": {
+		"authors": [
+			"Purodha"
+		]
+	},
+	"apihelp-abusefiltercheckmatch-param-filter": "Dä kumplätt Täx vum Fellter, öm för ene Träffer ze lohre.",
+	"apihelp-abusefiltercheckmatch-param-vars": "Ene Saz vun Varrejahble em <i lang=\"en\" xml:lang=\"en\" dir=\"ltr\" title=\"JavaScript Object Notation\">JSON</i>-Fommahd, öm doh jähje ze pröhve.",
+	"apihelp-abusefiltercheckmatch-param-rcid": "En Kännong us de {{lcfirst:{{int:recentchanges}}}}, öm doh jähje ze pröhve.",
+	"apihelp-abusefiltercheckmatch-param-logid": "En Kännong us dem Meßbruchsfelter singem Logbohch, öm doh jähje ze pröhve.",
+	"apihelp-abusefiltercheckmatch-example-1": "Donn pröhve, of de Kännong <kbd>15</kbd> us de {{lcfirst:{{int:recentchanges}}}} obb ene eijnfache Felter paß.",
+	"apihelp-abusefilterchecksyntax-param-filter": "Dä kumplätt Täx vum Fellter, öm de Süntax ze pröhfe.",
+	"apihelp-abusefilterchecksyntax-example-1": "Donn de Sünntax vun enem jölltejje Felter pröhve.",
+	"apihelp-abusefilterchecksyntax-example-2": "Donn de Sünntax vun enem onjölltejje Felter pröhve.",
+	"apihelp-abusefilterevalexpression-param-expression": "Dä Ußdrok zom ußwääte.",
+	"apihelp-abusefilterevalexpression-example-1": "Donn ene eijfache Ußdrok ußwääte.",
+	"apihelp-abusefilterunblockautopromote-param-user": "Däm Metmaacher singe Nahme, dä De nit mih jeschpächt han wells.",
+	"apihelp-abusefilterunblockautopromote-example-1": "Donn di Schpär ophävve för dem Metmaacher „<code lang=\"en\" xml:lang=\"en\" dir=\"ltr\">[[User:Example]]</code>“ sing automattesche Rääschtzohdeijlong.",
+	"apihelp-query+abusefilters-param-startid": "De Kännong vun däm Felter, vun woh aan opzälle.",
+	"apihelp-query+abusefilters-param-endid": "De Kännong vun däm Felter, bes woh hen opzälle.",
+	"apihelp-query+abusefilters-param-show": "Zeijsch blohß Felter, op di di Eijeschaffte paße.",
+	"apihelp-query+abusefilters-param-limit": "De jrüüßte Zahl Felter för opzeleste.",
+	"apihelp-query+abusefilters-param-prop": "Wat för en Eijeschaffte holle.",
+	"apihelp-query+abusefilters-example-1": "Donn de ennjeschalldte öffentlesche Fellter opleßte",
+	"apihelp-query+abusefilters-example-2": "Zijsch e paa Eijnzelheijte övver Felter",
+	"apihelp-query+abuselog-param-start": "Et Dattom un de Zigg vun woh aff opzälle.",
+	"apihelp-query+abuselog-param-end": "Et Dattom un de Zigg vun woh aff opjezallt wähde sull.",
+	"apihelp-query+abuselog-param-user": "Zeijsch blohß de Enndrähsch vun enem beschtemmpte Metmaacher udder ene beschtemmpte <i lang=\"en\" xml:lang=\"en\" dir=\"ltr\" title=\"Internet Protocol\">IP</i>-Adräß.",
+	"apihelp-query+abuselog-param-title": "Zeijsch blohß de Enndrähsch, di obb ene beschtemmpte Sigg opjedouch sin.",
+	"apihelp-query+abuselog-param-filter": "Zeijsch blohß de Enndrähsch em Logbohch di vun däm Felter met dä aanjejovve Kännog jepack woode sin.",
+	"apihelp-query+abuselog-param-limit": "De hühßde Aanzahl Enndrähsch för opzeleßte.",
+	"apihelp-query+abuselog-param-prop": "Wat för en Eijeschaffte holle.",
+	"apihelp-query+abuselog-example-1": "De neuste enndrähsch em Logbohch aanzeije.",
+	"apihelp-query+abuselog-example-2": "Zeijsch de neuste Enndrähsch em Logbohch för et [[API|<i lang=\"en\" xml:lang=\"en\" dir=\"ltr\" title=\"Application Programming Interface\">API</i>]]"
+}

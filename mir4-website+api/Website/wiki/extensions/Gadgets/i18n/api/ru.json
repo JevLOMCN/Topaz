@@ -1,0 +1,26 @@
+{
+	"@metadata": {
+		"authors": [
+			"Okras",
+			"Vlad5250",
+			"Dirruw'o",
+			"Putnik"
+		]
+	},
+	"apihelp-query+gadgetcategories-summary": "Возвращает список категорий гаджетов.",
+	"apihelp-query+gadgetcategories-param-prop": "Какую информацию о категориях гаджетов получить:",
+	"apihelp-query+gadgetcategories-param-names": "Названия возвращаемых категорий.",
+	"apihelp-query+gadgetcategories-example-1": "Получить список существующих категорий гаджетов",
+	"apihelp-query+gadgetcategories-example-2": "Получить всю информацию о категориях с названиями «Foo» и «Bar»",
+	"apihelp-query+gadgets-summary": "Возвращает список гаджетов, используемых в этой вики.",
+	"apihelp-query+gadgets-param-prop": "Какую информацию о гаджете получить:",
+	"apihelp-query+gadgets-param-categories": "Гаджеты из каких категорий получать.",
+	"apihelp-query+gadgets-param-ids": "Идентификаторы гаджетов для получения.",
+	"apihelp-query+gadgets-param-allowedonly": "Перечислить только гаджеты, разрешённые текущему участнику.",
+	"apihelp-query+gadgets-param-enabledonly": "Перечислить только гаджеты, включенные у текущего участника.",
+	"apihelp-query+gadgets-example-1": "Получить список гаджетов вместе с их описаниями",
+	"apihelp-query+gadgets-example-2": "Получить список гаджетов со всеми их возможными свойствами",
+	"apihelp-query+gadgets-example-3": "Получить список гаджетов в категории «foo»",
+	"apihelp-query+gadgets-example-4": "Получить информацию о гаджетах «foo» и «bar»",
+	"apihelp-query+gadgets-example-5": "Получить список гаджетов, включённых у данного участника"
+}

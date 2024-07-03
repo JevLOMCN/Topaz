@@ -1,0 +1,25 @@
+{
+	"@metadata": {
+		"authors": [
+			"Eirik",
+			"Frokor",
+			"Harald Khan",
+			"Nghtwlkr",
+			"Njardarlogar"
+		]
+	},
+	"captcha-edit": "For å endre denne sida, ver venleg og løys det enkle reknestykket nedanfor og skriv svaret i ruta ([[Special:Captcha/help|meir informasjon]]):",
+	"captcha-desc": "Enkel implementering av captcha-system.",
+	"captcha-addurl": "Endringa di inkluderer nye lenkjer; som eit vern mot automatisert reklame (spam) er du nøydd til skrive inn orda i dette bildet: <br />([[Special:Captcha/help|Kva er dette?]])",
+	"captcha-badlogin": "For å sikra oss mot automatisk passordtjuveri, ver venleg og skriv inn svaret på det enkle reknestykket i boksen nedanfor ([[Special:Captcha/help|meir informasjon]]):",
+	"captcha-createaccount": "For å verna wikien mot automatisk kontooppretting, bed me deg om at du løyser det enkle reknestykket under og skriv inn svaret i boksen ([[Special:Captcha/help|meir info]]):",
+	"captcha-createaccount-fail": "Feil eller manglande godkjenningskode.",
+	"captcha-create": "For å opprette denne sida, ver venleg og løys det enkle reknestykket nedanfor og skriv svaret i ruta ([[Special:Captcha/help|Kva er dette?]]):",
+	"captcha-sendemail-fail": "Rang eller manglande stadfestingskode.",
+	"captcha-disabledinapi": "Handlinga krev ein captcha og kan difor ikkje utførast gjennom API-en.",
+	"captchahelp-title": "Captcha-hjelp",
+	"captchahelp-cookies-needed": "Du må ha informasjonskapslar aktivert i nettlesaren din for at dette skal verke.",
+	"captchahelp-text": "Internettsider som kan verte endra av alle, som denne wikien, vert ofte misbrukte av reklameinnleggjarar (spammarar) som nyttar bottar til å poste mange lenkjer om gongen.\nSjølv om slike reklamelenkjer kan verte fjerna er dei til stor irritasjon.\n\nNokre gonger, særleg viss du vil leggje til nye internettlenkjer til ei side, kan wikien vise deg eit bilete av ein farga eller ujamn tekst og be deg skrive inn orda som vert viste.\nSidan det er vanskeleg å automatisere denne oppgåva, vil funksjonen sleppe dei fleste verkelege menneska gjennom, men stoppe reklamerobotar.\n\nDiverre finst det i augeblikket ikkje noko lydalternativ for brukarar med nedsett syn som brukar tekst- eller talebaserte nettlesarar.\nVer venleg å kontakte [[Special:ListAdmins|administratorane]] viss denne funksjonen hindrar deg i å gjere skikkelege endringar.\nTrykk på «attende»-knappen for å kome tilbake til endringssida.",
+	"captcha-addurl-whitelist": " #<!-- leave this line exactly as it is --> <pre>\n# Syntaksen er slik:\n#  * Alt frå teiknet «#» til enden av lina er ein kommentar\n#  * Alle liner som ikkje er tomme er fragment av regulære uttrykk som sjekkar vertar i URL-ar\n #</pre> <!-- leave this line exactly as it is -->",
+	"right-skipcaptcha": "Utføre handlingar som normalt krever «captcha»-stadfesting utan å bruke «captcha»"
+}

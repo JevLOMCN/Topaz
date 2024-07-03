@@ -1,0 +1,28 @@
+{
+	"@metadata": {
+		"authors": [
+			"Juanpabl"
+		]
+	},
+	"cite-desc": "Adibe as etiquetas <code>&lt;ref[ name=id]&gt;</code> y <code>&lt;references/&gt;</code> ta fer citas",
+	"cite_error": "Error en a cita: $1",
+	"cite_error_ref_numeric_key": "Etiqueta <code>&lt;ref&gt;</code> incorreuta; o nombre d'a etiqueta no puede estar un numero entero, faiga servir un títol descriptivo",
+	"cite_error_ref_no_key": "Etiqueta <code>&lt;ref&gt;</code> incorreuta; as referencias sin de conteniu han de tener un nombre",
+	"cite_error_ref_too_many_keys": "Etiqueta <code>&lt;ref&gt;</code> incorreuta; nombres de parametros incorreutos.",
+	"cite_error_ref_no_input": "Etiqueta <code>&lt;ref&gt;</code> incorreuta; as referencias sin nombre no han de tener conteniu",
+	"cite_error_references_invalid_parameters": "Etiqueta <code>&lt;references&gt;</code> incorreuta; no se premiten parametros, faiga servir <code>&lt;references /&gt;</code>",
+	"cite_error_references_no_backlink_label": "Ya no quedan etiquetas backlink presonalizatas, defina más en o mensache [[MediaWiki:Cite references link many format backlink labels]]",
+	"cite_error_no_link_label_group": "S'han acorau as etiquetas de vinclos personalizaus ta o grupo \"$1\". Defina-ne mas en o mensache [[MediaWiki:$2]].",
+	"cite_error_references_no_text": "Etiqueta <code>&lt;ref&gt;</code> incorreuta; no ha escrito garra testo t'as referencias nombratas <code>$1</code>",
+	"cite_error_included_ref": "Zarrando <code>&lt;/ref&gt;</code> falta una etiqueta <code>&lt;ref&gt;</code>",
+	"cite_error_group_refs_without_references": "Existen etiquetas <code>&lt;ref&gt;</code> ta un grupo clamau \"$1\", pero no se trobó garra etiqueta <code>&lt;references group=\"$1\"/&gt;</code>",
+	"cite_error_references_group_mismatch": "O tag <code>&lt;ref&gt;</code> en <code>&lt;references&gt;</code> presienta l'atributo de grupo en conflicto \"$1\".",
+	"cite_error_references_missing_key": "O tag <code>&lt;ref&gt;</code> con nombre \"$1\" definiu en <code>&lt;references&gt;</code> no s'emplega en o texto precedente.",
+	"cite_error_references_no_key": "O tag <code>&lt;ref&gt;</code> definiu en <code>&lt;references&gt;</code> no tiene garra atributo de nombre.",
+	"cite_error_empty_references_define": "O tag <code>&lt;ref&gt;</code> definiu en <code>&lt;references&gt;</code> con nombre \"$1\" no tiene garra conteniu.",
+	"cite-wikieditor-tool-reference": "Referencia",
+	"cite-wikieditor-help-page-references": "Referencias",
+	"cite-wikieditor-help-content-reference-description": "Referencia",
+	"cite-wikieditor-help-content-rereference-description": "Uso adicional d'a mesma referencia",
+	"cite-wikieditor-help-content-showreferences-description": "Amostrar as referencias"
+}

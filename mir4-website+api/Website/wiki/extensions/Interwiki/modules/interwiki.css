@@ -1,0 +1,55 @@
+/**
+ * CSS for Special:Interwiki
+ */
+table.mw-interwikitable {
+	width: 100%;
+}
+
+table.mw-interwikitable.intro th {
+	padding-right: 1.4ex;
+	vertical-align: top;
+}
+
+table.mw-interwikitable.intro th.mw-align-start {
+	text-align: left;
+}
+
+table.mw-interwikitable.intro th.mw-align-end {
+	text-align: right;
+}
+
+table.mw-interwikitable.body td.mw-interwikitable-local,
+table.mw-interwikitable.body td.mw-interwikitable-trans,
+table.mw-interwikitable.body td.mw-interwikitable-modify {
+	text-align: center;
+}
+
+table.mw-interwikitable.body td.mw-interwikitable-local-yes {
+	background: #d5fdf4;
+}
+
+/* It's safe enough to assume that URLs are usually LTR. */
+/* @noflip */
+.mw-interwikitable-url,
+input#mw-interwiki-url {
+	text-align: left;
+	direction: ltr;
+}
+
+.mw-interwikitable-modify {
+	white-space: nowrap;
+}
+
+.mw-interwiki-legend th::before,
+.mw-interwiki-legend .mw-collapsible-toggle {
+	font-weight: normal !important; /* stylelint-disable-line declaration-no-important */
+}
+
+/* Selector with higher specifity than wikitable */
+table.wikitable.mw-interwiki-legend {
+	margin-top: 2em;
+}
+
+.mw-collapsible-content {
+	clear: both;
+}

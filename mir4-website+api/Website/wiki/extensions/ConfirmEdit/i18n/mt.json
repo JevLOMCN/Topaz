@@ -1,0 +1,21 @@
+{
+	"@metadata": {
+		"authors": [
+			"Chrisportelli"
+		]
+	},
+	"captcha-edit": "Sabiex timmodifika din il-paġna, jekk jogħġbok solvi din is-somma sempliċi t'hawn taħt u daħħal ir-risposta fil-kaxxa ([[Special:Captcha/help|aktar informazzjoni]]):",
+	"captcha-desc": "Tipprovidi tekniki tal-CAPTCHA sabiex tipproteġi kontra spam u l-għarfien ta' passwords",
+	"captcha-addurl": "Il-modifika tiegħek tinkludi ħoloq esterni ġodda.\nSabiex tipproteġi kontra spam awtomatiku, jekk jogħġbok solvi din is-somma sempliċi t'hawn taħt u daħħal ir-risposta fil-kaxxa ([[Special:Captcha/help|aktar informazzjoni]]):",
+	"captcha-badlogin": "Bħala prekawzjoni kontra l-infurzar awtomatiku tal-password, jekk jogħġbok solvi din is-somma sempliċi t'hawn taħt u daħħal ir-risposta fil-kaxxa ([[Special:Captcha/help|aktar informazzjoni]]):",
+	"captcha-createaccount": "Bħala miżura ta' prekawzjoni kontra l-ħolqien awtomatiku tal-kontijiet, jekk jogħġbok solvi din is-somma sempliċi t'hawn taħt u daħħal ir-risposta fil-kaxxa ([[Special:Captcha/help|aktar informazzjoni]]):",
+	"captcha-createaccount-fail": "Kodiċi ta' konferma ħażin jew nieqes.",
+	"captcha-create": "Sabiex toħloq din il-paġna, jekk jogħġbok solvi din is-somma sempliċi t'hawn taħt u daħħal ir-risposta fil-kaxxa ([[Special:Captcha/help|aktar informazzjoni]]):",
+	"captcha-sendemail": "Bħala prekawzjoni kontra l-''ispam'' awtomatiku, jekk jogħġbok solvi din is-somma sempliċi t'hawn taħt u daħħal ir-risposta fil-kaxxa ([[Special:Captcha/help|aktar informazzjoni]]):",
+	"captcha-sendemail-fail": "Kodiċi ta' konferma ħażin jew nieqes.",
+	"captcha-disabledinapi": "Din l-azzjoni għandha bżonn il-captcha, għalhekk ma tistax issir permezz tal-API.",
+	"captchahelp-title": "X'inhi l-captcha?",
+	"captchahelp-cookies-needed": "Irid ikollok il-''cookies'' attivati sabiex tkompli",
+	"captcha-addurl-whitelist": " #<!-- ħalli din il-linja kif inhi --> <pre>\n# Is-sintassi hi din li jmiss:\n#   * Kull ħaġa wara l-karattru \"#\" huwa kumment, sat-tmiem tal-linja\n#   * Kull linja li mhijiex vojta huma frammeti ta' espressjonijiet regolari (''regex'') li japplikaw biss għall-isem tal-ospitu fil-URLs\n #</pre> <!-- ħalli din il-linja kif inhi -->",
+	"right-skipcaptcha": "Jagħmel l-azzjonijiet li jattivaw il-CAPTCHA mingħajr m'għandu bżonn jgħaddi mill-CAPTCHA"
+}

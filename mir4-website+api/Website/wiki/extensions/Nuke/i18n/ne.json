@@ -1,0 +1,23 @@
+{
+	"@metadata": {
+		"authors": [
+			"Bada Kaji",
+			"Nirajan pant",
+			"Parbat subedi",
+			"RajeshPandey",
+			"बडा काजी"
+		]
+	},
+	"nuke": "धेरैवटा हटाउने",
+	"action-nuke": "न्युक पृष्ठहरू",
+	"nuke-submit-user": "जाउ",
+	"nuke-userorip": "प्रयोगकर्ता, आइपी ठेगाना वा खाली:",
+	"nuke-maxpages": "पृष्ठहरूको उच्चतम संख्या:",
+	"nuke-editby": "[[Special:Contributions/$1|$1]] द्वारा सिर्जना गरिएको",
+	"nuke-deleted": "'''$1''' पृष्ठ मेटिएको छ।",
+	"nuke-not-deleted": "[[:$1]] पृष्ठ मेट्न '''सकिएन'''।",
+	"nuke-delete-more": "[[Special:Nuke|अरू पृष्ठहरू मेट्नुहोस]]",
+	"nuke-pattern": "पृष्ठको नामको लागि SQL LIKE ढाँचा (e.g. %):",
+	"nuke-nopages-global": "[[Special:RecentChanges|नयाँ परिवर्तनहरू]]मा कुनै नयाँ पृष्ठ छैनन।",
+	"nuke-linkoncontribs": "सामूहिक रूपमा मेट्नुहोस्"
+}

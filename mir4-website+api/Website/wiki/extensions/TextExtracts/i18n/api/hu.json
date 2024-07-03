@@ -1,0 +1,16 @@
+{
+	"@metadata": {
+		"authors": [
+			"Tacsipacsi"
+		]
+	},
+	"apihelp-query+extracts-param-chars": "A visszaadandó karakterek száma. A tényleges visszaadott szöveg lehet valamivel hosszabb.",
+	"apihelp-query+extracts-param-sentences": "A visszaadandó mondatok száma.",
+	"apihelp-query+extracts-param-limit": "A visszaadandó kivonatok száma. (Több kivonat csak akkor adható vissza, ha az <var>exintro</var> meg van adva.)",
+	"apihelp-query+extracts-param-intro": "Csak az első szakasz előtti tartalom visszaadása.",
+	"apihelp-query+extracts-param-plaintext": "A kivonatok visszaadása egyszerű szövegként korlátozott HTML helyett.",
+	"apihelp-query+extracts-param-sectionformat": "A szakaszcímek formázása egyszerű szöveges módban:\n;plain: Nincs formázás.\n;wiki: Wikiszöveg-formázás (== így ==).\n;raw: Ezen modul belső reprezentációja (a szakaszcímek előtagja &lt;ASCII 1&gt;&lt;ASCII 2&gt;&lt;szakaszszint&gt;&lt;ASCII 2&gt;&lt;ASCII 1&gt;).",
+	"apihelp-query+extracts-example-1": "Egy 175 karakteres kivonat lekérése",
+	"apiwarn-textextracts-limit": "<var>exlimit</var> túl nagy teljes szócikk kivonatához, csökkentve $1 darabra.",
+	"apiwarn-textextracts-unsupportedmodel": "$1 tartalommodellje $2, ami nem támogatott; üres kivonat visszaadva."
+}

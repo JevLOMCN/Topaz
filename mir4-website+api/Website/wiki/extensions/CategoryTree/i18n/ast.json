@@ -1,0 +1,37 @@
+{
+	"@metadata": {
+		"authors": [
+			"Esbardu",
+			"Xuacu",
+			"YoaR"
+		]
+	},
+	"categorytree": "Árbole de categoríes",
+	"categorytree-portlet": "Categoríes",
+	"categorytree-legend": "Amosar l'árbole de categoríes",
+	"categorytree-desc": "Accesoriu basáu n'AJAX qu'amuesa la [[Special:CategoryTree|estructura de categoríes]] d'una wiki",
+	"categorytree-header": "Escribe un nome de categoría pa ver el so conteníu con estructura d'árbole. (Rique JavaScript)",
+	"categorytree-category": "Categoría:",
+	"categorytree-go": "Amosar árbole",
+	"categorytree-parents": "Categoríes superiores",
+	"categorytree-mode-label": "Mou:",
+	"categorytree-mode-categories": "categoríes namái",
+	"categorytree-mode-pages": "páxines sacante los archivos",
+	"categorytree-mode-all": "toles páxines",
+	"categorytree-collapse": "anubrir",
+	"categorytree-expand": "espander",
+	"categorytree-member-counts": "Contién {{PLURAL:$1|1 subcategoría|$1 subcategoríes}}, {{PLURAL:$2|1 páxina|$2 páxines}} y {{PLURAL:$3|1 ficheru|$3 ficheros}}",
+	"categorytree-num-categories": "$1 C",
+	"categorytree-num-pages": "$1 P",
+	"categorytree-num-files": "$1 F",
+	"categorytree-num-empty": "balera",
+	"categorytree-load": "cargar",
+	"categorytree-loading": "cargando",
+	"categorytree-nothing-found": "nun s'atopó nada",
+	"categorytree-no-subcategories": "nun hai subcategoríes",
+	"categorytree-no-parent-categories": "nun hai categoríes padre",
+	"categorytree-no-pages": "ensin páxines nin subcategoríes",
+	"categorytree-not-found": "Nun s'atopó la categoría <i>$1</i>",
+	"categorytree-error": "Hebo un problema al cargar los datos.",
+	"categorytree-retry": "Por favor, espera unos momentos y inténtalo otra vuelta."
+}

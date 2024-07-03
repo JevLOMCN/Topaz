@@ -1,0 +1,36 @@
+{
+	"@metadata": {
+		"authors": [
+			"Daniel Kinzler, brightbyte.de"
+		]
+	},
+	"categorytree": "Category tree",
+	"categorytree-portlet": "Categories",
+	"categorytree-legend": "Show category tree",
+	"categorytree-desc": "Dynamically navigate the [[Special:CategoryTree|category structure]]",
+	"categorytree-header": "Enter a category name to see its contents as a tree structure. (Requires JavaScript.)",
+	"categorytree-category": "Category:",
+	"categorytree-go": "Show tree",
+	"categorytree-parents": "Parents",
+	"categorytree-mode-label": "Mode:",
+	"categorytree-mode-categories": "categories only",
+	"categorytree-mode-pages": "pages except files",
+	"categorytree-mode-all": "all pages",
+	"categorytree-collapse": "collapse",
+	"categorytree-expand": "expand",
+	"categorytree-member-counts": "Contains {{PLURAL:$1|1 subcategory|$1 subcategories}}, {{PLURAL:$2|1 page|$2 pages}}, and {{PLURAL:$3|1 file|$3 files}}",
+	"categorytree-member-num": "($5)",
+	"categorytree-num-categories": "$1 C",
+	"categorytree-num-pages": "$1 P",
+	"categorytree-num-files": "$1 F",
+	"categorytree-num-empty": "empty",
+	"categorytree-load": "load",
+	"categorytree-loading": "loading…",
+	"categorytree-nothing-found": "nothing found",
+	"categorytree-no-subcategories": "no subcategories",
+	"categorytree-no-parent-categories": "no parent categories",
+	"categorytree-no-pages": "no pages or subcategories",
+	"categorytree-not-found": "Category <i>$1</i> not found",
+	"categorytree-error": "Problem loading data.",
+	"categorytree-retry": "Please wait a moment and try again."
+}

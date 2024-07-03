@@ -1,0 +1,36 @@
+{
+	"@metadata": {
+		"authors": [
+			"Bluetpp",
+			"Doraemonluonbentoi",
+			"Flyplanevn27",
+			"Minh Nguyen",
+			"Nghiemtrongdai VN",
+			"Vinhtantran"
+		]
+	},
+	"apierror-discussiontools-commentid-notfound": "Bình luận với mã '$1' không tồn tại.",
+	"apierror-discussiontools-commentname-ambiguous": "Nhiều bình luận với tên '$1' được tìm thấy, nhưng <var>commentid</var> là bắt buộc.",
+	"apierror-discussiontools-commentname-notfound": "Bình luận với tên '$1' không tồn tại.",
+	"apierror-discussiontools-formtoken-used": "Bình luận đã được đăng. Tải lại trang để xem bình luận đó.",
+	"apierror-discussiontools-subscription-failed-add": "Không thể theo dõi chủ đề này.",
+	"apierror-discussiontools-subscription-failed-remove": "Không thể ngừng theo dõi chủ đề này.",
+	"apihelp-discussiontoolscompare-summary": "Nhận thông tin về các thay đổi bình luận giữa hai lần sửa đổi trang.",
+	"apihelp-discussiontoolsedit-param-commentid": "ID của bình luận để trả lời. Chỉ được sử dụng khi <var>paction</var> là <var>addcomment</var>. Ghi đè <var>commentname</var>.",
+	"apihelp-discussiontoolsedit-param-commentname": "Tên của bình luận để trả lời. Chỉ được sử dụng khi <var>paction</var> là <var>addcomment</var>.",
+	"apihelp-discussiontoolsedit-param-formtoken": "Một ID duy nhất tùy chọn được tạo trong ứng dụng khách để ngăn đăng hai lần.",
+	"apihelp-discussiontoolsedit-param-html": "Nội dung để đăng, dưới dạng HTML. Không thể được sử dụng cùng với <var>wikitext</var>.",
+	"apihelp-discussiontoolsedit-param-sectiontitle": "{{int:apihelp-edit-param-sectiontitle}} Chỉ được sử dụng khi <var>paction</var> là <var>addtopic</var>.",
+	"apihelp-discussiontoolsedit-param-wikitext": "Nội dung để đăng, dưới dạng mã wiki. Không thể được sử dụng cùng với <var>html</var>.",
+	"apihelp-discussiontoolsedit-paramvalue-paction-addcomment": "Thêm một bình luận mới như một câu trả lời cho một bình luận hiện có.",
+	"apihelp-discussiontoolsedit-paramvalue-paction-addtopic": "Thêm một đề mục thảo luận mới và bình luận đầu tiên trong đó.",
+	"apihelp-discussiontoolsedit-summary": "Đăng lời bình luận trên một trang thảo luận.",
+	"apihelp-discussiontoolsgetsubscriptions-param-commentname": "Tên của các chủ đề cần kiểm tra",
+	"apihelp-discussiontoolsgetsubscriptions-summary": "Nhận trạng thái theo dõi của các chủ đề nhất định.",
+	"apihelp-discussiontoolspageinfo-param-oldid": "Mã phiên bản sẽ được dùng (mặc định là phiên bản mới nhất).",
+	"apihelp-discussiontoolspageinfo-param-prop": "Thuộc tính mà bạn muốn lấy:",
+	"apihelp-discussiontoolspageinfo-summary": "Trả về siêu dữ liệu cần thiết để khởi tạo công cụ thảo luận.",
+	"apihelp-discussiontoolspreview-param-type": "Loại thông điệp để xem trước",
+	"apihelp-discussiontoolssubscribe-param-commentname": "Tên của chủ đề cần theo dõi (hoặc ngừng theo dõi)",
+	"apihelp-discussiontoolssubscribe-summary": "Theo dõi (hoặc ngừng theo dõi) để nhận thông báo về một chủ đề."
+}

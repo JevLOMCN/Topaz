@@ -1,0 +1,31 @@
+{
+	"@metadata": {
+		"authors": [
+			"BadDog",
+			"Milicevic01",
+			"Millosh",
+			"Rancher",
+			"Verlor",
+			"Сербијана"
+		]
+	},
+	"pfunc_desc": "Проширује рашчлањивач са логичким функцијама",
+	"pfunc_time_error": "Грешка: неважеће време.",
+	"pfunc_time_too_long": "Грешка: превише #time позива",
+	"pfunc_rel2abs_invalid_depth": "Грешка: неправилна дубина у путањи: „$1“ (покушај приступа чвору изнад коренског (root)).",
+	"pfunc_expr_stack_exhausted": "Грешка у изразу: стек напуњен",
+	"pfunc_expr_unexpected_number": "Грешка у изразу: неочекивани број",
+	"pfunc_expr_preg_match_failure": "Грешка у изразу: Неочекивана preg_match грешка",
+	"pfunc_expr_unrecognised_word": "Грешка у изразу: непозната реч „$1“",
+	"pfunc_expr_unexpected_operator": "Грешка у изразу: неочекивани оператор „$1“",
+	"pfunc_expr_missing_operand": "Грешка у изразу: недостаје операнд за $1",
+	"pfunc_expr_unexpected_closing_bracket": "Грешка у изразу: неочекивано затварање средње заграде.",
+	"pfunc_expr_unrecognised_punctuation": "Грешка у изразу: непознати интерпункцијски карактер „$1“.",
+	"pfunc_expr_unclosed_bracket": "Грешка у изразу: незатворена средња заграда.",
+	"pfunc_expr_division_by_zero": "Дељење са нулом.",
+	"pfunc_expr_invalid_argument": "Лош аргумент за $1: је мање од -1 или или веће од 1.",
+	"pfunc_expr_invalid_argument_ln": "Лош аргумент за ln: мање или једнако нули.",
+	"pfunc_expr_unknown_error": "Грешка у изразу: Непозната грешка ($1)",
+	"pfunc_expr_not_a_number": "Резултат у $1 није број.",
+	"pfunc_string_too_long": "Грешка: реч прекорачује $1  слова, што је постављено ограничење"
+}

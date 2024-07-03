@@ -1,0 +1,20 @@
+{
+	"@metadata": {
+		"authors": [
+			"Alsandro",
+			"David1010",
+			"Dawid Deutschland",
+			"ITshnik"
+		]
+	},
+	"inputbox-desc": "საშუალებას იძლევა ჩართოს წინასწარ განსაზღვრული HTML ფორმები",
+	"inputbox-error-no-type": "თქვენ არ მიგითითებიათ აკრეფვის შესაქმნელი ველის ტიპი.",
+	"inputbox-error-bad-type": "ველის შეყვანის უცნობი ტიპი „$1“.\nგთხოვთ, მიუთითეთ ერთ-ერთი დასაშვები ტიპი: „create“, „comment“, „search“, „search2“ ან „fulltext“.",
+	"inputbox-tryexact": "სცადე ზუსტი დამთხვევა",
+	"inputbox-searchfulltext": "სრული ტექსტის ძიება",
+	"inputbox-createarticle": "სტატიის შექმნა",
+	"inputbox-movearticle": "გვერდის გადატანა",
+	"inputbox-postcomment": "ახალი ქვეთავი",
+	"inputbox-postcommenttitle": "ახალი ქვეთავი",
+	"inputbox-ns-main": "მთავარი"
+}

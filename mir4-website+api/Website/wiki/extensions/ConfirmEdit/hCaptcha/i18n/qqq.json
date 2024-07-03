@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"Umherirrender"
+		]
+	},
+	"hcaptcha-desc": "{{desc}}",
+	"hcaptcha-edit": "{{notranslate}}",
+	"hcaptcha-addurl": "Message above the CAPTCHA for addurl (user added new external links to the page) action.\n{{related|ConfirmEdit-addurl}}",
+	"hcaptcha-badlogin": "Message above the CAPTCHA for badlogin action.\n{{related|ConfirmEdit-badlogin}}",
+	"hcaptcha-createaccount": "{{notranslate}}",
+	"hcaptcha-createaccount-fail": "Error message, when the CAPTCHA isn't solved correctly.\n{{related|ConfirmEdit-createaccount-fail}}",
+	"hcaptcha-create": "Message above the CAPTCHA for create (user creates a new page) action.\n{{related|ConfirmEdit-create}}",
+	"hcaptcha-help": "Explanation of how to solve the CAPTCHA for API clients."
+}

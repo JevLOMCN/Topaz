@@ -1,0 +1,25 @@
+{
+	"@metadata": {
+		"authors": [
+			"Chris TR",
+			"Crazymadlover",
+			"Fitoschido",
+			"Macofe",
+			"Muro de Aguas",
+			"Remember the dot",
+			"Sanbec"
+		]
+	},
+	"syntaxhighlight-desc": "Permite resaltar el código fuente usando la etiqueta <code>&lt;syntaxhighlight&gt;</code>. Esta extensión usa [http://pygments.org/ Pygments - Resaltador de sintaxis en Python]",
+	"syntaxhighlight-error-category": "Páginas con errores de resaltado de sintaxis",
+	"syntaxhighlight-error-category-desc": "Hubo un error al intentar resaltar el código que se incluye en la página.",
+	"syntaxhighlight-visualeditor-mwsyntaxhighlightinspector-code": "Código",
+	"syntaxhighlight-visualeditor-mwsyntaxhighlightinspector-language": "Lenguaje",
+	"syntaxhighlight-visualeditor-mwsyntaxhighlightinspector-none": "(Ninguno)",
+	"syntaxhighlight-visualeditor-mwsyntaxhighlightinspector-showlines": "Mostrar números de línea",
+	"syntaxhighlight-visualeditor-mwsyntaxhighlightinspector-startingline": "Número de renglón inicial",
+	"syntaxhighlight-visualeditor-mwsyntaxhighlightinspector-title": "Segmento de código",
+	"syntaxhighlight-error-pygments-invocation-failure": "Error al invocar Pygments",
+	"syntaxhighlight-error-unknown-language": "Lenguaje desconocido \"$1\"",
+	"syntaxhighlight-error-exceeds-size-limit": "El tamaño del código ($1 {{PLURAL:$1|bytes}}) supera el máximo permitido ($2 {{PLURAL:$2|bytes}})"
+}

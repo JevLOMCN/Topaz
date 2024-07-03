@@ -1,0 +1,19 @@
+{
+	"@metadata": {
+		"authors": [
+			"Dvorapa",
+			"Mormegil",
+			"Tchoř"
+		]
+	},
+	"fancycaptcha-desc": "Pokročilý generátor captcha pro rozšíření „Confirm Edit“",
+	"fancycaptcha-addurl": "Vaše editace obsahuje nové odkazy formou URL.\nAbychom wiki ochránili před automatizovaným spamováním, žádáme vás o opsání textu z následujícího obrázku ([[Special:Captcha/help|více informací]]):",
+	"fancycaptcha-badlogin": "Abychom wiki ochránili proti automatizovaným pokusům uhodnout heslo, žádáme vás o opsání textu z následujícího obrázku ([[Special:Captcha/help|více informací]]):",
+	"fancycaptcha-captcha": "Bezpečnostní kontrola",
+	"fancycaptcha-accountcreate": "Abychom wiki ochránili proti automatizovanému zakládání účtů, žádáme vás o opsání textu z následujícího obrázku ([[Special:Captcha/help|více informací]]):",
+	"fancycaptcha-create": "Abyste mohli založit stránku, musíte opsat text z následujícího obrázku: ([[Special:Captcha/help|Co tohle znamená?]])",
+	"fancycaptcha-edit": "Abyste mohli editovat tuto stránku, musíte opsat text z následujícího obrázku: ([[Special:Captcha/help|Co tohle znamená?]])",
+	"fancycaptcha-imgcaptcha-ph": "Opište text, který vidíte na obrázku",
+	"fancycaptcha-sendemail": "Abychom wiki ochránili proti automatizovanému spamování, žádáme vás o opsání textu z následujícího obrázku ([[Special:Captcha/help|více informací]]):",
+	"fancycaptcha-reload-text": "Vygenerovat nový obrázek"
+}

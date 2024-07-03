@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"Irwangatot",
+			"Kandar"
+		]
+	},
+	"pfunc_desc": "Ngembangkeun parser kalawan fungsi logis",
+	"pfunc_time_error": "Éror: titimangsa teu valid",
+	"pfunc_expr_unrecognised_word": "Salah éksprési: Kecap \"$1\" teu dipikawanoh.",
+	"pfunc_expr_unexpected_operator": "Salah éksprési: operator $1 teu dipiharep.",
+	"pfunc_expr_missing_operand": "Salah éksprési: operan $1 leungit.",
+	"pfunc_expr_unrecognised_punctuation": "Salah éksprési: Tanda baca \"$1\" teu dipikawanoh.",
+	"pfunc_expr_division_by_zero": "Pambagi ku nol"
+}

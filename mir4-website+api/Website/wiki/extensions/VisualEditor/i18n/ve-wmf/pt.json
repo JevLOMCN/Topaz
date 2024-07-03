@@ -1,0 +1,42 @@
+{
+	"@metadata": {
+		"authors": [
+			"Amire80",
+			"Cainamarques",
+			"Fúlvio",
+			"GoEThe",
+			"Hamilton Abreu",
+			"He7d3r",
+			"Helder.wiki",
+			"Jaideraf",
+			"Jdforrester",
+			"Luckas",
+			"SandroHc",
+			"Vitorvicentevalente",
+			"아라"
+		]
+	},
+	"tag-editcheck-newcontent-description": "A Verificação de Edições acha que foi adicionado conteúdo novo à página",
+	"tag-editcheck-newreference-description": "Foi adicionada uma referência à página",
+	"tag-editcheck-references-description": "A Verificação de Edições acha que podia ter sido necessária uma referência",
+	"tag-editcheck-references-activated": "[[{{MediaWiki:editcheck-falsepositives-link}}|Verificação de Edições (referências) ativada]]",
+	"tag-editcheck-references-activated-description": "A Verificação de Edições acha que podia ter sido necessária uma referência e foi mostrada a interface do utilizador",
+	"tag-visualeditor": "[[{{MediaWiki:visualeditor-descriptionpagelink}}|Editor Visual]]",
+	"tag-visualeditor-description": "Edição realizada utilizando o [[{{MediaWiki:visualeditor-descriptionpagelink}}|Editor Visual]]",
+	"tag-visualeditor-needcheck": "[[{{MediaWiki:visualeditor-descriptionpagelink}}|Editor Visual: Verificar]]",
+	"tag-visualeditor-needcheck-description": "Edição feita com o [[{{MediaWiki:visualeditor-descriptionpagelink}}|Editor Visual]] em que o sistema detetou que o código wiki possivelmente teve alterações não intencionais.",
+	"tag-visualeditor-wikitext": "editor de código 2017",
+	"tag-visualeditor-wikitext-description": "Edição feita com o editor de texto wiki 2017",
+	"tag-visualeditor-switched": "[[{{MediaWiki:visualeditor-descriptionpagelink}}|Editor Visual: Trocado]]",
+	"tag-visualeditor-switched-description": "O utilizador iniciou a edição com o Editor Visual e depois mudou para o editor de texto wiki.",
+	"visualeditor-feedback-link": "Project:Editor Visual/Comentários",
+	"visualeditor-feedback-tool": "Deixar comentário sobre este programa",
+	"visualeditor-help-label": "Leia o guia do utilizador",
+	"visualeditor-help-link": "mw:Special:MyLanguage/Help:VisualEditor/User guide",
+	"visualeditor-welcomedialog-action": "Começar a editar",
+	"visualeditor-welcomedialog-content": "Qualquer pessoa pode editar e todas as melhorias são bem-vindas.",
+	"visualeditor-welcomedialog-content-thanks": "Obrigado por ajudar o mundo a descobrir mais!",
+	"visualeditor-welcomedialog-switch": "Mudar para o editor de código",
+	"visualeditor-welcomedialog-switch-ve": "Mudar para o editor visual",
+	"visualeditor-welcomedialog-title": "{{GENDER:$1|Bem-vindo|Bem-vinda|Bem-vindo(a)}} a $2"
+}

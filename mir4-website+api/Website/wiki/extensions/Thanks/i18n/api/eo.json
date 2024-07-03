@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"Mirin"
+		]
+	},
+	"apihelp-flowthank-summary": "Publike danki pro Flow-komento.",
+	"apihelp-flowthank-param-postid": "La UUID de la afiŝo kies afiŝinto estas dankota.",
+	"apihelp-flowthank-example-1": "Danki pro komento de <kbd>UUID xyz789</kbd>",
+	"apihelp-thank-summary": "Danki redaktinton.",
+	"apihelp-thank-param-rev": "Numero de versio kies redaktinto estas dankota. Aŭ tiu aŭ 'log' devas esti specifita.",
+	"apihelp-thank-param-log": "Numero de protokolero, kies protokolinto estas dankota. Aŭ tiu aŭ 'rev' devas esti specifita.",
+	"apihelp-thank-param-source": "Mallonga teksto priskribanta la fonton de la peto, ekzemple <kbd>diff</kbd> aŭ <kbd>history</kbd>.",
+	"apihelp-thank-example-1": "Danki pro versio <kbd>ID 456</kbd>, kun la diferenco-paĝo kiel la fonto"
+}

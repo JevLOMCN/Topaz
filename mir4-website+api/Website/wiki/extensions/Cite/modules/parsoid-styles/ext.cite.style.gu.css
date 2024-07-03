@@ -1,0 +1,11 @@
+.mw-ref > a::after {
+	content: '[' counter( mw-Ref, gujarati ) ']';
+}
+
+.mw-ref > a[ data-mw-group ]::after {
+	content: '[' attr( data-mw-group ) ' ' counter( mw-Ref, gujarati ) ']';
+}
+
+span[ rel='mw:referencedBy' ] > a::before {
+	content: counter( mw-references, gujarati ) '.' counter( mw-ref-linkback, gujarati );
+}

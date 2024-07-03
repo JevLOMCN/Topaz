@@ -1,0 +1,16 @@
+{
+	"@metadata": {
+		"authors": [
+			"Xuacu"
+		]
+	},
+	"apihelp-query+oath-summary": "Comprobar si la identificación de dos factores (OATH) tá activada pa un usuariu.",
+	"apihelp-query+oath-param-user": "Usuariu del qu'algamar la información. De mou predetermináu, ye l'usuariu actual.",
+	"apihelp-query+oath-example-1": "Recibir información sobro l'usuariu actual.",
+	"apihelp-query+oath-example-2": "Recibir información sobro l'usuariu <kbd>Example</kbd>",
+	"apihelp-oathvalidate-summary": "Validar un pase d'identificación de dos factores (OATH)",
+	"apihelp-oathvalidate-param-user": "Usuariu pal que validar el pase. De mou predetermináu, l'usuariu actual.",
+	"apihelp-oathvalidate-example-1": "Validar un pase pal usuariu actual",
+	"apihelp-oathvalidate-example-3": "Validar los datos JSON pal usuariu <kbd>Example</kbd>",
+	"apihelp-oathvalidate-param-data": "Datos codificaos en JSON esperaos pol módulu activáu anguaño pal usuariu que quier identificase"
+}

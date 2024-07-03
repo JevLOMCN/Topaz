@@ -1,0 +1,34 @@
+{
+	"@metadata": {
+		"authors": [
+			"Irwangatot",
+			"Kandar"
+		]
+	},
+	"categorytree": "TangkalKategori",
+	"categorytree-portlet": "Kategori",
+	"categorytree-legend": "Témbongkeun tangkal kategori",
+	"categorytree-desc": "Gajet AJAX pikeun némbongkeun [[Special:CategoryTree|wangun kategori]] dina hiji wiki",
+	"categorytree-header": "Asupkeun hiji ngaran kategori pikeun nempo eusina dina wangun tangkal.\nPerhatikeun yén fitur ieu merlukeun pangrojong Javascript tingkat tuluy anu dipikawanoh minangka AJAX.\nLamun Anjeun ngagunakeun panyungsi nu lila, atawa maehan fungsi Javascript Anjeun, fitur ieu henteu bisa dijalankeun.",
+	"categorytree-category": "Kategori:",
+	"categorytree-go": "Témbongkeun Tangkal",
+	"categorytree-parents": "Luluhur",
+	"categorytree-mode-categories": "kategori wungkul",
+	"categorytree-mode-pages": "kaca iwal berkas",
+	"categorytree-mode-all": "sadaya kaca",
+	"categorytree-collapse": "tilep",
+	"categorytree-expand": "buka",
+	"categorytree-member-counts": "mibanda {{PLURAL:$1|1 subkategori|$1 subkategori}}, {{PLURAL:$2|1 kaca|$2 kaca}}, jeung {{PLURAL:$3|1 berkas|$3 berkas}}",
+	"categorytree-num-categories": "$1 C",
+	"categorytree-num-pages": "$1 P",
+	"categorytree-num-files": "$1 F",
+	"categorytree-load": "muatkeun",
+	"categorytree-loading": "ngamuat",
+	"categorytree-nothing-found": "teu manggih nanaon",
+	"categorytree-no-subcategories": "euweuh subkategori",
+	"categorytree-no-parent-categories": "taya kategori luhureunana",
+	"categorytree-no-pages": "euweuh kaca atawa subkategori",
+	"categorytree-not-found": "Kategori <i>$1</i> teu kapanggih",
+	"categorytree-error": "Aya masalah dina ngamuat data.",
+	"categorytree-retry": "Dago sakedap, lajeng coba deui."
+}

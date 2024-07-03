@@ -1,0 +1,18 @@
+{
+	"@metadata": {
+		"authors": [
+			"BaRaN6161 TURK",
+			"MuratTheTurkish",
+			"SaldırganSincap"
+		]
+	},
+	"apihelp-query+pageimages-summary": "Küçük resimler ve fotoğrafların varlığı gibi sayfadaki resimlerle ilgili bilgileri döndürür.",
+	"apihelp-query+pageimages-example-1": "<kbd>Albert Einstein</kbd> sayfasındaki bir resmin adını ve <kbd>100</kbd> piksel küçük resmini alın.",
+	"apihelp-query+pageimages-param-prop": "Hangi bilgilerin döndürüleceği:\n;thumbnail:Varsa, sayfayla ilişkilendirilmiş küçük resmin URL'si ve boyutları.\n;original:Varsa sayfayla ilişkili resmin URL'si ve orijinal boyutları.\n;name:Resim başlığı.",
+	"apihelp-query+pageimages-param-thumbsize": "Küçük resim resimlerin piksel cinsinden maksimum genişliği.",
+	"apihelp-query+pageimages-param-langcode": "Birden çok dil destekleniyorsa resminin oluşturulacağı dilin kodu",
+	"apihelp-query+pageimages-param-limit": "Kaç sayfa döndürüleceğinin özellikleri.",
+	"apihelp-query+pageimages-param-license": "Sayfa resimlerini belirli bir lisans türüyle sınırlayın",
+	"apihelp-query+pageimages-paramvalue-license-free": "yalnızca özgür resimler",
+	"apihelp-query+pageimages-paramvalue-license-any": "özgür veya özgür olmayan en iyi resim."
+}

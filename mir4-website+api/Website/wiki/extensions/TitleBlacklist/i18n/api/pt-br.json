@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Felipe L. Ewald"
+		]
+	},
+	"apihelp-titleblacklist-summary": "Valide um título de página, nome de arquivo ou nome de usuário no TitleBlacklist.",
+	"apihelp-titleblacklist-param-title": "A string para validar contra a lista negra.",
+	"apihelp-titleblacklist-param-action": "A ação a ser verificada.",
+	"apihelp-titleblacklist-param-nooverride": "Não tente substituir a lista negra de títulos.",
+	"apihelp-titleblacklist-example-1": "Verifique se [[Foo]] está na lista negra",
+	"apihelp-titleblacklist-example-2": "Verificar se [[Bar]] está na lista negra para edição",
+	"apihelp-createaccount-param-ignoretitleblacklist": "Ignorar verificações de falsificação (requer um dos seguintes direitos: <code>tboverride</code>, <code>tboverride-account</code>)."
+}

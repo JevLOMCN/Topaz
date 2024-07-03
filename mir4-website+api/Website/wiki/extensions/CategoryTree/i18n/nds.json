@@ -1,0 +1,30 @@
+{
+	"@metadata": {
+		"authors": [
+			"Slomox"
+		]
+	},
+	"categorytree": "Kategorie-Boom",
+	"categorytree-portlet": "Kategorien",
+	"categorytree-legend": "Kategorieboom wiesen",
+	"categorytree-desc": "Dynaamsche Navigatschoon för de [[Special:CategoryTree|Kategorien-Struktur]]",
+	"categorytree-header": "Kategorienaam ingeven, den Inholt as Boomstruktur to sehn. Schasst di bewusst wesen, dat Javascript un de AJAX-Funkschoon dor för bruukt warrt. Wenn dien Nettkieker to oolt is oder du keen Javascript hest, denn warrt dat nix.",
+	"categorytree-category": "Kategorie:",
+	"categorytree-go": "Boom wiesen",
+	"categorytree-parents": "Öllernkategorien",
+	"categorytree-mode-categories": "blot Kategorien",
+	"categorytree-mode-pages": "Sieden, ahn Biller",
+	"categorytree-mode-all": "all Sieden",
+	"categorytree-collapse": "nich ganz wiesen",
+	"categorytree-expand": "ganz wiesen",
+	"categorytree-member-counts": "bargt {{PLURAL:$1|ene Ünnerkategorie|$1 Ünnerkategorien}}, {{PLURAL:$2|ene Siet|$2 Sieden}} un {{PLURAL:$3|ene Datei|$3 Datein}}",
+	"categorytree-load": "laden",
+	"categorytree-loading": "läädt",
+	"categorytree-nothing-found": "nix funnen",
+	"categorytree-no-subcategories": "kene Ünnerkategorien",
+	"categorytree-no-parent-categories": "Kene Öllernkategorien",
+	"categorytree-no-pages": "kene Sieden oder Ünnerkategorien",
+	"categorytree-not-found": "Kategorie <i>$1</i> nich funnen",
+	"categorytree-error": "Problem bi’t Laden vun de Daten",
+	"categorytree-retry": "Tööv en beten un denn versöök dat noch wedder."
+}

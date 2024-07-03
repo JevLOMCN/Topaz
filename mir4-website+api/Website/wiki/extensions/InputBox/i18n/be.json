@@ -1,0 +1,18 @@
+{
+	"@metadata": {
+		"authors": [
+			"Chadyka",
+			"Чаховіч Уладзіслаў"
+		]
+	},
+	"inputbox-desc": "Дазваляе дадаваць у тэкст перадвызначаныя HTML-формы",
+	"inputbox-error-no-type": "Вы не пазначылі тып ствараемага поля ўводу.",
+	"inputbox-error-bad-type": "Невядомы тып поля ўводу «$1».\nКалі ласка, выбірайце толькі з дазволеных тыпаў: «create», «comment», «search», «search2» ці «fulltext».",
+	"inputbox-tryexact": "Строгі пошук",
+	"inputbox-searchfulltext": "Шукаць увесь тэкст",
+	"inputbox-createarticle": "Пачаць артыкул",
+	"inputbox-movearticle": "Перанесці старонку",
+	"inputbox-postcomment": "Новы раздзел",
+	"inputbox-postcommenttitle": "Новы раздзел",
+	"inputbox-ns-main": "Галоўная"
+}

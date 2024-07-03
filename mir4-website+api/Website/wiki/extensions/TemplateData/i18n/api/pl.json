@@ -1,0 +1,18 @@
+{
+	"@metadata": {
+		"authors": [
+			"Ency",
+			"Jdx",
+			"Rail",
+			"Woytecr"
+		]
+	},
+	"apihelp-templatedata-summary": "Pobierz dane zapisane przez rozszerzenie TemplateData.",
+	"apihelp-templatedata-example-1": "Zwraca dane TemplateData dla [[Template:Stub]] oraz [[Template:Example]] z informacją, że szablon nie istnieje lub że istnieje, ale nie posiada TemplateData.",
+	"apihelp-templatedata-example-2": "Zwraca dane TemplateData dla [[Template:Stub]] oraz [[Template:Example]] z brakiem wyników jeśli szablon nie istnieje lub jeśli istnieje, ale nie posiada TemplateData.",
+	"apihelp-templatedata-param-includeMissingTitles": "Zwraca dane o tytułach nawet gdy nie istnieją lub brakuje w nich danych TemplateData. Domyślnie tytuły są zwracane tylko wtedy, gdy istnieją i posiadają takie dane.",
+	"apihelp-templatedata-param-doNotIgnoreMissingTitles": "Zwraca dane o tytułach nawet gdy nie istnieją lub brakuje w nich danych TemplateData. Domyślnie (dla zachowania wstecznej kompatybilności) tytuły są zwracane tylko wtedy, gdy istnieją i posiadają takie dane.",
+	"apihelp-templatedata-param-lang": "Zwraca tłumaczenia w tym języku. Domyślnie zwracane są wszystkie dostępne tłumaczenia.",
+	"apierror-templatedata-corrupt": "TemplateData dla strony #$1 zawierają niepoprawne dane: $2",
+	"apiwarn-templatedata-deprecation-format": "Domyślny format wyjściowy zostanie zmieniony w przyszłości na <kbd>jsonfm</kbd>. Proszę jawnie podać <kbd>format=json</kbd>."
+}

@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"McDutchie"
+		]
+	},
+	"hcaptcha-desc": "[https://www.hcaptcha.com/ hCaptcha]-module voor Confirm Edit",
+	"hcaptcha-edit": "Om de wiki te beschermen tegen geautomatiseerde bewerkingsspam vragen wij u vriendelijk de volgende hCaptcha op te lossen:",
+	"hcaptcha-addurl": "Uw bewerking bevat nieuwe externe links. Om de wiki te beschermen tegen geautomatiseerde spam vragen wij u vriendelijk de volgende CAPTCHA op te lossen:",
+	"hcaptcha-badlogin": "Om de wiki te beschermen tegen automatisch kraken van wachtwoorden vragen wij u vriendelijk de volgende hCaptcha op te lossen:",
+	"hcaptcha-createaccount": "Om de wiki te beschermen tegen het automatisch aanmaken van accounts vragen wij u vriendelijk de volgende hCaptcha op te lossen:",
+	"hcaptcha-createaccount-fail": "Het lijkt erop dat u de hCaptcha niet hebt opgelost.",
+	"hcaptcha-create": "Om de wiki te beschermen tegen het automatisch aanmaken van pagina's vragen wij u vriendelijk de volgende hCaptcha op te lossen:",
+	"hcaptcha-help": "Los een hCaptcha-uitdaging op en retourneer de antwoordwaarde als captchaWord."
+}

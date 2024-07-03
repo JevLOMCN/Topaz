@@ -1,0 +1,25 @@
+{
+	"@metadata": {
+		"authors": [
+			"Dr Brains",
+			"Gomoko",
+			"Verdy p",
+			"Wladek92"
+		]
+	},
+	"skinname-monobook": "Monobook",
+	"monobook-desc": "L’habillage classique de MediaWiki depuis 2004, nommé d’après la photo en noir et blanc d’un livre dans l’arrière-plan de la page",
+	"monobook.css": "/* Tout CSS placé ici sera chargé avec les pages accédées par les utilisateurs de l’habillage MonoBook */",
+	"monobook.js": "/* Tout code JavaScript placé ici sera chargé avec les pages accédées par les utilisateurs de l’habillage MonoBook */",
+	"monobook-jumptotop": "retour au début",
+	"monobook-jumptopersonal": "outils utilisateur",
+	"monobook-jumptonavigation": "Aller à la navigation",
+	"monobook-jumptosearch": "Aller à la recherche",
+	"monobook-more-actions": "Plus",
+	"cactions-mobile": "Actions de la page",
+	"monobook-cactions-label": "Actions de la page",
+	"monobook-notifications-link": "Notifications ($1)",
+	"monobook-notifications-link-none": "Notifications",
+	"monobook-view-history": "Historique",
+	"monobook-action-undelete": "Restaurer {{PLURAL:$1|une modification|$1 modifications}}"
+}

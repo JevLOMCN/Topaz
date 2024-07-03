@@ -1,0 +1,53 @@
+@import 'variables.less';
+
+// Two-column layout
+
+#mw-content-block {
+	clear: both;
+}
+
+#p-logo-text {
+	min-width: @column-left-size;
+}
+
+#mw-site-navigation,
+#mw-related-navigation {
+	.column-left();
+	display: block;
+	width: @column-left-size;
+	position: relative;
+}
+
+#mw-site-navigation {
+	// keep margins from overlapping
+	overflow: hidden;
+}
+
+#mw-related-navigation > div.sidebar-chunk:first-child {
+	margin-top: 0;
+}
+
+#mw-content-wrapper {
+	float: right;
+	margin-left: -@column-left-size;
+	width: 100%;
+}
+
+#mw-content,
+#content-bottom-stuff {
+	margin-left: @column-left-size;
+}
+
+// Redundant content category list
+#catlinks {
+	display: none;
+}
+
+.color-right {
+	background: @blue-dark;
+}
+
+.ts-inner,
+.color-middle-container {
+	max-width: @content-width - @column-right-size;
+}

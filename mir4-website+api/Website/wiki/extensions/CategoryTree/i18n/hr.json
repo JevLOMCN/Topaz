@@ -1,0 +1,42 @@
+{
+	"@metadata": {
+		"authors": [
+			"Bugoslav",
+			"Dalibor Bosits",
+			"Ex13",
+			"MaGa",
+			"Ponor",
+			"SpeedyGonsales",
+			"Srdjan m",
+			"Srđan"
+		]
+	},
+	"categorytree": "Stablasti prikaz hijerarhije kategorija",
+	"categorytree-portlet": "Kategorije",
+	"categorytree-legend": "Prikaži stablo kategorija",
+	"categorytree-desc": "Dinamička navigacija kroz [[Special:CategoryTree|strukturu kategorija]]",
+	"categorytree-header": "Upišite ime kategorije da biste vidjeli njen sadržaj u stablastom prikazu hijerarhije. (Zahtijeva JavaScript.)",
+	"categorytree-category": "Kategorija:",
+	"categorytree-go": "Pokaži stablo",
+	"categorytree-parents": "Više kategorije",
+	"categorytree-mode-label": "Način:",
+	"categorytree-mode-categories": "pokaži samo kategorije",
+	"categorytree-mode-pages": "pokaži kategorije i stranice, bez slika",
+	"categorytree-mode-all": "sve stranice",
+	"categorytree-collapse": "sklopi",
+	"categorytree-expand": "raširi",
+	"categorytree-member-counts": "sadrži {{PLURAL:$1|1 potkategoriju|$1 potkategorije|$1 potkategorija}}, {{PLURAL:$2|1 stranicu|$2 stranice|$2 stranica}} i {{PLURAL:$3|1 datoteku|$3 datoteke|$3 datoteka}}",
+	"categorytree-num-categories": "$1 kat.",
+	"categorytree-num-pages": "$1 str.",
+	"categorytree-num-files": "$1 dat.",
+	"categorytree-num-empty": "prazna",
+	"categorytree-load": "učitaj",
+	"categorytree-loading": "učitavam...",
+	"categorytree-nothing-found": "nije pronađena nijedna stavka",
+	"categorytree-no-subcategories": "nema potkategorija",
+	"categorytree-no-parent-categories": "nema viših kategorija",
+	"categorytree-no-pages": "Nema članaka ili potkategorija.",
+	"categorytree-not-found": "Kategorija <i>$1</i> nije pronađena",
+	"categorytree-error": "Problem s učitavanjem podataka.",
+	"categorytree-retry": "Pričekajte trenutak pa pokušajte opet."
+}

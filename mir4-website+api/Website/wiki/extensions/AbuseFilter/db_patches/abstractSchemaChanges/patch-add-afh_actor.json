@@ -1,0 +1,199 @@
+{
+	"comment": "Add afh_actor field to abuse_filter_history",
+	"before": {
+		"name": "abuse_filter_history",
+		"columns": [
+			{
+				"name": "afh_id",
+				"type": "bigint",
+				"options": { "notnull": true, "autoincrement": true, "unsigned": true }
+			},
+			{
+				"name": "afh_filter",
+				"type": "bigint",
+				"options": { "notnull": true, "unsigned": true }
+			},
+			{
+				"name": "afh_user",
+				"type": "bigint",
+				"options": { "notnull": true, "unsigned": true }
+			},
+			{
+				"name": "afh_user_text",
+				"type": "binary",
+				"options": { "notnull": true, "length": 255 }
+			},
+			{
+				"name": "afh_timestamp",
+				"type": "mwtimestamp",
+				"options": { "notnull": true }
+			},
+			{
+				"name": "afh_pattern",
+				"type": "blob",
+				"options": { "notnull": true, "length": 65530 }
+			},
+			{
+				"name": "afh_comments",
+				"type": "blob",
+				"options": { "notnull": true, "length": 65530 }
+			},
+			{
+				"name": "afh_flags",
+				"type": "blob",
+				"options": { "notnull": true, "length": 255 }
+			},
+			{
+				"name": "afh_public_comments",
+				"type": "blob",
+				"options": { "notnull": false, "length": 255 }
+			},
+			{
+				"name": "afh_actions",
+				"type": "blob",
+				"options": { "notnull": false, "length": 65530 }
+			},
+			{
+				"name": "afh_deleted",
+				"type": "mwtinyint",
+				"options": { "notnull": true, "length": 1, "default": 0 }
+			},
+			{
+				"name": "afh_changed_fields",
+				"type": "string",
+				"options": { "notnull": true, "length": 255, "default": "" }
+			},
+			{
+				"name": "afh_group",
+				"type": "binary",
+				"options": { "notnull": false, "length": 64 }
+			}
+		],
+		"indexes": [
+			{
+				"name": "afh_filter",
+				"columns": [ "afh_filter" ],
+				"unique": false
+			},
+			{
+				"name": "afh_user",
+				"columns": [ "afh_user" ],
+				"unique": false
+			},
+			{
+				"name": "afh_user_text",
+				"columns": [ "afh_user_text" ],
+				"unique": false
+			},
+			{
+				"name": "afh_timestamp",
+				"columns": [ "afh_timestamp" ],
+				"unique": false
+			}
+		],
+		"pk": [ "afh_id" ]
+	},
+	"after": {
+		"name": "abuse_filter_history",
+		"columns": [
+			{
+				"name": "afh_id",
+				"type": "bigint",
+				"options": { "notnull": true, "autoincrement": true, "unsigned": true }
+			},
+			{
+				"name": "afh_filter",
+				"type": "bigint",
+				"options": { "notnull": true, "unsigned": true }
+			},
+			{
+				"name": "afh_user",
+				"type": "bigint",
+				"options": { "notnull": true, "unsigned": true, "default": 0 }
+			},
+			{
+				"name": "afh_user_text",
+				"type": "binary",
+				"options": { "notnull": true, "length": 255, "default": "" }
+			},
+			{
+				"name": "afh_actor",
+				"type": "bigint",
+				"options": { "notnull": true, "unsigned": true, "default": 0 }
+			},
+			{
+				"name": "afh_timestamp",
+				"type": "mwtimestamp",
+				"options": { "notnull": true }
+			},
+			{
+				"name": "afh_pattern",
+				"type": "blob",
+				"options": { "notnull": true, "length": 65530 }
+			},
+			{
+				"name": "afh_comments",
+				"type": "blob",
+				"options": { "notnull": true, "length": 65530 }
+			},
+			{
+				"name": "afh_flags",
+				"type": "blob",
+				"options": { "notnull": true, "length": 255 }
+			},
+			{
+				"name": "afh_public_comments",
+				"type": "blob",
+				"options": { "notnull": false, "length": 255 }
+			},
+			{
+				"name": "afh_actions",
+				"type": "blob",
+				"options": { "notnull": false, "length": 65530 }
+			},
+			{
+				"name": "afh_deleted",
+				"type": "mwtinyint",
+				"options": { "notnull": true, "length": 1, "default": 0 }
+			},
+			{
+				"name": "afh_changed_fields",
+				"type": "string",
+				"options": { "notnull": true, "length": 255, "default": "" }
+			},
+			{
+				"name": "afh_group",
+				"type": "binary",
+				"options": { "notnull": false, "length": 64 }
+			}
+		],
+		"indexes": [
+			{
+				"name": "afh_filter",
+				"columns": [ "afh_filter" ],
+				"unique": false
+			},
+			{
+				"name": "afh_user",
+				"columns": [ "afh_user" ],
+				"unique": false
+			},
+			{
+				"name": "afh_user_text",
+				"columns": [ "afh_user_text" ],
+				"unique": false
+			},
+			{
+				"name": "afh_actor",
+				"columns": [ "afh_actor" ],
+				"unique": false
+			},
+			{
+				"name": "afh_timestamp",
+				"columns": [ "afh_timestamp" ],
+				"unique": false
+			}
+		],
+		"pk": [ "afh_id" ]
+	}
+}

@@ -1,0 +1,24 @@
+{
+	"@metadata": {
+		"authors": [
+			"Ernác",
+			"Iltever",
+			"Къарачайлы"
+		]
+	},
+	"thanks-thank": "{{GENDER:$1|{{GENDER:$2|сау бол де}}}}",
+	"thanks-thanked": "{{GENDER:$1|{{GENDER:$2|бюсюреу этилди}}}}",
+	"thanks-button-thank": "{{GENDER:$1|{{GENDER:$2|Бюсюреу эт}}}}",
+	"thanks-button-thanked": "{{GENDER:$1|{{GENDER:$2|Бюсюреу этилди}}}}",
+	"thanks-error-undefined": "Бюсюреу этиу джетишимсиз болду (джангылыч код:$1). Тилейбиз, джангыдан сынагъыз.",
+	"thanks-error-invalidrevision": "Версияны номери тюз тюлдю.",
+	"thanks-error-ratelimited": "{{GENDER:$1|Сиз}}, терклик чекни оздугъуз. Бираз сакълаб, джангыдан кёрюгюз.",
+	"thanks-thank-tooltip": "Бу {{GENDER:$2|къошулуучугъа}} {{GENDER:$1|ыспас билдириу джибер}}",
+	"thanks-thanked-notice": "{{GENDER:$2|$1}} хайырланыучугъа бюсюреу {{GENDER:$3|этдигиз}}.",
+	"echo-pref-subscription-edit-thank": "Тюрлендириуюм ючюн меннге ыспас",
+	"echo-pref-tooltip-edit-thank": "Ким болса да, этген тюрлендириуюм ючюн сау бол десе, меннге билдир.",
+	"echo-category-title-edit-thank": "Сау болугъуз",
+	"log-name-thanks": "Сау бол айтыу журнал",
+	"log-description-thanks": "Тюбюрекде, башха къошулуучуладан ыспас алгъан къошулуучуланы тизмесиди.",
+	"logentry-thanks-thank": "$1, $3 {{GENDER:$4|къошулуучугъа}} {{GENDER:$2|сау бол айтды}}"
+}

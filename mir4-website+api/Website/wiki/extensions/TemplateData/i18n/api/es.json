@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Fitoschido",
+			"Jelou",
+			"Macofe"
+		]
+	},
+	"apihelp-templatedata-summary": "Recuperar datos almacenados por la extensión TemplateData.",
+	"apihelp-templatedata-example-1": "Devuelve TemplateData para [[Template:Stub]] y [[Template:Example]], con resultados si las plantillas no existen o existen pero no tienen TemplateData",
+	"apihelp-templatedata-param-lang": "Devolver valores localizados en este idioma. Por omisión, se devuelven todas las traducciones disponibles."
+}

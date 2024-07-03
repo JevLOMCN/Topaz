@@ -1,0 +1,17 @@
+{
+	"@metadata": {
+		"authors": []
+	},
+	"apihelp-query+pageimages-summary": "Returns information about images on the page, such as thumbnail and presence of photos.",
+	"apihelp-query+pageimages-example-1": "Get name and <kbd>100</kbd>-pixel thumbnail of an image on the <kbd>Albert Einstein</kbd> page.",
+	"apihelp-query+pageimages-param-prop": "Which information to return:",
+	"apihelp-query+pageimages-paramvalue-prop-thumbnail": "URL and dimensions of thumbnail image associated with page, if any.",
+	"apihelp-query+pageimages-paramvalue-prop-original": "URL and original dimensions of image associated with page, if any.",
+	"apihelp-query+pageimages-paramvalue-prop-name": "Image title.",
+	"apihelp-query+pageimages-param-thumbsize": "Maximum width in pixels of thumbnail images.",
+	"apihelp-query+pageimages-param-langcode": "Code for the language the image is going to be rendered in if multiple languages are supported",
+	"apihelp-query+pageimages-param-limit": "Properties of how many pages to return.",
+	"apihelp-query+pageimages-param-license": "Limit page images to a certain license type:",
+	"apihelp-query+pageimages-paramvalue-license-free": "Only free images.",
+	"apihelp-query+pageimages-paramvalue-license-any": "Best image, whether free or non-free."
+}

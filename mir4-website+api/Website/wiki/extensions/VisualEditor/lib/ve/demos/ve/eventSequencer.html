@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+	<!--
+	/*!
+	 * VisualEditor event sequencer page
+	 *
+	 * @copyright See AUTHORS.txt
+	 */
+	-->
+	<head>
+		<meta charset="utf-8">
+		<style>
+			#good, #bad {
+				min-height: 2em;
+				border: 1px solid red;
+			}
+		</style>
+		<script src="../../lib/jquery/jquery.js"></script>
+		<script src="../../lib/oojs/oojs.js"></script>
+		<script src="../../lib/oojs-ui/oojs-ui-core.js"></script>
+		<script src="../../lib/unicodejs/unicodejs.js"></script>
+		<script src="../../src/ve.js"></script>
+		<script src="../../src/ve.utils.js"></script>
+		<script src="../../src/ve.EventSequencer.js"></script>
+		<script src="../../src/ce/ve.ce.js"></script>
+	</head>
+	<body>
+		Good (ve.EventSequencer):
+		<div id="good" contenteditable="true"></div>
+		Bad (setTimeout):
+		<div id="bad" contenteditable="true"></div>
+		<script>
+			/* eslint-disable no-console */
+			( function () {
+				var onEvents = {},
+					afterEvents = {},
+					eventNames = [
+						'compositionstart', 'compositionend',
+						'keydown', 'keyup', 'keypress'
+					],
+					/* eslint-disable no-jquery/no-global-selector */
+					$bad = $( '#bad' ),
+					$good = $( '#good' );
+					/* eslint-enable no-jquery/no-global-selector */
+
+				function showEventCode( e ) {
+					return ( e && e.keyCode ) ? '(keyCode=' + e.keyCode + ')' : '';
+				}
+
+				function makeListener( message ) {
+					return function ( e ) {
+						console.log(
+							message + showEventCode( e ) + ' ' + JSON.stringify(
+								$good[ 0 ].innerHTML
+							)
+						);
+					};
+				}
+
+				function addSetTimeoutListeners( node, eventName ) {
+					node.addEventListener( eventName, function ( e ) {
+						console.log( eventName + showEventCode( e ) + ': ' +
+							JSON.stringify( node.innerHTML ) );
+						setTimeout( function () {
+							console.log( 'setTimeout from ' + eventName +
+								showEventCode( e ) + ': ' +
+								JSON.stringify( node.innerHTML ) );
+						} );
+					} );
+				}
+
+				eventNames.forEach( function ( eventName ) {
+					onEvents[ eventName ] = makeListener( 'on ' + eventName );
+					afterEvents[ eventName ] = makeListener(
+						'after ' + eventName );
+					addSetTimeoutListeners( $bad[ 0 ], eventName );
+				} );
+
+				new ve.EventSequencer( eventNames )
+					.on( onEvents )
+					.after( afterEvents )
+					.attach( $good );
+				$good.trigger( 'focus' );
+			}() );
+		</script>
+	</body>
+</html>

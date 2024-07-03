@@ -1,0 +1,37 @@
+{
+	"@metadata": {
+		"authors": [
+			"Borichèt",
+			"Bèrto 'd Sèra",
+			"Dragonòt"
+		]
+	},
+	"categorytree": "Erbo dle categorìe",
+	"categorytree-portlet": "Categorìe",
+	"categorytree-legend": "Mosta l'erbo dle categorìe",
+	"categorytree-desc": "Nàviga dinamicament la [[Special:CategoryTree|strutura dle categorìe]]",
+	"categorytree-header": "Ch'a buta ël nòm ëd na categorìa për ës-ciairene ij contnù com na strutura a erbo. (A-i é da manca ëd JavaScript).",
+	"categorytree-category": "Categorìa:",
+	"categorytree-go": "Deurbe l'erbo",
+	"categorytree-parents": "Cé",
+	"categorytree-mode-label": "Manera:",
+	"categorytree-mode-categories": "smon mach le categorìe",
+	"categorytree-mode-pages": "mach le pàgine gavà le figure",
+	"categorytree-mode-all": "tute le pàgine",
+	"categorytree-collapse": "sëré",
+	"categorytree-expand": "deurbe",
+	"categorytree-member-counts": "a conten {{PLURAL:$1|1 sotcategorìa|$1 sotcategorìe}}, {{PLURAL:$2|1 pàgina|$2 pàgine}}, e {{PLURAL:$3|1 file|$3 file}}",
+	"categorytree-num-categories": "$1 C",
+	"categorytree-num-pages": "$1 P",
+	"categorytree-num-files": "$1 F",
+	"categorytree-num-empty": "veuid",
+	"categorytree-load": "carié",
+	"categorytree-loading": "antramentr ch'as carìa",
+	"categorytree-nothing-found": "pa trovà gnente",
+	"categorytree-no-subcategories": "gnun-a sot-categorìa",
+	"categorytree-no-parent-categories": "gnun-e categorìe superior",
+	"categorytree-no-pages": "pa ëd pàgine ò ëd sot-categorìe",
+	"categorytree-not-found": "A l'é pa trovasse la categorìa <i>$1</i>.",
+	"categorytree-error": "Problema ën cariand ij dat",
+	"categorytree-retry": "Për piasì, ch'a speta na minuta e peuj ch'as preuva n'àutra vira."
+}

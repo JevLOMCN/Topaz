@@ -1,0 +1,20 @@
+{
+	"@metadata": {
+		"authors": [
+			"Dušan Kreheľ",
+			"Luky001",
+			"Teslaton",
+			"Yardom78"
+		]
+	},
+	"linterrors": "Chyby nájdené Lintom",
+	"linter-desc": "Zaznamenáva chyby nájdené externým Lintom a zobrazuje ich používateľom",
+	"linter-heading-high-priority": "Vysoká priorita",
+	"linter-heading-low-priority": "Nízka priorita",
+	"linter-heading-medium-priority": "Stredná priorita",
+	"linter-numerrors": "($1 {{PLURAL:$1|chyba|chyby|chýb}})",
+	"linter-pager-missing-end-tag-details": "Chýba ukončovacia značka",
+	"linterrors-subpage": "Chyby nájdené Lintom: $1",
+	"linterrors-summary": "<strong>Poznámka:</strong> Počty pri kategóriách nie sú exaktné, sú založené na odhadoch.",
+	"pageinfo-linter": "Chyby nájdené Lintom"
+}

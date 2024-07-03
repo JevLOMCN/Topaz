@@ -1,0 +1,19 @@
+{
+	"@metadata": {
+		"authors": [
+			"Giromin Cangiaxo"
+		]
+	},
+	"loginnotify-desc": "Aviza i utenti di accesci sospetti da 'n dispoxitivo e/ò un adresso IP sconosciuo",
+	"echo-category-title-login-fail": "Tentativi d'accesso fallii",
+	"echo-pref-tooltip-login-fail": "Avixime se gh'è stæto di tentativi d'accesso fallii co-a mæ utensa.",
+	"echo-category-title-login-success": "Acesso da 'n dispoxitivo sconosciuo",
+	"echo-pref-tooltip-login-success": "Avixime tutte e votte che quarcun o l'acede co-a mæ utensa da 'n apægio e 'n adresso IP sconosciuo.",
+	"loginnotify-primary-link": "Agiùtto",
+	"notification-loginnotify-login-fail-email-subject": "{{PLURAL:$2|Tentativo fallio|Ciù tentativi fallii}} d'intrâ in {{SITENAME}} comme $1",
+	"notification-loginnotify-login-success-email-subject": "Accesso a {{SITENAME}} comme $1 da 'n apægio che no {{GENDER:$1|t'hæ}} doeuviou de fresco",
+	"notification-header-login-success": "Quarchedun (foscia {{GENDER:$1|tie}}) no l'è goæi ch'o l'è introu co-a to utensa doeuviando in noeuvo dispoxitivo. Se ti t'ei tie, sto messaggio lascilo perde. Se invece tie no ti-o l'ei, alloa l'è megio che ti cangi a to password e ti controlli l'attivitæ da to utensa.",
+	"notification-new-bundled-header-login-fail": "Da l'urtima votta che t'ê introu gh'è stæto {{PLURAL:$1|'''un tentativo fallio'''|di '''$1 tentativi fallii'''}} d'intrâ co-a to utensa douviando in noeuvo apægio. Se no t'ê stæto ti, asseguite che-a to utensa a gh'agge 'na password da reo.",
+	"notification-known-header-login-fail": "Da l'urtima votta che t'ê introu gh'è stæto {{PLURAL:$1|'''un tentativo fallio'''|di '''$1 tentativi fallii'''}} d'intrâ co-a to utensa. Se no t'ê stæto ti, asseguite che-a to utensa a gh'agge 'na password da reo.",
+	"notification-new-unbundled-header-login-fail": "Da l'urtima votta che t'ê introu gh'è stæto {{PLURAL:$1|'''un tentativo fallio'''|'''ciu $1 tentativi fallii'''}} d'intrâ co-a to utensa douviando in noeuvo apægio. Pe piaxei, asseguite che-a to utensa a gh'agge 'na password bella forte."
+}

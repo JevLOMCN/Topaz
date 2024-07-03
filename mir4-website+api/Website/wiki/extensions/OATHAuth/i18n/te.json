@@ -1,0 +1,18 @@
+{
+	"@metadata": {
+		"authors": [
+			"Arjunaraoc",
+			"Chaduvari",
+			"Jedimaster26"
+		]
+	},
+	"oathauth-prefs-label": "రెండు-విధాల (Two-factor) ధృవీకరణ:",
+	"action-oathauth-api-all": "OATH స్థితి గమనించండి",
+	"oathauth-ui-no-module": "ఏవీ చేతనంగా లేవు",
+	"oathauth-ui-manage": "నిర్వహించు",
+	"notification-header-oathauth-enable": "{{GENDER:$2|మీ ఖాతాకు}} రెండంచల ఆథెంటికేషన్ను చేతనం చేసాం.",
+	"notification-body-oathauth-enable": "ఇది చేసినది {{GENDER:$2|మీరు}} కానట్లైతే, {{GENDER:$2|మీ ఖాతా}} పరుల చేతుల లోకి వెళ్ళి ఉండవచ్చు.",
+	"oathauth-notifications-enable-help": "సహాయం",
+	"oathauth-prefs-disabledgroups": "అచేతనంగా ఉన్న {{PLURAL:$1|గుంపు|గుంపులు}}:",
+	"oathauth-prefs-disabledgroups-help": "[[Special:Manage Two-factor authentication|రెండు-అంశాల ఆథెంటికేషన్ను]] చేతనం చేసుకునేంత వరకూ {{PLURAL:$1|ఈ గ్రూపులో|ఈ గ్రూపుల్లో}} {{GENDER:$2|మీ సభ్యత్వాన్ని}} అచేతనం చేసారు."
+}

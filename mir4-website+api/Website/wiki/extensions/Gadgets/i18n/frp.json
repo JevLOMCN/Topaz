@@ -1,0 +1,22 @@
+{
+	"@metadata": {
+		"authors": [
+			"ChrisPtDe"
+		]
+	},
+	"gadgets-desc": "Pèrmèt ux usanciérs de chouèsir des [[Special:Gadgets|outils CSS et JavaScript]] pèrsonalisâs dens lors [[Special:Preferences#mw-prefsection-gadgets|prèferences]].",
+	"prefs-gadgets": "Outils",
+	"gadgets-prefstext": "Vê-que una lista d’outils que vos pouede activar por voutron compto.\nFont apèl a JavaScript, que dêt vêr étre activâ sur voutron navigator por que fonccionont.\nNotâd que celos outils ont gins de rèsultat sur ceta pâge de prèferences.\n\nNotâd asse-ben que celos outils spèciâls sont pas du tot avouéc la programeria MediaWiki, et pués que sont en g·ènèral dèvelopâs et mantegnus per des usanciérs sur voutron vouiqui local.\nLos administrators locals pôvont changiér los outils disponiblos en utilisent les [[MediaWiki:Gadgets-definition|dèfinicions]] et les [[Special:Gadgets|dèscripcions]].",
+	"special-gadgets": "Outils",
+	"gadgets-title": "Outils",
+	"gadgets-pagetext": "Vê-que una lista d’outils que los usanciérs pôvont activar dens lor [[Special:Preferences#mw-prefsection-gadgets|pâge de prèferences]], coment dèfeni dens les [[MediaWiki:Gadgets-definition|dèfinicions]].\nCeti apèrçu balye un accès vito fêt a les pâges de mèssâjos sistèmo que dèfenéssont la dèscripcion et lo code de châque outil.",
+	"gadgets-uses": "Utilise",
+	"gadgets-required-rights": "At fôta de cet{{PLURAL:$2|i drêt|os drêts}} :\n\n$1",
+	"gadgets-required-skins": "Disponiblo sur {{PLURAL:$2|l’habelyâjo « $1 »|cetos habelyâjos : « $1 »}}.",
+	"gadgets-default": "Activâ por tot lo mondo per dèfôt.",
+	"gadgets-export": "Èxportacion",
+	"gadgets-export-title": "Èxportacion d’outil",
+	"gadgets-not-found": "Outil « $1 » pas trovâ.",
+	"gadgets-export-text": "Por èxportar l’outil $1, clicar sur lo boton « {{int:gadgets-export-download}} », encartar lo fichiér tèlèchargiê,\npués alar sur la pâge « Spèciâl:Importacion du vouiqui de dèstinacion » et pués l’importar. Apondre aprés ceti tèxto dens la pâge « MediaWiki:Gadgets-definition » :\n<pre>$2</pre>\nO est nècèssèro de d’avêr los drêts corrèspondents sur lo vouiqui de dèstinacion (celi de changiér los mèssâjos sistèmo avouéc) et pués l’importacion dês des fichiérs dêt étre activâ.",
+	"gadgets-export-download": "Tèlèchargiér"
+}

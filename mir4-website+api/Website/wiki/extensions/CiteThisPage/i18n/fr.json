@@ -1,0 +1,24 @@
+{
+	"@metadata": {
+		"authors": [
+			"DavidL",
+			"Fredlefred",
+			"Gomoko",
+			"Grondin",
+			"Hégésippe Cormier",
+			"PieRRoMaN",
+			"Thibaut120094",
+			"Urhixidur",
+			"Verdy p",
+			"Wladek92"
+		]
+	},
+	"citethispage": "Citation",
+	"citethispage-desc": "Ajoute une page spéciale [[Special:CiteThisPage|citation]] et un lien dans la boîte à outils",
+	"citethispage-link": "Citer cette page",
+	"tooltip-citethispage": "Informations sur la manière de citer cette page",
+	"citethispage-change-submit": "Sourcer",
+	"citethispage-change-target": "Page :",
+	"citethispage-badrevision": "Erreur : impossible de trouver une révision pour la page « $1 » avec l’ID de révision $2.",
+	"citethispage-content": "__NOTOC__\n<div class=\"mw-specialCiteThisPage-bibliographic\">\n\n== Détails bibliographiques pour {{FULLPAGENAME}} ==\n\n* Nom de la page : {{FULLPAGENAME}}\n* Auteur : contributeurs de {{SITENAME}}\n* Éditeur : ''{{SITENAME}}''.\n* Dernière modification le : {{CURRENTDAY}} {{CURRENTMONTHNAME}} {{CURRENTYEAR}} {{CURRENTTIME}} UTC\n* Récupéré le : <citation>{{CURRENTDAY}} {{CURRENTMONTHNAME}} {{CURRENTYEAR}}, {{CURRENTTIME}} UTC</citation>\n* URL permanente : {{canonicalurl:{{FULLPAGENAME}}|oldid={{REVISIONID}}}}\n* Identifiant de cette version de page : {{REVISIONID}}\n\n</div>\n<div class=\"plainlinks mw-specialCiteThisPage-styles\">\n\n== Styles de citations pour {{FULLPAGENAME}} ==\n\n=== [[APA style|Style APA]] ===\n{{FULLPAGENAME}}. ({{CURRENTDAY}} {{CURRENTMONTHNAME}} {{CURRENTYEAR}}). ''{{SITENAME}}''. Récupéré à <citation>{{CURRENTTIME}}, {{CURRENTDAY}} {{CURRENTMONTHNAME}} {{CURRENTYEAR}}</citation> depuis {{canonicalurl:{{FULLPAGENAME}}|oldid={{REVISIONID}}}}.\n\n=== [[The MLA style manual|Style MLA]] ===\n« {{FULLPAGENAME}} » ''{{SITENAME}}''. {{CURRENTDAY}} {{CURRENTMONTHABBREV}} {{CURRENTYEAR}}, {{CURRENTTIME}} UTC. <citation>{{CURRENTDAY}} {{CURRENTMONTHABBREV}} {{CURRENTYEAR}}, {{CURRENTTIME}}</citation> &lt;{{canonicalurl:{{FULLPAGENAME}}|oldid={{REVISIONID}}}}&gt;.\n\n=== [[MHRA Style Guide|Style MHRA]] ===\nContributeurs de {{SITENAME}}, « {{FULLPAGENAME}} », ''{{SITENAME}},'' {{CURRENTDAY}} {{CURRENTMONTHNAME}} {{CURRENTYEAR}}, {{CURRENTTIME}} UTC, &lt;{{canonicalurl:{{FULLPAGENAME}}|oldid={{REVISIONID}}}}&gt; [accédé le <citation>{{CURRENTDAY}} {{CURRENTMONTHNAME}} {{CURRENTYEAR}}</citation>]\n\n=== [[The Chicago Manual of Style|Style Chicago]] ===\nContributeurs de {{SITENAME}}, « {{FULLPAGENAME}} », ''{{SITENAME}},'' {{canonicalurl:{{FULLPAGENAME}}|oldid={{REVISIONID}}}} (accédé le <citation>{{CURRENTDAY}} {{CURRENTMONTHNAME}} {{CURRENTYEAR}}</citation>).\n\n=== [[Council of Science Editors|Style CBE/CSE]] ===\nContributeurs de {{SITENAME}}. {{FULLPAGENAME}} [Internet]. {{SITENAME}} ; {{CURRENTDAY}} {{CURRENTMONTHABBREV}} {{CURRENTYEAR}}, {{CURRENTTIME}} TUC [cité le <citation>{{CURRENTYEAR}} {{CURRENTMONTHABBREV}} {{CURRENTDAY}}</citation>]. Disponible sur : {{canonicalurl:{{FULLPAGENAME}}|oldid={{REVISIONID}}}}.\n\n=== [[Bluebook|Style Bluebook]] ===\n{{FULLPAGENAME}}, {{canonicalurl:{{FULLPAGENAME}}|oldid={{REVISIONID}}}} (accédé le <citation>{{CURRENTDAY}} {{CURRENTMONTHNAME}} {{CURRENTYEAR}}</citation>).\n\n=== Entrée [[BibTeX]] ===\n\n  @misc{ wiki:xxx,\n    author = \"{{SITENAME}}\",\n    title = \"{{FULLPAGENAME}} --- {{SITENAME}}{,} {{int:sitesubtitle}}\",\n    year = \"{{CURRENTYEAR}}\",\n    url = \"{{canonicalurl:{{FULLPAGENAME}}|oldid={{REVISIONID}}}}\",\n    note = \"[En ligne ; accédé le <citation>{{CURRENTDAY}}-{{CURRENTMONTHNAME}}-{{CURRENTYEAR}}</citation>]\"\n  }\n\nSi vous utilisez le paquet [[LaTeX]] « url » (<code>\\usepackage{url}</code> quelque part dans le préambule) qui peut générer des adresses web sensiblement mieux formatées, le code suivant peut être préféré :\n\n  @misc{ wiki:xxx,\n    author = \"{{SITENAME}}\",\n    title = \"{{FULLPAGENAME}} --- {{SITENAME}}{,} {{int:sitesubtitle}}\",\n    year = \"{{CURRENTYEAR}}\",\n    url = \"'''\\url{'''{{canonicalurl:{{FULLPAGENAME}}|oldid={{REVISIONID}}}}'''}'''\",\n    note = \"[En ligne ; accédé le <citation>{{CURRENTDAY}}-{{CURRENTMONTHNAME}}-{{CURRENTYEAR}}</citation>]\"\n  }\n\n</div><!--closing div for \"plainlinks\"-->"
+}

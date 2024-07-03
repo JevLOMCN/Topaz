@@ -1,0 +1,20 @@
+{
+	"@metadata": {
+		"authors": [
+			"GuoPC",
+			"Liuxinyu970226",
+			"Yfdyh000",
+			"佛壁灯"
+		]
+	},
+	"apihelp-query+oath-summary": "检查双因素验证（OATH）是否为某一用户启用。",
+	"apihelp-query+oath-param-user": "获取相关信息的用户。默认为当前用户。",
+	"apihelp-query+oath-param-reason": "查询OATH状态的理由。",
+	"apihelp-query+oath-example-1": "获取有关当前用户的信息",
+	"apihelp-query+oath-example-2": "获取有关用户<kbd>Example</kbd>的信息",
+	"apihelp-oathvalidate-summary": "验证一个双因素验证（OATH）令牌。",
+	"apihelp-oathvalidate-param-user": "要验证令牌的用户。默认为当前用户。",
+	"apihelp-oathvalidate-example-1": "验证当前用户的JSON数据",
+	"apihelp-oathvalidate-example-3": "为用户 <kbd>Example</kbd> 验证 JSON 数据",
+	"apihelp-oathvalidate-param-data": "模块所期待的 JSON 编码后数据正为验证中的用户启用"
+}

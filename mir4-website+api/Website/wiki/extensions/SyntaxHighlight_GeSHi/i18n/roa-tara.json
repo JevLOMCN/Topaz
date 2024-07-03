@@ -1,0 +1,24 @@
+{
+	"@metadata": {
+		"authors": [
+			"Joetaras",
+			"McDutchie"
+		]
+	},
+	"syntaxhighlight-desc": "Dèje 'na sindasse evidenziate <code>&lt;syntaxhighlight&gt;</code> ausanne [http://pygments.org/ Pygments - l'Evidenziatore de sindasse de Python]",
+	"syntaxhighlight-error-category": "Pàggene cu le errore jndr'à l'evidenziazione d'a sindasse",
+	"syntaxhighlight-error-category-desc": "Ha assute 'n'errore duranne 'u tendative de evidenzià 'u codece 'ngluse jndr'à pàgene.",
+	"syntaxhighlight-enclose-category": "Pàgene ca ausane le attrebbute \"enclose\" deprecate",
+	"syntaxhighlight-enclose-category-desc": "L'evidenziazione d'a sindasse sus 'a pàgene ause 'na sindasse enclose deprecate.",
+	"syntaxhighlight-source-category": "Pàggene ca ausane tag source deprecate",
+	"syntaxhighlight-source-category-desc": "L'evidenziazione d'a sindasse sus 'a pàgene ause tag source deprecate.",
+	"syntaxhighlight-visualeditor-mwsyntaxhighlightinspector-code": "Codece",
+	"syntaxhighlight-visualeditor-mwsyntaxhighlightinspector-language": "Lènghe",
+	"syntaxhighlight-visualeditor-mwsyntaxhighlightinspector-none": "(Nisciune)",
+	"syntaxhighlight-visualeditor-mwsyntaxhighlightinspector-showlines": "Fà 'ndrucà le numere de linèe",
+	"syntaxhighlight-visualeditor-mwsyntaxhighlightinspector-startingline": "Numere de linèe de partenze",
+	"syntaxhighlight-visualeditor-mwsyntaxhighlightinspector-title": "Blocche de codece",
+	"syntaxhighlight-error-pygments-invocation-failure": "Errore jndr'à l'invocazione de Pygments",
+	"syntaxhighlight-error-unknown-language": "Lènghe scanusciute \"$1\"",
+	"syntaxhighlight-error-exceeds-size-limit": "'A dimenzione d'u codece jè $1 {{PLURAL:$1|byte}} e supranesce 'u massime conzendite ca jè de $2 {{PLURAL:$2|byte}}"
+}

@@ -1,0 +1,17 @@
+{
+	"@metadata": {
+		"authors": [
+			"Malafaya"
+		]
+	},
+	"thanks-thank": "{{GENDER:$1|{{GENDER:$2|danön}}}}",
+	"thanks-thanked": "{{GENDER:$1|pedanon}}",
+	"thanks-button-thank": "{{GENDER:$1|Danön}}",
+	"thanks-button-thanked": "{{GENDER:$1|Pedanon}}",
+	"thanks-thank-tooltip": "{{GENDER:$1|Sedön}} nunädi dana {{GENDER:$2|gebane}} at",
+	"echo-pref-subscription-edit-thank": "Danon obi pro redakam oba",
+	"echo-category-title-edit-thank": "Dans",
+	"log-name-thanks": "Jenotalised danas",
+	"log-description-thanks": "Dono binon lised gebanas fa gebans votik pedanöls.",
+	"logentry-thanks-thank": "$1 {{GENDER:$2|edanon}} {{GENDER:$4|$3}}"
+}

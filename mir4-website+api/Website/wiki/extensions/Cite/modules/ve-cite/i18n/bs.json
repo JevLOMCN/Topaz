@@ -1,0 +1,39 @@
+{
+	"@metadata": {
+		"authors": [
+			"DzWiki",
+			"KWiki",
+			"Semso98",
+			"Srdjan m",
+			"Srđan"
+		]
+	},
+	"visualeditor-cite-tool-name-book": "Knjiga",
+	"visualeditor-cite-tool-name-journal": "Časopis",
+	"visualeditor-cite-tool-name-news": "Vijesti",
+	"visualeditor-cite-tool-name-web": "Veb-sajt",
+	"cite-ve-dialog-reference-editing-reused": "Ova referenca koristi se {{PLURAL:$1|1=jednom|2=dvaput|$1 put|$1 puta}} na stranici.",
+	"cite-ve-dialog-reference-options-group-label": "Koristi ovu grupu",
+	"cite-ve-dialog-reference-options-group-placeholder": "Opće reference",
+	"cite-ve-dialog-reference-options-name-label": "Ponovo koristi pod ovim imenom",
+	"cite-ve-dialog-reference-options-responsive-label": "Koristi prilagodljivi raspored kolona",
+	"cite-ve-dialog-reference-options-section": "Opcije",
+	"cite-ve-dialog-reference-placeholder": "Ovdje napišite ili prekopirajte referencu, ili umetnite šablon za reference.",
+	"cite-ve-dialog-reference-title": "Referenca",
+	"cite-ve-dialog-reference-useexisting-tool": "Ponovno korištenje",
+	"cite-ve-dialog-referenceslist-contextitem-description-general": "Spisak općih referenci",
+	"cite-ve-dialog-referenceslist-contextitem-description-named": "Spisak referenci grupe \"$1\"",
+	"cite-ve-dialog-referenceslist-title": "Spisak referenci",
+	"cite-ve-dialogbutton-citation-educationpopup-text": "Poboljšava sadržaj članka dodavanjem izvora za informacije. Možete referencirati knjige, novine i veb-sajtove.",
+	"cite-ve-dialogbutton-citation-educationpopup-title": "Reference",
+	"cite-ve-dialogbutton-reference-full-label": "Osnovni oblik",
+	"cite-ve-dialogbutton-reference-title": "Referenca",
+	"cite-ve-dialogbutton-reference-tooltip": "Osnovna",
+	"cite-ve-dialogbutton-referenceslist-tooltip": "Spisak referenci",
+	"cite-ve-reference-input-placeholder": "Traži postojeće reference",
+	"cite-ve-referenceslist-isempty": "Nema referenci u grupi \"$1\" na ovoj stranici.",
+	"cite-ve-referenceslist-isempty-default": "Nema referenci na ovoj stranici koje bi mogle biti uključene u ovaj spisak.",
+	"cite-ve-referenceslist-missingref": "Ova referenca definirana je u šablonu ili drugom generiranom dijelu i zasad se može uređivati jedino u uređivaču izvornog koda.",
+	"cite-ve-toolbar-group-label": "Referenca",
+	"cite-ve-othergroup-item": "$1 referenca"
+}

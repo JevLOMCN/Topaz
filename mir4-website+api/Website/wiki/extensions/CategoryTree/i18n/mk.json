@@ -1,0 +1,37 @@
+{
+	"@metadata": {
+		"authors": [
+			"Bjankuloski06",
+			"Brest",
+			"Brest2008"
+		]
+	},
+	"categorytree": "Дрво на категории",
+	"categorytree-portlet": "Категории",
+	"categorytree-legend": "Прикажи дрво на категории",
+	"categorytree-desc": "Динамички прегледник низ [[Special:CategoryTree|структурата на категориите]]",
+	"categorytree-header": "Внесете назив на категорија за да ја видите нејзината содржина во облик на дрво (бара JavaScript).",
+	"categorytree-category": "Категорија:",
+	"categorytree-go": "Прикажи дрво",
+	"categorytree-parents": "Родители",
+	"categorytree-mode-label": "Режим:",
+	"categorytree-mode-categories": "само категории",
+	"categorytree-mode-pages": "страници без податотеки",
+	"categorytree-mode-all": "сите страници",
+	"categorytree-collapse": "собери",
+	"categorytree-expand": "отвори",
+	"categorytree-member-counts": "содржи {{PLURAL:$1|една поткатегорија|$1 поткатегории}}, {{PLURAL:$2|една страница|$2 страници}} и {{PLURAL:$3|една податотека|$3 податотеки}}",
+	"categorytree-num-categories": "$1 К",
+	"categorytree-num-pages": "$1 С",
+	"categorytree-num-files": "$1 П",
+	"categorytree-num-empty": "празна",
+	"categorytree-load": "вчитај",
+	"categorytree-loading": "вчитувам...",
+	"categorytree-nothing-found": "не е најдено ништо",
+	"categorytree-no-subcategories": "нема поткатегории",
+	"categorytree-no-parent-categories": "нема родителски категории",
+	"categorytree-no-pages": "нема страници или поткатегории",
+	"categorytree-not-found": "Не е пронајдена категорија <i>$1</i>",
+	"categorytree-error": "Проблеми со вчитување на податоците.",
+	"categorytree-retry": "Почекајте малку, па обидете се пак."
+}

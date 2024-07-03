@@ -1,0 +1,30 @@
+{
+	"@metadata": {
+		"authors": [
+			"Dani",
+			"Glanthor Reviol",
+			"Tacsipacsi"
+		]
+	},
+	"config-localsettings-upgrade": "Már létezik a <code>LocalSettings.php</code> fájl.\nA telepített szoftver frissítéséhez írja be az alábbi mezőbe a <code>$wgUpgradeKey</code> beállítás értékét, melyet a <code>LocalSettings.php</code> nevű fájlban találhat meg.",
+	"config-session-expired": "Úgy tűnik, hogy a munkamenetadatok lejártak.\nA munkamenetek élettartama a következőre van beállítva: $1.\nAz érték növelhető a php.ini <code>session.gc_maxlifetime</code> beállításának módosításával.\nIndítsa újra a telepítési folyamatot.",
+	"config-no-session": "Elvesztek a munkamenetadatok!\nEllenőrizze, hogy a php.ini-ben a <code>session.save_path</code> beállítás a megfelelő könyvtárra mutat-e.",
+	"config-your-language-help": "Válassza ki a telepítési folyamat során használandó nyelvet.",
+	"config-wiki-language-help": "Az a nyelv, amin a wiki tartalmának legnagyobb része íródik.",
+	"config-page-welcome": "Üdvözli a MediaWiki!",
+	"config-help-restart": "Szeretné törölni az eddig megadott összes adatot és újraindítani a telepítési folyamatot?",
+	"config-welcome": "A MediaWiki egy szabad és nyílt forráskódú, PHP-ban írt wikiszoftvercsomag. A Wikipédia és egyéb Wikimédia-projektek platformjaként szolgál, havonta több százmillió embert kiszolgálva. A MediaWiki több mint 350 nyelvre van lokalizálva, és megbízhatóságának, robusztus funkciógyűjteményének köszönhetően nagy és élő közössége van a Wikimédiától független felhasználókból és fejlesztőkből is.\n\n=== A környezet ellenőrzése ===\nNéhány alapvető ellenőrzés hajtódik végre, hogy kiderüljön, hogy ez a környezet alkalmas-e a MediaWiki telepítésére.\nHa segítséget kér a telepítéssel kapcsolatban, adja meg ezen ellenőrzések eredményét.",
+	"config-imagemagick": "Az ImageMagick megtalálható a rendszeren: <code>$1</code>.\nA bélyegképek készítése engedélyezve lesz, ha engedélyezi a feltöltéseket.",
+	"config-db-name-help": "Válassza ki a wikije azonosítására használt nevet.\nNem tartalmazhat szóközt.\n\nHa megosztott webtárhelyet használ, a szolgáltatója vagy egy konkrét adatbázisnevet ad önnek használatra, vagy létrehozhat egyet a vezérlőpulton keresztül.",
+	"config-db-install-help": "Adja meg a felhasználónevet és jelszót, amivel a telepítő csatlakozhat az adatbázishoz.",
+	"config-db-wiki-help": "Adja meg azt a felhasználónevet és jelszót, amivel a wiki fog csatlakozni az adatbázishoz működés közben.\nHa a fiók nem létezik és a telepítést végző fiók rendelkezik megfelelő jogosultsággal, egy új fiók készül a megadott a névvel, azon minimális jogosultságkörrel, ami a wiki működéséhez szükséges.",
+	"config-db-schema-help": "A fenti sémák általában megfelelőek.\nCsak akkor módosítson rajta, ha szükség van rá.",
+	"config-sqlite-parent-unwritable-nogroup": "Nem lehet létrehozni az adatok tárolásához szükséges <code><nowiki>$1</nowiki></code> könyvtárat, mert a webszerver nem írhat a szülőkönyvtárba (<code><nowiki>$2</nowiki></code>).\n\nA telepítő nem tudta megállapíteni, hogy melyik felhasználói fiókon fut a webszerver.\nA folytatáshoz tegye írhatóvá ezen fiók (és más fiókok!) számára a következő könyvtárat: <code><nowiki>$3</nowiki></code>.\nUnix/Linux rendszereken tedd a következőt:\n\n<pre>cd $2\nmkdir $3\nchmod a+w $3</pre>",
+	"config-ns-other": "Más (adja meg)",
+	"config-admin-name-blank": "Adja meg az adminisztrátor felhasználónevét!",
+	"config-admin-name-invalid": "A megadott felhasználónév (<nowiki>$1</nowiki>) érvénytelen.\nAdjon meg egy másik felhasználónevet.",
+	"config-admin-password-blank": "Adja meg az adminisztrátori fiók jelszavát!",
+	"config-instantcommons-help": "Az [https://www.mediawiki.org/wiki/Special:MyLanguage/InstantCommons Instant Commons] lehetővé teszi, hogy a wikin használhassák a [https://commons.wikimedia.org/ Wikimédia Commons] oldalon található képeket, hangokat és más médiafájlokat.\nA használatához a MediaWikinek internet-hozzáférésre van szüksége.\n\nA funkcióról és hogy hogyan állítható be más wikik esetén [https://www.mediawiki.org/wiki/Special:MyLanguage/Manual:$wgForeignFileRepos a kézikönyvben] találhat további információkat.",
+	"config-install-done": "<strong>Gratulálunk!</strong>\nTelepítette a MediaWikit.\n\nA telepítő elkészítette a <code>LocalSettings.php</code> fájlt, amely tartalmazza az összes beállítást.\n\nEzt le kell tölteni, majd elhelyezni a wiki telepítési könyvtárába (az a könyvtár, ahol az index.php is található).\n\nA letöltésnek automatikusan el kellett indulnia. Ha ez mégsem történt volna meg, vagy megszakította, az alábbi linkre kattintva újraindíthatja a letöltést:\n\n$3\n\n<strong>Megjegyzés:</strong> Ha ezt most nem teszi meg, és kilép a telepítésből, az elkészített konfigurációs fájlt nem tudja elérni a későbbiekben.\n\nHa végzett a fájl elhelyezésével, <strong>[$2 beléphet a wikibe]</strong>.",
+	"mainpagedocfooter": "Ha segítségre van szüksége a wikiszoftver használatához, akkor keresse fel a [https://meta.wikimedia.org/wiki/Help:Contents User's Guide] oldalt.\n\n== Alapok (angol nyelven) ==\n* [https://www.mediawiki.org/wiki/Special:MyLanguage/Manual:Configuration_settings Beállítások listája]\n* [https://www.mediawiki.org/wiki/Special:MyLanguage/Manual:FAQ MediaWiki GyIK]\n* [https://lists.wikimedia.org/postorius/lists/mediawiki-announce.lists.wikimedia.org/ MediaWiki-kiadások levelezőlistája]\n* [https://www.mediawiki.org/wiki/Special:MyLanguage/Localisation#Translation_resources A MediaWiki fordítása a saját nyelvére]"
+}

@@ -1,0 +1,19 @@
+{
+	"@metadata": {
+		"authors": [
+			"Geitost",
+			"Kghbln",
+			"Metalhead64",
+			"Pill",
+			"Umherirrender"
+		]
+	},
+	"questycaptcha-desc": "Ergänzt die Erweiterung „ConfirmEdit“ um ein Questy-CAPTCHA-Modul",
+	"questycaptcha-addurl": "Deine Bearbeitung enthält neue externe Links.\nZum Schutz des Wikis vor automatisiertem Spam bitten wir dich, die untenstehende Frage zu beantworten, um die Seite speichern zu können ([[Special:Captcha/help|weitere Informationen]]):",
+	"questycaptcha-badlogin": "Zum Schutz des Wikis vor einer Kompromittierung deines Benutzerkontos bitten wir dich, die untenstehende Frage zu beantworten, um dich anmelden zu können ([[Special:Captcha/help|weitere Informationen]]):",
+	"questycaptcha-createaccount": "Zum Schutz des Wikis vor einer automatisierten Anlage von Benutzerkonten bitten wir dich, die folgende Frage zu beantworten ([[Special:Captcha/help|weitere Informationen]]):",
+	"questycaptcha-create": "Bitte beantworte die folgende Frage, um diese Seite erstellen zu können ([[Special:Captcha/help|weitere Informationen]]):",
+	"questycaptcha-edit": "Bitte beantworte die folgende Frage, um diese Seite speichern zu können ([[Special:Captcha/help|weitere Informationen]]):",
+	"questycaptcha-sendemail": "Zum Schutz des Wikis vor automatisiertem Spam bitten wir dich, die untenstehende Frage zu beantworten ([[Special:Captcha/help|weitere Informationen]]):",
+	"questycaptchahelp-text": "Internetangebote, die – wie dieses Wiki – für Beiträge von praktisch jedem offen sind, werden häufig von Spammern missbraucht, welche versuchen, mithilfe entsprechender Werkzeuge ihre Links automatisch auf vielen Webseiten zu platzieren.\nZwar können derartige Spam-Links wieder entfernt werden, doch stellen sie trotzdem ein erhebliches Ärgernis dar.\n\nIn manchen Fällen, meist beim Versuch, neue Weblinks zu einer Seite hinzuzufügen, kann es vorkommen, dass du um die Beantwortung einer Frage gebeten wirst.\nDa es kaum möglich ist, dies zu automatisieren, können hierdurch die meisten Spammer aufgehalten werden. Menschlichen Benutzer sollten ihre Bearbeitungen hingegen durchführen können.\n\nSollte dich dieses Verfahren beim Vornehmen erwünschter Bearbeitungen behindern, wende dich bitte an einen [[Special:ListAdmins|Administrator]], um Unterstützung zu erhalten.\n\nDie Schaltfläche „Zurück“ des Browsers führt zurück zum vorherigen Bearbeitungsfenster."
+}

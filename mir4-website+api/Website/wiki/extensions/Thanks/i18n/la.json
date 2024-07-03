@@ -1,0 +1,25 @@
+{
+	"@metadata": {
+		"authors": [
+			"Autokrator",
+			"Laurentianus",
+			"MarcoAurelio",
+			"UV"
+		]
+	},
+	"thanks-thank": "{{GENDER:$1|{{GENDER:$2|gratias agere}}}}",
+	"thanks-thanked": "{{GENDER:$1|gratiae actae sunt}}",
+	"thanks-button-thank": "{{GENDER:$1|Gratias agere}}",
+	"thanks-button-thanked": "{{GENDER:$1|Gratiae actae sunt}}",
+	"thanks-error-undefined": "Gratias agere non contigit.",
+	"thanks-error-invalidrevision": "ID numerus huius redactionis non valet.",
+	"thanks-error-ratelimited": "Excessisti concessum numerum aestimationum.",
+	"thanks-thank-tooltip": "{{GENDER:$1|Mitte}} nuntium gratiarum habendarum ad istum {{GENDER:$2|usorem}}",
+	"thanks-thanked-notice": "$1 nuntiatum est recensionem {{GENDER:$2|eius}} tibi placuisse.",
+	"echo-pref-subscription-edit-thank": "Gratias egit recensionis meae causa",
+	"echo-pref-tooltip-edit-thank": "Me certiorem facere si quis mihi gratias egerit",
+	"echo-category-title-edit-thank": "Gratias agere",
+	"log-name-thanks": "Index gratiarum",
+	"log-description-thanks": "Infra est index usorum quibus gratiae ab aliis usoribus actae sunt.",
+	"logentry-thanks-thank": "$1 {{GENDER:$2|gratias egit}} {{GENDER:$4|$3}}"
+}

@@ -1,0 +1,19 @@
+{
+	"@metadata": {
+		"authors": [
+			"McDutchie"
+		]
+	},
+	"apihelp-query+pageimages-summary": "Restitue information sur imagines sur le pagina, como miniatura e presentia de photos.",
+	"apihelp-query+pageimages-example-1": "Obtener nomine e miniatura de <kbd>100</kbd> pixels de un imagine sur le pagina <kbd>Albert Einstein</kbd>.",
+	"apihelp-query+pageimages-param-prop": "Qual information restituer:",
+	"apihelp-query+pageimages-paramvalue-prop-thumbnail": "URL e dimensiones del miniatura associate al pagina, si existe.",
+	"apihelp-query+pageimages-paramvalue-prop-original": "URL e dimensiones original del imagine associate al pagina, si existe.",
+	"apihelp-query+pageimages-paramvalue-prop-name": "Titulo del imagine.",
+	"apihelp-query+pageimages-param-thumbsize": "Latitude maxime de miniaturas in pixels.",
+	"apihelp-query+pageimages-param-langcode": "Codice del lingua in le qual le imagine va esser rendite si plure linguas es supportate.",
+	"apihelp-query+pageimages-param-limit": "Proprietates de quante paginas restituer.",
+	"apihelp-query+pageimages-param-license": "Limitar imagines de paginas a un certe typo de licentia:",
+	"apihelp-query+pageimages-paramvalue-license-free": "Solmente imagines libere.",
+	"apihelp-query+pageimages-paramvalue-license-any": "Le melior imagine, sia libere o non."
+}

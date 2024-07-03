@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"Joetaras"
+		]
+	},
+	"apihelp-flowthank-summary": "Manne 'na notifeche de rengraziamende pubbleche pe 'nu commende Flow.",
+	"apihelp-flowthank-param-postid": "L'UUID d'u messàgge da rengrazià.",
+	"apihelp-flowthank-example-1": "Ringrazie pu commende cu <kbd>UUID xyz789</kbd>",
+	"apihelp-thank-summary": "Manne 'na notifeche de rengraziamenede a 'nu condrebbutore.",
+	"apihelp-thank-param-rev": "ID d'a revisione pe rengrazià quacchedune. Quiste o 'log' adda essere date.",
+	"apihelp-thank-param-log": "ID de l'archivije pe rengrazià quacchedune. Quiste o 'rev' adda essere date.",
+	"apihelp-thank-param-source": "'Na stringa corte ca descrive l'origgene d'a richieste. Pe esembie, <kbd>diff</kbd> o <kbd>history</kbd>.",
+	"apihelp-thank-example-1": "Manne 'nu rengraziamende pa revisione <kbd>ID 456</kbd>, cu 'a sorgende de 'na pàgene de combronde"
+}

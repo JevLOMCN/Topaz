@@ -1,0 +1,21 @@
+{
+	"@metadata": {
+		"authors": [
+			"Kizule",
+			"Obsuser",
+			"Zoranzoki21"
+		]
+	},
+	"loginnotify-desc": "Obavestite korisnike o sumnjivim prijavama s nepoznatih uređaja i/ili IP adresa",
+	"echo-category-title-login-fail": "Neuspeli pokušaji prijave",
+	"echo-pref-tooltip-login-fail": "Obaveštava vas kada je bilo neuspešnih pokušaja prijave na vaš nalog.",
+	"echo-category-title-login-success": "Prijava sa nepoznatog uređaja",
+	"echo-pref-tooltip-login-success": "Obaveštava vas kada se neko prijavi na vaš nalog s neuobičajenog uređaja i IP adrese.",
+	"loginnotify-primary-link": "Pomoć",
+	"notification-loginnotify-login-fail-email-subject": "{{PLURAL:$2|Neuspešni pokušaj|Više neuspešnih pokušaja}} prijave na projektu {{SITENAME}} kao $1",
+	"notification-loginnotify-login-success-email-subject": "Prijava na projekat {{SITENAME}} kao $1 sa uređaja koji niste nedavno koristili",
+	"notification-header-login-success": "Neko (verovatno {{GENDER:$1|vi}}) se nedavno prijavio na vaš nalog sa novog uređaja. Ako ste to bili vi, onda možete da zanemarite ovu poruku. Ako to niste bili vi, onda vam preporučujemo da promenite lozinku i proverite aktivnost naloga.",
+	"notification-new-bundled-header-login-fail": "{{PLURAL:$1|Bio je '''neuspešan pokušaj'''|Bila su '''$1 neuspešna pokušaja'''|Bilo je '''$1 neuspešnih pokušaja'''}} prijave na Vaš nalog sa novog uređaja od kako ste se poslednji put prijavili. Ako ovo niste bili Vi, pobrinite se da Vaš nalog ima jaku lozinku.",
+	"notification-known-header-login-fail": "{{PLURAL:$1|Bio je '''neuspešan pokušaj'''|Bila su '''$1 neuspešna pokušaja'''|Bilo je '''$1 neuspešnih pokušaja'''}} prijave na Vaš nalog od kako ste se poslednji put prijavili. Ako ovo niste bili Vi, pobrinite se da Vaš nalog ima jaku lozinku.",
+	"notification-new-unbundled-header-login-fail": "{{PLURAL:$1|Bio je '''neuspešan pokušaj'''|Bilo je '''neuspešnih pokušaja'''}} prijave na Vaš nalog sa novog uređaja. Pobrinite se da Vaš nalog ima jaku lozinku."
+}

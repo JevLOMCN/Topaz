@@ -1,0 +1,16 @@
+@counter-style mni-counter {
+	system: numeric;
+	symbols: '꯰' '꯱' '꯲' '꯳' '꯴' '꯵' '꯶' '꯷' '꯸' '꯹';
+}
+
+.mw-ref > a::after {
+	content: '[' counter( mw-Ref, mni-counter ) ']';
+}
+
+.mw-ref > a[ data-mw-group ]::after {
+	content: '[' attr( data-mw-group ) ' ' counter( mw-Ref, mni-counter ) ']';
+}
+
+span[ rel='mw:referencedBy' ] > a::before {
+	content: counter( mw-references, mni-counter ) '.' counter( mw-ref-linkback, mni-counter );
+}

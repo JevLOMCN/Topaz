@@ -1,0 +1,23 @@
+{
+	"@metadata": {
+		"authors": [
+			"Jon Harald Søby"
+		]
+	},
+	"spam-blacklist": "#<!-- La denne linja være nøyaktig som den er --> <pre>\n# Eksterne URL-er som finnes på denne lista vil ikke kunne legges til på en side.\n# Denne listen gjelder kun denne wikien; se også den globale svartelistinga.\n# For dokumentasjon, se https://www.mediawiki.org/wiki/Extension:SpamBlacklist\n#\n# Syntaksen er som følgende:\n#  * Alle linjer som begynner med «#» er kommentarer\n#  * Alle ikke-blanke linjer er et regex-fragment som kun vil passe med domenenavn i URL-er\n\n#</pre> <!-- la denne linja være nøyaktig som den er -->",
+	"spam-whitelist": " #<!-- la denne linja være nøyaktig som den er --> <pre>\n# Eksterne URL-er på denne lista vil *ikke* blokkeres, selv om\n# de ellers ville vært blokkert av svartelista.\n#\n# Syntaksen er som følger:\n#  * Alle linjer som begynner med «#» er kommentarer\n#  * Alle ikke-blanke linjer er et regex-fragment som kun vil passe med domenenavn i URL-er\n\n #</pre> <!-- la denne linja være nøyaktig som den er -->",
+	"email-blacklist": "#<!-- la denne linja være som den er --> <pre>\n# E-postadresser som matcher adresser på denne listen vil ikke kunne registrere seg eller sende e-post\n# Denne listen påvirker kun denne wikien; sjekk også den globale svartelista.\n# For dokumentasjon, se https://www.mediawiki.org/wiki/Extension:SpamBlacklist\n#\n# Syntaksen er som følger:\n# * Alt fra et «#»-tegn til sluttan av linje er kommentarer\n# * Hver ikke-blank linje er et regex-fragment som kun matcher domenenavn i epostadresser\n\n#</pre> <!-- la denne linja være som den er -->",
+	"email-whitelist": " #<!-- la denne linja være som den er --> <pre>\n# E-postadresser som matcher denne listen vil *ikke* blokkeres selv om\n# de er blokkert av poster på svartelista.\n#\n#</pre> <!-- la denne linja være som den er -->\n# Syntaksen er som følger:\n# * Alt fra et «#»-tegn til slutten av linja er kommentarer\n# * Hver ikke-blank linje er et regex-fragment som kun matcher domener i e-postadresser\n\n#</pre> <!-- la denne linja være som den er -->",
+	"spam-blacklisted-email": "Forbudt epostadresse",
+	"spam-blacklisted-email-text": "Epostadressa di er forbudt fra å sende eposter til andre brukere.",
+	"spam-blacklisted-email-signup": "Den angitte epostadressa er forbudt.",
+	"spam-invalid-lines": "Følgende {{PLURAL:$1|linje|linjer}} i spamsvartelista er {{PLURAL:$1|et ugyldig regulært uttrykk|ugyldige regulære uttrykk}} og må rettes før siden lagres:",
+	"spam-blacklist-desc": "Antispamverktøy basert på regulære uttrykk som gjør det mulig å forby URL-er i sider og epostadresser for registrerte brukere",
+	"log-name-spamblacklist": "Spamfilterlogg",
+	"log-description-spamblacklist": "Disse hendelsene sporer treff på spamsvartelista.",
+	"logentry-spamblacklist-hit": "{{GENDER:$2|$1}} forårsaket et spamsvartelistetreff på $3 ved å prøve å legge til $4.",
+	"right-spamblacklistlog": "Vise spamfilterloggen",
+	"action-spamblacklistlog": "vise spamfilterloggen",
+	"right-sboverride": "Forbigå spamsvartelista",
+	"action-sboverride": "forbigå spamsvartelista"
+}

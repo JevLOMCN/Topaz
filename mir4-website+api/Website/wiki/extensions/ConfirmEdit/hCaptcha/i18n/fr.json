@@ -1,0 +1,19 @@
+{
+	"@metadata": {
+		"authors": [
+			"Gomoko",
+			"McDutchie",
+			"Thibaut120094",
+			"Verdy p",
+			"Wladek92"
+		]
+	},
+	"hcaptcha-desc": "Module [https://www.hcaptcha.com/ hCaptcha] pour la confirmation humaine des modifications",
+	"hcaptcha-edit": "Pour protéger le wiki contre le pollupostage automatisé de modifications, nous vous prions de bien vouloir résoudre le hCaptcha suivant :",
+	"hcaptcha-addurl": "Votre modification inclut de nouveaux liens externes. Pour protéger le wiki contre le pollupostage automatisé, nous vous prions de bien vouloir résoudre le CAPTCHA suivant :",
+	"hcaptcha-badlogin": "Pour protéger le wiki contre le cassage automatisé des mots de passe, nous vous prions de bien vouloir résoudre le hCaptcha suivant :",
+	"hcaptcha-createaccount": "Pour protéger le wiki contre la création automatisée de comptes, nous vous prions de bien vouloir résoudre le hCaptcha suivant :",
+	"hcaptcha-createaccount-fail": "Il semble que vous n’ayez pas résolu le hCAPTCHA.",
+	"hcaptcha-create": "Afin de protéger le wiki contre la création automatisée de pages, nous vous demandons de bien vouloir résoudre le hCaptcha suivant :",
+	"hcaptcha-help": "Veuillez résoudre un défi hCaptcha et renvoyer la valeur de la réponse comme captchaWord."
+}

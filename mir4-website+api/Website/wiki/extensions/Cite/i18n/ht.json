@@ -1,0 +1,36 @@
+{
+	"@metadata": {
+		"authors": [
+			"Amire80",
+			"Boukman",
+			"Kitanago",
+			"Masterches"
+		]
+	},
+	"cite-desc": "Ajoute eleman sa yo <code>&lt;ref&gt;</code> epi <code>&lt;references/&gt;</code> pou sitasyon yo.",
+	"cite_error": "Erè nan sitasyon : $1",
+	"cite_error_ref_invalid_dir": "<code>dir=\"$1\"</code> ki pa valab, li dwe genyen <code>ltr</code> oswa <code>rtl</code>",
+	"cite_error_ref_numeric_key": "Baliz <code><ref></code> ki pa valab; non pa kapab yon nonb antye ki senp. Sèvi ak yon tit deskriptif",
+	"cite_error_ref_no_key": "Baliz ouvè <code><ref></code> mal fòme oswa li gen yon move non",
+	"cite_error_ref_too_many_keys": "Baliz <code><ref></code> pa valab; non envalid, pa egzanp yo twòp",
+	"cite_error_ref_nested_extends": "Pwolonje Baliz yo <code><ref></code> plis pase yon nivo pwofon pa otorize",
+	"cite_error_ref_no_input": "Baliz <code>&lt;ref&gt;</code> pa valab ; ref yo ki pa gen yon non dwe gen kontni nan yo",
+	"cite_error_references_duplicate_key": "Baliz <code>&lt;ref&gt;</code> pa valab ; yo defini non « $1 » plizyè fwa ak kontni diferan",
+	"cite_error_references_invalid_parameters": "Paramèt ki pa valab nan baliz <code>&lt;references&gt;</code>",
+	"cite_error_references_no_backlink_label": "Pa genyen etikèt lyen pèsonalize ankò. Presize yon kantite ki pi gwo nan mesaj [[MediaWiki:Cite references link many format backlink labels]].",
+	"cite_error_no_link_label_group": "pa gen ase etikèt lyen pèsonalize pou gwoup « $1 ». Defini plis nan mesaj [[MediaWiki:$2]].",
+	"cite_error_references_no_text": "Baliz <code>&lt;ref&gt;</code> pa valab ; nou pa bay tèks pou ref yo ki rele <code>$1</code>",
+	"cite-tracking-category-cite-error": "Paj ki gen erè referans yo",
+	"cite-tracking-category-cite-error-desc": "Paj nan kategori sa a gen erè  nan itilizasyon baliz referans yo.",
+	"cite_references_link_accessibility_label": "tounen anwo",
+	"cite_references_link_many_accessibility_label": "Tounen anwo nan :",
+	"cite_references_link_accessibility_back_label": "Tounen anwo",
+	"cite_section_preview_references": "Previzyalizasyon referans yo",
+	"cite_warning": "Avètisman sitasyon : $1",
+	"cite_warning_sectionpreview_no_text": "Yo pa ka montre yon previzyalizasyon eleman <code>&lt;ref&gt;</code> ki gen non <code>$1</code> paske moun te defini li deyò seksyon aktyèl la oswa moun pa defini li ditou.",
+	"cite-wikieditor-tool-reference": "Referans",
+	"cite-wikieditor-help-page-references": "Referans yo",
+	"cite-wikieditor-help-content-reference-description": "Referans",
+	"cite-wikieditor-help-content-named-reference-description": "Referans ki gen yon non",
+	"cite-wikieditor-help-content-showreferences-description": "Montre referans yo"
+}

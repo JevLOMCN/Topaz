@@ -1,0 +1,34 @@
+{{!
+	See @typedef MenuDefinition
+}}
+{{! this template must be used with Dropdown/Close to avoid unclosed HTML tags }}
+<div id="{{id}}" class="vector-dropdown{{#class}} {{.}}{{/class}}" {{{html-tooltip}}} {{{html-user-language-attributes}}}>
+	{{!
+		Dropdown menus use the checkbox hack and require `input` and `label` elements.
+		The `label` element functions as the "visual" button and is hidden from screenreader users (T325026)
+		while the `input` element is the actual semantic button for toggling the dropdown.
+		The `input` element will always have an `aria-label`, which will usually match the
+		text inside the `label` element, unless an alternative label is provided via the `#aria-label`
+		mustache template data.
+	}}
+	<input {{!
+		}}type="checkbox" {{!
+		}}id="{{id}}-checkbox" {{!
+		}}role="button" {{!
+		}}aria-haspopup="true" {{!
+		}}data-event-name="ui.dropdown-{{id}}" {{!--
+		}}class="vector-dropdown-checkbox{{#checkbox-class}} {{.}}{{/checkbox-class}}" {{!
+		}}{{#aria-label}}aria-label="{{.}}"{{/aria-label}} {{!
+		}}{{^aria-label}}aria-label="{{label}}"{{/aria-label}} {{!
+		}}{{#html-vector-menu-checkbox-attributes}} {{{.}}}{{/html-vector-menu-checkbox-attributes}}>
+	<label {{!
+		}}id="{{id}}-label" {{!
+		}}for="{{id}}-checkbox" {{!
+		}}class="vector-dropdown-label{{#label-class}} {{.}}{{/label-class}}" {{!
+		}}aria-hidden="true" {{!
+		}}{{#html-vector-menu-label-attributes}} {{{.}}}{{/html-vector-menu-label-attributes}}>{{!
+		}}{{#icon}}{{>Icon}}{{/icon}}{{!
+		}}<span class="vector-dropdown-label-text">{{label}}</span>
+	</label>
+	<div class="vector-dropdown-content">
+

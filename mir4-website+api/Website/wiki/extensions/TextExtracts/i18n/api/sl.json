@@ -1,0 +1,23 @@
+{
+	"@metadata": {
+		"authors": [
+			"Eleassar"
+		]
+	},
+	"apihelp-query+extracts-summary": "Vrne golo besedilo ali omejene izvlečke HTML predloženih strani.",
+	"apihelp-query+extracts-param-chars": "Koliko znakov naj bo vrnjenih. Dejansko vrnjeno besedilo je lahko nekoliko daljše.",
+	"apihelp-query+extracts-param-sentences": "Koliko stavkov naj bo vrnjenih.",
+	"apihelp-query+extracts-param-limit": "Koliko izvlečkov naj bo vrnjenih (Več izvlečkov je mogoče vrniti le, če je »exintro« nastavljen na »true«.)",
+	"apihelp-query+extracts-param-intro": "Vrne samo vsebino pred prvim razdelkom.",
+	"apihelp-query+extracts-param-plaintext": "Vrne izvlečke kot navadno besedilo namesto omejenega HTML-ja.",
+	"apihelp-query+extracts-param-sectionformat": "Kako oblikovati razdelke v načinu navadnega besedila:",
+	"apihelp-query+extracts-paramvalue-sectionformat-plain": "Brez oblikovanja.",
+	"apihelp-query+extracts-paramvalue-sectionformat-wiki": "Oblikovanje v slogu vikibesedila (== tako ==).",
+	"apihelp-query+extracts-paramvalue-sectionformat-raw": "Notranja predstavitev tega modula (naslovi razdelkov s predpono &lt;ASCII 1&gt;&lt;ASCII 2&gt;&lt;section level&gt;&lt;ASCII 2&gt;&lt;ASCII 1&gt;).",
+	"apihelp-query+extracts-example-1": "Pridobite izvleček s 175 znaki",
+	"apiwarn-textextracts-limit": "<var>exlimit</var> je bil prevelik za zahtevek za izvlečke celotnega članka; zmanjšano na $1.",
+	"apiwarn-textextracts-unsupportedmodel": "$1 ima vsebinski model $2, ki ni podprt; vrnitev praznega izvlečka.",
+	"apiwarn-textextracts-title-in-file-namespace": "Zahtevan je bil izvleček za naslov v imenskem prostoru datotek; vrnjen ni bil noben.",
+	"apiwarn-textextracts-sentences-and-html": "Parameter <var>$1sentences</var> lahko vrne nepričakovane zadetke, če se uporablja v načinu HTML.",
+	"apiwarn-textextracts-malformed-html": "HTML je morda napačno oblikovan in/ali neuravnotežen in morda izpusti vstavljene slike. Uporabljajte na lastno odgovornost. Znane težave so navedene na https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:TextExtracts#Caveats."
+}

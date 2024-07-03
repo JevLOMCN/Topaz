@@ -1,0 +1,22 @@
+{
+	"@metadata": {
+		"authors": [
+			"Michaello",
+			"Winston Sung"
+		]
+	},
+	"categorytree-portlet": "Kategorije",
+	"categorytree-header": "Unesite naziv kategorije čiji sadržaj želite da vidite u stablastoj strukturi (zahteva Javaskriptu).",
+	"categorytree-category": "Kategorija:",
+	"categorytree-mode-categories": "samo kategorije",
+	"categorytree-mode-all": "sve stranice",
+	"categorytree-collapse": "sakrij",
+	"categorytree-load": "učitaj",
+	"categorytree-nothing-found": "ništa nije pronađeno",
+	"categorytree-no-subcategories": "nema potkategorija",
+	"categorytree-no-parent-categories": "nema natkategorija",
+	"categorytree-no-pages": "nema stranica ili potkategorija",
+	"categorytree-not-found": "Kategorija <i>$1</i> nije pronađena",
+	"categorytree-error": "Problem pri učitavanju podataka.",
+	"categorytree-retry": "Sačekajte nekoliko trenutaka i pokušajte ponovo."
+}

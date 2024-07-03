@@ -1,0 +1,41 @@
+{
+	"@metadata": {
+		"authors": [
+			"Kishajnalka",
+			"Misibacsi",
+			"Nyuszika7H",
+			"Tacsipacsi",
+			"Tgr"
+		]
+	},
+	"apihelp-visualeditor-param-basetimestamp": "Mentésnél állítsd a szerkesztett lapváltozat időbélyegére. Szerkesztési ütközések felismerésére szolgál.",
+	"apihelp-visualeditor-param-cachekey": "A szerializáláshoz vagy a különbség megmutatásához használd az előző serializeforcache kérés eredményét ezzel a kulccsal. Felülírja a $1html eredményét.",
+	"apihelp-visualeditor-param-editintro": "Az értesítésekhez adandó figyelmeztetés (<code>editintro</code>).",
+	"apihelp-visualeditor-param-etag": "Küldendő ETag.",
+	"apihelp-visualeditor-param-format": "A kimenet formátuma.",
+	"apihelp-visualeditor-param-html": "A Parsoidnak wikiszöveggé konvertálásra küldendő HTML.",
+	"apihelp-visualeditor-param-oldid": "Használandó lapváltozat-azonosító (alapértelmezetten az utolsó változat).",
+	"apihelp-visualeditor-param-paction": "A végrehajtandó művelet.",
+	"apihelp-visualeditor-param-page": "Az oldal, amin a műveletet kell elvégezni.",
+	"apihelp-visualeditor-param-pst": "Wikiszöveg előfeldolgozása (pre-save transform) a Parsoidnak küldés (paction=parsefragment) előtt.",
+	"apihelp-visualeditor-param-section": "Szakasz a művelethez.",
+	"apihelp-visualeditor-param-starttimestamp": "Mentésnél állítsd a szerkesztett lapváltozat időbélyegére. Szerkesztési ütközések felismerésére szolgál.",
+	"apihelp-visualeditor-param-wikitext": "A Parsoidnak HTML-lé konvertálásra küldendő wikiszöveg (paction=parsefragment).",
+	"apihelp-visualeditor-summary": "A Parsoid szolgáltatástól kapott oldalból HTML5 oldalt készít.",
+	"apihelp-visualeditoredit-param-basetimestamp": "Mentésnél állítsd a szerkesztett lapváltozat időbélyegére. Szerkesztési ütközések felismerésére szolgál.",
+	"apihelp-visualeditoredit-param-cachekey": "Az előző, megadott kulcsú serializeforcache kérés eredményének használata. Felülírja a $1html eredményét.",
+	"apihelp-visualeditoredit-param-captchaid": "Captcha azonosító (amikor captcha megválaszolásával mentesz).",
+	"apihelp-visualeditoredit-param-captchaword": "Válasz a captchára (amikor captcha megválaszolásával mentesz).",
+	"apihelp-visualeditoredit-param-etag": "Küldendő ETag.",
+	"apihelp-visualeditoredit-param-html": "A Parsoidnak küldendő HTML, amiből wikiszöveg készül.",
+	"apihelp-visualeditoredit-param-minor": "Apró szerkesztés jelzése.",
+	"apihelp-visualeditoredit-param-needcheck": "Mentés közben állítsd be ezt a paramétert, ha a revízió roundtrip problémákkal küzdhet. Ennek eredményeként a szerkesztés fel lesz címkézve.",
+	"apihelp-visualeditoredit-param-oldid": "Használandó lapváltozat-azonosító. Alapértelmezetten az utolsó változat.",
+	"apihelp-visualeditoredit-param-paction": "A végrehajtandó művelet.",
+	"apihelp-visualeditoredit-param-page": "Az oldal, amin a műveletet el kell végezni.",
+	"apihelp-visualeditoredit-param-section": "Szakasz a művelethez.",
+	"apihelp-visualeditoredit-param-sectiontitle": "Az új szakasz címe.",
+	"apihelp-visualeditoredit-param-starttimestamp": "Mentésnél állítsd a szerkesztett lapváltozat időbélyegére. Szerkesztési ütközések felismerésére szolgál.",
+	"apihelp-visualeditoredit-param-summary": "Szerkesztési összefoglaló.",
+	"apihelp-visualeditoredit-summary": "HTML5 oldal elmentése a wikiben (a Parsoid szolgáltatással wikiszöveggé konvertálva)."
+}

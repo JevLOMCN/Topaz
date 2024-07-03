@@ -1,0 +1,39 @@
+{
+	"@metadata": {
+		"authors": [
+			"Amire80",
+			"McDutchie",
+			"Siebrand"
+		]
+	},
+	"abusefilter-warning": "'''Waarschuwing:''' Deze handeling is automatisch als schadelijk aangemerkt.\nSchadelijke handelingen worden snel teruggedraaid. Blijf je slechte bewerkingen uitvoeren, dan wordt je account of IP-adres geblokkeerd.\nAls jij denkt dat deze handeling wel iets bijdraagt, bevestig je handeling dan opnieuw.\nHier is een korte beschrijving van de regel op basis waarvan jouw handeling is tegengehouden: $1",
+	"abusefilter-disallowed": "Deze handeling is automatisch geïdentificeerd als schadelijk, en daarom niet toegelaten.\nAls je denkt dat je handeling wel constructief was, rapporteer dan aan de beheerder wat je probeerde te doen.\nEen korte beschrijving van de regel op basis waarvan je handeling is tegengehouden volgt nu: $1",
+	"abusefilter-blocked-display": "Deze handeling is automatisch geïdentificeerd als schadelijk. Daarom is deze niet uitgevoerd.\nOm {{SITENAME}} te beschermen zijn je gebruiker en alle bijbehorende IP-adressen geblokkeerd.\nAls deze maatregel onterecht is genomen, neem dan contact op met een beheerder.\nEen korte beschrijving van de regel op basis waarvan je bewerking is tegengehouden volgt nu: $1",
+	"abusefilter-degrouped": "Deze handeling is automatisch geïdentificeerd als schadelijk.\nOmdat is vastgesteld dat deze gebruiker mogelijk door iemand anders wordt misbruikt, zijn alle rechten ingetrokken.\nAls deze maatregel onterecht is genomen, neem dan contact op met een bureaucraat en licht deze handeling toe, zodat je rechten hersteld kunnen worden.\nEen korte beschrijving van de regel op basis waarvan je bewerking is tegengehouden volgt nu: $1",
+	"abusefilter-autopromote-blocked": "Deze handeling is automatisch geïdentificeerd als schadelijk. Daarom is deze niet uitgevoerd.\nAls aanvullende veiligheidsmaatregel zijn een aantal automatisch toegekende rechten voor je gebruiker tijdelijk ingetrokken.\nEen korte beschrijving van de regel op basis waarvan je bewerking is tegengehouden volgt nu: $1",
+	"abusefilter-log-cannot-see-details": "Je hebt niet de juiste rechten om dit item te bekijken.",
+	"abusefilter-log-details-hidden": "Je kunt de details van deze melding niet bekijken omdat deze verborgen is.",
+	"abusefilter-log-hide-forbidden": "Je hebt niet de juiste rechten om meldingen in het filterlogboek te verbergen.",
+	"abusefilter-reautoconfirm-notallowed": "Je hebt geen rechten om de automatisch bevestigde status opnieuw in te stellen.",
+	"abusefilter-edit-oldwarning": "<strong>Je bent een oude versie van dit filter aan het bewerken.\nDe weergegeven statistieken gelden voor de meest recente versie van het filter.\nAls je je wijzigingen opslaat, overschrijf je alle wijzigingen die na deze versie zijn gemaakt.</strong> &bull;\n[[Special:AbuseFilter/history/$2|Terug naar de geschiedenis van dit filter]]",
+	"abusefilter-edit-denied": "Je mag de details van dit filter niet bekijken, omdat die niet openbaar zijn.",
+	"abusefilter-edit-restricted": "Je kunt dit filter niet bewerken omdat die één of meerdere beperkte handelingen bevat.\nVraag een gebruiker met toestemming om beperkte handelingen toe te voegen om de wijziging voor je te maken.",
+	"abusefilter-edit-bad-tags": "Een of meer van de labels die je hebt opgegeven zijn niet geldig.\nLabels moeten kort zijn, mogen geen speciale tekens bevatten, en mogen niet gereserveerd zijn door andere software. Kies een andere labelnaam.",
+	"abusefilter-edit-notallowed": "Je hebt geen rechten om filters aan te maken of te wijzigen",
+	"abusefilter-edit-notallowed-global": "Je kunt globale misbruikfilters niet aanmaken of aanpassen",
+	"abusefilter-history-error-hidden": "Het filter dat je hebt opgevraagd is verborgen en je kunt de geschiedenis niet bekijken.",
+	"abusefilter-revert-intro": "Via dit formulier kan je alle wijzigingen die door het filter via filter $1 gemaakt zijn terugdraaien.\nGebruik dit hulpmiddel zorgvuldig.",
+	"abusefilter-revert-preview-intro": "Hieronder staan de maatregelen die het filter heeft genomen die door deze handeling worden teruggedraaid.\nControleer de terug te draaien maatregelen goed, en klik op \"{{int:abusefilter-revert-confirm}}\" om je selectie te bevestigen.",
+	"abusefilter-revert-success": "Je hebt alle maatregelen die door het filter via [[Special:AbuseFilter/$1|filter $2]] zijn genomen teruggedraaid.",
+	"abusefilter-test-intro": "Op deze pagina kun je een filter, ingevoerd in het vak eronder, controleren met de laatste {{PLURAL:$1|wijzing|$1 wijzingen}}.\nOm een bestaand filter te laden typ je het filter-ID in het vak onder het tekstvak en klik je op de knop \"{{int:abusefilter-test-load}}\".",
+	"abusefilter-test-syntaxerr": "Het filter dat je hebt ingevoerd bevat een syntaxisfout.\nKlik op \"{{int:abusefilter-edit-check}}\" voor een volledige toelichting.",
+	"abusefilter-examine-intro": "Via deze pagina kan je de door het filter aangemaakte variabelen voor een individuele wijziging onderzoeken, en deze testen tegen filters.",
+	"abusefilter-examine-intro-examine-only": "Op deze pagina kun je de variabelen bekijken die door het misbruikfilter voor een individuele wijziging worden gegenereerd.",
+	"abusefilter-examine-notfound": "De wijziging die je hebt opgevraagd is niet aangetroffen.",
+	"abusefilter-examine-incompatible": "Het filter ondersteunt de wijziging die je hebt opgevraagd niet",
+	"abusefilter-examine-noresults": "Er zijn geen resultaten gevonden voor de zoekopdrachtparameters die je hebt opgegeven.",
+	"abusefilter-import-intro": "Je kunt deze interface gebruiken om filters van andere wiki's te importeren.\nKlik \"{{int:abusefilter-edit-export}}i\" bij \"{{int:abusefilter-edit-tools}}\".\nKopieer de tekst die in het bewerkingsvenster verschijnt naar dit bewerkingsvenster en klik dan op \"{{int:abusefilter-import-submit}}\".",
+	"abusefilter-invalid-request-noid": "Ongeldig verzoek! Privéloggegevens moet je, met opgaaf van reden, opvragen via het formulier op de pagina met details van het misbruiklogboek.",
+	"notification-header-throttle-filter": "Het misbruikfilter $2, dat {{GENDER:$1|jij}} pas nog hebt bewerkt, is beperkt.",
+	"notification-subject-throttle-filter": "Een misbruikfilter dat {{GENDER:$1|jij}} hebt bewerkt, is beperkt op {{SITENAME}}"
+}

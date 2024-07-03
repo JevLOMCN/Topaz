@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"Winston Sung"
+		]
+	},
+	"imagemap_desc": "Pruža kartografske slike koje se mogu kliknuti na klijentskom računaru koristeći oznaku <code>&lt;imagemap&gt;</code>",
+	"imagemap_no_image": "Greška: neophodno je odrediti sliku u prvoj liniji",
+	"imagemap_invalid_image": "Greška: slika je loša ili ne postoji",
+	"imagemap_bad_image": "Greška: Slika nije dopuštena na ovoj stranici",
+	"imagemap_no_link": "Greška: nije pronađen valjan link na kraju reda $1",
+	"imagemap_invalid_title": "Greška: nevaljan naslov u linku u redu $1",
+	"imagemap_missing_coord": "Greška: nema dovoljno koordinata za iscrtavanje u redu $1",
+	"imagemap_unrecognised_shape": "Greška: nepriznat red $1, svaki red mora počinjati sa jednim od: <code>default</code>, <code>rect</code>, <code>circle</code> ili <code>poly</code>"
+}

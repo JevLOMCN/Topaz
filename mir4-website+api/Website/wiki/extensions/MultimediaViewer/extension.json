@@ -1,0 +1,472 @@
+{
+	"name": "MultimediaViewer",
+	"author": [
+		"MarkTraceur (Mark Holmquist)",
+		"Gilles Dubuc",
+		"Gergő Tisza",
+		"Aaron Arcos",
+		"Zeljko Filipin",
+		"Pau Giner",
+		"theopolisme",
+		"MatmaRex",
+		"apsdehal",
+		"vldandrew",
+		"Ebrahim Byagowi",
+		"Dereckson",
+		"Brion VIBBER",
+		"Yuki Shira",
+		"Yaroslav Melnychuk",
+		"tonythomas01",
+		"Raimond Spekking",
+		"Kunal Mehta",
+		"Jeff Hall",
+		"Christian Aistleitner",
+		"Amir E. Aharoni"
+	],
+	"url": "https://www.mediawiki.org/wiki/Extension:MultimediaViewer",
+	"descriptionmsg": "multimediaviewer-desc",
+	"license-name": "GPL-2.0-or-later",
+	"type": "other",
+	"requires": {
+		"MediaWiki": ">= 1.42.0"
+	},
+	"MessagesDirs": {
+		"MultimediaViewer": [
+			"i18n"
+		]
+	},
+	"AutoloadNamespaces": {
+		"MediaWiki\\Extension\\MultimediaViewer\\": "includes/"
+	},
+	"ResourceModules": {
+		"mmv": {
+			"packageFiles": [
+				"mmv/mmv.js",
+				"mmv/logging/mmv.logging.ViewLogger.js",
+				"mmv/model/mmv.model.js",
+				"mmv/model/mmv.model.IwTitle.js",
+				"mmv/model/mmv.model.License.js",
+				"mmv/model/mmv.model.Image.js",
+				"mmv/model/mmv.model.Repo.js",
+				"mmv/model/mmv.model.Thumbnail.js",
+				"mmv/model/mmv.model.TaskQueue.js",
+				"mmv/model/mmv.model.ThumbnailWidth.js",
+				"mmv/mmv.lightboximage.js",
+				"mmv/provider/mmv.provider.js",
+				"mmv/provider/mmv.provider.Api.js",
+				"mmv/provider/mmv.provider.ImageInfo.js",
+				"mmv/provider/mmv.provider.FileRepoInfo.js",
+				"mmv/provider/mmv.provider.ThumbnailInfo.js",
+				"mmv/provider/mmv.provider.GuessedThumbnailInfo.js",
+				"mmv/provider/mmv.provider.Image.js",
+				"mmv/mmv.ThumbnailWidthCalculator.js",
+				"mmv/ui/index.js",
+				"mmv/ui/mmv.ui.js",
+				"mmv/ui/mmv.ui.dialog.js",
+				"mmv/ui/mmv.ui.reuse.dialog.js",
+				"mmv/ui/mmv.ui.download.dialog.js",
+				"mmv/ui/mmv.ui.description.js",
+				"mmv/ui/mmv.ui.viewingOptions.js",
+				"mmv/ui/mmv.ui.canvas.js",
+				"mmv/ui/mmv.ui.canvasButtons.js",
+				"mmv/ui/mmv.ui.permission.js",
+				"mmv/ui/mmv.ui.progressBar.js",
+				"mmv/ui/mmv.ui.stripeButtons.js",
+				"mmv/ui/mmv.ui.truncatableTextField.js",
+				"mmv/ui/mmv.ui.metadataPanel.js",
+				"mmv/ui/mmv.ui.metadataPanelScroller.js",
+				"mmv/mmv.lightboxinterface.js"
+			],
+			"styles": [
+				"mmv/ui/mmv.ui.dialog.less",
+				"mmv/ui/mmv.ui.reuse.dialog.less",
+				"mmv/ui/mmv.ui.download.dialog.less",
+				"mmv/ui/mmv.ui.viewingOptions.less",
+				"mmv/ui/mmv.ui.canvas.less",
+				"mmv/ui/mmv.ui.canvasButtons.less",
+				"mmv/ui/mmv.ui.permission.less",
+				"mmv/ui/mmv.ui.progressBar.less",
+				"mmv/ui/mmv.ui.stripeButtons.less",
+				"mmv/ui/mmv.ui.truncatableTextField.less",
+				"mmv/ui/mmv.ui.metadataPanel.less",
+				"mmv/ui/mmv.ui.metadataPanelScroller.less",
+				"mmv/mmv.lightboxinterface.less"
+			],
+			"dependencies": [
+				"mediawiki.api",
+				"mediawiki.Title",
+				"mediawiki.Uri",
+				"mediawiki.jqueryMsg",
+				"mediawiki.router",
+				"mediawiki.storage",
+				"mediawiki.user",
+				"mediawiki.util",
+				"oojs",
+				"mmv.bootstrap",
+				"mmv.head"
+			],
+			"messages": [
+				"license-header",
+				"multimediaviewer-file-page",
+				"multimediaviewer-options-learn-more",
+				"multimediaviewer-options-dialog-header",
+				"multimediaviewer-option-submit-button",
+				"multimediaviewer-option-cancel-button",
+				"multimediaviewer-options-text-header",
+				"multimediaviewer-enable-alert",
+				"multimediaviewer-options-text-body",
+				"multimediaviewer-disable-confirmation-header",
+				"multimediaviewer-disable-confirmation-text",
+				"multimediaviewer-enable-dialog-header",
+				"multimediaviewer-enable-text-header",
+				"multimediaviewer-enable-submit-button",
+				"multimediaviewer-enable-confirmation-header",
+				"multimediaviewer-enable-confirmation-text",
+				"multimediaviewer-file-not-found-error",
+				"multimediaviewer-thumbnail-error",
+				"multimediaviewer-thumbnail-error-description",
+				"multimediaviewer-thumbnail-error-retry",
+				"multimediaviewer-report-issue-url",
+				"multimediaviewer-thumbnail-error-report",
+				"multimediaviewer-errorreport-privacywarning",
+				"multimediaviewer-download-link",
+				"multimediaviewer-reuse-link",
+				"multimediaviewer-options-tooltip",
+				"multimediaviewer-close-popup-text",
+				"multimediaviewer-fullscreen-popup-text",
+				"multimediaviewer-defullscreen-popup-text",
+				"multimediaviewer-next-image-alt-text",
+				"multimediaviewer-prev-image-alt-text",
+				"multimediaviewer-commons-subtitle",
+				"multimediaviewer-credit",
+				"multimediaviewer-credit-fallback",
+				"multimediaviewer-multiple-authors",
+				"multimediaviewer-multiple-authors-combine",
+				"multimediaviewer-datetime-created",
+				"multimediaviewer-datetime-uploaded",
+				"multimediaviewer-permission-link",
+				"multimediaviewer-permission-link-hide",
+				"multimediaviewer-restriction-2257",
+				"multimediaviewer-restriction-aus-reserve",
+				"multimediaviewer-restriction-communist",
+				"multimediaviewer-restriction-costume",
+				"multimediaviewer-restriction-currency",
+				"multimediaviewer-restriction-design",
+				"multimediaviewer-restriction-fan-art",
+				"multimediaviewer-restriction-ihl",
+				"multimediaviewer-restriction-insignia",
+				"multimediaviewer-restriction-ita-mibac",
+				"multimediaviewer-restriction-nazi",
+				"multimediaviewer-restriction-personality",
+				"multimediaviewer-restriction-trademarked",
+				"multimediaviewer-restriction-default",
+				"multimediaviewer-restriction-default-and-others",
+				"multimediaviewer-reuse-warning-deletion",
+				"multimediaviewer-reuse-warning-nonfree",
+				"multimediaviewer-reuse-warning-noattribution",
+				"multimediaviewer-reuse-warning-generic",
+				"multimediaviewer-geoloc-north",
+				"multimediaviewer-geoloc-east",
+				"multimediaviewer-geoloc-south",
+				"multimediaviewer-geoloc-west",
+				"multimediaviewer-geoloc-coord",
+				"multimediaviewer-geoloc-coords",
+				"multimediaviewer-geolocation",
+				"multimediaviewer-about-mmv",
+				"multimediaviewer-optout-mmv",
+				"multimediaviewer-optin-mmv",
+				"multimediaviewer-optout-pending-mmv",
+				"multimediaviewer-optin-pending-mmv",
+				"multimediaviewer-optout-help",
+				"multimediaviewer-optin-help",
+				"mypreferences",
+				"multimediaviewer-metadata-error",
+				"multimediaviewer-title-popup-text",
+				"multimediaviewer-credit-popup-text",
+				"multimediaviewer-title-popup-text-more",
+				"multimediaviewer-credit-popup-text-more",
+				"multimediaviewer-permission-title",
+				"multimediaviewer-permission-viewmore",
+				"multimediaviewer-description-page-button-text",
+				"multimediaviewer-description-page-popup-text",
+				"multimediaviewer-repository-local",
+				"multimediaviewer-license-cc-by-1.0",
+				"multimediaviewer-license-cc-sa-1.0",
+				"multimediaviewer-license-cc-by-sa-1.0",
+				"multimediaviewer-license-cc-by-2.0",
+				"multimediaviewer-license-cc-by-sa-2.0",
+				"multimediaviewer-license-cc-by-2.1",
+				"multimediaviewer-license-cc-by-sa-2.1",
+				"multimediaviewer-license-cc-by-2.5",
+				"multimediaviewer-license-cc-by-sa-2.5",
+				"multimediaviewer-license-cc-by-3.0",
+				"multimediaviewer-license-cc-by-sa-3.0",
+				"multimediaviewer-license-cc-by-4.0",
+				"multimediaviewer-license-cc-by-sa-4.0",
+				"multimediaviewer-license-cc-pd",
+				"multimediaviewer-license-cc-zero",
+				"multimediaviewer-license-pd",
+				"multimediaviewer-license-default"
+			]
+		},
+		"mmv.ui.ondemandshareddependencies": {
+			"packageFiles": [
+				"mmv.ui.ondemandshareddependencies/index.js",
+				"mmv.ui.ondemandshareddependencies/mmv.EmbedFileFormatter.js",
+				"mmv.ui.ondemandshareddependencies/mmv.ui.utils.js"
+			],
+			"dependencies": [
+				"mmv.head",
+				"mmv",
+				"oojs",
+				"oojs-ui"
+			],
+			"messages": [
+				"multimediaviewer-credit",
+				"multimediaviewer-text-embed-credit-text-bl",
+				"multimediaviewer-text-embed-credit-text-b",
+				"multimediaviewer-text-embed-credit-text-l",
+				"multimediaviewer-html-embed-credit-text-bl",
+				"multimediaviewer-html-embed-credit-text-b",
+				"multimediaviewer-html-embed-credit-text-l",
+				"multimediaviewer-html-embed-credit-link-text"
+			]
+		},
+		"mmv.ui.download.pane": {
+			"packageFiles": [
+				"mmv.ui.download.pane/mmv.ui.download.pane.js"
+			],
+			"styles": [
+				"mmv.ui.download.pane/mmv.ui.download.pane.less"
+			],
+			"dependencies": [
+				"codex-styles",
+				"mediawiki.widgets",
+				"mmv",
+				"mmv.ui.ondemandshareddependencies",
+				"oojs",
+				"oojs-ui"
+			],
+			"messages": [
+				"multimediaviewer-download-preview-link-title",
+				"multimediaviewer-download-original-button-name",
+				"multimediaviewer-download-small-button-name",
+				"multimediaviewer-download-medium-button-name",
+				"multimediaviewer-download-large-button-name",
+				"multimediaviewer-download-xl-button-name",
+				"multimediaviewer-embed-dimensions",
+				"multimediaviewer-embed-dimensions-with-file-format",
+				"multimediaviewer-download-attribution-cta-header",
+				"multimediaviewer-download-optional-attribution-cta-header",
+				"multimediaviewer-download-attribution-cta",
+				"multimediaviewer-download-attribution-copy",
+				"multimediaviewer-attr-plain",
+				"multimediaviewer-attr-html"
+			]
+		},
+		"mmv.ui.reuse.shareembed": {
+			"packageFiles": [
+				"mmv.ui.reuse.shareembed/index.js",
+				"mmv.ui.reuse.shareembed/mmv.ui.reuse.tab.js",
+				"mmv.ui.reuse.shareembed/mmv.ui.reuse.share.js",
+				"mmv.ui.reuse.shareembed/mmv.ui.reuse.embed.js"
+			],
+			"styles": [
+				"mmv.ui.reuse.shareembed/mmv.ui.reuse.share.less",
+				"mmv.ui.reuse.shareembed/mmv.ui.reuse.embed.less"
+			],
+			"dependencies": [
+				"oojs",
+				"oojs-ui",
+				"mediawiki.user",
+				"mediawiki.widgets",
+				"mmv.ui.ondemandshareddependencies"
+			],
+			"messages": [
+				"multimediaviewer-reuse-loading-placeholder",
+				"multimediaviewer-share-tab",
+				"multimediaviewer-share-explanation",
+				"multimediaviewer-link-to-file",
+				"multimediaviewer-link-to-page",
+				"multimediaviewer-reuse-loading-placeholder",
+				"multimediaviewer-reuse-copy-share",
+				"multimediaviewer-reuse-copy-embed",
+				"multimediaviewer-embed-tab",
+				"multimediaviewer-embed-html",
+				"multimediaviewer-embed-wt",
+				"multimediaviewer-embed-explanation",
+				"multimediaviewer-embed-byline",
+				"multimediaviewer-embed-license",
+				"multimediaviewer-embed-via",
+				"multimediaviewer-default-embed-dimensions",
+				"multimediaviewer-original-embed-dimensions",
+				"multimediaviewer-xl-embed-dimensions",
+				"multimediaviewer-large-embed-dimensions",
+				"multimediaviewer-medium-embed-dimensions",
+				"multimediaviewer-small-embed-dimensions",
+				"multimediaviewer-embed-dimensions",
+				"multimediaviewer-embed-dimensions-separated"
+			]
+		},
+		"mmv.bootstrap": {
+			"packageFiles": [
+				"mmv.bootstrap/mmv.bootstrap.js",
+				"mmv.bootstrap/mmv.Config.js",
+				"mmv.bootstrap/mmv.HtmlUtils.js"
+			],
+			"styles": [
+				"mmv.bootstrap/mmv.bootstrap.less"
+			],
+			"dependencies": [
+				"codex-search-styles",
+				"mediawiki.api",
+				"mediawiki.router",
+				"mediawiki.Title",
+				"mediawiki.user",
+				"mediawiki.storage",
+				"mmv.head",
+				"oojs"
+			],
+			"messages": [
+				"multimediaviewer-view-expanded",
+				"multimediaviewer-view-config",
+				"multimediaviewer-disable-info-title",
+				"multimediaviewer-disable-info"
+			]
+		},
+		"mmv.bootstrap.autostart": {
+			"packageFiles": [
+				"mmv.bootstrap.autostart/mmv.bootstrap.autostart.js"
+			],
+			"dependencies": [
+				"mmv.head",
+				"mmv.bootstrap"
+			]
+		},
+		"mmv.head": {
+			"packageFiles": [
+				"mmv.head/mmv.head.js",
+				"mmv.head/base.js"
+			],
+			"dependencies": [
+				"mediawiki.user",
+				"mediawiki.storage"
+			]
+		}
+	},
+	"ResourceFileModulePaths": {
+		"localBasePath": "resources",
+		"remoteExtPath": "MultimediaViewer/resources"
+	},
+	"QUnitTestModule": {
+		"localBasePath": "",
+		"remoteExtPath": "MultimediaViewer",
+		"packageFiles": [
+			"tests/qunit/mmv/index.js",
+			"tests/qunit/mmv/mmv.bootstrap.test.js",
+			"tests/qunit/mmv/mmv.test.js",
+			"tests/qunit/mmv/mmv.lightboxinterface.test.js",
+			"tests/qunit/mmv/mmv.lightboximage.test.js",
+			"tests/qunit/mmv/mmv.ThumbnailWidthCalculator.test.js",
+			"tests/qunit/mmv/mmv.EmbedFileFormatter.test.js",
+			"tests/qunit/mmv/mmv.Config.test.js",
+			"tests/qunit/mmv/mmv.HtmlUtils.test.js",
+			"tests/qunit/mmv/logging/mmv.logging.ViewLogger.test.js",
+			"tests/qunit/mmv/model/mmv.model.test.js",
+			"tests/qunit/mmv/model/mmv.model.IwTitle.test.js",
+			"tests/qunit/mmv/model/mmv.model.TaskQueue.test.js",
+			"tests/qunit/mmv/model/mmv.model.License.test.js",
+			"tests/qunit/mmv/model/mmv.model.Image.test.js",
+			"tests/qunit/mmv/model/mmv.model.Repo.test.js",
+			"tests/qunit/mmv/provider/mmv.provider.Api.test.js",
+			"tests/qunit/mmv/provider/mmv.provider.ImageInfo.test.js",
+			"tests/qunit/mmv/provider/mmv.provider.FileRepoInfo.test.js",
+			"tests/qunit/mmv/provider/mmv.provider.ThumbnailInfo.test.js",
+			"tests/qunit/mmv/provider/mmv.provider.GuessedThumbnailInfo.test.js",
+			"tests/qunit/mmv/provider/mmv.provider.Image.test.js",
+			"tests/qunit/mmv/ui/mmv.ui.test.js",
+			"tests/qunit/mmv/ui/mmv.ui.canvas.test.js",
+			"tests/qunit/mmv/ui/mmv.ui.canvasButtons.test.js",
+			"tests/qunit/mmv/ui/mmv.ui.description.test.js",
+			"tests/qunit/mmv/ui/mmv.ui.download.pane.test.js",
+			"tests/qunit/mmv/ui/mmv.ui.metadataPanel.test.js",
+			"tests/qunit/mmv/ui/mmv.ui.metadataPanelScroller.test.js",
+			"tests/qunit/mmv/ui/mmv.ui.progressBar.test.js",
+			"tests/qunit/mmv/ui/mmv.ui.permission.test.js",
+			"tests/qunit/mmv/ui/mmv.ui.stripeButtons.test.js",
+			"tests/qunit/mmv/ui/mmv.ui.reuse.dialog.test.js",
+			"tests/qunit/mmv/ui/mmv.ui.reuse.embed.test.js",
+			"tests/qunit/mmv/ui/mmv.ui.reuse.share.test.js",
+			"tests/qunit/mmv/ui/mmv.ui.reuse.tab.test.js",
+			"tests/qunit/mmv/ui/mmv.ui.reuse.utils.test.js",
+			"tests/qunit/mmv/ui/mmv.ui.truncatableTextField.test.js",
+			"tests/qunit/mmv/ui/mmv.ui.viewingOptions.test.js",
+			"tests/qunit/mmv/mmv.testhelpers.js"
+		],
+		"dependencies": [
+			"mmv.head",
+			"mmv.bootstrap",
+			"mmv",
+			"mmv.ui.ondemandshareddependencies",
+			"mmv.ui.reuse.shareembed",
+			"mmv.ui.download.pane"
+		]
+	},
+	"Hooks": {
+		"UserGetDefaultOptions": "main",
+		"GetPreferences": "main",
+		"BeforePageDisplay": "main",
+		"CategoryPageView": "main",
+		"ResourceLoaderGetConfigVars": "main",
+		"MakeGlobalVariablesScript": "main",
+		"ThumbnailBeforeProduceHTML": "main"
+	},
+	"HookHandlers": {
+		"main": {
+			"class": "MediaWiki\\Extension\\MultimediaViewer\\Hooks",
+			"services": [
+				"MainConfig",
+				"SpecialPageFactory",
+				"UserOptionsLookup"
+			],
+			"optional_services": [
+				"MobileFrontend.Context"
+			]
+		}
+	},
+	"config": {
+		"MediaViewerExtensions": {
+			"value": {
+				"jpg": "default",
+				"jpeg": "default",
+				"gif": "default",
+				"svg": "default",
+				"png": "default",
+				"tiff": "default",
+				"tif": "default",
+				"webp": "default"
+			}
+		},
+		"MediaViewerUseThumbnailGuessing": {
+			"description": "When this is enabled, MediaViewer will try to guess image URLs instead of making an imageinfo API to get them from the server. This speeds up image loading, but will result in 404s when $wgGenerateThumbnailOnParse (so the thumbnails are only generated as a result of the API request). MediaViewer will catch such 404 errors and fall back to the API request, but depending on how the site is set up, the 404 might get cached, or redirected, causing the image load to fail. The safe way to use URL guessing is with a 404 handler: https://www.mediawiki.org/wiki/Manual:Thumb.php#404_Handler",
+			"value": false
+		},
+		"MediaViewerEnableByDefault": {
+			"description": "If true, Media Viewer will be turned on by default.",
+			"value": true
+		},
+		"MediaViewerEnableByDefaultForAnonymous": {
+			"description": "Overrides $wgMediaViewerEnableByDefault for anonymous users. If set to null, will fall back to value of $wgMediaViewerEnableByDefault",
+			"value": null
+		},
+		"MediaViewerImageQueryParameter": {
+			"description": "If set, adds a query parameter to image requests made by Media Viewer",
+			"value": false
+		},
+		"MediaViewerRecordVirtualViewBeaconURI": {
+			"description": "If set, records a virtual view via the provided beacon URI.",
+			"value": false
+		}
+	},
+	"manifest_version": 2
+}

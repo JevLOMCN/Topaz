@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"Albertas"
+		]
+	},
+	"apihelp-titleblacklist-param-title": "Eilutė, kurią patikrinti juodajame sąraše.",
+	"apihelp-titleblacklist-param-action": "Veiksmas, kurį patikrinti.",
+	"apihelp-titleblacklist-param-nooverride": "Nebandykite perrašyti pavadinimų juodojo sąrašo.",
+	"apihelp-titleblacklist-example-1": "Patikrinti, ar [[Foo]] yra juodajame sąraše",
+	"apihelp-titleblacklist-example-2": "Patikrinti, ar [[Bar]] yra redagavimo juodajame sąraše",
+	"apihelp-createaccount-param-ignoretitleblacklist": "Ignoruoti pokštų patikras (reikalinga bent viena iš šių teisių: <code>tboverride</code>, <code>tboverride-account</code>)."
+}

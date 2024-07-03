@@ -1,0 +1,24 @@
+{
+	"@metadata": {
+		"authors": [
+			"Mguix",
+			"Toniher",
+			"Xavier Dengra"
+		]
+	},
+	"apierror-discussiontools-commentid-notfound": "No s'ha trobat la identificació del comentari: «$1».",
+	"apierror-discussiontools-commentname-ambiguous": "S'han trobat múltiples comentaris amb el nom «$1»; cal <var>commentid</var>.",
+	"apierror-discussiontools-commentname-notfound": "No s'ha trobat el comentari amb el nom: «$1».",
+	"apihelp-discussiontoolsedit-param-commentid": "Identificació del comentari al qual respondre. Només s'utilitza quan <var>paction</var> és <var>addcomment</var>. Sobreeescriu <var>commentname</var>.",
+	"apihelp-discussiontoolsedit-param-commentname": "Nom del comentari al qual respondre. Només s'utilitza quan <var>paction</var> és <var>addcomment</var>.",
+	"apihelp-discussiontoolsedit-param-html": "Contingut per a publicar com a codi HTML. No es pot emprar conjuntament amb el <var>codi wiki</var>.",
+	"apihelp-discussiontoolsedit-param-sectiontitle": "{{int:apihelp-edit-param-sectiontitle}} Només s'utilitza quan <var>paction</var> is <var>addtopic</var>.",
+	"apihelp-discussiontoolsedit-param-wikitext": "Contingut per a publicar com a codi wiki. No es pot emprar conjuntament amb el <var>codi HTML</var>.",
+	"apihelp-discussiontoolsedit-paramvalue-paction-addcomment": "Afegeix un nou comentari com a resposta a un altre ja existent.",
+	"apihelp-discussiontoolsedit-paramvalue-paction-addtopic": "Afegeix una nova secció de debat i un missatge d'inici.",
+	"apihelp-discussiontoolsedit-summary": "Publica un missatge en una pàgina de discussió.",
+	"apihelp-discussiontoolspageinfo-param-oldid": "El número de revisió que s'utilitzarà (per defecte s'utilitza la darrera revisió).",
+	"apihelp-discussiontoolspageinfo-summary": "Retorna les metadades necessàries per activar les Eines de Discussió.",
+	"apihelp-discussiontoolssubscribe-param-subscribe": "«Veritat» per afegir a la llista de seguiment, «Fals» per eliminar de la llista de seguiment",
+	"apihelp-discussiontoolssubscribe-summary": "Afegiu-vos (o elimineu-vos) d'una llista de seguiment per seguir o no les notificacions d'un tema."
+}

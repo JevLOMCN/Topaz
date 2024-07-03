@@ -1,0 +1,25 @@
+{
+	"@metadata": {
+		"authors": [
+			"01miki10",
+			"MITO",
+			"Markus Mikkonen",
+			"Pxos",
+			"Pyscowicz"
+		]
+	},
+	"apihelp-abusefilterchecksyntax-summary": "Tarkista väärinkäyttösuodattimen syntaksi.",
+	"apihelp-abusefilterchecksyntax-example-1": "Tarkasta kelvollisen suodattimen ehtolauserakenne",
+	"apihelp-abusefilterchecksyntax-example-2": "Tarkasta epäkelvon suodattimen ehtolauserakenne",
+	"apihelp-abusefilterevalexpression-param-expression": "Arvioitava lauseke.",
+	"apihelp-abusefilterevalexpression-example-1": "Arvioi yksinkertaista lauseketta",
+	"apihelp-abusefilterunblockautopromote-param-user": "Käyttäjän, jolta haluat poistaa eston, käyttäjänimi.",
+	"apihelp-query+abusefilters-summary": "Näytä väärinkäyttösuodattimien tiedot.",
+	"apihelp-query+abusefilters-example-1": "Luetteloi käytössä olevat julkiset suodattimet",
+	"apihelp-query+abusefilters-example-2": "Näytä joitain tietoja suodattimista",
+	"apihelp-query+abuselog-example-1": "Näytä viimeisimmät lokimerkinnät",
+	"apierror-abusefilter-canttest": "Sinulla ei ole oikeuksia testata väärinkäyttösuodattimia.",
+	"apierror-abusefilter-cantcheck": "Sinulla ei ole oikeuksia tarkastella syntaksia väärinkäyttösuodattimissa.",
+	"apierror-abusefilter-nosuchlogid": "Väärinkäyttösuodattimessa ei ole lokimerkintää tunnisteella $1.",
+	"apierror-abusefilter-badsyntax": "Suodattimella on virheellinen syntaksi."
+}

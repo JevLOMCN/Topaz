@@ -1,0 +1,22 @@
+{
+	"@metadata": {
+		"authors": [
+			"Ayaibrahim",
+			"Bengtsson96",
+			"Lejonel",
+			"Mjälten",
+			"Sabelöga",
+			"WikiPhoenix"
+		]
+	},
+	"apihelp-query+linterrors-summary": "Hämta en lista med lint-fel",
+	"apihelp-query+linterrors-param-categories": "Kategorier över lint-fel",
+	"apihelp-query+linterrors-param-limit": "Antal resultat att fråga",
+	"apihelp-query+linterrors-param-from": "Link-ID att börja fråga från",
+	"apihelp-query+linterrors-param-namespace": "Inkludera endast lint-fel från specificerade namnrymder",
+	"apihelp-query+linterrors-param-pageid": "Inkludera endast luddfel från specificerade namnrymder",
+	"apihelp-query+linterrors-param-title": "Inkludera endast fel från specificerade sidtitlar.",
+	"apihelp-query+linterrors-example-1": "Hämta alla lint-fel i kategorin föråldrade taggar",
+	"apihelp-query+linterstats-summary": "Få antalet fel i varje kategori.",
+	"apihelp-query+linterstats-example-1": "Få antal feli varje kategori"
+}

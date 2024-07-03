@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"ChoiChong"
+		]
+	},
+	"pfunc_time_error": "错误：冇效时间。",
+	"pfunc_expr_unrecognised_word": "表达式错误：唔能识别亇词语“$1”。",
+	"pfunc_expr_unexpected_operator": "表达式错误：未预料亇$1操作符。",
+	"pfunc_expr_missing_operand": "表达式错误：缺少$1亇操作数。",
+	"pfunc_expr_unrecognised_punctuation": "表达式错误：唔能识别亇符号“$1”。",
+	"pfunc_expr_division_by_zero": "零除。"
+}

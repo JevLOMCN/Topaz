@@ -1,0 +1,31 @@
+{
+	"@metadata": {
+		"authors": [
+			"01miki10",
+			"Nike",
+			"Pyscowicz",
+			"Rönttönen",
+			"Stryn"
+		]
+	},
+	"apihelp-visualeditor-param-basetimestamp": "Tallentaessa aseta tämän arvoksi muokatun version aikaleima. Käytetään muokkausristiriitojen havaitsemiseen.",
+	"apihelp-visualeditor-param-etag": "Lähetettävä ETag.",
+	"apihelp-visualeditor-param-format": "Ulostulon muoto.",
+	"apihelp-visualeditor-param-html": "HTML joka muutetaan wikitekstiksi Parsoid-palvelulla.",
+	"apihelp-visualeditor-param-oldid": "Versionumero (oletuksena viimeisin versio)",
+	"apihelp-visualeditor-param-paction": "Suoritettava toiminto.",
+	"apihelp-visualeditor-param-page": "Sivu, jota toiminto koskee.",
+	"apihelp-visualeditor-param-section": "Toiminnan kohteena oleva osio.",
+	"apihelp-visualeditor-param-wikitext": "Wikiteksti joka lähetetään Parsoid-palveluun HTML-muotoon muutettavaksi (paction=parsefragment).",
+	"apihelp-visualeditoredit-param-captchaid": "Captcha-tunniste (tallennettaessa captcha-pyynnön kanssa).",
+	"apihelp-visualeditoredit-param-captchaword": "Vastaus captchaan (tallennettaessa captcha-pyynnön kanssa).",
+	"apihelp-visualeditoredit-param-etag": "ETag joka lähetetään.",
+	"apihelp-visualeditoredit-param-html": "HTML joka muutetaan wikitekstiksi Parsoid-palvelun avulla.",
+	"apihelp-visualeditoredit-param-minor": "Merkitse pieneksi muutokseksi.",
+	"apihelp-visualeditoredit-param-paction": "Suoritettava toiminto.",
+	"apihelp-visualeditoredit-param-page": "Sivu, jota toiminnot koskevat.",
+	"apihelp-visualeditoredit-param-section": "Toiminnan kohteena oleva osio.",
+	"apihelp-visualeditoredit-param-sectiontitle": "Uuden osion otsikko.",
+	"apihelp-visualeditoredit-param-starttimestamp": "Tallennettaessa aseta tämän arvoksi sivun lataamisen aikaleima. Käytetään muokkausristiriitojen havaitsemiseen.",
+	"apihelp-visualeditoredit-param-summary": "Yhteenveto."
+}

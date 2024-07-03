@@ -1,0 +1,42 @@
+{
+	"@metadata": {
+		"authors": [
+			"Amire80",
+			"C.R.",
+			"Ruthven"
+		]
+	},
+	"apihelp-echomarkread-param-list": "N'elenco 'e ll'ID notifiche 'a nzegnare comme fossero lette.",
+	"apihelp-echomarkread-param-unreadlist": "N'elenco 'e ll'ID notifiche 'a nzegnare comme nun fossero lette.",
+	"apihelp-echomarkread-param-all": "Si mpustato, contrassegna tutte 'e notifiche 'e ll'utente comme fossero lette.",
+	"apihelp-echomarkread-param-sections": "N'elenco d' 'e sseziune ca s'avesser' 'a nzegnà comme leggiute.",
+	"apihelp-echomarkread-example-1": "Nzegna 'a notifica 8 comme leggiuta",
+	"apihelp-echomarkread-example-2": "Nzegna tutt' 'e mmasciate comme fussero leggiute",
+	"apihelp-echomarkread-example-3": "Nzegna 'a notifica 1 comme nun leggiuta",
+	"apihelp-echomarkseen-example-1": "Nzegna tutte 'e mmasciate comme leggiute",
+	"apihelp-echomarkseen-param-type": "Tipo 'e notifica pe' nzegnà visto comme: 'allerta', 'mmasciata' o 'tutto'.",
+	"apihelp-query+notifications-param-prop": "Dettaglie d' 'a richiesta.",
+	"apihelp-query+notifications-param-sections": "'E seziune 'e notifica a se ffà 'a query (fossero p'esempio na cumbinazione 'allerta' e 'mmasciata').",
+	"apihelp-query+notifications-param-groupbysection": "Si vulite accucchià 'o risultato pe' sezziona. Ogne seziona se pigliasse comme fosse a spartuta si chisto se buò ffà.",
+	"apihelp-query+notifications-param-filter": "Notifiche 'e filtre turnate.",
+	"apihelp-query+notifications-param-format": "Quanno fosse specificato, 'e notifiche fossero turnate cu stu formato.",
+	"apihelp-query+notifications-paramvalue-format-model": "Notifica 'e date 'ncruro",
+	"apihelp-query+notifications-paramvalue-format-special": "Furmattato p' 'a paggena 'e Special:Notifications (e sulo chesta!) Non v'affidà surtant'a 'o codece HTML pecché chesto putesse cagnà int'a n'atu mumento.",
+	"apihelp-query+notifications-paramvalue-format-flyout": "<span class=\"apihelp-deprecated\">Obsoleto</span>. Ausà <kbd>$1format=model</kbd> p' 'e date 'ncruro",
+	"apihelp-query+notifications-paramvalue-format-html": "<span class=\"apihelp-deprecated\">Obsoleto</span>. Ausà <kbd>$1format=model</kbd> p' 'e date 'ncruro",
+	"apihelp-query+notifications-param-limit": "'O nummero massimo 'e notifiche ca s'avess'a turnà.",
+	"apihelp-query+notifications-param-wikis": "Elenco 'e wiki addò piglià 'e nutifiche (predefinito surtanto p'o wiki 'e mo).",
+	"apihelp-query+notifications-param-crosswikisummary": "Overo (True) pe' puté dicere sì a se piglia nu riassunto 'e notifiche 'e wiki 'e fore.",
+	"apihelp-query+notifications-param-alertcontinue": "Quanno stessero cchiù risultate ccà a disposizione, facite stu prucesso pe cuntinuà.",
+	"apihelp-query+notifications-param-unreadfirst": "Si vulite fà vedé pe primma 'e mmasciate nun leggiute (ausato sulamente si groupbysection nun sta mpustato).",
+	"apihelp-query+notifications-param-alertunreadfirst": "Si s'ha dda mustrà na notifica 'e mmasciata nun leggiuta pprimma (ausato sulamente si groupbysection sta mpustato).",
+	"apihelp-query+notifications-param-messagecontinue": "Quanno cchiù mmasciate sarranno a disposiziona, ausa chesto pe' cuntinuà.",
+	"apihelp-query+notifications-param-messageunreadfirst": "Si vulite mmustà notifiche senza lieggere primma (ausato surtanto si groupbysection fosse mpustato).",
+	"apihelp-query+notifications-param-titles": "Turnasse surtanto 'e notifiche pe' sti ppaggene. Pe' se puté piglià notifiche nun azzeccate a na paggena, ausate [] comme fosse 'o titolo.",
+	"apihelp-query+notifications-example-1": "Elenca notifiche",
+	"apihelp-query+notifications-example-2": "Elenca notifiche, raggruppate pe' seziona, cu 'e cuntegge",
+	"apihelp-query+unreadnotificationpages-param-grouppages": "Paggene 'e chiacchiera 'e gruppo nziem'a ll'argomento suo, e notifiche 'e gruppo nun suòcie a na paggena nziem'a na paggena utente.",
+	"apihelp-query+unreadnotificationpages-param-limit": "'O nummero massimo 'e paggene ca s'avess'a turnà.",
+	"apihelp-query+unreadnotificationpages-param-wikis": "Elenco 'e wiki addò se ponno piglià paggene ch' 'e mmasciate nun liggiute (predefinite p' 'o wiki 'e mo sulamente).",
+	"apihelp-query+unreadnotificationpages-example-1": "Elenco 'e paggene cu ('o cunto 'e) notifche senza lieggere"
+}

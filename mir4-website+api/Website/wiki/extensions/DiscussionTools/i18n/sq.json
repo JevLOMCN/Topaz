@@ -1,0 +1,35 @@
+{
+	"@metadata": {
+		"authors": [
+			"Besnik b",
+			"Klein Muçi",
+			"Liridon",
+			"Пан Хаунд"
+		]
+	},
+	"discussiontools-defaultsummary-reply": "Përgjigje",
+	"discussiontools-emptystate-button": "Nis një diskutim",
+	"discussiontools-emptystate-desc-user": "Faqet e diskutimit janë hapësirat ku njerëzit diskutojnë si të përmirësojnë përmbajtjen në {{SITENAME}} në mënyrën më të mirë të mundshme. Fillo një diskutim të ri tani për të bashkëpunuar me [[:{{SUBJECTPAGENAME}}|{{PAGENAME}}]]. Kini parasysh se çfarë shkruani këtu do të jetë publike dhe për të tjerët.\n\n[[{{MediaWiki:discussiontools-emptystate-link-userpage}}|Mëso më shumë]]",
+	"discussiontools-emptystate-title-user": "Nis një diskutim me {{PAGENAME}}",
+	"discussiontools-replylink": "{{GENDER:|përgjigjuni}}",
+	"discussiontools-replywidget-advanced": "Të mëtejshme",
+	"discussiontools-replywidget-cancel": "Anuloje",
+	"discussiontools-replywidget-mode-source": "Burim",
+	"discussiontools-replywidget-mode-visual": "Pamor",
+	"discussiontools-replywidget-placeholder-reply": "{{GENDER:|Përgjigje}} për {{BIDI:$1}}",
+	"discussiontools-replywidget-preview": "Paraparje",
+	"discussiontools-replywidget-reply": "{{GENDER:|Përgjigje}}",
+	"discussiontools-replywidget-summary": "Përmbledhje",
+	"discussiontools-replywidget-watchthis": "Shtojeni këtë faqe te [[Special:Watchlist|lista juaj e vëzhgimeve]]",
+	"discussiontools-topicheader-authorcount": "$1 {{PLURAL:$1|person|vetë}} në diskutim",
+	"discussiontools-topicheader-commentcount": "$1 {{PLURAL:$1|koment|komente}}",
+	"discussiontools-topicheader-latestcomment": "Komenti i fundit: $1",
+	"discussiontools-topicsubscription-button-subscribe": "pajtohuni",
+	"discussiontools-topicsubscription-button-subscribe-label": "Pajtohuni",
+	"discussiontools-topicsubscription-button-unsubscribe": "shpajtomëni",
+	"discussiontools-topicsubscription-button-unsubscribe-label": "Shpajtomëni",
+	"discussiontools-topicsubscription-notify-subscribed-body": "{{GENDER:|Do}} të merrni njoftime rreth komentesh të reja në këtë temë.",
+	"discussiontools-topicsubscription-notify-subscribed-title": "{{GENDER:|U}} pajtuat!",
+	"discussiontools-topicsubscription-notify-unsubscribed-body": "{{GENDER:|S’do}} të merrni më njoftime rreth komentesh të reja në këtë temë.",
+	"discussiontools-topicsubscription-notify-unsubscribed-title": "{{GENDER:|U}} shpajtuat."
+}

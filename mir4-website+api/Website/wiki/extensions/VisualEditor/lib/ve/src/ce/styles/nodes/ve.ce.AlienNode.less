@@ -1,0 +1,31 @@
+/*!
+ * VisualEditor ContentEditable AlienNode styles.
+ *
+ * @copyright See AUTHORS.txt
+ */
+
+.ve-ce-alienNode-highlights {
+	.ve-ce-focusableNode-highlight {
+		background-color: #95d14f;
+		background-image: repeating-linear-gradient( -45deg, #fff 0, #fff 5px, #95d14f 5px, #95d14f 10px );
+		background-size: 14px 14px;
+		/* stylelint-disable-next-line plugin/no-unsupported-browser-features */
+		cursor: not-allowed;
+
+		.ve-ce-surface-highlights-focused & {
+			background-image: repeating-linear-gradient( -45deg, #6da9f7 0, #6da9f7 5px, #95d14f 5px, #95d14f 10px );
+		}
+	}
+
+	&.ve-ce-focusableNode-highlights-deactivated {
+		.ve-ce-focusableNode-highlight {
+			.ve-ce-surface-highlights-focused & {
+				background-image: repeating-linear-gradient( -45deg, #000 0, #000 5px, #666 5px, #666 10px );
+			}
+		}
+	}
+
+	.ve-ce-surface-highlights-blurred & {
+		opacity: 0.5;
+	}
+}

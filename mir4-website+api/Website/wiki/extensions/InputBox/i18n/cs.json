@@ -1,0 +1,21 @@
+{
+	"@metadata": {
+		"authors": [
+			"Danny B.",
+			"Dvorapa",
+			"Li-sung",
+			"Matěj Suchánek",
+			"Mormegil"
+		]
+	},
+	"inputbox-desc": "Umožňuje vkládat určité HTML formuláře.",
+	"inputbox-error-no-type": "Není určen typ formulářového pole k vytvoření.",
+	"inputbox-error-bad-type": "Nerozpoznaný typ pole „$1“.\nUveďte jednu z možností: „create“, „comment“, „search“, „search2“ nebo „fulltext“.",
+	"inputbox-tryexact": "Zkusit přesnou shodu",
+	"inputbox-searchfulltext": "Plnotextové hledání",
+	"inputbox-createarticle": "Vytvořit článek",
+	"inputbox-movearticle": "Přesunout stránku",
+	"inputbox-postcomment": "Nová sekce",
+	"inputbox-postcommenttitle": "Nová sekce",
+	"inputbox-ns-main": "Hlavní"
+}

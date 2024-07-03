@@ -1,0 +1,29 @@
+{
+	"@metadata": {
+		"authors": [
+			"AlexSm",
+			"Jack who built the house",
+			"Kaganer",
+			"Movses",
+			"Okras",
+			"Ole Yves",
+			"Pacha Tchernof",
+			"Stjn"
+		]
+	},
+	"skinname-monobook": "MonoBook",
+	"monobook-desc": "Классическая тема оформления MediaWiki, созданная в 2004 году и названная в честь чёрно-белой фотографии книги с фона страницы",
+	"monobook.css": "/* Весь размещённый здесь код CSS будет применяться к пользовательской теме оформления «Monobook» */",
+	"monobook.js": "/* Весь размещённый здесь код JavaScript будет применяться к пользовательской теме оформления «Monobook» */",
+	"monobook-jumptotop": "возврат наверх",
+	"monobook-jumptopersonal": "пользовательские инструменты",
+	"monobook-jumptonavigation": "Перейти к навигации",
+	"monobook-jumptosearch": "Перейти к поиску",
+	"monobook-more-actions": "Ещё",
+	"cactions-mobile": "Действия на странице",
+	"monobook-cactions-label": "Действия на странице",
+	"monobook-notifications-link": "Уведомления ($1)",
+	"monobook-notifications-link-none": "Уведомления",
+	"monobook-view-history": "История",
+	"monobook-action-undelete": "Восстановить {{PLURAL:$1|$1 правку|$1 правки|$1 правок|1=правку}}"
+}

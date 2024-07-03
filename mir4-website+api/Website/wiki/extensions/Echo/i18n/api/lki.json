@@ -1,0 +1,18 @@
+{
+	"@metadata": {
+		"authors": [
+			"Hosseinblue",
+			"Reza1615"
+		]
+	},
+	"apihelp-echomarkread-param-list": "فهرستی از شناسه های آگاه سازی به عنوان خوانده شده",
+	"apihelp-echomarkread-param-all": "اگر تنظیم شده‌باشد، همهٔ آگهی‌های یک کاربر به عنوان خوانده‌شده نشانه‌گذاری شوند.",
+	"apihelp-echomarkread-param-sections": "فهرستی از شناسه های آگاه سازی به عنوان خوانده شده",
+	"apihelp-echomarkread-example-1": "علامت گذاری 8 اعلان آگاه سازی به عنوان خوانده شده",
+	"apihelp-echomarkread-example-2": "علامت‌گذاری تمامی اعلان‌ها به عنوان خوانده شده",
+	"apihelp-echomarkseen-example-1": "علامت‌گذاری همهٔ انواع اعلان‌ها به عنوان دیده‌شده",
+	"apihelp-echomarkseen-param-type": "نوع اعلان‌هایی که خوانده‌شده علامت زده شوند: «آگاه‌سازی»، «پیام»، یا «همه»",
+	"apihelp-query+notifications-param-prop": "جزئیات به درخواست.",
+	"apihelp-query+notifications-example-1": "اعلان‌ها را فهرست کن",
+	"apihelp-query+notifications-example-2": "فهرست اعلان‌ها، بخش بندیش شده، همراه با شمار آن‌ها."
+}

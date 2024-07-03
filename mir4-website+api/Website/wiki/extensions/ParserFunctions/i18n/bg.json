@@ -1,0 +1,30 @@
+{
+	"@metadata": {
+		"authors": [
+			"DCLXVI",
+			"Spiritia",
+			"StanProg"
+		]
+	},
+	"pfunc_desc": "Подобряване на парсера с логически функции",
+	"pfunc_time_error": "Грешка: невалидно време",
+	"pfunc_time_too_long": "Грешка: Твърде много извиквания на #time",
+	"pfunc_time_too_big": "Грешка: #time поддържа само години до 9999.",
+	"pfunc_time_too_small": "Грешка: #time поддържа само години от 0.",
+	"pfunc_rel2abs_invalid_depth": "Грешка: Невалидна дълбочина в път: „$1“ (опит за достъп на възел над корена)",
+	"pfunc_expr_stack_exhausted": "Грешка в израза: Стекът е изчерпан.",
+	"pfunc_expr_unexpected_number": "Грешка в записа: Неочаквано число",
+	"pfunc_expr_preg_match_failure": "Грешка в израза: Неочакван проблем с preg_match.",
+	"pfunc_expr_unrecognised_word": "Грешка в записа: Неразпозната дума „$1“.",
+	"pfunc_expr_unexpected_operator": "Грешка в израза: Неочакван оператор $1.",
+	"pfunc_expr_missing_operand": "Грешка в записа: Липсващ операнд в $1",
+	"pfunc_expr_unexpected_closing_bracket": "Грешка в израза: Една затваряща скоба в повече.",
+	"pfunc_expr_unrecognised_punctuation": "Грешка в израза: Неразпознат пунктуационен знак „$1“.",
+	"pfunc_expr_unclosed_bracket": "Грешка в записа: Незатворена скоба",
+	"pfunc_expr_division_by_zero": "Деление на нула",
+	"pfunc_expr_invalid_argument": "Невалиден аргумент за $1: < -1 или > 1",
+	"pfunc_expr_invalid_argument_ln": "Невалиден аргумент за ln: <= 0",
+	"pfunc_expr_unknown_error": "Грешка в израза: Неразпозната грешка ($1).",
+	"pfunc_expr_not_a_number": "В $1: резултатът не е число",
+	"pfunc_string_too_long": "Грешка: Низът превишава ограничението от $1 знака"
+}

@@ -1,0 +1,48 @@
+@import 'mediawiki.skin.variables.less';
+@import 'mediawiki.mixins.less';
+
+.mw-rcfilters-ui-liveUpdateButtonWidget {
+	margin: 0;
+
+	&.oo-ui-toggleWidget-on {
+		position: relative;
+		overflow: hidden;
+		z-index: 0;
+
+		&::after {
+			content: '';
+			/* stylelint-disable-next-line plugin/no-unsupported-browser-features */
+			mix-blend-mode: screen;
+			pointer-events: none;
+			position: absolute;
+			width: 1.875em;
+			height: 1.875em;
+			top: 1.875em / 4;
+			left: 0.46875em;
+			background: rgba( 51, 102, 204, 0.5 );
+			border-radius: @border-radius-circle;
+			opacity: 0;
+			animation: ripple 2.3s ease-out infinite;
+			animation-delay: 1s;
+		}
+	}
+}
+
+@keyframes ripple {
+	0%,
+	35% {
+		transform: scale( 0 );
+		opacity: 1;
+	}
+
+	50% {
+		transform: scale( 1.5 );
+		opacity: 0.8;
+	}
+
+	80%,
+	100% {
+		opacity: 0;
+		transform: scale( 4 );
+	}
+}

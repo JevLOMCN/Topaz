@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"Milicevic01"
+		]
+	},
+	"spam-blacklist": " #<!-- ovu liniju ne dirajte--> <pre>\n# URL-i navedeni ovde neće moći da se dodaju na stranice.\n# Ovaj spisak važi samo za ovaj viki, za ostale upotrebe pogledajte globalni crni spisak.\n# Dokumentacija je na https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:SpamBlacklist\n#\n# Sintaksa je sledeća:\n#   * Sve od znaka „#“ do kraja linije je komentar\n#   * Svaka linija koja nije prazna je deo regularnog izraza (regex fragment) koja odgovara imenu hosta u URL-u\n\n #</pre> <!-- ovu liniju ne dirajte -->",
+	"spam-whitelist": " #<!-- ovu liniju ne dirajte--> <pre>\n# URL-i navedeni ovde *neće* biti blokirani čak i ako\n# se nalaze na crnom spisku.\n#\n# Sintaksa je sledeća:\n#  * Sve od znaka „#“ do kraja linije je komentar\n#  * Svaka linija koja nije prazna je deo regularnog izraza (regex fragment) koja odgovara imenu hosta u URL-u\n\n #</pre> <!-- ovu liniju ne dirajte -->",
+	"spam-blacklist-desc": "Antispam oruđe zasnovano na regularnim izrazima koje onemogućava unos URL adresa odnosno imejl adresa koje se nalaze u crnom spisku",
+	"log-name-spamblacklist": "Dnevnik crne liste nepoželjnog sadržaja",
+	"log-description-spamblacklist": "Ovi događaji prate pogotke u crnoj listi neželjenog sadržaja.",
+	"logentry-spamblacklist-hit": "$1 {{GENDER:$2|napravio|napravila}} je pogodak u crnom spisku spama na stranici $3 pokušavajući da doda $4.",
+	"right-spamblacklistlog": "pregled dnevnika crne liste neželjenog sadržaja",
+	"action-spamblacklistlog": "pregledate dnevnik crne liste neželjenog sadržaja"
+}

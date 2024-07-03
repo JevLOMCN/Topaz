@@ -1,0 +1,11 @@
+/*!
+ * VisualEditor MediaWiki UserInterface link inspector tool styles.
+ *
+ * @copyright See AUTHORS.txt
+ * @license The MIT License (MIT); see LICENSE.txt
+ */
+
+.ve-ui-educationPopup-image-link {
+	background: url( images/link-ltr.png ) no-repeat center/90%;
+	height: 150px;
+}

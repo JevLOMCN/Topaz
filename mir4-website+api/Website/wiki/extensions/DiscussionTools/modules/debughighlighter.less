@@ -1,0 +1,77 @@
+/* stylelint-disable color-named */
+
+.ext-discussiontools-debughighlighter-timestamp {
+	border: 2px solid forestgreen;
+	border-radius: 6px;
+	margin: -2px;
+
+	&:hover::after {
+		content: ' ' attr( title );
+	}
+}
+
+.ext-discussiontools-debughighlighter-signature {
+	border: 2px solid blue;
+	border-bottom-left-radius: 6px;
+	border-top-left-radius: 6px;
+	border-right: 0;
+	margin: -2px;
+	margin-right: 0;
+
+	& + .ext-discussiontools-debughighlighter-timestamp {
+		border-left: 0;
+		padding-left: 0;
+		margin-left: 0;
+		border-bottom-left-radius: 0;
+		border-top-left-radius: 0;
+	}
+}
+
+.ext-discussiontools-debughighlighter-comment {
+	position: absolute;
+	opacity: 0.2;
+	pointer-events: none;
+
+	&:nth-of-type( 2n ) {
+		background: lightpink;
+	}
+
+	&:nth-of-type( 2n + 1 ) {
+		background: skyblue;
+	}
+
+	&-ruler {
+		position: absolute;
+		box-sizing: border-box;
+		border-left: 2px solid #ccc;
+		border-bottom: 2px solid #ccc;
+		border-bottom-left-radius: 3px;
+	}
+
+	&-warnings {
+		position: absolute;
+		color: transparent;
+		font-size: 0;
+		height: 1em;
+		width: 1em;
+		pointer-events: none;
+
+		&:hover {
+			background: white;
+			color: red;
+			font-size: inherit;
+			pointer-events: all;
+		}
+
+		&::before {
+			content: '⚠';
+			color: #000;
+			background: #fff;
+			font-size: 1rem;
+			pointer-events: all;
+			margin-left: -1em;
+			position: absolute;
+			z-index: 1;
+		}
+	}
+}

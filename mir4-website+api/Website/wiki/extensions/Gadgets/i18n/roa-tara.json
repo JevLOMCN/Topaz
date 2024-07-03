@@ -1,0 +1,37 @@
+{
+	"@metadata": {
+		"authors": [
+			"Joetaras"
+		]
+	},
+	"gadgets-desc": "Lasse scacchià a l'utinde le [[Special:Gadgets|gadget CSS e JavaScript]] personalizzate jndr'à le lore [[Special:Preferences#mw-prefsection-gadgets|preferenze]]",
+	"prefs-gadgets": "Gadget",
+	"prefs-description-gadgets": "Abbilite dettaglie aggiundive pu cunde tune.",
+	"gadgets-prefstext": "Sotte stè 'n'elenghe de gadget speciale ca tu abbilità sus a 'u cunde tune.\nSte riale sò assaije basate sus a JavaScript, accussì Javascript addà essere abbilitate jndr'à 'u browser tune pe le fà fatià.\nVide ca ste riale non ge tènene effette sus a sta pàgene de preferenze.\n\nPò vide pure ca ste gadget non ge sonde parte d'u softuee de MediaUicchi e sonde normalmende sviluppate e mandenute da l'utinde d'a Uicchipèdie locale tune.\nLe amministrature locale de inderfacce ponne cangià l'elenghede le gadget disponibbele ausanne le [[MediaWiki:Gadgets-definition|definiziune]], ele amministrature locale ponne cangià le lore [[Special:Gadgets|descriziune]], quanne puè 'ndrucà 'u codece sorgende de ogne gadget. Le numere de le utinde pe ogne gadget sus a sta uicchi ste elengate sus a [[Special:GadgetUsage|Statisteche d'ause de le gadget]].",
+	"special-gadgets": "Gadget",
+	"gadgetusage": "Statisteche sus a l'ause d'u gadget",
+	"gadgetusage-gadget": "Gadget",
+	"gadgetusage-usercount": "Numere de utinde",
+	"gadgetusage-noresults": "Nisciuna gadget acchiate.",
+	"gadgetusage-intro": "Sta tabbelle indiche 'u numere de utinde ca onne attivate 'nu accessorie sus a sta uicchi. 'N'utende attive jè conziderate cengade ave fatte 'nu cangiamende {{PLURAL:$1|jndr'à l'urteme sciurne|jndr'à le urteme $1 sciurne}}. Stu elenghe esclude le statisteche pe le accessorie abbilitate pe tutte pe 'mbostazione predefinite e pò 'ngludere pure accessorie ca non ge sò cchiù disponibbele.",
+	"gadgetusage-intro-noactive": "Sta tabbelle indiche 'u numere de utinde ca onne attivate 'nu accessorie sus a sta uicchi. Stu elenghe esclude le statisteche pe le accessorie abbilitate pe tutte pe 'mbostazione predefinite e pò 'ngludere pure accessorie ca non ge sò cchiù disponibbele.",
+	"gadgetusage-activeusers": "Utinde attive",
+	"gadgetusage-default": "De base",
+	"gadgets-title": "Gadget",
+	"gadgets-pagetext": "Sotte stè 'n'elenghe de gadget speciale ca l'utinde ponne abbilità sus a lore [[Special:Preferences#mw-prefsection-gadgets|pàgene de le preferenze]], cumme definite da le [[MediaWiki:Gadgets-definition|definiziune]].\nStu riepileghe prevede 'nu facile facile accesse a le pàggene de le messagge d'u sisteme ca definiscene ogne descrizione e codece de le gadget.",
+	"gadgets-editdescription": "Cange 'a descrizione",
+	"gadgets-viewdescription": "'Ndruche 'a descrizione",
+	"gadgets-uses": "Ause",
+	"gadgets-required-rights": "Richiede {{PLURAL:$2|deritte|deritte}}:\n\n$1",
+	"gadgets-required-skins": "Disponibbele {{PLURAL:$2|$1 pu skin|pe le seguende skin: $1}}.",
+	"gadgets-required-actions": "Limitate {{PLURAL:$2|a l'azione d'a pàgene \"$1\"|a ste aziune de pàgene: $1}}.",
+	"gadgets-default": "Abbilete pe ogneune pe default.",
+	"gadgets-legacy": "Accessorie non caricate. Migre a ResourceLoader. ([https://www.mediawiki.org/wiki/Special:MyLanguage/ResourceLoader/Migration_guide_(users) pe cchiù 'mbormaziune])",
+	"gadgets-export": "Esporte",
+	"gadgets-export-title": "Esporte 'u gadget",
+	"gadgets-not-found": "Gadget \"$1\" none acchiate.",
+	"gadgets-export-text": "Pe esportà 'u $1 gadget, cazze sus a 'u buttone \"{{int:gadgets-export-download}}\", reggistre 'u file scarecate, veje'a pàgene Special:Import sus 'a Uicchi de destinazione e carechele. Pò aggiunge 'a seguende pàgene MediaWiki:Gadgets-definition:\n<pre>$2</pre>\nTu a ave le permesse appropriate sus 'a Uicchi de destinazione (ingludenne le deritte a cangià le messagge d'u sisteme) e 'a 'mbortazione da file carecate adda essere abbilitate.",
+	"gadgets-export-download": "Scareche",
+	"gadgets-validate-notset": "'A probbietà <code>$1</code> non g'ha state 'mbostate.",
+	"gadgets-validate-wrongtype": "'A probbietà <code>$1</code> adda essere <code>$2</code> invece de <code>$3</code>."
+}

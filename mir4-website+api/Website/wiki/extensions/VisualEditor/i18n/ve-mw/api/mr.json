@@ -1,0 +1,42 @@
+{
+	"@metadata": {
+		"authors": [
+			"Sureshkhole",
+			"V.narsikar"
+		]
+	},
+	"apierror-visualeditor-badcachekey": "ह्या कळीसाठी कोणतेही कॅचेमालिकाकरण सापडले नाही.",
+	"apierror-visualeditor-difffailed": "फ़रक दाखवणे शक्य नाही",
+	"apihelp-visualeditor-param-basetimestamp": "जतन करतांना, यास संपादित केलेल्या आवृत्तीच्या वेळठश्यावर स्थापा.संपादन विसंवादाला शोधण्यास उपयोगी.",
+	"apihelp-visualeditor-param-editintro": "सूचना जोडण्यासाठी परिचय संपादित करा",
+	"apihelp-visualeditor-param-etag": "पाठवण्यासाठी ई-टॅग करा",
+	"apihelp-visualeditor-param-format": "उत्तराचे स्वरुप",
+	"apihelp-visualeditor-param-html": "पार्सोईडकडून विकीटेक्स्टमध्ये रुपांतरण करण्यासाठीचे HTML",
+	"apihelp-visualeditor-param-oldid": "वापरण्यासाठीचा आवृती क्रमांक (आत्ताचा क्रमांक सध्याच्या आवृतीचा आहे).",
+	"apihelp-visualeditor-param-paction": "करण्याची क्रिया.",
+	"apihelp-visualeditor-param-page": "ज्या पानावर क्रिया करावयाची आहे.",
+	"apihelp-visualeditor-param-preload": "जर शोधलेल्या पानामध्ये मजकूर नसल्यास ह्या पानाचा मजकूर वापरला जातो.",
+	"apihelp-visualeditor-param-preloadparams": "जर अस्तित्वात असेल तर, आधीच संग्रह केलेल्या पानामधील मजकूर बदलण्यासाठीचे संकेत",
+	"apihelp-visualeditor-param-pst": "पार्सोईडकडे पाठवण्या आधी आपला मजकूर आपल्याकडे साठवून ठेवा. (paction=parsefragment).",
+	"apihelp-visualeditor-param-section": "कोणत्या विभागावर कार्य करायचे तो.",
+	"apihelp-visualeditor-param-starttimestamp": "जतन करतांना, यास संपादित केलेल्या आवृत्तीच्या वेळठश्यावर स्थापा.संपादन विसंवाद शोधण्यास उपयोगी.",
+	"apihelp-visualeditor-param-wikitext": "पार्सोईडचे HTML मध्ये रुपांतरण करण्यासाठीची विकिटेक्स्ट (paction=parsefragment).",
+	"apihelp-visualeditor-summary": "पार्सोईड सेवांकडून HTML5 पान तयार करते",
+	"apihelp-visualeditoredit-param-basetimestamp": "जतन करतांना, यास संपादित केलेल्या आवृत्तीच्या वेळठश्यावर स्थापा.संपादन विसंवाद शोधण्यास उपयोगी.",
+	"apihelp-visualeditoredit-param-cachekey": "ह्या कळीबरोबर आधीच्या कॅचेमालिकाकरणाचे निकाल वापरा. त्यामुळे $1html पासून सुटका मिळेल.",
+	"apihelp-visualeditoredit-param-captchaid": "कॅपचा क्रमांक (कॅपचा उत्तराने जतन करताना)",
+	"apihelp-visualeditoredit-param-captchaword": "कॅपचाला उत्तर द्या (कॅपचा उत्तराने जतन करताना)",
+	"apihelp-visualeditoredit-param-etag": "पाठवण्यासाठी ई-टॅग करा",
+	"apihelp-visualeditoredit-param-html": "पार्सोईडकडून विकीटेक्स्टमध्ये रुपांतरण करण्यासाठीचे HTML",
+	"apihelp-visualeditoredit-param-minor": "छोट्या संपादनासाठी खूणपताका.",
+	"apihelp-visualeditoredit-param-needcheck": "जतन करताना, जर आवृतीमध्ये पुर्नर्वृत्तीची समस्या येत असेल तर हे संकेत निश्चित करा. यामुळे ही संपादने टॅग केली जातील.",
+	"apihelp-visualeditoredit-param-oldid": "वापरण्यासाठीचा पुनरावृत्ती क्रमांक. सध्या दाखवलेली आत्ताची आवृत्ती. नव्या आवृत्तीसाठी O.",
+	"apihelp-visualeditoredit-param-paction": "करण्याची क्रिया.",
+	"apihelp-visualeditoredit-param-page": "ज्या पानावर क्रिया करावयाच्या आहेत.",
+	"apihelp-visualeditoredit-param-section": "कोणत्या विभागावर कार्य करायचे तो.",
+	"apihelp-visualeditoredit-param-sectiontitle": "नविन विभागाचा मथळा",
+	"apihelp-visualeditoredit-param-starttimestamp": "जतन करतांना, यास संपादित केलेल्या आवृत्तीच्या वेळठश्यावर स्थापा.संपादन विसंवाद शोधण्यास उपयोगी.",
+	"apihelp-visualeditoredit-param-summary": "संपादन सारांश.",
+	"apihelp-visualeditoredit-param-wikitext": "सध्याच्या कामाचे विकीटेक्स्ट",
+	"apihelp-visualeditoredit-summary": "HTML5 पान मिडीयाविकीमधे जपून ठेवा (पार्सोईड सेवा वापरून विकीटेक्स्टमध्ये रुपांतर केलेले आहे)."
+}

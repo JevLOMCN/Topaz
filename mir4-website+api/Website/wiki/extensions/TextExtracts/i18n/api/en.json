@@ -1,0 +1,21 @@
+{
+	"@metadata": {
+		"authors": []
+	},
+	"apihelp-query+extracts-summary": "Returns plain-text or limited HTML extracts of the given pages.",
+	"apihelp-query+extracts-param-chars": "How many characters to return. Actual text returned might be slightly longer.",
+	"apihelp-query+extracts-param-sentences": "How many sentences to return.",
+	"apihelp-query+extracts-param-limit": "How many extracts to return. (Multiple extracts can only be returned if exintro is set to true.)",
+	"apihelp-query+extracts-param-intro": "Return only content before the first section.",
+	"apihelp-query+extracts-param-plaintext": "Return extracts as plain text instead of limited HTML.",
+	"apihelp-query+extracts-param-sectionformat": "How to format sections in plaintext mode:",
+	"apihelp-query+extracts-paramvalue-sectionformat-plain": "No formatting.",
+	"apihelp-query+extracts-paramvalue-sectionformat-wiki": "Wikitext-style formatting (== like this ==).",
+	"apihelp-query+extracts-paramvalue-sectionformat-raw": "This module's internal representation (section titles prefixed with &lt;ASCII 1&gt;&lt;ASCII 2&gt;&lt;section level&gt;&lt;ASCII 2&gt;&lt;ASCII 1&gt;).",
+	"apihelp-query+extracts-example-1": "Get a 175-character extract",
+	"apiwarn-textextracts-limit": "<var>exlimit</var> was too large for a whole article extracts request, lowered to $1.",
+	"apiwarn-textextracts-unsupportedmodel": "$1 has content model $2, which is not supported; returning an empty extract.",
+	"apiwarn-textextracts-title-in-file-namespace": "Extract for a title in File namespace was requested, none returned.",
+	"apiwarn-textextracts-sentences-and-html": "The <var>$1sentences</var> parameter may have unexpected results when used in HTML mode.",
+	"apiwarn-textextracts-malformed-html": "HTML may be malformed and/or unbalanced and may omit inline images. Use at your own risk. Known problems are listed at https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:TextExtracts#Caveats."
+}

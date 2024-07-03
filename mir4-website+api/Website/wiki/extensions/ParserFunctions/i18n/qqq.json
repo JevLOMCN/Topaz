@@ -1,0 +1,34 @@
+{
+	"@metadata": {
+		"authors": [
+			"Jon Harald Søby",
+			"Kghbln",
+			"Meno25",
+			"Shirayuki",
+			"Siebrand",
+			"The Evil IP address",
+			"Umherirrender"
+		]
+	},
+	"pfunc_desc": "{{desc|name=Parser Functions|url=https://www.mediawiki.org/wiki/Extension:ParserFunctions}}",
+	"pfunc_time_error": "Used as error message about DateTime object, so this \"time\" means \"date and time\".\n\nSee also:\n* {{msg-mw|Pfunc time too long}}\n* {{msg-mw|Pfunc time too big}}\n* {{msg-mw|Pfunc time too small}}",
+	"pfunc_time_too_long": "Used as error message.\n\nSee also:\n* {{msg-mw|Pfunc time error}}\n* {{msg-mw|Pfunc time too big}}\n* {{msg-mw|Pfunc time too small}}",
+	"pfunc_time_too_big": "Used as error message.\n\nSee also:\n* {{msg-mw|Pfunc time error}}\n* {{msg-mw|Pfunc time too long}}\n* {{msg-mw|Pfunc time too small}}",
+	"pfunc_time_too_small": "Used as error message.\n\nSee also:\n* {{msg-mw|Pfunc time error}}\n* {{msg-mw|Pfunc time too long}}\n* {{msg-mw|Pfunc time too big}}",
+	"pfunc_rel2abs_invalid_depth": "Used as error message. Parameters:\n* $1 - full path",
+	"pfunc_expr_stack_exhausted": "Used as error message.\n{{Related|Pfunc expr}}",
+	"pfunc_expr_unexpected_number": "Used as error message.\n{{Related|Pfunc expr}}",
+	"pfunc_expr_preg_match_failure": "{{doc-important|Do not translate <code>preg_match</code>. It is a PHP function name.}}\nUsed as error message.\n{{Related|Pfunc expr}}",
+	"pfunc_expr_unrecognised_word": "Used as error message. Parameters:\n* $1 - word\n{{Related|Pfunc expr}}",
+	"pfunc_expr_unexpected_operator": "Used as error message. Parameters:\n* $1 - operator\n{{Related|Pfunc expr}}",
+	"pfunc_expr_missing_operand": "Used as error message. Parameters:\n* $1 - operator name. e.g. +, -, not, mod, sin, cos, sqrt\n{{Related|Pfunc expr}}",
+	"pfunc_expr_unexpected_closing_bracket": "Used as error message.\n{{Related|Pfunc expr}}",
+	"pfunc_expr_unrecognised_punctuation": "Used as error message. Parameters:\n* $1 - invalid character\n{{Related|Pfunc expr}}",
+	"pfunc_expr_unclosed_bracket": "Used as error message.\n{{Related|Pfunc expr}}",
+	"pfunc_expr_division_by_zero": "Used as error message.\n{{Related|Pfunc expr}}",
+	"pfunc_expr_invalid_argument": "Used as error message when the operand is invalid. Parameters:\n* $1 - operator name. Any one of the following: asin, acos\n{{Related|Pfunc expr}}",
+	"pfunc_expr_invalid_argument_ln": "{{doc-important|Do not translate <code>ln</code>. It is an operator.}}\nUsed as error message when the operand for the operator \"ln\" is invalid.\n{{Related|Pfunc expr}}",
+	"pfunc_expr_unknown_error": "Used as error message.\n\nIn the source code, there is a comment \"// Should be impossible to reach here.\".\n\nParameters:\n* $1 - (Undefined in the source code)\n{{Related|Pfunc expr}}",
+	"pfunc_expr_not_a_number": "Used as error message when the result of \"sqrt\" (square root) is not a number.\n\nParameters:\n* $1 - operator name: sqrt\n{{Related|Pfunc expr}}",
+	"pfunc_string_too_long": "PLURAL is supported for $1."
+}

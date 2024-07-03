@@ -1,0 +1,32 @@
+{
+	"@metadata": {
+		"authors": [
+			"Semina x",
+			"Srdjan m",
+			"Srđan"
+		]
+	},
+	"apihelp-visualeditor-param-basetimestamp": "Postavite ovo na vremensku oznaku verzije koja je uređivana prilikom čuvanja. Koristi se da bi se otkrili sukobi u izmjenama.",
+	"apihelp-visualeditor-param-cachekey": "Koristite rezultat prethodnog zahtjeva za serializeforcache s ovim ključem da biste serijalizirali ili koristili razl. Nadjačava $1html.",
+	"apihelp-visualeditor-param-etag": "ETag za slanje.",
+	"apihelp-visualeditor-param-html": "HTML kôd za slanje Parsoidu kako bi se pretvorio u wikitekst.",
+	"apihelp-visualeditor-param-oldid": "Broj verzije koji treba koristiti (predodređena je posljednja verzija).",
+	"apihelp-visualeditor-param-paction": "Radnja koju treba izvršiti.",
+	"apihelp-visualeditor-param-page": "Stranica na koju treba izvršiti radnje.",
+	"apihelp-visualeditor-param-pst": "Sačuvaj transformirani wikitekst prije njegovog slanja Parsoidu (paction=parsefragment).",
+	"apihelp-visualeditor-param-starttimestamp": "Postavite ovo na vremensku oznaku verzije koja je učitana prilikom čuvanja. Koristi se da bi se otkrili sukobi u izmjenama.",
+	"apihelp-visualeditor-param-wikitext": "Wikitekst koji se treba poslati Parsoidu za pretvaranje u HTML (paction=parsefragment).",
+	"apihelp-visualeditoredit-param-basetimestamp": "Postavite ovo na vremensku oznaku verzije koja je uređivana prilikom čuvanja. Koristi se da bi se otkrili sukobi u izmjenama.",
+	"apihelp-visualeditoredit-param-cachekey": "Koristite rezultat prethodnog zahtjeva za serializeforcache s ovim ključem. Nadjačava $1html.",
+	"apihelp-visualeditoredit-param-captchaid": "Captcha ID (kada čuvate sa captcha odgovorom).",
+	"apihelp-visualeditoredit-param-captchaword": "Odgovor na captchu (kada sačuvate sa captcha odgovorom).",
+	"apihelp-visualeditoredit-param-etag": "ETag za slanje.",
+	"apihelp-visualeditoredit-param-html": "HTML kôd za slanje Parsoidu za wikitekst.",
+	"apihelp-visualeditoredit-param-minor": "Označi kao manju izmjenu.",
+	"apihelp-visualeditoredit-param-needcheck": "Postavite ovaj parametar ako je moguće da verzija ima problema s kružnom putanjom kad čuvate. U ovom slučaju, izmjena će se označiti.",
+	"apihelp-visualeditoredit-param-oldid": "Broj verzije koji treba koristiti. Predodređeno je da se koristi najnovija verzija. Koristite 0 za novu stranicu.",
+	"apihelp-visualeditoredit-param-paction": "Radnja koju treba izvršiti.",
+	"apihelp-visualeditoredit-param-page": "Stranica na koju treba izvršiti radnje.",
+	"apihelp-visualeditoredit-param-starttimestamp": "Postavite ovo na vremensku oznaku verzije koja je učitana prilikom čuvanja. Koristi se da bi se otkrili sukobi u izmjenama.",
+	"apihelp-visualeditoredit-param-summary": "Sažetak."
+}

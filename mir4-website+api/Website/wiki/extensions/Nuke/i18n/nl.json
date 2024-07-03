@@ -1,0 +1,39 @@
+{
+	"@metadata": {
+		"authors": [
+			"JensRiskin",
+			"Mainframe98",
+			"McDutchie",
+			"SPQRobin",
+			"Siebrand",
+			"Sjoerddebruin",
+			"Wiki13"
+		]
+	},
+	"nuke": "Massaal verwijderen",
+	"action-nuke": "massaal pagina's te verwijderen",
+	"nuke-desc": "Geeft beheerders de mogelijkheid om [[Special:Nuke|massaal pagina's te verwijderen]]",
+	"nuke-nopages": "Geen nieuwe pagina's van [[Special:Contributions/$1|{{GENDER:$1|$1}}]] in de recente wijzigingen.",
+	"nuke-list": "De onderstaande pagina's zijn recentelijk aangemaakt door [[Special:Contributions/$1|{{GENDER:$1|$1}}]]; voer een reden in en klik op de knop om ze te verwijderen.",
+	"nuke-list-multiple": "De volgende pagina's zijn recentelijk aangemaakt.\nGeef een reden op en klik op de knop om ze te verwijderen.",
+	"nuke-defaultreason": "Massaal verwijderen van pagina's toegevoegd door [[Special:Contributions/$1|{{GENDER:$1|$1}}]]",
+	"nuke-multiplepeople": "Massaal verwijderen van recent toegevoegde pagina's",
+	"nuke-tools": "Dit hulpmiddel maakt het mogelijk pagina's die recentelijk zijn aangemaakt door een gebruiker of IP-adres massaal te verwijderen.\nVoer de gebruikersnaam of het IP-adres in voor een lijst van te verwijderen pagina's of laat leeg voor alle gebruikers.",
+	"nuke-submit-user": "Toon pagina's",
+	"nuke-submit-delete": "Geselecteerde pagina's verwijderen",
+	"right-nuke": "Massaal pagina's verwijderen",
+	"nuke-userorip": "Gebruikersnaam, IP-adres of leeg:",
+	"nuke-maxpages": "Maximum aantal pagina's:",
+	"nuke-editby": "Aangemaakt door [[Special:Contributions/$1|{{GENDER:$1|$1}}]]",
+	"nuke-deleted": "Pagina '''$1''' is verwijderd.",
+	"nuke-deletion-queued": "Pagina '''$1''' is in de wachtrij voor verwijdering gezet.",
+	"nuke-not-deleted": "Pagina [[:$1]] '''kon niet''' worden verwijderd.",
+	"nuke-delete-more": "[[Special:Nuke|Meer pagina's verwijderen]]",
+	"nuke-pattern": "SQL Like patroon (bijv. %) voor de paginanaam:",
+	"nuke-nopages-global": "Er zijn geen pagina titels die met uw zoekterm overeenkomen.",
+	"nuke-viewchanges": "wijzigingen bekijken",
+	"nuke-namespace": "Beperk tot naamruimte:",
+	"nuke-linkoncontribs": "massaal verwijderen",
+	"nuke-linkoncontribs-text": "De pagina's waarvan {{GENDER:$1|deze gebruiker}} de enige auteur is massaal verwijderen",
+	"nuke-confirm": "U staat op het punt om {{PLURAL:$1|een pagina| $1 pagina's}} te verwijderen. Weet u zeker dat u deze pagina's wilt verwijderen?"
+}

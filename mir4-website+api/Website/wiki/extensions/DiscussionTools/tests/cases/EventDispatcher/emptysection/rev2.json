@@ -1,0 +1,31 @@
+[
+	{
+		"type": "dt-subscribed-new-comment",
+		"title": {},
+		"extra": {
+			"subscribed-comment-name": "h-Y-2020-01-01T00:02:00.000Z",
+			"comment-id": "c-Y-2020-01-01T00:02:00.000Z-C",
+			"comment-name": "c-Y-2020-01-01T00:02:00.000Z",
+			"content": "D.",
+			"section-title": "C",
+			"revid": null,
+			"mentioned-users": []
+		},
+		"agent": {}
+	},
+	{
+		"type": "dt-added-topic",
+		"title": {},
+		"extra": {
+			"subscribed-comment-name": "p-topics-1:MediaWiki\\Extension\\DiscussionTools\\Tests\\EventDispatcherTest",
+			"heading-id": "h-C-2020-01-01T00:02:00.000Z",
+			"heading-name": "h-Y-2020-01-01T00:02:00.000Z",
+			"section-title": "C",
+			"revid": null,
+			"comment-id": "c-Y-2020-01-01T00:02:00.000Z-C",
+			"comment-name": "c-Y-2020-01-01T00:02:00.000Z",
+			"content": "D."
+		},
+		"agent": {}
+	}
+]

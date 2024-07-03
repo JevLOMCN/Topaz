@@ -1,0 +1,38 @@
+{
+	"@metadata": {
+		"authors": [
+			"BadDog",
+			"Milicevic01",
+			"Rancher",
+			"Sasa Stefanovic",
+			"Жељко Тодоровић",
+			"Михајло Анђелковић",
+			"Сербијана"
+		]
+	},
+	"replacetext": "Замена текста",
+	"replacetext_originaltext": "Првобитни текст:",
+	"replacetext_replacementtext": "Нови текст:",
+	"replacetext_optionalfilters": "Необавезни филтери:",
+	"replacetext_categorysearch": "Замени само у категорији:",
+	"replacetext_editpages": "Замени текст у садржају странице",
+	"replacetext_movepages": "Замени текст у насловима страница, када је могуће",
+	"replacetext_givetarget": "Морате навести ниску коју желите да замените.",
+	"replacetext_nonamespace": "Морате изабрати барем један именски простор.",
+	"replacetext_editormove": "Морате изабрати барем једну од могућности за замену.",
+	"replacetext_choosepagesforedit": "Замени „$1“ са „$2“ у тексту {{PLURAL:$3|следеће странице|следећих $3 страница}}:",
+	"replacetext_cannotmove": "{{PLURAL:$1|Следећа страница не може бити премештена|Следеће странице не могу бити премештене}}:",
+	"replacetext_formovedpages": "За премештене странице:",
+	"replacetext_savemovedpages": "Сачувај старе наслове као преусмерења ка новим насловима",
+	"replacetext_watchmovedpages": "Надгледај ове стране",
+	"replacetext_invertselections": "Обрни избор",
+	"replacetext_replace": "Замени",
+	"replacetext_success": "„$1“ ће бити замењено са „$2“ у $3 {{PLURAL:$3|страни|страна}}.",
+	"replacetext_noreplacement": "Није нађена ниједна страница која садржи стринг '$1'.",
+	"replacetext_nomove": "Није нађена ниједна страница чији наслов садржи „$1“.",
+	"replacetext_return": "Назад на образац.",
+	"replacetext_continue": "Настави",
+	"replacetext_botedit": "Означи измене као ботовске",
+	"replacetext_editsummary": "Замена текста — „$1” у „$2”",
+	"right-replacetext": "замењивање ниски на целом викију"
+}

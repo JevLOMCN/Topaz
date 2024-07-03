@@ -1,0 +1,112 @@
+/*!
+ * VisualEditor UserInterface CommandHelpDialog styles.
+ *
+ * @copyright See AUTHORS.txt
+ */
+
+.ve-ui-commandHelpDialog {
+	&-container {
+		-moz-columns: 3 19.5em;
+		-webkit-columns: 3 19.5em;
+		columns: 3 19.5em;
+	}
+
+	&-section {
+		/*
+		 * Hack 1: Prevent splitting over columns. This should be done with
+		 * column-break-inside but it's not well supported yet.
+		 */
+		display: inline-block;
+		width: 100%;
+
+		h3 {
+			text-align: center;
+			margin: 0;
+			padding: 0;
+		}
+	}
+
+	&-list {
+		margin: 0.5em 0 1.5em 0;
+
+		dd {
+			display: inline-block;
+			vertical-align: top;
+			width: 45%;
+			margin: 0;
+		}
+
+		dt {
+			display: inline-block;
+			vertical-align: top;
+			box-sizing: border-box;
+			width: 55%;
+			padding-right: 1em;
+			text-align: right;
+
+			> kbd {
+				display: block;
+				clear: right;
+
+				/* Enlarge vertical spacing in a list of shortcuts for one action */
+				~ kbd {
+					margin-top: 0.5em;
+				}
+			}
+		}
+
+		dd,
+		dt {
+			line-height: 1.4;
+			margin-top: 0.5em;
+			margin-bottom: 0.5em;
+		}
+	}
+
+	&-shortcut,
+	&-sequence {
+		/* Support: Blink, Gecko, Webkit */
+		/* Specify a valid second value to fix size, see T176636 */
+		font-family: monospace, monospace;
+		font-size: 0.8125em;
+		font-weight: bold;
+		font-style: normal;
+
+		> kbd { /* stylelint-disable-line no-descending-specificity */
+			background-color: #f8f9fa;
+			color: #222;
+			border: 1px solid #c8ccd1;
+			border-radius: 2px;
+			box-shadow: 0 1px 0 rgba( 0, 0, 0, 0.2 ), 0 0 0 2px #fff inset;
+			display: inline-block;
+			line-height: 1.4;
+			padding: 0.1em 0.4em;
+			margin: -0.1em 0.3em 0;
+			text-shadow: 0 1px 0 #fff;
+			text-transform: uppercase;
+			text-align: center;
+		}
+	}
+
+	&-sequence {
+		&[ data-label ]::before {
+			content: attr( data-label );
+			font-weight: normal;
+			font-style: italic;
+			padding-right: 3px;
+		}
+
+		kbd:not( .ve-ui-commandHelpDialog-specialKey ) {
+			box-shadow: none;
+			text-transform: none;
+
+			+ kbd:not( .ve-ui-commandHelpDialog-specialKey ) {
+				margin-left: -0.5em;
+				padding-left: 0;
+				border-left: 0;
+				border-top-left-radius: 0;
+				border-bottom-left-radius: 0;
+			}
+		}
+	}
+}

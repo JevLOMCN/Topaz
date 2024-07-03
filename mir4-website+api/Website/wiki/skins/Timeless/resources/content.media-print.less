@@ -1,0 +1,24 @@
+@import 'variables-content.less';
+
+figure[ typeof~='mw:File/Thumb' ],
+figure[ typeof~='mw:File/Frame' ] {
+	border: @border-thumbinner-print;
+	border-bottom: 0; // No border to figcaption
+	background-color: @background-color-thumbinner-print;
+
+	> :not( figcaption ) .mw-file-element {
+		border: @border-thumbimage-print;
+	}
+
+	> figcaption {
+		border: @border-thumbinner-print;
+		border-top: 0;
+		background-color: @background-color-thumbinner-print;
+		font-size: @font-size-thumbinner-print;
+		color: @color-thumbinner-print;
+	}
+}
+
+.mw-image-border .mw-file-element {
+	border: @border-thumbborder-print;
+}

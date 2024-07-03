@@ -1,0 +1,52 @@
+@import 'mediawiki.skin.variables.less';
+
+.mw-mmv-overlay {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	z-index: 1000;
+	background-color: #000;
+}
+
+body.mw-mmv-lightbox-open {
+	overflow-y: auto;
+
+	// Stop the article from scrolling in the background
+	> *:not( .mw-notification-area-overlay ) {
+		display: none;
+	}
+
+	> .mw-mmv-overlay,
+	> .mw-mmv-wrapper {
+		display: block;
+	}
+}
+
+.mw-mmv-filepage-buttons {
+	margin-top: 5px;
+
+	.cdx-button:nth-child(n + 2) {
+		border-left: none;
+	}
+
+	.mw-mmv-view-expanded .cdx-button__icon {
+		.cdx-mixin-css-icon( @cdx-icon-image-gallery, @param-is-button-icon: true,
+			@param-size-icon: @size-icon-small );
+	}
+
+	.mw-mmv-view-config .cdx-button__icon {
+		.cdx-mixin-css-icon( @cdx-icon-settings, @param-is-button-icon: true,
+			@param-size-icon: @size-icon-small );
+	}
+}
+
+.mw-mmv-button {
+	background-color: transparent;
+	min-width: 0;
+	border: 0;
+	padding: 0;
+	overflow-x: hidden;
+	text-indent: -9999em;
+}

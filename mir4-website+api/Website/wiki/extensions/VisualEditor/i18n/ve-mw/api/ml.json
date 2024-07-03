@@ -1,0 +1,32 @@
+{
+	"@metadata": {
+		"authors": [
+			"Praveenp"
+		]
+	},
+	"apihelp-visualeditor-param-basetimestamp": "സേവ് ചെയ്യുമ്പോൾ, തിരുത്തിയ നാൾപ്പതിപ്പിന്റെ സമയമുദ്രയായി ഇത് സജ്ജീകരിക്കുക. തിരുത്തൽ സമരസപ്പെടായ്കകൾ കണ്ടെത്താൻ ഉപയോഗിക്കുന്നതാണ്.",
+	"apihelp-visualeditor-param-cachekey": "സമാന്തരപ്പെടുത്താനോ വ്യത്യാസത്തിനോ വേണ്ടി, ഈ ചാവി ഉപയോഗിച്ചുള്ള മുമ്പത്തെ serializeforcache അഭ്യർത്ഥനയുടെ ഫലം ഉപയോഗിക്കുക. $1html അതിലംഘിക്കുന്നതാണ്.",
+	"apihelp-visualeditor-param-etag": "അയയ്ക്കാനുള്ള ഇ-ടാഗ്.",
+	"apihelp-visualeditor-param-html": "വിക്കി എഴുത്ത് ആക്കാൻ എച്ച്.റ്റി.എം.എൽ. പാഴ്‌സോയിഡിലേക്ക് അയയ്ക്കുന്നു",
+	"apihelp-visualeditor-param-oldid": "ഉപയോഗിക്കേണ്ട നാൾപ്പതിപ്പ് സംഖ്യ (സ്വതേ എറ്റവും പുതിയത്).",
+	"apihelp-visualeditor-param-paction": "ചെയ്യേണ്ട പ്രവൃത്തി.",
+	"apihelp-visualeditor-param-page": "പ്രവൃത്തികൾ ചെയ്യേണ്ട താൾ.",
+	"apihelp-visualeditor-param-pst": "പാഴ്‌സോയിഡിലേക്ക് അയയ്ക്കുന്നതിനു മുമ്പ് രൂപാന്തരം വരുത്തിയ വിക്കി എഴുത്ത് സേവ് ചെയ്യുക. (paction=parsefragment).",
+	"apihelp-visualeditor-param-starttimestamp": "സേവ് ചെയ്യുമ്പോൾ, എടുത്ത താളിന്റെ സമയമുദ്രയായി ഇത് സജ്ജീകരിക്കുക. തിരുത്തൽ സമരസപ്പെടായ്കകൾ കണ്ടെത്താൻ ഉപയോഗിക്കുന്നതാണ്.",
+	"apihelp-visualeditor-param-wikitext": "എച്ച്.റ്റി.എം.എൽ. ആയി മാറ്റാനായി പാഴ്‌സോയിഡിലേക്ക് അയക്കേണ്ട വിക്കി എഴുത്ത് (paction=parsefragment).",
+	"apihelp-visualeditoredit-param-basetimestamp": "സേവ് ചെയ്യുമ്പോൾ, തിരുത്തിയ നാൾപ്പതിപ്പിന്റെ സമയമുദ്രയായി ഇത് സജ്ജീകരിക്കുക. തിരുത്തൽ സമരസപ്പെടായ്കകൾ കണ്ടെത്താൻ ഉപയോഗിക്കുന്നതാണ്.",
+	"apihelp-visualeditoredit-param-cachekey": "ഈ ചാവി ഉപയോഗിച്ചുള്ള മുമ്പത്തെ serializeforcache അഭ്യർത്ഥനയുടെ ഫലം ഉപയോഗിക്കുക. $1html അതിലംഘിക്കുന്നതാണ്.",
+	"apihelp-visualeditoredit-param-captchaid": "കാപ്ച ഐ.ഡി. (കാപ്ച പ്രതികരണം സേവ് ചെയ്യുമ്പോൾ).",
+	"apihelp-visualeditoredit-param-captchaword": "കാപ്ചയുടെ മറുപടി (കാപ്ച പ്രതികരണം സേവ് ചെയ്യുമ്പോൾ).",
+	"apihelp-visualeditoredit-param-etag": "അയയ്ക്കാനുള്ള ഇ-ടാഗ്.",
+	"apihelp-visualeditoredit-param-html": "വിക്കി എഴുത്തിനു പകരം പാഴ്‌സോയിഡിലേക്ക് അയക്കേണ്ട എച്ച്.റ്റി.എം.എൽ.",
+	"apihelp-visualeditoredit-param-minor": "ചെറുതിരുത്തലെന്ന് അടയാളപ്പെടുത്തുന്ന പതാക.",
+	"apihelp-visualeditoredit-param-needcheck": "സേവ് ചെയ്യുമ്പോൾ, നാൾപ്പതിപ്പിൽ റൗണ്ട്‌ട്രിപ്പ് പ്രശ്നങ്ങൾ ഉണ്ടെങ്കിൽ ഈ ചരം സജ്ജീകരിക്കുക. ഇത് തിരുത്ത് ടാഗ് ചെയ്യുന്നതാണ്.",
+	"apihelp-visualeditoredit-param-oldid": "ഉപയോഗിക്കേണ്ട നാൾപ്പതിപ്പ് സംഖ്യ. സ്വതേ ഏറ്റവും പുതിയ പതിപ്പ് ആയിരിക്കും. പുതിയ താളിനായി 0 ഉപയോഗിക്കുക.",
+	"apihelp-visualeditoredit-param-paction": "ചെയ്യേണ്ട പ്രവൃത്തി.",
+	"apihelp-visualeditoredit-param-page": "പ്രവൃത്തികൾ ചെയ്യേണ്ട താൾ.",
+	"apihelp-visualeditoredit-param-section": "പ്രവൃത്തി നടത്തേണ്ട ഭാഗം.",
+	"apihelp-visualeditoredit-param-sectiontitle": "ഭാഗത്തിന്റെ തലക്കെട്ട്.",
+	"apihelp-visualeditoredit-param-starttimestamp": "സേവ് ചെയ്യുമ്പോൾ, എടുത്ത താളിന്റെ സമയമുദ്രയായി ഇത് സജ്ജീകരിക്കുക. തിരുത്തൽ സമരസപ്പെടായ്കകൾ കണ്ടെത്താൻ ഉപയോഗിക്കുന്നതാണ്.",
+	"apihelp-visualeditoredit-param-summary": "തിരുത്തിന്റെ ചുരുക്കം."
+}

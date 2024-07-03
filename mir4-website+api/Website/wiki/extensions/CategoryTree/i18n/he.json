@@ -1,0 +1,37 @@
+{
+	"@metadata": {
+		"authors": [
+			"Amire80",
+			"Guycn2",
+			"Rotem Liss"
+		]
+	},
+	"categorytree": "עץ קטגוריות",
+	"categorytree-portlet": "קטגוריות",
+	"categorytree-legend": "הצגת עץ קטגוריות",
+	"categorytree-desc": "ניווט דינמי ב[[Special:CategoryTree|מבנה הקטגוריות]]",
+	"categorytree-header": "נא להקליד את שם הקטגוריה כדי לראות את התוכן שלה במבנה עץ. (תכונה זו דורשת JavaScript.)",
+	"categorytree-category": "קטגוריה:",
+	"categorytree-go": "הצגת העץ",
+	"categorytree-parents": "הורים",
+	"categorytree-mode-label": "מצב:",
+	"categorytree-mode-categories": "קטגוריות בלבד",
+	"categorytree-mode-pages": "דפים שאינם קבצים",
+	"categorytree-mode-all": "כל הדפים",
+	"categorytree-collapse": "כיווץ",
+	"categorytree-expand": "הצגה",
+	"categorytree-member-counts": "מכילה {{PLURAL:$1|קטגוריית־משנה אחת|$1 קטגוריות־משנה}}, {{PLURAL:$2|דף אחד|$2 דפים}}, {{PLURAL:$3|וקובץ אחד|ו־$3 קבצים}}",
+	"categorytree-num-categories": "{{PLURAL:$1|קט' אחת|$1 קט'}}",
+	"categorytree-num-pages": "{{PLURAL:$1|דף אחד|$1 דפים}}",
+	"categorytree-num-files": "{{PLURAL:$1|קובץ אחד|$1 קב'}}",
+	"categorytree-num-empty": "ריקה",
+	"categorytree-load": "טעינה",
+	"categorytree-loading": "בטעינה...",
+	"categorytree-nothing-found": "לא נמצא דבר",
+	"categorytree-no-subcategories": "אין קטגוריות־משנה",
+	"categorytree-no-parent-categories": "אין קטגוריות הורה",
+	"categorytree-no-pages": "אין דפים או קטגוריות־משנה",
+	"categorytree-not-found": "הקטגוריה <i>$1</i> לא נמצאה",
+	"categorytree-error": "בעיה בטעינת הנתונים.",
+	"categorytree-retry": "נא להמתין מעט ולנסות שוב."
+}

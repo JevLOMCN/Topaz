@@ -1,0 +1,39 @@
+{
+	"@metadata": {
+		"authors": [
+			"Eitvys200",
+			"Homo",
+			"Manvydasz",
+			"Matasg",
+			"Nokeoo",
+			"Pofka",
+			"Tomasdd"
+		]
+	},
+	"nuke": "Masinis trynimas",
+	"action-nuke": "masiškai trinti puslapius",
+	"nuke-desc": "Suteikia administratoriams galimybę [[Special:Nuke|masiškai trinti]] puslapius",
+	"nuke-nopages": "Nėra naujų puslapių, sukurtų [[Special:Contributions/$1|{{GENDER:$1|$1}}]], naujausiuose keitimuose.",
+	"nuke-list": "Šiuos puslapius neseniai sukūrė [[Special:Contributions/$1|{{GENDER:$1|$1}}]];\nįrašykite komentarą ir paspauskite mygtuką, kad jie būtų ištrinti.",
+	"nuke-list-multiple": "Šie puslapiai buvo neseniai sukurti;\nįrašykite komentarą ir paspauskite mygtuką, kad juos ištrintumėte.",
+	"nuke-defaultreason": "Masinis pašalinimas puslapių, kuriuos sukūrė [[Special:Contributions/$1|{{GENDER:$1|$1}}]]",
+	"nuke-multiplepeople": "Masinis neseniai sukurtų puslapių trynimas",
+	"nuke-tools": "Šis įrankis leidžia masiškai ištrinti puslapius, neseniai sukurtus nurodyto naudotojo ar IP adreso.\nĮrašykite naudotojo vardą ar IP adresą, kad gautumėte trintinų puslapių sąrašą arba palikite tuščią visiems naudotojams.",
+	"nuke-submit-user": "Puslapių sąrašas",
+	"nuke-submit-delete": "Ištrinti pasirinktus(ą)",
+	"right-nuke": "Masinis puslapių trynėjas",
+	"nuke-userorip": "Vartotojo vardas, IP adresas arba tuščia:",
+	"nuke-maxpages": "Didžiausias puslapių skaičius:",
+	"nuke-editby": "Sukūrė [[Special:Contributions/$1|{{GENDER:$1|$1}}]]",
+	"nuke-deleted": "Puslapis '''$1''' buvo ištrintas.",
+	"nuke-deletion-queued": "Puslapis '''$1''' įtrauktas į eilę ištrynimui.",
+	"nuke-not-deleted": "Puslapis [[:$1]] '''negalimas''' ištrinti.",
+	"nuke-delete-more": "[[Special:Nuke|Ištrinti daugiau puslapių]]",
+	"nuke-pattern": "SQL LIKE šablonas (pvz., %) puslapio pavadinimui:",
+	"nuke-nopages-global": "Nėra jūsų paiešką atitinkančių puslapių pavadinimų.",
+	"nuke-viewchanges": "žiūrėti pakeitimus",
+	"nuke-namespace": "Apriboti vardų sritį:",
+	"nuke-linkoncontribs": "masinis trynimas",
+	"nuke-linkoncontribs-text": "Masiškai trinti puslapius, kur {{GENDER:$1|šis naudotojas yra vienintelis autorius|ši naudotoja yra vienintelė autorė}}",
+	"nuke-confirm": "Ketinate ištrinti {{PLURAL:$1|vieną puslapį|$1 puslapius}}. Ar tikrai norite ištrinti?"
+}

@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"פוילישער"
+		]
+	},
+	"pfunc_time_error": "גרײַז: אומגילטיגע צײַט",
+	"pfunc_expr_unrecognised_word": "אויסדרוק־גרײַז: אומבעקאנט ווארט \"$1",
+	"pfunc_expr_unexpected_operator": "אויסדריק גרײַז: אומגעריכטער $1 אפעראַטאר",
+	"pfunc_expr_missing_operand": "אויסדרוק פעלער: פעלט אפעראנד פאר $1.",
+	"pfunc_expr_unrecognised_punctuation": "אויסדרוק־גרײַז: אומבעקאנטער צייכן \"$1\".",
+	"pfunc_expr_unclosed_bracket": "אויסדריק גרײַז: אומגעשלאסענער קלאַמער",
+	"pfunc_expr_division_by_zero": "טיילן דורך נול.",
+	"pfunc_expr_not_a_number": "אין $1: רעזולטאַט איז נישט קיין נומער"
+}

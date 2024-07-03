@@ -1,0 +1,23 @@
+{
+	"@metadata": {
+		"authors": [
+			"Capmo",
+			"Eduardo Addad de Oliveira",
+			"Felipe L. Ewald",
+			"HenriqueCrang",
+			"TheEduGobi"
+		]
+	},
+	"loginnotify-desc": "Notificar usuários sobre acessos suspeitos a partir de dispositivos e/ou endereços IP desconhecidos.",
+	"echo-category-title-login-fail": "Tentativas de acesso falhadas",
+	"echo-pref-tooltip-login-fail": "Notifique-me quando houver várias tentativas falhadas de iniciar sessão na minha conta.",
+	"echo-category-title-login-success": "Acesso a partir de um dispositivo desconhecido",
+	"echo-pref-tooltip-login-success": "Notifique-me sempre que alguém entrar na minha conta a partir de um dispositivo ou endereço IP desconhecido.",
+	"loginnotify-primary-link": "Ajuda",
+	"notification-loginnotify-login-fail-email-subject": "{{PLURAL:$2|Falha na tentativa|Múltiplas tentativas falhadas}} de acesso a {{SITENAME}} como $1",
+	"notification-loginnotify-login-success-email-subject": "Iniciada sessão em {{SITENAME}} como $1 a partir de um dispositivo que {{GENDER:$1|você}} não utilizou recentemente",
+	"notification-header-login-success": "Alguém (provavelmente {{GENDER:$1|você}}) entrou recentemente em sua conta a partir de um novo dispositivo. Se foi você, pode desconsiderar esta mensagem. Se não foi você, é recomendável que você altere sua senha e verifique a atividade da sua conta.",
+	"notification-new-bundled-header-login-fail": "Houve {{PLURAL:$1|'''uma tentativa falhada'''|'''$1 tentativas falhadas'''}} de acesso a sua conta a partir de um novo dispositivo desde a última vez que você entrou. Se não foi você, por favor, certifique-se de que sua conta tenha uma senha forte.",
+	"notification-known-header-login-fail": "Houve {{PLURAL:$1|'''uma tentativa falhada'''|'''$1 tentativas falhadas'''}} de acesso a sua conta desde a última vez que você entrou. Se não foi você, por favor, certifique-se de que sua conta tenha uma senha forte.",
+	"notification-new-unbundled-header-login-fail": "Houve {{PLURAL:$1|'''uma tentativa falhada'''|'''múltiplas tentativas falhadas'''}} de acesso à sua conta a partir de um novo dispositivo. Certifique-se de que sua conta tenha uma senha forte."
+}

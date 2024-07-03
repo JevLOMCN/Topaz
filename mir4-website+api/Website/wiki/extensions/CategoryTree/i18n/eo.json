@@ -1,0 +1,38 @@
+{
+	"@metadata": {
+		"authors": [
+			"KuboF",
+			"Mirin",
+			"Tlustulimu",
+			"Yekrats"
+		]
+	},
+	"categorytree": "Kategoriarbo",
+	"categorytree-portlet": "Kategorioj",
+	"categorytree-legend": "Montri kategorian arbon",
+	"categorytree-desc": "AJAX-bazita aldonaĵo por montri la [[Special:CategoryTree|kategorian strukturon]] de vikio",
+	"categorytree-header": "Tajpu kategorinomon por vidi ties enhavon en arboforma strukturo. (Postulas Javascript.)",
+	"categorytree-category": "Kategorio:",
+	"categorytree-go": "Montri arbon",
+	"categorytree-parents": "Patraj kategorioj",
+	"categorytree-mode-label": "Reĝimo:",
+	"categorytree-mode-categories": "nur kategorioj",
+	"categorytree-mode-pages": "paĝoj krom dosieroj",
+	"categorytree-mode-all": "ĉiuj paĝoj",
+	"categorytree-collapse": "kaŝi",
+	"categorytree-expand": "montri",
+	"categorytree-member-counts": "enhavas {{PLURAL:$1|1 subkategorion|$1 subkategoriojn}}, {{PLURAL:$2|1 paĝon|$2 paĝojn}}, kaj {{PLURAL:$3|1 dosieron|$3 dosierojn}}",
+	"categorytree-num-categories": "$1 K",
+	"categorytree-num-pages": "$1 P",
+	"categorytree-num-files": "$1 D",
+	"categorytree-num-empty": "malplena",
+	"categorytree-load": "elŝuti",
+	"categorytree-loading": "ŝarĝante...",
+	"categorytree-nothing-found": "nenio trovita",
+	"categorytree-no-subcategories": "neniu subkategorio",
+	"categorytree-no-parent-categories": "neniuj superaj kategorioj",
+	"categorytree-no-pages": "neniuj paĝoj aŭ subkategorioj",
+	"categorytree-not-found": "La kategorio <i>$1</i> ne estis trovita.",
+	"categorytree-error": "Problemo ŝarĝante datenojn",
+	"categorytree-retry": "Bonvolu atendi momenton kaj provi denove."
+}

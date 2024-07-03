@@ -1,0 +1,25 @@
+{
+	"@metadata": {
+		"authors": [
+			"Alexander Istomin",
+			"Alexandr Efremov",
+			"Kareyac",
+			"MirandaBlack",
+			"Mouse21",
+			"Movses",
+			"Reedy",
+			"UniCollab",
+			"Vlad5250"
+		]
+	},
+	"apihelp-query+oath-summary": "Проверьте, включена ли двухфакторная аутентификация (OATH) для пользователя.",
+	"apihelp-query+oath-param-user": "Пользователь для получения информации о. По умолчанию для текущего пользователя.",
+	"apihelp-query+oath-param-reason": "Причина запроса статуса OATH.",
+	"apihelp-query+oath-example-1": "Получить информацию о текущем пользователе",
+	"apihelp-query+oath-example-2": "Получать информацию о пользователе <kbd>Пример</kbd>",
+	"apihelp-oathvalidate-summary": "Подтвердите двухфакторный токен аутентификации (OATH).",
+	"apihelp-oathvalidate-param-user": "Пользователь для проверки токена для. По умолчанию для текущего пользователя.",
+	"apihelp-oathvalidate-example-1": "Проверка данных JSON для текущего пользователя",
+	"apihelp-oathvalidate-example-3": "Проверить JSON-данные для участника <kbd>Example</kbd>",
+	"apihelp-oathvalidate-param-data": "Данные в формате JSON, которые ожидаются от модуля, активированного для участника в процессе аутентификации"
+}

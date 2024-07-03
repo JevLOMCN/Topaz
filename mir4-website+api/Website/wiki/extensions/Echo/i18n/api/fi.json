@@ -1,0 +1,21 @@
+{
+	"@metadata": {
+		"authors": [
+			"Nike",
+			"Pxos",
+			"Rönttönen"
+		]
+	},
+	"apihelp-echomarkread-param-list": "Luettelo niistä ilmoitusten tunnusnumeroista, jotka voi merkitä luetuiksi.",
+	"apihelp-echomarkread-param-all": "Jos tämä on valittu, kaikki käyttäjän ilmoitukset merkitään luetuiksi.",
+	"apihelp-echomarkread-param-sections": "Luettelo osioista, jotka voi merkitä luetuiksi.",
+	"apihelp-echomarkread-example-1": "Merkitse ilmoitus 8 luetuksi.",
+	"apihelp-echomarkread-example-2": "Merkitse kaikki ilmoitukset luetuiksi.",
+	"apihelp-echomarkread-example-3": "Merkitse ilmoitus 1 lukemattomaksi",
+	"apihelp-echomarkseen-example-1": "Merkitse kaikenlaiset ilmoitukset nähdyiksi",
+	"apihelp-echomarkseen-param-type": "Nähdyiksi merkittävien ilmoitusten laatu: 'hälytysilmoitus', 'viesti' tai 'kaikki'.",
+	"apihelp-query+notifications-example-1": "Luettele ilmoitukset",
+	"apihelp-query+notifications-example-2": "Luettele ilmoitukset ryhmiteltyinä osioihin lukumäärien kera",
+	"apihelp-query+unreadnotificationpages-param-limit": "Sivujen enimmäismäärä vastauksessa.",
+	"apihelp-query+unreadnotificationpages-example-1": "Luettele sivut ja niihin liittyvien lukemattomien ilmoitusten määrä"
+}

@@ -1,0 +1,20 @@
+{
+	"@metadata": {
+		"authors": [
+			"Eduardo.mps",
+			"Felipe L. Ewald",
+			555
+		]
+	},
+	"pdf-desc": "Ferramenta de visualização de arquivos PDF em modo de imagem.",
+	"pdf-file-page-warning": "O PDF é um formato complexo que pode expor algumas de suas informações privadas em alguns casos. Certifique-se de configurar seu visualizador de PDF de forma segura.",
+	"pdf-file-page-warning-header": "Considerações sobre privacidade",
+	"pdf-file-page-warning-footer": "Este problema não é específico para este arquivo particular, mas um problema geral com o formato PDF.",
+	"pdf-file-page-warning-info": "Saiba mais sobre esta tarefa.",
+	"pdf_no_metadata": "Não foi possível obter os metadados do PDF.",
+	"pdf_page_error": "Número de página fora do intervalo.",
+	"exif-pdf-producer": "Programa de conversão",
+	"exif-pdf-version": "Versão do formato PDF",
+	"exif-pdf-encrypted": "Criptografado",
+	"exif-pdf-pagesize": "Tamanho da página"
+}

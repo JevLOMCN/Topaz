@@ -1,0 +1,21 @@
+{
+	"@metadata": {
+		"authors": [
+			"Purodha",
+			"Shirayuki",
+			"The Evil IP address",
+			"Umherirrender"
+		]
+	},
+	"pdf-desc": "{{desc|name=Pdf Handler|url=https://www.mediawiki.org/wiki/Extension:PdfHandler}}",
+	"pdf-file-page-warning": "Warning about potential issues with the PDF format, shown to users on the file page in a popup.",
+	"pdf-file-page-warning-header": "Header for a popup warning on the file page concerning potential privacy issues with the PDF format.",
+	"pdf-file-page-warning-footer": "Footer for a popup warning on the file page concerning potential privacy issues with the PDF format. Qualifies the warning by noting that any PDF may be unsafe, but we don't actually know if this particular PDF file is.",
+	"pdf-file-page-warning-info": "Link text for learning more about potential issues with the PDF format. Links to //www.mediawiki.org/wiki/Special:MyLanguage/Help:Security/PDF_files in the interface.",
+	"pdf_no_metadata": "Error message given when metadata cannot be retrieved from a PDF file",
+	"pdf_page_error": "Error message given when a PDF does not have the requested page number",
+	"exif-pdf-producer": "The label used in the metadata table at the bottom of the file description page for the program used to convert this PDF file into a PDF.\n\nThis is separate from the program used to create the original file (Which is labeled by {{msg-mw|Exif-software}}).",
+	"exif-pdf-version": "Label for the version of the pdf file format in the metadata table at the bottom of an image description page. Usually a number between 1.2 and 1.6",
+	"exif-pdf-encrypted": "Label for field in metadata table at bottom of an image description page to denote if the PDF file is encrypted. The value of the field this references is either \"no\" (most common) or something like \"yes (print:yes copy:no change:no addNotes:no)\"",
+	"exif-pdf-pagesize": "Label for the field in the metadata table at the bottom of an image description page to denote the size of the pages in the pdf. If there is more than one size of page used in this document, each size is listed once.\n{{Identical|Page size}}"
+}

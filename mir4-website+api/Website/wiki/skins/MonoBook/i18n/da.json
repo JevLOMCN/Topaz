@@ -1,0 +1,25 @@
+{
+	"@metadata": {
+		"authors": [
+			"Christian List",
+			"Jan Friberg",
+			"Peter Alberti",
+			"Saederup92"
+		]
+	},
+	"skinname-monobook": "MonoBook",
+	"monobook-desc": "Det klassiske MediaWiki udseende siden 2004, opkaldt efter det sort-hvide foto af en bog i baggrunden af siderne",
+	"monobook.css": "/** CSS inkluderet her vil være aktivt for brugere af Monobook-temaet . */",
+	"monobook.js": "/* JavaScript i denne fil vil indlæses for brugere af udseendet MonoBook */",
+	"monobook-jumptotop": "tilbage til toppen",
+	"monobook-jumptopersonal": "brugerværktøj",
+	"monobook-jumptonavigation": "Spring til navigation",
+	"monobook-jumptosearch": "Spring til søgning",
+	"monobook-more-actions": "Mere",
+	"cactions-mobile": "Sidehandlinger",
+	"monobook-cactions-label": "Sidehandlinger",
+	"monobook-notifications-link": "Notifikationer ($1)",
+	"monobook-notifications-link-none": "Notifikationer",
+	"monobook-view-history": "Historik",
+	"monobook-action-undelete": "Gendan {{PLURAL:$1|én redigering|$1 redigeringer}}"
+}

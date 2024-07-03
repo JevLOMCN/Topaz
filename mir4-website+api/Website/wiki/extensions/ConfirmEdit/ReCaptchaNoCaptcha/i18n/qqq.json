@@ -1,0 +1,17 @@
+{
+	"@metadata": {
+		"authors": [
+			"Liuxinyu970226",
+			"Umherirrender"
+		]
+	},
+	"renocaptcha-desc": "{{desc}}",
+	"renocaptcha-edit": "Message above the CAPTCHA for edit action.\n{{related|ConfirmEdit-edit}}",
+	"renocaptcha-addurl": "Message above the CAPTCHA for addurl (user added new external links to the page) action.\n{{related|ConfirmEdit-addurl}}",
+	"renocaptcha-badlogin": "Message above the CAPTCHA for badlogin action.\n{{related|ConfirmEdit-badlogin}}",
+	"renocaptcha-createaccount": "Message above the CAPTCHA for createaccount (user creates a new account) action.\n{{related|ConfirmEdit-createaccount}}",
+	"renocaptcha-createaccount-fail": "Error message, when the CAPTCHA isn't solved correctly.\n{{related|ConfirmEdit-createaccount-fail}}",
+	"renocaptcha-create": "Message above the CAPTCHA for create (user creates a new page) action.\n{{related|ConfirmEdit-create}}",
+	"renocaptcha-noscript": "This messages is warning you have javascript disabled so you have to manualy input the text into the textbox.",
+	"renocaptcha-help": "Explanation of how to solve the CAPTCHA for API clients."
+}

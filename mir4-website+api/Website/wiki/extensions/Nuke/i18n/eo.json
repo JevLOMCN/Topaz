@@ -1,0 +1,31 @@
+{
+	"@metadata": {
+		"authors": [
+			"Blahma",
+			"Gamliel Fishkin",
+			"Robin van der Vliet",
+			"Yekrats"
+		]
+	},
+	"nuke": "Amasforigi",
+	"action-nuke": "amasforigi paĝojn",
+	"nuke-desc": "Rajtigas al administrantoj la kapablon [[Special:Nuke|amasforigi]] paĝojn",
+	"nuke-nopages": "Neniuj novaj paĝoj de [[Special:Contributions/$1|$1]] en lastaj ŝanĝoj.",
+	"nuke-list": "La jenaj paĝoj estis lastatempe kreitaj de [[Special:Contributions/$1|$1]];\naldonu komenton kaj klaku la butonon forigi ilin.",
+	"nuke-list-multiple": "La jenaj paĝoj estis lastatempaj kreitaj;\nenmetu komenton kaj klaku la butonon por forigi ilin.",
+	"nuke-defaultreason": "Amasforigo de paĝoj aldonita de $1",
+	"nuke-multiplepeople": "Amasa forigo de laste aldonitaj paĝoj",
+	"nuke-tools": "Ĉi tiu ilo ebligas amasforigojn da paĝoj lastatempe aldonitaj de aparta uzanto aŭ IP-adreso.\nEnigu la uzantnomon aŭ IP-adreson por akiri liston de paĝoj forigi, aŭ lasu ĝin malplena por ĉiuj uzantoj.",
+	"nuke-submit-user": "Ek!",
+	"nuke-submit-delete": "Forigi elekton",
+	"right-nuke": "Amasforigi paĝojn",
+	"nuke-userorip": "Uzantnomo, IP-adreso, aŭ nenio:",
+	"nuke-maxpages": "Maksimuma nombro de paĝoj:",
+	"nuke-editby": "Kreita de [[Special:Contributions/$1|$1]]",
+	"nuke-deleted": "Paĝo '''$1''' estis forigita.",
+	"nuke-not-deleted": "Paĝo [[:$1]] '''ne eblis''' esti forigita.",
+	"nuke-delete-more": "[[Special:Nuke|Forigu plurajn paĝojn]]",
+	"nuke-pattern": "Modelo por la paĝonomo:",
+	"nuke-linkoncontribs": "amasa forigo",
+	"nuke-linkoncontribs-text": "Amase forigi paĝojn, kie ĉi tiu uzanto estas la sola aŭtoro"
+}

@@ -1,0 +1,43 @@
+{
+	"@metadata": {
+		"authors": [
+			"Winston Sung"
+		]
+	},
+	"replacetext": "Zamijeni tekst",
+	"replacetext-desc": "Dodaje [[Special:ReplaceText|posebnu stranicu]] koja omogućava administratorima da vrše pronalaženje i zamijenu globalnog teksta u stranicama na wikiju.",
+	"replacetext_docu": "Da biste zamijenili jedan niz s drugim, po svim regularnim stranicama na ovom wikiju, unesite ovdje dva dijela teksta i zatim kliknite \"{{int:replacetext_continue}}\".\nZatim će Vam se prikazati spisak stranica koje sadrže traženi tekst, i će možete izabrati u kojima od njih želite ispuniti zamjenu.\nVaše ime će se prikazati u historiji stranica kao korisnika koji je odgovoran za promjene.",
+	"replacetext_originaltext": "Prvobitni tekst:",
+	"replacetext_replacementtext": "Novi tekst:",
+	"replacetext_useregex": "Koristi regularne izraze",
+	"replacetext_regexdocu": "(Primjer: vrijednosti od \"a(.*)c\" za \"{{int:replacetext_originaltext}}\" i \"ac$1\" za \"{{int:replacetext_replacementtext}}\" će zamijeniti \"abc\" sa \"acb\".)",
+	"replacetext_optionalfilters": "Opcionalni filteri:",
+	"replacetext_categorysearch": "Zamijeni samo u kategoriji:",
+	"replacetext_prefixsearch": "Zamijeni samo u stranicama sa prefiksom:",
+	"replacetext_editpages": "Zamijeni tekst u sadržaju stranice",
+	"replacetext_movepages": "Zamijeni tekst u naslovima stranica, ako je moguće",
+	"replacetext_givetarget": "Morate navesti nisku koja treba da se zamijene.",
+	"replacetext_nonamespace": "Morate izabrati barem jedan imenski prostor.",
+	"replacetext_editormove": "Morate odabrati barem jednu od opcija za zamjenu.",
+	"replacetext_choosepagesforedit": "Zameni „$1“ sa „$2“ u tekstu {{PLURAL:$3|sljedeće stranice|sljedećih stranica}}:",
+	"replacetext_choosepagesformove": "Zamijeni \"$1\" sa \"$2\" u {{PLURAL:$3|naslovu slijedeće stranice|naslovima slijedećih stranica}}:",
+	"replacetext_cannotmove": "{{PLURAL:$1|Sljedeća stranica se može premjestiti|Sljedeće stranice se ne mogu premjestiti}}:",
+	"replacetext_formovedpages": "Za premještene stranice:",
+	"replacetext_savemovedpages": "Sačuvaj stare naslove kao preusmjerenja ka novim naslovima",
+	"replacetext_watchmovedpages": "Prati ove stranice",
+	"replacetext_invertselections": "Obrni izbor",
+	"replacetext_replace": "Zamijeni",
+	"replacetext_success": "„$1“ će biti zamenjeno sa „$2“ u $3 {{PLURAL:$3|strani|strana}}.",
+	"replacetext_noreplacement": "Nema pronađeno stranice koje sadrži \"$1\".",
+	"replacetext_nomove": "Nema pronađeno stranice čiji naslov sadrži \"$1\".",
+	"replacetext_nosuchcategory": "Ne postoji kategorija pod imenom \"$1\".",
+	"replacetext_return": "Nazad k obrascu",
+	"replacetext_warning": "'''Upozorenje:''' {{PLURAL:$1|Postoji $1 stranica što već sadrži|Postoje $1 stranice što već sadrže|Postoji $1 stranica što već sadrže}} novi niz „$2“.\nAko želite napraviti ovu zamjenu, onda nećete biti u mogućnosti da razdvojite Vaše zamjene od tih nizova.",
+	"replacetext_blankwarning": "Zato što novi niz je prazan, ovaj postupak je ne povratan.",
+	"replacetext_continue": "Nastavi",
+	"replacetext_editsummary": "Zamjena teksta — \"$1\" sa \"$2\"",
+	"replacetext_reminder": "Da ujedno biste promijenili ka ovoj stranici na drugim stranicama, idite na $1.",
+	"replacetext_no_compress": "Vaš wiki neće raditi s „Замени текст“: Zamjene teksta ne mogu se pokrenuti ako je $wgCompressRevisions podešeno na true.",
+	"right-replacetext": "Zamjenjivanje teksta u cijelom wikiju",
+	"action-replacetext": "zamjenjivanje teksta u cijelom wikiju"
+}

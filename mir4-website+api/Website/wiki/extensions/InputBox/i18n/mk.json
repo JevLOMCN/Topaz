@@ -1,0 +1,19 @@
+{
+	"@metadata": {
+		"authors": [
+			"Bjankuloski06",
+			"Brest",
+			"Misos"
+		]
+	},
+	"inputbox-desc": "Овозможува вклучување на предодредени HTML-облици",
+	"inputbox-error-no-type": "Немате наведено тип на поле за внос кое сакате да го создадете.",
+	"inputbox-error-bad-type": "Типот на полето за внос „$1“ не е познат.\nУкажете еден од допуштените: „create“, „comment“, „search“, „search2“ или „fulltext“.",
+	"inputbox-tryexact": "Строго ова",
+	"inputbox-searchfulltext": "По цел текст",
+	"inputbox-createarticle": "Создај страница",
+	"inputbox-movearticle": "Премести страница",
+	"inputbox-postcomment": "Нов оддел",
+	"inputbox-postcommenttitle": "Нов оддел",
+	"inputbox-ns-main": "Главна"
+}

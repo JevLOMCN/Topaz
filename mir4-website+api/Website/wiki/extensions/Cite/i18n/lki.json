@@ -1,0 +1,31 @@
+{
+	"@metadata": {
+		"authors": [
+			"Hosseinblue",
+			"Huji",
+			"Lakzon"
+		]
+	},
+	"cite-desc": "برچسب‌های <code>&lt;ref[ name=id]&gt;</code> و <code>&lt;references/&gt;</code> را برای یادکرد اضافه می‌کند",
+	"cite_error": "خطای یادکرد: $1",
+	"cite_error_ref_numeric_key": "برچسب <code><ref></code> نامجاز؛ نام نمی‌تواند یک عدد باشد. عنوان واضح‌تری را برگزینید",
+	"cite_error_ref_no_key": "برچسب <code><ref></code> نامجاز؛ یادکردهای بدون نۆم جِک(محتوا)باید نام داشته باشند",
+	"cite_error_ref_too_many_keys": "برچسب <code><ref></code> نامجاز؛ نام‌های نامجاز یا بیش از اندازه",
+	"cite_error_ref_no_input": "برچسب <code><ref></code> نامجاز؛ یادکردهای بدون نام باید نۆم جِک(محتوا) داشته باشند",
+	"cite_error_references_invalid_parameters": "برچسب <code><references></code> نامجاز؛ استفاده از پارامتر مجاز است. از <code><references /></code> استفاده کنید",
+	"cite_error_references_no_backlink_label": "برچسب‌های پیوند به انتها رسید. موارد جدیدی را در پیغام [[MediaWiki:Cite references link many format backlink labels]] تعریف کنید",
+	"cite_error_no_link_label_group": "از برچسب‌های پیوند سفارشی برای گروه «$1» خارج شد. در پیغام [[MediaWiki:$2]] بیشتر تعریف کنید.",
+	"cite_error_references_no_text": "برچسب <code>&lt;ref&gt;</code> نامجاز؛\nمتنی برای یادکردهای با نام <code>$1</code> وارد نشده‌است",
+	"cite_error_included_ref": "برچسب تمام کنندهٔ <code>&lt;/ref&gt;</code> بدون برچسب <code>&lt;ref&gt;</code>",
+	"cite_error_group_refs_without_references": "برچسب <code>&lt;ref&gt;</code> برای گروهی به نام «$1» وجود دارد، اما برچسب متناظر با <code>&lt;references group=\"$1\"/&gt;</code> یافت نشد یا <code>&lt;/ref&gt;</code> بسته جا گذاشته شده‌است.",
+	"cite_error_references_no_key": "برچسپ <code>&lt;ref&gt;</code> درون <code>&lt;references&gt;</code> صفت نام را ندارد.",
+	"cite_error_empty_references_define": "برچسپ <code>&lt;ref&gt;</code> تعریف شده درون <code>&lt;references&gt;</code> با نام «$1» محتوایی ندارد.",
+	"cite_references_link_accessibility_label": "پرش به بالا",
+	"cite_references_link_many_accessibility_label": "پرش به بالا به:",
+	"cite-wikieditor-tool-reference": "بنچەک(منبع)",
+	"cite-wikieditor-help-page-references": "بن چۀکةل/منابع",
+	"cite-wikieditor-help-content-reference-description": "بنچەک(منبع)",
+	"cite-wikieditor-help-content-named-reference-description": "منبع نامگذای‌شده",
+	"cite-wikieditor-help-content-rereference-description": "استفادهٔ دوباره از همان منبع",
+	"cite-wikieditor-help-content-showreferences-description": "نمایش منابع"
+}

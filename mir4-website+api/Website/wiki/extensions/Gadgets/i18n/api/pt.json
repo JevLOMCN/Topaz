@@ -1,0 +1,23 @@
+{
+	"@metadata": {
+		"authors": [
+			"Hamilton Abreu"
+		]
+	},
+	"apihelp-query+gadgetcategories-summary": "Devolve uma lista de categorias de ''gadgets''.",
+	"apihelp-query+gadgetcategories-param-prop": "A informação de categorias de ''gadget'' a obter:\n;name:Nome interno da categoria.\n;title:Título da categoria.\n;members:Número de ''gadgets'' na categoria.",
+	"apihelp-query+gadgetcategories-param-names": "Nomes das categorias a obter.",
+	"apihelp-query+gadgetcategories-example-1": "Obter uma lista das categorias de ''gadgets'' existentes",
+	"apihelp-query+gadgetcategories-example-2": "Obter todas as informações sobre as categorias de nome \"foo\" e \"bar\"",
+	"apihelp-query+gadgets-summary": "Devolve uma lista dos ''gadgets'' usados nesta wiki.",
+	"apihelp-query+gadgets-param-prop": "As informações do ''gadget'' a obter:\n;id:Identificador interno do ''gadget''.\n;metadata:Os metadados do ''gadget''.\n;desc:Descrição do ''gadget'' transformada em HTML (pode ser lento, usar só se absolutamente necessário).",
+	"apihelp-query+gadgets-param-categories": "Categorias dos ''gadgets'' a obter.",
+	"apihelp-query+gadgets-param-ids": "Identificadores dos ''gadgets'' a obter.",
+	"apihelp-query+gadgets-param-allowedonly": "Listar só os ''gadgets'' permitidos para o utilizador atual.",
+	"apihelp-query+gadgets-param-enabledonly": "Listar só os ''gadgets'' ativados pelo utilizador atual.",
+	"apihelp-query+gadgets-example-1": "Obter uma lista de ''gadgets'' e as suas descrições",
+	"apihelp-query+gadgets-example-2": "Obter uma lista de ''gadgets'' com todas as propriedades possíveis",
+	"apihelp-query+gadgets-example-3": "Obter uma lista de ''gadgets'' que pertencem à categoria \"foo\"",
+	"apihelp-query+gadgets-example-4": "Obter informações sobre os ''gadgets'' \"foo\" e \"bar\"",
+	"apihelp-query+gadgets-example-5": "Obter uma lista dos ''gadgets'' ativados pelo utilizador atual"
+}

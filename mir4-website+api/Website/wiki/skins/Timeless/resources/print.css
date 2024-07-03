@@ -1,0 +1,14 @@
+/* Styles for print view and printing */
+
+/* Hide some extra stuff from print view */
+#mw-header,
+#mw-site-navigation,
+#mw-related-navigation,
+#mw-page-header-links,
+#mw-footer {
+	display: none;
+}
+
+#mw-content-text {
+	margin-bottom: 3em;
+}

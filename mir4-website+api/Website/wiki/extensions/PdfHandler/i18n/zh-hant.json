@@ -1,0 +1,23 @@
+{
+	"@metadata": {
+		"authors": [
+			"Cwlin0416",
+			"Justincheng12345",
+			"Kly",
+			"Mark85296341",
+			"Simon Shek",
+			"Xiplus"
+		]
+	},
+	"pdf-desc": "使用圖片模式檢視 PDF 檔案的處理程式。",
+	"pdf-file-page-warning": "PDF 是一個複雜的格式，在某些情況可能會暴露您部份的隱私資訊。 請確定您的 PDF 檢視器已使用安全的方式設定。",
+	"pdf-file-page-warning-header": "隱私考量",
+	"pdf-file-page-warning-footer": "此問題未針對特定檔案，是 PDF 格式的一般問題。",
+	"pdf-file-page-warning-info": "了解更多有關此問題。",
+	"pdf_no_metadata": "無法在 PDF 中取得詮釋資料。",
+	"pdf_page_error": "頁數超出範圍。",
+	"exif-pdf-producer": "轉換程式",
+	"exif-pdf-version": "PDF 格式版本",
+	"exif-pdf-encrypted": "已加密",
+	"exif-pdf-pagesize": "頁面大小"
+}

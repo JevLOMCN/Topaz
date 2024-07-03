@@ -1,0 +1,26 @@
+{
+	"@metadata": {
+		"authors": [
+			"Daud I.F. Argana",
+			"IvanLanin",
+			"Kenrick95",
+			"Rex"
+		]
+	},
+	"action-tboverride": "mengabaikan daftar judul atau nama pengguna yang dilarang",
+	"action-tboverride-account": "mengabaikan daftar nama pengguna yang dilarang",
+	"action-titleblacklistlog": "melihat catatan daftar judul yang dilarang",
+	"log-name-titleblacklist": "Catatan daftar judul yang dilarang",
+	"titleblacklist-desc": "Mengizinkan pencegahan pembuatan halaman dan akun pengguna dengan judul tertentu menurut daftar judul yang [[MediaWiki:Titleblacklist|dilarang]] dan [[MediaWiki:Titlewhitelist|dibolehkan]]",
+	"titleblacklist": "# Ini adalah daftar hitam judul. Judul dan nama pengguna yang berkesamaan dengan suatu regex berikut ini tidak dapat dibuat.\n# Gunakan \"#\" untuk komentar.\n# Daftar ini secara standar tidak memandang huruf besar-huruf kecil.",
+	"titlewhitelist": "# Ini adalah daftar putih judul. Gunakan \"#\" untuk komentar.\n# Daftar ini secara standar tidak memandang huruf besar-huruf kecil.",
+	"titleblacklist-forbidden-edit": "Judul \"$2\" telah dicekal untuk dibuat.\nJudul tersebut cocok dengan entri daftar hitam berikut: <code>$1</code>",
+	"titleblacklist-forbidden-move": "\"$2\" tak dapat dipindahkan ke \"$3\" karena judul \"$3\" telah dicekal untuk dibuat.\nJudul tersebut cocok dengan entri daftar hitam berikut: <code>$1</code>",
+	"titleblacklist-forbidden-upload": "Nama berkas \"$2\" telah dicekal untuk dibuat.\nJudul tersebut cocok dengan entri daftar hitam berikut: <code>$1</code>",
+	"titleblacklist-forbidden-new-account": "Nama pengguna \"$2\" tidak diperbolehkan.\nNama ini sama dengan entri daftar hitam berikut: <code>$1</code>",
+	"titleblacklist-invalid": "{{PLURAL:$1|Baris|Baris-baris}} dalam daftar hitam judul {{PLURAL:$1|berikut}} tak valid; silakan koreksi {{PLURAL:$1|item|item-item}} tersebut sebelum disimpan:",
+	"titleblacklist-override": "Abaikan daftar judul yang dilarang apabila terdapat kecocokan",
+	"right-tboverride": "Mengabaikan daftar judul atau nama pengguna yang dilarang",
+	"right-tboverride-account": "Mengabaikan daftar nama pengguna yang dilarang",
+	"right-titleblacklistlog": "Melihat catatan daftar judul yang dilarang"
+}

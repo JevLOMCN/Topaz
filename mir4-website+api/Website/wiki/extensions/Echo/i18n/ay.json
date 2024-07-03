@@ -1,0 +1,27 @@
+{
+	"@metadata": {
+		"authors": [
+			"Jduranboger"
+		]
+	},
+	"echo-desc": "Sistema de notificaciones",
+	"prefs-echo": "Notificaciones",
+	"prefs-emailsettings": "Opciones de correo electrónico",
+	"prefs-echosubscriptions": "Notificarme sobre estos eventos",
+	"echo-pref-send-me": "Enviarme:",
+	"echo-pref-send-to": "Enviar a:",
+	"echo-pref-email-format": "Formato del mensaje:",
+	"echo-pref-web": "Web",
+	"echo-pref-email": "Email",
+	"echo-pref-email-frequency-never": "No enviarme notificaciones por correo electrónico",
+	"echo-pref-email-frequency-immediately": "Enviarme notificaciones individuales en cuanto lleguen",
+	"echo-pref-email-frequency-daily": "Resumen diario de notificaciones",
+	"echo-pref-email-frequency-weekly": "Resumen semanal de notificaciones",
+	"echo-pref-email-format-html": "HTML",
+	"echo-pref-email-format-plain-text": "Texto sin formato",
+	"echo-learn-more": "Más información",
+	"echo-new-messages": "Tienes mensajes nuevos",
+	"echo-category-title-edit-user-talk": "{{PLURAL:$1|mensaje|mensajes}} en la página de discusión",
+	"echo-category-title-article-linked": "{{PLURAL:$1|enlace|enlaces}} de página",
+	"echo-category-title-reverted": "{{PLURAL:$1|reversión|reversiones}} de edición"
+}

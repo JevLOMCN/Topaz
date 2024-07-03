@@ -1,0 +1,23 @@
+{
+	"@metadata": {
+		"authors": [
+			"Dbc334",
+			"Eleassar"
+		]
+	},
+	"skinname-monobook": "MonoBook",
+	"monobook-desc": "Klasična preobleka programja MediaWiki od leta 2004, poimenovana po črno-beli fotografiji knjige v ozadju strani",
+	"monobook.css": "/* Vsa koda CSS tukaj se bo naložila za uporabnike preobleke MonoBook */",
+	"monobook.js": "/* Vsa koda JavaScript tukaj se bo naložila za uporabnike preobleke MonoBook */",
+	"monobook-jumptotop": "nazaj na vrh",
+	"monobook-jumptopersonal": "uporabniška orodja",
+	"monobook-jumptonavigation": "Skoči na navigacijo",
+	"monobook-jumptosearch": "Skoči na iskanje",
+	"monobook-more-actions": "Več",
+	"cactions-mobile": "Dejanja strani",
+	"monobook-cactions-label": "Dejanja strani",
+	"monobook-notifications-link": "Obvestila ($1)",
+	"monobook-notifications-link-none": "Obvestila",
+	"monobook-view-history": "Zgodovina",
+	"monobook-action-undelete": "Vrni $1 {{PLURAL:$1|urejanje|urejanji|urejanja|urejanj}}"
+}

@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"Hosseinblue",
+			"Macofe"
+		]
+	},
+	"apihelp-flowthank-param-postid": "UUIDی پست مشکور",
+	"apihelp-flowthank-example-1": "تشکر کردن از نظر با <kbd>UUID xyz789</kbd>",
+	"apihelp-thank-param-rev": "شناسهٔ نسخهٔ مشکور.",
+	"apihelp-thank-param-source": "رشته متنی کوتاه برای شرخ مبدأ درخواست، برای مثال <kbd>diff</kbd> یا <kbd>history</kbd>.",
+	"apihelp-thank-example-1": "تشکر کردن برای نسخهٔ شناسهٔ 456، با صفحهٔ تفاوت به عنوان منبع"
+}

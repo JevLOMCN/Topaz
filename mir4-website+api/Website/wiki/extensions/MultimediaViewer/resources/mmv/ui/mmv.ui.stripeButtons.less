@@ -1,0 +1,32 @@
+@import 'mediawiki.skin.variables.less';
+@import '../mmv.variables.less';
+@import 'mediawiki.mixins.less';
+@import '../mmv.mixins.less';
+
+@button-vertical-padding: 20px;
+@button-height: 25px;
+@repo-button-width: 50px;
+
+// The buttons need to be positioned to the bottom right corner of .mw-mmv-title-contain, and
+// other text in that element must not overlap them. Their width is not known (depends on the
+// translation) so we float them to the right and calculate the top margin required to make them
+// full height.
+.mw-mmv-stripe-button {
+	float: right;
+
+	&.empty {
+		display: none;
+	}
+
+	&.mw-mmv-description-page-button {
+		margin: 7px 10px;
+	}
+
+	&.mw-mmv-description-page-button .cdx-button__icon {
+		.cdx-mixin-css-icon( @cdx-icon-article, @param-is-button-icon: true );
+	}
+
+	&.mw-mmv-description-page-button.mw-mmv-repo-button-commons .cdx-button__icon {
+		.cdx-mixin-css-icon( @cdx-icon-logo-wikimedia-commons, @param-is-button-icon: true );
+	}
+}

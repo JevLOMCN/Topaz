@@ -1,0 +1,18 @@
+{
+	"@metadata": {
+		"authors": [
+			"Bjankuloski06"
+		]
+	},
+	"apihelp-query+linterrors-summary": "Добивање список на грешки од пречистувачот",
+	"apihelp-query+linterrors-param-categories": "Категории на грешки од пречистувачот",
+	"apihelp-query+linterrors-param-invisible-categories": "Невидливи категории за грешки во Lint.",
+	"apihelp-query+linterrors-param-limit": "Број на ставки во исходот од барањето",
+	"apihelp-query+linterrors-param-from": "Пречистувачка назнака од која ќе се почне барањето",
+	"apihelp-query+linterrors-param-namespace": "Давај само грешки од пречистувачот од укажаните именски простори",
+	"apihelp-query+linterrors-param-pageid": "Давај само грешки од Lint од укажаните назнаки на именски простори",
+	"apihelp-query+linterrors-param-title": "Давај само грешки од од укажаниот наслов",
+	"apihelp-query+linterrors-example-1": "Ги дава сите грешки од пречистувачот на категоријата со застарена ознака",
+	"apihelp-query+linterstats-summary": "Дај број на грешки во пречистувачот за секоја категорија",
+	"apihelp-query+linterstats-example-1": "Дај број на грешки во пречистувачот за секоја категорија"
+}

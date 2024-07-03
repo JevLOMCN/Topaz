@@ -1,0 +1,41 @@
+{
+	"@metadata": {
+		"authors": [
+			"Albertas",
+			"Eitvys200",
+			"Homo",
+			"Nokeoo",
+			"Vpovilaitis",
+			"Zygimantus"
+		]
+	},
+	"gadgets-desc": "Leidžia naudotojams pasirinkti savo [[Special:Gadgets|CSS ir JavaScript priemones]] jų [[Special:Preferences#mw-prefsection-gadgets|nustatymuose]]",
+	"prefs-gadgets": "Priemonės",
+	"prefs-description-gadgets": "Įgalinti papildomas savo paskyros funkcijas.",
+	"gadgets-prefstext": "Žemiau yra sąrašas specialių įrankių, kuriuos galite įjungti savo paskyrai.\nŠios priemonės daugiausiai naudoja JavaScript, todėl, kad jos veiktų, jūsų naršyklėje turi būti įjungtas JavaScript palaikymas.\nAtsiminkite, kad šios priemonės neturi įtakos jūsų nustatymų puslapiui.\n\nTaip pat žinokite, kad šie įrankiai nėra MediaWiki programinės įrangos dalis ir yra sukurtos bei palaikomos vietinio viki naudotojų. Vietiniai administratoriai gali redaguoti prieinamų įrankių [[MediaWiki:Gadgets-definition|apibrėžtis]] bei jų [[Special:Gadgets|aprašymus]], kur galite matyti kiekvieno įrankio šaltinio kodą.\nKiekvieno įrankio naudotojų skaičiai šioje viki pateikiami [[Special:GadgetUsage|Įrankių naudojimo statistikoje]].",
+	"special-gadgets": "Priemonės",
+	"gadgetusage": "Priemonių naudojimo statistika",
+	"gadgetusage-gadget": "Priemonė",
+	"gadgetusage-usercount": "Vartotojų skaičius",
+	"gadgetusage-noresults": "Priemonių nerasta.",
+	"gadgetusage-intro": "Ši lentelė nurodo skaičių naudotojų, kurie įgalino kiekvieną įrankį šiame viki. Kaip aktyvus naudotojas skaičiuojamas tada, kai atliko pakeitimą per {{PLURAL:$1|pastarąją dieną|pastarąsias $1 dienas}}. Šiame sąraše nėra įrankių įgalintų visiems pagal numatytuosius nustatymus ir gali būti įtrauktos ir priemonės, kurios nebėra prieinamos.",
+	"gadgetusage-intro-noactive": "Ši lentelė nurodo skaičių naudotojų, kurie įgalino priemones šiame vikyje. Šiame sąraše nėra statistikos priemonių, įgalintų visiems numatytuoju būdu ir gali būti įtrauktos priemonės, kurios jau nebeprieinamos.",
+	"gadgetusage-activeusers": "Aktyvūs naudotojai",
+	"gadgetusage-default": "Numatytasis",
+	"gadgets-title": "Priemonės",
+	"gadgets-pagetext": "Žemiau yra sąrašas specialių priemonių, kurias naudotojai gali įjungti savo [[Special:Preferences#mw-prefsection-gadgets|nustatymų puslapyje]]. Jos apibūdintos [[MediaWiki:Gadgets-definition|priemonių aprašyme]]. Ši apžvalga suteikia lengvą priėjimą prie sisteminių pranešimų puslapių, kuriuose pateiktas kiekvienos priemonės trumpas aprašas ir kodas.",
+	"gadgets-editdescription": "Redaguoti aprašymą",
+	"gadgets-viewdescription": "Žiūrėti aprašymą",
+	"gadgets-uses": "Panaudojimai",
+	"gadgets-required-rights": "{{PLURAL:$2|Reikalinga ši teisė|Reikalingos šios teisės}}:\n\n$1",
+	"gadgets-required-skins": "Prieinama {{PLURAL:$2|$1 stiliuje|šiuose stiliuose: $1}}.",
+	"gadgets-default": "Įgalinti visiems pagal nutylėjimą.",
+	"gadgets-legacy": "Priemonės nėra įkeltos. Prašome migruoti prie ResourceLoader. ([https://www.mediawiki.org/wiki/Special:MyLanguage/ResourceLoader/Migration_guide_(users) Sužinoti daugiau])",
+	"gadgets-export": "Eksportas",
+	"gadgets-export-title": "Priemonių eksportas",
+	"gadgets-not-found": "Įtaisas \" $1 \" nerastas.",
+	"gadgets-export-text": "Norėdami eksportuoti $1 įrankį, paspauskite \"{{int:gadgets-export-download}}\" mygtuką, išsisaugokite atisiųstą failą,\nnueikite į Special:Import tikslo vikyje ir įkelkite jį. Tada pridėkite MediaWiki:Gadgets-definition puslapį:\n<pre>$2</pre>\nTurite turėti atitinkamas teises tikslo vikyje (įskaitant teisę redaguoti sistemines žinutes) ir importavimas iš įkeltų failų turi būti aktyvuotas.",
+	"gadgets-export-download": "Parsisiųsti",
+	"gadgets-validate-notset": "Savybė <code>$1</code> yra nenustatyta.",
+	"gadgets-validate-wrongtype": "Savybė <code>$1</code> turi būti tipo <code>$2</code> vietoje <code>$3</code>."
+}

@@ -1,0 +1,21 @@
+{
+	"@metadata": {
+		"authors": [
+			"Salvemm el lombard"
+		]
+	},
+	"spam-blacklist": " #<!-- modifica minga questa riga chì --> <pre>\n# I URL esterni che corisponden a questa lista chì i vegnerann blocad.\n# La lista l'è valida doma per quell sit chì; fà riferiment anca a la lista negra global.\n# Per la documentazzion varda https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:SpamBlacklist\n#\n# La sintassi l'è questa chì:\n#  * Tut quell che 'l ven adree a \"#\" l'è un coment, fina a a la fenitiva de la riga \n# * Tut i righe minga voeuje inn di tochei de espression regolar che vegnen aplicade doma al nom de l''host in di URL\n #</pre> <!-- modifica minga questa riga chì -->",
+	"spam-whitelist": " #<!-- modifica minga questa riga chì --> <pre>\n# I URL esterni che corisponden a quella lista chì i vegnarann  *minga* blocade, anca in del caso che \n# corrisponden a di vos de la lista negra\n#\n# La sintassi l'è questa chì:\n# * Tut quell che 'l ven adree a \"#\" l'è un coment, fina a a la fenitiva de la riga \n# * Tut i righe minga voeuje inn di tochei de espression regolar che vegnen aplicade doma al nom de l''host in di URL\n #</pre> <!-- modifica minga questa riga chì -->",
+	"email-blacklist": " #<!-- modifica no questa riga chì --> <pre>\n#I adress de posta eletronica che corisponden a quella lista chì i saran blocad e ghe sarà minga permetud de salvà o de mandà di messagg de posta eletronica.\n# La lista è valida solo per questo sito; fare riferimento anche alla blacklist globale.\n# Per la documentazzion varda https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:SpamBlacklist\n#\n# La sintassi l'è questa chì:\n# * Tut quell che 'l ven adree a \"#\" l'è un coment, fina a a la fenitiva de la riga \n# * Tut i righe minga voeuje inn di tochei de espression regolar che vegnen aplicade doma al nom de l''host in di URL\n #</pre> <!-- modifica no questa riga chì -->",
+	"email-whitelist": " #<!-- modifica minga questa riga chì --> <pre>\n# I URL esterni che corisponden a quella lista chì i vegnarann  *minga* blocad, anca in del caso che \n# corrisponden a di vos de la lista negra\n#\n# La sintassi l'è questa chì:\n# * Tut quell che 'l venn adree a \"#\" l'è un coment, fina a a la fenitiva de la riga \n# * Tut i righe minga voeuje inn di tochei de espression regolar che vegnen aplicade doma al nom de l''host in di URL\n #</pre> <!-- modifica no questa riga chì -->",
+	"spam-blacklisted-email": "Adress de posta eletronica blocad",
+	"spam-blacklisted-email-text": "El to adress de posta eletronica adess l'è blocad quant al mandà di messagg de posta eletronica a di alter utent.",
+	"spam-blacklisted-email-signup": "L'adress de posta eletronica indicad, al moment l'è blocad.",
+	"spam-invalid-lines": "{{PLURAL:$1|Quella riga chì|Queste righe chì}} de la lista negra del ruf {{PLURAL:$1|a l'è una'espression regolar minga valida|a inn di espression regolar minga valide}}; a gh'è besogn de corrensger {{PLURAL:$1|l'eror|i eror}} inanz de salvà la pagina.",
+	"spam-blacklist-desc": "Istrument contra del ruf fondad sora i espression regolar per blocà i URL e i adress de posta eletronica di utent registrad",
+	"log-name-spamblacklist": "Register de la lista negra del ruf",
+	"log-description-spamblacklist": "'Sti aveniment chì i lassen sgiò di segn di ativazzion de la lista negra del ruf.",
+	"logentry-spamblacklist-hit": "{{GENDER:$2|El $1|La $1|El/La $1}}  l'hà caosad l'ativazzion de la lista negra del ruf in su $3 a tentà de sgiontà $4.",
+	"right-spamblacklistlog": "Varda el register de la lista negra del ruf",
+	"action-spamblacklistlog": "varda el register de la lista negra del ruf"
+}

@@ -1,0 +1,29 @@
+{
+	"@metadata": {
+		"authors": [
+			"Fúlvio",
+			"Giro720",
+			"Hamilton Abreu",
+			"He7d3r",
+			"Helder.wiki",
+			"Malafaya",
+			555
+		]
+	},
+	"spam-blacklist": " #<!-- mantenha esta linha exatamente como ela está --> <pre>\n# Os URL externos que estejam nesta lista serão bloqueados quando adicionados a uma página.\n# Esta lista só afeta esta wiki; veja também a lista de bloqueios global.\n# Consulte a documentação em https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:SpamBlacklist\n#\n# A sintaxe é a seguinte:\n#  * Tudo o que estiver entre um \"#\" e o final da linha é um comentário\n#  * Todas as linhas que não estiverem em branco são um fragmento de expressão regular\n#    (regex) que só pode coincidir com os \"hosts\" nos URL\n\n #</pre> <!-- mantenha esta linha exatamente como ela está -->",
+	"spam-whitelist": " #<!-- mantenha esta linha exatamente como ela está --> <pre>\n# Os URL externos que estejam nesta lista *não* serão bloqueados mesmo que normalmente\n# fossem bloqueados por entradas na lista de bloqueios.\n#\n# A sintaxe é a seguinte:\n#  * Tudo o que estiver entre um \"#\" e o final da linha é um comentário\n#  * Todas as linhas que não estiverem em branco são um fragmento de expressão regular\n#    (regex) que só pode coincidir com os \"hosts\" nos URL\n\n #</pre> <!-- mantenha esta linha exatamente como ela está -->",
+	"email-blacklist": " #<!-- mantenha esta linha exatamente como ela está --> <pre>\n# Os endereços de correio eletrónico que estejam nesta lista serão impedidos de se registar\n# e de enviar correio eletrónico.\n# Esta lista só afeta esta wiki; veja também a lista de bloqueios global.\n# Consulte a documentação em https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:SpamBlacklist\n#\n# A sintaxe é a seguinte:\n#  * Tudo o que estiver entre um \"#\" e o final da linha é um comentário\n#  * Todas as linhas que não estiverem em branco são um fragmento de expressão regular\n#    (regex) que só pode coincidir com os endereços de correio eletrónico\n\n #</pre> <!-- mantenha esta linha exatamente como ela está -->",
+	"email-whitelist": " #<!-- mantenha esta linha exatamente como ela está --> <pre>\n# Os endereços de correio eletrónico que estejam nesta lista *não* serão bloqueados\n# mesmo que normalmente fossem bloqueados por entradas na lista de bloqueios.\n#\n# A sintaxe é a seguinte:\n#  * Tudo o que estiver entre um \"#\" e o final da linha é um comentário\n#  * Todas as linhas que não estiverem em branco são um fragmento de expressão regular\n#    (regex) que só pode coincidir com os endereços de correio eletrónico\n\n #</pre> <!-- mantenha esta linha exatamente como ela está -->",
+	"spam-blacklisted-email": "Endereço de correio eletrónico proibido",
+	"spam-blacklisted-email-text": "Atualmente o seu endereço de correio eletrónico está proibido de enviar correio a outros utilizadores.",
+	"spam-blacklisted-email-signup": "O uso do endereço de correio eletrónico fornecido está atualmente proibido.",
+	"spam-invalid-lines": "{{PLURAL:$1|A seguinte linha da lista de barramento de ''spam'' é uma expressão regular inválida e precisa de ser corrigida|As seguintes linhas da lista de barramento de ''spam'' são expressões regulares inválidas e precisam de ser corrigidas}} antes de gravar a página:",
+	"spam-blacklist-desc": "Ferramenta ''antispam'' baseada em expressões regulares, que permite o barramento de endereços URL, impedindo que estes sejam colocados nas páginas, e de endereços de correio eletrónico, impedindo que utilizadores se registem com eles.",
+	"log-name-spamblacklist": "Registo da lista de barramento de ''spam''",
+	"log-description-spamblacklist": "Estes eventos registam as correspondências com a lista de barramento de ''spam''.",
+	"logentry-spamblacklist-hit": "$1 causou uma correspondência com a lista de barramento de ''spam'' na página \"$3\" ao tentar inserir $4.{{GENDER:$2|}}",
+	"right-spamblacklistlog": "Ver o registo da lista de barramento de ''spam''",
+	"action-spamblacklistlog": "ver o registo da lista de barramento de ''spam''",
+	"right-sboverride": "Contornar a lista de barramento de ''spam''",
+	"action-sboverride": "contornar a lista de barramento de ''spam''"
+}

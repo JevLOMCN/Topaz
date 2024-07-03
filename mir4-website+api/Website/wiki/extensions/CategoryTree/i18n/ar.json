@@ -1,0 +1,42 @@
+{
+	"@metadata": {
+		"authors": [
+			"Abanima",
+			"AwamerT",
+			"Maroen1990",
+			"Meno25",
+			"Mido",
+			"Moud hosny",
+			"OsamaK",
+			"زكريا"
+		]
+	},
+	"categorytree": "شجرة تصنيفات",
+	"categorytree-portlet": "تصنيفات",
+	"categorytree-legend": "عرض شجرة التصنيفات",
+	"categorytree-desc": "إضافة معتمدة على الأجاكس لعرض [[Special:CategoryTree|هيكل التصنيف]] لويكي",
+	"categorytree-header": "أدخل اسم تصنيف لترى محتوياته كتركيب شجري. (يتطلب جافا سكريبت.)",
+	"categorytree-category": "تصنيف:",
+	"categorytree-go": "عرض الشجرة",
+	"categorytree-parents": "مصنف تحت",
+	"categorytree-mode-label": "الوضع:",
+	"categorytree-mode-categories": "تصنيفات فقط",
+	"categorytree-mode-pages": "الصفحات ماعدا الملفات",
+	"categorytree-mode-all": "كل الصفحات",
+	"categorytree-collapse": "اطو",
+	"categorytree-expand": "فرد",
+	"categorytree-member-counts": "يحتوي على {{PLURAL:$1|1 تصنيف فرعي واحد|تصنيفين فرعيين|$1 تصنيفات فرعية|$1 تصنيف فرعي}} و{{PLURAL:$2| صفحة واحدة|صفحتين|$2 صفحات|$2 صفحة}}، و {{PLURAL:$3| ملف واحد|ملفين|$3 ملفات|$3 ملفاً|$3 ملف}}",
+	"categorytree-num-categories": "$1 ت",
+	"categorytree-num-pages": " $1 ص",
+	"categorytree-num-files": " $1 م",
+	"categorytree-num-empty": "فارغ",
+	"categorytree-load": "حمل",
+	"categorytree-loading": "جار التحميل",
+	"categorytree-nothing-found": "لم يتم العثور على شيء",
+	"categorytree-no-subcategories": "لا تصنيفات فرعية",
+	"categorytree-no-parent-categories": "لا تصنيفات أصلية",
+	"categorytree-no-pages": "لا صفحات ولا تصنيفات فرعية",
+	"categorytree-not-found": "التصنيف «$1» لم يتم العثور عليه",
+	"categorytree-error": "مشكلة في تحميل البيانات.",
+	"categorytree-retry": "من فضلك انتظر لحظة وحاول مرة أخرى."
+}

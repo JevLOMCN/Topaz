@@ -1,0 +1,23 @@
+{
+	"@metadata": {
+		"authors": [
+			"AdiJapan",
+			"KlaudiuMihaila",
+			"Minisarm",
+			"NGC 54",
+			"Stelistcristi"
+		]
+	},
+	"syntaxhighlight-desc": "Produce evidențierea sintaxei prin eticheta <code>&lt;syntaxhighlight&gt;</code> folosind [http://pygments.org/ Pygments - evidențiere Python de sintaxă]",
+	"syntaxhighlight-error-category": "Pagini cu erori de evidențiere a sintaxei",
+	"syntaxhighlight-error-category-desc": "A apărut o eroare în încercarea de a evidenția codul inclus în această pagină.",
+	"syntaxhighlight-visualeditor-mwsyntaxhighlightinspector-code": "Cod",
+	"syntaxhighlight-visualeditor-mwsyntaxhighlightinspector-language": "Limbă",
+	"syntaxhighlight-visualeditor-mwsyntaxhighlightinspector-none": "(Niciuna)",
+	"syntaxhighlight-visualeditor-mwsyntaxhighlightinspector-showlines": "Arată numărul de linii",
+	"syntaxhighlight-visualeditor-mwsyntaxhighlightinspector-startingline": "Numărul liniei de început",
+	"syntaxhighlight-visualeditor-mwsyntaxhighlightinspector-title": "Bloc cod sursă",
+	"syntaxhighlight-error-pygments-invocation-failure": "Imposibil de apelat Pygments",
+	"syntaxhighlight-error-unknown-language": "Limba „$1” necunoscută",
+	"syntaxhighlight-error-exceeds-size-limit": "Dimensiunea codului de $1 {{PLURAL:$1|octet|octeți|de octeți}} depășește maximul permis de $2 {{PLURAL:$1|octet|octeți|de octeți}}"
+}

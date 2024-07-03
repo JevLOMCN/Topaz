@@ -1,0 +1,39 @@
+{
+	"@metadata": {
+		"authors": [
+			"Lam-ang"
+		]
+	},
+	"cite-desc": "Aginayon kadagiti etiketa ti <code>&lt;ref[ name=id]&gt;</code> ken <code>&lt;references/&gt;</code>, para kadagiti panagdakamat",
+	"cite_error": "Biddut ti dakamat: $1",
+	"cite_error_ref_invalid_dir": "Imbalido nga etiketa ti <code>&lt;ref&gt;</code> ; ti gupit ti dir iti \"$1\" ket di ammo. Nasken koma a ltr wenno rtl",
+	"cite_error_ref_numeric_key": "Imbalido ti etiketa ti <code>&lt;ref&gt;</code>;\nti nagan ket saan a mabalin a nalaka a sibubukel. Agusar ti makaipalawag a titulo",
+	"cite_error_ref_no_key": "Nadadael ti panglukat nga etiketa ti <code>&lt;ref&gt;</code> wenno addaan iti madi a nagan",
+	"cite_error_ref_too_many_keys": "Imbalido nga etiketa ti <code>&lt;ref&gt;</code> ;\nimbalido a nagnagan, a kas adu unay",
+	"cite_error_ref_no_input": "Imbalido nga etiketa ti <code>&lt;ref&gt;</code> ;\ndagiti ref nga awan ti naganna ket masapul nga addaan iti linaon",
+	"cite_error_references_duplicate_key": "Imbalido nga etiketa ti <code>&lt;ref&gt;</code>; ti nagan ti \"$1\" ket naipalawag kadagiti namin adu a beses nga agraman iti sabali a linaon",
+	"cite_error_references_invalid_parameters": "Imbalido a parametro iti etiketa ti <code>&lt;references&gt;</code>",
+	"cite_error_references_no_backlink_label": "Naibusan kadagiti etiketa ti naisangayan a silpo ti likud. Ipalawag pay ti adu idiay mensahe ti [[MediaWiki:Cite references link many format backlink labels]]",
+	"cite_error_no_link_label_group": "Naibusan kadagiti etiketa ti nangruna a silpo para iti grupo ti \"$1\". Ipalawag pay ti adu idiay mensahe ti [[MediaWiki:$2]] .",
+	"cite_error_references_no_text": "Imbalido nga etiketa ti <code>&lt;ref&gt;</code> ;\nawan ti teksto a naited para kadagiti ref a nanaganan ti <code>$1</code>",
+	"cite_error_included_ref": "Awan ti pangrikep ti <code>&lt;/ref&gt;</code> para iti etiketa ti <code>&lt;ref&gt;</code>",
+	"cite_error_group_refs_without_references": "Adda dagiti etiketa ti <code>&lt;ref&gt;</code> para iti grupo a nanaganan ti \"$1\", ngem awan ti nabirukan a kapada nga etiketa ti <code>&lt;references group=\"$1\"/&gt;</code>, wenno awan ti pangrikep ti <code>&lt;/ref&gt;</code>",
+	"cite_error_references_group_mismatch": "Ti etiketa ti <code>&lt;ref&gt;</code> iti <code>&lt;references&gt;</code> ket addaan iti agsinnungat a gupit ti grupo ti \"$1\".",
+	"cite_error_references_missing_key": "Ti etiketa ti <code>&lt;ref&gt;</code> nga addaan iti nagan ti \"$1\" a naipalawag iti <code>&lt;references&gt;</code> ket saan a nausar iti dati a teksto.",
+	"cite_error_references_no_key": "Ti etiketa ti <code>&lt;ref&gt;</code> a naipalawag iti <code>&lt;references&gt;</code> ket awan ti nainagan a gupit.",
+	"cite_error_empty_references_define": "Ti etiketa ti <code>&lt;ref&gt;</code> a naipalawag iti <code>&lt;references&gt;</code> nga addaan iti nagan a \"$1\" ket awan linaon.",
+	"cite-tracking-category-cite-error": "Pampanid nga agraman kadagiti biddut ti reperensia",
+	"cite-tracking-category-cite-error-desc": "Dagiti panid iti daytoy a kategoria ket addaan kadaggiti biddut iti panagusar kadagiti etiketa ti reperensia.",
+	"cite_references_link_accessibility_label": "Mapan iti ngato",
+	"cite_references_link_many_accessibility_label": "Mapan aginggana iti:",
+	"cite_references_link_accessibility_back_label": "Mapan iti ngato",
+	"cite_section_preview_references": "Panangipadas kadagiti nagibasaran",
+	"cite_warning": "Ballaag ti Cite: $1",
+	"cite_warning_sectionpreview_no_text": "Ti etiketa ti <code>&lt;ref&gt;</code> nga agraman iti nagan iti <code>$1</code> ket saan a maipadas gapu ta naipalawag iti ruar ti agdama a seksion wenno saan amin a naipalawag.",
+	"cite-wikieditor-tool-reference": "Reperensia",
+	"cite-wikieditor-help-page-references": "Dagiti reperensia",
+	"cite-wikieditor-help-content-reference-description": "Reperensia",
+	"cite-wikieditor-help-content-named-reference-description": "Nanaganan a reperensia",
+	"cite-wikieditor-help-content-rereference-description": "Maipatinayon nga usar iti isu met laeng a reperensia",
+	"cite-wikieditor-help-content-showreferences-description": "Iparang dagiti reperensia"
+}

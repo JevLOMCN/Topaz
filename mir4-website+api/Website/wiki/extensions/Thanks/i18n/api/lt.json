@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"Albertas",
+			"Macofe",
+			"Manvydasz"
+		]
+	},
+	"apihelp-flowthank-param-postid": "Padėkos įrašo UUID.",
+	"apihelp-flowthank-example-1": "Siųsti padėką už komentarą su <kbd>UUID xyz789</kbd>",
+	"apihelp-thank-summary": "Siųsti padėkos pranešimą redaktoriui.",
+	"apihelp-thank-param-rev": "ID versijos, už kurią padėkoti.",
+	"apihelp-thank-param-source": "Trumpa eilutė, apibūdinanti užklausos šaltinį, pavyzdžiui <kbd>diff</kbd> arba <kbd>history</kbd>.",
+	"apihelp-thank-example-1": "Siųsti padėką už versiją, kurios <kbd>ID 456</kbd> ir šaltinis yra skirtumų puslapis"
+}

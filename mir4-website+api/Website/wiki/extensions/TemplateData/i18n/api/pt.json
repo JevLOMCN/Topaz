@@ -1,0 +1,16 @@
+{
+	"@metadata": {
+		"authors": [
+			"Fúlvio",
+			"Hamilton Abreu"
+		]
+	},
+	"apihelp-templatedata-summary": "Obtém dados armazenados pela extensão TemplateData.",
+	"apihelp-templatedata-example-1": "Devolver dados TemplateData de [[Template:Foobar]], com resultados se a predefinição não existe ou existe mas não contém dados TemplateData",
+	"apihelp-templatedata-example-2": "Devolver dados TemplateData de [[Template:Phabricator]], sem resultados se a predefinição não existe ou existe mas não contém dados TemplateData",
+	"apihelp-templatedata-param-includeMissingTitles": "Devolver dados sobre os títulos, mesmo se estes não existem ou não contêm dados TemplateData. Por omissão, os títulos só são devolvidos se existirem e contiverem dados TemplateData.",
+	"apihelp-templatedata-param-doNotIgnoreMissingTitles": "Devolver dados sobre os títulos, mesmo se estes não existem ou não contêm dados TemplateData. Por omissão (para compatibilidade com versões anteriores) os títulos só são devolvidos se existirem e contiverem dados TemplateData.",
+	"apihelp-templatedata-param-lang": "Devolver os valores localizados nesta língua. Por omissão, são devolvidas todas as traduções disponíveis.",
+	"apierror-templatedata-corrupt": "Os dados TemplateData da página #$1 contêm dados inválidos: $2",
+	"apiwarn-templatedata-deprecation-format": "O formato padrão do resultado será alterado no futuro para <kbd>jsonfm</kbd>. Especifique <kbd>format=json</kbd> explicitamente, por favor."
+}

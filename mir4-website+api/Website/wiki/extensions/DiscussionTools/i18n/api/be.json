@@ -1,0 +1,39 @@
+{
+	"@metadata": {
+		"authors": [
+			"Maksim L.",
+			"Plaga med",
+			"Tomato Cream"
+		]
+	},
+	"apierror-discussiontools-commentid-notfound": "Каментар з ідэнтыфікатарам «$1» не знойдзены.",
+	"apierror-discussiontools-commentname-ambiguous": "Знойдзена некалькі каментароў з назвай «$1», патрабуецца <var>commentid</var> каментара.",
+	"apierror-discussiontools-commentname-notfound": "Каментар з назвай «$1» не знойдзены.",
+	"apierror-discussiontools-formtoken-used": "Каментар ужо апублікаваны. Перазагрузіце старонку, каб убачыць яго.",
+	"apierror-discussiontools-subscription-failed-add": "Не атрымалася падпісацца на гэтую тэму.",
+	"apierror-discussiontools-subscription-failed-remove": "Не атрымалася адпісацца ад гэтай тэмы.",
+	"apihelp-discussiontoolscompare-summary": "Атрымаць інфармацыю пра змены каментароў паміж двума версіямі старонак.",
+	"apihelp-discussiontoolsedit-param-commentid": "Ідэнтыфікатар каментара, на які трэба адказаць. Выкарыстоўваецца толькі калі <var>paction</var> — <var>addcomment</var>. Перавызначае <var>commentname</var>.",
+	"apihelp-discussiontoolsedit-param-commentname": "Назва каментара, на які трэба адказаць. Выкарыстоўваецца толькі калі <var>paction</var> — <var>addcomment</var>.",
+	"apihelp-discussiontoolsedit-param-formtoken": "Неабавязковы ўнікальны ідэнтыфікатар, створаны ў кліенце для прадухілення падвойнай публікацыі.",
+	"apihelp-discussiontoolsedit-param-html": "Кантэнт для публікацыі як HTML. Нельга выкарыстоўваць разам з <var>wikitext</var>.",
+	"apihelp-discussiontoolsedit-param-sectiontitle": "{{int:apihelp-edit-param-sectiontitle}} Выкарыстоўваецца толькі калі <var>paction</var> — <var>addtopic</var>.",
+	"apihelp-discussiontoolsedit-param-wikitext": "Кантэнт для публікацыі як вікі-тэкст. Нельга выкарыстоўваць разам з <var>html</var>.",
+	"apihelp-discussiontoolsedit-paramvalue-paction-addcomment": "Дадаць новы каментар як адказ на існы каментар.",
+	"apihelp-discussiontoolsedit-paramvalue-paction-addtopic": "Дадаць новы раздзел размовы і першы каментар у ім.",
+	"apihelp-discussiontoolsedit-summary": "Апублікаваць паведамленне на старонцы размовы.",
+	"apihelp-discussiontoolsgetsubscriptions-param-commentname": "Назвы тэмаў для праверкі",
+	"apihelp-discussiontoolsgetsubscriptions-summary": "Атрымаць станы падпіскі на зададзеныя тэмы.",
+	"apihelp-discussiontoolspageinfo-param-oldid": "Нумар версіі для выкарыстання (прадвызначана — апошняя версія).",
+	"apihelp-discussiontoolspageinfo-param-prop": "Якія ўласцівасці атрымаць:",
+	"apihelp-discussiontoolspageinfo-paramvalue-prop-threaditemshtml": "Прадстаўленне каментарыяў, разабраных са старонкі",
+	"apihelp-discussiontoolspageinfo-paramvalue-prop-transcludedfrom": "З якіх іншых старонак былі ўключаны каментары",
+	"apihelp-discussiontoolspageinfo-summary": "Вяртае метададзеныя, неабходныя для ініцыялізацыі інструментаў размоў.",
+	"apihelp-discussiontoolspreview-param-type": "Тып паведамлення для перадпрагляду",
+	"apihelp-discussiontoolspreview-param-wikitext": "Перадпрагляд зместу як вікіразметкі.",
+	"apihelp-discussiontoolspreview-summary": "Перадпрагляд паведамлення на старонцы размоў.",
+	"apihelp-discussiontoolssubscribe-param-commentname": "Назва тэмы, на якую трэба падпісацца (або адпісацца)",
+	"apihelp-discussiontoolssubscribe-param-page": "Старонка, на якой знаходзіцца тэма",
+	"apihelp-discussiontoolssubscribe-param-subscribe": "True для падпіскі, false для адпіскі",
+	"apihelp-discussiontoolssubscribe-summary": "Падпісацца (або адпісацца), каб атрымліваць апавяшчэнні па тэме."
+}

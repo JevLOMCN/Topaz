@@ -1,0 +1,20 @@
+{
+	"@metadata": {
+		"authors": [
+			"Aftab1995",
+			"Aftabuzzaman",
+			"Aishik Rehman",
+			"Bellayet",
+			"Zaheen",
+			"আফতাবুজ্জামান"
+		]
+	},
+	"citethispage": "এই পাতাটি উদ্ধৃত করুন",
+	"citethispage-desc": "একটি বিশেষ [[Special:CiteThisPage|উদ্ধৃতি]] পাতা ও টুলবক্স সংযোগ যোগ করে",
+	"citethispage-link": "এই পাতাটি উদ্ধৃত করুন",
+	"tooltip-citethispage": "এই পাতাটি কিভাবে উদ্ধৃত করবেন তার তথ্য",
+	"citethispage-change-submit": "উদ্ধৃত করুন",
+	"citethispage-change-target": "পাতা:",
+	"citethispage-badrevision": "ত্রুটি: সংশোধন আইডি $2 সহ \"$1\" পাতার জন্য কোনো সংশোধন খুঁজে পাওয়া যায়নি।",
+	"citethispage-content": "__NOTOC__\n<div class=\"mw-specialCiteThisPage-bibliographic\">\n\n== {{FULLPAGENAME}}-এর জন্য গ্রন্থতালিকার বিস্তারিত ==\n\n* পাতার নাম: {{FULLPAGENAME}}\n* লেখক: {{SITENAME}} অবদানকারী\n* প্রকাশক: ''{{SITENAME}}''।\n* সর্বশেষ সংশোধনের তারিখ: {{CURRENTDAY}} {{CURRENTMONTHNAME}} {{CURRENTYEAR}} {{CURRENTTIME}} ইউটিসি\n* সংগ্রহের তারিখ: <citation>{{CURRENTDAY}} {{CURRENTMONTHNAME}} {{CURRENTYEAR}} {{CURRENTTIME}} ইউটিসি</citation>\n* প্যারামিটার URL: {{canonicalurl:{{FULLPAGENAME}}|oldid={{REVISIONID}}}}\n* পাতার সংস্করণ আইডি: {{REVISIONID}}\n\n</div>\n<div class=\"plainlinks mw-specialCiteThisPage-styles\">\n\n== {{FULLPAGENAME}}-এর জন্য উদ্ধৃতি শৈলী ==\n\n=== [[এপিএ স্টাইল]] ===\n{{FULLPAGENAME}}। ({{CURRENTYEAR}}, {{CURRENTMONTHNAME}} {{CURRENTDAY}})। ''{{SITENAME}}''। {{canonicalurl:{{FULLPAGENAME}}|oldid={{REVISIONID}}}} থেকে <citation>{{CURRENTTIME}}, {{CURRENTMONTHNAME}} {{CURRENTDAY}}, {{CURRENTYEAR}}</citation> তারিখে সংগৃহীত হয়েছে।\n\n=== [[দ্য এমএলএ স্টাইল ম্যানুয়াল|এমএলএ শৈলী]] ===\n\"{{FULLPAGENAME}}।\" ''{{SITENAME}}''। {{CURRENTDAY}} {{CURRENTMONTHABBREV}} {{CURRENTYEAR}}, {{CURRENTTIME}} ইউটিসি। <citation>{{CURRENTDAY}} {{CURRENTMONTHABBREV}} {{CURRENTYEAR}}, {{CURRENTTIME}}</citation> &lt;{{canonicalurl:{{FULLPAGENAME}}|oldid={{REVISIONID}}}}&gt;।\n\n=== [[এমএইচআরএ স্টাইল গাইড|এমএইচআরএ শৈলী]] ===\n{{SITENAME}} অবদানকারী, '{{FULLPAGENAME}}', ''{{SITENAME}},'' {{CURRENTDAY}} {{CURRENTMONTHNAME}} {{CURRENTYEAR}}, {{CURRENTTIME}} ইউটিসি, &lt;{{canonicalurl:{{FULLPAGENAME}}|oldid={{REVISIONID}}}}&gt; [<citation>{{CURRENTDAY}} {{CURRENTMONTHNAME}} {{CURRENTYEAR}}</citation> তারিখে সংগৃহীত]\n\n=== [[The Chicago Manual of Style|শিকাগো শৈলী]] ===\n{{SITENAME}} অবদানকারী, \"{{FULLPAGENAME}},\" ''{{SITENAME}},'' {{canonicalurl:{{FULLPAGENAME}}|oldid={{REVISIONID}}}} (<citation>{{CURRENTMONTHNAME}} {{CURRENTDAY}}, {{CURRENTYEAR}}</citation> তারিখে সংগৃহীত)।\n\n=== [[Council of Science Editors|সিবিই/সিএসই শৈলী]] ===\n{{SITENAME}} অবদানকারী। {{FULLPAGENAME}} [ইন্টারনেট]। {{SITENAME}}; {{CURRENTYEAR}} {{CURRENTMONTHABBREV}} {{CURRENTDAY}}, {{CURRENTTIME}} ইউটিসি [<citation>{{CURRENTYEAR}} {{CURRENTMONTHABBREV}} {{CURRENTDAY}}</citation> তারিখে উদ্ধৃত]। এতে উপলব্ধ:\n{{canonicalurl:{{FULLPAGENAME}}|oldid={{REVISIONID}}}}।\n\n=== [[ব্লুবুক|ব্লুবুক শৈলী]] ===\n{{FULLPAGENAME}}, {{canonicalurl:{{FULLPAGENAME}}|oldid={{REVISIONID}}}} (<citation>{{CURRENTMONTHNAME}} {{CURRENTDAY}}, {{CURRENTYEAR}}</citation> তারিখে সর্বশেষ দেখা)।\n\n=== [[বিবটেক্স]] ভুক্তি ===\n\n  @misc{ wiki:xxx,\n    author = \"{{SITENAME}}\",\n    title = \"{{FULLPAGENAME}} --- {{SITENAME}}{,} {{int:sitesubtitle}}\",\n    year = \"{{CURRENTYEAR}}\",\n    url = \"{{canonicalurl:{{FULLPAGENAME}}|oldid={{REVISIONID}}}}\",\n    note = \"[অনলাইন; <citation>{{CURRENTDAY}}-{{CURRENTMONTHNAME}}-{{CURRENTYEAR}}</citation> তারিখে সংগৃহীত]\"\n  }\n\nযখন [[ল্যাটেক]] প্যাকেজ url ব্যবহার করবেন (প্রস্তাবনার মধ্যে কোথাও <code>\\usepackage{url}</code>) যা অনেক বেশি চমত্কার ফরম্যাটকৃত ওয়েব ঠিকানা দিয়ে থাকে, নিম্নোক্তটিকে অগ্রাধিকার দিতে পারে:\n\n  @misc{ wiki:xxx,\n    author = \"{{SITENAME}}\",\n    title = \"{{FULLPAGENAME}} --- {{SITENAME}}{,} {{int:sitesubtitle}}\",\n    year = \"{{CURRENTYEAR}}\",\n    url = \"'''\\url{'''{{canonicalurl:{{FULLPAGENAME}}|oldid={{REVISIONID}}}}'''}'''\",\n    note = \"[অনলাইন; <citation>{{CURRENTDAY}}-{{CURRENTMONTHNAME}}-{{CURRENTYEAR}}</citation> তারিখে সংগৃহীত]\"\n  }\n\n\n</div> <!--closing div for \"plainlinks\"-->"
+}

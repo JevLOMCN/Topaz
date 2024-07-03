@@ -1,0 +1,36 @@
+{
+	"@metadata": {
+		"authors": [
+			"Chrisportelli",
+			"MTSap",
+			"Roderick Mallia"
+		]
+	},
+	"categorytree": "Siġra tal-kategoriji",
+	"categorytree-portlet": "Kategoriji",
+	"categorytree-legend": "Uri s-siġra tal-kategoriji",
+	"categorytree-desc": "Innaviga b'mod dinamiku fl-[[Special:CategoryTree|istruttura tal-kategorija]]",
+	"categorytree-header": "Daħħal isem ta' kategorija biex tara l-kontenuti taħt struttura ta' siġra. Kun af li din għandha bżonn funzjonalità avvanzata ta' JavaScript magħrufa bħala AJAX. Jekk tuża' browser antik ħafna, jew għandek il-JavaScript diżattivat, din ma tistax taħdem.",
+	"categorytree-category": "Kategorija:",
+	"categorytree-go": "Uri s-siġra",
+	"categorytree-parents": "Parenti",
+	"categorytree-mode-categories": "il-kategoriji biss",
+	"categorytree-mode-pages": "il-paġni esklużi l-fajls",
+	"categorytree-mode-all": "il-paġni kollha",
+	"categorytree-collapse": "niżżel",
+	"categorytree-expand": "espandi",
+	"categorytree-member-counts": "Għandha {{PLURAL:$1|sottokategorija waħda|$1 sottokategoriji}}, {{PLURAL:$2|paġna waħda|$2 paġna}}, u {{PLURAL:$3|1 fajl|$3 fajls}}",
+	"categorytree-num-categories": "$1 K",
+	"categorytree-num-pages": "$1 P",
+	"categorytree-num-files": "$1 F",
+	"categorytree-num-empty": "vojta",
+	"categorytree-load": "tella'",
+	"categorytree-loading": "tiela",
+	"categorytree-nothing-found": "ma nstab xejn",
+	"categorytree-no-subcategories": "l-ebda sottokategorija",
+	"categorytree-no-parent-categories": "l-ebda kategorija parenti",
+	"categorytree-no-pages": "l-ebda paġna jew sottokategorija",
+	"categorytree-not-found": "Il-kategorija <i>$1</i> ma nstabitx",
+	"categorytree-error": "Problema fit-tlugħ tal-informazzjoni.",
+	"categorytree-retry": "Jekk jogħġbok stenna ftit u erġa' pprova."
+}

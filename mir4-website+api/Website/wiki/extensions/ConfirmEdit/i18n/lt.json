@@ -1,0 +1,41 @@
+{
+	"@metadata": {
+		"authors": [
+			"Albertas",
+			"Eitvys200",
+			"Garas",
+			"Homo",
+			"Matasg",
+			"Nokeoo",
+			"Tomasdd",
+			"Zygimantus"
+		]
+	},
+	"captcha-edit": "Kad redaguotumėte šį straipsnį, išspręskite pateiktą užduotį ir įveskite atsakymą į laukelį ([[Special:Captcha/help|daugiau informacijos]]):",
+	"captcha-edit-fail": "Neteisingas arba nenurodytas patvirtinimo kodas.",
+	"captcha-desc": "Pateikia CAPTCHA metodikas, kaip apsisaugoti nuo brukalo ir slaptažodžių spėliojimo",
+	"captcha-help": "CAPTCHA sprendimas.",
+	"captcha-info-help": "CAPTCHA aprašymas.",
+	"captcha-id-label": "CAPTCHA ID",
+	"captcha-id-help": "Ši reikšmė turėtų būti siunčiama atgal nepakeista.",
+	"captcha-addurl": "Jūsų pakeitimuose yra nauja išorinė nuoroda.\nKad apsaugotume viki nuo automatinio brukalo, mes maloniai prašome Jūsų išspręsti šią žemiau pateiktą užduotį ir įrašyti atsakymą į langelį, kad Jūsų pakeitimai būtų išsaugoti ([[Special:Captcha/help|daugiau informacijos]]):",
+	"captcha-badlogin": "Kad apsaugotume viki nuo automatinio slaptažodžių spėliojimo, mes maloniai prašome Jūsų išspręsti šią žemiau pateiktą užduotį ir įrašyti atsakymą į langelį ([[Special:Captcha/help|daugiau informacijos]]):",
+	"captcha-createaccount": "Kad apsaugotume viki nuo automatinio paskyrų kūrimo, mes maloniai prašome Jūsų išspręsti šią žemiau pateiktą užduotį ir įrašyti atsakymą į langelį\n([[Special:Captcha/help|daugiau informacijos]]):",
+	"captcha-createaccount-fail": "Neteisingas arba nenurodytas patvirtinimo kodas.",
+	"captcha-create": "Kad sukurtumėte puslapį, prašome išspręsti šią žemiau pateiktą užduotį ir įrašyti atsakymą į langelį ([[Special:Captcha/help|daugiau informacijos]]):",
+	"captcha-sendemail": "Kad apsaugotume viki nuo automatinio brukalo, maloniai prašome išspręsti šią žemiau pateiktą užduotį ir įrašyti atsakymą į langelį\n([[Special:Captcha/help|daugiau informacijos]]):",
+	"captcha-sendemail-fail": "Neteisingas arba nenurodytas CAPTCHA.",
+	"captcha-disabledinapi": "Šis veiksmas reikalauja nurodyti patvirtinimo kodą, todėl jis negali būti atliktas per API.",
+	"captcha-error": "CAPTCHA patvirtinimas nepavyko dėl vidinės klaidos: $1",
+	"captchahelp-title": "CAPTCHA pagalba",
+	"captchahelp-cookies-needed": "Jums reikia būti įjungus sausainėlius savo naršyklėje kad tai veiktu",
+	"captchahelp-text": "Tinklapis, kuris priima įrašus iš viešumos, kaip šis vikis, yra dažnai išnaudojamas brukalių, kurie naudoja automatizuotus įrankius savo nuorodoms įrašyti į daugelį tinklapių. Nors šios brukalo nuorodos gali būti pašalintos, bet tai daryti yra labai nemalonu.\n\nKartais, ypač kai į puslapį įrašoma nauja internetinė nuoroda, vikis gali parodyti paveikslėlį su nuspalvintu ar sudarkytu tekstu ir paprašyti įvesti rodomus žodžius. Tai yra sunkiai automatizuojama užduotis, todėl dauguma tikrų žmonių galės pateikti įrašus, o dauguma brukalių ir kitų robotizuotų atakuotojų bus sustabdyti.\n\nDeja, tai gali sukelti sunkumų naudotojams, kurie prastai mato arba naudoja tekstu-grįstas arba kalba-grįstas naršykles.\nŠiuo metu negalime pasiūlyti audio alternatyvos.\nPrašome susisiekti su [[Special:ListAdmins|tinklapio administratoriais]] dėl pagalbos, jeigu tai netikėtai trukdo Jums atlikti teisėtus veiksmus.\n\nPaspauskite \"Atgal\" mygtuką savo naršyklėje, kad grįžtumėte į puslapio redaktorių.",
+	"captcha-addurl-whitelist": " #<!-- palikite šią eilutę tiksliai tokią, kokia ji yra --> <pre>\n# Sintaksė tokia:\n#   * Viskas nuo \"#\" simbolio iki eilutės pabaigos yra komentaras\n#   * Kiekviena netuščia eilutė yra reguliariosios išraiškos fragmentas, kuris atitinka tik serverių vardus esančius URL adresuose\n #</pre> <!-- palikite šią eilutę tiksliai tokią, kokia ji yra -->",
+	"right-skipcaptcha": "Atlikti CAPTCHA reikalaujančius veiksmus nereikalaujant CAPTCHA išsprendimo",
+	"action-skipcaptcha": "atlikti CAPTCHA reikalaujančius veiksmus nereikalaujant CAPTCHA išsprendimo",
+	"confirmedit-preview-line": "Eilutės numeris",
+	"confirmedit-preview-content": "Turinys",
+	"confirmedit-preview-validity": "Galiojimas",
+	"confirmedit-preview-valid": "galiojantis",
+	"confirmedit-preview-invalid": "neteisingas"
+}

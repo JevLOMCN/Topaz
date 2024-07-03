@@ -1,0 +1,42 @@
+{
+	"@metadata": {
+		"authors": [
+			"Ahonc",
+			"Amire80",
+			"Kaganer",
+			"Lockal",
+			"Okras",
+			"Pacha Tchernof",
+			"Putnik",
+			"Александр Сигачёв"
+		]
+	},
+	"categorytree": "Дерево категорий",
+	"categorytree-portlet": "Категории",
+	"categorytree-legend": "Показать дерево категорий",
+	"categorytree-desc": "AJAX-компонент для отображения [[Special:CategoryTree|структуры категорий]] вики",
+	"categorytree-header": "Введите имя категории для показана её содержимого в виде дерева (требуется JavaScript).",
+	"categorytree-category": "Категория:",
+	"categorytree-go": "Загрузить",
+	"categorytree-parents": "Родительские категории",
+	"categorytree-mode-label": "Режим:",
+	"categorytree-mode-categories": "только категории",
+	"categorytree-mode-pages": "кроме файлов",
+	"categorytree-mode-all": "все страницы",
+	"categorytree-collapse": "свернуть",
+	"categorytree-expand": "развернуть",
+	"categorytree-member-counts": "Содержит $1 {{PLURAL:$1|подкатегорию|подкатегории|подкатегорий}}, $2 {{PLURAL:$2|страницу|страницы|страниц}} и $3 {{PLURAL:$3|файл|файла|файлов}}",
+	"categorytree-num-categories": "$1 К",
+	"categorytree-num-pages": "$1 С",
+	"categorytree-num-files": "$1 Ф",
+	"categorytree-num-empty": "пусто",
+	"categorytree-load": "загрузить",
+	"categorytree-loading": "загружается…",
+	"categorytree-nothing-found": "Данная категория не содержит подкатегорий.",
+	"categorytree-no-subcategories": "нет подкатегорий",
+	"categorytree-no-parent-categories": "нет родительских категорий",
+	"categorytree-no-pages": "нет статей и подкатегорий",
+	"categorytree-not-found": "Категория «$1» не найдена.",
+	"categorytree-error": "Ошибка загрузки данных.",
+	"categorytree-retry": "Пожалуйста, подождите и попробуйте ещё раз."
+}

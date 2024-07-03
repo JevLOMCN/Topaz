@@ -1,0 +1,31 @@
+/*!
+ * VisualEditor MediaWiki Initialization desktop target Monobook skin styles.
+ *
+ * @copyright See AUTHORS.txt
+ * @license The MIT License (MIT); see LICENSE.txt
+ */
+
+/* stylelint-disable-next-line selector-class-pattern */
+.mw-body a.external.ve-ce-linkAnnotation.ve-ce-annotation-active {
+	/* Monobook sets a background:url(); rule which overrides the colour. TODO: Fix upstream */
+	background-color: #e6f1ff;
+}
+
+.ve-ui-debugBar {
+	border-top: 1px solid #ccc;
+}
+
+.ve-ui-surface .ve-ui-surface-placeholder {
+	opacity: 1;
+	color: #72777d;
+}
+
+.ve-ui-overlay .mw-body-content {
+	/* Fix font-size for surfaces inside UI overlays */
+	font-size: 0.9921875em; /* 1/ ( 0.8em / x-small / 127% ) */
+}
+
+.ve-ui-overlay-local {
+	/* Fix font-size for overlays inside surfaces */
+	font-size: 1.007874em; /* 12.8/12.7 */
+}

@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Piramidion",
+			"Ата"
+		]
+	},
+	"apihelp-categorytree-summary": "Внутрішній модуль для розширення CategoryTree.",
+	"apihelp-categorytree-param-category": "Назва в просторі назв категорій. Якщо буде вказаний префікс, він буде проігнорований.",
+	"apihelp-categorytree-param-options": "Опції для конструктора CategoryTree як об'єкта JSON. Параметр глибини (<var>depth</var>) за замовчуванням встановлений як <kbd>1</kbd>.",
+	"apierror-categorytree-invalidjson": "Опції мають бути коректним JSON-об'єктом."
+}

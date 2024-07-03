@@ -1,0 +1,86 @@
+/*!
+ * VisualEditor MediaWiki Initialization DesktopArticleTarget styles.
+ *
+ * @copyright See AUTHORS.txt
+ * @license The MIT License (MIT); see LICENSE.txt
+ */
+/* Toolbar */
+.ve-init-mw-desktopArticleTarget-toolbar {
+	> .oo-ui-toolbar-bar > * {
+		opacity: 0;
+		transition: opacity 250ms ease;
+	}
+
+	&-open > .oo-ui-toolbar-bar > * {
+		opacity: 1;
+	}
+
+	&-preclose {
+		overflow: hidden;
+		transition: height 250ms ease;
+	}
+
+	&-close {
+		height: 0;
+	}
+
+	&-preclose > .oo-ui-toolbar-bar {
+		transition: transform 250ms ease;
+		transform: translateY( 0 );
+	}
+
+	&-close > .oo-ui-toolbar-bar {
+		transform: translateY( -100% );
+	}
+
+	.ve-tempSourceEditing & {
+		margin-bottom: -3.125em;
+		transition: opacity 2s ease;
+
+		& > .oo-ui-toolbar-bar {
+			transition: none;
+		}
+	}
+}
+
+/*!
+ * ve-redirect-header is added just outside of the surface, which has its own
+ * hiding style during activation.
+ */
+.ve-activating .ve-redirect-header {
+	height: 0;
+	overflow: hidden;
+}
+
+.ve-init-mw-desktopArticleTarget {
+	.ve-redirect-header {
+		cursor: pointer;
+	}
+
+	/* stylelint-disable-next-line selector-class-pattern */
+	.redirectMsg a:hover {
+		text-decoration: none;
+	}
+
+	/*!
+	 * Increase z-index of surface container so it appears above the debug bar
+	 */
+	#bodyContent { /* stylelint-disable-line selector-max-id */
+		z-index: 1;
+	}
+
+	&-sectionTitle {
+		max-width: none;
+		margin: 1em 0 0.5em 0;
+
+		.oo-ui-inputWidget-input {
+			/* stylelint-disable declaration-no-important */
+			padding: 0 !important;
+			border: 0 !important;
+			outline: 0 !important;
+			box-shadow: none !important;
+			line-height: inherit;
+			/* stylelint-enable declaration-no-important */
+		}
+	}
+}

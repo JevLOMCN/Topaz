@@ -1,0 +1,38 @@
+{
+	"@metadata": {
+		"authors": [
+			"Merrahtar"
+		]
+	},
+	"prefs-echo": "Тӣдҍхэмуж",
+	"prefs-emailsettings": "Эл. по̄шта оа̄ссмуж",
+	"echo-pref-send-me": "Вӯлкхэллэ мыннӭ:",
+	"echo-pref-send-to": "Вӯлкхэллэ а̄дрессэ:",
+	"tooltip-pt-notifications-notice": "{{GENDER:|То̄н}} тӣдҍхэмуж",
+	"echo-displaynotificationsconfiguration-notifications-by-category-header": "Тӣдҍхэмуж категорьяе мӣлльтэ",
+	"echo-specialpage": "Тӣдҍхэмуж",
+	"echo-notification-markasread": "Тӣһтэ гу ло̄гкма",
+	"echo-notification-markasunread": "Тӣһтэ гу эйй ло̄гкма",
+	"notification-link-text-view-changes": "{{GENDER:$1|Кӣһче}} воа̄йхэзэтҍ",
+	"notification-header-edit-user-talk": "$1 {{GENDER:$2|кӯдӭ}} соа̄г <strong>{{GENDER:$3|то̄н}} соа̄рнънэмлыстэсьт</strong>.",
+	"notification-header-edit-user-talk-with-section": "$1 {{GENDER:$2|кӯдӭ}} соа̄г <strong>{{GENDER:$3|то̄н}} соа̄рнънэмлыстэсьт</strong> па̄ҋкэсьт «<strong>$4</strong>».",
+	"notification-header-user-rights-add-only": "{{GENDER:$4|То̄н}} оаннӭй вуэйймуж {{GENDER:$1|воа̄йхуввенҍ}}. То̄нн лӣ лажьха группая: $2.",
+	"notification-header-welcome": "{{GENDER:$2|Пӯррь пуэдӓнт}} {{SITENAME}} са̄ййта, $1! Роа̄мм лӣ {{GENDER:$2|то̄н}} тэста уййнэ.",
+	"notification-header-thank-you-1-edit": "{{GENDER:$2|То̄нн}} еськ лыгкекь {{GENDER:$2|то̄н}} авьтмусс воа̄йхэз. Па̄ссьпушшэпь {{GENDER:$2|тоннӭ}} тэнн эвтэсьт, я пӯррь пуэдтҍмушш!",
+	"notification-link-article-reminder": "Кӣһче лыст",
+	"notification-timestamp-ago-seconds": "{{PLURAL:$1|$1 с}}",
+	"notification-timestamp-ago-minutes": "{{PLURAL:$1|$1 мин}}",
+	"notification-timestamp-ago-hours": "{{PLURAL:$1|$1 ч}}",
+	"notification-timestamp-ago-days": "{{PLURAL:$1|$1 п.}}",
+	"notification-timestamp-ago-months": "{{PLURAL:$1|$1 ма̄н.}}",
+	"notification-timestamp-ago-years": "{{PLURAL:$1|$1 ыг.}}",
+	"notification-inbox-filter-read": "Ло̄гкма",
+	"notification-inbox-filter-unread": "Эйй ло̄гкма",
+	"echo-notification-alert": "{{PLURAL:$1|Тӣдҍлаһтҍмушш ($1)|Тӣдтҍлаһтҍмуж ($1)|100=Тӣдҍлаһтҍмуж (99+)}}",
+	"echo-notification-notice": "{{PLURAL:$1|Тӣдҍхэмушш ($1)|Тӣдҍхэмуж ($1)|100=Тӣдҍхэмуж (99+)}}",
+	"echo-notification-alert-text-only": "Тӣдҍлаһтҍмуж",
+	"echo-notification-notice-text-only": "Тӣдҍхэмуж",
+	"echo-overlay-link": "Пугк тӣдҍхэмуж",
+	"echo-overlay-title": "<b>Тӣдҍхэмуж</b>",
+	"echo-mark-all-as-read": "Тӣһтлэ {{PLURAL:$1|пукэтҍ}} гу ло̄гкма"
+}

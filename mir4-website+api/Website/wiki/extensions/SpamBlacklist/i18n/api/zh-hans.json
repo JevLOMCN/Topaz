@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"Tr jason"
+		]
+	},
+	"apihelp-spamblacklist-example-1": "检查两个URL是否属于阻止名单",
+	"apihelp-spamblacklist-param-url": "要验证是否属于黑名单阻止列表的URL。",
+	"apihelp-spamblacklist-summary": "验证一个或多个URL是否属于垃圾链接阻止列表。"
+}

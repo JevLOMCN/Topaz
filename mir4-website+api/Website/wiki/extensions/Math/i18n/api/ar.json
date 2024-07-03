@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"ديفيد"
+		]
+	},
+	"apihelp-query+mathwbextracts-example-1": "يطلب ملخصا لعناصر قاعدة الويكي الرياضية.",
+	"apihelp-query+mathwbextracts-summary": "يرجع ملخصا لعنصر قاعدة الويكي رياضي بHTML.",
+	"apihelp-query+mathwbextracts-param-qid": "معرف Q لعنصر قاعدة الويكي الذي سيتم طلبه.",
+	"apihelp-query+mathwbextracts-param-uselang": "اللغة التي يجب طلبها لعنصر قاعدة الويكي، اللغة الإنجليزية هي القيمة الافتراضية."
+}

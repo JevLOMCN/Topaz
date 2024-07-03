@@ -1,0 +1,28 @@
+{
+	"@metadata": {
+		"authors": [
+			"Fryed-peach",
+			"Kkairri",
+			"Otokoume",
+			"Schu",
+			"Shirayuki",
+			"Siglite3",
+			"Waki285",
+			"Yusuke1109"
+		]
+	},
+	"codeeditor-desc": "[https://ace.c9.io/ Ace editor]を用いた、JavaScript/CSS の構文ハイライト機能付きのページ編集",
+	"codeeditor-next-annotation": "次のアノテーションに移動",
+	"codeeditor-toolbar-toggle": "エディタの切り替え",
+	"codeeditor-save-with-errors": "このドキュメントにはエラーが含まれています。保存してもよろしいですか？",
+	"codeeditor-invisibleChars-toggle": "不可視文字の表示・非表示の切り替え",
+	"codeeditor-lineWrapping-toggle": "右端で折り返す",
+	"codeeditor-searchReplace-toggle": "検索・置換ダイアログの切り替え",
+	"codeeditor-gotoline": "特定の行番号に移動",
+	"codeeditor-gotoline-placeholder": "行番号[:列番号]",
+	"codeeditor-gotoline-prompt": "行番号を入力してください",
+	"codeeditor-indent": "インデント",
+	"codeeditor-outdent": "インデントを戻す",
+	"codeeditor-error-title": "依存関係が失敗しました",
+	"codeeditor-error-message": "CodeEditorはWikiEditorを読み込む必要があります。"
+}

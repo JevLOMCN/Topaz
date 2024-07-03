@@ -1,0 +1,26 @@
+{
+	"@metadata": {
+		"authors": [
+			"Pikne"
+		]
+	},
+	"apihelp-echomarkread-param-list": "Loetelu identifikaatoritest, mida märkida loetuks.",
+	"apihelp-echomarkread-param-all": "Kui valitud, märgitakse kõik kasutaja teavitused loetuks.",
+	"apihelp-echomarkread-param-sections": "Loetelu jaotistest, mida märkida loetuks.",
+	"apihelp-echomarkread-example-1": "Märgi teavitus 8 loetuks",
+	"apihelp-echomarkread-example-2": "Märgi kõik teavitused loetuks",
+	"apihelp-echomarkseen-example-1": "Märgi igat tüüpi teavitused nähtuks",
+	"apihelp-echomarkseen-param-type": "Mis tüüpi teavitused märkida nähtuks: 'alert' (märguanne), 'message' (sõnum) või 'all' (kõik).",
+	"apihelp-query+notifications-param-prop": "Päringu üksikasjad.",
+	"apihelp-query+notifications-param-sections": "Päritav teavituste jaotis (s.o kombinatsioon tüüpidest 'alert' ja 'message').",
+	"apihelp-query+notifications-param-groupbysection": "Kas rühmitada tulemus jaotiste kaupa. Kui valitud, tehakse väljavõte iga jaotise kohta eraldi.",
+	"apihelp-query+notifications-param-filter": "Tagastatavate teavituste filtrimine.",
+	"apihelp-query+notifications-param-format": "Kui määratud, tagastatakse teavitused sellises vormingus.",
+	"apihelp-query+notifications-param-limit": "Tagastatavate teavituste ülemmäär.",
+	"apihelp-query+notifications-param-alertcontinue": "Kui tulemustes on saadaval rohkem märguandeid, kasutada seda jätkamiseks.",
+	"apihelp-query+notifications-param-alertunreadfirst": "Kas näidata kõigepealt lugemata sõnumeid (kasutuses ainult siis, kui \"groupbysection\" on määratud).",
+	"apihelp-query+notifications-param-messagecontinue": "Kui tulemustes on saadaval rohkem sõnumeid, kasutada seda jätkamiseks.",
+	"apihelp-query+notifications-param-messageunreadfirst": "Kas näidata kõigepealt lugemata teavitusi (kasutuses ainult siis, kui \"groupbysection\" on määratud).",
+	"apihelp-query+notifications-example-1": "Loetle veebiteavitused",
+	"apihelp-query+notifications-example-2": "Loetle veebiteavitused jaotiste kaupa üldarvudega"
+}

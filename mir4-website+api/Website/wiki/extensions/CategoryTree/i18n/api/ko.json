@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Dr1t jg",
+			"Jerrykim306",
+			"Kwj2772",
+			"Ykhwong"
+		]
+	},
+	"apihelp-categorytree-summary": "CategoryTree 확장 기능을 위한 내부 모듈입니다.",
+	"apihelp-categorytree-param-category": "분류 이름공간에서의 제목, 접두어는 무시됩니다.",
+	"apihelp-categorytree-param-options": "JSON 오브젝트 자격의 CategoryTree 생성자를 위한 옵션입니다. <var>depth</var> 옵션의 기본값은 <kbd>1</kbd>입니다.",
+	"apierror-categorytree-invalidjson": "옵션은 반드시 유효한 JSON 형식이어야 합니다."
+}

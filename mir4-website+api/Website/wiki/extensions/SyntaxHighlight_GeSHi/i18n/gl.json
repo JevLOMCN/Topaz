@@ -1,0 +1,23 @@
+{
+	"@metadata": {
+		"authors": [
+			"Banjo",
+			"Elisardojm",
+			"Iváns",
+			"Toliño",
+			"Xosé"
+		]
+	},
+	"syntaxhighlight-desc": "Proporciona unha sintaxe resaltada <code>&lt;syntaxhighlight&gt;</code> usando [http://pygments.org/ Pygments - Resaltador de sintaxe en Python]",
+	"syntaxhighlight-error-category": "Páxinas con erros de sintaxe resaltados",
+	"syntaxhighlight-error-category-desc": "Houbo un erro ó intentar resaltar o código incluído na páxina.",
+	"syntaxhighlight-visualeditor-mwsyntaxhighlightinspector-code": "Código",
+	"syntaxhighlight-visualeditor-mwsyntaxhighlightinspector-language": "Lingua",
+	"syntaxhighlight-visualeditor-mwsyntaxhighlightinspector-none": "(ningún)",
+	"syntaxhighlight-visualeditor-mwsyntaxhighlightinspector-showlines": "Amosar números de liña",
+	"syntaxhighlight-visualeditor-mwsyntaxhighlightinspector-startingline": "Número de liña de comezo",
+	"syntaxhighlight-visualeditor-mwsyntaxhighlightinspector-title": "Segmento de código",
+	"syntaxhighlight-error-pygments-invocation-failure": "Erro ó invocar Pygments",
+	"syntaxhighlight-error-unknown-language": "Lingua descoñecida \"$1\"",
+	"syntaxhighlight-error-exceeds-size-limit": "O tamaño de código $1 {{PLURAL:$1|bytes}} supera o máximo permitido de $2 {{PLURAL:$2|bytes}}"
+}

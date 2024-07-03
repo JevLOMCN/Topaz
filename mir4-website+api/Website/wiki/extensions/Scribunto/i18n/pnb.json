@@ -1,0 +1,17 @@
+{
+	"@metadata": {
+		"authors": [
+			"Abbas dhothar",
+			"Khalid Mahmood"
+		]
+	},
+	"scribunto-console-intro": "* ماڈیول دے تمام برآمدات متغیر \"p\" دے ناں تو‏ں دستیاب نيں جنہاں وچ غیر محفوظ تبدیلیاں وی شامل نيں۔\n* اسنو‏ں بطور تعبیر (expression) جانچنے دے لئی \"=\" تو‏ں پہلے اک لیک کھنچو یا print() دا استعمال کرو تے جدول دے لئی mw.logObject() تو‏ں استفادہ کرو۔\n* اس کنسول نو‏‏ں پیغام بھیجنے دے لئی ماڈیول دے کوڈ وچ mw.log() تے mw.logObject() دا استعمال کرو۔",
+	"scribunto-console-title": "ڈی بگ کنسول",
+	"scribunto-lua-error": "لوا غلطی:$2.",
+	"scribunto-limitreport-timeusage": "لوآ ویلہ ورتوں",
+	"scribunto-limitreport-timeusage-value": "$1/$2 سکنٹ",
+	"scribunto-limitreport-virtmemusage-value": "$1/$2 {{PLURAL:$2|بائٹ|بائٹاں}}",
+	"scribunto-limitreport-estmemusage-value": "$1 {{PLURAL:$1|بائٹ|بائٹاں}}",
+	"scribunto-limitreport-memusage": "لوآ میموری ورتوں",
+	"scribunto-limitreport-memusage-value": "$1/$2 {{PLURAL:$2|بائٹ|بائٹاں}}"
+}

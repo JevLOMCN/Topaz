@@ -1,0 +1,27 @@
+{
+	"@metadata": {
+		"authors": [
+			"Cedric31"
+		]
+	},
+	"templatedata-desc": "Met en place un emmagazinatge de donadas pels paramètres dels modèls (en utilizant JSON)",
+	"templatedata-doc-param-default": "Per defaut",
+	"templatedata-doc-param-desc": "Descripcion",
+	"templatedata-doc-param-name": "Paramètre",
+	"templatedata-doc-param-status": "Estatut",
+	"templatedata-doc-param-type": "Tipe",
+	"templatedata-doc-params": "Paramètres del modèl",
+	"templatedata-helplink": "Informacions sus TemplateData",
+	"templatedata-invalid-length": "Donadas tròp gròssas per èsser enregistradas ({{formatnum:$1}} {{PLURAL:$1|octet|octets}}, {{PLURAL:$2|lo limit es}} {{formatnum:$2}})",
+	"templatedata-invalid-missing": "Proprietat « $1 » obligatòria pas trobada.",
+	"templatedata-invalid-parse": "Error de sintaxi dins JSON.",
+	"templatedata-invalid-type": "La proprietat « $1 » deu èsser de tipe « $2 ».",
+	"templatedata-invalid-unknown": "Proprietat « $1 » pas esperada.",
+	"templatedata-invalid-value": "Valor invalida per la proprietat « $1 ».",
+	"templatedata-modal-button-add-language": "Apondre una lenga",
+	"templatedata-modal-button-addparam": "Apondre un paramètre",
+	"templatedata-modal-button-changelang": "Cambiar de lenga",
+	"templatedata-modal-current-language": "Lenga actuala : $1",
+	"templatedata-modal-title-addparam": "Apondre un paramètre",
+	"templatedata-modal-title-choose-language": "Causir una lenga"
+}

@@ -1,0 +1,35 @@
+{
+	"@metadata": {
+		"authors": [
+			"Lam-ang"
+		]
+	},
+	"apihelp-abusefiltercheckmatch-param-filter": "Ti napno a teksto ti sagat a kitaen para iti panagipada.",
+	"apihelp-abusefiltercheckmatch-param-vars": "Ti naikodigo a rimpuok ti panagdumaduma ti JSON a pangisubokan.",
+	"apihelp-abusefiltercheckmatch-param-rcid": "Ti kinaudi a panagbaliw ti ID a pangisubokan.",
+	"apihelp-abusefiltercheckmatch-param-logid": "Ti listaan ti ID ti sagat ti panagabuso a pangisubokan.",
+	"apihelp-abusefiltercheckmatch-example-1": "Subokan no ti kinaudi a panagbaliw ti ID 15 ket maipada iti nalaka a sagat",
+	"apihelp-abusefilterchecksyntax-param-filter": "Ti napno a teksto ti sagat a pagkitaan ti sintaksis.",
+	"apihelp-abusefilterchecksyntax-example-1": "Kitaen ti sintaksis ti umiso a sagat",
+	"apihelp-abusefilterchecksyntax-example-2": "Kitaen ti sintaksis ti saan nga umiso a sagat",
+	"apihelp-abusefilterevalexpression-param-expression": "Ti panangiyebkas a mapategan.",
+	"apihelp-abusefilterevalexpression-example-1": "Pategan ti nalaka a panangiyebkas",
+	"apihelp-abusefilterunblockautopromote-param-user": "Nagan ti agar-aramat a kayatmo nga ikkaten ti serrana.",
+	"apihelp-abusefilterunblockautopromote-example-1": "Ikkaten ti serra ti automatiko a promosion ni [[User:Example]]",
+	"apihelp-query+abusefilters-param-startid": "Ti ID ti sagat a pangirugian iti panangibilang.",
+	"apihelp-query+abusefilters-param-endid": "Ti ID ti sagat a pagsardengan iti panangibilang.",
+	"apihelp-query+abusefilters-param-show": "Ipakita laeng dagiti sagat a makaabot kadagitoy a kriteria.",
+	"apihelp-query+abusefilters-param-limit": "Ti kaadu dagiti bilang dagiti sagat a mailista.",
+	"apihelp-query+abusefilters-param-prop": "Ti maala a tagtagikua.",
+	"apihelp-query+abusefilters-example-1": "Ilista dagiti napakabaelan a publiko a sagat",
+	"apihelp-query+abusefilters-example-2": "Ipakita salaysay a maipanggep kadagiti sagat",
+	"apihelp-query+abuselog-param-start": "Ti oras ken petsa a pangirugian iti panangibilang.",
+	"apihelp-query+abuselog-param-end": "Ti oras ken petsa a pagsardengan iti panangibilang.",
+	"apihelp-query+abuselog-param-user": "Ipakita laeng dagiti naikabil nga inaramid babaen ti naited nga agar-aramat wenno adres ti IP.",
+	"apihelp-query+abuselog-param-title": "Ipakita laeng dagiti naikabil a napasamak iti naited a panid.",
+	"apihelp-query+abuselog-param-filter": "Ipakita laeng dagiti naikabil a naala babaen ti naited nga ID ti sagat.",
+	"apihelp-query+abuselog-param-limit": "Ti kaadu a bilang dagiti naikabil iti listaan.",
+	"apihelp-query+abuselog-param-prop": "Ti maala a tagtagikua.",
+	"apihelp-query+abuselog-example-1": "Ipakita ti kinaudi a naikabkabil iti listaan",
+	"apihelp-query+abuselog-example-2": "Ipakita ti kinaudi a naikabkabil iti listaan para iti [[API]]"
+}

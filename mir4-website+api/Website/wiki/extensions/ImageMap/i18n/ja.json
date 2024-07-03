@@ -1,0 +1,25 @@
+{
+	"@metadata": {
+		"authors": [
+			"Aotake",
+			"Fryed-peach",
+			"JtFuruhata",
+			"Kahusi",
+			"Mizusumashi",
+			"Shirayuki",
+			"Tamaki Wakita"
+		]
+	},
+	"imagemap_desc": "<code>&lt;imagemap&gt;</code>タグによるクライアントサイドのクリッカブルマップ機能を有効にする",
+	"imagemap_no_image": "エラー: 最初の行で画像を指定してください。",
+	"imagemap_invalid_image": "エラー: 画像が無効、または存在しません。",
+	"imagemap_bad_image": "エラー: このページでは画像は許可されていません。",
+	"imagemap_no_link": "エラー: $1 行目の末尾に有効なリンクが見つかりません。",
+	"imagemap_invalid_title": "エラー: $1 行目のリンクのタイトルが無効です。",
+	"imagemap_missing_coord": "エラー: $1 行目の図形の座標指定が不足しています。",
+	"imagemap_unrecognised_shape": "エラー: $1 行目の図形を認識できません。各行の先頭は以下のいずれかにしてください: <code>default</code>, <code>rect</code>, <code>circle</code>, <code>poly</code>",
+	"imagemap_invalid_coord": "エラー: $1 行目の座標が無効です。数字を指定してください。",
+	"imagemap_invalid_desc": "エラー: desc の指定が無効です。以下のいずれかを指定してください: <code>$1</code>",
+	"imagemap_description": "画像の詳細",
+	"imagemap_poly_odd": "エラー: $1 行目に、座標値が奇数個の poly があります。"
+}

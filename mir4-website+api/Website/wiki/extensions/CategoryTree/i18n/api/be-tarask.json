@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Red Winged Duck"
+		]
+	},
+	"apihelp-categorytree-summary": "Унутраны модуль для пашырэньня структуры катэгорыяў.",
+	"apihelp-categorytree-param-category": "Назва ў прасторы назваў катэгорыяў, прэфікс будзе ігнаравацца ў выпадку, калі будзе пададзены.",
+	"apihelp-categorytree-param-options": "Налады для канструктару CategoryTree як JSON-аб’екту. Парамэтар <var>depth</var> па змоўчаньні роўны <kbd>1</kbd>.",
+	"apierror-categorytree-invalidjson": "Варыянты мусяць быць слушнымі JSON-аб’ектамі."
+}

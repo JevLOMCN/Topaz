@@ -1,0 +1,33 @@
+{
+	"@metadata": {
+		"authors": [
+			"McDutchie"
+		]
+	},
+	"nuke": "Deletion in massa",
+	"action-nuke": "deler paginas in massa",
+	"nuke-desc": "Da le possibilitate al administratores de [[Special:Nuke|deler paginas in massa]]",
+	"nuke-nopages": "Nulle nove pagina create per [[Special:Contributions/$1|{{GENDER:$1|$1}}]] trovate in le modificationes recente.",
+	"nuke-list": "Le sequente paginas esseva recentemente create per [[Special:Contributions/$1|{{GENDER:$1|$1}}]];\nentra un commento e clicca le button pro deler los.",
+	"nuke-list-multiple": "Le sequente paginas esseva create recentemente;\nentra un commento e pulsa sur le button pro deler los.",
+	"nuke-defaultreason": "Deletion in massa de paginas addite per [[Special:Contributions/$1|{{GENDER:$1|$1}}]]",
+	"nuke-multiplepeople": "Deletion in massa de paginas addite recentemente",
+	"nuke-tools": "Iste instrumento permitte le deletion in massa de paginas recentemente addite per un usator o adresse IP specific.\nEntra le nomine de usator o adresse IP pro obtener un lista de paginas a deler, o lassa vacue pro tote le usatores.",
+	"nuke-submit-user": "Listar paginas",
+	"nuke-submit-delete": "Deler selection",
+	"right-nuke": "Deler paginas in massa",
+	"nuke-userorip": "Nomine de usator, adresse IP o vacue:",
+	"nuke-maxpages": "Numero maxime de paginas:",
+	"nuke-editby": "Create per [[Special:Contributions/$1|{{GENDER:$1|$1}}]]",
+	"nuke-deleted": "Le pagina '''$1''' ha essite delite.",
+	"nuke-deletion-queued": "Le pagina '''$1''' ha essite adjungite al cauda de deletiones.",
+	"nuke-not-deleted": "Le pagina [[:$1]] '''non poteva''' esser delite.",
+	"nuke-delete-more": "[[Special:Nuke|Deler plus paginas]]",
+	"nuke-pattern": "Patrono SQL LIKE (p.ex. %) pro le nomine de pagina:",
+	"nuke-nopages-global": "Il non ha titulos de pagina que corresponde a tu recerca.",
+	"nuke-viewchanges": "vider modificationes",
+	"nuke-namespace": "Limitar al spatio de nomines:",
+	"nuke-linkoncontribs": "deletion in massa",
+	"nuke-linkoncontribs-text": "Deler tote le paginas del quales {{GENDER:$1|iste usator}} es le unic autor",
+	"nuke-confirm": "Tu es sur le puncto de deler {{PLURAL:$1|1 pagina|$1 paginas}}. Es tu secur de voler deler {{PLURAL:$1|lo|los}}?"
+}

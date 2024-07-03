@@ -1,0 +1,20 @@
+{
+	"@metadata": {
+		"authors": [
+			"Les Meloures",
+			"Robby",
+			"Soued031"
+		]
+	},
+	"titleblacklist-desc": "Erlaabt den Administrateuren d'Uleeë vu Säiten a Benotzerkonte mat spezifeschen Titelen iwwer eng [[MediaWiki:Titleblacklist|schwaarz Lëscht]] an eng [[MediaWiki:Titlewhitelist|wäiss Lëscht]] ze verbidden",
+	"titleblacklist": "# Dëst ass een Titel deen op enger schwaarzer Lëscht steet. Titelen a Benotzernimm op déi dës Ausdréck passe kann net ugeluecht ginn\n# Benotzt \"#\" fir Bemierkungen\n# Et gëtt tëscht groussen a klenge Buchstawen ënnerscheet",
+	"titlewhitelist": "# Dëst ass d'''Whitelist'' vun den Titelen. Benotzt \"#\" fir Bemierkungen.\n# Et gëtt een Ënnerscheed tëscht groussen a klenge Buchstawe gemaach",
+	"titleblacklist-forbidden-edit": "Den Titel \"$2\" däerf net ugeluecht ginn.\nEn ass op der Lëscht vun den net erlaabten Titelen wéinst follgendem Begrëff:\n<code>$1</code>",
+	"titleblacklist-forbidden-move": "\"$2\" kann net op \"$3\" geréckelt ginn, well den Titel \"$3\" net däerf ugeluecht ginn.\nEn entsprécht dësem Element aus der Lëscht vun net erlaabten Titelen: <code>$1</code>",
+	"titleblacklist-forbidden-upload": "De Fichiersnumm \"$2\" kann net benotzt ginn.\nHien ass identesch mat dësem Numm vun der schwaarzer Lëscht (black list): <code>$1</code>",
+	"titleblacklist-forbidden-new-account": "De Benotzermumm \"$2\" gouf gespaart fir benotzt ze ginn.\nEn ass sou op der Lëscht vun den net erlaabten Titelen:\n<code>$1</code>",
+	"titleblacklist-invalid": "Dës {{PLURAL:$1|Linn|Linnen}} op der schwaarzer Lëscht vun den {{PLURAL:$1|Titelen ass|Titele sinn}} net valabel;\nverbessert se virum späicheren:",
+	"titleblacklist-override": "D'Lëscht vun den net erlaabten Titelen ignoréieren wann correspondéiert",
+	"right-tboverride": "D'Lëscht vun den net erlaabten Titelen a Benotzernimm ignoréieren",
+	"right-tboverride-account": "D'Lëscht vun den net erlaabte Benotzernimm iwwergoen"
+}

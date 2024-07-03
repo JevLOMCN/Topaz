@@ -1,0 +1,32 @@
+{
+	"@metadata": {
+		"authors": [
+			"Khun Kt",
+			"咽頭べさ"
+		]
+	},
+	"prefs-echo": "ဖေႏသေချက်ဖိုင်ႏ",
+	"prefs-emailsettings": "အီးမေးတာႏ လွိုက်ရွေꩻခရာႏ",
+	"prefs-echocrosswiki": "ဝီခီ-စွောစ်ꩻစဲစ်ꩻ ဖေႏသေချက်ဖိုင်ႏ",
+	"echo-pref-send-me": "ပသာလွဉ်သွော့သြ-",
+	"echo-pref-send-to": "ပသာသာလွေꩻ-",
+	"echo-pref-email-format": "အီးမေးပုင်ႏစံႏ-",
+	"echo-pref-web": "ဝဲက်",
+	"echo-pref-email": "အီးမေး",
+	"echo-pref-push": "အဲပ်ဖိုင်ႏ",
+	"echo-pref-email-frequency-never": "ပသာမွုန်းတဝ်းဒုမ် အီးမေးဖေႏသေချက်ဖိုင်ႏမုဲင်ꩻမုဲင်ꩻ",
+	"echo-displaynotificationsconfiguration-enabled-default-new-users-legend": "ကေားသုင်ꩻသား လိုꩻတသာဖိုင်ႏ",
+	"echo-specialpage-markasread": "ဖေႏသေချက်: ဟော်ꩻထွူလဲဥ်းအကျောင်ꩻ ဒင်ႏမုဲင်တာႏ",
+	"notification-link-text-what-links-here": "ကဆွိုက်ခါꩻဒါႏ လိတ်မဲ့ငါယို လိဥ့်ဖုံႏကားကအဝ်ႏ",
+	"notification-header-welcome": "အဝ်ႏ{{SITENAME}}ယို{{GENDER:$2|ကျိုႏဆွုမ်ႏဒျာႏသြ}}၊ $1! နာꩻတွိုႏလွဥ်ဒါႏယိုကိုနဝ်ꩻ နီသွဥ်းသီး သꩻရေꩻငါႏသွူ။",
+	"notification-header-thank-you-1-edit": "{{GENDER:$2|အရီးသွတ်ꩻ}}  {{GENDER:$2|နာꩻ}}နွို့တဲမ်းဖျင်မုꩻယို {{GENDER:$2|နာမာꩻ}}ဖေႏလဲဥ်းသွူ၊ ကျိုႏဆွုမ်ႏ ကေꩻဇူꩻတင်ႏငါႏသွူ!",
+	"notification-header-thank-you-10-edit": "{{GENDER:$2|နာꩻ}}ခြပ် {{GENDER:$2|ချော်}}ဖျင်ဆင်မုꩻ တွိုႏလဲဥ်း အလဲင်ႏ ၁၀သွူ၊ ကေꩻဇူꩻ{{GENDER:$2|တင်ႏငါႏသြ}}၊ မာꩻသွုပ်ယင်းဟုဲင်း။",
+	"notification-header-thank-you-100-edit": "{{GENDER:$2|နာꩻ}}ခြပ် {{GENDER:$2|ချော်}}ဖျင်ဆင်မုꩻ တွိုႏလဲဥ်း အလဲင်ႏ ၁၀၀ သွူ၊ ကေꩻဇူꩻ{{GENDER:$2|တင်ႏငါႏ မရေႏမရာႏသွူ}}။",
+	"notification-header-thank-you-1000-edit": "{{GENDER:$2|နာꩻ}}ခြပ်ချော် {{GENDER:$2|ဖျင်ဆင်မုꩻ}} တွိုႏလဲဥ်း အလဲင်ႏ၁၀၀၀သွူ၊ စွဲးကမ်းဖေႏအာဒါႏနုဲင်းယို ကေꩻဇူꩻ{{GENDER:$2|တင်ႏငါႏသြ}}။",
+	"notification-header-thank-you-10000-edit": "{{GENDER:$2|နာꩻ}}ခြပ် {{GENDER:$2|ချော်ꩻ}} ဖျင်ဆင်မုꩻ တွိုႏလဲဥ်း အလဲင်ႏ၁၀၀၀၀သွူ၊ ကေꩻဇူꩻ{{GENDER:$2|တင်ႏငါႏသြ}}။",
+	"notification-header-thank-you-100000-edit": "{{GENDER:$2|နာꩻ}}ခြပ် {{GENDER:$2|ချော်ꩻ}}ဖျင်ဆင်မုꩻ တွိုႏလဲဥ်း အလဲင်ႏ ၁၀၀၀၀၀ သွူ၊ အံႏဖြာႏခရာႏစွဲးကမ်းမုꩻအတာႏ ကေꩻဇူꩻ{{GENDER:$2|တင်ႏငါႏသြ}}။",
+	"notification-header-thank-you-1000000-edit": "{{GENDER:$2|နာꩻ}}ခြပ် {{GENDER:$2|ချော်}} ဖျင်ဆင်မုꩻ တွိုႏလဲဥ်း အလဲင်ႏတသိန်ႏသွူ၊ အံႏဖြာႏခရာႏ စွဲးကမ်းမုꩻယိုတာႏ ကေꩻဇူꩻ{{GENDER:$2|တင်ႏငါႏ မရေႏမရာႏသွူ}}။",
+	"echo-notification-alert": "{{PLURAL:$1|တမာချက် ($1)|တမာချက်ဖုံႏ ($1)|100=တမာချက်ဖုံႏ (99+)}}",
+	"echo-notification-notice-text-only": "ကျော်ႏညာႏခင်ႏလမ်း",
+	"echo-mark-all-as-read": "ဟော်ꩻထွားထွူလို့လဲဥ်းအကျောင်ꩻ ဒင်ႏမုဲင်တာႏ"
+}

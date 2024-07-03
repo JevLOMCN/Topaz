@@ -1,0 +1,33 @@
+{
+	"@metadata": {
+		"authors": [
+			"IRTC1015",
+			"Klutzy",
+			"Kwj2772",
+			"ToePeu",
+			"Yknok29",
+			"아라"
+		]
+	},
+	"pfunc_desc": "파서에 논리 함수를 추가합니다",
+	"pfunc_time_error": "오류: 시간이 잘못되었습니다.",
+	"pfunc_time_too_long": "오류: #time을 너무 많이 호출했습니다.",
+	"pfunc_time_too_big": "오류: #time 함수는 9999년까지만을 지원합니다.",
+	"pfunc_time_too_small": "오류: #time은 0년부터만을 지원합니다.",
+	"pfunc_rel2abs_invalid_depth": "오류: 경로 구조가 잘못되었습니다: \"$1\" (루트 노드 위의 노드에 접속을 시도했습니다)",
+	"pfunc_expr_stack_exhausted": "수식 오류: 스택이 비어 있습니다.",
+	"pfunc_expr_unexpected_number": "표현식 오류: 예상치 못한 숫자입니다.",
+	"pfunc_expr_preg_match_failure": "표현식 오류: 예상치 못한 preg_match 실패입니다.",
+	"pfunc_expr_unrecognised_word": "표현식 오류: \"$1\" 낱말을 알 수 없습니다.",
+	"pfunc_expr_unexpected_operator": "수식 오류: 예상치 못한 $1 연산자입니다.",
+	"pfunc_expr_missing_operand": "수식 오류: $1의 피연산자가 없습니다.",
+	"pfunc_expr_unexpected_closing_bracket": "수식 오류: 예상치 못한 괄호 닫기입니다.",
+	"pfunc_expr_unrecognised_punctuation": "수식 오류: 알 수 없는 \"$1\" 구두점 문자입니다.",
+	"pfunc_expr_unclosed_bracket": "수식 오류: 괄호를 닫지 않았습니다.",
+	"pfunc_expr_division_by_zero": "0으로 나눴습니다.",
+	"pfunc_expr_invalid_argument": "$1 함수의 변수가 잘못되었습니다: < -1 또는 > 1",
+	"pfunc_expr_invalid_argument_ln": "자연로그의 진수가 잘못되었습니다: <= 0",
+	"pfunc_expr_unknown_error": "수식 오류: 알 수 없는 오류입니다($1).",
+	"pfunc_expr_not_a_number": "$1: 결과가 숫자가 아닙니다.",
+	"pfunc_string_too_long": "오류: 문자열이 $1 글자 제한을 초과하였습니다."
+}

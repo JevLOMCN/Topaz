@@ -126,59 +126,178 @@
         <div class="section">
             <h1>Acceptance Of Terms:</h1>
             <p>
-                AVA (www.thelegendofmir.uk) provides its service to you, subject to the following Terms of Service ("TOS"), which may be updated by us in our sole discretion from time to time without notice to you. 
-"AVA" refers to AVA and its Affiliates, which shall mean subsidiaries, parent companies, joint ventures and other corporate entities under common ownership. We may also refer to AVA as "We" or "Us". 
-You agree that your continued use of the Service (as defined below) after such update will constitute your acceptance of and agreement to be bound by the updated TOS. In addition, when using particular AVA services, 
-you and  AVA shall be subject to any posted guidelines or rules applicable to such services, which may be posted from time to time. All such guidelines or rules are hereby incorporated by reference into the TOS. 
-AVA also may offer other services from time to time that are governed by different Terms of Services. These TOS do not apply to such other services. The formation, interpretation, 
-and performance of this Agreement and any disputes arising out of it shall be governed by the substantive and procedural laws of the United Kingdom without regard to its rules on conflicts or choice of law and,
-to the extent applicable, the laws of the United Kingdom.
+            1.1. By creating an account on AVA MIR4, you agree to comply with and be bound by the following Terms and Conditions of Use.
+            </p>
+            <p>
+            1.2. If you do not agree with any of these terms, please do not use our services.
             </p>
         </div>
         <div class="section">
-            <h1>Description Of Service:</h1>
+            <h1>Eligibility:</h1>
             <p>
-                AVA currently provides users with access to a rich collection of online resources, including, various communications tools, online forums, shopping services, 
-personalized content and branded programming through its network of properties (the "Service"). Unless explicitly stated otherwise, any new features that augment 
-or enhance the current Service, including the release of new AVA properties, shall be subject to the TOS. You understand and agree that the Service is provided "AS-IS" 
-and that AVA assumes no responsibility for the timeliness, currency, deletion, mis-delivery or failure to store any user communications or personalization settings. 
-In order to use the Service, you must obtain access to the World Wide Web, either directly or through devices that access web-based content, and pay any service fees associated with such access. 
-You acknowledge that AVA is not responsible or liable in any way for your access to the World Wide Web. In addition, you must provide all equipment necessary to make such connection to the World Wide Web, 
-including a computer and modem or other access device. You acknowledge that you are solely responsible for the set-up, configuration or compatibility of the hardware, 
-software and other equipment used by you for obtaining access to the Service.
+            2.1. To register and play AVA MIR4, you must be at least 18 years old or have permission from your parents or legal guardian.
             </p>
         </div>
         <div class="section">
-            <h1>Registration Obligations:</h1>
+            <h1>Account Registration:</h1>
             <p>
-                In consideration of the Service being made available to you, you agree to: (a) provide true, accurate, current and complete information about yourself as prompted by the Service's 
-registration form (such information being the "Registration Data") and (b) maintain and promptly update the Registration Data to keep it true, accurate, current and complete. 
-If you provide any information that is untrue, inaccurate, not current or incomplete, or AVA has reasonable grounds to suspect that such information is untrue, inaccurate, 
-not current or incomplete, AVA has the right to suspend or terminate your account and refuse any and all current or future use of the Service (or any portion thereof) without any liability to you. 
-AVA is concerned about the safety and privacy of all its users, particularly children. For this reason, parents of children under the age of 13 who wish to allow their children access to the 
-Service must provide proper guidance. Accordingly, as the legal guardian, it is your responsibility to determine whether any of the Services and/or Content are appropriate for your child.
+                3.1. You agree to provide accurate and complete information during the registration process.
+            </p>
+            <p>
+                3.2. It is your responsibility to keep your account secure, including your username and password.
+            </p>
+            <p>
+                3.3. You must not share your account with third parties.
+            </p> 
+        </div>
+        <div class="section">
+            <h1>Acceptable Use:</h1>
+<p>
+    4.1. Prohibition of Hacks and Cheats
+</p>
+<p>
+    4.1.1. The use of any hacks, cheats, bots, mods, or unauthorized software to modify or automate the game is strictly prohibited.
+</p>
+<p>
+    4.1.2. Any account found using such resources will be permanently banned.
+</p>
+<p>
+    4.2. Explicit Images in Profile
+</p>
+<p>
+    4.2.1. It is prohibited to use explicit, offensive, or inappropriate images as a profile picture in the launcher.
+</p>
+<p>
+    4.2.2. Accounts with images that violate this rule are subject to suspension or ban.
+</p>
+<p> 
+    4.3. Respectful Behavior
+</p>    
+<p> 
+    4.3.1. You agree to treat other players with respect and not to use abusive, offensive, or discriminatory language.
+</p>
+<p> 
+    4.4. Common Sense
+</p>
+<p> 
+    4.4.1. Using the platform requires common sense and consideration for other players.
+</p>
+<p> 
+    4.4.2. We do not tolerate disruptive behavior, trolling, or any actions that harm the gaming experience of others.
+</p>
+<p> 
+    4.5. Black Market
+</p>
+<p> 
+    4.5.1. Any account or items acquired, sold, or traded on black markets, without any intervention or authorization from the AVA MIR4 team, will not receive support.
+</p>
+<p> 
+    4.5.2. If you acquire an account or items in an unauthorized manner, you assume all risks involved, and we will not be responsible for any issues arising from such transactions.
+</p>
+<p>
+    4.6. Account or Item Theft
+</p>
+<p> 
+    4.6.1. In the event of account or item theft, the affected player must provide concrete evidence of the incident.
+</p>
+<p> 
+    4.6.2. This may include screenshots, confirmation emails, transaction records, among others.
+</p>
+<p> 
+    4.6.3. The support team will review the evidence and make a decision based on the provided information.
+</p>
+<p> 
+    4.6.4. Lack of sufficient evidence may result in the inability to recover the account or items.
+</p>
+<p>
+    4.7. Bug Abuse
+</p>
+<p>
+    4.7.1. Abusing bugs or game exploits to gain unfair advantages is strictly prohibited.
+</p>
+<p>
+    4.7.2. Any player found exploiting bugs in bad faith will be subject to a ban.
+</p>
+<p>
+    4.7.3. Players are expected to report any bugs found to the support team immediately.
+</p>
+<p>
+    4.8. Fly Hack
+</p>
+<p>
+    4.8.1. The use of Fly Hack is strictly prohibited.
+</p>
+<p>
+    4.8.2. Any player found using Fly Hack will have their account permanently banned, and the ban will be applied to the hardware (HWID), preventing access to the game even with other accounts.
+</p>
+<p>
+    4.9. Referral System and Affiliate Program
+</p>
+<p>
+    4.9.1. Any bad faith use of the referral system and affiliate program is prohibited.
+</p>
+<p>
+    4.9.2. This includes, but is not limited to, creating multiple fake accounts to benefit from referral bonuses or using dishonest methods to accumulate rewards.
+</p>
+<p>
+    4.9.3. Any detected misuse or abuse will result in the permanent ban of the user.
+</p>
+        <div class="section">
+            <h1>Intellectual Property Rights:</h1>
+            <p>
+                5.1. All rights to the AVA MIR4 game, including but not limited to graphics, sounds, music, and code, belong exclusively to its creators and licensors.
+            </p>
+            <p>
+                5.2. You may not copy, modify, distribute, or create derivative works based on the game without prior written authorization.
+            </p>
+        </div>
+
+        <div class="section">
+            <h1>Account Termination:</h1>
+            <p>
+                6.1. We reserve the right to suspend or terminate your account at any time, with or without notice, for violation of these Terms and Conditions or for any other reason we deem justified.
+            </p>
+        </div>
+        <div class="section">
+            <h1>Limitation of Liability:</h1>
+            <p>
+            7.1. We will not be liable for any loss or damage that may arise from the use of our platform or the behavior of other players.
             </p>
         </div>
         <div class="section">
             <h1>Refund Policy:</h1>
             <p>
-                Game points, bonuses and all items, and services from our webside and game service are labeled as virtual products. We do not issue refunds for virtual products once the order is submitted. 
-We recommend contacting us for assistance if you experience any issues receiving or using our products. By buying our product from our website you agree that, 
-because of the nature of the products sold, which are virtual, there are no refunds under any circumstance. If you submit any payment you agree that you will not dispute, 
-ask for a partial refund, or a full refund. If you do not agree to the above, please do not submit any payment.
+            8.1. All purchases made on AVA MIR4 are final and non-refundable.
+            </p>
+            <p>
+            8.2. This includes, but is not limited to, purchases of virtual currency, items, subscriptions, and other digital content.  
             </p>
         </div>
         <div class="section">
-            <h1>Member Conduct:</h1>
+            <h1>Changes to Terms:</h1>
             <p>
-                You understand and acknowledge that all information, data, text, software, music, sound, photographs, graphics, video, messages or other materials ("Content"), 
-whether publicly posted or privately transmitted via the Service, are the sole responsibility of the person from which such Content originated. This means that you, and not AVA , 
-are entirely responsible for all Content that you upload, post, email or otherwise transmit via the Service. 
-AVA cannot and does not control or monitor the Content posted via the Service and, as such, cannot and does not guarantee the accuracy, integrity or quality of such Content. 
-You understand and acknowledge that by using the Service, you may be exposed to Content that is offensive, indecent or objectionable. 
-Under no circumstances will AVA be liable in any way for any Content, including, but not limited to, any exposure to offensive, indecent or objectionable Content, 
-any errors or omissions in any Content, or for any loss or damage of any kind incurred as a result of the use of any Content posted, emailed or otherwise transmitted via the Service.
+            9.1. We reserve the right to modify these Terms and Conditions at any time.
             </p>
+            <p>
+            9.2. We will notify users of any changes through the official AVA MIR4 website.
+            </p>
+            <p>
+            9.2. We will notify users of any changes through the official AVA MIR4 website.    
+            </p>
+        </div>
+        <div class="section">
+            <h1>Contact:</h1>
+            <p>
+            10.1. For any questions or support, please contact us at support@thelegendofmir.uk.
+            </p>
+        </div>
+        <div class="section">
+            <h1>Special Provision:</h1>
+            <p>
+            11.1. By accepting these Terms and Conditions, you agree that your soul belongs to the AVA MIR4 team.
+            </p>
+        </div>
+
         </div>
     </div>
 </body>

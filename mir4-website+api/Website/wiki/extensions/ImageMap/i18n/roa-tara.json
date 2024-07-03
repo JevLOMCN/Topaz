@@ -1,0 +1,19 @@
+{
+	"@metadata": {
+		"authors": [
+			"Joetaras"
+		]
+	},
+	"imagemap_desc": "Permette le mappe de immaggine cazzabbele late cliende ausanne 'u tag <code>&lt;imagemap&gt;</code>",
+	"imagemap_no_image": "Errore: a specifià 'n'immaggine jndr'à prima righe",
+	"imagemap_invalid_image": "Errore: l'immaggine jè invalide o non g'esiste",
+	"imagemap_bad_image": "Errore: l'immaggine sus a sta pàgene non g'è permesse.",
+	"imagemap_no_link": "Errore: nisciune collegamende valide ha state acchiate a fine d'a linèe $1",
+	"imagemap_invalid_title": "Errore: titele invalide jndr'à 'u collegamende a 'a linèe $1",
+	"imagemap_missing_coord": "Errore: non ge stonne abbastanze coordinate pa figure a 'a linèe $1",
+	"imagemap_unrecognised_shape": "Errore: figure none recanusciute a 'a linèe $1, ogne linèe adda accumenzà cu une de quiste: <code>default</code>, <code>rect</code>, <code>circle</code> o <code>poly</code>",
+	"imagemap_invalid_coord": "Errore: coordinate invalide a 'a linèe $1, adda essere 'nu numere",
+	"imagemap_invalid_desc": "Errore: specificazione d'a descrizione (desc) invalide, adda essere une de <code>$1</code>",
+	"imagemap_description": "Sus a st'immaggine",
+	"imagemap_poly_odd": "Errore: acchiate 'nu poligone cu numere dispare de coordinate sus a linèe $1"
+}

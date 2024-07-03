@@ -1,0 +1,40 @@
+{
+	"@metadata": {
+		"authors": [
+			"Cedric31",
+			"Fitoschido",
+			"Unuaiga"
+		]
+	},
+	"replacetext": "Remplaçar lo tèxte",
+	"replacetext-desc": "Provesís una [[Special:ReplaceText|pagina especiala]] que permet als administrators de remplaçar de cadenas de caractèrs per d’autras sus l’ensemble del wiki",
+	"replacetext_docu": "Per remplaçar una cadena de caractèrs per una autra sus l'ensemble de las donadas de las paginas d'aqueste wiki, podètz picar los dos tèxtes aicí e clicar sus « {{int:replacetext_replace}} ».\nUna lista de las paginas que contenon lo tèxte recercat apareisserà e poiretz causir las que volètz modificar.\nVòstre nom apareiserà dins l'istoric de las paginas tal coma un utilizaire autor dels cambiaments.",
+	"replacetext_originaltext": "Tèxte original :",
+	"replacetext_replacementtext": "Tèxte novèl :",
+	"replacetext_optionalfilters": "Filtres opcionals :",
+	"replacetext_categorysearch": "Remplaçar solament dins la categoria :",
+	"replacetext_prefixsearch": "Remplaçar solament dins las paginas qu'an lo prefix :",
+	"replacetext_editpages": "Remplaçar lo tèxte dins lo contengut dins la pagina",
+	"replacetext_movepages": "Remplaçar lo tèxte dins lo títol de las paginas, se possible",
+	"replacetext_givetarget": "Vos cal especificar la cadena de remplaçar.",
+	"replacetext_nonamespace": "Vos cal seleccionar al mens un espaci de noms.",
+	"replacetext_editormove": "Vos cal causir al mens una opcion de remplaçament.",
+	"replacetext_choosepagesforedit": "Seleccionatz {{PLURAL:$3|la pagina|las paginas}} dins {{PLURAL:$3|la quala|las qualas}} volètz remplaçar « $1 » per « $2 » :",
+	"replacetext_choosepagesformove": "Remplaçar « $1 » per « $2 » dins {{PLURAL:$3|lo nom de la pagina seguenta|los noms de las paginas seguentas}} :",
+	"replacetext_cannotmove": "{{PLURAL:$1|La pagina seguenta a pas pogut èsser renomenada|Las paginas seguentas an pas pogut èsser renomenadas}} :",
+	"replacetext_formovedpages": "Per las paginas renomenadas :",
+	"replacetext_savemovedpages": "Enregistratz los títols ancians coma redireccions cap als títols novèls",
+	"replacetext_watchmovedpages": "Seguir aquestas paginas",
+	"replacetext_invertselections": "Inversar las seleccions",
+	"replacetext_replace": "Remplaçar",
+	"replacetext_success": "« $1 » es estat remplaçat per « $2 » dins $3 fichièr{{PLURAL:$3||s}}.",
+	"replacetext_noreplacement": "Cap de fichièr que conten la cadena « $1 » es pas estat trobat.",
+	"replacetext_nomove": "Cap de pagina es pas estada trobada amb lo títol que conten « $1 ».",
+	"replacetext_nosuchcategory": "Existís pas de categoria nomenada « $1 ».",
+	"replacetext_return": "Tornar al formulari.",
+	"replacetext_warning": "I a $1 fichièr{{PLURAL:$1| que conten|s que contenon}} ja la cadena de remplaçament « $2 ».\nS'efectuatz aquesta substitucion, poiretz pas separar vòstres cambiaments a partir d'aquestas cadenas.",
+	"replacetext_blankwarning": "Perque la cadena de remplaçament es voida, aquesta operacion serà irreversibla ; volètz contunhar ?",
+	"replacetext_continue": "Contunhar",
+	"replacetext_editsummary": "Remplaçament de tèxte — « $1 » per « $2 »",
+	"right-replacetext": "Far de remplaçaments de tèxte dins tot lo wiki"
+}

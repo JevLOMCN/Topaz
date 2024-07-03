@@ -1,0 +1,19 @@
+{
+	"@metadata": {
+		"authors": [
+			"HalanTul"
+		]
+	},
+	"imagemap_desc": "Бу <code>&lt;imagemap&gt;</code> тиэги туһанан клиент өттүгэр каартаны баттааһын үлэлиирин көҥүллүүр",
+	"imagemap_no_image": "Error: бастакы строкатыгар ойуу баар буолуохтаах",
+	"imagemap_invalid_image": "Error: ойуу сыыһа бэриллибит, эбэтэр отой суох",
+	"imagemap_bad_image": "Алҕас: ойуу бу сирэй хара испииһэгэр киирэр",
+	"imagemap_no_link": "Error: $1 строка бүтэһигэр сыыһа ыйынньык турбут",
+	"imagemap_invalid_title": "Error: $1 строкаҕа ыйынньык баһа сыыһа суруллубут",
+	"imagemap_missing_coord": "Error: недостаточно координат для фигуры в строке $1",
+	"imagemap_unrecognised_shape": "Error: неопознанная фигура в строке $1, каждая строка должна начинаться одним из ключевых слов: <code>default</code>, <code>rect</code>, <code>circle</code> или <code>poly</code>",
+	"imagemap_invalid_coord": "Error: $1 строкаҕа сыыһа координата суруллубут, чыыһыла буолуохтаах",
+	"imagemap_invalid_desc": "Error: desc суолтата сыыһа турбут, мантан талыахха наада: <code>$1</code>",
+	"imagemap_description": "Ойуу туһунан",
+	"imagemap_poly_odd": "Алҕас: $1 строкааҕа наһаа элбэх координааталаах многоугольник туһунан булулунна"
+}

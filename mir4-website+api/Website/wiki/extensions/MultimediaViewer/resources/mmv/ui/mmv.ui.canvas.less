@@ -1,0 +1,90 @@
+@import 'mediawiki.skin.variables.less';
+@import 'mediawiki.mixins.less';
+@import '../mmv.mixins.less';
+
+.mw-mmv-image {
+	display: table-cell;
+	width: 100%;
+	height: 100%;
+	vertical-align: middle;
+	.user-select( none );
+
+	&.empty {
+		display: none;
+	}
+
+	&.error {
+		background-color: #202122;
+
+		a,
+		a:visited {
+			cursor: pointer;
+			color: #3472e5;
+		}
+	}
+
+	.error-box {
+		background: url( img/error-media-icon.svg ) no-repeat 0 0;
+		background-size: 110px 110px;
+		position: absolute;
+		left: 50%;
+		margin-left: -350px;
+		top: 50%;
+		margin-top: -100px;
+		padding: 0 20px 0 160px;
+		color: #fff;
+		max-width: 520px;
+
+		.mw-mmv-error-text {
+			font-size: 48px;
+		}
+
+		.mw-mmv-error-description {
+			margin-top: 30px;
+			font-size: 22px;
+		}
+	}
+}
+
+.mw-mmv-image img {
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	cursor: pointer;
+	/* stylelint-disable-next-line plugin/no-unsupported-browser-features */
+	cursor: zoom-in;
+
+	&.blurred {
+		-webkit-filter: blur( 3px );
+		filter: blur( 3px );
+		opacity: 0.8;
+	}
+
+	/* Whitelist file types that are potentially transparent.
+	   We don't set it for other file types because Media Viewer plugins
+	   can find that undesirable (eg. 3d) */
+	&.gif,
+	&.png,
+	&.webp,
+	&.svg,
+	&.tiff,
+	&.tif {
+		background: url( checker.png ) repeat;
+	}
+
+	&.mw-mmv-dialog-is-open {
+		cursor: default;
+	}
+
+	.metadata-panel-is-open & {
+		cursor: pointer;
+	}
+}
+
+.mw-mmv-image.empty img {
+	display: none;
+}
+
+.metadata-panel-is-open .mw-mmv-image-wrapper {
+	cursor: pointer;
+}

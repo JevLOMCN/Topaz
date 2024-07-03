@@ -1,0 +1,69 @@
+@import 'mediawiki.skin.variables.less';
+@import '../mmv.variables.less';
+@import '../mmv.mixins.less';
+
+.mw-mmv-reuse-dialog {
+	// resetting height (to overwrite .mw-mmv-dialog's bigger height), since the
+	// height may have to change for warnings being added
+	height: initial;
+	// set a standard min-height that should be larger than both panels in
+	// normal circumstances (without warnings) so that the height of the dialog
+	// doesn't change when switching tabs
+	min-height: 300px;
+	// positioned relative to the reuse button
+	bottom: @metadatabar-above-fold-height + @progress-bar-height - 5px;
+
+	.mw-mmv-reuse-tabs {
+		@divider-color: #c8ccd1;
+		position: static;
+		box-shadow: none;
+		padding-bottom: 0; // OOUI override
+		border: 0; // OOUI override
+		border-bottom: @border-width-base @border-style-base @divider-color;
+		border-radius: @border-radius-base @border-radius-base 0 0;
+
+		.oo-ui-iconedElement-icon.oo-ui-icon-check,
+		.oo-ui-iconElement-icon.oo-ui-icon-check {
+			display: none;
+		}
+
+		.oo-ui-optionWidget {
+			@tab-border-height: 3px;
+			@highlighted-tab-color: #e1f3ff;
+			@selected-tab-color: #2a4b8d;
+			display: inline-block;
+			padding: 10px 25px;
+			font-size: 1.2em;
+
+			&.oo-ui-optionWidget-highlighted {
+				border-bottom: ( @tab-border-height - @border-width-base ) @border-style-base @highlighted-tab-color;
+			}
+
+			&.oo-ui-optionWidget-selected,
+			&.oo-ui-optionWidget-highlighted.oo-ui-optionWidget-selected {
+				border-bottom: @tab-border-height @border-style-base @selected-tab-color;
+			}
+
+			&:first-child {
+				border-radius: @border-radius-base 0 0 0;
+			}
+		}
+	}
+
+	.mw-mmv-reuse-pane {
+		display: none;
+		padding: 20px;
+
+		&.active {
+			display: block;
+		}
+	}
+
+	.mw-mmv-dialog-down-arrow {
+		bottom: @metadatabar-above-fold-height + @progress-bar-height + 5px;
+	}
+
+	.mw-mmv-dialog-warning {
+		padding: 15px 30px;
+	}
+}

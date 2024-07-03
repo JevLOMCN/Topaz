@@ -1,0 +1,42 @@
+{
+	"@metadata": {
+		"authors": [
+			"Praveenp",
+			"Shijualex"
+		]
+	},
+	"cite-desc": "അവലംബം ചേർക്കുവാൻ ഉപയോഗിക്കാനുള്ള <code>&lt;ref&gt;</code>, <code>&lt;references/&gt;</code> എന്നീ ടാഗുകൾ ചേർക്കുന്നു",
+	"cite_error": "ഉദ്ധരിച്ചതിൽ പിഴവ്: $1",
+	"cite_error_ref_invalid_dir": "അസാധുവായ<code>dir=\"$1\"</code>, അത് <code>ltr</code> അല്ലെങ്കിൽ <code>rtl</code> എന്നായിരിക്കണം.",
+	"cite_error_ref_numeric_key": "അസാധുവായ <code>&lt;ref&gt;</code> ടാഗ്;\nനാമത്തിൽ സംഖ്യ മാത്രമായി അനുവദനീയമല്ല. വിവരണാത്മകമായ തലക്കെട്ട് ഉപയോഗിക്കുക.",
+	"cite_error_ref_no_key": "തുറക്കാനുള്ള <code>&lt;ref&gt;</code> ടാഗിൽ പിഴവുണ്ട് അല്ലെങ്കിൽ പേരിൽ കുഴപ്പമുണ്ട്",
+	"cite_error_ref_too_many_keys": "അസാധുവായ <code>&lt;ref&gt;</code> ടാഗ്;\nഅസാധുവായ പേരുകൾ, ഉദാ: too many",
+	"cite_error_ref_nested_extends": "<code>&lt;ref&gt;</code> റ്റാഗുകൾ ഒരു തലത്തിലധികം വ്യാപിപ്പിക്കുന്നത് അനുവദിച്ചിട്ടില്ല",
+	"cite_error_ref_no_input": "അസാധുവായ <code>&lt;ref&gt;</code> ടാഗ്;\nപേരില്ലാത്ത അവലംബത്തിനു ഉള്ളടക്കമുണ്ടായിരിക്കണം.",
+	"cite_error_references_duplicate_key": "അസാധുവായ <code>&lt;ref&gt;</code> ടാഗ്; \"$1\" എന്ന പേര് വ്യത്യസ്തമായ ഉള്ളടക്കത്തോടെ നിരവധി തവണ നിർവ്വചിച്ചിരിക്കുന്നു",
+	"cite_error_references_invalid_parameters": "<code>&lt;references&gt;</code> ടാഗിൽ അസാധുവായ ചരം ഉൾപ്പെട്ടിരിക്കുന്നു.",
+	"cite_error_references_no_backlink_label": "പിൻകണ്ണികൾക്കായി നൽകുന്ന ഇച്ഛാനുസരണ കുറികൾ തീർന്നുപോയിരിക്കുന്നു. കൂടുതൽ [[MediaWiki:Cite references link many format backlink labels]] സന്ദേശത്തിൽ നിർവചിക്കുക.",
+	"cite_error_no_link_label_group": "\"$1\" സംഘത്തിലെ കണ്ണികൾക്കായി നൽകുന്ന ഇച്ഛാനുസരണ കുറികൾ തീർന്നുപോയിരിക്കുന്നു. കൂടുതൽ [[MediaWiki:$2]] സന്ദേശത്തിൽ നിർവചിക്കുക.",
+	"cite_error_references_no_text": "അസാധുവായ <code>&lt;ref&gt;</code> ടാഗ്;\n<code>$1</code> എന്ന പേരിലെ അവലംബങ്ങൾക്ക് എഴുത്തൊന്നും നൽകിയിട്ടില്ല.",
+	"cite_error_included_ref": "<code>&lt;ref&gt;</code> റ്റാഗിനു <code>&lt;/ref&gt;</code> എന്ന അന്ത്യറ്റാഗ് നൽകിയിട്ടില്ല",
+	"cite_error_included_references": "<code>&lt;references&gt;</code> എന്നതിൽ അടയ്ക്കൽ റ്റാഗ് ഇല്ല",
+	"cite_error_group_refs_without_references": "<code>&lt;ref&gt;</code> റ്റാഗുകൾ \"$1\" സംഘത്തിൽ ഉണ്ട്, പക്ഷേ ബന്ധപ്പെട്ട <code>&lt;references group=\"$1\"/&gt;</code> റ്റാഗ് കണ്ടെത്താനായില്ല",
+	"cite_error_references_group_mismatch": "<code>&lt;ref&gt;</code> റ്റാഗിലേയും <code>&lt;references&gt;</code> എന്നതിലേയും സംഘ ഘടകമായ \"$1\" ഒത്തുപോകുന്നില്ല.",
+	"cite_error_references_missing_key": "<code>&lt;ref&gt;</code> റ്റാഗ് \"$1\" എന്ന പേരോടെ <code>&lt;references&gt;</code> എന്നതിൽ നിർവചിച്ചിട്ടുണ്ടെങ്കിലും ആദ്യ എഴുത്തിൽ ഉപയോഗിക്കുന്നില്ല.",
+	"cite_error_references_no_key": "<code>&lt;ref&gt;</code> റ്റാഗ്  <code>&lt;references&gt;</code> എന്നതിൽ നിർവചിച്ചിട്ടുണ്ടെങ്കിലും നാമ ഘടകം നൽകിയിട്ടില്ല.",
+	"cite_error_empty_references_define": " <code>&lt;references&gt;</code> ആവശ്യത്തിനായി \"$1\" എന്ന പേരിൽ നിർ‌വചിക്കപ്പെട്ട <code>&lt;ref&gt;</code> റ്റാഗിന് ഉള്ളടക്കമൊന്നുമില്ല.",
+	"cite-tracking-category-cite-error": "അവലംബത്തിൽ പിഴവുകളുള്ള താളുകൾ",
+	"cite-tracking-category-cite-error-desc": "അവലംബം ടാഗുകൾ ഉപയോഗിച്ചതിൽ പിഴവുകളുള്ള താളുകളാണ് ഈ വർഗ്ഗത്തിൽ ഉള്ളത്.",
+	"cite_references_link_accessibility_label": "മുകളിലേയ്ക്ക്",
+	"cite_references_link_many_accessibility_label": "മുകളിൽ ഇവിടേയ്ക്ക്:",
+	"cite_references_link_accessibility_back_label": "മുകളിലേക്ക് പോവുക",
+	"cite_section_preview_references": "അവലംബങ്ങൾ എങ്ങനെയുണ്ടെന്ന് കാണുക",
+	"cite_warning": "അവലംബ മുന്നറിയിപ്പ്:$1",
+	"cite_warning_sectionpreview_no_text": "നിലവിലെ വിഭാഗത്തിന്റെ പുറത്ത് നിർവ്വചിച്ചിരിക്കുന്നതിനാൽ അല്ലെങ്കിൽ നിർവ്വചിച്ചിട്ടേയില്ലാത്തതിനാൽ <code>$1</code> എന്ന പേരിലുള്ള <code>&lt;ref&gt;</code> ടാഗ് എങ്ങെനെയുണ്ടെന്ന് കാണാൻ കഴിയില്ല.",
+	"cite-wikieditor-tool-reference": "അവലംബം",
+	"cite-wikieditor-help-page-references": "അവലംബങ്ങൾ",
+	"cite-wikieditor-help-content-reference-description": "അവലംബം",
+	"cite-wikieditor-help-content-named-reference-description": "പേരുള്ള അവലംബം",
+	"cite-wikieditor-help-content-rereference-description": "അതേ അവലംബത്തിന്റെ കൂടുതൽ ഉപയോഗം",
+	"cite-wikieditor-help-content-showreferences-description": "അവലംബങ്ങൾ പ്രദർശിപ്പിക്കുക"
+}

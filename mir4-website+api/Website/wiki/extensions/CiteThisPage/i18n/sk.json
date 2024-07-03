@@ -1,0 +1,19 @@
+{
+	"@metadata": {
+		"authors": [
+			"Helix84",
+			"Jaroslav.micek",
+			"Martin Kozák",
+			"TomášPolonec",
+			"Vlad5250",
+			"Yardom78"
+		]
+	},
+	"citethispage": "Citovať",
+	"citethispage-desc": "Pridáva špeciálnu stránku [[Special:CiteThisPage|Citovať]] a odkaz v nástrojoch",
+	"citethispage-link": "Citovať túto stránku",
+	"tooltip-citethispage": "Informácie ako citovať túto stránku",
+	"citethispage-change-submit": "Citovať",
+	"citethispage-change-target": "Stránka:",
+	"citethispage-content": "__NOTOC__\n<div class=\"mw-specialCiteThisPage-bibliographic\">\n\n== Bibliografické podrobnosti pre článok {{FULLPAGENAME}} ==\n* Názov stránky: {{FULLPAGENAME}}\n* Autor: prispievatelia {{SITENAME}}\n* Vydavateľ: ''{{SITENAME}}''.\n* Dátum poslednej revízie: {{CURRENTDAY}} {{CURRENTMONTHNAME}} {{CURRENTYEAR}} {{CURRENTTIME}} UTC\n* Dátum získania: <citation>{{CURRENTDAY}} {{CURRENTMONTHNAME}} {{CURRENTYEAR}} {{CURRENTTIME}} UTC</citation>\n* Permanentný odkaz: {{canonicalurl:{{FULLPAGENAME}}|oldid={{REVISIONID}}}}\n* ID verzie stránky: {{REVISIONID}}\n\n</div>\n<div class=\"plainlinks mw-specialCiteThisPage-styles\">\n\n== Štýly citácie pre článok {{FULLPAGENAME}} ==\n\n=== [[:en:APA style|štýl APA]] ===\n{{FULLPAGENAME}}. ({{CURRENTYEAR}}, {{CURRENTMONTHNAME}} {{CURRENTDAY}}). ''{{SITENAME}}''. Získané <citation>{{CURRENTTIME}}, {{CURRENTMONTHNAME}} {{CURRENTDAY}}, {{CURRENTYEAR}}</citation> z {{canonicalurl:{{FULLPAGENAME}}|oldid={{REVISIONID}}}}.\n\n=== [[:en:The MLA style manual|štýl MLA]] ===\n\"{{FULLPAGENAME}}.\" ''{{SITENAME}}''. {{CURRENTDAY}} {{CURRENTMONTHABBREV}} {{CURRENTYEAR}}, {{CURRENTTIME}} UTC. <citation>{{CURRENTDAY}} {{CURRENTMONTHABBREV}} {{CURRENTYEAR}}, {{CURRENTTIME}}</citation> &lt;{{canonicalurl:{{FULLPAGENAME}}|oldid={{REVISIONID}}}}&gt;.\n\n=== [[MHRA Style Guide|MHRA style]] ===\nprispievatelia {{SITENAME}}, '{{FULLPAGENAME}}', ''{{SITENAME}},'' {{CURRENTDAY}} {{CURRENTMONTHNAME}} {{CURRENTYEAR}}, {{CURRENTTIME}} UTC, &lt;{{canonicalurl:{{FULLPAGENAME}}|oldid={{REVISIONID}}}}&gt; [accessed <citation>{{CURRENTDAY}} {{CURRENTMONTHNAME}} {{CURRENTYEAR}}</citation>]\n\n=== [[:en:The Chicago Manual of Style|štýl Chicago]] ===\nprispievatelia {{SITENAME}}, \"{{FULLPAGENAME}},\" ''{{SITENAME}},'' {{canonicalurl:{{FULLPAGENAME}}|oldid={{REVISIONID}}}} (prístup <citation>{{CURRENTMONTHNAME}} {{CURRENTDAY}}, {{CURRENTYEAR}}</citation>).\n\n=== [[:en:Council of Science Editors|štýl CBE/CSE]] ===\nprispievatelia {{SITENAME}}. {{FULLPAGENAME}} [Internet]. {{SITENAME}}; {{CURRENTYEAR}} {{CURRENTMONTHABBREV}} {{CURRENTDAY}}, {{CURRENTTIME}} UTC [cited <citation>{{CURRENTYEAR}} {{CURRENTMONTHABBREV}} {{CURRENTDAY}}</citation>]. Dostupné na: {{canonicalurl:{{FULLPAGENAME}}|oldid={{REVISIONID}}}}.\n\n=== [[:en:Bluebook|štýl Bluebook]] ===\n{{FULLPAGENAME}}, {{canonicalurl:{{FULLPAGENAME}}|oldid={{REVISIONID}}}} (posledná návšteva <citation>{{CURRENTMONTHNAME}} {{CURRENTDAY}}, {{CURRENTYEAR}}</citation>).\n\n=== záznam [[:en:BibTeX|BibTeX]] ===\n  @misc{ wiki:xxx,\n    author = \"{{SITENAME}}\",\n    title = \"{{FULLPAGENAME}} --- {{SITENAME}}{,} {{int:sitesubtitle}}\",\n    rok = \"{{CURRENTYEAR}}\", url = \"{{canonicalurl:{{FULLPAGENAME}}|oldid={{REVISIONID}}}}\",\n    poznámka = \"[Online; prístup <citation>{{CURRENTDAY}}-{{CURRENTMONTHNAME}}-{{CURRENTYEAR}}</citation>]\"\n  }\n\nPri použití balíka url v [[LaTeX]]e (<code>\\usepackage{url}</code> niekde v úvode), čo dá oveľa krajšie formátované webové adresy, preferuje sa nasledovné:\n  @misc{ wiki:xxx,\n    autor = \"{{SITENAME}}\",\n    názov = \"{{FULLPAGENAME}} --- {{SITENAME}}{,} {{int:sitesubtitle}}\",\n    rok = \"{{CURRENTYEAR}}\",\n    url = \"'''\\url{'''{{canonicalurl:{{FULLPAGENAME}}|oldid={{REVISIONID}}}}'''}'''\",\n    poznámka = \"[Online; prístup <citation>{{CURRENTDAY}}-{{CURRENTMONTHNAME}}-{{CURRENTYEAR}}</citation>]\" \n  }\n\n</div> <!--closing div for \"plainlinks\"-->"
+}

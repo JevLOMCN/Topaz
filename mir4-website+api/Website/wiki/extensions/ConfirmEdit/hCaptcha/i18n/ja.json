@@ -1,0 +1,16 @@
+{
+	"@metadata": {
+		"authors": [
+			"Ant176",
+			"Waki285"
+		]
+	},
+	"hcaptcha-desc": "Confirm Edit 用の [https://www.hcaptcha.com/ hCaptcha] モジュール",
+	"hcaptcha-edit": "ウィキを自動編集スパムから保護するために、下のhCaptchaを解決してください。",
+	"hcaptcha-addurl": "あなたの編集には新しい外部リンクが含まれています。\nウィキを自動投稿スパムから保護するために、以下のCAPTCHAを解いてください。",
+	"hcaptcha-badlogin": "あなたのアカウントをハッカーから保護するために、下のhCaptchaを解決してください。",
+	"hcaptcha-createaccount": "ウィキをアカウント自動作成から保護するために、下のhCaptchaを解決してください。",
+	"hcaptcha-createaccount-fail": "hCaptchaをまだ解決していないようです。",
+	"hcaptcha-create": "ウィキを記事の自動作成から保護するために、下のhCaptchaを解決してください。",
+	"hcaptcha-help": "hCaptchaチャレンジを解いて、応答値をcaptchaWordとして返してください。"
+}

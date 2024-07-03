@@ -1,0 +1,215 @@
+[
+	{
+		"path": "/v1/page/{title}/history",
+		"class": "MediaWiki\\Rest\\Handler\\PageHistoryHandler",
+		"services": [
+			"RevisionStore",
+			"NameTableStoreFactory",
+			"GroupPermissionsLookup",
+			"DBLoadBalancerFactory",
+			"PageStore",
+			"TitleFormatter",
+			"PageRestHelperFactory"
+		]
+	},
+	{
+		"path": "/v1/page/{title}/history/counts/{type}",
+		"class": "MediaWiki\\Rest\\Handler\\PageHistoryCountHandler",
+		"services": [
+			"RevisionStore",
+			"NameTableStoreFactory",
+			"GroupPermissionsLookup",
+			"DBLoadBalancerFactory",
+			"MainWANObjectCache",
+			"PageStore",
+			"PageRestHelperFactory"
+		]
+	},
+	{
+		"path": "/v1/revision/{from}/compare/{to}",
+		"class": "MediaWiki\\Rest\\Handler\\CompareHandler",
+		"services": [
+			"RevisionLookup",
+			"ParserFactory"
+		]
+	},
+	{
+		"path": "/v1/revision/{id}",
+		"class": "MediaWiki\\Rest\\Handler\\RevisionSourceHandler",
+		"services": [
+			"PageRestHelperFactory"
+		],
+		"format": "source"
+	},
+	{
+		"path": "/v1/revision/{id}/html",
+		"class": "MediaWiki\\Rest\\Handler\\RevisionHTMLHandler",
+		"services": [
+			"PageRestHelperFactory"
+		],
+		"format": "html"
+	},
+	{
+		"path": "/v1/revision/{id}/with_html",
+		"class": "MediaWiki\\Rest\\Handler\\RevisionHTMLHandler",
+		"services": [
+			"PageRestHelperFactory"
+		],
+		"format": "with_html"
+	},
+	{
+		"path": "/v1/revision/{id}/bare",
+		"class": "MediaWiki\\Rest\\Handler\\RevisionSourceHandler",
+		"services": [
+			"PageRestHelperFactory"
+		],
+		"format": "bare"
+	},
+	{
+		"path": "/v1/search/page",
+		"class": "MediaWiki\\Rest\\Handler\\SearchHandler",
+		"services": [
+			"MainConfig",
+			"SearchEngineFactory",
+			"SearchEngineConfig",
+			"SearchResultThumbnailProvider",
+			"PermissionManager",
+			"RedirectLookup",
+			"PageStore",
+			"TitleFormatter"
+		],
+		"mode": "fulltext"
+	},
+	{
+		"path": "/v1/search/title",
+		"class": "MediaWiki\\Rest\\Handler\\SearchHandler",
+		"services": [
+			"MainConfig",
+			"SearchEngineFactory",
+			"SearchEngineConfig",
+			"SearchResultThumbnailProvider",
+			"PermissionManager",
+			"RedirectLookup",
+			"PageStore",
+			"TitleFormatter"
+		],
+		"mode": "completion"
+	},
+	{
+		"path": "/v1/page/{title}/links/language",
+		"class": "MediaWiki\\Rest\\Handler\\LanguageLinksHandler",
+		"services": [
+			"DBLoadBalancerFactory",
+			"LanguageNameUtils",
+			"TitleFormatter",
+			"TitleParser",
+			"PageStore",
+			"PageRestHelperFactory"
+		]
+	},
+	{
+		"path": "/v1/page/{title}",
+		"class": "MediaWiki\\Rest\\Handler\\PageSourceHandler",
+		"services": [
+			"TitleFormatter",
+			"PageRestHelperFactory"
+		],
+		"format": "source"
+	},
+	{
+		"path": "/v1/page/{title}/bare",
+		"class": "MediaWiki\\Rest\\Handler\\PageSourceHandler",
+		"services": [
+			"TitleFormatter",
+			"PageRestHelperFactory"
+		],
+		"format": "bare"
+	},
+	{
+		"path": "/v1/page/{title}/html",
+		"class": "MediaWiki\\Rest\\Handler\\PageHTMLHandler",
+		"services": [
+			"PageRestHelperFactory"
+		],
+		"format": "html"
+	},
+	{
+		"path": "/v1/page/{title}/with_html",
+		"class": "MediaWiki\\Rest\\Handler\\PageHTMLHandler",
+		"services": [
+			"PageRestHelperFactory"
+		],
+		"format": "with_html"
+	},
+	{
+		"path": "/v1/page/{title}/links/media",
+		"class": "MediaWiki\\Rest\\Handler\\MediaLinksHandler",
+		"services": [
+			"DBLoadBalancerFactory",
+			"RepoGroup",
+			"PageStore"
+		]
+	},
+	{
+		"path": "/v1/file/{title}",
+		"class": "MediaWiki\\Rest\\Handler\\MediaFileHandler",
+		"services": [
+			"RepoGroup",
+			"PageStore"
+		]
+	},
+	{
+		"method": "PUT",
+		"path": "/v1/page/{title}",
+		"class": "MediaWiki\\Rest\\Handler\\UpdateHandler",
+		"services": [
+			"MainConfig",
+			"ContentHandlerFactory",
+			"TitleParser",
+			"TitleFormatter",
+			"RevisionStore"
+		]
+	},
+	{
+		"method": "POST",
+		"path": "/v1/page",
+		"class": "MediaWiki\\Rest\\Handler\\CreationHandler",
+		"services": [
+			"MainConfig",
+			"ContentHandlerFactory",
+			"TitleParser",
+			"TitleFormatter",
+			"RevisionStore"
+		]
+	},
+	{
+		"method": "POST",
+		"path": "/v1/transform/{from}/to/{format}/{title}/{revision}",
+		"class": "MediaWiki\\Rest\\Handler\\TransformHandler",
+		"factory": "MediaWiki\\Rest\\Handler\\TransformHandler::factory",
+		"transformations": {
+			"wikitext": [ "html", "lint" ],
+			"html": [ "wikitext" ]
+		}
+	},
+	{
+		"method": "POST",
+		"path": "/v1/transform/{from}/to/{format}",
+		"class": "MediaWiki\\Rest\\Handler\\TransformHandler",
+		"factory": "MediaWiki\\Rest\\Handler\\TransformHandler::factory",
+		"transformations": {
+			"wikitext": [ "html", "lint" ],
+			"html": [ "wikitext" ]
+		}
+	},
+	{
+		"method": "POST",
+		"path": "/v1/transform/{from}/to/{format}/{title}",
+		"class": "MediaWiki\\Rest\\Handler\\TransformHandler",
+		"factory": "MediaWiki\\Rest\\Handler\\TransformHandler::factory",
+		"transformations": {
+			"wikitext": [ "html", "lint" ],
+			"html": [ "wikitext" ]
+		}
+	}
+]

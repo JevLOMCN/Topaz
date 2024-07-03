@@ -1,0 +1,20 @@
+{
+	"@metadata": {
+		"authors": [
+			"Purodha"
+		]
+	},
+	"imagemap_desc": "Brengk dä Befäähl <code>&lt;imagemap&gt;</code> en et Wiki, un med em Belldsche, wo mer op Anndeile fun klecke kann, wo dann Lengks henger lijje.",
+	"imagemap_no_image": "Do es ene Fääler met <code>&lt;imagemap&gt;</code> opjefalle: En de eetzte Reih mööt e Beld shtonn.",
+	"imagemap_invalid_image": "Do es ene Fääler met <code>&lt;imagemap&gt;</code> opjefalle: dat Beld jidd_et nit, odder dä Name es verkeeht",
+	"imagemap_bad_image": "Do es ene Fääler met <code>&lt;imagemap&gt;</code> opjefalle: Dat Beld es op dä Sigg nit äloup.",
+	"imagemap_no_link": "Do es ene Fääler met <code>&lt;imagemap&gt;</code> opjefalle: En de {{PLURAL:$1|eetzte|$1-te|nullte}} Reih eß am Engk keine Lengk jefonge woode.",
+	"imagemap_invalid_title": "Do es ene Fääler met <code>&lt;imagemap&gt;</code> opjefalle: Dä Tittel em Lengk en de {{PLURAL:$1|eetzte|$1-te|nullte}} Reih eß verkeeht.",
+	"imagemap_missing_coord": "Do es ene Fääler met <code>&lt;imagemap&gt;</code> opjefalle: En dä {{PLURAL:$1|eetzte|$1-te|nullte}} Reih sin nit jenooch Ko'oddinate förr_ene komplätte Ömreß.",
+	"imagemap_unrecognised_shape": "Do es ene Fääler met <code>&lt;imagemap&gt;</code> opjefalle: Dä Name förr_enne Ömreß en de {{PLURAL:$1|eetzte|$1-te|nullte}} Reih eß verkeeht. Et mööt „<tt><code>rect</code></tt>“, „<tt><code>circle</code></tt>“, „<tt><code>poly</code></tt>“, udder „<tt><code>default</code></tt>“ do shtonn.",
+	"imagemap_invalid_coord": "Do es ene Fääler met <code>&lt;imagemap&gt;</code> opjefalle: En de {{PLURAL:$1|eetzte|$1-te|nullte}} Reih eß jet verkeeht met de Ko'oddinate. Do mööte luuter Zahle shtonn, es äver nit esu.",
+	"imagemap_invalid_desc": "Do es ene Fääler met <code>&lt;imagemap&gt;</code> opjefalle: Dä Parammeeter „<tt><nowiki>desc</nowiki></tt>“ eß verkeeht aanjejovve. Bruche kanns De nor ein fun dänne hee: <code>$1</code>",
+	"imagemap_description": "Övver dat Beld heh",
+	"imagemap_desc_types": "bovve räähß, unge räähß, unge lengkß, bovve lengkß, nix",
+	"imagemap_poly_odd": "Do es ene Fääler met <imagemap> opjefalle: De Parammeeter för „poly“ möße Zahle-Päärche sin, ävver hee es ei Zahl zovill udder zowinnisch\nen dä Reih: $1."
+}

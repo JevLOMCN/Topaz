@@ -1,0 +1,26 @@
+{
+	"@metadata": {
+		"authors": [
+			"Chrumps",
+			"Matma Rex",
+			"Rail",
+			"Railfail536",
+			"Sp5uhe"
+		]
+	},
+	"skinname-monobook": "Książka",
+	"monobook-desc": "Klasyczna skórka MediaWiki, stworzona w 2004 roku, nazwana od czarno-białego zdjęcia książki w tle strony",
+	"monobook.css": "/* Umieszczony tutaj kod CSS zostanie załadowany przez użytkowników korzystających ze skórki Książka */",
+	"monobook.js": "/* Umieszczony tutaj kod JavaScript zostanie załadowany przez użytkowników korzystających ze skórki Książka */",
+	"monobook-jumptotop": "powrót na górę",
+	"monobook-jumptopersonal": "narzędzia użytkownika",
+	"monobook-jumptonavigation": "Przejdź do nawigacji",
+	"monobook-jumptosearch": "Przejdź do wyszukiwania",
+	"monobook-more-actions": "Więcej",
+	"cactions-mobile": "Opcje strony",
+	"monobook-cactions-label": "Działania na stronie",
+	"monobook-notifications-link": "Powiadomienia ($1)",
+	"monobook-notifications-link-none": "Powiadomienia",
+	"monobook-view-history": "Historia",
+	"monobook-action-undelete": "odtwórz {{PLURAL:$1|1 wersję|$1 wersje|$1 wersji}}"
+}

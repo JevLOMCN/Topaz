@@ -1,0 +1,35 @@
+{
+	"@metadata": {
+		"authors": [
+			"Praveenp",
+			"Shijualex"
+		]
+	},
+	"replacetext": "എഴുത്ത് മാറ്റിച്ചേർക്കുക",
+	"replacetext-desc": "വിക്കിയിലെ എല്ലാ ഉള്ളടക്ക താളിൽ നിന്നും കാര്യനിർവാഹകർക്ക് ഒരു പ്രത്യേക പദത്തെ കണ്ടെത്തി-മാറ്റിച്ചേർക്കാനുള്ള [[Special:ReplaceText|പ്രത്യേക താൾ]] നൽകുന്നു",
+	"replacetext_originaltext": "യഥാർത്ഥ എഴുത്ത്:",
+	"replacetext_replacementtext": "മാറ്റിച്ചേർക്കേണ്ട എഴുത്ത്:",
+	"replacetext_optionalfilters": "ഐച്ഛിക അരിപ്പകൾ:",
+	"replacetext_categorysearch": "ഈ വർഗ്ഗത്തിൽ നിന്നു മാത്രം മാറ്റിച്ചേർക്കുക:",
+	"replacetext_prefixsearch": "ഈ പൂർവ്വപദമുള്ള താളുകളിൽ മാത്രം മാറ്റിച്ചേർക്കുക:",
+	"replacetext_editpages": "താളിന്റെ ഉള്ളടക്കത്തിലെ എഴുത്ത് മാറ്റിച്ചേർക്കുക",
+	"replacetext_movepages": "സാദ്ധ്യമെങ്കിൽ, താളിന്റെ ഉള്ളടക്കത്തിലെ എഴുത്തുകൾ മാറ്റിച്ചേർക്കുക",
+	"replacetext_givetarget": "മാറ്റിച്ചേർക്കാനുള്ള പദം താങ്കൾ വ്യക്തമാക്കണം.",
+	"replacetext_nonamespace": "ഒരു നാമമേഖലയെങ്കിലും തിരഞ്ഞെടുത്തിരിക്കണം.",
+	"replacetext_editormove": "ഒരു മാറ്റിച്ചേർക്കൽ ഐച്ഛികമെങ്കിലും തിരഞ്ഞെടുത്തിരിക്കണം.",
+	"replacetext_choosepagesforedit": "താഴെയുള്ള {{PLURAL:$3|താളിൽ|താളുകളിൽ}} നിന്നും  \"$1\" എന്നത് \"$2\" എന്നതുകൊണ്ട് മാറ്റിച്ചേർക്കുക:",
+	"replacetext_choosepagesformove": "താഴെയുള്ള {{PLURAL:$3|താളിന്റെ തലക്കെട്ടിൽ|താളുകളുടെ തലക്കെട്ടുകളിൽ}} നിന്നും  \"$1\" എന്നത് \"$2\" എന്നതുകൊണ്ട് മാറ്റിച്ചേർക്കുക:",
+	"replacetext_cannotmove": "താഴെയുള്ള {{PLURAL:$1|താൾ|താളുകൾ}} മാറ്റാനാവില്ല:",
+	"replacetext_formovedpages": "മാറ്റിയ താളുകൾക്ക് വേണ്ടി:",
+	"replacetext_savemovedpages": "പഴയ തലക്കെട്ടുകൾ പുതിയ തലക്കെട്ടുകളിലോട്ടുള്ള തിരിച്ചുവിടലായി നിലനിർത്തുക",
+	"replacetext_watchmovedpages": "ഈ താളുകൾ ശ്രദ്ധിക്കുക",
+	"replacetext_invertselections": "വിപരീതം തിരഞ്ഞെടുക്കുക",
+	"replacetext_replace": "മാറ്റിച്ചേർക്കുക",
+	"replacetext_success": "{{PLURAL:$3|ഒരു താളിൽ|$3 താളുകളിൽ}} \"$1\" എന്നത് \"$2\" എന്നതുകൊണ്ട് മാറ്റിച്ചേർക്കപ്പെടും.",
+	"replacetext_noreplacement": "\"$1\" എന്ന പദമുള്ള താളുകളൊന്നും കണ്ടെത്താനായില്ല.",
+	"replacetext_nomove": "ഒരു താളിന്റെയും തലക്കെട്ടിൽ \"$1\" എന്നു കണ്ടെത്താനായില്ല.",
+	"replacetext_return": "ഫോമിലേക്ക് തിരിച്ചു പോവുക",
+	"replacetext_continue": "തുടരുക",
+	"replacetext_editsummary": "എഴുത്ത് മാറ്റിച്ചേർക്കൽ - \"$1\" എന്നത് \"$2\" എന്നതുകൊണ്ട്",
+	"right-replacetext": "വിക്കിയിൽ മുഴുവനും പദം മാറ്റിച്ചേർക്കുക"
+}

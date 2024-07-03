@@ -1,0 +1,37 @@
+{
+	"@metadata": {
+		"authors": [
+			"Avjoska",
+			"Jaan513",
+			"Pikne"
+		]
+	},
+	"categorytree": "Kategooriapuu",
+	"categorytree-portlet": "Kategooriad",
+	"categorytree-legend": "Kategooriapuu näitamine",
+	"categorytree-desc": "[[Special:CategoryTree|Kategooriate ülesehituse]] dünaamiline vaatamine.",
+	"categorytree-header": "Sisesta kategooria nimi, et näha selle sisu puustruktuurina. (Nõuab JavaScripti.)",
+	"categorytree-category": "Kategooria:",
+	"categorytree-go": "Näita puud",
+	"categorytree-parents": "Ülemkategooriad",
+	"categorytree-mode-label": "Moodus:",
+	"categorytree-mode-categories": "ainult kategooriad",
+	"categorytree-mode-pages": "failideta",
+	"categorytree-mode-all": "kõik leheküljed",
+	"categorytree-collapse": "peida",
+	"categorytree-expand": "näita",
+	"categorytree-member-counts": "sisaldab {{PLURAL:$1|üht|$1}} alamkategooriat, {{PLURAL:$2|üht|$2}} lehekülge ja {{PLURAL:$3|üht|$3}} faili",
+	"categorytree-num-categories": "$1 K",
+	"categorytree-num-pages": "$1 L",
+	"categorytree-num-files": "$1 F",
+	"categorytree-num-empty": "tühi",
+	"categorytree-load": "laadi",
+	"categorytree-loading": "laadimine...",
+	"categorytree-nothing-found": "ei leitud midagi",
+	"categorytree-no-subcategories": "alamkategooriaid ei ole",
+	"categorytree-no-parent-categories": "ülemkategooriad pole",
+	"categorytree-no-pages": "lehekülgi ega alamkategooriad pole",
+	"categorytree-not-found": "Kategooriat <i>$1</i> ei leitud.",
+	"categorytree-error": "Probleem andmete laadimisel.",
+	"categorytree-retry": "Palun oota hetk ja proovi uuesti."
+}

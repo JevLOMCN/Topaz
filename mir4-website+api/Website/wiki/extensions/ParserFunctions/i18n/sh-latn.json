@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"Winston Sung"
+		]
+	},
+	"pfunc_time_error": "Greška: pogrešno vreme",
+	"pfunc_time_too_long": "Greška: previše pozivanja funkcije #time",
+	"pfunc_rel2abs_invalid_depth": "Greška: Nepravilna dubina u putanji: \"$1\"",
+	"pfunc_expr_unrecognised_word": "Greška u izrazu: Nepoznata riječ „$1”.",
+	"pfunc_expr_unexpected_operator": "Greška izraza: Neočekivani $1 operator",
+	"pfunc_expr_missing_operand": "Greška izraza: Nedostaje operator za $1",
+	"pfunc_expr_unrecognised_punctuation": "Greška u izrazu: Nije prepoznat interpunkcijski znak „$1”.",
+	"pfunc_expr_division_by_zero": "Dijeljenje s nulom"
+}

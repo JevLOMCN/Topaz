@@ -1,0 +1,98 @@
+/*!
+ * VisualEditor MediaWiki Initialization Target styles.
+ *
+ * @copyright See AUTHORS.txt
+ * @license The MIT License (MIT); see LICENSE.txt
+ */
+
+/* Dialogs */
+
+/* Override overflow: hidden; from MW styles */
+.ve-ui-commandHelpDialog-section h3 {
+	overflow: visible;
+}
+
+/* Override MediaWiki's styles that make sense in read mode only */
+
+// Prevent jQuery.makeCollapsible from hiding things, even if collapsed by default.
+// These selectors must exactly match those in jquery.makeCollapsible.styles.less in MediaWiki.
+@exclude: ~'.mw-made-collapsible';
+
+.client-js {
+	.ve-ce-surface,
+	.ve-ui-diffElement {
+		.mw-collapsed:not( @{exclude} ) {
+			> p {
+				display: block;
+			}
+
+			> table {
+				display: table;
+			}
+
+			> thead + tbody {
+				display: table-row-group;
+			}
+
+			tr:not( :first-child ) {
+				display: table-row;
+			}
+
+			.mw-collapsible-content {
+				display: block;
+			}
+		}
+	}
+}
+
+/*
+ * Grey out the fake toggles to make it more obvious they are not interactive.
+ * Don't bother trying to float the toggles, as the text they are floating around
+ * is now paragraph wrapped. Making these paragraphs display:inline would fix the
+ * rendering but causes them to be destroyed by the CE when empty (T197987).
+ */
+.ve-ce-mwTableNode.mw-collapsible :first-child tr:first-child th:last-child::before,
+.ve-ce-mwTableNode.mw-collapsible > caption:first-child::after,
+.ve-ui-diffElement table.mw-collapsible :first-child tr:first-child th:last-child::before,
+.ve-ui-diffElement table.mw-collapsible > caption:first-child::after {
+	color: #999;
+	float: none;
+}
+
+.ve-ce-surface div.mw-collapsible::before,
+.ve-ui-diffElement div.mw-collapsible::before {
+	color: #999;
+}
+
+/* Categories */
+
+// Don't show categories from converter preview mode (e.g. <ref>[[Category:Foo]]</ref)...
+a[ rel~='mw:PageProp/Category' ] {
+	display: none;
+
+	// ... unless in a category list (e.g. visual diff)
+	.catlinks & { /* stylelint-disable-line selector-class-pattern */
+		display: inline;
+	}
+}
+
+// Increase specificity of catlink margin reset when nested in body content (e.g. in visual diff)
+.mw-body-content .catlinks ul { /* stylelint-disable-line selector-class-pattern */
+	margin: 0;
+}
+
+/* Reset section node styles */
+.ve-init-mw-target .ve-ce-sectionNode::before,
+.ve-init-mw-target .ve-ce-sectionNode::after {
+	content: normal;
+}
+
+.ve-init-mw-target .ve-ce-surface .ve-ce-sectionNode:not( .ve-ce-activeNode-active ) {
+	opacity: 1;
+}
+
+/* Save button */
+.ve-ui-toolbar-saveButton {
+	white-space: nowrap;
+	font-weight: bold;
+}

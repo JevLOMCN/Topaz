@@ -1,0 +1,31 @@
+{
+	"@metadata": {
+		"authors": [
+			"Michawiki"
+		]
+	},
+	"nuke": "Masowe wušmórnjenje",
+	"action-nuke": "Strony z masami zhašeć",
+	"nuke-desc": "Zmóžnja administratoram [[Special:Nuke|masowe wušmórnjenje]] stronow",
+	"nuke-nopages": "Žane nowe strony wot [[Special:Contributions/$1|{{GENDER:$1|$1}}]] w aktualnych změnach.",
+	"nuke-list": "Slědowace strony buchu runje přez [[Special:Contributions/$1|{{GENDER:$1|$1}}]] wutworjene; zapodaj komentar a klikń na tłóčatko, zo by je zhašał.",
+	"nuke-list-multiple": "Slědowace strony su so runje wutowrili;\nnapisaj komentar a klikń na tłóčatko, zo by je wušmórnył.",
+	"nuke-defaultreason": "Masowe zhašenje stronow, kotrež buchu wot [[Special:Contributions/$1|{{GENDER:$1|$1}}]] přidate",
+	"nuke-multiplepeople": "Masowe zhašenje njedawno přidatych stronow",
+	"nuke-tools": "Tutón grat zmóžnja masowe wušmórnjenje stronow, kotrež buchu wot IP-adresy abo wužiwarja přidate. Zapodaj IP-adresu abo wužiwarske mjeno, zo by lisćinu stronow dóstał, kotrež maja so wušmórnyć.",
+	"nuke-submit-user": "Strony nalistować",
+	"nuke-submit-delete": "Wušmórnyć",
+	"right-nuke": "Masowe zničenje stronow",
+	"nuke-userorip": "Wužiwar, IP abo prózdny:",
+	"nuke-maxpages": "Maksimalna ličba stronow:",
+	"nuke-editby": "Wutworjeny wot [[Special:Contributions/$1|{{GENDER:$1|$1}}]]",
+	"nuke-deleted": "Strona '''„$1“''' bu wušmórnjena.",
+	"nuke-not-deleted": "Strona [[:$1]]  '''njeda so''' wušmórnyć.",
+	"nuke-delete-more": "[[Special:Nuke|Dalše strony wušmórnyć]]",
+	"nuke-pattern": "Muster SQL-LIKE (na př. %) za mjeno strony:",
+	"nuke-nopages-global": "Njejsu žane nowe strony w [[Special:RecentChanges|aktualnych změnach]].",
+	"nuke-viewchanges": "změny pokazać",
+	"nuke-namespace": "Na slědowacy mjenowy rum wobmjezować:",
+	"nuke-linkoncontribs": "masowe zhašenje",
+	"nuke-linkoncontribs-text": "Strony masoweho zhašenja, hdźež tutón wužiwar je jenički awtor"
+}

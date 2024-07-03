@@ -1,0 +1,39 @@
+{
+	"@metadata": {
+		"authors": [
+			"Eitvys200",
+			"Hugo.arg",
+			"Nokeoo"
+		]
+	},
+	"scribunto-line": "eilutėje $1",
+	"scribunto-module-line": "$1 eilutėje $2",
+	"scribunto-console-title": "Derinimo konsolė",
+	"scribunto-console-too-large": "Ši konsolės sesija per didelė. Išvalykite konsolės istoriją arba sumažinkite modulio dydį.",
+	"scribunto-console-current-src": "konsolės įvestis",
+	"scribunto-console-clear": "Valyti",
+	"scribunto-console-cleared": "Konsolės būsena išvalyta, nes modulis atnaujintas.",
+	"scribunto-console-cleared-session-lost": "Konsolės būsena išvalyta, nes buvo prarasti sesijos duomenys.",
+	"scribunto-common-no-details": "Daugiau informacijos nėra.",
+	"scribunto-lua-in-function": "funkcijoje „$1“",
+	"scribunto-lua-in-function-at": "funkcijoje $1:$2",
+	"scribunto-lua-error-location": "Lua klaida $1: $2.",
+	"scribunto-lua-error": "Lua klaida: $2.",
+	"scribunto-luastandalone-proc-error": "Lua klaida: nepavyko sukurti proceso.",
+	"scribunto-luastandalone-proc-error-msg": "Lua klaida: negalima sukurti proceso: $2",
+	"scribunto-luastandalone-decode-error": "Lua klaida: vidinė klaida: nepavyko iššifruoti žinutės.",
+	"scribunto-module-with-errors-category-desc": "Modulyje yra klaida.",
+	"scribunto-limitreport-timeusage": "Lua laiko naudojimas",
+	"scribunto-limitreport-timeusage-value": "$1 / $2 sekundės",
+	"scribunto-limitreport-virtmemusage": "Lua virtualus dydis",
+	"scribunto-limitreport-virtmemusage-value": "$1/$2 {{PLURAL:$2|bitas|bitai}}",
+	"scribunto-limitreport-estmemusage": "Lua preliminarus atminties naudojimas",
+	"scribunto-limitreport-estmemusage-value": "$1 {{PLURAL:$1|baitas|baitai}}",
+	"scribunto-limitreport-memusage": "Lua atminties naudojimas",
+	"scribunto-limitreport-memusage-value": "$1/$2 {{PLURAL:$2|bitas|bitai}}",
+	"scribunto-limitreport-profile": "Lua profilis",
+	"scribunto-limitreport-profile-ms": "$1 ms",
+	"scribunto-limitreport-logs": "Lua žurnalai",
+	"nstab-module": "Modulis",
+	"tooltip-ca-nstab-module": "Žiūrėti modulio puslapį"
+}

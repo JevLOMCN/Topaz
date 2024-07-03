@@ -1,0 +1,27 @@
+{
+	"@metadata": {
+		"authors": [
+			"01miki10",
+			"Crt",
+			"Jack Phoenix",
+			"MITO",
+			"McSalama",
+			"Nike"
+		]
+	},
+	"skinname-monobook": "Monobook",
+	"monobook-desc": "Klassinen MediaWiki-ulkoasu vuodesta 2004, saanut nimensä mustavalkoisesta kirjan kuvasta sivun taustalla",
+	"monobook.css": "/* Tämä sivu sisältää Monobook-ulkoasua muuttavia tyylejä. */",
+	"monobook.js": "/* Tämän sivun JavaScript-koodi liitetään Monobook-tyyliin */",
+	"monobook-jumptotop": "takaisin alkuun",
+	"monobook-jumptopersonal": "käyttäjätyökalut",
+	"monobook-jumptonavigation": "Siirry navigaatioon",
+	"monobook-jumptosearch": "Siirry hakuun",
+	"monobook-more-actions": "Lisää",
+	"cactions-mobile": "Sivun toiminnot",
+	"monobook-cactions-label": "Sivun toiminnot",
+	"monobook-notifications-link": "Ilmoitukset ($1)",
+	"monobook-notifications-link-none": "Ilmoitukset",
+	"monobook-view-history": "Historia",
+	"monobook-action-undelete": "Palauta {{PLURAL:$1|yksi muokkaus|$1 muokkausta}}"
+}

@@ -1,0 +1,23 @@
+{
+	"@metadata": {
+		"authors": [
+			"Badseed",
+			"Consta",
+			"Dead3y3",
+			"Geraki",
+			"Stam.nikos",
+			"ZaDiak"
+		]
+	},
+	"syntaxhighlight-desc": "Παρέχει επισήμανση σύνταξης <code>&lt;syntaxhighlight&gt;</code> χρησιμοποιώντας το [http://pygments.org/ Pygments - Python syntax highlighter]",
+	"syntaxhighlight-error-category": "Σελίδες με σφάλματα επισήμανσης σύνταξης",
+	"syntaxhighlight-error-category-desc": "Υπήρξε σφάλμα κατά την επισήμανση κώδικα που περιλαμβάνεται στη σελίδα.",
+	"syntaxhighlight-visualeditor-mwsyntaxhighlightinspector-code": "Κώδικας",
+	"syntaxhighlight-visualeditor-mwsyntaxhighlightinspector-language": "Γλώσσα",
+	"syntaxhighlight-visualeditor-mwsyntaxhighlightinspector-none": "(καμία)",
+	"syntaxhighlight-visualeditor-mwsyntaxhighlightinspector-showlines": "Εμφάνιση αρίθμησης γραμμών",
+	"syntaxhighlight-visualeditor-mwsyntaxhighlightinspector-title": "Κομμάτι κώδικα",
+	"syntaxhighlight-error-pygments-invocation-failure": "Αποτυχία κλήσης Pygments",
+	"syntaxhighlight-error-unknown-language": "Άγνωστη γλώσσα \"$1\"",
+	"syntaxhighlight-error-exceeds-size-limit": "Το μέγεθος κώδικα $1 {{PLURAL:$1|bytes}} υπερβαίνει το μέγιστο επιτρεπτό $2 {{PLURAL:$2|bytes}}"
+}

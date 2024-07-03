@@ -1,0 +1,39 @@
+{
+	"@metadata": {
+		"authors": [
+			"McDutchie",
+			"Robby",
+			"Soued031",
+			"Volvox"
+		]
+	},
+	"content-model-scribunto": "Scribunto-Modul",
+	"scribunto-line": "an der Linn $1",
+	"scribunto-parser-dialog-title": "Skript-Feeler",
+	"scribunto-error-short": "Skript-Feeler: $1",
+	"scribunto-error-long": "Skript-Feeler:\n\n$1",
+	"scribunto-doc-page-name": "Module:$1/doc",
+	"scribunto-doc-page-does-not-exist": "''D'Dokumentatioun fir dëse Modul kann op [[$1]] ugeluecht ginn''",
+	"scribunto-doc-page-header": "'''Dëst ass d'Dokumentationsäit fir [[$1]]'''",
+	"scribunto-console-current-src": "Konsoleninput",
+	"scribunto-console-clear": "Eidel maachen",
+	"scribunto-common-error-category": "Säite mat Scriptfeeler",
+	"scribunto-common-nofunction": "Skriptfeeler: Dir musst eng Funktioun uginn, déi opgeruff soll ginn.",
+	"scribunto-common-nosuchfunction": "Skriptfeeler: D'Funktioun „$2“ gëtt et net.",
+	"scribunto-common-notafunction": "Skriptfeeler: „$2“ ass keng Funktioun.",
+	"scribunto-common-no-details": "Keng weider Detailer verfügbar.",
+	"scribunto-lua-in-function": "an der Funktioun „$1“",
+	"scribunto-lua-error-location": "Lua-Feeler $1: $2.",
+	"scribunto-lua-error": "Lua Feeler: $2.",
+	"scribunto-lua-warning": "Skriptwarnung: $1",
+	"scribunto-module-with-errors-category-desc": "De Modul huet e Feeler.",
+	"scribunto-limitreport-timeusage-value": "$1/$2 Sekonnen",
+	"scribunto-limitreport-virtmemusage-value": "$1/$2 {{PLURAL:$2|Byte|Byten}}",
+	"scribunto-limitreport-estmemusage-value": "$1 {{PLURAL:$1|Byte|Byten}}",
+	"scribunto-limitreport-memusage-value": "$1/$2 {{PLURAL:$2|Byte|Byten}}",
+	"scribunto-limitreport-profile": "Lua – Profil",
+	"scribunto-limitreport-profile-ms": "$1 ms",
+	"scribunto-limitreport-logs": "Lua-Logbicher",
+	"nstab-module": "Modul",
+	"tooltip-ca-nstab-module": "D'Modulsäit weisen"
+}

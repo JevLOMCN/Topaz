@@ -1,0 +1,1 @@
+rmdoubles("foobarééqq") === "fobaréq"

@@ -1,0 +1,21 @@
+{
+	"@metadata": {
+		"authors": [
+			"Eduardo Addad de Oliveira",
+			"Eduardoaddad",
+			"Felipe L. Ewald",
+			"Fúlvio",
+			"Reedy"
+		]
+	},
+	"apihelp-query+oath-summary": "Verifique se a autenticação de dois fatores (OATH) está habilitada para um usuário.",
+	"apihelp-query+oath-param-user": "Usuário para o qual obter informações. Padrão para o usuário atual.",
+	"apihelp-query+oath-param-reason": "Motivo para consultar o status do OATH.",
+	"apihelp-query+oath-example-1": "Obtenha informações sobre o usuário atual",
+	"apihelp-query+oath-example-2": "Obter informações sobre o usuário <kbd>Exemplo</kbd>",
+	"apihelp-oathvalidate-summary": "Valide um token de autenticação de dois fatos (OATH).",
+	"apihelp-oathvalidate-param-user": "Usuário para o qual validar token. Padrão para o usuário atual.",
+	"apihelp-oathvalidate-example-1": "Validar dados JSON para o usuário atual",
+	"apihelp-oathvalidate-example-3": "Validar dados JSON para o usuário <kbd>Exemplo</kbd>",
+	"apihelp-oathvalidate-param-data": "Dados codificados em JSON esperados pelo módulo atualmente ativado para o usuário ser autenticado"
+}

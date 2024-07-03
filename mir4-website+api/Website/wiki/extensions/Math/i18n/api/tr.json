@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"BaRaN6161 TURK"
+		]
+	},
+	"apihelp-query+mathwbextracts-example-1": "Matematiksel Wikibase öğelerinin bir özetini ister.",
+	"apihelp-query+mathwbextracts-summary": "HTML'deki matematiksel bir Wikibase öğesinin bir özetini döndürür.",
+	"apihelp-query+mathwbextracts-param-qid": "İstenecek Wikibase maddesinin QID değeri.",
+	"apihelp-query+mathwbextracts-param-uselang": "Wikibase maddesi için talep edilmesi gereken dil. İngilizce varsayılan değerdir."
+}

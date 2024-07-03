@@ -1,0 +1,26 @@
+{
+	"@metadata": {
+		"authors": [
+			"Askarmuk",
+			"Eleferen",
+			"Facenapalm",
+			"Megakott",
+			"Nitch",
+			"Okras"
+		]
+	},
+	"codeeditor-desc": "Редактирование с подсветкой синтаксиса для JavaScript- и CSS-страниц с помощью [https://ace.c9.io/ редактора Ace]",
+	"codeeditor-next-annotation": "Перейти к следующей аннотации",
+	"codeeditor-toolbar-toggle": "Переключить редактор кода",
+	"codeeditor-save-with-errors": "Документ содержит ошибки. Вы уверены, что хотите опубликовать его?",
+	"codeeditor-invisibleChars-toggle": "Переключение отображения невидимых символов",
+	"codeeditor-lineWrapping-toggle": "Переключение переноса строк",
+	"codeeditor-searchReplace-toggle": "Переключение отображения диалога поиска и замены текста",
+	"codeeditor-gotoline": "Перейти к строке номер…",
+	"codeeditor-gotoline-placeholder": "строка[:столбец]",
+	"codeeditor-gotoline-prompt": "Введите номер строки",
+	"codeeditor-indent": "Отступ",
+	"codeeditor-outdent": "Смещение влево",
+	"codeeditor-error-title": "Сбой зависимости",
+	"codeeditor-error-message": "Для CodeEditor требуется чтобы был загружен WikiEditor."
+}

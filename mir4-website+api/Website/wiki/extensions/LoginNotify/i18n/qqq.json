@@ -1,0 +1,24 @@
+{
+	"@metadata": {
+		"authors": [
+			"Brian Wolff",
+			"Liuxinyu970226",
+			"Mar(c)",
+			"Mormegil",
+			"Niharika",
+			"Verdy p"
+		]
+	},
+	"loginnotify-desc": "{{desc|name=LoginNotify|url=https://www.mediawiki.org/wiki/Extension:LoginNotify}}",
+	"echo-category-title-login-fail": "{{doc-echo-category-title|tooltip=Echo-pref-tooltip-login-fail}}\n{{Identical|Login failed}}",
+	"echo-pref-tooltip-login-fail": "{{doc-echo-pref-tooltip|title=Echo-category-title-login-fail}}",
+	"echo-category-title-login-success": "{{doc-echo-category-title|tooltip=Echo-pref-tooltip-login-success}}",
+	"echo-pref-tooltip-login-success": "{{doc-echo-pref-tooltip|title=Echo-category-title-login-success}}",
+	"loginnotify-primary-link": "Label for link to a help page about the feature\n{{Identical|Help}}",
+	"notification-loginnotify-login-fail-email-subject": "Email subject line for email notice that there have been failed login attempts for the user's account. $1 is the user in question.",
+	"notification-loginnotify-login-success-email-subject": "Email subject line for email notice that someone has logged in to the user's account from a computer that has not previously been used. $1 is the user in question.",
+	"notification-header-login-success": "Text of notification for when someone successfully logs in as the current account from a computer that has not been previously used by that account. This is shown in the user's echo notifications, and is possibly emailed to the user.\n* $1 = Username for account, for use in GENDER",
+	"notification-new-bundled-header-login-fail": "Message string shown for bundled notifications for login attempts from a new device",
+	"notification-known-header-login-fail": "Message string shown for known IP notifications",
+	"notification-new-unbundled-header-login-fail": "Message string shown for individual notifications for login attempts from a new device, when the bundle disperses"
+}

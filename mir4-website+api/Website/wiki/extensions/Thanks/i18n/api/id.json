@@ -1,0 +1,18 @@
+{
+	"@metadata": {
+		"authors": [
+			"Gombang",
+			"Macofe",
+			"Rachmat04",
+			"William Surya Permana"
+		]
+	},
+	"apihelp-flowthank-summary": "Kirim pemberitahuan terima kasih publik untuk komentar Flow.",
+	"apihelp-flowthank-param-postid": "UUID dari kiriman yang ingin diberikan ucapan terima kasih.",
+	"apihelp-flowthank-example-1": "Kirim ucapan terima kasih atas komentar dengan <kbd>UUID xyz789</kbd>",
+	"apihelp-thank-summary": "Kirim pemberitahuan terima kasih publik kepada seorang penyunting.",
+	"apihelp-thank-param-rev": "ID Revisi yang ingin diberikan ucapan terima kasih. Ini atau 'log' mesti diberikan.",
+	"apihelp-thank-param-log": "ID log yang ingin diucapkan terima kasih. Ini atau 'rev' harus diberikan.",
+	"apihelp-thank-param-source": "Sebuah kata singkat yang menjelaskan sumber permintaan, misalnya <kbd>diff</kbd> (beda) arau <kbd>history</kbd> (riwayat).",
+	"apihelp-thank-example-1": "Kirimkan terima kasih untuk revisi <kbd>ID 456</kbd>, dengan sumber menjadi halaman perbedaannya"
+}

@@ -1,0 +1,28 @@
+{
+	"@metadata": {
+		"authors": [
+			"Amire80",
+			"מקף"
+		]
+	},
+	"editcheck-dialog-action-no": "לא",
+	"editcheck-dialog-action-yes": "כן",
+	"editcheck-dialog-addref-description": "{{GENDER:|עזור|עזרי}} לקוראים להבין מאיפה המידע הזה מגיע על־ידי הוספת הערת שוליים.",
+	"editcheck-dialog-addref-reject-question": "למה אינך {{GENDER:|מוסיף|מוסיפה}} ציטוט?",
+	"editcheck-dialog-addref-reject-description": "עורכים אחרים ישמחו לדעת למה החלטת לוותר על הערת שוליים.",
+	"editcheck-dialog-addref-reject-irrelevant": "לא נראה לי שהערות שוליים רלוונטיות לשינוי שאני עושה",
+	"editcheck-dialog-addref-reject-common-knowledge": "המידע שאני {{GENDER:|מוסיף|מוסיפה}} ידוע לכול",
+	"editcheck-dialog-addref-reject-uncertain": "אני לא {{GENDER:|בטוח|בטוחה}} איזו הערת שוליים להוסיף",
+	"editcheck-dialog-addref-reject-other": "סיבה אחרת",
+	"editcheck-dialog-addref-success-notify": "תודה על הוספת הערת שוליים!",
+	"editcheck-dialog-addref-title": "הוספת הערת שוליים",
+	"editcheck-dialog-title": "לפני הפרסום",
+	"tag-editcheck-reference-decline-common-knowledge": "מערכת בדיקת עריכה (הערות שוליים) – נדחה (ידוע לכול)",
+	"tag-editcheck-reference-decline-common-knowledge-description": "הערת שוליים שהוצעה דרך מערכת בדיקת עריכה נדחתה בשל היותה ידועה לכול",
+	"tag-editcheck-reference-decline-irrelevant": "מערכת בדיקת עריכה (הערות שוליים) – נדחה (לא רלוונטי)",
+	"tag-editcheck-reference-decline-irrelevant-description": "הערת שוליים שהוצעה דרך מערכת בדיקת עריכה נדחתה בשל היותה לא רלוונטית",
+	"tag-editcheck-reference-decline-other": "מערכת בדיקת עריכה (הערות שוליים) – נדחה (אחר)",
+	"tag-editcheck-reference-decline-other-description": "הערת שוליים שהוצעה דרך מערכת בדיקת עריכה נדחתה בשל סיבה שאינה רשומה",
+	"tag-editcheck-reference-decline-uncertain": "מערכת בדיקת עריכה (הערות שוליים) – נדחה (לא בטוח)",
+	"tag-editcheck-reference-decline-uncertain-description": "הערת שוליים שהוצעה דרך מערכת בדיקת עריכה נדחתה בשל היותה לא ודאית"
+}

@@ -1,0 +1,35 @@
+{
+	"@metadata": {
+		"authors": [
+			"Amire80",
+			"Bfpage",
+			"Boukman",
+			"Masterches",
+			"Tisave"
+		]
+	},
+	"categorytree": "Òganizasyon kategori yo",
+	"categorytree-legend": "Montre òganizasyon pou kategori a",
+	"categorytree-desc": "Gade [[Special:CategoryTree|òganizasyon kategori]] toutpandan l ap chanje.",
+	"categorytree-header": "Antre non yon kategori pou wè sa li genyen anndan li sou plizyè nivo.\nNote byen ke sa mande fonksyon avanse JavaScript ki rele AJAX.\nSi ou genyen yon ansyen navigatè entènèt, oubyen JavaScript pa aktive, li pap mache.",
+	"categorytree-category": "Kategori:",
+	"categorytree-go": "Montre òganizasyon sou plizyè nivo",
+	"categorytree-parents": "kategori ki gen pi wo nivo",
+	"categorytree-mode-categories": "kategori yo sèlman",
+	"categorytree-mode-pages": "paj yo (pa gen imaj yo)",
+	"categorytree-mode-all": "tout paj yo",
+	"categorytree-collapse": "redui",
+	"categorytree-expand": "etann",
+	"categorytree-member-counts": "Gen {{PLURAL:$1|1 subcategory|$1 subcategories}},{{PLURAL:$2|1 page|$2 pages}},ak {{PLURAL:$3|1 file|$3 files}}",
+	"categorytree-num-categories": "$1 C",
+	"categorytree-num-pages": "$1 P",
+	"categorytree-num-files": "$1 F",
+	"categorytree-load": "Chaje",
+	"categorytree-loading": "ap chaje...",
+	"categorytree-nothing-found": "nou pa jwenn anyen",
+	"categorytree-no-subcategories": "kategori sa pa gen pitit, pa gen kategori pi ba.",
+	"categorytree-no-pages": "pa gen paj oubyen kategori ki pi ba",
+	"categorytree-not-found": "Nou pa twouve kategori <i>$1</i>",
+	"categorytree-error": "Pwoblèm lè nou tap chaje, ouvri done yo.",
+	"categorytree-retry": "Tanpri, tann yon moman epi eseye ankò."
+}

@@ -1,0 +1,29 @@
+{
+	"@metadata": {
+		"authors": [
+			"Jnanaranjan Sahu",
+			"Psubhashish"
+		]
+	},
+	"thanks-thank": "{{GENDER:$1|{{GENDER:$2|ସାଧୁବାଦ ଦେବେ}}}}",
+	"thanks-thanked": "{{GENDER:$1|{{GENDER:$2|ସାଧୁବାଦ ଦେଲେ}}}}",
+	"thanks-button-thank": "{{GENDER:$1|{{GENDER:$2|ସାଧୁବାଦ}}}}",
+	"thanks-button-thanked": "{{GENDER:$1|{{GENDER:$2|ସାଧୁବାଦ ଦେଲେ}}}}",
+	"thanks-button-action-queued": "{{GENDER:$1|{{GENDER:$2|ସାଧୁବାଦ ଦେଉଛି}}}} $1…",
+	"thanks-button-action-cancel": "ନାକଚ",
+	"thanks-button-action-completed": "ଆପଣ $1ଙ୍କୁ {{GENDER:$1|{{GENDER:$2|ସାଧୁବାଦ ଦେଲେ}}}}",
+	"thanks-error-invalid-log-id": "ଇତିହାସ ମିଳିଲା ନାହିଁ",
+	"thanks-thank-tooltip": "{{GENDER:$2|user}}ଙ୍କୁ ଏକ ସାଧୁବାଦ ସୂଚନା {{GENDER:$1|ପଠାନ୍ତୁ}}",
+	"thanks-confirmation2": "ସାଧାରଣରେ ସାଧୁବାଦ {{GENDER:$1|ଜଣାଇବେ}}?",
+	"thanks-thanked-notice": "{{GENDER:$3|ଆପଣ}} {{GENDER:$2|$1}}ଙ୍କୁ ସାଧୁବାଦ ଦେଲେ ।",
+	"thanks": "ସାଧୁବାଦ ଜଣାନ୍ତୁ",
+	"thanks-submit": "ସାଧୁବାଦ ଜଣାନ୍ତୁ",
+	"echo-category-title-edit-thank": "ସାଧୁବାଦ",
+	"notification-header-rev-thank": "<strong>$3</strong>ରେ ଆପଣଙ୍କ ସମ୍ପାଦନା ପାଇଁ {{GENDER:$4|ଆପଣଙ୍କୁ}} $1 {{GENDER:$2|ସାଧୁବାଦ ଦେଲେ}} ।",
+	"notification-header-creation-thank": "$1 <strong>$3</strong> ତିଆରି କରିବା ସକାଶେ {{GENDER:$4|ଆପଣଙ୍କୁ}} {{GENDER:$2|ସାଧୁବାଦ ଦେଲେ}} ।",
+	"log-description-thanks": "ବାକି ବ୍ୟବହାରକାରୀଙ୍କ ଦ୍ୱାରା ସାଧୁବାଦ ପାଇଥିବା ସଭ୍ୟଙ୍କ ତାଲିକା ।",
+	"logentry-thanks-thank": "$1 {{GENDER:$2|ସାଧୁବାଦ ଦେଲେ}} {{GENDER:$4|$3}}",
+	"flow-thanks-confirmation-special": "ଏହି ମତ ପାଇଁ ସାଧାରଣରେ ସାଧୁବାଦ ଜଣାଇବେ?",
+	"flow-thanks-thanked-notice": "{{GENDER:$3|ଆପଣ}} $1ଙ୍କୁ for {{GENDER:$2|ତାଙ୍କ|ତାଙ୍କ|ତାଙ୍କ}} ମତ ପାଇଁ ସାଧୁବାଦ ଦେଲେ ।",
+	"ipb-action-thanks": "ସାଧୁବାଦ ଜଣାଉଛି"
+}

@@ -1,0 +1,37 @@
+{
+	"@metadata": {
+		"authors": [
+			"94rain",
+			"Cwlin0416",
+			"Eflyjason",
+			"Kly",
+			"LNDDYL",
+			"Liuxinyu970226",
+			"Wehwei",
+			"Winston Sung"
+		]
+	},
+	"skinname-timeless": "Timeless",
+	"timeless-desc": "Timeless 外觀是 Brandon Harris 繼 Winter 外觀的原型所設計的，其中的各種樣式來自維基媒體基金會",
+	"timeless-anonymous": "匿名",
+	"timeless-loggedinas": "以 '''$1''' 登入。",
+	"timeless-notloggedin": "尚未登入",
+	"timeless-userpage": "{{GENDER:$1|使用者}}頁面",
+	"timeless-talkpage": "{{GENDER:$1|使用者}}討論",
+	"timeless-pagelog": "頁面日誌",
+	"timeless-more": "更多",
+	"timeless-sitetools": "wiki工具",
+	"timeless-pageactions": "頁面工具",
+	"timeless-userpagetools": "使用者頁面工具",
+	"timeless-action-addsection": "新增話題",
+	"timeless-view-view": "閱讀",
+	"timeless-pagemisc": "更多",
+	"timeless-namespaces": "命名空間",
+	"timeless-pagetools": "頁面操作",
+	"timeless-languages": "語言",
+	"timeless-projects": "其它專案",
+	"timeless.css": "/* 此處所有的 CSS 都會在使用者使用 Timeless 外觀時載入 */",
+	"timeless.js": "/* 此處所有的 JavaScript 都會在使用者使用 Timeless 外觀時載入 */",
+	"timeless-view-history": "歷史",
+	"timeless-action-undelete": "取消刪除 {{PLURAL:$1|1|$1}} 個編輯"
+}

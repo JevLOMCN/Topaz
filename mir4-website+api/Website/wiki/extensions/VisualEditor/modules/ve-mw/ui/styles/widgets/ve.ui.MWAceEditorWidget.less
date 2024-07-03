@@ -1,0 +1,43 @@
+/*!
+ * VisualEditor MediaWiki UserInterface MWAceEditorWidget styles.
+ *
+ * @copyright See AUTHORS.txt
+ * @license The MIT License (MIT); see LICENSE.txt
+ */
+
+/* stylelint-disable selector-class-pattern */
+
+.ve-ui-mwAceEditorWidget {
+	.ace_editor {
+		border: 1px solid #c8ccd1;
+		margin: 1px;
+		/* Support: Blink, Gecko, Webkit */
+		/* Specify a valid second value to fix size, see T176636 */
+		font-family: monospace, monospace;
+		font-size: inherit;
+		line-height: 1.5;
+		/* Allow tooptip outside of editor */
+		overflow: visible;
+	}
+
+	.ace_tooltip {
+		/* Make tooltip into status bar, as position is broken in Ace */
+		top: auto !important; /* stylelint-disable-line declaration-no-important */
+		bottom: -23px !important; /* stylelint-disable-line declaration-no-important */
+		left: 0 !important; /* stylelint-disable-line declaration-no-important */
+		white-space: pre-wrap;
+		position: absolute;
+	}
+
+	.ace_focus {
+		/* TODO: Move to mediawiki theme only */
+		border-color: #36c;
+		/* HACK: Make border grow out as inset doesn't overlap absolute positioned children */
+		border-width: 2px;
+		margin: 0;
+	}
+
+	&.oo-ui-widget-enabled.oo-ui-flaggedElement-invalid .ace_editor {
+		border-color: #b32424;
+	}
+}

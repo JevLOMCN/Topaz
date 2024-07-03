@@ -1,0 +1,59 @@
+/*!
+ * VisualEditor Surface styles.
+ *
+ * @copyright See AUTHORS.txt
+ */
+
+.ve-ui-surface {
+	position: relative;
+
+	&::after {
+		content: '.';
+		display: block;
+		clear: both;
+		visibility: hidden;
+		line-height: 0;
+		height: 0;
+	}
+
+	&-placeholder {
+		opacity: 0.33;
+		position: absolute;
+		left: 0;
+		right: 0;
+	}
+
+	&-placeholder,
+	.ve-ce-attachedRootNode {
+		/* Use an non-zero padding to disable margin collapse */
+		padding: 0.05px 0;
+	}
+
+	&-source-font {
+		/* Support: Blink, Gecko, Webkit */
+		/* Specify a valid second value to fix size, see T176636 */
+		font-family: monospace, monospace;
+	}
+
+	&-source {
+		.ve-ce-paragraphNode {
+			/* Clear paragraph margin/padding, regardless of specificity, so it looks more like a textarea */
+			/* stylelint-disable-next-line declaration-no-important */
+			margin: 0 !important;
+			/* stylelint-disable-next-line declaration-no-important */
+			padding: 0 !important;
+			word-wrap: break-word;
+			/* Support: Chrome<76, Firefox<69 */
+			/* Fallback for browsers which don't support break-spaces */
+			white-space: pre-wrap;
+			/* T348006 */
+			white-space: break-spaces;
+		}
+
+		.ve-ui-surface-placeholder,
+		.ve-ce-attachedRootNode {
+			-moz-tab-size: 4;
+			tab-size: 4;
+		}
+	}
+}

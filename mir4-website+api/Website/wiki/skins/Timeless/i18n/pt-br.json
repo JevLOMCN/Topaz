@@ -1,0 +1,33 @@
+{
+	"@metadata": {
+		"authors": [
+			"Eduardo Addad de Oliveira",
+			"Eduardoaddad",
+			"Felipe L. Ewald",
+			"Jaideraf"
+		]
+	},
+	"skinname-timeless": "Timeless",
+	"timeless-desc": "Um tema timeless projetado após o protótipo Winter por Brandon Harris e vários estilos pela Fundação Wikimedia",
+	"timeless-anonymous": "Anônimo",
+	"timeless-loggedinas": "Autenticado como '''$1'''",
+	"timeless-notloggedin": "Você não está autenticado",
+	"timeless-userpage": "Página de {{GENDER:$1|usuário}}",
+	"timeless-talkpage": "{{GENDER:$1|Usuário}} discussão",
+	"timeless-pagelog": "Registos da página",
+	"timeless-more": "Mais",
+	"timeless-sitetools": "Ferramentas da wiki",
+	"timeless-pageactions": "Ferramentas de páginas",
+	"timeless-userpagetools": "Ferramentas da página do usuário",
+	"timeless-action-addsection": "Novo tópico",
+	"timeless-view-view": "Ler",
+	"timeless-pagemisc": "Mais",
+	"timeless-namespaces": "Espaços nominais",
+	"timeless-pagetools": "Ações da página",
+	"timeless-languages": "Idiomas",
+	"timeless-projects": "Outros projetos",
+	"timeless.css": "/* Todo o CSS colocado aqui será carregado para os usuários do tema Timeless */",
+	"timeless.js": "/* Todo o JavaScript aqui será carregado para os usuários do tema Timeless */",
+	"timeless-view-history": "Histórico",
+	"timeless-action-undelete": "Restaurar {{PLURAL:$1|uma edição|$1 edições}}"
+}

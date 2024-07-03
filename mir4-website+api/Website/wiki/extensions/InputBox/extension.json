@@ -1,0 +1,56 @@
+{
+	"name": "InputBox",
+	"version": "0.3.0",
+	"author": [
+		"Erik Moeller",
+		"Leonardo Pimenta",
+		"Rob Church",
+		"Trevor Parscal",
+		"DaSch"
+	],
+	"url": "https://www.mediawiki.org/wiki/Extension:InputBox",
+	"descriptionmsg": "inputbox-desc",
+	"requires": {
+		"MediaWiki": ">= 1.42"
+	},
+	"license-name": "MIT",
+	"type": "parserhook",
+	"MessagesDirs": {
+		"InputBox": [
+			"i18n"
+		]
+	},
+	"AutoloadNamespaces": {
+		"MediaWiki\\Extension\\InputBox\\": "includes/"
+	},
+	"ResourceModules": {
+		"ext.inputBox.styles": {
+			"styles": {
+				"ext.inputBox.styles.less": {
+					"media": "screen"
+				},
+				"ext.inputBox.print.less": {
+					"media": "print"
+				}
+			}
+		}
+	},
+	"ResourceFileModulePaths": {
+		"localBasePath": "resources",
+		"remoteExtPath": "InputBox/resources"
+	},
+	"Hooks": {
+		"ParserFirstCallInit": "main",
+		"MediaWikiPerformAction": "main",
+		"SpecialPageBeforeExecute": "main"
+	},
+	"HookHandlers": {
+		"main": {
+			"class": "MediaWiki\\Extension\\InputBox\\InputBoxHooks",
+			"services": [
+				"MainConfig"
+			]
+		}
+	},
+	"manifest_version": 2
+}

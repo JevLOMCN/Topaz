@@ -1,0 +1,35 @@
+/*!
+ * Styling for Special:Version
+ */
+.mw-version-ext-name,
+.mw-version-library-name {
+	font-weight: bold;
+}
+
+.mw-version-ext-license,
+.mw-version-ext-vcs-timestamp {
+	white-space: nowrap;
+}
+
+th.mw-version-ext-col-label {
+	font-size: 0.9em;
+}
+
+.mw-version-credits {
+	column-width: 18em;
+	-moz-column-width: 18em;
+	-webkit-column-width: 18em;
+}
+
+.mw-version-credits ul {
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+.mw-version-license-info strong {
+	font-weight: normal;
+}
+
+.mw-version-license-info em {
+	font-style: normal;
+}

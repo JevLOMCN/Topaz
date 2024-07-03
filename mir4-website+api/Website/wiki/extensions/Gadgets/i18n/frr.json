@@ -1,0 +1,23 @@
+{
+	"@metadata": {
+		"authors": [
+			"Murma174"
+		]
+	},
+	"gadgets-desc": "Brükern kön uun hör [[Special:Preferences#mw-prefsection-gadgets|iinstelangen]] enkelt [[Special:Gadgets|CSS- an JavaScript-halpers]] aktiwiare",
+	"prefs-gadgets": "Letj halpers",
+	"gadgets-prefstext": "Diar stun enkelt letj halpers, diar arke brüker aktiwiare koon. Jo san miast uun JavaScript skrewen, an diaram kön jo bluas werke, wan JavaScript uun a browser aktiif as. Üüb detheer spezial-sidj werke jo oober ei.\n\nJodiar letj halpers san nään dial faan MediaWiki an wurd miast faan enkelt brükern ütjspekeliaret. Administratooren kön jo letj halpers bewerke. Diarför jaft at [[MediaWiki:Gadgets-definition|definitjuunen]] an [[Special:Gadgets|beskriiwangen]]. Hüföl brükern jodial letj halpers nadge, stäänt uun't  [[Special:GadgetUsage|Letj halper statistik]].",
+	"special-gadgets": "Letj halpers",
+	"gadgetusage": "Statistik tu a brük faan 'Gadgets'",
+	"gadgets-title": "Letj halpers",
+	"gadgets-pagetext": "Diar stun letj halpers, diar uun det [[MediaWiki:Gadgets-definition|definitjuun]] fäästlaanj san an diar arke brüker uun sin [[Special:Preferences#mw-prefsection-gadgets|iinstelangen]] iinracht koon.\n\nAuer detheer sidj komst dü tu a MediaWiki-süsteemnoorachten mä en beskriiwang an di program-code.",
+	"gadgets-uses": "Tu brüken",
+	"gadgets-required-rights": "Diarför brükst dü {{PLURAL:$2|detdiar brükerrocht|jodiar brükerrochten}}:\n\n$1",
+	"gadgets-required-skins": "Koon mä {{PLURAL:$2|didiar skak|jodiar skaker}} brükt wurd: $1.",
+	"gadgets-default": "Det as faan began för arken aktiif.",
+	"gadgets-export": "Eksport",
+	"gadgets-export-title": "Eksport faan letj halpers",
+	"gadgets-not-found": "Letj halper \"$1\" ei fünjen.",
+	"gadgets-export-text": "Am di letj halper $1 tu eksportiarin, trak üüb „{{int:gadgets-export-download}}“ an seekre det datei üüb dan reegner. Do gung tu Spezial:Import üüb det wiki, huar di letj halper importiaret wurd skal an sjüür det datei huuch. Skriiw do noch didiar tekst üüb det sidj MediaWiki:Gadgets-definition:\n<pre>$2</pre>\nHuar dü det importiare wel, brükst dü jo nuadag brükerrochten tu importiarin an uk det brükerrocht, am MediaWiki-süsteemnoorachten tu bewerkin. An do skal natüürelk det importiarin uun detdiar wiki aktiwiaret wees.",
+	"gadgets-export-download": "Deelloose"
+}

@@ -1,0 +1,16 @@
+{
+	"@metadata": {
+		"authors": [
+			"Xuacu"
+		]
+	},
+	"apihelp-query+linterrors-summary": "Llogra la llista d'errores de lint",
+	"apihelp-query+linterrors-param-categories": "Categoríes d'errores de lint",
+	"apihelp-query+linterrors-param-limit": "Númberu de resultaos a consultar",
+	"apihelp-query+linterrors-param-from": "Id. de lint del que principiar una consulta",
+	"apihelp-query+linterrors-param-namespace": "Incluir solo los errores de lint de los espacios de nomes especificaos",
+	"apihelp-query+linterrors-param-pageid": "Incluir sólo los errores de lint de les IDs de páxina especificaos",
+	"apihelp-query+linterrors-example-1": "Llograr tolos errores de lint de la categoría «obsolete-tag»",
+	"apihelp-query+linterstats-summary": "Algamar el númberu d'errores de lint en cada categoría",
+	"apihelp-query+linterstats-example-1": "Algamar el númberu d'errores de lint en cada categoría"
+}

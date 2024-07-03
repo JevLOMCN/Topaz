@@ -1,0 +1,17 @@
+{
+	"@metadata": {
+		"authors": [
+			"Jon Harald Søby",
+			"Kghbln"
+		]
+	},
+	"renocaptcha-desc": "Ergänzt die Erweiterung „ConfirmEdit“ um ein reCAPTCHA-NoCAPTCHA-Modul",
+	"renocaptcha-edit": "For å beskytte wikien mot automatisk redigeringsspam ber vi deg å løse følgende CAPTCHA:",
+	"renocaptcha-addurl": "Redigeringen din inneholder nye eksterne lenker. For å beskytte wikien mot automatisk spam ber vi deg løse følgende CAPTCHA:",
+	"renocaptcha-badlogin": "For å beskytte wikien mot automatisk passordknekking ber vi deg løse følgende CAPTCHA:",
+	"renocaptcha-createaccount": "For å beskytte wikien mot automatisk kontooppretting ber vi deg løse følgende CAPTCHA:",
+	"renocaptcha-createaccount-fail": "Det ser ut til at du ikke løste CAPTCHA-en.",
+	"renocaptcha-create": "For å beskytte wikien mot automatisk sideoppretting ber vi deg løse følgende CAPTCHA:",
+	"renocaptcha-noscript": "Du har dessverre slått av JavaScript, så vi kan ikke automatisk oppdage om du er et menneske eller ikke. Løs CAPTCHA-en ovenfor og kopier den resulterende teksten i følgende tekstboks:",
+	"renocaptcha-help": "Løs en ReCaptcha NoCaptcha-oppgave og returner svarverdien som captchaWord."
+}

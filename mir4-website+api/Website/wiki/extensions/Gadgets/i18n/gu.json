@@ -1,0 +1,28 @@
+{
+	"@metadata": {
+		"authors": [
+			"CptViraj",
+			"Dsvyas",
+			"KartikMistry",
+			"Sushant savla"
+		]
+	},
+	"gadgets-desc": "સભ્યોને  [[Special:Preferences#mw-prefsection-gadgets|મારી પસંદ]] માં પોતાના [[Special:Gadgets|CSS અને JavaScript ગેજેટ્સ]]  પસંદ કરવા દે છે.",
+	"prefs-gadgets": "યંત્રો/સાધનો",
+	"gadgets-prefstext": "નીચે એવા વિશેષ સાધનોની યાદી નીચે આપી છે જે તમે તમારા ખાતામાં સક્રિય કરી શકો છો.\nઆ સાધનો મહદ્ અંશે જાવા સ્ક્રિપ્ટ આધારિત છે માટે તે યોગ્ય રીતે કામ કરે તે માટે આપના બ્રાઉઝરમાં જાવા સ્ક્રિપ્ટ સક્રિય (ઍનેબલ) કરેલી હોવી જરૂરી છે.\nએ બાબત નોંધમાં લેશો કે આ સાધનોની અસર તમારા 'મારી પસંદ'ના પાના ઉપર થશે નહી.\n\nએ વાત પણ ધ્યાનમાં રાખશો કે આ વિશેષ સાધનો મિડિયાવિકિ સૉફ્ટવેરનો ભાગ નથી, સામાન્ય રીતે તે આપના સ્થાનીક વિકિના સભ્યો દ્વારા વિકસાવવામાં આવ્યા હોય છે અને તેઓજ તેનું ધ્યાન રાખે છે. સ્થાનિક પ્રબંધકો [[MediaWiki:Gadgets-definition|વ્યાખ્યા]] અને [[Special:Gadgets|વર્ણન]]નો ઉપયોગ કરીને આ સાધનોમાં ફેરફાર કરી શકે છે.",
+	"special-gadgets": "યંત્રો/સાધનો",
+	"gadgetusage-gadget": "સાધન",
+	"gadgetusage-activeusers": "સક્રિય વપરાશકર્તાઓ",
+	"gadgetusage-default": "મૂળભૂત",
+	"gadgets-title": "યંત્રો/સાધનો",
+	"gadgets-pagetext": "નીચે એવા વિશેષ સાધનોની યાદી આપી છે જેમાથી જરૂરીયાત પ્રમાણેના સાધનો સભ્ય તેમના [[Special:Preferences#mw-prefsection-gadgets|મારી પસંદ]] પાના ઉપર સક્રિય કરી શકે છે ([[MediaWiki:Gadgets-definition|વ્યાખ્યા]]મા વર્ણવ્યા મુજબ).\n\nઆ નિરિક્ષણથી સહેલાઇથી સિસ્ટમ સંદેશા વાળા પાના ખોલી શકશો જ્યાં દરેક સાધનનું વર્ણન અને તેનો કોડ આપેલો છે.",
+	"gadgets-uses": "ઉપયોગો",
+	"gadgets-required-rights": "નીચેના {{PLURAL:$2|હક્ક|હક્કો}} જરૂરી:\n\n$1",
+	"gadgets-required-skins": "{{PLURAL:$2|$1 ત્વચા|નીચેની ત્વચા: $1}} માં મોજૂદ.",
+	"gadgets-default": "મૂળ થકી સૌ માટે સક્રીય કરો",
+	"gadgets-export": "નિકાસ",
+	"gadgets-export-title": "સાધન નિકાસ",
+	"gadgets-not-found": "સાધન જૂથ \"$1\" ન મળ્યું.",
+	"gadgets-export-text": "$1 યંત્રને નિકાસિત કરવા, \"{{int:gadgets-export-download}}\" બટન પર ક્લિક કરો, અને કાઉનલોડ કરેલી ફાઈલ સાચવો,\nSpecial:Import નિયોજીત વિકિ પર Special:Import પર જાવ અને અપલોડ કરો. અને પછી નીચેનાને MediaWiki:Gadgets-definition page પર ઉમેરો:\n<pre>$2</pre>\nનોયોજિત વિકિ પર તમને યોગ્ય પરવાનગીઓ હોવી જોઈએ (સિસ્ટમ સંદેશામાં ફેરફાર કરવા સહિતની) અને ફાઈલ અપલોડ માં આયત વિકલ્પ સક્રીય હોવો જોઇએ",
+	"gadgets-export-download": "ડાઉનલોડ"
+}

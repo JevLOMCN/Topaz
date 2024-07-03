@@ -1,0 +1,31 @@
+These is the install file for the Nuke extension.
+
+Extension page on mediawiki.org: https://www.mediawiki.org/wiki/Extension:Nuke
+Latest version of the install file: https://gerrit.wikimedia.org/r/gitweb?p=mediawiki/extensions/Nuke.git;a=blob;f=INSTALL
+
+
+== Requirements ==
+
+Nuke requires:
+
+* MediaWiki 1.18 or above
+
+== Download ==
+
+You can get the code directly from Git.
+
+ git clone https://gerrit.wikimedia.org/r/p/mediawiki/extensions/Nuke.git
+
+Old tags can be obtained via SVN:
+
+ svn checkout http://svn.wikimedia.org/svnroot/mediawiki/tags/extensions/Nuke/REL_version
+
+Where 'version' is the version number of the tag, such as 0_1 (see the available tags at http://svn.wikimedia.org/svnroot/mediawiki/tags/extensions/Nuke/).
+
+== Installation ==
+
+Once you have downloaded the code, place the ''Nuke'' directory within your MediaWiki
+'extensions' directory. Then add the following code to your [[Manual:LocalSettings.php|LocalSettings.php]] file:
+
+# Nuke
+wfLoadExtension( 'Nuke' );

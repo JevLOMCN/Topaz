@@ -1,0 +1,32 @@
+[
+	{
+		"path": "/{domain}/v3/page/{format}/{title}",
+		"class": "MWParsoid\\Rest\\Handler\\PageHandler",
+		"factory": "MWParsoid\\Rest\\Handler\\PageHandler::factory",
+		"method": "GET"
+	},
+	{
+		"path": "/{domain}/v3/page/{format}/{title}/{revision}",
+		"class": "MWParsoid\\Rest\\Handler\\PageHandler",
+		"factory": "MWParsoid\\Rest\\Handler\\PageHandler::factory",
+		"method": "GET"
+	},
+	{
+		"path": "/{domain}/v3/transform/{from}/to/{format}",
+		"class": "MWParsoid\\Rest\\Handler\\TransformHandler",
+		"factory": "MWParsoid\\Rest\\Handler\\TransformHandler::factory",
+		"method": "POST"
+	},
+	{
+		"path": "/{domain}/v3/transform/{from}/to/{format}/{title}",
+		"class": "MWParsoid\\Rest\\Handler\\TransformHandler",
+		"factory": "MWParsoid\\Rest\\Handler\\TransformHandler::factory",
+		"method": "POST"
+	},
+	{
+		"path": "/{domain}/v3/transform/{from}/to/{format}/{title}/{revision}",
+		"class": "MWParsoid\\Rest\\Handler\\TransformHandler",
+		"factory": "MWParsoid\\Rest\\Handler\\TransformHandler::factory",
+		"method": "POST"
+	}
+]

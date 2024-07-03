@@ -1,0 +1,16 @@
+{
+	"@metadata": {
+		"authors": [
+			"ArenaL5",
+			"Elisardojm",
+			"Reedy"
+		]
+	},
+	"apihelp-query+oath-summary": "Verificar se a autenticación en dous factores (OATH) está activa para un usuario.",
+	"apihelp-query+oath-param-user": "Usuario do que obter a información. Por defecto é o usuario actual.",
+	"apihelp-query+oath-example-1": "Obter información sobre o usuario actual",
+	"apihelp-query+oath-example-2": "Obter información sobre o usuario <kbd>Exemplo</kbd>",
+	"apihelp-oathvalidate-summary": "Validar un pase de autenticación en dous factores (OATH)",
+	"apihelp-oathvalidate-param-user": "Usuario ó que validar o pase. Por defecto, o usuario actual.",
+	"apihelp-oathvalidate-example-1": "Validar un pase para o usuario actual"
+}

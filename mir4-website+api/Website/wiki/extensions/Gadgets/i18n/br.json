@@ -1,0 +1,29 @@
+{
+	"@metadata": {
+		"authors": [
+			"Adriendelucca",
+			"Fulup",
+			"Gwendal",
+			"Huñvreüs",
+			"Y-M D"
+		]
+	},
+	"gadgets-desc": "Leuskel a ra an implijerien da bersonelaat [[Special:Gadgets|bitrakoù CSS ha JavaScript]] en o [[Special:Preferences#mw-prefsection-gadgets|fenndibaboù]]",
+	"prefs-gadgets": "Bitrakoù",
+	"prefs-description-gadgets": "Gweredekaat muioc’h a arc’hweladurioù evit ho kont.",
+	"gadgets-prefstext": "A-is ez eus ur roll eus ar bitrakoù a c'hallit gweredekaat evit ho kont.\nEvit ar pep brasañ eo diazezet ar bitrakoù-se war JavaScript, setu ma rank JavaScript bezañ gweredekaet war ho merdeer evit ma'z afent en-dro.\nNotennit mat ne vo efed ebet gant ar bitrakoù-se war ar bajenn penndibaboù-mañ.\n\nNotennit ivez n'eus ket eus ar bitrakoù-se tammoù eus meziant MediaWiki; peurliesañ ez int diorroet ha trezalc'het gant implijerien war ho wiki lec'hel.\nGallout a ra ar verourien lec'hel degas cheñchamantoù er bitrakoù en ur ober gant an [[MediaWiki:Gadgets-definition|termenadurioù]] hag an [[Special:Gadgets|deskrivadurioù]].",
+	"special-gadgets": "Bitrakoù",
+	"gadgetusage-usercount": "Niver a implijerien",
+	"gadgets-title": "Bitrakoù",
+	"gadgets-pagetext": "A-is ez eus ur roll eus ar bitrakoù a c'hall bezañ gweredekaet gant an implijerien war o fajenn [[Special:Preferences#mw-prefsection-gadgets|penndibaboù]], evel m'eo termenet en [[MediaWiki:Gadgets-definition|termenadurioù]].\nAr sell hollek-mañ a bourchas ur moned aes d'ar pajennoù kemennadennoù reizhiad a dermen deskrivadur ha kod pep bitrak.",
+	"gadgets-editdescription": "Kemmañ an deskrivadur",
+	"gadgets-uses": "A implij",
+	"gadgets-required-rights": "Ret eo kaout an {{PLURAL:$2|aotre|aotreoù}} da-heul: $1.",
+	"gadgets-required-skins": "Hegerz gant ar {{PLURAL:$2|gwiskadur $1|gwiskadurioù da-heul : $1}}.",
+	"gadgets-default": "Gweredekaet dre ziouer evit an holl.",
+	"gadgets-export": "Ezporzhiañ",
+	"gadgets-export-title": "Ezporzhiañ bitrakoù",
+	"gadgets-not-found": "N'eo ket bet kavet ar bitrak \"$1\".",
+	"gadgets-export-text": "Evit ezporzhiañ ar bitrak $1, klikañ war ar bouton \"{{int:gadgets-export-download}}\", enrollañ ar restr pellgarget,\nmont d'ar bajenn Dibar :Enporzh ar wiki tal hag enporzhiañ. Goude-se ouzhpennañ an destenn da-heul e pajenn MediaWiki:Gadgets-definition :\n<pre>$2</pre>\nRankout a rit kaout ar gwirioù a zere war ar wiki tal (en o zouez ar gwir da zegas kemmoù er c'hemennadennoù reizhiad) ha ret eo d'an enporzhiañ adalek restroù bezañ gweredekaet.",
+	"gadgets-export-download": "Pellgargañ"
+}

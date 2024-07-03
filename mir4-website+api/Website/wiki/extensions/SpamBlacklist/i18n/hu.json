@@ -1,0 +1,25 @@
+{
+	"@metadata": {
+		"authors": [
+			"Dani",
+			"Dj",
+			"Samat",
+			"TK-999",
+			"Tacsipacsi"
+		]
+	},
+	"spam-blacklist": " #<!-- ezen a soron ne változtass --> <pre>\n# A lista elemeire illeszkedő külső hivatkozások blokkolva lesznek\n# A lista csak erre a wikire vonatkozik; a globális feketelistába is tedd bele.\n# Dokumentációhoz lásd a https://www.mediawiki.org/wiki/Extension:SpamBlacklist oldalt (angolul)\n#\n# A szintaktika a következő:\n#  * Minden a „#” karaktertől a sor végéig megjegyzésnek számít\n#  * Minden nem üres sor egy reguláris kifejezés darabja, amely csak az URL-ekben található kiszolgálókra illeszkedik\n #</pre> <!-- ezen a soron ne változtass -->",
+	"spam-whitelist": " #<!-- ezen a soron ne változtass --> <pre>\n# A lista elemeire illeszkedő külső hivatkozások *nem* lesznek blokkolva, még\n# akkor sem, ha illeszkedik egy feketelistás elemre.\n#\n# A szintaktika a következő:\n#  * Minden a „#” karaktertől a sor végéig megjegyzésnek számít\n#  * Minden nem üres sor egy reguláris kifejezés darabja, amely csak az URL-ekben található kiszolgálókra illeszkedik\n\n #</pre> <!-- ezen a soron ne változtass -->",
+	"email-blacklist": " #<!-- ezen a soron ne változtass --> <pre>\n# A lista elemeire illeszkedő e-mail-címek blokkolva lesznek a regisztrációnál és e-mail-küldésnél.\n# A lista csak erre a wikire vonatkozik; a globális feketelistába is tedd bele.\n# Dokumentációhoz lásd a https://www.mediawiki.org/wiki/Extension:SpamBlacklist oldalt (angolul)\n#\n# A szintaktika a következő:\n# * Minden a „#” karaktertől a sor végéig megjegyzésnek számít\n# * Minden nem üres sor egy reguláris kifejezés darabja, amely csak az e-mail-címekben található kiszolgálókra illeszkedik\n\n #</pre> <!-- ezen a soron ne változtass -->",
+	"email-whitelist": " #<!-- ezen a soron ne változtass --> <pre>\n# A lista elemeire illeszkedő e-mail-címek *nem* lesznek blokkolva, még\n# akkor sem, ha illeszkedik egy feketelistás elemre.\n#\n# A szintaktika a következő:\n#  * Minden a „#” karaktertől a sor végéig megjegyzésnek számít\n#  * Minden nem üres sor egy reguláris kifejezés darabja, amely csak az e-mail-címekben található kiszolgálókra illeszkedik\n\n #</pre> <!-- ezen a soron ne változtass -->",
+	"spam-blacklisted-email": "Letiltott e-mail-cím",
+	"spam-blacklisted-email-text": "Az e-mail-címedről jelenleg nem lehet levelet küldeni más felhasználóknak.",
+	"spam-blacklisted-email-signup": "A megadott e-mail-cím jelenleg feketelistán van és nem lehet használni.",
+	"spam-invalid-lines": "Az alábbi {{PLURAL:$1|sor hibás|sorok hibásak}} a spam elleni feketelistában; {{PLURAL:$1|javítsd|javítsd őket}} mentés előtt:",
+	"spam-blacklist-desc": "Reguláris kifejezésekkel működő spamellenes eszköz lapokon található URL-ek és regisztrált felhasználók e-mail-címeinek feketelistázásához.",
+	"log-name-spamblacklist": "Spamfeketelista naplója",
+	"log-description-spamblacklist": "Ezek az események nyomon követik, amikor valaki belefutott a spamfeketelistába.",
+	"logentry-spamblacklist-hit": "{{GENDER:$2|$1}} belefutott a spamfeketelistába a(z) $3 lapon a(z) $4 URL-lel.",
+	"right-spamblacklistlog": "címek feketelista-naplójának megtekintése",
+	"action-spamblacklistlog": "spamfeketelista megtekintése"
+}

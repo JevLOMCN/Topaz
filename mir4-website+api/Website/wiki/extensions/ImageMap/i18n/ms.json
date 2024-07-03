@@ -1,0 +1,23 @@
+{
+	"@metadata": {
+		"authors": [
+			"Anakmalaysia",
+			"Aviator",
+			"Kurniasan",
+			"Tofeiku"
+		]
+	},
+	"imagemap_desc": "Membenarkan peta imej boleh klik menggunakan tag <code>&lt;imagemap&gt;</code>",
+	"imagemap_no_image": "Ralat: sila nyatakan imej dalam baris pertama",
+	"imagemap_invalid_image": "Imej: imej tidak sah atau tidak wujud",
+	"imagemap_bad_image": "Ralat: Imej tidak dibenarkan di laman ini",
+	"imagemap_no_link": "Ralat: tiada pautan sah dijumpai pada akhir baris $1",
+	"imagemap_invalid_title": "Ralat: tajuk tidak sah dalam pautan pada baris $1",
+	"imagemap_missing_coord": "Ralat: koordinat bagi bentuk tidak cukup pada baris $1",
+	"imagemap_unrecognised_shape": "Ralat: bentuk tidak dikenali pada baris $1, setiap baris hendaklah dimulakan dengan salah satu daripada: <code>default</code>, <code>rect</code>, <code>circle</code> atau <code>poly</code>",
+	"imagemap_invalid_coord": "Ralat: koordinat tidak sah pada baris $1, hanya nombor dibenarkan",
+	"imagemap_invalid_desc": "Ralat: spesifikasi keterangan tidak sah, hendaklah salah satu daripada: <code>$1</code>",
+	"imagemap_description": "Perihal imej ini",
+	"imagemap_desc_types": "atas-kanan, bawah-kanan, bawah-kiri, atas-kiri, tiada",
+	"imagemap_poly_odd": "Ralat: terdapat poligon dengan bilangan koordinat yang ganjil dalam baris $1"
+}

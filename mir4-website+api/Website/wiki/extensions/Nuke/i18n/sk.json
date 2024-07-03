@@ -1,0 +1,34 @@
+{
+	"@metadata": {
+		"authors": [
+			"Helix84",
+			"Luky001",
+			"Teslaton",
+			"Vlad5250"
+		]
+	},
+	"nuke": "Hromadné mazanie",
+	"action-nuke": "hromadne mazať stránky",
+	"nuke-desc": "Dáva správcom možnosť [[Special:Nuke|hromadného mazania]] stránok",
+	"nuke-nopages": "V posledných úpravách sa nenachádzajú žiadne nové stránky od {{GENDER:$1|používateľa|používateľky}} [[Special:Contributions/$1|$1]].",
+	"nuke-list": "[[Special:Contributions/$1|$1]] nedávno {{GENDER:$1|vytvoril|vytvorila}} nasledovné nové stránky; vyplňte komentár a kliknutím na tlačidlo ich vymažte.",
+	"nuke-list-multiple": "Tieto stránky boli nedávno vytvorené;\nvložením komentára a stlačením tlačidla ich môžete zmazať.",
+	"nuke-defaultreason": "Hromadné zmazanie stránok, ktoré {{GENDER:$1|vytvoril|vytvorila}} [[Special:Contributions/$1|$1]]",
+	"nuke-multiplepeople": "Hromadné zmazanie nedávno založených stránok",
+	"nuke-tools": "Tento nástroj umožňuje hromadné odstránenie stránok, ktoré nedávno pridal zadaný používateľ alebo IP.\nZadajte používateľa alebo IP a dostanete zoznam stránok na zmazanie. Ponechajte prázdne a použije sa na všetkých používateľov.",
+	"nuke-submit-user": "Vypísať stránky",
+	"nuke-submit-delete": "Zmazať vybrané",
+	"right-nuke": "Hromadné mazanie stránok",
+	"nuke-userorip": "Používateľské meno, IP adresa alebo prázdne:",
+	"nuke-maxpages": "Maximálny počet stránok:",
+	"nuke-editby": "{{GENDER:$1|Vytvoril|Vytvorila}} [[Special:Contributions/$1|$1]]",
+	"nuke-deleted": "Stránka '''$1''' bola zmazaná.",
+	"nuke-not-deleted": "Stránka [[:$1]] '''nemohla byť''' zmazaná.",
+	"nuke-delete-more": "[[Special:Nuke|Odstrániť ďalšie stránky]]",
+	"nuke-pattern": "SQL LIKE vzor (napr. %) pre názov stránky:",
+	"nuke-nopages-global": "Vášmu vyhľadávaniu nezodpovedajú žiadne názvy stránok.",
+	"nuke-viewchanges": "zobraziť zmeny",
+	"nuke-namespace": "Obmedziť na menný priestor:",
+	"nuke-linkoncontribs": "hromadné mazanie",
+	"nuke-linkoncontribs-text": "Hromadne zmazať stránky, ktorých je {{GENDER:$1|tento používateľ|táto používateľka}} {{GENDER:$1|jediným autorom|jedinou autorkou}}"
+}

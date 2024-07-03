@@ -1,0 +1,282 @@
+[
+	{
+		"name": "plwiki oldparser",
+		"title": "Wikipedia:Kawiarenka/Artykuły dyskusja/Archiwum/2018-październik",
+		"dom": "cases/pl-big-oldparser/pl-big-oldparser.html",
+		"expected": "../cases/pl-big-oldparser/pl-big-oldparser.json",
+		"config": "../data/plwiki-config.json",
+		"data": "../data/plwiki-data.json"
+	},
+	{
+		"name": "plwiki parsoid",
+		"title": "Wikipedia:Kawiarenka/Artykuły dyskusja/Archiwum/2018-październik",
+		"dom": "cases/pl-big-parsoid/pl-big-parsoid.html",
+		"expected": "../cases/pl-big-parsoid/pl-big-parsoid.json",
+		"config": "../data/plwiki-config.json",
+		"data": "../data/plwiki-data.json"
+	},
+	{
+		"name": "enwiki oldparser",
+		"title": "Wikipedia:Village pump (technical)/Archive 175",
+		"dom": "cases/en-big-oldparser/en-big-oldparser.html",
+		"expected": "../cases/en-big-oldparser/en-big-oldparser.json",
+		"config": "../data/enwiki-config.json",
+		"data": "../data/enwiki-data.json"
+	},
+	{
+		"name": "enwiki parsoid",
+		"title": "Wikipedia:Village pump (technical)/Archive 175",
+		"dom": "cases/en-big-parsoid/en-big-parsoid.html",
+		"expected": "../cases/en-big-parsoid/en-big-parsoid.json",
+		"config": "../data/enwiki-config.json",
+		"data": "../data/enwiki-data.json"
+	},
+	{
+		"name": "ckbwiki oldparser",
+		"title": "ویکیپیدیا:دیوەخان (پێشنیارەکان)",
+		"dom": "cases/ckb-big-oldparser/ckb-big-oldparser.html",
+		"expected": "../cases/ckb-big-oldparser/ckb-big-oldparser.json",
+		"config": "../data/ckbwiki-config.json",
+		"data": "../data/ckbwiki-data.json"
+	},
+	{
+		"name": "ckbwiki parsoid",
+		"title": "ویکیپیدیا:دیوەخان (پێشنیارەکان)",
+		"dom": "cases/ckb-big-parsoid/ckb-big-parsoid.html",
+		"expected": "../cases/ckb-big-parsoid/ckb-big-parsoid.json",
+		"config": "../data/ckbwiki-config.json",
+		"data": "../data/ckbwiki-data.json"
+	},
+	{
+		"name": "arwiki no-paragraph oldparser",
+		"title": "نقاش المستخدم:Khaled",
+		"dom": "cases/ar-no-paragraph-oldparser/ar-no-paragraph-oldparser.html",
+		"expected": "../cases/ar-no-paragraph-oldparser/ar-no-paragraph-oldparser.json",
+		"config": "../data/arwiki-config.json",
+		"data": "../data/arwiki-data.json"
+	},
+	{
+		"name": "arwiki no-paragraph parsoid",
+		"title": "نقاش المستخدم:Khaled",
+		"dom": "cases/ar-no-paragraph-parsoid/ar-no-paragraph-parsoid.html",
+		"expected": "../cases/ar-no-paragraph-parsoid/ar-no-paragraph-parsoid.json",
+		"config": "../data/arwiki-config.json",
+		"data": "../data/arwiki-data.json"
+	},
+	{
+		"name": "arwiki nbsp-timezone oldparser",
+		"title": "يكيبيديا:إخفاء أرقام الآي بي",
+		"dom": "cases/ar-nbsp-timezone-oldparser/ar-nbsp-timezone-oldparser.html",
+		"expected": "../cases/ar-nbsp-timezone-oldparser/ar-nbsp-timezone-oldparser.json",
+		"config": "../data/arwiki-config.json",
+		"data": "../data/arwiki-data.json"
+	},
+	{
+		"name": "arwiki nbsp-timezone parsoid",
+		"title": "يكيبيديا:إخفاء أرقام الآي بي",
+		"dom": "cases/ar-nbsp-timezone-parsoid/ar-nbsp-timezone-parsoid.html",
+		"expected": "../cases/ar-nbsp-timezone-parsoid/ar-nbsp-timezone-parsoid.json",
+		"config": "../data/arwiki-config.json",
+		"data": "../data/arwiki-data.json"
+	},
+	{
+		"name": "frwiki fr-unsigned oldparser",
+		"title": "Discussion:Le Monde",
+		"dom": "cases/fr-unsigned-oldparser/fr-unsigned-oldparser.html",
+		"expected": "../cases/fr-unsigned-oldparser/fr-unsigned-oldparser.json",
+		"config": "../data/frwiki-config.json",
+		"data": "../data/frwiki-data.json"
+	},
+	{
+		"name": "frwiki fr-unsigned parsoid",
+		"title": "Discussion:Le Monde",
+		"dom": "cases/fr-unsigned-parsoid/fr-unsigned-parsoid.html",
+		"expected": "../cases/fr-unsigned-parsoid/fr-unsigned-parsoid.json",
+		"config": "../data/frwiki-config.json",
+		"data": "../data/frwiki-data.json"
+	},
+	{
+		"name": "frwiki fr-invalid-date",
+		"title": "Wikipédia:Oracle/semaine 9 2006",
+		"dom": "cases/fr-invalid-date/fr-invalid-date.html",
+		"expected": "../cases/fr-invalid-date/fr-invalid-date.json",
+		"config": "../data/frwiki-config.json",
+		"data": "../data/frwiki-data.json"
+	},
+	{
+		"name": "itwiki it-unsigned oldparser",
+		"title": "Aiuto:Sportello informazioni",
+		"dom": "cases/it-unsigned-oldparser/it-unsigned-oldparser.html",
+		"expected": "../cases/it-unsigned-oldparser/it-unsigned-oldparser.json",
+		"config": "../data/itwiki-config.json",
+		"data": "../data/itwiki-data.json"
+	},
+	{
+		"name": "itwiki it-unsigned parsoid",
+		"title": "Aiuto:Sportello informazioni",
+		"dom": "cases/it-unsigned-parsoid/it-unsigned-parsoid.html",
+		"expected": "../cases/it-unsigned-parsoid/it-unsigned-parsoid.json",
+		"config": "../data/itwiki-config.json",
+		"data": "../data/itwiki-data.json"
+	},
+	{
+		"name": "srwiki sr-ec variant",
+		"title": "Википедија:Трг/Архива/Техника/35",
+		"dom": "cases/sr-ec/sr-ec.html",
+		"expected": "../cases/sr-ec/sr-ec.json",
+		"config": "../data/srwiki-config.json",
+		"data": "../data/srwiki-data.json"
+	},
+	{
+		"name": "srwiki sr-el variant",
+		"title": "Википедија:Trg/Arhiva/Tehnika/35",
+		"dom": "cases/sr-el/sr-el.html",
+		"expected": "../cases/sr-el/sr-el.json",
+		"config": "../data/srwiki-config.json",
+		"data": "../data/srwiki-data.json"
+	},
+	{
+		"name": "Accidental dt tags (old parser)",
+		"title": "Talk:T279445",
+		"dom": "cases/dt-tags-oldparser/dt-tags-oldparser.html",
+		"expected": "../cases/dt-tags-oldparser/dt-tags-oldparser.json",
+		"config": "../data/enwiki-config.json",
+		"data": "../data/enwiki-data.json"
+	},
+	{
+		"name": "Accidental dt tags (Parsoid)",
+		"title": "Talk:T279445",
+		"dom": "cases/dt-tags-parsoid/dt-tags-parsoid.html",
+		"expected": "../cases/dt-tags-parsoid/dt-tags-parsoid.json",
+		"config": "../data/enwiki-config.json",
+		"data": "../data/enwiki-data.json"
+	},
+	{
+		"name": "Single comment, heading",
+		"title": "Talk:Single comment",
+		"dom": "cases/single-comment-no-heading/single-comment-no-heading.html",
+		"expected": "../cases/single-comment-no-heading/single-comment-no-heading.json",
+		"config": "../data/enwiki-config.json",
+		"data": "../data/enwiki-data.json"
+	},
+	{
+		"name": "Single comment with heading",
+		"title": "Talk:Single comment",
+		"dom": "cases/single-comment-heading/single-comment-heading.html",
+		"expected": "../cases/single-comment-heading/single-comment-heading.json",
+		"config": "../data/enwiki-config.json",
+		"data": "../data/enwiki-data.json"
+	},
+	{
+		"name": "Manually added signature with LRM",
+		"title": "Overleg:Charlie_Chaplin",
+		"dom": "cases/lrm-signature/lrm-signature.html",
+		"expected": "../cases/lrm-signature/lrm-signature.json",
+		"config": "../data/nlwiki-config.json",
+		"data": "../data/nlwiki-data.json"
+	},
+	{
+		"name": "Signature which is just a selflink",
+		"title": "Dyskusja_wikipedysty:Ed",
+		"dom": "cases/selflink-signature/selflink-signature.html",
+		"expected": "../cases/selflink-signature/selflink-signature.json",
+		"config": "../data/plwiki-config.json",
+		"data": "../data/plwiki-data.json"
+	},
+	{
+		"name": "Comments inside references (old parser)",
+		"title": "Talk:T301213",
+		"dom": "cases/reflist-oldparser/reflist-oldparser.html",
+		"expected": "../cases/reflist-oldparser/reflist-oldparser.json",
+		"config": "../data/enwiki-config.json",
+		"data": "../data/enwiki-data.json"
+	},
+	{
+		"name": "Comments inside references (Parsoid)",
+		"title": "Talk:T301213",
+		"dom": "cases/reflist-parsoid/reflist-parsoid.html",
+		"expected": "../cases/reflist-parsoid/reflist-parsoid.json",
+		"config": "../data/enwiki-config.json",
+		"data": "../data/enwiki-data.json"
+	},
+	{
+		"name": "Link using fallback 8-bit encoding (invalid UTF-8)",
+		"title": "Wikipédia:Kocsmafal (műszaki)/Archív32",
+		"dom": "cases/fallback-encoding-link/fallback-encoding-link.html",
+		"expected": "../cases/fallback-encoding-link/fallback-encoding-link.json",
+		"config": "../data/huwiki-config.json",
+		"data": "../data/huwiki-data.json"
+	},
+	{
+		"name": "Fake headings using ';' syntax in wikitext (<dt> tags)",
+		"title": "Wikipedia:Propozycje do Artykułów na Medal/Apostoł Pawieł",
+		"dom": "cases/fake-headings/fake-headings.html",
+		"expected": "../cases/fake-headings/fake-headings.json",
+		"config": "../data/plwiki-config.json",
+		"data": "../data/plwiki-data.json"
+	},
+	{
+		"name": "tracked template",
+		"title": "Commons talk:SPARQL query service",
+		"dom": "cases/tracked-template/tracked-template.html",
+		"expected": "../cases/tracked-template/tracked-template.json",
+		"config": "../data/commonswiki-config.json",
+		"data": "../data/commonswiki-data.json"
+	},
+	{
+		"name": "Signatures in funny places",
+		"title": "Talk:Signatures funny",
+		"dom": "cases/signatures-funny/signatures-funny.html",
+		"expected": "../cases/signatures-funny/signatures-funny.json",
+		"config": "../data/enwiki-config.json",
+		"data": "../data/enwiki-data.json"
+	},
+	{
+		"name": "Signature with multiple timestamp in formatting elements causing an infinite loop (T356884)",
+		"title": "Talk:T356884",
+		"dom": "cases/signatures-T356884/signatures-T356884.html",
+		"expected": "../cases/signatures-T356884/signatures-T356884.json",
+		"config": "../data/enwiki-config.json",
+		"data": "../data/enwiki-data.json"
+	},
+	{
+		"name": "Signature with unclosed formatting elements doesn't eat subsequent comments",
+		"title": "Talk:T356884b",
+		"dom": "cases/signatures-T356884b/signatures-T356884b.html",
+		"expected": "../cases/signatures-T356884b/signatures-T356884b.json",
+		"config": "../data/enwiki-config.json",
+		"data": "../data/enwiki-data.json"
+	},
+	{
+		"name": "Timestamp format switch behavior",
+		"title": "Talk:T304595",
+		"dom": "cases/timestamp-format-switch/timestamp-format-switch.html",
+		"expected": "../cases/timestamp-format-switch/timestamp-format-switch.json",
+		"config": "../data/enwiki-config.json",
+		"data": "../data/enwiki-data.json"
+	},
+	{
+		"name": "Timestamp links",
+		"title": "User_talk:Ed",
+		"dom": "cases/timestamplink/timestamplink.html",
+		"expected": "../cases/timestamplink/timestamplink.json",
+		"config": "../data/enwiki-config.json",
+		"data": "../data/enwiki-data.json"
+	},
+	{
+		"name": "Signatures with Special:Contributions (alias with underscored)",
+		"title": "Talk:Signatures Alias",
+		"dom": "cases/signatures-comments/signatures-contribs-alias-underscore.html",
+		"expected": "../cases/signatures-comments/signatures-contribs-alias-underscore.json",
+		"config": "../data/huwiki-config.json",
+		"data": "../data/huwiki-data.json"
+	},
+	{
+		"name": "suppressed talk classes",
+		"title": "User_talk:ESanders_(WMF)/suppressed-talk",
+		"dom": "cases/suppressed-talk/suppressed-talk.html",
+		"expected": "../cases/suppressed-talk/suppressed-talk.json",
+		"config": "../data/enwiki-config.json",
+		"data": "../data/enwiki-data.json"
+	}
+]

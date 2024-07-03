@@ -1,0 +1,34 @@
+{
+	"@metadata": {
+		"authors": [
+			"Diki Ananta",
+			"Matma Rex",
+			"NoiX180",
+			"Sumbukompor"
+		]
+	},
+	"apihelp-visualeditor-param-basetimestamp": "Nalika nyimpen, setèl ing cap-wektu kapan nalikané kacané dimot. Kanggo ngertèni yèn ana tabrakan besutan.",
+	"apihelp-visualeditor-param-editintro": "Besut pambuka kanggo ditambahaké menyang wara-wara.",
+	"apihelp-visualeditor-param-etag": "ETag kang arep kakirim.",
+	"apihelp-visualeditor-param-html": "HTML kang arep kakirim menyang Parsoid saperlu kasalin menyang tèks wiki.",
+	"apihelp-visualeditor-param-oldid": "Angka révisi kang arep kaanggo (baku tumrap révisi pungkasan).",
+	"apihelp-visualeditor-param-paction": "Laku kang arep ingayahan.",
+	"apihelp-visualeditor-param-page": "Kaca kang arep kagarap.",
+	"apihelp-visualeditor-param-section": "Pérangan kang arep kagarap.",
+	"apihelp-visualeditor-param-starttimestamp": "Nalika nyimpen, setèl ing cap-wektu kapan nalikané kacané dimot. Kanggo ngertèni yèn ana tabrakan besutan.",
+	"apihelp-visualeditor-param-wikitext": "Tèks wiki supaya kakirim menyang Parsoid saperlu kasalin dadi HTML (paksi=parsefragmèn).",
+	"apihelp-visualeditoredit-param-basetimestamp": "Nalika nyimpen, setèl ing cap-wektu kapan nalikané kacané dimot. Kanggo ngertèni yèn ana tabrakan besutan.",
+	"apihelp-visualeditoredit-param-captchaid": "ID Captcha (nalika nyimpen nganggo tanggepan captcha)",
+	"apihelp-visualeditoredit-param-captchaword": "Wangsulan marang captcha (nalika nyimpen nganggo tanggepan captcha).",
+	"apihelp-visualeditoredit-param-etag": "ETag supaya dikirim.",
+	"apihelp-visualeditoredit-param-html": "HTML supaya dikirim menyang Parsoid saperlu ngijoli tèks wiki.",
+	"apihelp-visualeditoredit-param-minor": "Tengeri yèn besutan cilik.",
+	"apihelp-visualeditoredit-param-needcheck": "Nalika nyimpen, setèl paramèter iki manawa révisiné ana masalah kang mbolan-mbalèni. Iki bakal nengeri besutané.",
+	"apihelp-visualeditoredit-param-oldid": "Nomer révisi kang kaanggo. Gawan marang révisi pungkasan. Anggoa nomer 0 tumrap kaca anyar.",
+	"apihelp-visualeditoredit-param-paction": "Laku kang arep ingayahan.",
+	"apihelp-visualeditoredit-param-page": "Kaca kang arep kagarap.",
+	"apihelp-visualeditoredit-param-section": "Pérangan kang arep kagarap.",
+	"apihelp-visualeditoredit-param-sectiontitle": "Sesirah kanggo pérangan anyar.",
+	"apihelp-visualeditoredit-param-starttimestamp": "Nalika nyimpen, setèl ing cap-wektu kapan nalikané kacané dimot. Kanggo ngertèni yèn ana tabrakan besutan.",
+	"apihelp-visualeditoredit-param-summary": "Besut tingkesan."
+}

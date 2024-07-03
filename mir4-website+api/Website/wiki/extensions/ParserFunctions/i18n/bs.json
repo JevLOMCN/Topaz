@@ -1,0 +1,31 @@
+{
+	"@metadata": {
+		"authors": [
+			"CERminator",
+			"Seha",
+			"Srdjan m",
+			"Srđan"
+		]
+	},
+	"pfunc_desc": "Povisi parser sa logičnim funkcijama",
+	"pfunc_time_error": "Greška: vrijeme nije valjano",
+	"pfunc_time_too_long": "Greška: previše poziva funkcije #time",
+	"pfunc_time_too_big": "Greška: #time samo podržava godine do 9999",
+	"pfunc_time_too_small": "Greška: #time samo podržava godine od 0.",
+	"pfunc_rel2abs_invalid_depth": "Graška: Nevrijedeća dubina u putu: \"$1\" (pokušaj dolaska na nula tačku iza korijenske nula tačke)",
+	"pfunc_expr_stack_exhausted": "Greška izraza: Stok potrošen",
+	"pfunc_expr_unexpected_number": "Greška izraza: Neočekivani broj",
+	"pfunc_expr_preg_match_failure": "Razvojna greška: Neočekivana greška preg-pogotka",
+	"pfunc_expr_unrecognised_word": "Greška izraza: Nepoznata riječ \"$1\"",
+	"pfunc_expr_unexpected_operator": "Greška izraza: Neočekivani $1 operator",
+	"pfunc_expr_missing_operand": "Greška izraza: Nedostaje operator za $1",
+	"pfunc_expr_unexpected_closing_bracket": "Greška izraza: Neočekivana zagrada zatvaranja",
+	"pfunc_expr_unrecognised_punctuation": "Razvojna greška: Nije prepoznat karakter punktacije \"$1\"",
+	"pfunc_expr_unclosed_bracket": "Greška izraza: Nezatvorena zagrada",
+	"pfunc_expr_division_by_zero": "Dijeljenje s nulom",
+	"pfunc_expr_invalid_argument": "Nevažeći argument za $1: : < -1 ili > 1",
+	"pfunc_expr_invalid_argument_ln": "Nevažeći argument za ln: <= 0",
+	"pfunc_expr_unknown_error": "Razvojna greška: Nepoznata greška ($1)",
+	"pfunc_expr_not_a_number": "u $1: rezultat nije broj",
+	"pfunc_string_too_long": "Greška: Niz prelazi limit od $1 znakova"
+}

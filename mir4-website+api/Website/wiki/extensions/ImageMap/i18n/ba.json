@@ -1,0 +1,20 @@
+{
+	"@metadata": {
+		"authors": [
+			"Assele",
+			"З. ӘЙЛЕ"
+		]
+	},
+	"imagemap_desc": "<code>&lt;imagemap&gt;</code> тамғаһы ярҙамында клиент яғында интерактив карта күрһәтеү мөмкинлеген бирә",
+	"imagemap_no_image": "Хата: беренсе юлда рәсем күрһәтелгән булырға тейеш.",
+	"imagemap_invalid_image": "Хата: рәсем асылмай йәки юҡ.",
+	"imagemap_bad_image": "Хата: был биттә рәсем рөхсәт ителмәй",
+	"imagemap_no_link": "Хата: $1 юлдың аҙағындағы һылтанма дөрөҫ түгел.",
+	"imagemap_invalid_title": "Хата: $1 юлдағы һылтанманың исеме дөрөҫ түгел.",
+	"imagemap_missing_coord": "Хата: $1 юлда фигура өсөн координаталар етмәй.",
+	"imagemap_unrecognised_shape": "Хата: $1 юлда танылмаған фигура бар, һәр юл <code>default</code>, <code>rect</code>, <code>circle</code> йәки <code>poly</code> төп һүҙҙәрҙең береһенән башланырға тейеш.",
+	"imagemap_invalid_coord": "Хата: $1 юлда координата дөрөҫ түгел, һан булырға тейеш.",
+	"imagemap_invalid_desc": "Хата: desc дөрөҫ күрһәтелмәгән, түбәндәгеләрҙең береһе булырға тейеш: <code>$1</code>.",
+	"imagemap_description": "Рәсем тураһында",
+	"imagemap_poly_odd": "Хата: $1 юлдағы күпмөйөштөң координаталар һаны — таҡ һан"
+}

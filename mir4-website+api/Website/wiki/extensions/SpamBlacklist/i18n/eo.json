@@ -1,0 +1,18 @@
+{
+	"@metadata": {
+		"authors": [
+			"KuboF",
+			"Robin van der Vliet",
+			"Yekrats"
+		]
+	},
+	"spam-blacklist": "\n #<!-- ne ŝanĝu ĉi tiun linion iel ajn --> <pre>\n# Eksteraj URL-oj kongruante al ĉi tiuj listanoj estos forbarita kiam aldonita al paĝo.\n# Ĉi tiu listo nur regnas ĉi tiun vikion; ankaux aktivas la ĝenerala nigralisto.\n # Por dokumentaro, rigardu https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:SpamBlacklist\n#\n# Jen la sintakso:\n#  * Ĉio ekde \"#\" signo al la fino de linio estas komento\n#  * Ĉiu ne-malplena linio estas regex kodero kiu nur kongruas retnodojn ene de URL-oj\n\n #</pre> <!-- ne ŝanĝu ĉi tiun linion iel ajn -->",
+	"spam-whitelist": " #<!-- ne ŝanĝu ĉi tiun linion iel ajn --> <pre>\n# Eksteraj URL-oj kongruante al ĉi tiuj listanoj *NE* estos forbarita eĉ se ili estus\n# forbarita de nigralisto\n#\n# Jen la sintakso:\n#  * Ĉio ekde \"#\" signo al la fino de linio estas komento\n#  * Ĉiu nemalplena linio estas regex kodero kiu nur kongruas retnodojn ene de URL-oj\n #</pre> <!-- ne ŝanĝu ĉi tiun linion iel ajn -->",
+	"email-blacklist": " #<!-- leave this line exactly as it is --> <pre>\n # Retadresoj kongruante de ĉi tiu listo estos forbarita de reĝistrado aŭ sendado de retpoŝtoj\n # Ĉi tiu listo nur funkciigas ĉi tiun vikion; ankaŭ rigardu la ĝeneralan nigraliston.\n # Por dokumentado, vidu https://www.mediawiki.org/wiki/Special:MyLanguageExtension:SpamBlacklist\n#\n# Jen la sintakso:\n#  * Ĉio ekde \"#\" signo al la fino de linio estas komento\n#  * Ĉiu ne-malplena linio estas regex kodero kiu nur kongruas retnodojn ene de URL-oj\n\n #</pre> <!-- ne ŝanĝu ĉi tiun linion iel ajn -->",
+	"email-whitelist": " #<!-- leave this line exactly as it is --> <pre>\n# Retadresoj kongruante de ĉi tiu listo *ne* estos forbarita se ili estus forbarita de nigralisto.\n# \n #</pre> <!-- leave this line exactly as it is -->\n# Jen la sintakso:\n#  * Ĉio ekde \"#\" signo al la fino de linio estas komento\n#  * Ĉiu ne-malplena linio estas regex kodero kiu nur kongruas retnodojn ene de URL-oj",
+	"spam-blacklisted-email": "Malpermesita retpoŝta adreso",
+	"spam-blacklisted-email-text": "Al via retpoŝta adreso estas nune malpermesite sendi retpoŝtojn al aliaj uzantoj.",
+	"spam-blacklisted-email-signup": "Tiu retpoŝtadreso estas nune forbarita de uzado.",
+	"spam-invalid-lines": "La {{PLURAL:$1|jena linio|jenaj linioj}} de spama nigralisto estas {{PLURAL:$1|nevlidaj regulaj esprimoj|nevalidaj regulaj esprimoj}} kaj devas esti {{PLURAL:$1|korektita|korektitaj}} antaŭ savante la paĝon:",
+	"spam-blacklist-desc": "Kontraŭspamilo bazita sur regularaj esprimoj ebligas malpermesi URL-jn en paĝoj kaj retpoŝtaj adresoj por registritaj uzantoj"
+}

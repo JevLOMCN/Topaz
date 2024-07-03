@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"Kly"
+		]
+	},
+	"hcaptcha-desc": "用於確認編輯的 [https://www.hcaptcha.com/ hCaptcha] 模組",
+	"hcaptcha-edit": "為保護 wiki 防止自動化垃圾內容編輯程式，我們要麻煩您解決以下的 hCaptcha 內容：",
+	"hcaptcha-addurl": "您的編輯使用了新的外部連結。為了防止自動化垃圾內容編輯程式，我們要麻煩您輸入以下的驗證碼。",
+	"hcaptcha-badlogin": "為保護 wiki 防止自動化密碼破解程式，我們要麻煩您解決以下的 hCaptcha 內容：",
+	"hcaptcha-createaccount": "為保護 wiki 防止自動化帳號建立程式，我們要麻煩您解決以下的 hCaptcha 內容：",
+	"hcaptcha-createaccount-fail": "看來您似乎沒有解決 hCaptcha 成功。",
+	"hcaptcha-create": "為保護 wiki 防止自動化頁面建立程式，我們要麻煩您解決以下的 hCaptcha 內容：",
+	"hcaptcha-help": "請解決 hCaptcha 的問題並回傳作為驗證碼文字的回應值。"
+}

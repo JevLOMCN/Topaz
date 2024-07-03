@@ -1,0 +1,577 @@
+{
+	"name": "Abuse Filter",
+	"author": [
+		"Andrew Garrett",
+		"[https://www.mediawiki.org/wiki/User:Daimona_Eaytoy Daimona Eaytoy]",
+		"Marius Hoch",
+		"River Tarnell",
+		"Victor Vasiliev"
+	],
+	"url": "https://www.mediawiki.org/wiki/Extension:AbuseFilter",
+	"descriptionmsg": "abusefilter-desc",
+	"license-name": "GPL-2.0-or-later",
+	"type": "antispam",
+	"requires": {
+		"MediaWiki": ">= 1.42.0"
+	},
+	"AvailableRights": [
+		"abusefilter-modify",
+		"abusefilter-log-detail",
+		"abusefilter-view",
+		"abusefilter-log",
+		"abusefilter-privatedetails",
+		"abusefilter-privatedetails-log",
+		"abusefilter-modify-restricted",
+		"abusefilter-revert",
+		"abusefilter-view-private",
+		"abusefilter-log-private",
+		"abusefilter-hidden-log",
+		"abusefilter-hide-log",
+		"abusefilter-modify-global",
+		"abusefilter-modify-blocked-external-domains",
+		"abusefilter-bypass-blocked-external-domains"
+	],
+	"GroupPermissions": {
+		"*": {
+			"abusefilter-view": true,
+			"abusefilter-log": true
+		},
+		"sysop": {
+			"abusefilter-log-detail": true,
+			"abusefilter-view-private": true,
+			"abusefilter-log-private": true,
+			"abusefilter-modify": true,
+			"abusefilter-modify-restricted": true,
+			"abusefilter-revert": true,
+			"abusefilter-modify-blocked-external-domains": true
+		},
+		"suppress": {
+			"abusefilter-hidden-log": true,
+			"abusefilter-hide-log": true
+		},
+		"bot": {
+			"abusefilter-bypass-blocked-external-domains": true
+		}
+	},
+	"GrantPermissions": {
+		"basic": {
+			"abusefilter-log": true,
+			"abusefilter-log-detail": true,
+			"abusefilter-view": true
+		},
+		"oversight": {
+			"abusefilter-hide-log": true
+		},
+		"viewrestrictedlogs": {
+			"abusefilter-hidden-log": true,
+			"abusefilter-log-private": true,
+			"abusefilter-view-private": true
+		},
+		"editprotected": {
+			"abusefilter-bypass-blocked-external-domains": true
+		}
+	},
+	"SpecialPages": {
+		"AbuseLog": {
+			"class": "MediaWiki\\Extension\\AbuseFilter\\Special\\SpecialAbuseLog",
+			"services": [
+				"DBLoadBalancerFactory",
+				"LinkBatchFactory",
+				"PermissionManager",
+				"UserIdentityLookup",
+				"AbuseFilterPermissionManager",
+				"AbuseFilterConsequencesRegistry",
+				"AbuseFilterVariablesBlobStore",
+				"AbuseFilterSpecsFormatter",
+				"AbuseFilterVariablesFormatter",
+				"AbuseFilterVariablesManager"
+			]
+		},
+		"AbuseFilter": {
+			"class": "MediaWiki\\Extension\\AbuseFilter\\Special\\SpecialAbuseFilter",
+			"services": [
+				"AbuseFilterPermissionManager",
+				"ObjectFactory"
+			]
+		},
+		"BlockedExternalDomains": {
+			"class": "MediaWiki\\Extension\\AbuseFilter\\Special\\BlockedExternalDomains",
+			"services": [
+				"AbuseFilterBlockedDomainStorage",
+				"MainWANObjectCache"
+			]
+		}
+	},
+	"LogTypes": [
+		"abusefilter",
+		"abusefilterblockeddomainhit",
+		"abusefilterprivatedetails"
+	],
+	"LogNames": {
+		"abusefilter": "abusefilter-log-name",
+		"abusefilterprivatedetails": "abusefilterprivatedetails-log-name"
+	},
+	"LogHeaders": {
+		"abusefilter": "abusefilter-log-header"
+	},
+	"LogActionsHandlers": {
+		"abusefilter/hit": {
+			"class": "MediaWiki\\Extension\\AbuseFilter\\LogFormatter\\AbuseLogHitFormatter",
+			"services": [
+				"AbuseFilterSpecsFormatter"
+			]
+		},
+		"abusefilter/modify": "MediaWiki\\Extension\\AbuseFilter\\LogFormatter\\AbuseFilterModifyLogFormatter",
+		"abusefilter/create": "MediaWiki\\Extension\\AbuseFilter\\LogFormatter\\AbuseFilterModifyLogFormatter",
+		"abusefilterblockeddomainhit/*": "MediaWiki\\Extension\\AbuseFilter\\LogFormatter\\AbuseFilterBlockedDomainHitLogFormatter",
+		"abusefilterprivatedetails/access": "LogFormatter",
+		"suppress/hide-afl": "MediaWiki\\Extension\\AbuseFilter\\LogFormatter\\AbuseFilterSuppressLogFormatter",
+		"suppress/unhide-afl": "MediaWiki\\Extension\\AbuseFilter\\LogFormatter\\AbuseFilterSuppressLogFormatter",
+		"rights/blockautopromote": "MediaWiki\\Extension\\AbuseFilter\\LogFormatter\\AbuseFilterRightsLogFormatter",
+		"rights/restoreautopromote": "MediaWiki\\Extension\\AbuseFilter\\LogFormatter\\AbuseFilterRightsLogFormatter"
+	},
+	"ActionFilteredLogs": {
+		"abusefilter": {
+			"modify": [
+				"modify"
+			],
+			"create": [
+				"create"
+			]
+		},
+		"suppress": {
+			"abuselog": [
+				"hide-afl",
+				"unhide-afl"
+			]
+		},
+		"rights": {
+			"blockautopromote": [
+				"blockautopromote"
+			],
+			"restoreautopromote": [
+				"restoreautopromote"
+			]
+		}
+	},
+	"LogRestrictions": {
+		"abusefilter": "abusefilter-view",
+		"abusefilterprivatedetails": "abusefilter-privatedetails-log",
+		"abusefilterblockeddomainhit": "abusefilter-view"
+	},
+	"AuthManagerAutoConfig": {
+		"preauth": {
+			"AbuseFilterPreAuthenticationProvider": {
+				"class": "MediaWiki\\Extension\\AbuseFilter\\AbuseFilterPreAuthenticationProvider",
+				"services": [
+					"AbuseFilterVariableGeneratorFactory",
+					"AbuseFilterFilterRunnerFactory",
+					"StatsdDataFactory",
+					"UserFactory"
+				],
+				"sort": 5
+			}
+		}
+	},
+	"APIModules": {
+		"abusefilterchecksyntax": {
+			"class": "MediaWiki\\Extension\\AbuseFilter\\Api\\CheckSyntax",
+			"services": [
+				"AbuseFilterRuleCheckerFactory",
+				"AbuseFilterPermissionManager"
+			]
+		},
+		"abusefilterevalexpression": {
+			"class": "MediaWiki\\Extension\\AbuseFilter\\Api\\EvalExpression",
+			"services": [
+				"AbuseFilterRuleCheckerFactory",
+				"AbuseFilterPermissionManager",
+				"AbuseFilterVariableGeneratorFactory"
+			]
+		},
+		"abusefilterunblockautopromote": {
+			"class": "MediaWiki\\Extension\\AbuseFilter\\Api\\UnblockAutopromote",
+			"services": [
+				"AbuseFilterBlockAutopromoteStore"
+			]
+		},
+		"abusefiltercheckmatch": {
+			"class": "MediaWiki\\Extension\\AbuseFilter\\Api\\CheckMatch",
+			"services": [
+				"AbuseFilterRuleCheckerFactory",
+				"AbuseFilterPermissionManager",
+				"AbuseFilterVariablesBlobStore",
+				"AbuseFilterVariableGeneratorFactory"
+			]
+		},
+		"abuselogprivatedetails": {
+			"class": "MediaWiki\\Extension\\AbuseFilter\\Api\\AbuseLogPrivateDetails",
+			"services": [
+				"AbuseFilterPermissionManager"
+			]
+		}
+	},
+	"APIListModules": {
+		"abuselog": {
+			"class": "MediaWiki\\Extension\\AbuseFilter\\Api\\QueryAbuseLog",
+			"services": [
+				"AbuseFilterFilterLookup",
+				"AbuseFilterPermissionManager",
+				"AbuseFilterVariablesBlobStore",
+				"AbuseFilterVariablesManager"
+			]
+		},
+		"abusefilters": {
+			"class": "MediaWiki\\Extension\\AbuseFilter\\Api\\QueryAbuseFilters",
+			"services": [
+				"AbuseFilterPermissionManager"
+			]
+		}
+	},
+	"MessagesDirs": {
+		"AbuseFilter": [
+			"i18n",
+			"i18n/api"
+		]
+	},
+	"ExtensionMessagesFiles": {
+		"AbuseFilterAliases": "AbuseFilter.alias.php"
+	},
+	"AutoloadClasses": {
+		"AbuseFilterVariableHolder": "includes/Variables/VariableHolder.php",
+		"MediaWiki\\Extension\\AbuseFilter\\Variables\\VariableHolder": "includes/Variables/VariableHolder.php"
+	},
+	"AutoloadNamespaces": {
+		"MediaWiki\\Extension\\AbuseFilter\\": "includes/",
+		"MediaWiki\\Extension\\AbuseFilter\\Maintenance\\": "maintenance/"
+	},
+	"TestAutoloadClasses": {
+		"MediaWiki\\Extension\\AbuseFilter\\Tests\\Unit\\Parser\\ParserTestCase": "tests/phpunit/unit/Parser/ParserTestCase.php",
+		"MediaWiki\\Extension\\AbuseFilter\\Tests\\Integration\\Api\\AbuseFilterApiTestTrait": "tests/phpunit/integration/Api/AbuseFilterApiTestTrait.php",
+		"AbuseFilterUploadTestTrait": "tests/phpunit/AbuseFilterUploadTestTrait.php",
+		"AbuseFilterCreateAccountTestTrait": "tests/phpunit/AbuseFilterCreateAccountTestTrait.php",
+		"AbuseFilterRowsAndFiltersTestTrait": "tests/phpunit/AbuseFilterRowsAndFiltersTestTrait.php",
+		"ConsequenceGetMessageTestTrait": "tests/phpunit/ConsequenceGetMessageTestTrait.php"
+	},
+	"ResourceModules": {
+		"ext.abuseFilter": {
+			"styles": "ext.abuseFilter.css"
+		},
+		"ext.abuseFilter.edit": {
+			"scripts": "ext.abuseFilter.edit.js",
+			"messages": [
+				"abusefilter-edit-syntaxok",
+				"abusefilter-edit-syntaxerr",
+				"abusefilter-http-error",
+				"abusefilter-edit-throttle-placeholder",
+				"abusefilter-edit-tag-placeholder",
+				"abusefilter-edit-warn-leave",
+				"unknown-error"
+			],
+			"dependencies": [
+				"mediawiki.util",
+				"mediawiki.api",
+				"mediawiki.confirmCloseWindow",
+				"jquery.textSelection",
+				"jquery.spinner",
+				"oojs-ui-core",
+				"oojs-ui-widgets"
+			]
+		},
+		"ext.abuseFilter.tools": {
+			"scripts": "ext.abuseFilter.tools.js",
+			"messages": [
+				"abusefilter-reautoconfirm-notallowed",
+				"abusefilter-reautoconfirm-none",
+				"abusefilter-reautoconfirm-done",
+				"abusefilter-http-error",
+				"abusefilter-tools-syntax-error",
+				"unknown-error"
+			],
+			"dependencies": [
+				"mediawiki.api",
+				"user.options",
+				"jquery.spinner"
+			]
+		},
+		"ext.abuseFilter.examine": {
+			"scripts": "ext.abuseFilter.examine.js",
+			"messages": [
+				"abusefilter-examine-match",
+				"abusefilter-examine-nomatch",
+				"abusefilter-examine-syntaxerror",
+				"abusefilter-examine-notfound",
+				"abusefilter-mustviewprivateoredit",
+				"abusefilter-http-error",
+				"unknown-error"
+			],
+			"dependencies": [
+				"jquery.spinner",
+				"mediawiki.api"
+			]
+		},
+		"ext.abuseFilter.ace": {
+			"scripts": "mode-abusefilter.js",
+			"dependencies": "ext.codeEditor.ace"
+		},
+		"ext.abuseFilter.visualEditor": {
+			"scripts": "ve-abusefilter/ve.init.mw.AbuseFilterSaveErrorHandler.js"
+		}
+	},
+	"attributes": {
+		"VisualEditor": {
+			"PluginModules": [
+				"ext.abuseFilter.visualEditor"
+			]
+		}
+	},
+	"ResourceFileModulePaths": {
+		"localBasePath": "modules",
+		"remoteExtPath": "AbuseFilter/modules"
+	},
+	"callback": "MediaWiki\\Extension\\AbuseFilter\\Hooks\\Handlers\\RegistrationCallback::onRegistration",
+	"HookHandlers": {
+		"ToolLinks": {
+			"class": "MediaWiki\\Extension\\AbuseFilter\\Hooks\\Handlers\\ToolLinksHandler",
+			"services": [
+				"AbuseFilterPermissionManager"
+			]
+		},
+		"AutoPromoteGroups": {
+			"class": "MediaWiki\\Extension\\AbuseFilter\\Hooks\\Handlers\\AutoPromoteGroupsHandler",
+			"services": [
+				"AbuseFilterConsequencesRegistry",
+				"AbuseFilterBlockAutopromoteStore"
+			]
+		},
+		"ChangeTags": {
+			"class": "MediaWiki\\Extension\\AbuseFilter\\Hooks\\Handlers\\ChangeTagsHandler",
+			"services": [
+				"AbuseFilterChangeTagsManager"
+			]
+		},
+		"SchemaChanges": {
+			"class": "MediaWiki\\Extension\\AbuseFilter\\Hooks\\Handlers\\SchemaChangesHandler",
+			"factory": "MediaWiki\\Extension\\AbuseFilter\\Hooks\\Handlers\\SchemaChangesHandler::newFromGlobalState"
+		},
+		"UserRename": {
+			"class": "MediaWiki\\Extension\\AbuseFilter\\Hooks\\Handlers\\UserRenameHandler"
+		},
+		"EditPermission": {
+			"class": "MediaWiki\\Extension\\AbuseFilter\\Hooks\\Handlers\\EditPermissionHandler"
+		},
+		"PageSave": {
+			"class": "MediaWiki\\Extension\\AbuseFilter\\Hooks\\Handlers\\PageSaveHandler",
+			"services": [
+				"AbuseFilterEditRevUpdater"
+			]
+		},
+		"RecentChangeSave": {
+			"class": "MediaWiki\\Extension\\AbuseFilter\\Hooks\\Handlers\\RecentChangeSaveHandler",
+			"services": [
+				"AbuseFilterChangeTagger"
+			]
+		},
+		"FilteredActions": {
+			"class": "MediaWiki\\Extension\\AbuseFilter\\Hooks\\Handlers\\FilteredActionsHandler",
+			"services": [
+				"StatsdDataFactory",
+				"AbuseFilterFilterRunnerFactory",
+				"AbuseFilterVariableGeneratorFactory",
+				"AbuseFilterEditRevUpdater",
+				"AbuseFilterBlockedDomainFilter",
+				"PermissionManager"
+			]
+		},
+		"CheckUser": {
+			"class": "MediaWiki\\Extension\\AbuseFilter\\Hooks\\Handlers\\CheckUserHandler",
+			"services": [
+				"AbuseFilterFilterUser",
+				"UserIdentityUtils"
+			]
+		},
+		"Echo": {
+			"class": "MediaWiki\\Extension\\AbuseFilter\\Hooks\\Handlers\\EchoHandler"
+		},
+		"UserMerge": {
+			"class": "MediaWiki\\Extension\\AbuseFilter\\Hooks\\Handlers\\UserMergeHandler",
+			"services": [
+				"MainConfig"
+			]
+		}
+	},
+	"Hooks": {
+		"EditFilterMergedContent": "FilteredActions",
+		"GetAutoPromoteGroups": "AutoPromoteGroups",
+		"TitleMove": "FilteredActions",
+		"ArticleDelete": "FilteredActions",
+		"RecentChange_save": "RecentChangeSave",
+		"ListDefinedTags": "ChangeTags",
+		"ChangeTagsListActive": "ChangeTags",
+		"LoadExtensionSchemaUpdates": "SchemaChanges",
+		"ContributionsToolLinks": "ToolLinks",
+		"HistoryPageToolLinks": "ToolLinks",
+		"UndeletePageToolLinks": "ToolLinks",
+		"UploadVerifyUpload": "FilteredActions",
+		"UploadStashFile": "FilteredActions",
+		"PageSaveComplete": "PageSave",
+		"RenameUserSQL": "UserRename",
+		"getUserPermissionsErrors": "EditPermission",
+		"CheckUserInsertChangesRow": "CheckUser",
+		"CheckUserInsertPrivateEventRow": "CheckUser",
+		"CheckUserInsertLogEventRow": "CheckUser",
+		"UserMergeAccountFields": "UserMerge",
+		"BeforeCreateEchoEvent": "Echo",
+		"ParserOutputStashForEdit": "FilteredActions",
+		"JsonValidateSave": "EditPermission"
+	},
+	"ServiceWiringFiles": [
+		"includes/ServiceWiring.php"
+	],
+	"config": {
+		"AbuseFilterActions": {
+			"value": {
+				"throttle": true,
+				"warn": true,
+				"disallow": true,
+				"blockautopromote": true,
+				"block": true,
+				"rangeblock": false,
+				"degroup": false,
+				"tag": true
+			},
+			"description": "Array of enabled actions in the form [action name => is enabled?]. At the end of setup, false values will be filtered out"
+		},
+		"AbuseFilterConditionLimit": {
+			"value": 1000,
+			"description": "The maximum number of 'conditions' that can be used each time the filters are run against a change. (More complex filters require more 'conditions')."
+		},
+		"AbuseFilterEmergencyDisableThreshold": {
+			"value": {
+				"default": 0.05
+			},
+			"description": "Disable potentially dangerous actions (AbuseFilterRestrictions) of a filter if it matches more than X actions, constituting more than Y% (e.g. 0.05 = 5%) of the last Z actions, and the filter has been modified in the last S seconds. X is AbuseFilterEmergencyDisableCount, Y is AbuseFilterEmergencyDisableThreshold, S is AbuseFilterEmergencyDisableAge and Z is the number of analyzed actions since the filter was modified."
+		},
+		"AbuseFilterEmergencyDisableCount": {
+			"value": {
+				"default": 2
+			},
+			"description": "See description for AbuseFilterEmergencyDisableThreshold"
+		},
+		"AbuseFilterEmergencyDisableAge": {
+			"value": {
+				"default": 86400
+			},
+			"description": "See description for AbuseFilterEmergencyDisableThreshold"
+		},
+		"AbuseFilterActionRestrictions": {
+			"value": {
+				"throttle": false,
+				"warn": false,
+				"disallow": false,
+				"blockautopromote": true,
+				"block": true,
+				"rangeblock": true,
+				"degroup": true,
+				"tag": false
+			},
+			"description": "Do users need 'abusefilter-modify-restricted' user right as well as 'abusefilter-modify' in order to create or modify filters which carry out this action? Array like [action name => is restricted?]"
+		},
+		"AbuseFilterNotifications": {
+			"value": false,
+			"description": "Allows to configure the extension to send hit notifications to Special:RecentChanges or UDP. Available options: rc, udp, rcandudp"
+		},
+		"AbuseFilterNotificationsPrivate": {
+			"value": false,
+			"description": "Enable notifications for private filters"
+		},
+		"AbuseFilterCentralDB": {
+			"value": null,
+			"description": "Name of a database where global abuse filters will be stored in. To use a DB with prefixed tables, set this to \"{$databaseName}-{$prefix}\"."
+		},
+		"AbuseFilterIsCentral": {
+			"value": false,
+			"description": "Set this variable to true for the wiki where global AbuseFilters are stored in"
+		},
+		"AbuseFilterLocallyDisabledGlobalActions": {
+			"value": {
+				"throttle": false,
+				"warn": false,
+				"disallow": false,
+				"blockautopromote": false,
+				"block": false,
+				"rangeblock": false,
+				"degroup": false,
+				"tag": false
+			},
+			"description": "An array of actions which, if set on a global filter, will not be used for local hits of such filter (not in the central wiki). The array is [ action => will be disabled? ]. NOTE: Locally disabling throttle or warn will *not* disable the remaining actions."
+		},
+		"AbuseFilterBlockDuration": {
+			"value": "indefinite",
+			"description": "Old standard block duration for logged in users. Kept for backward compatibility after T32024."
+		},
+		"AbuseFilterAnonBlockDuration": {
+			"value": null,
+			"description": "Old standard block duration for anonymous users, $wgAbuseFilterBlockDuration will be used if null. Kept for backward compatibility after T32024."
+		},
+		"AbuseFilterBlockAutopromoteDuration": {
+			"value": 5,
+			"description": "Duration, in days, for which users' autopromotion is blocked by filters."
+		},
+		"AbuseFilterValidGroups": {
+			"value": [
+				"default"
+			],
+			"description": "The list of 'groups' filters can be divided into – used for applying edit filters to certain types of actions. By default there is only one group."
+		},
+		"AbuseFilterDefaultWarningMessage": {
+			"value": {
+				"default": "abusefilter-warning"
+			},
+			"description": "Default warning messages, per filter group"
+		},
+		"AbuseFilterDefaultDisallowMessage": {
+			"value": {
+				"default": "abusefilter-disallowed"
+			},
+			"description": "Default disallow messages, per filter group"
+		},
+		"AbuseFilterLogIPMaxAge": {
+			"value": 7776000,
+			"description": "Age used as cutoff when purging old IP log data, defaults to 3 months. Used by maintenance script purgeOldLogIPData.php"
+		},
+		"AbuseFilterSlowFilterRuntimeLimit": {
+			"value": 500,
+			"description": "Runtime in milliseconds before a filter is considered slow."
+		},
+		"AbuseFilterRangeBlockSize": {
+			"value": {
+				"IPv4": 16,
+				"IPv6": 19
+			},
+			"description": "Size of the range blocked by 'rangeblock' action."
+		},
+		"AbuseFilterLogPrivateDetailsAccess": {
+			"value": false,
+			"description": "Whether accessing private information from a filter log entry is logged."
+		},
+		"AbuseFilterPrivateDetailsForceReason": {
+			"value": false,
+			"description": "Whether users are forced to provide a reason for accessing private information from a filter log entry."
+		},
+		"AbuseFilterLogIP": {
+			"value": true,
+			"description": "Whether to include IP in the abuse_filter_log"
+		},
+		"AbuseFilterActorTableSchemaMigrationStage": {
+			"value": 769,
+			"description": "Stage of the migration of af_user/af_user_text to af_actor and afh_user/afh_user_text to afh_actor. Should be one of the following (combinations of) constants: SCHEMA_COMPAT_OLD, SCHEMA_COMPAT_WRITE_BOTH | SCHEMA_COMPAT_READ_OLD, SCHEMA_COMPAT_WRITE_BOTH | SCHEMA_COMPAT_READ_NEW, SCHEMA_COMPAT_NEW. See also \"Schema compatibility flags\" in includes/Defines.php in core. Note: When changing the default here, change it also in unit tests."
+		},
+		"AbuseFilterEnableBlockedExternalDomain": {
+			"value": false,
+			"description": "Temporary config value to disable Special:BlockedExternalDomains"
+		}
+	},
+	"load_composer_autoloader": true,
+	"manifest_version": 2
+}

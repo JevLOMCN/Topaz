@@ -1,0 +1,20 @@
+{
+	"@metadata": {
+		"authors": [
+			"Ilja.mos",
+			"Mashoi7",
+			"Ruppijeva"
+		]
+	},
+	"thanks-thank": "{{GENDER:$1|{{GENDER:$2|kiitä}}}}",
+	"thanks-thanked": "{{GENDER:$1|{{GENDER:$2|passiboičit}}}}",
+	"thanks-button-thank": "{{GENDER:$1|{{GENDER:$2|Passiboiče}}}}",
+	"thanks-button-thanked": "{{GENDER:$1|{{GENDER:$2|Passiboičit}}}}",
+	"thanks-error-undefined": "Passiboičendu ei ozavunnuh (hairehen koudu: $1). Ole hyvä, opi vie kerdu.",
+	"thanks-thank-tooltip": "{{GENDER:$1|Työnnä}} passibo-viesti {{GENDER:$2|käyttäjäle}}",
+	"thanks": "Työnnä passibot",
+	"thanks-submit": "Työnnä passibot",
+	"echo-category-title-edit-thank": "Passibot",
+	"log-description-thanks": "Al on luvettelo niilöis käyttäjis, kudamat ollah suatu passiboičendoi toizis käyttäjispäi.",
+	"logentry-thanks-thank": "$1 {{GENDER:$2|passiboičči}} käyttäjiä {{GENDER:$4|$3}}"
+}

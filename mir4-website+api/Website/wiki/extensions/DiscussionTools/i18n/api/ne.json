@@ -1,0 +1,35 @@
+{
+	"@metadata": {
+		"authors": [
+			"बडा काजी"
+		]
+	},
+	"apierror-discussiontools-commentid-notfound": "'$1' भएको टिप्पणी फेला परेन।",
+	"apierror-discussiontools-commentname-ambiguous": "'$1' नामका धेरै टिप्पणीहरू फेला पर्यो, <var>commentid</var> आवश्यक छ।",
+	"apierror-discussiontools-commentname-notfound": "'$1' भएको टिप्पणी फेला परेन।",
+	"apierror-discussiontools-formtoken-used": "टिप्पणी पहिले नै लेखिएको छ। यसलाई हेर्नको लागि पृष्ठ पुन: ताजा गर्नुहोस्।",
+	"apierror-discussiontools-subscription-failed-add": "यस विषयमा सदस्यता लिन सकिएन।",
+	"apierror-discussiontools-subscription-failed-remove": "यस विषयबाट सदस्यता रद्द गर्न सकिएन।",
+	"apihelp-discussiontoolscompare-summary": "दुई पृष्ठ संशोधन बीच टिप्पणी परिवर्तन बारे जानकारी प्राप्त गर्नुहोस्।",
+	"apihelp-discussiontoolsedit-param-commentid": "जवाफ दिन टिप्पणी को ID। <var>paction</var> <var>addcomment</var> हुँदा मात्र प्रयोग गरिन्छ। टिप्पणीको <var>commentname</var> गर्दछ।",
+	"apihelp-discussiontoolsedit-param-commentname": "जवाफ दिन को लागी टिप्पणी को नाम। <var>paction</var> <var>addcomment</var> हुँदा मात्र प्रयोग गरिन्छ।",
+	"apihelp-discussiontoolsedit-param-formtoken": "डबल-पोस्टिङ रोक्नको लागि ग्राहकमा उत्पन्न गरिएको वैकल्पिक अद्वितीय ID।",
+	"apihelp-discussiontoolsedit-param-wikitext": "पोस्ट गर्न सामग्री, विकिटेक्स्टको रूपमा। <var>html</var> सँग सँगै प्रयोग गर्न सकिँदैन।",
+	"apihelp-discussiontoolsedit-paramvalue-paction-addcomment": "अवस्थित टिप्पणीको जवाफको रूपमा नयाँ टिप्पणी थप्नुहोस्।",
+	"apihelp-discussiontoolsedit-paramvalue-paction-addtopic": "नयाँ छलफल खण्ड र यसमा पहिलो टिप्पणी थप्नुहोस्।",
+	"apihelp-discussiontoolsedit-summary": "वार्ता पृष्ठमा सन्देश लेख्नुहोस्।",
+	"apihelp-discussiontoolsgetsubscriptions-param-commentname": "जाँच गर्न विषयहरूको नाम",
+	"apihelp-discussiontoolsgetsubscriptions-summary": "दिइएको विषयहरूको सदस्यता स्थिति प्राप्त गर्नुहोस्।",
+	"apihelp-discussiontoolspageinfo-param-oldid": "प्रयोग गर्नको लागि संशोधन नम्बर (पछिल्लो संशोधनमा पूर्वनिर्धारित)।",
+	"apihelp-discussiontoolspageinfo-param-prop": "कुन मान प्राप्त गर्ने:",
+	"apihelp-discussiontoolspageinfo-paramvalue-prop-threaditemshtml": "पृष्ठबाट पार्स गरिएको टिप्पणी थ्रेडहरूको प्रतिनिधित्व",
+	"apihelp-discussiontoolspageinfo-paramvalue-prop-transcludedfrom": "कुन अन्य पृष्ठहरूबाट टिप्पणीहरू समावेश गरिएको छ",
+	"apihelp-discussiontoolspageinfo-summary": "छलफल उपकरणहरू प्रारम्भ गर्न आवश्यक मेटाडेटा फर्काउँछ।",
+	"apihelp-discussiontoolspreview-param-type": "पूर्वावलोकन गर्न सन्देशको प्रकार",
+	"apihelp-discussiontoolspreview-param-wikitext": "पूर्वावलोकन गर्न सामग्री, विकिटेक्स्टको रूपमा।",
+	"apihelp-discussiontoolspreview-summary": "वार्ता पृष्ठमा सन्देश पूर्वावलोकन गर्नुहोस्।",
+	"apihelp-discussiontoolssubscribe-param-commentname": "सदस्यता लिनको लागि शीर्षकको नाम (वा सदस्यता रद्द गर्न को लागी)",
+	"apihelp-discussiontoolssubscribe-param-page": "एउटा पृष्ठ जसमा विषय देखिन्छ",
+	"apihelp-discussiontoolssubscribe-param-subscribe": "सदस्यता लिनको लागि सही, सदस्यता रद्द गर्न गलत",
+	"apihelp-discussiontoolssubscribe-summary": "विषयको बारेमा सूचनाहरू प्राप्त गर्न सदस्यता लिनुहोस् (वा सदस्यता रद्द गर्नुहोस्)।"
+}

@@ -1,0 +1,38 @@
+{
+	"@metadata": {
+		"authors": [
+			"AnakngAraw",
+			"GinawaSaHapon",
+			"Lam-ang",
+			"Stranger195",
+			"Yivan000"
+		]
+	},
+	"categorytree": "Puno ng kaurian",
+	"categorytree-portlet": "Mga kaurian",
+	"categorytree-legend": "Ipakita ang puno ng kaurian",
+	"categorytree-desc": "Masiglang libutin ang [[Special:CategoryTree|kayarian ng kaurian]]",
+	"categorytree-header": "Maglagay (magpasok) ng isang pangalan ng kaurian upang makita ang nilalaman nito bilang isang kayarian ng isang puno.\nTandaan na nangangailangan ito ng mas masulong na tungkuling pang-JavaScript na kilala bilang AJAX.\nKapag mayroon kang isang napakatandang/napakalumang pantingin-tingin (''browser''), o hindi pinapagana ang JavaScript, hindi ito magagawa/walang mangyayari.",
+	"categorytree-category": "Kategorya:",
+	"categorytree-go": "Ipakita ang puno",
+	"categorytree-parents": "Mga magulang",
+	"categorytree-mode-categories": "mga kaurian lamang",
+	"categorytree-mode-pages": "mga pahina maliban sa mga talaksan",
+	"categorytree-mode-all": "lahat ng mga pahina",
+	"categorytree-collapse": "tiklupin",
+	"categorytree-expand": "palawakin",
+	"categorytree-member-counts": "Naglalaman ng {{PLURAL:$1|1 subkategorya|$1 (na) subkategorya}}, {{PLURAL:$2|1 pahina|$2 (na) pahina}}, at {{PLURAL:$3|1 file|$3 (na) file}}",
+	"categorytree-num-categories": "$1 ka.",
+	"categorytree-num-pages": "$1 pa.",
+	"categorytree-num-files": "$1 F",
+	"categorytree-num-empty": "walang laman",
+	"categorytree-load": "ikarga",
+	"categorytree-loading": "ikinakarga…",
+	"categorytree-nothing-found": "walang natagpuan",
+	"categorytree-no-subcategories": "walang mga subkategorya",
+	"categorytree-no-parent-categories": "walang magulang (pinagmulan) na mga kaurian",
+	"categorytree-no-pages": "walang mga pahina o kabahaging mga kaurian/subkaurian (subkategorya)",
+	"categorytree-not-found": "Hindi natagpuan ang kategoryang <i>$1</i>",
+	"categorytree-error": "May suliranin sa pagkakarga ng dato.",
+	"categorytree-retry": "Maghintay lamang ng isang sandali at subuking muli."
+}

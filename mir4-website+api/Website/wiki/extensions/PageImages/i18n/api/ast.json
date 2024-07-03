@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"Xuacu"
+		]
+	},
+	"apihelp-query+pageimages-summary": "Devuelve información sobro les imaxes de la páxina, como miniatures y presencia de fotos.",
+	"apihelp-query+pageimages-example-1": "Llograr el nome y una miniatura de <kbd>100</kbd> píxeles d'una imaxe na páxina d'<kbd>Albert Einstein</kbd>.",
+	"apihelp-query+pageimages-param-prop": "Qué información devolver:\n;thumbnail:URL y dimensiones de la miniatura asociada cola páxina, si la hai.\n;original:URL y tamañu orixinal de la imaxe asociada cola páxina, si la hai.\n;name:Títulu de la imaxe.",
+	"apihelp-query+pageimages-param-thumbsize": "Anchor máximu en pixels de les miniatures.",
+	"apihelp-query+pageimages-param-limit": "Propiedaes de cuántes páxines devolver.",
+	"apihelp-query+pageimages-param-license": "Llendar les imáxenes de la páxina a les que tengan un determináu tipu de llicencia",
+	"apihelp-query+pageimages-paramvalue-license-free": "sólo imáxenes llibres",
+	"apihelp-query+pageimages-paramvalue-license-any": "la meyor imaxe, seya llibre o non."
+}

@@ -1,0 +1,40 @@
+{
+	"@metadata": {
+		"authors": [
+			"Gunnernett",
+			"Harald Khan",
+			"Njardarlogar"
+		]
+	},
+	"replacetext": "Byt ut tekst",
+	"replacetext-desc": "Gjev ei [[Special:ReplaceText|spesialsida]] som lèt administratorar søkja etter og byta ut tekst på alle innhaldssidene på ein wiki.",
+	"replacetext_docu": "For å byta ein tekststreng med ein annan på alle vanlege sider på denne wikien kan du skriva inn dei to tekstbitane her og klikka «{{int:replacetext_continue}}». Du vil då verta ført til ei liste over sidene som inneheld søkjestrengen, og du kan velja kva sider du ønskjer å byta han ut i. Namnet ditt vil stå i sidehistorikkane som den som er ansvarleg for endringane.",
+	"replacetext_originaltext": "Originaltekst:",
+	"replacetext_replacementtext": "Ny tekst til erstatning:",
+	"replacetext_optionalfilters": "Valfrie filter:",
+	"replacetext_categorysearch": "Byt berre ut i kategorien:",
+	"replacetext_prefixsearch": "Byt berre ut på sider med førestavinga:",
+	"replacetext_editpages": "Byt ut tekst i sideinnhaldet",
+	"replacetext_movepages": "Byt ut tekst i sidetitlar der dette er mogleg",
+	"replacetext_givetarget": "Du må spesifisera strengen som skal verta bytt ut.",
+	"replacetext_nonamespace": "Du må velja minst eitt namnerom.",
+	"replacetext_editormove": "Du må velja minst eitt av vala for tekstbyte.",
+	"replacetext_choosepagesforedit": "Vel {{PLURAL:$3|sida|sidene}} der du ønskjer å byta ut «$1» med «$2»:",
+	"replacetext_choosepagesformove": "Byt ut «$1» med «$2» i {{PLURAL:$3|namnet på den følgjande sida|namna på dei følgjande sidene}}:",
+	"replacetext_cannotmove": "{{PLURAL:$1|Den følgjande sida|Dei følgjande sidene}} kan ikkje bli flytta:",
+	"replacetext_formovedpages": "For flytta sider:",
+	"replacetext_savemovedpages": "Lagra dei gamle titlane som omdirigeringar til dei nye",
+	"replacetext_watchmovedpages": "Hald oppsyn med desse sidene",
+	"replacetext_invertselections": "Inverter val",
+	"replacetext_replace": "Byt ut",
+	"replacetext_success": "$1» blir byta ut med «$2» på {{PLURAL:$3|éi sida|$3 sider}}.",
+	"replacetext_noreplacement": "Fann ingen sider som inneheldt søkjestrengen «$1».",
+	"replacetext_nomove": "Ingen sider vart funne der tittelen inneheld «$1».",
+	"replacetext_nosuchcategory": "Det finst ingen kategoriar med namnet «$1».",
+	"replacetext_return": "Attende til skjemaet.",
+	"replacetext_warning": "Det finst {{PLURAL:$1|éi sida|$1 sider}} som allereie inneheld strengen som skal bli sett inn, «$2».\nOm du utfører denne utbytinga vil du ikkje vera i stand til å skilja utbytingane dine frå desse strengane.\nHalda fram med utbytinga?",
+	"replacetext_blankwarning": "Av di teksten som skal bli sett inn er tom, vil ikkje denne handlinga kunna bli køyrt omvendt.\nVil du halda fram?",
+	"replacetext_continue": "Hald fram",
+	"replacetext_editsummary": "Utbyting av tekst - «$1» til «$2»",
+	"right-replacetext": "Gjennomfør utbyting av tekst på heile wikien"
+}

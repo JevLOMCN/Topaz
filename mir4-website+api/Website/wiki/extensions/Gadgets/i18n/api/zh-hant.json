@@ -1,0 +1,33 @@
+{
+	"@metadata": {
+		"authors": [
+			"Cwlin0416",
+			"Kly",
+			"SunAfterRain",
+			"Translatealcd",
+			"Winston Sung"
+		]
+	},
+	"apihelp-query+gadgetcategories-summary": "回傳小工具分類清單。",
+	"apihelp-query+gadgetcategories-param-prop": "要取得的小工具分類資訊：",
+	"apihelp-query+gadgetcategories-paramvalue-prop-name": "內部分類名稱。",
+	"apihelp-query+gadgetcategories-paramvalue-prop-title": "分類標題。",
+	"apihelp-query+gadgetcategories-paramvalue-prop-members": "分類中的小工具數量。",
+	"apihelp-query+gadgetcategories-param-names": "要取得分類名稱。",
+	"apihelp-query+gadgetcategories-example-1": "取得已存在的小工具分類清單",
+	"apihelp-query+gadgetcategories-example-2": "取得所有有關分類名稱為 \"foo\" 與 \"bar\" 的資訊",
+	"apihelp-query+gadgets-summary": "回傳在此 wiki 使用過的小工具清單。",
+	"apihelp-query+gadgets-param-prop": "要取得的小工具資訊：",
+	"apihelp-query+gadgets-paramvalue-prop-id": "內部小工具ID。",
+	"apihelp-query+gadgets-paramvalue-prop-metadata": "小工具元資料。",
+	"apihelp-query+gadgets-paramvalue-prop-desc": "轉換成HTML的小工具說明（較慢，只在需要的時候使用）。",
+	"apihelp-query+gadgets-param-categories": "自那個分類取得小工具。",
+	"apihelp-query+gadgets-param-ids": "要取得小工具的 ID。",
+	"apihelp-query+gadgets-param-allowedonly": "只列出目前使用者可使用的小工具。",
+	"apihelp-query+gadgets-param-enabledonly": "只列出由目前使用者開啟的小工具。",
+	"apihelp-query+gadgets-example-1": "取得小工具及其描述清單",
+	"apihelp-query+gadgets-example-2": "取得小工具及其所有屬性清單",
+	"apihelp-query+gadgets-example-3": "取得屬於分類 \"foo\" 的小工具清單",
+	"apihelp-query+gadgets-example-4": "取得有關小工具 \"foo\" 與 \"bar\" 的資訊",
+	"apihelp-query+gadgets-example-5": "取得由目前使用者開啟的小工具清單"
+}

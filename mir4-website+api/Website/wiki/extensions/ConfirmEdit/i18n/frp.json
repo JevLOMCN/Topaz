@@ -1,0 +1,22 @@
+{
+	"@metadata": {
+		"authors": [
+			"ChrisPtDe"
+		]
+	},
+	"captcha-edit": "Por changiér ceta pâge, volyéd calcular l’opèracion simpla ce-desot et pués nen buchiér lo rèsultat dens la bouèta ([[Special:Captcha/help|més d’enformacions]]) :",
+	"captcha-desc": "Semond des tècniques CAPTCHA por protègiér contre lo spame et la dècuvèrta des contresegnos per un mouél de tentatives.",
+	"captcha-addurl": "Voutron changement encllut de lims de defôr novéls.\nPor nos édiér a combatre contre lo spame ôtomatisâ, volyéd calcular l’opèracion simpla ce-desot et pués nen buchiér lo rèsultat dens la bouèta ([[Special:Captcha/help|més d’enformacions]]) :",
+	"captcha-badlogin": "Por nos édiér a combatre contre lo cassâjo ôtomatisâ de contresegnos, volyéd calcular l’opèracion simpla ce-desot et pués nen buchiér lo rèsultat dedens la bouèta ([[Special:Captcha/help|més d’enformacions]]) :",
+	"captcha-createaccount": "Por nos édiér a combatre contre les crèacions ôtomatisâs de comptos, volyéd calcular l’opèracion simpla ce-desot et pués nen buchiér lo rèsultat dedens la bouèta ([[Special:Captcha/help|més d’enformacions]]) :",
+	"captcha-createaccount-fail": "Code de confirmacion fôx ou ben manquent.",
+	"captcha-create": "Por fâre ceta pâge, volyéd calcular l’opèracion simpla ce-desot et pués nen buchiér lo rèsultat dens la bouèta ([[Special:Captcha/help|més d’enformacions]]) :",
+	"captcha-sendemail": "Por nos édiér a combatre contre lo spame ôtomatisâ, volyéd calcular l’opèracion simpla ce-desot et pués nen buchiér lo rèsultat dedens la bouèta ([[Special:Captcha/help|més d’enformacions]]) :",
+	"captcha-sendemail-fail": "Code de confirmacion fôx ou ben manquent.",
+	"captcha-disabledinapi": "Ceta accion at fôta d’un captch·a, donc pôt pas étre fêta per l’API.",
+	"captchahelp-title": "Éde sur lo captch·a",
+	"captchahelp-cookies-needed": "Vos fôdrat ôtorisar los tèmouens (''cookies'') de voutron navigator por que cen fonccione.",
+	"captchahelp-text": "Los setos vouèbe qu’accèptont des contribucions du publico, coment ceti vouiqui, sont sovent victimos de spamors qu’utilisont des outils ôtomatisâs por betar tot plen de lims de vers lors setos.\nMémo se celos lims de spame pôvont étre suprimâs, nen réstont pas muens una nuésence visibla.\n\nDes côps, particuliérement pendent l’aponsa de lims de defôr novéls dens una pâge, lo vouiqui vos pôt montrar una émâge d’un tèxto colorâ, dèformâ ou ben tordu et pués vos demandar de buchiér los mots montrâs.\nMâlésiê a fâre de façon ôtomatisâ cél travâly, cen pèrmèt a la plepârt des homos de rèalisar lors contribucions tot en empachient la plepârt des spamors et des ôtros ataquents robotisâs.\n\nMâlherosament, ceta solucion pôt gênar los usanciérs mâl-veyents ou qu’utilisont un navigator en tèxto solèt ou ben vocal.\nPor lo moment, nos avens gins d’altèrnativa ôdiô.\nVos volyéd veriér vers los [[Special:ListAdmins|administrators du seto]] se cen vos empache de façon emprèvua de fâre des contribucions lèg·itimes.\n\nClicâd sur lo boton « Devant » de voutron navigator por tornar a la bouèta d’èdicion.",
+	"captcha-addurl-whitelist": " #<!-- lèssiéd ceta legne justo d’ense --> <pre>\n# La sintaxa est ceta :\n#  * Tot caractèro dês « # » tant qu’a la fin de la legne est considèrâ coment un comentèro.\n#  * Tota legne pas voueda est un bocon d’èxprèssion racionèla (*RegEx*) qu’analiserat ren que los hôtos dedens los lims hipèrtèxtos.\n #</pre> <!-- lèssiéd ceta legne justo d’ense -->",
+	"right-skipcaptcha": "Rèalisar des accions que dècllenchont un captch·a sen avêr a passar ceti"
+}

@@ -1,0 +1,22 @@
+{
+	"@metadata": {
+		"authors": [
+			"Abbas dhothar",
+			"Khalid Mahmood"
+		]
+	},
+	"gadgets-desc": "ورتن والیاں نوں کسٹم [[Special:Gadgets|CSS and JavaScript gadgets]] چنن دیو اپنیاں [[Special:Preferences#mw-prefsection-gadgets|تانگاں]] چ",
+	"prefs-gadgets": "گیجٹ",
+	"gadgets-prefstext": "تھلے خاص گیجٹ دی لسٹ اے  جینون تسیں اپنے کھاتے ج چلاسکدے او۔\nایہ گیجٹ جاواسکرپٹ تے چلدے نیں، ایس لئی جاواسکرپٹ تواڈے چ چلنا چائیدا اے اوناں نوں چلان لئی۔\nایہ گل یاد رکھنا جے ایناں گیجٹ دا اثر ایس تانگ صفے تے نئیں ہوندا۔\n\nایہ وی گل یاد رکھنا جے ایہ خاص گیجٹ میڈیاوکی سوفٹوئیر دا انگ نئیں، تے ایہ بناۓ جاندے نیں یا ورتن والے رکھدے نیں اپنے لوکل وکی تے۔\nمکھۓ تبدیل کرسکدے نیں [[MediaWiki:Gadgets-definition|definitions]] تے [[Special:Gadgets|descriptions]]  اپنے کول ہیگے گیجٹاں چ۔",
+	"special-gadgets": "گیجٹ",
+	"gadgets-title": "گیجٹ",
+	"gadgets-pagetext": "تھلے خاص گیجٹاں  دی اک لسٹ جینوں ورتن والے  اپنے [[Special:Preferences#mw-prefsection-gadgets|تانگاں والا صفحہ]] ، جیویں کے [[MediaWiki:Gadgets-definition|ڈیفینیشن]] چ دسیا گیا اے۔\nایہ وکھالہ اسان راہ پربندھ سنیعہ دا راہ دسدا اے جیدے چ ہر گیجٹ دا کم کاج تے کوڈ دتا گیا اے۔",
+	"gadgets-uses": "ورتن آلے",
+	"gadgets-required-rights": "{{PLURAL:$2|$1 حق|تھلے دتے گۓ حق: $1}} دی لوڑ اے۔",
+	"gadgets-default": "ہر اک لئی ڈیفالٹ راہیں قابل کیتا گیا۔",
+	"gadgets-export": "برامد کرو",
+	"gadgets-export-title": "گیجٹ برامد کرو",
+	"gadgets-not-found": "\"$1\" گیجٹ نئیں لبیا",
+	"gadgets-export-text": "$1 گیجٹ نوں اگے پیجن لئی  \"{{int:gadgets-export-download}}\" بٹن تے کلک کرو، کاپی کیتیاں فاغلاں نوں بچاؤ،\nSpecial:Import تے جاؤ وکی تے ، چرھاؤ اینوں۔ فیر تھلے دتے گۓ نوں MediaWiki:Gadgets-definition page گۓ نوں جوڑو: <pre>$2</pre>\nتواڈے کول لازمی اجازت ہونی چائیدی وکی تے (پربندھ سنیعے نوں تبدیل کرن دا) تے لیاندے ہوۓ چڑھائیاں فائلاں نوں قابل کیتے۔",
+	"gadgets-export-download": "ڈاؤنلوڈ"
+}

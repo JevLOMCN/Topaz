@@ -1,0 +1,30 @@
+{
+	"@metadata": {
+		"authors": [
+			"Als-Chlämens",
+			"Als-Holder",
+			"J. 'mach' wust"
+		]
+	},
+	"nuke": "Masseleschig",
+	"action-nuke": "Syte massenhaft lösche",
+	"nuke-desc": "Git Ammanne d Megligkeit fir e [[Special:Nuke|Masseleschig]] vu Syte",
+	"nuke-nopages": "In dr Letschte Änderige het s kei neije Syte vu [[Special:Contributions/$1|$1]].",
+	"nuke-list": "Die Syte sin vu [[Special:Contributions/$1|$1]] aagleit wore;\ngib e Kommentar yy un druck uf dr Leschchnopf.",
+	"nuke-list-multiple": "Die Syte sin vor churzem aagleit wore.\nSchryb e Kommentar un druck uf dr Chnopf go si lesche.",
+	"nuke-defaultreason": "Masseleschig vu Syte, wu vu „$1“ aagleit wore sin",
+	"nuke-multiplepeople": "Masselöschig vo Syte, wo vor churzem erstellt worde sin",
+	"nuke-tools": "Des Wärchzyyg git d Megligkeit fir e Masseleschig vu Syte, wu vun ere IP-Adräss oder vun eme Benutzer aagleit wore sin. Gib d IP-Adräss/dr Benutzername yy fir ne Lischt z iberchu. Wänn du kei Aagab machsch, wäre alli Benutzer uusgwehlt.",
+	"nuke-submit-user": "Hol Lischt",
+	"nuke-submit-delete": "Lesche",
+	"right-nuke": "Masseleschig vu Syte",
+	"nuke-userorip": "Benutzername, IP-Adräss oder kei Aagab:",
+	"nuke-maxpages": "Maximali Sytezahl:",
+	"nuke-editby": "Aagleit vu [[Special:Contributions/$1|$1]]",
+	"nuke-deleted": "Syte „$1“ isch glescht wore.",
+	"nuke-not-deleted": "Syte [[:$1]] '''het nit chönne''' glöscht werde.",
+	"nuke-delete-more": "[[Special:Nuke|Wyteri Syte lösche]]",
+	"nuke-pattern": "Muster für de Sytename:",
+	"nuke-nopages-global": "Es git kei neui Syte unter de [[Special:RecentChanges|letschte Änderige]].",
+	"nuke-viewchanges": "Änderige zeige"
+}

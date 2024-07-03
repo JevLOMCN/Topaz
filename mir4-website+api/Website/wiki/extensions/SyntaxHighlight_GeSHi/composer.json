@@ -1,0 +1,51 @@
+{
+	"name": "mediawiki/syntax-highlight",
+	"description": "Syntax highlighting extension for MediaWiki",
+	"require-dev": {
+		"mediawiki/mediawiki-codesniffer": "43.0.0",
+		"mediawiki/mediawiki-phan-config": "0.14.0",
+		"mediawiki/minus-x": "1.1.1",
+		"php-parallel-lint/php-console-highlighter": "1.0.0",
+		"php-parallel-lint/php-parallel-lint": "1.3.2"
+	},
+	"license": "GPL-2.0-or-later",
+	"authors": [
+		{
+			"name": "Brion Vibber",
+			"email": "brion@wikimedia.org"
+		},
+		{
+			"name": "Niklas Laxström",
+			"email": "nlaxstrom@wikimedia.org"
+		},
+		{
+			"name": "Ori Livneh",
+			"email": "ori@wikimedia.org"
+		},
+		{
+			"name": "Rob Church"
+		},
+		{
+			"name": "Tim Starling",
+			"email": "tstarling@wikimedia.org"
+		}
+	],
+	"scripts": {
+		"fix": [
+			"minus-x fix .",
+			"phpcbf"
+		],
+		"test": [
+			"parallel-lint . --exclude vendor --exclude node_modules",
+			"@phpcs",
+			"minus-x check ."
+		],
+		"phan": "phan -d . --long-progress-bar",
+		"phpcs": "phpcs -sp --cache"
+	},
+	"config": {
+		"allow-plugins": {
+			"dealerdirect/phpcodesniffer-composer-installer": true
+		}
+	}
+}

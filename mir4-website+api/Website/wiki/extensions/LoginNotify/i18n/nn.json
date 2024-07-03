@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Njardarlogar"
+		]
+	},
+	"echo-pref-tooltip-login-fail": "Meld meg når det har vore mislukka freistnader på logga inn på kontoen min.",
+	"notification-loginnotify-login-success-email-subject": "Innlogging på {{SITENAME}} som $1 frå ei eining {{GENDER:$1|du}} ikkje har nytta i det siste",
+	"notification-header-login-success": "Nokon (truleg {{GENDER:$1|du}}) logga nyleg inn på kontoen din frå ei ny eining. Om dette var deg kan du sjå bort frå denne meldinga. Om det ikkje var deg bør du endra passordet ditt og gå gjennom aktiviteten til kontoen din.",
+	"notification-new-unbundled-header-login-fail": "Det har vore '''{{PLURAL:$1|éin mislukka|fleire mislukka}} freistnader''' på å logga inn på kontoen din frå ei ny eining. Gjer deg viss på at kontoen din har eit sterkt passord."
+}

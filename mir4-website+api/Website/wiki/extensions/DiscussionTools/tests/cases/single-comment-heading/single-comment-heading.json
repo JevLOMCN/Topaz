@@ -1,0 +1,43 @@
+[
+	{
+		"placeholderHeading": false,
+		"type": "heading",
+		"range": [
+			"1/0/0",
+			"1/0/1"
+		],
+		"headingLevel": 2,
+		"level": 0,
+		"name": "h-Matma_Rex-2020-01-22T23:19:00.000Z",
+		"id": "h-hello-2020-01-22T23:19:00.000Z",
+		"warnings": [],
+		"replies": [
+			{
+				"type": "comment",
+				"timestamp": "2020-01-22T23:19:00.000Z",
+				"author": "Matma Rex",
+				"range": [
+					"3/0",
+					"3/2/29"
+				],
+				"signatureRanges": [
+					[
+						"3/1",
+						"3/2/29"
+					]
+				],
+				"timestampRanges": [
+					[
+						"3/2/1",
+						"3/2/29"
+					]
+				],
+				"level": 1,
+				"name": "c-Matma_Rex-2020-01-22T23:19:00.000Z",
+				"id": "c-Matma_Rex-2020-01-22T23:19:00.000Z-hello",
+				"warnings": [],
+				"replies": []
+			}
+		]
+	}
+]

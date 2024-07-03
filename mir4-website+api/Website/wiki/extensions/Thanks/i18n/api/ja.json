@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"Afaz",
+			"Marine-Blue",
+			"Waki285"
+		]
+	},
+	"apihelp-flowthank-summary": "コメントに対して感謝の通知を送信する。",
+	"apihelp-flowthank-param-postid": "感謝する投稿のUUID。",
+	"apihelp-thank-summary": "編集者に感謝の通知を送信する。",
+	"apihelp-thank-param-rev": "感謝する版のID。これか、または「log」を指定する必要があります。"
+}

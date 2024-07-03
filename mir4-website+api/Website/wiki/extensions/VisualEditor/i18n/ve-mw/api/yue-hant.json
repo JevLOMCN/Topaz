@@ -1,0 +1,19 @@
+{
+	"@metadata": {
+		"authors": [
+			"Winston Sung"
+		]
+	},
+	"apierror-visualeditor-difffailed": "比較失敗",
+	"apihelp-visualeditor-param-basetimestamp": "保存嗰陣，將爾個設成編輯嘅版本嘅時間戳。用來檢測編輯衝突。",
+	"apihelp-visualeditor-param-html": "發畀Parsoid來轉成維基代碼嘅HTML代碼",
+	"apihelp-visualeditor-param-oldid": "所用嘅修訂版本號（默認設成上一個版本）",
+	"apihelp-visualeditor-param-paction": "要操嘅作",
+	"apihelp-visualeditor-param-starttimestamp": "保存嗰陣，將爾個設成加載嘅版本嘅時間戳。用來檢測編輯衝突。",
+	"apihelp-visualeditor-param-wikitext": "發畀Parsoid來轉成HTML代碼嘅維基代碼\n(paction=parsefragment)。",
+	"apihelp-visualeditoredit-param-captchaid": "Captcha ID (保存captcha響應嗰時用)。",
+	"apihelp-visualeditoredit-param-minor": "細修改嘅標記。",
+	"apihelp-visualeditoredit-param-oldid": "所用修訂版本號。默認用上一個版本。用 0 表示新開版。",
+	"apihelp-visualeditoredit-param-starttimestamp": "保存嗰陣，將爾個設成加載嘅版本嘅時間戳。用來檢測編輯衝突。",
+	"apihelp-visualeditoredit-param-summary": "編輯摘要。"
+}

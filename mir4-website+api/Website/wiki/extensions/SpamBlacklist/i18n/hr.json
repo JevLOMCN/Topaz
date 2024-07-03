@@ -1,0 +1,19 @@
+{
+	"@metadata": {
+		"authors": [
+			"Bugoslav",
+			"Dnik",
+			"MaGa",
+			"Roberta F.",
+			"SpeedyGonsales"
+		]
+	},
+	"spam-blacklist": " # Vanjske URLovi koji budu pronađeni pomoću ovog popisa nije moguće snimiti na stranicu wikija.\n # Ovaj popis utječe samo na ovaj wiki; provjerite globalnu \"crnu listu\".\n # Za dokumentaciju pogledajte https://www.mediawiki.org/wiki/Extension:SpamBlacklist\n #<!-- leave this line exactly as it is --> <pre>\n#\n# Rabi se sljedeća sintaksa:\n#   * Sve poslije \"#\" znaka do kraja linije je komentar\n#   * svaki redak koji nije prazan dio je regularnog izraza (''regex fragment'') koji odgovara imenu poslužitelja u URL-u\n\n #</pre> <!-- leave this line exactly as it is -->",
+	"spam-whitelist": " #<!-- leave this line exactly as it is --> <pre>\n# Vanjski URLovi koji budu pronađeni pomoću ovog popisa nisu blokirani\n# čak iako se nalaze na \"crnom popisu\".\n#\n# Rabi se sljedeća sintaksa:\n#   * sve poslije \"#\" znaka do kraja linije je komentar\n#   * svaki neprazni redak je dio regularnog izraza (''regex fragment'') koji odgovara imenu poslužitelja u URL-u\n\n #</pre> <!-- leave this line exactly as it is -->",
+	"spam-blacklisted-email": "Zabranjena adresa e-pošte",
+	"spam-blacklisted-email-text": "Vaša adresa e-pošte trenutačno je zabranjena za slanje e-poruka drugim suradnicima.",
+	"spam-blacklisted-email-signup": "Dana adresa e-pošte trenutačno je zabranjena za upotrebljavanje.",
+	"spam-invalid-lines": "{{PLURAL:$1|Sljedeći redak|Sljedeći redovi|Sljedeći redovi}} \"crnog popisa\" spama {{PLURAL:$1|je|su}} nevaljani {{PLURAL:$1|regularan izraz|regularni izrazi|regularni izrazi}} i {{PLURAL:$1|mora|moraju|moraju}} biti ispravljeni prije snimanja ove stranice:",
+	"spam-blacklist-desc": "Anti-spam alat zasnovan na reg. izrazima: [[MediaWiki:Spam-blacklist]] i [[MediaWiki:Spam-whitelist]]",
+	"log-name-spamblacklist": "Evidencija crne liste neželjenoga sadržaja"
+}

@@ -1,0 +1,146 @@
+!! version 2
+
+!! test
+Smoke test for duplicated references with the same text
+!! wikitext
+<ref name="a">text</ref>
+<ref name="a">text</ref>
+<ref name="b">other</ref>
+!! html
+<p><sup id="cite_ref-a_1-0" class="reference"><a href="#cite_note-a-1">&#91;1&#93;</a></sup>
+<sup id="cite_ref-a_1-1" class="reference"><a href="#cite_note-a-1">&#91;1&#93;</a></sup>
+<sup id="cite_ref-b_2-0" class="reference"><a href="#cite_note-b-2">&#91;2&#93;</a></sup>
+</p>
+<div class="mw-references-wrap"><ol class="references">
+<li id="cite_note-a-1"><span class="mw-cite-backlink">↑ <sup><a href="#cite_ref-a_1-0">1.0</a></sup> <sup><a href="#cite_ref-a_1-1">1.1</a></sup></span> <span class="reference-text">text</span>
+</li>
+<li id="cite_note-b-2"><span class="mw-cite-backlink"><a href="#cite_ref-b_2-0">↑</a></span> <span class="reference-text">other</span>
+</li>
+</ol></div>
+!! end
+
+!! test
+Smoke test for duplicated references with conflicting text
+!! wikitext
+<ref name="a">text</ref>
+<ref name="a">bad</ref>
+<ref name="b">other</ref>
+!! html
+<p><sup id="cite_ref-a_1-0" class="reference"><a href="#cite_note-a-1">&#91;1&#93;</a></sup>
+<sup id="cite_ref-a_1-1" class="reference"><a href="#cite_note-a-1">&#91;1&#93;</a></sup>
+<sup id="cite_ref-b_2-0" class="reference"><a href="#cite_note-b-2">&#91;2&#93;</a></sup>
+</p>
+<div class="mw-references-wrap"><ol class="references">
+<li id="cite_note-a-1"><span class="mw-cite-backlink">↑ <sup><a href="#cite_ref-a_1-0">1.0</a></sup> <sup><a href="#cite_ref-a_1-1">1.1</a></sup></span> <span class="reference-text">text <span class="error mw-ext-cite-error" lang="en" dir="ltr">Cite error: Invalid <code>&lt;ref&gt;</code> tag; name "a" defined multiple times with different content</span></span>
+</li>
+<li id="cite_note-b-2"><span class="mw-cite-backlink"><a href="#cite_ref-b_2-0">↑</a></span> <span class="reference-text">other</span>
+</li>
+</ol></div>
+!! end
+
+!! test
+Smoke test for references that are reused *before* defined in the text
+!! options
+language=de
+!! wikitext
+<ref name="a" />
+<ref name="a" />
+<ref name="a" />
+<ref name="a" />
+<ref name="a" />
+<ref name="a" />
+<ref name="a" />
+<ref name="a" />
+<ref name="a" />
+<ref name="a" />
+<ref name="a">text</ref>
+<ref name="b">other</ref>
+!! html
+<p><sup id="cite_ref-a_1-0" class="reference"><a href="#cite_note-a-1">&#91;1&#93;</a></sup>
+<sup id="cite_ref-a_1-1" class="reference"><a href="#cite_note-a-1">&#91;1&#93;</a></sup>
+<sup id="cite_ref-a_1-2" class="reference"><a href="#cite_note-a-1">&#91;1&#93;</a></sup>
+<sup id="cite_ref-a_1-3" class="reference"><a href="#cite_note-a-1">&#91;1&#93;</a></sup>
+<sup id="cite_ref-a_1-4" class="reference"><a href="#cite_note-a-1">&#91;1&#93;</a></sup>
+<sup id="cite_ref-a_1-5" class="reference"><a href="#cite_note-a-1">&#91;1&#93;</a></sup>
+<sup id="cite_ref-a_1-6" class="reference"><a href="#cite_note-a-1">&#91;1&#93;</a></sup>
+<sup id="cite_ref-a_1-7" class="reference"><a href="#cite_note-a-1">&#91;1&#93;</a></sup>
+<sup id="cite_ref-a_1-8" class="reference"><a href="#cite_note-a-1">&#91;1&#93;</a></sup>
+<sup id="cite_ref-a_1-9" class="reference"><a href="#cite_note-a-1">&#91;1&#93;</a></sup>
+<sup id="cite_ref-a_1-10" class="reference"><a href="#cite_note-a-1">&#91;1&#93;</a></sup>
+<sup id="cite_ref-b_2-0" class="reference"><a href="#cite_note-b-2">&#91;2&#93;</a></sup>
+</p>
+<div class="mw-references-wrap"><ol class="references">
+<li id="cite_note-a-1"><span class="mw-cite-backlink">↑ <sup><a href="#cite_ref-a_1-0">1,00</a></sup> <sup><a href="#cite_ref-a_1-1">1,01</a></sup> <sup><a href="#cite_ref-a_1-2">1,02</a></sup> <sup><a href="#cite_ref-a_1-3">1,03</a></sup> <sup><a href="#cite_ref-a_1-4">1,04</a></sup> <sup><a href="#cite_ref-a_1-5">1,05</a></sup> <sup><a href="#cite_ref-a_1-6">1,06</a></sup> <sup><a href="#cite_ref-a_1-7">1,07</a></sup> <sup><a href="#cite_ref-a_1-8">1,08</a></sup> <sup><a href="#cite_ref-a_1-9">1,09</a></sup> <sup><a href="#cite_ref-a_1-10">1,10</a></sup></span> <span class="reference-text">text</span>
+</li>
+<li id="cite_note-b-2"><span class="mw-cite-backlink"><a href="#cite_ref-b_2-0">↑</a></span> <span class="reference-text">other</span>
+</li>
+</ol></div>
+!! end
+
+!! test
+Smoke test for references that are reused *before* defined in <references>
+!! wikitext
+<ref name="a" />
+<ref name="a" />
+<ref name="b">other</ref>
+<references>
+<ref name="a">text</ref>
+</references>
+!! html
+<p><sup id="cite_ref-a_1-0" class="reference"><a href="#cite_note-a-1">&#91;1&#93;</a></sup>
+<sup id="cite_ref-a_1-1" class="reference"><a href="#cite_note-a-1">&#91;1&#93;</a></sup>
+<sup id="cite_ref-b_2-0" class="reference"><a href="#cite_note-b-2">&#91;2&#93;</a></sup>
+</p>
+<div class="mw-references-wrap"><ol class="references">
+<li id="cite_note-a-1"><span class="mw-cite-backlink">↑ <sup><a href="#cite_ref-a_1-0">1.0</a></sup> <sup><a href="#cite_ref-a_1-1">1.1</a></sup></span> <span class="reference-text">text</span>
+</li>
+<li id="cite_note-b-2"><span class="mw-cite-backlink"><a href="#cite_ref-b_2-0">↑</a></span> <span class="reference-text">other</span>
+</li>
+</ol></div>
+!! end
+
+!! test
+It should be impossible to roll back a follow="…", because it can't have a name
+!! wikitext
+<ref name="a" />
+<ref name="b">should be 2</ref>
+<references>
+<ref name="a">should be 1</ref>
+<ref name="c" follow="other page">is invalid</ref>
+</references>
+!! html
+<p><sup id="cite_ref-a_1-0" class="reference"><a href="#cite_note-a-1">&#91;1&#93;</a></sup>
+<sup id="cite_ref-b_2-0" class="reference"><a href="#cite_note-b-2">&#91;2&#93;</a></sup>
+</p>
+<div class="mw-references-wrap"><ol class="references">
+<li id="cite_note-a-1"><span class="mw-cite-backlink"><a href="#cite_ref-a_1-0">↑</a></span> <span class="reference-text">should be 1</span>
+</li>
+<li id="cite_note-b-2"><span class="mw-cite-backlink"><a href="#cite_ref-b_2-0">↑</a></span> <span class="reference-text">should be 2</span>
+</li>
+</ol></div>
+<p><span class="error mw-ext-cite-error" lang="en" dir="ltr">Cite error: A <code>&lt;ref follow="…"&gt;</code> tag that is the continuation of a previous one can neither be named individually nor extended</span>
+</p>
+!! end
+
+!! test
+It should be impossible to roll back a follow="…", because it must have a name
+!! wikitext
+<ref name="a" />
+<ref name="b">should be 2</ref>
+<references>
+<ref name="a">should be 1</ref>
+<ref follow="other page">is invalid</ref>
+</references>
+!! html
+<p><sup id="cite_ref-a_1-0" class="reference"><a href="#cite_note-a-1">&#91;1&#93;</a></sup>
+<sup id="cite_ref-b_2-0" class="reference"><a href="#cite_note-b-2">&#91;2&#93;</a></sup>
+</p>
+<div class="mw-references-wrap"><ol class="references">
+<li id="cite_note-a-1"><span class="mw-cite-backlink"><a href="#cite_ref-a_1-0">↑</a></span> <span class="reference-text">should be 1</span>
+</li>
+<li id="cite_note-b-2"><span class="mw-cite-backlink"><a href="#cite_ref-b_2-0">↑</a></span> <span class="reference-text">should be 2</span>
+</li>
+</ol></div>
+<p><span class="error mw-ext-cite-error" lang="en" dir="ltr">Cite error: <code>&lt;ref&gt;</code> tag defined in <code>&lt;references&gt;</code> has no name attribute.</span>
+</p>
+!! end

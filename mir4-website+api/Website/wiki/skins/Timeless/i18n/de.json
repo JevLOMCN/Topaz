@@ -1,0 +1,31 @@
+{
+	"@metadata": {
+		"authors": [
+			"Kghbln",
+			"Metalhead64",
+			"Tobi 406",
+			"WikiBayer"
+		]
+	},
+	"timeless-desc": "Stellt eine zeitlose Benutzeroberfläche bereit",
+	"timeless-anonymous": "Anonym",
+	"timeless-loggedinas": "Angemeldet als '''$1'''",
+	"timeless-notloggedin": "Nicht angemeldet",
+	"timeless-userpage": "{{GENDER:$1|Benutzerseite}}",
+	"timeless-talkpage": "{{GENDER:$1|Benutzerdiskussion}}",
+	"timeless-pagelog": "Seitenlogbücher",
+	"timeless-more": "Mehr",
+	"timeless-sitetools": "Wikiwerkzeuge",
+	"timeless-pageactions": "Seitenwerkzeuge",
+	"timeless-userpagetools": "Benutzerseitenwerkzeuge",
+	"timeless-action-addsection": "Neues Thema",
+	"timeless-view-view": "Lesen",
+	"timeless-pagemisc": "Mehr",
+	"timeless-namespaces": "Namensräume",
+	"timeless-pagetools": "Seitenaktionen",
+	"timeless-languages": "Sprachen",
+	"timeless-projects": "Weitere Projekte",
+	"timeless.js": "/* JavaScript an dieser Stelle wird für Benutzer geladen, die die Benutzeroberfläche „Timeless“ verwenden */",
+	"timeless-view-history": "Versionsgeschichte",
+	"timeless-action-undelete": "{{PLURAL:$1|1 Version|$1 Versionen}} wiederherstellen"
+}

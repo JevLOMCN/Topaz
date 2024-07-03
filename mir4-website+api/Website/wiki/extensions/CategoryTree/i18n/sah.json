@@ -1,0 +1,34 @@
+{
+	"@metadata": {
+		"authors": [
+			"HalanTul"
+		]
+	},
+	"categorytree": "Категориялар мас курдук",
+	"categorytree-portlet": "Категориялар",
+	"categorytree-legend": "Категориялар тутулларын көрдөр",
+	"categorytree-desc": "Биики [[Special:CategoryTree|категорияларын тутулун]] көрдөрөр AJAX-компонент",
+	"categorytree-header": "Категория аатын киллэрдэххинэ мас курдук көстүөҕэ.\nБу кыаҕы браузерыҥ AJAX-ы туһанар эрэ буоллаҕына туттар кыахтааххын.\nБраузерыҥ эргэ буоллаҕына эбэтэр JavaScript арахсыбыт буоллаҕына субкатегорийалары мас курдук көрөр сатаммат.",
+	"categorytree-category": "Категория:",
+	"categorytree-go": "Көрдөр",
+	"categorytree-parents": "Төрөппүттэрэ",
+	"categorytree-mode-categories": "категориялар эрэ",
+	"categorytree-mode-pages": "билэттэн ураты (билэ буолбатах) сирэйдэр",
+	"categorytree-mode-all": "бары сирэйдэр",
+	"categorytree-collapse": "сап",
+	"categorytree-expand": "тэнит",
+	"categorytree-member-counts": "$1 {{PLURAL:$1|субкатегориялаах|субкатегориялардаах}}, $2 {{PLURAL:$2|сирэйдээх|сирэйдэрдээх}} уонна $3 {{PLURAL:$3|билэлээх|билэлэрдээх}}",
+	"categorytree-num-categories": "$1 К",
+	"categorytree-num-pages": "$1 С",
+	"categorytree-num-files": "$1 Ф",
+	"categorytree-num-empty": "кураанах",
+	"categorytree-load": "киллэр",
+	"categorytree-loading": "киллэрии",
+	"categorytree-nothing-found": "бу категория подкатегорията суох",
+	"categorytree-no-subcategories": "субкатегорията суох",
+	"categorytree-no-parent-categories": "төрөппүт категорията суох",
+	"categorytree-no-pages": "ыстатыйата эбэтэр субкатегорията суох",
+	"categorytree-not-found": "<i>$1</i> категория көстүбэтэ",
+	"categorytree-error": "Билэни суруйарга алҕас таҕыста",
+	"categorytree-retry": "Кыратык кэтэһэ түһэн баран өссө боруобалаа"
+}

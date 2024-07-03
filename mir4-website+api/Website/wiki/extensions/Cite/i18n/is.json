@@ -1,0 +1,42 @@
+{
+	"@metadata": {
+		"authors": [
+			"Snævar",
+			"Stefán Örvar Sigmundsson",
+			"Sveinn í Felli"
+		]
+	},
+	"cite-desc": "Bætir við <code>&lt;ref&gt;</code> og <code>&lt;references&gt;</code> tögum við heimildir",
+	"cite_error": "Tilvísunar villa: $1",
+	"cite_error_ref_invalid_dir": "Ógilt <code>dir=\"$1\"</code>, verður að vera <code>ltr</code> eða <code>rtl</code>",
+	"cite_error_ref_numeric_key": "Villa í <code>&lt;ref&gt;</code> tag; nafn tilvísunar má ekki vera heil tala. Notaðu lýsandi titil",
+	"cite_error_ref_no_key": "Opna <code>&lt;ref&gt;</code> merkið er gallað eða hefur ógilt nafn",
+	"cite_error_ref_too_many_keys": "Villa í <code>&lt;ref&gt;</code> tag; ógilt nafn, t.d. of mörg",
+	"cite_error_ref_nested_extends": "Stækkun <code>&lt;ref&gt;</code> tags um meira en um eitt stig er ekki leyfilegt",
+	"cite_error_ref_no_input": "Villa í <code>&lt;ref&gt;</code> tag; tilvísunin verður annaðhvort að hafa nafn eða innihald.",
+	"cite_error_references_duplicate_key": "Ógilt <code>&lt;ref&gt;</code> tag; nafnið \"$1\" gefið nokkrum sinnum með mismunandi innihaldi",
+	"cite_error_references_invalid_parameters": "Ógild færibreyta í <code>&lt;references&gt;</code> merkinu",
+	"cite_error_no_link_label_group": "Uppurin sérstök merki fyrir hóp \"$1\". Skilgreindu fleiri í [[MediaWiki:$2]] skilaboðunum.",
+	"cite_error_references_no_text": "Villa í <code>&lt;ref&gt;</code> tag; tilgreindu texta fyrir tilvísun með nafnið <code>$1</code>",
+	"cite_error_included_ref": "Loka þarf tilvísunni með <code>&lt;/ref&gt;</code> tagi",
+	"cite_error_included_references": "Lokunar tag vantar fyrir <code>&lt;references&gt;</code>",
+	"cite_error_group_refs_without_references": "<code>&lt;ref&gt;</code> tag er til fyrir hóp tilvísana undir nafninu \"$1\". Ekkert sambærilegt <code>&lt;references group=\"$1\"/&gt;</code> tag fannst.",
+	"cite_error_references_group_mismatch": "<code>&lt;ref&gt;</code>-merki í <code>&lt;references&gt;</code> hefur ósamkvæma hópeigindið „$1“.",
+	"cite_error_references_missing_key": "<code>&lt;ref&gt;</code> tag með nafnið \"$1\" og er skilgreint í <code>&lt;references&gt;</code> er ekki notað í textanum á undan.",
+	"cite_error_references_no_key": "<code>&lt;ref&gt;</code>-merki skilgreint í <code>&lt;references&gt;</code> hefur ekkert name-eigindi.",
+	"cite_error_empty_references_define": "Bæta þarf innihaldi við tilvísun með nafnið \"$1\".",
+	"cite-tracking-category-cite-error": "Síður með tilvísunarvillur",
+	"cite-tracking-category-cite-error-desc": "Síður í þessum flokki hafa villur í notkun heimildamerkja.",
+	"cite_references_link_many_format_backlink_labels": "a á b d ð e é f g h i í j k l m n o ó p r s t u ú v x y ý þ æ ö aa aá ab ad að ae aé af ag ah ai aí aj ak al am an ao aó ap ar as at au aú av ax ay aý aþ aæ aö áa áá áb ád áð áe áé áf ág áh ái áí áj ák ál ám án áo áó áp ár ás át áu áú áv áx áy áý áþ áæ áö ba bá bb bd bð be bé bf bg bh bi bí bj bk bl bm bn bo bó bp br bs bt bu bú bv bx by bý bþ bæ bö da dá db dd dð de dé df dg dh di dí dj dk dl dm dn do dó dp dr ds dt du dú dv dx dy dý dþ dæ dö ða ðá ðb ðd ðð ðe ðé ðf ðg ðh ði ðí ðj ðk ðl ðm ðn ðo ðó ðp ðr ðs ðt ðu ðú ðv ðx ðy ðý ðþ ðæ ðö ea eá eb ed eð ee eé ef eg eh ei eí ej ek el em en eo eó ep er es et eu eú ev ex ey eý eþ eæ eö éa éá éb éd éð ée éé éf ég éh éi éí éj ék él ém én éo éó ép ér és ét éu éú év éx éy éý éþ éæ éö fa fá fb fd fð fe fé ff fg fh fi fí fj fk fl fm fn fo fó fp fr fs ft fu fú fv fx fy fý fþ fæ fö ga gá gb gd gð ge gé gf gg gh gi gí gj gk gl gm gn go gó gp gr gs gt gu gú gv gx gy gý gþ gæ gö ha há hb hd hð he hé hf hg hh hi hí hj hk hl hm hn ho hó hp hr hs ht hu hú hv hx hy hý hþ hæ hö ia iá ib id ið ie ié if ig ih ii ií ij ik il im in io ió ip ir is it iu iú iv ix iy iý iþ iæ iö ía íá íb íd íð íe íé íf íg íh íi íí íj ík íl ím ín ío íó íp ír ís ít íu íú ív íx íy íý íþ íæ íö ja já jb jd jð je jé jf jg jh ji jí jj jk jl jm jn jo jó jp jr js jt ju jú jv jx jy jý jþ jæ jö ka ká kb kd kð ke ké kf kg kh ki kí kj kk kl km kn ko kó kp kr ks kt ku kú kv kx ky ký kþ kæ kö la lá lb ld lð le lé lf lg lh li lí lj lk ll lm ln lo ló lp lr ls lt lu lú lv lx ly lý lþ læ lö ma má mb md mð me mé mf mg mh mi mí mj mk ml mm mn mo mó mp mr ms mt mu mú mv mx my mý mþ mæ mö na ná nb nd nð ne né nf ng nh ni ní nj nk nl nm nn no nó np nr ns nt nu nú nv nx ny ný nþ næ nö oa oá ob od oð oe oé of og oh oi oí oj ok ol om on oo oó op or os ot ou oú ov ox oy oý oþ oæ oö óa óá ób ód óð óe óé óf óg óh ói óí ój ók ól óm ón óo óó óp ór ós ót óu óú óv óx óy óý óþ óæ óö pa pá pb pd pð pe pé pf pg ph pi pí pj pk pl pm pn po pó pp pr ps pt pu pú pv px py pý pþ pæ pö ra rá rb rd rð re ré rf rg rh ri rí rj rk rl rm rn ro ró rp rr rs rt ru rú rv rx ry rý rþ ræ rö sa sá sb sd sð se sé sf sg sh si sí sj sk sl sm sn so só sp sr ss st su sú sv sx sy sý sþ sæ sö ta tá tb td tð te té tf tg th ti tí tj tk tl tm tn to tó tp tr ts tt tu tú tv tx ty tý tþ tæ tö ua uá ub ud uð ue ué uf ug uh ui uí uj uk ul um un uo uó up ur us ut uu uú uv ux uy uý uþ uæ uö úa úá úb úd úð úe úé úf úg úh úi úí új úk úl úm ún úo úó úp úr ús út úu úú úv úx úy úý úþ úæ úö va vá vb vd vð ve vé vf vg vh vi ví vj vk vl vm vn vo vó vp vr vs vt vu vú vv vx vy vý vþ væ vö xa xá xb xd xð xe xé xf xg xh xi xí xj xk xl xm xn xo xó xp xr xs xt xu xú xv xx xy xý xþ xæ xö ya yá yb yd yð ye yé yf yg yh yi yí yj yk yl ym yn yo yó yp yr ys yt yu yú yv yx yy yý yþ yæ yö ýa ýá ýb ýd ýð ýe ýé ýf ýg ýh ýi ýí ýj ýk ýl ým ýn ýo ýó ýp ýr ýs ýt ýu ýú ýv ýx ýy ýý ýþ ýæ ýö þa þá þb þd þð þe þé þf þg þh þi þí þj þk þl þm þn þo þó þp þr þs þt þu þú þv þx þy þý þþ þæ þö æa æá æb æd æð æe æé æf æg æh æi æí æj æk æl æm æn æo æó æp ær æs æt æu æú æv æx æy æý æþ ææ æö öa öá öb öd öð öe öé öf ög öh öi öí öj ök öl öm ön öo öó öp ör ös öt öu öú öv öx öy öý öþ öæ öö",
+	"cite_references_link_accessibility_label": "Stökkva upp",
+	"cite_references_link_many_accessibility_label": "Stökkva upp til:",
+	"cite_references_link_accessibility_back_label": "Stökkva aftur til baka",
+	"cite_section_preview_references": "Forskoðun heimilda",
+	"cite_warning": "Heimilda viðvöru: $1",
+	"cite_warning_sectionpreview_no_text": "<code>&lt;ref&gt;</code> tag með nafninu <code>$1</code> er ekki hægt að forskoða því það er skilgreint utan við núverandi kafla eða alls ekki skilgreint.",
+	"cite-wikieditor-tool-reference": "Tilvísanir",
+	"cite-wikieditor-help-page-references": "Heimildir",
+	"cite-wikieditor-help-content-reference-description": "Tilvísun",
+	"cite-wikieditor-help-content-rereference-description": "Áframhaldandi notkun á sömu tilvísun",
+	"cite-wikieditor-help-content-showreferences-description": "Sýna tilvísanir"
+}

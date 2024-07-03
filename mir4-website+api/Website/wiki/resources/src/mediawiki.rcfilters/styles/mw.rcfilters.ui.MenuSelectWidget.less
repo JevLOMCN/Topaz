@@ -1,0 +1,32 @@
+@import 'mediawiki.skin.variables.less';
+@import 'mw.rcfilters.variables.less';
+@import 'mediawiki.mixins.less';
+
+.mw-rcfilters-ui-menuSelectWidget {
+	z-index: auto;
+	max-width: 650px;
+
+	&.oo-ui-menuSelectWidget-invisible {
+		display: block;
+	}
+
+	&-noresults {
+		color: @color-subtle;
+		padding: 12 / @font-size-system-ui / @font-size-vector;
+	}
+
+	&-body {
+		max-height: 70vh;
+		min-width: 100%;
+	}
+
+	&-footer {
+		background-color: @background-color-neutral-subtle;
+		border-top: @border-subtle;
+		padding: 12 / @font-size-system-ui / @font-size-vector;
+
+		& + & {
+			border-top: 0;
+		}
+	}
+}

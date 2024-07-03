@@ -1,0 +1,37 @@
+{
+	"@metadata": {
+		"authors": [
+			"Ansumang",
+			"Hindustanilanguage",
+			"Kaustubh",
+			"Mayur",
+			"Prong$31",
+			"Saurmandal",
+			"Sfic",
+			"Shyam",
+			"Siddhartha Ghai"
+		]
+	},
+	"gadgets-desc": "सदस्यों को उनकी [[Special:Preferences#mw-prefsection-gadgets|वरीयताओं]] में से चुनिंदा [[Special:Gadgets|CSS और जावालिपि जुगत]] चुनने दो।",
+	"prefs-gadgets": "गैजेट्स",
+	"gadgets-prefstext": "नीचे विशेष गैजेट्स की सूची दी गई है जिन्हें आप अपने खाते पर सक्षम कर सकते हैं।\nये गैजेट्स ज़्यादातर जावास्क्रिप्ट पर आधारित हैं, तो इनके काम करने के लिए आपके ब्राउज़र में जावास्क्रिप्ट को सक्षम होना होगा।\nध्यान रखें कि वरीयताओं के इस पृष्ठ पर गैजेट्स का कोई प्रभाव नहीं होगा।\n\nइस बात का भी ध्यान रखें कि गैजेट्स मीडियाविकि सॉफ़्टवेयर का हिस्सा नहीं हैं, और इन्हें आम तौर पर आपके लोकल विकि पर सदस्यों द्वारा विकसित और अनुरक्षित किया जाता है।\nलोकल इंटरफ़ेस प्रबंधक उपलब्ध गैजेट्स की [[MediaWiki:Gadgets-definition|परिभाषाओं]] को बदल सकते हैं, और लोकल प्रबंधक इनके [[Special:Gadgets|विवरणों]], जहाँ आप हर गैजेट का स्रोत कोड देख सकते हैं। इस विकि पर हर गैजेट के उपयोगकर्ताओं की संख्या [[Special:GadgetUsage|गैजेट उपयोग सांख्यिकी]] में दी गई है।",
+	"special-gadgets": "उपकरण",
+	"gadgetusage": "गैजेट उपयोग आंकड़े",
+	"gadgetusage-gadget": "गैजेट",
+	"gadgetusage-usercount": "सदस्यों की संख्या",
+	"gadgetusage-noresults": "कोई गैजेट नहीं मिला।",
+	"gadgetusage-activeusers": "सक्रिय सदस्य",
+	"gadgetusage-default": "प्राथमिक",
+	"gadgets-title": "उपकरण",
+	"gadgets-pagetext": "नीचे सभी [[MediaWiki:Gadgets-definition|परिभाषित]] विशेष उपकरणों की सूची दी गई है, जिन्हें सदस्य [[Special:Preferences#mw-prefsection-gadgets|अपनी वरीयताओं]] से सक्षम कर सकते हैं।\nयह समीक्षा सभी उपकरणों के विवरण और कोड वाले अंतरफल संदेश पृष्ठों की कड़ियाँ प्रदान करती है।",
+	"gadgets-uses": "उपयोग",
+	"gadgets-required-rights": "निम्नलिखित {{PLURAL:$2|अधिकार|अधिकारों}} की आवश्यकता है:\n\n$1",
+	"gadgets-required-skins": "उपलब्ध है {{PLURAL:$2|$1 स्किन|निम्नलिखित स्किन: $1}}.",
+	"gadgets-default": "डिफ़ॉल्ट रूप से सभी के लिए सक्षम है।",
+	"gadgets-export": "निर्यात",
+	"gadgets-export-title": "गैजेट निर्यात",
+	"gadgets-not-found": "गैजेट \"$1\" मिला नहीं ।",
+	"gadgets-export-text": "$1 उपकरण निर्यात करने के लिये \"{{int:gadgets-export-download}}\" बटन पर क्लिक करें, डाउनलोड की गई फ़ाइल सहेजें, लक्ष्य विकि पर Special:Import पर जाएँ और फ़ाइल अपलोड करें। तत्पश्चात MediaWiki:Gadgets-definition में निम्न पाठ जोड़ें:\n<pre>$2</pre>\nआपके पास लक्ष्य विकि पर उपयुक्त अधिकार होने चाहिये (जिसमें अंतरफल संदेशों को सम्पादित करने का अधिकार शामिल है) और विकि पर फ़ाइल द्वारा आयात सक्षम होना चाहिये।",
+	"gadgets-export-download": "डाउनलोड",
+	"gadgets-validate-notset": "गुण <code>$1</code> तय नहीं है।"
+}

@@ -1,0 +1,39 @@
+{
+	"@metadata": {
+		"authors": [
+			"Macofe",
+			"Purodha"
+		]
+	},
+	"thanks-desc": "Määd lengks en et Wikki för sesch bei Metmaacher för jät ze bedangke.",
+	"thanks-thank": "Dank{{GENDER:$1|}}{{GENDER:$2|}}",
+	"thanks-thanked": "bedank{{GENDER:$1|}}{{GENDER:$2|}}",
+	"thanks-button-thank": "Bedangke{{GENDER:$1|}}{{GENDER:$2|}}",
+	"thanks-button-thanked": "Bedangk.{{GENDER:$1|}}{{GENDER:$2|}}",
+	"thanks-error-undefined": "Et Bedangke hät nit jeflupp. Als Fähler wood „$1“ jemälldt. Versöhg_et norr_ens.",
+	"thanks-error-invalidrevision": "Di Kännong för di Väsjohn es nit jöltesch.",
+	"thanks-error-ratelimited": "Do häß Ding Jränz ärreijsch. Waad e beßje, un versöhg et dann wider.{{GENDER:$1|}}",
+	"thanks-thank-tooltip": "Scheck {{GENDER:$2|däm|däm|däm Metmaacher|dä|däm}} $2 Dinge Dank.{{GENDER:$1}}",
+	"thanks-thank-tooltip-no": "Donn keine Meddeilong zom Bedanke verschecke.{{GENDER:$1|}}",
+	"thanks-thank-tooltip-yes": "Donn de Meddeilong zom Bedanke verschecke.{{GENDER:$1|}}",
+	"thanks-confirmation2": "Wells De Desch öffentlesch för heh di Änderoong bedanke?{{GENDER:$1|}}",
+	"thanks-thanked-notice": "{{GENDER:$2|Dä|Dat|Dä Metmaacher|De|Dat}} $1 hät Ding dankeschöhn för {{GENDER:$2|sing|sing|sing|ier|sing}} Änderong krähje.",
+	"thanks": "Bedanke",
+	"thanks-submit": "Ene Dank scheke",
+	"echo-pref-subscription-edit-thank": "Dank mer för ming Änderong",
+	"echo-pref-tooltip-edit-thank": "Lohß mesch weße, wann sesch einer för en Änderong bedangk, di esch jemaat han.",
+	"echo-category-title-edit-thank": "Dank",
+	"notification-header-rev-thank": "{{GENDER:$2|Dä|Dat|Dä Metmaacher|De|Dat}} \n$1 hät sesch bei Der bedangk för Ding Änderong aan dä Sigg '''$3'''.{{GENDER:$4|}}",
+	"notification-bundle-header-rev-thank": "{{PLURAL:$1|Eijne|$1 Lük|100=mih wi 99 Lük}} han sesch beij Der bedangk för Ding Ännderong aan dä Sigg <strong>$2</strong>.{{GENDER:$3|}}",
+	"log-name-thanks": "Et Logbohch vum Bedangke",
+	"log-description-thanks": "Heh küdd en Leß met de Metmaacher, di Dangk vun andere krääje han.",
+	"logentry-thanks-thank": "{{GENDER:$2|Dä|Dat|Dä Metmaacher|De|Dat}} $1 hät {{GENDER:$3|däm|däm|däm Metmaacher|dä|däm}} $4 jedangk.",
+	"thanks-error-no-id-specified": "Mer moss en Kännong för en Väsjohn aanjävve, öm ene Dangk scheke ze künne.",
+	"notification-link-text-view-post": "De Aanmerkong beloore",
+	"thanks-error-invalidpostid": "Di Kännong för dä Beijdraach es nit jöltesch",
+	"flow-thanks-confirmation-special": "Wells De Desch öffentlesch för heh dä Kommäntaa bedanke?",
+	"flow-thanks-thanked-notice": "{{GENDER:$2|Dä|Dat|Dä Metmaacher|De|Dat}} $1 hät Dinge Dangk krähje för wat {{GENDER:$2|hä|et|hä|sei|et}} jeschrevve hät.",
+	"notification-header-flow-thank": "{{GENDER:$2|Dä|Dat|Dä Metmaacher|De|Dat}} $1 hät sesch bei Der bedangk för wat de em Affschnedd '''$3''' op dä Sigg '''$4''' aanjemärk häs.{{GENDER:$5|}}",
+	"notification-compact-header-flow-thank": "{{GENDER:$2|Dä|Dat|Dä Metmaacher|De|Dat}} $1 hät sesch beij Der bedangk.{{GENDER:$3|}}",
+	"notification-bundle-header-flow-thank": "{{PLURAL:$1|Eijne|$1 Lük|100=mih wi 99 Lük}} han sesch beij Der bedangk för Dinge Bemärkong en dä Sigg <strong>$2</strong>.{{GENDER:$3|}}"
+}

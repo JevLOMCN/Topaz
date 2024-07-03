@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"C.R."
+		]
+	},
+	"apihelp-titleblacklist-param-title": "'A stringa pe' validà annanz' 'a lista nira.",
+	"apihelp-titleblacklist-param-action": "L'aziona p' 'a cuntrullà.",
+	"apihelp-titleblacklist-param-nooverride": "Nun tentà 'e sovrascrivere 'a lista nera.",
+	"apihelp-titleblacklist-example-1": "Cuntrolla si [[Foo]] è miso dint'a lista nera p' 'o cagnà.",
+	"apihelp-titleblacklist-example-2": "Cuntrolla si [[Bar]] è miso dint'a lista nera p' 'o cagnà.",
+	"apihelp-createaccount-param-ignoretitleblacklist": "Lassa perdere 'e check 'e spoofing (mbruoglie) (servesse uno d' 'e diritte ccà <code>tboverride</code>, <code>tboverride-account</code>)."
+}

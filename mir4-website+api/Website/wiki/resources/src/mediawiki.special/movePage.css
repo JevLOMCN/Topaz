@@ -1,0 +1,8 @@
+/*!
+ * Styles for Special:MovePage
+ */
+
+/* stylelint-disable-next-line selector-class-pattern */
+.movepage-wrapper {
+	max-width: 50em;
+}

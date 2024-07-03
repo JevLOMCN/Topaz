@@ -1,0 +1,36 @@
+{
+	"@metadata": {
+		"authors": [
+			"Macofe",
+			"Murma174"
+		]
+	},
+	"thanks-desc": "Saat ferwisangen, am brükern tu soonkin för hör bidracher",
+	"thanks-thank": "{{GENDER:$1|{{GENDER:$2|soonke}}}}",
+	"thanks-thanked": "{{GENDER:$1|{{GENDER:$2|besoonket}}}}",
+	"thanks-button-thank": "{{GENDER:$1|{{GENDER:$2|Soonke}}}}",
+	"thanks-button-thanked": "{{GENDER:$1|{{GENDER:$2|Besoonket}}}}",
+	"thanks-error-undefined": "\"Soonk\" hää ei loket. Ferschük det man noch ans.",
+	"thanks-error-invalidrevision": "Detdiar wersion ID jaft at ei.",
+	"thanks-error-ratelimited": "{{GENDER:$1|Dü}} heest tuföl aktjuunen onernimen. Teew en uugenblak an ferschük det noch ans weder.",
+	"thanks-thank-tooltip": "{{Gender:$1|Sjüür}} {{Gender:$2|didiar|detdiar}} brüker en \"soonk\".",
+	"thanks-thank-tooltip-no": "{{GENDER:$1|Breeg}} det soonkin uf",
+	"thanks-thank-tooltip-yes": "{{GENDER:$1|Sjüür}} det bööd mä en soonk",
+	"thanks-confirmation2": "Diar en öfentelken soonk för {{GENDER:$1|sjüür}}?",
+	"thanks-thanked-notice": "$1 hää bööd füngen, dat dü {{GENDER:$2|sin|hör|hör}} feranrang gud fanjst.",
+	"thanks": "Soonk sjüür",
+	"thanks-submit": "Soonk sjüür",
+	"echo-pref-subscription-edit-thank": "\"Soonk\" saien för man bidrach",
+	"echo-pref-tooltip-edit-thank": "Du mi bööd, wan mi hoker en \"soonk\" schüürt för man bidrach.",
+	"echo-category-title-edit-thank": "Föl soonk",
+	"log-name-thanks": "Soonk-Logbuk",
+	"log-description-thanks": "Oner stäänt en list faan brükern, diar faan ööder brükern soonk saad wurden as.",
+	"logentry-thanks-thank": "$1 {{GENDER:$2|besoonket}} ham bi {{Gender:$4|$3}}",
+	"thanks-error-no-id-specified": "Dü skel en wersion of log ID uundu, am en soonk tu sjüüren.",
+	"thanks-confirmation-special-log": "Maadst dü diar öfentelk en soonk för sjüür?",
+	"thanks-confirmation-special-rev": "Maadst dü diar öfentelk en soonk för sjüür?",
+	"notification-link-text-view-post": "Komentaar uunwise",
+	"thanks-error-invalidpostid": "Det ID faan di bidrach as ferkiard.",
+	"flow-thanks-confirmation-special": "Maadst dü öfentelk en soonk för didiar komentaar sjüür?",
+	"flow-thanks-thanked-notice": "$1 hää bööd füngen, dat dü {{GENDER:$2|sin|hör|hör}} komentaar gud fanjst."
+}

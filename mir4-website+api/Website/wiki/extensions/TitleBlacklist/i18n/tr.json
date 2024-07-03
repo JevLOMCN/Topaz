@@ -1,0 +1,34 @@
+{
+	"@metadata": {
+		"authors": [
+			"Arystanbek",
+			"BaRaN6161 TURK",
+			"Joseph",
+			"Mirzali",
+			"SaldırganSincap",
+			"TmY e12",
+			"ToprakM",
+			"Vito Genovese"
+		]
+	},
+	"action-tboverride": "izin verilmeyen başlıkları veya kullanıcı adları listesini geçersiz kılma",
+	"action-tboverride-account": "izin verilmeyen kullanıcı adları listesini geçersiz kılma",
+	"action-titleblacklistlog": "izin verilmeyen başlıklar listesi günlüğünü görme",
+	"log-name-titleblacklist": "İzin verilmeyen başlıklar listesi günlüğü",
+	"log-description-titleblacklist": "Bu etkinlikler, izin verilmeyen başlıklar listesi oranları izler.",
+	"logentry-titleblacklist-hit-username": "$1, $3 sayfasına ile eşleşen $4 hesabı oluşturmaya çalışırken izin verilmeyen bir başlık listesinin {{GENDER:$2|nedeniyle}} oluşturdu.",
+	"titleblacklist-desc": "Hizmetlilerin, [[MediaWiki:Titleblacklist|izin verilmeyenler listesi]] ve [[MediaWiki:Titlewhitelist|izin verilen]] başlıklara göre sayfa ve kullanıcı hesaplarının oluşturulmasını yasaklamasına izin verir",
+	"titleblacklist": "# Bu, izin verilmeyen bir başlık listesidir. Buradaki düzenli ifadelerle eşleşen başlıklar ve kullanıcılar oluşturulamaz.\n# Yorumlar için \"#\" kullanın.\n# Bu varsayılan olarak büyük-küçük harf duyarsızdır",
+	"titlewhitelist": "# Bu, izin verilen bir başlık listesidir. Yorumlar için \"#\" kullanın.\n# Varsayılan olarak büyük-küçük harfe duyarsızdır",
+	"titleblacklist-forbidden-edit": "\"$2\" başlığının oluşturulması engellendi.\nAşağıdaki izin verilmeyen başlıklar listesi girişiyle eşleşir: <code>$1</code>",
+	"titleblacklist-forbidden-move": "\"$2\", \"$3\" sayfasına taşınamaz, çünkü \"$3\" başlığının oluşturulması yasaklanmış.\nAşağıdaki izin verilmeyen başlıklar listesi girişiyle eşleşir: <code>$1</code>",
+	"titleblacklist-forbidden-upload": "\"$2\" dosya adının oluşturulması engellendi.\nAşağıdaki izin verilmeyen başlıklar listesi girişiyle eşleşir: <code>$1</code>",
+	"titleblacklist-forbidden-new-account": "\"$2\" kullanıcı adının oluşturulması engellendi.\nAşağıdaki izin verilmeyen başlıklar listesi girişiyle eşleşir: <code>$1</code>",
+	"titleblacklist-invalid": "İzin verilmeyen başlıklar listesindeki aşağıdaki {{PLURAL:$1|satır|satırlar}} geçersizdir;\nlütfen kaydetmeden önce düzeltin:",
+	"titleblacklist-override": "Eşleşirse izin verilmeyen başlıklar listesini geçersiz kıl",
+	"titleblacklist-override-help": "Yeterli ayrıcalığa sahip kullanıcılar, bunu izin verilmeyen başlıklar listesi kontrollerini yok sayacak şekilde ayarlayabilir.",
+	"titleblacklist-warning": "<strong>Uyarı: Bu sayfa yalnızca <code>tboverride</code> hakkı olan hizmetliler ve diğer kullanıcılar tarafından düzenlenebilir, çünkü aşağıdaki izin verilmeyen başlıklar listesi girişiyle eşleşir:</strong><br /><code>$1</code>",
+	"right-tboverride": "İzin verilmeyen başlıkları veya kullanıcı adları listesini geçersiz kılın",
+	"right-tboverride-account": "İzin verilmeyen kullanıcı adları listesini geçersiz kılın",
+	"right-titleblacklistlog": "İzin verilmeyen başlıklar dizelgesi günlüğünü görün"
+}

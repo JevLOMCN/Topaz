@@ -1,0 +1,25 @@
+{
+	"@metadata": {
+		"authors": []
+	},
+	"action-tboverride": "override the disallowed titles or usernames list",
+	"action-tboverride-account": "override the disallowed usernames list",
+	"action-titleblacklistlog": "view the disallowed titles list log",
+	"log-name-titleblacklist": "Disallowed titles list log",
+	"log-description-titleblacklist": "These events track disallowed titles list hits.",
+	"logentry-titleblacklist-hit-username": "$1 {{GENDER:$2|caused}} a disallowed titles list hit when trying to create account $3 matching $4.",
+	"titleblacklist-desc": "Allows administrators to forbid creation of pages and user accounts according to a [[MediaWiki:Titleblacklist|list of disallowed]] and [[MediaWiki:Titlewhitelist|allowed]] titles",
+	"titleblacklist": "# This is a disallowed titles list. Titles and usernames that match a regular expression here cannot be created.\n# Use \"#\" for comments.\n# This is case-insensitive by default",
+	"titlewhitelist": "# This is an allowed titles list. Use \"#\" for comments.\n# This is case-insensitive by default",
+	"titleblacklist-forbidden-edit": "The title \"$2\" has been banned from creation.\nIt matches the following disallowed titles list entry: <code>$1</code>",
+	"titleblacklist-forbidden-move": "\"$2\" cannot be moved to \"$3\", because the title \"$3\" has been banned from creation.\nIt matches the following disallowed titles list entry: <code>$1</code>",
+	"titleblacklist-forbidden-upload": "The filename \"$2\" has been banned from creation.\nIt matches the following disallowed titles list entry: <code>$1</code>",
+	"titleblacklist-forbidden-new-account": "The username \"$2\" has been banned from creation.\nIt matches the following disallowed titles list entry: <code>$1</code>",
+	"titleblacklist-invalid": "The following {{PLURAL:$1|line|lines}} in the disallowed titles list {{PLURAL:$1|is|are}} invalid;\nplease correct {{PLURAL:$1|it|them}} before saving:",
+	"titleblacklist-override": "Override the disallowed titles list if it matches",
+	"titleblacklist-override-help": "Users with sufficient privileges can set this to ignore the disallowed titles list checks.",
+	"titleblacklist-warning": "<strong>Warning: This page can only be edited by administrators and other users with the <code>tboverride</code> right because it matches the following disallowed titles list entry:</strong><br /><code>$1</code>",
+	"right-tboverride": "Override the disallowed titles or usernames list",
+	"right-tboverride-account": "Override the disallowed usernames list",
+	"right-titleblacklistlog": "View the disallowed titles list log"
+}

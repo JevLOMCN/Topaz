@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"Delim"
+		]
+	},
+	"loginnotify-desc": "친숙하지 않은 장치나 IP주소로부터 의심스러운 가입이 있으면 사용자에게 알립니다.",
+	"echo-category-title-login-fail": "가입 시도 실패",
+	"echo-pref-tooltip-login-fail": "내 계산자리에 대해 가입 시도를 실패하면 내게 알립니다.",
+	"echo-category-title-login-success": "친숙하지 않은 장치로부터의 가입",
+	"echo-pref-tooltip-login-success": "누군가가 친숙하지 않은 장치와 IP주소로부터 내 계산자리에 가입하면 내게 알립니다.",
+	"loginnotify-primary-link": "도움말",
+	"notification-known-header-login-fail": "마지막으로 가입한 이후로 사용자 계산자리로의 가입 {{PLURAL:$1|시도 실패가 한 번|시도 실패가 여러 번}} 있었습니다. 당신의 계산자리 통행암호가 강력한지 확인해주십시오.",
+	"notification-new-unbundled-header-login-fail": "새로운 장치에서 사용자 계산자리로의 가입 {{PLURAL:$1|시도 실패가 한번|시도 실패가 여러번}} 있었습니다. 당신의 계산자리의 통행암호가 강력한지 확인해주십시오."
+}

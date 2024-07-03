@@ -1,0 +1,25 @@
+{
+	"@metadata": {
+		"authors": [
+			"CERminator",
+			"KWiki",
+			"Obsuser",
+			"Srđan"
+		]
+	},
+	"action-titleblacklistlog": "pregledate zapisnik spiska nedozvoljenih naslova",
+	"log-name-titleblacklist": "Zapisnik spiska nedozvoljenih naslova",
+	"log-description-titleblacklist": "Ovaj zapisnik prikazuje pogotke u spisku nedozvoljenih naslova.",
+	"titleblacklist-desc": "Omogućuje administratorima da zabrane pravljenje stranica i korisničkih računa putem spiskova [[MediaWiki:Titleblacklist|zabranjenih]] i [[MediaWiki:Titlewhitelist|dopuštenih]] naslova",
+	"titleblacklist": "# Ovo je spisak zabranjenih naslova. Naslovi i korisnici koji se nalaze na ovom spisku neće moći biti napravljeni.\n# Koristite \"#\" za komentare.\n# Ovo ne razlikuje velika i mala slova po pretpostavljenom",
+	"titlewhitelist": "# Ovo je spisak dopuštenih naslova. Koristite \"#\" za komentare.\n# Ovo ne razlikuje velika i mala slova po pretpostavljenom",
+	"titleblacklist-forbidden-edit": "Naslov \"$2\" je zabranjen za pravljenje.\nNalazi se kao stavka na spisku zabranjenih naslova: <code>$1</code>",
+	"titleblacklist-forbidden-move": "\"$2\" ne može biti premješten na \"$3\", jer je naslov \"$3\" zabranjen za pravljenje.\nNalazi se kao sljedeća stavka spiska nepoželjnih naslova: <code>$1</code>",
+	"titleblacklist-forbidden-upload": "Datoteka s imenom \"$2\" zabranjena je za postavljanje.\nNalazi se kao stavka na spisku zabranjenih naslova: <code>$1</code>",
+	"titleblacklist-forbidden-new-account": "Korisničko ime \"$2\" je zabranjeno za pravljenje.\nOno se nalazi na spisku zabranjenih naslova pod stavkom: <code>$1</code>",
+	"titleblacklist-invalid": "{{PLURAL:$1|Sljedeći red|Sljedeća $1 reda|Sljedećih $1 redova}} na spisku nepoželjnih naslova {{PLURAL:$1|je nevalidan|su nevalidna|je nevalidno}};\nmolimo da {{PLURAL:$1|ga|ih}} ispravite prije spašavanja:",
+	"titleblacklist-override": "Zanemari crnu listu ako se podudara",
+	"right-tboverride": "Zaobilaženje spiska zabranjenih naslova ili korisničkih imena",
+	"right-tboverride-account": "Zaobilaženje spiska zabranjenih korisničkih imena",
+	"right-titleblacklistlog": "Pregledanje zapisnika spiska nedozvoljenih naslova"
+}

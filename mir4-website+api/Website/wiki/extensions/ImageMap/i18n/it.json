@@ -1,0 +1,22 @@
+{
+	"@metadata": {
+		"authors": [
+			"Anyfile",
+			"Beta16",
+			"BrokenArrow",
+			"Darth Kule"
+		]
+	},
+	"imagemap_desc": "Consente di realizzare ''image map'' cliccabili lato client con il tag <code>&lt;imagemap&gt;</code>",
+	"imagemap_no_image": "Errore: si deve specificare un'immagine nella prima riga",
+	"imagemap_invalid_image": "Errore: l'immagine non è valida o non esiste",
+	"imagemap_bad_image": "Errore: l'immagine non è consentita per questa pagina.",
+	"imagemap_no_link": "Errore: non è stato trovato alcun collegamento valido alla fine della riga $1",
+	"imagemap_invalid_title": "Errore: titolo del collegamento non valido alla riga $1",
+	"imagemap_missing_coord": "Errore: non ci sono abbastanza coordinate per la forma specificata alla riga $1",
+	"imagemap_unrecognised_shape": "Errore: forma specificata non riconosciuta alla riga $1, ogni riga deve iniziare con uno dei seguenti valori: <code>default</code>, <code>rect</code>, <code>circle</code> o <code>poly</code>",
+	"imagemap_invalid_coord": "Errore: coordinata non valida alla riga $1, deve essere un numero",
+	"imagemap_invalid_desc": "Errore: valore non valido per il parametro desc, deve essere uno dei seguenti: $1",
+	"imagemap_description": "Informazioni sull'immagine",
+	"imagemap_poly_odd": "Errore: trovato poligono con un numero dispari di coordinate nella riga $1"
+}

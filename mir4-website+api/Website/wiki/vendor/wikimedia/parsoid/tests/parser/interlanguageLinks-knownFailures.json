@@ -1,0 +1,15 @@
+{
+	"\"Extra\" interlanguage links (T34189 / gerrit 111390)": {
+		"wt2html": "<p data-parsoid='{\"dsr\":[0,14,0,0]}'>Blah blah blah</p>\n<link rel=\"mw:PageProp/Language\" href=\"http://wikisource.org/wiki/Article\" data-parsoid='{\"stx\":\"simple\",\"a\":{\"href\":\"http://wikisource.org/wiki/Article\"},\"sa\":{\"href\":\"mul:Article\"},\"dsr\":[15,30,null,null]}'/>"
+	},
+	"Interlanguage link with spacing": {
+		"wt2html": "<p data-parsoid='{\"dsr\":[0,14,0,0]}'>Blah blah blah</p>\n<link rel=\"mw:PageProp/Language\" href=\"http://zh.wikipedia.org/wiki/%20%20%20%20Chinese%20%20%20%20%20\" data-parsoid='{\"stx\":\"simple\",\"a\":{\"href\":\"http://zh.wikipedia.org/wiki/%20%20%20%20Chinese%20%20%20%20%20\"},\"sa\":{\"href\":\"   zh  :    Chinese     \"},\"dsr\":[15,43,null,null]}'/>",
+		"wt2wt": "Blah blah blah\n[[   zh  :    Chinese     |   zh  :    Chinese     ]]"
+	},
+	"Parsoid: recognize interlanguage links without a target page": {
+		"metadata": ""
+	},
+	"Space and question mark encoding in interlanguage links (T95473)": {
+		"wt2html": "<p data-parsoid='{\"dsr\":[0,14,0,0]}'>Blah blah blah</p>\n<link rel=\"mw:PageProp/Language\" href=\"http://es.wikipedia.org/wiki/Foo%20bar%3F\" data-parsoid='{\"stx\":\"simple\",\"a\":{\"href\":\"http://es.wikipedia.org/wiki/Foo%20bar%3F\"},\"sa\":{\"href\":\"es:Foo bar?\"},\"dsr\":[15,30,null,null]}'/>"
+	}
+}

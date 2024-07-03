@@ -1,0 +1,34 @@
+{
+    "Comment in template title": {
+        "html2wt": "FOO\n"
+    },
+    "Comment on its own line post-expand": {
+        "wt2html": "<p data-parsoid='{\"dsr\":[0,20,0,0]}'>a\n<span about=\"#mwt1\" typeof=\"mw:Transclusion\" data-parsoid='{\"dsr\":[2,11,null,null],\"pi\":[[]]}' data-mw='{\"parts\":[{\"template\":{\"target\":{\"wt\":\"blank\",\"href\":\"./Template:Blank\"},\"params\":{},\"i\":0}}]}'></span><!---->\nb</p>",
+        "html2wt": "a\n\nb\n"
+    },
+    "Comment on its own line post-expand with non-significant whitespace": {
+        "wt2html": "<p data-parsoid='{\"dsr\":[0,23,0,0]}'>a\n <span about=\"#mwt1\" typeof=\"mw:Transclusion\" data-parsoid='{\"dsr\":[3,12,null,null],\"pi\":[[]]}' data-mw='{\"parts\":[{\"template\":{\"target\":{\"wt\":\"blank\",\"href\":\"./Template:Blank\"},\"params\":{},\"i\":0}}]}'></span> <!----> \nb</p>",
+        "html2wt": "a\n\nb\n"
+    },
+    "Comment spacing": {
+        "html2wt": "a\n\n  b \n\nc\n"
+    },
+    "Comment test 2a": {
+        "html2wt": "asdf\njkl\n"
+    },
+    "Comment test 2b": {
+        "html2wt": "asdf\n\njkl\n"
+    },
+    "Comment test 3": {
+        "html2wt": "asdf\njkl\n"
+    },
+    "Comment test 4": {
+        "html2wt": "asdfjkl\n"
+    },
+    "Comment whitespace": {
+        "html2wt": ""
+    },
+    "Comments and Indent-Pre": {
+        "html2wt": " asdf\n\n asdf\n\n asdf\n\nxyz\n\n asdf\n xyz\n"
+    }
+}

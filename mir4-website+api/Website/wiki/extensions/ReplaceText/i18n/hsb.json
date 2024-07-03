@@ -1,0 +1,43 @@
+{
+	"@metadata": {
+		"authors": [
+			"J budissin",
+			"Michawiki"
+		]
+	},
+	"replacetext": "Tekst narunać",
+	"replacetext-desc": "Staji [[Special:ReplaceText|specialnu stronu]] k dispoziciji, kotraž administratoram zmóžnja, globalne pytanje a narunanje teksta na wšěch wobsahowych stronach wikija přewjesć",
+	"replacetext_docu": "Zo by tekst přez druhi tekst na wšěch regularnych stronach tutoho wikija narunał, zapodaj wobaj tekstowej dźělej a klikń potom na \"{{int:replacetext_continue}}\". Budźeš potom lisćinu stronow widźeć, kotrež pytany tekst wobsahuja a móžeš te z nich wubrać, w kotrejž chceš tekst narunać. Twoje mjeno zjewi so w stawiznach strony jako wužiwar, kotryž je zamołwity za změny.",
+	"replacetext_originaltext": "Originalny tekst:",
+	"replacetext_replacementtext": "Narunanski tekst:",
+	"replacetext_useregex": "regularne wuraz wužiwać",
+	"replacetext_regexdocu": "(Přikład: hódnoty za \"a(.*)c\" za \"{{int:replacetext_originaltext}}\"a \"ac$1\" za \"{{int:replacetext_replacementtext}}\" bychu \"abc\" přez \"acb\" wuměnili.)",
+	"replacetext_optionalfilters": "Opcionalne filtry:",
+	"replacetext_categorysearch": "Jenož w kategoriji narunać:",
+	"replacetext_prefixsearch": "Jenož w stronach narunać z prefiksom:",
+	"replacetext_editpages": "Tekst we wobsahu strony narunać",
+	"replacetext_movepages": "Tekst w titulach stronow narunać, jeli móžno",
+	"replacetext_givetarget": "Dyrbiš tekst podać, kotryž ma so narunać.",
+	"replacetext_nonamespace": "Dyrbiš znajmjeńša jedyn mjenowy rum wubrać.",
+	"replacetext_editormove": "Dyrbiš znajmjeńša jednu z narunanskich opcijow wubrać.",
+	"replacetext_choosepagesforedit": "\"$1\" w {{PLURAL:$3|slědowacej stronje|slědowacymaj stronomaj|slědowacych stronach|slědowacych stronach}} přez \"$2\" wuměnić:",
+	"replacetext_choosepagesformove": "\"$1\" přez \"$2\" w titulu {{PLURAL:$3|slědowaceje strony|slědowaceju stronow|slědowacych stronow|slědowacych stronow}} narunać:",
+	"replacetext_cannotmove": "{{PLURAL:$1|Slědowaca strona njehodźi|Slědowacej stronje njehodźitej|Slědowace strony njehodźa|Slědowace strony njehodźa}} so přesunyć:",
+	"replacetext_formovedpages": "Za přesunjene strony:",
+	"replacetext_savemovedpages": "Stare titule jako daleposrědkowanja do nowych titulow składować",
+	"replacetext_watchmovedpages": "Tute strony wobkedźbować",
+	"replacetext_invertselections": "Wuběry wobroćić",
+	"replacetext_replace": "Narunać",
+	"replacetext_success": "'$1' so w $3 {{PLURAL:$3|stronje|stronomaj|stronach|stronach}} přez '$2' naruna.",
+	"replacetext_noreplacement": "Njejsu so žane strony namakali, kotrež wuraz '$1' wobsahuja.",
+	"replacetext_nomove": "Strony, kotrychž titul '$1' wobsahuje, njebuchu namakane.",
+	"replacetext_nosuchcategory": "Kategorija z mjenom \"$1\" njeeksistuje.",
+	"replacetext_return": "Wróćo k formularej",
+	"replacetext_warning": "'''Warnowanje:''' {{PLURAL:$1|Je hižo $1 strona, kotraž wobsahuje|Stej hižo $1 stronje, kotejž wobsahujetej|Su hižo $1 strony, kotrež wobsahuja|Je hižo $1 stronow, kotrež wobsahuje}} narunanski tekst, '$2'. Jeli tute narunanje činiš, njemóžeš swoje narunanja wot tutoho teksta rozdźělić.",
+	"replacetext_blankwarning": "Narunanski dźěl je prózdny, tohodla operacija njeda so cofnyć; njedźiwajo na to pokročować?",
+	"replacetext_continue": "Dale",
+	"replacetext_editsummary": "Tekstowe narunanje - \"$1\" do \"$2\"",
+	"replacetext_reminder": "Za změnjenje wotkazow na tutu stronu na druhich stronach, dźi k $1.",
+	"right-replacetext": "Tekstowe narunanja na cyłym wikiju činić",
+	"action-replacetext": "Tekstowe narunanja na cyłym wikiju činić"
+}

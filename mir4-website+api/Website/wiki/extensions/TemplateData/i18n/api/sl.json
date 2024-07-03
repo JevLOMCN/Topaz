@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"Eleassar"
+		]
+	},
+	"apihelp-templatedata-summary": "Pridobi podatke, ki jih shranjuje razširitev TemplateData.",
+	"apihelp-templatedata-example-1": "Vrne TemplateData za [[Template:Foobar]] z zadetki, če predloga ne obstaja ali obstaja, vendar nima TemplateData",
+	"apihelp-templatedata-example-2": "Vrni TemplateData za [[Template:Phabricator]] brez zadetkov, če predloga ne obstaja ali obstaja, vendar nima TemplateData",
+	"apihelp-templatedata-param-includeMissingTitles": "Vrne podatke o naslovih, tudi če manjkajo ali nimajo TemplateData. Naslovi se privzeto vrnejo le, če obstajajo in imajo TemplateData.",
+	"apihelp-templatedata-param-doNotIgnoreMissingTitles": "Vrne podatke o naslovih, tudi če manjkajo ali nimajo TemplateData. Naslovi se privzeto (zaradi združljivosti s prejšnjimi različicami) vrnejo le, če obstajajo in imajo TemplateData.",
+	"apihelp-templatedata-param-lang": "Vrne lokalizirane vrednosti v tem jeziku. Privzeto se vrnejo vsi razpoložljivi prevodi.",
+	"apierror-templatedata-corrupt": "TemplateData strani $1 vsebuje neveljavne podatke: $2",
+	"apiwarn-templatedata-deprecation-format": "Privzeti izhodni format se bo v prihodnosti spremenil v <kbd>jsonfm</kbd>. Izrecno navedite <kbd>format=json</kbd>."
+}

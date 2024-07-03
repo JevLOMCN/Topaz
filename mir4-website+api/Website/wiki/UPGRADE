@@ -1,0 +1,101 @@
+This file provides an overview of the MediaWiki upgrade process. For help with
+specific problems, you should check:
+
+* the docs at https://www.mediawiki.org/wiki/Special:MyLanguage/Help:Contents ;
+* the mediawiki-l mailing list archive at
+  https://lists.wikimedia.org/hyperkitty/list/mediawiki-l@lists.wikimedia.org/ ;
+  and
+* the bug tracker at https://phabricator.wikimedia.org/
+
+… for information and workarounds to common issues.
+
+== Overview ==
+
+We provide comprehensive documentation on upgrading to the latest version of the
+software at https://www.mediawiki.org/wiki/Special:MyLanguage/Manual:Upgrading.
+
+Important: Upgrading from releases older than two LTS release is not supported anymore.
+If you want to upgrade from an old version, please upgrade to a more recent LTS version first,
+then to this version.
+
+Currently any upgrade from any version older than 1.35 will fail.
+
+=== Consult the release notes ===
+
+Before doing anything, stop and consult the release notes supplied with the new
+version of the software. These detail bug fixes, new features and functionality,
+and any particular points that may need to be noted during the upgrade process.
+
+=== Backup first ===
+
+It is imperative that, prior to attempting an upgrade of the database schema,
+you take a complete backup of your wiki database and files and verify it. While
+the upgrade scripts are somewhat robust, there is no guarantee that things will
+not fail, leaving the database in an inconsistent state.
+
+https://www.mediawiki.org/wiki/Special:MyLanguage/Manual:Backing_up_a_wiki is an
+overview of the backup process. You should also refer to the documentation for
+your database management system for information on backing up a database, and to
+your operating system documentation for information on making copies of files.
+
+=== Perform the file upgrade ===
+
+Download the files for the new version of the software. These are available as a
+compressed "tar" archive from the Wikimedia Download Service
+(https://releases.wikimedia.org/mediawiki/).
+
+You can also obtain the new files directly from our Git source code repository.
+
+Replace the existing MediaWiki files with the new. You should preserve the
+LocalSettings.php file and the "extensions" and "images" directories.
+
+Depending upon your configuration, you may also need to preserve additional
+directories, including a custom upload directory ($wgUploadDirectory),
+deleted file archives, and any custom skins.
+
+=== Perform the database upgrade ===
+
+As of 1.21, it is possible to separate schema changes (i.e. adding, dropping, or
+changing tables, fields, or indices) from all other database changes (e.g.
+populating fields). If you need this capability, see "From the command line"
+below.
+
+==== From the Web ====
+
+If you browse to the Web-based installation script (usually at
+./mw-config/index.php) from your wiki installation you can follow the script and
+upgrade your database in place.
+
+==== From the command line ====
+
+From the command line, browse to the "maintenance" directory and use
+`run.php update` to check and update the schema. This will insert missing
+tables, update existing tables, and move data around as needed. In most cases,
+this is successful and nothing further needs to be done.
+
+If you need to separate out the schema changes so they can be run by someone
+with more privileges, then you can use the --schema option to produce a text
+file with the necessary commands. You can use --schema, --noschema,
+$wgAllowSchemaUpdates as well as proper database permissions to enforce this
+separation.
+
+=== Check configuration settings ===
+
+The names of configuration variables, and their default values and purposes, can
+change between release branches, e.g. $wgDisableUploads in 1.4 is replaced with
+$wgEnableUploads in later versions. When upgrading, consult the release notes to
+check for configuration changes which would alter the expected behavior of
+MediaWiki.
+
+=== Check installed extensions ===
+
+Extensions usually need to be upgraded at the same time as the MediaWiki core.
+
+=== Test ===
+
+It makes sense to test your wiki immediately following any kind of maintenance
+procedure, and especially after upgrading; check that page views and edits work
+normally, that special pages continue to function, etc., and correct any errors
+and quirks which reveal themselves.
+
+You should also test any extensions, and upgrade these if necessary.

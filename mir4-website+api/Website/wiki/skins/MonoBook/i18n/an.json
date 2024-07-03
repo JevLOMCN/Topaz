@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Juanpabl"
+		]
+	},
+	"skinname-monobook": "MonoBook",
+	"monobook.css": "/* Os estilos CSS colocaus aquí s'aplicarán ta totz os usuarios que faigan servir l'apariencia Monobook */",
+	"monobook.js": "/* O codigo Javascript que se meta aquí será cargau por os usuarios faigan servir l'apariencia MonoBook */",
+	"monobook-view-history": "Historial",
+	"monobook-action-undelete": "Restaurar {{PLURAL:$1|una edición|$1 edicions}}"
+}

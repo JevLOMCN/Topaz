@@ -1,0 +1,25 @@
+{
+	"@metadata": {
+		"authors": [
+			"Jeblad",
+			"Kimberli Mäkäräinen (WMNO)"
+		]
+	},
+	"content-model-scribunto": "Scribunto-modula",
+	"scribunto-line": "gurgadasas $1",
+	"scribunto-parser-dialog-title": "Skriptameattáhus",
+	"scribunto-error-short": "Skriptameattáhus: $1",
+	"scribunto-error-long": "Skriptameattáhusat:\n\n$1",
+	"scribunto-doc-page-name": "Module:$1/veahkki",
+	"scribunto-console-clear": "Gurre",
+	"scribunto-common-error-category": "Siiddut, main leat skriptameattáhusat",
+	"scribunto-common-nosuchmodule": "Skriptameattáhus: Modula \"$2\" ii gávdno.",
+	"scribunto-lua-error-location": "Lua-meattáhus $1: $2.",
+	"scribunto-lua-error": "Lua-meattáhus: $2.",
+	"scribunto-module-with-errors-category": "Scribunto-modulat, main leat meattáhusat.",
+	"scribunto-module-with-errors-category-desc": "Modulas lea meattáhus.",
+	"scribunto-limitreport-timeusage": "Lua-áigegeavaheapmi",
+	"scribunto-limitreport-logs": "Lua-loggat",
+	"nstab-module": "Modula",
+	"tooltip-ca-nstab-module": "Čájet modulasiiddu"
+}

@@ -1,0 +1,279 @@
+/* Special:Search */
+@import 'mediawiki.skin.variables.less';
+@import 'mediawiki.mixins.less';
+
+/* stylelint-disable selector-class-pattern */
+#mw-content-text {
+	.searchresults {
+		margin-bottom: 1em;
+	}
+
+	.mw-search-nonefound,
+	.mw-search-exists,
+	.mw-search-createlink,
+	.searchdidyoumean {
+		margin-bottom: 0;
+		float: none;
+	}
+
+	// If more than one message is present at the same time, add a bit of margin in between
+	.searchdidyoumean + .searchresults .mw-search-createlink,
+	.mw-search-nonefound + .mw-search-createlink {
+		margin-top: 12px;
+	}
+
+	// Default top margin for the search result
+	.mw-search-results {
+		margin-top: 32px;
+	}
+}
+
+/* needs extra specificity to override `.mw-body p` selector */
+.mw-body .mw-search-nonefound {
+	font-size: 1.2em;
+}
+
+.searchmatch {
+	font-weight: bold;
+}
+
+.mw-search-form-wrapper {
+	margin-bottom: 24px;
+}
+
+.mw-search-results {
+	margin: 0;
+
+	li {
+		list-style: none;
+		margin-bottom: 24px;
+
+		a {
+			font-size: 114%;
+		}
+	}
+}
+
+.mw-search-results-container,
+.mw-search-results-info {
+	float: left;
+}
+
+@media only screen and ( min-width: @width-breakpoint-tablet ) {
+	.mw-search-results-container,
+	.mw-search-results-info {
+		width: ~'calc( 100% / 12 * 7 )';
+	}
+
+	.mw-search-profile-tabs {
+		width: 50em;
+	}
+}
+
+.searchResultImage {
+	.searchResultImage-thumbnail {
+		width: 90px;
+		height: 90px;
+		text-align: center;
+		vertical-align: top;
+		padding-right: 0.5em;
+
+		.searchResultImage-thumbnail-placeholder {
+			background-color: @background-color-neutral-subtle;
+			width: inherit;
+			height: inherit;
+			border: @border-subtle;
+			fill: @color-placeholder;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+		}
+
+		img {
+			width: 100%;
+			/* Note: below !important required to override an unrelated !important in minerva skin */
+			/* stylelint-disable-next-line declaration-no-important */
+			height: 100% !important;
+			/* stylelint-disable-next-line plugin/no-unsupported-browser-features */
+			object-fit: cover;
+			object-position: top;
+			border: @border-subtle;
+		}
+	}
+
+	.searchResultImage-text {
+		vertical-align: top;
+	}
+}
+
+/* Don't show thumbnails for interwiki results */
+.mw-search-interwiki-results .searchResultImage-thumbnail {
+	display: none;
+}
+
+.mw-search-visualclear {
+	clear: both;
+}
+
+.mw-search-result-data {
+	color: @color-subtle;
+	font-size: 93%;
+}
+
+.mw-search-profile-tabs {
+	background-color: @background-color-neutral-subtle;
+	margin-top: 1em;
+	border: @border-subtle;
+	border-radius: @border-radius-base;
+}
+
+.search-types {
+	float: left;
+	padding-left: 0.25em;
+
+	ul {
+		margin: 0;
+		padding: 0;
+		list-style: none;
+	}
+
+	li {
+		float: left;
+		margin: 0;
+		padding: 0;
+	}
+
+	a {
+		display: block;
+		padding: 0.5em;
+	}
+
+	.current a {
+		color: @color-base;
+		cursor: default;
+
+		&:hover {
+			text-decoration: none;
+		}
+	}
+}
+
+.results-info {
+	float: right;
+	padding: 0.5em;
+	padding-right: 0.75em;
+	color: @color-subtle;
+	font-size: 95%;
+}
+
+#mw-search-top-table div.oo-ui-actionFieldLayout {
+	float: left;
+	width: 100%;
+}
+
+/* Advanced options menu */
+/* ===================== */
+
+#mw-searchoptions {
+	background-color: @background-color-neutral-subtle;
+	/* Support: Firefox, needs `clear: both` on `fieldset` when zoom level > 100%, see T176499 */
+	clear: both;
+	padding: 0.5em 0.75em 0.75em 0.75em;
+	margin: -1px 0 0;
+	border: @border-subtle;
+	border-radius: 0 0 @border-radius-base @border-radius-base;
+
+	legend {
+		display: none;
+	}
+
+	h4 {
+		padding: 0;
+		margin: 0;
+		float: left;
+	}
+
+	.divider {
+		clear: both;
+		// TODO: Should be `@border-subtle`.
+		border-bottom: @border-width-base @border-style-base #eaecf0;
+		padding-top: 0.5em;
+		margin-bottom: 0.5em;
+	}
+
+	.checkbox-container {
+		columns: 13em;
+		margin-bottom: 1em;
+
+		> * {
+			.column-break-inside-avoid;
+		}
+	}
+}
+
+#mw-search-menu {
+	padding-left: 6em;
+	font-size: 85%;
+}
+
+#mw-search-interwiki {
+	float: right;
+	width: 18em;
+	border: @border-base;
+	margin-top: 2ex;
+}
+
+.searchalttitle,
+#mw-search-interwiki li {
+	font-size: 95%;
+}
+
+.mw-search-interwiki-more {
+	float: right;
+	font-size: 90%;
+}
+
+#mw-search-interwiki-caption {
+	text-align: center;
+	font-weight: bold;
+	font-size: 95%;
+}
+
+.mw-search-interwiki-project {
+	background-color: @background-color-neutral;
+	font-size: 97%;
+	text-align: left;
+	padding: 0.15em 0.15em 0.2em 0.2em;
+	border-top: @border-subtle;
+}
+
+.mw-search-interwiki-header {
+	font-size: 1.3125em;
+	border-bottom: @border-base;
+}
+
+.searchdidyoumean {
+	font-size: 114%;
+	margin-top: 0.8em;
+	margin-bottom: 0.8em;
+
+	em {
+		font-style: normal;
+	}
+}
+
+#mw-search-togglebox {
+	float: right;
+
+	label {
+		margin-right: 0.25em;
+	}
+
+	input {
+		margin-left: 0.25em;
+	}
+}
+
+.client-nojs #mw-search-togglebox {
+	display: none;
+}

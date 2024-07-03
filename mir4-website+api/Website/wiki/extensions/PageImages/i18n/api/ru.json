@@ -1,0 +1,16 @@
+{
+	"@metadata": {
+		"authors": [
+			"Fenixs-ru",
+			"Movses",
+			"Okras"
+		]
+	},
+	"apihelp-query+pageimages-example-1": "Получить название и <kbd>100</kbd>-пиксельный эскиз изображения страницы об <kbd>Альберте Эйнштейне</kbd>.",
+	"apihelp-query+pageimages-param-prop": "Какую информацию возвращать:",
+	"apihelp-query+pageimages-paramvalue-prop-thumbnail": "URL-адрес и размеры миниатюры, связанной со страницей.",
+	"apihelp-query+pageimages-paramvalue-prop-original": "URL-адрес и размеры исходного изображения, связанного со страницей.",
+	"apihelp-query+pageimages-paramvalue-prop-name": "Заголовок изображения.",
+	"apihelp-query+pageimages-param-thumbsize": "Максимальная ширина эскизов в пикселях.",
+	"apihelp-query+pageimages-param-limit": "Свойства, указывающие на то, сколько страниц возвращать."
+}

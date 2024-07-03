@@ -1,0 +1,22 @@
+{
+	"@metadata": {
+		"authors": [
+			"Byrial",
+			"Peter Alberti",
+			"Tjernobyl"
+		]
+	},
+	"imagemap_desc": "Muliggør klikbare billeder med brug af <code>&lt;imagemap&gt;</code>-tagget.",
+	"imagemap_no_image": "Fejl: Der skal angives et billede i første linje",
+	"imagemap_invalid_image": "Fejl: Billedet er ugyldigt eller findes ikke",
+	"imagemap_bad_image": "Fejl: billedet er sortlistet på denne side",
+	"imagemap_no_link": "Fejl: Fandt ikke en brugbar henvisning i slutningen af linje $1",
+	"imagemap_invalid_title": "Fejl: Ugyldig titel i henvisning på linje $1",
+	"imagemap_missing_coord": "Fejl: Ikke nok koordinater til omridset på linje $1",
+	"imagemap_unrecognised_shape": "Fejl: Ukendt omridstype på linje $1. Alle linjer skal starte med enten <code>default</code>, <code>rect</code>, <code>circle</code> eller <code>poly</code>",
+	"imagemap_invalid_coord": "Fejl: Ugyldigt koordinat på linje $1, koordinater skal være tal",
+	"imagemap_invalid_desc": "Fejl: Ugyldig specifikation af desc, skal være en af: <code>$1</code>",
+	"imagemap_description": "Om dette billede",
+	"imagemap_desc_types": "top-højre, bund-højre, bund-venstre, top-venstre, ingen",
+	"imagemap_poly_odd": "Fejl: fandt polygon med et ulige antal koordinater på linje $1"
+}

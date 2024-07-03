@@ -1,0 +1,29 @@
+{
+	"@metadata": {
+		"authors": [
+			"ChrisPtDe"
+		]
+	},
+	"cite-desc": "Apond les balises <code>&lt;ref[ name=id]&gt;</code> et <code>&lt;references/&gt;</code>, por les citacions.",
+	"cite_error": "Fôta de rèference : $1",
+	"cite_error_ref_numeric_key": "Apèl envalido ; cllâf pas entègrâla atendua.",
+	"cite_error_ref_no_key": "Balisa <code>&lt;ref&gt;</code> fôssa ;\nles refèrences sen contegnu dêvont avêr un nom.",
+	"cite_error_ref_too_many_keys": "Apèl envalido ; cllâfs envalides, per ègzemplo, trop de cllâfs spècefiâs ou ben cllâf fôssa.",
+	"cite_error_ref_no_input": "Balisa <code>&lt;ref&gt;</code> fôssa ;\nles refèrences sen nom dêvont avêr un contegnu.",
+	"cite_error_references_invalid_parameters": "Arguments envalidos ; argument atendu.",
+	"cite_error_references_no_backlink_label": "Èpouesement de les ètiquètes de lims pèrsonalisâs. Dèfenésséd-nen un ples grant nombro dens lo mèssâjo [[MediaWiki:Cite references link many format backlink labels]].",
+	"cite_error_no_link_label_group": "Més d’ètiquètes de lims pèrsonalisâs por la tropa « $1 ». Dèfenésséd-nen més dens lo mèssâjo [[MediaWiki:$2]].",
+	"cite_error_references_no_text": "Balisa <code>&lt;ref&gt;</code> fôssa ;\nnion tèxto at étâ balyê por les refèrences apelâs <code>$1</code>.",
+	"cite_error_included_ref": "Cllotura <code>&lt;/ref&gt;</code> manquenta por la balisa <code>&lt;ref&gt;</code>.",
+	"cite_error_group_refs_without_references": "Des balises <code>&lt;ref&gt;</code> ègzistont por una tropa apelâ « $1 », mas niona balisa <code>&lt;references group=\"$1\"/&gt;</code> que corrèspond at étâ trovâ.",
+	"cite_error_references_group_mismatch": "La balisa <code>&lt;ref&gt;</code> dens <code>&lt;references&gt;</code> at l’atribut de tropa « $1 » qu’entre en conflit avouéc celi de <code>&lt;references&gt;</code>.",
+	"cite_error_references_missing_key": "La balisa <code>&lt;ref&gt;</code> avouéc lo nom « $1 » dèfenia dens <code>&lt;references&gt;</code> est pas utilisâ dens cél tèxto.",
+	"cite_error_references_no_key": "La balisa <code>&lt;ref&gt;</code> dèfenia dens <code>&lt;references&gt;</code> at gins d’atribut de nom.",
+	"cite_error_empty_references_define": "La balisa <code>&lt;ref&gt;</code> dèfenia dens <code>&lt;references&gt;</code> avouéc lo nom « $1 » at gins de contegnu.",
+	"cite_references_link_many_and": "&#32;et&#32;",
+	"cite-wikieditor-tool-reference": "Refèrence",
+	"cite-wikieditor-help-page-references": "Refèrences",
+	"cite-wikieditor-help-content-reference-description": "Refèrence",
+	"cite-wikieditor-help-content-rereference-description": "Usâjo de ples de la méma refèrence",
+	"cite-wikieditor-help-content-showreferences-description": "Fâre vêre les refèrences"
+}

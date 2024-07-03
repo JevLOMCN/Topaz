@@ -1,0 +1,25 @@
+{
+	"@metadata": {
+		"authors": [
+			"F Samaritani",
+			"Jun Misugi"
+		]
+	},
+	"thanks-thank": "{{GENDER:$1|{{GENDER:$2|ringratzià}}}}",
+	"thanks-thanked": "{{GENDER:$1|{{GENDER:$2|ringratziaddu}}}}",
+	"thanks-button-thank": "{{GENDER:$1|{{GENDER:$2|Ringratzià}}}}",
+	"thanks-button-thanked": "{{GENDER:$1|{{GENDER:$2|Ringratziaddu}}}}",
+	"thanks-button-action-queued": "{{GENDER:$1|{{GENDER:$2|Ringratzià}}}} a $1…",
+	"thanks-button-action-cancel": "Annullà",
+	"thanks-button-action-completed": "Tu hài {{GENDER:$1|{{GENDER:$2|ringratziaddu}}}} a $1",
+	"thanks-error-invalidrecipient-bot": "Nò pói ringratzià unu bot.",
+	"thanks-error-invalidrecipient-self": "Nò pói ringratziatti a te.",
+	"thanks-error-notloggedin": "Utenti anònimi nò poni mandà li ringratziamenti.",
+	"thanks-thank-tooltip": "{{GENDER:$1|Ringratzià}} kisthu {{GENDER:$2|utenti}}",
+	"thanks-thanked-notice": "{{GENDER:$3|Tu}} hài ringratziaddu {{GENDER:$2|$1}}.",
+	"thanks": "Turrà li gratzi",
+	"thanks-submit": "Mandà li gratzi",
+	"echo-pref-subscription-edit-thank": "Ringratziamenti pai la mudìfigga mea",
+	"echo-category-title-edit-thank": "Ringratziamentu",
+	"ipb-action-thanks": "Turrà li gratzi"
+}

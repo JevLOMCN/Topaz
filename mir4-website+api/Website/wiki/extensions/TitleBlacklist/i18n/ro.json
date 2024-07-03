@@ -1,0 +1,24 @@
+{
+	"@metadata": {
+		"authors": [
+			"AdiJapan",
+			"Andrei Stroe",
+			"Minisarm",
+			"NGC 54"
+		]
+	},
+	"log-name-titleblacklist": "Jurnal listă titluri interzise",
+	"log-description-titleblacklist": "Aceste evenimente notează potrivirile cu lista titlurilor interzise.",
+	"titleblacklist-desc": "Permite administratorilor să interzică crearea de pagini și de conturi de utilizator, folosind o [[MediaWiki:Titleblacklist|listă neagră]] și o [[MediaWiki:Titlewhitelist|listă albă]]",
+	"titleblacklist": "# Aceasta este lista neagră pentru titluri. Nu pot fi create titluri și conturi care corespund la una din expresiile regulate de aici.\n# Folosiți „#” pentru comentarii.\n# În mod implicit nu contează majusculele.",
+	"titlewhitelist": "# Aceasta este lista albă pentru titluri. Folosiți „#” pentru comentarii. \n# În mod implicit nu contează majusculele.",
+	"titleblacklist-forbidden-edit": "Este interzisă crearea titlului „$2”.\nInterdicția a fost declanșată de următorul element din lista neagră: <code>$1</code>",
+	"titleblacklist-forbidden-move": "Titlul „$2” nu se poate redenumi în „$3” pentru că acesta din urmă este interzis.\nInterdicția a fost declanșată de următorul element din lista neagră: <code>$1</code>",
+	"titleblacklist-forbidden-upload": "Numele de fișier „$2” este interzis.\nInterdicția a fost declanșată de următorul element din lista neagră: <code>$1</code>",
+	"titleblacklist-forbidden-new-account": "Nu se poate crea un cont de utilizator cu numele „$2”.\nInterdicția a fost declanșată de următorul element din lista neagră: <code>$1</code>",
+	"titleblacklist-invalid": "{{PLURAL:$1|Următoarea linie|Următoarele linii}} din lista neagră a titlurilor {{PLURAL:$1|este invalidă|sînt invalide}};\ncorectați{{PLURAL:$1|-o|-le}} înainte de a salva pagina.",
+	"titleblacklist-override": "Ignoră lista neagră de titluri dacă se potrivește",
+	"right-tboverride": "Ignoră lista neagră cu titluri sau nume de utilizator",
+	"right-tboverride-account": "Suprascrie lista neagră a numelor de utilizator",
+	"right-titleblacklistlog": "Vizualizează jurnalul listei negre de titluri"
+}

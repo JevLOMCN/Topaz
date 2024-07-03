@@ -1,0 +1,26 @@
+{
+	"@metadata": {
+		"authors": [
+			"Esketti",
+			"Mainframe98",
+			"McDutchie",
+			"SPQRobin",
+			"Siebrand",
+			"Southparkfan"
+		]
+	},
+	"codeeditor-desc": "Syntaxis-gemarkeerd bewerken voor JavaScript- en CSS-pagina's met behulp van de [https://ace.c9.io/ Ace-tekstverwerker]",
+	"codeeditor-next-annotation": "Ga naar de volgende annotatie",
+	"codeeditor-toolbar-toggle": "Code-editor omschakelen",
+	"codeeditor-save-with-errors": "Het document bevat fouten. Weet u zeker dat u het wilt publiceren?",
+	"codeeditor-invisibleChars-toggle": "Onzichtbare tekens omschakelen",
+	"codeeditor-lineWrapping-toggle": "Regelomslag omschakelen",
+	"codeeditor-searchReplace-toggle": "Dialoogvenster Zoeken en vervangen omschakelen",
+	"codeeditor-gotoline": "Ga naar regelnummer...",
+	"codeeditor-gotoline-placeholder": "regel[:kolom]",
+	"codeeditor-gotoline-prompt": "Voer een regelnummer in",
+	"codeeditor-indent": "Inspringen",
+	"codeeditor-outdent": "Uitspringen",
+	"codeeditor-error-title": "De afhankelijkheid is mislukt",
+	"codeeditor-error-message": "CodeEditor vereist dat WikiEditor beschikbaar is."
+}

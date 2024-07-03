@@ -1,0 +1,25 @@
+{
+	"@metadata": {
+		"authors": [
+			"Derk-Jan Hartman",
+			"Purodha",
+			"Shirayuki",
+			"Tacsipacsi",
+			"Umherirrender"
+		]
+	},
+	"codeeditor-desc": "{{desc|name=Code Editor|url=https://www.mediawiki.org/wiki/Extension:CodeEditor}}",
+	"codeeditor-next-annotation": "Used as a label for button to navigate to the next line in the editor that has an annotation",
+	"codeeditor-toolbar-toggle": "Used as label for toolbar button.",
+	"codeeditor-save-with-errors": "Used as message in a dialog before saving a document with errors.",
+	"codeeditor-invisibleChars-toggle": "Used as label for toolbar button to show/hide non visible characters",
+	"codeeditor-lineWrapping-toggle": "Used as label for toolbar button to enable/disable wrapping of long lines on the screen (this doesn’t modify the saved text).",
+	"codeeditor-searchReplace-toggle": "Used as label for toolbar button to show/hide the search and replace dialog",
+	"codeeditor-gotoline": "Used as a label for toolbar button to navigate to a line number in the editor",
+	"codeeditor-gotoline-placeholder": "Placeholder for goto line prompt's input",
+	"codeeditor-gotoline-prompt": "Label for goto line prompt",
+	"codeeditor-indent": "Used as a label for toolbar button to indent text in the editor",
+	"codeeditor-outdent": "Used as a label for toolbar button to outdent text in the editor",
+	"codeeditor-error-title": "Used as a title when there is a missing dependency",
+	"codeeditor-error-message": "Explains the dependency on WikiEditor"
+}

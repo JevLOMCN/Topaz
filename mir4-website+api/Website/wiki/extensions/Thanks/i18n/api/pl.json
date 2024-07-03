@@ -1,0 +1,17 @@
+{
+	"@metadata": {
+		"authors": [
+			"Chrumps",
+			"Rail",
+			"Woytecr"
+		]
+	},
+	"apihelp-flowthank-summary": "Wysyła publiczne powiadomienie z podziękowaniem za komentarz Flow.",
+	"apihelp-flowthank-param-postid": "UUID postu, za który chcesz podziękować.",
+	"apihelp-flowthank-example-1": "Wyślij podziękowanie za komentarz z <kbd>UUID xyz789</kbd>",
+	"apihelp-thank-summary": "Wysyła powiadomienie z podziękowaniem do edytującego.",
+	"apihelp-thank-param-rev": "ID wersji, za którą podziękować. Musi być podany albo ten parametr, albo parametr „log”.",
+	"apihelp-thank-param-log": "Identyfikator wpisu rejestru czynności, którego tyczy się podziękowanie. Musi być podany albo ten parametr, albo parametr „rev”.",
+	"apihelp-thank-param-source": "Krótki ciąg znaków opisujący źródło żądania, na przykład <kbd>diff</kbd> lub <kbd>history</kbd>.",
+	"apihelp-thank-example-1": "Wyślij podziękowanie za wersję o <kbd>ID 456</kbd>, ze źródłem będącym stroną porównywania"
+}

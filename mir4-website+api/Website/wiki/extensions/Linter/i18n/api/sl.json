@@ -1,0 +1,19 @@
+{
+	"@metadata": {
+		"authors": [
+			"Eleassar",
+			"Janezdrilc"
+		]
+	},
+	"apihelp-query+linterrors-summary": "Prikaži seznam kodnih napak",
+	"apihelp-query+linterrors-param-categories": "Kategorije kodnih napak",
+	"apihelp-query+linterrors-param-invisible-categories": "Nevidne kategorije skladenjskih napak",
+	"apihelp-query+linterrors-param-limit": "Število zadetkov za poizvedbo",
+	"apihelp-query+linterrors-param-from": "Identifikator Lint za začetek poizvedbe",
+	"apihelp-query+linterrors-param-namespace": "Vključi samo skladenjske napake v izbranem imenskem prostoru",
+	"apihelp-query+linterrors-param-pageid": "Vključi samo napake analize Lint identifikatorjev izbranih strani",
+	"apihelp-query+linterrors-param-title": "Vključi samo napake Lint iz določenega naslova strani",
+	"apihelp-query+linterrors-example-1": "Pridobi vse skladenjske napake iz kategorije zastarelih značk",
+	"apihelp-query+linterstats-summary": "Prikaži število kodnih napak v posameznih kategorijah",
+	"apihelp-query+linterstats-example-1": "Prikaži število kodnih napak v posameznih kategorijah"
+}

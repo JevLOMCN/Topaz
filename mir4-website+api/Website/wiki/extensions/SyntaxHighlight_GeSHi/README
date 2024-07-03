@@ -1,0 +1,57 @@
+This extension allows source code to be syntax highlighted on the wiki pages.
+This README file might be out of date, have a look at the extension page
+for updated information:
+
+    https://www.mediawiki.org/wiki/Extension:SyntaxHighlight_GeSHi
+
+== Requirements ==
+
+This version of the extension has been tested with Pygments 2.11.2 and
+MediaWiki 1.36. To get releases of this extension compatible
+with earlier versions of MediaWiki, visit:
+
+    https://www.mediawiki.org/wiki/Special:ExtensionDistributor/SyntaxHighlight_GeSHi
+
+== Installation ==
+
+Add this line to your LocalSettings.php:
+
+    wfLoadExtension( 'SyntaxHighlight_GeSHi' );
+
+By default, this extension will use a bundled copy of Pygments 2.11.2. If you
+would like to use a different copy of the library, you can set
+$wgPygmentizePath to point to the path to the 'pygmentize' binary.
+
+== Usage ==
+
+On the wiki page, you can now use "source" elements:
+
+<source lang="php">
+<?php
+    v = "string";    // sample initialization
+?>
+html text
+<?php
+    echo v;         // end of php code
+?>
+</source>
+
+== Parameters ==
+
+For details information of these parameters, see the documentation of Pygments'
+HtmlFormatter at <https://pygments.org/docs/formatters/#HtmlFormatter>.
+
+* lang;	      Defines the language.
+* line;	      Corresponds to linenos="inline" option.
+* start;      Corresponds to linenostart option.
+* enclose;    If set to "none", corresponds to the nowrap=1 option.
+* inline;     Corresponds to the nowrap=1 option.
+* highlight;  Corresponds to hl_lines option (comma separated).
+* linelinks;  Lines will have links and anchors with a prefix of the value.
+              Similar to the lineanchors+linespans features in Pygments
+
+== Note ==
+
+Pygments is generous about creating HTML elements: highlighting large blocks of
+code can easily generate enough of them to crash a browser. As a guard, syntax
+highlighting is turned off for code fragments larger than 100 kB.

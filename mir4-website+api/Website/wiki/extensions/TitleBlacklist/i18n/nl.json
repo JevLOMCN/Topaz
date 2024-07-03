@@ -1,0 +1,33 @@
+{
+	"@metadata": {
+		"authors": [
+			"HanV",
+			"Mainframe98",
+			"McDutchie",
+			"SPQRobin",
+			"Siebrand",
+			"Sjoerddebruin",
+			"Southparkfan"
+		]
+	},
+	"action-tboverride": "de lijst met verboden titels of gebruikersnamen te omzeilen",
+	"action-tboverride-account": "de lijst met verboden gebruikersnamen te omzeilen",
+	"action-titleblacklistlog": "het logboek over de lijst met verboden titels te bekijken",
+	"log-name-titleblacklist": "Logboek over de lijst met verboden titels",
+	"log-description-titleblacklist": "In dit logboek worden de pogingen tot gebruik van verboden titels bijgehouden.",
+	"logentry-titleblacklist-hit-username": "$1 {{GENDER:$2|liep}} tegen een treffer van de lijst met verboden titels op bij een poging het account $3 aan te maken, wat overeenkomt met $4.",
+	"titleblacklist-desc": "Hiermee kunnen beheerders de aanmaak van pagina's en gebruikersaccounts verbieden volgens een lijst met [[MediaWiki:Titleblacklist|verboden titels]] en een met [[MediaWiki:Titlewhitelist|toegestane titels]].",
+	"titleblacklist": "# Dit is een lijst met verboden titels. Titels en gebruikersnamen die overeenkomen met een hier aangegeven reguliere expressie kunnen niet aangemaakt worden.\n# Gebruik \"#\" voor opmerkingen.\n# Tenzij anders is ingesteld wordt geen onderscheid gemaakt tussen hoofd- en kleine letters.",
+	"titlewhitelist": "# Dit is een lijst met toegestane titels.\n# Gebruik \"#\" voor opmerkingen.\n# Tenzij anders is ingesteld wordt geen onderscheid gemaakt tussen hoofd- en kleine letters.",
+	"titleblacklist-forbidden-edit": "De titel \"$2\" mag niet worden aangemaakt.\nHij komt overeen met de volgende vermelding op de lijst met verboden titels: <code>$1</code>",
+	"titleblacklist-forbidden-move": "\"$2\" kan niet hernoemd worden naar \"$3\" omdat de titel \"$3\" niet mag worden aangemaakt.\nHij komt overeen met de volgende vermelding op de lijst met verboden titels: <code>$1</code>",
+	"titleblacklist-forbidden-upload": "De bestandsnaam \"$2\" mag niet worden aangemaakt.\nHij komt overeen met de volgende vermelding op de lijst met verboden titels: <code>$1</code>",
+	"titleblacklist-forbidden-new-account": "De gebruikersnaam \"$2\" mag niet worden aangemaakt.\nHij komt overeen met de volgende vermelding op de lijst met verboden titels: <code>$1</code>",
+	"titleblacklist-invalid": "De volgende {{PLURAL:$1|regel|regels}} in de lijst met verboden titels {{PLURAL:$1|is|zijn}} ongeldig.\nVerbeter {{PLURAL:$1|hem|ze}} voordat u de lijst opslaat.",
+	"titleblacklist-override": "De lijst met verboden titels omzeilen",
+	"titleblacklist-override-help": "Gebruikers met toereikende rechten kunnen dit instellen om de lijst met verboden titels te laten negeren.",
+	"titleblacklist-warning": "<strong>Let op: Deze pagina kan alleen worden bewerkt door beheerders en andere gebruikers met het recht <code>tboverride</code> omdat ze overeenkomt met de volgende vermelding op de lijst met verboden titels:</strong><br /><code>$1</code>",
+	"right-tboverride": "De lijst met verboden titels of gebruikersnamen omzeilen",
+	"right-tboverride-account": "De lijst met verboden gebruikersnamen omzeilen",
+	"right-titleblacklistlog": "Het logboek met verboden titels bekijken"
+}

@@ -1,0 +1,26 @@
+{
+	"@metadata": {
+		"authors": [
+			"AYZ04",
+			"Liangent",
+			"Liuxinyu970226",
+			"Northteam",
+			"PhiLiP",
+			"铁桶"
+		]
+	},
+	"codeeditor-desc": "使用[https://ace.c9.io/ Ace编辑器]实现编辑JavaScript和CSS页面时的语法高亮功能",
+	"codeeditor-next-annotation": "前往下一注释",
+	"codeeditor-toolbar-toggle": "切换代码编辑器",
+	"codeeditor-save-with-errors": "文档包含错误。您确定要发布吗？",
+	"codeeditor-invisibleChars-toggle": "显示或隐藏不可见字符",
+	"codeeditor-lineWrapping-toggle": "开启/关闭自动换行",
+	"codeeditor-searchReplace-toggle": "显示或隐藏搜索并替换的对话框",
+	"codeeditor-gotoline": "跳转到指定行...",
+	"codeeditor-gotoline-placeholder": "行[:列]",
+	"codeeditor-gotoline-prompt": "输入行数",
+	"codeeditor-indent": "缩进",
+	"codeeditor-outdent": "减少缩进",
+	"codeeditor-error-title": "依赖失败",
+	"codeeditor-error-message": "代码编辑器需要WikiEditor被加载。"
+}

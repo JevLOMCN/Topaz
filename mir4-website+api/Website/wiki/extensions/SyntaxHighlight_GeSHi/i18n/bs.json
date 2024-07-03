@@ -1,0 +1,22 @@
+{
+	"@metadata": {
+		"authors": [
+			"CERminator",
+			"Semso98",
+			"Srdjan m",
+			"Srđan"
+		]
+	},
+	"syntaxhighlight-desc": "Omogućava isticanje sintakse <code>&lt;source&gt;</code> uz pomoć [http://pygments.org/ Pygments - Python syntax highlighter]",
+	"syntaxhighlight-error-category": "Stranice s greškama u isticanju sintakse",
+	"syntaxhighlight-error-category-desc": "Došlo je do greške pri pokušaju da se istakne kôd koji je uključen na stranici.",
+	"syntaxhighlight-visualeditor-mwsyntaxhighlightinspector-code": "Kôd",
+	"syntaxhighlight-visualeditor-mwsyntaxhighlightinspector-language": "Jezik",
+	"syntaxhighlight-visualeditor-mwsyntaxhighlightinspector-none": "(nijedan)",
+	"syntaxhighlight-visualeditor-mwsyntaxhighlightinspector-showlines": "Prikaži brojeve redova",
+	"syntaxhighlight-visualeditor-mwsyntaxhighlightinspector-startingline": "Broj početnog reda",
+	"syntaxhighlight-visualeditor-mwsyntaxhighlightinspector-title": "Računarski kôd",
+	"syntaxhighlight-error-pygments-invocation-failure": "Nisam uspio pozvati Pygments",
+	"syntaxhighlight-error-unknown-language": "Nepoznat jezik \"$1\"",
+	"syntaxhighlight-error-exceeds-size-limit": "Trenutna veličina kôda ($1 {{PLURAL:$1|bajt|bajta|bajtova}}) prekoračava gornju granicu od $2 {{PLURAL:$1|bajt|bajta|bajtova}}"
+}

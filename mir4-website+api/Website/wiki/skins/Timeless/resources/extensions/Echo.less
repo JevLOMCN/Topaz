@@ -1,0 +1,51 @@
+@import '../variables.less';
+
+@media screen {
+	div.mw-echo-ui-overlay {
+		z-index: @z-index-overlay-backdrop;
+	}
+
+	/* Handle and position Echo icons */
+	#pt-notifications-alert .mw-echo-notifications-badge,
+	#pt-notifications-notice .mw-echo-notifications-badge {
+		// Temporary in case Echo is still -5px
+		top: 0;
+	}
+
+	#personal-extra {
+		white-space: nowrap;
+
+		ul {
+			list-style: none;
+			padding: 0;
+			margin: 0.5em;
+		}
+
+		li {
+			margin: 0 0.25em;
+			display: inline-block;
+		}
+	}
+
+	@media ( min-width: @desktop-small-floor ) {
+		div#personal {
+			padding-left: 0;
+		}
+
+		#personal-extra {
+			float: left;
+		}
+	}
+
+	@media ( max-width: @mobile-width ) {
+		#personal-extra {
+			position: absolute;
+			top: 0.9em;
+			right: 7.5em;
+
+			li {
+				margin-right: 0.75em;
+			}
+		}
+	}
+}

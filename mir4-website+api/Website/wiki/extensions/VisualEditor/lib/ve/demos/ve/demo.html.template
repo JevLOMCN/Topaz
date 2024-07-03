@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+	<!--
+	/*!
+	 * VisualEditor standalone demo
+	 *
+	 * @copyright See AUTHORS.txt
+	 */
+	-->
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
+		<title>VisualEditor Standalone Demo</title>
+
+<!-- STYLES -->
+
+	</head>
+	<body>
+		<div class="ve-demo-logo"></div>
+		<div class="ve-demo-toolbar ve-demo-targetToolbar"></div>
+		<div class="ve-demo-editor"></div>
+
+<!-- SCRIPTS -->
+
+	</body>
+</html>

@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"Alshamiri1",
+			"Maroen1990",
+			"Meno25",
+			"Moud hosny"
+		]
+	},
+	"apihelp-categorytree-summary": "جزء داخلي لامتداد CategoryTree.",
+	"apihelp-categorytree-param-category": "العنوان في مساحة اسم الفئة. يتم تجاهل البادئة إذا كان محدد.",
+	"apihelp-categorytree-param-options": "الخيارات لمنشيء CategoryTree ككائن JSON object. خيار <var>depth</var> القيمة الافتراضية له هي <kbd>1</kbd>.",
+	"apierror-categorytree-invalidjson": "الخيارات يجب أن تكون كائن JSON صحيح.",
+	"apierror-categorytree-invalidjson-option": "يحتوي الخيار \" $1 \" على قيمة غير صالحة."
+}

@@ -1,0 +1,29 @@
+{
+	"@metadata": {
+		"authors": [
+			"Alesaru",
+			"NGC 54",
+			"Strainu"
+		]
+	},
+	"editcheck-dialog-action-no": "Nu",
+	"editcheck-dialog-action-yes": "Da",
+	"editcheck-dialog-addref-description": "Ajutați cititorii să înțeleagă de unde provin aceste informații, adăugând o citare.",
+	"editcheck-dialog-addref-reject-question": "De ce nu adăugați o citare?",
+	"editcheck-dialog-addref-reject-description": "Alți editori ar aprecia să afle mai multe despre decizia dvs. de a respinge citarea.",
+	"editcheck-dialog-addref-reject-irrelevant": "Nu cred că citările sunt relevante pentru schimbarea pe care o fac",
+	"editcheck-dialog-addref-reject-common-knowledge": "Informațiile pe care le adaug sunt cunoscute pe scară largă.",
+	"editcheck-dialog-addref-reject-uncertain": "Nu sunt {{GENDER:|sigur|sigură}} ce citare să adaug",
+	"editcheck-dialog-addref-reject-other": "Alt motiv",
+	"editcheck-dialog-addref-success-notify": "Vă mulțumim pentru că adăugați o citare!",
+	"editcheck-dialog-addref-title": "Adăugați o citare",
+	"editcheck-dialog-title": "Înainte de publicare",
+	"tag-editcheck-reference-decline-common-knowledge": "Edit Check (referințe) respins (cunoștințe generale)",
+	"tag-editcheck-reference-decline-common-knowledge-description": "EditCheck referința a fost respinsă ca fiind cunoscut pe scară largă",
+	"tag-editcheck-reference-decline-irrelevant": "Edit Check (referințe) respins (irelevant)",
+	"tag-editcheck-reference-decline-irrelevant-description": "Referința EditCheck a fost respinsă că fiind irelevantă",
+	"tag-editcheck-reference-decline-other": "Edit Check (referințe) respins (alt motiv)",
+	"tag-editcheck-reference-decline-other-description": "EditCheck citarea a fost respinsă din motive necunoscute",
+	"tag-editcheck-reference-decline-uncertain": "Edit Check (referințe) respins (incert)",
+	"tag-editcheck-reference-decline-uncertain-description": "Referința EditCheck a fost respinsă ca fiind incertă"
+}

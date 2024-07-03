@@ -1,0 +1,20 @@
+{
+	"@metadata": {
+		"authors": [
+			"Meshkov.a",
+			"Okras",
+			"Pacha Tchernof",
+			"Александр Сигачёв"
+		]
+	},
+	"inputbox-desc": "Позволяет включать заранее определённые HTML-формы",
+	"inputbox-error-no-type": "Вы не указали тип создаваемого поля ввода.",
+	"inputbox-error-bad-type": "Неизвестный тип поля ввода «$1».\nПожалуйста, укажите один из допустимых типов: «create», «comment», «search», «search2» или «fulltext».",
+	"inputbox-tryexact": "Точное соответствие",
+	"inputbox-searchfulltext": "Полнотекстовый поиск",
+	"inputbox-createarticle": "Создать статью",
+	"inputbox-movearticle": "Переместить страницу",
+	"inputbox-postcomment": "Новый раздел",
+	"inputbox-postcommenttitle": "Новый раздел",
+	"inputbox-ns-main": "Главная"
+}

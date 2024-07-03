@@ -1,0 +1,40 @@
+{
+	"@metadata": {
+		"authors": [
+			"Bishnu Saikia",
+			"Chaipau",
+			"Gitartha.bordoloi",
+			"Psneog",
+			"Rajuonline",
+			"Simbu123"
+		]
+	},
+	"categorytree": "শ্ৰেণীবৃক্ষ",
+	"categorytree-portlet": "শ্ৰেণী",
+	"categorytree-legend": "শ্ৰেণীবৃক্ষ দেখুৱাওক",
+	"categorytree-desc": "[[Special:CategoryTree|শ্ৰেণীবৃক্ষ গঠন]] পৰিদৰ্শন কৰক",
+	"categorytree-header": "সমলসমূহ বৃক্ষৰূপত চাবলৈ এটা শ্ৰেণীৰ নাম লিখক।\nমন কৰক যে এনে কৰিবলৈ AJAX নামৰ এটা উচ্চস্তৰৰ জাভা কৌশলৰ আৱশ্যক।\nআপোনাৰ ব্ৰাওজাৰ অতি পুৰণি হ'লে বা জাভাস্ক্ৰিপ্ট নিষ্ক্ৰিয় হৈ থাকিলে ই কাম নকৰিব।",
+	"categorytree-category": "শ্ৰেণী:",
+	"categorytree-go": "বৃক্ষ দেখুৱাওক",
+	"categorytree-parents": "পালক",
+	"categorytree-mode-label": "প্ৰণালী:",
+	"categorytree-mode-categories": "কেৱল শ্ৰেণী",
+	"categorytree-mode-pages": "ফাইল বাদে পৃষ্ঠাসমূহ",
+	"categorytree-mode-all": "সকলো পৃষ্ঠা",
+	"categorytree-collapse": "সংকোচন",
+	"categorytree-expand": "বহলাওক",
+	"categorytree-member-counts": "{{PLURAL:$1|এটা উপশ্ৰেণী|$1টা উপশ্ৰেণী}}, {{PLURAL:$2|এটা পৃষ্ঠা|$2টা পৃষ্ঠা}}, আৰু {{PLURAL:$3|এটা ফাইল|$3টা ফাইল}} আছে",
+	"categorytree-num-categories": "$1টা শ্ৰেণী",
+	"categorytree-num-pages": "$1টা পৃষ্ঠা",
+	"categorytree-num-files": "$1টা ফাইল",
+	"categorytree-num-empty": "খালি",
+	"categorytree-load": "ল'ড কৰক",
+	"categorytree-loading": "ল'ড কৰি থকা হৈছে...",
+	"categorytree-nothing-found": "একো পোৱা নগ'ল",
+	"categorytree-no-subcategories": "উপশ্ৰেণী নাই",
+	"categorytree-no-parent-categories": "কোনো মূল বিষয়শ্ৰেণী নাই",
+	"categorytree-no-pages": "এনে কোনো পৃষ্ঠা বা উপশ্ৰেণী নাই",
+	"categorytree-not-found": "<i>$1</i> শ্ৰেণীটো বিচাৰি পোৱা নগল",
+	"categorytree-error": "তথ্য ল'ড কৰাত সমস্যা হৈছে।",
+	"categorytree-retry": "অনুগ্ৰহ কৰি কিছু সময় অপেক্ষা কৰি তাৰ পিছত চেষ্টা কৰক।"
+}

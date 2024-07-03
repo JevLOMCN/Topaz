@@ -1,0 +1,236 @@
+{
+	"name": "Thanks",
+	"version": "1.2.0",
+	"author": [
+		"Ryan Kaldari",
+		"Benjamin Chen",
+		"Wctaiwan"
+	],
+	"url": "https://www.mediawiki.org/wiki/Extension:Thanks",
+	"descriptionmsg": "thanks-desc",
+	"license-name": "MIT",
+	"type": "other",
+	"requires": {
+		"MediaWiki": ">= 1.42",
+		"extensions": {
+			"Echo": "*"
+		}
+	},
+	"DefaultUserOptions": {
+		"echo-subscriptions-web-edit-thank": true,
+		"echo-subscriptions-email-edit-thank": false
+	},
+	"RateLimits": {
+		"thanks-notification": {
+			"user": [
+				10,
+				60
+			]
+		}
+	},
+	"SpecialPages": {
+		"Thanks": {
+			"class": "MediaWiki\\Extension\\Thanks\\SpecialThanks",
+			"services": [
+				"UserFactory"
+			]
+		}
+	},
+	"LogTypes": [
+		"thanks"
+	],
+	"FilterLogTypes": {
+		"thanks": true
+	},
+	"LogActionsHandlers": {
+		"thanks/*": "MediaWiki\\Extension\\Thanks\\ThanksLogFormatter"
+	},
+	"APIModules": {
+		"thank": {
+			"class": "MediaWiki\\Extension\\Thanks\\Api\\ApiCoreThank",
+			"services": [
+				"PermissionManager",
+				"RevisionStore",
+				"UserFactory",
+				"ThanksLogStore"
+			]
+		}
+	},
+	"MessagesDirs": {
+		"Thanks": [
+			"i18n",
+			"i18n/api"
+		]
+	},
+	"ExtensionMessagesFiles": {
+		"ThanksAlias": "Thanks.alias.php"
+	},
+	"AutoloadNamespaces": {
+		"MediaWiki\\Extension\\Thanks\\": "includes/"
+	},
+	"ResourceModules": {
+		"ext.thanks": {
+			"scripts": [
+				"ext.thanks.thank.js"
+			],
+			"dependencies": [
+				"mediawiki.cookie",
+				"mediawiki.api"
+			]
+		},
+		"ext.thanks.corethank": {
+			"scripts": [
+				"ext.thanks.corethank.js"
+			],
+			"messages": [
+				"thanks-thanked",
+				"thanks-error-undefined",
+				"thanks-error-invalidrevision",
+				"thanks-error-ratelimited",
+				"thanks-error-revdeleted",
+				"thanks-confirmation2",
+				"thanks-thank-tooltip-no",
+				"thanks-thank-tooltip-yes",
+				"thanks-button-thank",
+				"cancel"
+			],
+			"dependencies": [
+				"oojs-ui-core",
+				"oojs-ui-windows",
+				"mediawiki.jqueryMsg",
+				"mediawiki.api",
+				"jquery.confirmable",
+				"ext.thanks"
+			]
+		},
+		"ext.thanks.mobilediff": {
+			"styles": [
+				"ext.thanks.mobilediff.less"
+			],
+			"scripts": [
+				"ext.thanks.mobilediff.js"
+			],
+			"messages": [
+				"thanks-button-action-queued",
+				"thanks-button-action-cancel",
+				"thanks-button-action-completed",
+				"thanks-button-thank",
+				"thanks-button-thanked",
+				"thanks-error-invalidrevision",
+				"thanks-error-ratelimited",
+				"thanks-error-undefined",
+				"thanks-thanked-notice"
+			],
+			"dependencies": [
+				"mobile.startup",
+				"mediawiki.api",
+				"mediawiki.jqueryMsg"
+			]
+		},
+		"ext.thanks.flowthank": {
+			"scripts": [
+				"jquery.findWithParent.js",
+				"ext.thanks.flowthank.js"
+			],
+			"messages": [
+				"thanks-button-thanked",
+				"thanks-error-undefined",
+				"thanks-error-ratelimited"
+			],
+			"dependencies": [
+				"oojs-ui-core",
+				"oojs-ui-windows",
+				"mediawiki.jqueryMsg",
+				"mediawiki.api",
+				"ext.thanks"
+			]
+		}
+	},
+	"ResourceFileModulePaths": {
+		"localBasePath": "modules",
+		"remoteExtPath": "Thanks/modules"
+	},
+	"QUnitTestModule": {
+		"localBasePath": "tests/qunit",
+		"remoteExtPath": "Thanks/tests/qunit",
+		"scripts": [
+			"test_ext.thanks.thank.js",
+			"test_ext.thanks.mobilediff.js"
+		],
+		"dependencies": [
+			"ext.thanks",
+			"ext.thanks.mobilediff"
+		]
+	},
+	"Hooks": {
+		"ApiMain::moduleManager": "main",
+		"BeforeCreateEchoEvent": "echo",
+		"BeforePageDisplay": "main",
+		"BeforeSpecialMobileDiffDisplay": "mobile-frontend",
+		"DiffTools": "main",
+		"DifferenceEngineViewHeader": "main",
+		"EchoGetBundleRules": "echo",
+		"GetAllBlockActions": "main",
+		"GetLogTypesOnUser": "main",
+		"HistoryTools": "main",
+		"LocalUserCreated": "main",
+		"LogEventsListLineEnding": "main",
+		"PageHistoryBeforeList": "main"
+	},
+	"HookHandlers": {
+		"main": {
+			"class": "MediaWiki\\Extension\\Thanks\\Hooks",
+			"services": [
+				"MainConfig",
+				"GenderCache",
+				"PermissionManager",
+				"RevisionLookup",
+				"UserFactory",
+				"UserOptionsManager"
+			]
+		},
+		"mobile-frontend": {
+			"class": "MediaWiki\\Extension\\Thanks\\MobileFrontendHandler",
+			"services": [
+				"MainConfig",
+				"UserFactory"
+			]
+		},
+		"echo": {
+			"class": "MediaWiki\\Extension\\Thanks\\EchoHooks"
+		}
+	},
+	"ServiceWiringFiles": [
+		"ServiceWiring.php"
+	],
+	"config": {
+		"ThanksSendToBots": {
+			"value": false
+		},
+		"ThanksLogging": {
+			"value": true
+		},
+		"ThanksConfirmationRequired": {
+			"value": true
+		},
+		"ThanksAllowedLogTypes": {
+			"value": [
+				"contentmodel",
+				"create",
+				"delete",
+				"import",
+				"merge",
+				"move",
+				"pagelang",
+				"patrol",
+				"protect",
+				"tag",
+				"upload",
+				"managetags",
+				"rights/rights",
+				"lock"
+			]
+		}
+	},
+	"manifest_version": 2
+}

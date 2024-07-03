@@ -1,0 +1,23 @@
+{
+	"@metadata": {
+		"authors": [
+			"Joetaras"
+		]
+	},
+	"oathauth-account": "Nome d'u cunde:",
+	"oathauth-secret": "Chiave segrete de autendicazione a Doje Fattore:",
+	"oathauth-enable": "Abbilite l'Autendicazione a Doje Fattore",
+	"oathauth-disable": "Disabbilite l'Autendicazione a Doje Fattore",
+	"oathauth-auth-token-label": "Gettone",
+	"oathauth-ui-no-module": "None abbilitate",
+	"oathauth-module-totp-label": "TOTP (gettone use e gette)",
+	"oathauth-ui-manage": "Gestisce",
+	"oathauth-ui-not-enabled-modules": "Cange a 'nu metode alternative",
+	"oathauth-enable-generic": "Abbilite",
+	"oathauth-disable-generic": "Disabbilite",
+	"oathauth-disable-page-title": "Disabbilite $1",
+	"oathauth-enable-page-title": "Abbilite $1",
+	"oathauth-ui-available-modules": "Metode disponibbele",
+	"oathauth-disable-method-warning-button-label": "Conferme e condinue",
+	"oathauth-invalidrequest": "Richieste invalide"
+}

@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"Amire80",
+			"RFScott"
+		]
+	},
+	"apierror-discussiontools-commentid-notfound": "IDку '$1' гисурэн абани",
+	"apierror-discussiontools-commentname-ambiguous": "Гой-гой гисурэсэл би тамача '$1' гэрбуку. Чаду IDвэ нирусу",
+	"apierror-discussiontools-commentname-notfound": "Гисурэн '$1' гэрбуни абани",
+	"apihelp-discussiontoolsedit-param-commentid": "IDку гисурэн гисурэури. <var>addcomment</var>ку <var>paction</var>-да осини, ая би. <var>commentname</var> ниругувури.",
+	"apihelp-discussiontoolsedit-param-commentname": "Гисурэми ая гэрбу. <var>addcomment</var>ку <var>paction</var>-дэ осини, ая."
+}

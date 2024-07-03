@@ -1,0 +1,31 @@
+{
+	"@metadata": {
+		"authors": [
+			"Borichèt",
+			"Bèrto 'd Sèra",
+			"Dragonòt"
+		]
+	},
+	"nuke": "Scancelament d'amblé",
+	"action-nuke": "scancelé dle pàgine a baron",
+	"nuke-desc": "A dà a j'aministrador l'abilitassion a [[Special:Nuke|scanselé a baron]] le pàgine",
+	"nuke-nopages": "Gnun-e pàgine neuve da [[Special:Contributions/$1|{{GENDER:$1|$1}}]] ant j'ùltime modìfiche.",
+	"nuke-list": "Coste pàgine-sì a son ëstàite faite ant j'ùltim temp da [[Special:Contributions/$1|{{GENDER:$1|$1}}]]; ch'a lassa un coment e ch'a-j daga 'n colp ansima al boton për gaveje via tute d'amblé.",
+	"nuke-list-multiple": "Le pàgine sì-dapress a son stàite creà da pòch;\nch'a buta un coment e ch'a sgnaca ël boton për scanceleje.",
+	"nuke-defaultreason": "Scancelament d'amblé dle pàgine giontà da [[Special:Contributions/$1|{{GENDER:$1|$1}}]]",
+	"nuke-multiplepeople": "Scancelassion a baron ëd pàgine giontà da pòch",
+	"nuke-tools": "St'utiss-sì a lassa scancelé d'amblé le pàgine giontà ant j'ùltim temp da un chèich utent ò da 'nt na chèicha adrëssa IP. Ch'a buta lë stranòm ò l'adrëssa IP për tiré giù na lista dle pàgine da scancelé, o ch'a lassa an bianch për tùit j'utent.",
+	"nuke-submit-user": "Va",
+	"nuke-submit-delete": "Scansela le selessionà",
+	"right-nuke": "Scansela le pàgine a baron",
+	"nuke-userorip": "Nòm utent, adrëssa IP o gnente:",
+	"nuke-maxpages": "Màssim nùmer ëd pàgine:",
+	"nuke-editby": "Creà da [[Special:Contributions/$1|{{GENDER:$1|$1}}]]",
+	"nuke-deleted": "La pàgina '''$1''' a l'é stàita scancelà.",
+	"nuke-not-deleted": "La pàgina [[:$1]] '''a peul pa''' esse scancelà.",
+	"nuke-delete-more": "[[Special:Nuke|Scancelé pì 'd pàgine]]",
+	"nuke-pattern": "Model për ël nòm ëd pàgina:",
+	"nuke-nopages-global": "A-i é pa 'd pàgine neuve an [[Special:RecentChanges|ùltime modìfiche]].",
+	"nuke-viewchanges": "vëdde le modìfiche",
+	"nuke-namespace": "Lìmita a lë spassi nominal:"
+}

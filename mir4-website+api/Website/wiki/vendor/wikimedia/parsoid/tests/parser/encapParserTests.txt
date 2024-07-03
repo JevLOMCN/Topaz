@@ -1,0 +1,46 @@
+!! Version 2
+
+!! article
+Template:1x
+!! text
+{{{1}}}
+!! endarticle
+
+!! article
+Template:T1
+!! text
+<pwraptest /><div>foo</div><pwraptest />
+!! endarticle
+
+## This is actually a test of paragraph-wrapping to make sure it doesn't
+## combine transparent nodes from multiple tranclusions into a p-wrapper.
+## But, since the expectation is on template wrapping in Parsoid, we are
+## add this test in this file.
+!! test
+Ensure that template encapsulation doesn't wrap multiple templates into a single unit
+!! options
+parsoid=wt2html
+!! wikitext
+{{T1}}{{T1}}
+!! html/parsoid
+<span typeof="mw:Extension/pwraptest mw:Transclusion" about="#mwt1" data-mw='{"name":"pwraptest","attrs":{},"parts":[{"template":{"target":{"wt":"T1","href":"./Template:T1"},"params":{},"i":0}}]}'><!--CMT--></span><style about="#mwt1">p{}</style><div about="#mwt1">foo</div><span typeof="mw:Extension/pwraptest" about="#mwt1" data-mw='{"name":"pwraptest","attrs":{}}'><!--CMT--></span><style about="#mwt1">p{}</style><span typeof="mw:Extension/pwraptest mw:Transclusion" about="#mwt7" data-mw='{"name":"pwraptest","attrs":{},"parts":[{"template":{"target":{"wt":"T1","href":"./Template:T1"},"params":{},"i":0}}]}'><!--CMT--></span><style about="#mwt7">p{}</style><div about="#mwt7">foo</div><span typeof="mw:Extension/pwraptest" about="#mwt7" data-mw='{"name":"pwraptest","attrs":{}}'><!--CMT--></span><style about="#mwt7">p{}</style>
+!! end
+
+## This test demonstrates the pass ordering issue documented
+## in the commit message of 9145f812 and ensures any future
+## refactoring doesn't regress on this behavior.
+!! test
+Ensure that template encapsulation doesn't unnecessarily expand wrapping scope
+!! options
+parsoid=wt2html
+!! wikitext
+<i>a
+
+b
+{{1x|c<div>d</div>}}
+!! html/parsoid
+<p><i data-parsoid='{"stx":"html","autoInsertedEnd":true}'>a</i></p><i data-parsoid='{"stx":"html","autoInsertedStart":true,"autoInsertedEnd":true}'>
+
+<p>b</p></i>
+<p about="#mwt1" typeof="mw:Transclusion" data-mw='{"parts":[{"template":{"target":{"wt":"1x","href":"./Template:1x"},"params":{"1":{"wt":"c&lt;div>d&lt;/div>"}},"i":0}}]}'><i>c</i></p><i about="#mwt1" data-parsoid='{"stx":"html","autoInsertedStart":true,"autoInsertedEnd":true}'><div>d</div></i>
+!! end

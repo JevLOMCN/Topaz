@@ -1,0 +1,28 @@
+# I18n tests
+# i18ntag inserts a span with the message with the i18n key provided in the tag content
+# i18nattr inserts a span with the attribute provided in the tag attribute (supposed to be a single attribute)
+
+!! options
+version=2
+i18next=1
+!! end
+
+!! test
+Check insertion of i18n messages
+!! options
+i18next=1
+!! wikitext
+<i18ntag>message.key</i18ntag>
+!! html/parsoid
+<p><span typeof="mw:Extension/i18ntag" about="#mwt3" data-mw='{"name":"i18ntag","attrs":{},"body":{"extsrc":"message.key"}}' data-mw-i18n='{"/":{"lang":"x-page","key":"message.key","params":null}}'>message.key</span></p>
+!! end
+
+!! test
+Check insertion of i18n attributes
+!! options
+i18next=1
+!! wikitext
+<i18nattr message="message.key">some text</i18nattr>
+!! html/parsoid
+<p><span typeof="mw:LocalizedAttrs mw:Extension/i18nattr" data-mw='{"name":"i18nattr","attrs":{"message":"message.key"},"body":{"extsrc":"some text"}}' data-mw-i18n='{"message":{"lang":"x-user","key":"message.key","params":null}}'>some text</span></p>
+!! end

@@ -1,0 +1,21 @@
+{
+	"@metadata": {
+		"authors": [
+			"01miki10",
+			"Crt",
+			"Nike",
+			"Olli",
+			"Stryn"
+		]
+	},
+	"inputbox-desc": "Mahdollistaa ennalta määriteltyjen lomakkeiden sisällyttämisen sivuille.",
+	"inputbox-error-no-type": "Et määritellyt syötekentän tyyppiä.",
+	"inputbox-error-bad-type": "Syötekentän tyyppi ”$1” ei kelpaa.\nSallittuja arvoja ovat create, comment, search, search2 ja fulltext.",
+	"inputbox-tryexact": "Yritä tarkkaa osumaa",
+	"inputbox-searchfulltext": "Etsi koko tekstiä",
+	"inputbox-createarticle": "Luo sivu",
+	"inputbox-movearticle": "Siirrä sivu",
+	"inputbox-postcomment": "Uusi osio",
+	"inputbox-postcommenttitle": "Uusi osio",
+	"inputbox-ns-main": "(sivut)"
+}

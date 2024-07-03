@@ -1,0 +1,23 @@
+{
+	"@metadata": {
+		"authors": [
+			"Daud I.F. Argana",
+			"Diki Ananta",
+			"Iwan Novirion",
+			"Kenrick95",
+			"Sumbukompor"
+		]
+	},
+	"loginnotify-desc": "Memberi tahu pengguna tentang masuk log yang mencurigakan dari perangkat dan/atau alamat IP yang tidak dikenal",
+	"echo-category-title-login-fail": "Gagal masuk log",
+	"echo-pref-tooltip-login-fail": "Beri tahu saya ketika terjadi usaha gagal untuk masuk log ke akun saya.",
+	"echo-category-title-login-success": "Masuk log dari gawai tak dikenal",
+	"echo-pref-tooltip-login-success": "Beri tahu saya ketika siapa pun masuk log ke akun saya dari perangkat dan alamat IP yang tidak dikenal.",
+	"loginnotify-primary-link": "Bantuan",
+	"notification-loginnotify-login-fail-email-subject": "{{PLURAL:$2|Percobaan|Beberapa percobaan}} gagal masuk log ke {{SITENAME}} sebagai $1",
+	"notification-loginnotify-login-success-email-subject": "Log masuk ke {{SITENAME}} sebagai $1 dari perangkat yang tidak baru-baru ini digunakan",
+	"notification-header-login-success": "Seseorang (kemungkinan {{GENDER:$1|Anda}}) beberapa waktu ini masuk log ke akun Anda melalui gawai baru. Jika ini merupakan Anda, silakan abaikan pesan ini. Jika bukan, kami sarankan agar Anda mengubah kata sandi Anda, dan periksa aktivitas akun Anda.",
+	"notification-new-bundled-header-login-fail": "Telah terjadi {{PLURAL:$1|'''$1 usaha gagal'''}} masuk log ke akun Anda dari perangkat baru sejak terakhir kali Anda masuk log. Jika itu bukan Anda, pastikan akun Anda memiliki kata sandi yang kuat.",
+	"notification-known-header-login-fail": "Telah terjadi {{PLURAL:$1|'''$1 usaha gagal'''}} masuk log ke akun Anda sejak terakhir kali Anda masuk log. Jika itu bukan Anda, pastikan akun Anda memiliki kata sandi yang kuat.",
+	"notification-new-unbundled-header-login-fail": "Telah terjadi {{PLURAL:$1|'''$1 usaha gagal'''}} masuk log ke akun Anda dari perangkat baru. Pastikan akun Anda memiliki kata sandi yang kuat."
+}

@@ -1,0 +1,25 @@
+{
+	"@metadata": {
+		"authors": [
+			"Khaled",
+			"Meno25",
+			"Sonic N800",
+			"ديفيد"
+		]
+	},
+	"skinname-monobook": "مونوبوك",
+	"monobook-desc": "واجهة ميدياويكي الكلاسيكية منذ العام 2004، سميت على اسم الصورة البيضاء والسوداء من كتاب في خلفية الصفحة",
+	"monobook.css": "/* الأنماط المتراصة CSS المعروضة هنا ستؤثر على مستخدمي واجهة مونوبوك */",
+	"monobook.js": "/* أي جافاسكريبت هنا سيتم تحميلها للمستخدمين الذين يستعملون واجهة مونوبوك */",
+	"monobook-jumptotop": "ارجع إلى الأعلى",
+	"monobook-jumptopersonal": "أدوات المستخدم",
+	"monobook-jumptonavigation": "اذهب إلى التنقل",
+	"monobook-jumptosearch": "اذهب الى البحث",
+	"monobook-more-actions": "مزيد",
+	"cactions-mobile": "أفعال الصفحة",
+	"monobook-cactions-label": "أفعال الصفحة",
+	"monobook-notifications-link": "الإشعارات ($1)",
+	"monobook-notifications-link-none": "الإشعارات",
+	"monobook-view-history": "التاريخ",
+	"monobook-action-undelete": "استرجاع {{PLURAL:$1||تعديل واحد|تعديلين|$1 تعديلات|$1 تعديلاً|$1 تعديل}}"
+}

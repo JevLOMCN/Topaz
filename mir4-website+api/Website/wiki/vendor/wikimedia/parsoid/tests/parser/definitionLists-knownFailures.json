@@ -1,0 +1,12 @@
+{
+	"Definition Lists: Hacky use to indent tables (WS-insensitive)": {
+		"wt2wt": ":{|\n|a\n|}"
+	},
+	"Definition Lists: Mixed Lists: Test 13": {
+		"wt2html": "<ul data-parsoid='{\"dsr\":[0,32,0,0]}'><li data-parsoid='{\"dsr\":[0,32,1,0]}'><ol data-parsoid='{\"dsr\":[1,32,0,0]}'><li data-parsoid='{\"dsr\":[1,32,1,0]}'><ul data-parsoid='{\"dsr\":[2,32,0,0]}'><li data-parsoid='{\"dsr\":[2,32,1,0]}'><ol data-parsoid='{\"dsr\":[3,32,0,0]}'><li data-parsoid='{\"dsr\":[3,32,1,0]}'><dl data-parsoid='{\"dsr\":[4,32,0,0]}'><dt data-parsoid='{\"dsr\":[4,18,1,0]}'><ul data-parsoid='{\"dsr\":[5,17,0,0]}'><li data-parsoid='{\"dsr\":[5,17,1,0]}'><dl data-parsoid='{\"dsr\":[6,17,0,0]}'><dt data-parsoid='{\"dsr\":[6,17,1,0]}'><dl data-parsoid='{\"dsr\":[7,17,0,0]}'><dt data-parsoid='{\"dsr\":[7,12,1,0,0,1]}'>foo</dt><dd data-parsoid='{\"stx\":\"row\",\"dsr\":[12,17,1,0,1,0]}'>bar</dd></dl></dt></dl></li></ul>\n</dt><dt data-parsoid='{\"dsr\":[18,27,5,0,0,1]}'>boo</dt><dd data-parsoid='{\"stx\":\"row\",\"dsr\":[27,32,1,0,1,0]}'>baz</dd></dl></li></ol></li></ul></li></ol></li></ul>"
+	},
+	"Definition lists: ignore colons inside tags": {
+		"wt2html": "<dl data-parsoid='{\"dsr\":[0,38,0,0]}'><dt data-parsoid='{\"dsr\":[0,38,1,0]}'>one <b data-parsoid='{\"stx\":\"html\",\"dsr\":[5,34,3,4]}'>two<span typeof=\"mw:DisplaySpace\" data-parsoid='{\"dsr\":[11,12,0,0]}'> </span>: tag <i data-parsoid='{\"stx\":\"html\",\"dsr\":[18,29,3,4]}'>fun:</i>:</b>:def</dt></dl>",
+		"wt2wt": ";one <b>two : tag <i>fun:</i>:</b><nowiki>:def</nowiki>"
+	}
+}

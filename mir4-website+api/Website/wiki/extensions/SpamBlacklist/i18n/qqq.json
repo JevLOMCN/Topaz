@@ -1,0 +1,30 @@
+{
+	"@metadata": {
+		"authors": [
+			"Fryed-peach",
+			"Purodha",
+			"SPQRobin",
+			"Shirayuki",
+			"Siebrand",
+			"The Evil IP address",
+			"Umherirrender"
+		]
+	},
+	"spam-blacklist": "See also: [[MediaWiki:spam-whitelist]] and [[MediaWiki:captcha-addurl-whitelist]]. You can translate the text, including 'Leave this line exactly as it is'. Some lines of this messages have one (1) leading space.",
+	"spam-whitelist": "See also: [[MediaWiki:spam-blacklist]] and [[MediaWiki:captcha-addurl-whitelist]]. You can translate the text, including 'Leave this line exactly as it is'. Some lines of this messages have one (1) leading space.",
+	"email-blacklist": "See also: [[MediaWiki:email-whitelist]] and [[MediaWiki:Spam-blacklist]]. You can translate the text, including 'Leave this line exactly as it is'. Some lines of this messages have one (1) leading space.",
+	"email-whitelist": "See also: [[MediaWiki:email-blacklist]] and [[MediaWiki:Spam-whitelist]]. You can translate the text, including 'Leave this line exactly as it is'. Some lines of this messages have one (1) leading space.",
+	"spam-blacklisted-email": "Title of errorpage when trying to send an email with a forbidden e-mail address",
+	"spam-blacklisted-email-text": "Text of errorpage when trying to send an e-mail with a forbidden e-mail address",
+	"spam-blacklisted-email-signup": "Error when trying to create an account with an invalid e-mail address",
+	"spam-blacklisted-link": "{{Notranslate}}\nError shown when trying to add a forbidden link to a page. The two messages are reused from MediaWiki core. This message exists because some interfaces in MediaWiki expect us to return just one error message.",
+	"spam-invalid-lines": "Used as an error message.\n\nThis message is followed by a list of bad lines.\n\nParameters:\n* $1 - the number of bad lines",
+	"spam-blacklist-desc": "{{desc|name=Spam Blacklist|url=https://www.mediawiki.org/wiki/Extension:SpamBlacklist}}",
+	"log-name-spamblacklist": "Name of log that appears on [[Special:Log]].",
+	"log-description-spamblacklist": "Description of spam blacklist log",
+	"logentry-spamblacklist-hit": "Log entry that is created when a user adds a link that is forbidden by the spam blacklist.\n\n{{logentry}}\nAdditional parameters:\n* $4 - the URL the user tried to add",
+	"right-spamblacklistlog": "{{doc-right|spamblacklistlog}}",
+	"action-spamblacklistlog": "{{doc-action|spamblacklistlog}}",
+	"right-sboverride": "{{doc-right|sboverride}}",
+	"action-sboverride": "{{doc-action|sboverride}}"
+}

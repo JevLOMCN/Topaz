@@ -1,0 +1,34 @@
+{
+	"@metadata": {
+		"authors": [
+			"Amire80",
+			"Beau",
+			"Nemo bis",
+			"Purodha",
+			"Shirayuki",
+			"The Evil IP address",
+			"Umherirrender",
+			"Yekrats"
+		]
+	},
+	"action-tboverride": "{{doc-action|tboverride}}",
+	"action-tboverride-account": "{{doc-action|tboverride-account}}",
+	"action-titleblacklistlog": "{{doc-action|titleblacklistlog}}",
+	"log-name-titleblacklist": "Name of log that appears on [[Special:Log]].",
+	"log-description-titleblacklist": "Description of title blacklist log",
+	"logentry-titleblacklist-hit-username": "Log entry that is created when someone tries to create an account with a name that is  blacklisted on the title blacklist.\n\n{{logentry}}\nAdditional parameters:\n* $4 - the blacklist entry",
+	"titleblacklist-desc": "{{desc|name=Title Blacklist|url=https://www.mediawiki.org/wiki/Extension:TitleBlacklist}}",
+	"titleblacklist": "The [[mw:Extension:TitleBlacklist|extension Title Blacklist]] gives the ability to block certain unallowed words appearing in the title through regular expressions.\nThis will be the first explanatory paragraph of the blacklist. (Characters after the #-signs are ignored.)\nTo see an example list in context, see: https://www.mediawiki.org/wiki/MediaWiki:Titleblacklist",
+	"titlewhitelist": "The whitelist is a feature of the  [[mw:Extension:TitleBlacklist|extension Title Blacklist]], which gives the ability to block certain words (or explicitly allow them) appearing in the title through regular expressions.\nThis will be the explanatory paragraph of the blacklist. (Characters after the #-signs are ignored.)\nTo see an example list in context, see: https://www.mediawiki.org/wiki/MediaWiki:Titlewhitelist",
+	"titleblacklist-forbidden-edit": "\"title\" stands for \"page title\". Parameters:\n* $1 - blacklist entry\n* $2 - page title\n{{Related|Titleblacklist-forbidden}}",
+	"titleblacklist-forbidden-move": "\"title\" stands for \"page title\". Parameters:\n* $1 - blacklist entry\n* $2 - old page title\n* $3 - new page title\n{{Related|Titleblacklist-forbidden}}",
+	"titleblacklist-forbidden-upload": "Unused at this time. Parameters:\n* $1 - blacklist entry\n* $2 - filename\n{{Related|Titleblacklist-forbidden}}",
+	"titleblacklist-forbidden-new-account": "Parameters:\n* $1 - blacklist entry\n* $2 - username\n{{Related|Titleblacklist-forbidden}}",
+	"titleblacklist-invalid": "Used as error message.\n\nThis message is followed by a list of the invalid lines.\n\nParameters:\n* $1 - number of invalid lines in the title blacklist",
+	"titleblacklist-override": "Check box label on \"Create account\" form if the user has the user right ''tboverride-account''. If checked, the [[MediaWiki:Titleblacklist]] is ignored during account creation.",
+	"titleblacklist-override-help": "API help message giving more information about {{msg-mw|titleblacklist-override}}.",
+	"titleblacklist-warning": "Displayed when a user is editing a page that only administrators (or custom user groups with the tboverride right) can edit due to the title blacklist. Parameters:\n* $1 - blacklist entry",
+	"right-tboverride": "{{doc-right|tboverride}}",
+	"right-tboverride-account": "{{doc-right|tboverride-account}}",
+	"right-titleblacklistlog": "{{doc-right|titleblacklistlog}}"
+}

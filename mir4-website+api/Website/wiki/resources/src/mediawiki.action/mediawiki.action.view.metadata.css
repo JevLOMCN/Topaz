@@ -1,0 +1,20 @@
+/*!
+ * Styles for metadata.js.
+ */
+
+/*
+ * Exclude user interface elements from selection.
+ */
+.mw-metadata-show-hide-extended {
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+@media print {
+	/* stylelint-disable-next-line selector-class-pattern */
+	.mw_metadata .mw-metadata-show-hide-extended {
+		display: none;
+	}
+}

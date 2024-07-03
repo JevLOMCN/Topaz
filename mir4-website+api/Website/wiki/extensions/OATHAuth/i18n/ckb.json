@@ -1,0 +1,38 @@
+{
+	"@metadata": {
+		"authors": [
+			"Aram",
+			"Épine",
+			"ئارام بکر"
+		]
+	},
+	"oathauth-account": "ناوی هەژمار",
+	"oathauth-secret": "کلیلی نهێنی دڵنیاکەرەوەی جووت-فاکتەر:",
+	"oathauth-enable": "کاراکردنی دڵنیاکەرەوەی جووت-فاکتەر",
+	"oathauth-disable": "لەکارخستنی دڵنیاکەرەوەی جووت-فاکتەر",
+	"oathauth-disabledoath": "دڵنیاکەرەوەی جووت-فاکتەر لەکارخرا",
+	"oathauth-prefs-label": "دڵنیاکەرەوەی جووت-فاکتەر",
+	"oathauth-step1": "هەنگاوی ١: پرۆگرامێکی دڵنیاکەرەوەی جووت-فاکتەر دابگرە",
+	"oathauth-step1-test": "پرۆگرامێکی دڵنیاکەرەوەی جووت-فاکتەر، وەک Google Authenticator دابگرە.",
+	"oathauth-step2": "هەنگاوی ٢: کۆدی کیو-ئاڕەکە سکان بکە",
+	"oathauth-step2alt": "یان کلیلەکە بە دەست بنووسە:",
+	"oathauth-step3": "هەنگاوی ٣: کۆدی حاڵەتی بەپەلە لای خۆت بنووسە",
+	"oathauth-step4": "هەنگاوی ٤: دڵنیابوونەوە",
+	"oathauth-entertoken": "کۆدی بەرنامەی دڵنیاکەرەوەکەت لێرە بنووسە بۆ دڵنیابوونەوە لە دروست کارکردنی:",
+	"oathauth-disable-for-user": "لەکارخستنی دڵنیاکەرەوەی جووت-فاکتەر بۆ بەکارهێنەرێک",
+	"oathauth-enteruser": "ناوی بەکارھێنەر:",
+	"oathauth-enterdisablereason": "ھۆکار بۆ ناچالاککردن:",
+	"right-oathauth-enable": "کاراکردنی دڵنیاکەرەوەی جووت-فاکتەر",
+	"action-oathauth-enable": "کاراکردنی دڵنیاکەرەوەی جووت-فاکتەر",
+	"oathauth-auth-token-label": "نیشانە",
+	"oathauth-login-failed": "دڵنیابوونەوە شکستی هێنا.",
+	"oathauth-ui-no-module": "ھیچ چالاک نەکراوە",
+	"oathauth-ui-manage": "بەڕێوەبردن",
+	"oathauth-enable-generic": "کاراکردن",
+	"oathauth-disable-generic": "ناچالاک بکە",
+	"oathauth-disable-page-title": "$1 ناچالاک بکە",
+	"oathauth-enable-page-title": "$1 چالاک بکە",
+	"oathauth-ui-available-modules": "ڕێگە بەردەستەکان",
+	"oathauth-disable-method-warning-button-label": "پشتڕاست بکەوە و بەردەوام بە",
+	"oathauth-invalidrequest": "داوای نادروست"
+}

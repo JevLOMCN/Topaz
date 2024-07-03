@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Zulfadli51"
+		]
+	},
+	"apihelp-templatedata-summary": "Ambil data yang disimpan oleh pelanjutan DataTemplat.",
+	"apihelp-templatedata-example-1": "Kembalikan DataTemplat untuk [[Template:Stub]] dan [[Template:Example]], dengan hasil jika templat tidak wujud atau wujud namun tiada DataTemplat",
+	"apihelp-templatedata-example-2": "Kembalikan DataTemplat untuk [[Template:Stub]] dan [[Template:Example]], dengan tiada hasil jika templat tidak wujud atau wujud namun tiada DataTemplat",
+	"apihelp-templatedata-param-doNotIgnoreMissingTitles": "Kembalikan data tentang tajuk walaupun ianya hilang atau kekurangan DataTemplat. Secara tersedia (untuk keserasian ke belakang) tajuk hanya dikembalikan jika ianya wujud dan mempunyai DataTemplat.",
+	"apihelp-templatedata-param-lang": "Kembalikan nilai setempat dalam bahasa ini. Secara tersedia semua terjemahan sedia ada dikembalikan.",
+	"apierror-templatedata-corrupt": "Halaman $1 datatemplat mengandungi data tidak sah: $2",
+	"apiwarn-templatedata-deprecation-format": "Format keluaran tersedia akan berubah kepada <kbd>sonfm</kbd> di masa hadapan. Sila tentukan <kbd>format=json</kbd> secara terperinci."
+}

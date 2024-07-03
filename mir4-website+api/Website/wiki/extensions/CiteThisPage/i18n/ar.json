@@ -1,0 +1,21 @@
+{
+	"@metadata": {
+		"authors": [
+			"Alshamiri1",
+			"Hubaishan",
+			"Jdforrester",
+			"Meno25",
+			"OsamaK",
+			"ديفيد",
+			"زكريا"
+		]
+	},
+	"citethispage": "استشهاد",
+	"citethispage-desc": "يضيف صفحة [[Special:CiteThisPage|استشهاد]] خاصة ووصلة صندوق أدوات",
+	"citethispage-link": "استشهد بهذه الصفحة",
+	"tooltip-citethispage": "معلومات عن كيفية الاستشهاد بالصفحة",
+	"citethispage-change-submit": "استشهاد",
+	"citethispage-change-target": "الصفحة:",
+	"citethispage-badrevision": "خطأ: تعذر العثور على أية مراجعة للصفحة \"$1\" بمعرف النسخة $2.",
+	"citethispage-content": "__NOTOC__\n<div class=\"mw-specialCiteThisPage-bibliographic\">\n\n== البيانات الببليوغرافية لـ {{FULLPAGENAME}} ==\n\n* اسم الصفحة: {{FULLPAGENAME}}\n* المؤلف: مساهمو {{SITENAME}} \n* الناشر: ''{{SITENAME}}''.\n* تاريخ آخر مراجعة: {{CURRENTDAY}} {{CURRENTMONTHNAME}} {{CURRENTYEAR}} {{CURRENTTIME}} (ت ع م)\n* تاريخ الوصول: <citation>{{CURRENTDAY}} {{CURRENTMONTHNAME}} {{CURRENTYEAR}} {{CURRENTTIME}} (ت ع م)</citation>\n* الرابط الدائم: {{canonicalurl:{{FULLPAGENAME}}|oldid={{REVISIONID}}}}\n* معرف مراجعة الصفحة: {{REVISIONID}}\n\n</div>\n<div class=\"plainlinks mw-specialCiteThisPage-styles\">\n\n== أساليب الاستشهاد لـ {{FULLPAGENAME}} ==\n\n=== [[:w:أسلوب جمعية علم النفس الأمريكية|أسلوب APA]] ===\n{{FULLPAGENAME}}. ({{CURRENTYEAR}}، {{CURRENTMONTHNAME}} {{CURRENTDAY}}). ''{{SITENAME}}''. تاريخ الوصول <citation>{{CURRENTTIME}}، {{CURRENTDAY}} {{CURRENTMONTHNAME}} {{CURRENTYEAR}}</citation> من {{canonicalurl:{{FULLPAGENAME}}|oldid={{REVISIONID}}}}.\n\n=== [[:w:en:The MLA style manual|أسلوب MLA]] ===\n\"{{FULLPAGENAME}}.\" ''{{SITENAME}}''. {{CURRENTDAY}} {{CURRENTMONTHABBREV}} {{CURRENTYEAR}}، {{CURRENTTIME}} ت ع م. <citation>{{CURRENTDAY}} {{CURRENTMONTHABBREV}} {{CURRENTYEAR}}، {{CURRENTTIME}}</citation> &lt;{{canonicalurl:{{FULLPAGENAME}}|oldid={{REVISIONID}}}}&gt;.\n\n=== [[:w:دليل أسلوب جمعية أبحاث الإنسانيات المعاصرة|أسلوبMHRA]] ===\nمساهمو {{SITENAME}}، '{{FULLPAGENAME}}'، ''{{SITENAME}}،'' {{CURRENTDAY}} {{CURRENTMONTHNAME}} {{CURRENTYEAR}}، {{CURRENTTIME}} ت ع م، &lt;{{canonicalurl:{{FULLPAGENAME}}|oldid={{REVISIONID}}}}&gt; [تاريخ الوصول <citation>{{CURRENTDAY}} {{CURRENTMONTHNAME}} {{CURRENTYEAR}}</citation>]\n\n=== [[:w:دليل أسلوب شيكاغو|أسلوب شيكاغو]] ===\nمساهمو {{SITENAME}}، \"{{FULLPAGENAME}}،\" ''{{SITENAME}}،'' {{canonicalurl:{{FULLPAGENAME}}|oldid={{REVISIONID}}}} (تاريخ الوصول <citation>{{CURRENTMONTHNAME}} {{CURRENTDAY}}، {{CURRENTYEAR}}</citation>).\n\n=== [[:w:معدلو مجلس العلوم|أسلوبCBE/CSE]] ===\nمساهمو {{SITENAME}}. {{FULLPAGENAME}} [إنترنت]. {{SITENAME}}; {{CURRENTYEAR}} {{CURRENTMONTHABBREV}} {{CURRENTDAY}}، {{CURRENTTIME}} ت ع م [استشهد بها في  <citation>{{CURRENTYEAR}} {{CURRENTMONTHABBREV}} {{CURRENTDAY}}</citation>]. متوفرة في:\n{{canonicalurl:{{FULLPAGENAME}}|oldid={{REVISIONID}}}}.\n\n=== [[:w:الكتاب الأزرق|أسلوب الكتاب الأزرق]] ===\n{{FULLPAGENAME}}، {{canonicalurl:{{FULLPAGENAME}}|oldid={{REVISIONID}}}} (آخر زيارة <citation>{{CURRENTMONTHNAME}} {{CURRENTDAY}}، {{CURRENTYEAR}}</citation>).\n\n=== مدخل [[:w:بب تخ|بب تخ]] ===\n\n  @misc{ wiki:xxx,\n    author = \"{{SITENAME}}\",\n    title = \"{{FULLPAGENAME}} --- {{SITENAME}}{,} {{int:sitesubtitle}}\",\n    year = \"{{CURRENTYEAR}}\",\n    url = \"{{canonicalurl:{{FULLPAGENAME}}|oldid={{REVISIONID}}}}\",\n    note = \"[Online; accessed <citation>{{CURRENTDAY}}-{{CURRENTMONTHNAME}}-{{CURRENTYEAR}}</citation>]\"\n  }\n\nعند استعمال حزمة [[:w:لاتخ|لاتخ]] url (<code>\\usepackage{url}</code> في مكان ما في الديباجة) التي تعمل على إخراج الروابط بأسلوب أجمل فالصيغة التالية هي المفضلة:\n\n  @misc{ wiki:xxx,\n    author = \"{{SITENAME}}\",\n    title = \"{{FULLPAGENAME}} --- {{SITENAME}}{,} {{int:sitesubtitle}}\",\n    year = \"{{CURRENTYEAR}}\",\n    url = \"'''\\url{'''{{canonicalurl:{{FULLPAGENAME}}|oldid={{REVISIONID}}}}'''}'''\",\n    note = \"[Online; accessed <citation>{{CURRENTDAY}}-{{CURRENTMONTHNAME}}-{{CURRENTYEAR}}</citation>]\"\n  }\n\n\n</div> <!--closing div for \"plainlinks\"-->"
+}

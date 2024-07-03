@@ -1,0 +1,32 @@
+{
+	"@metadata": {
+		"authors": [
+			"Davidpar",
+			"Eduardo Martinez",
+			"Kippelboy",
+			"Toniher"
+		]
+	},
+	"apihelp-visualeditor-param-basetimestamp": "En guardar-ho, s'estableix la data i hora de la revisió que s'ha editat. S'utilitza per detectar conflictes d'edició.",
+	"apihelp-visualeditor-param-cachekey": "Per serialitzar or comparar les versions, utilitza el resultat d'una sol·licitud anterior de serialització amb aquesta constrasenya. Anul·la $1html.",
+	"apihelp-visualeditor-param-etag": "ETag a enviar.",
+	"apihelp-visualeditor-param-html": "L'HTML s'enviarà a Parsoid per convertir-se en text wiki.",
+	"apihelp-visualeditor-param-oldid": "El número de revisió que s'utilitzarà (per defecte s'utilitza la darrera revisió).",
+	"apihelp-visualeditor-param-paction": "Acció a realitzar.",
+	"apihelp-visualeditor-param-page": "La pàgina per realitzar-hi accions.",
+	"apihelp-visualeditor-param-pst": "Pre-desar transformar wikitext abans d'enviar-lo a Parsoid (paction=parsefragment).",
+	"apihelp-visualeditor-param-starttimestamp": "En desar-ho, s'estableix la data i hora de la revisió que s'ha editat. S'utilitza per detectar conflictes d'edició.",
+	"apihelp-visualeditor-param-wikitext": "Wikitext per enviar a Parsoid per convertir-ho a HTML (paction=parsefragment).",
+	"apihelp-visualeditoredit-param-basetimestamp": "En desar-ho, s'estableix la data i hora de la revisió que s'ha editat. S'utilitza per detectar conflictes d'edició.",
+	"apihelp-visualeditoredit-param-cachekey": "Utilitzar el resultat d'una anterior serializeforcache petició amb aquesta clau. Anul·la $1html.",
+	"apihelp-visualeditoredit-param-captchaid": "ID del captcha (en desar amb una resposta de captcha),",
+	"apihelp-visualeditoredit-param-captchaword": "Resposta al captcha (en desar amb una resposta de captcha).",
+	"apihelp-visualeditoredit-param-etag": "ETag a enviar.",
+	"apihelp-visualeditoredit-param-html": "HTML per enviar al Parsoid a canvi de wikitext.",
+	"apihelp-visualeditoredit-param-minor": "Marca com a edició menor",
+	"apihelp-visualeditoredit-param-needcheck": "Quan deseu la, establiu aquest paràmetre si la revisió té algun problema. Això donarà com a resultat l'edició etiquetada.",
+	"apihelp-visualeditoredit-param-oldid": "El número de revisió d'utilitzar. Valors per defecte a la darrera revisió. Utilitzar 0 per a una nova pàgina.",
+	"apihelp-visualeditoredit-param-page": "Pàgina per a realitzar accions",
+	"apihelp-visualeditoredit-param-starttimestamp": "En desar-ho, s'estableix la data i hora de la revisió que s'ha editat. S'utilitza per detectar conflictes d'edició.",
+	"apihelp-visualeditoredit-param-summary": "Resum d'edició"
+}

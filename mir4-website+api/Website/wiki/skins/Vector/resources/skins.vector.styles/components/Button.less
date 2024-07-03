@@ -1,0 +1,88 @@
+.cdx-button:not( .cdx-button--icon-only ) .vector-icon {
+	// Add spacing between icon and text
+	margin-right: @spacing-35;
+}
+
+.cdx-button {
+	// Needed to horizontaly center icon buttons (floating TOC button, watchstar button)
+	// Can be seen on small viewports due to the fact that we arent using `.cdx-button--size-large`
+	justify-content: center;
+}
+
+// These rules are scoped to Vector headers due to T342190 as otherwise where buttons are used alongside
+// input elements the display can look "off".
+// Any other instances outside headers should be targeted directly by a rule on the element itself.
+#p-lang-btn-label.cdx-button--icon-only,
+#vector-page-titlebar-toc-label,
+.vector-header .cdx-button.cdx-button--icon-only {
+	// Increase padding on small viewports
+	// FIXME: T338163 Replace with Codex solution i.e. `.cdx-button--size-large`
+	@media ( max-width: @max-width-breakpoint-tablet ) {
+		@min-size-interactive-touch: 44px;
+		min-height: @min-size-interactive-touch;
+		// FIXME: This results in inconsistencies with icon-only buttons with a dropdown arrow
+		// (i.e. user dropdown toggle), because those buttons should have a larger width than
+		// @min-size-interactive-touch. Instead of min-width we should be increasing the horizontal padding
+		min-width: @min-size-interactive-touch;
+	}
+}
+
+// Hide text in icon only buttons
+.cdx-button.cdx-button--icon-only {
+	span + span {
+		.mixin-screen-reader-text();
+	}
+}
+
+.vector-button-flush-left {
+	@media ( min-width: @min-width-breakpoint-desktop ) {
+		.cdx-mixin-button-layout-flush( 'start', true );
+	}
+
+	@media ( max-width: @max-width-breakpoint-tablet ) {
+		.cdx-mixin-button-layout-flush( 'start', true, 'large' );
+	}
+}
+
+.vector-button-flush-right {
+	@media ( min-width: @min-width-breakpoint-desktop ) {
+		.cdx-mixin-button-layout-flush( 'end', true );
+	}
+
+	@media ( max-width: @max-width-breakpoint-tablet ) {
+		.cdx-mixin-button-layout-flush( 'end', true, 'large' );
+	}
+}
+
+// Handle button styles in checkbox hack, copied from Codex
+// FIXME: Remove these styles when Codex supports the checkbox hack in T333394
+input:hover + .cdx-button:not( .cdx-button--action-progressive ) + .cdx-button:not( .vector-page-titlebar-toc ) {
+	background-color: @background-color-button-quiet--hover;
+}
+
+input:active + .cdx-button:not( .cdx-button--action-progressive ) + .cdx-button:not( .vector-page-titlebar-toc ) {
+	background-color: @background-color-button-quiet--active;
+	color: @color-emphasized;
+	border-color: @border-color-interactive;
+}
+
+input:focus:not( :active ) + .cdx-button:not( .cdx-button--action-progressive ) {
+	border-color: @border-color-progressive--focus;
+	box-shadow: @box-shadow-inset-small @box-shadow-color-progressive--focus;
+}
+
+input:hover + .cdx-button.cdx-button--action-progressive {
+	background-color: @background-color-progressive-subtle;
+	color: @color-progressive--hover;
+}
+
+input:active + .cdx-button.cdx-button--action-progressive {
+	background-color: @background-color-progressive--active;
+	color: @color-inverted;
+	border-color: @border-color-progressive--active;
+}
+
+input:focus:not( :active ) + .cdx-button.cdx-button--action-progressive {
+	border-color: @border-color-progressive--focus;
+	box-shadow: @box-shadow-inset-small @box-shadow-color-progressive--focus @box-shadow-inset-medium @box-shadow-color-inverted;
+}

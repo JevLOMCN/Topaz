@@ -1,0 +1,20 @@
+{
+	"config": {
+		"SiteName": "TestSite",
+		"Something": "TEST",
+		"ExtensionDirectory": "/test/extensions",
+		"StyleDirectory": "/test/skins",
+		"ForeignUploadTargets": [ "acme" ],
+		"ExtraLanguageCodes": { "no": "nb" }
+	},
+	"config-schema": {
+		"Extra": {
+			"default": "extra"
+		}
+	},
+	"php-ini": {
+		"foo": "bar"
+	},
+	"extensions": [ "Foo", "Bar" ],
+	"skins": [ "Quux" ]
+}

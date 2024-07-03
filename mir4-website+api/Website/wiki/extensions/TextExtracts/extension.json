@@ -1,0 +1,69 @@
+{
+	"name": "TextExtracts",
+	"author": [
+		"Max Semenik"
+	],
+	"requires": {
+		"MediaWiki": ">= 1.42"
+	},
+	"url": "https://www.mediawiki.org/wiki/Extension:TextExtracts",
+	"descriptionmsg": "textextracts-desc",
+	"license-name": "GPL-2.0-or-later",
+	"type": "other",
+	"ConfigRegistry": {
+		"textextracts": "GlobalVarConfig::newInstance"
+	},
+	"APIPropModules": {
+		"extracts": {
+			"class": "TextExtracts\\ApiQueryExtracts",
+			"services": [
+				"ConfigFactory",
+				"MainWANObjectCache",
+				"LanguageConverterFactory",
+				"WikiPageFactory"
+			]
+		}
+	},
+	"MessagesDirs": {
+		"TextExtracts": [
+			"i18n",
+			"i18n/api"
+		]
+	},
+	"AutoloadNamespaces": {
+		"TextExtracts\\": "includes/"
+	},
+	"Hooks": {
+		"ApiOpenSearchSuggest": "main"
+	},
+	"HookHandlers": {
+		"main": {
+			"class": "TextExtracts\\Hooks"
+		}
+	},
+	"config": {
+		"ExtractsRemoveClasses": {
+			"value": [
+				"table",
+				"div",
+				"figure",
+				"script",
+				"input",
+				"style",
+				"ul.gallery",
+				".mw-editsection",
+				"sup.reference",
+				"ol.references",
+				".error",
+				".nomobile",
+				".noprint",
+				".noexcerpt",
+				".sortkey"
+			]
+		},
+		"ExtractsExtendOpenSearchXml": {
+			"value": false
+		}
+	},
+	"manifest_version": 2
+}

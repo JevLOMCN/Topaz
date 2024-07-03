@@ -1,0 +1,42 @@
+{
+	"@metadata": {
+		"authors": [
+			"Araceletorres",
+			"Cainamarques",
+			"Carla404",
+			"Eduardo Addad de Oliveira",
+			"Eduardo.mps",
+			"Eduardoaddad",
+			"Felipe L. Ewald",
+			"Giro720",
+			"MetalBrasil",
+			555
+		]
+	},
+	"nuke": "Eliminar de forma massiva",
+	"action-nuke": "eliminar páginas em massa",
+	"nuke-desc": "[[Special:Nuke|Página especial]] que permite que administradores apaguem páginas de forma massiva",
+	"nuke-nopages": "Não há novas páginas criadas [[Special:Contributions/$1|{{GENDER:$1|pelo usuário $1|pela usuária $1|por $1}}]] nas mudanças recentes.",
+	"nuke-list": "As páginas a seguir foram recentemente criadas [[Special:Contributions/$1|{{GENDER:$1|pelo usuário $1|pela usuária $1|por $1}}]];\nforneça uma justificativa e clique no botão equivalente para eliminá-las.",
+	"nuke-list-multiple": "As páginas a seguir foram criadas recentemente;\nforneça uma justificativa e clique no botão equivalente para eliminá-las.",
+	"nuke-defaultreason": "Eliminação em massa de páginas criadas [[Special:Contributions/$1|{{GENDER:$1|pelo usuário $1|pela usuária $1|por $1}}]]",
+	"nuke-multiplepeople": "Eliminação em massa de páginas criadas recentemente",
+	"nuke-tools": "Esta ferramenta permite que páginas criadas recentemente por um usuário ou IP específico sejam eliminadas de forma massiva.\nInsira um nome de usuário ou IP para listar páginas a eliminar; deixe em branco se deseja listar de todos os usuários.",
+	"nuke-submit-user": "Listar páginas",
+	"nuke-submit-delete": "Eliminar selecionadas",
+	"right-nuke": "Eliminar páginas em massa",
+	"nuke-userorip": "Nome de usuário, endereço IP ou em branco:",
+	"nuke-maxpages": "Número máximo de páginas:",
+	"nuke-editby": "Criada [[Special:Contributions/$1|{{GENDER:$1|pelo usuário $1|pela usuária $1|por $1}}]]",
+	"nuke-deleted": "A página \"\"$1\"\" foi excluída.",
+	"nuke-deletion-queued": "A página '''$1''' foi colocada na fila para exclusão.",
+	"nuke-not-deleted": "A página [[:$1]] '''não pôde''' ser excluída.",
+	"nuke-delete-more": "[[Special:Nuke|Eliminar mais páginas]]",
+	"nuke-pattern": "Padrão (por exemplo %) para o nome da página:",
+	"nuke-nopages-global": "Não há títulos de páginas que correspondam à sua pesquisa.",
+	"nuke-viewchanges": "ver alterações",
+	"nuke-namespace": "Limitar ao espaço nominal:",
+	"nuke-linkoncontribs": "excluir em massa",
+	"nuke-linkoncontribs-text": "Eliminar em massa páginas em que {{GENDER:$1|este usuário é o único autor|esta usuária é a única autora}}",
+	"nuke-confirm": "Está prestes a eliminar {{PLURAL:$1|uma página|$1 páginas}}. Tem a certeza de que pretende {{PLURAL:$1|eliminá-la|eliminá-las}}?"
+}

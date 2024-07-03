@@ -1,0 +1,406 @@
+@import 'mediawiki.mixins';
+
+/**
+ * CSS for WikiEditor Toolbar jQuery plugin
+ */
+
+.wikiEditor-ui-toolbar {
+	position: relative;
+	display: block;
+	z-index: 7;
+
+	.empty {
+		display: none;
+	}
+
+	/* Expandable Sections */
+	.sections {
+		float: left;
+		width: 100%;
+		clear: both;
+
+		.section {
+			float: left;
+			width: 100%;
+			border-top: 1px solid #c8ccd1;
+		}
+
+		.section-hidden {
+			display: none;
+		}
+	}
+
+	/* Top Level Containers */
+	/* Tabs */
+	.tabs {
+		float: left;
+		height: 100%;
+		list-style: none;
+		margin: 0 3px;
+		min-height: 32px;
+		position: relative;
+
+		span.tab {
+			position: relative;
+			float: left;
+			/* stylelint-disable-next-line declaration-property-unit-disallowed-list */
+			line-height: 32px;
+
+			a {
+				color: #0645ad;
+				cursor: pointer;
+				display: block;
+				height: 32px;
+				padding-left: 18px;
+				padding-right: 12px;
+
+				&::before {
+					content: '';
+					background: url( images/toolbar/arrow-down.svg ) center no-repeat;
+					display: block;
+					position: absolute;
+					top: 0;
+					left: 0;
+					width: 16px;
+					height: 32px;
+					transition: transform 100ms;
+
+					body.ltr & {
+						transform: rotate( -90deg );
+					}
+
+					body.rtl & {
+						transform: rotate( 90deg );
+					}
+				}
+			}
+
+			a:visited {
+				color: #0645ad;
+			}
+
+			a.current,
+			a.current:visited {
+				color: #222;
+
+				&:hover {
+					text-decoration: none;
+				}
+
+				&::before {
+					body.ltr &,
+					body.rtl & {
+						transform: rotate( 0 );
+					}
+				}
+			}
+		}
+	}
+
+	/* Top Level Containers */
+	.tabs,
+	.section-main,
+	.section-secondary {
+		position: relative;
+		float: left;
+		min-height: 32px;
+		height: 100%;
+	}
+
+	.section-secondary {
+		float: right;
+
+		.group {
+			padding-right: 0;
+			margin-left: 6px;
+			border-left: 1px solid #c8ccd1;
+		}
+	}
+
+	/* Groups */
+	.group {
+		float: left;
+		display: flex;
+		min-height: 26px;
+		padding-right: 6px;
+		border-right: 1px solid #c8ccd1;
+		margin: 3px;
+
+		/* Toolbar */
+		.label {
+			float: left;
+			border: 0;
+			height: 22px;
+			/* stylelint-disable-next-line declaration-property-unit-disallowed-list */
+			line-height: 22px;
+			margin: 2px 8px 2px 5px;
+			color: #54595d;
+			cursor: default;
+		}
+
+		img.tool {
+			float: left;
+			border: 0;
+			height: 22px;
+			width: 22px;
+			padding: 2px;
+			cursor: pointer;
+		}
+
+		.tool-select {
+			float: left;
+			margin: 2px 0 2px 2px;
+			height: 22px;
+			cursor: pointer;
+			border: 1px solid #c8ccd1;
+			padding: 0;
+			background-color: #fff;
+
+			.label {
+				position: relative;
+				padding: 0 26px 0 4px;
+				margin: 0;
+				cursor: pointer;
+				text-decoration: none;
+				color: #222;
+
+				&::after {
+					content: '';
+					background: url( images/toolbar/arrow-down.svg ) center no-repeat;
+					display: block;
+					position: absolute;
+					top: 0;
+					right: 4px;
+					width: 16px;
+					height: 22px;
+				}
+			}
+
+			&.options-shown .label::after {
+				transform: rotate( 180deg );
+			}
+
+			.options {
+				position: absolute;
+				display: none;
+				margin-left: -1px;
+				margin-top: 22px;
+				border: 1px solid #c8ccd1;
+				background-color: #fff;
+				z-index: 1;
+
+				.option {
+					display: block;
+					padding: 0.5em;
+					text-decoration: none;
+					color: #000;
+					white-space: nowrap;
+
+					&:hover {
+						background-color: #eaf3ff;
+					}
+
+					&[ rel='heading-2' ] {
+						font-size: 150%;
+						font-weight: normal;
+					}
+
+					&[ rel='heading-3' ] {
+						font-size: 132%;
+						font-weight: normal;
+					}
+
+					&[ rel='heading-4' ] {
+						font-size: 116%;
+						font-weight: normal;
+					}
+
+					&[ rel='heading-5' ] {
+						font-size: 100%;
+						font-weight: bold;
+					}
+				}
+			}
+
+			&:hover .options,
+			&.options-shown .options {
+				display: block;
+			}
+		}
+	}
+
+	.group-search {
+		float: right;
+		border-right: 0;
+		border-left: 1px solid #c8ccd1;
+	}
+
+	/* Booklet */
+	.booklet {
+		> .index {
+			float: left;
+			width: 20%;
+			height: 125px;
+			overflow: auto;
+			resize: horizontal;
+
+			> div {
+				padding: 4px 4px 4px 6px;
+				cursor: pointer;
+			}
+
+			.wikiEditor-character-highlighted {
+				background-color: rgba( 41, 98, 204, 0.1 );
+				color: #000;
+			}
+		}
+
+		.pages {
+			height: 125px;
+			overflow: auto;
+		}
+	}
+
+	/* Help Pages */
+	.page-table {
+		padding-left: 5px;
+		padding-right: 5px;
+
+		table {
+			background: none;
+			border-collapse: collapse;
+			width: 100%;
+		}
+
+		th {
+			color: #54595d;
+		}
+
+		td {
+			color: #000;
+			border-top: 1px solid #eaecf0;
+		}
+
+		th,
+		td {
+			margin: 0;
+			padding: 5px;
+			text-align: left;
+		}
+	}
+
+	.section-help {
+		.page-table {
+			.cell {
+				vertical-align: top;
+			}
+
+			td.cell-syntax {
+				font-family: monospace, 'Courier';
+			}
+
+			td.cell-syntax,
+			td.cell-result {
+				width: 40%;
+			}
+
+			td.cell-description {
+				width: 20%;
+			}
+
+			/* T33649 */
+			.table-link {
+				td.cell-syntax,
+				span.pre-wrap {
+					white-space: pre;
+				}
+			}
+		}
+	}
+
+	/* Characters Pages */
+	.page-characters {
+		padding-bottom: 5px;
+
+		div {
+			span {
+				border: 1px solid #eaecf0;
+				padding: 5px 8px;
+				margin-left: 5px;
+				margin-top: 5px;
+				height: 1em;
+				display: inline-block;
+				color: #202122;
+				text-decoration: none;
+				cursor: pointer;
+				font-family: monospace, 'Courier';
+				font-size: 1.25em;
+				line-height: 1;
+
+				&:hover {
+					background-color: #fff;
+					text-decoration: none;
+					border-color: #c8ccd1;
+				}
+			}
+
+			.wikiEditor-character-highlighted {
+				background-color: #7db1c5;
+				color: #000;
+			}
+		}
+
+		div[ dir='rtl' ] span {
+			/* @noflip */
+			direction: rtl;
+		}
+	}
+}
+
+.tool-button {
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+	vertical-align: middle;
+	width: 24px;
+	height: 24px;
+	text-indent: -9999px;
+	cursor: pointer;
+	overflow: hidden;
+}
+
+/* OOUI buttons */
+.tool.oo-ui-buttonElement-frameless.oo-ui-iconElement {
+	margin: 0;
+}
+
+.ui-widget {
+	table {
+		td.wikieditor-toolbar-table-preview-wrapper {
+			background: #eaecf0;
+			padding: 10px;
+
+			span {
+				padding: 4px 6px 0;
+				display: block;
+			}
+		}
+
+		.wikieditor-toolbar-table-preview-frame {
+			width: 340px;
+			background: #fff;
+			padding: 10px;
+			overflow: hidden;
+			display: block;
+			position: relative;
+		}
+
+		.wikieditor-toolbar-table-preview-content {
+			width: 375px;
+			display: block;
+		}
+
+		.wikieditor-toolbar-table-preview {
+			width: 340px;
+		}
+	}
+}

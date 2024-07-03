@@ -1,0 +1,42 @@
+{
+	"@metadata": {
+		"authors": [
+			"Athena in Wonderland",
+			"Hamilton Abreu",
+			"Helder.wiki",
+			"Luckas",
+			"Malafaya",
+			"Mansil alfalb",
+			"Vitorvicentevalente",
+			555
+		]
+	},
+	"captcha-edit": "Para editar esta página resolva a tarefa apresentada abaixo e introduza a resposta na caixa ([[Special:Captcha/help|mais informações]]):",
+	"captcha-edit-fail": "O código CAPTCHA está incorreto ou não foi preenchido.",
+	"captcha-desc": "Fornece técnicas CAPTCHA para proteção contra <i>spam</i> e tentativas de adivinhar a palavra-passe",
+	"captcha-help": "Solução do CAPTCHA.",
+	"captcha-info-help": "Descrição do CAPTCHA.",
+	"captcha-id-label": "Identificador do CAPTCHA",
+	"captcha-id-help": "Este valor deve ser devolvido inalterado.",
+	"captcha-addurl": "A sua edição introduziu hiperligações externas novas.\nPara proteger a wiki contra sistemas automatizados de inserção de <i>spam</i>, antes de gravar a sua edição pedimos que resolva a tarefa apresentada abaixo e introduza a resposta na caixa ([[Special:Captcha/help|mais informações]]):",
+	"captcha-badlogin": "Para proteger a wiki contra sistemas automatizados de descoberta de palavras-passe, pedimos que resolva a tarefa apresentada abaixo e introduza a resposta na caixa ([[Special:Captcha/help|mais informações]]):",
+	"captcha-createaccount": "Para proteger a wiki contra sistemas automatizados de criação de contas, pedimos que resolva a tarefa apresentada abaixo e introduza a resposta na caixa ([[Special:Captcha/help|mais informações]]):",
+	"captcha-createaccount-fail": "O código CAPTCHA está incorreto ou não foi preenchido.",
+	"captcha-create": "Para criar a página, resolva a tarefa apresentada abaixo e introduza a resposta na caixa ([[Special:Captcha/help|mais informações]]):",
+	"captcha-sendemail": "Para proteger a wiki contra sistemas automatizados de inserção de ''spam'', pedimos que resolva a tarefa apresentada abaixo e introduza a resposta na caixa ([[Special:Captcha/help|mais informações]]):",
+	"captcha-sendemail-fail": "O código CAPTCHA está incorreto ou não foi preenchido.",
+	"captcha-disabledinapi": "Esta operação necessita de CAPTCHA, por isso não pode ser realizada através da API.",
+	"captcha-error": "A verificação CAPTCHA falhou devido ao erro interno: $1",
+	"captchahelp-title": "Ajuda sobre o CAPTCHA",
+	"captchahelp-cookies-needed": "É necessário possibilitar o uso de ''cookies'' no seu browser para que o ''captcha'' funcione.",
+	"captchahelp-text": "Sítios na Internet abertos a edição pública, como é o caso desta wiki, são frequentemente abusados por ''spammers'' que usam ferramentas automatizadas para inserção em massa de hiperligações, em muitos sítios.\nEmbora essas hiperligações possam ser removidas, representam um incómodo significativo.\n\nPor vezes, especialmente quando introduzir hiperligações externas novas numa página, a wiki apresentará a imagem de um texto colorido ou distorcido e pedirá que escreva o texto apresentado.\nPorque a interpretação do texto apresentado nas imagens é uma tarefa difícil de automatizar, este pedido feito pela wiki permite que a maioria das pessoas façam as suas edições, ao mesmo tempo que inibe edições feitas por ''spammers'' e outros mecanismos automatizados.\n\nInfelizmente, esta funcionalidade pode revelar-se um inconveniente para utilizadores com limitações visuais ou que utilizam browsers baseados em texto ou voz.\nNeste momento, não temos disponível uma alternativa em áudio.\nCaso esta funcionalidade esteja a impedi-lo de fazer edições legítimas, contacte os [[Special:ListAdmins|administradores]] para assistência, por favor.\n\nClique o botão \"voltar\" do seu browser para voltar à página de edição.",
+	"captcha-addurl-whitelist": " #<!-- deixe esta linha exactamente como está --> <pre>\n# A sintaxe é a seguinte:\n#  * Tudo desde um símbolo de cardinal (#) até ao fim da linha é um comentário\n#  * Qualquer linha que não esteja em branco é um fragmento de expressão regular (regex) que será comparado com o servidor dos URL\n #</pre> <!-- deixe esta linha exactamente como está -->",
+	"right-skipcaptcha": "Realizar operações desencadeadoras de verificações CAPTCHA sem ter de passar pelo CAPTCHA",
+	"action-skipcaptcha": "realizar operações desencadeadoras de verificações CAPTCHA sem ter de passar pelo CAPTCHA",
+	"confirmedit-preview-line": "Número de linha",
+	"confirmedit-preview-content": "Conteúdo",
+	"confirmedit-preview-validity": "Validade",
+	"confirmedit-preview-valid": "válido",
+	"confirmedit-preview-invalid": "inválido",
+	"confirmedit-preview-description": "A seguinte tabela mostra cada linha nesta página e se ela é um endereço IP válido, ou uma gama de endereços IP válida. Se a linha for um endereço IP válido, ou uma gama de endereços IP válida, o endereço ou gama serão excluídos de verificações CAPTCHA, mas linhas inválidas serão ignoradas. Um exemplo de uma gama de endereços IP válidos é 69.208.0.0/16, que vai de 69.208.0.0 a 69.208.255.255. [https://www.mediawiki.org/wiki/Special:MyLanguage/Help:Range_blocks#Calculating_the_CIDR_suffix Mais informação] sobre o cálculo de gamas de endereços IP."
+}

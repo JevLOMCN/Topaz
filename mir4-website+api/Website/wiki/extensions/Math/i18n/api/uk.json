@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Piramidion"
+		]
+	},
+	"apihelp-query+mathwbextracts-example-1": "Надсилає запит на резюме математичних елементів Вікібази.",
+	"apihelp-query+mathwbextracts-summary": "Повертає резюме математичних елементів Вікібази в HTML.",
+	"apihelp-query+mathwbextracts-param-qid": "QID елемента Вікібази, який буде запитано.",
+	"apihelp-query+mathwbextracts-param-uselang": "Мова, яку слід запитати для елемента Вікібази. Англійська є стандартним значенням."
+}

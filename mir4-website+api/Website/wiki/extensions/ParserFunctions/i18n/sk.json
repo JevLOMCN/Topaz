@@ -1,0 +1,26 @@
+{
+	"@metadata": {
+		"authors": [
+			"Helix84"
+		]
+	},
+	"pfunc_desc": "Rozšírenie syntaktického analyzátora o logické funkcie",
+	"pfunc_time_error": "Chyba: Neplatný čas",
+	"pfunc_time_too_long": "Chyba: príliš veľa volaní #time",
+	"pfunc_rel2abs_invalid_depth": "Chyba: Neplatná hĺbka v ceste: „$1“ (pokus o prístup k uzlu nad koreňovým uzlom)",
+	"pfunc_expr_stack_exhausted": "Chyba výrazu: Zásobník vyčerpaný",
+	"pfunc_expr_unexpected_number": "Chyba výrazu: Neočakávané číslo",
+	"pfunc_expr_preg_match_failure": "Chyba výrazu: Neočakávané zlyhanie funkcie preg_match",
+	"pfunc_expr_unrecognised_word": "Chyba výrazu: Nerozpoznané slovo „$1“",
+	"pfunc_expr_unexpected_operator": "Chyba výrazu: Neočakávaný operátor $1",
+	"pfunc_expr_missing_operand": "Chyba výrazu: Chýbajúci operand pre $1",
+	"pfunc_expr_unexpected_closing_bracket": "Chyba výrazu: Neočakávaná zatvárajúca hranatá zátvorka",
+	"pfunc_expr_unrecognised_punctuation": "Chyba výrazu: Nerozpoznané diakritické znamienko „$1“",
+	"pfunc_expr_unclosed_bracket": "Chyba výrazu: Neuzavretá hranatá zátvorka",
+	"pfunc_expr_division_by_zero": "Chyba výrazu: Delenie nulou",
+	"pfunc_expr_invalid_argument": "Neplatný argument pre $1: < -1 alebo > 1",
+	"pfunc_expr_invalid_argument_ln": "Neplatný argument pre ln: <= 0",
+	"pfunc_expr_unknown_error": "Chyba výrazu: Neznáma chyba ($1)",
+	"pfunc_expr_not_a_number": "V $1: výsledok nie je číslo",
+	"pfunc_string_too_long": "Chyba: Reťazec prekračuje limit $1 znakov"
+}

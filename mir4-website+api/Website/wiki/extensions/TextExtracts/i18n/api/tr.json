@@ -1,0 +1,21 @@
+{
+	"@metadata": {
+		"authors": [
+			"BaRaN6161 TURK",
+			"SaldırganSincap"
+		]
+	},
+	"apihelp-query+extracts-summary": "Verilen sayfaların düz metin veya sınırlı HTML alıntılarını döndürür.",
+	"apihelp-query+extracts-param-chars": "Döndürülecek karakter sayısı. Döndürülen gerçek metin biraz daha uzun olabilir.",
+	"apihelp-query+extracts-param-sentences": "Geri döndürecek birçok cümle.",
+	"apihelp-query+extracts-param-limit": "Geri döndürecek alıntı. (Birden fazla alıntı yalnızca exintro true olarak ayarlanmışsa döndürülebilir.)",
+	"apihelp-query+extracts-param-intro": "Yalnızca ilk bölümden önceki içeriği döndürün.",
+	"apihelp-query+extracts-param-plaintext": "Özetleri sınırlı HTML yerine düz metin olarak döndürün.",
+	"apihelp-query+extracts-param-sectionformat": "Bölümleri düz metin modunda biçimlendirme:\n;plain:Biçimlendirme yok.\n;wiki:Vikimetin tarzı biçimlendirme (== bunun gibi ==).\n;raw:Bu modülün dahili gösterimi (&lt;ASCII 1&gt;&lt;ASCII 2&gt;&lt;bölüm düzeyi&gt;&lt;ASCII 2&gt;&lt;ASCII 1&gt; önekli bölüm başlıkları).",
+	"apihelp-query+extracts-example-1": "175 karakterlik bir alıntı edinin",
+	"apiwarn-textextracts-limit": "<var>exlimit</var>, tüm madde alıntıları isteği için çok büyüktü ve $1 düşürüldü.",
+	"apiwarn-textextracts-unsupportedmodel": "$1, desteklenmeyen $2 içerik modeline sahiptir; boş bir özü döndürme.",
+	"apiwarn-textextracts-title-in-file-namespace": "Dosya ad alanında bir başlık için ayıklama istendi, hiçbiri döndürülmedi.",
+	"apiwarn-textextracts-sentences-and-html": "<var>$1sentences</var> parametresi, HTML modunda kullanıldığında beklenmeyen sonuçlara sahip olabilir.",
+	"apiwarn-textextracts-malformed-html": "HTML hatalı biçimlendirilmiş ve/veya dengesiz olabilir ve satır içi resimleri atlayabilir. Kendi sorumluluğunuzdadır kullanın. Bilinen sorunlar https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:TextExtracts#Caveats adresinde listelenmiştir."
+}

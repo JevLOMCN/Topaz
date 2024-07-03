@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="11" height="11" viewBox="0 0 11 11">
+	<path id="shadow" fill="none" stroke="#000" stroke-linejoin="round" stroke-width="3.5" d="M9 2v4L7.5 4.5l-3 3L6 9H2V5l1.5 1.5 3-3L5 2z" opacity=".25"/>
+	<path id="outline" fill="#fff" stroke="#fff" stroke-linejoin="round" stroke-width="2" d="M9 2v4L7.5 4.5l-3 3L6 9H2V5l1.5 1.5 3-3L5 2z"/>
+	<path id="fill" d="M9 2v4L7.5 4.5l-3 3L6 9H2V5l1.5 1.5 3-3L5 2z"/>
+</svg>

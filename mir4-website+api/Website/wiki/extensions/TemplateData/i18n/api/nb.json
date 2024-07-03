@@ -1,0 +1,16 @@
+{
+	"@metadata": {
+		"authors": [
+			"Danmichaelo",
+			"Jon Harald Søby"
+		]
+	},
+	"apihelp-templatedata-summary": "Hent data lagret av utvidelsen TemplateData.",
+	"apihelp-templatedata-example-1": "Returner TemplateData for [[Template:Foobar]], gir resultater hvis malen ikke eksisterer, eller den eksisterer, men ikke har TemplateData",
+	"apihelp-templatedata-example-2": "Returner TemplateData for [[Template:Phabricator]]; gir ingen resultater hvis malen ikke eksisterer, eller hvis den eksisterer, men ikke har TemplateData",
+	"apihelp-templatedata-param-includeMissingTitles": "Returnerer data om titler som om de mangler eller mangler TemplateData. Som standard returneres titler bare om de eksisterer og har TemplateData.",
+	"apihelp-templatedata-param-doNotIgnoreMissingTitles": "Returnerer data om titler selv om de ikke eksisterer eller mangler TemplateData. Som standard (for bakoverkompabilitet) returneres kun hvis de eksisterer og har TemplateData.",
+	"apihelp-templatedata-param-lang": "Returner lokaliserte verdier på dette språket. Som standard returneres alle tilgjengelige oversettelser.",
+	"apierror-templatedata-corrupt": "Side #{{GRAMMAR:genitive|$1}} templatedata inneholder ugyldige data: $2",
+	"apiwarn-templatedata-deprecation-format": "Standardresultatets format vil bli endret til <kbd>jsonfm</kbd> i fremtiden. Vennligst angi <kbd>format=json</kbd> eskplisitt."
+}

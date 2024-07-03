@@ -1,0 +1,16 @@
+{
+	"@metadata": {
+		"authors": [
+			"Alhaj Darajaati",
+			"Chirifo",
+			"Dnshitobu",
+			"Sir Amugi"
+		]
+	},
+	"pfunc_time_error": "Gadama: Saha ŋɔ be niŋ viɛnyɛla.",
+	"pfunc_expr_unrecognised_word": "Chiriŋ kana yɛltɔɣili maa ni: Di bi baŋ bachi $1",
+	"pfunc_expr_unexpected_operator": "Maŋ wuhibu daliŋ: pɛrimbu $1 operator.",
+	"pfunc_expr_missing_operand": "Expression error: Missing operand for $1.",
+	"pfunc_expr_unrecognised_punctuation": "Expression error: Ti bi baŋ a yɛltɔɣa bahibu bia maa \"$1\".",
+	"pfunc_expr_division_by_zero": "Pirigimli ni yoli"
+}

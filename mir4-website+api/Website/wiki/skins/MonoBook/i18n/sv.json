@@ -1,0 +1,27 @@
+{
+	"@metadata": {
+		"authors": [
+			"Lejonel",
+			"Lokal Profil",
+			"Mjälten",
+			"Sabelöga",
+			"Skalman",
+			"WikiPhoenix"
+		]
+	},
+	"skinname-monobook": "MonoBook",
+	"monobook-desc": "Det klassiska MediaWiki-utseendet sedan 2004, uppkallad efter det svart-vita foto på en bok som syns i bakgrunden på sidan.",
+	"monobook.css": "/* All CSS här kommer att läsas in för de som använder utseendet MonoBook */",
+	"monobook.js": "/* All JavaScript här kommer att läsas in för alla som använder utseendet MonoBook */",
+	"monobook-jumptotop": "tillbaka till början",
+	"monobook-jumptopersonal": "användarverktyg",
+	"monobook-jumptonavigation": "Hoppa till navigering",
+	"monobook-jumptosearch": "Hoppa till sök",
+	"monobook-more-actions": "Fler",
+	"cactions-mobile": "Sidåtgärder",
+	"monobook-cactions-label": "Sidåtgärder",
+	"monobook-notifications-link": "Aviseringar ($1)",
+	"monobook-notifications-link-none": "Aviseringar",
+	"monobook-view-history": "Historik",
+	"monobook-action-undelete": "Återställ {{PLURAL:$1|en version|$1 versioner}}"
+}

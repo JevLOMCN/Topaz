@@ -1,0 +1,21 @@
+{
+	"@metadata": {
+		"authors": [
+			"Aleator",
+			"Arnaugir",
+			"Jmarchn",
+			"Jordi Roqué",
+			"SMP",
+			"Ssola",
+			"Vriullop"
+		]
+	},
+	"spam-blacklist": " #<!-- deixeu aquesta línia exactament com està --> <pre>\n# Les URL externes coincidents amb aquesta llista seran blocades en ser afegides a una pàgina.\n# Aquesta llista afecta només aquest wiki; vegeu també la llista negra global.\n# Per a més informació vegeu https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:SpamBlacklist\n#\n# La sintaxi és com segueix:\n#  * Tot el que aparegui des d'un caràcter \"#\" fins al final de la línia és un comentari\n#  * Qualsevol línia que no estigui en blanc és un fragment d'expressió regular que només coincidirà amb amfitrions dintre d'URL\n\n #</pre> <!-- deixeu aquesta línia exactament com està -->",
+	"spam-whitelist": " #<!-- deixeu aquesta línia tal com està --> <pre>\n# Les adreces URL externes que apareguin en aquesta llista no seran blocades\n# fins i tot si haurien estat blocades per aparèixer a la llista negra.\n#\n# La sintaxi és la següent:\n#   * Tot allò que hi hagi des d'un símbol '#' fins a la fi de línia és un comentari\n#   * Cada línia no buida és un fragment d'expressió regular (regex) que només marcarà hosts dins les URL\n\n #</pre> <!-- deixeu aquesta línia tal com està -->",
+	"spam-blacklisted-email": "Adreça electrònica prohibida",
+	"spam-blacklisted-email-text": "La vostra adreça de correu electrònic té actualment prohibit d'enviar correus electrònics a altres usuaris.",
+	"spam-blacklisted-email-signup": "L'adreça de correu electrònic proporcionada està actualment en la llista negra d'ús.",
+	"spam-invalid-lines": "{{PLURAL:$1|La línia següent no es considera una expressió correcta|Les línies següents no es consideren expressions correctes}} {{PLURAL:$1|perquè recull|perquè recullen}} SPAM que està vetat. Heu d'esmenar-ho abans de salvar la pàgina:",
+	"spam-blacklist-desc": "Eina (basada en Regex) anti correu brossa que permet prohibir anotar URL en pàgines i adreces de correu electrònic per a usuaris registrats",
+	"right-spamblacklistlog": "Veure el registre de blocatges de spam"
+}

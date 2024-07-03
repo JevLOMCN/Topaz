@@ -1,0 +1,41 @@
+{
+	"@metadata": {
+		"authors": [
+			"Sasan700",
+			"Умар",
+			"Исмаил Садуев"
+		]
+	},
+	"interwiki": "Йукъарвикийн нисдаран гӀирсе хьажар а, хийцар а",
+	"interwiki-title-norights": "Йукъарвикийн хаамаш хьажар",
+	"interwiki-desc": "ТӀетуху [[Special:Interwiki|белхан агӀо]] йукъаравикин дешхьалхенашка хьажа а, уьш тайн а.",
+	"interwiki_intro": "ХӀара ду йукъарвикийн таблице хьажар.",
+	"interwiki-legend-label": "Легенда",
+	"interwiki_prefix": "ТӀетоьхна элпаш",
+	"interwiki-prefix-label": "Префикс:",
+	"interwiki_prefix_intro": "Йукъарвикин дешхьалхе вики-йозана синтаксисехь лело: <code>[<nowiki />[дешхьалхе:<em>агӀонан цӀе</em>]]</code>.",
+	"interwiki_url_intro": "URL-адресан кеп. $1 метта хира йу <em>агӀонан цӀе</em>, Лакхара синтаксис лелачу хенахь гайтина йолу.",
+	"interwiki_local": "ДӀасхьажор",
+	"interwiki-local-label": "ДӀасхьажор:",
+	"interwiki_local_0_intro": "магийна йац, хаамо блоктуху «агӀо цакарий»",
+	"interwiki_local_1_intro": "Арахьара HTTP-дехарш локалан викиш тӀе хӀара йукъаравики-префикс лелайеш URL-адрес чохь тӀе хьажайо URL-адрес йукъаравики-хьажоргаш (локалан агӀонийн тӀе йолу хьажоргаш санна кечйо).",
+	"interwiki_trans": "Йукъатохар",
+	"interwiki-trans-label": "Йукъатохар:",
+	"interwiki_trans_1_intro": "Кхечу вики чуьра йукъарвикеш чуйаха йиш хуьлуьйту хӀокху вики чохь магийна делахь.",
+	"interwiki_trans_0_intro": "ТӀетоха магийна дац, кепийн цӀерийн меттигехь агӀо лоху.",
+	"interwiki_1": "хӀаъ",
+	"interwiki_0": "хӀан-хӀа",
+	"interwiki_edit": "Нисйан",
+	"interwiki_reasonfield": "Бахьана:",
+	"interwiki-logtext": "Тептаршка хьажар",
+	"interwiki_addbutton": "ТӀетоха",
+	"logentry-interwiki-iw_add": "$1 {{GENDER:$2|тӀетоьхна}} префикс «$4» ($5) (trans: $6; local: $7) йукъарвики-таблицехь",
+	"logentry-interwiki-iw_edit": "$1 {{GENDER:$2|хийцина}} префикс «$4» ($5) (trans: $6; local: $7) йукъарвики-таблицехь",
+	"logentry-interwiki-iw_delete": "$1 {{GENDER:$2|дӀайаьккхина}} префикс «$4» йукъарвики-таблицан чуьра",
+	"log-description-interwiki": "ХӀара [[Special:Interwiki|йукъарвики таблицан]] хийцамийн журнал ду.",
+	"interwiki-links": "Йукъарвикийн префиксаш",
+	"interwiki-language-links": "Меттанийнйуккъара префиксаш",
+	"interwiki-language-description": "ХӀара префиксаш билгалла меттанийн кодашка тера йу уьш лелора йу «{{int:otherlanguages}}» могӀам кхуллуш, агӀонан тӀетухуш.",
+	"interwiki-global-language-links": "Глобалан меттанийнйуккъара префиксаш",
+	"interwiki-global-language-description": "ХӀара префиксаш билгалла меттанийн кодашка тера йу уьш лелора йу «{{int:otherlanguages}}» могӀам кхуллуш, агӀонан тӀетухуш. ХӀунда аьлча уьш йу глобалан конфигурацин йкъара, дӀайолалун вики чохь бен хийца ца ло. Глобалан меттанийнйукъара билгалонаш локалан тӀейаха ца ло."
+}

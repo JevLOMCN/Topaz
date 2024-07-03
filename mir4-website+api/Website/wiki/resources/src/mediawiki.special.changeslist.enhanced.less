@@ -1,0 +1,100 @@
+/*!
+ * Styling for Special:Watchlist and Special:RecentChanges when preference 'usenewrc'
+ * a.k.a. Enhanced Recent Changes is enabled.
+ */
+
+@import 'mediawiki.skin.variables.less';
+
+.mw-enhancedchanges-checkbox {
+	// The checkbox must be hidden. A display:none would also hide the
+	// checkbox. But an element hidden by display:none is not focusable
+	// via keyboard. Therefor make the checkbox invisible on another way
+	// to allow to focus the checkbox with keyboard.
+
+	// Remove any size of the checkbox.
+	position: absolute;
+	// Make the checkbox invisible.
+	opacity: 0;
+	// Prevent that the checkbox is clickable and changes the cursor.
+	z-index: @z-index-bottom;
+
+	// Hide the nested changes if the checkbox is not checked.
+	&:not( :checked ) + * .mw-rcfilters-ui-highlights-enhanced-nested {
+		display: none;
+	}
+}
+
+table.mw-enhanced-rc {
+	border: 0;
+	border-spacing: 0;
+
+	th,
+	td {
+		padding: 0;
+		vertical-align: top;
+	}
+
+	td.mw-enhanced-rc-nested {
+		padding-left: 1em;
+	}
+}
+
+td.mw-enhanced-rc {
+	white-space: nowrap;
+	font-family: monospace, monospace;
+}
+
+.mw-enhanced-rc-time {
+	font-family: monospace, monospace;
+}
+
+@width-arrow-space: 15px;
+
+.mw-enhancedchanges-arrow {
+	padding-top: 2px;
+	background-position: left bottom;
+	background-repeat: no-repeat;
+	cursor: pointer;
+
+	.mw-enhancedchanges-checkbox:not( :checked ) + * & {
+		.cdx-mixin-css-icon( @cdx-icon-down-triangle, @color-base, @size-icon-x-small );
+		transform: rotate( -90deg );
+
+		// Rotate is not flipped by CSS Janus. [T353099]
+		[ dir='rtl' ] & {
+			transform: rotate( 90deg );
+		}
+	}
+
+	.mw-enhancedchanges-checkbox:checked + * & {
+		.cdx-mixin-css-icon( @cdx-icon-down-triangle, @color-base, @size-icon-x-small );
+	}
+
+	.mw-enhancedchanges-checkbox[ type ] + * & {
+		// Restore enforced space to make sure arrows align
+		// with timestamp
+		width: @width-arrow-space;
+		height: @width-arrow-space;
+	}
+
+	// Show a focus ring around the label when focusing the invisible checkbox.
+	// This simulates that the label is in focus.
+	.mw-enhancedchanges-checkbox:focus + * & {
+		outline: auto;
+	}
+}
+
+.mw-enhancedchanges-arrow-space {
+	display: inline-block;
+	width: @width-arrow-space;
+	height: @width-arrow-space;
+}
+
+.mw-enhanced-watched .mw-enhanced-rc-time {
+	font-weight: bold;
+}
+
+/* stylelint-disable-next-line selector-class-pattern */
+span.changedby {
+	font-size: 95%;
+}

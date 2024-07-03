@@ -1,0 +1,109 @@
+@import 'mediawiki.mixins';
+
+/*
+ * CSS for WikiEditor jQuery plugin
+ */
+
+.wikiEditor-ui {
+	position: relative;
+	clear: both;
+	width: 100%;
+
+	textarea {
+		width: 100%;
+		border: 0;
+
+		&:focus {
+			outline: 0;
+		}
+	}
+
+	.wikiEditor-ui-clear {
+		clear: both;
+	}
+
+	.wikiEditor-ui-view {
+		border: 1px solid #c8ccd1;
+	}
+
+	.wikiEditor-ui-top {
+		position: relative;
+		border-bottom: 1px solid #c8ccd1;
+	}
+
+	.wikiEditor-ui-left {
+		float: left;
+		width: 100%;
+	}
+
+	.wikiEditor-ui-right {
+		float: right;
+		background: #f8f9fa;
+		overflow: hidden;
+	}
+}
+
+.wikiEditor-wikitext {
+	float: left;
+	width: 100%;
+}
+
+.wikiEditor-ui-controls {
+	float: left;
+	width: 100%;
+	background-color: #fff;
+}
+
+.wikiEditor-ui-tabs {
+	float: left;
+	height: 2.5em;
+	margin-right: -1px;
+	background-color: #fff;
+	border-left: 1px solid #c8ccd1;
+	border-top: 1px solid #c8ccd1;
+
+	div {
+		float: left;
+		height: 2.5em;
+		background-color: #f8f9fa;
+		border-right: 1px solid #c8ccd1;
+		border-bottom: 1px solid #c8ccd1;
+
+		a {
+			display: inline-block;
+			padding: 0 0.75em;
+			line-height: 2.5em;
+			color: #0645ad;
+		}
+
+		&.current {
+			border-bottom: 1px solid #fff;
+			background-color: #fff;
+
+			a {
+				color: #222;
+
+				&:hover {
+					text-decoration: none;
+				}
+			}
+		}
+	}
+}
+
+.wikiEditor-ui-buttons {
+	float: right;
+	height: 2.5em;
+	margin-right: -1px;
+	background-color: #fff;
+	padding-left: 1em;
+	border-top: 1px solid #fff;
+
+	button {
+		margin-left: 0.5em;
+	}
+}
+
+.wikiEditor-view-wikitext {
+	line-height: 1em;
+}

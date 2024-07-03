@@ -1,0 +1,25 @@
+!! Version 2
+#
+# This file will test DOM normalizer functionality
+
+# This is a regression test that indirectly tests the expectation
+# that the DOM normalizer leaves behind the right dom-diff tags
+# when it merges adjacent formatting tags.
+# Regression test for T320319
+!! test
+DOMNormalizer: Merging of adjacent <i> tags shouldn't lead to lost content
+!! options
+parsoid={
+  "modes": ["selser"],
+  "selser": "noauto",
+  "changes": [
+     [ "p", "before", "<p>x</p>" ]
+  ]
+}
+!! wikitext
+[http://google.com ''y [[Foo]] ]'' z
+!! wikitext/edited
+x
+
+[http://google.com ''y [[Foo]] ]''  z''
+!! end

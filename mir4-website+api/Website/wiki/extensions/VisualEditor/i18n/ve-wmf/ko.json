@@ -1,0 +1,43 @@
+{
+	"@metadata": {
+		"authors": [
+			"Amire80",
+			"Bluehill",
+			"Bluemersen",
+			"Freebiekr",
+			"Hwangjy9",
+			"Hym411",
+			"IRTC1015",
+			"Kwj2772",
+			"LFM",
+			"Namoroka",
+			"Revi",
+			"Ykhwong",
+			"아라",
+			"Suleiman the Magnificent Television"
+		]
+	},
+	"tag-editcheck-newcontent-description": "EditCheck는 새로운 내용이 페이지에 추가되었다고 간주합니다",
+	"tag-editcheck-newreference-description": "페이지에 참조가 추가되었습니다",
+	"tag-editcheck-references-description": "EditCheck는 출처가 필요할 수 있다고 간주합니다",
+	"tag-editcheck-references-activated": "[[{{MediaWiki:editcheck-falsepositives-link}}|편집 검사(출처)를 활성화함]]",
+	"tag-editcheck-references-activated-description": "EditCheck는 출처가 필요할 수 있다고 간주하며 UI를 표시합니다",
+	"tag-visualeditor": "[[{{MediaWiki:visualeditor-descriptionpagelink}}|시각 편집]]",
+	"tag-visualeditor-description": "[[{{MediaWiki:visualeditor-descriptionpagelink}}|시각편집기]]를 사용한 편집",
+	"tag-visualeditor-needcheck": "[[{{MediaWiki:visualeditor-descriptionpagelink}}|시각편집기: 확인 필요]]",
+	"tag-visualeditor-needcheck-description": "[[{{MediaWiki:visualeditor-descriptionpagelink}}|시각편집기]]를 사용하는 도중 시스템에서 잠재적으로 의도하지 않은 변경사항을 포함한 위키텍스트가 감지된 편집.",
+	"tag-visualeditor-wikitext": "2017 원본 편집",
+	"tag-visualeditor-wikitext-description": "2017 위키텍스트 편집기로 한 편집",
+	"tag-visualeditor-switched": "[[{{MediaWiki:visualeditor-descriptionpagelink}}|시각 편집: 전환됨]]",
+	"tag-visualeditor-switched-description": "사용자가 시각편집기를 사용해 편집을 시작한 다음 위키텍스트 편집기로 바꾸었습니다.",
+	"visualeditor-feedback-link": "Project:시각편집기/피드백",
+	"visualeditor-feedback-tool": "이 소프트웨어에 대한 피드백 남기기",
+	"visualeditor-help-label": "사용자 가이드 읽기",
+	"visualeditor-help-link": "mw:Special:MyLanguage/Help:VisualEditor/User guide",
+	"visualeditor-welcomedialog-action": "편집 시작",
+	"visualeditor-welcomedialog-content": "누구나 편집할 수 있고, 편집 하나 하나가 도움이 됩니다.",
+	"visualeditor-welcomedialog-content-thanks": "전 세계 독자들이 더 많은 것을 발견하는 데 도움을 주셔서 고맙습니다!",
+	"visualeditor-welcomedialog-switch": "원본 편집으로 전환하기",
+	"visualeditor-welcomedialog-switch-ve": "시각편집기로 전환",
+	"visualeditor-welcomedialog-title": "$2에 오신 것을 {{GENDER:$1|환영합니다}}"
+}

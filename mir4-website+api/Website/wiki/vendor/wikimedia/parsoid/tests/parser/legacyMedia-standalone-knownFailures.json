@@ -1,0 +1,104 @@
+{
+    "2. Treebuilder fixup of formatting elt": {
+        "wt2wt": "'''foo'''\n\n'''[[File:Foobar.jpg|thumb|caption]]'''\n\n'''bar'''\n\n<small>[[Image:Foobar.jpg|right|300px]]</small>",
+        "selser [1,[[0,[3]]],[[4]],4,[[0,4]]]": "'''foo'''[[File:Foobar.jpg|thumb]]''''''gmg0um'''\n\ngh3g9u<small>[[Image:Foobar.jpg|right|300px]]</small>",
+        "selser [1,3,1,3,[[0,2]]]": "'''foo\n\nbar'''<small>[[Image:Foobar.jpg|right|300px]]</small>",
+        "selser [3,1,2,4,0]": "'''[[File:Foobar.jpg|thumb|caption]]'''\n\n11kweza\n\nbar'''\n\ne8pgk1<small>[[Image:Foobar.jpg|right|300px]]</small>",
+        "selser [[[3]],[[0,1]],2,4,2]": "\n'''[[File:Foobar.jpg|thumb|caption]]'''\n\n17rvgoa\n\nbar'''\n\n13obpvr\n\nril53<small>[[Image:Foobar.jpg|right|300px]]</small>",
+        "selser [[[4]],1,4,0,0]": "'''fzs2uk''''''[[File:Foobar.jpg|thumb|caption]]'''\n\n19wldim\n\n<small>[[Image:Foobar.jpg|right|300px]]</small>",
+        "selser [[[4]],[[0,3]],3,0,3]": "'''mh9wdw''''''[[File:Foobar.jpg|thumb]]'''\n",
+        "selser [[[2]],2,0,0,0]": "'''wfmblfoo'''\n\ny56s31\n\n[[File:Foobar.jpg|thumb|caption]]bar'''\n\n<small>[[Image:Foobar.jpg|right|300px]]</small>",
+        "selser [[3],1,2,4,[[0,2]]]": "\n'''[[File:Foobar.jpg|thumb|caption]]'''\n\n1buhw63\n\nbar'''\n\n1us2cuj<small>[[Image:Foobar.jpg|right|300px]]</small>",
+        "selser [[[4]],1,[3],4,4]": "'''fvhba5''''''[[File:Foobar.jpg|thumb|caption]]'''\n\n\no879pm\n\n1en9267",
+        "selser [2,0,0,2,[[0,4]]]": "xv9v3w\n\n'''foo[[File:Foobar.jpg|thumb|caption]]bar'''\n\ni7f5pg\n\n<small>[[Image:Foobar.jpg|right|300px]]</small>",
+        "selser [0,2,4,0,[[0,4]]]": "'''foo\n\n1g6u663\n\n[[File:Foobar.jpg|thumb|caption]]\n\n1sf4dy3\n\n<small>[[Image:Foobar.jpg|right|300px]]</small>",
+        "selser [0,4,0,0,1]": "'''foo\n\n12x17kp\n\nbar'''\n\n<small data-foobar=\"oqpxio\">[[Image:Foobar.jpg|right|300px]]</small>",
+        "selser [2,[[0,[3]]],2,3,3]": "ra7c7\n\n'''foo'''[[File:Foobar.jpg|thumb]]'''\n\n11v6n79\n\nbar'''",
+        "selser [[1],2,[4],4,2]": "'''foo'''\n\n106nah2\n\n[[File:Foobar.jpg|thumb|caption]]\n\nla8bha\n\nrtojhs\n\n1sjmvh9<small>[[Image:Foobar.jpg|right|300px]]</small>",
+        "selser [1,0,0,0,0]": "'''foo[[File:Foobar.jpg|thumb|caption]]bar'''\n\n<small>[[Image:Foobar.jpg|right|300px]]</small>",
+        "selser [[4],[[0,[4]]],2,3,0]": "s39o6'''[[File:Foobar.jpg|thumb|8ca4k8]]'''\n\n102gatz\n\nbar'''<small>[[Image:Foobar.jpg|right|300px]]</small>",
+        "selser [2,[[0,4]],2,4,0]": "172hq11\n\n'''foo'''[[File:Foobar.jpg|thumb]]'''\n\n1a9maga\n\nbar'''\n\n1fcmhsh<small>[[Image:Foobar.jpg|right|300px]]</small>"
+    },
+    "3. Treebuilder fixup of formatting elt": {
+        "wt2wt": "<small>'''foo''''''[[File:Foobar.jpg|thumb|caption]]''''''bar'''</small>",
+        "selser [4,1,3]": "1qtwxhh[[File:Foobar.jpg|thumb|caption]]",
+        "selser [2,4,[2]]": "tedwc0\n\n<small>'''foo\n\nofbp6m\n\nu4vypa'''bar'''</small>",
+        "selser [[[[2]]],[2],0]": "<small>'''14cxy40foo'''1g2jsto[[File:Foobar.jpg|thumb|caption]]bar'''</small>",
+        "selser [4,[3],2]": "1nlzxrvzeaw6w\n\nbar'''</small>",
+        "selser [4,[1],0]": "11j1qp8'''[[File:Foobar.jpg|thumb|caption]]'''bar'''</small>",
+        "selser [2,4,1]": "8dvu2e\n\n<small>'''foo\n\n1fbzpsw\n\n'''bar'''</small>",
+        "selser [1,[[[0,1]]],3]": "<small>'''foo'''[[File:Foobar.jpg|thumb|caption]]'''",
+        "selser [[3],[2],4]": "1jqrr27[[File:Foobar.jpg|thumb|caption]]1vki66q",
+        "selser [3,2,2]": "17szcvf[[File:Foobar.jpg|thumb|caption]]1iwcjy9\n\nbar'''</small>",
+        "selser [[[[2]]],4,2]": "<small>'''10gwaq8foo'''\n\n1o0mnlo\n\n1euptu3\n\nbar'''</small>",
+        "selser [[[[3]]],[[[0,4]]],2]": "<small>'''[[File:Foobar.jpg|thumb]]'''yfdhxi\n\nbar'''</small>",
+        "selser [3,1,[3]]": "[[File:Foobar.jpg|thumb|caption]]",
+        "selser [[[2]],0,[1]]": "<small>syfgic'''foo[[File:Foobar.jpg|thumb|caption]]bar'''</small>",
+        "selser [[2],2,4]": "1cxn5ad<small>'''foo\n\nvxvjjj[[File:Foobar.jpg|thumb|caption]]19tz1p0",
+        "selser [3,[[[0,2]]],1]": "'''[[File:Foobar.jpg|thumb|caption]]'''bar'''</small>",
+        "selser [3,1,[4]]": "[[File:Foobar.jpg|thumb|caption]]14y91fr",
+        "selser [[4],2,[[2]]]": "rpsr1b\n\n1a0dwp7[[File:Foobar.jpg|thumb|caption]]1qxkohvbar'''</small>"
+    },
+    "Allow empty links in image captions (T62753)": {
+        "wt2wt": "[[File:Foobar.jpg|thumb|Caption [[Link1]]\n<nowiki>[[]]</nowiki>\n[[Link2]]\n]]",
+        "html2html": "<figure class=\"mw-default-size\" typeof=\"mw:File/Thumb\" data-parsoid='{\"optList\":[{\"ck\":\"thumbnail\",\"ak\":\"thumb\"},{\"ck\":\"caption\",\"ak\":\"Caption [[Link1]]\\n&lt;nowiki>[[]]&lt;/nowiki>\\n[[Link2]]\\n\"}],\"dsr\":[0,76,2,2]}'><a href=\"./File:Foobar.jpg\" class=\"mw-file-description\" data-parsoid='{\"dsr\":[2,24,null,null]}'><img resource=\"./File:Foobar.jpg\" src=\"http://example.com/images/thumb/3/3a/Foobar.jpg/220px-Foobar.jpg\" decoding=\"async\" data-file-width=\"1941\" data-file-height=\"220\" data-file-type=\"bitmap\" height=\"25\" width=\"220\" srcset=\"http://example.com/images/thumb/3/3a/Foobar.jpg/330px-Foobar.jpg 1.5x, http://example.com/images/thumb/3/3a/Foobar.jpg/440px-Foobar.jpg 2x\" class=\"mw-file-element\" data-parsoid='{\"a\":{\"resource\":\"./File:Foobar.jpg\",\"height\":\"25\",\"width\":\"220\"},\"sa\":{\"resource\":\"File:Foobar.jpg\"}}'/></a><figcaption data-parsoid='{\"dsr\":[24,74,0,0]}'>Caption <a rel=\"mw:WikiLink\" href=\"./Link1\" title=\"Link1\" data-parsoid='{\"stx\":\"simple\",\"a\":{\"href\":\"./Link1\"},\"sa\":{\"href\":\"Link1\"},\"dsr\":[32,41,2,2]}'>Link1</a>\n<span typeof=\"mw:Nowiki\" data-parsoid='{\"dsr\":[42,63,8,9]}'>[[]]</span>\n<a rel=\"mw:WikiLink\" href=\"./Link2\" title=\"Link2\" data-parsoid='{\"stx\":\"simple\",\"a\":{\"href\":\"./Link2\"},\"sa\":{\"href\":\"Link2\"},\"dsr\":[64,73,2,2]}'>Link2</a>\n</figcaption></figure>",
+        "html2wt": "[[File:Foobar.jpg|thumb|Caption [[Link1]]\n<nowiki>[[]]</nowiki>\n[[Link2]]\n]]"
+    },
+    "File in link scenarios": {
+        "html2wt": "[http://www.google.com][[File:Foobar.jpg|alt=123|class=mw-file-element|1941x1941px]]\n\n[http://www.google.com]"
+    },
+    "Image with 'frame' first.": {
+        "selser [[0,3],2,[0,3],3,[0,2],3,0]": "[[File:Foobar.jpg|frame]]1xp0okt\n[[File:Foobar.jpg|frame|frameless]][[File:Foobar.jpg|frame|thumb|caption]]\n[[File:Foobar.jpg|frame|thumbnail=Thumb.png|caption]]",
+        "selser [0,4,[0,1],3,0,0,[0,3]]": "[[File:Foobar.jpg|frame|caption]]neb4jv[[File:Foobar.jpg|frame|frameless|caption]]\n[[File:Foobar.jpg|frame|thumb|caption]]\n[[File:Foobar.jpg|frame|thumbnail=Thumb.png]]"
+    },
+    "Image with heading and horizontal rule in caption": {
+        "html2wt": "[[File:Foobar.jpg|thumb|\n=== Testing ===\n123\n--------------\n]]"
+    },
+    "Image with link parameter, wiki target": {
+        "html2wt": "[[File:Foobar.jpg|link=Main_Page]]"
+    },
+    "Image with link tails": {
+        "html2html": "<p data-parsoid='{\"dsr\":[0,29,0,0]}'>123<span class=\"mw-default-size\" typeof=\"mw:File\" data-parsoid='{\"optList\":[],\"dsr\":[3,22,null,null]}'><a href=\"./File:Foobar.jpg\" class=\"mw-file-description\" data-parsoid=\"{}\"><img resource=\"./File:Foobar.jpg\" src=\"http://example.com/images/3/3a/Foobar.jpg\" decoding=\"async\" data-file-width=\"1941\" data-file-height=\"220\" data-file-type=\"bitmap\" height=\"220\" width=\"1941\" class=\"mw-file-element\" data-parsoid='{\"a\":{\"resource\":\"./File:Foobar.jpg\",\"height\":\"220\",\"width\":\"1941\"},\"sa\":{\"resource\":\"File:Foobar.jpg\"}}'/></a></span>456\n123</p>\n<figure class=\"mw-default-size mw-halign-right\" typeof=\"mw:File\" data-parsoid='{\"optList\":[{\"ck\":\"right\",\"ak\":\"right\"}],\"dsr\":[30,55,2,2]}'><a href=\"./File:Foobar.jpg\" class=\"mw-file-description\" data-parsoid='{\"dsr\":[32,53,null,null]}'><img resource=\"./File:Foobar.jpg\" src=\"http://example.com/images/3/3a/Foobar.jpg\" decoding=\"async\" data-file-width=\"1941\" data-file-height=\"220\" data-file-type=\"bitmap\" height=\"220\" width=\"1941\" class=\"mw-file-element\" data-parsoid='{\"a\":{\"resource\":\"./File:Foobar.jpg\",\"height\":\"220\",\"width\":\"1941\"},\"sa\":{\"resource\":\"File:Foobar.jpg\"}}'/></a><figcaption data-parsoid='{\"dsr\":[53,53,0,0]}'></figcaption></figure>\n<p data-parsoid='{\"dsr\":[56,63,0,0]}'>456\n123</p>\n<figure class=\"mw-default-size\" typeof=\"mw:File/Thumb\" data-parsoid='{\"optList\":[{\"ck\":\"thumbnail\",\"ak\":\"thumb\"}],\"dsr\":[64,89,2,2]}'><a href=\"./File:Foobar.jpg\" class=\"mw-file-description\" data-parsoid='{\"dsr\":[66,87,null,null]}'><img resource=\"./File:Foobar.jpg\" src=\"http://example.com/images/thumb/3/3a/Foobar.jpg/220px-Foobar.jpg\" decoding=\"async\" data-file-width=\"1941\" data-file-height=\"220\" data-file-type=\"bitmap\" height=\"25\" width=\"220\" srcset=\"http://example.com/images/thumb/3/3a/Foobar.jpg/330px-Foobar.jpg 1.5x, http://example.com/images/thumb/3/3a/Foobar.jpg/440px-Foobar.jpg 2x\" class=\"mw-file-element\" data-parsoid='{\"a\":{\"resource\":\"./File:Foobar.jpg\",\"height\":\"25\",\"width\":\"220\"},\"sa\":{\"resource\":\"File:Foobar.jpg\"}}'/></a><figcaption data-parsoid='{\"dsr\":[87,87,0,0]}'></figcaption></figure>\n<p data-parsoid='{\"dsr\":[90,93,0,0]}'>456</p>",
+        "html2wt": "123[[File:Foobar.jpg]]456\n123\n[[File:Foobar.jpg|right]]\n456\n123\n[[File:Foobar.jpg|thumb]]\n456"
+    },
+    "Image with multiple alignments -- use first (T50664)": {
+        "html2wt": "[[File:Foobar.jpg|left|thumb|caption]]\n[[File:Foobar.jpg|middle|caption]]"
+    },
+    "Image with multiple attributes from the same template": {
+        "wt2wt": "[[File:Foobar.jpg|right|Caption text]]",
+        "html2html": "<figure class=\"mw-default-size mw-halign-right\" typeof=\"mw:File\" data-parsoid='{\"optList\":[{\"ck\":\"right\",\"ak\":\"right\"},{\"ck\":\"caption\",\"ak\":\"Caption text\"}],\"dsr\":[0,38,2,2]}'><a href=\"./File:Foobar.jpg\" class=\"mw-file-description\" title=\"Caption text\" data-parsoid='{\"dsr\":[2,24,null,null]}'><img alt=\"Caption text\" resource=\"./File:Foobar.jpg\" src=\"http://example.com/images/3/3a/Foobar.jpg\" decoding=\"async\" data-file-width=\"1941\" data-file-height=\"220\" data-file-type=\"bitmap\" height=\"220\" width=\"1941\" class=\"mw-file-element\" data-parsoid='{\"a\":{\"resource\":\"./File:Foobar.jpg\",\"height\":\"220\",\"width\":\"1941\"},\"sa\":{\"resource\":\"File:Foobar.jpg\"}}'/></a><figcaption data-parsoid='{\"dsr\":[24,36,0,0]}'>Caption text</figcaption></figure>\n",
+        "html2wt": "[[File:Foobar.jpg|right|Caption text]]\n"
+    },
+    "Image with multiple captions -- only last one is accepted": {
+        "html2wt": "[[File:Foobar.jpg|right|Caption3 - accepted]]\n"
+    },
+    "Image with multiple widths -- use last": {
+        "html2wt": "[[File:Foobar.jpg|300x300px|caption]]"
+    },
+    "Image with size specified with pxpx (T15500, T53628)": {
+        "html2html": "<p data-parsoid='{\"dsr\":[0,57,0,0]}'><span typeof=\"mw:File\" data-parsoid='{\"optList\":[{\"ck\":\"width\",\"ak\":\"20x20px\"}],\"dsr\":[0,27,null,null]}'><a href=\"./File:Foobar.jpg\" class=\"mw-file-description\" data-parsoid=\"{}\"><img resource=\"./File:Foobar.jpg\" src=\"http://example.com/images/thumb/3/3a/Foobar.jpg/20px-Foobar.jpg\" decoding=\"async\" data-file-width=\"1941\" data-file-height=\"220\" data-file-type=\"bitmap\" height=\"2\" width=\"20\" srcset=\"http://example.com/images/thumb/3/3a/Foobar.jpg/30px-Foobar.jpg 1.5x, http://example.com/images/thumb/3/3a/Foobar.jpg/40px-Foobar.jpg 2x\" class=\"mw-file-element\" data-parsoid='{\"a\":{\"resource\":\"./File:Foobar.jpg\",\"height\":\"2\",\"width\":\"20\"},\"sa\":{\"resource\":\"File:Foobar.jpg\"}}'/></a></span> <span typeof=\"mw:File\" data-parsoid='{\"optList\":[{\"ck\":\"width\",\"ak\":\"177x177px\"}],\"dsr\":[28,57,null,null]}'><a href=\"./File:Foobar.jpg\" class=\"mw-file-description\" data-parsoid=\"{}\"><img resource=\"./File:Foobar.jpg\" src=\"http://example.com/images/thumb/3/3a/Foobar.jpg/177px-Foobar.jpg\" decoding=\"async\" data-file-width=\"1941\" data-file-height=\"220\" data-file-type=\"bitmap\" height=\"20\" width=\"177\" srcset=\"http://example.com/images/thumb/3/3a/Foobar.jpg/266px-Foobar.jpg 1.5x, http://example.com/images/thumb/3/3a/Foobar.jpg/354px-Foobar.jpg 2x\" class=\"mw-file-element\" data-parsoid='{\"a\":{\"resource\":\"./File:Foobar.jpg\",\"height\":\"20\",\"width\":\"177\"},\"sa\":{\"resource\":\"File:Foobar.jpg\"}}'/></a></span></p>"
+    },
+    "Image with width attribute at different positions": {
+        "html2wt": "[[File:Foobar.jpg|right|200x200px|Caption]]\n[[File:Foobar.jpg|right|200x200px|Caption]]\n[[File:Foobar.jpg|right|200x200px|Caption]]\n",
+        "selser [0,2,[0,1],3,0]": "[[File:Foobar.jpg|200px|right|Caption]]izifwo\n[[File:Foobar.jpg|right|200px|Caption]]\n[[File:Foobar.jpg|right|Caption|200px]]"
+    },
+    "Image: upright option (parsoid)": {
+        "html2html": "<figure class=\"mw-default-size\" typeof=\"mw:File/Thumb\" data-parsoid='{\"optList\":[{\"ck\":\"thumbnail\",\"ak\":\"thumb\"},{\"ck\":\"caption\",\"ak\":\"caption\"}],\"dsr\":[0,33,2,2]}'><a href=\"./File:Foobar.jpg\" class=\"mw-file-description\" data-parsoid='{\"dsr\":[2,24,null,null]}'><img resource=\"./File:Foobar.jpg\" src=\"http://example.com/images/thumb/3/3a/Foobar.jpg/180px-Foobar.jpg\" decoding=\"async\" data-file-width=\"1941\" data-file-height=\"220\" data-file-type=\"bitmap\" height=\"20\" width=\"180\" srcset=\"http://example.com/images/thumb/3/3a/Foobar.jpg/270px-Foobar.jpg 1.5x, http://example.com/images/thumb/3/3a/Foobar.jpg/360px-Foobar.jpg 2x\" class=\"mw-file-element\" data-parsoid='{\"a\":{\"resource\":\"./File:Foobar.jpg\",\"height\":\"20\",\"width\":\"180\"},\"sa\":{\"resource\":\"File:Foobar.jpg\"}}'/></a><figcaption data-parsoid='{\"dsr\":[24,31,0,0]}'>caption</figcaption></figure>\n<figure class=\"mw-default-size\" typeof=\"mw:File/Thumb\" data-parsoid='{\"optList\":[{\"ck\":\"thumbnail\",\"ak\":\"thumb\"},{\"ck\":\"caption\",\"ak\":\"caption\"}],\"dsr\":[34,67,2,2]}'><a href=\"./File:Foobar.jpg\" class=\"mw-file-description\" data-parsoid='{\"dsr\":[36,58,null,null]}'><img resource=\"./File:Foobar.jpg\" src=\"http://example.com/images/thumb/3/3a/Foobar.jpg/180px-Foobar.jpg\" decoding=\"async\" data-file-width=\"1941\" data-file-height=\"220\" data-file-type=\"bitmap\" height=\"20\" width=\"180\" srcset=\"http://example.com/images/thumb/3/3a/Foobar.jpg/270px-Foobar.jpg 1.5x, http://example.com/images/thumb/3/3a/Foobar.jpg/360px-Foobar.jpg 2x\" class=\"mw-file-element\" data-parsoid='{\"a\":{\"resource\":\"./File:Foobar.jpg\",\"height\":\"20\",\"width\":\"180\"},\"sa\":{\"resource\":\"File:Foobar.jpg\"}}'/></a><figcaption data-parsoid='{\"dsr\":[58,65,0,0]}'>caption</figcaption></figure>\n<figure typeof=\"mw:File/Thumb\" data-parsoid='{\"optList\":[{\"ck\":\"thumbnail\",\"ak\":\"thumb\"},{\"ck\":\"width\",\"ak\":\"500x500px\"},{\"ck\":\"caption\",\"ak\":\"caption\"}],\"dsr\":[68,111,2,2]}'><a href=\"./File:Foobar.jpg\" class=\"mw-file-description\" data-parsoid='{\"dsr\":[70,102,null,null]}'><img resource=\"./File:Foobar.jpg\" src=\"http://example.com/images/thumb/3/3a/Foobar.jpg/500px-Foobar.jpg\" decoding=\"async\" data-file-width=\"1941\" data-file-height=\"220\" data-file-type=\"bitmap\" height=\"57\" width=\"500\" srcset=\"http://example.com/images/thumb/3/3a/Foobar.jpg/750px-Foobar.jpg 1.5x, http://example.com/images/thumb/3/3a/Foobar.jpg/1000px-Foobar.jpg 2x\" class=\"mw-file-element\" data-parsoid='{\"a\":{\"resource\":\"./File:Foobar.jpg\",\"height\":\"57\",\"width\":\"500\"},\"sa\":{\"resource\":\"File:Foobar.jpg\"}}'/></a><figcaption data-parsoid='{\"dsr\":[102,109,0,0]}'>caption</figcaption></figure>\n",
+        "html2wt": "[[File:Foobar.jpg|thumb|caption]]\n[[File:Foobar.jpg|thumb|caption]]\n[[File:Foobar.jpg|thumb|500x500px|caption]]\n"
+    },
+    "Image: upright option is ignored on inline and frame images (parsoid)": {
+        "wt2wt": "[[File:Foobar.jpg|500x500px|caption]]",
+        "html2wt": "[[File:Foobar.jpg|500x500px|caption]]",
+        "selser [1]": "[[File:Foobar.jpg|500x500px|upright=0.5|caption]]",
+        "selser [2]": "1x4nbkn\n\n[[File:Foobar.jpg|500x500px|upright=0.5|caption]]"
+    },
+    "Invalid image attributes (T64500)": {
+        "selser [0,2,[0,4],3,0]": "[[File:Foobar.jpg|thumb|float|left|caption]]r3ecic\n\n[[File:Foobar.jpg|thumb|righ]]\n\n[[File:Foobar.jpg|bogus1|thumb|bogus2|left|bogus3|caption]]"
+    },
+    "Parsoid-specific image handling - caption with a template in it": {
+        "html2wt": "[[File:Foobar.jpg|thumb|200x200px|This caption has a {{1x|transclusion}} in it.]]\n"
+    },
+    "Parsoid-specific image handling - simple image with size and middle alignment": {
+        "html2wt": "[[File:Foobar.jpg|middle|50x50px]]"
+    }
+}

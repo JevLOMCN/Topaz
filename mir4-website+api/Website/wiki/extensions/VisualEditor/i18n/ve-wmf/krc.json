@@ -1,0 +1,32 @@
+{
+	"@metadata": {
+		"authors": [
+			"Ernác",
+			"Iltever",
+			"Къарачайлы"
+		]
+	},
+	"tag-editcheck-newcontent-description": "EditCheck бетге джангы контент къошулгъаннга санайды",
+	"tag-editcheck-newreference-description": "Бетге белгилеу къошулгъанды",
+	"tag-editcheck-references-description": "EditCheck белгилеуню керек болгъанын санайды",
+	"tag-editcheck-references-activated": "[[{{MediaWiki:editcheck-falsepositives-link}}|Тюзетиуню Тинтиу (белгилеу) тирилтилди]]",
+	"tag-editcheck-references-activated-description": "EditCheck белгилеуню керек болгъаннга санар эмда интерфейс кёргюзюр",
+	"tag-visualeditor": "[[{{MediaWiki:visualeditor-descriptionpagelink}}|Къарам тюзетиу]]",
+	"tag-visualeditor-description": "[[{{MediaWiki:visualeditor-descriptionpagelink}}|Къарам редакторну]] хайырланыб тюзетигиз",
+	"tag-visualeditor-needcheck": "[[{{MediaWiki:visualeditor-descriptionpagelink}}|Къарам тюзетиу:тинт]]",
+	"tag-visualeditor-needcheck-description": "Система, иш этиб тюрлендирилмеген вики-текст табхан, [[{{MediaWiki:visualeditor-descriptionpagelink}}|визуал редакторну]] болушлугъу бла этилген тюрлендириу.",
+	"tag-visualeditor-wikitext": "2017 къайнакъ тюзетиу",
+	"tag-visualeditor-wikitext-description": "Тюзетиу 2017 вики-текст редактор бла этилгенди",
+	"tag-visualeditor-switched": "[[{{MediaWiki:visualeditor-descriptionpagelink}}|Къарам тюзетиу:алмашдырылды]]",
+	"tag-visualeditor-switched-description": "Редакторлукъ этиу визуал редактор бла башланнганды, сора уа викитекст редакторгъа кёчюлгенди.",
+	"visualeditor-feedback-link": "Project:VisualEditor/Оюмла",
+	"visualeditor-feedback-tool": "Оюмунгу къой",
+	"visualeditor-help-label": "Хайырланыу гидни окъу",
+	"visualeditor-help-link": "mw:Special:MyLanguage/Help:VisualEditor/User guide",
+	"visualeditor-welcomedialog-action": "Тюзетиуню башла",
+	"visualeditor-welcomedialog-content": "Хар ким да тюзетиу этерге боллукъду, эмда хар маджаллашдырыу болушады.",
+	"visualeditor-welcomedialog-content-thanks": "Дунияны андан да бек билирге болушханыгъыз ючюн сау болугъуз!",
+	"visualeditor-welcomedialog-switch": "Къайнакъ редакторгъа кёч",
+	"visualeditor-welcomedialog-switch-ve": "Кёрюнюу редакторгъа кёч",
+	"visualeditor-welcomedialog-title": "$2 сайтха {{GENDER:$1|хош келигиз}}"
+}

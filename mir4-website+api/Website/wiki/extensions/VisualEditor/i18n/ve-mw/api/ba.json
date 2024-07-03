@@ -1,0 +1,36 @@
+{
+	"@metadata": {
+		"authors": [
+			"Amire80",
+			"Lizalizaufa",
+			"Азат Хәлилов",
+			"Айсар",
+			"З. ӘЙЛЕ",
+			"Лилиә",
+			"Ләйсән",
+			"Янмурза Баки"
+		]
+	},
+	"apihelp-visualeditor-param-basetimestamp": "Һаҡлаған саҡта үҙгәртеү ваҡытын ҡуйығыҙ. Был мөхәррирләү конфликттарын асыҡлау өсөн ҡулланыла.",
+	"apihelp-visualeditor-param-cachekey": "Сериялаштырыу һәм айырмалыҡтарҙы ҡарау өсөн ошо уҡ асҡыс менән һоралған кэшты сериаллау һөҙөмтәһен ҡулланырға. $1html-ды алмаштыра.",
+	"apihelp-visualeditor-param-etag": "Ебәреү өсөн ETag.",
+	"apihelp-visualeditor-param-html": "вики-тексҡа әйләндереү өсөн Parsoid-ҡа ебәрелгән HTML.",
+	"apihelp-visualeditor-param-oldid": "Файҙаланыу өсөн өлгө һаны (программа көйләүе буйынса - һуңғы өлгө).",
+	"apihelp-visualeditor-param-paction": "Мотлаҡ ғәмәл.",
+	"apihelp-visualeditor-param-page": "Мотлаҡ ғәмәл бите.",
+	"apihelp-visualeditor-param-pst": "Parsoid-ҡа (paction=parsefragment) ебәреү алдынан әйләндерелгән вики-тексты һаҡлағыҙ.",
+	"apihelp-visualeditor-param-starttimestamp": "Һаҡлаған саҡта үҙгәртеү ваҡытын ҡуйығыҙ. Был мөхәррирләү конфликтын асыҡлау өсөн ҡулланыла.",
+	"apihelp-visualeditor-param-wikitext": "Викитексты HTML-ға (paction=parsefragment) әйләндереү өсөн уны Parsoid-ҡа ебәрегеҙ.",
+	"apihelp-visualeditoredit-param-basetimestamp": "Һаҡлаған саҡта үҙгәртеү ваҡытын ҡуйығыҙ. Был мөхәррирләү конфликтын асыҡлау өсөн ҡулланыла.",
+	"apihelp-visualeditoredit-param-cachekey": "Был асҡыс менән алдағы serializeforcache һоратыу һөҙөмтәһен ҡулланығыҙ. $1html-ды алмаштыра.",
+	"apihelp-visualeditoredit-param-captchaid": "Капча идентификаторы (капчаны күрһәтеп һаҡлаған осраҡта).",
+	"apihelp-visualeditoredit-param-captchaword": "капчаға яуап (капчаны күрһәтеп һаҡлаған осраҡта).",
+	"apihelp-visualeditoredit-param-etag": "Ебәреү өсөн ETag.",
+	"apihelp-visualeditoredit-param-html": "Вики-тексҡа әйләндереү өсөн Parsoid-ҡа ебәрелгән HTML.",
+	"apihelp-visualeditoredit-param-minor": "Әһәмиәте әҙ үҙгәртеү флагы.",
+	"apihelp-visualeditoredit-param-needcheck": "Әгәр өлгөнөң циклик проблемалары булыуы ихтимал икән, һаҡлағанда ошо параметрҙы ҡуйығыҙ. Был үҙгәртеүҙәрҙе билдәләй.",
+	"apihelp-visualeditoredit-param-oldid": "Ҡулланылған өлгө номеры. Программа көйләүе буйынса һуңғы өлгө ҡулланыла.",
+	"apihelp-visualeditoredit-param-page": "Мотлаҡ ғәмәл бите.",
+	"apihelp-visualeditoredit-param-starttimestamp": "Һаҡлаған саҡта үҙгәртеү ваҡытын ҡуйығыҙ. Был мөхәррирләү конфликтын асыҡлау өсөн ҡулланыла.",
+	"apihelp-visualeditoredit-param-summary": "Үҙгәртеүҙәр тасуирламаһын мөхәррирләргә."
+}

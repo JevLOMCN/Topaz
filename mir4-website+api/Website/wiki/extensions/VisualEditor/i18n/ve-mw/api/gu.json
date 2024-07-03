@@ -1,0 +1,23 @@
+{
+	"@metadata": {
+		"authors": [
+			"Dsvyas"
+		]
+	},
+	"apihelp-visualeditor-param-basetimestamp": "ફેરફાર સાચવતી વખતે જે પુનરાવર્તનમાં ફેરફાર કર્યો છે તેના ટાઇમસ્ટેમ્પ તરીકે આને વાપરો. એડિટ કૉન્ફ્લિક્ટ પારખવામાં ઉપયોગી.",
+	"apihelp-visualeditor-param-cachekey": "For serialize or diff, use the result of a previous serializeforcache request with this key. Overrides $1html.",
+	"apihelp-visualeditor-param-html": "HTML to send to Parsoid to convert to wikitext.",
+	"apihelp-visualeditor-param-oldid": "વાપરવાનો પુનરાવર્તન ક્રમાંક (આપોઆપ છેલ્લામાં છેલ્લો પુનરાવર્તન ક્રમાંક)",
+	"apihelp-visualeditor-param-paction": "કરવાનું કાર્ય",
+	"apihelp-visualeditor-param-page": "જેના પર કાર્ય કરવાનું છે તે પૃષ્ઠ",
+	"apihelp-visualeditor-param-pst": "Pre-save transform wikitext before sending it to Parsoid (paction=parsefragment).",
+	"apihelp-visualeditor-param-starttimestamp": "ફેરફાર સાચવતી વખતે પૃષ્ઠ ક્યારે દૃશ્યમાન થયું હતું તેના ટાઇમસ્ટેમ્પ તરીકે આને વાપરો. એડિટ કૉન્ફ્લિક્ટ પારખવામાં ઉપયોગી.",
+	"apihelp-visualeditor-param-wikitext": "Wikitext to send to Parsoid to convert to HTML (paction=parsefragment).",
+	"apihelp-visualeditoredit-param-basetimestamp": "ફેરફાર સાચવતી વખતે જે પુનરાવર્તનમાં ફેરફાર કર્યો છે તેના ટાઇમસ્ટેમ્પ તરીકે આને વાપરો. એડિટ કૉન્ફ્લિક્ટ પારખવામાં ઉપયોગી.",
+	"apihelp-visualeditoredit-param-cachekey": "Use the result of a previous serializeforcache request with this key. Overrides $1html.",
+	"apihelp-visualeditoredit-param-captchaid": "કેપ્ચા ઓળખ (જ્યારે તમે કેપ્ચા સાથે સંગ્રહ કરો છો).",
+	"apihelp-visualeditoredit-param-captchaword": "કેપ્ચાનો જવાબ આપો (જ્યારે તમે કેપ્ચા સાથે સંગ્રહ કરો છો).",
+	"apihelp-visualeditoredit-param-html": "HTML to send to Parsoid in exchange for wikitext.",
+	"apihelp-visualeditoredit-param-minor": "નાનાં ફેરફાર તરીકે અંકિત કરો",
+	"apihelp-visualeditoredit-param-needcheck": "When saving, set this parameter if the revision might have roundtrip problems. This will result in the edit being tagged."
+}

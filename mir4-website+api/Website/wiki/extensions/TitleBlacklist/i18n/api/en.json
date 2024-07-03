@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": []
+	},
+	"apihelp-titleblacklist-summary": "Validate a page title, filename, or username against the TitleBlacklist.",
+	"apihelp-titleblacklist-param-title": "The string to validate against the blacklist.",
+	"apihelp-titleblacklist-param-action": "The action to be checked.",
+	"apihelp-titleblacklist-param-nooverride": "Don't try to override the titleblacklist.",
+	"apihelp-titleblacklist-example-1": "Check whether [[Foo]] is blacklisted",
+	"apihelp-titleblacklist-example-2": "Check whether [[Bar]] is blacklisted for editing",
+	"apihelp-createaccount-param-ignoretitleblacklist": "Ignore spoofing checks (requires one of the following rights: <code>tboverride</code>, <code>tboverride-account</code>)."
+}

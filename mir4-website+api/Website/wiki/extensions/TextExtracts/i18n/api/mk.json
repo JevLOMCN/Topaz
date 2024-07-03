@@ -1,0 +1,23 @@
+{
+	"@metadata": {
+		"authors": [
+			"Bjankuloski06"
+		]
+	},
+	"apihelp-query+extracts-summary": "Дава извадоци од дадените страници во прост текст или ограничен HTML.",
+	"apihelp-query+extracts-param-chars": "Колку знаци да има извадокот. Самиот текст што ќе се даде може да биде малку подолг.",
+	"apihelp-query+extracts-param-sentences": "Колку реченици да има извадокот.",
+	"apihelp-query+extracts-param-limit": "Колку извадоци да се дадат. (Ќе се дадат повеќе извадоци само exintro е наместен на true)",
+	"apihelp-query+extracts-param-intro": "Дај го само воведниот дел пред првиот оддел.",
+	"apihelp-query+extracts-param-plaintext": "Давај ги извадоците како прост текс или ограничен HTML.",
+	"apihelp-query+extracts-param-sectionformat": "Како да се форматираат одделите во прост текст:",
+	"apihelp-query+extracts-paramvalue-sectionformat-plain": "Без форматирање.",
+	"apihelp-query+extracts-paramvalue-sectionformat-wiki": "Викитекстуално форматирање (== вака ==).",
+	"apihelp-query+extracts-paramvalue-sectionformat-raw": "Внатрешната претстава на овој модул (насловите на одделните со претставка &lt;ASCII 1&gt;&lt;ASCII 2&gt;&lt;ниво на насловот&gt;&lt;ASCII 2&gt;&lt;ASCII 1&gt;).",
+	"apihelp-query+extracts-example-1": "Дај извадок во 175 знаци",
+	"apiwarn-textextracts-limit": "<var>exlimit</var> е преголемо за точно барање од цела статија. Го намалив на $1.",
+	"apiwarn-textextracts-unsupportedmodel": "$1 го има содржинскиот модел $2, кој не е поддржан. Давам празен извадок.",
+	"apiwarn-textextracts-title-in-file-namespace": "Беше побаран извадок за наслов во именскиот простор „Податотека“, но не добив ништо.",
+	"apiwarn-textextracts-sentences-and-html": "Параметарот <var>$1sentences</var> може да има неочекуван исход кога се користи во HTML-режим.",
+	"apiwarn-textextracts-malformed-html": "HTML може да е погрешно срочено и/или неурамнотежено, па затоа може да се изоставени слики во редовите. Користете го на сопствен ризик. Познатите проблеми се наведени на https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:TextExtracts#Caveats."
+}

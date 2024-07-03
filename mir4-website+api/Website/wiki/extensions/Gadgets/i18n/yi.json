@@ -1,0 +1,21 @@
+{
+	"@metadata": {
+		"authors": [
+			"פוילישער"
+		]
+	},
+	"gadgets-desc": "דערמעגלעכט באניצער אויסקלייבן [[Special:Gadgets|CSS און JavaScript דזשימדזשיקעס]] אין זייערע [[Special:Preferences#mw-prefsection-gadgets|פרעפֿערענצן]]",
+	"prefs-gadgets": "דזשימדזשיקעס",
+	"special-gadgets": "דזשימדזשיקעס",
+	"gadgets-title": "דזשימדזשיקעס",
+	"gadgets-pagetext": "אונטן איז א רשימה פון דזשימדזשיקעס וואס באניצער קענען אקטיוויזירן דורך זיין [[Special:Preferences#mw-prefsection-gadgets|פרעפֿערענצן בלאט]], לויט ווי זיי זענען באשטימט אין די  [[MediaWiki:Gadgets-definition|דעפֿיניציעס]].\nדער איבערבליק גיט א גרינגן צוטריט צו די סיסטעם בלעטער וואס דעפֿינירן די שילדערונג און קאד פון יעדן דזשימדזשיק.",
+	"gadgets-uses": "באניצט",
+	"gadgets-required-rights": "פֿאדערט {{PLURAL:$2|דאס פֿאלגנדע רעכט|די פֿאלגנדע רעכטן}}:\n\n$1",
+	"gadgets-required-skins": "פֿאראן ביי {{PLURAL:$2|$1 דער באניצער אייבערפֿלאך|פֿאלגנדע באניצער אייבערפֿלאכן: $1}}.",
+	"gadgets-default": "אקטיווירט פֿאר אלעמען סטאנדארדמעסיק.",
+	"gadgets-export": "עקספארטירן",
+	"gadgets-export-title": "דזשימדזשיק עקספארט",
+	"gadgets-not-found": "דזשימדזשיק \"$1\" נישט געטראפֿן.",
+	"gadgets-export-text": "כדי צו עקספארטירן דעם $1 דזשימדזשיק, קליקט אויפן \"{{int:gadgets-export-download}}\" קנעפל, שפייכלערט איין די אראפגעלאדענע טעקע,\nגייט צו Special:Import אין דער ציל וויקי און טוט זי ארויפלאדן. דערנאך לייגט צו דעם פאלגנד צום בלאט MediaWiki:Gadgets-definition page:\n<pre>$2</pre>\nאיר דארפט האבן פאסיגע ערלויבנישן אויף דער ציל וויקי (כולל די רעכט צו רעדאקטירן סיסטעם מעלדונגען) און אימפארט פון טעקע ארויפלאדן מוז זיין אקטיווירט.",
+	"gadgets-export-download": "אַראָפלאָדן"
+}

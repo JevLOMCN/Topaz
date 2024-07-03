@@ -1,0 +1,38 @@
+{
+	"@metadata": {
+		"authors": [
+			"Albertas",
+			"Eitvys200",
+			"Matma Rex",
+			"Naktis",
+			"Nokeoo"
+		]
+	},
+	"apihelp-visualeditor-param-basetimestamp": "Išsaugodami nustatykite į redaguotos versijos laiko žymą. Naudojamas, kai reikia aptikti redagavimo konfliktus.",
+	"apihelp-visualeditor-param-cachekey": "Nuoseklinimui ar pakeitimams naudoti prieš tai buvusią serializeforcache užklausą su šiuo raktu. Perdengia $1html.",
+	"apihelp-visualeditor-param-etag": "ETag, kurį siųsti.",
+	"apihelp-visualeditor-param-html": "HTML siuntimui į Parsoid, kad būtų konvertuotas į vikitekstą.",
+	"apihelp-visualeditor-param-oldid": "Poversijo numeris, kuris bus naudojamas (numatyta naudoti paskutinį poversijį).",
+	"apihelp-visualeditor-param-paction": "Veiksmas, kurį atlikti.",
+	"apihelp-visualeditor-param-page": "Puslapis kuriam bus atliekami veiksmai.",
+	"apihelp-visualeditor-param-pst": "Iš anksto išsaugoti transformuojamą vikitekstą prieš siunčiant jį į Parsoid (paction=parsefragment).",
+	"apihelp-visualeditor-param-section": "Vieta, kurioje veikti.",
+	"apihelp-visualeditor-param-starttimestamp": "Išsaugant nustatykite į laiko žymę, kada puslapis buvo užkrautas. Naudojama pakeitimų konfliktų aptikimui.",
+	"apihelp-visualeditor-param-stash": "Išsaugodami nustatykite šią reikšmę, jei norite naudoti saugojama API.",
+	"apihelp-visualeditor-param-wikitext": "Vikitekstas, kuris bus siunčiamas į Parsoid, kad būtų konvertuotas į HTML (paction=parsefragment).",
+	"apihelp-visualeditoredit-param-basetimestamp": "Išsaugant nustatykite į koreguoto poversijo laiko žymę. Naudojama redagavimo konfliktų aptikimui.",
+	"apihelp-visualeditoredit-param-cachekey": "Naudoti prieš tai buvusią serializeforcache užklausą su šiuo raktu. Perdengia $1html.",
+	"apihelp-visualeditoredit-param-captchaid": "Saugos kodo ID (išsaugant su saugos kodo atsaku).",
+	"apihelp-visualeditoredit-param-captchaword": "Saugos kodo atsakymas (išsaugant su saugos kodo atsaku).",
+	"apihelp-visualeditoredit-param-etag": "ETag, kurį siųsti.",
+	"apihelp-visualeditoredit-param-html": "HTML, kuris bus konvertuotas į vikitekstą, siunčiant į Parsoid.",
+	"apihelp-visualeditoredit-param-minor": "Smulkių pakeitimų parinktis.",
+	"apihelp-visualeditoredit-param-needcheck": "Išsaugant nustatyti šį parametrą į tai, ar pataisyme galėjo kilti perdavimo problemų. Tai sąlygos žymės pridėjimą pakeitimams.",
+	"apihelp-visualeditoredit-param-oldid": "Pataisymo numeris, kurį naudoti. Numatytoji reikšmė - paskutinis pataisymas. Naudoti 0 naujam puslapiui.",
+	"apihelp-visualeditoredit-param-paction": "Veiksmas, kurį atlikti.",
+	"apihelp-visualeditoredit-param-page": "Puslapis kuriam bus atliekami veiksmai.",
+	"apihelp-visualeditoredit-param-section": "Vieta, kurioje veikti.",
+	"apihelp-visualeditoredit-param-sectiontitle": "Naujo skyriaus pavadinimas.",
+	"apihelp-visualeditoredit-param-starttimestamp": "Išsaugant nustatykite į laiko žymę, kada puslapis buvo užkrautas. Naudojama pakeitimų konfliktų aptikimui.",
+	"apihelp-visualeditoredit-param-summary": "Redaguoti santrauką."
+}

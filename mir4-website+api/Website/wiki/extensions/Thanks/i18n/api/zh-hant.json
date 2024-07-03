@@ -1,0 +1,18 @@
+{
+	"@metadata": {
+		"authors": [
+			"Bowleerin",
+			"Cwlin0416",
+			"Kly",
+			"Xiplus"
+		]
+	},
+	"apihelp-flowthank-summary": "傳送公開感謝通知給 Flow 的評論。",
+	"apihelp-flowthank-param-postid": "要感謝的發佈內容 UUID。",
+	"apihelp-flowthank-example-1": "向對於 <kbd>UUID xyz789</kbd> 的評論發送感謝",
+	"apihelp-thank-summary": "向一名編輯者傳送感謝通知。",
+	"apihelp-thank-param-rev": "感謝某人的修訂ID。必須提供此參數或「log」參數。",
+	"apihelp-thank-param-log": "感謝某人的日誌ID。必須提供此參數或「rev」參數。",
+	"apihelp-thank-param-source": "描述請求來源的簡短字串，例如 <kbd>diff</kbd> 或 <kbd>history</kbd>。",
+	"apihelp-thank-example-1": "為修訂 <kbd>ID 456</kbd> 發送感謝，以差異頁面作為來源"
+}

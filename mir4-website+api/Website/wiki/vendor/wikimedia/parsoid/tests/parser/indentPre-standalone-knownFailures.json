@@ -1,0 +1,111 @@
+{
+    "1a. Indent-Pre and Comments": {
+        "html2wt": " a\n\nc\n"
+    },
+    "1b. Indent-Pre and Comments": {
+        "html2wt": " a\n\nc\n"
+    },
+    "1c. Indent-Pre and Comments": {
+        "html2wt": "  a\n\n  a\n"
+    },
+    "1d. Indent-Pre and Comments\n(Pre-handler currently cannot distinguish between comment/ws order and normalizes them to [comment,ws] order)": {
+        "html2wt": " a\n\n b\n"
+    },
+    "2a. Indent-Pre and tables": {
+        "html2wt": "{|\n!h1\n!h2\n|foo\n|bar\n|}",
+        "selser [3,[0,[[3,1,0,3,4]]]]": "{|\n |-\n! data-foobar=\"k2njey\" |h1!!h2\n \n!17hm4qs\n|}",
+        "selser [4,[0,[[3,0,3,2,[4]]]]]": "z7h7bw\n{|\n |-\n!h1\n!1cg2a9r\n|foo||myb1u1 \n|}"
+    },
+    "2b. Indent-Pre and tables": {
+        "html2wt": "{|\n|foo\n|}"
+    },
+    "2c. Indent-Pre and tables (T44252)": {
+        "html2wt": "{|\n|+foo\n!bar\n|}"
+    },
+    "2d. Indent-Pre and tables": {
+        "html2wt": " a\n {|\n | b\n |}"
+    },
+    "2g. Indented table markup mixed with indented pre content (proposed in T8200)": {
+        "html2wt": " {| \n |\n Text that should be rendered preformatted  \n |}"
+    },
+    "3a. Indent-Pre and block tags (single-line html)": {
+        "selser [[4],2,2,0,[2],1,2,[2]]": "gy1eyd\n\n17ucfxh<p> foo </p>1yvhwvw\n\n\n b <div> foo </div>k2aost\n c <blockquote data-foobar=\"1q7dlus\"> foo </blockquote>567v5t\n 114soep<span> foo </span>",
+        "selser [0,[3],2,3,3,0,2,4]": " a <p></p>1fx5dab\n\n\n b <blockquote> foo </blockquote>1g9n7co\nf09a97",
+        "selser [0,3,1,3,[3],4,0,[4]]": " a \n \nb \n\n\n1qc5zjc\n 1la0n9t",
+        "selser [4,[4],0,[3],2,3,0,[4]]": "1xnnljk<p>1v33w05</p>\n b <div></div>1bu36yk\n\n\n c \n 16w8b21",
+        "selser [[2],0,2,4,0,3,0,2]": "9hfp91 a <p> foo </p>ydl7lg\n\n\n b \n\n5zlgwx\n\n\n c \n\nej88n9\n <span> foo </span>",
+        "selser [[4],[2],0,3,4,[[3]],0,1]": "tevs9u<p>vts2qz foo </p>\n b \n\nw3u448<blockquote></blockquote>\n <span> foo </span>",
+        "selser [0,0,0,4,0,2,0,1]": " a <p> foo </p>\n b \n\n145shfl\n\n\n c \n\n1eq7qr5<blockquote> foo </blockquote>\n <span> foo </span>",
+        "selser [[3],2,4,[2],2,[3],0,0]": "\n\nzjgma8<p> foo </p>gzui7m<div>1afaazv foo </div>1rjyhk\n\n\n c <blockquote></blockquote>\n <span> foo </span>",
+        "selser [[2],0,[4],0,[3],2,4,0]": "1jrp9v5 a <p> foo </p>nk1h2b<div> foo </div>\n c \n\n1b6klzm<blockquote> foo </blockquote>amck86\n <span> foo </span>"
+    },
+    "4. Multiple spaces at start-of-line": {
+        "html2wt": "foo \n    foo\n\n{|\n|foo\n|}"
+    },
+    "6. Pre-blocks should extend across lines with leading WS even when there is no wrappable content": {
+        "wt2html": "<pre data-parsoid='{\"dsr\":[0,26,1,0]}'>a\n\n <!-- continue -->\nb</pre>\n\n<pre data-parsoid='{\"dsr\":[28,30,1,0]}'>c</pre>\n \n<p data-parsoid='{\"dsr\":[33,34,0,0]}'>d</p>",
+        "html2html": "<pre data-parsoid='{\"dsr\":[0,7,1,0]}'>a\n\nb</pre>\n\n<pre data-parsoid='{\"dsr\":[9,11,1,0]}'>c</pre>\n <p data-parsoid='{\"dsr\":[13,16,0,0]}'>\n<br data-parsoid='{\"dsr\":[14,14,0,0]}'/>\nd</p>\n",
+        "html2wt": " a\n \n b\n\n c\n \n\nd\n"
+    },
+    "<pre> with <nowiki> inside (compatibility with 1.6 and earlier)": {
+        "html2wt": " <nowiki><b></nowiki>\n <nowiki><cite></nowiki>\n <nowiki><em></nowiki>\n"
+    },
+    "Off-by-1 DSR values: Regression test for indent-pre usages": {
+        "selser [4,0,[0,0,0,0,0,2]]": "102xtxf{{1x|\n}} ''{{1x|\n }}X'' {{1x|<span></span>\n }}1x282zjY",
+        "selser [4,0,2]": "ilxbbg{{1x|\n}}hnyiv2\n ''{{1x|\n}} X'' {{1x|<span></span>\n}} Y",
+        "selser [4,0,[3,0,2,0,0,3]]": "19q4k7p{{1x|\n}} {{1x|\n }}6y6nw1X'' {{1x|<span></span>\n }}",
+        "selser [0,0,[3,0,0,0,0,2]]": " {{1x|\n}} {{1x|\n }}X'' {{1x|<span></span>\n }}1b3dalhY",
+        "selser [4,0,[3,0,2,0,0,0]]": "18nk9lj{{1x|\n}} {{1x|\n }}txy63mX'' {{1x|<span></span>\n }}Y",
+        "selser [0,0,[0,0,2,0,0,0]]": " {{1x|\n}} ''{{1x|\n }}1ehlcvgX'' {{1x|<span></span>\n }}Y",
+        "selser [4,0,[0,0,2,0,0,0]]": "dpcew1{{1x|\n}} ''{{1x|\n }}7mn201X'' {{1x|<span></span>\n }}Y",
+        "selser [2,0,0]": "pr2b0q {{1x|\n}} ''{{1x|\n}} X'' {{1x|<span></span>\n}} Y",
+        "selser [3,0,[1,0,3,0,0,0]]": "{{1x|\n}} {{1x|\n }}'' {{1x|<span></span>\n }}Y",
+        "selser [0,0,[4,0,0,0,0,3]]": " {{1x|\n}} 1q6coin{{1x|\n }}X'' {{1x|<span></span>\n }}",
+        "selser [3,0,2]": "{{1x|\n}}15fxy4e\n ''{{1x|\n}} X'' {{1x|<span></span>\n}} Y",
+        "selser [0,0,1]": " {{1x|\n}} ''{{1x|\n }}X'' {{1x|<span></span>\n }}Y",
+        "selser [2,0,1]": "2ji41v {{1x|\n}} ''{{1x|\n }}X'' {{1x|<span></span>\n }}Y",
+        "selser [4,0,[0,0,2,0,0,3]]": "tsgi8g{{1x|\n}} ''{{1x|\n }}q8tfdaX'' {{1x|<span></span>\n }}",
+        "selser [0,0,[3,0,3,0,0,0]]": " {{1x|\n}} {{1x|\n }}'' {{1x|<span></span>\n }}Y"
+    },
+    "Regression with preformatted in <center>": {
+        "html2wt": "<center>\n Blah\n\n</center>"
+    },
+    "Render paragraphs when indent-pre is suppressed in blocklevels": {
+        "html2wt": "<blockquote>\n foo\n\n bar\n\n</blockquote>"
+    },
+    "T54763: Preformatted in <blockquote>": {
+        "html2wt": "<blockquote>\n Blah\n\n{|\n|\n indented cell (no pre-wrapping!)\n|}\n</blockquote>"
+    },
+    "Templates: Indent-Pre: 1a. Templates that break a line should suppress <pre>": {
+        "html2wt": ""
+    },
+    "Templates: Indent-Pre: 1b. Templates that break a line should suppress <pre>": {
+        "html2wt": "foo\n"
+    },
+    "Templates: Indent-Pre: 1c: Wrapping should be based on expanded content": {
+        "html2wt": " a\n\nb\n"
+    },
+    "Templates: Indent-Pre: 1d: Wrapping should be based on expanded content": {
+        "html2wt": " a\n\nb\nc\n\n d\n\ne\n"
+    },
+    "Templates: Indent-Pre: 1e. Wrapping should be based on expanded content": {
+        "html2wt": " foo\n\n foo bar\n\n foo\n bar\n\n foo\n\n foo\n\n bar\n"
+    },
+    "Templates: Indent-Pre: 1f: Wrapping should be based on expanded content": {
+        "wt2html": "<pre about=\"#mwt1\" typeof=\"mw:Transclusion\" data-parsoid='{\"dsr\":[0,9,1,0],\"pi\":[[{\"k\":\"1\"}]]}' data-mw='{\"parts\":[{\"template\":{\"target\":{\"wt\":\"1x\",\"href\":\"./Template:1x\"},\"params\":{\"1\":{\"wt\":\" \"}},\"i\":0}},\"a\"]}'>a</pre>\n\n<span about=\"#mwt2\" typeof=\"mw:Transclusion\" data-parsoid='{\"pi\":[[{\"k\":\"1\"}]],\"dsr\":[11,21,null,null]}' data-mw='{\"parts\":[{\"template\":{\"target\":{\"wt\":\"1x\",\"href\":\"./Template:1x\"},\"params\":{\"1\":{\"wt\":\"\\n \"}},\"i\":0}},\"a\"]}'>\n</span><pre about=\"#mwt2\">a</pre>\n\n<span about=\"#mwt3\" typeof=\"mw:Transclusion\" data-parsoid='{\"pi\":[[{\"k\":\"1\"}]],\"dsr\":[23,33,null,null]}' data-mw='{\"parts\":[{\"template\":{\"target\":{\"wt\":\"1x\",\"href\":\"./Template:1x\"},\"params\":{\"1\":{\"wt\":\"\\n b\"}},\"i\":0}}]}'>\n</span><pre about=\"#mwt3\">b</pre>\n\n<p about=\"#mwt4\" typeof=\"mw:Transclusion\" data-parsoid='{\"dsr\":[35,46,0,0],\"pi\":[[{\"k\":\"1\"}]]}' data-mw='{\"parts\":[{\"template\":{\"target\":{\"wt\":\"1x\",\"href\":\"./Template:1x\"},\"params\":{\"1\":{\"wt\":\"a\\n \"}},\"i\":0}},\"b\"]}'>a</p><span about=\"#mwt4\">\n</span><pre about=\"#mwt4\">b</pre>\n\n<p about=\"#mwt5\" typeof=\"mw:Transclusion\" data-parsoid='{\"dsr\":[48,57,null,null],\"pi\":[[{\"k\":\"1\"}]]}' data-mw='{\"parts\":[{\"template\":{\"target\":{\"wt\":\"1x\",\"href\":\"./Template:1x\"},\"params\":{\"1\":{\"wt\":\"a\\n\"}},\"i\":0}}]}'>a</p><span about=\"#mwt5\">\n</span><pre data-parsoid='{\"dsr\":[57,59,1,0]}'>b</pre>",
+        "wt2wt": "{{1x| }}a\n\n{{1x|\n }}a\n\n{{1x|\n b}}\n\n{{1x|a\n }}b\n\n{{1x|a\n}}\n b\n",
+        "html2wt": " a\n\n\n a\n\n\n b\n\na\n\n b\n\na\n\n b\n",
+        "selser [0,4,0,0,0,0,0,3,0,0,0,4,0,0,[3]]": "{{1x| }}a60me7p{{1x|\n }}a\n\n{{1x|\n b}}\n{{1x|a\n }}b\n1845xzp{{1x|a\n}} ",
+        "selser [0,4,0,0,0,0,0,4,0,0,0,0,0,0,0]": "{{1x| }}aj90d3l{{1x|\n }}a\n\n{{1x|\n b}}\nzgdomz{{1x|a\n }}b\n\n{{1x|a\n}} b",
+        "selser [0,3,0,0,0,0,0,4,0,0,0,0,0,0,[4]]": "{{1x| }}a{{1x|\n }}a\n\n{{1x|\n b}}\n14v9z5u{{1x|a\n }}b\n\n{{1x|a\n}} 99dktd",
+        "selser [0,4,0,0,0,0,0,0,0,0,0,2,0,0,[3]]": "{{1x| }}adm7tcc{{1x|\n }}a\n\n{{1x|\n b}}\n\n{{1x|a\n }}b\nvw42dq\n\n{{1x|a\n}} ",
+        "selser [0,3,0,0,0,0,0,0,0,0,0,2,0,0,[3]]": "{{1x| }}a{{1x|\n }}a\n\n{{1x|\n b}}\n\n{{1x|a\n }}b\n9taely\n\n{{1x|a\n}} ",
+        "selser [0,3,0,0,0,0,0,3,0,0,0,4,0,0,0]": "{{1x| }}a{{1x|\n }}a\n\n{{1x|\n b}}\n{{1x|a\n }}b\n1izgzim{{1x|a\n}} b",
+        "selser [0,3,0,0,0,0,0,3,0,0,0,3,0,0,0]": "{{1x| }}a{{1x|\n }}a\n\n{{1x|\n b}}\n{{1x|a\n }}b\n{{1x|a\n}} b",
+        "selser [0,0,0,0,0,0,0,2,0,0,0,0,0,0,1]": "{{1x| }}a\n\n{{1x|\n }}a\n\n{{1x|\n b}}\noj610q\n\n{{1x|a\n }}b\n\n{{1x|a\n}} b",
+        "selser [0,2,0,0,0,0,0,3,0,0,0,0,0,0,1]": "{{1x| }}a1442ymz\n\n{{1x|\n }}a\n\n{{1x|\n b}}\n{{1x|a\n }}b\n\n{{1x|a\n}} b",
+        "selser [0,0,0,0,0,0,0,0,0,0,0,4,0,0,0]": "{{1x| }}a\n\n{{1x|\n }}a\n\n{{1x|\n b}}\n\n{{1x|a\n }}b\n3cw4yv{{1x|a\n}} b",
+        "selser [0,0,0,0,4,0,0,0,0,0,0,0,0,0,[2]]": "{{1x| }}a\n\n{{1x|\n }}a\nzfyath{{1x|\n b}}\n\n{{1x|a\n }}b\n\n{{1x|a\n}} 12ev5ibb",
+        "selser [0,0,0,0,0,0,0,0,0,0,0,0,0,0,[4]]": "{{1x| }}a\n\n{{1x|\n }}a\n\n{{1x|\n b}}\n\n{{1x|a\n }}b\n\n{{1x|a\n}} gcrjt0"
+    }
+}

@@ -1,0 +1,17 @@
+{
+	"@metadata": {
+		"authors": [
+			"HanV",
+			"McDutchie",
+			"Siebrand"
+		]
+	},
+	"questycaptcha-desc": "Questy CAPTCHA-generator voor Confirm Edit",
+	"questycaptcha-addurl": "Uw bewerking bevat nieuwe externe koppelingen.\nBeantwoord de onderstaande vraag als bescherming tegen automatische spam ([[Special:Captcha/help|meer informatie]]):",
+	"questycaptcha-badlogin": "Beantwoord de onderstaande vraag als bescherming tegen het automatisch kraken van wachtwoorden  ([[Special:Captcha/help|meer informatie]]):",
+	"questycaptcha-createaccount": "Beantwoord de onderstaande vraag als bescherming tegen het geautomatiseerd aanmaken van gebruikers ([[Special:Captcha/help|meer informatie]]):",
+	"questycaptcha-create": "Beantwoord de onderstaande vraag om de pagina aan te maken ([[Special:Captcha/help|meer informatie]]):",
+	"questycaptcha-edit": "Beantwoord de onderstaande vraag om deze pagina te bewerken ([[Special:Captcha/help|meer informatie]]):",
+	"questycaptcha-sendemail": "Beantwoord de onderstaande vraag als bescherming tegen geautomatiseerde spam ([[Special:Captcha/help|meer informatie]]):",
+	"questycaptchahelp-text": "Websites die vrij te bewerken zijn, zoals deze wiki, worden vaak misbruikt door spammers die er met hun programma's automatisch koppelingen op zetten naar vele websites.\nHoewel deze externe koppelingen weer verwijderd kunnen worden, leveren ze wel veel hinder en administratief werk op.\n\nSoms, en in het bijzonder bij het toevoegen van externe koppelingen op pagina's, vraag de wiki u een vraag te beantwoorden.\nOmdat dit proces lastig te automatiseren is, zijn vrijwel alleen mensen in staat dit proces succesvol te doorlopen en worden hiermee spammers en andere geautomatiseerde aanvallen geweerd.\n\nVraag assistentie van de [[Special:ListAdmins|sitebeheerders]] als dit proces u verhindert een nuttige bijdrage te leveren.\n\nKlik op de knop \"terug\" in uw browser om terug te gaan naar het tekstbewerkingsscherm."
+}

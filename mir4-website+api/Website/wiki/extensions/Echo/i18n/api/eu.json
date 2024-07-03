@@ -1,0 +1,17 @@
+{
+	"@metadata": {
+		"authors": [
+			"Mikel Ibaiba",
+			"Subi"
+		]
+	},
+	"apihelp-query+notifications-example-1": "Zerrendatu jakinarazpenak",
+	"apihelp-query+notifications-example-2": "Zerrendatu jakinarazpenak, atalka antolaturik, kontagailuekin",
+	"apihelp-echoarticlereminder-summary": "Etorkizunerako artikulu espezifiko baten oroigarria eskatu",
+	"apihelp-echoarticlereminder-param-pageid": "Identifikazio artikulua erabiltzaileari gogorarazteko",
+	"apihelp-echoarticlereminder-param-title": "Artikuluaren izenburua erabiltzaileari gogorarazteko",
+	"apihelp-echoarticlereminder-param-comment": "Aukerako oharra erabiltzaileari gogorarazteko",
+	"apihelp-echoarticlereminder-example-1": "Biharko jakinarazpenean oharra duen arkikulua sortu",
+	"apihelp-echoarticlereminder-example-2": "Biharko jakinarazpenean oharrik gabeko arkikulua sortu",
+	"apierror-echo-event-creation-failed": "Ezin izan da Echo ekitaldia sortu"
+}

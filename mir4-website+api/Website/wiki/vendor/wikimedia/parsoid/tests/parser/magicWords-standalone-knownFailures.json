@@ -1,0 +1,14 @@
+{
+    "Case-insensitive magic words should still work with weird casing.": {
+        "html2wt": "example.org\naOEU\nAoeu\nhttp://example.org\n"
+    },
+    "Case-sensitive magic words, when cased differently, should just be template transclusions": {
+        "selser [[0,4,0,2,0,0,0]]": "{{CurrentMonth}}1hfy2kw{{currentday}}<nowiki/>y1fjfy\n{{cURreNTweEK}}\n{{currentHour}}",
+        "selser [[0,0,0,0,0,2,0]]": "{{CurrentMonth}}\n{{currentday}}\n{{cURreNTweEK}}<nowiki/>gtu1i1\n{{currentHour}}",
+        "selser [[0,4,0,0,0,3,0]]": "{{CurrentMonth}}<nowiki/>pdv9x9{{currentday}}\n{{cURreNTweEK}}{{currentHour}}",
+        "selser [[0,3,0,4,0,4,0]]": "{{CurrentMonth}}{{currentday}}1bhxeiy{{cURreNTweEK}}<nowiki/>h2zlv4{{currentHour}}",
+        "selser [[0,0,0,4,0,2,0]]": "{{CurrentMonth}}\n{{currentday}}1eukxsc{{cURreNTweEK}}<nowiki/>os3c1q\n{{currentHour}}",
+        "selser [[0,0,0,3,0,4,0]]": "{{CurrentMonth}}\n{{currentday}}{{cURreNTweEK}}<nowiki/>kge8hn{{currentHour}}",
+        "selser [[0,4,0,2,0,4,0]]": "{{CurrentMonth}}<nowiki/>qgj35{{currentday}}1evx2fs\n{{cURreNTweEK}}1n8fl4q{{currentHour}}"
+    }
+}

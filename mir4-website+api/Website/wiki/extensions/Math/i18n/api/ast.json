@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Xuacu"
+		]
+	},
+	"apihelp-query+mathwbextracts-example-1": "Solicita un resume d'elementos matemáticos de Wikibase.",
+	"apihelp-query+mathwbextracts-summary": "Devuelve un resume d'un elementu matemáticu de Wikibase en HTML.",
+	"apihelp-query+mathwbextracts-param-qid": "El ID Q del elementu de Wikibase que va solicitase.",
+	"apihelp-query+mathwbextracts-param-uselang": "La llingua que tendría de solicitase pal elementu de Wikibase. L'inglés ye'l valor predetermináu."
+}

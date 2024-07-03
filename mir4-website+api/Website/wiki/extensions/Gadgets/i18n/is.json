@@ -1,0 +1,30 @@
+{
+	"@metadata": {
+		"authors": [
+			"Jóna Þórunn",
+			"Maxí",
+			"Snævar",
+			"Stefán Örvar Sigmundsson",
+			"Sveinn í Felli"
+		]
+	},
+	"gadgets-desc": "Leyfir notendum að velja sérsniðnar [[Special:Gadgets|CSS- og JavaScript-græjur]] í [[Special:Preferences#mw-prefsection-gadgets|kjörstillingum]]",
+	"prefs-gadgets": "Græjur",
+	"gadgets-prefstext": "Eftirfarandi er listi yfir smáforrit sem þú getur notað á notandareikningi þínum. Þessi smáforrit eru að mestu byggð á JavaScript svo vafrinn þarf að styðja JavaScript til að þau virki. Athugaðu einnig að smáforritin hafa engin áhrif á stillingasíðunni.\n\nSmáforritin eru ekki hluti af MediaWiki-hugbúnaðinum heldur eru skrifuð og viðhaldin af notendum á þessu wiki-verkefni. Möppudýr geta breytt smáforritunum á [[MediaWiki:Gadgets-definition]] og [[Special:Gadgets]]. Fjöldi notenda sem nota hvert smáforrit fyrir sig er skráður á [[Special:GadgetUsage|Notkunarupplýsingar smáforrita]].",
+	"special-gadgets": "Græjur",
+	"gadgetusage": "Tölfræði yfir notkun græja",
+	"gadgetusage-noresults": "Engar græjur fundust.",
+	"gadgetusage-activeusers": "Virkir notendur",
+	"gadgetusage-default": "Sjálfgefið",
+	"gadgets-title": "Græjur",
+	"gadgets-pagetext": "Fyrir neðan er listi yfir sérstakar græjur sem notendur geta virkjað á [[Special:Preferences#mw-prefsection-gadgets|kjörstillingasíðu]], eins og þær eru skilgreindar af [[MediaWiki:Gadgets-definition|skilgreiningunum]].\nÞetta yfirlit veitir greiðan aðgang að kerfisskilaboðasíðum sem skilgreina lýsingu og kóða hverrar græju.",
+	"gadgets-uses": "Notar",
+	"gadgets-required-rights": "Þarfnast eftifarandi {{PLURAL:$2|réttinda}}:\n\n$1",
+	"gadgets-required-skins": "Aðgengileg með eftirfarandi {{PLURAL:$2|þema|$2 þemum}}: $1",
+	"gadgets-default": "Sjálfgefið virkjað fyrir alla.",
+	"gadgets-export": "Flytja út",
+	"gadgets-export-title": "Útflutningur græju",
+	"gadgets-not-found": "Græjan „$1“ fannst ekki.",
+	"gadgets-export-text": "Til að flytja út græjuna $1 skalt þú smella á „{{int:gadgets-export-download}}“-hnappinn, vista niðurhlöðnu skrána,\nfara á Special:Import á mark-wiki og hlaða henni upp. Bættu síðan eftirfarandi við síðuna MediaWiki:Gadgets-definition:\n<pre>$2</pre>\nÞú verður að hafa viðeigandi heimildir á mark-wiki (þar á meðal rétt til að breyta kerfisskilaboðum) og innflutningur frá skráaupphleðslu verður að vera virkur.",
+	"gadgets-export-download": "Hlaða niður"
+}

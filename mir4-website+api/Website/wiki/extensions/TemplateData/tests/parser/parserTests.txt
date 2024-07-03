@@ -1,0 +1,26 @@
+!! options
+version=2
+!! end
+
+!! hooks
+templatedata
+!! endhooks
+
+!! test
+Empty
+!! options
+disabled
+!! wikitext
+<templatedata />
+!! html
+<div class="mw-message-box-error mw-message-box"><p>Syntax error in JSON.
+</p></div>
+!! end
+
+!! test
+Minimal JSON
+!! wikitext
+<templatedata>{"params":{}}</templatedata>
+!! html
+<section class="mw-templatedata-doc-wrap"><header><p class="mw-templatedata-doc-desc mw-templatedata-doc-muted">No description.</p></header><table class="wikitable mw-templatedata-doc-params"><caption><p class="mw-templatedata-caption">Template parameters</p></caption><thead><tr><th colspan="2">Parameter</th><th>Description</th><th>Type</th><th>Status</th></tr></thead><tbody><tr><td class="mw-templatedata-doc-muted" colspan="7">No parameters specified</td></tr></tbody></table></section>
+!! end

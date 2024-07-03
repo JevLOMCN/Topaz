@@ -1,0 +1,38 @@
+{
+	"@metadata": {
+		"authors": [
+			"Aleator",
+			"Alvaro Vidal-Abarca",
+			"Fitoschido",
+			"Jmarchn",
+			"Paucabot",
+			"SMP",
+			"Toniher",
+			"Vriullop"
+		]
+	},
+	"nuke": "Eliminació massiva",
+	"action-nuke": "esborrar pàgines de forma massiva",
+	"nuke-desc": "Dóna als administradors l'habilitat d'[[Special:Nuke|esborrar pàgines massivament]]",
+	"nuke-nopages": "No hi ha pàgines noves de [[Special:Contributions/$1|{{GENDER:$1|$1}}]] als canvis recents.",
+	"nuke-list": "Les següents pàgines han estat creades recentment per [[Special:Contributions/$1|{{GENDER:$1|$1}}]];\nafegiu un comentari i cliqueu el botó per a esborrar-les.",
+	"nuke-list-multiple": "Les següents pàgines han estat creades recentment;\nafegiu un comentari i cliqueu el botó per a esborrar-les.",
+	"nuke-defaultreason": "Esborrat massiu de pàgines creades per [[Special:Contributions/$1|{{GENDER:$1|$1}}]]",
+	"nuke-multiplepeople": "Esborrat massiu de pàgines creades recentment",
+	"nuke-tools": "Aquesta eina permet l'eliminació massiva de pàgines creades recentment per un usuari o IP.\nIndiqueu el nom d'usuari o adreça IP per obtenir la llista de pàgines a esborrar, o deixeu-ho en blanc per tots els usuaris.",
+	"nuke-submit-user": "Llista de pàgines",
+	"nuke-submit-delete": "Esborra els seleccionats",
+	"right-nuke": "Esborrar pàgines de forma massiva",
+	"nuke-userorip": "Nom d'usuari, adreça IP o en blanc:",
+	"nuke-maxpages": "Nombre màxim de pàgines:",
+	"nuke-editby": "Creada per [[Special:Contributions/$1|{{GENDER:$1|$1}}]]",
+	"nuke-deleted": "La pàgina '''$1''' ha estat esborrada.",
+	"nuke-not-deleted": "La pàgina [[:$1]] '''no s'ha pogut''' esborrar.",
+	"nuke-delete-more": "[[Special:Nuke|Esborra més pàgines]]",
+	"nuke-pattern": "Patró SQL LIKE (per exemple,%) per al nom de la pàgina:",
+	"nuke-nopages-global": "No hi ha cap títol de pàgina que coincideixi amb la vostra cerca.",
+	"nuke-viewchanges": "mostra els canvis",
+	"nuke-namespace": "Limitat a l’espai de noms:",
+	"nuke-linkoncontribs": "eliminació massiva",
+	"nuke-linkoncontribs-text": "Eliminació massiva de pàgines on {{GENDER:$1|aquest usuari|aquesta usuària}} és l'únic autor"
+}

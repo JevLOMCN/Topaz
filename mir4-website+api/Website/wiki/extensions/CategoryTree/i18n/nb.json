@@ -1,0 +1,41 @@
+{
+	"@metadata": {
+		"authors": [
+			"Audun",
+			"EdoAug",
+			"Event",
+			"Jeblad",
+			"Jon Harald Søby",
+			"Kingu",
+			"SuperPotato"
+		]
+	},
+	"categorytree": "Kategoritre",
+	"categorytree-portlet": "Kategorier",
+	"categorytree-legend": "Vis kategoritre",
+	"categorytree-desc": "AJAX-basert verktøy som viser [[Special:CategoryTree|kategoristrukturen]] til en wiki",
+	"categorytree-header": "Skriv inn et kategorinavn for å se dens innhold som en trestruktur. (Krever JavaScript.)",
+	"categorytree-category": "Kategori:",
+	"categorytree-go": "Vis tre",
+	"categorytree-parents": "Overkategorier",
+	"categorytree-mode-label": "Modus:",
+	"categorytree-mode-categories": "kun kategorier",
+	"categorytree-mode-pages": "sider utenom bilder",
+	"categorytree-mode-all": "alle sider",
+	"categorytree-collapse": "skjul",
+	"categorytree-expand": "utvid",
+	"categorytree-member-counts": "Inneholder {{PLURAL:$1|én underkategori|$1 underkategorier}}, {{PLURAL:$2|én side|$2 sider}} og {{PLURAL:$3|én fil|$3 filer}}",
+	"categorytree-num-categories": "$1 K",
+	"categorytree-num-pages": "$1 S",
+	"categorytree-num-files": "$1 F",
+	"categorytree-num-empty": "tom",
+	"categorytree-load": "last",
+	"categorytree-loading": "laster ...",
+	"categorytree-nothing-found": "ingenting funnet",
+	"categorytree-no-subcategories": "ingen underkategorier",
+	"categorytree-no-parent-categories": "ingen foreldrekategorier",
+	"categorytree-no-pages": "ingen sider eller underkategorier",
+	"categorytree-not-found": "Kategorien <i>$1</i> ikke funnet",
+	"categorytree-error": "problem under datalasting.",
+	"categorytree-retry": "Vent en stund og prøv igjen."
+}

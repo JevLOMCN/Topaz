@@ -1,0 +1,41 @@
+{
+	"@metadata": {
+		"authors": [
+			"Praveenp"
+		]
+	},
+	"linterrors": "ലിന്റ് പിഴവുകൾ",
+	"linter-category-bogus-image-options": "കൃത്രിമ പ്രമാണ ഐച്ഛികങ്ങൾ",
+	"linter-category-bogus-image-options-desc": "ഈ താളുകളിൽ കൃത്രിമ പ്രമാണ ഐച്ഛികങ്ങൾ ഉപയോഗിക്കുന്നു.",
+	"linter-category-misc-tidy-replacement-issues": "പലവിധ ടൈഡി മാറ്റിച്ചേർക്കൽ പ്രശ്നങ്ങൾ",
+	"linter-category-missing-end-tag": "അവസാന റ്റാഗ് ഇല്ലാത്തവ",
+	"linter-category-missing-end-tag-desc": "ഈ താളുകളിൽ അവസാന റ്റാഗുകൾ നൽകാതെയുണ്ട്.",
+	"linter-category-multi-colon-escape": "നിരവധി അപൂർണ്ണവിരാമം ഉപയോഗിച്ചുള്ള ഒഴിവാകൽ",
+	"linter-category-multi-colon-escape-desc": "ഈ താളുകളിൽ ഒന്നിലധികം അപൂർണ്ണവിരാമങ്ങൾ ആദ്യം നൽകിയ കണ്ണികൾ ഉണ്ട്.",
+	"linter-category-obsolete-tag": "കാലഹരണപ്പെട്ട എച്ച്.റ്റി.എം.എൽ. റ്റാഗുകൾ",
+	"linter-category-obsolete-tag-desc": "ഈ താളുകൾ കാലഹരണപ്പെട്ട എച്ച്.റ്റി.എം.എൽ. റ്റാഗുകൾ ഉപയോഗിക്കുന്നു.",
+	"linter-category-stripped-tag": "വെട്ടിയ റ്റാഗുകൾ",
+	"linter-desc": "ഒരു ബാഹ്യസേവനം ഉപയോഗിച്ച് ലിന്റ് പിഴവുകൾ പിന്തുടരുകയും അവ ഉപയോക്താക്കളെ കാണിക്കുകയും ചെയ്യുക",
+	"linter-form-namespace": "നാമമേഖല:",
+	"linter-heading-high-priority": "ഉയർന്ന മുൻഗണന",
+	"linter-heading-low-priority": "കുറഞ്ഞ മുൻഗണന",
+	"linter-heading-medium-priority": "ഇടത്തരം മുൻഗണന",
+	"linter-numerrors": "($1 {{PLURAL:$1|പിഴവ്|പിഴവുകൾ}})",
+	"linter-page-edit": "തിരുത്തുക",
+	"linter-page-history": "നാൾവഴി",
+	"linter-page-viewsource": "മൂലരൂപം കാണുക",
+	"linter-pager-bogus-image-options-details": "കൃത്രിമ പ്രമാണ ഐച്ഛികങ്ങൾ",
+	"linter-pager-deletable-table-tag-details": "മായ്ക്കപ്പെടേണ്ട പട്ടിക റ്റാഗ്",
+	"linter-pager-misc-tidy-replacement-issues-details": "ടൈഡി മാറ്റിച്ചേർക്കലിനെ ബാധിക്കുന്ന പലവിധ മാർക്കപ്പ് പിഴവുകൾ",
+	"linter-pager-misnested-tag-details": "തെറ്റായി നെസ്റ്റ് ചെയ്തിട്ടുള്ള ശരിയായി നെസ്റ്റ് ചെയ്യേണ്ട റ്റാഗുകൾ",
+	"linter-pager-missing-end-tag-details": "അവസാന റ്റാഗ് ഇല്ലാത്തവ",
+	"linter-pager-multi-colon-escape-details": "നിരവധി അപൂർണ്ണവിരാമം ഉപയോഗിച്ചുള്ള ഒഴിവാകൽ",
+	"linter-pager-obsolete-tag-details": "കാലഹരണപ്പെട്ട എച്ച്.റ്റി.എം.എൽ. റ്റാഗ്",
+	"linter-pager-self-closed-tag-details": "സ്വയം-അടച്ച റ്റാഗ്",
+	"linter-pager-stripped-tag-details": "വെട്ടിയ റ്റാഗുകൾ",
+	"linter-pager-template-header": "ഒരു ഫലകം വഴി?",
+	"linter-pager-title-header": "താളിന്റെ തലക്കെട്ട്",
+	"linterrors-subpage": "ലിന്റ് പിഴവുകൾ: $1",
+	"linterrors-summary": "<strong>കുറിപ്പ്:</strong> വർഗ്ഗങ്ങളുടെ എണ്ണങ്ങൾ കൃത്യമായ എണ്ണങ്ങളല്ല, മറിച്ച് മതിപ്പ് എണ്ണങ്ങളാണ്.",
+	"pageinfo-linter": "ലിന്റ് പിഴവുകൾ"
+}

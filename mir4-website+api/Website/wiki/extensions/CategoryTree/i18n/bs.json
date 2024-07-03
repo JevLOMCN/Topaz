@@ -1,0 +1,41 @@
+{
+	"@metadata": {
+		"authors": [
+			"CERminator",
+			"DzWiki",
+			"KWiki",
+			"Palapa",
+			"Srdjan m",
+			"Srđan",
+			"editors of bs.wikipedia"
+		]
+	},
+	"categorytree": "Stablo kategorija",
+	"categorytree-portlet": "Kategorije",
+	"categorytree-legend": "Prikazuje stablo kategorija",
+	"categorytree-desc": "Dinamičko pregledavanje [[Special:CategoryTree|strukture kategorija]]",
+	"categorytree-header": "Upišite ime kategorije da biste vidjeli njen sadržaj u stablastoj strukturi (zahtijeva JavaScript).",
+	"categorytree-category": "Kategorija:",
+	"categorytree-go": "Prikaži stablo",
+	"categorytree-parents": "Nadkategorije",
+	"categorytree-mode-label": "Režim:",
+	"categorytree-mode-categories": "samo kategorije",
+	"categorytree-mode-pages": "stranice umjesto slika",
+	"categorytree-mode-all": "sve stranice",
+	"categorytree-collapse": "sakrij",
+	"categorytree-expand": "proširi",
+	"categorytree-member-counts": "sadrži {{PLURAL:$1|jednu potkategoriju|$1 potkategorije|$1 potkategorija}}, {{PLURAL:$2|jednu stranicu|$2 stranice|$2 stranica}} i {{PLURAL:$3|jednu datoteku|$3 datoteke|$3 datoteka}}",
+	"categorytree-num-categories": "$1 K",
+	"categorytree-num-pages": "$1 S",
+	"categorytree-num-files": "$1 D",
+	"categorytree-num-empty": "prazno",
+	"categorytree-load": "učitaj",
+	"categorytree-loading": "učitavam…",
+	"categorytree-nothing-found": "nema potkategorija",
+	"categorytree-no-subcategories": "nema potkategorija",
+	"categorytree-no-parent-categories": "nema nadređene kategorije",
+	"categorytree-no-pages": "nema ni stranica ni potkategorija",
+	"categorytree-not-found": "Kategorija <i>$1</i> nije nađena",
+	"categorytree-error": "Problem pri učitavanju podataka.",
+	"categorytree-retry": "Molimo pričekate trenutak i pokušajte ponovno."
+}

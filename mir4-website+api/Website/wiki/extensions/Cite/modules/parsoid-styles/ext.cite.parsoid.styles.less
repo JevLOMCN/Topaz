@@ -1,0 +1,103 @@
+/* CSS for Parsoid Cite extension */
+
+/* Parsoid HTML emits <sup> tags for follows uses even though there is
+ * no visible output for follows. Parsoid does this to ensure it can
+ * roundtrip back the source wikitext after edits.
+ * However, since this HTML should not be rendered, we use CSS to hide it */
+.mw-ref-follow {
+	display: none;
+}
+
+/* Upstream bug in stylelint makes it complain aboout the case of 'mw-Ref' */
+
+.mw-ref a {
+	/* With a group set */
+	&[ data-mw-group ]::after {
+		content: '[' attr( data-mw-group ) ' ' counter( mw-Ref, decimal ) ']';
+	}
+
+	/* Without a group */
+	&::after {
+		content: '[' counter( mw-Ref, decimal ) ']';
+	}
+}
+
+/* Hide the default rendering in browsers that support content
+ * generation by selecting for :after pseudo-element. */
+/* stylelint-disable-next-line selector-type-no-unknown */
+x-thereisnoelementwiththisname::after,
+span.mw-reflink-text {
+	display: none;
+}
+
+/* Style for linkbacks from <references> to <ref>s */
+ol.mw-references {
+	/**
+	 * Resetting *any* counter on an <ol> element messes up the built-in numbering in Firefox.
+	 * Explicitly resetting the built-in "list-item" counter fixes this.
+	 *
+	 * We have 2 counters for Parsoid HTML for different functionality.
+	 * Make sure both are reset!
+	 *
+	 * NOTE: This rule is a duplicate of the one present in ext.cite.styles.less
+	 * but duplicating it here ensures no matter how the rules and files are
+	 * refactored and which rule ends up applying on the loaded doc, both
+	 * counters continue to be incremented. As of now, the rule in ext.cite.styles.less
+	 * is the one that seems to be winning.
+	 **/
+	counter-reset: mw-ref-extends-parent mw-references list-item;
+
+	> li {
+		/**
+		 * We have 2 counters for Parsoid HTML for different functionality.
+		 * Make sure both are incremented!
+		 *
+		 * NOTE: This rule is a duplicate of the one present in ext.cite.styles.less
+		 * but duplicating it here ensures no matter how the rules and files are
+		 * refactored and which rule ends up applying on the loaded doc, both
+		 * counters continue to be incremented. As of now, the rule in ext.cite.styles.less
+		 * is the one that seems to be winning.
+		 **/
+		counter-increment: mw-ref-extends-parent mw-references;
+	}
+}
+
+[ rel~='mw:referencedBy' ]::before {
+	content: '↑ ';
+}
+
+span[ rel~='mw:referencedBy' ] {
+	counter-reset: mw-ref-linkback -1;
+
+	a::before {
+		counter-increment: mw-ref-linkback;
+		content: counter( mw-references, decimal ) '.' counter( mw-ref-linkback, decimal );
+		line-height: 1;
+		vertical-align: super; /* <sup> use in Cite */
+		font-size: smaller; /* <sup> use in Cite */
+	}
+
+	a::after {
+		content: ' '; /* default separator outside <sup> */
+		line-height: 1;
+	}
+
+	a:last-child::after {
+		content: '';
+	}
+}
+
+/* Hide the default rendering in browsers that support content
+ * generation by selecting for ::after pseudo-element. */
+/* stylelint-disable-next-line selector-type-no-unknown */
+x-thereisnoelementwiththisname[ rel='mw:referencedBy' ]::before,
+span.mw-linkback-text {
+	display: none;
+}
+
+/* Previously, MediaWiki styled the warning class.
+ * It no longer does this, so style cite warnings through mw-ext-cite-warning. */
+.mw-ext-cite-warning {
+	font-size: larger;
+	color: #ac6600;
+}

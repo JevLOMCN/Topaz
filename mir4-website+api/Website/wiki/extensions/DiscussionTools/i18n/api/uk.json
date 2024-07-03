@@ -1,0 +1,41 @@
+{
+	"@metadata": {
+		"authors": [
+			"Andriy.v",
+			"Base",
+			"DDPAT",
+			"Ice bulldog",
+			"Ата"
+		]
+	},
+	"apierror-discussiontools-commentid-notfound": "Коментаря з ідентифікатором «$1» не знайдено.",
+	"apierror-discussiontools-commentname-ambiguous": "Знайдено кілька коментарів із назвою «$1», <var>commentid</var> необхідний.",
+	"apierror-discussiontools-commentname-notfound": "Коментар з назвою \"$1\" не знайдено.",
+	"apierror-discussiontools-formtoken-used": "Коментар уже опубліковано. Перезавантажте сторінку, щоб побачити його.",
+	"apierror-discussiontools-subscription-failed-add": "Не вдалося підписатися на цю тему.",
+	"apierror-discussiontools-subscription-failed-remove": "Не вдалося скасувати підписку на цю тему.",
+	"apihelp-discussiontoolscompare-summary": "Отримати інформацію про зміни коментарів між двома версіями сторінки.",
+	"apihelp-discussiontoolsedit-param-commentid": "Ідентифікатор коментаря, на який відповідати. Використовується лише коли <var>paction</var> є <var>addcomment</var>. Перезаписує значення <var>commentname</var>.",
+	"apihelp-discussiontoolsedit-param-commentname": "Назва коментаря, на який потрібно відповісти. Використовується лише тоді, коли <var>paction</var> є <var>addcomment</var>.",
+	"apihelp-discussiontoolsedit-param-formtoken": "Додатковий унікальний ідентифікатор, створений у клієнті, щоб запобігти подвійній публікації.",
+	"apihelp-discussiontoolsedit-param-html": "Вміст для розміщення у форматі HTML. Не можна використовувати разом з <var>wikitext</var>.",
+	"apihelp-discussiontoolsedit-param-sectiontitle": "{{int:apihelp-edit-param-sectiontitle}} Використовується лише тоді, коли <var>paction</var> є <var>addtopic</var>.",
+	"apihelp-discussiontoolsedit-param-wikitext": "Контент для публікації як вікітекст. Не можна використати разом з <var>html</var>.",
+	"apihelp-discussiontoolsedit-paramvalue-paction-addcomment": "Додайте новий коментар як відповідь на існуючий коментар.",
+	"apihelp-discussiontoolsedit-paramvalue-paction-addtopic": "Додайте новий розділ обговорення та перший коментар до нього.",
+	"apihelp-discussiontoolsedit-summary": "Опублікувати повідомлення на сторінку обговорення.",
+	"apihelp-discussiontoolsgetsubscriptions-param-commentname": "Назви тем для перевірки",
+	"apihelp-discussiontoolsgetsubscriptions-summary": "Отримайте статуси підписки на певні теми.",
+	"apihelp-discussiontoolspageinfo-param-oldid": "Номер версії (за замовчуванням — остання версія).",
+	"apihelp-discussiontoolspageinfo-param-prop": "Які властивості отримати:",
+	"apihelp-discussiontoolspageinfo-paramvalue-prop-threaditemshtml": "Репрезентація гілок коментарів, проаналізованих зі сторінки",
+	"apihelp-discussiontoolspageinfo-paramvalue-prop-transcludedfrom": "З яких інших сторінок було включено коментарі",
+	"apihelp-discussiontoolspageinfo-summary": "Повертає метадані необхідні для ініціалізації інструментів обговорення.",
+	"apihelp-discussiontoolspreview-param-type": "Тип повідомлення для попереднього перегляду",
+	"apihelp-discussiontoolspreview-param-wikitext": "Вміст для попереднього перегляду, як вікітекст.",
+	"apihelp-discussiontoolspreview-summary": "Попередній перегляд повідомлення на сторінці обговорення.",
+	"apihelp-discussiontoolssubscribe-param-commentname": "Назва теми, на яку потрібно підписатися (або відписатися)",
+	"apihelp-discussiontoolssubscribe-param-page": "Сторінка, на якій відображається тема",
+	"apihelp-discussiontoolssubscribe-param-subscribe": "True для підписки, false для відмови від підписки",
+	"apihelp-discussiontoolssubscribe-summary": "Підписатися (або скасувати підписку), щоб отримувати сповіщення про тему."
+}

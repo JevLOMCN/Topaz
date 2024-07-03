@@ -1,0 +1,33 @@
+{
+	"@metadata": {
+		"authors": [
+			"Armando-Martin",
+			"Dferg",
+			"Dgstranz",
+			"Drini",
+			"Fitoschido",
+			"Lemondoge",
+			"Macofe",
+			"MarcoAurelio",
+			"Sanbec",
+			"Savh",
+			"Vivaelcelta"
+		]
+	},
+	"spam-blacklist": " #<!-- Deja esta línea exactamente como está --> <pre>\n# Los enlaces externos que coincidan con esta lista se bloquearán al añadirse a una página.\n# Esta lista afecta sólo a esta wiki. Consulta además la lista negra global. \n# Para documentación consulta: https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:SpamBlacklist\n#\n# La sintaxis es:\n#  * Todo lo que aparezca desde un carácter \"#\" hasta el fin de la línea, es un comentario\n#  * Toda línea que no esté en blanco, es un fragmento de expresión regular que solo coincidirá con equipos dentro de URL\n\n #</pre> <!-- Deja esta línea exactamente como está -->",
+	"spam-whitelist": " #<!-- Deja esta línea exactamente como está --> <pre>\n# Las URL externas que coincidan con esta lista *no* se bloquearán incluso si coincidiesen\n# con una entrada en la lista negra.\n#\n# La sintaxis es:\n#  * Todo lo que aparezca después de una almohadilla \"#\" hasta el fin de la línea, es un comentario\n#  * Toda línea que no esté en blanco, es un fragmento de expresión regular que solo coincidirá con dominios dentro de una URL\n\n #</pre> <!-- Deja esta línea exactamente como está -->",
+	"email-blacklist": " #<!-- no toques esta línea, déjala como está --> <pre>\n# Las direcciones de correo electrónico que coincidan con las de esta lista no podrán registrar cuentas ni enviar correos electrónicos\n# Esta lista sólo afecta a este proyecto aunque existe una lista global para todos los proyectos.\n# Documentación: https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:SpamBlacklist\n#\n# Sintaxis como sigue:\n#   * Todo lo que sigue a un \"#\" se interpreta como un comentario\n#   * Toda línea no en blanco es un fragmento de expresión regular (regex) que sólo coincidirá con los \"host\" de la dirección de correo electrónico.\n\n #</pre> <!-- no toques esta línea, déjala como está -->",
+	"email-whitelist": " #<!-- Deja esta línea exactamente como está --> <pre>\n# Las direcciones de correo electrónico que aparecen en esta lista *no* serán bloqueadas incluso si hubieran\n# debido ser bloqueadas por aparecer en la lista negra.\n#\n# La sintaxis es la siguiente:\n#  * Todo texto a la derecha del carácter \"#\" hasta el final de la línea es un comentario\n#  * Cada línea que no esté en blanco es un fragmento de código que será cotejada por los servidores (hosts) con las direcciones de correo electrónico\n\n #</pre> <!-- Deja esta línea exactamente como está -->",
+	"spam-blacklisted-email": "Dirección de correo electrónico prohibida",
+	"spam-blacklisted-email-text": "Su dirección de correo electrónico está actualmente bloqueada y no puede enviar correos electrónicos a otros usuarios.",
+	"spam-blacklisted-email-signup": "La dirección de correo electrónico proporcionada está actualmente prohibida y no puede usarse.",
+	"spam-invalid-lines": "{{PLURAL:$1|La siguiente línea|Las siguientes líneas}} de la lista negra de spam {{PLURAL:$1|es una expresión regular inválida|son expresiones regulares inválidas}} y es necesario {{PLURAL:$1|corregirla|corregirlas}} antes de guardar la página:",
+	"spam-blacklist-desc": "Herramienta antispam que usa expresiones regulares para bloquear la inserción de direcciones URL en las páginas de la wiki así como registrar cuentas de usuario usando determinados correos electrónicos",
+	"log-name-spamblacklist": "Registro de la lista negra de spam",
+	"log-description-spamblacklist": "Este registro muestra acciones bloqueadas por la lista negra de spam.",
+	"logentry-spamblacklist-hit": "{{GENDER:$2|$1}} ha activado la lista negra de spam en $3 al tratar de agregar $4.",
+	"right-spamblacklistlog": "Ver registro de la lista negra de spam",
+	"action-spamblacklistlog": "ver el registro de la lista negra de spam",
+	"right-sboverride": "Eludir la lista negra de spam",
+	"action-sboverride": "eludir la lista negra de spam"
+}

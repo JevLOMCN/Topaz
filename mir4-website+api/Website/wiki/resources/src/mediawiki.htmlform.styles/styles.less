@@ -1,0 +1,56 @@
+/* HTMLForm styles */
+@import 'mediawiki.skin.variables.less';
+@import 'mediawiki.mixins.less';
+
+.mw-htmlform {
+	clear: both;
+}
+
+.mw-htmlform .mw-htmlform-hidden-field {
+	display: none;
+}
+
+table.mw-htmlform-nolabel td.mw-label {
+	display: none;
+}
+
+.mw-htmlform-invalid-input td.mw-input input {
+	border-color: #d73333;
+}
+
+.mw-htmlform-flatlist div.mw-htmlform-flatlist-item {
+	display: inline;
+	margin-right: 1em;
+	white-space: nowrap;
+}
+
+/* HTMLCheckMatrix */
+.mw-htmlform-matrix th {
+	font-weight: normal;
+}
+
+.mw-htmlform-matrix td {
+	padding-left: 0.5em;
+	padding-right: 0.5em;
+}
+
+tr.mw-htmlform-vertical-label td.mw-label {
+	text-align: left !important; /* stylelint-disable-line declaration-no-important */
+}
+
+.mw-icon-question {
+	background-image: url( images/question.svg );
+	background-repeat: no-repeat;
+	background-size: 13px 13px;
+	display: inline-block;
+	height: 13px;
+	width: 13px;
+	margin-left: 4px;
+}
+
+// Note that Hebrew does not mirror question mark.
+.mw-icon-question:lang( ar ),
+.mw-icon-question:lang( fa ),
+.mw-icon-question:lang( ur ) {
+	transform: scaleX( -1 );
+}

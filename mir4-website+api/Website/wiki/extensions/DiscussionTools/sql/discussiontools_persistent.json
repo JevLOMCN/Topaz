@@ -1,0 +1,260 @@
+[
+	{
+		"name": "discussiontools_items",
+		"columns": [
+			{
+				"name": "it_id",
+				"type": "integer",
+				"options": {
+					"autoincrement": true,
+					"unsigned": true,
+					"notnull": true
+				}
+			},
+			{
+				"name": "it_itemname",
+				"comment": "Internal name used to identify this item across all pages and revisions where it might appear, see CommentParser::computeName()",
+				"type": "binary",
+				"options": {
+					"notnull": true,
+					"length": 255
+				}
+			},
+			{
+				"name": "it_timestamp",
+				"comment": "Date and time from signature, or null for headings",
+				"type": "mwtimestamp",
+				"options": {
+					"notnull": false
+				}
+			},
+			{
+				"name": "it_actor",
+				"comment": "Author from signature, or null for headings. (key to actor.actor_id)",
+				"type": "bigint",
+				"options": {
+					"unsigned": true,
+					"notnull": false
+				}
+			}
+		],
+		"indexes": [
+			{
+				"name": "it_itemname",
+				"comment": "",
+				"columns": [
+					"it_itemname"
+				],
+				"unique": true
+			}
+		],
+		"pk": [
+			"it_id"
+		]
+	},
+	{
+		"name": "discussiontools_item_ids",
+		"columns": [
+			{
+				"name": "itid_id",
+				"type": "integer",
+				"options": {
+					"autoincrement": true,
+					"unsigned": true,
+					"notnull": true
+				}
+			},
+			{
+				"name": "itid_itemid",
+				"comment": "Internal ID used to identify this item in this revision, see CommentParser::computeId()",
+				"type": "binary",
+				"options": {
+					"notnull": true,
+					"length": 255
+				}
+			}
+		],
+		"indexes": [
+			{
+				"name": "itid_itemid",
+				"comment": "",
+				"columns": [
+					"itid_itemid"
+				],
+				"unique": true
+			}
+		],
+		"pk": [
+			"itid_id"
+		]
+	},
+	{
+		"name": "discussiontools_item_pages",
+		"comment": "Data in this table is redundant to discussiontools_item_revisions, but if we want to find all pages where a given comment has appeared, querying it from that table would require some awful joins and be expensive",
+		"columns": [
+			{
+				"name": "itp_id",
+				"type": "integer",
+				"options": {
+					"autoincrement": true,
+					"unsigned": true,
+					"notnull": true
+				}
+			},
+			{
+				"name": "itp_items_id",
+				"comment": "(key to discussiontools_items.it_id)",
+				"type": "integer",
+				"options": {
+					"unsigned": true,
+					"notnull": true
+				}
+			},
+			{
+				"name": "itp_page_id",
+				"comment": "(key to page.page_id)",
+				"type": "bigint",
+				"options": {
+					"unsigned": true,
+					"notnull": true
+				}
+			},
+			{
+				"name": "itp_oldest_revision_id",
+				"comment": "(key to revision.rev_id)",
+				"type": "bigint",
+				"options": {
+					"unsigned": true,
+					"notnull": true
+				}
+			},
+			{
+				"name": "itp_newest_revision_id",
+				"comment": "(key to revision.rev_id)",
+				"type": "bigint",
+				"options": {
+					"unsigned": true,
+					"notnull": true
+				}
+			}
+		],
+		"indexes": [
+			{
+				"name": "itp_items_id_page_id",
+				"comment": "insertThreadItems()",
+				"columns": [
+					"itp_items_id",
+					"itp_page_id"
+				],
+				"unique": true
+			},
+			{
+				"name": "itp_items_id_newest_revision_id",
+				"comment": "findNewestRevisionsByName(), findNewestRevisionsById()",
+				"columns": [
+					"itp_items_id",
+					"itp_newest_revision_id"
+				],
+				"unique": true
+			}
+		],
+		"pk": [
+			"itp_id"
+		]
+	},
+	{
+		"name": "discussiontools_item_revisions",
+		"comment": "",
+		"columns": [
+			{
+				"name": "itr_id",
+				"type": "integer",
+				"options": {
+					"autoincrement": true,
+					"unsigned": true,
+					"notnull": true
+				}
+			},
+			{
+				"name": "itr_itemid_id",
+				"comment": "(key to discussiontools_item_ids.itid_id)",
+				"type": "integer",
+				"options": {
+					"notnull": true
+				}
+			},
+			{
+				"name": "itr_revision_id",
+				"comment": "(key to revision.rev_id)",
+				"type": "bigint",
+				"options": {
+					"unsigned": true,
+					"notnull": true
+				}
+			},
+			{
+				"name": "itr_items_id",
+				"comment": "(key to discussiontools_items.it_id)",
+				"type": "integer",
+				"options": {
+					"notnull": true
+				}
+			},
+			{
+				"name": "itr_parent_id",
+				"comment": "(key to discussiontools_item_revisions.itr_id)",
+				"type": "integer",
+				"options": {
+					"notnull": false
+				}
+			},
+			{
+				"name": "itr_transcludedfrom",
+				"comment": "Page where this item is transcluded from (null: not transcluded, 0: transcluded from unknown page) (key to page.page_id)",
+				"type": "bigint",
+				"options": {
+					"unsigned": true,
+					"notnull": false
+				}
+			},
+			{
+				"name": "itr_level",
+				"comment": "Indentation level (0 for headings, 1+ for comments)",
+				"type": "mwtinyint",
+				"options": {
+					"notnull": true
+				}
+			},
+			{
+				"name": "itr_headinglevel",
+				"comment": "Heading level (1-6), or null for placeholder headings and comments",
+				"type": "mwtinyint",
+				"options": {
+					"notnull": false
+				}
+			}
+		],
+		"indexes": [
+			{
+				"name": "itr_revision_id",
+				"comment": "findThreadItemsInCurrentRevision()",
+				"columns": [
+					"itr_revision_id"
+				],
+				"unique": false
+			},
+			{
+				"name": "itr_itemid_id_revision_id",
+				"comment": "findNewestRevisionsByName(), findNewestRevisionsById(), insertThreadItems()",
+				"columns": [
+					"itr_itemid_id",
+					"itr_revision_id"
+				],
+				"unique": true
+			}
+		],
+		"pk": [
+			"itr_id"
+		]
+	}
+]

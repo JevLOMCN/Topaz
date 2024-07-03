@@ -1,0 +1,16 @@
+{
+	"@metadata": {
+		"authors": [
+			"McDutchie"
+		]
+	},
+	"renocaptcha-desc": "Modulo reCAPTCHA NoCAPTCHA pro le Confirmation de modification",
+	"renocaptcha-edit": "Pro proteger le wiki contra le spam automatisate, per favor, resolve le CAPTCHA sequente:",
+	"renocaptcha-addurl": "Iste modification include nove ligamines externe. Pro proteger le wiki contra le spam automatisate, per favor, resolve le CAPTCHA sequente:",
+	"renocaptcha-badlogin": "Pro proteger le wiki contra le furto automatisate de contrasignos, per favor, resolve le CAPTCHA sequente:",
+	"renocaptcha-createaccount": "Pro proteger le wiki contra le creation automatisate de contos, per favor, resolve le CAPTCHA sequente:",
+	"renocaptcha-createaccount-fail": "Pare que tu non ha resolvite le CAPTCHA.",
+	"renocaptcha-create": "Pro proteger le wiki contra le creation automatisate de paginas, per favor, resolve le CAPTCHA sequente:",
+	"renocaptcha-noscript": "Infelicemente tu ha disactivate JavaScript, dunque nos non pote recognoscer automaticamente si tu es un humano o non. Per favor, resolve le CAPTCHA hic supra e copia le texto resultante in le quadro sequente:",
+	"renocaptcha-help": "Per favor, resolve un defia ReCaptcha NoCaptcha e retorna le valor del responsa como captchaWord."
+}

@@ -1,0 +1,10 @@
+@import 'variables.less';
+
+// For compatibility with code older than #mw-teleport-target (T350544)
+body > .oo-ui-windowManager {
+	font-size: 0.95em;
+
+	> .oo-ui-dialog {
+		z-index: @z-index-overlay;
+	}
+}

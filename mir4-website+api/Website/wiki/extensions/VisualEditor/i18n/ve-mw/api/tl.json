@@ -1,0 +1,24 @@
+{
+	"@metadata": {
+		"authors": [
+			"Jewel457",
+			"Sky Harbor"
+		]
+	},
+	"apihelp-visualeditor-param-basetimestamp": "Kapag nagtatala, itakda ito sa panandang-oras ng rebisyong ibinago. Ginagamit upang matuklas ang mga alitan sa pagbabago.",
+	"apihelp-visualeditor-param-cachekey": "Para sa serialize o diff, gamitin ang resulta ng dating hiling na serializeforcache gamit ang susing ito. Mangingibabaw ito sa $1html.",
+	"apihelp-visualeditor-param-html": "HTML na ipapadala sa Parsoid upang maipalit sa wikisintaksis.",
+	"apihelp-visualeditor-param-oldid": "Ang bilang ng pagbabago na gagamitin (likas na tumutungo sa huling pagbabago).",
+	"apihelp-visualeditor-param-paction": "Gawaing dapat isakatuparan.",
+	"apihelp-visualeditor-param-page": "Ang pahinang dapat gawan ng pagkilos.",
+	"apihelp-visualeditoredit-param-basetimestamp": "Kapag nagtatala, itakda ito sa panandang-oras ng rebisyong ibinago. Ginagamit upang matuklas ang mga alitan sa pagbabago.",
+	"apihelp-visualeditoredit-param-cachekey": "Gamitin ang resulta ng dating hiling na serializeforcache gamit ang susing ito. Mangingibabaw ito sa $1html.",
+	"apihelp-visualeditoredit-param-captchaid": "Captcha ID (kapag nagtatala nang may hinihinging tugon sa captcha).",
+	"apihelp-visualeditoredit-param-captchaword": "Sagot sa captcha (kapag nagtatala nang may hinihinging tugon sa captcha).",
+	"apihelp-visualeditoredit-param-html": "HTML na ipapadala sa Parsoid bilang kapalit sa wikisintaksis.",
+	"apihelp-visualeditoredit-param-minor": "Markahang pang-maliit na pagbabago.",
+	"apihelp-visualeditoredit-param-oldid": "Ang bilang ng pagbabago na gagamitin. Likas na tutungo ito sa huling pagbabago. Gamitin ang 0 para sa bagong pahina.",
+	"apihelp-visualeditoredit-param-page": "Ang pahinang gagawan ng pagkilos.",
+	"apihelp-visualeditoredit-param-starttimestamp": "Kapag nagtatala, itakda ito sa panandang-oras ng kailang ikinarga ang pahina. Ginagamit ito upang matuklasan ang mga alitan sa pagbabago.",
+	"apihelp-visualeditoredit-param-summary": "Buod ng pagbabago."
+}

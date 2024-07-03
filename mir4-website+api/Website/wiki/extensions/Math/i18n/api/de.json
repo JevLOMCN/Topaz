@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Justman10000"
+		]
+	},
+	"apihelp-query+mathwbextracts-example-1": "Fordert eine Zusammenfassung der mathematischen Wikibase-Artikel an.",
+	"apihelp-query+mathwbextracts-summary": "Gibt eine Zusammenfassung eines mathematischen Wikibase-Artikels in HTML zurück.",
+	"apihelp-query+mathwbextracts-param-qid": "Die QID des Wikibase-Artikels, der angefordert wird.",
+	"apihelp-query+mathwbextracts-param-uselang": "Die Sprache, die für den Wikibase-Artikel angefordert werden soll. Englisch ist der Standardwert."
+}

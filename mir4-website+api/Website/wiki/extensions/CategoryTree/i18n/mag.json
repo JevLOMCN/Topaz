@@ -1,0 +1,35 @@
+{
+	"@metadata": {
+		"authors": [
+			"ऐक्टिवेटेड्"
+		]
+	},
+	"categorytree": "बर्गबृक्ष",
+	"categorytree-portlet": "बर्ग",
+	"categorytree-legend": "बर्गबृक्ष देखावी",
+	"categorytree-desc": "विकिके [[Special:CategoryTree|बर्ग संरचना]] देखी",
+	"categorytree-header": "कौनो बर्गके सामग्रीबृक्षके रूपमे देखावेला ओकर नाम दी । (जावास्क्रिप्ट् अनिवार्य हे)",
+	"categorytree-category": "बर्ग:",
+	"categorytree-go": "बृक्ष देखाबी",
+	"categorytree-parents": "जनक",
+	"categorytree-mode-label": "मोड्:",
+	"categorytree-mode-categories": "मात्र बर्ग",
+	"categorytree-mode-pages": "सञ्चिकाके अतिरिक्त पन्ना",
+	"categorytree-mode-all": "सब पन्ना",
+	"categorytree-collapse": "सिकोड़ी",
+	"categorytree-expand": "फैलावी",
+	"categorytree-member-counts": "एकरामे {{PLURAL:$1|एगो उपबर्ग|$1 उपबर्ग}}, {{PLURAL:$2|एगो पन्ना|$2 पन्ना}}, आउ {{PLURAL:$3|एगो सञ्चिका|$3 सञ्चिका}} हे ।",
+	"categorytree-num-categories": "$1 ब",
+	"categorytree-num-pages": "$1 प",
+	"categorytree-num-files": "$1 स",
+	"categorytree-num-empty": "खाली",
+	"categorytree-load": "लोड् करी",
+	"categorytree-loading": "लोड् होवैत...",
+	"categorytree-nothing-found": "कुछो न भेटल",
+	"categorytree-no-subcategories": "कौनो उपबर्ग न",
+	"categorytree-no-parent-categories": "कौनो जनकबर्ग न",
+	"categorytree-no-pages": "कौनो पन्ना वा उपबर्ग न",
+	"categorytree-not-found": "बर्ग <i>$1</i> न भेटल",
+	"categorytree-error": "डेटा लोड् करेमे समस्या ।",
+	"categorytree-retry": "कृपया कुछ समय पश्चात् पुनः प्रयास करी ।"
+}

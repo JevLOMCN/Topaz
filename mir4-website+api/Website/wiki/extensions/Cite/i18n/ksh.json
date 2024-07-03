@@ -1,0 +1,38 @@
+{
+	"@metadata": {
+		"authors": [
+			"Purodha",
+			"The Evil IP address"
+		]
+	},
+	"cite-desc": "Erlaub Quelle un Referenze met <code>&lt;ref[ name=id]&gt;</code> un <code>&lt;references/&gt;</code> aanzejevve.",
+	"cite_error": "Fähler in <i lang=\"en\">cite</i> met Referenze: $1",
+	"cite_error_ref_numeric_key": "Fähler en <i lang=\"en\">cite</i>:\nEne <code>&lt;ref&gt;</code>-Name kann kei Zahl sin.\nNemm en Övverschreff , di jät säht.",
+	"cite_error_ref_no_key": "Beim <code lang=\"en\" xml:lang=\"en\" dir=\"rtl\">cite</code>-Befähl singem Bejenn es enne kapodde Nahme jenannt, udder hä es söns wi kappott.",
+	"cite_error_ref_too_many_keys": "Fähler en <i lang=\"en\">cite</i>:\nZo fill <code>&lt;ref&gt;</code>-Name,\nudder kapodde ene Name.",
+	"cite_error_ref_no_input": "Fähler en <i lang=\"en\">cite</i>:\nE <code>&lt;ref&gt;</code> oohne Name moß ene Enhallt han.",
+	"cite_error_references_duplicate_key": "Dat es ene onjöllteje „<code lang=\"en\" xml:lang=\"en\" dir=\"ltr\">&lt;ref&gt;</code>“-Befähl, Dä Nahme „$1“ es mih wi eijmohl med enem onejahle Ennhalld belähsch.",
+	"cite_error_references_invalid_parameters": "Fähler en <i lang=\"en\">cite</i>:\nE <code>&lt;references&gt;</code> moß oohne Parrametere sin.\nNemm eifach <code>&lt;references /&gt;</code> un söns nix.",
+	"cite_error_references_no_backlink_label": "Fähler en <i lang=\"en\">cite</i>:\nNit jenoch Name för retuur-Lengks. Donn mieh en dä Sigg [[MediaWiki:Cite references link many format backlink labels]] enndrare.",
+	"cite_error_no_link_label_group": "För de Jroppe „$1“ senn_er kein Bezeichnonge för Lengks mih doh. Donn op [[MediaWiki:$2]] noch e paa dobei.",
+	"cite_error_references_no_text": "Fähler en <i lang=\"en\">cite</i>:\nEt wohr keine Tex aanjejovve för de\n<code>&lt;ref&gt;</code>s met dämm Name „<code>$1</code>“.",
+	"cite_error_included_ref": "Hee för dat <code>&lt;ref&gt;</code> ham_mer kei zopaß <code>&lt;/ref&gt;</code>",
+	"cite_error_group_refs_without_references": "Et sinn_er <code>&lt;ref&gt;</code>-Befähle för de Jrop „$1“ en heh dä Sigg, ävver mer han keine <code>&lt;references group=\"$1\"/&gt;</code>-Befähl jefonge, udder dä Befähl <code>&lt;/ref&gt;</code> zom zohmaache es nit doh.",
+	"cite_error_references_group_mismatch": "Dä <code>&lt;ref&gt;</code> Befähl en <code>&lt;references&gt;</code> hät en widerschpröschlesche Jroppe-Eijeschaff „$1“.",
+	"cite_error_references_missing_key": "Dä <code>&lt;ref&gt;</code> Befähl mem Nahme „$1“, aanjejovve em Befähl <code>&lt;references&gt;</code>, es em Täx doför nit vörjekumme.",
+	"cite_error_references_no_key": "Dä <code>&lt;ref&gt;</code> Befähl, aanjejoove em Befähl <code>&lt;references&gt;</code>, hät kei Eijeschaff <code>name=</code> aanjejovve.",
+	"cite_error_empty_references_define": "Dä <code>&lt;ref&gt;</code> Befähl mem Nahme „$1“, aanjejoove em Befähl <code>&lt;references&gt;</code> mem Nahme „$1“, hät keine Enhallt.",
+	"cite-tracking-category-cite-error": "Sigge met Fähler en Fohßnuhte",
+	"cite-tracking-category-cite-error-desc": "En Sigge en heh dä Saachjropp sin Fähler em Jebruch vun Fohßnuhte",
+	"cite_references_link_accessibility_label": "Jangk noh bovve",
+	"cite_references_link_many_accessibility_label": "Jangk noh bovve op:",
+	"cite_section_preview_references": "En Vöraff-Aansesch vun de Quälle un Fohßnuhte",
+	"cite_warning": "Opjepaß: $1",
+	"cite_warning_sectionpreview_no_text": "<code>&lt;ref&gt;</code> dä Befähl mem Nahme <code>$1</code> künne mer nit vöraff belohre. Dä es ußerhallef vun heh däm Afschnedd udder övverhoup nit bestemmt wohde.",
+	"cite-wikieditor-tool-reference": "Fohßnoht",
+	"cite-wikieditor-help-page-references": "Fohßnuhte",
+	"cite-wikieditor-help-content-reference-description": "Fohßnoht",
+	"cite-wikieditor-help-content-named-reference-description": "Benannte Bezösch",
+	"cite-wikieditor-help-content-rereference-description": "Noch ens desellve Fohßnoht bruche",
+	"cite-wikieditor-help-content-showreferences-description": "Fohßnuuhte aanzeije"
+}

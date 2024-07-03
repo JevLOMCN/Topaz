@@ -1,0 +1,16 @@
+{
+	"@metadata": {
+		"authors": [
+			"Máté",
+			"Tacsipacsi"
+		]
+	},
+	"renocaptcha-edit": "Az automatizált spamek megelőzése miatt kérjük, oldd meg a következő CAPTCHA-t:",
+	"renocaptcha-addurl": "A szerkesztésed új külső hivatkozásokat tartalmaz. Az automatizált spamek megelőzése miatt kérjük, oldd meg a következő CAPTCHA-t:",
+	"renocaptcha-badlogin": "Hogy az automatizált jelszófeltörési kísérleteket megelőzzük, kérjük, oldd meg a következő CAPTCHA-t:",
+	"renocaptcha-createaccount": "A felhasználói fiókok automatizált létrehozásának elkerülésére kérjük, oldd meg a következő CAPTCHA-t:",
+	"renocaptcha-createaccount-fail": "Úgy tűnik, nem oldottad meg a CAPTCHA-t.",
+	"renocaptcha-create": "Az automatizált laplétrehozás megelőzése miatt kérjük, oldd meg a következő CAPTCHA-t:",
+	"renocaptcha-noscript": "Sajnos letiltottad a JavaScriptet, így nem tudjuk automatikusan felismerni, hogy ember vagy-e. Kérjük, oldd meg a fenti CAPTCHA-t, és másold be a megoldást az alábbi szövegmezőbe:",
+	"renocaptcha-help": "Oldd meg a ReCaptcha NoCaptcha-feladatot és küldd vissza a választ captchaWord paraméterként."
+}

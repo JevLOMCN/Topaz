@@ -1,0 +1,26 @@
+{
+	"@metadata": {
+		"authors": [
+			"Marwan Mohamad"
+		]
+	},
+	"apihelp-visualeditor-param-basetimestamp": "To'u molahu, aaturuwa nilai botiye mowali wakutu to sa'ati boli'a botiya pilohutu. Mopohunalo modeteksi konflik momoli'o.",
+	"apihelp-visualeditor-param-etag": "ETag u molawo.",
+	"apihelp-visualeditor-param-html": "HTML u molawo ode Parsoid u mengkonversi mowali teks wiki.",
+	"apihelp-visualeditor-param-oldid": "Nomoro boli'a u otohilawo (secara baku: versi pulitiyo).",
+	"apihelp-visualeditor-param-paction": "Huhutu u pohutuwolo",
+	"apihelp-visualeditor-param-page": "Halaman to'utoonu huhutu pohutuwolo.",
+	"apihelp-visualeditor-param-pst": "Pra-molahu momoli'o teks wiki to'udiipo ode Parsoid (paction=parsefragment).",
+	"apihelp-visualeditor-param-starttimestamp": "To'u molahu, aaturuwa nilai botiye mowali wakutu to sa'ati boli'a botiya diletohu. Mopohunalo modeteksi konflik momoli'o.",
+	"apihelp-visualeditor-param-wikitext": "Teks wiki u molawo ode Parsoid u mengkonversi mowali HTML (paction=parsefragment).",
+	"apihelp-visualeditoredit-param-basetimestamp": "To'u molahu, aaturuwa nilai botiye mowali wakutu to sa'ati boli'a botiya pilohutu. Mopohunalo modeteksi konflik momoli'o.",
+	"apihelp-visualeditoredit-param-cachekey": "Popohunawa hasili lonto hihile serializeforcache wolo u'unti botiya to'udiipo. Modeehu $1html.",
+	"apihelp-visualeditoredit-param-captchaid": "ID Captcha (to'u molahu wolo respons captcha).",
+	"apihelp-visualeditoredit-param-captchaword": "Tameto captcha (to'u molahu wolo respons captcha).",
+	"apihelp-visualeditoredit-param-etag": "ETag u molawo.",
+	"apihelp-visualeditoredit-param-html": "HTML u molawo ode Parsoid u molulu'a teks wiki.",
+	"apihelp-visualeditoredit-param-minor": "Tuwoti lomoli'a kiki'o",
+	"apihelp-visualeditoredit-param-page": "Halaman to'utoonu huhutu pohutuwolo.",
+	"apihelp-visualeditoredit-param-starttimestamp": "To'u molahu, aaturuwa nilai botiye mowali wakutu to sa'ati boli'a botiya diletohu. Mopohunalo modeteksi konflik momoli'o.",
+	"apihelp-visualeditoredit-param-summary": "Limbu'o booli'a"
+}

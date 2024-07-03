@@ -1,0 +1,11 @@
+Change notes from older releases. The extension math does now follow the releases of MediaWiki core.
+
+== Math 2.0 ==
+
+=== Configuration changes in 2.0 ===
+* $wgLaTeXMLUrl was renamed to $wgMathLaTeXMLUrl
+* $wgLaTeXMLTimeout was renamed to $wgMathLaTeXMLTimeout
+* $wgMathValidModes is introduced:
+  It determines the selectable math rendering modes MW_MATH_(PNG|MATHML|...) in user preferences.
+* $wgUseLaTeXML becomes unnecessary use $wgMathValidModes[] = 'latexml';
+  to enable the LaTeXML rendering mode.

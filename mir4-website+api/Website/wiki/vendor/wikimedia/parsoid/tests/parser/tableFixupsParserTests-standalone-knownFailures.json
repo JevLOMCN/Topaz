@@ -1,0 +1,8 @@
+{
+    "Fixup of interrupted table-cell parsing because of multi-line transclusion": {
+        "selser [[4,[1,2]]]": "{|<!--2w7f9-->\n! class=\"c1\" |Col 1.1!! class=\"c2\" |{{1x|\n1=Col 1.2}}!! class=\"c3\" |Col 1.3!! class=\"c4\" |Col 1.4!! class=\"c3\" |Col 1.3!! class=\"c4\" |Col 1.4\n! class=\"d1\" |Col 2.1!! class=\"d2\" |{{1x|\n1=Col 2.2}}!! class=\"d3\" |Col 2.3! abcd!! class=\"d4\" |Col 2.4!! class=\"d3\" |Col 2.3! abcd!! class=\"d4\" |Col 2.4\n| class=\"e1\" |Col 3.1|| class=\"e2\" |{{1x|\n1=Col 3.2}}|| class=\"e3\" |Col 3.3| abcd|| class=\"e4\" |Col 3.4<!--hmsf0s-->\n|}"
+    },
+    "Table cell attribute merging edge cases": {
+        "selser [[0,[0,0,[0,[0,0,4]],0,[3,2],0]]]": "{|\n| {{td_attrs_and_content|1=<div>foo</div> class=\"foo\"}} baz\n|-\n|{{td_attrs_and_content|1=[[No Merging Here]] class=\"foo\"}}<nowiki/>xd7gu\n|-\n|1yjfcke\n|{{td_attrs_and_content|1=[[File:Foo.jpg]] class=\"foo\"}} baz\n|}"
+    }
+}

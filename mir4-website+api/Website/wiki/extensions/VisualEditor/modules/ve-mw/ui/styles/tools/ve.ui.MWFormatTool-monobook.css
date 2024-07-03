@@ -1,0 +1,26 @@
+/*!
+ * VisualEditor MediaWiki MonoBook-specific FormatTool styles.
+ *
+ * @copyright See AUTHORS.txt
+ * @license The MIT License (MIT); see LICENSE.txt
+ */
+
+.oo-ui-menuToolGroup-tools .oo-ui-tool-name-heading1 .oo-ui-tool-title {
+	font-size: 188%;
+}
+
+.oo-ui-menuToolGroup-tools .oo-ui-tool-name-heading3 .oo-ui-tool-title {
+	font-size: 128%;
+}
+
+.oo-ui-menuToolGroup-tools .oo-ui-tool-name-heading4 .oo-ui-tool-title {
+	font-size: 116%;
+}
+
+.oo-ui-menuToolGroup-tools .oo-ui-tool-name-heading5 .oo-ui-tool-title {
+	font-size: 108%;
+}
+
+.oo-ui-menuToolGroup-tools .oo-ui-tool-name-heading6 .oo-ui-tool-title {
+	font-size: 100%;
+}

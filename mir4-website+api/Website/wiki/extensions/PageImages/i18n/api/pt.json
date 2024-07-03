@@ -1,0 +1,17 @@
+{
+	"@metadata": {
+		"authors": [
+			"Athena in Wonderland",
+			"Hamilton Abreu"
+		]
+	},
+	"apihelp-query+pageimages-summary": "Devolve informação sobre as imagens de uma página, tais como miniaturas e a presença de fotografias.",
+	"apihelp-query+pageimages-example-1": "Obter o nome e uma miniatura de 100 píxeis de uma imagem na página <kbd>Albert Einstein</kbd>.",
+	"apihelp-query+pageimages-param-prop": "A informação a ser devolvida:\n;thumbnail:O URL e as dimensões da miniatura associada à página, se existir.\n;original:O URL e as dimensões originais da imagem associada à página, se existir.\n;name:O título da imagem.",
+	"apihelp-query+pageimages-param-thumbsize": "Largura máxima em píxeis das imagens das miniaturas.",
+	"apihelp-query+pageimages-param-langcode": "Código da língua em que será feita a composição gráfica da imagem se forem suportadas várias línguas",
+	"apihelp-query+pageimages-param-limit": "Devolver as propriedades de quantas imagens.",
+	"apihelp-query+pageimages-param-license": "Limitar as imagens da página às que tenham um certo tipo de licença",
+	"apihelp-query+pageimages-paramvalue-license-free": "só imagens livres",
+	"apihelp-query+pageimages-paramvalue-license-any": "a melhor imagem, seja livre ou não."
+}

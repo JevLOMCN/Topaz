@@ -1,0 +1,28 @@
+@import 'mediawiki.skin.variables.less';
+@import 'mediawiki.mixins.less';
+@import '../echo.variables.less';
+
+.mw-echo-ui-confirmationPopupWidget {
+	position: relative;
+	bottom: 1em;
+	width: 100%;
+	text-align: center;
+
+	&-popup {
+		background-color: @background-color-popup-confirmation;
+		color: @color-inverted;
+		display: inline-block;
+		border-radius: @border-radius-base;
+		padding: 0.5em 1em;
+		text-align: left;
+
+		span {
+			vertical-align: middle;
+		}
+
+		.oo-ui-iconElement-icon {
+			display: inline-block;
+			margin-right: 0.5em;
+		}
+	}
+}

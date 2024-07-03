@@ -1,0 +1,2476 @@
+--- EMITTING CSS for ace.wikipedia ---
+span[ rel="mw:referencedBy" ] {
+	counter-reset: mw-ref-linkback 0;
+}
+span[ rel="mw:referencedBy" ] > a::before {
+	content: counter( mw-ref-linkback, lower-alpha );
+}
+a[ rel="mw:referencedBy" ]::before {
+	font-weight: bold;
+	content: "^";
+}
+span[ rel="mw:referencedBy" ]::before {
+	font-weight: bold;
+	content: "^ ";
+}
+.mw-ref > a[data-mw-group=upper-roman]::after {
+	content: '[' counter( mw-Ref, upper-roman ) ']';
+}
+.mw-ref > a[data-mw-group=lower-greek]::after {
+	content: '[' counter( mw-Ref, lower-alpha ) ']';
+}
+--- EMITTING CSS for af.wikiquote ---
+span[ rel="mw:referencedBy" ] {
+	counter-reset: mw-ref-linkback 0;
+}
+span[ rel="mw:referencedBy" ] > a::before {
+	font-weight: bold;
+	font-style: italic;
+	content: counter( mw-ref-linkback, lower-alpha );
+}
+a[ rel="mw:referencedBy" ]::before {
+	font-weight: bold;
+	content: "^";
+}
+span[ rel="mw:referencedBy" ]::before {
+	content: "^ ";
+}
+--- EMITTING CSS for am.wikipedia ---
+a[ rel="mw:referencedBy" ]::before {
+	font-weight: bold;
+	content: "^";
+}
+span[ rel="mw:referencedBy" ]::before {
+	content: "^ ";
+}
+@counter-style custom-backlink {
+	system: fixed;
+	symbols: 'ሀ' 'ለ' 'ሐ' 'መ' 'ሠ' 'ረ' 'ሰ' 'ሸ' 'ቀ' 'በ' 'ተ' 'ቸ' 'ኀ' 'ነ' 'ኘ' 'አ' 'ከ' 'ኸ' 'ወ' 'ዐ' 'ዘ' 'ዠ' 'የ' 'ደ' 'ጀ' 'ገ' 'ጠ' 'ጨ' 'ጰ' 'ጸ' 'ፀ' 'ፈ' 'ፐ' 'ቨ';
+}
+span[ rel="mw:referencedBy" ] {
+	counter-reset: mw-ref-linkback 0;
+}
+span[ rel="mw:referencedBy" ] > a::before {
+	font-weight: bold;
+	font-style: italic;
+	content: counter( mw-ref-linkback, custom-backlink );
+}
+--- EMITTING CSS for ary.wikipedia ---
+span[ rel="mw:referencedBy" ]::before {
+	content: "^ ";
+}
+span[ rel="mw:referencedBy" ] {
+	counter-reset: mw-ref-linkback 0;
+}
+span[ rel="mw:referencedBy" ] > a::before {
+	font-weight: bold;
+	font-style: italic;
+	content: counter( mw-ref-linkback, lower-alpha );
+}
+a[ rel="mw:referencedBy" ]::before {
+	font-weight: bold;
+	content: "^";
+}
+.mw-ref > a[data-mw-group=lower-alpha]::after {
+	content: '[' counter( mw-Ref, lower-alpha ) ']';
+}
+.mw-ref > a[data-mw-group=lower-greek]::after {
+	content: '[' counter( mw-Ref, lower-greek ) ']';
+}
+.mw-ref > a[data-mw-group=lower-roman]::after {
+	content: '[' counter( mw-Ref, lower-roman ) ']';
+}
+.mw-ref > a[data-mw-group=upper-alpha]::after {
+	content: '[' counter( mw-Ref, upper-alpha ) ']';
+}
+.mw-ref > a[data-mw-group=upper-roman]::after {
+	content: '[' counter( mw-Ref, upper-roman ) ']';
+}
+.mw-ref > a[data-mw-group=decimal]::after {
+	content: '[' counter( mw-Ref, decimal ) ']';
+}
+--- EMITTING CSS for arz.wikipedia ---
+@counter-style custom-backlink {
+	system: alphabetic;
+	symbols: 'أ' 'ب' 'ت' 'ث' 'ج' 'ح' 'خ' 'د' 'ذ' 'ر' 'ز' 'س' 'ش' 'ص' 'ض' 'ط' 'ظ' 'ع' 'غ' 'ف' 'ق' 'ك' 'ل' 'م' 'ن' 'ه' 'و' 'ى';
+}
+span[ rel="mw:referencedBy" ] {
+	counter-reset: mw-ref-linkback 0;
+}
+span[ rel="mw:referencedBy" ] > a::before {
+	font-weight: bold;
+	font-style: italic;
+	content: counter( mw-ref-linkback, custom-backlink );
+}
+a[ rel="mw:referencedBy" ]::before {
+	font-weight: bold;
+	content: "↑";
+}
+.mw-ref > a[data-mw-group=decimal]::after {
+	content: '[' counter( mw-Ref, decimal ) ']';
+}
+.mw-ref > a[data-mw-group=lower-roman]::after {
+	content: '[' counter( mw-Ref, lower-roman ) ']';
+}
+.mw-ref > a[data-mw-group=lower-alpha]::after {
+	content: '[' counter( mw-Ref, lower-alpha ) ']';
+}
+.mw-ref > a[data-mw-group=upper-alpha]::after {
+	content: '[' counter( mw-Ref, upper-alpha ) ']';
+}
+.mw-ref > a[data-mw-group=lower-greek]::after {
+	content: '[' counter( mw-Ref, lower-greek ) ']';
+}
+.mw-ref > a[data-mw-group=upper-roman]::after {
+	content: '[' counter( mw-Ref, upper-roman ) ']';
+}
+--- EMITTING CSS for azb.wikipedia ---
+a[ rel="mw:referencedBy" ]::before {
+	font-weight: bold;
+	content: "^";
+}
+span[ rel="mw:referencedBy" ]::before {
+	content: "^ ";
+}
+.mw-ref > a[data-mw-group=lower-alpha]::after {
+	content: '[' counter( mw-Ref, lower-alpha ) ']';
+}
+.mw-ref > a[data-mw-group=upper-alpha]::after {
+	content: '[' counter( mw-Ref, upper-alpha ) ']';
+}
+.mw-ref > a[data-mw-group=lower-greek]::after {
+	content: '[' counter( mw-Ref, lower-greek ) ']';
+}
+.mw-ref > a[data-mw-group=decimal]::after {
+	content: '[' counter( mw-Ref, persian ) ']';
+}
+.mw-ref > a[data-mw-group=lower-roman]::after {
+	content: '[' counter( mw-Ref, lower-roman ) ']';
+}
+.mw-ref > a[data-mw-group=upper-roman]::after {
+	content: '[' counter( mw-Ref, upper-roman ) ']';
+}
+span[ rel="mw:referencedBy" ] > a::before {
+	content: counter( mw-references, persian ) '٫' counter( mw-ref-linkback, persian );
+}
+--- EMITTING CSS for az.wikipedia ---
+span[ rel="mw:referencedBy" ] {
+	counter-reset: mw-ref-linkback 0;
+}
+span[ rel="mw:referencedBy" ] > a::before {
+	font-style: italic;
+	content: counter( mw-ref-linkback, decimal );
+}
+.mw-ref > a[data-mw-group=lower-greek]::after {
+	content: '[' counter( mw-Ref, lower-greek ) ']';
+}
+.mw-ref > a[data-mw-group=decimal]::after {
+	content: '[' counter( mw-Ref, decimal ) ']';
+}
+.mw-ref > a[data-mw-group=lower-alpha]::after {
+	content: '[' counter( mw-Ref, lower-alpha ) ']';
+}
+.mw-ref > a[data-mw-group=lower-roman]::after {
+	content: '[' counter( mw-Ref, lower-roman ) ']';
+}
+.mw-ref > a[data-mw-group=upper-alpha]::after {
+	content: '[' counter( mw-Ref, upper-alpha ) ']';
+}
+.mw-ref > a[data-mw-group=upper-roman]::after {
+	content: '[' counter( mw-Ref, upper-roman ) ']';
+}
+--- EMITTING CSS for be-tarask.wikipedia ---
+a[ rel="mw:referencedBy" ]::before {
+	font-weight: bold;
+	content: "^";
+}
+span[ rel="mw:referencedBy" ]::before {
+	content: "^ ";
+}
+@counter-style custom-backlink {
+	system: alphabetic;
+	symbols: 'а' 'б' 'в' 'г' 'д' 'е' 'ё' 'ж' 'з' 'і' 'к' 'л' 'м' 'н' 'о' 'п' 'р' 'с' 'т' 'у' 'ф' 'х' 'ц' 'ч' 'ш' 'э' 'ю' 'я';
+}
+span[ rel="mw:referencedBy" ] {
+	counter-reset: mw-ref-linkback 0;
+}
+span[ rel="mw:referencedBy" ] > a::before {
+	font-weight: bold;
+	font-style: italic;
+	content: counter( mw-ref-linkback, custom-backlink );
+}
+.mw-ref > a[data-mw-group=lower-alpha]::after {
+	content: '[' counter( mw-Ref, lower-alpha ) ']';
+}
+.mw-ref > a[data-mw-group=lower-roman]::after {
+	content: '[' counter( mw-Ref, lower-roman ) ']';
+}
+--- EMITTING CSS for bg.wikipedia ---
+@counter-style custom-backlink {
+	system: alphabetic;
+	symbols: 'а' 'б' 'в' 'г' 'д' 'е' 'ж' 'з' 'и' 'к' 'л' 'м' 'н' 'о' 'п' 'р' 'с' 'т' 'у' 'ф' 'х' 'ц' 'ч' 'ш' 'щ' 'ю' 'я';
+}
+span[ rel="mw:referencedBy" ] {
+	counter-reset: mw-ref-linkback 0;
+}
+span[ rel="mw:referencedBy" ] > a::before {
+	font-weight: bold;
+	font-style: italic;
+	content: counter( mw-ref-linkback, custom-backlink );
+}
+.mw-ref > a[data-mw-group=lower-greek]::after {
+	content: '[' counter( mw-Ref, lower-greek ) ']';
+}
+.mw-ref > a[data-mw-group=upper-alpha]::after {
+	content: '[' counter( mw-Ref, upper-alpha ) ']';
+}
+.mw-ref > a[data-mw-group=upper-roman]::after {
+	content: '[' counter( mw-Ref, upper-roman ) ']';
+}
+.mw-ref > a[data-mw-group=lower-roman]::after {
+	content: '[' counter( mw-Ref, lower-roman ) ']';
+}
+.mw-ref > a[data-mw-group=lower-alpha]::after {
+	content: '[' counter( mw-Ref, lower-alpha ) ']';
+}
+--- EMITTING CSS for bjn.wikipedia ---
+span[ rel="mw:referencedBy" ] {
+	counter-reset: mw-ref-linkback 0;
+}
+span[ rel="mw:referencedBy" ] > a::before {
+	content: counter( mw-ref-linkback, lower-alpha );
+}
+span[ rel="mw:referencedBy" ]::before {
+	font-weight: bold;
+	content: "^ ";
+}
+a[ rel="mw:referencedBy" ]::before {
+	font-weight: bold;
+	content: "^";
+}
+--- EMITTING CSS for bn.wikipedia ---
+@counter-style custom-group-label-lower-roman {
+	system: alphabetic;
+	symbols: 'ক' 'খ' 'গ' 'ঘ' 'ঙ' 'চ' 'ছ' 'জ' 'ঝ' 'ঞ' 'ট' 'ঠ' 'ড' 'ঢ' 'ণ' 'ত' 'থ' 'দ' 'ধ' 'ন' 'প' 'ফ' 'ব' 'ভ' 'ম' 'য' 'র' 'ল' 'শ' 'ষ' 'স' 'হ' 'ড়' 'ঢ়' 'য়' 'ৎ';
+}
+@counter-style custom-group-label-ব্যঞ্জনবর্ণ {
+	system: alphabetic;
+	symbols: 'ক' 'খ' 'গ' 'ঘ' 'ঙ' 'চ' 'ছ' 'জ' 'ঝ' 'ঞ' 'ট' 'ঠ' 'ড' 'ঢ' 'ণ' 'ত' 'থ' 'দ' 'ধ' 'ন' 'প' 'ফ' 'ব' 'ভ' 'ম' 'য' 'র' 'ল' 'শ' 'ষ' 'স' 'হ' 'ড়' 'ঢ়' 'য়' 'ৎ';
+}
+@counter-style custom-group-label-স্বরবর্ণ {
+	system: alphabetic;
+	symbols: 'অ' 'আ' 'ই' 'ঈ' 'উ' 'ঊ' 'ঋ' 'এ' 'ঐ' 'ও' 'ঔ';
+}
+@counter-style custom-group-label-upper-alpha {
+	system: alphabetic;
+	symbols: 'ক' 'খ' 'গ' 'ঘ' 'ঙ' 'চ' 'ছ' 'জ' 'ঝ' 'ঞ' 'ট' 'ঠ' 'ড' 'ঢ' 'ণ' 'ত' 'থ' 'দ' 'ধ' 'ন' 'প' 'ফ' 'ব' 'ভ' 'ম' 'য' 'র' 'ল' 'শ' 'ষ' 'স' 'হ' 'ড়' 'ঢ়' 'য়' 'ৎ';
+}
+@counter-style custom-group-label-upper-roman {
+	system: alphabetic;
+	symbols: 'ক' 'খ' 'গ' 'ঘ' 'ঙ' 'চ' 'ছ' 'জ' 'ঝ' 'ঞ' 'ট' 'ঠ' 'ড' 'ঢ' 'ণ' 'ত' 'থ' 'দ' 'ধ' 'ন' 'প' 'ফ' 'ব' 'ভ' 'ম' 'য' 'র' 'ল' 'শ' 'ষ' 'স' 'হ' 'ড়' 'ঢ়' 'য়' 'ৎ';
+}
+@counter-style custom-group-label-lower-alpha {
+	system: alphabetic;
+	symbols: 'ক' 'খ' 'গ' 'ঘ' 'ঙ' 'চ' 'ছ' 'জ' 'ঝ' 'ঞ' 'ট' 'ঠ' 'ড' 'ঢ' 'ণ' 'ত' 'থ' 'দ' 'ধ' 'ন' 'প' 'ফ' 'ব' 'ভ' 'ম' 'য' 'র' 'ল' 'শ' 'ষ' 'স' 'হ' 'ড়' 'ঢ়' 'য়' 'ৎ';
+}
+@counter-style custom-backlink {
+	system: alphabetic;
+	symbols: 'ক' 'খ' 'গ' 'ঘ' 'ঙ' 'চ' 'ছ' 'জ' 'ঝ' 'ঞ' 'ট' 'ঠ' 'ড' 'ঢ' 'ণ' 'ত' 'থ' 'দ' 'ধ' 'ন' 'প' 'ফ' 'ব' 'ভ' 'ম' 'য' 'র' 'ল' 'শ' 'ষ' 'স' 'হ' 'ড়' 'ঢ়' 'য়' 'ৎ';
+}
+span[ rel="mw:referencedBy" ] {
+	counter-reset: mw-ref-linkback 0;
+}
+span[ rel="mw:referencedBy" ] > a::before {
+	font-style: italic;
+	content: counter( mw-ref-linkback, custom-backlink );
+}
+.mw-ref > a[data-mw-group=lower-roman]::after {
+	content: '[' counter( mw-Ref, custom-group-label-lower-roman ) ']';
+}
+.mw-ref > a[data-mw-group=ব্যঞ্জনবর্ণ]::after {
+	content: '[' counter( mw-Ref, custom-group-label-ব্যঞ্জনবর্ণ ) ']';
+}
+.mw-ref > a[data-mw-group=decimal]::after {
+	content: '[' counter( mw-Ref, bengali ) ']';
+}
+.mw-ref > a[data-mw-group=স্বরবর্ণ]::after {
+	content: '[' counter( mw-Ref, custom-group-label-স্বরবর্ণ ) ']';
+}
+.mw-ref > a[data-mw-group=upper-alpha]::after {
+	content: '[' counter( mw-Ref, custom-group-label-upper-alpha ) ']';
+}
+.mw-ref > a[data-mw-group=upper-roman]::after {
+	content: '[' counter( mw-Ref, custom-group-label-upper-roman ) ']';
+}
+.mw-ref > a[data-mw-group=lower-alpha]::after {
+	content: '[' counter( mw-Ref, custom-group-label-lower-alpha ) ']';
+}
+.mw-ref > a[data-mw-group=lower-greek]::after {
+	content: '[' counter( mw-Ref, lower-greek ) ']';
+}
+--- EMITTING CSS for bs.wikipedia ---
+span[ rel="mw:referencedBy" ]::before {
+	content: "^ ";
+}
+a[ rel="mw:referencedBy" ]::before {
+	font-weight: bold;
+	content: "^";
+}
+span[ rel="mw:referencedBy" ] {
+	counter-reset: mw-ref-linkback 0;
+}
+span[ rel="mw:referencedBy" ] > a::before {
+	font-weight: bold;
+	font-style: italic;
+	content: counter( mw-ref-linkback, lower-alpha );
+}
+.mw-ref > a[data-mw-group=decimal]::after {
+	content: '[' counter( mw-Ref, decimal ) ']';
+}
+.mw-ref > a[data-mw-group=lower-alpha]::after {
+	content: '[' counter( mw-Ref, lower-alpha ) ']';
+}
+.mw-ref > a[data-mw-group=upper-alpha]::after {
+	content: '[' counter( mw-Ref, upper-alpha ) ']';
+}
+.mw-ref > a[data-mw-group=lower-greek]::after {
+	content: '[' counter( mw-Ref, lower-greek ) ']';
+}
+.mw-ref > a[data-mw-group=upper-roman]::after {
+	content: '[' counter( mw-Ref, upper-roman ) ']';
+}
+.mw-ref > a[data-mw-group=lower-roman]::after {
+	content: '[' counter( mw-Ref, lower-roman ) ']';
+}
+--- EMITTING CSS for bs.wiktionary ---
+--- EMITTING CSS for ce.wikipedia ---
+span[ rel="mw:referencedBy" ] {
+	counter-reset: mw-ref-linkback 0;
+}
+span[ rel="mw:referencedBy" ] > a::before {
+	content: counter( mw-ref-linkback, decimal );
+}
+--- EMITTING CSS for ckb.wikipedia ---
+@counter-style custom-group-label-kurdish-alpha {
+	system: alphabetic;
+	symbols: 'ئ' 'ا' 'ب' 'پ' 'ت' 'ج' 'چ' 'ح' 'خ' 'د' 'ر' 'ڕ' 'ز' 'ژ' 'س' 'ش' 'ع' 'غ' 'ف' 'ڤ' 'ق' 'ک' 'گ' 'ل' 'ڵ' 'م' 'ن' 'و' 'ۆ' 'ھ' 'ە' 'ی' 'ێ';
+}
+@counter-style custom-backlink {
+	system: alphabetic;
+	symbols: 'ئ' 'ا' 'ب' 'پ' 'ت' 'ج' 'چ' 'ح' 'خ' 'د' 'ر' 'ڕ' 'ز' 'ژ' 'س' 'ش' 'ع' 'غ' 'ف' 'ڤ' 'ق' 'ک' 'گ' 'ل' 'ڵ' 'م' 'ن' 'و' 'ۆ' 'ھ' 'ە' 'ی' 'ێ';
+}
+span[ rel="mw:referencedBy" ] {
+	counter-reset: mw-ref-linkback 0;
+}
+span[ rel="mw:referencedBy" ] > a::before {
+	font-weight: bold;
+	font-style: italic;
+	content: counter( mw-ref-linkback, custom-backlink );
+}
+span[ rel="mw:referencedBy" ]::before {
+	content: "^ ";
+}
+a[ rel="mw:referencedBy" ]::before {
+	font-weight: bold;
+	content: "^";
+}
+.mw-ref > a[data-mw-group=lower-alpha]::after {
+	content: '[' counter( mw-Ref, lower-alpha ) ']';
+}
+.mw-ref > a[data-mw-group=lower-greek]::after {
+	content: '[' counter( mw-Ref, lower-greek ) ']';
+}
+.mw-ref > a[data-mw-group=lower-roman]::after {
+	content: '[' counter( mw-Ref, lower-roman ) ']';
+}
+.mw-ref > a[data-mw-group=upper-alpha]::after {
+	content: '[' counter( mw-Ref, upper-alpha ) ']';
+}
+.mw-ref > a[data-mw-group=decimal]::after {
+	content: '[' counter( mw-Ref, arabic-indic ) ']';
+}
+.mw-ref > a[data-mw-group=upper-roman]::after {
+	content: '[' counter( mw-Ref, upper-roman ) ']';
+}
+.mw-ref > a[data-mw-group=kurdish-alpha]::after {
+	content: '[' counter( mw-Ref, custom-group-label-kurdish-alpha ) ']';
+}
+--- EMITTING CSS for cs.wikipedia ---
+span[ rel="mw:referencedBy" ] {
+	counter-reset: mw-ref-linkback 0;
+}
+span[ rel="mw:referencedBy" ] > a::before {
+	content: counter( mw-ref-linkback, lower-alpha );
+}
+--- EMITTING CSS for cs.wikisource ---
+span[ rel="mw:referencedBy" ] {
+	counter-reset: mw-ref-linkback 0;
+}
+span[ rel="mw:referencedBy" ] > a::before {
+	font-weight: bold;
+	font-style: italic;
+	content: counter( mw-ref-linkback, lower-alpha );
+}
+--- EMITTING CSS for cv.wikipedia ---
+span[ rel="mw:referencedBy" ] {
+	counter-reset: mw-ref-linkback 0;
+}
+span[ rel="mw:referencedBy" ] > a::before {
+	font-weight: bold;
+	font-style: italic;
+	content: counter( mw-ref-linkback, decimal );
+}
+a[ rel="mw:referencedBy" ]::before {
+	font-weight: bold;
+	content: "^";
+}
+span[ rel="mw:referencedBy" ]::before {
+	content: "^ ";
+}
+span[ rel="mw:referencedBy" ] > a:nth-last-child(2)::after {
+	font-style: italic;
+	content: " тата ";
+}
+span[ rel="mw:referencedBy" ] > a::after {
+	font-style: italic;
+	content: ", ";
+}
+--- EMITTING CSS for da.wikipedia ---
+span[ rel="mw:referencedBy" ] {
+	counter-reset: mw-ref-linkback 0;
+}
+span[ rel="mw:referencedBy" ] > a::before {
+	content: counter( mw-ref-linkback, lower-alpha );
+}
+a[ rel="mw:referencedBy" ]::before {
+	content: "^";
+}
+span[ rel="mw:referencedBy" ]::before {
+	content: "^ ";
+}
+.mw-ref > a[data-mw-group=lower-alpha]::after {
+	content: '[' counter( mw-Ref, lower-alpha ) ']';
+}
+.mw-ref > a[data-mw-group=decimal]::after {
+	content: '[' counter( mw-Ref, decimal ) ']';
+}
+.mw-ref > a[data-mw-group=upper-alpha]::after {
+	content: '[' counter( mw-Ref, upper-alpha ) ']';
+}
+.mw-ref > a[data-mw-group=lower-greek]::after {
+	content: '[' counter( mw-Ref, lower-greek ) ']';
+}
+.mw-ref > a[data-mw-group=lower-roman]::after {
+	content: '[' counter( mw-Ref, lower-roman ) ']';
+}
+.mw-ref > a[data-mw-group=upper-roman]::after {
+	content: '[' counter( mw-Ref, upper-roman ) ']';
+}
+--- EMITTING CSS for de.wikipedia ---
+span[ rel="mw:referencedBy" ] {
+	counter-reset: mw-ref-linkback 0;
+}
+span[ rel="mw:referencedBy" ] > a::before {
+	content: counter( mw-ref-linkback, lower-alpha );
+}
+--- EMITTING CSS for de.wikisource ---
+span[ rel="mw:referencedBy" ] {
+	counter-reset: mw-ref-linkback 0;
+}
+span[ rel="mw:referencedBy" ] > a::before {
+	content: counter( mw-ref-linkback, lower-alpha );
+}
+--- EMITTING CSS for de.wiktionary ---
+a[ rel="mw:referencedBy" ]::before {
+	font-weight: bold;
+	content: "↑";
+}
+--- EMITTING CSS for en.wikibooks ---
+span[ rel="mw:referencedBy" ] {
+	counter-reset: mw-ref-linkback 0;
+}
+span[ rel="mw:referencedBy" ] > a::before {
+	font-weight: bold;
+	font-style: italic;
+	content: counter( mw-ref-linkback, lower-alpha );
+}
+--- EMITTING CSS for en.wikiquote ---
+span[ rel="mw:referencedBy" ] {
+	counter-reset: mw-ref-linkback 0;
+}
+span[ rel="mw:referencedBy" ] > a::before {
+	content: counter( mw-ref-linkback, lower-alpha );
+}
+--- EMITTING CSS for en.wiktionary ---
+a[ rel="mw:referencedBy" ]::before {
+	content: " ^";
+}
+--- EMITTING CSS for eo.wikipedia ---
+--- EMITTING CSS for es.wikipedia ---
+@counter-style custom-backlink {
+	system: alphabetic;
+	symbols: 'a' 'b' 'c' 'd' 'e' 'f' 'g' 'h' 'i' 'j' 'k' 'l' 'm' 'n' 'ñ' 'o' 'p' 'q' 'r' 's' 't' 'u' 'v' 'w' 'x' 'y' 'z';
+}
+span[ rel="mw:referencedBy" ] {
+	counter-reset: mw-ref-linkback 0;
+}
+span[ rel="mw:referencedBy" ] > a::before {
+	font-weight: bold;
+	font-style: italic;
+	content: counter( mw-ref-linkback, custom-backlink );
+}
+.mw-ref > a::after {
+	content: '[' counter( mw-Ref, decimal ) ']​';
+}
+.mw-ref > a[data-mw-group]::after {
+	content: '[' attr(data-mw-group) ' ' counter( mw-Ref, decimal ) ']​';
+}
+.mw-ref > a[data-mw-group=lower-greek]::after {
+	content: '[' counter( mw-Ref, lower-greek ) ']​';
+}
+.mw-ref > a[data-mw-group=decimal]::after {
+	content: '[' counter( mw-Ref, decimal ) ']​';
+}
+.mw-ref > a[data-mw-group=upper-roman]::after {
+	content: '[' counter( mw-Ref, upper-roman ) ']​';
+}
+.mw-ref > a[data-mw-group=lower-alpha]::after {
+	content: '[' counter( mw-Ref, lower-alpha ) ']​';
+}
+.mw-ref > a[data-mw-group=upper-alpha]::after {
+	content: '[' counter( mw-Ref, upper-alpha ) ']​';
+}
+.mw-ref > a[data-mw-group=lower-roman]::after {
+	content: '[' counter( mw-Ref, lower-roman ) ']​';
+}
+--- EMITTING CSS for es.wikiquote ---
+--- EMITTING CSS for es.wiktionary ---
+.mw-ref > a::after {
+	content: counter( mw-Ref, decimal );
+}
+.mw-ref > a[data-mw-group]::after {
+	content: attr(data-mw-group) ' ' counter( mw-Ref, decimal );
+}
+--- EMITTING CSS for eu.wikipedia ---
+span[ rel="mw:referencedBy" ] {
+	counter-reset: mw-ref-linkback 0;
+}
+span[ rel="mw:referencedBy" ] > a::before {
+	font-weight: bold;
+	content: counter( mw-ref-linkback, lower-alpha );
+}
+.mw-ref > a[data-mw-group=upper-roman]::after {
+	content: '[' counter( mw-Ref, upper-roman ) ']';
+}
+.mw-ref > a[data-mw-group=lower-alpha]::after {
+	content: '[' counter( mw-Ref, lower-alpha ) ']';
+}
+--- EMITTING CSS for fa.wikipedia ---
+@counter-style custom-group-label-persian-alpha {
+	system: fixed;
+	symbols: 'الف' 'ب' 'پ' 'ت' 'ث' 'ج' 'چ' 'ح' 'خ' 'د' 'ذ' 'ر' 'ز' 'ژ' 'س' 'ش' 'ص' 'ض' 'ط' 'ظ' 'ع' 'غ' 'ف' 'ق' 'ک' 'گ' 'ل' 'م' 'ن' 'و' 'ه' 'ی' 'اا' 'اب' 'اپ' 'ات' 'اث' 'اج' 'اچ' 'اح' 'اخ' 'اد' 'اذ' 'ار' 'از' 'اژ' 'اس' 'اش' 'اص' 'اض' 'اط' 'اظ' 'اع' 'اغ' 'اف' 'اق' 'اک' 'اگ' 'ال' 'ام' 'ان' 'او' 'اه' 'ای' 'با' 'بب' 'بپ' 'بت' 'بث' 'بج' 'بچ' 'بح' 'بخ' 'بد' 'بذ' 'بر' 'بز' 'بژ' 'بس' 'بش' 'بص' 'بض' 'بط' 'بظ' 'بع' 'بغ' 'بف' 'بق' 'بک' 'بگ' 'بل' 'بم' 'بن' 'بو' 'به' 'بی' 'پا' 'پب' 'پپ' 'پت' 'پث' 'پج' 'پچ' 'پح' 'پخ' 'پد' 'پذ' 'پر' 'پز' 'پژ' 'پس' 'پش' 'پص' 'پض' 'پط' 'پظ' 'پع' 'پغ' 'پف' 'پق' 'پک' 'پگ' 'پل' 'پم' 'پن' 'پو' 'په' 'پی' 'تا' 'تب' 'تپ' 'تت' 'تث' 'تج' 'تچ' 'تح' 'تخ' 'تد' 'تذ' 'تر' 'تز' 'تژ' 'تس' 'تش' 'تص' 'تض' 'تط' 'تظ' 'تع' 'تغ' 'تف' 'تق' 'تک' 'تگ' 'تل' 'تم' 'تن' 'تو' 'ته' 'تی' 'ثا' 'ثب' 'ثپ' 'ثت' 'ثث' 'ثج' 'ثچ' 'ثح' 'ثخ' 'ثد' 'ثذ' 'ثر' 'ثز' 'ثژ' 'ثس' 'ثش' 'ثص' 'ثض' 'ثط' 'ثظ' 'ثع' 'ثغ' 'ثف' 'ثق' 'ثک' 'ثگ' 'ثل' 'ثم' 'ثن' 'ثو' 'ثه' 'ثی' 'جا' 'جب' 'جپ' 'جت' 'جث' 'جج' 'جچ' 'جح' 'جخ' 'جد' 'جذ' 'جر' 'جز' 'جژ' 'جس' 'جش' 'جص' 'جض' 'جط' 'جظ' 'جع' 'جغ' 'جف' 'جق' 'جک' 'جگ' 'جل' 'جم' 'جن' 'جو' 'جه' 'جی' 'چا' 'چب' 'چپ' 'چت' 'چث' 'چج' 'چچ' 'چح' 'چخ' 'چد' 'چذ' 'چر' 'چز' 'چژ' 'چس' 'چش' 'چص' 'چض' 'چط' 'چظ' 'چع' 'چغ' 'چف' 'چق' 'چک' 'چگ' 'چل' 'چم' 'چن' 'چو' 'چه' 'چی' 'حا' 'حب' 'حپ' 'حت' 'حث' 'حج' 'حچ' 'حح' 'حخ' 'حد' 'حذ' 'حر' 'حز' 'حژ' 'حس' 'حش' 'حص' 'حض' 'حط' 'حظ' 'حع' 'حغ' 'حف' 'حق' 'حک' 'حگ' 'حل' 'حم' 'حن' 'حو' 'حه' 'حی' 'خا' 'خب' 'خپ' 'خت' 'خث' 'خج' 'خچ' 'خح' 'خخ' 'خد' 'خذ' 'خر' 'خز' 'خژ' 'خس' 'خش' 'خص' 'خض' 'خط' 'خظ' 'خع' 'خغ' 'خف' 'خق' 'خک' 'خگ' 'خل' 'خم' 'خن' 'خو' 'خه' 'خی' 'دا' 'دب' 'دپ' 'دت' 'دث' 'دج' 'دچ' 'دح' 'دخ' 'دد' 'دذ' 'در' 'دز' 'دژ' 'دس' 'دش' 'دص' 'دض' 'دط' 'دظ' 'دع' 'دغ' 'دف' 'دق' 'دک' 'دگ' 'دل' 'دم' 'دن' 'دو' 'ده' 'دی' 'ذا' 'ذب' 'ذپ' 'ذت' 'ذث' 'ذج' 'ذچ' 'ذح' 'ذخ' 'ذد' 'ذذ' 'ذر' 'ذز' 'ذژ' 'ذس' 'ذش' 'ذص' 'ذض' 'ذط' 'ذظ' 'ذع' 'ذغ' 'ذف' 'ذق' 'ذک' 'ذگ' 'ذل' 'ذم' 'ذن' 'ذو' 'ذه' 'ذی' 'را' 'رب' 'رپ' 'رت' 'رث' 'رج' 'رچ' 'رح' 'رخ' 'رد' 'رذ' 'رر' 'رز' 'رژ' 'رس' 'رش' 'رص' 'رض' 'رط' 'رظ' 'رع' 'رغ' 'رف' 'رق' 'رک' 'رگ' 'رل' 'رم' 'رن' 'رو' 'ره' 'ری' 'زا' 'زب' 'زپ' 'زت' 'زث' 'زج' 'زچ' 'زح' 'زخ' 'زد' 'زذ' 'زر' 'زز' 'زژ' 'زس' 'زش' 'زص' 'زض' 'زط' 'زظ' 'زع' 'زغ' 'زف' 'زق' 'زک' 'زگ' 'زل' 'زم' 'زن' 'زو' 'زه' 'زی' 'ژا' 'ژب' 'ژپ' 'ژت' 'ژث' 'ژج' 'ژچ' 'ژح' 'ژخ' 'ژد' 'ژذ' 'ژر' 'ژز' 'ژژ' 'ژس' 'ژش' 'ژص' 'ژض' 'ژط' 'ژظ' 'ژع' 'ژغ' 'ژف' 'ژق' 'ژک' 'ژگ' 'ژل' 'ژم' 'ژن' 'ژو' 'ژه' 'ژی' 'سا' 'سب' 'سپ' 'ست' 'سث' 'سج' 'سچ' 'سح' 'سخ' 'سد' 'سذ' 'سر' 'سز' 'سژ' 'سس' 'سش' 'سص' 'سض' 'سط' 'سظ' 'سع' 'سغ' 'سف' 'سق' 'سک' 'سگ' 'سل' 'سم' 'سن' 'سو' 'سه' 'سی' 'شا' 'شب' 'شپ' 'شت' 'شث' 'شج' 'شچ' 'شح' 'شخ' 'شد' 'شذ' 'شر' 'شز' 'شژ' 'شس' 'شش' 'شص' 'شض' 'شط' 'شظ' 'شع' 'شغ' 'شف' 'شق' 'شک' 'شگ' 'شل' 'شم' 'شن' 'شو' 'شه' 'شی' 'صا' 'صب' 'صپ' 'صت' 'صث' 'صج' 'صچ' 'صح' 'صخ' 'صد' 'صذ' 'صر' 'صز' 'صژ' 'صس' 'صش' 'صص' 'صض' 'صط' 'صظ' 'صع' 'صغ' 'صف' 'صق' 'صک' 'صگ' 'صل' 'صم' 'صن' 'صو' 'صه' 'صی' 'ضا' 'ضب' 'ضپ' 'ضت' 'ضث' 'ضج' 'ضچ' 'ضح' 'ضخ' 'ضد' 'ضذ' 'ضر' 'ضز' 'ضژ' 'ضس' 'ضش' 'ضص' 'ضض' 'ضط' 'ضظ' 'ضع' 'ضغ' 'ضف' 'ضق' 'ضک' 'ضگ' 'ضل' 'ضم' 'ضن' 'ضو' 'ضه' 'ضی' 'طا' 'طب' 'طپ' 'طت' 'طث' 'طج' 'طچ' 'طح' 'طخ' 'طد' 'طذ' 'طر' 'طز' 'طژ' 'طس' 'طش' 'طص' 'طض' 'طط' 'طظ' 'طع' 'طغ' 'طف' 'طق' 'طک' 'طگ' 'طل' 'طم' 'طن' 'طو' 'طه' 'طی' 'ظا' 'ظب' 'ظپ' 'ظت' 'ظث' 'ظج' 'ظچ' 'ظح' 'ظخ' 'ظد' 'ظذ' 'ظر' 'ظز' 'ظژ' 'ظس' 'ظش' 'ظص' 'ظض' 'ظط' 'ظظ' 'ظع' 'ظغ' 'ظف' 'ظق' 'ظک' 'ظگ' 'ظل' 'ظم' 'ظن' 'ظو' 'ظه' 'ظی' 'عا' 'عب' 'عپ' 'عت' 'عث' 'عج' 'عچ' 'عح' 'عخ' 'عد' 'عذ' 'عر' 'عز' 'عژ' 'عس' 'عش' 'عص' 'عض' 'عط' 'عظ' 'عع' 'عغ' 'عف' 'عق' 'عک' 'عگ' 'عل' 'عم' 'عن' 'عو' 'عه' 'عی' 'غا' 'غب' 'غپ' 'غت' 'غث' 'غج' 'غچ' 'غح' 'غخ' 'غد' 'غذ' 'غر' 'غز' 'غژ' 'غس' 'غش' 'غص' 'غض' 'غط' 'غظ' 'غع' 'غغ' 'غف' 'غق' 'غک' 'غگ' 'غل' 'غم' 'غن' 'غو' 'غه' 'غی' 'فا' 'فب' 'فپ' 'فت' 'فث' 'فج' 'فچ' 'فح' 'فخ' 'فد' 'فذ' 'فر' 'فز' 'فژ' 'فس' 'فش' 'فص' 'فض' 'فط' 'فظ' 'فع' 'فغ' 'فف' 'فق' 'فک' 'فگ' 'فل' 'فم' 'فن' 'فو' 'فه' 'فی' 'قا' 'قب' 'قپ' 'قت' 'قث' 'قج' 'قچ' 'قح' 'قخ' 'قد' 'قذ' 'قر' 'قز' 'قژ' 'قس' 'قش' 'قص' 'قض' 'قط' 'قظ' 'قع' 'قغ' 'قف' 'قق' 'قک' 'قگ' 'قل' 'قم' 'قن' 'قو' 'قه' 'قی' 'کا' 'کب' 'کپ' 'کت' 'کث' 'کج' 'کچ' 'کح' 'کخ' 'کد' 'کذ' 'کر' 'کز' 'کژ' 'کس' 'کش' 'کص' 'کض' 'کط' 'کظ' 'کع' 'کغ' 'کف' 'کق' 'کک' 'کگ' 'کل' 'کم' 'کن' 'کو' 'که' 'کی' 'گا' 'گب' 'گپ' 'گت' 'گث' 'گج' 'گچ' 'گح' 'گخ' 'گد' 'گذ' 'گر' 'گز' 'گژ' 'گس' 'گش' 'گص' 'گض' 'گط' 'گظ' 'گع' 'گغ' 'گف' 'گق' 'گک' 'گگ' 'گل' 'گم' 'گن' 'گو' 'گه' 'گی' 'لا' 'لب' 'لپ' 'لت' 'لث' 'لج' 'لچ' 'لح' 'لخ' 'لد' 'لذ' 'لر' 'لز' 'لژ' 'لس' 'لش' 'لص' 'لض' 'لط' 'لظ' 'لع' 'لغ' 'لف' 'لق' 'لک' 'لگ' 'لل' 'لم' 'لن' 'لو' 'له' 'لی' 'ما' 'مب' 'مپ' 'مت' 'مث' 'مج' 'مچ' 'مح' 'مخ' 'مد' 'مذ' 'مر' 'مز' 'مژ' 'مس' 'مش' 'مص' 'مض' 'مط' 'مظ' 'مع' 'مغ' 'مف' 'مق' 'مک' 'مگ' 'مل' 'مم' 'من' 'مو' 'مه' 'می' 'نا' 'نب' 'نپ' 'نت' 'نث' 'نج' 'نچ' 'نح' 'نخ' 'ند' 'نذ' 'نر' 'نز' 'نژ' 'نس' 'نش' 'نص' 'نض' 'نط' 'نظ' 'نع' 'نغ' 'نف' 'نق' 'نک' 'نگ' 'نل' 'نم' 'نن' 'نو' 'نه' 'نی' 'وا' 'وب' 'وپ' 'وت' 'وث' 'وج' 'وچ' 'وح' 'وخ' 'ود' 'وذ' 'ور' 'وز' 'وژ' 'وس' 'وش' 'وص' 'وض' 'وط' 'وظ' 'وع' 'وغ' 'وف' 'وق' 'وک' 'وگ' 'ول' 'وم' 'ون' 'وو' 'وه' 'وی' 'ها' 'هب' 'هپ' 'هت' 'هث' 'هج' 'هچ' 'هح' 'هخ' 'هد' 'هذ' 'هر' 'هز' 'هژ' 'هس' 'هش' 'هص' 'هض' 'هط' 'هظ' 'هع' 'هغ' 'هف' 'هق' 'هک' 'هگ' 'هل' 'هم' 'هن' 'هو' 'هه' 'هی' 'یا' 'یب' 'یپ' 'یت' 'یث' 'یج' 'یچ' 'یح' 'یخ' 'ید' 'یذ' 'یر' 'یز' 'یژ' 'یس' 'یش' 'یص' 'یض' 'یط' 'یظ' 'یع' 'یغ' 'یف' 'یق' 'یک' 'یگ' 'یل' 'یم' 'ین' 'یو' 'یه' 'یی';
+}
+.mw-ref > a[data-mw-group=lower-greek]::after {
+	content: '[' counter( mw-Ref, lower-greek ) ']';
+}
+.mw-ref > a[data-mw-group=upper-roman]::after {
+	content: '[' counter( mw-Ref, upper-roman ) ']';
+}
+.mw-ref > a[data-mw-group=upper-alpha]::after {
+	content: '[' counter( mw-Ref, upper-alpha ) ']';
+}
+.mw-ref > a[data-mw-group=persian-alpha]::after {
+	content: '[' counter( mw-Ref, custom-group-label-persian-alpha ) ']';
+}
+.mw-ref > a[data-mw-group=lower-roman]::after {
+	content: '[' counter( mw-Ref, lower-roman ) ']';
+}
+.mw-ref > a[data-mw-group=lower-alpha]::after {
+	content: '[' counter( mw-Ref, lower-alpha ) ']';
+}
+span[ rel="mw:referencedBy" ] > a::before {
+	content: counter( mw-references, persian ) '٫' counter( mw-ref-linkback, persian );
+}
+--- EMITTING CSS for fi.wikisource ---
+span[ rel="mw:referencedBy" ] {
+	counter-reset: mw-ref-linkback 0;
+}
+span[ rel="mw:referencedBy" ] > a::before {
+	font-style: italic;
+	content: counter( mw-ref-linkback, lower-alpha );
+}
+--- EMITTING CSS for frp.wikipedia ---
+span[ rel="mw:referencedBy" ] > a::before {
+	content: counter( mw-references, decimal ) ',' counter( mw-ref-linkback, decimal ) ' ';
+}
+span[ rel="mw:referencedBy" ] > a:nth-last-child(2)::after {
+	content: " et ";
+}
+--- EMITTING CSS for fr.wikipedia ---
+span[ rel="mw:referencedBy" ] {
+	counter-reset: mw-ref-linkback 0;
+}
+span[ rel="mw:referencedBy" ] > a::before {
+	content: counter( mw-ref-linkback, lower-alpha );
+}
+.mw-ref > a[data-mw-group=decimal]::after {
+	content: '[' counter( mw-Ref, decimal ) ']';
+}
+.mw-ref > a[data-mw-group=alpha]::after {
+	content: '[' counter( mw-Ref, lower-alpha ) ']';
+}
+.mw-ref > a[data-mw-group=grec]::after {
+	content: '[' counter( mw-Ref, lower-greek ) ']';
+}
+span[ rel="mw:referencedBy" ] > a::after {
+	font-size: smaller;
+}
+span[ rel="mw:referencedBy" ] > a:nth-last-child(2)::after {
+	vertical-align: super;
+}
+span[ rel="mw:referencedBy" ] > a:nth-last-child(2)::after {
+	content: " et ";
+}
+--- EMITTING CSS for fr.wikisource ---
+span[ rel="mw:referencedBy" ] > a::after {
+	content: ", ";
+}
+span[ rel="mw:referencedBy" ] > a:nth-last-child(2)::after {
+	content: " et ";
+}
+span[ rel="mw:referencedBy" ] {
+	counter-reset: mw-ref-linkback 0;
+}
+span[ rel="mw:referencedBy" ] > a::before {
+	content: counter( mw-ref-linkback, lower-alpha );
+}
+.mw-ref > a[data-mw-group=lower-alpha]::after {
+	content: '[' counter( mw-Ref, lower-alpha ) ']';
+}
+--- EMITTING CSS for fr.wiktionary ---
+span[ rel="mw:referencedBy" ] {
+	counter-reset: mw-ref-linkback 0;
+}
+span[ rel="mw:referencedBy" ] > a::before {
+	content: counter( mw-ref-linkback, lower-alpha );
+}
+span[ rel="mw:referencedBy" ] > a:nth-last-child(2)::after {
+	content: " et ";
+}
+--- EMITTING CSS for gl.wikipedia ---
+.mw-ref > a[data-mw-group=decimal]::after {
+	content: '[' counter( mw-Ref, decimal ) ']';
+}
+.mw-ref > a[data-mw-group=lower-greek]::after {
+	content: '[' counter( mw-Ref, lower-greek ) ']';
+}
+.mw-ref > a[data-mw-group=upper-alpha]::after {
+	content: '[' counter( mw-Ref, upper-alpha ) ']';
+}
+.mw-ref > a[data-mw-group=lower-alpha]::after {
+	content: '[' counter( mw-Ref, lower-alpha ) ']';
+}
+.mw-ref > a[data-mw-group=lower-roman]::after {
+	content: '[' counter( mw-Ref, lower-roman ) ']';
+}
+.mw-ref > a[data-mw-group=upper-roman]::after {
+	content: '[' counter( mw-Ref, upper-roman ) ']';
+}
+--- EMITTING CSS for gl.wikibooks ---
+--- EMITTING CSS for gl.wikiquote ---
+--- EMITTING CSS for gl.wikisource ---
+--- EMITTING CSS for gu.wikipedia ---
+--- EMITTING CSS for he.wikipedia ---
+@counter-style custom-group-label-hebrew {
+	system: fixed;
+	symbols: 'א' 'ב' 'ג' 'ד' 'ה' 'ו' 'ז' 'ח' 'ט' 'י' 'י"א' 'י"ב' 'י"ג' 'י"ד' 'ט"ו' 'ט"ז' 'י"ז' 'י"ח' 'י"ט' 'כ' 'כ"א' 'כ"ב' 'כ"ג' 'כ"ד' 'כ"ה' 'כ"ו' 'כ"ז' 'כ"ח' 'כ"ט' 'ל' 'ל"א' 'ל"ב' 'ל"ג' 'ל"ד' 'ל"ה' 'ל"ו' 'ל"ז' 'ל"ח' 'ל"ט' 'מ' 'מ"א' 'מ"ב' 'מ"ג' 'מ"ד' 'מ"ה' 'מ"ו' 'מ"ז' 'מ"ח' 'מ"ט' 'נ' 'נ"א' 'נ"ב' 'נ"ג' 'נ"ד' 'נ"ה' 'נ"ו' 'נ"ז' 'נ"ח' 'נ"ט' 'ס' 'ס"א' 'ס"ב' 'ס"ג' 'ס"ד' 'ס"ה' 'ס"ו' 'ס"ז' 'ס"ח' 'ס"ט' 'ע' 'ע"א' 'ע"ב' 'ע"ג' 'ע"ד' 'ע"ה' 'ע"ו' 'ע"ז' 'ע"ח' 'ע"ט' 'פ' 'פ"א' 'פ"ב' 'פ"ג' 'פ"ד' 'פ"ה' 'פ"ו' 'פ"ז' 'פ"ח' 'פ"ט' 'צ' 'צ"א' 'צ"ב' 'צ"ג' 'צ"ד' 'צ"ה' 'צ"ו' 'צ"ז' 'צ"ח' 'צ"ט' 'ק' 'ק"א' 'ק"ב' 'ק"ג' 'ק"ד' 'ק"ה' 'ק"ו' 'ק"ז' 'ק"ח' 'ק"ט' 'ק"י' 'קי"א' 'קי"ב' 'קי"ג' 'קי"ד' 'קט"ו' 'קט"ז' 'קי"ז' 'קי"ח' 'קי"ט' 'ק"כ' 'קכ"א' 'קכ"ב' 'קכ"ג' 'קכ"ד' 'קכ"ה' 'קכ"ו' 'קכ"ז' 'קכ"ח' 'קכ"ט' 'ק"ל' 'קל"א' 'קל"ב' 'קל"ג' 'קל"ד' 'קל"ה' 'קל"ו' 'קל"ז' 'קל"ח' 'קל"ט' 'ק"מ' 'קמ"א' 'קמ"ב' 'קמ"ג' 'קמ"ד' 'קמ"ה' 'קמ"ו' 'קמ"ז' 'קמ"ח' 'קמ"ט' 'ק"נ' 'קנ"א' 'קנ"ב' 'קנ"ג' 'קנ"ד' 'קנ"ה' 'קנ"ו' 'קנ"ז' 'קנ"ח' 'קנ"ט' 'ק"ס' 'קס"א' 'קס"ב' 'קס"ג' 'קס"ד' 'קס"ה' 'קס"ו' 'קס"ז' 'קס"ח' 'קס"ט' 'ק"ע' 'קע"א' 'קע"ב' 'קע"ג' 'קע"ד' 'קע"ה' 'קע"ו' 'קע"ז' 'קע"ח' 'קע"ט' 'ק"פ' 'קפ"א' 'קפ"ב' 'קפ"ג' 'קפ"ד' 'קפ"ה' 'קפ"ו' 'קפ"ז' 'קפ"ח' 'קפ"ט' 'ק"צ' 'קצ"א' 'קצ"ב' 'קצ"ג' 'קצ"ד' 'קצ"ה' 'קצ"ו' 'קצ"ז' 'קצ"ח' 'קצ"ט' 'ר' 'ר"א' 'ר"ב' 'ר"ג' 'ר"ד' 'ר"ה' 'ר"ו' 'ר"ז' 'ר"ח' 'ר"ט' 'ר"י' 'רי"א' 'רי"ב' 'רי"ג' 'רי"ד' 'רט"ו' 'רט"ז' 'רי"ז' 'רי"ח' 'רי"ט' 'ר"כ' 'רכ"א' 'רכ"ב' 'רכ"ג' 'רכ"ד' 'רכ"ה' 'רכ"ו' 'רכ"ז' 'רכ"ח' 'רכ"ט' 'ר"ל' 'רל"א' 'רל"ב' 'רל"ג' 'רל"ד' 'רל"ה' 'רל"ו' 'רל"ז' 'רל"ח' 'רל"ט' 'ר"מ' 'רמ"א' 'רמ"ב' 'רמ"ג' 'רמ"ד' 'רמ"ה' 'רמ"ו' 'רמ"ז' 'רמ"ח' 'רמ"ט' 'ר"נ' 'רנ"א' 'רנ"ב' 'רנ"ג' 'רנ"ד' 'רנ"ה' 'רנ"ו' 'רנ"ז' 'רנ"ח' 'רנ"ט' 'ר"ס' 'רס"א' 'רס"ב' 'רס"ג' 'רס"ד' 'רס"ה' 'רס"ו' 'רס"ז' 'רס"ח' 'רס"ט' 'ר"ע' 'רע"א' 'רע"ב' 'רע"ג' 'רע"ד' 'רע"ה' 'רע"ו' 'רע"ז' 'רע"ח' 'רע"ט' 'ר"פ' 'רפ"א' 'רפ"ב' 'רפ"ג' 'רפ"ד' 'רפ"ה' 'רפ"ו' 'רפ"ז' 'רפ"ח' 'רפ"ט' 'ר"צ' 'רצ"א' 'רצ"ב' 'רצ"ג' 'רצ"ד' 'רצ"ה' 'רצ"ו' 'רצ"ז' 'רצ"ח' 'רצ"ט' 'ש';
+}
+span[ rel="mw:referencedBy" ] {
+	counter-reset: mw-ref-linkback 0;
+}
+span[ rel="mw:referencedBy" ] > a::before {
+	content: counter( mw-ref-linkback, decimal );
+}
+span[ rel="mw:referencedBy" ]::before {
+	content: "^ ";
+}
+a[ rel="mw:referencedBy" ]::before {
+	content: "^";
+}
+.mw-ref > a[data-mw-group=hebrew]::after {
+	content: '[' counter( mw-Ref, custom-group-label-hebrew ) ']';
+}
+--- EMITTING CSS for he.wikibooks ---
+a[ rel="mw:referencedBy" ]::before {
+	font-weight: bold;
+	content: "^";
+}
+span[ rel="mw:referencedBy" ]::before {
+	font-weight: bold;
+	content: "^ ";
+}
+--- EMITTING CSS for he.wikinews ---
+span[ rel="mw:referencedBy" ]::before {
+	font-weight: bold;
+	content: "^ ";
+}
+a[ rel="mw:referencedBy" ]::before {
+	font-weight: bold;
+	content: "^";
+}
+--- EMITTING CSS for he.wikiquote ---
+span[ rel="mw:referencedBy" ]::before {
+	font-weight: bold;
+	content: "^ ";
+}
+a[ rel="mw:referencedBy" ]::before {
+	font-weight: bold;
+	content: "^";
+}
+--- EMITTING CSS for he.wikisource ---
+span[ rel="mw:referencedBy" ]::before {
+	font-weight: bold;
+	content: "^ ";
+}
+a[ rel="mw:referencedBy" ]::before {
+	font-weight: bold;
+	content: "^";
+}
+--- EMITTING CSS for hi.wikipedia ---
+@counter-style custom-backlink {
+	system: fixed;
+	symbols: 'अ' 'आ' 'इ' 'ई' 'उ' 'ऊ' 'ए' 'ऐ' 'ओ' 'औ' 'क' 'ख' 'ग' 'घ' 'ङ' 'च' 'छ' 'ज' 'झ' 'ञ' 'ट' 'ठ' 'ड' 'ढ' 'ण' 'त' 'थ' 'द' 'ध' 'न' 'प' 'फ' 'ब' 'भ' 'म' 'य' 'र' 'ल' 'व' 'श' 'ष' 'स' 'ह' 'अ॰अ' 'अ॰आ' 'अ॰इ' 'अ॰ई' 'अ॰उ' 'अ॰ऊ' 'अ॰ए' 'अ॰ऐ' 'अ॰ओ' 'अ॰औ' 'अ॰क' 'अ॰ख' 'अ॰ग' 'अ॰घ' 'अ॰ङ' 'अ॰च' 'अ॰छ' 'अ॰ज' 'अ॰झ' 'अ॰ञ' 'अ॰ट' 'अ॰ठ' 'अ॰ड' 'अ॰ढ' 'अ॰ण' 'अ॰त' 'अ॰थ' 'अ॰द' 'अ॰ध' 'अ॰न' 'अ॰प' 'अ॰फ' 'अ॰ब' 'अ॰भ' 'अ॰म' 'अ॰य' 'अ॰र' 'अ॰ल' 'अ॰व' 'अ॰श' 'अ॰ष' 'अ॰स' 'अ॰ह' 'आ॰अ' 'आ॰आ' 'आ॰इ' 'आ॰ई' 'आ॰उ' 'आ॰ऊ' 'आ॰ए' 'आ॰ऐ' 'आ॰ओ' 'आ॰औ' 'आ॰क' 'आ॰ख' 'आ॰ग' 'आ॰घ' 'आ॰ङ' 'आ॰च' 'आ॰छ' 'आ॰ज' 'आ॰झ' 'आ॰ञ' 'आ॰ट' 'आ॰ठ' 'आ॰ड' 'आ॰ढ' 'आ॰ण' 'आ॰त' 'आ॰थ' 'आ॰द' 'आ॰ध' 'आ॰न' 'आ॰प' 'आ॰फ' 'आ॰ब' 'आ॰भ' 'अ॰म' 'आ॰य' 'आ॰र' 'आ॰ल' 'आ॰व' 'आ॰श' 'आ॰ष' 'आ॰स' 'आ॰ह' 'इ॰अ' 'इ॰आ' 'इ॰इ' 'इ॰ई' 'इ॰उ' 'इ॰ऊ' 'इ॰ए' 'इ॰ऐ' 'इ॰ओ' 'इ॰औ' 'इ॰क' 'इ॰ख' 'इ॰ग' 'इ॰घ' 'इ॰ङ' 'इ॰च' 'इ॰छ' 'इ॰ज' 'इ॰झ' 'इ॰ञ' 'इ॰ट' 'इ॰ठ' 'इ॰ड' 'इ॰ढ' 'इ॰ण' 'इ॰त' 'इ॰थ' 'इ॰द' 'इ॰ध' 'इ॰न' 'इ॰प' 'इ॰फ' 'इ॰ब' 'इ॰भ' 'इ॰म' 'इ॰य' 'इ॰र' 'इ॰ल' 'इ॰व' 'इ॰श' 'इ॰ष' 'इ॰स' 'इ॰ह' 'ई॰अ' 'ई॰आ' 'ई॰इ' 'ई॰ई' 'ई॰उ' 'ई॰ऊ' 'ई॰ए' 'ई॰ऐ' 'ई॰ओ' 'ई॰औ' 'ई॰क' 'ई॰ख' 'ई॰ग' 'ई॰घ' 'ई॰ङ' 'ई॰च' 'ई॰छ' 'ई॰ज' 'ई॰झ' 'ई॰ञ' 'ई॰ट' 'ई॰ठ' 'ई॰ड' 'ई॰ढ' 'ई॰ण' 'ई॰त' 'ई॰थ' 'ई॰द' 'ई॰ध' 'ई॰न' 'ई॰प' 'ई॰फ' 'ई॰ब' 'ई॰भ' 'ई॰म' 'ई॰य' 'ई॰र' 'ई॰ल' 'ई॰व' 'ई॰श' 'ई॰ष' 'ई॰स' 'ई॰ह' 'उ॰अ' 'उ॰आ' 'उ॰इ' 'उ॰ई' 'उ॰उ' 'उ॰ऊ' 'उ॰ए' 'उ॰ऐ' 'उ॰ओ' 'उ॰औ' 'उ॰क' 'उ॰ख' 'उ॰ग' 'उ॰घ' 'उ॰ङ' 'उ॰च' 'उ॰छ' 'उ॰ज' 'उ॰झ' 'उ॰ञ' 'उ॰ट' 'उ॰ठ' 'उ॰ड' 'उ॰ढ' 'उ॰ण' 'उ॰त' 'उ॰थ' 'उ॰द' 'उ॰ध' 'उ॰न' 'उ॰प' 'उ॰फ' 'उ॰ब' 'उ॰भ' 'उ॰म' 'उ॰य' 'उ॰र' 'उ॰ल' 'उ॰व' 'उ॰श' 'उ॰ष' 'उ॰स' 'उ॰ह' 'ऊ॰अ' 'ऊ॰आ' 'ऊ॰इ' 'ऊ॰ई' 'ऊ॰उ' 'ऊ॰ऊ' 'ऊ॰ए' 'ऊ॰ऐ' 'ऊ॰ओ' 'ऊ॰औ' 'ऊ॰क' 'ऊ॰ख' 'ऊ॰ग' 'ऊ॰घ' 'ऊ॰ङ' 'ऊ॰च' 'ऊ॰छ' 'ऊ॰ज' 'ऊ॰झ' 'ऊ॰ञ' 'ऊ॰ट' 'ऊ॰ठ' 'ऊ॰ड' 'ऊ॰ढ' 'ऊ॰ण' 'ऊ॰त' 'ऊ॰थ' 'ऊ॰द' 'ऊ॰ध' 'ऊ॰न' 'ऊ॰प' 'ऊ॰फ' 'ऊ॰ब' 'ऊ॰भ' 'ऊ॰म' 'ऊ॰य' 'ऊ॰र' 'ऊ॰ल' 'ऊ॰व' 'ऊ॰श' 'ऊ॰ष' 'ऊ॰स' 'ऊ॰ह' 'ए॰अ' 'ए॰आ' 'ए॰इ' 'ए॰ई' 'ए॰उ' 'ए॰ऊ' 'ए॰ए' 'ए॰ऐ' 'ए॰ओ' 'ए॰औ' 'ए॰क' 'ए॰ख' 'ए॰ग' 'ए॰घ' 'ए॰ङ' 'ए॰च' 'ए॰छ' 'ए॰ज' 'ए॰झ' 'ए॰ञ' 'ए॰ट' 'ए॰ठ' 'ए॰ड' 'ए॰ढ' 'ए॰ण' 'ए॰त' 'ए॰थ' 'ए॰द' 'ए॰ध' 'ए॰न' 'ए॰प' 'ए॰फ' 'ए॰ब' 'ए॰भ' 'ए॰म' 'ए॰य' 'ए॰र' 'ए॰ल' 'ए॰व' 'ए॰श' 'ए॰ष' 'ए॰स' 'ए॰ह' 'ऐ॰अ' 'ऐ॰आ' 'ऐ॰इ' 'ऐ॰ई' 'ऐ॰उ' 'ऐ॰ऊ' 'ऐ॰ए' 'ऐ॰ऐ' 'ऐ॰ओ' 'ऐ॰औ' 'ऐ॰क' 'ऐ॰ख' 'ऐ॰ग' 'ऐ॰घ' 'ऐ॰ङ' 'ऐ॰च' 'ऐ॰छ' 'ऐ॰ज' 'ऐ॰झ' 'ऐ॰ञ' 'ऐ॰ट' 'ऐ॰ठ' 'ऐ॰ड' 'ऐ॰ढ' 'ऐ॰ण' 'ऐ॰त' 'ऐ॰थ' 'ऐ॰द' 'ऐ॰ध' 'ऐ॰न' 'ऐ॰प' 'ऐ॰फ' 'ऐ॰ब' 'ऐ॰भ' 'ऐ॰म' 'ऐ॰य' 'ऐ॰र' 'ऐ॰ल' 'ऐ॰व' 'ऐ॰श' 'ऐ॰ष' 'ऐ॰स' 'ऐ॰ह' 'ओ॰अ' 'ओ॰आ' 'ओ॰इ' 'ओ॰ई' 'ओ॰उ' 'ओ॰ऊ' 'ओ॰ए' 'ओ॰ऐ' 'ओ॰ओ' 'ओ॰औ' 'ओ॰क' 'ओ॰ख' 'ओ॰ग' 'ओ॰घ' 'ओ॰ङ' 'ओ॰च' 'ओ॰छ' 'ओ॰ज' 'ओ॰झ' 'ओ॰ञ' 'ओ॰ट' 'ओ॰ठ' 'ओ॰ड' 'ओ॰ढ' 'ओ॰ण' 'ओ॰त' 'ओ॰थ' 'ओ॰द' 'ओ॰ध' 'ओ॰न' 'ओ॰प' 'ओ॰फ' 'ओ॰ब' 'ओ॰भ' 'ओ॰म' 'ओ॰य' 'ओ॰र' 'ओ॰ल' 'ओ॰व' 'ओ॰श' 'ओ॰ष' 'ओ॰स' 'ओ॰ह' 'औ॰अ' 'औ॰आ' 'औ॰इ' 'औ॰ई' 'औ॰उ' 'औ॰ऊ' 'औ॰ए' 'औ॰ऐ' 'औ॰ओ' 'औ॰औ' 'औ॰क' 'औ॰ख' 'औ॰ग' 'औ॰घ' 'औ॰ङ' 'औ॰च' 'औ॰छ' 'औ॰ज' 'औ॰झ' 'औ॰ञ' 'औ॰ट' 'औ॰ठ' 'औ॰ड' 'औ॰ढ' 'औ॰ण' 'औ॰त' 'औ॰थ' 'औ॰द' 'औ॰ध' 'औ॰न' 'औ॰प' 'औ॰फ' 'औ॰ब' 'औ॰भ' 'औ॰म' 'औ॰य' 'औ॰र' 'औ॰ल' 'औ॰व' 'औ॰श' 'औ॰ष' 'औ॰स' 'औ॰ह' 'क॰अ' 'क॰आ' 'क॰इ' 'क॰ई' 'क॰उ' 'क॰ऊ' 'क॰ए' 'क॰ऐ' 'क॰ओ' 'क॰औ' 'क॰क' 'क॰ख' 'क॰ग' 'क॰घ' 'क॰ङ' 'क॰च' 'क॰छ' 'क॰ज' 'क॰झ' 'क॰ञ' 'क॰ट' 'क॰ठ' 'क॰ड' 'क॰ढ' 'क॰ण' 'क॰त' 'क॰थ' 'क॰द' 'क॰ध' 'क॰न' 'क॰प' 'क॰फ' 'क॰ब' 'क॰भ' 'क॰म' 'क॰य' 'क॰र' 'क॰ल' 'क॰व' 'क॰श' 'क॰ष' 'क॰स' 'क॰ह' 'ख॰अ' 'ख॰आ' 'ख॰इ' 'ख॰ई' 'ख॰उ' 'ख॰ऊ' 'ख॰ए' 'ख॰ऐ' 'ख॰ओ' 'ख॰औ' 'ख॰क' 'ख॰ख' 'ख॰ग' 'ख॰घ' 'ख॰ङ' 'ख॰च' 'ख॰छ' 'ख॰ज' 'ख॰झ' 'ख॰ञ' 'ख॰ट' 'ख॰ठ' 'ख॰ड' 'ख॰ढ' 'ख॰ण' 'ख॰त' 'ख॰थ' 'ख॰द' 'ख॰ध' 'ख॰न' 'ख॰प' 'ख॰फ' 'ख॰ब' 'ख॰भ' 'ख॰म' 'ख॰य' 'ख॰र' 'ख॰ल' 'ख॰व' 'ख॰श' 'ख॰ष' 'ख॰स' 'ख॰ह' 'ग॰अ' 'ग॰आ' 'ग॰इ' 'ग॰ई' 'ग॰उ' 'ग॰ऊ' 'ग॰ए' 'ग॰ऐ' 'ग॰ओ' 'ग॰औ' 'ग॰क' 'ग॰ख' 'ग॰ग' 'ग॰घ' 'ग॰ङ' 'ग॰च' 'ग॰छ' 'ग॰ज' 'ग॰झ' 'ग॰ञ' 'ग॰ट' 'ग॰ठ' 'ग॰ड' 'ग॰ढ' 'ग॰ण' 'ग॰त' 'ग॰थ' 'ग॰द' 'ग॰ध' 'ग॰न' 'ग॰प' 'ग॰फ' 'ग॰ब' 'ग॰भ' 'ग॰म' 'ग॰य' 'ग॰र' 'ग॰ल' 'ग॰व' 'ग॰श' 'ग॰ष' 'ग॰स' 'ग॰ह' 'घ॰अ' 'घ॰आ' 'घ॰इ' 'घ॰ई' 'घ॰उ' 'घ॰ऊ' 'घ॰ए' 'घ॰ऐ' 'घ॰ओ' 'घ॰औ' 'घ॰क' 'घ॰ख' 'घ॰ग' 'घ॰घ' 'घ॰ङ' 'घ॰च' 'घ॰छ' 'घ॰ज' 'घ॰झ' 'घ॰ञ' 'घ॰ट' 'घ॰ठ' 'घ॰ड' 'घ॰ढ' 'घ॰ण' 'घ॰त' 'घ॰थ' 'घ॰द' 'घ॰ध' 'घ॰न' 'घ॰प' 'घ॰फ' 'घ॰ब' 'घ॰भ' 'घ॰म' 'घ॰य' 'घ॰र' 'घ॰ल' 'घ॰व' 'घ॰श' 'घ॰ष' 'घ॰स' 'घ॰ह' 'ङ॰अ' 'ङ॰आ' 'ङ॰इ' 'ङ॰ई' 'ङ॰उ' 'ङ॰ऊ' 'ङ॰ए' 'ङ॰ऐ' 'ङ॰ओ' 'ङ॰औ' 'ङ॰क' 'ङ॰ख' 'ङ॰ग' 'ङ॰घ' 'ङ॰ङ' 'ङ॰च' 'ङ॰छ' 'ङ॰ज' 'ङ॰झ' 'ङ॰ञ' 'ङ॰ट' 'ङ॰ठ' 'ङ॰ड' 'ङ॰ढ' 'ङ॰ण' 'ङ॰त' 'ङ॰थ' 'ङ॰द' 'ङ॰ध' 'ङ॰न' 'ङ॰प' 'ङ॰फ' 'ङ॰ब' 'ङ॰भ' 'ङ॰म' 'ङ॰य' 'ङ॰र' 'ङ॰ल' 'ङ॰व' 'ङ॰श' 'ङ॰ष' 'ङ॰स' 'ङ॰ह';
+}
+span[ rel="mw:referencedBy" ] {
+	counter-reset: mw-ref-linkback 0;
+}
+span[ rel="mw:referencedBy" ] > a::before {
+	content: counter( mw-ref-linkback, custom-backlink );
+}
+.mw-ref > a::after {
+	content: '[' counter( mw-Ref, decimal ) ']';
+}
+.mw-ref > a[ data-mw-group ]::after {
+	content: '[' attr( data-mw-group ) ' ' counter( mw-Ref, decimal ) ']';
+}
+.mw-ref > a[data-mw-group=lower-alpha]::after {
+	content: '[' counter( mw-Ref, lower-alpha ) ']';
+}
+--- EMITTING CSS for hr.wikipedia ---
+span[ rel="mw:referencedBy" ] {
+	counter-reset: mw-ref-linkback 0;
+}
+span[ rel="mw:referencedBy" ] > a::before {
+	font-weight: bold;
+	font-style: italic;
+	content: counter( mw-ref-linkback, lower-alpha );
+}
+.mw-ref > a[data-mw-group=lower-alpha]::after {
+	content: '[' counter( mw-Ref, lower-alpha ) ']';
+}
+--- EMITTING CSS for hr.wikiquote ---
+--- EMITTING CSS for hr.wikisource ---
+--- EMITTING CSS for hr.wiktionary ---
+--- EMITTING CSS for id.wikipedia ---
+span[ rel="mw:referencedBy" ] {
+	counter-reset: mw-ref-linkback 0;
+}
+span[ rel="mw:referencedBy" ] > a::before {
+	font-weight: bold;
+	font-style: italic;
+	content: counter( mw-ref-linkback, lower-alpha );
+}
+span[ rel="mw:referencedBy" ]::before {
+	content: "^ ";
+}
+a[ rel="mw:referencedBy" ]::before {
+	font-weight: bold;
+	content: "^";
+}
+.mw-ref > a[data-mw-group=upper-alpha]::after {
+	content: '[' counter( mw-Ref, upper-alpha ) ']';
+}
+.mw-ref > a[data-mw-group=upper-roman]::after {
+	content: '[' counter( mw-Ref, upper-roman ) ']';
+}
+.mw-ref > a[data-mw-group=lower-roman]::after {
+	content: '[' counter( mw-Ref, lower-roman ) ']';
+}
+.mw-ref > a[data-mw-group=lower-alpha]::after {
+	content: '[' counter( mw-Ref, lower-alpha ) ']';
+}
+.mw-ref > a[data-mw-group=decimal]::after {
+	content: '[' counter( mw-Ref, decimal ) ']';
+}
+.mw-ref > a[data-mw-group=lower-greek]::after {
+	content: '[' counter( mw-Ref, lower-greek ) ']';
+}
+--- EMITTING CSS for ilo.wikipedia ---
+span[ rel="mw:referencedBy" ] {
+	counter-reset: mw-ref-linkback 0;
+}
+span[ rel="mw:referencedBy" ] > a::before {
+	font-weight: bold;
+	font-style: italic;
+	content: counter( mw-ref-linkback, lower-alpha );
+}
+span[ rel="mw:referencedBy" ]::before {
+	content: "^ ";
+}
+a[ rel="mw:referencedBy" ]::before {
+	font-weight: bold;
+	content: "^";
+}
+.mw-ref > a[data-mw-group=lower-alpha]::after {
+	content: '[' counter( mw-Ref, lower-alpha ) ']';
+}
+.mw-ref > a[data-mw-group=decimal]::after {
+	content: '[' counter( mw-Ref, decimal ) ']';
+}
+.mw-ref > a[data-mw-group=upper-alpha]::after {
+	content: '[' counter( mw-Ref, upper-alpha ) ']';
+}
+.mw-ref > a[data-mw-group=lower-greek]::after {
+	content: '[' counter( mw-Ref, lower-greek ) ']';
+}
+.mw-ref > a[data-mw-group=lower-roman]::after {
+	content: '[' counter( mw-Ref, lower-roman ) ']';
+}
+.mw-ref > a[data-mw-group=upper-roman]::after {
+	content: '[' counter( mw-Ref, upper-roman ) ']';
+}
+--- EMITTING CSS for it.wikiquote ---
+span[ rel="mw:referencedBy" ] {
+	counter-reset: mw-ref-linkback 0;
+}
+span[ rel="mw:referencedBy" ] > a::before {
+	content: counter( mw-ref-linkback, lower-alpha );
+}
+--- EMITTING CSS for it.wikisource ---
+.mw-ref > a::after {
+	content: counter( mw-Ref, decimal );
+}
+.mw-ref > a[data-mw-group]::after {
+	content: attr(data-mw-group) ' ' counter( mw-Ref, decimal );
+}
+.mw-ref > a[data-mw-group=lower-alpha]::after {
+	content: counter( mw-Ref, lower-alpha );
+}
+--- EMITTING CSS for iu.wikipedia ---
+--- EMITTING CSS for ja.wikibooks ---
+span[ rel="mw:referencedBy" ]::before {
+	content: "^ ";
+}
+a[ rel="mw:referencedBy" ]::before {
+	content: "^";
+}
+--- EMITTING CSS for jv.wikipedia ---
+span[ rel="mw:referencedBy" ] {
+	counter-reset: mw-ref-linkback 0;
+}
+span[ rel="mw:referencedBy" ] > a::before {
+	content: counter( mw-ref-linkback, lower-alpha );
+}
+.mw-ref > a[data-mw-group=lower-roman]::after {
+	content: '[' counter( mw-Ref, lower-roman ) ']';
+}
+.mw-ref > a[data-mw-group=lower-greek]::after {
+	content: '[' counter( mw-Ref, lower-greek ) ']';
+}
+.mw-ref > a[data-mw-group=upper-roman]::after {
+	content: '[' counter( mw-Ref, upper-roman ) ']';
+}
+.mw-ref > a[data-mw-group=lower-alpha]::after {
+	content: '[' counter( mw-Ref, lower-alpha ) ']';
+}
+.mw-ref > a[data-mw-group=decimal]::after {
+	content: '[' counter( mw-Ref, decimal ) ']';
+}
+.mw-ref > a[data-mw-group=upper-alpha]::after {
+	content: '[' counter( mw-Ref, upper-alpha ) ']';
+}
+--- EMITTING CSS for ka.wikipedia ---
+@counter-style custom-group-label-georgian {
+	system: alphabetic;
+	symbols: 'ა' 'ბ' 'გ' 'დ' 'ე' 'ვ' 'ზ' 'თ' 'ი' 'კ' 'ლ' 'მ' 'ნ' 'ო' 'პ' 'ჟ' 'რ' 'ს' 'ტ' 'უ' 'ფ' 'ქ' 'ღ' 'ყ' 'შ' 'ჩ' 'ც' 'ძ' 'წ' 'ჭ' 'ხ' 'ჯ' 'ჰ';
+}
+.mw-ref > a[data-mw-group=georgian]::after {
+	content: '[' counter( mw-Ref, custom-group-label-georgian ) ']';
+}
+.mw-ref > a[data-mw-group=lower-alpha]::after {
+	content: '[' counter( mw-Ref, lower-alpha ) ']';
+}
+.mw-ref > a[data-mw-group=upper-alpha]::after {
+	content: '[' counter( mw-Ref, upper-alpha ) ']';
+}
+--- EMITTING CSS for ka.wikibooks ---
+--- EMITTING CSS for ka.wikiquote ---
+--- EMITTING CSS for kk.wikipedia ---
+span[ rel="mw:referencedBy" ] {
+	counter-reset: mw-ref-linkback 0;
+}
+span[ rel="mw:referencedBy" ] > a::before {
+	font-weight: bold;
+	font-style: italic;
+	content: counter( mw-ref-linkback, lower-alpha );
+}
+--- EMITTING CSS for ko.wikipedia ---
+@counter-style custom-backlink {
+	system: alphabetic;
+	symbols: '가' '나' '다' '라' '마' '바' '사' '아' '자' '차' '카' '타' '파' '하' '거' '너' '더' '러' '머' '버' '서' '어' '저' '처' '커' '터' '퍼' '허' '고' '노' '도' '로' '모' '보' '소' '오' '조' '초' '코' '토' '포' '호' '구' '누' '두' '루' '무' '부' '수' '우' '주' '추' '쿠' '투' '푸' '후' '그' '느' '드' '르' '므' '브' '스' '으' '즈' '츠' '크' '트' '프' '흐' '기' '니' '디' '리' '미' '비' '시' '이' '지' '치' '키' '티' '피' '히';
+}
+span[ rel="mw:referencedBy" ] {
+	counter-reset: mw-ref-linkback 0;
+}
+span[ rel="mw:referencedBy" ] > a::before {
+	content: counter( mw-ref-linkback, custom-backlink );
+}
+.mw-ref > a[data-mw-group=decimal]::after {
+	content: '[' counter( mw-Ref, decimal ) ']';
+}
+.mw-ref > a[data-mw-group=lower-alpha]::after {
+	content: '[' counter( mw-Ref, lower-alpha ) ']';
+}
+.mw-ref > a[data-mw-group=upper-alpha]::after {
+	content: '[' counter( mw-Ref, upper-alpha ) ']';
+}
+--- EMITTING CSS for ku.wikipedia ---
+span[ rel="mw:referencedBy" ] {
+	counter-reset: mw-ref-linkback 0;
+}
+span[ rel="mw:referencedBy" ] > a::before {
+	content: counter( mw-ref-linkback, lower-alpha );
+}
+--- EMITTING CSS for ku.wiktionary ---
+span[ rel="mw:referencedBy" ] {
+	counter-reset: mw-ref-linkback 0;
+}
+span[ rel="mw:referencedBy" ] > a::before {
+	content: counter( mw-ref-linkback, lower-alpha );
+}
+--- EMITTING CSS for kv.wikipedia ---
+--- EMITTING CSS for lad.wikipedia ---
+span[ rel="mw:referencedBy" ] {
+	counter-reset: mw-ref-linkback 0;
+}
+span[ rel="mw:referencedBy" ] > a::before {
+	content: counter( mw-ref-linkback, lower-alpha );
+}
+--- EMITTING CSS for ln.wikipedia ---
+span[ rel="mw:referencedBy" ] > a:nth-last-child(2)::after {
+	content: " et ";
+}
+--- EMITTING CSS for min.wikipedia ---
+span[ rel="mw:referencedBy" ] {
+	counter-reset: mw-ref-linkback 0;
+}
+span[ rel="mw:referencedBy" ] > a::before {
+	font-weight: bold;
+	font-style: italic;
+	content: counter( mw-ref-linkback, lower-alpha );
+}
+--- EMITTING CSS for mr.wikipedia ---
+a[ rel="mw:referencedBy" ]::before {
+	font-weight: bold;
+	content: "^";
+}
+span[ rel="mw:referencedBy" ] {
+	counter-reset: mw-ref-linkback 0;
+}
+span[ rel="mw:referencedBy" ] > a::before {
+	font-weight: bold;
+	font-style: italic;
+	content: counter( mw-ref-linkback, lower-alpha );
+}
+span[ rel="mw:referencedBy" ]::before {
+	content: "^ ";
+}
+.mw-ref > a[data-mw-group=lower-greek]::after {
+	content: '[' counter( mw-Ref, lower-greek ) ']';
+}
+.mw-ref > a[data-mw-group=decimal]::after {
+	content: '[' counter( mw-Ref, decimal ) ']';
+}
+.mw-ref > a[data-mw-group=upper-roman]::after {
+	content: '[' counter( mw-Ref, upper-roman ) ']';
+}
+.mw-ref > a[data-mw-group=upper-alpha]::after {
+	content: '[' counter( mw-Ref, upper-alpha ) ']';
+}
+.mw-ref > a[data-mw-group=lower-roman]::after {
+	content: '[' counter( mw-Ref, lower-roman ) ']';
+}
+.mw-ref > a[data-mw-group=lower-alpha]::after {
+	content: '[' counter( mw-Ref, lower-alpha ) ']';
+}
+--- EMITTING CSS for ms.wikipedia ---
+span[ rel="mw:referencedBy" ] {
+	counter-reset: mw-ref-linkback 0;
+}
+span[ rel="mw:referencedBy" ] > a::before {
+	font-weight: bold;
+	font-style: italic;
+	content: counter( mw-ref-linkback, lower-alpha );
+}
+span[ rel="mw:referencedBy" ]::before {
+	content: "^ ";
+}
+a[ rel="mw:referencedBy" ]::before {
+	font-weight: bold;
+	content: "^";
+}
+.mw-ref > a[data-mw-group=lower-alpha]::after {
+	content: '[' counter( mw-Ref, lower-alpha ) ']';
+}
+.mw-ref > a[data-mw-group=upper-roman]::after {
+	content: '[' counter( mw-Ref, upper-roman ) ']';
+}
+.mw-ref > a[data-mw-group=upper-alpha]::after {
+	content: '[' counter( mw-Ref, upper-alpha ) ']';
+}
+.mw-ref > a[data-mw-group=lower-greek]::after {
+	content: '[' counter( mw-Ref, lower-greek ) ']';
+}
+.mw-ref > a[data-mw-group=lower-roman]::after {
+	content: '[' counter( mw-Ref, lower-roman ) ']';
+}
+--- EMITTING CSS for mt.wikipedia ---
+@counter-style custom-group-label-lower-alpha {
+	system: alphabetic;
+	symbols: 'a' 'b' 'ċ' 'd' 'e' 'f' 'ġ' 'g' 'għ' 'h' 'ħ' 'i' 'ie' 'j' 'k' 'l' 'm' 'n' 'o' 'p' 'q' 'r' 's' 't' 'u' 'v' 'w' 'x' 'ż' 'z';
+}
+span[ rel="mw:referencedBy" ]::before {
+	content: "^ ";
+}
+a[ rel="mw:referencedBy" ]::before {
+	font-weight: bold;
+	content: "^";
+}
+span[ rel="mw:referencedBy" ] {
+	counter-reset: mw-ref-linkback 0;
+}
+span[ rel="mw:referencedBy" ] > a::before {
+	font-weight: bold;
+	font-style: italic;
+	content: counter( mw-ref-linkback, lower-alpha );
+}
+.mw-ref > a[data-mw-group=lower-alpha]::after {
+	content: '[' counter( mw-Ref, custom-group-label-lower-alpha ) ']';
+}
+--- EMITTING CSS for nds.wikipedia ---
+span[ rel="mw:referencedBy" ] {
+	counter-reset: mw-ref-linkback 0;
+}
+span[ rel="mw:referencedBy" ] > a::before {
+	content: counter( mw-ref-linkback, lower-alpha );
+}
+--- EMITTING CSS for no.wikipedia ---
+@counter-style custom-backlink {
+	system: alphabetic;
+	symbols: 'a' 'b' 'c' 'd' 'e' 'f' 'g' 'h' 'i' 'j' 'k' 'l' 'm' 'n' 'o' 'p' 'q' 'r' 's' 't' 'u' 'v' 'w' 'x' 'y' 'z' 'æ' 'ø' 'å';
+}
+span[ rel="mw:referencedBy" ] {
+	counter-reset: mw-ref-linkback 0;
+}
+span[ rel="mw:referencedBy" ] > a::before {
+	content: counter( mw-ref-linkback, custom-backlink );
+}
+span[ rel="mw:referencedBy" ]::before {
+	font-weight: bold;
+	content: "^ ";
+}
+a[ rel="mw:referencedBy" ]::before {
+	font-weight: bold;
+	content: "^";
+}
+.mw-ref > a[data-mw-group=lower-alpha]::after {
+	content: '[' counter( mw-Ref, lower-alpha ) ']';
+}
+.mw-ref > a[data-mw-group=lower-greek]::after {
+	content: '[' counter( mw-Ref, lower-greek ) ']';
+}
+.mw-ref > a[data-mw-group=upper-roman]::after {
+	content: '[' counter( mw-Ref, upper-roman ) ']';
+}
+.mw-ref > a[data-mw-group=upper-alpha]::after {
+	content: '[' counter( mw-Ref, upper-alpha ) ']';
+}
+.mw-ref > a[data-mw-group=lower-roman]::after {
+	content: '[' counter( mw-Ref, lower-roman ) ']';
+}
+--- EMITTING CSS for no.wikibooks ---
+@counter-style custom-backlink {
+	system: alphabetic;
+	symbols: 'a' 'b' 'c' 'd' 'e' 'f' 'g' 'h' 'i' 'j' 'k' 'l' 'm' 'n' 'o' 'p' 'q' 'r' 's' 't' 'u' 'v' 'w' 'x' 'y' 'z' 'æ' 'ø' 'å';
+}
+span[ rel="mw:referencedBy" ] {
+	counter-reset: mw-ref-linkback 0;
+}
+span[ rel="mw:referencedBy" ] > a::before {
+	content: counter( mw-ref-linkback, custom-backlink );
+}
+--- EMITTING CSS for nv.wikipedia ---
+a[ rel="mw:referencedBy" ]::before {
+	content: "^";
+}
+span[ rel="mw:referencedBy" ]::before {
+	content: "^ ";
+}
+--- EMITTING CSS for oc.wikipedia ---
+span[ rel="mw:referencedBy" ] > a:nth-last-child(2)::after {
+	content: " et ";
+}
+--- EMITTING CSS for oc.wiktionary ---
+span[ rel="mw:referencedBy" ] > a:nth-last-child(2)::after {
+	content: " et ";
+}
+--- EMITTING CSS for pag.wikipedia ---
+span[ rel="mw:referencedBy" ] {
+	counter-reset: mw-ref-linkback 0;
+}
+span[ rel="mw:referencedBy" ] > a::before {
+	font-weight: bold;
+	font-style: italic;
+	content: counter( mw-ref-linkback, lower-alpha );
+}
+.mw-ref > a[data-mw-group=upper-alpha]::after {
+	content: '[' counter( mw-Ref, upper-alpha ) ']';
+}
+.mw-ref > a[data-mw-group=upper-roman]::after {
+	content: '[' counter( mw-Ref, upper-roman ) ']';
+}
+.mw-ref > a[data-mw-group=decimal]::after {
+	content: '[' counter( mw-Ref, decimal ) ']';
+}
+.mw-ref > a[data-mw-group=lower-alpha]::after {
+	content: '[' counter( mw-Ref, lower-alpha ) ']';
+}
+.mw-ref > a[data-mw-group=lower-greek]::after {
+	content: '[' counter( mw-Ref, lower-greek ) ']';
+}
+.mw-ref > a[data-mw-group=lower-roman]::after {
+	content: '[' counter( mw-Ref, lower-roman ) ']';
+}
+--- EMITTING CSS for ro.wikipedia ---
+span[ rel="mw:referencedBy" ] {
+	counter-reset: mw-ref-linkback 0;
+}
+span[ rel="mw:referencedBy" ] > a::before {
+	font-weight: bold;
+	font-style: italic;
+	content: counter( mw-ref-linkback, lower-alpha );
+}
+a[ rel="mw:referencedBy" ]::before {
+	font-weight: bold;
+	content: "^";
+}
+span[ rel="mw:referencedBy" ]::before {
+	content: "^ ";
+}
+.mw-ref > a[data-mw-group=lower-roman]::after {
+	content: '[' counter( mw-Ref, lower-roman ) ']';
+}
+.mw-ref > a[data-mw-group=lower-alpha]::after {
+	content: '[' counter( mw-Ref, lower-alpha ) ']';
+}
+--- EMITTING CSS for ru.wikibooks ---
+@counter-style custom-backlink {
+	system: fixed;
+	symbols: 'а' 'б' 'в' 'г' 'д' 'е' 'ё' 'ж' 'з' 'и' 'й' 'к' 'л' 'м' 'н' 'о' 'п' 'р' 'с' 'т' 'у' 'ф' 'х' 'ц' 'ч' 'ш' 'щ' 'ъ' 'ы' 'ь' 'э' 'ю' 'я';
+}
+span[ rel="mw:referencedBy" ] {
+	counter-reset: mw-ref-linkback 0;
+}
+span[ rel="mw:referencedBy" ] > a::before {
+	font-weight: bold;
+	font-style: italic;
+	content: counter( mw-ref-linkback, custom-backlink );
+}
+--- EMITTING CSS for ru.wikimedia ---
+a[ rel="mw:referencedBy" ]::before {
+	font-weight: bold;
+	content: "↑";
+}
+@counter-style custom-backlink {
+	system: alphabetic;
+	symbols: 'а' 'б' 'в' 'г' 'д' 'е' 'ё' 'ж' 'з' 'и' 'й' 'к' 'л' 'м' 'н' 'о' 'п' 'р' 'с' 'т' 'у' 'ф' 'х' 'ц' 'ч' 'ш' 'щ' 'ъ' 'ы' 'ь' 'э' 'ю' 'я';
+}
+span[ rel="mw:referencedBy" ] {
+	counter-reset: mw-ref-linkback 0;
+}
+span[ rel="mw:referencedBy" ] > a::before {
+	font-weight: bold;
+	font-style: italic;
+	content: counter( mw-ref-linkback, custom-backlink );
+}
+--- EMITTING CSS for ru.wikiquote ---
+span[ rel="mw:referencedBy" ] {
+	counter-reset: mw-ref-linkback 0;
+}
+span[ rel="mw:referencedBy" ] > a::before {
+	font-weight: bold;
+	font-style: italic;
+	content: counter( mw-ref-linkback, decimal );
+}
+--- EMITTING CSS for ru.wikisource ---
+@counter-style custom-backlink {
+	system: alphabetic;
+	symbols: 'а' 'б' 'в' 'г' 'д' 'е' 'ё' 'ж' 'з' 'и' 'й' 'к' 'л' 'м' 'н' 'о' 'п' 'р' 'с' 'т' 'у' 'ф' 'х' 'ц' 'ч' 'ш' 'щ' 'ъ' 'ы' 'ь' 'э' 'ю' 'я';
+}
+span[ rel="mw:referencedBy" ] {
+	counter-reset: mw-ref-linkback 0;
+}
+span[ rel="mw:referencedBy" ] > a::before {
+	font-weight: bold;
+	font-style: italic;
+	content: counter( mw-ref-linkback, custom-backlink );
+}
+--- EMITTING CSS for ru.wikivoyage ---
+span[ rel="mw:referencedBy" ]::before {
+	content: "";
+}
+a[ rel="mw:referencedBy" ]::before {
+	content: "";
+}
+--- EMITTING CSS for scn.wikipedia ---
+--- EMITTING CSS for sco.wikipedia ---
+span[ rel="mw:referencedBy" ] {
+	counter-reset: mw-ref-linkback 0;
+}
+span[ rel="mw:referencedBy" ] > a::before {
+	font-weight: bold;
+	font-style: italic;
+	content: counter( mw-ref-linkback, lower-alpha );
+}
+.mw-ref > a[data-mw-group=upper-alpha]::after {
+	content: '[' counter( mw-Ref, upper-alpha ) ']';
+}
+.mw-ref > a[data-mw-group=lower-alpha]::after {
+	content: '[' counter( mw-Ref, lower-alpha ) ']';
+}
+.mw-ref > a[data-mw-group=decimal]::after {
+	content: '[' counter( mw-Ref, decimal ) ']';
+}
+--- EMITTING CSS for sh.wikipedia ---
+--- EMITTING CSS for sk.wikipedia ---
+span[ rel="mw:referencedBy" ] {
+	counter-reset: mw-ref-linkback 0;
+}
+span[ rel="mw:referencedBy" ] > a::before {
+	content: counter( mw-ref-linkback, lower-alpha );
+}
+--- EMITTING CSS for sl.wikipedia ---
+.mw-ref > a[data-mw-group=lower-roman]::after {
+	content: '[' counter( mw-Ref, lower-roman ) ']';
+}
+.mw-ref > a[data-mw-group=upper-alpha]::after {
+	content: '[' counter( mw-Ref, upper-alpha ) ']';
+}
+.mw-ref > a[data-mw-group=upper-roman]::after {
+	content: '[' counter( mw-Ref, upper-roman ) ']';
+}
+.mw-ref > a[data-mw-group=lower-alpha]::after {
+	content: '[' counter( mw-Ref, lower-alpha ) ']';
+}
+.mw-ref > a[data-mw-group=lower-greek]::after {
+	content: '[' counter( mw-Ref, lower-greek ) ']';
+}
+--- EMITTING CSS for sl.wikibooks ---
+--- EMITTING CSS for sq.wikipedia ---
+span[ rel="mw:referencedBy" ] {
+	counter-reset: mw-ref-linkback 0;
+}
+span[ rel="mw:referencedBy" ] > a::before {
+	content: counter( mw-ref-linkback, lower-alpha );
+}
+a[ rel="mw:referencedBy" ]::before {
+	content: "^";
+}
+span[ rel="mw:referencedBy" ]::before {
+	content: "^ ";
+}
+.mw-ref > a[data-mw-group=lower-alpha]::after {
+	content: '[' counter( mw-Ref, lower-alpha ) ']';
+}
+--- EMITTING CSS for sq.wikiquote ---
+span[ rel="mw:referencedBy" ]::before {
+	content: "^ ";
+}
+span[ rel="mw:referencedBy" ] {
+	counter-reset: mw-ref-linkback 0;
+}
+span[ rel="mw:referencedBy" ] > a::before {
+	content: counter( mw-ref-linkback, lower-alpha );
+}
+a[ rel="mw:referencedBy" ]::before {
+	content: "^";
+}
+--- EMITTING CSS for sr.wikipedia ---
+@counter-style custom-group-label-upper-alpha/sr-ec {
+	system: alphabetic;
+	symbols: 'А' 'Б' 'В' 'Г' 'Д' 'Ђ' 'Е' 'Ж' 'З' 'И' 'Ј' 'К' 'Л' 'Љ' 'М' 'Н' 'Њ' 'О' 'П' 'Р' 'С' 'Т' 'Ћ' 'У' 'Ф' 'Х' 'Ц' 'Ч' 'Џ' 'Ш';
+}
+@counter-style custom-group-label-lower-alpha/sr-el {
+	system: alphabetic;
+	symbols: 'a' 'b' 'v' 'g' 'd' 'đ' 'e' 'ž' 'z' 'i' 'j' 'k' 'l' 'lj' 'm' 'n' 'nj' 'o' 'p' 'r' 's' 't' 'ć' 'u' 'f' 'h' 'c' 'č' 'dž' 'š';
+}
+@counter-style custom-group-label-upper-alpha/sr-el {
+	system: alphabetic;
+	symbols: 'A' 'B' 'V' 'G' 'D' 'Đ' 'E' 'Ž' 'Z' 'I' 'J' 'K' 'L' 'LJ' 'M' 'N' 'NJ' 'O' 'P' 'R' 'S' 'T' 'Ć' 'U' 'F' 'H' 'C' 'Č' 'DŽ' 'Š';
+}
+@counter-style custom-group-label-lower-alpha {
+	system: alphabetic;
+	symbols: 'а' 'б' 'в' 'г' 'д' 'ђ' 'е' 'ж' 'з' 'и' 'ј' 'к' 'л' 'љ' 'м' 'н' 'њ' 'о' 'п' 'р' 'с' 'т' 'ћ' 'у' 'ф' 'х' 'ц' 'ч' 'џ' 'ш';
+}
+@counter-style custom-group-label-lower-alpha/sr-ec {
+	system: alphabetic;
+	symbols: 'а' 'б' 'в' 'г' 'д' 'ђ' 'е' 'ж' 'з' 'и' 'ј' 'к' 'л' 'љ' 'м' 'н' 'њ' 'о' 'п' 'р' 'с' 'т' 'ћ' 'у' 'ф' 'х' 'ц' 'ч' 'џ' 'ш';
+}
+@counter-style custom-group-label-upper-alpha {
+	system: alphabetic;
+	symbols: 'А' 'Б' 'В' 'Г' 'Д' 'Ђ' 'Е' 'Ж' 'З' 'И' 'Ј' 'К' 'Л' 'Љ' 'М' 'Н' 'Њ' 'О' 'П' 'Р' 'С' 'Т' 'Ћ' 'У' 'Ф' 'Х' 'Ц' 'Ч' 'Џ' 'Ш';
+}
+@counter-style custom-group-label-lower-alpha/sr {
+	system: alphabetic;
+	symbols: 'а' 'б' 'в' 'г' 'д' 'ђ' 'е' 'ж' 'з' 'и' 'ј' 'к' 'л' 'љ' 'м' 'н' 'њ' 'о' 'п' 'р' 'с' 'т' 'ћ' 'у' 'ф' 'х' 'ц' 'ч' 'џ' 'ш';
+}
+@counter-style custom-backlink {
+	system: alphabetic;
+	symbols: 'а' 'б' 'в' 'г' 'д' 'ђ' 'е' 'ж' 'з' 'и' 'ј' 'к' 'л' 'љ' 'м' 'н' 'њ' 'о' 'п' 'р' 'с' 'т' 'ћ' 'у' 'ф' 'х' 'ц' 'ч' 'џ' 'ш';
+}
+span[ rel="mw:referencedBy" ] {
+	counter-reset: mw-ref-linkback 0;
+}
+span[ rel="mw:referencedBy" ] > a::before {
+	font-weight: bold;
+	font-style: italic;
+	content: counter( mw-ref-linkback, custom-backlink );
+}
+span[ rel="mw:referencedBy" ]::before {
+	content: "^ ";
+}
+a[ rel="mw:referencedBy" ]::before {
+	font-weight: bold;
+	content: "^";
+}
+.mw-ref > a[data-mw-group=upper-alpha/sr-ec]::after {
+	content: '[' counter( mw-Ref, custom-group-label-upper-alpha/sr-ec ) ']';
+}
+.mw-ref > a[data-mw-group=lower-alpha/sr-el]::after {
+	content: '[' counter( mw-Ref, custom-group-label-lower-alpha/sr-el ) ']';
+}
+.mw-ref > a[data-mw-group=decimal]::after {
+	content: '[' counter( mw-Ref, decimal ) ']';
+}
+.mw-ref > a[data-mw-group=upper-alpha/sr-el]::after {
+	content: '[' counter( mw-Ref, custom-group-label-upper-alpha/sr-el ) ']';
+}
+.mw-ref > a[data-mw-group=lower-alpha]::after {
+	content: '[' counter( mw-Ref, custom-group-label-lower-alpha ) ']';
+}
+.mw-ref > a[data-mw-group=lower-alpha/sr-ec]::after {
+	content: '[' counter( mw-Ref, custom-group-label-lower-alpha/sr-ec ) ']';
+}
+.mw-ref > a[data-mw-group=upper-alpha]::after {
+	content: '[' counter( mw-Ref, custom-group-label-upper-alpha ) ']';
+}
+.mw-ref > a[data-mw-group=lower-alpha/sr]::after {
+	content: '[' counter( mw-Ref, custom-group-label-lower-alpha/sr ) ']';
+}
+--- EMITTING CSS for su.wikipedia ---
+span[ rel="mw:referencedBy" ] {
+	counter-reset: mw-ref-linkback 0;
+}
+span[ rel="mw:referencedBy" ] > a::before {
+	content: counter( mw-ref-linkback, lower-alpha );
+}
+--- EMITTING CSS for sv.wikipedia ---
+.mw-ref > a[data-mw-group=not]::after {
+	content: '[' counter( mw-Ref, lower-alpha ) ']';
+}
+span[ rel="mw:referencedBy" ]::before {
+	content: "^ [$2] $3";
+}
+a[ rel="mw:referencedBy" ]::before {
+	content: "^";
+}
+span[ rel="mw:referencedBy" ] {
+	counter-reset: mw-ref-linkback 0;
+}
+span[ rel="mw:referencedBy" ] > a::before {
+	content: '<small>' counter( mw-ref-linkback, lower-alpha ) '</small>';
+}
+--- EMITTING CSS for sv.wiktionary ---
+--- EMITTING CSS for test.wikipedia ---
+@counter-style custom-group-label-thai-alphabetic {
+	system: fixed;
+	symbols: 'ก' 'ข' 'ค' 'ง' 'จ' 'ฉ' 'ช' 'ซ' 'ฌ' 'ญ' 'ฎ' 'ฏ' 'ฐ' 'ฑ' 'ฒ' 'ณ' 'ด' 'ต' 'ถ' 'ท' 'ธ' 'น' 'บ' 'ป' 'ผ' 'ฝ' 'พ' 'ฟ' 'ภ' 'ม' 'ย' 'ร' 'ล' 'ว' 'ศ' 'ษ' 'ส' 'ห' 'ฬ' 'อ' 'ฮกก' 'กข' 'กค' 'กง' 'กจ' 'กฉ' 'กช' 'กซ' 'กฌ' 'กญ' 'กฎ' 'กฏ' 'กฐ' 'กฑ' 'กฒ' 'กณ' 'กด' 'กต' 'กถ' 'กท' 'กธ' 'กน' 'กบ' 'กป' 'กผ' 'กฝ' 'กพ' 'กฟ' 'กภ' 'กม' 'กย' 'กร' 'กล' 'กว' 'กศ' 'กษ' 'กส' 'กห' 'กฬ' 'กอ' 'กฮ' 'ขก' 'ขข' 'ขค' 'ขง' 'ขจ' 'ขฉ' 'ขช' 'ขซ' 'ขฌ' 'ขญ' 'ขฎ' 'ขฏ' 'ขฐ' 'ขฑ' 'ขฒ' 'ขณ' 'ขด' 'ขต' 'ขถ' 'ขท' 'ขธ' 'ขน' 'ขบ' 'ขป' 'ขผ' 'ขฝ' 'ขพ' 'ขฟ' 'ขภ' 'ขม' 'ขย' 'ขร' 'ขล' 'ขว' 'ขศ' 'ขษ' 'ขส' 'ขห' 'ขฬ' 'ขอ' 'ขฮ' 'คก' 'คข' 'คค' 'คง' 'คจ' 'คฉ' 'คช' 'คซ' 'คฌ' 'คญ' 'คฎ' 'คฏ' 'คฐ' 'คฑ' 'คฒ' 'คณ' 'คด' 'คต' 'คถ' 'คท' 'คธ' 'คน' 'คบ' 'คป' 'คผ' 'คฝ' 'คพ' 'คฟ' 'คภ' 'คม' 'คย' 'คร' 'คล' 'คว' 'คศ' 'คษ' 'คส' 'คห' 'คฬ' 'คอ' 'คฮ' 'งก' 'งข' 'งค' 'งง' 'งจ' 'งฉ' 'งช' 'งซ' 'งฌ' 'งญ' 'งฎ' 'งฏ' 'งฐ' 'งฑ' 'งฒ' 'งณ' 'งด' 'งต' 'งถ' 'งท' 'งธ' 'งน' 'งบ' 'งป' 'งผ' 'งฝ' 'งพ' 'งฟ' 'งภ' 'งม' 'งย' 'งร' 'งล' 'งว' 'งศ' 'งษ' 'งส' 'งห' 'งฬ' 'งอ' 'งฮ' 'จก' 'จข' 'จค' 'จง' 'จจ' 'จฉ' 'จช' 'จซ' 'จฌ' 'จญ' 'จฎ' 'จฏ' 'จฐ' 'จฑ' 'จฒ' 'จณ' 'จด' 'จต' 'จถ' 'จท' 'จธ' 'จน' 'จบ' 'จป' 'จผ' 'จฝ' 'จพ' 'จฟ' 'จภ' 'จม' 'จย' 'จร' 'จล' 'จว' 'จศ' 'จษ' 'จส' 'จห' 'จฬ' 'จอ' 'จฮ' 'ฉก' 'ฉข' 'ฉค' 'ฉง' 'ฉจ' 'ฉฉ' 'ฉช' 'ฉซ' 'ฉฌ' 'ฉญ' 'ฉฎ' 'ฉฏ' 'ฉฐ' 'ฉฑ' 'ฉฒ' 'ฉณ' 'ฉด' 'ฉต' 'ฉถ' 'ฉท' 'ฉธ' 'ฉน' 'ฉบ' 'ฉป' 'ฉผ' 'ฉฝ' 'ฉพ' 'ฉฟ' 'ฉภ' 'ฉม' 'ฉย' 'ฉร' 'ฉล' 'ฉว' 'ฉศ' 'ฉษ' 'ฉส' 'ฉห' 'ฉฬ' 'ฉอ' 'ฉฮ' 'ชก' 'ชข' 'ชค' 'ชง' 'ชจ' 'ชฉ' 'ชช' 'ชซ' 'ชฌ' 'ชญ' 'ชฎ' 'ชฏ' 'ชฐ' 'ชฑ' 'ชฒ' 'ชณ' 'ชด' 'ชต' 'ชถ' 'ชท' 'ชธ' 'ชน' 'ชบ' 'ชป' 'ชผ' 'ชฝ' 'ชพ' 'ชฟ' 'ชภ' 'ชม' 'ชย' 'ชร' 'ชล' 'ชว' 'ชศ' 'ชษ' 'ชส' 'ชห' 'ชฬ' 'ชอ' 'ชฮ' 'ซก' 'ซข' 'ซค' 'ซง' 'ซจ' 'ซฉ' 'ซช' 'ซซ' 'ซฌ' 'ซญ' 'ซฎ' 'ซฏ' 'ซฐ' 'ซฑ' 'ซฒ' 'ซณ' 'ซด' 'ซต' 'ซถ' 'ซท' 'ซธ' 'ซน' 'ซบ' 'ซป' 'ซผ' 'ซฝ' 'ซพ' 'ซฟ' 'ซภ' 'ซม' 'ซย' 'ซร' 'ซล' 'ซว' 'ซศ' 'ซษ' 'ซส' 'ซห' 'ซฬ' 'ซอ' 'ซฮ' 'ฌก' 'ฌข' 'ฌค' 'ฌง' 'ฌจ' 'ฌฉ' 'ฌช' 'ฌซ' 'ฌฌ' 'ฌญ' 'ฌฎ' 'ฌฏ' 'ฌฐ' 'ฌฑ' 'ฌฒ' 'ฌณ' 'ฌด' 'ฌต' 'ฌถ' 'ฌท' 'ฌธ' 'ฌน' 'ฌบ' 'ฌป' 'ฌผ' 'ฌฝ' 'ฌพ' 'ฌฟ' 'ฌภ' 'ฌม' 'ฌย' 'ฌร' 'ฌล' 'ฌว' 'ฌศ' 'ฌษ' 'ฌส' 'ฌห' 'ฌฬ' 'ฌอ' 'ฌฮ' 'ญก' 'ญข' 'ญค' 'ญง' 'ญจ' 'ญฉ' 'ญช' 'ญซ' 'ญฌ' 'ญญ' 'ญฎ' 'ญฏ' 'ญฐ' 'ญฑ' 'ญฒ' 'ญณ' 'ญด' 'ญต' 'ญถ' 'ญท' 'ญธ' 'ญน' 'ญบ' 'ญป' 'ญผ' 'ญฝ' 'ญพ' 'ญฟ' 'ญภ' 'ญม' 'ญย' 'ญร' 'ญล' 'ญว' 'ญศ' 'ญษ' 'ญส' 'ญห' 'ญฬ' 'ญอ' 'ญฮ' 'ฎก' 'ฎข' 'ฎค' 'ฎง' 'ฎจ' 'ฎฉ' 'ฎช' 'ฎซ' 'ฎฌ' 'ฎญ' 'ฎฎ' 'ฎฏ' 'ฎฐ' 'ฎฑ' 'ฎฒ' 'ฎณ' 'ฎด' 'ฎต' 'ฎถ' 'ฎท' 'ฎธ' 'ฎน' 'ฎบ' 'ฎป' 'ฎผ' 'ฎฝ' 'ฎพ' 'ฎฟ' 'ฎภ' 'ฎม' 'ฎย' 'ฎร' 'ฎล' 'ฎว' 'ฎศ' 'ฎษ' 'ฎส' 'ฎห' 'ฎฬ' 'ฎอ' 'ฎฮ' 'ฏก' 'ฏข' 'ฏค' 'ฏง' 'ฏจ' 'ฏฉ' 'ฏช' 'ฏซ' 'ฏฌ' 'ฏญ' 'ฏฎ' 'ฏฏ' 'ฏฐ' 'ฏฑ' 'ฏฒ' 'ฏณ' 'ฏด' 'ฏต' 'ฏถ' 'ฏท' 'ฏธ' 'ฏน' 'ฏบ' 'ฏป' 'ฏผ' 'ฏฝ' 'ฏพ' 'ฏฟ' 'ฏภ' 'ฏม' 'ฏย' 'ฏร' 'ฏล' 'ฏว' 'ฏศ' 'ฏษ' 'ฏส' 'ฏห' 'ฏฬ' 'ฏอ' 'ฏฮ' 'ฐก' 'ฐข' 'ฐค' 'ฐง' 'ฐจ' 'ฐฉ' 'ฐช' 'ฐซ' 'ฐฌ' 'ฐญ' 'ฐฎ' 'ฐฏ' 'ฐฐ' 'ฐฑ' 'ฐฒ' 'ฐณ' 'ฐด' 'ฐต' 'ฐถ' 'ฐท' 'ฐธ' 'ฐน' 'ฐบ' 'ฐป' 'ฐผ' 'ฐฝ' 'ฐพ' 'ฐฟ' 'ฐภ' 'ฐม' 'ฐย' 'ฐร' 'ฐล' 'ฐว' 'ฐศ' 'ฐษ' 'ฐส' 'ฐห' 'ฐฬ' 'ฐอ' 'ฐฮ' 'ฑก' 'ฑข' 'ฑค' 'ฑง' 'ฑจ' 'ฑฉ' 'ฑช' 'ฑซ' 'ฑฌ' 'ฑญ' 'ฑฎ' 'ฑฏ' 'ฑฐ' 'ฑฑ' 'ฑฒ' 'ฑณ' 'ฑด' 'ฑต' 'ฑถ' 'ฑท' 'ฑธ' 'ฑน' 'ฑบ' 'ฑป' 'ฑผ' 'ฑฝ' 'ฑพ' 'ฑฟ' 'ฑภ' 'ฑม' 'ฑย' 'ฑร' 'ฑล' 'ฑว' 'ฑศ' 'ฑษ' 'ฑส' 'ฑห' 'ฑฬ' 'ฑอ' 'ฑฮ' 'ฒก' 'ฒข' 'ฒค' 'ฒง' 'ฒจ' 'ฒฉ' 'ฒช' 'ฒซ' 'ฒฌ' 'ฒญ' 'ฒฎ' 'ฒฏ' 'ฒฐ' 'ฒฑ' 'ฒฒ' 'ฒณ' 'ฒด' 'ฒต' 'ฒถ' 'ฒท' 'ฒธ' 'ฒน' 'ฒบ' 'ฒป' 'ฒผ' 'ฒฝ' 'ฒพ' 'ฒฟ' 'ฒภ' 'ฒม' 'ฒย' 'ฒร' 'ฒล' 'ฒว' 'ฒศ' 'ฒษ' 'ฒส' 'ฒห' 'ฒฬ' 'ฒอ' 'ฒฮ' 'ณก' 'ณข' 'ณค' 'ณง' 'ณจ' 'ณฉ' 'ณช' 'ณซ' 'ณฌ' 'ณญ' 'ณฎ' 'ณฏ' 'ณฐ' 'ณฑ' 'ณฒ' 'ณณ' 'ณด' 'ณต' 'ณถ' 'ณท' 'ณธ' 'ณน' 'ณบ' 'ณป' 'ณผ' 'ณฝ' 'ณพ' 'ณฟ' 'ณภ' 'ณม' 'ณย' 'ณร' 'ณล' 'ณว' 'ณศ' 'ณษ' 'ณส' 'ณห' 'ณฬ' 'ณอ' 'ณฮ' 'ดก' 'ดข' 'ดค' 'ดง' 'ดจ' 'ดฉ' 'ดช' 'ดซ' 'ดฌ' 'ดญ' 'ดฎ' 'ดฏ' 'ดฐ' 'ดฑ' 'ดฒ' 'ดณ' 'ดด' 'ดต' 'ดถ' 'ดท' 'ดธ' 'ดน' 'ดบ' 'ดป' 'ดผ' 'ดฝ' 'ดพ' 'ดฟ' 'ดภ' 'ดม' 'ดย' 'ดร' 'ดล' 'ดว' 'ดศ' 'ดษ' 'ดส' 'ดห' 'ดฬ' 'ดอ' 'ดฮ' 'ตก' 'ตข' 'ตค' 'ตง' 'ตจ' 'ตฉ' 'ตช' 'ตซ' 'ตฌ' 'ตญ' 'ตฎ' 'ตฏ' 'ตฐ' 'ตฑ' 'ตฒ' 'ตณ' 'ตด' 'ตต' 'ตถ' 'ตท' 'ตธ' 'ตน' 'ตบ' 'ตป' 'ตผ' 'ตฝ' 'ตพ' 'ตฟ' 'ตภ' 'ตม' 'ตย' 'ตร' 'ตล' 'ตว' 'ตศ' 'ตษ' 'ตส' 'ตห' 'ตฬ' 'ตอ' 'ตฮ' 'ถก' 'ถข' 'ถค' 'ถง' 'ถจ' 'ถฉ' 'ถช' 'ถซ' 'ถฌ' 'ถญ' 'ถฎ' 'ถฏ' 'ถฐ' 'ถฑ' 'ถฒ' 'ถณ' 'ถด' 'ถต' 'ถถ' 'ถท' 'ถธ' 'ถน' 'ถบ' 'ถป' 'ถผ' 'ถฝ' 'ถพ' 'ถฟ' 'ถภ' 'ถม' 'ถย' 'ถร' 'ถล' 'ถว' 'ถศ' 'ถษ' 'ถส' 'ถห' 'ถฬ' 'ถอ' 'ถฮ' 'ทก' 'ทข' 'ทค' 'ทง' 'ทจ' 'ทฉ' 'ทช' 'ทซ' 'ทฌ' 'ทญ' 'ทฎ' 'ทฏ' 'ทฐ' 'ทฑ' 'ทฒ' 'ทณ' 'ทด' 'ทต' 'ทถ' 'ทท' 'ทธ' 'ทน' 'ทบ' 'ทป' 'ทผ' 'ทฝ' 'ทพ' 'ทฟ' 'ทภ' 'ทม' 'ทย' 'ทร' 'ทล' 'ทว' 'ทศ' 'ทษ' 'ทส' 'ทห' 'ทฬ' 'ทอ' 'ทฮ' 'ธก' 'ธข' 'ธค' 'ธง' 'ธจ' 'ธฉ' 'ธช' 'ธซ' 'ธฌ' 'ธญ' 'ธฎ' 'ธฏ' 'ธฐ' 'ธฑ' 'ธฒ' 'ธณ' 'ธด' 'ธต' 'ธถ' 'ธท' 'ธธ' 'ธน' 'ธบ' 'ธป' 'ธผ' 'ธฝ' 'ธพ' 'ธฟ' 'ธภ' 'ธม' 'ธย' 'ธร' 'ธล' 'ธว' 'ธศ' 'ธษ' 'ธส' 'ธห' 'ธฬ' 'ธอ' 'ธฮ' 'นก' 'นข' 'นค' 'นง' 'นจ' 'นฉ' 'นช' 'นซ' 'นฌ' 'นญ' 'นฎ' 'นฏ' 'นฐ' 'นฑ' 'นฒ' 'นณ' 'นด' 'นต' 'นถ' 'นท' 'นธ' 'นน' 'นบ' 'นป' 'นผ' 'นฝ' 'นพ' 'นฟ' 'นภ' 'นม' 'นย' 'นร' 'นล' 'นว' 'นศ' 'นษ' 'นส' 'นห' 'นฬ' 'นอ' 'นฮ' 'บก' 'บข' 'บค' 'บง' 'บจ' 'บฉ' 'บช' 'บซ' 'บฌ' 'บญ' 'บฎ' 'บฏ' 'บฐ' 'บฑ' 'บฒ' 'บณ' 'บด' 'บต' 'บถ' 'บท' 'บธ' 'บน' 'บบ' 'บป' 'บผ' 'บฝ' 'บพ' 'บฟ' 'บภ' 'บม' 'บย' 'บร' 'บล' 'บว' 'บศ' 'บษ' 'บส' 'บห' 'บฬ' 'บอ' 'บฮ' 'ปก' 'ปข' 'ปค' 'ปง' 'ปจ' 'ปฉ' 'ปช' 'ปซ' 'ปฌ' 'ปญ' 'ปฎ' 'ปฏ' 'ปฐ' 'ปฑ' 'ปฒ' 'ปณ' 'ปด' 'ปต' 'ปถ' 'ปท' 'ปธ' 'ปน' 'ปบ' 'ปป' 'ปผ' 'ปฝ' 'ปพ' 'ปฟ' 'ปภ' 'ปม' 'ปย' 'ปร' 'ปล' 'ปว' 'ปศ' 'ปษ' 'ปส' 'ปห' 'ปฬ' 'ปอ' 'ปฮ' 'ผก' 'ผข' 'ผค' 'ผง' 'ผจ' 'ผฉ' 'ผช' 'ผซ' 'ผฌ' 'ผญ' 'ผฎ' 'ผฏ' 'ผฐ' 'ผฑ' 'ผฒ' 'ผณ' 'ผด' 'ผต' 'ผถ' 'ผท' 'ผธ' 'ผน' 'ผบ' 'ผป' 'ผผ' 'ผฝ' 'ผพ' 'ผฟ' 'ผภ' 'ผม' 'ผย' 'ผร' 'ผล' 'ผว' 'ผศ' 'ผษ' 'ผส' 'ผห' 'ผฬ' 'ผอ' 'ผฮ' 'ฝก' 'ฝข' 'ฝค' 'ฝง' 'ฝจ' 'ฝฉ' 'ฝช' 'ฝซ' 'ฝฌ' 'ฝญ' 'ฝฎ' 'ฝฏ' 'ฝฐ' 'ฝฑ' 'ฝฒ' 'ฝณ' 'ฝด' 'ฝต' 'ฝถ' 'ฝท' 'ฝธ' 'ฝน' 'ฝบ' 'ฝป' 'ฝผ' 'ฝฝ' 'ฝพ' 'ฝฟ' 'ฝภ' 'ฝม' 'ฝย' 'ฝร' 'ฝล' 'ฝว' 'ฝศ' 'ฝษ' 'ฝส' 'ฝห' 'ฝฬ' 'ฝอ' 'ฝฮ' 'พก' 'พข' 'พค' 'พง' 'พจ' 'พฉ' 'พช' 'พซ' 'พฌ' 'พญ' 'พฎ' 'พฏ' 'พฐ' 'พฑ' 'พฒ' 'พณ' 'พด' 'พต' 'พถ' 'พท' 'พธ' 'พน' 'พบ' 'พป' 'พผ' 'พฝ' 'พพ' 'พฟ' 'พภ' 'พม' 'พย' 'พร' 'พล' 'พว' 'พศ' 'พษ' 'พส' 'พห' 'พฬ' 'พอ' 'พฮ' 'ฟก' 'ฟข' 'ฟค' 'ฟง' 'ฟจ' 'ฟฉ' 'ฟช' 'ฟซ' 'ฟฌ' 'ฟญ' 'ฟฎ' 'ฟฏ' 'ฟฐ' 'ฟฑ' 'ฟฒ' 'ฟณ' 'ฟด' 'ฟต' 'ฟถ' 'ฟท' 'ฟธ' 'ฟน' 'ฟบ' 'ฟป' 'ฟผ' 'ฟฝ' 'ฟพ' 'ฟฟ' 'ฟภ' 'ฟม' 'ฟย' 'ฟร' 'ฟล' 'ฟว' 'ฟศ' 'ฟษ' 'ฟส' 'ฟห' 'ฟฬ' 'ฟอ' 'ฟฮ' 'ภก' 'ภข' 'ภค' 'ภง' 'ภจ' 'ภฉ' 'ภช' 'ภซ' 'ภฌ' 'ภญ' 'ภฎ' 'ภฏ' 'ภฐ' 'ภฑ' 'ภฒ' 'ภณ' 'ภด' 'ภต' 'ภถ' 'ภท' 'ภธ' 'ภน' 'ภบ' 'ภป' 'ภผ' 'ภฝ' 'ภพ' 'ภฟ' 'ภภ' 'ภม' 'ภย' 'ภร' 'ภล' 'ภว' 'ภศ' 'ภษ' 'ภส' 'ภห' 'ภฬ' 'ภอ' 'ภฮ' 'มก' 'มข' 'มค' 'มง' 'มจ' 'มฉ' 'มช' 'มซ' 'มฌ' 'มญ' 'มฎ' 'มฏ' 'มฐ' 'มฑ' 'มฒ' 'มณ' 'มด' 'มต' 'มถ' 'มท' 'มธ' 'มน' 'มบ' 'มป' 'มผ' 'มฝ' 'มพ' 'มฟ' 'มภ' 'มม' 'มย' 'มร' 'มล' 'มว' 'มศ' 'มษ' 'มส' 'มห' 'มฬ' 'มอ' 'มฮ' 'ยก' 'ยข' 'ยค' 'ยง' 'ยจ' 'ยฉ' 'ยช' 'ยซ' 'ยฌ' 'ยญ' 'ยฎ' 'ยฏ' 'ยฐ' 'ยฑ' 'ยฒ' 'ยณ' 'ยด' 'ยต' 'ยถ' 'ยท' 'ยธ' 'ยน' 'ยบ' 'ยป' 'ยผ' 'ยฝ' 'ยพ' 'ยฟ' 'ยภ' 'ยม' 'ยย' 'ยร' 'ยล' 'ยว' 'ยศ' 'ยษ' 'ยส' 'ยห' 'ยฬ' 'ยอ' 'ยฮ' 'รก' 'รข' 'รค' 'รง' 'รจ' 'รฉ' 'รช' 'รซ' 'รฌ' 'รญ' 'รฎ' 'รฏ' 'รฐ' 'รฑ' 'รฒ' 'รณ' 'รด' 'รต' 'รถ' 'รท' 'รธ' 'รน' 'รบ' 'รป' 'รผ' 'รฝ' 'รพ' 'รฟ' 'รภ' 'รม' 'รย' 'รร' 'รล' 'รว' 'รศ' 'รษ' 'รส' 'รห' 'รฬ' 'รอ' 'รฮ' 'ลก' 'ลข' 'ลค' 'ลง' 'ลจ' 'ลฉ' 'ลช' 'ลซ' 'ลฌ' 'ลญ' 'ลฎ' 'ลฏ' 'ลฐ' 'ลฑ' 'ลฒ' 'ลณ' 'ลด' 'ลต' 'ลถ' 'ลท' 'ลธ' 'ลน' 'ลบ' 'ลป' 'ลผ' 'ลฝ' 'ลพ' 'ลฟ' 'ลภ' 'ลม' 'ลย' 'ลร' 'ลล' 'ลว' 'ลศ' 'ลษ' 'ลส' 'ลห' 'ลฬ' 'ลอ' 'ลฮ' 'วก' 'วข' 'วค' 'วง' 'วจ' 'วฉ' 'วช' 'วซ' 'วฌ' 'วญ' 'วฎ' 'วฏ' 'วฐ' 'วฑ' 'วฒ' 'วณ' 'วด' 'วต' 'วถ' 'วท' 'วธ' 'วน' 'วบ' 'วป' 'วผ' 'วฝ' 'วพ' 'วฟ' 'วภ' 'วม' 'วย' 'วร' 'วล' 'วว' 'วศ' 'วษ' 'วส' 'วห' 'วฬ' 'วอ' 'วฮ' 'ศก' 'ศข' 'ศค' 'ศง' 'ศจ' 'ศฉ' 'ศช' 'ศซ' 'ศฌ' 'ศญ' 'ศฎ' 'ศฏ' 'ศฐ' 'ศฑ' 'ศฒ' 'ศณ' 'ศด' 'ศต' 'ศถ' 'ศท' 'ศธ' 'ศน' 'ศบ' 'ศป' 'ศผ' 'ศฝ' 'ศพ' 'ศฟ' 'ศภ' 'ศม' 'ศย' 'ศร' 'ศล' 'ศว' 'ศศ' 'ศษ' 'ศส' 'ศห' 'ศฬ' 'ศอ' 'ศฮ' 'ษก' 'ษข' 'ษค' 'ษง' 'ษจ' 'ษฉ' 'ษช' 'ษซ' 'ษฌ' 'ษญ' 'ษฎ' 'ษฏ' 'ษฐ' 'ษฑ' 'ษฒ' 'ษณ' 'ษด' 'ษต' 'ษถ' 'ษท' 'ษธ' 'ษน' 'ษบ' 'ษป' 'ษผ' 'ษฝ' 'ษพ' 'ษฟ' 'ษภ' 'ษม' 'ษย' 'ษร' 'ษล' 'ษว' 'ษศ' 'ษษ' 'ษส' 'ษห' 'ษฬ' 'ษอ' 'ษฮ' 'สก' 'สข' 'สค' 'สง' 'สจ' 'สฉ' 'สช' 'สซ' 'สฌ' 'สญ' 'สฎ' 'สฏ' 'สฐ' 'สฑ' 'สฒ' 'สณ' 'สด' 'สต' 'สถ' 'สท' 'สธ' 'สน' 'สบ' 'สป' 'สผ' 'สฝ' 'สพ' 'สฟ' 'สภ' 'สม' 'สย' 'สร' 'สล' 'สว' 'สศ' 'สษ' 'สส' 'สห' 'สฬ' 'สอ' 'สฮ' 'หก' 'หข' 'หค' 'หง' 'หจ' 'หฉ' 'หช' 'หซ' 'หฌ' 'หญ' 'หฎ' 'หฏ' 'หฐ' 'หฑ' 'หฒ' 'หณ' 'หด' 'หต' 'หถ' 'หท' 'หธ' 'หน' 'หบ' 'หป' 'หผ' 'หฝ' 'หพ' 'หฟ' 'หภ' 'หม' 'หย' 'หร' 'หล' 'หว' 'หศ' 'หษ' 'หส' 'หห' 'หฬ' 'หอ' 'หฮ' 'ฬก' 'ฬข' 'ฬค' 'ฬง' 'ฬจ' 'ฬฉ' 'ฬช' 'ฬซ' 'ฬฌ' 'ฬญ' 'ฬฎ' 'ฬฏ' 'ฬฐ' 'ฬฑ' 'ฬฒ' 'ฬณ' 'ฬด' 'ฬต' 'ฬถ' 'ฬท' 'ฬธ' 'ฬน' 'ฬบ' 'ฬป' 'ฬผ' 'ฬฝ' 'ฬพ' 'ฬฟ' 'ฬภ' 'ฬม' 'ฬย' 'ฬร' 'ฬล' 'ฬว' 'ฬศ' 'ฬษ' 'ฬส' 'ฬห' 'ฬฬ' 'ฬอ' 'ฬฮ' 'อก' 'อข' 'อค' 'อง' 'อจ' 'อฉ' 'อช' 'อซ' 'อฌ' 'อญ' 'อฎ' 'อฏ' 'อฐ' 'อฑ' 'อฒ' 'อณ' 'อด' 'อต' 'อถ' 'อท' 'อธ' 'อน' 'อบ' 'อป' 'อผ' 'อฝ' 'อพ' 'อฟ' 'อภ' 'อม' 'อย' 'อร' 'อล' 'อว' 'อศ' 'อษ' 'อส' 'อห' 'อฬ' 'ออ' 'อฮ' 'ฮก' 'ฮข' 'ฮค' 'ฮง' 'ฮจ' 'ฮฉ' 'ฮช' 'ฮซ' 'ฮฌ' 'ฮญ' 'ฮฎ' 'ฮฏ' 'ฮฐ' 'ฮฑ' 'ฮฒ' 'ฮณ' 'ฮด' 'ฮต' 'ฮถ' 'ฮท' 'ฮธ' 'ฮน' 'ฮบ' 'ฮป' 'ฮผ' 'ฮฝ' 'ฮพ' 'ฮฟ' 'ฮภ' 'ฮม' 'ฮย' 'ฮร' 'ฮล' 'ฮว' 'ฮศ' 'ฮษ' 'ฮส' 'ฮห' 'ฮฬ' 'ฮอ' 'ฮฮ';
+}
+span[ rel="mw:referencedBy" ]::before {
+	content: "^ ";
+}
+span[ rel="mw:referencedBy" ] {
+	counter-reset: mw-ref-linkback 0;
+}
+span[ rel="mw:referencedBy" ] > a::before {
+	font-weight: bold;
+	font-style: italic;
+	content: counter( mw-ref-linkback, lower-alpha );
+}
+a[ rel="mw:referencedBy" ]::before {
+	content: "^";
+}
+.mw-ref > a[data-mw-group=thai-alphabetic]::after {
+	content: '[' counter( mw-Ref, custom-group-label-thai-alphabetic ) ']';
+}
+--- EMITTING CSS for tg.wikipedia ---
+--- EMITTING CSS for ti.wikipedia ---
+span[ rel="mw:referencedBy" ] {
+	counter-reset: mw-ref-linkback 0;
+}
+span[ rel="mw:referencedBy" ] > a::before {
+	font-weight: bold;
+	font-style: italic;
+	content: counter( mw-ref-linkback, lower-alpha );
+}
+--- EMITTING CSS for tr.wikipedia ---
+span[ rel="mw:referencedBy" ]::before {
+	font-weight: bold;
+	content: "^ ";
+}
+span[ rel="mw:referencedBy" ] {
+	counter-reset: mw-ref-linkback 0;
+}
+span[ rel="mw:referencedBy" ] > a::before {
+	font-weight: bold;
+	font-style: italic;
+	content: counter( mw-ref-linkback, lower-alpha );
+}
+a[ rel="mw:referencedBy" ]::before {
+	font-weight: bold;
+	content: "^";
+}
+.mw-ref > a[data-mw-group=lower-roman]::after {
+	content: '[' counter( mw-Ref, lower-roman ) ']';
+}
+.mw-ref > a[data-mw-group=lower-alpha]::after {
+	content: '[' counter( mw-Ref, lower-alpha ) ']';
+}
+.mw-ref > a[data-mw-group=lower-greek]::after {
+	content: '[' counter( mw-Ref, lower-greek ) ']';
+}
+.mw-ref > a[data-mw-group=upper-roman]::after {
+	content: '[' counter( mw-Ref, upper-roman ) ']';
+}
+--- EMITTING CSS for tr.wiktionary ---
+span[ rel="mw:referencedBy" ] {
+	counter-reset: mw-ref-linkback 0;
+}
+span[ rel="mw:referencedBy" ] > a::before {
+	font-weight: bold;
+	font-style: italic;
+	content: counter( mw-ref-linkback, lower-alpha );
+}
+--- EMITTING CSS for ua.wikimedia ---
+@counter-style custom-backlink {
+	system: alphabetic;
+	symbols: 'а' 'б' 'в' 'г' 'д' 'е' 'ж' 'и' 'к' 'л' 'м' 'н' 'п' 'р' 'с' 'т' 'у' 'ф' 'х' 'ц' 'ш' 'щ' 'ю' 'я';
+}
+span[ rel="mw:referencedBy" ] {
+	counter-reset: mw-ref-linkback 0;
+}
+span[ rel="mw:referencedBy" ] > a::before {
+	font-weight: bold;
+	font-style: italic;
+	content: counter( mw-ref-linkback, custom-backlink );
+}
+--- EMITTING CSS for uk.wikinews ---
+@counter-style custom-backlink {
+	system: alphabetic;
+	symbols: 'а' 'б' 'в' 'г' 'д' 'е' 'ж' 'и' 'к' 'л' 'м' 'н' 'п' 'р' 'с' 'т' 'у' 'ф' 'х' 'ц' 'ш' 'щ' 'ю' 'я';
+}
+span[ rel="mw:referencedBy" ] {
+	counter-reset: mw-ref-linkback 0;
+}
+span[ rel="mw:referencedBy" ] > a::before {
+	font-weight: bold;
+	font-style: italic;
+	content: counter( mw-ref-linkback, custom-backlink );
+}
+--- EMITTING CSS for uk.wikiquote ---
+@counter-style custom-backlink {
+	system: alphabetic;
+	symbols: 'а' 'б' 'в' 'г' 'д' 'е' 'ж' 'и' 'к' 'л' 'м' 'н' 'п' 'р' 'с' 'т' 'у' 'ф' 'х' 'ц' 'ш' 'щ' 'ю' 'я';
+}
+span[ rel="mw:referencedBy" ] {
+	counter-reset: mw-ref-linkback 0;
+}
+span[ rel="mw:referencedBy" ] > a::before {
+	font-weight: bold;
+	font-style: italic;
+	content: counter( mw-ref-linkback, custom-backlink );
+}
+--- EMITTING CSS for ur.wikipedia ---
+@counter-style custom-group-label-lower-alpha {
+	system: fixed;
+	symbols: 'ا' 'ب' 'پ' 'ت' 'ٹ' 'ث' 'ج' 'چ' 'ح' 'خ' 'د' 'ڈ' 'ذ' 'ر​' 'ڑ​' 'ز' 'ژ' 'س' 'ش' 'ص' 'ض' 'ط' 'ظ' 'ع' 'غ' 'ف' 'ق' 'ک' 'گ' 'ل​' 'م​' 'ن' 'و' 'ہ' 'ھ' 'ی' 'ے' 'اا' 'اب' 'ات' 'اث' 'اج' 'اح' 'اخ' 'اد' 'اذ' 'ار' 'از' 'اس' 'اش' 'اص' 'اض' 'اط' 'اظ' 'اع' 'اغ' 'اف' 'اق' 'اك' 'ال' 'ام' 'ان' 'اہ' 'او' 'ای' 'ب​ا' 'ب​ب' 'ب​پ' 'ب​ت' 'ب​ٹ' 'ب​ث' 'ب​ج' 'ب​چ' 'ب​ح' 'ب​خ' 'ب​د' 'ب​ڈ​' 'ب​ذ' 'ب​ر​' 'ب​ڑ​' 'ب​ز' 'ب​ژ' 'ب​س' 'ب​ش' 'ب​ص' 'ب​ض' 'ب​ط' 'ب​ظ' 'ب​ع' 'ب​غ' 'ب​ف' 'ب​ق' 'ب​ک' 'ب​گ' 'بل' 'ب​م​' 'ب​ن' 'ب​و' 'ب​ؤ' 'ب​ہ' 'ب​ھ' 'ب​ی' 'ب​ئ' 'ب​ے' 'ب​أ' 'ب​ء' 'ب​ۃ' 'پا' 'پب' 'پپ' 'پت' 'پٹ' 'پث' 'پج' 'پچ' 'پح' 'پخ' 'پد' 'پڈ' 'پذ' 'پر​' 'پڑ​' 'پز' 'پژ' 'پس' 'پش' 'پص' 'پض' 'پط' 'پظ' 'پع' 'پغ' 'پف' 'پق' 'پک' 'پگ' 'پل​' 'پم​' 'پن' 'پو' 'پؤ' 'پہ' 'پھ' 'پی' 'پئ' 'پے' 'پأ' 'پء' 'پۃ' 'تا' 'تب' 'تت' 'تث' 'تج' 'تح' 'تخ' 'تد' 'تذ' 'تر' 'تز' 'تس' 'تش' 'تص' 'تض' 'تط' 'تظ' 'تع' 'تغ' 'تف' 'تق' 'تك' 'تل' 'تم' 'تن' 'تہ' 'تو' 'تی' 'ٹآ' 'ٹا' 'ٹب' 'ٹپ' 'ٹت' 'ٹٹ' 'ٹث' 'ٹج' 'ٹچ' 'ٹح' 'ٹخ' 'ٹد' 'ٹڈ' 'ٹذ' 'ٹر​' 'ٹڑ​' 'ٹز' 'ٹژ' 'ٹس' 'ٹش' 'ٹص' 'ٹض' 'ٹط' 'ٹظ' 'ٹع' 'ٹغ' 'ٹف' 'ٹق' 'ٹک' 'ٹگ' 'ٹل​' 'ٹم​' 'ٹن' 'ٹو' 'ٹؤ' 'ٹہ' 'ٹھ' 'ٹی' 'ٹئ' 'ٹے' 'ٹآ' 'ٹأ' 'ٹء' 'ٹۃ' '​ثآ' 'ث​ا' 'ث​ب' 'ث​ث' 'ث​ت' 'ث​ٹ' 'ث​پ' 'ث​ج' 'ث​چ' 'ثح' 'ث​خ' 'ث​د' 'ث​ڈ​' 'ث​ذ' 'ث​ر​' 'ث​ڑ​' 'ث​ز' 'ث​ژ' 'ث​س' 'ث​ش' 'ث​ص' 'ث​ض' 'ث​ط' 'ث​ظ' 'ث​ع' 'ث​غ' 'ث​ف' 'ثق' 'ث​ک' 'ث​گ' 'ث​ل​' 'ث​م' 'ث​ن' 'ث​و' 'ث​ؤ' 'ث​ہ' 'ث​ھ' 'ث​ی' 'ث​ئ' 'ث​ے' 'ث​أ' 'ث​ء' 'ث​ۃ' 'ج​ا' 'ج​ب' 'ج​ث' 'ج​ت' 'ج​ٹ' 'ج​پ' 'ج​ج' 'ج​چ' 'جح' 'ج​خ' 'ج​د' 'ج​ڈ​' 'ج​ذ' 'ج​ر​' 'ج​ڑ​' 'ج​ز' 'ج​ژ' 'ج​س' 'ج​ش' 'ج​ص' 'ج​ض' 'ج​ط' 'ج​ظ' 'ج​ع' 'ج​غ' 'ج​ف' 'جق' 'ج​ک' 'ج​گ' 'ج​ل​' 'ج​م' 'ج​ن' 'ج​و' 'ج​ؤ' 'ج​ہ' 'ج​ھ' 'ج​ی' 'ج​ئ' 'ج​ے' 'ج​أ' 'ج​ء' 'ج​ۃ' 'چا' 'چب' 'چپ' 'چت' 'چٹ' 'چث' 'چج' 'چچ' 'چح' 'چخ' 'چد' 'چڈ' 'چذ' 'چر​' 'چڑ​' 'چز' 'چژ' 'چس' 'چش' 'چص' 'چض' 'چط' 'چظ' 'چع' 'چغ' 'چف' 'چق' 'چک' 'چگ' 'چل​' 'چم​' 'چن' 'چو' 'چؤ' 'چہ' 'چھ' 'چی' 'چئ' 'چے' 'چأ' 'چء' 'چۃ' '​ح​ا' 'ح​ب' 'ح​ث' 'ح​ت' 'ح​ٹ' 'ح​پ' 'ح​ج' 'ح​چ' 'حح' 'ح​خ' 'ح​د' 'ح​ڈ​' 'ح​ذ' 'ح​ر​' 'ح​ڑ​' 'ح​ز' 'ح​ژ' 'ح​س' 'ح​ش' 'ح​ص' 'ح​ض' 'ح​ط' 'ح​ظ' 'ح​ع' 'ح​غ' 'ح​ف' 'حق' 'ح​ک' 'ح​گ' 'ح​ل​' 'ح​م' 'ح​ن' 'ح​و' 'ح​ؤ' 'ح​ہ' 'ح​ھ' 'ح​ی' 'ح​ئ' 'ح​ے' 'ح​أ' 'ح​ء' 'ح​ۃ' 'خا' 'خب' 'خت' 'خث' 'خج' 'خح' 'خخ' 'خد' 'خذ' 'خر' 'خز' 'خس' 'خش' 'خص' 'خض' 'خط' 'خظ' 'خع' 'خغ' 'خف' 'خق' 'خك' 'خل' 'خم' 'خن' 'خہ' 'خو' 'خی' 'د​ا' 'د​ب' 'د​ث' 'د​ت' 'د​ٹ' 'د​پ' 'د​ج' 'د​چ' 'دح' 'د​خ' 'د​د' 'د​ڈ​' 'د​ذ' 'د​ر​' 'د​ڑ​' 'د​ز' 'د​ژ' 'د​س' 'د​ش' 'د​ص' 'د​ض' 'د​ط' 'د​ظ' 'د​ع' 'د​غ' 'د​ف' 'دق' 'د​ک' 'د​گ' 'د​ل​' 'د​م' 'د​ن' 'د​و' 'د​ؤ' 'د​ہ' 'د​ھ' 'د​ی' 'د​ئ' 'دے' 'د​أ' 'د​ء' 'د​ۃ' 'ڈا' 'ڈب' 'ڈپ' 'ڈت' 'ڈٹ' 'ڈث' 'ڈج' 'ڈچ' 'ڈح' 'ڈخ' 'ڈد' 'ڈڈ' 'ڈذ' 'ڈر​' 'ڈڑ​' 'ڈز' 'ڈژ' 'ڈس' 'ڈش' 'ڈص' 'ڈض' 'ڈط' 'ڈظ' 'ڈع' 'ڈغ' 'ڈف' 'ڈق' 'ڈک' 'ڈگ' 'ڈل​' 'ڈم​' 'ڈن' 'ڈو' 'ڈؤ' 'ڈہ' 'ڈھ' 'ڈی' 'ڈئ' 'ڈے' 'ڈأ' 'ڈء' 'ڈۃ' '​ذ​ا' 'ذ​ب' 'ذ​ث' 'ذ​ت' 'ذ​ٹ' 'ذ​پ' 'ذ​ج' 'ذ​چ' 'ذح' 'ذ​خ' 'ذ​د' 'ذ​ڈ​' 'ذ​ذ' 'ذ​ر​' 'ذ​ڑ​' 'ذ​ز' 'ذ​ژ' 'ذ​س' 'ذ​ش' 'ذ​ص' 'ذ​ض' 'ذ​ط' 'ذ​ظ' 'ذ​ع' 'ذ​غ' 'ذ​ف' 'ذق' 'ذ​ک' 'ذ​گ' 'ذ​ل​' 'ذ​م' 'ذ​ن' 'ذ​و' 'ذ​ؤ' 'ذ​ہ' 'ذ​ھ' 'ذ​ی' 'ذ​ئ' 'ذے' 'ذ​أ' 'ذ​ء' 'ذ​ۃ' '​ر​ا' 'ر​ب' 'ر​ث' 'ر​ت' 'ر​ٹ' 'ر​پ' 'ر​ج' 'ر​چ' 'رح' 'ر​خ' 'ر​د' 'ر​ڈ​' 'رذ' 'ر​ر​' 'ر​ڑ​' 'ر​ز' 'ر​ژ' 'ر​س' 'ر​ش' 'ر​ص' 'ر​ض' 'ر​ط' 'ر​ظ' 'ر​ع' 'ر​غ' 'ر​ف' 'رق' 'ر​ک' 'ر​گ' 'ر​ل​' 'ر​م' 'ر​ن' 'ر​و' 'ر​ؤ' 'ر​ہ' 'ر​ھ' 'ر​ی' 'ر​ئ' 'رے' 'ر​أ' 'ر​ء' 'ر​ۃ' 'ڑ​ا' 'ڑ​ب' 'ڑ​پ' 'ڑ​ت' 'ڑ​ٹ' 'ڑ​ث' 'ڑ​ج' 'ڑ​چ' 'ڑ​ح' 'ڑ​خ' 'ڑ​د' 'ڑ​ڈ​' 'ڑ​ذ' 'ڑ​ر​' 'ڑ​ڑ​' 'ڑ​ز' 'ڑ​ژ' 'ڑ​س' 'ڑ​ش' 'ڑ​ص' 'ڑ​ض' 'ڑ​ط' 'ڑ​ظ' 'ڑ​ع' 'ڑ​غ' 'ڑ​ف' 'ڑ​ق' 'ڑ​ک' 'ڑ​گ' 'ڑ​ل​' 'ڑ​م​' 'ڑ​ن' 'ڑ​و' 'ڑ​ؤ' 'ڑ​ہ' 'ڑ​ھ' 'ڑ​ی' 'ڑ​ئ' 'ڑ​ے' 'ڑ​أ' 'ڑ​ء' 'ڑ​ۃ' 'ز​ا' 'ز​ب' 'ز​ث' 'ز​ت' 'ز​ٹ' 'ز​پ' 'ز​ج' 'ز​چ' 'زح' 'ز​خ' 'ز​د' 'ز​ڈ​' 'زذ' 'ز​ر​' 'ز​ڑ​' 'ز​ز' 'ز​ژ' 'ز​س' 'ز​ش' 'ز​ص' 'ز​ض' 'ز​ط' 'ز​ظ' 'ز​ع' 'ز​غ' 'ز​ف' 'زق' 'ز​ک' 'ز​گ' 'ز​ل​' 'ز​م' 'ز​ن' 'ز​و' 'ز​ؤ' 'ز​ہ' 'ز​ھ' 'ز​ی' 'ز​ئ' 'زے' 'ز​أ' 'ز​ء' 'ز​ۃ' '​س​ا' 'س​ب' 'س​ث' 'س​ت' 'س​ٹ' 'س​پ' 'س​ج' 'س​چ' 'سح' 'س​خ' 'س​د' 'س​ڈ​' 'سذ' 'س​ر​' 'س​ڑ​' 'س​ز' 'س​ژ' 'س​س' 'س​ش' 'س​ص' 'س​ض' 'س​ط' 'س​ظ' 'س​ع' 'س​غ' 'س​ف' 'سق' 'س​ک' 'س​گ' 'س​ل​' 'س​م' 'س​ن' 'س​و' 'س​ؤ' 'س​ہ' 'س​ھ' 'س​ی' 'س​ئ' 'سے' 'س​أ' 'س​ء' 'س​ۃ' 'ش​ا' 'ش​ب' 'ش​ث' 'ش​ت' 'ش​ٹ' 'ش​پ' 'ش​ج' 'ش​چ' 'شح' 'ش​خ' 'ش​د' 'ش​ڈ​' 'شذ' 'ش​ر​' 'ش​ڑ​' 'ش​ز' 'ش​ژ' 'ش​س' 'ش​ش' 'ش​ص' 'ش​ض' 'ش​ط' 'ش​ظ' 'ش​ع' 'ش​غ' 'ش​ف' 'شق' 'ش​ک' 'ش​گ' 'ش​ل​' 'ش​م' 'ش​ن' 'ش​و' 'ش​ؤ' 'ش​ہ' 'ش​ھ' 'ش​ی' 'ش​ئ' 'شے' 'ش​أ' 'ش​ء' 'ش​ۃ' '​ص​ا' 'ص​ب' 'ص​ث' 'ص​ت' 'ص​ٹ' 'ص​پ' 'ص​ج' 'ص​چ' 'صح' 'ص​خ' 'ص​د' 'ص​ڈ​' 'صذ' 'ص​ر​' 'ص​ڑ​' 'ص​ز' 'ص​ژ' 'ص​س' 'ص​ش' 'ص​ص' 'ص​ض' 'ص​ط' 'ص​ظ' 'ص​ع' 'ص​غ' 'ص​ف' 'صق' 'ص​ک' 'ص​گ' 'ص​ل​' 'ص​م' 'ص​ن' 'ص​و' 'ص​ؤ' 'ص​ہ' 'ص​ھ' 'ص​ی' 'ص​ئ' 'صے' 'ص​أ' 'ص​ء' 'ص​ۃ' '​ض​ا' 'ض​ب' 'ض​ث' 'ض​ت' 'ض​ٹ' 'ض​پ' 'ض​ج' 'ض​چ' 'ضح' 'ض​خ' 'ض​د' 'ض​ڈ​' 'ضذ' 'ض​ر​' 'ض​ڑ​' 'ض​ز' 'ض​ژ' 'ض​س' 'ض​ش' 'ض​ص' 'ض​ض' 'ض​ط' 'ض​ظ' 'ض​ع' 'ض​غ' 'ض​ف' 'ضق' 'ض​ک' 'ض​گ' 'ض​ل​' 'ض​م' 'ض​ن' 'ض​و' 'ض​ؤ' 'ض​ہ' 'ض​ھ' 'ض​ی' 'ض​ئ' 'ضے' 'ض​أ' 'ض​ء' 'ض​ۃ' 'ط​ا' 'ط​ب' 'ط​ث' 'ط​ت' 'ط​ٹ' 'ط​پ' 'ط​ج' 'ط​چ' 'طح' 'ط​خ' 'ط​د' 'ط​ڈ​' 'طذ' 'ط​ر​' 'ط​ڑ​' 'ط​ز' 'ط​ژ' 'ط​س' 'ط​ش' 'ط​ص' 'ط​ض' 'ط​ط' 'ط​ظ' 'ط​ع' 'ط​غ' 'ط​ف' 'طق' 'ط​ک' 'ط​گ' 'ط​ل​' 'ط​م' 'ط​ن' 'ط​و' 'ط​ؤ' 'ط​ہ' 'ط​ھ' 'ط​ی' 'ط​ئ' 'طے' 'ط​أ' '​ظ​ا' 'ظ​ب' 'ظ​ث' 'ظ​ت' 'ظ​ٹ' 'ظ​پ' 'ظ​ج' 'ظ​چ' 'ظح' 'ظ​خ' 'ظ​د' 'ظ​ڈ​' 'ظذ' 'ظ​ر​' 'ظ​ڑ​' 'ظ​ز' 'ظ​ژ' 'ظ​س' 'ظ​ش' 'ظ​ص' 'ظ​ض' 'ظ​ط' 'ظ​ظ' 'ظ​ع' 'ظ​غ' 'ظ​ف' 'ظق' 'ظ​ک' 'ظ​گ' 'ظ​ل​' 'ظ​م' 'ظ​ن' 'ظ​و' 'ظ​ؤ' 'ظ​ہ' 'ظ​ھ' 'ظ​ی' 'ظ​ئ' 'ظے' 'ظ​أ' 'ظ​ء' 'ظ​ۃ' 'ع​ا' 'ع​ب' 'ع​ث' 'ع​ت' 'ع​ٹ' 'ع​پ' 'ع​ج' 'ع​چ' 'عح' 'ع​خ' 'ع​د' 'ع​ڈ​' 'عذ' 'ع​ر​' 'ع​ڑ​' 'ع​ز' 'ع​ژ' 'ع​س' 'ع​ش' 'ع​ص' 'ع​ض' 'ع​ط' 'ع​ظ' 'ع​ع' 'ع​غ' 'ع​ف' 'عق' 'ع​ک' 'ع​گ' 'ع​ل​' 'ع​م' 'ع​ن' 'ع​و' 'ع​ؤ' 'ع​ہ' 'ع​ھ' 'ع​ی' 'ع​ئ' 'عے' 'ع​أ' 'ع​ء' 'ع​ۃ' 'غ​ا' 'غ​ب' 'غ​ث' 'غ​ت' 'غ​ٹ' 'غ​پ' 'غ​ج' 'غ​چ' 'غح' 'غ​خ' 'غ​د' 'غ​ڈ​' 'غذ' 'غ​ر​' 'غ​ڑ​' 'غ​ز' 'غ​ژ' 'غ​س' 'غ​ش' 'غ​ص' 'غ​ض' 'غ​ط' 'غ​ظ' 'غ​ع' 'غ​غ' 'غ​ف' 'غق' 'غ​ک' 'غ​گ' 'غ​ل​' 'غ​م' 'غ​ن' 'غ​و' 'غ​ؤ' 'غ​ہ' 'غ​ھ' 'غ​ی' 'غ​ئ' 'غے' 'غ​أ' 'غ​ء' 'غ​ۃ' 'ف​ا' 'ف​ب' 'ف​ث' 'ف​ت' 'ف​ٹ' 'ف​پ' 'ف​ج' 'ف​چ' 'فح' 'ف​خ' 'ف​د' 'ف​ڈ​' 'فذ' 'ف​ر​' 'ف​ڑ​' 'ف​ز' 'ف​ژ' 'ف​س' 'ف​ش' 'ف​ص' 'ف​ض' 'ف​ط' 'ف​ظ' 'ف​ع' 'ف​غ' 'ف​ف' 'فق' 'ف​ک' 'ف​گ' 'ف​ل​' 'ف​م' 'ف​ن' 'ف​و' 'ف​ؤ' 'ف​ہ' 'ف​ھ' 'ف​ی' 'ف​ئ' 'فے' 'ف​أ' 'ف​ء' 'ف​ۃ' 'ق​ا' 'ق​ب' 'ق​ث' 'ق​ت' 'ق​ٹ' 'ق​پ' 'ق​ج' 'ق​چ' 'قح' 'ق​خ' 'ق​د' 'ق​ڈ​' 'قذ' 'ق​ر​' 'ق​ڑ​' 'ق​ز' 'ق​ژ' 'ق​س' 'ق​ش' 'ق​ص' 'ق​ض' 'ق​ط' 'ق​ظ' 'ق​ع' 'ق​غ' 'ق​ف' 'قق' 'ق​ک' 'ق​گ' 'ق​ل​' 'ق​م' 'ق​ن' 'ق​و' 'ق​ؤ' 'ق​ہ' 'ق​ھ' 'ق​ی' 'ق​ئ' 'قے' 'ق​أ' 'ق​ء' 'ق​ۃ' '​ک​ا' 'ک​ب' 'ک​ث' 'ک​ت' 'ک​ٹ' 'ک​پ' 'ک​ج' 'ک​چ' 'کح' 'ک​خ' 'ک​د' 'ک​ڈ​' 'کذ' 'ک​ر​' 'ک​ڑ​' 'ک​ز' 'ک​ژ' 'ک​س' 'ک​ش' 'ک​ص' 'ک​ض' 'ک​ط' 'ک​ظ' 'ک​ع' 'ک​غ' 'ک​ف' 'کق' 'ک​ک' 'ک​گ' 'ک​ل​' 'ک​م' 'ک​ن' 'ک​و' 'ک​ؤ' 'ک​ہ' 'ک​ھ' 'ک​ی' 'ک​ئ' 'کے' 'ک​أ' 'ک​ء' 'ک​ۃ' '​گآ' 'گ​ا' 'گ​ب' 'گ​ث' 'گ​ت' 'گ​ٹ' 'گ​پ' 'گ​ج' 'گ​چ' 'گح' 'گ​خ' 'گ​د' 'گ​ڈ​' 'گذ' 'گ​ر​' 'گ​ڑ​' 'گ​ز' 'گ​ژ' 'گ​س' 'گ​ش' 'گ​ص' 'گ​ض' 'گ​ط' 'گ​ظ' 'گ​ع' 'گ​غ' 'گ​ف' 'گق' 'گ​ک' 'گ​گ' 'گ​ل​' 'گ​م' 'گ​ن' 'گ​و' 'گ​ؤ' 'گ​ہ' 'گ​ھ' 'گ​ی' 'گ​ئ' 'گے' 'گ​أ' 'گ​ء' 'گ​ۃ' 'ل​ا' 'ل​ب' 'ل​ث' 'ل​ت' 'ل​ٹ' 'ل​پ' 'ل​ج' 'ل​چ' 'لح' 'ل​خ' 'ل​د' 'ل​ڈ​' 'لذ' 'ل​ر​' 'ل​ڑ​' 'ل​ز' 'ل​ژ' 'ل​س' 'ل​ش' 'ل​ص' 'ل​ض' 'ل​ط' 'ل​ظ' 'ل​ع' 'ل​غ' 'ل​ف' 'لق' 'ل​ک' 'ل​گ' 'ل​ل​' 'ل​م' 'ل​ن' 'ل​و' 'ل​ؤ' 'ل​ہ' 'ل​ھ' 'ل​ی' 'ل​ئ' 'لے' 'ل​أ' 'ل​ء' 'ل​ۃ' '​م​ا' 'م​ب' 'م​ث' 'م​ت' 'م​ٹ' 'م​پ' 'م​ج' 'م​چ' 'مح' 'م​خ' 'م​د' 'م​ڈ​' 'مذ' 'م​ر​' 'م​ڑ​' 'م​ز' 'م​ژ' 'م​س' 'م​ش' 'م​ص' 'م​ض' 'م​ط' 'م​ظ' 'م​ع' 'م​غ' 'م​ف' 'مق' 'م​ک' 'م​گ' 'م​مل' 'م​م' 'م​ن' 'م​و' 'م​ؤ' 'م​ہ' 'م​ھ' 'م​ی' 'م​ئ' 'مے' 'م​أ' 'م​ء' 'م​ۃ' 'ن​ا' 'ن​ب' 'ن​ث' 'ن​ت' 'ن​ٹ' 'ن​پ' 'ن​ج' 'ن​چ' 'نح' 'ن​خ' 'ن​د' 'ن​ڈ​' 'نذ' 'ن​ر​' 'ن​ڑ​' 'ن​ز' 'ن​ژ' 'ن​س' 'ن​ش' 'ن​ص' 'ن​ض' 'ن​ط' 'ن​ظ' 'ن​ع' 'ن​غ' 'ن​ف' 'نق' 'ن​ک' 'ن​گ' '​نل' 'نم' 'ن​ن' 'ن​و' 'ن​ؤ' 'ن​ہ' 'ن​ھ' 'ن​ی' 'ن​ئ' 'نے' 'ن​أ' 'ن​ء' 'ن​ۃ' 'ہ​ا' 'ہ​ب' 'ہ​ث' 'ہ​ت' 'ہ​ٹ' 'ہ​پ' 'ہ​ج' 'ہ​چ' 'ہح' 'ہ​خ' 'ہ​د' 'ہ​ڈ​' 'ہذ' 'ہ​ر​' 'ہ​ڑ​' 'ہ​ز' 'ہ​ژ' 'ہ​س' 'ہ​ش' 'ہ​ص' 'ہ​ض' 'ہ​ط' 'ہ​ظ' 'ہ​ع' 'ہ​غ' 'ہ​ف' 'ہق' 'ہ​ک' 'ہ​گ' '​ہل' 'ہم' 'ہ​ن' 'ہ​و' 'ہ​ؤ' 'ہ​ہ' 'ہ​ھ' 'ہ​ی' 'ہ​ئ' 'ہے' 'ہ​أ' 'ہ​ء' 'ہ​ۃ' 'ھ​ا' 'ھ​ب' 'ھ​ث' 'ھ​ت' 'ھ​ٹ' 'ھ​پ' 'ھ​ج' 'ھ​چ' 'ھح' 'ھ​خ' 'ھ​د' 'ھ​ڈ​' 'ھذ' 'ھ​ر​' 'ھ​ڑ​' 'ھ​ز' 'ھ​ژ' 'ھ​س' 'ھ​ش' 'ھ​ص' 'ھ​ض' 'ھ​ط' 'ھ​ظ' 'ھ​ع' 'ھ​غ' 'ھ​ف' 'ھق' 'ھ​ک' 'ھ​گ' '​ھل' 'ہم' 'ھ​ن' 'ھ​ہ' 'ھ​و' 'ھ​ؤ' 'ھ​ھ' 'ھ​ی' 'ھ​ئ' 'ھے' 'ھ​أ' 'ھ​ء' 'ھ​ۃ' 'و​ا' 'و​ب' 'و​ث' 'و​ت' 'و​ٹ' 'و​پ' 'و​ج' 'و​چ' 'وح' 'و​خ' 'و​د' 'و​ڈ​' 'وذ' 'و​ر​' 'و​ڑ​' 'و​ز' 'و​ژ' 'و​س' 'و​ش' 'و​ص' 'و​ض' 'و​ط' 'و​ظ' 'و​ع' 'و​غ' 'و​ف' 'وق' 'و​ک' 'و​گ' '​ول' 'وم' 'و​ن' 'و​ہ' 'و​ؤ' 'و​و' 'و​ھ' 'و​ی' 'و​ئ' 'وے' 'و​أ' 'و​ء' 'و​ۃ' '​ی​ا' 'ی​ب' 'ی​ث' 'ی​ت' 'ی​ٹ' 'ی​پ' 'ی​ج' 'ی​چ' 'یح' 'ی​خ' 'ی​د' 'ی​ڈ​' 'یذ' 'ی​ر​' 'ی​ڑ​' 'ی​ز' 'ی​ژ' 'ی​س' 'ی​ش' 'ی​ص' 'ی​ض' 'ی​ط' 'ی​ظ' 'ی​ع' 'ی​غ' 'ی​ف' 'یق' 'ی​ک' 'ی​گ' '​یل' 'یم' 'ی​ن' 'ی​ہ' 'ی​و' 'ی​ؤ' 'یھ​ی' 'ی​ی' 'ی​ئ' 'یے' 'ی​أ' 'ی​ء' 'ی​ۃ';
+}
+@counter-style custom-backlink {
+	system: fixed;
+	symbols: 'ا' 'ب' 'پ' 'ت' 'ٹ' 'ث' 'ج' 'چ' 'ح' 'خ' 'د' 'ڈ' 'ذ' 'ر​' 'ڑ​' 'ز' 'ژ' 'س' 'ش' 'ص' 'ض' 'ط' 'ظ' 'ع' 'غ' 'ف' 'ق' 'ک' 'گ' 'ل​' 'م​' 'ن' 'و' 'ہ' 'ھ' 'ی' 'ے' 'اا' 'اب' 'ات' 'اث' 'اج' 'اح' 'اخ' 'اد' 'اذ' 'ار' 'از' 'اس' 'اش' 'اص' 'اض' 'اط' 'اظ' 'اع' 'اغ' 'اف' 'اق' 'اك' 'ال' 'ام' 'ان' 'اہ' 'او' 'ای' 'ب​ا' 'ب​ب' 'ب​پ' 'ب​ت' 'ب​ٹ' 'ب​ث' 'ب​ج' 'ب​چ' 'ب​ح' 'ب​خ' 'ب​د' 'ب​ڈ​' 'ب​ذ' 'ب​ر​' 'ب​ڑ​' 'ب​ز' 'ب​ژ' 'ب​س' 'ب​ش' 'ب​ص' 'ب​ض' 'ب​ط' 'ب​ظ' 'ب​ع' 'ب​غ' 'ب​ف' 'ب​ق' 'ب​ک' 'ب​گ' 'بل' 'ب​م​' 'ب​ن' 'ب​و' 'ب​ؤ' 'ب​ہ' 'ب​ھ' 'ب​ی' 'ب​ئ' 'ب​ے' 'ب​أ' 'ب​ء' 'ب​ۃ' 'پا' 'پب' 'پپ' 'پت' 'پٹ' 'پث' 'پج' 'پچ' 'پح' 'پخ' 'پد' 'پڈ' 'پذ' 'پر​' 'پڑ​' 'پز' 'پژ' 'پس' 'پش' 'پص' 'پض' 'پط' 'پظ' 'پع' 'پغ' 'پف' 'پق' 'پک' 'پگ' 'پل​' 'پم​' 'پن' 'پو' 'پؤ' 'پہ' 'پھ' 'پی' 'پئ' 'پے' 'پأ' 'پء' 'پۃ' 'تا' 'تب' 'تت' 'تث' 'تج' 'تح' 'تخ' 'تد' 'تذ' 'تر' 'تز' 'تس' 'تش' 'تص' 'تض' 'تط' 'تظ' 'تع' 'تغ' 'تف' 'تق' 'تك' 'تل' 'تم' 'تن' 'تہ' 'تو' 'تی' 'ٹآ' 'ٹا' 'ٹب' 'ٹپ' 'ٹت' 'ٹٹ' 'ٹث' 'ٹج' 'ٹچ' 'ٹح' 'ٹخ' 'ٹد' 'ٹڈ' 'ٹذ' 'ٹر​' 'ٹڑ​' 'ٹز' 'ٹژ' 'ٹس' 'ٹش' 'ٹص' 'ٹض' 'ٹط' 'ٹظ' 'ٹع' 'ٹغ' 'ٹف' 'ٹق' 'ٹک' 'ٹگ' 'ٹل​' 'ٹم​' 'ٹن' 'ٹو' 'ٹؤ' 'ٹہ' 'ٹھ' 'ٹی' 'ٹئ' 'ٹے' 'ٹآ' 'ٹأ' 'ٹء' 'ٹۃ' '​ثآ' 'ث​ا' 'ث​ب' 'ث​ث' 'ث​ت' 'ث​ٹ' 'ث​پ' 'ث​ج' 'ث​چ' 'ثح' 'ث​خ' 'ث​د' 'ث​ڈ​' 'ث​ذ' 'ث​ر​' 'ث​ڑ​' 'ث​ز' 'ث​ژ' 'ث​س' 'ث​ش' 'ث​ص' 'ث​ض' 'ث​ط' 'ث​ظ' 'ث​ع' 'ث​غ' 'ث​ف' 'ثق' 'ث​ک' 'ث​گ' 'ث​ل​' 'ث​م' 'ث​ن' 'ث​و' 'ث​ؤ' 'ث​ہ' 'ث​ھ' 'ث​ی' 'ث​ئ' 'ث​ے' 'ث​أ' 'ث​ء' 'ث​ۃ' 'ج​ا' 'ج​ب' 'ج​ث' 'ج​ت' 'ج​ٹ' 'ج​پ' 'ج​ج' 'ج​چ' 'جح' 'ج​خ' 'ج​د' 'ج​ڈ​' 'ج​ذ' 'ج​ر​' 'ج​ڑ​' 'ج​ز' 'ج​ژ' 'ج​س' 'ج​ش' 'ج​ص' 'ج​ض' 'ج​ط' 'ج​ظ' 'ج​ع' 'ج​غ' 'ج​ف' 'جق' 'ج​ک' 'ج​گ' 'ج​ل​' 'ج​م' 'ج​ن' 'ج​و' 'ج​ؤ' 'ج​ہ' 'ج​ھ' 'ج​ی' 'ج​ئ' 'ج​ے' 'ج​أ' 'ج​ء' 'ج​ۃ' 'چا' 'چب' 'چپ' 'چت' 'چٹ' 'چث' 'چج' 'چچ' 'چح' 'چخ' 'چد' 'چڈ' 'چذ' 'چر​' 'چڑ​' 'چز' 'چژ' 'چس' 'چش' 'چص' 'چض' 'چط' 'چظ' 'چع' 'چغ' 'چف' 'چق' 'چک' 'چگ' 'چل​' 'چم​' 'چن' 'چو' 'چؤ' 'چہ' 'چھ' 'چی' 'چئ' 'چے' 'چأ' 'چء' 'چۃ' '​ح​ا' 'ح​ب' 'ح​ث' 'ح​ت' 'ح​ٹ' 'ح​پ' 'ح​ج' 'ح​چ' 'حح' 'ح​خ' 'ح​د' 'ح​ڈ​' 'ح​ذ' 'ح​ر​' 'ح​ڑ​' 'ح​ز' 'ح​ژ' 'ح​س' 'ح​ش' 'ح​ص' 'ح​ض' 'ح​ط' 'ح​ظ' 'ح​ع' 'ح​غ' 'ح​ف' 'حق' 'ح​ک' 'ح​گ' 'ح​ل​' 'ح​م' 'ح​ن' 'ح​و' 'ح​ؤ' 'ح​ہ' 'ح​ھ' 'ح​ی' 'ح​ئ' 'ح​ے' 'ح​أ' 'ح​ء' 'ح​ۃ' 'خا' 'خب' 'خت' 'خث' 'خج' 'خح' 'خخ' 'خد' 'خذ' 'خر' 'خز' 'خس' 'خش' 'خص' 'خض' 'خط' 'خظ' 'خع' 'خغ' 'خف' 'خق' 'خك' 'خل' 'خم' 'خن' 'خہ' 'خو' 'خی' 'د​ا' 'د​ب' 'د​ث' 'د​ت' 'د​ٹ' 'د​پ' 'د​ج' 'د​چ' 'دح' 'د​خ' 'د​د' 'د​ڈ​' 'د​ذ' 'د​ر​' 'د​ڑ​' 'د​ز' 'د​ژ' 'د​س' 'د​ش' 'د​ص' 'د​ض' 'د​ط' 'د​ظ' 'د​ع' 'د​غ' 'د​ف' 'دق' 'د​ک' 'د​گ' 'د​ل​' 'د​م' 'د​ن' 'د​و' 'د​ؤ' 'د​ہ' 'د​ھ' 'د​ی' 'د​ئ' 'دے' 'د​أ' 'د​ء' 'د​ۃ' 'ڈا' 'ڈب' 'ڈپ' 'ڈت' 'ڈٹ' 'ڈث' 'ڈج' 'ڈچ' 'ڈح' 'ڈخ' 'ڈد' 'ڈڈ' 'ڈذ' 'ڈر​' 'ڈڑ​' 'ڈز' 'ڈژ' 'ڈس' 'ڈش' 'ڈص' 'ڈض' 'ڈط' 'ڈظ' 'ڈع' 'ڈغ' 'ڈف' 'ڈق' 'ڈک' 'ڈگ' 'ڈل​' 'ڈم​' 'ڈن' 'ڈو' 'ڈؤ' 'ڈہ' 'ڈھ' 'ڈی' 'ڈئ' 'ڈے' 'ڈأ' 'ڈء' 'ڈۃ' '​ذ​ا' 'ذ​ب' 'ذ​ث' 'ذ​ت' 'ذ​ٹ' 'ذ​پ' 'ذ​ج' 'ذ​چ' 'ذح' 'ذ​خ' 'ذ​د' 'ذ​ڈ​' 'ذ​ذ' 'ذ​ر​' 'ذ​ڑ​' 'ذ​ز' 'ذ​ژ' 'ذ​س' 'ذ​ش' 'ذ​ص' 'ذ​ض' 'ذ​ط' 'ذ​ظ' 'ذ​ع' 'ذ​غ' 'ذ​ف' 'ذق' 'ذ​ک' 'ذ​گ' 'ذ​ل​' 'ذ​م' 'ذ​ن' 'ذ​و' 'ذ​ؤ' 'ذ​ہ' 'ذ​ھ' 'ذ​ی' 'ذ​ئ' 'ذے' 'ذ​أ' 'ذ​ء' 'ذ​ۃ' '​ر​ا' 'ر​ب' 'ر​ث' 'ر​ت' 'ر​ٹ' 'ر​پ' 'ر​ج' 'ر​چ' 'رح' 'ر​خ' 'ر​د' 'ر​ڈ​' 'رذ' 'ر​ر​' 'ر​ڑ​' 'ر​ز' 'ر​ژ' 'ر​س' 'ر​ش' 'ر​ص' 'ر​ض' 'ر​ط' 'ر​ظ' 'ر​ع' 'ر​غ' 'ر​ف' 'رق' 'ر​ک' 'ر​گ' 'ر​ل​' 'ر​م' 'ر​ن' 'ر​و' 'ر​ؤ' 'ر​ہ' 'ر​ھ' 'ر​ی' 'ر​ئ' 'رے' 'ر​أ' 'ر​ء' 'ر​ۃ' 'ڑ​ا' 'ڑ​ب' 'ڑ​پ' 'ڑ​ت' 'ڑ​ٹ' 'ڑ​ث' 'ڑ​ج' 'ڑ​چ' 'ڑ​ح' 'ڑ​خ' 'ڑ​د' 'ڑ​ڈ​' 'ڑ​ذ' 'ڑ​ر​' 'ڑ​ڑ​' 'ڑ​ز' 'ڑ​ژ' 'ڑ​س' 'ڑ​ش' 'ڑ​ص' 'ڑ​ض' 'ڑ​ط' 'ڑ​ظ' 'ڑ​ع' 'ڑ​غ' 'ڑ​ف' 'ڑ​ق' 'ڑ​ک' 'ڑ​گ' 'ڑ​ل​' 'ڑ​م​' 'ڑ​ن' 'ڑ​و' 'ڑ​ؤ' 'ڑ​ہ' 'ڑ​ھ' 'ڑ​ی' 'ڑ​ئ' 'ڑ​ے' 'ڑ​أ' 'ڑ​ء' 'ڑ​ۃ' 'ز​ا' 'ز​ب' 'ز​ث' 'ز​ت' 'ز​ٹ' 'ز​پ' 'ز​ج' 'ز​چ' 'زح' 'ز​خ' 'ز​د' 'ز​ڈ​' 'زذ' 'ز​ر​' 'ز​ڑ​' 'ز​ز' 'ز​ژ' 'ز​س' 'ز​ش' 'ز​ص' 'ز​ض' 'ز​ط' 'ز​ظ' 'ز​ع' 'ز​غ' 'ز​ف' 'زق' 'ز​ک' 'ز​گ' 'ز​ل​' 'ز​م' 'ز​ن' 'ز​و' 'ز​ؤ' 'ز​ہ' 'ز​ھ' 'ز​ی' 'ز​ئ' 'زے' 'ز​أ' 'ز​ء' 'ز​ۃ' '​س​ا' 'س​ب' 'س​ث' 'س​ت' 'س​ٹ' 'س​پ' 'س​ج' 'س​چ' 'سح' 'س​خ' 'س​د' 'س​ڈ​' 'سذ' 'س​ر​' 'س​ڑ​' 'س​ز' 'س​ژ' 'س​س' 'س​ش' 'س​ص' 'س​ض' 'س​ط' 'س​ظ' 'س​ع' 'س​غ' 'س​ف' 'سق' 'س​ک' 'س​گ' 'س​ل​' 'س​م' 'س​ن' 'س​و' 'س​ؤ' 'س​ہ' 'س​ھ' 'س​ی' 'س​ئ' 'سے' 'س​أ' 'س​ء' 'س​ۃ' 'ش​ا' 'ش​ب' 'ش​ث' 'ش​ت' 'ش​ٹ' 'ش​پ' 'ش​ج' 'ش​چ' 'شح' 'ش​خ' 'ش​د' 'ش​ڈ​' 'شذ' 'ش​ر​' 'ش​ڑ​' 'ش​ز' 'ش​ژ' 'ش​س' 'ش​ش' 'ش​ص' 'ش​ض' 'ش​ط' 'ش​ظ' 'ش​ع' 'ش​غ' 'ش​ف' 'شق' 'ش​ک' 'ش​گ' 'ش​ل​' 'ش​م' 'ش​ن' 'ش​و' 'ش​ؤ' 'ش​ہ' 'ش​ھ' 'ش​ی' 'ش​ئ' 'شے' 'ش​أ' 'ش​ء' 'ش​ۃ' '​ص​ا' 'ص​ب' 'ص​ث' 'ص​ت' 'ص​ٹ' 'ص​پ' 'ص​ج' 'ص​چ' 'صح' 'ص​خ' 'ص​د' 'ص​ڈ​' 'صذ' 'ص​ر​' 'ص​ڑ​' 'ص​ز' 'ص​ژ' 'ص​س' 'ص​ش' 'ص​ص' 'ص​ض' 'ص​ط' 'ص​ظ' 'ص​ع' 'ص​غ' 'ص​ف' 'صق' 'ص​ک' 'ص​گ' 'ص​ل​' 'ص​م' 'ص​ن' 'ص​و' 'ص​ؤ' 'ص​ہ' 'ص​ھ' 'ص​ی' 'ص​ئ' 'صے' 'ص​أ' 'ص​ء' 'ص​ۃ' '​ض​ا' 'ض​ب' 'ض​ث' 'ض​ت' 'ض​ٹ' 'ض​پ' 'ض​ج' 'ض​چ' 'ضح' 'ض​خ' 'ض​د' 'ض​ڈ​' 'ضذ' 'ض​ر​' 'ض​ڑ​' 'ض​ز' 'ض​ژ' 'ض​س' 'ض​ش' 'ض​ص' 'ض​ض' 'ض​ط' 'ض​ظ' 'ض​ع' 'ض​غ' 'ض​ف' 'ضق' 'ض​ک' 'ض​گ' 'ض​ل​' 'ض​م' 'ض​ن' 'ض​و' 'ض​ؤ' 'ض​ہ' 'ض​ھ' 'ض​ی' 'ض​ئ' 'ضے' 'ض​أ' 'ض​ء' 'ض​ۃ' 'ط​ا' 'ط​ب' 'ط​ث' 'ط​ت' 'ط​ٹ' 'ط​پ' 'ط​ج' 'ط​چ' 'طح' 'ط​خ' 'ط​د' 'ط​ڈ​' 'طذ' 'ط​ر​' 'ط​ڑ​' 'ط​ز' 'ط​ژ' 'ط​س' 'ط​ش' 'ط​ص' 'ط​ض' 'ط​ط' 'ط​ظ' 'ط​ع' 'ط​غ' 'ط​ف' 'طق' 'ط​ک' 'ط​گ' 'ط​ل​' 'ط​م' 'ط​ن' 'ط​و' 'ط​ؤ' 'ط​ہ' 'ط​ھ' 'ط​ی' 'ط​ئ' 'طے' 'ط​أ' '​ظ​ا' 'ظ​ب' 'ظ​ث' 'ظ​ت' 'ظ​ٹ' 'ظ​پ' 'ظ​ج' 'ظ​چ' 'ظح' 'ظ​خ' 'ظ​د' 'ظ​ڈ​' 'ظذ' 'ظ​ر​' 'ظ​ڑ​' 'ظ​ز' 'ظ​ژ' 'ظ​س' 'ظ​ش' 'ظ​ص' 'ظ​ض' 'ظ​ط' 'ظ​ظ' 'ظ​ع' 'ظ​غ' 'ظ​ف' 'ظق' 'ظ​ک' 'ظ​گ' 'ظ​ل​' 'ظ​م' 'ظ​ن' 'ظ​و' 'ظ​ؤ' 'ظ​ہ' 'ظ​ھ' 'ظ​ی' 'ظ​ئ' 'ظے' 'ظ​أ' 'ظ​ء' 'ظ​ۃ' 'ع​ا' 'ع​ب' 'ع​ث' 'ع​ت' 'ع​ٹ' 'ع​پ' 'ع​ج' 'ع​چ' 'عح' 'ع​خ' 'ع​د' 'ع​ڈ​' 'عذ' 'ع​ر​' 'ع​ڑ​' 'ع​ز' 'ع​ژ' 'ع​س' 'ع​ش' 'ع​ص' 'ع​ض' 'ع​ط' 'ع​ظ' 'ع​ع' 'ع​غ' 'ع​ف' 'عق' 'ع​ک' 'ع​گ' 'ع​ل​' 'ع​م' 'ع​ن' 'ع​و' 'ع​ؤ' 'ع​ہ' 'ع​ھ' 'ع​ی' 'ع​ئ' 'عے' 'ع​أ' 'ع​ء' 'ع​ۃ' 'غ​ا' 'غ​ب' 'غ​ث' 'غ​ت' 'غ​ٹ' 'غ​پ' 'غ​ج' 'غ​چ' 'غح' 'غ​خ' 'غ​د' 'غ​ڈ​' 'غذ' 'غ​ر​' 'غ​ڑ​' 'غ​ز' 'غ​ژ' 'غ​س' 'غ​ش' 'غ​ص' 'غ​ض' 'غ​ط' 'غ​ظ' 'غ​ع' 'غ​غ' 'غ​ف' 'غق' 'غ​ک' 'غ​گ' 'غ​ل​' 'غ​م' 'غ​ن' 'غ​و' 'غ​ؤ' 'غ​ہ' 'غ​ھ' 'غ​ی' 'غ​ئ' 'غے' 'غ​أ' 'غ​ء' 'غ​ۃ' 'ف​ا' 'ف​ب' 'ف​ث' 'ف​ت' 'ف​ٹ' 'ف​پ' 'ف​ج' 'ف​چ' 'فح' 'ف​خ' 'ف​د' 'ف​ڈ​' 'فذ' 'ف​ر​' 'ف​ڑ​' 'ف​ز' 'ف​ژ' 'ف​س' 'ف​ش' 'ف​ص' 'ف​ض' 'ف​ط' 'ف​ظ' 'ف​ع' 'ف​غ' 'ف​ف' 'فق' 'ف​ک' 'ف​گ' 'ف​ل​' 'ف​م' 'ف​ن' 'ف​و' 'ف​ؤ' 'ف​ہ' 'ف​ھ' 'ف​ی' 'ف​ئ' 'فے' 'ف​أ' 'ف​ء' 'ف​ۃ' 'ق​ا' 'ق​ب' 'ق​ث' 'ق​ت' 'ق​ٹ' 'ق​پ' 'ق​ج' 'ق​چ' 'قح' 'ق​خ' 'ق​د' 'ق​ڈ​' 'قذ' 'ق​ر​' 'ق​ڑ​' 'ق​ز' 'ق​ژ' 'ق​س' 'ق​ش' 'ق​ص' 'ق​ض' 'ق​ط' 'ق​ظ' 'ق​ع' 'ق​غ' 'ق​ف' 'قق' 'ق​ک' 'ق​گ' 'ق​ل​' 'ق​م' 'ق​ن' 'ق​و' 'ق​ؤ' 'ق​ہ' 'ق​ھ' 'ق​ی' 'ق​ئ' 'قے' 'ق​أ' 'ق​ء' 'ق​ۃ' '​ک​ا' 'ک​ب' 'ک​ث' 'ک​ت' 'ک​ٹ' 'ک​پ' 'ک​ج' 'ک​چ' 'کح' 'ک​خ' 'ک​د' 'ک​ڈ​' 'کذ' 'ک​ر​' 'ک​ڑ​' 'ک​ز' 'ک​ژ' 'ک​س' 'ک​ش' 'ک​ص' 'ک​ض' 'ک​ط' 'ک​ظ' 'ک​ع' 'ک​غ' 'ک​ف' 'کق' 'ک​ک' 'ک​گ' 'ک​ل​' 'ک​م' 'ک​ن' 'ک​و' 'ک​ؤ' 'ک​ہ' 'ک​ھ' 'ک​ی' 'ک​ئ' 'کے' 'ک​أ' 'ک​ء' 'ک​ۃ' '​گآ' 'گ​ا' 'گ​ب' 'گ​ث' 'گ​ت' 'گ​ٹ' 'گ​پ' 'گ​ج' 'گ​چ' 'گح' 'گ​خ' 'گ​د' 'گ​ڈ​' 'گذ' 'گ​ر​' 'گ​ڑ​' 'گ​ز' 'گ​ژ' 'گ​س' 'گ​ش' 'گ​ص' 'گ​ض' 'گ​ط' 'گ​ظ' 'گ​ع' 'گ​غ' 'گ​ف' 'گق' 'گ​ک' 'گ​گ' 'گ​ل​' 'گ​م' 'گ​ن' 'گ​و' 'گ​ؤ' 'گ​ہ' 'گ​ھ' 'گ​ی' 'گ​ئ' 'گے' 'گ​أ' 'گ​ء' 'گ​ۃ' 'ل​ا' 'ل​ب' 'ل​ث' 'ل​ت' 'ل​ٹ' 'ل​پ' 'ل​ج' 'ل​چ' 'لح' 'ل​خ' 'ل​د' 'ل​ڈ​' 'لذ' 'ل​ر​' 'ل​ڑ​' 'ل​ز' 'ل​ژ' 'ل​س' 'ل​ش' 'ل​ص' 'ل​ض' 'ل​ط' 'ل​ظ' 'ل​ع' 'ل​غ' 'ل​ف' 'لق' 'ل​ک' 'ل​گ' 'ل​ل​' 'ل​م' 'ل​ن' 'ل​و' 'ل​ؤ' 'ل​ہ' 'ل​ھ' 'ل​ی' 'ل​ئ' 'لے' 'ل​أ' 'ل​ء' 'ل​ۃ' '​م​ا' 'م​ب' 'م​ث' 'م​ت' 'م​ٹ' 'م​پ' 'م​ج' 'م​چ' 'مح' 'م​خ' 'م​د' 'م​ڈ​' 'مذ' 'م​ر​' 'م​ڑ​' 'م​ز' 'م​ژ' 'م​س' 'م​ش' 'م​ص' 'م​ض' 'م​ط' 'م​ظ' 'م​ع' 'م​غ' 'م​ف' 'مق' 'م​ک' 'م​گ' 'م​مل' 'م​م' 'م​ن' 'م​و' 'م​ؤ' 'م​ہ' 'م​ھ' 'م​ی' 'م​ئ' 'مے' 'م​أ' 'م​ء' 'م​ۃ' 'ن​ا' 'ن​ب' 'ن​ث' 'ن​ت' 'ن​ٹ' 'ن​پ' 'ن​ج' 'ن​چ' 'نح' 'ن​خ' 'ن​د' 'ن​ڈ​' 'نذ' 'ن​ر​' 'ن​ڑ​' 'ن​ز' 'ن​ژ' 'ن​س' 'ن​ش' 'ن​ص' 'ن​ض' 'ن​ط' 'ن​ظ' 'ن​ع' 'ن​غ' 'ن​ف' 'نق' 'ن​ک' 'ن​گ' '​نل' 'نم' 'ن​ن' 'ن​و' 'ن​ؤ' 'ن​ہ' 'ن​ھ' 'ن​ی' 'ن​ئ' 'نے' 'ن​أ' 'ن​ء' 'ن​ۃ' 'ہ​ا' 'ہ​ب' 'ہ​ث' 'ہ​ت' 'ہ​ٹ' 'ہ​پ' 'ہ​ج' 'ہ​چ' 'ہح' 'ہ​خ' 'ہ​د' 'ہ​ڈ​' 'ہذ' 'ہ​ر​' 'ہ​ڑ​' 'ہ​ز' 'ہ​ژ' 'ہ​س' 'ہ​ش' 'ہ​ص' 'ہ​ض' 'ہ​ط' 'ہ​ظ' 'ہ​ع' 'ہ​غ' 'ہ​ف' 'ہق' 'ہ​ک' 'ہ​گ' '​ہل' 'ہم' 'ہ​ن' 'ہ​و' 'ہ​ؤ' 'ہ​ہ' 'ہ​ھ' 'ہ​ی' 'ہ​ئ' 'ہے' 'ہ​أ' 'ہ​ء' 'ہ​ۃ' 'ھ​ا' 'ھ​ب' 'ھ​ث' 'ھ​ت' 'ھ​ٹ' 'ھ​پ' 'ھ​ج' 'ھ​چ' 'ھح' 'ھ​خ' 'ھ​د' 'ھ​ڈ​' 'ھذ' 'ھ​ر​' 'ھ​ڑ​' 'ھ​ز' 'ھ​ژ' 'ھ​س' 'ھ​ش' 'ھ​ص' 'ھ​ض' 'ھ​ط' 'ھ​ظ' 'ھ​ع' 'ھ​غ' 'ھ​ف' 'ھق' 'ھ​ک' 'ھ​گ' '​ھل' 'ہم' 'ھ​ن' 'ھ​ہ' 'ھ​و' 'ھ​ؤ' 'ھ​ھ' 'ھ​ی' 'ھ​ئ' 'ھے' 'ھ​أ' 'ھ​ء' 'ھ​ۃ' 'و​ا' 'و​ب' 'و​ث' 'و​ت' 'و​ٹ' 'و​پ' 'و​ج' 'و​چ' 'وح' 'و​خ' 'و​د' 'و​ڈ​' 'وذ' 'و​ر​' 'و​ڑ​' 'و​ز' 'و​ژ' 'و​س' 'و​ش' 'و​ص' 'و​ض' 'و​ط' 'و​ظ' 'و​ع' 'و​غ' 'و​ف' 'وق' 'و​ک' 'و​گ' '​ول' 'وم' 'و​ن' 'و​ہ' 'و​ؤ' 'و​و' 'و​ھ' 'و​ی' 'و​ئ' 'وے' 'و​أ' 'و​ء' 'و​ۃ' '​ی​ا' 'ی​ب' 'ی​ث' 'ی​ت' 'ی​ٹ' 'ی​پ' 'ی​ج' 'ی​چ' 'یح' 'ی​خ' 'ی​د' 'ی​ڈ​' 'یذ' 'ی​ر​' 'ی​ڑ​' 'ی​ز' 'ی​ژ' 'ی​س' 'ی​ش' 'ی​ص' 'ی​ض' 'ی​ط' 'ی​ظ' 'ی​ع' 'ی​غ' 'ی​ف' 'یق' 'ی​ک' 'ی​گ' '​یل' 'یم' 'ی​ن' 'ی​ہ' 'ی​و' 'ی​ؤ' 'یھ​ی' 'ی​ی' 'ی​ئ' 'یے' 'ی​أ' 'ی​ء' 'ی​ۃ';
+}
+span[ rel="mw:referencedBy" ] {
+	counter-reset: mw-ref-linkback 0;
+}
+span[ rel="mw:referencedBy" ] > a::before {
+	font-weight: bold;
+	content: counter( mw-ref-linkback, custom-backlink );
+}
+span[ rel="mw:referencedBy" ]::before {
+	content: "^ ";
+}
+.mw-ref > a[data-mw-group=lower-alpha]::after {
+	content: '[' counter( mw-Ref, custom-group-label-lower-alpha ) ']';
+}
+.mw-ref > a[data-mw-group=decimal]::after {
+	content: '[' counter( mw-Ref, decimal ) ']';
+}
+--- EMITTING CSS for vec.wikisource ---
+.mw-ref > a::after {
+	content: counter( mw-Ref, decimal );
+}
+.mw-ref > a[data-mw-group]::after {
+	content: attr(data-mw-group) ' ' counter( mw-Ref, decimal );
+}
+--- EMITTING CSS for vi.wikibooks ---
+a[ rel="mw:referencedBy" ]::before {
+	content: "▲";
+}
+span[ rel="mw:referencedBy" ]::before {
+	content: "▲ ";
+}
+span[ rel="mw:referencedBy" ] > a::before {
+	font-weight: bold;
+	font-style: italic;
+	content: counter( mw-references, decimal ) ',' counter( mw-ref-linkback, decimal );
+}
+--- EMITTING CSS for vi.wikiquote ---
+a[ rel="mw:referencedBy" ]::before {
+	font-weight: bold;
+	content: "^";
+}
+span[ rel="mw:referencedBy" ]::before {
+	content: "^ ";
+}
+--- EMITTING CSS for vi.wikisource ---
+span[ rel="mw:referencedBy" ]::before {
+	content: "▲ ";
+}
+@counter-style custom-backlink {
+	system: alphabetic;
+	symbols: 'a' 'ă' 'â' 'b' 'c' 'd' 'đ' 'e' 'ê' 'g' 'h' 'i' 'k' 'l' 'm' 'n' 'o' 'ô' 'ơ' 'p' 'q' 'r' 's' 't' 'u' 'ư' 'v' 'x' 'y';
+}
+span[ rel="mw:referencedBy" ] {
+	counter-reset: mw-ref-linkback 0;
+}
+span[ rel="mw:referencedBy" ] > a::before {
+	font-weight: bold;
+	font-style: italic;
+	content: counter( mw-ref-linkback, custom-backlink );
+}
+a[ rel="mw:referencedBy" ]::before {
+	content: "▲";
+}
+.mw-ref > a[data-mw-group=lower-alpha]::after {
+	content: '[' counter( mw-Ref, lower-alpha ) ']';
+}
+--- EMITTING CSS for vi.wiktionary ---
+span[ rel="mw:referencedBy" ]::before {
+	content: "▲ ";
+}
+span[ rel="mw:referencedBy" ] > a::before {
+	font-weight: bold;
+	font-style: italic;
+	content: counter( mw-references, decimal ) ',' counter( mw-ref-linkback, decimal );
+}
+a[ rel="mw:referencedBy" ]::before {
+	content: "▲";
+}
+--- EMITTING CSS for yi.wikipedia ---
+span[ rel="mw:referencedBy" ] {
+	counter-reset: mw-ref-linkback 0;
+}
+span[ rel="mw:referencedBy" ] > a::before {
+	content: counter( mw-ref-linkback, lower-alpha );
+}
+.mw-ref > a[data-mw-group=lower-alpha]::after {
+	content: '[' counter( mw-Ref, lower-alpha ) ']';
+}
+--- EMITTING CSS for zh.wikipedia ---
+a[ rel="mw:referencedBy" ]::before {
+	font-weight: bold;
+	content: "^";
+}
+span[ rel="mw:referencedBy" ] > a::before {
+	font-weight: bold;
+	content: counter( mw-references, decimal ) '.' counter( mw-ref-linkback, decimal );
+}
+span[ rel="mw:referencedBy" ]::before {
+	content: "^ ";
+}
+.mw-ref > a[data-mw-group=upper-roman]::after {
+	content: '[' counter( mw-Ref, upper-roman ) ']';
+}
+.mw-ref > a[data-mw-group=lower-greek]::after {
+	content: '[' counter( mw-Ref, lower-greek ) ']';
+}
+.mw-ref > a[data-mw-group=lower-roman]::after {
+	content: '[' counter( mw-Ref, lower-roman ) ']';
+}
+.mw-ref > a[data-mw-group=lower-alpha]::after {
+	content: '[' counter( mw-Ref, lower-alpha ) ']';
+}
+.mw-ref > a[data-mw-group=upper-alpha]::after {
+	content: '[' counter( mw-Ref, upper-alpha ) ']';
+}
+--- EMITTING CSS for zh.wikisource ---
+span[ rel="mw:referencedBy" ]::before {
+	content: "^ ";
+}
+--- EMITTING CSS for zh.wiktionary ---
+span[ rel="mw:referencedBy" ] > a::after {
+	content: " ";
+}
+--- EMITTING CSS for ar.wikipedia ---
+@counter-style custom-group-label-arabic-abajed {
+	system: alphabetic;
+	symbols: 'أ' 'ب' 'ج' 'د' 'ه' 'و' 'ز' 'ح' 'ط' 'ي' 'ك' 'ل' 'م' 'ن' 'س' 'ع' 'ف' 'ص' 'ق' 'ر' 'ش' 'ت' 'ث' 'خ' 'ذ' 'ض' 'ظ' 'غ';
+}
+@counter-style custom-group-label-arabic-alfabeth {
+	system: alphabetic;
+	symbols: 'أ' 'ب' 'ت' 'ث' 'ج' 'ح' 'خ' 'د' 'ذ' 'ر' 'ز' 'س' 'ش' 'ص' 'ض' 'ط' 'ظ' 'ع' 'غ' 'ف' 'ق' 'ك' 'ل' 'م' 'ن' 'هـ' 'و' 'ي';
+}
+@counter-style custom-backlink {
+	system: alphabetic;
+	symbols: 'أ' 'ب' 'ت' 'ث' 'ج' 'ح' 'خ' 'د' 'ذ' 'ر' 'ز' 'س' 'ش' 'ص' 'ض' 'ط' 'ظ' 'ع' 'غ' 'ف' 'ق' 'ك' 'ل' 'م' 'ن' 'هـ' 'و' 'ي';
+}
+span[ rel="mw:referencedBy" ] {
+	counter-reset: mw-ref-linkback 0;
+}
+span[ rel="mw:referencedBy" ] > a::before {
+	font-weight: bold;
+	font-style: italic;
+	content: counter( mw-ref-linkback, custom-backlink );
+}
+a[ rel="mw:referencedBy" ]::before {
+	font-weight: bold;
+	content: "^";
+}
+.mw-ref > a::after {
+	content: '[' counter( mw-Ref, decimal ) ']';
+}
+.mw-ref > a[ data-mw-group ]::after {
+	content: '[' attr( data-mw-group ) ' ' counter( mw-Ref, decimal ) ']';
+}
+.mw-ref > a[data-mw-group=decimal]::after {
+	content: '[' counter( mw-Ref, decimal ) ']';
+}
+.mw-ref > a[data-mw-group=lower-roman]::after {
+	content: '[' counter( mw-Ref, lower-roman ) ']';
+}
+.mw-ref > a[data-mw-group=lower-alpha]::after {
+	content: '[' counter( mw-Ref, lower-alpha ) ']';
+}
+.mw-ref > a[data-mw-group=arabic-abajed]::after {
+	content: '[' counter( mw-Ref, custom-group-label-arabic-abajed ) ']';
+}
+.mw-ref > a[data-mw-group=upper-alpha]::after {
+	content: '[' counter( mw-Ref, upper-alpha ) ']';
+}
+.mw-ref > a[data-mw-group=arabic-alfabeth]::after {
+	content: '[' counter( mw-Ref, custom-group-label-arabic-alfabeth ) ']';
+}
+.mw-ref > a[data-mw-group=lower-greek]::after {
+	content: '[' counter( mw-Ref, lower-greek ) ']';
+}
+.mw-ref > a[data-mw-group=upper-roman]::after {
+	content: '[' counter( mw-Ref, upper-roman ) ']';
+}
+--- EMITTING CSS for fi.wikipedia ---
+span[ rel="mw:referencedBy" ] {
+	counter-reset: mw-ref-linkback 0;
+}
+span[ rel="mw:referencedBy" ] > a::before {
+	font-style: italic;
+	content: counter( mw-ref-linkback, lower-alpha );
+}
+.mw-ref > a[data-mw-group=lower-roman]::after {
+	content: '[' counter( mw-Ref, lower-roman ) ']';
+}
+.mw-ref > a[data-mw-group=lower-greek]::after {
+	content: '[' counter( mw-Ref, lower-greek ) ']';
+}
+.mw-ref > a[data-mw-group=upper-roman]::after {
+	content: '[' counter( mw-Ref, upper-roman ) ']';
+}
+.mw-ref > a[data-mw-group=decimal]::after {
+	content: '[' counter( mw-Ref, decimal ) ']';
+}
+.mw-ref > a[data-mw-group=lower-alpha]::after {
+	content: '[' counter( mw-Ref, lower-alpha ) ']';
+}
+.mw-ref > a[data-mw-group=upper-alpha]::after {
+	content: '[' counter( mw-Ref, upper-alpha ) ']';
+}
+--- EMITTING CSS for hu.wikipedia ---
+span[ rel="mw:referencedBy" ] {
+	counter-reset: mw-ref-linkback 0;
+}
+span[ rel="mw:referencedBy" ] > a::before {
+	font-weight: bold;
+	font-style: italic;
+	content: counter( mw-ref-linkback, lower-alpha );
+}
+.mw-ref > a[data-mw-group=upper-alpha]::after {
+	content: '[' counter( mw-Ref, upper-alpha ) ']';
+}
+.mw-ref > a[data-mw-group=upper-roman]::after {
+	content: '[' counter( mw-Ref, upper-roman ) ']';
+}
+.mw-ref > a[data-mw-group=lower-alpha]::after {
+	content: '[' counter( mw-Ref, lower-alpha ) ']';
+}
+.mw-ref > a[data-mw-group=decimal]::after {
+	content: '[' counter( mw-Ref, decimal ) ']';
+}
+.mw-ref > a[data-mw-group=lower-roman]::after {
+	content: '[' counter( mw-Ref, lower-roman ) ']';
+}
+--- EMITTING CSS for it.wikipedia ---
+span[ rel="mw:referencedBy" ] {
+	counter-reset: mw-ref-linkback 0;
+}
+span[ rel="mw:referencedBy" ] > a::before {
+	font-style: italic;
+	content: counter( mw-ref-linkback, lower-alpha );
+}
+a[ rel="mw:referencedBy" ]::before {
+	font-weight: bold;
+	content: "^";
+}
+span[ rel="mw:referencedBy" ]::before {
+	font-weight: bold;
+	content: "^ ";
+}
+.mw-ref > a[data-mw-group=lower-alpha]::after {
+	content: '[' counter( mw-Ref, lower-alpha ) ']';
+}
+--- EMITTING CSS for ja.wikipedia ---
+span[ rel="mw:referencedBy" ]::before {
+	content: "^ ";
+}
+a[ rel="mw:referencedBy" ]::before {
+	font-weight: bold;
+	content: "^";
+}
+span[ rel="mw:referencedBy" ] {
+	counter-reset: mw-ref-linkback 0;
+}
+span[ rel="mw:referencedBy" ] > a::before {
+	font-weight: bold;
+	font-style: italic;
+	content: counter( mw-ref-linkback, lower-alpha );
+}
+.mw-ref > a[data-mw-group=lower-roman]::after {
+	content: '[' counter( mw-Ref, lower-roman ) ']';
+}
+.mw-ref > a[data-mw-group=upper-roman]::after {
+	content: '[' counter( mw-Ref, upper-roman ) ']';
+}
+.mw-ref > a[data-mw-group=decimal]::after {
+	content: '[' counter( mw-Ref, decimal ) ']';
+}
+.mw-ref > a[data-mw-group=lower-greek]::after {
+	content: '[' counter( mw-Ref, lower-greek ) ']';
+}
+.mw-ref > a[data-mw-group=upper-alpha]::after {
+	content: '[' counter( mw-Ref, upper-alpha ) ']';
+}
+.mw-ref > a[data-mw-group=lower-alpha]::after {
+	content: '[' counter( mw-Ref, lower-alpha ) ']';
+}
+--- EMITTING CSS for nl.wikipedia ---
+span[ rel="mw:referencedBy" ] {
+	counter-reset: mw-ref-linkback 0;
+}
+span[ rel="mw:referencedBy" ] > a::before {
+	font-weight: bold;
+	font-style: italic;
+	content: counter( mw-ref-linkback, lower-alpha );
+}
+.mw-ref > a[data-mw-group=kleine-letter-Grieks]::after {
+	content: '[' counter( mw-Ref, lower-greek ) ']';
+}
+.mw-ref > a[data-mw-group=hoofdletter]::after {
+	content: '[' counter( mw-Ref, upper-alpha ) ']';
+}
+.mw-ref > a[data-mw-group=kleine-letter]::after {
+	content: '[' counter( mw-Ref, lower-alpha ) ']';
+}
+.mw-ref > a[data-mw-group=hoofdletter-Romeins]::after {
+	content: '[' counter( mw-Ref, upper-roman ) ']';
+}
+.mw-ref > a[data-mw-group=kleine-letter-Romeins]::after {
+	content: '[' counter( mw-Ref, lower-roman ) ']';
+}
+--- EMITTING CSS for pl.wikipedia ---
+span[ rel="mw:referencedBy" ] {
+	counter-reset: mw-ref-linkback 0;
+}
+span[ rel="mw:referencedBy" ] > a::before {
+	content: counter( mw-ref-linkback, lower-alpha );
+}
+.mw-ref > a[data-mw-group=infobox]::after {
+	content: '[' counter( mw-Ref, lower-alpha ) ']';
+}
+.mw-ref > a[data-mw-group=nav]::after {
+	content: '[' counter( mw-Ref, upper-alpha ) ']';
+}
+.mw-ref > a[data-mw-group=uwaga]::after {
+	content: '[' counter( mw-Ref, lower-alpha ) ']';
+}
+.mw-ref > a[data-mw-group=mini]::after {
+	content: '[' counter( mw-Ref, lower-roman ) ']';
+}
+--- EMITTING CSS for pt.wikipedia ---
+.mw-ref > a[data-mw-group=lower-greek]::after {
+	content: '[' counter( mw-Ref, lower-greek ) ']';
+}
+.mw-ref > a[data-mw-group=decimal]::after {
+	content: '[' counter( mw-Ref, decimal ) ']';
+}
+.mw-ref > a[data-mw-group=lower-alpha]::after {
+	content: '[' counter( mw-Ref, lower-alpha ) ']';
+}
+.mw-ref > a[data-mw-group=upper-alpha]::after {
+	content: '[' counter( mw-Ref, upper-alpha ) ']';
+}
+.mw-ref > a[data-mw-group=upper-roman]::after {
+	content: '[' counter( mw-Ref, upper-roman ) ']';
+}
+.mw-ref > a[data-mw-group=lower-roman]::after {
+	content: '[' counter( mw-Ref, lower-roman ) ']';
+}
+span[ rel="mw:referencedBy" ] {
+	counter-reset: mw-ref-linkback 0;
+}
+span[ rel="mw:referencedBy" ] > a::before {
+	font-weight: bold;
+	font-style: italic;
+	content: counter( mw-ref-linkback, lower-alpha );
+}
+--- EMITTING CSS for ru.wikipedia ---
+span[ rel="mw:referencedBy" ] {
+	counter-reset: mw-ref-linkback 0;
+}
+span[ rel="mw:referencedBy" ] > a::before {
+	font-weight: bold;
+	font-style: italic;
+	content: counter( mw-ref-linkback, decimal );
+}
+.mw-ref > a[data-mw-group=lower-roman]::after {
+	content: '[' counter( mw-Ref, lower-roman ) ']';
+}
+.mw-ref > a[data-mw-group=lower-greek]::after {
+	content: '[' counter( mw-Ref, lower-greek ) ']';
+}
+.mw-ref > a[data-mw-group=upper-roman]::after {
+	content: '[' counter( mw-Ref, upper-roman ) ']';
+}
+.mw-ref > a[data-mw-group=lower-alpha]::after {
+	content: '[' counter( mw-Ref, lower-alpha ) ']';
+}
+.mw-ref > a[data-mw-group=upper-alpha]::after {
+	content: '[' counter( mw-Ref, upper-alpha ) ']';
+}
+--- EMITTING CSS for uk.wikipedia ---
+@counter-style custom-backlink {
+	system: alphabetic;
+	symbols: 'а' 'б' 'в' 'г' 'д' 'е' 'ж' 'и' 'к' 'л' 'м' 'н' 'п' 'р' 'с' 'т' 'у' 'ф' 'х' 'ц' 'ш' 'щ' 'ю' 'я';
+}
+span[ rel="mw:referencedBy" ] {
+	counter-reset: mw-ref-linkback 0;
+}
+span[ rel="mw:referencedBy" ] > a::before {
+	font-weight: bold;
+	font-style: italic;
+	content: counter( mw-ref-linkback, custom-backlink );
+}
+.mw-ref > a[data-mw-group=lower-alpha]::after {
+	content: '[' counter( mw-Ref, lower-alpha ) ']';
+}
+.mw-ref > a[data-mw-group=upper-alpha]::after {
+	content: '[' counter( mw-Ref, upper-alpha ) ']';
+}
+.mw-ref > a[data-mw-group=lower-greek]::after {
+	content: '[' counter( mw-Ref, lower-greek ) ']';
+}
+.mw-ref > a[data-mw-group=upper-roman]::after {
+	content: '[' counter( mw-Ref, upper-roman ) ']';
+}
+.mw-ref > a[data-mw-group=lower-roman]::after {
+	content: '[' counter( mw-Ref, lower-roman ) ']';
+}
+--- EMITTING CSS for vi.wikipedia ---
+span[ rel="mw:referencedBy" ]::before {
+	content: "^ ";
+}
+a[ rel="mw:referencedBy" ]::before {
+	font-weight: bold;
+	content: "^";
+}
+span[ rel="mw:referencedBy" ] {
+	counter-reset: mw-ref-linkback 0;
+}
+span[ rel="mw:referencedBy" ] > a::before {
+	font-weight: bold;
+	font-style: italic;
+	content: counter( mw-ref-linkback, lower-alpha );
+}
+.mw-ref > a[data-mw-group=upper-alpha]::after {
+	content: '[' counter( mw-Ref, upper-alpha ) ']';
+}
+.mw-ref > a[data-mw-group=decimal]::after {
+	content: '[' counter( mw-Ref, decimal ) ']';
+}
+.mw-ref > a[data-mw-group=lower-alpha]::after {
+	content: '[' counter( mw-Ref, lower-alpha ) ']';
+}
+.mw-ref > a[data-mw-group=lower-roman]::after {
+	content: '[' counter( mw-Ref, lower-roman ) ']';
+}
+.mw-ref > a[data-mw-group=upper-roman]::after {
+	content: '[' counter( mw-Ref, upper-roman ) ']';
+}
+.mw-ref > a[data-mw-group=lower-greek]::after {
+	content: '[' counter( mw-Ref, lower-greek ) ']';
+}
+--- EMITTING CSS for meta.wikimedia ---
+span[ rel="mw:referencedBy" ] {
+	counter-reset: mw-ref-linkback 0;
+}
+span[ rel="mw:referencedBy" ] > a::before {
+	font-weight: bold;
+	font-style: italic;
+	content: counter( mw-ref-linkback, lower-alpha );
+}
+--- EMITTING CSS for commons.wikimedia ---
+span[ rel="mw:referencedBy" ] {
+	counter-reset: mw-ref-linkback 0;
+}
+span[ rel="mw:referencedBy" ] > a::before {
+	font-weight: bold;
+	font-style: italic;
+	content: counter( mw-ref-linkback, lower-alpha );
+}
+.mw-ref > a[data-mw-group=upper-alpha]::after {
+	content: '[' counter( mw-Ref, upper-alpha ) ']';
+}
+.mw-ref > a[data-mw-group=lower-greek]::after {
+	content: '[' counter( mw-Ref, lower-greek ) ']';
+}
+.mw-ref > a[data-mw-group=upper-roman]::after {
+	content: '[' counter( mw-Ref, upper-roman ) ']';
+}
+.mw-ref > a[data-mw-group=lower-alpha]::after {
+	content: '[' counter( mw-Ref, lower-alpha ) ']';
+}
+.mw-ref > a[data-mw-group=lower-roman]::after {
+	content: '[' counter( mw-Ref, lower-roman ) ']';
+}
+.mw-ref > a[data-mw-group=decimal]::after {
+	content: '[' counter( mw-Ref, decimal ) ']';
+}
+--- EMITTING CSS for en.wikipedia ---
+span[ rel="mw:referencedBy" ] {
+	counter-reset: mw-ref-linkback 0;
+}
+span[ rel="mw:referencedBy" ] > a::before {
+	font-weight: bold;
+	font-style: italic;
+	content: counter( mw-ref-linkback, lower-alpha );
+}
+a[ rel="mw:referencedBy" ]::before {
+	font-weight: bold;
+	content: "^";
+}
+span[ rel="mw:referencedBy" ]::before {
+	content: "^ ";
+}
+.mw-ref > a[data-mw-group=lower-alpha]::after {
+	content: '[' counter( mw-Ref, lower-alpha ) ']';
+}
+.mw-ref > a[data-mw-group=upper-alpha]::after {
+	content: '[' counter( mw-Ref, upper-alpha ) ']';
+}
+.mw-ref > a[data-mw-group=decimal]::after {
+	content: '[' counter( mw-Ref, decimal ) ']';
+}
+.mw-ref > a[data-mw-group=lower-roman]::after {
+	content: '[' counter( mw-Ref, lower-roman ) ']';
+}
+.mw-ref > a[data-mw-group=upper-roman]::after {
+	content: '[' counter( mw-Ref, upper-roman ) ']';
+}
+.mw-ref > a[data-mw-group=lower-greek]::after {
+	content: '[' counter( mw-Ref, lower-greek ) ']';
+}
+--- EMITTING CSS for be.wikipedia ---
+.mw-ref > a[data-mw-group=lower-greek]::after {
+	content: '[' counter( mw-Ref, lower-greek ) ']';
+}
+.mw-ref > a[data-mw-group=lower-roman]::after {
+	content: '[' counter( mw-Ref, lower-roman ) ']';
+}
+.mw-ref > a[data-mw-group=lower-alpha]::after {
+	content: '[' counter( mw-Ref, lower-alpha ) ']';
+}
+.mw-ref > a[data-mw-group=upper-roman]::after {
+	content: '[' counter( mw-Ref, upper-roman ) ']';
+}
+.mw-ref > a[data-mw-group=upper-alpha]::after {
+	content: '[' counter( mw-Ref, upper-alpha ) ']';
+}
+--- EMITTING CSS for ca.wikipedia ---
+.mw-ref > a[data-mw-group=lower-roman]::after {
+	content: '[' counter( mw-Ref, lower-roman ) ']';
+}
+.mw-ref > a[data-mw-group=upper-alpha]::after {
+	content: '[' counter( mw-Ref, upper-alpha ) ']';
+}
+.mw-ref > a[data-mw-group=lower-greek]::after {
+	content: '[' counter( mw-Ref, lower-greek ) ']';
+}
+.mw-ref > a[data-mw-group=upper-roman]::after {
+	content: '[' counter( mw-Ref, upper-roman ) ']';
+}
+.mw-ref > a[data-mw-group=lower-alpha]::after {
+	content: '[' counter( mw-Ref, lower-alpha ) ']';
+}
+--- EMITTING CSS for cy.wikipedia ---
+.mw-ref > a[data-mw-group=lower-alpha]::after {
+	content: '[' counter( mw-Ref, lower-alpha ) ']';
+}
+--- EMITTING CSS for el.wikipedia ---
+.mw-ref > a[data-mw-group=upper-roman]::after {
+	content: '[' counter( mw-Ref, upper-roman ) ']';
+}
+.mw-ref > a[data-mw-group=lower-greek]::after {
+	content: '[' counter( mw-Ref, lower-greek ) ']';
+}
+.mw-ref > a[data-mw-group=lower-alpha]::after {
+	content: '[' counter( mw-Ref, lower-alpha ) ']';
+}
+.mw-ref > a[data-mw-group=lower-roman]::after {
+	content: '[' counter( mw-Ref, lower-roman ) ']';
+}
+.mw-ref > a[data-mw-group=upper-alpha]::after {
+	content: '[' counter( mw-Ref, upper-alpha ) ']';
+}
+--- EMITTING CSS for en.wikiversity ---
+.mw-ref > a[data-mw-group=lower-greek]::after {
+	content: '[' counter( mw-Ref, lower-greek ) ']';
+}
+.mw-ref > a[data-mw-group=lower-alpha]::after {
+	content: '[' counter( mw-Ref, lower-alpha ) ']';
+}
+.mw-ref > a[data-mw-group=lower-roman]::after {
+	content: '[' counter( mw-Ref, lower-roman ) ']';
+}
+.mw-ref > a[data-mw-group=decimal]::after {
+	content: '[' counter( mw-Ref, decimal ) ']';
+}
+.mw-ref > a[data-mw-group=upper-roman]::after {
+	content: '[' counter( mw-Ref, upper-roman ) ']';
+}
+.mw-ref > a[data-mw-group=upper-alpha]::after {
+	content: '[' counter( mw-Ref, upper-alpha ) ']';
+}
+--- EMITTING CSS for es.wikisource ---
+.mw-ref > a[data-mw-group=upper-roman]::after {
+	content: '[' counter( mw-Ref, upper-roman ) ']';
+}
+.mw-ref > a[data-mw-group=decimal]::after {
+	content: '[' counter( mw-Ref, decimal ) ']';
+}
+.mw-ref > a[data-mw-group=lower-alpha]::after {
+	content: '[' counter( mw-Ref, lower-alpha ) ']';
+}
+.mw-ref > a[data-mw-group=lower-greek]::after {
+	content: '[' counter( mw-Ref, lower-greek ) ']';
+}
+.mw-ref > a[data-mw-group=lower-roman]::after {
+	content: '[' counter( mw-Ref, lower-roman ) ']';
+}
+.mw-ref > a[data-mw-group=upper-alpha]::after {
+	content: '[' counter( mw-Ref, upper-alpha ) ']';
+}
+--- EMITTING CSS for es.wikivoyage ---
+.mw-ref > a[data-mw-group=lower-alpha]::after {
+	content: '[' counter( mw-Ref, lower-alpha ) ']';
+}
+--- EMITTING CSS for et.wikipedia ---
+.mw-ref > a[data-mw-group=upper-alpha]::after {
+	content: '[' counter( mw-Ref, upper-alpha ) ']';
+}
+.mw-ref > a[data-mw-group=lower-roman]::after {
+	content: '[' counter( mw-Ref, lower-roman ) ']';
+}
+.mw-ref > a[data-mw-group=upper-roman]::after {
+	content: '[' counter( mw-Ref, upper-roman ) ']';
+}
+.mw-ref > a[data-mw-group=decimal]::after {
+	content: '[' counter( mw-Ref, decimal ) ']';
+}
+.mw-ref > a[data-mw-group=lower-greek]::after {
+	content: '[' counter( mw-Ref, lower-greek ) ']';
+}
+.mw-ref > a[data-mw-group=lower-alpha]::after {
+	content: '[' counter( mw-Ref, lower-alpha ) ']';
+}
+--- EMITTING CSS for fo.wikipedia ---
+.mw-ref > a[data-mw-group=lower-greek]::after {
+	content: '[' counter( mw-Ref, lower-greek ) ']';
+}
+.mw-ref > a[data-mw-group=lower-roman]::after {
+	content: '[' counter( mw-Ref, lower-roman ) ']';
+}
+.mw-ref > a[data-mw-group=upper-roman]::after {
+	content: '[' counter( mw-Ref, upper-roman ) ']';
+}
+.mw-ref > a[data-mw-group=lower-alpha]::after {
+	content: '[' counter( mw-Ref, lower-alpha ) ']';
+}
+.mw-ref > a[data-mw-group=decimal]::after {
+	content: '[' counter( mw-Ref, decimal ) ']';
+}
+.mw-ref > a[data-mw-group=upper-alpha]::after {
+	content: '[' counter( mw-Ref, upper-alpha ) ']';
+}
+--- EMITTING CSS for gd.wiktionary ---
+.mw-ref > a[data-mw-group=decimal]::after {
+	content: '[' counter( mw-Ref, decimal ) ']';
+}
+.mw-ref > a[data-mw-group=upper-alpha]::after {
+	content: '[' counter( mw-Ref, upper-alpha ) ']';
+}
+.mw-ref > a[data-mw-group=lower-roman]::after {
+	content: '[' counter( mw-Ref, lower-roman ) ']';
+}
+.mw-ref > a[data-mw-group=lower-alpha]::after {
+	content: '[' counter( mw-Ref, lower-alpha ) ']';
+}
+.mw-ref > a[data-mw-group=lower-greek]::after {
+	content: '[' counter( mw-Ref, lower-greek ) ']';
+}
+.mw-ref > a[data-mw-group=upper-roman]::after {
+	content: '[' counter( mw-Ref, upper-roman ) ']';
+}
+--- EMITTING CSS for hy.wikipedia ---
+@counter-style custom-group-label-N {
+	system: fixed;
+	symbols: 'Ն_1' 'Ն_2' 'Ն_3' 'Ն_4' 'Ն_5' 'Ն_6' 'Ն_7' 'Ն_8' 'Ն_9' 'Ն_10' 'Ն_11' 'Ն_12' 'Ն_13' 'Ն_14' 'Ն_15' 'Ն_16' 'Ն_17' 'Ն_18' 'Ն_19' 'Ն_20' 'Ն_21' 'Ն_22' 'Ն_23' 'Ն_24' 'Ն_25' 'Ն_26' 'Ն_27' 'Ն_28' 'Ն_29' 'Ն_30' 'Ն_31' 'Ն_32' 'Ն_33' 'Ն_34' 'Ն_35' 'Ն_36' 'Ն_37' 'Ն_38' 'Ն_39' 'Ն_40' 'Ն_41' 'Ն_42' 'Ն_43' 'Ն_44' 'Ն_45' 'Ն_46' 'Ն_47' 'Ն_48' 'Ն_49' 'Ն_50' 'Ն_51' 'Ն_52' 'Ն_53' 'Ն_54' 'Ն_55' 'Ն_56' 'Ն_57' 'Ն_58' 'Ն_59' 'Ն_60' 'Ն_61' 'Ն_62' 'Ն_63' 'Ն_64' 'Ն_65' 'Ն_66' 'Ն_67' 'Ն_68' 'Ն_69' 'Ն_70' 'Ն_71' 'Ն_72' 'Ն_73' 'Ն_74' 'Ն_75' 'Ն_76' 'Ն_77' 'Ն_78' 'Ն_79' 'Ն_80' 'Ն_81' 'Ն_82' 'Ն_83' 'Ն_84' 'Ն_85' 'Ն_86' 'Ն_87' 'Ն_88' 'Ն_89' 'Ն_90' 'Ն_91' 'Ն_92' 'Ն_93' 'Ն_94' 'Ն_95' 'Ն_96' 'Ն_97' 'Ն_98' 'Ն_99' 'Ն_100' 'Ն_101' 'Ն_102' 'Ն_103' 'Ն_104' 'Ն_105' 'Ն_106' 'Ն_107' 'Ն_108' 'Ն_109' 'Ն_110' 'Ն_111' 'Ն_112' 'Ն_113' 'Ն_114' 'Ն_115' 'Ն_116' 'Ն_117' 'Ն_118' 'Ն_119' 'Ն_120' 'Ն_121' 'Ն_122' 'Ն_123' 'Ն_124' 'Ն_125' 'Ն_126' 'Ն_127' 'Ն_128' 'Ն_129' 'Ն_130' 'Ն_131' 'Ն_132' 'Ն_133' 'Ն_134' 'Ն_135' 'Ն_136' 'Ն_137' 'Ն_138' 'Ն_139' 'Ն_140' 'Ն_141' 'Ն_142' 'Ն_143' 'Ն_144' 'Ն_145' 'Ն_146' 'Ն_147' 'Ն_148' 'Ն_149' 'Ն_150' 'Ն_151' 'Ն_152' 'Ն_153' 'Ն_154' 'Ն_155' 'Ն_156' 'Ն_157' 'Ն_158' 'Ն_159' 'Ն_160' 'Ն_161' 'Ն_162' 'Ն_163' 'Ն_164' 'Ն_165' 'Ն_166' 'Ն_167' 'Ն_168' 'Ն_169' 'Ն_170' 'Ն_171' 'Ն_172' 'Ն_173' 'Ն_174' 'Ն_175' 'Ն_176' 'Ն_177' 'Ն_178' 'Ն_179' 'Ն_180' 'Ն_181' 'Ն_182' 'Ն_183' 'Ն_184' 'Ն_185' 'Ն_186' 'Ն_187' 'Ն_188' 'Ն_189' 'Ն_190' 'Ն_191' 'Ն_192' 'Ն_193' 'Ն_194' 'Ն_195' 'Ն_196' 'Ն_197' 'Ն_198' 'Ն_199' 'Ն_200' 'Ն_201' 'Ն_202' 'Ն_203' 'Ն_204' 'Ն_205' 'Ն_206' 'Ն_207' 'Ն_208' 'Ն_209' 'Ն_210' 'Ն_211' 'Ն_212' 'Ն_213' 'Ն_214' 'Ն_215' 'Ն_216' 'Ն_217' 'Ն_218' 'Ն_219' 'Ն_220' 'Ն_221' 'Ն_222' 'Ն_223' 'Ն_224' 'Ն_225' 'Ն_226' 'Ն_227' 'Ն_228' 'Ն_229' 'Ն_230' 'Ն_231' 'Ն_232' 'Ն_233' 'Ն_234' 'Ն_235' 'Ն_236' 'Ն_237' 'Ն_238' 'Ն_239' 'Ն_240' 'Ն_241' 'Ն_242' 'Ն_243' 'Ն_244' 'Ն_245' 'Ն_246' 'Ն_247' 'Ն_248' 'Ն_249' 'Ն_250' 'Ն_251' 'Ն_252' 'Ն_253' 'Ն_254' 'Ն_255' 'Ն_256' 'Ն_257' 'Ն_258' 'Ն_259' 'Ն_260' 'Ն_261' 'Ն_262' 'Ն_263' 'Ն_264' 'Ն_265' 'Ն_266' 'Ն_267' 'Ն_268' 'Ն_269' 'Ն_270' 'Ն_271' 'Ն_272' 'Ն_273' 'Ն_274' 'Ն_275' 'Ն_276' 'Ն_277' 'Ն_278' 'Ն_279' 'Ն_280' 'Ն_281' 'Ն_282' 'Ն_283' 'Ն_284' 'Ն_285' 'Ն_286' 'Ն_287' 'Ն_288' 'Ն_289' 'Ն_290' 'Ն_291' 'Ն_292' 'Ն_293' 'Ն_294' 'Ն_295' 'Ն_296' 'Ն_297' 'Ն_298' 'Ն_299' 'Ն_300' 'Ն_301' 'Ն_302' 'Ն_303' 'Ն_304' 'Ն_305' 'Ն_306' 'Ն_307' 'Ն_308' 'Ն_309' 'Ն_310' 'Ն_311' 'Ն_312' 'Ն_313' 'Ն_314' 'Ն_315' 'Ն_316' 'Ն_317' 'Ն_318' 'Ն_319' 'Ն_320' 'Ն_321' 'Ն_322' 'Ն_323' 'Ն_324' 'Ն_325' 'Ն_326' 'Ն_327' 'Ն_328' 'Ն_329' 'Ն_330' 'Ն_331' 'Ն_332' 'Ն_333' 'Ն_334' 'Ն_335' 'Ն_336' 'Ն_337' 'Ն_338' 'Ն_339' 'Ն_340' 'Ն_341' 'Ն_342' 'Ն_343' 'Ն_344' 'Ն_345' 'Ն_346' 'Ն_347' 'Ն_348' 'Ն_349' 'Ն_350' 'Ն_351' 'Ն_352' 'Ն_353' 'Ն_354' 'Ն_355' 'Ն_356' 'Ն_357' 'Ն_358' 'Ն_359' 'Ն_360' 'Ն_361' 'Ն_362' 'Ն_363' 'Ն_364' 'Ն_365' 'Ն_366' 'Ն_367' 'Ն_368' 'Ն_369' 'Ն_370' 'Ն_371' 'Ն_372' 'Ն_373' 'Ն_374' 'Ն_375' 'Ն_376' 'Ն_377' 'Ն_378' 'Ն_379' 'Ն_380' 'Ն_381' 'Ն_382' 'Ն_383' 'Ն_384' 'Ն_385' 'Ն_386' 'Ն_387' 'Ն_388' 'Ն_389' 'Ն_390' 'Ն_391' 'Ն_392' 'Ն_393' 'Ն_394' 'Ն_395' 'Ն_396' 'Ն_397' 'Ն_398' 'Ն_399' 'Ն_400' 'Ն_401' 'Ն_402' 'Ն_403' 'Ն_404' 'Ն_405' 'Ն_406' 'Ն_407' 'Ն_408' 'Ն_409' 'Ն_410' 'Ն_411' 'Ն_412' 'Ն_413' 'Ն_414' 'Ն_415' 'Ն_416' 'Ն_417' 'Ն_418' 'Ն_419' 'Ն_420' 'Ն_421' 'Ն_422' 'Ն_423' 'Ն_424' 'Ն_425' 'Ն_426' 'Ն_427' 'Ն_428' 'Ն_429' 'Ն_430' 'Ն_431' 'Ն_432' 'Ն_433' 'Ն_434' 'Ն_435' 'Ն_436' 'Ն_437' 'Ն_438' 'Ն_439' 'Ն_440' 'Ն_441' 'Ն_442' 'Ն_443' 'Ն_444' 'Ն_445' 'Ն_446' 'Ն_447' 'Ն_448' 'Ն_449' 'Ն_450' 'Ն_451' 'Ն_452' 'Ն_453' 'Ն_454' 'Ն_455' 'Ն_456' 'Ն_457' 'Ն_458' 'Ն_459' 'Ն_460' 'Ն_461' 'Ն_462' 'Ն_463' 'Ն_464' 'Ն_465' 'Ն_466' 'Ն_467' 'Ն_468' 'Ն_469' 'Ն_470' 'Ն_471' 'Ն_472' 'Ն_473' 'Ն_474' 'Ն_475' 'Ն_476' 'Ն_477' 'Ն_478' 'Ն_479' 'Ն_480' 'Ն_481' 'Ն_482' 'Ն_483' 'Ն_484' 'Ն_485' 'Ն_486' 'Ն_487' 'Ն_488' 'Ն_489' 'Ն_490' 'Ն_491' 'Ն_492' 'Ն_493' 'Ն_494' 'Ն_495' 'Ն_496' 'Ն_497' 'Ն_498' 'Ն_499' 'Ն_500' 'Ն_501' 'Ն_502' 'Ն_503' 'Ն_504' 'Ն_505' 'Ն_506' 'Ն_507' 'Ն_508' 'Ն_509' 'Ն_510' 'Ն_511' 'Ն_512' 'Ն_513' 'Ն_514' 'Ն_515' 'Ն_516' 'Ն_517' 'Ն_518' 'Ն_519' 'Ն_520' 'Ն_521' 'Ն_522' 'Ն_523' 'Ն_524' 'Ն_525' 'Ն_526' 'Ն_527' 'Ն_528' 'Ն_529' 'Ն_530' 'Ն_531' 'Ն_532' 'Ն_533' 'Ն_534' 'Ն_535' 'Ն_536' 'Ն_537' 'Ն_538' 'Ն_539' 'Ն_540' 'Ն_541' 'Ն_542' 'Ն_543' 'Ն_544' 'Ն_545' 'Ն_546' 'Ն_547' 'Ն_548' 'Ն_549' 'Ն_550' 'Ն_551' 'Ն_552' 'Ն_553' 'Ն_554' 'Ն_555' 'Ն_556' 'Ն_557' 'Ն_558' 'Ն_559' 'Ն_560' 'Ն_561' 'Ն_562' 'Ն_563' 'Ն_564' 'Ն_565' 'Ն_566' 'Ն_567' 'Ն_568' 'Ն_569' 'Ն_570' 'Ն_571' 'Ն_572' 'Ն_573' 'Ն_574' 'Ն_575' 'Ն_576' 'Ն_577' 'Ն_578' 'Ն_579' 'Ն_580' 'Ն_581' 'Ն_582' 'Ն_583' 'Ն_584' 'Ն_585' 'Ն_586' 'Ն_587' 'Ն_588' 'Ն_589' 'Ն_590' 'Ն_591' 'Ն_592' 'Ն_593' 'Ն_594' 'Ն_595' 'Ն_596' 'Ն_597' 'Ն_598' 'Ն_599' 'Ն_600' 'Ն_601' 'Ն_602' 'Ն_603' 'Ն_604' 'Ն_605' 'Ն_606' 'Ն_607' 'Ն_608' 'Ն_609' 'Ն_610' 'Ն_611' 'Ն_612' 'Ն_613' 'Ն_614' 'Ն_615' 'Ն_616' 'Ն_617' 'Ն_618' 'Ն_619' 'Ն_620' 'Ն_621' 'Ն_622' 'Ն_623' 'Ն_624' 'Ն_625' 'Ն_626' 'Ն_627' 'Ն_628' 'Ն_629' 'Ն_630' 'Ն_631' 'Ն_632' 'Ն_633' 'Ն_634' 'Ն_635' 'Ն_636' 'Ն_637' 'Ն_638' 'Ն_639' 'Ն_640' 'Ն_641' 'Ն_642' 'Ն_643' 'Ն_644' 'Ն_645' 'Ն_646' 'Ն_647' 'Ն_648' 'Ն_649' 'Ն_650' 'Ն_651' 'Ն_652' 'Ն_653' 'Ն_654' 'Ն_655' 'Ն_656' 'Ն_657' 'Ն_658' 'Ն_659' 'Ն_660' 'Ն_661' 'Ն_662' 'Ն_663' 'Ն_664' 'Ն_665' 'Ն_666' 'Ն_667' 'Ն_668' 'Ն_669' 'Ն_670' 'Ն_671' 'Ն_672' 'Ն_673' 'Ն_674' 'Ն_675' 'Ն_676' 'Ն_677' 'Ն_678' 'Ն_679' 'Ն_680' 'Ն_681' 'Ն_682' 'Ն_683' 'Ն_684' 'Ն_685' 'Ն_686' 'Ն_687' 'Ն_688' 'Ն_689' 'Ն_690' 'Ն_691' 'Ն_692' 'Ն_693' 'Ն_694' 'Ն_695' 'Ն_696' 'Ն_697' 'Ն_698' 'Ն_699' 'Ն_700' 'Ն_701' 'Ն_702' 'Ն_703' 'Ն_704' 'Ն_705' 'Ն_706' 'Ն_707' 'Ն_708' 'Ն_709' 'Ն_710' 'Ն_711' 'Ն_712' 'Ն_713' 'Ն_714' 'Ն_715' 'Ն_716' 'Ն_717' 'Ն_718' 'Ն_719' 'Ն_720' 'Ն_721' 'Ն_722' 'Ն_723' 'Ն_724' 'Ն_725' 'Ն_726' 'Ն_727' 'Ն_728' 'Ն_729' 'Ն_730' 'Ն_731' 'Ն_732' 'Ն_733' 'Ն_734' 'Ն_735' 'Ն_736' 'Ն_737' 'Ն_738' 'Ն_739' 'Ն_740' 'Ն_741' 'Ն_742' 'Ն_743' 'Ն_744' 'Ն_745' 'Ն_746' 'Ն_747' 'Ն_748' 'Ն_749' 'Ն_750' 'Ն_751' 'Ն_752' 'Ն_753' 'Ն_754' 'Ն_755' 'Ն_756' 'Ն_757' 'Ն_758' 'Ն_759' 'Ն_760' 'Ն_761' 'Ն_762' 'Ն_763' 'Ն_764' 'Ն_765' 'Ն_766' 'Ն_767' 'Ն_768' 'Ն_769' 'Ն_770' 'Ն_771' 'Ն_772' 'Ն_773' 'Ն_774' 'Ն_775' 'Ն_776' 'Ն_777' 'Ն_778' 'Ն_779' 'Ն_780' 'Ն_781' 'Ն_782' 'Ն_783' 'Ն_784' 'Ն_785' 'Ն_786' 'Ն_787' 'Ն_788' 'Ն_789' 'Ն_790' 'Ն_791' 'Ն_792' 'Ն_793' 'Ն_794' 'Ն_795' 'Ն_796' 'Ն_797' 'Ն_798' 'Ն_799' 'Ն_800' 'Ն_801' 'Ն_802' 'Ն_803' 'Ն_804' 'Ն_805' 'Ն_806' 'Ն_807' 'Ն_808' 'Ն_809' 'Ն_810' 'Ն_811' 'Ն_812' 'Ն_813' 'Ն_814' 'Ն_815' 'Ն_816' 'Ն_817' 'Ն_818' 'Ն_819' 'Ն_820' 'Ն_821' 'Ն_822' 'Ն_823' 'Ն_824' 'Ն_825' 'Ն_826' 'Ն_827' 'Ն_828' 'Ն_829' 'Ն_830' 'Ն_831' 'Ն_832' 'Ն_833' 'Ն_834' 'Ն_835' 'Ն_836' 'Ն_837' 'Ն_838' 'Ն_839' 'Ն_840' 'Ն_841' 'Ն_842' 'Ն_843' 'Ն_844' 'Ն_845' 'Ն_846' 'Ն_847' 'Ն_848' 'Ն_849' 'Ն_850' 'Ն_851' 'Ն_852' 'Ն_853' 'Ն_854' 'Ն_855' 'Ն_856' 'Ն_857' 'Ն_858' 'Ն_859' 'Ն_860' 'Ն_861' 'Ն_862' 'Ն_863' 'Ն_864' 'Ն_865' 'Ն_866' 'Ն_867' 'Ն_868' 'Ն_869' 'Ն_870' 'Ն_871' 'Ն_872' 'Ն_873' 'Ն_874' 'Ն_875' 'Ն_876' 'Ն_877' 'Ն_878' 'Ն_879' 'Ն_880' 'Ն_881' 'Ն_882' 'Ն_883' 'Ն_884' 'Ն_885' 'Ն_886' 'Ն_887' 'Ն_888' 'Ն_889' 'Ն_890' 'Ն_891' 'Ն_892' 'Ն_893' 'Ն_894' 'Ն_895' 'Ն_896' 'Ն_897' 'Ն_898' 'Ն_899' 'Ն_900' 'Ն_901' 'Ն_902' 'Ն_903' 'Ն_904' 'Ն_905' 'Ն_906' 'Ն_907' 'Ն_908' 'Ն_909' 'Ն_910' 'Ն_911' 'Ն_912' 'Ն_913' 'Ն_914' 'Ն_915' 'Ն_916' 'Ն_917' 'Ն_918' 'Ն_919' 'Ն_920' 'Ն_921' 'Ն_922' 'Ն_923' 'Ն_924' 'Ն_925' 'Ն_926' 'Ն_927' 'Ն_928' 'Ն_929' 'Ն_930' 'Ն_931' 'Ն_932' 'Ն_933' 'Ն_934' 'Ն_935' 'Ն_936' 'Ն_937' 'Ն_938' 'Ն_939' 'Ն_940' 'Ն_941' 'Ն_942' 'Ն_943' 'Ն_944' 'Ն_945' 'Ն_946' 'Ն_947' 'Ն_948' 'Ն_949' 'Ն_950' 'Ն_951' 'Ն_952' 'Ն_953' 'Ն_954' 'Ն_955' 'Ն_956' 'Ն_957' 'Ն_958' 'Ն_959' 'Ն_960' 'Ն_961' 'Ն_962' 'Ն_963' 'Ն_964' 'Ն_965' 'Ն_966' 'Ն_967' 'Ն_968' 'Ն_969' 'Ն_970' 'Ն_971' 'Ն_972' 'Ն_973' 'Ն_974' 'Ն_975' 'Ն_976' 'Ն_977' 'Ն_978' 'Ն_979' 'Ն_980' 'Ն_981' 'Ն_982' 'Ն_983' 'Ն_984' 'Ն_985' 'Ն_986' 'Ն_987' 'Ն_988' 'Ն_989' 'Ն_990' 'Ն_991' 'Ն_992' 'Ն_993' 'Ն_994' 'Ն_995' 'Ն_996' 'Ն_997' 'Ն_998' 'Ն_999' 'Ն_1000';
+}
+.mw-ref > a[data-mw-group=N]::after {
+	content: '[' counter( mw-Ref, custom-group-label-N ) ']';
+}
+--- EMITTING CSS for is.wikipedia ---
+.mw-ref > a[data-mw-group=lower-alpha]::after {
+	content: '[' counter( mw-Ref, lower-alpha ) ']';
+}
+--- EMITTING CSS for lt.wikipedia ---
+.mw-ref > a[data-mw-group=lower-alpha]::after {
+	content: '[' counter( mw-Ref, lower-alpha ) ']';
+}
+--- EMITTING CSS for lv.wikipedia ---
+.mw-ref > a[data-mw-group=decimal]::after {
+	content: '[' counter( mw-Ref, decimal ) ']';
+}
+.mw-ref > a[data-mw-group=lower-alpha]::after {
+	content: '[' counter( mw-Ref, lower-alpha ) ']';
+}
+.mw-ref > a[data-mw-group=lower-greek]::after {
+	content: '[' counter( mw-Ref, lower-greek ) ']';
+}
+.mw-ref > a[data-mw-group=lower-roman]::after {
+	content: '[' counter( mw-Ref, lower-roman ) ']';
+}
+--- EMITTING CSS for ml.wikipedia ---
+.mw-ref > a[data-mw-group=upper-roman]::after {
+	content: '[' counter( mw-Ref, upper-roman ) ']';
+}
+.mw-ref > a[data-mw-group=upper-alpha]::after {
+	content: '[' counter( mw-Ref, upper-alpha ) ']';
+}
+.mw-ref > a[data-mw-group=lower-roman]::after {
+	content: '[' counter( mw-Ref, lower-roman ) ']';
+}
+.mw-ref > a[data-mw-group=decimal]::after {
+	content: '[' counter( mw-Ref, decimal ) ']';
+}
+.mw-ref > a[data-mw-group=lower-alpha]::after {
+	content: '[' counter( mw-Ref, lower-alpha ) ']';
+}
+.mw-ref > a[data-mw-group=lower-greek]::after {
+	content: '[' counter( mw-Ref, lower-greek ) ']';
+}
+--- EMITTING CSS for mn.wikipedia ---
+.mw-ref > a[data-mw-group=lower-alpha]::after {
+	content: '[' counter( mw-Ref, lower-alpha ) ']';
+}
+--- EMITTING CSS for ne.wikipedia ---
+@counter-style custom-group-label-lower-alpha {
+	system: fixed;
+	symbols: 'क' 'ख' 'ग' 'घ' 'ङ' 'च' 'छ' 'ज' 'झ' 'ञ' 'ट' 'ठ' 'ड' 'ढ' 'ण' 'त' 'थ' 'द' 'ध' 'न' 'प' 'फ' 'ब' 'भ' 'म' 'य' 'र' 'ल' 'व' 'श' 'ष' 'स' 'ह' 'क्ष' 'त्र' 'ज्ञ';
+}
+.mw-ref > a[data-mw-group=lower-alpha]::after {
+	content: '[' counter( mw-Ref, custom-group-label-lower-alpha ) ']';
+}
+.mw-ref > a[data-mw-group=decimal]::after {
+	content: '[' counter( mw-Ref, devanagari ) ']';
+}
+--- EMITTING CSS for nn.wikipedia ---
+.mw-ref > a[data-mw-group=lower-alpha]::after {
+	content: '[' counter( mw-Ref, lower-alpha ) ']';
+}
+.mw-ref > a[data-mw-group=upper-roman]::after {
+	content: '[' counter( mw-Ref, upper-roman ) ']';
+}
+.mw-ref > a[data-mw-group=lower-roman]::after {
+	content: '[' counter( mw-Ref, lower-roman ) ']';
+}
+.mw-ref > a[data-mw-group=upper-alpha]::after {
+	content: '[' counter( mw-Ref, upper-alpha ) ']';
+}
+--- EMITTING CSS for or.wikipedia ---
+.mw-ref > a[data-mw-group=lower-alpha]::after {
+	content: '[' counter( mw-Ref, lower-alpha ) ']';
+}
+.mw-ref > a[data-mw-group=upper-alpha]::after {
+	content: '[' counter( mw-Ref, upper-alpha ) ']';
+}
+.mw-ref > a[data-mw-group=lower-greek]::after {
+	content: '[' counter( mw-Ref, lower-greek ) ']';
+}
+.mw-ref > a[data-mw-group=decimal]::after {
+	content: '[' counter( mw-Ref, decimal ) ']';
+}
+.mw-ref > a[data-mw-group=lower-roman]::after {
+	content: '[' counter( mw-Ref, lower-roman ) ']';
+}
+--- EMITTING CSS for pl.wikisource ---
+.mw-ref > a[data-mw-group=lower-alpha]::after {
+	content: '[' counter( mw-Ref, lower-alpha ) ']';
+}
+--- EMITTING CSS for simple.wikipedia ---
+.mw-ref > a[data-mw-group=upper-alpha]::after {
+	content: '[' counter( mw-Ref, upper-alpha ) ']';
+}
+.mw-ref > a[data-mw-group=lower-alpha]::after {
+	content: '[' counter( mw-Ref, lower-alpha ) ']';
+}
+--- EMITTING CSS for wikisource ---
+.mw-ref > a[data-mw-group=lower-alpha]::after {
+	content: '[' counter( mw-Ref, lower-alpha ) ']';
+}
+--- EMITTING CSS for sr.wikisource ---
+.mw-ref > a[data-mw-group=lower-alpha]::after {
+	content: '[' counter( mw-Ref, lower-alpha ) ']';
+}
+--- EMITTING CSS for ta.wikipedia ---
+@counter-style custom-group-label-alpha-tamil {
+	system: fixed;
+	symbols: 'அ' 'ஆ' 'இ' 'ஈ' 'உ' 'ஊ' 'எ' 'ஏ' 'ஐ' 'ஒ' 'ஓ' 'ஔ' 'ஃ' 'க்' 'ங்' 'ச்' 'ஞ்' 'ட்' 'ண்' 'த்' 'ந்' 'ப்' 'ம்' 'ய்' 'ர்' 'ல்' 'வ்' 'ழ்' 'ள்' 'ற்' 'ன்' 'க' 'ங' 'ச' 'ஞ' 'ட' 'ண' 'த' 'ந' 'ப' 'ம' 'ய' 'ர' 'ல' 'வ' 'ழ' 'ள' 'ற' 'ன' 'கா' 'ஙா' 'சா' 'ஞா' 'டா' 'ணா' 'தா' 'நா' 'பா' 'மா' 'யா' 'ரா' 'லா' 'வா' 'ழா' 'ளா' 'றா' 'னா' 'கி' 'ஙி' 'சி' 'ஞி' 'டி' 'ணி' 'தி' 'நி' 'பி' 'மி' 'யி' 'ரி' 'லி' 'வி' 'ழி' 'ளி' 'றி' 'னி' 'கீ' 'ஙீ' 'சீ' 'ஞீ' 'டீ' 'ணீ' 'தீ' 'நீ' 'பீ' 'மீ' 'யீ' 'ரீ' 'லீ' 'வீ' 'ழீ' 'ளீ' 'றீ' 'னீ' 'கு' 'ஙு' 'சு' 'ஞு' 'டு' 'ணு' 'து' 'நு' 'பு' 'மு' 'யு' 'ரு' 'லு' 'வு' 'ழு' 'ளு' 'று' 'னு' 'கூ' 'ஙூ' 'சூ' 'ஞூ' 'டூ' 'ணூ' 'தூ' 'நூ' 'பூ' 'மூ' 'யூ' 'ரூ' 'லூ' 'வூ' 'ழூ' 'ளூ' 'றூ' 'னூ' 'கெ' 'ஙெ' 'செ' 'ஞெ' 'டெ' 'ணெ' 'தெ' 'நெ' 'பெ' 'மெ' 'யெ' 'ரெ' 'லெ' 'வெ' 'ழெ' 'ளெ' 'றெ' 'னெ' 'கே' 'ஙே' 'சே' 'ஞே' 'டே' 'ணே' 'தே' 'நே' 'பே' 'மே' 'யே' 'ரே' 'லே' 'வே' 'ழே' 'ளே' 'றே' 'னே' 'கை' 'ஙை' 'சை' 'ஞை' 'டை' 'ணை' 'தை' 'நை' 'பை' 'மை' 'யை' 'ரை' 'லை' 'வை' 'ழை' 'ளை' 'றை' 'னை' 'கொ' 'ஙொ' 'சொ' 'ஞொ' 'டொ' 'ணொ' 'தொ' 'நொ' 'பொ' 'மொ' 'யொ' 'ரொ' 'லொ' 'வொ' 'ழொ' 'ளொ' 'றொ' 'னொ' 'கோ' 'ஙோ' 'சோ' 'ஞோ' 'டோ' 'ணோ' 'தோ' 'நோ' 'போ' 'மோ' 'யோ' 'ரோ' 'லோ' 'வோ' 'ழோ' 'ளோ' 'றோ' 'னோ' 'கௌ' 'ஙௌ' 'சௌ' 'ஞௌ' 'டௌ' 'ணௌ' 'தௌ' 'நௌ' 'பௌ' 'மௌ' 'யௌ' 'ரௌ' 'லௌ' 'வௌ' 'ழௌ' 'ளௌ' 'றௌ' 'னௌ';
+}
+.mw-ref > a[data-mw-group=alpha-tamil]::after {
+	content: '[' counter( mw-Ref, custom-group-label-alpha-tamil ) ']';
+}
+.mw-ref > a[data-mw-group=lower-roman]::after {
+	content: '[' counter( mw-Ref, lower-roman ) ']';
+}
+.mw-ref > a[data-mw-group=lower-alpha]::after {
+	content: '[' counter( mw-Ref, lower-alpha ) ']';
+}
+--- EMITTING CSS for th.wikipedia ---
+@counter-style custom-group-label-thai {
+	system: alphabetic;
+	symbols: 'ก' 'ข' 'ค' 'ง' 'จ' 'ฉ' 'ช' 'ซ' 'ด' 'ต' 'ถ' 'ท' 'น' 'บ' 'ป' 'ผ' 'ฝ' 'พ' 'ฟ' 'ม' 'ย' 'ร' 'ว' 'ส' 'อ' 'ฮ';
+}
+.mw-ref > a[data-mw-group=upper-alpha]::after {
+	content: '[' counter( mw-Ref, upper-alpha ) ']';
+}
+.mw-ref > a[data-mw-group=upper-roman]::after {
+	content: '[' counter( mw-Ref, upper-roman ) ']';
+}
+.mw-ref > a[data-mw-group=lower-alpha]::after {
+	content: '[' counter( mw-Ref, lower-alpha ) ']';
+}
+.mw-ref > a[data-mw-group=lower-roman]::after {
+	content: '[' counter( mw-Ref, lower-roman ) ']';
+}
+.mw-ref > a[data-mw-group=thai]::after {
+	content: '[' counter( mw-Ref, custom-group-label-thai ) ']';
+}
+.mw-ref > a[data-mw-group=decimal]::after {
+	content: '[' counter( mw-Ref, decimal ) ']';
+}
+.mw-ref > a[data-mw-group=lower-greek]::after {
+	content: '[' counter( mw-Ref, lower-greek ) ']';
+}
+--- EMITTING CSS for tl.wikipedia ---
+.mw-ref > a[data-mw-group=lower-greek]::after {
+	content: '[' counter( mw-Ref, lower-greek ) ']';
+}
+.mw-ref > a[data-mw-group=upper-alpha]::after {
+	content: '[' counter( mw-Ref, upper-alpha ) ']';
+}
+.mw-ref > a[data-mw-group=decimal]::after {
+	content: '[' counter( mw-Ref, decimal ) ']';
+}
+.mw-ref > a[data-mw-group=lower-roman]::after {
+	content: '[' counter( mw-Ref, lower-roman ) ']';
+}
+.mw-ref > a[data-mw-group=lower-alpha]::after {
+	content: '[' counter( mw-Ref, lower-alpha ) ']';
+}
+.mw-ref > a[data-mw-group=upper-roman]::after {
+	content: '[' counter( mw-Ref, upper-roman ) ']';
+}
+--- EMITTING CSS for tr.wikivoyage ---
+.mw-ref > a[data-mw-group=lower-alpha]::after {
+	content: '[' counter( mw-Ref, lower-alpha ) ']';
+}
+--- EMITTING CSS for zh-yue.wikipedia ---
+.mw-ref > a[data-mw-group=lower-roman]::after {
+	content: '[' counter( mw-Ref, lower-roman ) ']';
+}
+.mw-ref > a[data-mw-group=upper-roman]::after {
+	content: '[' counter( mw-Ref, upper-roman ) ']';
+}
+.mw-ref > a[data-mw-group=lower-greek]::after {
+	content: '[' counter( mw-Ref, lower-greek ) ']';
+}
+.mw-ref > a[data-mw-group=lower-alpha]::after {
+	content: '[' counter( mw-Ref, lower-alpha ) ']';
+}
+.mw-ref > a[data-mw-group=upper-alpha]::after {
+	content: '[' counter( mw-Ref, upper-alpha ) ']';
+}
+--- EMITTING CSS for be_x_old.wikipedia ---
+--- EMITTING CSS for no.wiktionary ---
+--- EMITTING CSS for no.wikiquote ---
+--- EMITTING CSS for no.wikinews ---
+--- EMITTING CSS for no.wikisource ---
+--- EMITTING CSS for shy.wiktionary ---
+span[ rel="mw:referencedBy" ] > a:nth-last-child(2)::after {
+	content: " et ";
+}
+--- EMITTING CSS for simple.wikibooks ---
+--- EMITTING CSS for simple.wikiquote ---
+--- EMITTING CSS for simple.wiktionary ---
+--- EMITTING CSS for test2.wikipedia ---
+--- EMITTING CSS for als.wikipedia ---
+--- EMITTING CSS for bat_smg.wikipedia ---
+--- EMITTING CSS for bh.wikipedia ---
+.mw-ref > a::after {
+	content: '[' counter( mw-Ref, decimal ) ']';
+}
+.mw-ref > a[ data-mw-group ]::after {
+	content: '[' attr( data-mw-group ) ' ' counter( mw-Ref, decimal ) ']';
+}
+span[ rel="mw:referencedBy" ] > a::before {
+	content: counter( mw-references, decimal ) '.' counter( mw-ref-linkback, decimal )
+}
+--- EMITTING CSS for bh.wiktionary ---
+--- EMITTING CSS for cbk_zam.wikipedia ---
+--- EMITTING CSS for fiu_vro.wikipedia ---
+--- EMITTING CSS for roa_rup.wikipedia ---
+--- EMITTING CSS for roa_rup.wiktionary ---
+--- EMITTING CSS for zh_classical.wikipedia ---
+span[ rel="mw:referencedBy" ] > a::before {
+	content: counter( mw-references, lzh-counter ) '點' counter( mw-ref-linkback, lzh-counter );
+}
+--- EMITTING CSS for zh_min_nan.wikipedia ---
+--- EMITTING CSS for zh_min_nan.wiktionary ---
+--- EMITTING CSS for zh_min_nan.wikibooks ---
+--- EMITTING CSS for zh_min_nan.wikiquote ---
+--- EMITTING CSS for zh_min_nan.wikisource ---
+--- EMITTING CSS for zh_yue.wikipedia ---
+--- EMITTING CSS for am.wikimedia ---
+--- EMITTING CSS for ar.wikimedia ---
+--- EMITTING CSS for bd.wikimedia ---
+--- EMITTING CSS for be.wikimedia ---
+--- EMITTING CSS for br.wikimedia ---
+--- EMITTING CSS for ca.wikimedia ---
+--- EMITTING CSS for co.wikimedia ---
+--- EMITTING CSS for dk.wikimedia ---
+--- EMITTING CSS for ec.wikimedia ---
+--- EMITTING CSS for id.wikimedia ---
+--- EMITTING CSS for id_internal.wikimedia ---
+--- EMITTING CSS for il.wikimedia ---
+--- EMITTING CSS for mk.wikimedia ---
+--- EMITTING CSS for mx.wikimedia ---
+--- EMITTING CSS for ng.wikimedia ---
+--- EMITTING CSS for no.wikimedia ---
+--- EMITTING CSS for noboard_chapters.wikimedia ---
+--- EMITTING CSS for nyc.wikimedia ---
+--- EMITTING CSS for nz.wikimedia ---
+--- EMITTING CSS for pa_us.wikimedia ---
+--- EMITTING CSS for rs.wikimedia ---
+--- EMITTING CSS for se.wikimedia ---
+--- EMITTING CSS for cn.wikimedia ---
+--- EMITTING CSS for ge.wikimedia ---
+--- EMITTING CSS for gr.wikimedia ---
+--- EMITTING CSS for hi.wikimedia ---
+--- EMITTING CSS for punjabi.wikimedia ---
+--- EMITTING CSS for romd.wikimedia ---
+--- EMITTING CSS for wb.wikimedia ---
+--- EMITTING CSS for special ---
+--- EMITTING CSS for advisory.wikimedia ---
+--- EMITTING CSS for apiportal.wikimedia ---
+--- EMITTING CSS for arbcom_cs.wikimedia ---
+--- EMITTING CSS for arbcom_de.wikimedia ---
+--- EMITTING CSS for arbcom_en.wikimedia ---
+--- EMITTING CSS for arbcom_fi.wikimedia ---
+--- EMITTING CSS for arbcom_nl.wikimedia ---
+--- EMITTING CSS for arbcom_ru.wikimedia ---
+--- EMITTING CSS for auditcom.wikimedia ---
+--- EMITTING CSS for beta.wikiversity ---
+--- EMITTING CSS for chair.wikimedia ---
+--- EMITTING CSS for chapcom.wikimedia ---
+--- EMITTING CSS for checkuser.wikimedia ---
+--- EMITTING CSS for collab.wikimedia ---
+--- EMITTING CSS for donate.wikimedia ---
+--- EMITTING CSS for exec.wikimedia ---
+--- EMITTING CSS for fdc.wikimedia ---
+--- EMITTING CSS for grants.wikimedia ---
+--- EMITTING CSS for iegcom.wikimedia ---
+--- EMITTING CSS for incubator.wikimedia ---
+--- EMITTING CSS for legalteam.wikimedia ---
+--- EMITTING CSS for office.wikimedia ---
+--- EMITTING CSS for ombudsmen.wikimedia ---
+--- EMITTING CSS for otrs_.wiki.wikimedia ---
+--- EMITTING CSS for projectcom.wikimedia ---
+--- EMITTING CSS for quality.wikimedia ---
+--- EMITTING CSS for searchcom.wikimedia ---
+--- EMITTING CSS for steward.wikimedia ---
+--- EMITTING CSS for strategy.wikimedia ---
+--- EMITTING CSS for sysop_it.wikimedia ---
+--- EMITTING CSS for ten.wikimedia ---
+--- EMITTING CSS for thankyou.wikimedia ---
+--- EMITTING CSS for transitionteam.wikimedia ---
+--- EMITTING CSS for usability.wikimedia ---
+--- EMITTING CSS for vote.wikimedia ---
+--- EMITTING CSS for wg_en.wikimedia ---
+--- EMITTING CSS for wikimania.wikimedia ---
+--- EMITTING CSS for wikimaniateam.wikikedia ---

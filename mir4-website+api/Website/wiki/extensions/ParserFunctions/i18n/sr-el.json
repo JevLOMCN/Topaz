@@ -1,0 +1,29 @@
+{
+	"@metadata": {
+		"authors": [
+			"Michaello",
+			"Milicevic01",
+			"Zoranzoki21",
+			"Сербијана"
+		]
+	},
+	"pfunc_desc": "Proširuje raščlanjivač sa logičkim funkcijama",
+	"pfunc_time_error": "Greška: nevažeće vreme.",
+	"pfunc_time_too_long": "Greška: previše #time poziva",
+	"pfunc_rel2abs_invalid_depth": "Greška: nepravilna dubina u putanji: „$1“ (pokušaj pristupa čvoru iznad korenskog (root)).",
+	"pfunc_expr_stack_exhausted": "Greška u izrazu: stek napunjen",
+	"pfunc_expr_unexpected_number": "Greška u izrazu: neočekivani broj",
+	"pfunc_expr_preg_match_failure": "Greška u izrazu: Neočekivana preg_match greška",
+	"pfunc_expr_unrecognised_word": "Greška u izrazu: nepoznata reč „$1“",
+	"pfunc_expr_unexpected_operator": "Greška u izrazu: neočekivani operator „$1“",
+	"pfunc_expr_missing_operand": "Greška u izrazu: nedostaje operand za $1",
+	"pfunc_expr_unexpected_closing_bracket": "Greška u izrazu: neočekivano zatvaranje srednje zagrade.",
+	"pfunc_expr_unrecognised_punctuation": "Greška u izrazu: nepoznati interpunkcijski karakter „$1“.",
+	"pfunc_expr_unclosed_bracket": "Greška u izrazu: nezatvorena srednja zagrada.",
+	"pfunc_expr_division_by_zero": "Deljenje sa nulom.",
+	"pfunc_expr_invalid_argument": "Loš argument: $1 je < -1 ili > 1",
+	"pfunc_expr_invalid_argument_ln": "Loš argument: ln <= 0",
+	"pfunc_expr_unknown_error": "Greška u izrazu: Nepoznata greška ($1)",
+	"pfunc_expr_not_a_number": "Rezultat u $1 nije broj.",
+	"pfunc_string_too_long": "Greška: reč prekoračuje $1  slova, što je postavljeno ograničenje"
+}

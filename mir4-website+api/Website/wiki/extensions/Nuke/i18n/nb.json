@@ -1,0 +1,37 @@
+{
+	"@metadata": {
+		"authors": [
+			"Danmichaelo",
+			"Event",
+			"Jon Harald Søby",
+			"Kingu",
+			"Nghtwlkr"
+		]
+	},
+	"nuke": "Massesletting",
+	"action-nuke": "masseslette sider",
+	"nuke-desc": "Gir administratorer muligheten til å [[Special:Nuke|masseslette]] sider",
+	"nuke-nopages": "Ingen nye sider av [[Special:Contributions/$1|{{GENDER:$1|$1}}]] i siste endringer.",
+	"nuke-list": "Følgende sider ble nylig opprettet av [[Special:Contributions/$1|{{GENDER:$1|$1}}]]; skriv inn en begrunnelse og trykk på knappen for å slette alle sidene.",
+	"nuke-list-multiple": "Følgende sider ble nylig opprettet;\nsett inn en kommentar og trykk på knappen for å slette dem.",
+	"nuke-defaultreason": "Massesletting av sider lagt inn av [[Special:Contributions/$1|{{GENDER:$1|$1}}]]",
+	"nuke-multiplepeople": "Massesletting av nylig opprettede sider",
+	"nuke-tools": "Dette verktøyet muliggjør massesletting av sider som nylig er opprettet av gitt bruker eller IP-adresse.\nSkriv et brukernavn eller en IP-adresse for å få en liste over sider som kan slettes, eller angi tomt for alle brukere.",
+	"nuke-submit-user": "List opp sider",
+	"nuke-submit-delete": "Slett valgte",
+	"right-nuke": "Masseslette sider",
+	"nuke-userorip": "Brukernavn, IP-adresse eller tomt:",
+	"nuke-maxpages": "Maksimalt antall sider:",
+	"nuke-editby": "Opprettet av [[Special:Contributions/$1|{{GENDER:$1|$1}}]]",
+	"nuke-deleted": "Siden '''$1''' har blitt slettet.",
+	"nuke-deletion-queued": "Siden '''$1''' står i kø for å slettes.",
+	"nuke-not-deleted": "Siden [[:$1]] '''kunne ikke''' slettes.",
+	"nuke-delete-more": "[[Special:Nuke|Slett flere sider]]",
+	"nuke-pattern": "SQL-LIKE-mønster (f.eks. %) for sidenavnet:",
+	"nuke-nopages-global": "Det er ingen sidetitler som matcher søket ditt.",
+	"nuke-viewchanges": "vis endringer",
+	"nuke-namespace": "Begrens til navnerom:",
+	"nuke-linkoncontribs": "masseslett",
+	"nuke-linkoncontribs-text": "Masseslett sider der denne {{GENDER:$1|brukeren}} er den eneste forfatteren",
+	"nuke-confirm": "Du er i ferd med å slette {{PLURAL:$1|éi side|$1 sider}}. Er du sikker på at du vil gjøre dette?"
+}

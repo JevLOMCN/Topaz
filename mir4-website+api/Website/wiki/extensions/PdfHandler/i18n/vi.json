@@ -1,0 +1,19 @@
+{
+	"@metadata": {
+		"authors": [
+			"Minh Nguyen",
+			"Vinhtantran"
+		]
+	},
+	"pdf-desc": "Bộ xử lý để xem tập tin PDF ở dạng hình ảnh",
+	"pdf-file-page-warning": "PDF là một định dạng phức tạp có thể lộ rõ thông tin cá nhân của bạn trong một số trường hợp. Hãy chắc chắn thiết lập trình xem PDF của bạn một cách an toàn.",
+	"pdf-file-page-warning-header": "Thông tin về quyền riêng tư",
+	"pdf-file-page-warning-footer": "Đây là vấn đề của định dạng PDF nói chung, chứ không phải tập tin này nói riêng.",
+	"pdf-file-page-warning-info": "Tìm hiểu thêm về vấn đề này.",
+	"pdf_no_metadata": "Không thấy truy xuất siêu dữ liệu từ PDF",
+	"pdf_page_error": "Số trang không nằm trong giới hạn",
+	"exif-pdf-producer": "Chương trình chuyển đổi",
+	"exif-pdf-version": "Phiên bản định dạng PDF",
+	"exif-pdf-encrypted": "Mã hóa",
+	"exif-pdf-pagesize": "Kích thước trang"
+}

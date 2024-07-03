@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Beta16"
+		]
+	},
+	"apihelp-query+gadgetcategories-summary": "Restituisce un elenco di categorie di accessori.",
+	"apihelp-query+gadgetcategories-param-names": "Nomi delle categorie da recuperare.",
+	"apihelp-query+gadgetcategories-example-1": "Ottieni un elenco di categorie di accessori esistenti",
+	"apihelp-query+gadgetcategories-example-2": "Ottieni tutte le informazioni sulle categorie denominate \"foo\" e \"bar\"",
+	"apihelp-query+gadgets-param-ids": "ID degli accessori da recuperare.",
+	"apihelp-query+gadgets-param-allowedonly": "Elenca solo accessori consentiti all'utente attuale.",
+	"apihelp-query+gadgets-param-enabledonly": "Elenca solo accessori attivati dall'utente attuale."
+}

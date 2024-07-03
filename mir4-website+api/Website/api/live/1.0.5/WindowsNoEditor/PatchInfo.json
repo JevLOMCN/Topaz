@@ -1,0 +1,1300 @@
+{
+	"PatchInfos": {
+		"Step0": [
+			{
+				"FileName": "ShaderArchive-MirMobile-GLSL_150_ES31.ushaderbytecode",
+				"Size": "92887607",
+				"Version": "386"
+			},
+			{
+				"FileName": "ShaderArchive-MirMobile-PCD3D_ES31.ushaderbytecode",
+				"Size": "29001318",
+				"Version": "561"
+			},
+			{
+				"FileName": "ShaderArchive-MirMobile-PCD3D_SM5.ushaderbytecode",
+				"Size": "12972030",
+				"Version": "561"
+			},
+			{
+				"FileName": "Skeleton.Maps.Gacha.Obj.GC_ball_01_Skeleton_00_202108210116.pak",
+				"Size": "15180323",
+				"Crc": "930554038",
+				"Version": "202108210116"
+			},
+			{
+				"FileName": "Skeleton.Characters.BrokenObj.OBJ_Inn_01_Skeleton_00_202108210116.pak",
+				"Size": "5067921",
+				"Crc": "719190462",
+				"Version": "202108210116"
+			},
+			{
+				"FileName": "Skeleton.Characters.Monster.Animal.Batswarm01.Mon_Batswarm01_Skeleton_00_202108210116.pak",
+				"Size": "7543404",
+				"Crc": "3093465488",
+				"Version": "202108210116"
+			},
+			{
+				"FileName": "Skeleton.Characters.Monster.Animal.BimagCocoon01.Mon_BimagCocoon01_Skeleton_00_202108210116.pak",
+				"Size": "5220216",
+				"Crc": "2377417351",
+				"Version": "202108210116"
+			},
+			{
+				"FileName": "Skeleton.Characters.Monster.Animal.DonDon03.Mon_DonDon03_Skeleton_00_202108210116.pak",
+				"Size": "37495816",
+				"Crc": "3353666448",
+				"Version": "202108210116"
+			},
+			{
+				"FileName": "Skeleton.Characters.Monster.Animal.D_Centipede.Mon_D_Centipede_Skeleton_00_202108210116.pak",
+				"Size": "15569240",
+				"Crc": "1895776469",
+				"Version": "202108210116"
+			},
+			{
+				"FileName": "Skeleton.Characters.Monster.Animal.Goat03.Mon_Goat03_Skeleton_00_202108210116.pak",
+				"Size": "16377676",
+				"Crc": "1595639367",
+				"Version": "202108210116"
+			},
+			{
+				"FileName": "Skeleton.Characters.Monster.Animal.Insect21.Mon_Insect21_Skeleton_00_202108210116.pak",
+				"Size": "8182365",
+				"Crc": "3936241430",
+				"Version": "202108210116"
+			},
+			{
+				"FileName": "Skeleton.Characters.Monster.Animal.Moth01.Mon_Moth01_Skeleton_00_202108210116.pak",
+				"Size": "13622993",
+				"Crc": "2233249213",
+				"Version": "202108210116"
+			},
+			{
+				"FileName": "Skeleton.Characters.Monster.Animal.Scorpion01.Mon_Scorpion01_Skeleton_00_202108210116.pak",
+				"Size": "11360037",
+				"Crc": "2507567963",
+				"Version": "202108210116"
+			},
+			{
+				"FileName": "Skeleton.Characters.Monster.Animal.SnakeDragon03.Mon_SnakeDragon03_Skeleton_00_202108210116.pak",
+				"Size": "6675630",
+				"Crc": "3863636427",
+				"Version": "202108210116"
+			},
+			{
+				"FileName": "Skeleton.Characters.Monster.Animal.TntSpider02.Mon_TntSpider02_Skeleton_00_202108210116.pak",
+				"Size": "5614097",
+				"Crc": "1704675399",
+				"Version": "202108210116"
+			},
+			{
+				"FileName": "Skeleton.Characters.Monster.Bloody.Bloody03.Mon_Bloody03_Skeleton_00_202108210116.pak",
+				"Size": "4873945",
+				"Crc": "2184122321",
+				"Version": "202108210116"
+			},
+			{
+				"FileName": "Skeleton.Characters.Monster.Bloody.BloodyTentacle03.Mon_BloodyTentacle03_Skeleton_00_202108210116.pak",
+				"Size": "19940481",
+				"Crc": "3285366081",
+				"Version": "202108210116"
+			},
+			{
+				"FileName": "Skeleton.Characters.Monster.DObj.DobjMon_Crystal_01.DobjMon_Crystal_01_Skeleton_00_202108210116.pak",
+				"Size": "9565726",
+				"Crc": "2763918848",
+				"Version": "202108210116"
+			},
+			{
+				"FileName": "Skeleton.Characters.Monster.DObj.DObjMon_Irondoor01.DObjMon_Irondoor01_Skeleton_00_202108210116.pak",
+				"Size": "10006544",
+				"Crc": "2705266761",
+				"Version": "202108210116"
+			},
+			{
+				"FileName": "Skeleton.Characters.Monster.DObj.DObjMon_Rock_01.DObjMon_Rock_01Btl_Skeleton_00_202108210116.pak",
+				"Size": "6026964",
+				"Crc": "431796768",
+				"Version": "202108210116"
+			},
+			{
+				"FileName": "Skeleton.Characters.Monster.DObj.DObjMon_SiegeTower01.DObjMon_SiegeTower01_Skeleton_00_202108210116.pak",
+				"Size": "19841713",
+				"Crc": "1949772866",
+				"Version": "202108210116"
+			},
+			{
+				"FileName": "Skeleton.Characters.Monster.DObj.DObjMon_UnderDoor_01.DObjMon_UnderDoor_01_Skeleton_00_202108210116.pak",
+				"Size": "17535494",
+				"Crc": "651663938",
+				"Version": "202108210116"
+			},
+			{
+				"FileName": "Skeleton.Characters.Monster.Ghost.DarkMonk21.Mon_DarkMonk21_Skeleton_00_202108210116.pak",
+				"Size": "14747604",
+				"Crc": "3667265503",
+				"Version": "202108210116"
+			},
+			{
+				"FileName": "Skeleton.Characters.Monster.Ghost.Goblin31.Mon_Goblin31_Skeleton_00_202108210116.pak",
+				"Size": "14394269",
+				"Crc": "1734552946",
+				"Version": "202108210116"
+			},
+			{
+				"FileName": "Skeleton.Characters.Monster.Ghost.Undead01.Mon_Undead01_Skeleton_00_202108210116.pak",
+				"Size": "13026390",
+				"Crc": "1186998712",
+				"Version": "202108210116"
+			},
+			{
+				"FileName": "Skeleton.Characters.Monster.Ghost.WhiteWalker01.Mon_WhiteWalker01_Skeleton_00_202108210116.pak",
+				"Size": "12502284",
+				"Crc": "3351107032",
+				"Version": "202108210116"
+			},
+			{
+				"FileName": "Skeleton.Characters.Monster.Golem.SoilSol02.Mon_SoilSol02_Skeleton_00_202108210116.pak",
+				"Size": "25576526",
+				"Crc": "4101260230",
+				"Version": "202108210116"
+			},
+			{
+				"FileName": "Skeleton.Characters.Monster.Human.BDragon03.Mon_BDragon03_Skeleton_00_202108210116.pak",
+				"Size": "14224382",
+				"Crc": "3654262887",
+				"Version": "202108210116"
+			},
+			{
+				"FileName": "Skeleton.Characters.Monster.Human.Human01.Mon_Human01_Skeleton_00_202108210116.pak",
+				"Size": "23934128",
+				"Crc": "2087349682",
+				"Version": "202108210116"
+			},
+			{
+				"FileName": "Skeleton.Characters.Monster.Human.Leesuk.Mon_Leesuk_Skeleton_00_202108210116.pak",
+				"Size": "11867557",
+				"Crc": "3507566438",
+				"Version": "202108210116"
+			},
+			{
+				"FileName": "Skeleton.Characters.Monster.Human.Sol03.Mon_Sol03_Skeleton_00_202108210116.pak",
+				"Size": "9332805",
+				"Crc": "411741371",
+				"Version": "202108210116"
+			},
+			{
+				"FileName": "Skeleton.Characters.Monster.Object.Cotton_01.ObjMon_Cotton_01_Skeleton_00_202108210116.pak",
+				"Size": "2386084",
+				"Crc": "1669145511",
+				"Version": "202108210116"
+			},
+			{
+				"FileName": "Skeleton.Characters.Monster.Object.Mon_TrapSpear01.Mon_TrapSpear01_Skeleton_00_202108210116.pak",
+				"Size": "17266573",
+				"Crc": "1239413795",
+				"Version": "202108210116"
+			},
+			{
+				"FileName": "Skeleton.Characters.Monster.Object.ObjMon_Bigflower01.ObjMon_Bigflower01_Skeleton_00_202108210116.pak",
+				"Size": "3551251",
+				"Crc": "3137628225",
+				"Version": "202108210116"
+			},
+			{
+				"FileName": "Skeleton.Characters.Monster.Object.ObjMon_Chest.ObjMon_Chest_Skeleton_00_202108210116.pak",
+				"Size": "3914783",
+				"Crc": "3176078599",
+				"Version": "202108210116"
+			},
+			{
+				"FileName": "Skeleton.Characters.Monster.Object.ObjMon_Doorhandle_02.ObjMon_Doorhandle_02_Skeleton_00_202108210116.pak",
+				"Size": "4735644",
+				"Crc": "1311939565",
+				"Version": "202108210116"
+			},
+			{
+				"FileName": "Skeleton.Characters.Monster.Object.ObjMon_DragonClaw_02.ObjMon_DragonClaw_02_Skeleton_00_202108210116.pak",
+				"Size": "1688598",
+				"Crc": "3161306537",
+				"Version": "202108210116"
+			},
+			{
+				"FileName": "Skeleton.Characters.Monster.Object.ObjMon_Flag_01.ObjMon_Flag_01_Skeleton_00_202108210116.pak",
+				"Size": "267019",
+				"Crc": "643024634",
+				"Version": "202108210116"
+			},
+			{
+				"FileName": "Skeleton.Characters.Monster.Object.ObjMon_Herb_06.ObjMon_Herb_06_Skeleton_00_202108210116.pak",
+				"Size": "656605",
+				"Crc": "4242598898",
+				"Version": "202108210116"
+			},
+			{
+				"FileName": "Skeleton.Characters.Monster.Object.ObjMon_JailDoor03.ObjMon_JailDoor03_Skeleton_00_202108210116.pak",
+				"Size": "4935310",
+				"Crc": "1798504134",
+				"Version": "202108210116"
+			},
+			{
+				"FileName": "Skeleton.Characters.Monster.Object.ObjMon_Memorialstone01.ObjMon_Memorialstone01_Skeleton_00_202108210116.pak",
+				"Size": "13589482",
+				"Crc": "3563611798",
+				"Version": "202108210116"
+			},
+			{
+				"FileName": "Skeleton.Characters.Monster.Object.ObjMon_Pocket_01.ObjMon_Pocket_01_Skeleton_00_202108210116.pak",
+				"Size": "3651892",
+				"Crc": "1036888297",
+				"Version": "202108210116"
+			},
+			{
+				"FileName": "Skeleton.Characters.Monster.Object.ObjMon_Stonegate_01.ObjMon_Stonegate_01_Skeleton_00_202108210116.pak",
+				"Size": "14158188",
+				"Crc": "695151478",
+				"Version": "202108210116"
+			},
+			{
+				"FileName": "Skeleton.Characters.Monster.Object.ObjMon_WhiteHerb_01.ObjMon_WhiteHerb_01_Skeleton_00_202108210116.pak",
+				"Size": "3821426",
+				"Crc": "130818127",
+				"Version": "202108210116"
+			},
+			{
+				"FileName": "Skeleton.Characters.Monster.Object.Weapon01.ObjMon_Weapon_01_Skeleton_00_202108210116.pak",
+				"Size": "19890717",
+				"Crc": "3292629011",
+				"Version": "202108210116"
+			},
+			{
+				"FileName": "Skeleton.Characters.Monster.Oma.OmaCrimson23.Mon_OmaCrimson23_Skeleton_00_202108210116.pak",
+				"Size": "14200643",
+				"Crc": "652944812",
+				"Version": "202108210116"
+			},
+			{
+				"FileName": "Skeleton.Characters.Monster.Oma.Orc01.Mon_Orc01_Skeleton_00_202108210116.pak",
+				"Size": "11272069",
+				"Crc": "1407432678",
+				"Version": "202108210116"
+			},
+			{
+				"FileName": "Skeleton.Characters.Monster.Uma.Uma01.Mon_Uma01_SET_Skeleton_00_202108210116.pak",
+				"Size": "11147780",
+				"Crc": "1497243461",
+				"Version": "202108210116"
+			},
+			{
+				"FileName": "Skeleton.Characters.Monster.Uma.Uma22.Mon_Uma22_Skeleton_00_202108210116.pak",
+				"Size": "31688581",
+				"Crc": "1035719134",
+				"Version": "202108210116"
+			},
+			{
+				"FileName": "Skeleton.Characters.NPC.Lby_Animals.NPC_Dog01_Skeleton_00_202108210116.pak",
+				"Size": "4417597",
+				"Crc": "711921163",
+				"Version": "202108210116"
+			},
+			{
+				"FileName": "Skeleton.Characters.NPC.Lby_NPC.NPC_Diviner01.NPC_Diviner01_Skeleton_00_202108210116.pak",
+				"Size": "7595091",
+				"Crc": "1897035824",
+				"Version": "202108210116"
+			},
+			{
+				"FileName": "Skeleton.Characters.NPC.Lby_NPC.NPC_Girl01.NPC_Girl01_Skeleton_00_202108210116.pak",
+				"Size": "8891599",
+				"Crc": "3989527989",
+				"Version": "202108210116"
+			},
+			{
+				"FileName": "Skeleton.Characters.NPC.Lby_NPC.NPC_Inn01.NPC_Inn01_Skeleton_00_202108210116.pak",
+				"Size": "9387479",
+				"Crc": "3566457196",
+				"Version": "202108210116"
+			},
+			{
+				"FileName": "Skeleton.Characters.NPC.Lby_NPC.NPC_Musician01.NPC_Musician01_Skeleton_00_202108210116.pak",
+				"Size": "8628584",
+				"Crc": "881513047",
+				"Version": "202108210116"
+			},
+			{
+				"FileName": "Skeleton.Characters.NPC.Lby_NPC.NPC_Weapon01.NPC_Weapon01_Skeleton_00_202108210116.pak",
+				"Size": "7977384",
+				"Crc": "3675683592",
+				"Version": "202108210116"
+			},
+			{
+				"FileName": "Skeleton.Characters.NPC.Sce_NPC.NPC_ChumSung.NPC_ChumSung_Skeleton_00_202108210116.pak",
+				"Size": "10987852",
+				"Crc": "3690659740",
+				"Version": "202108210116"
+			},
+			{
+				"FileName": "Skeleton.Characters.NPC.Sce_NPC.Npc_DprincessRiding01.Npc_DprincessRiding01_Skeleton_00_202108210116.pak",
+				"Size": "13503346",
+				"Crc": "3063639071",
+				"Version": "202108210116"
+			},
+			{
+				"FileName": "Skeleton.Characters.NPC.Sce_NPC.NPC_GokDanHwa01.NPC_GokDanHwa01_Skeleton_00_202108210116.pak",
+				"Size": "16207278",
+				"Crc": "1607064141",
+				"Version": "202108210116"
+			},
+			{
+				"FileName": "Skeleton.Characters.NPC.Sce_NPC.NPC_JungPa.NPC_JungPa_Skeleton_00_202108210116.pak",
+				"Size": "12166318",
+				"Crc": "2934725905",
+				"Version": "202108210116"
+			},
+			{
+				"FileName": "Skeleton.Characters.NPC.Sce_NPC.NPC_NoWoonJang.NPC_NoWoonJang_Skeleton_00_202108210116.pak",
+				"Size": "14541063",
+				"Crc": "3998750326",
+				"Version": "202108210116"
+			},
+			{
+				"FileName": "Skeleton.Characters.NPC.Sce_NPC.NPC_SonDuk.NPC_SonDuk_inGame_Skeleton_00_202108210116.pak",
+				"Size": "24028163",
+				"Crc": "2660786202",
+				"Version": "202108210116"
+			},
+			{
+				"FileName": "Skeleton.Characters.PC.Pca.Pca_01_Skeleton_00_202108210116.pak",
+				"Size": "28616946",
+				"Crc": "3325321662",
+				"Version": "202108210116"
+			},
+			{
+				"FileName": "Skeleton.Characters.PC.Pcm.Pcm_01_Skeleton_01_202108210116.pak",
+				"Size": "14225431",
+				"Crc": "107586693",
+				"Version": "202108210116"
+			},
+			{
+				"FileName": "Skeleton.Characters.PC.Pct.Pct_01_Skeleton_00_202108210116.pak",
+				"Size": "30069205",
+				"Crc": "2094699213",
+				"Version": "202108210116"
+			},
+			{
+				"FileName": "Skeleton.Characters.PC.Pct.Pct_Skeleton_OutGame_01_202108210116.pak",
+				"Size": "29336508",
+				"Crc": "1404227630",
+				"Version": "202108210116"
+			},
+			{
+				"FileName": "Skeleton.Characters.PC.Pcz.Pcz_01_Skeleton_02_202108210116.pak",
+				"Size": "15211126",
+				"Crc": "1769534337",
+				"Version": "202108210116"
+			},
+			{
+				"FileName": "Skeleton.Characters.PC.Pcz.Pcz_Skeleton_OutGame_00_202108210116.pak",
+				"Size": "9038885",
+				"Crc": "838411766",
+				"Version": "202108210116"
+			},
+			{
+				"FileName": "Skeleton.Characters.PC.Pc_Pet.Cat01.Etc.Pet_Cat01_Skeleton_00_202108210116.pak",
+				"Size": "1823160",
+				"Crc": "1719317227",
+				"Version": "202108210116"
+			},
+			{
+				"FileName": "Skeleton.Characters.PC.Pc_Pet.Centaur01.Etc.Pet_Centaur01_Skeleton_00_202108210116.pak",
+				"Size": "2027849",
+				"Crc": "907308769",
+				"Version": "202108210116"
+			},
+			{
+				"FileName": "Skeleton.Characters.PC.Pc_Pet.Dragon01.OutGame.Pet_Dragon01_OutGame_Skeleton_00_202108210116.pak",
+				"Size": "4657611",
+				"Crc": "786429310",
+				"Version": "202108210116"
+			},
+			{
+				"FileName": "Skeleton.Characters.PC.Pc_Pet.ElecDevil01.OutGame.Pet_ElecDevil01_OutGame_Skeleton_00_202108210116.pak",
+				"Size": "4308634",
+				"Crc": "3472606617",
+				"Version": "202108210116"
+			},
+			{
+				"FileName": "Skeleton.Characters.PC.Pc_Pet.Fox02.OutGame.Pet_Fox02_OutGame_Skeleton_00_202108210116.pak",
+				"Size": "2651015",
+				"Crc": "1331612605",
+				"Version": "202108210116"
+			},
+			{
+				"FileName": "Skeleton.Characters.PC.Pc_Pet.IngameType.Pet_IngameType04_Skeleton_00_202108210116.pak",
+				"Size": "2880862",
+				"Crc": "4262321475",
+				"Version": "202108210116"
+			},
+			{
+				"FileName": "Skeleton.Characters.PC.Pc_Pet.Insect01.OutGame.Pet_Insect01_Outgame_Skeleton_00_202108210116.pak",
+				"Size": "2609008",
+				"Crc": "3330707941",
+				"Version": "202108210116"
+			},
+			{
+				"FileName": "Skeleton.Characters.PC.Pc_Pet.Peacock02.OutGame.Pet_Peacock02_OutGame_Skeleton_00_202108210116.pak",
+				"Size": "2367921",
+				"Crc": "348090836",
+				"Version": "202108210116"
+			},
+			{
+				"FileName": "Skeleton.Characters.PC.Pc_Pet.Skeleton01.OutGame.Pet_Skeleton01_OutGame_Skeleton_00_202108210116.pak",
+				"Size": "2389014",
+				"Crc": "1282062634",
+				"Version": "202108210116"
+			},
+			{
+				"FileName": "Skeleton.Characters.PC.Pc_Pet.Turtle01.OutGame.Pet_Turtle01_OutGame_Skeleton_00_202108210116.pak",
+				"Size": "35887401",
+				"Crc": "4252442076",
+				"Version": "202108210116"
+			},
+			{
+				"FileName": "Skeleton.Characters.PC.Pc_Ride.Mesh.Trans_WoodenFish01_Skeleton_00_202108210116.pak",
+				"Size": "20490226",
+				"Crc": "214735392",
+				"Version": "202108210116"
+			},
+			{
+				"FileName": "Skeleton.Cinematics.Cinematic_Cutscene.Character_Cutscene.BOK.NPC_BokYangGer_Cutscene_NPC_BokYangGer01_Skeleton_00_202108210116.pak",
+				"Size": "33084124",
+				"Crc": "1144363865",
+				"Version": "202108210116"
+			},
+			{
+				"FileName": "Skeleton.Cinematics.Cinematic_Cutscene.Character_Cutscene.GO.NPC_Gaon_Cutscene_NPC_Gaon_Face_Skeleton_00_202108210116.pak",
+				"Size": "10793907",
+				"Crc": "3537155726",
+				"Version": "202108210116"
+			},
+			{
+				"FileName": "Skeleton.Cinematics.Cinematic_Cutscene.Character_Cutscene.IM.NPC_ImOk01_Skeleton_00_202108210116.pak",
+				"Size": "24405142",
+				"Crc": "3139394130",
+				"Version": "202108210116"
+			},
+			{
+				"FileName": "Skeleton.Cinematics.Cinematic_Cutscene.Character_Cutscene.MA.NPC_MaWonJi_Cutscene_Skeleton_00_202108210116.pak",
+				"Size": "23199378",
+				"Crc": "1365034996",
+				"Version": "202108210116"
+			},
+			{
+				"FileName": "Skeleton.Cinematics.Cinematic_Cutscene.Character_Cutscene.SH.NPC_WangSanHae_CutScene_Skeleton_00_202108210116.pak",
+				"Size": "26922163",
+				"Crc": "16360583",
+				"Version": "202108210116"
+			},
+			{
+				"FileName": "Skeleton.Cinematics.Cinematic_Cutscene.Character_Cutscene.SSM.NPC_Sosamae_Skeleton_00_202108210116.pak",
+				"Size": "10994399",
+				"Crc": "4115393830",
+				"Version": "202108210116"
+			},
+			{
+				"FileName": "Skeleton.Cinematics.InGame_CutScene.Chapt01.FD_BicheonJail.SM_FD001_JI_Irondoor_002_A.SM_FD001_JI_Irondoor_002_A_Skeleton_00_202108210116.pak",
+				"Size": "3020345",
+				"Crc": "2325015387",
+				"Version": "202108210116"
+			},
+			{
+				"FileName": "Skeleton.Cinematics.InGame_CutScene.CineObj.eft.T07_01_EFT_cine_01_Skeleton_00_202108210116.pak",
+				"Size": "2205630",
+				"Crc": "3465338341",
+				"Version": "202108210116"
+			},
+			{
+				"FileName": "Dir.Animation_00_202108210116.pak",
+				"Size": "4257895",
+				"Crc": "2077474953",
+				"Version": "202108210116"
+			},
+			{
+				"FileName": "Dir.BG.Build_Static_00_202108210116.pak",
+				"Size": "1646581",
+				"Crc": "1915725900",
+				"Version": "202108210116"
+			},
+			{
+				"FileName": "Dir.BG.Materials_00_202108210116.pak",
+				"Size": "4304180",
+				"Crc": "3355707330",
+				"Version": "202108210116"
+			},
+			{
+				"FileName": "Dir.BG.Materials_01_202108210116.pak",
+				"Size": "79250",
+				"Crc": "4207412049",
+				"Version": "202108210116"
+			},
+			{
+				"FileName": "Dir.BG.Sky_00_202108210116.pak",
+				"Size": "273984",
+				"Crc": "2976801912",
+				"Version": "202108210116"
+			},
+			{
+				"FileName": "Dir.BG.StaticMeshes_00_202108210116.pak",
+				"Size": "60095470",
+				"Crc": "2888024838",
+				"Version": "202108210116"
+			},
+			{
+				"FileName": "Dir.BG.StaticMeshes_01_202108210116.pak",
+				"Size": "85915736",
+				"Crc": "1699100950",
+				"Version": "202108210116"
+			},
+			{
+				"FileName": "Dir.BG.StaticMeshes_02_202108210116.pak",
+				"Size": "90946195",
+				"Crc": "2295612238",
+				"Version": "202108210116"
+			},
+			{
+				"FileName": "Dir.BG.StaticMeshes_03_202108210116.pak",
+				"Size": "45446550",
+				"Crc": "449642501",
+				"Version": "202108210116"
+			},
+			{
+				"FileName": "Dir.BG.Textures_00_202108210116.pak",
+				"Size": "47615360",
+				"Crc": "2339031540",
+				"Version": "202108210116"
+			},
+			{
+				"FileName": "Dir.BG.Textures_01_202108210116.pak",
+				"Size": "23848387",
+				"Crc": "1428311875",
+				"Version": "202108210116"
+			},
+			{
+				"FileName": "Dir.BG.Textures_02_202108210116.pak",
+				"Size": "15692713",
+				"Crc": "2575997075",
+				"Version": "202108210116"
+			},
+			{
+				"FileName": "Dir.BG.Textures_03_202108210116.pak",
+				"Size": "13621215",
+				"Crc": "2450944456",
+				"Version": "202108210116"
+			},
+			{
+				"FileName": "Dir.BG.Textures_04_202108210116.pak",
+				"Size": "20695184",
+				"Crc": "101680091",
+				"Version": "202108210116"
+			},
+			{
+				"FileName": "Dir.BG.Textures_05_202108210116.pak",
+				"Size": "18018521",
+				"Crc": "236768869",
+				"Version": "202108210116"
+			},
+			{
+				"FileName": "Dir.BG.Textures_06_202108210116.pak",
+				"Size": "15498069",
+				"Crc": "4161313478",
+				"Version": "202108210116"
+			},
+			{
+				"FileName": "Dir.BG.Textures_07_202108210116.pak",
+				"Size": "26844145",
+				"Crc": "1746125377",
+				"Version": "202108210116"
+			},
+			{
+				"FileName": "Dir.BG.Textures_08_202108210116.pak",
+				"Size": "9510886",
+				"Crc": "3276513165",
+				"Version": "202108210116"
+			},
+			{
+				"FileName": "Dir.BG.Textures_09_202108210116.pak",
+				"Size": "23409619",
+				"Crc": "2863430775",
+				"Version": "202108210116"
+			},
+			{
+				"FileName": "Dir.BG.Textures_10_202108210116.pak",
+				"Size": "40610826",
+				"Crc": "2512363440",
+				"Version": "202108210116"
+			},
+			{
+				"FileName": "Dir.BG.Textures_11_202108210116.pak",
+				"Size": "44623468",
+				"Crc": "1072350851",
+				"Version": "202108210116"
+			},
+			{
+				"FileName": "Dir.BG.Textures_12_202108210116.pak",
+				"Size": "41245541",
+				"Crc": "3979663547",
+				"Version": "202108210116"
+			},
+			{
+				"FileName": "Dir.BG.Textures_13_202108210116.pak",
+				"Size": "54816212",
+				"Crc": "3253946993",
+				"Version": "202108210116"
+			},
+			{
+				"FileName": "Dir.BG.Textures_14_202108210116.pak",
+				"Size": "48275018",
+				"Crc": "1709956329",
+				"Version": "202108210116"
+			},
+			{
+				"FileName": "Dir.BG.Textures_15_202108210116.pak",
+				"Size": "59164885",
+				"Crc": "1667713076",
+				"Version": "202108210116"
+			},
+			{
+				"FileName": "Dir.BG.Textures_16_202108210116.pak",
+				"Size": "33053747",
+				"Crc": "42810818",
+				"Version": "202108210116"
+			},
+			{
+				"FileName": "Dir.Blueprint_00_202108210116.pak",
+				"Size": "469124",
+				"Crc": "3920385473",
+				"Version": "202108210116"
+			},
+			{
+				"FileName": "Dir.Characters.AI_00_202108210116.pak",
+				"Size": "109780",
+				"Crc": "1424239643",
+				"Version": "202108210116"
+			},
+			{
+				"FileName": "Dir.Characters.BrokenObj_00_202108210116.pak",
+				"Size": "27785",
+				"Crc": "2170873368",
+				"Version": "202108210116"
+			},
+			{
+				"FileName": "Dir.Characters.Material_00_202108210116.pak",
+				"Size": "1706874",
+				"Crc": "3854609758",
+				"Version": "202108210116"
+			},
+			{
+				"FileName": "Dir.Characters.Monster_00_202108210116.pak",
+				"Size": "74136437",
+				"Crc": "3284260820",
+				"Version": "202108210116"
+			},
+			{
+				"FileName": "Dir.Characters.Monster_01_202108210116.pak",
+				"Size": "1513084",
+				"Crc": "1991811215",
+				"Version": "202108210116"
+			},
+			{
+				"FileName": "Dir.Characters.NPC_00_202108210116.pak",
+				"Size": "57574196",
+				"Crc": "3615964311",
+				"Version": "202108210116"
+			},
+			{
+				"FileName": "Dir.Characters.PC.Effect_00_202108210116.pak",
+				"Size": "2004076",
+				"Crc": "368259184",
+				"Version": "202108210116"
+			},
+			{
+				"FileName": "Dir.Characters.PC.ETC_00_202108210116.pak",
+				"Size": "240507",
+				"Crc": "4093801139",
+				"Version": "202108210116"
+			},
+			{
+				"FileName": "Dir.Characters.PC.Pc_Pet_00_202108210116.pak",
+				"Size": "96120935",
+				"Crc": "4190645747",
+				"Version": "202108210116"
+			},
+			{
+				"FileName": "Dir.Characters.PC.Pc_Pet_01_202108210116.pak",
+				"Size": "29725671",
+				"Crc": "1098646114",
+				"Version": "202108210116"
+			},
+			{
+				"FileName": "Dir.Characters.PC.Pc_Ride_00_202108210116.pak",
+				"Size": "3015631",
+				"Crc": "1018808540",
+				"Version": "202108210116"
+			},
+			{
+				"FileName": "Dir.Characters.PC.Pca_00_202108210116.pak",
+				"Size": "7770049",
+				"Crc": "350685191",
+				"Version": "202108210116"
+			},
+			{
+				"FileName": "Dir.Characters.PC.Pcm_00_202108210116.pak",
+				"Size": "76873425",
+				"Crc": "1667453128",
+				"Version": "202108210116"
+			},
+			{
+				"FileName": "Dir.Characters.PC.Pcm_01_202108210116.pak",
+				"Size": "15450104",
+				"Crc": "868320144",
+				"Version": "202108210116"
+			},
+			{
+				"FileName": "Dir.Characters.PC.Pct_00_202108210116.pak",
+				"Size": "78509411",
+				"Crc": "3937335542",
+				"Version": "202108210116"
+			},
+			{
+				"FileName": "Dir.Characters.PC.Pct_01_202108210116.pak",
+				"Size": "13514441",
+				"Crc": "2741337696",
+				"Version": "202108210116"
+			},
+			{
+				"FileName": "Dir.Characters.PC.Pcw_00_202108210116.pak",
+				"Size": "65580366",
+				"Crc": "2390979573",
+				"Version": "202108210116"
+			},
+			{
+				"FileName": "Dir.Characters.PC.Pcw_01_202108210116.pak",
+				"Size": "37584305",
+				"Crc": "1687186069",
+				"Version": "202108210116"
+			},
+			{
+				"FileName": "Dir.Characters.PC.Pcz_00_202108210116.pak",
+				"Size": "74784978",
+				"Crc": "1449498635",
+				"Version": "202108210116"
+			},
+			{
+				"FileName": "Dir.Characters.PC.Pcz_01_202108210116.pak",
+				"Size": "33967274",
+				"Crc": "3403670356",
+				"Version": "202108210116"
+			},
+			{
+				"FileName": "Dir.Cinematics_00_202108210116.pak",
+				"Size": "61208685",
+				"Crc": "1328516489",
+				"Version": "202108210116"
+			},
+			{
+				"FileName": "Dir.Data_00_202108260103.pak",
+				"Size": "28089030",
+				"Crc": "960924379",
+				"Version": "202108260103"
+			},
+			{
+				"FileName": "Dir.Effect_00_202108210116.pak",
+				"Size": "4220512",
+				"Crc": "221384219",
+				"Version": "202108210116"
+			},
+			{
+				"FileName": "Dir.Effect_01_202108210116.pak",
+				"Size": "5683569",
+				"Crc": "236235279",
+				"Version": "202108210116"
+			},
+			{
+				"FileName": "Dir.Effect_02_202108210116.pak",
+				"Size": "49373588",
+				"Crc": "684628944",
+				"Version": "202108210116"
+			},
+			{
+				"FileName": "Dir.Maps.Chapt00_00_202108210116.pak",
+				"Size": "7675663",
+				"Crc": "954092438",
+				"Version": "202108210116"
+			},
+			{
+				"FileName": "Dir.Maps.Chapt01_00_202108210116.pak",
+				"Size": "41324344",
+				"Crc": "3413433830",
+				"Version": "202108210116"
+			},
+			{
+				"FileName": "Dir.Maps.Chapt01_01_202108210116.pak",
+				"Size": "34247791",
+				"Crc": "1554961324",
+				"Version": "202108210116"
+			},
+			{
+				"FileName": "Dir.Maps.Chapt01_02_202108210116.pak",
+				"Size": "50147357",
+				"Crc": "1062417859",
+				"Version": "202108210116"
+			},
+			{
+				"FileName": "Dir.Maps.Chapt01_03_202108210116.pak",
+				"Size": "39183449",
+				"Crc": "2049882619",
+				"Version": "202108210116"
+			},
+			{
+				"FileName": "Dir.Maps.Chapt01_04_202108210116.pak",
+				"Size": "59443231",
+				"Crc": "2756520775",
+				"Version": "202108210116"
+			},
+			{
+				"FileName": "Dir.Maps.Chapt01_05_202108210116.pak",
+				"Size": "92506681",
+				"Crc": "2762071387",
+				"Version": "202108210116"
+			},
+			{
+				"FileName": "Dir.Maps.Chapt01_06_202108210116.pak",
+				"Size": "67782716",
+				"Crc": "2804543067",
+				"Version": "202108210116"
+			},
+			{
+				"FileName": "Dir.Maps.Chapt01_07_202108210116.pak",
+				"Size": "25629746",
+				"Crc": "2487225666",
+				"Version": "202108210116"
+			},
+			{
+				"FileName": "Dir.Maps.Chapt02_00_202108210116.pak",
+				"Size": "32368408",
+				"Crc": "3482816764",
+				"Version": "202108210116"
+			},
+			{
+				"FileName": "Dir.Maps.Chapt02_01_202108210116.pak",
+				"Size": "73461964",
+				"Crc": "136389286",
+				"Version": "202108210116"
+			},
+			{
+				"FileName": "Dir.Maps.Chapt02_02_202108210116.pak",
+				"Size": "836448",
+				"Crc": "3210080846",
+				"Version": "202108210116"
+			},
+			{
+				"FileName": "Dir.Maps.Chapt02_03_202108210116.pak",
+				"Size": "59520597",
+				"Crc": "2835925014",
+				"Version": "202108210116"
+			},
+			{
+				"FileName": "Dir.Maps.Chapt02_04_202108210116.pak",
+				"Size": "8657564",
+				"Crc": "371063714",
+				"Version": "202108210116"
+			},
+			{
+				"FileName": "Dir.Maps.Chapt03_00_202108210116.pak",
+				"Size": "59952391",
+				"Crc": "2119853784",
+				"Version": "202108210116"
+			},
+			{
+				"FileName": "Dir.Maps.Chapt03_01_202108210116.pak",
+				"Size": "41546335",
+				"Crc": "3031935959",
+				"Version": "202108210116"
+			},
+			{
+				"FileName": "Dir.Maps.Chapt03_02_202108210116.pak",
+				"Size": "62587236",
+				"Crc": "2424279891",
+				"Version": "202108210116"
+			},
+			{
+				"FileName": "Dir.Maps.Chapt04_00_202108210116.pak",
+				"Size": "33917202",
+				"Crc": "863016036",
+				"Version": "202108210116"
+			},
+			{
+				"FileName": "Dir.Maps.Chapt04_01_202108210116.pak",
+				"Size": "85030708",
+				"Crc": "3936173624",
+				"Version": "202108210116"
+			},
+			{
+				"FileName": "Dir.Maps.Chapt04_02_202108210116.pak",
+				"Size": "5853608",
+				"Crc": "2413961311",
+				"Version": "202108210116"
+			},
+			{
+				"FileName": "Dir.Maps.Chapt04_03_202108210116.pak",
+				"Size": "115385316",
+				"Crc": "2643535990",
+				"Version": "202108210116"
+			},
+			{
+				"FileName": "Dir.Maps.Chapt04_04_202108210116.pak",
+				"Size": "5734568",
+				"Crc": "3266739536",
+				"Version": "202108210116"
+			},
+			{
+				"FileName": "Dir.Maps.Chapt04_05_202108210116.pak",
+				"Size": "91126740",
+				"Crc": "2299619394",
+				"Version": "202108210116"
+			},
+			{
+				"FileName": "Dir.Maps.Chapt04_06_202108210116.pak",
+				"Size": "1870118",
+				"Crc": "3347613243",
+				"Version": "202108210116"
+			},
+			{
+				"FileName": "Dir.Maps.Chapt04_07_202108210116.pak",
+				"Size": "79752818",
+				"Crc": "2141943426",
+				"Version": "202108210116"
+			},
+			{
+				"FileName": "Dir.Maps.Chapt04_08_202108210116.pak",
+				"Size": "2520438",
+				"Crc": "3434286147",
+				"Version": "202108210116"
+			},
+			{
+				"FileName": "Dir.Maps.Chapt04_09_202108210116.pak",
+				"Size": "74100130",
+				"Crc": "1381124130",
+				"Version": "202108210116"
+			},
+			{
+				"FileName": "Dir.Maps.Chapt04_10_202108210116.pak",
+				"Size": "36215343",
+				"Crc": "1960336995",
+				"Version": "202108210116"
+			},
+			{
+				"FileName": "Dir.Maps.Chapt05_00_202108210116.pak",
+				"Size": "15286806",
+				"Crc": "3547323060",
+				"Version": "202108210116"
+			},
+			{
+				"FileName": "Dir.Maps.Chapt05_01_202108210116.pak",
+				"Size": "81579740",
+				"Crc": "751614064",
+				"Version": "202108210116"
+			},
+			{
+				"FileName": "Dir.Maps.Chapt06_00_202108210116.pak",
+				"Size": "12864336",
+				"Crc": "1341588581",
+				"Version": "202108210116"
+			},
+			{
+				"FileName": "Dir.Maps.Chapt06_01_202108210116.pak",
+				"Size": "79857320",
+				"Crc": "3939614545",
+				"Version": "202108210116"
+			},
+			{
+				"FileName": "Dir.Maps.Chapt06_02_202108210116.pak",
+				"Size": "18276259",
+				"Crc": "3871233399",
+				"Version": "202108210116"
+			},
+			{
+				"FileName": "Dir.Maps.Elite_00_202108210116.pak",
+				"Size": "55793193",
+				"Crc": "3927211596",
+				"Version": "202108210116"
+			},
+			{
+				"FileName": "Dir.Maps.Elite_01_202108210116.pak",
+				"Size": "45858640",
+				"Crc": "1400094611",
+				"Version": "202108210116"
+			},
+			{
+				"FileName": "Dir.Maps.Elite_02_202108210116.pak",
+				"Size": "24626518",
+				"Crc": "2506946092",
+				"Version": "202108210116"
+			},
+			{
+				"FileName": "Dir.Maps.Event_00_202108210116.pak",
+				"Size": "1719466",
+				"Crc": "1664894571",
+				"Version": "202108210116"
+			},
+			{
+				"FileName": "Dir.Maps.Gacha_00_202108210116.pak",
+				"Size": "4941270",
+				"Crc": "378699853",
+				"Version": "202108210116"
+			},
+			{
+				"FileName": "Dir.Maps.Instance_00_202108210116.pak",
+				"Size": "37931991",
+				"Crc": "3514104267",
+				"Version": "202108210116"
+			},
+			{
+				"FileName": "Dir.Maps.OutGame_00_202108220150.pak",
+				"Size": "4449531",
+				"Crc": "1518749791",
+				"Version": "202108220150"
+			},
+			{
+				"FileName": "Dir.Maps.PVE_00_202108210116.pak",
+				"Size": "60478237",
+				"Crc": "4174724868",
+				"Version": "202108210116"
+			},
+			{
+				"FileName": "Dir.Maps.UnderWorld_00_202108210116.pak",
+				"Size": "48549722",
+				"Crc": "4117949600",
+				"Version": "202108210116"
+			},
+			{
+				"FileName": "Dir.Maps.UnderWorld_01_202108210116.pak",
+				"Size": "14227180",
+				"Crc": "515860330",
+				"Version": "202108210116"
+			},
+			{
+				"FileName": "Dir.Movies_00_202108260103.pak",
+				"Size": "171023962",
+				"Crc": "2969673185",
+				"Version": "202108260103"
+			},
+			{
+				"FileName": "Dir.Sound.Attenuation_00_202108210116.pak",
+				"Size": "13921",
+				"Crc": "2610372254",
+				"Version": "202108210116"
+			},
+			{
+				"FileName": "Dir.Sound.Enviroment_00_202108210116.pak",
+				"Size": "5544748",
+				"Crc": "2089925916",
+				"Version": "202108210116"
+			},
+			{
+				"FileName": "Dir.Sound.Sound_BG_00_202108210116.pak",
+				"Size": "15170872",
+				"Crc": "3323161642",
+				"Version": "202108210116"
+			},
+			{
+				"FileName": "Dir.Sound.Sound_BG_01_202108210116.pak",
+				"Size": "13324621",
+				"Crc": "2539123878",
+				"Version": "202108210116"
+			},
+			{
+				"FileName": "Dir.Sound.Sound_BG_02_202108210116.pak",
+				"Size": "13517879",
+				"Crc": "3205882668",
+				"Version": "202108210116"
+			},
+			{
+				"FileName": "Dir.Sound.Sound_BG_03_202108210116.pak",
+				"Size": "16519670",
+				"Crc": "1240785375",
+				"Version": "202108210116"
+			},
+			{
+				"FileName": "Dir.Sound.Sound_BG_04_202108210116.pak",
+				"Size": "17458736",
+				"Crc": "2834453977",
+				"Version": "202108210116"
+			},
+			{
+				"FileName": "Dir.Sound.Sound_BG_05_202108210116.pak",
+				"Size": "14533457",
+				"Crc": "3101591096",
+				"Version": "202108210116"
+			},
+			{
+				"FileName": "Dir.Sound.Sound_BG_06_202108210116.pak",
+				"Size": "4146948",
+				"Crc": "2963776324",
+				"Version": "202108210116"
+			},
+			{
+				"FileName": "Dir.Sound.Sound_Character_00_202108210116.pak",
+				"Size": "717121",
+				"Crc": "787496946",
+				"Version": "202108210116"
+			},
+			{
+				"FileName": "Dir.Sound.Sound_DropnCloth_00_202108210116.pak",
+				"Size": "1223717",
+				"Crc": "1544456407",
+				"Version": "202108210116"
+			},
+			{
+				"FileName": "Dir.Sound.Sound_Hit_00_202108210116.pak",
+				"Size": "595720",
+				"Crc": "415695206",
+				"Version": "202108210116"
+			},
+			{
+				"FileName": "Dir.Sound.Sound_Impact_00_202108210116.pak",
+				"Size": "405916",
+				"Crc": "3604543257",
+				"Version": "202108210116"
+			},
+			{
+				"FileName": "Dir.Sound.Sound_Object_00_202108210116.pak",
+				"Size": "1154993",
+				"Crc": "1909496470",
+				"Version": "202108210116"
+			},
+			{
+				"FileName": "Dir.Sound.Sound_Scene_00_202108210116.pak",
+				"Size": "1024259",
+				"Crc": "724383555",
+				"Version": "202108210116"
+			},
+			{
+				"FileName": "Dir.Sound.Sound_Skill_00_202108210116.pak",
+				"Size": "2043386",
+				"Crc": "3795288296",
+				"Version": "202108210116"
+			},
+			{
+				"FileName": "Dir.Sound.Sound_Ui_00_202108210116.pak",
+				"Size": "2560195",
+				"Crc": "3801148838",
+				"Version": "202108210116"
+			},
+			{
+				"FileName": "Dir.Sound.Sound_Voice_00_202108210116.pak",
+				"Size": "21485072",
+				"Crc": "3351411302",
+				"Version": "202108210116"
+			},
+			{
+				"FileName": "Dir.Sound.Sound_Voice_01_202108210116.pak",
+				"Size": "23540338",
+				"Crc": "3465491812",
+				"Version": "202108210116"
+			},
+			{
+				"FileName": "Dir.Sound.Sound_Voice_02_202108210116.pak",
+				"Size": "26185673",
+				"Crc": "2486658805",
+				"Version": "202108210116"
+			},
+			{
+				"FileName": "Dir.Sound.Sound_Voice_03_202108210116.pak",
+				"Size": "25511031",
+				"Crc": "10118979",
+				"Version": "202108210116"
+			},
+			{
+				"FileName": "Dir.Sound.Sound_Voice_04_202108210116.pak",
+				"Size": "24703877",
+				"Crc": "3504318515",
+				"Version": "202108210116"
+			},
+			{
+				"FileName": "Dir.Sound.Sound_Voice_05_202108210116.pak",
+				"Size": "24394648",
+				"Crc": "2977657816",
+				"Version": "202108210116"
+			},
+			{
+				"FileName": "Dir.Sound.Sound_Voice_06_202108210116.pak",
+				"Size": "24809969",
+				"Crc": "3274877406",
+				"Version": "202108210116"
+			},
+			{
+				"FileName": "Dir.Sound.Sound_Voice_07_202108210116.pak",
+				"Size": "11735784",
+				"Crc": "327125982",
+				"Version": "202108210116"
+			},
+			{
+				"FileName": "Dir.Sound.Sound_Voice_Human_00_202108210116.pak",
+				"Size": "1422928",
+				"Crc": "2837905216",
+				"Version": "202108210116"
+			},
+			{
+				"FileName": "Dir.Sound.Sound_Voice_Monster_00_202108210116.pak",
+				"Size": "2151220",
+				"Crc": "190784677",
+				"Version": "202108210116"
+			},
+			{
+				"FileName": "Dir.Sound.Sound_Voice_Scene_00_202108210116.pak",
+				"Size": "13957973",
+				"Crc": "3145385950",
+				"Version": "202108210116"
+			},
+			{
+				"FileName": "Dir.Sound.Sound_Weapon_00_202108210116.pak",
+				"Size": "834078",
+				"Crc": "2297078552",
+				"Version": "202108210116"
+			},
+			{
+				"FileName": "Dir.UI_00_202108251839.pak",
+				"Size": "77177496",
+				"Crc": "2541742231",
+				"Version": "202108251839"
+			},
+			{
+				"FileName": "Dir.UI_01_202108251839.pak",
+				"Size": "4651245",
+				"Crc": "411910843",
+				"Version": "202108251839"
+			},
+			{
+				"FileName": "Dir.UI_02_202108251839.pak",
+				"Size": "61757346",
+				"Crc": "3782654692",
+				"Version": "202108251839"
+			},
+			{
+				"FileName": "Dir.UI_03_202108251839.pak",
+				"Size": "8366681",
+				"Crc": "1432322870",
+				"Version": "202108251839"
+			},
+			{
+				"FileName": "Dir_00_202108210116.pak",
+				"Size": "9235693",
+				"Crc": "3718215950",
+				"Version": "202108210116"
+			}
+		],
+		"TargetPlatform": "WindowsNoEditor"
+	}
+}

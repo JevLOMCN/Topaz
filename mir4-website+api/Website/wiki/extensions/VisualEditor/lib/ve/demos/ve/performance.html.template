@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+	<!--
+	/*!
+	 * VisualEditor performance tests
+	 *
+	 * @copyright See AUTHORS.txt
+	 */
+	-->
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
+		<title>VisualEditor Performance Tests</title>
+
+<!-- STYLES -->
+
+	</head>
+	<body dir="<!-- DIR -->">
+		<div class="ve-instance"></div>
+		<div class="ve-demo-output"></div>
+
+<!-- SCRIPTS -->
+
+	</body>
+</html>

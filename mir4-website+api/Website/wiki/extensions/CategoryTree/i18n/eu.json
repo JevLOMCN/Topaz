@@ -1,0 +1,37 @@
+{
+	"@metadata": {
+		"authors": [
+			"An13sa",
+			"Matěj Suchánek",
+			"Theklan"
+		]
+	},
+	"categorytree": "Kategoria Zuhaitza",
+	"categorytree-portlet": "Kategoriak",
+	"categorytree-legend": "Erakutsi kategoria zuhaitza",
+	"categorytree-desc": "Dinamikoki nabigatu [[Special:CategoryTree|kategoria zuhaitza]]",
+	"categorytree-header": "Idatzi kategoria baten izena bere edukia zuhaitz eran ikusteko. (JavaScript beharrezkoa da.)",
+	"categorytree-category": "Kategoria",
+	"categorytree-go": "Zuhaitza erakutsi",
+	"categorytree-parents": "Gurasoak",
+	"categorytree-mode-label": "Modua:",
+	"categorytree-mode-categories": "kategoriak bakarrik",
+	"categorytree-mode-pages": "orrialdeak, irudiak ezik",
+	"categorytree-mode-all": "orrialde guztiak",
+	"categorytree-collapse": "itxi",
+	"categorytree-expand": "zabaldu",
+	"categorytree-member-counts": "{{PLURAL:$1|azpikategoria 1|$1 azpikategoria}}, {{PLURAL:$2|orrialde 1|$2 orrialde}} eta {{PLURAL:$3|fitxategi 1|$3 fitxategi}} ditu",
+	"categorytree-num-categories": "$1 K",
+	"categorytree-num-pages": "$1 O",
+	"categorytree-num-files": "$1 F",
+	"categorytree-num-empty": "hutsik",
+	"categorytree-load": "kargatu",
+	"categorytree-loading": "kargatzen",
+	"categorytree-nothing-found": "ez da ezer aurkitu",
+	"categorytree-no-subcategories": "ez dago azpikategoriarik",
+	"categorytree-no-parent-categories": "ez dago kategoria gurasorik",
+	"categorytree-no-pages": "ez dago orrialde edo azpikategoriarik",
+	"categorytree-not-found": "Ez da <i>$1</i> kategoria aurkitu",
+	"categorytree-error": "Arazoa datuak kargatzerakoan.",
+	"categorytree-retry": "Itxaron pixka bat eta saiatu berriz."
+}

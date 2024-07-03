@@ -1,0 +1,16 @@
+{
+	"@metadata": {
+		"authors": [
+			"Gomoko",
+			"Verdy p",
+			"Wladek92"
+		]
+	},
+	"apihelp-titleblacklist-summary": "Valider un titre de page, un nom de fichier ou un nom d’utilisateur d’après la liste des titres interdits.",
+	"apihelp-titleblacklist-param-title": "La chaîne à valider d’après la liste des interdits.",
+	"apihelp-titleblacklist-param-action": "L’action à vérifier.",
+	"apihelp-titleblacklist-param-nooverride": "N’essayez pas d’outrepasser la liste des titres interdits.",
+	"apihelp-titleblacklist-example-1": "Vérifier si [[Foo]] est sur la liste des interdits",
+	"apihelp-titleblacklist-example-2": "Vérifier si [[Bar]] est sur la liste des interdits pour la modification",
+	"apihelp-createaccount-param-ignoretitleblacklist": "Ignorer les vérifications d’usurpation (nécessite un des droits suivants : <code>tboverride</code> ou <code>tboverride-account</code>)."
+}

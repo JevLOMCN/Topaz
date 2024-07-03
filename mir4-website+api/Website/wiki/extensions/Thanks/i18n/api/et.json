@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"Macofe",
+			"Pikne"
+		]
+	},
+	"apihelp-flowthank-param-postid": "Postitus, mille eest tänada, UUID.",
+	"apihelp-flowthank-example-1": "Täna postituse eest (<kbd>UUID xyz789</kbd>)",
+	"apihelp-thank-param-rev": "Redaktsioon, mille eest tänada, selle identifikaator. Tuleb ära tuua kas see või \"log\".",
+	"apihelp-thank-param-source": "Lühisõne, mis kirjeldab päringu allikat, näiteks <kbd>diff</kbd> või <kbd>history</kbd>.",
+	"apihelp-thank-example-1": "Täna redaktsiooni <kbd>ID 456</kbd eest, allikas on erinevuste lehekülg"
+}

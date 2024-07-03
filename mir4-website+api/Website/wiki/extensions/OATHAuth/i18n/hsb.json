@@ -1,0 +1,17 @@
+{
+	"@metadata": {
+		"authors": [
+			"Michawiki"
+		]
+	},
+	"oathauth-desc": "Zmóžnja awtentifkaciju z pomocu jónkróć wužiwanych hesłow na zakładźe HMAC",
+	"oathauth-account": "Kontowe mjeno dwufaktoroweje awtentifikacije:",
+	"oathauth-secret": "Tajny kluč dwufaktoroweje awtentfikacije:",
+	"oathauth-enable": "Dwufaktorowu awtentifikaciju zmóžnić",
+	"oathauth-recoverycodes": "Slědowaca lisćina je lisćina jónkróć wužiwajomnych specialnych tokenow. Tute tokeny dadźa so jenož jadyn raz wužiwać a su za nuzowe pady. Prošu napisaj je a wobchowaj je na wěstym městnje. Jeli zhubiš swój mobilny telefon, budu tute tokeny jenička móžnosć, zo by swoje konto zachował. Tute tokeny so ći ženje znowa njepokazaja.",
+	"oathauth-disable": "Dwufaktorowu awtentifikaciju znjemóžnić",
+	"oathauth-validatedoath": "Dwufaktorowe přizjewjenske informacije su so wobkrućili. Dwufaktorowa awtentifikacija budźe so nětko wukonjeć.",
+	"oathauth-failedtovalidateoath": "Dwufaktorowe přizjewjenske informacije njedachu so wobkrućić",
+	"oathauth-disabledoath": "Dwufaktorowu awtentifikaciju znjemóžnjena.",
+	"oathauth-prefs-label": "Dwufaktorowa awtentifikacija:"
+}

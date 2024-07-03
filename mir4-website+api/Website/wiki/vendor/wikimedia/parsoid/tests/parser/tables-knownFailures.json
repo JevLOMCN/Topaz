@@ -1,0 +1,38 @@
+{
+	"A table with captions with non-default spaced attributes and a table row": {
+		"wt2wt": "{|\n|+ style=\"color: red;\" |caption2\n|+ style=\"color: red;\" |caption3\n|-\n|foo\n|}"
+	},
+	"Accept \"| !\" at start of line in tables (ignore !-attribute)": {
+		"wt2wt": "{|\n|-\n| !style=\"color:red\" |bar\n|}"
+	},
+	"Allow +/- in 2nd and later cells in a row, in 1st cell when td-attrs are present, or in 1st cell when there is a space between \"|\" and +/- ": {
+		"wt2wt": "{|\n|-\n| style=\"color:red;\" | +1\n| style=\"color:blue;\" | -1\n|-\n|1||2||3\n|1||+2||-3\n|-\n| +1\n| -1\n|}"
+	},
+	"Build table with pipe as data": {
+		"wt2wt": "{| class=\"wikitable\"\n!header\n!second header\n|- style=\"color:red;\"\n|data|| style=\"color:red;\" |second data\n|-\n| style=\"color:red;\" |<nowiki>data with |</nowiki>|| style=\"color:red;\" |second data with |\n|-\n||<nowiki>data with |</nowiki>|||second data with |\n|}"
+	},
+	"Build table with {{!}}": {
+		"wt2wt": "{{{!}} class=\"wikitable\"\n!header\n!second header\n{{!}}- style=\"color:red;\"\n{{!}}data{{!}}{{!}} style=\"color:red;\"{{!}}second data\n{{!}}}"
+	},
+	"Invalid attributes in table cell (T3830)": {
+		"wt2wt": "{|\n| Cell: |broken\n|}"
+	},
+	"Nested table": {
+		"wt2wt": "{| border=\"1\"\n|&alpha;\n|\n{| bgcolor=\"#ABCDEF\" border=\"2\"\n|nested\n|-\n|table\n|}\n|the original table again\n|}"
+	},
+	"Parsoid: Row-syntax table headings followed by comment & table cells": {
+		"wt2wt": "{|\n!foo||bar\n<!-- foo -->||baz||quux\n|}"
+	},
+	"Table cell attributes: Pipes protected by nowikis should be treated as a plain character": {
+		"wt2wt": "{|\n| title=\"foo\" |bar\n| title=\"foo<nowiki>|</nowiki>\" |bar\n|title=\"foo<nowiki>|</nowiki>\" bar\n|}"
+	},
+	"Table rowspan": {
+		"wt2wt": "{| border=\"1\"\n|Cell 1, row 1\n| rowspan=\"2\" |Cell 2, row 1 (and 2)\n|Cell 3, row 1\n|-\n|Cell 1, row 2\n|Cell 3, row 2\n|}"
+	},
+	"Table td-cell syntax variations": {
+		"wt2wt": "{|\n| foo bar |baz\n|foo bar foo||baz\n| style=\"color:red;\" |baz\n|style='color:red;'||baz\n|}"
+	},
+	"Templated table cell with untemplated attributes: Unsupported Scenario": {
+		"wt2html": "<table data-parsoid='{\"dsr\":[0,55,2,2]}'>\n<tbody data-parsoid='{\"dsr\":[3,53,0,0]}'><tr data-parsoid='{\"startTagSrc\":\"|-\",\"dsr\":[3,52,2,0]}'>\n<td data-parsoid='{\"dsr\":[6,18,1,0]}'>class=\"foo\"</td><td title=\"fail\" about=\"#mwt1\" typeof=\"mw:Transclusion\" data-parsoid='{\"dsr\":[18,52,null,null],\"pi\":[[{\"k\":\"1\",\"named\":true}]]}' data-mw='{\"parts\":[{\"template\":{\"target\":{\"wt\":\"1x\",\"href\":\"./Template:1x\"},\"params\":{\"1\":{\"wt\":\"{{!}}title=\\\"fail\\\"{{!}}bar\"}},\"i\":0}}]}'>bar</td></tr>\n</tbody></table>"
+	}
+}

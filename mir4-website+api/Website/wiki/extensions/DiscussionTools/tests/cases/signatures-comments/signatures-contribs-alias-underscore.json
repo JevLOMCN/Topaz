@@ -1,0 +1,70 @@
+[
+	{
+		"placeholderHeading": false,
+		"type": "heading",
+		"range": [
+			"0/0/0",
+			"0/0/1"
+		],
+		"headingLevel": 2,
+		"level": 0,
+		"name": "h-127.0.0.1-20230113092500",
+		"id": "h-test-20230113092500",
+		"warnings": [],
+		"replies": [
+			{
+				"type": "comment",
+				"timestamp": "20230113092500",
+				"author": "127.0.0.1",
+				"range": [
+					"2/0",
+					"2/2/30"
+				],
+				"signatureRanges": [
+					[
+						"2/1",
+						"2/2/30"
+					]
+				],
+				"timestampRanges": [
+					[
+						"2/2/1",
+						"2/2/30"
+					]
+				],
+				"level": 1,
+				"name": "c-127.0.0.1-20230113092500",
+				"id": "c-127.0.0.1-20230113092500-test",
+				"warnings": [],
+				"replies": [
+					{
+						"type": "comment",
+						"timestamp": "20230113112500",
+						"author": "Lower cased",
+						"range": [
+							"4/0/0",
+							"4/0/2/30"
+						],
+						"signatureRanges": [
+							[
+								"4/0/1",
+								"4/0/2/30"
+							]
+						],
+						"timestampRanges": [
+							[
+								"4/0/2/1",
+								"4/0/2/30"
+							]
+						],
+						"level": 2,
+						"name": "c-Lower_cased-20230113112500",
+						"id": "c-Lower_cased-20230113112500-127.0.0.1-20230113092500",
+						"warnings": [],
+						"replies": []
+					}
+				]
+			}
+		]
+	}
+]

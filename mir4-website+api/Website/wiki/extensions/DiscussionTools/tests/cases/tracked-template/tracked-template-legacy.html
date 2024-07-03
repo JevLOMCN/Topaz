@@ -1,0 +1,110 @@
+<section data-mw-section-id="0" id="mwAQ"></section><section data-mw-section-id="1" id="mwAg"><div class="mw-heading mw-heading2 ext-discussiontools-init-section"><span class="ext-discussiontools-init-section-subscribe mw-editsection-like"><span class="ext-discussiontools-init-section-subscribe-bracket">[</span><a href="/w/index.php?title=Commons_talk:SPARQL_query_service&amp;action=dtsubscribe&amp;commentname=h-FrankieRayRobertson-2020-12-21T13%3A38%3A00.000Z&amp;section=How+to+authenticate+to+Wikimedia+Commons+Query+Service+using+OAuth+in+Python%3F" class="ext-discussiontools-init-section-subscribe-link" role="button" tabindex="0" title="(discussiontools-topicsubscription-button-subscribe-tooltip)">(discussiontools-topicsubscription-button-subscribe)</a><span class="ext-discussiontools-init-section-subscribe-bracket">]</span></span><h2 id="How_to_authenticate_to_Wikimedia_Commons_Query_Service_using_OAuth_in_Python?" data-mw-thread-id="h-How_to_authenticate_to_Wikimedia_Commons_Query_Service_using_OAuth_in_Python?-2020-12-21T13:38:00.000Z"><span data-mw-comment-start="" id="h-How_to_authenticate_to_Wikimedia_Commons_Query_Service_using_OAuth_in_Python?-2020-12-21T13:38:00.000Z"></span><span id="How_to_authenticate_to_Wikimedia_Commons_Query_Service_using_OAuth_in_Python.3F" typeof="mw:FallbackId"></span>How to authenticate to Wikimedia Commons Query Service using OAuth in Python?<span data-mw-comment-end="h-How_to_authenticate_to_Wikimedia_Commons_Query_Service_using_OAuth_in_Python?-2020-12-21T13:38:00.000Z"></span></h2><div class="ext-discussiontools-init-section-bar"><div class="ext-discussiontools-init-section-metadata"><span class='ext-discussiontools-init-section-metaitem ext-discussiontools-init-section-timestampLabel'>(discussiontools-topicheader-latestcomment: <a href="#c-Multichill-2021-02-13T18:31:00.000Z-Zache-2021-01-04T06:55:00.000Z">1613241060</a>)</span><span class='ext-discussiontools-init-section-metaitem ext-discussiontools-init-section-commentCountLabel'>(discussiontools-topicheader-commentcount: 3)</span><span class='ext-discussiontools-init-section-metaitem ext-discussiontools-init-section-authorCountLabel'>(discussiontools-topicheader-authorcount: 3)</span></div><div class="ext-discussiontools-init-section-actions"></div></div></div>
+
+<p id="mwAw"><span data-mw-comment-start="" id="c-FrankieRayRobertson-2020-12-21T13:38:00.000Z-How_to_authenticate_to_Wikimedia_Commons_Query_Service_using_OAuth_in_Python?"></span>This page says it's possible to authenticate against the query service using OAuth, but has anyone managed to do so programmatically from Python? If anyone has any working code, in any language, I would appreciate whatever you can share. I've asked the full question including my not-working Python code on StackOverflow: <a rel="mw:ExtLink" href="https://stackoverflow.com/questions/65303450/how-to-authenticate-to-wikimedia-commons-query-service-using-oauth-in-python" class="external free" id="mwBA">https://stackoverflow.com/questions/65303450/how-to-authenticate-to-wikimedia-commons-query-service-using-oauth-in-python</a> --<a rel="mw:WikiLink" href="./User:FrankieRayRobertson" title="User:FrankieRayRobertson" class="new" id="mwBQ">FrankieRayRobertson</a> (<a rel="mw:WikiLink" href="./User_talk:FrankieRayRobertson" title="User talk:FrankieRayRobertson" id="mwBg"><span class="signature-talk" id="mwBw"><span about="#mwt1" typeof="mw:Transclusion" data-mw="{&quot;parts&quot;:[{&quot;template&quot;:{&quot;target&quot;:{&quot;wt&quot;:&quot;int:Talkpagelinktext&quot;,&quot;function&quot;:&quot;int&quot;},&quot;params&quot;:{},&quot;i&quot;:0}}]}" id="mwCA">talk</span></span></a>) <a href="https://example.org/wiki/Commons_talk:SPARQL_query_service#c-FrankieRayRobertson-2020-12-21T13:38:00.000Z-How_to_authenticate_to_Wikimedia_Commons_Query_Service_using_OAuth_in_Python?" class="ext-discussiontools-init-timestamplink">13:38, 21 December 2020 (UTC)</a><span class="ext-discussiontools-init-replylink-buttons" data-mw-thread-id="c-FrankieRayRobertson-2020-12-21T13:38:00.000Z-How_to_authenticate_to_Wikimedia_Commons_Query_Service_using_OAuth_in_Python?"><span class="ext-discussiontools-init-replylink-bracket">[</span><a class="ext-discussiontools-init-replylink-reply" role="button" tabindex="0" href="">(discussiontools-replylink)</a><span class="ext-discussiontools-init-replylink-bracket">]</span></span><span data-mw-comment-end="c-FrankieRayRobertson-2020-12-21T13:38:00.000Z-How_to_authenticate_to_Wikimedia_Commons_Query_Service_using_OAuth_in_Python?"></span></p>
+<dl id="mwCQ"><dd id="mwCg"><span class="template-ping" about="#mwt2" typeof="mw:Transclusion" data-mw="{&quot;parts&quot;:[{&quot;template&quot;:{&quot;target&quot;:{&quot;wt&quot;:&quot;ping&quot;,&quot;href&quot;:&quot;./Template:Ping&quot;},&quot;params&quot;:{&quot;1&quot;:{&quot;wt&quot;:&quot;Multichill&quot;}},&quot;i&quot;:0}}]}" id="mwCw"><span data-mw-comment-start="" id="c-Zache-2021-01-04T06:55:00.000Z-FrankieRayRobertson-2020-12-21T13:38:00.000Z"></span>@<a rel="mw:WikiLink" href="./User:Multichill" title="User:Multichill">Multichill</a>: </span> do you have example code for this / are you using WCQS with python? --<a rel="mw:WikiLink" href="./User:Zache" title="User:Zache" id="mwDA">Zache</a> (<a rel="mw:WikiLink" href="./User_talk:Zache" title="User talk:Zache" id="mwDQ"><span class="signature-talk" id="mwDg"><span about="#mwt3" typeof="mw:Transclusion" data-mw="{&quot;parts&quot;:[{&quot;template&quot;:{&quot;target&quot;:{&quot;wt&quot;:&quot;int:Talkpagelinktext&quot;,&quot;function&quot;:&quot;int&quot;},&quot;params&quot;:{},&quot;i&quot;:0}}]}" id="mwDw">talk</span></span></a>) <a href="https://example.org/wiki/Commons_talk:SPARQL_query_service#c-Zache-2021-01-04T06:55:00.000Z-FrankieRayRobertson-2020-12-21T13:38:00.000Z" class="ext-discussiontools-init-timestamplink">06:55, 4 January 2021 (UTC)</a><span class="ext-discussiontools-init-replylink-buttons" data-mw-thread-id="c-Zache-2021-01-04T06:55:00.000Z-FrankieRayRobertson-2020-12-21T13:38:00.000Z"><span class="ext-discussiontools-init-replylink-bracket">[</span><a class="ext-discussiontools-init-replylink-reply" role="button" tabindex="0" href="">(discussiontools-replylink)</a><span class="ext-discussiontools-init-replylink-bracket">]</span></span><span data-mw-comment-end="c-Zache-2021-01-04T06:55:00.000Z-FrankieRayRobertson-2020-12-21T13:38:00.000Z"></span>
+<dl id="mwEA"><dd id="mwEQ"><span class="template-ping" about="#mwt4" typeof="mw:Transclusion" data-mw="{&quot;parts&quot;:[{&quot;template&quot;:{&quot;target&quot;:{&quot;wt&quot;:&quot;Ping&quot;,&quot;href&quot;:&quot;./Template:Ping&quot;},&quot;params&quot;:{&quot;1&quot;:{&quot;wt&quot;:&quot;Zache&quot;}},&quot;i&quot;:0}}]}" id="mwEg"><span data-mw-comment-start="" id="c-Multichill-2021-02-13T18:31:00.000Z-Zache-2021-01-04T06:55:00.000Z"></span>@<a rel="mw:WikiLink" href="./User:Zache" title="User:Zache">Zache</a>: </span> no, would have to look into this. Should be part of Pywikibot if someone figures it out. Did you already file a task in phabricator to add support for <a rel="mw:ExtLink" href="https://wcqs-beta.wmflabs.org/" class="external free" id="mwEw">https://wcqs-beta.wmflabs.org/</a><span typeof="mw:DisplaySpace" id="mwFA"> </span>? <a rel="mw:WikiLink" href="./User:Multichill" title="User:Multichill" id="mwFQ">Multichill</a> (<a rel="mw:WikiLink" href="./User_talk:Multichill" title="User talk:Multichill" id="mwFg">talk</a>) <a href="https://example.org/wiki/Commons_talk:SPARQL_query_service#c-Multichill-2021-02-13T18:31:00.000Z-Zache-2021-01-04T06:55:00.000Z" class="ext-discussiontools-init-timestamplink">18:31, 13 February 2021 (UTC)</a><span class="ext-discussiontools-init-replylink-buttons" data-mw-thread-id="c-Multichill-2021-02-13T18:31:00.000Z-Zache-2021-01-04T06:55:00.000Z"><span class="ext-discussiontools-init-replylink-bracket">[</span><a class="ext-discussiontools-init-replylink-reply" role="button" tabindex="0" href="">(discussiontools-replylink)</a><span class="ext-discussiontools-init-replylink-bracket">]</span></span><span data-mw-comment-end="c-Multichill-2021-02-13T18:31:00.000Z-Zache-2021-01-04T06:55:00.000Z"></span></dd></dl></dd></dl>
+
+</section><section data-mw-section-id="2" id="mwFw"><div class="mw-heading mw-heading2 ext-discussiontools-init-section"><span class="ext-discussiontools-init-section-subscribe mw-editsection-like"><span class="ext-discussiontools-init-section-subscribe-bracket">[</span><a href="/w/index.php?title=Commons_talk:SPARQL_query_service&amp;action=dtsubscribe&amp;commentname=h-Marsupium-2021-12-28T00%3A30%3A00.000Z&amp;section=HTTP+500%2C+server+down%3F" class="ext-discussiontools-init-section-subscribe-link" role="button" tabindex="0" title="(discussiontools-topicsubscription-button-subscribe-tooltip)">(discussiontools-topicsubscription-button-subscribe)</a><span class="ext-discussiontools-init-section-subscribe-bracket">]</span></span><h2 id="HTTP_500,_server_down?" data-mw-thread-id="h-HTTP_500,_server_down?-2021-12-28T00:30:00.000Z"><span data-mw-comment-start="" id="h-HTTP_500,_server_down?-2021-12-28T00:30:00.000Z"></span><span id="HTTP_500.2C_server_down.3F" typeof="mw:FallbackId"></span>HTTP 500, server down?<span data-mw-comment-end="h-HTTP_500,_server_down?-2021-12-28T00:30:00.000Z"></span></h2><div class="ext-discussiontools-init-section-bar"><div class="ext-discussiontools-init-section-metadata"><span class='ext-discussiontools-init-section-metaitem ext-discussiontools-init-section-timestampLabel'>(discussiontools-topicheader-latestcomment: <a href="#c-Marsupium-2021-12-31T12:19:00.000Z-Shisma-2021-12-31T11:48:00.000Z">1640953140</a>)</span><span class='ext-discussiontools-init-section-metaitem ext-discussiontools-init-section-commentCountLabel'>(discussiontools-topicheader-commentcount: 3)</span><span class='ext-discussiontools-init-section-metaitem ext-discussiontools-init-section-authorCountLabel'>(discussiontools-topicheader-authorcount: 2)</span></div><div class="ext-discussiontools-init-section-actions"></div></div></div>
+
+<p id="mwGA"><span data-mw-comment-start="" id="c-Marsupium-2021-12-28T00:30:00.000Z-HTTP_500,_server_down?"></span>For me <code id="mwGQ"><a rel="mw:ExtLink" href="https://wcqs-beta.wmflabs.org/" class="external free" id="mwGg">https://wcqs-beta.wmflabs.org/</a></code> throws a 500 Internal Server Error:</p>
+<pre id="mwGw">Problem accessing /oauth/check_login. Reason:
+Request failed.</pre>
+<p id="mwHA">Is this known? Any information when the query service might be back? Thanks in advance for any information or linking to relevant other places! --<a rel="mw:WikiLink" href="./User:Marsupium" title="User:Marsupium" id="mwHQ">Marsupium</a> (<a rel="mw:WikiLink" href="./User_talk:Marsupium" title="User talk:Marsupium" id="mwHg"><span class="signature-talk" id="mwHw"><span about="#mwt5" typeof="mw:Transclusion" data-mw="{&quot;parts&quot;:[{&quot;template&quot;:{&quot;target&quot;:{&quot;wt&quot;:&quot;int:Talkpagelinktext&quot;,&quot;function&quot;:&quot;int&quot;},&quot;params&quot;:{},&quot;i&quot;:0}}]}" id="mwIA">talk</span></span></a>) <a href="https://example.org/wiki/Commons_talk:SPARQL_query_service#c-Marsupium-2021-12-28T00:30:00.000Z-HTTP_500,_server_down?" class="ext-discussiontools-init-timestamplink">00:30, 28 December 2021 (UTC)</a><span class="ext-discussiontools-init-replylink-buttons" data-mw-thread-id="c-Marsupium-2021-12-28T00:30:00.000Z-HTTP_500,_server_down?"><span class="ext-discussiontools-init-replylink-bracket">[</span><a class="ext-discussiontools-init-replylink-reply" role="button" tabindex="0" href="">(discussiontools-replylink)</a><span class="ext-discussiontools-init-replylink-bracket">]</span></span><span data-mw-comment-end="c-Marsupium-2021-12-28T00:30:00.000Z-HTTP_500,_server_down?"></span></p>
+
+<dl id="mwIQ"><dd id="mwIg"><span class="template-ping" about="#mwt6" typeof="mw:Transclusion" data-mw="{&quot;parts&quot;:[{&quot;template&quot;:{&quot;target&quot;:{&quot;wt&quot;:&quot;re&quot;,&quot;href&quot;:&quot;./Template:Re&quot;},&quot;params&quot;:{&quot;1&quot;:{&quot;wt&quot;:&quot;Marsupium&quot;}},&quot;i&quot;:0}}]}" id="mwIw"><span data-mw-comment-start="" id="c-Shisma-2021-12-31T11:48:00.000Z-Marsupium-2021-12-28T00:30:00.000Z"></span>@<a rel="mw:WikiLink" href="./User:Marsupium" title="User:Marsupium">Marsupium</a>: </span> issue was reported in T297454--<a rel="mw:WikiLink" href="./User:Shisma" title="User:Shisma" id="mwJA">Shisma</a> (<a rel="mw:WikiLink" href="./User_talk:Shisma" title="User talk:Shisma" id="mwJQ"><span class="signature-talk" id="mwJg"><span about="#mwt10" typeof="mw:Transclusion" data-mw="{&quot;parts&quot;:[{&quot;template&quot;:{&quot;target&quot;:{&quot;wt&quot;:&quot;int:Talkpagelinktext&quot;,&quot;function&quot;:&quot;int&quot;},&quot;params&quot;:{},&quot;i&quot;:0}}]}" id="mwJw">talk</span></span></a>) <a href="https://example.org/wiki/Commons_talk:SPARQL_query_service#c-Shisma-2021-12-31T11:48:00.000Z-Marsupium-2021-12-28T00:30:00.000Z" class="ext-discussiontools-init-timestamplink">11:48, 31 December 2021 (UTC)</a><span class="ext-discussiontools-init-replylink-buttons" data-mw-thread-id="c-Shisma-2021-12-31T11:48:00.000Z-Marsupium-2021-12-28T00:30:00.000Z"><span class="ext-discussiontools-init-replylink-bracket">[</span><a class="ext-discussiontools-init-replylink-reply" role="button" tabindex="0" href="">(discussiontools-replylink)</a><span class="ext-discussiontools-init-replylink-bracket">]</span></span><span data-mw-comment-end="c-Shisma-2021-12-31T11:48:00.000Z-Marsupium-2021-12-28T00:30:00.000Z"></span> <style data-mw-deduplicate="TemplateStyles:r578707000" typeof="mw:Extension/templatestyles mw:Transclusion" about="#mwt7" data-mw="{&quot;parts&quot;:[{&quot;template&quot;:{&quot;target&quot;:{&quot;wt&quot;:&quot;phabricator&quot;,&quot;href&quot;:&quot;./Template:Phabricator&quot;},&quot;params&quot;:{&quot;1&quot;:{&quot;wt&quot;:&quot;T297454&quot;}},&quot;i&quot;:0}}]}" id="mwKA">.mw-parser-output .tracked{float:right;clear:right;border:1px solid #999;border-radius:0.5em;background-color:#eee;background-image:linear-gradient(to bottom,#ddd,#eee);font-size:85%;text-align:center;padding:0.5em;margin-left:1em;margin-bottom:1em;width:12em;color:black}.mw-parser-output .tracked p{margin:0}.mw-parser-output .tracked-url{font-weight:bold}.mw-parser-output .tracked .status,.mw-parser-output .tracked-status{font-weight:bold;text-transform:uppercase}.mw-parser-output .tracked .status.resolved,.mw-parser-output .tracked-resolved{color:green}.mw-parser-output .tracked .status.critical,.mw-parser-output .tracked-critical{color:red;font-size:1.5em}</style><div class="tracked plainlinks mw-trackedTemplate" about="#mwt7" id="mwKQ">Tracked in <a rel="mw:WikiLink/Interwiki" href="https://www.mediawiki.org/wiki/Special:MyLanguage/Phabricator" title="mw:Special:MyLanguage/Phabricator" class="extiw">Phabricator</a><br/><b><a rel="mw:WikiLink/Interwiki" href="https://phabricator.wikimedia.org/T297454" title="phabricator:T297454" class="extiw"><span class="tracked-url trakfab-T297454">Task T297454</span></a></b><br/><span class="status"></span></div>
+<dl id="mwKg"><dd id="mwKw"><span data-mw-comment-start="" id="c-Marsupium-2021-12-31T12:19:00.000Z-Shisma-2021-12-31T11:48:00.000Z"></span>Thanks for the link! --<a rel="mw:WikiLink" href="./User:Marsupium" title="User:Marsupium" id="mwLA">Marsupium</a> (<a rel="mw:WikiLink" href="./User_talk:Marsupium" title="User talk:Marsupium" id="mwLQ"><span class="signature-talk" id="mwLg"><span about="#mwt11" typeof="mw:Transclusion" data-mw="{&quot;parts&quot;:[{&quot;template&quot;:{&quot;target&quot;:{&quot;wt&quot;:&quot;int:Talkpagelinktext&quot;,&quot;function&quot;:&quot;int&quot;},&quot;params&quot;:{},&quot;i&quot;:0}}]}" id="mwLw">talk</span></span></a>) <a href="https://example.org/wiki/Commons_talk:SPARQL_query_service#c-Marsupium-2021-12-31T12:19:00.000Z-Shisma-2021-12-31T11:48:00.000Z" class="ext-discussiontools-init-timestamplink">12:19, 31 December 2021 (UTC)</a><span class="ext-discussiontools-init-replylink-buttons" data-mw-thread-id="c-Marsupium-2021-12-31T12:19:00.000Z-Shisma-2021-12-31T11:48:00.000Z"><span class="ext-discussiontools-init-replylink-bracket">[</span><a class="ext-discussiontools-init-replylink-reply" role="button" tabindex="0" href="">(discussiontools-replylink)</a><span class="ext-discussiontools-init-replylink-bracket">]</span></span><span data-mw-comment-end="c-Marsupium-2021-12-31T12:19:00.000Z-Shisma-2021-12-31T11:48:00.000Z"></span></dd></dl></dd></dl></section>
+<pre>
+newestComment: {
+	"id": "c-Marsupium-2021-12-31T12:19:00.000Z-Shisma-2021-12-31T11:48:00.000Z",
+	"timestamp": "2021-12-31T12:19:00.000Z",
+	"author": "Marsupium",
+	"heading": {
+		"headingLevel": 2,
+		"name": "h-Marsupium-2021-12-28T00:30:00.000Z",
+		"type": "heading",
+		"level": 0,
+		"id": "h-HTTP_500,_server_down?-2021-12-28T00:30:00.000Z",
+		"replies": [
+			"c-Marsupium-2021-12-28T00:30:00.000Z-HTTP_500,_server_down?"
+		],
+		"text": "HTTP 500, server down?",
+		"linkableTitle": "HTTP 500, server down?"
+	}
+}
+{
+	"wgDiscussionToolsPageThreads": [
+		{
+			"headingLevel": 2,
+			"name": "h-FrankieRayRobertson-2020-12-21T13:38:00.000Z",
+			"type": "heading",
+			"level": 0,
+			"id": "h-How_to_authenticate_to_Wikimedia_Commons_Query_Service_using_OAuth_in_Python?-2020-12-21T13:38:00.000Z",
+			"replies": [
+				{
+					"timestamp": "2020-12-21T13:38:00.000Z",
+					"author": "FrankieRayRobertson",
+					"type": "comment",
+					"level": 1,
+					"id": "c-FrankieRayRobertson-2020-12-21T13:38:00.000Z-How_to_authenticate_to_Wikimedia_Commons_Query_Service_using_OAuth_in_Python?",
+					"replies": [
+						{
+							"timestamp": "2021-01-04T06:55:00.000Z",
+							"author": "Zache",
+							"type": "comment",
+							"level": 2,
+							"id": "c-Zache-2021-01-04T06:55:00.000Z-FrankieRayRobertson-2020-12-21T13:38:00.000Z",
+							"replies": [
+								{
+									"timestamp": "2021-02-13T18:31:00.000Z",
+									"author": "Multichill",
+									"type": "comment",
+									"level": 3,
+									"id": "c-Multichill-2021-02-13T18:31:00.000Z-Zache-2021-01-04T06:55:00.000Z",
+									"replies": []
+								}
+							]
+						}
+					]
+				}
+			],
+			"uneditableSection": true
+		},
+		{
+			"headingLevel": 2,
+			"name": "h-Marsupium-2021-12-28T00:30:00.000Z",
+			"type": "heading",
+			"level": 0,
+			"id": "h-HTTP_500,_server_down?-2021-12-28T00:30:00.000Z",
+			"replies": [
+				{
+					"timestamp": "2021-12-28T00:30:00.000Z",
+					"author": "Marsupium",
+					"type": "comment",
+					"level": 1,
+					"id": "c-Marsupium-2021-12-28T00:30:00.000Z-HTTP_500,_server_down?",
+					"replies": [
+						{
+							"timestamp": "2021-12-31T11:48:00.000Z",
+							"author": "Shisma",
+							"type": "comment",
+							"level": 2,
+							"id": "c-Shisma-2021-12-31T11:48:00.000Z-Marsupium-2021-12-28T00:30:00.000Z",
+							"replies": [
+								{
+									"timestamp": "2021-12-31T12:19:00.000Z",
+									"author": "Marsupium",
+									"type": "comment",
+									"level": 3,
+									"id": "c-Marsupium-2021-12-31T12:19:00.000Z-Shisma-2021-12-31T11:48:00.000Z",
+									"replies": []
+								}
+							]
+						}
+					]
+				}
+			],
+			"uneditableSection": true
+		}
+	]
+}
+</pre>

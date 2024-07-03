@@ -1,0 +1,227 @@
+{
+	"name": "OATHAuth",
+	"version": "0.5.0",
+	"author": [
+		"Ryan Lane",
+		"Robert Vogel <vogel@hallowelt.com>",
+		"Dejan Savuljesku <savuljesku@hallowelt.com>",
+		"Taavi Väänänen"
+	],
+	"url": "https://www.mediawiki.org/wiki/Extension:OATHAuth",
+	"descriptionmsg": "oathauth-desc",
+	"type": "other",
+	"requires": {
+		"MediaWiki": ">= 1.42"
+	},
+	"license-name": "GPL-2.0-or-later AND GPL-3.0-or-later",
+	"attributes": {
+		"OATHAuth": {
+			"Modules": {
+				"totp": "\\MediaWiki\\Extension\\OATHAuth\\Module\\TOTP::factory"
+			}
+		}
+	},
+	"AutoloadNamespaces": {
+		"MediaWiki\\Extension\\OATHAuth\\": "src/",
+		"MediaWiki\\Extension\\OATHAuth\\Maintenance\\": "maintenance/"
+	},
+	"TestAutoloadNamespaces": {
+		"MediaWiki\\Extension\\OATHAuth\\Tests\\": "tests/phpunit/"
+	},
+	"AuthManagerAutoConfig": {
+		"secondaryauth": {
+			"OATHSecondaryAuthenticationProvider": {
+				"class": "\\MediaWiki\\Extension\\OATHAuth\\Auth\\SecondaryAuthenticationProvider",
+				"sort": 50
+			}
+		}
+	},
+	"ServiceWiringFiles": [
+		"ServiceWiring.php"
+	],
+	"ExtensionMessagesFiles": {
+		"OATHAuthAlias": "OATHAuth.alias.php"
+	},
+	"Hooks": {
+		"AuthChangeFormFields": "main",
+		"LoadExtensionSchemaUpdates": "updater",
+		"GetPreferences": "main",
+		"getUserPermissionsErrors": "main",
+		"UserEffectiveGroups": "main",
+		"UserGetRights": "main",
+		"BeforeCreateEchoEvent": "echo",
+		"MediaWikiServices": "mwservices"
+	},
+	"HookHandlers": {
+		"main": {
+			"class": "\\MediaWiki\\Extension\\OATHAuth\\Hook\\HookHandler",
+			"services": [
+				"OATHUserRepository",
+				"PermissionManager",
+				"MainConfig",
+				"UserGroupManager"
+			]
+		},
+		"updater": {
+			"class": "MediaWiki\\Extension\\OATHAuth\\Hook\\UpdateTables"
+		},
+		"echo": {
+			"class": "MediaWiki\\Extension\\OATHAuth\\Hook\\EchoHandler"
+		},
+		"mwservices": {
+			"class": "MediaWiki\\Extension\\OATHAuth\\Hook\\MWServicesHandler"
+		}
+	},
+	"MessagesDirs": {
+		"OATHAuth": [
+			"i18n",
+			"i18n/api"
+		]
+	},
+	"config": {
+		"OATHAuthWindowRadius": {
+			"value": 4,
+			"description": "Number of token windows on either side of current time to be considered valid for authentication."
+		},
+		"OATHAuthDatabase": {
+			"value": false,
+			"description": "Deprecated; configure the virtual-oathauth virtual domain instead."
+		},
+		"OATHAuthAccountPrefix": {
+			"value": false,
+			"description": "Prefix for user account shown during enrollment."
+		},
+		"OATHExclusiveRights": {
+			"value": [],
+			"description": "List of permissions that are revoked from users who do not use two-factor authentication."
+		},
+		"OATHRequiredForGroups": {
+			"value": [],
+			"description": "List of user groups that must use two-factor authentication."
+		}
+	},
+	"ResourceModules": {
+		"ext.oath.totp.showqrcode.styles": {
+			"styles": [
+				"totp/ext.oath.showqrcode.styles.css"
+			]
+		}
+	},
+	"ResourceFileModulePaths": {
+		"localBasePath": "modules",
+		"remoteExtPath": "OATHAuth/modules"
+	},
+	"SpecialPages": {
+		"DisableOATHForUser": {
+			"class": "\\MediaWiki\\Extension\\OATHAuth\\Special\\DisableOATHForUser",
+			"services": [
+				"OATHUserRepository",
+				"UserFactory"
+			]
+		},
+		"OATHManage": {
+			"class": "\\MediaWiki\\Extension\\OATHAuth\\Special\\OATHManage",
+			"services": [
+				"OATHUserRepository",
+				"OATHAuthModuleRegistry"
+			]
+		},
+		"VerifyOATHForUser": {
+			"class": "\\MediaWiki\\Extension\\OATHAuth\\Special\\VerifyOATHForUser",
+			"services": [
+				"OATHUserRepository",
+				"UserFactory"
+			]
+		}
+	},
+	"AvailableRights": [
+		"oathauth-enable",
+		"oathauth-api-all",
+		"oathauth-disable-for-user",
+		"oathauth-verify-user",
+		"oathauth-view-log"
+	],
+	"GroupPermissions": {
+		"*": {
+			"oathauth-disable-for-user": false,
+			"oathauth-view-log": false
+		},
+		"user": {
+			"oathauth-enable": true
+		},
+		"sysop": {
+			"oathauth-disable-for-user": true,
+			"oathauth-verify-user": true,
+			"oathauth-view-log": true
+		}
+	},
+	"GrantPermissions": {
+		"oath": {
+			"oathauth-api-all": true,
+			"oathauth-verify-user": true
+		}
+	},
+	"GrantPermissionGroups": {
+		"oath": "authentication"
+	},
+	"GrantRiskGroups": {
+		"oath": "internal"
+	},
+	"APIModules": {
+		"oathvalidate": "\\MediaWiki\\Extension\\OATHAuth\\Api\\Module\\ApiOATHValidate"
+	},
+	"APIMetaModules": {
+		"oath": {
+			"class": "\\MediaWiki\\Extension\\OATHAuth\\Api\\Module\\ApiQueryOATH",
+			"services": [
+				"OATHUserRepository"
+			]
+		}
+	},
+	"RateLimits": {
+		"badoath": {
+			"&can-bypass": false,
+			"user": [
+				10,
+				60
+			],
+			"user-global": [
+				10,
+				60
+			]
+		}
+	},
+	"ReauthenticateTime": {
+		"oathauth-enable": 60
+	},
+	"load_composer_autoloader": true,
+	"LogTypes": [
+		"oath"
+	],
+	"LogNames": {
+		"oath": "oath-log-name"
+	},
+	"LogHeaders": {
+		"oath": "oath-log-header"
+	},
+	"LogActionsHandlers": {
+		"oath/*": "LogFormatter"
+	},
+	"LogRestrictions": {
+		"oath": "oathauth-view-log"
+	},
+	"ActionFilteredLogs": {
+		"oath": {
+			"verify": [
+				"verify"
+			],
+			"disable-other": [
+				"disable-other"
+			]
+		}
+	},
+	"DatabaseVirtualDomains": [
+		"virtual-oathauth"
+	],
+	"manifest_version": 2
+}

@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Pikne"
+		]
+	},
+	"questycaptcha-addurl": "Sinu muudatus sisaldab uusi välislinke.\nPalun vasta alljärgnevale küsimusele. Abinõu on kaitseks automaadistatud rämpsmuudatuste eest ([[Special:Captcha/help|lisateave]]):",
+	"questycaptcha-badlogin": "Palun vasta alljärgnevale küsimusele. Abinõu on kaitseks automaatsete parooliäraarvajate eest ([[Special:Captcha/help|lisateave]]):",
+	"questycaptcha-createaccount": "Palun vasta alljärgnevale küsimusele. Abinõu on kaitseks kontode automaatse loomise eest ([[Special:Captcha/help|lisateave]]):",
+	"questycaptcha-create": "Lehekülje loomiseks vasta palun alljärgnevale küsimusele ([[Special:Captcha/help|lisateave]]):",
+	"questycaptcha-edit": "Selle lehekülje muutmiseks vasta palun alljärgnevale küsimusele ([[Special:Captcha/help|lisateave]]):",
+	"questycaptcha-sendemail": "Palun vasta alljärgnevale küsimusele. Abinõu on kaitseks automaadistatud rämpsmuudatuste eest ([[Special:Captcha/help|lisateave]]):",
+	"questycaptchahelp-text": "Võrgukohti, mis lubavad külastajatel sisu muuta, nagu ka see viki, kasutavad sageli rämpsposti levitajad, kes lisavad lehekülgedele näiteks reklaamlinke. Kuigi neid linke saab eemaldada, on nad siiski tülikad.\n\nKui registreerid kasutajakonto või lisad mõnele leheküljele uusi veebilinke, võidakse paluda sul küsimusele vastata.\nKuna küsimusele vastamist on raske automaadistada, on see tõhusaks kaitseks rämpspostirobotite vastu ja lubab samas tavakasutajatel rahus muudatusi teha.\n\nKui sul tekib raskusi muudatuste tegemisel, võta palun ühendust selle võrgukoha [[Special:ListAdmins|administraatoritega]].\n\nRedigeerimislehele naasmiseks klõpsa brauseri ''tagasi''-nuppu."
+}

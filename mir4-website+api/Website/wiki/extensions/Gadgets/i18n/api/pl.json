@@ -1,0 +1,26 @@
+{
+	"@metadata": {
+		"authors": [
+			"Chrumps",
+			"Rail",
+			"Railfail536",
+			"Woytecr"
+		]
+	},
+	"apihelp-query+gadgetcategories-summary": "Zwraca listę kategorii gadżetów.",
+	"apihelp-query+gadgetcategories-param-prop": "Jakie informacje o kategorii gadżetów pobrać:\n;name:Wewnętrzna nazwa kategorii.\n;title:Tytuł kategorii.\n;members:Liczba gadżetów w kategorii.",
+	"apihelp-query+gadgetcategories-param-names": "Nazwy kategorii do pobrania.",
+	"apihelp-query+gadgetcategories-example-1": "Pobierz listę istniejących kategorii gadżetów",
+	"apihelp-query+gadgetcategories-example-2": "Pobierz wszystkie informacje na temat kategorii o nazwach „foo” i „bar”",
+	"apihelp-query+gadgets-summary": "Zwraca listę gadżetów używanych na tej wiki.",
+	"apihelp-query+gadgets-param-prop": "Jakie informacje o gadżetach pobrać:\n;id:Wewnętrzny ID gadżetu.\n;metadata:Metadane gadżetu.\n;desc:Opis gadżetu przekształcony na HTML (może być powolne, użyj tylko jeśli naprawdę potrzeba).",
+	"apihelp-query+gadgets-param-categories": "Z jakiej kategorii mają być pobrane informacje o gadżetach.",
+	"apihelp-query+gadgets-param-ids": "Identyfikatory gadżetów do pobrania.",
+	"apihelp-query+gadgets-param-allowedonly": "Wymień tylko gadżety dozwolonych dla bieżącego użytkownika.",
+	"apihelp-query+gadgets-param-enabledonly": "Wymień tylko gadżety włączone przez bieżącego użytkownika.",
+	"apihelp-query+gadgets-example-1": "Pobierz listę gadżetów wraz z ich opisami",
+	"apihelp-query+gadgets-example-2": "Pobierz listę gadżetów z wszelkimi możliwymi właściwościami",
+	"apihelp-query+gadgets-example-3": "Pobierz listę gadżetów należących do kategorii „foo”",
+	"apihelp-query+gadgets-example-4": "Pobierz informacje o gadżetach „foo” i „bar”",
+	"apihelp-query+gadgets-example-5": "Pobierz listę gadżetów włączonych przez bieżącego użytkownika"
+}

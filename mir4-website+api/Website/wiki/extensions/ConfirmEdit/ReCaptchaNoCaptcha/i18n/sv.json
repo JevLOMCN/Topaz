@@ -1,0 +1,18 @@
+{
+	"@metadata": {
+		"authors": [
+			"Jopparn",
+			"Lokal Profil",
+			"WikiPhoenix"
+		]
+	},
+	"renocaptcha-desc": "reCAPTCHA NoCAPTCHA-modul för Confirm Edit",
+	"renocaptcha-edit": "För att skydda wikin mot automatiserad redigeringsspam ber vi dig att lösa följande CAPTCHA:",
+	"renocaptcha-addurl": "Din redigering innehåller nya externa länkar. För att skydda wikin mot automatiserat spam ber vi dig att lösa följande CAPTCHA:",
+	"renocaptcha-badlogin": "För att skydda wikin mot automatiserat knäckande av lösenord, ber vi dig att lösa följande CAPTCHA:",
+	"renocaptcha-createaccount": "För att skydda wikin mot automatiserat kontoskapande, ber vi dig att lösa följande CAPTCHA:",
+	"renocaptcha-createaccount-fail": "Det verkar som att du inte har löst CAPTCHA.",
+	"renocaptcha-create": "För att skydda wikin mot automatiserat sidskapande, ber vi dig att lösa följande CAPTCHA:",
+	"renocaptcha-noscript": "Olyckligtvis har du inaktiverat JavaScript, så vi kan inte automatiskt känna igen om du är en människa eller inte. Vänligen lös CAPTCHAN ovan och kopiera den resulterande texten i följande textruta:",
+	"renocaptcha-help": "Lös en ReCaptcha NoCaptcha-utmaning och returnera lösningsvärdet som captchaWord."
+}

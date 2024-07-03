@@ -1,0 +1,34 @@
+{
+	"@metadata": {
+		"authors": [
+			"Ioe2015",
+			"Minh Nguyen",
+			"Nguyên Lê",
+			"Vinhtantran"
+		]
+	},
+	"captcha-edit": "Để sửa đổi trang này, xin hãy giải phép toán dưới đây và gõ câu trả lời vào ô ([[Special:Captcha/help|thông tin thêm]]):",
+	"captcha-edit-fail": "CAPTCHA bị thiếu hoặc không chính xác.",
+	"captcha-desc": "Chống spam và sự đoán mật khẩu dùng CAPTCHA",
+	"captcha-id-label": "ID CAPTCHA",
+	"captcha-id-help": "Giá trị này phải được gửi lại không thay đổi.",
+	"captcha-addurl": "Sửa đổi của bạn có chứa các liên kết ra bên ngoài. Để tránh spam tự động trong wiki, xin bạn vui lòng giải phép toán ở dưới và nhập kết quả vào ô để lưu giữ các sửa đổi của bạn ([[Special:Captcha/help|thông tin thêm]]):",
+	"captcha-badlogin": "Để tránh vụ tự động bẻ mật khẩu của người dùng wiki, xin bạn vui lòng giải phép toán ở dưới và nhập kết quả vào ô ([[Special:Captcha/help|thông tin thêm]]):",
+	"captcha-createaccount": "Để tránh vụ tự động mở tài khoản trong wiki, xin bạn vui lòng hoàn thành tác vụ ở dưới và nhập kết quả vào ô ([[Special:Captcha/help|thông tin thêm]]):",
+	"captcha-createaccount-fail": "CAPTCHA bị thiếu hoặc không chính xác.",
+	"captcha-create": "Để tạo mới trang, xin hãy giải phép toán ở dưới và gõ\ncâu trả lời vào ô ([[Special:Captcha/help|thông tin thêm]]):",
+	"captcha-sendemail": "Để xác nhận rằng bạn không phải là tay spam, xin bạn vui lòng giải phép toán ở dưới và nhập kết quả vào ô ([[Special:Captcha/help|thông tin thêm]]):",
+	"captcha-sendemail-fail": "CAPTCHA bị thiếu hoặc không chính xác.",
+	"captcha-disabledinapi": "Tác vụ này đòi người dùng giải CAPTCHA trước tiên, nên không thể thực hiện nó qua API.",
+	"captcha-error": "Thất bại khi xác minh CAPTCHA vì lỗi nội bộ: $1",
+	"captchahelp-title": "Trợ giúp Captcha",
+	"captchahelp-cookies-needed": "Bạn cần phải bật cookie trong trình duyệt để chức năng này hoạt động được.",
+	"captchahelp-text": "Những website cho phép bất kỳ ai cũng có thể gửi thông tin, như wiki này, thường bị các tay spam dùng công cụ tự động để gửi các liên kết của họ tới rất nhiều trang.\nTuy chúng ta có thể xóa các liên kết này khỏi trang, chúng vẫn gây nhiều phiền toái.\n\nĐôi khi, nhất là khi bạn bổ sung liên kết mới vào trang, wiki có thể hiển thị một hình có chữ dạng màu mè và méo mó rồi yêu cầu bạn gõ lại các chữ trong hình này.\nDo các phần mềm tự động khó đọc những hình này, nên mọi người bình thường có thể tiếp tục gửi thông tin, mà vẫn chặn được các spam và robot phá hoại.\n\nTuy vậy, tính năng này có thể bất tiện đối với những độc giả có thị giác yếu hay đang sử dụng trình duyệt bằng văn bản thuần hay trình duyệt bằng tiếng nói.\nHiện tại chúng tôi chưa có chức năng phát âm thay thế.\nXin hãy liên lạc với [[Special:ListAdmins|người quản trị trang web]] để được trợ giúp nếu điều này vô tình ngăn cản bạn đóng góp nội dung tốt.\n\nNhấn chuột vào nút “Back” của trình duyệt để trở lại trang soạn thảo.",
+	"captcha-addurl-whitelist": " #<!-- xin để dòng này đừng thay đổi --> <pre>\n# Cú pháp như sau:\n#   * Mọi thứ bắt đầu bằng ký tự “#” là lời chú thích\n#   * Mọi hàng không trắng là một đoạn biểu thức chính quy (regex) sẽ chỉ được so trùng với tên máy chủ trong URL\n  #</pre> <!-- xin để dòng này đừng thay đổi -->",
+	"right-skipcaptcha": "Cho phép bỏ qua các hình CAPTCHA",
+	"confirmedit-preview-line": "Số dòng",
+	"confirmedit-preview-content": "Nội dung",
+	"confirmedit-preview-validity": "Tính hợp lệ",
+	"confirmedit-preview-valid": "hợp lệ",
+	"confirmedit-preview-invalid": "không hợp lệ"
+}

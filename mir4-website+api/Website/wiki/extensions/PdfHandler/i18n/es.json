@@ -1,0 +1,22 @@
+{
+	"@metadata": {
+		"authors": [
+			"Armando-Martin",
+			"Dgstranz",
+			"Fitoschido",
+			"Macofe",
+			"Sanbec"
+		]
+	},
+	"pdf-desc": "Controlador para ver archivos PDF en modo imagen.",
+	"pdf-file-page-warning": "PDF es un formato complejo que puede exponer alguna información privada en algunos casos. Asegúrate de configurar tu lector de PDF de una manera segura.",
+	"pdf-file-page-warning-header": "Consideraciones de privacidad",
+	"pdf-file-page-warning-footer": "Este problema no es específico de este archivo en particular, sino un problema general con el formato PDF.",
+	"pdf-file-page-warning-info": "Más información sobre este problema.",
+	"pdf_no_metadata": "No se pudieron obtener metadatos del PDF.",
+	"pdf_page_error": "El número de página se ubica fuera del intervalo.",
+	"exif-pdf-producer": "Programa de conversión",
+	"exif-pdf-version": "Versión del formato PDF",
+	"exif-pdf-encrypted": "Cifrado",
+	"exif-pdf-pagesize": "Tamaño de página"
+}

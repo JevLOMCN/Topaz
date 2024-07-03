@@ -1,0 +1,39 @@
+{
+	"@metadata": {
+		"authors": [
+			"Alison",
+			"Alma",
+			"Kwekubo",
+			"Moilleadóir",
+			"Spacebirdy",
+			"Xosé",
+			"පසිඳු කාවින්ද"
+		]
+	},
+	"categorytree": "Crann na gCatagóirí",
+	"categorytree-portlet": "Catagóirí",
+	"categorytree-legend": "Taispeáin crann na gcatagóirí",
+	"categorytree-desc": "Giuirléid AJAX a thaispeánann an [[Special:CategoryTree|struchtúr catagóirí]] i vicí",
+	"categorytree-header": "Cuir isteach ainm catagóra chun a hinneachar a thaispeáint i struchtúr crainn.\nTabhair faoi deara gur riachtanach ardfheidhmiúlacht JavaScript (AJAX) a bheith agat.\nMá tá do bhrabhsálaí róshean, nó má dhíchumasaigh tú JavaScript, ní oibreoidh sé.",
+	"categorytree-category": "Catagóir:",
+	"categorytree-go": "Taispeán an Crann",
+	"categorytree-parents": "Máthairnóid",
+	"categorytree-mode-categories": "catagóirí amháin",
+	"categorytree-mode-pages": "leathanaigh seachas comhaid",
+	"categorytree-mode-all": "gach leathanach",
+	"categorytree-collapse": "dún",
+	"categorytree-expand": "oscail",
+	"categorytree-member-counts": "tá {{PLURAL:$1|fo-chatagóir amháin|$1 fo-chatagóirí}}, {{PLURAL:$2|leathanach amháin|$2 leathanaigh}}, agus {{PLURAL:$3|comhad amháin|$3 comhaid}} laistigh",
+	"categorytree-num-categories": "$1 C",
+	"categorytree-num-pages": "$1 L",
+	"categorytree-num-files": "$1 C",
+	"categorytree-load": "lódáil",
+	"categorytree-loading": "ag lódáil…",
+	"categorytree-nothing-found": "Ní bhfuarthas dada",
+	"categorytree-no-subcategories": "gan fho-chatagóir",
+	"categorytree-no-parent-categories": "níl aon máthairchatagóirí",
+	"categorytree-no-pages": "gan leathanach ná fo-chatagóir",
+	"categorytree-not-found": "Ní bhfuarthas Catagóir <i>$1</i>",
+	"categorytree-error": "Earráid agus sonraí dá lódáil.",
+	"categorytree-retry": "Fan nóiméad, le do thoil, roimh triail eile a bhaint as."
+}

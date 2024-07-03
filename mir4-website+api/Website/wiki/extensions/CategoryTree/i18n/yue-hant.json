@@ -1,0 +1,35 @@
+{
+	"@metadata": {
+		"authors": [
+			"Winston Sung"
+		]
+	},
+	"categorytree": "分類樹",
+	"categorytree-portlet": "分類",
+	"categorytree-legend": "顯示分類樹",
+	"categorytree-desc": "一個以AJAX為主嘅小工具去顯示響一個wiki嘅[[Special:CategoryTree|分類架構]]",
+	"categorytree-header": "輸入分類名去睇佢嘅樹形結構內容。（需要JavaScript）",
+	"categorytree-category": "分類",
+	"categorytree-go": "撈緊",
+	"categorytree-parents": "父分類",
+	"categorytree-mode-label": "模式：",
+	"categorytree-mode-categories": "只顯示分類",
+	"categorytree-mode-pages": "除咗圖像之外嘅版",
+	"categorytree-mode-all": "全版",
+	"categorytree-collapse": "收埋",
+	"categorytree-expand": "打開",
+	"categorytree-member-counts": "有$1個細分類、$2版同$3個檔案",
+	"categorytree-num-categories": "$1 C",
+	"categorytree-num-pages": "$1 P",
+	"categorytree-num-files": "$1 F",
+	"categorytree-num-empty": "空",
+	"categorytree-load": "載入",
+	"categorytree-loading": "撈緊…",
+	"categorytree-nothing-found": "搵唔到任何嘢",
+	"categorytree-no-subcategories": "冇細分類",
+	"categorytree-no-parent-categories": "冇父分類",
+	"categorytree-no-pages": "冇版或者細分類",
+	"categorytree-not-found": "搵唔到<i>$1</i>分類",
+	"categorytree-error": "載入資料嗰陣發生咗錯誤。",
+	"categorytree-retry": "請等多一陣再試過。"
+}

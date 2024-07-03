@@ -1,0 +1,26 @@
+{
+	"@metadata": {
+		"authors": [
+			"Pyt"
+		]
+	},
+	"pfunc_desc": "Ärwiedert dän Parser uum logiske Funktione",
+	"pfunc_time_error": "Failer: uungultige Tiedangoawe",
+	"pfunc_time_too_long": "Failer: tou fuul #time-Aproupe",
+	"pfunc_rel2abs_invalid_depth": "Failer: uungultige Djüpte in Paad: „$1“ (Fersäik, ap n Knättepunkt buppe dän Haudknättepunkt toutougriepen)",
+	"pfunc_expr_stack_exhausted": "Expression-Failer: Stack-Uurloop",
+	"pfunc_expr_unexpected_number": "Expression-Failer: Nit ferwachtede Taal",
+	"pfunc_expr_preg_match_failure": "Expression-Failer: Uunferwachtede „preg_match“-Failfunktion",
+	"pfunc_expr_unrecognised_word": "Expression-Failer: Nit wierkoand Woud „$1“",
+	"pfunc_expr_unexpected_operator": "Expression-Failer: Uunferwachteden Operator: $1",
+	"pfunc_expr_missing_operand": "Expression-Failer: Failenden Operand foar $1",
+	"pfunc_expr_unexpected_closing_bracket": "Expression-Failer: Uunferwachte sluutende kaantige Klammere",
+	"pfunc_expr_unrecognised_punctuation": "Expression-Failer: Nit wierkoand Satsteeken „$1“",
+	"pfunc_expr_unclosed_bracket": "Expression-Failer: Nit sleetene kaantige Klammer",
+	"pfunc_expr_division_by_zero": "Expression-Failer: Division truch Null",
+	"pfunc_expr_invalid_argument": "Uungultich Argument foar $1: < -1 of > 1",
+	"pfunc_expr_invalid_argument_ln": "Uungultich Argument foar ln: <= 0",
+	"pfunc_expr_unknown_error": "Expression-Failer: Uunbekoanden Failer ($1)",
+	"pfunc_expr_not_a_number": "Expression-Failer: In $1: Resultoat is neen Taal",
+	"pfunc_string_too_long": "Failer: Teekenkätte is laanger as dät Teekenlimit fon $1"
+}

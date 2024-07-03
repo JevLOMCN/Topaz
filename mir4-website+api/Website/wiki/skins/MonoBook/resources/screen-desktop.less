@@ -1,0 +1,350 @@
+/*
+** Desktop-specific styles for MonoBook
+*/
+
+@import 'variables.less';
+@import 'mediawiki.mixins.less';
+
+#column-content {
+	float: right;
+	margin: 0 0 0.6em -12.2em;
+}
+
+.mw-body {
+	margin: @top-area-height 0 0 12.2em;
+	border-right: 0;
+}
+
+#mw-data-after-content {
+	margin-left: 12.2em;
+}
+
+#column-one {
+	padding-top: 160px;
+}
+
+/*
+** edit views etc
+*/
+.special li {
+	line-height: 1.4em;
+	margin: 0;
+	padding: 0;
+}
+
+/*
+** Structural Elements
+*/
+
+/*
+** general portlet styles (elements in the quickbar)
+*/
+.mw-portlet,
+.portlet {
+	border: 0;
+	margin: 0 0 0.5em;
+	padding: 0;
+	float: none;
+	width: 11.6em;
+}
+
+.mw-portlet label,
+.portlet h3 {
+	padding: 0 1em 0 0.5em;
+	font-weight: normal;
+}
+
+.mw-portlet > div,
+.pBody {
+	background-color: #fff;
+	border: 1px solid #aaa;
+	padding: 0 0.8em 0.3em 0.5em;
+}
+
+/*
+** Logo properties
+*/
+#p-logo {
+	top: 0;
+	left: 0;
+	height: 155px;
+	width: 12em;
+}
+
+#p-logo a,
+#p-logo a:hover {
+	height: 155px;
+	width: 12.2em;
+	background-position: 35% 50% !important; /* stylelint-disable-line declaration-no-important */
+}
+
+/*
+** Search portlet
+*/
+#p-search {
+	position: relative;
+	z-index: 3;
+}
+
+input.searchButton {
+	margin-top: 1px;
+	font-size: 95%;
+}
+
+#searchButton {
+	padding-left: 0.5em;
+	padding-right: 0.5em;
+	font-weight: bold;
+}
+
+#searchInput {
+	width: 10.9em;
+	margin: 0;
+	font-size: 95%;
+}
+
+#p-search .pBody {
+	padding: 0.5em 0.4em 0.4em 0.4em;
+	text-align: center;
+}
+
+#p-search #searchform div div {
+	margin-top: 0.4em;
+	font-size: 95%;
+}
+
+/*
+** the personal toolbar
+*/
+#p-personal {
+	position: absolute;
+	left: 0;
+	top: 0;
+	z-index: 3;
+	width: 100%;
+	white-space: nowrap;
+	padding: 0;
+	margin: 0;
+	border: 0;
+	background: none;
+	overflow: visible;
+	line-height: 1.2em;
+}
+
+#p-personal h3 {
+	position: absolute;
+	top: -9999px;
+}
+
+#p-personal .portlet,
+#p-personal .pBody {
+	z-index: 0;
+	padding: 0;
+	margin: 0;
+	border: 0;
+	overflow: visible;
+	background: none;
+}
+
+/* this is the ul contained in the portlet */
+#p-personal ul {
+	border: 0;
+	line-height: 1.4em;
+	color: #2f6fab;
+	padding: 0;
+	padding-right: 2em;
+	/* Avoid overlap with the logo. */
+	padding-left: 14em;
+	margin: 0;
+	float: right;
+	list-style-type: none;
+	list-style-image: none;
+	z-index: 0;
+	background: none;
+	cursor: default;
+	box-sizing: border-box;
+	max-width: 100%;
+}
+
+#p-personal li {
+	z-index: 0;
+	border: 0;
+	padding: 0;
+	color: #2f6fab;
+	display: inline;
+	margin-left: 1em;
+	line-height: 1.2em;
+	background: none;
+}
+
+#p-personal li a {
+	color: #005896;
+	text-decoration: none;
+	padding-bottom: 0.2em;
+
+	&.new {
+		color: @color-link-new;
+	}
+}
+
+#p-personal li a:hover {
+	background-color: #fff;
+	text-decoration: none;
+}
+
+#p-personal li.active a:hover {
+	background-color: transparent;
+}
+
+/* The icon in front of the username / login link */
+li#pt-userpage,
+li#pt-anonuserpage {
+	/* @embed */
+	background-image: url( images/icon-user.svg );
+	background-position: top left;
+	background-repeat: no-repeat;
+	padding-left: 20px;
+}
+
+#p-lang {
+	position: relative;
+	z-index: 3;
+}
+
+/*
+** the page-related actions- page/talk, edit etc
+*/
+#p-cactions {
+	position: absolute;
+	top: 1.3em;
+	left: 11.5em;
+	margin: 0;
+	white-space: nowrap;
+	width: 76%;
+	line-height: 1.1em;
+	overflow: visible;
+	background: none;
+	border-collapse: collapse;
+	padding-left: 1em;
+	font-size: 95%;
+}
+
+#p-cactions h3 {
+	position: absolute;
+	top: -9999px;
+}
+
+#p-cactions ul {
+	list-style-type: none;
+	list-style-image: none;
+}
+
+#p-cactions li {
+	display: inline;
+	border: 1px solid #aaa;
+	border-bottom: 0;
+	margin: 0 0.5em 0 0;
+	padding: 0 0 1em 0;
+	overflow: visible;
+	background: #fff;
+}
+
+#p-cactions li.selected {
+	border-color: #fabd23;
+	font-weight: bold;
+}
+
+#p-cactions li.selected a {
+	z-index: 3;
+	background-color: #fff;
+}
+
+#p-cactions li a {
+	background-color: #fbfbfb;
+	color: #002bb8;
+	border: 0;
+	padding: 0 0.8em 0.3em;
+	position: relative;
+	z-index: 0;
+	margin: 0;
+	text-decoration: none;
+}
+
+#p-cactions li a:hover {
+	z-index: 3;
+	text-decoration: none;
+	background-color: #fff;
+}
+
+#p-cactions li.istalk {
+	margin-right: 0;
+}
+
+#p-cactions li.istalk a {
+	padding-right: 0.5em;
+}
+
+#p-cactions .new a {
+	color: #c20;
+}
+
+#p-cactions #ca-addsection a {
+	padding-left: 0.4em;
+	padding-right: 0.4em;
+}
+
+#p-cactions .pBody {
+	font-size: 1em;
+	background-color: transparent;
+	color: inherit;
+	border-collapse: inherit;
+	border: 0;
+	padding: 0;
+}
+
+/* offsets to distinguish the tab groups */
+li#ca-talk {
+	margin-right: 1.6em;
+}
+
+li#ca-watch,
+li#ca-unwatch,
+li#ca-varlang-0,
+li#ca-print {
+	margin-left: 1.6em;
+}
+
+/* Historically not present in Monobook skin */
+#p-cactions li#ca-view,
+/*
+** mobile toggles; not used here
+*/
+#p-personal #pt-notifications,
+#echo-hack-badges,
+#p-cactions-mobile,
+#sidebar-mobilejs,
+.mobile-close-button,
+.menu-toggle,
+.menus-cover {
+	display: none;
+}
+
+/*
+** footer
+*/
+#f-poweredbyico,
+#f-copyrightico {
+	margin: 0 8px;
+	position: relative;
+	top: -2px; /* Bump it up just a tad */
+}
+
+#f-poweredbyico {
+	float: right;
+	height: 1%;
+}
+
+#f-copyrightico {
+	float: left;
+	height: 1%;
+}

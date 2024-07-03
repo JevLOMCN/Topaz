@@ -1,0 +1,24 @@
+{
+	"@metadata": {
+		"authors": [
+			"Albertas",
+			"Nokeoo"
+		]
+	},
+	"apihelp-query+gadgetcategories-summary": "Grąžina įrankių kategorijų sąrašą.",
+	"apihelp-query+gadgetcategories-param-prop": "Kurių įrankių kategorijų informaciją gauti:\n;name:Vidinis kategorijos vardas.\n;title:Kategorijos pavadinimas.\n;members:Įrankių skaičius kategorijoje.",
+	"apihelp-query+gadgetcategories-param-names": "Vardai kategorijų, kurias gauti.",
+	"apihelp-query+gadgetcategories-example-1": "Gauti sąrašą egzistuojančių įrankių kategorijų",
+	"apihelp-query+gadgetcategories-example-2": "Gauti visą informaciją apie kategorijas pavadintas \"foo\" ir \"bar\"",
+	"apihelp-query+gadgets-summary": "Grąžina sąrašą įrankių, naudojamų šiame viki.",
+	"apihelp-query+gadgets-param-prop": "Kurią įrankių informaciją gauti:\n;id:Vidinis įrankio ID.\n;metadata:Įrankio metaduomenys.\n;desc:Įrankio aprašymas transformuotas į HTML (gali veikti lėtai, naudoti tik jeigu iš tiesų reikia).",
+	"apihelp-query+gadgets-param-categories": "Iš kurių kategorijų gauti įrankius.",
+	"apihelp-query+gadgets-param-ids": "ID įrankių, kuriuos gauti.",
+	"apihelp-query+gadgets-param-allowedonly": "Sąrašas įrankių, kuriuos leisti dabartiniam naudotojui.",
+	"apihelp-query+gadgets-param-enabledonly": "Rodyti tik įrankius aktyvuotus dabartinio naudotojo.",
+	"apihelp-query+gadgets-example-1": "Gauti įrankių su jų aprašymais sąrašą",
+	"apihelp-query+gadgets-example-2": "Gauti įrankių su visomis galimomis parinktimis sąrašą",
+	"apihelp-query+gadgets-example-3": "Gauti įrankių, priklausančių kategorijai \"foo\", sąrašą",
+	"apihelp-query+gadgets-example-4": "Gauti informaciją apie įrankius \"foo\" ir \"bar\"",
+	"apihelp-query+gadgets-example-5": "Gauti įrankių, aktyvuotų dabartinio naudotojo, sąrašą"
+}

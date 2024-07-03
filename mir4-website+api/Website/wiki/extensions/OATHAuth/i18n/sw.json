@@ -1,0 +1,16 @@
+{
+	"@metadata": {
+		"authors": [
+			"Edwingudfriend",
+			"Rance"
+		]
+	},
+	"oathauth-step1-test": "Pakua programu kwa ajili ya uthibitisho pande-mbili. Inaweza kuwa programu ya simu (kama vile kithibitisha cha google) au programu ya Kompyuta.",
+	"oathauth-verify-for-user": "Thibitisha ikiwa mtumiaji ana uthibitisho wa sababu mbili",
+	"right-oathauth-verify-user": "Thibitisha ikiwa mtumiaji ana uthibitisho wa sababu mbili umewezeshwa",
+	"action-oathauth-verify-user": "hakikisha ikiwa mtumiaji ana two-factor authentication umewezeshwa",
+	"oathauth-enterverifyreason": "Sababu ya kuangalia:",
+	"logentry-oath-verify": "{{GENDER:$2|$1$3}}ikiwa $ 3 ingekuwa na uthibitisho wa sababu mbili",
+	"oathauth-verify-enabled": "{{GENDER:$1|}}ina uthibitishaji wa sababu mbili.",
+	"oathauth-verify-disabled": "{{GENDER:$1|}} Hauna two-factor authentication  na haujawezeshwa"
+}

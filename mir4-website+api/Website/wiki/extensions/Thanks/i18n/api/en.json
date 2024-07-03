@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"Shirayuki"
+		]
+	},
+	"apihelp-flowthank-summary": "Send a public thank-you notification for a Flow comment.",
+	"apihelp-flowthank-param-postid": "The UUID of the post to thank for.",
+	"apihelp-flowthank-example-1": "Send thanks for the comment with <kbd>UUID xyz789</kbd>",
+	"apihelp-thank-summary": "Send a thank-you notification to an editor.",
+	"apihelp-thank-param-rev": "Revision ID to thank someone for. This or 'log' must be provided.",
+	"apihelp-thank-param-log": "Log ID to thank someone for. This or 'rev' must be provided.",
+	"apihelp-thank-param-source": "A short string describing the source of the request, for example <kbd>diff</kbd> or <kbd>history</kbd>.",
+	"apihelp-thank-example-1": "Send thanks for revision <kbd>ID 456</kbd>, with the source being a diff page"
+}

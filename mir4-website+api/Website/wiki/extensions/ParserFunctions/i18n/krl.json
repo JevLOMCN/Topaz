@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Ilja.mos",
+			"Varvana"
+		]
+	},
+	"pfunc_time_error": "Hirhe: viärä aika.",
+	"pfunc_expr_unrecognised_word": "Hairahuš: tuntomatoin šana \"$1\"",
+	"pfunc_expr_unexpected_operator": "Hairahuš: Vuottamatoin operattori $1.",
+	"pfunc_expr_missing_operand": "Hairahuš: operattorilla $1 ei ole operandie.",
+	"pfunc_expr_unrecognised_punctuation": "Hairahuš: tuntomatoin välimerkki \"$1\".",
+	"pfunc_expr_division_by_zero": "Virhe: jako nollalla"
+}

@@ -1,0 +1,24 @@
+{
+	"@metadata": {
+		"authors": [
+			"Hindustanilanguage"
+		]
+	},
+	"apihelp-abusefiltercheckmatch-param-filter": "मेल खाने को जाँचने के लिए पूर्ण फ़िलटर पाठ ।",
+	"apihelp-abusefilterevalexpression-param-expression": "जाँचने की अभिव्यक्ति",
+	"apihelp-abusefilterevalexpression-example-1": "सीधी अभिव्यक्ति जाँचना",
+	"apihelp-abusefilterunblockautopromote-param-user": "उस सदस्य का सदस्यनाम जिस पर से आप अवरोध हटाना चाहते हैं।",
+	"apihelp-abusefilterunblockautopromote-example-1": "[[User:Example]] के स्वतःपदोन्नति पर से अवरोध हटाना",
+	"apihelp-query+abusefilters-param-prop": "कौन से गुण पाना चाहिए।",
+	"apihelp-query+abusefilters-example-1": "सक्षम सार्वजनिक फ़िलटरों सूची दें",
+	"apihelp-query+abusefilters-example-2": "फ़िलटरों के बारे में कुछ जानकारी दिखाइये",
+	"apihelp-query+abuselog-param-start": "समयछाप की गिनती प्रारंभ हो रही (स्थान) से।",
+	"apihelp-query+abuselog-param-end": "समयछाप की गिनती समाप्त हो रही (स्थान) से।",
+	"apihelp-query+abuselog-param-user": "केवल उन प्रविष्टियों को दिखाएँ जो दिए गए सदस्य या आई०पी० पते द्वारा किए गए हैं।",
+	"apihelp-query+abuselog-param-title": "केवल उन प्रविष्टियों को दिखाएँ जो दिए गए पृष्ठ पर आ रहे हैं।",
+	"apihelp-query+abuselog-param-filter": "केवल उन प्रविष्टियों को दिखाएँ जो दी गई फ़िलटर आई०डी० द्वारा दिखाई गई है।",
+	"apihelp-query+abuselog-param-limit": "सूची के अनुसार सर्वाधिक प्रविष्टियाँ।",
+	"apihelp-query+abuselog-param-prop": "कौन से गुण पाना चाहिए।",
+	"apihelp-query+abuselog-example-1": "हाल के लॉग प्रविष्टियाँ दिखाएँ",
+	"apihelp-query+abuselog-example-2": "हाल के लॉग प्रविष्टियाँ [[API]] के लिए दिखाएँ"
+}

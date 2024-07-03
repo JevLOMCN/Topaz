@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"ChoiChong"
+		]
+	},
+	"pfunc_time_error": "エラー: 日時ぬ無効やいびーん。",
+	"pfunc_expr_unrecognised_word": "構文エラー:「$1」を認識できないさ。",
+	"pfunc_expr_unexpected_operator": "構文エラー: 予期さん演算子 $1 やいびーん。",
+	"pfunc_expr_missing_operand": "構文エラー: $1 ぬ演算対象がありないさ。",
+	"pfunc_expr_unrecognised_punctuation": "構文エラー: 認識ないびらん区切り文字「$1」やいびーん。",
+	"pfunc_expr_division_by_zero": "0 でぃ除算さびたん。"
+}

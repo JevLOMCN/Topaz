@@ -1,0 +1,40 @@
+/*!
+ * VisualEditor WikimediaUI theme customizations.
+ *
+ * @copyright See AUTHORS.txt
+ */
+
+/* ve.ui.TargetWidget */
+
+.ve-ui-targetWidget {
+	border: 1px solid #a2a9b1;
+	border-radius: 2px;
+	transition: border-color 250ms, box-shadow 250ms;
+
+	> :last-child {
+		border-bottom: 0;
+	}
+
+	&-focused {
+		border-color: #36c;
+		box-shadow: inset 0 0 0 1px #36c;
+	}
+
+	&:not( .oo-ui-pendingElement-pending ) {
+		background: #fff;
+	}
+
+	&-readOnly:not( .oo-ui-pendingElement-pending ) {
+		background: #f8f9fa;
+	}
+
+	.ve-ui-targetToolbar:not( .ve-ui-toolbar-empty ) {
+		margin: 1px;
+	}
+
+	&:not( .ve-ui-targetWidget-focused ) .ve-ui-targetToolbar:not( .ve-ui-toolbar-empty ) > .oo-ui-toolbar-bar {
+		/* Expand toolbar into focus inset when not focused. */
+		margin: 0 -1px;
+		padding: 0 1px;
+	}
+}

@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Arbhatt",
+			"KartikMistry"
+		]
+	},
+	"pfunc_time_error": "ક્ષતિ: અયોગ્ય સમય.",
+	"pfunc_expr_unrecognised_word": "સમીકરણ ક્ષતિ: અજ્ઞાત શબ્દ \"$1\".",
+	"pfunc_expr_unexpected_operator": "સમીકરણ ક્ષતિ : અણધારી સમીકરણ નિશાની $1",
+	"pfunc_expr_missing_operand": "સમીકરણ ક્ષતિ: $1 ની માટે સમીકરણ-નિશાની ખુટે છે",
+	"pfunc_expr_unrecognised_punctuation": "સમીકરણ ક્ષતિ: અજ્ઞાત વિરામચિહ્ન \"$1\" નો ઉપયોગ.",
+	"pfunc_expr_division_by_zero": "શૂન્ય વડે ભાગાકાર."
+}

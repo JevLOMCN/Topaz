@@ -1,0 +1,25 @@
+{
+	"@metadata": {
+		"authors": [
+			"Albamhandae",
+			"Ellif",
+			"Keysuck",
+			"Klutzy",
+			"Kwj2772",
+			"Revi",
+			"ToePeu",
+			"Ykhwong",
+			"아라"
+		]
+	},
+	"inputbox-desc": "사전 정의된 HTML 양식의 포함을 허용",
+	"inputbox-error-no-type": "만들려는 입력 상자의 유형을 지정하지 않았습니다.",
+	"inputbox-error-bad-type": "\"$1\" 입력 상자 유형이 정의되어 있지 않습니다.\n\"create\", \"comment\", \"search\", \"search2\"나 \"fulltext\" 중 하나를 지정하세요.",
+	"inputbox-tryexact": "일치하는 항목 찾기",
+	"inputbox-searchfulltext": "전체 글 검색",
+	"inputbox-createarticle": "문서 만들기",
+	"inputbox-movearticle": "문서 이동",
+	"inputbox-postcomment": "새 문단",
+	"inputbox-postcommenttitle": "새 문단",
+	"inputbox-ns-main": "일반"
+}

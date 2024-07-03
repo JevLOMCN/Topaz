@@ -1,0 +1,24 @@
+{
+	"@metadata": {
+		"authors": [
+			"Armando-Martin",
+			"Fitoschido",
+			"Frammm",
+			"Macofe"
+		]
+	},
+	"codeeditor-desc": "Edición de páginas con resaltado de sintaxis para JavaScript y CSS, usando [https://ace.c9.io el editor Ace]",
+	"codeeditor-next-annotation": "Ir a la anotación siguiente",
+	"codeeditor-toolbar-toggle": "Activar o desactivar el editor de código",
+	"codeeditor-save-with-errors": "El documento contiene errores. ¿Confirmas que quieres publicarlo?",
+	"codeeditor-invisibleChars-toggle": "Mostrar u ocultar los caracteres invisibles",
+	"codeeditor-lineWrapping-toggle": "Activar o desactivar el ajuste de renglones",
+	"codeeditor-searchReplace-toggle": "Mostrar u ocultar el cuadro de buscar y reemplazar",
+	"codeeditor-gotoline": "Ir al renglón…",
+	"codeeditor-gotoline-placeholder": "renglón[:carácter]",
+	"codeeditor-gotoline-prompt": "Digita un número de renglón",
+	"codeeditor-indent": "Añadir sangría",
+	"codeeditor-outdent": "Quitar sangría",
+	"codeeditor-error-title": "Fallo en la dependencia",
+	"codeeditor-error-message": "CodeEditor necesita que WikiEditor esté cargada."
+}

@@ -1,0 +1,33 @@
+{
+	"@metadata": {
+		"authors": [
+			"Winston Sung"
+		]
+	},
+	"nuke": "Masovno brisanje",
+	"action-nuke": "masovno brisanje stranica",
+	"nuke-desc": "Daje administratoru mogućnost da [[Special:Nuke|masovno briše]] stranice.",
+	"nuke-nopages": "Nema novih stranica od strane korisnika [[Special:Contributions/$1|$1]] u skorašnjim izmenama.",
+	"nuke-list": "Sledeće stranice je skoro napravio korisnik [[Special:Contributions/$1|{{GENDER:$1|$1}}]]; ostavite komentar i pritisnite dugme za njihovo brisanje.",
+	"nuke-list-multiple": "Sledeće stranice su nedavno napravljenje, ostavite komentar i pritisnite dugme da biste ih obrisali.",
+	"nuke-defaultreason": "Masovno brisanje stranica koje je napravio korisnik [[Special:Contributions/$1|{{GENDER:$1|$1}}]]",
+	"nuke-multiplepeople": "Masovno brisanje nedavno dodatih stranica",
+	"nuke-tools": "Ova alatka omogućava zbirno brisanje stranica koje je nedavno dodao određeni korisnik (sa nalogom ili bez njega).\nUnesite korisničko ime ili IP adresu da biste dobili spisak stranica za brisanje, ili ostavite prazno ako želite da se navedu svi korisnici.",
+	"nuke-submit-user": "Ispiši stranice",
+	"nuke-submit-delete": "Obriši izabrano",
+	"right-nuke": "masovno brisanje stranica",
+	"nuke-userorip": "Korisničko ime, IP adresa ili prazno:",
+	"nuke-maxpages": "Najveći broj stranica:",
+	"nuke-editby": "Napravio [[Special:Contributions/$1|$1]]",
+	"nuke-deleted": "Stranica '''$1''' je obrisana.",
+	"nuke-deletion-queued": "Stranica '''$1''' je na čekanju za brisanje.",
+	"nuke-not-deleted": "'''Ne mogu''' da obrišem stranicu [[:$1]].",
+	"nuke-delete-more": "[[Special:Nuke|Obriši još stranica]]",
+	"nuke-pattern": "Obrazac SQL LIKE-a (npr. %) za ime stranice:",
+	"nuke-nopages-global": "Nema novih naslova što odgovaraju traženom.",
+	"nuke-viewchanges": "pogledaj izmene",
+	"nuke-namespace": "Ograničenja na imenskim prostorima:",
+	"nuke-linkoncontribs": "masovno brisanje",
+	"nuke-linkoncontribs-text": "Masovnoto brisanje stranica čiji je jedinstveni autor {{GENDER:$1|ovaj korisnik}}",
+	"nuke-confirm": "Izbrisat ćete {{PLURAL:$1|jednu stranicu|$1 stranice|$1 stranica}}. Jeste li sigurni?"
+}

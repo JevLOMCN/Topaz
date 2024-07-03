@@ -1,0 +1,28 @@
+{
+	"@metadata": {
+		"authors": [
+			"Chaduvari",
+			"HAUSANRIK",
+			"Jedimaster26",
+			"Pavan santhosh.s",
+			"Ravichandra",
+			"Veeven"
+		]
+	},
+	"apihelp-block-summary": "వాడుకరిని నిరోధించండి.",
+	"apihelp-block-param-reason": "నిరోధానికి కారణం.",
+	"apihelp-block-param-nocreate": "ఖాతా సృష్టించడాన్ని నివారించు.",
+	"apihelp-block-param-partial": "వాడుకరిని మొత్తం సైట్ నుంచి కాకుండా కొన్ని నిర్దిష్టమైన పేజీల్లోనో, పేరుబరుల్లోనో నిరోధించండి.",
+	"apihelp-block-param-pagerestrictions": " వాడుకరిని దిద్దనీయకుండా నిరోధించాల్సిన శీర్షికలు. 'పాక్షికం' (partial) అన్నది అవును (true) అని మార్చినప్పుడే వర్తిస్తుంది.",
+	"apihelp-delete-summary": "పేజీని తొలగించు.",
+	"apihelp-edit-param-minor": "ఈ మార్పును చిన్న మార్పుగా గుర్తించు.",
+	"apihelp-edit-example-edit": "పేజీని మార్చు.",
+	"apihelp-emailuser-summary": "వాడుకరికి ఈమెయిలు పంపించండి.",
+	"apihelp-expandtemplates-param-title": "పేజీ శీర్షిక.",
+	"apihelp-feedrecentchanges-example-simple": "ఇటీవలి మార్పులను చూడండి",
+	"apihelp-login-param-name": "వాడుకరి పేరు.",
+	"apihelp-query+users-param-userids": "వివరాలు సేకరించవలసిన వాడుకరి ఐడీల జాబితా.",
+	"apihelp-rawfm-summary": "బయటకు వచ్చిన సమాచారo, డీబగ్గింగ్ అంశముతో కలిపి, JSON పద్ధతిలో (HTMLలో అందంగా-ముద్రించు)",
+	"api-help-param-internal-label": "అంతర్గత",
+	"apierror-blocked-partial": "ఈ పేజీని మీరు దిద్దడం మీద నిరోధం ఉంది."
+}

@@ -1,0 +1,29 @@
+{
+	"@metadata": {
+		"authors": [
+			"C.R.",
+			"Cryptex nap"
+		]
+	},
+	"pfunc_desc": "Migliora 'o parser ch' 'e funziune logiche",
+	"pfunc_time_error": "Errore: Orario invalido.",
+	"pfunc_time_too_long": "Errore: Tropp'assaje chiammate a #time .",
+	"pfunc_time_too_big": "Errore: 'o #time suppuorta anne sulamente nfin'a 9999.",
+	"pfunc_time_too_small": "Errore: 'o #time suppuorta anne sulamente nfin'a 0.",
+	"pfunc_rel2abs_invalid_depth": "Errore: Profondità infalida int'a lu percorso: \"$1\" (pruvaje 'e trasì dint'a nu nodo superiore d' 'a rareca).",
+	"pfunc_expr_stack_exhausted": "Espressione 'n errore: Stack muscio e fernuto.",
+	"pfunc_expr_unexpected_number": "Espressione 'n errore Nummero inaspettato.",
+	"pfunc_expr_preg_match_failure": "Espressione in errore: preg_match inaspettato e fallito",
+	"pfunc_expr_unrecognised_word": "Espressione 'n errore: Parola scanusciuta \"$1\"",
+	"pfunc_expr_unexpected_operator": "Espressione 'n errore: Operatore $1 inaspettato",
+	"pfunc_expr_missing_operand": "Espressione 'n errore: Operatore zumpato pe' $1.",
+	"pfunc_expr_unexpected_closing_bracket": "Espressione in errore: parentesi nchiusa inaspettata",
+	"pfunc_expr_unrecognised_punctuation": "Probblema ’e l’espressione: Carattere ’e punteggiatura \"$1\" scanusciuto",
+	"pfunc_expr_unclosed_bracket": "Espressione in errore: Parentesi nun chiusa.",
+	"pfunc_expr_division_by_zero": "Divisione pe zero",
+	"pfunc_expr_invalid_argument": "Argomento invalido pe $1: < -1 o > 1",
+	"pfunc_expr_invalid_argument_ln": "Argomento invalido pe' ln: <= 0",
+	"pfunc_expr_unknown_error": "Espressione in errore: Errore scanusciuto ($1)",
+	"pfunc_expr_not_a_number": "Int'a $1: 'O risultato nun è nu nummero.",
+	"pfunc_string_too_long": "Errore: 'A stringa appassa 'o lemmeto $1 'e carattere"
+}

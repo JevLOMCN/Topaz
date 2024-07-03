@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"BaRaN6161 TURK"
+		]
+	},
+	"apihelp-titleblacklist-summary": "TitleBlacklist ile bir sayfa başlığını, dosya adını veya kullanıcı adını doğrulayın.",
+	"apihelp-titleblacklist-param-title": "Kara listeye göre doğrulanacak dize.",
+	"apihelp-titleblacklist-param-action": "Kontrol edilecek eylem.",
+	"apihelp-titleblacklist-param-nooverride": "Başlık listesinin geçersiz kılmaya çalışmayın.",
+	"apihelp-titleblacklist-example-1": "[[Foo]]'nun kara listede olup olmadığını kontrol edin",
+	"apihelp-titleblacklist-example-2": "[[Bar]]'ın düzenleme için kara listede olup olmadığını kontrol edin",
+	"apihelp-createaccount-param-ignoretitleblacklist": "Sahtekarlık çeklerini yoksay (aşağıdaki haklardan birini gerektirir: <code>tboverride</code>, <code>tboverride-account</code>)."
+}

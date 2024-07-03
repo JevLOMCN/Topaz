@@ -1,0 +1,41 @@
+{
+	"@metadata": {
+		"authors": [
+			"Assele",
+			"Haqmar",
+			"Sagan",
+			"З. ӘЙЛЕ",
+			"Ләйсән",
+			"Янмурза Баки",
+			"ҒатаУлла"
+		]
+	},
+	"categorytree": "Категориялар тармағы",
+	"categorytree-portlet": "Категориялар",
+	"categorytree-legend": "Категориялар тармағын күрһәтергә",
+	"categorytree-desc": "[[Special:CategoryTree|category structure]] бәйынса әүҙем навигация",
+	"categorytree-header": "Эстәлеген тармаҡлы структурала күрһәтеү өсөн категорияның исемен керетегеҙ.\n(JavaScript кәрәк буласаҡ).",
+	"categorytree-category": "Категория:",
+	"categorytree-go": "Категория тармағын күрһәтергә",
+	"categorytree-parents": "Төп категориялар",
+	"categorytree-mode-label": "Режим:",
+	"categorytree-mode-categories": "категориялар ғына",
+	"categorytree-mode-pages": "файлдарҙан башҡа биттәр",
+	"categorytree-mode-all": "барлыҡ биттәр",
+	"categorytree-collapse": "йәшерергә",
+	"categorytree-expand": "асырға",
+	"categorytree-member-counts": "{{PLURAL:$1|$1 эске категорияһын}}, {{PLURAL:$2|$2 битен}} һәм {{PLURAL:$3|$3 файлын}} үҙ эсенә ала",
+	"categorytree-num-categories": "$1 К",
+	"categorytree-num-pages": "$1 Б",
+	"categorytree-num-files": "$1 Ф",
+	"categorytree-num-empty": "буш",
+	"categorytree-load": "йөкләргә",
+	"categorytree-loading": "йөкләү бара...",
+	"categorytree-nothing-found": "бер ни ҙә табылманы",
+	"categorytree-no-subcategories": "ярҙамсы категориялар юҡ",
+	"categorytree-no-parent-categories": "төп категориялар юҡ",
+	"categorytree-no-pages": "мәҡәләләр йәки ярҙамсы категориялар юҡ.",
+	"categorytree-not-found": "<i>$1</i> категорияһы табылманы",
+	"categorytree-error": "Мәғлүмәт йөкләүҙә хата бар.",
+	"categorytree-retry": "Зинһар, бер аҙ көткәндән һуң яңынан ҡабатлап ҡарағыҙ."
+}
