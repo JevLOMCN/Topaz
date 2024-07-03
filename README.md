@@ -1,4 +1,4 @@
-# Legend of Mir 4 Topaz UE4/4.24.3 - Official Source
+# Legend of Mir 4 Topaz - Official Source
 
 ![image](https://github.com/JevLOMCN/mir4-launcher/assets/68875342/42eb3453-f414-4b89-a62e-7ce1ea459796)
 
@@ -6,15 +6,22 @@
 
 # Links:
 
-[Website](https://thelegendofmir.uk) // [Discord](https://discord.gg/KCnHvwJJWN)
+[Website](https://thelegendofmir.uk) // [WIKI](https://thelegendofmir.uk/wiki) // [Tools](https://thelegendofmir.uk/tools) // [Discord](https://discord.gg/KCnHvwJJWN)
 
 # Dependencies:
+
+## Servers
+[Visual Studio Community 2022](https://visualstudio.microsoft.com/vs/community/)
 
 [MySql Community 5.7.44.0](https://dev.mysql.com/downloads/file/?id=523570)
 
 [Couchbase Community 7.2](https://packages.couchbase.com/releases/7.2.0/couchbase-server-enterprise_7.2.0-windows_amd64.msi)
 
 [Redis 7.2(Latest)](https://github.com/redis/redis/archive/7.2.4.tar.gz)
+
+## Website
+[CPanel](https://cpanel.net/)
+[MediaWiki 1.42.1](https://www.mediawiki.org/wiki/MediaWiki_1.42)
 
 # Downloads:
 [Client](https://mirfiles.com/resources/mir2/users/Jev/Mir%204/Mir%204%20Client.rar) // [UE4 4.24.3](https://github.com/EpicGames) // [PAK Tools](https://mirfiles.com/resources/mir2/users/Jev/Mir%204/Pak%20Tools.rar)
