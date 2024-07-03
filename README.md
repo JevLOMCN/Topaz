@@ -25,11 +25,11 @@
 > [MediaWiki 1.42.1](https://www.mediawiki.org/wiki/MediaWiki_1.42)
 
 # Downloads:
-[Client](https://mirfiles.com/resources/mir2/users/Jev/Mir%204/Mir%204%20Client.rar) // [UE4 4.24.3](https://github.com/EpicGames) // [PAK Tools](https://mirfiles.com/resources/mir2/users/Jev/Mir%204/Pak%20Tools.rar)
+[Client (TO COME)]() // [PAK Tools](https://mirfiles.com/resources/mir2/users/Jev/Mir%204/Pak%20Tools.rar)
 
 # Build Guide:
 
-[Tutorials](https://www.lomcn.net/forum/forums/topaz-mir-4-tutorials.847/)
+[Tutorials](https://www.lomcn.net/forum/forums/topaz-mir-4-tutorials.847/) (TO COME)
 
 # Contributors:
 [Nyyl](https://www.lomcn.net/forum/members/nyylxd.42262/) - Sourcing Clients/APIs/Tools
