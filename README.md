@@ -10,7 +10,7 @@
 
 # Dependencies:
 
-> ## Servers
+ ## Servers
 > [Visual Studio Community 2022](https://visualstudio.microsoft.com/vs/community/)
 
 > [MySql Community 5.7.44.0](https://dev.mysql.com/downloads/file/?id=523570)
@@ -19,7 +19,7 @@
 
 > [Redis 7.2(Latest)](https://github.com/redis/redis/archive/7.2.4.tar.gz)
 
-> ## Website
+ ## Website
 > [CPanel](https://cpanel.net/)
 > [MediaWiki 1.42.1](https://www.mediawiki.org/wiki/MediaWiki_1.42)
 
