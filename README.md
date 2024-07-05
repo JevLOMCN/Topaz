@@ -25,7 +25,7 @@
 > [MediaWiki 1.42.1](https://www.mediawiki.org/wiki/MediaWiki_1.42)
 
 # Downloads:
-[Client (TO COME)]() // [PAK Tools](https://mirfiles.com/resources/mir2/users/Jev/Mir%204/Pak%20Tools.rar)
+[Client (TO COME)]() // [PAK Tools](https://mirfiles.co.uk/resources/mir2/users/Jev/Mir%204/PakTools/PAK%20Tools.rar)
 
 # Build Guide:
 
