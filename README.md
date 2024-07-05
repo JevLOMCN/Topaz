@@ -6,60 +6,68 @@
 
 # Links:
 
-[Website](https://thelegendofmir.uk) // [WIKI](https://www.lomcn.net/wiki/index.php/MIR4) // [Tools](https://thelegendofmir.uk/tools) // [Discord](https://discord.gg/KCnHvwJJWN)
+> [Website](https://thelegendofmir.uk)
+>
+> [WIKI](https://www.lomcn.net/wiki/index.php/MIR4)
+>
+> [Tools](https://thelegendofmir.uk/tools)
+>
+> [Discord](https://discord.gg/KCnHvwJJWN)
 
 # Dependencies:
 
  ## Servers
 > [Visual Studio Community 2022](https://visualstudio.microsoft.com/vs/community/)
-
+>
 > [MySql Community 5.7.44.0](https://dev.mysql.com/downloads/file/?id=523570)
-
+>
 > [Couchbase Community 7.2](https://packages.couchbase.com/releases/7.2.0/couchbase-server-enterprise_7.2.0-windows_amd64.msi)
-
+>
 > [Redis 7.2(Latest)](https://github.com/redis/redis/archive/7.2.4.tar.gz)
 
  ## Website
 > [CPanel](https://cpanel.net/)
-
+>
 > [MediaWiki 1.42.1](https://www.mediawiki.org/wiki/MediaWiki_1.42)
 
 # Downloads:
-[Client (TO COME)]() // [PAK Tools](https://mirfiles.co.uk/resources/mir2/users/Jev/Mir%204/PakTools/PAK%20Tools.rar)
+> [Client (TO COME)]()
+>
+> [PAK Tools](https://mirfiles.co.uk/resources/mir2/users/Jev/Mir%204/PakTools/PAK%20Tools.rar)
 
 # LOMCN Links:
 
 > [Tutorials](https://www.lomcn.net/forum/forums/topaz-mir-4-tutorials.847/)
-> 
+>
 > [Releases](https://www.lomcn.net/forum/forums/topaz-mir-4-releases.848/)
-> 
+>
 > [Bug Reports](https://www.lomcn.net/forum/forums/topaz-mir-4-bug-reports.849/)
-> 
+>
 > [Help](https://www.lomcn.net/forum/forums/topaz-mir-4-help.850/)
-> 
+>
 > [Updates](https://www.lomcn.net/forum/forums/topaz-mir-4-updates.851/)
 
 # Contributors:
-[Nyyl](https://www.lomcn.net/forum/members/nyylxd.42262/) - Sourcing Clients/APIs/Tools
-
-[Firev2 (AboveYou)](https://www.lomcn.net/forum/members/aboveyou.45200/) - Sourcing Clients/Server Side JSONs
-
-[Mental](https://www.lomcn.net/forum/members/mental.3870/) - Outsourcing contacts
-
-[Gurgel](https://www.lomcn.net/forum/members/gurgell.45127/) - Art/Videos/Graphics
-
-[carolyangbb](https://www.lomcn.net/forum/members/yangboy.45108/) - GVAS Logic/Bot sourcing
-
-[Treffy](https://www.mir4tools.com/) - Mir4Tools Collab
-
-[Community Contributors](https://github.com/JevLOMCN/mir4-launcher/graphs/contributors)
+> [Nyyl](https://www.lomcn.net/forum/members/nyylxd.42262/) - Sourcing Clients/APIs/Tools
+>
+> [Firev2 (AboveYou)](https://www.lomcn.net/forum/members/aboveyou.45200/) - Sourcing Clients/Server Side JSONs
+>
+> [Mental](https://www.lomcn.net/forum/members/mental.3870/) - Outsourcing contacts
+>
+> [Gurgel](https://www.lomcn.net/forum/members/gurgell.45127/) - Art/Videos/Graphics
+>
+> [carolyangbb](https://www.lomcn.net/forum/members/yangboy.45108/) - GVAS Logic/Bot sourcing
+>
+> [Treffy](https://www.mir4tools.com/) - Mir4Tools/Bot Collab
+>
+> [Community Contributors](https://github.com/JevLOMCN/mir4-launcher/graphs/contributors)
 
 # Other Projects:
 
-[Mir 1](https://github.com/JevLOMCN/mir1/) // [Database](https://github.com/Suprcode/Carbon.Database)
-
-[Mir 2](https://github.com/Suprcode/Crystal) // [Database](https://github.com/Suprcode/Crystal.Database) // [Map Editor](https://github.com/Suprcode/Crystal.MapEditor)
-
-[Mir 3](https://github.com/Suprcode/Zircon)
-
-[Mir 3D (Moon Spirit)](https://github.com/mir-ethernity/mir-eternal) // [Mir 3D (Holy Cow)](https://github.com/damianday/Conquer)
+> [Mir 1](https://github.com/JevLOMCN/mir1/) | [Database](https://github.com/Suprcode/Carbon.Database)
+>
+> [Mir 2](https://github.com/Suprcode/Crystal) | [Database](https://github.com/Suprcode/Crystal.Database) | [Map Editor](https://github.com/Suprcode/Crystal.MapEditor)
+>
+> [Mir 3](https://github.com/Suprcode/Zircon)
+>
+> [Mir 3D (Moon Spirit)](https://github.com/mir-ethernity/mir-eternal) | [Mir 3D (Holy Cow)](https://github.com/damianday/Conquer)
