@@ -27,9 +27,13 @@
 # Downloads:
 [Client (TO COME)]() // [PAK Tools](https://mirfiles.co.uk/resources/mir2/users/Jev/Mir%204/PakTools/PAK%20Tools.rar)
 
-# Build Guide:
+# LOMCN Links:
 
-[Tutorials](https://www.lomcn.net/forum/forums/topaz-mir-4-tutorials.847/) (TO COME)
+[Tutorials](https://www.lomcn.net/forum/forums/topaz-mir-4-tutorials.847/)
+[Releases](https://www.lomcn.net/forum/forums/topaz-mir-4-releases.848/)
+[Bug Reports](https://www.lomcn.net/forum/forums/topaz-mir-4-bug-reports.849/)
+[Help](https://www.lomcn.net/forum/forums/topaz-mir-4-help.850/)
+[Updates](https://www.lomcn.net/forum/forums/topaz-mir-4-updates.851/)
 
 # Contributors:
 [Nyyl](https://www.lomcn.net/forum/members/nyylxd.42262/) - Sourcing Clients/APIs/Tools
