@@ -6,7 +6,7 @@
 
 # Links:
 
-[Website](https://thelegendofmir.uk) // [WIKI](https://thelegendofmir.uk/wiki) // [Tools](https://thelegendofmir.uk/tools) // [Discord](https://discord.gg/KCnHvwJJWN)
+[Website](https://thelegendofmir.uk) // [WIKI](https://www.lomcn.net/wiki/index.php/MIR4) // [Tools](https://thelegendofmir.uk/tools) // [Discord](https://discord.gg/KCnHvwJJWN)
 
 # Dependencies:
 
