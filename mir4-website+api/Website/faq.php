@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>AVA Mir 4 FAQ</title>
+<title>Topaz Mir 4 FAQ</title>
 <link rel="shortcut icon" href="static/image/favicon.ico">
 <style>
     body {
