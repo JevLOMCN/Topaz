@@ -44,8 +44,6 @@
             ACID2 = new RichTextBox();
             ACPW2 = new RichTextBox();
             ACPW1 = new RichTextBox();
-            ServerIPLabel = new Label();
-            ServerIP = new RichTextBox();
             ((System.ComponentModel.ISupportInitialize)DX11Button).BeginInit();
             ((System.ComponentModel.ISupportInitialize)FullscreenButton).BeginInit();
             ((System.ComponentModel.ISupportInitialize)WindowedButton).BeginInit();
@@ -221,35 +219,13 @@
             ACPW1.TabIndex = 17;
             ACPW1.Text = "";
             // 
-            // ServerIPLabel
-            // 
-            ServerIPLabel.AutoSize = true;
-            ServerIPLabel.BackColor = Color.Transparent;
-            ServerIPLabel.Font = new Font("Segoe UI", 18F, FontStyle.Bold);
-            ServerIPLabel.ForeColor = Color.White;
-            ServerIPLabel.Location = new Point(26, 494);
-            ServerIPLabel.Name = "ServerIPLabel";
-            ServerIPLabel.Size = new Size(117, 32);
-            ServerIPLabel.TabIndex = 19;
-            ServerIPLabel.Text = "Server IP";
-            // 
-            // ServerIP
-            // 
-            ServerIP.Location = new Point(185, 494);
-            ServerIP.Name = "ServerIP";
-            ServerIP.Size = new Size(118, 32);
-            ServerIP.TabIndex = 20;
-            ServerIP.Text = "";
-            // 
             // SettingsForm
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.Black;
             BackgroundImage = Properties.Resources.SettingsBackdrop;
-            ClientSize = new Size(500, 535);
-            Controls.Add(ServerIP);
-            Controls.Add(ServerIPLabel);
+            ClientSize = new Size(500, 478);
             Controls.Add(ACPW2);
             Controls.Add(ACPW1);
             Controls.Add(ACID2);
@@ -297,7 +273,5 @@
         private RichTextBox ACID2;
         private RichTextBox ACPW2;
         private RichTextBox ACPW1;
-        private Label ServerIPLabel;
-        private RichTextBox ServerIP;
     }
 }

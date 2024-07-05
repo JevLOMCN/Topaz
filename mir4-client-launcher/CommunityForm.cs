@@ -87,7 +87,7 @@ namespace Mir_4_Launcher
 
         private void GithubBox_Click(object sender, EventArgs e)
         {
-            string link = "https://github.com/JevLOMCN/Legend-of-Mir-4-Official";
+            string link = "https://github.com/JevLOMCN/Topaz";
 
             try
             {

@@ -72,9 +72,9 @@
             LOMCNLABEL.ForeColor = Color.White;
             LOMCNLABEL.Location = new Point(12, 12);
             LOMCNLABEL.Name = "LOMCNLABEL";
-            LOMCNLABEL.Size = new Size(70, 15);
+            LOMCNLABEL.Size = new Size(41, 15);
             LOMCNLABEL.TabIndex = 1;
-            LOMCNLABEL.Text = "AVA MIR 4";
+            LOMCNLABEL.Text = "MIR 4";
             LOMCNLABEL.Click += LOMCNLABEL_Click;
             // 
             // BoxImage
@@ -94,9 +94,9 @@
             LOMCNCoLabel.ForeColor = Color.DimGray;
             LOMCNCoLabel.Location = new Point(416, 599);
             LOMCNCoLabel.Name = "LOMCNCoLabel";
-            LOMCNCoLabel.Size = new Size(199, 15);
+            LOMCNCoLabel.Size = new Size(210, 15);
             LOMCNCoLabel.TabIndex = 4;
-            LOMCNCoLabel.Text = "© AVA Co., LTD. All rights reserved.";
+            LOMCNCoLabel.Text = "© MIR 4 Co., LTD. All rights reserved.";
             // 
             // CommunityImage
             // 
