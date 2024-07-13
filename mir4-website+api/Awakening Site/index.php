@@ -148,9 +148,14 @@ $current_translations = $translations[$lang];
                   <li><a href="install" target="_blank">How to Install</a></li>
                 </ul>
               </li>
+			  
               <li class="new" data-menuanchor="part2">
                 <p><a href="rankings"><span>Ranking<span></a></p>
+                <ul class="subGnb">
+                    <li><a href="comingsoon" target="_blank">Global Ranking</a></l>
+                </ul>
               </li>
+			  
               <li class="new" data-menuanchor="part2">
                 <p><a href="tools"><span>Tools<span></a></p>
                 <ul class="subGnb">
