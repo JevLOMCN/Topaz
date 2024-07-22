@@ -32,7 +32,8 @@
 
  ## Unreal Engine
 > UE4 - [4.24.3]()
-> 
+<details>
+<summary>Plugins</summary>
 > Instance Tool - [1.2.9.2](https://www.unrealengine.com/marketplace/en-US/product/instance-tool)
 > 
 > UI Particle - [4.4](https://www.unrealengine.com/marketplace/en-US/product/uiparticleplugin)
@@ -146,6 +147,7 @@
 > WebM Video Player - 1.0
 >
 > Windows Movie Player - 1.0
+ </details>
 >
 > RAW LIST - [DOWNLOAD](https://mirfiles.com/resources/mir2/users/Jev/Mir%204/MirMobile.upluginmanifest.txt)
 ---------------------------------------------------------------------------
