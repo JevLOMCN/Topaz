@@ -150,9 +150,8 @@
 >
 > Windows Movie Player - 1.0
 </details>
->
->
-> RAW LIST - [DOWNLOAD](https://mirfiles.com/resources/mir2/users/Jev/Mir%204/MirMobile.upluginmanifest.txt)
+
+RAW LIST - [DOWNLOAD](https://mirfiles.com/resources/mir2/users/Jev/Mir%204/MirMobile.upluginmanifest.txt)
 ---------------------------------------------------------------------------
 # Downloads:
 
