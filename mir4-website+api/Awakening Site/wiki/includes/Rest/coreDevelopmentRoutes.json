@@ -1,9 +1,0 @@
-[
-	{
-		"path": "/",
-		"class": "MediaWiki\\Rest\\Handler\\RootSpecHandler",
-		"services": [
-			"MainConfig"
-		]
-	}
-]

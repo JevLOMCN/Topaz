@@ -1,3 +1,0 @@
-( function () {
-	mw.echo.dm = {};
-}() );

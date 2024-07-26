@@ -1,1 +1,0 @@
-import{useState as r,useEffect as o}from"react";import{env as t}from'../utils/env.js';function l(){let[e,f]=r(t.isHandoffComplete);return e&&t.isHandoffComplete===!1&&f(!1),o(()=>{e!==!0&&f(!0)},[e]),o(()=>t.handoff(),[]),e}export{l as useServerHandoffComplete};

@@ -1,5 +1,23 @@
 <?php
-$translations = include 'config/i18n/translations.php';
+session_start();
+
+$allowedPages = ['/', '/install', '/tools', '/rankings', '/m4', '/community', '/faq'];
+
+if (isset($_SESSION['loggedin']) && $_SESSION['loggedin'] === true) {
+    $user = $_SESSION['user'];
+    $characters = $_SESSION['characters'];
+
+} elseif (in_array($_SERVER['REQUEST_URI'], $allowedPages)) {
+    // Page doesn't require login; allow access
+} else {
+    //Re-direct to login if accessing restricted page and not logged in
+    header('Location: login');
+    exit;
+}
+
+
+
+$translations = include 'config/translations.php';
 
 if (isset($_GET['lang']) && array_key_exists($_GET['lang'], $translations)) {
     $_SESSION['lang'] = $_GET['lang'];
@@ -52,7 +70,7 @@ $current_translations = $translations[$lang];
   <!-- Open Graph -->
   <meta property="og:type" content="website">
   <meta property="og:locale" content="en_US">
-  <meta property="og:title" content="AVA MIR4">
+  <meta property="og:title" content="Topaz MIR4">
   <meta property="og:image" content="https://mirfiles.com/resources/mir2/users/Jev/Mir%204/1.png">
   <meta property="og:description" content="From my battle, to our war. MIR4 is the successor of the traditional Legend of Mir series. In this vast world, you participate in expeditions, meet diverse characters with unique personalities and abilities, and fight powerful enemies together, all on your journey to becoming king. But no king rules forever, so several growth systems will assist you in the war to conquer the world.">
 
@@ -127,52 +145,84 @@ $current_translations = $translations[$lang];
         <!-- //h1 -->
         <!-- rightSide -->
         <div class="rightSide">
-          <!-- navList -->
-          <div class="navList">
-            <ul class="clear gnb">
-              <li class="new" data-menuanchor="story">
-                  <p><a href="/"><span>Home</span></a></p>
-              </li>
+                <div class="navList">
 
-              <li class="new" data-menuanchor="part2">
-                <p><a href="https://discord.gg/KCnHvwJJWN" target="_blank"><span>Community</span></a></p>
-                <ul class="subGnb">
-                  <li><a href="https://discord.gg/KCnHvwJJWN" target="_blank">News</a></li>
-                </ul>
-              </li>
 
-              <li data-menuanchor="part2">
-                <p><a href=""><span>Help Center</span></a></p>
-                <ul class="subGnb">
-                  <!-- <li><a href="comingsoon" target="_blank">FAQ</a></li> -->
-                  <li><a href="install" target="_blank">How to Install</a></li>
+
+                <ul class="clear gnb">
+
+                    <!-- Home -->
+                    <li class="<?php echo ($_SERVER['REQUEST_URI'] === '/') ? 'active' : ''; ?>" data-menuanchor="story">
+                        <p><a href="/"><span><?php echo $current_translations['title-home']; ?></span></a></p>
+                    </li>
+
+                    <!-- Community -->
+                    <li class="new <?php echo ($_SERVER['REQUEST_URI'] === '/community') ? 'active' : ''; ?>" data-menuanchor="part2">
+                        <p><a href="community" target="_self"><span><?php echo $current_translations['title-community']; ?></span></a></p>
+                        
+                        <ul class="subGnb">
+                            <li><a href="community" target="_self"><?php echo $current_translations['title-community']; ?></a></li>
+                            <li><a href="https://discord.gg/KCnHvwJJWN" target="_blank"><?php echo $current_translations['title-news']; ?></a></li>
+                        </ul>
+
+                    </li>
+
+                    <!-- Support -->
+                    <li class="<?php echo ($_SERVER['REQUEST_URI'] === '/install' || $_SERVER['REQUEST_URI'] === '/faq') ? 'active' : ''; ?>" data-menuanchor="part2">
+                        <p><a href="install"><span><?php echo $current_translations['title-support']; ?></span></a></p>
+                        
+                        <ul class="subGnb">
+                            <!-- <li><a href="comingsoon" target="_blank">FAQ</a></li> -->
+                            <li><a href="install" target="_self"><?php echo $current_translations['title-install']; ?></a></li>
+                            <li><a href="faq" target="_self">FAQ</a></li>
+                        </ul>
+                    </li>
+
+                    <!-- Rankings -->
+                    <li class="new <?php echo ($_SERVER['REQUEST_URI'] === '/rankings' || $_SERVER['REQUEST_URI'] === '/m4') ? 'active' : ''; ?>" data-menuanchor="part2">
+                        <p><a href="rankings"><span><?php echo $current_translations['title-ranking']; ?><span></a></p>
+                        
+                        <ul class="subGnb">
+                            <li class="new"><a href="rankings" target="_self"><?php echo $current_translations['title-avarank']; ?></a></li>
+                            <li><a href="m4" target="_self"><?php echo $current_translations['title-globalrank']; ?></a></li>
+                        </ul>
+                    </li>
+
+
+                    <!-- Tools -->
+                    <li class="new <?php echo ($_SERVER['REQUEST_URI'] === '/tools') ? 'active' : ''; ?>" data-menuanchor="part2">
+                        <p><a href="tools"><span><?php echo $current_translations['title-tools']; ?><span></a></p>
+                        
+                        <ul class="subGnb">
+                            <!-- <li><a href="comingsoon" target="_blank">FAQ</a></li> -->
+                            <li><a href="tools" target="_self"><?php echo $current_translations['title-tools']; ?></a></li>
+                            <li><a href="https://www.lomcn.net/wiki/index.php/MIR4" target="_blank">WIKI</a></li>
+                            <li><a href="https://wemade.thelegendofmir.uk/" target="_blank"><?php echo $current_translations['switchsite']; ?></a></li>
+                        </ul>
+                    </li>    
+                    
+                    <!-- Account -->
+                    <li class="<?php echo ($_SERVER['REQUEST_URI'] === '/ucp' || $_SERVER['REQUEST_URI'] === '/login' || $_SERVER['REQUEST_URI'] === '/register') ? 'active' : ''; ?>" data-menuanchor="part2">
+                        <p><a href="ucp"><span><?php echo $current_translations['account']; ?><span></a></p>
+                        
+                        <ul class="subGnb">
+                            <?php
+                            if (isset($_SESSION['loggedin']) && $_SESSION['loggedin'] === true) {
+                                echo '<li><a href="ucp" target="_self">' . $current_translations['myaccount'] . '</a></li>'; 
+                                echo '<li><a href="logout" target="_self">' . $current_translations['logout'] . '</a></li>'; 
+                            } else {
+                                echo '<li><a href="login" target="_self">' . $current_translations['login'] . '</a></li>';
+                                echo '<li><a href="register" target="_self">' . $current_translations['register'] . '</a></li>';
+                            }
+                            ?>
+                        </ul>
+                    </li>
+
+
+
+
                 </ul>
-              </li>
-			  
-              <li class="new" data-menuanchor="part2">
-                <p><a href="rankings"><span>Ranking<span></a></p>
-                <ul class="subGnb">
-                    <li><a href="comingsoon" target="_blank">Global Ranking</a></l>
-                </ul>
-              </li>
-			  
-              <li class="new" data-menuanchor="part2">
-                <p><a href="tools"><span>Tools<span></a></p>
-                <ul class="subGnb">
-                  <!-- <li><a href="comingsoon" target="_blank">FAQ</a></li> -->
-                  <li><a href="wiki" target="_blank">WIKI</a></li>
-                </ul>
-              </li>
-              <li>
-                <p><a href="ucp"><span><?php echo $current_translations['Account']; ?><span></a></p>
-                <ul class="subGnb">
-                  <li><a href="login" target="_self"><?php echo $current_translations['Login']; ?></a></li>
-                  <li><a href="register" target="_self"><?php echo $current_translations['Register']; ?></a></li>
-                </ul>
-              </li>
-            </ul>
-          </div>
-          <!-- //navList -->
+            </div>
         </div>
         <!-- //rightSide -->
       </div>

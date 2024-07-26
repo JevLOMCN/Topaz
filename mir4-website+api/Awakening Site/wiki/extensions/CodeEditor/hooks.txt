@@ -1,4 +1,0 @@
-== JS hooks ==
-'codeEditor.configure' is fired during the set up of the ACE editor
-Params:
-* {object} session ACE editor session

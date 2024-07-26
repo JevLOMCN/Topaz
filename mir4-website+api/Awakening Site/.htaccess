@@ -1,3 +1,4 @@
+RewriteEngine On
 
 # Redireciona solicitações externas .php para URL sem extensão
 RewriteCond %{THE_REQUEST} \s/+(.+?)\.php[\s?] [NC]

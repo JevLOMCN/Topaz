@@ -1,0 +1,436 @@
+html, body {
+    overflow-y: auto;
+    overflow-x: auto;
+}
+
+#logomir4 {
+    background-image: url('https://thelegendofmir.uk/static/image/h1_logo.png'); 
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 50px;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-size: 32px;
+    text-align: center;
+}
+
+h2 {
+    text-align: center !important;
+    margin-bottom: 20px !important;
+    font-size: 24px !important;
+}
+
+label {
+    font-weight: bold;
+    font-size: 16px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+input[type="text"]::placeholder,
+input[type="email"]::placeholder,
+input[type="password"]::placeholder {
+    font-size: 16px;
+}
+
+input[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 15px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    font-size: 16px;
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+.disabled-button {
+    background-color: grey;
+    cursor: not-allowed;
+}
+
+.password-strength {
+    font-size: 12px;
+    margin-top: 0.1vh;
+    text-align: right;
+}
+
+.weak {
+    color: red;
+}
+
+.medium {
+    color: orange;
+}
+
+.strong {
+    color: green;
+}
+
+.backhome {
+    font-size: 15px;
+    margin-top: 5px;
+    color: black;
+}
+
+.backhome:hover {
+    color: #808080;
+}
+
+#usernameError,
+#serverError,
+#passwordError,
+#confirmPasswordError,
+#ErrorCaptcha {
+    color: red;
+    font-weight: bold;
+    margin-bottom: 0.1vh;
+    text-align: left;
+    font-size: 12px;
+}
+
+#confirmMessage {
+    color: green;
+    font-weight: bold;
+    margin-bottom: -3vh;
+    font-size: 12px;
+    text-align: left;
+}
+
+.h-captcha {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.background-image {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+.background-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+@media screen and (max-width: 600px) {
+    .background-image img {
+        display: none;
+    }
+
+    body {
+        background-color: black;
+    }
+}
+
+video {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+    object-fit: cover;
+    z-index: -1;
+}
+
+#noise {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    pointer-events: none; 
+    opacity: 0.2; 
+}
+
+.container {
+    max-width: 98%;
+    /*max-height: 100%;*/
+    margin: 90px auto;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 32px;
+    border-radius: 19px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.section {
+    text-align: center;
+    color: black;
+    max-width: 98%;
+    /*max-height: 100%;*/
+    margin: 10px auto;
+    background-color: rgba(255, 255, 255, 0.2);
+    /*padding: 32px;*/
+    border-radius: 19px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.halfsection {
+    text-align: center;
+    color: black;
+    min-width: 48%;
+    max-width: 48%;
+    /*max-height: 100%;*/
+    margin: 10px auto;
+    background-color: rgba(255, 255, 255, 0.2);
+    /*padding: 32px;*/
+    border-radius: 19px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+ul {
+    list-style-type: disc;
+}
+
+
+table {
+    text-align: center;
+    width: 98%;
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+    background: rgba(255,255,255,0.5);
+    border-spacing: 0;
+    border-radius: 19px;
+} 
+
+th {
+    background-color: #f2f2f2;
+    border-top-left-radius: 19px; 
+    border-top-right-radius: 19px;
+}
+tr:nth-child(even) {
+    background: rgba(110,210,255,0.2);
+}
+.user_icon {
+    width: 32px;
+    height: 32px;
+    display: inline-block;
+    background-size: cover;
+}
+
+.loginBox {
+    max-width: 100%;
+    margin: 90px auto;
+    background-color: rgba(255, 255, 255, 0.3);
+    padding: 10px 32px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.logout {
+    font-size: 15px;
+    margin-top: 5px;
+    color: black;
+}
+
+.logout:hover {
+    color: #808080;
+}
+
+
+
+.content{ 
+    padding: 20px 50px;
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.8), #405266);
+    overflow-y: auto; 
+    border-radius: 19px;
+}
+.chName{ 
+    background-color: rgb(255, 255, 255, 0.8);
+    padding: 5px;
+    border-radius: 8px;
+}
+
+.tabs {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.tab-link {
+    background-color: #ddd;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin: 0 5px;
+    transition: background-color 0.3s;
+}
+
+.tab-link.active, .tab-link:hover {
+    background-color: #bbb;
+}
+
+.tab-content {
+    display: none;
+    width: 100%;
+}
+
+.tab-content.active {
+    display: block;
+}
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.card {
+    background-image: linear-gradient(to bottom right, #5E81FF, #405266);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 250px;
+    overflow: hidden;
+    text-align: center;  
+    padding: 15px;    
+    border: solid 0.5px #fff;      
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+}
+
+.card-content {
+    color: #fff;
+}
+
+.card-content h3 {
+    margin: 0;
+    font-size: 1.2em;
+    color: #333;
+}
+
+.card-content p {
+    margin: 10px 0;
+    font-size: 0.9em;
+    font-family: arial;
+}
+
+.center { text-align: center !important; }
+
+
+form {
+    display: inline-block;
+    align-items: center;
+}
+
+form label {
+    width: 300px;
+    margin-bottom: 5px;
+    text-align: left;
+}
+
+form input {
+    width: 280px;
+    margin-bottom: 15px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+form input[type="submit"] {
+    width: 150px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+}
+
+form input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+.boxInput{
+    display: inline-block;
+    max-width: 270px;
+    padding: 15px;
+    vertical-align: top;
+}
+
+#classList > ul > li {position: absolute; left:0; top:0; width: 100%; height: 100%; opacity:0;  transition:.7s all;}
+#classList > ul > li.active {opacity:1; z-index: 10;}
+#classList .video:after {margin:-32px 0 0 -32px; width:84px; height:84px; background:url('../image/btn_movie.png') center no-repeat; background-size:84px auto;}
+
+#classList .btnCha {text-align: center; margin-bottom:50px;}
+#classList .btnCha a {position: relative; display: inline-block; vertical-align: top; padding-top:160px; width:130px; font-size:24px; font-weight:700; color:#fff; margin-right:27px; }
+#classList .btnCha a:last-child {margin-left:0;}
+#classList .btnCha a:after {content:''; position: absolute; left:50%; top:0; margin-left:-65px; width:130px; height: 150px;}
+#classList .btnCha a:nth-child(1):after {background:url('../image/btn_class01.png') center no-repeat;}
+#classList .btnCha a:nth-child(2):after {background:url('../image/btn_class02.png') center no-repeat;}
+#classList .btnCha a:nth-child(3):after {background:url('../image/btn_class03.png') center no-repeat;}
+#classList .btnCha a:nth-child(4):after {background:url('../image/btn_class04.png') center no-repeat;}
+#classList .btnCha a:nth-child(5):after {background:url('../image/btn_class05.png') center no-repeat;}
+#classList .btnCha a:nth-child(1).active:after {background:url('../image/btn_class01_on.png') center no-repeat; }
+#classList .btnCha a:nth-child(2).active:after {background:url('../image/btn_class02_on.png') center no-repeat; }
+#classList .btnCha a:nth-child(3).active:after {background:url('../image/btn_class03_on.png') center no-repeat; }
+#classList .btnCha a:nth-child(4).active:after {background:url('../image/btn_class04_on.png') center no-repeat; }
+#classList .btnCha a:nth-child(5).active:after {background:url('../image/btn_class05_on.png') center no-repeat; }
+
+#classList .infoWrap {position: absolute; left:50%; top:50%;  margin:-350px 0 0 70px; z-index: 10; white-space:nowrap; width:840px; }
+#classList .infoWrap .title {font-size:28px; color:#000000; margin-bottom:30px; text-align: center; height: 76px; position: relative; right:50px;}
+
+#classList .infoWrap .title p {padding-right:195px; position: relative; text-align: right; color:#fff;} 
+#classList .infoWrap .title span {position: absolute; right:0; top:-20px;;font-size:100px; line-height:100px; font-weight:700; color:#23642c;}
+#classList .infoWrap .title em {font-size:22px; color:#949183; display: block;}
+#classList > ul > li.no1 .infoWrap .title p{
+  padding-right: 155px;
+}
+#classList > ul > li.no2 .infoWrap .title p{
+  padding-right: 285px;
+}
+#classList > ul > li.no3 .infoWrap .title p{
+  padding-right: 205px;
+}
+#classList > ul > li.no4 .infoWrap .title p{
+  padding-right: 205px;
+}
+#classList > ul > li.no5 .infoWrap .title p{
+  padding-right: 245px;
+}
+
+#classList > ul > li.no1 .infoWrap .title em {font-size:20px; }
+#classList > ul > li.no2 .infoWrap .title span {color:#af1314;}
+#classList > ul > li.no3 .infoWrap .title span {color:#b98d19;}
+#classList > ul > li.no4 .infoWrap .title span {color:#046798;}
+#classList > ul > li.no5 .infoWrap .title span {color:#0eb9cb;}
+
+#classList > ul > li .cha {position: absolute; left:0; top:0; width: 100%; height: 100%; }
+#classList > ul > li.no1 .cha {background:url('../image/bg_class_ch1.jpg') center no-repeat; background-size:cover;}
+#classList > ul > li.no2 .cha {background:url('../image/bg_class_ch2.jpg') center no-repeat; background-size:cover;}
+#classList > ul > li.no3 .cha {background:url('../image/bg_class_ch3.jpg') center no-repeat; background-size:cover;}
+#classList > ul > li.no4 .cha {background:url('../image/bg_class_ch4.jpg') center no-repeat; background-size:cover;}
+#classList > ul > li.no5 .cha {background:url('../image/bg_class_ch5.jpg') center no-repeat; background-size:cover;}
+#classList > ul > li .mp4Wrap:after {display: none;}
+

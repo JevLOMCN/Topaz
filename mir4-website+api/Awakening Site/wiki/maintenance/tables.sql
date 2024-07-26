@@ -1,2 +1,0 @@
--- This page is intentionally left blank (T191231)
--- See tables-generated.sql and tables.json

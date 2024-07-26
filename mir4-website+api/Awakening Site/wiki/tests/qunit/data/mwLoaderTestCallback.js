@@ -1,1 +1,0 @@
-mw.loader.testCallback();

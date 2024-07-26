@@ -1,9 +1,0 @@
-{
-	"@metadata": {
-		"authors": [
-			"Geitost",
-			"Kghbln"
-		]
-	},
-	"gadgets-export-text": "Um das Helferlein $1 zu exportieren, klicken Sie auf die Schaltfläche „{{int:gadgets-export-download}}“ und speichern Sie die heruntergeladene Datei. Gehen Sie sodann zur Spezialseite Spezial:Import auf dem für den Import vorgesehenen Wiki und laden die Datei hoch. Fügen Sie danach den folgenden Text zur Seite MediaWiki:Gadgets-definition hinzu:\n<pre>$2</pre>\nSie müssen über die notwendigen Berechtigungen auf dem für den Import vorgesehenen Wiki verfügen (einschließlich der Berechtigung, MediaWiki-Systemnachrichten zu bearbeiten). Zudem muss der Import von Datei-Uploads aktiviert sein."
-}
