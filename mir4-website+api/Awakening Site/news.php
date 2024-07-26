@@ -53,7 +53,7 @@
         </div>
       </div>
       <div class="header_right" style=''>
-        <a href="https://thelegendofmir.uk" class="header_sns btn btn_popup"><span>Home</span></a>
+        <a href="" class="header_sns btn btn_popup"><span>Home</span></a>
               </div>
     </div>
   </header>
@@ -75,7 +75,7 @@
                       </ul>
           <ul class="nav_gnb">
                           <li class="nav_item">
-                <a href="https://thelegendofmir.uk/" class="nav_link" target="_blank" onclick="gaevent('menu_1depth_brand');" >
+                <a href="" class="nav_link" target="_blank" onclick="gaevent('menu_1depth_brand');" >
                   <i class="brand"></i>
                   <span>TOPAZ</span>
                 </a>
@@ -87,13 +87,13 @@
                 </a>
                                   <ul class="nav_gnb_depth2">
                                       <li class="nav_item">
-                      <a href="https://thelegendofmir.uk/news" aria-icon="" class="nav_link" onclick="gaevent('menu_depth2_notice');" aria-new="true"><span>Announcements</span></a>
+                      <a href="/news" aria-icon="" class="nav_link" onclick="gaevent('menu_depth2_notice');" aria-new="true"><span>Announcements</span></a>
                     </li>
                                       <li class="nav_item">
-                      <a href="https://thelegendofmir.uk/news/patchnotes" aria-icon="" class="nav_link" onclick="gaevent('menu_depth2_patchnote');" ><span>Patch Notes</span></a>
+                      <a href="/news/patchnotes" aria-icon="" class="nav_link" onclick="gaevent('menu_depth2_patchnote');" ><span>Patch Notes</span></a>
                     </li>
 					<li class="nav_item">
-                      <a href="https://thelegendofmir.uk/news/events" aria-icon="" class="nav_link" onclick="gaevent('menu_depth2_event');" ><span>Events</span></a>
+                      <a href="/news/events" aria-icon="" class="nav_link" onclick="gaevent('menu_depth2_event');" ><span>Events</span></a>
                     </li>
                                     </ul>
                               
@@ -112,14 +112,14 @@
                 <article class="article global glob_event" >
           <div class="article_inner">
             <div class="article_wrap">
-              <a href="https://thelegendofmir.uk/news/announcements/1" class="article_subject">
+              <a href="/news/announcements/1" class="article_subject">
                 <em class="article_category">Announcements</em>
                 <span class="subject">Server Dev Update<span></span></span>
               </a>
               <dl class="item_info">
                 <dt class="hidden">Writer</dt>
                 <dd>
-                  <a href="https://thelegendofmir.uk/news/announcements/1" class="author"><span class="user_icon" style="background-image: url(https://file.mir4global.com/mir4-forum/img/desktop/icon/person.png);"></span><em>JEV</em></a>                </dd>
+                  <a href="/news/announcements/1" class="author"><span class="user_icon" style="background-image: url(https://file.mir4global.com/mir4-forum/img/desktop/icon/person.png);"></span><em>JEV</em></a>                </dd>
                 <dt class="hidden">Date</dt>
                 <dd>07.11.23</dd>
               </dl>
@@ -186,6 +186,5 @@
     });
   </script>
 </div>
-
 </body>
 </html>
