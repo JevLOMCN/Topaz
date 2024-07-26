@@ -162,7 +162,7 @@ $current_translations = $translations[$lang];
                         
                         <ul class="subGnb">
                             <li><a href="community" target="_self"><?php echo $current_translations['title-community']; ?></a></li>
-                            <li><a href="https://discord.gg/KCnHvwJJWN" target="_blank"><?php echo $current_translations['title-news']; ?></a></li>
+                            <li><a href="news" target="_blank"><?php echo $current_translations['title-news']; ?></a></li>
                         </ul>
 
                     </li>
