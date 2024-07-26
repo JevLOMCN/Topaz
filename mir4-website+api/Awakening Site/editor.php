@@ -10,7 +10,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700;900&family=Noto+Sans+JP:wght@400;700;900&family=Noto+Sans+SC:wght@400;700;900&family=Noto+Sans+TC:wght@400;700;900&display=swap" rel="stylesheet">
-<link rel="shortcut icon" href="https://file.mir4global.com/mir4-forum/img/favicon.ico">
+<link rel="shortcut icon" href="https://mirfiles.co.uk/resources/mir2/users/Jev/Mir%204/favicon_1.png">
 <link rel="stylesheet" href="https://file.mir4global.com/mir4-forum/css/mobile/inspection-ingame.css?v01.08.2">
 <script src="https://file.mir4global.com/mir4-forum/js/vendor/jquery-1.12.2.min.js"></script>
 <script src="https://file.mir4global.com/mir4-forum/js/vendor/swiper.min.js"></script>
