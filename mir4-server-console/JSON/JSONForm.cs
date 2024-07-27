@@ -13,6 +13,7 @@ namespace Server_Console
 {
     public partial class JSONForm : Form
     {
+        private string directoryPath;
         public JSONForm()
         {
             InitializeComponent();
@@ -110,127 +111,211 @@ namespace Server_Console
                 //MessageBox.Show("Error loading JSON file: " + ex.Message);
             }
         }
-        
-            #endregion
+
+        #endregion
 
         #region FileList Menu (Right Click)
-            private void FileList_MouseClick(object sender, MouseEventArgs e)
+        private void FileList_MouseClick(object sender, MouseEventArgs e)
+        {
+            if (e.Button == MouseButtons.Right)
             {
-                if (e.Button == MouseButtons.Right)
-                {
-                    // Select the node that was clicked
-                    FileList.SelectedNode = FileList.GetNodeAt(e.X, e.Y);
+                // Select the node that was clicked
+                FileList.SelectedNode = FileList.GetNodeAt(e.X, e.Y);
 
-                    // If the clicked node is not null, show the context menu
-                    if (FileList.SelectedNode != null)
-                    {
-                        // Create a context menu
-                        ContextMenuStrip contextMenuStrip = new ContextMenuStrip();
-
-                        // Add clickable options
-                        ToolStripMenuItem Export = new ToolStripMenuItem("Export");
-                        ToolStripMenuItem Delete = new ToolStripMenuItem("Delete");
-
-                        // Attach event handlers for options
-                        Export.Click += Export_Click;
-                        Delete.Click += Delete_Click;
-
-                        // Add options to the context menu
-                        contextMenuStrip.Items.Add(Export);
-                        contextMenuStrip.Items.Add(Delete);
-
-                        // Show the context menu at the clicked location
-                        contextMenuStrip.Show(FileList, e.Location);
-                    }
-                }
-            }
-            private void Export_Click(object sender, EventArgs e)
-            {
-                // Check if a node is selected
+                // If the clicked node is not null, show the context menu
                 if (FileList.SelectedNode != null)
                 {
-                    // Get the file name from the selected node
-                    string fileName = FileList.SelectedNode.Text;
+                    // Create a context menu
+                    ContextMenuStrip contextMenuStrip = new ContextMenuStrip();
 
-                    // Get the full path of the file
-                    string filePath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Data", fileName);
+                    // Add clickable options
+                    ToolStripMenuItem Export = new ToolStripMenuItem("Export");
+                    ToolStripMenuItem Delete = new ToolStripMenuItem("Delete");
 
-                    // Check if the file exists
-                    if (File.Exists(filePath))
-                    {
-                        // Prompt the user to choose the export location
-                        SaveFileDialog saveFileDialog = new SaveFileDialog();
-                        saveFileDialog.Filter = "JSON files (*.json)|*.json";
-                        saveFileDialog.FileName = fileName;
-                        saveFileDialog.Title = "Export JSON File";
-                        saveFileDialog.InitialDirectory = Environment.GetFolderPath(Environment.SpecialFolder.Desktop);
+                    // Attach event handlers for options
+                    Export.Click += Export_Click;
+                    Delete.Click += Delete_Click;
 
-                        // Show the SaveFileDialog
-                        if (saveFileDialog.ShowDialog() == DialogResult.OK)
-                        {
-                            // Get the selected file path
-                            string exportFilePath = saveFileDialog.FileName;
+                    // Add options to the context menu
+                    contextMenuStrip.Items.Add(Export);
+                    contextMenuStrip.Items.Add(Delete);
 
-                            try
-                            {
-                                // Copy the file to the export location
-                                File.Copy(filePath, exportFilePath);
-
-                                MessageBox.Show($"File exported successfully to: {exportFilePath}", "Export Successful", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                            }
-                            catch (Exception ex)
-                            {
-                                MessageBox.Show($"Error exporting file: {ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                            }
-                        }
-                    }
-                    else
-                    {
-                        MessageBox.Show($"File not found: {filePath}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                    }
+                    // Show the context menu at the clicked location
+                    contextMenuStrip.Show(FileList, e.Location);
                 }
             }
-            private void Delete_Click(object sender, EventArgs e)
+        }
+        private void Export_Click(object sender, EventArgs e)
+        {
+            // Check if a node is selected
+            if (FileList.SelectedNode != null)
             {
-                // Check if a node is selected
-                if (FileList.SelectedNode != null)
+                // Get the file name from the selected node
+                string fileName = FileList.SelectedNode.Text;
+
+                // Get the full path of the file
+                string filePath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Data", fileName);
+
+                // Check if the file exists
+                if (File.Exists(filePath))
                 {
-                    // Get the file name from the selected node
-                    string fileName = FileList.SelectedNode.Text;
+                    // Prompt the user to choose the export location
+                    SaveFileDialog saveFileDialog = new SaveFileDialog();
+                    saveFileDialog.Filter = "JSON files (*.json)|*.json";
+                    saveFileDialog.FileName = fileName;
+                    saveFileDialog.Title = "Export JSON File";
+                    saveFileDialog.InitialDirectory = Environment.GetFolderPath(Environment.SpecialFolder.Desktop);
 
-                    // Get the full path of the file
-                    string filePath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Data", fileName);
-
-                    // Check if the file exists
-                    if (File.Exists(filePath))
+                    // Show the SaveFileDialog
+                    if (saveFileDialog.ShowDialog() == DialogResult.OK)
                     {
-                        // Prompt the user for confirmation
-                        DialogResult result = MessageBox.Show($"Are you sure you want to delete '{fileName}'?", "Confirmation", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+                        // Get the selected file path
+                        string exportFilePath = saveFileDialog.FileName;
 
-                        if (result == DialogResult.Yes)
+                        try
                         {
-                            try
-                            {
-                                // Delete the file
-                                File.Delete(filePath);
+                            // Copy the file to the export location
+                            File.Copy(filePath, exportFilePath);
 
-                                // Remove the node from the TreeView
-                                FileList.Nodes.Remove(FileList.SelectedNode);
-
-                                MessageBox.Show($"File '{fileName}' deleted successfully.", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                            }
-                            catch (Exception ex)
-                            {
-                                MessageBox.Show($"Error deleting file: {ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                            }
+                            MessageBox.Show($"File exported successfully to: {exportFilePath}", "Export Successful", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                        }
+                        catch (Exception ex)
+                        {
+                            MessageBox.Show($"Error exporting file: {ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                         }
                     }
-                    else
-                    {
-                        MessageBox.Show($"File not found: {filePath}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                    }
+                }
+                else
+                {
+                    MessageBox.Show($"File not found: {filePath}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 }
             }
+        }
+        private void Delete_Click(object sender, EventArgs e)
+        {
+            // Check if a node is selected
+            if (FileList.SelectedNode != null)
+            {
+                // Get the file name from the selected node
+                string fileName = FileList.SelectedNode.Text;
+
+                // Get the full path of the file
+                string filePath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Data", fileName);
+
+                // Check if the file exists
+                if (File.Exists(filePath))
+                {
+                    // Prompt the user for confirmation
+                    DialogResult result = MessageBox.Show($"Are you sure you want to delete '{fileName}'?", "Confirmation", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+
+                    if (result == DialogResult.Yes)
+                    {
+                        try
+                        {
+                            // Delete the file
+                            File.Delete(filePath);
+
+                            // Remove the node from the TreeView
+                            FileList.Nodes.Remove(FileList.SelectedNode);
+
+                            MessageBox.Show($"File '{fileName}' deleted successfully.", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                        }
+                        catch (Exception ex)
+                        {
+                            MessageBox.Show($"Error deleting file: {ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                        }
+                    }
+                }
+                else
+                {
+                    MessageBox.Show($"File not found: {filePath}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
+            }
+        }
         #endregion
+
+        private void mergeJSONsToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            // Define base directory and source directory (Data folder)
+            string baseDirectory = AppDomain.CurrentDomain.BaseDirectory;
+            string directoryPath = Path.Combine(baseDirectory, "Data");
+
+            // Check if Data directory exists
+            if (!Directory.Exists(directoryPath))
+            {
+                MessageBox.Show("Data directory not found. Please ensure the Data folder exists.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return;
+            }
+
+            // Define Servers directory
+            string serversDirectory = Path.Combine(baseDirectory, "Servers");
+
+            // Check if Servers folder exists
+            if (!Directory.Exists(serversDirectory))
+            {
+                using (FolderBrowserDialog folderBrowser = new FolderBrowserDialog())
+                {
+                    folderBrowser.Description = "Select the Servers folder";
+
+                    if (folderBrowser.ShowDialog() == DialogResult.OK)
+                    {
+                        serversDirectory = folderBrowser.SelectedPath;
+                    }
+                    else
+                    {
+                        // If user cancels the dialog, exit the method
+                        MessageBox.Show("Servers folder not selected. Operation cancelled.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                        return;
+                    }
+                }
+            }
+
+            // Define target directories
+            string[] targetDirectories = new string[]
+            {
+                Path.Combine(serversDirectory, "World", "Data"),
+                Path.Combine(serversDirectory, "Game", "Data"),
+                Path.Combine(serversDirectory, "Gateway", "Data")
+            };
+
+            // Copy contents to each target directory
+            foreach (string targetDirectory in targetDirectories)
+            {
+                // Ensure target directory path is valid
+                if (!string.IsNullOrEmpty(targetDirectory))
+                {
+                    try
+                    {
+                        CopyDirectory(directoryPath, targetDirectory);
+                        MessageBox.Show($"Data copied successfully to: {targetDirectory}", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    }
+                    catch (Exception ex)
+                    {
+                        MessageBox.Show($"Error copying data to {targetDirectory}: {ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    }
+                }
+                else
+                {
+                    MessageBox.Show($"Target directory path is invalid: {targetDirectory}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
+            }
+        }
+
+        private void CopyDirectory(string sourceDir, string targetDir)
+        {
+            Directory.CreateDirectory(targetDir);
+
+            foreach (string file in Directory.GetFiles(sourceDir))
+            {
+                string targetFilePath = Path.Combine(targetDir, Path.GetFileName(file));
+                File.Copy(file, targetFilePath, true);
+            }
+
+            foreach (string directory in Directory.GetDirectories(sourceDir))
+            {
+                string targetSubDir = Path.Combine(targetDir, Path.GetFileName(directory));
+                CopyDirectory(directory, targetSubDir);
+            }
+        }
     }
 }
