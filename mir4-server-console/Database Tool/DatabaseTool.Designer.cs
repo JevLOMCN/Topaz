@@ -119,6 +119,7 @@
             Icon = (Icon)resources.GetObject("$this.Icon");
             Name = "DatabaseTool";
             Text = "Database Tool";
+            Load += DatabaseTool_Load;
             tabControl1.ResumeLayout(false);
             ResumeLayout(false);
         }
