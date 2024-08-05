@@ -1,5 +1,6 @@
 using Server_Console.Config;
 using Server_Console.Database;
+using Server_Console.Database_Tool;
 using Server_Console.Logs;
 using System.Data;
 using System.Diagnostics;
@@ -164,30 +165,30 @@ namespace Server_Console
 
         private void StartAllButton_Click(object sender, EventArgs e)
         {
-                string baseDirectory = AppDomain.CurrentDomain.BaseDirectory;
-                string batchFilePath = Path.Combine(baseDirectory, "Servers", "start_servers.bat");
+            string baseDirectory = AppDomain.CurrentDomain.BaseDirectory;
+            string batchFilePath = Path.Combine(baseDirectory, "Servers", "start_servers.bat");
 
-                if (File.Exists(batchFilePath))
+            if (File.Exists(batchFilePath))
+            {
+                try
                 {
-                    try
+                    ProcessStartInfo startInfo = new ProcessStartInfo(batchFilePath)
                     {
-                        ProcessStartInfo startInfo = new ProcessStartInfo(batchFilePath)
-                        {
-                            UseShellExecute = true,
-                            WorkingDirectory = Path.GetDirectoryName(batchFilePath)
-                        };
-                        Process.Start(startInfo);
-                    }
-                    catch (Exception ex)
-                    {
-                        MessageBox.Show($"Failed to start batch file. Error: {ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                    }
+                        UseShellExecute = true,
+                        WorkingDirectory = Path.GetDirectoryName(batchFilePath)
+                    };
+                    Process.Start(startInfo);
                 }
-                else
+                catch (Exception ex)
                 {
-                    MessageBox.Show($"Batch file not found at: {batchFilePath}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    MessageBox.Show($"Failed to start batch file. Error: {ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 }
             }
+            else
+            {
+                MessageBox.Show($"Batch file not found at: {batchFilePath}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+        }
 
         private void WorldButton_Click(object sender, EventArgs e)
         {
@@ -243,6 +244,14 @@ namespace Server_Console
 
             // Show the ConfigForm
             configForm.Show();
+        }
+        private void DatabaseToolImage_Click(object sender, EventArgs e)
+        {
+            // Create an instance of the DatabaseTool form
+            DatabaseTool databaseToolForm = new DatabaseTool();
+
+            // Show the DatabaseTool form
+            databaseToolForm.Show();
         }
 
         #endregion

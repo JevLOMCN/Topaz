@@ -43,6 +43,7 @@
             LogsImage = new PictureBox();
             ConfigImage = new PictureBox();
             StartAllButton = new PictureBox();
+            DatabaseToolImage = new PictureBox();
             ((System.ComponentModel.ISupportInitialize)Logo).BeginInit();
             ((System.ComponentModel.ISupportInitialize)WorldButton).BeginInit();
             ((System.ComponentModel.ISupportInitialize)GatewayButton).BeginInit();
@@ -54,6 +55,7 @@
             ((System.ComponentModel.ISupportInitialize)LogsImage).BeginInit();
             ((System.ComponentModel.ISupportInitialize)ConfigImage).BeginInit();
             ((System.ComponentModel.ISupportInitialize)StartAllButton).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)DatabaseToolImage).BeginInit();
             SuspendLayout();
             // 
             // Logo
@@ -219,6 +221,17 @@
             StartAllButton.MouseLeave += StartAllButton_MouseLeave;
             StartAllButton.MouseHover += StartAllButton_MouseHover;
             // 
+            // DatabaseToolImage
+            // 
+            DatabaseToolImage.BackColor = Color.Transparent;
+            DatabaseToolImage.Image = Properties.Resources.Admin;
+            DatabaseToolImage.Location = new Point(240, 562);
+            DatabaseToolImage.Name = "DatabaseToolImage";
+            DatabaseToolImage.Size = new Size(64, 64);
+            DatabaseToolImage.TabIndex = 12;
+            DatabaseToolImage.TabStop = false;
+            DatabaseToolImage.Click += DatabaseToolImage_Click;
+            // 
             // MainForm
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
@@ -228,6 +241,7 @@
             BackgroundImageLayout = ImageLayout.Stretch;
             ClientSize = new Size(1193, 628);
             ControlBox = false;
+            Controls.Add(DatabaseToolImage);
             Controls.Add(StartAllButton);
             Controls.Add(ConfigImage);
             Controls.Add(LogsImage);
@@ -260,6 +274,7 @@
             ((System.ComponentModel.ISupportInitialize)LogsImage).EndInit();
             ((System.ComponentModel.ISupportInitialize)ConfigImage).EndInit();
             ((System.ComponentModel.ISupportInitialize)StartAllButton).EndInit();
+            ((System.ComponentModel.ISupportInitialize)DatabaseToolImage).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -279,5 +294,6 @@
         private PictureBox LogsImage;
         private PictureBox ConfigImage;
         private PictureBox StartAllButton;
+        private PictureBox DatabaseToolImage;
     }
 }
