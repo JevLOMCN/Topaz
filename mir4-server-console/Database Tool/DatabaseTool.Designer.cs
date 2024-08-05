@@ -31,12 +31,15 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(DatabaseTool));
             tabControl1 = new TabControl();
             MapsPage = new TabPage();
+            WorldMapBox = new PictureBox();
             ItemsPage = new TabPage();
             MonstersPage = new TabPage();
             AchievementsPage = new TabPage();
             SkillsPage = new TabPage();
             CommandsPage = new TabPage();
             tabControl1.SuspendLayout();
+            MapsPage.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)WorldMapBox).BeginInit();
             SuspendLayout();
             // 
             // tabControl1
@@ -56,6 +59,7 @@
             // 
             // MapsPage
             // 
+            MapsPage.Controls.Add(WorldMapBox);
             MapsPage.Location = new Point(4, 24);
             MapsPage.Name = "MapsPage";
             MapsPage.Padding = new Padding(3);
@@ -63,6 +67,16 @@
             MapsPage.TabIndex = 0;
             MapsPage.Text = "Maps";
             MapsPage.UseVisualStyleBackColor = true;
+            // 
+            // WorldMapBox
+            // 
+            WorldMapBox.Anchor = AnchorStyles.Bottom | AnchorStyles.Right;
+            WorldMapBox.BackgroundImageLayout = ImageLayout.None;
+            WorldMapBox.Location = new Point(311, 249);
+            WorldMapBox.Name = "WorldMapBox";
+            WorldMapBox.Size = new Size(1024, 512);
+            WorldMapBox.TabIndex = 0;
+            WorldMapBox.TabStop = false;
             // 
             // ItemsPage
             // 
@@ -121,6 +135,8 @@
             Text = "Database Tool";
             Load += DatabaseTool_Load;
             tabControl1.ResumeLayout(false);
+            MapsPage.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)WorldMapBox).EndInit();
             ResumeLayout(false);
         }
 
@@ -133,5 +149,6 @@
         private TabPage AchievementsPage;
         private TabPage SkillsPage;
         private TabPage CommandsPage;
+        private PictureBox WorldMapBox;
     }
 }

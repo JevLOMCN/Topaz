@@ -28,6 +28,22 @@ namespace Server_Console.Database_Tool
             else
             {
             }
+
+            LoadMaps();
+        }
+
+        private void LoadMaps()
+        {
+            string imagePath = "Data/Maps/WorldMap.png";
+            if (System.IO.File.Exists(imagePath))
+            {
+                Bitmap map = new Bitmap(imagePath);
+                WorldMapBox.Image = map;
+            }
+            else
+            {
+                MessageBox.Show("Image file not found!");
+            }
         }
     }
 }
