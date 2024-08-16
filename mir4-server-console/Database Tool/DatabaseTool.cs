@@ -19,7 +19,7 @@ namespace Server_Console.Database_Tool
         }
         private void DatabaseTool_Load(object sender, EventArgs e)
         {
-            string dataFolderPath = Path.Combine(Application.StartupPath, "Data");
+            string dataFolderPath = Path.Combine(Application.StartupPath, "Assets");
 
             if (!Directory.Exists(dataFolderPath))
             {
@@ -34,7 +34,7 @@ namespace Server_Console.Database_Tool
 
         private void LoadMaps()
         {
-            string imagePath = "Data/Maps/WorldMap.png";
+            string imagePath = "Assets/Maps/WorldMap.png";
             if (System.IO.File.Exists(imagePath))
             {
                 Bitmap map = new Bitmap(imagePath);
