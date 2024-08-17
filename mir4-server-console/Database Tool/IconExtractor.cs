@@ -3,10 +3,17 @@ using System.Drawing;
 using System.IO;
 using System.Text.RegularExpressions;
 using System.Windows.Forms;
-using UAssetAPI;
-using UAssetAPI.ExportTypes;
-using UAssetAPI.PropertyTypes.Structs;
-using UAssetAPI.UnrealTypes;
+using SkiaSharp;
+using Newtonsoft.Json;
+using CUE4Parse.FileProvider;
+using CUE4Parse.UE4.Versions;
+using CUE4Parse.Encryption.Aes;
+using CUE4Parse.UE4.Objects.Core.Misc;
+using CUE4Parse.Compression;
+using CUE4Parse.UE4.Assets.Exports.Texture;
+using CUE4Parse_Conversion.Textures;
+using CUE4Parse_Conversion.Sounds;
+using CUE4Parse.UE4.Assets.Exports;
 
 namespace Server_Console.Database_Tool
 {
@@ -14,7 +21,16 @@ namespace Server_Console.Database_Tool
     {
         private static readonly string iconDirectory = FileManager.GetFilePath("Assets/Icons/");
         private static LogDelegate? LogMethod;
-
+        public static DefaultFileProvider? Provider { get; private set; }
+        public static void InitializeProvider()
+        {
+            if (Provider == null)
+            {
+                Provider = new DefaultFileProvider(FileManager.GetFilePath("Assets/Paks"), SearchOption.AllDirectories, true, new VersionContainer(EGame.GAME_UE4_24));
+                Provider.Initialize();
+                Provider.SubmitKey(new FGuid(), new FAesKey(Config.AESKey));
+            }
+        }
         public static void SetLogMethod(LogDelegate logMethod)
         {
             LogMethod = logMethod;
@@ -35,24 +51,31 @@ namespace Server_Console.Database_Tool
                 if (!File.Exists(iconPath))
                     iconPath = Path.Combine(iconDirectory, "unknown.png");
 
+                if (!File.Exists(iconPath))
+                    return null;
+
                 icon = GetImageFromFile(iconPath);
             }
 
-            Image resizedIcon = ResizeImage(icon, 180, 180);
-            Image? background = GetBackgroundImage(grade);
+            if (icon is Bitmap bitmapIcon)
+            {
+                Image resizedIcon = ResizeImage(icon, 180, 180);
+                Image? background = GetBackgroundImage(grade);
 
-            if (background != null)
-            {
-                if (background.Width != 256 || background.Height != 256)
+                if (background != null)
                 {
-                    background = ResizeImage(background, 256, 256);
+                    if (background.Width != 256 || background.Height != 256)
+                    {
+                        background = ResizeImage(background, 256, 256);
+                    }
+                    return CombineImages(background, resizedIcon, pictureBoxSize);
                 }
-                return CombineImages(background, resizedIcon, pictureBoxSize);
+                else
+                {
+                    return ResizeImage(resizedIcon, pictureBoxSize.Width, pictureBoxSize.Height);
+                }
             }
-            else
-            {
-                return ResizeImage(resizedIcon, pictureBoxSize.Width, pictureBoxSize.Height);
-            }
+            return null;
         }
 
         private static Image? GetBackgroundImage(string grade)
@@ -119,8 +142,8 @@ namespace Server_Console.Database_Tool
             }
             catch (Exception ex)
             {
-                Log($"Error setting icon in PictureBox: {ex.Message}");
                 iconPictureBox.Image = Image.FromFile(Path.Combine(iconDirectory, "unknown.png"));
+                Log($"Error setting icon in PictureBox: {ex.Message}");
             }
         }
 
@@ -143,106 +166,96 @@ namespace Server_Console.Database_Tool
             return resized;
         }
 
-        public static Bitmap? GetIconFromUE4(string iconId)
+        private static Bitmap? GetIconFromUE4(string iconId)
         {
-            if (FileManager.IconPathMap.TryGetValue(iconId, out var iconPath) && File.Exists(iconPath))
+            if (FileManager.IconPathMap.TryGetValue(iconId, out var iconPath) is false)
+                return null;
+
+            var allExports = Provider.LoadAllObjects(iconPath);
+
+            foreach (var export in allExports)
             {
-                return GetAssetUV(iconPath);
-            }
-            return null;
-        }
-
-        public static Bitmap? GetAssetUV(string assetPath)
-        {
-            try
-            {
-                var textureAsset = new UAsset(assetPath, EngineVersion.VER_UE4_24);
-
-                var nameReference = textureAsset.GetNameReference(0).Value;
-                var lastSegment = nameReference.Split('/').Last();
-                var picAssetPath = $"./Assets/Atlas_N/{lastSegment}.uasset.png";
-
-                if (textureAsset.Exports.Count < 2)
+                if (export is UObject obj)
                 {
-                    Log("Not enough exports in asset.");
-                    return null;
-                }
+                    var properties = (export as UObject).Properties;
+                    float? bakedSourceUV_X = null, bakedSourceUV_Y = null;
+                    float? bakedSourceDimension_X = null, bakedSourceDimension_Y = null;
+                    string bakedSourceTextureObjectPath = null, bakedSourceTextureObjectName = null;
 
-                var textureExport = textureAsset.Exports[1];
-
-                if (textureExport is NormalExport normalExport)
-                {
-                    float? bakedSourceUVX = null, bakedSourceUVY = null;
-                    float? bakedSourceDimensionX = null, bakedSourceDimensionY = null;
-
-                    foreach (var property in normalExport.Data)
+                    foreach (var property in properties)
                     {
-                        if (property is StructPropertyData structProperty)
+                        switch (property.Name.Text)
                         {
-                            foreach (var innerProperty in structProperty.Value)
-                            {
-                                if (property.Name.ToString() == "BakedSourceUV")
-                                {
-                                    var value = innerProperty.ToString() ?? string.Empty;
-                                    (bakedSourceUVX, bakedSourceUVY) = ParseVector2D(value);
-                                }
-                                else if (property.Name.ToString() == "BakedSourceDimension")
-                                {
-                                    var value = innerProperty.ToString() ?? string.Empty;
-                                    (bakedSourceDimensionX, bakedSourceDimensionY) = ParseVector2D(value);
-                                }
-                            }
+                            case "BakedSourceUV":
+                                var BakedSourceUV = property.Tag.ToString() ?? string.Empty;
+                                (bakedSourceUV_X, bakedSourceUV_Y) = ParseVector2D(BakedSourceUV);
+                                break;
+
+                            case "BakedSourceDimension":
+                                var BakedSourceDimension = property.Tag.ToString() ?? string.Empty;
+                                (bakedSourceDimension_X, bakedSourceDimension_Y) = ParseVector2D(BakedSourceDimension);
+                                break;
+
+                            case "BakedSourceTexture":
+                                var BakedSourceTexture = property.Tag.ToString() ?? string.Empty;
+                                (bakedSourceTextureObjectPath, bakedSourceTextureObjectName) = ParseBakedSourceTexture(BakedSourceTexture);
+                                break;
+
+                            default:
+                                break;
                         }
                     }
-                    return GetImageUV(picAssetPath, bakedSourceUVX, bakedSourceUVY, bakedSourceDimensionX, bakedSourceDimensionY);
+
+                    if (bakedSourceTextureObjectPath != null)
+                    {
+                        string texturePath = ReformatTexturePath(bakedSourceTextureObjectPath);
+                        var texture2D = Provider.LoadObject<UTexture2D>(texturePath);
+                        if (texture2D != null)
+                        {
+                            var skBitmap = texture2D.Decode(ETexturePlatform.DesktopMobile);
+                            Bitmap bitmap = ConvertSKBitmapToBitmap(skBitmap);
+                            return CropBitmap(bitmap, bakedSourceUV_X, bakedSourceUV_Y, bakedSourceDimension_X, bakedSourceDimension_Y);
+                        }
+                    }
+
                 }
             }
-            catch (Exception ex)
-            {
-                Log($"Exception in GetAssetUV: {ex.Message}");
-            }
+
+            Log("No valid object found.");
             return null;
         }
 
-        private static Bitmap? GetImageUV(string picAssetPath, float? bakedSourceUVX, float? bakedSourceUVY, float? bakedSourceDimensionX, float? bakedSourceDimensionY)
+        private static Bitmap? CropBitmap(Bitmap image, float? bakedSourceUVX, float? bakedSourceUVY, float? bakedSourceDimensionX, float? bakedSourceDimensionY)
         {
             if (bakedSourceUVX.HasValue && bakedSourceUVY.HasValue && bakedSourceDimensionX.HasValue && bakedSourceDimensionY.HasValue)
             {
                 try
                 {
-                    if (!File.Exists(picAssetPath))
+                    var x = (int)bakedSourceUVX.Value;
+                    var y = (int)bakedSourceUVY.Value;
+                    var width = (int)bakedSourceDimensionX.Value;
+                    var height = (int)bakedSourceDimensionY.Value;
+
+                    if (x < 0 || y < 0 || width <= 0 || height <= 0 || x + width > image.Width || y + height > image.Height)
                     {
                         return null;
                     }
 
-                    using (var image = Image.FromFile(picAssetPath))
+                    var cutArea = new Rectangle(x, y, width, height);
+
+                    Bitmap bitmap;
+                    using (var tempBitmap = new Bitmap(cutArea.Width, cutArea.Height))
                     {
-                        var x = (int)bakedSourceUVX.Value;
-                        var y = (int)bakedSourceUVY.Value;
-                        var width = (int)bakedSourceDimensionX.Value;
-                        var height = (int)bakedSourceDimensionY.Value;
-
-                        if (x < 0 || y < 0 || width <= 0 || height <= 0 || x + width > image.Width || y + height > image.Height)
+                        using (var graphics = Graphics.FromImage(tempBitmap))
                         {
-                            return null;
+                            graphics.Clear(Color.Transparent);
+                            graphics.DrawImage(image, new Rectangle(0, 0, cutArea.Width, cutArea.Height), cutArea, GraphicsUnit.Pixel);
                         }
 
-                        var cutArea = new Rectangle(x, y, width, height);
-
-                        Bitmap bitmap;
-                        using (var tempBitmap = new Bitmap(cutArea.Width, cutArea.Height))
-                        {
-                            using (var graphics = Graphics.FromImage(tempBitmap))
-                            {
-                                graphics.Clear(Color.Transparent);
-                                graphics.DrawImage(image, new Rectangle(0, 0, cutArea.Width, cutArea.Height), cutArea, GraphicsUnit.Pixel);
-                            }
-
-                            bitmap = new Bitmap(tempBitmap);
-                        }
-
-                        return bitmap;
+                        bitmap = new Bitmap(tempBitmap);
                     }
+
+                    return bitmap;
                 }
                 catch (OutOfMemoryException ex)
                 {
@@ -262,17 +275,72 @@ namespace Server_Console.Database_Tool
             }
         }
 
-        private static (float? X, float? Y) ParseVector2D(string value)
+        private static (float X, float Y) ParseVector2D(string vectorString)
         {
-            var match = Regex.Match(value, @"\((\d+),\s*(\d+)\)");
+            var regex = new Regex(@"X=(?<X>[-+]?\d*\.\d+|\d+) Y=(?<Y>[-+]?\d*\.\d+|\d+)");
+            var match = regex.Match(vectorString);
             if (match.Success)
             {
-                if (float.TryParse(match.Groups[1].Value, out var x) && float.TryParse(match.Groups[2].Value, out var y))
-                {
-                    return (x, y);
-                }
+                float x = float.Parse(match.Groups["X"].Value);
+                float y = float.Parse(match.Groups["Y"].Value);
+                return (x, y);
             }
-            return (null, null);
+            return (0, 0);
+        }
+
+        private static (string ObjectPath, string ObjectName) ParseBakedSourceTexture(string textureString)
+        {
+            var parts = textureString.Split(new[] { '\'' }, StringSplitOptions.RemoveEmptyEntries);
+            if (parts.Length >= 2)
+            {
+                string objectName = parts[0];
+                string objectPath = parts[1];
+                return (objectPath, objectName);
+            }
+            return (string.Empty, string.Empty);
+        }
+
+        public static string ReformatTexturePath(string input)
+        {
+            string[] parts = input.Split('.');
+
+            if (parts.Length < 2)
+                return "";
+
+            string lastPart = parts[1];
+            string[] subParts = lastPart.Split(':');
+
+            if (subParts.Length < 2)
+                return "";
+
+            string result = $"{parts[0]}.{subParts[1]}";
+            return result;
+        }
+
+        public static void InitZlibSync()
+        {
+            var zlibPath = FileManager.GetFilePath("./Lib/" + ZlibHelper.DLL_NAME);
+            if (!File.Exists(zlibPath))
+            {
+                ZlibHelper.DownloadDllAsync(zlibPath);
+            }
+
+            ZlibHelper.Initialize(zlibPath);
+        }
+
+        private static Bitmap ConvertSKBitmapToBitmap(SKBitmap skBitmap)
+        {
+            using (var ms = new MemoryStream())
+            {
+                using (var image = SKImage.FromBitmap(skBitmap))
+                using (var data = image.Encode(SKEncodedImageFormat.Png, 100))
+                {
+                    data.SaveTo(ms);
+                }
+
+                ms.Seek(0, SeekOrigin.Begin);
+                return new Bitmap(ms);
+            }
         }
     }
 

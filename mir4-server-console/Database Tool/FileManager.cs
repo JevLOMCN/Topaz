@@ -1,4 +1,8 @@
-﻿using System.Collections.Concurrent;
+﻿using System;
+using System.Collections.Concurrent;
+using System.Collections.Generic;
+using System.IO;
+using System.Linq;
 using Newtonsoft.Json.Linq;
 using Microsoft.VisualBasic.FileIO;
 
@@ -219,7 +223,7 @@ namespace Server_Console.Database_Tool
                     {
                         string iconId = parts[1];
                         string path = parts[3];
-                        IconPathMap[iconId] = $"Assets{path}.uasset";
+                        IconPathMap[iconId] = path;
                         iconCount++;
                     }
                 }
