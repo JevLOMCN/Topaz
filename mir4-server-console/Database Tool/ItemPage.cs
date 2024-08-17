@@ -1,4 +1,10 @@
-﻿using System.Reflection;
+﻿using System;
+using System.Collections.Generic;
+using System.Drawing;
+using System.Linq;
+using System.Reflection;
+using System.Threading.Tasks;
+using System.Windows.Forms;
 
 namespace Server_Console.Database_Tool
 {
@@ -6,7 +12,7 @@ namespace Server_Console.Database_Tool
     {
         private MenuStrip menuStrip = new MenuStrip();
         private ToolStripMenuItem languageMenuItem = new ToolStripMenuItem();
-        private ComboBox languageComboBox = new ComboBox();
+
         private ComboBox searchBox = new ComboBox();
         private Button searchButton = new Button();
         private PictureBox iconPictureBox = new PictureBox();
@@ -35,6 +41,39 @@ namespace Server_Console.Database_Tool
             // InitializeFormTitle();
             InitializeLanguageMenu();
             DelayAndLoadData();
+            IconExtractor.InitZlibSync();
+            IconExtractor.InitializeProvider();
+
+        }
+
+        private void InitializeLanguageMenu()
+        {
+            languageMenuItem.DropDownItems.Clear();
+            var languages = new Dictionary<string, string>
+            {
+                { "CHT", "中文(繁體)" },
+                { "CHS", "中文(简体)" },
+                { "JPN", "日本語" },
+                { "ENG", "English" },
+                { "THA", "ภาษาไทย" },
+                { "IND", "Bahasa Indonesia" },
+                { "VIE", "Tiếng Việt" },
+                { "GER", "Deutsch" },
+                { "SPA", "Español" },
+                { "POR", "Português" },
+                { "RUS", "Русский" }
+            };
+
+            foreach (var lang in languages)
+            {
+                var menuItem = new ToolStripMenuItem(lang.Value)
+                {
+                    Tag = lang.Key
+                };
+                menuItem.Click -= LanguageMenuItem_Click;
+                menuItem.Click += LanguageMenuItem_Click;
+                languageMenuItem.DropDownItems.Add(menuItem);
+            }
         }
 
         private void InitializeComponent()
@@ -88,9 +127,7 @@ namespace Server_Console.Database_Tool
             searchBox.Name = "searchBox";
             searchBox.Size = new Size(1048, 33);
             searchBox.TabIndex = 0;
-            searchBox.SelectedIndexChanged -= searchBox_SelectedIndexChanged;
             searchBox.SelectedIndexChanged += searchBox_SelectedIndexChanged;
-            searchBox.TextChanged -= searchBox_TextChanged;
             searchBox.TextChanged += searchBox_TextChanged;
 
             // searchButton
@@ -103,7 +140,6 @@ namespace Server_Console.Database_Tool
             searchButton.TabIndex = 1;
             searchButton.Text = "Search";
             searchButton.UseVisualStyleBackColor = false;
-            searchButton.Click -= SearchButton_Click;
             searchButton.Click += SearchButton_Click;
 
 
@@ -177,6 +213,7 @@ namespace Server_Console.Database_Tool
             this.Controls.Add(logGroupBox);
             this.Controls.Add(progressBar);
             this.Controls.Add(menuStrip);
+            this.Font = new Font("Segoe UI", 9F);
 
             menuStrip.ResumeLayout(false);
             menuStrip.PerformLayout();
@@ -214,6 +251,7 @@ namespace Server_Console.Database_Tool
             IconExtractor.SetLogMethod(Log);
             FileManager.SetProgressUpdateMethod(UpdateProgressBar);
             await Task.Run(() => FileManager.LoadData());
+            InitializeComponent();
             await Task.Delay(1000);
 
             progressBar.Visible = false;
@@ -420,42 +458,16 @@ namespace Server_Console.Database_Tool
 
         private void OnChangeLanguage()
         {
+            searchButton.Click -= SearchButton_Click;
+            searchBox.SelectedIndexChanged -= searchBox_SelectedIndexChanged;
+            searchBox.TextChanged -= searchBox_TextChanged;
             this.Controls.Clear();
             searchBox.Text = "";
             resultTextBox.Clear();
             logTextBox.Clear();
             iconPictureBox.Image = null;
+            progressBar.Visible = true;
             LoadData();
-        }
-
-        private void InitializeLanguageMenu()
-        {
-            languageMenuItem.DropDownItems.Clear();
-            var languages = new Dictionary<string, string>
-            {
-                { "CHT", "中文(繁體)" },
-                { "CHS", "中文(简体)" },
-                { "JPN", "日本語" },
-                { "ENG", "English" },
-                { "THA", "ภาษาไทย" },
-                { "IND", "Bahasa Indonesia" },
-                { "VIE", "Tiếng Việt" },
-                { "GER", "Deutsch" },
-                { "SPA", "Español" },
-                { "POR", "Português" },
-                { "RUS", "Русский" }
-            };
-
-            foreach (var lang in languages)
-            {
-                var menuItem = new ToolStripMenuItem(lang.Value)
-                {
-                    Tag = lang.Key
-                };
-                menuItem.Click -= LanguageMenuItem_Click;
-                menuItem.Click += LanguageMenuItem_Click;
-                languageMenuItem.DropDownItems.Add(menuItem);
-            }
         }
     }
 }

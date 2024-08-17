@@ -7,7 +7,7 @@ namespace Server_Console.Database_Tool
     {
         private readonly string _path;
         public static string CurrentLanguage { get; set; } = "ENG";
-
+        public static string AESKey = "0xAD768F68B8795A776100525791F675E15341D565D9AB4B4B74C95F31B03310F3";
         public Config(string path)
         {
             _path = path;
