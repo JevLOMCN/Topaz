@@ -29,12 +29,16 @@
         private void InitializeComponent()
         {
             InfoCloseImage = new PictureBox();
-            SpecialThanksLabel = new Label();
-            NyylLabel = new Label();
-            Firev2Label = new Label();
-            MentalLabel = new Label();
-            GurgelLabel = new Label();
+            InfoLabel = new Label();
+            ScammedLabel = new Label();
+            GitHub = new PictureBox();
+            LOMCN = new PictureBox();
+            RageZone = new PictureBox();
+            label1 = new Label();
             ((System.ComponentModel.ISupportInitialize)InfoCloseImage).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)GitHub).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)LOMCN).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)RageZone).BeginInit();
             SuspendLayout();
             // 
             // InfoCloseImage
@@ -48,60 +52,64 @@
             InfoCloseImage.TabStop = false;
             InfoCloseImage.Click += InfoCloseImage_Click;
             // 
-            // SpecialThanksLabel
+            // InfoLabel
             // 
-            SpecialThanksLabel.AutoSize = true;
-            SpecialThanksLabel.BackColor = Color.Transparent;
-            SpecialThanksLabel.Font = new Font("Segoe UI", 25F);
-            SpecialThanksLabel.Location = new Point(183, -2);
-            SpecialThanksLabel.Name = "SpecialThanksLabel";
-            SpecialThanksLabel.Size = new Size(238, 46);
-            SpecialThanksLabel.TabIndex = 5;
-            SpecialThanksLabel.Text = "Special Thanks";
+            InfoLabel.AutoSize = true;
+            InfoLabel.BackColor = Color.Transparent;
+            InfoLabel.Font = new Font("Segoe UI", 25F);
+            InfoLabel.Location = new Point(257, 9);
+            InfoLabel.Name = "InfoLabel";
+            InfoLabel.Size = new Size(97, 46);
+            InfoLabel.TabIndex = 5;
+            InfoLabel.Text = "INFO";
             // 
-            // NyylLabel
+            // ScammedLabel
             // 
-            NyylLabel.AutoSize = true;
-            NyylLabel.Font = new Font("Segoe UI", 15F);
-            NyylLabel.Location = new Point(274, 55);
-            NyylLabel.Name = "NyylLabel";
-            NyylLabel.Size = new Size(52, 28);
-            NyylLabel.TabIndex = 6;
-            NyylLabel.Text = "Nyyl";
-            NyylLabel.Click += NyylLabel_Click;
+            ScammedLabel.AutoSize = true;
+            ScammedLabel.Location = new Point(15, 238);
+            ScammedLabel.Name = "ScammedLabel";
+            ScammedLabel.Size = new Size(569, 15);
+            ScammedLabel.TabIndex = 6;
+            ScammedLabel.Text = "* IF YOU HAVE PAID FOR THE MIR 4 SOURCE OR ANY TOOLS CREATED BY JEV, YOU HAVE BEEN SCAMMED!";
             // 
-            // Firev2Label
+            // GitHub
             // 
-            Firev2Label.AutoSize = true;
-            Firev2Label.Font = new Font("Segoe UI", 15F);
-            Firev2Label.Location = new Point(270, 105);
-            Firev2Label.Name = "Firev2Label";
-            Firev2Label.Size = new Size(65, 28);
-            Firev2Label.TabIndex = 7;
-            Firev2Label.Text = "Firev2";
-            Firev2Label.Click += Firev2Label_Click;
+            GitHub.Image = Properties.Resources.GitHub;
+            GitHub.Location = new Point(271, 93);
+            GitHub.Name = "GitHub";
+            GitHub.Size = new Size(64, 64);
+            GitHub.TabIndex = 7;
+            GitHub.TabStop = false;
+            GitHub.Click += GitHub_Click;
             // 
-            // MentalLabel
+            // LOMCN
             // 
-            MentalLabel.AutoSize = true;
-            MentalLabel.Font = new Font("Segoe UI", 15F);
-            MentalLabel.Location = new Point(265, 155);
-            MentalLabel.Name = "MentalLabel";
-            MentalLabel.Size = new Size(77, 28);
-            MentalLabel.TabIndex = 9;
-            MentalLabel.Text = "MentaL";
-            MentalLabel.Click += MentalLabel_Click;
+            LOMCN.Image = Properties.Resources.LOMCN;
+            LOMCN.Location = new Point(341, 93);
+            LOMCN.Name = "LOMCN";
+            LOMCN.Size = new Size(64, 64);
+            LOMCN.TabIndex = 8;
+            LOMCN.TabStop = false;
+            LOMCN.Click += LOMCN_Click;
             // 
-            // GurgelLabel
+            // RageZone
             // 
-            GurgelLabel.AutoSize = true;
-            GurgelLabel.Font = new Font("Segoe UI", 15F);
-            GurgelLabel.Location = new Point(265, 205);
-            GurgelLabel.Name = "GurgelLabel";
-            GurgelLabel.Size = new Size(71, 28);
-            GurgelLabel.TabIndex = 10;
-            GurgelLabel.Text = "Gurgel";
-            GurgelLabel.Click += GurgelLabel_Click;
+            RageZone.Image = Properties.Resources.RageZone;
+            RageZone.Location = new Point(201, 93);
+            RageZone.Name = "RageZone";
+            RageZone.Size = new Size(64, 64);
+            RageZone.TabIndex = 9;
+            RageZone.TabStop = false;
+            RageZone.Click += RageZone_Click;
+            // 
+            // label1
+            // 
+            label1.AutoSize = true;
+            label1.Location = new Point(219, 189);
+            label1.Name = "label1";
+            label1.Size = new Size(177, 15);
+            label1.TabIndex = 10;
+            label1.Text = "Contact Email: Jev@LOMCN.net";
             // 
             // InfoForm
             // 
@@ -109,11 +117,12 @@
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.Black;
             ClientSize = new Size(607, 262);
-            Controls.Add(GurgelLabel);
-            Controls.Add(MentalLabel);
-            Controls.Add(Firev2Label);
-            Controls.Add(NyylLabel);
-            Controls.Add(SpecialThanksLabel);
+            Controls.Add(label1);
+            Controls.Add(RageZone);
+            Controls.Add(LOMCN);
+            Controls.Add(GitHub);
+            Controls.Add(ScammedLabel);
+            Controls.Add(InfoLabel);
             Controls.Add(InfoCloseImage);
             ForeColor = Color.Gray;
             FormBorderStyle = FormBorderStyle.None;
@@ -121,16 +130,20 @@
             StartPosition = FormStartPosition.CenterParent;
             Text = "InfoForm";
             ((System.ComponentModel.ISupportInitialize)InfoCloseImage).EndInit();
+            ((System.ComponentModel.ISupportInitialize)GitHub).EndInit();
+            ((System.ComponentModel.ISupportInitialize)LOMCN).EndInit();
+            ((System.ComponentModel.ISupportInitialize)RageZone).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
 
         #endregion
         private PictureBox InfoCloseImage;
-        private Label SpecialThanksLabel;
-        private Label NyylLabel;
-        private Label Firev2Label;
-        private Label MentalLabel;
-        private Label GurgelLabel;
+        private Label InfoLabel;
+        private Label ScammedLabel;
+        private PictureBox GitHub;
+        private PictureBox LOMCN;
+        private PictureBox RageZone;
+        private Label label1;
     }
 }

@@ -23,7 +23,7 @@ namespace Mir_4_Launcher
             InitializeProcessCheckTimer();
             _ = LoadWebsite(); // Call LoadWebsite() with the await operator
         }
-       
+
         private async Task LoadWebsite()
         {
             // Ensure the CoreWebView2 is initialized
@@ -248,6 +248,12 @@ namespace Mir_4_Launcher
         {
             Process[] processes = Process.GetProcessesByName(processName);
             return processes.Length > 0;
+        }
+
+        private void LOMCNCoLabel_Click(object sender, EventArgs e)
+        {
+            if (LOMCNCoLabel.Text == "© MIR 4 Co., LTD. All rights reserved.") LOMCNCoLabel.Text = "Designed by Jev";
+            else LOMCNCoLabel.Text = "© MIR 4 Co., LTD. All rights reserved.";
         }
     }
 }

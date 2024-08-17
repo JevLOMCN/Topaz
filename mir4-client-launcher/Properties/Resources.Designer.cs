@@ -223,6 +223,16 @@ namespace Mir_4_Launcher.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap GitHub {
+            get {
+                object obj = ResourceManager.GetObject("GitHub", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap GithubButton {
             get {
                 object obj = ResourceManager.GetObject("GithubButton", resourceCulture);
@@ -253,6 +263,16 @@ namespace Mir_4_Launcher.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap LOMCN {
+            get {
+                object obj = ResourceManager.GetObject("LOMCN", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap LOMCNButton {
             get {
                 object obj = ResourceManager.GetObject("LOMCNButton", resourceCulture);
@@ -276,6 +296,16 @@ namespace Mir_4_Launcher.Properties {
         internal static System.Drawing.Bitmap Minimize {
             get {
                 object obj = ResourceManager.GetObject("Minimize", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap RageZone {
+            get {
+                object obj = ResourceManager.GetObject("RageZone", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

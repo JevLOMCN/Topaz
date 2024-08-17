@@ -18,49 +18,14 @@ namespace Mir_4_Launcher
             InitializeComponent();
         }
 
-        private void LOMCNImage_Click(object sender, EventArgs e)
-        {
-            string link = "https://www.lomcn.net/";
-
-            try
-            {
-                Process.Start(new ProcessStartInfo
-                {
-                    FileName = link,
-                    UseShellExecute = true
-                });
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show("Error: " + ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-            }
-        }
-
-        private void RZImage_Click(object sender, EventArgs e)
-        {
-            string link = "https://forum.ragezone.com/";
-
-            try
-            {
-                Process.Start(new ProcessStartInfo
-                {
-                    FileName = link,
-                    UseShellExecute = true
-                });
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show("Error: " + ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-            }
-        }
         private void InfoCloseImage_Click(object sender, EventArgs e)
         {
             this.Close();
         }
 
-        private void NyylLabel_Click(object sender, EventArgs e)
+        private void GitHub_Click(object sender, EventArgs e)
         {
-            string link = "https://www.lomcn.net/forum/members/nyylxd.42262/";
+            string link = "https://github.com/JevLOMCN/Topaz";
 
             try
             {
@@ -76,9 +41,9 @@ namespace Mir_4_Launcher
             }
         }
 
-        private void Firev2Label_Click(object sender, EventArgs e)
+        private void LOMCN_Click(object sender, EventArgs e)
         {
-            string link = "https://www.lomcn.net/forum/members/aboveyou.45200/";
+            string link = "https://www.lomcn.net/forum/";
 
             try
             {
@@ -94,27 +59,9 @@ namespace Mir_4_Launcher
             }
         }
 
-        private void MentalLabel_Click(object sender, EventArgs e)
+        private void RageZone_Click(object sender, EventArgs e)
         {
-            string link = "https://www.lomcn.net/forum/members/mental.3870/";
-
-            try
-            {
-                Process.Start(new ProcessStartInfo
-                {
-                    FileName = link,
-                    UseShellExecute = true
-                });
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show("Error: " + ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-            }
-        }
-
-        private void GurgelLabel_Click(object sender, EventArgs e)
-        {
-            string link = "https://www.lomcn.net/forum/members/gurgell.45127/";
+            string link = "https://forum.ragezone.com/";
 
             try
             {

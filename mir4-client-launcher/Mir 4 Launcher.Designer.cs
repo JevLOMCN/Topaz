@@ -97,6 +97,7 @@
             LOMCNCoLabel.Size = new Size(210, 15);
             LOMCNCoLabel.TabIndex = 4;
             LOMCNCoLabel.Text = "© MIR 4 Co., LTD. All rights reserved.";
+            LOMCNCoLabel.Click += LOMCNCoLabel_Click;
             // 
             // CommunityImage
             // 

@@ -118,6 +118,9 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="LOMCN" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\LOMCN.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="BlankProgressBar" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\BlankProgressBar.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -145,6 +148,9 @@
   <data name="GithubButton_Pressed" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\GithubButton_Pressed.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="favicon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\favicon.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="Start2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Start2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -163,6 +169,15 @@
   <data name="DX11Pressed" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\DX11Pressed.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="Start2Greyed" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Start2Greyed.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="StartGreyed" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\StartGreyed.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="GitHub" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\GitHub2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="SettingsBackdrop" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\SettingsBackdrop.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -175,6 +190,9 @@
   <data name="SettingsClose" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\SettingsClose.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="FullscreenButton" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FullscreenButton.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="CommunityButtonBlank_Pressed" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\CommunityButtonBlank_Pressed.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -186,9 +204,6 @@
   </data>
   <data name="DX12Pressed" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\DX12Pressed.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="FullscreenButton" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\FullscreenButton.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="DiscordButton_Pressed" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\DiscordButton_Pressed.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -208,13 +223,7 @@
   <data name="SettingsButtonPressed" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\SettingsButtonPressed.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Start2Greyed" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Start2Greyed.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="StartGreyed" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\StartGreyed.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="favicon" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\favicon.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="RageZone" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\RageZone.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>
