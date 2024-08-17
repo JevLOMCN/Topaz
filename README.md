@@ -16,7 +16,7 @@
 ---------------------------------------------------------------------------
 # Dependencies:
 
- ## Servers
+ ## Servers - Windows
  ### Windows 10+/Windows Sever 2019+
 > [Visual Studio Community 2022](https://visualstudio.microsoft.com/vs/community/)
 >
@@ -26,7 +26,7 @@
 >
 > [Redis 7.2(Latest)](https://github.com/redis/redis/archive/7.2.4.tar.gz)
 
-## Servers
+## Servers - Linux
  ### Linux
 > [Visual Code](https://code.visualstudio.com/download)
 >
