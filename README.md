@@ -17,6 +17,7 @@
 # Dependencies:
 
  ## Servers
+ ### Windows 10+/Windows Sever 2019+
 > [Visual Studio Community 2022](https://visualstudio.microsoft.com/vs/community/)
 >
 > [MySql Community 5.7.44.0](https://dev.mysql.com/downloads/file/?id=523570)
@@ -24,6 +25,16 @@
 > [Couchbase Community 7.2](https://packages.couchbase.com/releases/7.2.0/couchbase-server-enterprise_7.2.0-windows_amd64.msi)
 >
 > [Redis 7.2(Latest)](https://github.com/redis/redis/archive/7.2.4.tar.gz)
+
+## Servers
+ ### Linux
+> [Visual Code](https://code.visualstudio.com/download)
+>
+> [MySql Community 5.7.44.0](https://downloads.mysql.com/archives/get/p/23/file/mysql-5.7.44-linux-glibc2.12-x86_64.tar.gz)
+>
+> [Couchbase Community 7.2](https://docs.couchbase.com/server/current/install/install-linux.html)
+>
+> [Redis 7.2(Latest)](https://redis.io/docs/latest/operate/oss_and_stack/install/install-redis/install-redis-on-linux/)
 
  ## Website
 > [CPanel](https://cpanel.net/)
