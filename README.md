@@ -17,7 +17,7 @@
 # Dependencies:
 
  ## Servers - Windows
- ### Windows 10+/Windows Sever 2019+
+ ### Windows 10+/Windows Server 2016+
 > [Visual Studio Community 2022](https://visualstudio.microsoft.com/vs/community/)
 >
 > [MySql Community 5.7.44.0](https://dev.mysql.com/downloads/file/?id=523570)
