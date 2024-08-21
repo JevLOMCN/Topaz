@@ -19,12 +19,15 @@ namespace Mir_4_Launcher
             this.Deactivate += CommunityForm_Deactivate;
         }
 
+        #region Close Form
         private void CommunityForm_Deactivate(object sender, EventArgs e)
         {
             // Close the CommunityForm when it loses focus
             this.Close();
         }
+        #endregion
 
+        #region Button Animations
         private void LOMCNBox_MouseHover(object sender, EventArgs e)
         {
             // Change the image when the mouse enters the PictureBox
@@ -37,6 +40,32 @@ namespace Mir_4_Launcher
             LOMCNBox.Image = Properties.Resources.LOMCNButton;
         }
 
+        private void DiscordBox_MouseHover(object sender, EventArgs e)
+        {
+            // Change the image when the mouse enters the PictureBox
+            DiscordBox.Image = Properties.Resources.DiscordButton_Pressed;
+        }
+
+        private void DiscordBox_MouseLeave(object sender, EventArgs e)
+        {
+            // Change the image when the mouse leaves the PictureBox
+            DiscordBox.Image = Properties.Resources.DiscordButton;
+        }
+
+        private void GithubBox_MouseHover(object sender, EventArgs e)
+        {
+            // Change the image when the mouse enters the PictureBox
+            GithubBox.Image = Properties.Resources.GithubButton_Pressed;
+        }
+
+        private void GithubBox_MouseLeave(object sender, EventArgs e)
+        {
+            // Change the image when the mouse leaves the PictureBox
+            GithubBox.Image = Properties.Resources.GithubButton;
+        }
+        #endregion
+
+        #region Button Links
         private void LOMCNBox_Click(object sender, EventArgs e)
         {
             string link = "https://www.lomcn.net";
@@ -73,18 +102,6 @@ namespace Mir_4_Launcher
             }
         }
 
-        private void DiscordBox_MouseHover(object sender, EventArgs e)
-        {
-            // Change the image when the mouse enters the PictureBox
-            DiscordBox.Image = Properties.Resources.DiscordButton_Pressed;
-        }
-
-        private void DiscordBox_MouseLeave(object sender, EventArgs e)
-        {
-            // Change the image when the mouse leaves the PictureBox
-            DiscordBox.Image = Properties.Resources.DiscordButton;
-        }
-
         private void GithubBox_Click(object sender, EventArgs e)
         {
             string link = "https://github.com/JevLOMCN/Topaz";
@@ -102,17 +119,6 @@ namespace Mir_4_Launcher
                 MessageBox.Show("Error: " + ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
-
-        private void GithubBox_MouseHover(object sender, EventArgs e)
-        {
-            // Change the image when the mouse enters the PictureBox
-            GithubBox.Image = Properties.Resources.GithubButton_Pressed;
-        }
-
-        private void GithubBox_MouseLeave(object sender, EventArgs e)
-        {
-            // Change the image when the mouse leaves the PictureBox
-            GithubBox.Image = Properties.Resources.GithubButton;
-        }
+        #endregion
     }
 }

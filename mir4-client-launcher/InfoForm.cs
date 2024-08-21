@@ -18,11 +18,14 @@ namespace Mir_4_Launcher
             InitializeComponent();
         }
 
+        #region Close Form
         private void InfoCloseImage_Click(object sender, EventArgs e)
         {
             this.Close();
         }
+        #endregion
 
+        #region GitHub/LOMCN/RageZone Image Links
         private void GitHub_Click(object sender, EventArgs e)
         {
             string link = "https://github.com/JevLOMCN/Topaz";
@@ -76,5 +79,6 @@ namespace Mir_4_Launcher
                 MessageBox.Show("Error: " + ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
+        #endregion
     }
 }

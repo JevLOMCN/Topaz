@@ -24,6 +24,7 @@ namespace Mir_4_Launcher
             _ = LoadWebsite(); // Call LoadWebsite() with the await operator
         }
 
+        #region WebView Website
         private async Task LoadWebsite()
         {
             // Ensure the CoreWebView2 is initialized
@@ -40,14 +41,9 @@ namespace Mir_4_Launcher
                 MessageBox.Show("Failed to initialize CoreWebView2.");
             }
         }
-        private void InitializeProcessCheckTimer()
-        {
-            processCheckTimer = new System.Windows.Forms.Timer();
-            processCheckTimer.Interval = 5000;
-            processCheckTimer.Tick += ProcessCheckTimer_Tick;
-            processCheckTimer.Start();
-        }
+        #endregion
 
+        #region Close/Minimize Buttons
         private void CloseImage_Click(object sender, EventArgs e)
         {
             this.Close();
@@ -57,25 +53,9 @@ namespace Mir_4_Launcher
         {
             this.WindowState = FormWindowState.Minimized;
         }
-
-        private void LOMCNLABEL_Click(object sender, EventArgs e)
-        {
-            string link = "https://www.lomcn.net/";
-
-            try
-            {
-                Process.Start(new ProcessStartInfo
-                {
-                    FileName = link,
-                    UseShellExecute = true
-                });
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show("Error: " + ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-            }
-        }
-
+        #endregion
+        
+        #region Game Start Buttons
         private void GameStartButton1_Click(object sender, EventArgs e)
         {
             string currentDirectory = Environment.CurrentDirectory;
@@ -118,7 +98,9 @@ namespace Mir_4_Launcher
                 MessageBox.Show("MirMobile_DirectX missing from MirMobile directory.");
             }
         }
+        #endregion
 
+        #region Moveable Form
         private void Form1_MouseDown(object sender, MouseEventArgs e)
         {
             if (e.Button == MouseButtons.Left)
@@ -142,7 +124,9 @@ namespace Mir_4_Launcher
         {
             isDragging = false;
         }
+        #endregion
 
+        #region Community Form
         private void CommunityImage_Click(object sender, EventArgs e)
         {
             // Create an instance of CommunityForm
@@ -170,7 +154,9 @@ namespace Mir_4_Launcher
             // Show the form
             communityForm.Show();
         }
+        #endregion
 
+        #region Version Checking
         private void UpdateVersionLabel()
         {
             string buildVersionFilePath = Path.Combine("Client", "MirMobile", "Content", "additional", "buildversion.ini");
@@ -198,7 +184,9 @@ namespace Mir_4_Launcher
                 }
             }
         }
+        #endregion
 
+        #region Settings Form
         private void SettingsLabel_Click(object sender, EventArgs e)
         {
             // Open the SettingsForm when SettingsLabel is clicked
@@ -211,12 +199,24 @@ namespace Mir_4_Launcher
             SettingsForm settingsForm = new SettingsForm();
             settingsForm.ShowDialog();
         }
+        #endregion
 
+        #region Info Form
         private void InfoImage_Click(object sender, EventArgs e)
         {
             // Open the InfoForm when Info Image is clicked
             InfoForm InfoForm = new InfoForm();
             InfoForm.ShowDialog();
+        }
+        #endregion
+
+        #region Process Checking
+        private void InitializeProcessCheckTimer()
+        {
+            processCheckTimer = new System.Windows.Forms.Timer();
+            processCheckTimer.Interval = 5000;
+            processCheckTimer.Tick += ProcessCheckTimer_Tick;
+            processCheckTimer.Start();
         }
 
         private void ProcessCheckTimer_Tick(object sender, EventArgs e)
@@ -249,11 +249,34 @@ namespace Mir_4_Launcher
             Process[] processes = Process.GetProcessesByName(processName);
             return processes.Length > 0;
         }
+        #endregion
 
+        #region Copyright Label
         private void LOMCNCoLabel_Click(object sender, EventArgs e)
         {
             if (LOMCNCoLabel.Text == "© MIR 4 Co., LTD. All rights reserved.") LOMCNCoLabel.Text = "Designed by Jev";
             else LOMCNCoLabel.Text = "© MIR 4 Co., LTD. All rights reserved.";
         }
+        #endregion
+
+        #region Topaz Mir 4 Label
+        private void TOPAZLABEL_Click(object sender, EventArgs e)
+        {
+            string link = "https://www.lomcn.net/";
+
+            try
+            {
+                Process.Start(new ProcessStartInfo
+                {
+                    FileName = link,
+                    UseShellExecute = true
+                });
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Error: " + ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+        }
+        #endregion
     }
 }

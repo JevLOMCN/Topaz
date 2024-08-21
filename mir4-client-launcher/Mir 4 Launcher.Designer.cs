@@ -30,7 +30,7 @@
         {
             components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Launcher));
-            LOMCNLABEL = new Label();
+            TOPAZLABEL = new Label();
             BoxImage = new PictureBox();
             LOMCNCoLabel = new Label();
             CommunityImage = new PictureBox();
@@ -64,18 +64,18 @@
             ((System.ComponentModel.ISupportInitialize)WebView).BeginInit();
             SuspendLayout();
             // 
-            // LOMCNLABEL
+            // TOPAZLABEL
             // 
-            LOMCNLABEL.AutoSize = true;
-            LOMCNLABEL.BackColor = Color.Transparent;
-            LOMCNLABEL.Font = new Font("Segoe UI Black", 9F, FontStyle.Bold);
-            LOMCNLABEL.ForeColor = Color.White;
-            LOMCNLABEL.Location = new Point(12, 12);
-            LOMCNLABEL.Name = "LOMCNLABEL";
-            LOMCNLABEL.Size = new Size(41, 15);
-            LOMCNLABEL.TabIndex = 1;
-            LOMCNLABEL.Text = "MIR 4";
-            LOMCNLABEL.Click += LOMCNLABEL_Click;
+            TOPAZLABEL.AutoSize = true;
+            TOPAZLABEL.BackColor = Color.Transparent;
+            TOPAZLABEL.Font = new Font("Segoe UI Black", 9F, FontStyle.Bold);
+            TOPAZLABEL.ForeColor = Color.White;
+            TOPAZLABEL.Location = new Point(12, 12);
+            TOPAZLABEL.Name = "TOPAZLABEL";
+            TOPAZLABEL.Size = new Size(81, 15);
+            TOPAZLABEL.TabIndex = 1;
+            TOPAZLABEL.Text = "Topaz MIR 4";
+            TOPAZLABEL.Click += TOPAZLABEL_Click;
             // 
             // BoxImage
             // 
@@ -328,7 +328,7 @@
             Controls.Add(CommunityImage);
             Controls.Add(LOMCNCoLabel);
             Controls.Add(BoxImage);
-            Controls.Add(LOMCNLABEL);
+            Controls.Add(TOPAZLABEL);
             ForeColor = Color.Transparent;
             FormBorderStyle = FormBorderStyle.None;
             Icon = (Icon)resources.GetObject("$this.Icon");
@@ -352,7 +352,7 @@
         }
 
         #endregion
-        private Label LOMCNLABEL;
+        private Label TOPAZLABEL;
         private PictureBox BoxImage;
         private Label LOMCNCoLabel;
         private PictureBox CommunityImage;
