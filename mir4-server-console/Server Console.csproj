@@ -5,6 +5,7 @@
     <TargetFramework>net8.0-windows</TargetFramework>
     <RootNamespace>Server_Console</RootNamespace>
     <Nullable>enable</Nullable>
+    <EnableUnsafeBinaryFormatterSerialization>true</EnableUnsafeBinaryFormatterSerialization>
     <UseWindowsForms>true</UseWindowsForms>
     <ImplicitUsings>enable</ImplicitUsings>
     <ApplicationIcon>favicon.ico</ApplicationIcon>
