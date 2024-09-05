@@ -146,7 +146,7 @@ namespace Server_Console.Database_Tool
                 Anchor = AnchorStyles.Top | AnchorStyles.Left
             };
 
-            professionComboBox.Items.AddRange(new[] { "Warrior", "Sorcerer", "Taoist", "Lancer", "Arbalist", "Darkist" });
+            professionComboBox.Items.AddRange(new[] { "Warrior", "Sorcerer", "Taoist", "Lancer", "Arbalist" }); //"Darkist"
             professionComboBox.SelectedIndex = Math.Max(0, Config.worldMapDefaultClassId - 1);
 
             CheckBox showPlayerCheckBox = new CheckBox
@@ -215,7 +215,7 @@ namespace Server_Console.Database_Tool
                 Anchor = AnchorStyles.Top | AnchorStyles.Left
             };
 
-            // 创建玩家搜索框
+            // Creating a Player Search Box
             ComboBox playerSearchComboBox = new ComboBox
             {
                 Font = new Font("Segoe UI", 9F),
@@ -261,7 +261,7 @@ namespace Server_Console.Database_Tool
             string author = Assembly.GetExecutingAssembly()
                                   .GetCustomAttributes<AssemblyMetadataAttribute>()
                                   .FirstOrDefault(a => a.Key == "Authors")?
-                                  .Value ?? "Sumiao";
+                                  .Value ?? "Jev + Sumiao";
             tabPage.Text = $"Mir4Tool v{version} [By {author}]";
         }
 
@@ -277,7 +277,7 @@ namespace Server_Console.Database_Tool
 
             totalOnlineLabel = new Label
             {
-                Text = "Total Online: 0",
+                Text = "Total Players: 0",
                 Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point),
                 ForeColor = Color.Black,
                 AutoSize = false,
@@ -300,7 +300,7 @@ namespace Server_Console.Database_Tool
 
             mapOnlineLabel = new Label
             {
-                Text = "Map Online: 0",
+                Text = "Players on Map: 0",
                 Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point),
                 ForeColor = Color.Black,
                 AutoSize = false,
