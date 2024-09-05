@@ -1,111 +1,66 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Drawing;
 using System.Linq;
 using System.Reflection;
-using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Threading.Tasks;
 
 namespace Server_Console.Database_Tool
 {
     public class ItemPage : TabPage
     {
-        private MenuStrip menuStrip = new MenuStrip();
-        private ToolStripMenuItem languageMenuItem = new ToolStripMenuItem();
+        private static void Log(string message) => DatabaseTool.Log(message);
 
-        private ComboBox searchBox = new ComboBox();
+        public static ComboBox searchBox = new ComboBox();
         private Button searchButton = new Button();
         private PictureBox iconPictureBox = new PictureBox();
-        private TextBox logTextBox = new TextBox();
         private TextBox resultTextBox = new TextBox();
-        private ProgressBar progressBar = new ProgressBar();
         private GroupBox searchGroupBox = new GroupBox();
         private GroupBox iconGroupBox = new GroupBox();
         private GroupBox resultGroupBox = new GroupBox();
-        private GroupBox logGroupBox = new GroupBox();
-
-        public delegate void LogDelegate(string message);
-        public LogDelegate? LogMethod;
 
         public ItemPage()
         {
-            this.Text = "Items";
-            this.UseVisualStyleBackColor = true;
             LoadData();
         }
 
         private void LoadData()
         {
-            Config.Initialize();
             InitializeComponent();
+            InitializeControls();
             // InitializeFormTitle();
-            InitializeLanguageMenu();
-            DelayAndLoadData();
-            IconExtractor.InitZlibSync();
-            IconExtractor.InitializeProvider();
-
-        }
-
-        private void InitializeLanguageMenu()
-        {
-            languageMenuItem.DropDownItems.Clear();
-            var languages = new Dictionary<string, string>
-            {
-                { "CHT", "中文(繁體)" },
-                { "CHS", "中文(简体)" },
-                { "JPN", "日本語" },
-                { "ENG", "English" },
-                { "THA", "ภาษาไทย" },
-                { "IND", "Bahasa Indonesia" },
-                { "VIE", "Tiếng Việt" },
-                { "GER", "Deutsch" },
-                { "SPA", "Español" },
-                { "POR", "Português" },
-                { "RUS", "Русский" }
-            };
-
-            foreach (var lang in languages)
-            {
-                var menuItem = new ToolStripMenuItem(lang.Value)
-                {
-                    Tag = lang.Key
-                };
-                menuItem.Click -= LanguageMenuItem_Click;
-                menuItem.Click += LanguageMenuItem_Click;
-                languageMenuItem.DropDownItems.Add(menuItem);
-            }
         }
 
         private void InitializeComponent()
         {
-            menuStrip.SuspendLayout();
+            // PictureBox
             ((System.ComponentModel.ISupportInitialize)iconPictureBox).BeginInit();
             searchGroupBox.SuspendLayout();
             iconGroupBox.SuspendLayout();
             resultGroupBox.SuspendLayout();
-            logGroupBox.SuspendLayout();
-            this.SuspendLayout();
+            SuspendLayout();
 
-            // MenuStrip
-            menuStrip.BackColor = Color.White;
-            menuStrip.Font = new Font("Segoe UI", 9F);
-            menuStrip.ForeColor = Color.Black;
-            menuStrip.ImageScalingSize = new Size(24, 24);
-            menuStrip.Items.AddRange(new ToolStripItem[] { languageMenuItem });
-            menuStrip.Location = new Point(0, 0);
-            menuStrip.Name = "menuStrip";
-            menuStrip.Size = new Size(1456, 33);
-            menuStrip.TabIndex = 0;
-            menuStrip.Text = "menuStrip";
-            menuStrip.Dock = DockStyle.Top;
-            this.Controls.Add(menuStrip);
+            ConfigureSearchGroupBox();
+            ConfigureIconGroupBox();
+            ConfigureResultGroupBox();
 
-            // languageMenuItem
-            languageMenuItem.Name = "languageMenuItem";
-            languageMenuItem.Size = new Size(105, 29);
-            languageMenuItem.Text = "Language";
+            Controls.Add(resultGroupBox);
+            Controls.Add(iconGroupBox);
+            Controls.Add(searchGroupBox);
+            Font = new Font("Segoe UI", 9F);
 
-            // searchGroupBox
+            ((System.ComponentModel.ISupportInitialize)iconPictureBox).EndInit();
+            searchGroupBox.ResumeLayout(false);
+            searchGroupBox.PerformLayout();
+            iconGroupBox.ResumeLayout(false);
+            resultGroupBox.ResumeLayout(false);
+            resultGroupBox.PerformLayout();
+            ResumeLayout(false);
+            PerformLayout();
+        }
+
+        private void ConfigureSearchGroupBox()
+        {
             searchGroupBox.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
             searchGroupBox.BackColor = Color.White;
             searchGroupBox.Controls.Add(searchBox);
@@ -141,11 +96,10 @@ namespace Server_Console.Database_Tool
             searchButton.Text = "Search";
             searchButton.UseVisualStyleBackColor = false;
             searchButton.Click += SearchButton_Click;
+        }
 
-
-
-
-            // iconGroupBox
+        private void ConfigureIconGroupBox()
+        {
             iconGroupBox.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             iconGroupBox.BackColor = Color.White;
             iconGroupBox.Controls.Add(iconPictureBox);
@@ -163,8 +117,10 @@ namespace Server_Console.Database_Tool
             iconPictureBox.SizeMode = PictureBoxSizeMode.Zoom;
             iconPictureBox.TabIndex = 2;
             iconPictureBox.TabStop = false;
+        }
 
-            // resultGroupBox
+        private void ConfigureResultGroupBox()
+        {
             resultGroupBox.BackColor = Color.White;
             resultGroupBox.Controls.Add(resultTextBox);
             resultGroupBox.ForeColor = Color.Black;
@@ -181,55 +137,13 @@ namespace Server_Console.Database_Tool
             resultTextBox.ReadOnly = true;
             resultTextBox.ScrollBars = ScrollBars.Vertical;
             resultTextBox.TabIndex = 4;
-
-            // logGroupBox
-            logGroupBox.BackColor = Color.White;
-            logGroupBox.Controls.Add(logTextBox);
-            logGroupBox.ForeColor = Color.Black;
-            logGroupBox.Dock = DockStyle.Bottom;
-            logGroupBox.Height = 200;
-            logGroupBox.TabIndex = 3;
-            logGroupBox.TabStop = false;
-            logGroupBox.Text = "Log";
-
-            // logTextBox
-            logTextBox.BackColor = Color.White;
-            logTextBox.ForeColor = Color.Black;
-            logTextBox.Dock = DockStyle.Fill;
-            logTextBox.Multiline = true;
-            logTextBox.ReadOnly = true;
-            logTextBox.ScrollBars = ScrollBars.Vertical;
-            logTextBox.TabIndex = 3;
-
-            // progressBar
-            progressBar.Dock = DockStyle.Bottom;
-            progressBar.TabIndex = 5;
-            progressBar.Style = ProgressBarStyle.Continuous;
-
-            // Adding all components to ItemsPage
-            this.Controls.Add(resultGroupBox);
-            this.Controls.Add(iconGroupBox);
-            this.Controls.Add(searchGroupBox);
-            this.Controls.Add(logGroupBox);
-            this.Controls.Add(progressBar);
-            this.Controls.Add(menuStrip);
-            this.Font = new Font("Segoe UI", 9F);
-
-            menuStrip.ResumeLayout(false);
-            menuStrip.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)iconPictureBox).EndInit();
-            searchGroupBox.ResumeLayout(false);
-            searchGroupBox.PerformLayout();
-            iconGroupBox.ResumeLayout(false);
-            resultGroupBox.ResumeLayout(false);
-            resultGroupBox.PerformLayout();
-            logGroupBox.ResumeLayout(false);
-            logGroupBox.PerformLayout();
-            this.ResumeLayout(false);
-            this.PerformLayout();
         }
 
-
+        private async void InitializeControls()
+        {
+            await Task.Delay(1000);
+            InitializeComponent();
+        }
 
         private void InitializeFormTitle()
         {
@@ -243,29 +157,29 @@ namespace Server_Console.Database_Tool
             this.Text = $"Mir4Tool v{version} [By {author}]";
         }
 
-        private async void DelayAndLoadData()
-        {
-            Log("Starting data loading...");
-
-            FileManager.SetLogMethod(Log);
-            IconExtractor.SetLogMethod(Log);
-            FileManager.SetProgressUpdateMethod(UpdateProgressBar);
-            await Task.Run(() => FileManager.LoadData());
-            InitializeComponent();
-            await Task.Delay(1000);
-
-            progressBar.Visible = false;
-
-            LoadComboBox();
-        }
-
-        private void LoadComboBox()
+        public static void LoadComboBox()
         {
             var matchingItems = FileManager.GetMatchingItems("");
+
+            if (searchBox.InvokeRequired)
+            {
+                searchBox.Invoke(new Action(() =>
+                {
+                    UpdateComboBox(matchingItems);
+                }));
+            }
+            else
+            {
+                UpdateComboBox(matchingItems);
+            }
+        }
+
+        private static void UpdateComboBox(List<string> matchingItems)
+        {
             searchBox.BeginUpdate();
             searchBox.Items.Clear();
 
-            var sortedItems = matchingItems.OrderBy(item => item);
+            var sortedItems = matchingItems.OrderBy(item => item).ToList();
             searchBox.Items.AddRange(sortedItems.ToArray());
 
             searchBox.SelectedIndex = -1;
@@ -275,10 +189,10 @@ namespace Server_Console.Database_Tool
         private void DisplayItemData(ItemData itemData)
         {
             resultTextBox.Clear();
-            resultTextBox.AppendText($"Name : {FileManager.StringTemplateMap[itemData.NameSid]?.CHS ?? "N/A"}\r\n");
+            resultTextBox.AppendText($"Name : {FileManager.StringTemplateMap[itemData.NameSid]?.Text ?? "N/A"}\r\n");
             resultTextBox.AppendText($"ItemId : {itemData.ItemId}\r\n");
             resultTextBox.AppendText($"UseId : {itemData.UseId}\r\n");
-            resultTextBox.AppendText($"Note : {FileManager.StringTemplateMap[itemData.NoteSid]?.CHS ?? "N/A"}\r\n");
+            resultTextBox.AppendText($"Note : {FileManager.StringTemplateMap[itemData.NoteSid]?.Text ?? "N/A"}\r\n");
             resultTextBox.AppendText($"MeshId : {itemData.MeshId}\r\n");
             resultTextBox.AppendText($"Icon : {itemData.Icon}\r\n");
             resultTextBox.AppendText($"Level : {itemData.Level}\r\n");
@@ -327,37 +241,14 @@ namespace Server_Console.Database_Tool
             resultTextBox.AppendText($"TranceGroup : {itemData.TranceGroup}\r\n");
             resultTextBox.AppendText($"EquipGroup : {itemData.EquipGroup}\r\n");
 
-            IconExtractor.SetIconInPictureBox(itemData.Icon, itemData.Grade, iconPictureBox);
+            ImageProcessor.SetIconInPictureBox(itemData.Icon, itemData.Grade, itemData.Tier, itemData.TradeType, iconPictureBox);
 
             resultTextBox.SelectionStart = 0;
             resultTextBox.ScrollToCaret();
         }
 
-        private void Log(string message)
-        {
-            if (logTextBox.InvokeRequired)
-            {
-                logTextBox.Invoke(new Action(() => logTextBox.AppendText(message + Environment.NewLine)));
-            }
-            else
-            {
-                logTextBox.AppendText(message + Environment.NewLine);
-            }
-        }
-
-        private void UpdateProgressBar(int progress)
-        {
-            if (progressBar.InvokeRequired)
-            {
-                progressBar.Invoke(new Action(() => progressBar.Value = progress));
-            }
-            else
-            {
-                progressBar.Value = progress;
-            }
-        }
-
         private string lastText = string.Empty;
+
         private void searchBox_TextChanged(object sender, EventArgs e)
         {
             if (searchBox.SelectedIndex == -1)
@@ -432,42 +323,6 @@ namespace Server_Console.Database_Tool
             {
                 Log($"Error: {ex.Message}");
             }
-        }
-
-        private void iconPictureBox_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void LanguageMenuItem_Click(object sender, EventArgs e)
-        {
-            var selectedMenuItem = sender as ToolStripMenuItem;
-            var languageCode = selectedMenuItem.Tag.ToString();
-
-            if (Config.CurrentLanguage == languageCode)
-                return;
-
-            string previousLanguage = Config.CurrentLanguage;
-
-            Config.CurrentLanguage = languageCode;
-            Config.SaveLanguageSetting();
-
-            OnChangeLanguage();
-            Log($"Language changed from {previousLanguage} to {Config.CurrentLanguage}.");
-        }
-
-        private void OnChangeLanguage()
-        {
-            searchButton.Click -= SearchButton_Click;
-            searchBox.SelectedIndexChanged -= searchBox_SelectedIndexChanged;
-            searchBox.TextChanged -= searchBox_TextChanged;
-            this.Controls.Clear();
-            searchBox.Text = "";
-            resultTextBox.Clear();
-            logTextBox.Clear();
-            iconPictureBox.Image = null;
-            progressBar.Visible = true;
-            LoadData();
         }
     }
 }

@@ -1,17 +1,11 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
+using System.Globalization;
 using System.IO;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using System.Runtime.InteropServices;
 using System.Windows.Forms;
-using System.Formats.Asn1;
-using System.Globalization;
 using CsvHelper;
-using CsvHelper.Configuration.Attributes;
 using CsvHelper.Configuration;
 
 namespace Server_Console.Database_Tool
@@ -21,107 +15,171 @@ namespace Server_Console.Database_Tool
         public DatabaseTool()
         {
             InitializeComponent();
-            ConfigureCommandsGrid();
+            this.Shown += new EventHandler(DatabaseTool_Shown);
         }
-        public class Command
+        private void DatabaseTool_Shown(object sender, EventArgs e)
         {
-            public string Type { get; set; }
-            public string CommandName { get; set; }
-            public string Parameters { get; set; }
-            public string Function { get; set; }
-            public string Notes { get; set; }
+            InitializeData();
         }
+
+        #region Initialization Methods
+
+        private async void InitializeData()
+        {
+            int totalSteps = 6;
+            int currentStep = 0;
+
+            InitializeLanguageMenu();
+            currentStep++;
+            UpdateProgressBar((currentStep * 100) / totalSteps);
+
+            await Task.Run(() => Config.Initialize());
+            currentStep++;
+            UpdateProgressBar((currentStep * 100) / totalSteps);
+
+            await Task.Run(() => ImageProcessor.Initialize());
+            currentStep++;
+            UpdateProgressBar((currentStep * 100) / totalSteps);
+
+            await Task.Run(() => FileManager.Initialize());
+            currentStep++;
+            UpdateProgressBar((currentStep * 100) / totalSteps);
+
+            await Task.Run(() => MapPage.LoadData());
+            currentStep++;
+            UpdateProgressBar((currentStep * 100) / totalSteps);
+
+            await Task.Run(() => CommandPage.Initialize());
+            currentStep++;
+            UpdateProgressBar((currentStep * 100) / totalSteps);
+
+            await Task.Delay(1000);
+
+            progressBar.Visible = false;
+            statusLabel.Text = "Completed";
+        }
+
+        private void InitializeLanguageMenu()
+        {
+            var languages = new Dictionary<string, string>
+            {
+                { "TextKr", "한국어" },
+                { "CHT", "中文(繁體)" },
+                { "CHS", "中文(简体)" },
+                { "JPN", "日本語" },
+                { "ENG", "English" },
+                { "THA", "ภาษาไทย" },
+                { "IND", "Bahasa Indonesia" },
+                { "VIE", "Tiếng Việt" },
+                { "GER", "Deutsch" },
+                { "SPA", "Español" },
+                { "POR", "Português" },
+                { "RUS", "Русский" }
+            };
+
+            foreach (var lang in languages)
+            {
+                var menuItem = new ToolStripMenuItem(lang.Value)
+                {
+                    Tag = lang.Key
+                };
+                menuItem.Click += LanguageMenuItem_Click;
+                languageMenuItem.DropDownItems.Add(menuItem);
+            }
+        }
+
+        #endregion
+
+        #region Event Handlers
 
         private void DatabaseTool_Load(object sender, EventArgs e)
         {
-            string dataFolderPath = Path.Combine(Application.StartupPath, "Assets");
+            EnsureDataFolderExists();
+            UpdateTabItemSize();
+        }
 
+        private void LanguageMenuItem_Click(object sender, EventArgs e)
+        {
+            if (sender is ToolStripMenuItem menuItem && menuItem.Tag is string langCode)
+            {
+                if (Config.CurrentLanguage == langCode)
+                    return;
+
+                var result = MessageBox.Show("Switching languages requires restarting the application. Would you like to restart now?", "Notice", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+                if (result == DialogResult.Yes)
+                {
+                    Config.CurrentLanguage = langCode;
+                    Config.SaveLanguageSetting();
+                    Config.ClearCacheData();
+                    this.Hide();
+                    var newForm = new DatabaseTool();
+                    newForm.Show();
+                    this.Close();
+                }
+            }
+        }
+
+        #endregion
+
+        #region Public Methods
+
+        public static void Log(string message)
+        {
+            var mainForm = Application.OpenForms.OfType<DatabaseTool>().FirstOrDefault();
+            if (mainForm != null)
+            {
+                mainForm.AppendLog(message);
+            }
+        }
+
+        #endregion
+
+        #region Private Methods
+        private void UpdateProgressBar(int progress)
+        {
+            if (progressBar.InvokeRequired)
+            {
+                progressBar.Invoke(new Action(() => progressBar.Value = progress));
+            }
+            else
+            {
+                progressBar.Value = progress;
+            }
+        }
+
+        private void AppendLog(string message)
+        {
+            if (logTextBox.InvokeRequired)
+            {
+                logTextBox.Invoke(new Action(() => logTextBox.AppendText($"{message}{Environment.NewLine}")));
+            }
+            else
+            {
+                logTextBox.AppendText($"{message}{Environment.NewLine}");
+            }
+        }
+
+        private void EnsureDataFolderExists()
+        {
+            string dataFolderPath = Path.Combine(Application.StartupPath, "Assets");
             if (!Directory.Exists(dataFolderPath))
             {
                 Directory.CreateDirectory(dataFolderPath);
             }
-            else
-            {
-            }
-
-            LoadMaps();
-            LoadCommands();
         }
 
-        private void LoadMaps()
+        private void UpdateTabItemSize()
         {
-            string imagePath = "Assets/Maps/WorldMap.png";
-            if (System.IO.File.Exists(imagePath))
+            int tabCount = tabControl1.TabCount;
+            if (tabCount > 0)
             {
-                Bitmap map = new Bitmap(imagePath);
-                WorldMapBox.Image = map;
-            }
-            else
-            {
-                MessageBox.Show("Image file not found!");
-            }
-        }
-        private void LoadCommands()
-        {
-            var csvFilePath = Path.Combine(Application.StartupPath, "Assets", "CSV", "Commands.csv");
-
-            if (File.Exists(csvFilePath))
-            {
-                using (var reader = new StreamReader(csvFilePath))
-                using (var csv = new CsvReader(reader, new CsvConfiguration(CultureInfo.InvariantCulture)
+                int tabWidth = (int)Math.Floor((double)tabControl1.Width / tabCount);
+                if (tabControl1.ItemSize.Width != tabWidth)
                 {
-                    HeaderValidated = null, // Ignore header validation
-                    MissingFieldFound = null // Ignore missing fields
-                }))
-                {
-                    // Read the CSV file into a list of Command objects
-                    var commands = csv.GetRecords<Command>().ToList();
-
-                    // Bind the list to the CommandsGrid
-                    CommandsGrid.DataSource = new BindingSource { DataSource = commands };
+                    tabControl1.ItemSize = new Size(tabWidth, tabControl1.ItemSize.Height);
                 }
             }
-            else
-            {
-                MessageBox.Show("CSV file not found.");
-            }
         }
-        private void ConfigureCommandsGrid()
-        {
-            // Define columns in the grid
-            CommandsGrid.AutoGenerateColumns = false; // Disable auto generation of columns
-
-            CommandsGrid.Columns.Add(new DataGridViewTextBoxColumn
-            {
-                HeaderText = "Type",
-                Name = "Type",
-                DataPropertyName = "Type" // Ensure binding matches property name
-            });
-            CommandsGrid.Columns.Add(new DataGridViewTextBoxColumn
-            {
-                HeaderText = "Command",
-                Name = "CommandName",
-                DataPropertyName = "CommandName" // Ensure binding matches property name
-            });
-            CommandsGrid.Columns.Add(new DataGridViewTextBoxColumn
-            {
-                HeaderText = "Parameters",
-                Name = "Parameters",
-                DataPropertyName = "Parameters" // Ensure binding matches property name
-            });
-            CommandsGrid.Columns.Add(new DataGridViewTextBoxColumn
-            {
-                HeaderText = "Function",
-                Name = "Function",
-                DataPropertyName = "Function" // Ensure binding matches property name
-            });
-            CommandsGrid.Columns.Add(new DataGridViewTextBoxColumn
-            {
-                HeaderText = "Notes",
-                Name = "Notes",
-                DataPropertyName = "Notes", // Ensure binding matches property name
-                Width = 400 // Set width here
-            });
-        }
+        #endregion
     }
 }

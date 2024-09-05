@@ -1,19 +1,28 @@
-﻿using Org.BouncyCastle.Utilities;
-using static System.Runtime.InteropServices.JavaScript.JSType;
+﻿using System;
+using System.Drawing;
+using System.Linq;
+using System.Windows.Forms;
 
 namespace Server_Console.Database_Tool
 {
-    partial class DatabaseTool
+    partial class DatabaseTool : Form
     {
-        /// <summary>
-        /// Required designer variable.
-        /// </summary>
+        private System.Windows.Forms.Timer resizeTimer;
         private System.ComponentModel.IContainer components = null;
+        private MenuStrip menuStrip1;
+        private ToolStripMenuItem languageMenuItem;
+        private TabControl tabControl1;
+        private TabPage MonstersPage;
+        private TabPage AchievementsPage;
+        private TabPage SkillsPage;
+        private TabPage CommandsPage;
+        private ItemPage ItemsPage;
+        private StatusStrip statusStrip;
+        public static ToolStripStatusLabel statusLabel;
+        public static ProgressBar progressBar;
+        private GroupBox logGroupBox;
+        public TextBox logTextBox;
 
-        /// <summary>
-        /// Clean up any resources being used.
-        /// </summary>
-        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
         protected override void Dispose(bool disposing)
         {
             if (disposing && (components != null))
@@ -23,150 +32,187 @@ namespace Server_Console.Database_Tool
             base.Dispose(disposing);
         }
 
-        #region Windows Form Designer generated code
-
-        /// <summary>
-        /// Required method for Designer support - do not modify
-        /// the contents of this method with the code editor.
-        /// </summary>
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(DatabaseTool));
+
+            // Initialize components
+            menuStrip1 = new MenuStrip();
+            languageMenuItem = new ToolStripMenuItem();
             tabControl1 = new TabControl();
-            MapsPage = new TabPage();
-            WorldMapBox = new PictureBox();
             ItemsPage = new ItemPage();
             MonstersPage = new TabPage();
             AchievementsPage = new TabPage();
             SkillsPage = new TabPage();
-            CommandsPage = new TabPage();
-            CommandsGrid = new DataGridView();
-            tabControl1.SuspendLayout();
-            MapsPage.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)WorldMapBox).BeginInit();
-            CommandsPage.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)CommandsGrid).BeginInit();
+            CommandsPage = new CommandPage();
+            statusStrip = new StatusStrip();
+            statusLabel = new ToolStripStatusLabel();
+            progressBar = new ProgressBar();
+            logGroupBox = new GroupBox();
+            logTextBox = new TextBox();
+            resizeTimer = new System.Windows.Forms.Timer();
+
+            // Configure resize timer
+            resizeTimer.Interval = 100;
+            resizeTimer.Tick += ResizeTimer_Tick;
+
+            // Configure Form
             SuspendLayout();
-            // 
-            // tabControl1
-            // 
-            tabControl1.Controls.Add(MapsPage);
+            this.BackColor = Color.White;
+            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleMode = AutoScaleMode.Font;
+            ClientSize = new Size(1366, 768);
+            Controls.Add(tabControl1);
+            Controls.Add(logGroupBox);
+            Controls.Add(statusStrip);
+            Controls.Add(menuStrip1);
+            Controls.Add(progressBar);
+            Icon = (Icon)resources.GetObject("$this.Icon");
+            MainMenuStrip = menuStrip1;
+            Name = "DatabaseTool";
+            StartPosition = FormStartPosition.CenterScreen;
+            Text = "Database Tool";
+            Load += DatabaseTool_Load;
+            this.ResizeEnd += new EventHandler(TabControl1_ResizeEnd);
+
+            // Configure MenuStrip
+            menuStrip1.Items.AddRange(new ToolStripItem[] { languageMenuItem });
+            menuStrip1.Location = new Point(0, 0);
+            menuStrip1.Name = "menuStrip1";
+            menuStrip1.Size = new Size(1343, 24);
+            menuStrip1.TabIndex = 1;
+            menuStrip1.Text = "menuStrip1";
+            menuStrip1.BackColor = Color.White;
+
+            // Configure Language MenuItem
+            languageMenuItem.Name = "languageMenuItem";
+            languageMenuItem.Size = new Size(71, 20);
+            languageMenuItem.Text = "Language";
+
+            // Configure TabControl
+            MapPage.Initialize(tabControl1);
             tabControl1.Controls.Add(ItemsPage);
             tabControl1.Controls.Add(MonstersPage);
             tabControl1.Controls.Add(AchievementsPage);
             tabControl1.Controls.Add(SkillsPage);
             tabControl1.Controls.Add(CommandsPage);
             tabControl1.Dock = DockStyle.Fill;
-            tabControl1.Location = new Point(0, 0);
+            tabControl1.Location = new Point(0, 24);
             tabControl1.Name = "tabControl1";
             tabControl1.SelectedIndex = 0;
-            tabControl1.Size = new Size(1343, 663);
-            tabControl1.TabIndex = 0;
-            // 
-            // MapsPage
-            // 
-            MapsPage.Controls.Add(WorldMapBox);
-            MapsPage.Location = new Point(4, 24);
-            MapsPage.Name = "MapsPage";
-            MapsPage.Padding = new Padding(3);
-            MapsPage.Size = new Size(1335, 635);
-            MapsPage.TabIndex = 0;
-            MapsPage.Text = "Maps";
-            MapsPage.UseVisualStyleBackColor = true;
-            // 
-            // WorldMapBox
-            // 
-            WorldMapBox.Anchor = AnchorStyles.Bottom | AnchorStyles.Right;
-            WorldMapBox.BackgroundImageLayout = ImageLayout.None;
-            WorldMapBox.Location = new Point(311, 123);
-            WorldMapBox.Name = "WorldMapBox";
-            WorldMapBox.Size = new Size(1024, 512);
-            WorldMapBox.TabIndex = 0;
-            WorldMapBox.TabStop = false;
-            // 
-            // ItemsPage
-            // 
-            ItemsPage.Location = new Point(4, 24);
+            tabControl1.Size = new Size(1343, 539);
+            tabControl1.TabIndex = 2;
+            tabControl1.Appearance = TabAppearance.Normal;
+            tabControl1.ItemSize = new Size(130, 30);
+            tabControl1.SizeMode = TabSizeMode.Fixed;
+            tabControl1.Font = new Font("Segoe UI", 9F);
+            tabControl1.BackColor = Color.White;
+            tabControl1.Resize += new EventHandler(TabControl1_Resize);
+
+            ItemsPage.Location = new Point(4, 34);
             ItemsPage.Name = "ItemsPage";
             ItemsPage.Padding = new Padding(3);
-            ItemsPage.Size = new Size(1335, 635);
+            ItemsPage.Size = new Size(1335, 501);
             ItemsPage.TabIndex = 1;
             ItemsPage.Text = "Items";
             ItemsPage.UseVisualStyleBackColor = true;
-            // 
-            // MonstersPage
-            // 
-            MonstersPage.Location = new Point(4, 24);
+
+            MonstersPage.Location = new Point(4, 34);
             MonstersPage.Name = "MonstersPage";
-            MonstersPage.Size = new Size(1335, 635);
+            MonstersPage.Size = new Size(1335, 501);
             MonstersPage.TabIndex = 2;
             MonstersPage.Text = "Monsters";
             MonstersPage.UseVisualStyleBackColor = true;
-            // 
-            // AchievementsPage
-            // 
-            AchievementsPage.Location = new Point(4, 24);
+
+            AchievementsPage.Location = new Point(4, 34);
             AchievementsPage.Name = "AchievementsPage";
-            AchievementsPage.Size = new Size(1335, 635);
+            AchievementsPage.Size = new Size(1335, 501);
             AchievementsPage.TabIndex = 3;
             AchievementsPage.Text = "Achievements";
             AchievementsPage.UseVisualStyleBackColor = true;
-            // 
-            // SkillsPage
-            // 
-            SkillsPage.Location = new Point(4, 24);
+
+            SkillsPage.Location = new Point(4, 34);
             SkillsPage.Name = "SkillsPage";
-            SkillsPage.Size = new Size(1335, 635);
+            SkillsPage.Size = new Size(1335, 501);
             SkillsPage.TabIndex = 4;
             SkillsPage.Text = "Skills";
             SkillsPage.UseVisualStyleBackColor = true;
-            // 
-            // CommandsPage
-            // 
-            CommandsPage.Controls.Add(CommandsGrid);
-            CommandsPage.Location = new Point(4, 24);
+
+            CommandsPage.Location = new Point(4, 34);
             CommandsPage.Name = "CommandsPage";
-            CommandsPage.Size = new Size(1335, 635);
+            CommandsPage.Size = new Size(1335, 501);
             CommandsPage.TabIndex = 5;
             CommandsPage.Text = "Commands";
             CommandsPage.UseVisualStyleBackColor = true;
-            // 
-            // CommandsGrid
-            // 
-            CommandsGrid.BackgroundColor = SystemColors.Window;
-            CommandsGrid.Location = new Point(0, 0);
-            CommandsGrid.Name = "CommandsGrid";
-            CommandsGrid.Size = new Size(861, 632);
-            CommandsGrid.TabIndex = 0;
-            // 
-            // DatabaseTool
-            // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
-            AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(1343, 663);
-            Controls.Add(tabControl1);
-            Icon = (Icon)resources.GetObject("$this.Icon");
-            Name = "DatabaseTool";
-            Text = "Database Tool";
-            Load += DatabaseTool_Load;
+
+            // Configure StatusStrip
+            statusStrip.Items.AddRange(new ToolStripItem[] { statusLabel });
+            statusStrip.Location = new Point(0, 641);
+            statusStrip.Name = "statusStrip";
+            statusStrip.Size = new Size(1343, 22);
+            statusStrip.TabIndex = 3;
+            statusStrip.Text = "statusStrip1";
+            statusStrip.BackColor = Color.White;
+
+            // Configure StatusLabel
+            statusLabel.Name = "statusLabel";
+            statusLabel.Size = new Size(118, 17);
+            statusLabel.Text = "Loading";
+
+            // Configure ProgressBar
+            progressBar.Dock = DockStyle.Bottom;
+            progressBar.TabIndex = 5;
+            progressBar.Style = ProgressBarStyle.Continuous;
+
+            // Configure Log GroupBox
+            logGroupBox.Dock = DockStyle.Bottom;
+            logGroupBox.Controls.Add(logTextBox);
+            logGroupBox.Font = new Font("Segoe UI", 9F);
+            logGroupBox.Location = new Point(0, 489);
+            logGroupBox.Name = "logGroupBox";
+            logGroupBox.Size = new Size(1343, 152);
+            logGroupBox.TabIndex = 4;
+            logGroupBox.TabStop = false;
+            logGroupBox.Text = "Log";
+            logGroupBox.Padding = new Padding(3);
+
+            // Configure Log TextBox
+            logTextBox.Dock = DockStyle.Fill;
+            logTextBox.Multiline = true;
+            logTextBox.ScrollBars = ScrollBars.Vertical;
+            logTextBox.Name = "logTextBox";
+            logTextBox.ReadOnly = true;
+            logTextBox.BackColor = Color.White;
+            logTextBox.ForeColor = Color.Black;
+            logTextBox.Font = new Font("Segoe UI", 9F);
+
+            // Finalize Form layout
+            menuStrip1.ResumeLayout(false);
+            menuStrip1.PerformLayout();
             tabControl1.ResumeLayout(false);
-            MapsPage.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)WorldMapBox).EndInit();
-            CommandsPage.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)CommandsGrid).EndInit();
+            statusStrip.ResumeLayout(false);
+            statusStrip.PerformLayout();
+            logGroupBox.ResumeLayout(false);
+            logGroupBox.PerformLayout();
             ResumeLayout(false);
+            PerformLayout();
         }
 
-        #endregion
+        private void TabControl1_Resize(object sender, EventArgs e)
+        {
+            resizeTimer.Stop();
+            resizeTimer.Start();
+        }
 
-        private TabControl tabControl1;
-        private TabPage MapsPage;
-        private TabPage MonstersPage;
-        private TabPage AchievementsPage;
-        private TabPage SkillsPage;
-        private TabPage CommandsPage;
-        private PictureBox WorldMapBox;
-        private ItemPage ItemsPage;
-        private DataGridView CommandsGrid;
+        private void TabControl1_ResizeEnd(object sender, EventArgs e)
+        {
+            UpdateTabItemSize();
+        }
+
+        private void ResizeTimer_Tick(object sender, EventArgs e)
+        {
+            resizeTimer.Stop();
+            UpdateTabItemSize();
+        }
     }
 }
