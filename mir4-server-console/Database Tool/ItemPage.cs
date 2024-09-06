@@ -28,7 +28,7 @@ namespace Server_Console.Database_Tool
         {
             InitializeComponent();
             InitializeControls();
-            // InitializeFormTitle();
+            InitializeFormTitle();
         }
 
         private void InitializeComponent()

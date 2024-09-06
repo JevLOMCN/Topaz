@@ -33,7 +33,7 @@
             JsonDataGrid = new DataGridView();
             JSONMenu = new MenuStrip();
             Tools = new ToolStripMenuItem();
-            mergeJSONsToolStripMenuItem = new ToolStripMenuItem();
+            ExportJSONsToolStripMenuItem = new ToolStripMenuItem();
             ((System.ComponentModel.ISupportInitialize)JsonDataGrid).BeginInit();
             JSONMenu.SuspendLayout();
             SuspendLayout();
@@ -76,17 +76,17 @@
             // 
             // Tools
             // 
-            Tools.DropDownItems.AddRange(new ToolStripItem[] { mergeJSONsToolStripMenuItem });
+            Tools.DropDownItems.AddRange(new ToolStripItem[] { ExportJSONsToolStripMenuItem });
             Tools.Name = "Tools";
             Tools.Size = new Size(46, 20);
             Tools.Text = "Tools";
             // 
-            // mergeJSONsToolStripMenuItem
+            // ExportJSONsToolStripMenuItem
             // 
-            mergeJSONsToolStripMenuItem.Name = "mergeJSONsToolStripMenuItem";
-            mergeJSONsToolStripMenuItem.Size = new Size(180, 22);
-            mergeJSONsToolStripMenuItem.Text = "Merge JSONs";
-            mergeJSONsToolStripMenuItem.Click += mergeJSONsToolStripMenuItem_Click;
+            ExportJSONsToolStripMenuItem.Name = "ExportJSONsToolStripMenuItem";
+            ExportJSONsToolStripMenuItem.Size = new Size(180, 22);
+            ExportJSONsToolStripMenuItem.Text = "Export All";
+            ExportJSONsToolStripMenuItem.Click += ExportJSONsToolStripMenuItem_Click;
             // 
             // JSONForm
             // 
@@ -115,6 +115,6 @@
         private DataGridView JsonDataGrid;
         private MenuStrip JSONMenu;
         private ToolStripMenuItem Tools;
-        private ToolStripMenuItem mergeJSONsToolStripMenuItem;
+        private ToolStripMenuItem ExportJSONsToolStripMenuItem;
     }
 }

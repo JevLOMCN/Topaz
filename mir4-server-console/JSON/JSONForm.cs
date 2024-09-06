@@ -27,7 +27,7 @@ namespace Server_Console
             FileList.Nodes.Clear();
 
             // Get the directory path
-            string directoryPath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Data");
+            string directoryPath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Servers", "Data");
 
             // Check if the directory exists
             if (Directory.Exists(directoryPath))
@@ -58,7 +58,7 @@ namespace Server_Console
                 return;
 
             string fileName = e.Node.Text;
-            string filePath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Data", fileName);
+            string filePath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Servers", "Data", fileName);
 
             if (Path.GetExtension(filePath) == ".json")
             {
@@ -154,7 +154,7 @@ namespace Server_Console
                 string fileName = FileList.SelectedNode.Text;
 
                 // Get the full path of the file
-                string filePath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Data", fileName);
+                string filePath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Servers", "Data", fileName);
 
                 // Check if the file exists
                 if (File.Exists(filePath))
@@ -200,7 +200,7 @@ namespace Server_Console
                 string fileName = FileList.SelectedNode.Text;
 
                 // Get the full path of the file
-                string filePath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Data", fileName);
+                string filePath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Servers", "Data", fileName);
 
                 // Check if the file exists
                 if (File.Exists(filePath))
@@ -234,88 +234,63 @@ namespace Server_Console
         }
         #endregion
 
-        private void mergeJSONsToolStripMenuItem_Click(object sender, EventArgs e)
+        #region Export All Button
+        private void ExportJSONsToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            // Define base directory and source directory (Data folder)
-            string baseDirectory = AppDomain.CurrentDomain.BaseDirectory;
-            string directoryPath = Path.Combine(baseDirectory, "Data");
+            // Define the source folder path
+            string sourceFolderPath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Servers", "Data");
 
-            // Check if Data directory exists
-            if (!Directory.Exists(directoryPath))
+            // Create and configure a FolderBrowserDialog
+            using (FolderBrowserDialog folderBrowserDialog = new FolderBrowserDialog())
             {
-                MessageBox.Show("Data directory not found. Please ensure the Data folder exists.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                return;
-            }
+                folderBrowserDialog.Description = "Select the destination folder to save the copy of Data";
+                folderBrowserDialog.ShowNewFolderButton = true;
 
-            // Define Servers directory
-            string serversDirectory = Path.Combine(baseDirectory, "Servers");
-
-            // Check if Servers folder exists
-            if (!Directory.Exists(serversDirectory))
-            {
-                using (FolderBrowserDialog folderBrowser = new FolderBrowserDialog())
+                // Show the dialog and check if the user selected a folder
+                if (folderBrowserDialog.ShowDialog() == DialogResult.OK)
                 {
-                    folderBrowser.Description = "Select the Servers folder";
+                    string destinationFolderPath = folderBrowserDialog.SelectedPath;
 
-                    if (folderBrowser.ShowDialog() == DialogResult.OK)
-                    {
-                        serversDirectory = folderBrowser.SelectedPath;
-                    }
-                    else
-                    {
-                        // If user cancels the dialog, exit the method
-                        MessageBox.Show("Servers folder not selected. Operation cancelled.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                        return;
-                    }
-                }
-            }
-
-            // Define target directories
-            string[] targetDirectories = new string[]
-            {
-                Path.Combine(serversDirectory, "World", "Data"),
-                Path.Combine(serversDirectory, "Game", "Data"),
-                Path.Combine(serversDirectory, "Gateway", "Data")
-            };
-
-            // Copy contents to each target directory
-            foreach (string targetDirectory in targetDirectories)
-            {
-                // Ensure target directory path is valid
-                if (!string.IsNullOrEmpty(targetDirectory))
-                {
                     try
                     {
-                        CopyDirectory(directoryPath, targetDirectory);
-                        MessageBox.Show($"Data copied successfully to: {targetDirectory}", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                        // Copy the Data folder to the selected destination
+                        CopyDirectory(sourceFolderPath, destinationFolderPath);
+
+                        // Notify the user that the copy was successful
+                        MessageBox.Show("Folder copied successfully!", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
                     }
                     catch (Exception ex)
                     {
-                        MessageBox.Show($"Error copying data to {targetDirectory}: {ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                        // Handle any errors that occur during the copy process
+                        MessageBox.Show($"An error occurred: {ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                     }
                 }
-                else
-                {
-                    MessageBox.Show($"Target directory path is invalid: {targetDirectory}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                }
             }
         }
 
-        private void CopyDirectory(string sourceDir, string targetDir)
+        // Method to copy all files and subdirectories from one directory to another
+        private void CopyDirectory(string sourceDir, string destDir)
         {
-            Directory.CreateDirectory(targetDir);
+            // Create the destination directory if it doesn't exist
+            if (!Directory.Exists(destDir))
+            {
+                Directory.CreateDirectory(destDir);
+            }
 
+            // Get the files in the source directory and copy them to the new location
             foreach (string file in Directory.GetFiles(sourceDir))
             {
-                string targetFilePath = Path.Combine(targetDir, Path.GetFileName(file));
-                File.Copy(file, targetFilePath, true);
+                string destFile = Path.Combine(destDir, Path.GetFileName(file));
+                File.Copy(file, destFile, true);
             }
 
-            foreach (string directory in Directory.GetDirectories(sourceDir))
+            // Copy subdirectories and their contents to new location
+            foreach (string subDir in Directory.GetDirectories(sourceDir))
             {
-                string targetSubDir = Path.Combine(targetDir, Path.GetFileName(directory));
-                CopyDirectory(directory, targetSubDir);
+                string destSubDir = Path.Combine(destDir, Path.GetFileName(subDir));
+                CopyDirectory(subDir, destSubDir);
             }
         }
+        #endregion
     }
 }
