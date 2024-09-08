@@ -1,0 +1,291 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "MONEY",
+    "Class": "UScriptClass'DataTable'",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'MoneyTemplate'",
+        "ObjectPath": "/Script/MirMobile"
+      }
+    },
+    "Rows": {
+      "2": {
+        "OwnerType": 1,
+        "MoneyId": 2,
+        "NameSid": 2,
+        "NoteID": 1002,
+        "Icon": 2,
+        "IconSmall": 102,
+        "LimitUserMax": 1000000000000,
+        "LimitGuildMax": 0,
+        "GetWayId": 0,
+        "ShopBuyId": 0
+      },
+      "3": {
+        "OwnerType": 1,
+        "MoneyId": 3,
+        "NameSid": 3,
+        "NoteID": 1003,
+        "Icon": 33,
+        "IconSmall": 33,
+        "LimitUserMax": 1000000000,
+        "LimitGuildMax": 0,
+        "GetWayId": 0,
+        "ShopBuyId": 0
+      },
+      "4": {
+        "OwnerType": 1,
+        "MoneyId": 4,
+        "NameSid": 4,
+        "NoteID": 1004,
+        "Icon": 4,
+        "IconSmall": 104,
+        "LimitUserMax": 1000000000,
+        "LimitGuildMax": 0,
+        "GetWayId": 0,
+        "ShopBuyId": 1000001
+      },
+      "5": {
+        "OwnerType": 1,
+        "MoneyId": 5,
+        "NameSid": 4,
+        "NoteID": 1004,
+        "Icon": 4,
+        "IconSmall": 104,
+        "LimitUserMax": 1000000000,
+        "LimitGuildMax": 0,
+        "GetWayId": 0,
+        "ShopBuyId": 1000001
+      },
+      "6": {
+        "OwnerType": 1,
+        "MoneyId": 6,
+        "NameSid": 6,
+        "NoteID": 1006,
+        "Icon": 6,
+        "IconSmall": 106,
+        "LimitUserMax": 1000000000,
+        "LimitGuildMax": 0,
+        "GetWayId": 0,
+        "ShopBuyId": 0
+      },
+      "7": {
+        "OwnerType": 1,
+        "MoneyId": 7,
+        "NameSid": 4,
+        "NoteID": 1004,
+        "Icon": 4,
+        "IconSmall": 104,
+        "LimitUserMax": 1000000000,
+        "LimitGuildMax": 0,
+        "GetWayId": 0,
+        "ShopBuyId": 1000001
+      },
+      "11": {
+        "OwnerType": 1,
+        "MoneyId": 11,
+        "NameSid": 11,
+        "NoteID": 1011,
+        "Icon": 11,
+        "IconSmall": 111,
+        "LimitUserMax": 0,
+        "LimitGuildMax": 0,
+        "GetWayId": 164,
+        "ShopBuyId": 0
+      },
+      "12": {
+        "OwnerType": 1,
+        "MoneyId": 12,
+        "NameSid": 12,
+        "NoteID": 1012,
+        "Icon": 12,
+        "IconSmall": 112,
+        "LimitUserMax": 0,
+        "LimitGuildMax": 0,
+        "GetWayId": 163,
+        "ShopBuyId": 0
+      },
+      "13": {
+        "OwnerType": 1,
+        "MoneyId": 13,
+        "NameSid": 13,
+        "NoteID": 1013,
+        "Icon": 13,
+        "IconSmall": 113,
+        "LimitUserMax": 0,
+        "LimitGuildMax": 0,
+        "GetWayId": 1013,
+        "ShopBuyId": 1701001
+      },
+      "14": {
+        "OwnerType": 1,
+        "MoneyId": 14,
+        "NameSid": 14,
+        "NoteID": 1014,
+        "Icon": 14,
+        "IconSmall": 114,
+        "LimitUserMax": 100000000,
+        "LimitGuildMax": 0,
+        "GetWayId": 0,
+        "ShopBuyId": 0
+      },
+      "15": {
+        "OwnerType": 1,
+        "MoneyId": 15,
+        "NameSid": 15,
+        "NoteID": 1015,
+        "Icon": 15,
+        "IconSmall": 115,
+        "LimitUserMax": 100000000,
+        "LimitGuildMax": 0,
+        "GetWayId": 0,
+        "ShopBuyId": 0
+      },
+      "16": {
+        "OwnerType": 1,
+        "MoneyId": 16,
+        "NameSid": 16,
+        "NoteID": 1016,
+        "Icon": 16,
+        "IconSmall": 116,
+        "LimitUserMax": 100000000,
+        "LimitGuildMax": 0,
+        "GetWayId": 0,
+        "ShopBuyId": 0
+      },
+      "17": {
+        "OwnerType": 1,
+        "MoneyId": 17,
+        "NameSid": 17,
+        "NoteID": 1017,
+        "Icon": 17,
+        "IconSmall": 117,
+        "LimitUserMax": 1000000000000,
+        "LimitGuildMax": 0,
+        "GetWayId": 0,
+        "ShopBuyId": 0
+      },
+      "18": {
+        "OwnerType": 1,
+        "MoneyId": 18,
+        "NameSid": 18,
+        "NoteID": 1018,
+        "Icon": 18,
+        "IconSmall": 118,
+        "LimitUserMax": 1000000000,
+        "LimitGuildMax": 0,
+        "GetWayId": 0,
+        "ShopBuyId": 0
+      },
+      "19": {
+        "OwnerType": 1,
+        "MoneyId": 19,
+        "NameSid": 19,
+        "NoteID": 1019,
+        "Icon": 20,
+        "IconSmall": 120,
+        "LimitUserMax": 1000000000,
+        "LimitGuildMax": 0,
+        "GetWayId": 0,
+        "ShopBuyId": 1000061
+      },
+      "20": {
+        "OwnerType": 1,
+        "MoneyId": 20,
+        "NameSid": 20,
+        "NoteID": 1020,
+        "Icon": 21,
+        "IconSmall": 121,
+        "LimitUserMax": 1000000000,
+        "LimitGuildMax": 0,
+        "GetWayId": 0,
+        "ShopBuyId": 0
+      },
+      "21": {
+        "OwnerType": 1,
+        "MoneyId": 21,
+        "NameSid": 21,
+        "NoteID": 1021,
+        "Icon": 23,
+        "IconSmall": 122,
+        "LimitUserMax": 1000000000,
+        "LimitGuildMax": 0,
+        "GetWayId": 0,
+        "ShopBuyId": 0
+      },
+      "22": {
+        "OwnerType": 1,
+        "MoneyId": 22,
+        "NameSid": 22,
+        "NoteID": 1022,
+        "Icon": 24,
+        "IconSmall": 24,
+        "LimitUserMax": 999999999,
+        "LimitGuildMax": 0,
+        "GetWayId": 0,
+        "ShopBuyId": 0
+      },
+      "23": {
+        "OwnerType": 1,
+        "MoneyId": 23,
+        "NameSid": 23,
+        "NoteID": 1023,
+        "Icon": 25,
+        "IconSmall": 123,
+        "LimitUserMax": 1000000000,
+        "LimitGuildMax": 0,
+        "GetWayId": 0,
+        "ShopBuyId": 0
+      },
+      "91": {
+        "OwnerType": 2,
+        "MoneyId": 91,
+        "NameSid": 91,
+        "NoteID": 1091,
+        "Icon": 91,
+        "IconSmall": 191,
+        "LimitUserMax": 0,
+        "LimitGuildMax": 1000000,
+        "GetWayId": 0,
+        "ShopBuyId": 0
+      },
+      "92": {
+        "OwnerType": 2,
+        "MoneyId": 92,
+        "NameSid": 92,
+        "NoteID": 1092,
+        "Icon": 92,
+        "IconSmall": 192,
+        "LimitUserMax": 0,
+        "LimitGuildMax": 1000000,
+        "GetWayId": 0,
+        "ShopBuyId": 0
+      },
+      "93": {
+        "OwnerType": 2,
+        "MoneyId": 93,
+        "NameSid": 93,
+        "NoteID": 1093,
+        "Icon": 93,
+        "IconSmall": 193,
+        "LimitUserMax": 0,
+        "LimitGuildMax": 1000000,
+        "GetWayId": 0,
+        "ShopBuyId": 0
+      },
+      "94": {
+        "OwnerType": 2,
+        "MoneyId": 94,
+        "NameSid": 94,
+        "NoteID": 1094,
+        "Icon": 94,
+        "IconSmall": 194,
+        "LimitUserMax": 0,
+        "LimitGuildMax": 1000000,
+        "GetWayId": 0,
+        "ShopBuyId": 0
+      }
+    }
+  }
+]

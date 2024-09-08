@@ -1,0 +1,6639 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "STAGE_SECTOR",
+    "Class": "UScriptClass'DataTable'",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'StageSectorTemplate'",
+        "ObjectPath": "/Script/MirMobile"
+      }
+    },
+    "Rows": {
+      "1010030101": {
+        "SectorID": 1010030101,
+        "StageID": 101003010,
+        "SectorGrade": 1,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "1010030102": {
+        "SectorID": 1010030102,
+        "StageID": 101003010,
+        "SectorGrade": 2,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "1010030103": {
+        "SectorID": 1010030103,
+        "StageID": 101003010,
+        "SectorGrade": 3,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "1010030104": {
+        "SectorID": 1010030104,
+        "StageID": 101003010,
+        "SectorGrade": 4,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "1010030201": {
+        "SectorID": 1010030201,
+        "StageID": 101003020,
+        "SectorGrade": 1,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "1010030202": {
+        "SectorID": 1010030202,
+        "StageID": 101003020,
+        "SectorGrade": 2,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "1010030203": {
+        "SectorID": 1010030203,
+        "StageID": 101003020,
+        "SectorGrade": 3,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "1010030204": {
+        "SectorID": 1010030204,
+        "StageID": 101003020,
+        "SectorGrade": 4,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "1010030301": {
+        "SectorID": 1010030301,
+        "StageID": 101003030,
+        "SectorGrade": 1,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "1010030302": {
+        "SectorID": 1010030302,
+        "StageID": 101003030,
+        "SectorGrade": 2,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "1010030303": {
+        "SectorID": 1010030303,
+        "StageID": 101003030,
+        "SectorGrade": 3,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "1010030304": {
+        "SectorID": 1010030304,
+        "StageID": 101003030,
+        "SectorGrade": 4,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "1010040101": {
+        "SectorID": 1010040101,
+        "StageID": 101004010,
+        "SectorGrade": 1,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "1010040102": {
+        "SectorID": 1010040102,
+        "StageID": 101004010,
+        "SectorGrade": 2,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "1010040103": {
+        "SectorID": 1010040103,
+        "StageID": 101004010,
+        "SectorGrade": 3,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "1010040104": {
+        "SectorID": 1010040104,
+        "StageID": 101004010,
+        "SectorGrade": 4,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "1010040201": {
+        "SectorID": 1010040201,
+        "StageID": 101004020,
+        "SectorGrade": 1,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "1010040202": {
+        "SectorID": 1010040202,
+        "StageID": 101004020,
+        "SectorGrade": 2,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "1010040203": {
+        "SectorID": 1010040203,
+        "StageID": 101004020,
+        "SectorGrade": 3,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "1010040204": {
+        "SectorID": 1010040204,
+        "StageID": 101004020,
+        "SectorGrade": 4,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "1010040301": {
+        "SectorID": 1010040301,
+        "StageID": 101004030,
+        "SectorGrade": 1,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "1010040302": {
+        "SectorID": 1010040302,
+        "StageID": 101004030,
+        "SectorGrade": 2,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "1010040303": {
+        "SectorID": 1010040303,
+        "StageID": 101004030,
+        "SectorGrade": 3,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "1010040304": {
+        "SectorID": 1010040304,
+        "StageID": 101004030,
+        "SectorGrade": 4,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "1010040401": {
+        "SectorID": 1010040401,
+        "StageID": 101004040,
+        "SectorGrade": 1,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "1010040402": {
+        "SectorID": 1010040402,
+        "StageID": 101004040,
+        "SectorGrade": 2,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "1010040403": {
+        "SectorID": 1010040403,
+        "StageID": 101004040,
+        "SectorGrade": 3,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "1010040404": {
+        "SectorID": 1010040404,
+        "StageID": 101004040,
+        "SectorGrade": 4,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "1020030101": {
+        "SectorID": 1020030101,
+        "StageID": 102003010,
+        "SectorGrade": 1,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "1020030102": {
+        "SectorID": 1020030102,
+        "StageID": 102003010,
+        "SectorGrade": 2,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "1020030103": {
+        "SectorID": 1020030103,
+        "StageID": 102003010,
+        "SectorGrade": 3,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "1020030104": {
+        "SectorID": 1020030104,
+        "StageID": 102003010,
+        "SectorGrade": 4,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "1020040101": {
+        "SectorID": 1020040101,
+        "StageID": 102004010,
+        "SectorGrade": 1,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "1020040102": {
+        "SectorID": 1020040102,
+        "StageID": 102004010,
+        "SectorGrade": 2,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "1020040103": {
+        "SectorID": 1020040103,
+        "StageID": 102004010,
+        "SectorGrade": 3,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "1020040104": {
+        "SectorID": 1020040104,
+        "StageID": 102004010,
+        "SectorGrade": 4,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "1020040401": {
+        "SectorID": 1020040401,
+        "StageID": 102004040,
+        "SectorGrade": 1,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "1020040402": {
+        "SectorID": 1020040402,
+        "StageID": 102004040,
+        "SectorGrade": 2,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "1020040403": {
+        "SectorID": 1020040403,
+        "StageID": 102004040,
+        "SectorGrade": 3,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "1020040404": {
+        "SectorID": 1020040404,
+        "StageID": 102004040,
+        "SectorGrade": 4,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "1020040701": {
+        "SectorID": 1020040701,
+        "StageID": 102004070,
+        "SectorGrade": 1,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "1020040702": {
+        "SectorID": 1020040702,
+        "StageID": 102004070,
+        "SectorGrade": 2,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "1020040703": {
+        "SectorID": 1020040703,
+        "StageID": 102004070,
+        "SectorGrade": 3,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "1020040704": {
+        "SectorID": 1020040704,
+        "StageID": 102004070,
+        "SectorGrade": 4,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "1030030101": {
+        "SectorID": 1030030101,
+        "StageID": 103003010,
+        "SectorGrade": 1,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "1030030102": {
+        "SectorID": 1030030102,
+        "StageID": 103003010,
+        "SectorGrade": 2,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "1030030103": {
+        "SectorID": 1030030103,
+        "StageID": 103003010,
+        "SectorGrade": 3,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "1030030104": {
+        "SectorID": 1030030104,
+        "StageID": 103003010,
+        "SectorGrade": 4,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "1030030701": {
+        "SectorID": 1030030701,
+        "StageID": 103003070,
+        "SectorGrade": 1,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "1030030702": {
+        "SectorID": 1030030702,
+        "StageID": 103003070,
+        "SectorGrade": 2,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "1030030703": {
+        "SectorID": 1030030703,
+        "StageID": 103003070,
+        "SectorGrade": 3,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "1030030704": {
+        "SectorID": 1030030704,
+        "StageID": 103003070,
+        "SectorGrade": 4,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "1030030201": {
+        "SectorID": 1030030201,
+        "StageID": 103003020,
+        "SectorGrade": 1,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "1030030202": {
+        "SectorID": 1030030202,
+        "StageID": 103003020,
+        "SectorGrade": 2,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "1030030203": {
+        "SectorID": 1030030203,
+        "StageID": 103003020,
+        "SectorGrade": 3,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "1030030204": {
+        "SectorID": 1030030204,
+        "StageID": 103003020,
+        "SectorGrade": 4,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "1030030301": {
+        "SectorID": 1030030301,
+        "StageID": 103003030,
+        "SectorGrade": 1,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "1030030302": {
+        "SectorID": 1030030302,
+        "StageID": 103003030,
+        "SectorGrade": 2,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "1030030303": {
+        "SectorID": 1030030303,
+        "StageID": 103003030,
+        "SectorGrade": 3,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "1030030304": {
+        "SectorID": 1030030304,
+        "StageID": 103003030,
+        "SectorGrade": 4,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "1030030401": {
+        "SectorID": 1030030401,
+        "StageID": 103003040,
+        "SectorGrade": 1,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "1030030402": {
+        "SectorID": 1030030402,
+        "StageID": 103003040,
+        "SectorGrade": 2,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "1030030403": {
+        "SectorID": 1030030403,
+        "StageID": 103003040,
+        "SectorGrade": 3,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "1030030404": {
+        "SectorID": 1030030404,
+        "StageID": 103003040,
+        "SectorGrade": 4,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "1030040101": {
+        "SectorID": 1030040101,
+        "StageID": 103004010,
+        "SectorGrade": 1,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "1030040102": {
+        "SectorID": 1030040102,
+        "StageID": 103004010,
+        "SectorGrade": 2,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "1030040103": {
+        "SectorID": 1030040103,
+        "StageID": 103004010,
+        "SectorGrade": 3,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "1030040104": {
+        "SectorID": 1030040104,
+        "StageID": 103004010,
+        "SectorGrade": 4,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "1040040101": {
+        "SectorID": 1040040101,
+        "StageID": 104004010,
+        "SectorGrade": 1,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "1040040102": {
+        "SectorID": 1040040102,
+        "StageID": 104004010,
+        "SectorGrade": 2,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "1040040103": {
+        "SectorID": 1040040103,
+        "StageID": 104004010,
+        "SectorGrade": 3,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "1040040104": {
+        "SectorID": 1040040104,
+        "StageID": 104004010,
+        "SectorGrade": 4,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "1040040401": {
+        "SectorID": 1040040401,
+        "StageID": 104004040,
+        "SectorGrade": 1,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "1040040402": {
+        "SectorID": 1040040402,
+        "StageID": 104004040,
+        "SectorGrade": 2,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "1040040403": {
+        "SectorID": 1040040403,
+        "StageID": 104004040,
+        "SectorGrade": 3,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "1040040404": {
+        "SectorID": 1040040404,
+        "StageID": 104004040,
+        "SectorGrade": 4,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "1040040901": {
+        "SectorID": 1040040901,
+        "StageID": 104004090,
+        "SectorGrade": 1,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "1040040902": {
+        "SectorID": 1040040902,
+        "StageID": 104004090,
+        "SectorGrade": 2,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "1040040903": {
+        "SectorID": 1040040903,
+        "StageID": 104004090,
+        "SectorGrade": 3,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "1040040904": {
+        "SectorID": 1040040904,
+        "StageID": 104004090,
+        "SectorGrade": 4,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "1040041001": {
+        "SectorID": 1040041001,
+        "StageID": 104004100,
+        "SectorGrade": 1,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "1040041002": {
+        "SectorID": 1040041002,
+        "StageID": 104004100,
+        "SectorGrade": 2,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "1040041003": {
+        "SectorID": 1040041003,
+        "StageID": 104004100,
+        "SectorGrade": 3,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "1040041004": {
+        "SectorID": 1040041004,
+        "StageID": 104004100,
+        "SectorGrade": 4,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "1040040501": {
+        "SectorID": 1040040501,
+        "StageID": 104004050,
+        "SectorGrade": 1,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "1040040502": {
+        "SectorID": 1040040502,
+        "StageID": 104004050,
+        "SectorGrade": 2,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "1040040503": {
+        "SectorID": 1040040503,
+        "StageID": 104004050,
+        "SectorGrade": 3,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "1040040504": {
+        "SectorID": 1040040504,
+        "StageID": 104004050,
+        "SectorGrade": 4,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "1040040701": {
+        "SectorID": 1040040701,
+        "StageID": 104004070,
+        "SectorGrade": 1,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "1040040702": {
+        "SectorID": 1040040702,
+        "StageID": 104004070,
+        "SectorGrade": 2,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "1040040703": {
+        "SectorID": 1040040703,
+        "StageID": 104004070,
+        "SectorGrade": 3,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "1040040704": {
+        "SectorID": 1040040704,
+        "StageID": 104004070,
+        "SectorGrade": 4,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "1040040601": {
+        "SectorID": 1040040601,
+        "StageID": 104004060,
+        "SectorGrade": 1,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "1040040602": {
+        "SectorID": 1040040602,
+        "StageID": 104004060,
+        "SectorGrade": 2,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "1040040603": {
+        "SectorID": 1040040603,
+        "StageID": 104004060,
+        "SectorGrade": 3,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "1040040604": {
+        "SectorID": 1040040604,
+        "StageID": 104004060,
+        "SectorGrade": 4,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "1050010201": {
+        "SectorID": 1050010201,
+        "StageID": 105001020,
+        "SectorGrade": 1,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "1050010202": {
+        "SectorID": 1050010202,
+        "StageID": 105001020,
+        "SectorGrade": 2,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "1050010203": {
+        "SectorID": 1050010203,
+        "StageID": 105001020,
+        "SectorGrade": 3,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "1050010204": {
+        "SectorID": 1050010204,
+        "StageID": 105001020,
+        "SectorGrade": 4,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "1050010101": {
+        "SectorID": 1050010101,
+        "StageID": 105001010,
+        "SectorGrade": 1,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "1050010102": {
+        "SectorID": 1050010102,
+        "StageID": 105001010,
+        "SectorGrade": 2,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "1050010103": {
+        "SectorID": 1050010103,
+        "StageID": 105001010,
+        "SectorGrade": 3,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "1050010104": {
+        "SectorID": 1050010104,
+        "StageID": 105001010,
+        "SectorGrade": 4,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "1050020101": {
+        "SectorID": 1050020101,
+        "StageID": 105002010,
+        "SectorGrade": 1,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "1050020102": {
+        "SectorID": 1050020102,
+        "StageID": 105002010,
+        "SectorGrade": 2,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "1050020103": {
+        "SectorID": 1050020103,
+        "StageID": 105002010,
+        "SectorGrade": 3,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "1050020104": {
+        "SectorID": 1050020104,
+        "StageID": 105002010,
+        "SectorGrade": 4,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "1050020501": {
+        "SectorID": 1050020501,
+        "StageID": 105002050,
+        "SectorGrade": 1,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "1050020502": {
+        "SectorID": 1050020502,
+        "StageID": 105002050,
+        "SectorGrade": 2,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "1050020503": {
+        "SectorID": 1050020503,
+        "StageID": 105002050,
+        "SectorGrade": 3,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "1050020504": {
+        "SectorID": 1050020504,
+        "StageID": 105002050,
+        "SectorGrade": 4,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "1050020601": {
+        "SectorID": 1050020601,
+        "StageID": 105002060,
+        "SectorGrade": 1,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "1050020602": {
+        "SectorID": 1050020602,
+        "StageID": 105002060,
+        "SectorGrade": 2,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "1050020603": {
+        "SectorID": 1050020603,
+        "StageID": 105002060,
+        "SectorGrade": 3,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "1050020604": {
+        "SectorID": 1050020604,
+        "StageID": 105002060,
+        "SectorGrade": 4,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "1050020701": {
+        "SectorID": 1050020701,
+        "StageID": 105002070,
+        "SectorGrade": 1,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "1050020702": {
+        "SectorID": 1050020702,
+        "StageID": 105002070,
+        "SectorGrade": 2,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "1050020703": {
+        "SectorID": 1050020703,
+        "StageID": 105002070,
+        "SectorGrade": 3,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "1050020704": {
+        "SectorID": 1050020704,
+        "StageID": 105002070,
+        "SectorGrade": 4,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "1060010101": {
+        "SectorID": 1060010101,
+        "StageID": 106001010,
+        "SectorGrade": 1,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "1060010102": {
+        "SectorID": 1060010102,
+        "StageID": 106001010,
+        "SectorGrade": 2,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "1060010103": {
+        "SectorID": 1060010103,
+        "StageID": 106001010,
+        "SectorGrade": 3,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "1060010104": {
+        "SectorID": 1060010104,
+        "StageID": 106001010,
+        "SectorGrade": 4,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "1060020101": {
+        "SectorID": 1060020101,
+        "StageID": 106002010,
+        "SectorGrade": 1,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "1060020102": {
+        "SectorID": 1060020102,
+        "StageID": 106002010,
+        "SectorGrade": 2,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "1060020103": {
+        "SectorID": 1060020103,
+        "StageID": 106002010,
+        "SectorGrade": 3,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "1060020104": {
+        "SectorID": 1060020104,
+        "StageID": 106002010,
+        "SectorGrade": 4,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "1060020201": {
+        "SectorID": 1060020201,
+        "StageID": 106002020,
+        "SectorGrade": 1,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "1060020202": {
+        "SectorID": 1060020202,
+        "StageID": 106002020,
+        "SectorGrade": 2,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "1060020203": {
+        "SectorID": 1060020203,
+        "StageID": 106002020,
+        "SectorGrade": 3,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "1060020204": {
+        "SectorID": 1060020204,
+        "StageID": 106002020,
+        "SectorGrade": 4,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "1060020301": {
+        "SectorID": 1060020301,
+        "StageID": 106002030,
+        "SectorGrade": 1,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "1060020302": {
+        "SectorID": 1060020302,
+        "StageID": 106002030,
+        "SectorGrade": 2,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "1060020303": {
+        "SectorID": 1060020303,
+        "StageID": 106002030,
+        "SectorGrade": 3,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "1060020304": {
+        "SectorID": 1060020304,
+        "StageID": 106002030,
+        "SectorGrade": 4,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "1070010101": {
+        "SectorID": 1070010101,
+        "StageID": 107001010,
+        "SectorGrade": 1,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "1070010102": {
+        "SectorID": 1070010102,
+        "StageID": 107001010,
+        "SectorGrade": 2,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "1070010103": {
+        "SectorID": 1070010103,
+        "StageID": 107001010,
+        "SectorGrade": 3,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "1070010104": {
+        "SectorID": 1070010104,
+        "StageID": 107001010,
+        "SectorGrade": 4,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "1070010201": {
+        "SectorID": 1070010201,
+        "StageID": 107001020,
+        "SectorGrade": 1,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "1070010202": {
+        "SectorID": 1070010202,
+        "StageID": 107001020,
+        "SectorGrade": 2,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "1070010203": {
+        "SectorID": 1070010203,
+        "StageID": 107001020,
+        "SectorGrade": 3,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "1070010204": {
+        "SectorID": 1070010204,
+        "StageID": 107001020,
+        "SectorGrade": 4,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "1070020101": {
+        "SectorID": 1070020101,
+        "StageID": 107002010,
+        "SectorGrade": 1,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "1070020102": {
+        "SectorID": 1070020102,
+        "StageID": 107002010,
+        "SectorGrade": 2,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "1070020103": {
+        "SectorID": 1070020103,
+        "StageID": 107002010,
+        "SectorGrade": 3,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "1070020104": {
+        "SectorID": 1070020104,
+        "StageID": 107002010,
+        "SectorGrade": 4,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "1070020201": {
+        "SectorID": 1070020201,
+        "StageID": 107002020,
+        "SectorGrade": 1,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "1070020202": {
+        "SectorID": 1070020202,
+        "StageID": 107002020,
+        "SectorGrade": 2,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "1070020203": {
+        "SectorID": 1070020203,
+        "StageID": 107002020,
+        "SectorGrade": 3,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "1070020204": {
+        "SectorID": 1070020204,
+        "StageID": 107002020,
+        "SectorGrade": 4,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "1070030101": {
+        "SectorID": 1070030101,
+        "StageID": 107003010,
+        "SectorGrade": 1,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "1070030102": {
+        "SectorID": 1070030102,
+        "StageID": 107003010,
+        "SectorGrade": 2,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "1070030103": {
+        "SectorID": 1070030103,
+        "StageID": 107003010,
+        "SectorGrade": 3,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "1070030104": {
+        "SectorID": 1070030104,
+        "StageID": 107003010,
+        "SectorGrade": 4,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "1070030201": {
+        "SectorID": 1070030201,
+        "StageID": 107003020,
+        "SectorGrade": 1,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "1070030202": {
+        "SectorID": 1070030202,
+        "StageID": 107003020,
+        "SectorGrade": 2,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "1070030203": {
+        "SectorID": 1070030203,
+        "StageID": 107003020,
+        "SectorGrade": 3,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "1070030204": {
+        "SectorID": 1070030204,
+        "StageID": 107003020,
+        "SectorGrade": 4,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "1080010101": {
+        "SectorID": 1080010101,
+        "StageID": 108001010,
+        "SectorGrade": 1,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "1080010102": {
+        "SectorID": 1080010102,
+        "StageID": 108001010,
+        "SectorGrade": 2,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "1080010103": {
+        "SectorID": 1080010103,
+        "StageID": 108001010,
+        "SectorGrade": 3,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "1080010104": {
+        "SectorID": 1080010104,
+        "StageID": 108001010,
+        "SectorGrade": 4,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "1080010201": {
+        "SectorID": 1080010201,
+        "StageID": 108001020,
+        "SectorGrade": 1,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "1080010202": {
+        "SectorID": 1080010202,
+        "StageID": 108001020,
+        "SectorGrade": 2,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "1080010203": {
+        "SectorID": 1080010203,
+        "StageID": 108001020,
+        "SectorGrade": 3,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "1080010204": {
+        "SectorID": 1080010204,
+        "StageID": 108001020,
+        "SectorGrade": 4,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "1080010301": {
+        "SectorID": 1080010301,
+        "StageID": 108001030,
+        "SectorGrade": 1,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "1080010302": {
+        "SectorID": 1080010302,
+        "StageID": 108001030,
+        "SectorGrade": 2,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "1080010303": {
+        "SectorID": 1080010303,
+        "StageID": 108001030,
+        "SectorGrade": 3,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "1080010304": {
+        "SectorID": 1080010304,
+        "StageID": 108001030,
+        "SectorGrade": 4,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "1080010401": {
+        "SectorID": 1080010401,
+        "StageID": 108001040,
+        "SectorGrade": 1,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "1080010402": {
+        "SectorID": 1080010402,
+        "StageID": 108001040,
+        "SectorGrade": 2,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "1080010403": {
+        "SectorID": 1080010403,
+        "StageID": 108001040,
+        "SectorGrade": 3,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "1080010404": {
+        "SectorID": 1080010404,
+        "StageID": 108001040,
+        "SectorGrade": 4,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "1080010501": {
+        "SectorID": 1080010501,
+        "StageID": 108001050,
+        "SectorGrade": 1,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "1080010502": {
+        "SectorID": 1080010502,
+        "StageID": 108001050,
+        "SectorGrade": 2,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "1080010503": {
+        "SectorID": 1080010503,
+        "StageID": 108001050,
+        "SectorGrade": 3,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "1080010504": {
+        "SectorID": 1080010504,
+        "StageID": 108001050,
+        "SectorGrade": 4,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "1090010201": {
+        "SectorID": 1090010201,
+        "StageID": 109001020,
+        "SectorGrade": 1,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "1090010202": {
+        "SectorID": 1090010202,
+        "StageID": 109001020,
+        "SectorGrade": 2,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "1090010203": {
+        "SectorID": 1090010203,
+        "StageID": 109001020,
+        "SectorGrade": 3,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "1090010204": {
+        "SectorID": 1090010204,
+        "StageID": 109001020,
+        "SectorGrade": 4,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "1090010301": {
+        "SectorID": 1090010301,
+        "StageID": 109001030,
+        "SectorGrade": 1,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "1090010302": {
+        "SectorID": 1090010302,
+        "StageID": 109001030,
+        "SectorGrade": 2,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "1090010303": {
+        "SectorID": 1090010303,
+        "StageID": 109001030,
+        "SectorGrade": 3,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "1090010304": {
+        "SectorID": 1090010304,
+        "StageID": 109001030,
+        "SectorGrade": 4,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "1090010401": {
+        "SectorID": 1090010401,
+        "StageID": 109001040,
+        "SectorGrade": 1,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "1090010402": {
+        "SectorID": 1090010402,
+        "StageID": 109001040,
+        "SectorGrade": 2,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "1090010403": {
+        "SectorID": 1090010403,
+        "StageID": 109001040,
+        "SectorGrade": 3,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "1090010404": {
+        "SectorID": 1090010404,
+        "StageID": 109001040,
+        "SectorGrade": 4,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "1090010501": {
+        "SectorID": 1090010501,
+        "StageID": 109001050,
+        "SectorGrade": 1,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "1090010502": {
+        "SectorID": 1090010502,
+        "StageID": 109001050,
+        "SectorGrade": 2,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "1090010503": {
+        "SectorID": 1090010503,
+        "StageID": 109001050,
+        "SectorGrade": 3,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "1090010504": {
+        "SectorID": 1090010504,
+        "StageID": 109001050,
+        "SectorGrade": 4,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "1090010601": {
+        "SectorID": 1090010601,
+        "StageID": 109001060,
+        "SectorGrade": 1,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "1090010602": {
+        "SectorID": 1090010602,
+        "StageID": 109001060,
+        "SectorGrade": 2,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "1090010603": {
+        "SectorID": 1090010603,
+        "StageID": 109001060,
+        "SectorGrade": 3,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "1090010604": {
+        "SectorID": 1090010604,
+        "StageID": 109001060,
+        "SectorGrade": 4,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "1100010101": {
+        "SectorID": 1100010101,
+        "StageID": 110001010,
+        "SectorGrade": 1,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "1100010102": {
+        "SectorID": 1100010102,
+        "StageID": 110001010,
+        "SectorGrade": 2,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "1100010103": {
+        "SectorID": 1100010103,
+        "StageID": 110001010,
+        "SectorGrade": 3,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "1100010104": {
+        "SectorID": 1100010104,
+        "StageID": 110001010,
+        "SectorGrade": 4,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "1100010201": {
+        "SectorID": 1100010201,
+        "StageID": 110001020,
+        "SectorGrade": 1,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "1100010202": {
+        "SectorID": 1100010202,
+        "StageID": 110001020,
+        "SectorGrade": 2,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "1100010203": {
+        "SectorID": 1100010203,
+        "StageID": 110001020,
+        "SectorGrade": 3,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "1100010204": {
+        "SectorID": 1100010204,
+        "StageID": 110001020,
+        "SectorGrade": 4,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "1100020101": {
+        "SectorID": 1100020101,
+        "StageID": 110002010,
+        "SectorGrade": 1,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "1100020102": {
+        "SectorID": 1100020102,
+        "StageID": 110002010,
+        "SectorGrade": 2,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "1100020103": {
+        "SectorID": 1100020103,
+        "StageID": 110002010,
+        "SectorGrade": 3,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "1100020104": {
+        "SectorID": 1100020104,
+        "StageID": 110002010,
+        "SectorGrade": 4,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "1100020201": {
+        "SectorID": 1100020201,
+        "StageID": 110002020,
+        "SectorGrade": 1,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "1100020202": {
+        "SectorID": 1100020202,
+        "StageID": 110002020,
+        "SectorGrade": 2,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "1100020203": {
+        "SectorID": 1100020203,
+        "StageID": 110002020,
+        "SectorGrade": 3,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "1100020204": {
+        "SectorID": 1100020204,
+        "StageID": 110002020,
+        "SectorGrade": 4,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "1100020301": {
+        "SectorID": 1100020301,
+        "StageID": 110002030,
+        "SectorGrade": 1,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "1100020302": {
+        "SectorID": 1100020302,
+        "StageID": 110002030,
+        "SectorGrade": 2,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "1100020303": {
+        "SectorID": 1100020303,
+        "StageID": 110002030,
+        "SectorGrade": 3,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "1100020304": {
+        "SectorID": 1100020304,
+        "StageID": 110002030,
+        "SectorGrade": 4,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "1100030101": {
+        "SectorID": 1100030101,
+        "StageID": 110003010,
+        "SectorGrade": 1,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "1100030102": {
+        "SectorID": 1100030102,
+        "StageID": 110003010,
+        "SectorGrade": 2,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "1100030103": {
+        "SectorID": 1100030103,
+        "StageID": 110003010,
+        "SectorGrade": 3,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "1100030104": {
+        "SectorID": 1100030104,
+        "StageID": 110003010,
+        "SectorGrade": 4,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "1105000201": {
+        "SectorID": 1105000201,
+        "StageID": 110500020,
+        "SectorGrade": 1,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "1105000202": {
+        "SectorID": 1105000202,
+        "StageID": 110500020,
+        "SectorGrade": 2,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "1105000203": {
+        "SectorID": 1105000203,
+        "StageID": 110500020,
+        "SectorGrade": 3,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "1105000204": {
+        "SectorID": 1105000204,
+        "StageID": 110500020,
+        "SectorGrade": 4,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "1105000301": {
+        "SectorID": 1105000301,
+        "StageID": 110500030,
+        "SectorGrade": 1,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "1105000302": {
+        "SectorID": 1105000302,
+        "StageID": 110500030,
+        "SectorGrade": 2,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "1105000303": {
+        "SectorID": 1105000303,
+        "StageID": 110500030,
+        "SectorGrade": 3,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "1105000304": {
+        "SectorID": 1105000304,
+        "StageID": 110500030,
+        "SectorGrade": 4,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "1105010101": {
+        "SectorID": 1105010101,
+        "StageID": 110501010,
+        "SectorGrade": 1,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "1105010102": {
+        "SectorID": 1105010102,
+        "StageID": 110501010,
+        "SectorGrade": 2,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "1105010103": {
+        "SectorID": 1105010103,
+        "StageID": 110501010,
+        "SectorGrade": 3,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "1105010104": {
+        "SectorID": 1105010104,
+        "StageID": 110501010,
+        "SectorGrade": 4,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "1105010201": {
+        "SectorID": 1105010201,
+        "StageID": 110501020,
+        "SectorGrade": 1,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "1105010202": {
+        "SectorID": 1105010202,
+        "StageID": 110501020,
+        "SectorGrade": 2,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "1105010203": {
+        "SectorID": 1105010203,
+        "StageID": 110501020,
+        "SectorGrade": 3,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "1105010204": {
+        "SectorID": 1105010204,
+        "StageID": 110501020,
+        "SectorGrade": 4,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "1105010301": {
+        "SectorID": 1105010301,
+        "StageID": 110501030,
+        "SectorGrade": 1,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "1105010302": {
+        "SectorID": 1105010302,
+        "StageID": 110501030,
+        "SectorGrade": 2,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "1105010303": {
+        "SectorID": 1105010303,
+        "StageID": 110501030,
+        "SectorGrade": 3,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "1105010304": {
+        "SectorID": 1105010304,
+        "StageID": 110501030,
+        "SectorGrade": 4,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "1105010401": {
+        "SectorID": 1105010401,
+        "StageID": 110501040,
+        "SectorGrade": 1,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "1105010402": {
+        "SectorID": 1105010402,
+        "StageID": 110501040,
+        "SectorGrade": 2,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "1105010403": {
+        "SectorID": 1105010403,
+        "StageID": 110501040,
+        "SectorGrade": 3,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "1105010404": {
+        "SectorID": 1105010404,
+        "StageID": 110501040,
+        "SectorGrade": 4,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "1105020101": {
+        "SectorID": 1105020101,
+        "StageID": 110502010,
+        "SectorGrade": 1,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "1105020102": {
+        "SectorID": 1105020102,
+        "StageID": 110502010,
+        "SectorGrade": 2,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "1105020103": {
+        "SectorID": 1105020103,
+        "StageID": 110502010,
+        "SectorGrade": 3,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "1105020104": {
+        "SectorID": 1105020104,
+        "StageID": 110502010,
+        "SectorGrade": 4,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "1105020201": {
+        "SectorID": 1105020201,
+        "StageID": 110502020,
+        "SectorGrade": 1,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "1105020202": {
+        "SectorID": 1105020202,
+        "StageID": 110502020,
+        "SectorGrade": 2,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "1105020203": {
+        "SectorID": 1105020203,
+        "StageID": 110502020,
+        "SectorGrade": 3,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "1105020204": {
+        "SectorID": 1105020204,
+        "StageID": 110502020,
+        "SectorGrade": 4,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "1105020301": {
+        "SectorID": 1105020301,
+        "StageID": 110502030,
+        "SectorGrade": 1,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "1105020302": {
+        "SectorID": 1105020302,
+        "StageID": 110502030,
+        "SectorGrade": 2,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "1105020303": {
+        "SectorID": 1105020303,
+        "StageID": 110502030,
+        "SectorGrade": 3,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "1105020304": {
+        "SectorID": 1105020304,
+        "StageID": 110502030,
+        "SectorGrade": 4,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "1105020401": {
+        "SectorID": 1105020401,
+        "StageID": 110502040,
+        "SectorGrade": 1,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "1105020402": {
+        "SectorID": 1105020402,
+        "StageID": 110502040,
+        "SectorGrade": 2,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "1105020403": {
+        "SectorID": 1105020403,
+        "StageID": 110502040,
+        "SectorGrade": 3,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "1105020404": {
+        "SectorID": 1105020404,
+        "StageID": 110502040,
+        "SectorGrade": 4,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "1105020501": {
+        "SectorID": 1105020501,
+        "StageID": 110502050,
+        "SectorGrade": 1,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "1105020502": {
+        "SectorID": 1105020502,
+        "StageID": 110502050,
+        "SectorGrade": 2,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "1105020503": {
+        "SectorID": 1105020503,
+        "StageID": 110502050,
+        "SectorGrade": 3,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "1105020504": {
+        "SectorID": 1105020504,
+        "StageID": 110502050,
+        "SectorGrade": 4,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "1105020601": {
+        "SectorID": 1105020601,
+        "StageID": 110502060,
+        "SectorGrade": 1,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "1105020602": {
+        "SectorID": 1105020602,
+        "StageID": 110502060,
+        "SectorGrade": 2,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "1105020603": {
+        "SectorID": 1105020603,
+        "StageID": 110502060,
+        "SectorGrade": 3,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "1105020604": {
+        "SectorID": 1105020604,
+        "StageID": 110502060,
+        "SectorGrade": 4,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "1105030101": {
+        "SectorID": 1105030101,
+        "StageID": 110503010,
+        "SectorGrade": 1,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "1105030102": {
+        "SectorID": 1105030102,
+        "StageID": 110503010,
+        "SectorGrade": 2,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "1105030103": {
+        "SectorID": 1105030103,
+        "StageID": 110503010,
+        "SectorGrade": 3,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "1105030104": {
+        "SectorID": 1105030104,
+        "StageID": 110503010,
+        "SectorGrade": 4,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "1105030201": {
+        "SectorID": 1105030201,
+        "StageID": 110503020,
+        "SectorGrade": 1,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "1105030202": {
+        "SectorID": 1105030202,
+        "StageID": 110503020,
+        "SectorGrade": 2,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "1105030203": {
+        "SectorID": 1105030203,
+        "StageID": 110503020,
+        "SectorGrade": 3,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "1105030204": {
+        "SectorID": 1105030204,
+        "StageID": 110503020,
+        "SectorGrade": 4,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "1105030301": {
+        "SectorID": 1105030301,
+        "StageID": 110503030,
+        "SectorGrade": 1,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "1105030302": {
+        "SectorID": 1105030302,
+        "StageID": 110503030,
+        "SectorGrade": 2,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "1105030303": {
+        "SectorID": 1105030303,
+        "StageID": 110503030,
+        "SectorGrade": 3,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "1105030304": {
+        "SectorID": 1105030304,
+        "StageID": 110503030,
+        "SectorGrade": 4,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "1105030401": {
+        "SectorID": 1105030401,
+        "StageID": 110503040,
+        "SectorGrade": 1,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "1105030402": {
+        "SectorID": 1105030402,
+        "StageID": 110503040,
+        "SectorGrade": 2,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "1105030403": {
+        "SectorID": 1105030403,
+        "StageID": 110503040,
+        "SectorGrade": 3,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "1105030404": {
+        "SectorID": 1105030404,
+        "StageID": 110503040,
+        "SectorGrade": 4,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "1105040101": {
+        "SectorID": 1105040101,
+        "StageID": 110504010,
+        "SectorGrade": 1,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "1105040102": {
+        "SectorID": 1105040102,
+        "StageID": 110504010,
+        "SectorGrade": 2,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "1105040103": {
+        "SectorID": 1105040103,
+        "StageID": 110504010,
+        "SectorGrade": 3,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "1105040104": {
+        "SectorID": 1105040104,
+        "StageID": 110504010,
+        "SectorGrade": 4,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "1105040201": {
+        "SectorID": 1105040201,
+        "StageID": 110504020,
+        "SectorGrade": 1,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "1105040202": {
+        "SectorID": 1105040202,
+        "StageID": 110504020,
+        "SectorGrade": 2,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "1105040203": {
+        "SectorID": 1105040203,
+        "StageID": 110504020,
+        "SectorGrade": 3,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "1105040204": {
+        "SectorID": 1105040204,
+        "StageID": 110504020,
+        "SectorGrade": 4,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "1105040301": {
+        "SectorID": 1105040301,
+        "StageID": 110504030,
+        "SectorGrade": 1,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "1105040302": {
+        "SectorID": 1105040302,
+        "StageID": 110504030,
+        "SectorGrade": 2,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "1105040303": {
+        "SectorID": 1105040303,
+        "StageID": 110504030,
+        "SectorGrade": 3,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "1105040304": {
+        "SectorID": 1105040304,
+        "StageID": 110504030,
+        "SectorGrade": 4,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "1105040401": {
+        "SectorID": 1105040401,
+        "StageID": 110504040,
+        "SectorGrade": 1,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "1105040402": {
+        "SectorID": 1105040402,
+        "StageID": 110504040,
+        "SectorGrade": 2,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "1105040403": {
+        "SectorID": 1105040403,
+        "StageID": 110504040,
+        "SectorGrade": 3,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "1105040404": {
+        "SectorID": 1105040404,
+        "StageID": 110504040,
+        "SectorGrade": 4,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "2000220101": {
+        "SectorID": 2000220101,
+        "StageID": 200022010,
+        "SectorGrade": 1,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "2000220102": {
+        "SectorID": 2000220102,
+        "StageID": 200022010,
+        "SectorGrade": 2,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "2000220103": {
+        "SectorID": 2000220103,
+        "StageID": 200022010,
+        "SectorGrade": 3,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "2000220104": {
+        "SectorID": 2000220104,
+        "StageID": 200022010,
+        "SectorGrade": 4,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "2000220201": {
+        "SectorID": 2000220201,
+        "StageID": 200022020,
+        "SectorGrade": 1,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "2000220202": {
+        "SectorID": 2000220202,
+        "StageID": 200022020,
+        "SectorGrade": 2,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "2000220203": {
+        "SectorID": 2000220203,
+        "StageID": 200022020,
+        "SectorGrade": 3,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "2000220204": {
+        "SectorID": 2000220204,
+        "StageID": 200022020,
+        "SectorGrade": 4,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "2000220211": {
+        "SectorID": 2000220211,
+        "StageID": 200022021,
+        "SectorGrade": 1,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "2000220212": {
+        "SectorID": 2000220212,
+        "StageID": 200022021,
+        "SectorGrade": 2,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "2000220213": {
+        "SectorID": 2000220213,
+        "StageID": 200022021,
+        "SectorGrade": 3,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "2000220214": {
+        "SectorID": 2000220214,
+        "StageID": 200022021,
+        "SectorGrade": 4,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "2000220301": {
+        "SectorID": 2000220301,
+        "StageID": 200022030,
+        "SectorGrade": 1,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "2000220302": {
+        "SectorID": 2000220302,
+        "StageID": 200022030,
+        "SectorGrade": 2,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "2000220303": {
+        "SectorID": 2000220303,
+        "StageID": 200022030,
+        "SectorGrade": 3,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "2000220304": {
+        "SectorID": 2000220304,
+        "StageID": 200022030,
+        "SectorGrade": 4,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "2000220311": {
+        "SectorID": 2000220311,
+        "StageID": 200022031,
+        "SectorGrade": 1,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "2000220312": {
+        "SectorID": 2000220312,
+        "StageID": 200022031,
+        "SectorGrade": 2,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "2000220313": {
+        "SectorID": 2000220313,
+        "StageID": 200022031,
+        "SectorGrade": 3,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "2000220314": {
+        "SectorID": 2000220314,
+        "StageID": 200022031,
+        "SectorGrade": 4,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "2000220401": {
+        "SectorID": 2000220401,
+        "StageID": 200022040,
+        "SectorGrade": 1,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "2000220402": {
+        "SectorID": 2000220402,
+        "StageID": 200022040,
+        "SectorGrade": 2,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "2000220403": {
+        "SectorID": 2000220403,
+        "StageID": 200022040,
+        "SectorGrade": 3,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "2000220404": {
+        "SectorID": 2000220404,
+        "StageID": 200022040,
+        "SectorGrade": 4,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "2000220411": {
+        "SectorID": 2000220411,
+        "StageID": 200022041,
+        "SectorGrade": 1,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "2000220412": {
+        "SectorID": 2000220412,
+        "StageID": 200022041,
+        "SectorGrade": 2,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "2000220413": {
+        "SectorID": 2000220413,
+        "StageID": 200022041,
+        "SectorGrade": 3,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "2000220414": {
+        "SectorID": 2000220414,
+        "StageID": 200022041,
+        "SectorGrade": 4,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "2000220421": {
+        "SectorID": 2000220421,
+        "StageID": 200022042,
+        "SectorGrade": 1,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "2000220422": {
+        "SectorID": 2000220422,
+        "StageID": 200022042,
+        "SectorGrade": 2,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "2000220423": {
+        "SectorID": 2000220423,
+        "StageID": 200022042,
+        "SectorGrade": 3,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "2000220424": {
+        "SectorID": 2000220424,
+        "StageID": 200022042,
+        "SectorGrade": 4,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "2000220501": {
+        "SectorID": 2000220501,
+        "StageID": 200022050,
+        "SectorGrade": 1,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "2000220502": {
+        "SectorID": 2000220502,
+        "StageID": 200022050,
+        "SectorGrade": 2,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "2000220503": {
+        "SectorID": 2000220503,
+        "StageID": 200022050,
+        "SectorGrade": 3,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "2000220504": {
+        "SectorID": 2000220504,
+        "StageID": 200022050,
+        "SectorGrade": 4,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "2000220511": {
+        "SectorID": 2000220511,
+        "StageID": 200022051,
+        "SectorGrade": 1,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "2000220512": {
+        "SectorID": 2000220512,
+        "StageID": 200022051,
+        "SectorGrade": 2,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "2000220513": {
+        "SectorID": 2000220513,
+        "StageID": 200022051,
+        "SectorGrade": 3,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "2000220514": {
+        "SectorID": 2000220514,
+        "StageID": 200022051,
+        "SectorGrade": 4,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "2000220701": {
+        "SectorID": 2000220701,
+        "StageID": 200022070,
+        "SectorGrade": 1,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "2000220702": {
+        "SectorID": 2000220702,
+        "StageID": 200022070,
+        "SectorGrade": 2,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "2000220703": {
+        "SectorID": 2000220703,
+        "StageID": 200022070,
+        "SectorGrade": 3,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "2000220704": {
+        "SectorID": 2000220704,
+        "StageID": 200022070,
+        "SectorGrade": 4,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "2000220711": {
+        "SectorID": 2000220711,
+        "StageID": 200022071,
+        "SectorGrade": 1,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "2000220712": {
+        "SectorID": 2000220712,
+        "StageID": 200022071,
+        "SectorGrade": 2,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "2000220713": {
+        "SectorID": 2000220713,
+        "StageID": 200022071,
+        "SectorGrade": 3,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "2000220714": {
+        "SectorID": 2000220714,
+        "StageID": 200022071,
+        "SectorGrade": 4,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "2000220721": {
+        "SectorID": 2000220721,
+        "StageID": 200022072,
+        "SectorGrade": 1,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "2000220722": {
+        "SectorID": 2000220722,
+        "StageID": 200022072,
+        "SectorGrade": 2,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "2000220723": {
+        "SectorID": 2000220723,
+        "StageID": 200022072,
+        "SectorGrade": 3,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "2000220724": {
+        "SectorID": 2000220724,
+        "StageID": 200022072,
+        "SectorGrade": 4,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "2000220801": {
+        "SectorID": 2000220801,
+        "StageID": 200022080,
+        "SectorGrade": 1,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "2000220802": {
+        "SectorID": 2000220802,
+        "StageID": 200022080,
+        "SectorGrade": 2,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "2000220803": {
+        "SectorID": 2000220803,
+        "StageID": 200022080,
+        "SectorGrade": 3,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "2000220804": {
+        "SectorID": 2000220804,
+        "StageID": 200022080,
+        "SectorGrade": 4,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "2000220811": {
+        "SectorID": 2000220811,
+        "StageID": 200022081,
+        "SectorGrade": 1,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "2000220812": {
+        "SectorID": 2000220812,
+        "StageID": 200022081,
+        "SectorGrade": 2,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "2000220813": {
+        "SectorID": 2000220813,
+        "StageID": 200022081,
+        "SectorGrade": 3,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "2000220814": {
+        "SectorID": 2000220814,
+        "StageID": 200022081,
+        "SectorGrade": 4,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "2000221001": {
+        "SectorID": 2000221001,
+        "StageID": 200022100,
+        "SectorGrade": 1,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "2000221002": {
+        "SectorID": 2000221002,
+        "StageID": 200022100,
+        "SectorGrade": 2,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "2000221003": {
+        "SectorID": 2000221003,
+        "StageID": 200022100,
+        "SectorGrade": 3,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "2000221004": {
+        "SectorID": 2000221004,
+        "StageID": 200022100,
+        "SectorGrade": 4,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "2000221011": {
+        "SectorID": 2000221011,
+        "StageID": 200022101,
+        "SectorGrade": 1,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "2000221012": {
+        "SectorID": 2000221012,
+        "StageID": 200022101,
+        "SectorGrade": 2,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "2000221013": {
+        "SectorID": 2000221013,
+        "StageID": 200022101,
+        "SectorGrade": 3,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "2000221014": {
+        "SectorID": 2000221014,
+        "StageID": 200022101,
+        "SectorGrade": 4,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "2000221021": {
+        "SectorID": 2000221021,
+        "StageID": 200022102,
+        "SectorGrade": 1,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "2000221022": {
+        "SectorID": 2000221022,
+        "StageID": 200022102,
+        "SectorGrade": 2,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "2000221023": {
+        "SectorID": 2000221023,
+        "StageID": 200022102,
+        "SectorGrade": 3,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "2000221024": {
+        "SectorID": 2000221024,
+        "StageID": 200022102,
+        "SectorGrade": 4,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "2000220901": {
+        "SectorID": 2000220901,
+        "StageID": 200022090,
+        "SectorGrade": 1,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "2000220902": {
+        "SectorID": 2000220902,
+        "StageID": 200022090,
+        "SectorGrade": 2,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "2000220903": {
+        "SectorID": 2000220903,
+        "StageID": 200022090,
+        "SectorGrade": 3,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "2000220904": {
+        "SectorID": 2000220904,
+        "StageID": 200022090,
+        "SectorGrade": 4,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "2000220911": {
+        "SectorID": 2000220911,
+        "StageID": 200022091,
+        "SectorGrade": 1,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "2000220912": {
+        "SectorID": 2000220912,
+        "StageID": 200022091,
+        "SectorGrade": 2,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "2000220913": {
+        "SectorID": 2000220913,
+        "StageID": 200022091,
+        "SectorGrade": 3,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "2000220914": {
+        "SectorID": 2000220914,
+        "StageID": 200022091,
+        "SectorGrade": 4,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "2000220921": {
+        "SectorID": 2000220921,
+        "StageID": 200022092,
+        "SectorGrade": 1,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "2000220922": {
+        "SectorID": 2000220922,
+        "StageID": 200022092,
+        "SectorGrade": 2,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "2000220923": {
+        "SectorID": 2000220923,
+        "StageID": 200022092,
+        "SectorGrade": 3,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "2000220924": {
+        "SectorID": 2000220924,
+        "StageID": 200022092,
+        "SectorGrade": 4,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "2000221101": {
+        "SectorID": 2000221101,
+        "StageID": 200022110,
+        "SectorGrade": 1,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "2000221102": {
+        "SectorID": 2000221102,
+        "StageID": 200022110,
+        "SectorGrade": 2,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "2000221103": {
+        "SectorID": 2000221103,
+        "StageID": 200022110,
+        "SectorGrade": 3,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "2000221104": {
+        "SectorID": 2000221104,
+        "StageID": 200022110,
+        "SectorGrade": 4,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "2000221201": {
+        "SectorID": 2000221201,
+        "StageID": 200022120,
+        "SectorGrade": 1,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "2000221202": {
+        "SectorID": 2000221202,
+        "StageID": 200022120,
+        "SectorGrade": 2,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "2000221203": {
+        "SectorID": 2000221203,
+        "StageID": 200022120,
+        "SectorGrade": 3,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "2000221204": {
+        "SectorID": 2000221204,
+        "StageID": 200022120,
+        "SectorGrade": 4,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "2000221301": {
+        "SectorID": 2000221301,
+        "StageID": 200022130,
+        "SectorGrade": 1,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "2000221302": {
+        "SectorID": 2000221302,
+        "StageID": 200022130,
+        "SectorGrade": 2,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "2000221303": {
+        "SectorID": 2000221303,
+        "StageID": 200022130,
+        "SectorGrade": 3,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "2000221304": {
+        "SectorID": 2000221304,
+        "StageID": 200022130,
+        "SectorGrade": 4,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "2000222101": {
+        "SectorID": 2000222101,
+        "StageID": 200022210,
+        "SectorGrade": 1,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "2000222102": {
+        "SectorID": 2000222102,
+        "StageID": 200022210,
+        "SectorGrade": 2,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "2000222103": {
+        "SectorID": 2000222103,
+        "StageID": 200022210,
+        "SectorGrade": 3,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "2000222104": {
+        "SectorID": 2000222104,
+        "StageID": 200022210,
+        "SectorGrade": 4,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "2000222201": {
+        "SectorID": 2000222201,
+        "StageID": 200022220,
+        "SectorGrade": 1,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "2000222202": {
+        "SectorID": 2000222202,
+        "StageID": 200022220,
+        "SectorGrade": 2,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "2000222203": {
+        "SectorID": 2000222203,
+        "StageID": 200022220,
+        "SectorGrade": 3,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "2000222204": {
+        "SectorID": 2000222204,
+        "StageID": 200022220,
+        "SectorGrade": 4,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "2000222211": {
+        "SectorID": 2000222211,
+        "StageID": 200022221,
+        "SectorGrade": 1,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "2000222212": {
+        "SectorID": 2000222212,
+        "StageID": 200022221,
+        "SectorGrade": 2,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "2000222213": {
+        "SectorID": 2000222213,
+        "StageID": 200022221,
+        "SectorGrade": 3,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "2000222214": {
+        "SectorID": 2000222214,
+        "StageID": 200022221,
+        "SectorGrade": 4,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "2000222301": {
+        "SectorID": 2000222301,
+        "StageID": 200022230,
+        "SectorGrade": 1,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "2000222302": {
+        "SectorID": 2000222302,
+        "StageID": 200022230,
+        "SectorGrade": 2,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "2000222303": {
+        "SectorID": 2000222303,
+        "StageID": 200022230,
+        "SectorGrade": 3,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "2000222304": {
+        "SectorID": 2000222304,
+        "StageID": 200022230,
+        "SectorGrade": 4,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "2000222401": {
+        "SectorID": 2000222401,
+        "StageID": 200022240,
+        "SectorGrade": 1,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "2000222402": {
+        "SectorID": 2000222402,
+        "StageID": 200022240,
+        "SectorGrade": 2,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "2000222403": {
+        "SectorID": 2000222403,
+        "StageID": 200022240,
+        "SectorGrade": 3,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "2000222404": {
+        "SectorID": 2000222404,
+        "StageID": 200022240,
+        "SectorGrade": 4,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "2000222411": {
+        "SectorID": 2000222411,
+        "StageID": 200022241,
+        "SectorGrade": 1,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "2000222412": {
+        "SectorID": 2000222412,
+        "StageID": 200022241,
+        "SectorGrade": 2,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "2000222413": {
+        "SectorID": 2000222413,
+        "StageID": 200022241,
+        "SectorGrade": 3,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "2000222414": {
+        "SectorID": 2000222414,
+        "StageID": 200022241,
+        "SectorGrade": 4,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "2000222421": {
+        "SectorID": 2000222421,
+        "StageID": 200022242,
+        "SectorGrade": 1,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "2000222422": {
+        "SectorID": 2000222422,
+        "StageID": 200022242,
+        "SectorGrade": 2,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "2000222423": {
+        "SectorID": 2000222423,
+        "StageID": 200022242,
+        "SectorGrade": 3,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "2000222424": {
+        "SectorID": 2000222424,
+        "StageID": 200022242,
+        "SectorGrade": 4,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "2000222501": {
+        "SectorID": 2000222501,
+        "StageID": 200022250,
+        "SectorGrade": 1,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "2000222502": {
+        "SectorID": 2000222502,
+        "StageID": 200022250,
+        "SectorGrade": 2,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "2000222503": {
+        "SectorID": 2000222503,
+        "StageID": 200022250,
+        "SectorGrade": 3,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "2000222504": {
+        "SectorID": 2000222504,
+        "StageID": 200022250,
+        "SectorGrade": 4,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "2000222511": {
+        "SectorID": 2000222511,
+        "StageID": 200022251,
+        "SectorGrade": 1,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "2000222512": {
+        "SectorID": 2000222512,
+        "StageID": 200022251,
+        "SectorGrade": 2,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "2000222513": {
+        "SectorID": 2000222513,
+        "StageID": 200022251,
+        "SectorGrade": 3,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "2000222514": {
+        "SectorID": 2000222514,
+        "StageID": 200022251,
+        "SectorGrade": 4,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "2000222601": {
+        "SectorID": 2000222601,
+        "StageID": 200022260,
+        "SectorGrade": 1,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "2000222602": {
+        "SectorID": 2000222602,
+        "StageID": 200022260,
+        "SectorGrade": 2,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "2000222603": {
+        "SectorID": 2000222603,
+        "StageID": 200022260,
+        "SectorGrade": 3,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "2000222604": {
+        "SectorID": 2000222604,
+        "StageID": 200022260,
+        "SectorGrade": 4,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "2000222701": {
+        "SectorID": 2000222701,
+        "StageID": 200022270,
+        "SectorGrade": 1,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "2000222702": {
+        "SectorID": 2000222702,
+        "StageID": 200022270,
+        "SectorGrade": 2,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "2000222703": {
+        "SectorID": 2000222703,
+        "StageID": 200022270,
+        "SectorGrade": 3,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "2000222704": {
+        "SectorID": 2000222704,
+        "StageID": 200022270,
+        "SectorGrade": 4,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "2000222801": {
+        "SectorID": 2000222801,
+        "StageID": 200022280,
+        "SectorGrade": 1,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "2000222802": {
+        "SectorID": 2000222802,
+        "StageID": 200022280,
+        "SectorGrade": 2,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "2000222803": {
+        "SectorID": 2000222803,
+        "StageID": 200022280,
+        "SectorGrade": 3,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "2000222804": {
+        "SectorID": 2000222804,
+        "StageID": 200022280,
+        "SectorGrade": 4,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "2000222901": {
+        "SectorID": 2000222901,
+        "StageID": 200022290,
+        "SectorGrade": 1,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "2000222902": {
+        "SectorID": 2000222902,
+        "StageID": 200022290,
+        "SectorGrade": 2,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "2000222903": {
+        "SectorID": 2000222903,
+        "StageID": 200022290,
+        "SectorGrade": 3,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "2000222904": {
+        "SectorID": 2000222904,
+        "StageID": 200022290,
+        "SectorGrade": 4,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "2000223001": {
+        "SectorID": 2000223001,
+        "StageID": 200022300,
+        "SectorGrade": 1,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "2000223002": {
+        "SectorID": 2000223002,
+        "StageID": 200022300,
+        "SectorGrade": 2,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "2000223003": {
+        "SectorID": 2000223003,
+        "StageID": 200022300,
+        "SectorGrade": 3,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "2000223004": {
+        "SectorID": 2000223004,
+        "StageID": 200022300,
+        "SectorGrade": 4,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "2000223101": {
+        "SectorID": 2000223101,
+        "StageID": 200022310,
+        "SectorGrade": 1,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "2000223102": {
+        "SectorID": 2000223102,
+        "StageID": 200022310,
+        "SectorGrade": 2,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "2000223103": {
+        "SectorID": 2000223103,
+        "StageID": 200022310,
+        "SectorGrade": 3,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "2000223104": {
+        "SectorID": 2000223104,
+        "StageID": 200022310,
+        "SectorGrade": 4,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "2000223201": {
+        "SectorID": 2000223201,
+        "StageID": 200022320,
+        "SectorGrade": 1,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "2000223202": {
+        "SectorID": 2000223202,
+        "StageID": 200022320,
+        "SectorGrade": 2,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "2000223203": {
+        "SectorID": 2000223203,
+        "StageID": 200022320,
+        "SectorGrade": 3,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "2000223204": {
+        "SectorID": 2000223204,
+        "StageID": 200022320,
+        "SectorGrade": 4,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "2000223301": {
+        "SectorID": 2000223301,
+        "StageID": 200022330,
+        "SectorGrade": 1,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "2000223302": {
+        "SectorID": 2000223302,
+        "StageID": 200022330,
+        "SectorGrade": 2,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "2000223303": {
+        "SectorID": 2000223303,
+        "StageID": 200022330,
+        "SectorGrade": 3,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "2000223304": {
+        "SectorID": 2000223304,
+        "StageID": 200022330,
+        "SectorGrade": 4,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "100101": {
+        "SectorID": 100101,
+        "StageID": 10010,
+        "SectorGrade": 1,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "100102": {
+        "SectorID": 100102,
+        "StageID": 10010,
+        "SectorGrade": 2,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "100103": {
+        "SectorID": 100103,
+        "StageID": 10010,
+        "SectorGrade": 3,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "100104": {
+        "SectorID": 100104,
+        "StageID": 10010,
+        "SectorGrade": 4,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "100111": {
+        "SectorID": 100111,
+        "StageID": 10011,
+        "SectorGrade": 1,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "100112": {
+        "SectorID": 100112,
+        "StageID": 10011,
+        "SectorGrade": 2,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "100113": {
+        "SectorID": 100113,
+        "StageID": 10011,
+        "SectorGrade": 3,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "100114": {
+        "SectorID": 100114,
+        "StageID": 10011,
+        "SectorGrade": 4,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "100121": {
+        "SectorID": 100121,
+        "StageID": 10012,
+        "SectorGrade": 1,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "100122": {
+        "SectorID": 100122,
+        "StageID": 10012,
+        "SectorGrade": 2,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "100123": {
+        "SectorID": 100123,
+        "StageID": 10012,
+        "SectorGrade": 3,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "100124": {
+        "SectorID": 100124,
+        "StageID": 10012,
+        "SectorGrade": 4,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "100131": {
+        "SectorID": 100131,
+        "StageID": 10013,
+        "SectorGrade": 1,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "100132": {
+        "SectorID": 100132,
+        "StageID": 10013,
+        "SectorGrade": 2,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "100133": {
+        "SectorID": 100133,
+        "StageID": 10013,
+        "SectorGrade": 3,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "100134": {
+        "SectorID": 100134,
+        "StageID": 10013,
+        "SectorGrade": 4,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "100201": {
+        "SectorID": 100201,
+        "StageID": 10020,
+        "SectorGrade": 1,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "100202": {
+        "SectorID": 100202,
+        "StageID": 10020,
+        "SectorGrade": 2,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "100203": {
+        "SectorID": 100203,
+        "StageID": 10020,
+        "SectorGrade": 3,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "100204": {
+        "SectorID": 100204,
+        "StageID": 10020,
+        "SectorGrade": 4,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "100211": {
+        "SectorID": 100211,
+        "StageID": 10021,
+        "SectorGrade": 1,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "100212": {
+        "SectorID": 100212,
+        "StageID": 10021,
+        "SectorGrade": 2,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "100213": {
+        "SectorID": 100213,
+        "StageID": 10021,
+        "SectorGrade": 3,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "100214": {
+        "SectorID": 100214,
+        "StageID": 10021,
+        "SectorGrade": 4,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "100221": {
+        "SectorID": 100221,
+        "StageID": 10022,
+        "SectorGrade": 1,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "100222": {
+        "SectorID": 100222,
+        "StageID": 10022,
+        "SectorGrade": 2,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "100223": {
+        "SectorID": 100223,
+        "StageID": 10022,
+        "SectorGrade": 3,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "100224": {
+        "SectorID": 100224,
+        "StageID": 10022,
+        "SectorGrade": 4,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "100231": {
+        "SectorID": 100231,
+        "StageID": 10023,
+        "SectorGrade": 1,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "100232": {
+        "SectorID": 100232,
+        "StageID": 10023,
+        "SectorGrade": 2,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "100233": {
+        "SectorID": 100233,
+        "StageID": 10023,
+        "SectorGrade": 3,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "100234": {
+        "SectorID": 100234,
+        "StageID": 10023,
+        "SectorGrade": 4,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "100301": {
+        "SectorID": 100301,
+        "StageID": 10030,
+        "SectorGrade": 1,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "100302": {
+        "SectorID": 100302,
+        "StageID": 10030,
+        "SectorGrade": 2,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "100303": {
+        "SectorID": 100303,
+        "StageID": 10030,
+        "SectorGrade": 3,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "100304": {
+        "SectorID": 100304,
+        "StageID": 10030,
+        "SectorGrade": 4,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "100311": {
+        "SectorID": 100311,
+        "StageID": 10031,
+        "SectorGrade": 1,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "100312": {
+        "SectorID": 100312,
+        "StageID": 10031,
+        "SectorGrade": 2,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "100313": {
+        "SectorID": 100313,
+        "StageID": 10031,
+        "SectorGrade": 3,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "100314": {
+        "SectorID": 100314,
+        "StageID": 10031,
+        "SectorGrade": 4,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "100321": {
+        "SectorID": 100321,
+        "StageID": 10032,
+        "SectorGrade": 1,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "100322": {
+        "SectorID": 100322,
+        "StageID": 10032,
+        "SectorGrade": 2,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "100323": {
+        "SectorID": 100323,
+        "StageID": 10032,
+        "SectorGrade": 3,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "100324": {
+        "SectorID": 100324,
+        "StageID": 10032,
+        "SectorGrade": 4,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "100331": {
+        "SectorID": 100331,
+        "StageID": 10033,
+        "SectorGrade": 1,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "100332": {
+        "SectorID": 100332,
+        "StageID": 10033,
+        "SectorGrade": 2,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "100333": {
+        "SectorID": 100333,
+        "StageID": 10033,
+        "SectorGrade": 3,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "100334": {
+        "SectorID": 100334,
+        "StageID": 10033,
+        "SectorGrade": 4,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "100401": {
+        "SectorID": 100401,
+        "StageID": 10040,
+        "SectorGrade": 1,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "100402": {
+        "SectorID": 100402,
+        "StageID": 10040,
+        "SectorGrade": 2,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "100403": {
+        "SectorID": 100403,
+        "StageID": 10040,
+        "SectorGrade": 3,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "100404": {
+        "SectorID": 100404,
+        "StageID": 10040,
+        "SectorGrade": 4,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "100411": {
+        "SectorID": 100411,
+        "StageID": 10041,
+        "SectorGrade": 1,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "100412": {
+        "SectorID": 100412,
+        "StageID": 10041,
+        "SectorGrade": 2,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "100413": {
+        "SectorID": 100413,
+        "StageID": 10041,
+        "SectorGrade": 3,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "100414": {
+        "SectorID": 100414,
+        "StageID": 10041,
+        "SectorGrade": 4,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "100421": {
+        "SectorID": 100421,
+        "StageID": 10042,
+        "SectorGrade": 1,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "100422": {
+        "SectorID": 100422,
+        "StageID": 10042,
+        "SectorGrade": 2,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "100423": {
+        "SectorID": 100423,
+        "StageID": 10042,
+        "SectorGrade": 3,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "100424": {
+        "SectorID": 100424,
+        "StageID": 10042,
+        "SectorGrade": 4,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "100431": {
+        "SectorID": 100431,
+        "StageID": 10043,
+        "SectorGrade": 1,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "100432": {
+        "SectorID": 100432,
+        "StageID": 10043,
+        "SectorGrade": 2,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "100433": {
+        "SectorID": 100433,
+        "StageID": 10043,
+        "SectorGrade": 3,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "100434": {
+        "SectorID": 100434,
+        "StageID": 10043,
+        "SectorGrade": 4,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "100501": {
+        "SectorID": 100501,
+        "StageID": 10050,
+        "SectorGrade": 1,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "100502": {
+        "SectorID": 100502,
+        "StageID": 10050,
+        "SectorGrade": 2,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "100503": {
+        "SectorID": 100503,
+        "StageID": 10050,
+        "SectorGrade": 3,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "100504": {
+        "SectorID": 100504,
+        "StageID": 10050,
+        "SectorGrade": 4,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "100511": {
+        "SectorID": 100511,
+        "StageID": 10051,
+        "SectorGrade": 1,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "100512": {
+        "SectorID": 100512,
+        "StageID": 10051,
+        "SectorGrade": 2,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "100513": {
+        "SectorID": 100513,
+        "StageID": 10051,
+        "SectorGrade": 3,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "100514": {
+        "SectorID": 100514,
+        "StageID": 10051,
+        "SectorGrade": 4,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "100521": {
+        "SectorID": 100521,
+        "StageID": 10052,
+        "SectorGrade": 1,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "100522": {
+        "SectorID": 100522,
+        "StageID": 10052,
+        "SectorGrade": 2,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "100523": {
+        "SectorID": 100523,
+        "StageID": 10052,
+        "SectorGrade": 3,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "100524": {
+        "SectorID": 100524,
+        "StageID": 10052,
+        "SectorGrade": 4,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "100531": {
+        "SectorID": 100531,
+        "StageID": 10053,
+        "SectorGrade": 1,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "100532": {
+        "SectorID": 100532,
+        "StageID": 10053,
+        "SectorGrade": 2,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "100533": {
+        "SectorID": 100533,
+        "StageID": 10053,
+        "SectorGrade": 3,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "100534": {
+        "SectorID": 100534,
+        "StageID": 10053,
+        "SectorGrade": 4,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "100601": {
+        "SectorID": 100601,
+        "StageID": 10060,
+        "SectorGrade": 1,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "100602": {
+        "SectorID": 100602,
+        "StageID": 10060,
+        "SectorGrade": 2,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "100603": {
+        "SectorID": 100603,
+        "StageID": 10060,
+        "SectorGrade": 3,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "100604": {
+        "SectorID": 100604,
+        "StageID": 10060,
+        "SectorGrade": 4,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "100611": {
+        "SectorID": 100611,
+        "StageID": 10061,
+        "SectorGrade": 1,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "100612": {
+        "SectorID": 100612,
+        "StageID": 10061,
+        "SectorGrade": 2,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "100613": {
+        "SectorID": 100613,
+        "StageID": 10061,
+        "SectorGrade": 3,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "100614": {
+        "SectorID": 100614,
+        "StageID": 10061,
+        "SectorGrade": 4,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "100621": {
+        "SectorID": 100621,
+        "StageID": 10062,
+        "SectorGrade": 1,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "100622": {
+        "SectorID": 100622,
+        "StageID": 10062,
+        "SectorGrade": 2,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "100623": {
+        "SectorID": 100623,
+        "StageID": 10062,
+        "SectorGrade": 3,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "100624": {
+        "SectorID": 100624,
+        "StageID": 10062,
+        "SectorGrade": 4,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "100631": {
+        "SectorID": 100631,
+        "StageID": 10063,
+        "SectorGrade": 1,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "100632": {
+        "SectorID": 100632,
+        "StageID": 10063,
+        "SectorGrade": 2,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "100633": {
+        "SectorID": 100633,
+        "StageID": 10063,
+        "SectorGrade": 3,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "100634": {
+        "SectorID": 100634,
+        "StageID": 10063,
+        "SectorGrade": 4,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "100701": {
+        "SectorID": 100701,
+        "StageID": 10070,
+        "SectorGrade": 1,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "100702": {
+        "SectorID": 100702,
+        "StageID": 10070,
+        "SectorGrade": 2,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "100703": {
+        "SectorID": 100703,
+        "StageID": 10070,
+        "SectorGrade": 3,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "100704": {
+        "SectorID": 100704,
+        "StageID": 10070,
+        "SectorGrade": 4,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "100711": {
+        "SectorID": 100711,
+        "StageID": 10071,
+        "SectorGrade": 1,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "100712": {
+        "SectorID": 100712,
+        "StageID": 10071,
+        "SectorGrade": 2,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "100713": {
+        "SectorID": 100713,
+        "StageID": 10071,
+        "SectorGrade": 3,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "100714": {
+        "SectorID": 100714,
+        "StageID": 10071,
+        "SectorGrade": 4,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "100721": {
+        "SectorID": 100721,
+        "StageID": 10072,
+        "SectorGrade": 1,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "100722": {
+        "SectorID": 100722,
+        "StageID": 10072,
+        "SectorGrade": 2,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "100723": {
+        "SectorID": 100723,
+        "StageID": 10072,
+        "SectorGrade": 3,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "100724": {
+        "SectorID": 100724,
+        "StageID": 10072,
+        "SectorGrade": 4,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "100731": {
+        "SectorID": 100731,
+        "StageID": 10073,
+        "SectorGrade": 1,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "100732": {
+        "SectorID": 100732,
+        "StageID": 10073,
+        "SectorGrade": 2,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "100733": {
+        "SectorID": 100733,
+        "StageID": 10073,
+        "SectorGrade": 3,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "100734": {
+        "SectorID": 100734,
+        "StageID": 10073,
+        "SectorGrade": 4,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "100801": {
+        "SectorID": 100801,
+        "StageID": 10080,
+        "SectorGrade": 1,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "100802": {
+        "SectorID": 100802,
+        "StageID": 10080,
+        "SectorGrade": 2,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "100803": {
+        "SectorID": 100803,
+        "StageID": 10080,
+        "SectorGrade": 3,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "100804": {
+        "SectorID": 100804,
+        "StageID": 10080,
+        "SectorGrade": 4,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "100811": {
+        "SectorID": 100811,
+        "StageID": 10081,
+        "SectorGrade": 1,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "100812": {
+        "SectorID": 100812,
+        "StageID": 10081,
+        "SectorGrade": 2,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "100813": {
+        "SectorID": 100813,
+        "StageID": 10081,
+        "SectorGrade": 3,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "100814": {
+        "SectorID": 100814,
+        "StageID": 10081,
+        "SectorGrade": 4,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "100821": {
+        "SectorID": 100821,
+        "StageID": 10082,
+        "SectorGrade": 1,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "100822": {
+        "SectorID": 100822,
+        "StageID": 10082,
+        "SectorGrade": 2,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "100823": {
+        "SectorID": 100823,
+        "StageID": 10082,
+        "SectorGrade": 3,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "100824": {
+        "SectorID": 100824,
+        "StageID": 10082,
+        "SectorGrade": 4,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "100831": {
+        "SectorID": 100831,
+        "StageID": 10083,
+        "SectorGrade": 1,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "100832": {
+        "SectorID": 100832,
+        "StageID": 10083,
+        "SectorGrade": 2,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "100833": {
+        "SectorID": 100833,
+        "StageID": 10083,
+        "SectorGrade": 3,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "100834": {
+        "SectorID": 100834,
+        "StageID": 10083,
+        "SectorGrade": 4,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "100901": {
+        "SectorID": 100901,
+        "StageID": 10090,
+        "SectorGrade": 1,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "100902": {
+        "SectorID": 100902,
+        "StageID": 10090,
+        "SectorGrade": 2,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "100903": {
+        "SectorID": 100903,
+        "StageID": 10090,
+        "SectorGrade": 3,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "100904": {
+        "SectorID": 100904,
+        "StageID": 10090,
+        "SectorGrade": 4,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "100911": {
+        "SectorID": 100911,
+        "StageID": 10091,
+        "SectorGrade": 1,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "100912": {
+        "SectorID": 100912,
+        "StageID": 10091,
+        "SectorGrade": 2,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "100913": {
+        "SectorID": 100913,
+        "StageID": 10091,
+        "SectorGrade": 3,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "100914": {
+        "SectorID": 100914,
+        "StageID": 10091,
+        "SectorGrade": 4,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "100921": {
+        "SectorID": 100921,
+        "StageID": 10092,
+        "SectorGrade": 1,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "100922": {
+        "SectorID": 100922,
+        "StageID": 10092,
+        "SectorGrade": 2,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "100923": {
+        "SectorID": 100923,
+        "StageID": 10092,
+        "SectorGrade": 3,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "100924": {
+        "SectorID": 100924,
+        "StageID": 10092,
+        "SectorGrade": 4,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "100931": {
+        "SectorID": 100931,
+        "StageID": 10093,
+        "SectorGrade": 1,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "100932": {
+        "SectorID": 100932,
+        "StageID": 10093,
+        "SectorGrade": 2,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "100933": {
+        "SectorID": 100933,
+        "StageID": 10093,
+        "SectorGrade": 3,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "100934": {
+        "SectorID": 100934,
+        "StageID": 10093,
+        "SectorGrade": 4,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "2010030101": {
+        "SectorID": 2010030101,
+        "StageID": 201003010,
+        "SectorGrade": 1,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "2010030102": {
+        "SectorID": 2010030102,
+        "StageID": 201003010,
+        "SectorGrade": 2,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "2010030103": {
+        "SectorID": 2010030103,
+        "StageID": 201003010,
+        "SectorGrade": 3,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "2010030104": {
+        "SectorID": 2010030104,
+        "StageID": 201003010,
+        "SectorGrade": 4,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "2010030111": {
+        "SectorID": 2010030111,
+        "StageID": 201003011,
+        "SectorGrade": 1,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "2010030112": {
+        "SectorID": 2010030112,
+        "StageID": 201003011,
+        "SectorGrade": 2,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "2010030113": {
+        "SectorID": 2010030113,
+        "StageID": 201003011,
+        "SectorGrade": 3,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "2010030114": {
+        "SectorID": 2010030114,
+        "StageID": 201003011,
+        "SectorGrade": 4,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "2010030121": {
+        "SectorID": 2010030121,
+        "StageID": 201003012,
+        "SectorGrade": 1,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "2010030122": {
+        "SectorID": 2010030122,
+        "StageID": 201003012,
+        "SectorGrade": 2,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "2010030123": {
+        "SectorID": 2010030123,
+        "StageID": 201003012,
+        "SectorGrade": 3,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "2010030124": {
+        "SectorID": 2010030124,
+        "StageID": 201003012,
+        "SectorGrade": 4,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "2010030131": {
+        "SectorID": 2010030131,
+        "StageID": 201003013,
+        "SectorGrade": 1,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "2010030132": {
+        "SectorID": 2010030132,
+        "StageID": 201003013,
+        "SectorGrade": 2,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "2010030133": {
+        "SectorID": 2010030133,
+        "StageID": 201003013,
+        "SectorGrade": 3,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "2010030134": {
+        "SectorID": 2010030134,
+        "StageID": 201003013,
+        "SectorGrade": 4,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "2010030301": {
+        "SectorID": 2010030301,
+        "StageID": 201003030,
+        "SectorGrade": 1,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "2010030302": {
+        "SectorID": 2010030302,
+        "StageID": 201003030,
+        "SectorGrade": 2,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "2010030303": {
+        "SectorID": 2010030303,
+        "StageID": 201003030,
+        "SectorGrade": 3,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "2010030304": {
+        "SectorID": 2010030304,
+        "StageID": 201003030,
+        "SectorGrade": 4,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "2010030311": {
+        "SectorID": 2010030311,
+        "StageID": 201003031,
+        "SectorGrade": 1,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "2010030312": {
+        "SectorID": 2010030312,
+        "StageID": 201003031,
+        "SectorGrade": 2,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "2010030313": {
+        "SectorID": 2010030313,
+        "StageID": 201003031,
+        "SectorGrade": 3,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "2010030314": {
+        "SectorID": 2010030314,
+        "StageID": 201003031,
+        "SectorGrade": 4,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "2010030321": {
+        "SectorID": 2010030321,
+        "StageID": 201003032,
+        "SectorGrade": 1,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "2010030322": {
+        "SectorID": 2010030322,
+        "StageID": 201003032,
+        "SectorGrade": 2,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "2010030323": {
+        "SectorID": 2010030323,
+        "StageID": 201003032,
+        "SectorGrade": 3,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "2010030324": {
+        "SectorID": 2010030324,
+        "StageID": 201003032,
+        "SectorGrade": 4,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "2010030331": {
+        "SectorID": 2010030331,
+        "StageID": 201003033,
+        "SectorGrade": 1,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "2010030332": {
+        "SectorID": 2010030332,
+        "StageID": 201003033,
+        "SectorGrade": 2,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "2010030333": {
+        "SectorID": 2010030333,
+        "StageID": 201003033,
+        "SectorGrade": 3,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "2010030334": {
+        "SectorID": 2010030334,
+        "StageID": 201003033,
+        "SectorGrade": 4,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "2010030401": {
+        "SectorID": 2010030401,
+        "StageID": 201003040,
+        "SectorGrade": 1,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "2010030402": {
+        "SectorID": 2010030402,
+        "StageID": 201003040,
+        "SectorGrade": 2,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "2010030403": {
+        "SectorID": 2010030403,
+        "StageID": 201003040,
+        "SectorGrade": 3,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "2010030404": {
+        "SectorID": 2010030404,
+        "StageID": 201003040,
+        "SectorGrade": 4,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "2010030411": {
+        "SectorID": 2010030411,
+        "StageID": 201003041,
+        "SectorGrade": 1,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "2010030412": {
+        "SectorID": 2010030412,
+        "StageID": 201003041,
+        "SectorGrade": 2,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "2010030413": {
+        "SectorID": 2010030413,
+        "StageID": 201003041,
+        "SectorGrade": 3,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "2010030414": {
+        "SectorID": 2010030414,
+        "StageID": 201003041,
+        "SectorGrade": 4,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "2010030421": {
+        "SectorID": 2010030421,
+        "StageID": 201003042,
+        "SectorGrade": 1,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "2010030422": {
+        "SectorID": 2010030422,
+        "StageID": 201003042,
+        "SectorGrade": 2,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "2010030423": {
+        "SectorID": 2010030423,
+        "StageID": 201003042,
+        "SectorGrade": 3,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "2010030424": {
+        "SectorID": 2010030424,
+        "StageID": 201003042,
+        "SectorGrade": 4,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "2010030431": {
+        "SectorID": 2010030431,
+        "StageID": 201003043,
+        "SectorGrade": 1,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "2010030432": {
+        "SectorID": 2010030432,
+        "StageID": 201003043,
+        "SectorGrade": 2,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "2010030433": {
+        "SectorID": 2010030433,
+        "StageID": 201003043,
+        "SectorGrade": 3,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "2010030434": {
+        "SectorID": 2010030434,
+        "StageID": 201003043,
+        "SectorGrade": 4,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "2010040401": {
+        "SectorID": 2010040401,
+        "StageID": 201004040,
+        "SectorGrade": 1,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "2010040402": {
+        "SectorID": 2010040402,
+        "StageID": 201004040,
+        "SectorGrade": 2,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "2010040403": {
+        "SectorID": 2010040403,
+        "StageID": 201004040,
+        "SectorGrade": 3,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "2010040404": {
+        "SectorID": 2010040404,
+        "StageID": 201004040,
+        "SectorGrade": 4,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "2010040411": {
+        "SectorID": 2010040411,
+        "StageID": 201004041,
+        "SectorGrade": 1,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "2010040412": {
+        "SectorID": 2010040412,
+        "StageID": 201004041,
+        "SectorGrade": 2,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "2010040413": {
+        "SectorID": 2010040413,
+        "StageID": 201004041,
+        "SectorGrade": 3,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "2010040414": {
+        "SectorID": 2010040414,
+        "StageID": 201004041,
+        "SectorGrade": 4,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "2010040421": {
+        "SectorID": 2010040421,
+        "StageID": 201004042,
+        "SectorGrade": 1,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "2010040422": {
+        "SectorID": 2010040422,
+        "StageID": 201004042,
+        "SectorGrade": 2,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "2010040423": {
+        "SectorID": 2010040423,
+        "StageID": 201004042,
+        "SectorGrade": 3,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "2010040424": {
+        "SectorID": 2010040424,
+        "StageID": 201004042,
+        "SectorGrade": 4,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "2010040431": {
+        "SectorID": 2010040431,
+        "StageID": 201004043,
+        "SectorGrade": 1,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "2010040432": {
+        "SectorID": 2010040432,
+        "StageID": 201004043,
+        "SectorGrade": 2,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "2010040433": {
+        "SectorID": 2010040433,
+        "StageID": 201004043,
+        "SectorGrade": 3,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "2010040434": {
+        "SectorID": 2010040434,
+        "StageID": 201004043,
+        "SectorGrade": 4,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "301001021": {
+        "SectorID": 301001021,
+        "StageID": 301001020,
+        "SectorGrade": 1,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "301001022": {
+        "SectorID": 301001022,
+        "StageID": 301001020,
+        "SectorGrade": 2,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "301001023": {
+        "SectorID": 301001023,
+        "StageID": 301001020,
+        "SectorGrade": 3,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "301001024": {
+        "SectorID": 301001024,
+        "StageID": 301001020,
+        "SectorGrade": 4,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "301011011": {
+        "SectorID": 301011011,
+        "StageID": 301011010,
+        "SectorGrade": 1,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "301011012": {
+        "SectorID": 301011012,
+        "StageID": 301011010,
+        "SectorGrade": 2,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "301011013": {
+        "SectorID": 301011013,
+        "StageID": 301011010,
+        "SectorGrade": 3,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "301011014": {
+        "SectorID": 301011014,
+        "StageID": 301011010,
+        "SectorGrade": 4,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "301011021": {
+        "SectorID": 301011021,
+        "StageID": 301011020,
+        "SectorGrade": 1,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "301011022": {
+        "SectorID": 301011022,
+        "StageID": 301011020,
+        "SectorGrade": 2,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "301011023": {
+        "SectorID": 301011023,
+        "StageID": 301011020,
+        "SectorGrade": 3,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "301011024": {
+        "SectorID": 301011024,
+        "StageID": 301011020,
+        "SectorGrade": 4,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "301011031": {
+        "SectorID": 301011031,
+        "StageID": 301011030,
+        "SectorGrade": 1,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "301011032": {
+        "SectorID": 301011032,
+        "StageID": 301011030,
+        "SectorGrade": 2,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "301011033": {
+        "SectorID": 301011033,
+        "StageID": 301011030,
+        "SectorGrade": 3,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "301011034": {
+        "SectorID": 301011034,
+        "StageID": 301011030,
+        "SectorGrade": 4,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "301011041": {
+        "SectorID": 301011041,
+        "StageID": 301011040,
+        "SectorGrade": 1,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "301011042": {
+        "SectorID": 301011042,
+        "StageID": 301011040,
+        "SectorGrade": 2,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "301011043": {
+        "SectorID": 301011043,
+        "StageID": 301011040,
+        "SectorGrade": 3,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "301011044": {
+        "SectorID": 301011044,
+        "StageID": 301011040,
+        "SectorGrade": 4,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "301031011": {
+        "SectorID": 301031011,
+        "StageID": 301031010,
+        "SectorGrade": 1,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "301031012": {
+        "SectorID": 301031012,
+        "StageID": 301031010,
+        "SectorGrade": 2,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "301031013": {
+        "SectorID": 301031013,
+        "StageID": 301031010,
+        "SectorGrade": 3,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "301031014": {
+        "SectorID": 301031014,
+        "StageID": 301031010,
+        "SectorGrade": 4,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "301031021": {
+        "SectorID": 301031021,
+        "StageID": 301031020,
+        "SectorGrade": 1,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "301031022": {
+        "SectorID": 301031022,
+        "StageID": 301031020,
+        "SectorGrade": 2,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "301031023": {
+        "SectorID": 301031023,
+        "StageID": 301031020,
+        "SectorGrade": 3,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "301031024": {
+        "SectorID": 301031024,
+        "StageID": 301031020,
+        "SectorGrade": 4,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "301031031": {
+        "SectorID": 301031031,
+        "StageID": 301031030,
+        "SectorGrade": 1,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "301031032": {
+        "SectorID": 301031032,
+        "StageID": 301031030,
+        "SectorGrade": 2,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "301031033": {
+        "SectorID": 301031033,
+        "StageID": 301031030,
+        "SectorGrade": 3,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "301031034": {
+        "SectorID": 301031034,
+        "StageID": 301031030,
+        "SectorGrade": 4,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "301031041": {
+        "SectorID": 301031041,
+        "StageID": 301031040,
+        "SectorGrade": 1,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "301031042": {
+        "SectorID": 301031042,
+        "StageID": 301031040,
+        "SectorGrade": 2,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "301031043": {
+        "SectorID": 301031043,
+        "StageID": 301031040,
+        "SectorGrade": 3,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "301031044": {
+        "SectorID": 301031044,
+        "StageID": 301031040,
+        "SectorGrade": 4,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "110505011": {
+        "SectorID": 110505011,
+        "StageID": 110505010,
+        "SectorGrade": 1,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "110505012": {
+        "SectorID": 110505012,
+        "StageID": 110505010,
+        "SectorGrade": 2,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "110505013": {
+        "SectorID": 110505013,
+        "StageID": 110505010,
+        "SectorGrade": 3,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "110505014": {
+        "SectorID": 110505014,
+        "StageID": 110505010,
+        "SectorGrade": 4,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "110505021": {
+        "SectorID": 110505021,
+        "StageID": 110505020,
+        "SectorGrade": 1,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "110505022": {
+        "SectorID": 110505022,
+        "StageID": 110505020,
+        "SectorGrade": 2,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "110505023": {
+        "SectorID": 110505023,
+        "StageID": 110505020,
+        "SectorGrade": 3,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "110505024": {
+        "SectorID": 110505024,
+        "StageID": 110505020,
+        "SectorGrade": 4,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "110505031": {
+        "SectorID": 110505031,
+        "StageID": 110505030,
+        "SectorGrade": 1,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "110505032": {
+        "SectorID": 110505032,
+        "StageID": 110505030,
+        "SectorGrade": 2,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "110505033": {
+        "SectorID": 110505033,
+        "StageID": 110505030,
+        "SectorGrade": 3,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "110505034": {
+        "SectorID": 110505034,
+        "StageID": 110505030,
+        "SectorGrade": 4,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "110506011": {
+        "SectorID": 110506011,
+        "StageID": 110506010,
+        "SectorGrade": 1,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "110506012": {
+        "SectorID": 110506012,
+        "StageID": 110506010,
+        "SectorGrade": 2,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "110506013": {
+        "SectorID": 110506013,
+        "StageID": 110506010,
+        "SectorGrade": 3,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "110506014": {
+        "SectorID": 110506014,
+        "StageID": 110506010,
+        "SectorGrade": 4,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "110506021": {
+        "SectorID": 110506021,
+        "StageID": 110506020,
+        "SectorGrade": 1,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "110506022": {
+        "SectorID": 110506022,
+        "StageID": 110506020,
+        "SectorGrade": 2,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "110506023": {
+        "SectorID": 110506023,
+        "StageID": 110506020,
+        "SectorGrade": 3,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "110506024": {
+        "SectorID": 110506024,
+        "StageID": 110506020,
+        "SectorGrade": 4,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "110506031": {
+        "SectorID": 110506031,
+        "StageID": 110506030,
+        "SectorGrade": 1,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "110506032": {
+        "SectorID": 110506032,
+        "StageID": 110506030,
+        "SectorGrade": 2,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "110506033": {
+        "SectorID": 110506033,
+        "StageID": 110506030,
+        "SectorGrade": 3,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      },
+      "110506034": {
+        "SectorID": 110506034,
+        "StageID": 110506030,
+        "SectorGrade": 4,
+        "RewardCostRate": 0,
+        "LuckyRewardDropRate": 0,
+        "NameTagDropItemRate": 0,
+        "SummonGoblinRate": 0
+      }
+    }
+  }
+]

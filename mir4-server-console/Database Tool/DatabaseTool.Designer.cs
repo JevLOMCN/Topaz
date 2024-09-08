@@ -87,7 +87,7 @@ namespace Server_Console.Database_Tool
             // Configure Language MenuItem
             languageMenuItem.Name = "languageMenuItem";
             languageMenuItem.Size = new Size(71, 20);
-            languageMenuItem.Text = "Language";
+            languageMenuItem.Text = FileManager.GetStringMessageById(1330206);
 
             // Configure TabControl
             MapPage.Initialize(tabControl1);

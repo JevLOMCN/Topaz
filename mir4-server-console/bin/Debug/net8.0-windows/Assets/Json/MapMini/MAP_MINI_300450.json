@@ -1,0 +1,75 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "MAP_MINI_300450",
+    "Class": "UScriptClass'DataTable'",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'MapMiniInfoTemplate'",
+        "ObjectPath": "/Script/MirMobile"
+      }
+    },
+    "Rows": {
+      "1": {
+        "Name": 1,
+        "InfoMainType": "EMapMiniInfoMainType::Default",
+        "InfoSubType": 2,
+        "InfoSubTypeValue": 0,
+        "InfoValue": 41810,
+        "DetailInfoValue": 0,
+        "InfoStringId": 410434,
+        "InfoStringPosType": "EMapMiniInfoStringPosType::Right",
+        "InfoCoordinate": {
+          "X": 20.0,
+          "Y": 16950.0,
+          "Z": 3500.0
+        }
+      },
+      "2": {
+        "Name": 2,
+        "InfoMainType": "EMapMiniInfoMainType::Waypoint",
+        "InfoSubType": 2,
+        "InfoSubTypeValue": 3,
+        "InfoValue": 100001069,
+        "DetailInfoValue": 300007604,
+        "InfoStringId": 7010601,
+        "InfoStringPosType": "EMapMiniInfoStringPosType::None",
+        "InfoCoordinate": {
+          "X": -15.0,
+          "Y": -517.0,
+          "Z": 4.0
+        }
+      },
+      "3": {
+        "Name": 3,
+        "InfoMainType": "EMapMiniInfoMainType::Waypoint",
+        "InfoSubType": 2,
+        "InfoSubTypeValue": 5,
+        "InfoValue": 100001070,
+        "DetailInfoValue": 300007628,
+        "InfoStringId": 7010607,
+        "InfoStringPosType": "EMapMiniInfoStringPosType::None",
+        "InfoCoordinate": {
+          "X": 52.0,
+          "Y": -14082.0,
+          "Z": 0.0
+        }
+      },
+      "4": {
+        "Name": 4,
+        "InfoMainType": "EMapMiniInfoMainType::Waypoint",
+        "InfoSubType": 6,
+        "InfoSubTypeValue": 0,
+        "InfoValue": 100001071,
+        "DetailInfoValue": 0,
+        "InfoStringId": 3706154,
+        "InfoStringPosType": "EMapMiniInfoStringPosType::None",
+        "InfoCoordinate": {
+          "X": -5.0,
+          "Y": 13831.0,
+          "Z": 3503.0
+        }
+      }
+    }
+  }
+]

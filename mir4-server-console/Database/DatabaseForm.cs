@@ -115,6 +115,32 @@ namespace Server_Console.Database
             }
         }
 
+        public static DataTable ExecuteQuery(string query, string databaseName)
+        {
+            DataTable resultTable = new DataTable();
+            if (databaseName is null)
+                return resultTable;
+
+            try
+            {
+                string connectionString = DatabaseConfiguration.GetConnectionString(databaseName);
+                using (var connection = new MySqlConnection(connectionString))
+                {
+                    connection.Open();
+                    using (var command = new MySqlCommand(query, connection))
+                    using (var adapter = new MySqlDataAdapter(command))
+                    {
+                        adapter.Fill(resultTable);
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+            return resultTable;
+        }
+
         private void TreeView_NodeMouseClick(DataGridView dataGridView, string databaseName, TreeNodeMouseClickEventArgs e)
         {
             string tableName = e.Node.Text;

@@ -1,0 +1,75 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "MAP_MINI_212",
+    "Class": "UScriptClass'DataTable'",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'MapMiniInfoTemplate'",
+        "ObjectPath": "/Script/MirMobile"
+      }
+    },
+    "Rows": {
+      "1": {
+        "Name": 1,
+        "InfoMainType": "EMapMiniInfoMainType::Waypoint",
+        "InfoSubType": 13,
+        "InfoSubTypeValue": 37,
+        "InfoValue": 100000636,
+        "DetailInfoValue": 1322001,
+        "InfoStringId": 6200228,
+        "InfoStringPosType": "EMapMiniInfoStringPosType::None",
+        "InfoCoordinate": {
+          "X": 16070.0,
+          "Y": -17438.0,
+          "Z": 2102.0
+        }
+      },
+      "2": {
+        "Name": 2,
+        "InfoMainType": "EMapMiniInfoMainType::Waypoint",
+        "InfoSubType": 13,
+        "InfoSubTypeValue": 36,
+        "InfoValue": 100000637,
+        "DetailInfoValue": 1322003,
+        "InfoStringId": 6200230,
+        "InfoStringPosType": "EMapMiniInfoStringPosType::None",
+        "InfoCoordinate": {
+          "X": 18148.0,
+          "Y": 14024.0,
+          "Z": 2253.0
+        }
+      },
+      "3": {
+        "Name": 3,
+        "InfoMainType": "EMapMiniInfoMainType::Waypoint",
+        "InfoSubType": 13,
+        "InfoSubTypeValue": 35,
+        "InfoValue": 100000638,
+        "DetailInfoValue": 200001,
+        "InfoStringId": 6200256,
+        "InfoStringPosType": "EMapMiniInfoStringPosType::None",
+        "InfoCoordinate": {
+          "X": -9652.0,
+          "Y": -2344.0,
+          "Z": 3481.0
+        }
+      },
+      "4": {
+        "Name": 4,
+        "InfoMainType": "EMapMiniInfoMainType::Waypoint",
+        "InfoSubType": 13,
+        "InfoSubTypeValue": 34,
+        "InfoValue": 100000639,
+        "DetailInfoValue": 1322002,
+        "InfoStringId": 6200229,
+        "InfoStringPosType": "EMapMiniInfoStringPosType::None",
+        "InfoCoordinate": {
+          "X": 13749.0,
+          "Y": -12157.0,
+          "Z": 2066.0
+        }
+      }
+    }
+  }
+]

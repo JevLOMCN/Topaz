@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Drawing;
-using System.IO;
-using System.Runtime.InteropServices;
+﻿using System.Runtime.InteropServices;
 using System.Runtime.Serialization.Formatters.Binary;
 using System.Security.Cryptography;
 using System.Text;
@@ -16,8 +12,9 @@ namespace Server_Console.Database_Tool
         public static string CurrentLanguage { get; set; } = "ENG";
         public const string AESKey = "0xAD768F68B8795A776100525791F675E15341D565D9AB4B4B74C95F31B03310F3";
         public static string cacheFileName = "maps.dat";
-        public static string nextIconPath = "MirMobile/Content/UI/Atlas_N_Pack/Sprites_N/Spr_Common/Icon_next_Big_Sprite";
         public static string? worldMapDefaultResource;
+
+        public const int playerDataAutoRefreshInterval = 60;
         public const int worldMapDefaultId = 0;
         public const int worldMapDefaultClassId = 1;
         public const int worldMapDefaultIcon = 900001;
@@ -35,14 +32,88 @@ namespace Server_Console.Database_Tool
         public static float zoomMiniMap = 1.43f;
         public static float offsetMiniMapX = 378;
         public static float offsetMiniMapY = 178;
-        public static readonly Dictionary<int, string> avatarPaths = new Dictionary<int, string>
+
+        public static readonly Dictionary<(int, int), string> InfoSubType = new Dictionary<(int, int), string>
         {
-            { 1, "MirMobile/Content/UI/Atlas_N_Pack/Sprites_N/Spr_Ingame/Spr_SmallTalk/Cha_01_Sprite" },
-            { 2, "MirMobile/Content/UI/Atlas_N_Pack/Sprites_N/Spr_Ingame/Spr_SmallTalk/Cha_02_Sprite" },
-            { 3, "MirMobile/Content/UI/Atlas_N_Pack/Sprites_N/Spr_Ingame/Spr_SmallTalk/Cha_03_Sprite" },
-            { 4, "MirMobile/Content/UI/Atlas_N_Pack/Sprites_N/Spr_Ingame/Spr_SmallTalk/Cha_04_Sprite" },
-            { 5, "MirMobile/Content/UI/Atlas_N_Pack/Sprites_N/Spr_Ingame/Spr_SmallTalk/Cha_05_Sprite" },
-            { 6, "MirMobile/Content/UI/Atlas_N_Pack/Sprites_N/Spr_Ingame/Spr_SmallTalk/Cha_06_Sprite" }
+            {(1, 0), "WayPoint"},
+            {(2, 0), "Portal"},
+            {(2, 3), "Monster"},
+            {(2, 4), "MonsterStageBoss"},
+            {(2, 5), "MonsterFieldBoss"},
+            {(3, 0), "None"},
+            {(3, 1), "Mining"},
+            {(3, 2), "Gathering"},
+            {(3, 3), "MiningBlackIron"},
+            {(3, 4), "EnergyGathering"},
+            {(4, 1), "NpcShop"},
+            {(4, 2), "NpcItemMake"},
+            {(4, 4), "NpcBeauty"},
+            {(4, 8), "NpcWareHouse"},
+            {(4, 100), "NpcBlackIronCoin"},
+            {(5, 0), "NpcBasic"},
+            {(6, 0), "Summon"},
+            {(7, 7), "MonsterStageBoss"},
+            {(12, 21), "None"},
+            {(12, 22), "CoopBoss"},
+            {(13, 31), "Sanctum"},
+            {(13, 32), "Monolith"},
+            {(13, 33), "Altar"},
+            {(13, 41), "Altar"}
+        };
+
+        public static readonly HashSet<string> SpecialMaps = new HashSet<string>
+        {
+            // "EStageType::Siege",
+            // "EStageType::Sabuk_R1R2",
+            // "EStageType::Plunder",
+            "EStageType::Magic_Square",
+            "EStageType::SecretDungeon",
+            "EStageType::BlackDragon",
+            // "EStageType::DeadValley",
+            // "EStageType::Bido",
+        };
+
+        public static readonly Dictionary<int, (string Path, int StringId)> avatarPaths = new Dictionary<int, (string, int)>
+        {
+            { 1, ("MirMobile/Content/UI/Atlas_N_Pack/Sprites_N/Spr_Ingame/Spr_SmallTalk/Cha_01_Sprite", 3600001) },
+            { 2, ("MirMobile/Content/UI/Atlas_N_Pack/Sprites_N/Spr_Ingame/Spr_SmallTalk/Cha_02_Sprite", 3600002) },
+            { 3, ("MirMobile/Content/UI/Atlas_N_Pack/Sprites_N/Spr_Ingame/Spr_SmallTalk/Cha_03_Sprite", 3600003) },
+            { 4, ("MirMobile/Content/UI/Atlas_N_Pack/Sprites_N/Spr_Ingame/Spr_SmallTalk/Cha_04_Sprite", 3600004) },
+            { 5, ("MirMobile/Content/UI/Atlas_N_Pack/Sprites_N/Spr_Ingame/Spr_SmallTalk/Cha_05_Sprite", 3600005) },
+            { 6, ("MirMobile/Content/UI/Atlas_N_Pack/Sprites_N/Spr_Ingame/Spr_SmallTalk/Cha_06_Sprite", 3600006) }
+        };
+
+        public static readonly Dictionary<string, (string Path, float Scale)> miniMapIconPaths = new Dictionary<string, (string, float)>
+        {
+            { "Unknown", ("MirMobile/Content/UI/Atlas_N_Pack/Sprites_N/Spr_Icon/Spr_Symbol/Spr_Symbol_Ico_MiniMap/Ico_MiniMap_008_Sprite", 1) },
+            { "None", ("MirMobile/Content/UI/Atlas_N_Pack/Sprites_N/Spr_Icon/Spr_Symbol/Spr_Symbol_Ico_MiniMap/Mini_None_Sprite", 1) },
+            { "Mining", ("MirMobile/Content/UI/Atlas_N_Pack/Sprites_N/Spr_Icon/Spr_Symbol/Spr_Symbol_Ico_MiniMap/Ico_MiniMap_004_C_Sprite", 1) },
+            { "MiningBlackIron", ("MirMobile/Content/UI/Atlas_N_Pack/Sprites_N/Spr_Icon/Spr_Symbol/Spr_Symbol_Ico_MiniMap/Ico_MiniMap_012_C_Sprite", 1) },
+            { "Gathering", ("MirMobile/Content/UI/Atlas_N_Pack/Sprites_N/Spr_Icon/Spr_Symbol/Spr_Symbol_Ico_MiniMap/Ico_MiniMap_005_C_Sprite", 1) },
+            { "EnergyGathering", ("MirMobile/Content/UI/Atlas_N_Pack/Sprites_N/Spr_Icon/Spr_Symbol/Spr_Symbol_Ico_MiniMap/Ico_MiniMap_013_C_Sprite", 1) },
+            { "Altar", ("MirMobile/Content/UI/Atlas_N_Pack/Sprites_N/Spr_Icon/Spr_Symbol/Spr_Symbol_Ico_MiniMap/Mini_Altar_Sprite", zoomMiniMap) },
+            { "CoopBoss", ("MirMobile/Content/UI/Atlas_N_Pack/Sprites_N/Spr_Icon/Spr_Symbol/Spr_Symbol_Ico_MiniMap/Mini_CoopBoss_Sprite", 1) },
+            { "EliteMonster", ("MirMobile/Content/UI/Atlas_N_Pack/Sprites_N/Spr_Icon/Spr_Symbol/Spr_Symbol_Ico_MiniMap/Mini_Elite_NamedMonster_Sprite", 1) },
+            { "MonsterBoss", ("MirMobile/Content/UI/Atlas_N_Pack/Sprites_N/Spr_Icon/Spr_Symbol/Spr_Symbol_Ico_MiniMap/Mini_MonsterBoss_Sprite", 1) },
+            { "MonsterFieldBoss", ("MirMobile/Content/UI/Atlas_N_Pack/Sprites_N/Spr_Icon/Spr_Symbol/Spr_Symbol_Ico_MiniMap/Mini_MonsterFieldBoss_Sprite", zoomMiniMap) },
+            { "MonsterStageBoss", ("MirMobile/Content/UI/Atlas_N_Pack/Sprites_N/Spr_Icon/Spr_Symbol/Spr_Symbol_Ico_MiniMap/Mini_MonsterStageBoss_Sprite", zoomMiniMap) },
+            { "Monster", ("MirMobile/Content/UI/Atlas_N_Pack/Sprites_N/Spr_Icon/Spr_Symbol/Spr_Symbol_Ico_MiniMap/Mini_MonsterNamed_Sprite", 1) },
+            { "Sanctum", ("MirMobile/Content/UI/Atlas_N_Pack/Sprites_N/Spr_Icon/Spr_Symbol/Spr_Symbol_Ico_MiniMap/Mini_Guildwar_Sanctum_Sprite", zoomMiniMap) },
+            { "Monolith", ("MirMobile/Content/UI/Atlas_N_Pack/Sprites_N/Spr_Icon/Spr_Symbol/Spr_Symbol_Ico_MiniMap/Mini_WinTarget_Sprite", 1) },
+            { "NpcWareHouse", ("MirMobile/Content/UI/Atlas_N_Pack/Sprites_N/Spr_Icon/Spr_Symbol/Spr_Symbol_Ico_MiniMap/Mini_Individual_Storage_Sprite", 1) },
+            { "NpcBasic", ("MirMobile/Content/UI/Atlas_N_Pack/Sprites_N/Spr_Icon/Spr_Symbol/Spr_Symbol_Ico_MiniMap/Mini_NpcBasic_Sprite", 1) },
+            { "NpcBeauty", ("MirMobile/Content/UI/Atlas_N_Pack/Sprites_N/Spr_Icon/Spr_Symbol/Spr_Symbol_Ico_MiniMap/Mini_NpcBeauty_Sprite", 1) },
+            { "NpcBlackIronCoin", ("MirMobile/Content/UI/Atlas_N_Pack/Sprites_N/Spr_Icon/Spr_Symbol/Spr_Symbol_Ico_MiniMap/Mini_NpcBlackIronCoin_Sprite", 1) },
+            { "NpcExchange", ("MirMobile/Content/UI/Atlas_N_Pack/Sprites_N/Spr_Icon/Spr_Symbol/Spr_Symbol_Ico_MiniMap/Mini_NpcExchange_Sprite", 1) },
+            { "NpcItemMake", ("MirMobile/Content/UI/Atlas_N_Pack/Sprites_N/Spr_Icon/Spr_Symbol/Spr_Symbol_Ico_MiniMap/Mini_NpcItemMake_Sprite", 1) },
+            { "NpcQuest", ("MirMobile/Content/UI/Atlas_N_Pack/Sprites_N/Spr_Icon/Spr_Symbol/Spr_Symbol_Ico_MiniMap/Mini_NpcQuest_Sprite", 1) },
+            { "NpcRelation", ("MirMobile/Content/UI/Atlas_N_Pack/Sprites_N/Spr_Icon/Spr_Symbol/Spr_Symbol_Ico_MiniMap/Mini_NpcRelation_Sprite", 1) },
+            { "NpcShop", ("MirMobile/Content/UI/Atlas_N_Pack/Sprites_N/Spr_Icon/Spr_Symbol/Spr_Symbol_Ico_MiniMap/Mini_NpcShop_Sprite", 1) },
+            { "Portal", ("MirMobile/Content/UI/Atlas_N_Pack/Sprites_N/Spr_Icon/Spr_Symbol/Spr_Symbol_Ico_MiniMap/Mini_Portal_Sprite", 1) },
+            { "Portal02", ("MirMobile/Content/UI/Atlas_N_Pack/Sprites_N/Spr_Icon/Spr_Symbol/Spr_Symbol_Ico_MiniMap/Mini_Portal_02_Sprite", 1) },
+            { "PortalDeactive", ("MirMobile/Content/UI/Atlas_N_Pack/Sprites_N/Spr_Icon/Spr_Symbol/Spr_Symbol_Ico_MiniMap/Mini_Portal_Deactive_Sprite", 1) },
+            { "Summon", ("MirMobile/Content/UI/Atlas_N_Pack/Sprites_N/Spr_Icon/Spr_Symbol/Spr_Symbol_Ico_MiniMap/Mini_Summon_Sprite", 1) },
+            { "WayPoint", ("MirMobile/Content/UI/Atlas_N_Pack/Sprites_N/Spr_Icon/Spr_Symbol/Spr_Symbol_Ico_MiniMap/Mini_WayPointNormal_Sprite", 1) },
         };
 
         [Serializable]

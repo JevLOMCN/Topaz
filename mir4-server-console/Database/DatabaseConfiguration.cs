@@ -58,6 +58,11 @@ namespace Server_Console.Database
             }
         }
 
+        public static string GetConnectionString(string databaseName)
+        {
+            return $"server={Settings.Default.Hostname};user={Settings.Default.Username};password={Settings.Default.Password};database={databaseName};port=3306;";
+        }
+
         private void btn_TestConnection_Click(object sender, EventArgs e)
         {
             //Test the database connection

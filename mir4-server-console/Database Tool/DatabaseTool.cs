@@ -14,10 +14,13 @@ namespace Server_Console.Database_Tool
     {
         public DatabaseTool()
         {
+            Config.Initialize();
+            FileManager.PreInitialize();
             InitializeComponent();
             this.Shown += new EventHandler(DatabaseTool_Shown);
         }
-        private void DatabaseTool_Shown(object sender, EventArgs e)
+
+        private void DatabaseTool_Shown(object? sender, EventArgs e)
         {
             InitializeData();
         }
@@ -30,10 +33,6 @@ namespace Server_Console.Database_Tool
             int currentStep = 0;
 
             InitializeLanguageMenu();
-            currentStep++;
-            UpdateProgressBar((currentStep * 100) / totalSteps);
-
-            await Task.Run(() => Config.Initialize());
             currentStep++;
             UpdateProgressBar((currentStep * 100) / totalSteps);
 
@@ -98,7 +97,7 @@ namespace Server_Console.Database_Tool
             UpdateTabItemSize();
         }
 
-        private void LanguageMenuItem_Click(object sender, EventArgs e)
+        private void LanguageMenuItem_Click(object? sender, EventArgs e)
         {
             if (sender is ToolStripMenuItem menuItem && menuItem.Tag is string langCode)
             {
