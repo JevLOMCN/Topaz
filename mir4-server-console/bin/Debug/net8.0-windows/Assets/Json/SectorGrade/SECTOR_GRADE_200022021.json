@@ -1,0 +1,60 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "SECTOR_GRADE_200022021",
+    "Class": "UScriptClass'DataTable'",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'SectorGradeTemplate'",
+        "ObjectPath": "/Script/MirMobile"
+      }
+    },
+    "Rows": {
+      "1": {
+        "SectorID": 2000220211,
+        "SectorRange": 3218.0,
+        "SectorLocation": {
+          "X": -17743.0,
+          "Y": 5581.0,
+          "Z": 1333.0
+        }
+      },
+      "2": {
+        "SectorID": 2000220213,
+        "SectorRange": 3300.0,
+        "SectorLocation": {
+          "X": 18745.0,
+          "Y": 9023.0,
+          "Z": 1803.0
+        }
+      },
+      "3": {
+        "SectorID": 2000220214,
+        "SectorRange": 3278.0,
+        "SectorLocation": {
+          "X": 17057.0,
+          "Y": -645.0,
+          "Z": 1379.0
+        }
+      },
+      "4": {
+        "SectorID": 2000220212,
+        "SectorRange": 3038.0,
+        "SectorLocation": {
+          "X": 3975.0,
+          "Y": -6425.0,
+          "Z": 457.0
+        }
+      },
+      "5": {
+        "SectorID": 2000220211,
+        "SectorRange": 3048.0,
+        "SectorLocation": {
+          "X": 4130.0,
+          "Y": 8604.0,
+          "Z": 3659.0
+        }
+      }
+    }
+  }
+]

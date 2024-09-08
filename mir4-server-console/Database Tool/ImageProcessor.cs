@@ -1,11 +1,6 @@
-using System;
-using System.Drawing;
-using System.IO;
 using System.Text.RegularExpressions;
-using System.Windows.Forms;
 using System.Drawing.Drawing2D;
 using SkiaSharp;
-using Newtonsoft.Json;
 using CUE4Parse.UE4.Versions;
 using CUE4Parse.UE4.Objects.Core.Misc;
 using CUE4Parse.UE4.Assets.Exports;
@@ -15,11 +10,7 @@ using CUE4Parse.Encryption.Aes;
 using CUE4Parse.Compression;
 using CUE4Parse_Conversion.Textures;
 using CUE4Parse_Conversion.Sounds;
-using Org.BouncyCastle.Asn1.Pkcs;
-using System.Collections.Generic;
 using System.Drawing.Imaging;
-using System.Linq;
-using CUE4Parse.Utils;
 
 namespace Server_Console.Database_Tool
 {
@@ -65,9 +56,9 @@ namespace Server_Console.Database_Tool
             string? areaText = areaStringId != 0 ? FileManager.GetStringTemplateById(areaStringId) : null;
             string? miniText = miniStringId != 0 ? FileManager.GetStringTemplateById(miniStringId) : null;
 
-            Font defaultFont = new Font("Arial", 14, FontStyle.Bold);
+            Font defaultFont = GetFont("Arial", 14, FontStyle.Bold);
             if (Config.NeedBoldTextLanguages.Contains(Config.CurrentLanguage))
-                defaultFont = new Font("Microsoft YaHei", 14, FontStyle.Bold);
+                defaultFont = GetFont("Microsoft YaHei", 14, FontStyle.Bold);
 
             SizeF worldMapTextSize = graphics.MeasureString(worldMapText, defaultFont);
 
@@ -85,15 +76,16 @@ namespace Server_Console.Database_Tool
 
             if (!string.IsNullOrEmpty(areaText))
             {
-                Bitmap? iconBitmap = ImageProcessor.GetIconFromUE4(Config.nextIconPath);
-                if (iconBitmap != null)
+                if (MapPage.Bitmap_NextIcon != null)
                 {
-                    float iconWidth = iconBitmap.Width / 2f;
-                    float iconHeight = iconBitmap.Height / 2f;
+                    lock (MapPage.Bitmap_NextIcon)
+                    {
+                        float iconWidth = MapPage.Bitmap_NextIcon.Width / 2f;
+                        float iconHeight = MapPage.Bitmap_NextIcon.Height / 2f;
 
-                    graphics.DrawImage(iconBitmap, iconX, iconY, iconWidth, iconHeight);
-
-                    iconX += iconWidth;
+                        graphics.DrawImage(MapPage.Bitmap_NextIcon, iconX, iconY, iconWidth, iconHeight);
+                        iconX += iconWidth;
+                    }
 
                     PointF areaTextStartPoint = new PointF(iconX, textStartPoint.Y);
                     graphics.DrawString(areaText, defaultFont, Brushes.White, areaTextStartPoint);
@@ -107,15 +99,16 @@ namespace Server_Console.Database_Tool
 
             if (!string.IsNullOrEmpty(miniText))
             {
-                Bitmap? iconBitmapMini = GetIconFromUE4(Config.nextIconPath);
-                if (iconBitmapMini != null)
+                if (MapPage.Bitmap_NextIcon != null)
                 {
-                    float iconWidth = iconBitmapMini.Width / 2f;
-                    float iconHeight = iconBitmapMini.Height / 2f;
+                    lock (MapPage.Bitmap_NextIcon)
+                    {
+                        float iconWidth = MapPage.Bitmap_NextIcon.Width / 2f;
+                        float iconHeight = MapPage.Bitmap_NextIcon.Height / 2f;
 
-                    graphics.DrawImage(iconBitmapMini, iconX, iconY, iconWidth, iconHeight);
-
-                    iconX += iconWidth;
+                        graphics.DrawImage(MapPage.Bitmap_NextIcon, iconX, iconY, iconWidth, iconHeight);
+                        iconX += iconWidth;
+                    }
 
                     PointF miniTextStartPoint = new PointF(iconX, textStartPoint.Y);
                     graphics.DrawString(miniText, defaultFont, Brushes.White, miniTextStartPoint);
@@ -125,6 +118,7 @@ namespace Server_Console.Database_Tool
                 }
             }
         }
+
         public static void DrawStageTabs(Graphics graphics, int miniStageId, int miniGroupId, int elliteCheck, int tabX, int tabY, int scaledTabWidth, int scaledTabHeight, Bitmap tabBackground, int backgroundWidth)
         {
             if (!FileManager.MapMiniList.TryGetValue(miniGroupId, out var miniList))
@@ -133,13 +127,13 @@ namespace Server_Console.Database_Tool
             Color lineColor = Color.FromArgb(255, 96, 96, 96);
             Color gridColor = Color.FromArgb(128, 13, 18, 32);
 
-            Font defaultFont = new Font("Arial", 12);
-            Font smallerFont = new Font("Arial", 10);
+            Font defaultFont = GetFont("Arial", 12);
+            Font smallerFont = GetFont("Arial", 10);
 
             if (Config.NeedBoldTextLanguages.Contains(Config.CurrentLanguage))
             {
-                defaultFont = new Font("Microsoft YaHei", elliteCheck == 1 ? 12 : 14, FontStyle.Bold);
-                smallerFont = new Font("Microsoft YaHei", 12, FontStyle.Bold);
+                defaultFont = GetFont("Microsoft YaHei", elliteCheck == 1 ? 12 : 14, FontStyle.Bold);
+                smallerFont = GetFont("Microsoft YaHei", 12, FontStyle.Bold);
             }
 
             int maxWidth = scaledTabWidth - 10;
@@ -170,7 +164,10 @@ namespace Server_Console.Database_Tool
                 }
 
                 if (stageId == miniStageId)
-                    graphics.DrawImage(tabBackground, currentTabX, tabY, scaledTabWidth, scaledTabHeight);
+                {
+                    lock (tabBackground)
+                        graphics.DrawImage(tabBackground, currentTabX, tabY, scaledTabWidth, scaledTabHeight);
+                }
 
                 Color fontColor = (stageId == miniStageId) ? Color.White : Color.FromArgb(255, 126, 126, 126);
                 if (mapMini.ElliteCheck == 1 && stageId == miniStageId)
@@ -233,9 +230,9 @@ namespace Server_Console.Database_Tool
 
         public static void DrawRightPanel(Graphics graphics, int miniStageId, int elliteStageId, int elliteCheck, Bitmap background, int tabY, int scaledTabHeight)
         {
-            Font defaultFont = new Font("Arial", 12);
+            Font defaultFont = GetFont("Arial", 12);
             if (Config.NeedBoldTextLanguages.Contains(Config.CurrentLanguage))
-                defaultFont = new Font("Microsoft YaHei", 12);
+                defaultFont = GetFont("Microsoft YaHei", 12);
 
             Color gridColor = Color.FromArgb(128, 13, 18, 32);
 
@@ -555,6 +552,113 @@ namespace Server_Console.Database_Tool
                 lines.Add(currentLine);
 
             return lines.ToArray();
+        }
+
+        public static void DrawMiniMapIcon(Graphics graphics, MapMiniInfoData miniInfoData, int screenX, int screenY)
+        {
+            int infoSubType = miniInfoData.InfoSubType;
+            int infoSubTypeValue = miniInfoData.InfoSubTypeValue;
+            string iconKey = MapPage.GetIconKeyByTypeAndValue(infoSubType, infoSubTypeValue);
+
+            if (!string.IsNullOrEmpty(iconKey) && MapPage.MiniMapIconBitmaps.ContainsKey(iconKey))
+            {
+                Bitmap iconBitmap = MapPage.MiniMapIconBitmaps[iconKey];
+                int iconWidth = iconBitmap.Width;
+                int iconHeight = iconBitmap.Height;
+
+                lock (iconBitmap)
+                {
+                    graphics.DrawImage(iconBitmap, new Rectangle(screenX - iconWidth / 2, screenY - iconHeight / 2, iconWidth, iconHeight));
+                }
+            }
+        }
+
+        public static void DrawMiniMapString(Graphics graphics, MapMiniInfoData miniInfoData, int screenX, int screenY, int iconHeight)
+        {
+            int infoStringId = miniInfoData.InfoStringId;
+
+            if (FileManager.StringTemplateMap.TryGetValue(infoStringId, out var template))
+            {
+                string text = template.Text ?? string.Empty;
+
+                var colorTagRegex = new Regex("<span color=\"#(?<Color>[A-Fa-f0-9]{6,8})\">(?<Text>.*?)<\\/>");
+                Match match = colorTagRegex.Match(text);
+
+                Font defaultFont = GetFont("Arial", 7);
+                if (Config.NeedBoldTextLanguages.Contains(Config.CurrentLanguage))
+                    defaultFont = GetFont("Microsoft YaHei", 9);
+
+                Color textColor = Color.White;
+                if (match.Success)
+                {
+                    string colorHex = match.Groups["Color"].Value;
+                    text = match.Groups["Text"].Value;
+
+                    if (int.TryParse(colorHex.Substring(0, 2), System.Globalization.NumberStyles.HexNumber, null, out int red) &&
+                        int.TryParse(colorHex.Substring(2, 2), System.Globalization.NumberStyles.HexNumber, null, out int green) &&
+                        int.TryParse(colorHex.Substring(4, 2), System.Globalization.NumberStyles.HexNumber, null, out int blue))
+                    {
+                        textColor = Color.FromArgb(255, red, green, blue);
+                        defaultFont = GetFont("Arial", 11);
+                        if (Config.NeedBoldTextLanguages.Contains(Config.CurrentLanguage))
+                            defaultFont = GetFont("Microsoft YaHei", 13);
+                    }
+                }
+
+                string textPositionType = miniInfoData.InfoStringPosType ?? "EMapMiniInfoStringPosType::None";
+                float textX = screenX;
+                float textY = screenY + iconHeight / 2;
+
+                switch (textPositionType)
+                {
+                    case "EMapMiniInfoStringPosType::Top":
+                        textY = screenY - iconHeight / 2 - graphics.MeasureString(text, defaultFont).Height;
+                        break;
+                    case "EMapMiniInfoStringPosType::Bottom":
+                        textY = screenY + iconHeight / 2;
+                        break;
+                    case "EMapMiniInfoStringPosType::Left":
+                        textX = screenX - graphics.MeasureString(text, defaultFont).Width / 2 - iconHeight / 2;
+                        break;
+                    case "EMapMiniInfoStringPosType::Right":
+                        textX = screenX + iconHeight / 2;
+                        break;
+                    default:
+                        textY = screenY + iconHeight / 2;
+                        break;
+                }
+
+                using (Brush outlineBrush = new SolidBrush(Color.Black))
+                using (Brush textBrush = new SolidBrush(textColor))
+                {
+                    SizeF textSize = graphics.MeasureString(text, defaultFont);
+                    textX -= textSize.Width / 2;
+
+                    graphics.DrawString(text, defaultFont, outlineBrush, textX - 1, textY - 1);
+                    graphics.DrawString(text, defaultFont, outlineBrush, textX + 1, textY - 1);
+                    graphics.DrawString(text, defaultFont, outlineBrush, textX - 1, textY + 1);
+                    graphics.DrawString(text, defaultFont, outlineBrush, textX + 1, textY + 1);
+
+                    graphics.DrawString(text, defaultFont, textBrush, textX, textY);
+                }
+            }
+        }
+
+        public static float GetResolutionScale()
+        {
+            int screenWidth = Screen.PrimaryScreen.Bounds.Width;
+            int screenHeight = Screen.PrimaryScreen.Bounds.Height;
+
+            float widthScale = (float)screenWidth / 2560;
+            float heightScale = (float)screenHeight / 1600;
+
+            return Math.Min(widthScale, heightScale);
+        }
+
+        public static Font GetFont(string font, int size, FontStyle style = FontStyle.Regular)
+        {
+            float resolutionScale = GetResolutionScale();
+            return new Font(font, size * resolutionScale, style);
         }
 
         public static Image? GetIcon(int iconId, int grade, int tier, int tradeType)

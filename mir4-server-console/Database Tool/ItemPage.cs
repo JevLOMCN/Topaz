@@ -1,9 +1,4 @@
-﻿using System;
-using System.Drawing;
-using System.Linq;
-using System.Reflection;
-using System.Windows.Forms;
-using System.Threading.Tasks;
+﻿using System.Reflection;
 
 namespace Server_Console.Database_Tool
 {
@@ -189,57 +184,17 @@ namespace Server_Console.Database_Tool
         private void DisplayItemData(ItemData itemData)
         {
             resultTextBox.Clear();
+
             resultTextBox.AppendText($"Name : {FileManager.StringTemplateMap[itemData.NameSid]?.Text ?? "N/A"}\r\n");
-            resultTextBox.AppendText($"ItemId : {itemData.ItemId}\r\n");
-            resultTextBox.AppendText($"UseId : {itemData.UseId}\r\n");
             resultTextBox.AppendText($"Note : {FileManager.StringTemplateMap[itemData.NoteSid]?.Text ?? "N/A"}\r\n");
-            resultTextBox.AppendText($"MeshId : {itemData.MeshId}\r\n");
-            resultTextBox.AppendText($"Icon : {itemData.Icon}\r\n");
-            resultTextBox.AppendText($"Level : {itemData.Level}\r\n");
-            resultTextBox.AppendText($"MainType : {itemData.MainType}\r\n");
-            resultTextBox.AppendText($"SubType : {itemData.SubType}\r\n");
-            resultTextBox.AppendText($"SmeltingType : {itemData.SmeltingType}\r\n");
-            resultTextBox.AppendText($"SortOrder : {itemData.SortOrder}\r\n");
-            resultTextBox.AppendText($"ClassId : {itemData.ClassId}\r\n");
-            resultTextBox.AppendText($"ReqClassLevel : {itemData.ReqClassLevel}\r\n");
-            resultTextBox.AppendText($"Tier : {itemData.Tier}\r\n");
-            resultTextBox.AppendText($"Grade : {itemData.Grade}\r\n");
-            resultTextBox.AppendText($"PET_Origin : {itemData.PET_Origin}\r\n");
-            resultTextBox.AppendText($"SellType : {itemData.SellType}\r\n");
-            resultTextBox.AppendText($"SellPrice : {itemData.SellPrice}\r\n");
-            resultTextBox.AppendText($"Stackable : {itemData.Stackable}\r\n");
-            resultTextBox.AppendText($"CoolTime : {itemData.CoolTime}\r\n");
-            resultTextBox.AppendText($"BuffId : {itemData.BuffId}\r\n");
-            resultTextBox.AppendText($"ItemOptionType : {itemData.ItemOptionType}\r\n");
-            resultTextBox.AppendText($"SetGroupId : {itemData.SetGroupId}\r\n");
-            resultTextBox.AppendText($"ReinforceMaxLv : {itemData.ReinforceMaxLv}\r\n");
-            resultTextBox.AppendText($"SmeltingMaxCount : {itemData.SmeltingMaxCount}\r\n");
-            resultTextBox.AppendText($"JewelUpgradeType : {itemData.JewelUpgradeType}\r\n");
-            resultTextBox.AppendText($"JewelUpgradeCount : {itemData.JewelUpgradeCount}\r\n");
-            resultTextBox.AppendText($"RandomGetInfoId : {itemData.RandomGetInfoId}\r\n");
-            resultTextBox.AppendText($"SummonGroupId : {itemData.SummonGroupId}\r\n");
-            resultTextBox.AppendText($"CastingType : {itemData.CastingType}\r\n");
-            resultTextBox.AppendText($"CastingTime : {itemData.CastingTime}\r\n");
-            resultTextBox.AppendText($"SummonStageType : {itemData.SummonStageType}\r\n");
-            resultTextBox.AppendText($"ItemCasting : {itemData.ItemCasting}\r\n");
-            resultTextBox.AppendText($"CollectAniType : {itemData.CollectAniType}\r\n");
-            resultTextBox.AppendText($"GetWayId : {itemData.GetWayId}\r\n");
-            resultTextBox.AppendText($"OverlapEquipAble : {itemData.OverlapEquipAble}\r\n");
-            resultTextBox.AppendText($"UnsealingType : {itemData.UnsealingType}\r\n");
-            resultTextBox.AppendText($"OpenboxRewardType : {itemData.OpenboxRewardType}\r\n");
-            resultTextBox.AppendText($"OpenboxRewardId : {itemData.OpenboxRewardId}\r\n");
-            resultTextBox.AppendText($"RandomGetCnt : {itemData.RandomGetCnt}\r\n");
-            resultTextBox.AppendText($"Durability : {itemData.Durability}\r\n");
-            resultTextBox.AppendText($"Durability_RepairAble : {itemData.Durability_RepairAble}\r\n");
-            resultTextBox.AppendText($"TradeType : {itemData.TradeType}\r\n");
-            resultTextBox.AppendText($"UseTimeType : {itemData.UseTimeType}\r\n");
-            resultTextBox.AppendText($"UseEndType_Period : {itemData.UseEndType_Period}\r\n");
-            resultTextBox.AppendText($"UseEndType_Minute : {itemData.UseEndType_Minute}\r\n");
-            resultTextBox.AppendText($"Lockable : {itemData.Lockable}\r\n");
-            resultTextBox.AppendText($"XDracoDelayMinute : {itemData.XDracoDelayMinute}\r\n");
-            resultTextBox.AppendText($"GachaTap : {itemData.GachaTap}\r\n");
-            resultTextBox.AppendText($"TranceGroup : {itemData.TranceGroup}\r\n");
-            resultTextBox.AppendText($"EquipGroup : {itemData.EquipGroup}\r\n");
+
+            foreach (var property in typeof(ItemData).GetProperties(BindingFlags.Public | BindingFlags.Instance))
+            {
+                if (property.Name == "NameSid" || property.Name == "NoteSid") continue;
+
+                var value = property.GetValue(itemData);
+                resultTextBox.AppendText($"{property.Name} : {value}\r\n");
+            }
 
             ImageProcessor.SetIconInPictureBox(itemData.Icon, itemData.Grade, itemData.Tier, itemData.TradeType, iconPictureBox);
 
@@ -311,7 +266,7 @@ namespace Server_Console.Database_Tool
             {
                 if (FileManager.CombinedIndex.TryGetValue(searchTerm, out var itemData))
                 {
-                    Log($"Item found: {itemData.Name}");
+                    Log($"Item found: {itemData.ItemID}");
                     DisplayItemData(itemData);
                 }
                 else

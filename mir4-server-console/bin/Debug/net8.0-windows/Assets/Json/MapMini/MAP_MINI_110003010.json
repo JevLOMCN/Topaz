@@ -1,0 +1,88 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "MAP_MINI_110001210",
+    "Class": "UScriptClass'DataTable'",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'MapMiniInfoTemplate'",
+        "ObjectPath": "/Script/MirMobile"
+      }
+    },
+    "Rows": {
+      "1": {
+        "Name": 1,
+        "InfoMainType": "EMapMiniInfoMainType::Default",
+        "InfoSubType": 2,
+        "InfoSubTypeValue": 0,
+        "InfoValue": 10208,
+        "DetailInfoValue": 0,
+        "InfoStringId": 410626,
+        "InfoStringPosType": "EMapMiniInfoStringPosType::Top",
+        "InfoCoordinate": {
+          "X": -9.145,
+          "Y": 27729.068,
+          "Z": 10383.084
+        }
+      },
+      "2": {
+        "Name": 2,
+        "InfoMainType": "EMapMiniInfoMainType::Waypoint",
+        "InfoSubType": 1,
+        "InfoSubTypeValue": 0,
+        "InfoValue": 999999995,
+        "DetailInfoValue": 0,
+        "InfoStringId": 410631,
+        "InfoStringPosType": "EMapMiniInfoStringPosType::None",
+        "InfoCoordinate": {
+          "X": -409.0,
+          "Y": 25501.0,
+          "Z": 10304.0
+        }
+      }
+    }
+  },
+  {
+    "Type": "DataTable",
+    "Name": "MAP_MINI_110003010",
+    "Class": "UScriptClass'DataTable'",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'MapMiniInfoTemplate'",
+        "ObjectPath": "/Script/MirMobile"
+      }
+    },
+    "Rows": {
+      "1": {
+        "Name": 1,
+        "InfoMainType": "EMapMiniInfoMainType::Default",
+        "InfoSubType": 2,
+        "InfoSubTypeValue": 0,
+        "InfoValue": 10208,
+        "DetailInfoValue": 0,
+        "InfoStringId": 410626,
+        "InfoStringPosType": "EMapMiniInfoStringPosType::Bottom",
+        "InfoCoordinate": {
+          "X": -9.145,
+          "Y": 7218.068,
+          "Z": 10927.084
+        }
+      },
+      "2": {
+        "Name": 2,
+        "InfoMainType": "EMapMiniInfoMainType::Waypoint",
+        "InfoSubType": 1,
+        "InfoSubTypeValue": 0,
+        "InfoValue": 100000545,
+        "DetailInfoValue": 0,
+        "InfoStringId": 410631,
+        "InfoStringPosType": "EMapMiniInfoStringPosType::None",
+        "InfoCoordinate": {
+          "X": 2551.483,
+          "Y": 4986.337,
+          "Z": 10590.764
+        }
+      }
+    }
+  }
+]

@@ -1,21 +1,12 @@
-﻿using CUE4Parse.GameTypes.PUBG.Assets.Exports;
-using CUE4Parse.UE4.Assets.Exports.Texture;
+﻿using CUE4Parse.UE4.Assets.Exports.Component.StaticMesh;
+using CUE4Parse.UE4.Kismet;
 using Google.Protobuf.WellKnownTypes;
 using Org.BouncyCastle.Asn1.Pkcs;
-using SkiaSharp;
-using System;
-using System.Collections.Concurrent;
-using System.Collections.Generic;
-using System.Drawing;
-using System.Drawing.Drawing2D;
-using System.Drawing.Imaging;
 using System.Linq;
 using System.Reflection;
-using System.Runtime.InteropServices;
+using System.Text.RegularExpressions;
 using System.Threading.Tasks;
-using System.Windows.Forms;
-using static Mysqlx.Expect.Open.Types.Condition.Types;
-using static System.Windows.Forms.VisualStyles.VisualStyleElement.TrayNotify;
+using static Mysqlx.Notice.Warning.Types;
 
 namespace Server_Console.Database_Tool
 {
@@ -27,18 +18,48 @@ namespace Server_Console.Database_Tool
         private static GroupBox? mapGroupBox;
         private static GroupBox? optionsGroupBox;
         private static Panel? leftPanel;
+        private static Panel? totalPlayerPanel;
         private static Panel? totalOnlinePanel;
         private static Panel? mapOnlinePanel;
+        private static Label? totalPlayerLabel;
         private static Label? totalOnlineLabel;
         private static Label? mapOnlineLabel;
         private static PictureBox? loadingPictureBox;
+        private static ComboBox? playerSearchComboBox;
+        private static ComboBox? mapSearchComboBox;
+        private static Button? refreshPlayerDataButton;
+        private static CheckBox? autoRefreshCheckBox;
+        private static Label? countdownLabel;
+        private static System.Windows.Forms.Timer? autoRefreshTimer;
+
+        private static int autoRefreshInterval = Config.playerDataAutoRefreshInterval * 1000;
+        private static int countdownTime = Config.playerDataAutoRefreshInterval;
+
+        private static bool ShowPlayer = true;
+        private static bool ShowMerchantNpc = false;
+        private static bool ShowResidentNpc = false;
+        private static bool ShowWayPoint = false;
+        private static bool ShowGathering = false;
+        private static bool ShowMonster = true;
+        private static bool ShowDemonSpawnPoint = false;
 
         private static int curMapId = 0;
         public static int AllPlayerCount = 0;
+        public static int AllOnlineCount = 0;
+
+        private static string CurrentSearchPlayer = string.Empty;
+
+        public static Bitmap? Bitmap_BgText;
+        public static Bitmap? Bitmap_TabBackground;
+        public static Bitmap? Bitmap_BgCommonSprite;
+        public static Bitmap? Bitmap_NextIcon;
+
+        public static List<SpecialMapData> SpecialMap = new List<SpecialMapData>();
         public static Dictionary<int, Bitmap> CachedBitmaps = new Dictionary<int, Bitmap>();
         public static Dictionary<int, Bitmap> CachedMapItems = new Dictionary<int, Bitmap>();
         public static Dictionary<int, List<(RectangleF areaRect, int targetMapId)>> mapClickAreas = new Dictionary<int, List<(RectangleF, int)>>();
         public static readonly Dictionary<int, Bitmap> AvatarBitmaps = new Dictionary<int, Bitmap>();
+        public static readonly Dictionary<string, Bitmap> MiniMapIconBitmaps = new Dictionary<string, Bitmap>();
 
         public static void Initialize(TabControl tabControl)
         {
@@ -48,7 +69,7 @@ namespace Server_Console.Database_Tool
                 Padding = new Padding(3),
                 Size = new Size(1335, 501),
                 TabIndex = 0,
-                Text = "Maps",
+                Text = FileManager.GetStringMessageById(1019001),
                 UseVisualStyleBackColor = true,
                 Location = new Point(4, 34)
             };
@@ -89,18 +110,20 @@ namespace Server_Console.Database_Tool
         {
             serverInfoGroupBox = new GroupBox
             {
-                Text = "Server Info",
+                Text = FileManager.GetStringMessageById(1071515),
                 Font = new Font("Segoe UI", 9F),
                 ForeColor = Color.Black,
                 Dock = DockStyle.Top,
-                Height = 220,
+                Height = 160,
                 BackColor = Color.White,
                 Padding = new Padding(10)
             };
 
+            InitializeTotalPlayerPanel();
             InitializeTotalOnlinePanel();
             InitializeMapOnlinePanel();
 
+            serverInfoGroupBox.Controls.Add(totalPlayerPanel);
             serverInfoGroupBox.Controls.Add(totalOnlinePanel);
             serverInfoGroupBox.Controls.Add(mapOnlinePanel);
         }
@@ -109,7 +132,7 @@ namespace Server_Console.Database_Tool
         {
             optionsGroupBox = new GroupBox
             {
-                Text = "Options",
+                Text = FileManager.GetStringTemplateById(1020149),
                 Font = new Font("Segoe UI", 9F),
                 ForeColor = Color.Black,
                 Width = 300,
@@ -124,133 +147,245 @@ namespace Server_Console.Database_Tool
 
         private static void InitializeOptionsControls()
         {
+            int startX = 20;
             int startY = 30;
+            int spacing = 25;
+            int extraSpacing = 35;
 
-            Label professionLabel = new Label
-            {
-                Text = "Select Class:",
-                Font = new Font("Segoe UI", 9F, FontStyle.Bold),
-                ForeColor = Color.Black,
-                AutoSize = true,
-                Location = new Point(30, startY),
-                Anchor = AnchorStyles.Top | AnchorStyles.Left
-            };
+            refreshPlayerDataButton = LoadRefreshPlayerDataButton(startX, startY);
+            refreshPlayerDataButton.Click += (s, e) => RefreshPlayerData();
 
-            ComboBox professionComboBox = new ComboBox
-            {
-                Font = new Font("Segoe UI", 9F),
-                ForeColor = Color.Black,
-                Location = new Point(30, startY + 25),
-                Width = 200,
-                DropDownStyle = ComboBoxStyle.DropDownList,
-                Anchor = AnchorStyles.Top | AnchorStyles.Left
-            };
+            InitializeTimer();
 
-            professionComboBox.Items.AddRange(new[] { "Warrior", "Sorcerer", "Taoist", "Lancer", "Arbalist" }); //"Darkist"
-            professionComboBox.SelectedIndex = Math.Max(0, Config.worldMapDefaultClassId - 1);
+            ComboBox classComboBox = LoadClassComboBox(startX, startY += extraSpacing);
 
             CheckBox showPlayerCheckBox = new CheckBox
             {
-                Text = "Show Player",
+                Text = CombineStringsWithSpaces(FileManager.GetStringMessageById, 1033104, 2618029, 1086612),
                 Font = new Font("Segoe UI", 9F),
                 ForeColor = Color.Black,
                 AutoSize = true,
-                Location = new Point(30, startY + 65),
-                Checked = true,
+                Location = new Point(startX, startY += extraSpacing),
+                Checked = ShowPlayer,
                 Anchor = AnchorStyles.Top | AnchorStyles.Left
             };
+            showPlayerCheckBox.CheckedChanged += (s, e) => ToggleShowPlayer(showPlayerCheckBox.Checked);
 
-            CheckBox showBossCheckBox = new CheckBox
+            CheckBox showMerchantNpcCheckBox = new CheckBox
             {
-                Text = "Show Boss",
+                Text = CombineStringsWithSpaces(FileManager.GetStringMessageById, 1033104, 1019040),
                 Font = new Font("Segoe UI", 9F),
                 ForeColor = Color.Black,
                 AutoSize = true,
-                Location = new Point(30, startY + 90),
+                Location = new Point(startX, startY += spacing),
+                Checked = ShowMerchantNpc,
                 Anchor = AnchorStyles.Top | AnchorStyles.Left
             };
+            showMerchantNpcCheckBox.CheckedChanged += (s, e) => ToggleShowMerchantNpc(showMerchantNpcCheckBox.Checked);
 
-            CheckBox showMiningZoneCheckBox = new CheckBox
+            CheckBox showResidentNpcCheckBox = new CheckBox
             {
-                Text = "Show Mining Zone",
+                Text = CombineStringsWithSpaces(FileManager.GetStringMessageById, 1033104, 1019051),
                 Font = new Font("Segoe UI", 9F),
                 ForeColor = Color.Black,
                 AutoSize = true,
-                Location = new Point(30, startY + 115),
+                Location = new Point(startX, startY += spacing),
+                Checked = ShowResidentNpc,
                 Anchor = AnchorStyles.Top | AnchorStyles.Left
             };
+            showResidentNpcCheckBox.CheckedChanged += (s, e) => ToggleShowResidentNpc(showResidentNpcCheckBox.Checked);
 
-            CheckBox showGatheringZoneCheckBox = new CheckBox
+            CheckBox showWayPointCheckBox = new CheckBox
             {
-                Text = "Show Gathering Zone",
+                Text = CombineStringsWithSpaces(FileManager.GetStringMessageById, 1033104, 1019041),
                 Font = new Font("Segoe UI", 9F),
                 ForeColor = Color.Black,
                 AutoSize = true,
-                Location = new Point(30, startY + 140),
+                Location = new Point(startX, startY += spacing),
+                Checked = ShowWayPoint,
                 Anchor = AnchorStyles.Top | AnchorStyles.Left
             };
+            showWayPointCheckBox.CheckedChanged += (s, e) => ToggleShowWayPoint(showWayPointCheckBox.Checked);
 
-            ComboBox mapSearchComboBox = new ComboBox
+            CheckBox showGatheringCheckBox = new CheckBox
             {
+                Text = CombineStringsWithSpaces(FileManager.GetStringMessageById, 1033104, 1019042),
                 Font = new Font("Segoe UI", 9F),
                 ForeColor = Color.Black,
-                Location = new Point(30, startY + 170),
-                Width = 120,
-                DropDownStyle = ComboBoxStyle.DropDown,
-                Anchor = AnchorStyles.Top | AnchorStyles.Left,
-                AutoCompleteMode = AutoCompleteMode.SuggestAppend,
-                AutoCompleteSource = AutoCompleteSource.ListItems
-            };
-
-            mapSearchComboBox.Items.AddRange(new[] { "Map 1", "Map 2", "Map 3" });
-            mapSearchComboBox.SelectedIndex = 0;
-
-            Button switchMapButton = new Button
-            {
-                Text = "Switch",
-                Font = new Font("Segoe UI", 9F),
-                Location = new Point(160, startY + 170),
-                Width = 70,
-                Height = 20,
+                AutoSize = true,
+                Location = new Point(startX, startY += spacing),
+                Checked = ShowGathering,
                 Anchor = AnchorStyles.Top | AnchorStyles.Left
             };
+            showGatheringCheckBox.CheckedChanged += (s, e) => ToggleShowGathering(showGatheringCheckBox.Checked);
 
-            // Creating a Player Search Box
-            ComboBox playerSearchComboBox = new ComboBox
+            CheckBox showMonsterCheckBox = new CheckBox
             {
+                Text = CombineStringsWithSpaces(FileManager.GetStringMessageById, 1033104, 1019043),
                 Font = new Font("Segoe UI", 9F),
                 ForeColor = Color.Black,
-                Location = new Point(30, startY + 200),
-                Width = 120,
-                DropDownStyle = ComboBoxStyle.DropDown,
-                Anchor = AnchorStyles.Top | AnchorStyles.Left,
-                AutoCompleteMode = AutoCompleteMode.SuggestAppend,
-                AutoCompleteSource = AutoCompleteSource.ListItems
-            };
-
-            playerSearchComboBox.Items.AddRange(new[] { "Player 1", "Player 2", "Player 3" });
-            playerSearchComboBox.SelectedIndex = 0;
-
-            Button searchPlayerButton = new Button
-            {
-                Text = "Search",
-                Font = new Font("Segoe UI", 9F),
-                Location = new Point(160, startY + 200),
-                Width = 70,
-                Height = 20,
+                AutoSize = true,
+                Location = new Point(startX, startY += spacing),
+                Checked = ShowMonster,
                 Anchor = AnchorStyles.Top | AnchorStyles.Left
             };
+            showMonsterCheckBox.CheckedChanged += (s, e) => ToggleShowMonster(showMonsterCheckBox.Checked);
 
-            optionsGroupBox.Controls.Add(professionLabel);
-            optionsGroupBox.Controls.Add(professionComboBox);
+            CheckBox showDemonSpawnPointCheckBox = new CheckBox
+            {
+                Text = CombineStringsWithSpaces(FileManager.GetStringMessageById, 1033104, 1019611),
+                Font = new Font("Segoe UI", 9F),
+                ForeColor = Color.Black,
+                AutoSize = true,
+                Location = new Point(startX, startY += spacing),
+                Checked = ShowDemonSpawnPoint,
+                Anchor = AnchorStyles.Top | AnchorStyles.Left
+            };
+            showDemonSpawnPointCheckBox.CheckedChanged += (s, e) => ToggleShowDemonSpawnPoint(showDemonSpawnPointCheckBox.Checked);
+
+            mapSearchComboBox = LoadMapSearchComboBox(ref startX, ref startY, extraSpacing);
+            Button switchMapButton = LoadSwitchMapButton(startY);
+            switchMapButton.Click += (s, e) => EnterMap(mapSearchComboBox);
+
+            playerSearchComboBox = LoadPlayerSearchComboBox(ref startX, ref startY, extraSpacing);
+            Button searchPlayerButton = LoadSearchPlayerButton(startY);
+            searchPlayerButton.Click += (s, e) => SearchPlayer(playerSearchComboBox);
+
+            if (optionsGroupBox is null)
+                return;
+
+            optionsGroupBox.Controls.Add(classComboBox);
             optionsGroupBox.Controls.Add(showPlayerCheckBox);
-            optionsGroupBox.Controls.Add(showBossCheckBox);
-            optionsGroupBox.Controls.Add(showMiningZoneCheckBox);
-            optionsGroupBox.Controls.Add(showGatheringZoneCheckBox);
+            optionsGroupBox.Controls.Add(showMerchantNpcCheckBox);
+            optionsGroupBox.Controls.Add(showResidentNpcCheckBox);
+            optionsGroupBox.Controls.Add(showWayPointCheckBox);
+            optionsGroupBox.Controls.Add(showGatheringCheckBox);
+            optionsGroupBox.Controls.Add(showMonsterCheckBox);
+            optionsGroupBox.Controls.Add(showDemonSpawnPointCheckBox);
             optionsGroupBox.Controls.Add(mapSearchComboBox);
             optionsGroupBox.Controls.Add(switchMapButton);
             optionsGroupBox.Controls.Add(playerSearchComboBox);
             optionsGroupBox.Controls.Add(searchPlayerButton);
+            optionsGroupBox.Controls.Add(refreshPlayerDataButton);
+        }
+
+        private static void InitializeTimer()
+        {
+            if (autoRefreshTimer != null)
+            {
+                autoRefreshTimer.Stop();
+                autoRefreshTimer.Dispose();
+            }
+
+            autoRefreshTimer = new System.Windows.Forms.Timer
+            {
+                Interval = 1000
+            };
+
+            autoRefreshTimer.Tick += (s, e) => AutoRefreshTick();
+            autoRefreshTimer.Start();
+        }
+
+        private static Button LoadRefreshPlayerDataButton(int startX, int startY)
+        {
+            return new Button
+            {
+                Text = GetRefreshPlayerDataButtonText(),
+                Font = new Font("Segoe UI", 9F),
+                Location = new Point(startX, startY),
+                Width = 250,
+                Height = 22,
+                Anchor = AnchorStyles.Top | AnchorStyles.Left
+            };
+        }
+
+        private static ComboBox LoadClassComboBox(int startX, int startY)
+        {
+            ComboBox classComboBox = new ComboBox
+            {
+                Font = new Font("Segoe UI", 9F),
+                ForeColor = Color.Black,
+                Location = new Point(startX, startY),
+                Width = 250,
+                DropDownStyle = ComboBoxStyle.DropDownList,
+                Anchor = AnchorStyles.Top | AnchorStyles.Left
+            };
+
+            foreach (var key in Config.avatarPaths.Keys)
+            {
+                var (_, stringId) = Config.avatarPaths[key];
+                string professionName = FileManager.GetStringTemplateById(stringId);
+
+                if (!string.IsNullOrEmpty(professionName))
+                    classComboBox.Items.Add(professionName);
+            }
+
+            classComboBox.SelectedIndex = Math.Max(0, Config.worldMapDefaultClassId - 1);
+            return classComboBox;
+        }
+
+        private static ComboBox LoadMapSearchComboBox(ref int startX, ref int startY, int extraSpacing)
+        {
+            mapSearchComboBox = new ComboBox
+            {
+                Font = new Font("Segoe UI", 9F),
+                ForeColor = Color.Black,
+                Location = new Point(startX, startY += extraSpacing),
+                Width = 180,
+                DropDownStyle = ComboBoxStyle.DropDown,
+                Anchor = AnchorStyles.Top | AnchorStyles.Left,
+            };
+
+            mapSearchComboBox.SelectedIndexChanged += mapSearchComboBox_SelectedIndexChanged;
+            mapSearchComboBox.TextChanged += mapSearchComboBox_TextChanged;
+
+            return mapSearchComboBox;
+        }
+
+        private static ComboBox LoadPlayerSearchComboBox(ref int startX, ref int startY, int extraSpacing)
+        {
+            playerSearchComboBox = new ComboBox
+            {
+                Font = new Font("Segoe UI", 9F),
+                ForeColor = Color.Black,
+                Location = new Point(startX, startY += extraSpacing - 5),
+                Width = 180,
+                DropDownStyle = ComboBoxStyle.DropDown,
+                Anchor = AnchorStyles.Top | AnchorStyles.Left,
+            };
+
+            playerSearchComboBox.SelectedIndexChanged += playerSearchComboBox_SelectedIndexChanged;
+            playerSearchComboBox.TextChanged += playerSearchComboBox_TextChanged;
+
+            return playerSearchComboBox;
+        }
+
+        private static Button LoadSwitchMapButton(int startY)
+        {
+            Button switchMapButton = new Button
+            {
+                Text = CombineStringsWithSpaces(FileManager.GetStringMessageById, 1088025, 1019001),
+                Font = new Font("Segoe UI", 9F),
+                Location = new Point(210, startY),
+                Width = 70,
+                Height = 22,
+                Anchor = AnchorStyles.Top | AnchorStyles.Left
+            };
+            return switchMapButton;
+        }
+
+        private static Button LoadSearchPlayerButton(int startY)
+        {
+            Button searchPlayerButton = new Button
+            {
+                Text = CombineStringsWithSpaces(FileManager.GetStringTemplateById, 1000126, 5200009),
+                Font = new Font("Segoe UI", 9F),
+                Location = new Point(210, startY),
+                Width = 70,
+                Height = 22,
+                Anchor = AnchorStyles.Top | AnchorStyles.Left
+            };
+            return searchPlayerButton;
         }
 
         private static void InitializeFormTitle(TabPage tabPage)
@@ -265,19 +400,42 @@ namespace Server_Console.Database_Tool
             tabPage.Text = $"Mir4Tool v{version} [By {author}]";
         }
 
+        private static void InitializeTotalPlayerPanel()
+        {
+            totalPlayerPanel = new Panel
+            {
+                BackColor = Color.White,
+                BorderStyle = BorderStyle.FixedSingle,
+                Size = new Size(280, 30),
+                Location = new Point(10, 30)
+            };
+
+            totalPlayerLabel = new Label
+            {
+                Text = GetPlayerPanelDesc(1),
+                Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point),
+                ForeColor = Color.Black,
+                AutoSize = false,
+                TextAlign = ContentAlignment.MiddleCenter,
+                Dock = DockStyle.Fill
+            };
+
+            totalPlayerPanel.Controls.Add(totalPlayerLabel);
+        }
+
         private static void InitializeTotalOnlinePanel()
         {
             totalOnlinePanel = new Panel
             {
                 BackColor = Color.White,
                 BorderStyle = BorderStyle.FixedSingle,
-                Size = new Size(280, 80),
-                Location = new Point(10, 30)
+                Size = new Size(280, 30),
+                Location = new Point(10, 70)
             };
 
             totalOnlineLabel = new Label
             {
-                Text = "Total Players: 0",
+                Text = GetPlayerPanelDesc(2),
                 Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point),
                 ForeColor = Color.Black,
                 AutoSize = false,
@@ -294,13 +452,13 @@ namespace Server_Console.Database_Tool
             {
                 BackColor = Color.White,
                 BorderStyle = BorderStyle.FixedSingle,
-                Size = new Size(280, 80),
-                Location = new Point(10, 120)
+                Size = new Size(280, 30),
+                Location = new Point(10, 110)
             };
 
             mapOnlineLabel = new Label
             {
-                Text = "Players on Map: 0",
+                Text = GetPlayerPanelDesc(3),
                 Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point),
                 ForeColor = Color.Black,
                 AutoSize = false,
@@ -315,7 +473,7 @@ namespace Server_Console.Database_Tool
         {
             mapGroupBox = new GroupBox
             {
-                Text = "Map",
+                Text = FileManager.GetStringMessageById(1019001),
                 Font = new Font("Segoe UI", 9F),
                 ForeColor = Color.Black,
                 Dock = DockStyle.Fill,
@@ -347,6 +505,9 @@ namespace Server_Console.Database_Tool
                 SizeMode = PictureBoxSizeMode.CenterImage,
                 Image = Image.FromFile("Assets/Icons/loading.gif")
             };
+
+            if (mapGroupBox is null) 
+                return;
 
             mapGroupBox.Controls.Add(WorldMapBox);
             mapGroupBox.Controls.Add(loadingPictureBox);
@@ -406,48 +567,94 @@ namespace Server_Console.Database_Tool
             }
         }
 
-        private static void InitalizeMapAsset()
+        private static void InitializeMapAsset()
         {
-            foreach (var key in Config.avatarPaths.Keys)
-            {
-                Bitmap? avatarBitmap = ImageProcessor.GetIconFromUE4(Config.avatarPaths[key]);
-                if (avatarBitmap == null)
-                    continue;
-
-                Bitmap? originalBgBitmap = ImageProcessor.GetIconFromUE4("MirMobile/Content/UI/Atlas_N_Pack/Sprites_N/Spr_Ingame/Spr_Hud/frame_HUD_character_01_Sprite");
-                if (originalBgBitmap == null)
-                    continue;
-
-                Bitmap bgBitmap = new Bitmap(originalBgBitmap, new Size(42, 42));
-                Bitmap resizedAvatar = new Bitmap(avatarBitmap, new Size(36, 36));
-                Bitmap combinedBitmap = new Bitmap(bgBitmap.Width, bgBitmap.Height);
-
-                using (Graphics g = Graphics.FromImage(combinedBitmap))
-                {
-                    g.DrawImage(bgBitmap, 0, 0, bgBitmap.Width, bgBitmap.Height);
-
-                    int avatarX = (bgBitmap.Width - resizedAvatar.Width) / 2;
-                    int avatarY = (bgBitmap.Height - resizedAvatar.Height) / 2;
-
-                    g.DrawImage(resizedAvatar, avatarX, avatarY, resizedAvatar.Width, resizedAvatar.Height);
-                }
-
-                AvatarBitmaps[key] = combinedBitmap;
-
-                avatarBitmap.Dispose();
-                resizedAvatar.Dispose();
-                bgBitmap.Dispose();
-                originalBgBitmap.Dispose();
-            }
-
+            InitializePlayerAvatar();
+            InitializeMiniMapIcons();
             if (WorldMapBox != null)
                 SwitchMap(0);
             else
                 Log("WorldMapBox is not initialized.");
         }
 
+        private static void InitializePlayerAvatar()
+        {
+            foreach (var key in Config.avatarPaths.Keys)
+            {
+                var (avatarPath, _) = Config.avatarPaths[key];
+                using (Bitmap? avatarBitmap = ImageProcessor.GetIconFromUE4(avatarPath),
+                                originalBgBitmap = ImageProcessor.GetIconFromUE4("MirMobile/Content/UI/Atlas_N_Pack/Sprites_N/Spr_Ingame/Spr_Hud/frame_HUD_character_01_Sprite"),
+                                selectedBgBitmap = ImageProcessor.GetIconFromUE4("MirMobile/Content/UI/Atlas_N_Pack/Sprites_N/Spr_Ingame/Spr_Hud/Skill_Slot_Main_Sprite"))
+                {
+                    if (avatarBitmap == null || originalBgBitmap == null || selectedBgBitmap == null)
+                        continue;
+
+                    using (Bitmap resizedAvatar = new Bitmap(avatarBitmap, new Size(32, 32)),
+                                  resizedSelectedAvatar = new Bitmap(avatarBitmap, new Size(40, 40)))
+                    {
+                        using (Bitmap resizedOriginalBg = new Bitmap(originalBgBitmap, new Size(40, 40)),
+                                      resizedSelectedBg = new Bitmap(selectedBgBitmap, new Size(64, 64)))
+                        {
+                            Bitmap combinedBitmap = CombineAvatarWithBackground(resizedOriginalBg, resizedAvatar);
+                            AvatarBitmaps[key] = combinedBitmap;
+
+                            Bitmap selectedCombinedBitmap = CombineAvatarWithBackground(resizedSelectedBg, resizedSelectedAvatar);
+                            AvatarBitmaps[key + 10] = selectedCombinedBitmap;
+                        }
+                    }
+                }
+            }
+        }
+
+        private static Bitmap CombineAvatarWithBackground(Bitmap bgBitmap, Bitmap resizedAvatar)
+        {
+            Bitmap combinedBitmap = new Bitmap(bgBitmap.Width, bgBitmap.Height);
+            using (Graphics g = Graphics.FromImage(combinedBitmap))
+            {
+                g.DrawImage(bgBitmap, 0, 0, bgBitmap.Width, bgBitmap.Height);
+
+                int avatarX = (bgBitmap.Width - resizedAvatar.Width) / 2;
+                int avatarY = (bgBitmap.Height - resizedAvatar.Height) / 2;
+
+                g.DrawImage(resizedAvatar, avatarX, avatarY, resizedAvatar.Width, resizedAvatar.Height);
+            }
+            return combinedBitmap;
+        }
+
+        private static void InitializeMiniMapIcons()
+        {
+            foreach (var key in Config.miniMapIconPaths.Keys)
+            {
+                var (iconPath, scaleFactor) = Config.miniMapIconPaths[key];
+
+                Bitmap? iconBitmap = ImageProcessor.GetIconFromUE4(iconPath);
+                if (iconBitmap == null)
+                    continue;
+
+                if (scaleFactor != 1)
+                {
+                    int newWidth = (int)(iconBitmap.Width * scaleFactor);
+                    int newHeight = (int)(iconBitmap.Height * scaleFactor);
+
+                    Bitmap enlargedIcon = new Bitmap(newWidth, newHeight);
+                    using (Graphics graphics = Graphics.FromImage(enlargedIcon))
+                    {
+                        graphics.InterpolationMode = System.Drawing.Drawing2D.InterpolationMode.HighQualityBicubic;
+                        graphics.DrawImage(iconBitmap, new Rectangle(0, 0, newWidth, newHeight));
+                    }
+
+                    MiniMapIconBitmaps[key] = enlargedIcon;
+                }
+                else
+                {
+                    MiniMapIconBitmaps[key] = iconBitmap;
+                }
+            }
+        }
+
         private static async Task InitializeMap()
         {
+            await InitializeBitmapAsset();
             if (Config.IsNewVersionDetected())
             {
                 Log("Loading assets ..");
@@ -461,8 +668,17 @@ namespace Server_Console.Database_Tool
                 Config.LoadCacheData();
             }
 
-            UpdateTotalOnline();
-            InitalizeMapAsset();
+            UpdatePlayerPanel(totalPlayerLabel, 1, AllPlayerCount);
+            UpdatePlayerPanel(totalOnlineLabel, 2, AllOnlineCount);
+            InitializeMapAsset();
+        }
+
+        private static async Task InitializeBitmapAsset()
+        {
+            Bitmap_BgText = ImageProcessor.GetIconFromUE4("MirMobile/Content/UI/Atlas_N_Pack/Sprites_N/Spr_Ingame/Spr_Hud/Frame_txt_Sprite");
+            Bitmap_TabBackground = ImageProcessor.GetIconFromUE4("MirMobile/Content/UI/Atlas_N_Pack/Sprites_N/Spr_Common/Btn_sub_top_Sprite");
+            Bitmap_BgCommonSprite = ImageProcessor.GetIconFromUE4("MirMobile/Content/UI/Atlas_N_Pack/Sprites_N/Spr_Background/Bg_Common_01_Sprite");
+            Bitmap_NextIcon = ImageProcessor.GetIconFromUE4("MirMobile/Content/UI/Atlas_N_Pack/Sprites_N/Spr_Common/Icon_next_Big_Sprite");
         }
 
         private static Bitmap? GenerateMapItemView(int mapId)
@@ -482,13 +698,13 @@ namespace Server_Console.Database_Tool
                 int bgWidth = newBitmap.Width * 30 / 100;
                 int bgHeight = newBitmap.Height - bgStartY;
 
-                Font defaultFont = new Font("Arial", 12, FontStyle.Bold);
-                Font smallerFont = new Font("Arial", 6);
+                Font defaultFont = ImageProcessor.GetFont("Arial", 12, FontStyle.Bold);
+                Font smallerFont = ImageProcessor.GetFont("Arial", 6);
 
                 if (Config.NeedBoldTextLanguages.Contains(Config.CurrentLanguage))
                 {
-                    defaultFont = new Font("Microsoft YaHei", 14);
-                    smallerFont = new Font("Microsoft YaHei", 8);
+                    defaultFont = ImageProcessor.GetFont("Microsoft YaHei", 14);
+                    smallerFont = ImageProcessor.GetFont("Microsoft YaHei", 8);
                 }
 
                 int tabHeight = 80;
@@ -538,57 +754,130 @@ namespace Server_Console.Database_Tool
             if (!FileManager.IconPathMap.TryGetValue(Config.worldMapDefaultIcon, out Config.worldMapDefaultResource))
                 return;
 
+            ParallelOptions parallelOptions = new ParallelOptions { MaxDegreeOfParallelism = Environment.ProcessorCount };
+
             var worldMapTasks = new List<Task>();
 
             foreach (var mapData in FileManager.MapWorldList.Values)
             {
-                if (mapData.AreaMapResource == "0")
-                    continue;
-
-                worldMapTasks.Add(Task.Run(() => InitializeWorldMap(worldMapBitmap, mapData)));
-
-                Bitmap? areaMapBitmap = ImageProcessor.GetIconFromUE4(mapData.AreaMapResource);
-                if (areaMapBitmap is null)
+                Bitmap? areaMapBitmap = null;
+                if (mapData.AreaMapResource != "0")
                 {
-                    Log($"Failed to load area map for resource: {mapData.AreaMapResource}");
-                    continue;
+                    areaMapBitmap = ImageProcessor.GetIconFromUE4(mapData.AreaMapResource);
+                    if (areaMapBitmap is null)
+                    {
+                        Log($"Failed to load area map for resource: {mapData.AreaMapResource}");
+                        continue;
+                    }
                 }
 
-                ParallelOptions parallelOptions = new ParallelOptions { MaxDegreeOfParallelism = Environment.ProcessorCount };
-
-                Parallel.ForEach(FileManager.MapAreaList[mapData.AreaId], parallelOptions, areaData =>
+                var worldMapTask = Task.Run(() => InitializeWorldMap(worldMapBitmap, mapData));
+                if (worldMapTask != null)
                 {
-                    if (areaData.MiniGroupIcon == 0)
-                        return;
+                    worldMapTasks.Add(worldMapTask);
+                }
 
-                    InitializeAreaMap(areaMapBitmap, mapData, areaData);
-
-                    Parallel.ForEach(FileManager.MapMiniList[areaData.MiniGroupId], miniData =>
+                if (FileManager.MapAreaList.ContainsKey(mapData.AreaId))
+                {
+                    var areaTasks = new List<Task>();
+                    Parallel.ForEach(FileManager.MapAreaList[mapData.AreaId], parallelOptions, areaData =>
                     {
-                        Bitmap? miniMapBitmap = ImageProcessor.LoadTextureObject(miniData.MiniMapResource);
-                        if (miniMapBitmap is null)
-                        {
-                            Log($"Failed to load mini map for resource: {miniData.MiniMapResource}");
+                        if (areaMapBitmap is null || areaData.MiniGroupIcon == 0)
                             return;
-                        }
 
-                        Task.Run(() => GenerateMapItemView(miniData.MiniStageId));
+                        InitializeAreaMap(areaMapBitmap, mapData, areaData);
 
-                        Bitmap background = new Bitmap(Config.worldMapSizeX, Config.worldMapSizeY);
-                        InitializeMiniMap(background, miniMapBitmap, mapData, areaData, miniData);
+                        var miniTasks = new List<Task>();
 
-                        lock (CachedBitmaps)
-                            CachedBitmaps[miniData.MiniStageId] = background;
+                        Parallel.ForEach(FileManager.MapMiniList[areaData.MiniGroupId], miniData =>
+                        {
+                            var miniTask = Task.Run(() =>
+                            {
+                                if (areaData.MiniGroupIcon == 0)
+                                    return;
 
-                        Log($"Mini map initialized. [GroupId: {miniData.MiniGroupId} StageId: {miniData.MiniStageId}]");
+                                Bitmap? miniMapBitmap = ImageProcessor.LoadTextureObject(miniData.MiniMapResource);
+                                if (miniMapBitmap is null)
+                                {
+                                    Log($"Failed to load mini map for resource: {miniData.MiniMapResource}");
+                                    return;
+                                }
+
+                                Bitmap background = new Bitmap(Config.worldMapSizeX, Config.worldMapSizeY);
+                                InitializeMiniMap(background, miniMapBitmap, mapData, areaData, miniData);
+                                GenerateMapItemView(miniData.MiniStageId);
+
+                                lock (CachedBitmaps)
+                                    CachedBitmaps[miniData.MiniStageId] = background;
+
+                                Log($"Mini map initialized. [GroupId: {miniData.MiniGroupId} StageId: {miniData.MiniStageId}]");
+                            });
+
+                            if (miniTask != null)
+                            {
+                                miniTasks.Add(miniTask);
+                            }
+                        });
+
+                        if (miniTasks.Any())
+                            areaTasks.Add(Task.WhenAll(miniTasks));
                     });
-                });
+
+                    if (areaTasks.Any())
+                        await Task.WhenAll(areaTasks.Where(task => task != null));
+                }
+
+                if (areaMapBitmap is null)
+                    continue;
 
                 CachedBitmaps[mapData.AreaId] = areaMapBitmap;
                 Log($"Area map initialized. [AreaId: {mapData.AreaId}]");
             }
 
-            await Task.WhenAll(worldMapTasks);
+            var specialTasks = new List<Task>();
+            Parallel.ForEach(FileManager.SpecialMapList, parallelOptions, stageEntry =>
+            {
+                var stageId = stageEntry.Key;
+                if (!CachedBitmaps.ContainsKey(stageId))
+                {
+                    if (FileManager.MapStageMiniList.TryGetValue(stageId, out var miniDataEntry))
+                    {
+                        var specialTask = Task.Run(() =>
+                        {
+                            Bitmap? miniMapBitmap = ImageProcessor.LoadTextureObject(miniDataEntry.MiniMapResource);
+                            if (miniMapBitmap is null)
+                            {
+                                Log($"Failed to load special map for resource: {miniDataEntry.MiniMapResource}");
+                                return;
+                            }
+
+                            Bitmap background = new Bitmap(Config.worldMapSizeX, Config.worldMapSizeY);
+
+                            FileManager.MapGroupAreaList.TryGetValue(miniDataEntry.MiniGroupId, out var groupDataEntry);
+                            FileManager.MapWorldList.TryGetValue(groupDataEntry?.AreaId ?? -1, out var worldDataEntry);
+
+                            InitializeMiniMap(background, miniMapBitmap, worldDataEntry, null, miniDataEntry);
+                            GenerateMapItemView(stageId);
+
+                            lock (CachedBitmaps)
+                                CachedBitmaps[stageId] = background;
+
+                            Log($"Special map initialized. [StageId: {stageId}, Type: {stageEntry.Value.StageType}]");
+                        });
+
+                        if (specialTask != null)
+                        {
+                            specialTasks.Add(specialTask);
+                        }
+                    }
+                }
+            });
+
+            if (specialTasks.Any())
+                await Task.WhenAll(specialTasks.Where(task => task != null));
+
+            if (worldMapTasks.Any())
+                await Task.WhenAll(worldMapTasks.Where(task => task != null));
 
             CachedBitmaps[0] = worldMapBitmap;
             Log("World map initialized.");
@@ -611,8 +900,10 @@ namespace Server_Console.Database_Tool
                             coordX = Convert.ToSingle(xValue) + Config.offsetWorldMapX;
                         if (coordinateDict.TryGetValue("Y", out var yValue))
                             coordY = Convert.ToSingle(yValue) + Config.offsetWorldMapY;
-                    }
 
+                        if (Convert.ToSingle(xValue) <= 0 || Convert.ToSingle(yValue) <= 0)
+                            return;
+                    }
                     var textSegments = new List<(string text, Font font, Color color, bool needBg)>();
 
                     string defaultFont = "Courier New";
@@ -622,12 +913,12 @@ namespace Server_Console.Database_Tool
                     StringTemplateData? titleText = null;
 
                     if (mapData.AreaId == 1000 && FileManager.StringTemplateMap.TryGetValue(910008, out titleText))
-                        textSegments.Add((titleText.Text ?? string.Empty, new Font(defaultFont, 13, FontStyle.Bold), Color.White, true));
+                        textSegments.Add((titleText.Text ?? string.Empty, ImageProcessor.GetFont(defaultFont, 13, FontStyle.Bold), Color.White, true));
                     else if (mapData.AreaId == 19000 && FileManager.StringTemplateMap.TryGetValue(913001, out titleText))
-                        textSegments.Add((titleText.Text ?? string.Empty, new Font(defaultFont, 13, FontStyle.Bold), Color.White, true));
+                        textSegments.Add((titleText.Text ?? string.Empty, ImageProcessor.GetFont(defaultFont, 13, FontStyle.Bold), Color.White, true));
 
                     if (mapData.AreaStringId != 0 && FileManager.StringTemplateMap.TryGetValue(mapData.AreaStringId, out var areaText))
-                        textSegments.Add((areaText.Text ?? string.Empty, new Font(defaultFont, 12, FontStyle.Bold), Color.FromArgb(255, 140, 0), false));
+                        textSegments.Add((areaText.Text ?? string.Empty, ImageProcessor.GetFont(defaultFont, 12, FontStyle.Bold), Color.FromArgb(255, 140, 0), false));
 
                     PointF textCenterPoint = new PointF(coordX + 55, coordY + 15);
                     ImageProcessor.DrawCenteredText(graphics, textSegments, textCenterPoint, 400, 0, 5);
@@ -656,13 +947,16 @@ namespace Server_Console.Database_Tool
                             coordX = Convert.ToSingle(xValue) + Config.offsetAreaMapX;
                         if (coordinateDict.TryGetValue("Y", out var yValue))
                             coordY = Convert.ToSingle(yValue) + Config.offsetAreaMapY;
+
+                        if (Convert.ToSingle(xValue) <= 0 || Convert.ToSingle(yValue) <= 0)
+                            return;
                     }
 
                     var textSegments = new List<(string text, Font font, Color color, bool needBg)>();
 
-                    Font defaultFont = new Font("Arial", 11, FontStyle.Bold);
+                    Font defaultFont = ImageProcessor.GetFont("Arial", 11, FontStyle.Bold);
                     if (Config.NeedBoldTextLanguages.Contains(Config.CurrentLanguage))
-                        defaultFont = new Font("Microsoft YaHei", 11, FontStyle.Bold);
+                        defaultFont = ImageProcessor.GetFont("Microsoft YaHei", 11, FontStyle.Bold);
 
                     if (FileManager.StringTemplateMap.TryGetValue(areaData.MiniGroupStringId, out var miniGroupText))
                         textSegments.Add((miniGroupText.Text ?? string.Empty, defaultFont, Color.White, true));
@@ -671,8 +965,8 @@ namespace Server_Console.Database_Tool
                     {
                         if (FileManager.StringMessageMap.TryGetValue(1001052, out var levelText))
                         {
-                            string lvlMinText = levelText.Text.Replace("{1}", areaData.MonLevelMin.ToString());
-                            string lvlMaxText = levelText.Text.Replace("{1}", areaData.MonLevelMax.ToString());
+                            string lvlMinText = GetFormatString(levelText.Text, areaData.MonLevelMin.ToString());
+                            string lvlMaxText = GetFormatString(levelText.Text, areaData.MonLevelMax.ToString());
                             string? txtSegment = "~";
 
                             if (FileManager.StringMessageMap.TryGetValue(1059269, out var segment))
@@ -693,22 +987,21 @@ namespace Server_Console.Database_Tool
             }
         }
 
-        private static void InitializeMiniMap(Bitmap background, Bitmap miniMapBitmap, MapWorldData mapData, MapAreaData areaData, MapMiniData miniData)
+        private static void InitializeMiniMap(Bitmap background, Bitmap miniMapBitmap, MapWorldData? mapData, MapAreaData? areaData, MapMiniData miniData)
         {
             lock (background)
             {
-                Bitmap? bgCommonSprite = ImageProcessor.GetIconFromUE4("MirMobile/Content/UI/Atlas_N_Pack/Sprites_N/Spr_Background/Bg_Common_01_Sprite");
-
-                if (bgCommonSprite is null)
+                if (Bitmap_BgCommonSprite is null)
                     return;
 
                 using (Graphics graphics = Graphics.FromImage(background))
                 {
-                    graphics.DrawImage(bgCommonSprite, 0, 0, Config.worldMapSizeX, Config.worldMapSizeY);
+                    lock (Bitmap_BgCommonSprite)
+                        graphics.DrawImage(Bitmap_BgCommonSprite, 0, 0, Config.worldMapSizeX, Config.worldMapSizeY);
 
                     int tabX = 0;
                     int tabY = 86;
-                    int scaledTabWidth = 290;
+                    int scaledTabWidth = 291;
                     int scaledTabHeight = 80;
                     int backgroundWidth = background.Width;
                     int backgroundHeight = background.Height;
@@ -721,18 +1014,15 @@ namespace Server_Console.Database_Tool
                         graphics.DrawImage(miniMapBitmap, Config.offsetMiniMapX, Config.offsetMiniMapY, scaledWidth, scaledHeight);
                     }
 
-                    Bitmap? tabBackground = ImageProcessor.GetIconFromUE4("MirMobile/Content/UI/Atlas_N_Pack/Sprites_N/Spr_Common/Btn_sub_top_Sprite");
-
                     Color topColor = Color.FromArgb(100, 16, 20, 30);
 
                     using (Brush brush = new SolidBrush(topColor))
                         graphics.FillRectangle(brush, 0, 0, backgroundWidth, tabY);
 
-                    ImageProcessor.DrawAndRecordHeaderText(graphics, miniData.MiniStageId, mapData.AreaId, mapData.AreaStringId, areaData.MiniGroupId, areaData.MiniGroupStringId);
+                    ImageProcessor.DrawAndRecordHeaderText(graphics, miniData.MiniStageId, mapData?.AreaId ?? 0, mapData?.AreaStringId ?? 0, areaData?.MiniGroupId ?? 0, areaData?.MiniGroupStringId ?? 0);
 
-                    if (tabBackground != null)
+                    if (Bitmap_TabBackground != null)
                     {
-
                         Color lineColor = Color.FromArgb(128, 96, 96, 96);
                         using (Pen linePen = new Pen(lineColor, 2))
                         {
@@ -740,7 +1030,7 @@ namespace Server_Console.Database_Tool
                             graphics.DrawLine(linePen, 0, tabY + scaledTabHeight, backgroundWidth, tabY + scaledTabHeight);
                         }
 
-                        ImageProcessor.DrawStageTabs(graphics, miniData.MiniStageId, miniData.MiniGroupId, miniData.ElliteCheck, tabX, tabY, scaledTabWidth, scaledTabHeight, tabBackground, backgroundWidth);
+                        ImageProcessor.DrawStageTabs(graphics, miniData.MiniStageId, miniData.MiniGroupId, miniData.ElliteCheck, tabX, tabY, scaledTabWidth, scaledTabHeight, Bitmap_TabBackground, backgroundWidth);
                     }
 
                     ImageProcessor.DrawRightPanel(graphics, miniData.MiniStageId, miniData.ElliteStageId, miniData.ElliteCheck, background, tabY, scaledTabHeight);
@@ -822,7 +1112,7 @@ namespace Server_Console.Database_Tool
             return (coordX, coordY);
         }
 
-        private static void WorldMapBox_MouseClick(object sender, MouseEventArgs e)
+        private static void WorldMapBox_MouseClick(object? sender, MouseEventArgs e)
         {
             if (WorldMapBox.BackgroundImage is null)
                 return;
@@ -868,13 +1158,13 @@ namespace Server_Console.Database_Tool
 
         private static void SwitchMap(int mapId)
         {
-            UpdateMapOnline(0);
+            UpdatePlayerPanel(mapOnlineLabel, 3, 0);
             Bitmap? bitmap = GetMap(mapId);
             if (bitmap != null)
             {
                 lock (bitmap) WorldMapBox.BackgroundImage = (Bitmap)bitmap.Clone();
-
                 curMapId = mapId;
+                // Log($"Switch to map: {mapId}");
                 return;
             }
 
@@ -919,71 +1209,239 @@ namespace Server_Console.Database_Tool
 
             Task.Run(() =>
             {
-                lock (finalBitmap) ShowMapPlayer((Bitmap)finalBitmap.Clone(), mapId);
+                lock (finalBitmap) ShowMapDetail((Bitmap)finalBitmap.Clone(), mapId);
             });
 
             return finalBitmap;
         }
 
-        public static void ShowMapPlayer(Bitmap finalBitmap, int mapId)
+        public static void ShowMapDetail(Bitmap finalBitmap, int mapId)
+        {
+            Bitmap newBitmap = new Bitmap(Config.worldMapSizeX, Config.worldMapSizeY);
+
+            (float coordXLT, float coordYLT, float coordXRB, float coordYRB) = GetCoordinateLTRB(mapId);
+
+            using (Graphics graphics = Graphics.FromImage(newBitmap))
+            {
+                DrawMapSectorGrade(graphics, mapId, coordXLT, coordYLT, coordXRB, coordYRB);
+
+                if (FileManager.MapMiniInfoList.TryGetValue(mapId, out var miniInfoList))
+                {
+                    foreach (var data in miniInfoList)
+                    {
+                        if (data is MapMiniInfoData miniInfoData)
+                        {
+                            var coordObject = miniInfoData.InfoCoordinate;
+
+                            if (coordObject != null &&
+                                coordObject.TryGetValue("X", out var xObj) &&
+                                coordObject.TryGetValue("Y", out var yObj) &&
+                                double.TryParse(xObj.ToString(), out double posX) &&
+                                double.TryParse(yObj.ToString(), out double posY))
+                            {
+                                (double screenPosX, double screenPosY) = ConvertWorldToScreen(mapId, posX, posY, coordXLT, coordYLT, coordXRB, coordYRB);
+                                int screenX = (int)Math.Round(screenPosX);
+                                int screenY = (int)Math.Round(screenPosY);
+
+                                int infoSubType = miniInfoData.InfoSubType;
+                                int infoSubTypeValue = miniInfoData.InfoSubTypeValue;
+
+                                if (infoSubType == 1 && ShowWayPoint is false)
+                                    continue;
+                                else if (infoSubType == 2 && infoSubTypeValue != 0 && ShowMonster is false)
+                                    continue;
+                                else if (infoSubType == 3 && ShowGathering is false)
+                                    continue;
+                                else if (infoSubType == 4 && ShowMerchantNpc is false)
+                                    continue;
+                                else if (infoSubType == 5 && ShowResidentNpc is false)
+                                    continue;
+                                else if (infoSubType == 6 && ShowDemonSpawnPoint is false)
+                                    continue;
+
+                                ImageProcessor.DrawMiniMapIcon(graphics, miniInfoData, screenX, screenY);
+
+                                string iconKey = GetIconKeyByTypeAndValue(infoSubType, infoSubTypeValue);
+                                if (MiniMapIconBitmaps.ContainsKey(iconKey))
+                                {
+                                    Bitmap iconBitmap = MiniMapIconBitmaps[iconKey];
+                                    ImageProcessor.DrawMiniMapString(graphics, miniInfoData, screenX, screenY, iconBitmap.Height);
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+
+            newBitmap = ShowMapPlayer(newBitmap, mapId);
+            lock (finalBitmap) WorldMapBox.BackgroundImage = CombineBitmaps(finalBitmap, newBitmap);
+        }
+
+        private static void DrawMapSectorGrade(Graphics graphics, int mapId, float coordXLT, float coordYLT, float coordXRB, float coordYRB)
+        {
+            if (!FileManager.MapSectorGradeList.TryGetValue(mapId, out var sectorList))
+                return;
+
+            float scaleX = Config.worldMapSizeX / (coordXRB - coordXLT);
+            float scaleY = Config.worldMapSizeY / (coordYRB - coordYLT);
+
+            foreach (var sectorData in sectorList)
+            {
+                var sectorLocation = sectorData.SectorLocation;
+                if (sectorLocation == null)
+                    continue;
+
+                if (sectorLocation.TryGetValue("X", out var xObj) &&
+                    sectorLocation.TryGetValue("Y", out var yObj) &&
+                    double.TryParse(xObj.ToString(), out double posX) &&
+                    double.TryParse(yObj.ToString(), out double posY))
+                {
+                    (double screenPosX, double screenPosY) = ConvertWorldToScreen(mapId, posX, posY, coordXLT, coordYLT, coordXRB, coordYRB);
+                    int screenX = (int)Math.Round(screenPosX);
+                    int screenY = (int)Math.Round(screenPosY);
+
+                    float sectorRange = sectorData.SectorRange;
+
+                    float radius = sectorRange * (scaleX + scaleY) / 4;
+
+                    if (!FileManager.MapStageSectorList.TryGetValue(sectorData.SectorID, out var stageSectorData))
+                        continue;
+
+                    Color? sectorColor = stageSectorData.SectorGrade switch
+                    {
+                        1 => Color.FromArgb(170, 52, 170, 82),
+                        2 => Color.FromArgb(170, 15, 90, 160),
+                        3 => Color.FromArgb(170, 200, 50, 100),
+                        4 => Color.FromArgb(170, 240, 190, 70),
+                        _ => null,
+                    };
+
+                    if (sectorColor.HasValue)
+                    {
+                        using (SolidBrush brush = new SolidBrush(sectorColor.Value))
+                        {
+                            graphics.FillEllipse(brush, screenX - radius, screenY - radius, radius * 2, radius * 2);
+                        }
+                    }
+                }
+            }
+        }
+
+        public static string GetIconKeyByTypeAndValue(int infoSubType, int infoSubTypeValue) => Config.InfoSubType.TryGetValue((infoSubType, infoSubTypeValue), out string? iconKey) ? iconKey : "Unknown";
+
+        public static Bitmap ShowMapPlayer(Bitmap newBitmap, int mapId)
         {
             if (!FileManager.PlayerList.TryGetValue(mapId, out var playerList))
-                return;
+                return newBitmap;
 
             var mapMiniData = GetMapMiniDataByMapId(mapId);
             if (mapMiniData == null)
-                return;
+                return newBitmap;
 
-            float coordXLT = 0, coordYLT = 0;
-            float coordXRB = 0, coordYRB = 0;
-
-            if (mapMiniData.MiniMapCoordinateLT is Dictionary<string, object> coordinateDictLT)
-            {
-                if (coordinateDictLT.TryGetValue("X", out var xValueLT))
-                    coordXLT = Convert.ToSingle(xValueLT);
-
-                if (coordinateDictLT.TryGetValue("Y", out var yValueLT))
-                    coordYLT = Convert.ToSingle(yValueLT);
-            }
-
-            if (mapMiniData.MiniMapCoordinateRB is Dictionary<string, object> coordinateDictRB)
-            {
-                if (coordinateDictRB.TryGetValue("X", out var xValueRB))
-                    coordXRB = Convert.ToSingle(xValueRB);
-
-                if (coordinateDictRB.TryGetValue("Y", out var yValueRB))
-                    coordYRB = Convert.ToSingle(yValueRB);
-            }
+            (float coordXLT, float coordYLT, float coordXRB, float coordYRB) = GetCoordinateLTRB(mapId);
 
             int mapOnline = 0;
-            Bitmap newBitmap = new Bitmap(Config.worldMapSizeX, Config.worldMapSizeY);
             using (Graphics graphics = Graphics.FromImage(newBitmap))
             {
                 foreach (var playerData in playerList)
                 {
+                    mapOnline++;
+
+                    if (ShowPlayer is false || playerData.CharacterName == CurrentSearchPlayer)
+                        continue;
+
                     (double playerX, double playerY) = ConvertWorldToScreen(mapId, playerData.PositionX, playerData.PositionY, coordXLT, coordYLT, coordXRB, coordYRB);
 
                     int screenX = (int)Math.Round(playerX);
                     int screenY = (int)Math.Round(playerY);
 
-                    if (!AvatarBitmaps.ContainsKey(playerData.Class))
-                    {
-                        Log($"Avatar for class ID {playerData.Class} not found.");
+                    int avatarKey = playerData.Class;
+                    if (!AvatarBitmaps.ContainsKey(avatarKey))
                         continue;
-                    }
 
-                    Bitmap avatarBitmap = AvatarBitmaps[playerData.Class];
+                    Bitmap avatarBitmap = AvatarBitmaps[avatarKey];
                     int avatarWidth = avatarBitmap.Width;
                     int avatarHeight = avatarBitmap.Height;
 
-                    lock (avatarBitmap) graphics.DrawImage(avatarBitmap, new Rectangle(screenX - avatarWidth / 2, screenY - avatarHeight / 2, avatarWidth, avatarHeight));
-                    mapOnline++;
-                    // Log($"MapId: {mapId} Add Player [WorldMap_X: {playerData.PositionX} WorldMap_Y: {playerData.PositionY} PoxX: {screenX}, PosY: {screenY}]");
+                    lock (avatarBitmap)
+                        graphics.DrawImage(avatarBitmap, new Rectangle(screenX - avatarWidth / 2, screenY - avatarHeight / 2, avatarWidth, avatarHeight));
+
+                    DrawTextWithOutline(graphics, playerData.CharacterName, (7, 9), screenX, screenY, avatarHeight, false, false);
+                    DrawTextWithOutline(graphics, $"[{GetFormatString(FileManager.GetStringMessageById(1001052), playerData.Lev)}]", (6, 8), screenX, screenY, avatarHeight, false, true);
+                }
+
+                var currentPlayerData = playerList.FirstOrDefault(p => p.CharacterName == CurrentSearchPlayer);
+                if (currentPlayerData != null)
+                {
+                    (double playerX, double playerY) = ConvertWorldToScreen(mapId, currentPlayerData.PositionX, currentPlayerData.PositionY, coordXLT, coordYLT, coordXRB, coordYRB);
+
+                    int screenX = (int)Math.Round(playerX);
+                    int screenY = (int)Math.Round(playerY);
+
+                    int avatarKey = currentPlayerData.Class + 10;
+                    if (AvatarBitmaps.ContainsKey(avatarKey))
+                    {
+                        Bitmap avatarBitmap = AvatarBitmaps[avatarKey];
+                        int avatarWidth = avatarBitmap.Width;
+                        int avatarHeight = avatarBitmap.Height;
+
+                        lock (avatarBitmap)
+                            graphics.DrawImage(avatarBitmap, new Rectangle(screenX - avatarWidth / 2, screenY - avatarHeight / 2, avatarWidth, avatarHeight));
+
+                        DrawTextWithOutline(graphics, currentPlayerData.CharacterName, (8, 10), screenX, screenY, avatarHeight, true, false);
+                        DrawTextWithOutline(graphics, $"[{GetFormatString(FileManager.GetStringMessageById(1001052), currentPlayerData.Lev)}]", (7, 9), screenX, screenY, avatarHeight, true, true);
+                    }
                 }
             }
 
-            lock (finalBitmap) WorldMapBox.BackgroundImage = CombineBitmaps(finalBitmap, newBitmap);
-            UpdateMapOnline(mapOnline);
+            UpdatePlayerPanel(mapOnlineLabel, 3, mapOnline);
+            return CombineBitmaps(newBitmap, newBitmap);
+        }
+
+        private static void DrawTextWithOutline(Graphics graphics, string? text, (int, int) fontSize, float screenX, float screenY, int avatarHeight, bool needBgText, bool isTitle)
+        {
+            if (text is null)
+                return;
+
+            (int fontSizeA, int fontSizeB) = fontSize;
+            Font font = ImageProcessor.GetFont("Arial", fontSizeA);
+            if (Config.NeedBoldTextLanguages.Contains(Config.CurrentLanguage))
+                font = ImageProcessor.GetFont("Microsoft YaHei", fontSizeB);
+
+            Color textColor = Color.White;
+
+            using (Brush textBrush = new SolidBrush(textColor))
+            using (Brush outlineBrush = new SolidBrush(Color.Black))
+            {
+                SizeF textSize = graphics.MeasureString(text, font);
+                float textX = screenX - textSize.Width / 2;
+                float textY = isTitle ? screenY - avatarHeight / 2 - textSize.Height : screenY + avatarHeight / 2;
+
+                if (needBgText && Bitmap_BgText != null)
+                {
+                    int bgTextWidth = (int)textSize.Width + 50;
+                    int bgTextHeight = (int)textSize.Height + 5;
+                    int bgTextX = (int)(textX - (bgTextWidth - textSize.Width) / 2);
+                    int bgTextY = (int)(textY - 2);
+
+                    graphics.DrawImage(Bitmap_BgText, new Rectangle(bgTextX, bgTextY, bgTextWidth, bgTextHeight));
+                }
+
+                DrawOutlinedText(graphics, text, font, textBrush, outlineBrush, textX, textY);
+            }
+        }
+
+        private static void DrawOutlinedText(Graphics graphics, string? text, Font font, Brush textBrush, Brush outlineBrush, float x, float y)
+        {
+            if (text is null)
+                return;
+
+            graphics.DrawString(text, font, outlineBrush, x - 1, y - 1);
+            graphics.DrawString(text, font, outlineBrush, x + 1, y - 1);
+            graphics.DrawString(text, font, outlineBrush, x - 1, y + 1);
+            graphics.DrawString(text, font, outlineBrush, x + 1, y + 1);
+
+            graphics.DrawString(text, font, textBrush, x, y);
         }
 
         private static (double, double) ConvertWorldToScreen(int mapId, double worldX, double worldY, double coordXLT, double coordYLT, double coordXRB, double coordYRB)
@@ -1019,54 +1477,401 @@ namespace Server_Console.Database_Tool
             return null;
         }
 
-        public static void UpdateTotalOnline()
+        private static (float coordXLT, float coordYLT, float coordXRB, float coordYRB) GetCoordinateLTRB(int mapId)
         {
-            if (totalOnlineLabel == null)
+            float coordXLT = 0, coordYLT = 0;
+            float coordXRB = 0, coordYRB = 0;
+
+            var mapMiniData = GetMapMiniDataByMapId(mapId);
+            if (mapMiniData != null)
+            {
+                if (mapMiniData.MiniMapCoordinateLT is Dictionary<string, object> coordinateDictLT)
+                {
+                    if (coordinateDictLT.TryGetValue("X", out var xValueLT))
+                        coordXLT = Convert.ToSingle(xValueLT);
+
+                    if (coordinateDictLT.TryGetValue("Y", out var yValueLT))
+                        coordYLT = Convert.ToSingle(yValueLT);
+                }
+
+                if (mapMiniData.MiniMapCoordinateRB is Dictionary<string, object> coordinateDictRB)
+                {
+                    if (coordinateDictRB.TryGetValue("X", out var xValueRB))
+                        coordXRB = Convert.ToSingle(xValueRB);
+
+                    if (coordinateDictRB.TryGetValue("Y", out var yValueRB))
+                        coordYRB = Convert.ToSingle(yValueRB);
+                }
+            }
+
+            return (coordXLT, coordYLT, coordXRB, coordYRB);
+        }
+
+        public static void LoadMapData()
+        {
+            if (mapSearchComboBox == null)
                 return;
 
-            if (totalOnlineLabel.InvokeRequired)
+            if (mapSearchComboBox.InvokeRequired)
             {
-                totalOnlineLabel.Invoke(new Action(() =>
+                mapSearchComboBox.Invoke(new Action(LoadMapData));
+            }
+            else
+            {
+                UpdateCachedSpecialMaps();
+                mapSearchComboBox.Items.Clear();
+                mapSearchComboBox.Items.AddRange(SpecialMap.ToArray());
+                mapSearchComboBox.SelectedIndex = -1;
+            }
+        }
+
+        private static void mapSearchComboBox_TextChanged(object? sender, EventArgs e)
+        {
+            if (mapSearchComboBox == null || mapSearchComboBox.SelectedIndex != -1)
+                return;
+
+            string txt = mapSearchComboBox.Text.ToLower();
+
+            if (mapSearchComboBox.InvokeRequired)
+            {
+                mapSearchComboBox.Invoke(new Action(() => mapSearchComboBox_TextChanged(sender, e)));
+            }
+            else
+            {
+                var matches = SpecialMap
+                    .Where(map => map.MapId.ToString().Contains(txt) || map.MapName.ToLower().Contains(txt))
+                    .ToList();
+
+                mapSearchComboBox.BeginUpdate();
+                mapSearchComboBox.Items.Clear();
+
+                if (matches.Count > 0)
                 {
-                    totalOnlineLabel.Text = $"Total Online: {AllPlayerCount}";
+                    mapSearchComboBox.Items.AddRange(matches.ToArray());
+                    mapSearchComboBox.DroppedDown = true;
+                    mapSearchComboBox.Text = txt;
+                    mapSearchComboBox.SelectionStart = txt.Length;
+                    Control? control = sender as Control;
+                    if (control != null)
+                        control.Cursor = Cursors.Default;
+                }
+                else
+                {
+                    mapSearchComboBox.DroppedDown = false;
+                }
+
+                mapSearchComboBox.Select(txt.Length, 0);
+                mapSearchComboBox.EndUpdate();
+            }
+        }
+
+        private static void mapSearchComboBox_SelectedIndexChanged(object? sender, EventArgs e)
+        {
+            if (mapSearchComboBox == null || mapSearchComboBox.SelectedIndex == -1 || mapSearchComboBox.SelectedItem == null)
+                return;
+
+            if (mapSearchComboBox.InvokeRequired)
+            {
+                mapSearchComboBox.Invoke(new Action(() => mapSearchComboBox_SelectedIndexChanged(sender, e)));
+            }
+            else
+            {
+                mapSearchComboBox.DroppedDown = false;
+            }
+        }
+
+        private static void EnterMap(ComboBox mapSearchComboBox)
+        {
+            if (mapSearchComboBox == null)
+                return;
+
+            SpecialMapData? selectedMap = mapSearchComboBox.SelectedItem as SpecialMapData;
+
+            if (selectedMap == null)
+            {
+                string mapName = mapSearchComboBox.Text;
+                selectedMap = SpecialMap.FirstOrDefault(map => map.MapName.Equals(mapName, StringComparison.OrdinalIgnoreCase));
+            }
+
+            if (selectedMap != null)
+            {
+                SwitchMap(selectedMap.MapId);
+                Log($"Map found: [MapId: {selectedMap.MapId} MapName: {selectedMap.MapName}]");
+                return;
+            }
+
+            Log($"Map {mapSearchComboBox.Text} not found.");
+        }
+
+        private static void UpdateCachedSpecialMaps()
+        {
+            SpecialMap.Clear();
+
+            foreach (var mapData in FileManager.SpecialMapList.Values)
+            {
+                SpecialMap.Add(new SpecialMapData
+                {
+                    MapId = mapData.StageID,
+                    MapName = FileManager.GetStringTemplateById(mapData.StageNameSID)
+                });
+            }
+        }
+
+        public static void LoadPlayerData()
+        {
+            if (playerSearchComboBox == null)
+                return;
+
+            if (playerSearchComboBox.InvokeRequired)
+            {
+                playerSearchComboBox.Invoke(new Action(LoadPlayerData));
+            }
+            else
+            {
+                playerSearchComboBox.Items.Clear();
+                foreach (var playerList in FileManager.PlayerList.Values)
+                {
+                    foreach (var playerData in playerList)
+                        playerSearchComboBox.Items.Add(playerData);
+                }
+                playerSearchComboBox.SelectedIndex = -1;
+            }
+        }
+
+        private static void playerSearchComboBox_TextChanged(object? sender, EventArgs e)
+        {
+            if (playerSearchComboBox == null || playerSearchComboBox.SelectedIndex != -1)
+                return;
+
+            string txt = playerSearchComboBox.Text.ToLower();
+            CurrentSearchPlayer = string.Empty;
+
+            if (playerSearchComboBox.InvokeRequired)
+            {
+                playerSearchComboBox.Invoke(new Action(() => playerSearchComboBox_TextChanged(sender, e)));
+            }
+            else
+            {
+                var matches = FileManager.PlayerList.Values
+                    .SelectMany(playerList => playerList)
+                    .Where(playerData => playerData.ToString().ToLower().Contains(txt))
+                    .ToList();
+
+                playerSearchComboBox.BeginUpdate();
+                playerSearchComboBox.Items.Clear();
+
+                if (matches.Count > 0)
+                {
+                    foreach (var player in matches)
+                        playerSearchComboBox.Items.Add(player);
+
+                    playerSearchComboBox.DroppedDown = true;
+                    playerSearchComboBox.Text = txt;
+                    playerSearchComboBox.SelectionStart = txt.Length;
+                    Control? control = sender as Control;
+                    if (control != null)
+                        control.Cursor = Cursors.Default;
+                }
+                else
+                {
+                    playerSearchComboBox.DroppedDown = false;
+                }
+
+                playerSearchComboBox.Select(txt.Length, 0);
+                playerSearchComboBox.EndUpdate();
+            }
+        }
+
+        private static void playerSearchComboBox_SelectedIndexChanged(object? sender, EventArgs e)
+        {
+            if (playerSearchComboBox == null || playerSearchComboBox.SelectedIndex == -1 || playerSearchComboBox.SelectedItem == null)
+                return;
+
+            if (playerSearchComboBox.InvokeRequired)
+            {
+                playerSearchComboBox.Invoke(new Action(() => playerSearchComboBox_SelectedIndexChanged(sender, e)));
+            }
+            else
+            {
+                playerSearchComboBox.Text = playerSearchComboBox.SelectedItem.ToString();
+                playerSearchComboBox.DroppedDown = false;
+            }
+        }
+
+        private static void SearchPlayer(ComboBox playerSearchComboBox)
+        {
+            string selectedPlayer = playerSearchComboBox.Text;
+            if (string.IsNullOrEmpty(selectedPlayer)) return;
+
+            foreach (var playerList in FileManager.PlayerList.Values)
+            {
+                var foundPlayer = playerList.FirstOrDefault(playerData =>
+                    playerData.ToString().Equals(selectedPlayer, StringComparison.OrdinalIgnoreCase));
+
+                if (foundPlayer != null)
+                {
+                    CurrentSearchPlayer = foundPlayer.CharacterName;
+                    SwitchMap(foundPlayer.StageIdx);
+                    Log($"Player found: [UID: {foundPlayer.CharacterUID}, Name: {foundPlayer.CharacterName}, MapId: {foundPlayer.StageIdx}, Position_X: {foundPlayer.PositionX:F0}, Position_Y: {foundPlayer.PositionY:F0}]");
+                    return;
+                }
+            }
+
+            Log($"Player {selectedPlayer} not found.");
+        }
+
+        private static string GetPlayerPanelDesc(int type = 0, int count = 0)
+        {
+            return type switch
+            {
+                1 => $"{CombineStringsWithSpaces(FileManager.GetStringMessageById, 2618029, 1086612)}: {count}",
+                2 => $"{CombineStringsWithSpaces(FileManager.GetStringMessageById, 2618029, 1061060, 1086612)}: {count}",
+                3 => $"{CombineStringsWithSpaces(FileManager.GetStringMessageById, 1019001, 1061060, 1086612)}: {count}",
+                _ => string.Empty
+            };
+        }
+
+        public static string CombineStringsWithSpaces(params (Func<int, string> getStringMethod, int id)[] stringSources)
+        {
+            string space = " ";
+            if (Config.NeedBoldTextLanguages.Contains(Config.CurrentLanguage))
+                space = "";
+
+            string result = "";
+
+            foreach (var (getStringMethod, id) in stringSources)
+                result += getStringMethod(id) + space;
+
+            if (result.EndsWith(space))
+                result = result.Substring(0, result.Length - space.Length);
+
+            return result;
+        }
+
+        public static string CombineStringsWithSpaces(Func<int, string> getStringByIdMethod, params int[] ids)
+        {
+            string space = " ";
+            if (Config.NeedBoldTextLanguages.Contains(Config.CurrentLanguage))
+                space = "";
+
+            string result = "";
+
+            foreach (var id in ids)
+                result += getStringByIdMethod(id) + space;
+
+            if (result.EndsWith(space))
+                result = result.Substring(0, result.Length - space.Length);
+
+            return result;
+        }
+        public static string GetFormatString(string format, params object[] args)
+        {
+            for (int i = 0; i < args.Length; i++)
+            {
+                string placeholder = "{" + (i + 1) + "}";
+                format = format.Replace(placeholder, args[i]?.ToString() ?? string.Empty);
+            }
+
+            return format;
+        }
+
+        public static void UpdatePlayerPanel(Label label, int type, int count)
+        {
+            if (label == null)
+                return;
+
+            if (label.InvokeRequired)
+            {
+                label.Invoke(new Action(() =>
+                {
+                    label.Text = GetPlayerPanelDesc(type, count);
                 }));
             }
             else
             {
-                totalOnlineLabel.Text = $"Total Online: {AllPlayerCount}";
+                label.Text = GetPlayerPanelDesc(type, count);
             }
         }
 
-        public static void UpdateMapOnline(int mapOnline)
-        {
-            if (mapOnlineLabel == null)
-                return;
-
-            if (mapOnlineLabel.InvokeRequired)
-            {
-                mapOnlineLabel.Invoke(new Action(() =>
-                {
-                    mapOnlineLabel.Text = $"Map Online: {mapOnline}";
-                }));
-            }
-            else
-            {
-                mapOnlineLabel.Text = $"Map Online: {mapOnline}";
-            }
-        }
-
-        private static void WorldMapBox_MouseEnter(object sender, EventArgs e)
+        private static void WorldMapBox_MouseEnter(object? sender, EventArgs e)
         {
             Control? control = sender as Control;
             if (control != null)
                 control.Cursor = Config.customCursor ?? Cursors.Default;
         }
 
-        private static void WorldMapBox_MouseLeave(object sender, EventArgs e)
+        private static void WorldMapBox_MouseLeave(object? sender, EventArgs e)
         {
             Control? control = sender as Control;
             if (control != null)
                 control.Cursor = Cursors.Default;
+        }
+
+        private static string GetRefreshPlayerDataButtonText() => $"{CombineStringsWithSpaces(FileManager.GetStringMessageById, 1041024, 1041302)} ({GetFormatString(FileManager.GetStringMessageById(1026084), countdownTime)})";
+
+        private static void RefreshPlayerData()
+        {
+            FileManager.LoadPlayerData();
+            ResetCountdown();
+        }
+
+        private static void AutoRefreshTick()
+        {
+            countdownTime--;
+            refreshPlayerDataButton.Text = GetRefreshPlayerDataButtonText();
+
+            if (countdownTime <= 0)
+            {
+                RefreshPlayerData();
+            }
+        }
+
+        private static void ResetCountdown()
+        {
+            countdownTime = autoRefreshInterval / 1000;
+            refreshPlayerDataButton.Text = GetRefreshPlayerDataButtonText();
+        }
+
+        private static void ToggleShowPlayer(bool isChecked)
+        {
+            ShowPlayer = isChecked;
+            SwitchMap(curMapId);
+        }
+
+        private static void ToggleShowMerchantNpc(bool isChecked)
+        {
+            ShowMerchantNpc = isChecked;
+            SwitchMap(curMapId);
+        }
+
+        private static void ToggleShowResidentNpc(bool isChecked)
+        {
+            ShowResidentNpc = isChecked;
+            SwitchMap(curMapId);
+        }
+
+        private static void ToggleShowWayPoint(bool isChecked)
+        {
+            ShowWayPoint = isChecked;
+            SwitchMap(curMapId);
+        }
+
+        private static void ToggleShowGathering(bool isChecked)
+        {
+            ShowGathering = isChecked;
+            SwitchMap(curMapId);
+        }
+
+        private static void ToggleShowMonster(bool isChecked)
+        {
+            ShowMonster = isChecked;
+            SwitchMap(curMapId);
+        }
+
+        private static void ToggleShowDemonSpawnPoint(bool isChecked)
+        {
+            ShowDemonSpawnPoint = isChecked;
+            SwitchMap(curMapId);
         }
     }
 }

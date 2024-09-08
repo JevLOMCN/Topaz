@@ -1,0 +1,75 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "MAP_MINI_110506040",
+    "Class": "UScriptClass'DataTable'",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'MapMiniInfoTemplate'",
+        "ObjectPath": "/Script/MirMobile"
+      }
+    },
+    "Rows": {
+      "1": {
+        "Name": 1,
+        "InfoMainType": "EMapMiniInfoMainType::Default",
+        "InfoSubType": 2,
+        "InfoSubTypeValue": 0,
+        "InfoValue": 10516041,
+        "DetailInfoValue": 0,
+        "InfoStringId": 705040006,
+        "InfoStringPosType": "EMapMiniInfoStringPosType::Bottom",
+        "InfoCoordinate": {
+          "X": 4553.109,
+          "Y": 10165.768,
+          "Z": 3773.0
+        }
+      },
+      "2": {
+        "Name": 2,
+        "InfoMainType": "EMapMiniInfoMainType::Waypoint",
+        "InfoSubType": 2,
+        "InfoSubTypeValue": 4,
+        "InfoValue": 100001286,
+        "DetailInfoValue": 406007015,
+        "InfoStringId": 3703344,
+        "InfoStringPosType": "EMapMiniInfoStringPosType::None",
+        "InfoCoordinate": {
+          "X": -14677.0,
+          "Y": 9254.0,
+          "Z": 1568.0
+        }
+      },
+      "3": {
+        "Name": 3,
+        "InfoMainType": "EMapMiniInfoMainType::Waypoint",
+        "InfoSubType": 2,
+        "InfoSubTypeValue": 3,
+        "InfoValue": 100001290,
+        "DetailInfoValue": 406007008,
+        "InfoStringId": 3750092,
+        "InfoStringPosType": "EMapMiniInfoStringPosType::None",
+        "InfoCoordinate": {
+          "X": -13775.0,
+          "Y": 2830.0,
+          "Z": 1682.0
+        }
+      },
+      "4": {
+        "Name": 4,
+        "InfoMainType": "EMapMiniInfoMainType::Waypoint",
+        "InfoSubType": 6,
+        "InfoSubTypeValue": 0,
+        "InfoValue": 100001284,
+        "DetailInfoValue": 0,
+        "InfoStringId": 705040009,
+        "InfoStringPosType": "EMapMiniInfoStringPosType::None",
+        "InfoCoordinate": {
+          "X": 2855.0,
+          "Y": 10137.0,
+          "Z": 3697.856
+        }
+      }
+    }
+  }
+]
