@@ -17,11 +17,14 @@ namespace Server_Console.Database_Tool
     public static class ImageProcessor
     {
         private static readonly string iconDirectory = FileManager.GetFilePath("Assets/Icons/");
+        private static float ResolutionScale = 1;
+        private static bool ResolutionOver;
         public static DefaultFileProvider? Provider { get; private set; }
 
         private static void Log(string message) => DatabaseTool.Log(message);
         public static void Initialize()
         {
+            InitializeResolutionScale();
             InitializeZlibSync();
             InitializeProvider();
         }
@@ -45,6 +48,39 @@ namespace Server_Console.Database_Tool
             }
 
             ZlibHelper.Initialize(zlibPath);
+        }
+
+        public static void InitializeResolutionScale()
+        {
+            int screenWidth = Screen.PrimaryScreen.Bounds.Width;
+            int screenHeight = Screen.PrimaryScreen.Bounds.Height;
+
+            int baseWidth = 2560;
+            int baseHeight = 1600;
+
+            float widthRatio, heightRatio;
+            if (screenWidth >= baseWidth && screenHeight >= baseHeight)
+            {
+                widthRatio = (float)screenWidth / baseWidth;
+                heightRatio = (float)screenHeight / baseHeight;
+                ResolutionOver = true;
+            }
+            else
+            {
+                widthRatio = (float)baseWidth / screenWidth;
+                heightRatio = (float)baseHeight / screenHeight;
+                ResolutionOver = false;
+            }
+
+            ResolutionScale = Math.Min(widthRatio, heightRatio) - (ResolutionScale / 10);
+        }
+
+        public static Font GetFont(string font, int size, FontStyle style = FontStyle.Regular)
+        {
+            if (ResolutionOver)
+                return new Font(font, size / ResolutionScale, style);
+
+            return new Font(font, size * ResolutionScale, style);
         }
 
         public static void DrawAndRecordHeaderText(Graphics graphics, int mapId, int areaId = 0, int areaStringId = 0, int miniGroupId = 0, int miniStringId = 0)
@@ -91,7 +127,8 @@ namespace Server_Console.Database_Tool
                     graphics.DrawString(areaText, defaultFont, Brushes.White, areaTextStartPoint);
 
                     Rectangle areaMapArea = new Rectangle((int)iconX, (int)textStartPoint.Y, (int)graphics.MeasureString(areaText, defaultFont).Width, (int)worldMapTextSize.Height);
-                    MapPage.mapClickAreas[mapId].Add((areaMapArea, areaId));
+                    lock (MapPage.mapClickAreas)
+                        MapPage.mapClickAreas[mapId].Add((areaMapArea, areaId));
 
                     iconX += graphics.MeasureString(areaText, defaultFont).Width;
                 }
@@ -114,7 +151,8 @@ namespace Server_Console.Database_Tool
                     graphics.DrawString(miniText, defaultFont, Brushes.White, miniTextStartPoint);
 
                     Rectangle miniMapArea = new Rectangle((int)iconX, (int)textStartPoint.Y, (int)graphics.MeasureString(miniText, defaultFont).Width, (int)worldMapTextSize.Height);
-                    MapPage.mapClickAreas[mapId].Add((miniMapArea, miniGroupId));
+                    lock (MapPage.mapClickAreas)
+                        MapPage.mapClickAreas[mapId].Add((miniMapArea, miniGroupId));
                 }
             }
         }
@@ -277,26 +315,6 @@ namespace Server_Console.Database_Tool
                 string textCommon = elliteCheck == 1
                     ? $"{FileManager.StringTemplateMap[1010118].Text} {FileManager.StringTemplateMap[920914].Text}"
                     : $"{FileManager.StringTemplateMap[2710003].Text} {FileManager.StringTemplateMap[920914].Text}";
-                /*
-                if (!string.IsNullOrEmpty(textCommon))
-                {
-                    string[] wrappedText = WrapText(textCommon, defaultFont, 100, graphics);
-                    float textX = btnX - 20;
-                    float textY = btnY + (btnHeight - wrappedText.Length * graphics.MeasureString("A", defaultFont).Height) / 2;
-
-                    Color textColor = elliteCheck == 1 ? Color.FromArgb(255, 255, 155, 0) : Color.FromArgb(255, 69, 135, 186);
-                    using (Brush textBrush = new SolidBrush(textColor))
-                    {
-                        float lineHeight = graphics.MeasureString("A", defaultFont).Height;
-                        for (int i = 0; i < wrappedText.Length; i++)
-                        {
-                            float lineTextWidth = graphics.MeasureString(wrappedText[i], defaultFont).Width;
-                            float alignedTextX = textX - lineTextWidth;
-                            graphics.DrawString(wrappedText[i], defaultFont, textBrush, alignedTextX, textY + i * lineHeight);
-                        }
-                    }
-                }
-                */
 
                 if (!string.IsNullOrEmpty(textCommon))
                 {
@@ -594,15 +612,23 @@ namespace Server_Console.Database_Tool
                     string colorHex = match.Groups["Color"].Value;
                     text = match.Groups["Text"].Value;
 
-                    if (int.TryParse(colorHex.Substring(0, 2), System.Globalization.NumberStyles.HexNumber, null, out int red) &&
-                        int.TryParse(colorHex.Substring(2, 2), System.Globalization.NumberStyles.HexNumber, null, out int green) &&
-                        int.TryParse(colorHex.Substring(4, 2), System.Globalization.NumberStyles.HexNumber, null, out int blue))
-                    {
-                        textColor = Color.FromArgb(255, red, green, blue);
-                        defaultFont = GetFont("Arial", 11);
-                        if (Config.NeedBoldTextLanguages.Contains(Config.CurrentLanguage))
-                            defaultFont = GetFont("Microsoft YaHei", 13);
-                    }
+                    var colorComponents = Enumerable.Range(0, colorHex.Length / 2)
+                                                    .Select(i => colorHex.Substring(i * 2, 2))
+                                                    .ToArray();
+
+                    if (colorComponents.Length == 3)
+                        colorComponents = new[] { "FF" }.Concat(colorComponents).ToArray();
+
+                    int alpha = Convert.ToInt32(colorComponents[0], 16);
+                    int red = Convert.ToInt32(colorComponents[1], 16);
+                    int green = Convert.ToInt32(colorComponents[2], 16);
+                    int blue = Convert.ToInt32(colorComponents[3], 16);
+
+                    textColor = Color.FromArgb(alpha, red, green, blue);
+
+                    defaultFont = GetFont("Arial", 11);
+                    if (Config.NeedBoldTextLanguages.Contains(Config.CurrentLanguage))
+                        defaultFont = GetFont("Microsoft YaHei", 13);
                 }
 
                 string textPositionType = miniInfoData.InfoStringPosType ?? "EMapMiniInfoStringPosType::None";
@@ -642,23 +668,6 @@ namespace Server_Console.Database_Tool
                     graphics.DrawString(text, defaultFont, textBrush, textX, textY);
                 }
             }
-        }
-
-        public static float GetResolutionScale()
-        {
-            int screenWidth = Screen.PrimaryScreen.Bounds.Width;
-            int screenHeight = Screen.PrimaryScreen.Bounds.Height;
-
-            float widthScale = (float)screenWidth / 2560;
-            float heightScale = (float)screenHeight / 1600;
-
-            return Math.Min(widthScale, heightScale);
-        }
-
-        public static Font GetFont(string font, int size, FontStyle style = FontStyle.Regular)
-        {
-            float resolutionScale = GetResolutionScale();
-            return new Font(font, size * resolutionScale, style);
         }
 
         public static Image? GetIcon(int iconId, int grade, int tier, int tradeType)

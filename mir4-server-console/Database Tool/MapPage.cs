@@ -1,12 +1,5 @@
-﻿using CUE4Parse.UE4.Assets.Exports.Component.StaticMesh;
-using CUE4Parse.UE4.Kismet;
-using Google.Protobuf.WellKnownTypes;
-using Org.BouncyCastle.Asn1.Pkcs;
-using System.Linq;
+﻿using System.Drawing.Imaging;
 using System.Reflection;
-using System.Text.RegularExpressions;
-using System.Threading.Tasks;
-using static Mysqlx.Notice.Warning.Types;
 
 namespace Server_Console.Database_Tool
 {
@@ -1008,10 +1001,12 @@ namespace Server_Console.Database_Tool
 
                     if (miniMapBitmap != null)
                     {
-                        int scaledWidth = (int)(miniMapBitmap.Width * Config.zoomMiniMap);
-                        int scaledHeight = (int)(miniMapBitmap.Height * Config.zoomMiniMap);
+                        Bitmap transparentMiniMap = SetBitmapOpacity(miniMapBitmap, 144);
 
-                        graphics.DrawImage(miniMapBitmap, Config.offsetMiniMapX, Config.offsetMiniMapY, scaledWidth, scaledHeight);
+                        int scaledWidth = (int)(transparentMiniMap.Width * Config.zoomMiniMap);
+                        int scaledHeight = (int)(transparentMiniMap.Height * Config.zoomMiniMap);
+
+                        graphics.DrawImage(transparentMiniMap, Config.offsetMiniMapX, Config.offsetMiniMapY, scaledWidth, scaledHeight);
                     }
 
                     Color topColor = Color.FromArgb(100, 16, 20, 30);
@@ -1036,6 +1031,22 @@ namespace Server_Console.Database_Tool
                     ImageProcessor.DrawRightPanel(graphics, miniData.MiniStageId, miniData.ElliteStageId, miniData.ElliteCheck, background, tabY, scaledTabHeight);
                 }
             }
+        }
+
+        private static Bitmap SetBitmapOpacity(Bitmap bitmap, int opacity)
+        {
+            Bitmap newBitmap = new Bitmap(bitmap.Width, bitmap.Height);
+            using (Graphics g = Graphics.FromImage(newBitmap))
+            {
+                ColorMatrix matrix = new ColorMatrix();
+                matrix.Matrix33 = opacity / 255f;
+
+                ImageAttributes attributes = new ImageAttributes();
+                attributes.SetColorMatrix(matrix, ColorMatrixFlag.Default, ColorAdjustType.Bitmap);
+
+                g.DrawImage(bitmap, new Rectangle(0, 0, bitmap.Width, bitmap.Height), 0, 0, bitmap.Width, bitmap.Height, GraphicsUnit.Pixel, attributes);
+            }
+            return newBitmap;
         }
 
         private static void InitializeTouchAreas()
@@ -1250,7 +1261,7 @@ namespace Server_Console.Database_Tool
                                     continue;
                                 else if (infoSubType == 2 && infoSubTypeValue != 0 && ShowMonster is false)
                                     continue;
-                                else if (infoSubType == 3 && ShowGathering is false)
+                                else if (infoSubType == 3 && infoSubTypeValue != 0 && ShowGathering is false)
                                     continue;
                                 else if (infoSubType == 4 && ShowMerchantNpc is false)
                                     continue;
@@ -1302,26 +1313,28 @@ namespace Server_Console.Database_Tool
 
                     float sectorRange = sectorData.SectorRange;
 
-                    float radius = sectorRange * (scaleX + scaleY) / 4;
+                    float radius = sectorRange * (scaleX + scaleY) / (float)4.25;
 
                     if (!FileManager.MapStageSectorList.TryGetValue(sectorData.SectorID, out var stageSectorData))
                         continue;
 
+                    byte alpha = 0x7F;
+                    if (mapId == 101003010)
+                        alpha = 0x48;
+
                     Color? sectorColor = stageSectorData.SectorGrade switch
                     {
-                        1 => Color.FromArgb(170, 52, 170, 82),
-                        2 => Color.FromArgb(170, 15, 90, 160),
-                        3 => Color.FromArgb(170, 200, 50, 100),
-                        4 => Color.FromArgb(170, 240, 190, 70),
+                        1 => Color.FromArgb(alpha, 0x00, 0xDB, 0x54),
+                        2 => Color.FromArgb(alpha, 0x00, 0x61, 0xE7),
+                        3 => Color.FromArgb(alpha, 0xFF, 0x28, 0x6C),
+                        4 => Color.FromArgb(alpha, 0xFF, 0xEC, 0x32),
                         _ => null,
                     };
 
                     if (sectorColor.HasValue)
                     {
                         using (SolidBrush brush = new SolidBrush(sectorColor.Value))
-                        {
                             graphics.FillEllipse(brush, screenX - radius, screenY - radius, radius * 2, radius * 2);
-                        }
                     }
                 }
             }
