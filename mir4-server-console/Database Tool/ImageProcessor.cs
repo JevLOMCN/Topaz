@@ -670,18 +670,18 @@ namespace Server_Console.Database_Tool
             }
         }
 
-        public static Image? GetIcon(int iconId, int grade, int tier, int tradeType)
+        public static Bitmap? GetIcon(int iconId, int grade, int tier, int tradeType)
         {
-            Image? icon = GetIconFromUE4(iconId);
+            Bitmap? icon = GetIconFromUE4(iconId);
 
             if (icon == null)
                 icon = GetIconFromUE4("MirMobile/Content/UI/Atlas_N_Pack/Sprites_N/Spr_Icon/Spr_Symbol/Icon_Quest003_Sprite");
 
             if (icon is Bitmap bitmapIcon)
             {
-                Image? background = GetBackgroundImage(grade);
-                Image? tierIcon = tier > 1 ? GetTierImage(tier) : null;
-                Image? tradeIcon = tradeType == 1 ? GetIconFromUE4(100057) : null;
+                Bitmap? background = GetBackgroundImage(grade);
+                Bitmap? tierIcon = tier > 1 ? GetTierImage(tier) : null;
+                Bitmap? tradeIcon = tradeType == 1 ? GetIconFromUE4(100057) : null;
 
                 if (background != null)
                 {
@@ -695,11 +695,11 @@ namespace Server_Console.Database_Tool
             return null;
         }
 
-        private static Image? GetBackgroundImage(int grade) => GetIconFromUE4(200 + grade);
+        private static Bitmap? GetBackgroundImage(int grade) => GetIconFromUE4(200 + grade);
 
-        private static Image? GetTierImage(int tier) => GetIconFromUE4(820 + tier);
+        private static Bitmap? GetTierImage(int tier) => GetIconFromUE4(820 + tier);
 
-        private static Image CombineImages(Image background, Image? tierIcon, Image icon, Image tradeIcon)
+        private static Bitmap CombineImages(Image background, Image? tierIcon, Image icon, Image tradeIcon)
         {
             int width = background.Width;
             int height = background.Height;

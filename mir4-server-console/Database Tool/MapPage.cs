@@ -154,7 +154,7 @@ namespace Server_Console.Database_Tool
 
             CheckBox showPlayerCheckBox = new CheckBox
             {
-                Text = CombineStringsWithSpaces(FileManager.GetStringMessageById, 1033104, 2618029, 1086612),
+                Text = FileManager.CombineStringsWithSpaces(FileManager.GetStringMessageById, 1033104, 2618029, 1086612),
                 Font = new Font("Segoe UI", 9F),
                 ForeColor = Color.Black,
                 AutoSize = true,
@@ -166,7 +166,7 @@ namespace Server_Console.Database_Tool
 
             CheckBox showMerchantNpcCheckBox = new CheckBox
             {
-                Text = CombineStringsWithSpaces(FileManager.GetStringMessageById, 1033104, 1019040),
+                Text = FileManager.CombineStringsWithSpaces(FileManager.GetStringMessageById, 1033104, 1019040),
                 Font = new Font("Segoe UI", 9F),
                 ForeColor = Color.Black,
                 AutoSize = true,
@@ -178,7 +178,7 @@ namespace Server_Console.Database_Tool
 
             CheckBox showResidentNpcCheckBox = new CheckBox
             {
-                Text = CombineStringsWithSpaces(FileManager.GetStringMessageById, 1033104, 1019051),
+                Text = FileManager.CombineStringsWithSpaces(FileManager.GetStringMessageById, 1033104, 1019051),
                 Font = new Font("Segoe UI", 9F),
                 ForeColor = Color.Black,
                 AutoSize = true,
@@ -190,7 +190,7 @@ namespace Server_Console.Database_Tool
 
             CheckBox showWayPointCheckBox = new CheckBox
             {
-                Text = CombineStringsWithSpaces(FileManager.GetStringMessageById, 1033104, 1019041),
+                Text = FileManager.CombineStringsWithSpaces(FileManager.GetStringMessageById, 1033104, 1019041),
                 Font = new Font("Segoe UI", 9F),
                 ForeColor = Color.Black,
                 AutoSize = true,
@@ -202,7 +202,7 @@ namespace Server_Console.Database_Tool
 
             CheckBox showGatheringCheckBox = new CheckBox
             {
-                Text = CombineStringsWithSpaces(FileManager.GetStringMessageById, 1033104, 1019042),
+                Text = FileManager.CombineStringsWithSpaces(FileManager.GetStringMessageById, 1033104, 1019042),
                 Font = new Font("Segoe UI", 9F),
                 ForeColor = Color.Black,
                 AutoSize = true,
@@ -214,7 +214,7 @@ namespace Server_Console.Database_Tool
 
             CheckBox showMonsterCheckBox = new CheckBox
             {
-                Text = CombineStringsWithSpaces(FileManager.GetStringMessageById, 1033104, 1019043),
+                Text = FileManager.CombineStringsWithSpaces(FileManager.GetStringMessageById, 1033104, 1019043),
                 Font = new Font("Segoe UI", 9F),
                 ForeColor = Color.Black,
                 AutoSize = true,
@@ -226,7 +226,7 @@ namespace Server_Console.Database_Tool
 
             CheckBox showDemonSpawnPointCheckBox = new CheckBox
             {
-                Text = CombineStringsWithSpaces(FileManager.GetStringMessageById, 1033104, 1019611),
+                Text = FileManager.CombineStringsWithSpaces(FileManager.GetStringMessageById, 1033104, 1019611),
                 Font = new Font("Segoe UI", 9F),
                 ForeColor = Color.Black,
                 AutoSize = true,
@@ -357,7 +357,7 @@ namespace Server_Console.Database_Tool
         {
             Button switchMapButton = new Button
             {
-                Text = CombineStringsWithSpaces(FileManager.GetStringMessageById, 1088025, 1019001),
+                Text = FileManager.CombineStringsWithSpaces(FileManager.GetStringMessageById, 1088025, 1019001),
                 Font = new Font("Segoe UI", 9F),
                 Location = new Point(210, startY),
                 Width = 70,
@@ -371,7 +371,7 @@ namespace Server_Console.Database_Tool
         {
             Button searchPlayerButton = new Button
             {
-                Text = CombineStringsWithSpaces(FileManager.GetStringTemplateById, 1000126, 5200009),
+                Text = FileManager.CombineStringsWithSpaces(FileManager.GetStringTemplateById, 1000126, 5200009),
                 Font = new Font("Segoe UI", 9F),
                 Location = new Point(210, startY),
                 Width = 70,
@@ -648,22 +648,23 @@ namespace Server_Console.Database_Tool
         private static async Task InitializeMap()
         {
             await InitializeBitmapAsset();
-            if (Config.IsNewVersionDetected())
+            if (Config.IsNewVersionDetected("Assets/Paks", "PaksHash", Config.mapCacheFileName))
             {
-                Log("Loading assets ..");
+                Log("Loading map assets ..");
                 await LoadAndSaveAssets();
                 InitializeTouchAreas();
-                Config.SaveCacheData(CachedBitmaps, CachedMapItems, mapClickAreas);
+                Config.SaveCacheData(Config.mapCacheFileName, CachedBitmaps, CachedMapItems, mapClickAreas);
             }
             else
             {
-                Log("Loading cached assets ..");
-                Config.LoadCacheData();
+                Log("Loading map cached assets ..");
+                Config.LoadCacheData(Config.mapCacheFileName);
             }
 
             UpdatePlayerPanel(totalPlayerLabel, 1, AllPlayerCount);
             UpdatePlayerPanel(totalOnlineLabel, 2, AllOnlineCount);
             InitializeMapAsset();
+            Log("Loaded map cached data.");
         }
 
         private static async Task InitializeBitmapAsset()
@@ -1737,46 +1738,13 @@ namespace Server_Console.Database_Tool
         {
             return type switch
             {
-                1 => $"{CombineStringsWithSpaces(FileManager.GetStringMessageById, 2618029, 1086612)}: {count}",
-                2 => $"{CombineStringsWithSpaces(FileManager.GetStringMessageById, 2618029, 1061060, 1086612)}: {count}",
-                3 => $"{CombineStringsWithSpaces(FileManager.GetStringMessageById, 1019001, 1061060, 1086612)}: {count}",
+                1 => $"{FileManager.CombineStringsWithSpaces(FileManager.GetStringMessageById, 2618029, 1086612)}: {count}",
+                2 => $"{FileManager.CombineStringsWithSpaces(FileManager.GetStringMessageById, 2618029, 1061060, 1086612)}: {count}",
+                3 => $"{FileManager.CombineStringsWithSpaces(FileManager.GetStringMessageById, 1019001, 1061060, 1086612)}: {count}",
                 _ => string.Empty
             };
         }
 
-        public static string CombineStringsWithSpaces(params (Func<int, string> getStringMethod, int id)[] stringSources)
-        {
-            string space = " ";
-            if (Config.NeedBoldTextLanguages.Contains(Config.CurrentLanguage))
-                space = "";
-
-            string result = "";
-
-            foreach (var (getStringMethod, id) in stringSources)
-                result += getStringMethod(id) + space;
-
-            if (result.EndsWith(space))
-                result = result.Substring(0, result.Length - space.Length);
-
-            return result;
-        }
-
-        public static string CombineStringsWithSpaces(Func<int, string> getStringByIdMethod, params int[] ids)
-        {
-            string space = " ";
-            if (Config.NeedBoldTextLanguages.Contains(Config.CurrentLanguage))
-                space = "";
-
-            string result = "";
-
-            foreach (var id in ids)
-                result += getStringByIdMethod(id) + space;
-
-            if (result.EndsWith(space))
-                result = result.Substring(0, result.Length - space.Length);
-
-            return result;
-        }
         public static string GetFormatString(string format, params object[] args)
         {
             for (int i = 0; i < args.Length; i++)
@@ -1820,7 +1788,7 @@ namespace Server_Console.Database_Tool
                 control.Cursor = Cursors.Default;
         }
 
-        private static string GetRefreshPlayerDataButtonText() => $"{CombineStringsWithSpaces(FileManager.GetStringMessageById, 1041024, 1041302)} ({GetFormatString(FileManager.GetStringMessageById(1026084), countdownTime)})";
+        private static string GetRefreshPlayerDataButtonText() => $"{FileManager.CombineStringsWithSpaces(FileManager.GetStringMessageById, 1041024, 1041302)} ({GetFormatString(FileManager.GetStringMessageById(1026084), countdownTime)})";
 
         private static void RefreshPlayerData()
         {

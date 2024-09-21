@@ -29,7 +29,7 @@ namespace Server_Console.Database_Tool
 
         private async void InitializeData()
         {
-            int totalSteps = 6;
+            int totalSteps = 8;
             int currentStep = 0;
 
             InitializeLanguageMenu();
@@ -41,6 +41,14 @@ namespace Server_Console.Database_Tool
             UpdateProgressBar((currentStep * 100) / totalSteps);
 
             await Task.Run(() => FileManager.Initialize());
+            currentStep++;
+            UpdateProgressBar((currentStep * 100) / totalSteps);
+
+            await Task.Run(() => ItemPage.LoadData());
+            currentStep++;
+            UpdateProgressBar((currentStep * 100) / totalSteps);
+
+            await Task.Run(() => ItemDetailForm.Initialize());
             currentStep++;
             UpdateProgressBar((currentStep * 100) / totalSteps);
 
@@ -109,7 +117,7 @@ namespace Server_Console.Database_Tool
                 {
                     Config.CurrentLanguage = langCode;
                     Config.SaveLanguageSetting();
-                    Config.ClearCacheData();
+                    Config.ClearCacheData(Config.mapCacheFileName);
                     this.Hide();
                     var newForm = new DatabaseTool();
                     newForm.Show();
