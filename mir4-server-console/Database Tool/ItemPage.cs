@@ -2,7 +2,9 @@
 using System.Collections.Generic;
 using System.Drawing;
 using System.Linq;
+using System.Reflection;
 using System.Windows.Forms;
+using System.Xml;
 
 namespace Server_Console.Database_Tool
 {
@@ -28,27 +30,15 @@ namespace Server_Console.Database_Tool
         private static int totalPages = 0;
 
         private static Dictionary<string, int> ClassMapping;
+        private static Dictionary<string, int> GradeMapping;
+        private static Dictionary<string, int> TradeTypeMapping;
 
-        private static readonly Dictionary<string, int> GradeMapping = new Dictionary<string, int>
-        {
-            { "All", -1 },
-            { "Legendary", 5 },
-            { "Epic", 4 },
-            { "Rare", 3 },
-            { "Uncommon", 2 },
-            { "Common", 1 }
-        };
-
-        private static readonly Dictionary<string, int> TradeTypeMapping = new Dictionary<string, int>
-        {
-            { "All", -1 },
-            { "Trade", 1 },
-            { "Bind", 0 }
-        };
+        private static System.Windows.Forms.Timer searchTimer = new System.Windows.Forms.Timer { Interval = 500 };
+        private static bool isSearchPending = false;
 
         public static void Initialize(TabControl tabControl)
         {
-            InitializeClassMapping();
+            InitializeOptionMapping();
             var tabPage = new TabPage
             {
                 Name = "ItemPage",
@@ -62,16 +52,30 @@ namespace Server_Console.Database_Tool
 
             InitializeComponent(tabPage);
             tabControl.Controls.Add(tabPage);
+
+            searchTimer.Tick += SearchTimer_Tick;
         }
 
-        private static void InitializeClassMapping()
+        private static void InitializeOptionMapping()
         {
-            ClassMapping = new Dictionary<string, int> { { "All", -1 } };
+            string allText = FileManager.GetStringTemplateById(5200013);
 
+            GradeMapping = new Dictionary<string, int> { { allText, -1 } };
+            for (int i = 5; i >= 1; i--)
+                GradeMapping[FileManager.GetStringTemplateById(5200000 + i)] = i;
+
+            TradeTypeMapping = new Dictionary<string, int> { { allText, -1 } };
+            TradeTypeMapping[FileManager.GetStringMessageById(2004803)] = 1;
+            TradeTypeMapping[FileManager.GetStringMessageById(1005966)] = 0;
+
+            ClassMapping = new Dictionary<string, int> { { allText, -1 } };
             foreach (var avatar in Config.avatarPaths)
             {
                 string className = FileManager.GetStringTemplateById(avatar.Value.StringId);
-                ClassMapping.Add(className, avatar.Key);
+                if (!string.IsNullOrEmpty(className) && !ClassMapping.ContainsKey(className))
+                {
+                    ClassMapping.Add(className, avatar.Key);
+                }
             }
         }
 
@@ -145,7 +149,9 @@ namespace Server_Console.Database_Tool
             itemSearchTextBox.TextChanged += (s, e) =>
             {
                 currentPage = 0;
-                UpdateIcons();
+                isSearchPending = true;
+                searchTimer.Stop();
+                searchTimer.Start();
             };
 
             startY += itemSearchTextBox.Height + padding;
@@ -246,6 +252,18 @@ namespace Server_Console.Database_Tool
             searchGroupBox.Controls.Add(classComboBox);
             searchGroupBox.Controls.Add(tradeLabel);
             searchGroupBox.Controls.Add(tradeComboBox);
+        }
+
+        private static void InitializeFormTitle(TabPage tabPage)
+        {
+            string version = Assembly.GetExecutingAssembly()
+                                  .GetCustomAttribute<AssemblyInformationalVersionAttribute>()?
+                                  .InformationalVersion ?? "0.0.0";
+            string author = Assembly.GetExecutingAssembly()
+                                  .GetCustomAttributes<AssemblyMetadataAttribute>()
+                                  .FirstOrDefault(a => a.Key == "Authors")?
+                                  .Value ?? "Jev + Sumiao";
+            tabPage.Text = $"Mir4Tool v{version} [By {author}]";
         }
 
         private static void ChangePage(int direction, int totalFilteredItems)
@@ -470,6 +488,16 @@ namespace Server_Console.Database_Tool
             {
                 itemSearchTextBox.Text = string.Empty;
                 itemSearchTextBox.Focus();
+            }
+        }
+
+        private static void SearchTimer_Tick(object sender, EventArgs e)
+        {
+            searchTimer.Stop();
+            if (isSearchPending)
+            {
+                UpdateIcons();
+                isSearchPending = false;
             }
         }
 
