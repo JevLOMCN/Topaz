@@ -16,7 +16,6 @@ namespace Server_Console.Database_Tool
         private TabPage AchievementsPage;
         private TabPage SkillsPage;
         private TabPage CommandsPage;
-        private ItemPage ItemsPage;
         private StatusStrip statusStrip;
         public static ToolStripStatusLabel statusLabel;
         public static ProgressBar progressBar;
@@ -40,7 +39,6 @@ namespace Server_Console.Database_Tool
             menuStrip1 = new MenuStrip();
             languageMenuItem = new ToolStripMenuItem();
             tabControl1 = new TabControl();
-            ItemsPage = new ItemPage();
             MonstersPage = new TabPage();
             AchievementsPage = new TabPage();
             SkillsPage = new TabPage();
@@ -61,7 +59,7 @@ namespace Server_Console.Database_Tool
             this.BackColor = Color.White;
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(1366, 768);
+            ClientSize = new Size(1400, 800);
             Controls.Add(tabControl1);
             Controls.Add(logGroupBox);
             Controls.Add(statusStrip);
@@ -91,7 +89,7 @@ namespace Server_Console.Database_Tool
 
             // Configure TabControl
             MapPage.Initialize(tabControl1);
-            tabControl1.Controls.Add(ItemsPage);
+            ItemPage.Initialize(tabControl1);
             tabControl1.Controls.Add(MonstersPage);
             tabControl1.Controls.Add(AchievementsPage);
             tabControl1.Controls.Add(SkillsPage);
@@ -100,7 +98,7 @@ namespace Server_Console.Database_Tool
             tabControl1.Location = new Point(0, 24);
             tabControl1.Name = "tabControl1";
             tabControl1.SelectedIndex = 0;
-            tabControl1.Size = new Size(1343, 539);
+            tabControl1.Size = new Size(1400, 600);
             tabControl1.TabIndex = 2;
             tabControl1.Appearance = TabAppearance.Normal;
             tabControl1.ItemSize = new Size(130, 30);
@@ -108,14 +106,6 @@ namespace Server_Console.Database_Tool
             tabControl1.Font = new Font("Segoe UI", 9F);
             tabControl1.BackColor = Color.White;
             tabControl1.Resize += new EventHandler(TabControl1_Resize);
-
-            ItemsPage.Location = new Point(4, 34);
-            ItemsPage.Name = "ItemsPage";
-            ItemsPage.Padding = new Padding(3);
-            ItemsPage.Size = new Size(1335, 501);
-            ItemsPage.TabIndex = 1;
-            ItemsPage.Text = "Items";
-            ItemsPage.UseVisualStyleBackColor = true;
 
             MonstersPage.Location = new Point(4, 34);
             MonstersPage.Name = "MonstersPage";

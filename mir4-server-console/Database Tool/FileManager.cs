@@ -35,7 +35,7 @@ namespace Server_Console.Database_Tool
         public static Dictionary<int, MapStageData> SpecialMapList { get; private set; } = new Dictionary<int, MapStageData>();
         public static Dictionary<int, List<PlayerData>> PlayerList { get; private set; } = new Dictionary<int, List<PlayerData>>();
         public static Dictionary<int, List<PlayerData>> OnlinePlayerList { get; private set; } = new Dictionary<int, List<PlayerData>>();
-        public static ConcurrentDictionary<string, ItemData> CombinedIndex { get; private set; } = new ConcurrentDictionary<string, ItemData>();
+
         public static Dictionary<int, dynamic> NpcList = new Dictionary<int, dynamic>();
         private static void Log(string message) => DatabaseTool.Log(message);
 
@@ -57,8 +57,6 @@ namespace Server_Console.Database_Tool
             LoadStageSectorData();
             LoadItemViewerData();
             LoadPlayerData();
-            BuildCombinedIndex();
-            ItemPage.LoadComboBox();
         }
 
         public static void LoadItemData()
@@ -79,6 +77,8 @@ namespace Server_Console.Database_Tool
             {
                 ItemMap[data.ItemID] = data;
             }
+
+            ItemPage.LoadItemData();
 
             Log($"Loaded {ItemMap.Count} items.");
         }
@@ -476,19 +476,6 @@ namespace Server_Console.Database_Tool
             }
         }
 
-        public static void BuildCombinedIndex()
-        {
-            CombinedIndex.Clear();
-            foreach (var item in ItemMap.Values)
-            {
-                if (StringTemplateMap.TryGetValue(item.NameSid, out var template))
-                {
-                    string key = $"{item.ItemID};{template.Text}";
-                    CombinedIndex[key] = item;
-                }
-            }
-        }
-
         public static string GetStringTemplateById(int stringId)
         {
             if (StringTemplateMap.TryGetValue(stringId, out var strText))
@@ -506,10 +493,38 @@ namespace Server_Console.Database_Tool
             }
             return "Unknown";
         }
-
-        public static List<string> GetMatchingItems(string searchTerm)
+        public static string CombineStringsWithSpaces(params (Func<int, string> getStringMethod, int id)[] stringSources)
         {
-            return string.IsNullOrEmpty(searchTerm) ? CombinedIndex.Keys.ToList() : CombinedIndex.Keys.Where(entry => entry.Contains(searchTerm, StringComparison.OrdinalIgnoreCase)).ToList();
+            string space = " ";
+            if (Config.NeedBoldTextLanguages.Contains(Config.CurrentLanguage))
+                space = "";
+
+            string result = "";
+
+            foreach (var (getStringMethod, id) in stringSources)
+                result += getStringMethod(id) + space;
+
+            if (result.EndsWith(space))
+                result = result.Substring(0, result.Length - space.Length);
+
+            return result;
+        }
+
+        public static string CombineStringsWithSpaces(Func<int, string> getStringByIdMethod, params int[] ids)
+        {
+            string space = " ";
+            if (Config.NeedBoldTextLanguages.Contains(Config.CurrentLanguage))
+                space = "";
+
+            string result = "";
+
+            foreach (var id in ids)
+                result += getStringByIdMethod(id) + space;
+
+            if (result.EndsWith(space))
+                result = result.Substring(0, result.Length - space.Length);
+
+            return result;
         }
 
         public static string GetFilePath(string relativePath)
@@ -902,6 +917,10 @@ namespace Server_Console.Database_Tool
         public int Tier { get; set; }
         public int Grade { get; set; }
         public int TradeType { get; set; }
+        public override string ToString()
+        {
+            return $"{ItemID};{FileManager.GetStringTemplateById(NameSid)}" ?? string.Empty;
+        }
     }
 
     public class MoneyData

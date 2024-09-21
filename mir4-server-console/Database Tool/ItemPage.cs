@@ -1,283 +1,505 @@
-﻿using System.Reflection;
+﻿using System;
+using System.Collections.Generic;
+using System.Drawing;
+using System.Linq;
+using System.Windows.Forms;
 
 namespace Server_Console.Database_Tool
 {
-    public class ItemPage : TabPage
+    public static class ItemPage
     {
         private static void Log(string message) => DatabaseTool.Log(message);
+        private static string CurrentSearchItem = string.Empty;
 
-        public static ComboBox searchBox = new ComboBox();
-        private Button searchButton = new Button();
-        private PictureBox iconPictureBox = new PictureBox();
-        private TextBox resultTextBox = new TextBox();
-        private GroupBox searchGroupBox = new GroupBox();
-        private GroupBox iconGroupBox = new GroupBox();
-        private GroupBox resultGroupBox = new GroupBox();
+        public static TextBox? itemSearchTextBox;
+        private static ComboBox? tierComboBox;
+        private static ComboBox? classComboBox;
+        private static ComboBox? tradeComboBox;
+        private static GroupBox? searchGroupBox;
+        private static FlowLayoutPanel? iconFlowPanel;
+        private static FlowLayoutPanel? paginationPanel;
+        private static Button previousButton;
+        private static Button nextButton;
 
-        public ItemPage()
+        public static Dictionary<int, Bitmap> CachedItemIcons = new Dictionary<int, Bitmap>();
+        private const int MaxPageDisplay = 6;
+        private const int MaxIconsPerPage = 120;
+        private static int currentPage = 0;
+        private static int totalPages = 0;
+
+        private static Dictionary<string, int> ClassMapping;
+
+        private static readonly Dictionary<string, int> GradeMapping = new Dictionary<string, int>
         {
-            LoadData();
-        }
+            { "All", -1 },
+            { "Legendary", 5 },
+            { "Epic", 4 },
+            { "Rare", 3 },
+            { "Uncommon", 2 },
+            { "Common", 1 }
+        };
 
-        private void LoadData()
+        private static readonly Dictionary<string, int> TradeTypeMapping = new Dictionary<string, int>
         {
-            InitializeComponent();
-            InitializeControls();
-            InitializeFormTitle();
-        }
+            { "All", -1 },
+            { "Trade", 1 },
+            { "Bind", 0 }
+        };
 
-        private void InitializeComponent()
+        public static void Initialize(TabControl tabControl)
         {
-            // PictureBox
-            ((System.ComponentModel.ISupportInitialize)iconPictureBox).BeginInit();
-            searchGroupBox.SuspendLayout();
-            iconGroupBox.SuspendLayout();
-            resultGroupBox.SuspendLayout();
-            SuspendLayout();
-
-            ConfigureSearchGroupBox();
-            ConfigureIconGroupBox();
-            ConfigureResultGroupBox();
-
-            Controls.Add(resultGroupBox);
-            Controls.Add(iconGroupBox);
-            Controls.Add(searchGroupBox);
-            Font = new Font("Segoe UI", 9F);
-
-            ((System.ComponentModel.ISupportInitialize)iconPictureBox).EndInit();
-            searchGroupBox.ResumeLayout(false);
-            searchGroupBox.PerformLayout();
-            iconGroupBox.ResumeLayout(false);
-            resultGroupBox.ResumeLayout(false);
-            resultGroupBox.PerformLayout();
-            ResumeLayout(false);
-            PerformLayout();
-        }
-
-        private void ConfigureSearchGroupBox()
-        {
-            searchGroupBox.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
-            searchGroupBox.BackColor = Color.White;
-            searchGroupBox.Controls.Add(searchBox);
-            searchGroupBox.Controls.Add(searchButton);
-            searchGroupBox.ForeColor = Color.Black;
-            searchGroupBox.Dock = DockStyle.Top;
-            searchGroupBox.Location = new Point(28, 55);
-            searchGroupBox.Name = "searchGroupBox";
-            searchGroupBox.Size = new Size(1400, 100);
-            searchGroupBox.TabIndex = 0;
-            searchGroupBox.TabStop = false;
-            searchGroupBox.Text = "Search";
-
-            // searchBox
-            searchBox.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
-            searchBox.BackColor = Color.White;
-            searchBox.ForeColor = Color.Black;
-            searchBox.Location = new Point(20, 40);
-            searchBox.Name = "searchBox";
-            searchBox.Size = new Size(1048, 33);
-            searchBox.TabIndex = 0;
-            searchBox.SelectedIndexChanged += searchBox_SelectedIndexChanged;
-            searchBox.TextChanged += searchBox_TextChanged;
-
-            // searchButton
-            searchButton.Anchor = AnchorStyles.Top | AnchorStyles.Right;
-            searchButton.BackColor = Color.White;
-            searchButton.ForeColor = Color.Black;
-            searchButton.Location = new Point(1097, 40);
-            searchButton.Name = "searchButton";
-            searchButton.Size = new Size(281, 32);
-            searchButton.TabIndex = 1;
-            searchButton.Text = "Search";
-            searchButton.UseVisualStyleBackColor = false;
-            searchButton.Click += SearchButton_Click;
-        }
-
-        private void ConfigureIconGroupBox()
-        {
-            iconGroupBox.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
-            iconGroupBox.BackColor = Color.White;
-            iconGroupBox.Controls.Add(iconPictureBox);
-            iconGroupBox.ForeColor = Color.Black;
-            iconGroupBox.Dock = DockStyle.Left;
-            iconGroupBox.Width = 300;
-            iconGroupBox.TabIndex = 1;
-            iconGroupBox.TabStop = false;
-            iconGroupBox.Text = "Icon";
-
-            // iconPictureBox
-            iconPictureBox.Location = new Point(20, 150);
-            iconPictureBox.Name = "iconPictureBox";
-            iconPictureBox.Size = new Size(256, 256);
-            iconPictureBox.SizeMode = PictureBoxSizeMode.Zoom;
-            iconPictureBox.TabIndex = 2;
-            iconPictureBox.TabStop = false;
-        }
-
-        private void ConfigureResultGroupBox()
-        {
-            resultGroupBox.BackColor = Color.White;
-            resultGroupBox.Controls.Add(resultTextBox);
-            resultGroupBox.ForeColor = Color.Black;
-            resultGroupBox.Dock = DockStyle.Fill;
-            resultGroupBox.TabIndex = 2;
-            resultGroupBox.TabStop = false;
-            resultGroupBox.Text = "Detail";
-
-            // resultTextBox
-            resultTextBox.BackColor = Color.White;
-            resultTextBox.ForeColor = Color.Black;
-            resultTextBox.Dock = DockStyle.Fill;
-            resultTextBox.Multiline = true;
-            resultTextBox.ReadOnly = true;
-            resultTextBox.ScrollBars = ScrollBars.Vertical;
-            resultTextBox.TabIndex = 4;
-        }
-
-        private async void InitializeControls()
-        {
-            await Task.Delay(1000);
-            InitializeComponent();
-        }
-
-        private void InitializeFormTitle()
-        {
-            string version = Assembly.GetExecutingAssembly()
-                                  .GetCustomAttribute<AssemblyInformationalVersionAttribute>()?
-                                  .InformationalVersion ?? "0.0.0";
-            string author = Assembly.GetExecutingAssembly()
-                                  .GetCustomAttributes<AssemblyMetadataAttribute>()
-                                  .FirstOrDefault(a => a.Key == "Authors")?
-                                  .Value ?? "Sumiao";
-            this.Text = $"Mir4Tool v{version} [By {author}]";
-        }
-
-        public static void LoadComboBox()
-        {
-            var matchingItems = FileManager.GetMatchingItems("");
-
-            if (searchBox.InvokeRequired)
+            InitializeClassMapping();
+            var tabPage = new TabPage
             {
-                searchBox.Invoke(new Action(() =>
-                {
-                    UpdateComboBox(matchingItems);
-                }));
-            }
-            else
+                Name = "ItemPage",
+                Padding = new Padding(3),
+                Size = new Size(1400, 600),
+                TabIndex = 1,
+                Text = FileManager.GetStringMessageById(1300055),
+                UseVisualStyleBackColor = true,
+                Location = new Point(4, 34)
+            };
+
+            InitializeComponent(tabPage);
+            tabControl.Controls.Add(tabPage);
+        }
+
+        private static void InitializeClassMapping()
+        {
+            ClassMapping = new Dictionary<string, int> { { "All", -1 } };
+
+            foreach (var avatar in Config.avatarPaths)
             {
-                UpdateComboBox(matchingItems);
+                string className = FileManager.GetStringTemplateById(avatar.Value.StringId);
+                ClassMapping.Add(className, avatar.Key);
             }
         }
 
-        private static void UpdateComboBox(List<string> matchingItems)
+        private static void InitializeComponent(TabPage tabPage)
         {
-            searchBox.BeginUpdate();
-            searchBox.Items.Clear();
+            int mainWindowWidth = tabPage.Width;
 
-            var sortedItems = matchingItems.OrderBy(item => item).ToList();
-            searchBox.Items.AddRange(sortedItems.ToArray());
+            searchGroupBox = new GroupBox
+            {
+                Text = FileManager.GetStringTemplateById(5100001),
+                Font = new Font("Segoe UI", 9F),
+                ForeColor = Color.Black,
+                BackColor = Color.White,
+                Padding = new Padding(10),
+                Dock = DockStyle.Top,
+                Width = mainWindowWidth,
+                Height = 100
+            };
 
-            searchBox.SelectedIndex = -1;
-            searchBox.EndUpdate();
+            int padding = mainWindowWidth / 70;
+            iconFlowPanel = new FlowLayoutPanel
+            {
+                Dock = DockStyle.Fill,
+                AutoScroll = true,
+                WrapContents = true,
+                Padding = new Padding(padding, padding, padding, padding),
+                BackColor = Color.White,
+                FlowDirection = FlowDirection.LeftToRight,
+            };
+
+            paginationPanel = new FlowLayoutPanel
+            {
+                Dock = DockStyle.Bottom,
+                FlowDirection = FlowDirection.LeftToRight,
+                AutoSize = true,
+                Padding = new Padding(10)
+            };
+
+            InitializeSearchGroupBox(mainWindowWidth);
+            tabPage.Controls.Add(iconFlowPanel);
+            tabPage.Controls.Add(searchGroupBox);
+            tabPage.Controls.Add(paginationPanel);
         }
 
-        private void DisplayItemData(ItemData itemData)
+        private static void InitializeSearchGroupBox(int mainWindowWidth)
         {
-            resultTextBox.Clear();
+            int startX = 20;
+            int startY = 30;
+            int padding = 5;
+            int labelComboSpacing = 2;
+            int controlSpacing = 10;
 
-            resultTextBox.AppendText($"Name : {FileManager.StringTemplateMap[itemData.NameSid]?.Text ?? "N/A"}\r\n");
-            resultTextBox.AppendText($"Note : {FileManager.StringTemplateMap[itemData.NoteSid]?.Text ?? "N/A"}\r\n");
-
-            foreach (var property in typeof(ItemData).GetProperties(BindingFlags.Public | BindingFlags.Instance))
+            string searchLabelText = $"{FileManager.GetStringMessageById(1063853)}:";
+            Label searchLabel = new Label
             {
-                if (property.Name == "NameSid" || property.Name == "NoteSid") continue;
+                Text = searchLabelText,
+                Location = new Point(startX, startY),
+                Width = TextRenderer.MeasureText(searchLabelText, new Font("Segoe UI", 9F)).Width
+            };
 
-                var value = property.GetValue(itemData);
-                resultTextBox.AppendText($"{property.Name} : {value}\r\n");
+            itemSearchTextBox = new TextBox
+            {
+                Font = new Font("Segoe UI", 9F),
+                ForeColor = Color.Black,
+                Location = new Point(startX + searchLabel.Width + labelComboSpacing, startY - padding / 2),
+                Width = Math.Max(0, mainWindowWidth - startX * 2 - searchLabel.Width - labelComboSpacing),
+                Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right,
+                Text = string.Empty
+            };
+
+            itemSearchTextBox.TextChanged += (s, e) =>
+            {
+                currentPage = 0;
+                UpdateIcons();
+            };
+
+            startY += itemSearchTextBox.Height + padding;
+
+            string tierLabelText = $"{FileManager.GetStringMessageById(1099065)}:";
+            Label tierLabel = new Label
+            {
+                Text = tierLabelText,
+                Location = new Point(startX, startY),
+                Width = TextRenderer.MeasureText(tierLabelText, new Font("Segoe UI", 9F)).Width
+            };
+
+            tierComboBox = new ComboBox
+            {
+                Font = new Font("Segoe UI", 9F),
+                ForeColor = Color.Black,
+                Location = new Point(startX + tierLabel.Width + labelComboSpacing, startY - padding / 2),
+                Width = 200,
+                DropDownStyle = ComboBoxStyle.DropDownList,
+                Anchor = AnchorStyles.Top | AnchorStyles.Left
+            };
+            foreach (var tier in GradeMapping.Keys)
+            {
+                tierComboBox.Items.Add(tier);
             }
-
-            ImageProcessor.SetIconInPictureBox(itemData.Icon, itemData.Grade, itemData.Tier, itemData.TradeType, iconPictureBox);
-
-            resultTextBox.SelectionStart = 0;
-            resultTextBox.ScrollToCaret();
-        }
-
-        private string lastText = string.Empty;
-
-        private void searchBox_TextChanged(object sender, EventArgs e)
-        {
-            if (searchBox.SelectedIndex == -1)
+            tierComboBox.SelectedIndex = 0;
+            tierComboBox.SelectedIndexChanged += (s, e) =>
             {
-                lastText = searchBox.Text;
+                currentPage = 0;
+                UpdateIcons();
+            };
 
-                string txt = searchBox.Text;
-                var matches = FileManager.GetMatchingItems(txt);
+            int classStartX = startX + tierLabel.Width + labelComboSpacing + tierComboBox.Width + controlSpacing;
 
-                searchBox.BeginUpdate();
-                searchBox.Items.Clear();
+            string classLabelText = $"{FileManager.GetStringMessageById(1102030)}:";
+            Label classLabel = new Label
+            {
+                Text = classLabelText,
+                Location = new Point(classStartX, startY),
+                Width = TextRenderer.MeasureText(classLabelText, new Font("Segoe UI", 9F)).Width
+            };
 
-                if (matches.Count > 0)
-                {
-                    var sortedItems = matches.OrderBy(item => item);
-                    searchBox.Items.AddRange(sortedItems.ToArray());
-                    searchBox.DroppedDown = true;
-                    searchBox.Text = lastText;
-                    searchBox.SelectionStart = searchBox.Text.Length;
-                    Cursor = Cursors.Default;
-                }
-                else
-                {
-                    searchBox.DroppedDown = false;
-                }
-
-                searchBox.Select(txt.Length, 0);
-                searchBox.EndUpdate();
+            classComboBox = new ComboBox
+            {
+                Font = new Font("Segoe UI", 9F),
+                ForeColor = Color.Black,
+                Location = new Point(classStartX + classLabel.Width + labelComboSpacing, startY - padding / 2),
+                Width = 200,
+                DropDownStyle = ComboBoxStyle.DropDownList,
+                Anchor = AnchorStyles.Top | AnchorStyles.Left
+            };
+            foreach (var cls in ClassMapping.Keys)
+            {
+                classComboBox.Items.Add(cls);
             }
-        }
-
-        private void searchBox_DropDown(object sender, EventArgs e)
-        {
-            searchBox.Text = lastText;
-            searchBox.SelectionStart = searchBox.Text.Length;
-        }
-
-        private void searchBox_SelectedIndexChanged(object sender, EventArgs e)
-        {
-            if (searchBox.SelectedIndex != -1)
+            classComboBox.SelectedIndex = 0;
+            classComboBox.SelectedIndexChanged += (s, e) =>
             {
-                searchBox.Text = searchBox.SelectedItem.ToString();
-                searchBox.DroppedDown = false;
-            }
+                currentPage = 0;
+                UpdateIcons();
+            };
+
+            int tradeStartX = classStartX + classLabel.Width + labelComboSpacing + classComboBox.Width + controlSpacing;
+
+            string tradeLabelText = $"{FileManager.GetStringMessageById(1012041)}:";
+            Label tradeLabel = new Label
+            {
+                Text = tradeLabelText,
+                Location = new Point(tradeStartX, startY),
+                Width = TextRenderer.MeasureText(tradeLabelText, new Font("Segoe UI", 9F)).Width
+            };
+
+            tradeComboBox = new ComboBox
+            {
+                Font = new Font("Segoe UI", 9F),
+                ForeColor = Color.Black,
+                Location = new Point(tradeStartX + tradeLabel.Width + labelComboSpacing, startY - padding / 2),
+                Width = 200,
+                DropDownStyle = ComboBoxStyle.DropDownList,
+                Anchor = AnchorStyles.Top | AnchorStyles.Left
+            };
+
+            foreach (var trade in TradeTypeMapping.Keys)
+                tradeComboBox.Items.Add(trade);
+
+            tradeComboBox.SelectedIndex = 0;
+            tradeComboBox.SelectedIndexChanged += (s, e) =>
+            {
+                currentPage = 0;
+                UpdateIcons();
+            };
+
+            searchGroupBox.Controls.Add(searchLabel);
+            searchGroupBox.Controls.Add(itemSearchTextBox);
+            searchGroupBox.Controls.Add(tierLabel);
+            searchGroupBox.Controls.Add(tierComboBox);
+            searchGroupBox.Controls.Add(classLabel);
+            searchGroupBox.Controls.Add(classComboBox);
+            searchGroupBox.Controls.Add(tradeLabel);
+            searchGroupBox.Controls.Add(tradeComboBox);
         }
 
-        private void SearchButton_Click(object sender, EventArgs e)
+        private static void ChangePage(int direction, int totalFilteredItems)
         {
-            string searchTerm = searchBox.Text.Trim();
+            currentPage += direction;
 
-            if (string.IsNullOrEmpty(searchTerm))
+            if (currentPage < 0)
+                currentPage = 0;
+            else if (currentPage >= totalPages)
+                currentPage = totalPages - 1;
+
+            UpdatePageButtons(totalFilteredItems);
+            UpdateIcons();
+        }
+
+        private static void UpdatePageButtons(int totalFilteredItems)
+        {
+            if (paginationPanel.InvokeRequired)
             {
-                Log("Please enter a valid value.");
+                paginationPanel.Invoke(new Action<int>(UpdatePageButtons), totalFilteredItems);
                 return;
             }
 
-            Log($"Searching: {searchTerm}");
+            totalPages = (int)Math.Ceiling((double)totalFilteredItems / MaxIconsPerPage);
+            paginationPanel.Controls.Clear();
 
-            try
+            int buttonWidth = 100;
+            int totalButtons = Math.Min(totalPages, MaxPageDisplay);
+            int additionalButtons = 0;
+
+            if (totalPages > MaxPageDisplay)
+                additionalButtons = 2;
+
+            if (currentPage == 0)
+                additionalButtons--;
+
+            if (currentPage == totalPages - 1)
+                additionalButtons--;
+
+            int buttonsTotalWidth = (totalButtons + additionalButtons) * buttonWidth;
+            int startX = (paginationPanel.Width - buttonsTotalWidth) / 2;
+
+            paginationPanel.Padding = new Padding(Math.Max(startX, 0), 0, 0, 0);
+
+            if (currentPage > 0)
             {
-                if (FileManager.CombinedIndex.TryGetValue(searchTerm, out var itemData))
+                previousButton = new Button
                 {
-                    Log($"Item found: {itemData.ItemID}");
-                    DisplayItemData(itemData);
+                    Text = FileManager.GetStringMessageById(1058037),
+                    AutoSize = true
+                };
+                previousButton.Click += (s, e) => ChangePage(-1, totalFilteredItems);
+                paginationPanel.Controls.Add(previousButton);
+            }
+
+            int startPage, endPage;
+
+            if (totalPages <= MaxPageDisplay)
+            {
+                startPage = 0;
+                endPage = totalPages - 1;
+            }
+            else
+            {
+                if (currentPage < 3)
+                {
+                    startPage = 0;
+                    endPage = MaxPageDisplay - 1;
+                }
+                else if (currentPage >= totalPages - 3)
+                {
+                    startPage = totalPages - MaxPageDisplay;
+                    endPage = totalPages - 1;
                 }
                 else
                 {
-                    Log($"Error: The given value '{searchTerm}' was not found.");
+                    startPage = currentPage - 2;
+                    endPage = currentPage + 2;
+                }
+
+                if (startPage > 0)
+                {
+                    AddPageButton(0, totalFilteredItems);
+                    if (startPage > 1)
+                    {
+                        paginationPanel.Controls.Add(new Label { Text = "...", AutoSize = true });
+                    }
                 }
             }
-            catch (Exception ex)
+
+            for (int i = startPage; i <= endPage; i++)
+                AddPageButton(i, totalFilteredItems);
+
+            if (endPage < totalPages - 1)
             {
-                Log($"Error: {ex.Message}");
+                if (endPage < totalPages - 2)
+                    paginationPanel.Controls.Add(new Label { Text = "...", AutoSize = true });
+
+                AddPageButton(totalPages - 1, totalFilteredItems);
             }
+
+            if (currentPage < totalPages - 1)
+            {
+                nextButton = new Button
+                {
+                    Text = FileManager.GetStringMessageById(1058038),
+                    AutoSize = true
+                };
+                nextButton.Click += (s, e) => ChangePage(1, totalFilteredItems);
+                paginationPanel.Controls.Add(nextButton);
+            }
+        }
+
+        private static void AddPageButton(int pageIndex, int totalFilteredItems)
+        {
+            Button pageButton = new Button
+            {
+                Text = (pageIndex + 1).ToString(),
+                Tag = pageIndex,
+                Enabled = pageIndex != currentPage,
+                AutoSize = true
+            };
+
+            pageButton.Click += (s, e) =>
+            {
+                currentPage = (int)((Button)s).Tag;
+                UpdatePageButtons(totalFilteredItems);
+                UpdateIcons();
+            };
+
+            paginationPanel.Controls.Add(pageButton);
+        }
+
+        public static async Task LoadData()
+        {
+            if (Config.IsNewVersionDetected("Assets/Json/ITEM.json", "ItemHash", Config.iconCacheFileName))
+            {
+                Log("Loading icon assets ..");
+                await LoadAndSaveAssets();
+                Config.SaveCacheData(Config.iconCacheFileName, CachedItemIcons);
+            }
+            else
+            {
+                Log("Loading icon cached assets ..");
+                Config.LoadCacheData(Config.iconCacheFileName);
+            }
+
+            var matchingItems = FileManager.ItemMap.Values.ToList();
+            UpdateIcons();
+            UpdatePageButtons(matchingItems.Count);
+            Log("Loaded icon cached data.");
+        }
+
+        public static async Task LoadAndSaveAssets()
+        {
+            var tasks = FileManager.ItemMap.Values.Select(item => Task.Run(() =>
+            {
+                Bitmap? iconBitmap = ImageProcessor.GetIcon(item.Icon, item.Grade, item.Tier, item.TradeType);
+                if (iconBitmap != null)
+                {
+                    lock (CachedItemIcons)
+                        CachedItemIcons[item.ItemID] = iconBitmap;
+                }
+            })).ToList();
+
+            await Task.WhenAll(tasks);
+
+            int failedCount = FileManager.ItemMap.Count - CachedItemIcons.Count;
+            Log($"Loaded item icons. [Success: {CachedItemIcons.Count} Failed: {failedCount}]");
+        }
+
+        private static async Task DisplaySearchResultsAsync(List<ItemData> items)
+        {
+            if (iconFlowPanel == null) return;
+
+            iconFlowPanel.Controls.Clear();
+
+            var pagedItems = items.Skip(currentPage * MaxIconsPerPage).Take(MaxIconsPerPage).ToList();
+
+            var tasks = pagedItems.Select(item => Task.Run(() =>
+            {
+                if (item == null || !CachedItemIcons.ContainsKey(item.ItemID))
+                    return null;
+
+                var pb = new PictureBox
+                {
+                    Size = new Size(100, 100),
+                    Margin = new Padding(3),
+                    SizeMode = PictureBoxSizeMode.Zoom,
+                    Cursor = Cursors.Hand,
+                    Tag = item
+                };
+
+                pb.Image = CachedItemIcons[item.ItemID];
+                pb.Click += IconPictureBox_Click;
+
+                return pb;
+            }));
+
+            var pictureBoxes = await Task.WhenAll(tasks);
+            iconFlowPanel.Controls.AddRange(pictureBoxes.Where(pb => pb != null).ToArray());
+        }
+
+        private static void IconPictureBox_Click(object sender, EventArgs e)
+        {
+            if (sender is PictureBox pb && pb.Tag is ItemData itemData)
+            {
+                ItemDetailForm.ShowItemDetails(itemData);
+            }
+        }
+
+        public static void LoadItemData()
+        {
+            if (itemSearchTextBox == null)
+                return;
+
+            if (itemSearchTextBox.InvokeRequired)
+            {
+                itemSearchTextBox.Invoke(new Action(LoadItemData));
+            }
+            else
+            {
+                itemSearchTextBox.Text = string.Empty;
+                itemSearchTextBox.Focus();
+            }
+        }
+
+        private static void UpdateIcons()
+        {
+            if (itemSearchTextBox == null || tierComboBox == null || classComboBox == null || tradeComboBox == null)
+                return;
+
+            if (itemSearchTextBox.InvokeRequired)
+            {
+                itemSearchTextBox.Invoke(new Action(UpdateIcons));
+                return;
+            }
+
+            string searchTerm = itemSearchTextBox?.Text ?? string.Empty;
+            var selectedGrade = GradeMapping[tierComboBox.SelectedItem.ToString()];
+            var selectedClass = ClassMapping[classComboBox.SelectedItem.ToString()];
+            var selectedTrade = TradeTypeMapping[tradeComboBox.SelectedItem.ToString()];
+
+            var matchingItems = FileManager.ItemMap.Values
+                .Where(itemData =>
+                    itemData.ToString().Contains(searchTerm, StringComparison.OrdinalIgnoreCase) &&
+                    (selectedGrade == -1 || itemData.Grade == selectedGrade) &&
+                    (selectedClass == -1 || itemData.ClassId == selectedClass) &&
+                    (selectedTrade == -1 || itemData.TradeType == selectedTrade))
+                .ToList();
+
+            int totalFilteredItems = matchingItems.Count;
+            UpdatePageButtons(totalFilteredItems);
+            DisplaySearchResultsAsync(matchingItems);
         }
     }
 }

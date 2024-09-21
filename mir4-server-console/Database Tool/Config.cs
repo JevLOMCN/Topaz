@@ -2,6 +2,7 @@
 using System.Runtime.Serialization.Formatters.Binary;
 using System.Security.Cryptography;
 using System.Text;
+using System.Windows.Forms.Design;
 
 namespace Server_Console.Database_Tool
 {
@@ -11,7 +12,8 @@ namespace Server_Console.Database_Tool
         public static Cursor customCursor;
         public static string CurrentLanguage { get; set; } = "ENG";
         public const string AESKey = "0xAD768F68B8795A776100525791F675E15341D565D9AB4B4B74C95F31B03310F3";
-        public static string cacheFileName = "maps.dat";
+        public static string mapCacheFileName = "maps.dat";
+        public static string iconCacheFileName = "icons.dat";
         public static string? worldMapDefaultResource;
 
         public const int playerDataAutoRefreshInterval = 60;
@@ -122,6 +124,7 @@ namespace Server_Console.Database_Tool
             public Dictionary<int, Bitmap> CachedBitmaps { get; set; }
             public Dictionary<int, Bitmap> CachedMapItems { get; set; }
             public Dictionary<int, List<(RectangleF areaRect, int mapId)>> MapClickAreas { get; set; }
+            public Dictionary<int, Bitmap> CachedItemIcons { get; set; }
         }
 
         public static HashSet<string> NeedBoldTextLanguages = new HashSet<string>
@@ -209,6 +212,16 @@ namespace Server_Console.Database_Tool
             return retVal.ToString();
         }
 
+        private static string ComputeFileHash(string filePath)
+        {
+            using (SHA256 sha256 = SHA256.Create())
+            {
+                byte[] fileBytes = File.ReadAllBytes(filePath);
+                byte[] hashBytes = sha256.ComputeHash(fileBytes);
+                return BitConverter.ToString(hashBytes).Replace("-", "").ToLowerInvariant();
+            }
+        }
+
         public static string ComputeDirectoryHash(string directoryPath)
         {
             using (SHA256 sha256 = SHA256.Create())
@@ -227,32 +240,37 @@ namespace Server_Console.Database_Tool
             }
         }
 
-        public static bool IsNewVersionDetected()
+        public static bool IsNewVersionDetected(string fileName, string hashParam, string cacheFileName)
         {
             string iniFilePath = FileManager.GetFilePath("config.ini");
-            string assetsDirectoryPath = "Assets/Paks";
-            string currentHash = ComputeDirectoryHash(assetsDirectoryPath);
-
             var iniData = new Config(iniFilePath);
-            string cachedHash = iniData.Read("Settings", "PaksHash");
+            string currentHash;
+            string cachedHash;
+            string cacheFilePath;
+            bool isCacheFileExists;
 
-            string cacheFilePath = FileManager.GetFilePath(cacheFileName);
-            bool isCacheFileExists = File.Exists(cacheFilePath);
+            if (!string.IsNullOrEmpty(Path.GetExtension(fileName)))
+                currentHash = ComputeFileHash(fileName);
+            else
+                currentHash = ComputeDirectoryHash(fileName);
+
+            cachedHash = iniData.Read("Settings", hashParam);
+            cacheFilePath = FileManager.GetFilePath(cacheFileName);
+            isCacheFileExists = File.Exists(cacheFilePath);
 
             if (currentHash != cachedHash || !isCacheFileExists)
             {
-                iniData.Write("Settings", "PaksHash", currentHash);
+                iniData.Write("Settings", hashParam, currentHash);
                 return true;
             }
-
             return false;
         }
 
-        public static void SaveCacheData(Dictionary<int, Bitmap> cachedBitmaps, Dictionary<int, Bitmap> cachedMapItems, Dictionary<int, List<(RectangleF areaRect, int mapId)>> mapClickAreas)
+        public static void SaveCacheData(string cacheFileName, Dictionary<int, Bitmap> cachedBitmaps, Dictionary<int, Bitmap> cachedMapItems, Dictionary<int, List<(RectangleF areaRect, int mapId)>> mapClickAreas)
         {
             try
             {
-                string cacheFilePath = FileManager.GetFilePath(Config.cacheFileName);
+                string cacheFilePath = FileManager.GetFilePath(cacheFileName);
                 using (FileStream fs = new FileStream(cacheFilePath, FileMode.Create))
                 {
                     BinaryFormatter formatter = new BinaryFormatter();
@@ -266,7 +284,6 @@ namespace Server_Console.Database_Tool
 
                     formatter.Serialize(fs, cacheData);
                 }
-                Log("Cached data saved.");
             }
             catch (Exception ex)
             {
@@ -274,27 +291,63 @@ namespace Server_Console.Database_Tool
             }
         }
 
-        public static void LoadCacheData()
+        public static void SaveCacheData(string cacheFileName, Dictionary<int, Bitmap> cachedIconBitmaps)
         {
             try
             {
-                string cacheFilePath = FileManager.GetFilePath(Config.cacheFileName);
-                if (File.Exists(cacheFilePath))
+                string cacheFilePath = FileManager.GetFilePath(cacheFileName);
+                using (FileStream fs = new FileStream(cacheFilePath, FileMode.Create))
                 {
-                    using (FileStream fs = new FileStream(cacheFilePath, FileMode.Open))
-                    {
-                        BinaryFormatter formatter = new BinaryFormatter();
+                    BinaryFormatter formatter = new BinaryFormatter();
 
-                        var cacheData = (CacheData)formatter.Deserialize(fs);
-                        MapPage.CachedBitmaps = cacheData.CachedBitmaps;
-                        MapPage.CachedMapItems = cacheData.CachedMapItems;
-                        MapPage.mapClickAreas = cacheData.MapClickAreas;
-                    }
-                    Log("Loaded cached data.");
+                    CacheData cacheData = new CacheData
+                    {
+                        CachedItemIcons = cachedIconBitmaps,
+                    };
+
+                    formatter.Serialize(fs, cacheData);
                 }
-                else
+            }
+            catch (Exception ex)
+            {
+                Log($"Error saving cached data: {ex.Message}");
+            }
+        }
+
+        public static void LoadCacheData(string cacheFileName)
+        {
+            string cacheFilePath = FileManager.GetFilePath(cacheFileName);
+            if (!File.Exists(cacheFilePath)) return;
+
+            try
+            {
+                using (FileStream fs = new FileStream(cacheFilePath, FileMode.Open))
                 {
-                    Log("Cache file not found.");
+                    BinaryFormatter formatter = new BinaryFormatter();
+                    var cacheData = (CacheData)formatter.Deserialize(fs);
+
+                    var cacheHandlers = new Dictionary<string, Action<CacheData>>
+                    {
+                        { 
+                            mapCacheFileName, data =>
+                            {
+                                MapPage.CachedBitmaps = data.CachedBitmaps;
+                                MapPage.CachedMapItems = data.CachedMapItems;
+                                MapPage.mapClickAreas = data.MapClickAreas;
+                            }
+                        },
+                        { 
+                            iconCacheFileName, data =>
+                            {
+                                ItemPage.CachedItemIcons = data.CachedItemIcons;
+                            }
+                        }
+                    };
+
+                    if (cacheHandlers.TryGetValue(cacheFileName, out var handler))
+                        handler(cacheData);
+                    else
+                        Log($"No handler for cache file: {cacheFileName}");
                 }
             }
             catch (Exception ex)
@@ -303,7 +356,7 @@ namespace Server_Console.Database_Tool
             }
         }
 
-        public static void ClearCacheData()
+        public static void ClearCacheData(string cacheFileName)
         {
             try
             {
