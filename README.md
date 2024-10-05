@@ -166,7 +166,7 @@ Plugin List - [DOWNLOAD](https://mirfiles.com/resources/mir2/users/Jev/Mir%204/M
 
 > [Client (TO COME)]()
 >
-> [PAK Tools](https://mirfiles.co.uk/resources/mir2/users/Jev/Mir%204/PakTools/PAK%20Tools.rar)
+> [PAK Tools](https://www.lomcn.net/forum/threads/client-export-edit-repak.111971/)
 ---------------------------------------------------------------------------
 # LOMCN Links:
 
@@ -180,19 +180,45 @@ Plugin List - [DOWNLOAD](https://mirfiles.com/resources/mir2/users/Jev/Mir%204/M
 >
 > [Updates](https://www.lomcn.net/forum/forums/topaz-mir-4-updates.851/)
 ---------------------------------------------------------------------------
+# Dev Team:
+
+[Jev](https://www.lomcn.net/forum/members/jev.29880/)
+
+[REDACTED](REDACTED) (Redacted for now)
+
+[REDACTED](REDACTED) (Redacted for now)
+
+[REDACTED](REDACTED) (Redacted for now)
+
+[REDACTED](REDACTED) (Redacted for now)
+
+[Wagner](https://www.lomcn.net/forum/members/estregoik.45841/)
+
+[Nyyl](https://www.lomcn.net/forum/members/nyylxd.42262/)
+
+[S4oul](https://github.com/s4oul)
+
 # Contributors:
 
-> [Nyyl](https://www.lomcn.net/forum/members/nyylxd.42262/) - Sourcing Clients/APIs/Tools
+> [Netskee](https://www.lomcn.net/forum/members/netskee.19772/) - Graphic Design
 >
 > [Firev2 (AboveYou)](https://www.lomcn.net/forum/members/aboveyou.45200/) - Sourcing Clients/Server Side JSONs
 >
-> [Mental](https://www.lomcn.net/forum/members/mental.3870/) - Outsourcing contacts
+> [Mental](https://www.lomcn.net/forum/members/mental.3870/) - Outsourcing contacts/Sponsorship/Advertisement
 >
 > [Gurgel](https://www.lomcn.net/forum/members/gurgell.45127/) - Art/Videos/Graphics
 >
 > [carolyangbb](https://www.lomcn.net/forum/members/yangboy.45108/) - GVAS Logic/Bot sourcing
 >
 > [Treffy](https://www.mir4tools.com/) - Mir4Tools/Bot Collab
+>
+> [Sumiao]() - Server Console (Map/Item/Monster Intergration)
+>
+> [S4oul](https://github.com/s4oul) - C++
+>
+> [cmb](https://forum.ragezone.com/members/cmb.330743/) - C++
+>
+> [Hells](https://www.lomcn.net/forum/members/hells.7536/) - Outsourcing developers
 >
 > [Community Contributors](https://github.com/JevLOMCN/mir4-launcher/graphs/contributors)
 ---------------------------------------------------------------------------
