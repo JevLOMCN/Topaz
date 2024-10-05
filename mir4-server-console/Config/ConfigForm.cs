@@ -93,7 +93,7 @@ namespace Server_Console.Config
                 MakeDumpBox.Text = jsonObject["chatting_server_info"]["make_dump"].ToString();
                 DumpSPathBox.Text = jsonObject["chatting_server_info"]["dump_server_path"].ToString();
                 DumpPathBox.Text = jsonObject["chatting_server_info"]["dump_path"].ToString();
-                AMsgBox.Text = jsonObject["chatting_server_info"]["assert_messagebox"].ToString();
+                //AMsgBox.Text = jsonObject["chatting_server_info"]["assert_messagebox"].ToString();
             }
             catch (Exception ex)
             {
@@ -153,7 +153,7 @@ namespace Server_Console.Config
                 GAMEMakeDumpBox.Text = jsonObject["game_server_info"]["make_dump"].ToString();
                 GAMEDumpServerPathBox.Text = jsonObject["game_server_info"]["dump_server_path"].ToString();
                 GAMEDumpPathBox.Text = jsonObject["game_server_info"]["dump_path"].ToString();
-                GAMEAssertBox.Text = jsonObject["game_server_info"]["assert_messagebox"].ToString();
+                //GAMEAssertBox.Text = jsonObject["game_server_info"]["assert_messagebox"].ToString();
             }
             catch (Exception ex)
             {
@@ -190,7 +190,7 @@ namespace Server_Console.Config
                 GatewayMakeDump.Text = jsonObject["gateway_server_info"]["make_dump"].ToString();
                 GatewayServerPath.Text = jsonObject["gateway_server_info"]["dump_server_path"].ToString();
                 GatewayPath.Text = jsonObject["gateway_server_info"]["dump_path"].ToString();
-                GatewayAMessageBox.Text = jsonObject["gateway_server_info"]["assert_messagebox"].ToString();
+                //GatewayAMessageBox.Text = jsonObject["gateway_server_info"]["assert_messagebox"].ToString();
             }
             catch (Exception ex)
             {
@@ -228,7 +228,7 @@ namespace Server_Console.Config
                 WorldDump.Text = jsonObject["world_server_info"]["make_dump"].ToString();
                 WorldServerPath.Text = jsonObject["world_server_info"]["dump_server_path"].ToString();
                 WorldDumpPath.Text = jsonObject["world_server_info"]["dump_path"].ToString();
-                WorldAMessagebox.Text = jsonObject["world_server_info"]["assert_messagebox"].ToString();
+                //WorldAMessagebox.Text = jsonObject["world_server_info"]["assert_messagebox"].ToString();
                 WorldIP.Text = jsonObject["front_db_info"]["ip"].ToString();
                 WorldPort1.Text = jsonObject["front_db_info"]["port"].ToString();
                 WorldUser.Text = jsonObject["front_db_info"]["user"].ToString();

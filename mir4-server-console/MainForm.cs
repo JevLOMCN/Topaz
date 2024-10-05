@@ -4,11 +4,13 @@ using Server_Console.Database_Tool;
 using Server_Console.Logs;
 using System.Data;
 using System.Diagnostics;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement.Window;
 
 namespace Server_Console
 {
     public partial class MainForm : Form
     {
+        private Point offset;
         public MainForm()
         {
             InitializeComponent();
@@ -18,21 +20,23 @@ namespace Server_Console
             ExeCheckTimer.Tick += ExeCheckTimer_Tick;
             ExeCheckTimer.Start();
 
-            //CheckServerStatus();
+            CheckServerStatus();
+
+            HomePanel.BringToFront();
         }
 
-        #region Server Checking
+        #region Server Checking //Done
         private void ExeCheckTimer_Tick(object sender, EventArgs e)
         {
-            //CheckServerStatus();
+            CheckServerStatus();
         }
         private void CheckServerStatus()
         {
-            CheckExecutableStatus("Servers", "World", "WorldServer", WorldButton, Properties.Resources.WorldOn, Properties.Resources.WorldOff);
-            CheckExecutableStatus("Servers", "Gateway", "GatewayServer", GatewayButton, Properties.Resources.GatewayOn, Properties.Resources.GatewayOff);
-            CheckExecutableStatus("Servers", "Game", "GameServer", GameButton, Properties.Resources.GameOn, Properties.Resources.GameOff);
-            CheckExecutableStatus("Servers", "Front", "FrontServer", FrontButton, Properties.Resources.FrontOn, Properties.Resources.FrontOff);
-            CheckExecutableStatus("Servers", "Chatting", "ChattingServer", ChattingButton, Properties.Resources.ChatOn, Properties.Resources.ChatOff);
+            CheckExecutableStatus("Servers", "World", "WorldServer", WorldButton, Properties.Resources.world_, Properties.Resources.world);
+            CheckExecutableStatus("Servers", "Gateway", "GatewayServer", GatewayButton, Properties.Resources.gateway_, Properties.Resources.gateway);
+            CheckExecutableStatus("Servers", "Game", "GameServer", GameButton, Properties.Resources.game_, Properties.Resources.game);
+            CheckExecutableStatus("Servers", "Front", "FrontServer", FrontButton, Properties.Resources.front_, Properties.Resources.front);
+            CheckExecutableStatus("Servers", "Chatting", "ChattingServer", ChattingButton, Properties.Resources.chatting_, Properties.Resources.chatting);
         }
 
         private void CheckExecutableStatus(string serversBasePath, string serverFolder, string executableName, PictureBox pictureBox, Image runningImage, Image stoppedImage)
@@ -55,12 +59,12 @@ namespace Server_Console
             }
             else
             {
-                MessageBox.Show($"{executableName}.exe not found.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                //MessageBox.Show($"{executableName}.exe not found.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
         #endregion
 
-        #region Launching
+        #region Launching //Done
         private void LaunchServer(string serverExeName)
         {
             // Determine the server folder based on the serverExeName
@@ -142,26 +146,14 @@ namespace Server_Console
         }
         #endregion
 
-        #region CloseButton
+        #region CloseButton //Done
         private void CloseButton_Click(object sender, EventArgs e)
         {
             this.Close(); // Close the form
         }
-        private void CloseButton_MouseHover(object sender, EventArgs e)
-        {
-            Cursor = Cursors.Hand;
-
-            // Create a tooltip instance
-            ToolTip toolTip = new ToolTip();
-
-            // Set up tooltip text for CloseButton
-            toolTip.SetToolTip(CloseButton, "Close");
-
-            Cursor = Cursors.Hand;
-        }
         #endregion
 
-        #region Server Launch Buttons
+        #region Server Launch Buttons //Done
 
         private void StartAllButton_Click(object sender, EventArgs e)
         {
@@ -217,19 +209,19 @@ namespace Server_Console
         #endregion
 
         #region Forms
-        private void JSONImage_Click(object sender, EventArgs e)
+        private void JSONButton_Click(object sender, EventArgs e) //Done
         {
             // Show JSONForm when JSONImage is clicked
             JSONForm jsonForm = new JSONForm();
             jsonForm.Show();
         }
-        private void LogsImage_Click(object sender, EventArgs e)
+        private void LogsButton_Click(object sender, EventArgs e) //Done
         {
             // Show LogForm when LogsImage is clicked
             LogForm logForm = new LogForm();
             logForm.Show();
         }
-        private void DatabaseImage_Click(object sender, EventArgs e)
+        private void DatabaseButton_Click(object sender, EventArgs e)
         {
             // Create an instance of DatabaseForm
             DatabaseForm databaseForm = new DatabaseForm();
@@ -237,7 +229,7 @@ namespace Server_Console
             // Show the DatabaseForm
             databaseForm.Show();
         }
-        private void ConfigImage_Click(object sender, EventArgs e)
+        private void ConfigButton_Click(object sender, EventArgs e) //Done
         {
             // Create an instance of ConfigForm
             ConfigForm configForm = new ConfigForm();
@@ -245,7 +237,109 @@ namespace Server_Console
             // Show the ConfigForm
             configForm.Show();
         }
-        private void DatabaseToolImage_Click(object sender, EventArgs e)
+        #endregion
+
+        #region Logo Click //Done
+        private void LOMCNLogo_Click(object sender, EventArgs e)
+        {
+            string url = "https://LOMCN.net/";
+            Process.Start(new ProcessStartInfo(url) { UseShellExecute = true });
+        }
+        private void RZLogo_Click(object sender, EventArgs e)
+        {
+            string url = "https://forum.ragezone.com/";
+            Process.Start(new ProcessStartInfo(url) { UseShellExecute = true });
+        }
+        #endregion
+
+        #region Stop Servers Button //Done (Tweak batch)
+        private void StopAllButton_Click(object sender, EventArgs e)
+        {
+            string baseDirectory = AppDomain.CurrentDomain.BaseDirectory;
+            string batchFilePath = Path.Combine(baseDirectory, "Servers", "stop_servers.bat");
+
+            if (File.Exists(batchFilePath))
+            {
+                try
+                {
+                    ProcessStartInfo startInfo = new ProcessStartInfo(batchFilePath)
+                    {
+                        UseShellExecute = true,
+                        WorkingDirectory = Path.GetDirectoryName(batchFilePath)
+                    };
+                    Process.Start(startInfo);
+
+                    // Show message that servers are closed
+                    MessageBox.Show("Servers Closed", "Information", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                }
+                catch (Exception ex)
+                {
+                    // Show error message in case of failure
+                    MessageBox.Show($"Failed to stop servers. Error: {ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
+            }
+            else
+            {
+                // Show error message if the batch file is not found
+                MessageBox.Show($"Batch file not found at: {batchFilePath}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+        }
+
+        #endregion
+
+        #region Dragable Form
+        private void MainForm_MouseDown(object sender, MouseEventArgs e)
+        {
+            if (e.Button == MouseButtons.Left)
+            {
+                // Capture the offset between the mouse cursor and the form's location
+                offset = new Point(e.X, e.Y);
+            }
+        }
+
+        private void MainForm_MouseMove(object sender, MouseEventArgs e)
+        {
+            if (e.Button == MouseButtons.Left)
+            {
+                // Calculate the new location of the form based on the offset
+                Point newLocation = this.PointToScreen(new Point(e.X, e.Y));
+                newLocation.Offset(-offset.X, -offset.Y);
+
+                // Set the new location of the form
+                this.Location = newLocation;
+            }
+        }
+        #endregion
+
+        #region TEMP DB BUTTONS
+        private void MapsButton_Click(object sender, EventArgs e)
+        {
+            // Create an instance of the DatabaseTool form
+            DatabaseTool databaseToolForm = new DatabaseTool();
+
+            // Show the DatabaseTool form
+            databaseToolForm.Show();
+        }
+
+        private void ItemsButton_Click(object sender, EventArgs e)
+        {
+            // Create an instance of the DatabaseTool form
+            DatabaseTool databaseToolForm = new DatabaseTool();
+
+            // Show the DatabaseTool form
+            databaseToolForm.Show();
+        }
+
+        private void MonstersButton_Click(object sender, EventArgs e)
+        {
+            // Create an instance of the DatabaseTool form
+            DatabaseTool databaseToolForm = new DatabaseTool();
+
+            // Show the DatabaseTool form
+            databaseToolForm.Show();
+        }
+
+        private void CommandsButton_Click(object sender, EventArgs e)
         {
             // Create an instance of the DatabaseTool form
             DatabaseTool databaseToolForm = new DatabaseTool();
@@ -256,110 +350,105 @@ namespace Server_Console
 
         #endregion
 
-        #region Logo
-        private void Logo_Click(object sender, EventArgs e)
+        #region Button Hover Images
+        private void StartAllButton_MouseEnter(object sender, EventArgs e)
         {
-            // Specify the URL you want to open
-            string url = "https://thelegendofmir.uk/";
+            StartAllButton.Image = Properties.Resources.Start_server_h;
+        }
 
-            // Open the URL in the default web browser
-            Process.Start(new ProcessStartInfo(url) { UseShellExecute = true });
-        }
-        #endregion
-
-        #region Cursors
-
-        private void Logo_MouseHover(object sender, EventArgs e)
-        {
-            Cursor = Cursors.Hand;
-        }
-        private void DatabaseImage_MouseHover(object sender, EventArgs e)
-        {
-            Cursor = Cursors.Hand;
-        }
-        private void ConfigImage_MouseHover(object sender, EventArgs e)
-        {
-            Cursor = Cursors.Hand;
-        }
-        private void LogsImage_MouseHover(object sender, EventArgs e)
-        {
-            Cursor = Cursors.Hand;
-        }
-        private void JSONImage_MouseHover(object sender, EventArgs e)
-        {
-            Cursor = Cursors.Hand;
-        }
-        private void StartAllButton_MouseHover(object sender, EventArgs e)
-        {
-            Cursor = Cursors.Hand;
-        }
-        private void WorldButton_MouseHover(object sender, EventArgs e)
-        {
-            Cursor = Cursors.Hand;
-        }
-        private void GatewayButton_MouseHover(object sender, EventArgs e)
-        {
-            Cursor = Cursors.Hand;
-        }
-        private void GameButton_MouseHover(object sender, EventArgs e)
-        {
-            Cursor = Cursors.Hand;
-        }
-        private void FrontButton_MouseHover(object sender, EventArgs e)
-        {
-            Cursor = Cursors.Hand;
-        }
-        private void ChattingButton_MouseHover(object sender, EventArgs e)
-        {
-            Cursor = Cursors.Hand;
-        }
-        private void Logo_MouseLeave(object sender, EventArgs e)
-        {
-            Cursor = Cursors.Default;
-        }
-        private void CloseButton_MouseLeave(object sender, EventArgs e)
-        {
-            Cursor = Cursors.Hand;
-        }
         private void StartAllButton_MouseLeave(object sender, EventArgs e)
         {
-            Cursor = Cursors.Default;
+            StartAllButton.Image = Properties.Resources.Start_server;
         }
-        private void DatabaseImage_MouseLeave(object sender, EventArgs e)
+
+        private void StopAllButton_MouseEnter(object sender, EventArgs e)
         {
-            Cursor = Cursors.Default;
+            StopAllButton.Image = Properties.Resources.stop_server_h;
         }
-        private void WorldButton_MouseLeave(object sender, EventArgs e)
+
+        private void StopAllButton_MouseLeave(object sender, EventArgs e)
         {
-            Cursor = Cursors.Default;
+            StopAllButton.Image = Properties.Resources.stop_server;
         }
-        private void GatewayButton_MouseLeave(object sender, EventArgs e)
+
+        private void ConfigButton_MouseEnter(object sender, EventArgs e)
         {
-            Cursor = Cursors.Default;
+            ConfigButton.Image = Properties.Resources.config_h;
         }
-        private void GameButton_MouseLeave(object sender, EventArgs e)
+
+        private void ConfigButton_MouseLeave(object sender, EventArgs e)
         {
-            Cursor = Cursors.Default;
+            ConfigButton.Image = Properties.Resources.config;
         }
-        private void FrontButton_MouseLeave(object sender, EventArgs e)
+
+        private void LogsButton_MouseEnter(object sender, EventArgs e)
         {
-            Cursor = Cursors.Default;
+            LogsButton.Image = Properties.Resources.log_h;
         }
-        private void ChattingButton_MouseLeave(object sender, EventArgs e)
+
+        private void LogsButton_MouseLeave(object sender, EventArgs e)
         {
-            Cursor = Cursors.Default;
+            LogsButton.Image = Properties.Resources.log;
         }
-        private void ConfigImage_MouseLeave(object sender, EventArgs e)
+
+        private void JSONButton_MouseEnter(object sender, EventArgs e)
         {
-            Cursor = Cursors.Default;
+            JSONButton.Image = Properties.Resources.json_h;
         }
-        private void LogsImage_MouseLeave(object sender, EventArgs e)
+
+        private void JSONButton_MouseLeave(object sender, EventArgs e)
         {
-            Cursor = Cursors.Default;
+            JSONButton.Image = Properties.Resources.json;
         }
-        private void JSONImage_MouseLeave(object sender, EventArgs e)
+
+        private void DatabaseButton_MouseEnter(object sender, EventArgs e)
         {
-            Cursor = Cursors.Default;
+            DatabaseButton.Image = Properties.Resources.sql_h;
+        }
+
+        private void DatabaseButton_MouseLeave(object sender, EventArgs e)
+        {
+            DatabaseButton.Image = Properties.Resources.sql_;
+        }
+
+        private void MapsButton_MouseEnter(object sender, EventArgs e)
+        {
+            MapsButton.Image = Properties.Resources.maps_h;
+        }
+
+        private void MapsButton_MouseLeave(object sender, EventArgs e)
+        {
+            MapsButton.Image = Properties.Resources.maps;
+        }
+
+        private void ItemsButton_MouseEnter(object sender, EventArgs e)
+        {
+            ItemsButton.Image = Properties.Resources.items_h;
+        }
+
+        private void ItemsButton_MouseLeave(object sender, EventArgs e)
+        {
+            ItemsButton.Image = Properties.Resources.items;
+        }
+
+        private void MonstersButton_MouseEnter(object sender, EventArgs e)
+        {
+            MonstersButton.Image = Properties.Resources.monsters_h;
+        }
+
+        private void MonstersButton_MouseLeave(object sender, EventArgs e)
+        {
+            MonstersButton.Image = Properties.Resources.monsters;
+        }
+
+        private void CommandsButton_MouseEnter(object sender, EventArgs e)
+        {
+            CommandsButton.Image = Properties.Resources.commands_h;
+        }
+
+        private void CommandsButton_MouseLeave(object sender, EventArgs e)
+        {
+            CommandsButton.Image = Properties.Resources.commands;
         }
         #endregion
     }

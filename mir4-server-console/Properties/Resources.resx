@@ -118,64 +118,106 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="JSON" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\JSON.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="ChatOff" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\ChatOff.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Start_All" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Start_All.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="GameOff" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\GameOff.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Off_All" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Off_All.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="FrontOff" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\FrontOff.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Logo" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Logo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="GatewayOn" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\GatewayOn.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="FrontOn" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\FrontOn.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="WorldOn" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\WorldOn.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="WorldOff" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\WorldOff.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="ChatOn" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\ChatOn.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="GameOn" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\GameOn.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="Close" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Close.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Wallpaper" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Wallpaper.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Start server" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Start server.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Logs" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Logs.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="stop server" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\stop server.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="GatewayOff" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\GatewayOff.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="config" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\config1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Config" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Config.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="log" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\log.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Database" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Database.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="json" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\json1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Admin" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Admin.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="maps" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\maps.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="items" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\items.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="monsters" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\monsters.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="commands" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\commands.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="front" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\front.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="game" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\game.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="gateway" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\gateway.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="chatting" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\chatting.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="world" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\world.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="chatting_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\chatting_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="front_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\front_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="game_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\game_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="gateway_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\gateway_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="world_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\world_.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LOMCN" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\LOMCN.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="RageZone" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\RageZone.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Start server_h" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Start server_h.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="commands_h" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\commands_h.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="config_h" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\config_h.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="items_h" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\items_h.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="json_h" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\json_h.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="log_h" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\log_h.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="maps_h" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\maps_h.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="monsters_h" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\monsters_h.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sql_h" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\sql_h.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="stop server_h" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\stop server_h.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Main" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Main1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sql_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\sql_.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>
