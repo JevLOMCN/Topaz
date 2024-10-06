@@ -23,6 +23,14 @@ namespace Server_Console
             CheckServerStatus();
 
             HomePanel.BringToFront();
+
+            LoadImages();
+        }
+
+        private void LoadImages()
+        {
+            FrontButton.Image = Properties.Resources.front;
+            FrontButton.Tag = "front";
         }
 
         #region Server Checking //Done
@@ -237,6 +245,14 @@ namespace Server_Console
             // Show the ConfigForm
             configForm.Show();
         }
+        private void SettingsButton_Click(object sender, EventArgs e)
+        {
+            // Create an instance of SettingsForm
+            SettingsForm settingsForm = new SettingsForm();
+
+            // Show the SettingsForm
+            settingsForm.Show();
+        }
         #endregion
 
         #region Logo Click //Done
@@ -351,6 +367,8 @@ namespace Server_Console
         #endregion
 
         #region Button Hover Images
+
+        #region Main
         private void StartAllButton_MouseEnter(object sender, EventArgs e)
         {
             StartAllButton.Image = Properties.Resources.Start_server_h;
@@ -410,7 +428,9 @@ namespace Server_Console
         {
             DatabaseButton.Image = Properties.Resources.sql_;
         }
+        #endregion
 
+        #region Database
         private void MapsButton_MouseEnter(object sender, EventArgs e)
         {
             MapsButton.Image = Properties.Resources.maps_h;
@@ -451,5 +471,104 @@ namespace Server_Console
             CommandsButton.Image = Properties.Resources.commands;
         }
         #endregion
+
+        #region Settings
+        private void SettingsButton_MouseEnter(object sender, EventArgs e)
+        {
+            SettingsButton.Image = Properties.Resources.settings_h;
+        }
+
+        private void SettingsButton_MouseLeave(object sender, EventArgs e)
+        {
+            SettingsButton.Image = Properties.Resources.settings;
+        }
+        #endregion
+
+        #region Servers
+        private void FrontButton_MouseEnter(object sender, EventArgs e)
+        {
+            // Change to highlighted versions on MouseEnter
+            if (FrontButton.Image == Properties.Resources.front)
+            {
+                FrontButton.Image = Properties.Resources.front__h;
+            }
+            else if (FrontButton.Image == Properties.Resources.front_)
+            {
+                FrontButton.Image = Properties.Resources.front_h;
+            }
+        }
+
+        private void FrontButton_MouseLeave(object sender, EventArgs e)
+        {
+            // Revert to the original versions on MouseLeave
+            if (FrontButton.Image == Properties.Resources.front__h)
+            {
+                FrontButton.Image = Properties.Resources.front;
+            }
+            else if (FrontButton.Image == Properties.Resources.front_h)
+            {
+                FrontButton.Image = Properties.Resources.front_;
+            }
+        }
+
+        private void GameButton_MouseEnter(object sender, EventArgs e)
+        {
+            // Change to highlighted versions on MouseEnter
+            if (GameButton.Image == Properties.Resources.game)
+            {
+                GameButton.Image = Properties.Resources.game__h;
+            }
+            else if (GameButton.Image == Properties.Resources.game_)
+            {
+                GameButton.Image = Properties.Resources.game_h;
+            }
+        }
+
+        private void GameButton_MouseLeave(object sender, EventArgs e)
+        {
+            // Revert to the original versions on MouseLeave
+            if (GameButton.Image == Properties.Resources.game__h)
+            {
+                GameButton.Image = Properties.Resources.game;
+            }
+            else if (GameButton.Image == Properties.Resources.game_h)
+            {
+                GameButton.Image = Properties.Resources.game_;
+            }
+        }
+
+        private void GatewayButton_MouseEnter(object sender, EventArgs e)
+        {
+
+        }
+
+        private void GatewayButton_MouseLeave(object sender, EventArgs e)
+        {
+
+        }
+
+        private void ChattingButton_MouseEnter(object sender, EventArgs e)
+        {
+
+        }
+
+        private void ChattingButton_MouseLeave(object sender, EventArgs e)
+        {
+
+        }
+
+        private void WorldButton_MouseEnter(object sender, EventArgs e)
+        {
+
+        }
+
+        private void WorldButton_MouseLeave(object sender, EventArgs e)
+        {
+
+        }
+        #endregion
+
+        #endregion
+
     }
 }

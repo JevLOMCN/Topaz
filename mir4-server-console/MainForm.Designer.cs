@@ -50,6 +50,7 @@
             LOMCNLogo = new PictureBox();
             RZLogo = new PictureBox();
             DatabaseButton = new PictureBox();
+            SettingsButton = new PictureBox();
             ((System.ComponentModel.ISupportInitialize)CloseButton).BeginInit();
             ((System.ComponentModel.ISupportInitialize)StartAllButton).BeginInit();
             ((System.ComponentModel.ISupportInitialize)StopAllButton).BeginInit();
@@ -68,6 +69,7 @@
             ((System.ComponentModel.ISupportInitialize)LOMCNLogo).BeginInit();
             ((System.ComponentModel.ISupportInitialize)RZLogo).BeginInit();
             ((System.ComponentModel.ISupportInitialize)DatabaseButton).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)SettingsButton).BeginInit();
             SuspendLayout();
             // 
             // CloseButton
@@ -77,7 +79,7 @@
             CloseButton.Image = Properties.Resources.Close;
             CloseButton.Location = new Point(1336, 0);
             CloseButton.Name = "CloseButton";
-            CloseButton.Size = new Size(28, 28);
+            CloseButton.Size = new Size(29, 29);
             CloseButton.TabIndex = 0;
             CloseButton.TabStop = false;
             CloseButton.Click += CloseButton_Click;
@@ -86,7 +88,7 @@
             // 
             StartAllButton.BackColor = Color.Transparent;
             StartAllButton.Image = Properties.Resources.Start_server;
-            StartAllButton.Location = new Point(1, 29);
+            StartAllButton.Location = new Point(1, 73);
             StartAllButton.Name = "StartAllButton";
             StartAllButton.Size = new Size(188, 34);
             StartAllButton.TabIndex = 1;
@@ -99,7 +101,7 @@
             // 
             StopAllButton.BackColor = Color.Transparent;
             StopAllButton.Image = Properties.Resources.stop_server;
-            StopAllButton.Location = new Point(1, 65);
+            StopAllButton.Location = new Point(1, 109);
             StopAllButton.Name = "StopAllButton";
             StopAllButton.Size = new Size(188, 34);
             StopAllButton.TabIndex = 2;
@@ -112,7 +114,7 @@
             // 
             ConfigButton.BackColor = Color.Transparent;
             ConfigButton.Image = Properties.Resources.config;
-            ConfigButton.Location = new Point(1, 102);
+            ConfigButton.Location = new Point(1, 146);
             ConfigButton.Name = "ConfigButton";
             ConfigButton.Size = new Size(188, 34);
             ConfigButton.TabIndex = 3;
@@ -125,7 +127,7 @@
             // 
             LogsButton.BackColor = Color.Transparent;
             LogsButton.Image = Properties.Resources.log;
-            LogsButton.Location = new Point(1, 139);
+            LogsButton.Location = new Point(1, 183);
             LogsButton.Name = "LogsButton";
             LogsButton.Size = new Size(188, 34);
             LogsButton.TabIndex = 4;
@@ -138,7 +140,7 @@
             // 
             JSONButton.BackColor = Color.Transparent;
             JSONButton.Image = Properties.Resources.json;
-            JSONButton.Location = new Point(1, 175);
+            JSONButton.Location = new Point(1, 219);
             JSONButton.Name = "JSONButton";
             JSONButton.Size = new Size(188, 34);
             JSONButton.TabIndex = 5;
@@ -151,7 +153,7 @@
             // 
             CommandsButton.BackColor = Color.Transparent;
             CommandsButton.Image = Properties.Resources.commands;
-            CommandsButton.Location = new Point(1, 394);
+            CommandsButton.Location = new Point(1, 438);
             CommandsButton.Name = "CommandsButton";
             CommandsButton.Size = new Size(188, 34);
             CommandsButton.TabIndex = 9;
@@ -164,7 +166,7 @@
             // 
             MonstersButton.BackColor = Color.Transparent;
             MonstersButton.Image = Properties.Resources.monsters;
-            MonstersButton.Location = new Point(1, 360);
+            MonstersButton.Location = new Point(1, 404);
             MonstersButton.Name = "MonstersButton";
             MonstersButton.Size = new Size(188, 34);
             MonstersButton.TabIndex = 8;
@@ -177,7 +179,7 @@
             // 
             ItemsButton.BackColor = Color.Transparent;
             ItemsButton.Image = Properties.Resources.items;
-            ItemsButton.Location = new Point(1, 325);
+            ItemsButton.Location = new Point(1, 369);
             ItemsButton.Name = "ItemsButton";
             ItemsButton.Size = new Size(188, 34);
             ItemsButton.TabIndex = 7;
@@ -190,7 +192,7 @@
             // 
             MapsButton.BackColor = Color.Transparent;
             MapsButton.Image = Properties.Resources.maps;
-            MapsButton.Location = new Point(1, 290);
+            MapsButton.Location = new Point(1, 334);
             MapsButton.Name = "MapsButton";
             MapsButton.Size = new Size(188, 34);
             MapsButton.TabIndex = 6;
@@ -203,64 +205,74 @@
             // 
             ChattingButton.BackColor = Color.Transparent;
             ChattingButton.Image = Properties.Resources.chatting;
-            ChattingButton.Location = new Point(1, 585);
+            ChattingButton.Location = new Point(1, 629);
             ChattingButton.Name = "ChattingButton";
             ChattingButton.Size = new Size(188, 34);
             ChattingButton.TabIndex = 13;
             ChattingButton.TabStop = false;
             ChattingButton.Click += ChattingButton_Click;
+            ChattingButton.MouseEnter += ChattingButton_MouseEnter;
+            ChattingButton.MouseLeave += ChattingButton_MouseLeave;
             // 
             // GatewayButton
             // 
             GatewayButton.BackColor = Color.Transparent;
             GatewayButton.Image = Properties.Resources.gateway;
-            GatewayButton.Location = new Point(1, 551);
+            GatewayButton.Location = new Point(1, 595);
             GatewayButton.Name = "GatewayButton";
             GatewayButton.Size = new Size(188, 34);
             GatewayButton.TabIndex = 12;
             GatewayButton.TabStop = false;
             GatewayButton.Click += GatewayButton_Click;
+            GatewayButton.MouseEnter += GatewayButton_MouseEnter;
+            GatewayButton.MouseLeave += GatewayButton_MouseLeave;
             // 
             // GameButton
             // 
             GameButton.BackColor = Color.Transparent;
             GameButton.Image = Properties.Resources.game;
-            GameButton.Location = new Point(1, 516);
+            GameButton.Location = new Point(1, 560);
             GameButton.Name = "GameButton";
             GameButton.Size = new Size(188, 34);
             GameButton.TabIndex = 11;
             GameButton.TabStop = false;
             GameButton.Click += GameButton_Click;
+            GameButton.MouseEnter += GameButton_MouseEnter;
+            GameButton.MouseLeave += GameButton_MouseLeave;
             // 
             // FrontButton
             // 
             FrontButton.BackColor = Color.Transparent;
             FrontButton.Image = Properties.Resources.front;
-            FrontButton.Location = new Point(1, 481);
+            FrontButton.Location = new Point(1, 525);
             FrontButton.Name = "FrontButton";
             FrontButton.Size = new Size(188, 34);
             FrontButton.TabIndex = 10;
             FrontButton.TabStop = false;
             FrontButton.Click += FrontButton_Click;
+            FrontButton.MouseEnter += FrontButton_MouseEnter;
+            FrontButton.MouseLeave += FrontButton_MouseLeave;
             // 
             // WorldButton
             // 
             WorldButton.BackColor = Color.Transparent;
             WorldButton.Image = Properties.Resources.world;
-            WorldButton.Location = new Point(1, 618);
+            WorldButton.Location = new Point(1, 662);
             WorldButton.Name = "WorldButton";
             WorldButton.Size = new Size(188, 34);
             WorldButton.TabIndex = 14;
             WorldButton.TabStop = false;
             WorldButton.Click += WorldButton_Click;
+            WorldButton.MouseEnter += WorldButton_MouseEnter;
+            WorldButton.MouseLeave += WorldButton_MouseLeave;
             // 
             // HomePanel
             // 
             HomePanel.BackColor = Color.Transparent;
             HomePanel.ForeColor = Color.White;
-            HomePanel.Location = new Point(195, 29);
+            HomePanel.Location = new Point(195, 39);
             HomePanel.Name = "HomePanel";
-            HomePanel.Size = new Size(802, 740);
+            HomePanel.Size = new Size(903, 730);
             HomePanel.TabIndex = 15;
             // 
             // LOMCNLogo
@@ -289,7 +301,7 @@
             // 
             DatabaseButton.BackColor = Color.Transparent;
             DatabaseButton.Image = Properties.Resources.sql_;
-            DatabaseButton.Location = new Point(1, 211);
+            DatabaseButton.Location = new Point(1, 255);
             DatabaseButton.Name = "DatabaseButton";
             DatabaseButton.Size = new Size(188, 34);
             DatabaseButton.TabIndex = 18;
@@ -297,6 +309,19 @@
             DatabaseButton.Click += DatabaseButton_Click;
             DatabaseButton.MouseEnter += DatabaseButton_MouseEnter;
             DatabaseButton.MouseLeave += DatabaseButton_MouseLeave;
+            // 
+            // SettingsButton
+            // 
+            SettingsButton.BackColor = Color.Transparent;
+            SettingsButton.Image = Properties.Resources.settings;
+            SettingsButton.Location = new Point(1, 732);
+            SettingsButton.Name = "SettingsButton";
+            SettingsButton.Size = new Size(188, 34);
+            SettingsButton.TabIndex = 19;
+            SettingsButton.TabStop = false;
+            SettingsButton.Click += SettingsButton_Click;
+            SettingsButton.MouseEnter += SettingsButton_MouseEnter;
+            SettingsButton.MouseLeave += SettingsButton_MouseLeave;
             // 
             // MainForm
             // 
@@ -307,6 +332,7 @@
             BackgroundImageLayout = ImageLayout.Stretch;
             ClientSize = new Size(1366, 768);
             ControlBox = false;
+            Controls.Add(SettingsButton);
             Controls.Add(DatabaseButton);
             Controls.Add(RZLogo);
             Controls.Add(LOMCNLogo);
@@ -356,6 +382,7 @@
             ((System.ComponentModel.ISupportInitialize)LOMCNLogo).EndInit();
             ((System.ComponentModel.ISupportInitialize)RZLogo).EndInit();
             ((System.ComponentModel.ISupportInitialize)DatabaseButton).EndInit();
+            ((System.ComponentModel.ISupportInitialize)SettingsButton).EndInit();
             ResumeLayout(false);
         }
 
@@ -380,5 +407,6 @@
         private PictureBox LOMCNLogo;
         private PictureBox RZLogo;
         private PictureBox DatabaseButton;
+        private PictureBox SettingsButton;
     }
 }
