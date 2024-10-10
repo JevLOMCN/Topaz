@@ -234,3 +234,9 @@ Plugin List - [DOWNLOAD](https://mirfiles.com/resources/mir2/users/Jev/Mir%204/M
 > [Mir 3](https://github.com/Suprcode/Zircon)
 >
 > [Mir 3D (Moon Spirit)](https://github.com/mir-ethernity/mir-eternal) | [Mir 3D (Holy Cow)](https://github.com/damianday/Conquer)
+
+# Sponsored By:
+
+> [RageZone](https://forum.ragezone.com/)
+> 
+> [LOMCN](https://www.lomcn.net/)
