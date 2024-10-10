@@ -185,21 +185,21 @@ Plugin List - [DOWNLOAD](https://mirfiles.com/resources/mir2/users/Jev/Mir%204/M
 ---------------------------------------------------------------------------
 # Dev Team:
 
-[Jev](https://www.lomcn.net/forum/members/jev.29880/)
-
-[REDACTED](REDACTED) (Redacted for now)
-
-[REDACTED](REDACTED) (Redacted for now)
-
-[REDACTED](REDACTED) (Redacted for now)
-
-[REDACTED](REDACTED) (Redacted for now)
-
-[Wagner](https://www.lomcn.net/forum/members/estregoik.45841/)
-
-[Nyyl](https://www.lomcn.net/forum/members/nyylxd.42262/)
-
-[S4oul](https://github.com/s4oul)
+> [Jev](https://www.lomcn.net/forum/members/jev.29880/)
+>
+> [REDACTED](REDACTED) (Redacted for now)
+>
+> [REDACTED](REDACTED) (Redacted for now)
+>
+> [REDACTED](REDACTED) (Redacted for now)
+>
+> [REDACTED](REDACTED) (Redacted for now)
+>
+> [Wagner](https://www.lomcn.net/forum/members/estregoik.45841/)
+>
+> [Nyyl](https://www.lomcn.net/forum/members/nyylxd.42262/)
+>
+> [S4oul](https://github.com/s4oul)
 
 # Contributors:
 
