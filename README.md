@@ -37,7 +37,7 @@
 >
 > [Couchbase Community 7.2](https://docs.couchbase.com/server/current/install/install-linux.html)
 >
-> [Memurai(Latest)](https://www.memurai.com/get-memurai)
+> [Memurai](https://www.memurai.com/get-memurai)
 
  ## Website (Optional)
 > [CPanel](https://cpanel.net/)
