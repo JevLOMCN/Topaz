@@ -27,7 +27,7 @@
 >
 > [Couchbase Community 7.2](https://packages.couchbase.com/releases/7.2.0/couchbase-server-enterprise_7.2.0-windows_amd64.msi)
 >
-> [Redis 7.2(Latest)](https://github.com/redis/redis/archive/7.2.4.tar.gz)
+> [Memurai](https://www.memurai.com/get-memurai)
 
 ## Servers - Linux
  ### Linux
@@ -37,7 +37,7 @@
 >
 > [Couchbase Community 7.2](https://docs.couchbase.com/server/current/install/install-linux.html)
 >
-> [Redis 7.2(Latest)](https://redis.io/docs/latest/operate/oss_and_stack/install/install-redis/install-redis-on-linux/)
+> [Memurai(Latest)](https://www.memurai.com/get-memurai)
 
  ## Website (Optional)
 > [CPanel](https://cpanel.net/)
