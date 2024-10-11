@@ -51,7 +51,8 @@
             InfoImage = new PictureBox();
             ProcessCheckTimer = new System.Windows.Forms.Timer(components);
             backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
-            WebView = new Microsoft.Web.WebView2.WinForms.WebView2();
+            BannerPanel = new Panel();
+            ImageSlider = new PictureBox();
             ((System.ComponentModel.ISupportInitialize)BoxImage).BeginInit();
             ((System.ComponentModel.ISupportInitialize)CommunityImage).BeginInit();
             ((System.ComponentModel.ISupportInitialize)SettingsBox).BeginInit();
@@ -61,7 +62,8 @@
             ((System.ComponentModel.ISupportInitialize)GameStartButton2).BeginInit();
             ((System.ComponentModel.ISupportInitialize)ProgressBarImage).BeginInit();
             ((System.ComponentModel.ISupportInitialize)InfoImage).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)WebView).BeginInit();
+            BannerPanel.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)ImageSlider).BeginInit();
             SuspendLayout();
             // 
             // TOPAZLABEL
@@ -94,9 +96,9 @@
             LOMCNCoLabel.ForeColor = Color.DimGray;
             LOMCNCoLabel.Location = new Point(416, 599);
             LOMCNCoLabel.Name = "LOMCNCoLabel";
-            LOMCNCoLabel.Size = new Size(210, 15);
+            LOMCNCoLabel.Size = new Size(209, 15);
             LOMCNCoLabel.TabIndex = 4;
-            LOMCNCoLabel.Text = "© MIR 4 Co., LTD. All rights reserved.";
+            LOMCNCoLabel.Text = "© Topaz Co., LTD. All rights reserved.";
             LOMCNCoLabel.Click += LOMCNCoLabel_Click;
             // 
             // CommunityImage
@@ -292,16 +294,22 @@
             // 
             ProcessCheckTimer.Tick += ProcessCheckTimer_Tick;
             // 
-            // WebView
+            // BannerPanel
             // 
-            WebView.AllowExternalDrop = true;
-            WebView.CreationProperties = null;
-            WebView.DefaultBackgroundColor = Color.White;
-            WebView.Location = new Point(0, 40);
-            WebView.Name = "WebView";
-            WebView.Size = new Size(1026, 439);
-            WebView.TabIndex = 22;
-            WebView.ZoomFactor = 1D;
+            BannerPanel.Controls.Add(ImageSlider);
+            BannerPanel.Location = new Point(0, 40);
+            BannerPanel.Name = "BannerPanel";
+            BannerPanel.Size = new Size(1025, 432);
+            BannerPanel.TabIndex = 22;
+            // 
+            // ImageSlider
+            // 
+            ImageSlider.Image = Properties.Resources._1;
+            ImageSlider.Location = new Point(1, 0);
+            ImageSlider.Name = "ImageSlider";
+            ImageSlider.Size = new Size(1026, 429);
+            ImageSlider.TabIndex = 0;
+            ImageSlider.TabStop = false;
             // 
             // Launcher
             // 
@@ -309,7 +317,7 @@
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.Black;
             ClientSize = new Size(1026, 623);
-            Controls.Add(WebView);
+            Controls.Add(BannerPanel);
             Controls.Add(InfoImage);
             Controls.Add(TimeLabel);
             Controls.Add(SpeedLabel);
@@ -346,7 +354,8 @@
             ((System.ComponentModel.ISupportInitialize)GameStartButton2).EndInit();
             ((System.ComponentModel.ISupportInitialize)ProgressBarImage).EndInit();
             ((System.ComponentModel.ISupportInitialize)InfoImage).EndInit();
-            ((System.ComponentModel.ISupportInitialize)WebView).EndInit();
+            BannerPanel.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)ImageSlider).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -381,6 +390,7 @@ After:
         private PictureBox InfoImage;
         private System.Windows.Forms.Timer ProcessCheckTimer;
         private System.ComponentModel.BackgroundWorker backgroundWorker1;
-        private Microsoft.Web.WebView2.WinForms.WebView2 WebView;
+        private Panel BannerPanel;
+        private PictureBox ImageSlider;
     }
 }

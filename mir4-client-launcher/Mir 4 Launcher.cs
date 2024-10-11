@@ -3,8 +3,6 @@ using System.Diagnostics;
 using System.Drawing;
 using System.IO;
 using System.Windows.Forms;
-using Microsoft.Web.WebView2.WinForms;
-using Microsoft.Web.WebView2.Wpf;
 
 namespace Mir_4_Launcher
 {
@@ -21,27 +19,7 @@ namespace Mir_4_Launcher
             InitializeComponent();
             UpdateVersionLabel();
             InitializeProcessCheckTimer();
-            _ = LoadWebsite(); // Call LoadWebsite() with the await operator
         }
-
-        #region WebView Website
-        private async Task LoadWebsite()
-        {
-            // Ensure the CoreWebView2 is initialized
-            await WebView.EnsureCoreWebView2Async(null);
-
-            // Check if CoreWebView2 is available
-            if (WebView.CoreWebView2 != null)
-            {
-                // Navigate to the GIF URL directly
-                WebView.CoreWebView2.Navigate("https://thelegendofmir.uk");
-            }
-            else
-            {
-                MessageBox.Show("Failed to initialize CoreWebView2.");
-            }
-        }
-        #endregion
 
         #region Close/Minimize Buttons
         private void CloseImage_Click(object sender, EventArgs e)
@@ -254,8 +232,8 @@ namespace Mir_4_Launcher
         #region Copyright Label
         private void LOMCNCoLabel_Click(object sender, EventArgs e)
         {
-            if (LOMCNCoLabel.Text == "© MIR 4 Co., LTD. All rights reserved.") LOMCNCoLabel.Text = "Designed by Jev";
-            else LOMCNCoLabel.Text = "© MIR 4 Co., LTD. All rights reserved.";
+            if (LOMCNCoLabel.Text == "© Topaz Co., LTD. All rights reserved.") LOMCNCoLabel.Text = "Designed by Jev";
+            else LOMCNCoLabel.Text = "© Topaz Co., LTD. All rights reserved.";
         }
         #endregion
 
