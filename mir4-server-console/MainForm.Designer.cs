@@ -278,7 +278,6 @@
             // LOMCNLogo
             // 
             LOMCNLogo.BackColor = Color.Transparent;
-            LOMCNLogo.Image = Properties.Resources.LOMCN;
             LOMCNLogo.Location = new Point(1186, 712);
             LOMCNLogo.Name = "LOMCNLogo";
             LOMCNLogo.Size = new Size(177, 54);
@@ -289,8 +288,7 @@
             // RZLogo
             // 
             RZLogo.BackColor = Color.Transparent;
-            RZLogo.Image = Properties.Resources.RageZone;
-            RZLogo.Location = new Point(1220, 629);
+            RZLogo.Location = new Point(1254, 629);
             RZLogo.Name = "RZLogo";
             RZLogo.Size = new Size(100, 77);
             RZLogo.TabIndex = 17;
@@ -328,7 +326,7 @@
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.Black;
-            BackgroundImage = Properties.Resources.Main;
+            BackgroundImage = Properties.Resources.Woman_Main;
             BackgroundImageLayout = ImageLayout.Stretch;
             ClientSize = new Size(1366, 768);
             ControlBox = false;

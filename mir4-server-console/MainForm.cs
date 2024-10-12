@@ -14,7 +14,7 @@ namespace Server_Console
         public MainForm()
         {
             InitializeComponent();
-
+            LoadBackground();
             // Start a timer to periodically check the status every 5 seconds
             ExeCheckTimer.Interval = 5000; // 5 seconds
             ExeCheckTimer.Tick += ExeCheckTimer_Tick;
@@ -26,6 +26,57 @@ namespace Server_Console
 
             LoadImages();
         }
+        private void LoadBackground()
+        {
+            string settingsFile = Path.Combine(Application.StartupPath, "Settings.ini");
+            string backgroundImageName = "Water_Main"; // Default image name (without .png)
+
+            // Check if Settings.ini exists; if not, create it with default settings
+            if (!File.Exists(settingsFile))
+            {
+                // Create the file with a default Background setting
+                using (StreamWriter writer = new StreamWriter(settingsFile))
+                {
+                    writer.WriteLine("Background = " + backgroundImageName + ".png");
+                }
+            }
+            else
+            {
+                // Read all lines from Settings.ini
+                string[] lines = File.ReadAllLines(settingsFile);
+
+                // Loop through each line to find the Background setting
+                foreach (string line in lines)
+                {
+                    if (line.StartsWith("Background =", StringComparison.OrdinalIgnoreCase))
+                    {
+                        // Extract the image name without .png extension for resource loading
+                        backgroundImageName = line.Split('=')[1].Trim().Replace(".png", "");
+                        break;
+                    }
+                }
+            }
+
+            // Load the image from resources based on the name found
+            try
+            {
+                this.BackgroundImage = (Image)Properties.Resources.ResourceManager.GetObject(backgroundImageName);
+                if (this.BackgroundImage == null)
+                {
+                    // If the specified image doesn't exist, use the default image
+                    //this.BackgroundImage = Properties.Resources.Water_Main;
+                }
+            }
+            catch
+            {
+                // If any error occurs, load the default image
+                //this.BackgroundImage = Properties.Resources.Water_Main;
+            }
+        }
+
+
+
+
 
         private void LoadImages()
         {
