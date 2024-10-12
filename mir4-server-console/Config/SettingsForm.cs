@@ -116,7 +116,7 @@ namespace Server_Console.Config
         private void BackgroundHorn_Click(object sender, EventArgs e)
         {
             string settingsFile = Path.Combine(Application.StartupPath, "Settings.ini");
-            string newBackground = "Horn_guy_Main.png";
+            string newBackground = "Horn_Guy_Main.png";
 
             // Update or create Settings.ini with the new background setting
             using (StreamWriter writer = new StreamWriter(settingsFile))
