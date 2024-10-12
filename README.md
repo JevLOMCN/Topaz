@@ -1,6 +1,6 @@
 # Legend of Mir 4 Topaz - Official Source
 
-![image](https://github.com/user-attachments/assets/641220bf-5461-4469-91ef-ae9a0485686c)
+![image](https://github.com/user-attachments/assets/c5da7c0d-2ecb-40b3-90f5-20e91724d236)
 
 ![image](https://github.com/user-attachments/assets/69a6a5e0-d11d-4570-96c0-a5c9fa07b720)
 
