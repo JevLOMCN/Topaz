@@ -135,15 +135,17 @@ namespace Server_Console.Database_Tool
             "JPN",
         };
 
-        private static void Log(string message) => DatabaseTool.Log(message);
+        private static Guid _instanceId;
+        private static void Log(string message) => DatabaseTool.Log(_instanceId, message);
 
         public Config(string path)
         {
             _filePath = path;
         }
 
-        public static void Initialize()
+        public static void Initialize(Guid instanceId)
         {
+            _instanceId = instanceId;
             string iniFilePath = FileManager.GetFilePath("config.ini");
             try
             {

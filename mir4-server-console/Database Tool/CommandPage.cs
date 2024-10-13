@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Server_Console.Properties;
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
@@ -6,13 +7,22 @@ using System.Windows.Forms;
 
 namespace Server_Console.Database_Tool
 {
-    public class CommandPage : TabPage
+    public class CommandPage : Form
     {
         private static DataGridView CommandsGrid;
-        private static void Log(string message) => DatabaseTool.Log(message);
 
         public CommandPage()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(DatabaseTool));
+            this.BackColor = Color.White;
+            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleMode = AutoScaleMode.Font;
+            ClientSize = new Size(1400, 800);
+            Icon = (Icon)resources.GetObject("$this.Icon");
+            Name = "DatabaseTool";
+            Text = "DatabaseTool - Commands";
+            StartPosition = FormStartPosition.CenterScreen;
+
             InitializeComponent();
             Initialize();
         }

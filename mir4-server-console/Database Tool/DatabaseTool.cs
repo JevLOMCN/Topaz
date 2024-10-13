@@ -13,10 +13,23 @@ namespace Server_Console.Database_Tool
 {
     public partial class DatabaseTool : Form
     {
-        public DatabaseTool()
+        private PageType pageType;
+        public Guid instanceId;
+
+        public enum PageType
         {
-            Config.Initialize();
-            FileManager.PreInitialize();
+            Maps,
+            Items,
+            Monsters,
+            Commands
+        }
+
+        public DatabaseTool(PageType pageType)
+        {
+            this.pageType = pageType;
+            this.instanceId = Guid.NewGuid();
+            Config.Initialize(this.instanceId);
+            FileManager.PreInitialize(this.instanceId);
             InitializeComponent();
             this.Shown += new EventHandler(DatabaseTool_Shown);
         }
@@ -30,14 +43,14 @@ namespace Server_Console.Database_Tool
 
         private async void InitializeData()
         {
-            int totalSteps = 8;
+            int totalSteps = 4;
             int currentStep = 0;
 
             InitializeLanguageMenu();
             currentStep++;
             UpdateProgressBar((currentStep * 100) / totalSteps);
 
-            await Task.Run(() => ImageProcessor.Initialize());
+            await Task.Run(() => ImageProcessor.Initialize(this.instanceId));
             currentStep++;
             UpdateProgressBar((currentStep * 100) / totalSteps);
 
@@ -45,21 +58,19 @@ namespace Server_Console.Database_Tool
             currentStep++;
             UpdateProgressBar((currentStep * 100) / totalSteps);
 
-            await Task.Run(() => ItemPage.LoadData());
-            currentStep++;
-            UpdateProgressBar((currentStep * 100) / totalSteps);
-
-            await Task.Run(() => ItemDetailForm.Initialize());
-            currentStep++;
-            UpdateProgressBar((currentStep * 100) / totalSteps);
-
-            await Task.Run(() => MapPage.LoadData());
-            currentStep++;
-            UpdateProgressBar((currentStep * 100) / totalSteps);
-
-            await Task.Run(() => CommandPage.Initialize());
-            currentStep++;
-            UpdateProgressBar((currentStep * 100) / totalSteps);
+            if (pageType == PageType.Maps)
+            {
+                await Task.Run(() => MapPage.LoadData());
+                currentStep++;
+                UpdateProgressBar((currentStep * 100) / totalSteps);
+            }
+            else if (pageType == PageType.Items)
+            {
+                await Task.Run(() => ItemPage.LoadData());
+                await Task.Run(() => ItemDetailForm.Initialize(this.instanceId));
+                currentStep++;
+                UpdateProgressBar((currentStep * 100) / totalSteps);
+            }
 
             await Task.Delay(1000);
 
@@ -103,7 +114,6 @@ namespace Server_Console.Database_Tool
         private void DatabaseTool_Load(object sender, EventArgs e)
         {
             EnsureDataFolderExists();
-            UpdateTabItemSize();
         }
 
         private void LanguageMenuItem_Click(object? sender, EventArgs e)
@@ -120,7 +130,7 @@ namespace Server_Console.Database_Tool
                     Config.SaveLanguageSetting();
                     Config.ClearCacheData(Config.mapCacheFileName);
                     this.Hide();
-                    var newForm = new DatabaseTool();
+                    var newForm = new DatabaseTool(pageType);
                     newForm.Show();
                     this.Close();
                 }
@@ -131,9 +141,10 @@ namespace Server_Console.Database_Tool
 
         #region Public Methods
 
-        public static void Log(string message)
+        public static void Log(Guid instanceId, string message)
         {
-            var mainForm = Application.OpenForms.OfType<DatabaseTool>().FirstOrDefault();
+            var mainForm = Application.OpenForms.OfType<DatabaseTool>()
+                              .FirstOrDefault(f => f.instanceId == instanceId);
             if (mainForm != null)
             {
                 mainForm.AppendLog(message);
@@ -143,6 +154,7 @@ namespace Server_Console.Database_Tool
         #endregion
 
         #region Private Methods
+
         private void UpdateProgressBar(int progress)
         {
             if (progressBar.InvokeRequired)
@@ -176,18 +188,28 @@ namespace Server_Console.Database_Tool
             }
         }
 
-        private void UpdateTabItemSize()
+        private void SetTitleBasedOnPageType()
         {
-            int tabCount = tabControl1.TabCount;
-            if (tabCount > 0)
+            switch (pageType)
             {
-                int tabWidth = (int)Math.Floor((double)tabControl1.Width / tabCount);
-                if (tabControl1.ItemSize.Width != tabWidth)
-                {
-                    tabControl1.ItemSize = new Size(tabWidth, tabControl1.ItemSize.Height);
-                }
+                case PageType.Maps:
+                    this.Text = "Database Tool - Maps";
+                    break;
+                case PageType.Items:
+                    this.Text = "Database Tool - Items";
+                    break;
+                case PageType.Monsters:
+                    this.Text = "Database Tool - Monsters";
+                    break;
+                case PageType.Commands:
+                    this.Text = "Database Tool - Commands";
+                    break;
+                default:
+                    this.Text = "Database Tool";
+                    break;
             }
         }
+
         #endregion
     }
 }

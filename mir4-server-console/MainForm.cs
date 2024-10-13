@@ -4,6 +4,7 @@ using Server_Console.Database_Tool;
 using Server_Console.Logs;
 using System.Data;
 using System.Diagnostics;
+using static Server_Console.Database_Tool.DatabaseTool;
 using static System.Windows.Forms.VisualStyles.VisualStyleElement.Window;
 
 namespace Server_Console
@@ -382,7 +383,7 @@ namespace Server_Console
         private void MapsButton_Click(object sender, EventArgs e)
         {
             // Create an instance of the DatabaseTool form
-            DatabaseTool databaseToolForm = new DatabaseTool();
+            DatabaseTool databaseToolForm = new DatabaseTool(PageType.Maps);
 
             // Show the DatabaseTool form
             databaseToolForm.Show();
@@ -391,7 +392,7 @@ namespace Server_Console
         private void ItemsButton_Click(object sender, EventArgs e)
         {
             // Create an instance of the DatabaseTool form
-            DatabaseTool databaseToolForm = new DatabaseTool();
+            DatabaseTool databaseToolForm = new DatabaseTool(PageType.Items);
 
             // Show the DatabaseTool form
             databaseToolForm.Show();
@@ -400,7 +401,7 @@ namespace Server_Console
         private void MonstersButton_Click(object sender, EventArgs e)
         {
             // Create an instance of the DatabaseTool form
-            DatabaseTool databaseToolForm = new DatabaseTool();
+            DatabaseTool databaseToolForm = new DatabaseTool(PageType.Monsters);
 
             // Show the DatabaseTool form
             databaseToolForm.Show();
@@ -409,10 +410,10 @@ namespace Server_Console
         private void CommandsButton_Click(object sender, EventArgs e)
         {
             // Create an instance of the DatabaseTool form
-            DatabaseTool databaseToolForm = new DatabaseTool();
+            CommandPage commandPageForm = new CommandPage();
 
             // Show the DatabaseTool form
-            databaseToolForm.Show();
+            commandPageForm.Show();
         }
 
         #endregion

@@ -10,7 +10,8 @@ namespace Server_Console.Database_Tool
 {
     public static class ItemPage
     {
-        private static void Log(string message) => DatabaseTool.Log(message);
+        private static Guid _instanceId;
+        private static void Log(string message) => DatabaseTool.Log(_instanceId, message);
         private static string CurrentSearchItem = string.Empty;
 
         public static TextBox? itemSearchTextBox;
@@ -36,22 +37,22 @@ namespace Server_Console.Database_Tool
         private static System.Windows.Forms.Timer searchTimer = new System.Windows.Forms.Timer { Interval = 500 };
         private static bool isSearchPending = false;
 
-        public static void Initialize(TabControl tabControl)
+        public static void Initialize(Guid instanceId, Control container)
         {
+            _instanceId = instanceId;
             InitializeOptionMapping();
-            var tabPage = new TabPage
+            var tabPage = new Panel
             {
-                Name = "ItemPage",
+                Name = "Item Page",
                 Padding = new Padding(3),
                 Size = new Size(1400, 600),
                 TabIndex = 1,
-                Text = FileManager.GetStringMessageById(1300055),
-                UseVisualStyleBackColor = true,
-                Location = new Point(4, 34)
+                Location = new Point(4, 0),
+                BackColor = Color.White
             };
 
             InitializeComponent(tabPage);
-            tabControl.Controls.Add(tabPage);
+            container.Controls.Add(tabPage);
 
             searchTimer.Tick += SearchTimer_Tick;
         }
@@ -79,7 +80,7 @@ namespace Server_Console.Database_Tool
             }
         }
 
-        private static void InitializeComponent(TabPage tabPage)
+        private static void InitializeComponent(Panel tabPage)
         {
             int mainWindowWidth = tabPage.Width;
 

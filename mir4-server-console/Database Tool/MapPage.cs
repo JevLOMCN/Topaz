@@ -1,11 +1,13 @@
-﻿using System.Drawing.Imaging;
+﻿using System.ComponentModel;
+using System.Drawing.Imaging;
 using System.Reflection;
 
 namespace Server_Console.Database_Tool
 {
     public static class MapPage
     {
-        private static void Log(string message) => DatabaseTool.Log(message);
+        private static Guid _instanceId;
+        private static void Log(string message) => DatabaseTool.Log(_instanceId, message);
         private static PictureBox? WorldMapBox;
         private static GroupBox? serverInfoGroupBox;
         private static GroupBox? mapGroupBox;
@@ -54,24 +56,24 @@ namespace Server_Console.Database_Tool
         public static readonly Dictionary<int, Bitmap> AvatarBitmaps = new Dictionary<int, Bitmap>();
         public static readonly Dictionary<string, Bitmap> MiniMapIconBitmaps = new Dictionary<string, Bitmap>();
 
-        public static void Initialize(TabControl tabControl)
+        public static void Initialize(Guid instanceId, Control container)
         {
-            var tabPage = new TabPage
+            _instanceId = instanceId;
+            var tabPage = new Panel
             {
-                Name = "MapsPage",
+                Name = "Map Page",
                 Padding = new Padding(3),
-                Size = new Size(1335, 501),
-                TabIndex = 0,
-                Text = FileManager.GetStringMessageById(1019001),
-                UseVisualStyleBackColor = true,
-                Location = new Point(4, 34)
+                Size = new Size(1400, 600),
+                TabIndex = 1,
+                Location = new Point(4, 0),
+                BackColor = Color.White
             };
 
             InitializeComponent(tabPage);
-            tabControl.Controls.Add(tabPage);
+            container.Controls.Add(tabPage);
         }
 
-        private static void InitializeComponent(TabPage tabPage)
+        private static void InitializeComponent(Panel tabPage)
         {
             InitializeLeftPanel();
             InitializeMapGroupBox();
