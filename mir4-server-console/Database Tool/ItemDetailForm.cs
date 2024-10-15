@@ -7,14 +7,17 @@ namespace Server_Console.Database_Tool
 {
     public static class ItemDetailForm
     {
+        private static Guid _instanceId;
+        private static void Log(string message) => DatabaseTool.Log(_instanceId, message);
         private static Form? formInstance;
         private static Panel? contentPanel;
         private static PictureBox? iconPictureBox;
         private static Label? nameLabel, iconIdLabel, itemIdLabel, nameValueLabel, iconIdValueLabel, itemIdValueLabel, descLabel;
         private static Button? copyIconIdButton, copyItemIdButton, copyNameButton;
 
-        public static void Initialize()
+        public static void Initialize(Guid instanceId)
         {
+            _instanceId = instanceId;
             formInstance = new Form
             {
                 Text = "Item Details",

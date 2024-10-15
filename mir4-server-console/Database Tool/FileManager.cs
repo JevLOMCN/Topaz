@@ -37,10 +37,12 @@ namespace Server_Console.Database_Tool
         public static Dictionary<int, List<PlayerData>> OnlinePlayerList { get; private set; } = new Dictionary<int, List<PlayerData>>();
 
         public static Dictionary<int, dynamic> NpcList = new Dictionary<int, dynamic>();
-        private static void Log(string message) => DatabaseTool.Log(message);
+        private static Guid _instanceId;
+        private static void Log(string message) => DatabaseTool.Log(_instanceId, message);
 
-        public static async Task PreInitialize()
+        public static async Task PreInitialize(Guid instanceId)
         {
+            _instanceId = instanceId;
             LoadStringTemplate();
             LoadStringMessage();
         }

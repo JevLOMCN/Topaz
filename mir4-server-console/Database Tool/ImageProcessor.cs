@@ -21,9 +21,11 @@ namespace Server_Console.Database_Tool
         private static bool ResolutionOver;
         public static DefaultFileProvider? Provider { get; private set; }
 
-        private static void Log(string message) => DatabaseTool.Log(message);
-        public static void Initialize()
+        private static Guid _instanceId;
+        private static void Log(string message) => DatabaseTool.Log(_instanceId, message);
+        public static void Initialize(Guid instanceId)
         {
+            _instanceId = instanceId;
             InitializeResolutionScale();
             InitializeZlibSync();
             InitializeProvider();
