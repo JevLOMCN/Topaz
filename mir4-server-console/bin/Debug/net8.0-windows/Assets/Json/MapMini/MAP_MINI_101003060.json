@@ -1,0 +1,195 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "MAP_MINI_101003060",
+    "Class": "UScriptClass'DataTable'",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'MapMiniInfoTemplate'",
+        "ObjectPath": "/Script/MirMobile"
+      }
+    },
+    "Rows": {
+      "1": {
+        "Name": 1,
+        "InfoMainType": "EMapMiniInfoMainType::Default",
+        "InfoSubType": 2,
+        "InfoSubTypeValue": 0,
+        "InfoValue": 1089,
+        "DetailInfoValue": 0,
+        "InfoStringId": 410038,
+        "InfoStringPosType": "EMapMiniInfoStringPosType::Bottom",
+        "InfoCoordinate": {
+          "X": 94.667,
+          "Y": 2826.196,
+          "Z": 4638.642
+        }
+      },
+      "2": {
+        "Name": 2,
+        "InfoMainType": "EMapMiniInfoMainType::Waypoint",
+        "InfoSubType": 4,
+        "InfoSubTypeValue": 2,
+        "InfoValue": 100000926,
+        "DetailInfoValue": 3749,
+        "InfoStringId": 601204,
+        "InfoStringPosType": "EMapMiniInfoStringPosType::None",
+        "InfoCoordinate": {
+          "X": 161.236,
+          "Y": 161.954,
+          "Z": 4588.0
+        }
+      },
+      "3": {
+        "Name": 3,
+        "InfoMainType": "EMapMiniInfoMainType::Waypoint",
+        "InfoSubType": 4,
+        "InfoSubTypeValue": 2,
+        "InfoValue": 1090404,
+        "DetailInfoValue": 3751,
+        "InfoStringId": 601206,
+        "InfoStringPosType": "EMapMiniInfoStringPosType::None",
+        "InfoCoordinate": {
+          "X": -2169.594,
+          "Y": -868.401,
+          "Z": 4491.0
+        }
+      },
+      "4": {
+        "Name": 4,
+        "InfoMainType": "EMapMiniInfoMainType::Waypoint",
+        "InfoSubType": 4,
+        "InfoSubTypeValue": 1,
+        "InfoValue": 1090405,
+        "DetailInfoValue": 3752,
+        "InfoStringId": 601205,
+        "InfoStringPosType": "EMapMiniInfoStringPosType::None",
+        "InfoCoordinate": {
+          "X": 78.359,
+          "Y": -2107.644,
+          "Z": 4465.0
+        }
+      },
+      "5": {
+        "Name": 5,
+        "InfoMainType": "EMapMiniInfoMainType::Waypoint",
+        "InfoSubType": 4,
+        "InfoSubTypeValue": 2,
+        "InfoValue": 1090406,
+        "DetailInfoValue": 3753,
+        "InfoStringId": 601208,
+        "InfoStringPosType": "EMapMiniInfoStringPosType::None",
+        "InfoCoordinate": {
+          "X": 3602.109,
+          "Y": 548.288,
+          "Z": 4621.0
+        }
+      },
+      "6": {
+        "Name": 6,
+        "InfoMainType": "EMapMiniInfoMainType::Waypoint",
+        "InfoSubType": 4,
+        "InfoSubTypeValue": 3,
+        "InfoValue": 1090401,
+        "DetailInfoValue": 730009001,
+        "InfoStringId": 601222,
+        "InfoStringPosType": "EMapMiniInfoStringPosType::None",
+        "InfoCoordinate": {
+          "X": 3706.644,
+          "Y": -505.641,
+          "Z": 4527.0
+        }
+      },
+      "7": {
+        "Name": 7,
+        "InfoMainType": "EMapMiniInfoMainType::Waypoint",
+        "InfoSubType": 4,
+        "InfoSubTypeValue": 2,
+        "InfoValue": 1090402,
+        "DetailInfoValue": 730009002,
+        "InfoStringId": 601223,
+        "InfoStringPosType": "EMapMiniInfoStringPosType::None",
+        "InfoCoordinate": {
+          "X": 1884.49,
+          "Y": -1432.926,
+          "Z": 4550.0
+        }
+      },
+      "8": {
+        "Name": 8,
+        "InfoMainType": "EMapMiniInfoMainType::Waypoint",
+        "InfoSubType": 4,
+        "InfoSubTypeValue": 1,
+        "InfoValue": 1090403,
+        "DetailInfoValue": 730009003,
+        "InfoStringId": 601238,
+        "InfoStringPosType": "EMapMiniInfoStringPosType::None",
+        "InfoCoordinate": {
+          "X": -3083.512,
+          "Y": 309.243,
+          "Z": 4537.0
+        }
+      },
+      "9": {
+        "Name": 9,
+        "InfoMainType": "EMapMiniInfoMainType::Waypoint",
+        "InfoSubType": 4,
+        "InfoSubTypeValue": 2,
+        "InfoValue": 100000115,
+        "DetailInfoValue": 730018001,
+        "InfoStringId": 601461,
+        "InfoStringPosType": "EMapMiniInfoStringPosType::None",
+        "InfoCoordinate": {
+          "X": -967.664,
+          "Y": -1558.295,
+          "Z": 4357.0
+        }
+      },
+      "10": {
+        "Name": 10,
+        "InfoMainType": "EMapMiniInfoMainType::Waypoint",
+        "InfoSubType": 4,
+        "InfoSubTypeValue": 1,
+        "InfoValue": 100000116,
+        "DetailInfoValue": 730018002,
+        "InfoStringId": 601462,
+        "InfoStringPosType": "EMapMiniInfoStringPosType::None",
+        "InfoCoordinate": {
+          "X": 887.456,
+          "Y": -1856.409,
+          "Z": 4356.0
+        }
+      },
+      "11": {
+        "Name": 11,
+        "InfoMainType": "EMapMiniInfoMainType::Waypoint",
+        "InfoSubType": 4,
+        "InfoSubTypeValue": 2,
+        "InfoValue": 100001281,
+        "DetailInfoValue": 730018003,
+        "InfoStringId": 4800051,
+        "InfoStringPosType": "EMapMiniInfoStringPosType::None",
+        "InfoCoordinate": {
+          "X": 2835.289,
+          "Y": -1184.109,
+          "Z": 4563.0
+        }
+      },
+      "12": {
+        "Name": 12,
+        "InfoMainType": "EMapMiniInfoMainType::Waypoint",
+        "InfoSubType": 1,
+        "InfoSubTypeValue": 0,
+        "InfoValue": 1090101,
+        "DetailInfoValue": 0,
+        "InfoStringId": 920909,
+        "InfoStringPosType": "EMapMiniInfoStringPosType::None",
+        "InfoCoordinate": {
+          "X": -1757.576,
+          "Y": 2104.988,
+          "Z": 4670.483
+        }
+      }
+    }
+  }
+]

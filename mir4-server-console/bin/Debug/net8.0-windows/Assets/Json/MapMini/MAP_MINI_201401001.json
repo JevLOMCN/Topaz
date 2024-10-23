@@ -1,0 +1,165 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "MAP_MINI_201401001",
+    "Class": "UScriptClass'DataTable'",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'MapMiniInfoTemplate'",
+        "ObjectPath": "/Script/MirMobile"
+      }
+    },
+    "Rows": {
+      "1": {
+        "Name": 1,
+        "InfoMainType": "EMapMiniInfoMainType::Default",
+        "InfoSubType": 3,
+        "InfoSubTypeValue": 0,
+        "InfoValue": 0,
+        "DetailInfoValue": 0,
+        "InfoStringId": 920216,
+        "InfoStringPosType": "EMapMiniInfoStringPosType::Bottom",
+        "InfoCoordinate": {
+          "X": -13580.264,
+          "Y": 3643.5107,
+          "Z": 7801.604
+        }
+      },
+      "2": {
+        "Name": 2,
+        "InfoMainType": "EMapMiniInfoMainType::Default",
+        "InfoSubType": 3,
+        "InfoSubTypeValue": 0,
+        "InfoValue": 0,
+        "DetailInfoValue": 0,
+        "InfoStringId": 920217,
+        "InfoStringPosType": "EMapMiniInfoStringPosType::Bottom",
+        "InfoCoordinate": {
+          "X": -6255.576,
+          "Y": -5240.8145,
+          "Z": 7721.0596
+        }
+      },
+      "3": {
+        "Name": 3,
+        "InfoMainType": "EMapMiniInfoMainType::Default",
+        "InfoSubType": 3,
+        "InfoSubTypeValue": 0,
+        "InfoValue": 0,
+        "DetailInfoValue": 0,
+        "InfoStringId": 920218,
+        "InfoStringPosType": "EMapMiniInfoStringPosType::Bottom",
+        "InfoCoordinate": {
+          "X": -531.3043,
+          "Y": -2513.3452,
+          "Z": 7045.2666
+        }
+      },
+      "4": {
+        "Name": 4,
+        "InfoMainType": "EMapMiniInfoMainType::Default",
+        "InfoSubType": 3,
+        "InfoSubTypeValue": 0,
+        "InfoValue": 0,
+        "DetailInfoValue": 0,
+        "InfoStringId": 920219,
+        "InfoStringPosType": "EMapMiniInfoStringPosType::Bottom",
+        "InfoCoordinate": {
+          "X": 6734.602,
+          "Y": -450.50497,
+          "Z": 8069.858
+        }
+      },
+      "5": {
+        "Name": 5,
+        "InfoMainType": "EMapMiniInfoMainType::Default",
+        "InfoSubType": 3,
+        "InfoSubTypeValue": 0,
+        "InfoValue": 0,
+        "DetailInfoValue": 0,
+        "InfoStringId": 920220,
+        "InfoStringPosType": "EMapMiniInfoStringPosType::Bottom",
+        "InfoCoordinate": {
+          "X": 9329.581,
+          "Y": 3361.0737,
+          "Z": 8989.279
+        }
+      },
+      "6": {
+        "Name": 6,
+        "InfoMainType": "EMapMiniInfoMainType::Default",
+        "InfoSubType": 3,
+        "InfoSubTypeValue": 0,
+        "InfoValue": 0,
+        "DetailInfoValue": 0,
+        "InfoStringId": 920225,
+        "InfoStringPosType": "EMapMiniInfoStringPosType::Bottom",
+        "InfoCoordinate": {
+          "X": 10706.023,
+          "Y": 8320.074,
+          "Z": 7860.1504
+        }
+      },
+      "7": {
+        "Name": 7,
+        "InfoMainType": "EMapMiniInfoMainType::Default",
+        "InfoSubType": 3,
+        "InfoSubTypeValue": 0,
+        "InfoValue": 0,
+        "DetailInfoValue": 0,
+        "InfoStringId": 920224,
+        "InfoStringPosType": "EMapMiniInfoStringPosType::Bottom",
+        "InfoCoordinate": {
+          "X": 8541.556,
+          "Y": 16086.02,
+          "Z": 7881.338
+        }
+      },
+      "8": {
+        "Name": 8,
+        "InfoMainType": "EMapMiniInfoMainType::Default",
+        "InfoSubType": 3,
+        "InfoSubTypeValue": 0,
+        "InfoValue": 0,
+        "DetailInfoValue": 0,
+        "InfoStringId": 920223,
+        "InfoStringPosType": "EMapMiniInfoStringPosType::Bottom",
+        "InfoCoordinate": {
+          "X": 399.3526,
+          "Y": 12037.605,
+          "Z": 12429.745
+        }
+      },
+      "9": {
+        "Name": 9,
+        "InfoMainType": "EMapMiniInfoMainType::Default",
+        "InfoSubType": 3,
+        "InfoSubTypeValue": 0,
+        "InfoValue": 0,
+        "DetailInfoValue": 0,
+        "InfoStringId": 920221,
+        "InfoStringPosType": "EMapMiniInfoStringPosType::Bottom",
+        "InfoCoordinate": {
+          "X": 343.98666,
+          "Y": 5915.2197,
+          "Z": 7540.8477
+        }
+      },
+      "10": {
+        "Name": 10,
+        "InfoMainType": "EMapMiniInfoMainType::Default",
+        "InfoSubType": 3,
+        "InfoSubTypeValue": 0,
+        "InfoValue": 0,
+        "DetailInfoValue": 0,
+        "InfoStringId": 920222,
+        "InfoStringPosType": "EMapMiniInfoStringPosType::Bottom",
+        "InfoCoordinate": {
+          "X": -9939.951,
+          "Y": 9629.975,
+          "Z": 7235.9165
+        }
+      }
+    }
+  }
+]

@@ -1,0 +1,109 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "SECTOR_GRADE_104004090",
+    "Class": "UScriptClass'DataTable'",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'SectorGradeTemplate'",
+        "ObjectPath": "/Script/MirMobile"
+      }
+    },
+    "Rows": {
+      "1": {
+        "SectorID": 1040040903,
+        "SectorRange": 4614.0,
+        "SectorLocation": {
+          "X": 19160.0,
+          "Y": 114.0,
+          "Z": 1981.0
+        }
+      },
+      "2": {
+        "SectorID": 1040040902,
+        "SectorRange": 5277.0,
+        "SectorLocation": {
+          "X": -26049.0,
+          "Y": 33937.0,
+          "Z": -1168.0
+        }
+      },
+      "3": {
+        "SectorID": 1040040902,
+        "SectorRange": 4901.0,
+        "SectorLocation": {
+          "X": -27027.0,
+          "Y": 16285.0,
+          "Z": -1382.0
+        }
+      },
+      "4": {
+        "SectorID": 1040040901,
+        "SectorRange": 6143.0,
+        "SectorLocation": {
+          "X": 21052.0,
+          "Y": -20237.0,
+          "Z": 2541.0
+        }
+      },
+      "5": {
+        "SectorID": 1040040901,
+        "SectorRange": 4690.0,
+        "SectorLocation": {
+          "X": -22550.0,
+          "Y": -12743.0,
+          "Z": 756.0
+        }
+      }
+    }
+  },
+  {
+    "Type": "DataTable",
+    "Name": "SECTOR_GRADE_110502050",
+    "Class": "UScriptClass'DataTable'",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'SectorGradeTemplate'",
+        "ObjectPath": "/Script/MirMobile"
+      }
+    },
+    "Rows": {
+      "1": {
+        "SectorID": 1105020501,
+        "SectorRange": 6000.0,
+        "SectorLocation": {
+          "X": -28706.822,
+          "Y": -10635.74,
+          "Z": 940.652
+        }
+      },
+      "2": {
+        "SectorID": 1105020501,
+        "SectorRange": 6000.0,
+        "SectorLocation": {
+          "X": 22973.326,
+          "Y": -21978.201,
+          "Z": 2390.688
+        }
+      },
+      "3": {
+        "SectorID": 1105020502,
+        "SectorRange": 5500.0,
+        "SectorLocation": {
+          "X": 15246.691,
+          "Y": 36639.0,
+          "Z": 1094.442
+        }
+      },
+      "4": {
+        "SectorID": 1105020503,
+        "SectorRange": 6000.0,
+        "SectorLocation": {
+          "X": -6512.56,
+          "Y": 33617.965,
+          "Z": 601.344
+        }
+      }
+    }
+  }
+]

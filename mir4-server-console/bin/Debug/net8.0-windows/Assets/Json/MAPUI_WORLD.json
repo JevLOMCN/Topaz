@@ -1,0 +1,455 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "MAPUI_WORLD",
+    "Class": "UScriptClass'DataTable'",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'MapUIWorldTemplate'",
+        "ObjectPath": "/Script/MirMobile"
+      }
+    },
+    "Rows": {
+      "1000": {
+        "AreaId": 1000,
+        "AreaStringId": 900002,
+        "AreaIconId": 910054,
+        "AreaCoordinate": {
+          "X": 493.0,
+          "Y": 526.0
+        },
+        "AreaMapResource": "/Game/UI/Atlas_N_Pack/Sprites_N/Spr_MiniMap/MapMiddle_Bicheon_Sprite",
+        "MiniGroupId": 1050,
+        "TouchPosition_X": -143,
+        "TouchPosition_Y": -135,
+        "TouchScale_X": 295,
+        "TouchScale_Y": 260,
+        "MonLevelMin": 6,
+        "MonLevelMax": 80,
+        "PrevAreaId": 0,
+        "NextAreaId": 2000,
+        "ConquerServer": 0
+      },
+      "2000": {
+        "AreaId": 2000,
+        "AreaStringId": 900003,
+        "AreaIconId": 910052,
+        "AreaCoordinate": {
+          "X": 438.0,
+          "Y": 280.0
+        },
+        "AreaMapResource": "/Game/UI/Atlas_N_Pack/Sprites_N/Spr_MiniMap/MapMiddle_SnakeValley_Sprite",
+        "MiniGroupId": 0,
+        "TouchPosition_X": -141,
+        "TouchPosition_Y": -100,
+        "TouchScale_X": 274,
+        "TouchScale_Y": 200,
+        "MonLevelMin": 40,
+        "MonLevelMax": 105,
+        "PrevAreaId": 1000,
+        "NextAreaId": 3000,
+        "ConquerServer": 0
+      },
+      "3000": {
+        "AreaId": 3000,
+        "AreaStringId": 900004,
+        "AreaIconId": 910052,
+        "AreaCoordinate": {
+          "X": 141.0,
+          "Y": 220.0
+        },
+        "AreaMapResource": "/Game/UI/Atlas_N_Pack/Sprites_N/Spr_MiniMap/MapMiddle_Dogwan_Sprite",
+        "MiniGroupId": 0,
+        "TouchPosition_X": -141,
+        "TouchPosition_Y": -138,
+        "TouchScale_X": 280,
+        "TouchScale_Y": 262,
+        "MonLevelMin": 70,
+        "MonLevelMax": 125,
+        "PrevAreaId": 2000,
+        "NextAreaId": 4000,
+        "ConquerServer": 0
+      },
+      "4000": {
+        "AreaId": 4000,
+        "AreaStringId": 900005,
+        "AreaIconId": 910052,
+        "AreaCoordinate": {
+          "X": 906.0,
+          "Y": 345.0
+        },
+        "AreaMapResource": "/Game/UI/Atlas_N_Pack/Sprites_N/Spr_MiniMap/MapMiddle_Mongchon_Sprite",
+        "MiniGroupId": 0,
+        "TouchPosition_X": -132,
+        "TouchPosition_Y": -140,
+        "TouchScale_X": 274,
+        "TouchScale_Y": 240,
+        "MonLevelMin": 70,
+        "MonLevelMax": 125,
+        "PrevAreaId": 3000,
+        "NextAreaId": 5000,
+        "ConquerServer": 0
+      },
+      "5000": {
+        "AreaId": 5000,
+        "AreaStringId": 900006,
+        "AreaIconId": 910052,
+        "AreaCoordinate": {
+          "X": 742.0,
+          "Y": 210.0
+        },
+        "AreaMapResource": "/Game/UI/Atlas_N_Pack/Sprites_N/Spr_MiniMap/MapMiddle_Sabuk_Sprite",
+        "MiniGroupId": 0,
+        "TouchPosition_X": -130,
+        "TouchPosition_Y": -157,
+        "TouchScale_X": 268,
+        "TouchScale_Y": 269,
+        "MonLevelMin": 0,
+        "MonLevelMax": 0,
+        "PrevAreaId": 4000,
+        "NextAreaId": 18000,
+        "ConquerServer": 0
+      },
+      "6000": {
+        "AreaId": 6000,
+        "AreaStringId": 900007,
+        "AreaIconId": 0,
+        "AreaCoordinate": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "AreaMapResource": "0",
+        "MiniGroupId": 0,
+        "TouchPosition_X": 0,
+        "TouchPosition_Y": 0,
+        "TouchScale_X": 0,
+        "TouchScale_Y": 0,
+        "MonLevelMin": 0,
+        "MonLevelMax": 0,
+        "PrevAreaId": 0,
+        "NextAreaId": 0,
+        "ConquerServer": 0
+      },
+      "7000": {
+        "AreaId": 7000,
+        "AreaStringId": 900008,
+        "AreaIconId": 0,
+        "AreaCoordinate": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "AreaMapResource": "0",
+        "MiniGroupId": 0,
+        "TouchPosition_X": 0,
+        "TouchPosition_Y": 0,
+        "TouchScale_X": 0,
+        "TouchScale_Y": 0,
+        "MonLevelMin": 0,
+        "MonLevelMax": 0,
+        "PrevAreaId": 0,
+        "NextAreaId": 0,
+        "ConquerServer": 0
+      },
+      "8000": {
+        "AreaId": 8000,
+        "AreaStringId": 900009,
+        "AreaIconId": 0,
+        "AreaCoordinate": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "AreaMapResource": "0",
+        "MiniGroupId": 0,
+        "TouchPosition_X": 0,
+        "TouchPosition_Y": 0,
+        "TouchScale_X": 0,
+        "TouchScale_Y": 0,
+        "MonLevelMin": 0,
+        "MonLevelMax": 0,
+        "PrevAreaId": 0,
+        "NextAreaId": 0,
+        "ConquerServer": 0
+      },
+      "9000": {
+        "AreaId": 9000,
+        "AreaStringId": 900010,
+        "AreaIconId": 0,
+        "AreaCoordinate": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "AreaMapResource": "0",
+        "MiniGroupId": 0,
+        "TouchPosition_X": 0,
+        "TouchPosition_Y": 0,
+        "TouchScale_X": 0,
+        "TouchScale_Y": 0,
+        "MonLevelMin": 0,
+        "MonLevelMax": 0,
+        "PrevAreaId": 0,
+        "NextAreaId": 0,
+        "ConquerServer": 0
+      },
+      "10000": {
+        "AreaId": 10000,
+        "AreaStringId": 900011,
+        "AreaIconId": 0,
+        "AreaCoordinate": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "AreaMapResource": "0",
+        "MiniGroupId": 0,
+        "TouchPosition_X": 0,
+        "TouchPosition_Y": 0,
+        "TouchScale_X": 0,
+        "TouchScale_Y": 0,
+        "MonLevelMin": 0,
+        "MonLevelMax": 0,
+        "PrevAreaId": 0,
+        "NextAreaId": 0,
+        "ConquerServer": 0
+      },
+      "11000": {
+        "AreaId": 11000,
+        "AreaStringId": 900012,
+        "AreaIconId": 0,
+        "AreaCoordinate": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "AreaMapResource": "0",
+        "MiniGroupId": 0,
+        "TouchPosition_X": 0,
+        "TouchPosition_Y": 0,
+        "TouchScale_X": 0,
+        "TouchScale_Y": 0,
+        "MonLevelMin": 0,
+        "MonLevelMax": 0,
+        "PrevAreaId": 0,
+        "NextAreaId": 0,
+        "ConquerServer": 0
+      },
+      "11100": {
+        "AreaId": 11100,
+        "AreaStringId": 900018,
+        "AreaIconId": 0,
+        "AreaCoordinate": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "AreaMapResource": "0",
+        "MiniGroupId": 0,
+        "TouchPosition_X": 0,
+        "TouchPosition_Y": 0,
+        "TouchScale_X": 0,
+        "TouchScale_Y": 0,
+        "MonLevelMin": 0,
+        "MonLevelMax": 0,
+        "PrevAreaId": 0,
+        "NextAreaId": 0,
+        "ConquerServer": 0
+      },
+      "12100": {
+        "AreaId": 12100,
+        "AreaStringId": 900013,
+        "AreaIconId": 0,
+        "AreaCoordinate": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "AreaMapResource": "0",
+        "MiniGroupId": 0,
+        "TouchPosition_X": 0,
+        "TouchPosition_Y": 0,
+        "TouchScale_X": 0,
+        "TouchScale_Y": 0,
+        "MonLevelMin": 0,
+        "MonLevelMax": 0,
+        "PrevAreaId": 0,
+        "NextAreaId": 0,
+        "ConquerServer": 0
+      },
+      "12200": {
+        "AreaId": 12200,
+        "AreaStringId": 900014,
+        "AreaIconId": 0,
+        "AreaCoordinate": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "AreaMapResource": "0",
+        "MiniGroupId": 0,
+        "TouchPosition_X": 0,
+        "TouchPosition_Y": 0,
+        "TouchScale_X": 0,
+        "TouchScale_Y": 0,
+        "MonLevelMin": 0,
+        "MonLevelMax": 0,
+        "PrevAreaId": 0,
+        "NextAreaId": 0,
+        "ConquerServer": 0
+      },
+      "14000": {
+        "AreaId": 14000,
+        "AreaStringId": 900015,
+        "AreaIconId": 0,
+        "AreaCoordinate": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "AreaMapResource": "0",
+        "MiniGroupId": 0,
+        "TouchPosition_X": 0,
+        "TouchPosition_Y": 0,
+        "TouchScale_X": 0,
+        "TouchScale_Y": 0,
+        "MonLevelMin": 0,
+        "MonLevelMax": 0,
+        "PrevAreaId": 0,
+        "NextAreaId": 0,
+        "ConquerServer": 0
+      },
+      "15000": {
+        "AreaId": 15000,
+        "AreaStringId": 410015,
+        "AreaIconId": 0,
+        "AreaCoordinate": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "AreaMapResource": "0",
+        "MiniGroupId": 0,
+        "TouchPosition_X": 0,
+        "TouchPosition_Y": 0,
+        "TouchScale_X": 0,
+        "TouchScale_Y": 0,
+        "MonLevelMin": 0,
+        "MonLevelMax": 0,
+        "PrevAreaId": 0,
+        "NextAreaId": 0,
+        "ConquerServer": 0
+      },
+      "17000": {
+        "AreaId": 17000,
+        "AreaStringId": 421906,
+        "AreaIconId": 0,
+        "AreaCoordinate": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "AreaMapResource": "0",
+        "MiniGroupId": 0,
+        "TouchPosition_X": 0,
+        "TouchPosition_Y": 0,
+        "TouchScale_X": 0,
+        "TouchScale_Y": 0,
+        "MonLevelMin": 0,
+        "MonLevelMax": 0,
+        "PrevAreaId": 0,
+        "NextAreaId": 0,
+        "ConquerServer": 0
+      },
+      "18000": {
+        "AreaId": 18000,
+        "AreaStringId": 900016,
+        "AreaIconId": 910052,
+        "AreaCoordinate": {
+          "X": 880.0,
+          "Y": 58.0
+        },
+        "AreaMapResource": "/Game/UI/Atlas_N_Pack/Sprites_N/Spr_MiniMap/MapMiddle_Guryong_Sprite",
+        "MiniGroupId": 0,
+        "TouchPosition_X": -130,
+        "TouchPosition_Y": -152,
+        "TouchScale_X": 250,
+        "TouchScale_Y": 200,
+        "MonLevelMin": 0,
+        "MonLevelMax": 0,
+        "PrevAreaId": 5000,
+        "NextAreaId": 21000,
+        "ConquerServer": 0
+      },
+      "19000": {
+        "AreaId": 19000,
+        "AreaStringId": 900017,
+        "AreaIconId": 910103,
+        "AreaCoordinate": {
+          "X": 600.0,
+          "Y": 120.0
+        },
+        "AreaMapResource": "/Game/UI/Atlas_N_Pack/Sprites_N/Spr_MiniMap/MapMiddle_Sabuk_Conquest_Sprite",
+        "MiniGroupId": 19001,
+        "TouchPosition_X": -110,
+        "TouchPosition_Y": -150,
+        "TouchScale_X": 220,
+        "TouchScale_Y": 200,
+        "MonLevelMin": 0,
+        "MonLevelMax": 0,
+        "PrevAreaId": 0,
+        "NextAreaId": 0,
+        "ConquerServer": 1
+      },
+      "20000": {
+        "AreaId": 20000,
+        "AreaStringId": 900010,
+        "AreaIconId": 910052,
+        "AreaCoordinate": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "AreaMapResource": "0",
+        "MiniGroupId": 20001,
+        "TouchPosition_X": 0,
+        "TouchPosition_Y": 0,
+        "TouchScale_X": 0,
+        "TouchScale_Y": 0,
+        "MonLevelMin": 0,
+        "MonLevelMax": 0,
+        "PrevAreaId": 0,
+        "NextAreaId": 0,
+        "ConquerServer": 0
+      },
+      "21000": {
+        "AreaId": 21000,
+        "AreaStringId": 913006,
+        "AreaIconId": 910052,
+        "AreaCoordinate": {
+          "X": 1050.0,
+          "Y": 200.0
+        },
+        "AreaMapResource": "/Game/UI/Atlas_N_Pack/Sprites_N/Spr_MiniMap/MapMiddle_Ship_Sprite",
+        "MiniGroupId": 0,
+        "TouchPosition_X": -100,
+        "TouchPosition_Y": -100,
+        "TouchScale_X": 200,
+        "TouchScale_Y": 200,
+        "MonLevelMin": 0,
+        "MonLevelMax": 0,
+        "PrevAreaId": 18000,
+        "NextAreaId": 0,
+        "ConquerServer": 0
+      },
+      "90000": {
+        "AreaId": 90000,
+        "AreaStringId": 7110601,
+        "AreaIconId": 0,
+        "AreaCoordinate": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "AreaMapResource": "0",
+        "MiniGroupId": 0,
+        "TouchPosition_X": 0,
+        "TouchPosition_Y": 0,
+        "TouchScale_X": 0,
+        "TouchScale_Y": 0,
+        "MonLevelMin": 0,
+        "MonLevelMax": 0,
+        "PrevAreaId": 0,
+        "NextAreaId": 0,
+        "ConquerServer": 0
+      }
+    }
+  }
+]

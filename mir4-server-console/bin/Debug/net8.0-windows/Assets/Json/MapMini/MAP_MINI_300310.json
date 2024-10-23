@@ -1,0 +1,30 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "MAP_MINI_300310",
+    "Class": "UScriptClass'DataTable'",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'MapMiniInfoTemplate'",
+        "ObjectPath": "/Script/MirMobile"
+      }
+    },
+    "Rows": {
+      "1": {
+        "Name": 1,
+        "InfoMainType": "EMapMiniInfoMainType::Default",
+        "InfoSubType": 2,
+        "InfoSubTypeValue": 0,
+        "InfoValue": 41402,
+        "DetailInfoValue": 0,
+        "InfoStringId": 444011,
+        "InfoStringPosType": "EMapMiniInfoStringPosType::Bottom",
+        "InfoCoordinate": {
+          "X": 2132.236,
+          "Y": 6166.337,
+          "Z": 3205.377
+        }
+      }
+    }
+  }
+]
