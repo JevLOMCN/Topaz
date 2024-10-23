@@ -1,0 +1,60 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "MAP_MINI_2021",
+    "Class": "UScriptClass'DataTable'",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'MapMiniInfoTemplate'",
+        "ObjectPath": "/Script/MirMobile"
+      }
+    },
+    "Rows": {
+      "1": {
+        "Name": 1,
+        "InfoMainType": "EMapMiniInfoMainType::Default",
+        "InfoSubType": 2,
+        "InfoSubTypeValue": 0,
+        "InfoValue": 9999,
+        "DetailInfoValue": 0,
+        "InfoStringId": 410015,
+        "InfoStringPosType": "EMapMiniInfoStringPosType::Bottom",
+        "InfoCoordinate": {
+          "X": -21.095,
+          "Y": -9182.316,
+          "Z": 1597.919
+        }
+      },
+      "2": {
+        "Name": 2,
+        "InfoMainType": "EMapMiniInfoMainType::Waypoint",
+        "InfoSubType": 1,
+        "InfoSubTypeValue": 0,
+        "InfoValue": 1050104,
+        "DetailInfoValue": 0,
+        "InfoStringId": 421904,
+        "InfoStringPosType": "EMapMiniInfoStringPosType::None",
+        "InfoCoordinate": {
+          "X": -15.0,
+          "Y": -4070.0,
+          "Z": 1015.0
+        }
+      },
+      "3": {
+        "Name": 3,
+        "InfoMainType": "EMapMiniInfoMainType::Waypoint",
+        "InfoSubType": 4,
+        "InfoSubTypeValue": 1,
+        "InfoValue": 1050469,
+        "DetailInfoValue": 3754,
+        "InfoStringId": 601415,
+        "InfoStringPosType": "EMapMiniInfoStringPosType::None",
+        "InfoCoordinate": {
+          "X": -2775.0,
+          "Y": -7860.0,
+          "Z": 1105.0
+        }
+      }
+    }
+  }
+]
