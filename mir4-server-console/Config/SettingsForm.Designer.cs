@@ -45,6 +45,10 @@
             DependenciesLabel = new Label();
             MemuraiLabel = new Label();
             MYSQLLabel = new Label();
+            MemuraiButton = new PictureBox();
+            MYSqlButton = new PictureBox();
+            CouchbaseButton = new PictureBox();
+            CouchbaseLabel = new Label();
             ((System.ComponentModel.ISupportInitialize)BackgroundBeacon).BeginInit();
             ((System.ComponentModel.ISupportInitialize)BackgroundDesert).BeginInit();
             ((System.ComponentModel.ISupportInitialize)BackgroundForest).BeginInit();
@@ -57,6 +61,9 @@
             ((System.ComponentModel.ISupportInitialize)BackgroundWitch).BeginInit();
             ((System.ComponentModel.ISupportInitialize)BackgroundWater).BeginInit();
             ((System.ComponentModel.ISupportInitialize)BackgroundWoman).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)MemuraiButton).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)MYSqlButton).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)CouchbaseButton).BeginInit();
             SuspendLayout();
             // 
             // BackgroundBeacon
@@ -206,7 +213,7 @@
             MemuraiLabel.AutoSize = true;
             MemuraiLabel.BackColor = Color.Black;
             MemuraiLabel.ForeColor = Color.White;
-            MemuraiLabel.Location = new Point(408, 799);
+            MemuraiLabel.Location = new Point(347, 834);
             MemuraiLabel.Name = "MemuraiLabel";
             MemuraiLabel.Size = new Size(55, 15);
             MemuraiLabel.TabIndex = 15;
@@ -217,11 +224,52 @@
             MYSQLLabel.AutoSize = true;
             MYSQLLabel.BackColor = Color.Black;
             MYSQLLabel.ForeColor = Color.White;
-            MYSQLLabel.Location = new Point(798, 799);
+            MYSQLLabel.Location = new Point(552, 834);
             MYSQLLabel.Name = "MYSQLLabel";
             MYSQLLabel.Size = new Size(45, 15);
             MYSQLLabel.TabIndex = 16;
             MYSQLLabel.Text = "MySQL";
+            // 
+            // MemuraiButton
+            // 
+            MemuraiButton.Image = Properties.Resources.Memurai1;
+            MemuraiButton.Location = new Point(347, 782);
+            MemuraiButton.Name = "MemuraiButton";
+            MemuraiButton.Size = new Size(188, 34);
+            MemuraiButton.TabIndex = 17;
+            MemuraiButton.TabStop = false;
+            MemuraiButton.Click += MemuraiButton_Click;
+            // 
+            // MYSqlButton
+            // 
+            MYSqlButton.Image = Properties.Resources.MYSQL1;
+            MYSqlButton.Location = new Point(552, 782);
+            MYSqlButton.Name = "MYSqlButton";
+            MYSqlButton.Size = new Size(188, 34);
+            MYSqlButton.TabIndex = 18;
+            MYSqlButton.TabStop = false;
+            MYSqlButton.Click += MYSqlButton_Click;
+            // 
+            // CouchbaseButton
+            // 
+            CouchbaseButton.Image = Properties.Resources.Couchbase1;
+            CouchbaseButton.Location = new Point(756, 782);
+            CouchbaseButton.Name = "CouchbaseButton";
+            CouchbaseButton.Size = new Size(188, 34);
+            CouchbaseButton.TabIndex = 20;
+            CouchbaseButton.TabStop = false;
+            CouchbaseButton.Click += CouchbaseButton_Click;
+            // 
+            // CouchbaseLabel
+            // 
+            CouchbaseLabel.AutoSize = true;
+            CouchbaseLabel.BackColor = Color.Black;
+            CouchbaseLabel.ForeColor = Color.White;
+            CouchbaseLabel.Location = new Point(756, 834);
+            CouchbaseLabel.Name = "CouchbaseLabel";
+            CouchbaseLabel.Size = new Size(66, 15);
+            CouchbaseLabel.TabIndex = 19;
+            CouchbaseLabel.Text = "Couchbase";
             // 
             // SettingsForm
             // 
@@ -229,6 +277,10 @@
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.Black;
             ClientSize = new Size(1297, 858);
+            Controls.Add(CouchbaseButton);
+            Controls.Add(CouchbaseLabel);
+            Controls.Add(MYSqlButton);
+            Controls.Add(MemuraiButton);
             Controls.Add(MYSQLLabel);
             Controls.Add(MemuraiLabel);
             Controls.Add(DependenciesLabel);
@@ -261,6 +313,9 @@
             ((System.ComponentModel.ISupportInitialize)BackgroundWitch).EndInit();
             ((System.ComponentModel.ISupportInitialize)BackgroundWater).EndInit();
             ((System.ComponentModel.ISupportInitialize)BackgroundWoman).EndInit();
+            ((System.ComponentModel.ISupportInitialize)MemuraiButton).EndInit();
+            ((System.ComponentModel.ISupportInitialize)MYSqlButton).EndInit();
+            ((System.ComponentModel.ISupportInitialize)CouchbaseButton).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -283,5 +338,9 @@
         private Label DependenciesLabel;
         private Label MemuraiLabel;
         private Label MYSQLLabel;
+        private PictureBox MemuraiButton;
+        private PictureBox MYSqlButton;
+        private PictureBox CouchbaseButton;
+        private Label CouchbaseLabel;
     }
 }

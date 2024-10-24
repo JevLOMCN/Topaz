@@ -9,6 +9,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.ServiceProcess;
 using Microsoft.Win32;
+using System.Diagnostics;
 
 namespace Server_Console.Config
 {
@@ -23,11 +24,12 @@ namespace Server_Console.Config
         #region DependencyCheck
         public void DependencyCheck()
         {
-            CheckApplicationAndServiceStatus("MySQL", MYSQLLabel, "MySQL", @"C:\Program Files\MySQL\MySQL Server", @"SOFTWARE\MySQL AB");
-            CheckApplicationAndServiceStatus("Memurai", MemuraiLabel, "Memurai", @"C:\Program Files\Memurai", @"SOFTWARE\Memurai");
+            CheckApplicationAndServiceStatus("MySQL", MYSQLLabel, "MySQL", @"C:\Program Files\MySQL\MySQL Server", @"SOFTWARE\MySQL AB", MYSqlButton);
+            CheckApplicationAndServiceStatus("Memurai", MemuraiLabel, "Memurai", @"C:\Program Files\Memurai", @"SOFTWARE\Memurai", MemuraiButton);
+            CheckApplicationAndServiceStatus("CouchbaseServer", CouchbaseLabel, "Couchbase", @"C:\Program Files\Couchbase\Server", @"SOFTWARE\Couchbase", CouchbaseButton);
         }
 
-        private void CheckApplicationAndServiceStatus(string serviceName, Label serviceLabel, string serviceDisplayName, string installPath, string registryKey)
+        private void CheckApplicationAndServiceStatus(string serviceName, Label serviceLabel, string serviceDisplayName, string installPath, string registryKey, PictureBox pictureBox = null)
         {
             bool isInstalled = IsApplicationInstalled(installPath, registryKey);
 
@@ -39,20 +41,24 @@ namespace Server_Console.Config
                     if (sc.Status == ServiceControllerStatus.Running)
                     {
                         serviceLabel.Text = $"{serviceDisplayName}: Running";
+                        if (pictureBox != null) pictureBox.Image = GetServiceRunningImage(serviceDisplayName);
                     }
                     else
                     {
                         serviceLabel.Text = $"{serviceDisplayName}: Not running";
+                        if (pictureBox != null) pictureBox.Image = GetServiceNotRunningImage(serviceDisplayName);
                     }
                 }
                 catch (Exception)
                 {
                     serviceLabel.Text = $"{serviceDisplayName}: Not running";
+                    if (pictureBox != null) pictureBox.Image = GetServiceNotRunningImage(serviceDisplayName);
                 }
             }
             else
             {
                 serviceLabel.Text = $"{serviceDisplayName}: Not installed";
+                if (pictureBox != null) pictureBox.Image = GetServiceNotInstalledImage(serviceDisplayName);
             }
         }
 
@@ -74,6 +80,52 @@ namespace Server_Console.Config
             }
 
             return false;
+        }
+
+        // Image retrieval helper methods
+        private Image GetServiceRunningImage(string serviceDisplayName)
+        {
+            switch (serviceDisplayName)
+            {
+                case "MySQL":
+                    return Properties.Resources.MYSQL; // MySQL.png
+                case "Memurai":
+                    return Properties.Resources.Memurai; // Memurai.png
+                case "Couchbase":
+                    return Properties.Resources.Couchbase; // Couchbase.png
+                default:
+                    return null;
+            }
+        }
+
+        private Image GetServiceNotRunningImage(string serviceDisplayName)
+        {
+            switch (serviceDisplayName)
+            {
+                case "MySQL":
+                    return Properties.Resources.MYSQL1; // MySQL1.png
+                case "Memurai":
+                    return Properties.Resources.Memurai1; // Memurai1.png
+                case "Couchbase":
+                    return Properties.Resources.Couchbase1; // Couchbase1.png
+                default:
+                    return null;
+            }
+        }
+
+        private Image GetServiceNotInstalledImage(string serviceDisplayName)
+        {
+            switch (serviceDisplayName)
+            {
+                case "MySQL":
+                    return Properties.Resources.MYSQL2; // MySQL2.png
+                case "Memurai":
+                    return Properties.Resources.Memurai2; // Memurai2.png
+                case "Couchbase":
+                    return Properties.Resources.Couchbase2; // Couchbase2.png
+                default:
+                    return null;
+            }
         }
         #endregion
 
@@ -304,6 +356,110 @@ namespace Server_Console.Config
             // Restart the application
             Application.Restart();
             Environment.Exit(0); // Ensure the current instance is fully closed
+        }
+        #endregion
+
+        #region Memurai Click/Download/Start/Stop
+        private void MemuraiButton_Click(object sender, EventArgs e)
+        {
+            bool isMemuraiInstalled = IsApplicationInstalled(@"C:\Program Files\Memurai", @"SOFTWARE\Memurai");
+
+            if (!isMemuraiInstalled)
+            {
+                // Memurai is not installed, open the download page in the default browser
+                OpenMemuraiDownloadPage();
+            }
+            else
+            {
+
+            }
+        }
+        private void OpenMemuraiDownloadPage()
+        {
+            try
+            {
+                // Open the Memurai download page in the default browser
+                Process.Start(new ProcessStartInfo
+                {
+                    FileName = "https://www.memurai.com/get-memurai#",
+                    UseShellExecute = true
+                });
+            }
+            catch (Exception ex)
+            {
+                // Handle exceptions (optional)
+                MessageBox.Show("Failed to open the browser. " + ex.Message);
+            }
+        }
+        #endregion
+
+        #region MySQL Click/Download/Start/Stop
+        private void MYSqlButton_Click(object sender, EventArgs e)
+        {
+            bool isMySQLInstalled = IsApplicationInstalled(@"C:\Program Files\MySQL\MySQL Server", @"SOFTWARE\MySQL AB");
+
+            if (!isMySQLInstalled)
+            {
+                // MySQL is not installed, open the MySQL installer download page in the default browser
+                OpenMySQLDownloadPage();
+            }
+            else
+            {
+
+            }
+        }
+
+        private void OpenMySQLDownloadPage()
+        {
+            try
+            {
+                // Open the MySQL installer download page in the default browser
+                Process.Start(new ProcessStartInfo
+                {
+                    FileName = "https://dev.mysql.com/get/Downloads/MySQLInstaller/mysql-installer-community-5.7.44.0.msi",
+                    UseShellExecute = true
+                });
+            }
+            catch (Exception ex)
+            {
+                // Handle exceptions (optional)
+                MessageBox.Show("Failed to open the browser. " + ex.Message);
+            }
+        }
+        #endregion
+
+        #region Couchbase Click/Download/Start/Stop
+        private void CouchbaseButton_Click(object sender, EventArgs e)
+        {
+            bool isCouchbaseInstalled = IsApplicationInstalled(@"C:\Program Files\Couchbase\Server", @"SOFTWARE\Couchbase");
+
+            if (!isCouchbaseInstalled)
+            {
+                // Couchbase is not installed, open the Couchbase installer download page in the default browser
+                OpenCouchbaseDownloadPage();
+            }
+            else
+            {
+
+            }
+        }
+
+        private void OpenCouchbaseDownloadPage()
+        {
+            try
+            {
+                // Open the Couchbase installer download page in the default browser
+                Process.Start(new ProcessStartInfo
+                {
+                    FileName = "https://packages.couchbase.com/releases/7.2.0/couchbase-server-enterprise_7.2.0-windows_amd64.msi",
+                    UseShellExecute = true
+                });
+            }
+            catch (Exception ex)
+            {
+                // Handle exceptions (optional)
+                MessageBox.Show("Failed to open the browser. " + ex.Message);
+            }
         }
         #endregion
     }

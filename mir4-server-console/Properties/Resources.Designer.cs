@@ -153,6 +153,36 @@ namespace Server_Console.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Couchbase {
+            get {
+                object obj = ResourceManager.GetObject("Couchbase", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Couchbase1 {
+            get {
+                object obj = ResourceManager.GetObject("Couchbase1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Couchbase2 {
+            get {
+                object obj = ResourceManager.GetObject("Couchbase2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Desert {
             get {
                 object obj = ResourceManager.GetObject("Desert", resourceCulture);
@@ -343,9 +373,9 @@ namespace Server_Console.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Horn_guy_Main {
+        internal static System.Drawing.Bitmap Horn_Guy_Main {
             get {
-                object obj = ResourceManager.GetObject("Horn guy_Main", resourceCulture);
+                object obj = ResourceManager.GetObject("Horn_Guy_Main", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -493,6 +523,36 @@ namespace Server_Console.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Memurai {
+            get {
+                object obj = ResourceManager.GetObject("Memurai", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Memurai1 {
+            get {
+                object obj = ResourceManager.GetObject("Memurai1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Memurai2 {
+            get {
+                object obj = ResourceManager.GetObject("Memurai2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap monsters {
             get {
                 object obj = ResourceManager.GetObject("monsters", resourceCulture);
@@ -506,6 +566,36 @@ namespace Server_Console.Properties {
         internal static System.Drawing.Bitmap monsters_h {
             get {
                 object obj = ResourceManager.GetObject("monsters_h", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap MYSQL {
+            get {
+                object obj = ResourceManager.GetObject("MYSQL", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap MYSQL1 {
+            get {
+                object obj = ResourceManager.GetObject("MYSQL1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap MYSQL2 {
+            get {
+                object obj = ResourceManager.GetObject("MYSQL2", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
