@@ -79,7 +79,7 @@
             // BackgroundDesert
             // 
             BackgroundDesert.Image = Properties.Resources.Desert;
-            BackgroundDesert.Location = new Point(334, 52);
+            BackgroundDesert.Location = new Point(334, 57);
             BackgroundDesert.Name = "BackgroundDesert";
             BackgroundDesert.Size = new Size(305, 215);
             BackgroundDesert.TabIndex = 1;
@@ -109,7 +109,7 @@
             // BackgroundGuy
             // 
             BackgroundGuy.Image = Properties.Resources.Guy;
-            BackgroundGuy.Location = new Point(14, 283);
+            BackgroundGuy.Location = new Point(14, 287);
             BackgroundGuy.Name = "BackgroundGuy";
             BackgroundGuy.Size = new Size(305, 215);
             BackgroundGuy.TabIndex = 4;
@@ -169,7 +169,7 @@
             // BackgroundWater
             // 
             BackgroundWater.Image = Properties.Resources.Water;
-            BackgroundWater.Location = new Point(656, 514);
+            BackgroundWater.Location = new Point(656, 520);
             BackgroundWater.Name = "BackgroundWater";
             BackgroundWater.Size = new Size(305, 215);
             BackgroundWater.TabIndex = 10;
