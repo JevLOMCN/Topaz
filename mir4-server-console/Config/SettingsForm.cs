@@ -7,6 +7,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.ServiceProcess;
+using Microsoft.Win32;
 
 namespace Server_Console.Config
 {
@@ -15,7 +17,65 @@ namespace Server_Console.Config
         public SettingsForm()
         {
             InitializeComponent();
+            DependencyCheck();
         }
+
+        #region DependencyCheck
+        public void DependencyCheck()
+        {
+            CheckApplicationAndServiceStatus("MySQL", MYSQLLabel, "MySQL", @"C:\Program Files\MySQL\MySQL Server", @"SOFTWARE\MySQL AB");
+            CheckApplicationAndServiceStatus("Memurai", MemuraiLabel, "Memurai", @"C:\Program Files\Memurai", @"SOFTWARE\Memurai");
+        }
+
+        private void CheckApplicationAndServiceStatus(string serviceName, Label serviceLabel, string serviceDisplayName, string installPath, string registryKey)
+        {
+            bool isInstalled = IsApplicationInstalled(installPath, registryKey);
+
+            if (isInstalled)
+            {
+                try
+                {
+                    ServiceController sc = new ServiceController(serviceName);
+                    if (sc.Status == ServiceControllerStatus.Running)
+                    {
+                        serviceLabel.Text = $"{serviceDisplayName}: Running";
+                    }
+                    else
+                    {
+                        serviceLabel.Text = $"{serviceDisplayName}: Not running";
+                    }
+                }
+                catch (Exception)
+                {
+                    serviceLabel.Text = $"{serviceDisplayName}: Not running";
+                }
+            }
+            else
+            {
+                serviceLabel.Text = $"{serviceDisplayName}: Not installed";
+            }
+        }
+
+        private bool IsApplicationInstalled(string installPath, string registryKey)
+        {
+            // Check if the application exists in the Program Files directory
+            if (Directory.Exists(installPath))
+            {
+                return true;
+            }
+
+            // Check if the application is registered in the Windows Registry
+            using (RegistryKey key = Registry.LocalMachine.OpenSubKey(registryKey))
+            {
+                if (key != null)
+                {
+                    return true;
+                }
+            }
+
+            return false;
+        }
+        #endregion
 
         #region Background select
         private void BackgroundBeacon_Click(object sender, EventArgs e)

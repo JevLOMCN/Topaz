@@ -41,6 +41,10 @@
             BackgroundWitch = new PictureBox();
             BackgroundWater = new PictureBox();
             BackgroundWoman = new PictureBox();
+            BackgroundLabel = new Label();
+            DependenciesLabel = new Label();
+            MemuraiLabel = new Label();
+            MYSQLLabel = new Label();
             ((System.ComponentModel.ISupportInitialize)BackgroundBeacon).BeginInit();
             ((System.ComponentModel.ISupportInitialize)BackgroundDesert).BeginInit();
             ((System.ComponentModel.ISupportInitialize)BackgroundForest).BeginInit();
@@ -58,7 +62,7 @@
             // BackgroundBeacon
             // 
             BackgroundBeacon.Image = Properties.Resources.Beacon;
-            BackgroundBeacon.Location = new Point(12, 12);
+            BackgroundBeacon.Location = new Point(14, 52);
             BackgroundBeacon.Name = "BackgroundBeacon";
             BackgroundBeacon.Size = new Size(305, 215);
             BackgroundBeacon.TabIndex = 0;
@@ -68,7 +72,7 @@
             // BackgroundDesert
             // 
             BackgroundDesert.Image = Properties.Resources.Desert;
-            BackgroundDesert.Location = new Point(332, 12);
+            BackgroundDesert.Location = new Point(334, 52);
             BackgroundDesert.Name = "BackgroundDesert";
             BackgroundDesert.Size = new Size(305, 215);
             BackgroundDesert.TabIndex = 1;
@@ -78,7 +82,7 @@
             // BackgroundForest
             // 
             BackgroundForest.Image = Properties.Resources.Forest;
-            BackgroundForest.Location = new Point(654, 12);
+            BackgroundForest.Location = new Point(656, 52);
             BackgroundForest.Name = "BackgroundForest";
             BackgroundForest.Size = new Size(305, 215);
             BackgroundForest.TabIndex = 2;
@@ -88,7 +92,7 @@
             // BackgroundGroup
             // 
             BackgroundGroup.Image = Properties.Resources.Group;
-            BackgroundGroup.Location = new Point(979, 12);
+            BackgroundGroup.Location = new Point(981, 52);
             BackgroundGroup.Name = "BackgroundGroup";
             BackgroundGroup.Size = new Size(305, 215);
             BackgroundGroup.TabIndex = 3;
@@ -98,7 +102,7 @@
             // BackgroundGuy
             // 
             BackgroundGuy.Image = Properties.Resources.Guy;
-            BackgroundGuy.Location = new Point(12, 243);
+            BackgroundGuy.Location = new Point(14, 283);
             BackgroundGuy.Name = "BackgroundGuy";
             BackgroundGuy.Size = new Size(305, 215);
             BackgroundGuy.TabIndex = 4;
@@ -108,7 +112,7 @@
             // BackgroundHorn
             // 
             BackgroundHorn.Image = Properties.Resources.Horn_guy;
-            BackgroundHorn.Location = new Point(332, 243);
+            BackgroundHorn.Location = new Point(334, 283);
             BackgroundHorn.Name = "BackgroundHorn";
             BackgroundHorn.Size = new Size(305, 215);
             BackgroundHorn.TabIndex = 5;
@@ -118,7 +122,7 @@
             // BackgroundHorse
             // 
             BackgroundHorse.Image = Properties.Resources.Horse;
-            BackgroundHorse.Location = new Point(654, 243);
+            BackgroundHorse.Location = new Point(656, 283);
             BackgroundHorse.Name = "BackgroundHorse";
             BackgroundHorse.Size = new Size(305, 215);
             BackgroundHorse.TabIndex = 6;
@@ -128,7 +132,7 @@
             // BackgroundIce
             // 
             BackgroundIce.Image = Properties.Resources.Ice;
-            BackgroundIce.Location = new Point(979, 243);
+            BackgroundIce.Location = new Point(981, 283);
             BackgroundIce.Name = "BackgroundIce";
             BackgroundIce.Size = new Size(305, 215);
             BackgroundIce.TabIndex = 7;
@@ -138,7 +142,7 @@
             // BackgroundRun
             // 
             BackgroundRun.Image = Properties.Resources.Run;
-            BackgroundRun.Location = new Point(12, 474);
+            BackgroundRun.Location = new Point(14, 514);
             BackgroundRun.Name = "BackgroundRun";
             BackgroundRun.Size = new Size(305, 215);
             BackgroundRun.TabIndex = 8;
@@ -148,7 +152,7 @@
             // BackgroundWitch
             // 
             BackgroundWitch.Image = Properties.Resources.Witch;
-            BackgroundWitch.Location = new Point(979, 474);
+            BackgroundWitch.Location = new Point(981, 514);
             BackgroundWitch.Name = "BackgroundWitch";
             BackgroundWitch.Size = new Size(305, 215);
             BackgroundWitch.TabIndex = 11;
@@ -158,7 +162,7 @@
             // BackgroundWater
             // 
             BackgroundWater.Image = Properties.Resources.Water;
-            BackgroundWater.Location = new Point(654, 474);
+            BackgroundWater.Location = new Point(656, 514);
             BackgroundWater.Name = "BackgroundWater";
             BackgroundWater.Size = new Size(305, 215);
             BackgroundWater.TabIndex = 10;
@@ -168,19 +172,67 @@
             // BackgroundWoman
             // 
             BackgroundWoman.Image = Properties.Resources.Woman;
-            BackgroundWoman.Location = new Point(332, 474);
+            BackgroundWoman.Location = new Point(334, 514);
             BackgroundWoman.Name = "BackgroundWoman";
             BackgroundWoman.Size = new Size(305, 215);
             BackgroundWoman.TabIndex = 12;
             BackgroundWoman.TabStop = false;
             BackgroundWoman.Click += BackgroundWoman_Click;
             // 
+            // BackgroundLabel
+            // 
+            BackgroundLabel.AutoSize = true;
+            BackgroundLabel.Font = new Font("Segoe UI", 26.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            BackgroundLabel.ForeColor = Color.White;
+            BackgroundLabel.Location = new Point(540, 2);
+            BackgroundLabel.Name = "BackgroundLabel";
+            BackgroundLabel.Size = new Size(206, 47);
+            BackgroundLabel.TabIndex = 13;
+            BackgroundLabel.Text = "Background";
+            // 
+            // DependenciesLabel
+            // 
+            DependenciesLabel.AutoSize = true;
+            DependenciesLabel.Font = new Font("Segoe UI", 26.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            DependenciesLabel.ForeColor = Color.White;
+            DependenciesLabel.Location = new Point(525, 732);
+            DependenciesLabel.Name = "DependenciesLabel";
+            DependenciesLabel.Size = new Size(238, 47);
+            DependenciesLabel.TabIndex = 14;
+            DependenciesLabel.Text = "Dependencies";
+            // 
+            // MemuraiLabel
+            // 
+            MemuraiLabel.AutoSize = true;
+            MemuraiLabel.BackColor = Color.Black;
+            MemuraiLabel.ForeColor = Color.White;
+            MemuraiLabel.Location = new Point(408, 799);
+            MemuraiLabel.Name = "MemuraiLabel";
+            MemuraiLabel.Size = new Size(55, 15);
+            MemuraiLabel.TabIndex = 15;
+            MemuraiLabel.Text = "Memurai";
+            // 
+            // MYSQLLabel
+            // 
+            MYSQLLabel.AutoSize = true;
+            MYSQLLabel.BackColor = Color.Black;
+            MYSQLLabel.ForeColor = Color.White;
+            MYSQLLabel.Location = new Point(798, 799);
+            MYSQLLabel.Name = "MYSQLLabel";
+            MYSQLLabel.Size = new Size(45, 15);
+            MYSQLLabel.TabIndex = 16;
+            MYSQLLabel.Text = "MySQL";
+            // 
             // SettingsForm
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.Black;
-            ClientSize = new Size(1297, 702);
+            ClientSize = new Size(1297, 858);
+            Controls.Add(MYSQLLabel);
+            Controls.Add(MemuraiLabel);
+            Controls.Add(DependenciesLabel);
+            Controls.Add(BackgroundLabel);
             Controls.Add(BackgroundWoman);
             Controls.Add(BackgroundWitch);
             Controls.Add(BackgroundWater);
@@ -210,6 +262,7 @@
             ((System.ComponentModel.ISupportInitialize)BackgroundWater).EndInit();
             ((System.ComponentModel.ISupportInitialize)BackgroundWoman).EndInit();
             ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion
@@ -226,5 +279,9 @@
         private PictureBox BackgroundWitch;
         private PictureBox BackgroundWater;
         private PictureBox BackgroundWoman;
+        private Label BackgroundLabel;
+        private Label DependenciesLabel;
+        private Label MemuraiLabel;
+        private Label MYSQLLabel;
     }
 }
