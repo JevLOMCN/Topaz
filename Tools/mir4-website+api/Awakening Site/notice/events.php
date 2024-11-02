@@ -104,7 +104,7 @@
           <main id="content" class="content">
         <!-- 공통 버튼영역 -->
         <h2 class="content_title">
-    Announcements    </h2>
+    Events    </h2>
     <section class="section_list no_card">
                      
 		<!-- Post 1 -->
@@ -112,14 +112,14 @@
                 <article class="article global glob_event" >
           <div class="article_inner">
             <div class="article_wrap">
-              <a href="/updates/announcements/1" class="article_subject">
-                <em class="article_category">Announcements</em>
-                <span class="subject">Server Dev Update<span></span></span>
+              <a href="/updates/events/1" class="article_subject">
+                <em class="article_category">Events</em>
+                <span class="subject">Event 1<span></span></span>
               </a>
               <dl class="item_info">
                 <dt class="hidden">Writer</dt>
                 <dd>
-                  <a href="/news/announcements/1" class="author"><span class="user_icon" style="background-image: url(https://file.mir4global.com/mir4-forum/img/desktop/icon/person.png);"></span><em>JEV</em></a>                </dd>
+                  <a href="/updates/events/1" class="author"><span class="user_icon" style="background-image: url(https://file.mir4global.com/mir4-forum/img/desktop/icon/person.png);"></span><em>JEV</em></a>                </dd>
                 <dt class="hidden">Date</dt>
                 <dd>07.11.23</dd>
               </dl>
@@ -130,14 +130,14 @@
                 <article class="article global glob_notice" >
           <div class="article_inner">
             <div class="article_wrap">
-              <a href="https://forum.mir4global.com/post/189" class="article_subject">
-                <em class="article_category">Event</em>
-                <span class="subject">Event 1<span></span></span>
+              <a href="" class="article_subject">
+                <em class="article_category">Events</em>
+                <span class="subject">Event 2<span></span></span>
               </a>
               <dl class="item_info">
                 <dt class="hidden">Writer</dt>
                 <dd>
-                  <a href="https://forum.mir4global.com/user/post/66" class="author"><span class="user_icon" style="background-image: url(https://file.mir4global.com/mir4-forum/img/desktop/icon/person.png);"></span><em>Jev</em></a>                </dd>
+                  <a href="" class="author"><span class="user_icon" style="background-image: url(https://file.mir4global.com/mir4-forum/img/desktop/icon/person.png);"></span><em>Jev</em></a>                </dd>
                 <dt class="hidden">Date</dt>
                 <dd>21.09.15</dd>
               </dl>

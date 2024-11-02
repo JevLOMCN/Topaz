@@ -8,13 +8,13 @@ require_once 'config/base.php';
 
 <div class="container">
 
-    <h1>Topaz Mir 4 Community</h1>
+    <h1>AVA Mir 4 Community</h1>
 
     <div class="flex-container">
 
 
      <div class="container halfsection">
-     <h2>Topaz Mir 4 Discord</h2>
+     <h2>AVA Mir 4 Discord</h2>
      <a href="https://discord.gg/KCnHvwJJWN"><img src="static/image/Discord_button.png" /></a>
      </div>
 

@@ -51,7 +51,7 @@ function getClass($searchCriteria) {
                 <a href="?lang=tl">Tagalog</a>
             </div>
 
-            <h1>Topaz Mir 4 Rankings</h1>
+            <h1>AVA Mir 4 Rankings</h1>
 
 
 

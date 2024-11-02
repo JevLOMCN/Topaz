@@ -2,10 +2,10 @@
 // translations.php
 return [
     'en' => [
-        'title' => 'Topaz Mir 4',
+        'title' => 'AVA Mir 4',
         'title-home' => 'Home',
         'title-install' => 'Installation',
-        'title-topazrank' => 'Topaz Rankings',
+        'title-avarank' => 'AVA Rankings',
         'title-globalrank' => 'Global Rankings',
         'title-support' => 'Support',
         'title-news' => 'News',

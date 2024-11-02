@@ -16,7 +16,7 @@
                         <div class="infoWrap">
                           <div class="mt no1">
                             <div class="tit01">Beta Teaser Trailer</div>
-                            <div class="tit02">Topaz</div>
+                            <div class="tit02">AVA</div>
                           </div>
                           <div class="mt no2">
                             <div class="videoStory">
@@ -759,7 +759,7 @@
                         <li>E-mail: <span>admin@thelegendofmir.uk</span></li>
                         <li><a href="tos" target="_blank">Terms of Use</a></li>
                       </ul>
-                      <p class="copyright">ⓒ Topaz. All rights reserved.</p>
+                      <p class="copyright">ⓒ AVA. All rights reserved.</p>
                     </div>
                   </footer>
 

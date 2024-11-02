@@ -19,8 +19,8 @@ require_once 'config/base.php';
 
 <div class="container halfsection">
 <h1>Server</h1><br>
-<h2>Q: When will Topaz Mir 4 Launch?<br>
-A: When a new server is launched, it will be announced on the website and also communicated through the official Topaz MIR4 Discord.
+<h2>Q: When will AVA Mir 4 Launch?<br>
+A: When a new server is launched, it will be announced on the website and also communicated through the official AVA MIR4 Discord.
 <br><br>
 Q: Can I switch servers with my characters?<br>
 A: No, server transferring is not possible yet.
@@ -31,7 +31,7 @@ A: No, server transferring is not possible yet.
 
 
 <h1>Accounts</h1><br>
-<h2>Q: Do I have to log in through a social media account to play Topaz MIR4?<br>
+<h2>Q: Do I have to log in through a social media account to play AVA MIR4?<br>
 A: No! unlike Global, you do NOT need to have a social media account (or steam) to start playing.
 <br><br>
 Q: How many accounts can I create?<br>
@@ -52,7 +52,7 @@ Q: Can I play on different servers with the same account at the same time?<br>
 A: No! You can not log in with the same account on different servers at the same time or play with two characters of the same account at the same time. Instead, you can create new accounts and play them concurrently as mentioned before.
 <br><br>
 Q: Can I play using an emulator like BlueStacks, LDPlayer or similar?<br>
-A: Although an Android version is planned for future release, it is unclear at this time what emulators, if any, will be supported. As the potential for cheating is significantly increased through the use of emulation, it is unlikely that Topaz Mir 4 will support emulation.
+A: Although an Android version is planned for future release, it is unclear at this time what emulators, if any, will be supported. As the potential for cheating is significantly increased through the use of emulation, it is unlikely that AVA Mir 4 will support emulation.
 <br><br>
 Q: Am I allowed to use VPN while playing?<br>
 A: At the time of writing, There are no Geographical IP Restrictions for players connecting to the game and you can use a VPN of your choice. However, please be aware that VPN connections add additional data and computing requirements and may cause network or graphical performance issues on slower internet connections and depending on your VPN provider.
@@ -67,7 +67,7 @@ A: Sure, why not.
 
 <h1>Crypto</h1><br>
 <h2>Q: Will NFTs/DRACO be available?<br>
-A: After much internal debate, Crypto features will not be included in Topaz Mir 4.
+A: After much internal debate, Crypto features will not be included in AVA Mir 4.
 </h2>
 
 </div>
@@ -106,7 +106,7 @@ A: The only way to trade items to other players is through the market. There is 
 <div class="container halfsection">
 
 <h1>Cash shop</h1><br>
-<h2>Q: Will Topaz Mir 4 Have a CashShop?<br>
+<h2>Q: Will AVA Mir 4 Have a CashShop?<br>
 A: Yes, although, it is unclear at this time how this will be implemented.<br><br>
 
 Q: I topped up gold but it is missing<br>

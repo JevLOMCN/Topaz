@@ -178,18 +178,18 @@ $current_translations = $translations[$lang];
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <!-- Meta for Web Crawlers (Bing/Google) -->
 <meta name="robots" content="index,follow">
-<meta name="author" content="Topaz">
-<meta name="keywords" content="Topaz; warrior; sorcerer; taoist; lancer; arbalist; dragon flame; dragon tornado; ray of light; dragon spear; arrow rain; mir4; mir4 game; the legend of mir; mir4 video; pay to earn; p2e; nft; mir4 2021; mir4 download; mir4 android; mir4 ios; mir4 news; mir4 available; mir4 beta; mir4 code; mir4 bot; mir4 good; mir4 graphics; mir4 guide; mir4 iPhone; mir4 launch; mir4 story; mir4 mobile; mir4 official; mir4 open; mir4 PC; mir4 pre-register; mir4 pre-registration; mir4 preview; mir4 project; mir4 register; mir4 registration; mir4 release; mir4 review; mir4 test; mir4 hack; mir4 walkthrough; mir4 wiki; mira; play mir4; adventure story; open world game; KPRG; MMORPG; rpg games; mobile game; action RPG; cross platfrom game; great mobile game; best mobile game; sandbox adventure RPG; multiple platforms; multiplayer mobile game; Action role-playing game;">
+<meta name="author" content="AVA">
+<meta name="keywords" content="ava; warrior; sorcerer; taoist; lancer; arbalist; dragon flame; dragon tornado; ray of light; dragon spear; arrow rain; mir4; mir4 game; the legend of mir; mir4 video; pay to earn; p2e; nft; mir4 2021; mir4 download; mir4 android; mir4 ios; mir4 news; mir4 available; mir4 beta; mir4 code; mir4 bot; mir4 good; mir4 graphics; mir4 guide; mir4 iPhone; mir4 launch; mir4 story; mir4 mobile; mir4 official; mir4 open; mir4 PC; mir4 pre-register; mir4 pre-registration; mir4 preview; mir4 project; mir4 register; mir4 registration; mir4 release; mir4 review; mir4 test; mir4 hack; mir4 walkthrough; mir4 wiki; mira; play mir4; adventure story; open world game; KPRG; MMORPG; rpg games; mobile game; action RPG; cross platfrom game; great mobile game; best mobile game; sandbox adventure RPG; multiple platforms; multiplayer mobile game; Action role-playing game;">
 <meta name="description" content="From my battle, to our war. In the vast world of MIR4, you participate in expeditions, meet diverse characters with unique personalities and abilities, and fight powerful enemies, all on your journey to becoming king. But no king rules forever, so several growth systems will assist you in the war to conquer the world."> 
 <!-- Meta for Twitter -->
-<meta name="twitter:title" content="Topaz MIR4">
+<meta name="twitter:title" content="AVA MIR4">
 <meta name="twitter:image" content="https://mirfiles.com/resources/mir2/users/Jev/Mir%204/1.png">
 <meta name="twitter:description" content="From my battle, to our war. In the vast world of MIR4, you participate in expeditions, meet diverse characters with unique personalities and abilities, and fight powerful enemies, all on your journey to becoming king. But no king rules forever, so several growth systems will assist you in the war to conquer the world.">
 <meta name="twitter:card" content="summary_large_image">
 <!-- Meta for Open Graph -->
 <meta property="og:type" content="website">
 <meta property="og:locale" content="en_US">
-<meta property="og:title" content="Topaz MIR4">
+<meta property="og:title" content="AVA MIR4">
 <meta property="og:image" content="https://mirfiles.com/resources/mir2/users/Jev/Mir%204/1.png">
 <meta property="og:description" content="From my battle, to our war. MIR4 is the successor of the traditional Legend of Mir series. In this vast world, you participate in expeditions, meet diverse characters with unique personalities and abilities, and fight powerful enemies together, all on your journey to becoming king. But no king rules forever, so several growth systems will assist you in the war to conquer the world.">
 
@@ -252,7 +252,7 @@ $current_translations = $translations[$lang];
 <div id="viewport" data-nosnippet="">
     <div class="head">
         <div class="in">
-            <h1><a href="/">From my battle, to our war. MIR4: Topaz</a></h1>
+            <h1><a href="/">From my battle, to our war. MIR4: AVA</a></h1>
             <div class="rightSide">
                 <div class="navList">
 
@@ -271,9 +271,10 @@ $current_translations = $translations[$lang];
                         
                         <ul class="subGnb">
                             <li><a href="community" target="_self"><?php echo $current_translations['title-community']; ?></a></li>
-                            <li><a href="news" target="_blank"><?php echo $current_translations['title-news']; ?></a></li>
+                            <li><a href="https://thelegendofmir.uk/news" target="_blank"><?php echo $current_translations['title-news']; ?></a></li>
                         </ul>
-
+                            <ul class="subGnb">
+                        </ul>
                     </li>
 
                     <!-- Support -->
@@ -307,6 +308,7 @@ $current_translations = $translations[$lang];
                             <li><a href="tools" target="_self"><?php echo $current_translations['title-tools']; ?></a></li>
                             <li><a href="https://www.lomcn.net/wiki/index.php/MIR4" target="_blank">WIKI</a></li>
                             <li><a href="https://wemade.thelegendofmir.uk/" target="_blank"><?php echo $current_translations['switchsite']; ?></a></li>
+                            <li><a href="database" target="_blank">Database</a></li>
                         </ul>
                     </li>    
                     

@@ -33,7 +33,7 @@ require_once 'config/base.php';
 <div class="container section">
 <div style="text-align: center;">
 <a href="/">
-        <img src="static/image/h1_logo_w.png" alt="Topaz Mir 4" height="40">
+        <img src="static/image/h1_logo_w.png" alt="AVA Mir 4" height="40">
     </a>
 </div>
     <h1>Installation</h1>
@@ -53,7 +53,7 @@ require_once 'config/base.php';
 
 <div style="text-align: center;">
 <a href="/">
-        <img src="static/image/h1_logo_w.png" alt="Topaz Mir 4" height="40">
+        <img src="static/image/h1_logo_w.png" alt="AVA Mir 4" height="40">
     </a>
 </div>
     <h1>Known Errors</h1>

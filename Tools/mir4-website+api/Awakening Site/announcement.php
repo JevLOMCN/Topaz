@@ -68,7 +68,7 @@ var titleArray = {"en":"Server Dev Update - June 7th",};
 var contentArray = {
     "en": `From my battle to our war, MMORPG MIR4
 
-Greetings, This is Topaz MIR4. 
+Greetings, This is AVA MIR4. 
 
 Server Update.
 

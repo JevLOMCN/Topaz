@@ -6,7 +6,7 @@ require_once 'config/base.php';
 <body>
         <div class="container">
         <div id="logomir4"></div>
-        <h2>Register - Topaz MIR4 Alpha</h2>
+        <h2>Register - AVA MIR4 Alpha</h2>
             <div class="container halfsection">
             
             <!-- Formulário corrigido -->

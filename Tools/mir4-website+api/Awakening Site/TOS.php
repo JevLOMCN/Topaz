@@ -126,7 +126,7 @@
         <div class="section">
             <h1>Acceptance Of Terms:</h1>
             <p>
-            1.1. By creating an account on Topaz MIR4, you agree to comply with and be bound by the following Terms and Conditions of Use.
+            1.1. By creating an account on AVA MIR4, you agree to comply with and be bound by the following Terms and Conditions of Use.
             </p>
             <p>
             1.2. If you do not agree with any of these terms, please do not use our services.
@@ -135,7 +135,7 @@
         <div class="section">
             <h1>Eligibility:</h1>
             <p>
-            2.1. To register and play Topaz MIR4, you must be at least 18 years old or have permission from your parents or legal guardian.
+            2.1. To register and play AVA MIR4, you must be at least 18 years old or have permission from your parents or legal guardian.
             </p>
         </div>
         <div class="section">
@@ -189,7 +189,7 @@
     4.5. Black Market
 </p>
 <p> 
-    4.5.1. Any account or items acquired, sold, or traded on black markets, without any intervention or authorization from the Topaz MIR4 team, will not receive support.
+    4.5.1. Any account or items acquired, sold, or traded on black markets, without any intervention or authorization from the AVA MIR4 team, will not receive support.
 </p>
 <p> 
     4.5.2. If you acquire an account or items in an unauthorized manner, you assume all risks involved, and we will not be responsible for any issues arising from such transactions.
@@ -245,7 +245,7 @@
         <div class="section">
             <h1>Intellectual Property Rights:</h1>
             <p>
-                5.1. All rights to the Topaz MIR4 game, including but not limited to graphics, sounds, music, and code, belong exclusively to its creators and licensors.
+                5.1. All rights to the AVA MIR4 game, including but not limited to graphics, sounds, music, and code, belong exclusively to its creators and licensors.
             </p>
             <p>
                 5.2. You may not copy, modify, distribute, or create derivative works based on the game without prior written authorization.
@@ -267,7 +267,7 @@
         <div class="section">
             <h1>Refund Policy:</h1>
             <p>
-            8.1. All purchases made on Topaz MIR4 are final and non-refundable.
+            8.1. All purchases made on AVA MIR4 are final and non-refundable.
             </p>
             <p>
             8.2. This includes, but is not limited to, purchases of virtual currency, items, subscriptions, and other digital content.  
@@ -279,10 +279,10 @@
             9.1. We reserve the right to modify these Terms and Conditions at any time.
             </p>
             <p>
-            9.2. We will notify users of any changes through the official Topaz MIR4 website.
+            9.2. We will notify users of any changes through the official AVA MIR4 website.
             </p>
             <p>
-            9.2. We will notify users of any changes through the official Topaz MIR4 website.    
+            9.2. We will notify users of any changes through the official AVA MIR4 website.    
             </p>
         </div>
         <div class="section">
@@ -294,7 +294,7 @@
         <div class="section">
             <h1>Special Provision:</h1>
             <p>
-            11.1. By accepting these Terms and Conditions, you agree that your soul belongs to the Topaz MIR4 team.
+            11.1. By accepting these Terms and Conditions, you agree that your soul belongs to the AVA MIR4 team.
             </p>
         </div>
 

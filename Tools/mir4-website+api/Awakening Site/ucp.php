@@ -8,7 +8,7 @@
 
 
 <head>
-    <title>Topaz MIR4 Control Panel</title>
+    <title>AVA MIR4 Control Panel</title>
 </head>
 
 <body>
