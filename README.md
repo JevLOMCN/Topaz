@@ -242,9 +242,3 @@ Plugin List - [DOWNLOAD](https://mirfiles.com/resources/mir2/users/Jev/Mir%204/M
 > [RageZone](https://forum.ragezone.com/) - RaGEZONE is a website dedicated to the development of massively multiplayer online role-playing games (MMORPGs).
 > 
 > [LOMCN](https://www.lomcn.net/) - The Legend of Mir Community Network is a fan based site on the MMORPG Legend of Mir.
-
-
-<details>
-  <summary>Spoiler warning</summary>
-  Test.
-</details>
