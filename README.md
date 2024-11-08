@@ -1,4 +1,4 @@
-# Legend of Mir 4 Topaz - Official Source
+# Legend of Mir 4 - Official Public Topaz Source
 
 ![image](https://github.com/user-attachments/assets/c5da7c0d-2ecb-40b3-90f5-20e91724d236)
 
