@@ -191,9 +191,9 @@ Plugin List - [DOWNLOAD](https://mirfiles.com/resources/mir2/users/Jev/Mir%204/M
 >
 > [REDACTED](REDACTED) (Redacted for now)
 >
-> [REDACTED](REDACTED) (Redacted for now)
+> [Meacher](https://www.lomcn.net/forum/members/meacher.3993/) (Ex Team Member)
 >
-> [REDACTED](REDACTED) (Redacted for now)
+> [1PKRyan](https://www.lomcn.net/forum/members/1pkryan.13050/) (Ex Team Member)
 >
 > [Wagner](https://www.lomcn.net/forum/members/estregoik.45841/)
 >
