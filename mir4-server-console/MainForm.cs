@@ -1,6 +1,7 @@
 using Server_Console.Config;
 using Server_Console.Database;
 using Server_Console.Database_Tool;
+using Server_Console.JSON;
 using Server_Console.Logs;
 using System.Data;
 using System.Diagnostics;
@@ -271,9 +272,9 @@ namespace Server_Console
         #region Forms
         private void JSONButton_Click(object sender, EventArgs e) //Done
         {
-            // Show JSONForm when JSONImage is clicked
-            JSONForm jsonForm = new JSONForm();
-            jsonForm.Show();
+            // Show Respawn Form
+            JSONForm jSONForm = new JSONForm();
+            jSONForm.Show();
         }
         private void LogsButton_Click(object sender, EventArgs e) //Done
         {

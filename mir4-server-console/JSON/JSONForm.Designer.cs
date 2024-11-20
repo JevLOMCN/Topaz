@@ -34,6 +34,7 @@
             JSONMenu = new MenuStrip();
             Tools = new ToolStripMenuItem();
             ExportJSONsToolStripMenuItem = new ToolStripMenuItem();
+            respawnsToolStripMenuItem = new ToolStripMenuItem();
             ((System.ComponentModel.ISupportInitialize)JsonDataGrid).BeginInit();
             JSONMenu.SuspendLayout();
             SuspendLayout();
@@ -67,7 +68,7 @@
             // JSONMenu
             // 
             JSONMenu.BackColor = SystemColors.Window;
-            JSONMenu.Items.AddRange(new ToolStripItem[] { Tools });
+            JSONMenu.Items.AddRange(new ToolStripItem[] { Tools, respawnsToolStripMenuItem });
             JSONMenu.Location = new Point(0, 0);
             JSONMenu.Name = "JSONMenu";
             JSONMenu.Size = new Size(992, 24);
@@ -84,9 +85,16 @@
             // ExportJSONsToolStripMenuItem
             // 
             ExportJSONsToolStripMenuItem.Name = "ExportJSONsToolStripMenuItem";
-            ExportJSONsToolStripMenuItem.Size = new Size(180, 22);
+            ExportJSONsToolStripMenuItem.Size = new Size(125, 22);
             ExportJSONsToolStripMenuItem.Text = "Export All";
             ExportJSONsToolStripMenuItem.Click += ExportJSONsToolStripMenuItem_Click;
+            // 
+            // respawnsToolStripMenuItem
+            // 
+            respawnsToolStripMenuItem.Name = "respawnsToolStripMenuItem";
+            respawnsToolStripMenuItem.Size = new Size(71, 20);
+            respawnsToolStripMenuItem.Text = "Respawns";
+            respawnsToolStripMenuItem.Click += respawnsToolStripMenuItem_Click;
             // 
             // JSONForm
             // 
@@ -116,5 +124,6 @@
         private MenuStrip JSONMenu;
         private ToolStripMenuItem Tools;
         private ToolStripMenuItem ExportJSONsToolStripMenuItem;
+        private ToolStripMenuItem respawnsToolStripMenuItem;
     }
 }

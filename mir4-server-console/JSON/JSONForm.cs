@@ -1,4 +1,5 @@
 ﻿using Newtonsoft.Json;
+using Server_Console.JSON;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -292,5 +293,12 @@ namespace Server_Console
             }
         }
         #endregion
+
+        private void respawnsToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            RespawnForm respawnForm = new RespawnForm();
+            respawnForm.Show();
+            this.Close();
+        }
     }
 }
