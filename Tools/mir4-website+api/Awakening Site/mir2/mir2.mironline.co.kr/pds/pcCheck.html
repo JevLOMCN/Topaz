@@ -1,0 +1,323 @@
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="ko">
+
+<!-- Mirrored from mir2.mironline.co.kr/pds/pcCheck by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 11 Oct 2024 18:22:10 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>
+	<!-- HEADER -->
+	
+
+
+
+
+
+<meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+<meta name="viewport" content="width=1232" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="description" content="미르2" />
+<title>미르2</title>
+
+<!--메인 및 서브페이지 구분 style 적용-->
+<script type="text/javascript" src="../../web-cdn.mironline.co.kr/ui/common/jquery/jquery-1.7.2.min.js"></script>
+
+	<link rel='stylesheet' href='../sitelib/common.css' type='text/css'/>
+	<link rel='stylesheet' href='../sitelib/contents_new.css' type='text/css'/>
+	<script type="text/javascript" src="../sitelib/jquery.verticalRolling.js"></script>
+	<script type="text/javascript" src="../sitelib/jQuery.formSelectbox.js"></script>
+	<script type="text/javascript" src="../sitelib/jQuery.modal.js"></script>
+	<script type="text/javascript" src="../sitelib/sub_ui.js"></script>
+	<script type="text/javascript" src="../sitelib/ranking.js"></script>
+
+<script type="text/javascript" src="../sitelib/commonab8d.js?ver=130405"></script>
+<script type="text/javascript" src="../../web-cdn.mironline.co.kr/ui/common/plugin/jquery.touchswipe.js"></script>
+<script type="text/javascript" src="../sitelib/jQuery.fadeslide.js"></script>
+<script type="text/javascript" src="../sitelib/jQuery.slide.navi.js"></script>
+<script type='text/javascript' src='../sitelib/activex.js'></script>
+<script type='text/javascript' src='../sitelib/js_common_activex.js'></script>
+    
+
+<!--[if IE]><script type="text/javascript" src="/sitelib/html5.js"></script><![endif]-->
+<!--[if IE 6]>
+<script type="text/javascript" src="/sitelib/js_DD_belatedPNG_0.0.8a.js"></script>
+<script type="text/javascript">DD_belatedPNG.fix('.png');</script>
+<![endif]-->
+
+	<!-- HEADER -->
+			
+	<script type="text/javascript" language="javascript">
+	<!--		
+var bPcHealthCheck = false;
+
+	var Window_ID_Sysobj;
+function chkPcInfo(){
+	     var o = new comDomHandling();					// comDomHandling 객체 생성
+		 var obj = o.setInstall("systemobserver");		// systemobserver의 ActiveX 설치 후 객체 반환
+		 if(obj != null && obj != undefined){			// 설치가 이상 없이 이루어 졌다면
+			try{
+				obj.GetInformation();       // 메서드 호출을 통해 각 시스템 정보 확인
+				document.getElementById("infoOS").innerHTML =  obj.GetOSInfo();			// OS 정보 
+				document.getElementById("infoCPU").innerHTML = obj.GetCPUInfo();		// CPU 정보
+				document.getElementById("infoRAM").innerHTML = obj.GetRAMInfo();		// RAM 정보
+				document.getElementById("infoVGA").innerHTML = obj.GetVGAInfo();		// VGA 카드 정보
+				document.getElementById("infoSND").innerHTML= obj.GetSoundInfo();		// 사운드 카드 정보
+				document.getElementById("infoDX").innerHTML = obj.GetDXInfo();			// Direct X 정보
+				document.getElementById("infoBV").innerHTML = obj.GetIEVer();				// 브라우저 정보
+
+				document.getElementById("OSInfo").value = obj.GetOSInfo();
+				document.getElementById("CPUInfo").value = obj.GetCPUInfo()+"!!";
+				document.getElementById("MEMInfo").value = obj.GetRAMInfo();
+				document.getElementById("VGAInfo").value = obj.GetVGAInfo();
+				document.getElementById("SNDInfo").value = obj.GetSoundInfo();
+				document.getElementById("DXInfo").value = obj.GetDXInfo();
+				document.getElementById("BVInfo").value = obj.GetIEVer();
+				
+				
+				clearInterval(Window_ID_Sysobj);
+			}catch(e){
+			}
+		 }
+		 o = null;           // 객체 초기화
+	}
+	
+function setDefaultActiveX(){
+	    var o = new comDomHandling();   // comDomHandling 객체 생성
+		obj = o.setInstall("systemobserver");
+		o = null;
+		Window_ID_Sysobj = window.setInterval("setAutoSysObserver()",10);
+}
+function setAutoSysObserver(){
+	var o = new comDomHandling();
+	var obj = o.getInstall("systemobserver");
+	if(obj){chkPcInfo();}
+	o = null;
+}
+
+	
+/* function chkPcInfo()
+	{		
+		if(!bPcHealthCheck){			
+			$('.down_myspec dl').show();
+			
+			var o = new comDomHandling2();   // comDomHandling 객체 생성
+			
+			if(o.config.isIE){
+				var obj = o.setInstall("systemobserver");     // systemobserver의 ActiveX 설치 후 객체 반환
+				
+				
+				if(obj != null && obj != undefined){         // 설치가 이상 없이 이루어 졌다면
+					try{
+						obj.GetInformation();       // 메서드 호출을 통해 각 시스템 정보 확인
+												
+						var osInfo = obj.GetOSInfo();
+						var cpuInfo = obj.GetCPUInfo();
+						var ramInfo = obj.GetRAMInfo();
+						var dxInfo = obj.GetDXInfo();
+						var vgaInfo = obj.GetVGAInfo();
+						var soundInfo = obj.GetSoundInfo();
+						var ieInfo = obj.GetIEVer();
+						
+						jQuery("#infoOS")[0].innerHTML = osChk(osInfo);
+						jQuery("#infoCPU")[0].innerHTML = cpuInfo;     
+						jQuery("#infoRAM")[0].innerHTML = ramInfo+", "+dxInfo;
+						jQuery("#infoVGA")[0].innerHTML = vgaInfo;  
+						jQuery("#infoSND")[0].innerHTML= soundInfo;           
+						//jQuery("#infoDX")[0].innerHTML= obj.GetDXInfo();
+						
+						osInfo = osInfo.replace(/  /gi,"");
+						cpuInfo = cpuInfo.replace(/  /gi,"");
+						ramInfo = ramInfo.replace(/  /gi,"");
+						dxInfo = dxInfo.replace(/  /gi,"");
+						vgaInfo = vgaInfo.replace(/  /gi,"");
+						soundInfo = soundInfo.replace(/  /gi,"");
+						ieInfo = ieInfo.replace(/  /gi,"");
+						
+						jQuery("#myInfoOS").val(osInfo);
+						jQuery("#myInfoCPU").val(cpuInfo);     
+						jQuery("#myInfoRAM").val(ramInfo);
+						jQuery("#myInfoVGA").val(vgaInfo);  
+						jQuery("#myInfoSND").val(soundInfo);
+						jQuery("#myInfoDX").val(dxInfo);
+						if(o.config.isIE){
+							jQuery("#myInfoNavi").val("IEexplorer-"+ieInfo);
+						}else if(o.config.isFF){
+							jQuery("#myInfoNavi").val("Firefox-"+ieInfo);
+						}else if(o.config.isCR){
+							jQuery("#myInfoNavi").val("Chrome-"+ieInfo);
+						}else{
+							jQuery("#myInfoNavi").val("Unknown-"+ieInfo);
+						}
+						
+						document.domain="mironline.co.kr";
+						bPcHealthCheck = true;
+						svPcInfo();
+						pcHealthCheck(true);
+					}catch(ex){}
+				}else {
+					alert("PC사양체크를 위한 ActiveX가 정상적으로 설치되지 않았습니다. \n\n 동일한 현상이 계속될 경우 [새로고침] 후 이용해 주시기 바랍니다.");
+				}
+			}else{//크롬, 파폭
+				var mimetype2 = navigator.mimeTypes["application/wemade-system-observer"];
+			
+				//for(i=0;i<navigator.mimeTypes.length;i++)
+				//{
+				//	alert(navigator.mimeTypes[i].type);	
+				//}
+
+				if(mimetype2 && mimetype2.enabledPlugin){
+					try {
+						var SystemObserverPluginObj = document.getElementById('embed2');
+						var osInfo = SystemObserverPluginObj.GetOSInfo();
+			            var cpuInfo = SystemObserverPluginObj.GetCPUInfo();
+			            var ramInfo = SystemObserverPluginObj.GetRAMInfo(); ;
+			            var vgaInfo = SystemObserverPluginObj.GetVGAInfo();
+			            var soundInfo = SystemObserverPluginObj.GetSoundInfo();
+			            var dxInfo = SystemObserverPluginObj.GetDXInfo();
+			            var ieInfo = SystemObserverPluginObj.GetIEVer();
+			            jQuery("#infoOS")[0].innerHTML = osInfo;
+						jQuery("#infoCPU")[0].innerHTML = cpuInfo;     
+						jQuery("#infoRAM")[0].innerHTML = ramInfo+", "+dxInfo;
+						jQuery("#infoVGA")[0].innerHTML = vgaInfo;  
+						jQuery("#infoSND")[0].innerHTML= soundInfo;       
+						//document.end();						
+						osInfo = osInfo.replace(/  /gi,"");
+						cpuInfo = cpuInfo.replace(/  /gi,"");
+						ramInfo = ramInfo.replace(/  /gi,"");
+						dxInfo = dxInfo.replace(/  /gi,"");
+						vgaInfo = vgaInfo.replace(/  /gi,"");
+						soundInfo = soundInfo.replace(/  /gi,"");
+						ieInfo = ieInfo.replace(/  /gi,"");
+						
+						jQuery("#myInfoOS").val(osInfo);
+						jQuery("#myInfoCPU").val(cpuInfo);     
+						jQuery("#myInfoRAM").val(ramInfo);
+						jQuery("#myInfoVGA").val(vgaInfo);  
+						jQuery("#myInfoSND").val(soundInfo);
+						jQuery("#myInfoDX").val(dxInfo);
+						if(o.config.isIE){
+							jQuery("#myInfoNavi").val("IEexplorer-"+ieInfo);
+						}else if(o.config.isFF){
+							jQuery("#myInfoNavi").val("Firefox-"+ieInfo);
+						}else if(o.config.isCR){
+							jQuery("#myInfoNavi").val("Chrome-"+ieInfo);
+						}else{
+							jQuery("#myInfoNavi").val("Unknown-"+ieInfo);
+						}
+						
+						document.domain="mironline.co.kr";
+						bPcHealthCheck = true;
+						svPcInfo();
+						pcHealthCheck(true);
+						
+					}catch(e){
+						SystemObserverPluginObj = null;
+						//alert(e);
+					}
+				}else{
+					
+					npPlugInMessage();
+					//플러그인 다운로드
+					if(o.config.isCR){
+						$("#_npPlugInDown").attr('src','/sitelib/activex/Wemade Integration Manager 1.0.0.11.exe');
+					}
+				}
+			}
+			o = null;// 객체 초기화
+			
+		}else{
+			clearInterval(Window_ID_Sysobj);
+			alert("이미 PC사양 체크를 하셨습니다.");
+		}
+	} */
+	
+	function osChk(request_os){
+		
+		str14 = request_os.substring(request_os.indexOf("Windows"),request_os.indexOf("Windows")+14);
+		str10 = request_os.substring(request_os.indexOf("Windows"),request_os.indexOf("Windows")+10);
+
+		//alert("window.navigator.appVersion=\n"+request_os+"\n\n"+"Window글자부터 14자리="+str14+"\n\n"+"Window글자부터 10자리="+str10);
+
+		if(str14=="Windows NT 5.0") result = "Windows 2000";
+		else if(str14=="Windows NT 4.0") result = "Windows NT 4.0";
+		else if(str14=="Windows NT 5.1") result = "Windows XP";
+		else if(str14=="Windows NT 5.2") result = "Windows 2003";
+		else if(str14=="Windows NT 6.1") result = "Windows 7";
+		else if(str10=="Windows 98") result = "Windows 98";
+		else if(str10=="Windows 95") result = "Windows 95";
+		else result = "Windows";
+		
+		return result;
+	}
+	
+	function npPlugInMessage(){
+		alert("PC사양체크에 필요한 플러그인이 없습니다.\n플러그인 설치 후 게임 실행 바랍니다.");
+		document.location.reload();
+	}
+	
+	function pcHealthCheck(data){
+		parent.bPcHealth = data;
+		parent.setBPcHealth(data);
+	}
+	
+	function svPcInfo(){
+		var f = document.sform;
+		f.target="_ifrmPcCheck";
+		f.method="post";
+		f.action="/pcInfo/regist";
+		f.submit();
+	}
+	//-->
+	</script>
+</head>
+<body leftmargin="0px" scroll="N">
+
+
+	<br>
+	<div class="down_myspec">
+		<h4><img src="../../web-cdn.mironline.co.kr/mir2/2013_grand/contents/h4_pcspec.gif" alt="게임을 즐기기 위해 내 PC사양을 확인해 보세요." /></h4>
+		
+		
+		
+			<br>
+
+
+			<a href="javascript:$('.down_myspec dl').css('display','none');alert('로그인 후 사용 가능합니다.');" class="btn_pcspec"><img src="../../web-cdn.mironline.co.kr/mir2/2013_grand/contents/btn_pcspec.jpg" alt="내 PC사양 확인하기" /></a>
+		
+						
+		
+		<dl class="fix" style="display:none">
+			<dt>운영체제 (OS)</dt>
+			<dd><span id="infoOS"></span></dd>
+			<dt>CPU</dt>
+			<dd><span id="infoCPU"></span></dd>
+			<dt>메모리</dt>
+			<dd><span id="infoRAM"></span></dd>
+			<dt>그래픽카드</dt>
+			<dd><span id="infoVGA"></span></dd>
+			<dt>사운드카드</dt>
+			<dd><span id="infoSND"></span></dd>
+		</dl>
+	</div>
+
+	<form name="sform" style="padding:0; magin:0;width:0;height:0;">
+		<input id="myInfoOS" type="hidden"  name="myInfoOS" value=""/>
+		<input id="myInfoCPU" type="hidden"  name="myInfoCPU" value=""/>
+		<input id="myInfoRAM" type="hidden"  name="myInfoRAM" value=""/>
+		<input id="myInfoVGA" type="hidden"  name="myInfoVGA" value=""/>
+		<input id="myInfoSND" type="hidden"  name="myInfoSND" value=""/>
+		<input id="myInfoDX" type="hidden"  name="myInfoDX" value=""/>
+		<input id="myInfoNavi" type="hidden"  name="myInfoNavi" value=""/>
+		<input id="INF_JoinType" type="hidden"  name="INF_JoinType" value="down"/>
+	</form>
+	<iframe id="_ifrmPcCheck" name="_ifrmPcCheck" src="#" width="0" height="0" frameborder="0"></iframe>
+	<iframe id="_npPlugInDown" name="_npPlugInDown" src="#" width="0" height="0" frameborder="0"></iframe>
+</body>
+
+<!-- Mirrored from mir2.mironline.co.kr/pds/pcCheck by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 11 Oct 2024 18:22:12 GMT -->
+</html>

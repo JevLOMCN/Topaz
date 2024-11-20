@@ -1,0 +1,521 @@
+/*reset css*/
+body,p,h1,h2,h3,h4,h5,h6,dl,dt,dd,ul,ol,li,fieldset,form,input{margin:0;padding:0}
+body{font-family:'돋움',Dotum,Helvetica,Sans-serif;font-size:12px;}
+table{border-collapse:collapse;border-spacing:0}
+em,address,var{font-style:normal}
+dl,ul,ol{list-style:none}
+input {font-family:'돋움',Dotum,Helvetica,Sans-serif;font-size:12px;color:#999}
+input,img{vertical-align:middle}
+img,fieldset{border:0}
+button{overflow:hidden;margin:0;padding:0;border:0;cursor:pointer}
+legend,caption{visibility:hidden;overflow:hidden;height:0;font-size:0;line-height:0}
+a{text-decoration:none}
+a:hover,a:active,a:focus{text-decoration:underline}
+.hide{visibility:hidden;position:absolute;top:0;left:0;width:1px;height:1px;font-size:0;line-height:0}
+.fix{zoom:1;}.fix:after{content:".";display:block;font-size:0;height:0px;line-height:0;clear:both;}
+
+
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section {display:block;}
+blockquote, q {quotes:none;}
+blockquote:before, blockquote:after,q:before, q:after {content:'';content:none;}
+
+body{background:url('../../web-cdn.mironline.co.kr/mir2/2013_grand/common/bg_mir.gif') repeat 0 0;}
+.grade{display:block;position:absolute;top:80px;right:115px;}
+
+#sub{position:relative;}
+.bg_subtop1 {background:url('../../web-cdn.mironline.co.kr/mir2/2013_grand/contents/bg_top1.png') no-repeat 50% 0;}
+.bg_subtop2 {background:url('../../web-cdn.mironline.co.kr/mir2/2013_grand/contents/bg_top2.png') no-repeat 50% 0;}
+.bg_subtop3 {background:url('../../web-cdn.mironline.co.kr/mir2/2013_grand/contents/bg_top3.png') no-repeat 50% 0;}
+.bg_subtop4 {background:url('../../web-cdn.mironline.co.kr/mir2/2013_grand/contents/bg_top4.png') no-repeat 50% 0;}
+.bg_subtop5 {background:url('../../web-cdn.mironline.co.kr/mir2/2013_grand/contents/bg_top5.html') no-repeat 50% 0;}
+.bg_subtop6 {background:url('../../web-cdn.mironline.co.kr/mir2/2013_grand/main/bg_top.png') no-repeat 50% 0;}
+.bg_subtop7 {background:url('../../web-cdn.mironline.co.kr/mir2/2013_grand/contents/bg_top6.png') no-repeat 50% 0;}
+
+#sub .container_wrap{background:url('../../web-cdn.mironline.co.kr/mir2/2013_grand/contents/bg_bottom.png') no-repeat 50% 100%;}
+.container_inner{position:relative;width:100%;min-height:1000px;margin:0 auto;overflow:hidden;}
+.bg_container1 {background:url('../../web-cdn.mironline.co.kr/mir2/2013_grand/contents/bg_content01.png') no-repeat 50% 0;}
+.bg_container2 {background:url('../../web-cdn.mironline.co.kr/mir2/2013_grand/contents/bg_content02.png') no-repeat 50% 0;}
+.bg_container3 {background:url('../../web-cdn.mironline.co.kr/mir2/2013_grand/contents/bg_content03.png') no-repeat 50% 0;}
+.bg_container4 {background:url('../../web-cdn.mironline.co.kr/mir2/2013_grand/contents/bg_content04.png') no-repeat 50% 0;}
+.bg_container5 {background:url('../../web-cdn.mironline.co.kr/mir2/2013_grand/contents/bg_content05.html') no-repeat 50% 0;}
+.bg_container6 {background:url('../../web-cdn.mironline.co.kr/mir2/2013_grand/contents/bg_content06.png') no-repeat 50% 0;}
+.bg_container7 {background:url('../../web-cdn.mironline.co.kr/mir2/2013_grand/contents/bg_content07.png') no-repeat 50% 0;}
+.container {width:1000px;margin:0 auto}
+
+.menu_wrap {float:left;padding:0 49px 0 0} 
+.login_wrap {position:relative;width:250px;height:259px;padding:39px 0 0 0;}
+.login_wrap .login_form {padding:14px 0 11px 0}
+.login_wrap .login_form a {position:absolute;top:80px;right:20px}
+.login_wrap .pcroom {padding-left:60px}
+.id_input {display:block;width:158px;height:30px;margin:0 4px 3px 2px;background:url('../../web-cdn.mironline.co.kr/mir2/2013_grand/contents/id_input.gif') no-repeat 0 0;}
+.id_input input {width:140px;margin:8px 0 0 8px;border:0;outline:none;background:transparent}
+.pw_input {display:block;width:168px;height:30px;margin:0 4px 3px 2px;background:url('../../web-cdn.mironline.co.kr/mir2/2013_grand/contents/pw_input.gif') no-repeat 0 0;}
+.pw_input input {width:140px;margin:8px 0 0 8px;border:0;outline:none;background:transparent}
+.join_link {padding:0 0 21px 2px;font-size:11px;color:#c95e5b}
+.join_link a {color:#ebbab6}
+.join_link .join {font-weight:bold}
+
+.after_login {position:relative;width:250px;height:259px;padding:39px 0 0 0;}
+.after_login .login_form {padding:14px 0 11px 0}
+.after_login .login_form a {position:absolute;top:80px;right:20px}
+.after_login .nickname{position:relative;top:2px;display:inline-block;width:107px;color:#fff200;letter-spacing:-1px;}
+.after_login .pcroom {padding-left:8px}
+.after_login .pcroom_on {padding-left:8px}
+.after_login .pcroom_off {margin-left:-1px;padding-left:0}
+.after_login .id_input {display:block;width:158px;height:30px;margin:0 4px 3px 2px;background:url('../../web-cdn.mironline.co.kr/mir2/2013_grand/contents/id_input.gif') no-repeat 0 0;}
+.after_login .id_input input {width:140px;margin:8px 0 0 8px;border:0;outline:none;background:transparent}
+.after_login .pw_input {display:block;width:168px;height:30px;margin:0 4px 3px 2px;background:url('../../web-cdn.mironline.co.kr/mir2/2013_grand/contents/pw_input.gif') no-repeat 0 0;}
+.after_login .pw_input input {width:140px;margin:8px 0 0 8px;border:0;outline:none;background:transparent}
+.after_login .join_link {margin:8px 15px 0 0;padding:0 0 18px 2px;font-size:11px;color:#c95e5b}
+.after_login .join_link a {color:#ebbab6;line-height:17px;}
+.after_login .join_link .join {font-weight:bold}
+.after_login .info{margin:10px 0 0 0;}
+.after_login .info dt{position:relative;top:2px;float:left;margin:0 8px 0 0;font-size:12px;color:#ebbab6;letter-spacing:-1px;}
+.after_login .info dd{float:left;font-family:verdana;font-size:14px;color:#fff200;font-weight:bold;letter-spacing:-1px;}
+.after_login .info ul{margin:4px 0 0 0;padding:10px 0 0 0;background:url('../../web-cdn.mironline.co.kr/mir2/2013_grand/contents/bg_line.jpg') no-repeat 0 0;}
+.after_login .info li{float:left;}
+.after_login .info li.first{margin:0 5px 0 0;}
+
+.submenu {width:250px;margin:25px 0 0 0}
+
+.dicsearch_wrap {padding:30px 0 10px 0}
+.dicsearch_input {float:left;width:190px;height:33px;margin:0 3px 0 0;background:url('../../web-cdn.mironline.co.kr/mir2/2013_grand/contents/dicsearch_input.gif') no-repeat 0 0;}
+.dicsearch_input input {width:170px;margin:10px 0 0 10px;border:0;padding:2px 0 0 0;outline:none;}
+.btn_info a {float:left}
+.btn_info .first {margin:0 2px 0 0}
+
+.content_wrap {float:left;padding:0 0 100px 0}
+.cont_title {width:700px;height:142px;padding:43px 0 0 0;text-align:right;}
+.cont_title .breadcrumbs {padding:13px 0 0 0;color:#ebbab6}
+.cont_title .breadcrumbs a {color:#ebbab6}
+
+.important_news {width:700px;height:55px;padding:43px 0 0 0;background:url('../../web-cdn.mironline.co.kr/mir2/2013_grand/contents/bg_important_news.png') no-repeat 0 0;}
+.important_news h4 {float:left}
+.important_news .news {float:left;width:546px;height:55px !important;overflow:hidden}
+.important_news ul li {position:relative;width:495px;padding:0 23px 0 28px !important;height:55px;line-height:55px;text-align:right}
+.important_news ul li .title {float:left}
+.important_news ul li .title a {font-size:14px;font-weight:bold;color:#fff}
+.important_news ul li .date {font-size:14px;color:#a9c3d7}
+.important_news .news_control {float:right;padding:12px 15px 9px 15px;text-align:center}
+.important_news .news_control a {display:block;width:18px;height:11px;}
+.important_news .news_control .up {margin:0 0 9px 0}
+
+.content {width:700px;padding:30px 0 0 0}
+/*
+.news_tab {border-bottom:2px solid #79706c}
+.news_tab li {float:left;width:86px;height:40px;margin:0 0 -2px 0;text-align:center;line-height:40px;background:url('//web-cdn.mironline.co.kr/mir2/2013_grand/contents/news_tab_off.gif') no-repeat 100% 0;}
+.news_tab li a {display:block;color:#918884;}
+.news_tab li.first {width:87px;margin-left:0 !important;background:url('//web-cdn.mironline.co.kr/mir2/2013_grand/contents/news_tab_off.gif') no-repeat 0 0;}
+.news_tab li.on {width:87px;margin-left:-1px;font-weight:bold;background:url('//web-cdn.mironline.co.kr/mir2/2013_grand/contents/news_tab_on.gif') no-repeat 0 0;}
+.news_tab li.on a {color:#fff;}
+*/
+
+.news_tab {margin:10px 0 0 0;border-bottom:2px solid #79706c;border-left:1px solid #bdb6b2;}
+.news_tab li {float:left;width:85px;height:40px;text-align:center;line-height:40px;margin-bottom:-2px;border-bottom:1px solid #79706c;}
+.news_tab li a {display:block;color:#918884;background:#e3e1e0;border:1px solid #bdb6b2;border-left:none;border-bottom:none;height:37px;padding:1px 0 0 0;}
+.news_tab li.on a {width:85px;height:42px;margin-right:0 !important;font-weight:bold;background:url('../../web-cdn.mironline.co.kr/mir2/2013_grand/contents/search_tab_on.gif') no-repeat 100% 0;color:#fff !important;border:none;}
+
+.list_table {margin:20px 0 0 0;}
+.list_table .col1 {width:70px}
+.list_table .col2 {width:468px}
+.list_table .col3 {width:64px}
+.list_table .col4 {width:98px}
+.list_table thead th {height:37px;line-height:37px;text-align:center;background:url('../../web-cdn.mironline.co.kr/mir2/2013_grand/contents/bg_thead.png') no-repeat center 0;}
+.list_table thead .th_num {background-position:0 0}
+.list_table thead .th_count {background-position:100% 0}
+.list_table tbody td {padding:15px 0 11px 0;text-align:center;color:#8b7f78;font-size:12px;border-bottom:1px solid #bdb6b2}
+.list_table tbody .title {padding-left:20px;text-align:left;}
+.list_table tbody .title strong {letter-spacing:-1px}
+.list_table tbody .title a {display:inline-block;max-width:390px;color:#282625;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;vertical-align:middle;}
+.list_table tbody .title a:hover {font-weight:bold;color:#ba231d;letter-spacing:-1px}
+.list_table tbody .title img {display:inline-block;vertical-align:middle;}
+
+.view_table {width:100%;margin-bottom:0}
+.view_table .col1 {width:585px}
+.view_table .col2 {width:115px}
+.view_table .col3 {width:372px}
+.view_table .col4 {width:126px}
+.view_table .col5 {width:110px}
+.view_table .col6 {width:92px}
+.view_table .col7 {width:590px}
+.view_table .col8 {width:110px}
+.view_table thead th {padding:12px 0 12px 22px;text-align:left;border-top:2px solid #79706c;border-bottom:1px solid #bdb6b2;background-color:#f9f7f5;font-size:14px;font-weight:bold;color:#282625}
+.view_table tbody td {padding:8px 0;color:#282625;border-bottom:1px solid #bdb6b2}
+.view_table tbody td.listView {padding-bottom:20px;border-bottom:none}
+.view_table tbody td em {padding:0 10px;color:#bdb6b2}
+.view_table .date {text-align:right}
+.view_table .count {text-align:center}
+.view_table .name {text-align:left;padding-left:30px}
+.view_table .date02 {text-align:center}
+.view_table .recommend {text-align:center}
+.view_table .date03 {text-align:left;padding-left:20px}
+.view_table .date03 img {margin:-2px 0 0 8px}
+.view_table .join {text-align:center}
+.view_table .join .point_color {font-weight:bold;color:#ba231d}
+.view_table .read_cont {padding:18px 22px 18px 22px;line-height:20px;border-bottom:2px solid #79706c}
+.view_table .read_cont02 {padding:30px 20px;line-height:20px;border-bottom:2px solid #79706c}
+
+.search_wrap {padding:30px 0 10px 0}
+.search_input {float:left;width:210px;height:33px;margin:0 3px 0 0;background:url('../../web-cdn.mironline.co.kr/mir2/2013_grand/contents/search_input.gif') no-repeat 0 0;}
+.search_input input {width:190px;margin:10px 0 0 10px;border:0;outline:none;}
+
+.paging {padding:30px 0;text-align:center}
+.paging div {display:inline-block;}
+.paging .num {float:left;padding:0 9px}
+.paging a {float:left;width:28px;height:28px;line-height:28px;margin:0 0 0 1px;color:#282625;border:1px solid #bdb6b2;background-color:#e3e1e0;text-align:center}
+.paging strong {float:left;width:28px;height:28px;line-height:28px;margin:0 0 0 1px;color:#ba231d;border:1px solid #ba231d;background-color:#fff;text-align:center}
+
+.content_searchwrap {padding:20px 0 0 0;border-top:2px solid #79706c}
+.content_searchwrap form {float:right;width:270px}
+
+
+/* library */
+.dictionSearch{height:135px;margin:47px 0 0 0;background:url('../../web-cdn.mironline.co.kr/mir2/2013_grand/contents/bg_dicbox.png') #f1edeb no-repeat 0 bottom;}
+.dictionSearch .searchWrap {float:left;padding:24px 34px 0 19px;}
+.dictionSearch .searchList{width:380px;height:13px;overflow:hidden;}
+.dictionSearch .searchList a{margin:0 9px 0 0;color:#99908a;}
+.dictionSearch .searchList a.all{font-weight:bold;color:#292726;}
+.dictionSearch .search{margin:8px 0 0 0;}
+.dictionSearch .dictionTxt{float:left;width:320px;height:33px;margin:0 3px 0 0;background:url('../../web-cdn.mironline.co.kr/mir2/2013_grand/contents/bg_search_txt.gif') no-repeat 0 0;}
+.dictionSearch .dictionTxt .searchTxt{width:300px;margin:9px 0 0 15px;font-size:12px;color:#99908a;padding:3px 0 0 0;background-color:#fff;border:0;outline:none}
+.dictionSearch .searchBtn{float:left;}
+.dictionSearch .popularTxt {padding:11px 0 2px 45px;background:url('../../web-cdn.mironline.co.kr/mir2/2013_grand/contents/bg_popular.gif') no-repeat 0 10px;}
+.dictionSearch .popularTxt a {font-weight:bold;color:#99908a}
+.dictionSearch .popularTxt a:hover {color:#292726}
+.dictionSearch .popularTxt em {padding:0 8px 0 6px;color:#99908a}
+.dictionSearch .btnInfo {float:left;padding:1px 0 0 0}
+
+.new_update {float:left;padding:35px 40px 0 0}
+.new_update ul{padding:8px 0 0 0;}
+.new_update li{position:relative;margin:12px 0 0 0;width:320px;}
+.new_update li a{display:block;width:260px;font-size:12px;color:#292726;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;}
+.new_update li a:hover{font-weight:bold;color:#ba231d;letter-spacing:-1px;}
+.new_update li.first a{font-weight:bold;}
+.new_update li.first a:hover{letter-spacing:0;}
+.new_update .date{position:absolute;top:0;right:0;font-size:12px;color:#292726;}
+
+.main_update {float:left;width:340px;padding:35px 0 0 0}
+.main_update h4 {padding:0 0 10px 0}
+.main_update .thumb {position:relative;float:left;margin:0 19px 0 0;}
+.main_update .thumb img {position:relative;z-index:1;}
+.main_update .thumb .line {z-index:2;position:absolute;top:0;left:0;width:140px;height:80px;background:url('../../web-cdn.mironline.co.kr/mir2/2013_grand/contents/diction_thumb.gif') no-repeat 0 0;}
+.main_update .on .thumb .line {background:url('../../web-cdn.mironline.co.kr/mir2/2013_grand/contents/diction_thumb.gif') no-repeat 0 -80px;}
+.main_update li {padding:10px 0 0 0;border-top:1px solid #dddddd;}
+.main_update li.first {border-top:0;}
+.main_update dt { padding:12px 0 0 0; }
+.main_update dt a {font-size:14px;color:#262626;font-weight:bold;}
+.main_update .on dt a {font-size:14px;color:#ba231d;font-weight:bold;}
+.main_update .desc{margin:9px 0 0 0;}
+.main_update .desc a{display:inline-block;width:180px;height:31px;font-size:12px;color:#262626;line-height:17px;word-wrap:break-word}
+.main_update .on .desc a{font-size:12px;color:#ba231d;line-height:17px;}
+
+.dic_list {clear:both;padding:40px 0 0 0}
+.diclist_table {margin:20px 0 0 0;border-bottom:1px solid #bfbbba}
+.diclist_table .col1 {width:174px}
+.diclist_table .col2 {width:174px}
+.diclist_table .col3 {width:173px}
+.diclist_table .col4 {width:174px}
+.diclist_table th {height:33px;line-height:33px;text-align:center;border-top:1px solid #bfbbba;border-right:1px solid #bfbbba;border-bottom:1px solid #bfbbba;background:url('../../web-cdn.mironline.co.kr/mir2/2013_grand/contents/bg_diclist.gif') repeat-x 0 0;}
+.diclist_table tbody th {height:30px \9;line-height:30px \9}
+.diclist_table td {min-height:336px;padding:15px 0 20px 14px;vertical-align:top;letter-spacing:-1px;border-right:1px solid #bfbbba;background-color:#fff}
+.diclist_table td ul {float:left}
+.diclist_table td li {margin:8px 0 0 0}
+.diclist_table td li img {margin:-2px 0 0 4px}
+.diclist_table td a {color:#6f6863}
+.diclist_table td a:hover {letter-spacing:-2px;font-weight:bold;color:#ba231d}
+.diclist_table .first {border-left:1px solid #bfbbba}
+
+.dic_title {padding:10px 0 10px 38px;background:url('../../web-cdn.mironline.co.kr/mir2/2013_grand/contents/bg_title.png') no-repeat 0 2px;}
+.dic_title span {font-size:16px;color:#282625}
+.dic_title em {padding:0 3px;vertical-align:2px;font-size:12px;font-weight:normal;color:#99908a}
+.dic_title strong {font-size:16px;color:#6f6863}
+
+.dic_tab {margin:6px 0 0 0;padding:6px;border:1px solid #c2bdba;background-color:#d4cfcc}
+.dic_tab div {padding:0 20px;border:1px solid #aba6a2;background-color:#fff}
+.dic_tab div p {padding:20px 0 19px 0;}
+.dic_tab div .item_list {border-bottom:1px solid #e2e1e1}
+.dic_tab div p a {color:#6f6863}
+.dic_tab div p a b {letter-spacing:0}
+.dic_tab div p em {padding:0 3px 0 6px;color:#d1c5bd}
+.dic_tab div p a:hover {color:#ba231d;font-weight:bold;letter-spacing:-1px}
+
+.item_wrap {padding:20px 20px 30px 20px}
+.item_wrap h5 {font-size:16px;color:#282625}
+.item_box {margin:10px 0 0 0;border:1px solid #bfbbba;background-color:#fff}
+.item_box .item_txt {min-height:60px;}
+.item_box .item_txt li {padding:10px;}
+.item_box .item_txt .thumb {float:left;width:50px;height:45px;padding:10px;background-color:#000}
+.item_box .item_txt dl {float:left;width:545px;padding:3px 0 3px 20px;}
+.item_box .item_txt dl dt {line-height:22px;font-size:14px;font-weight:bold;color:#282625}
+.item_box .item_txt dl dt em {padding:0 5px;font-weight:normal;color:#e2e1e1}
+.item_box .item_txt dl dt span {font-size:12px;font-weight:normal;color:#ba231d}
+.item_box .item_txt dl dd {line-height:18px;color:#6f6863}
+.item_box .item_value {background-color:#fff}
+.item_box .item_value .col1 {width:72px}
+.item_box .item_value .col2 {width:73px}
+.item_box .item_value .col3 {width:81px}
+.item_box .item_value th {padding:8px 0;font-weight:normal;border-top:1px solid #e2e1e1;border-bottom:1px solid #e2e1e1;border-left:1px solid #e2e1e1;color:#6f6863;background:url('../../web-cdn.mironline.co.kr/mir2/2013_grand/contents/bg_itembox.gif') repeat-x}
+.item_box .item_value td {padding:8px 0;text-align:center;border-left:1px solid #e2e1e1;color:#6f6863}
+.item_box .item_value .first {border-left:0 none}
+
+.dic_commentWrap {border-top:1px solid #7c756f;border-bottom:1px solid #7c756f}
+.dic_commentWrap .comment_input {padding:20px;background-color:#efeeee;}
+.dic_commentWrap .comment_input textarea {width:545px;height:17px;margin:0 6px 0 0;padding:11px 0 8px 20px;font-weight:bold;font:14px dotum;color:#99908a;border:1px solid #79706c;vertical-align:middle;}
+.dic_commentWrap .comment_list {}
+.dic_commentWrap .comment_list li {position:relative;padding:20px;border-top:1px solid #bdb6b2}
+.dic_commentWrap .comment_list .thumb {float:left;width:42px;height:35px;padding:9px;background:url('../../web-cdn.mironline.co.kr/mir2/2013_grand/contents/bg_comment_thumb.jpg') no-repeat}
+.dic_commentWrap .comment_list dl {float:left;width:525px;padding:0 20px}
+.dic_commentWrap .comment_list dl dt {padding:0 0 8px 0;font-size:14px;font-weight:bold;color:#282625}
+.dic_commentWrap .comment_list dl dt em {font-weight:normal}
+.dic_commentWrap .comment_list dl dd {line-height:18px;color:#6f6863}
+.dic_commentWrap .comment_list dl .date {position:absolute;top:20px;right:20px;}
+.dic_commentWrap .comment_list .btn_delete {position:absolute;bottom:20px;right:20px;}
+
+.updatewrap {padding:30px 0}
+.update_date {float:left;padding:0 40px 0 20px}
+.update_date span {float:left}
+.update_desc {float:left;width:258px;height:35px;background:url('../../web-cdn.mironline.co.kr/mir2/2013_grand/contents/update_desc.png') no-repeat 0 3px;}
+.charSearch{height:64px;margin:0 0 35px 0;background:url('../../web-cdn.mironline.co.kr/mir2/2013_grand/contents/bg_dicbox.html') #f1edeb no-repeat 0 bottom;border-top:1px solid #9a908c}
+.charSearch label {float:left;padding:22px 42px 0 20px}
+.charSearch .select {margin:15px 5px 0 0}
+.charSearch .searchwrap {float:left;margin:12px 0 0 5px}
+.charSearch .searchwrap a {float:left}
+.charsearch_input {float:left;width:190px;height:33px;margin:0 3px 0 0;background:url('../../web-cdn.mironline.co.kr/mir2/2013_grand/contents/dicsearch_input.gif') no-repeat 0 0;}
+.charsearch_input input {width:170px;margin:10px 0 0 10px;border:0;outline:none;}
+.rank_tab {width:100%;margin:20px 0 0 0;border-top:2px solid #79706c;background-color:#fff}
+.rank_tab li {float:left;padding:8px 0 8px 20px}
+.rank_tab li a {color:#8b7f78}
+.rank_tab li.on a, .rank_tab li a:hover {font-weight:bold;color:#ba231d;text-decoration:underline;letter-spacing:-1px}
+
+.link_table {border-bottom:1px solid #bfbbba;width:100%;table-layout:fixed;}
+.link_table .col1 {width:68px}
+.link_table .col2 {width:56px}
+.link_table .col3 {width:270px}
+.link_table .col4 {width:56px}
+.link_table .col5 {width:84px}
+.link_table .col6 {width:84px}
+.link_table .col7 {width:82px}
+.link_table thead th {height:37px;line-height:37px;background:url('../../web-cdn.mironline.co.kr/mir2/2013_grand/contents/bg_thead.png') no-repeat center 0;}
+.link_table thead .th_rank {background-position:0 0}
+.link_table thead .th_rate {background-position:100% 0}
+.link_table .rank td {font-weight:bold;letter-spacing:-1px}
+.link_table tr {}
+.link_table td {text-align:center;border-bottom:1px solid #bdb6b2}
+.link_table .title {}
+.link_table .title .titleWrap {z-index:99;position:relative;width:270px;min-height:35px;padding:3px 0 3px 22px}
+.link_table td .thumb {float:left;width:40px;height:33px}
+.link_table td .thumb img {border:1px solid #2a1c13}
+.link_table .on .thumb img {border:1px solid #ba231d}
+.link_table td .thumb_title {float:left;padding:10px 0 0 10px}
+.link_table td .thumb_title a {color:#282625}
+
+/*.link_table .thumb .line {position:absolute;top:-1px;left:-1px;width:42px;height:35px;background:url('//web-cdn.mironline.co.kr/mir2/2013_grand/contents/comment_thumb.gif') no-repeat 0 0;}
+*:first-child+html .link_table .thumb .line {top:0}
+.link_table .on .thumb .line {background:url('//web-cdn.mironline.co.kr/mir2/2013_grand/contents/comment_thumb.gif') no-repeat 0 -35px;}
+*/
+.link_table .on .thumb_title a {font-weight:bold;color:#ba231d;letter-spacing:-1px;text-decoration:underline}
+.link_table .char_pop {z-index:10;display:none;position:absolute;width:352px;height:118px;top:38px;left:22px;background-color:#fff;border:3px solid #99908a}
+.link_table .char_pop .thumb {float:left;width:125px;padding:30px 0 28px 0;text-align:center}
+.link_table .char_pop .thumb span {display:block;padding:11px 0 0 0;font-weight:bold}
+.link_table .char_pop .thumb .hero {padding:3px 0 0 0;color:#8b7f78}
+.link_table .char_pop .link_innertable {float:left;width:198px;margin:10px 0 0 10px}
+.link_table .char_pop .link_innertable .col1 {width:70px}
+.link_table .char_pop .link_innertable .col2 {width:66px}
+.link_table .char_pop .link_innertable .col3 {width:60px}
+.link_table .char_pop .link_innertable th {height:25px;line-height:25px;font-weight:normal;color:#99908a;font-size:11px;border-bottom:1px solid #99908a;background:none}
+.link_table .char_pop .link_innertable .first td {padding:6px 0 0 0}
+.link_table .char_pop .link_innertable td {height:22px;line-height:22px;font-weight:normal;padding:0;color:#99908a;font-size:11px;border:0 none}
+.link_table .char_pop .link_innertable .title {color:#282625}
+.down_rank {padding:0 0 0 11px;background:url('../../web-cdn.mironline.co.kr/mir2/2013_grand/contents/ic_rankdown.png') no-repeat 0 4px;}
+.up_rank {padding:0 0 0 11px;background:url('../../web-cdn.mironline.co.kr/mir2/2013_grand/contents/ic_rankup.png') no-repeat 0 4px;}
+
+.more_box {height:46px;text-align:center;background:url('../../web-cdn.mironline.co.kr/mir2/2013_grand/contents/bg_more.gif') no-repeat 0 0;}
+.more_box .more_rank {float:left;width:640px;padding:16px 0 0 0;text-align:center}
+.more_box .btn_top {float:left;width:60px;padding:10px 0 0 0;text-align:center}
+
+.recommend_itemWrap {border-bottom:2px solid #7c756f}
+.recommend_itemWrap .item_wrap {padding-top:0}
+.recommend_item {padding:30px 20px 71px 20px;background:url('../../web-cdn.mironline.co.kr/mir2/2013_grand/contents/bg_recommend_item.png') no-repeat 0 bottom;}
+.recommend_item .listWrap {padding:29px 9px 29px 9px;background:#fff;border:1px solid #ccc5c5;}
+.recommend_item .listWrap .thumb {position:relative;float:left;width:50px;height:45px;padding:10px;background-color:#000}
+.recommend_item .listWrap .thumb img {position:relative;z-index:1;}
+.recommend_item .listWrap .thumb .line {z-index:2;position:absolute;top:0;left:0;width:70px;height:65px;background:url('../../web-cdn.mironline.co.kr/mir2/2013_grand/contents/diction_thumb.png') no-repeat 0 0;}
+.recommend_item .listWrap .on .thumb .line {background:url('../../web-cdn.mironline.co.kr/mir2/2013_grand/contents/diction_thumb.png') no-repeat 0 -65px;}
+
+.recommend_item .listWrap li {float:left;}
+.recommend_item .listWrap dl {float:left;width:125px;padding:3px 9px}
+.recommend_item .listWrap dt a {font-size:14px;color:#262626;font-weight:bold;}
+.recommend_item .listWrap .on dt a {font-size:14px;color:#ba231d;font-weight:bold;}
+.recommend_item .listWrap .desc {margin:8px 0 0 0;}
+.recommend_item .listWrap .desc a {display:block;height:31px;font-size:12px;color:#262626;line-height:17px;overflow:hidden}
+.recommend_item .listWrap .on .desc a {font-size:12px;color:#ba231d;line-height:17px;}
+.recommend_item .listWrap .date {margin:7px 0 0 0;font-size:12px;color:#948e8b;}
+
+.freelist_table {table-layout:fixed;margin:40px 0 0 0;}
+.freelist_table .col1 {width:70px}
+.freelist_table .col2 {width:286px}
+.freelist_table .col3 {width:152px}
+.freelist_table .col4 {width:66px}
+.freelist_table .col5 {width:56px}
+.freelist_table .col6 {width:70px}
+.freelist_table thead th {height:37px;line-height:37px;text-align:center;background:url('../../web-cdn.mironline.co.kr/mir2/2013_grand/contents/bg_thead.png') no-repeat center 0;}
+.freelist_table thead .th_num {background-position:0 0}
+.freelist_table thead .th_recommend {background-position:100% 0}
+.freelist_table tbody td {padding:13px 0;text-align:center;color:#8b7f78;font-size:12px;border-bottom:1px solid #bdb6b2}
+.freelist_table tbody .title {padding-left:20px;text-align:left;}
+.freelist_table tbody .title strong {letter-spacing:-1px;font-weight:normal}
+.freelist_table tbody .title a {display:inline-block;max-width:262px;color:#282625;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;vertical-align:middle;}
+.freelist_table tbody .title a:hover {font-weight:bold;color:#ba231d;letter-spacing:-1px}
+.freelist_table tbody .title img{display:inline-block;vertical-align:middle;margin:0 0 0 4px}
+.freelist_table tbody .comment {color:#ba231d;font-weight:bold;letter-spacing:-1px}
+
+.btnwrap {position:relative;text-align:right;margin:10px 0 -20px 0}
+.btnwrap .listViewBtn {position:absolute; top:0; left:0;}
+
+.free_view {}
+.free_view .view_table {margin-bottom:10px}
+.free_view .btnwrap {margin:0 0 20px 0}
+.free_view .freelist_table {margin:30px 0 0 0}
+
+.free_write {margin-bottom:20px;padding-bottom:10px;border-top:2px solid #79706c;border-bottom:2px solid #79706c}
+.free_write .write_title {padding:8px 20px;background-color:#f9f7f5}
+.free_write .write_title .title_input {float:right;width:520px;height:26px;border:1px solid #79706c;background-color:#fff}
+.free_write .write_title .title_input input {width:500px;padding:7px 10px 5px 10px;border:0 none}
+
+.test_write .write_title .title_input {float:left !important;width:652px !important;height:26px;border:1px solid #79706c;background-color:#fff}
+.test_write .write_title .title_input input {width:632px !important;padding:7px 10px 5px 10px;border:0 none}
+
+.screen_list .content {margin:20px 0 0 0}
+.screen_listwrap {}
+.screen_listwrap li {float:left;width:220px;padding:20px 20px 20px 0;border-bottom:1px solid #bdb6b2}
+.screen_listwrap .row_last {padding-right:0}
+.screen_listwrap .thumb {position:relative;float:left;margin:0 19px 0 0;}
+.screen_listwrap .thumb img {position:relative;z-index:1;}
+.screen_listwrap .thumb .line {z-index:2;position:absolute;top:0;left:0;width:220px;height:150px;background:url('../../web-cdn.mironline.co.kr/mir2/2013_grand/contents/screen_thumb.gif') no-repeat 0 0;}
+.screen_listwrap .on .thumb .line {background:url('../../web-cdn.mironline.co.kr/mir2/2013_grand/contents/screen_thumb.gif') no-repeat 0 -150px;}
+.screen_listwrap li dt {clear:both;padding:16px 0 8px 0}
+.screen_listwrap li dt a {display:inline-block;max-width:220px;overflow: hidden;text-overflow: ellipsis;white-space: nowrap;color:#282625;line-height:18px;vertical-align:top;}
+.screen_listwrap .on dt a {color:#ba231d;font-weight:bold;letter-spacing:-1px}
+.screen_listwrap li dt img {vertical-align:middle;margin:0 0 0 4px}
+.screen_listwrap li .category {font-weight:bold;letter-spacing:-1px}
+.screen_listwrap li .count {display:inline-block;margin:0 0 0 4px;vertical-align:middle;font-weight:bold;color:#ba231d}
+.screen_listwrap li .name {float:left;color:#8b7f78}
+.screen_listwrap li .date {float:right;color:#8b7f78}
+
+.gallery_title {clear:both;padding:18px 0 0 0}
+.gallery_title a {line-height:18px;color:#282625}
+.screen_listwrap .on .gallery_title a {color:#ba231d;font-weight:bold;letter-spacing:-1px}
+
+.screen_view .view_table {margin-bottom:10px}
+.screen_view .btnwrap {margin:0 0 20px 0}
+.screen_view .screen_listwrap {padding:10px 0 0 0}
+
+.movie_navi{clear:both;position:relative;width:700px;padding:10px 0 0 0;}
+.movie_navi .wrapper{position:relative;width:620px;height:105px;margin:0 0 0 40px;overflow:hidden;text-align:left;background:url('../../web-cdn.mironline.co.kr/mir2/2013_grand/contents/bg_navi.gif') left top repeat-x;}
+.movie_navi .wrapper ul{position:relative;width:4000px;height:105px;}
+.movie_navi li{position:relative;float:left;width:155px;height:105px;margin:0 0 0 0;}
+.movie_navi li .txt{display:block;position:absolute;top:55;left:0;width:132px;height:19px;*height:25px;padding:6px 0 0 0;color:#fff;text-align:center;z-index:2;}
+.movie_navi li .img_wrap{display:block;position:absolute;top:0;left:0;width:155px;height:105px;padding:0;z-index:1;}
+.movie_navi li .filter{display:block;position:absolute;top:0;left:0;width:155px;height:105px;padding:0;text-indent:-10000px;background:url("../../web-cdn.mironline.co.kr/mir2/2013_grand/contents/img_wrap.gif") no-repeat 0 0;z-index:3;}
+.movie_navi .on .filter{height:60px;padding:45px 0 0 0; background:url("../../web-cdn.mironline.co.kr/mir2/2013_grand/contents/img_wrap.gif") no-repeat 0 -105px;color:#fff;text-indent:0;text-align:center;font-size:14px;color:#fff;font-weight:bold;}
+.movie_navi li .op{display:block;position:absolute;bottom:0;left:0;width:155px;height:25px;opacity:0.5;filter:alpha(opacity=50);-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";background-color:#000;z-index:2;}
+
+.movie_navi button { border:0;cursor:pointer;display:block;position:absolute; top:10px; width:40px;height:105px;margin:0;padding:0;background:transparent; overflow:hidden; }
+.movie_navi button span { display:block; overflow:hidden; position:relative; width:40px; height:105px;margin:0;padding:0;background-image:url("../../web-cdn.mironline.co.kr/mir2/2013_grand/contents/btn_navi_on.gif"); background-repeat:no-repeat; text-indent:-10000em;}
+.movie_navi .disabled span {background-image:url("../../web-cdn.mironline.co.kr/mir2/2013_grand/contents/btn_navi.gif");}
+
+.movie_navi .prev_img {left:0;}
+.movie_navi .prev_img span { background-position:0 0;}
+.movie_navi .next_img {right:0;}
+.movie_navi .next_img span { background-position:0 -105px; }
+.movie_navi .prev_img span.disable { background:none;cursor:default; }
+.movie_navi .next_img span.disable { background:none;cursor:default; }
+
+.search_tab {padding:10px 0 0 0;border-bottom:2px solid #79706c;}
+.search_tab li {float:left;width:85px;height:40px;text-align:center;line-height:40px;margin-bottom:-2px;border-bottom:1px solid #79706c;}
+.search_tab li a {display:block;color:#918884;background:#e3e1e0;border:1px solid #bdb6b2;border-bottom:none;height:37px;padding:1px 0 0 0;}
+.search_tab li a.on {border:none;height:38px;display:inline-block;}
+.search_tab li.long00 {width:89px;margin-left:0 !important;}
+.search_tab li.long00 a {border-right:none;}
+.search_tab li.long00 .on {width:89px;background:url('../../web-cdn.mironline.co.kr/mir2/2013_grand/contents/search_first_on.gif') no-repeat 0 0;margin-right:-20px;}
+.search_tab li.long01 {width:89px;}
+.search_tab li.long01 a {border-left:none;}
+.search_tab li.long01 .on {width:89px;background:url('../../web-cdn.mironline.co.kr/mir2/2013_grand/contents/search_first_on.gif') no-repeat 100% 0;border-left:none;}
+.search_tab li.long02 {width:89px;}
+.search_tab li.long02 a {border-left:none;}
+.search_tab li.long02 .on {width:89px;background:url('../../web-cdn.mironline.co.kr/mir2/2013_grand/contents/search_first_on.gif') no-repeat 100% 0;}
+.search_tab li .on {width:85px;margin-right:0 !important;font-weight:bold;background:url('../../web-cdn.mironline.co.kr/mir2/2013_grand/contents/search_tab_on.gif') no-repeat 100% 0;color:#fff;}
+
+.word_result {padding:28px 0;text-align:center;border-bottom:1px solid #bdb6b2;}
+.word_result p {font-size:16px;font-weight:bold;color:#282625}
+.word_result p span {color:#ba231d}
+
+.search_result {padding:20px 0;border-bottom:1px solid #bdb6b2;}
+.search_result h4 {padding:0 0 14px 0;font-size:16px;font-weight:bold;color:#282625}
+.search_result h5 {padding:0 0 0 10px;font-size:16px;font-weight:bold;color:#282625;background:url('../../web-cdn.mironline.co.kr/mir2/2013_grand/contents/search_dot.gif') no-repeat 0 5px;}
+.search_result dl {padding:0 0 0 10px}
+.search_result dl dt {padding:11px 0 6px 0}
+.search_result dl dt a {font-size:14px;font-weight:bold;color:#ba231d;text-decoration:underline}
+.search_result dl dd {color:#282625;line-height:17px}
+.search_result dl .location {padding:5px 0 0 0;color:#8b7f78}
+.search_result dl .location a {color:#8b7f78}
+.search_result .more_result {float:right;padding:0 10px 0 0;background:url('../../web-cdn.mironline.co.kr/mir2/2013_grand/contents/search_linkdot.gif') no-repeat 100% 2px;color:#ba231d;text-decoration:underline}
+.search_result .more_result span {font-weight:bold}
+.result_top {padding:10px 0 0 0;text-align:right}
+
+/* 자료실 */
+.download_h4 {padding:28px 0 20px 0}
+
+.down_problem {position:relative;margin:10px 0 0 0;padding:20px;border:1px solid #bfbbba;background-color:#fff}
+.down_problem h4 {padding-bottom:18px;margin:0 0 11px 0;font-size:16px;color:#292726;border-bottom:1px solid #bdb6b2}
+.down_problem ul li {padding:8px 0 0 10px;color:#99908a;background:url('../../web-cdn.mironline.co.kr/mir2/2013_grand/contents/search_dot.gif') no-repeat 1px 12px;letter-spacing:-1px;}
+.down_problem .btn_faq {position:absolute;top:15px;right:20px}
+
+.down_link {padding:30px;border-top:2px solid #7c756f;background-color:#fff}
+
+.download_table {border:1px solid #bfbbba;text-align:center}
+.download_table .col1 {width:232px}
+.download_table thead th {height:34px;line-height:34px;border-right:1px solid #d2cecb;background:url('../../web-cdn.mironline.co.kr/mir2/2013_grand/contents/bg_download_table.gif') repeat-x 0 0}
+.download_table tbody td {padding:10px 0;border-right:1px solid #dedad8;border-bottom:1px solid #dedad8;color:#6f6863;background-color:#fff}
+.download_table tbody .type {border-right:1px solid #d6d2d0;background-color:#efeeee;color:#6f6863}
+.download_table tbody .column_right {border-right:0 none}
+.download_table tbody .last td {border-bottom:0 none}
+
+.down_myspec {position:relative;margin:30px 0 0 0;padding:18px 20px 0 20px;border-top:2px solid #7c756f;border-bottom:1px solid #bdb6b2;background-color:#fff}
+.down_myspec h4 {padding:0 120px 16px 0;text-align:center}
+.down_myspec .btn_pcspec {position:absolute;top:10px;right:96px}
+.down_myspec dl {padding:0 0 20px 0;border-top:1px solid #dedad8}
+.down_myspec dl dt {float:left;width:212px;padding:9px 0;text-align:center;border-right:1px solid #dedad8;border-bottom:1px solid #dedad8;background-color:#efeeee;color:#6f6863}
+.down_myspec dl dd {float:left;width:415px;padding:9px 0 9px 30px;border-bottom:1px solid #dedad8;color:#6f6863}
+
+.survey_check {display:block;padding:6px 0}
+.survey_check label {padding:0 0 0 8px;font-weight:bold;vertical-align:middle}
+.btnwrap02 {margin:-20px 0 0 0;text-align:center}
+.survey_result {margin:30px 0 40px 0;padding:20px;border:1px solid #bfbbba;background-color:#fff}
+.survey_result dt {float:left;padding:8px 0 6px 0;font-weight:bold;color:#282625}
+.survey_result dd.count {float:right;padding:8px 0 6px 0;font-weight:bold;color:#282625}
+.survey_result dd.count span {color:#ba231d}
+.survey_result dd.graph {clear:both;display:block;height:13px;background-color:#d4cfcc}
+.survey_result dd.graph span {display:block;width:0%;height:13px;background:url('../../web-cdn.mironline.co.kr/mir2/2013_grand/contents/bg_graph.gif') repeat-x}
+
+#gallery_modal {display:none;position:absolute;width:840px;height:480px;left:360px;top:262px}
+#gallery_modal .big_image img {width:840px}
+.msg {padding-left:17px;height:60px;line-height:60px;font-weight:bold;font-size:14px;color:#282625;background-color:#fff}
+#modal-close {position:absolute;width:58px;height:61px;text-indent:-10000px;top:0;right:0;background:url("../../web-cdn.mironline.co.kr/mir2/2013_grand/contents/btn_close.gif") no-repeat}
+
+.moviePlayer{width:700px;height:400px;overflow:hidden;} 
+.movieStory dl{margin:16px 0 19px 0;}
+.movieStory dt{margin:0 0 4px 0;font-weight:bold;font-size:14px;color:#292726;}
+.movieStory dd{line-height:20px;font-size:12px;color:#292726;}
+
+.about{margin:28px 0 0 0;}
+
+#long00{display:block;}
+#long01{display:none;}
+#long02{display:none;}
+
+.tbl_guide_box {padding:0;text-align:left;}
+.tbl_guide_box p {text-align:left;line-height:1.5;}
+.tbl_guide {width:100%;}
+.tbl_guide th {padding:8px;font-weight:normal;border:1px solid #e2e1e1;color:#6f6863;background:#efeeee;}
+.tbl_guide td {padding:8px;border:1px solid #e2e1e1;color:#6f6863;text-align:center;}
