@@ -1,4 +1,4 @@
-# Legend of Mir 4 Topaz - Official Source
+# Legend of Mir 4 - Official Public Topaz Source
 
 ![image](https://github.com/user-attachments/assets/c5da7c0d-2ecb-40b3-90f5-20e91724d236)
 
@@ -6,6 +6,8 @@
 
 ![image](https://github.com/user-attachments/assets/47f27ca6-80e4-4cf0-b0c0-dc29e587dff6)
 
+> [!IMPORTANT]
+> Server Source is NOT available at this time, please stand by.
 ---------------------------------------------------------------------------
 # Links:
 
@@ -191,9 +193,9 @@ Plugin List - [DOWNLOAD](https://mirfiles.com/resources/mir2/users/Jev/Mir%204/M
 >
 > [REDACTED](REDACTED) (Redacted for now)
 >
-> [REDACTED](REDACTED) (Redacted for now)
+> [Meacher](https://www.lomcn.net/forum/members/meacher.3993/) (Ex Team Member)
 >
-> [REDACTED](REDACTED) (Redacted for now)
+> [1PKRyan](https://www.lomcn.net/forum/members/1pkryan.13050/) (Ex Team Member)
 >
 > [Wagner](https://www.lomcn.net/forum/members/estregoik.45841/)
 >
