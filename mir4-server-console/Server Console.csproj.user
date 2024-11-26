@@ -22,6 +22,9 @@
     <Compile Update="JSON\JSONForm.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="JSON\RespawnForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="Logs\LogForm.cs">
       <SubType>Form</SubType>
     </Compile>

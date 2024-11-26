@@ -96,9 +96,9 @@
             LOMCNCoLabel.ForeColor = Color.DimGray;
             LOMCNCoLabel.Location = new Point(416, 599);
             LOMCNCoLabel.Name = "LOMCNCoLabel";
-            LOMCNCoLabel.Size = new Size(209, 15);
+            LOMCNCoLabel.Size = new Size(207, 15);
             LOMCNCoLabel.TabIndex = 4;
-            LOMCNCoLabel.Text = "© Topaz Co., LTD. All rights reserved.";
+            LOMCNCoLabel.Text = "© Topaz Co., Ltd. All rights reserved.";
             LOMCNCoLabel.Click += LOMCNCoLabel_Click;
             // 
             // CommunityImage

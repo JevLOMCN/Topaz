@@ -232,8 +232,8 @@ namespace Mir_4_Launcher
         #region Copyright Label
         private void LOMCNCoLabel_Click(object sender, EventArgs e)
         {
-            if (LOMCNCoLabel.Text == "© Topaz Co., LTD. All rights reserved.") LOMCNCoLabel.Text = "Designed by Jev";
-            else LOMCNCoLabel.Text = "© Topaz Co., LTD. All rights reserved.";
+            if (LOMCNCoLabel.Text == "© Topaz Co., Ltd. All rights reserved.") LOMCNCoLabel.Text = "Designed by Jev";
+            else LOMCNCoLabel.Text = "© Topaz Co., Ltd. All rights reserved.";
         }
         #endregion
 

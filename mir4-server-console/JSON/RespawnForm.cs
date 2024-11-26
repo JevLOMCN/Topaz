@@ -221,6 +221,8 @@ namespace Server_Console.JSON
                 LocationX.Clear();
                 LocationY.Clear();
                 LocationZ.Clear();
+                RegMinTime.Clear();
+                RegMaxTime.Clear();
 
                 // Update the RespawnsContent RichTextBox with the new JSON content
                 string updatedJson = JsonConvert.SerializeObject(respawnData, Formatting.Indented);
@@ -268,6 +270,8 @@ namespace Server_Console.JSON
                 LocationX.Clear();
                 LocationY.Clear();
                 LocationZ.Clear();
+                RegMinTime.Clear();
+                RegMaxTime.Clear();
 
                 // Set PosID to the next available number
                 int newPosID = respawnData.Any() ? respawnData.Max(r => r.PosID) + 1 : 1;
@@ -289,6 +293,8 @@ namespace Server_Console.JSON
                 LocationX.Text = selectedRespawn.LocationX.ToString();
                 LocationY.Text = selectedRespawn.LocationY.ToString();
                 LocationZ.Text = selectedRespawn.LocationZ.ToString();
+                RegMinTime.Text = selectedRespawn.RegMinTime.ToString();
+                RegMaxTime.Text = selectedRespawn.RegMaxTime.ToString();
             }
         }
         #endregion
@@ -329,6 +335,16 @@ namespace Server_Console.JSON
             if (selectedRespawn != null && int.TryParse(LocationZ.Text, out int locationZ))
                 selectedRespawn.LocationZ = locationZ;
         }
+        private void RegMinTime_TextChanged(object sender, EventArgs e)
+        {
+            if (selectedRespawn != null && int.TryParse(RegMinTime.Text, out int regMinTime))
+                selectedRespawn.RegMinTime = regMinTime;
+        }
+        private void RegMaxTime_TextChanged(object sender, EventArgs e)
+        {
+            if (selectedRespawn != null && int.TryParse(RegMaxTime.Text, out int regMaxTime))
+                selectedRespawn.RegMaxTime = regMaxTime;
+        }
         private void DisableTextChangedEvents()
         {
             MonsterID.TextChanged -= MonsterID_TextChanged;
@@ -337,6 +353,8 @@ namespace Server_Console.JSON
             LocationX.TextChanged -= LocationX_TextChanged;
             LocationY.TextChanged -= LocationY_TextChanged;
             LocationZ.TextChanged -= LocationZ_TextChanged;
+            RegMinTime.TextChanged -= RegMinTime_TextChanged;
+            RegMaxTime.TextChanged -= RegMaxTime_TextChanged;
         }
 
         private void EnableTextChangedEvents()
@@ -347,6 +365,8 @@ namespace Server_Console.JSON
             LocationX.TextChanged += LocationX_TextChanged;
             LocationY.TextChanged += LocationY_TextChanged;
             LocationZ.TextChanged += LocationZ_TextChanged;
+            RegMinTime.TextChanged += RegMinTime_TextChanged;
+            RegMaxTime.TextChanged += RegMaxTime_TextChanged;
         }
         #endregion
 
@@ -375,8 +395,8 @@ namespace Server_Console.JSON
                     SpawnCount = int.TryParse(SpawnCount.Text, out int spawnCount) ? spawnCount : 1,
                     SpawnRange = int.TryParse(SpawnRange.Text, out int spawnRange) ? spawnRange : 0,
                     ActiveType = 0,
-                    RegMinTime = 0,
-                    RegMaxTime = 0,
+                    RegMinTime = int.TryParse(RegMinTime.Text, out int regMinTime) ? regMinTime : 0,
+                    RegMaxTime = int.TryParse(RegMaxTime.Text, out int regMaxTime) ? regMaxTime : 0,
                     LocationX = double.TryParse(LocationX.Text, out double locationX) ? locationX : 0.0,
                     LocationY = double.TryParse(LocationY.Text, out double locationY) ? locationY : 0.0,
                     LocationZ = double.TryParse(LocationZ.Text, out double locationZ) ? locationZ : 0.0,

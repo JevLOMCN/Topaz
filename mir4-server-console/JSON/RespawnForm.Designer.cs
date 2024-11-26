@@ -36,6 +36,11 @@
             label1 = new Label();
             DeleteRespawnButton = new Button();
             groupBox1 = new GroupBox();
+            label12 = new Label();
+            label13 = new Label();
+            label14 = new Label();
+            RegMaxTime = new TextBox();
+            RegMinTime = new TextBox();
             SaveButton = new Button();
             label8 = new Label();
             PosID = new TextBox();
@@ -94,9 +99,9 @@
             // 
             RespawnContents.BorderStyle = BorderStyle.FixedSingle;
             RespawnContents.Dock = DockStyle.Right;
-            RespawnContents.Location = new Point(482, 0);
+            RespawnContents.Location = new Point(668, 0);
             RespawnContents.Name = "RespawnContents";
-            RespawnContents.Size = new Size(619, 678);
+            RespawnContents.Size = new Size(433, 678);
             RespawnContents.TabIndex = 1;
             RespawnContents.Text = "";
             // 
@@ -130,6 +135,11 @@
             // 
             // groupBox1
             // 
+            groupBox1.Controls.Add(label12);
+            groupBox1.Controls.Add(label13);
+            groupBox1.Controls.Add(label14);
+            groupBox1.Controls.Add(RegMaxTime);
+            groupBox1.Controls.Add(RegMinTime);
             groupBox1.Controls.Add(SaveButton);
             groupBox1.Controls.Add(label8);
             groupBox1.Controls.Add(PosID);
@@ -150,10 +160,53 @@
             groupBox1.Controls.Add(label1);
             groupBox1.Location = new Point(221, 0);
             groupBox1.Name = "groupBox1";
-            groupBox1.Size = new Size(255, 327);
+            groupBox1.Size = new Size(441, 327);
             groupBox1.TabIndex = 6;
             groupBox1.TabStop = false;
             groupBox1.Text = "Respawns";
+            // 
+            // label12
+            // 
+            label12.AutoSize = true;
+            label12.Location = new Point(278, 19);
+            label12.Name = "label12";
+            label12.Size = new Size(151, 45);
+            label12.TabIndex = 10;
+            label12.Text = "RegMinTime/RegMaxTime \r\n0 = 10sec\r\n50 = 1min";
+            // 
+            // label13
+            // 
+            label13.AutoSize = true;
+            label13.Location = new Point(193, 122);
+            label13.Name = "label13";
+            label13.Size = new Size(79, 15);
+            label13.TabIndex = 24;
+            label13.Text = "RegMaxTime:";
+            // 
+            // label14
+            // 
+            label14.AutoSize = true;
+            label14.Location = new Point(193, 93);
+            label14.Name = "label14";
+            label14.Size = new Size(77, 15);
+            label14.TabIndex = 23;
+            label14.Text = "RegMinTime:";
+            // 
+            // RegMaxTime
+            // 
+            RegMaxTime.Location = new Point(278, 119);
+            RegMaxTime.Name = "RegMaxTime";
+            RegMaxTime.Size = new Size(59, 23);
+            RegMaxTime.TabIndex = 22;
+            RegMaxTime.TextChanged += RegMaxTime_TextChanged;
+            // 
+            // RegMinTime
+            // 
+            RegMinTime.Location = new Point(278, 90);
+            RegMinTime.Name = "RegMinTime";
+            RegMinTime.Size = new Size(59, 23);
+            RegMinTime.TabIndex = 21;
+            RegMinTime.TextChanged += RegMinTime_TextChanged;
             // 
             // SaveButton
             // 
@@ -299,7 +352,7 @@
             groupBox2.Controls.Add(DeleteGenFile);
             groupBox2.Location = new Point(221, 333);
             groupBox2.Name = "groupBox2";
-            groupBox2.Size = new Size(255, 282);
+            groupBox2.Size = new Size(255, 235);
             groupBox2.TabIndex = 7;
             groupBox2.TabStop = false;
             groupBox2.Text = "Gen File";
@@ -484,5 +537,10 @@
         private Label label11;
         private TextBox FilterMonsterID;
         private Label MonsterCountLabel;
+        private Label label12;
+        private Label label13;
+        private Label label14;
+        private TextBox RegMaxTime;
+        private TextBox RegMinTime;
     }
 }
