@@ -8,8 +8,9 @@
 
 > [!IMPORTANT]
 > Server Source is NOT available at this time, please stand by.
+> 
 > > [!WARNING]  
-> Anyone claiming to have the Mir 4 Source code is trying to scam you!, Never buy files.
+> Anyone claiming to have the Mir 4 Source code is trying to scam you!, [Never buy files](https://forum.ragezone.com/threads/stay-safe-list-of-known-mmorpg-scammers-and-fake-file-sellers.1233633/).
 ---------------------------------------------------------------------------
 # Links:
 
