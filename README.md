@@ -281,6 +281,10 @@ Website | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :x:
 
 [S4oul](https://github.com/s4oul)
 
+<img src="https://media1.tenor.com/m/1sd8cHDc4eoAAAAd/stefaknee-family-guy.gif" alt="Redacted" width="96" height="96">
+
+[Charlotte](https://www.lomcn.net/forum/members/charlotte.44502/)
+
 <img src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExMHV5OXRkZzhlOHZpbDlodHFodTEwN3gwemU1ZnVjbnE5N2I0Z3VyayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/rzPCC2WznvksSseXH9/giphy.webp" alt="Redacted" width="96" height="96">
 
 [Redacted]()
