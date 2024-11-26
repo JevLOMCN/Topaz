@@ -261,7 +261,7 @@ Website | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :x:
 
 [Jev](https://www.lomcn.net/forum/members/jev.29880/)
 
-<img src="https://www.lomcn.net/forum/data/avatars/l/3/3993.jpg" alt="Meacher" width="96" height="96">
+<img src="https://media0.giphy.com/media/aqFRBqGjnznd6/200w.gif?cid=6c09b952wuk8b08io9qjladlzo7ru8dtnbyt82ll1m3pzaxd&ep=v1_gifs_search&rid=200w.gif&ct=g" alt="Meacher" width="96" height="96">
 
 [Meacher](https://www.lomcn.net/forum/members/meacher.3993/)
 
