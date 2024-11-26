@@ -7,7 +7,7 @@ https://github.com/user-attachments/assets/c5da7c0d-2ecb-40b3-90f5-20e91724d236
 
 <details>
 <summary><b>Client Launcher Preview</b></summary>
-![image](https://github.com/user-attachments/assets/69a6a5e0-d11d-4570-96c0-a5c9fa07b720)
+[image](https://github.com/user-attachments/assets/69a6a5e0-d11d-4570-96c0-a5c9fa07b720)
 </details>
 
 <details>
