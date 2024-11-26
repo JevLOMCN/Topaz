@@ -2,7 +2,7 @@
 
 <details>
 <summary><b>Server Console Preview</b></summary>
-![image](https://github.com/user-attachments/assets/c5da7c0d-2ecb-40b3-90f5-20e91724d236)
+https://github.com/user-attachments/assets/c5da7c0d-2ecb-40b3-90f5-20e91724d236
 </details>
 
 <details>
