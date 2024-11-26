@@ -8,6 +8,8 @@
 
 > [!IMPORTANT]
 > Server Source is NOT available at this time, please stand by.
+> > [!WARNING]  
+> Anyone claiming to have the Mir 4 Source code is trying to scam you!, Never buy files.
 ---------------------------------------------------------------------------
 # Links:
 
