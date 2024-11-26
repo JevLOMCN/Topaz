@@ -229,7 +229,7 @@ Website | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :x:
 
 ***OTHERS***
 - [ ] Autopatcher for Client
-- [ ] Monster Database (Server Console
+- [ ] Monster Database (Server Console)
 ---------------------------------------------------------------------------
 # LOMCN Links:
 
