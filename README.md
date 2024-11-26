@@ -328,7 +328,10 @@ Website | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :x:
 > [Mir 3D (Moon Spirit)](https://github.com/mir-ethernity/mir-eternal) | [Mir 3D (Holy Cow)](https://github.com/damianday/Conquer)
 
 # Sponsored By:
+<img src="https://forum.ragezone.com/data/styles/10/styles/ragezone/xenforo/xenforo-logo.png" alt="RageZone">
 
-> [RageZone](https://forum.ragezone.com/) - RaGEZONE is a website dedicated to the development of massively multiplayer online role-playing games (MMORPGs).
-> 
-> [LOMCN](https://www.lomcn.net/) - The Legend of Mir Community Network is a fan based site on the MMORPG Legend of Mir.
+[RageZone](https://forum.ragezone.com/) - RaGEZONE is a website dedicated to the development of massively multiplayer online role-playing games. (MMORPGs)
+
+<img src="https://www.lomcn.net/forum/styles/uix/images/logo2024_100.png" alt="LOMCN">
+
+[LOMCN](https://www.lomcn.net/) - The Legend of Mir Community Network is a fan based site on the MMORPG Legend of Mir.
