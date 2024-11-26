@@ -258,7 +258,7 @@ Website | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :x:
 # Dev Team:
 
 [Jev](https://www.lomcn.net/forum/members/jev.29880/): 
-![alt text](https://www.lomcn.net/forum/data/avatars/l/29/29880.jpg "Jev")
+![alt text](https://www.lomcn.net/forum/data/avatars/l/29/29880.jpg "Jev" width="149" height="149")
 
 >
 > [REDACTED](REDACTED) (Redacted for now)
