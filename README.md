@@ -257,7 +257,7 @@ Website | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :x:
 ---------------------------------------------------------------------------
 # Dev Team:
 
-<img src="https://www.lomcn.net/forum/data/avatars/l/29/29880.jpg" alt="Jev" width="96" height="96">
+<img src="https://c.tenor.com/7_KRHOBcSnEAAAAC/tenor.gif" alt="Jev" width="96" height="96">
 
 [Jev](https://www.lomcn.net/forum/members/jev.29880/)
 
