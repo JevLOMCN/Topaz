@@ -1,10 +1,19 @@
 # Legend of Mir 4 - Official Public Topaz Source
 
+<details>
+<summary><b>Server Console Preview</b></summary>
 ![image](https://github.com/user-attachments/assets/c5da7c0d-2ecb-40b3-90f5-20e91724d236)
+</details>
 
+<details>
+<summary><b>Client Launcher Preview</b></summary>
 ![image](https://github.com/user-attachments/assets/69a6a5e0-d11d-4570-96c0-a5c9fa07b720)
+</details>
 
+<details>
+<summary><b>Website Preview</b></summary>
 ![image](https://github.com/user-attachments/assets/47f27ca6-80e4-4cf0-b0c0-dc29e587dff6)
+</details>
 
 > [!IMPORTANT]
 > Server Source is NOT available at this time, please stand by for us to Open Source it.
