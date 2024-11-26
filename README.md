@@ -269,7 +269,7 @@ Website | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :x:
 
 [1PKRyan](https://www.lomcn.net/forum/members/1pkryan.13050/)
 
-<img src="https://cdn.discordapp.com/avatars/255843047571587077/097aca6af4673127f59acc07caab3fe1.webp" alt="Wagner" width="96" height="96">
+<img src="https://66.media.tumblr.com/725aeaf36ff6262f947aa945164e49a2/tumblr_pfnyfnGjG81wzypxlo1_640.gif" alt="Wagner" width="96" height="96">
 
 [Wagner](https://www.lomcn.net/forum/members/estregoik.45841/)
 
