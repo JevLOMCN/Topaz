@@ -2,7 +2,7 @@
 
 <details>
 <summary><b>Server Console Preview</b></summary>
-https://github.com/user-attachments/assets/c5da7c0d-2ecb-40b3-90f5-20e91724d236
+[[https://https://github.com/user-attachments/assets/c5da7c0d-2ecb-40b3-90f5-20e91724d236|alt=Server Console]]
 </details>
 
 <details>
