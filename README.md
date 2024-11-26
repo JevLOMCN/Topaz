@@ -169,13 +169,13 @@ Plugin List - [DOWNLOAD](https://mirfiles.com/resources/mir2/users/Jev/Mir%204/M
 ---------------------------------------------------------------------------
 # Compatibility:
 
-Function | Windows | Linux | MacOS
+Function | Windows | Linux | MacOS | Required
 :------------ | :-------------| :-------------| :-------------
-Servers | :heavy_check_mark: |  :heavy_check_mark: | :wavy_dash:
-Client | :heavy_check_mark: |  :wavy_dash: | :wavy_dash:
-Server Console | :heavy_check_mark: | :x: | :x:
-Client Launcher | :heavy_check_mark: | :x: | :x:
-Website | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark:
+Servers | :heavy_check_mark: |  :heavy_check_mark: | :wavy_dash: | :heavy_check_mark:
+Client | :heavy_check_mark: |  :wavy_dash: | :wavy_dash: | :heavy_check_mark:
+Server Console | :heavy_check_mark: | :x: | :x: | :x:
+Client Launcher | :heavy_check_mark: | :x: | :x: | :x:
+Website | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :x:
 
 :wavy_dash: - To be tested!
 ---------------------------------------------------------------------------
