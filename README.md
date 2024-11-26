@@ -277,7 +277,7 @@ Website | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :x:
 
 [Nyyl](https://www.lomcn.net/forum/members/nyylxd.42262/)
 
-<img src="https://avatars.githubusercontent.com/u/69851210" alt="S4oul" width="96" height="96">
+<img src="https://giffiles.alphacoders.com/137/13771.gif" alt="S4oul" width="96" height="96">
 
 [S4oul](https://github.com/s4oul)
 
