@@ -257,23 +257,29 @@ Website | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :x:
 ---------------------------------------------------------------------------
 # Dev Team:
 
-[Jev](https://www.lomcn.net/forum/members/jev.29880/): 
 <img src="https://www.lomcn.net/forum/data/avatars/l/29/29880.jpg" alt="Jev" width="96" height="96">
 
->
-> [REDACTED](REDACTED) (Redacted for now)
->
-> [REDACTED](REDACTED) (Redacted for now)
->
-> [Meacher](https://www.lomcn.net/forum/members/meacher.3993/) (Ex Team Member)
->
-> [1PKRyan](https://www.lomcn.net/forum/members/1pkryan.13050/) (Ex Team Member)
->
-> [Wagner](https://www.lomcn.net/forum/members/estregoik.45841/)
->
-> [Nyyl](https://www.lomcn.net/forum/members/nyylxd.42262/)
->
-> [S4oul](https://github.com/s4oul)
+[Jev](https://www.lomcn.net/forum/members/jev.29880/)
+
+<img src="https://www.lomcn.net/forum/data/avatars/l/3/3993.jpg" alt="Meacher" width="96" height="96">
+
+[Meacher](https://www.lomcn.net/forum/members/meacher.3993/) (Ex Team Member)
+
+<img src="https://www.lomcn.net/forum/data/avatars/l/13/13050.jpg" alt="1PKRyan" width="96" height="96">
+
+[1PKRyan](https://www.lomcn.net/forum/members/1pkryan.13050/) (Ex Team Member)
+
+<img src="https://cdn.discordapp.com/avatars/255843047571587077/097aca6af4673127f59acc07caab3fe1.webp" alt="Wagner" width="96" height="96">
+
+[Wagner](https://www.lomcn.net/forum/members/estregoik.45841/)
+
+<img src="https://cdn.discordapp.com/avatars/867884931589865533/a_d6dcbaf91ad44a536ee5407364e66f50.gif" alt="Nyyl" width="96" height="96">
+
+[Nyyl](https://www.lomcn.net/forum/members/nyylxd.42262/)
+
+<img src="https://avatars.githubusercontent.com/u/69851210" alt="S4oul" width="96" height="96">
+
+[S4oul](https://github.com/s4oul)
 
 # Contributors:
 
