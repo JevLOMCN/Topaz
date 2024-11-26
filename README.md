@@ -281,7 +281,7 @@ Website | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :x:
 
 [S4oul](https://github.com/s4oul)
 
-<img src="https://www.mirfiles.com/resources/mir2/users/Jev/Mir%204/char.gif" alt="Charlotte" width="96" height="96">
+<img src="https://media.tenor.com/iX3IgCDMOfgAAAAj/bonnie-bonnie-swanson.gif" alt="Charlotte" width="96" height="96">
 
 [Charlotte](https://www.lomcn.net/forum/members/charlotte.44502/)
 
