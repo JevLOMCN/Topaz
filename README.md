@@ -171,11 +171,13 @@ Plugin List - [DOWNLOAD](https://mirfiles.com/resources/mir2/users/Jev/Mir%204/M
 
 Function | Windows | Linux | MacOS
 :------------ | :-------------| :-------------| :-------------
-Servers | :heavy_check_mark: |  :heavy_check_mark: | :white_check_mark:
-Client | :heavy_check_mark: |  :white_check_mark: | :white_check_mark:
+Servers | :heavy_check_mark: |  :heavy_check_mark: | :wavy_dash:
+Client | :heavy_check_mark: |  :wavy_dash: | :wavy_dash:
 Server Console | :heavy_check_mark: | :x: | :x:
 Client Launcher | :heavy_check_mark: | :x: | :x:
 Website | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark:
+
+:wavy_dash: - To be tested!
 ---------------------------------------------------------------------------
 # Downloads:
 
