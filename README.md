@@ -7,7 +7,7 @@
 ![image](https://github.com/user-attachments/assets/47f27ca6-80e4-4cf0-b0c0-dc29e587dff6)
 
 > [!IMPORTANT]
-> Server Source is NOT available at this time, please stand by.
+> Server Source is NOT available at this time, please stand by for us to Open Source it.
 
 > [!WARNING]  
 > Anyone claiming to have the Mir 4 Source code is trying to scam you!, [Never buy files](https://forum.ragezone.com/threads/stay-safe-list-of-known-mmorpg-scammers-and-fake-file-sellers.1233633/).
