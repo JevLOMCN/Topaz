@@ -263,11 +263,11 @@ Website | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :x:
 
 <img src="https://www.lomcn.net/forum/data/avatars/l/3/3993.jpg" alt="Meacher" width="96" height="96">
 
-[Meacher](https://www.lomcn.net/forum/members/meacher.3993/) (Ex Team Member)
+[Meacher](https://www.lomcn.net/forum/members/meacher.3993/)
 
 <img src="https://www.lomcn.net/forum/data/avatars/l/13/13050.jpg" alt="1PKRyan" width="96" height="96">
 
-[1PKRyan](https://www.lomcn.net/forum/members/1pkryan.13050/) (Ex Team Member)
+[1PKRyan](https://www.lomcn.net/forum/members/1pkryan.13050/)
 
 <img src="https://cdn.discordapp.com/avatars/255843047571587077/097aca6af4673127f59acc07caab3fe1.webp" alt="Wagner" width="96" height="96">
 
@@ -280,6 +280,14 @@ Website | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :x:
 <img src="https://avatars.githubusercontent.com/u/69851210" alt="S4oul" width="96" height="96">
 
 [S4oul](https://github.com/s4oul)
+
+<img src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExMHV5OXRkZzhlOHZpbDlodHFodTEwN3gwemU1ZnVjbnE5N2I0Z3VyayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/rzPCC2WznvksSseXH9/giphy.webp" alt="Redacted" width="96" height="96">
+
+[Redacted]()
+
+<img src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExMHV5OXRkZzhlOHZpbDlodHFodTEwN3gwemU1ZnVjbnE5N2I0Z3VyayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/rzPCC2WznvksSseXH9/giphy.webp" alt="Redacted" width="96" height="96">
+
+[Redacted]()
 
 # Contributors:
 
