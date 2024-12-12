@@ -29,11 +29,7 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(DatabaseForm));
-            AdminTree = new TreeView();
             DatabaseTabs = new TabControl();
-            tabAdmin = new TabPage();
-            tableLayoutPanel2 = new TableLayoutPanel();
-            AdminData = new DataGridView();
             tabDevice = new TabPage();
             tableLayoutPanel4 = new TableLayoutPanel();
             DeviceTree = new TreeView();
@@ -114,9 +110,6 @@
             TableSearchBox = new TextBox();
             TableSearchButton = new Button();
             DatabaseTabs.SuspendLayout();
-            tabAdmin.SuspendLayout();
-            tableLayoutPanel2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)AdminData).BeginInit();
             tabDevice.SuspendLayout();
             tableLayoutPanel4.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)DeviceData).BeginInit();
@@ -173,19 +166,8 @@
             menuStrip1.SuspendLayout();
             SuspendLayout();
             // 
-            // AdminTree
-            // 
-            AdminTree.Dock = DockStyle.Fill;
-            AdminTree.FullRowSelect = true;
-            AdminTree.Location = new Point(3, 3);
-            AdminTree.Name = "AdminTree";
-            AdminTree.Size = new Size(161, 509);
-            AdminTree.TabIndex = 0;
-            AdminTree.NodeMouseClick += AdminTree_NodeMouseClick;
-            // 
             // DatabaseTabs
             // 
-            DatabaseTabs.Controls.Add(tabAdmin);
             DatabaseTabs.Controls.Add(tabDevice);
             DatabaseTabs.Controls.Add(tabFront);
             DatabaseTabs.Controls.Add(tabGame);
@@ -198,45 +180,6 @@
             DatabaseTabs.Size = new Size(978, 549);
             DatabaseTabs.TabIndex = 2;
             DatabaseTabs.SelectedIndexChanged += DatabaseTabs_SelectedIndexChanged;
-            // 
-            // tabAdmin
-            // 
-            tabAdmin.Controls.Add(tableLayoutPanel2);
-            tabAdmin.Location = new Point(4, 24);
-            tabAdmin.Name = "tabAdmin";
-            tabAdmin.Padding = new Padding(3);
-            tabAdmin.Size = new Size(970, 521);
-            tabAdmin.TabIndex = 0;
-            tabAdmin.Text = "Admin";
-            tabAdmin.UseVisualStyleBackColor = true;
-            // 
-            // tableLayoutPanel2
-            // 
-            tableLayoutPanel2.ColumnCount = 2;
-            tableLayoutPanel2.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 17.3553715F));
-            tableLayoutPanel2.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 82.64463F));
-            tableLayoutPanel2.Controls.Add(AdminTree, 0, 0);
-            tableLayoutPanel2.Controls.Add(AdminData, 1, 0);
-            tableLayoutPanel2.Dock = DockStyle.Fill;
-            tableLayoutPanel2.Location = new Point(3, 3);
-            tableLayoutPanel2.Name = "tableLayoutPanel2";
-            tableLayoutPanel2.RowCount = 1;
-            tableLayoutPanel2.RowStyles.Add(new RowStyle(SizeType.Percent, 100F));
-            tableLayoutPanel2.Size = new Size(964, 515);
-            tableLayoutPanel2.TabIndex = 2;
-            // 
-            // AdminData
-            // 
-            AdminData.BackgroundColor = SystemColors.Window;
-            AdminData.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            AdminData.Dock = DockStyle.Fill;
-            AdminData.GridColor = Color.Black;
-            AdminData.Location = new Point(170, 3);
-            AdminData.Name = "AdminData";
-            AdminData.Size = new Size(791, 509);
-            AdminData.TabIndex = 1;
-            AdminData.CellEndEdit += AdminData_CellEndEdit;
-            AdminData.CellLeave += AdminData_CellLeave;
             // 
             // tabDevice
             // 
@@ -943,6 +886,7 @@
             // 
             treeView1.Dock = DockStyle.Fill;
             treeView1.FullRowSelect = true;
+            treeView1.LineColor = Color.Empty;
             treeView1.Location = new Point(3, 3);
             treeView1.Name = "treeView1";
             treeView1.Size = new Size(28, 630);
@@ -976,6 +920,7 @@
             // 
             treeView5.Dock = DockStyle.Fill;
             treeView5.FullRowSelect = true;
+            treeView5.LineColor = Color.Empty;
             treeView5.Location = new Point(3, 3);
             treeView5.Name = "treeView5";
             treeView5.Size = new Size(28, 630);
@@ -1073,9 +1018,6 @@
             Text = "Database Editor";
             Load += DatabaseForm_Load;
             DatabaseTabs.ResumeLayout(false);
-            tabAdmin.ResumeLayout(false);
-            tableLayoutPanel2.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)AdminData).EndInit();
             tabDevice.ResumeLayout(false);
             tableLayoutPanel4.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)DeviceData).EndInit();
@@ -1138,8 +1080,6 @@
         }
 
         #endregion
-
-        private TreeView AdminTree;
         private TabControl DatabaseTabs;
         private GroupBox PlayersBox;
         private Label AccountIDLabel;
@@ -1153,13 +1093,10 @@
         private Label EmailLabel;
         private TextBox EmailSearch;
         private TableLayoutPanel tableLayoutPanel1;
-        private TabPage tabAdmin;
-        private DataGridView AdminData;
         private TabPage tabDevice;
         private TabPage tabFront;
         private TabPage tabGame;
         private TabPage tabUser;
-        private TableLayoutPanel tableLayoutPanel2;
         private TableLayoutPanel tableLayoutPanel4;
         private TreeView DeviceTree;
         private DataGridView DeviceData;

@@ -15,7 +15,7 @@ namespace Server_Console.Database
     public partial class DatabaseForm : Form
     {
         private Dictionary<TabPage, Size> originalTabSizes;
-#nullable enable
+        #nullable enable
         private List<string?> schemaNames = new List<string?>();
         public DatabaseForm()
         {
@@ -49,7 +49,6 @@ namespace Server_Console.Database
             else
             {
                 //Load the database data
-                LoadAdminData();
                 LoadDeviceData();
                 LoadFrontData();
                 LoadGameData();
@@ -64,7 +63,6 @@ namespace Server_Console.Database
             originalTabSizes = new Dictionary<TabPage, Size>();
 
             //Set the size for each Page
-            SetTabPageSize(tabAdmin, 1116, 618);
             SetTabPageSize(tabDevice, 1116, 618);
             SetTabPageSize(tabFront, 1116, 618);
             SetTabPageSize(tabGame, 1116, 618);
@@ -188,7 +186,7 @@ namespace Server_Console.Database
             }
             #endregion
 
-            #region Table Descriptions
+        #region Table Descriptions
             if (Settings.Default.TableDescription.Count == Settings.Default.TableDescriptionCount)
             {
                 if (e.Node != null && e.Node.Text == "_spschema_tb")
@@ -479,22 +477,6 @@ namespace Server_Console.Database
         }
         #endregion
 
-        #region Admin
-        private void LoadAdminData()
-        {
-            LoadDatabaseData("admin_db", AdminTree, "Admin");
-        }
-        private void AdminTree_NodeMouseClick(object sender, TreeNodeMouseClickEventArgs e)
-        {
-            TreeView_NodeMouseClick(AdminData, "admin_db", e);
-        }
-
-        private void AdminTree_AfterSelect(object sender, TreeNodeMouseClickEventArgs e)
-        {
-            TreeView_NodeMouseClick(AdminData, "admin_db", e);
-        }
-        #endregion
-
         #region Device
         private void LoadDeviceData()
         {
@@ -525,11 +507,11 @@ namespace Server_Console.Database
         #region Game
         private void LoadGameData()
         {
-            LoadDatabaseData("mm_game_db", GameTree, "Game");
+            LoadDatabaseData("mm_game_db_release", GameTree, "Game");
         }
         private void GameTree_NodeMouseClick(object sender, TreeNodeMouseClickEventArgs e)
         {
-            TreeView_NodeMouseClick(GameData, "mm_game_db", e);
+            TreeView_NodeMouseClick(GameData, "mm_game_db_release", e);
         }
         #endregion
 
@@ -547,7 +529,6 @@ namespace Server_Console.Database
         #region DB Tabs Changed Index
         private void DatabaseTabs_SelectedIndexChanged(object sender, EventArgs e)
         {
-            LoadAdminData();
             LoadDeviceData();
             LoadFrontData();
             LoadGameData();
@@ -565,61 +546,6 @@ namespace Server_Console.Database
         #endregion
 
         #region Update Data
-
-        private void AdminData_CellEndEdit(object sender, DataGridViewCellEventArgs e)
-        {
-            DataGridView dgv = (DataGridView)sender;
-            string tableName = AdminTree.SelectedNode.Text;
-
-            // Ensure that we are dealing with data cells (not header cells or anything else)
-            if (e.RowIndex >= 0 && e.ColumnIndex >= 0)
-            {
-                // Build the connection string
-                string connectionString = $"server={Settings.Default.Hostname};user={Settings.Default.Username};password={Settings.Default.Password};database=admin_db;";
-
-                // Get the column name and new value
-                string columnName = dgv.Columns[e.ColumnIndex].Name;
-                object newValue = dgv.Rows[e.RowIndex].Cells[e.ColumnIndex].Value;
-
-                // Get the unique column name and value
-                string uniqueColumnName = dgv.Columns[0].Name;
-                object uniqueColumnValue = dgv.Rows[e.RowIndex].Cells[uniqueColumnName].Value;
-
-                // Update the data
-                using (var connection = new MySqlConnection(connectionString))
-                {
-                    connection.Open();
-
-                    string query = $"UPDATE {tableName} SET {columnName} = @newValue WHERE {uniqueColumnName} = @uniqueColumnValue";
-
-                    using (var command = new MySqlCommand(query, connection))
-                    {
-                        command.Parameters.AddWithValue("@newValue", newValue);
-                        command.Parameters.AddWithValue("@uniqueColumnValue", uniqueColumnValue);
-
-                        try
-                        {
-                            int rowsAffected = command.ExecuteNonQuery();
-                            if (rowsAffected > 0)
-                            {
-                                tsm_KeyWarning.Text = tsm_KeyWarning.Text + " | Data updated successfully!";
-                                tsm_KeyWarning.ForeColor = System.Drawing.Color.Green;
-                            }
-                            else
-                            {
-                                tsm_KeyWarning.Text = tsm_KeyWarning.Text + " | No rows were updated!";
-                                tsm_KeyWarning.ForeColor = System.Drawing.Color.Red;
-                            }
-                        }
-                        catch (Exception ex)
-                        {
-                            MessageBox.Show($"Error: {ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                        }
-                    }
-                }
-            }
-
-        }
 
         private void DeviceData_CellEndEdit(object sender, DataGridViewCellEventArgs e)
         {
