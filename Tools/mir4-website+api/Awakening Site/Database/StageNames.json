@@ -1,0 +1,3974 @@
+[
+  {
+    "StageID": 1,
+    "StageName": "Unknown",
+    "QuestStageName": "Unknown",
+    "StageType": "EStageType::Custom"
+  },
+  {
+    "StageID": 2,
+    "StageName": "Unknown",
+    "QuestStageName": "Unknown",
+    "StageType": "EStageType::Custom"
+  },
+  {
+    "StageID": 3,
+    "StageName": "Unknown",
+    "QuestStageName": "Unknown",
+    "StageType": "EStageType::Custom"
+  },
+  {
+    "StageID": 4,
+    "StageName": "Unknown",
+    "QuestStageName": "Unknown",
+    "StageType": "EStageType::Custom"
+  },
+  {
+    "StageID": 5,
+    "StageName": "Unknown",
+    "QuestStageName": "Unknown",
+    "StageType": "EStageType::Custom"
+  },
+  {
+    "StageID": 6,
+    "StageName": "Unknown",
+    "QuestStageName": "Unknown",
+    "StageType": "EStageType::Custom"
+  },
+  {
+    "StageID": 101,
+    "StageName": "Bicheon Castle Siege",
+    "QuestStageName": "Bicheon Castle Siege",
+    "StageType": "EStageType::Siege"
+  },
+  {
+    "StageID": 1001,
+    "StageName": "Outpost",
+    "QuestStageName": "Outpost",
+    "StageType": "EStageType::Field"
+  },
+  {
+    "StageID": 2021,
+    "StageName": "Duel Arena",
+    "QuestStageName": "Duel Arena",
+    "StageType": "EStageType::Fight"
+  },
+  {
+    "StageID": 3010,
+    "StageName": "Bicheon Castle Underground Vault",
+    "QuestStageName": "Bicheon Castle Underground Vault",
+    "StageType": "EStageType::Plunder"
+  },
+  {
+    "StageID": 10010,
+    "StageName": "Bicheon Labyrinth 1F",
+    "QuestStageName": "Bicheon Labyrinth 1F",
+    "StageType": "EStageType::Labyrinth"
+  },
+  {
+    "StageID": 10011,
+    "StageName": "Bicheon Labyrinth 2F",
+    "QuestStageName": "Bicheon Labyrinth 2F",
+    "StageType": "EStageType::Labyrinth"
+  },
+  {
+    "StageID": 10012,
+    "StageName": "Bicheon Labyrinth 3F",
+    "QuestStageName": "Bicheon Labyrinth 3F",
+    "StageType": "EStageType::Labyrinth"
+  },
+  {
+    "StageID": 10013,
+    "StageName": "Bicheon Labyrinth 4F",
+    "QuestStageName": "Bicheon Labyrinth 4F",
+    "StageType": "EStageType::Labyrinth"
+  },
+  {
+    "StageID": 10020,
+    "StageName": "Demon Bull Labyrinth 1F",
+    "QuestStageName": "Demon Bull Labyrinth 1F",
+    "StageType": "EStageType::Labyrinth"
+  },
+  {
+    "StageID": 10021,
+    "StageName": "Demon Bull Labyrinth 2F",
+    "QuestStageName": "Demon Bull Labyrinth 2F",
+    "StageType": "EStageType::Labyrinth"
+  },
+  {
+    "StageID": 10022,
+    "StageName": "Demon Bull Labyrinth 3F",
+    "QuestStageName": "Demon Bull Labyrinth 3F",
+    "StageType": "EStageType::Labyrinth"
+  },
+  {
+    "StageID": 10023,
+    "StageName": "Demon Bull Labyrinth 4F",
+    "QuestStageName": "Demon Bull Labyrinth 4F",
+    "StageType": "EStageType::Labyrinth"
+  },
+  {
+    "StageID": 10030,
+    "StageName": "Snake Pit Labyrinth 1F",
+    "QuestStageName": "Snake Pit Labyrinth 1F",
+    "StageType": "EStageType::Labyrinth"
+  },
+  {
+    "StageID": 10031,
+    "StageName": "Snake Pit Labyrinth 2F",
+    "QuestStageName": "Snake Pit Labyrinth 2F",
+    "StageType": "EStageType::Labyrinth"
+  },
+  {
+    "StageID": 10032,
+    "StageName": "Snake Pit Labyrinth 3F",
+    "QuestStageName": "Snake Pit Labyrinth 3F",
+    "StageType": "EStageType::Labyrinth"
+  },
+  {
+    "StageID": 10033,
+    "StageName": "Snake Pit Labyrinth 4F",
+    "QuestStageName": "Snake Pit Labyrinth 4F",
+    "StageType": "EStageType::Labyrinth"
+  },
+  {
+    "StageID": 10040,
+    "StageName": "Abandoned Mine Labyrinth 1F",
+    "QuestStageName": "Abandoned Mine Labyrinth 1F",
+    "StageType": "EStageType::Labyrinth"
+  },
+  {
+    "StageID": 10041,
+    "StageName": "Abandoned Mine Labyrinth 2F",
+    "QuestStageName": "Abandoned Mine Labyrinth 2F",
+    "StageType": "EStageType::Labyrinth"
+  },
+  {
+    "StageID": 10042,
+    "StageName": "Abandoned Mine Labyrinth 3F",
+    "QuestStageName": "Abandoned Mine Labyrinth 3F",
+    "StageType": "EStageType::Labyrinth"
+  },
+  {
+    "StageID": 10043,
+    "StageName": "Abandoned Mine Labyrinth 4F",
+    "QuestStageName": "Abandoned Mine Labyrinth 4F",
+    "StageType": "EStageType::Labyrinth"
+  },
+  {
+    "StageID": 10050,
+    "StageName": "Heaven's Way Labyrinth 1F",
+    "QuestStageName": "Heaven's Way Labyrinth 1F",
+    "StageType": "EStageType::Labyrinth"
+  },
+  {
+    "StageID": 10051,
+    "StageName": "Heaven's Way Labyrinth 2F",
+    "QuestStageName": "Heaven's Way Labyrinth 2F",
+    "StageType": "EStageType::Labyrinth"
+  },
+  {
+    "StageID": 10052,
+    "StageName": "Heaven's Way Labyrinth 3F",
+    "QuestStageName": "Heaven's Way Labyrinth 3F",
+    "StageType": "EStageType::Labyrinth"
+  },
+  {
+    "StageID": 10053,
+    "StageName": "Heaven's Way Labyrinth 4F",
+    "QuestStageName": "Heaven's Way Labyrinth 4F",
+    "StageType": "EStageType::Labyrinth"
+  },
+  {
+    "StageID": 10060,
+    "StageName": "Redmoon Labyrinth 1F",
+    "QuestStageName": "Redmoon Labyrinth 1F",
+    "StageType": "EStageType::Labyrinth"
+  },
+  {
+    "StageID": 10061,
+    "StageName": "Redmoon Labyrinth 2F",
+    "QuestStageName": "Redmoon Labyrinth 2F",
+    "StageType": "EStageType::Labyrinth"
+  },
+  {
+    "StageID": 10062,
+    "StageName": "Redmoon Labyrinth 3F",
+    "QuestStageName": "Redmoon Labyrinth 3F",
+    "StageType": "EStageType::Labyrinth"
+  },
+  {
+    "StageID": 10063,
+    "StageName": "Redmoon Labyrinth 4F",
+    "QuestStageName": "Redmoon Labyrinth 4F",
+    "StageType": "EStageType::Labyrinth"
+  },
+  {
+    "StageID": 10070,
+    "StageName": "Phantasia Labyrinth 1F",
+    "QuestStageName": "Phantasia Labyrinth 1F",
+    "StageType": "EStageType::Labyrinth"
+  },
+  {
+    "StageID": 10071,
+    "StageName": "Phantasia Labyrinth 2F",
+    "QuestStageName": "Phantasia Labyrinth 2F",
+    "StageType": "EStageType::Labyrinth"
+  },
+  {
+    "StageID": 10072,
+    "StageName": "Phantasia Labyrinth 3F",
+    "QuestStageName": "Phantasia Labyrinth 3F",
+    "StageType": "EStageType::Labyrinth"
+  },
+  {
+    "StageID": 10073,
+    "StageName": "Phantasia Labyrinth 4F",
+    "QuestStageName": "Phantasia Labyrinth 4F",
+    "StageType": "EStageType::Labyrinth"
+  },
+  {
+    "StageID": 10080,
+    "StageName": "Rockcut Labyrinth 1F",
+    "QuestStageName": "Rockcut Labyrinth 1F",
+    "StageType": "EStageType::Labyrinth"
+  },
+  {
+    "StageID": 10081,
+    "StageName": "Rockcut Labyrinth 2F",
+    "QuestStageName": "Rockcut Labyrinth 2F",
+    "StageType": "EStageType::Labyrinth"
+  },
+  {
+    "StageID": 10082,
+    "StageName": "Rockcut Labyrinth 3F",
+    "QuestStageName": "Rockcut Labyrinth 3F",
+    "StageType": "EStageType::Labyrinth"
+  },
+  {
+    "StageID": 10083,
+    "StageName": "Rockcut Labyrinth 4F",
+    "QuestStageName": "Rockcut Labyrinth 4F",
+    "StageType": "EStageType::Labyrinth"
+  },
+  {
+    "StageID": 10090,
+    "StageName": "Sabuk Labyrinth 1F",
+    "QuestStageName": "Sabuk Labyrinth 1F",
+    "StageType": "EStageType::Labyrinth"
+  },
+  {
+    "StageID": 10091,
+    "StageName": "Sabuk Labyrinth 2F",
+    "QuestStageName": "Sabuk Labyrinth 2F",
+    "StageType": "EStageType::Labyrinth"
+  },
+  {
+    "StageID": 10092,
+    "StageName": "Sabuk Labyrinth 3F",
+    "QuestStageName": "Sabuk Labyrinth 3F",
+    "StageType": "EStageType::Labyrinth"
+  },
+  {
+    "StageID": 10093,
+    "StageName": "Sabuk Labyrinth 4F",
+    "QuestStageName": "Sabuk Labyrinth 4F",
+    "StageType": "EStageType::Labyrinth"
+  },
+  {
+    "StageID": 11001,
+    "StageName": "Crimson Abaddon",
+    "QuestStageName": "Crimson Abaddon",
+    "StageType": "EStageType::UnderWorld"
+  },
+  {
+    "StageID": 11002,
+    "StageName": "Shackling Abaddon",
+    "QuestStageName": "Shackling Abaddon",
+    "StageType": "EStageType::UnderWorld"
+  },
+  {
+    "StageID": 12001,
+    "StageName": "Black Flame Abaddon",
+    "QuestStageName": "Black Flame Abaddon",
+    "StageType": "EStageType::UnderWorld"
+  },
+  {
+    "StageID": 12002,
+    "StageName": "Violet Abaddon",
+    "QuestStageName": "Violet Abaddon",
+    "StageType": "EStageType::UnderWorld"
+  },
+  {
+    "StageID": 13001,
+    "StageName": "Sanctuary of Hydra",
+    "QuestStageName": "Sanctuary of Hydra",
+    "StageType": "EStageType::Field"
+  },
+  {
+    "StageID": 300120,
+    "StageName": "Backstreet Stonehall",
+    "QuestStageName": "Backstreet Stonehall",
+    "StageType": "EStageType::SingleField"
+  },
+  {
+    "StageID": 300140,
+    "StageName": "Underwater Cave",
+    "QuestStageName": "Underwater Cave",
+    "StageType": "EStageType::SingleField"
+  },
+  {
+    "StageID": 300150,
+    "StageName": "Bewitching Labyrinth",
+    "QuestStageName": "Bewitching Labyrinth",
+    "StageType": "EStageType::SingleField"
+  },
+  {
+    "StageID": 300160,
+    "StageName": "Warmonger's Cave",
+    "QuestStageName": "Warmonger's Cave",
+    "StageType": "EStageType::SingleField"
+  },
+  {
+    "StageID": 300240,
+    "StageName": "Jo Gyu's Secret Jail",
+    "QuestStageName": "Jo Gyu's Secret Jail",
+    "StageType": "EStageType::SingleField"
+  },
+  {
+    "StageID": 300250,
+    "StageName": "Backstreet Gambling Den",
+    "QuestStageName": "Backstreet Gambling Den",
+    "StageType": "EStageType::SingleField"
+  },
+  {
+    "StageID": 300260,
+    "StageName": "Wanteds Hollow",
+    "QuestStageName": "Wanteds Hollow",
+    "StageType": "EStageType::SingleField"
+  },
+  {
+    "StageID": 300270,
+    "StageName": "Bull Fiend's Lair",
+    "QuestStageName": "Bull Fiend's Lair",
+    "StageType": "EStageType::SingleField"
+  },
+  {
+    "StageID": 300280,
+    "StageName": "Nefariox Necropolis Depths",
+    "QuestStageName": "Nefariox Necropolis Depths",
+    "StageType": "EStageType::SingleField"
+  },
+  {
+    "StageID": 300290,
+    "StageName": "Healer's Abode",
+    "QuestStageName": "Healer's Abode",
+    "StageType": "EStageType::SingleField"
+  },
+  {
+    "StageID": 300300,
+    "StageName": "Saeyul's Manor",
+    "QuestStageName": "Saeyul's Manor",
+    "StageType": "EStageType::SingleField"
+  },
+  {
+    "StageID": 300310,
+    "StageName": "Bull Fiend Castle",
+    "QuestStageName": "Bull Fiend Castle",
+    "StageType": "EStageType::SingleField"
+  },
+  {
+    "StageID": 300320,
+    "StageName": "Wuam's Abode",
+    "QuestStageName": "Wuam's Abode",
+    "StageType": "EStageType::SingleField"
+  },
+  {
+    "StageID": 300330,
+    "StageName": "Cryptic Sanctuary",
+    "QuestStageName": "Cryptic Sanctuary",
+    "StageType": "EStageType::Field"
+  },
+  {
+    "StageID": 300340,
+    "StageName": "Phantom Vale",
+    "QuestStageName": "Phantom Vale",
+    "StageType": "EStageType::Field"
+  },
+  {
+    "StageID": 300350,
+    "StageName": "Viperbeast Domain",
+    "QuestStageName": "Viperbeast Domain",
+    "StageType": "EStageType::SingleField"
+  },
+  {
+    "StageID": 300360,
+    "StageName": "Viperbeast's Labyrinth",
+    "QuestStageName": "Viperbeast's Labyrinth",
+    "StageType": "EStageType::Field"
+  },
+  {
+    "StageID": 500000,
+    "StageName": "Beauty Parlor",
+    "QuestStageName": "Beauty Parlor",
+    "StageType": "EStageType::SingleField"
+  },
+  {
+    "StageID": 100002010,
+    "StageName": "Peach Blossom Valley",
+    "QuestStageName": "Peach Blossom Valley",
+    "StageType": "EStageType::Field"
+  },
+  {
+    "StageID": 100002012,
+    "StageName": "Peach Blossom Valley Under Raid",
+    "QuestStageName": "Peach Blossom Valley Under Raid",
+    "StageType": "EStageType::SingleField"
+  },
+  {
+    "StageID": 100002020,
+    "StageName": "Seashore Cliff",
+    "QuestStageName": "Seashore Cliff",
+    "StageType": "EStageType::Field"
+  },
+  {
+    "StageID": 100004010,
+    "StageName": "Underground Valley",
+    "QuestStageName": "Underground Valley",
+    "StageType": "EStageType::SingleField"
+  },
+  {
+    "StageID": 100004020,
+    "StageName": "Bicheon Castle Underground Jail",
+    "QuestStageName": "Bicheon Castle Underground Jail",
+    "StageType": "EStageType::SingleField"
+  },
+  {
+    "StageID": 101001010,
+    "StageName": "Bicheon Castle",
+    "QuestStageName": "Bicheon Castle",
+    "StageType": "EStageType::Field"
+  },
+  {
+    "StageID": 101003010,
+    "StageName": "Ginkgo Valley",
+    "QuestStageName": "Ginkgo Valley",
+    "StageType": "EStageType::Field"
+  },
+  {
+    "StageID": 101003020,
+    "StageName": "Bicheon Castle Backstreet",
+    "QuestStageName": "Bicheon Castle Backstreet",
+    "StageType": "EStageType::Field"
+  },
+  {
+    "StageID": 101003030,
+    "StageName": "Bicheon Town",
+    "QuestStageName": "Bicheon Town",
+    "StageType": "EStageType::Field"
+  },
+  {
+    "StageID": 101003040,
+    "StageName": "Hidden Cliff Path",
+    "QuestStageName": "Hidden Cliff Path",
+    "StageType": "EStageType::Field"
+  },
+  {
+    "StageID": 101003060,
+    "StageName": "Arcadia Spirit Village",
+    "QuestStageName": "Arcadia Spirit Village",
+    "StageType": "EStageType::Field"
+  },
+  {
+    "StageID": 101004010,
+    "StageName": "Nefariox Necropolis 1F",
+    "QuestStageName": "Nefariox Necropolis 1F",
+    "StageType": "EStageType::Field"
+  },
+  {
+    "StageID": 101004020,
+    "StageName": "Nefariox Necropolis 2F",
+    "QuestStageName": "Nefariox Necropolis 2F",
+    "StageType": "EStageType::Field"
+  },
+  {
+    "StageID": 101004030,
+    "StageName": "Nefariox Ruins 1F",
+    "QuestStageName": "Nefariox Ruins 1F",
+    "StageType": "EStageType::Field"
+  },
+  {
+    "StageID": 101004040,
+    "StageName": "Nefariox Ruins 2F",
+    "QuestStageName": "Nefariox Ruins 2F",
+    "StageType": "EStageType::Field"
+  },
+  {
+    "StageID": 101005010,
+    "StageName": "Blight Bug Cave",
+    "QuestStageName": "Blight Bug Cave",
+    "StageType": "EStageType::Field"
+  },
+  {
+    "StageID": 101005020,
+    "StageName": "Bicheon Castle Taphouse",
+    "QuestStageName": "Bicheon Castle Taphouse",
+    "StageType": "EStageType::Field"
+  },
+  {
+    "StageID": 101005040,
+    "StageName": "Bicheon Castle Wall",
+    "QuestStageName": "Bicheon Castle Wall",
+    "StageType": "EStageType::Field"
+  },
+  {
+    "StageID": 102003010,
+    "StageName": "Crystalline Forest",
+    "QuestStageName": "Crystalline Forest",
+    "StageType": "EStageType::Field"
+  },
+  {
+    "StageID": 102004010,
+    "StageName": "Demon Bull Temple 1F",
+    "QuestStageName": "Demon Bull Temple 1F",
+    "StageType": "EStageType::Field"
+  },
+  {
+    "StageID": 102004040,
+    "StageName": "Demon Bull Temple 2F",
+    "QuestStageName": "Demon Bull Temple 2F",
+    "StageType": "EStageType::Field"
+  },
+  {
+    "StageID": 102004050,
+    "StageName": "Crystalline Mountain",
+    "QuestStageName": "Crystalline Mountain",
+    "StageType": "EStageType::Field"
+  },
+  {
+    "StageID": 102004070,
+    "StageName": "Demon Bull Temple 3F",
+    "QuestStageName": "Demon Bull Temple 3F",
+    "StageType": "EStageType::Field"
+  },
+  {
+    "StageID": 102005020,
+    "StageName": "King Bull Fiend's Sanctuary",
+    "QuestStageName": "King Bull Fiend's Sanctuary",
+    "StageType": "EStageType::Field"
+  },
+  {
+    "StageID": 103003010,
+    "StageName": "Snake Pit",
+    "QuestStageName": "Snake Pit",
+    "StageType": "EStageType::Field"
+  },
+  {
+    "StageID": 103003020,
+    "StageName": "Upper Death Gorge",
+    "QuestStageName": "Upper Death Gorge",
+    "StageType": "EStageType::Field"
+  },
+  {
+    "StageID": 103003030,
+    "StageName": "Lower Death Gorge",
+    "QuestStageName": "Lower Death Gorge",
+    "StageType": "EStageType::Field"
+  },
+  {
+    "StageID": 103003040,
+    "StageName": "Recluse Valley",
+    "QuestStageName": "Recluse Valley",
+    "StageType": "EStageType::Field"
+  },
+  {
+    "StageID": 103003050,
+    "StageName": "Grand Centipedeus' Swamp",
+    "QuestStageName": "Grand Centipedeus' Swamp",
+    "StageType": "EStageType::Field"
+  },
+  {
+    "StageID": 103003060,
+    "StageName": "Training Cave",
+    "QuestStageName": "Training Cave",
+    "StageType": "EStageType::Fight"
+  },
+  {
+    "StageID": 103003070,
+    "StageName": "Viperbeast Plain",
+    "QuestStageName": "Viperbeast Plain",
+    "StageType": "EStageType::Field"
+  },
+  {
+    "StageID": 103004010,
+    "StageName": "Snake Cave",
+    "QuestStageName": "Snake Cave",
+    "StageType": "EStageType::Field"
+  },
+  {
+    "StageID": 104003010,
+    "StageName": "Isolated Peak",
+    "QuestStageName": "Isolated Peak",
+    "StageType": "EStageType::Field"
+  },
+  {
+    "StageID": 104004010,
+    "StageName": "Collapsed Ruins",
+    "QuestStageName": "Collapsed Ruins",
+    "StageType": "EStageType::Field"
+  },
+  {
+    "StageID": 104004040,
+    "StageName": "Abandoned Mine 1F",
+    "QuestStageName": "Abandoned Mine 1F",
+    "StageType": "EStageType::Field"
+  },
+  {
+    "StageID": 104004050,
+    "StageName": "Pakua Stonehall",
+    "QuestStageName": "Pakua Stonehall",
+    "StageType": "EStageType::Field"
+  },
+  {
+    "StageID": 104004060,
+    "StageName": "Secret Mine 2F",
+    "QuestStageName": "Secret Mine 2F",
+    "StageType": "EStageType::Field"
+  },
+  {
+    "StageID": 104004070,
+    "StageName": "Secret Mine 1F",
+    "QuestStageName": "Secret Mine 1F",
+    "StageType": "EStageType::Field"
+  },
+  {
+    "StageID": 104004090,
+    "StageName": "Abandoned Mine 2F",
+    "QuestStageName": "Abandoned Mine 2F",
+    "StageType": "EStageType::Field"
+  },
+  {
+    "StageID": 104004100,
+    "StageName": "Abandoned Mine 3F",
+    "QuestStageName": "Abandoned Mine 3F",
+    "StageType": "EStageType::Field"
+  },
+  {
+    "StageID": 104005010,
+    "StageName": "Whitemaur Sealing Circle",
+    "QuestStageName": "Whitemaur Sealing Circle",
+    "StageType": "EStageType::Field"
+  },
+  {
+    "StageID": 105001010,
+    "StageName": "Sinner's Shire",
+    "QuestStageName": "Sinner's Shire",
+    "StageType": "EStageType::Field"
+  },
+  {
+    "StageID": 105001020,
+    "StageName": "Seocheon Trading Post",
+    "QuestStageName": "Seocheon Trading Post",
+    "StageType": "EStageType::Field"
+  },
+  {
+    "StageID": 105002010,
+    "StageName": "Phantom Woods",
+    "QuestStageName": "Phantom Woods",
+    "StageType": "EStageType::Field"
+  },
+  {
+    "StageID": 105002020,
+    "StageName": "Spiritual Center",
+    "QuestStageName": "Spiritual Center",
+    "StageType": "EStageType::Field"
+  },
+  {
+    "StageID": 105002050,
+    "StageName": "Heaven's Way Peak Lower Level",
+    "QuestStageName": "Heaven's Way Peak Lower Level",
+    "StageType": "EStageType::Field"
+  },
+  {
+    "StageID": 105002060,
+    "StageName": "Heaven's Way Peak Mid Level",
+    "QuestStageName": "Heaven's Way Peak Mid Level",
+    "StageType": "EStageType::Field"
+  },
+  {
+    "StageID": 105002070,
+    "StageName": "Heaven's Way Peak Upper Level",
+    "QuestStageName": "Heaven's Way Peak Upper Level",
+    "StageType": "EStageType::Field"
+  },
+  {
+    "StageID": 106001010,
+    "StageName": "Redmoon Mountain",
+    "QuestStageName": "Redmoon Mountain",
+    "StageType": "EStageType::Field"
+  },
+  {
+    "StageID": 106001020,
+    "StageName": "Underground Holding Cell",
+    "QuestStageName": "Underground Holding Cell",
+    "StageType": "EStageType::Field"
+  },
+  {
+    "StageID": 106001030,
+    "StageName": "Emei Sect's Secret Hermitage",
+    "QuestStageName": "Emei Sect's Secret Hermitage",
+    "StageType": "EStageType::Field"
+  },
+  {
+    "StageID": 106002010,
+    "StageName": "Redmoon Gorge 1F",
+    "QuestStageName": "Redmoon Gorge 1F",
+    "StageType": "EStageType::Field"
+  },
+  {
+    "StageID": 106002020,
+    "StageName": "Redmoon Gorge 2F",
+    "QuestStageName": "Redmoon Gorge 2F",
+    "StageType": "EStageType::Field"
+  },
+  {
+    "StageID": 106002030,
+    "StageName": "Redmoon Gorge 3F",
+    "QuestStageName": "Redmoon Gorge 3F",
+    "StageType": "EStageType::Field"
+  },
+  {
+    "StageID": 106002040,
+    "StageName": "Redmoon Gorge Heart",
+    "QuestStageName": "Redmoon Gorge Heart",
+    "StageType": "EStageType::Field"
+  },
+  {
+    "StageID": 107001010,
+    "StageName": "Phantasia Desert",
+    "QuestStageName": "Phantasia Desert",
+    "StageType": "EStageType::Field"
+  },
+  {
+    "StageID": 107001020,
+    "StageName": "Desert Road",
+    "QuestStageName": "Desert Road",
+    "StageType": "EStageType::Field"
+  },
+  {
+    "StageID": 107002010,
+    "StageName": "Ant Hole 1F",
+    "QuestStageName": "Ant Hole 1F",
+    "StageType": "EStageType::Field"
+  },
+  {
+    "StageID": 107002020,
+    "StageName": "Ant Hole 2F",
+    "QuestStageName": "Ant Hole 2F",
+    "StageType": "EStageType::Field"
+  },
+  {
+    "StageID": 107003010,
+    "StageName": "Sabuk Province",
+    "QuestStageName": "Sabuk Province",
+    "StageType": "EStageType::Field"
+  },
+  {
+    "StageID": 107003020,
+    "StageName": "Sabuk Castle Underground Jail",
+    "QuestStageName": "Sabuk Castle Underground Jail",
+    "StageType": "EStageType::Field"
+  },
+  {
+    "StageID": 108001010,
+    "StageName": "Rockcut Tomb 1F",
+    "QuestStageName": "Rockcut Tomb 1F",
+    "StageType": "EStageType::Field"
+  },
+  {
+    "StageID": 108001020,
+    "StageName": "Rockcut Tomb 2F",
+    "QuestStageName": "Rockcut Tomb 2F",
+    "StageType": "EStageType::Field"
+  },
+  {
+    "StageID": 108001030,
+    "StageName": "Rockcut Tomb 3F",
+    "QuestStageName": "Rockcut Tomb 3F",
+    "StageType": "EStageType::Field"
+  },
+  {
+    "StageID": 108001040,
+    "StageName": "Bladehaven 1F",
+    "QuestStageName": "Bladehaven 1F",
+    "StageType": "EStageType::Field"
+  },
+  {
+    "StageID": 108001050,
+    "StageName": "Bladehaven 2F",
+    "QuestStageName": "Bladehaven 2F",
+    "StageType": "EStageType::Field"
+  },
+  {
+    "StageID": 109001010,
+    "StageName": "Sabuk Castle",
+    "QuestStageName": "Sabuk Castle",
+    "StageType": "EStageType::Field"
+  },
+  {
+    "StageID": 109001020,
+    "StageName": "Gorge Cliff Path",
+    "QuestStageName": "Gorge Cliff Path",
+    "StageType": "EStageType::Field"
+  },
+  {
+    "StageID": 109001030,
+    "StageName": "Gorge Cave",
+    "QuestStageName": "Gorge Cave",
+    "StageType": "EStageType::Field"
+  },
+  {
+    "StageID": 109001040,
+    "StageName": "Great Sabuk Wall Camp",
+    "QuestStageName": "Great Sabuk Wall Camp",
+    "StageType": "EStageType::Field"
+  },
+  {
+    "StageID": 109001050,
+    "StageName": "Great Sabuk Wall Supply Depot",
+    "QuestStageName": "Great Sabuk Wall Supply Depot",
+    "StageType": "EStageType::Field"
+  },
+  {
+    "StageID": 109001060,
+    "StageName": "Great Sabuk Wall Control Room",
+    "QuestStageName": "Great Sabuk Wall Control Room",
+    "StageType": "EStageType::Field"
+  },
+  {
+    "StageID": 200022010,
+    "StageName": "[Elite] Bicheon Castle Backstreet",
+    "QuestStageName": "Bicheon Castle Backstreet",
+    "StageType": "EStageType::EliteDungeon"
+  },
+  {
+    "StageID": 200022020,
+    "StageName": "[Elite] Nefariox Necropolis 1F",
+    "QuestStageName": "Nefariox Necropolis 1F",
+    "StageType": "EStageType::EliteDungeon"
+  },
+  {
+    "StageID": 200022021,
+    "StageName": "[Elite] Nefariox Necropolis 2F",
+    "QuestStageName": "Nefariox Necropolis 2F",
+    "StageType": "EStageType::EliteDungeon"
+  },
+  {
+    "StageID": 200022030,
+    "StageName": "[Elite] Nefariox Ruins 1F",
+    "QuestStageName": "Nefariox Ruins 1F",
+    "StageType": "EStageType::EliteDungeon"
+  },
+  {
+    "StageID": 200022031,
+    "StageName": "[Elite] Nefariox Ruins 2F",
+    "QuestStageName": "Nefariox Ruins 2F",
+    "StageType": "EStageType::EliteDungeon"
+  },
+  {
+    "StageID": 200022040,
+    "StageName": "[Elite] Demon Bull Temple 1F",
+    "QuestStageName": "Demon Bull Temple 1F",
+    "StageType": "EStageType::EliteDungeon"
+  },
+  {
+    "StageID": 200022041,
+    "StageName": "[Elite] Demon Bull Temple 2F",
+    "QuestStageName": "Demon Bull Temple 2F",
+    "StageType": "EStageType::EliteDungeon"
+  },
+  {
+    "StageID": 200022042,
+    "StageName": "[Elite] Demon Bull Temple 3F",
+    "QuestStageName": "Demon Bull Temple 3F",
+    "StageType": "EStageType::EliteDungeon"
+  },
+  {
+    "StageID": 200022050,
+    "StageName": "[Elite] Upper Death Gorge",
+    "QuestStageName": "Upper Death Gorge",
+    "StageType": "EStageType::EliteDungeon"
+  },
+  {
+    "StageID": 200022051,
+    "StageName": "[Elite] Lower Death Gorge",
+    "QuestStageName": "Lower Death Gorge",
+    "StageType": "EStageType::EliteDungeon"
+  },
+  {
+    "StageID": 200022070,
+    "StageName": "[Elite] Abandoned Mine 1F",
+    "QuestStageName": "Abandoned Mine 1F",
+    "StageType": "EStageType::EliteDungeon"
+  },
+  {
+    "StageID": 200022071,
+    "StageName": "[Elite] Abandoned Mine 2F",
+    "QuestStageName": "Abandoned Mine 2F",
+    "StageType": "EStageType::EliteDungeon"
+  },
+  {
+    "StageID": 200022072,
+    "StageName": "[Elite] Abandoned Mine 3F",
+    "QuestStageName": "Abandoned Mine 3F",
+    "StageType": "EStageType::EliteDungeon"
+  },
+  {
+    "StageID": 200022080,
+    "StageName": "[Elite] Secret Mine 1F",
+    "QuestStageName": "Secret Mine 1F",
+    "StageType": "EStageType::EliteDungeon"
+  },
+  {
+    "StageID": 200022081,
+    "StageName": "[Elite] Secret Mine 2F",
+    "QuestStageName": "Secret Mine 2F",
+    "StageType": "EStageType::EliteDungeon"
+  },
+  {
+    "StageID": 200022090,
+    "StageName": "[Elite] Redmoon Gorge 1F",
+    "QuestStageName": "Redmoon Gorge 1F",
+    "StageType": "EStageType::EliteDungeon"
+  },
+  {
+    "StageID": 200022091,
+    "StageName": "[Elite] Redmoon Gorge 2F",
+    "QuestStageName": "Redmoon Gorge 2F",
+    "StageType": "EStageType::EliteDungeon"
+  },
+  {
+    "StageID": 200022092,
+    "StageName": "[Elite] Redmoon Gorge 3F",
+    "QuestStageName": "Redmoon Gorge 3F",
+    "StageType": "EStageType::EliteDungeon"
+  },
+  {
+    "StageID": 200022100,
+    "StageName": "[Elite] Heaven's Way Peak Lower Level",
+    "QuestStageName": "Heaven's Way Peak Lower Level",
+    "StageType": "EStageType::EliteDungeon"
+  },
+  {
+    "StageID": 200022101,
+    "StageName": "[Elite] Heaven's Way Peak Mid Level",
+    "QuestStageName": "Heaven's Way Peak Mid Level",
+    "StageType": "EStageType::EliteDungeon"
+  },
+  {
+    "StageID": 200022102,
+    "StageName": "[Elite] Heaven's Way Peak Upper Level",
+    "QuestStageName": "Heaven's Way Peak Upper Level",
+    "StageType": "EStageType::EliteDungeon"
+  },
+  {
+    "StageID": 200022110,
+    "StageName": "[Elite] Viperbeast Plain",
+    "QuestStageName": "Viperbeast Plain",
+    "StageType": "EStageType::EliteDungeon"
+  },
+  {
+    "StageID": 200022120,
+    "StageName": "[Elite] Phantom Woods",
+    "QuestStageName": "Phantom Woods",
+    "StageType": "EStageType::EliteDungeon"
+  },
+  {
+    "StageID": 200022130,
+    "StageName": "[Elite] Redmoon Mountain",
+    "QuestStageName": "Redmoon Mountain",
+    "StageType": "EStageType::EliteDungeon"
+  },
+  {
+    "StageID": 200022210,
+    "StageName": "[Elite] Phantasia Desert",
+    "QuestStageName": "Phantasia Desert",
+    "StageType": "EStageType::EliteDungeon"
+  },
+  {
+    "StageID": 200022220,
+    "StageName": "[Elite] Ant Hole 1F",
+    "QuestStageName": "Ant Hole 1F",
+    "StageType": "EStageType::EliteDungeon"
+  },
+  {
+    "StageID": 200022221,
+    "StageName": "[Elite] Ant Hole 2F",
+    "QuestStageName": "Ant Hole 2F",
+    "StageType": "EStageType::EliteDungeon"
+  },
+  {
+    "StageID": 200022230,
+    "StageName": "[Elite] Underground Jail",
+    "QuestStageName": "Sabuk Castle Underground Jail",
+    "StageType": "EStageType::EliteDungeon"
+  },
+  {
+    "StageID": 200022240,
+    "StageName": "[Elite] Rockcut Tomb 1F",
+    "QuestStageName": "Rockcut Tomb 1F",
+    "StageType": "EStageType::EliteDungeon"
+  },
+  {
+    "StageID": 200022241,
+    "StageName": "[Elite] Rockcut Tomb 2F",
+    "QuestStageName": "Rockcut Tomb 2F",
+    "StageType": "EStageType::EliteDungeon"
+  },
+  {
+    "StageID": 200022242,
+    "StageName": "[Elite] Rockcut Tomb 3F",
+    "QuestStageName": "Rockcut Tomb 3F",
+    "StageType": "EStageType::EliteDungeon"
+  },
+  {
+    "StageID": 200022250,
+    "StageName": "[Elite] Bladehaven 1F",
+    "QuestStageName": "Bladehaven 1F",
+    "StageType": "EStageType::EliteDungeon"
+  },
+  {
+    "StageID": 200022251,
+    "StageName": "[Elite] Bladehaven 2F",
+    "QuestStageName": "Bladehaven 2F",
+    "StageType": "EStageType::EliteDungeon"
+  },
+  {
+    "StageID": 200022260,
+    "StageName": "[Elite] Gorge Cave",
+    "QuestStageName": "Gorge Cave",
+    "StageType": "EStageType::EliteDungeon"
+  },
+  {
+    "StageID": 200022270,
+    "StageName": "[Elite] Great Sabuk Wall Camp",
+    "QuestStageName": "Great Sabuk Wall Camp",
+    "StageType": "EStageType::EliteDungeon"
+  },
+  {
+    "StageID": 200022280,
+    "StageName": "[Elite] Great Sabuk Wall Supply Depot",
+    "QuestStageName": "Great Sabuk Wall Supply Depot",
+    "StageType": "EStageType::EliteDungeon"
+  },
+  {
+    "StageID": 200022290,
+    "StageName": "[Elite] Great Sabuk Wall Control Room",
+    "QuestStageName": "Great Sabuk Wall Control Room",
+    "StageType": "EStageType::EliteDungeon"
+  },
+  {
+    "StageID": 200251010,
+    "StageName": "Demon Bull God",
+    "QuestStageName": "Demon Bull God",
+    "StageType": "EStageType::GuildExpedition"
+  },
+  {
+    "StageID": 200251020,
+    "StageName": "Hell Rock Fiend",
+    "QuestStageName": "Hell Rock Fiend",
+    "StageType": "EStageType::GuildExpedition"
+  },
+  {
+    "StageID": 200251030,
+    "StageName": "Redmoon Devil",
+    "QuestStageName": "Redmoon Devil",
+    "StageType": "EStageType::GuildExpedition"
+  },
+  {
+    "StageID": 200251502,
+    "StageName": "Fox Spirit Beast",
+    "QuestStageName": "Fox Spirit Beast",
+    "StageType": "EStageType::GuildExpedition"
+  },
+  {
+    "StageID": 200251540,
+    "StageName": "Infernal Abomination",
+    "QuestStageName": "Infernal Abomination",
+    "StageType": "EStageType::GuildExpedition"
+  },
+  {
+    "StageID": 200251610,
+    "StageName": "Blue Thunder Dragon",
+    "QuestStageName": "Blue Thunder Dragon",
+    "StageType": "EStageType::GuildExpedition"
+  },
+  {
+    "StageID": 200251650,
+    "StageName": "Azure Flame Emperor",
+    "QuestStageName": "Azure Flame Emperor",
+    "StageType": "EStageType::GuildExpedition"
+  },
+  {
+    "StageID": 200300000,
+    "StageName": "Grand Centipedeus",
+    "QuestStageName": "Grand Centipedeus",
+    "StageType": "EStageType::Boss_Indun"
+  },
+  {
+    "StageID": 200400201,
+    "StageName": "Twinway Maze",
+    "QuestStageName": "Twinway Maze",
+    "StageType": "EStageType::Party_Indun"
+  },
+  {
+    "StageID": 200400211,
+    "StageName": "Hatchery Cave",
+    "QuestStageName": "Hatchery Cave",
+    "StageType": "EStageType::Party_Indun"
+  },
+  {
+    "StageID": 200400221,
+    "StageName": "Hidden Altar",
+    "QuestStageName": "Hidden Altar",
+    "StageType": "EStageType::Party_Indun"
+  },
+  {
+    "StageID": 200400231,
+    "StageName": "Sabuk Execution Ground",
+    "QuestStageName": "Sabuk Execution Ground",
+    "StageType": "EStageType::Party_Indun"
+  },
+  {
+    "StageID": 200400301,
+    "StageName": "Hall of Greed",
+    "QuestStageName": "Hall of Greed",
+    "StageType": "EStageType::Party_Indun"
+  },
+  {
+    "StageID": 200400401,
+    "StageName": "Dusk Armado Lair",
+    "QuestStageName": "Dusk Armado Lair",
+    "StageType": "EStageType::Party_Indun"
+  },
+  {
+    "StageID": 200400501,
+    "StageName": "Demoniac Mine",
+    "QuestStageName": "Demoniac Mine",
+    "StageType": "EStageType::Party_Indun"
+  },
+  {
+    "StageID": 200501020,
+    "StageName": "Demon's Ruin",
+    "QuestStageName": "Demon's Ruin",
+    "StageType": "EStageType::Party_Indun"
+  },
+  {
+    "StageID": 200501040,
+    "StageName": "Crimson Dragon Nest",
+    "QuestStageName": "Crimson Dragon Nest",
+    "StageType": "EStageType::Party_Indun"
+  },
+  {
+    "StageID": 200501051,
+    "StageName": "Wailing Dead Mine",
+    "QuestStageName": "Wailing Dead Mine",
+    "StageType": "EStageType::Party_Indun"
+  },
+  {
+    "StageID": 200501100,
+    "StageName": "Sinner's Den",
+    "QuestStageName": "Sinner's Den",
+    "StageType": "EStageType::Party_Indun"
+  },
+  {
+    "StageID": 200501400,
+    "StageName": "Underground Jail",
+    "QuestStageName": "Underground Jail",
+    "StageType": 111
+  },
+  {
+    "StageID": 200501500,
+    "StageName": "Unknown",
+    "QuestStageName": "Unknown",
+    "StageType": 101
+  },
+  {
+    "StageID": 200501910,
+    "StageName": "King Bull Fiend",
+    "QuestStageName": "King Bull Fiend",
+    "StageType": 101
+  },
+  {
+    "StageID": 200501920,
+    "StageName": "Steelbone Spectre",
+    "QuestStageName": "Steelbone Spectre",
+    "StageType": 101
+  },
+  {
+    "StageID": 200501930,
+    "StageName": "Ghostly Bogey",
+    "QuestStageName": "Ghostly Bogey",
+    "StageType": 101
+  },
+  {
+    "StageID": 200501940,
+    "StageName": "Unknown",
+    "QuestStageName": "Unknown",
+    "StageType": 111
+  },
+  {
+    "StageID": 200501950,
+    "StageName": "Unknown",
+    "QuestStageName": "Unknown",
+    "StageType": 101
+  },
+  {
+    "StageID": 200501960,
+    "StageName": "Unknown",
+    "QuestStageName": "Unknown",
+    "StageType": 111
+  },
+  {
+    "StageID": 200501970,
+    "StageName": "Unknown",
+    "QuestStageName": "Unknown",
+    "StageType": 101
+  },
+  {
+    "StageID": 200610001,
+    "StageName": "Inferno Chief",
+    "QuestStageName": "Inferno Chief",
+    "StageType": 120
+  },
+  {
+    "StageID": 200610002,
+    "StageName": "Triumphant Tiger Demon King",
+    "QuestStageName": "Triumphant Tiger Demon King",
+    "StageType": 120
+  },
+  {
+    "StageID": 200610003,
+    "StageName": "Fire Dragon Demon General",
+    "QuestStageName": "Fire Dragon Demon General",
+    "StageType": 120
+  },
+  {
+    "StageID": 200601010,
+    "StageName": "Nefariox King",
+    "QuestStageName": "Nefariox King",
+    "StageType": 101
+  },
+  {
+    "StageID": 200601020,
+    "StageName": "Deranged Hellbound Revenant",
+    "QuestStageName": "Deranged Hellbound Revenant",
+    "StageType": 101
+  },
+  {
+    "StageID": 200601030,
+    "StageName": "Nethersoul Fiend",
+    "QuestStageName": "Nethersoul Fiend",
+    "StageType": 111
+  },
+  {
+    "StageID": 200601040,
+    "StageName": "Ethershade Sagittarion",
+    "QuestStageName": "Ethershade Sagittarion",
+    "StageType": 101
+  },
+  {
+    "StageID": 200601150,
+    "StageName": "Dark Blood Monk",
+    "QuestStageName": "Dark Blood Monk",
+    "StageType": 101
+  },
+  {
+    "StageID": 200601160,
+    "StageName": "Forsaken King",
+    "QuestStageName": "Forsaken King",
+    "StageType": 101
+  },
+  {
+    "StageID": 200601170,
+    "StageName": "Bloodlust Sagittarion",
+    "QuestStageName": "Bloodlust Sagittarion",
+    "StageType": 101
+  },
+  {
+    "StageID": 200601180,
+    "StageName": "Sagittarion Ogre",
+    "QuestStageName": "Sagittarion Ogre",
+    "StageType": 101
+  },
+  {
+    "StageID": 200700020,
+    "StageName": "Clan Challenge Lv. 1",
+    "QuestStageName": "Clan Challenge Lv. 1",
+    "StageType": 53
+  },
+  {
+    "StageID": 200700030,
+    "StageName": "Clan Challenge Lv. 2",
+    "QuestStageName": "Clan Challenge Lv. 2",
+    "StageType": 53
+  },
+  {
+    "StageID": 200700040,
+    "StageName": "Clan Challenge Lv. 3",
+    "QuestStageName": "Clan Challenge Lv. 3",
+    "StageType": 53
+  },
+  {
+    "StageID": 200700050,
+    "StageName": "Clan Challenge Lv. 4",
+    "QuestStageName": "Clan Challenge Lv. 4",
+    "StageType": 53
+  },
+  {
+    "StageID": 200700060,
+    "StageName": "Clan Challenge Lv. 5",
+    "QuestStageName": "Clan Challenge Lv. 5",
+    "StageType": 53
+  },
+  {
+    "StageID": 200700070,
+    "StageName": "Unknown",
+    "QuestStageName": "Unknown",
+    "StageType": 53
+  },
+  {
+    "StageID": 200700080,
+    "StageName": "Unknown",
+    "QuestStageName": "Unknown",
+    "StageType": 53
+  },
+  {
+    "StageID": 201003010,
+    "StageName": "Bicheon Valley 1F",
+    "QuestStageName": "Bicheon Valley 1F",
+    "StageType": "EStageType::UnderWorld"
+  },
+  {
+    "StageID": 201003011,
+    "StageName": "Bicheon Valley 2F",
+    "QuestStageName": "Bicheon Valley 2F",
+    "StageType": "EStageType::UnderWorld"
+  },
+  {
+    "StageID": 201003012,
+    "StageName": "Bicheon Valley 3F",
+    "QuestStageName": "Bicheon Valley 3F",
+    "StageType": "EStageType::UnderWorld"
+  },
+  {
+    "StageID": 201003013,
+    "StageName": "Bicheon Valley 4F",
+    "QuestStageName": "Bicheon Valley 4F",
+    "StageType": "EStageType::UnderWorld"
+  },
+  {
+    "StageID": 201003030,
+    "StageName": "Snake Valley 1F",
+    "QuestStageName": "Snake Valley 1F",
+    "StageType": "EStageType::UnderWorld"
+  },
+  {
+    "StageID": 201003031,
+    "StageName": "Snake Valley 2F",
+    "QuestStageName": "Snake Valley 2F",
+    "StageType": "EStageType::UnderWorld"
+  },
+  {
+    "StageID": 201003032,
+    "StageName": "Snake Valley 3F",
+    "QuestStageName": "Snake Valley 3F",
+    "StageType": "EStageType::UnderWorld"
+  },
+  {
+    "StageID": 201003033,
+    "StageName": "Snake Valley 4F",
+    "QuestStageName": "Snake Valley 4F",
+    "StageType": "EStageType::UnderWorld"
+  },
+  {
+    "StageID": 201003040,
+    "StageName": "Redmoon Valley 1F",
+    "QuestStageName": "Redmoon Valley 1F",
+    "StageType": "EStageType::UnderWorld"
+  },
+  {
+    "StageID": 201003041,
+    "StageName": "Redmoon Valley 2F",
+    "QuestStageName": "Redmoon Valley 2F",
+    "StageType": "EStageType::UnderWorld"
+  },
+  {
+    "StageID": 201003042,
+    "StageName": "Redmoon Valley 3F",
+    "QuestStageName": "Redmoon Valley 3F",
+    "StageType": "EStageType::UnderWorld"
+  },
+  {
+    "StageID": 201003043,
+    "StageName": "Redmoon Valley 4F",
+    "QuestStageName": "Redmoon Valley 4F",
+    "StageType": "EStageType::UnderWorld"
+  },
+  {
+    "StageID": 201004040,
+    "StageName": "Phantasia Valley 1F",
+    "QuestStageName": "Phantasia Valley 1F",
+    "StageType": "EStageType::UnderWorld"
+  },
+  {
+    "StageID": 201004041,
+    "StageName": "Phantasia Valley 2F",
+    "QuestStageName": "Phantasia Valley 2F",
+    "StageType": "EStageType::UnderWorld"
+  },
+  {
+    "StageID": 201004042,
+    "StageName": "Phantasia Valley 3F",
+    "QuestStageName": "Phantasia Valley 3F",
+    "StageType": "EStageType::UnderWorld"
+  },
+  {
+    "StageID": 201004043,
+    "StageName": "Phantasia Valley 4F",
+    "QuestStageName": "Phantasia Valley 4F",
+    "StageType": "EStageType::UnderWorld"
+  },
+  {
+    "StageID": 201300101,
+    "StageName": "Magic Square 1F",
+    "QuestStageName": "Magic Square 1F",
+    "StageType": "EStageType::Magic_Square"
+  },
+  {
+    "StageID": 201300102,
+    "StageName": "[1F] Magic Stone Chamber I",
+    "QuestStageName": "[1F] Magic Stone Chamber I",
+    "StageType": "EStageType::Magic_Square"
+  },
+  {
+    "StageID": 201300103,
+    "StageName": "[1F] Magic Stone Chamber II",
+    "QuestStageName": "[1F] Magic Stone Chamber II",
+    "StageType": "EStageType::Magic_Square"
+  },
+  {
+    "StageID": 201300104,
+    "StageName": "[1F] Magic Stone Chamber III",
+    "QuestStageName": "[1F] Magic Stone Chamber III",
+    "StageType": "EStageType::Magic_Square"
+  },
+  {
+    "StageID": 201300105,
+    "StageName": "[1F] Enhancement Chamber",
+    "QuestStageName": "[1F] Enhancement Chamber",
+    "StageType": "EStageType::Magic_Square"
+  },
+  {
+    "StageID": 201300106,
+    "StageName": "[1F] Enhancement Chamber",
+    "QuestStageName": "[1F] Enhancement Chamber",
+    "StageType": "EStageType::Magic_Square"
+  },
+  {
+    "StageID": 201300107,
+    "StageName": "[1F] Enhancement Chamber",
+    "QuestStageName": "[1F] Enhancement Chamber",
+    "StageType": "EStageType::Magic_Square"
+  },
+  {
+    "StageID": 201300108,
+    "StageName": "[1F] Experience Chamber I",
+    "QuestStageName": "[1F] Experience Chamber I",
+    "StageType": "EStageType::Magic_Square"
+  },
+  {
+    "StageID": 201300109,
+    "StageName": "[1F] Experience Chamber II",
+    "QuestStageName": "[1F] Experience Chamber II",
+    "StageType": "EStageType::Magic_Square"
+  },
+  {
+    "StageID": 201300110,
+    "StageName": "[1F] Experience Chamber III",
+    "QuestStageName": "[1F] Experience Chamber III",
+    "StageType": "EStageType::Magic_Square"
+  },
+  {
+    "StageID": 201300111,
+    "StageName": "[1F] Gold Chamber I",
+    "QuestStageName": "[1F] Gold Chamber I",
+    "StageType": "EStageType::Magic_Square"
+  },
+  {
+    "StageID": 201300112,
+    "StageName": "[1F] Gold Chamber II",
+    "QuestStageName": "[1F] Gold Chamber II",
+    "StageType": "EStageType::Magic_Square"
+  },
+  {
+    "StageID": 201300113,
+    "StageName": "[1F] Gold Chamber III",
+    "QuestStageName": "[1F] Gold Chamber III",
+    "StageType": "EStageType::Magic_Square"
+  },
+  {
+    "StageID": 201300114,
+    "StageName": "[1F] Mining Chamber",
+    "QuestStageName": "[1F] Mining Chamber",
+    "StageType": "EStageType::Magic_Square"
+  },
+  {
+    "StageID": 201300115,
+    "StageName": "[1F] Mining Chamber",
+    "QuestStageName": "[1F] Mining Chamber",
+    "StageType": "EStageType::Magic_Square"
+  },
+  {
+    "StageID": 201300116,
+    "StageName": "[1F] Mining Chamber",
+    "QuestStageName": "[1F] Mining Chamber",
+    "StageType": "EStageType::Magic_Square"
+  },
+  {
+    "StageID": 201300117,
+    "StageName": "[1F] Gathering Chamber",
+    "QuestStageName": "[1F] Gathering Chamber",
+    "StageType": "EStageType::Magic_Square"
+  },
+  {
+    "StageID": 201300118,
+    "StageName": "[1F] Gathering Chamber",
+    "QuestStageName": "[1F] Gathering Chamber",
+    "StageType": "EStageType::Magic_Square"
+  },
+  {
+    "StageID": 201300119,
+    "StageName": "[1F] Gathering Chamber",
+    "QuestStageName": "[1F] Gathering Chamber",
+    "StageType": "EStageType::Magic_Square"
+  },
+  {
+    "StageID": 201300120,
+    "StageName": "[1F] Energy Chamber",
+    "QuestStageName": "[1F] Energy Chamber",
+    "StageType": "EStageType::Magic_Square"
+  },
+  {
+    "StageID": 201300121,
+    "StageName": "[1F] Energy Chamber",
+    "QuestStageName": "[1F] Energy Chamber",
+    "StageType": "EStageType::Magic_Square"
+  },
+  {
+    "StageID": 201300122,
+    "StageName": "[1F] Leader's Chamber III",
+    "QuestStageName": "[1F] Leader's Chamber III",
+    "StageType": "EStageType::Magic_Square"
+  },
+  {
+    "StageID": 201300123,
+    "StageName": "[1F] Leader's Chamber II",
+    "QuestStageName": "[1F] Leader's Chamber II",
+    "StageType": "EStageType::Magic_Square"
+  },
+  {
+    "StageID": 201300124,
+    "StageName": "[1F] Leader's Chamber I",
+    "QuestStageName": "[1F] Leader's Chamber I",
+    "StageType": "EStageType::Magic_Square"
+  },
+  {
+    "StageID": 201300125,
+    "StageName": "[1F] Treasure Chamber",
+    "QuestStageName": "[1F] Treasure Chamber",
+    "StageType": "EStageType::Magic_Square"
+  },
+  {
+    "StageID": 201300126,
+    "StageName": "[1F] Trade Chamber",
+    "QuestStageName": "[1F] Trade Chamber",
+    "StageType": "EStageType::Magic_Square"
+  },
+  {
+    "StageID": 201300127,
+    "StageName": "[1F] Protection Chamber",
+    "QuestStageName": "[1F] Protection Chamber",
+    "StageType": "EStageType::Magic_Square"
+  },
+  {
+    "StageID": 201300128,
+    "StageName": "[1F] Sealing Chamber",
+    "QuestStageName": "[1F] Sealing Chamber",
+    "StageType": "EStageType::Magic_Square"
+  },
+  {
+    "StageID": 201300129,
+    "StageName": "[1F] Demon's Chamber",
+    "QuestStageName": "[1F] Demon's Chamber",
+    "StageType": "EStageType::Magic_Square"
+  },
+  {
+    "StageID": 201300130,
+    "StageName": "[1F] Cooperation Chamber",
+    "QuestStageName": "[1F] Cooperation Chamber",
+    "StageType": "EStageType::Magic_Square"
+  },
+  {
+    "StageID": 201300131,
+    "StageName": "[1F] Darksteel Chamber",
+    "QuestStageName": "[1F] Darksteel Chamber",
+    "StageType": "EStageType::Magic_Square"
+  },
+  {
+    "StageID": 201300132,
+    "StageName": "[1F] Darksteel Chamber",
+    "QuestStageName": "[1F] Darksteel Chamber",
+    "StageType": "EStageType::Magic_Square"
+  },
+  {
+    "StageID": 201300133,
+    "StageName": "[1F] Training Chamber I",
+    "QuestStageName": "[1F] Training Chamber I",
+    "StageType": "EStageType::Magic_Square"
+  },
+  {
+    "StageID": 201300134,
+    "StageName": "[1F] Training Chamber II",
+    "QuestStageName": "[1F] Training Chamber II",
+    "StageType": "EStageType::Magic_Square"
+  },
+  {
+    "StageID": 201300135,
+    "StageName": "[1F] White Silver Chamber I",
+    "QuestStageName": "[1F] White Silver Chamber I",
+    "StageType": "EStageType::Magic_Square"
+  },
+  {
+    "StageID": 201300136,
+    "StageName": "[1F] White Silver Chamber II",
+    "QuestStageName": "[1F] White Silver Chamber II",
+    "StageType": "EStageType::Magic_Square"
+  },
+  {
+    "StageID": 201300201,
+    "StageName": "Magic Square 2F",
+    "QuestStageName": "Magic Square 2F",
+    "StageType": "EStageType::Magic_Square"
+  },
+  {
+    "StageID": 201300202,
+    "StageName": "[2F] Magic Stone Chamber I",
+    "QuestStageName": "[2F] Magic Stone Chamber I",
+    "StageType": "EStageType::Magic_Square"
+  },
+  {
+    "StageID": 201300203,
+    "StageName": "[2F] Magic Stone Chamber II",
+    "QuestStageName": "[2F] Magic Stone Chamber II",
+    "StageType": "EStageType::Magic_Square"
+  },
+  {
+    "StageID": 201300204,
+    "StageName": "[2F] Magic Stone Chamber III",
+    "QuestStageName": "[2F] Magic Stone Chamber III",
+    "StageType": "EStageType::Magic_Square"
+  },
+  {
+    "StageID": 201300205,
+    "StageName": "[2F] Enhancement Chamber",
+    "QuestStageName": "[2F] Enhancement Chamber",
+    "StageType": "EStageType::Magic_Square"
+  },
+  {
+    "StageID": 201300206,
+    "StageName": "[2F] Enhancement Chamber",
+    "QuestStageName": "[2F] Enhancement Chamber",
+    "StageType": "EStageType::Magic_Square"
+  },
+  {
+    "StageID": 201300207,
+    "StageName": "[2F] Enhancement Chamber",
+    "QuestStageName": "[2F] Enhancement Chamber",
+    "StageType": "EStageType::Magic_Square"
+  },
+  {
+    "StageID": 201300208,
+    "StageName": "[2F] Experience Chamber I",
+    "QuestStageName": "[2F] Experience Chamber I",
+    "StageType": "EStageType::Magic_Square"
+  },
+  {
+    "StageID": 201300209,
+    "StageName": "[2F] Experience Chamber II",
+    "QuestStageName": "[2F] Experience Chamber II",
+    "StageType": "EStageType::Magic_Square"
+  },
+  {
+    "StageID": 201300210,
+    "StageName": "[2F] Experience Chamber III",
+    "QuestStageName": "[2F] Experience Chamber III",
+    "StageType": "EStageType::Magic_Square"
+  },
+  {
+    "StageID": 201300211,
+    "StageName": "[2F] Gold Chamber I",
+    "QuestStageName": "[2F] Gold Chamber I",
+    "StageType": "EStageType::Magic_Square"
+  },
+  {
+    "StageID": 201300212,
+    "StageName": "[2F] Gold Chamber II",
+    "QuestStageName": "[2F] Gold Chamber II",
+    "StageType": "EStageType::Magic_Square"
+  },
+  {
+    "StageID": 201300213,
+    "StageName": "[2F] Gold Chamber III",
+    "QuestStageName": "[2F] Gold Chamber III",
+    "StageType": "EStageType::Magic_Square"
+  },
+  {
+    "StageID": 201300214,
+    "StageName": "[2F] Mining Chamber",
+    "QuestStageName": "[2F] Mining Chamber",
+    "StageType": "EStageType::Magic_Square"
+  },
+  {
+    "StageID": 201300215,
+    "StageName": "[2F] Mining Chamber",
+    "QuestStageName": "[2F] Mining Chamber",
+    "StageType": "EStageType::Magic_Square"
+  },
+  {
+    "StageID": 201300216,
+    "StageName": "[2F] Mining Chamber",
+    "QuestStageName": "[2F] Mining Chamber",
+    "StageType": "EStageType::Magic_Square"
+  },
+  {
+    "StageID": 201300217,
+    "StageName": "[2F] Gathering Chamber",
+    "QuestStageName": "[2F] Gathering Chamber",
+    "StageType": "EStageType::Magic_Square"
+  },
+  {
+    "StageID": 201300218,
+    "StageName": "[2F] Gathering Chamber",
+    "QuestStageName": "[2F] Gathering Chamber",
+    "StageType": "EStageType::Magic_Square"
+  },
+  {
+    "StageID": 201300219,
+    "StageName": "[2F] Gathering Chamber",
+    "QuestStageName": "[2F] Gathering Chamber",
+    "StageType": "EStageType::Magic_Square"
+  },
+  {
+    "StageID": 201300220,
+    "StageName": "[2F] Energy Chamber",
+    "QuestStageName": "[2F] Energy Chamber",
+    "StageType": "EStageType::Magic_Square"
+  },
+  {
+    "StageID": 201300221,
+    "StageName": "[2F] Energy Chamber",
+    "QuestStageName": "[2F] Energy Chamber",
+    "StageType": "EStageType::Magic_Square"
+  },
+  {
+    "StageID": 201300222,
+    "StageName": "[2F] Leader's Chamber III",
+    "QuestStageName": "[2F] Leader's Chamber III",
+    "StageType": "EStageType::Magic_Square"
+  },
+  {
+    "StageID": 201300223,
+    "StageName": "[2F] Leader's Chamber II",
+    "QuestStageName": "[2F] Leader's Chamber II",
+    "StageType": "EStageType::Magic_Square"
+  },
+  {
+    "StageID": 201300224,
+    "StageName": "[2F] Leader's Chamber I",
+    "QuestStageName": "[2F] Leader's Chamber I",
+    "StageType": "EStageType::Magic_Square"
+  },
+  {
+    "StageID": 201300225,
+    "StageName": "[2F] Treasure Chamber",
+    "QuestStageName": "[2F] Treasure Chamber",
+    "StageType": "EStageType::Magic_Square"
+  },
+  {
+    "StageID": 201300226,
+    "StageName": "[2F] Trade Chamber",
+    "QuestStageName": "[2F] Trade Chamber",
+    "StageType": "EStageType::Magic_Square"
+  },
+  {
+    "StageID": 201300227,
+    "StageName": "[2F] Protection Chamber",
+    "QuestStageName": "[2F] Protection Chamber",
+    "StageType": "EStageType::Magic_Square"
+  },
+  {
+    "StageID": 201300228,
+    "StageName": "[2F] Sealing Chamber",
+    "QuestStageName": "[2F] Sealing Chamber",
+    "StageType": "EStageType::Magic_Square"
+  },
+  {
+    "StageID": 201300229,
+    "StageName": "[2F] Demon's Chamber",
+    "QuestStageName": "[2F] Demon's Chamber",
+    "StageType": "EStageType::Magic_Square"
+  },
+  {
+    "StageID": 201300230,
+    "StageName": "[2F] Cooperation Chamber",
+    "QuestStageName": "[2F] Cooperation Chamber",
+    "StageType": "EStageType::Magic_Square"
+  },
+  {
+    "StageID": 201300231,
+    "StageName": "[2F] Darksteel Chamber",
+    "QuestStageName": "[2F] Darksteel Chamber",
+    "StageType": "EStageType::Magic_Square"
+  },
+  {
+    "StageID": 201300232,
+    "StageName": "[2F] Darksteel Chamber",
+    "QuestStageName": "[2F] Darksteel Chamber",
+    "StageType": "EStageType::Magic_Square"
+  },
+  {
+    "StageID": 201300233,
+    "StageName": "[2F] Training Chamber I",
+    "QuestStageName": "[2F] Training Chamber I",
+    "StageType": "EStageType::Magic_Square"
+  },
+  {
+    "StageID": 201300234,
+    "StageName": "[2F] Training Chamber II",
+    "QuestStageName": "[2F] Training Chamber II",
+    "StageType": "EStageType::Magic_Square"
+  },
+  {
+    "StageID": 201300235,
+    "StageName": "[2F] White Silver Chamber I",
+    "QuestStageName": "[2F] White Silver Chamber I",
+    "StageType": "EStageType::Magic_Square"
+  },
+  {
+    "StageID": 201300236,
+    "StageName": "[2F] White Silver Chamber II",
+    "QuestStageName": "[2F] White Silver Chamber II",
+    "StageType": "EStageType::Magic_Square"
+  },
+  {
+    "StageID": 201300301,
+    "StageName": "Magic Square 3F",
+    "QuestStageName": "Magic Square 3F",
+    "StageType": "EStageType::Magic_Square"
+  },
+  {
+    "StageID": 201300302,
+    "StageName": "[3F] Magic Stone Chamber I",
+    "QuestStageName": "[3F] Magic Stone Chamber I",
+    "StageType": "EStageType::Magic_Square"
+  },
+  {
+    "StageID": 201300303,
+    "StageName": "[3F] Magic Stone Chamber II",
+    "QuestStageName": "[3F] Magic Stone Chamber II",
+    "StageType": "EStageType::Magic_Square"
+  },
+  {
+    "StageID": 201300304,
+    "StageName": "[3F] Magic Stone Chamber III",
+    "QuestStageName": "[3F] Magic Stone Chamber III",
+    "StageType": "EStageType::Magic_Square"
+  },
+  {
+    "StageID": 201300305,
+    "StageName": "[3F] Enhancement Chamber",
+    "QuestStageName": "[3F] Enhancement Chamber",
+    "StageType": "EStageType::Magic_Square"
+  },
+  {
+    "StageID": 201300306,
+    "StageName": "[3F] Enhancement Chamber",
+    "QuestStageName": "[3F] Enhancement Chamber",
+    "StageType": "EStageType::Magic_Square"
+  },
+  {
+    "StageID": 201300307,
+    "StageName": "[3F] Enhancement Chamber",
+    "QuestStageName": "[3F] Enhancement Chamber",
+    "StageType": "EStageType::Magic_Square"
+  },
+  {
+    "StageID": 201300308,
+    "StageName": "[3F] Experience Chamber I",
+    "QuestStageName": "[3F] Experience Chamber I",
+    "StageType": "EStageType::Magic_Square"
+  },
+  {
+    "StageID": 201300309,
+    "StageName": "[3F] Experience Chamber II",
+    "QuestStageName": "[3F] Experience Chamber II",
+    "StageType": "EStageType::Magic_Square"
+  },
+  {
+    "StageID": 201300310,
+    "StageName": "[3F] Experience Chamber III",
+    "QuestStageName": "[3F] Experience Chamber III",
+    "StageType": "EStageType::Magic_Square"
+  },
+  {
+    "StageID": 201300311,
+    "StageName": "[3F] Gold Chamber I",
+    "QuestStageName": "[3F] Gold Chamber I",
+    "StageType": "EStageType::Magic_Square"
+  },
+  {
+    "StageID": 201300312,
+    "StageName": "[3F] Gold Chamber II",
+    "QuestStageName": "[3F] Gold Chamber II",
+    "StageType": "EStageType::Magic_Square"
+  },
+  {
+    "StageID": 201300313,
+    "StageName": "[3F] Gold Chamber III",
+    "QuestStageName": "[3F] Gold Chamber III",
+    "StageType": "EStageType::Magic_Square"
+  },
+  {
+    "StageID": 201300314,
+    "StageName": "[3F] Mining Chamber",
+    "QuestStageName": "[3F] Mining Chamber",
+    "StageType": "EStageType::Magic_Square"
+  },
+  {
+    "StageID": 201300315,
+    "StageName": "[3F] Mining Chamber",
+    "QuestStageName": "[3F] Mining Chamber",
+    "StageType": "EStageType::Magic_Square"
+  },
+  {
+    "StageID": 201300316,
+    "StageName": "[3F] Mining Chamber",
+    "QuestStageName": "[3F] Mining Chamber",
+    "StageType": "EStageType::Magic_Square"
+  },
+  {
+    "StageID": 201300317,
+    "StageName": "[3F] Gathering Chamber",
+    "QuestStageName": "[3F] Gathering Chamber",
+    "StageType": "EStageType::Magic_Square"
+  },
+  {
+    "StageID": 201300318,
+    "StageName": "[3F] Gathering Chamber",
+    "QuestStageName": "[3F] Gathering Chamber",
+    "StageType": "EStageType::Magic_Square"
+  },
+  {
+    "StageID": 201300319,
+    "StageName": "[3F] Gathering Chamber",
+    "QuestStageName": "[3F] Gathering Chamber",
+    "StageType": "EStageType::Magic_Square"
+  },
+  {
+    "StageID": 201300320,
+    "StageName": "[3F] Energy Chamber",
+    "QuestStageName": "[3F] Energy Chamber",
+    "StageType": "EStageType::Magic_Square"
+  },
+  {
+    "StageID": 201300321,
+    "StageName": "[3F] Energy Chamber",
+    "QuestStageName": "[3F] Energy Chamber",
+    "StageType": "EStageType::Magic_Square"
+  },
+  {
+    "StageID": 201300322,
+    "StageName": "[3F] Leader's Chamber III",
+    "QuestStageName": "[3F] Leader's Chamber III",
+    "StageType": "EStageType::Magic_Square"
+  },
+  {
+    "StageID": 201300323,
+    "StageName": "[3F] Leader's Chamber II",
+    "QuestStageName": "[3F] Leader's Chamber II",
+    "StageType": "EStageType::Magic_Square"
+  },
+  {
+    "StageID": 201300324,
+    "StageName": "[3F] Leader's Chamber I",
+    "QuestStageName": "[3F] Leader's Chamber I",
+    "StageType": "EStageType::Magic_Square"
+  },
+  {
+    "StageID": 201300325,
+    "StageName": "[3F] Treasure Chamber",
+    "QuestStageName": "[3F] Treasure Chamber",
+    "StageType": "EStageType::Magic_Square"
+  },
+  {
+    "StageID": 201300326,
+    "StageName": "[3F] Trade Chamber",
+    "QuestStageName": "[3F] Trade Chamber",
+    "StageType": "EStageType::Magic_Square"
+  },
+  {
+    "StageID": 201300327,
+    "StageName": "[3F] Protection Chamber",
+    "QuestStageName": "[3F] Protection Chamber",
+    "StageType": "EStageType::Magic_Square"
+  },
+  {
+    "StageID": 201300328,
+    "StageName": "[3F] Sealing Chamber",
+    "QuestStageName": "[3F] Sealing Chamber",
+    "StageType": "EStageType::Magic_Square"
+  },
+  {
+    "StageID": 201300329,
+    "StageName": "[3F] Demon's Chamber",
+    "QuestStageName": "[3F] Demon's Chamber",
+    "StageType": "EStageType::Magic_Square"
+  },
+  {
+    "StageID": 201300330,
+    "StageName": "[3F] Cooperation Chamber",
+    "QuestStageName": "[3F] Cooperation Chamber",
+    "StageType": "EStageType::Magic_Square"
+  },
+  {
+    "StageID": 201300331,
+    "StageName": "[3F] Darksteel Chamber",
+    "QuestStageName": "[3F] Darksteel Chamber",
+    "StageType": "EStageType::Magic_Square"
+  },
+  {
+    "StageID": 201300332,
+    "StageName": "[3F] Darksteel Chamber",
+    "QuestStageName": "[3F] Darksteel Chamber",
+    "StageType": "EStageType::Magic_Square"
+  },
+  {
+    "StageID": 201300333,
+    "StageName": "[3F] Training Chamber I",
+    "QuestStageName": "[3F] Training Chamber I",
+    "StageType": "EStageType::Magic_Square"
+  },
+  {
+    "StageID": 201300334,
+    "StageName": "[3F] Training Chamber II",
+    "QuestStageName": "[3F] Training Chamber II",
+    "StageType": "EStageType::Magic_Square"
+  },
+  {
+    "StageID": 201300335,
+    "StageName": "[3F] White Silver Chamber I",
+    "QuestStageName": "[3F] White Silver Chamber I",
+    "StageType": "EStageType::Magic_Square"
+  },
+  {
+    "StageID": 201300336,
+    "StageName": "[3F] White Silver Chamber II",
+    "QuestStageName": "[3F] White Silver Chamber II",
+    "StageType": "EStageType::Magic_Square"
+  },
+  {
+    "StageID": 201300401,
+    "StageName": "Magic Square 4F",
+    "QuestStageName": "Magic Square 4F",
+    "StageType": "EStageType::Magic_Square"
+  },
+  {
+    "StageID": 201300402,
+    "StageName": "[4F] Magic Stone Chamber I",
+    "QuestStageName": "[4F] Magic Stone Chamber I",
+    "StageType": "EStageType::Magic_Square"
+  },
+  {
+    "StageID": 201300403,
+    "StageName": "[4F] Magic Stone Chamber II",
+    "QuestStageName": "[4F] Magic Stone Chamber II",
+    "StageType": "EStageType::Magic_Square"
+  },
+  {
+    "StageID": 201300404,
+    "StageName": "[4F] Magic Stone Chamber III",
+    "QuestStageName": "[4F] Magic Stone Chamber III",
+    "StageType": "EStageType::Magic_Square"
+  },
+  {
+    "StageID": 201300405,
+    "StageName": "[4F] Enhancement Chamber",
+    "QuestStageName": "[4F] Enhancement Chamber",
+    "StageType": "EStageType::Magic_Square"
+  },
+  {
+    "StageID": 201300406,
+    "StageName": "[4F] Enhancement Chamber",
+    "QuestStageName": "[4F] Enhancement Chamber",
+    "StageType": "EStageType::Magic_Square"
+  },
+  {
+    "StageID": 201300407,
+    "StageName": "[4F] Enhancement Chamber",
+    "QuestStageName": "[4F] Enhancement Chamber",
+    "StageType": "EStageType::Magic_Square"
+  },
+  {
+    "StageID": 201300408,
+    "StageName": "[4F] Experience Chamber I",
+    "QuestStageName": "[4F] Experience Chamber I",
+    "StageType": "EStageType::Magic_Square"
+  },
+  {
+    "StageID": 201300409,
+    "StageName": "[4F] Experience Chamber II",
+    "QuestStageName": "[4F] Experience Chamber II",
+    "StageType": "EStageType::Magic_Square"
+  },
+  {
+    "StageID": 201300410,
+    "StageName": "[4F] Experience Chamber III",
+    "QuestStageName": "[4F] Experience Chamber III",
+    "StageType": "EStageType::Magic_Square"
+  },
+  {
+    "StageID": 201300411,
+    "StageName": "[4F] Gold Chamber I",
+    "QuestStageName": "[4F] Gold Chamber I",
+    "StageType": "EStageType::Magic_Square"
+  },
+  {
+    "StageID": 201300412,
+    "StageName": "[4F] Gold Chamber II",
+    "QuestStageName": "[4F] Gold Chamber II",
+    "StageType": "EStageType::Magic_Square"
+  },
+  {
+    "StageID": 201300413,
+    "StageName": "[4F] Gold Chamber III",
+    "QuestStageName": "[4F] Gold Chamber III",
+    "StageType": "EStageType::Magic_Square"
+  },
+  {
+    "StageID": 201300414,
+    "StageName": "[4F] Mining Chamber",
+    "QuestStageName": "[4F] Mining Chamber",
+    "StageType": "EStageType::Magic_Square"
+  },
+  {
+    "StageID": 201300415,
+    "StageName": "[4F] Mining Chamber",
+    "QuestStageName": "[4F] Mining Chamber",
+    "StageType": "EStageType::Magic_Square"
+  },
+  {
+    "StageID": 201300416,
+    "StageName": "[4F] Mining Chamber",
+    "QuestStageName": "[4F] Mining Chamber",
+    "StageType": "EStageType::Magic_Square"
+  },
+  {
+    "StageID": 201300417,
+    "StageName": "[4F] Gathering Chamber",
+    "QuestStageName": "[4F] Gathering Chamber",
+    "StageType": "EStageType::Magic_Square"
+  },
+  {
+    "StageID": 201300418,
+    "StageName": "[4F] Gathering Chamber",
+    "QuestStageName": "[4F] Gathering Chamber",
+    "StageType": "EStageType::Magic_Square"
+  },
+  {
+    "StageID": 201300419,
+    "StageName": "[4F] Gathering Chamber",
+    "QuestStageName": "[4F] Gathering Chamber",
+    "StageType": "EStageType::Magic_Square"
+  },
+  {
+    "StageID": 201300420,
+    "StageName": "[4F] Energy Chamber",
+    "QuestStageName": "[4F] Energy Chamber",
+    "StageType": "EStageType::Magic_Square"
+  },
+  {
+    "StageID": 201300421,
+    "StageName": "[4F] Energy Chamber",
+    "QuestStageName": "[4F] Energy Chamber",
+    "StageType": "EStageType::Magic_Square"
+  },
+  {
+    "StageID": 201300422,
+    "StageName": "[4F] Leader's Chamber III",
+    "QuestStageName": "[4F] Leader's Chamber III",
+    "StageType": "EStageType::Magic_Square"
+  },
+  {
+    "StageID": 201300423,
+    "StageName": "[4F] Leader's Chamber II",
+    "QuestStageName": "[4F] Leader's Chamber II",
+    "StageType": "EStageType::Magic_Square"
+  },
+  {
+    "StageID": 201300424,
+    "StageName": "[4F] Leader's Chamber I",
+    "QuestStageName": "[4F] Leader's Chamber I",
+    "StageType": "EStageType::Magic_Square"
+  },
+  {
+    "StageID": 201300425,
+    "StageName": "[4F] Treasure Chamber",
+    "QuestStageName": "[4F] Treasure Chamber",
+    "StageType": "EStageType::Magic_Square"
+  },
+  {
+    "StageID": 201300426,
+    "StageName": "[4F] Trade Chamber",
+    "QuestStageName": "[4F] Trade Chamber",
+    "StageType": "EStageType::Magic_Square"
+  },
+  {
+    "StageID": 201300427,
+    "StageName": "[4F] Protection Chamber",
+    "QuestStageName": "[4F] Protection Chamber",
+    "StageType": "EStageType::Magic_Square"
+  },
+  {
+    "StageID": 201300428,
+    "StageName": "[4F] Sealing Chamber",
+    "QuestStageName": "[4F] Sealing Chamber",
+    "StageType": "EStageType::Magic_Square"
+  },
+  {
+    "StageID": 201300429,
+    "StageName": "[4F] Demon's Chamber",
+    "QuestStageName": "[4F] Demon's Chamber",
+    "StageType": "EStageType::Magic_Square"
+  },
+  {
+    "StageID": 201300430,
+    "StageName": "[4F] Cooperation Chamber",
+    "QuestStageName": "[4F] Cooperation Chamber",
+    "StageType": "EStageType::Magic_Square"
+  },
+  {
+    "StageID": 201300431,
+    "StageName": "[4F] Darksteel Chamber",
+    "QuestStageName": "[4F] Darksteel Chamber",
+    "StageType": "EStageType::Magic_Square"
+  },
+  {
+    "StageID": 201300432,
+    "StageName": "[4F] Darksteel Chamber",
+    "QuestStageName": "[4F] Darksteel Chamber",
+    "StageType": "EStageType::Magic_Square"
+  },
+  {
+    "StageID": 201300433,
+    "StageName": "[4F] Training Chamber I",
+    "QuestStageName": "[4F] Training Chamber I",
+    "StageType": "EStageType::Magic_Square"
+  },
+  {
+    "StageID": 201300434,
+    "StageName": "[4F] Training Chamber II",
+    "QuestStageName": "[4F] Training Chamber II",
+    "StageType": "EStageType::Magic_Square"
+  },
+  {
+    "StageID": 201300435,
+    "StageName": "[4F] White Silver Chamber I",
+    "QuestStageName": "[4F] White Silver Chamber I",
+    "StageType": "EStageType::Magic_Square"
+  },
+  {
+    "StageID": 201300436,
+    "StageName": "[4F] White Silver Chamber II",
+    "QuestStageName": "[4F] White Silver Chamber II",
+    "StageType": "EStageType::Magic_Square"
+  },
+  {
+    "StageID": 201300501,
+    "StageName": "Magic Square 5F",
+    "QuestStageName": "Magic Square 5F",
+    "StageType": "EStageType::Magic_Square"
+  },
+  {
+    "StageID": 201300502,
+    "StageName": "[5F] Magic Stone Chamber I",
+    "QuestStageName": "[5F] Magic Stone Chamber I",
+    "StageType": "EStageType::Magic_Square"
+  },
+  {
+    "StageID": 201300503,
+    "StageName": "[5F] Magic Stone Chamber II",
+    "QuestStageName": "[5F] Magic Stone Chamber II",
+    "StageType": "EStageType::Magic_Square"
+  },
+  {
+    "StageID": 201300504,
+    "StageName": "[5F] Magic Stone Chamber III",
+    "QuestStageName": "[5F] Magic Stone Chamber III",
+    "StageType": "EStageType::Magic_Square"
+  },
+  {
+    "StageID": 201300505,
+    "StageName": "[5F] Enhancement Chamber",
+    "QuestStageName": "[5F] Enhancement Chamber",
+    "StageType": "EStageType::Magic_Square"
+  },
+  {
+    "StageID": 201300506,
+    "StageName": "[5F] Enhancement Chamber",
+    "QuestStageName": "[5F] Enhancement Chamber",
+    "StageType": "EStageType::Magic_Square"
+  },
+  {
+    "StageID": 201300507,
+    "StageName": "[5F] Enhancement Chamber",
+    "QuestStageName": "[5F] Enhancement Chamber",
+    "StageType": "EStageType::Magic_Square"
+  },
+  {
+    "StageID": 201300508,
+    "StageName": "[5F] Experience Chamber I",
+    "QuestStageName": "[5F] Experience Chamber I",
+    "StageType": "EStageType::Magic_Square"
+  },
+  {
+    "StageID": 201300509,
+    "StageName": "[5F] Experience Chamber II",
+    "QuestStageName": "[5F] Experience Chamber II",
+    "StageType": "EStageType::Magic_Square"
+  },
+  {
+    "StageID": 201300510,
+    "StageName": "[5F] Experience Chamber III",
+    "QuestStageName": "[5F] Experience Chamber III",
+    "StageType": "EStageType::Magic_Square"
+  },
+  {
+    "StageID": 201300511,
+    "StageName": "[5F] Gold Chamber I",
+    "QuestStageName": "[5F] Gold Chamber I",
+    "StageType": "EStageType::Magic_Square"
+  },
+  {
+    "StageID": 201300512,
+    "StageName": "[5F] Gold Chamber II",
+    "QuestStageName": "[5F] Gold Chamber II",
+    "StageType": "EStageType::Magic_Square"
+  },
+  {
+    "StageID": 201300513,
+    "StageName": "[5F] Gold Chamber III",
+    "QuestStageName": "[5F] Gold Chamber III",
+    "StageType": "EStageType::Magic_Square"
+  },
+  {
+    "StageID": 201300514,
+    "StageName": "[5F] Mining Chamber",
+    "QuestStageName": "[5F] Mining Chamber",
+    "StageType": "EStageType::Magic_Square"
+  },
+  {
+    "StageID": 201300515,
+    "StageName": "[5F] Mining Chamber",
+    "QuestStageName": "[5F] Mining Chamber",
+    "StageType": "EStageType::Magic_Square"
+  },
+  {
+    "StageID": 201300516,
+    "StageName": "[5F] Mining Chamber",
+    "QuestStageName": "[5F] Mining Chamber",
+    "StageType": "EStageType::Magic_Square"
+  },
+  {
+    "StageID": 201300517,
+    "StageName": "[5F] Gathering Chamber",
+    "QuestStageName": "[5F] Gathering Chamber",
+    "StageType": "EStageType::Magic_Square"
+  },
+  {
+    "StageID": 201300518,
+    "StageName": "[5F] Gathering Chamber",
+    "QuestStageName": "[5F] Gathering Chamber",
+    "StageType": "EStageType::Magic_Square"
+  },
+  {
+    "StageID": 201300519,
+    "StageName": "[5F] Gathering Chamber",
+    "QuestStageName": "[5F] Gathering Chamber",
+    "StageType": "EStageType::Magic_Square"
+  },
+  {
+    "StageID": 201300520,
+    "StageName": "[5F] Energy Chamber",
+    "QuestStageName": "[5F] Energy Chamber",
+    "StageType": "EStageType::Magic_Square"
+  },
+  {
+    "StageID": 201300521,
+    "StageName": "[5F] Energy Chamber",
+    "QuestStageName": "[5F] Energy Chamber",
+    "StageType": "EStageType::Magic_Square"
+  },
+  {
+    "StageID": 201300522,
+    "StageName": "[5F] Leader's Chamber III",
+    "QuestStageName": "[5F] Leader's Chamber III",
+    "StageType": "EStageType::Magic_Square"
+  },
+  {
+    "StageID": 201300523,
+    "StageName": "[5F] Leader's Chamber II",
+    "QuestStageName": "[5F] Leader's Chamber II",
+    "StageType": "EStageType::Magic_Square"
+  },
+  {
+    "StageID": 201300524,
+    "StageName": "[5F] Leader's Chamber I",
+    "QuestStageName": "[5F] Leader's Chamber I",
+    "StageType": "EStageType::Magic_Square"
+  },
+  {
+    "StageID": 201300525,
+    "StageName": "[5F] Treasure Chamber",
+    "QuestStageName": "[5F] Treasure Chamber",
+    "StageType": "EStageType::Magic_Square"
+  },
+  {
+    "StageID": 201300526,
+    "StageName": "[5F] Trade Chamber",
+    "QuestStageName": "[5F] Trade Chamber",
+    "StageType": "EStageType::Magic_Square"
+  },
+  {
+    "StageID": 201300527,
+    "StageName": "[5F] Protection Chamber",
+    "QuestStageName": "[5F] Protection Chamber",
+    "StageType": "EStageType::Magic_Square"
+  },
+  {
+    "StageID": 201300528,
+    "StageName": "[5F] Sealing Chamber",
+    "QuestStageName": "[5F] Sealing Chamber",
+    "StageType": "EStageType::Magic_Square"
+  },
+  {
+    "StageID": 201300529,
+    "StageName": "[5F] Demon's Chamber",
+    "QuestStageName": "[5F] Demon's Chamber",
+    "StageType": "EStageType::Magic_Square"
+  },
+  {
+    "StageID": 201300530,
+    "StageName": "[5F] Cooperation Chamber",
+    "QuestStageName": "[5F] Cooperation Chamber",
+    "StageType": "EStageType::Magic_Square"
+  },
+  {
+    "StageID": 201300531,
+    "StageName": "[5F] Darksteel Chamber",
+    "QuestStageName": "[5F] Darksteel Chamber",
+    "StageType": "EStageType::Magic_Square"
+  },
+  {
+    "StageID": 201300532,
+    "StageName": "[5F] Darksteel Chamber",
+    "QuestStageName": "[5F] Darksteel Chamber",
+    "StageType": "EStageType::Magic_Square"
+  },
+  {
+    "StageID": 201300533,
+    "StageName": "[5F] Training Chamber I",
+    "QuestStageName": "[5F] Training Chamber I",
+    "StageType": "EStageType::Magic_Square"
+  },
+  {
+    "StageID": 201300534,
+    "StageName": "[5F] Training Chamber II",
+    "QuestStageName": "[5F] Training Chamber II",
+    "StageType": "EStageType::Magic_Square"
+  },
+  {
+    "StageID": 201300535,
+    "StageName": "[5F] White Silver Chamber I",
+    "QuestStageName": "[5F] White Silver Chamber I",
+    "StageType": "EStageType::Magic_Square"
+  },
+  {
+    "StageID": 201300536,
+    "StageName": "[5F] White Silver Chamber II",
+    "QuestStageName": "[5F] White Silver Chamber II",
+    "StageType": "EStageType::Magic_Square"
+  },
+  {
+    "StageID": 201300601,
+    "StageName": "Magic Square 6F",
+    "QuestStageName": "Magic Square 6F",
+    "StageType": "EStageType::Magic_Square"
+  },
+  {
+    "StageID": 201300602,
+    "StageName": "[6F] Magic Stone Chamber I",
+    "QuestStageName": "[6F] Magic Stone Chamber I",
+    "StageType": "EStageType::Magic_Square"
+  },
+  {
+    "StageID": 201300603,
+    "StageName": "[6F] Magic Stone Chamber II",
+    "QuestStageName": "[6F] Magic Stone Chamber II",
+    "StageType": "EStageType::Magic_Square"
+  },
+  {
+    "StageID": 201300604,
+    "StageName": "[6F] Magic Stone Chamber III",
+    "QuestStageName": "[6F] Magic Stone Chamber III",
+    "StageType": "EStageType::Magic_Square"
+  },
+  {
+    "StageID": 201300605,
+    "StageName": "[6F] Enhancement Chamber",
+    "QuestStageName": "[6F] Enhancement Chamber",
+    "StageType": "EStageType::Magic_Square"
+  },
+  {
+    "StageID": 201300606,
+    "StageName": "[6F] Enhancement Chamber",
+    "QuestStageName": "[6F] Enhancement Chamber",
+    "StageType": "EStageType::Magic_Square"
+  },
+  {
+    "StageID": 201300607,
+    "StageName": "[6F] Enhancement Chamber",
+    "QuestStageName": "[6F] Enhancement Chamber",
+    "StageType": "EStageType::Magic_Square"
+  },
+  {
+    "StageID": 201300608,
+    "StageName": "[6F] Experience Chamber I",
+    "QuestStageName": "[6F] Experience Chamber I",
+    "StageType": "EStageType::Magic_Square"
+  },
+  {
+    "StageID": 201300609,
+    "StageName": "[6F] Experience Chamber II",
+    "QuestStageName": "[6F] Experience Chamber II",
+    "StageType": "EStageType::Magic_Square"
+  },
+  {
+    "StageID": 201300610,
+    "StageName": "[6F] Experience Chamber III",
+    "QuestStageName": "[6F] Experience Chamber III",
+    "StageType": "EStageType::Magic_Square"
+  },
+  {
+    "StageID": 201300611,
+    "StageName": "[6F] Gold Chamber I",
+    "QuestStageName": "[6F] Gold Chamber I",
+    "StageType": "EStageType::Magic_Square"
+  },
+  {
+    "StageID": 201300612,
+    "StageName": "[6F] Gold Chamber II",
+    "QuestStageName": "[6F] Gold Chamber II",
+    "StageType": "EStageType::Magic_Square"
+  },
+  {
+    "StageID": 201300613,
+    "StageName": "[6F] Gold Chamber III",
+    "QuestStageName": "[6F] Gold Chamber III",
+    "StageType": "EStageType::Magic_Square"
+  },
+  {
+    "StageID": 201300614,
+    "StageName": "[6F] Mining Chamber",
+    "QuestStageName": "[6F] Mining Chamber",
+    "StageType": "EStageType::Magic_Square"
+  },
+  {
+    "StageID": 201300615,
+    "StageName": "[6F] Mining Chamber",
+    "QuestStageName": "[6F] Mining Chamber",
+    "StageType": "EStageType::Magic_Square"
+  },
+  {
+    "StageID": 201300616,
+    "StageName": "[6F] Mining Chamber",
+    "QuestStageName": "[6F] Mining Chamber",
+    "StageType": "EStageType::Magic_Square"
+  },
+  {
+    "StageID": 201300617,
+    "StageName": "[6F] Gathering Chamber",
+    "QuestStageName": "[6F] Gathering Chamber",
+    "StageType": "EStageType::Magic_Square"
+  },
+  {
+    "StageID": 201300618,
+    "StageName": "[6F] Gathering Chamber",
+    "QuestStageName": "[6F] Gathering Chamber",
+    "StageType": "EStageType::Magic_Square"
+  },
+  {
+    "StageID": 201300619,
+    "StageName": "[6F] Gathering Chamber",
+    "QuestStageName": "[6F] Gathering Chamber",
+    "StageType": "EStageType::Magic_Square"
+  },
+  {
+    "StageID": 201300620,
+    "StageName": "[6F] Energy Chamber",
+    "QuestStageName": "[6F] Energy Chamber",
+    "StageType": "EStageType::Magic_Square"
+  },
+  {
+    "StageID": 201300621,
+    "StageName": "[6F] Energy Chamber",
+    "QuestStageName": "[6F] Energy Chamber",
+    "StageType": "EStageType::Magic_Square"
+  },
+  {
+    "StageID": 201300622,
+    "StageName": "[6F] Leader's Chamber III",
+    "QuestStageName": "[6F] Leader's Chamber III",
+    "StageType": "EStageType::Magic_Square"
+  },
+  {
+    "StageID": 201300623,
+    "StageName": "[6F] Leader's Chamber II",
+    "QuestStageName": "[6F] Leader's Chamber II",
+    "StageType": "EStageType::Magic_Square"
+  },
+  {
+    "StageID": 201300624,
+    "StageName": "[6F] Leader's Chamber I",
+    "QuestStageName": "[6F] Leader's Chamber I",
+    "StageType": "EStageType::Magic_Square"
+  },
+  {
+    "StageID": 201300625,
+    "StageName": "[6F] Treasure Chamber",
+    "QuestStageName": "[6F] Treasure Chamber",
+    "StageType": "EStageType::Magic_Square"
+  },
+  {
+    "StageID": 201300626,
+    "StageName": "[6F] Trade Chamber",
+    "QuestStageName": "[6F] Trade Chamber",
+    "StageType": "EStageType::Magic_Square"
+  },
+  {
+    "StageID": 201300627,
+    "StageName": "[6F] Protection Chamber",
+    "QuestStageName": "[6F] Protection Chamber",
+    "StageType": "EStageType::Magic_Square"
+  },
+  {
+    "StageID": 201300628,
+    "StageName": "[6F] Sealing Chamber",
+    "QuestStageName": "[6F] Sealing Chamber",
+    "StageType": "EStageType::Magic_Square"
+  },
+  {
+    "StageID": 201300629,
+    "StageName": "[6F] Demon's Chamber",
+    "QuestStageName": "[6F] Demon's Chamber",
+    "StageType": "EStageType::Magic_Square"
+  },
+  {
+    "StageID": 201300630,
+    "StageName": "[6F] Cooperation Chamber",
+    "QuestStageName": "[6F] Cooperation Chamber",
+    "StageType": "EStageType::Magic_Square"
+  },
+  {
+    "StageID": 201300631,
+    "StageName": "[6F] Darksteel Chamber",
+    "QuestStageName": "[6F] Darksteel Chamber",
+    "StageType": "EStageType::Magic_Square"
+  },
+  {
+    "StageID": 201300632,
+    "StageName": "[6F] Darksteel Chamber",
+    "QuestStageName": "[6F] Darksteel Chamber",
+    "StageType": "EStageType::Magic_Square"
+  },
+  {
+    "StageID": 201300633,
+    "StageName": "[6F] Training Chamber I",
+    "QuestStageName": "[6F] Training Chamber I",
+    "StageType": "EStageType::Magic_Square"
+  },
+  {
+    "StageID": 201300634,
+    "StageName": "[6F] Training Chamber II",
+    "QuestStageName": "[6F] Training Chamber II",
+    "StageType": "EStageType::Magic_Square"
+  },
+  {
+    "StageID": 201300635,
+    "StageName": "[6F] White Silver Chamber I",
+    "QuestStageName": "[6F] White Silver Chamber I",
+    "StageType": "EStageType::Magic_Square"
+  },
+  {
+    "StageID": 201300636,
+    "StageName": "[6F] White Silver Chamber II",
+    "QuestStageName": "[6F] White Silver Chamber II",
+    "StageType": "EStageType::Magic_Square"
+  },
+  {
+    "StageID": 201300701,
+    "StageName": "Magic Square 7F",
+    "QuestStageName": "Magic Square 7F",
+    "StageType": "EStageType::Magic_Square"
+  },
+  {
+    "StageID": 201300702,
+    "StageName": "[7F] Magic Stone Chamber I",
+    "QuestStageName": "[7F] Magic Stone Chamber I",
+    "StageType": "EStageType::Magic_Square"
+  },
+  {
+    "StageID": 201300703,
+    "StageName": "[7F] Magic Stone Chamber II",
+    "QuestStageName": "[7F] Magic Stone Chamber II",
+    "StageType": "EStageType::Magic_Square"
+  },
+  {
+    "StageID": 201300704,
+    "StageName": "[7F] Magic Stone Chamber III",
+    "QuestStageName": "[7F] Magic Stone Chamber III",
+    "StageType": "EStageType::Magic_Square"
+  },
+  {
+    "StageID": 201300705,
+    "StageName": "[7F] Enhancement Chamber",
+    "QuestStageName": "[7F] Enhancement Chamber",
+    "StageType": "EStageType::Magic_Square"
+  },
+  {
+    "StageID": 201300706,
+    "StageName": "[7F] Enhancement Chamber",
+    "QuestStageName": "[7F] Enhancement Chamber",
+    "StageType": "EStageType::Magic_Square"
+  },
+  {
+    "StageID": 201300707,
+    "StageName": "[7F] Enhancement Chamber",
+    "QuestStageName": "[7F] Enhancement Chamber",
+    "StageType": "EStageType::Magic_Square"
+  },
+  {
+    "StageID": 201300708,
+    "StageName": "[7F] Experience Chamber I",
+    "QuestStageName": "[7F] Experience Chamber I",
+    "StageType": "EStageType::Magic_Square"
+  },
+  {
+    "StageID": 201300709,
+    "StageName": "[7F] Experience Chamber II",
+    "QuestStageName": "[7F] Experience Chamber II",
+    "StageType": "EStageType::Magic_Square"
+  },
+  {
+    "StageID": 201300710,
+    "StageName": "[7F] Experience Chamber III",
+    "QuestStageName": "[7F] Experience Chamber III",
+    "StageType": "EStageType::Magic_Square"
+  },
+  {
+    "StageID": 201300711,
+    "StageName": "[7F] Gold Chamber I",
+    "QuestStageName": "[7F] Gold Chamber I",
+    "StageType": "EStageType::Magic_Square"
+  },
+  {
+    "StageID": 201300712,
+    "StageName": "[7F] Gold Chamber II",
+    "QuestStageName": "[7F] Gold Chamber II",
+    "StageType": "EStageType::Magic_Square"
+  },
+  {
+    "StageID": 201300713,
+    "StageName": "[7F] Gold Chamber III",
+    "QuestStageName": "[7F] Gold Chamber III",
+    "StageType": "EStageType::Magic_Square"
+  },
+  {
+    "StageID": 201300714,
+    "StageName": "[7F] Mining Chamber",
+    "QuestStageName": "[7F] Mining Chamber",
+    "StageType": "EStageType::Magic_Square"
+  },
+  {
+    "StageID": 201300715,
+    "StageName": "[7F] Mining Chamber",
+    "QuestStageName": "[7F] Mining Chamber",
+    "StageType": "EStageType::Magic_Square"
+  },
+  {
+    "StageID": 201300716,
+    "StageName": "[7F] Mining Chamber",
+    "QuestStageName": "[7F] Mining Chamber",
+    "StageType": "EStageType::Magic_Square"
+  },
+  {
+    "StageID": 201300717,
+    "StageName": "[7F] Gathering Chamber",
+    "QuestStageName": "[7F] Gathering Chamber",
+    "StageType": "EStageType::Magic_Square"
+  },
+  {
+    "StageID": 201300718,
+    "StageName": "[7F] Gathering Chamber",
+    "QuestStageName": "[7F] Gathering Chamber",
+    "StageType": "EStageType::Magic_Square"
+  },
+  {
+    "StageID": 201300719,
+    "StageName": "[7F] Gathering Chamber",
+    "QuestStageName": "[7F] Gathering Chamber",
+    "StageType": "EStageType::Magic_Square"
+  },
+  {
+    "StageID": 201300720,
+    "StageName": "[7F] Energy Chamber",
+    "QuestStageName": "[7F] Energy Chamber",
+    "StageType": "EStageType::Magic_Square"
+  },
+  {
+    "StageID": 201300721,
+    "StageName": "[7F] Energy Chamber",
+    "QuestStageName": "[7F] Energy Chamber",
+    "StageType": "EStageType::Magic_Square"
+  },
+  {
+    "StageID": 201300722,
+    "StageName": "[7F] Leader's Chamber III",
+    "QuestStageName": "[7F] Leader's Chamber III",
+    "StageType": "EStageType::Magic_Square"
+  },
+  {
+    "StageID": 201300723,
+    "StageName": "[7F] Leader's Chamber II",
+    "QuestStageName": "[7F] Leader's Chamber II",
+    "StageType": "EStageType::Magic_Square"
+  },
+  {
+    "StageID": 201300724,
+    "StageName": "[7F] Leader's Chamber I",
+    "QuestStageName": "[7F] Leader's Chamber I",
+    "StageType": "EStageType::Magic_Square"
+  },
+  {
+    "StageID": 201300725,
+    "StageName": "[7F] Treasure Chamber",
+    "QuestStageName": "[7F] Treasure Chamber",
+    "StageType": "EStageType::Magic_Square"
+  },
+  {
+    "StageID": 201300726,
+    "StageName": "[7F] Trade Chamber",
+    "QuestStageName": "[7F] Trade Chamber",
+    "StageType": "EStageType::Magic_Square"
+  },
+  {
+    "StageID": 201300727,
+    "StageName": "[7F] Protection Chamber",
+    "QuestStageName": "[7F] Protection Chamber",
+    "StageType": "EStageType::Magic_Square"
+  },
+  {
+    "StageID": 201300728,
+    "StageName": "[7F] Sealing Chamber",
+    "QuestStageName": "[Magic Square 7F] Sealing Chamber",
+    "StageType": "EStageType::Magic_Square"
+  },
+  {
+    "StageID": 201300729,
+    "StageName": "[7F] Demon's Chamber",
+    "QuestStageName": "[7F] Demon's Chamber",
+    "StageType": "EStageType::Magic_Square"
+  },
+  {
+    "StageID": 201300730,
+    "StageName": "[7F] Cooperation Chamber",
+    "QuestStageName": "[7F] Cooperation Chamber",
+    "StageType": "EStageType::Magic_Square"
+  },
+  {
+    "StageID": 201300731,
+    "StageName": "[7F] Darksteel Chamber",
+    "QuestStageName": "[7F] Darksteel Chamber",
+    "StageType": "EStageType::Magic_Square"
+  },
+  {
+    "StageID": 201300732,
+    "StageName": "[7F] Darksteel Chamber",
+    "QuestStageName": "[7F] Darksteel Chamber",
+    "StageType": "EStageType::Magic_Square"
+  },
+  {
+    "StageID": 201300733,
+    "StageName": "[7F] Training Chamber I",
+    "QuestStageName": "[7F] Training Chamber I",
+    "StageType": "EStageType::Magic_Square"
+  },
+  {
+    "StageID": 201300734,
+    "StageName": "[7F] Training Chamber II",
+    "QuestStageName": "[7F] Training Chamber II",
+    "StageType": "EStageType::Magic_Square"
+  },
+  {
+    "StageID": 201300735,
+    "StageName": "[7F] White Silver Chamber I",
+    "QuestStageName": "[7F] White Silver Chamber I",
+    "StageType": "EStageType::Magic_Square"
+  },
+  {
+    "StageID": 201300736,
+    "StageName": "[7F] White Silver Chamber II",
+    "QuestStageName": "[7F] White Silver Chamber II",
+    "StageType": "EStageType::Magic_Square"
+  },
+  {
+    "StageID": 201300801,
+    "StageName": "Magic Square 8F",
+    "QuestStageName": "Magic Square 8F",
+    "StageType": "EStageType::Magic_Square"
+  },
+  {
+    "StageID": 201300802,
+    "StageName": "[8F] Magic Stone Chamber I",
+    "QuestStageName": "[8F] Magic Stone Chamber I",
+    "StageType": "EStageType::Magic_Square"
+  },
+  {
+    "StageID": 201300803,
+    "StageName": "[8F] Magic Stone Chamber II",
+    "QuestStageName": "[8F] Magic Stone Chamber II",
+    "StageType": "EStageType::Magic_Square"
+  },
+  {
+    "StageID": 201300804,
+    "StageName": "[8F] Magic Stone Chamber III",
+    "QuestStageName": "[8F] Magic Stone Chamber III",
+    "StageType": "EStageType::Magic_Square"
+  },
+  {
+    "StageID": 201300805,
+    "StageName": "[8F] Enhancement Chamber",
+    "QuestStageName": "[8F] Enhancement Chamber",
+    "StageType": "EStageType::Magic_Square"
+  },
+  {
+    "StageID": 201300806,
+    "StageName": "[8F] Enhancement Chamber",
+    "QuestStageName": "[8F] Enhancement Chamber",
+    "StageType": "EStageType::Magic_Square"
+  },
+  {
+    "StageID": 201300807,
+    "StageName": "[8F] Enhancement Chamber",
+    "QuestStageName": "[8F] Enhancement Chamber",
+    "StageType": "EStageType::Magic_Square"
+  },
+  {
+    "StageID": 201300808,
+    "StageName": "[8F] Experience Chamber I",
+    "QuestStageName": "[8F] Experience Chamber I",
+    "StageType": "EStageType::Magic_Square"
+  },
+  {
+    "StageID": 201300809,
+    "StageName": "[8F] Experience Chamber II",
+    "QuestStageName": "[8F] Experience Chamber II",
+    "StageType": "EStageType::Magic_Square"
+  },
+  {
+    "StageID": 201300810,
+    "StageName": "[8F] Experience Chamber III",
+    "QuestStageName": "[8F] Experience Chamber III",
+    "StageType": "EStageType::Magic_Square"
+  },
+  {
+    "StageID": 201300811,
+    "StageName": "[8F] Gold Chamber I",
+    "QuestStageName": "[8F] Gold Chamber I",
+    "StageType": "EStageType::Magic_Square"
+  },
+  {
+    "StageID": 201300812,
+    "StageName": "[8F] Gold Chamber II",
+    "QuestStageName": "[8F] Gold Chamber II",
+    "StageType": "EStageType::Magic_Square"
+  },
+  {
+    "StageID": 201300813,
+    "StageName": "[8F] Gold Chamber III",
+    "QuestStageName": "[8F] Gold Chamber III",
+    "StageType": "EStageType::Magic_Square"
+  },
+  {
+    "StageID": 201300814,
+    "StageName": "[8F] Mining Chamber",
+    "QuestStageName": "[8F] Mining Chamber",
+    "StageType": "EStageType::Magic_Square"
+  },
+  {
+    "StageID": 201300815,
+    "StageName": "[8F] Mining Chamber",
+    "QuestStageName": "[8F] Mining Chamber",
+    "StageType": "EStageType::Magic_Square"
+  },
+  {
+    "StageID": 201300816,
+    "StageName": "[8F] Mining Chamber",
+    "QuestStageName": "[8F] Mining Chamber",
+    "StageType": "EStageType::Magic_Square"
+  },
+  {
+    "StageID": 201300817,
+    "StageName": "[8F] Gathering Chamber",
+    "QuestStageName": "[8F] Gathering Chamber",
+    "StageType": "EStageType::Magic_Square"
+  },
+  {
+    "StageID": 201300818,
+    "StageName": "[8F] Gathering Chamber",
+    "QuestStageName": "[8F] Gathering Chamber",
+    "StageType": "EStageType::Magic_Square"
+  },
+  {
+    "StageID": 201300819,
+    "StageName": "[8F] Gathering Chamber",
+    "QuestStageName": "[8F] Gathering Chamber",
+    "StageType": "EStageType::Magic_Square"
+  },
+  {
+    "StageID": 201300820,
+    "StageName": "[8F] Energy Chamber",
+    "QuestStageName": "[8F] Energy Chamber",
+    "StageType": "EStageType::Magic_Square"
+  },
+  {
+    "StageID": 201300821,
+    "StageName": "[8F] Energy Chamber",
+    "QuestStageName": "[8F] Energy Chamber",
+    "StageType": "EStageType::Magic_Square"
+  },
+  {
+    "StageID": 201300822,
+    "StageName": "[8F] Leader's Chamber III",
+    "QuestStageName": "[8F] Leader's Chamber III",
+    "StageType": "EStageType::Magic_Square"
+  },
+  {
+    "StageID": 201300823,
+    "StageName": "[8F] Leader's Chamber II",
+    "QuestStageName": "[8F] Leader's Chamber II",
+    "StageType": "EStageType::Magic_Square"
+  },
+  {
+    "StageID": 201300824,
+    "StageName": "[8F] Leader's Chamber I",
+    "QuestStageName": "[8F] Leader's Chamber I",
+    "StageType": "EStageType::Magic_Square"
+  },
+  {
+    "StageID": 201300825,
+    "StageName": "[8F] Treasure Chamber",
+    "QuestStageName": "[8F] Treasure Chamber",
+    "StageType": "EStageType::Magic_Square"
+  },
+  {
+    "StageID": 201300826,
+    "StageName": "[8F] Trade Chamber",
+    "QuestStageName": "[8F] Trade Chamber",
+    "StageType": "EStageType::Magic_Square"
+  },
+  {
+    "StageID": 201300827,
+    "StageName": "[8F] Protection Chamber",
+    "QuestStageName": "[8F] Protection Chamber",
+    "StageType": "EStageType::Magic_Square"
+  },
+  {
+    "StageID": 201300828,
+    "StageName": "[8F] Sealing Chamber",
+    "QuestStageName": "[Magic Square 8F] Sealing Chamber",
+    "StageType": "EStageType::Magic_Square"
+  },
+  {
+    "StageID": 201300829,
+    "StageName": "[8F] Demon's Chamber",
+    "QuestStageName": "[8F] Demon's Chamber",
+    "StageType": "EStageType::Magic_Square"
+  },
+  {
+    "StageID": 201300830,
+    "StageName": "[8F] Cooperation Chamber",
+    "QuestStageName": "[8F] Cooperation Chamber",
+    "StageType": "EStageType::Magic_Square"
+  },
+  {
+    "StageID": 201300831,
+    "StageName": "[8F] Darksteel Chamber",
+    "QuestStageName": "[8F] Darksteel Chamber",
+    "StageType": "EStageType::Magic_Square"
+  },
+  {
+    "StageID": 201300832,
+    "StageName": "[8F] Darksteel Chamber",
+    "QuestStageName": "[8F] Darksteel Chamber",
+    "StageType": "EStageType::Magic_Square"
+  },
+  {
+    "StageID": 201300833,
+    "StageName": "[8F] Training Chamber I",
+    "QuestStageName": "[8F] Training Chamber I",
+    "StageType": "EStageType::Magic_Square"
+  },
+  {
+    "StageID": 201300834,
+    "StageName": "[8F] Training Chamber II",
+    "QuestStageName": "[8F] Training Chamber II",
+    "StageType": "EStageType::Magic_Square"
+  },
+  {
+    "StageID": 201300835,
+    "StageName": "[8F] White Silver Chamber I",
+    "QuestStageName": "[8F] White Silver Chamber I",
+    "StageType": "EStageType::Magic_Square"
+  },
+  {
+    "StageID": 201300836,
+    "StageName": "[8F] White Silver Chamber II",
+    "QuestStageName": "[8F] White Silver Chamber II",
+    "StageType": "EStageType::Magic_Square"
+  },
+  {
+    "StageID": 201400001,
+    "StageName": "Secret Peak 1F",
+    "QuestStageName": "Secret Peak 1F",
+    "StageType": "EStageType::SecretDungeon"
+  },
+  {
+    "StageID": 201400002,
+    "StageName": "Secret Peak 2F",
+    "QuestStageName": "Secret Peak 2F",
+    "StageType": "EStageType::SecretDungeon"
+  },
+  {
+    "StageID": 201400003,
+    "StageName": "Secret Peak 3F",
+    "QuestStageName": "Secret Peak 3F",
+    "StageType": "EStageType::SecretDungeon"
+  },
+  {
+    "StageID": 201400004,
+    "StageName": "Secret Peak 4F",
+    "QuestStageName": "Secret Peak 4F",
+    "StageType": "EStageType::SecretDungeon"
+  },
+  {
+    "StageID": 201400005,
+    "StageName": "Secret Peak 5F",
+    "QuestStageName": "Secret Peak 5F",
+    "StageType": "EStageType::SecretDungeon"
+  },
+  {
+    "StageID": 201400006,
+    "StageName": "Secret Peak 6F",
+    "QuestStageName": "Secret Peak 6F",
+    "StageType": "EStageType::SecretDungeon"
+  },
+  {
+    "StageID": 201400007,
+    "StageName": "Secret Peak 7F",
+    "QuestStageName": "Secret Peak 7F",
+    "StageType": "EStageType::SecretDungeon"
+  },
+  {
+    "StageID": 201400008,
+    "StageName": "Secret Peak 8F",
+    "QuestStageName": "Secret Peak 8F",
+    "StageType": "EStageType::SecretDungeon"
+  },
+  {
+    "StageID": 201500010,
+    "StageName": "Tower of Black Dragon 1F",
+    "QuestStageName": "Tower of Black Dragon 1F",
+    "StageType": "EStageType::BlackDragon"
+  },
+  {
+    "StageID": 201500020,
+    "StageName": "Tower of Black Dragon 2F",
+    "QuestStageName": "Tower of Black Dragon 2F",
+    "StageType": "EStageType::BlackDragon"
+  },
+  {
+    "StageID": 201500030,
+    "StageName": "Tower of Black Dragon 3F",
+    "QuestStageName": "Tower of Black Dragon 3F",
+    "StageType": "EStageType::BlackDragon"
+  },
+  {
+    "StageID": 201510013,
+    "StageName": "Bicheon Valley Secret Passage 1-1",
+    "QuestStageName": "Bicheon Valley Secret Passage 1-1",
+    "StageType": "EStageType::Bido"
+  },
+  {
+    "StageID": 201510014,
+    "StageName": "Bicheon Valley Secret Passage 1-2",
+    "QuestStageName": "Bicheon Valley Secret Passage 1-2",
+    "StageType": "EStageType::Bido"
+  },
+  {
+    "StageID": 201510015,
+    "StageName": "Bicheon Valley Secret Passage 1-3",
+    "QuestStageName": "Bicheon Valley Secret Passage 1-3",
+    "StageType": "EStageType::Bido"
+  },
+  {
+    "StageID": 201510016,
+    "StageName": "Bicheon Valley Secret Passage 2-1",
+    "QuestStageName": "Bicheon Valley Secret Passage 2-1",
+    "StageType": "EStageType::Bido"
+  },
+  {
+    "StageID": 201510017,
+    "StageName": "Bicheon Valley Secret Passage 2-2",
+    "QuestStageName": "Bicheon Valley Secret Passage 2-2",
+    "StageType": "EStageType::Bido"
+  },
+  {
+    "StageID": 201510018,
+    "StageName": "Bicheon Valley Hidden Passage 2",
+    "QuestStageName": "Bicheon Valley Hidden Passage 2",
+    "StageType": "EStageType::Bido"
+  },
+  {
+    "StageID": 201510019,
+    "StageName": "Bicheon Valley Secret Passage 3-1",
+    "QuestStageName": "Bicheon Valley Secret Passage 3-1",
+    "StageType": "EStageType::Bido"
+  },
+  {
+    "StageID": 201510020,
+    "StageName": "Bicheon Valley Secret Passage 3-2",
+    "QuestStageName": "Bicheon Valley Secret Passage 3-2",
+    "StageType": "EStageType::Bido"
+  },
+  {
+    "StageID": 201510021,
+    "StageName": "Bicheon Valley Secret Passage 3-3",
+    "QuestStageName": "Bicheon Valley Secret Passage 3-3",
+    "StageType": "EStageType::Bido"
+  },
+  {
+    "StageID": 201510025,
+    "StageName": "Snake Valley Secret Passage 1-1",
+    "QuestStageName": "Snake Valley Secret Passage 1-1",
+    "StageType": "EStageType::Bido"
+  },
+  {
+    "StageID": 201510026,
+    "StageName": "Snake Valley Secret Passage 1-2",
+    "QuestStageName": "Snake Valley Secret Passage 1-2",
+    "StageType": "EStageType::Bido"
+  },
+  {
+    "StageID": 201510027,
+    "StageName": "Snake Valley Secret Passage 1-3",
+    "QuestStageName": "Snake Valley Secret Passage 1-3",
+    "StageType": "EStageType::Bido"
+  },
+  {
+    "StageID": 201510028,
+    "StageName": "Snake Valley Secret Passage 2-1",
+    "QuestStageName": "Snake Valley Secret Passage 2-1",
+    "StageType": "EStageType::Bido"
+  },
+  {
+    "StageID": 201510029,
+    "StageName": "Snake Valley Secret Passage 2-2",
+    "QuestStageName": "Snake Valley Secret Passage 2-2",
+    "StageType": "EStageType::Bido"
+  },
+  {
+    "StageID": 201510030,
+    "StageName": "Snake Valley Hidden Passage 2",
+    "QuestStageName": "Snake Valley Hidden Passage 2",
+    "StageType": "EStageType::Bido"
+  },
+  {
+    "StageID": 201510031,
+    "StageName": "Snake Valley Secret Passage 3-1",
+    "QuestStageName": "Snake Valley Secret Passage 3-1",
+    "StageType": "EStageType::Bido"
+  },
+  {
+    "StageID": 201510032,
+    "StageName": "Snake Valley Secret Passage 3-2",
+    "QuestStageName": "Snake Valley Secret Passage 3-2",
+    "StageType": "EStageType::Bido"
+  },
+  {
+    "StageID": 201510033,
+    "StageName": "Snake Valley Secret Passage 3-3",
+    "QuestStageName": "Snake Valley Secret Passage 3-3",
+    "StageType": "EStageType::Bido"
+  },
+  {
+    "StageID": 201510037,
+    "StageName": "Redmoon Valley Secret Passage 1-1",
+    "QuestStageName": "Redmoon Valley Secret Passage 1-1",
+    "StageType": "EStageType::Bido"
+  },
+  {
+    "StageID": 201510038,
+    "StageName": "Redmoon Valley Secret Passage 1-2",
+    "QuestStageName": "Redmoon Valley Secret Passage 1-2",
+    "StageType": "EStageType::Bido"
+  },
+  {
+    "StageID": 201510039,
+    "StageName": "Redmoon Valley Secret Passage 1-3",
+    "QuestStageName": "Redmoon Valley Secret Passage 1-3",
+    "StageType": "EStageType::Bido"
+  },
+  {
+    "StageID": 201510040,
+    "StageName": "Redmoon Valley Secret Passage 2-1",
+    "QuestStageName": "Redmoon Valley Secret Passage 2-1",
+    "StageType": "EStageType::Bido"
+  },
+  {
+    "StageID": 201510041,
+    "StageName": "Redmoon Valley Secret Passage 2-2",
+    "QuestStageName": "Redmoon Valley Secret Passage 2-2",
+    "StageType": "EStageType::Bido"
+  },
+  {
+    "StageID": 201510042,
+    "StageName": "Redmoon Valley Secret Passage 2-3",
+    "QuestStageName": "Redmoon Valley Secret Passage 2-3",
+    "StageType": "EStageType::Bido"
+  },
+  {
+    "StageID": 201510043,
+    "StageName": "Redmoon Valley Secret Passage 3-1",
+    "QuestStageName": "Redmoon Valley Secret Passage 3-1",
+    "StageType": "EStageType::Bido"
+  },
+  {
+    "StageID": 201510044,
+    "StageName": "Redmoon Valley Secret Passage 3-2",
+    "QuestStageName": "Redmoon Valley Secret Passage 3-2",
+    "StageType": "EStageType::Bido"
+  },
+  {
+    "StageID": 201510045,
+    "StageName": "Redmoon Valley Secret Passage 3-3",
+    "QuestStageName": "Redmoon Valley Secret Passage 3-3",
+    "StageType": "EStageType::Bido"
+  },
+  {
+    "StageID": 201510100,
+    "StageName": "Phantasia Valley Secret Passage 1-1",
+    "QuestStageName": "Phantasia Valley Secret Passage 1-1",
+    "StageType": "EStageType::Bido"
+  },
+  {
+    "StageID": 201510101,
+    "StageName": "Phantasia Valley Secret Passage 1-2",
+    "QuestStageName": "Phantasia Valley Secret Passage 1-2",
+    "StageType": "EStageType::Bido"
+  },
+  {
+    "StageID": 201510102,
+    "StageName": "Phantasia Valley Secret Passage 1-3",
+    "QuestStageName": "Phantasia Valley Secret Passage 1-3",
+    "StageType": "EStageType::Bido"
+  },
+  {
+    "StageID": 201510103,
+    "StageName": "Phantasia Valley Secret Passage 2-1",
+    "QuestStageName": "Phantasia Valley Secret Passage 2-1",
+    "StageType": "EStageType::Bido"
+  },
+  {
+    "StageID": 201510104,
+    "StageName": "Phantasia Valley Secret Passage 2-2",
+    "QuestStageName": "Phantasia Valley Secret Passage 2-2",
+    "StageType": "EStageType::Bido"
+  },
+  {
+    "StageID": 201510105,
+    "StageName": "Phantasia Valley Secret Passage 2-3",
+    "QuestStageName": "Phantasia Valley Secret Passage 2-3",
+    "StageType": "EStageType::Bido"
+  },
+  {
+    "StageID": 201510106,
+    "StageName": "Phantasia Valley Secret Passage 3-1",
+    "QuestStageName": "Phantasia Valley Secret Passage 3-1",
+    "StageType": "EStageType::Bido"
+  },
+  {
+    "StageID": 201510107,
+    "StageName": "Phantasia Valley Secret Passage 3-2",
+    "QuestStageName": "Phantasia Valley Secret Passage 3-2",
+    "StageType": "EStageType::Bido"
+  },
+  {
+    "StageID": 201510108,
+    "StageName": "Phantasia Valley Secret Passage 3-3",
+    "QuestStageName": "Phantasia Valley Secret Passage 3-3",
+    "StageType": "EStageType::Bido"
+  },
+  {
+    "StageID": 201520001,
+    "StageName": "Bicheon Labyrinth Secret Passage 1-1",
+    "QuestStageName": "Bicheon Labyrinth Secret Passage 1-1",
+    "StageType": "EStageType::Bido"
+  },
+  {
+    "StageID": 201520002,
+    "StageName": "Bicheon Labyrinth Secret Passage 1-2",
+    "QuestStageName": "Bicheon Labyrinth Secret Passage 1-2",
+    "StageType": "EStageType::Bido"
+  },
+  {
+    "StageID": 201520003,
+    "StageName": "Bicheon Labyrinth Secret Passage 1-3",
+    "QuestStageName": "Bicheon Labyrinth Secret Passage 1-3",
+    "StageType": "EStageType::Bido"
+  },
+  {
+    "StageID": 201520004,
+    "StageName": "Bicheon Labyrinth Secret Passage 2-1",
+    "QuestStageName": "Bicheon Labyrinth Secret Passage 2-1",
+    "StageType": "EStageType::Bido"
+  },
+  {
+    "StageID": 201520005,
+    "StageName": "Bicheon Labyrinth Secret Passage 2-2",
+    "QuestStageName": "Bicheon Labyrinth Secret Passage 2-2",
+    "StageType": "EStageType::Bido"
+  },
+  {
+    "StageID": 201520006,
+    "StageName": "Bicheon Labyrinth Secret Passage 2-3",
+    "QuestStageName": "Bicheon Labyrinth Secret Passage 2-3",
+    "StageType": "EStageType::Bido"
+  },
+  {
+    "StageID": 201520064,
+    "StageName": "Bicheon Labyrinth Secret Passage 3-1",
+    "QuestStageName": "Bicheon Labyrinth Secret Passage 3-1",
+    "StageType": "EStageType::Bido"
+  },
+  {
+    "StageID": 201520065,
+    "StageName": "Bicheon Labyrinth Secret Passage 3-2",
+    "QuestStageName": "Bicheon Labyrinth Secret Passage 3-2",
+    "StageType": "EStageType::Bido"
+  },
+  {
+    "StageID": 201520066,
+    "StageName": "Bicheon Labyrinth Secret Passage 3-3",
+    "QuestStageName": "Bicheon Labyrinth Secret Passage 3-3",
+    "StageType": "EStageType::Bido"
+  },
+  {
+    "StageID": 201520010,
+    "StageName": "Demon Bull Labyrinth Secret Passage 1-1",
+    "QuestStageName": "Demon Bull Labyrinth Secret Passage 1-1",
+    "StageType": "EStageType::Bido"
+  },
+  {
+    "StageID": 201520011,
+    "StageName": "Demon Bull Labyrinth Secret Passage 1-2",
+    "QuestStageName": "Demon Bull Labyrinth Secret Passage 1-2",
+    "StageType": "EStageType::Bido"
+  },
+  {
+    "StageID": 201520012,
+    "StageName": "Demon Bull Labyrinth Secret Passage 1-3",
+    "QuestStageName": "Demon Bull Labyrinth Secret Passage 1-3",
+    "StageType": "EStageType::Bido"
+  },
+  {
+    "StageID": 201520013,
+    "StageName": "Demon Bull Labyrinth Secret Passage 2-1",
+    "QuestStageName": "Demon Bull Labyrinth Secret Passage 2-1",
+    "StageType": "EStageType::Bido"
+  },
+  {
+    "StageID": 201520014,
+    "StageName": "Demon Bull Labyrinth Secret Passage 2-2",
+    "QuestStageName": "Demon Bull Labyrinth Secret Passage 2-2",
+    "StageType": "EStageType::Bido"
+  },
+  {
+    "StageID": 201520015,
+    "StageName": "Demon Bull Labyrinth Secret Passage 2-3",
+    "QuestStageName": "Demon Bull Labyrinth Secret Passage 2-3",
+    "StageType": "EStageType::Bido"
+  },
+  {
+    "StageID": 201520067,
+    "StageName": "Demon Bull Labyrinth Secret Passage 3-1",
+    "QuestStageName": "Demon Bull Labyrinth Secret Passage 3-1",
+    "StageType": "EStageType::Bido"
+  },
+  {
+    "StageID": 201520068,
+    "StageName": "Demon Bull Labyrinth Secret Passage 3-2",
+    "QuestStageName": "Demon Bull Labyrinth Secret Passage 3-2",
+    "StageType": "EStageType::Bido"
+  },
+  {
+    "StageID": 201520069,
+    "StageName": "Demon Bull Labyrinth Secret Passage 3-3",
+    "QuestStageName": "Demon Bull Labyrinth Secret Passage 3-3",
+    "StageType": "EStageType::Bido"
+  },
+  {
+    "StageID": 201520019,
+    "StageName": "Snake Pit Labyrinth Secret Passage 1-1",
+    "QuestStageName": "Snake Pit Labyrinth Secret Passage 1-1",
+    "StageType": "EStageType::Bido"
+  },
+  {
+    "StageID": 201520020,
+    "StageName": "Snake Pit Labyrinth Secret Passage 1-2",
+    "QuestStageName": "Snake Pit Labyrinth Secret Passage 1-2",
+    "StageType": "EStageType::Bido"
+  },
+  {
+    "StageID": 201520021,
+    "StageName": "Snake Pit Labyrinth Secret Passage 1-3",
+    "QuestStageName": "Snake Pit Labyrinth Secret Passage 1-3",
+    "StageType": "EStageType::Bido"
+  },
+  {
+    "StageID": 201520022,
+    "StageName": "Snake Pit Labyrinth Secret Passage 2-1",
+    "QuestStageName": "Snake Pit Labyrinth Secret Passage 2-1",
+    "StageType": "EStageType::Bido"
+  },
+  {
+    "StageID": 201520023,
+    "StageName": "Snake Pit Labyrinth Secret Passage 2-2",
+    "QuestStageName": "Snake Pit Labyrinth Secret Passage 2-2",
+    "StageType": "EStageType::Bido"
+  },
+  {
+    "StageID": 201520024,
+    "StageName": "Snake Pit Labyrinth Secret Passage 2-3",
+    "QuestStageName": "Snake Pit Labyrinth Secret Passage 2-3",
+    "StageType": "EStageType::Bido"
+  },
+  {
+    "StageID": 201520070,
+    "StageName": "Snake Pit Labyrinth Secret Passage 3-1",
+    "QuestStageName": "Snake Pit Labyrinth Secret Passage 3-1",
+    "StageType": "EStageType::Bido"
+  },
+  {
+    "StageID": 201520071,
+    "StageName": "Snake Pit Labyrinth Secret Passage 3-2",
+    "QuestStageName": "Snake Pit Labyrinth Secret Passage 3-2",
+    "StageType": "EStageType::Bido"
+  },
+  {
+    "StageID": 201520072,
+    "StageName": "Snake Pit Labyrinth Secret Passage 3-3",
+    "QuestStageName": "Snake Pit Labyrinth Secret Passage 3-3",
+    "StageType": "EStageType::Bido"
+  },
+  {
+    "StageID": 201520028,
+    "StageName": "Abandoned Mine Labyrinth Secret Passage 1-1",
+    "QuestStageName": "Abandoned Mine Labyrinth Secret Passage 1-1",
+    "StageType": "EStageType::Bido"
+  },
+  {
+    "StageID": 201520029,
+    "StageName": "Abandoned Mine Labyrinth Secret Passage 1-2",
+    "QuestStageName": "Abandoned Mine Labyrinth Secret Passage 1-2",
+    "StageType": "EStageType::Bido"
+  },
+  {
+    "StageID": 201520030,
+    "StageName": "Abandoned Mine Labyrinth Secret Passage 1-3",
+    "QuestStageName": "Abandoned Mine Labyrinth Secret Passage 1-3",
+    "StageType": "EStageType::Bido"
+  },
+  {
+    "StageID": 201520031,
+    "StageName": "Abandoned Mine Labyrinth Secret Passage 2-1",
+    "QuestStageName": "Abandoned Mine Labyrinth Secret Passage 2-1",
+    "StageType": "EStageType::Bido"
+  },
+  {
+    "StageID": 201520032,
+    "StageName": "Abandoned Mine Labyrinth Secret Passage 2-2",
+    "QuestStageName": "Abandoned Mine Labyrinth Secret Passage 2-2",
+    "StageType": "EStageType::Bido"
+  },
+  {
+    "StageID": 201520033,
+    "StageName": "Abandoned Mine Labyrinth Secret Passage 2-3",
+    "QuestStageName": "Abandoned Mine Labyrinth Secret Passage 2-3",
+    "StageType": "EStageType::Bido"
+  },
+  {
+    "StageID": 201520073,
+    "StageName": "Abandoned Mine Labyrinth Secret Passage 3-1",
+    "QuestStageName": "Abandoned Mine Labyrinth Secret Passage 3-1",
+    "StageType": "EStageType::Bido"
+  },
+  {
+    "StageID": 201520074,
+    "StageName": "Abandoned Mine Labyrinth Secret Passage 3-2",
+    "QuestStageName": "Abandoned Mine Labyrinth Secret Passage 3-2",
+    "StageType": "EStageType::Bido"
+  },
+  {
+    "StageID": 201520075,
+    "StageName": "Abandoned Mine Labyrinth Secret Passage 3-3",
+    "QuestStageName": "Abandoned Mine Labyrinth Secret Passage 3-3",
+    "StageType": "EStageType::Bido"
+  },
+  {
+    "StageID": 201520046,
+    "StageName": "Heaven's Way Labyrinth Secret Passage 1-1",
+    "QuestStageName": "Heaven's Way Labyrinth Secret Passage 1-1",
+    "StageType": "EStageType::Bido"
+  },
+  {
+    "StageID": 201520047,
+    "StageName": "Heaven's Way Labyrinth Secret Passage 1-2",
+    "QuestStageName": "Heaven's Way Labyrinth Secret Passage 1-2",
+    "StageType": "EStageType::Bido"
+  },
+  {
+    "StageID": 201520048,
+    "StageName": "Heaven's Way Labyrinth Secret Passage 1-3",
+    "QuestStageName": "Heaven's Way Labyrinth Secret Passage 1-3",
+    "StageType": "EStageType::Bido"
+  },
+  {
+    "StageID": 201520049,
+    "StageName": "Heaven's Way Labyrinth Secret Passage 2-1",
+    "QuestStageName": "Heaven's Way Labyrinth Secret Passage 2-1",
+    "StageType": "EStageType::Bido"
+  },
+  {
+    "StageID": 201520050,
+    "StageName": "Heaven's Way Labyrinth Secret Passage 2-2",
+    "QuestStageName": "Heaven's Way Labyrinth Secret Passage 2-2",
+    "StageType": "EStageType::Bido"
+  },
+  {
+    "StageID": 201520051,
+    "StageName": "Heaven's Way Labyrinth Secret Passage 2-3",
+    "QuestStageName": "Heaven's Way Labyrinth Secret Passage 2-3",
+    "StageType": "EStageType::Bido"
+  },
+  {
+    "StageID": 201520076,
+    "StageName": "Heaven's Way Labyrinth Secret Passage 3-1",
+    "QuestStageName": "Heaven's Way Labyrinth Secret Passage 3-1",
+    "StageType": "EStageType::Bido"
+  },
+  {
+    "StageID": 201520077,
+    "StageName": "Heaven's Way Labyrinth Secret Passage 3-2",
+    "QuestStageName": "Heaven's Way Labyrinth Secret Passage 3-2",
+    "StageType": "EStageType::Bido"
+  },
+  {
+    "StageID": 201520078,
+    "StageName": "Heaven's Way Labyrinth Secret Passage 3-3",
+    "QuestStageName": "Heaven's Way Labyrinth Secret Passage 3-3",
+    "StageType": "EStageType::Bido"
+  },
+  {
+    "StageID": 201520055,
+    "StageName": "Redmoon Labyrinth Secret Passage 1-1",
+    "QuestStageName": "Redmoon Labyrinth Secret Passage 1-1",
+    "StageType": "EStageType::Bido"
+  },
+  {
+    "StageID": 201520056,
+    "StageName": "Redmoon Labyrinth Secret Passage 1-2",
+    "QuestStageName": "Redmoon Labyrinth Secret Passage 1-2",
+    "StageType": "EStageType::Bido"
+  },
+  {
+    "StageID": 201520057,
+    "StageName": "Redmoon Labyrinth Secret Passage 1-3",
+    "QuestStageName": "Redmoon Labyrinth Secret Passage 1-3",
+    "StageType": "EStageType::Bido"
+  },
+  {
+    "StageID": 201520058,
+    "StageName": "Redmoon Labyrinth Secret Passage 2-1",
+    "QuestStageName": "Redmoon Labyrinth Secret Passage 2-1",
+    "StageType": "EStageType::Bido"
+  },
+  {
+    "StageID": 201520059,
+    "StageName": "Redmoon Labyrinth Secret Passage 2-2",
+    "QuestStageName": "Redmoon Labyrinth Secret Passage 2-2",
+    "StageType": "EStageType::Bido"
+  },
+  {
+    "StageID": 201520060,
+    "StageName": "Redmoon Labyrinth Secret Passage 2-3",
+    "QuestStageName": "Redmoon Labyrinth Secret Passage 2-3",
+    "StageType": "EStageType::Bido"
+  },
+  {
+    "StageID": 201520079,
+    "StageName": "Redmoon Labyrinth Secret Passage 3-1",
+    "QuestStageName": "Redmoon Labyrinth Secret Passage 3-1",
+    "StageType": "EStageType::Bido"
+  },
+  {
+    "StageID": 201520080,
+    "StageName": "Redmoon Labyrinth Secret Passage 3-2",
+    "QuestStageName": "Redmoon Labyrinth Secret Passage 3-2",
+    "StageType": "EStageType::Bido"
+  },
+  {
+    "StageID": 201520081,
+    "StageName": "Redmoon Labyrinth Secret Passage 3-3",
+    "QuestStageName": "Redmoon Labyrinth Secret Passage 3-3",
+    "StageType": "EStageType::Bido"
+  },
+  {
+    "StageID": 201520101,
+    "StageName": "Phantasia Labyrinth Secret Passage 1-1",
+    "QuestStageName": "Phantasia Labyrinth Secret Passage 1-1",
+    "StageType": "EStageType::Bido"
+  },
+  {
+    "StageID": 201520102,
+    "StageName": "Phantasia Labyrinth Secret Passage 1-2",
+    "QuestStageName": "Phantasia Labyrinth Secret Passage 1-2",
+    "StageType": "EStageType::Bido"
+  },
+  {
+    "StageID": 201520103,
+    "StageName": "Phantasia Labyrinth Secret Passage 1-3",
+    "QuestStageName": "Phantasia Labyrinth Secret Passage 1-3",
+    "StageType": "EStageType::Bido"
+  },
+  {
+    "StageID": 201520104,
+    "StageName": "Phantasia Labyrinth Secret Passage 2-1",
+    "QuestStageName": "Phantasia Labyrinth Secret Passage 2-1",
+    "StageType": "EStageType::Bido"
+  },
+  {
+    "StageID": 201520105,
+    "StageName": "Phantasia Labyrinth Secret Passage 2-2",
+    "QuestStageName": "Phantasia Labyrinth Secret Passage 2-2",
+    "StageType": "EStageType::Bido"
+  },
+  {
+    "StageID": 201520106,
+    "StageName": "Phantasia Labyrinth Secret Passage 2-3",
+    "QuestStageName": "Phantasia Labyrinth Secret Passage 2-3",
+    "StageType": "EStageType::Bido"
+  },
+  {
+    "StageID": 201520107,
+    "StageName": "Phantasia Labyrinth Secret Passage 3-1",
+    "QuestStageName": "Phantasia Labyrinth Secret Passage 3-1",
+    "StageType": "EStageType::Bido"
+  },
+  {
+    "StageID": 201520108,
+    "StageName": "Phantasia Labyrinth Secret Passage 3-2",
+    "QuestStageName": "Phantasia Labyrinth Secret Passage 3-2",
+    "StageType": "EStageType::Bido"
+  },
+  {
+    "StageID": 201520109,
+    "StageName": "Phantasia Labyrinth Secret Passage 3-3",
+    "QuestStageName": "Phantasia Labyrinth Secret Passage 3-3",
+    "StageType": "EStageType::Bido"
+  },
+  {
+    "StageID": 201520201,
+    "StageName": "Rockcut Labyrinth Secret Passage 1-1",
+    "QuestStageName": "Rockcut Labyrinth Secret Passage 1-1",
+    "StageType": "EStageType::Bido"
+  },
+  {
+    "StageID": 201520202,
+    "StageName": "Rockcut Labyrinth Secret Passage 1-2",
+    "QuestStageName": "Rockcut Labyrinth Secret Passage 1-2",
+    "StageType": "EStageType::Bido"
+  },
+  {
+    "StageID": 201520203,
+    "StageName": "Rockcut Labyrinth Secret Passage 1-3",
+    "QuestStageName": "Rockcut Labyrinth Secret Passage 1-3",
+    "StageType": "EStageType::Bido"
+  },
+  {
+    "StageID": 201520204,
+    "StageName": "Rockcut Labyrinth Secret Passage 2-1",
+    "QuestStageName": "Rockcut Labyrinth Secret Passage 2-1",
+    "StageType": "EStageType::Bido"
+  },
+  {
+    "StageID": 201520205,
+    "StageName": "Rockcut Labyrinth Secret Passage 2-2",
+    "QuestStageName": "Rockcut Labyrinth Secret Passage 2-2",
+    "StageType": "EStageType::Bido"
+  },
+  {
+    "StageID": 201520206,
+    "StageName": "Rockcut Labyrinth Secret Passage 2-3",
+    "QuestStageName": "Rockcut Labyrinth Secret Passage 2-3",
+    "StageType": "EStageType::Bido"
+  },
+  {
+    "StageID": 201520207,
+    "StageName": "Rockcut Labyrinth Secret Passage 3-1",
+    "QuestStageName": "Rockcut Labyrinth Secret Passage 3-1",
+    "StageType": "EStageType::Bido"
+  },
+  {
+    "StageID": 201520208,
+    "StageName": "Rockcut Labyrinth Secret Passage 3-2",
+    "QuestStageName": "Rockcut Labyrinth Secret Passage 3-2",
+    "StageType": "EStageType::Bido"
+  },
+  {
+    "StageID": 201520209,
+    "StageName": "Rockcut Labyrinth Secret Passage 3-3",
+    "QuestStageName": "Rockcut Labyrinth Secret Passage 3-3",
+    "StageType": "EStageType::Bido"
+  },
+  {
+    "StageID": 201520301,
+    "StageName": "Sabuk Labyrinth Secret Passage 1-1",
+    "QuestStageName": "Sabuk Labyrinth Secret Passage 1-1",
+    "StageType": "EStageType::Bido"
+  },
+  {
+    "StageID": 201520302,
+    "StageName": "Sabuk Labyrinth Secret Passage 1-2",
+    "QuestStageName": "Sabuk Labyrinth Secret Passage 1-2",
+    "StageType": "EStageType::Bido"
+  },
+  {
+    "StageID": 201520303,
+    "StageName": "Sabuk Labyrinth Secret Passage 1-3",
+    "QuestStageName": "Sabuk Labyrinth Secret Passage 1-3",
+    "StageType": "EStageType::Bido"
+  },
+  {
+    "StageID": 201520304,
+    "StageName": "Sabuk Labyrinth Secret Passage 2-1",
+    "QuestStageName": "Sabuk Labyrinth Secret Passage 2-1",
+    "StageType": "EStageType::Bido"
+  },
+  {
+    "StageID": 201520305,
+    "StageName": "Sabuk Labyrinth Secret Passage 2-2",
+    "QuestStageName": "Sabuk Labyrinth Secret Passage 2-2",
+    "StageType": "EStageType::Bido"
+  },
+  {
+    "StageID": 201520306,
+    "StageName": "Sabuk Labyrinth Secret Passage 2-3",
+    "QuestStageName": "Sabuk Labyrinth Secret Passage 2-3",
+    "StageType": "EStageType::Bido"
+  },
+  {
+    "StageID": 201520307,
+    "StageName": "Sabuk Labyrinth Secret Passage 3-1",
+    "QuestStageName": "Sabuk Labyrinth Secret Passage 3-1",
+    "StageType": "EStageType::Bido"
+  },
+  {
+    "StageID": 201520308,
+    "StageName": "Sabuk Labyrinth Secret Passage 3-2",
+    "QuestStageName": "Sabuk Labyrinth Secret Passage 3-2",
+    "StageType": "EStageType::Bido"
+  },
+  {
+    "StageID": 201520309,
+    "StageName": "Sabuk Labyrinth Secret Passage 3-3",
+    "QuestStageName": "Sabuk Labyrinth Secret Passage 3-3",
+    "StageType": "EStageType::Bido"
+  },
+  {
+    "StageID": 301001010,
+    "StageName": "[Domination] Sabuk Castle",
+    "QuestStageName": "[Domination] Sabuk Castle",
+    "StageType": "EStageType::Field"
+  },
+  {
+    "StageID": 301001020,
+    "StageName": "[Domination] Sabuk Province",
+    "QuestStageName": "[Domination] Sabuk Province",
+    "StageType": "EStageType::Field"
+  },
+  {
+    "StageID": 301011010,
+    "StageName": "Domination Labyrinth 1F",
+    "QuestStageName": "Domination Labyrinth 1F",
+    "StageType": "EStageType::Labyrinth"
+  },
+  {
+    "StageID": 301011020,
+    "StageName": "Domination Labyrinth 2F",
+    "QuestStageName": "Domination Labyrinth 2F",
+    "StageType": "EStageType::Labyrinth"
+  },
+  {
+    "StageID": 301011030,
+    "StageName": "Domination Labyrinth 3F",
+    "QuestStageName": "Domination Labyrinth 3F",
+    "StageType": "EStageType::Labyrinth"
+  },
+  {
+    "StageID": 301011040,
+    "StageName": "Domination Labyrinth 4F",
+    "QuestStageName": "Domination Labyrinth 4F",
+    "StageType": "EStageType::Labyrinth"
+  }
+]
