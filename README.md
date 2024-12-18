@@ -31,6 +31,8 @@
 > [WIKI](https://www.lomcn.net/wiki/index.php/MIR4)
 >
 > [Tools](https://thelegendofmir.uk/tools)
+> 
+> [Item/Monster Database](https://thelegendofmir.uk/database)
 >
 > [Discord](https://discord.gg/KCnHvwJJWN)
 ---------------------------------------------------------------------------
